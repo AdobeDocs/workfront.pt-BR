@@ -71,11 +71,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Comece a criar ou editar um formulário personalizado, conforme descrito em [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Adicione campos e widgets personalizados ao formulário, conforme descrito em [Adicionar um campo personalizado a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Adicionar ou editar um widget de ativo em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-1. Ao criar ou editar o formulário personalizado, no **Adicionar um campo** clique em **Quebra de seção**.
+1. Ao criar ou editar o formulário personalizado, na guia **Adicionar um campo**, clique em **Quebra de Seção**.
 
    ![](assets/click-section-break.jpg)
 
-1. No **Configurações do campo** , configure as opções desejadas para a seção:
+1. Na guia **Configurações do Campo**, configure as opções desejadas para a seção:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,27 +93,27 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader"><p>Adicionar Lógica</p></td> 
-      <td><p>Use a lógica de exibição para especificar se a seção deve ser exibida no formulário, com base nas seleções que os usuários fazem em campos personalizados de múltipla escolha quando preenchem o formulário.</p><p><strong>NOTA:</strong> Se todos os campos individuais em uma quebra de seção tiverem lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado. Isso ocorrerá mesmo se a lógica de exibição não for aplicada à quebra de seção.</p><p>Para obter mais informações, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Adicionar lógica de exibição e lógica de salto a um formulário personalizado</a>.</p></td> 
+      <td><p>Use a lógica de exibição para especificar se a seção deve ser exibida no formulário, com base nas seleções que os usuários fazem em campos personalizados de múltipla escolha quando preenchem o formulário.</p><p><strong>OBSERVAÇÃO:</strong> se todos os campos individuais em uma quebra de seção tiverem uma lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado. Isso ocorrerá mesmo se a lógica de exibição não for aplicada à quebra de seção.</p><p>Para obter mais informações, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Adicionar lógica de exibição e lógica de salto a um formulário personalizado</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Conceder acesso</p> </td> 
       <td> <p> Selecione as permissões que os usuários precisam em um objeto ao qual o formulário personalizado está anexado para exibir esta seção e editar seus valores de campo.
-       <p>As seguintes permissões estão disponíveis em <b>Os usuários com esse acesso ao objeto podem visualizar valores de campo</b>:</p> 
+       <p>As seguintes permissões estão disponíveis em <b>Os usuários com este acesso ao objeto podem exibir os valores do campo</b>:</p> 
          <ul>
-          <li><strong>Exibir</strong>: permissões de exibição para o objeto</li>
+          <li><strong>Exibir</strong>: exibir permissões para o objeto</li>
           <li><p><b>Edição Limitada</b>: (Disponível somente se o objeto for um projeto, tarefa, problema ou usuário):</p> 
           <p>Permite que os usuários contribuam com o objeto se ele for um projeto, tarefa ou problema.</p>
           <p>Permite que os usuários editem o perfil ou sejam proprietários da permissão de perfil para o objeto, se for um usuário.</p></li> 
-          <li><b>Editar</b>: Gerenciar permissões para o objeto </li> 
-          <li><b>Somente administrador</b>: Nível de acesso do Administrador do sistema</li> 
+          <li><b>Editar</b>: gerenciar permissões para o objeto </li> 
+          <li><b>Somente administrador</b>: nível de acesso de Administrador do Sistema</li> 
          </ul> </li> 
-        <p>As seguintes permissões estão disponíveis em <b>Os usuários com esse acesso ao objeto podem editar valores de campo</b>: </p> 
+        <p>As seguintes permissões estão disponíveis em <b>Os usuários com este acesso ao objeto podem editar os valores dos campos</b>: </p> 
          <ul> 
           <li> <p><b>Edição Limitada</b>: (Disponível somente se o objeto for um projeto, tarefa, problema ou usuário):</p> 
            <p>Se o objeto for um projeto, tarefa ou problema, essa permissão permitirá que os usuários contribuam para o objeto</p>
           <p>Se o objeto for um usuário, essa permissão permitirá que os usuários editem o perfil ou sejam proprietários da permissão de perfil para o objeto.</p> 
-          <li><b>Editar</b>: Gerenciar permissões para o objeto </li> 
-          <li><b>Somente administrador</b>: Nível de acesso do Administrador do sistema</li> 
+          <li><b>Editar</b>: gerenciar permissões para o objeto </li> 
+          <li><b>Somente administrador</b>: nível de acesso de Administrador do Sistema</li> 
          </ul> </li> 
        </ul> 
        <p>Para obter informações sobre permissões em objetos, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Visão geral das permissões de compartilhamento em objetos</a>.</p> 
@@ -224,7 +224,7 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 
 >[!INFO]
 >
->**Exemplo:** Em um formulário personalizado associado ao tipo de objeto Projeto, uma quebra de seção é configurada com a permissão Edição limitada.
+>**Exemplo:** em um formulário personalizado associado ao tipo de objeto Projeto, uma quebra de seção é configurada com a permissão Edição Limitada.
 >
 >Você adiciona o tipo de objeto Portfolio ao formulário, o que significa que a opção de permissão Edição limitada não está mais disponível para a quebra de seção no formulário.
 >

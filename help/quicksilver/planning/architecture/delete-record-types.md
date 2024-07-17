@@ -31,9 +31,9 @@ hide: yes
 
 É possível excluir tipos de registro quando eles não forem mais relevantes.
 
-No entanto, a exclusão de tipos de registro também exclui todas as informações associadas aos tipos de registro. Para obter mais informações, consulte [Considerações ao excluir tipos de registro](#considerations-when-deleting-record-types) neste artigo.
+No entanto, a exclusão de tipos de registro também exclui todas as informações associadas aos tipos de registro. Para obter mais informações, consulte a seção [Considerações ao excluir tipos de registro](#considerations-when-deleting-record-types) neste artigo.
 
-Para obter informações sobre tipos de registros, consulte [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Para obter informações sobre tipos de registros, consulte [Visão geral sobre tipos de registros](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -80,13 +80,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -131,11 +131,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    O espaço de trabalho é aberto e os tipos de registro são exibidos.
 1. Siga um destes procedimentos:
 
-   * Passe o mouse sobre o cartão de tipo de registro, clique no menu Mais e, em seguida, **Excluir**.
-   * Clique no cartão referente ao tipo de registro que deseja deletar e, na página Tipo de registro, clique no **Mais** menu ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**.
+   * Passe o mouse sobre o cartão de tipo de registro, clique no menu Mais e **Excluir**.
+   * Clique no cartão do tipo de registro que deseja excluir e, na página de tipo de registro, clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. Tipo **excluir** na caixa de confirmação e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
+1. Digite **excluir** na caixa de confirmação e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 
    O tipo de registro selecionado, juntamente com seus campos, registros associados e exibições são excluídos.

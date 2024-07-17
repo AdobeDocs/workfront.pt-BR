@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Prova feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte [21.4 Visão geral da versão](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte a [Visão geral da versão 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Recursos de prova aprimorados para revisores e solicitantes
 
@@ -31,4 +31,4 @@ Para fornecer uma experiência mais integrada entre o Workfront e o Proof, fizem
 * É possível adicionar Revisores e Solicitantes a provas que exigem um logon ou que precisam ser assinadas eletronicamente.
 * Todos os usuários também se beneficiam da conectividade aprimorada entre o Workfront e o Proof. Agora, ao desativar um usuário ou atualizar seu endereço de email, suas atualizações serão refletidas corretamente na prova quando alteradas no Workfront.
 
-Para obter mais informações, consulte [Visão geral das funções de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Para obter mais informações, consulte [Visão geral das Funções de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).

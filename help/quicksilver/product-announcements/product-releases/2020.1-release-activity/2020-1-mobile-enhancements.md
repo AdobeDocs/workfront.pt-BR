@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Mobile com a versão 2020.1.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte [Visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte a [visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Experiência contínua entre o aplicativo móvel e a Web
 

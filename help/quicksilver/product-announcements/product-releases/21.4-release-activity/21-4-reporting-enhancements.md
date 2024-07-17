@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Relatórios feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte [21.4 Visão geral da versão](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte a [Visão geral da versão 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nova aparência para o campo Atribuições em listas e relatórios atualizados
 
@@ -58,6 +58,6 @@ Para corresponder à aparência moderna de outras áreas na nova experiência do
 * Ao clicar em um campo de digitação antecipada, o menu de sugestões agora é exibido antes da inserção do texto.
 * O menu de sugestões é mais responsivo ao comprimento dos valores e esses valores agora são truncados no final quando o limite de caracteres é atingido, em vez de no meio do valor.
 
-Para obter informações sobre listas atualizadas, consulte [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Para obter informações sobre listas atualizadas, consulte a seção [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)

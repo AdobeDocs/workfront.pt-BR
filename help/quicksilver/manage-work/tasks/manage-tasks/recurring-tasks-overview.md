@@ -11,7 +11,7 @@ role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '688'
 ht-degree: 3%
 
 ---
@@ -93,11 +93,11 @@ A tabela a seguir ilustra se as alterações feitas nas atualizações do aciona
 
 {style="table-layout:auto"}
 
-&#42; Os cenários a seguir existem ao atualizar a Frequência de Recorrência de uma tarefa pai:
+&#42; Os cenários a seguir existem quando você atualiza a Frequência de Recorrência de uma tarefa pai:
 
 * Se você alterar a Frequência de Recorrência em uma tarefa pai existente, as subtarefas existentes serão excluídas e substituídas por novas subtarefas que seguem a nova frequência de recorrência se elas não mostrarem nenhum progresso e se você não as tiver atualizado manualmente.
 * Se você alterar a Frequência de Recorrência em uma tarefa pai existente, as subtarefas que mostram progresso não serão excluídas. Essas tarefas são consideradas separadas da recorrência neste ponto.
 
-&#42;&#42; As atribuições feitas na tarefa pai são aplicadas a todas as subtarefas na recorrência. Quaisquer alterações feitas na atribuição da tarefa-pai substituem quaisquer atribuições individuais na subtarefa. Se a tarefa mostrar andamento, a atribuição não será alterada.
+&#42;&#42; Atribuições feitas na tarefa pai são aplicadas a todas as subtarefas na recorrência. Quaisquer alterações feitas na atribuição da tarefa-pai substituem quaisquer atribuições individuais na subtarefa. Se a tarefa mostrar andamento, a atribuição não será alterada.
 
  

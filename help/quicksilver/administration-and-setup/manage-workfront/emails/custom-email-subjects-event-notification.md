@@ -51,26 +51,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Planejador ou superior, com acesso administrativo a notificações de lembrete</p> <p>Para obter informações sobre como conceder acesso administrativo a um usuário do Plano, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+   <td> <p>Planejador ou superior, com acesso administrativo a notificações de lembrete</p> <p>Para obter informações sobre como conceder acesso administrativo a um usuário do Plano, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder acesso administrativo a determinadas áreas aos usuários</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Personalizar linhas de assunto de email para notificações de eventos {#customize-email-subject-lines-for-event-notifications}
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. No painel esquerdo, clique em **E-mail** > **Notificação**.
+1. No painel esquerdo, clique em **Email** > **Notificações**.
 
-1. Clique em **Notificações de Eventos** guia.
-1. Clique no nome da notificação de evento que deseja personalizar para abrir a **Notificação de eventos** caixa.
-1. No **Linha de assunto do email** , altere o texto e os campos, incluindo campos personalizados, no assunto do email.
+1. Clique na guia **Notificações de Eventos**.
+1. Clique no nome da notificação de eventos que deseja personalizar para abrir a caixa **Notificação de Eventos**.
+1. Na caixa **Linha de assunto do email**, altere o texto e os campos, incluindo campos personalizados, no assunto do email.
 
    Os nomes dos campos adicionados devem corresponder à sintaxe de camel case da estrutura do banco de dados. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. Clique em **Atualizar** para salvar as novas linhas de assunto dos seus emails.
+1. Clique em **Atualizar** para salvar as novas linhas de assunto para seus emails.
 
 ## Personalizar linhas de assunto de email para emails com vários objetos
 
@@ -84,7 +84,7 @@ Se um usuário for incluído em uma conversa na tarefa, problema, tarefa de mode
 
 Se adicionado a uma conversa de projeto, um email com o segundo assunto será gerado. Aqui, a linha de assunto contém &quot;topReferenceObject:name&quot; e, novamente, o Workfront identifica qual objeto foi referenciado e retornará esse nome de objeto em vez de &quot;topReferenceObject:name&quot; no assunto. A linha de assunto do email seria semelhante a esta: &quot;Comment on Project ABC&quot;.
 
-Para editar as linhas de assunto do email e adicionar campos adicionais a qualquer uma das linhas de assunto, consulte [Personalizar linhas de assunto de email para notificações de eventos](#customize-email-subject-lines-for-event-notifications) neste artigo.
+Para editar as linhas de assunto do email e adicionar campos adicionais às linhas de assunto, consulte [Personalizar linhas de assunto de email para notificações de eventos](#customize-email-subject-lines-for-event-notifications) neste artigo.
 
 ## Personalizar linhas de assunto de email para emails de várias ações
 
@@ -94,4 +94,4 @@ Por exemplo, solicitar que um documento seja adicionado a um problema é um even
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
-Para editar as linhas de assunto do email e adicionar campos adicionais a qualquer uma das linhas de assunto, consulte [Personalizar linhas de assunto de email para notificações de eventos](#customize-email-subject-lines-for-event-notifications) neste artigo.
+Para editar as linhas de assunto do email e adicionar campos adicionais às linhas de assunto, consulte [Personalizar linhas de assunto de email para notificações de eventos](#customize-email-subject-lines-for-event-notifications) neste artigo.

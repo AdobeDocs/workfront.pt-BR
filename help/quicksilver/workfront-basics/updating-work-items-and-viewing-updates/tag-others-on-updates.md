@@ -49,7 +49,7 @@ Em vez de incluir esses usuários no objeto atribuindo-os a ele ou fazendo com q
 
 * Os usuários marcados em atualizações devem ativar uma notificação pessoal em seus perfis para que eles recebam a notificação por email. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-  Para obter informações sobre como adicionar atualizações a objetos do Workfront, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  Para obter informações sobre como adicionar atualizações a objetos do Workfront, consulte [Trabalho de atualização](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Quando um problema é convertido em um projeto ou tarefa, as atualizações são copiadas para o novo projeto ou tarefa, mas os usuários marcados não. Para continuar a conversa, você deve marcar os participantes novamente.
 
@@ -98,11 +98,11 @@ Também é possível remover usuários que foram marcados por engano ao editar o
    >
    >O proprietário do comentário não pode ver seu próprio nome na área Marcar pessoas ou equipes da caixa de comentários.
 
-1. No **Marcar pessoas ou equipes** comece digitando o nome do usuário ou da equipe que deseja incluir e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Marcar pessoas ou equipes**, comece digitando o nome do usuário ou da equipe que deseja incluir e clique no nome quando ele aparecer na lista suspensa.
 
    Ou
 
-   Digite o símbolo @ na caixa **Escreva um comentário** comece digitando o nome do usuário ou da equipe que deseja incluir na atualização e clique no nome quando ele aparecer na lista suspensa.
+   Digite o símbolo @ na área **Escreva um comentário**, comece digitando o nome do usuário ou da equipe que deseja incluir na atualização e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    > 
@@ -114,7 +114,7 @@ Também é possível remover usuários que foram marcados por engano ao editar o
 
    ![Marcar um usuário](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Opcional) Para tornar a atualização privada, ative **Privativo(s) de minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. A variável **Privativo(s) de minha empresa** A opção está disponível somente quando uma Empresa é especificada no perfil do Workfront.
+1. (Opcional) Para tornar a atualização privada, habilite **Privado para minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. A opção **Particular para minha empresa** está disponível somente quando uma Empresa é especificada em seu perfil do Workfront.
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ Também é possível remover usuários que foram marcados por engano ao editar o
 
    Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) no canto superior direito do comentário e clique em **Editar**. Remova os usuários marcados e clique em **Enviar**.
+1. (Opcional) Clique no menu ![](assets/more-menu.png) de **Mais**, no canto superior direito do comentário, e clique em **Editar**. Remova qualquer um dos usuários marcados e clique em **Enviar**.
 
    >[!IMPORTANT]
    >

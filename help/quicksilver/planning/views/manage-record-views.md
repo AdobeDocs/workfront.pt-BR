@@ -26,7 +26,7 @@ Depois de selecionar um tipo de registro na área Adobe Workfront Planning, voc�
 
 * Linha do tempo
 
-  Para obter mais informações, consulte [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+  Para obter mais informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 * Calendário
 
@@ -34,9 +34,9 @@ Depois de selecionar um tipo de registro na área Adobe Workfront Planning, voc�
 
 Este artigo descreve as seguintes informações sobre visualizações de registro:
 
-* [Criar e editar uma visualização](#create-or-edit-record-views)
+* [Criar e editar um modo de exibição](#create-or-edit-record-views)
 * [Excluir um modo de exibição](#delete-views)
-* [Duplicar uma visualização](#duplicate-views)
+* [Duplicar uma exibição](#duplicate-views)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -109,7 +109,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * As exibições criadas estão visíveis somente para você e os usuários com os quais você compartilha as exibições.
 * Quando você modifica ou exclui uma exibição, ela é modificada e excluída para todos os usuários que têm permissões para a exibição.
 * Cada usuário pode criar no máximo 100 visualizações. Você pode exibir mais de 100 visualizações para um tipo de registro, mas um usuário pode criar apenas 100 visualizações.
-* É possível compartilhar visualizações criadas com outras pessoas. Para obter informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
+* É possível compartilhar visualizações criadas com outras pessoas. Para obter informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 * Os seguintes elementos são exclusivos para cada exibição de registro:
 
    * Filtro
@@ -168,7 +168,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Clique em **+ Exibir** para adicionar uma nova visualização.
+1. Clique em **+ Exibição** para adicionar um novo modo de exibição.
 1. Selecione entre os seguintes tipos de exibições:
 
    * Tabela
@@ -177,7 +177,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    Uma nova guia é criada com a exibição selecionada.
 
-   Dependendo da largura da tela, podem ser exibidas visualizações adicionais no **Mais** menu ![](assets/more-menu.png).
+   Dependendo da largura da tela, modos de exibição adicionais podem ser exibidos no menu **Mais** ![](assets/more-menu.png).
 
 
 >[!TIP]
@@ -191,7 +191,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. (Condicional) Clique em **Próxima**, ao criar uma exibição de linha do tempo ou calendário.
+1. (Condicional) Clique em **Avançar** ao criar uma exibição de linha do tempo ou calendário.
 
    Por padrão, o Workfront atribui à exibição um dos seguintes nomes:
 
@@ -201,19 +201,19 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    O número é um incremento gerado automaticamente.
 
-1. (Condicional) Selecione a variável **Início** e **Datas finais** para os registros que serão exibidos na exibição de linha do tempo ou calendário.
+1. (Condicional) Selecione as **Datas de início** e **datas de término** para os registros que serão exibidos na exibição de linha do tempo ou calendário.
 
    >[!TIP]
    >
-   >    Você pode selecionar entre campos de data de registro ou campos de data de pesquisa a partir de tipos de objeto ou registro conectados. Você deve usar agregadores para campos de data (MAX ou MIN) ao selecionar campos de pesquisa como datas Inicial e Final para as exibições de linha do tempo e calendário. Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Você pode selecionar entre campos de data de registro ou campos de data de pesquisa a partir de tipos de objeto ou registro conectados. Você deve usar agregadores para campos de data (MAX ou MIN) ao selecionar campos de pesquisa como datas Inicial e Final para as exibições de linha do tempo e calendário. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Clique em **Criar**.
 
    A visualização é exibida como uma nova guia. As exibições são exibidas na ordem cronológica de quando foram criadas ou compartilhadas com você.
-1. (Opcional) Clique no link **Mais** menu ![](assets/more-caret-down-icon-views.png) ao lado da última exibição para exibir todas as exibições do tipo de registro selecionado.
+1. (Opcional) Clique no menu **Mais** ![](assets/more-caret-down-icon-views.png) ao lado da última exibição para exibir todas as exibições do tipo de registro selecionado.
 
-   Exibições adicionais são exibidas sob o **Mais** após a última guia view. O número ao lado do **Mais** mostra o número de visualizações adicionais.
-1. (Opcional) Para renomear uma view após sua criação, clique no menu suspenso exibir e, em seguida, clique na **Mais** menu ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição
+   Exibições adicionais são exibidas no menu **Mais** após a última guia de exibição. O número ao lado do menu **Mais** mostra o número de exibições adicionais.
+1. (Opcional) Para renomear uma exibição depois de sua criação, clique no menu suspenso exibição e no menu **Mais** ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição
 
    Ou
 
@@ -240,8 +240,8 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Passe o mouse sobre um dos nomes da exibição na guia Exibir e clique em **Mais** ![](assets/more-menu.png) à esquerda do nome da exibição, clique em **Excluir**.
-Primeiro, talvez seja necessário clicar em **Mais** à esquerda da última guia para localizar a exibição que deseja excluir.
+1. Passe o mouse sobre um dos nomes de exibição na guia de exibição, em seguida, clique em **Mais** ![](assets/more-menu.png) à esquerda do nome da exibição e em **Excluir**.
+Primeiro, talvez seja necessário clicar em **Mais** à esquerda da última guia para localizar o modo de exibição que você deseja excluir.
 
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
 
@@ -270,10 +270,10 @@ As permissões de compartilhamento da exibição original não são transferidas
    A página de tipo de registro é aberta.
 Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Passe o mouse sobre a guia da exibição que deseja duplicar e clique no ícone **Mais** menu ![](assets/more-menu.png) à direita do nome da exibição, clique em **Duplicar**.
+1. Passe o mouse sobre a guia da exibição que você deseja duplicar, clique no menu **Mais** ![](assets/more-menu.png) à direita do nome da exibição e clique em **Duplicar**.
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 
 
-   A visualização é duplicada e o nome da nova visualização segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.
+   A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.
 

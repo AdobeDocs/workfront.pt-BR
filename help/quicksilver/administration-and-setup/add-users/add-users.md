@@ -27,7 +27,7 @@ Esse índice contém links para as seguintes subseções sobre o gerenciamento d
 
 * [Criar e gerenciar usuários: índice do artigo](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
 * [Como funcionam os novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-* [Como os níveis de acesso funcionam](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-* [Configuração do acesso ao Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
+* [Como funcionam os níveis de acesso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+* [Configurar acesso ao Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
 * [Logon único no Workfront: índice do artigo](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 * [Criar e gerenciar equipes](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)

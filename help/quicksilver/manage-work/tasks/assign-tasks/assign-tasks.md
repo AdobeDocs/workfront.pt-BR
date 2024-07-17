@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 É possível atribuir tarefas a usuários, funções de trabalho ou equipes para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
 
@@ -44,12 +44,12 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
 * [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Fazer atribuições inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Modificar atribuições de vários usuários em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [Modificar várias atribuições de usuário em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Planejar uma visão geral do projeto](../../../manage-work/projects/planning-a-project/plan-project.md)
-* [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [Definir a data de conclusão planejada do projeto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
-* [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
+* [Visão geral da Data de Término Planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
+* [Definir a Data de Término Planejada do projeto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
 * [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisitos de acesso
@@ -110,7 +110,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou mais altas para tarefas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Contribute ou permissões mais altas para tarefas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,10 +123,10 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
-* Os usuários podem ter mais de uma função de trabalho associada ao seu perfil. Para obter informações sobre como associar usuários a funções de trabalho, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Os usuários podem ter mais de uma função de trabalho associada ao seu perfil. Para obter informações sobre como associar usuários a funções de trabalho, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Se você atribuir mais de um usuário a uma tarefa ou problema, o primeiro usuário selecionado será designado automaticamente como o proprietário da tarefa ou problema.
-Para obter instruções sobre como alterar isso, consulte as informações sobre a opção Tornar primário no artigo [Criar atribuições avançadas](create-advanced-assignments.md).
+Para obter instruções sobre como alterar isso, consulte as informações sobre a opção Tornar Primário no artigo [Criar atribuições avançadas](create-advanced-assignments.md).
 
 * Uma equipe não pode ser um responsável primário em uma tarefa ou problema. Somente um usuário ou uma função de trabalho pode ser designada como Principal em uma tarefa ou problema.
 
@@ -151,7 +151,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Se várias funções forem atribuídas e pelo menos uma delas corresponder a uma das outras funções do usuário, a tarefa ou problema será atribuído ao usuário (a função é selecionada aleatoriamente se houver várias correspondências), juntamente com quaisquer funções adicionais atribuídas</li>
       <li>Se pelo menos uma função de trabalho for atribuída e não houver correspondência entre as funções de trabalho do usuário, a tarefa ou problema será atribuída à função ou às funções e ao usuário.</li>
      </ul>
-   <p>Para obter informações sobre a função principal de um usuário e outras funções, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Editar o perfil de um usuário</a>.</p>
+   <p>Para obter informações sobre a função primária de um usuário e outras funções, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Editar perfil de um usuário</a>.</p>
    </td> 
      </tr>
   </tbody>
@@ -174,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Atribuir uma única tarefa
 
 1. Vá para uma tarefa que você deseja atribuir.
-1. Clique em **Atribuir a** no **Atribuições** no cabeçalho da tarefa
+1. Clique em **Atribuir a** no campo **Atribuições** no cabeçalho da tarefa
 
    Ou
 
@@ -183,7 +183,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    No ambiente de produção:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">No ambiente de Pré-visualização:</span>
+   <span class="preview">No ambiente de Visualização:</span>
    ![Atribuições](assets/assignments-box-in-task-header.png)
 
 1. Siga um destes procedimentos:
@@ -197,10 +197,10 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode pesquisar a função de trabalho ou o local. Selecione uma função na lista Funções de trabalho para usar a taxa de cobrança padrão para a atribuição ou selecione uma função de trabalho Cartão de taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode procurar a função de trabalho ou o local. Selecione uma função na lista Funções de trabalho para usar a taxa de cobrança padrão para a atribuição ou selecione uma função de trabalho Cartão de taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condicional) Clique em um dos nomes na caixa <span class="preview">**Atribuições sugeridas**, **Usuário e equipes** ou **Funções de trabalho** ou **Avaliar funções de cartão**</span> listas quando são exibidas. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condicional) Clique em um dos nomes nas listas <span class="preview">**Atribuições sugeridas**, **Usuários e equipes** ou **Funções de trabalho** ou **Classificar funções de cartão**</span> quando forem exibidas. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Você pode começar a digitar o nome de qualquer usuário, equipe ou função de trabalho para atribuir à tarefa e, em seguida, selecioná-lo quando ele for exibido na lista.
 
@@ -209,11 +209,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      Para obter informações sobre como fazer atribuições avançadas, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. Clique em **Salvar**.
-1. (Opcional e condicional) Clique no link **Ícone X** ao lado do nome da atribuição no painel direito da tarefa para remover uma atribuição, se você clicou em **Avançado**.
+1. (Opcional e condicional) Clique no ícone **X** ao lado do nome da atribuição no painel direito da tarefa para remover uma atribuição, se você clicou em **Avançado**.
 
 ## Atribuir uma tarefa em uma lista
 
-É possível atribuir tarefas em uma lista ou um relatório quando qualquer um dos campos de atribuições estiver visível na exibição da lista. Essa é uma maneira mais rápida de atribuir tarefas. Este artigo descreve como modificar atribuições de uma tarefa em uma lista. Para obter informações sobre como modificar várias atribuições para várias tarefas em uma lista, consulte [Modificar atribuições de vários usuários em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+É possível atribuir tarefas em uma lista ou um relatório quando qualquer um dos campos de atribuições estiver visível na exibição da lista. Essa é uma maneira mais rápida de atribuir tarefas. Este artigo descreve como modificar atribuições de uma tarefa em uma lista. Para obter informações sobre como modificar várias atribuições para várias tarefas em uma lista, consulte [Modificar várias atribuições de usuário em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 Dependendo de qual campo estiver visível na exibição, você poderá atribuir as seguintes entidades à tarefa:
 
@@ -226,7 +226,7 @@ Dependendo de qual campo estiver visível na exibição, você poderá atribuir 
 Para atribuir tarefas em uma lista:
 
 1. Vá para uma lista de tarefas que tenha os campos Assigned To, Assigned, ou Assignments no modo de exibição.
-1. (Opcional) Clique no link **Salvamento automático** e selecione uma das seguintes opções:
+1. (Opcional) Clique no menu suspenso **Salvamento automático** e selecione uma das seguintes opções:
 
    | Opção | Descrição da opção |
    |---|---| 
@@ -234,12 +234,12 @@ Para atribuir tarefas em uma lista:
    | Salvamento manual | Você deve salvar manualmente as alterações. Você pode reverter suas alterações antes de salvá-las. |
    | Planejamento da linha do tempo | Você deve salvar manualmente as alterações. Você pode reverter suas alterações antes de salvá-las. Salvar as alterações e todas as dependências do projeto é mais rápido do que selecionar Salvar manualmente. |
 
-   Para obter mais informações sobre como salvar tarefas ao editá-las, consulte [Editar tarefas em uma lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+   Para obter mais informações sobre como salvar tarefas ao editá-las em uma lista, consulte [Editar tarefas em uma lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 1. Para atribuir tarefas, siga um destes procedimentos:
 
-   * Clique dentro do **Atribuído a** ou **Atribuído** e comece a digitar o nome de um usuário ativo que deseja atribuir à tarefa, em seguida, clique nele quando ele for exibido na lista.
-   * Clique dentro do **Atribuições** e comece a digitar o nome de um usuário, função de trabalho ou equipe ativos que deseja atribuir à tarefa e, em seguida, clique nele quando ele for exibido na lista.
+   * Clique dentro dos campos **Atribuído a** ou **Atribuído** e comece a digitar o nome de um usuário ativo que deseja atribuir à tarefa, em seguida, clique nele quando ele for exibido na lista.
+   * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho ou equipe ativos que deseja atribuir à tarefa, em seguida, clique nele quando ele for exibido na lista.
 
      >[!TIP]
      >
@@ -247,10 +247,10 @@ Para atribuir tarefas em uma lista:
      >
      >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode pesquisar a função de trabalho ou o local. Selecione a Função de Trabalho Sistema/Padrão para usar a taxa de cobrança padrão para a atribuição ou selecione uma Função de Trabalho de Cartão de Taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode procurar a função de trabalho ou o local. Selecione a Função de Trabalho Sistema/Padrão para usar a taxa de cobrança padrão para a atribuição ou selecione uma Função de Trabalho de Cartão de Taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-1. (Condicional) Quando visível na variável **Atribuições** clique no botão **Pessoas** no canto superior direito da caixa atribuições para abrir a caixa **Atribuições avançadas** e criar atribuições avançadas.
+1. (Condicional) Quando visível no campo **Atribuições**, clique no ícone **Pessoas** no canto superior direito da caixa de atribuições para abrir a caixa **Atribuições Avançadas** e criar atribuições avançadas.
 
    <!--
    there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
@@ -262,12 +262,12 @@ Para atribuir tarefas em uma lista:
    >
    >Não é possível fazer atribuições avançadas nos campos Atribuído a ou Atribuído.
 
-1. Depois de adicionar os atribuídos à tarefa, pressione Enter ou clique em qualquer lugar na página para salvar as alterações se tiver selecionado Salvamento automático. Caso contrário, clique **Salvar**.
+1. Depois de adicionar os atribuídos à tarefa, pressione Enter ou clique em qualquer lugar na página para salvar as alterações se tiver selecionado Salvamento automático. Ou clique em **Salvar**.
 
 ## Atribuir várias tarefas a um usuário
 
 1. Vá para uma lista de tarefas que você deseja atribuir em massa.
-1. (Condicional) Assegure que o **Salvamento automático** será selecionada se você estiver em uma lista de tarefas em um projeto.
+1. (Condicional) Verifique se a opção **Salvar automaticamente** está selecionada se você estiver em uma lista de tarefas em um projeto.
 
    >[!IMPORTANT]
    >
@@ -276,36 +276,36 @@ Para atribuir tarefas em uma lista:
 1. Selecione várias tarefas na lista de tarefas.
 1. Clique em **Editar**.
 
-   A variável **Editar Tarefas** é aberta.
+   A caixa de diálogo **Editar Tarefas** é aberta.
 
-1. No **Atribuições** , selecione a **Destinatário** e comece a digitar o nome de um usuário, função de trabalho ou equipe que deseja atribuir a todas as tarefas.
+1. Na área **Atribuições**, marque a caixa **Destinatário** e comece a digitar o nome de um usuário, função de trabalho ou equipe que deseja atribuir a todas as tarefas.
 
    >[!IMPORTANT]
    >
    >Se qualquer uma das tarefas já estiver atribuída, os recursos que você indicar aqui serão adicionados às tarefas em vez de substituir os recursos existentes nas tarefas.
 
-1. (Opcional) Selecione o botão de opção na caixa **Proprietário da tarefa** para indicar qual recurso é o principal designado ou o Proprietário da tarefa, quando você atribuir mais de um recurso à tarefa. Isto não está disponível para equipes.
+1. (Opcional) Selecione o botão de opção na coluna **Proprietário da Tarefa** para indicar qual recurso é o destinatário primário ou o Proprietário da tarefa, quando você atribui mais de um recurso à tarefa. Isto não está disponível para equipes.
 1. (Condicional) Especifique a **Alocação %** para cada recurso atribuído à tarefa se todas as tarefas selecionadas tiverem um Tipo de Duração de Atribuição Calculada ou Orientada pelo Esforço. Isso indica quanto tempo esses recursos devem gastar na conclusão da tarefa. Isso só está disponível para usuários e funções de trabalho.
 
    Ou
 
-   Especificar a quantidade de **Horas** para cada recurso atribuído à tarefa se todas as tarefas selecionadas tiverem um Tipo de Duração Simples. O total de todas as horas de todos os recursos deve ser igual ao número de Horas planejadas da tarefa.
+   Especifique a quantidade de **Horas** para cada recurso atribuído à tarefa se todas as tarefas selecionadas tiverem um Tipo de Duração de Simples. O total de todas as horas de todos os recursos deve ser igual ao número de Horas planejadas da tarefa.
 
    >[!IMPORTANT]
    >
    >Você não poderá especificar a porcentagem de alocação ou o número de horas por recurso se as tarefas selecionadas tiverem Tipos de Duração diferentes ou se as tarefas selecionadas tiverem Tipos de Duração diferentes.
 
-   Para obter informações sobre o Tipo de duração em tarefas, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Para obter informações sobre o Tipo de Duração em tarefas, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Opcional) Selecione uma função que o usuário deve desempenhar na tarefa a partir da **Escolher uma função** menu suspenso no **Função do atribuidor** quando você atribui usuários a tarefas. Se você não selecionar uma função, o Workfront selecionará automaticamente a função principal do usuário.
+1. (Opcional) Selecione uma função que o usuário deve desempenhar na tarefa a partir do menu suspenso **Escolha uma função** na coluna **Função do destinatário** ao atribuir usuários a tarefas. Se você não selecionar uma função, o Workfront selecionará automaticamente a função principal do usuário.
 
 1. (Opcional) Se você deseja remover os atribuídos existentes de todas as tarefas, execute um dos seguintes procedimentos:
 
-   1. Comece a digitar o nome de um usuário, função ou equipe que deseja remover da tarefa, selecione-o quando ele aparecer na lista e clique em **Remover atribuidor** para remover mais atribuídos.
-   1. Clique em **Remover todos os atribuídos existentes** para remover todos os atribuídos da tarefa selecionada.
+   1. Comece digitando o nome de um usuário, função ou equipe que deseja remover da tarefa, selecione-o quando ele aparecer na lista e clique em **Remover responsável** para remover mais responsáveis.
+   1. Clique em **Remover todos os atribuídos existentes** para remover todos os atribuídos de todas as tarefas selecionadas.
 
 1. Clique em **Salvar alterações**.
-1. (Opcional e condicional) Quando os campos Atribuído a ou Atribuições forem exibidos na lista de tarefas, clique dentro de uma dessas colunas para uma tarefa e, em seguida, clique na guia **Ícone X** ao lado do nome de um destinatário para removê-lo da tarefa.
+1. (Opcional e condicional) Quando os campos Atribuído a ou Atribuições forem exibidos na lista de tarefas, clique dentro de uma dessas colunas para uma tarefa e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo da tarefa.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

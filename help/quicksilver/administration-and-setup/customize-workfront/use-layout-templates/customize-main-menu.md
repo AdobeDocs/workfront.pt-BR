@@ -29,7 +29,7 @@ Como administrador do Adobe Workfront ou administrador de grupo, você pode usar
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar os modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Após configurar um modelo de layout, você deve atribuí-lo aos usuários para que as alterações feitas fiquem visíveis para outros usuários. Para obter informações sobre como atribuir um modelo de layout aos usuários, consulte [Atribuir usuários a um modelo de layout](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -96,7 +96,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      >[!NOTE]
      >
-     >Somente os usuários com uma licença de Plano (no modelo de licença atual) ou os usuários com uma licença Padrão (no novo modelo de licença) podem ver a área Usuários ![](assets/users-icon-in-main-menu.png) no menu principal.
+     >Somente os usuários com uma licença de Plano (no modelo de licença atual) ou os usuários com uma licença Padrão (no novo modelo de licença) podem ver a área de Usuários ![](assets/users-icon-in-main-menu.png) no Menu Principal.
 
    * Solicitações
    * Planilhas de horas
@@ -108,7 +108,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      >[!NOTE]
      >
-     >As metas exigem uma licença adicional. Para obter informações sobre o Workfront Goals, consulte [Visão geral dos objetivos do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >As metas exigem uma licença adicional. Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Minhas atualizações
    * Quadros
@@ -116,13 +116,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Siga um destes procedimentos:
 
-   * Ocultar ![](assets/remove-icon---x-in-circle.png) **Itens ativos** que você não deseja exibir
-   * Mostrar ![](assets/add-icon-plus-in-circle.png) **Itens disponíveis** que você deseja exibir no menu principal.
-   * Arrastar ![](assets/move-icon---dots.png) **Itens ativos** para alterar a ordem de exibição no Menu principal.
+   * Ocultar ![](assets/remove-icon---x-in-circle.png) **itens ativos** que você não deseja exibir
+   * Mostrar ![](assets/add-icon-plus-in-circle.png) **Itens disponíveis** que você deseja exibir no Menu Principal.
+   * Arraste ![](assets/move-icon---dots.png) **Itens ativos** para alterar sua ordem de exibição no menu principal.
 
 1. Clique em **Concluído**.
 
-   Você também pode clicar em **Cancelar** a qualquer momento se desejar descartar suas alterações.
+   Você também pode clicar em **Cancelar** a qualquer momento se desejar descartar as alterações.
 
 1. Continue personalizando o modelo de layout.
 

@@ -22,10 +22,10 @@ Esta página descreve todas as melhorias de Administrador incluídas na versão 
 >
 >A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2019.2, consulte [Visão geral da atividade da versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.2, consulte a [Visão Geral da Atividade da Versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Especificar Funções de Trabalho em Entradas de Hora
 
 Agora você pode especificar uma função de trabalho ao fazer logon na Workfront. Para usar esse recurso, o administrador do Workfront deve habilitar uma configuração em Folhas de horas e Horas > Preferências.
 
-Para obter mais informações sobre como especificar uma função de trabalho ao registrar tempo, consulte o artigo [Registrar tempo](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obter mais informações sobre como especificar uma função de trabalho ao registrar horas, consulte o artigo [Registrar horas](../../../../timesheets/create-and-manage-timesheets/log-time.md).

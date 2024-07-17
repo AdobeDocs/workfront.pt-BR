@@ -27,7 +27,7 @@ Como administrador do Adobe Workfront ou administrador de grupo, você pode usar
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar os modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Após configurar um modelo de layout, você deve atribuí-lo aos usuários para que as alterações feitas fiquem visíveis para outros usuários. Para obter informações sobre como atribuir um modelo de layout aos usuários, consulte [Atribuir usuários a um modelo de layout](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -38,13 +38,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table>
   <tr>
-   <td><strong>plano do Adobe Workfront</strong>
+   <td><strong>Plano do Adobe Workfront</strong>
    </td>
    <td>Qualquer
    </td>
   </tr>
   <tr>
-   <td><strong>Licença do Adobe Workfront</strong>
+   <td><strong>licença do Adobe Workfront</strong>
    </td>
    <td>Plano
    </td>
@@ -63,16 +63,16 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 ## Personalizar cabeçalhos de objetos
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. No **Personalize o que os usuários veem** selecione **Projetos**, **Tarefas** ou **Problemas**.
+1. No menu suspenso **Personalizar o que os usuários veem**, selecione **Projetos**, **Tarefas** ou **Problemas**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. No [!UICONTROL Campos de cabeçalho] passe o mouse sobre os campos exibidos e siga um destes procedimentos:
-   * Clique em **x** ícone para remover um campo
+1. Na seção [!UICONTROL Campos de cabeçalho], passe o mouse sobre os campos exibidos e siga um destes procedimentos:
+   * Clique no ícone **x** para remover um campo
 
      Ou
 
-   * Clique e mantenha pressionada a tecla **agarrar** ícone para arrastar e soltar o campo em um novo local.
+   * Clique e segure o ícone de **captura** para arrastar e soltar o campo em um novo local.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 1. Você pode ter até cinco campos no cabeçalho de um objeto.
 Se você já tiver cinco campos selecionados, remova um campo antes de adicionar um novo.
-1. No **Adicionar campo** comece digitando o nome de um campo não editável do Workfront que você deseja adicionar e, em seguida, selecione-o quando ele for exibido na lista. O campo é adicionado imediatamente à direita da caixa Adicionar campo e será exibido como o primeiro campo no canto superior esquerdo do cabeçalho do objeto.
+1. Na caixa **Adicionar campo**, comece digitando o nome de um campo do Workfront não editável que você deseja adicionar e, em seguida, selecione-o quando ele for exibido na lista. O campo é adicionado imediatamente à direita da caixa Adicionar campo e será exibido como o primeiro campo no canto superior esquerdo do cabeçalho do objeto.
 
    >[!TIP]
    >

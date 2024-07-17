@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 3 2018.2
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 19 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
+title: Atividade da versão 2018.2 do Beta 3
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 19 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 3 2018.2
+# Atividade da versão 2018.2 do Beta 3
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 19 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 19 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte  [Visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte  Visão geral da atividade da versão [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-A versão Beta 3 2018.2 contém as seguintes melhorias:
+A versão 2018.2 do Beta 3 contém as seguintes melhorias:
 
 * [Gerenciar licenças no seu sistema](#manage-licenses-in-your-system)
-* [Definir sinalizadores para histórias no Quadro Kanban](#set-flags-for-stories-on-the-kanban-board)
+* [Definir Sinalizadores para Histórias no Quadro Kanban](#set-flags-for-stories-on-the-kanban-board)
 * [Editar campos diretamente em um cartão de história Agile](#edit-fields-directly-on-an-agile-story-card)
 * [Relevância de pesquisa aprimorada para várias palavras](#improved-search-relevancy-for-multiple-words)
 
@@ -66,4 +66,4 @@ Introduzimos uma mudança na forma como as pesquisas são realizadas ao usar vá
 
 Antes dessa alteração, pesquisar por várias palavras de uma só vez encontraria itens que contivessem qualquer uma ou todas as palavras da frase. 
 
-Para obter mais informações sobre a pesquisa, consulte [Pesquisar no Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Para obter mais informações sobre pesquisa, consulte [Pesquisar Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).

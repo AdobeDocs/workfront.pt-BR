@@ -7,7 +7,7 @@ feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -40,12 +40,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Visão geral da aprovação do Business Case
 
@@ -56,7 +56,7 @@ Considere o seguinte ao aprovar um Business Case de um projeto:
 * Você deve ir manualmente para os projetos individuais que precisam de aprovação do Business Case para ver que eles estão pendentes de aprovação. Não há um mecanismo de notificação do Workfront que alerta alguém que deve aprovar o Business Case de um projeto.
 * Você pode encontrar os projetos que estão aguardando a aprovação do Business Case criando um relatório de projeto ou acessando o portfólio ao qual estão associados. 
 
-  Para obter mais informações sobre Portfolio, consulte o artigo [Visão geral de Portfolio no Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Para obter mais informações sobre Portfolio, consulte o artigo [Visão geral sobre Portfolio no Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Aprove o Business Case criando um relatório de projeto
 
@@ -68,16 +68,16 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
 
    Para obter mais informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Selecione o **Exibir** do relatório, depois clique em **Adicionar coluna**.
+1. Selecione a guia **Exibir** do relatório e clique em **Adicionar coluna**.
 
-1. Comece digitando &quot;Status&quot; no **Mostrar nesta coluna** e selecione esse campo quando ele aparecer na lista.
+1. Comece digitando &quot;Status&quot; no campo **Mostrar nesta coluna** e selecione este campo quando ele aparecer na lista.
 
     Essa coluna exibirá o status dos projetos.
 
-1. Selecione o **Filtros** do relatório, depois clique em **Adicionar uma regra de filtro**.
+1. Selecione a guia **Filtros** do relatório e clique em **Adicionar uma Regra de Filtro**.
 
-1. Comece digitando &quot;Status&quot; no **Mostre apenas projetos nos quais ...** e selecione-o quando ele aparecer na lista.
-1. Selecionar **Igual** para o modificador de filtro.
+1. Comece digitando &quot;Status&quot; em **Mostrar apenas projetos em que o campo ...** está e selecione-o quando ele aparecer na lista.
+1. Selecione **Igual** para o modificador de filtro.
 1. Comece a digitar &quot;Solicitado&quot; no campo disponível. 
 
    Isso garante que o relatório inclua apenas projetos que estejam no status Solicitado.
@@ -114,13 +114,13 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
 
 1. Clique no nome de um projeto no relatório para abri-lo.
 1. Clique em **Business Case** no painel esquerdo.
-1. Clique em **Aprovar** ou **Rejeitar** na área Resumo de business case para aprovar ou rejeitar o business case.
+1. Clique em **Aprovar** ou **Rejeitar** na área Resumo do Business Case para aprovar ou rejeitar o Business Case.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
-   O status do projeto é alterado para **Aprovado** se o Business Case estiver aprovado.
+   O status do projeto será alterado para **Aprovado** se o Business Case for aprovado.
 
-   O status do projeto é alterado para **Rejeitado** se o Business case for rejeitado.
+   O status do projeto será alterado para **Rejeitado** se o Plano de Negócio for rejeitado.
 
    >[!NOTE]
    >
@@ -128,4 +128,4 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
 
 ## Aprove o business case acessando os projetos solicitados em um portfólio
 
-Para obter mais informações sobre como revisar os projetos solicitados, consulte o artigo [Revisar projetos solicitados](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+Para obter mais informações sobre como revisar Projetos solicitados, consulte o artigo [Revisar projetos solicitados](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

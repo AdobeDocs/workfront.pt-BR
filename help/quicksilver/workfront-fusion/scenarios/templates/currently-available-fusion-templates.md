@@ -20,7 +20,7 @@ Os seguintes modelos públicos estão disponíveis no Adobe Workfront Fusion.
 
 Sua equipe ou organização pode ter outros modelos criados por equipe disponíveis.
 
-Para exibir os modelos disponíveis, clique no link **Modelos** ícone ![](assets/fusion-template-icon.png) no menu de navegação lateral no Fusion.
+Para exibir os modelos disponíveis, clique no ícone ![](assets/fusion-template-icon.png) de **Modelos** no menu de navegação lateral no Fusion.
 
 ## Modelos do Workfront
 
@@ -163,19 +163,19 @@ Para obter mais informações sobre a integração Workfront-Anaplan, consulte [
 
 ### Workflows de otimização de gastos
 
-* [Enviar [!DNL Adobe Workfront] atualizações de projeto para um [!DNL Anaplan] item da lista](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [Enviar [!DNL Adobe Workfront] despesas para um [!DNL Anaplan] item da lista](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [Enviar [!DNL Adobe Workfront] horas efetivas de atualizações a um [!DNL Anaplan] item da lista](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Enviar  [!DNL Adobe Workfront] atualizações de projeto para um item de lista  [!DNL Anaplan] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Enviar  [!DNL Adobe Workfront] despesas para um [!DNL Anaplan] item de lista](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [Enviar  [!DNL Adobe Workfront] atualizações de horas reais para um item de lista  [!DNL Anaplan] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### Fluxos de trabalho para vincular solicitações de orçamento
 
-* [Criar um [!DNL Anaplan] item de lista de um [!DNL Adobe Workfront] solicitação de orçamento](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Aplicar um [!DNL Anaplan] alocação de orçamento para um [!DNL Adobe Workfront] projeto](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Criar um item de lista  [!DNL Anaplan]  a partir de uma solicitação de orçamento  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Aplicar uma alocação de orçamento  [!DNL Anaplan]  a um projeto  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Fluxos de trabalho para vincular solicitações de campanha
 
-* [Criar um [!DNL Anaplan] item de lista de um [!DNL Adobe Workfront] solicitação de campanha](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Aplicar um [!DNL Anaplan] alocação de orçamento para um [!DNL Adobe Workfront] solicitação de campanha ou projeto de campanha](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Criar um item de lista  [!DNL Anaplan]  a partir de uma solicitação de campanha  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Aplicar uma  [!DNL Anaplan] alocação de orçamento a uma [!DNL Adobe Workfront] solicitação de campanha ou projeto de campanha](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 
 <!--[!BADGE New!]{type=Informative} -->

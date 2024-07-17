@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Filtrar por usuário no quadro Sombrear
-description: Você pode usar o filtro no quadro de trabalho para ver quais itens de trabalho estão associados a outros usuários e quais não estão atribuídos.
+title: Filtrar por usuário no quadro Scrum
+description: Você pode usar o filtro no quadro de scrum para ver quais itens de trabalho estão associados a outros usuários e quais não estão atribuídos.
 author: Lisa
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Filtrar por usuário no [!UICONTROL Scrum] quadro
+# Filtrar por usuário no quadro [!UICONTROL Scrum]
 
-Você pode usar o filtro no quadro de trabalho para ver quais itens de trabalho estão associados a outros usuários e quais não estão atribuídos.
+Você pode usar o filtro no quadro de scrum para ver quais itens de trabalho estão associados a outros usuários e quais não estão atribuídos.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,33 +29,33 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Trabalho] ou superior</p> </td> 
+   <td> <p>[!UICONTROL Work] ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
-## Filtrar por usuário na placa de rascunho
+## Filtrar por usuário no quadro Scrum
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Equipes]**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Equipes]**.
 
-1. (Opcional) Clique no botão **[!UICONTROL Alterar equipe]** ícone ![Ícone Alternar equipe](assets/switch-team-icon.png)e, em seguida, selecione uma nova equipe de Soma no menu suspenso ou procure por uma equipe na barra de pesquisa.
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Navegue até uma iteração ativa.
-1. Clique no botão [!UICONTROL Filtro] menu suspenso no lado direito do [!UICONTROL arranhão] quadro.
+1. Clique no menu suspenso [!UICONTROL Filtro] no lado direito do quadro [!UICONTROL scrum].
 1. Selecione o nome do usuário ou **[!UICONTROL Não atribuído]**.
 
 >[!NOTE]
 >
->Os totais da coluna não são alterados com base nos resultados filtrados. Os totais das colunas exibem os totais de todos os itens de trabalho no quadro.
+>Os totais da coluna não são alterados com base nos resultados filtrados. Os totais da coluna exibem os totais de todos os itens de trabalho no quadro.
 
 ![Filtrar por usuário](assets/filter-by-user-agile-nwe.png)

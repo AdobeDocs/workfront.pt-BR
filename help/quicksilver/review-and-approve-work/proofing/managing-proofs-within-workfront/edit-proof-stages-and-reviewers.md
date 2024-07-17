@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -43,22 +43,22 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
 ## Editar um estágio
 
-1. Em uma lista de documentos que contenha o documento, passe o mouse sobre a linha que contém o documento e clique em **Fluxo de trabalho de provas**.
+1. Em uma lista de documentos que contém o documento, passe o mouse sobre a linha que contém o documento e clique em **Fluxo de Trabalho de Revisão**.
 
    Ou
 
-   Na Workfront Proof independente, clique na guia **Mais** (três pontos) à direita da prova e clique em **Exibir detalhes da prova**.
+   No Workfront Proof independente, clique no menu **Mais** (três pontos) à direita da prova e clique em **Exibir detalhes da prova**.
 
-1. Faça qualquer uma das seguintes alterações no **Fluxo de trabalho** seção:
+1. Faça qualquer uma das seguintes alterações na seção **Fluxo de trabalho**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -70,33 +70,33 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Remover revisor individual</td> 
-      <td> <p>Selecione o <strong>Mais</strong> à direita do nome do revisor, depois clique em <strong>Remover</strong> no menu suspenso. Clique em <strong>Confirmar o</strong> na caixa que aparece para remover o revisor da prova.</p> </td> 
+      <td> <p>Selecione o menu <strong>Mais</strong> à direita do nome do revisor e clique em <strong>Remover</strong> no menu suspenso. Clique em <strong>Confirmar</strong> na caixa que aparece para remover o revisor da prova.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Remover vários revisores</td> 
-      <td>Marque as caixas de seleção ao lado de seus nomes e clique no link <strong>Excluir</strong> ícone próximo ao canto superior direito da seção stage.</td> 
+      <td>Marque as caixas de seleção ao lado de seus nomes e clique no ícone <strong>Excluir</strong> próximo ao canto superior direito da seção de preparo.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mensagem para todos os revisores</td> 
-      <td>Selecione o <strong>Mais</strong> no canto superior direito da seção do estágio e selecione <strong>Enviar mensagem para todos</strong>. Configure sua mensagem e selecione <strong>Enviar</strong>.</td> 
+      <td>Selecione o menu <strong>Mais</strong> no canto superior direito da seção de preparo e selecione <strong>Todas as mensagens</strong>. Configure sua mensagem e selecione <strong>Enviar</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Adicionar um revisor ao estágio</td> 
-      <td>Selecione o <strong>Mais</strong> no canto superior direito da seção do estágio e selecione <strong>Compartilhar</strong>. Adicione o usuário e configure sua função e alertas de email, e repita se necessário. Quando terminar, clique em <strong>Compartilhar</strong>.</td> 
+      <td>Selecione o menu <strong>Mais</strong> no canto superior direito da seção de preparo e selecione <strong>Compartilhar</strong>. Adicione o usuário e configure sua função e alertas de email, e repita se necessário. Quando terminar, clique em <strong>Compartilhar</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Excluir o estágio</td> 
-      <td> <p>Selecione o <strong>Mais</strong> no canto superior direito da seção do estágio, selecione <strong>Excluir</strong> estágio.</p> <p>Observação: se houver apenas um estágio, o estágio não poderá ser excluído.</p> </td> 
+      <td> <p>Selecione o menu <strong>Mais</strong> no canto superior direito da seção de estágios e selecione <strong>Excluir</strong> estágio.</p> <p>Observação: se houver apenas um estágio, o estágio não poderá ser excluído.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 ## Editar detalhes do revisor
 
-1. No Workfront, passe o mouse sobre a prova e clique em **Detalhes da prova** para abrir a página Detalhes da prova.
-1. No **Fluxo de trabalho** clique na guia **Mais** menu ![](assets/more-button-small.png) à direita do nome do revisor e clique em **Editar** no menu suspenso exibido.
+1. No Workfront, passe o mouse sobre a prova, em seguida, clique em **Detalhes da prova** para abrir a página Detalhes da Prova.
+1. Na seção **Fluxo de Trabalho**, clique no menu **Mais** ![](assets/more-button-small.png) à direita do nome do revisor e clique em **Editar** no menu suspenso exibido.
 
-1. No **Editar revisor** for exibida, edite os seguintes detalhes:
+1. Na caixa **Editar revisor** exibida, edite qualquer um dos seguintes detalhes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +112,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Alertas de email</td> 
-      <td>Para alterar o alerta de email do revisor na prova, abra o menu suspenso e selecione o alerta de email preferencial. Para obter mais informações, consulte no artigo <a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">Visão geral das notificações para comentários de prova e decisões</a>.</td> 
+      <td>Para alterar o alerta de email do revisor na prova, abra o menu suspenso e selecione o alerta de email preferencial. Para obter mais informações, consulte no artigo <a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">Visão geral de notificações para comentários de prova e decisões</a>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Decisão*</td> 

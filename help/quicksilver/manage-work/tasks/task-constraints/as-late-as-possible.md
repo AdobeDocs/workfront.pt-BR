@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''Visão geral da restrição de tarefa: O Mais Tarde Possível"'
+title: "Visão geral da restrição de tarefa: o mais tarde possível"
 description: O Mais Tarde Possível (ALAP) é uma Restrição de Tarefa do Adobe Workfront que coloca o tempo de conclusão da tarefa o mais próximo possível do final do projeto.
 author: Alina
 feature: Work Management
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Visão geral da restrição de tarefa: O Mais Tarde Possível
+# Visão geral de Restrição de tarefa: o mais tarde possível
 
 O Mais Tarde Possível (ALAP) é uma Restrição de Tarefa do Adobe Workfront que coloca o tempo de conclusão da tarefa o mais próximo possível do final do projeto.
 
-O uso dessa restrição pode fazer com que o antecessor ou as Tarefas dependentes sejam reprogramadas.
+O uso dessa restrição pode fazer com que tarefas predecessoras ou dependentes sejam reagendadas.
 
-Para obter mais informações sobre os relacionamentos do antecessor, consulte [Usar predecessores de tarefa](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+Para obter mais informações sobre relações de predecessoras, consulte [Usar predecessoras da tarefa](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
 
-O Mais Tarde Possível é a restrição padrão se um projeto usar um modo de programação de Programação a partir da Data de Conclusão e o padrão do sistema ou grupo para a Data Inicial de uma tarefa for Baseado na Data Planejada do Projeto.
+A restrição padrão Mais Tarde Possível será a restrição padrão se um projeto usar o modo de programação Programação da Data de Conclusão e o padrão do sistema ou do grupo para a Data Inicial de uma tarefa for Baseado na Data Planejada do Projeto.
 
-Para obter informações sobre onde definir a Restrição padrão para uma nova tarefa, consulte [Configurar preferências de emissão e tarefa em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obter informações sobre onde definir a Restrição padrão para uma nova tarefa, consulte [Configurar preferências de tarefas e problemas do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Para obter informações sobre como atualizar a Restrição de Tarefa em uma tarefa, consulte [Atualizar a Restrição de Tarefa de uma tarefa](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
@@ -43,31 +43,31 @@ Para obter informações sobre como atualizar a Restrição de Tarefa em uma tar
 </div>
 -->
 
-## A diferença entre o Horário Disponível Mais Recente e O Mais Tarde Possível
+## A diferença entre o Último Horário Disponível e o Mais Tarde Possível
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
-A restrição de Tempo Disponível Mais Recente difere da restrição As Late As Possible quando os seguintes critérios existem:
+A restrição Último Tempo Disponível difere da restrição O Mais Tarde Possível quando existem os seguintes critérios:
 
-* O projeto está programado desde a data inicial
-* As tarefas no projeto têm uma relação predecessora
+* O projeto está agendado a partir da data de início
+* As tarefas no projeto têm um relacionamento predecessor
 * A tarefa sucessora tem uma restrição de tarefa flexível
 
 Nesta situação:
 
-* **Hora Disponível Mais Recente:** Usar a restrição de Tempo Disponível Mais Recente na tarefa predecessora dá prioridade à restrição flexível do sucessor.
+* **Último Tempo Disponível:** Usar a última restrição de Tempo Disponível na tarefa predecessora dá prioridade à restrição flexível da sucessora.
 
-   **Exemplo:** Por exemplo, a Tarefa A é antecessora da Tarefa B. A Tarefa A tem a Restrição de Tempo Disponível Mais Recente e a Tarefa B tem a restrição O Mais Rápido Possível. Nessa situação, a Tarefa A é agendada o mais próximo possível do início do projeto.
+  **Exemplo:** Por exemplo, a Tarefa A é predecessora da Tarefa B. A Tarefa A tem a restrição Tempo Disponível Mais Recente e a Tarefa B tem a restrição O Mais Breve Possível. Nessa situação, a Tarefa A é agendada o mais próximo possível do início do projeto.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **O Mais Tarde Possível:** Nesse cenário, o uso da restrição As Late As Possible na tarefa predecessora dá prioridade à tarefa predecessora.
+* **O Mais Tarde Possível:** neste cenário, usar a restrição O Mais Tarde Possível na tarefa predecessora dá prioridade à tarefa predecessora.
 
-   **Exemplo:** Por exemplo, a Tarefa A é um antecessor da Tarefa B. A Tarefa A tem a restrição As Late As Possible e a Tarefa B tem a restrição O Mais Rápido Possível. Nessa situação, a Tarefa A é agendada o mais próximo possível do final do projeto.
+  **Exemplo:** Por exemplo, a Tarefa A é predecessora da Tarefa B. A Tarefa A tem a restrição O Mais Tarde Possível e a Tarefa B tem a restrição O Mais Breve Possível. Nessa situação, a Tarefa A é agendada o mais próximo possível do final do projeto.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

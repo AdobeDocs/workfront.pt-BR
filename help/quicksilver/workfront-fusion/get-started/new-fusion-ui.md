@@ -47,20 +47,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront Fusion] administrador.
+*Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront Fusion].
 
 ## Navegar [!DNL Workfront Fusion]
 
-A variável [!UICONTROL Organização] e [!UICONTROL Equipe] Os menus estão localizados no painel de navegação esquerdo do Fusion. Se você é um [!DNL Workfront Fusion] administrador, seu [!UICONTROL Administração] também aparece aqui.
+Os menus [!UICONTROL Organização] e [!UICONTROL Equipe] estão localizados no painel de navegação esquerdo do Fusion. Se você for um administrador do [!DNL Workfront Fusion], seu menu [!UICONTROL Administração] também aparecerá aqui.
 
-Para trocar de equipe, clique no nome da equipe na parte superior da página e selecione a equipe. O seletor de equipe aparece somente nas páginas específicas de uma equipe, como um construtor de cenários ou a [!UICONTROL Conexões] página.
+Para trocar de equipe, clique no nome da equipe na parte superior da página e selecione a equipe. O seletor de equipe aparece somente nas páginas específicas de uma equipe, como um construtor de cenários ou a página [!UICONTROL Conexões].
 
 Para alternar entre organizações, clique no nome da organização no canto superior direito da tela e selecione a organização.
 
@@ -70,11 +70,11 @@ Você pode acessar suas opções de perfil e preferência clicando na imagem do 
 
 Em seu perfil, você pode exibir as seguintes guias:
 
-* **[!UICONTROL Organizações]**: visualize as organizações do Fusion às quais você pertence.
-* **[!UICONTROL Opções de Fuso Horário]**: aqui, é possível definir os fusos horários usados na interface do usuário do Fusion e os fusos horários usados para cenários individuais.
+* **[!UICONTROL Organizações]**: exibir as organizações do Fusion às quais você pertence.
+* **[!UICONTROL Opções de Fuso Horário]**: Aqui, você pode definir os fusos horários usados na interface do Fusion e os fusos horários usados para cenários individuais.
 * **[!UICONTROL API]**: aqui, você pode copiar tokens de API existentes ou criar novos.
 
 
 ## Acessar as notificações
 
-Para exibir suas notificações, clique no ícone Notificações ![Ícone Notificações](assets/notifications-icon.png) próximo ao canto superior direito da tela. Um ponto vermelho no ícone Notificações indica que você tem notificações ou anúncios não lidos.
+Para exibir suas notificações, clique no ícone Notificações ![ícone Notificações](assets/notifications-icon.png) próximo ao canto superior direito da tela. Um ponto vermelho no ícone Notificações indica que você tem notificações ou anúncios não lidos.

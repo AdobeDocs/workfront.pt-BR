@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 25 de janeiro de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Conector e módulos Bynder agora disponíveis
 
@@ -38,4 +38,4 @@ Agora você pode usar o Workfront Fusion para se conectar à sua conta do Bynder
 * Pesquisar ativos com base nos critérios especificados
 * Executar uma chamada de API personalizada
 
-Para obter mais informações, consulte [Módulos do Bynder](../../../workfront-fusion/apps-and-their-modules/bynder-modules.md).
+Para obter mais informações, consulte [Módulos de bynder](../../../workfront-fusion/apps-and-their-modules/bynder-modules.md).

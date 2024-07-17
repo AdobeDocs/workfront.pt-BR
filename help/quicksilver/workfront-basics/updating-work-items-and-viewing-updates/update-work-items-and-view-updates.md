@@ -23,12 +23,12 @@ Você pode usar a seção Atualizações da maioria dos objetos para adicionar c
 
 Esta seção contém os seguintes artigos:
 
-* [Visão geral da seção Atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [Visão geral da seção de atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 * [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [Limites de caracteres em campos](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
 * [Responder a notificações por email](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-* [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
-* [Exibir todas as atualizações em um relatório de Nota](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
+* [Marcar outros usuários sobre atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+* [Exibir todas as atualizações em um relatório de Anotações](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Visão geral do botão Trabalhar na tarefa e Concluído](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 

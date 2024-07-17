@@ -4,7 +4,8 @@ description: Aprimoramentos do projeto do primeiro trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de projeto feitas com a versão do Primeiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do primeiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do Primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Atribuições inteligentes mais relevantes
 

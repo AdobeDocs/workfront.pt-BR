@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Usuários
-description: Saiba mais sobre usuários no Workfront Proof.
+description: Saiba mais sobre Usuários no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Criar usuários usando [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
-* [Configurar informações do usuário usando o [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-* [Criar e gerenciar perfis personalizados usando o [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-* [Mover usuários entre contas usando [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+* [Criar Usuários usando o  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
+* [Configurar Informações do Usuário usando  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+* [Criar e Gerenciar Perfis Personalizados usando o  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+* [Mover usuários entre contas usando  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)

@@ -19,6 +19,6 @@ As informações neste artigo foram movidas.
 
 Consulte:
 
-* [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): Este artigo explica como criar um relatório do zero.
-* [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): Este artigo explica como criar uma cópia de um relatório.
-* [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): Este artigo contém informações sobre o modo de texto, o que permite aprimorar as informações já adicionadas ao relatório com o Construtor de relatórios padrão.
+* [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): este artigo explica como criar um relatório do zero.
+* [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): este artigo explica como criar uma cópia de um relatório.
+* [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): este artigo contém informações sobre o modo de texto, que permite aprimorar as informações já adicionadas ao relatório com o Report Builder padrão.

@@ -30,7 +30,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -45,21 +45,21 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>   
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exemplo: Remova o link para uma tarefa da coluna Nome da Tarefa em uma exibição de tarefa:
 
 1. Ir para uma lista de tarefas.
-1. No **Exibir** clique em **Nova visualização** para criar uma nova visualização.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição** para criar uma nova exibição.
 
    Ou
 
-   Clique em **Ícone Editar** ![](assets/edit-icon.png)
+   Clique no **ícone Editar** ![](assets/edit-icon.png)
 
    para editar uma exibição existente, selecione-a.
 
@@ -69,16 +69,16 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    Clique em uma coluna existente com um link para um objeto.
 
-1. Clique em **Alternar para modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
-1. Remova o texto localizado na **Modo de texto** e substitua-o pelo seguinte código:
-   <pre>displayname=Nome da tarefa<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>expressão de valor={name}</strong><br>valueformat=Composto</pre>
+1. Clique em **Alternar para Modo de Texto**.
+1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
+1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
+   <pre>displayname=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
 
    >[!TIP]
    >
    >Você pode usar um código semelhante para outros objetos ajustando o seguinte:
    >
-   >* Substitua o **campo de valor** linha do código com **expressão de valor** e mantenha o mesmo nome incluído entre chaves após o sinal de igual.
+   >* Substitua a linha **valuefield** do código por **valueexpression** e mantenha o mesmo nome incluído entre chaves após o sinal de igual.
    >* Eliminar todas as linhas que começam com `link.` do texto original da coluna. Por exemplo, elimine todas as linhas a seguir:
    >
    >  ```
@@ -90,4 +90,4 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    >  ```
    >
 
-1. Clique em **Salvar**, depois **Salvar visualização**.
+1. Clique em **Salvar** e depois em **Salvar exibição**.

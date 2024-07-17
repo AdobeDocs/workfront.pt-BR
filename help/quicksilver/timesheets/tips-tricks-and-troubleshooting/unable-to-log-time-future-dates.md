@@ -30,12 +30,12 @@ Os administradores do sistema podem atualizar uma configuração para permitir q
 
 Como administrador do sistema, faça o seguinte:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Expandir **Horas e planilhas de horas** e, em seguida, clique em **Preferências**.
+1. Expanda **Folhas de horas e horas** e clique em **Preferências**.
 
-1. No **Preferências gerais** , selecione a **Registrar horas para datas futuras**.
+1. Na seção **Preferências Gerais**, selecione as **Horas de log para datas futuras**.
 
 1. Clique em **Salvar**.
 
-Para obter mais informações sobre esta e outras opções relacionadas a folhas de horas e horas, consulte [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obter mais informações sobre esta e outras opções relacionadas a folhas de horas e horas, consulte [Configurar preferências de horas e folha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

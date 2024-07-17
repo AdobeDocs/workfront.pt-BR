@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Requisitos do navegador para Workfront
-description: As informações neste artigo foram movidas. Consulte Requisitos do navegador Adobe Workfront.
+title: Requisitos do navegador para o Workfront
+description: As informações neste artigo foram movidas. Consulte os requisitos do navegador do Adobe Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 ---
 
-# Requisitos do navegador para Workfront
+# Requisitos do navegador para o Workfront
 
 >[!NOTE]
 >
->As informações neste artigo foram movidas. Consulte [Requisitos do navegador Adobe Workfront](../../workfront-basics/workfront-browser-requirements.md).
+>As informações neste artigo foram movidas. Consulte os [requisitos do navegador Adobe Workfront](../../workfront-basics/workfront-browser-requirements.md).

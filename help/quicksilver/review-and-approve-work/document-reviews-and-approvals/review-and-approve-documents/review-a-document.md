@@ -43,12 +43,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou mais altas para os objetos associados às aprovações</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou mais altas para os objetos associados às aprovações</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 <!--
 ## Review a document from Home
@@ -69,7 +69,7 @@ Add once functionality is added
 
    Clique em **Baixar** para baixar uma cópia local do documento no seu dispositivo.
 
-1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante no **Atualizações** seção. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante na seção **Atualizações** do documento. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.
 
 ## Revisar um documento no painel Resumo do documento
@@ -80,7 +80,7 @@ Add once functionality is added
 
 1. Selecione a versão do documento que deseja revisar na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Passe o mouse sobre a visualização do documento no **Detalhes** na parte superior do painel Resumo do documento. Em seguida:
+1. Passe o mouse sobre a visualização do documento na seção **Detalhes** na parte superior do painel Resumo do Documento. Em seguida:
 
    Clique em **Visualizar** para abrir uma versão somente leitura do documento em uma nova janela.
 
@@ -88,7 +88,7 @@ Add once functionality is added
 
    Clique em **Baixar** para baixar uma cópia local do documento no seu dispositivo.
 
-1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante no **Atualizações** seção. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante na seção **Atualizações** do documento. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Também é possível visualizar ou baixar uma versão específica do documento rolando até o menu **Versões** do painel Resumo do documento, clicando no ícone Mais ![](../assets/more-icon.png) ao lado da versão que você deseja revisar e selecionar **Baixar** ou **Visualizar**.
+1. (Opcional) Você também pode visualizar ou baixar uma versão específica do documento rolando até a seção **Versões** do painel Resumo do Documento e clicando no ícone Mais ![](../assets/more-icon.png) ao lado da versão que você deseja revisar e selecionando **Download** ou **Visualizar**.
 1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.

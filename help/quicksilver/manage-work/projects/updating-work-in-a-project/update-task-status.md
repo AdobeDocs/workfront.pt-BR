@@ -75,8 +75,8 @@ Você pode atualizar o status da tarefa nas seguintes áreas do Workfront:
 Para atualizar manualmente o status da tarefa no cabeçalho da tarefa:
 
 1. Vá para uma tarefa para a qual deseja atualizar o status.
-1. Clique em **Status** no cabeçalho da tarefa e selecione um novo status.
-1. Para fornecer uma indicação visual da conclusão da tarefa, arraste ou clique duas vezes na bolha em **Percentual Completo** no cabeçalho da tarefa
+1. Clique no campo **Status** no cabeçalho da tarefa e selecione um novo status.
+1. Para fornecer uma indicação visual da conclusão da tarefa, arraste ou clique duas vezes na bolha em **Percentual concluído** no cabeçalho da tarefa
 
    Ou
 
@@ -86,12 +86,12 @@ Para atualizar manualmente o status da tarefa no cabeçalho da tarefa:
 
 1. (Opcional) Siga qualquer um destes procedimentos para fornecer informações adicionais sobre a atualização:
 
-   * Para adicionar uma observação sobre a atualização, acesse o **Atualizações** e clique em **Novo comentário**, em seguida, digite uma nota.
+   * Para adicionar uma observação sobre a atualização, vá para a seção **Atualizações**, clique em **Novo comentário** e digite uma observação.
 
      ![](assets/add-update-to-task.png)
 
-   * Para notificar determinados usuários sobre a atualização, digite seus nomes no campo **Marcar pessoas ou equipes** que aparece quando você digita um comentário. Para obter mais informações, consulte [Marcar outros usuários em atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Para atualizar a Data de confirmação da tarefa, clique em **Detalhes da tarefa**, em seguida, edite o **Data de confirmação** campo. Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Para notificar determinados usuários sobre a atualização, digite seus nomes no campo **Marcar pessoas ou equipes**, que aparece quando você digita um comentário. Para obter mais informações, consulte [Marcar outros em atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Para atualizar a Data de confirmação da tarefa, clique em **Detalhes da tarefa** e edite o campo **Data de confirmação**. Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
    >[!IMPORTANT]
@@ -142,9 +142,9 @@ O Workfront atualiza automaticamente o status existente de uma tarefa para um st
    <td>Em andamento</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Clique no botão Iniciar tarefa para aceitar trabalhar em uma tarefa atribuída a você</span> </td> 
+   <td><span>Clique no botão Iniciar Tarefa para aceitar trabalhar em uma tarefa atribuída a você</span> </td> 
    <td><span>Novo</span> </td> 
-   <td> <p>Qualquer status associado ao botão Iniciar Tarefa nas configurações da Equipe Doméstica.</p> <p>Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar tarefa, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão Trabalhar na tarefa por um botão Iniciar</a></span>.</p> <p>Dica: <span>Clicando</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">o botão Desfazer</span>depois de clicar em Iniciar tarefa, o status é revertido para Novo. </p> </td> 
+   <td> <p>Qualquer status associado ao botão Iniciar Tarefa nas configurações da Equipe Doméstica.</p> <p>Para obter informações sobre como substituir o botão Trabalhar na tarefa pelo botão Iniciar tarefa, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a></span>.</p> <p>Dica: <span>Clicar</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">no botão Desfazer</span>depois de clicar em Iniciar Tarefa, reverte o status para Novo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

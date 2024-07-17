@@ -80,7 +80,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -111,14 +111,14 @@ O espaço de trabalho que você acessou por último é aberto.
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma exibição de tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
+1. (Condicional) No menu suspenso **Exibir**, no canto superior direito da tabela, selecione uma exibição de tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
 1. Clicar com o botão direito do mouse em uma linha de registro
 
    Ou
 
-   Passe o mouse sobre o nome de um registro, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Copiar link**.
+   Passe o mouse sobre o nome de um registro, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Copiar link**.
 
    ![](assets/contextual-menu-for-record-row.png)
 

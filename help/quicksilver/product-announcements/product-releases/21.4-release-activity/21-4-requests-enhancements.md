@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias nas Solicitações feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte [21.4 Visão geral da versão](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte a [Visão geral da versão 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## A pesquisa aprimorada de solicitações agora inclui caracteres especiais
 

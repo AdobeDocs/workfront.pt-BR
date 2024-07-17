@@ -45,7 +45,7 @@ O Workfront Planning foi removido temporariamente dos ambientes Pré-visualizaç
 
 Pré-visualização e produção: 27 de dezembro de 2023
 
-Agora é possível pesquisar uma palavra-chave para localizar rapidamente um registro na exibição de linha do tempo. Você pode usar palavras-chave e caracteres especiais de qualquer campo visível na tela para localizar um registro. Para obter informações, consulte [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Agora é possível pesquisar uma palavra-chave para localizar rapidamente um registro na exibição de linha do tempo. Você pode usar palavras-chave e caracteres especiais de qualquer campo visível na tela para localizar um registro. Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana de 18 de dezembro de 2023
 
@@ -63,7 +63,7 @@ Pré-visualização e produção para todos os clientes: 18 de dezembro de 2023
 >
 >* Arrastar e soltar imagens
 >
->Para obter mais informações, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>Para obter mais informações, consulte a [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 Agora é possível colaborar com outras pessoas em registros individuais adicionando comentários ou respondendo a outras pessoas ao visualizar a página de um registro.
 
@@ -79,7 +79,7 @@ Produção: 21 de dezembro de 2023
 >
 >Sua organização deve comprar o Adobe Workfront Fusion para criar conexões com os recursos do Adobe Workfront Planning.
 >
->Para obter informações, consulte [Visão geral do Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Para obter informações, consulte [visão geral do Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 Agora, você pode usar o Adobe Workfront Fusion para se conectar aos recursos de planejamento. Com a nova conexão do Fusion, é possível:
 
@@ -137,7 +137,7 @@ Versão de produção: 21 de dezembro de 2023
 >
 >A instância da Workfront de sua organização deve ser integrada à Plataforma de negócios Adobe ou à Adobe Admin Console para poder conectar os registros de recursos do Adobe Workfront Planning à Adobe Experience Manager Assets.
 >
->Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte [Perguntas frequentes sobre a experiência unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte as [Perguntas frequentes sobre a Experiência unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Agora é possível estabelecer uma conexão entre os tipos de registro dos recursos do Adobe Workfront Planning e o Adobe Experience Manager Assets.
 
@@ -153,7 +153,7 @@ Após estabelecer a conexão, a seguinte funcionalidade estará disponível com 
 
 * Você pode clicar no nome do ativo na exibição de tabela do registro de capacidade de planejamento no campo de registro conectado e exibir uma janela pop-up com a miniatura do ativo e vários campos-chave. Na janela pop-up, você pode navegar até o visualizador de ativos no Experience Manager e visualizar todos os detalhes sobre ele.
 
-Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Semana de 4 de dezembro de 2023
 
@@ -176,7 +176,7 @@ Considere o seguinte:
 
 Para obter mais informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-Para obter informações sobre campos vinculados, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obter informações sobre campos vinculados, consulte [Tipos de registro do Connect](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Semana de 27 de novembro de 2023
 
@@ -301,7 +301,7 @@ A seguir estão opções para as cores que você pode escolher exibir para as ba
 
 Ao corresponder cores a um determinado campo, é possível selecionar apenas campos com opções codificadas por cores.
 
-Para obter mais informações, consulte [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obter mais informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana de 9 de outubro de 2023
 

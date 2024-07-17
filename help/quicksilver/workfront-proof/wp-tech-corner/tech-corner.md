@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] canto técnico
+# Canto técnico de [!DNL Workfront Proof]
 
 Esta seção contém as seguintes subseções:
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
 
 * [Tipos de prova](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)

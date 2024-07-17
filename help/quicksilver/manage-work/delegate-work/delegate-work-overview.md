@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -40,28 +40,28 @@ Para obter informações sobre como delegar tarefas e problemas, consulte [Deleg
 
 Considere o seguinte ao delegar tarefas e problemas:
 
-* Seu [!DNL Workfront] ou o administrador de grupo deve ativar as preferências de Delegação no [!UICONTROL Configuração] antes de delegar seu trabalho a outras pessoas.
+* O administrador de grupo ou o seu [!DNL Workfront] deve habilitar as preferências de Delegação na área [!UICONTROL Instalação] antes que você possa delegar seu trabalho a outras pessoas.
 
-  Para obter informações, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* Você pode delegar tarefas e problemas somente a partir do [!UICONTROL Início] área.
+  Para obter informações, consulte [Configurar preferências de tarefas e problemas do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Você pode delegar tarefas e problemas somente da área [!UICONTROL Página inicial].
 * Existem exceções para os seguintes tipos de licença:
 
-   * Você pode delegar trabalho a Revisores ou Solicitantes, embora [!DNL Workfront] não recomenda.
-   * Os revisores podem delegar trabalho a outros. Eles não podem exibir itens de trabalho em seus [!UICONTROL Início] área. Eles podem exibir somente aprovações.
-   * Os solicitantes não podem delegar trabalho a outras pessoas. Eles não podem exibir itens de trabalho em seus [!UICONTROL Início] área
+   * Você pode delegar trabalho a Revisores ou Solicitantes, embora [!DNL Workfront] não o recomende.
+   * Os revisores podem delegar trabalho a outros. Eles não podem exibir itens de trabalho em sua área [!UICONTROL Residência]. Eles podem exibir somente aprovações.
+   * Os solicitantes não podem delegar trabalho a outras pessoas. Eles não podem exibir itens de trabalho em sua área [!UICONTROL Residência]
 * Você só pode delegar tarefas e problemas atribuídos a você. Não é possível delegar tarefas e problemas atribuídos a outros usuários, equipes ou funções de trabalho.
 * Você só pode delegar tarefas e problemas que não tenham sido concluídos antes da data de início da delegação.
-* Se um item de trabalho for concluído durante o período de delegação, ele permanecerá na área inicial do delegado e do destinatário por duas semanas antes [!DNL Workfront] o remove automaticamente.
+* Se um item de trabalho for concluído durante o período de delegação, ele permanecerá na área Página inicial do delegado e do destinatário por 2 semanas antes de [!DNL Workfront] o remover automaticamente.
 * Os usuários selecionados como delegados recebem as mesmas permissões que suas permissões nas tarefas e problemas que você delega a eles. As permissões devem funcionar dentro de seus níveis de acesso e, às vezes, seus níveis de acesso podem ser inferiores aos seus.
 
 >[!NOTE]
 >
->  Para itens atribuídos após a delegação já iniciada, pode levar até uma hora depois que o item foi atribuído para [!DNL Workfront] para compartilhar os itens recentemente atribuídos com o delegado.
+>  Para itens atribuídos depois que a delegação já foi iniciada, pode levar até uma hora depois que o item foi atribuído para [!DNL Workfront] compartilhar os itens recentemente atribuídos com o representante.
 
 * Se tarefas e problemas adicionais forem atribuídos a você durante o período selecionado para que seu trabalho seja delegado a outros usuários, o novo trabalho atribuído será automaticamente delegado à mesma pessoa para o período selecionado se as datas da tarefa ou problema estiverem dentro desse período.
 * O mesmo usuário pode ser selecionado como delegado por vários usuários.
-* As tarefas e problemas delegados não são exibidos nas ferramentas de gerenciamento de recursos, como o [!UICONTROL Balanceador de carga de trabalho] ou o [!UICONTROL Planejador de recursos] para os usuários delegados.
-* Você pode exibir o trabalho delegado e os nomes de delegados em várias áreas do [!DNL Workfront]. Para obter mais informações, consulte a seção &quot;Localizar trabalho delegado e informações delegadas&quot; no artigo [Gerenciar delegação de tarefas e problemas](../delegate-work/how-to-delegate-work.md).
+* Tarefas e problemas delegados não são exibidos nas ferramentas de gerenciamento de recursos, como o [!UICONTROL Balanceador de carga de trabalho] ou o [!UICONTROL Planejador de recursos] para os usuários delegados.
+* Você pode exibir o trabalho delegado e os nomes dos delegados em várias áreas do [!DNL Workfront]. Para obter mais informações, consulte a seção &quot;Localizar trabalho delegado e informações delegadas&quot; no artigo [Gerenciar delegação de tarefas e problemas](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]
@@ -69,7 +69,7 @@ Considere o seguinte ao delegar tarefas e problemas:
   >  Se um usuário tiver somente o acesso de Visualização às tarefas em seu nível de acesso e você tiver permissões de Gerenciamento nas tarefas que você delegar a ele, ele receberá permissões de Gerenciamento para as tarefas que você delegar a ele. No entanto, eles não poderão executar as mesmas ações que você nas tarefas delegadas. Eles devem solicitar ao administrador do sistema o acesso para Editar tarefas para poderem atualizá-las quando estiverem ausentes.
 
 * Interromper a delegação não remove as permissões concedidas aos usuários delegados sobre as tarefas e problemas em que foram delegados.
-* Se um sistema ou desativar o [!UICONTROL Permitir que os usuários deleguem tarefas e problemas] configuração no [!UICONTROL Configuração] , os usuários atualmente delegados serão removidos das tarefas e problemas para os quais foram delegados anteriormente. As permissões para as tarefas ou problemas não são removidas.
+* Se um sistema ou desabilitar a configuração [!UICONTROL Permitir que usuários deleguem tarefas e problemas] na área [!UICONTROL Configuração], os usuários atualmente delegados serão removidos das tarefas e problemas para os quais foram delegados anteriormente. As permissões para as tarefas ou problemas não são removidas.
 
 ## Diferenças e semelhanças entre atribuições e delegações
 

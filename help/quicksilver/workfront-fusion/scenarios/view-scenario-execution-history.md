@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Exibir o histórico de execução de um cenário em [!DNL Adobe Workfront Fusion]
+# Exibir um histórico de execução de cenário em [!DNL Adobe Workfront Fusion]
 
 Você pode exibir informações sobre todas as execuções de um cenário ou pesquisar todas as execuções do cenário por dados específicos.
 
@@ -39,35 +39,35 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Exibir todas as execuções de um cenário
 
-### Exibir o histórico de execução do cenário no [!UICONTROL Detalhes do cenário] página
+### Exibir o histórico de execução de cenários na página [!UICONTROL Detalhes do Cenário]
 
-1. Clique em **[!UICONTROL Cenário]** no painel esquerdo e clique no cenário.
+1. Clique na guia **[!UICONTROL Cenário]** no painel esquerdo e clique no cenário.
 
    Ou
 
-   Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próximo ao canto superior esquerdo da janela.
+   Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próxima ao canto superior esquerdo da janela.
 
 1. Veja as informações na lista à direita.
 
@@ -77,45 +77,45 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
    Os detalhes a seguir são listados para cada execução do cenário:
 
-   * Data em que foi executada **[!UICONTROL Iniciado]**
-   * **[!UICONTROL Status]** (êxito ou falha)
+   * Data em que a execução foi **[!UICONTROL Iniciada]**
+   * **[!UICONTROL Status]** (com êxito ou com falha)
    * Executar **[!UICONTROL Duração]**
    * Número de **[!UICONTROL Operações]**
-   * Tamanho de **[!UICONTROL Transferência de dados]**
-   * Vincular a **[!UICONTROL Detalhes]**
+   * Tamanho de **[!UICONTROL Transferência de Dados]**
+   * Link para **[!UICONTROL Detalhes]**
 
 >[!NOTE]
 >
->O histórico do cenário exibe uma **Processando** selo ao lado dos cenários que foram executados recentemente, enquanto os detalhes da execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
+>O histórico de cenários exibe um selo **Processando** ao lado dos cenários que foram executados recentemente, enquanto os detalhes da execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
 
-### Exibir o histórico de execução do cenário no [!UICONTROL Histórico] guia
+### Exibir o histórico de execução de cenário na guia [!UICONTROL Histórico]
 
-A variável [!UICONTROL Histórico] A guia mostra mais detalhes do que o disponível na [!UICONTROL Detalhes do cenário] página. Também é possível filtrar e classificar as execuções no [!UICONTROL Histórico] guia.
+A guia [!UICONTROL Histórico] mostra mais detalhes do que o disponível na página [!UICONTROL Detalhes do cenário]. Você também pode filtrar e classificar as execuções na guia [!UICONTROL Histórico].
 
-1. Clique em **[!UICONTROL Cenário]** no painel esquerdo e clique no cenário.
+1. Clique na guia **[!UICONTROL Cenário]** no painel esquerdo e clique no cenário.
 
    Ou
 
-   Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próximo ao canto superior esquerdo da janela.
+   Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próxima ao canto superior esquerdo da janela.
 
-1. Clique em **[!UICONTROL Histórico]** próximo ao canto superior esquerdo da página
-1. (Opcional) Para obter informações detalhadas sobre uma execução de cenário selecionada, incluindo quais pacotes foram processados, clique no link **[!UICONTROL Detalhes]** link.
+1. Clique na guia **[!UICONTROL Histórico]** próxima ao canto superior esquerdo da página
+1. (Opcional) Para obter informações detalhadas sobre a execução de um cenário selecionado, incluindo quais pacotes foram processados, clique no link **[!UICONTROL Detalhes]**.
 
-   Para obter mais informações sobre pacotes de processamento, consulte [Fluxo de execução de cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   Para obter mais informações sobre o processamento de pacotes, consulte [Fluxo de execução de cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
    >[!NOTE]
    >
-   >* A variável [!UICONTROL detalhes] O link estará visível somente se a execução tiver detalhes disponíveis.
+   >* O link [!UICONTROL details] estará visível somente se a execução tiver detalhes disponíveis.
    >
-   >* O histórico do cenário exibe uma **Histórico de processamento** selo ao lado dos cenários que foram executados recentemente, enquanto os detalhes da execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
+   >* O histórico de cenários exibe um selo **Histórico de processamento** ao lado dos cenários que foram executados recentemente, enquanto os detalhes de execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
 
 ## Filtrar o histórico de execução do cenário
 
 Você pode filtrar o histórico de execução para exibir somente execuções com os valores especificados.
 
-1. Abra o histórico de página inteira para um cenário conforme descrito em [Exibir o histórico de execução do cenário no [!UICONTROL Histórico] guia](#view-scenario-execution-history-on-the-history-tab) neste artigo.
-1. Clique em [!UICONTROL filtro] ícone ![](assets/fusion-scenario-filter-icon.png) no cabeçalho da coluna pela qual você deseja filtrar.
-1. No [!UICONTROL filtro] digite os valores pelos quais deseja filtrar.
+1. Abra o histórico de página inteira de um cenário conforme descrito em [Exibir o histórico de execução de cenários na guia [!UICONTROL Histórico]](#view-scenario-execution-history-on-the-history-tab) deste artigo.
+1. Clique no ícone ![](assets/fusion-scenario-filter-icon.png) do [!UICONTROL filtro] no cabeçalho da coluna pela qual você deseja filtrar.
+1. Na caixa de diálogo [!UICONTROL filtro], insira os valores pelos quais deseja filtrar.
 1. Clique em **[!UICONTROL Salvar]**.
 
 O ícone de filtro está laranja em colunas com um filtro ativo no momento.
@@ -124,59 +124,60 @@ O ícone de filtro está laranja em colunas com um filtro ativo no momento.
 
 Você pode classificar o histórico de execução do cenário.
 
-1. Abra o histórico de página inteira para um cenário conforme descrito em [Exibir o histórico de execução do cenário no [!UICONTROL Histórico] guia](#view-scenario-execution-history-on-the-history-tab) neste artigo.
-1. Clique em [!UICONTROL Ordenar] ícone no cabeçalho da coluna pela qual você deseja filtrar.
-1. Opcional: Para inverter a ordem de classificação, clique no [!UICONTROL Ordenar] ícone novamente.
+1. Abra o histórico de página inteira de um cenário conforme descrito em [Exibir o histórico de execução de cenários na guia [!UICONTROL Histórico]](#view-scenario-execution-history-on-the-history-tab) deste artigo.
+1. Clique no ícone [!UICONTROL Classificar] no cabeçalho da coluna pela qual você deseja filtrar.
+1. Opcional: Para inverter a ordem de classificação, clique novamente no ícone [!UICONTROL Classificar].
 
 ## Pesquisar todas as execuções de um cenário
 
-1. Clique em **[!UICONTROL Cenário]** ícone ![](assets/scenarios-icon.png) no painel esquerdo, clique no cenário.
+1. Clique no ícone **[!UICONTROL Cenário]** ![](assets/scenarios-icon.png) no painel esquerdo e clique no cenário.
 
    Ou
 
-   Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próximo ao canto superior esquerdo da janela.
+   Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próxima ao canto superior esquerdo da janela.
 
-1. Clique em **[!UICONTROL Histórico]** próximo ao canto superior esquerdo da tela.
-1. Clique em **[!UICONTROL Pesquisa de texto completo]** no topo da lista de execuções.
+1. Clique na guia **[!UICONTROL Histórico]** próxima ao canto superior esquerdo da tela.
+1. Clique em **[!UICONTROL Pesquisa de texto completo]** na parte superior da lista de execuções.
 
    Ou
 
-   Tipo **Ctrl+Shift+F** (Windows) ou **Cmd+Shift+F** (Mac) A [!UICONTROL Pesquisar no histórico] é aberta.
+   Digite **Ctrl+Shift+F** (Windows) ou **Cmd+Shift+F** (Mac)
+A janela [!UICONTROL Pesquisar no histórico] é aberta.
 
-1. (Opcional) Para pesquisar execuções que contenham texto específico, insira o texto na barra de pesquisa do **[!UICONTROL Pesquisar no histórico]** janela.
+1. (Opcional) Para procurar execuções que contenham texto específico, insira o texto na barra de pesquisa da janela **[!UICONTROL Pesquisar no histórico]**.
 
    Para procurar um texto exato, coloque o texto entre aspas duplas (&quot;exemplo&quot;).
 
    >[!INFO]
    >
-   >**Exemplo:** Se quiser encontrar a execução que criou um projeto específico, insira a ID do projeto na variável [!UICONTROL Pesquisa de texto completo] barra.
+   >**Exemplo:** Se quiser encontrar a execução que criou um projeto específico, insira a ID do projeto na barra [!UICONTROL Pesquisa de texto completo].
    >
    >&quot;625ef2ef0006036bd1794b6e52d737c5&quot;
 
-1. (Opcional) Para limitar sua pesquisa por intervalo de datas, selecione as datas de início e término da pesquisa desejada na [!UICONTROL Por intervalo de datas] área.
+1. (Opcional) Para limitar sua pesquisa por intervalo de datas, selecione as datas de início e término da pesquisa desejada na área [!UICONTROL Por intervalo de datas].
 
    >[!NOTE]
    >
    >* As execuções estão disponíveis somente para os últimos 30 dias.
    >
-   >* [!DNL Workfront Fusion] O armazena cargas do webhook por 30 dias. Acessar uma carga de webhook mais de 30 dias após sua criação resulta no erro &quot;[!UICONTROL Falha ao ler o arquivo do armazenamento.]&quot;
+   >* O [!DNL Workfront Fusion] armazena cargas de webhook por 30 dias. Acessar uma carga de webhook mais de 30 dias após sua criação resulta no erro &quot;[!UICONTROL Falha ao ler arquivo do armazenamento.]&quot;
 
 
-1. (Opcional) Para limitar sua pesquisa por status, selecione o status desejado na **[!UICONTROL Por status]** lista suspensa.
+1. (Opcional) Para limitar sua pesquisa por status, selecione o status desejado na lista suspensa **[!UICONTROL Por status]**.
 
 
    Os status disponíveis são:
 
-   * [!UICONTROL Todos]
+   * [!UICONTROL Tudo]
 
    * [!UICONTROL Erro]
 
    * [!UICONTROL Aviso]
 
-   * [!UICONTROL Sucesso]
+   * [!UICONTROL Êxito]
 
-1. (Opcional) Altere a ordem de exibição dos resultados no **[!UICONTROL Classificar por datas]** lista suspensa.
+1. (Opcional) Altere a ordem de exibição dos resultados na lista suspensa **[!UICONTROL Classificar por datas]**.
 
-1. (Opcional) Para copiar uma ID de execução de cenário, clique no link **[!UICONTROL Copiar ID de execução]** ícone <img src="assets/copy-fusion-execution-id-icon.png"> na linha da execução desejada
+1. (Opcional) Para copiar uma ID de execução de cenário, clique no ícone **[!UICONTROL Copiar ID de execução]** <img src="assets/copy-fusion-execution-id-icon.png"> na linha da execução desejada
 
-1. (Opcional) Clique em um resultado da variável [!UICONTROL Pesquisa de texto completo] para examinar o pacote de saída do módulo de cenário que contém as informações.
+1. (Opcional) Clique em um resultado da [!UICONTROL Pesquisa de texto completo] para examinar o pacote de saída do módulo de cenário que contém as informações.

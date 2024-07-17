@@ -44,19 +44,19 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+&#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
 
 ## Visualizar e concluir a criação de um formulário personalizado
 
-1. Comece a criar e configurar um formulário personalizado, conforme descrito nos artigos [Criar ou editar um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Adicionar um campo personalizado a um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Adicionar ou editar um widget de ativo em um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md), e outros.
+1. Comece a criar e configurar um formulário personalizado, conforme descrito nos artigos [Crie ou edite um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Adicione um campo personalizado a um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Adicione ou edite um widget de ativo em um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) e outros.
 
-1. (Opcional) Clique em **Visualizar** para ver a aparência do formulário ao ser usado, clique em **Fechar visualização** para retornar à edição do formulário.
+1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido quando estiver sendo usado, depois clique em **Finalizar Visualização** para retornar à edição do formulário.
 
 1. Clique em **Salvar+Fechar** para salvar as alterações.
 
    Ou
 
-   Se não quiser manter as alterações no formulário, clique em **Cancelar** e, em seguida, clique em **Continuar e fechar**.
+   Se não quiser manter as alterações no formulário, clique em **Cancelar** e em **Continuar e Fechar**.
 
    >[!NOTE]
    >

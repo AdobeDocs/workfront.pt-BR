@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todos os aprimoramentos do Financial Management feitos na versão 23.3.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Taxas de custo e faturamento efetivas na data
 
@@ -40,4 +40,4 @@ Além disso, os conjuntos de funções de trabalho de data efetiva agora estão 
 
 Um novo recurso, cartões de taxa, permite definir várias taxas de cobrança por função de trabalho, com base na localização. Uma taxa de cobrança para uma função de trabalho e um local também pode incluir datas de efetivação. Cartões de taxa podem ser anexados a projetos para aplicar todas as informações de taxa de uma só vez para a função de trabalho e o local específicos. Funções baseadas em localização também podem ser atribuídas a tarefas com a possibilidade de substituir suas taxas no nível de atribuição.
 
-Para obter mais informações, consulte [Editar o perfil de um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), e [Visão geral de faturamento e receita](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Para obter mais informações, consulte [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) e [Visão Geral de Faturamento e Receita](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

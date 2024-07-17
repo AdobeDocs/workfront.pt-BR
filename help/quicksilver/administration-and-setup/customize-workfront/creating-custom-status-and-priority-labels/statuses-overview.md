@@ -41,7 +41,7 @@ A alteração do status de um projeto, tarefa ou problema geralmente é um proce
 
 O Adobe Workfront vem com 9 status de projeto, 3 status de tarefa e 10 status de problema. Para obter detalhes sobre isso, consulte os seguintes artigos:
 
-* [Acessar a lista de status de projeto do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [Acessar a lista de status de projetos do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [Acessar a lista de status de tarefas do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
 * [Acessar a lista de status de problemas do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 

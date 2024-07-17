@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 17 de janeiro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte a [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Downloads de documentos registrados na área Atualizações
 
@@ -35,7 +35,7 @@ Para ajudar os usuários a rastrear downloads de documentos armazenados no Workf
 >
 >Recomendamos testar esse recurso na Pré-visualização em um documento recém-carregado.
 
-Para obter informações sobre como o Workfront registra atualizações automáticas em objetos, consulte [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Para obter informações sobre como a Workfront registra atualizações automáticas em objetos, consulte [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Conceder acesso às equipes que usam níveis de acesso
 
@@ -82,7 +82,7 @@ Por exemplo:
 * Você pode descobrir quem renomeou, bloqueou ou ocultou um status e quando o fizeram.
 * Você pode descobrir quem removeu alguns membros ou funções de trabalho de uma empresa e quando eles o fizeram.
 
-Para obter informações sobre a exibição de informações de log de auditoria, consulte [Exibir e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Para obter informações sobre como exibir informações de log de auditoria, consulte [Exibir e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Blueprints, mapeamento da empresa e outros aprimoramentos
 
@@ -120,9 +120,9 @@ Em uma organização grande, alguns grupos podem precisar configurar preferênci
 
 Essa capacidade também foi adicionada recentemente para preferências de projeto e para preferências de tarefas e problemas.
 
-Para obter informações sobre como um administrador do Workfront desbloqueia uma folha de horas e uma preferência de horas, consulte a seção [Desbloquear preferências de horas e planilhas de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) no artigo [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obter informações sobre como um administrador do Workfront desbloqueia uma folha de horas e uma preferência de horas, consulte a seção [Desbloquear preferências de folha de horas e horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) no artigo [Configurar preferências de folha de horas e horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Para obter informações sobre como um administrador de grupo configura preferências de tarefas e problemas desbloqueadas para um grupo, consulte [Configurar preferências de horas e planilha de horas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Para obter informações sobre como um administrador de grupo configura preferências desbloqueadas de tarefas e problemas para um grupo, consulte [Configurar preferências de horas e folha de horas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Selecione várias notificações que você deseja desbloquear ou rebloquear para grupos
 
@@ -171,4 +171,4 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para integraç
 
 Na área Empresas em Configuração, novas mensagens de confirmação e pequenas alterações de texto facilitam o gerenciamento de associações de empresas. Por exemplo, o nome de seção &quot;Pessoas&quot; no painel esquerdo agora é &quot;Membros da empresa&quot;.
 
-Para obter informações sobre o gerenciamento de associações de empresa, consulte [Gerenciar associações de empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Para obter informações sobre como gerenciar associações de empresa, consulte [Gerenciar associações de empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).

@@ -31,8 +31,8 @@ Você pode usar a API para migrar pastas e documentos vinculados para o Adobe Ex
 
 1. Crie um novo link de documento ou pasta de documentos no Workfront, apontando para o recurso em seu novo local por meio da nova ID externa.
 
-   1. **Documentos**: adiciona uma nova versão do documento existente com o novo provedor de documentos externos.
-   1. **Pastas**: crie uma nova pasta no mesmo local com o mesmo nome.
+   1. **Documentos**: adicione uma nova versão do documento existente com o novo provedor de documentos externos.
+   1. **Pastas**: Crie uma nova pasta no mesmo local com o mesmo nome.
 
 >[!CAUTION]
 >
@@ -45,11 +45,11 @@ Você pode usar a API para migrar pastas e documentos vinculados para o Adobe Ex
 
 ## Informações da API
 
-Para obter mais informações sobre as APIs do Workfront nesta seção, consulte [Documentação do desenvolvedor:Documents](https://developer.workfront.com/documents.html).
+Para obter mais informações sobre as APIs do Workfront nesta seção, consulte [Documentação do desenvolvedor:Documentos](https://developer.workfront.com/documents.html).
 
 ### Localizar todos os documentos
 
-Localizar tudo **Documentos (DOCU)** Vinculado a **Provedor do documento** de **providerType** com **documentProviderID**.
+Localizar Todos os **Documentos (DOCU)** Vinculados ao **Provedor de Documentos** do **providerType** com **documentProviderID**.
 
 ```
 Http Method: GET
@@ -61,7 +61,7 @@ Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&c
 
 ### Localizar todas as pastas
 
-Localizar tudo **Pastas de documentos (DOCFDR)** Vinculado ao provedor do documento de **providerType** com **documentProviderID**.
+Localizar Todas as **Pastas de Documentos (DOCFDR)** Vinculadas ao Provedor de Documentos de **providerType** com **documentProviderID**.
 
 ```
 Http Method: GET
@@ -73,7 +73,7 @@ API DOCS: (Endpoints de pasta de documentos não cobertos atualmente em develope
 
 ### Vincular documentos
 
-Link **Documentos (DOCU)** de **Provedor de Documento Externo** de **providerType** com **documentProviderID**.
+Vincular **Documentos (DOCU)** do **Provedor de Documento Externo** do **providerType** com **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ DOCUMENTOS DA API: (Endpoints de link internos não cobertos atualmente em devel
 
 ### Vincular pastas
 
-Link **Pastas de documentos (DOCFDR)** de **Provedor de Documento Externo** de **providerType** com **documentProviderID**.
+Vincular **Pastas de Documentos (DOCFDR)** do **Provedor de Documentos Externos** do **providerType** com **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -118,19 +118,19 @@ DOCUMENTOS DA API: (Endpoints de link internos não cobertos atualmente em devel
 
 * **Documento**: um ativo digital no Workfront
 
-* **Pasta de documentos**: um container para ativos digitais no Workfront
+* **Pasta de documentos**: um contêiner para ativos digitais no Workfront
 
-* **ID do documento**: ID interna do Workfront para um ativo digital
+* **ID do documento**: ID interna da Workfront para um ativo digital
 
-* **ID da pasta de documentos**: ID interna do Workfront para uma pasta de ativos digitais
+* **ID da Pasta de Documentos**: ID interna da Workfront para uma pasta de ativos digitais
 
-* **ID do provedor de documentos**: ID associada a provedores de documentos específicos
+* **ID do Provedor de Documentos**: ID associada a provedores de documentos específicos
 
 >[!IMPORTANT]
 >
 > Para qualquer Tipo de provedor de documento, um cliente pode ter várias instâncias conectadas. Eles podem ter vários repositórios AEM vinculados, por exemplo. Ou várias instâncias do Google Drive vinculadas. A ID do provedor de documentos indica a instância específica do tipo de conexão que queremos substituir ou para a qual queremos alternar.
 
-* **Tipo de Provedor de Armazenamento de Documentos (também &quot;Tipo de Integração Externa&quot;)**: o tipo de integração do provedor de armazenamento de documentos compatível com o Workfront. Por meio de uma integração dedicada ou uma &quot;integração personalizada&quot;.
+* **Tipo de Provedor de Armazenamento de Documentos (também &quot;Tipo de Integração Externa&quot;)**: o tipo de integração do provedor de armazenamento de documentos ao qual a Workfront dá suporte. Por meio de uma integração dedicada ou uma &quot;integração personalizada&quot;.
 
 * **Tipos de Provedor de Armazenamento de Documentos Atuais ( providerType)**:
 
@@ -154,15 +154,15 @@ DOCUMENTOS DA API: (Endpoints de link internos não cobertos atualmente em devel
 
 * **Documento vinculado**: um ativo digital hospedado em um provedor de armazenamento de documentos externo. O Workfront terá sua própria &quot;ID do documento&quot; interna para o ativo, mas os bytes são armazenados externamente. Para facilitar isso, o Workfront também armazena uma &quot;ID de documento externa&quot; para ajudar a localizar o recurso referenciado externamente no repositório ou armazenamento remoto.
 
-* **Pasta de documentos vinculada**: um container para ativos digitais hospedados em um provedor de armazenamento de documentos externo. O Workfront terá sua própria &quot;ID da pasta de documentos&quot; interna para o ativo, mas os bytes são armazenados externamente. Para facilitar isso, o Workfront também armazena uma &quot;ID de documento externa&quot; para ajudar a localizar o recurso referenciado externamente no repositório ou armazenamento remoto.
+* **Pasta de Documentos Vinculados**: um contêiner de ativos digitais hospedados em um provedor de armazenamento de documentos externo. O Workfront terá sua própria &quot;ID da pasta de documentos&quot; interna para o ativo, mas os bytes são armazenados externamente. Para facilitar isso, o Workfront também armazena uma &quot;ID de documento externa&quot; para ajudar a localizar o recurso referenciado externamente no repositório ou armazenamento remoto.
 
-* **ID do documento externo**: ID atribuída quando os ativos são armazenados fora do Workfront. O Workfront mapeia seu identificador interno para o identificador usado para localizar o ativo no sistema externo, por meio desse campo &quot;identificador de documento externo&quot;. Portanto, ao vincular o documento ou a pasta de um novo armazenamento externo, um novo identificador de documento externo deve ser composto, no formato apropriado para o provedor de documentos externos identificar o documento no novo repositório ou armazenamento.
+* **ID do Documento Externo**: ID atribuída quando os ativos são armazenados fora do Workfront. O Workfront mapeia seu identificador interno para o identificador usado para localizar o ativo no sistema externo, por meio desse campo &quot;identificador de documento externo&quot;. Portanto, ao vincular o documento ou a pasta de um novo armazenamento externo, um novo identificador de documento externo deve ser composto, no formato apropriado para o provedor de documentos externos identificar o documento no novo repositório ou armazenamento.
 
   >[!NOTE]
   >
   > O Workfront ainda não tem um padrão para identificadores de documentos externos. Uma nova especificação está sendo usada para IDs AEM, mas para outras IDs, a ID do documento externo pode assumir diferentes formas, dependendo do tipo de provedor.
 
 
-* **Tipo de objeto**: Este é um termo somente para API para fins deste documento. É um tipo de objeto genérico no Workfront com o qual você deseja interagir. Nesse caso, você interagirá com documentos e pastas que têm os tipos &quot;DOCU&quot; e &quot;DOCFDR&quot;, respectivamente.
+* **Tipo de Objeto**: este é um termo somente para API para fins deste documento. É um tipo de objeto genérico no Workfront com o qual você deseja interagir. Nesse caso, você interagirá com documentos e pastas que têm os tipos &quot;DOCU&quot; e &quot;DOCFDR&quot;, respectivamente.
 
-* **ID do objeto**: o identificador interno do Workfront para o objeto genérico com o qual você deseja interagir. Você interagirá com documentos e pastas, portanto, essa será a ID do documento ou a ID da pasta do documento, respectivamente.
+* **ID do Objeto**: o identificador interno do Workfront para o objeto genérico com o qual você deseja interagir. Você interagirá com documentos e pastas, portanto, essa será a ID do documento ou a ID da pasta do documento, respectivamente.

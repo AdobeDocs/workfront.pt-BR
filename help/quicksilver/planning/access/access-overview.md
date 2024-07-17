@@ -72,7 +72,7 @@ Você deve ter as seguintes configurações para usar o Adobe Workfront Planning
 <tr>
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
-   <p>Contribute ou tenha permissões mais altas para espaços de trabalho e exibições que você não criou para editá-los, excluí-los e compartilhá-los, e para criar, editar ou excluir tipos de registros e registros.</p>
+   <p>O Contribute ou permissões mais altas para espaços de trabalho e exibições que você não criou para editá-los, excluí-los e compartilhá-los, e para criar, editar ou excluir tipos de registros e registros.</p>
     <p>Os administradores do sistema podem gerenciar espaços de trabalho que não criaram. </p>
     <p>Os administradores do sistema não podem gerenciar exibições que não criaram. </p>
    <p>Para obter informações sobre o compartilhamento de permissões para objetos do Workfront Planning, consulte  
@@ -81,13 +81,13 @@ Você deve ter as seguintes configurações para usar o Adobe Workfront Planning
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalizar o menu principal usando um modelo de layout</a> e e <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Atribuir usuários a um modelo de layout</a>. </p>  
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalizar o Menu Principal usando um modelo de layout</a> e <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Atribuir usuários a um modelo de layout</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Para obter mais informações sobre os requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Compartilhar a área Planejamento no Menu Principal com outras pessoas
@@ -96,11 +96,11 @@ Você deve ter as seguintes configurações para usar o Adobe Workfront Planning
 
 Depois que sua organização tiver sido inscrita no programa Workfront Planning, você poderá adicionar a área Planejamento ao Menu Principal de todos os usuários usando um modelo de layout.
 
-1. Efetue logon no **Workfront** como administrador do Workfront.
+1. Faça logon no **Workfront** como administrador do Workfront.
 
-1. Adicione o **Planejamento** ícone ![](assets/planning-icon.png) para o **Menu principal** usando um **Modelo de layout**.
+1. Adicione o ícone **Planning** ![](assets/planning-icon.png) ao **Menu Principal** usando um **Modelo de Layout**.
 
-   Para obter informações, consulte [Personalizar o menu principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Para obter informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 1. Atribua o modelo de layout aos usuários que você deseja que tenham acesso ao Workfront Planning.
 

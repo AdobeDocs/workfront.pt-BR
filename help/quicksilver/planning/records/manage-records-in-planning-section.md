@@ -77,14 +77,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>No Workfront, visualize ou aumente as permissões de um projeto, portfólio ou programa</a> </p> 
-   <p>No Workfront Planning, no Contribute ou em permissões superiores para um espaço de trabalho</a> </p>  
+   <td> <p>No Workfront, visualize ou aumente as permissões para um projeto, portfólio ou programa</a> </p> 
+   <p>No Workfront Planning, Contribute ou permissões superiores para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho do Workfront Planning, incluindo aqueles que eles não criaram</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Planejamento no Menu Principal e a seção Planejamento no painel esquerdo ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Planejamento no Menu Principal e a seção Planejamento no painel esquerdo ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -135,8 +135,8 @@ A página dos objetos é aberta no Workfront.
 
 1. Clique em um cartão de registro para exibir mais informações sobre o registro. A caixa de visualização do registro é exibida.
 1. (Opcional) Inicie a modificação de campos na caixa de visualização do registro. Suas alterações são salvas automaticamente.
-1. (Opcional) Clique no link **Abrir em uma nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da caixa de visualização para abrir a página de detalhes do registro. A página de detalhes do registro é aberta no Workfront Planning.
-1. Passe o mouse sobre um cartão de registro e clique no ícone desconectar registro **-** e, em seguida, clique em **Desconectar**.
+1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em uma nova guia** no canto superior direito da caixa de visualização para abrir a página de detalhes do registro. A página de detalhes do registro é aberta no Workfront Planning.
+1. Passe o mouse sobre um cartão de registro, clique no ícone de desconectar registro **-** e clique em **Desconectar**.
 As seguintes situações ocorrem:
    * O registro não está mais conectado ao objeto Workfront.
    * O objeto Workfront também é removido do campo conectado do registro do Workfront Planning.

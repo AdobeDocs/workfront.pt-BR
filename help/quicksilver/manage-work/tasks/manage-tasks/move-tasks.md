@@ -51,7 +51,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para as tarefas</p> <p>Permissões do Contribute ou superiores para o projeto com a capacidade de adicionar tarefas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para as tarefas</p> <p>Permissões do Contribute ou superiores para o projeto com capacidade para adicionar tarefas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,13 +80,13 @@ Os seguintes itens não são movidos com a tarefa, por padrão:
 
 1. Vá para o projeto que contém a(s) tarefa(s) que deseja mover.
 1. Clique em **Tarefas** no painel esquerdo para exibir a lista de tarefas.
-1. Clique em **Modo de plano** ícone ![](assets/plan-mode-icon.png) e assegurar que o **Salvamento automático** for ativado, selecione a tarefa ou tarefas que deseja mover.
+1. Clique no ícone ![](assets/plan-mode-icon.png) do **Modo de Plano**, verifique se a opção **Salvamento automático** está habilitada e selecione a(s) tarefa(s) que deseja mover.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >Não é possível mover tarefas quando a variável **Salvamento automático** alternância desativada.
+   >Não é possível mover tarefas quando a opção **Salvar automaticamente** está desabilitada.
 
 1. (Opcional e condicional) Se quiser mover as tarefas selecionadas no mesmo projeto, clique nas tarefas selecionadas, arraste-as e solte-as no local em que deseja movê-las no projeto.
 
@@ -94,15 +94,15 @@ Os seguintes itens não são movidos com a tarefa, por padrão:
 
 1. (Condicional) Selecione a(s) tarefa(s) que deseja mover e siga um destes procedimentos:
 
-   * Clique em **Mais** menu ![](assets/qs-more-menu.png) na parte superior da lista de tarefas, em seguida, clique em **Mover para**.
+   * Clique no menu **Mais** ![](assets/qs-more-menu.png) na parte superior da lista de tarefas e clique em **Mover para**.
    * Clique com o botão direito do mouse nas tarefas selecionadas e clique em **Mover para**.
-   * Ao selecionar uma tarefa, clique no botão **Mais** menu ![](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista, em seguida, clique em **Mover para**.
+   * Ao selecionar uma tarefa, clique no menu **Mais** ![](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Mover para**.
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
    A caixa Mover Tarefa é exibida
 
-1. Continue movendo a tarefa, conforme descrito na seção [Mover uma tarefa no nível da tarefa](#move-a-task-at-the-task-level) neste artigo, começando na Etapa 4.
+1. Continue movendo a tarefa, conforme descrito na seção [Mover uma tarefa no nível de tarefa](#move-a-task-at-the-task-level) deste artigo, começando com a Etapa 4.
 
    <!--
    is this still accurate?!
@@ -114,11 +114,11 @@ Além de mover tarefas de uma lista de tarefas, você também pode mover uma tar
 
 1. Encontre uma tarefa em seu sistema Workfront procurando por ela.
 1. Clique no nome da tarefa para abri-la.
-1. Clique em **Mais** menu suspenso ![](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Mover para**. A caixa Mover Tarefa é exibida.
+1. Clique no menu suspenso **Mais** ![](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Mover para**. A caixa Mover Tarefa é exibida.
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
-1. (Opcional) Atualize a **Nome da tarefa**. A tarefa é movida com o novo nome no novo local. A Workfront não registra o nome original da tarefa.
+1. (Opcional) Atualize o **Nome da tarefa**. A tarefa é movida com o novo nome no novo local. A Workfront não registra o nome original da tarefa.
 
    >[!TIP]
    >
@@ -127,7 +127,7 @@ Além de mover tarefas de uma lista de tarefas, você também pode mover uma tar
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. Digite o nome do **Projeto de destino** para onde deseja mover a tarefa na **Selecionar projeto de destino** campo.
+1. Digite o nome do **Projeto de destino** para onde você deseja mover a tarefa no campo **Selecionar projeto de destino**.
 
    Se desejar mover a tarefa dentro do mesmo projeto, digite o nome do projeto atual.
 
@@ -137,20 +137,20 @@ Além de mover tarefas de uma lista de tarefas, você também pode mover uma tar
    >* Você também pode começar a digitar o número de referência ou inserir a ID do projeto. Isso pode ajudá-lo a distinguir entre projetos com nomes idênticos.
    >* Somente 100 projetos são exibidos na lista.
 
-1. (Condicional) Clique em **Solicitar acesso** para solicitar acesso ao projeto, se você não tiver acesso ao projeto selecionado.
+1. (Condicional) Clique em **Solicitar acesso** para solicitar acesso ao projeto, caso não tenha acesso ao projeto selecionado.
 1. (Condicional) Continue a mover a tarefa para o projeto de destino selecionado sem solicitar acesso se tiver acesso para adicionar tarefas a uma das tarefas no projeto de destino.
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >
-   >Mensagens semelhantes serão exibidas se o projeto selecionado estiver com aprovação pendente, concluído ou inativo, quando o administrador do Workfront impedir a adição de tarefas a esses projetos. Para obter mais informações, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Mensagens semelhantes serão exibidas se o projeto selecionado estiver com aprovação pendente, concluído ou inativo, quando o administrador do Workfront impedir a adição de tarefas a esses projetos. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. (Opcional) Clique em **Opções** no painel esquerdo
 
    Ou
 
-   Role para baixo até **Opções** na caixa Mover tarefa e, em seguida, desmarque qualquer um dos itens listados na tabela abaixo para removê-los das tarefas movidas. Todas as opções são selecionadas por padrão.
+   Role para baixo até a seção **Opções** na caixa Mover Tarefa e desmarque qualquer um dos itens listados na tabela abaixo para removê-los das tarefas movidas. Todas as opções são selecionadas por padrão.
 
    >[!IMPORTANT]
    >
@@ -179,7 +179,7 @@ Além de mover tarefas de uma lista de tarefas, você também pode mover uma tar
       <li> Não Iniciar Depois De</li>
       </ul>
 
-   Para obter informações sobre restrições de tarefa e como restrições de tarefa ou datas de projeto podem ser afetadas, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral de Restrição de Tarefa</a> e procure por uma restrição específica.</p> </td>
+   Para obter informações sobre restrições de tarefa e como restrições de tarefa ou datas de projeto podem ser afetadas, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral de Restrição de Tarefa</a> e procure uma restrição específica.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Atribuições</td> 
@@ -204,7 +204,7 @@ Além de mover tarefas de uma lista de tarefas, você também pode mover uma tar
      <tr> 
       <td role="rowheader">Documentos</td> 
       <td> <p>Os documentos anexados à tarefa não são transferidos para a tarefa movida. Isso inclui versões, provas e documentos vinculados.</p> <p>Isso não inclui aprovações de documentos. Aprovações de documentos nunca podem ser movidas quando uma tarefa é movida.</p> 
-      <b>NOTA</b>
+      <b>OBSERVAÇÃO</b>
 
    Se você optar por não mover os documentos com a tarefa, eles serão excluídos e colocados na Lixeira por 30 dias. Um administrador pode restaurá-los e eles serão restaurados na tarefa movida.
 
@@ -233,7 +233,7 @@ Além de mover tarefas de uma lista de tarefas, você também pode mover uma tar
 
    Ou
 
-   Role para a **Selecionar pai** e selecione a tarefa no projeto de destino que você deseja que se torne a principal da tarefa movida.
+   Role até a seção **Selecionar pai** e selecione a tarefa no projeto de destino que você deseja tornar a tarefa pai da tarefa movida.
 
    >[!TIP]
    >

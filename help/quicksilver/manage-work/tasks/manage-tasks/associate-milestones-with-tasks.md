@@ -45,7 +45,7 @@ Se você não tiver acesso, pergunte ao administrador do Workfront se ele defini
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para a tarefa</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para a tarefa</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,18 +74,18 @@ Antes de associar uma etapa a uma tarefa, é necessário que haja o seguinte:
 
 Depois que um caminho de marcos é associado a um projeto, as tarefas podem ser atribuídas a um marco.
 
-1. Vá para uma tarefa e clique no botão **Mais** ícone ![](assets/more-icon.png) à direita do nome da tarefa, depois **Editar**.
+1. Vá para uma tarefa e clique no ícone **Mais** ![](assets/more-icon.png) à direita do nome da tarefa e **Editar**.
 
    Tarefas e Etapas têm uma relação 1:1. Não é possível anexar o mesmo marco a várias tarefas. Cada tarefa pode ser vinculada a um único marco ou cada marco pode ser mapeado para uma tarefa.
 
-1. Clique em **Configurações**, em seguida, selecione uma etapa na **Etapa** para a tarefa.
+1. Clique em **Configurações** e selecione uma etapa no campo **Etapa** da tarefa.
 1. Clique em **Salvar**.
-1. (Opcional) Em uma lista de tarefas, adicione o **Ícones de Status** para identificar quais tarefas têm marcos. O indicador de diamante de etapas é exibido na coluna Ícones de status.
+1. (Opcional) Em uma lista de tarefas, adicione a coluna **Ícones de Status** para identificar quais tarefas têm marcos. O indicador de diamante de etapas é exibido na coluna Ícones de status.
 
    Para obter informações, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
    ![](assets/amwt3.png)
 
-1. (Opcional) Vá para uma lista de projetos, selecione a **Etapa** para identificar o progresso de suas tarefas de marco.
+1. (Opcional) Vá para uma lista de projetos, selecione a visualização **Marco** para identificar o progresso de suas tarefas de marco.
 
    ![](assets/milestone-view-project-list.png)

@@ -27,7 +27,7 @@ Ao usar um campo personalizado calculado existente, o cálculo não é transferi
 
 >[!TIP]
 >
->Isso ocorre ao usar o cálculo armazenado no **Instruções** do formulário personalizado ajuda.
+>Isso ocorre ao usar o cálculo armazenado no campo **Instruções** da ajuda do formulário personalizado.
 
 Você também pode ter um cálculo diferente para o mesmo campo, no novo formulário. Manter o mesmo nome para o campo personalizado calculado garante a coesão e a consistência em sua convenção de nomenclatura.
 
@@ -35,7 +35,7 @@ Você também pode ter um cálculo diferente para o mesmo campo, no novo formul�
 >
 >Os campos personalizados calculados podem se tornar desatualizados ao longo do tempo. Para garantir que o cálculo sempre esteja atualizado nesses campos, siga um destes procedimentos:
 >
->* Depois de salvar um objeto no qual você editou dados em um formulário personalizado anexado, clique no ícone Mais ![](assets/more-icon.png) na página principal do objeto, em seguida, recalcular expressões personalizadas.
+>* Depois de salvar um objeto com os dados editados em um formulário personalizado anexado, clique no ícone Mais ![](assets/more-icon.png) na página principal do objeto e em Recalcular Expressões Personalizadas.
 >* Selecione a opção Recalcular expressões personalizadas ao editar objetos em massa.
 >* Selecione a opção Update previous calculations ao editar um Campo personalizado calculado em um formulário personalizado.
 >

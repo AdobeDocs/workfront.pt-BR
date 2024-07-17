@@ -12,7 +12,7 @@ exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 13%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 
 Esta seção contém as seguintes subseções:
 
-* [Configurar funcionalidade de prova](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+* [Configurar a funcionalidade de prova](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
 * [Configurar relatórios](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [Emails](../../administration-and-setup/manage-workfront/emails/emails.md)
 * [Segurança](../../administration-and-setup/manage-workfront/security/security.md)

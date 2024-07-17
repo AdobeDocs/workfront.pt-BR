@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Redefinir a senha de um usuário com Autenticação Aprimorada
-description: Quando a Autenticação aprimorada (eAuth) estiver ativada para [!DNL Workfront] Ambiente, uma [!DNL Workfront] o administrador não pode redefinir as credenciais de logon de outro usuário. Isso difere de [!DNL Workfront] ambientes sem eAuth ou aqueles ambientes para os quais o Logon único (SSO) está ativado.
+description: Quando a Autenticação Aprimorada (eAuth) está habilitada para o seu Ambiente  [!DNL Workfront] , um administrador  [!DNL Workfront]  não pode redefinir as credenciais de logon de outro usuário. Isso difere de  [!DNL Workfront] ambientes sem eAuth ou dos ambientes para os quais o Logon único (SSO) está habilitado.
 author: Lisa
 feature: Get Started with Workfront
 hide: true
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--This article has been hidden by request-->
 
-Quando a Autenticação aprimorada (eAuth) estiver ativada para [!DNL Workfront] Ambiente, uma [!DNL Workfront] o administrador não pode redefinir as credenciais de logon de outro usuário. Isso difere de [!DNL Workfront] ambientes sem eAuth ou aqueles ambientes para os quais o Logon único (SSO) está ativado.
+Quando a Autenticação Aprimorada (eAuth) está habilitada para o Ambiente [!DNL Workfront], um administrador do [!DNL Workfront] não pode redefinir as credenciais de logon de outro usuário. Isso difere dos ambientes [!DNL Workfront] sem eAuth ou dos ambientes para os quais o Logon único (SSO) está habilitado.
 
 ## Requisitos de acesso
 
@@ -44,21 +44,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Redefinir a senha de um usuário em um ambiente habilitado para eAuth
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Workfront]e, em seguida, clique em **[!UICONTROL Usuários]** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Workfront] e clique em **[!UICONTROL Usuários]** ![](assets/users-icon-in-main-menu.png).
 
    ![](assets/main-menu-options-350x481.png)
 
-1. Selecione o **[!UICONTROL Usuário]** que exige uma redefinição de senha.
+1. Selecione o **[!UICONTROL Usuário]** que requer uma redefinição de senha.
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. Clique em **[!UICONTROL Mais] botão** que aparece depois que você seleciona o **[!UICONTROL Usuário]** e selecione o **[!UICONTROL Enviar email de senha esquecida]** no menu suspenso.
+1. Clique no botão **[!UICONTROL Mais]** que aparece após você escolher o **[!UICONTROL Usuário]** desejado e selecione a opção **[!UICONTROL Enviar Email de Senha Esquecida]** no menu suspenso.
 
    ![](assets/100520classicnwesendemail-350x134.png)
 
-Depois de selecionar o **[!UICONTROL Enviar email de senha esquecida]** , um email será enviado ao usuário selecionado contendo instruções para que ele altere sua própria senha.
+Após selecionar a opção **[!UICONTROL Enviar Email de Senha Esquecida]**, um email será enviado ao usuário selecionado contendo instruções para que ele altere sua própria senha.
 
 ![](assets/pwresetemail-resized-350x461.png)

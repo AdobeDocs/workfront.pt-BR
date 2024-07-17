@@ -8,8 +8,8 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 2%
+source-wordcount: '538'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -42,18 +42,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Criar tags para um quadro
 
 {{step1-to-boards}}
 
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) ao lado do nome do quadro, escolha **[!UICONTROL Gerenciador de tags]**.
+1. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) ao lado do nome do quadro e escolha **[!UICONTROL Gerenciador de Tags]**.
 
-   ![Selecionar Gerenciador de tags](assets/boards-tagmanager-350x189.png)
+   ![Selecionar Gerenciador de Marcas](assets/boards-tagmanager-350x189.png)
 
-1. No [!UICONTROL Gerenciador de tags] caixa de diálogo, selecione [!UICONTROL **Adicionar tag**] no [!UICONTROL Tags do painel] seção.
+1. Na caixa de diálogo [!UICONTROL Gerenciador de tags], selecione [!UICONTROL **Adicionar tag**] na seção [!UICONTROL Marcas do painel].
 1. Digite o nome da tag na caixa realçada e escolha uma cor para esta tag no menu suspenso. A tag é salva automaticamente.
 1. (Condicional) Repita as etapas 4 a 5 para criar tags adicionais.
 1. Clique em **[!UICONTROL Concluído]** no canto superior direito da caixa.
@@ -70,14 +70,14 @@ As tags de workflow estão disponíveis para todas as placas em um workflow.
 
 {{step1-to-boards}}
 
-1. No painel, clique em [!UICONTROL **Exibir fluxo de trabalho**] para abrir um workflow.
-1. Abra um quadro. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) ao lado do nome do quadro, escolha **[!UICONTROL Gerenciador de tags]**.
+1. No painel, clique em [!UICONTROL **Exibir fluxo de trabalho**] para abrir um fluxo de trabalho.
+1. Abra um quadro. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) ao lado do nome do quadro e escolha **[!UICONTROL Gerenciador de Tags]**.
 
    Ou
 
-   Clique em [!UICONTROL **Configurar**] para abrir o [!UICONTROL Configurar fluxo de trabalho] painel. Em seguida, clique em **[!UICONTROL Gerenciador de tags]**.
+   Clique em [!UICONTROL **Configurar**] para abrir o painel [!UICONTROL Configurar Fluxo de Trabalho]. Em seguida, clique em **[!UICONTROL Gerenciador de tags]**.
 
-1. No [!UICONTROL Gerenciador de tags] caixa de diálogo, selecione [!UICONTROL **Adicionar tag**] na seção Tags do fluxo de trabalho.
+1. Na caixa de diálogo [!UICONTROL Gerenciador de Tags], selecione [!UICONTROL **Adicionar tag**] na seção Tags de Fluxo de Trabalho.
 1. Digite o nome da tag na caixa realçada e escolha uma cor para esta tag no menu suspenso. A tag é salva automaticamente.
 1. (Condicional) Repita as etapas 4 a 5 para criar tags adicionais.
 1. Clique em **[!UICONTROL Concluído]** no canto superior direito da caixa.
@@ -91,22 +91,22 @@ As tags de workflow estão disponíveis para todas as placas em um workflow.
 
    Ou
 
-   Clique em **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
+   Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menus]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
 
-1. No **[!UICONTROL Tags]** digite o nome de uma tag existente e selecione-a nos resultados da pesquisa.\
+1. Na caixa **[!UICONTROL Marcas]**, digite o nome de uma marca existente e selecione-a nos resultados da pesquisa.\
    Ou\
-   Clique em **[!UICONTROL Editar]**&#x200B;ícone ![Editar tag](assets/boards-edittag-30x29.png) e criar uma nova tag no Gerenciador de tags. Clique em **Concluído** para retornar ao cartão, selecione a tag no cartão.
+   Clique no ícone **[!UICONTROL Editar]**&#x200B;tag ![Editar tag](assets/boards-edittag-30x29.png) e crie uma nova tag no Gerenciador de Tags. Clique em **Concluído** para retornar ao cartão e selecione a marca no cartão.
 1. Clique em **Fechar**.
 
 ## Editar uma tag
 
 1. Acessar um quadro.
-1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) ao lado do nome do quadro, escolha **[!UICONTROL Gerenciador de tags]**.
+1. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) ao lado do nome do quadro e escolha **[!UICONTROL Gerenciador de Tags]**.
 
-   ![Selecione Gerenciador de tags.](assets/boards-tagmanager-350x189.png)
+   ![Selecionar Gerenciador de Marcas.](assets/boards-tagmanager-350x189.png)
 
 1. (Condicional) Clique no nome da tag para editar o texto.
-1. (Condicional) Clique no link [!UICONTROL cor] menu suspenso para alterar a cor da tag.
+1. (Condicional) Clique no menu suspenso [!UICONTROL cor] para alterar a cor da marca.
 1. Clique em **[!UICONTROL Concluído]**.
 
 ## Remover uma tag de um cartão
@@ -116,17 +116,17 @@ As tags de workflow estão disponíveis para todas as placas em um workflow.
 
    Ou
 
-   Clique em **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
+   Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menus]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
 
-1. Localize a tag que deseja remover do cartão e clique no link **[!UICONTROL Remover]** ícone ![Remover tag](assets/copy-of-boards-remove-30x23.png).
+1. Localize a marca que você deseja remover do cartão e clique no ícone **[!UICONTROL Remover]** ![Remover marca](assets/copy-of-boards-remove-30x23.png).
 1. Clique em **[!UICONTROL Fechar]**.
 
 ## Excluir uma tag
 
 1. Acessar um quadro.
-1. Clique em **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) ao lado do nome do quadro, escolha **[!UICONTROL Gerenciador de tags]**.
+1. Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e escolha **[!UICONTROL Gerenciador de Tags]**.
 
-   ![Selecionar Gerenciador de tags](assets/boards-tagmanager-350x189.png)
+   ![Selecionar Gerenciador de Marcas](assets/boards-tagmanager-350x189.png)
 
-1. Localize a tag que deseja excluir e clique no link **[!UICONTROL Excluir]** ícone ![Excluir tag](assets/copy-of-boards-delete-30x27.png).
+1. Localize a marca que você deseja excluir e clique no ícone **[!UICONTROL Excluir]** ![Excluir marca](assets/copy-of-boards-delete-30x27.png).
 1. Clique em **[!UICONTROL Concluído]**.

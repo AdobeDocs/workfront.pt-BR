@@ -9,7 +9,7 @@ exl-id: 47325ca8-653b-47c9-b84e-e10f1a57cf6f
 source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
@@ -18,5 +18,5 @@ ht-degree: 17%
 Esta seção contém as seguintes subseções que descrevem as próximas versões de produtos, anúncios e programas beta atuais.
 
 * [Versões do produto](../product-announcements/product-releases/product-releases.md)
-* [Anúncios](../product-announcements/announcements/announcements.md)
-* [Programas Beta](../product-announcements/betas/betas.md)
+* [Avisos](../product-announcements/announcements/announcements.md)
+* [Programas do Beta](../product-announcements/betas/betas.md)

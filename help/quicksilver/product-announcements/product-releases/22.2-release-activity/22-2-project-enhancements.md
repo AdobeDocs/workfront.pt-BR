@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-a semana de 4 de abril de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+a semana de 4 de abril de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte a [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## As placas Adobe Workfront já estão disponíveis!
 
@@ -115,7 +115,7 @@ Para obter mais informações, consulte os seguintes artigos:
 * [Recalcular as finanças do projeto](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Editar informações em campos de formulário personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Anexar um modelo a um projeto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
-* [Exportar um projeto para o Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [Exportar um projeto para o Projeto do Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Assinar itens no Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Manter usuários no painel, lista ou relatório após converter o problema em projeto
@@ -140,7 +140,7 @@ As seguintes alterações foram feitas em tarefas com um Tipo de Duração Simpl
 * As alocações de atribuição individuais são preservadas ao substituir usuários e funções.
 * As alocações de atribuição individuais são preservadas na função ao remover o usuário. (Removido da versão. Agora, as Horas planejadas serão definidas como 0 após remover todos os atribuídos.)
 
-Para obter mais informações sobre o Trabalho necessário, consulte [Visão geral das Horas planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
+Para obter mais informações sobre as Horas Planejadas, consulte [visão geral das Horas Planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
 
 ## Compartilhar pastas somente nos cinco níveis superiores de uma hierarquia de pastas
 

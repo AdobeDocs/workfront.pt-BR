@@ -47,13 +47,13 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Gerenciar associações de um grupo
 
 Você pode adicionar e remover usuários e outros grupos de um grupo que administra. Você também pode atribuir membros do grupo como administradores do grupo e gerenciar as informações de perfil do usuário dos membros do grupo.
 
-Para obter instruções, consulte [Exibir e gerenciar associações de um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+Para obter instruções, consulte [Exibir e gerenciar as associações de um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
 ## Gerenciar os detalhes de um grupo
 
@@ -71,19 +71,19 @@ Para obter instruções, consulte [Exibir e gerenciar os detalhes de um grupo](.
 
 Sem sair da página principal de um grupo que você está visualizando, você pode editar, copiar ou excluir o grupo rapidamente.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Grupos**.
 
    Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.
 
-1. Selecione o grupo e clique no botão Editar ![](assets/edit-icon.png), Copiar ![](assets/copy-icon.png), ou Excluir ![](assets/delete.png) ícone.
+1. Selecione o grupo e clique no ícone Editar ![](assets/edit-icon.png), Copiar ![](assets/copy-icon.png) ou Excluir ![](assets/delete.png).
 
    Se precisar de informações sobre o uso da caixa exibida, consulte uma das seguintes opções:
 
    * **Editar**: [Exibir e gerenciar os detalhes de um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **Copiar**: [Criar um grupo de nível superior copiando um grupo ou subgrupo existente](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) no artigo [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **Copiar**: [Crie um grupo de nível superior copiando um grupo ou subgrupo existente](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) no artigo [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
 
    * **Excluir**: [Excluir um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
@@ -91,7 +91,7 @@ Sem sair da página principal de um grupo que você está visualizando, você po
 
 Se você for um administrador de grupo e seu grupo precisar de configurações de preferência de projetos, tarefas e problemas diferentes daquelas definidas no nível do sistema, poderá solicitar que o administrador do Workfront desbloqueie uma preferência para todos os grupos em toda a organização. Depois de desbloqueado, você (e administradores de grupos para todos os outros grupos) pode configurá-lo para os grupos que você gerencia.
 
-Para obter instruções, consulte [Configurar as preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e  [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Para obter instruções, consulte [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Listar, adicionar e configurar subgrupos
 
@@ -107,7 +107,7 @@ Como administrador de grupo, você pode criar status personalizados para um grup
 
 Você também pode personalizar os status do sistema de um grupo de nível superior se um administrador do Workfront os tiver configurado para permitir personalização.
 
-Para obter instruções, consulte [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Para obter instruções, consulte [Criar ou editar o status de um grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 ## Trabalhar com projetos de um grupo
 
@@ -116,7 +116,7 @@ Na área Grupos da Configuração, ao visualizar a página principal de um grupo
 * Listar e trabalhar com (editar, copiar, excluir e exportar) os projetos associados ao grupo e seus subgrupos e que foram compartilhados com você
 * Criar um novo projeto para o grupo
 
-Para obter instruções, consulte [Criar e modificar os projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+Para obter instruções, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 ## Exibir e gerenciar os processos de aprovação de um grupo
 
@@ -140,11 +140,11 @@ Para obter instruções, consulte [Criar e modificar as agendas de um grupo](../
 
 ## Exibir e gerenciar perfis de planilha de horas de membros do grupo
 
-Ao visualizar a página principal de um grupo que você administra, é possível gerenciar os perfis de folha de horas que você e os outros administradores do grupo—ou um de seus subgrupos—têm permissão para editar. Para obter instruções, consulte [Criar e gerenciar os perfis de planilha de horas de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
+Ao visualizar a página principal de um grupo que você administra, é possível gerenciar os perfis de folha de horas que você e os outros administradores do grupo—ou um de seus subgrupos—têm permissão para editar. Para obter instruções, consulte [Criar e gerenciar os perfis de folha de horas de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
 
 ## Exibir e gerenciar os membros de um subgrupo do grupo
 
-Ao visualizar a página principal de um grupo que você administra, é possível visualizar e gerenciar todos os usuários nos subgrupos do grupo. Para obter instruções, consulte [Exibir e gerenciar membros do subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Ao visualizar a página principal de um grupo que você administra, é possível visualizar e gerenciar todos os usuários nos subgrupos do grupo. Para obter instruções, consulte [Exibir e gerenciar membros de subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ## Exibir e gerenciar as equipes de um grupo
 
@@ -163,7 +163,7 @@ Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e traba
 * Estão associados ao grupo que está a visualizar ou a qualquer um dos seus subgrupos
 * Você tem permissão para visualizá-las porque as criou ou porque foram compartilhadas com você
 
-Para obter instruções, consulte [Criar e modificar os projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) e [Criar, modificar e exibir os programas de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+Para obter instruções, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) e [Criar, modificar e exibir programas de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
 ## Desativar ou reativar um grupo
 

@@ -45,26 +45,26 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exibir recuos de tarefas em uma coluna de uma lista de tarefas
 
 1. Ir para uma lista de tarefas.
-1. No **Exibir** clique em **Nova visualização**.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
 
-1. Clique em **Adicionar coluna** e comece digitando &quot;Nome da tarefa&quot; no campo **Mostrar nesta coluna** e selecione-o quando ele for exibido na lista.
+1. Clique em **Adicionar coluna** e comece a digitar &quot;Nome da tarefa&quot; no campo **Mostrar nesta coluna** e depois selecione-o quando ele for exibido na lista.
 
-1. Na nova coluna, clique em **Alternar para modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
-1. Remova o texto localizado na `valuefield=` e substitua-o pelo seguinte código:
+1. Na nova coluna, clique em **Alternar para Modo de Texto**.
+1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
+1. Remova o texto localizado na linha `valuefield=` e substitua-o pelo seguinte código:
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
    ```
 
-1. Clique em **Salvar**, depois **Salvar visualização**.
+1. Clique em **Salvar** e depois em **Salvar exibição**.

@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>
    <p>Novo: Qualquer um</p>
     <p>Plano atual: Pro ou Superior</p>
-   <p>Plano herdado: Select ou Higher</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <p>Plano herdado: Select ou Higher</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -53,18 +53,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
 +++
 
 ## Criar uma prova avançada com um fluxo de trabalho básico
 
-1. Vá para o projeto, tarefa ou problema em que deseja a prova e clique no link **Documentos** guia.
-1. Clique em **Adicionar novo** > Revise, faça upload do conteúdo e trabalhe nas seções listadas abaixo.
+1. Vá para o projeto, tarefa ou problema em que deseja a prova e clique na guia **Documentos**.
+1. Clique em **Adicionar novo** > Prova, carregue o conteúdo e percorra as seções listadas abaixo.
 
    ou
 
-   Passe o mouse sobre um documento existente, em seguida clique no **Criar prova** > **Prova avançada** e trabalhe nas seções listadas abaixo.
+   Passe o mouse sobre um documento existente, em seguida, clique em **Criar prova** > **Prova avançada** e percorra as seções listadas abaixo.
 
 ## Configurar o fluxo de trabalho e adicionar revisores
 
@@ -96,7 +96,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <th> <p><strong>Exibir uma prova</strong> </p> </th> 
       <th> <p><strong>Adicionar marcações</strong> </p> </th> 
       <th> <p><strong>Adicionar comentários</strong> </p> </th> 
-      <th> <p><strong>Editar comentários próprios se não houver respostas</strong> </p> </th> 
+      <th> <p><strong>Editar comentários se não houver respostas</strong> </p> </th> 
       <th> <p><strong>Tomar uma decisão</strong> </p> </th> 
       <th> <p><strong>Excluir comentários feitos por outros</strong> </p> </th> 
       <th>Resolver comentários</th> 
@@ -110,7 +110,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><strong>Somente leitura</strong> </p> </td> 
+      <td> <p><strong>Somente Leitura</strong> </p> </td> 
       <td> <p>✓ µ</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
@@ -193,7 +193,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td> <p><strong>Moderador</strong> </p> </td> 
       <td> <p>✓ µ</p> </td> 
       <td> <p>✓ µ</p> </td> 
-      <td> <p><strong>✓ µ</strong> </p> </td> 
+      <td> <p>✓ <strong></strong> </p> </td> 
       <td> <p>✓ µ</p> </td> 
       <td> <p>✓ µ</p> </td> 
       <td> <p>✓ µ</p> <p> </p> </td> 
@@ -225,13 +225,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Compartilhar prova por meio de etiqueta</td> 
-      <td> <p>Permite que o revisor adicione qualquer usuário do Workfront à prova, conforme explicado em <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Adicione tags aos usuários para compartilhar uma prova</a>.</p> <p>Nota:  <p>Se essas duas opções não estiverem disponíveis (esmaecidas), o usuário já terá um perfil de permissão que permite resolver comentários, aplicar ações a comentários e marcar qualquer usuário. </p> <p>Se as opções não forem exibidas, a pessoa adicionada não será um titular de licença da Workfront.</p> </p> </td> 
+      <td> <p>Permite que o revisor adicione qualquer usuário do Workfront à prova, conforme explicado em <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Marcar usuários para compartilhar uma prova</a>.</p> <p>Nota:  <p>Se essas duas opções não estiverem disponíveis (esmaecidas), o usuário já terá um perfil de permissão que permite resolver comentários, aplicar ações a comentários e marcar qualquer usuário. </p> <p>Se as opções não forem exibidas, a pessoa adicionada não será um titular de licença da Workfront.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Repita as etapas 1 a 3 para qualquer outro usuário adicionado à prova.
-1. Para cada usuário com o qual você está compartilhando, na **Alertas de email** selecione o tipo de alertas de email que esse usuário recebe quando as pessoas fazem comentários e tomam decisões sobre a prova:
+1. Para cada usuário com o qual você está compartilhando, na lista suspensa **Alertas de email**, selecione o tipo de alertas de email que esse usuário recebe quando as pessoas fazem comentários e tomam decisões sobre a prova:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -243,7 +243,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Respostas aos meus comentários</td> 
-      <td>Um email é enviado ao revisor somente se alguém responder explicitamente ao comentário (isso exclui as próprias respostas nos comentários). Isso significa que se alguém na prova fizer um novo comentário, o revisor não será notificado.<p>Essa configuração é recomendada para os clientes na prova, para que não sejam notificados de nenhum outro comentário na prova e sejam notificados apenas das respostas aos próprios comentários.</p><p>Embora os revisores com essa configuração de alerta por email não sejam notificados sobre outros novos comentários, eles ainda podem exibir todos os comentários na prova no visualizador da prova.</p><p>Para obter informações sobre comentários, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Exibir e responder a comentários de prova</a>.</p></td> 
+      <td>Um email é enviado ao revisor somente se alguém responder explicitamente ao comentário (isso exclui as próprias respostas nos comentários). Isso significa que se alguém na prova fizer um novo comentário, o revisor não será notificado.<p>Essa configuração é recomendada para os clientes na prova, para que não sejam notificados de nenhum outro comentário na prova e sejam notificados apenas das respostas aos próprios comentários.</p><p>Embora os revisores com essa configuração de alerta por email não sejam notificados sobre outros novos comentários, eles ainda podem exibir todos os comentários na prova no visualizador da prova.</p><p>Para obter informações sobre comentários, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Exibir e responder aos comentários de prova</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Decisões</td> 
@@ -259,26 +259,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Resumo Diário</td> 
-      <td>O Workfront envia um email com todos os comentários, respostas e decisões listados somente em dias quando houver atividade além da sua.<p>Este alerta é uma boa maneira de ver um resumo do projeto sem precisar de várias atualizações ao longo do dia.</p><p>Um exemplo de caso de uso para este resumo é um líder de departamento que deseja monitorar o progresso geral do projeto.</p><p>Para obter mais informações, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gerenciar notificações para comentários e decisões de prova</a>.</p></td> 
+      <td>O Workfront envia um email com todos os comentários, respostas e decisões listados somente em dias quando houver atividade além da sua.<p>Este alerta é uma boa maneira de ver um resumo do projeto sem precisar de várias atualizações ao longo do dia.</p><p>Um exemplo de caso de uso para este resumo é um líder de departamento que deseja monitorar o progresso geral do projeto.</p><p>Para obter mais informações, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gerenciar notificações para comentários de prova e decisões</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Nenhum email</td> 
-      <td>O Workfront não envia alertas de email.<br>Isso é útil para uma pessoa que é adicionada a uma prova somente para fins de referência e não precisa ser notificada de qualquer alteração.<p>O padrão do sistema é Resumo diário (também visto como Não definido). Se você ou seus revisores não fizerem outras alterações, todas as provas terão essa configuração.</p></td> 
+      <td>O Workfront não envia alertas de email.<br>Isso é útil para uma pessoa que é adicionada a uma prova somente para fins de referência e não precisa ser notificada de nenhuma alteração.<p>O padrão do sistema é Resumo diário (também visto como Não definido). Se você ou seus revisores não fizerem outras alterações, todas as provas terão essa configuração.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Continuar com [Definir configurações de email para a prova](#configure-email-settings-for-the-proof) abaixo.
+1. Continue com [Defina as configurações de email para a prova](#configure-email-settings-for-the-proof) abaixo.
 
 ## Definir configurações de email para a prova {#configure-email-settings-for-the-proof}
 
-1. No **Notificação por e-mail** selecione se deseja enviar notificações por email e uma mensagem personalizada para os usuários selecionados no [Criar uma prova avançada com um fluxo de trabalho básico](#workflow) anteriormente neste artigo:
+1. Na seção **Notificação por email**, selecione se deseja enviar notificações por email e uma mensagem personalizada para os usuários selecionados em [Criar uma prova avançada com um fluxo de trabalho Básico](#workflow) anteriormente neste artigo:
 
    <table>
    <tbody>
    <tr>
    <td>Notificar recipients sobre esta prova</td>
-   <td>Selecione esta opção para enviar uma notificação por e-mail aos usuários. Quando <strong>Compartilhamento básico</strong> está selecionado no <strong>Fluxo de trabalho</strong> , uma notificação por email é enviada quando a prova é criada. Quando <strong>Fluxo de trabalho automático</strong> está selecionado no <strong>Fluxo de trabalho</strong> , uma notificação por email é enviada quando a prova entra no estágio do Fluxo de trabalho automatizado ao qual o usuário está associado.</td>
+   <td>Selecione esta opção para enviar uma notificação por e-mail aos usuários. Quando o <strong>Compartilhamento básico</strong> é selecionado na seção <strong>Fluxo de trabalho</strong>, uma notificação por email é enviada quando a prova é criada. Quando o <strong>Fluxo de trabalho automatizado</strong> é selecionado na seção <strong>Fluxo de trabalho</strong>, uma notificação por email é enviada quando a prova entra no estágio do Fluxo de Trabalho Automatizado ao qual o usuário está associado.</td>
    </tr>
    <tr>
    <td>Adicionar mensagem personalizada</td>
@@ -288,11 +288,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </table>
 
 
-1. Continuar com [Definir configurações de prova](#configure-proof-settings) abaixo.
+1. Continue com [Definir configurações de prova](#configure-proof-settings) abaixo.
 
 ## Definir configurações de prova {#configure-proof-settings}
 
-1. No **Configurações de prova** selecione uma das seguintes opções:
+1. Na seção **Configurações de prova**, selecione uma das seguintes opções:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -309,7 +309,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">É necessária somente uma decisão para essa prova</td> 
-      <td>Quando essa opção é selecionada, a revisão é concluída após um dos tomadores de decisão tomar sua decisão.<br>Essa opção está desativada por padrão.</td> 
+      <td>Quando essa opção é selecionada, a revisão é concluída após um dos tomadores de decisão tomar sua decisão.<br>Esta opção está desabilitada por padrão.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Requer decisões assinadas eletronicamente</td> 
@@ -317,11 +317,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Bloquear prova quando todas as decisões necessárias forem tomadas</td> 
-      <td>Quando essa configuração estiver ativada, o estado da prova será bloqueado depois que todas as decisões forem tomadas. O estado é alterado automaticamente de desbloqueado para bloqueado quando o aprovador final toma sua decisão.<br>Essa opção está desativada por padrão.</td> 
+      <td>Quando essa configuração estiver ativada, o estado da prova será bloqueado depois que todas as decisões forem tomadas. O estado é alterado automaticamente de desbloqueado para bloqueado quando o aprovador final toma sua decisão.<br>Esta opção está desabilitada por padrão.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Baixar arquivo original</td> 
-      <td>Quando essa opção é selecionada, os revisores podem baixar o arquivo original do qual a prova foi criada.<br>Quando essa opção é desmarcada, o ícone Download não fica mais visível.<br>Essa opção está ativada por padrão.</td> 
+      <td>Quando essa opção é selecionada, os revisores podem baixar o arquivo original do qual a prova foi criada.<br>Quando esta opção é desmarcada, o ícone Download não fica mais visível.<br>Esta opção está habilitada por padrão.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Compartilhar prova por meio de URL público ou código de inserção</td> 
@@ -331,12 +331,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td role="rowheader">Inscrever-se para obter prova por meio de URL público ou código incorporado</td> 
       <td>Quando essa opção é selecionada, as pessoas que não foram adicionadas explicitamente à prova podem assinar a prova. A pessoa que se inscreve na prova recebe a função e o email definidos nas seguintes configurações:
        <ul>
-        <li><strong>Função do assinante:</strong> A função de prova padrão atribuída a todos os revisores que assinam a prova. </li>
-        <li><strong>Configurações de alerta de email para assinantes:</strong> O alerta de email padrão atribuído a todos os revisores que assinam a prova.</li>
+        <li><strong>Função do assinante:</strong> a função de prova padrão que é atribuída a todos os revisores que assinam a prova. </li>
+        <li><strong>Configurações de alerta por email para assinantes:</strong> o alerta por email padrão atribuído a todos os revisores que assinam a prova.</li>
        </ul><p>
         <ul>
-         <li><strong>É necessário acessar a prova por link de email para:</strong> Configure se o assinante receberá um email com um link para a prova. É possível selecionar <strong>Nenhum email</strong> (o link do email não é necessário para acessar a prova), <strong>Somente email de notificação de prova</strong> (o assinante recebe um link para a prova por email sem qualquer verificação) ou <strong>Emails de notificação de validação e prova</strong> (o assinante recebe um link para a prova por email e deve clicar no link para acessar uma prova. A finalidade dessa opção é garantir que a pessoa tenha inserido um endereço de email correto ao qual tem acesso).</li>
-        </ul><p>Observação: se as provas tiverem o Fluxo de trabalho automatizado anexado, todas as assinaturas gerarão emails de confirmação para os Proprietários da prova, para que eles possam decidir em qual estágio a pessoa deve ser adicionada.<br></p></p></td> 
+         <li><strong>Acesso de prova via link de email necessário para:</strong> Configure se o assinante receberá um email com um link para a prova. Você pode selecionar <strong>Nenhum email</strong> (o link do email não é necessário para acessar a prova), <strong>Somente email de notificação de prova</strong> (o assinante recebe um link para a prova por email sem qualquer verificação) ou <strong>Emails de notificação de validação e prova</strong> (o assinante recebe um link para a prova por email e deve clicar no link para acessar uma prova; a finalidade dessa opção é garantir que a pessoa tenha inserido um endereço de email correto ao qual tem acesso).</li>
+        </ul><p>Nota:  Se as provas tiverem o Fluxo de trabalho automatizado anexado, todas as assinaturas gerarão emails de confirmação para os Proprietários da prova, para que eles possam decidir em qual estágio a pessoa deve ser adicionada.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -345,7 +345,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    O Workfront começa a gerar uma prova dos documentos ou sites selecionados. Dependendo do tamanho e do tipo do arquivo, o tempo de atraso no upload de um documento pode variar. Seja paciente, pois arquivos maiores demoram mais para serem gerados. Você pode sair da página e o Workfront continua a gerar seu arquivo. O tamanho máximo do upload de arquivo é 4 GB.
 
-1. Após gerar a prova, clique em **Abrir prova** para iniciar o revisor de provas.
+1. Depois que a prova for gerada, clique em **Abrir prova** para iniciar o visualizador de provas.
 
    ![](assets/open-proof-350x132.png)
 

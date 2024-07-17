@@ -23,12 +23,12 @@ Para atualizar o status e o progresso de um projeto, você deve atualizar o stat
 
 Para obter informações sobre como atualizar o trabalho em um projeto, consulte os seguintes artigos:
 
-* [Aplicar status a trabalhos associados a grupos](../../../manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
+* [Aplicar status ao trabalho associado a um grupo](../../../manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
 * [Atualizar status da tarefa](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md)
 * [Atualizar status do problema](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md)
-* [Exibir e atualizar o Percentual Concluído das tarefas](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)
-* [Visão geral da data de compromisso](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-* [Atualizar datas de confirmação nas tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
-* [Interações entre a Data de Compromisso e a Data de Conclusão Planejada](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
+* [Exibir e atualizar a porcentagem concluída para tarefas](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)
+* [Visão geral da Data de confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+* [Atualizar Datas de Confirmação em tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
+* [Interações entre a Data de Confirmação e a Data de Conclusão Planejada](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
 * [Atualizar condição para tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
 * [Atualizar condição de um projeto](../../../manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)

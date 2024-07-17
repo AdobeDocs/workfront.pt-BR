@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] exige um [!DNL Adobe Workfront Fusion] além de uma licença [!UICONTROL Adobe Workfront] licença.
+>[!DNL Adobe Workfront Fusion] exige uma licença [!DNL Adobe Workfront Fusion] além de uma licença [!UICONTROL Adobe Workfront].
 
 
 <table style="table-layout:auto">
@@ -32,11 +32,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Agregador]</p> </td> 
-   <td> <p>Um tipo de módulo que mescla vários pacotes (várias matrizes de dados) em um único pacote. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">Módulo [!UICONTROL Aggregator] no [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Um tipo de módulo que mescla vários pacotes (várias matrizes de dados) em um único pacote. Para obter mais informações, consulte o módulo <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">[!UICONTROL Aggregator] no [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Chave de API</td> 
-   <td>Um código exclusivo que identifica o usuário, desenvolvedor ou programa que está chamando a API de um software, usado para autenticação. Desde [!DNL Adobe Workfront Fusion] Os módulos do funcionam conectando APIs. Às vezes, as chaves de API são necessárias. As chaves de API são distribuídas pelo aplicativo que as requer. Por exemplo, se você precisar de uma chave de API para [!DNL ActiveCampaign], você solicitaria, embora seu [!DNL ActiveCampaign] conta.</td> 
+   <td>Um código exclusivo que identifica o usuário, desenvolvedor ou programa que está chamando a API de um software, usado para autenticação. Como os módulos do [!DNL Adobe Workfront Fusion] funcionam conectando as APIs, as chaves de API às vezes são necessárias. As chaves de API são distribuídas pelo aplicativo que as requer. Por exemplo, se você precisar de uma chave de API para [!DNL ActiveCampaign], solicite-a na sua conta [!DNL ActiveCampaign].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Aplicativo ou serviço</td> 
@@ -52,15 +52,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Ao adicionar um aplicativo ou serviço a um cenário, é provável que primeiro você precise criar uma conexão entre [!DNL Workfront Fusion] e o aplicativo ou serviço para recuperar ou enviar os dados selecionados. Para obter mais informações, consulte <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Visão geral das conexões</a>.</p> </td> 
+   <td> <p>Ao adicionar um aplicativo ou serviço a um cenário, é provável que você tenha que primeiro criar uma conexão entre [!DNL Workfront Fusion] e o aplicativo ou serviço para recuperar ou enviar os dados selecionados. Para obter mais informações, consulte <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Visão geral das conexões</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Ciclo</p> </td> 
-   <td> <p>Um ciclo se refere a duas fases da execução do cenário: operação e confirmação. O cenário pode consistir em um ou mais ciclos. Para obter informações mais detalhadas, consulte <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Execução de cenário, ciclos e fases em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Um ciclo se refere a duas fases da execução do cenário: operação e confirmação. O cenário pode consistir em um ou mais ciclos. Para obter informações mais detalhadas, consulte <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Execução do cenário, ciclos e fases em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Armazenamento de dados</p> </td> 
-   <td> <p>Uma ferramenta que armazena dados de cenários ou permite transferir dados entre cenários individuais ou execuções de cenário. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/data-stores.md" class="MCXref xref">Armazenamentos de Dados no [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Uma ferramenta que armazena dados de cenários ou permite transferir dados entre cenários individuais ou execuções de cenário. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/data-stores.md" class="MCXref xref">Repositórios de Dados no [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transferência de dados</p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Iterador]</p> </td> 
-   <td> <p>Um tipo de módulo que permite que você pegue um pacote de dados (uma matriz de dados) e divida em pacotes separados. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Módulo [!UICONTROL Iterador] em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Um tipo de módulo que permite que você pegue um pacote de dados (uma matriz de dados) e divida em pacotes separados. Para obter mais informações, consulte o módulo <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator] em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Módulo</p> </td> 
@@ -96,7 +96,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Roteador]</p> </td> 
-   <td>Permite duplicar dados ou adicionar novas rotas a um cenário, de modo a reencaminhar os dados e lidar com diferentes grupos de dados separadamente. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">Módulo do [!UICONTROL Router] em [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td>Permite duplicar dados ou adicionar novas rotas a um cenário, de modo a reencaminhar os dados e lidar com diferentes grupos de dados separadamente. Para obter mais informações, consulte o módulo <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">[!UICONTROL Router] em [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cenário</p> </td> 
@@ -108,7 +108,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Acionador</p> </td> 
-   <td> <p>Um módulo que permite capturar pacotes que foram adicionados ou atualizados desde a última execução de um cenário. Há dois tipos de acionadores: sondagem e instantâneo (webhooks). Para obter mais informações, consulte <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Acionadores instantâneos (webhooks) no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Um módulo que permite capturar pacotes que foram adicionados ou atualizados desde a última execução de um cenário. Há dois tipos de acionadores: sondagem e instantâneo (webhooks). Para obter mais informações, consulte <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Acionadores instantâneos (webhooks) em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webhook</p> </td> 

@@ -57,12 +57,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -73,17 +73,17 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
 ## Criar um prompt
 
 1. Vá para o relatório em que deseja adicionar um prompt.
-1. Expandir **Ações de Relatório** e clique em **Editar**.
+1. Expanda **Ações de Relatório** e clique em **Editar**.
 
 1. Clique em **Configurações do relatório**.
-1. No **Prompts do relatório** clique em **Adicionar um prompt**.\
+1. Na área **Prompts do Relatório**, clique em **Adicionar um Prompt**.\
    ![](assets/qs-add-a-prompt-350x216.png)
 
 1. (Condicional) Selecione o campo no qual você deseja que o prompt se baseie. Comece digitando o nome do campo e clique em para selecioná-lo quando ele aparecer na lista.\
    As opções disponíveis para usuários que executam o relatório serão diferentes dependendo do campo selecionado.\
    Por exemplo, se você selecionar um campo de data, como Data de Conclusão Efetiva em um relatório de tarefa, &quot;Data de Conclusão Efetiva&quot; será o nome do prompt. Ao editar esse prompt enquanto está executando este relatório, você pode escolher entre um conjunto de modificadores para criar sua instrução de filtragem. Esse processo é idêntico à criação de um filtro. Para obter mais informações sobre modificadores, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Condicional) Clique em **Personalizar prompt** para criar um prompt personalizado.
+1. (Condicional) Clique em **Prompt Personalizado** para criar um prompt personalizado.
 
    Um prompt personalizado é um prompt predefinido em que você codifica os critérios do filtro antes de executar o relatório. Nesse sentido, um prompt personalizado está mais próximo de um filtro do que de um prompt.
 
@@ -91,13 +91,13 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
 
    Especifique as seguintes informações para o prompt personalizado: a condição de um prompt personalizado só pode ser editada usando o modo de texto. Isso permite que várias condições sejam aplicadas em um único campo.
 
-   * **Nome do campo:** Esse é o nome do prompt, como você o vê antes de executar o relatório.
-   * **Etiqueta:** Esse é o nome de uma das opções dentro do prompt como você o vê antes de executar o relatório.
-   * **Condição:** Insira uma condição que defina o prompt.
+   * **Nome do campo:** Esse é o nome do prompt, como você vê antes de executar o relatório.
+   * **Rótulo:** Este é o nome de uma das opções dentro do prompt à medida que você o vê antes de executar o relatório.
+   * **Condição:** insira uma condição que defina o prompt.
 
-   Use a mesma sintaxe que você usaria ao inserir um filtro de modo de texto e junte suas instruções por &quot;&amp;&quot;. Para obter mais informações sobre como editar um filtro no modo de texto, consulte [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Use a mesma sintaxe que você usaria ao inserir um filtro de modo de texto e junte suas instruções por &quot;&amp;&quot;. Para obter mais informações sobre como editar um filtro no modo texto, consulte [Editar um filtro usando o modo texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-   Por exemplo, a variável **Condição** o campo do prompt personalizado para os seguintes cenários pode ter esta aparência:
+   Por exemplo, o campo **Condição** do prompt personalizado para os seguintes cenários pode ter esta aparência:
 
    * todas as tarefas em projetos futuros em que o status do projeto seja Ideia, Solicitada, Planejada e Atual:
 
@@ -118,7 +118,7 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
    >Não é possível alterar as condições de um prompt personalizado ao executar o relatório, como você faria com um prompt padrão. Você pode ter quantas condições predefinidas forem necessárias para um prompt personalizado.
 
 1. (Opcional) Repita a Etapa 4 ou a Etapa 5 para criar quantos prompts forem necessários.
-1. Clique em **Concluído** e, em seguida, clique em **Salvar+Fechar** para salvar o relatório.
+1. Clique em **Concluído** e em **Salvar+Fechar** para salvar o relatório.
 
 ## Aplicar um prompt a um relatório
 
@@ -130,7 +130,7 @@ Para executar um relatório com um prompt:
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. Escolha uma condição para um ou todos os prompts exibidos no **Prompts** guia.\
+1. Escolha uma condição para uma ou todas as solicitações exibidas na guia **Solicitações**.\
    (Opcional) Você pode deixar os prompts em branco e não filtrar o relatório pelas condições do prompt.
 
 1. Clique em **Executar relatório**.\
@@ -154,4 +154,4 @@ A seguir, há limitações no compartilhamento de relatórios solicitados do Wor
   Para obter mais informações sobre como compartilhar relatórios, consulte o artigo [Compartilhar um relatório no Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * Ao agendar um relatório solicitado para entrega, o relatório no anexo de email inclui os dados do relatório que não foram solicitados. Quando o usuário clica no link no email para acessar o relatório, ele deve fazer logon primeiro para visualizar o relatório e executar o prompt.
 
-  Para obter informações sobre como programar um relatório entregue, consulte [Programar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Para obter informações sobre como agendar um relatório entregue, consulte [Agendar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

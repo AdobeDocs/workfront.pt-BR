@@ -91,12 +91,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Crie uma Regra de Encaminhamento, um Grupo de Tópicos e um formulário personalizado, caso planeje associá-los ao Tópico da Fila.\
    Para obter mais informações sobre como criar Regras de Encaminhamento, Grupos de Tópicos ou formulários personalizados, consulte os seguintes artigos:
 
-   * [Criar Regras de Encaminhamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [Criar Regras de Roteamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Vá para o projeto que você escolheu para ativar como uma Fila de solicitação de ajuda e onde você deseja criar um novo tópico da fila.\
-   Para obter mais informações sobre como designar um projeto como uma Fila de solicitação de ajuda, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obter mais informações sobre como designar um projeto como uma Fila de Solicitação de Ajuda, consulte [Criar uma Fila de Solicitação](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Você pode organizar Tópicos de fila relacionados em um Grupo de tópicos. Isso fornecerá ao solicitante uma série de menus suspensos ao fazer uma solicitação.
 
@@ -106,9 +106,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Para obter informações sobre como criar Grupos de Tópicos, consulte [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Clique em **Enfileirar tópicos** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais**, depois **Enfileirar tópicos**.
-1. Clique em **Novo Tópico de Fila**.
-1. No **Novo Tópico de Fila** insira o seguinte:
+1. Clique em **Enfileirar tópicos** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais** e em **Enfileirar tópicos**.
+1. Clique em **Novo tópico da fila**.
+1. No formulário **Novo Tópico da Fila**, digite o seguinte:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -143,20 +143,20 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Duração padrão</strong> </td> 
+      <td role="rowheader"><strong>Duração Padrão</strong> </td> 
       <td>Essa é a duração padrão da solicitação, e a Data de conclusão planejada da solicitação é calculada com base nesse valor.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Rota Padrão</strong> </td> 
-      <td>Especifique a regra de roteamento que deseja associar ao Tópico da Fila. Você deve criar a regra de roteamento antes de anexá-la a um Tópico da Fila. Para obter informações, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Criar Regras de Encaminhamento</a>. </td> 
+      <td>Especifique a regra de roteamento que deseja associar ao Tópico da Fila. Você deve criar a regra de roteamento antes de anexá-la a um Tópico da Fila. Para obter informações, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Criar Regras de Roteamento</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Tipos de solicitação</strong> </td> 
-      <td> <p>Escolha que tipo de solicitações este tópico da fila armazena. As opções visíveis são definidas no <strong>Detalhes da fila</strong> do projeto. Este campo é obrigatório. </p>
+      <td role="rowheader"><strong>Tipos de Solicitação</strong> </td> 
+      <td> <p>Escolha que tipo de solicitações este tópico da fila armazena. As opções visíveis estão definidas na guia <strong>Detalhes da fila</strong> do projeto. Este campo é obrigatório. </p>
 
    <p><b>NOTA</b>:
 
-   Os tipos são exibidos como uma seleção na área Solicitações somente se o Tipo de solicitação for selecionado nas páginas Detalhes da fila e Tópico da fila. Para obter informações sobre como configurar a área Detalhes da fila de um projeto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a>. </p> <p>Selecione entre os seguintes tipos:</p>
+   Os tipos são exibidos como uma seleção na área Solicitações somente se o Tipo de solicitação for selecionado nas páginas Detalhes da fila e Tópico da fila. Para obter informações sobre como configurar a área Detalhes da Fila de um projeto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma Fila de Solicitações</a>. </p> <p>Selecione entre os seguintes tipos:</p>
    <ul>
    <li>Relatório de erro</li>
    <li>Pedido de alteração</li>

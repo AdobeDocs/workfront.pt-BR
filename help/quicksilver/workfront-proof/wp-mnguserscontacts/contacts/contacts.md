@@ -20,10 +20,10 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Adicionar um convidado a [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-* [Gerenciar seus contatos no [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
-* [Entender usuários, membros e convidados no [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
+* [Adicionar um convidado a  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+* [Gerenciar seus Contatos no [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+* [Compreender Usuários, Membros e Convidados no  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)

@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] exige um [!DNL Adobe Workfront Fusion] além de uma licença [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] requer uma licença [!DNL Adobe Workfront Fusion] além de [!DNL Adobe Workfront license].
 
-Incluir na lista de permissões Se o firewall ou servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao respectivo arquivo para permitir a comunicação aberta entre o ambiente e o [!DNL Adobe Workfront Fusion].
+Incluir na lista de permissões Se o firewall ou o servidor de email estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao respectivo arquivo para permitir a comunicação aberta entre o ambiente e o [!DNL Adobe Workfront Fusion].
 
-Adicione os seguintes endereços IP ao incluo na lista de permissões para ativar o [!DNL Workfront Fusion] para acessar seu sistema.
+Adicione os seguintes endereços IP ao seu incluo na lista de permissões para habilitar o [!DNL Workfront Fusion] para acessar seu sistema.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,4 +87,4 @@ Incluir na lista de permissões Além disso, se a sua organização usar filtrag
 >
 >Filtragem de rede de saída incomum. Consulte o administrador da rede para verificar se é necessário atualizar a inclui na lista de permissões do para acomodá-la.
 
-Para obter mais informações sobre como configurar a inclui na lista de permissões da sua organização, consulte [Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Incluir na lista de permissões Para obter mais informações sobre como configurar o arquivo de da sua organização, consulte [Configurar a inclui na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

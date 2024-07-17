@@ -22,7 +22,7 @@ Os recursos a seguir foram disponibilizados no ambiente de Pré-visualização e
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Agora é possível ver todas as tarefas em projetos para os quais você é o Gerenciador de recursos, permitindo que você seja mais informado ao tomar decisões de agendamento.
 
@@ -44,11 +44,12 @@ O sombreamento de alocação de usuários na linha do tempo de agendamento ao ag
 
 Anteriormente, o sombreamento de alocação era exibido por padrão e não podia ser desativado.
 
-Para obter mais informações sobre como ativar opções de alocação de usuários, consulte &quot;Gerenciar alocações de usuários nas áreas de Agendamento&quot;.
+Para obter mais informações sobre como ativar opções de alocação de usuários, consulte
+&quot;Gerenciar alocações de usuários nas áreas de Agendamento&quot;.
 
 ## Modelo de layout Determina se o calendário novo ou herdado é exibido na área Meu trabalho
 
-**Pré-visualização da sandbox: 7 de dezembro de 2016; Acesso antecipado: 14 de dezembro de 2016** 
+**Pré-visualização da Sandbox: 7 de dezembro de 2016; Acesso Antecipado: 14 de dezembro de 2016** 
 
 O novo calendário é exibido na área Meu trabalho por padrão quando nenhum modelo de layout é aplicado.
 
@@ -58,11 +59,11 @@ Ao usar o calendário herdado na área Meu Trabalho, somente o trabalho com o qu
 
 Para configurar o Workfront para exibir o novo calendário na área Meu trabalho quando um modelo de layout for aplicado, configure o modelo de layout para mostrar a Data de conclusão planejada em tarefas e problemas, depois atribua esse modelo de layout aos usuários apropriados.
 
-Para obter mais informações sobre a configuração do modelo de layout, consulte [Criar e gerenciar modelos de layout](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Criar e gerenciar modelos de layout](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Para obter mais informações sobre como configurar o modelo de layout, consulte [Criar e gerenciar modelos de layout](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) em [Criar e gerenciar modelos de layout](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-## Outlook 365 Beta
+## Beta do Outlook 365
 
-**Beta: TBD; Disponibilidade pública: TBD**
+**Beta: a ser definido; Disponibilidade pública: a ser definida**
 
 Você pode usar o Workfront no Outlook para Office 365, conforme descrito nas seguintes seções:
 
@@ -77,7 +78,7 @@ Você pode alterar a ordem das colunas em qualquer lista arrastando uma coluna d
 
 Isso é especialmente útil ao exibir o Gráfico de Gantt e a exibição em lista simultaneamente e a coluna que você deseja exibir não é exibida no lado esquerdo da página. 
 
-Para obter mais informações, consulte [Modificar a largura e a ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+Para obter mais informações, consulte [Modificar largura e ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
 ## Aparência atualizada na lista de painéis
 
@@ -87,7 +88,7 @@ Para obter mais informações sobre painéis, consulte [Criar um painel](../../.
 
 ## Controlar acesso ao Forms personalizado
 
-**Pré-visualização da sandbox: 23 de janeiro de 2016**
+**Visualizar sandbox: 23 de janeiro de 2016**
 
 Agora é possível controlar quem tem acesso a um formulário personalizado, concedendo acesso a usuários individuais, equipes, funções, grupos ou empresas. 
 

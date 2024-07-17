@@ -126,9 +126,9 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * A seção Updates exibe informações nas seguintes guias:
 
-   * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Use a guia Comentários para adicionar novos comentários ou responder aos existentes. Para obter informações sobre a atualização de objetos, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Todos (somente leitura)**: exibe comentários do usuário e comentários de atividades do sistema em um local. Esta é uma guia somente para visualização. Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário específico, use o link da guia All para a guia Comments. Para obter informações sobre a atualização de objetos, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Use a guia Comentários para adicionar novos comentários ou responder aos existentes. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Atividade do Sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pela Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Todos (somente leitura)**: exibe os comentários do usuário e os comentários da atividade do sistema em um único local. Esta é uma guia somente para visualização. Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário específico, use o link da guia All para a guia Comments. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
@@ -161,7 +161,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
    * Metas
 
-     Para obter mais informações sobre atualizações de metas, consulte [Gerenciar comentários da meta](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     Para obter mais informações sobre atualizações de metas, consulte [Gerenciar comentários de meta](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -197,7 +197,7 @@ A tabela a seguir mostra os objetos cujos comentários também são exibidos em 
  <thead> 
   <tr> 
    <th><strong>Objeto onde a atualização original foi adicionada</strong> </th> 
-   <th> <p><strong>Objetos de classificação mais alta nos quais a atualização original também aparece</strong> </p> </th> 
+   <th> <p><strong>Objetos com classificação mais alta nos quais a atualização original também aparece</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento da versão 23.3. Essas melhorias serão disponibilizadas no ambiente de Produção no mínimo 2 semanas após o lançamento para Pré-visualização.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Melhorias na interface para listas de solicitações
 

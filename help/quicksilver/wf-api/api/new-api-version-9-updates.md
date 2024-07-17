@@ -9,8 +9,8 @@ role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 43%
+source-wordcount: '257'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 43%
 
 ## Recursos Atualizados
 
-Os recursos existentes a seguir foram atualizados com esta versão da API do Adobe Workfront. Para visualizar os recursos novos da versão 9, você pode visitar [Novidades da API versão 9](../../wf-api/api/new-api-version-9.md) e [Novidades da API versão 9 (continuação)](../../wf-api/api/new-api-version-9-continue.md). As alterações feitas em um recurso são indicadas da seguinte maneira:
+Os recursos existentes a seguir foram atualizados com esta versão da API do Adobe Workfront. Para exibir os recursos novos da versão 9, você pode visitar [Novidades da API Versão 9](../../wf-api/api/new-api-version-9.md) e [Novidades da API Versão 9 (continuação)](../../wf-api/api/new-api-version-9-continue.md). As alterações feitas em um recurso são indicadas da seguinte maneira:
 
 * As adições são listadas apenas
 * As remoções são indicadas com texto tachado
@@ -65,7 +65,7 @@ Atribuição
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em possibleValues
 
 ### Hora
 

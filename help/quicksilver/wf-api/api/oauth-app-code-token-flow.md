@@ -27,7 +27,7 @@ Para integrar ao Workfront e permitir que seu aplicativo cliente se comunique co
 
 ## Criar um aplicativo OAuth2
 
-Para obter instruções sobre como criar o aplicativo OAuth2, consulte [Criar um aplicativo OAuth2 usando credenciais do usuário (Fluxo de código de autorização)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Criar aplicativos OAuth2 para integrações do Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Para obter instruções sobre como criar o aplicativo OAuth2, consulte [Criar um aplicativo OAuth2 usando credenciais de usuário (Fluxo de código de autorização)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) em [Criar aplicativos OAuth2 para integrações do Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Seus usuários precisam fazer logon para autorizar essa integração em sua pró
 
 * `client_id`: esta é a ID do cliente gerada quando você criou o aplicativo OAuth2 no Workfront.
 
-* `redirect_uri`: este é o URL de redirecionamento que você inseriu ao criar o aplicativo. Seus usuários serão direcionados para esta página depois que autorizarem o aplicativo para sua conta.
+* `redirect_uri`: esta é a URL de redirecionamento que você inseriu ao criar o aplicativo. Seus usuários serão direcionados para esta página depois que autorizarem o aplicativo para sua conta.
 
 * `response_type`: deve ter o valor `code`.
 
@@ -95,17 +95,17 @@ Para fazer logon dos usuários com o OAuth2, use o seguinte processo:
 
    ![](assets/consent-screen-350x227.png)
 
-1. Se o usuário Conceder acesso, a página será redirecionada para a variável `redirect_url`. O redirecionamento deve incluir os seguintes parâmetros de consulta:
+1. Se o usuário Conceder acesso, a página será redirecionada para o `redirect_url`. O redirecionamento deve incluir os seguintes parâmetros de consulta:
 
 * `code`: o código de autorização necessário para obter o token de acesso/atualização.
 * `domain`: o domínio de sua organização. Exemplo: em `myorganization.my.workfront.com`, o domínio é `myorganization`.
-* `lane`: o itinerário da solicitação. Exemplo: em `myorganization.preview.workfront.com`, a pista é `preview`.
+* `lane`: a faixa da solicitação. Exemplo: em `myorganization.preview.workfront.com`, a faixa é `preview`.
 
   >[!IMPORTANT]
   >
-  >A variável `code` é válido por apenas 2 minutos. Portanto, você deve obter os tokens de atualização e acesso dentro desse período.
+  >O `code` é válido por apenas 2 minutos. Portanto, você deve obter os tokens de atualização e acesso dentro desse período.
 
-1. Quando você tem um código, pode solicitar tokens de atualização e acesso enviando o código junto com as credenciais do aplicativo cliente para o `/integrations/oauth2/api/v1/token` terminal.
+1. Quando você tem um código, pode solicitar tokens de atualização e acesso enviando o código junto com as credenciais do aplicativo cliente para o ponto de extremidade `/integrations/oauth2/api/v1/token`.
 
    O URL completo da solicitação de token é
 
@@ -113,7 +113,7 @@ Para fazer logon dos usuários com o OAuth2, use o seguinte processo:
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **Exemplos:**  Exemplo de chamada CURL para o endpoint do token:
+   **Exemplos:** Exemplo de chamada CURL para o ponto de extremidade do token:
 
    Exemplo 1
 
@@ -157,7 +157,7 @@ Para fazer logon dos usuários com o OAuth2, use o seguinte processo:
    }
    ```
 
-   O token de acesso é o mesmo que ```sessionID```e expira da mesma forma que o normal ```sessionID```
+   O token de acesso é o mesmo que ```sessionID```, e expira da mesma forma que o ```sessionID``` comum
 
    >[!IMPORTANT]
    >

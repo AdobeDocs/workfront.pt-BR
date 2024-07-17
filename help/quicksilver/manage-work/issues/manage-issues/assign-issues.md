@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
-Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -37,7 +37,7 @@ Você pode atribuir problemas a usuários, funções e equipes para indicar quem
 
 Além deste artigo, recomendamos que você leia os seguintes artigos para obter mais informações sobre como atribuir problemas:
 
-* [Visão geral da modificação de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Visão geral da modificação das atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Modificar atribuições de usuário para vários problemas em uma lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -69,11 +69,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a problemas em seu Nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre acesso a problemas em seu Nível de Acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do problema</p> <p>Contribua com permissões para o item em que você está copiando o problema com a capacidade de Adicionar problemas.</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre a solicitação de permissões adicionais, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acesso aos usuários</a>.</p> </td> 
+   <td> <p>Gerenciar permissões do problema</p> <p>Permissões do Contribute para o item em que você está copiando o problema com a capacidade de Adicionar problemas.</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
-* Os usuários podem ter mais de uma função de trabalho associada ao seu perfil. Para obter informações sobre como associar usuários a funções de trabalho, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Os usuários podem ter mais de uma função de trabalho associada ao seu perfil. Para obter informações sobre como associar usuários a funções de trabalho, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Geralmente, tarefas ou problemas são atribuídos primeiro a uma ou várias funções de trabalho ou equipes. Quando os projetos estiverem prontos para serem iniciados, talvez também seja necessário atribuí-los aos usuários.
 
@@ -114,13 +114,13 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 ## Atribuir um único problema
 
 1. Vá para um problema que deseja atribuir.
-1. Clique em **Atribuir a** no canto superior direito do cabeçalho do problema, na caixa **Atribuições** área
+1. Clique em **Atribuir a** no canto superior direito do cabeçalho do problema, na área **Atribuições**
 
    Ou
 
    Clique no nome das atribuições atuais, se a ocorrência já tiver sido atribuída.
 
-   ![Botão Atribuir a](assets/assign-to-button-in-header.png)
+   ![Atribuir ao botão](assets/assign-to-button-in-header.png)
 
 1. Siga um destes procedimentos:
 
@@ -129,11 +129,11 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
      Imagem de amostra no ambiente de produção:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
-     <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+     <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
      <span class="preview">![Pesquisa de atribuições](assets/smart-assignments-issue-header.png)</span>
 
    * (Condicional) Clique em um dos nomes, funções ou equipes nas listas disponíveis
-   * Clique em **Atribuir a mim** para atribuir a si mesmo
+   * Clique em **Atribuir a mim** para atribuí-lo a si mesmo
    * Clique em **Avançado**.
 
      Criar atribuições avançadas é semelhante para tarefas e problemas. Para obter informações sobre como fazer atribuições avançadas, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
@@ -151,8 +151,8 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. Clique em **Salvar** para concluir a atribuição da ocorrência.
-1. (Opcional) Clique no link **Ícone X** ao lado do nome das atribuições na área Atribuições no cabeçalho do problema para remover uma atribuição.
+1. Clique em **Salvar** para concluir a atribuição do problema.
+1. (Opcional) Clique no ícone **X** ao lado do nome das atribuições na área Atribuições no cabeçalho do problema para remover uma atribuição.
 
 ## Atribuir um problema em uma lista
 
@@ -171,17 +171,17 @@ Para atribuir ocorrências em uma lista:
 1. Vá para uma lista de problemas que têm os campos Assigned To (Atribuído a), Assigned (Atribuído) ou Assignments (Atribuições) na exibição.
 1. Para atribuir ocorrências, siga um destes procedimentos:
 
-   * Clique dentro do **Atribuído a** ou **Atribuído** e comece a digitar o nome de um usuário ativo que você deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
+   * Clique dentro dos campos **Atribuído a** ou **Atribuído** e comece a digitar o nome de um usuário ativo que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * Clique dentro do **Atribuições** e comece digitando o nome de um usuário, função de trabalho ou equipe ativa que deseja atribuir ao problema e clique nele quando ele for exibido na lista.
+   * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho ou equipe ativa que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
 
      Imagem de amostra no ambiente de produção:
      ![](assets/assignments-field-task-list-nwe.png)
 
-     <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
-     ![Campo Atribuições](assets/assignments-field-task-list-0424.png)
+     <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+     ![Campo de atribuições](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
@@ -192,7 +192,7 @@ Para atribuir ocorrências em uma lista:
    >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Condicional) Quando visível no campo Atribuições, clique no botão **Ícone Pessoas** ![](assets/teams.png) no canto superior direito da caixa atribuições, para abrir a caixa atribuições avançadas e criar atribuições avançadas. Para obter mais informações, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Condicional) Quando visível no campo Atribuições, clique no **ícone Pessoas** ![](assets/teams.png) no canto superior direito da caixa Atribuições para abrir a caixa Atribuições avançadas e criar atribuições avançadas. Para obter mais informações, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -204,23 +204,23 @@ Para atribuir ocorrências em uma lista:
 
 1. Vá para uma lista de problemas que você deseja atribuir em massa.
 1. Selecione vários problemas na lista.
-1. Clique em **Ícone Editar** ![](assets/qs-edit-icon.png).
+1. Clique no **ícone Editar** ![](assets/qs-edit-icon.png).
 
-   A variável **Editar Problemas** é aberta.
+   A caixa de diálogo **Editar Problemas** é aberta.
 
-1. No **Atribuições** , selecione a **Destinatário** e comece a digitar o nome de um usuário, função de trabalho ou equipe que deseja atribuir a todas as questões.
+1. Na área **Atribuições**, marque a caixa **Destinatário** e comece a digitar o nome de um usuário, função de trabalho ou equipe que deseja atribuir a todos os problemas.
 
    >[!IMPORTANT]
    >
    >Se qualquer um dos problemas já estiver atribuído, os recursos que você indicar aqui serão adicionados aos problemas em vez de substituir os recursos existentes nos problemas.
 
-1. (Opcional) Selecione o botão de opção na caixa **Proprietário do problema** para indicar qual recurso é o principal designado ou o Proprietário da ocorrência, quando você atribui mais de um recurso à ocorrência. Isto não está disponível para equipes.
-1. (Opcional) Selecione uma função que o usuário deve desempenhar no problema a partir da **Escolher uma função** menu suspenso no **Função do atribuidor** quando você atribui usuários a ocorrências. Se você não selecionar uma função, o Workfront selecionará automaticamente a função principal do usuário.
+1. (Opcional) Selecione o botão de opção na coluna **Proprietário do problema** para indicar qual recurso é o destinatário primário ou o Proprietário do problema, quando você atribui mais de um recurso ao problema. Isto não está disponível para equipes.
+1. (Opcional) Selecione uma função que o usuário deve desempenhar no problema do menu suspenso **Escolha uma função** na coluna **Função do destinatário** ao atribuir usuários a problemas. Se você não selecionar uma função, o Workfront selecionará automaticamente a função principal do usuário.
 
 1. (Opcional) Se quiser remover os atribuídos existentes de todas as ocorrências, execute um dos procedimentos a seguir:
 
-   1. Comece a digitar o nome de um usuário, função ou equipe que deseja remover do problema, selecione-o quando ele aparecer na lista e clique em **Remover atribuidor** para adicionar outros atribuídos a serem removidos.
-   1. Clique em **Remover todos os atribuídos existentes** para remover todos os atribuídos de todas as questões selecionadas.
+   1. Comece digitando o nome de um usuário, função ou equipe que deseja remover do problema, selecione-o quando ele aparecer na lista e clique em **Remover responsável** para adicionar outros responsáveis a serem removidos.
+   1. Clique em **Remover todos os atribuídos existentes** para remover todos os atribuídos de todas as questões selecionadas.
 
-1. Clique em **Salvar alterações**.
-1. (Opcional e condicional) Quando os campos Atribuído a ou Atribuições forem exibidos na lista de ocorrências, clique dentro de uma dessas colunas para uma ocorrência e, em seguida, clique na guia **Ícone X** ao lado do nome de um destinatário para removê-lo da ocorrência.
+1. Clique em **Salvar alterações**.
+1. (Opcional e condicional) Quando os campos Atribuído a ou Atribuições forem exibidos na lista de problemas, clique dentro de uma dessas colunas para um problema e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo do problema.

@@ -73,13 +73,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Contribuir com permissões ou mais altas para um espaço de trabalho</a> </p>  
+   <td> <p>Contribute ou permissões superiores para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -97,7 +97,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Você pode criar registros na exibição de tabela de uma página do tipo de registro.
 
-Para obter informações sobre edição de informações de registro, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Para obter informações sobre como editar informações de registro, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 {{step1-to-planning}}
 
@@ -133,22 +133,22 @@ Todos os registros do tipo selecionado são exibidos na visualização.
 
    >[!NOTE]
    >
-   >  * Não há campos obrigatórios para registros. No entanto, recomendamos adicionar informações para o campo principal de um registro, pois é útil identificar registros ao vincular registros uns aos outros. Para obter mais informações sobre campos primários, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md) e [Visão geral do campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Não há campos obrigatórios para registros. No entanto, recomendamos adicionar informações para o campo principal de um registro, pois é útil identificar registros ao vincular registros uns aos outros. Para obter mais informações sobre campos primários, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md) e [Visão geral do campo primário](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Os campos que se referem a outros tipos de registro ou campos calculados são campos somente leitura.
 
-1. (Condicional) Ao adicionar registros na tabela, continue adicionando informações em cada linha e clique em **Enter** no teclado para salvar as alterações.
+1. (Condicional) Ao adicionar registros à tabela, continue adicionando informações em cada linha e clique em **Inserir** no teclado para salvar as alterações.
 
    Ou
 
-   Clique no nome do novo registro ou na **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro. Uma visualização com as informações detalhadas do registro é aberta na tabela.
+   Clique no nome do novo registro ou no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** à esquerda do nome do registro. Uma visualização com as informações detalhadas do registro é aberta na tabela.
 
    >[!TIP]
    >
-   >Você pode acessar o **Abrir detalhes** ícone somente do campo name do registro quando o campo Name é um campo primário.
+   >Você pode acessar o ícone **Abrir Detalhes** somente a partir do campo de nome do registro quando o campo Nome for um campo primário.
 
 1. Iniciar edição das informações do registro na visualização do registro. O Workfront salva suas alterações automaticamente.
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros ou suas informações ao adicioná-los na exibição de tabela:
 
@@ -183,7 +183,7 @@ You can import records from other applications by linking them to existing recor
 
    Certifique-se de que a exibição de tabela tenha as colunas (ou os campos) que você deseja preencher com as novas informações de registro.
 
-1. Clique em **Novo &lt; Nome do tipo de registro >** na última linha da tabela para adicionar quantas linhas novas desejar aos novos registros.
+1. Clique em **Novo &lt; Nome do tipo de registro >** na última linha da tabela para adicionar quantas linhas novas à tabela você desejar que seus novos registros sejam.
 
    Por exemplo, adicione 10 linhas à exibição de tabela se desejar colar as informações de 10 novos registros de outro aplicativo.
 

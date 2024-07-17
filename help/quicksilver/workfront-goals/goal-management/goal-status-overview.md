@@ -50,16 +50,16 @@ Os status da meta indicam se uma meta está ativa e registrando progresso no mom
 * Abrir uma meta fechada também atualiza o progresso da meta.
 * Certas ações que você executa em uma meta também atualizam seu status. Para obter informações sobre como atualizar status de meta, consulte os seguintes artigos:
 
-   * [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
-   * [Ativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md)
-   * [Excluir e desativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+   * [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+   * [Ativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
+   * [Excluir e desativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Fechar e reabrir metas no Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Visão geral dos status das metas no Workfront Goals
 
 Para obter informações sobre como criar metas do Workfront, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
-Para obter informações sobre como ativar metas, consulte [Ativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+Para obter informações sobre como ativar metas, consulte [Ativar metas nas Metas da Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
 
 As metas podem ter um dos seguintes status nas Metas do Workfront:
 
@@ -70,7 +70,7 @@ As metas podem ter um dos seguintes status nas Metas do Workfront:
 
 ### Rascunho {#draft}
 
-* Este é o status padrão para uma meta recém-criada. Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+* Este é o status padrão para uma meta recém-criada. Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 * O Workfront Goals não registra o progresso em uma meta de rascunho.
 * Não é possível atualizar o progresso de uma meta rascunhada.
 * Não é possível fechar ou desativar metas rascunhadas porque elas não têm informações sobre o progresso.
@@ -87,7 +87,7 @@ As metas podem ter um dos seguintes status nas Metas do Workfront:
 
 ### Ativo {#active}
 
-* Você só pode ativar uma meta rascunhada quando a associa a um resultado, uma atividade ou alinha outra meta a ela. Ativar a meta altera seu status para Ativo. Para obter informações sobre como ativar metas, consulte [Ativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+* Você só pode ativar uma meta rascunhada quando a associa a um resultado, uma atividade ou alinha outra meta a ela. Ativar a meta altera seu status para Ativo. Para obter informações sobre como ativar metas, consulte [Ativar metas nas Metas da Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
 * As Metas do Workfront registram o progresso em metas ativas.
 * As metas ativas contribuem para o cálculo do progresso de outras metas e são consideradas em gráficos.
 * As metas ativas são exibidas nas seguintes áreas das Metas do Workfront:
@@ -117,7 +117,7 @@ As metas podem ter um dos seguintes status nas Metas do Workfront:
 
 ### Fechado {#closed}
 
-* Você pode fechar uma meta quando quiser indicar que a atingiu ou que não está mais trabalhando nela, nem a fará no futuro. Para obter informações sobre o fechamento de metas, consulte [Fechar e reabrir metas no Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md).
+* Você pode fechar uma meta quando quiser indicar que a atingiu ou que não está mais trabalhando nela, nem a fará no futuro. Para obter informações sobre como fechar metas, consulte [Fechar e reabrir metas no Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md).
 
   >[!TIP]
   >

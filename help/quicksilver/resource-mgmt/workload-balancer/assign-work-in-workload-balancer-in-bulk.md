@@ -2,26 +2,28 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Atribuir trabalho em massa usando o Balanceador de carga de trabalho
-description: Você pode atribuir itens de trabalho manualmente aos usuários usando o Balanceador de carga de trabalho do Adobe Workfront.
+description: Você pode atribuir recursos a várias tarefas e problemas em massa usando o Balanceador de carga de trabalho do Adobe Workfront.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 1%
+source-wordcount: '1501'
+ht-degree: 2%
 
 ---
 
 # Atribuir trabalho em massa usando o Balanceador de carga de trabalho
 
+<!--Audited: 07/2024-->
+
 <!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 -->
 
-Você pode atribuir itens de trabalho manualmente aos usuários usando o Balanceador de carga de trabalho do Adobe Workfront.
+Você pode atribuir recursos a várias tarefas e problemas em massa usando o Balanceador de carga de trabalho do Adobe Workfront.
 
-Para obter informações gerais sobre como atribuir trabalho aos usuários usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obter informações gerais sobre como atribuir trabalho a usuários usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisitos de acesso
 
@@ -32,36 +34,40 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos</p>
-   <p>Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p>
+   <td> 
+   <p>Novo: Padrão</p>
+   <p>Atual:</p>
+   <ul>
+   <li><p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos</p></li>
+   <li><p>Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></li></ul>
 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nível de acesso*</td> 
+   <td role="rowheader">Nível de acesso</td> 
    <td> <p>Editar acesso ao seguinte:</p> 
     <ul> 
      <li> <p>Gerenciamento de recursos</p> </li> 
      <li> <p>Projetos</p> </li> 
      <li> <p>Tarefas</p> </li> 
      <li> <p>Problemas</p> </li> 
-    </ul> <p><b>Nota</b>
+    </ul>
 
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou mais altas para projetos, tarefas e problemas que incluem Fazer atribuições</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superiores para projetos, tarefas e problemas que incluem Fazer atribuições</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerações para fazer atribuições em massa no Balanceador de carga de trabalho
 
@@ -83,16 +89,16 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 1. Vá para o Balanceador de carga de trabalho onde deseja atribuir trabalho.
 
-   Você pode atribuir trabalho aos usuários usando o Balanceador de carga de trabalho na área Recursos, no projeto ou no nível da equipe. Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado no Workfront, consulte [Localize o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Você pode atribuir trabalho aos usuários usando o Balanceador de carga de trabalho na área Recursos, no projeto ou no nível da equipe. Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado na Workfront, consulte [Localizar o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
 1. Clique em **Atribuições em massa** ![](assets/bulk-assignments-wb.png) na parte superior do Balanceador de carga de trabalho.
 
    O painel Atribuições em massa é aberto à direita do Balanceador de carga de trabalho.
 
-1. (Condicional) Se você estiver acessando o Balanceador de carga de trabalho na área Recursos ou para uma equipe, expanda a variável **Projeto: Nome** menu suspenso e use os modificadores de filtro para selecionar o projeto ou projetos para os quais você deseja fazer atribuições. Você pode selecionar projetos por Nome (esta é a opção padrão) ou por Status.
+1. (Condicional) Se você estiver acessando o Balanceador de carga de trabalho da área de Recursos ou de uma equipe, expanda o menu suspenso **Projeto: Nome** e use os modificadores de filtro para selecionar o projeto ou projetos para os quais deseja fazer atribuições. Você pode selecionar projetos por Nome (esta é a opção padrão) ou por Status.
 
-Para obter informações sobre modificadores de filtro do Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Para obter informações sobre modificadores de filtro Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
@@ -100,9 +106,9 @@ Para obter informações sobre modificadores de filtro do Workfront, consulte [F
 
 ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (Opcional) Clique em **Selecionar tarefas do projeto** para selecionar a tarefa ou tarefas para as quais deseja fazer atribuições, em seguida, na **Tarefa: Nome** selecione tarefas por Nome (esta é a opção padrão) ou Status e use os modificadores de filtro para procurar tarefas específicas.
+1. (Opcional) Clique em **Selecionar tarefas do projeto** para selecionar a(s) tarefa(s) para a(s) qual(is) você deseja fazer atribuições. Em seguida, no menu suspenso **Tarefa: Nome**, selecione as tarefas por Nome (esta é a opção padrão) ou Status e use os modificadores de filtro para procurar tarefas específicas.
 
-Para obter informações sobre modificadores de filtro do Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Para obter informações sobre modificadores de filtro Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
@@ -114,7 +120,7 @@ Para obter informações sobre modificadores de filtro do Workfront, consulte [F
 >
 >Deixe essa seleção em branco se quiser fazer atribuições em massa para problemas e tarefas.
 
-1. (Opcional) Clique no link **Excluir** ícone ![](assets/delete.png) ao lado de um dos critérios selecionados
+1. (Opcional) Clique no ícone ![](assets/delete.png) de **Excluir** ao lado de um dos critérios selecionados
 
    Ou
 
@@ -146,16 +152,16 @@ Para atribuir um usuário a itens de trabalho previamente atribuídos a funçõe
 
 1. Comece a atribuir itens de trabalho usando Atribuições em massa no Balanceador de carga de trabalho conforme descrito acima e selecione **Atribuir**.
 
-1. No **Atribuição de função** clique na seta suspensa para escolher em uma lista de funções. Somente as funções atualmente atribuídas nos projetos especificados são exibidas. Este campo é obrigatório.
+1. No campo **Atribuição de função**, clique na seta suspensa para escolher em uma lista de funções. Somente as funções atualmente atribuídas nos projetos especificados são exibidas. Este campo é obrigatório.
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-1. No **Usuário a ser atribuído** clique na seta suspensa para escolher de uma lista de usuários sugeridos ou para digitar o nome de outro usuário.
+1. No campo **Usuário a ser atribuído**, clique na seta suspensa para escolher de uma lista de usuários sugeridos ou para digitar o nome de outro usuário.
 
    Selecione usuários nas seguintes áreas:
 
-   * **Atribuições sugeridas**: Usuários que podem atender à função selecionada e que correspondem aos critérios das Atribuições inteligentes. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Outras Atribuições**: todos os usuários no sistema que podem desempenhar a função selecionada.
+   * **Atribuições sugeridas**: usuários que podem atender à função selecionada e que correspondem aos critérios das Atribuições inteligentes. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Outras Atribuições**: Todos os usuários do sistema que podem desempenhar a função selecionada.
 
      >[!TIP]
      >
@@ -191,17 +197,17 @@ Quando você substitui um usuário por outro usando Atribuições em massa no Ba
 Para substituir um usuário por outro usuário:
 
 1. Comece a atribuir itens de trabalho no Balanceador de carga de trabalho conforme descrito acima e selecione **Substituir**.
-1. No **Usuário atribuído no momento** clique na seta suspensa para escolher em uma lista de usuários. Somente os usuários atualmente atribuídos a itens de trabalho incompletos dentro dos projetos especificados são exibidos. Este campo é obrigatório.
+1. No campo **Usuário atribuído no momento**, clique na seta suspensa para escolher em uma lista de usuários. Somente os usuários atualmente atribuídos a itens de trabalho incompletos dentro dos projetos especificados são exibidos. Este campo é obrigatório.
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. No **Usuário a ser atribuído** clique na seta suspensa para escolher de uma lista de usuários sugeridos ou para digitar outro nome de usuário. Os usuários listados na lista por padrão correspondem aos critérios das Atribuições inteligentes. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. No campo **Usuário a ser atribuído**, clique na seta suspensa para escolher de uma lista de usuários sugeridos ou para digitar outro nome de usuário. Os usuários listados na lista por padrão correspondem aos critérios das Atribuições inteligentes. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    O Workfront exibe uma observação sobre o número de itens em que o usuário atribuído no momento substituirá o segundo usuário e quais funções ele substituirá.
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. Clique em **Substituir**.
+1. Clique em **Substituir**.
 
    O primeiro usuário selecionado é substituído pelo segundo em todos os itens de trabalho do projeto selecionado.
 
@@ -218,13 +224,13 @@ Quando você cancela a atribuição de um usuário de todas as atribuições usa
 
 * Se o usuário especificado for atribuído a itens de trabalho concluídos, o usuário permanecerá atribuído a esses itens de trabalho.
 
-Para obter mais informações sobre atribuições de usuários e funções, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obter mais informações sobre atribuições de usuários e funções de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Para desatribuir um usuário dos itens de trabalho nos projetos selecionados ou para as tarefas ou problemas selecionados nas quais ele está atribuído:
 
 1. Comece a atribuir itens de trabalho no Balanceador de carga de trabalho conforme descrito acima e selecione **Cancelar atribuição**.
 
-1. No **Usuário a ter atribuição retirada** clique na seta suspensa para escolher em uma lista de usuários. Somente os usuários atualmente atribuídos a itens de trabalho incompleto nos projetos especificados são exibidos. Este campo é obrigatório.
+1. No campo **Usuário a ser desatribuído**, clique na seta suspensa para escolher em uma lista de usuários. Somente os usuários atualmente atribuídos a itens de trabalho incompleto nos projetos especificados são exibidos. Este campo é obrigatório.
 
    ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
@@ -235,4 +241,4 @@ Para desatribuir um usuário dos itens de trabalho nos projetos selecionados ou 
 1. Clique em **Cancelar atribuição**.\
    Você recebe uma confirmação sobre o número de itens de trabalho dos quais o usuário especificado foi removido.
 
- 
+

@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 4 de abril de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte a [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Melhorias na barra de navegação superior
 
@@ -46,5 +46,5 @@ Alguns dos destaques desse novo design são:
 * A lista Folha de horas agora corresponde à experiência em todas as outras listas no Workfront.
 * A experiência de filtro agora corresponde aos filtros em todas as outras listas. Você terá mais flexibilidade para criar seus próprios filtros com os campos e atributos que mais fazem sentido para você, bem como compartilhá-los com outros usuários.
 
-Para obter mais informações sobre como criar folhas de horas usando as novas listas, consulte [Criar uma planilha de horas de uso único](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Para obter mais informações sobre como criar folhas de horas usando as novas listas, consulte [Criar uma folha de horas de uso único](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 

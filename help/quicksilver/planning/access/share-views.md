@@ -85,7 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -97,7 +97,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Compartilhar permissões para uma exibição <!--internally-->
 
-É possível compartilhar os modos de exibição criados ou os modos aos quais você tem permissões de gerenciamento <!--with users or groups in Workfront-->.
+Você pode compartilhar os modos de exibição criados ou os modos de exibição para os quais você tem permissões de gerenciamento <!--with users or groups in Workfront-->.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Isso abre a página do tipo de registro.
 
-1. Na guia de exibição, passe o mouse sobre a exibição que deseja compartilhar e clique no link **Mais** menu ![](assets/more-menu.png) à direita do nome da exibição, clique em **Compartilhar**.
+1. Na guia de exibição, passe o mouse sobre o modo de exibição que você deseja compartilhar e clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do modo de exibição e clique em **Compartilhar**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -120,9 +120,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. (Opcional) Selecione entre as seguintes opções para compartilhar a exibição:
 
    * **Somente pessoas convidadas podem acessar**: você deve especificar os usuários ou grupos com os quais deseja compartilhar a exibição. Esta é a opção padrão.
-   * **Todos no espaço de trabalho podem visualizar**: todos os usuários com permissões de Exibição ou superiores para espaços de trabalho podem acessar a exibição.
+   * **Todos no espaço de trabalho podem exibir**: todos os usuários que têm permissões de Exibição ou superiores para espaços de trabalho podem acessar a exibição.
 
-1. No **Conceder acesso de visualização a** comece digitando o nome de um usuário ou grupo e, em seguida, clique nele quando for exibido na lista.  <!--***********replace screen shot below when public sharing is released***********-->
+1. No campo **Conceder acesso de exibição a**, comece digitando o nome de um usuário ou grupo e clique nele quando ele for exibido na lista.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -134,13 +134,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      Os administradores do sistema sempre recebem permissões de Gerenciamento para exibições compartilhadas com eles.
 
-1. Clique em **Copiar link** para copiar um link para a exibição para a área de transferência.
+1. Clique em **Copiar link** para copiar um link para o modo de exibição para a área de transferência.
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 1. Clique em **Salvar**.
 
    >[!TIP]
    >
-   >   As exibições compartilhadas com você têm um indicador de pessoas ![](assets/view-shared-with-others-people-icon.png) ao lado do ícone exibir. As exibições sem o indicador de pessoas são exibições que você criou.
+   >   As exibições compartilhadas com você têm um indicador de pessoas ![](assets/view-shared-with-others-people-icon.png) ao lado do ícone de exibição. As exibições sem o indicador de pessoas são exibições que você criou.
 
 
 
@@ -189,8 +189,8 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. Abra o espaço de trabalho cuja exibição você deseja interromper o compartilhamento e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
-1. Passe o mouse sobre o nome da guia da exibição da qual deseja remover o compartilhamento e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Compartilhar**.
-1. Localize o usuário ou grupo que deseja remover e clique em **Remover** no menu suspenso permissões à direita do nome do usuário ou do grupo.
+1. Passe o cursor do mouse sobre o nome da guia do modo de exibição do qual deseja remover o compartilhamento e clique no menu **Mais** ![](assets/more-menu.png) e em **Compartilhar**.
+1. Localize o usuário ou grupo que deseja remover e clique em **Remover** no menu suspenso de permissões à direita do nome do usuário ou grupo.
 1. Clique em **Salvar**.
 O usuário ou os usuários que pertencem ao grupo removido não têm mais acesso à visualização. Não há notificação para os usuários que foram removidos do acesso à visualização de que perderam esse acesso.
 

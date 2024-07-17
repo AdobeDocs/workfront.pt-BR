@@ -1,22 +1,22 @@
 ---
-title: Visualizar as Tarefas em andamento na análise aprimorada
+title: Visualização das Tarefas em andamento na Análise aprimorada
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: A visualização Tarefas em andamento mostra quantas tarefas (dentro dos critérios de filtro aplicados) estão em andamento para um projeto, a porcentagem de trabalho concluído para cada tarefa e como as tarefas são agendadas.
+description: A visualização Tarefas em andamento mostra quantas tarefas (dentro dos critérios de filtro aplicados) estão em andamento para um projeto, a porcentagem de trabalho concluído para cada tarefa e o cronograma das tarefas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '716'
+ht-degree: 4%
 
 ---
 
-# Visualizar as Tarefas em andamento na análise aprimorada
+# Visualização das Tarefas em andamento na Análise aprimorada
 
-A visualização Tarefas em andamento mostra quantas tarefas (dentro dos critérios de filtro aplicados) estão em andamento para um projeto, a porcentagem de trabalho concluído para cada tarefa e como as tarefas são agendadas.
+A visualização Tarefas em andamento mostra quantas tarefas (dentro dos critérios de filtro aplicados) estão em andamento para um projeto, a porcentagem de trabalho concluído para cada tarefa e o cronograma das tarefas.
 
 ![](assets/tasks-in-flight-possible-replacement-350x104.png)
 
@@ -29,73 +29,73 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano Adobe Workfront</a>*</td> 
-   <td> <p>Empresa ou superior</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a>*</td> 
+   <td> <p>Business ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças do Adobe Workfront</a>*</td> 
    <td> <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Visualizar o acesso a Projetos</p> <p>Exibir o acesso às Tarefas (Para atualizar tarefas, é necessário Editar acesso às Tarefas.)</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso.<br>Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualizar acesso aos projetos</p> <p>Acesso de visualização a Tarefas (para atualizar tarefas, você precisa ter acesso de Edição a Tarefas).</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso.<br>Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissão para objetos de projeto e tarefa</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissão para objetos de projeto e tarefa</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
-Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; na [Visão geral do Enhanced Analytics](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Entender as Tarefas em andamento
+## Entender as tarefas na visualização de navegação
 
-A visualização Tarefas no plano de voo mostra os seguintes detalhes da tarefa:
+A visualização do plano de execução de Tarefas mostra os seguintes detalhes da tarefa:
 
-* **Duração da tarefa planejada**: O comprimento de uma barra de tarefas indica a duração planejada, que se baseia na data de início e na data de conclusão da tarefa.
+* **Duração da tarefa planejada**: o comprimento de uma barra de tarefas indica a duração planejada, que se baseia na data de início e na data de conclusão da tarefa.
 
-   ![](assets/tasks-in-flight-duration-350x80.png)
+  ![](assets/tasks-in-flight-duration-350x80.png)
 
-* **Trabalho concluído**: A cor azul escuro em uma barra de tarefas indica a quantidade de trabalho concluído para uma tarefa. Essa porcentagem de conclusão é exibida à direita da barra de tarefas.
+* **Esforço de trabalho concluído**: a cor azul escuro em uma barra de tarefas indica a quantidade de trabalho concluído para uma tarefa. Essa porcentagem de conclusão é exibida à direita da barra de tarefas.
 
-   ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![](assets/tasks-in-flight-dark-blue-350x35.png)
 
-* **Trabalho restante**: A cor azul claro em uma barra de tarefas indica a quantidade de trabalho que precisa ser concluída para uma tarefa.
+* **Esforço de trabalho restante**: a cor azul-claro em uma barra de tarefas indica a quantidade de trabalho que precisa ser concluído para uma tarefa.
 
-   ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![](assets/tasks-in-flight-light-blue-350x35.png)
 
 Essas informações podem ajudar você a determinar:
 
-* Onde o esforço de trabalho foi focado.
-* Que tarefas poderiam estar a pôr em risco um projeto.
-* A proximidade de uma tarefa em relação à conclusão.
+* Onde o esforço de trabalho foi concentrado.
+* Quais tarefas podem estar colocando um projeto em risco.
+* Quão perto uma tarefa está da conclusão.
 * Com quem você precisa falar sobre uma tarefa específica.
 
-Para saber como obter os melhores dados para essa visualização, consulte [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
+Para saber como obter os melhores dados para esta visualização, consulte [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Visualizar as Tarefas em andamento
+## Visualização Exibir as tarefas em andamento
 
-1. Clique no ícone do Menu principal ![](assets/main-menu-icon-16x12.png), em seguida selecione **Analytics**.
+1. Clique no ícone Menu Principal ![](assets/main-menu-icon-16x12.png) e selecione **Analytics**.
 1. (Opcional) Para usar um intervalo de datas diferente, selecione novas datas de início e término no filtro de intervalo de datas.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros no Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condicional) Se precisar limitar o conjunto de dados do projeto, selecione e aplique os filtros que deseja usar.
 
-   Para obter mais informações sobre como adicionar filtros nas Análises aprimoradas, consulte [Aplicar filtros no Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obter mais informações sobre como adicionar filtros na Análise aprimorada, consulte [Aplicar filtros na Análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Após adicionar filtros, os dados de até 50 projetos são exibidos e os filtros permanecem ativos mesmo depois que você sai da página ou faz logoff do Workfront.
+   Depois de adicionar filtros, os dados de até 50 projetos são exibidos e os filtros permanecem ativos mesmo depois de sair da página ou do Workfront.
 
-1. Na visualização Plano de voo ou Mapa de árvore do projeto , clique em um projeto para exibir mais informações.
+1. Na visualização do Plano de voo ou Mapa de árvore do projeto, clique em um projeto para exibir mais informações.
 
-   As visualizações Burndown e Tasks in flight são exibidas.
+   As visualizações Burndown e Tarefas em voo são exibidas.
 
    >[!NOTE]
    >
@@ -104,34 +104,35 @@ Para saber como obter os melhores dados para essa visualização, consulte [Vis�
    >   
    >   
    >   * [Exibir a visualização do Plano de voo na análise aprimorada](../enhanced-analytics/flight-plan-overview.md)
-   >   * [Visualizar o mapa de árvore do projeto no Enhanced Analytics](../enhanced-analytics/project-treemap-overview.md)
-   >   * [Visualizar a visualização do Detalhamento na análise aprimorada](../enhanced-analytics/burndown-overview.md)
+   >   * [Exibir a visualização do mapa de árvore do projeto na análise aprimorada](../enhanced-analytics/project-treemap-overview.md)
+   >   * [Exibir a visualização de Burndown na análise aprimorada](../enhanced-analytics/burndown-overview.md)
+   >   
+   >
 
+1. (Opcional) Para ampliar um intervalo de datas, selecione um ponto na visualização para o início do intervalo de datas e arraste até o final do intervalo de datas.
 
-1. (Opcional) Para ampliar um intervalo de datas, selecione um ponto na visualização do início do intervalo de datas e arraste até o final do intervalo de datas.
-
-   Todas as outras visualizações são atualizadas para o mesmo intervalo de datas, e um filtro de período é criado.
+   Todas as outras visualizações são atualizadas para o mesmo intervalo de datas e um filtro de período é criado.
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Opcional) Para alterar como as tarefas são classificadas, clique no botão **Classificar por** selecione uma nova opção de classificação:
+1. (Opcional) Para alterar a forma como as tarefas são classificadas, clique no menu **Classificar por** e selecione uma nova opção de classificação:
 
-   * **Data de término**
+   * **Data de conclusão**
    * **Alfabeticamente de A a Z**
-   * **Estrutura de detalhamento do trabalho** (Essa opção corresponde à ordem em que as tarefas aparecem no projeto.)
+   * **Estrutura de detalhamento de trabalho** (Esta opção corresponde à ordem em que as tarefas aparecem no projeto.)
 
-   Todas as outras visualizações na página são atualizadas para corresponder à seleção de classificação.
+   Todas as outras visualizações na página são atualizadas para corresponder à sua seleção de classificação.
 
 1. Revise o progresso das tarefas no projeto selecionado e passe o mouse sobre uma tarefa específica para ver o número de horas planejadas, a data de vencimento planejada e a porcentagem de conclusão.
 
    ![](assets/tasks-in-flight-task-details-350x242.png)
 
-1. Clique em uma tarefa para abrir os Detalhes da tarefa no lado direito da tela, onde você pode ver mais informações sobre a tarefa, visualizar ou inserir atualizações, ou fazer alterações na tarefa.
+1. Clique em uma tarefa para abrir os Detalhes da tarefa no lado direito da tela, onde você pode ver mais informações sobre a tarefa, exibir ou inserir atualizações ou fazer alterações na tarefa.
 
    ![](assets/task-details-qs-350x675.png)
 
-1. (Opcional) Para exportar os dados de visualização, clique no botão **Ícone Exportar** ![](assets/export.png) no canto superior direito da visualização, selecione o formato de exportação:
+1. (Opcional) Para exportar os dados de visualização, clique no **ícone Exportar** ![](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
 
    * **Gráfico (PNG)**
-   * **Tabela de dados (XSLX)**
+   * **Tabela de Dados (XSLX)**
 

@@ -6,10 +6,10 @@ title: Adobe Workfront Goals com a versão 23.3
 description: Esta página fornece informações sobre a funcionalidade do Adobe Workfront Goals na nova experiência do Adobe Workfront que está sendo lançada no ambiente de Produção com a versão 23.3.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+exl-id: 1fa39be8-c949-4fe5-b62e-94375a80713b
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página fornece informações sobre a funcionalidade do Adobe Workfront Goals que está sendo lançada no ambiente de Produção dentro do período da versão 23.3.
 
-Para obter uma lista de todas as alterações disponíveis para todas as áreas do Workfront neste momento do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis para todas as áreas do Workfront neste momento do ciclo de versão 23.3, consulte [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />

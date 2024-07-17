@@ -24,7 +24,7 @@ Você pode adicionar os seguintes tipos de visualizações a um relatório:
 
 ## Pré-requisitos
 
-Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta do relatório do Canvas: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta da tela de relatório: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Adicionar ou editar um bloco de visualização
 
@@ -32,36 +32,36 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 >
 >Todas as alterações são salvas automaticamente à medida que você cria e edita os blocos no relatório.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
-1. Clique em **Novo relatório**, em seguida, crie um relatório com tabelas que contenham dados, conforme descrito em [Criar um relatório na tela de relatórios](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) e [Adicionar ou editar um bloco de tabela na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
+1. Clique em **Novo relatório** e crie um relatório com tabelas que contenham dados, conforme descrito em [Criar um relatório na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) e [Adicionar ou editar um bloco de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    Ou
 
-   Em um relatório existente com tabelas contendo dados, clique no **Menu Mais** ícone ![](assets/more-icon.png) no cabeçalho do relatório, selecione **Editar**.
+   Em um relatório existente com tabelas contendo dados, clique no ícone ![](assets/more-icon.png) do **Mais Menu** no cabeçalho do relatório e selecione **Editar**.
 
-1. No lado direito da tela, em **Adicionar um bloco**, ou:
+1. No lado direito da tela, em **Adicionar um Bloco**:
 
-   Arraste o **Visualização** ícone **** na tela de desenho diretamente para o local desejado.
-
-   Ou
-
-   Clique duas vezes no ícone **Visualização** ícone **** para adicionar uma visualização à parte superior da tela.
+   Arraste o ícone **Visualização** **** para a tela diretamente para o local desejado.
 
    Ou
 
-   Selecione o **Visualizar** ícone **** na parte superior de uma tabela existente na tela.
+   Clique duas vezes no ícone **Visualização** **** para adicionar uma visualização à parte superior da tela.
+
+   Ou
+
+   Selecione o ícone **Visualizar** **** na parte superior de uma tabela existente na tela.
 
    >[!TIP]
    >
    >Você pode alterar o tamanho do bloco depois de inseri-lo arrastando suas alças de canto.
 
-1. (Condicional) Se o relatório contiver mais de uma tabela, na **Criar sua visualização** que é exibida, selecione a tabela de origem da visualização.
+1. (Condicional) Se o relatório contiver mais de uma tabela, na caixa **Criar sua visualização** que é exibida, selecione a tabela de origem para a visualização.
 
    ![](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
-   >Se você selecionar **+ Adicionar nova tabela**, um novo bloco de tabela é criado abaixo do bloco de visualização. É necessário preencher a tabela com dados antes de adicionar uma visualização para ela. Para obter mais informações sobre criação e edição de tabelas, consulte [ [Adicionar ou editar um bloco de tabela na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Se você selecionar **+ Adicionar nova tabela**, um novo bloco de tabela será criado abaixo do bloco de visualização. É necessário preencher a tabela com dados antes de adicionar uma visualização para ela. Para obter mais informações sobre criação e edição de tabelas, consulte [ [Adicionar ou editar um bloco de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Selecione o tipo de visualização que deseja adicionar.
 
@@ -75,7 +75,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 1. Continue para configurar a visualização:
 
-   * **Barra** visualização: para obter instruções, consulte [Configurar uma visualização de barra na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **Coluna** visualização: para obter instruções, consulte [Configurar uma visualização de coluna na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **Pizza** visualização: para obter instruções, consulte [Configurar visualização de pizza na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI** visualização: para obter instruções, consulte [Configurar uma visualização de KPI na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * Visualização de **Barra**: para obter instruções, consulte [Configurar uma visualização de barra na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
+   * Visualização de **Coluna**: para obter instruções, consulte [Configurar uma visualização de coluna na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
+   * Visualização de **Pizza**: para obter instruções, consulte [Configurar visualização de pizza na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
+   * Visualização de **KPI**: para obter instruções, consulte [Configurar uma visualização de KPI na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).

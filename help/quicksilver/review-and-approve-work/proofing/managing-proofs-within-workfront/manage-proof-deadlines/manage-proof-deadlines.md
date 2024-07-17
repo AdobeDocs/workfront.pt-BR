@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Gerenciar prazos de prova
 
-* [Definir um prazo para uma prova básica existente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
-* [Adicionar, editar ou excluir um prazo final de um estágio](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
+* [Defina um prazo final para uma prova básica existente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
+* [Adicionar, editar ou excluir um prazo final para um estágio](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
 * [Definir prazos individuais do revisor](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
 * [Remover os prazos de conclusão do revisor individual](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)

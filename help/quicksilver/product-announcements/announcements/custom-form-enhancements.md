@@ -68,7 +68,7 @@ Isso é especialmente útil quando você converte um problema ou tarefa, pois é
 >
 >Quando a conversão ocorrer, o formulário personalizado já deverá estar associado ao tipo de objeto para o qual você está convertendo.
 
-Para obter instruções sobre como adicionar um widget de ativo a um formulário personalizado, consulte [Adicionar ou editar uma imagem ou outro widget de ativo em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obter instruções sobre como adicionar um dispositivo de ativo a um formulário personalizado, consulte [Adicionar ou editar uma imagem ou outro dispositivo de ativo em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 Considere o seguinte ao criar ou editar um formulário personalizado de vários objetos:
 
@@ -94,15 +94,15 @@ Para obter mais informações, consulte [Adicionar uma quebra de seção a um fo
 
 ### Compatibilidade de campo personalizado calculada
 
-Em um formulário personalizado de vários objetos, se um campo calculado fizer referência a campos que estão disponíveis para uso com todos os tipos de objeto associados do formulário (como {name}, {description}, e {entryDate}, que estão disponíveis para vários tipos de objeto), os dados são calculados corretamente, independentemente do objeto ao qual você os anexa.
+Em um formulário personalizado de vários objetos, se um campo calculado referenciar campos que estejam disponíveis para uso com todos os tipos de objeto associados do formulário (como {name}, {description} e {entryDate}, que estão disponíveis para vários tipos de objeto), os dados serão calculados corretamente, independentemente do objeto ao qual você os anexa.
 
-Por exemplo, se você tiver um formulário de vários objetos para projetos e problemas e adicionar um campo calculado contendo o {name} expressão, o campo exibe o nome do projeto quando você adiciona o formulário a um projeto e o nome da tarefa de você adiciona o formulário a uma tarefa.
+Por exemplo, se você tiver um formulário de vários objetos para projetos e problemas e adicionar um campo calculado contendo a expressão {name}, o campo exibirá o nome do projeto quando você adicionar o formulário a um projeto, e o nome da tarefa de você adicionará o formulário a uma tarefa.
 
 No entanto, se um campo calculado no formulário referenciar um campo que não é compatível com todos os tipos de objeto do formulário, uma mensagem o alertará para fazer ajustes.
 
 >[!INFO]
 >
->**Exemplo:** Em um formulário personalizado associado ao tipo de objeto Tarefa, você cria um campo personalizado calculado que faz referência ao campo interno Atribuído a: Nome para que ele possa mostrar o nome do responsável principal sempre que o formulário for anexado a uma tarefa:
+>**Exemplo:** em um formulário personalizado associado ao tipo de objeto Tarefa, você cria um campo personalizado calculado que faz referência ao campo interno Atribuído a: Nome para que ele possa mostrar o nome do responsável principal sempre que o formulário for anexado a uma tarefa:
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -113,9 +113,9 @@ No entanto, se um campo calculado no formulário referenciar um campo que não �
 Quando isso ocorrer, você poderá executar um dos seguintes procedimentos:
 
 * Remova um dos dois itens incompatíveis do formulário personalizado, seja o tipo de objeto ou o campo de referência.
-* Manter ambos os itens e usar a variável de filtro curinga `$$OBJCODE` como uma condição em uma expressão IF para criar duas versões diferentes do campo Encargo. Isso permite que o campo funcione com êxito, independentemente do tipo de objeto ao qual o formulário está anexado.
+* Mantenha ambos os itens e use a variável de filtro curinga `$$OBJCODE` como uma condição em uma expressão IF para criar duas versões diferentes do campo Encargo. Isso permite que o campo funcione com êxito, independentemente do tipo de objeto ao qual o formulário está anexado.
 
-  Usando o exemplo acima, embora não exista um campo interno Atribuído a: Nome para projetos, há um campo Proprietário integrado (que é preenchido automaticamente com o nome da pessoa que criou o projeto, a menos que alguém altere isso manualmente). Portanto, em seu campo personalizado No Charge, você pode usar `$$OBJCODE` conforme mostrado abaixo para fazer referência ao campo Proprietário quando o formulário personalizado é anexado a um projeto, e ao campo Atribuído a: Nome quando o formulário é anexado a uma tarefa:
+  Usando o exemplo acima, embora não exista um campo interno Atribuído a: Nome para projetos, há um campo Proprietário integrado (que é preenchido automaticamente com o nome da pessoa que criou o projeto, a menos que alguém altere isso manualmente). Portanto, em seu campo personalizado Encargo, você pode usar `$$OBJCODE` como mostrado abaixo para fazer referência ao campo Proprietário quando o formulário personalizado estiver anexado a um projeto, e o campo Atribuído a: Nome quando o formulário estiver anexado a uma tarefa:
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -123,7 +123,7 @@ Quando isso ocorrer, você poderá executar um dos seguintes procedimentos:
 
 >[!NOTE]
 >
->  Se você adicionar um tipo de objeto na frente de um nome de campo, ele fará referência ao objeto pai do objeto, portanto, não será possível usar `{project}.{name}` com um projeto, mas você pode usá-lo com uma tarefa.
+>  Se você adicionar um tipo de objeto na frente de um nome de campo, ele fará referência ao objeto pai do objeto, de modo que você não pode usar `{project}.{name}` com um projeto, mas pode usá-lo com uma tarefa.
 
 Para obter instruções sobre como adicionar um campo personalizado calculado a um formulário personalizado, consulte [Adicionar dados calculados a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 

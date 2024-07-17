@@ -27,8 +27,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo requer uma compreensão completa da API do Adobe Workfront e da interface de relatório do modo de texto. Para obter informações sobre a API do Workfront, consulte [Noções básicas sobre API](../../../wf-api/general/api-basics.md).\
->Para obter informações sobre como usar o modo de texto, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+>Este artigo requer uma compreensão completa da API do Adobe Workfront e da interface de relatório do modo de texto. Para obter informações sobre a API do Workfront, consulte [noções básicas sobre API](../../../wf-api/general/api-basics.md).\
+>Para obter informações sobre como usar o modo de texto, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Visão geral dos relacionamentos entre objetos no Workfront
 
@@ -44,15 +44,15 @@ Por exemplo, você pode fazer referência à ID de Portfolio em um filtro de pro
 
 No entanto, não é possível fazer referência ao Proprietário do Portfolio em um filtro de problema usando a interface padrão para exibir somente problemas de projetos associados a portfólios em que o proprietário é um usuário específico. Você deve usar o modo de texto para acessar o campo Nome do proprietário do Portfolio, que está a três níveis de problemas.
 
-![Ícones de Emissão para o proprietário do portfólio](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![Problema nos ícones de proprietário do portfólio](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
-Para obter uma lista completa dos objetos no Workfront, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+Para obter uma lista completa de objetos no Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Para obter informações sobre como navegar no API Explorer e localizar objetos, consulte [Utilização do API Explorer](../../../wf-api/general/using-api-explorer.md).
+Para obter informações sobre como navegar no API Explorer e localizar objetos, consulte [Uso do API Explorer](../../../wf-api/general/using-api-explorer.md).
 
 Ao criar filtros, você deve criar instruções complexas na interface do modo de texto para fazer referência a esses tipos de objetos.
 
-Para obter informações sobre a criação de filtros complexos, consulte [Visão geral de filtros de modo de texto complexos que usam instruções EXISTS](#overview-of-complex-text-mode-filters-that-use-exists-statements) seção deste artigo.
+Para obter informações sobre a criação de filtros complexos, consulte a seção [Visão geral dos filtros complexos de modo de texto que usam instruções EXISTS](#overview-of-complex-text-mode-filters-that-use-exists-statements) deste artigo.
 
 ## Visão geral de filtros de modo de texto complexos que usam instruções EXISTS {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -84,7 +84,7 @@ Considere as seguintes regras ao usar instruções EXISTS em um filtro:
 
 * Quando um objeto de vinculação está ausente porque os objetos original e de destino estão conectados diretamente uns aos outros, você pode usar o código do objeto de destino em vez do objeto de vinculação.
 * Você pode fazer referência a vários campos (Campos de destino) no mesmo objeto (Objeto de destino); nesse caso, você deve conectar as linhas que fazem referência aos campos por AND.\
-  Para obter um exemplo de filtragem para mais de um campo que pertence ao Objeto de destino, consulte o [Exemplo 4: filtrar por vários campos: tarefas por Nome do proprietário do Portfolio e ID do Scorecard do alinhamento de Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) neste artigo.
+  Para obter um exemplo de filtragem para mais de um campo que pertence ao Objeto de Destino, consulte a seção [Exemplo 4: filtrar por vários campos: tarefas por Nome do Proprietário da Portfolio e ID do Scorecard do Alinhamento da Portfolio ](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) neste artigo.
 
 * O único modificador suportado para uma instrução EXISTS é NOTEXISTS.
 
@@ -133,7 +133,7 @@ Você pode criar um filtro que faça referência a objetos em vários níveis da
 
 Você sempre deve usar uma instrução EXISTS e a interface de modo de texto para criar esse filtro.
 
-Para obter exemplos de filtros, consulte [Exemplo 1: filtrar problemas por Nome do proprietário do Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) neste artigo.
+Para obter exemplos de filtros, consulte a seção [Exemplo 1: filtrar problemas por Nome do Proprietário da Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) neste artigo.
 
 Para criar um filtro que abrange vários níveis na hierarquia de objetos:
 
@@ -148,7 +148,7 @@ Para criar um filtro que abrange vários níveis na hierarquia de objetos:
    Por exemplo, a ID (Projeto) (Campo de vinculação exibido no Objeto original) é referenciada a partir de Ocorrências (Objeto original). A ID do proprietário do (Portfolio) (Campo de vinculação ao Objeto de destino) é exibida na guia Campos do Projeto (Objeto de vinculação). Portfolio ownerID também é um campo no Target Object (Portfolio). O campo Vinculação no Objeto de vinculação corresponde ao campo de Direcionamento.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
-1. Usando a API Explorer, identifique a variável **Código do objeto** do objeto de vinculação (projeto).\
+1. Usando o API Explorer, identifique o **Código do Objeto** do Objeto de Vinculação (Projeto).\
    Por exemplo, o Código de objeto do projeto é PROJ.\
    ![project_objCode_in_the_API.PNG](assets/project-objcode-in-the-api-350x84.png)
 
@@ -156,7 +156,7 @@ Para criar um filtro que abrange vários níveis na hierarquia de objetos:
    Por exemplo, criar um filtro de Ocorrência.\
    Para obter informações sobre como criar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clique em **Alternar para modo de texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Cole o seguinte exemplo de fórmula na interface do modo de texto do novo filtro e substitua o texto de exemplo pelos objetos e campos corretos:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -165,7 +165,7 @@ Para criar um filtro que abrange vários níveis na hierarquia de objetos:
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-   Para obter um exemplo usando os campos identificados acima, consulte [Exemplo 1: filtrar problemas por Nome do proprietário do Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) neste artigo.
+   Para obter um exemplo usando os campos identificados acima, consulte a seção [Exemplo 1: filtrar problemas por Nome do Proprietário da Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) neste artigo.
 
 1. Clique em **Salvar filtro**.
 
@@ -177,11 +177,11 @@ Para criar um filtro que abrange vários níveis na hierarquia de objetos:
 
 Você pode criar um filtro que faça referência a objetos ausentes. Por exemplo, você pode criar um filtro de usuário que mostra quais usuários não registraram horas no Workfront.
 
-Você sempre deve usar um *EXISTE* e a interface do modo de texto para criar esse filtro.
+Você deve sempre usar uma instrução *EXISTS* e a interface de modo de texto para criar esse filtro.
 
 Para obter exemplos de filtros para objetos ausentes, consulte as seguintes seções neste artigo:
 
-* [Exemplo 2: filtro para objetos ausentes: campos personalizados que não aparecem em nenhum formulário personalizado](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+* [Exemplo 2: Filtro para objetos ausentes: campos personalizados que não aparecem em nenhum formulário personalizado](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 * [Exemplo 3: filtro para objetos ausentes: usuários que não registraram tempo por um determinado período](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
 
 Para criar um filtro que faça referência a objetos ausentes:
@@ -196,7 +196,7 @@ Para criar um filtro que faça referência a objetos ausentes:
 
    Por exemplo, a ID do Parâmetro da categoria (Campo de vinculação exibido no Objeto original) é referenciada a partir de Parâmetro (Objeto original). parameterID (Campo de vinculação ao Objeto de destino) é exibido na guia Campos do Parâmetro de categoria (Objeto de vinculação). O Campo de vinculação ao Objeto de destino que é exibido no Objeto de vinculação corresponde ao Campo de destino.
 
-1. Usando a API Explorer, identifique a variável **Código do objeto** do Objeto de vinculação (Parâmetro de categoria).\
+1. Usando o API Explorer, identifique o **Código do Objeto** do Objeto de Vinculação (Parâmetro de Categoria).\
    Por exemplo, o Código de Objeto para o Parâmetro da Categoria é CTGYPA.\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
@@ -204,14 +204,14 @@ Para criar um filtro que faça referência a objetos ausentes:
    Por exemplo, crie um filtro Parâmetro.\
    Para obter informações sobre como criar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clique em **Alternar para modo de texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. (Condicional) Se estiver filtrando por objetos que estão ausentes, cole o seguinte exemplo de fórmula na interface do modo texto do novo filtro e substitua o texto de exemplo pelos objetos e campos corretos:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-   Para obter um exemplo de relatórios sobre Campos personalizados não associados ao Forms personalizado, consulte [Exemplo 2: filtro para objetos ausentes: campos personalizados que não aparecem em nenhum formulário personalizado](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) neste artigo.
+   Para obter um exemplo de relatórios sobre Campos Personalizados que não estão associados ao Forms Personalizado, consulte a seção [Exemplo 2: Filtro para objetos ausentes: campos personalizados que não aparecem em nenhum formulário personalizado](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) neste artigo.
 
 1. Clique em **Salvar filtro**.
 
@@ -228,7 +228,7 @@ Para filtrar problemas pelo Nome do Proprietário do Portfolio:
 1. Criar um filtro de Problema.\
    Para obter informações sobre como criar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clique em **Alternar para modo de texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Consulte o seguinte código genérico:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -237,7 +237,7 @@ Para filtrar problemas pelo Nome do Proprietário do Portfolio:
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-1. Cole o código a seguir no **Definir regras de filtro para seu relatório** para substituir o código genérico acima:
+1. Cole o seguinte código na área **Definir regras de filtro para seu Relatório** para substituir o código genérico acima:
 
    `EXISTS:A:$$OBJCODE=PROJ`
 
@@ -270,14 +270,14 @@ Para filtrar Campos Personalizados que não estão associados a um Formulário P
 1. Crie um Parâmetro ou um filtro de Campo personalizado.\
    Para obter informações sobre como criar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clique em **Alternar para modo de texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Consulte o seguinte código genérico:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Cole o código a seguir no **Definir regras de filtro para seu relatório** para substituir o código genérico acima:
+1. Cole o seguinte código na área **Definir regras de filtro para seu Relatório** para substituir o código genérico acima:
 
    `EXISTS:A:$$OBJCODE=CTGYPA`
 
@@ -305,14 +305,14 @@ Para filtrar usuários que não registraram horas durante a semana passada:
 1. Criar um filtro de Usuário.\
    Para obter informações sobre como criar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clique em **Alternar para modo de texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Consulte o seguinte código genérico:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Cole o código a seguir no **Definir regras de filtro para seu relatório** para substituir o código genérico acima:
+1. Cole o seguinte código na área **Definir regras de filtro para seu Relatório** para substituir o código genérico acima:
 
    `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
@@ -324,7 +324,7 @@ Para filtrar usuários que não registraram horas durante a semana passada:
    >* Como não há Objeto de Vinculação, você deve usar o Código do Objeto do Objeto de Destino: HORA.
    >* O Campo de vinculação ao Objeto de destino é ownerID (que é exibido no Objeto original; o Objeto de vinculação está ausente).
    >* O Campo de vinculação exibido no Objeto original é a ID (da hora) (exibida no Objeto de destino; o Objeto de vinculação está ausente).
-   >* O EXISTE:A:A instrução entryDate se refere aos campos que definem o Objeto do Target (Hora) e usa a mesma sintaxe que em uma instrução de filtro regular. Isso garante que você exiba apenas os usuários que não registraram horas por um período específico, neste caso, a semana anterior.
+   >* A instrução EXISTS:A:entryDate se refere a campos que definem o Objeto de Destino (Hora) e usa a mesma sintaxe de uma instrução de filtro regular. Isso garante que você exiba apenas os usuários que não registraram horas por um período específico, neste caso, a semana anterior.
    >* O modificador NOTEXISTS indica que estamos procurando itens (Horas) que não existem para o objeto do relatório (Usuários).
 
 1. Clique em **Salvar filtro**.
@@ -343,8 +343,8 @@ Para filtrar tarefas pelo Nome do Proprietário do Portfolio e ID do Scorecard d
 1. Criar um filtro de Tarefa.\
    Para obter informações sobre como criar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clique em **Alternar para modo de texto**.
-1. Cole o código a seguir no **Definir regras de filtro para seu relatório** área:
+1. Clique em **Alternar para Modo de Texto**.
+1. Cole o seguinte código na área **Definir Regras de Filtro para o seu Relatório**:
 
    `EXISTS:A:$$OBJCODE=PROJ`
    `EXISTS:A:ID=FIELD:projectID`

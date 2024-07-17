@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Administrador feitas com a versão 21.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 21 de julho de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.3, consulte [21.3 Visão geral da versão](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.3, consulte a [Visão geral da versão 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Blueprints disponíveis na produção com a versão 21.3
 
@@ -25,9 +25,9 @@ A funcionalidade de blueprints estará disponível com a versão de produção 2
 
 Os blueprints fornecem elementos básicos para ajudá-lo a criar um sistema de gerenciamento de trabalho que cresce com você. Os administradores do sistema podem navegar pelo catálogo de blueprints e instalar modelos de projeto prontos para uso.
 
-Para obter mais informações, consulte [Visão geral de blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
+Para obter mais informações, consulte [Visão geral dos blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Esse recurso agora está incluído na [Modelos de projeto na nova experiência do Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Modelos de projeto no novo caminho de aprendizado da experiência de Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) no Workfront One.
 
 ## Novo para administradores de grupo: crie e gerencie status para um grupo em qualquer nível
 

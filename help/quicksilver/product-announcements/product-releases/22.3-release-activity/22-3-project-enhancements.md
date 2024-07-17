@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Aprimoramentos do projeto
 
-Esta página descreve todas as melhorias feitas no Project com a versão 22.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página descreve todas as melhorias feitas no Project com a versão 22.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte a [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Delegação de trabalho fora do escritório
 
@@ -39,7 +39,7 @@ Veja a seguir alguns dos recursos que adicionamos com essa atualização:
 >Somente usuários com uma licença de Revisão ou superior podem delegar seu trabalho a outras pessoas. O trabalho pode ser delegado a qualquer usuário, independentemente do nível de acesso. Os usuários delegados recebem as mesmas permissões que os atribuídos nos itens delegados. Se essas permissões forem menores que a configuração do nível de acesso de um usuário, os usuários delegados poderão ser impedidos de executar algumas atividades nas tarefas e problemas que são delegados a eles.
 
 
-Para obter mais informações, consulte [Delegar visão geral de tarefas e problemas](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+Para obter mais informações, consulte [Visão geral da tarefa de delegação e do problema](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 ## Nova experiência ao converter um problema em uma tarefa
 
@@ -68,13 +68,13 @@ Para obter mais informações, consulte [Converter um problema em um projeto no 
 
 Melhoramos ao marcar usuários no fluxo de atualização ao criar uma nova atualização ou responder a uma existente. Agora, ao marcar um usuário para incluí-lo em uma atualização, além do nome e avatar, também exibimos a função principal e o email. Isso ajuda a distinguir entre vários usuários com nomes semelhantes ou idênticos.
 
-Para obter mais informações, consulte [Marcar outros usuários em atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Para obter mais informações, consulte [Marcar outros em atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Nova sintaxe para cálculos em campos personalizados
 
 Para se preparar para aprimoramentos futuros que ajudarão você a adicionar cálculos a formulários personalizados, padronizamos a sintaxe dos campos referenciados que você adiciona a um cálculo. É fácil usar essa nova sintaxe porque o sistema a insere quando você começa a digitar o nome de um campo e o seleciona.
 
-Para obter mais informações, consulte a seção &quot;Criar o cálculo para o campo personalizado calculado&quot; na [artigo Adicionar dados calculados a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obter mais informações, consulte a seção &quot;Criar o cálculo para o campo personalizado calculado&quot; no [artigo Adicionar dados calculados a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Manter informações precisas quando dois usuários com uma função em comum estiverem envolvidos em um processo de aprovação
 
@@ -104,7 +104,7 @@ As seguintes alterações foram feitas em tarefas com um Tipo de Duração Simpl
 * As alocações de atribuição individuais são preservadas na função ao remover o usuário. (Removido da versão. Agora, as Horas planejadas serão definidas como 0 após remover todos os atribuídos.)
 
 
-Para obter mais informações sobre o Trabalho necessário, consulte [Visão geral das Horas planejadas](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
+Para obter mais informações sobre as Horas Planejadas, consulte [visão geral das Horas Planejadas](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
 
 ## Melhorias nas placas
 
@@ -145,7 +145,7 @@ Para obter mais informações sobre pastas de compartilhamento, consulte [Compar
 
 >[!NOTE]
 >
->A remoção desse recurso da visualização está planejada para 9 de janeiro de 2023. Para obter mais informações, consulte [23.1 Página de visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>A remoção desse recurso da visualização está planejada para 9 de janeiro de 2023. Para obter mais informações, consulte a [página de visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md) do 23.1.
 
 >[!NOTE]
 >

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Funções de string em [!DNL Adobe Workfront Fusion]
+# Funções de cadeia de caracteres em [!DNL Adobe Workfront Fusion]
 
 ## Requisitos de acesso
 
@@ -36,7 +36,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td>  
    <td> 
-   <p>Atual: Não [!DNL Workfront Fusion] requisito de licença.</p> 
+   <p>Atual: nenhum requisito de licença [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Herdados: Qualquer um </p> 
    </td>  
@@ -46,7 +46,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> 
    <p>Novo:</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</li></ul> 
    <p>Ou</p> 
-   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Atual: sua organização deve comprar o [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -80,7 +80,7 @@ Converte todos os caracteres alfabéticos em uma cadeia de texto em minúsculas.
 >
 >Retorna: olá
 
-## [!UICONTROL colocar letra maiúscula (texto)]
+## [!UICONTROL colocar em maiúsculas (texto)]
 
 Converte o primeiro caractere em uma cadeia de texto em maiúsculas.
 
@@ -101,9 +101,9 @@ Coloca a primeira letra de cada palavra em maiúscula e coloca em minúscula tod
 >**Exemplo:**
 >`startcase( hello WORLD )`
 >
->Devoluções: [!UICONTROL Olá, mundo]
+>Retorna: [!UICONTROL Olá, Mundo]
 
-## [!UICONTROL ascii (texto; [remover sinais diacríticos])]
+## [!UICONTROL ascii (texto; [remover diacríticos])]
 
 Remove todos os caracteres não ascii de uma cadeia de texto.
 
@@ -117,7 +117,7 @@ Remove todos os caracteres não ascii de uma cadeia de texto.
 >
 >* `ascii(` `ěščřž` `;` `true` `)`
 >
->   Devoluções: [!UICONTROL escrz]
+>   Retorna: [!UICONTROL escrz]
 
 
 
@@ -131,9 +131,9 @@ Substitui a cadeia de caracteres de pesquisa pela nova cadeia.
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
->Devoluções: [!UICONTROL Olá, mundo]
+>Retorna: [!UICONTROL Olá, Mundo]
 
-Expressões regulares (entre `/.../`) pode ser usada como sequência de pesquisa com uma combinação de sinalizadores (como `g`, `i`, `m`) anexado:
+Expressões regulares (entre `/.../`) podem ser usadas como cadeia de caracteres de pesquisa com uma combinação de sinalizadores (como `g`, `i`, `m`) adicionados:
 
 >[!INFO]
 >
@@ -145,8 +145,8 @@ Expressões regulares (entre `/.../`) pode ser usada como sequência de pesquisa
 
 A sequência de caracteres de substituição pode incluir os seguintes padrões de substituição especiais:
 
-* `$&` Insere a substring correspondente.
-* `$n` Onde n é um número inteiro positivo menor que 100, insere a enésima string de subcorrespondência entre parênteses. Isso é indexado com 1.
+* `$&` Insere a subcadeia de caracteres correspondente.
+* `$n` Onde n é um inteiro positivo menor que 100, insere a enésima cadeia de caracteres de subcorrespondência entre parênteses. Isso é indexado com 1.
 
 >[!INFO]
 >
@@ -158,11 +158,11 @@ A sequência de caracteres de substituição pode incluir os seguintes padrões 
 >>
 >![](assets/variable-value---2-350x55.png)
 >
->Retorna: número de telefone: `+420777111222`
+>Retorna: Telefone: `+420777111222`
 
 >[!CAUTION]
 >
->Não use grupos de captura nomeados, como `/ is (?<number>\d+)/` no argumento string de substituição. Isso resulta em um erro.
+>Não use grupos de captura nomeados, como `/ is (?<number>\d+)/`, no argumento de cadeia de caracteres de substituição. Isso resulta em um erro.
 
 Para obter mais informações sobre expressões regulares, consulte [Analisador de texto](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
@@ -170,7 +170,7 @@ Para obter mais informações sobre expressões regulares, consulte [Analisador 
 
 Remove caracteres de espaço no início ou no fim do texto.
 
-## [!UICONTROL superior (texto)]
+## [!UICONTROL parte superior (texto)]
 
 Converte todos os caracteres alfabéticos em uma cadeia de texto em maiúsculas.
 
@@ -180,9 +180,9 @@ Converte todos os caracteres alfabéticos em uma cadeia de texto em maiúsculas.
 >
 >`upper( Hello )`
 >
->Devoluções: [!UICONTROL OLÁ]
+>Retorna: [!UICONTROL OLÁ]
 
-## [!UICONTROL substring (texto; início;fim)]
+## [!UICONTROL subcadeia de caracteres (texto; início;fim)]
 
 Retorna uma parte de uma cadeia de texto entre a posição &quot;inicial&quot; e a posição &quot;final&quot;.
 
@@ -253,7 +253,7 @@ Decodifica caracteres especiais em um URL para texto.
 >**Exemplo:**
 >`decodeURL( Automate%20your%20workflow )`
 >
->Devoluções: [!UICONTROL Automatizar o fluxo de trabalho]
+>Retorna: [!UICONTROL Automatize seu fluxo de trabalho]
 
 ## [!UICONTROL escapeHTML (texto)]
 
@@ -301,13 +301,13 @@ Verifica se o texto contém a cadeia de caracteres de pesquisa.
 >
 >* `contains( Hello World ; Hello )`
 >
->   Devoluções: [!UICONTROL true]
+>   Retorna: [!UICONTROL true]
 >
 >* `contains( Hello World ; Bye )`
 >
->   Devoluções: [!UICONTROL false]
+>   Retorna: [!UICONTROL false]
 
-## [!UICONTROL split (texto; separador)]
+## [!UICONTROL divisão (texto; separador)]
 
 Divide uma cadeia de caracteres em uma matriz de cadeias de caracteres, separando-a em subcadeias.
 
@@ -329,7 +329,7 @@ Calcula o hash md5 de uma string.
 >
 >Devoluções: `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL sha1 (texto; [codificação]; [key])]
+## [!UICONTROL sha1 (texto; [codificação]; [chave])]
 
 Calcula o hash sha1 de uma cadeia de caracteres. Se o argumento chave for especificado, o hash sha1 HMAC será retornado. Codificações suportadas: &quot;hex&quot; (padrão), &quot;base64&quot; ou &quot;latin1&quot;.
 
@@ -341,7 +341,7 @@ Calcula o hash sha1 de uma cadeia de caracteres. Se o argumento chave for especi
 >
 >Retorna: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha256 (texto; [codificação]; [key])]
+## [!UICONTROL sha256 (text; [codificação]; [chave])]
 
 Calcula o hash sha256 de uma string. Se o argumento chave for especificado, o hash sha256 HMAC será retornado. Codificações suportadas: &quot;hex&quot; (padrão), &quot;base64&quot; ou &quot;latin1&quot;.>
 
@@ -353,13 +353,13 @@ Calcula o hash sha256 de uma string. Se o argumento chave for especificado, o ha
 >
 >Retorna: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
-## [!UICONTROL sha512 (texto; [codificação de saída]; [key]; [codificação de chave])]
+## [!UICONTROL sha512 (text; [codificação de saída]; [chave]; [codificação de chave])]
 
 Calcula o hash sha512 de uma string. Se o argumento de chave for especificado, o hash sha512 HMAC será retornado.
 
 Codificações suportadas:
 
-* &quot;[!UICONTROL hexadecimal]&quot; (padrão)
+* &quot;[!UICONTROL hex]&quot; (padrão)
 * &quot;[!UICONTROL base64]&quot;
 * &quot;[!UICONTROL latin1]&quot;
 
@@ -367,9 +367,9 @@ Codificações de chave suportadas:
 
 * &quot;[!UICONTROL texto]&quot; (padrão)
 * &quot;[!UICONTROL hexadecimal]&quot;
-* &quot;[!UICONTROL base64]&quot; ou &quot;[!UICONTROL binário]&quot;
+* &quot;[!UICONTROL base64]&quot; ou &quot;[!UICONTROL binary]&quot;
 
-Ao usar &quot;[!UICONTROL binário]&quot; chave, uma chave deve ser um buffer, não uma sequência.
+Ao usar a codificação de chave &quot;[!UICONTROL binary]&quot;, uma chave deve ser um buffer, não uma cadeia de caracteres.
 
 >[!INFO]
 >

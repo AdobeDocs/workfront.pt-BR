@@ -17,5 +17,5 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Perguntas frequentes de tarefas](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
+* [Perguntas frequentes sobre tarefas](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
 * [A duração do projeto não corresponde à duração planejada](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)

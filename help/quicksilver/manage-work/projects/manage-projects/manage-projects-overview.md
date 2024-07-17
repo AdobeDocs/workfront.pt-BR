@@ -11,7 +11,7 @@ exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,18 +24,18 @@ Esta seção contém os seguintes artigos:
 * [Salvar um projeto como modelo](../../../manage-work/projects/manage-projects/save-project-as-template.md)
 * [Excluir projetos](../../../manage-work/projects/manage-projects/delete-projects.md)
 * [Recuperar um projeto excluído](../../../manage-work/projects/manage-projects/recover-project.md)
-* [Exportar um projeto para o Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
-* [Mapear campos de projeto do Microsoft para projetos do Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
+* [Exportar um projeto para o Projeto do Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [Mapear campos do Microsoft Project para projetos do Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
 * [Recalcular linhas do tempo do projeto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [Alterar o status de um projeto](../../../manage-work/projects/manage-projects/change-project-status.md)
-* [Selecione o tipo de atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md)
+* [Selecionar o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md)
 * [Exigir que o tempo seja aprovado para um projeto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)
-* [Gerenciar informações na área Visão geral do projeto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
-* [Visão geral da condição do projeto e do tipo de condição](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)
-* [Definir o tipo de condição de um projeto](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md)
+* [Gerenciar informações na área de Visão Geral do projeto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
+* [Visão Geral da Condição do Projeto e do Tipo de Condição](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)
+* [Definir o Tipo de Condição de um projeto](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md)
 * [Remover usuários dos projetos](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [Agendar recursos para um projeto](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
-* [Comunicar com os membros da equipe do projeto](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [Gerenciar um projeto na visualização Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [Comunicar-se com os membros da Equipe do Projeto](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
+* [Gerenciar um projeto na Exibição Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Visão geral dos limites do projeto](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Visão geral das métricas do projeto](../../../manage-work/projects/manage-projects/project-metrics.md)

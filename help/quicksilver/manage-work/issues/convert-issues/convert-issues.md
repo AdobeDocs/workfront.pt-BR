@@ -26,7 +26,7 @@ Para obter informações sobre como converter problemas em projetos, consulte [C
 ## Considerações ao converter problemas
 
 * Ao converter problemas em tarefas ou projetos, a maioria das informações do problema é transferida para a tarefa ou projeto, a menos que especificado de outra forma neste artigo.
-* O administrador do Workfront ou do grupo já definiu as preferências para o que acontece com um problema, sua resolução e o acesso do contato principal quando ele é convertido em um projeto ou uma tarefa, conforme descrito em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* O administrador do Workfront ou do grupo já definiu as preferências para o que acontece com um problema, sua resolução e o acesso do contato primário quando ele é convertido em um projeto ou tarefa, conforme descrito em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * O Workfront remove todas as aprovações associadas a problemas durante a conversão.
 * O Workfront substitui o Objeto de resolução do problema ao convertê-lo em uma tarefa ou em um projeto. A nova tarefa ou problema se torna o novo Objeto de resolução do problema após a conversão.
 * Considere o seguinte:
@@ -38,13 +38,13 @@ Para obter informações sobre como converter problemas em projetos, consulte [C
 
 * Ao converter um problema, as permissões para os problemas originais não são transferidas para o objeto convertido (tarefa ou projeto).
 
-* Ao converter um problema em um projeto usando um modelo, a maioria das informações do modelo é transferida para o novo projeto. No entanto, algumas informações do problema também podem ser transferidas para o novo projeto. Para obter mais informações, consulte [Visão geral dos campos do projeto ao converter um problema em um projeto usando um modelo](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) neste artigo.
+* Ao converter um problema em um projeto usando um modelo, a maioria das informações do modelo é transferida para o novo projeto. No entanto, algumas informações do problema também podem ser transferidas para o novo projeto. Para obter mais informações, consulte a seção [Visão geral dos campos do projeto ao converter um problema em um projeto usando um modelo](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) neste artigo.
 * Ao converter um problema, nem todos os documentos ou suas informações são movidos para o novo objeto para o qual o problema é convertido. Os seguintes itens são incluídos quando você converte um problema que tem documentos ou links de documento anexados:
 
    * Documento
    * Links de documento para serviços de terceiros, como Google Drive ou SharePoint.
    * Versões
-   * Provas são incluídas somente quando a opção **Conservar o problema original e vincular a sua resolução a esta tarefa** está desmarcada.
+   * Provas são incluídas somente quando a opção **Manter o problema original e vincular sua resolução a esta tarefa** não está selecionada.
    * As aprovações de documentos não são incluídas ao converter um problema que tenha documentos e links de documentos anexados.
 
 * Se você decidir manter o problema na conversão e ele tiver documentos anexados, o documento e suas versões serão copiados para o projeto ou para a tarefa. As provas e as aprovações de documentos não são copiadas para o projeto ou para a tarefa.
@@ -73,7 +73,7 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Status padrão selecionado para o grupo no modelo. Se o modelo não estiver associado ao grupo, o status do projeto será definido como o status padrão definido pelo administrador do Workfront na área Preferências do projeto da Configuração. Para obter informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>.</td> 
+   <td>Status padrão selecionado para o grupo no modelo. Se o modelo não estiver associado ao grupo, o status do projeto será definido como o status padrão definido pelo administrador do Workfront na área Preferências do projeto da Configuração. Para obter informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>.</td> 
   </tr> 
   <tr> 
    <td>Prioridade</td> 
@@ -101,8 +101,8 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
    <td>Datas do projeto</td> 
    <td> 
     <ul> 
-     <li> <p><b>Data de Início Planejada</b>: O horário de trabalho mais próximo com base no horário de trabalho do agendamento do modelo deve ser pré-selecionado, de acordo com o fuso horário do agendamento do modelo. Este campo ficará desativado se o campo Agendar de estiver definido como Conclusão de. </p> </li> 
-     <li> <p><b>Data de Término Planejada</b>: O horário de trabalho mais próximo com base no horário de trabalho do agendamento do modelo deve ser pré-selecionado, de acordo com o fuso horário do agendamento do modelo. Este campo estará desativado se o campo Agendar de estiver definido como Do início. </p> </li> 
+     <li> <p><b>Data de Início Planejada</b>: o horário de trabalho mais próximo baseado no horário de trabalho do agendamento do modelo deve ser pré-selecionado, de acordo com o fuso horário do agendamento do modelo. Este campo ficará desativado se o campo Agendar de estiver definido como Conclusão de. </p> </li> 
+     <li> <p><b>Data de conclusão planejada</b>: o horário de trabalho mais próximo baseado no horário de trabalho do agendamento do modelo deve ser pré-selecionado, de acordo com o fuso horário do agendamento do modelo. Este campo estará desativado se o campo Agendar de estiver definido como Do início. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
 
 ## Exibir informações de problemas originais em projetos e tarefas {#view-original-issue-information-on-projects-and-tasks}
 
-Você pode exibir as informações do problema original em listas de projetos e tarefas e relatórios ou na área Detalhes do Projeto. Para obter informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Você pode exibir as informações do problema original em listas de projetos e tarefas e relatórios ou na área Detalhes do Projeto. Para obter informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 A tabela a seguir ilustra quais campos de problemas estão visíveis nas tarefas e nos projetos convertidos.
 

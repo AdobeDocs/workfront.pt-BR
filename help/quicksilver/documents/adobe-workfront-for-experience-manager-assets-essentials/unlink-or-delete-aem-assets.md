@@ -5,9 +5,10 @@ title: Desvincular ou excluir ativos e pastas do Experience Manager Assets ou As
 description: Você pode desvincular ou excluir itens vinculados ao Workfront do Adobe Experience Manager Assets.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 4c52182cb8150faafcf872ac9115c404e544cf6c
+exl-id: f082be12-2adc-4234-a01a-7543c032a35a
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -20,8 +21,8 @@ Você pode desvincular ou excluir itens vinculados ao Workfront do Adobe Experie
 
 Quando você exclui um documento ou pasta vinculada no Workfront, ela é desvinculada do Experience Manager Assets e é excluída somente no Workfront. O documento ou ativo não é afetado no Experience Manager Assets.
 
-1. Selecione o documento ou a pasta vinculada e clique em **Excluir**.
-1. Na caixa de confirmação exibida, clique em **Sim, desvincule-o**.
+1. Selecione o documento ou pasta vinculado e clique em **Excluir**.
+1. Na caixa de confirmação exibida, clique em **Sim, Desvincule-a**.
 
    O documento está desvinculado do site do Workfront. Ela não é afetada no aplicativo externo.
 

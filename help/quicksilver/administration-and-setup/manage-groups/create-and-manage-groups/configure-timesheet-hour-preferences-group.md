@@ -30,11 +30,11 @@ As seguintes seções na página Preferências de Horas e Planilha de Horas são
 
 * Projetos, tarefas e problemas excluídos
 
-Para obter informações sobre como um administrador do Workfront desbloqueia uma folha de horas e uma preferência de horas, consulte a seção [Desbloquear preferências de horas e planilhas de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) no artigo [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obter informações sobre como um administrador do Workfront desbloqueia uma folha de horas e uma preferência de horas, consulte a seção [Desbloquear preferências de folha de horas e horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) no artigo [Configurar preferências de folha de horas e horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
->A configuração no nível do grupo também é possível para preferências de projeto e preferências de tarefa e problema. Para obter informações, consulte [Configurar as preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>A configuração no nível do grupo também é possível para preferências de projeto e preferências de tarefa e problema. Para obter informações, consulte [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Requisitos de acesso
 
@@ -57,7 +57,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 +++
 
@@ -73,7 +73,7 @@ Considere as seguintes informações sobre a configuração de uma folha de hora
   Add example here?
   -->
 
-* Depois que um administrador do Workfront desbloquear uma preferência no nível do sistema e configurá-la para o seu grupo, você poderá bloqueá-la para garantir que todos os grupos abaixo do seu usem a mesma configuração. Isso é paralelo à capacidade que um administrador do Workfront tem de configurar e bloquear uma preferência para todos no sistema. Para obter mais informações, consulte [Bloquear ou desbloquear uma planilha de horas e uma preferência de horas do grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Depois que um administrador do Workfront desbloquear uma preferência no nível do sistema e configurá-la para o seu grupo, você poderá bloqueá-la para garantir que todos os grupos abaixo do seu usem a mesma configuração. Isso é paralelo à capacidade que um administrador do Workfront tem de configurar e bloquear uma preferência para todos no sistema. Para obter mais informações, consulte [Bloquear ou desbloquear uma planilha de horas e uma preferência de horas de grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 ## Configurar uma planilha de horas ou uma preferência de horas desbloqueada para um grupo
 
@@ -81,14 +81,14 @@ Considere as seguintes informações sobre a configuração de uma folha de hora
 >
 >Se você for um administrador do Workfront, ignore as etapas 1 a 4. Para isso, acesse Configurar > Folhas de horas e horas > Preferências e, em seguida, procure o nome do grupo na caixa na parte superior da página.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
 1. Clique no nome do grupo cujas preferências de folha de horas ou de horas você deseja configurar.
-1. No painel esquerdo, clique em **Horas e planilhas de horas**.
+1. No painel esquerdo, clique em **Folhas de horas e Horas**.
 
-1. Na página que é exibida, na caixa de diálogo **Preferências gerais** , configure uma das seguintes opções:
+1. Na página exibida, na seção **Preferências gerais**, configure uma das seguintes opções:
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Considere as seguintes informações sobre a configuração de uma folha de hora
        <li>Suas planilhas de horas como Tempo geral</li>
        </ul> 
        <p>Isso é útil quando os usuários planejam ficar longe do escritório e desejam registrar esse tempo antecipadamente.</p> 
-       <p><b>NOTA</b>: não é possível impedir que os usuários registrem tempo em tarefas ou problemas que estão fechados ou cancelados. Você só pode impedir que os usuários registrem horas em projetos concluídos ou inativos. Recomendamos que você use filtros em listas de tarefas e problemas para excluir aqueles que foram concluídos ou cancelados de ficarem visíveis para os usuários.</p> </td> 
+       <p><b>OBSERVAÇÃO</b>: não é possível impedir que os usuários registrem tempo em tarefas ou problemas que estão fechados ou cancelados. Você só pode impedir que os usuários registrem horas em projetos concluídos ou inativos. Recomendamos que você use filtros em listas de tarefas e problemas para excluir aqueles que foram concluídos ou cancelados de ficarem visíveis para os usuários.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Adicionar despesas de uma folha de horas</td> 
@@ -138,7 +138,7 @@ Considere as seguintes informações sobre a configuração de uma folha de hora
     </tbody> 
    </table>
 
-1. No **Onde os usuários podem registrar horas** , configure uma das seguintes opções:
+1. Na seção **Onde os usuários podem registrar horas**, configure uma das seguintes opções:
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Considere as seguintes informações sobre a configuração de uma folha de hora
    >
    >Esta preferência é aplicada com base na configuração das preferências do Grupo padrão do usuário. Se essas configurações estiverem ativadas nas preferências do Grupo padrão do usuário, ele poderá registrar o tempo diretamente nos projetos, incluindo projetos concluídos ou inativos, independentemente das preferências do grupo do projeto permitirem ou não.
 
-1. No **Preencher folhas de horas previamente** , configure uma das seguintes opções:
+1. Na seção **Preencher folhas de horas previamente**, configure uma das seguintes opções:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Trabalho dentro de &lt;number of="" weeks=""&gt; do intervalo de trabalho da folha de horas</td> 
+      <td role="rowheader">Trabalho que está dentro de &lt;número de semanas&gt; do intervalo de trabalho da folha de horas</td> 
       <td> <p>Define o número de semanas antes e depois do intervalo de datas da folha de horas que contém datas de tarefas e problemas atribuídas ao usuário. A configuração padrão é 1 semana e você pode estender esse intervalo para 4 semanas. Isso significa que a folha de horas é pré-preenchida com tarefas e problemas que têm datas em qualquer lugar entre quatro semanas antes do intervalo de datas da folha de horas até quatro semanas após o intervalo de datas da folha de horas, se você selecionar 4 semanas para o seu intervalo. </p> </td> 
      </tr> 
      <tr> 

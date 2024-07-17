@@ -61,7 +61,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Configurar o acesso do usuário aos projetos usando um nível de acesso personalizado
 
 1. Comece a criar ou editar o nível de acesso, conforme explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no **Exibir** ou **Editar** botão à direita de Projetos, em seguida, selecione as habilidades que deseja conceder em **Ajuste as configurações**.
+1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Exibir** ou **Editar** à direita de Projetos e selecione as capacidades que deseja conceder em **Ajustar suas configurações**.
 
    ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
@@ -70,9 +70,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >* Os usuários com uma licença de Trabalho têm direitos de projeto limitados. Eles podem contribuir para um projeto, mas não podem gerenciá-lo.
    >* Os usuários com uma licença de Revisão têm direitos de Visualização em projetos a partir de problemas convertidos, mas seus direitos de Visualização são limitados.
    >* Para obter informações sobre as permissões que os usuários podem conceder ao compartilhar projetos com outras pessoas, consulte [Compartilhar um projeto no Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-   >* Quando você define uma configuração de nível de acesso para um determinado tipo de objeto, essa configuração não afeta o acesso dos usuários aos objetos com uma classificação mais baixa. Por exemplo, você pode impedir que os usuários excluam projetos em seu nível de acesso, mas isso não os impede de excluir tarefas, que são de classificação inferior aos projetos.Para obter mais informações sobre a hierarquia de objetos, consulte a seção [Interdependência e hierarquia de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) no artigo [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >* Quando você define uma configuração de nível de acesso para um determinado tipo de objeto, essa configuração não afeta o acesso dos usuários aos objetos com uma classificação mais baixa. Por exemplo, você pode impedir que usuários excluam projetos em seus níveis de acesso, mas isso não os impede de excluir tarefas, que são de classificação inferior à dos projetos.Para obter mais informações sobre a hierarquia de objetos, consulte a seção [Interdependência e hierarquia de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) no artigo [Entender os objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Opcional) Clique em **definir padrões de compartilhamento** à direita da opção Criar, e **Adicionar regra** para adicionar uma regra de compartilhamento para novos projetos.
+1. (Opcional) Clique em **definir padrões de compartilhamento** à direita da opção Criar e em **Adicionar regra** para adicionar uma regra de compartilhamento para novos projetos.
 
    Quando o usuário com esse nível de acesso cria um projeto, o projeto é compartilhado automaticamente com os usuários selecionados no menu à esquerda.
 
@@ -88,15 +88,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Você pode repetir essa etapa para adicionar quantas regras de compartilhamento de projeto forem necessárias para o nível de acesso.
 
-1. Clique no X para fechar a janela **Ajuste as configurações** caixa.
-1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configuração do acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. Clique no X para fechar a caixa **Ajustar suas configurações**.
+1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configurar acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Quando terminar, clique em **Salvar**.
 
-   Após criar o nível de acesso, você pode atribuí-lo a um usuário. Para obter mais informações, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Após criar o nível de acesso, você pode atribuí-lo a um usuário. Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Acesso a relatórios, painéis e calendários por tipo de licença
 
-Para obter informações sobre o que os usuários de cada nível de acesso podem fazer com problemas, consulte a seção [Projetos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) no artigo [Funcionalidade disponível para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Para obter informações sobre o que os usuários em cada nível de acesso podem fazer com problemas, consulte a seção [Projetos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) no artigo [Funcionalidade disponível para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Acesso a projetos compartilhados
 

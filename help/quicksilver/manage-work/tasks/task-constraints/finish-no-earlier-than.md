@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Visão geral da restrição de tarefa: Concluir Não Antes De'
-description: Concluir não antes de (FNET) é uma Restrição de Tarefa que agenda uma tarefa para ser concluída após a data especificada.
+title: "Visão geral da Restrição de Tarefa: Não Concluir Antes de"
+description: Não Terminar Antes de (FNET) é uma Restrição de Tarefa que programa uma tarefa para ser concluída após a data especificada.
 author: Alina
 feature: Work Management
 exl-id: b1dbf5c9-34b6-4c25-b582-ce9454501e03
@@ -14,31 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Visão geral da restrição de tarefa: Concluir não antes de
+# Visão geral de Restrição de Tarefa: Não Concluir Antes de
 
-Concluir não antes de (FNET) é uma Restrição de Tarefa que agenda uma tarefa para ser concluída após a data especificada.
+Não Terminar Antes de (FNET) é uma Restrição de Tarefa que programa uma tarefa para ser concluída após a data especificada.
 
-## Visão geral da restrição Concluir não é anterior a
+## Visão geral da restrição Não Terminar Antes de
 
-Considere o seguinte ao usar a restrição Concluir não anterior a (FNET) para uma tarefa:
+Considere o seguinte ao usar a restrição Não Terminar Antes de (FNET) para uma tarefa:
 
-* Você deve usar essa restrição quando o projeto for programado a partir da data de conclusão. Nesse caso, você pode fornecer uma restrição suave na tarefa antes de forçar outras tarefas dependentes a serem exibidas em risco.
-* Quando você usa o FNET em um projeto agendado **Data inicial**, a restrição agendará a tarefa da maneira que a agendaria se a restrição fosse tão rápida quanto possível.
-* Quando você move ou copia uma tarefa com uma restrição FNET para outro projeto, a restrição da tarefa ou as datas do projeto podem ser alteradas dependendo das datas da restrição e das datas de início e conclusão do projeto. Os seguintes cenários existem:
+* Você deve usar essa restrição quando o projeto estiver agendado a partir da data de conclusão. Nesse caso, você pode fornecer uma restrição leve na tarefa antes de forçar outras tarefas dependentes a serem mostradas Em Risco.
+* Quando você usa FNET em um projeto agendado **Da Data de Início**, a restrição agenda a tarefa da maneira que agendaria se a restrição fosse o Mais Breve Possível.
+* Quando você move ou copia uma tarefa com uma restrição FNET para outro projeto, a restrição da tarefa ou as datas do projeto podem mudar dependendo de quais são as datas de restrição e quais são as datas de início e conclusão do projeto. Existem os seguintes cenários:
 
-   * Quando o projeto de destino é agendado desde o início:
+   * Quando o projeto de destino está agendado do início:
 
-      * Quando a data de restrição da tarefa é anterior à Data Inicial Planejada do projeto, a restrição da tarefa é alterada para Assim que possível.
-      * Quando a data de restrição da tarefa é posterior à Data de Conclusão Planejada do projeto, a Data de Conclusão Planejada do projeto muda para corresponder à data de restrição de conclusão da tarefa.
-   * Quando o projeto de destino é agendado a partir da conclusão:
+      * Quando a data de restrição da tarefa for anterior à Data de início planejada do projeto, a restrição da tarefa será alterada para O Mais Breve Possível.
+      * Quando a data de restrição da tarefa for posterior à Data de Conclusão Planejada do projeto, a Data de Conclusão Planejada do projeto será alterada para corresponder à data de restrição da conclusão da tarefa.
+
+   * Quando o projeto de destino estiver agendado A partir da conclusão:
 
       * Quando a data de restrição da tarefa for posterior à Data de conclusão do projeto, a restrição da tarefa será alterada para O mais tarde possível.
-      * Quando a data de restrição da tarefa é anterior à Data Inicial Planejada do projeto, a Data Inicial Planejada do projeto muda para corresponder à data de restrição inicial da tarefa.
-   * Independentemente da programação do projeto, quando a data de restrição da tarefa estiver dentro das Datas de Início e Conclusão do projeto, não há alterações na Restrição de Tarefa ou nas datas do projeto.
+      * Quando a data de restrição da tarefa for anterior à Data Inicial Planejada do projeto, a Data Inicial Planejada do projeto será alterada para corresponder à data inicial de restrição da tarefa.
 
-   Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obter informações sobre cópia de tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+   * Independentemente do cronograma do projeto, quando a data de restrição da tarefa estiver dentro das datas de início e conclusão do projeto, não há alterações na restrição da tarefa ou nas datas do projeto.
 
-   Para obter informações sobre como atualizar a Restrição de Tarefa em uma tarefa, consulte [Atualizar a Restrição de Tarefa de uma tarefa](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obter informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+
+  Para obter informações sobre como atualizar a Restrição de Tarefa em uma tarefa, consulte [Atualizar a Restrição de Tarefa de uma tarefa](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

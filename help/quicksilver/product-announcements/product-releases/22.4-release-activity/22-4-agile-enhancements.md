@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Agile feitas com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte [22.4 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte a [Visão geral da versão 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Coluna de entrada disponível em quadros
 
@@ -31,7 +31,7 @@ Só é permitida uma coluna de entrada no quadro.
 
 Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Painel de filtro atualizado em quadros
 
@@ -41,7 +41,7 @@ Os ícones de filtro e pesquisa em um quadro foram movidos para a esquerda da te
 
 Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Usar grupos em um quadro para criar raias
 
@@ -53,7 +53,7 @@ Nenhum cartão na coluna de entrada está incluído em um grupo.
 
 Para obter mais informações, consulte [Usar grupos em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Melhorias nos itens da lista de verificação nos quadros
 
@@ -77,7 +77,7 @@ Depois de adicionar a equipe ao quadro, é possível atribuí-la a cartões. Em 
 
 Para obter mais informações, consulte [Adicionar ou remover membros de um quadro](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## O limite de trabalhos em andamento agora está disponível nas colunas da placa
 
@@ -89,7 +89,7 @@ Agora é possível definir um limite de Trabalho em andamento (WIP) para qualque
 
 Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Campo de estimativa adicionado aos cartões
 
@@ -99,4 +99,4 @@ Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quic
 
 Um novo campo Estimativa em cartões ad hoc e conectados permite inserir o número estimado de horas para que o cartão seja concluído. Esta é uma entrada manual, não um valor calculado, e o valor não pode ser maior que 99. A estimativa é exibida no cartão no quadro, bem como nos detalhes do cartão.
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412872/){target=_blank}

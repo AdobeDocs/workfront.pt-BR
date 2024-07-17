@@ -70,7 +70,7 @@ Pré-visualização e produção para todos os clientes: 19 de outubro de 2023.
 
 >[!NOTE]
 >
->Essa limitação foi removida após 28 de novembro de 2023. Para obter mais informações, consulte [Visão geral da versão do primeiro trimestre de 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>Essa limitação foi removida após 28 de novembro de 2023. Para obter mais informações, consulte a [Visão geral da versão do primeiro trimestre de 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 
 Projetos, tarefas, problemas e documentos do exibem atualizações a partir de 1º de janeiro de 2019. Antes desse aprimoramento, a nova experiência de comentários capturou apenas atualizações de junho de 2022 para esses objetos.
@@ -147,7 +147,7 @@ Produção para lançamento trimestral: com a versão 23.10 (outubro de 2023)
 
 Estamos tornando a nova experiência de comentários a experiência padrão para os seguintes objetos: projetos, tarefas, problemas e documentos.  A experiência de comentários herdada permanecerá como uma opção alternativa ao acessar esses objetos.
 
-Para dar suporte a essa alteração, também renomeamos a opção &quot;Comentário beta&quot; para &quot;Novo comentário&quot;.
+Para respaldar essa alteração, também renomeamos a opção &quot;Comentar no Beta&quot; como &quot;Novo comentário&quot;.
 
 Para obter mais informações, consulte [Nova experiência de comentários](../new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -193,7 +193,7 @@ Versão de produção: 13 de julho de 2023
 
 Reprojetamos a interface para registrar tempo da área Atualizações na nova experiência de comentários.
 
-Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obter mais informações, consulte [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Versão de pré-visualização: 5 de julho de 2023
 
@@ -215,7 +215,7 @@ Versão de produção: 29 de junho de 2023
 
 #### Nova experiência de comentários para cartões na área Quadros
 
-A nova experiência de comentários agora está disponível para cartões na área Quadros. Essa é a única experiência disponível para cartões. Para obter mais informações, consulte [Visão geral da versão 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+A nova experiência de comentários agora está disponível para cartões na área Quadros. Essa é a única experiência disponível para cartões. Para obter mais informações, consulte a [visão geral da versão 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
 
 Visualização: 15 de junho de 2023
 
@@ -225,7 +225,7 @@ Produção para todos os clientes: com a versão 23.3 (julho de 2023)
 
 #### Adicionar aspas de bloco a um comentário
 
-Agora é possível adicionar aspas de bloco a um comentário usando uma opção da barra de ferramentas Rich Text na nova experiência de comentário Beta.
+Agora é possível adicionar aspas de bloco a um comentário usando uma opção da barra de ferramentas Rich Text na nova experiência de comentário do Beta.
 
 Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -251,9 +251,9 @@ Produção: 13 de junho de 2023
 
 ### Semana de 29 de maio de 2023
 
-#### Novo comentário sobre experiência beta para projetos, tarefas e documentos
+#### Nova experiência de comentários do Beta para projetos, tarefas e documentos
 
-A nova experiência de comentário Beta agora está disponível para projetos, tarefas e documentos. Antes desta atualização, a experiência beta de comentários estava disponível somente para problemas e metas.
+A nova experiência de comentários no Beta agora está disponível para projetos, tarefas e documentos. Antes desta atualização, a experiência de comentários no Beta estava disponível somente para problemas e metas.
 
 Visualização: 1 de junho de 2023
 
@@ -261,11 +261,11 @@ Produção: com a versão 23.3 (julho de 2023)
 
 >[!NOTE]
 >
->Quaisquer recursos lançados para a nova experiência de comentário Beta a partir de 1 de junho de 2023 estarão disponíveis na Produção para projetos, tarefas e documentos após a versão 23.3 para produção. Para obter informações, consulte [Visão geral da versão 23.3](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+>Quaisquer recursos lançados para a nova experiência de comentários do Beta a partir de 1 de junho de 2023 estarão disponíveis na Produção para projetos, tarefas e documentos após a versão 23.3 para produção. Para obter informações, consulte a [visão geral da versão 23.3](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 #### Nova aparência da tag &quot;editada&quot; após a edição de um comentário
 
-Ao editar um comentário na nova experiência beta de comentários, uma tag &quot;editada&quot; é adicionada ao comentário. Essa tag agora tem uma nova aparência em relação à lançada originalmente. Os carimbos de data e hora do comentário são aqueles do comentário original. Eles não são os carimbos de data e hora de quando a edição foi feita.  Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Ao editar um comentário na nova experiência de comentários no Beta, uma tag &quot;editada&quot; é adicionada ao comentário. Essa tag agora tem uma nova aparência em relação à lançada originalmente. Os carimbos de data e hora do comentário são aqueles do comentário original. Eles não são os carimbos de data e hora de quando a edição foi feita.  Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Visualização: 31 de maio de 2023
 
@@ -273,15 +273,15 @@ Produção: 1 de junho de 2023
 
 #### Comentários de objetos filho são acumulados em um objeto pai
 
-Ao ativar a experiência de comentários beta, os comentários associados a um objeto filho agora são acumulados no objeto pai. Por exemplo, comentários de documentos agora são exibidos no problema em que os documentos estão anexados. Para obter informações, consulte [Visão geral da seção de atualização](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Ao ativar a experiência de comentários no Beta, os comentários associados a um objeto filho agora são acumulados no objeto pai. Por exemplo, comentários de documentos agora são exibidos no problema em que os documentos estão anexados. Para obter informações, consulte [Visão geral da seção de atualização](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Visualização: 1 de junho de 2023
 
 Produção: 1 de junho de 2023
 
-#### Registrar o tempo na nova experiência de comentário Beta
+#### Registrar o tempo na nova experiência de comentários do Beta
 
-Você pode registrar tempo para problemas, tarefas e projetos na área Atualizações ao usar a nova experiência de comentário Beta. Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Você pode registrar tempo para problemas, tarefas e projetos na área Atualizações ao usar a nova experiência de comentários do Beta. Para obter mais informações, consulte [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Visualização: 1 de junho de 2023
 
@@ -306,9 +306,9 @@ Produção: 18 de maio de 2023
 
 #### As imagens são removidas da área Documentos quando os anexos são removidos dos comentários ou quando os comentários que contêm um anexo são removidos
 
-Estamos alterando a maneira como os anexos funcionam ao remover ou editar um comentário que contém um anexo. Agora, quando você edita um comentário e remove o anexo, ou quando exclui um comentário que contém um anexo, o anexo também é removido da área Documentos. Antes dessa alteração, na experiência anterior de comentários, os anexos permaneceram na área Documentos. Para obter informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Estamos alterando a maneira como os anexos funcionam ao remover ou editar um comentário que contém um anexo. Agora, quando você edita um comentário e remove o anexo, ou quando exclui um comentário que contém um anexo, o anexo também é removido da área Documentos. Antes dessa alteração, na experiência anterior de comentários, os anexos permaneceram na área Documentos. Para obter informações, consulte [Trabalho de atualização](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Disponível para comentários sobre a experiência Beta e para o Workfront Goals, por padrão, nas seguintes datas:
+Disponível para comentários sobre a experiência do Beta com problemas e para o Workfront Goals, por padrão, nas seguintes datas:
 
 * Pré-visualização e produção: 4 de maio de 2023
 
@@ -329,10 +329,10 @@ Mantenha as imagens como rascunho ao sair de uma atualização para metas e prob
 
 A seguinte atualização de manutenção foi lançada para comentários de problemas em beta e para metas do:
 
-Mostre novos comentários fora da área de tela visível na seção Atualizações de problemas (nova experiência de comentário Beta) e Metas. Para obter informações, consulte a seção &quot;Atualização de manutenção em 17 de abril&quot; no artigo  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
+Mostre novos comentários fora da área de tela visível na seção Atualizações de problemas (nova experiência de Beta de comentário) e Metas. Para obter informações, consulte a seção &quot;Atualização de manutenção em 17 de abril&quot; no artigo <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
 
 
 ### Semana de 6 de abril de 2023
 
 A nova experiência beta de comentário foi lançada para problemas.
-Os mesmos recursos lançados para a versão beta de comentários para objetos do Workfront são lançados ao mesmo tempo para metas de todos os usuários que têm acesso às Metas do Workfront. Para obter informações, consulte [23.2 Visão geral da versão](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+Os mesmos recursos lançados para a versão beta de comentários para objetos do Workfront são lançados ao mesmo tempo para metas de todos os usuários que têm acesso às Metas do Workfront. Para obter informações, consulte a [Visão geral da versão 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todos os aprimoramentos no fluxo de atualização e na notificação feitos com a versão do Primeiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do primeiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do Primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Arraste e solte a imagem em um comentário na seção Atualizações
 
@@ -40,7 +40,7 @@ Os comentários relevantes para sua pesquisa são filtrados e as palavras-chave 
 
 Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3425730/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3425730/){target=_blank}
 
 ## Copie e cole uma imagem em um comentário na seção Atualizações
 
@@ -50,4 +50,4 @@ Os seguintes formatos de arquivo são suportados: .jpg, .jpeg, .png, .gif.
 
 Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3425731/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3425731/){target=_blank}

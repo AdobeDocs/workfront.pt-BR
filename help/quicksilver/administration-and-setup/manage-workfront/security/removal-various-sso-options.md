@@ -11,8 +11,8 @@ role: Admin
 exl-id: 03f3ef0d-8b55-4127-b205-cf259d221290
 source-git-commit: 74721e843129994a0524b4a5573da41c07deed51
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 4%
+source-wordcount: '99'
+ht-degree: 5%
 
 ---
 
@@ -26,4 +26,4 @@ As seguintes opções de SSO foram removidas do produto em 2020:
 * Active Directory
 * SAML 1.1
 
-Para obter informações sobre as soluções de SSO disponíveis, consulte [Visão geral do logon único no Adobe Workfront](../../add-users/single-sign-on/sso-in-workfront.md).
+Para obter informações sobre soluções de SSO disponíveis, consulte [Visão geral do logon único na Adobe Workfront](../../add-users/single-sign-on/sso-in-workfront.md).

@@ -1,8 +1,8 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Exportar uma lista de folhas de horas
-description: Como gerente de pessoas ou aprovador de folha de ponto, talvez seja necessário baixar uma lista de folhas de ponto para exibir rapidamente as informações sobre as folhas de ponto das pessoas pelas quais você é responsável. Você pode fazer isso exportando uma lista de folhas de horas.
+title: Exportar uma lista de planilhas de horas
+description: Como gerente de pessoas ou aprovador de planilhas de horas, você pode precisar baixar uma lista de planilhas de horas para visualizar rapidamente as informações sobre as planilhas de horas das pessoas pelas quais você é responsável. Você pode fazer isso exportando uma lista de folhas de horas.
 author: Alina
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
@@ -13,21 +13,21 @@ ht-degree: 2%
 
 ---
 
-# Exportar uma lista de folhas de horas
+# Exportar uma lista de planilhas de horas
 
-Como gerente de pessoas ou aprovador de folha de ponto, talvez seja necessário baixar uma lista de folhas de ponto para exibir rapidamente as informações sobre as folhas de ponto das pessoas pelas quais você é responsável. Você pode fazer isso exportando uma lista de folhas de horas.
+Como gerente de pessoas ou aprovador de planilhas de horas, você pode precisar baixar uma lista de planilhas de horas para visualizar rapidamente as informações sobre as planilhas de horas das pessoas pelas quais você é responsável. Você pode fazer isso exportando uma lista de folhas de horas.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -35,72 +35,77 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Exibir acesso ou superior a Tarefas e problemas</p> <p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Acesso de visualização ou superior a tarefas e problemas</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou permissões superiores nas folhas de ponto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou mais altas nas folhas de horas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir qual plano ou tipo de licença você possui, entre em contato com o administrador da Workfront.
+*Para descobrir que tipo de plano ou licença você tem, entre em contato com o administrador do Workfront.
 
-## Exportar uma lista de folhas de horas
+## Exportar uma lista de planilhas de horas
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
-1. Clique em **Folhas de Horas**. O **Todos** filtro é selecionado por padrão.
+1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Opcional) Clique no botão **pesquisa** ícone ![](assets/search-icon.png) e digite uma palavra-chave e procure por uma folha de ponto específica. Por exemplo, você pode pesquisar por um período definido ou nome de proprietário.
+1. (Opcional) Clique no ícone ![](assets/search-icon.png) de **pesquisa**, digite uma palavra-chave e procure uma planilha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de conjunto de horas ou nome do proprietário.
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
-   * Selecionar **Minhas aprovações de folha de ponto** no canto superior direito da página para exibir somente as folhas de horas que você aprovar
+   * Selecione **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as planilhas de horas aprovadas por você
 
-      Ou
+     Ou
 
-      Selecionar **Minhas Folhas de Horas** para exibir somente as folhas de horas.
+     Selecione **Minhas Planilhas de Horas** para exibir apenas suas planilhas de horas.
 
-      Isso aplica as aprovações de minha folha de horas ou os filtros Minha folha de horas à lista de folhas de horas.
+     Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    * Clique no ícone Filtro ![](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
-   >As opções Minhas Aprovações de Folha de Horas e Minhas Folhas de Horas não são exibidas na parte superior da lista de Folha de Horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas Aprovações de Folha de Horas e Minhas Folhas de Horas dos Controles de Lista na área Configuração ou do Modelo de Layout. Para obter mais informações, consulte os seguintes artigos:
-   * [Personalizar filtros, exibições e agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas aprovações de folha de horas e Minhas folhas de horas dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte os seguintes artigos:
+   >
+   >   
+   >   
+   >   * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   
+   >
 
+1. (Opcional) Clique nos ícones **Visualização** ![](assets/view-icon.png) ou **Agrupamento** ![](assets/grouping.png) para aplicar uma visualização ou agrupamento diferente ou para criar um novo.
 
-1. (Opcional) Clique no botão **Exibir** ![](assets/view-icon.png) ou **Agrupamento** ![](assets/grouping.png) para aplicar uma exibição ou agrupamento diferente ou para criar um novo.
-
-   Para obter informações sobre a criação de filtros, exibições ou agrupamentos, consulte os seguintes artigos:
+   Para obter informações sobre como criar filtros, visualizações ou agrupamentos, consulte os seguintes artigos:
 
    * [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
    * [Criar ou editar exibições no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Criar agrupamentos no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Selecione as folhas de horas que você deseja exportar e clique no botão **Exportar**  ![](assets/export-38x15.png) ícone .
+1. Selecione as planilhas de horas que deseja exportar e clique no ícone **Exportar** ![](assets/export-38x15.png).
 
    ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
 
-1. Selecione o tipo de arquivo para o qual deseja exportar a lista de folhas de horas a partir das seguintes opções:
+1. Selecione o tipo de arquivo para o qual deseja exportar a lista de planilhas de horas a partir das seguintes opções:
 
-   * PDF Ladscape
-   * PDF - Retrato
-   * PDF Outros tamanhos
+   * PDF Paisagem
+   * PDF Retrato
+   * PDF Outros Tamanhos
    * Excel
    * Excel (xlsx)
    * Delimitado por tabulação
 
-   Uma lista de folhas de ponto é baixada para o computador no formato selecionado e inclui as seguintes informações da folha de ponto:
+   Uma lista de folhas de horas é baixada para o computador no formato selecionado e inclui as seguintes informações de folha de horas:
 
    * Faixa de Datas
    * Nome do proprietário
    * Horas totais
-   * Valor das horas extras
+   * Valor de horas extras
    * Nomes dos aprovadores
    * Status

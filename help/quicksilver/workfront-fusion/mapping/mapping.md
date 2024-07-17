@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] exige um [!DNL Adobe Workfront Fusion] além de uma licença [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] requer uma licença [!DNL Adobe Workfront Fusion] além de [!DNL Adobe Workfront license].
 
 Esta seção contém os seguintes artigos:
 
-* [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
-* [Sobre o mapeamento de arquivos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
-* [Tipos de dados de item no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
-* [Mapear uma matriz no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
-* [Coerção de tipo em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)
+* [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+* [Sobre o mapeamento de arquivos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
+* [Tipos de dados de item em  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+* [Mapear uma matriz em  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
+* [Digite a coerção em  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)

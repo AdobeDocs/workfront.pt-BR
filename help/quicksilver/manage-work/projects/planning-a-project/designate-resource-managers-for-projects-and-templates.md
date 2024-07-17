@@ -9,7 +9,7 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -100,7 +100,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 <p><b>Nota</b>
 
-Os usuários adicionados como Gerentes de recursos a um projeto ou modelo obtêm imediatamente permissões de gerenciamento no projeto ou no modelo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td>
+Os usuários adicionados como Gerentes de recursos a um projeto ou modelo obtêm imediatamente permissões de gerenciamento no projeto ou no modelo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -132,15 +132,15 @@ Os usuários adicionados como Gerentes de recursos a um projeto ou modelo obtêm
 
 * Os usuários designados como Gerentes de recursos em um projeto ou modelo não se tornam automaticamente parte da Equipe do projeto.
 
-  Para obter informações sobre equipes de projeto, consulte [Gerenciar a equipe do projeto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Para obter informações sobre equipes de projeto, consulte [Gerenciar a Equipe do Projeto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * Você pode designar Gerentes de recursos para projetos ou modelos de projeto. Quando você designa Gerentes de recursos em um modelo de projeto, os usuários designados como Gerentes de recursos no modelo tornam-se automaticamente Gerentes de recursos em qualquer projeto criado usando esse modelo.
 * Você pode exibir o campo Gerenciador de Recursos nas seguintes áreas:
 
    * Ao editar um projeto, conforme descrito neste artigo.
    * Ao editar um modelo, conforme descrito neste artigo.
-   * Ao criar relatórios de projeto ou modelo. Para obter informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * Ao criar ou personalizar uma visualização de projeto ou modelo para uma lista. Para obter mais informações, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * Ao criar relatórios de projeto ou modelo. Para obter informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * Ao criar ou personalizar uma visualização de projeto ou modelo para uma lista. Para obter mais informações, consulte [Visão geral na Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * Você pode adicionar ou remover Gerentes de recursos rapidamente em vários projetos ou modelos, adicionando o campo Gerenciador de recursos a uma exibição de uma lista ou um projeto e editando esse campo usando a edição em linha.
 
@@ -148,7 +148,7 @@ Os usuários adicionados como Gerentes de recursos a um projeto ou modelo obtêm
 
 1. Siga um destes procedimentos:
 
-   * Para adicionar Gerentes de recursos a um único projeto, vá para o projeto em que deseja designar um ou mais gerentes de recursos e clique no link **Menu Mais** ao lado do nome do projeto, em seguida **Editar .**
+   * Para adicionar Gerentes de Recursos a um único projeto, vá para o projeto em que deseja designar um ou mais gerentes de recursos e clique no menu **Mais** ao lado do nome do projeto e em **Editar.**
 
    * Para adicionar Gerenciadores de recursos a vários projetos simultaneamente, navegue até uma lista de projetos, selecione os projetos para os quais deseja designar um ou mais gerenciadores de recursos e clique em **Editar**.
 
@@ -158,7 +158,7 @@ Os usuários adicionados como Gerentes de recursos a um projeto ou modelo obtêm
 
      Para obter informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. No **Visão geral** na caixa de diálogo Editar projeto, clique na guia **Gerenciador de recursos** campo.
+1. Na seção **Visão geral** da caixa de diálogo Editar projeto, clique no campo **Gerenciador de Recursos**.
 1. Comece digitando o nome do usuário que deseja adicionar como gerenciador de recursos para o projeto e clique no nome quando ele aparecer na lista.
 
    Repita esta etapa para adicionar vários gerenciadores de recursos ao projeto.
@@ -167,21 +167,21 @@ Os usuários adicionados como Gerentes de recursos a um projeto ou modelo obtêm
 
 ## Designar Gerentes de Recursos para um modelo
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
 1. Clique em **Modelos**.
 
 1. Siga um destes procedimentos:
 
-   * Para adicionar Gerenciadores de recursos a um único modelo, vá para o modelo em que deseja designar um ou mais gerenciadores de recursos e clique no link **Menu Mais** ao lado do nome do modelo, em seguida **Editar .**
+   * Para adicionar Gerentes de Recursos a um único modelo, vá para o modelo em que deseja designar um ou mais gerentes de recursos, em seguida, clique no menu **Mais** ao lado do nome do modelo e **Editar.**
 
-   * Para adicionar Gerenciadores de recursos a vários modelos simultaneamente, vá para uma lista de modelos e selecione os modelos para os quais deseja designar um ou mais Gerenciadores de recursos e clique em **Editar**.
+   * Para adicionar Gerenciadores de Recursos a vários modelos simultaneamente, vá para uma lista de modelos e selecione os modelos para os quais deseja designar um ou mais Gerenciadores de Recursos e clique em **Editar**.
 
      Os gerentes de recursos existentes não são removidos dos modelos que você está editando; todos os usuários adicionados dessa forma são adicionados como gerentes de recursos no modelo além de quaisquer gerentes de recursos existentes.
 
-   * Para adicionar Gerentes de recursos a um novo modelo, clique em **Novo modelo** e, em seguida, clique na guia **Menu Mais** ao lado do nome do modelo, em seguida **Editar .**
+   * Para adicionar Gerentes de Recursos a um novo modelo, clique em **Novo Modelo**, depois no menu **Mais** ao lado do nome do modelo e, em seguida, em **Editar.**
 
-1. No **Visão geral** clique no link **Gerenciador de recursos** campo.
+1. Na seção **Visão geral**, clique no campo **Gerenciador de Recursos**.
 1. Comece digitando o nome do usuário que deseja adicionar como gerenciador de recursos para o modelo e clique no nome quando ele aparecer na lista.
 
    Repita esta etapa para adicionar vários gerenciadores de recursos ao modelo.

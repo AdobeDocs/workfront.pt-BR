@@ -27,13 +27,13 @@ Este artigo contém informações sobre o beta privado atual, que se limita a cl
 
 Estamos nos estágios finais de resolução de um problema de qualidade de dados que observamos no início da versão beta da Tela de relatório. Em breve, retomaremos o trabalho para fornecer novas visualizações, expandir a seleção de objetos reportáveis do Workfront e melhorar as experiências de criação e distribuição de relatórios, que são fundamentais para a realização de nossas metas da Tela de relatórios.
 
-Forneceremos essas novas experiências de forma incremental, começando com a versão 23.2, por meio da nova página Painéis da tela, que agora está disponível em seu ambiente de Pré-visualização. Os Painéis do Canvas permitem exibir relatórios existentes junto com os novos recursos de relatórios que estamos criando, e servirão como nosso ambiente principal para implantar e testar novos recursos do Canvas de relatórios. Para obter mais informações sobre como ativar e usar Painéis do Canvas, consulte [Visão geral dos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Forneceremos essas novas experiências de forma incremental, começando com a versão 23.2, por meio da nova página Painéis da tela, que agora está disponível em seu ambiente de Pré-visualização. Os Painéis do Canvas permitem exibir relatórios existentes junto com os novos recursos de relatórios que estamos criando, e servirão como nosso ambiente principal para implantar e testar novos recursos do Canvas de relatórios. Para obter mais informações sobre como habilitar e usar Painéis do Canvas, consulte [Visão geral dos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Participe da versão beta
 
 >[!IMPORTANT]
 >
->As informações beta abaixo são para administradores que já foram incluídos na versão beta da Tela de relatório, que não está mais aceitando novos participantes. Se você quiser testar novos recursos da Tela de relatório à medida que forem adicionados, consulte **Plano de desenvolvimento** acima para obter informações sobre como ativar o Canvas Dashboards.
+>As informações beta abaixo são para administradores que já foram incluídos na versão beta da Tela de relatório, que não está mais aceitando novos participantes. Se você quiser testar novos recursos da Tela de relatório à medida que forem adicionados, consulte **Plano de desenvolvimento** acima para obter informações sobre como ativar Painéis da Tela.
 
 ### Disponibilidade
 
@@ -43,7 +43,7 @@ A versão beta da Tela de relatório está disponível para todas as organizaç�
 
 A versão beta da Tela de relatório é totalmente opcional, mas só pode ser aceita por um administrador do Workfront. Para aceitar o como Administrador do sistema:
 
-1. Selecione o **Relatórios (beta)** no menu Principal da sua instância do Workfront.
+1. Selecione o ícone **Relatórios (beta)** no menu Principal da sua instância do Workfront.
 1. Clique em **Aceitar** para aceitar os termos e condições.
 1. Permitir que os dados de sua organização sejam adicionados à Tela de relatório (isso pode levar algumas horas).
 1. Comece a usar a Tela de relatório.
@@ -52,26 +52,26 @@ Depois que os dados da sua organização forem adicionados à Tela de relatório
 
 Para aceitar outros usuários que não sejam administradores do Workfront:
 
-1. Selecione o **Relatórios (beta)** no menu Principal da sua instância do Workfront.
-1. Clique em **Permissões da Tela de relatório**.
+1. Selecione o ícone **Relatórios (beta)** no menu Principal da sua instância do Workfront.
+1. Clique em **Permissões da tela de relatório**.
 1. Procure e selecione os usuários específicos dos quais deseja participar.
 
    >[!IMPORTANT]
    >
-   >Os usuários aos quais você conceder acesso à Tela de relatório terão acesso **all** dados no sistema na capacidade de somente leitura, independentemente das permissões padrão para visualizar esses dados.
+   >Os usuários aos quais você conceder acesso à Tela de relatório terão acesso a **todos** dados no sistema em uma capacidade somente leitura, independentemente de suas permissões padrão para visualizar esses dados.
 
 1. Clique em **Salvar**.
-1. Adicione o **Relatórios (beta)** no modelo de layout principal de cada usuário selecionado. Para obter mais informações, consulte [Personalizar o menu principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-1. Cada usuário deve então navegar individualmente para o **Relatórios (beta)** no menu principal e aceite os termos e condições.
+1. Adicione o ícone **Relatórios (beta)** ao modelo de layout principal de cada usuário selecionado. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Cada usuário deve navegar individualmente para o ícone **Relatórios (beta)** em seu menu principal e aceitar os termos e condições.
 
 ### Enviar feedback
 
 Para enviar feedback sobre o beta:
 
-1. Na Tela de relatório no Workfront, clique na guia **Enviar feedback** botão.
+1. Na Tela de relatório no Workfront, clique no botão **Enviar feedback**.
 1. Preencha o formulário e clique em **Enviar**.
 
-## Perguntas frequentes sobre Beta
+## Perguntas frequentes sobre o Beta
 
 +++Posso migrar meus relatórios herdados para a Tela de relatórios?
 
@@ -86,7 +86,7 @@ Nossa estratégia atual de migração na versão oficial é permitir que você f
    1. Permitem exportar um CSV de todos os relatórios e painéis do sistema juntamente com quaisquer informações de rastreamento relevantes (número de visualizações, quando e por quem).
    1. Forneça uma exportação de relatórios configurados com entregas programadas junto com os recipients.
 
-1. Selecione os relatórios e painéis de controle que você deseja migrar e clique em **Migrar**
+1. Selecione os relatórios e painéis que você deseja migrar e clique em **Migrar**
 
    Esta é uma migração de mão única. Ele cria uma cópia dos relatórios e painéis selecionados para a Tela de relatório, deixando o relatório ou painel herdado intacto na ferramenta de relatório atual.
 

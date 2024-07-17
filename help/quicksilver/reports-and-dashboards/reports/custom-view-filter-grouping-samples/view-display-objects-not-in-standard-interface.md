@@ -19,14 +19,14 @@ ht-degree: 0%
 Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto.\
 Você pode determinar quais campos podem ser incluídos em uma view de uma das seguintes maneiras:
 
-* Use o [API Explorer](../../../wf-api/general/api-explorer.md) para descobrir outros objetos que podem ser referenciados no modo texto.\
+* Use o [API Explorer](../../../wf-api/general/api-explorer.md) para descobrir outros objetos que podem ser referenciados pelo modo de texto.\
   Nem todos os campos documentados no API Explorer são campos válidos para o modo de texto. Alguns campos só podem ser relatados por meio da API.
 
 * Localize o campo ID do objeto em uma coluna. A maioria dos objetos que têm uma ID de campo também tem uma coluna ou nome de campo correspondente que pode não ser acessível por meio da interface de modo padrão.
 
-  Você pode usar o modo de texto para incluir em uma visualização o nome da coluna ou do campo, em vez da ID, substituindo a variável `fieldnameID` com o `fieldname:name`.
+  Você pode usar o modo de texto para incluir em uma exibição o nome da coluna ou do campo, em vez da ID, substituindo o `fieldnameID` pelo `fieldname:name`.
 
-  Por exemplo, na interface de modo padrão, a variável **ID do proprietário do Portfolio** O campo está disponível para uma exibição de projeto, mas a variável **Nome do proprietário do Portfolio** O campo não é. Você pode usar o modo texto para exibir a variável **Nome do proprietário do Portfolio** na coluna de uma exibição.
+  Por exemplo, na interface de modo padrão, o campo **ID do Proprietário do Portfolio** está disponível para uma exibição de projeto, mas o campo **Nome do Proprietário do Portfolio** não está. Você pode usar o modo texto para exibir o **Nome do Proprietário do Portfolio** na coluna de uma exibição.
 
 ## Requisitos de acesso
 
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -53,23 +53,23 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exemplo: adicionar a coluna Nome do proprietário do Portfolio a uma visualização do projeto
 
 1. Ir para uma lista de projetos.
-1. No **Exibir** clique em **Nova visualização**.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
 
-1. Clique em **Adicionar coluna** em seguida, comece digitando &quot;ID do proprietário do Portfolio&quot; no **Mostrar nesta coluna** e selecione-o quando ele for exibido na lista.
+1. Clique em **Adicionar coluna** e comece a digitar &quot;ID de proprietário do Portfolio&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-a quando ela for exibida na lista.
 
-1. Clique em **Alternar para modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
-1. Substitua o `valuefield` linha (`valuefield=portfolio:ownerID`) pela seguinte linha:
+1. Clique em **Alternar para Modo de Texto**.
+1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
+1. Substitua a linha `valuefield` (`valuefield=portfolio:ownerID`) pela seguinte linha:
 
    ```
    valuefield=portfolio:owner:name
@@ -77,7 +77,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    Ou
 
-   Remova o texto localizado na **Modo de texto** e substitua-o pelo seguinte código:
+   Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    valuefield=portfolio:owner:name
@@ -87,10 +87,10 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    linkedname=portfolio
    ```
 
-   Neste exemplo específico, o relatório classificará pelo ID de proprietário do Portfolio, conforme indicado pelo `querysort` linha.
+   Neste exemplo específico, o relatório classificará pelo ID de proprietário do Portfolio, conforme indicado pela linha `querysort`.
 
    >[!TIP]
    >
-   >Para substituir qualquer campo `ID` com o campo `name` usando o modo texto, sempre substituir `ID` com `:name` no `valuefield` linha.
+   >Para substituir qualquer campo `ID` pelo campo `name` usando o modo texto, sempre substitua `ID` por `:name` na linha `valuefield`.
 
-1. Clique em **Salvar**, depois **Salvar visualização**.
+1. Clique em **Salvar** e depois em **Salvar exibição**.

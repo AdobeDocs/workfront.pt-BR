@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as outras melhorias feitas com a versão 20.3 para o ambiente de Produção. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 10 de agosto de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte [Visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte a [visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Compartilhar um calendário com um link privado
 
@@ -32,7 +32,7 @@ Para obter mais informações, consulte [Compartilhar um relatório de calendár
 
 Para oferecer mais flexibilidade ao trabalhar com solicitações, o Workfront salva automaticamente cada solicitação criada como rascunho na nova área Rascunhos. Se você não tiver todas as informações necessárias para concluir a nova solicitação, poderá deixá-la como rascunho, voltar para ela e concluí-la posteriormente. O Workfront salva uma solicitação por tópico da fila na nova área Rascunhos. Os rascunhos de solicitações podem ser salvos pelo tempo necessário até que você esteja pronto para concluí-los e submetê-los. Também é possível remover ou reposicionar a área Rascunhos no painel esquerdo usando um Modelo de layout.
 
-Para obter mais informações sobre criação de solicitações, consulte [Criar e enviar solicitações do Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obter mais informações sobre como criar solicitações, consulte [Criar e enviar solicitações do Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Para ajudá-lo a gerenciar facilmente folhas de horas com vários itens, agora v
 
 Anteriormente, você tinha que clicar em cada item individualmente.
 
-Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obter mais informações, consulte [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Ignorar Datas Reais nos Calendários do Workfront
 
@@ -60,7 +60,7 @@ Para ter mais controle sobre como os objetos são exibidos nos Relatórios de ca
 
 Anteriormente, o calendário usaria automaticamente as Datas efetivas quando estivessem disponíveis.
 
-Para obter mais informações, consulte [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Para obter mais informações, consulte [Visão geral dos relatórios do calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ## Usar campos de data personalizados em relatórios de calendário
 
@@ -76,13 +76,13 @@ Para obter mais informações, consulte [Usar campos de data personalizados em u
 
 ## Alterações no email
 
-**Alterações no email de saída:** Todos os emails do Workfront serão provenientes de notifications@my.workfront.com. Isso inclui alertas automatizados e comunicação entre usuários.
+**Alterações nos emails de saída:** Todos os emails do Workfront serão provenientes de notifications@my.workfront.com. Isso inclui alertas automatizados e comunicação entre usuários.
 
 Anteriormente, os administradores do sistema podiam adicionar um endereço de email personalizado na área Configuração de email.
 
-**Alterações na resposta POP do email de entrada:** Os administradores do sistema não poderão mais configurar um servidor de email POP personalizado para respostas de email de entrada a notificações.
+**Alterações de resposta POP de email de entrada:** Os administradores do sistema não poderão mais configurar um servidor de email POP personalizado para respostas de email de entrada a notificações.
 
-Para obter mais informações, consulte [Falsificação de email e alterações de email de resposta POP](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Para obter mais informações, consulte [Alterações de email de resposta POP e falsificação de email](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
 
 ## O DomainKeys Identified Mail (DKIM) agora é incluído nos emails de saída do Workfront
 
@@ -107,7 +107,7 @@ Agora também há um link Detalhes do usuário que exibe as seguintes informaç�
 
 Agora é possível usar um Modelo de layout para alterar os logotipos na área de navegação superior e no Menu principal para grupos, equipes, funções de trabalho e usuários específicos que têm sua própria marca.
 
-Para obter mais informações, consulte [Marque sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Para obter mais informações, consulte [Marcar sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Os administradores de grupo podem criar e gerenciar processos de aprovação
 
@@ -152,22 +152,22 @@ A barra lateral esquerda em Configuração agora é mais rápida e fácil de usa
 * Enquanto a barra lateral estiver recolhida, você verá apenas os ícones de cada recurso. Para ver os subitens sob um item da barra lateral principal, passe o mouse sobre o ícone para exibi-los em um menu suspenso. Por exemplo, passe o mouse sobre o ícone Processos para exibir um menu contendo Aprovações e Caminhos de Etapas.
 * Você pode acessar as duas opções de Kick-Starts (Importar dados e Exportar dados) com um clique mais rápido. Eles foram movidos do sistema para exibir no nível principal da barra lateral.
 
-Para obter informações sobre como usar a área Configuração, consulte [Administração e configuração](../../../administration-and-setup/administration-and-setup.md).
+Para obter informações sobre como usar a área Instalação, consulte [Administração e configuração](../../../administration-and-setup/administration-and-setup.md).
 
 ## Incluir número de cluster na área Informações do Cliente
 
 Como administrador do Workfront, agora é possível encontrar facilmente o número do cluster dentro do Workfront, sem precisar gastar tempo e esforço adicionais para obtê-lo da nossa equipe de suporte. Adicionamos um campo Configuração do cluster na área Informações do cliente da Configuração.
 
-Para obter informações sobre a área Informações do cliente, consulte [Configurar informações básicas do seu sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+Para obter informações sobre a área Informações do cliente, consulte [Configurar informações básicas do sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ## Codificação Base64 para Assinaturas de Evento
 
 O campo base64Encoding é um campo opcional usado para habilitar a codificação Base64 de cargas de assinatura de evento. Se uma solicitação for feita usando o campo base64Encoding definido como true, os objetos newState e oldState na carga serão entregues como strings de codificação Base64. Esse recurso pode ser útil se sua rede estiver configurada de forma a não permitir caracteres especiais em Assinaturas de eventos.
 
-Para obter mais informações, consulte [API de assinatura de evento](../../../wf-api/general/event-subs-api.md).
+Para obter mais informações, consulte [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md).
 
 ## Remoção da capacidade de criar Assinaturas de Eventos duplicadas
 
 Para impedir a entrega de mensagens duplicadas, não é mais possível criar assinaturas duplicadas. Além disso, as assinaturas duplicadas criadas anteriormente foram removidas.
 
-Para obter mais informações, consulte [Perguntas frequentes - Assinaturas de eventos](../../../wf-api/general/event-subs-faq.md).
+Para obter mais informações, consulte [Perguntas frequentes - Assinaturas de Eventos](../../../wf-api/general/event-subs-faq.md).

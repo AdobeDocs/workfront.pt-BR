@@ -66,12 +66,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões para uma exibição</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões para uma exibição</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 +++
 
@@ -89,13 +89,13 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
    Ou
 
-   Clique em **Novo Relatório**, em seguida, selecione um tipo de objeto para criar um novo relatório.
+   Clique em **Novo Relatório** e selecione um tipo de objeto para criar um novo relatório.
 
-1. (Condicional) Se você editar um relatório existente, clique em **Ações de Relatório** e, em seguida, clique em **Editar**.
+1. (Condicional) Se você editar um relatório existente, clique em **Ações de Relatório** e em **Editar**.
 
-1. No **Colunas (Exibir)** clique para selecionar uma coluna existente ou clique em **Adicionar coluna** para criar uma coluna.
-1. No **Mostrar nesta coluna** no canto superior esquerdo do report builder, selecione o campo que deseja exibir na nova coluna.
-1. Clique em **Opções avançadas**.
+1. Na guia **Colunas (Exibição)**, clique para selecionar uma coluna existente ou clique em **Adicionar Coluna** para criar uma coluna.
+1. No campo **Mostrar nesta coluna**, no canto superior esquerdo do Report Builder, selecione o campo que deseja exibir na nova coluna.
+1. Clique em **Opções Avançadas**.
 
 1. Especifique as seguintes informações:
 
@@ -126,10 +126,10 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
    </note>
    -->
 
-1. No **Quando a:** defina uma declaração de condição para a coluna.
+1. Na seção **When the:**, defina uma instrução de condição para a coluna.
 
    Por exemplo: &quot;quando o Percentual concluído da tarefa for igual a (diferencia maiúsculas de minúsculas) 50&quot;.
-1. No **Mostrar o campo desta forma:** especifique a aparência desse campo quando a condição definida acima for atendida.
+1. Na seção **Mostrar o campo desta forma:**, especifique como será o campo quando a condição definida acima for atendida.
 
    Especifique as seguintes informações:
 
@@ -159,7 +159,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar texto</strong></td> 
-      <td> <p>Selecione essa opção para exibir um rótulo personalizado para essa coluna, em vez do valor real. Especifique o texto a ser exibido em vez do valor no campo fornecido.</p> <p><b>IMPORTANTE</b></p> <p>Selecionar <strong>Mostrar texto</strong> desativa a capacidade de editar o texto em linha nesta coluna.<br>Além disso, não é possível alterar o valor de uma coluna Predecessora porque ela contém lógica interna.</p> </td> 
+      <td> <p>Selecione essa opção para exibir um rótulo personalizado para essa coluna, em vez do valor real. Especifique o texto a ser exibido em vez do valor no campo fornecido.</p> <p><b>IMPORTANTE</b></p> <p>Selecionar <strong>Mostrar Texto</strong> desabilita a capacidade de editar o texto em linha nesta coluna.<br>Além disso, não é possível alterar o valor de uma coluna Predecessora porque ela contém lógica interna.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aplicar a toda a linha</strong></td> 

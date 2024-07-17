@@ -19,7 +19,7 @@ O relatório de Lançamento documentado revela atualizações de sistema da áre
 >[!TIP]
 >
 >O relatório de Lançamento contém somente atualizações de sistema da área Atualizações de objetos. Para relatar comentários deixados na área Atualizações, é necessário usar o relatório de Notas.\
->Para obter mais informações sobre o relatório Nota, consulte [Exibir todas as atualizações em um relatório de Nota](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)‍
+>Para obter mais informações sobre o relatório de Anotações, consulte [Exibir todas as atualizações em um relatório de Anotações](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).‍
 
 O relatório de Lançamento pode mostrar:
 
@@ -70,15 +70,15 @@ Antes de executar as ações descritas neste artigo, verifique o seguinte:
 
   Para saber como adicionar campos que você deseja que o Workfront rastreie, consulte [Configurar atualizações do sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-* Todos os campos personalizados sobre os quais você deseja criar relatórios têm a configuração **Exibir alterações de campo nos campos de atualização** ativado.
+* Qualquer campo personalizado sobre o qual você deseja criar relatórios tem a configuração **Exibir alterações de campo nos feeds de atualização** habilitada.
 
-  Para saber como habilitar essa configuração para um campo personalizado, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
+  Para saber como habilitar esta configuração para um campo personalizado, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Visão geral do relatório de Lançamento
 
 Como o relatório de Lançamento consulta atualizações do sistema, ele pode retornar um número significativo de resultados. Por esse motivo, recomendamos que você filtre por objetos específicos (como projetos, programas, portfólios, grupos e assim por diante) ao criar o relatório.
 
-Para saber mais sobre os diferentes tipos de objetos no Workfront, consulte [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para saber mais sobre os diferentes tipos de objetos no Workfront, consulte [Entender os objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
@@ -97,11 +97,11 @@ A exibição padrão desse relatório contém as seguintes colunas:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Nome do campo</strong> </td> 
-   <td> <p><span style="font-weight: normal;">O nome do campo afetado. Dependendo de como você configura o relatório, essa coluna pode conter Status, ID do Proprietário, Nome da Tarefa, Data de Conclusão Planejada ou outros campos.</span> </p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> é exibido nessa coluna, indica que o campo listado é um campo personalizado.</span></p> </td> 
+   <td><strong>Nome do Campo</strong> </td> 
+   <td> <p><span style="font-weight: normal;">O nome do campo afetado. Dependendo de como você configura o relatório, esta coluna pode conter Status, ID do Proprietário, Nome da Tarefa, Data de Conclusão Planejada ou outros campos.</span> </p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> é exibido nesta coluna, indica que o campo listado é um campo personalizado.</span></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Alterar tipo</strong> </td> 
+   <td><strong>Tipo de alteração</strong> </td> 
    <td> <p>O tipo de alteração feita no campo afetado. Dependendo das regras de filtro configuradas e das ações executadas pelos usuários, o seguinte poderá aparecer neste campo:</p> 
     <ul> 
      <li> <p>Adicionar</p> </li> 
@@ -125,7 +125,7 @@ A exibição padrão desse relatório contém as seguintes colunas:
    <td> <p>A data em que o campo foi alterado.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Editado por nome</strong> </td> 
+   <td><strong>Editado por Nome</strong> </td> 
    <td> <p>O usuário que alterou o campo.</p> </td> 
   </tr> 
  </tbody> 
@@ -142,10 +142,10 @@ Para saber como configurar as exibições, os filtros e os agrupamentos desejado
 </div>
 -->
 
-* [Ver quais alterações de status ocorreram](#see-what-status-changes-occurred)
+* [Veja quais alterações de status ocorreram](#see-what-status-changes-occurred)
 * [Veja quando uma tarefa ou problema foi excluído](#see-when-a-task-or-issue-was-deleted)
 * [Veja como os campos personalizados foram alterados durante o ciclo de vida de um projeto](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
-* [Veja como a Data de conclusão planejada mudou ao longo do ciclo de vida de um projeto](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
+* [Veja como a Data de Conclusão Planejada mudou durante o ciclo de vida de um projeto](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
 * [Veja se o proprietário de um projeto mudou](#see-if-the-owner-of-a-project-changed)
 
 ## Ver quais alterações de status ocorreram {#see-what-status-changes-occurred}
@@ -158,7 +158,7 @@ Você pode configurar o relatório de Lançamento para mostrar:
 * Quem alterou o status
 * Quando ocorreu a alteração de status
 
-Se quiser ver o estado de um projeto, você também pode configurar o relatório para mostrar essas mesmas informações usando o projeto **Condição** campo.
+Se quiser ver a integridade de um projeto, você também pode configurar o relatório para mostrar essas mesmas informações usando o campo **Condição** do projeto.
 
 Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desempenho do planejamento de você e de sua organização.
 
@@ -169,16 +169,16 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
 >[!TIP]
 >
 >Se você deseja comparar a diferença em dias entre as alterações de condição, é possível usar a Análise aprimorada.\
->Para saber mais sobre a Análise aprimorada, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Para saber mais sobre a Análise aprimorada, consulte [Visão geral da Análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
-1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
+1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
-1. No **Colunas (Exibir)** adicione as seguintes colunas:
+1. Na guia **Colunas (Modo de Exibição)**, adicione as seguintes colunas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -192,11 +192,11 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome do Campo</p> </td> 
-      <td> <p>O nome do campo afetado. Nesse caso, <strong>status</strong> deve ser exibido nesta coluna.</p> </td> 
+      <td> <p>O nome do campo afetado. Nesse caso, o <strong>status</strong> deve ser exibido nesta coluna.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Trocar Tipo</p> </td> 
-      <td> <p>O tipo de alteração feita no campo afetado, como <strong>Adicionar</strong>, <strong>Excluir</strong>ou <strong>Editar</strong>.</p> </td> 
+      <td> <p>O tipo de alteração feita no campo afetado, como <strong>Adicionar</strong>, <strong>Excluir</strong> ou <strong>Editar</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Editado por nome</p> </td> 
@@ -210,15 +210,15 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
       <td> <p style="font-weight: bold;">Valor Velho de Texto</p> </td> 
       <td> <p>A chave para o status anterior. A seguir estão as chaves de status para os status padrão do projeto:</p> 
        <ul> 
-        <li> <p> <strong>CUR</strong>: Atual</p> </li> 
-        <li> <p><strong>DED</strong>: Inativo</p> </li> 
+        <li> <p> <strong>CUR</strong>: atual</p> </li> 
+        <li> <p><strong>DED</strong>: inativo</p> </li> 
         <li> <p><strong>ONH</strong>: Em espera</p> </li> 
         <li> <p><strong>PLN</strong>: Planejamento</p> </li> 
         <li> <p><strong>CPL</strong>: Concluído</p> </li> 
         <li> <p><strong>REQ</strong>: Solicitado</p> </li> 
-        <li> <p><strong>ABR</strong>: Aprovado</p> </li> 
-        <li> <p><strong>REJ</strong>: rejeitada</p> </li> 
-        <li> <p><strong>IDA</strong>: Ideia</p> </li> 
+        <li> <p><strong>ABR</strong>: aprovado</p> </li> 
+        <li> <p><strong>REJ</strong>: rejeitado</p> </li> 
+        <li> <p><strong>IDA</strong>: ideia</p> </li> 
        </ul> <p>Se sua organização tiver configurado status personalizados, outras chaves de status poderão ser exibidas nessa coluna. Para saber qual status personalizado está relacionado a uma chave de status, entre em contato com o administrador do Workfront ou com o administrador de grupo.</p> </td> 
      </tr> 
      <tr> 
@@ -234,11 +234,11 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
       <td> <p>O tipo de objeto que teve a alteração de status.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nome do problema<br>(Opcional)</p> </td> 
+      <td> <p style="font-weight: bold;">Nome do Problema<br>(Opcional)</p> </td> 
       <td> <p>O nome da ocorrência que teve uma alteração de status.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nome da tarefa<br>(Opcional)</p> </td> 
+      <td> <p style="font-weight: bold;">Nome da Tarefa<br>(Opcional)</p> </td> 
       <td> <p>O nome da tarefa que teve uma alteração de status.</p> </td> 
      </tr> 
     </tbody> 
@@ -246,13 +246,13 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione a regra de filtro **Nome do campo** > **Igual** > **status**.
+1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione a regra de filtro **Nome do Campo** > **Igual** > **status**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
-   >Para relatar alterações de condição, é possível adicionar a regra de filtro **Nome do campo** > **Igual** > **Condição**.
+   >Para relatar alterações de condição, você pode adicionar a regra de filtro **Nome do Campo** > **Igual** > **Condição**.
 
    Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -264,13 +264,13 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
 
    >[!IMPORTANT]
    >
-   >Criação de uma regra de filtro que usa o modificador **Contém** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Igual** quando possível, filtrar por um projeto específico ou uma ID de objeto de nível superior.
+   >Criar uma regra de filtro que use o modificador **Contains** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Equal** quando possível para filtrar por um projeto específico ou ID de objeto de nível superior.
 
    Para saber como adicionar um prompt, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. No **Agrupamentos** clique em **Aplicar um agrupamento existente** e selecione **Projeto**.
+1. Na guia **Agrupamentos**, clique em **Aplicar um Agrupamento Existente** e selecione **Projeto**.
 
-   Para obter mais informações sobre a adição de agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 
@@ -285,14 +285,14 @@ Você pode configurar o relatório de Lançamento para mostrar:
 
 Para ver quando uma tarefa ou problema foi excluído:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
-1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
+1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
-1. No **Colunas (Exibir)** adicione as seguintes colunas:
+1. Na guia **Colunas (Modo de Exibição)**, adicione as seguintes colunas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -310,7 +310,7 @@ Para ver quando uma tarefa ou problema foi excluído:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Trocar Tipo</p> </td> 
-      <td> <p>O tipo de mudança que ocorreu. A variável <strong>Excluir</strong> a alteração é exibida nesta coluna.</p> </td> 
+      <td> <p>O tipo de mudança que ocorreu. A alteração <strong>Excluir</strong> é exibida nesta coluna.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Data de Entrada</p> </td> 
@@ -329,10 +329,10 @@ Para ver quando uma tarefa ou problema foi excluído:
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione os seguintes filtros:
+1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione os seguintes filtros:
 
-   * **Alterar tipo** > **Igual** > **Excluir**
-   * **ID do projeto** > **Igual** > **`<project>`**
+   * **Tipo de Alteração** > **Igual** > **Excluir**
+   * **ID do Projeto** > **Igual** > **`<project>`**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -347,13 +347,13 @@ Para ver quando uma tarefa ou problema foi excluído:
 
    >[!IMPORTANT]
    >
-   >Criação de uma regra de filtro que usa o modificador **Contém** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Igual** quando possível, filtrar por um projeto específico ou uma ID de objeto de nível superior.
+   >Criar uma regra de filtro que use o modificador **Contains** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Equal** quando possível para filtrar por um projeto específico ou ID de objeto de nível superior.
 
    Para saber como adicionar um prompt, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Opcional) Na **Agrupamentos** clique em **Aplicar um agrupamento existente** e selecione **Projeto**.
+1. (Opcional) Na guia **Agrupamentos**, clique em **Aplicar um Agrupamento Existente** e selecione **Projeto**.
 
-   Para obter mais informações sobre a adição de agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 
@@ -369,14 +369,14 @@ Para ver quando uma tarefa ou problema foi excluído:
 
 Para ver como os campos personalizados foram alterados durante o ciclo de vida de um projeto:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
-1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
+1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
-1. No **Colunas (Exibir)** adicione as seguintes colunas:
+1. Na guia **Colunas (Modo de Exibição)**, adicione as seguintes colunas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -390,11 +390,11 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome do Campo</p> </td> 
-      <td> <p>O nome do campo personalizado afetado.</p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> é exibido nessa coluna, indica que o campo listado é um campo personalizado.</span></p> </td> 
+      <td> <p>O nome do campo personalizado afetado.</p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> é exibido nesta coluna, indica que o campo listado é um campo personalizado.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Trocar Tipo</p> </td> 
-      <td> <p>O tipo de alteração feita no campo afetado, como <strong>Adicionar</strong>, <strong>Excluir</strong>ou <strong>Editar</strong>.</p> </td> 
+      <td> <p>O tipo de alteração feita no campo afetado, como <strong>Adicionar</strong>, <strong>Excluir</strong> ou <strong>Editar</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Editado por nome</p> </td> 
@@ -426,22 +426,22 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Novo Valor de Texto</p> </td> 
-      <td> <p>O valor do texto atual no campo personalizado.</p> <p>Se o campo personalizado for um campo de digitação antecipada, a variável <strong>Novo Valor de Texto</strong> exibe a ID do objeto.</p> </td> 
+      <td> <p>O valor do texto atual no campo personalizado.</p> <p>Se o campo personalizado for um campo de digitação antecipada, a coluna <strong>Novo valor de texto</strong> exibirá a ID do objeto.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione os seguintes filtros:
+1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione os seguintes filtros:
 
    * **Nome do Campo de Entrada do Diário** > **Contém** > **DE**
 
      >[!TIP]
      >
-     >Para limitar esse relatório a campos personalizados específicos, adicione a regra de filtro **Nome do Campo de Entrada do Diário** > **Igual** > **`<custom field>`**.
+     >Para limitar este relatório a campos personalizados específicos, adicione a regra de filtro **Nome do Campo de Entrada do Diário** > **Igual** > **`<custom field>`**.
 
-   * **ID do projeto** > **Igual** > **`<project>`**
+   * **ID do Projeto** > **Igual** > **`<project>`**
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -455,13 +455,13 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 
    >[!IMPORTANT]
    >
-   >Criação de uma regra de filtro que usa o modificador **Contém** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Igual** quando possível, filtrar por um projeto específico ou uma ID de objeto de nível superior.
+   >Criar uma regra de filtro que use o modificador **Contains** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Equal** quando possível para filtrar por um projeto específico ou ID de objeto de nível superior.
 
    Para saber como adicionar um prompt, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. No **Agrupamentos** clique em **Aplicar um agrupamento existente** e selecione **Projeto**.
+1. Na guia **Agrupamentos**, clique em **Aplicar um Agrupamento Existente** e selecione **Projeto**.
 
-   Para obter mais informações sobre a adição de agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 
@@ -471,14 +471,14 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 
 Você pode configurar o relatório Lançamento para mostrar a frequência com que a Data de Conclusão Planejada muda ao longo da vida útil de um projeto.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
-1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
+1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
-1. No **Colunas (Exibir)** adicione as seguintes colunas:
+1. Na guia **Colunas (Modo de Exibição)**, adicione as seguintes colunas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -492,11 +492,11 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome do Campo</p> </td> 
-      <td> <p>O nome do campo afetado.</p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> é exibido nessa coluna, indica que o campo listado é um campo personalizado.</span></p> </td> 
+      <td> <p>O nome do campo afetado.</p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> é exibido nesta coluna, indica que o campo listado é um campo personalizado.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Trocar Tipo</p> </td> 
-      <td>O tipo de alteração que ocorreu, como <strong>Adicionar</strong>, <strong>Excluir</strong>ou <strong>Editar</strong>.</td> 
+      <td>O tipo de alteração que ocorreu, como <strong>Adicionar</strong>, <strong>Excluir</strong> ou <strong>Editar</strong>.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Editado por nome</p> </td> 
@@ -539,10 +539,10 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione o seguinte:
+1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione o seguinte:
 
-   * **Nome do campo** > **Igual** > **Data**
-   * **ID do projeto** > **Igual** > **`<project>`**
+   * **Nome do Campo** > **Igual** > **Data**
+   * **ID do Projeto** > **Igual** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -556,13 +556,13 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
 
    >[!IMPORTANT]
    >
-   >Criação de uma regra de filtro que usa o modificador **Contém** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Igual** quando possível, filtrar por um projeto específico ou uma ID de objeto de nível superior.
+   >Criar uma regra de filtro que use o modificador **Contains** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Equal** quando possível para filtrar por um projeto específico ou ID de objeto de nível superior.
 
    Para saber como adicionar um prompt, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. No **Agrupamentos** clique em **Aplicar um agrupamento existente** e selecione **Projeto**.
+1. Na guia **Agrupamentos**, clique em **Aplicar um Agrupamento Existente** e selecione **Projeto**.
 
-   Para obter mais informações sobre a adição de agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 
@@ -572,14 +572,14 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
 
 Você pode configurar o relatório Lançamento para mostrar quantas vezes o proprietário do projeto—ou gerente de projeto—muda ao longo da vida útil de um projeto.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
-1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
+1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
-1. No **Colunas (Exibir)** adicione as seguintes colunas:
+1. Na guia **Colunas (Modo de Exibição)**, adicione as seguintes colunas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -593,11 +593,11 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome do Campo</p> </td> 
-      <td>O nome do campo afetado. A variável <strong>ownerID</strong> é exibido nesta coluna.</td> 
+      <td>O nome do campo afetado. O <strong>ownerID</strong> é exibido nesta coluna.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Trocar Tipo</p> </td> 
-      <td> <p>O tipo de alteração que ocorreu, como <strong>Adicionar</strong>, <strong>Excluir</strong>ou <strong>Editar</strong>.</p> </td> 
+      <td> <p>O tipo de alteração que ocorreu, como <strong>Adicionar</strong>, <strong>Excluir</strong> ou <strong>Editar</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Código de Objeto Superior</p> </td> 
@@ -605,7 +605,7 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Data de Entrada</p> </td> 
-      <td>A data em que o proprietário do projeto foi alterado.<br>Você deve classificar por esse campo em ordem decrescente.</td> 
+      <td>A data em que o proprietário do projeto foi alterado.<br>Você deve classificar por este campo em ordem decrescente.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Editado por nome</p> </td> 
@@ -628,10 +628,10 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione o seguinte:
+1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione o seguinte:
 
-   * **Nome do campo** > **Igual** > **ownerID**
-   * **ID do projeto** > **Igual** > **`<project name>`**
+   * **Nome do Campo** > **Igual** > **IDdoProprietário**
+   * **ID do Projeto** > **Igual** > **`<project name>`**
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -645,13 +645,13 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
 
    >[!IMPORTANT]
    >
-   >Criação de uma regra de filtro que usa o modificador **Contém** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Igual** quando possível, filtrar por um projeto específico ou uma ID de objeto de nível superior.
+   >Criar uma regra de filtro que use o modificador **Contains** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Equal** quando possível para filtrar por um projeto específico ou ID de objeto de nível superior.
 
    Para saber como adicionar um prompt, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Opcional) Na **Agrupamentos** clique em **Aplicar um agrupamento existente** e selecione **Projeto**.
+1. (Opcional) Na guia **Agrupamentos**, clique em **Aplicar um Agrupamento Existente** e selecione **Projeto**.
 
-   Para obter mais informações sobre a adição de agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 

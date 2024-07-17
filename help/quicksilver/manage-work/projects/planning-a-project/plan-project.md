@@ -48,7 +48,7 @@ Depois de definir o escopo geral do projeto, você pode determinar se deseja rea
 
 ## Planejamento preliminar do projeto
 
-* [Definir a data de início e de conclusão do projeto](#define-the-start-and-completion-date-of-the-project)
+* [Definir as datas de início e de conclusão do projeto](#define-the-start-and-completion-date-of-the-project)
 * [Definir o Cronograma do projeto](#define-the-project-schedule)
 * [Gerenciar informações adicionais necessárias para o planejamento do projeto](#manage-additional-information-needed-for-planning-the-project)
 
@@ -72,7 +72,7 @@ Saber quando os usuários estão disponíveis para trabalhar é importante para 
 
 Você pode criar várias programações do projeto e aplicar uma programação padrão ao projeto. Agendamentos personalizados adicionais podem ser aplicados a indivíduos diferentes.
 
-Para obter mais informações sobre Cronogramas, consulte o artigo [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Para obter mais informações sobre Agendas, consulte o artigo [Criar uma agenda](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ### Gerenciar informações adicionais necessárias para o planejamento do projeto {#manage-additional-information-needed-for-planning-the-project}
 
@@ -88,7 +88,7 @@ Considere fazer as seguintes perguntas:
   Para obter mais informações sobre como criar formulários personalizados, consulte o artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * Há algum ponto de verificação de aprovação que deve ser concedido antes que o trabalho em um projeto possa continuar? Em caso afirmativo, crie Processos de aprovação para projetos ou tarefas que você pode usar ao criar seu projeto.\
-  Para obter mais informações sobre Processos de aprovação, consulte o artigo [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Para obter mais informações sobre Processos de Aprovação, consulte o artigo [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Criar a linha do tempo do projeto
 
@@ -108,13 +108,13 @@ Considere o seguinte ao criar a linha do tempo do projeto:
 
   Quando você usa tarefas pai para organizar objetivos, pode criar uma tarefa para cada objetivo principal e adicionar subtarefas quando chegar ao estágio de dividir objetivos principais em tarefas individuais. Isso mantém as tarefas que fazem parte do objetivo organizadas no projeto.
 
-  Para obter mais informações sobre predecessores de tarefas, consulte [Visão geral das predecessoras da tarefa](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Para obter mais informações sobre predecessores de tarefas, consulte [Visão geral dos predecessores de tarefas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Considere os objetivos mais importantes para o seu projeto e sinalize-os como tarefas de marco.
 
   Recomendamos usar tarefas pai como marcos.
 
-  Para obter mais informações sobre o uso de tarefas de etapa, consulte [Criar um caminho de etapas](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Para obter mais informações sobre como usar tarefas de marcos, consulte [Criar um caminho de marcos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Defina uma linha do tempo para cada objetivo. Se você trabalhar com tarefas pai, cada tarefa filho deverá ter uma Data de Início e Término definidas. O tempo entre a Data de Início mais antiga de uma tarefa e a Data de Conclusão mais recente de uma tarefa no mesmo projeto resulta na linha do tempo do projeto.
 
@@ -135,17 +135,17 @@ Ao definir tarefas, considere o seguinte:
 
 * Defina a linha do tempo de cada tarefa. Isso é capturado no campo Duration de cada tarefa.
 
-  Para obter informações sobre a Duração da tarefa, consulte o artigo [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Para obter informações sobre a Duração da tarefa, consulte o artigo [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Defina o relacionamento pai-filho entre as tarefas.
 * Defina o relacionamento predecessor entre as tarefas.
 * Associar um Caminho de Etapas ao projeto e associar uma Etapa à respectiva tarefa.
 
-  Para obter mais informações sobre o uso de tarefas de marcos, consulte o artigo [Criar um caminho de etapas](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Para obter mais informações sobre como usar tarefas de marcos, consulte o artigo [Criar um caminho de marcos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Defina a quantidade de trabalho necessário para concluir cada tarefa. Isso é capturado no campo Horas planejadas de cada tarefa.
 
-  Para obter mais informações sobre o Trabalho necessário, consulte o artigo [Visão geral das Horas planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
+  Para obter mais informações sobre o Trabalho necessário, consulte o artigo [visão geral sobre o Trabalho necessário](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Atribua cada tarefa a um usuário ou equipe responsável por concluí-la.
 * Verifique a disponibilidade dos usuários que você está atribuindo às tarefas. Verifique se eles estão livres para trabalhar e se não estão superalocados para que possam concluir as tarefas atribuídas. Se os usuários estiverem superalocados ou tiverem folga em seus cronogramas, considere um dos seguintes:
@@ -153,5 +153,5 @@ Ao definir tarefas, considere o seguinte:
    * Reduza as horas planejadas de cada tarefa.
    * Adicione mais usuários a uma tarefa para garantir que ela possa ser concluída durante o tempo alocado para ela.
    * Reatribua as tarefas a usuários que estão disponíveis sem outras restrições.\
-     Para obter mais informações sobre como planejar os recursos do projeto, consulte o artigo [Planejamento de recursos: índice do artigo](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Para obter mais informações sobre o planejamento de recursos do projeto, consulte o artigo [Planejamento de recursos: índice do artigo](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Para obter mais informações sobre como agendar seus recursos para realizar o trabalho em um projeto, consulte [Visão geral do Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

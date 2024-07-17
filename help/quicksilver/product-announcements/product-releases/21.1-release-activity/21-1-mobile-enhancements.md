@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias móveis que vêm com a versão 21.1. Essas melhorias serão disponibilizadas nas lojas móveis na semana de 15 de fevereiro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.1, consulte [Visão geral da versão 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.1, consulte a [visão geral da versão 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Novas navegações estruturais no aplicativo Adobe Workfront
 

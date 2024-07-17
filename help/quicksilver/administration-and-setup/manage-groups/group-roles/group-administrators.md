@@ -1,5 +1,5 @@
 ---
-title: Administradores de grupo
+title: Admins de grupo
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# Administradores de grupo
+# Admins de grupo
 
 <!-- Audited: 12/2023 -->
 
@@ -30,7 +30,7 @@ Até 14 níveis de subgrupos podem existir em um grupo.
 >
 >Todos os administradores de grupo na hierarquia acima de um subgrupo têm direitos administrativos para gerenciar esse subgrupo.
 
-Para obter informações sobre como criar e gerenciar grupos, consulte [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Gerenciar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md). Consulte também [Visão geral dos subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+Para obter informações sobre como criar e gerenciar grupos, consulte [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Gerenciar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md). Além disso, consulte [Visão geral dos subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Designar administradores de grupo
 
@@ -42,7 +42,7 @@ Se você for um administrador do Workfront, recomendamos fazer o seguinte antes 
 * Anote o número de grupos que você tem em seu sistema.
 * Determine se você pode alterar o nível de acesso de alguns dos administradores do Workfront e designá-los como administradores de grupo.
 
-  Para obter mais informações sobre os recursos de administradores de grupos, consulte [Tarefas feitas por administradores de grupo](#tasks-done-by-group-administrators) neste artigo.
+  Para obter mais informações sobre os recursos de administradores de grupo, consulte [Tarefas feitas por administradores de grupo](#tasks-done-by-group-administrators) neste artigo.
 
 * Determine se você deseja que os administradores de grupo façam logon como outros usuários ou redefinam senhas para os usuários nos grupos que você administra. É necessário acesso adicional para executar essas tarefas, conforme explicado abaixo em [Acesso necessário para administradores de grupo](#access-needed-for-group-administrators).
 * Para melhorar o gerenciamento de usuários, considere atribuir grupos ou subgrupos em vez de usuários aos seguintes objetos:
@@ -92,20 +92,20 @@ Como administrador de grupo, você pode realizar as tarefas descritas abaixo par
 
   Você também pode atualizar os campos no perfil de um membro do grupo se tiver a permissão Administrador de usuário (usuários do grupo) ativada em seu nível de acesso.
 
-  Para obter mais informações, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
   >[!NOTE]
   >
   >Os administradores do Workfront podem substituir alterações feitas em associações de grupo por um administrador de grupo.
 
-* Redefina senhas para os usuários que são membros dos grupos que você gerencia. Para obter mais informações, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Redefina senhas para os usuários que são membros dos grupos que você gerencia. Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 * Efetue login como usuários membros dos grupos que você gerencia. Para obter mais informações, consulte [Fazer logon como outro usuário](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 * Exiba o número de licenças disponíveis disponíveis para o seu grupo e os subgrupos abaixo dele. Para obter mais informações, consulte [Gerenciar licenças disponíveis em seu sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ### Gerenciar objetos de grupo {#manage-group-objects}
 
 * Crie Modelos de layout de nível de grupo e associe-os aos grupos e subgrupos que você gerencia. Para obter mais informações, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-* Crie perfis de planilhas de horas no nível do grupo, associe-os a usuários e grupos que você gerencia, e gere planilhas de horas manualmente. Para obter mais informações, consulte [Criar, editar e atribuir perfis de planilha de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Crie perfis de planilhas de horas no nível do grupo, associe-os a usuários e grupos que você gerencia, e gere planilhas de horas manualmente. Para obter mais informações, consulte [Criar, editar e atribuir perfis de folha de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 * Sem acesso administrativo aos processos de aprovação, crie e edite processos de aprovação para os grupos e subgrupos que você gerencia. Para obter mais informações, consulte [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
   Para obter informações sobre acesso administrativo a processos de aprovação, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
@@ -118,8 +118,8 @@ Como administrador de grupo, você pode realizar as tarefas descritas abaixo par
 
 * Quando uma preferência de projeto, de tarefa ou de problema, ou uma preferência de planilhas de horas e horas for desbloqueada para grupos em todo o sistema, edite essa preferência para os grupos que você gerencia. Essas preferências afetam o comportamento do projeto, tarefa e problema. Para obter mais informações, consulte o seguinte:
 
-   * [Configurar as preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+   * [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
    * [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
-* Crie e edite status de grupos para grupos que você gerencia. Para obter mais informações, consulte [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+* Crie e edite status de grupos para grupos que você gerencia. Para obter mais informações, consulte [Criar ou editar o status de um grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 * Configure uma notificação de evento para grupos que você gerencia. Você pode fazer isso somente depois que um administrador do Workfront desbloqueia a capacidade de configurar notificações de eventos para grupos em todo o sistema. Para obter mais informações, consulte [Exibir e configurar notificações de eventos para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

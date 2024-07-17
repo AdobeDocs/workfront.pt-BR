@@ -45,7 +45,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -55,7 +55,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -82,7 +82,7 @@ Você deve ter o seguinte:
 
 ## Considerações para copiar metas
 
-Você deve ter acesso a Editar Metas no seu nível de acesso antes de poder copiar metas. Para obter informações sobre como conceder acesso às Metas, consulte [Conceder acesso ao Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Você deve ter acesso a Editar Metas no seu nível de acesso antes de poder copiar metas. Para obter informações sobre como conceder acesso às Metas, consulte [Conceder acesso às Metas do Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Alguns motivos pelos quais você pode querer copiar uma meta existente são:
 
@@ -92,7 +92,7 @@ Alguns motivos pelos quais você pode querer copiar uma meta existente são:
 
 >[!TIP]
 >
->Você pode copiar uma meta em qualquer status. Para obter informações sobre status de metas, consulte [Visão geral do status da meta no Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
+>Você pode copiar uma meta em qualquer status. Para obter informações sobre status de meta, consulte [Visão geral sobre status de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
 
 Considere o seguinte ao copiar metas:
 
@@ -178,17 +178,17 @@ To copy goals in the Production environment:
 -->
 
 
-1. Vá para uma meta e clique no botão **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em **Copiar meta**.
+1. Vá para uma meta e clique no menu **Mais** ![](assets/more-icon.png), em seguida, clique em **Copiar Meta**.
 
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. Atualize as seguintes informações para a meta copiada:
-   * **Nome da meta**: O nome da nova meta. O nome padrão da meta copiada é &quot;Cópia de &lt;original goal=&quot;&quot;>&quot;.
+   * **Nome da meta**: o nome da nova meta. O nome padrão da meta copiada é &quot;Cópia de &lt;meta original>&quot;.
    * **Período**: o período durante o qual você deseja atingir a meta. Selecione um período no menu suspenso
 
      Ou
 
-     Selecionar **Habilitar datas personalizadas** para especificar datas personalizadas para a meta **Início** e **Datas finais**. A configuração Habilitar datas personalizadas é desabilitada por padrão.
+     Selecione **Habilitar datas personalizadas** para especificar datas personalizadas para as **Datas de início** e **Datas de término** da meta. A configuração Habilitar datas personalizadas é desabilitada por padrão.
 
      >[!TIP]
      >
@@ -211,7 +211,7 @@ To copy goals in the Production environment:
    >
    >Se você não tiver copiado os resultados da meta original, deverá primeiro associar a nova meta a um indicador de progresso antes de ativá-la e começar a trabalhar para atingi-la.
    >Para obter informações sobre como associar metas a indicadores de progresso, consulte os seguintes artigos:
-   >* [Adicionar resultados às metas no Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md)
+   >* [Adicionar resultados às metas nas Metas do Adobe Workfront](../results-and-activities/add-results-to-goals.md)
    >* [Adicionar atividades às metas no Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
    >* [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md)
    >

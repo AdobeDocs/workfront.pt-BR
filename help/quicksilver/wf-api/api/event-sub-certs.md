@@ -9,8 +9,8 @@ role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 source-git-commit: c547ff323ad9e43472074964ac365447755e4aa5
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 0%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ server {
 }
 ```
 
-Para obter mais informações, consulte [Documentação do NGiNX para ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+Para obter mais informações, consulte a [documentação do NGiNX para ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -88,7 +88,7 @@ Listen 443
 
 Para obter mais informações, consulte
 
-* [Autenticação de Cliente e Controle de Acesso](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
+* [Controle de Acesso e Autenticação do Cliente](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
 * [Módulo Apache mod_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
  
 

@@ -48,12 +48,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Visualize ou aumente as permissões para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualize ou aumente as permissões para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Informações incluídas no Balanceador de carga de trabalho ao visualizá-lo a partir de um link compartilhado
 
@@ -81,7 +81,7 @@ As seguintes opções estão disponíveis para o usuário que está visualizando
 * O ícone Configurações
 * O ícone Mostrar alocações
 
-  Para obter informações sobre o uso dessas opções, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Para obter informações sobre como usar essas opções, consulte [Navegar pelo Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * O ícone Mostrar alocações de função
 
@@ -98,7 +98,7 @@ O usuário que recebe o link compartilhado não pode fazer o seguinte no Balance
 Você precisa do seguinte acesso para visualizar informações no Balanceador de carga de trabalho de um link compartilhado:
 
 * Uma licença válida do Adobe Workfront e você deve estar conectado ao Workfront.
-* Pelo menos visualize o acesso ao Gerenciamento de recursos no seu Nível de acesso. Para obter informações sobre como conceder acesso ao Gerenciamento de recursos, consulte [Conceder acesso ao Gerenciamento de recursos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Pelo menos visualize o acesso ao Gerenciamento de recursos no seu Nível de acesso. Para obter informações sobre como conceder acesso ao Gerenciamento de Recursos, consulte [Conceder acesso ao Gerenciamento de Recursos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 * Visualize permissões para projetos, tarefas, problemas e usuários exibidos no Balanceador de carga de trabalho.
 
 ## Compartilhar o Balanceador de carga de trabalho com outros usuários em um link
@@ -110,15 +110,15 @@ Você precisa do seguinte acesso para visualizar informações no Balanceador de
 1. (Opcional) Siga um ou mais destes procedimentos:
 
    * Atualize a seleção do período de tempo.
-   * Clique em **Dia, Semana** ou **Month** para exibir informações diárias, semanais ou mensais.
+   * Clique em **Dia, Semana** ou **Mês** para exibir informações diárias, semanais ou mensais.
 
      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * Aplique filtros às áreas Trabalho não atribuído e atribuído.
 
-     Para obter informações sobre como filtrar informações no Balanceador de carga de trabalho, consulte [Filtrar informações no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Para obter informações sobre como filtrar informações no Balanceador de carga de trabalho, consulte [Informações de filtro no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Clique em **ícone de link** ![](assets/wb-shearable-link-icon-small.png).
+1. Clique no **ícone de link** ![](assets/wb-shearable-link-icon-small.png).
 
    Isso adiciona o link à área de transferência.
 
@@ -127,7 +127,7 @@ Você precisa do seguinte acesso para visualizar informações no Balanceador de
    * Cole-o em um email, mensagem de chat ou qualquer outro aplicativo e compartilhe-o com outros usuários.
    * Adicione-o a uma seção personalizada como uma página externa, adicione a seção personalizada ao perfil de um usuário ou a um Modelo de layout e, em seguida, compartilhe o Modelo de layout com usuários, equipes, funções de trabalho ou grupos.
 
-     Para obter informações sobre como criar uma Página Externa, consulte [Incorporar uma página externa da Web em um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Para obter informações sobre como adicionar seções personalizadas a um Modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Para obter informações sobre como criar uma Página Externa, consulte [Incorporar uma página da Web externa em um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Para obter informações sobre como adicionar seções personalizadas a um Modelo de Layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >

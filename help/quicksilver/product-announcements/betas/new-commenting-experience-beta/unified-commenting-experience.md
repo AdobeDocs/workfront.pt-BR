@@ -81,11 +81,11 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td><strong>Recurso </strong>
    </td>
-   <td><strong>Existe na experiência antiga de comentários </strong>
+   <td><strong>Existe na experiência de comentários antiga </strong>
    </td>
    <td><strong>Existe na nova experiência de comentários </strong>
    </td>
-   <td><strong>Será introduzido na nova experiência de comentários </strong>
+   <td><strong>Será apresentado na nova experiência de comentários </strong>
    </td>
    <td><strong>Quando serão introduzidos na nova experiência de comentários </strong>
    </td>
@@ -514,9 +514,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 
 >[!IMPORTANT]
 >
->Para obter informações sobre os recursos lançados para a nova experiência de comentários durante o período beta, consulte [Novo comentário sobre a atividade de lançamento de experiência beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Para obter informações sobre os recursos lançados para a nova experiência de comentários durante o período beta, consulte [Nova atividade de lançamento de experiência beta de comentários](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
->Para obter mais informações sobre o gerenciamento de atualizações para objetos do Workfront, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Para obter mais informações sobre como gerenciar atualizações para objetos do Workfront, consulte [Trabalho de atualização](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 Veja a seguir uma linha do tempo planejada com marcos importantes para o lançamento da nova experiência de comentários no ambiente de produção. Além dos marcos abaixo, continuaremos a melhorar a experiência de comentários com aprimoramentos menores.
@@ -526,21 +526,21 @@ Para obter informações sobre os recursos lançados para a nova experiência de
 Esta é uma linha do tempo planejada para o lançamento da nova experiência de comentários:
 
 * Com a versão 23.2 (6 de abril de 2023):
-   * Iniciar a experiência de comentários beta para problemas
+   * Iniciar a experiência de comentários do Beta para problemas
    * Lançar a nova experiência de comentários para metas (como a única experiência)
 * Com a versão 23.3 (20 de julho de 2023):
-   * Inicie a experiência de comentários Beta para projetos, tarefas e documentos.
+   * Inicie a experiência de comentários do Beta para projetos, tarefas e documentos.
    * Lançar a nova experiência de comentários para cartões na área Quadros (como a única experiência)
 * Durante a versão do quarto trimestre de 2023 (versão limitada, disponível somente para clientes que escolhem a versão rápida):
    * Libere a nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência)
-   * Atualize a experiência de comentários Beta para projetos, tarefas, problemas e documentos para se tornar a opção padrão. O rótulo &quot;Beta&quot; é removido.
+   * Atualize a experiência de comentários do Beta para projetos, tarefas, problemas e documentos para se tornar a opção padrão. O rótulo &quot;Beta&quot; é removido.
 * Com a versão do quarto trimestre de 2023 (23.10) (26 de outubro de 2023)
    * Libere a nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência) para todos os clientes.
    * Torne a nova experiência de comentários para projetos, tarefas, problemas e documentos a opção padrão.
 
   >[!IMPORTANT]
   >
-  >    Isso concluirá a etapa beta da nova experiência de comentários.
+  >    Isso concluirá a etapa Beta da nova experiência de comentários.
 
    * Inclua todos os recursos lançados para a nova experiência de comentários começando com essa data nas versões atuais, mensais e trimestrais.
 * Final de 2023:

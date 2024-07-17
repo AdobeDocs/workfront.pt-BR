@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Visão geral da restrição de tarefa: Deve Terminar Em'
-description: Você pode usar a Restrição de Tarefa Deve Concluir em (MFO) para agendar uma tarefa para terminar em uma data específica.
+title: "Visão geral da restrição de tarefa: deve ser concluída em"
+description: Você pode usar a Restrição de Tarefa Deve Terminar em (MFO) para programar uma tarefa para terminar em uma data específica.
 author: Alina
 feature: Work Management
 exl-id: 9e546a0f-7f7a-4f1c-9d9d-aa3cea377fdf
@@ -14,37 +14,38 @@ ht-degree: 0%
 
 ---
 
-# Visão geral da restrição de tarefa: Deve terminar em
+# Visão geral da Restrição da tarefa: deve ser concluída em
 
-Você pode usar a Restrição de Tarefa Deve Concluir em (MFO) para agendar uma tarefa para terminar em uma data específica.
+Você pode usar a Restrição de Tarefa Deve Terminar em (MFO) para programar uma tarefa para terminar em uma data específica.
 
-A restrição Deve terminar em agendará a conclusão de uma tarefa exatamente no momento e na data especificados na **Data de Conclusão Planejada** campo.
+A restrição Deve Terminar Em programa uma tarefa para terminar exatamente na hora e data que você especificar no campo **Data de Conclusão Planejada**.
 
 >[!TIP]
 >
->A atualização manual da Data de conclusão planejada de uma tarefa altera a restrição da tarefa para Deve terminar em.
+>A atualização manual da Data de conclusão planejada de uma tarefa altera a restrição da tarefa para Precisa ser concluída em.
 
-## Visão Geral da Restrição de Tarefa Necessário Concluir
+## Visão Geral da Restrição Deve Ser Concluída na Tarefa
 
-Considere o seguinte ao agendar uma tarefa com uma restrição Deve concluir em:
+Considere o seguinte ao programar uma tarefa com uma restrição Deve ser concluída em:
 
-* As relações entre antecessores não forçam o reagendamento da tarefa. A Adobe Workfront ignora as relações do antecessor.
-* A tarefa é exibida como **Em Risco** se os antecessores começarem a ficar para trás ou se estiverem atrasados.
+* As relações de predecessoras não forçam a tarefa a ser reagendada. O Adobe Workfront ignora essencialmente as relações predecessoras.
+* A tarefa será exibida como **Em Risco** se os predecessores começarem a ser executados atrasados ou estiverem atrasados.
 
-* Ao mover ou copiar uma tarefa com uma restrição MFO para outro projeto, a restrição da tarefa ou as datas do projeto podem mudar, dependendo das datas de restrição e das datas de início e conclusão do projeto. Os seguintes cenários existem:
+* Quando você move ou copia uma tarefa com uma restrição MFO para outro projeto, a restrição da tarefa ou as datas do projeto podem mudar dependendo de quais são as datas de restrição e quais são as datas de início e de conclusão do projeto. Existem os seguintes cenários:
 
-   * Quando o projeto de destino é agendado desde o início:
+   * Quando o projeto de destino está agendado do início:
 
-      * Quando a data de restrição da tarefa é anterior à Data Inicial Planejada do projeto, a restrição da tarefa é alterada para Assim que possível.
-      * Quando a data de restrição da tarefa é posterior à Data de Conclusão Planejada do projeto, a Data de Conclusão Planejada do projeto muda para corresponder à data de restrição de conclusão da tarefa.
+      * Quando a data de restrição da tarefa for anterior à Data de início planejada do projeto, a restrição da tarefa será alterada para O Mais Breve Possível.
+      * Quando a data de restrição da tarefa for posterior à Data de Conclusão Planejada do projeto, a Data de Conclusão Planejada do projeto será alterada para corresponder à data de restrição da conclusão da tarefa.
 
-      * Quando o projeto de destino é agendado a partir da conclusão:
+      * Quando o projeto de destino estiver agendado A partir da conclusão:
 
          * Quando a data de restrição da tarefa for posterior à Data de conclusão do projeto, a restrição da tarefa será alterada para O mais tarde possível.
-         * Quando a data de restrição da tarefa é anterior à Data Inicial Planejada do projeto, a Data Inicial Planejada do projeto muda para corresponder à data de restrição inicial da tarefa.
-      * Independentemente da programação do projeto, quando a data de restrição da tarefa estiver dentro das Datas de Início e Conclusão do projeto, não há alterações na Restrição de Tarefa ou nas datas do projeto.
+         * Quando a data de restrição da tarefa for anterior à Data Inicial Planejada do projeto, a Data Inicial Planejada do projeto será alterada para corresponder à data inicial de restrição da tarefa.
 
-   Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obter informações sobre cópia de tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+      * Independentemente do cronograma do projeto, quando a data de restrição da tarefa estiver dentro das datas de início e conclusão do projeto, não há alterações na restrição da tarefa ou nas datas do projeto.
+
+  Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obter informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 Para obter informações sobre como atualizar a Restrição de Tarefa em uma tarefa, consulte [Atualizar a Restrição de Tarefa de uma tarefa](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 

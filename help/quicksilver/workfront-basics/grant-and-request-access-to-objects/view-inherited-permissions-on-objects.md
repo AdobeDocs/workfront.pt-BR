@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Exibir permissões herdadas em objetos
-description: O administrador do Adobe Workfront pode conceder acesso para exibir ou editar objetos ao atribuir seu nível de acesso. Para obter mais informações, consulte Conceder acesso a projetos.
+description: O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar objetos ao atribuir seu nível de acesso. Para obter mais informações, consulte Conceder acesso aos projetos.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Exibir permissões herdadas em objetos
 
-O administrador do Adobe Workfront pode conceder acesso para exibir ou editar objetos ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso aos projetos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar objetos ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso aos projetos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Além do nível de acesso que os usuários recebem, você também pode conceder permissões a objetos específicos que você tem acesso para compartilhar. Para obter mais informações sobre níveis de acesso e permissões, consulte [Como os níveis de acesso e as permissões funcionam em conjunto](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Juntamente com o nível de acesso que os usuários recebem, você também pode conceder a eles permissões para objetos específicos que você tem acesso para compartilhar. Para obter mais informações sobre níveis de acesso e permissões, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Os objetos herdam permissões de objetos pai no Adobe Workfront.
+Os objetos herdam permissões de objetos principais no Adobe Workfront.
 
 Para obter informações sobre a hierarquia de objetos no Workfront, consulte [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -62,38 +62,38 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalho ou superior</p> </td> 
+   <td> <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Visualize ou aumente o acesso nos objetos para os quais deseja visualizar permissões</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Acesso de visualização ou superior nos objetos para os quais você deseja visualizar permissões</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões para exibir ou superior nos objetos para os quais deseja exibir permissões</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exiba ou aumente as permissões nos objetos para os quais deseja exibir permissões</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
-## Exibir permissões herdadas para um objeto
+## Exibir permissões herdadas de um objeto
 
 A exibição de permissões herdadas é idêntica para todos os objetos.
 
-Para exibir permissões herdadas para um projeto:
+Para exibir permissões herdadas de um projeto:
 
-1. Vá para um projeto cujas permissões de compartilhamento você deseja visualizar.
-1. Clique no botão **Mais** menu ![](assets/more-icon.png), depois clique em **Compartilhamento**.
+1. Vá para um projeto cujas permissões de compartilhamento você deseja exibir.
+1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Compartilhamento**.
 
-1. Expanda o **Permissões herdadas** lista.
+1. Expanda a lista **Permissões herdadas**.
 
-   Essa lista exibe os nomes dos usuários que têm acesso ao portfólio ou ao programa ao qual o projeto pertence e também têm permissões para o projeto.
+   Esta lista exibe os nomes dos usuários que têm acesso ao portfólio ou ao programa ao qual o projeto pertence e também têm permissões para o projeto.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 

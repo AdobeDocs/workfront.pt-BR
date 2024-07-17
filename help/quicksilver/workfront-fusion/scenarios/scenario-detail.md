@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Detalhes do cenário em [!DNL Adobe Workfront Fusion]
-description: Detalhes do cenário em [!DNL Adobe Workfront Fusion]
+title: Detalhes do cenário em  [!DNL Adobe Workfront Fusion]
+description: Detalhes do cenário em  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 A página de detalhes do cenário é a página inicial de um cenário específico. Ele fornece acesso a informações específicas para o cenário representado na página.
 
-Ele também fornece acesso à [O editor de cenários no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), em que você pode editar o cenário.
+Também fornece acesso ao [Editor de cenários [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), onde você pode editar o cenário.
 
 ## Requisitos de acesso
 
@@ -38,30 +38,30 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para automação de trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>   </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Abra o [!UICONTROL Detalhes do cenário] página:
+## Abra a página [!UICONTROL Detalhes do cenário]:
 
-1. Clique em **[!UICONTROL Cenário]** no painel esquerdo e clique no cenário no qual deseja obter detalhes.
+1. Clique na guia **[!UICONTROL Cenário]** no painel esquerdo e, em seguida, clique no cenário sobre o qual deseja obter detalhes.
 
    Ou
 
-   Se estiver trabalhando no cenário no [O editor de cenários no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próximo ao canto superior esquerdo da janela.
+   Se você estiver trabalhando no cenário no [Editor de cenários no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próxima ao canto superior esquerdo da janela.
 
 1. Na página exibida, é possível revisar os elementos listados na tabela abaixo.
 

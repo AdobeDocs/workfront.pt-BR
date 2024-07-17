@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Você pode remover um projeto de um portfólio e associá-lo a um portfólio diferente ou remover completamente a associação entre um projeto e um portfólio.
 
-Também é possível excluir projetos de um portfólio que também os remove de [!DNL Adobe Workfront].
+Você também pode excluir projetos de um portfólio que também os remove de [!DNL Adobe Workfront].
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,20 +33,20 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso à [!UICONTROL Editar] para Projetos</p> <p>Acesso à [!UICONTROL View] para Portfolio ou superior</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Editar] acesso a Projetos</p> <p>Acesso de [!UICONTROL View] a Portfolio ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do [!UICONTROL Gerenciar] no Portfolio para remover projetos <br>Permissões do [!UICONTROL Gerenciar] com o acesso do [!UICONTROL Excluir] aos projetos para excluí-los do portfólio</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões [!UICONTROL Manage] no Portfolio para remover projetos <br> permissões [!UICONTROL Manage] com acesso [!UICONTROL Delete] aos projetos para excluí-los do portfólio</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Remover um projeto de um portfólio
 
@@ -55,7 +55,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
-1. Clique em **[!UICONTROL Remover projetos]**.
-1. Clique em **[!UICONTROL Excluir]** para excluir o projeto do [!DNL Workfront]ou **[!UICONTROL Remover]** **[!UICONTROL de Portfolio]** para removê-lo do Portfolio selecionado.
+1. Clique em **[!UICONTROL Remover Projetos]**.
+1. Clique em **[!UICONTROL Excluir]** para excluir o projeto de [!DNL Workfront] ou **[!UICONTROL Remover]** **[!UICONTROL do Portfolio]** para removê-lo do Portfolio selecionado.
 
-1. (Opcional e condicional) Localize o projeto que você removeu do portfólio e associe-o a outro portfólio. Para obter informações sobre como associar projetos com portfólios, consulte [Adicionar projetos a um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+1. (Opcional e condicional) Encontre o projeto que você removeu do portfólio e associe-o a outro portfólio. Para obter informações sobre como associar projetos a portfólios, consulte [Adicionar projetos a um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).

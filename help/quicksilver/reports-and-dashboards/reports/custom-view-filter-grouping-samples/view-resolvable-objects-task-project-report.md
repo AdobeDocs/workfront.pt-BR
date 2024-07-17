@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Você pode exibir uma lista de todos os Objetos Resolvíveis em um projeto ou visualização de tarefa ou relatório.
 
-Para obter mais informações sobre Objetos Resolvíveis, consulte o artigo [Visão Geral de Objetos Resolventes e Resolvíveis](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Para obter mais informações sobre Objetos Resolvíveis, consulte o artigo [Visão Geral de Objetos Resolvíveis e Resolvíveis](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-![list_of_resolvables_in_report.png](assets/list-of-resolvables-in-report-350x54.png)
+![lista_de_contas_a_resolução_no_relatório.png](assets/list-of-resolvables-in-report-350x54.png)
 
 A aplicação deste modo de exibição é idêntica para tarefas e projetos.
 
@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -49,25 +49,24 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exibir Objetos Resolvíveis em um relatório de tarefa ou de projeto
 
 1. Ir para uma lista de tarefas que foram convertidas de problemas.
-1. No **Exibir** selecione **Nova visualização**.
+1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
-1. No **Visualização da coluna** clique em **Adicionar coluna**.
+1. Na área **Visualização da coluna**, clique em **Adicionar coluna**.
 
-1. Clique no cabeçalho da nova coluna e clique em **Alternar para modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
-1. Remova o texto localizado na **Modo de texto** e substitua-o pelo seguinte código:
-
-   <pre>displayname=Resolvables<br>delimitador de lista=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=nome<br>valueformat=HTML<br></pre>
+1. Clique no cabeçalho da nova coluna e em **Alternar para Modo de Texto**.
+1. Passe o mouse sobre a área de modo de texto e clique em **Clicar para editar o texto**.
+1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
+   <pre>displayname=Resolvables<br>listdelimititer=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML<br></pre>
 
 1. Clique em **Salvar visualização**.\
    Uma lista de todos os Objetos Resolvíveis é exibida na nova coluna. Os nomes dos objetos na lista não podem ser vinculados diretamente aos objetos.

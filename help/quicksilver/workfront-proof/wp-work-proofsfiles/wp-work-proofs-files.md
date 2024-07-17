@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Trabalhar com provas e arquivos no [!DNL Workfront Proof]
-description: Trabalhar com provas e arquivos no [!DNL Workfront Proof].
+title: Trabalhar com provas e arquivos em [!DNL Workfront Proof]
+description: Trabalhar com provas e arquivos em [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém as seguintes subseções:
 
-* [Fluxo de trabalho automatizado no [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [Recursos básicos no [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [Fluxo de Trabalho Automatizado em  [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [Recursos básicos em  [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [Criar provas e arquivos](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [Gerenciar seu trabalho](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [Organize o seu trabalho](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)

@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Esse índice contém links para os seguintes artigos:
 
-* [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-* [Atualizar o tipo de duração de uma tarefa](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
-* [Visão geral do tipo de duração: atribuição calculada](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
-* [Visão geral do tipo de duração: Controlado pelo esforço](../../../manage-work/tasks/taskdurtn/effort-driven.md)
-* [Visão geral do tipo de duração: trabalho calculado](../../../manage-work/tasks/taskdurtn/calculated-work.md)
-* [Visão geral do tipo de duração: simples](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
-* [Atualizar as horas planejadas e a duração de uma tarefa com um tipo de duração simples](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
+* [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* [Atualizar o Tipo de Duração de uma tarefa](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
+* [Visão geral do Tipo de Duração: Atribuição Calculada](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
+* [Visão geral do Tipo de Duração: Orientado pelo Esforço](../../../manage-work/tasks/taskdurtn/effort-driven.md)
+* [Visão geral do Tipo de Duração: Trabalho Calculado](../../../manage-work/tasks/taskdurtn/calculated-work.md)
+* [Visão geral do Tipo de Duração: Simples](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
+* [Atualizar as Horas Planejadas e a Duração de uma tarefa com um Tipo de Duração Simples](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
 * [Tipos de duração em projetos do Adobe Workfront e do Microsoft](../../../manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
 
 

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
 source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -49,12 +49,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
 ## Compartilhar um link de prova
 
@@ -68,8 +68,8 @@ O compartilhamento de um link de prova concede acesso de visualização aos usu�
 
    Você pode selecionar apenas um documento. Não é possível compartilhar o link de vários documentos ao mesmo tempo.
 
-1. Clique em **Compartilhar** > **Link de prova**.
-1. No **Link de prova** que for exibida, siga um destes procedimentos:
+1. Clique em **Compartilhar** > **Link de Prova**.
+1. Na caixa **Link de prova** que é exibida, siga um destes procedimentos:
 
    * Para copiar o link para a área de transferência, clique em **Copiar link**.
 
@@ -77,7 +77,7 @@ O compartilhamento de um link de prova concede acesso de visualização aos usu�
 
    * Para enviar o link por email diretamente do Adobe Workfront, faça o seguinte:
 
-      1. No **Ou link de email para** comece a digitar e selecione o nome do seu recipient. Ou especifique o endereço de email de um usuário externo com o qual deseja compartilhar.
+      1. No campo **Ou link de email para**, comece a digitar e selecione o nome do seu destinatário. Ou especifique o endereço de email de um usuário externo com o qual deseja compartilhar.
 
          >[!NOTE]
          >
@@ -91,7 +91,7 @@ O compartilhamento de um link de prova concede acesso de visualização aos usu�
           <tbody>
            <tr>
             <td role="rowheader">Enviar link público</td>
-            <td><p>Inclui um botão na notificação por email que direciona os usuários para a prova no visualizador de provas que eles estão usando e concede acesso de Visualização.</p><p>Se <strong>Inscrever-se para obter prova por meio de URL público ou código incorporado</strong> estiver desativada para a prova, os usuários poderão fazer logon com as credenciais de logon da Workfront para adicionar comentários à prova. Se estiver ativado, qualquer pessoa que forneça seu endereço de email e nome (nenhuma senha é necessária) poderá assinar e adicionar comentários à prova.</p></td>
+            <td><p>Inclui um botão na notificação por email que direciona os usuários para a prova no visualizador de provas que eles estão usando e concede acesso de Visualização.</p><p>Se a opção <strong>Assinar prova por meio de URL pública ou código de inserção</strong> estiver desativada para a prova, os usuários poderão entrar com suas credenciais de logon do Workfront para adicionar comentários à prova. Se estiver ativado, qualquer pessoa que forneça seu endereço de email e nome (nenhuma senha é necessária) poderá assinar e adicionar comentários à prova.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Enviar link de download</td>
@@ -126,25 +126,25 @@ O compartilhamento de um link de prova concede acesso de visualização aos usu�
 >Lembre-se do seguinte se estiver usando um plano herdado do Workfront no qual a prova pode ser ativada e desativada para um usuário:
 >
 >* Seus destinatários não precisam ter a prova ativada para revisar a prova.
->* Quando o Fluxo de trabalho automatizado está ativado e você adiciona um usuário à prova que não tem a prova ativada no Workfront, um novo estágio é criado no Fluxo de trabalho automatizado. O usuário que você está adicionando é automaticamente adicionado a esse novo estágio quando visualiza a prova pela primeira vez. (Para obter mais informações, consulte [Visão geral do fluxo de trabalho automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
+>* Quando o Fluxo de trabalho automatizado está ativado e você adiciona um usuário à prova que não tem a prova ativada no Workfront, um novo estágio é criado no Fluxo de trabalho automatizado. O usuário que você está adicionando é automaticamente adicionado a esse novo estágio quando visualiza a prova pela primeira vez. (Para obter mais informações, consulte [Visão geral do Fluxo de Trabalho Automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
 >
 
 ### Adicionar usuários a uma prova existente na guia Documentos
 
 1. Selecione o documento que contém a prova à qual você deseja adicionar usuários.
-1. Se a prova não tiver um fluxo de trabalho automatizado (estágios), clique no link **Mais** no canto superior direito da seção Stage 1, depois clique em **Compartilhar** no menu suspenso.
+1. Se a prova não tiver um fluxo de trabalho automatizado (estágios), clique no ícone **Mais** no canto superior direito da seção Estágio 1 e clique em **Compartilhar** no menu suspenso.
 
    Ou
 
-   Se a prova tiver um Fluxo de trabalho automatizado, clique no link **Mais** no canto superior direito do estágio em que deseja adicionar o revisor, clique em **Compartilhar** no menu suspenso.
+   Se a prova tiver um Fluxo de Trabalho Automatizado, clique no ícone **Mais** no canto superior direito do estágio em que você deseja adicionar o revisor e, em seguida, clique em **Compartilhar** no menu suspenso.
 
-1. No **Compartilhar esta versão** que aparece, em **Compartilhar**, comece digitando o nome ou endereço de email de um usuário com o qual deseja compartilhar a prova e clique no nome quando ele for exibido na lista suspensa.
+1. Na caixa **Compartilhar esta versão** exibida, em **Compartilhar**, comece digitando o nome ou endereço de email de um usuário com o qual deseja compartilhar a prova e clique no nome quando ele aparecer na lista suspensa.
 
 1. (Opcional) Repita essa etapa para adicionar vários usuários à prova.
 1. (Opcional) Defina um prazo final para os revisores.
-1. (Opcional) Verifique se **Notificar pessoas por e-mail** é selecionada se você quiser que os revisores saibam que você os adicionou à prova.
-1. (Opcional) **Adicionar uma mensagem personalizada** ao email.
-1. Quando tiver adicionado todos os revisores, clique em **Compartilhar**.
+1. (Opcional) Verifique se a opção **Notificar pessoas por email** está selecionada se desejar que os revisores saibam que você as adicionou à prova.
+1. (Opcional) **Adicione uma mensagem personalizada** ao email.
+1. Depois de adicionar todos os revisores, clique em **Compartilhar**.
 
 ### Adicionar usuários a uma prova existente do visualizador de provas
 
@@ -164,10 +164,10 @@ Você pode criar um relatório que relate as aprovações de provas que foram co
 
 Você acessa esta aprovação ao criar um relatório baseado em um objeto, conforme descrito em [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Para obter mais informações sobre o relatório de objeto Aprovações de provas, consulte a [Relatório sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) seção em [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+Para obter mais informações sobre o relatório do objeto Aprovações de Provas, consulte a seção [Relatório sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) em [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 
 ## Aprovar uma prova compartilhada
 
 Quando um usuário adiciona você a uma prova e concede a função Aprovador ou a função Revisor e Aprovador usando o Fluxo de trabalho automatizado, a solicitação de aprovação é exibida na guia Aprovações na área Página inicial ou Meu trabalho. Em seguida, você pode visualizar a prova e tomar uma decisão de aprovação sobre a prova diretamente do Workfront.
 
-Para obter informações sobre como tomar decisões de aprovação na área Meu Trabalho, consulte [Aprovar trabalho na área Página inicial](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ou [Aprovar trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Aprovar trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Para obter informações sobre como tomar decisões de aprovação da área Meu Trabalho, consulte [Aprovar trabalho da área Página Inicial](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ou [Aprovar trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) em [Aprovar trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md).

@@ -31,7 +31,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">licença do Adobe workfront*</td> 
@@ -39,16 +39,16 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>O portfólio deve estar associado ao grupo ou a qualquer um de seus subgrupos.</p> <p>Além disso, você deve ter permissões para visualizar o portfólio, porque você o criou ou porque ele foi compartilhado com você.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>O portfólio deve estar associado ao grupo ou a qualquer um de seus subgrupos.</p> <p>Além disso, você deve ter permissões para visualizar o portfólio, porque você o criou ou porque ele foi compartilhado com você.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Visualize, trabalhe com e crie portfólios para seu grupo na área Grupos
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
@@ -65,7 +65,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       <td> 
        <ol> 
         <li value="1"> <p>Clique em <strong>Novo Portfolio</strong>.</p> </li> 
-        <li value="2">Substituir <strong>Portfolio sem título</strong> com o nome desejado para o portfólio.</li>
+        <li value="2">Substitua <strong>Portfolio sem título</strong> pelo nome desejado para o portfólio.</li>
         <li value="3"><p>Clique em <strong>Detalhes do Portfolio</strong> no painel esquerdo e atualize as informações na área Visão geral, conforme necessário.</p>
         <p>Para obter mais informações sobre as opções de configuração, consulte <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio</a>.</p></li>
         <li value="4">Clique no botão Voltar do navegador para retornar à lista de Portfolio do grupo.</li> 
@@ -73,15 +73,15 @@ Você deve ter o seguinte para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Editar ou excluir portfólos</p> </td> 
-      <td> <p>Selecione pelo menos um portfólio que você tenha permissão para editar e use os botões da barra de ferramentas para editar <img src="assets/edit-icon.png"> ou excluir <img src="assets/delete.png"> o mesmo.</p> </td> 
+      <td> <p>Selecione pelo menos um portfólio que você tenha permissão para editar e use os botões da barra de ferramentas para editar <img src="assets/edit-icon.png"> ou excluí-lo <img src="assets/delete.png">.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Compartilhar portfólios</td> 
-      <td>Selecione pelo menos um portfólio que você tenha permissões para compartilhar e clique no ícone compartilhar <img src="assets/share-icon.png">.</td> 
+      <td>Selecione pelo menos um portfólio que você tenha permissões para compartilhar e clique no ícone de compartilhamento <img src="assets/share-icon.png">.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Exportar a lista de portfólios</p> </td> 
-      <td>Clique em <strong>Exportar</strong> <img src="assets/export.png">, em seguida, selecione o formato de arquivo desejado para a lista exportada.</td> 
+      <td>Clique em <strong>Exportar</strong> <img src="assets/export.png"> e selecione o formato de arquivo desejado para a lista exportada.</td> 
      </tr> 
     </tbody> 
    </table>

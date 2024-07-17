@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as integrações e aprimoramentos para dispositivos móveis feitos com a versão 20.3 para o ambiente de produção do. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 10 de agosto de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte [Visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte a [visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## O Workfront Fusion 2.0 chegou!
 
@@ -34,7 +34,7 @@ A Workfront fez parceria com a MobileIron, uma plataforma MDM (Mobile Device Man
 
 Com o Workfront para MobileIron, os administradores podem restringir funcionalidades como copiar/colar e capturas de tela. Você pode baixar o aplicativo Workfront para MobileIron em [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Para obter informações sobre como configurar o aplicativo, consulte [Configurar o Adobe Workfront para o MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Para obter informações sobre como configurar o aplicativo, consulte [Configurar o Adobe Workfront para MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Novo assistente virtual para dispositivo móvel
 
@@ -52,5 +52,5 @@ Fixar comandos
 
 Você pode usar o recurso de pino para acessar comandos salvos do assistente virtual, bem como pinos do navegador da Web.
 
-**Observação: o assistente virtual para dispositivos móveis foi descontinuado em abril de 2024.**
+**Observação: o Mobile Virtual Assistant foi descontinuado em abril de 2024.**
 

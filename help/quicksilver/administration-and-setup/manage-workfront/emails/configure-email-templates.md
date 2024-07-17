@@ -59,13 +59,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **E-mail** > **Notificação**> **Modelos de e-mail**.
+1. No painel esquerdo, clique em **Email** > **Notificações**> **Modelos de email**.
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Clique em **Novo Modelo de email**.
 
-1. No **Novo Modelo de email** especifique as seguintes informações:
+1. Na caixa **Novo Modelo de email**, especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +97,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Corpo </td> 
-      <td> <p>Adicione o texto para o conteúdo da mensagem de email.</p> <p>Você pode usar a formatação HTML para o conteúdo de email, conforme descrito na seção <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Adicionar formatação de HTML a um modelo de email</a> neste artigo.</p> </td> 
+      <td> <p>Adicione o texto para o conteúdo da mensagem de email.</p> <p>Você pode usar a formatação HTML para o conteúdo de email, conforme descrito na seção <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Adicionar formatação HTML a um modelo de email</a> deste artigo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Adicionar formatação de HTML a um modelo de email {#add-html-formatting-to-an-email-template}
 
 Você pode adicionar tags HTML a modelos de email para produzir notificações personalizadas.\
-Comece a criar o template de email conforme descrito em [Criar um novo modelo de email](#create-a-new-email-template).
+Comece a criar o modelo de email conforme descrito em [Criar um novo modelo de email](#create-a-new-email-template).
 
 A formatação de HTML pode enriquecer seus modelos de email, conforme mostrado nas seções a seguir.
 
@@ -117,7 +117,7 @@ A formatação de HTML pode enriquecer seus modelos de email, conforme mostrado 
 
 ### Vincular a objetos do Workfront {#link-to-workfront-objects}
 
-É possível incluir links para campos do Workfront usando o `$$` curinga para instruir o gerador de email a procurar valores do banco de dados associado a um objeto específico.
+Você pode incluir links para campos do Workfront usando o curinga `$$` para instruir o gerador de email a procurar valores no banco de dados associado a um objeto específico.
 
 Por exemplo, o corpo do email de uma notificação alertando o destinatário da tarefa que a tarefa está prestes a iniciar pode seguir esta estrutura:
 
@@ -145,13 +145,13 @@ Para obter o valor &quot;curinga&quot; de um objeto, siga um destes procedimento
 
 * Consulte o API Explorer e selecione os nomes dos objetos na guia Fields de qualquer objeto. Para obter mais informações sobre o API Explorer, consulte [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Use o `valuefield` valor que você encontra dentro de uma visualização de modo de texto de um relatório. Para obter mais informações sobre valores do modo de texto, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Use o valor `valuefield` encontrado em um modo de exibição de texto de um relatório. Para obter mais informações sobre valores de modo de texto, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-A variável `heading` value pode ser o nome do objeto, conforme você quer que ele seja exibido no corpo do email.
+O valor `heading` pode ser o nome do objeto, conforme você quer que ele apareça no corpo do email.
 
 ### Vincular a campos personalizados com HTML {#link-to-custom-fields-with-html}
 
-É possível incluir links para usuários e campos personalizados usando o `$$` curinga para instruir o gerador de email a procurar valores do banco de dados associado ao objeto. Eles devem estar presentes em ambos os lados da referência de atributo do banco de dados.
+Você pode incluir links para usuários e campos personalizados usando o curinga `$$` para instruir o gerador de email a procurar valores no banco de dados associado ao objeto. Eles devem estar presentes em ambos os lados da referência de atributo do banco de dados.
 
 Por exemplo, adicionar o texto a seguir como HTML adicionaria o nome do usuário atribuído à notificação de lembrete associada a uma tarefa:
 
@@ -163,7 +163,7 @@ Para adicionar campos personalizados usando a mesma formatação, você pode adi
 
 Por exemplo, este é um template de email que inclui uma referência a um campo personalizado chamado Data de entrega e está presumindo que o campo Data de entrega pertence a uma tarefa.
 
-Substituir `<your domain>` com o domínio Workfront da sua empresa, sem os colchetes:
+Substitua `<your domain>` pelo domínio Workfront da sua empresa, sem os colchetes:
 
 ```html
 <html>
@@ -199,14 +199,14 @@ Substituir `<your domain>` com o domínio Workfront da sua empresa, sem os colch
 
 ### exemplos de email do HTML {#html-email-examples}
 
-* [Notificação de lembrete de Projeto atrasado (exemplo)](#late-project-reminder-notification-example)
+* [Notificação de lembrete de Projeto Atrasado (exemplo)](#late-project-reminder-notification-example)
 * [Lembrete sobre Tarefa ou Problema Prestes a Iniciar (exemplo)](#task-or-issue-about-to-start-reminder-example)
 
 #### Notificação de lembrete de Projeto atrasado (exemplo) {#late-project-reminder-notification-example}
 
 Para editar um modelo de email para um lembrete de projeto atrasado, considere essas informações para os campos Assunto e Conteúdo.
 
-Substituir `<your domain>` com o domínio Workfront da sua empresa, sem os colchetes.
+Substitua `<your domain>` pelo domínio Workfront da sua empresa, sem os colchetes.
 
 **Assunto:**
 
@@ -242,9 +242,9 @@ Você também pode criar uma notificação de lembrete para uma tarefa ou proble
 
 O código a seguir pode ser incluído em um modelo de email a ser usado para notificações de lembrete de tarefas e problemas que são enviadas qualquer número de dias antes da data planejada de início da tarefa ou problema.
 
-Substituir `<your domain>` com o domínio Workfront da sua empresa, sem os colchetes.
+Substitua `<your domain>` pelo domínio Workfront da sua empresa, sem os colchetes.
 
-Para usá-lo em emails de um Problema, altere a variável `/task/view.` no link para o item de trabalho para `/issue/view`.
+Para usar isso para um email de Problema, altere o valor `/task/view.` no link para o item de trabalho `/issue/view`.
 
 **Assunto:**
 
@@ -287,6 +287,6 @@ Para usá-lo em emails de um Problema, altere a variável `/task/view.` no link 
 </html>
 ```
 
-![email_template_delivered.png](assets/email-template-delivered.png)
+![modelo_de_email_entregue.png](assets/email-template-delivered.png)
 
 Depois que um modelo de email é criado, os usuários podem associá-lo a notificações de lembrete, conforme descrito em [Configurar notificações de lembrete](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

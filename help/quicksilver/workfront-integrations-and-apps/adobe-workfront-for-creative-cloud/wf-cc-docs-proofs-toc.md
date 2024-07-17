@@ -2,8 +2,8 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Faça upload de documentos e provas com a variável  [!DNL Adobe Workfront] plugin para [!DNL Creative Cloud] Aplicativos
-description: Plug-in do Adobe Workfront para [!DNL Creative Cloud] Aplicativos
+title: Carregar documentos e provas com o  [!DNL Adobe Workfront] plug-in para [!DNL Creative Cloud] Aplicativos
+description: Plug-in Adobe Workfront para  [!DNL Creative Cloud]  aplicativos
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 418f1293-5639-4614-b518-d17601467f82
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 ---
 
-# Faça upload de documentos e provas com a variável  [!DNL Adobe Workfront] plugin para [!DNL Creative Cloud] Aplicativos
+# Carregar documentos e provas com o plug-in [!DNL Adobe Workfront] para aplicativos [!DNL Creative Cloud]
 
 >[!NOTE]
 >
->No momento, o upload de documentos e provas não é suportado no Premiere Pro e no After Effects.
+>Atualmente, o upload de documentos e provas não é suportado no Premiere Pro e no After Effects.
 
 
-* [Fazer upload de provas de [!DNL Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
-* [Fazer upload de documentos de [!DNL Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
-* [Upload [!DNL XD] quadros de arte como provas de [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
-* [Upload [!DNL XD] quadros de arte como documentos para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [Fazer upload de provas de [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
-* [Fazer upload de documentos de [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-* [Fazer upload de provas de [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-* [Fazer upload de documentos de [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+* [Carregar provas de  [!DNL Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
+* [Carregar documentos de  [!DNL Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
+* [Carregar [!DNL XD] quadros de arte como provas [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [Carregar [!DNL XD] quadros artísticos como documentos para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [Carregar provas de  [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
+* [Carregar documentos de  [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+* [Carregar provas de  [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+* [Carregar documentos de  [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)

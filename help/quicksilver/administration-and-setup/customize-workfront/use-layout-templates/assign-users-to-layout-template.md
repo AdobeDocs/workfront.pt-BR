@@ -10,7 +10,7 @@ role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Para usuários que não têm um modelo de layout atribuído a eles, o layout pad
 
 Os usuários também podem atribuir um modelo de layout a si mesmos, conforme descrito em Alterar as áreas Meu trabalho e Solicitações de trabalho com modelos de layout.
 
-É possível atribuir vários modelos de layout diferentes para o mesmo nome. Para obter mais informações sobre qual modelo de layout está em vigor para um usuário, função, grupo ou equipe, consulte [Prioridade de atribuição do modelo de layout](#layout-template-assignment-priority) mais adiante neste artigo.
+É possível atribuir vários modelos de layout diferentes para o mesmo nome. Para obter mais informações sobre qual modelo de layout está em vigor para um usuário, função, grupo ou equipe, consulte [Prioridade de atribuição de modelo de layout](#layout-template-assignment-priority), mais adiante neste artigo.
 
 Para obter mais informações sobre modelos de layout, consulte [Modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar os modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Requisitos de acesso
 
@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -48,7 +48,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.
-Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,10 +59,10 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
 
    >[!TIP]
    >
-   >Quando estiver satisfeito com o modelo de layout, recomendamos testá-lo, conforme descrito em [Teste de um novo modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
+   >Quando estiver satisfeito com seu modelo de layout, recomendamos testá-lo, conforme descrito em [Teste de um novo modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
-1. Clique em **Atribuir esta para** na seção superior da página.
-1. Na caixa exibida, clique em **Adicionar usuário, função de trabalho, equipe ou grupo**, comece digitando o nome de um usuário, função de trabalho, equipe ou grupo e clique no nome quando ele aparecer no menu suspenso.
+1. Clique em **Atribuir a item a** na seção superior da página.
+1. Na caixa exibida, clique em **Adicionar um Usuário, Função de Trabalho, Equipe ou Grupo**, comece a digitar o nome de um usuário, função de trabalho, equipe ou grupo e clique no nome quando ele aparecer no menu suspenso.
 
    Os nomes adicionados recentemente são exibidos com um plano de fundo azul. Isso é útil ao editar um modelo de layout existente, pois é possível distinguir os nomes que você acabou de adicionar daqueles que já estavam na lista.
 
@@ -72,7 +72,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
 
    É possível atribuir até 100 usuários de cada vez.
 
-1. Clique em **Concluído** e, em seguida, clique em **Salvar** no canto inferior esquerdo.
+1. Clique em **Concluído** e em **Salvar** no canto inferior esquerdo.
 
    Esta etapa conclui o processo de criação e atribuição de um modelo de layout.
 
@@ -88,15 +88,15 @@ Você e outros administradores do Workfront podem atribuir vários modelos de la
 No entanto, somente um modelo de layout fica visível para o usuário em um determinado momento. O modelo visível é determinado pela seguinte hierarquia de prioridade:
 
 * **Usuário individual**: o modelo de layout atribuído à pessoa como um usuário individual substitui todos os outros. Você pode sobrepor uma atribuição anterior feita para um usuário individual fazendo uma nova atribuição; a mais recente tem prioridade.
-* **Função de trabalho principal**: se um modelo de layout não for atribuído a uma pessoa como um único usuário, ela verá o modelo atribuído para sua função de trabalho principal.
+* **Função de trabalho principal**: se não for atribuído um modelo de layout à pessoa como um único usuário, ela verá o modelo atribuído para sua função de trabalho principal.
 
   Somente o modelo de layout atribuído à função de trabalho principal de um usuário é visível para o usuário. Os modelos atribuídos a quaisquer funções de trabalho secundárias mantidas pelo usuário não estão visíveis.
 
-* **Equipe interna**: se um modelo de layout não for atribuído à pessoa como usuário individual ou como um usuário com uma função de trabalho principal, ela verá o modelo atribuído à equipe inicial.
+* **Equipe da página inicial**: se não for atribuído um modelo de layout à pessoa como usuário individual ou como usuário com uma função de trabalho primária, ela verá o modelo atribuído à sua equipe inicial.
 
   Somente o modelo atribuído à equipe inicial de um usuário é visível para o usuário. Os modelos atribuídos a outras equipes nas quais o usuário é membro não estão visíveis.
 
-* **Grupo padrão**: se um modelo de layout não for atribuído à pessoa como usuário individual, como usuário com função de trabalho principal ou como membro de uma equipe da Página inicial, ela verá o modelo atribuído ao seu grupo padrão.
+* **Grupo padrão**: se não for atribuído um modelo de layout à pessoa como usuário individual, como usuário com função de trabalho primária ou como membro de uma equipe padrão, ela verá o modelo atribuído ao seu grupo padrão.
 
   Somente o modelo atribuído ao Grupo inicial de um usuário é visível para o usuário. Os modelos atribuídos a qualquer um de seus outros grupos não estão visíveis.
 

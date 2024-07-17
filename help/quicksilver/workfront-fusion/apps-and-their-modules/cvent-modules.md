@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de evento
-description: Em um [!DNL Adobe Workfront Fusion] Você pode automatizar fluxos de trabalho que usam Cvent, bem como conectá-lo a vários aplicativos e serviços de terceiros.
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , é possível automatizar fluxos de trabalho que usam Cvent, bem como conectá-los a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 # [!DNL Cvent] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Cvent], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um cenário [!DNL Adobe Workfront Fusion], você pode automatizar fluxos de trabalho que usam [!DNL Cvent], bem como conectá-los a vários aplicativos e serviços de terceiros.
 
-Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se você precisar de instruções sobre como criar um cenário, consulte [Criar um cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -43,58 +43,58 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!DNL Cvent] módulos, você deve ter uma [!DNL Cvent] conta.
+Para usar módulos [!DNL Cvent], você deve ter uma conta [!DNL Cvent].
 
-## Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
+## Conectar [!DNL Cvent] a [!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
 
 >[!NOTE]
 >
->A variável [!DNL Cvent] Os módulos do funcionam por meio de uma [!UICONTROL SOAP] API. Para criar uma conexão com [!DNL Cvent], você deve garantir o seguinte:
+>Os módulos [!DNL Cvent] funcionam por meio de uma API [!UICONTROL SOAP]. Para criar uma conexão com [!DNL Cvent], você deve garantir o seguinte:
 >
->* Você tem [!UICONTROL SOAP] acesso à [!DNL Cvent] API.
->* A variável [!DNL Workfront Fusion] Os endereços IP foram adicionados ao incluo na lista de permissões da sua organização.
+>* Você tem acesso de [!UICONTROL SOAP] à API [!DNL Cvent].
+>* Os [!DNL Workfront Fusion] endereços IP foram adicionados ao incluo na lista de permissões de pesquisa da sua organização.
 >
->  Para obter uma lista de [!DNL Workfront Fusion] Endereços IP, consulte [Endereços IP para acessar [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+>  Para obter uma lista de [!DNL Workfront Fusion] endereços IP, consulte [Endereços IP para acessar [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
 
-Você pode criar uma conexão com o seu [!DNL Cvent] conta diretamente de dentro de um [!DNL Cvent] módulo.
+Você pode criar uma conexão com sua conta do [!DNL Cvent] diretamente de dentro de um módulo do [!DNL Cvent].
 
-1. Em qualquer [!DNL Cvent] , clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
+1. Em qualquer módulo [!DNL Cvent], clique em **[!UICONTROL Adicionar]** ao lado do campo [!UICONTROL Conexão].
 1. Selecione a região à qual deseja se conectar.
 
    * [!UICONTROL América do Norte]
    * [!UICONTROL Europa]
    * [!UICONTROL Sandbox]
 
-1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
+1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar para o módulo.
 
 ## [!DNL Cvent] módulos e seus campos
 
-Ao configurar [!DNL Cvent] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Cvent] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL Cvent], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL Cvent] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -113,7 +113,7 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 #### [!UICONTROL Chamada de API personalizada]
 
-Esse módulo de ação permite fazer uma chamada autenticada personalizada para o [!DNL Cvent] API. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelo outro [!DNL Cvent] módulos.
+Este módulo de ação permite fazer uma chamada autenticada personalizada para a API [!DNL Cvent]. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelos outros módulos do [!DNL Cvent].
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -125,7 +125,7 @@ O módulo retorna o código de status a, juntamente com os cabeçalhos e o corpo
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Cvent] conta para [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Cvent] ao [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] ao [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Operação</td> 
@@ -148,7 +148,7 @@ Esse módulo de ação lê informações sobre um registro específico.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Cvent] conta para [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Cvent] ao [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] ao [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Tipo de registro]</p> </td> 
@@ -175,7 +175,7 @@ Este módulo de ação registra um convidado para um evento.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Cvent] conta para [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Cvent] ao [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] ao [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>ID do convite</p> </td> 
@@ -198,7 +198,7 @@ Este módulo de ação convida um contato para um evento.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Cvent] conta para [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Cvent] ao [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] ao [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID de Contato]</p> </td> 
@@ -221,7 +221,7 @@ Este módulo de ação exclui um único contato no Evento.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Cvent] conta para [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Cvent] ao [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] ao [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de Contato]</td> 
@@ -240,7 +240,7 @@ Este módulo de ação atualiza um contato existente usando sua ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Cvent] conta para [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Cvent] ao [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] ao [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID de Contato]</p> </td> 
@@ -267,7 +267,7 @@ Este módulo de ação adiciona uma solicitação de reunião à sua conta.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Cvent] conta para [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Cvent] ao [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] ao [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID de Formulário]</p> </td> 
@@ -300,13 +300,13 @@ Este módulo de pesquisa recupera informações sobre todos os registros de um t
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Cvent] conta para [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] para [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Cvent] ao [!DNL Workfront Fusion], consulte <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Conectar [!DNL Cvent] ao [!DNL Adobe Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Tipo de registro]</p> </td> 
    <td> <p>Selecione o tipo de registro que deseja listar.</p> 
     <ul> 
-     <li> <p>Todos os eventos do seu [!DNL Cvent] account</p> </li> 
+     <li> <p>Todos os eventos da sua conta [!DNL Cvent]</p> </li> 
      <li> <p>Todas as sessões de um evento</p> </li> 
      <li> <p>Todos os convidados para um evento</p> </li> 
     </ul> </td> 

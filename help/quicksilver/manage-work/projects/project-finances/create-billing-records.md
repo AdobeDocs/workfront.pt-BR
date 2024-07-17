@@ -1,34 +1,34 @@
 ---
 navigation-topic: financials
-title: Criar registros de faturamento
-description: Além de configurar a receita e as despesas de rastreamento, você pode criar registros de faturamento em um projeto para obter informações que precisam ser faturadas.
+title: Criar registros de cobrança
+description: Além de configurar as despesas de rastreamento e receita, você pode criar registros de cobrança em um projeto para as informações que precisam ser faturadas.
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
 workflow-type: tm+mt
-source-wordcount: '1934'
-ht-degree: 1%
+source-wordcount: '1933'
+ht-degree: 0%
 
 ---
 
-# Criar registros de faturamento
+# Criar registros de cobrança
 
-Além de configurar a receita e as despesas de rastreamento, você pode criar registros de faturamento em um projeto para obter informações que precisam ser faturadas.
+Além de configurar as despesas de rastreamento e receita, você pode criar registros de cobrança em um projeto para as informações que precisam ser faturadas.
 
-Não é possível criar registros de faturamento para tarefas. Você só pode criar registros de faturamento para projetos.
+Não é possível criar registros de cobrança para tarefas. Você só pode criar registros de cobrança para projetos.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -36,41 +36,41 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos e Dados Financeiros</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Projetos e Dados Financeiros</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerencie permissões do projeto com permissões para Gerenciar finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Visão geral dos registros de cobrança
 
-Os registros de faturamento são criados como anexos a um projeto e contêm dados financeiros do projeto, bem como algumas informações financeiras para as tarefas em um projeto.
+Os registros de cobrança são criados como anexos a um projeto e contêm dados financeiros do projeto, bem como algumas informações financeiras para as tarefas em um projeto.
 
-Considere o seguinte ao planejar o uso de registros de faturamento:
+Considere o seguinte ao planejar usar registros de faturamento:
 
-* Você cria um registro de faturamento quando deseja faturar uma quantia relacionada ao projeto para um fornecedor ou parceiro externo. Além de faturar uma quantia fixa a uma fonte externa, há ocasiões em que você precisa faturar a quantia de trabalho no projeto (de horas registradas) para um contratante externo, bem como as despesas incorridas ou a quantia de receita fixa. Você pode incluir todas essas informações no mesmo registro de faturamento.
-* Depois que um registro de faturamento é definido como Faturado, ele não pode ser editado.
+* Você cria um registro de faturamento quando deseja faturar uma quantia de dinheiro relacionada ao projeto para um fornecedor ou parceiro externo. Além de faturar uma quantia fixa para uma origem externa, há momentos em que você precisa faturar a quantia de trabalho no projeto (de horas reportadas) para um contratante externo, bem como as despesas incorridas ou a quantia de receitas fixas. É possível incluir todas essas informações no mesmo registro de cobrança.
+* Depois que um registro de cobrança é definido como Faturado, ele não pode ser editado.
 
-   >[!IMPORTANT]
-   >
-   >Isso é importante quando suas taxas variam e você deseja bloquear as informações de receita e despesa do seu projeto. Adicioná-lo a um registro de faturamento e marcá-lo como Faturado impede que seja atualizado quando as taxas forem atualizadas em seu sistema.
+  >[!IMPORTANT]
+  >
+  >Isso é importante quando suas taxas variam e você deseja bloquear as informações de receita e despesa em seu projeto. Adicioná-lo a um registro de cobrança e marcá-lo como Faturado impede que ele seja atualizado quando as taxas são atualizadas em seu sistema.
 
-* Um projeto com registros de faturamento que foram marcados como Faturado não pode ser excluído.
+* Um projeto com registros de cobrança que foram marcados como Faturados não pode ser excluído.
 
-## Criar um registro de faturamento
+## Criar um registro de cobrança
 
 1. Navegue até um projeto.
 1. Clique em **Registros de cobrança** no painel esquerdo.
 
-   Esta seção pode estar localizada em **Mostrar mais**.
+   Esta seção pode estar localizada em **Mostrar Mais**.
 
-1. Com **Detalhes do Registro de Faturamento** selecionado no painel esquerdo, clique em **Novo Registro de Faturamento**.
-1. No **Novo Registro de Faturamento** , especifique as seguintes informações:
+1. Com **Detalhes do Registro de Cobrança** selecionados no painel esquerdo, clique em **Novo Registro de Cobrança**.
+1. Na caixa **Novo Registro de Cobrança** que é exibida, especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -78,191 +78,190 @@ Considere o seguinte ao planejar o uso de registros de faturamento:
     <tbody> 
      <tr> 
       <td role="rowheader">Descrição</td> 
-      <td>Este campo é obrigatório. Especifique uma descrição para o registro de faturamento, para refletir a finalidade ou a intenção deste registro.</td> 
+      <td>Este campo é obrigatório. Especifique uma descrição para o registro de cobrança, para refletir a finalidade ou a intenção deste registro.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Status da Cobrança</td> 
-      <td> <p>Selecionar <strong>Não Faturado</strong>, se esse registro ainda não tiver sido cobrado.</p> <p>Selecionar <strong>Faturado</strong> quando o registro de faturamento é cobrado.</p> </td> 
+      <td> <p>Selecione <strong>Não faturado</strong>, se este registro ainda não tiver sido faturado.</p> <p>Selecione <strong>Faturado</strong> quando o registro de cobrança for faturado.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data de Cobrança</td> 
-      <td>Selecione a data de faturamento deste registro clicando no ícone de calendário.</td> 
+      <td>Selecione a data em que este registro de cobrança é faturado clicando no ícone de calendário.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Número do Pedido</td> 
-      <td>Se houver um Número da OC associado a este registro de faturamento, especifique essas informações neste campo.</td> 
+      <td>Se houver um Número da OC associado a esse registro de cobrança, especifique essas informações nesse campo.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ID da Fatura</td> 
-      <td>Se houver uma NFF associada a esse registro de faturamento, especifique essas informações neste campo.</td> 
+      <td>Se houver uma fatura associada a esse registro de cobrança, especifique essas informações nesse campo.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Valor adicional</td> 
-      <td>Informe a quantia fixa do seu registro de faturamento. Esse é o valor que você pretende faturar um cliente externo, contratante ou parceiro para esse projeto. Esse valor não pode ser modificado após o status do registro de faturamento ser alterado para Faturado.</td> 
+      <td>Insira o valor fixo do seu registro de cobrança. Esta é a quantia que você pretende faturar para um cliente externo, contratante ou parceiro deste projeto. Este valor não pode ser modificado depois que o status do registro de cobrança for alterado para Faturado.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Em **Forms personalizada**, selecione um formulário personalizado de registros de faturamento que deseja adicionar ao registro de faturamento.
+1. (Opcional) Em **Forms Personalizado**, selecione um formulário personalizado de registros de cobrança que você deseja adicionar ao registro de cobrança.
 
-   Você (ou outro usuário com acesso a formulários personalizados) deve criar um formulário personalizado de registros de faturamento antes de selecioná-lo aqui. Somente os formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Você (ou outro usuário com acesso a formulários personalizados) deve criar um formulário personalizado de registros de cobrança antes de selecioná-lo aqui. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-   É possível repetir essa etapa para adicionar outros formulários personalizados necessários para o registro de faturamento.
+   Você pode repetir essa etapa para adicionar outros formulários personalizados necessários para o registro de cobrança.
 
 1. Clique em **Salvar.**
 
-   O registro de faturamento é criado. Para incluir Horas Faturáveis, Despesas e Receitas Fixas no registro de faturamento, siga as etapas descritas na subseção a seguir.
+   O registro de cobrança é criado. Para incluir Horas Faturáveis, Despesas e Receitas Fixas no registro de faturamento, siga as etapas descritas na subseção a seguir.
 
-## Incluir Horas Faturáveis, Despesas e Receitas Fixas em um registro de faturamento
+## Incluir Horas Faturáveis, Despesas e Receitas Fixas em um registro de cobrança
 
-* [Incluir Horas Faturáveis em um registro de faturamento](#include-billable-hours-in-a-billing-record)
-* [Incluir Despesas Faturáveis em um registro de faturamento](#include-billable-expenses-in-a-billing-record)
-* [Incluir receitas fixas em um registro de faturamento](#include-fixed-revenues-in-a-billing-record)
+* [Incluir Horas Faturáveis em um registro de cobrança](#include-billable-hours-in-a-billing-record)
+* [Incluir despesas faturáveis em um registro de cobrança](#include-billable-expenses-in-a-billing-record)
+* [Incluir receitas fixas em um registro de cobrança](#include-fixed-revenues-in-a-billing-record)
 
-### Incluir Horas Faturáveis em um registro de faturamento {#include-billable-hours-in-a-billing-record}
+### Incluir Horas Faturáveis em um registro de cobrança {#include-billable-hours-in-a-billing-record}
 
-Você pode incluir horas que foram conectadas em tarefas, problemas ou o projeto em seus registros de faturamento.\
-Se o usuário que registra as horas ou sua Função de Trabalho Principal estiver associada a uma Taxa de Faturamento por Hora, a receita dessas horas será adicionada ao registro de faturamento.
+Você pode incluir horas que foram conectadas em tarefas, problemas ou o projeto em seus registros de cobrança.\
+Se o usuário que registra as horas ou sua função de trabalho principal estiver associada a uma taxa de cobrança por hora, a receita dessas horas será adicionada ao registro de cobrança.
 
-* [Quais horas podem ser adicionadas a um registro de faturamento](#what-hours-can-be-added-to-a-billing-record)
-* [Adicionar horas a um registro de faturamento](#add-hours-to-a-billing-record)
+* [Que horas podem ser adicionadas a um registro de cobrança](#what-hours-can-be-added-to-a-billing-record)
+* [Adicionar horas a um registro de cobrança](#add-hours-to-a-billing-record)
 
-#### Quais horas podem ser adicionadas a um registro de faturamento {#what-hours-can-be-added-to-a-billing-record}
+#### Que horas podem ser adicionadas a um registro de cobrança {#what-hours-can-be-added-to-a-billing-record}
 
 Você pode adicionar horas a um registro de faturamento quando as seguintes condições forem atendidas:
 
-* Tarefas, problemas ou o projeto tem horas registradas.
-* O Tipo de hora das horas registradas é marcado como Contagem como Receita.
+* Tarefas, problemas ou o projeto têm horas registradas.
+* O Tipo de Hora das horas registradas é marcado como Count como Receita.
 
-   Para obter mais informações sobre Tipos de hora, consulte o artigo [Gerenciar tipos de hora](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+  Para obter mais informações sobre Tipos de Horas, consulte o artigo [Gerenciar tipos de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-* Todas as horas registradas para problemas ou para o projeto podem ser adicionadas a um registro de faturamento se o usuário que registra a hora tiver uma taxa de Faturamento por hora associada a eles ou sua Função de trabalho principal.
-* Se as horas estiverem conectadas em uma tarefa, a tarefa deverá ter o seguinte Tipo de Receita:
+* Todas as horas registradas para problemas ou para o projeto podem ser adicionadas a um registro de cobrança se o usuário que registra o tempo tiver uma taxa de Faturamento por hora associada a ele ou a sua Função de trabalho principal.
+* Se as horas forem registradas em uma tarefa, a tarefa deverá ter o seguinte Tipo de Receita:
 
-   * O Tipo de Receita não pode ser definido como Não Faturável.
-   * Se o Tipo de receita for definido como Usuário por hora, o usuário que faz logon na hora deverá ter uma taxa de Faturamento por hora definida em seu perfil.
-   * Se o Tipo de receita estiver definido como Função por hora, a Função principal do usuário que registra a hora deverá ter uma taxa de Faturamento por hora.
+   * O tipo de receita não pode ser definido como não faturável.
+   * Se o Tipo de receita estiver definido como Hora do usuário, o usuário que registrar o tempo deverá ter uma taxa de faturamento por hora definida em seu perfil.
+   * Se o tipo de receita for definido como função por hora, a função principal do usuário que registra o tempo deverá ter uma taxa de faturamento por hora.
 
-      >[!NOTE]
-      >
-      >Você pode substituir as taxas de faturamento das funções de cargo no nível do projeto.\
-      >Para obter mais informações sobre a sobreposição de taxas de faturamento de função de cargo, consulte a seção &quot;Sobreposição de Taxas de Faturamento de Função de Cargo no Nível do Projeto&quot; no artigo [Visão Geral das Taxas de Faturamento da Função do Trabalho e cálculo da Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >[!NOTE]
+     >
+     >Você pode substituir taxas de faturamento para funções de trabalho no nível do projeto.\
+     >Para obter mais informações sobre substituição de taxas de cobrança de função de trabalho, consulte a seção &quot;Substituição de taxas de cobrança de função de trabalho no nível do projeto&quot; no artigo [Visão geral da substituição de taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-* If **Exigir tempo para ser aprovado para este projeto** estiver marcada em Configurações do projeto, o Proprietário do projeto deverá aprovar as horas registradas.\
-   Para obter mais informações sobre como exigir aprovação nas horas do projeto, consulte o artigo [Exigir tempo para ser aprovado para um projeto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
+* Se **Solicitar aprovação para este projeto** estiver marcado em Configurações do Projeto, o Proprietário do Projeto deverá aprovar as horas registradas.\
+  Para obter mais informações sobre a exigência de aprovação em horas de projeto, consulte o artigo [Exigir que o tempo seja aprovado para um projeto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
-#### Adicionar horas a um registro de faturamento {#add-hours-to-a-billing-record}
+#### Adicionar horas a um registro de cobrança {#add-hours-to-a-billing-record}
 
 Para adicionar horas faturáveis a um registro de faturamento:
 
 1. Vá para o projeto com os registros de cobrança.
 1. Clique em **Registros de cobrança** no painel esquerdo.
 
-   Esta seção pode estar localizada em **Mostrar mais**.
+   Esta seção pode estar localizada em **Mostrar Mais**.
 
-1. Clique no botão **Descrição** de um registro de faturamento para abrir o **Detalhes do Registro de Faturamento** guia .
+1. Clique na **Descrição** de um registro de cobrança para abrir a guia **Detalhes do Registro de Cobrança**.
 
-1. Clique em **Horas Faturáveis** no painel esquerdo.
-1. Se houver horas que possam ser incluídas em um registro de faturamento, clique em **Adicionar horas**.\
-   O **Adicionar Horas Faturáveis** será aberta.
+1. Clique em **Horas faturáveis** no painel esquerdo.
+1. Se houver horas que possam ser incluídas em um registro de cobrança, clique em **Adicionar horas**.\
+   A caixa **Adicionar horas faturáveis** é aberta.
 
    >[!NOTE]
    >
-   >Se não houver horas registradas ou se as horas registradas não atenderem às condições necessárias para serem adicionadas a um registro de faturamento, a variável **Adicionar horas** não é exibido. Para obter mais informações sobre quais horas podem ser registradas em um registro de faturamento, consulte a seção [Quais horas podem ser adicionadas a um registro de faturamento](#what-hours-can-be-added-to-a-billing-record) neste artigo.
+   >Se não houver horas registradas ou se as horas registradas não atenderem às condições necessárias para serem adicionadas a um registro de cobrança, o botão **Adicionar horas** não será exibido. Para obter mais informações sobre quais horas podem ser registradas em um registro de cobrança, consulte a seção [Quais horas podem ser adicionadas a um registro de cobrança](#what-hours-can-be-added-to-a-billing-record) neste artigo.
 
-1. Selecione as entradas de hora que deseja incluir no registro de faturamento e clique em **Adicionar horas**.\
-   O Custo Real das horas é adicionado como o **Horas Faturáveis** do **Total do Registro de Faturamento**.
+1. Selecione as entradas de horas que deseja incluir no registro de cobrança e clique em **Adicionar horas**.\
+   O Custo Efetivo das horas é adicionado como o **Valor de Horas Faturáveis** para o **Total de Registros de Cobrança**.
 
-1. (Opcional) Clique em **Detalhes dos Registros de Faturamento** para revisar a **Horas Faturáveis** e **Total do Registro de Faturamento** montantes. Você também pode ver o total do registro de faturamento no cabeçalho do registro de faturamento.
+1. (Opcional) Clique em **Detalhes de Registros de Cobrança** para examinar os valores de **Horas Faturáveis** e **Total de Registros de Cobrança**. Você também pode ver o total do registro de cobrança no cabeçalho do registro de cobrança.
 
-### Incluir Despesas Faturáveis em um registro de faturamento {#include-billable-expenses-in-a-billing-record}
+### Incluir Despesas Faturáveis em um registro de cobrança {#include-billable-expenses-in-a-billing-record}
 
-Se estiver adicionando Despesas Faturáveis ao registro de faturamento, verifique se as despesas das tarefas e do projeto estão marcadas como Faturáveis. As despesas não marcadas como Faturáveis não estão disponíveis para adicionar um registro de cobrança. Para obter mais informações sobre como adicionar despesas, consulte o artigo [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Se você estiver adicionando Despesas Faturáveis ao registro de faturamento, certifique-se de que as despesas nas tarefas e no projeto estejam marcadas como Faturáveis. Despesas que não estão marcadas como Faturáveis não estão disponíveis para serem adicionadas em um registro de cobrança. Para obter mais informações sobre como adicionar despesas, consulte o artigo [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 Para adicionar despesas faturáveis a um registro de faturamento:
 
 1. Vá para o projeto com os registros de cobrança.
 1. Clique em **Registros de cobrança** no painel esquerdo.
 
-   Talvez seja necessário clicar em **Mostrar mais**, em seguida **Registros de cobrança**.
+   Talvez seja necessário clicar em **Mostrar mais** e depois em **Registros de cobrança**.
 
-1. Clique no botão **Descrição** de um registro de faturamento para abrir o **Detalhes do Registro de Faturamento** guia .
+1. Clique na **Descrição** de um registro de cobrança para abrir a guia **Detalhes do Registro de Cobrança**.
 
-1. Clique em **Despesas Faturáveis** no painel esquerdo.
-1. (Condicional) Se você tiver adicionado despesas às suas tarefas ou ao projeto e as tiver marcado como Faturável, clique em **Adicionar Despesas**.
+1. Clique em **Despesas faturáveis** no painel esquerdo.
+1. (Condicional) Se você tiver adicionado despesas às suas tarefas ou ao projeto e as tiver marcado como Faturáveis, clique em **Adicionar despesas**.
 
    >[!NOTE]
    >
-   >Se você tiver despesas, mas elas não forem marcadas como Faturáveis, a variável **Adicionar Despesas** não é exibido. Somente as despesas faturáveis com uma Quantia Real maior que zero são elegíveis para serem incluídas em um registro de faturamento.
+   >Se você tiver despesas, mas elas não estiverem marcadas como Faturáveis, o botão **Adicionar Despesas** não será exibido. Somente despesas faturáveis com um Valor Efetivo maior que zero são elegíveis para serem incluídas em um registro de cobrança.
 
-1. Selecione as despesas faturáveis disponíveis para serem adicionadas ao registro de faturamento e clique em **Adicionar Despesas**.\
-   A Quantia Real das despesas é adicionada como a **Despesas Faturáveis** do **Total do Registro de Faturamento**.
+1. Selecione as despesas faturáveis disponíveis para serem adicionadas ao registro de cobrança e clique em **Adicionar despesas**.\
+   O Valor Efetivo das despesas é adicionado como o valor de **Despesas Faturáveis** para o **Total de Registro de Cobrança**.
 
-1. (Opcional) Clique em **Detalhes dos Registros de Faturamento** para revisar a **Despesas Faturáveis** e **Total do Registro de Faturamento** montantes. Você também pode ver o total do registro de faturamento no cabeçalho do registro de faturamento.
+1. (Opcional) Clique em **Detalhes de Registros de Cobrança** para examinar os valores de **Despesas Faturáveis** e **Total de Registros de Cobrança**. Você também pode ver o total do registro de cobrança no cabeçalho do registro de cobrança.
 
-### Incluir receitas fixas em um registro de faturamento {#include-fixed-revenues-in-a-billing-record}
+### Incluir receitas fixas em um registro de cobrança {#include-fixed-revenues-in-a-billing-record}
 
-Você pode adicionar Receita Fixa aos seus registros de faturamento se tiver tarefas com Receita Fixa disponíveis. Nenhum outro tipo de tarefa ou receita de projeto está disponível para ser adicionado em um registro de cobrança. Para obter mais informações sobre tipos de receita, consulte [Visão Geral da Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) seção em [Visão Geral da Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Você pode adicionar Receitas Fixas aos seus registros de faturamento se tiver tarefas com Receita Fixa disponível. Nenhum outro tipo de tarefa ou receita de projeto está disponível para ser adicionado em um registro de cobrança. Para obter mais informações sobre tipos de receita, consulte a seção [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) em [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 Para adicionar receitas fixas a um registro de faturamento:
 
 1. Vá para o projeto com os registros de cobrança.
 1. Clique em **Registros de cobrança** no painel esquerdo.
 
-   Talvez seja necessário clicar em **Mostrar mais**, em seguida **Registros de cobrança**.
+   Talvez seja necessário clicar em **Mostrar mais** e depois em **Registros de cobrança**.
 
-1. Clique no botão **Descrição** de um registro de faturamento para abrir o **Detalhes do Registro de Faturamento** guia .
+1. Clique na **Descrição** de um registro de cobrança para abrir a guia **Detalhes do Registro de Cobrança**.
 
-1. Selecione o **Receitas Fixas** guia .
+1. Selecione a guia **Receitas fixas**.
 1. Se você tiver adicionado receitas fixas às suas tarefas, clique em **Adicionar receitas fixas**.
 
    >[!NOTE]
    >
-   >Se você tiver valores de receita em tarefas, mas eles não estiverem marcados como &quot;Fixo&quot;, a variável **Adicionar receita fixa** não é exibido.
+   >Se você tiver valores de receita em tarefas que não estão marcadas como &quot;Fixas&quot;, o botão **Adicionar Receita Fixa** não será exibido.
 
-1. Selecione as tarefas cujas receitas fixas você deseja incluir no registro de faturamento e clique em **Adicionar Tarefas**.\
-   O **Receita fixa** a quantidade de tarefas é adicionada como **Receitas Faturáveis** do **Total do Registro de Faturamento**.
+1. Selecione as tarefas cujas receitas fixas você deseja incluir no registro de cobrança e clique em **Adicionar tarefas**.\
+   O valor de **Receita Fixa** das tarefas é adicionado como o valor de **Receitas Faturáveis** para o **Total de Registro de Cobrança**.
 
-1. (Opcional) Clique em **Detalhes dos Registros de Faturamento** para revisar a **Receitas Faturáveis** e **Total do Registro de Faturamento** montantes. Você também pode ver o total do registro de faturamento no cabeçalho do registro de faturamento.
+1. (Opcional) Clique em **Detalhes de Registros de Cobrança** para examinar os valores de **Receitas Faturáveis** e **Total de Registros de Cobrança**. Você também pode ver o total do registro de cobrança no cabeçalho do registro de cobrança.
 
-## Editar um registro de faturamento
+## Editar um registro de cobrança
 
-Depois de criar um registro de faturamento, incluindo horas, despesas e receitas no registro de faturamento, você pode editar algumas informações no registro existente, antes que sejam marcadas como Faturadas.
+Depois de criar um registro de cobrança e incluir horas, despesas e receitas no registro de cobrança, você pode editar algumas informações no registro existente, antes que ele seja marcado como Faturado.
 
 1. Vá para o registro de cobrança.
-1. Com **Detalhes do Registro de Faturamento** selecionado no painel esquerdo , edite as informações em qualquer campo disponível
+1. Com **Detalhes do Registro de Cobrança** selecionados no painel esquerdo, edite as informações em todos os campos disponíveis
 
    Ou
 
-   Clique no botão **Ícone Editar** ![](assets/edit-icon.png) no canto superior direito, edite as informações em qualquer campo disponível.
+   Clique no **ícone Editar** ![](assets/edit-icon.png) no canto superior direito e edite as informações em todos os campos disponíveis.
 
    Atualize o seguinte:
 
    * **Descrição**
-   * **Status da Cobrança**
+   * **Status de Cobrança**
 
-      >[!TIP]
-      >
-      >Se você selecionar **Faturado** para o Status de Faturamento, o registro de faturamento não pode ser editado depois que você salva as alterações.
+     >[!TIP]
+     >
+     >Se você selecionar **Faturado** para o Status de Cobrança, o registro de cobrança não poderá ser editado depois que você salvar as alterações.
 
    * **Data de Cobrança**
-   * **Número do Pedido**
-   * **ID da Fatura**
+   * **Número da OC**
+   * **ID da fatura**
    * **Valor adicional**
 
    Os seguintes campos não estão disponíveis para edição:
 
-   * **Horas Faturáveis:** O total da Receita Real das horas incluídas no registro de faturamento. Para obter mais informações sobre como incluir horas em um registro de faturamento, consulte a seção [Incluir Horas Faturáveis em um registro de faturamento](#include-billable-hours-in-a-billing-record) neste artigo.
+   * **Horas Faturáveis:** O total da Receita Efetiva das horas incluídas no registro de cobrança. Para obter mais informações sobre como incluir horas em um registro de cobrança, consulte a seção [Incluir horas faturáveis em um registro de cobrança](#include-billable-hours-in-a-billing-record) neste artigo.
 
-   * **Despesas Faturáveis**: O total da Quantia Real das despesas faturáveis incluídas no registro de faturamento. Para obter mais informações sobre como incluir despesas faturáveis em um registro de faturamento, consulte a seção [Incluir Despesas Faturáveis em um registro de faturamento](#include-billable-expenses-in-a-billing-record) neste artigo.
+   * **Despesas faturáveis**: o valor total das despesas faturáveis incluídas no registro de cobrança. Para obter mais informações sobre como incluir despesas faturáveis em um registro de cobrança, consulte a seção [Incluir despesas faturáveis em um registro de cobrança](#include-billable-expenses-in-a-billing-record) neste artigo.
 
-   * **Receitas Faturáveis**: O total da Receita fixa das tarefas incluídas no registro de faturamento. Para obter mais informações sobre como incluir receitas fixas em um registro de faturamento, consulte a seção [Incluir receitas fixas em um registro de faturamento](#include-fixed-revenues-in-a-billing-record) neste artigo.
+   * **Receitas faturáveis**: o total da receita fixa das tarefas incluídas no registro de cobrança. Para obter mais informações sobre como incluir receitas fixas em um registro de cobrança, consulte a seção [Incluir receitas fixas em um registro de cobrança](#include-fixed-revenues-in-a-billing-record) neste artigo.
 
-   * **Total do Registro de Faturamento**: O total de todos os valores faturáveis. Isso é calculado pela seguinte fórmula:
+   * **Total de registros de cobrança**: o total de todos os valores faturáveis. Isso é calculado pela seguinte fórmula:
 
-      ```
-      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
-      ```
-
+     ```
+     Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
+     ```
 
 1. Clique em **Salvar***Alterações**.

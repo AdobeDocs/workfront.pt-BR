@@ -54,7 +54,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td> <p>Você deve ter um dos seguintes:</p> 
     <ul> 
      <li> <p>O nível de acesso Administrador do sistema. Para obter informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>. </p> </li> 
-     <li> <p><b>Usuários</b> no seu nível de acesso configurado para <b>Editar</b> acesso, com <b>Criar</b> e pelo menos um dos dois <b>Administrador de Usuários</b> opções ativadas em <b>Ajuste as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o usuário <b>Administrador (Usuários de grupo)</b> estiver ativado, você deve ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> <p>Para obter mais informações sobre o <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
+     <li> <p>A configuração <b>Usuários</b> no seu nível de acesso foi configurada para <b>Editar</b> acesso, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o Usuário <b>Administrador (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> <p>Para obter mais informações sobre a configuração <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,25 +62,25 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 ## Use um arquivo de importação de planilha para importar usuários
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
 
-1. Clique em **Novo usuário** seta suspensa e clique em **Importar usuários**.
+1. Clique na seta suspensa **Novo Usuário** e clique em **Importar Usuários**.
 
-1. No **Importar usuários** que é exibida, baixe o arquivo de amostra e atualize-o para incluir as informações pessoais do seu próprio usuário.
+1. Na caixa **Importar Usuários** que é exibida, baixe o arquivo de amostra e atualize-o para incluir suas informações pessoais de usuário.
 
    Cada linha inclui os seguintes campos:
 
    * **Nome**
    * **Sobrenome**
-   * **Endereço de e-mail**
+   * **Endereço de email**
 
      Os endereços de email devem ser exclusivos.
 
-   * **Nível de acesso**
+   * **Nível de Acesso**
 
      Os Níveis de acesso fazem distinção entre maiúsculas e minúsculas.
 
-   * **ID de Login de SSO**
+   * **ID de Logon do SSO**
 
      Este campo só será incluído se o SSO estiver habilitado no sistema. Você deve adicionar a ID da Federação neste campo para cada usuário. Ao criar um usuário na guia Pessoas, você pode configurar uma senha para o usuário se quiser permitir que os usuários façam logon sem SSO. No entanto, o recurso de importação não permite que você deixe a ID DE LOGON DE SSO em branco.
 
@@ -88,13 +88,13 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
    Quando terminar de usar uma linha, ela deverá ter esta aparência:
 
-   ![import-new-users.png](assets/importing-new-users.png)
+   ![importando-novos-usuários.png](assets/importing-new-users.png)
 
 1. Salve o arquivo em um local na estação de trabalho.
-1. Clique em **Escolher arquivo** no **Importar usuários** caixa.
+1. Clique em **Escolher arquivo** na caixa **Importar usuários**.
 
 1. Navegue até o arquivo salvo e selecione-o.
-1. (Opcional) Selecione a **Enviar um email de convite a este usuário** opção para enviar um convite por email ao usuário, notificando-o de que uma conta do Workfront foi criada e solicitando que ele defina sua senha.
+1. (Opcional) Selecione a opção **Enviar um email de convite para este usuário** para enviar um convite por email para o usuário, notificando-o de que uma conta do Workfront foi criada e solicitando que ele defina sua senha.
 
    Desmarque essa opção se desejar definir a senha do usuário.
 

@@ -29,7 +29,7 @@ Por exemplo, você pode anexar um formulário personalizado chamado &quot;Pesqui
 
 ## Como criar um formulário personalizado
 
-Há duas opções para criar um formulário personalizado no [!DNL Workfront]. Você pode usar o construtor de formulários personalizado Herdado ou o novo designer de formulários:
+Há duas opções para criar um formulário personalizado em [!DNL Workfront]. Você pode usar o construtor de formulários personalizado Herdado ou o novo designer de formulários:
 
 * [Construtor de formulários personalizados herdados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [Designer de formulários](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)

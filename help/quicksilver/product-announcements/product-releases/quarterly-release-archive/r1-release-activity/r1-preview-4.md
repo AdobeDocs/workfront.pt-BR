@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão R1.4. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 15 de fevereiro de 2017.
 
-Para obter uma lista de todas as alterações feitas no R1, consulte [A versão Workfront R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
+Para obter uma lista de todas as alterações feitas em R1, consulte [A versão Workfront R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
 
 ## Aprovação de projetos, tarefas e problemas atualizada
 
@@ -43,7 +43,7 @@ Ao associar um processo de aprovação a um projeto, tarefa ou problema, os segu
 * Aparência e comportamento atualizados.
 * O diagrama de aprovação é exibido na guia Approvals, mostrando uma representação visual das etapas de aprovação anteriores, atuais e futuras.
 
-Para obter mais informações sobre como associar aprovações a projetos, tarefas e problemas, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Para obter mais informações sobre como associar aprovações a projetos, tarefas e problemas, consulte [Associar um processo de aprovação novo ou existente a um trabalho](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Alterar o status de um projeto diretamente da página do projeto
 
@@ -61,7 +61,7 @@ Agendar a desativação de um usuário pode ser útil em vários cenários. Por 
 
 Esse recurso também está disponível ao editar usuários em massa. 
 
-Para obter mais informações sobre como programar usuários para desativação, consulte [Desativar ou reativar um usuário](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) e [Adicionar usuários](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Para obter mais informações sobre como agendar usuários para desativação, consulte [Desativar ou reativar um usuário](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) e [Adicionar usuários](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Novas opções de resumo de email para &quot;Ações necessárias&quot;
 
@@ -92,7 +92,7 @@ Há uma nova interface para o gerenciamento de Grupos e Subgrupos que oferece um
 
 O campo Proprietários do grupo e o campo Membros do grupo agora são combinados em um único campo, com uma lista de membros do grupo listados abaixo. Além disso, você pode filtrar a lista de membros do grupo e alterar se eles são um Proprietário ou um Membro. 
 
-Para obter mais informações sobre como adicionar subgrupos a grupos, bem como designar usuários como membros ou proprietários de grupos, consulte [Criar um grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Criar um grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+Para obter mais informações sobre como adicionar subgrupos a grupos e designar usuários como membros ou proprietários de grupos, consulte [Criar um grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Criar um grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
  
 

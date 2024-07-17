@@ -21,7 +21,7 @@ Esta seção contém os seguintes artigos sobre como você pode conceder e solic
 
 * [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 * [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-* [Conceder acesso a objetos na área Página inicial](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
+* [Conceder acesso a objetos na área Página Inicial](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
 * [Solicitar acesso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
@@ -36,13 +36,13 @@ Esta seção contém os seguintes artigos sobre como você pode conceder e solic
 * [Compartilhar um documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [Compartilhar uma pasta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
 * [Compartilhar relatórios, painéis e calendários](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
-* [Compartilhar um filtro, uma exibição ou um agrupamento](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Compartilhar um filtro, exibição ou agrupamento](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Compartilhar um plano no Planejador de cenários](../../scenario-planner/share-a-plan.md)
 
   Isso requer uma licença adicional do Planejador de cenários do Workfront. Para obter informações, consulte [Acesso necessário para usar o Planejador de cenários](../../scenario-planner/access-needed-to-use-sp.md).
 
 * [Compartilhar uma meta no Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-  Isso requer uma licença adicional para o Workfront Goals. Para obter informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  Isso requer uma licença adicional para o Workfront Goals. Para obter informações, consulte [Requisitos para usar as Metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* [Configuração do acesso ao Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+* [Configurar acesso ao Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).

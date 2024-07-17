@@ -5,7 +5,8 @@ title: Adicionar um relatório de aprovações pendentes a um Painel da tela
 description: Um relatório de aprovações pendentes que inclui dados sobre suas decisões de aprovação pendentes e passadas pode ser adicionado a um Painel de controle da tela.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Um relatório de aprovações pendentes que inclui dados sobre suas decisões de aprovação pendentes e passadas pode ser adicionado a um Painel de controle da tela.
 
-Para obter informações gerais sobre como adicionar e organizar relatórios em um Painel de Controle da Tela de Pintura, consulte [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Para obter informações gerais sobre como adicionar e organizar relatórios em um Painel da Tela de Pintura, consulte [Adicionar, remover ou organizar relatórios em um Painel da Tela de Pintura](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
 
 ## Requisitos de acesso
 
@@ -49,4 +50,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 >[!IMPORTANT]
 >
->Este artigo ainda não foi concluído. Consulte as instruções gerais para adicionar um relatório a um Painel da tela no artigo [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>Este artigo ainda não foi concluído. Consulte as instruções gerais para adicionar um relatório a um Painel da Tela no artigo [Adicionar, remover ou organizar relatórios em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).

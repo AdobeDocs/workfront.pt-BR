@@ -32,14 +32,14 @@ Sua organização deve ter as seguintes opções para usar a funcionalidade desc
 
 Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 
-Para obter informações adicionais sobre o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Esta seção contém as seguintes subseções:
 
-* [Visão geral dos objetivos do Adobe Workfront](../workfront-goals/goal-management/wf-goals-overview.md)
-* [Gerenciamento de metas no Adobe Workfront Goals](../workfront-goals/goal-management/goal-management.md)
-* [Alinhamento de metas nas Metas do Adobe Workfront](../workfront-goals/goal-alignment/goal-alignment.md)
-* [Revisão de metas e as seções de Metas do Adobe Workfront](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+* [Visão geral das metas do Adobe Workfront](../workfront-goals/goal-management/wf-goals-overview.md)
+* [Gerenciamento de metas nas Metas do Adobe Workfront](../workfront-goals/goal-management/goal-management.md)
+* [Alinhamento de metas em Metas do Adobe Workfront](../workfront-goals/goal-alignment/goal-alignment.md)
+* [Seções Revisão de metas e Metas do Adobe Workfront](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Resultados e atividades no Adobe Workfront Goals](../workfront-goals/results-and-activities/results-and-activities.md)
 
   <!--

@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
@@ -64,7 +64,7 @@ Antes de começar a usar o modo de texto em um relatório ou lista, sempre verif
 
 Para obter mais informações, consulte:
 
-* [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Visão geral do Modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
@@ -76,14 +76,14 @@ A edição de uma visualização usando o modo de texto é idêntica para relat�
 >
 >Recomendamos que você crie o máximo possível da exibição no modo padrão e, em seguida, converta-a para o modo de texto para editá-la.
 
-Para obter informações sobre a criação de exibições, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obter informações sobre como criar exibições, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 Para obter informações sobre como criar um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Siga um destes procedimentos:
 
-   1. Para acessar a exibição de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > **Colunas (Exibir)** guia.
-   1. Para acessar a visualização em uma lista, vá para a lista e no **Exibir** menu suspenso, passe o mouse sobre a exibição que deseja modificar e clique no **Editar** ícone ![](assets/edit-icon.png).
+   1. Para acessar o modo de exibição de um relatório, vá para o relatório e clique na guia **Ações de Relatório** > **Editar** > **Colunas (Modo de Exibição)**.
+   1. Para acessar a exibição de uma lista, vá para a lista e, no menu suspenso **Exibir**, passe o mouse sobre a exibição que você deseja modificar e clique no ícone ![](assets/edit-icon.png) de **Editar**.
 
       O construtor de exibições é aberto.
 
@@ -91,7 +91,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
    Ou
 
-   Selecione o **Colunas (Exibir)** do report builder e, em seguida, selecione uma coluna.
+   Selecione a guia **Colunas (Exibição)** do Report Builder e, em seguida, selecione uma coluna.
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
    >[!NOTE]
    >
-   >Ao editar uma coluna no modo texto, o Workfront adiciona a variável `textmode=true` linha de código para a coluna. Isso indica que a coluna é modificada no modo de texto.
+   >Ao editar uma coluna no modo texto, o Workfront adiciona a linha de código `textmode=true` à coluna. Isso indica que a coluna é modificada no modo de texto.
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -201,15 +201,15 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
        </div>
 
    <div>
-      A variável <code>aggregator. </code>as linhas podem conter um <code>valuefield </code>ou um <code>valueexpression</code>.
+      As <code>aggregator. </code>linhas podem conter um <code>valuefield </code>ou um <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clique em **Aplicar** se quiser salvar suas alterações e continuar editando a visualização.
+1. Clique em **Aplicar** se desejar salvar suas alterações e continuar editando o modo de exibição.
 1. Clique em **Salvar + Fechar** para salvar seu relatório.
 
    Ou
 
-   Clique em **Salvar visualização** para salvar a visualização em uma lista.
+   Clique em **Salvar exibição** para salvar a exibição em uma lista.

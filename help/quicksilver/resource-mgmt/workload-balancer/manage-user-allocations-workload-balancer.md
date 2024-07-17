@@ -60,7 +60,7 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribua com permissões ou superiores que incluam Fazer atribuições às tarefas e problemas para os quais você deseja gerenciar alocações. </p> <p>Ou </p> <p>Gerencie permissões para as tarefas para as quais você deseja atualizar as Horas planejadas, além de atualizar alocações. Para obter informações sobre como atualizar Horas planejadas no Balanceador de carga de trabalho, consulte <a href="#update-task-planned-hours-when-managing-user-allocations">Atualizar Trabalho de Horas Planejadas da tarefa ao gerenciar alocações de usuários</a> neste artigo.</p> </td> 
+   <td> <p>Permissões do Contribute ou superiores que incluem Fazer atribuições nas tarefas e problemas para os quais você deseja gerenciar alocações. </p> <p>Ou </p> <p>Gerencie permissões para as tarefas para as quais você deseja atualizar as Horas planejadas, além de atualizar alocações. Para obter informações sobre como atualizar as Horas planejadas no Balanceador de carga de trabalho, consulte a seção <a href="#update-task-planned-hours-when-managing-user-allocations">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> neste artigo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,13 +73,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 As alocações de usuário são quantias de horas que indicam o tempo que um usuário deve gastar em um determinado dia ou dia da semana, semana ou mês para concluir o item de trabalho. Elas estão incluídas nas Horas Planejadas do item de trabalho.
 
-Este artigo descreve como atualizar alocações por hora diárias, semanais ou mensais para usuários atribuídos a tarefas ou problemas. Para obter informações sobre como gerenciar alocações gerais para usuários e funções de trabalho para tarefas, consulte [Gerenciar horas de alocação de usuários e funções em tarefas](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
+Este artigo descreve como atualizar alocações por hora diárias, semanais ou mensais para usuários atribuídos a tarefas ou problemas. Para obter informações sobre como gerenciar alocações gerais de usuários e funções de trabalho para tarefas, consulte [Gerenciar horas de alocação de usuários e funções em tarefas](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 ### Visão geral da alocação de usuários {#user-allocation-overview}
 
 Você pode exibir a alocação de usuários como horas ou como um valor percentual no Balanceador de carga de trabalho. Você pode ajustar horas ou porcentagens.
 
-As alocações de usuário são incluídas no número de Horas Planejadas de um item de trabalho. Para obter informações sobre o Trabalho necessário, consulte [Visão geral das Horas planejadas](../../manage-work/tasks/task-information/planned-hours.md).
+As alocações de usuário são incluídas no número de Horas Planejadas de um item de trabalho. Para obter informações sobre as Horas Planejadas, consulte [visão geral das Horas Planejadas](../../manage-work/tasks/task-information/planned-hours.md).
 
 As horas planejadas da tarefa são distribuídas igualmente entre todos os dias na duração da tarefa para o usuário atribuído à tarefa. Por exemplo, se uma tarefa tiver uma Duração de 5 dias e um total de 10 Horas Planejadas, o número de alocações diárias para a tarefa será de 2 horas. A alocação semanal é de 10 horas. Isso significa que um usuário está alocado para trabalhar na tarefa por 2 horas por dia. No entanto, você pode alterar manualmente a alocação diária do usuário usando o Balanceador de carga de trabalho.
 
@@ -117,13 +117,13 @@ Considere o seguinte ao localizar alocações diárias, semanais ou mensais para
 
 * Dois usuários em fusos horários ou agendamentos diferentes dos dos usuários atribuídos podem fazer com que os valores de alocação sejam exibidos de forma diferente para dois usuários que visualizam os mesmos itens de trabalho.
 
-* Quando um usuário tiver programado a folga, o dia ou a parte do dia será exibida em um plano de fundo cinza, <span class="preview">e um ícone de avião indica folga</span>. Se o administrador do Workfront ativou a configuração Tempo livre do usuário na área Configuração para considerar o tempo livre do usuário, as horas alocadas serão movidas para o próximo dia disponível na linha do tempo. Se a configuração estiver desativada, as horas alocadas permanecerão no dia marcado para folga e o usuário será exibido como superalocado. Para obter mais informações, consulte [Configurar preferências de projeto em todo o sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Quando um usuário tem uma folga programada, o dia ou a parte do dia é exibida em um plano de fundo cinza, <span class="preview">e um ícone de avião indica a folga</span>. Se o administrador do Workfront ativou a configuração Tempo livre do usuário na área Configuração para considerar o tempo livre do usuário, as horas alocadas serão movidas para o próximo dia disponível na linha do tempo. Se a configuração estiver desativada, as horas alocadas permanecerão no dia marcado para folga e o usuário será exibido como superalocado. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Se o tempo de folga tiver sido marcado depois que o usuário foi atribuído a um item de trabalho, você deverá recalcular a linha do tempo do projeto para exibir a alocação movida. Para obter informações, consulte [Recalcular linhas do tempo do projeto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * <span class="preview">Quando vários usuários são atribuídos a uma tarefa e o principal responsável tem uma folga agendada, a linha do tempo é deslocada (se as datas não forem fixas) e as horas planejadas de todos os responsáveis são redistribuídas pela nova duração da tarefa. Se a tarefa tiver datas fixas, a linha do tempo não será alterada devido ao tempo livre e as horas serão realocadas entre os dias restantes.</span>
+   * <span class="preview">Quando vários usuários são atribuídos a uma tarefa e o destinatário principal tem folga agendada, a linha do tempo é deslocada (se as datas não forem fixas) e as horas planejadas de todos os atribuídos são redistribuídas pela nova duração da tarefa. Se a tarefa tiver datas fixas, a linha do tempo não será alterada devido ao tempo livre, e as horas serão realocadas entre os dias restantes.</span>
    * <span class="preview">Se as alocações forem feitas manualmente, as horas planejadas não serão realocadas após o tempo de folga.</span>
 
 * Se houver vários usuários atribuídos à tarefa, a quantidade de Horas planejadas será distribuída uniformemente para cada usuário primeiro e, em seguida, uniformemente para cada dia dentro da Duração da tarefa. Essa distribuição se torna a alocação de cada usuário para a tarefa.
@@ -133,13 +133,13 @@ Considere o seguinte ao localizar alocações diárias, semanais ou mensais para
    * Para uma tarefa com Duração de 2 dias e com 10 Horas planejadas atribuídas a um usuário, a alocação diária para o usuário é de 5 horas para cada dia, por padrão.
    * Para uma tarefa com uma Duração de 2 dias e com 10 Horas planejadas atribuídas a dois usuários, a alocação diária para cada usuário é de 2,5 horas para cada dia por padrão.
 
-* Se uma tarefa ou problema for concluído antes da Data de conclusão planejada, o número de horas alocadas para os dias restantes será atingido e não contará para a alocação geral do usuário. Isso é exibido somente quando o ícone Mostrar alocações e a configuração Mostrar datas projetadas estão ativados. Para obter mais informações sobre como ativar configurações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* Se uma tarefa ou problema for concluído antes da Data de conclusão planejada, o número de horas alocadas para os dias restantes será atingido e não contará para a alocação geral do usuário. Isso é exibido somente quando o ícone Mostrar alocações e a configuração Mostrar datas projetadas estão ativados. Para obter mais informações sobre como habilitar configurações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
   ![Horas alocadas atingidas](assets/allocations-struck-through-highlighted.png)
 
 * Quando um usuário está superalocado, suas horas alocadas são exibidas com um fundo vermelho no campo do usuário.
 * Quando o usuário está subalocado ou recebe uma quantidade igual de horas do seu tempo disponível programado, as horas são exibidas com um plano de fundo azul.
-* Você pode exibir a alocação dos usuários em uma exibição de gráfico na linha do usuário. Para obter informações sobre como ativar a visualização de gráfico para alocações de usuários, consulte a seção &quot;Navegar pelo Balanceador de Carga de Trabalho&quot; no artigo [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* Você pode exibir a alocação dos usuários em uma exibição de gráfico na linha do usuário. Para obter informações sobre como habilitar a exibição de gráfico para alocações de usuários, consulte a seção &quot;Navegar pelo Balanceador de Carga de Trabalho&quot; no artigo [Navegar pelo Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
   ![Gráfico de alocação de usuários](assets/user-allocation-chart.png)
 
@@ -153,7 +153,7 @@ Nem todas as alterações de tarefa acionam as alocações modificadas para redi
 
 #### Ações que redefinem alocações ajustadas {#actions-that-reset-adjusted-allocations}
 
-As ações a seguir redefinem ou modificam as alocações diárias, semanais ou mensais para os usuários depois de ajustá-las manualmente, conforme descrito na [Modificar alocações de usuários](#modify-user-allocations) neste artigo:
+As ações a seguir redefinem ou modificam as alocações diárias, semanais ou mensais para os usuários depois de ajustá-las manualmente, conforme descrito na seção [Modificar alocações de usuários](#modify-user-allocations) deste artigo:
 
 * Quando você reduz a duração de um item de trabalho que diminui a quantidade de dias em sua Duração, as horas alocadas ajustadas dos dias perdidos são adicionadas à quantidade de alocação do último dia do item de trabalho.
 * Quando você altera a quantidade de Horas Planejadas em uma atribuição ou no item de trabalho, o novo número de Horas Planejadas é redistribuído uniformemente para toda a Duração do item de trabalho.
@@ -176,7 +176,7 @@ Considere o seguinte ao exibir as Horas planejadas no Balanceador de carga de tr
 * O total de Horas planejadas de uma tarefa ou problema é exibido ao lado do Nome da tarefa ou problema à esquerda do Balanceador de carga de trabalho.
 
 * O total de Horas planejadas de um projeto é exibido ao lado do Nome do projeto à esquerda do Balanceador de carga de trabalho. Representa o total de Horas planejadas para todas as tarefas e problemas listados no projeto no Balanceador de carga de trabalho e não todas as Horas planejadas do projeto.
-* O tempo alocado diariamente ou semanalmente para todas as tarefas e para todos os projetos é exibido somente quando você ativa manualmente a configuração Mostrar alocações. Para obter informações sobre como ativar configurações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* O tempo alocado diariamente ou semanalmente para todas as tarefas e para todos os projetos é exibido somente quando você ativa manualmente a configuração Mostrar alocações. Para obter informações sobre como habilitar configurações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Modificar alocações de usuários {#modify-user-allocations}
 
@@ -184,11 +184,11 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
 
 1. Verifique se você tem tarefas e problemas atribuídos aos usuários. Para obter informações sobre como atribuir trabalho a usuários no Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 1. Vá para o Balanceador de carga de trabalho.
-1. (Opcional) Clique em **Semana** ou **Month** para gerenciar alocações semanais ou mensais para os usuários.
+1. (Opcional) Clique em **Semana** ou **Mês** para gerenciar alocações semanais ou mensais para usuários.
 
-   ![Selecionar semana ou mês](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+   ![Selecionar Semana ou Mês](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
-1. No **Trabalho atribuído** localize o usuário para o qual deseja modificar manualmente a alocação e clique na seta à direita à esquerda do nome do usuário para expandir o usuário.
+1. Na área **Trabalho atribuído**, localize o usuário para o qual você deseja modificar manualmente a alocação e clique na seta à direita à esquerda do nome do usuário para expandi-lo.
 
    ![Expandir usuário](assets/wb-highlight-on-name-caret2.png)
 
@@ -198,30 +198,30 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
    >
    >Você pode modificar alocações de usuários somente para tarefas e problemas. Não é possível modificar alocações de usuários para projetos.
 
-1. (Opcional) Clique no link **Mostrar alocações** ícone ![](assets/show-allocations-icon-small.png) para exibir alocações para todos os itens de trabalho.
+1. (Opcional) Clique no ícone ![](assets/show-allocations-icon-small.png) de **Mostrar alocações** para exibir alocações para todos os itens de trabalho.
 
    O nome das tarefas e dos projetos é substituído pela alocação do usuário para a tarefa ou o projeto.
 
-1. (Opcional) Clique no link **Configurações** ícone ![](assets/gear-icon-settings.png) e selecione uma das seguintes opções:
+1. (Opcional) Clique no ícone ![](assets/gear-icon-settings.png) de **Configurações** e selecione uma das seguintes opções:
 
    1. **Incluir horas de problemas**. Isso permite gerenciar alocações de problemas, além de alocações de tarefas.
    1. **Mostrar o trabalho concluído**. Exibe itens que foram concluídos e que estão agendados durante a linha de tempo para a qual você gerencia alocações.
-   1. **Mostrar o tempo restante**. O número total de horas para cada usuário (na linha do usuário) é alterado. Com essa configuração ativada, o Balanceador de carga de trabalho exibe as horas que cada usuário tem disponíveis para trabalho em vez do número de horas para as quais estão alocados.
+   1. **Mostrar tempo restante**. O número total de horas para cada usuário (na linha do usuário) é alterado. Com essa configuração ativada, o Balanceador de carga de trabalho exibe as horas que cada usuário tem disponíveis para trabalho em vez do número de horas para as quais estão alocados.
 
       >[!TIP]
       >
       >Modificar alocações quando esta configuração estiver habilitada faz com que o número total na linha do usuário diminua.
 
-   1. **Projeto** no **Selecionar tema de cor** seção. Isso exibe cada projeto e seus respectivos itens de trabalho em cores exclusivas e facilita a compreensão de quais itens pertencem a qual projeto.
-   1. **Porcentagem** no **Exibir alocação de usuários em** seção. Isso exibe as alocações como um valor percentual. A capacidade do usuário de acordo com o agendamento é considerada como 100%. Por exemplo, se um usuário estiver associado a uma programação de 8 horas por dia, 8 horas será igual a 100% de capacidade. Se você quiser alocar o usuário para trabalhar 4 horas por dia, atualize essa alocação para 50%.
+   1. **Projeto** na seção **Selecionar tema de cor**. Isso exibe cada projeto e seus respectivos itens de trabalho em cores exclusivas e facilita a compreensão de quais itens pertencem a qual projeto.
+   1. **Percentual** na **Exibir alocação de usuários na** seção. Isso exibe as alocações como um valor percentual. A capacidade do usuário de acordo com o agendamento é considerada como 100%. Por exemplo, se um usuário estiver associado a uma programação de 8 horas por dia, 8 horas será igual a 100% de capacidade. Se você quiser alocar o usuário para trabalhar 4 horas por dia, atualize essa alocação para 50%.
 
       >[!NOTE]
       >
-      >O administrador do Workfront decide qual programação usar em seu sistema para calcular a capacidade do usuário na área Gerenciamento de recursos da Configuração. Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      >O administrador do Workfront decide qual programação usar em seu sistema para calcular a capacidade do usuário na área Gerenciamento de recursos da Configuração. Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Clique em **Mais** menu ![](assets/qs-more-menu.png) para um item de trabalho, depois clique em **Editar alocações**.
+1. Clique no menu **Mais** ![](assets/qs-more-menu.png) para um item de trabalho e clique em **Editar alocações**.
 
-   ![Menu Mais para item de trabalho](assets/more-menu-on-task-wb-nwe.png)
+   ![Mais menu para item de trabalho](assets/more-menu-on-task-wb-nwe.png)
 
    Ou
 
@@ -229,11 +229,11 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
 
    As caixas de alocação se tornam editáveis.
 
-1. Clique dentro da caixa de cada alocação diária, semanal ou mensal para atualizar manualmente a quantidade de horas ou o valor percentual para o qual deseja que o usuário seja alocado a cada dia, semana ou mês e, em seguida, clique na caixa **Salvar** ícone ![](assets/checkmark-icon.png).
+1. Clique dentro da caixa de cada alocação diária, semanal ou mensal para atualizar manualmente a quantidade de horas ou o valor percentual para o qual você deseja que o usuário seja alocado a cada dia, semana ou mês, e clique no ícone **Salvar** ![](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Clique em **Cancelar** ícone ![](assets/cancel-allocations-wb.png) para remover as alocações ajustadas.
+   >Clique no ícone **Cancelar** ![](assets/cancel-allocations-wb.png) para remover as alocações ajustadas.
 
    ![Salvar ou cancelar alocações ajustadas](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 
@@ -241,7 +241,7 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
 
    >[!TIP]
    >
-   >Se uma tarefa ou problema for concluído antes da Data de conclusão planejada, o número de horas alocadas para os dias restantes será atingido e não contará para a alocação geral do usuário. Isso é exibido somente quando as duas **Mostrar alocações** e o ícone **Mostrar datas projetadas** são ativadas.
+   >Se uma tarefa ou problema for concluído antes da Data de conclusão planejada, o número de horas alocadas para os dias restantes será atingido e não contará para a alocação geral do usuário. Isso é exibido apenas quando o ícone **Mostrar alocações** e a configuração **Mostrar datas projetadas** estão habilitados.
 
    Existem os seguintes cenários:
 
@@ -252,9 +252,9 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
      >
      >Um ícone de bloqueio é exibido à direita do nome da tarefa quando você começa a ajustar suas alocações para indicar que a tarefa tem um Tipo de Duração Simples.
 
-     ![Ícone Bloquear](assets/lock-icon-on-simple-task-in-the-balancer.png)
+     ![Ícone de bloqueio](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Para obter mais informações sobre as condições que precisam ser atendidas para atualizar o Trabalho necessário no Balanceador de carga de trabalho, consulte [Atualizar Trabalho de Horas Planejadas da tarefa ao gerenciar alocações de usuários](#update-task-planned-hours-when-managing-user-allocations) neste artigo. Para obter informações sobre Tipos de duração de tarefa, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Para obter mais informações sobre as condições que precisam ser atendidas para atualizar as Horas planejadas no Balanceador de carga de trabalho, consulte a seção [Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário](#update-task-planned-hours-when-managing-user-allocations) neste artigo. Para obter informações sobre os Tipos de Duração da tarefa, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Condicional) Se a tarefa for atribuída a mais de um usuário, repita essas etapas para cada usuário atribuído à tarefa para atualizar as alocações para cada usuário.
 
@@ -264,7 +264,7 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
 >
 >Um ícone de lápis é exibido à direita do nome do item de trabalho para indicar que ele foi ajustado manualmente.
 
-![Ícone de Horas ajustadas manualmente](assets/icon-for-manually-adjusted-hours.png)
+![Ícone de horas ajustadas manualmente](assets/icon-for-manually-adjusted-hours.png)
 
 ## Atualizar Trabalho de Horas Planejadas da tarefa ao gerenciar alocações de usuários {#update-task-planned-hours-when-managing-user-allocations}
 
@@ -273,7 +273,7 @@ Você pode atualizar as Horas planejadas de uma tarefa ao gerenciar alocações 
 >[!IMPORTANT]
 >
 >* Atualizar as Horas planejadas para as tarefas pode afetar o progresso em seu projeto.
->* Atualizar manualmente as Horas Planejadas alterando as alocações diárias pode ter impacto nas Horas Planejadas ao remover atribuições das tarefas no futuro. Para obter mais informações, consulte [Visão geral das Horas planejadas](../../manage-work/tasks/task-information/planned-hours.md).
+>* Atualizar manualmente as Horas Planejadas alterando as alocações diárias pode ter impacto nas Horas Planejadas ao remover atribuições das tarefas no futuro. Para obter mais informações, consulte [visão geral das Horas planejadas](../../manage-work/tasks/task-information/planned-hours.md).
 >
 >* Não é possível atualizar o Trabalho necessário para ocorrências atualizando as alocações no Balanceador de carga de trabalho.
 
@@ -284,7 +284,7 @@ Isso é possível quando as seguintes condições existem:
    * Gerencie permissões para as tarefas.
    * Atualize o Trabalho necessário no acesso Balanceador de carga de trabalho na área Gerenciamento de recursos do seu Nível de acesso.
 
-  Para obter mais informações sobre o acesso necessário para usar o Balanceador de carga de trabalho, consulte [Requisitos de acesso](#access-requirements) neste artigo.
+  Para obter mais informações sobre o acesso necessário para usar o Balanceador de carga de trabalho, consulte a seção [Requisitos de acesso](#access-requirements) neste artigo.
 
 * A tarefa tem um Tipo de duração de Simples.
 

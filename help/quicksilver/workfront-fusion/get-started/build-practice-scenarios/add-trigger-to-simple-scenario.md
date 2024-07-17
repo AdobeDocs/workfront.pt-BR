@@ -6,7 +6,8 @@ title: Adicionar um módulo de acionamento a um cenário básico
 description: Saiba como adicionar um módulo de acionamento para permitir que o cenário procure novas solicitações periodicamente e as converta em projetos.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ea3f932e02ad8a9416747d4b9aefe89d087dd414
+exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Os módulos de sondagem verificam o serviço em um intervalo de tempo definido e
 
 Neste exemplo, você adicionará um módulo de acionador que é executado a cada 15 minutos e iniciará um cenário se alguma solicitação tiver sido enviada para uma fila específica. O cenário converte essas solicitações em um projeto.
 
-Este exemplo modifica o cenário criado no [Criar um cenário básico](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+Este exemplo modifica o cenário criado em [Criar um cenário básico](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 ## Pré-requisitos
 
@@ -36,16 +37,16 @@ Você deve criar o cenário descrito em [Criar um cenário básico](/help/quicks
 
    O módulo é excluído, deixando um espaço reservado em branco.
 
-1. Clique no módulo e selecione **Adobe Workfront** na lista de aplicativos.
-1. Selecionar **Assistir ao registro**.
+1. Clique no módulo em branco e selecione **Adobe Workfront** na lista de aplicativos.
+1. Selecione **Assistir Registro**.
 1. Certifique-se de que o módulo usa a mesma conexão que o restante dos módulos no cenário.
 1. No campo Filtro, selecione **Somente novos registros**.
-1. Na caixa Saídas, selecione `ID`, `Name`, e `Project ID`.
+1. Na caixa Saídas, selecione `ID`, `Name` e `Project ID`.
 1. Clique em **OK** para salvar as configurações do módulo.
 
    A janela Escolha onde iniciar é exibida.
 
-1. Selecionar **De agora em diante**.
+1. Selecione **De agora em diante**.
 
 ### Agendar o módulo de acionamento
 
@@ -71,10 +72,10 @@ Como o primeiro módulo foi substituído, o segundo módulo deve ser mapeado par
 1. Acesse o ambiente do Workfront ao qual o Fusion está se conectando e adicione um problema.
 1. Clique em **[!UICONTROL Executar uma vez]** no canto inferior esquerdo do editor de cenários.
 1. Examine a saída para garantir que o cenário seja executado conforme esperado.
-1. Quando estiver satisfeito com o funcionamento do cenário, clique no link **Agendamento** no canto inferior esquerdo da tela, alterne para **Ligado**.
+1. Quando estiver satisfeito com o funcionamento do cenário, clique no botão de alternância **Agendamento** no canto inferior esquerdo da tela para **Ativado**.
 
    Isso ativa o cenário.
-1. Entrada [!DNL Workfront Fusion], clique em **[!UICONTROL Salvar]** próximo ao canto inferior esquerdo para salvar seu progresso no cenário.
+1. Em [!DNL Workfront Fusion], clique em **[!UICONTROL Salvar]** próximo ao canto inferior esquerdo para salvar seu progresso no cenário.
 
    >[!IMPORTANT]
    >
@@ -82,4 +83,4 @@ Como o primeiro módulo foi substituído, o segundo módulo deve ser mapeado par
 
 ## Recursos
 
-* Para obter mais informações sobre webhooks, consulte [Acionadores instantâneos (webhooks) no [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).
+* Para obter mais informações sobre webhooks, consulte [Acionadores instantâneos (webhooks) em [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento do terceiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis com a versão do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão do terceiro trimestre de 2024, consulte a [visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 
@@ -28,7 +28,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão do terc
 
 Atualizamos a lista de sugestões de Atribuições para um design mais moderno e consistente em todas as áreas do Workfront. Quando você adiciona uma atribuição a uma tarefa ou problema a partir da tela de cabeçalho, exibição de lista ou Atribuição avançada, a experiência é a mesma. As sugestões são divididas em seções para ajudar você a encontrar rapidamente a pessoa, a equipe ou a função de trabalho correta para a atribuição.
 
-Para obter informações, consulte [Atribuir tarefas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Atribuir problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md), e [Criar atribuições avançadas](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Para obter informações, consulte [Atribuir tarefas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Atribuir problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) e [Criar atribuições avançadas](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 ## Atualizações de aparência para formulários personalizados em detalhes do documento
 
@@ -38,7 +38,7 @@ Para obter informações, consulte [Atribuir tarefas](/help/quicksilver/manage-w
 
 Atualizamos a página Detalhes do documento > Forms personalizado para um design mais moderno e consistente com outras áreas do Workfront. A página agora oferece suporte a recursos avançados de formulário personalizado, como campos de Pesquisa externa.
 
-Para obter informações, consulte [Visão geral dos detalhes do documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+Para obter informações, consulte [Visão geral de Detalhes do Documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
 ## Atualizações de aparência para formulários personalizados em detalhes de iteração
 

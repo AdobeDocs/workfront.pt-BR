@@ -39,12 +39,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações sobre o cálculo de finanças no Adobe Workfront
 
@@ -75,25 +75,25 @@ Quando os dados financeiros de um projeto são recalculados, o Workfront recalcu
 
 As taxas de receita podem mudar durante a vida útil de um projeto.
 
-Para obter mais informações sobre taxas de faturamento e receita, consulte o artigo [Visão geral de faturamento e receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Para obter mais informações sobre taxas de cobrança e receita, consulte o artigo [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 As taxas de receita podem mudar nos seguintes níveis:
 
 * O nível do sistema (para funções de trabalho)\
-  Para obter mais informações sobre como criar funções de trabalho com taxas de faturamento no nível do sistema, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Para obter mais informações sobre como criar funções de trabalho com taxas de cobrança no nível do sistema, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * O nível de usuário\
-  Para obter mais informações sobre como alterar as informações de taxa de faturamento dos usuários, consulte o artigo [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obter mais informações sobre como alterar as informações de taxa de cobrança dos usuários, consulte o artigo [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * O nível da Empresa (para funções de trabalho)\
   Para obter mais informações, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * O nível do projeto (para funções de trabalho)\
-  Para obter mais informações sobre substituição de taxas de função de trabalho no nível do projeto, consulte o artigo [Visão geral da substituição de Taxas de cobrança de função de trabalho e do cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Para obter mais informações sobre substituição de taxas de função de trabalho no nível do projeto, consulte o artigo [Visão geral da substituição de taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Por exemplo, a taxa de faturamento de um usuário muda durante o curso de um projeto de US$ 50 para US$ 75 por hora e você deseja que todos os dados existentes permaneçam calculados na taxa antiga (US$ 50 e hora). No entanto, quando as finanças do projeto são recalculadas, as tarefas que já têm dados financeiros existentes terão a receita atualizada para refletir a nova taxa de cobrança (de US$ 75 por hora).
 
-* [Preservar a receita do projeto criando um registro de cobrança](#preserve-project-revenue-by-creating-a-billing-record)
+* [Preserve a receita do projeto criando um registro de cobrança](#preserve-project-revenue-by-creating-a-billing-record)
 * [Preservar Receita do Projeto usando várias sobreposições de Taxa de Faturamento](#preserve-project-revenue-by-using-multiple-billing-rate-overrides)
 
 #### Preservar a receita do projeto criando um registro de cobrança {#preserve-project-revenue-by-creating-a-billing-record}
@@ -108,7 +108,7 @@ Para obter mais informações sobre como criar registros de cobrança, consulte 
 
 Quando as taxas de faturamento são alteradas para funções de trabalho no nível do projeto, é possível preservar a receita existente que já foi calculada no projeto usando várias sobreposições de taxas de faturamento que estão bloqueadas em um intervalo de tempo especificado.
 
-Para obter mais informações sobre o uso de sobreposições de várias taxas de faturamento, consulte o artigo [Visão geral da substituição de Taxas de cobrança de função de trabalho e do cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obter mais informações sobre o uso de substituições de várias taxas de cobrança, consulte o artigo [Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -122,11 +122,11 @@ As taxas de custo podem mudar nos seguintes níveis:
   Para obter mais informações sobre como criar funções de trabalho com taxas de custo no nível do sistema, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Nível do usuário\
-  Para obter mais informações sobre como alterar as informações de taxa de custo dos usuários, consulte o artigo [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obter mais informações sobre como alterar as informações de taxa de custo dos usuários, consulte o artigo [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Quando as taxas de faturamento são alteradas em qualquer nível mencionado acima, é possível preservar os custos existentes que já foram calculados no projeto, bloqueando o tempo registrado no projeto e calculado usando a taxa antiga em um registro de faturamento com status Faturado. Para obter mais informações sobre como criar registros de cobrança, consulte o artigo [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-Você também pode evitar o uso da opção Recalcular Finanças manual, caso não queira criar um registro de faturamento, conforme descrito na seção [Recalcular manualmente as finanças de um projeto](#manually-recalculate-finances-for-a-project) neste artigo.
+Você também pode evitar o uso da opção manual Recalcular Finanças se não quiser criar um registro de cobrança, conforme descrito na seção [Recalcular manualmente as finanças de um projeto](#manually-recalculate-finances-for-a-project) deste artigo.
 
 Quando você não recalcula as finanças do projeto ou quando bloqueia as horas registradas em um registro de cobrança faturado, as horas registradas após as alterações de taxa serão calculadas com a nova taxa e as horas registradas antes das alterações de taxa de custo permanecerão calculadas na taxa antiga.
 
@@ -136,19 +136,19 @@ Se as taxas forem alteradas durante a vida útil de um projeto e você quiser qu
 
 >[!NOTE]
 >
->Você pode impedir que os valores de receita sejam atualizados para refletir as novas taxas ao recalcular manualmente as finanças seguindo as etapas da seção [Preservar dados financeiros para tarefas com horas existentes](#preserve-financial-data-for-tasks-with-existing-hours) deste artigo. Os valores de custo são sempre atualizados para refletir as novas taxas quando você recalcula manualmente as finanças de um projeto.
+>Você pode impedir que os valores de receita sejam atualizados para refletir as novas taxas ao recalcular manualmente as finanças seguindo as etapas na seção [Preservar dados financeiros para tarefas com horas existentes](#preserve-financial-data-for-tasks-with-existing-hours) deste artigo. Os valores de custo são sempre atualizados para refletir as novas taxas quando você recalcula manualmente as finanças de um projeto.
 
 Você pode recalcular as finanças dos projetos no Workfront a partir da página do projeto ou de uma lista de projetos ou relatório.
 
-Você pode recalcular as finanças enquanto as edita em massa. Para obter informações, consulte a [Recalcular manualmente as finanças em massa](#manually-recalculate-finances-in-bulk) neste artigo.
+Você pode recalcular as finanças enquanto as edita em massa. Para obter informações, consulte a seção [Recalcular manualmente as finanças em massa](#manually-recalculate-finances-in-bulk) neste artigo.
 
-1. Vá para o projeto onde deseja recalcular as finanças e clique no link **Mais** ícone ![](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto.
+1. Vá para o projeto onde deseja recalcular as finanças e clique no ícone ![](assets/qs-more-icon-on-an-object.png) de **Mais** à direita do nome do projeto.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no botão **Mais** ícone ![](assets/qs-more-icon-on-an-object.png) no topo da lista.
+   Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no ícone ![](assets/qs-more-icon-on-an-object.png) de **Mais** na parte superior da lista.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -169,12 +169,12 @@ Você pode recalcular manualmente as finanças de vários projetos editando-os e
 
 >[!IMPORTANT]
 >
->Você pode impedir que os valores de receita sejam atualizados para refletir as novas taxas ao recalcular manualmente as finanças seguindo as etapas da seção [Preservar dados financeiros para tarefas com horas existentes](#preserve-financial-data-for-tasks-with-existing-hours) deste artigo. Os valores de custo são sempre atualizados para refletir as novas taxas quando você recalcula manualmente as finanças dos projetos.
+>Você pode impedir que os valores de receita sejam atualizados para refletir as novas taxas ao recalcular manualmente as finanças seguindo as etapas na seção [Preservar dados financeiros para tarefas com horas existentes](#preserve-financial-data-for-tasks-with-existing-hours) deste artigo. Os valores de custo são sempre atualizados para refletir as novas taxas quando você recalcula manualmente as finanças dos projetos.
 
 Para recalcular manualmente as finanças de vários projetos:
 
 1. Ir para uma lista de projetos.
-1. Selecione vários projetos na lista e clique no botão **Mais** ícone ![](assets/qs-more-icon-on-an-object.png) no topo da lista.
+1. Selecione vários projetos na lista e clique no ícone ![](assets/qs-more-icon-on-an-object.png) de **Mais** na parte superior da lista.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -200,4 +200,4 @@ As seguintes ações acionam o recálculo financeiro de projetos no Workfront:
 >
 >Quando você altera o status do projeto, somente os valores planejados são recalculados.
 
-Você também pode recalcular as finanças manualmente em **Mais** menu ![](assets/qs-more-menu.png) no nível do projeto, clicando em **Recalcular finanças**.
+Você também pode recalcular as finanças manualmente no menu **Mais** no nível do projeto, clicando em **Recalcular as finanças**.![](assets/qs-more-menu.png)

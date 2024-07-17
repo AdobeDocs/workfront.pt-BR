@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 1 2017.2
-description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão Beta 1 2017.2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 10 de maio de 2017.
+title: Atividade da versão 2017.2 do Beta 1
+description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 10 de maio de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 1 2017.2
+# Atividade da versão 2017.2 do Beta 1
 
-Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão Beta 1 2017.2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 10 de maio de 2017.
+Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 10 de maio de 2017.
 
 >[!IMPORTANT]
 >
 >A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-A versão Beta 1 2017.2 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2017.2 do Beta 1 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores:**
+**Para Administradores:**
 
 * [Restaurar Documentos](#restore-documents)
-* [Novo banner de visualização com informações de lançamento](#new-preview-banner-with-release-information) 
+* [Novo banner de visualização com informações de versão](#new-preview-banner-with-release-information) 
 * [Disponibilidade da API 7](#api-7-availability)
 
 **Para Todos Os Usuários:**
 
-* [Inscrever-se em tarefas e problemas](#subscribe-to-tasks-and-issues)
+* [Assinar Tarefas e Problemas](#subscribe-to-tasks-and-issues)
 * [Melhorias no Agendamento de Recursos](#resource-scheduling-improvements)
-* [Comparar provas](#compare-proofs)
-* [Novo campo para conjuntos de recursos para usuários e projetos](#new-field-for-resource-pools-for-users-and-projects)
-* [Aparência atualizada na lista de painéis](#updated-look-and-feel-in-the-dashboard-list)
-* [Remoção da funcionalidade de endossos no Workfront](#removing-the-endorsements-functionality-in-workfront)
+* [Comparar Provas](#compare-proofs)
+* [Novo Campo para Conjuntos de Recursos para Usuários e Projetos](#new-field-for-resource-pools-for-users-and-projects)
+* [Aparência e funcionalidade atualizadas na Lista de Painéis](#updated-look-and-feel-in-the-dashboard-list)
+* [Removendo a Funcionalidade de Endossos no Workfront](#removing-the-endorsements-functionality-in-workfront)
 * [Reordenar colunas em qualquer lista com o recurso de arrastar e soltar (a funcionalidade está sendo removida)](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
 ## Restaurar Documentos {#restore-documents}
@@ -50,13 +50,13 @@ Para obter mais informações, consulte [Restaurar itens excluídos](../../../..
 
 ## Novo banner de visualização com informações de lançamento {#new-preview-banner-with-release-information}
 
-O banner azul na parte superior do ambiente Visualizar sandbox agora exibe o nome da versão e o número da versão do ambiente Visualizar. Clicar no nome da versão levará você a um artigo do Site de ajuda, no qual você pode encontrar mais informações sobre a versão de Pré-visualização atual. Para obter mais informações sobre o Ambiente de pré-visualização da sandbox, consulte [O ambiente de sandbox de visualização do Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
+O banner azul na parte superior do ambiente Visualizar sandbox agora exibe o nome da versão e o número da versão do ambiente Visualizar. Clicar no nome da versão levará você a um artigo do Site de ajuda, no qual você pode encontrar mais informações sobre a versão de Pré-visualização atual. Para obter mais informações sobre o Ambiente de pré-visualização da sandbox, consulte [O Ambiente de pré-visualização da sandbox da Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 
 ## Disponibilidade da API 7 {#api-7-availability}
 
 A API 7 agora está disponível e inclui objetos novos e atualizados.
 
-Para obter mais informações, consulte [Novidades da API versão 7](../../../../wf-api/api/new-api-version-7.md).
+Para obter mais informações, consulte [Novidades na API versão 7](../../../../wf-api/api/new-api-version-7.md).
 
 ## Inscrever-se em tarefas e problemas {#subscribe-to-tasks-and-issues}
 
@@ -72,14 +72,14 @@ Para obter mais informações sobre a assinatura de problemas e tarefas, consult
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 As seguintes melhorias estão disponíveis ao agendar recursos:
 
-* [Exibir mais itens no cronograma de agendamento de recursos em uma única visualização](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
-* [Configurar o nome do projeto para exibir em tarefas e problemas na linha de tempo do cronograma](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
-* [Configurar se as tarefas pai são exibidas na linha de tempo de agendamento](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
-* [Expanda ou reduza mais facilmente todas as tarefas e problemas na linha de tempo de agendamento](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
+* [Exibir Mais Itens na Linha do Tempo do Agendamento de Recursos em uma Única Exibição](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
+* [Configurar o Nome do Projeto para Exibição em Tarefas e Problemas na Linha de Tempo do Agendamento](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
+* [Configure se as Tarefas Pai são Exibidas na Linha de Tempo de Agendamento](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
+* [Expanda ou Recolha Facilmente Todas as Tarefas e Problemas na Linha de Tempo do Agendamento](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
 * [As informações de função e usuário permanecem no topo da linha de tempo de agendamento ao rolar a tela](#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)
 
 ### Exibir mais itens no cronograma de agendamento de recursos em uma única visualização {#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view}
@@ -88,7 +88,7 @@ Ao agendar recursos para uma equipe ou para qualquer projeto para o qual você s
 
 Se você decidir mostrar nomes de projeto em cada tarefa e problema na linha do tempo de agendamento, o espaço vertical de cada tarefa e problema será expandido, resultando em menos tarefas e problemas sendo exibidos em um único modo de exibição.
 
-Para obter mais informações sobre a programação de recursos, consulte &quot;Introdução ao Agendamento de recursos&quot;.
+Para obter mais informações sobre o agendamento de recursos, consulte  &quot;Introdução ao Agendamento de recursos&quot;.
 
 ### Configurar o nome do projeto para exibir em tarefas e problemas na linha de tempo do cronograma {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +118,7 @@ Agora, ao rolar para baixo na linha do tempo de agendamento para exibir informa�
 
 Antes dessa alteração, o nome da função e o nome do usuário saíam da exibição atual.
 
-Para obter mais informações sobre a programação de recursos, consulte &quot;Introdução ao Agendamento de recursos&quot;.
+Para obter mais informações sobre o agendamento de recursos, consulte  &quot;Introdução ao Agendamento de recursos&quot;.
 
 ## Comparar provas {#compare-proofs}
 
@@ -134,7 +134,7 @@ A versão R1.5 apresentou uma nova funcionalidade em torno do Planejamento de re
 
 Agora é possível associar esses Conjuntos de recursos a projetos e usuários. Agora você verá um novo campo chamado &quot;Conjuntos de recursos&quot; no projeto, bem como no objeto do usuário.
 
-Para obter mais informações sobre os novos Conjuntos de recursos e como eles podem ser associados a projetos e usuários, consulte [Visão geral dos conjuntos de recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Para obter mais informações sobre os novos Conjuntos de Recursos e como eles podem ser associados a projetos e usuários, consulte [Visão geral dos Conjuntos de Recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## Aparência atualizada na lista de painéis {#updated-look-and-feel-in-the-dashboard-list}
 
@@ -161,4 +161,4 @@ Endossos não foram um objeto reportável, portanto, não há alterações nos r
 
 A funcionalidade para alterar a ordem das colunas em qualquer lista arrastando uma coluna de um local e soltando-a em outro está sendo removida de Acesso antecipado no ambiente de produção com a versão 2017.2 e não estará mais disponível para nenhum usuário. 
 
-Para obter mais detalhes sobre essa funcionalidade, consulte [Modificar a largura e a ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Para obter mais detalhes sobre esta funcionalidade, consulte [Modificar largura e ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).

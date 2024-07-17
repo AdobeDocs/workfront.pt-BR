@@ -32,4 +32,4 @@ Adicionamos alguns novos operadores ao filtro de eventos. Agora, você pode usar
 
 Também adicionamos a capacidade de selecionar se você deseja que o filtro seja aplicado ao estado antigo do campo ou ao novo estado. Por exemplo, se você selecionou observar o estado antigo de um campo e definir o filtro para observar os status em andamento, o módulo será acionado quando um status mudar de Em andamento para um novo status.
 
-Para obter mais informações sobre os módulos do Adobe Workfront, consulte [Módulos do Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações sobre os módulos Adobe Workfront, consulte [Módulos Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).

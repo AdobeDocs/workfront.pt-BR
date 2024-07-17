@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Esta página descreve todas as alterações, integração e aprimoramentos móveis feitos na versão 2019.3. Ele será disponibilizado no ambiente de Produção na semana de 19 de agosto de 2019.
 
-Para obter uma lista de todas as alterações feitas em 2019.3, consulte [Visão geral da atividade da versão 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.3, consulte a [visão geral da atividade da versão 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Suporte a itens compartilhados na integração com o MS OneDrive
 
 Agora você pode vincular seus arquivos e pastas compartilhados do OneDrive a objetos do Workfront. Por outro lado, você pode carregar arquivos no Workfront para pastas compartilhadas no OneDrive.
 
-Para obter mais informações, consulte as seções [Vincular um documento externo ao Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Vincular uma ou mais pastas externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder), e [Atualizar e vincular um documento do Workfront a um provedor de nuvem externo](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) no artigo [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obter mais informações, consulte as seções [Vincular um documento externo ao Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Vincular uma ou mais pastas externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) e [Atualizar e vincular um documento do Workfront a um provedor de nuvem externo](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) no artigo [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Para obter informações, consulte a seção [Vincular um documento externo ao Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) no artigo [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -55,7 +55,7 @@ Agora você pode converter tarefas e problemas individuais em projetos no aplica
 
 Dependendo do dispositivo, você pode optar por fazer logon no aplicativo móvel do Workfront usando a tecnologia de impressão digital ou ID facial. Ao fazer logon no aplicativo móvel, ele perguntará se você deseja fazer logon usando o método de autenticação compatível com seu telefone.
 
-Para obter mais informações sobre como gerenciar esse recurso, consulte [Adobe Workfront para iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) ou [Adobe Workfront para Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Para obter mais informações sobre como gerenciar este recurso, consulte [Adobe Workfront para iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) ou [Adobe Workfront para Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 ## Nova configuração para desconectar usuários automaticamente em dispositivos móveis
 

@@ -54,7 +54,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -114,12 +114,12 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Acesse o **Metas** no Workfront e clique no nome de uma meta para abrir a página da meta.
+1. Acesse a área **Metas** no Workfront e clique no nome de uma meta para abrir a página da meta.
 1. Na página da meta de uma meta principal, clique em **Indicadores de progresso** no painel esquerdo.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. No **Tipo: Meta** , selecione uma meta e clique no botão **Desconectar** ícone ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) no topo da lista.
+1. No agrupamento **Tipo: Meta**, selecione uma meta e clique no ícone ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) de **Desconectar** na parte superior da lista.
 
    A caixa Desconectar é exibida.
 

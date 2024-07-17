@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: "Perguntas frequentes: comprovação na Adobe Workfront - Migração dos EUA para a EMEA"
-description: A Adobe Workfront está entrando em contato diretamente com todas as organizações afetadas pela migração do Workfront Proof US para EMEA.
+description: A Adobe Workfront está entrando em contato diretamente com todas as organizações afetadas pela migração da Workfront Proof dos EUA para a EMEA.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Como saber se essa alteração afeta minha organização? 
 
-A Adobe Workfront está entrando em contato diretamente com todas as organizações afetadas pela migração do Workfront Proof US para EMEA.
+A Adobe Workfront está entrando em contato diretamente com todas as organizações afetadas pela migração da Workfront Proof dos EUA para a EMEA.
 
 ## Preciso fazer algo para me preparar para a migração?
 

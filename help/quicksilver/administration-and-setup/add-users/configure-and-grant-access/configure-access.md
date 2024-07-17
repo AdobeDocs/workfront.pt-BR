@@ -25,8 +25,8 @@ Estes artigos explicam como você, como administrador do Adobe Workfront, pode c
 * [Conceder acesso administrativo total a um usuário](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
 * [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
 * [Conceder acesso aos projetos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
-* [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Conceder acesso a problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Conceder acesso às tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
+* [Conceder acesso aos problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Conceder acesso a documentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Conceder acesso às equipes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
@@ -37,10 +37,10 @@ Estes artigos explicam como você, como administrador do Adobe Workfront, pode c
 * [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Conceder acesso ao Planejador de cenários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
-* [Conceder acesso ao Gerenciamento de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Conceder acesso ao Gerenciamento de Recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Conceder acesso ao Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 ## Consulte também
 
 * Para obter informações gerais sobre níveis de acesso, consulte [Como os níveis de acesso funcionam](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
-* Para obter informações sobre como os usuários podem compartilhar objetos entre si, concedendo permissões de Visualização e Edição nesses objetos, consulte [Conceder e solicitar permissões para objetos](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) e [Como os níveis de acesso e as permissões funcionam juntos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* Para obter informações sobre como os usuários podem compartilhar objetos entre si, concedendo permissões de Exibição e Edição nesses objetos, consulte [Conceder e solicitar permissões para objetos](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) e [Como os níveis de acesso e as permissões funcionam juntos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

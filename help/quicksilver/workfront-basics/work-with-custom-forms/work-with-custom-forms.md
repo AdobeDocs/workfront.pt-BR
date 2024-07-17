@@ -20,5 +20,5 @@ Esta seção contém os seguintes artigos:
 
 * [Adicionar um formulário personalizado a um objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [Editar informações em campos de formulário personalizados](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-* [Exportar formulários personalizados e detalhes do objeto](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
+* [Exportar detalhes de formulários e objetos personalizados](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
 * [Gerenciar formulários personalizados anexados a objetos](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

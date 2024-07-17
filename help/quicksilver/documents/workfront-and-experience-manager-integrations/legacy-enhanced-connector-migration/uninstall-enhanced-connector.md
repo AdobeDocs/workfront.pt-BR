@@ -8,7 +8,7 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience M
 
 ## Desinstale o conector aprimorado
 
-1. Acesse e clone seu repositório as a Cloud Service de AEM do Cloud Manager.
+1. Acesse e clone seu repositório do AEM as a Cloud Service no Cloud Manager.
 
 1. Abra o repositório Git clonado no IDE de sua escolha.
 
@@ -51,7 +51,7 @@ Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience M
    >
    >Verifique se a versão referenciada no bloco de código acima, ou seja, a 1.8.0, reflete a versão que está sendo desinstalada do código.
 
-1. Remova a seguinte dependência do arquivo pom.xml do submódulo do projeto chamado **all**.
+1. Remova a seguinte dependência do arquivo pom.xml do submódulo do projeto denominado **all**.
 
    ```
    <!-- Workfront Tools -->
@@ -104,4 +104,4 @@ Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience M
 
 1. Confirme as alterações e envie o código para o repositório do Cloud Manager
 
-1. Execute o pipeline do Cloud Manager para implantar as alterações na instância do Cloud Services
+1. Execute o pipeline do Cloud Manager para implantar as alterações na instância do Cloud Service

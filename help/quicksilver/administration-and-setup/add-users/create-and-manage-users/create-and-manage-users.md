@@ -32,7 +32,7 @@ Esta seção contém os seguintes artigos:
 * [Redefinir preferências de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
 * [Alterar um nome de usuário](../../../administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
 * [Alterar a senha de um usuário autoprovisionado](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
-* [Mapear atributos do usuário e provisionar automaticamente novos usuários](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
+* [Mapear atributos de usuário e provisionar automaticamente novos usuários](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [Desativar ou reativar um usuário](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
 * [Logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)

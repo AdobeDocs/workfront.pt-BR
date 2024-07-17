@@ -87,7 +87,7 @@ Ao receber uma notificação por email, você pode abrir rapidamente o objeto do
 
    Além de ver os usuários que estão ativamente envolvidos na conversa, você pode ver quem foi marcado em cada resposta na parte superior da thread de atualização. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem notificação sempre que uma atualização ou resposta é feita no objeto. Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Clique em **Responder,** digite sua resposta e clique em **Responder**.
+1. Clique em **Responder**, digite sua resposta e em **Responder**.
 
    A resposta é adicionada como um novo comentário à thread de comentários.
 

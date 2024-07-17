@@ -6,7 +6,8 @@ description: Este artigo descreve como associar processos de aprovação a itens
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e375408e6ccc25ff8d5c1e4f6c4fc7da2208db46
+exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
+source-git-commit: 65680d320a06cc96c7434d3efb91eb16e6e86e44
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 0%
@@ -45,7 +46,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -57,12 +58,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do projeto, tarefa, problema ou modelo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do projeto, tarefa, problema ou modelo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações sobre a associação de processos de aprovação a itens de trabalho
 
@@ -83,11 +84,11 @@ Além das considerações descritas abaixo, recomendamos que você reveja as con
 
 * Quando você anexa um processo de aprovação ao primeiro status de um item (usando um modelo para tarefas e projetos, usando as configurações de fila para problemas ou definindo as configurações de tarefa de um projeto para novas tarefas), os processos de aprovação são ignorados se a aprovação enviada for recuperada. Nesse caso, os aprovadores não recebem notificações.
 
-  Para obter mais informações sobre o cancelamento de aprovações, consulte [Exibir aprovações](../../review-and-approve-work/manage-approvals/view-approvals.md).
+  Para obter mais informações sobre como cancelar aprovações, consulte [Exibir aprovações](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
   >[!TIP]
   >
-  >O primeiro status de uma tarefa ou problema é New. O primeiro status de um projeto é o status selecionado pelo administrador do Workfront nas Preferências do projeto no sistema. Para obter informações, consulte [Configurar preferências de projeto em todo o sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >O primeiro status de uma tarefa ou problema é New. O primeiro status de um projeto é o status selecionado pelo administrador do Workfront nas Preferências do projeto no sistema. Para obter informações, consulte [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * A associação dos processos de aprovação a um objeto não é registrada na área Atualizações do objeto.
 * Você não pode associar um processo de aprovação a uma tarefa pai.
@@ -103,20 +104,20 @@ O processo de aprovação global deve estar disponível para o grupo associado a
 
 >[!NOTE]
 >
-Você pode anexar processos de aprovação de projeto a um modelo e processos de aprovação de tarefa a uma tarefa de modelo. Depois de fazer isso, quando alguém usa o modelo para criar um projeto, o processo de aprovação se torna um processo de aprovação de projeto ou tarefa, respectivamente. Um processo de aprovação de uso único anexado a um modelo ou tarefa de modelo permanece como um processo de aprovação de uso único para projetos e tarefas.
+>Você pode anexar processos de aprovação de projeto a um modelo e processos de aprovação de tarefa a uma tarefa de modelo. Depois de fazer isso, quando alguém usa o modelo para criar um projeto, o processo de aprovação se torna um processo de aprovação de projeto ou tarefa, respectivamente. Um processo de aprovação de uso único anexado a um modelo ou tarefa de modelo permanece como um processo de aprovação de uso único para projetos e tarefas.
 
-Para obter informações sobre como os administradores do Workfront podem configurar um processo de aprovação global para todos os grupos no sistema e como os administradores de grupos podem criar aprovações para um grupo, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Para obter informações sobre como os administradores do Workfront podem configurar um processo de aprovação global para todos os grupos no sistema e como os administradores de grupo podem criar aprovações para um grupo, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 >[!NOTE]
 >
-Você também pode modificar um processo de aprovação global para atender às suas necessidades específicas. Para obter mais informações, consulte a seção [Modificar um processo de aprovação global para uso em um objeto específico](#modify-a-global-approval-process-for-use-on-a-specific-object) neste artigo.
+>Você também pode modificar um processo de aprovação global para atender às suas necessidades específicas. Para obter mais informações, consulte a seção [Modificar um processo de aprovação global para uso em um objeto específico](#modify-a-global-approval-process-for-use-on-a-specific-object) neste artigo.
 
 Para associar um processo de aprovação global existente a um projeto, tarefa, problema, modelo ou tarefa de modelo:
 
 1. Vá para o item de trabalho ao qual deseja associar um processo de aprovação.
 1. Clique em **Aprovações** no painel esquerdo.
 
-   Talvez seja necessário clicar em **Mostrar mais** e, em seguida, clique em **Aprovações**.
+   Talvez seja necessário clicar em **Mostrar mais** e em **Aprovações**.
 
    ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
@@ -124,7 +125,7 @@ Para associar um processo de aprovação global existente a um projeto, tarefa, 
 
    O processo de aprovação selecionado é exibido.
 
-1. Expanda a **Usar existente** e selecione um processo de aprovação existente.
+1. Expanda o menu suspenso **Usar existente** e selecione um processo de aprovação existente.
 
    ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
@@ -137,7 +138,7 @@ Para associar um processo de aprovação global existente a um projeto, tarefa, 
 
 ## Modificar um processo de aprovação global para uso em um objeto específico {#modify-a-global-approval-process-for-use-on-a-specific-object}
 
-O administrador do Workfront ou o administrador de grupo cria processos de aprovação globais para você usar, conforme descrito em [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+O administrador do Workfront ou o administrador de grupo cria processos de aprovação global para você usar, conforme descrito em [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 A modificação de um processo de aprovação global anexado a um item é idêntica à modificação de um processo de aprovação de uso único.
 
@@ -145,12 +146,12 @@ Você pode modificar um processo de aprovação global para atender a qualquer n
 
 >[!IMPORTANT]
 >
-Quando você modifica um processo de aprovação global, ele se torna um processo de aprovação de uso único que pode ser usado somente no objeto em que você o modificou. O processo de aprovação global permanece inalterado.
+>Quando você modifica um processo de aprovação global, ele se torna um processo de aprovação de uso único que pode ser usado somente no objeto em que você o modificou. O processo de aprovação global permanece inalterado.
 >
-Considere as seguintes limitações ao modificar um processo de aprovação global:
+>Considere as seguintes limitações ao modificar um processo de aprovação global:
 >
-* O processo de aprovação é modificado somente para o projeto, tarefa ou problema ao qual você está associando o processo de aprovação.
-* Quaisquer alterações futuras feitas por um administrador no processo de aprovação global original não refletirão no processo de aprovação global que você modificou.
+>* O processo de aprovação é modificado somente para o projeto, tarefa ou problema ao qual você está associando o processo de aprovação.
+>* Quaisquer alterações futuras feitas por um administrador no processo de aprovação global original não refletirão no processo de aprovação global que você modificou.
 >
 
 Para modificar um processo de aprovação já anexado a um item:
@@ -161,11 +162,11 @@ Para modificar um processo de aprovação já anexado a um item:
 
    >[!IMPORTANT]
    >
-   Certifique-se de clicar em **Salvar** ao adicionar a aprovação.
+   >Certifique-se de clicar em **Salvar** ao adicionar a aprovação.
 
-1. Após adicionar o processo de aprovação global, clique no botão **Editar**&#x200B;ícone ![](assets/edit-icon.png) no canto superior direito da página de aprovação. Essa ação transforma o processo de aprovação global ou de nível de grupo em um processo de aprovação de uso único.
+1. Após adicionar o processo de aprovação global, clique no ícone ![](assets/edit-icon.png) de **Editar**, no canto superior direito da página de aprovação. Essa ação transforma o processo de aprovação global ou de nível de grupo em um processo de aprovação de uso único.
 1. Faça quaisquer alterações no processo de aprovação existente. Para obter mais informações, consulte a seção [Associar um processo de aprovação de uso único a um projeto, tarefa, problema, modelo ou tarefa de modelo](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) neste artigo.
-1. Clique em **Salvar** e, em seguida, clique em **Salvar** novamente para confirmar que você deseja converter o processo de aprovação global em um processo de aprovação de uso único que esteja disponível somente neste objeto.
+1. Clique em **Salvar** e em **Salvar** novamente para confirmar que você deseja converter o processo de aprovação global em um processo de aprovação de uso único que esteja disponível apenas neste objeto.
 
 ## Associar um processo de aprovação de uso único a um projeto, tarefa, problema, modelo ou tarefa de modelo {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 
@@ -175,7 +176,7 @@ Você também pode associar um processo de aprovação de uso único a um modelo
 
 >[!NOTE]
 >
-Você pode associar um processo de aprovação de uso único a qualquer status de nível de sistema ou de grupo para um projeto, tarefa, problema, modelo ou tarefa de modelo. Para obter informações sobre os status do Workfront, consulte [Criar ou editar um status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>Você pode associar um processo de aprovação de uso único a qualquer status de nível de sistema ou de grupo para um projeto, tarefa, problema, modelo ou tarefa de modelo. Para obter informações sobre os status do Workfront, consulte [Criar ou editar um status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 A criação de um processo de aprovação dessa maneira permite criar um processo de aprovação personalizado para atender às suas necessidades. No entanto, o processo de aprovação não pode ser associado a outros itens de trabalho no futuro.
 
@@ -194,7 +195,7 @@ Para criar um processo de aprovação de uso único:
 
    ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
-1. Conclua as etapas que começam com a etapa 6 na seção &quot;Criar um processo de aprovação global a nível de sistema ou de grupo para itens de trabalho&quot; no artigo [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. Conclua as etapas que começam com a etapa 6 na seção &quot;Criar um processo de aprovação global de nível de sistema ou de grupo para itens de trabalho&quot; no artigo [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: overtime, ensure step 6 is still accurate here)&nbsp;</p>
@@ -202,10 +203,10 @@ Para criar um processo de aprovação de uso único:
 
    >[!TIP]
    >
-   Após anexar o processo de aprovação de uso único, ele é exibido como &quot;`<Custom>`&quot; no campo Processo de aprovação dentro da caixa Editar de modelos e tarefas de modelo. Para obter informações sobre a edição de modelos ou tarefas de modelo, consulte os seguintes artigos:
+   >Após anexar o processo de aprovação de uso único, ele é exibido como &quot;`<Custom>`&quot; no campo Processo de Aprovação dentro da caixa Editar de modelos e tarefas de modelo. Para obter informações sobre a edição de modelos ou tarefas de modelo, consulte os seguintes artigos:
    >
-   * [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-   * [Editar uma tarefa de modelo](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+   >* [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
+   >* [Editar uma tarefa de modelo](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
@@ -231,8 +232,8 @@ Para remover ou deletar um processo de aprovação de um item de trabalho:
 
 1. Clique em um dos seguintes ícones no canto superior direito da seção Approvals, dependendo do tipo de aprovação associado ao item:
 
-   * **A opção Remover**&#x200B;ícone ![](assets/remove-icon---x-in-circle.png) para aprovações globais ou de nível de grupo.
-   * **A exclusão**&#x200B;ícone ![](assets/delete.png) para aprovações de uso único.
+   * **O ícone Remover**![](assets/remove-icon---x-in-circle.png) para aprovações globais ou em nível de grupo.
+   * **O ícone Excluir**![](assets/delete.png) para aprovações de uso único.
 
 1. Clique em **Remover** ou **Excluir** para confirmar.
 
@@ -244,4 +245,4 @@ Você pode associar um processo de aprovação automaticamente a itens de trabal
 
 * Para projetos e tarefas, é possível associar um processo de aprovação usando um modelo. Você pode anexar um processo de aprovação existente à guia Aprovações de Modelo ou à guia Aprovações de Tarefa de Modelo. Para obter informações sobre como associar uma aprovação existente a um item de trabalho, consulte [Associar um processo de aprovação global a um item de trabalho](#associate-a-global-approval-process-with-a-work-item) neste artigo.
 * Para novas tarefas em um projeto existente, você pode associar um processo de aprovação global ou um processo de aprovação global em nível de grupo na área Configurações da tarefa da caixa Editar projeto. Para obter informações, consulte a seção &quot;Configurações da tarefa&quot; no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
-* Para problemas, você pode associar uma aprovação a cada novo problema adicionado a um projeto associando um processo de aprovação existente a uma fila de solicitações. Para obter informações sobre como configurar filas de solicitações, consulte [Criar uma fila de solicitações](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Para problemas, você pode associar uma aprovação a cada novo problema adicionado a um projeto associando um processo de aprovação existente a uma fila de solicitações. Para obter informações sobre como configurar filas de solicitações, consulte [Criar uma Fila de Solicitações](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

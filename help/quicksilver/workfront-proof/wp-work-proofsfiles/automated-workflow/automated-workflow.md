@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
-title: Fluxo de trabalho automatizado no [!DNL Workfront Proof]
+title: Fluxo de Trabalho Automatizado em  [!DNL Workfront Proof]
 description: Saiba mais sobre fluxos de trabalho automatizados no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Fluxo de trabalho automatizado no [!DNL Workfront Proof]
+# Fluxo de Trabalho Automatizado no [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Configurar uma prova com um fluxo de trabalho automatizado no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-* [Gerenciar uma prova configurada com um Fluxo de trabalho automatizado no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
+* [Configurar uma prova com um Fluxo de Trabalho Automatizado no  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+* [Gerenciar uma prova configurada com um Fluxo de Trabalho Automatizado no  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)

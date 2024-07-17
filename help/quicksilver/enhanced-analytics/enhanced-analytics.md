@@ -21,13 +21,13 @@ Esta seção contém os seguintes artigos:
 
 * [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md)
 * [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md)
-* [Entender KPIs do Enhanced Analytics](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
-* [Exibir a visualização de Plano de voo na Análise aprimorada](../enhanced-analytics/flight-plan-overview.md)
+* [Entender KPIs de análise aprimorada](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
+* [Exibir a visualização do Plano de voo na análise aprimorada](../enhanced-analytics/flight-plan-overview.md)
 * [Exibir a visualização de Burndown na análise aprimorada](../enhanced-analytics/burndown-overview.md)
-* [Visualização das Tarefas em andamento na Análise aprimorada](../enhanced-analytics/tasks-in-flight-overview.md)
-* [Exibir a visualização da atividade Projeto na Análise aprimorada](../enhanced-analytics/project-activity-overview.md)
-* [Visualização do mapa de árvore do projeto na Análise aprimorada](../enhanced-analytics/project-treemap-overview.md)
-* [Visualização da Atividade por equipe na Análise aprimorada](../enhanced-analytics/activity-by-team-overview.md)
+* [Exibir as Tarefas na visualização em andamento na análise aprimorada](../enhanced-analytics/tasks-in-flight-overview.md)
+* [Exibir a visualização da atividade de Projeto na Análise aprimorada](../enhanced-analytics/project-activity-overview.md)
+* [Exibir a visualização do mapa de árvore do projeto na análise aprimorada](../enhanced-analytics/project-treemap-overview.md)
+* [Exibir a visualização Atividade por equipe na análise aprimorada](../enhanced-analytics/activity-by-team-overview.md)
 <!--
 * [View the Resource capacity visualization in Enhanced analytics](../enhanced-analytics/resource-capacity-overview.md) 
 * [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md) 
@@ -37,4 +37,4 @@ Esta seção contém os seguintes artigos:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Para obter treinamento detalhado sobre Análises aprimoradas, consulte [Caminhos de aprendizagem da análise aprimorada](https://one.workfront.com/s/enhanced-analytics-program).
+Para obter treinamento detalhado sobre a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://one.workfront.com/s/enhanced-analytics-program).

@@ -31,19 +31,19 @@ As configurações que determinam como você recebe alertas de email sobre comen
  <tbody> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Configurações do sistema</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">O administrador do Adobe Workfront pode determinar como você recebe alertas por email sobre comentários e decisões em provas em que você trabalha, conforme explicado em <a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">Configurar informações do usuário usando o Workfront Proof</a></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">O administrador do Adobe Workfront pode determinar como você recebe alertas de email sobre comentários e decisões sobre provas em que você trabalha, conforme explicado em <a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">Configurar Informações do Usuário usando o Workfront Proof</a></span> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Nova janela de prova, janela Detalhes da prova</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">Quando alguém adiciona você a uma prova na janela Nova prova ou na janela Detalhes da prova, é possível determinar como você recebe alertas de email sobre comentários e decisões sobre a prova. Isso substitui a opção selecionada pelo administrador do Workfront, somente para essa prova específica. Para obter mais informações, consulte</span> </p> 
+   <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Nova janela de prova, janela de detalhes da prova</strong></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">Quando alguém adiciona você a uma prova na janela Nova prova ou na janela Detalhes da prova, ele pode determinar como você recebe alertas de email sobre comentários e decisões sobre a prova. Isso substitui a opção selecionada pelo administrador do Workfront, somente para essa prova específica. Para obter mais informações, consulte </span> </p> 
     <ul> 
-     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Criar uma prova avançada com um fluxo de trabalho básico</a> </p> </li> 
+     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Criar uma prova avançada com um fluxo de trabalho Básico</a> </p> </li> 
      <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Criar uma prova avançada com um fluxo de trabalho automatizado</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>O Visualizador de provas</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">Ao abrir uma prova à qual foi adicionado, você pode determinar como recebe alertas por email sobre comentários na prova. Isso substitui a opção selecionada pelo administrador do Workfront e a opção selecionada pela pessoa que adicionou você à prova. Para obter mais informações, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gerenciar notificações para comentários e decisões de prova</a></span> </p> <p><span class="wysiwyg-font-size-medium"><em><strong>NOTA</strong> No Visualizador de provas, a última opção é rotulada de forma diferente ("Nenhum email" em vez de "Desativado"), mas funciona da mesma maneira.</em></span> </p> </td> 
+   <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>O Visualizador de Revisão</strong></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">Ao abrir uma prova à qual foi adicionado, você pode determinar como recebe alertas por email sobre comentários na prova. Isso substitui a opção selecionada pelo administrador do Workfront e a opção selecionada pela pessoa que adicionou você à prova. Para obter mais informações, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gerenciar notificações para comentários de prova e decisões</a></span> </p> <p><span class="wysiwyg-font-size-medium"><em><strong>NOTA</strong> No Visualizador de Revisão de Texto, a última opção é rotulada de forma diferente ("Nenhum email" em vez de "Desabilitado"), mas funciona da mesma maneira.</em></span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,5 +54,5 @@ As configurações que determinam como você recebe alertas de email sobre comen
 >
 >* [Novo email de prova](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
 >* [O email da nova versão](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
->* [Email de prova tardia](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
->* [O email de prova](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+>* [Email de prova atrasada](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
+>* [O email de Prova](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

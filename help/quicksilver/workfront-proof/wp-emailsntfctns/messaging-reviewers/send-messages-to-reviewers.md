@@ -20,9 +20,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Lembrar um revisor sobre atribuições no [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
+* [Lembrar um revisor sobre atribuições em [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
 * [Enviar uma mensagem de lembrete aos revisores em uma prova](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)

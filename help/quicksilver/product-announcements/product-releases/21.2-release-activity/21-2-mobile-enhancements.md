@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 21.2 Aprimoramentos em dispositivos móveis
 
-Esta página descreve todas as melhorias móveis feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte [21.2 Visão geral da versão](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página descreve todas as melhorias móveis feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Comentários da folha de horas
 

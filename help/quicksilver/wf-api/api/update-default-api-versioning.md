@@ -9,7 +9,7 @@ role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Integrações que não especificam uma versão da API no URI são automaticament
 >
 >Se sua organização estiver usando a API padrão no momento, o administrador do Workfront receberá uma mensagem do Centro de notificações com mais instruções sobre a API padrão.
 
-Para saber mais sobre como especificar uma versão nas solicitações de API, consulte [Especifique uma Versão da API em suas integrações](../../wf-api/api/specify-api-version-integrations.md).
+Para saber mais sobre como especificar uma versão em suas solicitações de API, consulte [Especificar uma versão de API em suas integrações](../../wf-api/api/specify-api-version-integrations.md).
 
 ## Considerações ao usar a API padrão
 
 Considere o seguinte ao trabalhar com a API padrão do Workfront:
 
-* A versão padrão da API é a versão mais recente. Qualquer chamada de API sem a versão especificada usará a versão padrão. Cada vez que o Workfront lança uma nova versão da API, a versão padrão será atualizada para a versão mais recente. **Portanto, após o lançamento de uma nova versão da API do Workfront, todas as chamadas de API que usam a versão padrão devem ser verificadas para garantir que a funcionalidade ainda seja compatível**.
+* A versão padrão da API é a versão mais recente. Qualquer chamada de API sem a versão especificada usará a versão padrão. Cada vez que o Workfront lança uma nova versão da API, a versão padrão será atualizada para a versão mais recente. **Portanto, depois que uma nova versão da API do Workfront for lançada, todas as chamadas de API que usam a versão padrão deverão ser verificadas para garantir que a funcionalidade ainda tenha suporte**.
 * Se sua organização estiver usando a API padrão obsoleta anteriormente, o administrador do Workfront receberá uma mensagem do Centro de notificações com mais instruções sobre a API padrão.
 
-Para ver a versão mais recente da API, consulte [Controle de versão da API e programação de suporte](../../wf-api/api/api-version-support-schedule.md).
+Para ver a versão mais recente da API, consulte [Controle de versão da API e agendamento de suporte](../../wf-api/api/api-version-support-schedule.md).
 
 ## Atualização das integrações para versões de API compatíveis
 
@@ -49,7 +49,7 @@ Para transformar uma solicitação de API padrão em uma solicitação de API co
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
-Ao atualizar suas solicitações de API do Workfront, você pode especificar qualquer versão compatível da nossa API. Para saber mais sobre como fazer referência a uma API específica, consulte [Especifique uma Versão da API em suas integrações](../../wf-api/api/specify-api-version-integrations.md).
+Ao atualizar suas solicitações de API do Workfront, você pode especificar qualquer versão compatível da nossa API. Para saber mais sobre como fazer referência a uma API específica, consulte [Especificar uma Versão da API em suas integrações](../../wf-api/api/specify-api-version-integrations.md).
 
 Para garantir a janela de suporte máxima, você deve chamar a versão mais recente. Você pode encontrar uma lista de APIs compatíveis em [Controle de versão da API e programação de suporte](../../wf-api/api/api-version-support-schedule.md).
 

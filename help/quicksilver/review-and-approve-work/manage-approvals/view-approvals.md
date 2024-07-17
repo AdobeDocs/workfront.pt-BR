@@ -19,7 +19,7 @@ Os processos de aprovação oferecem flexibilidade para criar aprovações em v�
 
 Para obter informações sobre como criar processos de aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Para obter informações sobre como associar aprovações a trabalhos no Workfront, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Para obter informações sobre como associar aprovações ao trabalho no Workfront, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Requisitos de acesso
 
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -43,23 +43,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou mais altas para os objetos associados às aprovações</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou mais altas para os objetos associados às aprovações</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Localizar aprovações no Adobe Workfront
 
-Você pode visualizar ou gerenciar aprovações de várias áreas do Workfront. Para obter informações sobre como gerenciar aprovações em várias áreas, consulte [Aprovar trabalho](../../review-and-approve-work/manage-approvals/approving-work.md).
+Você pode visualizar ou gerenciar aprovações de várias áreas do Workfront. Para obter informações sobre como gerenciar aprovações em várias áreas, consulte [Aprovando trabalho](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Você pode exibir ou gerenciar aprovações das seguintes áreas:
 
 * Na área Início
 
    * Todos os projetos, tarefas, problemas, folhas de horas, documentos e acessos que aguardam sua aprovação são exibidos na área Página inicial quando você seleciona exibir Todos ou Aprovações.
-   * As aprovações enviadas por você mesmo também são exibidas na área Página inicial, na seção Aprovações enviadas da Lista de trabalho. Para obter mais informações, consulte [Revise o trabalho que você envia para aprovação na área Página inicial](#review-work-you-submit-for-approval-in-the-home-area) neste artigo.
+   * As aprovações enviadas por você mesmo também são exibidas na área Página inicial, na seção Aprovações enviadas da Lista de trabalho. Para obter mais informações, consulte a seção [Revisar trabalho enviado para aprovação na área Página inicial](#review-work-you-submit-for-approval-in-the-home-area) neste artigo.
    * As aprovações são removidas da área Página inicial quando o projeto, tarefa ou problema associado é marcado como Resolvido, Em espera, Fechado ou Cancelado.
 
   Para obter informações sobre como usar a Página inicial, consulte [Introdução à Página inicial](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
@@ -78,17 +78,17 @@ Você pode exibir ou gerenciar aprovações das seguintes áreas:
 
 ## Revise o trabalho que você envia para aprovação na área Página inicial {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Clique em **Início** ícone ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no link **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Início**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
-1. Selecionar **Lista de trabalho** e, em seguida, clique na guia **Filtro** e selecione **Aprovações**.
-1. Expanda a **Aprovações que enviei** e localize as aprovações que você enviou.
+1. Selecione **Lista de Trabalho**, clique no menu suspenso **Filtro** e selecione **Aprovações**.
+1. Expanda a seção **Aprovações que enviei** e localize as aprovações que você enviou.
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
@@ -102,7 +102,7 @@ Você pode exibir o status de aprovação de um objeto nas seguintes seções do
  <tbody> 
   <tr> 
    <td role="rowheader">Atualizações </td> 
-   <td> <p>Exibe todos os status de aprovação quando eles ocorrem. Os status de aprovação são exibidos em linha com outros status exibidos no <strong>Atualizações</strong> seção.</p> </td> 
+   <td> <p>Exibe todos os status de aprovação quando eles ocorrem. Os status de aprovação são exibidos em linha com outros status exibidos na seção <strong>Atualizações</strong>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Aprovações</td> 
@@ -116,7 +116,7 @@ Você pode exibir o status de aprovação de um objeto nas seguintes seções do
 
 ### Use a área Atualizações para exibir um status de aprovação {#use-the-updates-area-to-view-an-approval-status}
 
-Quando uma aprovação é iniciada em um projeto, tarefa ou problema, um status é exibido no **Atualizações** do objeto, indicando o status de aprovação. Um novo status é exibido sempre que o objeto passa pelo processo de aprovação. Isso inclui os seguintes eventos:
+Quando uma aprovação é iniciada em um projeto, tarefa ou problema, um status é exibido na guia **Atualizações** do objeto, indicando o status de aprovação. Um novo status é exibido sempre que o objeto passa pelo processo de aprovação. Isso inclui os seguintes eventos:
 
 * Um processo de aprovação é iniciado em um objeto. O processo de aprovação é iniciado quando o status é alterado.
 * O objeto foi rejeitado
@@ -137,7 +137,7 @@ Você pode obter visibilidade sobre onde uma tarefa ou problema em que está tra
 Para ver o estado atual de onde uma tarefa ou problema está no processo de aprovação:
 
 1. Vá para o projeto, tarefa ou problema ao qual a aprovação está associada.
-1. No painel esquerdo, clique em **Aprovações**. Talvez seja necessário clicar primeiro **Mostrar mais**.
+1. No painel esquerdo, clique em **Aprovações**. Talvez seja necessário clicar primeiro em **Mostrar mais**.
 
    A guia Approvals exibe as informações completas sobre todos os caminhos e estágios de aprovação anteriores. Você pode ver exatamente quem tomou uma decisão sobre a aprovação ou se a aprovação está definida para uma equipe, função de trabalho ou usuário.
 

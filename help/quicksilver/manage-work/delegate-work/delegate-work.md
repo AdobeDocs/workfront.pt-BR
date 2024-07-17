@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Os artigos nesta seção contêm informações sobre como você pode delegar trabalho enquanto estiver temporariamente fora do escritório.
 
-* [Delegar visão geral de tarefas e problemas](../../manage-work/delegate-work/delegate-work-overview.md)
+* [Visão geral de delegar tarefas e problemas](../../manage-work/delegate-work/delegate-work-overview.md)
 * [Gerenciar delegação de tarefas e problemas](../../manage-work/delegate-work/how-to-delegate-work.md)

@@ -20,10 +20,10 @@ Conjuntos de recursos são coleções de usuários que ajudam você a gerenciar 
 
 Os artigos a seguir descrevem a funcionalidade ao usar conjuntos de recursos para gerenciar projetos no Adobe Workfront.
 
-* [Visão geral dos conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
-* [Criar conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [Visão geral dos pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+* [Criar pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * [Associar conjuntos de recursos a projetos e modelos](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [Associar conjuntos de recursos a usuários](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [Associar pools de recursos a usuários](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [Remover usuários do conjunto de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
  

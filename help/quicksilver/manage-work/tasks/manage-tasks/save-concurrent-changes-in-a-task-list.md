@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Visão geral de salvar alterações simultâneas em uma lista de tarefas
-description: Ao editar tarefas em uma lista, você pode usar configurações de salvamento separadas para indicar se deseja que as alterações sejam salvas automaticamente em manualmente ao editar tarefas em uma lista.
+description: Ao editar tarefas em uma lista, você pode usar configurações de gravação separadas para indicar se deseja que as alterações sejam salvas automaticamente ou manualmente ao editar tarefas em uma lista.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
@@ -15,30 +15,30 @@ ht-degree: 0%
 
 # Visão geral de salvar alterações simultâneas em uma lista de tarefas
 
-Ao editar tarefas em uma lista, você pode usar configurações de salvamento separadas para indicar se deseja que as alterações sejam salvas automaticamente em manualmente ao editar tarefas em uma lista.
+Ao editar tarefas em uma lista, você pode usar configurações de gravação separadas para indicar se deseja que as alterações sejam salvas automaticamente ou manualmente ao editar tarefas em uma lista.
 
 Para obter informações sobre como editar tarefas em uma lista de tarefas, consulte o artigo [Editar tarefas em uma lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 Às vezes, conflitos podem aparecer se dois usuários estiverem fazendo alterações nas mesmas tarefas.
 
-Considere o seguinte ao editar tarefas em uma lista de tarefas:
+Leve em consideração o seguinte ao editar tarefas em uma lista de tarefas:
 
-* O Adobe Workfront salva as alterações feitas nas tarefas imediatamente quando você seleciona salvar as alterações automaticamente se o Tipo de atualização do projeto for Automático ou Automático ou On Change. Para obter informações sobre o Tipo de Atualização do projeto, consulte [Selecione o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* O Adobe Workfront salva as alterações feitas nas tarefas imediatamente quando você opta por salvar as alterações automaticamente se o Tipo de Atualização do projeto for Automático ou Automático ou Mediante Alteração. Para obter informações sobre o Tipo de Atualização do projeto, consulte [Selecionar o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 * O Workfront atualiza as informações na lista em que você está trabalhando a cada minuto com alterações que outros usuários podem fazer em qualquer outro lugar do sistema. Isso garante que você sempre obtenha as informações mais recentes sobre as tarefas.
 
 Os seguintes cenários existem quando vários usuários estão editando as mesmas tarefas:
 
-* **Um usuário salva as alterações em uma lista de tarefas automaticamente e outro manualmente**: Se um usuário (Usuário A) salvar as alterações manualmente enquanto o Usuário B estiver editando as mesmas tarefas, mas estiver salvando as alterações automaticamente, as alterações em tempo real feitas pelo Usuário B serão atualizadas na lista do Usuário A a cada minuto. Se houver conflitos entre as alterações feitas pelos dois usuários, o usuário salvando manualmente (Usuário A) vê uma mensagem de aviso antes de poder salvar suas alterações. A mensagem de aviso mostra os itens que têm as alterações em conflito. No momento, o Usuário A pode escolher se deve manter as alterações (o que substitui as alterações feitas pelo Usuário B) ou descartá-las (o que mantém as alterações feitas pelo Usuário B).
+* **Um usuário salva as alterações em uma lista de tarefas automaticamente e outro manualmente**: se um usuário (Usuário A) salva as alterações manualmente enquanto o Usuário B edita as mesmas tarefas, mas salva as alterações automaticamente, as alterações ativas feitas pelo Usuário B são atualizadas na lista para o Usuário A a cada minuto. Se houver conflitos entre as alterações feitas pelos dois usuários, o usuário salvando manualmente (Usuário A) verá uma mensagem de aviso antes de salvar as alterações. A mensagem de aviso mostra os itens que têm as alterações conflitantes. Nesse momento, o Usuário A pode escolher se deve manter suas alterações (o que substitui as alterações feitas pelo Usuário B) ou descartá-las (o que mantém as alterações feitas pelo Usuário B).
 
 >[!NOTE]
 >
->Quando você opta por descartar as alterações feitas, isso se aplica a todas as alterações e não apenas àquelas que estão em conflito com as edições feitas por outro usuário.
+>Quando você seleciona descartar as alterações feitas, isso se aplica a todas as alterações e não apenas àquelas que têm conflitos com as edições feitas por outro usuário.
 
-* **Vários usuários estão salvando as alterações em uma lista de tarefas manualmente**: Se vários usuários que estão fazendo alterações em tarefas em uma lista estiverem salvando manualmente ao mesmo tempo, o Workfront salvará as alterações feitas pelo usuário que salva primeiro. Salvar essas alterações não deve encontrar conflitos. Em seguida, o Workfront compara as alterações feitas por todos os outros usuários com as informações que já foram salvas e exibe um aviso sobre as alterações conflitantes para os outros usuários antes que eles possam salvar suas informações.
+* **Vários usuários estão salvando as alterações em uma lista de tarefas manualmente**: se vários usuários que estão fazendo alterações em tarefas de uma lista estiverem salvando manualmente ao mesmo tempo, o Workfront salvará as alterações feitas pelo usuário que salvar primeiro. Salvar essas alterações não deve encontrar conflitos. O Workfront compara as alterações feitas por todos os outros usuários com as informações que já foram salvas e exibe um aviso sobre as alterações conflitantes para que os outros usuários possam salvar suas informações.
 
 >[!IMPORTANT]
 >
->Ao optar por manter as alterações em todas as outras alterações, todas as alterações são salvas, a menos que as tarefas que você realizou sejam excluídas por outro usuário. Nesse caso, a mensagem de aviso informa que as alterações feitas nas tarefas excluídas são perdidas.
+>Quando você seleciona manter as alterações em todas as outras alterações, todas elas são salvas, a menos que as tarefas nas quais você fez alterações tenham sido excluídas por outro usuário. Nesse caso, a mensagem de aviso informa que as alterações feitas nas tarefas excluídas foram perdidas.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 

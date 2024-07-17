@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de prova feitas com a versão 20.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 9 de novembro de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 20.4, consulte [Visão geral da versão 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 20.4, consulte a [visão geral da versão 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Continuar o fluxo de trabalho de prova existente ao gerar uma nova versão
 
@@ -45,4 +45,4 @@ A opção no perfil do usuário de gerar provas automaticamente ao fazer upload 
 
 Anteriormente, essa configuração era ativada para novos usuários por padrão.
 
-Para obter mais informações sobre como essa configuração funciona, consulte [Definir minhas configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Para obter mais informações sobre como essa configuração funciona, consulte [Configurar minhas configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).

@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Premium ou Select</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Premium ou Select</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -63,28 +63,28 @@ Depois de instalar o Visualizador de provas de desktop na sua organização, voc
 
 {{step1-to-proofing}}
 
-1. Clique em **Configurações da conta** próximo ao canto superior direito do Workfront Proof e clique na guia **Configurações** guia.
+1. Clique em **Configurações da conta** próximo ao canto superior direito do Workfront Proof e clique na guia **Configurações**.
 
-1. Em **Padrões de prova**, no final do **Visualizador de provas de desktop para provas interativas** clique em **Configuração**.
+1. Em **Padrões de Prova**, no final da linha **Visualizador de Provas de Área de Trabalho para Prova Interativa**, clique em **Configurar**.
 
-   ![Padrões de prova](assets/proof-defaults.png)
+   ![Padrões de Prova](assets/proof-defaults.png)
 
-1. Clique em **Ativado e padrão** e, em seguida, clique em **Salvar**.
+1. Clique em **Habilitado e padrão** e em **Salvar**.
 
 ## Instalação do Visualizador de provas de desktop para seus usuários
 
-* [Instalação do Visualizador de provas de desktop no Mac](#installing-the-desktop-proofing-viewer-on-mac)
+* [Instalando o Visualizador de Revisão de Texto de Área de Trabalho no Mac](#installing-the-desktop-proofing-viewer-on-mac)
 * [Instalação do Visualizador de provas de desktop no Windows](#installing-the-desktop-proofing-viewer-on-windows)
 
 ### Instalação do Visualizador de provas de desktop no Mac {#installing-the-desktop-proofing-viewer-on-mac}
 
 1. No computador do usuário, siga um destes procedimentos para baixar o aplicativo:
 
-   * Se estiver usando o ambiente de Produção, clique em [Download de produção do Mac para o visualizador de provas de desktop](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
-   * Se estiver usando o ambiente de Pré-visualização, clique em [Download da visualização do Mac para o visualizador de provas de desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
+   * Se você estiver usando o ambiente de Produção, clique em [Download de Produção do Mac para o Visualizador de Provas de Desktop](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
+   * Se você estiver usando o ambiente de Visualização, clique em [Download da Visualização do Mac para o Visualizador de Revisão de Texto para Desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
-1. Na caixa de instalação exibida, clique em **Continuar** e, em seguida, clique em **Instalar**.
+1. Na caixa de instalação exibida, clique em **Continuar** e em **Instalar**.
 
    ![Caixa de instalação](assets/install-wf-proof-box.png)
 
@@ -95,12 +95,12 @@ Depois de instalar o Visualizador de provas de desktop na sua organização, voc
 1. No computador do usuário, siga um destes procedimentos para baixar o aplicativo:
 
    * No ambiente de Produção, clique em [Download de Produção do Windows para o Visualizador de Revisão de Texto para Desktop](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
-   * No ambiente de Pré-visualização, clique em [Download da Visualização do Windows para o Visualizador de Revisores de Texto para Desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
+   * No ambiente de Visualização, clique em [Download de Visualização do Windows para o Visualizador de Revisão de Texto para Desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
 1. Na caixa de aviso de segurança exibida, clique em **Executar**.
 
-   ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
+   ![Captura de tela_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
    O Desktop Proofing Viewer instala e executa.
 

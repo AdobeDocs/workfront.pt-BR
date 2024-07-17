@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Ativar ou desativar um cenário no [!DNL Adobe] Workfront Fusion
+title: Ativar ou desativar um cenário no  [!DNL Adobe] Workfront Fusion
 description: Este artigo descreve por que os cenários ativos ou desativados são úteis em situações diferentes e como ativar ou desativar um cenário.
 author: Becky
 feature: Workfront Fusion
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# Ativar ou desativar um cenário no [!DNL Adobe Workfront Fusion]
+# Ativar ou desativar um cenário em [!DNL Adobe Workfront Fusion]
 
 É possível trabalhar com cenários em um estado ativo ou inativo:
 
-* Um cenário ativo é executado periodicamente de acordo com seu agendamento definido, conforme explicado em [Agendar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+* Um cenário ativo é executado periodicamente de acordo com seu agendamento definido, conforme explicado em [Agendar um cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
   Isso é útil quando você deseja automatizar a função de um cenário.
 
@@ -49,23 +49,23 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -75,7 +75,7 @@ Você deve criar um cenário antes de ativá-lo.
 
 ## Ativar ou desativar um cenário:
 
-1. Clique em **[!UICONTROL Cenários]** ![](assets/scenarios-icon.png) no painel esquerdo, em seguida, clique no cenário para abri-lo.
-1. No canto superior direito da janela, clique na guia **[!UICONTROL Ligado/Desligado]** alternar.
+1. Clique em **[!UICONTROL Cenários]** ![](assets/scenarios-icon.png) no painel esquerdo e, em seguida, clique no cenário para abri-lo.
+1. No canto superior direito da janela, clique no botão de alternância **[!UICONTROL Ligar/Desligar]**.
 
    ![](assets/on-off-switch.jpg)

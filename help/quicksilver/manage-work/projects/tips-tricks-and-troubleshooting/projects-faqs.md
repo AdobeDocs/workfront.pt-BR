@@ -20,7 +20,7 @@ Veja a seguir perguntas frequentes sobre projetos.
 
 ### Responder
 
-Para usar as opções de inserção, a lista de tarefas deve ser classificada por número. Para classificar a coluna por número, clique em **#** no cabeçalho da coluna à esquerda de **Nome da tarefa** para reclassificar a tarefa por número.
+Para usar as opções de inserção, a lista de tarefas deve ser classificada por número. Para classificar a coluna por número, clique em **#** no cabeçalho da coluna à esquerda de **Nome da Tarefa** para classificar a tarefa por número.
 
 ## Qual é a Data de Término Efetivo?
 
@@ -62,10 +62,10 @@ Embora eu tenha as permissões corretas, o botão Adicionar projetos está ausen
 Isso é causado pelo Status de Portfolio estar Inativo. Para alterar o status do Portfolio:
 
 1. Clique em **Detalhes do Portfolio > Visão geral**.
-1. Altere o **Status** para **Ativo.**
+1. Alterar o **Status** para **Ativo.**
 
 1. Clique em **Salvar**.\
-   A variável **Adicionar Projetos** O botão agora deve estar visível no **Projetos** guia.
+   O botão **Adicionar Projetos** agora deve estar visível na guia **Projetos**.
 
 ## Que acesso um Gerenciador de recursos recebe quando adicionado a um projeto?
 

@@ -66,7 +66,7 @@ Um objeto AccessLevelPermissions representa uma permissão específica para aces
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b>
+            <p><b>açõesProibidas</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -91,7 +91,7 @@ Um objeto AccessLevelPermissions representa uma permissão específica para aces
             </ul>
          </li>
           <li>
-            <p><b>secondaryActions</b>
+            <p><b>açõesSecundárias</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -202,7 +202,7 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b>
+            <p><b>açõesProibidas</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -227,7 +227,7 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
             </ul>
          </li>
           <li>
-            <p><b>secondaryActions</b>
+            <p><b>açõesSecundárias</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -274,7 +274,7 @@ Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de h
             </p>
             <ul>
               <li>
-                <p><b>atualBillableExpenseCost</b>
+                <p><b>realBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -342,7 +342,7 @@ Linhas de Base são instantâneos de como era o desempenho de um projeto em um d
             </p>
             <ul>
               <li>
-                <p><b>atualBillableExpenseCost</b>
+                <p><b>realBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -382,7 +382,7 @@ Linhas de Base são instantâneos de como era o desempenho de um projeto em um d
             </p>
             <ul>
               <li>
-                <p><b>atualBillableExpenseCost</b>
+                <p><b>realBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -528,7 +528,7 @@ Um objeto Documento representa um arquivo (como material escrito, imagens ou out
             </p>
             <ul>
               <li>
-                <p><b>atualBillableExpenseCost</b>
+                <p><b>realBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -557,7 +557,7 @@ Um objeto Documento representa um arquivo (como material escrito, imagens ou out
             </p>
             <ul>
               <li>
-                <p><b>atualBillableExpenseCost</b>
+                <p><b>realBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -676,7 +676,7 @@ Os projetos são itens de trabalho no Workfront e um elemento principal da manei
             </p>
             <ul>
               <li>
-                <p><b>atualBillableExpenseCost</b>
+                <p><b>realBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -767,7 +767,7 @@ Um objeto QueueDef representa uma Fila, que é um projeto publicado na área Hel
       <td>
         <ul>
           <li>
-            <p><b>requestorCoreAction</b>
+            <p><b>solicitanteCoreAction</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
              <ul>
@@ -792,7 +792,7 @@ Um objeto QueueDef representa uma Fila, que é um projeto publicado na área Hel
             </ul>
           </li>
           <li>
-            <p><b>requestorForbiddenActions</b>
+            <p><b>solicitanteForbiddenActions</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -883,7 +883,7 @@ Um objeto Tarefa representa um item de trabalho que deve ser executado como uma 
             </p>
             <ul>
               <li>
-                <p><b>atualBillableExpenseCost</b>
+                <p><b>realBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -1112,7 +1112,7 @@ Um objeto UserPrefValue representa uma preferência do usuário.
       <td>
         <ul>
           <li>
-            <p><b>value</b>
+            <p><b>valor</b>
             </p>
             <p>Adição do validador <code>MAX_LENGTH</code></p>
       </td>
@@ -1137,7 +1137,7 @@ Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam 
             </p>
             <ul>
               <li>
-                <p><b>atualBillableExpenseCost</b>
+                <p><b>realBillableExpenseCost</b>
                 </p>
               </li>
               <li>

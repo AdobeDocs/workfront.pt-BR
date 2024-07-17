@@ -51,7 +51,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms personalizado** no painel esquerdo.
+1. Clique em **Forms Personalizado** no painel esquerdo.
 
    Na exibição exibida, você pode revisar todos os formulários personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, com que tipo de objeto ele funciona e se ele está ativo.
 

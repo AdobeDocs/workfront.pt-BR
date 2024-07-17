@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Esta página descreve todas as alterações disponíveis no ambiente de Visualização com a versão R1 Preview 5. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 16 de março de 2017.
 
-Para obter uma lista de todas as alterações feitas no R1, consulte [Visão geral da atividade de versão R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em R1, consulte [Visão geral da atividade de versão R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 ## Rastrear o progresso do projeto com um relatório de utilização
 
@@ -26,7 +26,7 @@ Agora, um usuário com acesso de Gerenciamento a um projeto pode acompanhar o pr
 
 O relatório de utilização permite manter o projeto dentro do orçamento, permitindo que você veja rapidamente como as horas reais são rastreadas em relação às horas previstas em orçamento ou às horas planejadas para uma determinada semana ou mês, ou para o projeto geral. Além disso, você pode exibir informações detalhadas para o número de horas em cada categoria (orçada, planejada e real), categorizada por função de trabalho ou usuário individual.
 
-Para obter mais informações sobre o rastreamento da utilização em um projeto, consulte [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações sobre o rastreamento da utilização em um projeto, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 Como administrador do sistema, você pode configurar se a guia Utilização estará disponível aos usuários. Por padrão, a guia Utilização está localizada no menu suspenso Mais em um projeto. Você pode mover a guia Utilização para outro local ou ocultá-la completamente. Se você tiver definido modelos de layout personalizados para usuários em sua organização, será necessário adicionar manualmente a guia Utilização aos modelos de layout personalizados.
 
@@ -36,15 +36,15 @@ Para obter mais informações sobre como configurar a localização da guia Util
 
 Agora é possível modificar um processo de aprovação global existente ao associar esse processo de aprovação global a um objeto. As modificações feitas se aplicam somente ao processo de aprovação no objeto ao qual você está associando-o.
 
-Para obter mais informações, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Associar um processo de aprovação novo ou existente ao trabalho](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+Para obter mais informações, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) em [Associar um processo de aprovação novo ou existente ao trabalho](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## Configurar relatórios para mostrar o novo gráfico de Gantt por padrão
 
 Você pode configurar os relatórios de projetos e tarefas que criar para mostrar o novo Diagrama de Gantt por padrão com a nova opção, &quot;Mostrar este relatório em um Diagrama de Gantt por padrão&quot;.
 
-Para obter mais informações sobre como configurar relatórios para mostrar o novo gráfico de Gantt, consulte [Editar configurações do relatório](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+Para obter mais informações sobre como configurar relatórios para mostrar o novo gráfico de Gantt, consulte [Editar configurações de relatório](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
 
-Para obter mais informações sobre a exibição do Gráfico de Gantt em relatórios de projeto e relatórios de tarefa, consulte [Exibir informações no Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot; em [Exibir informações no Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+Para obter mais informações sobre como exibir o Gráfico de Gantt em relatórios de projeto e relatórios de tarefa, consulte [Exibir informações no Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot; em [Exibir informações no Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 ## Melhoria da Lixeira: Tarefas e Subtarefas são restauradas à ordem anterior
 
@@ -58,11 +58,11 @@ Para obter mais informações sobre como restaurar objetos no Workfront, consult
 
 Os seguintes aprimoramentos estão disponíveis ao visualizar uma lista de projetos ou relatório de projeto na visualização Marco:
 
-* **Configure se o Status do Progresso e o Percentual Concluído serão exibidos na exibição:** Há uma nova opção que permite configurar se os ícones de Status do Progresso serão exibidos na visualização de Marco. Além disso, você também pode configurar se as informações de Percentual concluído são exibidas relacionadas aos projetos e tarefas.\
-  Para obter mais informações, consulte [Usar a visualização de Etapas](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Usar a visualização de Etapas](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Configure se o Status do Progresso e o Percentual Concluído serão exibidos no modo de exibição:** Há uma nova opção que permite configurar se os ícones de Status do Progresso serão exibidos no modo de exibição Marco. Além disso, você também pode configurar se as informações de Percentual concluído são exibidas relacionadas aos projetos e tarefas.\
+  Para obter mais informações, consulte [Usar a exibição de Marco](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) em [Usar a exibição de Marco](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Edite o Percentual de Término diretamente na visualização Marco:** Agora é possível editar a Porcentagem concluída dos projetos e tarefas diretamente na exibição Marco.\
-  Para obter mais informações, consulte [Usar a visualização de Etapas](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Usar a visualização de Etapas](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+* **Edite a Porcentagem concluída diretamente do modo de exibição Marco:** Agora é possível editar a Porcentagem concluída dos projetos e tarefas diretamente do modo de exibição Marco.\
+  Para obter mais informações, consulte [Usar a exibição de Marco](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) em [Usar a exibição de Marco](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## Aparência atualizada de várias páginas de configuração do sistema
 
@@ -93,7 +93,7 @@ As seguintes opções agora estão disponíveis nas notificações instantâneas
 
 Agora, ao receber uma notificação por email instantânea, você pode adicionar essa notificação a uma notificação de resumo diária ou cancelar completamente a inscrição dessa notificação.
 
-Essas opções estão disponíveis na notificação por email. Para obter mais informações sobre como receber notificações por email, consulte [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md)
+Essas opções estão disponíveis na notificação por email. Para obter mais informações sobre como receber notificações por email, consulte [notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md)
 
 ## Várias notificações por email movidas da seção &quot;Ação necessária&quot; para outras seções relacionadas ao projeto
 
@@ -109,7 +109,7 @@ Para obter mais informações sobre como configurar notificações por email, co
   <tr> 
    <th><strong>Notificação</strong> </th> 
    <th><strong>Seção Antiga</strong> </th> 
-   <th><strong>Nova seção</strong> </th> 
+   <th><strong>Nova Seção</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -173,10 +173,10 @@ As seguintes alterações foram adicionadas para oferecer suporte à futura func
 
 * A guia atual &quot;Planejamento de recursos&quot; foi renomeada para &quot;Planejamento de recursos legados&quot; na área Pessoas. 
 * Uma nova guia &quot;Planejamento de recursos&quot; foi introduzida na área Pessoas, onde a nova funcionalidade será desenvolvida.\
-  Para obter mais informações sobre a nova guia Planejamento de recursos, consulte [Introdução ao planejamento de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+  Para obter mais informações sobre a nova guia Planejamento de Recursos, consulte [Introdução ao Planejamento de Recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
 * O objeto &quot;Conjunto de recursos&quot; atual foi renomeado para &quot;Conjunto de recursos herdado&quot;.\
-  Para obter mais informações sobre como criar o novo Conjunto de recursos com base no usuário, consulte [Visão geral dos conjuntos de recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  Para obter mais informações sobre como criar os novos Conjuntos de Recursos baseados no usuário, consulte [Visão geral dos Conjuntos de Recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * Um novo objeto &quot;Conjunto de recursos&quot; foi criado para dar suporte aos novos Conjuntos de recursos (baseados no usuário).
 
@@ -185,8 +185,8 @@ As seguintes alterações foram adicionadas para oferecer suporte à futura func
   >
   >   
   >   
-  * Se você estiver executando relatórios sobre os Conjuntos de recursos legados existentes, os relatórios existentes não serão alterados.
-  * Se você quiser criar um novo relatório para os Conjuntos de recursos legados existentes (com base na função de trabalho), será necessário selecionar &quot;Conjuntos de recursos legados&quot; como o objeto do relatório.
-  * Se quiser criar um novo relatório para o novo Conjunto de recursos (baseado em usuário), você precisará selecionar &quot;Conjuntos de recursos&quot; como seu objeto para o relatório.
+  >   * Se você estiver executando relatórios sobre os Conjuntos de recursos legados existentes, os relatórios existentes não serão alterados.
+  >   * Se você quiser criar um novo relatório para os Conjuntos de recursos legados existentes (com base na função de trabalho), será necessário selecionar &quot;Conjuntos de recursos legados&quot; como o objeto do relatório.
+  >   * Se quiser criar um novo relatório para o novo Conjunto de recursos (baseado em usuário), você precisará selecionar &quot;Conjuntos de recursos&quot; como seu objeto para o relatório.
   >   
   >

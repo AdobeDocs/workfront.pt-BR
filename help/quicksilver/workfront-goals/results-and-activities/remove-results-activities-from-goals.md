@@ -23,14 +23,14 @@ Você pode remover resultados, atividades e projetos das metas se eles não fore
 
 Para obter informações sobre como criar metas e adicionar resultados e atividades a elas, consulte os seguintes artigos:
 
-* [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
+* [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Adicionar resultados às metas nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Editar resultados e atividades no Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 As metas também podem ser alinhadas às metas principais, tornando-se metas secundárias. As metas secundárias também são indicadores de progresso das metas principais.
 
-Você pode remover o alinhamento entre metas removendo a conexão entre elas. Para obter informações, consulte [Remover alinhamento de metas nas Metas do Adobe Workfront](../goal-alignment/remove-goal-alignment.md).
+Você pode remover o alinhamento entre metas removendo a conexão entre elas. Para obter informações, consulte [Remover alinhamento da meta nas Metas do Adobe Workfront](../goal-alignment/remove-goal-alignment.md).
 
 ## Requisitos de acesso
 
@@ -59,7 +59,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -69,7 +69,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e clique em **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -153,7 +153,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. Clique em **Indicadores de progresso** no painel esquerdo.
 
-1. Selecione um resultado ou uma atividade e clique no **Excluir** ícone ![](assets/delete-icon.png) no topo da lista.
+1. Selecione um resultado ou uma atividade e clique no ícone ![](assets/delete-icon.png) de **Excluir**, na parte superior da lista.
 
 1. Clique em **Excluir** para confirmar a exclusão. O resultado ou a atividade é excluído e não pode ser recuperado. A porcentagem concluída das atualizações de meta para excluir a atividade ou resultado excluído.
 
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Clique em **Menu principal** no canto superior direito e clique em **Metas**.
+1. Clique no ícone **Menu principal** no canto superior direito e em **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -197,7 +197,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
    Isso abre a página de meta.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
-1. Selecione um projeto e clique no botão **Desconectar** ícone ![](assets/disconnect-icon.png) no topo da lista.
+1. Selecione um projeto e clique no ícone ![](assets/disconnect-icon.png) de **Desconectar** na parte superior da lista.
 1. Clique em **Desconectar** para confirmar.
 
    O projeto não está mais conectado à meta. A porcentagem concluída das atualizações de meta para excluir o projeto desconectado.

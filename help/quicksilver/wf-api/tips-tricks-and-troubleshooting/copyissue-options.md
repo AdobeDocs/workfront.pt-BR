@@ -9,8 +9,8 @@ role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 6%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -34,9 +34,9 @@ Para incluir uma das seguintes opções, insira o número inteiro correspondente
 
 Exemplos:
 
-* Para limpar o progresso ao copiar o problema, insira um `options` valor de `4`.
+* Para limpar o progresso ao copiar o problema, insira um valor de `options` de `4`.
 
-* Para limpar o andamento e os documentos, informe um `options` valor de `132`.
+* Para limpar o andamento e os documentos, insira um valor de `options` de `132`.
 
   Limpar progresso = 4
 

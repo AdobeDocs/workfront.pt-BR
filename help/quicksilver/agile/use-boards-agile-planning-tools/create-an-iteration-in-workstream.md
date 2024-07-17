@@ -9,8 +9,8 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 1%
+source-wordcount: '380'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -47,12 +47,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-boards}}
 
-1. Abra o fluxo de trabalho ao qual deseja adicionar a iteração. Para abrir um workflow, clique em [!UICONTROL **Exibir fluxo de trabalho**].
+1. Abra o fluxo de trabalho ao qual deseja adicionar a iteração. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
 1. Crie uma iteração usando um destes métodos:
 
-   * Na guia Lista de cartões, na visualização de iteração, clique em [!UICONTROL **Criar iteração**].
-   * Na guia Lista de cartões, na exibição em lista, clique em [!UICONTROL **Criar iteração**].
-   * Na guia Quadros, clique em [!UICONTROL **Adicionar quadro**] e selecione [!UICONTROL **Processo de iteração**] como o modelo do quadro. Em seguida, abra o quadro de iteração e clique em [!UICONTROL **Configurar iterações**].
+   * Na guia Lista de Cartão, na exibição de iteração, clique em [!UICONTROL **Criar iteração**].
+   * Na guia Lista de Cartão, na exibição em lista, clique em [!UICONTROL **Criar iteração**].
+   * Na guia Quadros, clique em [!UICONTROL **Adicionar quadro**] e selecione [!UICONTROL **Processo de Iteração**] como o modelo de quadro. Em seguida, abra o quadro de iteração e clique em [!UICONTROL **Configurar iterações**].
 
 1. Na caixa de diálogo Detalhes da iteração, adicione as seguintes informações:
 
@@ -81,13 +81,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Editar uma iteração existente
 
-1. Para abrir um workflow, clique em [!UICONTROL **Exibir fluxo de trabalho**].
+1. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
 1. Abra a iteração usando um destes métodos:
 
-   * Na guia Lista de cartões, na visualização de iteração, clique no [!UICONTROL **Detalhes da iteração**] ícone ![Detalhes da iteração](assets/iteration-details-button.png).
-   * No quadro de iteração, clique no botão [!UICONTROL **Detalhes da iteração**] ícone ![Detalhes da iteração](assets/iteration-details-button.png) na área métricas na parte superior direita.
+   * Na guia Lista de Cartão, na exibição de iteração, clique no ícone [!UICONTROL **Detalhes da iteração**] ![Detalhes da iteração](assets/iteration-details-button.png).
+   * No quadro de iteração, clique no ícone [!UICONTROL **Detalhes da iteração**] ![Detalhes da iteração](assets/iteration-details-button.png) na área de métricas na parte superior direita.
 
-1. No [!UICONTROL Configuração de iteração] edite a iteração conforme necessário.
+1. No painel [!UICONTROL Configuração de iteração], edite a iteração conforme necessário.
 1. Para alterar o nome da iteração, expanda [!UICONTROL **Detalhes da iteração**].
 
    Depois que uma iteração é iniciada, você só pode alterar o nome da iteração e não as datas ou a duração da iteração.
@@ -115,6 +115,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## Excluir uma iteração
 
-1. Clique em [!UICONTROL **Lista de cartões**] no fluxo de trabalho e abra a visualização de iteração.
-1. Clique em **Excluir** ícone ![Ícone Excluir](assets/delete.png) ao lado da iteração.
+1. Clique na guia [!UICONTROL **Lista de Cartão**] no fluxo de trabalho e abra a exibição de iteração.
+1. Clique no ícone **Excluir** ![Excluir ícone](assets/delete.png) ao lado da iteração.
 1. Clique em [!UICONTROL **Excluir iteração**] na mensagem de confirmação.

@@ -31,12 +31,12 @@ ht-degree: 1%
 >      
 >* Para o plano e a estrutura de licença atuais:
 >    
->   * A Pro ou superior [plano do Adobe Workfront]
+>   * Um [plano Adobe Workfront] Pro ou superior
 >   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
 >    
 >Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 > 
->Para obter informações adicionais sobre o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
 O alinhamento é uma parte importante do gerenciamento de metas. É possível garantir que todos na organização estejam na mesma página sobre o que deve ser alcançado para impulsionar a estratégia alinhando seus objetivos uns aos outros e às metas organizacionais de equipes, grupos e da empresa.
@@ -47,7 +47,7 @@ Para obter mais informações sobre as práticas recomendadas ao alinhar metas, 
 
 ## Considerações para o alinhamento de metas
 
-* Uma meta não pode contribuir para mais de uma meta ao mesmo tempo. Embora você possa ter várias metas secundárias alinhadas à mesma meta principal, uma meta secundária só pode ter uma principal. Para obter informações sobre metas pai e filho, consulte a [Entender metas principais e secundárias](#understand-parent-and-children-goals) neste artigo.
+* Uma meta não pode contribuir para mais de uma meta ao mesmo tempo. Embora você possa ter várias metas secundárias alinhadas à mesma meta principal, uma meta secundária só pode ter uma principal. Para obter informações sobre metas pai e filho, consulte a seção [Compreender metas pai e filho](#understand-parent-and-children-goals) neste artigo.
 * Uma meta pode ter várias metas alinhadas (ou secundárias), bem como várias atividades e resultados. Além disso, cada meta secundária pode ter outras atividades e resultados que influenciam seu progresso, bem como o progresso da meta principal.
 
   >[!TIP]
@@ -63,11 +63,11 @@ Para obter mais informações sobre as práticas recomendadas ao alinhar metas, 
 
 Há duas abordagens para o alinhamento de metas:
 
-* **Um alinhamento de baixo para cima**: é possível conectar diretamente uma meta secundária a uma meta principal. Para obter informações sobre alinhamento de meta ascendente, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+* **Um alinhamento ascendente**: você pode conectar diretamente uma meta secundária a uma meta principal. Para obter informações sobre o alinhamento da meta de baixo para cima, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* **Um alinhamento de cima para baixo**: é possível converter um resultado ou uma atividade de uma meta em outra meta. A nova meta se torna a meta secundária da meta original que se torna a principal. Para obter informações sobre alinhamento de meta de cima para baixo, consulte [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+* **Um alinhamento de cima para baixo**: você pode converter um resultado ou uma atividade de uma meta em outra meta. A nova meta se torna a meta secundária da meta original que se torna a principal. Para obter informações sobre o alinhamento de metas de cima para baixo, consulte [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-Para obter informações sobre metas pai e filho, consulte a [Entender metas principais e secundárias](#understand-parent-and-children-goals) neste artigo.
+Para obter informações sobre metas pai e filho, consulte a seção [Compreender metas pai e filho](#understand-parent-and-children-goals) neste artigo.
 
 ## Entender metas principais e secundárias {#understand-parent-and-children-goals}
 
@@ -80,7 +80,7 @@ Leve em consideração o seguinte ao trabalhar com metas secundárias e principa
 * O progresso das metas secundárias indicado por seus resultados e atividades influencia o progresso da meta principal. Outras atividades ou resultados associados à meta principal também influenciam o progresso da meta principal.
 * Não é possível atualizar o progresso de uma meta secundária no nível da meta principal. Você deve atualizar as atividades e os resultados da meta secundária, e isso atualiza automaticamente o progresso da meta secundária e da meta principal.
 
-  Para obter informações sobre como atualizar o progresso das metas, consulte [Atualizar progresso da meta nas Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  Para obter informações sobre como atualizar o progresso das metas, consulte [Atualizar progresso da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Localizar metas alinhadas
 

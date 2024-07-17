@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -28,11 +28,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plano do Adobe Workfront</a>*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a>*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Visão geral de licenças</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Visão geral das licenças</a>*</td> 
    <td> <p>Plano </p> </td> 
   </tr> 
   <tr> 
@@ -43,12 +43,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -60,9 +60,9 @@ Antes de começar, você deve fazer o seguinte:
 
 ## Considerações sobre tipos de solicitação
 
-* Você pode especificar o tipo de problemas ou solicitações que podem ser registradas em um projeto ao configurar o **Detalhes da fila** para o projeto.
+* Você pode especificar o tipo de problemas ou solicitações que podem ser registradas em um projeto ao configurar a área **Detalhes da fila** para o projeto.
 * Você não precisa ativar o projeto para ser uma fila de solicitações para poder definir Tipos de solicitação para um projeto. Quaisquer problemas registrados para um projeto podem ser rotulados com um Tipo de solicitação diferente.
-* Se você adicionar Tópicos de fila ao seu projeto, deverá definir Tipos de solicitação em cada tópico de fila para exibi-los ao adicionar um novo problema ou solicitação. Para obter mais informações, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Se você adicionar Tópicos de fila ao seu projeto, deverá definir Tipos de solicitação em cada tópico de fila para exibi-los ao adicionar um novo problema ou solicitação. Para obter mais informações, consulte [Criar tópicos da fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Definir os tipos de problema ou solicitação para um projeto
 
@@ -70,7 +70,7 @@ Antes de começar, você deve fazer o seguinte:
 
 1. Clique no nome do projeto para abri-lo.
 1. No painel esquerdo, clique em **Detalhes da fila**.
-1. No **Propriedades da fila** , selecione a **Tipos de solicitação** desejada para o projeto.
+1. Na seção **Propriedades da fila**, selecione os **Tipos de solicitação** desejados para o projeto.
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ Antes de começar, você deve fazer o seguinte:
 
    Selecione entre os seguintes tipos:
 
-   * Registro de Defeito
+   * Relatório de erro
    * Pedido de alteração
    * Problema
    * Solicitar

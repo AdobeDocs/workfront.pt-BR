@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
 title: Exibir ou baixar um ativo vinculado com o conector aprimorado
-description: Você pode exibir ou baixar um ativo no Adobe Workfront vinculado pela Experience Manager Assets.
+description: Você pode visualizar ou baixar um ativo no Adobe Workfront que está vinculado no Experience Manager Assets.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Exibir ou baixar um ativo vinculado com o conector aprimorado
 
-Você pode exibir ou baixar um ativo no Adobe Workfront vinculado pela Experience Manager Assets.
+Você pode visualizar ou baixar um ativo no Adobe Workfront que está vinculado no Experience Manager Assets.
 
 ## Requisitos de acesso
 
@@ -26,11 +26,11 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p> Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças Adobe Workfront*</td> 
+   <td role="rowheader">Licenças da Adobe Workfront*</td> 
    <td> <p>Solicitação ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -39,24 +39,24 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir acesso ou superior</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir acesso ou superior</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
 Antes de começar, você deve
 
-* Instale o conector Workfront para Experience Manager Enhanced
+* Instale o conector aprimorado do Workfront para Experience Manager
 
-## Exibir ou baixar um ativo vinculado da Experience Manager Assets
+## Exibir ou baixar um ativo vinculado do Experience Manager Assets
 
 1. Localize o documento que deseja exibir ou baixar.
 1. Na lista de documentos, selecione o documento.

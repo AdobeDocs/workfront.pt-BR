@@ -67,11 +67,11 @@ O formato de uma regra de negócios é &quot;Se a condição definida for atendi
 
 A sintaxe das propriedades e outras funções em uma regra de negócios é igual à sintaxe de um campo calculado em um formulário personalizado. Para obter mais informações sobre a sintaxe, consulte [Adicionar campos calculados com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Para obter informações sobre instruções IF, consulte [Visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Para obter informações sobre instruções IF, consulte a [ visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-Para obter informações sobre curingas baseados no usuário, consulte [Usar curingas com base no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+Para obter informações sobre curingas baseados no usuário, consulte [Usar curingas baseados no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-Para obter informações sobre curingas com base em data, consulte [Usar curingas com base em data para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Para obter informações sobre curingas baseados em data, consulte [Usar curingas baseados em data para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 Um curinga de API também está disponível nas regras de negócios. Você pode usar `$$ISAPI` para acionar a regra somente na interface ou somente na API.
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. Clique em **Regras comerciais** no painel esquerdo.
-1. Clique em **Nova regra de negócios**.
+1. Clique em **Regras de Negócios** no painel esquerdo.
+1. Clique em **Nova regra de negócio**.
 1. Selecione o tipo de objeto ao qual atribuir a regra de negócios e clique em **Continuar**.
 
-   ![Selecionar um objeto](assets/object-for-business-rule2.png)
+   ![Selecione um objeto](assets/object-for-business-rule2.png)
 
-1. Digite o **Nome** para a regra de negócios.
-1. No **Está ativo** selecione se a regra deve estar ativa ao salvá-la.
+1. Digite o **Nome** da regra de negócios.
+1. No campo **Está ativo**, selecione se a regra deve estar ativa ao salvá-lo.
 
-   Se você selecionar **Não**, a regra será salva como inativa e você poderá ativá-la posteriormente.
+   Se você selecionar **Não**, a regra será salva como inativa e você poderá ativá-la mais tarde.
 
 1. Selecione um **Acionador** para a regra de negócios. As opções são:
 
-   * **Na criação do objeto:** A regra é aplicada quando um usuário tenta criar um objeto.
-   * **Na edição do objeto:** A regra é aplicada quando um usuário tenta editar um objeto.
-   * **Na exclusão do objeto:** A regra é aplicada quando um usuário tenta excluir um objeto.
+   * **Na criação do objeto:** a regra é aplicada quando um usuário tenta criar um objeto.
+   * **Na edição do objeto:** a regra é aplicada quando um usuário tenta editar um objeto.
+   * **Na exclusão de objeto:** a regra é aplicada quando um usuário tenta excluir um objeto.
 
-1. (Opcional) Insira um **Descrição** da regra de negócios e o que acontece quando ela é aplicada.
+1. (Opcional) Insira uma **Descrição** da regra de negócios e o que acontece quando ela é aplicada.
 1. Crie a fórmula no editor de fórmulas, no centro da caixa de diálogo de regra de negócios.
 
    O formato de uma regra de negócios é &quot;Se a condição definida for atendida, o usuário será impedido de realizar a ação no objeto e a mensagem será exibida&quot;.
@@ -127,13 +127,13 @@ IF(
    * Como o objeto e a ação já estão definidos, você não os inclui na fórmula.
    * A mensagem de erro personalizada é exibida ao usuário quando ele aciona a regra de negócios. Ele deve fornecer instruções claras sobre o que deu errado e como corrigir o problema.
 
-   ![Caixa de diálogo Adicionar regra de negócios](assets/add-business-rule-dialog-no-ai-button.png)
+   ![Caixa de diálogo Adicionar regra de negócio](assets/add-business-rule-dialog-no-ai-button.png)
 
    Este exemplo é uma regra de negócios para despesas. Se o mês atual for junho, os usuários não poderão criar novas despesas e a mensagem explica isso.
 
-   Para obter mais exemplos de regras de negócios, consulte [Cenários de regras de negócios](#scenarios-for-business-rules) neste artigo.
+   Para obter mais exemplos de regras de negócios, consulte [Cenários para regras de negócios](#scenarios-for-business-rules) neste artigo.
 
-1. (Opcional) Use a fórmula **Expressões** e **Campos** no painel direito para ajudar a criar a regra.
+1. (Opcional) Use a fórmula **Expressões** e **Campos** no painel direito para auxiliar na criação da regra.
 
    Procure por uma expressão ou campo para restringir a lista de itens disponíveis.
 
@@ -152,5 +152,5 @@ Quando uma regra de negócios está inativa, o campo Está Ativo na lista de reg
 Para ativar uma regra de negócios:
 
 1. Selecione a regra de negócios na lista de regras e clique no ícone Editar.
-1. Selecionar **Sim** para **Está ativo** na caixa de diálogo regra de negócios.
+1. Selecione **Sim** para **Está ativo** na caixa de diálogo de regra de negócios.
 1. Clique em **Salvar**.

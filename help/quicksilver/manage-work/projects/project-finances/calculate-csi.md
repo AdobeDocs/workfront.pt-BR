@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ O Workfront calcula o Índice de Desempenho de Custo (CSI) de um projeto ou tare
 
 `CSI = CPI x SPI`
 
-Para obter informações sobre a CPI, consulte o artigo [Calcular Índice de Desempenho de Custo (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Para obter informações sobre CPI, consulte o artigo [Calcular Índice de Desempenho de Custo (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
 Para obter informações sobre SPI, consulte o artigo [Calcular Índice de Desempenho de Agendamento (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
 

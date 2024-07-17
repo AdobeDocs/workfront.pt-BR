@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> -->
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um colaborador de projeto no Frame.io. Para obter mais informações, consulte <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Fui convidado para colaborar em um projeto</a>
+   <td> <p>Você deve ser um colaborador de projeto no Frame.io. Para obter mais informações, consulte <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Fui convidado para colaborar em um Projeto</a>
  no site de ajuda Frame.io.</p> </td> 
   </tr> 
    <tr>
@@ -69,7 +69,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Você deve ter uma licença de Membro de Equipe para revisar no Frame.io.
 
-1. Clique no menu de três pontos no ativo e clique em **Adicionar ao Workfront**.
+1. Clique no menu de três pontos no ativo e em **Adicionar ao Workfront**.
 
 1. Escolha onde fazer upload do ativo no projeto conectado do Workfront.
 

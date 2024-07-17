@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de projeto feitas com a versão 23.3. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Novas aprovações de documentos
 
@@ -29,10 +29,10 @@ Nesta primeira versão, o processo de aprovação foi simplificado tanto para a 
 * Tomar decisões de aprovação diretamente em Minhas atualizações e na Página inicial
 * Criar aprovações para versões específicas do documento
 
-Para obter mais informações sobre como usar as novas aprovações de documentos, consulte [Visão geral das novas aprovações de documento](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+Para obter mais informações sobre como usar as novas aprovações de documentos, consulte [Visão geral das Novas Aprovações de Documentos](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
 
 ## Novo botão Compartilhar
 
 A opção Compartilhar foi retirada do menu Mais para projetos, tarefas e problemas, tornando o compartilhamento mais intuitivo. O novo botão Compartilhar agora é exibido ao lado do nome de um objeto, antes do menu Mais. O compartilhamento de documentos, portfólios e programas permanece inalterado.
 
-Para obter mais informações sobre compartilhamento de objetos, consulte [Compartilhar um objeto](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
+Para obter mais informações sobre objetos de compartilhamento, consulte [Compartilhar um objeto](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).

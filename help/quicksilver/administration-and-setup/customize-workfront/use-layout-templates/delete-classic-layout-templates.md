@@ -3,20 +3,21 @@ title: Excluir modelos de layout clássicos
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-description: Os modelos de layout da experiência Clássica do Workfront não estão mais disponíveis na interface do Workfront, mas ainda podem afetar os dados do Workfront. Isso pode causar inconsistências em campos afetados por modelos de layout (como Compartilhado com) em relatórios ou painéis.
+description: Os modelos de layout da Experiência clássica do Workfront não estão mais disponíveis em sua interface, mas ainda podem afetar seus dados. Isso pode causar inconsistências em campos afetados por modelos de layout (como “Compartilhado com”) em relatórios ou painéis.
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
+exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 58%
 
 ---
 
 # Conceder acesso administrativo a um modelo de layout
 
-Os modelos de layout da experiência Clássica do Workfront não estão mais disponíveis na interface do Workfront, mas ainda podem afetar os dados do Workfront. Isso pode causar inconsistências em campos afetados por modelos de layout (como Compartilhado com) em relatórios ou painéis.
+Os modelos de layout da Experiência clássica do Workfront não estão mais disponíveis em sua interface, mas ainda podem afetar seus dados. Isso pode causar inconsistências em campos afetados por modelos de layout (como “Compartilhado com”) em relatórios ou painéis.
 
 Você pode resolver essas inconsistências excluindo os modelos de layout Clássicos. Como não estão disponíveis na interface do Workfront, use a API do Workfront para excluí-los.
 
@@ -30,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -62,11 +63,8 @@ Você pode inserir chamadas de API na barra de URL do navegador e pressionar Ent
    >
    >Nunca compartilhe sua ID de sessão com ninguém.
 
-1. Insira a ID do modelo de layout e a ID da sessão na seguinte chamada de API:
+1. Insira a ID do modelo de layout e a ID de sessão na seguinte chamada de API:
    `https://{yourDomain}.com/attask/api/v16.0/LYTMPL?ID={layoutTemplateID}&method=delete&sessionID={yourSessionID}`
-1. Cole a chamada de API da etapa 4 na barra de URL do seu navegador e pressione Enter.
+1. Cole a chamada de API da etapa 4 na barra de URL do navegador e pressione Enter.
 
-   Isso exclui o modelo de layout.
-
-
-
+   Isso excluirá o modelo de layout.

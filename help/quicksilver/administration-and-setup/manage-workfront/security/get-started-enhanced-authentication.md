@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-O Adobe Workfront está alterando o gerenciamento de sistema de usuários e senhas. Essas alterações serão implementadas em uma versão em fases chamada **Autenticação aprimorada** experiência. A Autenticação aprimorada oferece aos usuários uma experiência de logon mais consistente e segura em todos os produtos e serviços da Workfront.
+O Adobe Workfront está alterando o gerenciamento de sistema de usuários e senhas. Essas alterações serão implementadas em uma versão em fases chamada experiência de **Autenticação aprimorada**. A Autenticação aprimorada oferece aos usuários uma experiência de logon mais consistente e segura em todos os produtos e serviços da Workfront.
 
 A tabela a seguir fornece detalhes sobre a funcionalidade atual e futura:
 
@@ -153,7 +153,7 @@ A tabela a seguir fornece detalhes sobre a funcionalidade atual e futura:
    <td> <p>✓ µ</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Suporte a ambiente</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Suporte de ambiente</strong> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as outras melhorias feitas com a versão 2020.2 no ambiente de Produção. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de maio de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.2, consulte [Visão geral da versão 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.2, consulte a [visão geral da versão 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Para administradores do Workfront: modelos de layout mais recentes criados no Workfront Classic agora disponíveis na nova experiência do Workfront
 
@@ -41,7 +41,7 @@ Para obter informações sobre como adicionar processos de aprovação a projeto
 * [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md)
-* [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 ## Criar processos de aprovação para grupos que usam status personalizados
@@ -55,9 +55,9 @@ Os status personalizados agora podem ser usados em processos de aprovação de u
 * Crie um processo de aprovação de uso único para um objeto (projeto, tarefa ou problema) e baseie-o nos status associados ao grupo que está trabalhando nesse objeto. Isso inclui todos os status personalizados associados ao grupo.
 * Crie um processo de aprovação global e o disponibilize somente para o grupo ou para todos no sistema.
 
-Para usuários com acesso administrativo a processos de aprovação, as informações sobre a configuração de processos de aprovação estão disponíveis em [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Criando processos de aprovação](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Para usuários com acesso administrativo a processos de aprovação, as informações sobre como configurar processos de aprovação estão disponíveis em [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Criação de Processos de Aprovação](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-Para usuários, as informações sobre como associar processos de aprovação a itens de trabalho estão disponíveis em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Associando um Processo de Aprovação Novo ou Existente ao Trabalho](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Para usuários, as informações sobre como associar processos de aprovação a itens de trabalho estão disponíveis em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Associando um Processo de Aprovação Novo ou Existente ao Trabalho](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
 **Disponível nestes ambientes:**
 
@@ -70,7 +70,7 @@ Para permitir que os usuários naveguem mais facilmente entre as páginas de pes
 
 Agora, ao clicar em Pesquisa avançada no menu Pesquisar ou realizar uma pesquisa básica, uma página é aberta a partir do lado direito da tela.
 
-Para obter mais informações, consulte [Pesquisar no Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Para obter mais informações, consulte [Pesquisar Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 **Disponível nestes ambientes:**
 
@@ -84,4 +84,4 @@ Para permitir que os usuários testem, solucionem problemas e resolvam problemas
 * Recriação do serviço para ter dependências menos complexas e, portanto, dimensionar com mais eficiência
 * Aprimoramentos no monitoramento e alertas
 
-Para saber mais, consulte [Perguntas frequentes - Assinaturas de eventos](../../../wf-api/general/event-subs-faq.md) e [Práticas recomendadas de assinatura de evento](../../../wf-api/general/event-sub-best-practice.md).
+Para saber mais, consulte [Perguntas frequentes - Assinaturas de Eventos](../../../wf-api/general/event-subs-faq.md) e [Práticas recomendadas de assinatura de eventos](../../../wf-api/general/event-sub-best-practice.md).

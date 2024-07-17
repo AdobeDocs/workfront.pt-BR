@@ -18,13 +18,13 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro de [!DNL Adobe Workfront], consulte [Tofing](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this work for PiW</p>
 -->
 
-Durante o processo de revisão e aprovação, é possível enviar uma mensagem a um ou a todos os revisores em uma prova para lembrá-los de concluir a revisão ou fornecer outras informações sobre a prova. Você pode enviar o email de lembrete padrão ou adicionar sua própria mensagem personalizada.
+Durante o processo de revisão e aprovação, é possível enviar uma mensagem para um ou todos os revisores em uma prova para lembrá-los de concluir sua revisão ou fornecer outras informações sobre a prova. Você pode enviar o email de lembrete padrão ou adicionar sua própria mensagem personalizada.
 
 O email de lembrete padrão inclui as seguintes informações:
 
@@ -35,34 +35,34 @@ O email de lembrete padrão inclui as seguintes informações:
    * Nome da prova
    * Número da versão
    * Nome da pasta (se aplicável)
-   * Lista dos revisores e seus progressos na prova
+   * Lista dos revisores e seu progresso na prova
 
-Você também pode lembrar alguém sobre várias provas que foram compartilhadas com ele. Para obter mais informações, consulte [Lembrar um revisor sobre atribuições na Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
+Você também pode lembrar alguém sobre múltiplas provas que foram compartilhadas com ele. Para obter mais informações, consulte [Lembrar um revisor sobre atribuições no Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 
-## Envio de uma mensagem a revisores em uma prova
+## Enviar uma mensagem aos revisores em uma prova
 
-1. Em qualquer exibição de lista ou na [!UICONTROL Painel], clique no botão **[!UICONTROL Mais]** (três pontos) para a prova, em seguida, clique em **[!UICONTROL Mensagem]**.
+1. Em qualquer exibição de lista ou no [!UICONTROL Painel], clique no menu **[!UICONTROL Mais]** (três pontos) para a prova e clique em **[!UICONTROL Mensagem]**.
 
-1. No **[!UICONTROL Mensagem]** for exibida, selecione os recipients desejados.
+1. Na caixa **[!UICONTROL Mensagem]** exibida, selecione os destinatários desejados.
 1. Siga um destes procedimentos:
 
-   * Se quiser usar o padrão [!DNL Workfront Proof] mensagem, clique em **[!UICONTROL Descartar mensagem personalizada]**, depois clique em **[!UICONTROL Enviar]**.\
+   * Se quiser usar a mensagem padrão [!DNL Workfront Proof], clique em **[!UICONTROL Descartar mensagem personalizada]** e em **[!UICONTROL Enviar]**.\
 
-      A mensagem padrão lembra aos revisores que eles foram adicionados à prova e inclui o prazo da prova.
+     A mensagem padrão lembra os revisores que eles foram adicionados à prova e inclui o prazo da prova.
 
-   * Se quiser criar sua própria mensagem personalizada, digite um **[!UICONTROL Assunto]** e **[!UICONTROL Mensagem],** em seguida, clique em **[!UICONTROL Enviar].**&#x200B; Um email de lembrete personalizado contém as mesmas informações que o email de lembrete padrão, mas também inclui a linha de assunto personalizada e a mensagem personalizada no corpo do email.
+   * Para criar sua própria mensagem personalizada, digite um **[!UICONTROL Assunto]** e a **[!UICONTROL Mensagem],** e clique em **[!UICONTROL Enviar].**&#x200B;Um email de lembrete personalizado contém as mesmas informações que o email de lembrete padrão, mas também inclui sua linha de assunto personalizada e a mensagem personalizada no corpo do email.
 
-## Envio de uma Mensagem a Revisores em um Estágio
+## Envio de uma mensagem aos revisores em um estágio
 
-1. Em qualquer exibição de lista ou no Painel , clique no botão **[!UICONTROL Mais]** (três pontos) para a prova, em seguida, clique em **[!UICONTROL Exibir detalhes da prova]**.
+1. Em qualquer exibição de lista ou no Painel, clique no menu **[!UICONTROL Mais]** (três pontos) para a prova e clique em **[!UICONTROL Exibir detalhes da prova]**.
 
-1. Em **[!UICONTROL Fluxo de trabalho,]** no canto superior direito do palco, clique no **[!UICONTROL Mais]** menu (três pontos) do palco, em seguida, clique em **[!UICONTROL Mensagem tudo]** no menu suspenso.
+1. Em **[!UICONTROL Fluxo de Trabalho]**, no canto superior direito do estágio, clique no menu **[!UICONTROL Mais]** (três pontos) do estágio e clique em **[!UICONTROL Mensagem tudo]** no menu suspenso.
 
-1. No **[!UICONTROL Mensagem]** for exibida, selecione os recipients desejados.
+1. Na caixa **[!UICONTROL Mensagem]** exibida, selecione os destinatários desejados.
 1. Siga um destes procedimentos:
 
-   * Se quiser usar o padrão [!DNL Workfront Proof] mensagem, clique em **[!UICONTROL Descartar mensagem personalizada]**, depois clique em **[!UICONTROL Enviar]**.\
+   * Se quiser usar a mensagem padrão [!DNL Workfront Proof], clique em **[!UICONTROL Descartar mensagem personalizada]** e em **[!UICONTROL Enviar]**.\
 
-      A mensagem padrão lembra aos revisores que eles foram adicionados à prova e inclui o prazo da prova.
+     A mensagem padrão lembra os revisores que eles foram adicionados à prova e inclui o prazo da prova.
 
-   * Se quiser criar sua própria mensagem personalizada, digite um **[!UICONTROL Assunto]** e **[!UICONTROL Mensagem],** em seguida, clique em **[!UICONTROL Enviar].**&#x200B; Um email de lembrete personalizado contém as mesmas informações que o email de lembrete padrão, mas também inclui a linha de assunto personalizada e a mensagem personalizada no corpo do email.
+   * Para criar sua própria mensagem personalizada, digite um **[!UICONTROL Assunto]** e a **[!UICONTROL Mensagem],** e clique em **[!UICONTROL Enviar].**&#x200B;Um email de lembrete personalizado contém as mesmas informações que o email de lembrete padrão, mas também inclui sua linha de assunto personalizada e a mensagem personalizada no corpo do email.

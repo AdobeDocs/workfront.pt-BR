@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do Excel para Microsoft Office 365
-description: Em um [!DNL Adobe Workfront Fusion] Você pode automatizar fluxos de trabalho que usam o Microsoft 365 Excel, bem como conectá-lo a vários aplicativos e serviços de terceiros.
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode automatizar fluxos de trabalho que usam o Microsoft 365 Excel, bem como conectá-los a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Microsoft Office 365 Excel] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Microsoft 365 Excel], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um cenário [!DNL Adobe Workfront Fusion], você pode automatizar fluxos de trabalho que usam [!DNL Microsoft 365 Excel], bem como conectá-los a vários aplicativos e serviços de terceiros.
 
-Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se você precisar de instruções sobre como criar um cenário, consulte [Criar um cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -43,35 +43,35 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!DNL Microsoft office 365 Excel], você deve ter uma conta do Microsoft.
+Para usar o [!DNL Microsoft office 365 Excel], você deve ter uma conta da Microsoft.
 
 
 
-## Conectar o [!DNL Office 365 Excel] serviço para [!DNL Workfront Fusion]
+## Conectando o serviço [!DNL Office 365 Excel] a [!DNL Workfront Fusion]
 
-Para obter instruções sobre como conectar seu [!DNL Office 365 Excel] conta para [!UICONTROL Workfront Fusion], consulte [Criar uma conexão com o [!UICONTROL Adobe Workfront Fusion] - Instruções básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Para obter instruções sobre como conectar sua conta do [!DNL Office 365 Excel] ao [!UICONTROL Workfront Fusion], consulte [Criar uma conexão com o [!UICONTROL Adobe Workfront Fusion] - Instruções básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -81,9 +81,9 @@ Para obter instruções sobre como conectar seu [!DNL Office 365 Excel] conta pa
 
 ## [!DNL Microsoft Office 365 Excel] módulos e seus campos
 
-Ao configurar [!DNL Microsoft 365 Excel] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Microsoft 365 Excel] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL Microsoft 365 Excel], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL Microsoft 365 Excel] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -108,7 +108,7 @@ Esse módulo de acionador inicia um cenário quando uma pasta de trabalho é cri
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pasta]</td> 
@@ -125,9 +125,9 @@ Esse módulo de acionador inicia um cenário quando uma pasta de trabalho é cri
  </tbody> 
 </table>
 
-#### [!UICONTROL Pesquisar pastas de trabalho]
+#### [!UICONTROL Pastas de Trabalho de Pesquisa]
 
-Este módulo de ação procura por [!DNL Excel] pastas de trabalho.
+Este módulo de ação pesquisa por [!DNL Excel] pastas de trabalho.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -135,7 +135,7 @@ Este módulo de ação procura por [!DNL Excel] pastas de trabalho.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pasta]</td> 
@@ -162,7 +162,7 @@ Este módulo de ação baixa o conteúdo da pasta de trabalho do Excel especific
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Baixar uma pasta de trabalho]</td> 
@@ -180,10 +180,10 @@ Este módulo de ação baixa o conteúdo da pasta de trabalho do Excel especific
 * [[!UICONTROL Observar Linhas da Planilha]](#watch-worksheet-rows)
 * [[!UICONTROL Listar Planilhas]](#list-worksheets)
 * [[!UICONTROL Listar Linhas da Planilha]](#list-worksheet-rows)
-* [[!UICONTROL Adicionar uma Planilha]](#add-a-worksheet)
+* [[!UICONTROL Adicionar uma planilha]](#add-a-worksheet)
 * [[!UICONTROL Adicionar uma Linha da Planilha]](#add-a-worksheet-row)
 * [[!UICONTROL Atualizar uma Linha da Planilha]](#update-a-worksheet-row)
-* [[!UICONTROL Deletar uma Linha da Planilha]](#delete-a-worksheet-row)
+* [[!UICONTROL Excluir uma Linha da Planilha]](#delete-a-worksheet-row)
 
 #### [!UICONTROL Observar Linhas da Planilha]
 
@@ -195,7 +195,7 @@ Esse módulo de acionamento inicia um cenário quando uma nova linha é adiciona
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -222,7 +222,7 @@ Este módulo de ação recupera uma lista de planilhas na pasta de trabalho espe
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -245,7 +245,7 @@ Este módulo de ação recupera uma lista de linhas na planilha especificada.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr>
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -262,7 +262,7 @@ Este módulo de ação recupera uma lista de linhas na planilha especificada.
  </tbody> 
 </table>
 
-#### [!UICONTROL Adicionar uma Planilha]
+#### [!UICONTROL Adicionar uma planilha]
 
 Esse módulo de ação cria uma nova planilha na pasta de trabalho selecionada.
 
@@ -272,7 +272,7 @@ Esse módulo de ação cria uma nova planilha na pasta de trabalho selecionada.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr>
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -295,7 +295,7 @@ Este módulo de ação adiciona uma nova linha à planilha selecionada.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -309,8 +309,8 @@ Este módulo de ação adiciona uma nova linha à planilha selecionada.
    <td role="rowheader"> <p>[!UICONTROL Tipo de valores que estão sendo inseridos]</p> </td> 
    <td> <p>Selecione o tipo de valor a ser inserido na planilha. </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Fórmulas]</strong> </p> <p> O Excel tenta avaliar a expressão especificada. Os nomes das funções em uma fórmula estão em inglês. Exemplo: <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
-     <li> <p><strong>[!UICONTROL Fórmulas local]</strong> </p> <p>O Excel tenta avaliar a expressão especificada. Os nomes das funções estão no idioma do aplicativo do Excel. Exemplo: <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
+     <li> <p><strong>[!UICONTROL fórmulas]</strong> </p> <p> O Excel tenta avaliar a expressão especificada. Os nomes das funções em uma fórmula estão em inglês. Exemplo: <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Fórmulas locais]</strong> </p> <p>O Excel tenta avaliar a expressão especificada. Os nomes das funções estão no idioma do aplicativo do Excel. Exemplo: <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
      <li> <p><strong>[!UICONTROL Valor]</strong> </p> <p>O Excel não avalia o valor. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -331,7 +331,7 @@ Este módulo de ação atualiza uma linha de planilha existente.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -345,8 +345,8 @@ Este módulo de ação atualiza uma linha de planilha existente.
    <td role="rowheader"> <p>[!UICONTROL Tipo de valores que estão sendo inseridos]</p> </td> 
    <td> <p>Selecione o tipo de valor a ser inserido na planilha. </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Fórmulas]</strong> </p> <p> O Excel tenta avaliar a expressão especificada. Os nomes das funções em uma fórmula estão em inglês. Exemplo: <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
-     <li> <p><strong>[!UICONTROL Fórmulas local]</strong> </p> <p>O Excel tenta avaliar a expressão especificada. Os nomes das funções estão no idioma do aplicativo do Excel. Exemplo: <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
+     <li> <p><strong>[!UICONTROL fórmulas]</strong> </p> <p> O Excel tenta avaliar a expressão especificada. Os nomes das funções em uma fórmula estão em inglês. Exemplo: <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Fórmulas locais]</strong> </p> <p>O Excel tenta avaliar a expressão especificada. Os nomes das funções estão no idioma do aplicativo do Excel. Exemplo: <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
      <li> <p><strong>[!UICONTROL Valor]</strong> </p> <p>O Excel não avalia o valor. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -362,7 +362,7 @@ Este módulo de ação atualiza uma linha de planilha existente.
  </tbody> 
 </table>
 
-#### [!UICONTROL Deletar uma Linha da Planilha]
+#### [!UICONTROL Excluir uma Linha da Planilha]
 
 Este módulo de ação exclui uma linha de uma planilha.
 
@@ -372,7 +372,7 @@ Este módulo de ação exclui uma linha de uma planilha.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -394,7 +394,7 @@ Este módulo de ação exclui uma linha de uma planilha.
 * [[!UICONTROL Observar linhas da tabela]](#watch-table-rows)
 * [[!UICONTROL Listar tabelas]](#list-tables)
 * [[!UICONTROL Listar linhas da tabela]](#list-table-rows)
-* [[!UICONTROL Obter uma tabela]](#get-a-table)
+* [[!UICONTROL Obter uma Tabela]](#get-a-table)
 * [[!UICONTROL Adicionar uma tabela]](#add-a-table)
 * [[!UICONTROL Adicionar uma linha de tabela]](#add-a-table-row)
 * [[!UICONTROL Atualizar uma tabela]](#update-a-table)
@@ -416,7 +416,7 @@ Esse acionador inicia um cenário quando uma nova linha é adicionada a uma tabe
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Pasta de Trabalho]</p> </td> 
@@ -447,7 +447,7 @@ Este módulo de pesquisa recupera uma lista de todos os objetos de tabela.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr>
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -474,7 +474,7 @@ Este módulo de pesquisa recupera uma lista de todas as linhas de tabela em uma 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -495,7 +495,7 @@ Este módulo de pesquisa recupera uma lista de todas as linhas de tabela em uma 
  </tbody> 
 </table>
 
-#### [!UICONTROL Obter uma tabela]
+#### [!UICONTROL Obter uma Tabela]
 
 Este módulo de ação recupera metadados para a tabela especificada.
 
@@ -508,7 +508,7 @@ Este módulo de ação recupera metadados para a tabela especificada.
      <p >[!UICONTROL Conexão]</p>
    </td> 
    <td> 
-     <p>Para obter instruções sobre como conectar sua conta do Office 365 a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p>
+     <p>Para obter instruções sobre como conectar sua conta do Office 365 ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p>
     --&gt; </td> 
   </tr> 
   <tr> 
@@ -532,7 +532,7 @@ Esse módulo de ação cria um elemento de tabela na planilha do Excel.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pasta de Trabalho] </td> 
@@ -563,7 +563,7 @@ Este módulo de ação modifica uma tabela existente.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Pasta de Trabalho] </td>
@@ -598,7 +598,7 @@ Este módulo de ação atualiza uma tabela existente.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Atualizar uma tabela]</td> 
@@ -633,7 +633,7 @@ Este módulo de ação atualiza uma tabela existente.
 
 #### [!UICONTROL Excluir uma tabela]
 
-Este módulo de ação exclui a tabela especificada de um [!DNL Excel] planilha.
+Este módulo de ação exclui a tabela especificada de uma planilha [!DNL Excel].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -641,7 +641,7 @@ Este módulo de ação exclui a tabela especificada de um [!DNL Excel] planilha.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Obter uma tabela]</td> 
@@ -669,7 +669,7 @@ Esta ação recupera dados do intervalo de planilhas definido e retorna um conju
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pasta de Trabalho] </td> 
@@ -696,11 +696,11 @@ Esse módulo de ação permite fazer uma chamada de API personalizada.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Office 365] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Office 365] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]</a> no artigo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Criar um cenário no [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Insira um caminho relativo a <code>https://graph.microsoft.com</code>. Exemplo:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Insira um caminho relativo para <code>https://graph.microsoft.com</code>. Exemplo:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método]</td> 
@@ -716,7 +716,7 @@ Esse módulo de ação permite fazer uma chamada de API personalizada.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Corpo]</td> 
-   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:   <p>Ao usar declarações condicionais como <code>if</code> no JSON, coloque as aspas fora da declaração condicional.</p> 
+   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:   <p>Ao usar instruções condicionais como <code>if</code> em seu JSON, coloque as aspas fora da instrução condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

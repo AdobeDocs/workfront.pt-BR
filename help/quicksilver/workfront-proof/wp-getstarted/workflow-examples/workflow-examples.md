@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Processo de prova básica no [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-* [Revisão interna e externa no [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
-* [Trabalhar com designers e gerentes de projeto no [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
-* [Trabalhar com Freelancers em [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+* [Processo de Prova Básica em  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+* [Revisão interna e externa em  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+* [Trabalhando com Designers e Gerentes de Projeto no [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
+* [Trabalhando com Freelancers em  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Prova com a versão 2020.1. Esses aprimoramentos estão disponíveis atualmente no ambiente de Pré-visualização e serão disponibilizados no ambiente Produção no final de março ou início de abril de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte [Visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte a [visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Atualizações na ferramenta de medição no visualizador de provas
 
@@ -36,7 +36,7 @@ Agora, ao definir o prazo do estágio e as configurações de ativação para um
 
 Além disso, os nomes das configurações de preparo agora são consistentes de uma atividade do Fluxo de trabalho automatizado para outra. Anteriormente, algumas configurações de estágio do Fluxo de trabalho automatizado para configurar uma nova prova eram diferentes das configurações correspondentes para uma prova existente.
 
-Para obter mais informações, consulte e [Criar ou editar um Fluxo de trabalho automatizado para uma prova existente](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+Para obter mais informações, consulte e [Criar ou editar um Fluxo de Trabalho Automatizado para uma prova existente](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
 
 ## Adicionar um fuso horário a um modelo de fluxo de trabalho automatizado
 

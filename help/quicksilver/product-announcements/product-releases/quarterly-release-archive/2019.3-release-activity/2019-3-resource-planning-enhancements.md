@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as alterações em melhorias no Planejamento de recursos feitas na versão 2019.3. Ele foi disponibilizado no ambiente de Produção na semana de 19 de agosto de 2019.
 
-Para obter uma lista de todas as alterações feitas em 2019.3, consulte [Visão geral da atividade da versão 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.3, consulte a [visão geral da atividade da versão 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Criar um relatório de horas orçadas
 
@@ -26,13 +26,13 @@ Agora você pode criar um relatório para visualizar as Horas orçadas fora do P
 
 Ao criar um relatório para Horas orçadas, você pode exibir Horas orçadas associadas aos usuários no Planejador de recursos (no campo Horas orçadas) e Horas orçadas associadas a projetos ou funções de trabalho (no campo Horas orçadas planejadas).
 
-Para obter informações sobre como exibir Horas orçadas em um relatório, consulte [Relatório de Horas Orçadas do Planejador de Recursos](../../../../resource-mgmt/resource-planning/report-on-budgeted-hours.md).
+Para obter informações sobre como visualizar as Horas orçadas em um relatório, consulte [Relatório sobre as horas orçadas do Planejador de recursos](../../../../resource-mgmt/resource-planning/report-on-budgeted-hours.md).
 
 ## Novas configurações para ocultar a coluna Horas efetivas no Planejador de recursos
 
 Agora você pode exibir ou ocultar a coluna Horas efetivas ao visualizar informações por usuário no Planejador de recursos.
 
-Para obter informações sobre as configurações do Planejador de recursos, consulte [Configurações](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) seção do [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Para obter informações sobre as configurações no Planejador de recursos, consulte a seção [Configurações](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) da [visão geral de navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Os conjuntos de recursos são mantidos na área Orçamento de recursos do Business Case
 
@@ -46,5 +46,5 @@ Os administradores do Workfront agora podem determinar quais usuários têm aces
 
 Antes dessa alteração, todas as informações de custo estavam sempre disponíveis para todos os usuários no Planejador de recursos.
 
-Para obter mais informações sobre custos no Planejador de Recursos, consulte [Calcular custos no Planejador de recursos](../../../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Para obter mais informações sobre custos no Planejador de Recursos, consulte [Calcular custos no Planejador de Recursos](../../../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 

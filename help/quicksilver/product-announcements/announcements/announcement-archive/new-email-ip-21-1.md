@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: announcements
 title: Novos endereços IP para email do Adobe Workfront com a versão 21.1
-description: Em um esforço para aumentar o sucesso do delivery de email, estamos adicionando novos endereços IP com a versão de produção 21.1 para os clusters listados abaixo. Para descobrir em qual cluster a instância está, vá para Configurar &gt; Sistema &gt; Informações do Cliente.
+description: Em um esforço para aumentar o sucesso do delivery de email, estamos adicionando novos endereços IP com a versão de produção 21.1 para os clusters listados abaixo. Para descobrir em qual cluster sua instância está, vá para Configurar &gt; Sistema &gt; Informações do cliente.
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Em um esforço para aumentar o sucesso do delivery de email, estamos adicionando novos endereços IP com a versão de produção 21.1 para os clusters listados abaixo. Para descobrir em qual cluster sua instância está, acesse Configuração > Sistema > Informações do cliente.
 
-**Clusters 1, 2, 3 e 5**
+**Clusters 1,2,3 e 5**
 
 Incluir na lista de permissões Adicione os seguintes endereços IP ao seu arquivo de pesquisa para garantir que os usuários continuem recebendo emails:
 
@@ -33,7 +33,7 @@ Incluir na lista de permissões Adicione os seguintes endereços IP ao seu arqui
 * 23 251 239 98
 * 23 251 239 99
 
-(Para obter mais contexto sobre a inclui na lista de permissões e outros endereços IP que já podem ter sido adicionados ao seu incluo na lista de permissões, consulte [Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(Para obter contexto adicional sobre a inclui na lista de permissões do firewall e outros endereços IP que já podem ter sido adicionados ao seu arquivo de incluir na lista de permissões inclui na lista de permissões, consulte [Configurar o arquivo de do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
 
 Quando isso precisa ser feito?
 

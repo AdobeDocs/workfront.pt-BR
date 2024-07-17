@@ -10,14 +10,14 @@ feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 # Módulos de imagem
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Imagem] Os módulos do permitem obter informações sobre uma imagem específica (dimensões, tipo e assim por diante), converter uma imagem em outro formato de arquivo e alterar diretamente o tamanho da imagem.
+Os módulos [!DNL Adobe Workfront Fusion] [!UICONTROL Image] permitem obter informações sobre uma imagem específica (dimensões, tipo e assim por diante), converter uma imagem em outro formato de arquivo e alterar diretamente o tamanho da imagem.
 
 ## Requisitos de acesso
 
@@ -38,27 +38,27 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Imagem] módulos e seus campos
+## Módulos [!UICONTROL Image] e seus campos
 
 Ao configurar esse módulo, os campos a seguir são exibidos. Um título em negrito em um módulo indica um campo obrigatório.
 
@@ -75,16 +75,16 @@ Esse módulo de transformador altera a altura e a largura de uma imagem de acord
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Arquivo de origem]</td> 
+   <td role="rowheader">[!UICONTROL arquivo Source]</td> 
    <td> <p>Selecione a origem da imagem que deseja converter. Você pode selecionar a saída de um módulo anterior ou mapear o arquivo de dados e o nome do arquivo. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dados]</td> 
-   <td>Mapeie o arquivo que deseja converter. Este campo estará disponível se você tiver selecionado o [!UICONTROL Mapa] no campo [!UICONTROL Arquivo de origem].</td> 
+   <td>Mapeie o arquivo que deseja converter. Este campo estará disponível se você tiver selecionado o [!UICONTROL Mapa] no campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nome do arquivo]</td> 
-   <td>Insira um nome para o arquivo convertido. Este campo estará disponível se você tiver selecionado o [!UICONTROL Mapa] no campo [!UICONTROL Arquivo de origem].</td> 
+   <td>Insira um nome para o arquivo convertido. Este campo estará disponível se você tiver selecionado o [!UICONTROL Mapa] no campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL que eu desejo]</td> 
@@ -123,23 +123,23 @@ Esse módulo de transformador altera o formato de um arquivo de imagem. Este mó
 * GIF
 * BMP
 
-O arquivo de origem e a saída devem estar em um desses formatos. Por exemplo, a variável [!UICONTROL Imagem] >[!UICONTROL Converter um formato] pode transformar um arquivo PNG em um arquivo BMP ou um BMP em um JPG.
+O arquivo de origem e a saída devem estar em um desses formatos. Por exemplo, o módulo [!UICONTROL Image] >[!UICONTROL Convert a format] pode transformar um arquivo PNG em um arquivo BMP ou um BMP em um JPG.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Arquivo de origem]</td> 
+   <td role="rowheader">[!UICONTROL arquivo Source]</td> 
    <td> <p>Selecione a origem da imagem que deseja converter. Você pode selecionar a saída de um módulo anterior ou mapear o arquivo de dados e o nome do arquivo. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dados]</td> 
-   <td>Mapeie o arquivo que deseja converter. Este campo estará disponível se você tiver selecionado o [!UICONTROL Mapa] no campo [!UICONTROL Arquivo de origem].</td> 
+   <td>Mapeie o arquivo que deseja converter. Este campo estará disponível se você tiver selecionado o [!UICONTROL Mapa] no campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nome do arquivo]</td> 
-   <td>Insira um nome para o arquivo convertido. Este campo estará disponível se você tiver selecionado o [!UICONTROL Mapa] no campo [!UICONTROL Arquivo de origem].</td> 
+   <td>Insira um nome para o arquivo convertido. Este campo estará disponível se você tiver selecionado o [!UICONTROL Mapa] no campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Formato de saída]</td> 
@@ -157,16 +157,16 @@ Este módulo de transformador retorna informações básicas sobre um módulo.
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Arquivo de origem]</td> 
+   <td role="rowheader">[!UICONTROL arquivo Source]</td> 
    <td> <p>Selecione a origem da imagem que deseja converter. Você pode selecionar a saída de um módulo anterior ou mapear o arquivo de dados e o nome do arquivo. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dados]</td> 
-   <td>Mapeie o arquivo que deseja converter. Este campo estará disponível se você tiver selecionado Mapear no campo [!UICONTROL Arquivo de origem].</td> 
+   <td>Mapeie o arquivo que deseja converter. Este campo estará disponível se você tiver selecionado Mapear no campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nome do arquivo]</td> 
-   <td>Insira um nome para o arquivo convertido. Este campo estará disponível se você tiver selecionado Mapear no campo [!UICONTROL Arquivo de origem].</td> 
+   <td>Insira um nome para o arquivo convertido. Este campo estará disponível se você tiver selecionado Mapear no campo [!UICONTROL Source file].</td> 
   </tr> 
  </tbody> 
 </table>

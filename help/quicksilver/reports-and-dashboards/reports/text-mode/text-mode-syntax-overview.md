@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Você pode usar a interface do modo de texto para criar exibições, filtros, agrupamentos e prompts mais complexos em listas e relatórios. Ao usar o modo de texto, você pode acessar campos e seus atributos que não estão disponíveis na interface do modo padrão.
 
-Para obter informações e considerações sobre o modo de texto antes de começar, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obter informações e considerações sobre o modo de texto antes de começar, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Para obter uma lista completa de todos os campos reportáveis e seus atributos, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+Para obter uma lista completa de todos os nossos campos reportáveis e seus atributos, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
 Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo classes, vídeos e tutoriais, visite a seção Saiba mais no site do Adobe Experience League.
 
@@ -42,7 +42,7 @@ As diretrizes a seguir são comuns ao criar qualquer elemento de relatório ou l
    * Você pode exibir um objeto que esteja a três objetos de distância do relatório ou da lista em uma visualização.
    * Você não pode fazer referência a objetos que estejam a mais de 2 objetos de distância do objeto principal em um prompt de agrupamento, filtro ou personalizado.
 
-  **Exemplo:** Você pode exibir o nome ou o GUID do Proprietário do Portfolio em uma exibição de tarefa:
+  **Exemplo:** Você pode exibir o nome ou GUID do Proprietário do Portfolio em uma exibição de tarefa:
 
 
   `valuefield=project:portfolio:ownerID`
@@ -77,7 +77,7 @@ As características da caixa de camelo são:
 * As palavras a seguir sempre começam com uma letra maiúscula.
 * Não há espaços entre as palavras.
 
-**Exemplo:** Para fazer referência à Data de conclusão real de um projeto, o nome do campo que você usaria ao criar elementos de relatório no modo de texto é
+**Exemplo:** Para fazer referência à Data de conclusão atual de um projeto, o nome do campo que você usaria ao criar elementos de relatório no modo de texto é
 
 `actualCompletionDate`
 
@@ -89,7 +89,7 @@ Existem as seguintes semelhanças entre a sintaxe dos conjuntos de elementos de 
 
   Para obter informações sobre as linhas principais dos códigos para exibições e agrupamentos ao criá-los no modo de texto, consulte:
 
-   * [Editar uma visualização usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+   * [Editar uma exibição usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [Modo de edição de texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * As linhas de código e sintaxe são semelhantes para filtros e prompts personalizados.
@@ -108,7 +108,7 @@ Para obter informações sobre como criar exibições e agrupamentos, consulte o
 * [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-A linha de código mais importante para uma exibição ou um agrupamento é a linha que identifica o objeto referenciado na coluna da exibição ou no agrupamento. Esta linha de código pode começar com `valuefield` ou `valueexpression` se esse campo for uma referência direta a um campo de banco de dados do Workfront ou um cálculo entre vários campos.
+A linha de código mais importante para uma exibição ou um agrupamento é a linha que identifica o objeto referenciado na coluna da exibição ou no agrupamento. Essa linha de código pode começar com `valuefield` ou `valueexpression` com base no fato de esse campo ser uma referência direta a um campo de banco de dados do Workfront ou um cálculo entre vários campos.
 
 A tabela a seguir lista as linhas de códigos mais comuns em uma exibição ou agrupamento:
 
@@ -134,16 +134,16 @@ A tabela a seguir lista as linhas de códigos mais comuns em uma exibição ou a
 >
 >  `column.0.valuefield=name`
 >  
->  Para obter informações sobre como compartilhar colunas, consulte [Exibição: mesclar informações de várias colunas em uma coluna compartilhada](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>  Para obter informações sobre como compartilhar colunas, consulte [Exibir: mesclar informações de várias colunas em uma coluna compartilhada](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
-#### `Valuefield` visão geral de sintaxe para exibições e agrupamentos
+#### Visão geral da sintaxe `Valuefield` para exibições e agrupamentos
 
-`Valuefield=` é uma linha principal de código em exibições e agrupamentos que identifica o objeto que você está referenciando diretamente.
+`Valuefield=` é uma linha chave de código em exibições e agrupamentos que identifica o objeto que você está referenciando diretamente.
 
 A sintaxe para campos de referência direta é idêntica para agrupamentos e visualizações.
 
-As seguintes regras se aplicam ao referenciar objetos do Workfront usando um `valuefield` linha:
+As regras a seguir se aplicam ao fazer referência a objetos Workfront usando uma linha `valuefield`:
 
 * Use camel case para fazer referência a campos diretamente.
 
@@ -153,42 +153,42 @@ As seguintes regras se aplicam ao referenciar objetos do Workfront usando um `va
 
 * Use camel case e dois pontos para separar campos relacionados um ao outro para o mesmo objeto.
 
-  **Exemplo:** Para fazer referência à Data de Conclusão Planejada do Projeto em uma exibição de tarefa, use a seguinte linha:
+  **Exemplo:** Para fazer referência à Data de Término Planejada do Projeto em uma exibição de tarefa, use a seguinte linha:
 
   `valuefield=project:plannedCompletionDate`
 
-  Para obter informações sobre como os objetos estão se referenciando no banco de dados do Workfront, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+  Para obter informações sobre como os objetos estão se referenciando no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Ao fazer referência a um campo personalizado, use o nome do campo exatamente como ele aparece na interface.
 
-  **Exemplo:** Para fazer referência a um campo personalizado do projeto rotulado como Detalhes Adicionais em uma exibição de tarefa, use a seguinte linha:
+  **Exemplo:** Para referenciar um campo personalizado de projeto rotulado como Detalhes Adicionais em uma exibição de tarefa, use a seguinte linha:
 
   `valuefield=project:Additional Details`
 
-#### `Valueexpression` visão geral de sintaxe para exibições e agrupamentos
+#### Visão geral da sintaxe `Valueexpression` para exibições e agrupamentos
 
-Você pode substituir o `valuefield=` linha de código com `valueexpression=` ao criar exibições e agrupamentos no modo texto quando quiser fazer referência a um cálculo entre 2 ou mais campos.
+Você pode substituir a linha de código `valuefield=` por `valueexpression=` ao criar exibições e agrupamentos no modo de texto quando quiser fazer referência a um cálculo entre 2 ou mais campos.
 
 >[!TIP]
 >
 >Embora seja possível criar campos calculados que podem ser exibidos em relatórios, as exibições calculadas e os agrupamentos são mais dinâmicos. As exibições e os agrupamentos calculados são atualizados com novas informações sempre que você executa o relatório ou exibe uma lista.
 >
->Para obter informações sobre como criar colunas calculadas em uma exibição, consulte [Campos personalizados calculados versus colunas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+>Para obter informações sobre como criar colunas calculadas em um modo de exibição, consulte [Campos personalizados calculados vs. colunas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
 Criar um agrupamento calculado é semelhante a criar uma coluna calculada em uma exibição.
 
-As seguintes regras se aplicam ao referenciar objetos do Workfront usando um `valueexpression` linha:
+As regras a seguir se aplicam ao fazer referência a objetos Workfront usando uma linha `valueexpression`:
 
 * Use camel case para fazer referência a campos diretamente e colocar cada campo entre chaves.
 
-  **Exemplo:** Para exibir o campo Nome da Tarefa em uma coluna de tarefa usando `valueexpression`, use a seguinte linha:
+  **Exemplo:** para exibir o campo Nome da Tarefa em uma coluna de tarefa usando `valueexpression`, use a seguinte linha:
 
   `valueexpression={name}`
 
 
 * Use camel case e pontos para separar campos relacionados uns aos outros.
 
-  **Exemplo:** Para exibir o nome de um projeto concatenado com o nome da tarefa em um relatório de tarefas, use as seguintes linhas:
+  **Exemplo:** Para exibir o nome de um projeto concatenado com o nome da tarefa em um relatório de tarefa, use as seguintes linhas:
 
    * Em uma exibição:
 
@@ -198,7 +198,7 @@ As seguintes regras se aplicam ao referenciar objetos do Workfront usando um `va
 
      `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-  Para obter informações sobre como os objetos estão se referenciando no banco de dados do Workfront, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+  Para obter informações sobre como os objetos estão se referenciando no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Ao fazer referência a um campo personalizado, use as seguintes regras:
 
@@ -207,31 +207,31 @@ As seguintes regras se aplicam ao referenciar objetos do Workfront usando um `va
    * Coloque o campo entre chaves.
    * Separe os campos relacionados ao objeto por pontos.
 
-  **Exemplo:** Para exibir o campo personalizado do projeto Detalhes Adicionais em uma exibição de tarefa em uma linha de expressão de valor, use a seguinte linha:
+  **Exemplo:** Para exibir o campo personalizado de projeto Detalhes Adicionais em uma exibição de tarefa em uma linha de expressão de valor, use a seguinte linha:
 
   `valueexpression={project}.{DE:Additional Details}`
 
-* É possível usar um curinga em uma `valueexpression` mas não em um `valuefield` linha.
+* Você pode usar um curinga em uma linha `valueexpression`, mas não em uma linha `valuefield`.
 
-  Para obter informações sobre curingas, consulte [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Para obter informações sobre curingas, consulte [Visão geral das variáveis de filtro de curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
-#### `Valueformat` visão geral para exibições e agrupamentos
+#### Visão geral de `Valueformat` para exibições e agrupamentos
 
-A segunda linha de código mais importante em uma visualização ou agrupamento é o `valueformat=` linha. Isso informa ao Workfront em que formato retornar o valor especificado na variável `valuefield` ou `valueexpression` linhas. Embora você possa usar vários formatos para a variável `valueformat` recomendamos que você sempre use o seguinte valor ao usar `valueexpression`:
+A segunda linha de código mais importante em uma exibição ou agrupamento é a linha `valueformat=`. Isso informa ao Workfront em que formato retornar o valor especificado nas linhas `valuefield` ou `valueexpression`. Embora seja possível usar vários formatos para as linhas `valueformat`, recomendamos que você sempre use o seguinte valor ao usar `valueexpression`:
 
 `valueformat=HTML`
 
-Para obter `valueformat` valores, consulte também os seguintes artigos:
+Para obter valores `valueformat` adicionais, consulte também os seguintes artigos:
 
 * [Formatar datas em relatórios do modo texto](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formatar números, valores de moeda e porcentagem em relatórios de modo de texto](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-#### `width` visão geral para exibições
+#### Visão geral de `width` para exibições
 
 `width=` é a linha de código em que você pode especificar a largura de cada coluna em pixels. O Workfront fornece uma largura sugerida para cada campo, embora dependendo do tipo de campo e do formato, talvez você queira fazer ajustes.
 
-Você deve usar o adicional `usewidths=true` linha de código para aplicar a largura especificada para a coluna.
+Você deve usar a linha de código `usewidths=true` adicional para aplicar a largura especificada para a coluna.
 
 **Exemplo:** Para exibir uma coluna com largura de 80 pixels, use as seguintes linhas:
 
@@ -239,13 +239,13 @@ Você deve usar o adicional `usewidths=true` linha de código para aplicar a lar
 
 `usewidths=true`
 
-#### `stretch` visão geral para exibições
+#### Visão geral de `stretch` para exibições
 
-A variável `stretch` é usado para identificar quais colunas ocupam espaço extra não necessário para a exibição. A largura da interface do usuário do espaço de trabalho para um usuário típico é de cerca de 850 pixels. Isso significa que se você tiver uma exibição com quatro colunas (150 pixels cada), sua exibição ocupará 600 de 850 pixels. Há 250 pixels extras na interface do usuário que serão adicionados às colunas com uma porcentagem de ampliação fornecida.
+O `stretch` é usado para identificar quais colunas ocupam espaço extra não necessário para a exibição. A largura da interface do usuário do espaço de trabalho para um usuário típico é de cerca de 850 pixels. Isso significa que se você tiver uma exibição com quatro colunas (150 pixels cada), sua exibição ocupará 600 de 850 pixels. Há 250 pixels extras na interface do usuário que serão adicionados às colunas com uma porcentagem de ampliação fornecida.
 
-O alongamento de uma coluna é aplicado ao usar a linha de código adicional: `usewidths=true` para pelo menos uma das colunas na exibição.
+O alongamento de uma coluna é aplicado quando você usa a linha de código adicional: `usewidths=true` para pelo menos uma das colunas na exibição.
 
-**Exemplo:** Para indicar que uma coluna poderia usar 70% do espaço vazio em uma exibição, use as seguintes linhas:
+**Exemplo:** Para indicar que uma coluna pode usar 70% do espaço vazio em uma exibição, use as seguintes linhas:
 
 `stretch=70`
 
@@ -264,7 +264,7 @@ Para obter informações sobre a criação de filtros e prompts personalizados, 
 * [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-Para obter informações sobre como criar filtros no modo de texto, consulte [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Para obter informações sobre como criar filtros no modo texto, consulte [Editar um filtro usando o modo texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 Você pode usar os seguintes elementos para criar filtros e prompts personalizados no modo de texto:
 
@@ -287,4 +287,4 @@ Você pode usar os seguintes elementos para criar filtros e prompts personalizad
      >
      >Os conectores de instrução fazem distinção entre maiúsculas e minúsculas. &quot;AND&quot; pode ser omitido no modo de texto.
 
-* Curingas para tornar os filtros mais dinâmicos e personalizá-los para o horário atual ou para o usuário que está conectado. Para obter informações sobre curingas, consulte [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Curingas para tornar os filtros mais dinâmicos e personalizá-los para o horário atual ou para o usuário que está conectado. Para obter informações sobre curingas, consulte [Visão geral das variáveis de filtro de curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

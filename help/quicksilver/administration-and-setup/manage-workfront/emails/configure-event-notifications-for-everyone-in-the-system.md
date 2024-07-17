@@ -30,7 +30,7 @@ Depois que as notificações forem ativadas na área Configuração e aparecerem
 
 Para obter uma lista de todas as notificações de eventos que você pode ativar e desativar, consulte [Tipos de notificação de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Para obter informações sobre como desbloquear uma notificação de evento para que administradores de grupos possam configurá-la para seus grupos, consulte [Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) e [Exibir e configurar notificações de eventos para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Para obter informações sobre como desbloquear uma notificação de evento para que os administradores de grupo possam configurá-la para seus grupos, consulte [Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) e [Exibir e configurar notificações de eventos para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Requisitos de acesso
 
@@ -70,16 +70,16 @@ Você deve ativar notificações na área Configuração do Workfront antes que 
 
 >[!TIP]
 >
->Não é possível ativar notificações para o Workfront Goals na área Configuração. Os usuários podem ativar essas notificações somente em seus perfis. Os usuários com licenças de Plano podem ativá-las para outros usuários. Para obter informações sobre como ativar notificações do Workfront Goals para usuários, consulte [Notificações: Metas](../../../workfront-basics/using-notifications/notifications-goals.md).
+>Não é possível ativar notificações para o Workfront Goals na área Configuração. Os usuários podem ativar essas notificações somente em seus perfis. Os usuários com licenças de Plano podem ativá-las para outros usuários. Para obter informações sobre como habilitar notificações do Workfront Goals para usuários, consulte [Notificações: Metas](../../../workfront-basics/using-notifications/notifications-goals.md).
 
 {{step-1-to-setup}}
 
-1. Clique em **E-mail** > **Notificação**.
+1. Clique em **Email** > **Notificações**.
 
    ![](assets/notifications-area-under-setup-emails.png)
 
 
-1. Verifique se **Notificações de Eventos** está aberta.
+1. Verifique se a guia **Notificações de Eventos** está aberta.
 1. Alterne a chave à esquerda do nome do evento para ativá-lo ou desativá-lo.
 
    Para ver o status de notificação padrão de um evento, consulte [Notificações de eventos](../../../workfront-basics/using-notifications/event-notifications.md).
@@ -88,7 +88,7 @@ Você deve ativar notificações na área Configuração do Workfront antes que 
 
    Para obter mais informações sobre como personalizar as linhas de assunto das notificações por email, consulte [Personalizar assuntos de email para notificações de eventos](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Opcional) Se desejar desbloquear a configuração de uma notificação por email para que os administradores de grupo possam configurá-la separadamente para seus grupos, clique no botão ![](assets/lock-toggle-button.png) à direita da notificação para colocá-la na posição desbloqueada ![](assets/unlock-toggle-button.png).
+1. (Opcional) Se você deseja desbloquear a configuração de uma notificação por email para que os administradores de grupo possam configurá-la separadamente para seus grupos, clique no botão ![](assets/lock-toggle-button.png) à direita da notificação para alterá-la para a posição desbloqueada ![](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Visão geral de solicitações de equipe](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
+* [Visão geral das solicitações da equipe](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
 * [Gerenciar solicitações de trabalho e de equipe](../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)

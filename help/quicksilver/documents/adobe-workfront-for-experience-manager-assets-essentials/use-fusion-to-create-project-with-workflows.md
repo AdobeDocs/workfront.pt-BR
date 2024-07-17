@@ -66,7 +66,7 @@ Você deve ter o seguinte:
    </td>
    <td>Editar acesso a documentos
      <p>
-       <strong>Nota: </strong>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <strong>Criar ou modificar níveis de acesso personalizados</strong>.
+       <strong>Observação: </strong>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <strong>Criar ou modificar níveis de acesso personalizados</strong>.
      </p>
    </td>
   </tr>
@@ -86,19 +86,19 @@ Antes de começar,
 
 No Workfront Fusion, se quiser criar um projeto que inclua fluxos de trabalho do Adobe Experience Manager, use o módulo Workfront > Ação diversa.
 
-1. Adicione o **Workfront** > **Ação Diversa** para o seu cenário.
-1. No **Conexão** , selecione a conexão do Workfront que se conecta à conta que esse módulo usará.
+1. Adicione o módulo **Workfront** > **Misc Action** ao seu cenário.
+1. No campo **Conexão**, selecione a conexão do Workfront que se conecta à conta que esse módulo usará.
 
-   Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] para [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) no artigo módulos do Workfront.
+   Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
 
    Para obter instruções sobre como criar a ID do cliente e o Segredo do cliente, será necessário criar uma conexão, consulte [Criar um aplicativo OAuth](#create-an-oauth-application) neste artigo.
 
-1. No **Tipo de registro** selecione `Issue`.
-1. No **Ação** selecione `convertToProject`.
-1. No **ID** insira ou mapeie a ID do problema que você está convertendo em um projeto.
-1. Ativar **Mostrar configurações avançadas**.
-1. Role para a parte inferior do módulo e localize a **Projeto (Coleção Avançada)** campo.
-1. Cole o texto a seguir na **Projeto (Coleção Avançada)** campo.
+1. No campo **Tipo de Registro**, selecione `Issue`.
+1. No campo **Ação**, selecione `convertToProject`.
+1. No campo **ID**, insira ou mapeie a ID do problema que você está convertendo em um projeto.
+1. Habilitar **Mostrar configurações avançadas**.
+1. Role para a parte inferior do módulo e localize o campo **Projeto (Coleção avançada)**.
+1. Cole o texto a seguir no campo **Projeto (Coleção Avançada)**.
 
    ```
    {
@@ -109,15 +109,15 @@ No Workfront Fusion, se quiser criar um projeto que inclua fluxos de trabalho do
    }
    ```
 
-1. Substituir `Folder tree ID here` com as IDs da pasta.
+1. Substituir `Folder tree ID here` pelas IDs da pasta.
 
    Para localizar IDs de árvore de pastas, consulte [Localizar IDs de árvore de pastas](#locate-folder-tree-ids) neste artigo.
 
    Para usar mais de uma árvore de pastas, separe as IDs com uma vírgula:
 
    `"aemNativeFolderTreeIDs": ["Folder tree ID here","Second folder tree ID here"],`
-1. Substituir `New project name here` com o nome que o novo projeto terá.
-1. Substituir `Template ID here` com a ID do modelo que você está usando para o novo projeto.
+1. Substitua `New project name here` pelo nome que o novo projeto terá.
+1. Substitua `Template ID here` pela ID do modelo que você está usando para o novo projeto.
 
    Você pode mapear a ID do modelo de um módulo anterior (como um módulo Workfront > Pesquisar ) ou localizá-lo no URL da página do modelo no Workfront.
 
@@ -133,13 +133,13 @@ Para localizar as IDs da árvore de pastas:
 
 1. No Workfront, abra o modelo que deseja usar para esse projeto. Esse modelo deve incluir a configuração do Adobe Experience Manager que você deseja usar para o projeto.
 1. Abra as ferramentas do desenvolvedor do seu navegador.
-1. Abra o **Rede** nas ferramentas do desenvolvedor.
-1. No **Filtro** , insira `object-workflow`.
+1. Abra a guia **Rede** nas ferramentas do desenvolvedor.
+1. Na caixa **Filtro**, digite `object-workflow`.
 1. Na coluna Nome, clique na ID alfanumérica exibida.
 
    ![Localizando ID de pasta 1](assets/finding-folder-id-1.png)
 
-1. Clique em **Visualizar** à direita da ID alfanumérica.
+1. Clique na guia **Visualização** à direita da ID alfanumérica.
 1. Abra as seguintes seções recolhidas:
    1. `data`
    1. `objectWorkflow`
@@ -149,19 +149,19 @@ Para localizar as IDs da árvore de pastas:
 
    Cada árvore de pastas é representada por um número. 0 (zero) representa a primeira pasta na lista, 1 representa a segunda e assim por diante. Se o modelo incluir apenas uma árvore de pastas, será o número 0.
 
-1. Abra a árvore de pastas que deseja usar para o novo projeto. Anote o `_id` valor do campo. Se quiser usar mais de uma árvore de pastas, anote todas as `_id` valores de campo para as árvores de pastas que deseja usar.
+1. Abra a árvore de pastas que deseja usar para o novo projeto. Anote o valor do campo `_id`. Se quiser usar mais de uma árvore de pastas, anote todos os valores de campo `_id` das árvores de pastas que deseja usar.
 
    ![Localizando ID de pasta 2](assets/finding-folder-id-2.png)
 
-   Estas são as `aemNativeFolderTreeIDs`  valores que você inserirá na variável **Projeto (Coleção Avançada)** no campo **Workfront** > **Ações diversas** Módulo Fusion.
+   Estes são os valores de `aemNativeFolderTreeIDs` que você inserirá no campo **Projeto (Coleção Avançada)** no módulo **Workfront** > **Ações Diversas** Fusion.
 
 ## Criar um aplicativo OAuth
 
 Você deve configurar um aplicativo OAuth no Workfront para a conexão deste módulo. Só é necessário fazer isso uma vez para uma determinada conexão do Workfront no Fusion.
 
-1. No Workfront, comece criando um aplicativo OAuth, conforme descrito em [Criar um aplicativo OAuth2 usando credenciais do usuário (Fluxo de código de autorização)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) no artigo Criar aplicativos OAuth2 para o [!DNL Workfront] integrações.
+1. No Workfront, comece a criar um aplicativo OAuth, conforme descrito em [Criar um aplicativo OAuth2 usando credenciais de usuário (Fluxo de código de autorização)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) no artigo Criar aplicativos OAuth2 para integrações [!DNL Workfront].
 1. Copie a ID do cliente e o segredo do cliente para um local seguro.
-1. No **URIs de redirecionamento** insira o seguinte:
+1. No campo **Redirecionar URIs**, digite o seguinte:
 
    ```
    http://app.workfrontfusion.com/oauth/cb/workfront-workfront
@@ -171,4 +171,4 @@ Você deve configurar um aplicativo OAuth no Workfront para a conexão deste mó
 
 Você usará essa ID do cliente e o segredo do cliente ao configurar a conexão do módulo no Fusion.
 
-Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] para [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) no artigo módulos do Workfront.
+Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.

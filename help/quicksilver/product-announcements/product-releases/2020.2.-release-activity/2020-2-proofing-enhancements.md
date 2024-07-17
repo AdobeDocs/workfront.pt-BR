@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Prova feitas com a versão 2020.2 no ambiente de Produção. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de maio de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.2, consulte [Visão geral da versão 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.2, consulte a [visão geral da versão 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## O domínio de comprovação está sendo alterado de proofhq.com para workfront.com.
 
@@ -30,11 +30,11 @@ Se o firewall ou servidor de email estiver configurado para permitir acesso apen
 
 &#42;.workfront.com
 
-A variável &#42;O URL do proofhq.com também é obrigatório.
+A URL &#42;proofhq.com também é necessária.
 
-Para obter mais informações sobre a atualização da sua inclui na lista de permissões, consulte [Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Incluir na lista de permissões incluir na lista de permissões Para obter mais informações sobre como atualizar a pesquisa do firewall, consulte [Configurar a pesquisa do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-Essa atualização se aplica somente à prova no Workfront; não se aplica ao usar o aplicativo independente do Workfront Proof.
+Essa atualização se aplica somente à revisão no Workfront; não se aplica ao usar o aplicativo independente do Workfront Proof.
 
 ## Comentários de revisão feitos por convidados aparecem na área Atualizações
 

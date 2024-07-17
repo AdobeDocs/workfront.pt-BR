@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Criar ou editar um pacote de promoção de ambiente
 
-Você deve criar um pacote no ambiente para o qual deseja copiar objetos **de**. Por exemplo, se você estiver configurando um projeto no ambiente Personalizar atualização da sandbox e promovendo-o para o ambiente Produção, será necessário criar o pacote no ambiente Personalizar atualização da sandbox.
+Você deve criar um pacote no ambiente do qual deseja copiar os objetos **de**. Por exemplo, se você estiver configurando um projeto no ambiente Personalizar atualização da sandbox e promovendo-o para o ambiente Produção, será necessário criar o pacote no ambiente Personalizar atualização da sandbox.
 
 >[!IMPORTANT]
 >
@@ -45,7 +45,7 @@ Você deve ter o seguinte:
    <tr>
    <td>Configurações de nível de acesso
    </td>
-   <td>Você deve ser um [!DNL Workfront] administrador.
+   <td>Você deve ser um administrador [!DNL Workfront].
    </td>
   </tr>
 </table>
@@ -54,16 +54,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar um pacote
 
-1. Vá para o ambiente em que deseja criar o pacote. Este é o ambiente no qual você está copiando objetos **de**.
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Configuração]** ![Ícone de Configuração](/help/_includes/assets/gear-icon-setup.png).
-1. Selecionar **Sistema** na navegação à esquerda, selecione **Promoção do ambiente**.
-1. Clique em **Criar pacote**.
+1. Vá para o ambiente em que deseja criar o pacote. Este é o ambiente do qual você está copiando objetos **de**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+1. Selecione **Sistema** na navegação à esquerda e **Promoção do ambiente**.
+1. Clique em **Criar Pacote**.
 
    A página Novo pacote de promoção é aberta.
 
-1. No **Nome do pacote** insira um nome para o pacote.
-1. No **Descrição** insira uma descrição para este pacote.
-1. Para adicionar um objeto ao pacote, clique em **Adicionar objetos** no painel de navegação esquerdo e selecione o tipo de objeto que deseja adicionar.
+1. No campo **Nome do pacote**, digite um nome para o pacote.
+1. No campo **Descrição**, insira uma descrição para este pacote.
+1. Para adicionar um objeto ao pacote, clique em **Adicionar Objetos** na navegação à esquerda e selecione o tipo de objeto que deseja adicionar.
 1. Selecione um ou mais objetos na lista ou digite o nome na barra de pesquisa e selecione o objeto quando ele aparecer na lista. Você pode selecionar mais de um objeto na lista.
 1. Clique em **Adicionar (X Objetos)** para adicionar os objetos selecionados ao pacote.
 
@@ -71,17 +71,17 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >**Exemplo**
    >
-   >Se você selecionou três projetos para adicionar ao projeto, o botão diz **Adicionar 3 projetos**.
+   >Se você selecionou três projetos para adicionar ao projeto, o botão dirá **Adicionar 3 projetos**.
 
    Os objetos adicionados aparecerão na área Conteúdo do Package à direita da página.
 
 1. Para adicionar outro tipo de objeto, repita as etapas 7 a 9.
 1. (Opcional) Para remover um objeto do pacote, passe o mouse sobre o objeto na área Conteúdo do pacote, em seguida, clique no X ao lado do objeto.
-1. Depois de ter adicionado todos os objetos desejados ao pacote, clique em **Salvar e fechar** para salvar o pacote sem montá-lo.
+1. Depois de ter adicionado todos os objetos desejados ao pacote, clique em **Salvar e Fechar** para salvar o pacote sem montá-lo.
 
    Ou
 
-   Clique em **Salvar e reunir** para salvar e montar o pacote.
+   Clique em **Salvar e reunir** para salvar e reunir o pacote.
 
    >[!NOTE]
    >
@@ -90,14 +90,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Editar ou reunir um pacote existente
 
-1. Vá para o ambiente em que deseja criar o pacote. Este é o ambiente no qual você está copiando objetos **de**.
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Configuração]** ![Ícone de Configuração](/help/_includes/assets/gear-icon-setup.png).
-1. Selecionar **Sistema** na navegação à esquerda, selecione **Promoção do ambiente**.
+1. Vá para o ambiente em que deseja criar o pacote. Este é o ambiente do qual você está copiando objetos **de**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+1. Selecione **Sistema** na navegação à esquerda e **Promoção do ambiente**.
 1. Selecione o pacote na lista exibida.
-1. (Condicional) Para ver pacotes desativados, ative a variável **Mostrar pacotes retirados** opção.
-1. (Opcional) Para exibir o conteúdo, incluindo todos os objetos e seus subobjetos, clique na seta suspensa ao lado do tipo de objeto na **Conteúdo** seção.
+1. (Condicional) Para ver pacotes desabilitados, habilite a opção **Mostrar pacotes desabilitados**.
+1. (Opcional) Para exibir o conteúdo, incluindo todos os objetos e seus subobjetos, clique na seta suspensa ao lado do tipo de objeto na seção **Conteúdo**.
 1. (Opcional) Para exibir instalações anteriores e tentativas de instalação deste pacote, clique em **Implantações**.
-1. (Opcional) Para editar o pacote, clique em **Editar pacote** no canto superior direito da tela.
+1. (Opcional) Para editar o pacote, clique em **Editar Pacote** no canto superior direito da tela.
 1. Para instalar o pacote, clique em **Instalar** no canto superior direito da tela.
 
    Para obter instruções sobre como instalar um pacote, consulte [Instalar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

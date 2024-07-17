@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td>  
    <td> 
-   <p>Atual: Não [!DNL Workfront Fusion] requisito de licença.</p> 
+   <p>Atual: nenhum requisito de licença [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Herdados: Qualquer um </p> 
    </td>  
@@ -48,7 +48,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> 
    <p>Novo:</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</li></ul> 
    <p>Ou</p> 
-   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Atual: sua organização deve comprar o [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -58,7 +58,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL média ([matriz de valores]) average(value1; [value2], ...)]
+## [!UICONTROL média ([matriz de valores]) média(valor1; [valor2], ...)]
 
 Retorna o valor médio dos valores numéricos em uma matriz específica ou o valor médio dos valores numéricos inseridos individualmente.
 
@@ -98,7 +98,7 @@ Retorna o maior inteiro menor ou igual a um número especificado.
 >
 >   Devoluções 4
 
-## [!UICONTROL máx ([matriz de valores]), max(valor1;valor2; ...)]
+## [!UICONTROL max ([matriz de valores]), max(valor1;valor2; ...)]
 
 Retorna o maior número em uma matriz especificada ou o maior número entre os números inseridos individualmente.
 
@@ -130,7 +130,7 @@ Arredonda um valor numérico para o número inteiro mais próximo.
 >
 >   Devoluções 2
 
-## [!UICONTROL soma ([matriz de valores]), sum(valor1; valor2; ...)]
+## [!UICONTROL soma ([matriz de valores]), soma(valor1; valor2; ...)]
 
 Retorna a soma dos valores em uma matriz especificada ou a soma dos números inseridos individualmente.
 
@@ -138,7 +138,7 @@ Retorna a soma dos valores em uma matriz especificada ou a soma dos números ins
 
 Analisa uma string com um número e retorna o número. Por exemplo, parseNumber(1 756,456;,)
 
-## [!UICONTROL formatNumber (número; pontos decimais; [separadorDecimal]; [SeparadorMilhares])]
+## [!UICONTROL formatNumber (número; pontos decimais; [separadorDecimal]; [separadorMilhares])]
 
 Retorna um número no formato solicitado. Por padrão, o ponto decimal é uma vírgula (,) e o separador de milhares é um ponto (.).
 

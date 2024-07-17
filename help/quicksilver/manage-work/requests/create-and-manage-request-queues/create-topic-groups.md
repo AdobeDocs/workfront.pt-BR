@@ -73,23 +73,23 @@ Para obter mais informações sobre como criar Filas de solicitações, consulte
 
 ## Criar Grupos de Tópicos
 
-Recomendamos que você crie Grupos de Tópicos antes de criar um Tópico da Fila. No entanto, um Grupo de tópicos pode ser criado no Construtor de tópicos da fila. Para obter mais informações sobre a criação de Tópicos de Fila, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Recomendamos que você crie Grupos de Tópicos antes de criar um Tópico da Fila. No entanto, um Grupo de tópicos pode ser criado no Construtor de tópicos da fila. Para obter mais informações sobre como criar Tópicos da Fila, consulte [Criar Tópicos da Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Para criar um Grupo de Tópicos:
 
 1. Vá para o projeto publicado como uma Fila de solicitação de ajuda.\
-   Para obter mais informações sobre como publicar um projeto como uma Fila de solicitação de ajuda, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obter mais informações sobre como publicar um projeto como uma Fila de solicitação de ajuda, consulte [Criar uma Fila de solicitação](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Clique em **Grupos de Tópicos** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais**, depois **Grupos de Tópicos**.
-1. Clique em **Novo grupo de tópicos**.
+1. Clique em **Grupos de Tópicos** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Grupos de Tópicos**.
+1. Clique em **Novo Grupo de Tópicos**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
 1. Especifique as seguintes informações:
 
-   * **Nome**: O nome é visível para usuários que enviam solicitações para essa fila de solicitações.
-   * **Descrição**: A descrição é exibida quando os usuários selecionam o grupo de tópicos no processo de enviar uma nova solicitação.
-   * **Adicionar ao Grupo de Tópicos**: Você pode adicionar o novo Grupo de Tópicos a um Grupo de Tópicos existente, ou pode adicioná-lo diretamente ao projeto publicado como uma Fila de solicitação de ajuda.
+   * **Nome**: o nome está visível para usuários que enviam solicitações para esta fila de solicitações.
+   * **Descrição**: a descrição é exibida quando os usuários selecionam o grupo de tópicos no processo de envio de uma nova solicitação.
+   * **Adicionar ao Grupo de Tópicos**: Você pode adicionar o novo Grupo de Tópicos a um Grupo de Tópicos existente ou pode adicioná-lo diretamente ao projeto publicado como uma Fila de Solicitação de Ajuda.
 
 1. Clique em **Salvar**.\
    Isso cria um novo Grupo de Tópicos na sua Fila de solicitações. Agora é possível selecionar categorias adicionais no primeiro menu suspenso em uma Fila de solicitações.\

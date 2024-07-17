@@ -30,7 +30,7 @@ role: User
 
 Você pode exibir registros em uma exibição de linha do tempo, ao acessar a página tipo de registro no Adobe Workfront Planning.
 
-Para obter informações sobre visualizações de registros, consulte [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+Para obter informações sobre exibições de registros, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Requisitos de acesso
 
@@ -86,7 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -115,7 +115,7 @@ Considere o seguinte:
 Para gerenciar uma exibição de linha do tempo:
 
 1. Vá para a página do tipo de registro para a qual deseja exibir a linha do tempo.
-1. Crie uma exibição de linha do tempo, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. Crie uma exibição de linha do tempo, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/timeline-view-example.png)
 
@@ -129,23 +129,23 @@ Para gerenciar uma exibição de linha do tempo:
 1. Siga um destes procedimentos para navegar pela linha do tempo:
 
    * Clique nos ícones esquerdo e direito ou use a rolagem horizontal para mover-se para trás e para frente na linha do tempo.
-   * Clique em **Hoje** para centralizar a linha do tempo na data de hoje.
+   * Clique em **Hoje** para centralizar a linha do tempo para a data de hoje.
    * Selecione uma das seguintes opções no menu suspenso de intervalo de tempo para atualizar os incrementos de tempo:
 
       * Ano
       * Trimestre
       * Mês
-1. Clique em **Mudar para o padrão** exibir para exibir registros em linhas separadas <!--check to see if they updated the name of the setting here-->
+1. Clique na exibição **Alternar para Padrão** para exibir registros em linhas separadas <!--check to see if they updated the name of the setting here-->
 
    Ou
 
-   Clique em **Alternar para exibição compacta** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
+   Clique em **Alternar para o modo de exibição Compacto** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
 
    Os registros são exibidos na exibição Compacta por padrão.
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique em **Pesquisar** ícone ![](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado.
+   1. Clique no ícone ![](assets/search-icon.png) da **Pesquisa** e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado.
 
       ![](assets/search-box-and-results-timeline-view.png)
 
@@ -155,7 +155,7 @@ Para gerenciar uma exibição de linha do tempo:
 
    1. Pressione Enter no teclado para ir para o próximo campo encontrado.
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
-   1. Clique em **x** ícone na caixa de pesquisa para limpar a palavra-chave de pesquisa.
+   1. Clique no ícone **x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)
@@ -214,12 +214,12 @@ Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tem
 
 Para adicionar um agrupamento na exibição de linha do tempo:
 
-1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clique em **Agrupamento** no canto superior direito da exibição da linha do tempo.
+1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Clique em **Agrupamento** no canto superior direito do modo de exibição de linha do tempo.
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Clique em um dos campos sugeridos ou clique em **Escolha um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
+1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
    O agrupamento é aplicado automaticamente à linha do tempo e os registros são exibidos dentro da caixa de agrupamento.
 
@@ -233,14 +233,14 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Opcional) Dentro do **Agrupar registros por** , clique no link **x** ícone à direita de um campo selecionado para o agrupamento para remover o agrupamento
+1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
    Ou
 
    Clique em **Limpar tudo** para remover todos os campos.
 
-1. Clique fora da **Agrupar registros por** para fechá-la.
-1. (Opcional) Clique em **Configurações**, depois **Cor** para agrupamentos de código de cor. Para obter mais informações, consulte [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
+1. Clique fora da caixa **Agrupar registros por** para fechá-la.
+1. (Opcional) Clique em **Configurações** e depois em **Cor** para agrupar o código de cores. Para obter mais informações, consulte a seção [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
 <!-- 
 
@@ -254,15 +254,15 @@ this is not possible right now; if this is the same functionality as the table v
 
 Atualize as configurações de exibição da linha do tempo para indicar quais informações e como elas são exibidas na seção de linha do tempo da exibição.
 
-1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Clique em **Configurações**.
-1. Clique em **Data e hora** no painel esquerdo, selecione uma **Data inicial** e uma **Data final** para exibir na linha do tempo. Você pode escolher as datas padrão de Início e Término ou escolher qualquer campo de data disponível. As barras que representam os registros começam na data que você indica para a Data inicial e terminam na data correspondente à Data final.
+1. Clique em **Data e hora** no painel esquerdo e selecione uma **Data de início** e uma **Data de término** para exibir na linha do tempo. Você pode escolher as datas padrão de Início e Término ou escolher qualquer campo de data disponível. As barras que representam os registros começam na data que você indica para a Data inicial e terminam na data correspondente à Data final.
 
    >[!NOTE]
    >
    >Os registros que não têm valores para as datas de Início ou Término ou que têm uma data de Início posterior à data de Término não são exibidos na exibição de linha do tempo.
 
-1. Clique em **Estilo da barra** no painel esquerdo, para indicar quais campos você deseja exibir nas barras de registro.
+1. Clique em **Estilo de barra** no painel esquerdo para indicar quais campos você deseja exibir nas barras de registro.
 
    O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão. <!--adjust this when the primary field is released??-->
 
@@ -273,25 +273,25 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    >    Você deve primeiro adicionar miniaturas na exibição de tabela antes de exibi-las na exibição de linha do tempo. Para obter mais informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 1. Clique em **Adicionar campo** para adicionar até 4 campos às barras de registro.
-1. Clique dentro do **Pesquisar campos** e clique no campo que deseja adicionar.
+1. Clique dentro da caixa **Pesquisar campos** e clique no campo que deseja adicionar.
 
    >[!TIP]
    >
    >   * Você deve criar os campos antes de adicioná-los às barras de registro.
    > 
-   >   * Você deve ter pelo menos um campo selecionado. **Nome** é selecionada por padrão.
+   >   * Você deve ter pelo menos um campo selecionado. O **Nome** está selecionado por padrão.
 
    Uma visualização da aparência das barras na linha do tempo é exibida à direita.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. Clique em **Cor** no painel esquerdo, para personalizar as cores dos registros e agrupamentos na linha do tempo.
+1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros e agrupamentos na linha do tempo.
 
    ![](assets/color-tab-timeline-view.png)
 
-1. (Condicional e opcional) Se você adicionou um agrupamento à exibição de linha do tempo, selecione uma das seguintes opções para definir uma cor para o agrupamento na **Definir cor de agrupamento** seção:
+1. (Condicional e opcional) Se você adicionou um agrupamento à exibição de linha do tempo, selecione uma das seguintes opções para definir uma cor para o agrupamento na seção **Definir cor de agrupamento**:
 
-   * **Padrão (cinza)**: a cor dos agrupamentos é definida como cinza. Este é o padrão.
+   * **Padrão (cinza)**: a cor dos agrupamentos está definida como cinza. Este é o padrão.
    * **Valores do campo**: a cor dos agrupamentos corresponde à cor do campo pelo qual você faz o agrupamento.
 
      >[!NOTE]
@@ -309,14 +309,14 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    >
    >Se você não tiver adicionado agrupamentos à exibição de linha do tempo, esta seção não será exibida.
 
-1. No **Definir cor do registro** selecione entre as seguintes opções para definir uma cor para os registros:
+1. Na seção **Definir cor do registro**, selecione uma das seguintes opções para definir uma cor para os registros:
 
    * **Tipo de registro**: a cor dos registros corresponde à cor do tipo de registro selecionado. Esta é a opção padrão.
-   * **Valores do campo**: a cor dos registros corresponde à cor de um campo especificado. Continue na etapa 10. <!--ensure this stays accurate-->
+   * **Valores de campo**: a cor dos registros corresponde à cor de um campo especificado. Continue na etapa 10. <!--ensure this stays accurate-->
    * **Agrupamento**: a cor dos registros corresponde à cor indicada para os agrupamentos. Essa opção fica esmaecida quando não há agrupamentos aplicados à exibição de linha do tempo.
-   * **Nenhum**: Os registros são exibidos em uma barra branca.
+   * **Nenhum**: os registros são exibidos em uma barra branca.
 
-1. (Condicional) Se você selecionou **Valores do campo** para as cores do registro, selecione um campo na **Corresponder a cor do registro a** menu suspenso.
+1. (Condicional) Se você selecionou **Valores de campo** para as cores do registro, selecione um campo no menu suspenso **Corresponder a cor do registro a**.
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 

@@ -1,27 +1,27 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Comunicar com membros da equipe de projeto
-description: Você pode se comunicar facilmente com os membros de sua equipe de projeto por meio da Adobe Workfront.
+title: Comunicar com os membros da equipe do projeto
+description: Você pode se comunicar facilmente com os membros da equipe do projeto por meio do Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Comunicar com membros da equipe de projeto
+# Comunicar com os membros da equipe do projeto
 
-Você pode se comunicar facilmente com os membros de sua equipe de projeto por meio da Adobe Workfront.
+Você pode se comunicar facilmente com os membros da equipe do projeto por meio do Adobe Workfront.
 
-Todos os usuários associados a um projeto formam a Equipe do projeto. Para obter informações sobre a Equipe do projeto, consulte [Visão geral da equipe do projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Todos os usuários associados a um projeto formam a Equipe do projeto. Para obter informações sobre a Equipe do Projeto, consulte [Visão geral da Equipe do Projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,8 +30,8 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -39,51 +39,51 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Exibir ou ter acesso superior a Projetos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou permissões mais altas para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualizar ou aumentar as permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
-## Enviar um email para um membro da Equipe do projeto {#send-an-email-to-a-project-team-member}
+## Enviar um email para um membro da Equipe do Projeto {#send-an-email-to-a-project-team-member}
 
 1. Vá para um projeto cujos membros da equipe do projeto você deseja enviar um email.
 1. Clique em **Pessoas** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais** primeiro.
 
-   Para atualizar todos os membros da equipe do projeto, clique em **Atualizar tudo** no canto superior esquerdo da lista de membros da equipe do projeto.
+   Para atualizar todos os membros da equipe de criação, clique em **Atualizar tudo** no canto superior esquerdo da lista de membros da equipe de criação.
 
    Ou
 
-   Para atualizar determinados membros da equipe do projeto, selecione um ou vários usuários na lista e clique em **Enviar atualização para o usuário******.\
-   ![Comentário_1.png](assets/commenting-1-350x352.png)
+   Para atualizar determinados membros da equipe do projeto, selecione um ou vários usuários na lista e clique em **Enviar atualização para o usuário*****.\
+   ![Commenting_1.png](assets/commenting-1-350x352.png)
 
-1. Digite sua atualização no **Publicar uma atualização neste projeto** campo.
-1. (Opcional) Para tornar a atualização privada, clique no botão **Bloquear** ícone .
+1. Digite sua atualização no **Post e atualize para este campo de projeto**.
+1. (Opcional) Para tornar a atualização privada, clique no ícone **Bloquear**.
 
-   Usuários fora da empresa não podem visualizar uma atualização privada.
+   Usuários fora da empresa não podem exibir uma atualização privada.
 
-1. (Opcional) Clique no botão **Pessoas** ícone para adicionar mais recipients que não estão selecionados.
-1. Clique em **Enviar**.
+1. (Opcional) Clique no ícone **Pessoas** para adicionar mais destinatários que não estão selecionados.
+1. Clique em **Enviar**.
 
    A atualização e os nomes dos usuários incluídos nela são exibidos na guia Atualizações do projeto.
 
-## Enviar atualizações para membros da equipe de projeto e outros
+## Enviar atualizações para membros da Equipe do Projeto e outros
 
-Você pode enviar atualizações do projeto para membros da equipe e para outros usuários que podem não fazer parte da equipe do projeto. Todos os usuários devem ter uma conta ativa do Workfront. A atualização é enviada como uma notificação no Workfront.
+Você pode enviar atualizações de projeto para membros da equipe e outros usuários que podem não fazer parte da equipe do projeto. Todos os usuários devem ter uma conta ativa do Workfront. A atualização é enviada como uma notificação no Workfront.
 
 1. Vá para um projeto do qual deseja enviar atualizações para outros usuários.
-1. (Opcional e condicional) Se os usuários para os quais deseja enviar atualizações não estiverem na equipe do projeto, adicione-os à equipe do projeto.
+1. (Opcional e condicional) Se os usuários para os quais você deseja enviar atualizações não estiverem na equipe do projeto, adicione-os à equipe do projeto.
 
-   Para obter informações sobre como adicionar usuários à equipe do projeto, consulte [Gerenciar a equipe do projeto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+   Para obter informações sobre como adicionar usuários à equipe do projeto, consulte [Gerenciar a Equipe do Projeto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
-1. Envie uma atualização para os membros da equipe do projeto, conforme descrito no
+1. Envie uma atualização aos membros da equipe do projeto, conforme descrito na seção
 
-   [Enviar um email para um membro da Equipe do projeto](#send-an-email-to-a-project-team-member) neste artigo.
+   [Envie um email para uma seção do membro da Equipe do Projeto](#send-an-email-to-a-project-team-member) neste artigo.
 
    A atualização e os nomes dos usuários incluídos nela são exibidos na guia Atualizações do projeto.
 

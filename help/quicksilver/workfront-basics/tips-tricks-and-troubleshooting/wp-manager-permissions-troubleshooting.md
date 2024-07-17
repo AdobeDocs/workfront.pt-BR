@@ -4,19 +4,19 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Solução de problemas de permissões do Workfront Proof Manager
-description: Os perfis de permissão disponíveis em [!DNL Adobe] Os usuários do Workfront para prova são Administrador, Supervisor e Gerente.
+description: Os perfis de permissão disponíveis no  [!DNL Adobe] Workfront para usuários de comprovação são Administrador, Supervisor e Gerente.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
 source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# [!UICONTROL [!DNL Workfront] Gerente de prova] solução de problemas de permissões
+# [!UICONTROL [!DNL Workfront] Gerenciador de provas ] permissões solução de problemas
 
-A seguir estão os perfis de permissão disponíveis em [!DNL Adobe Workfront] para usuários de comprovação:
+A seguir estão os perfis de permissão disponíveis em [!DNL Adobe Workfront] para usuários de revisão:
 
 * [!UICONTROL Administrador]
 * [!UICONTROL Supervisor]
@@ -24,20 +24,20 @@ A seguir estão os perfis de permissão disponíveis em [!DNL Adobe Workfront] p
 
 <!--For detailed information about these options and how to configure them, see .-->
 
-Ao conceder a um usuário [!UICONTROL Gerente] , as seguintes informações de solução de problemas estão disponíveis:
+Ao conceder permissões de [!UICONTROL Gerente] a um usuário, as seguintes informações de solução de problemas estão disponíveis:
 
-* **PROBLEMA:** Usuários com [!UICONTROL Gerente] As permissões do não podem visualizar provas criadas por outros usuários. Em vez disso, eles veem o [!UICONTROL Acesso negado] tela.
+* **PROBLEMA:** usuários com permissões de [!UICONTROL Gerente] não podem exibir provas criadas por outros usuários. Em vez disso, eles veem a tela [!UICONTROL Acesso Negado].
 
-   ![](assets/access-denied-350x161.png)
+  ![](assets/access-denied-350x161.png)
 
-   **SOLUÇÃO:** Usuários com [!UICONTROL Gerente] as permissões do devem ser adicionadas explicitamente às provas. Provas devem ser sempre criadas através do [!UICONTROL Opções de Prova avançada] e os usuários devem sempre ser adicionados por meio dessa opção.
+  **SOLUÇÃO:** usuários com permissões de [!UICONTROL Gerente] devem ser adicionados explicitamente às provas. As provas devem ser sempre criadas por meio da janela [!UICONTROL Opções de prova avançada] e os usuários devem ser sempre adicionados por meio dessa opção.
 
-* **PROBLEMA:** Usuários com [!UICONTROL Gerente] as permissões do não podem adicionar versões de prova às provas criadas por outros usuários (possivelmente, elas poderiam enviar uma prova no conjunto de documentos, mas as versões NÃO estariam conectadas ao conjunto original criado por outro usuário).\
-   **SOLUÇÃO:** Usuários com [!UICONTROL Gerente] permissões podem enviar as versões para a prova de outro usuário somente se o usuário com [!UICONTROL Gerente] permissões quando ambos os itens a seguir:
+* **PROBLEMA:** usuários com permissões de [!UICONTROL Gerente] não podem adicionar versões de prova às provas criadas por outros usuários (possivelmente eles poderiam enviar uma prova no conjunto de documentos, mas as versões NÃO estariam conectadas ao conjunto original criado por outro usuário).\
+   **SOLUÇÃO:** usuários com permissões de [!UICONTROL Gerente] podem enviar as versões para prova de outro usuário somente se o usuário com permissões de [!UICONTROL Gerente] tiver ambas as seguintes permissões:
 
    * Adicionado explicitamente às provas
    * Definir como [!UICONTROL Autores] (função de prova) nas provas
 
-* **PROBLEMA:** Usuários com [!UICONTROL Gerente] As permissões do não podem editar comentários de outros usuários em uma prova que eles não possuem ou que não criaram.\
-   **SOLUÇÃO:** Se os usuários com [!UICONTROL Gerente] as permissões do não são proprietárias das provas, mas devem poder editar comentários, adicioná-los como [!UICONTROL Autores] (ou [!UICONTROL Moderadores]).\
-   Esses três tipos de permissões estão disponíveis em [!DNL Workfront] para [!UICONTROL Planejador], [!UICONTROL Trabalhadores], [!UICONTROL Solicitante], [!UICONTROL Revisor] licenças do tipo. Administrador do sistema ou administrador de usuários em [!DNL Workfront] pode editar perfis de usuários e ajustar [!DNL Workfront Proof] permissões de lá.
+* **PROBLEMA:** usuários com permissões de [!UICONTROL Gerente] não podem editar comentários de outros usuários em uma prova que não sejam seus ou que não tenham sido criados.\
+   **SOLUÇÃO:** Se os usuários com permissões de [!UICONTROL Gerente] não forem proprietários das provas, mas não puderem editar comentários, adicione-os como [!UICONTROL Autores] (ou [!UICONTROL Moderadores]).\
+   Estes três tipos de permissões estão disponíveis no [!DNL Workfront] para licenças do tipo [!UICONTROL Planejador], [!UICONTROL Trabalhador], [!UICONTROL Solicitante], [!UICONTROL Revisor]. O Administrador do Sistema ou o Administrador de Usuários no [!DNL Workfront] pode editar os perfis dos usuários e ajustar as permissões do [!DNL Workfront Proof] a partir daí.

@@ -17,28 +17,28 @@ Você pode organizar as informações em um relatório exibindo-as em grupos def
 
 ## Pré-requisitos
 
-Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta do relatório do Canvas: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta da tela de relatório: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Agrupar linhas em uma tabela
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
 1. Clique em **Novo relatório**.
 
    Ou
 
-   Vá para um relatório existente, clique no link **Menu Mais** ícone ![](assets/more-icon.png) no cabeçalho do relatório, selecione **Editar**.
+   Vá para um relatório existente, clique no ícone ![](assets/more-icon.png) do **Mais Menu** no cabeçalho do relatório e selecione **Editar**.
 
 1. Para agrupar linhas em uma nova tabela, arraste ou clique duas vezes em um bloco de tabela na tela.
 
    Ou
 
-   Para agrupar linhas em uma tabela existente, clique no **Editar** ícone ![](assets/edit-icon.png) no cabeçalho da tabela.
+   Para agrupar linhas em uma tabela existente, clique no ícone ![](assets/edit-icon.png) de **Editar** no cabeçalho da tabela.
 
-1. No painel direito, localize um campo que você deseja agrupar e arraste-o para a **Grupo** seção.
+1. No painel direito, localize um campo pelo qual você deseja agrupar e arraste-o para a seção **Grupo**.
 
-   Você pode usar o **Pesquisar** para localizar um grupo específico.
+   Você pode usar a caixa **Pesquisa** para localizar um grupo específico.
 
-1. No menu suspenso à direita da **Grupo** selecione como deseja que o grupo seja classificado.
+1. No menu suspenso à direita do campo **Grupo**, selecione como deseja que o grupo seja classificado.
 
    As opções variam com base no tipo de campo que você está usando para agrupar suas linhas.
 
@@ -91,10 +91,10 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 1. Siga um destes procedimentos:
 
    * Para adicionar outro grupo, arraste outro campo do painel lateral.
-   * Para exibir linhas em um grupo recolhido por padrão, clique no link **Menu Mais** ícone ![](assets/more-icon.png) ao lado do grupo, clique em **Recolher grupo**.
+   * Para exibir linhas em um grupo recolhido por padrão, clique no ícone ![](assets/more-icon.png) do **Mais menu** ao lado do grupo e clique em **Recolher grupo**.
 
      Cada grupo pode ser configurado individualmente para ser exibido com linhas recolhidas ou expandidas. Por padrão, todas as linhas agrupadas são recolhidas.
 
-   * Para exibir uma contagem na linha do grupo, clique no **Menu Mais** ícone ![](assets/more-icon-27x15.png) ao lado do grupo, clique em **Contagem da exibição**.
-   * Para remover um grupo, clique no link **Menu Mais** ícone ![](assets/more-icon.png) ao lado do grupo, clique em **Remover grupo**.
-   * Para reorganizar vários grupos criados, arraste-os ![](assets/move-icon---dots.png) em um novo pedido.
+   * Para exibir uma contagem na linha de grupo, clique no ícone ![](assets/more-icon-27x15.png) do **Mais menu** ao lado do grupo e clique em **Exibir contagem**.
+   * Para remover um grupo, clique no ícone ![](assets/more-icon.png) do **Mais menu** ao lado do grupo e clique em **Remover grupo**.
+   * Para reorganizar vários grupos criados, arraste-os ![](assets/move-icon---dots.png) para uma nova ordem.

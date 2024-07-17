@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Login necessário
 
-O logon necessário melhora a segurança das provas criadas em sua conta. Você pode ativar o logon necessário para todas as provas no nível da conta ou habilitá-lo para provas individuais, conforme necessário. Para obter mais informações sobre como ativar a para sua conta, consulte [Definir configurações padrão de prova](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+O logon necessário melhora a segurança das provas criadas em sua conta. Você pode ativar o logon necessário para todas as provas no nível da conta ou habilitá-lo para provas individuais, conforme necessário. Para obter mais informações sobre como habilitar sua conta, consulte [Definir configurações de prova padrão](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 >[!NOTE]
 >
@@ -34,12 +34,12 @@ Quando o logon necessário estiver ativado, os revisores são solicitados a faze
 >
 >Para simplificar o processo de logon, recomendamos configurar o SSO na prova do Workfront e do Workfront. Para obter mais informações sobre como ativar o SSO, consulte >
 >* [Logon único no Workfront: índice do artigo](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Configurar o logon único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Configurar Logon Único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 
 ## Assinatura eletrônica
 
-As assinaturas eletrônicas permitem aprimorar a segurança em suas provas e estão em conformidade com os padrões de segurança do setor, como ISO. Você pode ativar assinaturas eletrônicas para todas as provas no nível da conta, ou pode ativá-las para provas individuais, conforme necessário. Para obter mais informações, consulte [Definir configurações padrão de prova](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+As assinaturas eletrônicas permitem aprimorar a segurança em suas provas e estão em conformidade com os padrões de segurança do setor, como ISO. Você pode ativar assinaturas eletrônicas para todas as provas no nível da conta, ou pode ativá-las para provas individuais, conforme necessário. Para obter mais informações, consulte [Definir configurações de prova padrão](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Assinar uma prova eletronicamente
 
@@ -48,5 +48,5 @@ Quando a configuração de assinatura eletrônica é ativada em uma prova, uma c
 >[!IMPORTANT]
 >
 >Para assinar eletronicamente uma prova com credenciais de SSO, você deve configurar o SSO no Workfront Proof. Para obter mais informações sobre como ativar o SSO, consulte >
->* [Configurar o logon único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Configurar Logon Único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >

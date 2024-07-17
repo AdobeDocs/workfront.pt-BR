@@ -27,7 +27,7 @@ Conectando projetos a metas, você pode vincular o planejamento estratégico de 
 
 >[!IMPORTANT]
 >
->As metas a nível de projeto criadas na área Business Case de um projeto não estão conectadas às metas estratégicas criadas no Workfront Goals. Para obter informações sobre metas de projeto do Business Case, consulte [Criar metas do Business Case](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>As metas a nível de projeto criadas na área Business Case de um projeto não estão conectadas às metas estratégicas criadas no Workfront Goals. Para obter informações sobre as metas do projeto de Business Case, consulte [Criar metas de Business Case](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 
 ## Requisitos de acesso
@@ -57,7 +57,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -67,7 +67,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -125,17 +125,17 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Adicionar projetos às metas
 
-1. Clique em **Menu principal** ![](assets/main-menu-icon.png) (faça um rascunho disso para o Shell: ou clique no link **Menu principal** ![](assets/three-line-main-menu-icon.png) no canto superior esquerdo, se estiver disponível.) , então **Metas**.
+1. Clique no **Menu Principal** ![](assets/main-menu-icon.png) (faça o rascunho deste para o Shell: ou clique no **Menu Principal** ![](assets/three-line-main-menu-icon.png) no canto superior esquerdo, se estiver disponível.) e depois em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
-1. No **Novo indicador de progresso** clique em **Adicionar projeto existente**.
+1. No menu suspenso **Novo indicador de progresso**, clique em **Adicionar projeto existente**.
 
    A caixa Adicionar projetos à meta é exibida.
-1. (Opcional) Atualize a **Exibir**, **Filtro** ou **Agrupamento** clicando nos respectivos ícones no canto superior direito da lista para modificar a forma como a lista de projetos é exibida.
-1. (Opcional) Clique no link **Pesquisar** ícone ![](assets/search-icon.png) e comece digitando o nome de um projeto para localizá-lo rapidamente na lista.
+1. (Opcional) Atualize o **Modo de Exibição**, **Filtro** ou **Agrupamento** clicando nos respectivos ícones no canto superior direito da lista para modificar o modo como a lista de projetos é exibida.
+1. (Opcional) Clique no ícone ![](assets/search-icon.png) da **Pesquisa** e comece a digitar o nome de um projeto para localizá-lo rapidamente na lista.
 1. Selecione os projetos que deseja adicionar à meta e clique em **Adicionar**.
 
-   Os projetos selecionados são adicionados à meta e exibidos na seção Indicadores de progresso da página de meta, no **Projeto** agrupamento.
+   Os projetos selecionados são adicionados à meta e são exibidos na seção Indicadores de progresso da página de meta, no agrupamento **Projeto**.
 
    Após ativar a meta, o progresso da meta é atualizado automaticamente quando o progresso de um projeto é atualizado. Para obter informações sobre como ativar uma meta, consulte [Ativar metas no Adobe Workfront Goals](../goal-management/activate-goals.md).
 

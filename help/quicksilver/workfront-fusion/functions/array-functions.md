@@ -36,7 +36,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td>  
    <td> 
-   <p>Atual: Não [!DNL Workfront Fusion] requisito de licença.</p> 
+   <p>Atual: nenhum requisito de licença [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Herdados: Qualquer um </p> 
    </td>  
@@ -46,7 +46,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> 
    <p>Novo:</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</li></ul> 
    <p>Ou</p> 
-   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Atual: sua organização deve comprar o [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -81,7 +81,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 Concatena todos os itens de uma matriz em uma cadeia de caracteres, usando o separador especificado entre cada item.
 
-### [!UICONTROL length (matriz)]
+### [!UICONTROL comprimento (matriz)]
 
 Retorna o número de itens em uma matriz.
 
@@ -97,7 +97,7 @@ Retorna uma nova matriz contendo apenas itens selecionados.
 
 Mescla uma ou mais matrizes em uma matriz.
 
-### [!UICONTROL contains (matriz; valor)]
+### [!UICONTROL contém (matriz; valor)]
 
 Verifica se uma matriz contém o valor.
 
@@ -109,7 +109,7 @@ Remove valores especificados nos parâmetros de uma matriz. Esta função só é
 
 Adiciona valores especificados em parâmetros a uma matriz e retorna essa matriz.
 
-### [!UICONTROL map (matriz complexa; chave;[chave para filtragem];[valores possíveis para filtragem])]
+### [!UICONTROL mapa (matriz complexa; chave;[chave para filtragem];[valores possíveis para filtragem])]
 
 Retorna uma matriz primitiva contendo valores de uma matriz complexa. Esta função permite filtrar valores. Use nomes de variáveis brutos para chaves.
 
@@ -129,9 +129,9 @@ Para obter mais informações, consulte [Mapear informações de um módulo para
 
 ### ordem aleatória
 
-### [!UICONTROL sort (matriz; [pedido]; [key])]
+### [!UICONTROL classificar (matriz; [ordem]; [chave])]
 
-Classifica os valores de uma matriz. Os valores válidos de `order` parâmetros são:
+Classifica os valores de uma matriz. Os valores válidos do parâmetro `order` são:
 
 * `asc`
 
@@ -149,7 +149,7 @@ Classifica os valores de uma matriz. Os valores válidos de `order` parâmetros 
 
   ordem decrescente que não diferencia maiúsculas de minúsculas: ..., C, c, B, b, A, a para tipo de Texto.
 
-Use o `key` para acessar propriedades dentro de objetos complexos.
+Use o parâmetro `key` para acessar propriedades dentro de objetos complexos.
 
 Use nomes de variáveis brutos para chaves.
 
@@ -185,9 +185,9 @@ O primeiro elemento da matriz se torna o último elemento, o segundo se torna o 
 
 Cria uma nova matriz com todos os elementos de submatriz concatenados nela, recursivamente, até a profundidade especificada.
 
-### [!UICONTROL distinct (matriz; [key])]
+### [!UICONTROL distinct (matriz; [chave])]
 
-Remove duplicatas dentro de uma matriz. Use o &quot;[!UICONTROL key]&quot; para acessar propriedades dentro de objetos complexos. Para acessar propriedades aninhadas, use a notação de pontos. O primeiro item em uma matriz é o índice 1.
+Remove duplicatas dentro de uma matriz. Use o argumento &quot;[!UICONTROL key]&quot; para acessar propriedades dentro de objetos complexos. Para acessar propriedades aninhadas, use a notação de pontos. O primeiro item em uma matriz é o índice 1.
 
 >[!INFO]
 >
@@ -217,17 +217,17 @@ Esta função converte uma coleção em uma matriz de pares de valores chave.
 >
 >`[{ key1: "value1"}, { key2: "value2"}]`
 
-### [!UICONTROL arrayDifference [matriz1, matriz2, modo]]
+### [!UICONTROL arrayDifference [array1, array2, modo]]
 
 Retorna a diferença entre duas matrizes.
 
-Insira um dos seguintes valores para a variável `mode` parâmetro.
+Insira um dos seguintes valores para o parâmetro `mode`.
 
-* `classic`: retorna uma nova matriz que contém todos os elementos de `array1` que não existem no `array2`.
+* `classic`: retorna uma nova matriz que contém todos os elementos de `array1` que não existem em `array2`.
 
 * `symmetric`: retorna uma matriz de elementos que não são comuns a ambas as matrizes.
 
-  Em outras palavras, a função retorna uma matriz que contém todos os elementos de `array1` que não existem no `array2`e todos os elementos de `array2` que não existem no `array1`.
+  Em outras palavras, a função retorna uma matriz que contém todos os elementos de `array1` que não existem em `array2` e todos os elementos de `array2` que não existem em `array1`.
 
   >[!INFO]
   >
@@ -245,15 +245,15 @@ Insira um dos seguintes valores para a variável `mode` parâmetro.
   >
   >* `arrayDifference [myArray, yourArray, classic]`
   >
-  >    Devoluções `[1,2]`
+  >    Retorna `[1,2]`
   >
   >* `arrayDifference [yourArray, myArray, classic]`
   >
-  >    Devoluções `[6,7]`
+  >    Retorna `[6,7]`
   >
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
-  >    Devoluções `[1,2,6,7]`
+  >    Retorna `[1,2,6,7]`
 
 ### desduplicar
 

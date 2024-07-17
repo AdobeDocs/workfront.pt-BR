@@ -23,7 +23,7 @@ Revise e comente no mesmo documento em que as equipes criativas trabalham. Com a
 
 Esta seção contém as seguintes subseções:
 
-* [Visão geral da prova](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [Visão geral da revisão](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [Criar provas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
 * [Gerenciar provas no Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
 * [Revisar provas no Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)

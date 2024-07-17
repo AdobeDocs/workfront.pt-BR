@@ -18,9 +18,9 @@ ht-degree: 0%
 # Gerenciar provas
 
 * [Editar configurações de prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
-* [Imprimir um resumo de prova no Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+* [Imprima um resumo de prova no Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
 * [Excluir uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
 * [Restaurar uma prova arquivada](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
 * [Exibir atividade em uma prova no Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
 * [Usar o relatório de aprovação de prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-* [Acessar o Workfront Proof da Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+* [Acessar o Workfront Proof pelo Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)

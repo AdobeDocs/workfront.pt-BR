@@ -25,7 +25,7 @@ Por exemplo, se sua organização tiver um repositório de documentos baseado na
 >
 >* Por motivos de segurança, alguns sites não permitem que você incorpore páginas da Web como um iframe. Se a página da Web que você deseja incorporar em um painel não permitir, a página não será exibida no painel. No entanto, ainda é possível acessar a página externa clicando no nome do painel.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->Para permitir a incorporação de um site que você possui, consulte o administrador da Web para ajustar a **X-Frame-Options** configuração. Para obter mais informações, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+>Para permitir a incorporação de um site que você possui, peça ao administrador da Web que ajuste a configuração **X-Frame-Options**. Para obter mais informações, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
 >* Páginas de painel não são mais suportadas como páginas externas incorporadas em Painéis. Embora os painéis existentes não sejam modificados automaticamente para remover essas páginas externas, qualquer modificação em um painel que inclua essa referência não poderá ser salva até que a referência seja removida ou alterada.
@@ -47,7 +47,7 @@ Por exemplo, se sua organização tiver um repositório de documentos baseado na
 >     * /group/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
->Como solução alternativa, considere incluir um relatório de lista no painel, conforme explicado em [Adicionar um relatório a um painel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>Como solução alternativa, considere incluir um relatório de lista no painel conforme explicado em [Adicionar um relatório a um Painel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Requisitos de acesso
 
@@ -104,22 +104,22 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 
 {{step1-to-dashboards}}
 
-1. Para editar um painel existente, selecione o painel no qual deseja incorporar a página do site e clique em **Ações do painel** e, em seguida, clique em **Editar**
+1. Para editar um painel existente, selecione o painel no qual deseja incorporar a página do site e clique em **Ações do Painel** e em **Editar**
 Ou\
-   Para criar um novo painel, clique em **Novo painel**.\
+   Para criar um novo painel, clique em **Novo Painel**.\
    Para obter mais informações sobre como criar um painel, consulte [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-1. Clique em **Adicionar página externa** no **Selecionar layout/adicionar relatórios/adicionar calendários** área.
+1. Clique em **Adicionar página externa** na área **Selecionar layout/Adicionar relatórios/Adicionar calendários**.
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   A variável **Adicionar página externa** é exibida.
+   A caixa **Adicionar página externa** é exibida.
 
 1. Especifique as seguintes informações sobre a página externa:
 
    * **Nome**: adicione um nome ao painel.
    * **Descrição**: adicione mais informações sobre o painel para identificar as informações que ele contém. A descrição é exibida no painel para todos que têm acesso para exibi-la, depois que você a salva.
-   * **URL**: cole o URL copiado anteriormente neste campo.
+   * **URL**: cole a URL copiada anteriormente neste campo.
 
      Você pode especificar os seguintes tipos de URLs:
 
@@ -130,10 +130,10 @@ Ou\
       * Um URL de modelo que contém informações de sessão de um site específico.\
         Por exemplo: *https://localhost/?session={!$$SESSION}*
 Você deve estar conectado ao site especificado para exibir a Página externa.\
-        Para obter informações sobre como obter uma ID de sessão do Workfront, consulte [Noções básicas sobre API](../../../wf-api/general/api-basics.md).\
+        Para obter informações sobre como obter uma SessionID do Workfront, consulte [noções básicas sobre API](../../../wf-api/general/api-basics.md).\
         O administrador do Workfront pode configurar as preferências do sistema de uma forma que não permita o uso de informações da sessão em suas páginas externas, por motivos de segurança. Nesse caso, a página externa não é carregada no painel.\
-        Para obter mais informações sobre as preferências de segurança do sistema, consulte [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
-        ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+        Para obter mais informações sobre preferências de segurança do sistema, consulte [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
+        ![página_externa_com_id_de_sessão_exemplo.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
      >
@@ -158,15 +158,15 @@ Para atualizar as informações de uma página externa usada em um painel:
 
 {{step1-to-dashboards}}
 
-1. Clique no nome do painel que deseja atualizar para abri-lo e clique em **Ações do painel**, depois **Editar**.
+1. Clique no nome do painel que você deseja atualizar para abri-lo e clique em **Ações do Painel** e em **Editar**.
 
-   A variável **Detalhes do painel** é aberta.
+   A caixa **Detalhes do Painel** é aberta.
 
-1. No **Selecionar layout / Adicionar relatórios / Adicionar calendários** área do **Detalhes do painel** localize a página externa que deseja atualizar, passe o mouse sobre ela e clique no link **Editar** ícone.\
+1. Na área **Selecionar layout / Adicionar relatórios / Adicionar calendários** da caixa **Detalhes do painel**, localize a página externa que deseja atualizar, passe o mouse sobre ela e clique no ícone **Editar**.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. No **Editar Página Externa** , atualize os campos que deseja alterar e clique em **Salvar**.
-1. (Opcional) Clique no link **Excluir** ícone ![](assets/delete.png) para remover a página externa do painel. Para obter mais informações, consulte [Remover uma Página Externa de um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. Na caixa **Editar Página Externa**, atualize os campos que deseja alterar e clique em **Salvar**.
+1. (Opcional) Clique no ícone ![](assets/delete.png) de **Excluir** para remover a página externa do painel. Para obter mais informações, consulte [Remover uma Página Externa de um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Clique em **Salvar + Fechar**.
 
 ## Visualizar páginas externas em um relatório
@@ -175,7 +175,7 @@ Você pode exibir todas as páginas externas no Workfront em um relatório de P�
 
 {{step1-to-reports}}
 
-1. Clique em **Novo Relatório** > selecionar **Página externa**.
+1. Clique em **Novo Relatório** > selecione **Página Externa**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 

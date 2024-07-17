@@ -1,22 +1,22 @@
 ---
-title: Exibir a visualização do Plano de voo na análise aprimorada
+title: Exibir a visualização de Plano de voo na Análise aprimorada
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: A visualização do plano de voo mostra quantos projetos (dentro dos critérios de filtragem aplicados) estavam em andamento, quais mudanças de condição ocorreram ao longo da vida desses projetos e o grau de cumprimento dos prazos de conclusão previstos por esses projetos.
+description: A visualização do Plano de voo mostra quantos projetos (dentro dos critérios de filtro aplicados) estavam em andamento, quais alterações de condição ocorreram durante a vida desses projetos e o quão próximos esses projetos respeitaram os prazos de conclusão planejados.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 2%
+source-wordcount: '863'
+ht-degree: 4%
 
 ---
 
-# Exibir a visualização do Plano de voo na análise aprimorada
+# Exibir a visualização de Plano de voo na Análise aprimorada
 
-A visualização do plano de voo mostra quantos projetos (dentro dos critérios de filtragem aplicados) estavam em andamento, quais mudanças de condição ocorreram ao longo da vida desses projetos e o grau de cumprimento dos prazos de conclusão previstos por esses projetos.
+A visualização do Plano de voo mostra quantos projetos (dentro dos critérios de filtro aplicados) estavam em andamento, quais alterações de condição ocorreram durante a vida desses projetos e o quão próximos esses projetos respeitaram os prazos de conclusão planejados.
 
 ![](assets/flight-plan-350x132.png)
 
@@ -29,29 +29,29 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano Adobe Workfront</a>*</td> 
-   <td> <p>Empresa ou superior</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a>*</td> 
+   <td> <p>Business ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças do Adobe Workfront</a>*</td> 
    <td> <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Visualizar o acesso a Projetos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso.<br>Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualizar acesso aos projetos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso.<br>Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Visualizar o acesso ao projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualizar acesso ao projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
-Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; na [Visão geral do Enhanced Analytics](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Entender a visualização do plano de voo
 
@@ -61,69 +61,69 @@ Na duração real de um projeto, você pode ver apenas as seguintes condições 
 * Em Risco
 * Com problemas
 
-Para saber mais sobre as condições do projeto, consulte [Visão geral da condição do projeto e do tipo de condição](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Para saber mais sobre as condições do projeto, consulte [Visão Geral da Condição do Projeto e do Tipo de Condição](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 A visualização Plano de voo mostra os seguintes detalhes do projeto:
 
-* **Duração planejada**: A linha azul horizontal representa o comprimento planejado do projeto, com os triângulos em qualquer extremidade da linha indicando a data inicial e a data final.
+* **Duração planejada**: a linha azul horizontal representa o comprimento planejado do projeto, com os triângulos em cada extremidade da linha indicando a data inicial e a data final.
 
-   ![](assets/planned-duration-line-350x37.png)
+  ![](assets/planned-duration-line-350x37.png)
 
-* **Duração real**: A linha espessa e colorida abaixo da duração planejada representa a duração real do projeto. A cor da linha muda de acordo com a condição do projeto nesse momento específico da vida do projeto.
+* **Duração real**: a linha espessa colorida abaixo da duração planejada representa a duração real do projeto. A cor da linha muda dependendo da condição do projeto naquele momento específico da vida útil do projeto.
 
-   ![](assets/actual-duration-line.png)
+  ![](assets/actual-duration-line.png)
 
-* **Condição real**: A linha espessa e colorida também mostra a condição de um projeto em momentos diferentes no tempo. A cor da linha muda de acordo com a condição do projeto:
+* **Condição real**: a linha espessa e colorida também mostra a condição de um projeto em momentos diferentes. A cor da linha muda dependendo da condição do projeto:
 
-   * **Verde**: No Target
+   * **Verde**: No Destino
    * **Laranja**: Em Risco
-   * **Vermelho**: Em problemas
+   * **Vermelho**: Com Problemas
 
-   ![](assets/actual-condition-color.png)
+  ![](assets/actual-condition-color.png)
 
-Ao passar o cursor do mouse sobre uma linha de projeto na visualização Plano de voo, você pode ver informações sobre o período planejado do projeto, a condição do projeto atual e, se aplicável, a condição personalizada. Para obter uma visualização mais detalhada do que pode ter afetado a duração ou a condição, consulte as outras visualizações na área de Análise aprimorada .
+Ao passar o mouse sobre uma linha do projeto na visualização Plano de voo, é possível ver informações sobre o período planejado do projeto, a condição atual do projeto e, se aplicável, a condição personalizada. Para obter uma visualização mais detalhada do que pode ter afetado a duração ou a condição, você pode consultar as outras visualizações na área Analítica aprimorada.
 
-Ver essas informações ajuda a determinar:
+Essas informações ajudam a determinar:
 
-* Quais eventos estendem um projeto após a data original de conclusão planejada.
-* Quando um projeto começa a enfrentar problemas.
-* Quantos projetos estão abertos no mesmo período de tempo.
+* Quais eventos estendem um projeto além da data de conclusão planejada original.
+* Quando um projeto começa a ter problemas.
+* Quantos projetos estão abertos no mesmo período.
 * Quantos projetos estão ativos.
-* Quais projetos necessitam de mais atenção ou apoio.
+* Quais projetos precisam de mais atenção ou suporte.
 
 Para obter informações sobre como obter os melhores dados para esta visualização, consulte [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Exibir a visualização do plano de voo
+## Exibir a visualização de Plano de voo
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon-16x12.png), em seguida selecione **Analytics**.
+1. Clique no ícone ![](assets/main-menu-icon-16x12.png) do **Menu principal** e selecione **Analytics**.
 1. (Opcional) Para usar um intervalo de datas diferente, selecione novas datas de início e término no filtro de intervalo de datas.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros no Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condicional) Se precisar limitar o conjunto de dados do projeto, selecione e aplique os filtros que deseja usar.
 
-   Para obter mais informações sobre como adicionar filtros nas Análises aprimoradas, consulte [Aplicar filtros no Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obter mais informações sobre como adicionar filtros na Análise aprimorada, consulte [Aplicar filtros na Análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Após adicionar filtros, os dados de até 50 projetos são exibidos e os filtros permanecem ativos mesmo depois que você sai da página ou faz logoff do Workfront.
+   Depois de adicionar filtros, os dados de até 50 projetos são exibidos e os filtros permanecem ativos mesmo depois de sair da página ou do Workfront.
 
-1. (Opcional) Para ampliar um intervalo de datas, selecione um ponto na visualização do início do intervalo de datas e arraste até o final do intervalo de datas.
+1. (Opcional) Para ampliar um intervalo de datas, selecione um ponto na visualização para o início do intervalo de datas e arraste até o final do intervalo de datas.
 
-   Todas as outras visualizações são atualizadas para o mesmo intervalo de datas, e um filtro de período é criado.
+   Todas as outras visualizações são atualizadas para o mesmo intervalo de datas e um filtro de período é criado.
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Opcional) Para alterar a forma como os projetos são classificados, clique no botão **Classificar por** no canto superior direito da visualização Plano de voo, selecione uma nova opção de classificação:
+1. (Opcional) Para alterar a forma como os projetos são classificados, clique no menu **Classificar por** no canto superior direito da visualização Plano de voo e selecione uma nova opção de classificação:
 
    * **A - Z**
    * **Z - A**
    * **Data de conclusão planejada**
    * **Data de início planejada**
 
-   Todas as outras visualizações na página são atualizadas para corresponder à seleção de classificação.
+   Todas as outras visualizações na página são atualizadas para corresponder à sua seleção de classificação.
 
-1. (Condicional) Se houver mais de 50 projetos em seu conjunto de dados, use as setas no canto inferior esquerdo da visualização para navegar de um grupo de 50 projetos para o próximo.
+1. (Condicional) Se houver mais de 50 projetos no seu conjunto de dados, use as setas no canto inferior esquerdo da visualização para navegar de um grupo de 50 projetos para o próximo.
 
    Todas as outras visualizações na página são atualizadas para corresponder à seleção da página.
 
@@ -137,13 +137,13 @@ Para obter informações sobre como obter os melhores dados para esta visualiza�
 
    ![](assets/project-bar-graph-350x143.png)
 
-1. (Opcional) Para exportar os dados de visualização, clique no botão **Exportar** ícone ![](assets/export.png) no canto superior direito da visualização, selecione o formato de exportação:
+1. (Opcional) Para exportar os dados de visualização, clique no ícone ![](assets/export.png) de **Exportar** no canto superior direito da visualização e selecione o formato de exportação:
 
    * **Gráfico (PNG)**
-   * **Tabela de dados (XSLX)**
+   * **Tabela de Dados (XSLX)**
 
-1. Para ver mais informações do projeto, clique em um projeto na visualização para abrir as visualizações de Burndown e Tasks in flight .
+1. Para ver mais informações do projeto, clique em um projeto na visualização para abrir as visualizações Burndown e Tarefas em andamento.
 
-   Essas visualizações podem ajudar você a obter mais informações sobre o que fez com que o projeto saísse do controle. Também facilitam o check-in de um projeto em andamento.\
-   Para obter mais informações sobre a visualização de Detalhamento, consulte [Visualizar a visualização do Detalhamento na análise aprimorada](../enhanced-analytics/burndown-overview.md). Para obter mais informações sobre as Tarefas em andamento, consulte [Visualizar as Tarefas em andamento na análise aprimorada](../enhanced-analytics/tasks-in-flight-overview.md).
+   Essas visualizações podem ajudar você a obter um insight mais profundo sobre o que fez o projeto sair do caminho. Elas também facilitam o check-in de um projeto em andamento.\
+   Para obter mais informações sobre a visualização de Burndown, consulte [Exibir a visualização de Burndown na análise aprimorada](../enhanced-analytics/burndown-overview.md). Para obter mais informações sobre as Tarefas na visualização em andamento, consulte [Exibir as Tarefas na visualização em andamento na análise aprimorada](../enhanced-analytics/tasks-in-flight-overview.md).
 

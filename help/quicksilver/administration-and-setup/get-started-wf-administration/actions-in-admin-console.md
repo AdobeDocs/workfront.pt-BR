@@ -161,7 +161,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
 
 ## Renovar o certificado SAML
 
-Para obter instruções sobre como renovar o certificado SAML no Adobe Admin Console, consulte a seção &quot;A assinatura digital na resposta do SAML não validou...&quot; em [Solução de problemas de Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+Para obter instruções sobre como renovar o certificado SAML no Adobe Admin Console, consulte a seção &quot;A assinatura digital na resposta SAML não foi validada...&quot; em [Federated ID de solução de problemas](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
 
 <!--
 
@@ -188,7 +188,7 @@ Como a Plataforma comercial do Adobe controla o Logon único (SSO) para usuário
 * [Configurar o Adobe Workfront com SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [Configurar o Adobe Workfront com SAML 2.0 usando ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [Desativar logon único no Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [Atualizar metadados do SAML 2.0 no provedor de identidade](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [Atualizar os metadados do SAML 2.0 no seu provedor de identidade](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [Atualizar usuários para logon único](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [Configurar políticas de senha para autenticação](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
 * [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

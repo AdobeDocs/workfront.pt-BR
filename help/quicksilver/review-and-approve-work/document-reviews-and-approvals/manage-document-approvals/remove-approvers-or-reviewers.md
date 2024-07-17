@@ -43,24 +43,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar acesso ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar acesso ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Remover aprovadores ou revisores da página Detalhes do documento
 
 1. Vá para a página do documento clicando no nome do documento e selecione a versão do documento para a qual deseja remover uma aprovação na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Selecionar **Aprovações** no painel esquerdo.
+1. Selecione **Aprovações** no painel esquerdo.
 
-1. Passe o mouse sobre o nome do aprovador ou revisor que deseja remover, em seguida, clique no link **Excluir** ícone ![](../assets/delete.png) que aparece depois do nome.
+1. Passe o mouse sobre o nome do aprovador ou revisor que você deseja remover, em seguida, clique no ícone **Excluir** ![](../assets/delete.png) que aparece depois do nome.
 
    A solicitação de aprovação ou revisão é removida e o aprovador recebe uma notificação de que sua aprovação não é mais necessária. O acesso compartilhado relacionado à aprovação também é removido.
 
-1. (Opcional) Para rebaixar um aprovador para um revisor em vez de removê-lo totalmente, desmarque a opção **Aprovador** de acordo com o nome.
+1. (Opcional) Para rebaixar um aprovador para um revisor, em vez de removê-lo totalmente, desmarque a caixa de seleção **Aprovador** de acordo com seu nome.
 
 1. Repita a etapa anterior para remover aprovadores ou revisores adicionais.
 
@@ -72,10 +72,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecione a versão do documento da qual você deseja remover um aprovador ou revisor na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Role para baixo até **Aprovações** no painel Resumo do documento. Passe o mouse sobre o nome do aprovador ou revisor que deseja remover, em seguida, clique no link **Excluir** ícone ![](../assets/delete.png) que aparece depois do nome.
+1. Role para baixo até a seção **Aprovações** no painel Resumo do documento. Passe o mouse sobre o nome do aprovador ou revisor que você deseja remover, em seguida, clique no ícone **Excluir** ![](../assets/delete.png) que aparece depois do nome.
 
    A solicitação de aprovação ou revisão é removida e o aprovador recebe uma notificação de que sua aprovação não é mais necessária. O acesso compartilhado relacionado à aprovação também é removido.
 
-1. (Opcional) Para rebaixar um aprovador para um revisor em vez de removê-lo totalmente, desmarque a opção **Aprovador** de acordo com o nome.
+1. (Opcional) Para rebaixar um aprovador para um revisor, em vez de removê-lo totalmente, desmarque a caixa de seleção **Aprovador** de acordo com seu nome.
 
 1. Repita a etapa anterior para remover aprovadores ou revisores adicionais.

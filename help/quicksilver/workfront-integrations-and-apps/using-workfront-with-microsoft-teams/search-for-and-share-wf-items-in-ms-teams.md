@@ -2,7 +2,7 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Pesquisar e compartilhar [!DNL Adobe Workfront] itens em [!DNL Microsoft Teams]
-description: Você pode pesquisar por [!DNL Workfront] itens em qualquer [!DNL Adobe WorkfrontWorkfront] entrada de canal [!DNL Microsoft Teams] e compartilhe esses itens com membros de suas equipes.
+description: Você pode pesquisar [!DNL Workfront] itens em qualquer [!DNL Adobe WorkfrontWorkfront] canal [!DNL Microsoft Teams] e compartilhar esses itens com membros de suas equipes.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Pesquisar e compartilhar [!DNL Adobe Workfront] itens em [!DNL Microsoft Teams]
+# Procurar e compartilhar [!DNL Adobe Workfront] itens em [!DNL Microsoft Teams]
 
 >[!NOTE]
 >
 >Atualmente, o Adobe Workfront para integração do Microsoft Teams é compatível apenas com a experiência clássica do Microsoft Teams.
 
-Você pode pesquisar por [!DNL Workfront] itens em qualquer [!DNL Adobe Workfront] entrada de canal [!DNL Microsoft Teams] e compartilhe esses itens com membros de suas equipes.
+Você pode pesquisar [!DNL Workfront] itens em qualquer canal [!DNL Adobe Workfront] no [!DNL Microsoft Teams] e compartilhar esses itens com membros de suas equipes.
 
-* [Pré-requisitos para compartilhamento [!DNL Workfront] itens em [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [Pré-requisitos para compartilhar [!DNL Workfront] itens em [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [Pesquisar e compartilhar [!DNL Workfront] itens em [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
 
 ## Requisitos de acesso
@@ -43,25 +43,25 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
-## Pré-requisitos para compartilhamento [!DNL Workfront] itens em [!DNL Microsoft Teams] {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
+## Pré-requisitos para compartilhar [!DNL Workfront] itens em [!DNL Microsoft Teams] {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
 
 Você pode pesquisar e compartilhar [!DNL Workfront] itens em [!DNL Microsoft Teams] se as seguintes condições forem atendidas:
 
-* Um proprietário de equipe instalou e configurou o [!DNL Workfront for Microsoft Teams] para a sua equipe.
-* Você está conectado [!DNL Workfront] de [!UICONTROL Microsoft Teams].
+* Um proprietário de equipe instalou e configurou o [!DNL Workfront for Microsoft Teams] para sua equipe.
+* Você está conectado a [!DNL Workfront] em [!UICONTROL Microsoft Teams].
 
-Para obter informações sobre a instalação [!UICONTROL Workfront para Microsoft Teams] e fazendo logon no [!UICONTROL Workfront] de [!DNL Microsoft Teams], consulte [Instalar o Adobe Workfront para Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Para obter informações sobre como instalar o [!UICONTROL Workfront para Microsoft Teams] e fazer logon no [!UICONTROL Workfront] a partir do [!DNL Microsoft Teams], consulte [Instalar o Adobe Workfront para Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] não oferece mais suporte [!DNL Internet Explorer]. Para usar o [!DNL Adobe Workfront for Microsoft Teams integration], você deve usar um navegador da Web diferente do [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] não dá mais suporte a [!DNL Internet Explorer]. Para usar o [!DNL Adobe Workfront for Microsoft Teams integration], você deve usar um navegador da Web diferente do [!DNL Internet Explorer].
 
 
-## Pesquisar e compartilhar [!DNL Workfront] itens em [!DNL Microsoft Teams] {#search-for-and-share-workfront-items-in-microsoft-teams}
+## Procurar e compartilhar [!DNL Workfront] itens em [!DNL Microsoft Teams] {#search-for-and-share-workfront-items-in-microsoft-teams}
 
-Você pode pesquisar pelo seguinte [!DNL Workfront] itens de um [!DNL Microsoft Teams] canal:
+Você pode procurar os seguintes itens [!DNL Workfront] em um canal [!DNL Microsoft Teams]:
 
 * Projetos
 * Tarefas
@@ -72,31 +72,31 @@ Você pode pesquisar pelo seguinte [!DNL Workfront] itens de um [!DNL Microsoft 
 
 * Problemas
 
-Depois de encontrar os itens pesquisados, você pode compartilhá-los com outros usuários no [!DNL Microsoft Teams].
+Depois de encontrar os itens procurados, você pode compartilhá-los com outros usuários no [!DNL Microsoft Teams].
 
-Para pesquisar por um [!DNL Workfront] item de [!DNL Microsoft Teams] e compartilhe com outras pessoas:
+Para procurar um item [!DNL Workfront] de [!DNL Microsoft Teams] e compartilhá-lo com outras pessoas:
 
-1. Entrada [!DNL Microsoft Teams], vá para qualquer canal de chat e clique no link **[!DNL Workfront]** ícone.
-1. Procure por [!DNL Workfront] item executando um dos procedimentos a seguir:
+1. No [!DNL Microsoft Teams], vá para qualquer canal de chat e clique no ícone **[!DNL Workfront]**.
+1. Pesquise o item [!DNL Workfront] seguindo um destes procedimentos:
 
-   * Clique em [!DNL Workfront] ícone no campo Conversação.\
+   * Clique no ícone [!DNL Workfront] no campo de conversa.\
 
      ![ms_team_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
-      Dependendo das configurações, esse ícone pode ser exibido sob a **[!UICONTROL Mais]** em vez disso.\
-      ![more_icon.png](assets/more-icon-52x34.png)\
-      A variável **[!UICONTROL Pesquisar]** é exibida por padrão.
+      Dependendo das configurações, esse ícone pode ser exibido sob o ícone **[!UICONTROL Mais]**.\
+      ![mais_ícone.png](assets/more-icon-52x34.png)\
+      A caixa **[!UICONTROL Pesquisa]** é exibida por padrão.
 
-   * Tipo *@[!DNL Workfront]* em qualquer canal, selecione Workfront e selecione **[!UICONTROL Pesquisar].**
+   * Digite *@[!DNL Workfront]* de qualquer canal, selecione Workfront e **[!UICONTROL Pesquisar].**
 
      ![ms_team_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
-1. No [!UICONTROL pesquisa] caixa fornecida, comece digitando o nome ou o número de referência de um projeto, tarefa ou problema e clique nele quando ele aparecer na lista.\
+1. Na caixa [!UICONTROL pesquisa] fornecida, comece digitando o nome ou o número de referência de um projeto, tarefa ou problema e clique nele quando ele aparecer na lista.\
    ![ms_team_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
-   Isso adiciona um cartão com o [!DNL Workfront] item no campo de chat. Algumas informações sobre o item são incluídas no cartão, incluindo o nome do item, o objeto principal, o status, a prioridade, o percentual concluído.
+   Isso adiciona um cartão com o item [!DNL Workfront] no campo de chat. Algumas informações sobre o item são incluídas no cartão, incluindo o nome do item, o objeto principal, o status, a prioridade, o percentual concluído.
 
-1. (Opcional) Adicione um comentário abaixo de [!DNL Workfront] e clique em **[!UICONTROL Enviar]** ou pressione Enter.\
-   Isso envia a mensagem incluindo o [!DNL Workfront] para o seu canal.\
-   Todos os membros do canal podem ver esta mensagem, incluindo as informações na [!DNL Workfront] cartão.
+1. (Opcional) Adicione um comentário abaixo do cartão [!DNL Workfront] e clique em **[!UICONTROL Enviar]** ou pressione Enter.\
+   Isso envia a mensagem incluindo o item [!DNL Workfront] para seu canal.\
+   Todos os membros do canal podem ver esta mensagem, incluindo as informações no cartão [!DNL Workfront].
 
 1. Clique em **[!UICONTROL Exibir no Workfront]** para exibir o item em [!DNL Workfront].\
-   Somente os usuários que têm uma [!DNL Workfront] a licença pode exibir um item em [!DNL Workfront].
+   Somente usuários que têm uma licença [!DNL Workfront] podem exibir um item em [!DNL Workfront].

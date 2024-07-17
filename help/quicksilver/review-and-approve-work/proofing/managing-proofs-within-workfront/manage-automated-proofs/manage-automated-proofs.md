@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * [Exibir estágios do fluxo de trabalho automatizado em uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
 * [Exibir estágios ativos em uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-* [Criar ou editar um Fluxo de trabalho automatizado para uma prova existente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+* [Criar ou editar um Fluxo de Trabalho Automatizado para uma prova existente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
 * [Editar estágios de prova e revisores](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
-* [Converter um fluxo de trabalho básico em um Fluxo de trabalho automatizado em uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
+* [Converter um fluxo de trabalho básico em um fluxo de trabalho automatizado em uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
 * [Adicionar estágios e usuários a um fluxo de trabalho automatizado em uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)

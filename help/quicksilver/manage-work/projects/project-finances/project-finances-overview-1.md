@@ -53,7 +53,7 @@ A tabela a seguir mostra algumas das finanças que você pode acompanhar no Work
  <tbody> 
   <tr> 
    <td>Hora</td> 
-   <td> Para obter informações sobre como registrar horas em um projeto, consulte <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Registrar tempo</a>. </td> 
+   <td> Para obter informações sobre como gravar tempo em um projeto, consulte <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Registrar tempo</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
@@ -67,7 +67,7 @@ A tabela a seguir mostra algumas das finanças que você pode acompanhar no Work
   </tr> 
   <tr> 
    <td>Orçamento</td> 
-   <td> <p>Para obter informações sobre como estimar um projeto, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gerenciar informações na área de finanças do projeto</a>.</p> <p>Para obter informações sobre como estimar recursos para um projeto, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Recursos de orçamento no Business Case</a>.</p> </td> 
+   <td> <p>Para obter informações sobre como estimar um projeto, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gerenciar informações na área Finanças do projeto</a>.</p> <p>Para obter informações sobre recursos de orçamento para um projeto, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Recursos de orçamento no Business Case</a>.</p> </td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
@@ -81,7 +81,7 @@ A tabela a seguir mostra algumas das finanças que você pode acompanhar no Work
   </tr> 
   <tr> 
    <td>Receita</td> 
-   <td> Para obter informações sobre faturamento e receita, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão geral de faturamento e receita</a>. </td> 
+   <td> Para obter informações sobre faturamento e receita, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão Geral de Faturamento e Receita</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -95,35 +95,35 @@ A tabela a seguir mostra algumas das finanças que você pode acompanhar no Work
   </tr> 
   <tr> 
    <td>Preços</td> 
-   <td> <p>É possível estabelecer Taxas de cobrança para usuários ou funções de trabalho.</p> <p>Para obter informações sobre como associar usuários a taxas de faturamento, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar o perfil de um usuário</a>.</p> <p>Para obter informações sobre como associar cargos a taxas de faturamento, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>As Taxas de Cobrança calculam a Receita de seus projetos e tarefas. Você pode sobrepor as taxas de faturamento de função para um projeto ou para uma empresa. </p> <p>Para obter informações sobre substituição de taxas de faturamento em projetos, consulte <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Visão geral da substituição de Taxas de cobrança de função de trabalho e do cálculo de Receita em um projeto</a>.</p> <p>Para obter informações sobre substituição de taxas de faturamento para empresas, consulte <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobrança no Nível da Empresa</a>.</p> </td> 
+   <td> <p>É possível estabelecer Taxas de cobrança para usuários ou funções de trabalho.</p> <p>Para obter informações sobre como associar usuários a taxas de cobrança, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de usuário</a>.</p> <p>Para obter informações sobre como associar funções de trabalho a taxas de cobrança, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>As Taxas de Cobrança calculam a Receita de seus projetos e tarefas. Você pode sobrepor as taxas de faturamento de função para um projeto ou para uma empresa. </p> <p>Para obter informações sobre substituição de taxas de cobrança em projetos, consulte <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto</a>.</p> <p>Para obter informações sobre como substituir taxas de cobrança para empresas, consulte <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Substituir taxas de cobrança no nível do projeto por taxas de cobrança no nível da empresa</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Retorno sobre o investimento (ROI)</td> 
-   <td> Para obter informações sobre como calcular o ROI, consulte <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Calcular o retorno sobre o investimento (ROI)</a>. </td> 
+   <td> Para obter informações sobre como calcular o ROI, consulte <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Calcular o Retorno sobre o Investimento (ROI)</a>. </td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Risco de Valor Líquido</td> 
-   <td>Para obter informações sobre o cálculo do risco para o valor líquido, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">Calcular o Risco de Valor Líquido em um portfólio</a>.</td> 
+   <td>Para obter informações sobre como calcular o risco para o valor líquido, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">Calcular o Risco para o Valor Líquido em um portfólio</a>.</td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Métricas de desempenho</td> 
-   <td> <p>As métricas de desempenho mostram como seus projetos ou tarefas estão se saindo em um determinado momento. As métricas de desempenho são cálculos automáticos executados pelo Workfront para tarefas e projetos. As métricas de desempenho que você pode calcular no Workfront estão listadas nas linhas a seguir. Os cálculos das métricas de desempenho variam de acordo com o tipo de Método de índice de desempenho que você está usando. </p> <p>Para obter mais informações sobre como selecionar o PIM a ser usado no sistema, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o PIM (Método de Índice de Desempenho)</a>.</p> </td> 
+   <td> <p>As métricas de desempenho mostram como seus projetos ou tarefas estão se saindo em um determinado momento. As métricas de desempenho são cálculos automáticos executados pelo Workfront para tarefas e projetos. As métricas de desempenho que você pode calcular no Workfront estão listadas nas linhas a seguir. Os cálculos das métricas de desempenho variam de acordo com o tipo de Método de índice de desempenho que você está usando. </p> <p>Para obter mais informações sobre como selecionar o PIM a ser usado para o seu sistema, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o Método de Índice de Desempenho (PIM)</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Estimativa no término (EAC)</td> 
-   <td> Para obter informações sobre o cálculo de EAC, consulte <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcular Estimativa no Término (EAC)</a>. </td> 
+   <td> Para obter informações sobre como calcular EAC, consulte <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcular EAC (Estimativa no Término)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -137,7 +137,7 @@ A tabela a seguir mostra algumas das finanças que você pode acompanhar no Work
   </tr> 
   <tr> 
    <td>Índice de desempenho de custo (CPI)</td> 
-   <td>Para obter informações sobre o cálculo da CPI, consulte <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calcular Índice de Desempenho de Custo (CPI)</a>.</td> 
+   <td>Para obter informações sobre como calcular CPI, consulte <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calcular Índice de Desempenho de Custo (CPI)</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -151,7 +151,7 @@ A tabela a seguir mostra algumas das finanças que você pode acompanhar no Work
   </tr> 
   <tr> 
    <td>Custo Orçado do Trabalho Agendado (BCWS)</td> 
-   <td>Uma métrica de desempenho. Para obter informações sobre o cálculo de BCWS, consulte <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">Calcular o Custo Orçado do Trabalho Agendado (BCWS)</a>. </td> 
+   <td>Uma métrica de desempenho. Para obter informações sobre como calcular o BCWS, consulte <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">Calcular o BCWS (Custo do Trabalho Agendado)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

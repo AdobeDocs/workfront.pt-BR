@@ -41,7 +41,7 @@ Esta tabela e diagrama mostram os principais níveis de acesso ao Workfront:
 
 >[!NOTE]
 >
->A licença externa não é uma licença paga. Ele foi projetado principalmente para compartilhar documentos com colaboradores que não usam o Workfront. Para obter mais informações, consulte [Níveis de acesso incorporados](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>A licença externa não é uma licença paga. Ele foi projetado principalmente para compartilhar documentos com colaboradores que não usam o Workfront. Para obter mais informações, consulte [Níveis de acesso predefinidos](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## Como uma licença define um nível de acesso
 
@@ -57,6 +57,6 @@ Ao atribuir um nível de acesso a um usuário, sua contagem de licenças dispon�
 
 Por exemplo, se você atribuir o nível de acesso Planejador a um usuário, o número de licenças do Plano disponíveis será reduzido em 1.
 
-Você pode visualizar as licenças e os níveis de acesso atribuídos aos usuários. Para obter mais informações, consulte [Liste os níveis de acesso e as licenças de seus usuários](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+Você pode visualizar as licenças e os níveis de acesso atribuídos aos usuários. Para obter mais informações, consulte [Listar os níveis de acesso e as licenças dos usuários](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Para obter informações sobre o gerenciamento de licenças, consulte [Gerenciar licenças disponíveis em seu sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Para obter informações sobre como gerenciar suas licenças, consulte [Gerenciar licenças disponíveis em seu sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

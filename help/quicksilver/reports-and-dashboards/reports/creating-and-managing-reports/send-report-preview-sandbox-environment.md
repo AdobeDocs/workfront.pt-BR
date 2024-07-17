@@ -41,7 +41,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -53,12 +53,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Agendar relatórios no ambiente de Pré-visualização
 
@@ -66,9 +66,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ### Agendar relatórios no ambiente de Pré-visualização
 
-Se um relatório entregue é produzido ou não no ambiente de Pré-visualização depende se **Receber emails deste ambiente de teste** está ativado ou não.
+Se um relatório entregue é produzido ou não no ambiente de Pré-visualização depende se **Receber emails deste ambiente de teste** está habilitado ou não.
 
-Para obter informações sobre como ativar emails do ambiente de sandbox, consulte [Ativar a entrega de emails do ambiente Visualização da sandbox](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Para obter informações sobre como habilitar emails do ambiente de sandbox, consulte [Habilitar a entrega de emails do ambiente de sandbox de visualização](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
@@ -76,14 +76,14 @@ O agendamento de relatórios para entrega no ambiente de Pré-visualização é 
 
 Quando você agenda um relatório para entrega no ambiente de Pré-visualização, os seguintes cenários existem:
 
-* Quando **Receber emails deste ambiente de teste** estiver desativado para o usuário que está recebendo o relatório, nenhum arquivo será produzido ao agendar o relatório para entrega.
-* Quando **Receber emails deste ambiente de teste** for ativado para o usuário que está recebendo o relatório, o arquivo produzido ao agendar o relatório para entrega é adicionado na guia Documents do usuário.
+* Quando **Receber emails deste ambiente de teste** está desabilitado para o usuário que está recebendo o relatório, nenhum arquivo é produzido ao agendar o relatório para entrega.
+* Quando **Receber emails deste ambiente de teste** está habilitado para o usuário que está recebendo o relatório, o arquivo produzido ao agendar o relatório para entrega é adicionado na guia Documentos do usuário.
 
 ## Agendar relatórios no ambiente de sandbox de atualização personalizada
 
 Se um relatório entregue é produzido ou não na sandbox de atualização personalizada depende se a configuração Receber emails dessa configuração de ambiente de teste está ativada ou não.
 
-Para obter informações sobre como ativar emails do ambiente de Pré-visualização, consulte a seção [Exibir e modificar as configurações de notificação por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) no artigo [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter informações sobre como habilitar emails do ambiente de Visualização, consulte a seção [Exibir e modificar configurações de notificação por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) no artigo [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

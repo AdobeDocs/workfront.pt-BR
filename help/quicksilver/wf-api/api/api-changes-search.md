@@ -10,8 +10,8 @@ role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 0%
 
 ---
 
@@ -51,9 +51,9 @@ Para Status do Grupo de Problemas:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Todos os três endpoints aceitam o **includeHidden=true** para obter os status ocultos de projeto/tarefa/problema de um determinado grupo. Modelar as consultas de pesquisa de status após esses exemplos de práticas recomendadas garantirá que todas as informações de status do grupo sejam incluídas em cada resposta.
+Todos esses três pontos de extremidade aceitam o parâmetro **includeHidden=true** para buscar os status ocultos de projeto/tarefa/problema de um determinado grupo. Modelar as consultas de pesquisa de status após esses exemplos de práticas recomendadas garantirá que todas as informações de status do grupo sejam incluídas em cada resposta.
 
-Este é um exemplo de uma consulta de pesquisa de status sendo feita a um grupo de tarefas que inclui um status bloqueado no nível do sistema **Personalizado_1** e um status desbloqueado **Personalizado_2**:
+Este é um exemplo de uma consulta de pesquisa de status sendo feita a um grupo de tarefas que inclui um status bloqueado no nível do sistema **Custom_1** e um status desbloqueado **Custom_2**:
 
 >**Exemplo:**
 

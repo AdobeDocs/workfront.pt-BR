@@ -20,6 +20,6 @@ ht-degree: 4%
 Esta seção contém as seguintes subseções:
 
 * [Gerenciamento de recursos](../resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-* [Planejamento de recursos: índice do artigo](../resource-mgmt/resource-planning/resource-planning-overview.md)
+* [Planejamento de Recursos: índice do artigo](../resource-mgmt/resource-planning/resource-planning-overview.md)
 * [Utilização de Recursos](../resource-mgmt/resource-utilization/resource-utilization.md)
 * [O Balanceador de carga de trabalho: índice do artigo](../resource-mgmt/workload-balancer/workload-balancer.md)

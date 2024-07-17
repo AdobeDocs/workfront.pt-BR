@@ -66,17 +66,17 @@ Para acessar a página Informações do cliente:
 
    As seções disponíveis na área Informações do cliente são:
 
-   * **Informações básicas**
+   * **Informações Básicas**
 
-     Para obter informações sobre como configurar informações básicas no Workfront, consulte [Configurar informações básicas](#configure-basic-info).
+     Para obter informações sobre como configurar informações básicas no Workfront, consulte [Configurar Informações Básicas](#configure-basic-info).
 
-   * **Configurações da chave de API**
+   * **Configurações da Chave de API**
 
      Para obter informações sobre as configurações da chave de API, consulte [Gerenciar chaves de API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **INCLUIR NA LISTA DE PERMISSÕES IP**
+   * **Inclui na lista de permissões IP**
 
-     Incluir na lista de permissões Para obter informações sobre como adicionar os endereços IP à sua página para saber onde os usuários podem acessar o Workfront, consulte [Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Incluir na lista de permissões Para obter informações sobre como adicionar os endereços IP ao seu arquivo para o qual os usuários podem acessar o Workfront incluir na lista de permissões, consulte [Configurar o arquivo do seu firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    * **Licença**
 
@@ -92,7 +92,7 @@ Para configurar a seção Informações básicas na área Informações do clien
 
 1. No painel esquerdo, clique em **Sistema** > **Informações do cliente**.
 
-1. No **Informações básicas** na parte superior do **Informações do cliente** localize as seguintes informações sobre sua instância com o Workfront:
+1. Na seção **Informações básicas**, na parte superior da página **Informações do cliente**, localize as seguintes informações sobre a sua instância com o Workfront:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,11 +108,11 @@ Para configurar a seção Informações básicas na área Informações do clien
      </tr> 
      <tr> 
       <td role="rowheader">Email do Admin</td> 
-      <td> <p>O endereço de email do administrador do Workfront. É possível editar esse campo para corresponder ao endereço de email de um dos administradores do Workfront. O usuário associado a esse endereço de email é considerado o principal administrador do Workfront em seu sistema Workfront. Qualquer comunicação em todo o site do Workfront é direcionada a este endereço de email, portanto, é importante mantê-la atualizada.</p> <p><b>NOTA</b>: não é possível desativar, excluir ou alterar o Nível de acesso do usuário associado ao Email do administrador.</p> </td> 
+      <td> <p>O endereço de email do administrador do Workfront. É possível editar esse campo para corresponder ao endereço de email de um dos administradores do Workfront. O usuário associado a esse endereço de email é considerado o principal administrador do Workfront em seu sistema Workfront. Qualquer comunicação em todo o site do Workfront é direcionada a este endereço de email, portanto, é importante mantê-la atualizada.</p> <p><b>OBSERVAÇÃO</b>: não é possível desativar, excluir ou alterar o Nível de Acesso do usuário associado ao Email do Administrador.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Domínio</td> 
-      <td> <p>O domínio é definido pela Workfront quando sua conta é criada.</p> <p>O domínio identifica o subdomínio exclusivo do URL usado para acessar o Workfront.<p>Por exemplo, se sua organização recebeu o domínio "mycompany", o URL usado para acessar o Workfront é <i>https://mycompany.my.workfront.com.</i></p><p>Você não pode editar o domínio sozinho. Se quiser alterar o domínio, entre em contato com o Suporte ao cliente da Workfront. Para obter mais informações sobre como entrar em contato com o Suporte ao cliente da Workfront, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Entre em contato com o Suporte ao cliente</a>.</p> </td> 
+      <td> <p>O domínio é definido pela Workfront quando sua conta é criada.</p> <p>O domínio identifica o subdomínio exclusivo do URL usado para acessar o Workfront.<p>Por exemplo, se o domínio "mycompany" foi atribuído à sua organização, a URL usada para acessar o Workfront é <i>https://mycompany.my.workfront.com.</i></p><p>Você não pode editar o domínio sozinho. Se quiser alterar o domínio, entre em contato com o Suporte ao cliente da Workfront. Para obter mais informações sobre como entrar em contato com o Suporte ao Cliente da Workfront, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contatar o Suporte ao Cliente</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fuso horário</td> 
@@ -120,15 +120,15 @@ Para configurar a seção Informações básicas na área Informações do clien
        <ul> 
         <li>A data e a hora exibidas nos emails de saída</li> 
         <li>O fuso horário padrão para novos usuários quando eles são criados</li> 
-       </ul> <p>Os usuários podem modificar o fuso horário de sua instância do Workfront em seu perfil. Quando os usuários modificam o fuso horário, a data e a hora em seus emails do Workfront correspondem às preferências de perfil. Para obter mais informações sobre modificação das preferências do perfil do usuário, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Definir minhas configurações</a>. Ele é selecionado como fuso horário padrão ao criar um novo agendamento. Para obter mais informações sobre a criação de cronogramas, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>.</p> <p>Para obter informações sobre como usar as agendas para ajudar os usuários a colaborar no Workfront em vários fusos horários, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Trabalhar em fusos horários</a>.</p> </td> 
+       </ul> <p>Os usuários podem modificar o fuso horário de sua instância do Workfront em seu perfil. Quando os usuários modificam o fuso horário, a data e a hora em seus emails do Workfront correspondem às preferências de perfil. Para obter mais informações sobre como modificar as preferências do perfil de usuário, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar minhas configurações</a>. Ele é selecionado como fuso horário padrão ao criar um novo agendamento. Para obter mais informações sobre como criar agendas, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar uma agenda</a>.</p> <p>Para obter informações sobre como usar agendas para ajudar usuários a colaborar na Workfront entre fusos horários, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Trabalhando entre fusos horários</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Localidade</td> 
-      <td>Controla o idioma, a data e o formato do número usados nas mensagens de email de saída. A localidade selecionada aqui é o padrão quando novos usuários são criados. Os usuários podem modificar o local no perfil do usuário. Quando os usuários modificam seu local, o idioma, a data e o formato do número em seus emails do Workfront correspondem às preferências de perfil. Para obter mais informações sobre modificar as preferências do perfil, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Definir minhas configurações</a>.</td> 
+      <td>Controla o idioma, a data e o formato do número usados nas mensagens de email de saída. A localidade selecionada aqui é o padrão quando novos usuários são criados. Os usuários podem modificar o local no perfil do usuário. Quando os usuários modificam seu local, o idioma, a data e o formato do número em seus emails do Workfront correspondem às preferências de perfil. Para obter mais informações sobre como modificar suas preferências de perfil, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar minhas configurações</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cota de armazenamento</td> 
-      <td> <p>Essa é a quantidade de espaço de armazenamento de documentos disponível na instância do Workfront.<br>A cota contém documentos que você carrega diretamente no Workfront.<br>Não inclui:</p> 
+      <td> <p>Essa é a quantidade de espaço de armazenamento de documentos disponível na instância do Workfront.<br>A cota contém documentos que você carregou diretamente no Workfront.<br>Não inclui:</p> 
        <ul> 
         <li>Documentos vinculados ao Workfront por qualquer outro provedor de serviços de terceiros (SharePoint, Google Drive, Webdam, Box, Dropbox, qualquer outro provedor de gerenciamento de ativos de documentos).</li> 
         <li>Seus dados do Workfront (projetos, tarefas, problemas, usuários e assim por diante).</li> 
@@ -136,7 +136,7 @@ Para configurar a seção Informações básicas na área Informações do clien
      </tr> 
      <tr> 
       <td role="rowheader">Versão do Produto</td> 
-      <td>Esse é o tipo de instância do Workfront atribuída a você. A versão do produto para a maioria dos clientes do Workfront é <strong>Enterprise</strong>.</td> 
+      <td>Esse é o tipo de instância do Workfront atribuída a você. A versão do produto para a maioria dos clientes do Workfront é a <strong>Enterprise</strong>.</td> 
      </tr> 
     </tbody> 
    </table>

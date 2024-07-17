@@ -21,7 +21,7 @@ Você pode criar, editar e atribuir perfis de planilha de horas que geram planil
 * Aprovadores
 * Tipos de hora gerais
 
-Para obter mais informações sobre como criar uma folha de horas manualmente, consulte [Criar uma planilha de horas de uso único](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Para obter mais informações sobre como criar uma folha de horas manualmente, consulte [Criar uma folha de horas de uso único](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 ## Requisitos de acesso
 
@@ -66,18 +66,18 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 >[!IMPORTANT]
 >
->Para habilitar alterações de perfil na planilha de horas atual, você precisa excluir as planilhas existentes e gerar novas. Para obter instruções, consulte [Excluir planilhas de horas no Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Gerar folhas de horas manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Para habilitar alterações de perfil na planilha de horas atual, você precisa excluir as planilhas existentes e gerar novas. Para obter instruções, consulte [Excluir folhas de horas no Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Gerar folhas de horas manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
-1. Se você estiver criando ou editando um perfil de planilha de horas para uso em todo o sistema, clique em **Horas e Planilha de Horas**.
+1. Se você estiver criando ou editando um perfil de planilha de horas para uso em todo o sistema, clique em **Planilha de horas e horas**.
 
    Ou
 
-   Se você criar ou editar um perfil de planilha de horas para um grupo, clique em **Grupos**, em seguida, clique no nome do grupo.
+   Se você estiver criando ou editando um perfil de planilha de horas para um grupo, clique em **Grupos** e, em seguida, clique no nome do grupo.
 
 1. Clique em **Perfis de Planilha de Horas**.
-1. Para criar um novo perfil de planilha de horas, clique em **Novo perfil**.
+1. Para criar um novo perfil de planilha de horas, clique em **Novo Perfil**.
 
    Ou
 
@@ -86,7 +86,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    O perfil de planilha de horas novo ou existente é exibido.
 
 
-1. No **Definir detalhes** digite uma **Nome** e **Descrição** para o perfil da folha de horas e forneça as seguintes informações:
+1. Na guia **Definir Detalhes**, digite um **Nome** e uma **Descrição** para o perfil da folha de horas e forneça as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,7 +101,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      <ul> 
       <li> <p>Se você estiver criando um perfil de planilha de horas para um grupo que administra, identifique o grupo aqui.</p> <p>Isso não atribui o perfil da folha de horas aos usuários no grupo; permite apenas que os administradores do grupo modifiquem o perfil da folha de horas. Você atribuirá o perfil aos usuários na Etapa 6.</p>
 
-   <p><b>NOTA</b>: quando usuários fora do grupo anexam perfis de folha de horas a outro usuário, eles não poderão ver ou anexar esse perfil de folha de horas.</p> </li> 
+   <p><b>OBSERVAÇÃO</b>: quando usuários fora do grupo estão anexando perfis de folha de horas a outro usuário, eles não poderão ver ou anexar esse perfil de folha de horas.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -110,41 +110,41 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <p>Uma planilha de horas semanal começa na data em que é gerada. Por exemplo, se você criar folhas de horas semanais todas as quintas-feiras, o primeiro dia da semana na folha de horas será quinta-feira.</p>
 
 
-   <p><b>NOTA</b>: o Workfront sempre cria duas folhas de horas por vez: a primeira folha de horas sempre inclui a data atual e a segunda folha de horas começa quando o período da primeira termina.</p> </p> </td> 
+   <p><b>OBSERVAÇÃO</b>: o Workfront sempre cria duas folhas de horas por vez: a primeira folha de horas sempre inclui a data atual e a segunda começa quando o período da primeira termina.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Aprovadores</strong></p> </td> 
       <td> <p> <p>Os aprovadores são usuários que aprovam a folha de horas para os usuários associados à folha de horas. Você pode identificar até 7 usuários como aprovadores em uma folha de horas. Identificar vários usuários é útil para garantir que um aprovador esteja disponível quando alguém estiver fora do escritório. Todos os aprovadores são notificados quando um usuário envia a folha de horas para aprovação. Somente um usuário precisa aprovar a folha de horas para que ela seja aprovada.</p> <p>Somente usuários com direitos administrativos de planilha de horas podem ser definidos como aprovadores. Para obter mais informações sobre direitos administrativos de planilha de horas, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> <p>Use o menu suspenso para selecionar o aprovador para a folha de horas (se um aprovador for necessário). Você pode selecionar entre as seguintes opções:</p> 
       <ul> 
-      <li><strong>Nenhum</strong>: A folha de horas não precisa ser aprovada.</li> 
-      <li><strong>O gerente deles</strong>: este é o aprovador padrão, definido pelo sistema. Nesse caso, o usuário designado como gerente aprova a folha de horas quando ela é enviada para aprovação.</li> 
-      <li><strong>Pessoas específicas:</strong> Você pode designar usuários específicos, por nome, como aprovadores de folha de horas. Você pode ter múltiplos aprovadores em uma planilha de horas. Nesse caso, depois que um dos aprovadores aprovar a folha de horas, ela será marcada como <strong>Fechado</strong> e desaparecerá da lista de aprovações da folha de horas de todos os aprovadores restantes.</li> 
+      <li><strong>Nenhuma</strong>: a folha de horas não precisa ser aprovada.</li> 
+      <li><strong>Gerente</strong>: este é o aprovador padrão, definido pelo sistema. Nesse caso, o usuário designado como gerente aprova a folha de horas quando ela é enviada para aprovação.</li> 
+      <li><strong>Pessoas Específicas:</strong> Você pode designar usuários específicos, por nome, como aprovadores de planilhas de horas. Você pode ter múltiplos aprovadores em uma planilha de horas. Nesse caso, depois que um dos aprovadores aprovar a folha de horas, ela será marcada como <strong>Fechada</strong> e desaparecerá da lista de aprovações da folha de horas de todos os aprovadores restantes.</li> 
        </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Pode editar as horas </strong> </td> 
+      <td role="rowheader"><strong>Pode editar a hora </strong> </td> 
       <td> <p> <p>Selecione esta opção para permitir que os aprovadores editem horas na folha de horas.
 
-   Essa opção funciona junto com o **Restringir a edição da folha de horas aos proprietários e administradores** na área Configuração > Horas > Preferências. Para obter mais informações, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurar preferências de horas e planilha de horas</a>.
+   Esta opção funciona junto com a configuração **Restringir edição da folha de horas a proprietários e administradores** na área Configuração > Folhas de horas e horas > Preferências. Para obter mais informações, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurar preferências de horas e folha de horas</a>.
 
    Existem os seguintes cenários:
 
    <ul>
-      <li>Quando a variável <b>Restringir a edição da folha de horas aos proprietários e administradores</b> está ativada:</li>
-      <ul><li>Os aprovadores só podem aprovar e rejeitar a folha de horas, independentemente da <b>Pode editar as horas</b> está ativado ou não. </li>
+      <li>Quando a opção <b>Restringir edição da folha de horas a proprietários e administradores</b> está habilitada:</li>
+      <ul><li>Os aprovadores só podem aprovar e rejeitar a folha de horas, independentemente de o <b>Pode editar as horas</b> estar habilitado ou não. </li>
       <li>Os gerentes dos proprietários da folha de horas só podem exibir as folhas de horas de seus subordinados diretos.</li></ul>
-      <li>Quando a variável <b>Restringir a edição da folha de horas aos proprietários e administradores</b> A opção está desabilitada:</li>
-    <ul><li>Quando a variável <b>Pode editar as horas</b> estiver ativado, os aprovadores podem enviar, reabrir ou fechar a folha de horas e editar as horas.</li>
-      <li>Quando a variável <b>Pode editar as horas</b> estiver desativado, os aprovadores não poderão enviar, reabrir ou fechar a folha de horas e não poderão editar as horas. Os aprovadores só podem aprovar ou rejeitar a folha de horas. </li>
+      <li>Quando a opção <b>Restringir edição da folha de horas a proprietários e administradores</b> está desabilitada:</li>
+    <ul><li>Quando a <b>Pode editar as horas</b> estiver habilitada, os aprovadores poderão enviar, reabrir ou fechar a folha de horas e editar as horas.</li>
+      <li>Quando a <b>Pode editar as horas</b> está desabilitada, os aprovadores não podem enviar, reabrir ou fechar a folha de horas e não podem editar as horas. Os aprovadores só podem aprovar ou rejeitar a folha de horas. </li>
       <li>Os gerentes dos proprietários da folha de horas podem enviar, retroceder, reabrir e editar as folhas de horas de seus subordinados diretos.</li></ul>
       </ul>
 
    <p>
 
-   <b>NOTA</b>: depois de enviar uma folha de horas para aprovação, você não poderá mais editar as horas. Para retornar uma folha de horas enviada a um estado editável, cancele a folha de horas ou peça ao aprovador para rejeitar a folha de horas. Para obter mais informações, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar uma planilha de horas para aprovação</a> e<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprovar uma planilha de horas</a>.</p> </p> </td>
+   <b>OBSERVAÇÃO</b>: depois que você enviar uma folha de horas para aprovação, não poderá mais editar as horas. Para retornar uma folha de horas enviada a um estado editável, cancele a folha de horas ou peça ao aprovador para rejeitar a folha de horas. Para obter mais informações, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar uma folha de horas para aprovação</a> e<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprovar uma folha de horas</a>.</p> </p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader"><strong>Tipos de Hora Disponíveis</strong> </td> 
+      <td role="rowheader"><strong>Tipos de Horas Disponíveis</strong> </td> 
       <td><p>Essa configuração se refere somente aos Tipos de horas gerais, e não aos tipos de horas específicos do projeto. </p>
       <p>Por padrão, os usuários veem todas as horas gerais em uma folha de horas. No entanto, se sua organização quiser que apenas as horas gerais específicas sejam mostradas para um conjunto específico de usuários, você pode selecionar as horas gerais que eles precisam ver em suas folhas de horas, selecionando-os no perfil de folha de horas neste campo. Se quiser desativar todas as horas gerais, desmarque todos os tipos de horas para gerar a folha de horas sem uma seção para as horas gerais.</p></td> 
      </tr> 
@@ -155,13 +155,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     </tbody> 
     </table>
 
-1. Clique em **Atribuir pessoas** para associar o perfil da folha de horas a usuários, grupos ou equipes específicos (se você for um administrador do Workfront). Comece a digitar o nome do usuário, grupo ou equipe e clique nele quando ele aparecer na lista suspensa.
+1. Clique na guia **Atribuir Pessoas** para associar o perfil da folha de horas a usuários, grupos ou equipes específicos (se você for um administrador do Workfront). Comece a digitar o nome do usuário, grupo ou equipe e clique nele quando ele aparecer na lista suspensa.
 
-   Se você for um administrador de grupo, poderá atribuir o perfil da folha de horas aos grupos que administra, mas não às equipes. Para obter mais informações, consulte [Limitações para um administrador de grupo que atribui um perfil de folha de horas](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) neste artigo.
+   Se você for um administrador de grupo, poderá atribuir o perfil da folha de horas aos grupos que administra, mas não às equipes. Para obter mais informações, consulte [Limitações para um administrador de grupo atribuir um perfil de folha de horas](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) neste artigo.
 
    >[!NOTE]
    >
-   >* Você também pode associar um usuário a um perfil de planilha de horas editando o perfil do usuário. Para obter mais informações, consulte [Editar o perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   >* Você também pode associar um usuário a um perfil de planilha de horas editando o perfil do usuário. Para obter mais informações, consulte [Editar perfil de usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* Quando você adiciona um grupo, somente o nome do grupo é exibido na guia Atribuir Pessoas, não a lista de membros do grupo. Se quiser ver os membros do grupo listados aqui, clique em Salvar Alterações, em seguida, clique no nome do perfil da planilha de horas que você acabou de criar.
    >* Ao concluir essas etapas, o perfil de folha de horas gera folhas de horas apenas para os usuários atribuídos ou membros do grupo que não têm folhas de horas existentes para o período atual.
 
@@ -184,7 +184,7 @@ Além disso, se a opção Administrador de usuários (usuários de grupo) també
 
 Para obter informações sobre a opção Folhas de horas e horas no seu nível de acesso, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Para obter informações sobre a opção Administrador de usuário (usuários de grupo) no seu nível de acesso, consulte [Conceder acesso aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Para obter informações sobre a opção Administrador de Usuários (Usuários de Grupo) no seu nível de acesso, consulte [Conceder acesso aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 ## Vários perfis de planilha de horas recorrentes
 

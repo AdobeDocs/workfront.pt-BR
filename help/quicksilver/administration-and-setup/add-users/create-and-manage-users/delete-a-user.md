@@ -54,7 +54,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td> <p>Você deve ter um dos seguintes:</p> 
     <ul> 
      <li> <p>O nível de acesso Administrador do sistema. Para obter informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>. </p> </li> 
-     <li> <p><b>Usuários</b> no seu nível de acesso configurado para <b>Editar</b> acesso, com <b>Criar</b> e pelo menos um dos dois <b>Administrador de Usuários</b> opções ativadas em <b>Ajuste as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o usuário <b>Administrador (Usuários de grupo)</b> estiver ativado, você deve ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> <p>Para obter mais informações sobre o <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
+     <li> <p>A configuração <b>Usuários</b> no seu nível de acesso foi configurada para <b>Editar</b> acesso, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o Usuário <b>Administrador (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> <p>Para obter mais informações sobre a configuração <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 A desativação de um usuário faz com que as seguintes coisas aconteçam:
 
-* Remove as licenças do usuário para o Workfront e o Workfront Proof se o componente do Workfront Proof estiver associado à sua conta do Workfront. Para obter mais informações sobre o Workfront Proof, consulte [Workfront Proof: índice do artigo](../../../workfront-proof/workfront-proof.md).
+* Remove as licenças do usuário para Workfront e Workfront Proof se o componente do Workfront Proof estiver associado à sua conta do Workfront. Para obter mais informações sobre o Workfront Proof, consulte [Workfront Proof: índice do artigo](../../../workfront-proof/workfront-proof.md).
 * O usuário não pode mais receber trabalho.
 * O usuário não pode mais ser adicionado às atualizações.
 * O usuário não pode mais ser adicionado a equipes ou grupos.
@@ -76,18 +76,18 @@ A desativação de um usuário faz com que as seguintes coisas aconteçam:
 
      >[!NOTE]
      >
-     >Se você desativar um usuário e não puder mais exibir os relatórios ou painéis associados a um usuário, talvez seja necessário atualizar o **Executar este relatório com direitos de acesso de:** campo.\
-     >Para saber mais, consulte a [Por que não posso acessar um relatório de propriedade de um usuário desativado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) seção do [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artigo.
+     >Se você desativar um usuário e não puder mais exibir os relatórios ou painéis associados a um usuário, talvez seja necessário atualizar o campo **Executar este relatório com os Direitos de Acesso de:**.\
+     >Para saber mais, consulte o [Por que não posso acessar um relatório de propriedade de um usuário desativado?Seção ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) do artigo [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Documentos
    * Atualizações
    * Horas
 
-* Se o usuário tiver feito check-out de documentos, eles permanecerão com check-out quando você os desativar. Somente um administrador do Workfront pode fazer o check-in deles novamente. Para obter mais informações sobre como fazer check-out de documentos, consulte [Fazer check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
+* Se o usuário tiver feito check-out de documentos, eles permanecerão com check-out quando você os desativar. Somente um administrador do Workfront pode fazer o check-in deles novamente. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
 
 Excluir um usuário faz com que as seguintes coisas aconteçam:
 
-* Remove as licenças do usuário para o Workfront e o Workfront Proof, se o componente do Workfront Proof estiver associado à sua conta do Workfront. Para obter mais informações sobre o Workfront Proof, consulte [Workfront Proof: índice do artigo](../../../workfront-proof/workfront-proof.md).
+* Remove as licenças do usuário para Workfront e Workfront Proof, se o componente do Workfront Proof estiver associado à sua conta do Workfront. Para obter mais informações sobre o Workfront Proof, consulte [Workfront Proof: índice do artigo](../../../workfront-proof/workfront-proof.md).
 * O usuário não pode mais receber trabalho.
 * O usuário não pode mais ser adicionado às atualizações.
 * O usuário não pode mais ser adicionado a equipes ou grupos.
@@ -100,7 +100,7 @@ Excluir um usuário faz com que as seguintes coisas aconteçam:
      >[!NOTE]
      >
      >Você também perde o acesso às seções personalizadas que continham painéis associados ao usuário excluído.\
-     >Para saber mais, consulte a [Como faço para acessar um painel que contém um relatório de propriedade de um usuário excluído?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) seção do [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artigo.
+     >Para saber mais, consulte [Como faço para acessar um painel que contém um relatório de propriedade de um usuário excluído?Seção ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) do artigo [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Atualizações
    * Horas
@@ -110,7 +110,7 @@ Excluir um usuário faz com que as seguintes coisas aconteçam:
      >Esses objetos permanecem no Workfront, mas o proprietário do objeto agora está em branco.
 
 * Se o usuário tiver carregado algum documento na área Documentos na Barra de navegação global, os documentos também serão excluídos.
-* Se o usuário tiver feito check-out dos documentos que possui e os documentos forem carregados na área Documentos principal (acessada no Menu principal), os documentos serão excluídos com o usuário. Para obter mais informações sobre como fazer check-out de documentos, consulte [Fazer check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
+* Se o usuário tiver feito check-out dos documentos que possui e os documentos forem carregados na área Documentos principal (acessada no Menu principal), os documentos serão excluídos com o usuário. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
 
 Para obter mais informações sobre como desativar usuários, consulte [Desativar ou reativar um usuário](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
@@ -118,10 +118,10 @@ Para obter mais informações sobre como desativar usuários, consulte [Desativa
 
 ## Excluir um ou mais usuários
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
 1. Clique em **Usuários**.
-1. Selecione pelo menos um usuário que deseja excluir e clique no menu Mais ![](assets/more-icon.png)e, em seguida, clique em **Excluir**.
+1. Selecione pelo menos um usuário que você deseja excluir, clique no menu Mais ![](assets/more-icon.png) e em **Excluir**.
 1. Na caixa exibida, clique em **Excluir** para confirmar a exclusão.
 
    O processo de exclusão de usuários é executado como um processo em segundo plano, para que você possa continuar usando o Workfront como o usuário ou usuários são excluídos.

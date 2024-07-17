@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 4%
+source-wordcount: '355'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Neste agrupamento de tarefa personalizado, você pode exibir tarefas agrupadas p
 O agrupamento a seguir organiza projetos pelo valor percentual concluído em um desses agrupamentos:
 
 * 0%
-* 1 - 10%
+* 1-10%
 * 11-20%
 * 21-30%
 * 31-40%
@@ -33,7 +33,7 @@ O agrupamento a seguir organiza projetos pelo valor percentual concluído em um 
 * 91-99%
 * 100%
 
-![task_10_detalhamento_agrupamento.png](assets/task-10--breakdown-grouping-350x547.png)
+![tarefa_10_detalhamento_agrupamento.png](assets/task-10--breakdown-grouping-350x547.png)
 
 ## Requisitos de acesso
 
@@ -45,7 +45,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -60,24 +60,23 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Agrupar por detalhamento de percentual de tarefa
 
 Para aplicar esse agrupamento:
 
 1. Ir para uma lista de tarefas.
-1. No **Agrupamento** selecione **Novo Agrupamento**.
+1. No menu suspenso **Agrupamento**, selecione **Novo agrupamento**.
 
-1. Clique em **Alternar para modo de texto**.
-1. Remova o texto da **Agrupar seu relatório** área.
+1. Clique em **Alternar para Modo de Texto**.
+1. Remova o texto da área **Agrupar relatório**.
 1. Substitua o texto pelo seguinte código:
+   <pre>group.0.linkedname=direct<br>group.0.name=Percent Breakdown<br>group.0.notime=false<br>group.0.valueexpression=IF({percentComplete}=0,"0 %",IF({percentComplete}&lt;=11,"1-10 %",IF({percentComplete}&lt;=21,"11-20 %",IF({percentComplete}&lt;=31,"21-30 %",IF({percentComplete}&lt;41,"31-40 %",IF({percentComplete}&lt;51,"41-50 %",IF({percentComplete}&lt;61,"51-60 %",IF({percentComplete}&lt;71,"61-70 %",IF({percentComplete}&lt;81,"71-80 %",IF({percentComplete}&lt;91,"81-90 %",IF({percentComplete}&lt;100,"91-99 %", 100 %")))))))))))))<br>textmode=true</pre>
 
-   <pre>group.0.linkedname=direct<br>group.0.name=Detalhamento percentual<br>group.0.notime=false<br>group.0.valueexpression=IF({percentComplete}=0,"0 %",IF({percentComplete}&lt;=11,"1-10 %",IF({percentComplete}&lt;=21,"11-20 %",IF({percentComplete}&lt;=31,"21-30 %",IF({percentComplete}&lt;41,"31-40 %",IF({percentComplete}&lt;51,"41-50 %",IF ({percentComplete}&lt;61,"51-60 %",IF({percentComplete}&lt;71,"61-70 %",IF({percentComplete}&lt;81,"71-80 %",IF({percentComplete}&lt;91,"81-90 %",IF({percentComplete}&lt;100,"91-99 %","100 %"))))))))))))))<br>textmode=true</pre>
-
-1. Clique em **Salvar Agrupamento**.
+1. Clique em **Salvar agrupamento**.

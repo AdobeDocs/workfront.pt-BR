@@ -19,7 +19,7 @@ A Condição de um projeto é um sinalizador colocado nele para indicar se o tra
 
 Você pode definir a Condição de um projeto automática ou manualmente. Para alterar a Condição de um projeto manualmente, você deve ser o Proprietário do projeto ou ter direitos de Gerenciamento.
 
-O administrador do Adobe Workfront pode criar condições personalizadas para seu ambiente, conforme descrito em [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+O administrador do Adobe Workfront pode criar Condições personalizadas para o seu ambiente, conforme descrito em [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ## Requisitos de acesso
 
@@ -63,33 +63,33 @@ Para licenças atuais:
 
 A configuração automática da Condição de um projeto é determinada pelo Tipo de Condição do projeto. O tipo de condição deve ser definido como Status de progresso para que o Workfront defina automaticamente a condição do projeto.
 
-O administrador de Workfront ou de grupo determina o padrão do campo Tipo de condição para novos projetos no sistema ao definir as preferências do projeto na área Configuração. Para obter mais informações, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+O administrador de Workfront ou de grupo determina o padrão do campo Tipo de condição para novos projetos no sistema ao definir as preferências do projeto na área Configuração. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Ao criar um projeto, a Condição do projeto é automaticamente definida para corresponder ao Status de progresso do projeto nesse momento. O Status de Progresso do projeto é baseado no progresso das tarefas no projeto.
 
-Para obter informações sobre as condições do projeto e como elas são calculadas com base no Status de progresso, consulte [Visão geral do status de progresso do projeto](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+Para obter informações sobre as condições do projeto e como elas são calculadas com base no Status de Progresso, consulte [Visão geral do Status de Progresso do Projeto](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
 ## Atualizar manualmente a Condição de um projeto
 
 Se você definir o Tipo de condição do seu projeto como Manual em vez de Status de progresso, poderá atualizar manualmente a Condição de um projeto.
 
 1. Vá para o projeto para o qual deseja atualizar a Condição.
-1. Clique em **Detalhes do projeto** no painel esquerdo.
+1. Clique na seção **Detalhes do projeto** no painel esquerdo.
 
-1. Certifique-se de que o **Tipo de condição** o campo está definido como **Manual**.
+1. Verifique se o campo **Tipo de Condição** está definido como **Manual**.
 
    ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
 
-1. No **Condição** selecione entre as seguintes opções aquela que corresponde à sua compreensão de se o trabalho associado a ele está indo sem problemas ou se há atrasos:
+1. No campo **Condição**, selecione entre as seguintes opções aquela que corresponde à sua compreensão de se o trabalho associado a ele está indo bem ou se há atrasos:
 
    * **No Destino**
    * **Em Risco**
    * **Com Problemas**
 
-   Para obter mais informações sobre as condições do projeto, consulte [Visão geral da condição do projeto e do tipo de condição](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+   Para obter mais informações sobre as condições do projeto, consulte [Visão Geral da Condição do Projeto e do Tipo de Condição](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
    >[!NOTE]
    >
-   >As condições podem ser personalizadas para seu ambiente, portanto, você pode encontrar mais de três opções de Condição em seu ambiente. Os nomes das Condições podem ser diferentes dos listados acima. Para obter informações sobre como personalizar condições no Workfront, consulte [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+   >As condições podem ser personalizadas para seu ambiente, portanto, você pode encontrar mais de três opções de Condição em seu ambiente. Os nomes das Condições podem ser diferentes dos listados acima. Para obter informações sobre como personalizar Condições no Workfront, consulte [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 1. Clique em **Salvar alterações**.

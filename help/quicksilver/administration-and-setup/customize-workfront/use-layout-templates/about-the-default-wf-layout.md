@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # Sobre o layout padrão do Adobe Workfront
 
-O layout padrão é a organização do menu principal ![](assets/main-menu-icon.png), o painel esquerdo e as exibições, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
+O layout padrão é a organização do Menu Principal ![](assets/main-menu-icon.png), do painel esquerdo e dos modos de exibição, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
 
 Para obter informações sobre como um administrador do Workfront pode modificar o layout padrão de um usuário atribuindo um modelo de layout ao usuário, consulte [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
->Os usuários podem alterar seu próprio layout editando suas preferências de perfil de usuário. Para obter mais informações, consulte [Preferências](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) seção em [Definir minhas configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Os usuários podem alterar seu próprio layout editando suas preferências de perfil de usuário. Para obter mais informações, consulte a seção [Preferências](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) em [Configurar minhas configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Layouts padrão para cada nível de acesso
 
@@ -102,7 +102,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>Pessoas</strong> (renomeado para <strong>Equipes</strong> para usuários com uma licença de trabalho)</td> 
+   <td rowspan="5"><strong>Pessoas</strong> (renomeado para <strong>Equipes</strong> para usuários com uma licença de Trabalho)</td> 
    <td><strong>Equipes</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -140,7 +140,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Agendamento</strong> </td> 
+   <td><strong>Agendando</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -187,7 +187,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Planilhas de Horas que eu Aprovo</strong> </td> 
+   <td><strong>Planilhas De Horas Que Eu Aprovo</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 

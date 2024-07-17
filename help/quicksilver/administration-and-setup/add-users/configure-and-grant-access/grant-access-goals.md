@@ -1,9 +1,9 @@
 ---
-title: Conceder acesso às Metas da Adobe Workfront
+title: Conceder acesso ao Adobe Workfront Goals
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
-description: Como administrador da Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário às Metas da Workfront.
+description: Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário ao Workfront Goals.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 ---
 
-# Conceder acesso às Metas da Adobe Workfront
+# Conceder acesso ao Adobe Workfront Goals
 
-Como administrador da Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário às Metas da Adobe Workfront, como explicado em [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário às Metas do Adobe Workfront, conforme explicado na [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para conceder aos usuários acesso às Metas da Workfront:
+Você deve ter o seguinte para conceder aos usuários acesso às Metas do Workfront:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Workfront</td> 
+   <td role="rowheader">plano do Workfront</td> 
    <td> <p>Pro ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -37,33 +37,33 @@ Você deve ter o seguinte para conceder aos usuários acesso às Metas da Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Workfront Goals <p>Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Metas. </p> <p>As Metas do Workfront estão disponíveis somente na nova experiência do Adobe Workfront.</p> </td> 
+   <td>Workfront Goals <p>Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals. </p> <p>O Workfront Goals está disponível somente na nova experiência do Adobe Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuração de nível de acesso*</td> 
-   <td> <p>Você deve ter o nível de acesso Administrador do sistema.</p> <p><b>OBSERVAÇÃO</b>: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuração do nível de acesso*</td> 
+   <td> <p>Você deve ter o nível de acesso de Administrador do sistema.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
 
-Para obter informações adicionais sobre o acesso às Metas da Workfront, consulte [Requisitos para usar as metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-## Conceder ao usuário acesso às Metas da Workfront usando um nível de acesso personalizado
+## Conceder acesso ao usuário ao Workfront Goals usando um nível de acesso personalizado
 
-1. Comece a criar ou editar o nível de acesso, como explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Clique na opção à direita de **Metas** que você deseja usar para esse nível de acesso.
+1. Comece a criar ou editar o nível de acesso, conforme explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Clique na opção à direita de **Metas** que você deseja usar para este nível de acesso.
 
    ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >
-   >O tipo de licença External não permite o acesso de Exibição ou Edição ao Workfront Metas.
+   >O tipo de licença externa não permite o acesso de Exibir ou Editar ao Workfront Goals.
 
-1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configuração do acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso aos dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configurar acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Quando terminar, clique em **Salvar**.
 
-## Acesso às Metas da Workfront por tipo de licença
+## Acesso às Metas do Workfront por tipo de licença
 
-Um administrador do Workfront pode usar um nível de acesso para conceder acesso às Metas da Workfront aos usuários com uma licença de Plano, Trabalho, Solicitação ou Revisão.
+Um administrador do Workfront pode usar um nível de acesso para conceder acesso ao Workfront Goals a usuários com uma licença de Plano, Trabalho, Solicitação ou Revisão.

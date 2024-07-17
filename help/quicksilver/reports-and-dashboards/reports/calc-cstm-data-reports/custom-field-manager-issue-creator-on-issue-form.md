@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td> <p>Licença da Adobe Workfront*</p> </td> 
@@ -46,12 +46,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Permissões de objeto</p> </td> 
-   <td> <p>Contribuir com acesso ao objeto ao qual o formulário está anexado com acesso a Editar o formulário personalizado</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Acesso do Contribute ao objeto ao qual o formulário está anexado com acesso a Editar o formulário personalizado</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exibir o gerente do criador de um problema no formulário personalizado de problema
 
@@ -64,7 +64,7 @@ As etapas a seguir mostram como criar um campo calculado para um formulário per
    * [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
    * [Adicionar dados calculados a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
-1. Copie e cole o seguinte código de modo de texto na **Cálculo** campo do formulário personalizado:
+1. Copie e cole o seguinte código do modo de texto no campo **Cálculo** do formulário personalizado:
 
    ```
    {owner}.{manager}.{name}
@@ -74,6 +74,6 @@ As etapas a seguir mostram como criar um campo calculado para um formulário per
    >
    >Os cálculos de campo personalizado diferenciam maiúsculas de minúsculas.
 
-1. Clique em **Concluído**, depois **Salvar + Fechar**.
+1. Clique em **Concluído** e depois em **Salvar + Fechar**.
 
    O gerente do usuário que criou o problema é exibido no campo calculado quando o formulário que contém o campo é anexado a um problema.

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias móveis feitas com a versão 23.3 do. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Nova funcionalidade de prova no aplicativo móvel do Workfront
 
@@ -30,4 +30,4 @@ Com a descontinuação do aplicativo Workfront Proof independente na versão 23.
 * O status da prova pode ser visualizado nas páginas Detalhes do documento e Detalhes da prova no aplicativo móvel
 * Os botões que levam os usuários ao aplicativo Workfront Proof foram removidos
 
-Para obter mais informações sobre provas no aplicativo móvel do Workfront, consulte [Revise e tome decisões sobre provas no aplicativo móvel do Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Para obter mais informações sobre provas no aplicativo móvel Workfront, consulte [Revisar e tomar decisões sobre provas no aplicativo móvel Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).

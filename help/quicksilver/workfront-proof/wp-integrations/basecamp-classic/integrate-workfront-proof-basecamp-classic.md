@@ -2,118 +2,118 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: Integrar [!DNL Workfront Proof] com o Basecamp Classic
-description: Se você usar [!DNL Basecamp] para o gerenciamento de projetos, você pode oferecer à equipe de projeto ferramentas de revisão e aprovação mais avançadas usando [!DNL Workfront Proof].
+title: Integrar  [!DNL Workfront Proof]  ao Basecamp Classic
+description: Se você usar o [!DNL Basecamp] para gerenciamento de projetos, poderá oferecer à sua equipe de projetos ferramentas de revisão e aprovação mais avançadas usando o [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-# Integrar [!DNL Workfront Proof] com [!DNL Basecamp Classic]
+# Integrar [!DNL Workfront Proof] a [!DNL Basecamp Classic]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro de [!DNL Adobe Workfront], consulte [Tofing](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-Se você usar [!DNL Basecamp] para o gerenciamento de projetos, você pode oferecer à equipe de projeto ferramentas de revisão e aprovação mais avançadas usando [!DNL Workfront Proof].
+Se você usar o [!DNL Basecamp] para gerenciamento de projetos, poderá oferecer à sua equipe de projetos ferramentas de revisão e aprovação mais avançadas usando o [!DNL Workfront Proof].
 
-## Noções básicas sobre o [!DNL Basecamp] Integração com [!DNL Workfront]
+## Compreendendo a Integração do [!DNL Basecamp] com o [!DNL Workfront]
 
-Integração com [!DNL Basecamp] permite que os usuários visualizem, revisem e aprovem provas em [!DNL Basecamp]. Os usuários podem enviar provas para seu [!DNL Workfront Proof] e conecte-os com sua [!DNL Basecamp] projeto. Seus revisores podem e podem [Tome uma decisão em uma prova no visualizador de prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) via [!DNL Basecamp], usando a mini prova incorporada na mensagem do Basecamp.
+A integração com [!DNL Basecamp] permite que os usuários exibam, revisem e aprovem provas tudo dentro de [!DNL Basecamp]. Os usuários podem enviar provas para sua conta do [!DNL Workfront Proof] e conectá-las ao seu projeto do [!DNL Basecamp]. Seus revisores podem fazer [Tomar uma decisão sobre uma prova no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) via [!DNL Basecamp], usando a miniprova incorporada na mensagem do Carimbo de Base.
 
-Quando integrado ao [!DNL Workfront Proof], [!DNL Basecamp] O permite que os usuários façam o seguinte com provas:
+Quando integrado ao [!DNL Workfront Proof], o [!DNL Basecamp] permite que os usuários façam o seguinte com provas:
 
 * Os usuários podem revisar e aprovar provas em [!DNL Basecamp Classic].
-* Os usuários têm ferramentas de revisão prontamente disponíveis.
-* As equipes de revisão do projeto recebem uma mensagem em [!DNL Basecamp] com uma prova mínima para revisão e aprovação.
+* Os usuários têm ferramentas de análise prontamente disponíveis.
+* As equipes de revisão de projetos recebem uma mensagem em [!DNL Basecamp] com uma minitorprova para revisão e aprovação.
 * Os usuários podem alternar para uma prova de página inteira para revisão e aprovação.
-* Os usuários podem adicionar comentários e marcações a provas em mini e tamanho completo.
+* Os usuários podem adicionar comentários e marcações a provas de tamanho menor e maior.
 
-   >[!NOTE]
-   >
-   >Depois que um comentário é respondido, ele não pode ser editado ou excluído.
+  >[!NOTE]
+  >
+  >Depois que um comentário é respondido, ele não pode ser editado ou excluído.
 
 * Os revisores podem responder às marcações e feitas por outros revisores.
-* Os usuários são avisados quando uma nova versão da prova está disponível.
-* Usuários que não são [!DNL Workfront Proof] os usuários podem trabalhar em uma prova em [!DNL Basecamp].
+* Os usuários são alertados quando uma nova versão da prova está disponível.
+* Os usuários que não são [!DNL Workfront Proof] podem trabalhar em uma prova no [!DNL Basecamp].
 
-A integração de [!DNL Workfront Proof] com [!DNL Basecamp] deve ser configurado em dois níveis:
+A integração do [!DNL Workfront Proof] com o [!DNL Basecamp] deve ser configurada em dois níveis:
 
-* Configurar [!DNL Basecamp] em [Configurações da conta:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) Isso permite a integração do Basecamp para toda a organização.
-* Para obter mais informações, consulte [Ativar o [!DNL Basecamp] Integração com [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
-* Configurar [!DNL Basecamp] em [Configurações pessoais](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings): Isso permite que criadores e proprietários de provas se conectem a seus [!DNL Basecamp] e autorizar [!DNL Workfront Proof] acesso. Para obter mais informações, consulte [Definição das Configurações Pessoais](#configuring-personal-settings).
+* Configurar [!DNL Basecamp] em [Configurações da conta:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) permite a integração do Carimbo de base para toda a organização.
+* Para obter mais informações, consulte [Habilitando a [!DNL Basecamp] Integração com [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
+* Configurar [!DNL Basecamp] em [Configurações pessoais](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings): permite que os criadores e proprietários de provas se conectem à sua conta pessoal [!DNL Basecamp] e autorizem o acesso de [!DNL Workfront Proof]. Para obter mais informações, consulte [Definindo Configurações Pessoais](#configuring-personal-settings).
 
-É possível integrar [!DNL Workfront] com [!DNL Basecamp] ou [!DNL Basecamp Classic]. Cada versão de [!DNL Basecamp] O usa uma API diferente e, portanto, requer procedimentos de configuração diferentes.
+Você pode integrar [!DNL Workfront] com [!DNL Basecamp] ou [!DNL Basecamp Classic]. Cada versão do [!DNL Basecamp] usa uma API diferente e, portanto, requer procedimentos de configuração diferentes.
 
-Para obter informações sobre como configurar [!DNL Basecamp Classic], consulte [Ativar o [!DNL Basecamp] Integração com [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) neste artigo.
+Para obter informações sobre como configurar o [!DNL Basecamp Classic], consulte [Habilitar a [!DNL Basecamp] Integração com o [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) neste artigo.
 
-Para obter informações sobre como configurar [!DNL Basecamp], consulte [Integrar [!DNL Workfront Proof] com [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md).
+Para obter informações sobre como configurar o [!DNL Basecamp], consulte [Integrar [!DNL Workfront Proof] com [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md).
 
-## Ativar o [!DNL Basecamp] Integração com [!DNL Workfront Proof]
+## Habilitando a Integração do [!DNL Basecamp] com o [!DNL Workfront Proof]
 
-Como um [Perfis de prova de permissões em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ou [Perfis de prova de permissões em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), é possível configurar a integração do Basecamp para toda a conta no [Configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
+Como um [Perfis de Permissões de Prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ou [Perfis de Permissões de Prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), você pode configurar a integração do Carimbo de Base para toda a conta nas [Configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
 1. Ir para [Configurações da conta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)
-1. Abra o **[!UICONTROL Integrações]** (1).
-1. Para habilitar a integração do Basecamp, clique em **[!UICONTROL Habilitar]** (2)
+1. Abra a guia **[!UICONTROL Integrações]** (1).
+1. Para habilitar a integração com o Carimbo de Base, clique em **[!UICONTROL Habilitar]** (2).
 1. Verifique se [!DNL Basecamp Classic] é a versão com a qual você está integrando (3).
-1. (Condicional) Se não [!DNL Basecamp] O URL é exibido (4), clique em **[!UICONTROL Editar]** e insira o URL de seu [!DNL Basecamp] conta (sem o http://).
-1. Clique em **[!UICONTROL Salvar]** 5.\
+1. (Condicional) Se nenhuma URL [!DNL Basecamp] for exibida (4), clique em **[!UICONTROL Editar]** e insira a URL da sua conta [!DNL Basecamp] (sem o http://).
+1. Clique em **[!UICONTROL Salvar]** (5).\
    ![Basecamp_account_settings_-_integration.png](assets/basecamp-account-settings---integration-350x192.png)
 
-1. (Opcional) Verifique o [!DNL Basecamp] URL no seu navegador após fazer logon em seu [!DNL Basecamp Classic] conta (6).
+1. (Opcional) Verifique a URL do [!DNL Basecamp] no navegador depois de fazer logon na conta do [!DNL Basecamp Classic] (6).
 
    ![Basecamp_URL.png](assets/basecamp-url-350x75.png)
 
-   Depois de integrar [!DNL Workfront Proof] com [!DNL Basecamp], seus usuários podem definir suas configurações pessoais. Para obter informações sobre como configurar configurações pessoais, consulte [Definição das Configurações Pessoais](#configuring-personal-settings).
+   Depois de integrar [!DNL Workfront Proof] com [!DNL Basecamp], seus usuários poderão definir suas configurações pessoais. Para obter informações sobre como definir configurações pessoais, consulte [Definindo Configurações Pessoais](#configuring-personal-settings).
 
-   Se não for possível ativar [!DNL Basecamp] integração, seu [!DNL Workfront Proof] a ID da conta pode não ser a mesma que a ID da conta usada em [!DNL Basecamp].
+   Se você não puder habilitar a integração do [!DNL Basecamp], a ID da conta do [!DNL Workfront Proof] pode não ser a mesma que a ID da conta usada no [!DNL Basecamp].
 
-## Definição das Configurações Pessoais
+## Definição de configurações pessoais
 
-Depois de configurar [Configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) para sua organização, cada um dos autores que cria/envia provas deve definir seus  [configurações pessoais.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+Depois de configurar as [configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) para sua organização, cada autor que criar/enviar provas deve definir suas [configurações pessoais.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
 >[!NOTE]
 >
->Concluir essas etapas é mais fácil se você tiver o [!DNL Basecamp] sessão aberta em uma janela do navegador e sua [!DNL Workfront Proof] sessão aberta em outra janela.
+>Concluir essas etapas é mais fácil se você tiver a sessão do [!DNL Basecamp] aberta em uma janela do navegador e a sessão do [!DNL Workfront Proof] aberta em outra janela.
 
-* [Recuperar seu [!DNL Basecamp] Token de API](#retrieving-your-basecamp-api-token)
-* [Adicionar seu [!DNL Basecamp] Token de API para suas configurações pessoais](#adding-your-basecamp-api-token-to-your-personal-settings)
+* [Recuperando o Token de API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token)
+* [Adicionar o token de API  [!DNL Basecamp]  às suas configurações pessoais](#adding-your-basecamp-api-token-to-your-personal-settings)
 
-### Recuperar seu [!DNL Basecamp] Token de API
+### Recuperando seu token de API [!DNL Basecamp]
 
-Para concluir a integração no nível individual em [!DNL Workfront Proof], os usuários precisam de seu token de autenticação individual para a [!DNL Basecamp] API.
+Para concluir a integração em nível individual no [!DNL Workfront Proof], os usuários precisam de seus tokens de autenticação individuais para a API [!DNL Basecamp].
 
-Para recuperar o [!DNL Basecamp] Token da API:
+Para recuperar o token de API [!DNL Basecamp]:
 
-1. Faça logon em seu [!DNL Basecamp] conta.
+1. Entre na sua conta [!DNL Basecamp].
 1. Clique em **[!UICONTROL Minhas informações]** (1) no canto superior direito da tela.\
-   O [!UICONTROL Minhas informações] será exibida.\
-   ![Basecamp_Integration_-_Token1.png](assets/basecamp-integration---token1-350x334.png)
+   A página [!UICONTROL Minhas Informações] é exibida.\
+   ![Integração_do_Carimbo_Base_-_Token1.png](assets/basecamp-integration---token1-350x334.png)
 
-1. No [!UICONTROL Tokens de autenticação] seção , clique em **[!UICONTROL Mostrar seus tokens]** (2) para exibir seus tokens de autenticação pessoais.
-1. Selecione o **[!UICONTROL Token para leitores de feed]** ou **[!UICONTROL API do Basecamp]** (3), em seguida, copie o token para a área de transferência.
+1. Na seção [!UICONTROL Tokens de autenticação], clique em **[!UICONTROL Mostrar seus tokens]** (2) para exibir seus tokens de autenticação pessoal.
+1. Selecione o **[!UICONTROL Token para leitores de feed]** ou a **[!UICONTROL API Basecamp]** (3) e copie o token para a área de transferência.
 
-1. Cole seu [!DNL Basecamp] Token da API no [!UICONTROL Token para leitores de feed] ou [!UICONTROL API do Basecamp] caixa.\
-   ![Basecamp_Integration_-_Token2.png](assets/basecamp-integration---token2-350x178.png)
+1. Cole seu token de API [!DNL Basecamp] no [!UICONTROL Token para leitores de feed] ou na caixa [!UICONTROL API Basecamp].\
+   ![Integração_do_Carimbo_Base_-_Token2.png](assets/basecamp-integration---token2-350x178.png)
 
-### Adicionar seu [!DNL Basecamp] Token de API para suas configurações pessoais
+### Adicionar o token de API [!DNL Basecamp] às suas configurações pessoais
 
-Para colar o [!DNL Basecamp] Token da API em seu [!DNL Workfront Proof] [Configurações pessoais](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings):
+Para colar o token de API [!DNL Basecamp] nas [!DNL Workfront Proof] [Configurações pessoais](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings):
 
-1. Vá para o [[!UICONTROL Integrações] - Configuração do usuário](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md) em seu [Configurações pessoais](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) (1)\
-   Primeiro, um administrador deve habilitar o [!DNL Basecamp Classic] para habilitar suas configurações pessoais. Para obter informações sobre como configurar a integração, consulte [Ativar o [!DNL Basecamp] Integração com [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) neste artigo.
+1. Vá para as [[!UICONTROL Integrações] - Configuração do Usuário](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md) em suas [Configurações Pessoais](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) (1).\
+   Um administrador precisa primeiro habilitar a integração com o [!DNL Basecamp Classic] para que você possa habilitar suas configurações pessoais. Para obter informações sobre como configurar a integração, consulte [Habilitar a [!DNL Basecamp] Integração com o [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) neste artigo.
 
-1. No [!DNL Basecamp] Caixa de token da API (2), cole o token que você acabou de copiar de sua [!DNL Basecamp] [!UICONTROL Minhas informações] no campo (3).\
-   Para obter informações sobre cópia de [!DNL Basecamp] Token de API, consulte [Recuperar seu [!DNL Basecamp] Token de API](#retrieving-your-basecamp-api-token) neste artigo.
+1. Na caixa de token da API [!DNL Basecamp] (2), cole o token que você acabou de copiar da sua página [!DNL Basecamp] [!UICONTROL Minhas Informações] no campo (3).\
+   Para obter informações sobre como copiar o token de API [!DNL Basecamp], consulte [Recuperando o  [!DNL Basecamp] Token de API](#retrieving-your-basecamp-api-token) neste artigo.
 
-1. Clique em **[!UICONTROL Salvar]** (4)
+1. Clique em **[!UICONTROL Salvar]** (4).
 
 ![Basecamp_personal_settings_-_integration.png](assets/basecamp-personal-settings---integration-350x250.png)
 
-Seu [!DNL Workfront Proof] [Configurações pessoais](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) agora estão integradas ao [!DNL Basecamp Classic] conta.
+Suas [!DNL Workfront Proof] [Configurações pessoais](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) agora estão integradas à sua conta do [!DNL Basecamp Classic].

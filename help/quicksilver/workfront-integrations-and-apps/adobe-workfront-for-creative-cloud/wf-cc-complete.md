@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Marcar itens de trabalho como concluídos usando o [!DNL Adobe Workfront] plug-in
+# Marcar itens de trabalho como concluídos usando o plug-in [!DNL Adobe Workfront]
 
-Você pode ficar no seguinte [!DNL Adobe Creative Cloud] aplicativos e completar seu trabalho de forma contínua em [!DNL Adobe Workfront] com o plug-in:
+Você pode ficar nos [!DNL Adobe Creative Cloud] aplicativos a seguir e concluir seu trabalho facilmente em [!DNL Adobe Workfront] com o plug-in:
 
 {{cc-app-list}}
 
@@ -37,16 +37,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> --> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Você deve ter um [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront] licença.</td> 
+   <td>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>[!UICONTROL Editar] acesso ao objeto que você deseja concluir.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL Editar] acesso ao objeto que você deseja concluir.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Pré-requisitos
 
@@ -54,19 +54,19 @@ Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato
 
 ## Concluir um item de trabalho
 
-1. Clique em **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de trabalho]**. Você também pode usar o menu para navegar até objetos principais.
+1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. No **[!UICONTROL Lista de trabalho]**, selecione a tarefa ou problema que deseja marcar como concluído.
-1. Clique em **[!UICONTROL Concluído]**.  Se você for o único usuário atribuído a essa tarefa ou problema, isso marcará o item [!UICONTROL Concluído] ou [!UICONTROL Resolvido] in [!DNL Workfront].
-1. (Condicional) Se vários usuários forem atribuídos a essa tarefa ou problema, clique em [!UICONTROL Concluído] abre uma lista suspensa. Em seguida, é possível:
+1. Na **[!UICONTROL Lista de Trabalho]**, selecione a tarefa ou o problema que deseja marcar como concluído.
+1. Clique em **[!UICONTROL Concluído]**.  Se você for o único usuário atribuído a esta tarefa ou problema, isso marca o item [!UICONTROL Concluído] ou [!UICONTROL Resolvido] em [!DNL Workfront].
+1. (Condicional) Se vários usuários forem atribuídos a esta tarefa ou problema, clicar em [!UICONTROL Concluído] abrirá uma lista suspensa. Em seguida, é possível:
 
-   Clique em **[!UICONTROL Pronto com minha parte]** se outros usuários também precisarem fazer o trabalho para que a tarefa ou problema seja concluído.
+   Clique em **[!UICONTROL Concluído com minha parte]** se outros usuários também precisarem fazer seu trabalho para que a tarefa ou problema seja concluído.
 
    Ou
 
-   Clique em **[!UICONTROL Concluído]** (para tarefas) ou **[!UICONTROL Resolvido]** (para problemas) se não for necessário mais trabalho na tarefa ou problema. Isso marca o item [!UICONTROL Concluído] ou [!UICONTROL Resolvido] in [!DNL Workfront].
+   Clique em **[!UICONTROL Concluído]** (para tarefas) ou **[!UICONTROL Resolvido]** (para problemas) se não precisar fazer mais trabalho na tarefa ou no problema. Isso marca o item [!UICONTROL Concluído] ou [!UICONTROL Resolvido] em [!DNL Workfront].
 
    >[!NOTE]
    >

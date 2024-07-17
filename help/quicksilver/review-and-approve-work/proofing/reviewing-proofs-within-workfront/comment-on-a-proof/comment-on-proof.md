@@ -18,7 +18,7 @@ ht-degree: 0%
 # Comentar em uma prova
 
 * [Comentar em uma prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
-* [Exibir e responder a comentários de prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
+* [Exibir e responder aos comentários de prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
 * [Pesquisar, filtrar e classificar comentários de prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
 * [Editar comentários de prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/edit-a-proof-comment.md)
 * [Resolver comentários de prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)

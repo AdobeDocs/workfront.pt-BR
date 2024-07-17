@@ -32,7 +32,7 @@ Sua organização deve ter as seguintes opções para usar a funcionalidade desc
 
 Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 
-Para obter informações adicionais sobre o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 O Adobe Workfront calcula o progresso da meta automaticamente, com base no progresso de seus indicadores de progresso.
 
@@ -56,7 +56,7 @@ Depois de ativar uma meta, o Workfront Goals começa a calcular seu progresso e 
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
-* [Percentual concluído real](#actual-percent-complete)
+* [Percentual real concluído](#actual-percent-complete)
 * [Porcentagem concluída esperada](#expected-percent-complete)
 * [Progresso e condição](#progress)
 
@@ -72,7 +72,7 @@ Os itens a seguir são considerados indicadores de progresso para metas:
 
 * Atividades
 
-  Para obter informações sobre como adicionar atividades, incluindo projetos às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Para obter informações sobre como adicionar atividades, incluindo projetos às metas, consulte [Adicionar atividades às metas nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Metas secundárias alinhadas
 

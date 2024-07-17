@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Este relatório de Item de trabalho mostra tarefas e problemas em que os usuários aceitaram trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
 
-Este relatório usa `sharecol=true` na visualização para combinar vários campos no mesmo cabeçalho de coluna. Para obter mais informações sobre o `sharecol` , consulte [Exibição: mesclar informações de várias colunas em uma coluna compartilhada](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Este relatório usa `sharecol=true` na exibição para combinar vários campos sob o mesmo cabeçalho de coluna. Para obter mais informações sobre a marca `sharecol`, consulte [Exibir: mesclar informações de várias colunas em uma coluna compartilhada](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
 > A exibição Item de trabalho exibe somente tarefas e problemas que foram aceitos pelos usuários atribuídos a eles. Este relatório não exibe itens de trabalho que não foram movidos das listas Solicitações de Trabalho ou Solicitações da Equipe para a lista Trabalhando em.
 
-![work_item_report.png](assets/work-item-report-350x46.png)
+![item_de_trabalho_relatório.png](assets/work-item-report-350x46.png)
 
 ## Requisitos de acesso
 
@@ -36,7 +36,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -50,25 +50,25 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Criar um relatório com Exibição e Agrupamento combinados de tarefas e problemas
 
 Para criar um relatório com esta exibição:
 
-1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
+1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
 
-1. Clique em **Novo Relatório** e selecione o objeto **Item de trabalho** no menu suspenso.
+1. Clique em **Novo Relatório** e selecione o objeto **Item de Trabalho** no menu suspenso.
 
-1. No **Visualização da coluna** clique no cabeçalho da única coluna exibida.
-1. Clique em **Alternar para modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
-1. Remova o texto localizado na **Modo de texto** e substitua-o pelo seguinte código:
+1. Na área **Visualização da coluna**, clique no cabeçalho da única coluna exibida.
+1. Clique em **Alternar para Modo de Texto**.
+1. Passe o mouse sobre a área de modo de texto e clique em **Clicar para editar o texto**.
+1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    column.0.description=Task or Issue 
@@ -260,7 +260,7 @@ Para criar um relatório com esta exibição:
    ```
 
 1. (Opcional) Clique em **Agrupamentos** para adicionar um agrupamento ao relatório.
-1. (Opcional) Se você estiver adicionando um agrupamento, clique em **Alternar para modo de texto**.
+1. (Opcional) Se você estiver adicionando um agrupamento, clique em **Alternar para Modo de Texto**.
 1. (Opcional) Substitua o texto dentro da área do modo de texto de agrupamento pelo seguinte código:
 
    ```

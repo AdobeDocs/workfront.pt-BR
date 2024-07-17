@@ -39,12 +39,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com ou mais permissões para a tarefa e o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Contribute ou permissões mais altas para a tarefa e o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações sobre a edição de tarefas em uma lista {#considerations-about-editing-tasks-in-a-list}
 
@@ -52,7 +52,7 @@ Editar tarefas em uma lista é uma maneira rápida de fazer alterações em vár
 
 Leve em consideração o seguinte ao editar tarefas em uma lista:
 
-* Ao contrário da necessidade de gerenciar permissões para a tarefa ao editá-la na caixa Editar, você pode editar uma tarefa em uma lista somente com permissões do Contribute para a tarefa. Isso permite editar as seguintes informações limitadas para a tarefa:
+* Ao contrário da necessidade de gerenciar permissões para a tarefa ao editá-la na caixa Editar, você pode editar uma tarefa em uma lista somente com permissões Contribute para a tarefa. Isso permite editar as seguintes informações limitadas para a tarefa:
 
    * Descrição
    * Status
@@ -80,7 +80,7 @@ Leve em consideração o seguinte ao editar tarefas em uma lista:
 
 * Você pode controlar quando o Workfront salva as alterações feitas nas tarefas em uma lista. Suas alterações podem ser salvas automaticamente ou manualmente.
 
-  Para obter informações sobre como configurar quando o Workfront salva as alterações feitas nas tarefas de uma lista, consulte [Selecione uma opção para salvar ao editar tarefas em uma lista](#select-a-save-option-when-editing-tasks-in-a-list) neste artigo.
+  Para obter informações sobre como configurar quando o Workfront salva as alterações feitas nas tarefas de uma lista, consulte a seção [Selecionar uma opção de salvamento ao editar tarefas em uma lista](#select-a-save-option-when-editing-tasks-in-a-list) neste artigo.
 
 * Outros usuários devem atualizar suas páginas antes de visualizarem as atualizações feitas em uma tarefa.
 
@@ -90,7 +90,7 @@ Você pode decidir onde as alterações feitas nas tarefas de uma lista são sal
 
 >[!IMPORTANT]
 >
->Dependendo de você salvar as tarefas automática ou manualmente, é possível substituir as informações de outra pessoa à medida que você edita tarefas em uma lista. Para obter informações sobre como o Workfront salva as alterações em tarefas que você faz simultaneamente com outros usuários, consulte [Visão geral de salvar alterações simultâneas em uma lista de tarefas](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
+>Dependendo de você salvar as tarefas automática ou manualmente, é possível substituir as informações de outra pessoa à medida que você edita tarefas em uma lista. Para obter informações sobre como o Workfront salva alterações em tarefas que você faz simultaneamente com outros usuários, consulte [Visão geral de como salvar alterações simultâneas em uma lista de tarefas](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
 
 Quando você salva as alterações em uma lista de um projeto que tem Automático ou Automático e Ao alterar selecionado como o Tipo de atualização, o Workfront atualiza a linha do tempo do projeto, juntamente com todas as dependências no projeto e entre projetos. Os cálculos de linha de tempo podem levar muito tempo se o projeto for grande ou se houver muitas dependências. Alguns métodos de edição de uma lista de tarefas podem ser mais rápidos que outros, dependendo do método selecionado para salvar as alterações.
 
@@ -98,11 +98,11 @@ Você pode controlar quando o Workfront salva as alterações feitas nas tarefas
 
 * Você pode fazer com que o Workfront salve as alterações automaticamente após cada atualização.
 
-  Para obter informações, consulte a seção [Editar tarefas em uma lista e salvar as alterações automaticamente](#edit-tasks-in-a-list-and-automatically-save-changes) neste artigo.
+  Para obter informações, consulte a seção [Editar tarefas em uma lista e salvar automaticamente as alterações](#edit-tasks-in-a-list-and-automatically-save-changes) neste artigo.
 
 * É possível ter controle sobre quando você aplica várias alterações de uma vez usando manualmente um botão Salvar.
 
-  Para obter informações, consulte a seção [Editar tarefas em uma lista e salvar as alterações manualmente](#edit-tasks-in-a-list-and-manually-save-changes) neste artigo.
+  Para obter informações, consulte a seção [Editar tarefas em uma lista e salvar manualmente as alterações](#edit-tasks-in-a-list-and-manually-save-changes) neste artigo.
 
 ### Editar tarefas em uma lista e salvar as alterações automaticamente {#edit-tasks-in-a-list-and-automatically-save-changes}
 
@@ -114,12 +114,12 @@ Leve em consideração o seguinte ao salvar as alterações da lista de tarefas 
 
 * É possível aplicar uma visualização personalizada à lista de tarefas e editar quaisquer campos relacionados à tarefa que você tenha acesso para atualizar.
 * Não é possível reverter as alterações salvas automaticamente. Esta é a configuração padrão.
-* O Workfront recalcula a linha do tempo do projeto e todas as dependências entre projetos e no projeto automaticamente após cada alteração, quando o Tipo de atualização do projeto é Automático ou Automático e Mediante alteração. Para obter informações sobre o Tipo de atualização do projeto, consulte [Selecione o tipo de atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* O Workfront recalcula a linha do tempo do projeto e todas as dependências entre projetos e no projeto automaticamente após cada alteração, quando o Tipo de atualização do projeto é Automático ou Automático e Mediante alteração. Para obter informações sobre o Tipo de Atualização do projeto, consulte [Selecionar o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Para editar tarefas em uma lista e salvar alterações automaticamente:
 
-1. Vá para o projeto e clique no botão **Tarefas** seção.
-1. Clique em **Menu Modo de plano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) no topo da lista e verifique se a variável **Salvamento automático** for selecionada.
+1. Vá para o projeto e clique na seção **Tarefas**.
+1. Clique no menu **Modo de plano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) na parte superior da lista e verifique se a opção **Salvamento automático** está selecionada.
 
    ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -127,13 +127,13 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
 
    ![](assets/inline-editing-a-task-350x26.png)
 
-1. (Opcional) Pressione **Escape** para cancelar as alterações.
+1. (Opcional) Pressione **Escape** para cancelar suas alterações.
 1. Pressione Enter para salvar as alterações nas tarefas e na linha do tempo do projeto.
 1. (Opcional) Clique com o botão direito do mouse em uma tarefa que você deseja modificar.
 
    Ou
 
-   Clique em **Mais** menu ![](assets/more-icon-task-list.png) à direita do nome da tarefa.
+   Clique no menu ![](assets/more-icon-task-list.png) **Mais** à direita do nome da tarefa.
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -147,7 +147,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Editar</strong></td> 
-      <td><p>Abre a <strong>Editar tarefa</strong> , na qual você pode editar a tarefa.</p><p>Para obter informações sobre como editar uma tarefa, consulte <a href="#edit-tasks-in-a-list" class="MCXref xref">Editar tarefas em uma lista</a>.</p></td> 
+      <td><p>Abre a caixa <strong>Editar Tarefa</strong>, onde você pode editar a tarefa.</p><p>Para obter informações sobre como editar uma tarefa, consulte <a href="#edit-tasks-in-a-list" class="MCXref xref">Editar tarefas em uma lista</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Excluir</td> 
@@ -175,7 +175,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
      </tr> 
      <tr> 
       <td role="rowheader">Copiar para</td> 
-      <td><p>Copia a tarefa para outro projeto.</p><p>Para obter informações sobre copiar e duplicar tarefas, consulte <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copiar e duplicar tarefas</a>.</p></td> 
+      <td><p>Copia a tarefa para outro projeto.</p><p>Para obter informações sobre como copiar e duplicar tarefas, consulte <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copiar e duplicar tarefas</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Move Para</td> 
@@ -211,7 +211,7 @@ Leve em consideração o seguinte ao salvar manualmente as alterações em uma l
 
 Há duas maneiras de salvar manualmente as alterações em tarefas de uma lista. Estas duas formas são descritas abaixo.
 
-* [Salvar alterações manualmente em uma lista de tarefas ao selecionar a opção Salvar manualmente Padrão](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
+* [Salve as alterações manualmente em uma lista de tarefas ao selecionar a opção Salvar manualmente Padrão](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
 * [Salvar as alterações em uma lista de tarefas manualmente ao selecionar a opção Salvar manualmente o planejamento de linha do tempo](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
 
 #### Salvar alterações manualmente em uma lista de tarefas ao selecionar a opção Salvar manualmente Padrão {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option}
@@ -223,12 +223,12 @@ Há duas maneiras de salvar manualmente as alterações em tarefas de uma lista.
 Considere o seguinte ao atualizar tarefas em uma lista após selecionar a opção Salvar manualmente padrão:
 
 * Aplique um modo de exibição personalizado à lista de tarefas e edite quaisquer campos relacionados à tarefa que você tenha permissões para Gerenciar nesse modo de exibição.
-* O Workfront calcula a linha do tempo do projeto e todas as dependências entre projetos e no projeto depois de clicar em Salvar, quando o Tipo de atualização do projeto for Automático ou Automático e Mediante alteração. Para obter informações sobre o Tipo de atualização do projeto, consulte [Selecione o tipo de atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* O Workfront calcula a linha do tempo do projeto e todas as dependências entre projetos e no projeto depois de clicar em Salvar, quando o Tipo de atualização do projeto for Automático ou Automático e Mediante alteração. Para obter informações sobre o Tipo de Atualização do projeto, consulte [Selecionar o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padrão:
 
-1. Vá para um projeto e clique no botão **Tarefas** seção .
-1. Clique em **Modo de plano** menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) na parte superior da lista e selecione **Salvamento manual** e, em seguida, clique em **Padrão** > **Aplicar**.
+1. Vá para um projeto e clique na seção **Tarefas**.
+1. Clique no menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) do **Modo do Plano** na parte superior da lista e selecione **Salvar manualmente** e clique em **Padrão** > **Aplicar**.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -241,14 +241,14 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
    ![](assets/inline-editing-a-task-350x26.png)
 
 1. Pressione Enter para salvar temporariamente as alterações feitas.
-1. (Opcional) Clique no link **Ícone Desfazer** ![](assets/undo-icon-on-task-list.png) para reverter uma alteração e retornar um campo ao seu estado original.
-1. (Opcional e condicional) Clique no link **Ícone Refazer** ![](assets/redo-icon-on-task-list.png) para restaurar a alteração revertida.
+1. (Opcional) Clique no **ícone Desfazer** ![](assets/undo-icon-on-task-list.png) para reverter uma alteração e retornar um campo ao seu estado original.
+1. (Opcional e condicional) Clique no **ícone Refazer** ![](assets/redo-icon-on-task-list.png) para restaurar a alteração que você reverteu.
 
 1. (Opcional) Clique com o botão direito do mouse em uma tarefa que deseja modificar.
 
    Ou
 
-   Clique em **Mais** menu ![](assets/more-icon-task-list.png).
+   Clique no menu ![](assets/more-icon-task-list.png) **Mais**.
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -282,13 +282,13 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
      </tr> 
      <tr> 
       <td role="rowheader">Duplicar</td> 
-      <td> <p>Cria uma versão duplicada da tarefa no mesmo projeto. </p> <p>Para obter informações sobre copiar e duplicar tarefas, consulte <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copiar e duplicar tarefas</a>.</p> </td> 
+      <td> <p>Cria uma versão duplicada da tarefa no mesmo projeto. </p> <p>Para obter informações sobre como copiar e duplicar tarefas, consulte <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copiar e duplicar tarefas</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. O Workfront atualiza todas as dependências entre projetos e dentro de projetos ao fazer alterações na linha do tempo de tarefas.
-1. Clique em **Salvar** quando quiser manter as alterações na tarefa permanentemente e salvar a linha do tempo do projeto.
+1. Clique em **Salvar** quando quiser manter as alterações da tarefa permanentemente e salvar a linha do tempo do projeto.
 
 #### Salvar as alterações em uma lista de tarefas manualmente ao selecionar a opção Salvar manualmente o planejamento de linha do tempo {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -303,12 +303,12 @@ Considere o seguinte ao usar a opção Planejamento de linha do tempo de salvame
 * Não é possível aplicar a opção Planejamento de linha do tempo de salvamento manual a projetos com mais de 2000 tarefas.
 * Não é possível aplicar um modo de exibição, filtro ou agrupamento personalizado à lista de tarefas. Os menus suspensos Exibição, Filtro e Agrupamento, bem como o ícone Exibição Agile, estão desativados. A exibição aplicada por padrão contém um número limitado de campos.
 * A linha do tempo do projeto e todas as dependências no projeto são calculadas automaticamente após cada alteração quando o Tipo de atualização do projeto é Automático ou Automático e Mediante alteração.
-* As dependências entre projetos são calculadas depois que você clica em Salvar, quando o Tipo de Atualização do projeto é Automático ou Automático e Mediante Alteração. Para obter informações sobre o Tipo de atualização do projeto, consulte [Selecione o tipo de atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* As dependências entre projetos são calculadas depois que você clica em Salvar, quando o Tipo de Atualização do projeto é Automático ou Automático e Mediante Alteração. Para obter informações sobre o Tipo de Atualização do projeto, consulte [Selecionar o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejamento de linha do tempo:
 
-1. Vá para um projeto e clique no botão **Tarefas** seção.
-1. Clique em **Modo de plano** menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) na parte superior da lista e selecione **Salvamento manual** e, em seguida, clique em **Planejamento da linha do tempo**> **Aplicar**.
+1. Vá para um projeto e clique na seção **Tarefas**.
+1. Clique no menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) do **Modo de Plano** na parte superior da lista e selecione **Salvar manualmente** e clique em **Planejamento de Linha do Tempo**> **Aplicar**.
 
    Essa opção fica esmaecida para projetos com mais de 2000 tarefas.
 
@@ -343,14 +343,14 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
    ![](assets/inline-editing-a-task-350x26.png)
 
 1. Pressione Enter para salvar temporariamente as alterações feitas.
-1. (Opcional) Clique no link **Ícone Desfazer** ![](assets/undo-icon-on-task-list.png) para reverter uma alteração e retornar um campo ao seu estado original.
-1. (Opcional e condicional) Clique no link **Ícone Refazer** ![](assets/redo-icon-on-task-list.png) para restabelecer a alteração revertida.
+1. (Opcional) Clique no **ícone Desfazer** ![](assets/undo-icon-on-task-list.png) para reverter uma alteração e retornar um campo ao seu estado original.
+1. (Opcional e condicional) Clique no **ícone Refazer** ![](assets/redo-icon-on-task-list.png) para restaurar a alteração que você reverteu.
 
 1. (Opcional) Clique com o botão direito do mouse em uma tarefa que você deseja modificar
 
    Ou
 
-   Clique em **Mais** menu ![](assets/more-icon-task-list.png).
+   Clique no menu ![](assets/more-icon-task-list.png) **Mais**.
 
 1. Selecione entre as seguintes opções:
 
@@ -384,13 +384,13 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
      </tr> 
      <tr> 
       <td role="rowheader">Duplicar</td> 
-      <td> <p>Cria uma versão duplicada da tarefa no mesmo projeto. </p> <p>Para obter informações sobre copiar e duplicar tarefas, consulte <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copiar e duplicar tarefas</a>.</p> </td> 
+      <td> <p>Cria uma versão duplicada da tarefa no mesmo projeto. </p> <p>Para obter informações sobre como copiar e duplicar tarefas, consulte <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copiar e duplicar tarefas</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. O Workfront atualiza todas as dependências entre projetos e no projeto ao alterar a linha do tempo de uma tarefa.
-1. Clique em **Salvar** quando quiser manter as alterações na tarefa permanentemente e salvar a linha do tempo do projeto.
+1. Clique em **Salvar** quando quiser manter as alterações da tarefa permanentemente e salvar a linha do tempo do projeto.
 
 ## Editar uma tarefa em uma lista usando o Resumo
 
@@ -399,22 +399,22 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
    A lista de tarefas no projeto é exibida.
 
-1. Clique no menu Mais ![](assets/more-icon-task-list.png) após o nome da tarefa, clique em **Abrir resumo**. Selecione a tarefa que deseja editar e clique no botão **Ícone Abrir resumo** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) no canto superior direito da lista.
+1. Clique no menu Mais ![](assets/more-icon-task-list.png) depois do nome da tarefa e em **Abrir Resumo**. Selecione a tarefa que deseja editar e clique no **ícone Abrir resumo** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png), no canto superior direito da lista.
 
-   A variável **Resumo** é aberto.
+   O **Resumo** é aberto.
 
    ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
 
-1. (Opcional) Clique no link **Ícone X** no canto superior direito do Resumo para fechar o painel e editar as tarefas em linha.
+1. (Opcional) Clique no ícone **X** no canto superior direito do Resumo para fechar o painel e editar as tarefas em linha.
 
    Siga as etapas sobre como editar uma tarefa em uma lista para editar a tarefa em linha.
 
-   Para obter informações sobre como editar a tarefa em uma lista, consulte [Considerações sobre a edição de tarefas em uma lista](#considerations-about-editing-tasks-in-a-list) neste artigo.
+   Para obter informações sobre como editar a tarefa em uma lista, consulte [Considerações sobre como editar tarefas em uma lista](#considerations-about-editing-tasks-in-a-list) neste artigo.
 
-1. (Opcional) Digite uma atualização para a tarefa no **Atualizações** área.
+1. (Opcional) Digite uma atualização para a tarefa na área **Atualizações**.
 1. Clique em qualquer um dos ícones ou áreas a seguir para acessar a tarefa e editar as informações no nível da tarefa:
 
-   | Documentos | Clique em **Clique aqui para adicionar** para adicionar documentos à tarefa. |
+   | Documentos | Clique **Clique aqui para adicionar** para adicionar documentos à tarefa. |
    |---|---|
    | Detalhes | Clique em para atualizar as informações sobre a tarefa. |
    | Formulários personalizados | Clique em para adicionar ou remover o Forms personalizado ou atualizar as informações nos formulários. |
@@ -431,7 +431,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
 1. Vá para um projeto que contenha tarefas que você deseja editar em massa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. Certifique-se de que o **Salvamento automático** for selecionada.
+1. Verifique se a opção **Salvar automaticamente** está selecionada.
 
    >[!IMPORTANT]
    >
@@ -440,27 +440,27 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
    Para obter mais informações sobre como salvar alterações em tarefas de uma lista, consulte a seção [Considerações sobre a edição de tarefas em uma lista](#considerations-about-editing-tasks-in-a-list) neste artigo.
 
 1. Selecione várias tarefas na lista de tarefas.
-1. Clique em **Ícone Editar** ![](assets/qs-edit-icon.png).
+1. Clique no **ícone Editar** ![](assets/qs-edit-icon.png).
 
-   A variável **Editar Tarefas** é aberta.
+   A caixa de diálogo **Editar Tarefas** é aberta.
 
 1. Especifique as informações que deseja alterar para todas as tarefas selecionadas.
 
-   A edição de informações em todas as tarefas é idêntica à edição de informações em uma tarefa. Se quiser editar a Duração da tarefa, as tarefas selecionadas deverão ter a mesma Restrição de Tarefa; caso contrário, a variável **Duração** não é preenchido.
+   A edição de informações em todas as tarefas é idêntica à edição de informações em uma tarefa. Se você quiser editar a Duração da tarefa, as tarefas selecionadas deverão ter a mesma Restrição de Tarefa; caso contrário, o campo **Duração** não será preenchido.
 
    Para obter mais informações sobre como editar uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >
-   >As informações que você está alterando em todas as tarefas selecionadas substituirão as informações existentes em tarefas individuais, exceto para **Atribuições** campo. Adicionar um novo destinatário na edição em massa adicionará este destinatário a todas as tarefas selecionadas. Se outros atribuídos forem atribuídos às tarefas selecionadas, eles permanecerão atribuídos, além daquele adicionado por meio da edição em massa.
+   >As informações que você está alterando em todas as tarefas selecionadas substituirão as informações existentes em tarefas individuais, exceto pelo campo **Atribuições**. Adicionar um novo destinatário na edição em massa adicionará este destinatário a todas as tarefas selecionadas. Se outros atribuídos forem atribuídos às tarefas selecionadas, eles permanecerão atribuídos, além daquele adicionado por meio da edição em massa.
 
-1. Clique em **Forms personalizado** para editar os formulários personalizados anexados a todas as tarefas selecionadas. Somente formulários personalizados ativos são exibidos na lista.
+1. Clique em **Forms Personalizado** para editar os formulários personalizados anexados a todas as tarefas selecionadas. Somente formulários personalizados ativos são exibidos na lista.
 
    Se as tarefas selecionadas não tiverem formulários personalizados comuns, nenhum formulário será listado nesta seção.
 
    É possível editar apenas os campos nos formulários que estão anexados a todas as tarefas selecionadas e que você tem permissão para editar.
 
-1. (Opcional) Na seção Forms personalizado, selecione a **Recalcular expressões personalizadas** opção para garantir que todos os Campos personalizados calculados que estão nos formulários personalizados anexados às tarefas selecionadas estejam atualizados.
+1. (Opcional) Na seção Forms Personalizado, selecione a opção **Recalcular Expressões Personalizadas** para garantir que todos os Campos Personalizados Calculados que estão nos formulários personalizados anexados às tarefas selecionadas estejam atualizados.
 1. Clique em **Salvar alterações**.
 
    Todas as alterações feitas agora estão visíveis em todas as tarefas selecionadas.

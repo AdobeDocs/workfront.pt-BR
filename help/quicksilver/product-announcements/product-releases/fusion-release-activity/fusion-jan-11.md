@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 11 de janeiro de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Ampliar conector e módulos agora disponíveis
 
@@ -44,10 +44,10 @@ Agora você pode usar o Workfront Fusion para se conectar à sua conta do Datado
 
 Com os módulos Datadog, é possível:
 
-* Postar pontos da série temporal
+* Pontos da série temporal Post
 * Executar uma chamada de API personalizada
 
-Para obter informações sobre módulos Datadog, consulte [Módulos do Datadog](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+Para obter informações sobre módulos Datadog, consulte [módulos Datadog](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
 ## Conector de evento e módulos agora disponíveis
 
@@ -62,7 +62,7 @@ Com os módulos de Evento, você pode:
 * Atualizar ou excluir contatos
 * Fazer uma chamada de API personalizada
 
-Para obter informações sobre módulos Cvent disponíveis, consulte [Módulos de evento](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+Para obter informações sobre módulos Cvent disponíveis, consulte [Módulos Cvent](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
 
 ## Conector e módulos do Microsoft Dynamics 365 agora disponíveis
 
@@ -72,7 +72,7 @@ Agora você pode usar o Workfront Fusion 2.0 para se conectar à sua conta do Mi
 * Criar, ler, atualizar ou excluir um registro do Microsoft Dynamics 365
 * Executar uma chamada de API personalizada
 
-Para obter informações sobre módulos do Microsoft Dynamics 365 disponíveis, consulte [Módulos do Microsoft Dynamics 365](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+Para obter informações sobre módulos do Microsoft Dynamics 365 disponíveis, consulte [módulos do Microsoft Dynamics 365](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
 ## Conector e módulos do DocuSign agora disponíveis
 
@@ -86,7 +86,7 @@ Agora você pode usar o Workfront Fusion 2.0 para se conectar à sua conta do Do
 * Carregar um arquivo em um envelope
 * Executar uma chamada de API personalizada
 
-Para obter mais informações, consulte [Módulos do DocuSign](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+Para obter mais informações, consulte [módulos do DocuSign](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
 
 ## Pesquisar o histórico de execução do cenário
 
@@ -104,7 +104,7 @@ Para facilitar a personalização dos armazenamentos de dados, adicionamos algum
 * Editar uma única célula
 * Adicionar várias linhas
 
-Para obter mais informações sobre armazenamentos de dados, consulte [Módulos de armazenamento de dados](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+Para obter mais informações sobre Repositórios de Dados, consulte [Módulos de repositório de dados](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ## Fazer uma solicitação de autorização de Chave de API por meio do conector HTTP
 
@@ -138,6 +138,6 @@ Para ajudar você a personalizar e simplificar fórmulas em seus módulos, adici
 
   é uma função de sequência de caracteres que escapa todas as tags do Markdown em um texto.
 
-Para obter mais informações sobre as funções omitir e selecionar, consulte [Funções gerais no Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
+Para obter mais informações sobre as funções omitir e escolher, consulte [Funções gerais no Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
 
 Para obter mais informações sobre a função escapeMarkdown, consulte [Funções de string no Adobe Workfront Fusion](../../../workfront-fusion/functions/string-functions.md).

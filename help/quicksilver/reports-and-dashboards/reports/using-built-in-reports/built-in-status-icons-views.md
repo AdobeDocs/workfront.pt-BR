@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1253'
 ht-degree: 3%
 
 ---
@@ -36,9 +36,9 @@ Considere o seguinte:
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
-  Para obter mais informações, consulte [Visão Geral dos Ícones e Sinalizadores de Status](#overview-of-status-icons-and-flags) neste artigo.
+  Para obter mais informações, consulte a seção [Visão Geral de Ícones e Sinalizadores de Status](#overview-of-status-icons-and-flags) neste artigo.
 
-* Em alguns pontos de vista, a **Ícones de Status** o campo é nomeado **Sinalizadores** ou **Ícones de visualização**.\
+* Em algumas exibições, o campo **Ícones de Status** é denominado **Sinalizadores** ou **Ícones de Exibição**.\
   Não é possível personalizar a aparência dos ícones incluídos no campo Ícones de status.
 
 * Não é possível editar o número de ícones no campo Status Icons.
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -69,12 +69,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para uma exibição existente</p> <p>Gerenciar permissões de um relatório para adicionar colunas a ele</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para uma exibição existente</p> <p>Gerenciar permissões de um relatório para adicionar colunas a ele</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Adicionar o campo Ícones de Status a uma exibição
 
@@ -94,29 +94,29 @@ Para adicionar o campo Ícones de status a uma exibição personalizada criada d
    * Despesas
    * Documentos
    * Usuários\
-     Somente esses objetos têm o **Ícones de Status** disponível.\
+     Somente estes objetos têm o campo **Ícones de Status** disponível.\
      Para obter informações sobre listas de objetos, consulte [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. No **Exibir** selecione **Nova visualização**.
+1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
 1. Clique em **Adicionar coluna**.
-1. No **Mostrar nesta coluna** comece digitando qualquer um dos seguintes nomes de campo e, em seguida, selecione-o quando ele aparecer na lista:
+1. Na caixa **Mostrar nesta coluna**, comece digitando qualquer um dos seguintes nomes de campo e, em seguida, selecione-o quando ele aparecer na lista:
 
    * *Ícones de Status*
-   * *Marcações*
+   * *Sinalizadores*
    * *Ícones de Exibição *(somente em Exibições de documentos).
 
    Os ícones integrados estão listados em qualquer um desses nomes.\
-   Uma Exibição de modelo contém os **Ícones de Status** e a variável **Sinalizadores** campos. Nesse caso, as duas colunas contêm ícones idênticos.\
-   As visualizações de documento contêm um **Ícones de visualização** campo.
+   Um modo de exibição de Modelo contém os campos **Ícones de Status** e **Sinalizadores**. Nesse caso, as duas colunas contêm ícones idênticos.\
+   Exibições de documentos contêm um campo **Exibir Ícones**.
 
 1. Clique em **Salvar visualização**.
-1. (Opcional) Especifique um novo nome para a exibição e clique em **Salvar visualização**.\
-   Isso adiciona o **Ícones de Status** para a Exibição.
+1. (Opcional) Especifique um novo nome para o modo de exibição e clique em **Salvar Modo de Exibição**.\
+   Isso adiciona a coluna **Ícones de Status** à sua Exibição.
 1. (Opcional) Passe o mouse sobre um ícone para entender o que ele representa.
 1. (Opcional) Clique em um ícone para ir até a área do objeto representado por ele.\
    Nem todos os ícones são links para objetos.\
-   Para obter uma lista completa dos atributos de cada ícone, consulte [Visão Geral dos Ícones e Sinalizadores de Status](#overview-of-status-icons-and-flags) seção.
+   Para obter uma lista completa de atributos para cada ícone, consulte a seção [Visão Geral de Ícones e Sinalizadores de Status](#overview-of-status-icons-and-flags).
 
 ## Visão Geral dos Ícones e Sinalizadores de Status {#overview-of-status-icons-and-flags}
 
@@ -142,7 +142,7 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
  <tbody> 
   <tr> 
    <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">ou <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_problem.png" style="width: 29;height: 26;"> ou <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> ou <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>Indica que a condição do projeto é No alvo (verde), Com problema (vermelho) ou Em risco (amarelo).<br>Para obter informações sobre a Condição do projeto, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão geral da condição do projeto e do tipo de condição</a>.</td> 
+   <td>Indica que a condição do projeto é No alvo (verde), Com problema (vermelho) ou Em risco (amarelo).<br>Para obter informações sobre a Condição do projeto, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão Geral da Condição do Projeto e do Tipo de Condição</a>.</td> 
    <td>Projetos</td> 
    <td>Clique em para abrir a lista de tarefas do projeto. </td> 
    <td> </td> 
@@ -150,14 +150,14 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
   <tr> 
    <td> <img src="assets/notes-icon-44x34.png" alt="notes_icon.png" style="width: 44;height: 34;"> </td> 
    <td>Indica que o objeto tem observações (atualizações) na guia Atualizações.</td> 
-   <td> <p>Projetos<br>Tarefas<br>Problemas<br>Modelos<br>Modelos de Tarefa</p> </td> 
+   <td> <p>Projetos<br>Tarefas<br>Problemas<br>Modelos<br>Tarefas de Modelo</p> </td> 
    <td> <p>Clique em para abrir a guia Atualizações do objeto. </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/document-icon-35x42.png" alt="document_icon.png" style="width: 35;height: 42;">ou <img src="assets/new-documents-icon-36x43.png" alt="new_documents_icon.png" style="width: 36;height: 43;"></td> 
    <td>Indica que o objeto tem documentos anexados. </td> 
-   <td> Projetos<br>Tarefas<br>Problemas<br>Modelos<br>Modelos de Tarefa </td> 
+   <td> Projetos<br>Tarefas<br>Problemas<br>Modelos<br>Tarefas de Modelo </td> 
    <td>Clique em para abrir a guia Documentos do objeto. </td> 
    <td> </td> 
   </tr> 
@@ -171,7 +171,7 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
   <tr> 
    <td> <img src="assets/approval-icon-42x38.png" alt="approval_icon.png" style="width: 42;height: 38;"> ou <img src="assets/new-approval-icon-33x35.png" alt="new_approval_icon.png" style="width: 33;height: 35;"></td> 
    <td>Indica que há uma aprovação no objeto.</td> 
-   <td> Projetos<br>Tarefas<br>Problemas<br>Modelos<br>Modelos de Tarefa </td> 
+   <td> Projetos<br>Tarefas<br>Problemas<br>Modelos<br>Tarefas de Modelo </td> 
    <td>Clique em para abrir o objeto. </td> 
    <td> </td> 
   </tr> 
@@ -190,21 +190,21 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
      <li>Atrasado (círculo vermelho)</li> 
      <li>Em Risco (diamante azul)</li> 
      <li>Atrás (triângulo amarelo)</li> 
-    </ul> <p>Para obter informações sobre o Status do Progresso de tarefas, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do status de progresso da tarefa</a>.</p> </td> 
+    </ul> <p>Para obter informações sobre o Status de Progresso das tarefas, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do Status de Progresso da Tarefa</a>.</p> </td> 
    <td>Tarefas</td> 
    <td>Clique em para abrir a tarefa. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-critical-path-icon-36x35.png" alt="task_critical_path_icon.png" style="width: 36;height: 35;"> ou <img src="assets/new-critical-path-icon-34x34.png" alt="new_critical_path_icon.png" style="width: 34;height: 34;"></td> 
-   <td>Indica que a tarefa está atualmente no Caminho Crítico. <br>Para obter informações sobre tarefas em um Caminho Crítico do projeto, consulte <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Visão geral do Caminho crítico do projeto</a>.</td> 
+   <td>Indica que a tarefa está atualmente no Caminho Crítico. <br>Para obter informações sobre tarefas em um Caminho Crítico do projeto, consulte <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Visão Geral do Caminho Crítico do projeto</a>.</td> 
    <td>Tarefas</td> 
    <td>Clique em para abrir a tarefa.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/milestone-icon-50x43.png" alt="milestone_icon.png" style="width: 50;height: 43;"> </td> 
-   <td>Indica que a tarefa está associada a uma etapa. O administrador do sistema pode personalizar a cor do diamante em seu ambiente.<br>Para obter informações sobre marcos, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Criar um caminho de etapas</a>.</td> 
+   <td>Indica que a tarefa está associada a uma etapa. O administrador do sistema pode personalizar a cor do diamante em seu ambiente.<br>Para obter informações sobre etapas, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Criar um caminho de etapas</a>.</td> 
    <td>Tarefas</td> 
    <td>Clique em para abrir a tarefa. </td> 
    <td> </td> 

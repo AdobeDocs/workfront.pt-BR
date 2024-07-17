@@ -16,12 +16,12 @@ ht-degree: 0%
 
 # Informações beta de Painéis do Canvas
 
-Painéis de tela é um recurso atualmente em desenvolvimento que permite visualizar facilmente os dados do Adobe Workfront adicionando vários tipos de relatório em uma tela personalizável. Observe que, embora agradecemos sua participação durante nossa fase de teste beta, partes do recurso podem não estar completas ou funcionar conforme o esperado. Envie seus comentários sobre a experiência seguindo as instruções no [Fornecer feedback](#provide-feedback) abaixo.
+Painéis de tela é um recurso atualmente em desenvolvimento que permite visualizar facilmente os dados do Adobe Workfront adicionando vários tipos de relatório em uma tela personalizável. Observe que, embora agradecemos sua participação durante nossa fase de teste beta, partes do recurso podem não estar completas ou funcionar conforme o esperado. Envie seus comentários sobre a experiência seguindo as instruções na seção [Forneça comentários](#provide-feedback) abaixo.
 
-Para obter informações básicas sobre o uso de Painéis do Canvas, consulte [Introdução aos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Para obter uma lista de toda a documentação dos Painéis de controle do Canvas, consulte [Visão geral dos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Para obter informações básicas sobre como usar os Painéis do Canvas, consulte [Introdução aos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Para obter uma lista de toda a documentação dos Painéis da Tela de Pintura, consulte [Visão geral dos Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Programação beta:**
+**Agendamento do Beta:**
 
 * Data de início da versão beta fechada - TBA
 * Abrir data de início da versão beta - TBA
@@ -33,9 +33,9 @@ Para obter uma lista de toda a documentação dos Painéis de controle do Canvas
 
 Para se inscrever na versão beta:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
 
-1. Clique em **Associar-se à versão beta dos Painéis do Canvas** no canto superior direito da página.
+1. Clique no botão **Ingressar no Painel da Tela beta** beta no canto superior direito da página.
 
    >[!NOTE]
    >
@@ -47,11 +47,11 @@ Para se inscrever na versão beta:
 
 O feedback é apreciado à medida que desenvolvemos essa ferramenta ao longo do beta. Siga as instruções abaixo para compartilhar sua experiência conosco.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
 
 1. No painel esquerdo, clique em **Painéis do Canvas**.
 
-1. Clique em **Enviar feedback** no canto inferior direito da página, digite seu feedback no formulário exibido e clique em **Enviar**.
+1. Clique no botão **Enviar Comentários**, no canto inferior direito da página, digite seu comentário no formulário exibido e clique em **Enviar**.
 
 ## Recursos planejados
 

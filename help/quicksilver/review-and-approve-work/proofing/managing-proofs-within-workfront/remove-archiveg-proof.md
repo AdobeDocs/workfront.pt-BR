@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # Excluir uma prova
 
-Para excluir uma prova de um documento, você deve excluir o documento inteiro. Para obter mais informações, consulte [Excluir documentos](../../../documents/managing-documents/delete-documents.md).
+Para excluir uma prova de um documento, você deve excluir o documento inteiro. Para obter mais informações, consulte [Excluir Documentos](../../../documents/managing-documents/delete-documents.md).

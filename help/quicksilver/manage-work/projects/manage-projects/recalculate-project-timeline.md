@@ -2,24 +2,24 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Recalcular linhas do tempo do projeto
-description: Recalcular Linhas do Tempo permite que os gerentes vejam como diferentes fatores relacionados ao projeto estão afetando a linha do tempo do projeto. A linha do tempo de um projeto refere-se às datas planejadas e projetadas.
+description: Recalcular as linhas do tempo permite que os gerentes vejam como diferentes fatores relacionados ao projeto estão afetando a linha do tempo do projeto. A linha do tempo de um projeto se refere às datas planejadas e projetadas.
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
 # Recalcular linhas do tempo do projeto
 
-Recalcular Linhas do Tempo permite que os gerentes vejam como diferentes fatores relacionados ao projeto estão afetando a linha do tempo do projeto. A linha do tempo de um projeto refere-se às datas planejadas e projetadas.
+Recalcular as linhas do tempo permite que os gerentes vejam como diferentes fatores relacionados ao projeto estão afetando a linha do tempo do projeto. A linha do tempo de um projeto se refere às datas planejadas e projetadas.
 
-Fazer alterações em agendamentos, tempo limite de pessoal e outros itens fora do escopo de um projeto não afeta a linha do tempo do projeto imediatamente. A linha do tempo do projeto é afetada quando a linha do tempo é recalculada. As influências externas não entrarão em vigor no projeto até que o recálculo ocorra.
+Fazer alterações em cronogramas, folga da equipe e outros itens fora do escopo de um projeto não afeta a linha do tempo do projeto imediatamente. A linha do tempo do projeto é afetada quando a linha do tempo é recalculada. As influências externas não entrarão em vigor no projeto até que o recálculo ocorra.
 
-Este artigo descreve as maneiras pelas quais o recálculo da linha do tempo acontece.
+Este artigo descreve as maneiras como ocorre o recálculo da linha do tempo.
 
 ## Requisitos de acesso
 
@@ -53,7 +53,7 @@ Este artigo descreve as maneiras pelas quais o recálculo da linha do tempo acon
  </tbody> 
 </table>
 -->
-O recálculo automático da linha do tempo acontece sem acesso especial para qualquer um dos usuários envolvidos no trabalho no projeto.
+O recálculo automático da linha do tempo ocorre sem acesso especial para qualquer um dos usuários envolvidos no trabalho no projeto.
 
 No entanto, você deve ter o seguinte acesso para recalcular manualmente a linha do tempo de um projeto:
 
@@ -62,8 +62,8 @@ No entanto, você deve ter o seguinte acesso para recalcular manualmente a linha
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -71,43 +71,43 @@ No entanto, você deve ter o seguinte acesso para recalcular manualmente a linha
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos</p> <p>Administrador do sistema para recalcular a linha do tempo de todos os projetos no sistema</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a projetos</p> <p>O administrador do sistema deve recalcular a linha de tempo de todos os projetos no sistema</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Recálculo automático
 
-Por padrão, as linhas do tempo do projeto são automaticamente recalculadas diariamente quando o escopo do projeto é alterado ou todas as noites. O administrador do Workfront determina se as linhas do tempo devem ser calculadas automaticamente todas as noites ou com cada alteração de escopo gerenciando as configurações de Linhas do tempo na área Preferências do projeto da Configuração. Para obter mais informações, consulte [Configurar recálculos de linha do tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Por padrão, as linhas do tempo do projeto são recalculadas automaticamente diariamente quando o escopo do projeto é alterado ou todas as noites. O administrador do Workfront determina se as linhas do tempo devem ser calculadas automaticamente todas as noites ou com cada alteração de escopo gerenciando as configurações de Linhas do Tempo na área Preferências do projeto da Configuração. Para obter mais informações, consulte [Configurar recálculos de linha de tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 >[!NOTE]
 >
->Se a linha do tempo de um projeto for superior a 15 anos, o recálculo automático será desativado para esse projeto. Você só pode selecionar um Tipo de Atualização do Manual para um projeto com mais de 15 anos. Se você alterar as datas do projeto para menos de 15 anos, será necessário recalcular manualmente a linha do tempo uma vez antes de ela ser calculada automaticamente.
+>Se a linha do tempo de um projeto tiver mais de 15 anos, o recálculo automático será desativado para esse projeto. Você só pode selecionar um Tipo de atualização Manual para um projeto com mais de 15 anos. Se você alterar as datas no projeto para menos de 15 anos, será necessário recalcular manualmente a linha do tempo uma vez antes de calculá-la automaticamente.
 
-* [Recálculo automático de linhas do tempo do projeto](#automatic-recalculation-of-project-timelines)
-* [Ações que acionam um recálculo automático de linhas do tempo do projeto](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+* [Recálculo automático das linhas de tempo do projeto](#automatic-recalculation-of-project-timelines)
+* [Ações que acionam um recálculo automático de linhas de tempo do projeto](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
-### Recálculo automático de linhas do tempo do projeto {#automatic-recalculation-of-project-timelines}
+### Recálculo automático de linhas de tempo do projeto {#automatic-recalculation-of-project-timelines}
 
-O Adobe Workfront recalcula as linhas do tempo diariamente apenas para projetos em que todas as condições a seguir são atendidas:
+O Adobe Workfront recalcula as linhas do tempo diariamente somente para projetos em que todas as condições a seguir sejam atendidas:
 
-* Ter um status de Atual
-* O Tipo de Atualização do projeto é definido como Automático ou Automático e On Change
+* Têm status Atual
+* O tipo de atualização do projeto está definido como Automático ou Automático e Mediante alteração
 
-   Para obter informações sobre o tipo de Tipo de Atualização do projeto, consulte [Visão geral do Tipo de atualização do projeto](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Para obter informações sobre o tipo de Tipo de Atualização de projeto, consulte [Visão geral do Tipo de Atualização de Projeto](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* Ter uma última data de atualização nos últimos três meses\
-   O administrador do Workfront pode alterar essa funcionalidade padrão, conforme descrito em [Configurar recálculos de linha do tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+* Tem uma data de última atualização nos últimos três meses\
+  O administrador do Workfront pode alterar essa funcionalidade padrão, conforme descrito em [Configurar recálculos de linha do tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* A última data de cálculo da linha do tempo do projeto não está no dia de calendário atual. Isso significa que a última data de cálculo da linha do tempo do projeto é antes de 00:00 do dia atual.
+* A data do último cálculo da linha do tempo do projeto não está no dia atual do calendário. Isso significa que a última data de cálculo da linha do tempo do projeto é anterior às 00:00 do dia atual.
 
 Você pode configurar a frequência com que a linha do tempo do seu projeto é atualizada. Quando a linha do tempo do projeto é atualizada, ela é recalculada com base nas alterações feitas no projeto.
 
@@ -122,7 +122,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-Para obter mais informações, consulte [Selecione o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Para obter informações, consulte [Selecionar o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -145,51 +145,51 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 </div>
 -->
 
-### Ações que acionam um recálculo automático de linhas do tempo do projeto {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
+### Ações que acionam um recálculo automático de linhas de tempo do projeto {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
 
-Várias alterações de escopo na vida de um projeto recalcular automaticamente a linha do tempo do projeto, incluindo as seguintes ações:
+Várias alterações de escopo na vida útil de um projeto recalculam automaticamente a linha do tempo do projeto, incluindo as seguintes ações:
 
-* Atualizando o status da tarefa.
-* Movimentação de uma tarefa para um projeto diferente.
+* Atualizando status da tarefa.
+* Mover uma tarefa para um projeto diferente.
 * Atualizando a Data Planejada ou as Datas de Conclusão Planejadas das tarefas.
-* Atualizar o Tipo de Duração, a Restrição de Tarefa ou o número de destinatários nas tarefas.
-* Atualizando relações do antecessor da tarefa.
-* Adicionar uma aprovação a uma tarefa que também adicione tempo à Data de conclusão planejada da tarefa.\
-   Para obter mais informações sobre configurações de aprovação, consulte [Definir configurações de aprovação global](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+* Atualizar o Tipo de Duração, a Restrição de Tarefa ou o número de atribuídos nas tarefas.
+* Atualizando relações de predecessoras da tarefa.
+* Adicionar uma aprovação a uma tarefa que também adicione horas à Data de conclusão planejada da tarefa.\
+  Para obter mais informações sobre configurações de aprovação, consulte [Definir configurações de aprovação globais](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
 ## Recálculo manual {#manual-recalculation}
 
-Como proprietário do projeto, você pode recalcular manualmente as linhas do tempo de projetos individuais. O administrador do Workfront pode recalcular manualmente todas as linhas do tempo no Workfront.
+Como proprietário de um projeto, você pode recalcular manualmente as linhas do tempo de projetos individuais. O administrador do Workfront pode recalcular manualmente todas as linhas do tempo no Workfront.
 
-* [Recalcular linhas do tempo de projetos individuais ou em massa](#recalculate-timelines-for-individual-projects-or-in-bulk)
-* [Recalcular manualmente as linhas do tempo em massa na caixa Editar projetos](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
+* [Recalcular linhas do tempo para projetos individuais ou em massa](#recalculate-timelines-for-individual-projects-or-in-bulk)
+* [Recalcular manualmente as linhas do tempo em massa na caixa Editar Projetos](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
 * [Recalcular linhas do tempo para todos os projetos no sistema (somente administradores do Workfront)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
 ### Recalcular linhas do tempo de projetos individuais ou em massa {#recalculate-timelines-for-individual-projects-or-in-bulk}
 
 Você pode recalcular a linha do tempo de um projeto no Workfront a partir da página do projeto ou de uma lista de projetos ou relatório.
 
-1. Vá para o projeto para o qual deseja recalcular a linha do tempo e clique no link **Mais** ícone ![](assets/qs-more-menu.png) à esquerda do nome do projeto
+1. Vá para o projeto para o qual deseja recalcular a linha do tempo e clique no ícone ![](assets/qs-more-menu.png) de **Mais** à esquerda do nome do projeto
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no botão **Mais** ícone ![](assets/qs-more-menu.png) na parte superior da lista.
+   Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no ícone ![](assets/qs-more-menu.png) de **Mais** na parte superior da lista.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
-   >Dependendo da complexidade de seus projetos, recomendamos não selecionar um grande número de projetos ao recalcular suas linhas do tempo em massa para garantir desempenho ideal. Algumas coisas que podem tornar um projeto muito complexo podem ser várias dependências ou atribuições, ou um grande número de campos personalizados.
+   >Dependendo da complexidade de seus projetos, recomendamos não selecionar um grande número de projetos ao recalcular suas linhas do tempo em massa para garantir o desempenho ideal. Alguns itens que podem tornar um projeto muito complexo podem ser várias dependências ou atribuições, ou um grande número de campos personalizados.
 
-1. Clique em **Recalcular Linha do Tempo**.
+1. Clique em **Recalcular Linha do Tempo**.
 
-   Depois que a linha do tempo é recalculada, você vê uma mensagem indicando que o recálculo foi bem-sucedido.
+   Após recalcular a linha do tempo, você verá uma mensagem indicando que o recálculo foi bem-sucedido.
 
    >[!TIP]
    >
-   >Antes de concluir o recálculo da linha do tempo, algumas datas planejadas ou projetadas podem ser exibidas como esmaecidas. Isso significa que o recálculo ainda não foi concluído e que as datas estão sujeitas a alterações.
+   >Antes da conclusão do recálculo do cronograma, algumas datas planejadas ou projetadas podem ser exibidas esmaecidas. Isso significa que o recálculo ainda não foi concluído e as datas estão sujeitas a alterações.
 
 ### Recalcular manualmente as linhas do tempo em massa na caixa Editar projetos {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
 
@@ -197,19 +197,19 @@ Você pode recalcular manualmente as linhas do tempo de vários projetos editand
 
 >[!TIP]
 >
->Dependendo da complexidade de seus projetos, recomendamos não selecionar um grande número de projetos ao editá-los em massa para garantir um desempenho ideal. Algumas coisas que podem tornar um projeto muito complexo podem ser várias dependências ou atribuições ou um grande número de campos personalizados.
+>Dependendo da complexidade de seus projetos, recomendamos não selecionar um grande número de projetos ao editá-los em massa para garantir o desempenho ideal. Alguns itens que podem tornar um projeto muito complexo podem ser várias dependências ou atribuições ou um grande número de campos personalizados.
 
-1. Acesse uma lista de projetos.
+1. Ir para uma lista de projetos.
 1. Selecione vários projetos na lista e clique em **Editar**.
-1. Clique em **Configurações**, em seguida selecione **Recalcular Linhas do Tempo**.
+1. Clique em **Configurações** e selecione **Recalcular Linhas de Tempo**.
 
 1. Clique em **Salvar alterações**.
 
 ### Recalcular linhas do tempo para todos os projetos no sistema (somente administradores do Workfront) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
-Os administradores do Workfront podem executar o diagnóstico Recalcular linha do tempo para recalcular imediatamente todas as linhas do tempo no sistema Workfront. Isso permite que todos os Gerentes de projeto vejam a influência das alterações externas imediatamente nas datas planejadas e projetadas.
+Os administradores do Workfront podem executar o diagnóstico Recalcular linha do tempo para recalcular imediatamente todas as linhas do tempo no sistema Workfront. Isso permite que todos os gerentes de projeto vejam a influência das alterações externas imediatamente nas datas planejadas e projetadas.
 
-Para obter mais informações sobre o recálculo de linhas do tempo para todo o site do Workfront, consulte a seção &quot;Recalcular linhas do tempo para toda a instância do Workfront&quot; em [Configurar recálculos de linha do tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Para obter mais informações sobre como recalcular linhas do tempo para todo o site do Workfront, consulte a seção &quot;Recalcular linhas do tempo para toda a instância do Workfront&quot; em [Configurar recálculos de linha do tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

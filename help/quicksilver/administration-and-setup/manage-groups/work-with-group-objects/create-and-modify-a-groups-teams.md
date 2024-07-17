@@ -23,7 +23,7 @@ Se houver algum grupo acima do seu, os administradores também poderão fazer es
 
 Para obter informações sobre como os usuários com uma licença de Plano podem criar uma equipe, consulte [Criar uma equipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Para obter informações sobre como um administrador do Workfront pode criar uma equipe, consulte [Crie uma equipe na área Configuração](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Para obter informações sobre como um administrador do Workfront pode criar uma equipe, consulte [Criar uma equipe da área Instalação](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Requisitos de acesso
 
@@ -35,7 +35,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -44,11 +44,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Exibir, trabalhar com e criar equipes para o seu grupo na área Grupos
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
@@ -57,7 +57,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 1. Siga um destes procedimentos:
 
-   * **Adicionar uma equipe**: Clique **Nova equipe**, use as seguintes opções para configurá-lo:
+   * **Adicionar uma equipe**: clique em **Nova Equipe** e use as seguintes opções para configurá-la:
 
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
@@ -71,7 +71,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        </tr> 
        <tr> 
        <td role="rowheader">Grupo</td> 
-       <td> <p> O sistema preenche o campo Grupo da nova equipe com o grupo que você está visualizando. Se quiser associar um grupo diferente, comece digitando o nome do grupo, em seguida selecione o nome quando ele aparecer.</p> <p>Você pode verificar se está associando o grupo certo com a equipe, passando o cursor do mouse sobre ele e clicando no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p><b>NOTA</b>: quando uma equipe é atribuída a um grupo ou subgrupo, os administradores desse grupo ou subgrupo podem gerenciar a equipe sem ser membros dele. Os administradores de grupo podem ir para a área Equipes no menu principal e clicar na seta Trocar equipes <img src="assets/switch-team-icon.png" alt="Ícone Trocar equipe"> para listar todas as equipes atribuídas aos grupos que eles gerenciam.</p> </td> 
+       <td> <p> O sistema preenche o campo Grupo da nova equipe com o grupo que você está visualizando. Se quiser associar um grupo diferente, comece digitando o nome do grupo, em seguida selecione o nome quando ele aparecer.</p> <p>Você pode verificar se está associando o grupo correto à equipe, passando o cursor do mouse sobre ele e clicando no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p><b>OBSERVAÇÃO</b>: quando uma equipe é atribuída a um grupo ou subgrupo, qualquer administrador desse grupo ou subgrupo pode gerenciar a equipe sem ser membro dele. Os administradores de grupo podem ir para a área Equipes no menu principal e clicar na seta Trocar equipes <img src="assets/switch-team-icon.png" alt="Ícone Trocar equipe"> para listar todas as equipes atribuídas aos grupos que eles gerenciam.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Membros da Equipe</td> 
@@ -96,7 +96,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       </tbody> 
      </table>
 
-   * **Editar equipes**: Selecione pelo menos um grupo, clique em **o** Ícone Editar ![](assets/edit-icon.png), use as seguintes opções para configurá-lo:
+   * **Editar equipes**: selecione pelo menos uma equipe, clique em **o** ícone Editar ![](assets/edit-icon.png) e use as seguintes opções para configurá-la:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -108,7 +108,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        </tr> 
        <tr> 
        <td role="rowheader">Grupo</td> 
-       <td> <p>Associar a equipe a um grupo. Comece digitando o nome do grupo e selecione o nome quando ele aparecer.</p> <p>Você pode verificar se está associando o grupo certo com a equipe, passando o cursor do mouse sobre ele e clicando no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p><b>NOTA</b>: quando uma equipe é atribuída a um grupo ou subgrupo, os administradores desse grupo ou subgrupo podem gerenciar a equipe sem ser membros dele. Os administradores de grupo podem ir para a área Equipes no menu principal e clicar na seta Trocar equipes <img src="assets/switch-team-icon.png" alt="Ícone Trocar equipe"> para listar todas as equipes atribuídas aos grupos que eles gerenciam.</p> </td> 
+       <td> <p>Associar a equipe a um grupo. Comece digitando o nome do grupo e selecione o nome quando ele aparecer.</p> <p>Você pode verificar se está associando o grupo correto à equipe, passando o cursor do mouse sobre ele e clicando no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p><b>OBSERVAÇÃO</b>: quando uma equipe é atribuída a um grupo ou subgrupo, qualquer administrador desse grupo ou subgrupo pode gerenciar a equipe sem ser membro dele. Os administradores de grupo podem ir para a área Equipes no menu principal e clicar na seta Trocar equipes <img src="assets/switch-team-icon.png" alt="Ícone Trocar equipe"> para listar todas as equipes atribuídas aos grupos que eles gerenciam.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Proprietário</td> 
@@ -116,7 +116,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        </tr> 
        <tr> 
        <td role="rowheader">Membros da Equipe</td> 
-       <td> <p>Adicionar e membros da equipe. Comece a digitar o nome de um usuário e selecione o nome quando ele for exibido. Repita esse processo para adicionar vários usuários à equipe.</p> <p><b>DICA</b>: não há limite para quantos usuários você pode adicionar a uma equipe. No entanto, recomendamos não ter um número excessivamente grande de usuários em uma equipe, pois o gerenciamento de trabalho da equipe pode se tornar muito complexo.</p> </td> 
+       <td> <p>Adicionar e membros da equipe. Comece a digitar o nome de um usuário e selecione o nome quando ele for exibido. Repita esse processo para adicionar vários usuários à equipe.</p> <p><b>DICA</b>: não há limite para o número de usuários que você pode adicionar a uma equipe. No entanto, recomendamos não ter um número excessivamente grande de usuários em uma equipe, pois o gerenciamento de trabalho da equipe pode se tornar muito complexo.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Descrição</td> 
@@ -124,15 +124,15 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        </tr> 
        <tr> 
        <td role="rowheader">Modelo de Layout</td> 
-       <td> <p>Comece a digitar o nome do modelo de layout que você deseja que a equipe use e clique nele quando ele aparecer.</p> <p>Quando você designar a equipe com este modelo de layout como a Equipe inicial dos usuários, todos os usuários dessa equipe verão as personalizações neste modelo de layout.<br>Suas configurações individuais de modelo de layout substituirão as configurações do modelo de layout da equipe inicial. </p> </td> 
+       <td> <p>Comece a digitar o nome do modelo de layout que você deseja que a equipe use e clique nele quando ele aparecer.</p> <p>Quando você designar a equipe com este modelo de layout como a Equipe inicial dos usuários, todos os usuários dessa equipe verão as personalizações neste modelo de layout.<br>As configurações de modelo de layout individuais substituirão as configurações do modelo de layout de equipe inicial. </p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Ágil</td> 
-       <td>Especificar se é uma Equipe Ágil. Para obter informações sobre equipes ágeis e como gerenciar o trabalho, consulte <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe ágil</a>.</td> 
+       <td>Especificar se é uma Equipe Ágil. Para obter informações sobre equipes ágeis e como gerenciar seu trabalho, consulte <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe ágil</a>.</td> 
        </tr> 
        <tr> 
        <td role="rowheader">Trabalhar na tarefa</td> 
-       <td> <p>Altere o botão Trabalhar na tarefa para um botão Iniciar. Quando um usuário clica em Iniciar, o status do item é atualizado automaticamente.</p> <p>Para obter mais informações sobre como configurar o botão Iniciar, consulte <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão Trabalhar na tarefa por um botão Iniciar</a>.</p> </td> 
+       <td> <p>Altere o botão Trabalhar na tarefa para um botão Iniciar. Quando um usuário clica em Iniciar, o status do item é atualizado automaticamente.</p> <p>Para obter mais informações sobre como configurar o botão Iniciar, consulte <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a>.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Botão Concluído</td> 
@@ -145,5 +145,5 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       </tbody> 
      </table>
 
-   * **Excluir equipes**: Selecione pelo menos uma equipe e clique no ícone Excluir ![](assets/delete.png).
-   * **Exportar a lista de equipes**: Clique **Exportar** ![](assets/export.png), em seguida, selecione o formato de arquivo desejado para a lista exportada.
+   * **Excluir equipes**: selecione pelo menos uma equipe e clique no ícone Excluir ![](assets/delete.png).
+   * **Exportar a lista de equipes**: clique em **Exportar** ![](assets/export.png) e selecione o formato de arquivo desejado para a lista exportada.

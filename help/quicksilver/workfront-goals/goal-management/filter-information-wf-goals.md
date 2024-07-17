@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Filtrar informações nos Adobe Workfront Goals
 
-Você pode visualizar metas que você ou qualquer outra pessoa adicionou nas Metas do Adobe Workfront. Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). Ao exibir metas, você pode filtrar informações no Workfront Goals para exibir apenas as metas que são importantes para você.
+Você pode visualizar metas que você ou qualquer outra pessoa adicionou nas Metas do Adobe Workfront. Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md). Ao exibir metas, você pode filtrar informações no Workfront Goals para exibir apenas as metas que são importantes para você.
 
 ## Requisitos de acesso
 
@@ -44,7 +44,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -91,7 +91,7 @@ Você pode localizar e filtrar metas nas seguintes seções da área Metas no Wo
 * Gráficos
 * Alinhamento de metas
 
-Para obter informações sobre as seções da área Metas, consulte [Visão geral das seções de Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Para obter informações sobre as seções da área Metas, consulte [Visão Geral das seções de Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
@@ -123,7 +123,7 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
 
 1. Vá para as Metas do Workfront.
 
-   Para obter informações sobre como acessar o Workfront Goals, consulte [Acessar e abrir metas no Adobe Workfront Goals](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Para obter informações sobre como acessar as Metas do Workfront, consulte [Metas de acesso e abertas no Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    Por padrão, a seção Lista de metas é exibida.
 
@@ -131,7 +131,7 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
 
    ![](assets/filter-icon-and-label.png)
 
-   Por padrão, o Workfront aplica o **Todos** filtro que exibe todas as metas no sistema.
+   Por padrão, o Workfront aplica o filtro **Todos**, que exibe todas as metas do sistema.
 
    >[!TIP]
    >
@@ -173,9 +173,9 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
       </tbody> 
      </table>
 
-   * Passe o mouse sobre o nome de um filtro, em seguida, clique no **Editar** ícone ![](assets/edit-icon.png) ao lado do nome para personalizá-lo e adicionar nomes específicos de usuários, equipes, grupos ou o nome de sua organização, em seguida, selecione-o quando eles aparecerem na lista.
+   * Passe o cursor do mouse sobre o nome de um filtro, em seguida, clique no ícone **Editar** ![](assets/edit-icon.png) ao lado do nome do filtro para personalizá-lo e adicionar nomes específicos de usuários, equipes, grupos ou o nome de sua organização. Em seguida, selecione-o quando eles aparecerem na lista.
 
-   * Clique em **Novo Filtro** para criar um novo filtro, selecione uma das seguintes opções para personalizar o novo filtro:
+   * Clique em **Novo filtro** para criar um novo filtro e, em seguida, selecione uma das seguintes opções para personalizar o novo filtro:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -208,9 +208,9 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
         <td role="rowheader">Proprietário</td> 
         <td> <p>Comece digitando o nome de um proprietário e, em seguida, selecione-o quando ele aparecer na lista. </p> <p>É possível digitar os nomes de usuários, equipes, grupos ou o nome de sua organização, ou você pode selecionar a partir de opções predefinidas. </p> <p>As opções de filtro predefinidas a seguir sempre se referem ao usuário que está conectado no momento: </p> 
          <ul> 
-          <li> <p><strong>Eu</strong>: exibe as metas nas quais você é o proprietário.</p> </li> 
-          <li> <p><strong>Minha equipe inicial</strong> e <strong>Todas as minhas equipes</strong>: exibe as metas nas quais sua Equipe inicial ou qualquer uma de suas equipes é designada como proprietária. </p> <p>Dica: nenhuma meta é exibida quando você não está atribuído a nenhuma equipe. </p> </li> 
-          <li> <p><strong>Meu Grupo Padrão</strong> e <strong>Todos os Meus Grupos</strong>: exibe as metas nas quais o Grupo inicial ou qualquer um dos grupos é designado como proprietário.</p> </li> 
+          <li> <p><strong>Eu</strong>: exibe metas nas quais você é o proprietário.</p> </li> 
+          <li> <p><strong>Minha Equipe Doméstica</strong> e <strong>Todas as Minhas Equipes</strong>: exibe as metas nas quais sua Equipe Doméstica ou qualquer uma de suas equipes é designada como proprietária. </p> <p>Dica: nenhuma meta é exibida quando você não está atribuído a nenhuma equipe. </p> </li> 
+          <li> <p><strong>Meu Grupo Doméstico</strong> e <strong>Todos os Meus Grupos</strong>: Exibe metas nas quais seu Grupo Doméstico ou qualquer um dos seus grupos são designados como proprietários.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
@@ -219,7 +219,7 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
 1. (Opcional) Clique em **Redefinir** no canto inferior direito da caixa de filtro para limpar todos os campos selecionados e começar a criar o filtro do zero.
 1. (Opcional) Clique em **Aplicar** para aplicar o filtro sem salvar.
 
-   O filtro é exibido no campo **Não salvo** área do construtor de filtros como **Novo Filtro**.
+   O filtro é exibido na área **Não salvo** do construtor de filtros como **Novo Filtro**.
 
    Não é possível renomear um filtro não salvo.
 
@@ -229,26 +229,26 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
    >
    >Você pode ter somente um Novo Filtro não salvo de cada vez.
 
-1. Clique em **Salvar** para salvar o filtro e usá-lo posteriormente, adicione um nome para o filtro na **Adicionar nome do filtro** e clique em **Concluído**.
+1. Clique em **Salvar** para salvar o filtro e usá-lo depois. Em seguida, adicione um nome para o filtro no campo **Adicionar nome do filtro** e clique em **Concluído**.
 
-   Isso salva o filtro na variável **Salvo** seção do construtor de filtros. Você pode usar esse filtro no futuro.
+   Isso salva o filtro na seção **Salvos** do construtor de filtros. Você pode usar esse filtro no futuro.
 
    O último filtro salvo e aplicado é exibido por padrão na próxima vez que você fizer logon novamente no Workfront
 
-1. (Opcional) Clique no link **seta para a esquerda** ao lado de **Novo Filtro** para sair do construtor de filtros e retornar à lista de filtros.
-1. (Opcional) Passe o mouse sobre o nome de um filtro personalizado, clique no **Mais** e clique em **Excluir**, depois **Excluir**. Isso exclui o filtro e não é possível recuperá-lo.
+1. (Opcional) Clique na **seta apontando para a esquerda** ao lado de **Novo Filtro** para sair do construtor de filtros e retornar à lista de filtros.
+1. (Opcional) Passe o mouse sobre o nome de um filtro personalizado, clique no menu **Mais** e clique em **Excluir** e depois em **Excluir**. Isso exclui o filtro e não é possível recuperá-lo.
 
    >[!TIP]
    >
    >Não é possível excluir nenhum dos filtros predefinidos.
 
-1. Clique em **Ícone X** no canto superior direito do construtor de filtros, para fechar o construtor de filtros.
+1. Clique no ícone **X** no canto superior direito do construtor de filtros para fechar o construtor de filtros.
 
    O nome do filtro aplicado no momento é exibido à direita do ícone Filter, no canto superior direito da lista de metas.
 
    A lista de metas é filtrada pelos seus critérios de filtro.
 
-1. (Opcional e condicional) Ao exibir metas na seção Alinhamento de metas, clique em **Mostre-lhes** se quiser exibir as metas filtradas.
+1. (Opcional e condicional) Ao exibir metas na seção Alinhamento de metas, clique em **Mostrar** se desejar exibir as metas filtradas.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 

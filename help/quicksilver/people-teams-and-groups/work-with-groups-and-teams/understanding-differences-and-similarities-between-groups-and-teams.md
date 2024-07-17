@@ -10,11 +10,11 @@ exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Grupos versus equipes no [!DNL Adobe Workfront]
+# Grupos versus equipes em [!DNL Adobe Workfront]
 
 <!-- Audited: 12/2023 -->
 
@@ -67,5 +67,5 @@ A tabela a seguir ilustra as diferenças e semelhanças entre grupos e equipes:
 | Atribuir modelos de layout | ✓ µ | ✓ µ |
 | Qualquer usuário com uma licença do Plano pode atribuí-la a outro usuário |  | ✓ µ |
 | Personalizar status | ✓ µ |  |
-| Personalize o [!UICONTROL Concluído] botão |  | ✓ µ |
+| Personalizar o botão [!UICONTROL Concluído] |  | ✓ µ |
 | Rastrear licenças | ✓ µ |  |

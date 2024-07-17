@@ -19,7 +19,7 @@ A visibilidade dos objetos no Adobe Workfront depende do seu acesso a esse tipo 
 
 >[!NOTE]
 >
->Este artigo descreve como solicitar permissões para todos os objetos, exceto para planos no Planejador de cenários do Adobe Workfront. Para obter informações sobre como solicitar acesso aos planos, consulte [Solicitar acesso a um plano no Planejador de cenários](../../scenario-planner/request-access-to-plan.md). Isso requer uma licença adicional.
+>Este artigo descreve como solicitar permissões para todos os objetos, exceto para planos no Planejador de cenários do Adobe Workfront. Para obter informações sobre como solicitar acesso aos planos, consulte [Solicitar acesso a um plano no Planejador de Cenários](../../scenario-planner/request-access-to-plan.md). Isso requer uma licença adicional.
 
 O administrador do Workfront configura o acesso a um tipo de objeto no seu nível de acesso. Para obter mais informações, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -82,13 +82,13 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Entenda as regras de compartilhamento padrão
 
 As seguintes regras de compartilhamento padrão entram em vigor automaticamente, pois são configuradas como opções padrão no sistema do Workfront.
 
-* Os usuários atribuídos a uma tarefa ou um problema têm acesso ao Contribute.
+* Os usuários atribuídos a uma tarefa ou um problema têm acesso ao Contribute a ela.
 * Os gerentes de projeto, Portfolio e programa têm acesso de gerenciamento nos objetos que possuem.
 * Os usuários incluídos em uma conversa têm acesso de Visualização no objeto em que a conversa acontece.
 * Os usuários atribuídos como aprovadores têm acesso de Visualização no objeto aguardando aprovação.
@@ -108,16 +108,16 @@ Se você ainda não tiver acesso a um objeto e navegar até ele a partir de um l
 
 Para solicitar acesso inicial a um objeto:
 
-1. Clique em **Solicitar acesso**.\
-   A variável **Solicitar acesso** é exibida.
+1. Clique em **Solicitar Acesso**.\
+   A caixa de diálogo **Solicitar Acesso** é exibida.
 
 1. (Condicional) Se mais de um usuário tiver o acesso apropriado para conceder a você acesso adicional, uma seta suspensa será exibida ao lado do nome do usuário.
 1. Selecione na lista suspensa o usuário que receberá sua solicitação de acesso.\
    Somente 10 usuários são exibidos na lista suspensa. A lista é classificada em ordem alfabética.\
-   Para obter mais informações sobre a ordem dos usuários listados nesse menu suspenso, consulte  [Hierarquia dos menus suspensos &quot;Solicitar acesso&quot; e &quot;Solicitar mais acesso&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Para obter mais informações sobre a ordem dos usuários listados nesse menu suspenso, consulte [Hierarquia dos menus suspensos &quot;Solicitar Acesso&quot; e &quot;Solicitar Mais Acesso&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Na lista suspensa, selecione o tipo de acesso que você está solicitando.
-1. (Opcional) Na **P.S.** especifique uma observação para o usuário sobre por que você precisa de acesso adicional.
+1. (Opcional) No campo **P.S.**, especifique uma observação para o usuário sobre por que você precisa de acesso adicional.
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,18 +132,18 @@ Para solicitar acesso adicional a um objeto ao qual você já tem acesso limitad
 
 1. Vá para o objeto para o qual deseja solicitar acesso adicional.
 
-1. Clique em **Mais** à direita do nome do projeto e clique em **Solicitar mais acesso**.
+1. Clique no menu **Mais** à direita do nome do projeto e em **Solicitar Mais Acesso**.
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. (Condicional) Se mais de um usuário tiver o acesso apropriado para conceder a você acesso adicional, uma seta suspensa será exibida ao lado do nome do usuário.
 1. Selecione na lista suspensa o usuário que receberá sua solicitação de acesso.\
    Somente 10 usuários são exibidos na lista suspensa. A lista é classificada em ordem alfabética.\
-   Para obter mais informações sobre a ordem dos usuários listados nesse menu suspenso, consulte  [Hierarquia dos menus suspensos &quot;Solicitar acesso&quot; e &quot;Solicitar mais acesso&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Para obter mais informações sobre a ordem dos usuários listados nesse menu suspenso, consulte [Hierarquia dos menus suspensos &quot;Solicitar Acesso&quot; e &quot;Solicitar Mais Acesso&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Na lista suspensa, selecione o nível de acesso que você está solicitando.
-1. (Opcional) Na **P.S.** especifique uma observação sobre por que você precisa de acesso adicional.
-1. Clique em **Solicitar acesso**.\
+1. (Opcional) No campo **PS.**, especifique uma observação sobre por que você precisa de acesso adicional.
+1. Clique em **Solicitar Acesso**.\
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarquia dos menus suspensos &quot;Solicitar acesso&quot; e &quot;Solicitar mais acesso&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
@@ -217,7 +217,7 @@ O proprietário de um objeto é definido da seguinte maneira:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Metas</td> 
-   <td> <p>O proprietário é o usuário designado como o Proprietário. Eles podem não ser a mesma pessoa que o criador da meta. </p> <p>Isso requer uma licença adicional. </p> <p>Para obter informações sobre o Workfront Goals, consulte <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Visão geral dos objetivos do Adobe Workfront</a>. </p> </td> 
+   <td> <p>O proprietário é o usuário designado como o Proprietário. Eles podem não ser a mesma pessoa que o criador da meta. </p> <p>Isso requer uma licença adicional. </p> <p>Para obter informações sobre as Metas do Workfront, consulte <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Visão geral das Metas do Adobe Workfront</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

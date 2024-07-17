@@ -53,7 +53,7 @@ Para obter mais informações sobre como criar relatórios usando o modo de text
 
 * Há um conjunto de regras e uma sintaxe exclusiva que você deve usar para criar relatórios e listas no modo de texto com êxito. Familiarize-se com a sintaxe do Workfront para o modo de texto antes de começar.
 
-  Para obter informações sobre sintaxe e regras para usar o modo de texto, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Para obter informações sobre a sintaxe e as regras de uso do modo de texto, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Depois de personalizar um elemento de relatório no modo de texto, talvez você não consiga voltar para o modo padrão (em uma exibição) ou o código do elemento criado pode ser excluído (em filtros e agrupamentos). Isso ocorre porque nem todos os campos compatíveis com o modo de texto são compatíveis com o modo padrão.
 
@@ -74,7 +74,7 @@ Para obter mais informações sobre a interface de modo padrão e aprender a cri
 
 O modo de texto permite que você crie exibições, filtros, agrupamentos e prompts mais complexos, permitindo que você use campos que não estão disponíveis na interface do modo padrão. No modo de texto Workfront, há uma coleção de instruções codificadas que indicam quais objetos você deseja exibir em um relatório ou uma lista.
 
-Para obter uma lista completa de todos os campos reportáveis, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+Para obter uma lista completa de todos os campos reportáveis, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -90,19 +90,19 @@ Para obter informações sobre como usar o modo de texto em exibições, filtros
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see what articles these sections are linked to and edit those articles to link to the individual ones)</p>
 -->
 
-* [Editar uma visualização usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [Editar uma exibição usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Modo de edição de texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 Solicitações personalizadas só podem ser editadas no modo texto. Você pode acessar prompts somente a partir de um relatório.
 
-Para obter informações sobre como acessar a interface do modo texto para prompts personalizados, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Para obter informações sobre como acessar a interface de modo de texto para prompts personalizados, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Motivos comuns para usar o modo de texto {#common-reasons-to-use-text-mode}
 
 Além de criar prompts personalizados que só podem ser configurados usando o modo de texto, recomendamos que você use o Report Builder para criar seus modos de exibição, filtros e agrupamentos. No entanto, há algumas instâncias em que você pode usar o modo de texto para aprimorar seus relatórios e listas.
 
-Para obter mais informações sobre usos comuns do modo de texto, consulte [Visão geral de usos comuns do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obter mais informações sobre usos comuns do modo de texto, consulte [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 
 <!--

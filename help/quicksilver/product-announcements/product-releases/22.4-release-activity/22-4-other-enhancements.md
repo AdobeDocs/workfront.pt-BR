@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Esta página descreve todas as outras melhorias feitas com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte [22.4 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte a [Visão geral da versão 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Adobe Workfront para InDesign
 
 Este plug-in agora está disponível para instalação no InDesign. Ele permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e envie provas para revisão geral sem sair do XD. Vá para o marketplace do Adobe Creative Cloud para baixar o plug-in hoje mesmo.
 
-Para obter mais informações sobre o plug-in, consulte [[!DNL Adobe Workfront] plug-in para [!DNL Creative Cloud] Aplicativos](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Para obter mais informações sobre o plug-in, consulte [[!DNL Adobe Workfront] plug-in para [!DNL Creative Cloud] aplicativos](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[Baixe o Adobe Workfront for InDesign no marketplace hoje](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[Baixe o Adobe Workfront para InDesign no marketplace hoje](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Os administradores também podem [criar um pacote com os plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) do Admin Console e implante para os usuários de maneira gerenciada ou autogerenciada.
+Os administradores também podem [criar um pacote com os plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) do Admin Console e implantar para os usuários de maneira gerenciada ou autogerenciada.
 
 ## Sincronizar metadados de objeto com a integração nativa do Experience Manager Assets
 
@@ -45,7 +45,7 @@ Agora, quando um ativo é enviado pela primeira vez para o Experience Manager As
 
 Anteriormente, somente os dados do projeto principal eram enviados.
 
-Para obter mais informações, consulte [Enviar um documento para o Experience Manager Assets ou o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+Para obter mais informações, consulte [Enviar um documento para a Experience Manager Assets ou o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
 
 ## Descrição expandida da equipe
 

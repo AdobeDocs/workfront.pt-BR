@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Atividade de lançamento do Workfront Proof: semana de 17 de maio de 2021
+# Atividade de lançamento do Workfront Proof: Semana de 17 de maio de 2021
 
 Esta página descreve as alterações feitas no Workfront Proof (aplicativo de prova independente). As alterações descritas aqui não se aplicam à funcionalidade de prova no aplicativo do Adobe Workfront.
 
-## Os menus do perfil do usuário no Workfront Proof agora usam campos de digitação antecipada para procurar usuários
+## Os menus de perfil do usuário no Workfront Proof agora usam campos de digitação antecipada para procurar usuários
 
 >[!NOTE]
 >

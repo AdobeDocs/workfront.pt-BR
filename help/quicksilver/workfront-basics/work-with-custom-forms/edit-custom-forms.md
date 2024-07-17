@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,15 @@ Você deve ter o seguinte:
    <td role="rowheader"> <p>Permissões de objeto</p> </td> 
    <td> 
     <ul> 
-     <li> <p>Permissões do Contribute ou superior no objeto para o qual você deseja editar o formulário personalizado</p> </li> 
-     <li>Visualize as permissões nos campos que deseja editar. Para obter informações sobre compartilhamento de permissões para campos personalizados, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a>.</li> 
+     <li> <p>Permissões do Contribute ou superiores no objeto para o qual você deseja editar o formulário personalizado</p> </li> 
+     <li>Visualize as permissões nos campos que deseja editar. Para obter informações sobre permissões de compartilhamento para campos personalizados, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a>.</li> 
      <li> <p>Editar permissões para as seções no formulário em que os campos que você deseja editar estão localizados</p> </li> 
-    </ul> <p>Para obter informações sobre como solicitar acesso adicional para objetos, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+    </ul> <p>Para obter informações sobre como solicitar acesso adicional para objetos, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -61,7 +61,7 @@ Você deve ter o seguinte:
 
 ## Editar informações em um formulário personalizado
 
-A edição de informações em um formulário personalizado anexado a um objeto é idêntica para todos os objetos. Para obter informações sobre quais objetos podem ter um formulário personalizado, consulte [Visão geral de formulários personalizados](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+A edição de informações em um formulário personalizado anexado a um objeto é idêntica para todos os objetos. Para obter informações sobre quais objetos podem ter um formulário personalizado, consulte [Visão geral dos formulários personalizados](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Vá para um objeto para o qual deseja editar informações no formulário personalizado.
 1. Clique em **`<Object type>`Detalhes** no painel esquerdo.
@@ -77,7 +77,7 @@ A edição de informações em um formulário personalizado anexado a um objeto 
 
    Ou
 
-   Se nenhuma informação tiver sido inserida ainda no formulário, clique em **Adicionar+** para qualquer campo ao qual você tenha acesso e comece a inserir informações.
+   Se nenhuma informação tiver sido inserida ainda no formulário, clique em **Adicionar+** para os campos aos quais você tem acesso e comece a inserir informações.
 
    ![](assets/plus-add-to-edit-info-350x180.png)
 
@@ -101,7 +101,7 @@ A edição de informações em um formulário personalizado anexado a um objeto 
    >
    >![](assets/nwe-required-custom-field.png)
 
-   Quando alguém altera dados em outro objeto referenciado por campos personalizados calculados em seu objeto, as alterações não são refletidas automaticamente no objeto. Para obter informações sobre a atualização manual de todos os campos personalizados calculados no objeto, consulte [Recalcular todos os campos personalizados calculados para um objeto](#recalculate-all-calculated-custom-fields-for-an-object) neste artigo.
+   Quando alguém altera dados em outro objeto referenciado por campos personalizados calculados em seu objeto, as alterações não são refletidas automaticamente no objeto. Para obter informações sobre como atualizar manualmente todos os campos personalizados calculados em seu objeto, consulte [Recalcular todos os campos personalizados calculados para um objeto](#recalculate-all-calculated-custom-fields-for-an-object) neste artigo.
 
    Quando campos dependentes da página são modificados, os campos calculados no formulário personalizado são recalculados dinamicamente em tempo real. Você pode ver o novo valor do campo calculado sem salvar o formulário, mas ele não é realmente aplicado ao formulário e ao objeto até que você salve as alterações. Isso se aplica aos campos calculados em formulários padrão, bem como formulários personalizados.
 
@@ -110,7 +110,7 @@ A edição de informações em um formulário personalizado anexado a um objeto 
 ## Recalcular todos os campos personalizados calculados para um objeto  {#recalculate-all-calculated-custom-fields-for-an-object}
 
 1. Vá para a página principal do objeto cujos campos personalizados você deseja recalcular.
-1. Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome do objeto e, em seguida, clique em **Recalcular Expressões**.
+1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do objeto e clique em **Recalcular Expressões**.
 
    Isso recalcula todos os campos personalizados no formulário do objeto.
 
@@ -124,8 +124,8 @@ Você pode recalcular manualmente os campos personalizados de vários objetos ed
 
 1. Ir para uma lista de objetos que contêm formulários personalizados com campos calculados.
 1. Selecione os objetos cujos campos personalizados calculados você deseja atualizar.
-1. Clique em **Ícone Editar**.
-1. Clique em **Forms personalizado** no menu esquerdo, selecione **Recalcular expressões personalizadas**.
+1. Clique no **ícone Editar**.
+1. Clique em **Forms Personalizado** no menu esquerdo e selecione **Recalcular Expressões Personalizadas**.
 1. Clique em **Salvar** **Alterações**.
 
    O Workfront calcula todos os campos personalizados para todos os objetos selecionados.
@@ -137,7 +137,7 @@ Você pode recalcular manualmente os campos personalizados de vários objetos ed
 >Para recalcular expressões personalizadas em massa de uma lista de projetos:
 >
 >1. Vá para uma lista de projetos ou relatório e selecione um ou vários projetos.
->1. Clique em **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em **Recalcular expressões personalizadas**.
+>1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Recalcular Expressões Personalizadas**.
 >
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >

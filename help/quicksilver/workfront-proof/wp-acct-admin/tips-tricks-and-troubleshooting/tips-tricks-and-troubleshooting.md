@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# Dicas, truques e solução de problemas para [!DNL Workfront Proof] administração da conta
+# Dicas, truques e solução de problemas para a administração da conta do [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Perguntas frequentes [!DNL Workfront Proof] - Migração dos EUA para a EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+* [Perguntas frequentes: [!DNL Workfront Proof] - Migração dos EUA para EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de administrador feitas na versão 23.3. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Possibilitar ciclos de lançamento mais rápidos do Workfront
 
@@ -24,15 +24,15 @@ Para permitir que você receba novos recursos e atualizações de produtos da Wo
 
 Anteriormente, os recursos e a funcionalidade eram lançados em um ciclo trimestral para todos os clientes.
 
-Para obter mais informações, consulte [Ativar ou desativar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+Para obter mais informações, consulte [Habilitar ou desabilitar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Controle em nível de grupo disponível para a preferência de horas e folha de horas &quot;Onde os usuários podem registrar horas&quot;
 
 O administrador do sistema agora pode bloquear e desbloquear a planilha de horas e a preferência de horas &quot;Onde os usuários podem registrar horas&quot;. Quando essa preferência estiver desbloqueada, os administradores de grupo poderão definir as configurações de &quot;Onde os usuários podem registrar horas&quot; separadamente para cada grupo.
 
-Para obter mais informações, consulte [Configurar preferências de horas e planilha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) e [Configurar preferências de horas e planilha de horas para um grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Para obter mais informações, consulte [Configurar preferências de horas e folha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) e [Configurar preferências de horas e folha de horas para um grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3419111/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
 ## Exibir lógica e ignorar indicadores e regras de lógica exibidos no designer de formulário beta
 

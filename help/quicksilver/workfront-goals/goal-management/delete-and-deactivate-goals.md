@@ -54,7 +54,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Nível de acesso</p></td>
@@ -97,7 +97,7 @@ Lembre-se do seguinte ao desativar metas:
   >Não é possível desativar metas em um status de Rascunho.
 
 * O Workfront para de calcular o progresso das metas desativadas.
-* As metas inativas não são mais exibidas em ou são consideradas na seção Gráficos das Metas do Workfront. Para obter informações sobre gráficos de metas do Workfront, consulte [Revise gráficos para entender as tendências de progresso das metas no Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* As metas inativas não são mais exibidas em ou são consideradas na seção Gráficos das Metas do Workfront. Para obter informações sobre gráficos de metas do Workfront, consulte [Revisar gráficos para entender as tendências de progresso das metas no Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -132,7 +132,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e clique em **Metas**.
 
    A lista de metas é exibida.
 
@@ -141,7 +141,7 @@ Deactivating goals differs depending on which environment you use.
 
 1. (Opcional) Modifique seus filtros para exibir somente as metas que estão ativas.
 
-   Para obter informações sobre como filtrar informações no Workfront Goals, consulte [Filtrar informações nos Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
+   Para obter informações sobre como filtrar informações no Workfront Goals, consulte [Informações de filtro no Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 
 1. Clique em uma meta ativa.
 
@@ -149,7 +149,7 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome da meta e clique em **Desativar**.
+1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome da meta e clique em **Desativar**.
 
 1. A meta é desativada e seu status torna-se Inativo.
 
@@ -189,14 +189,14 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Clique no ícone Menu principal ![](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
+1. Clique no ícone Menu Principal ![](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
 
    A lista de metas é exibida.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Clique no nome de uma meta. Isso abre a página de meta.
-1. Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome da meta e clique em **Excluir meta**, depois **Excluir**.
+1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome da meta e clique em **Excluir Meta** e depois em **Excluir**.
 
    A meta e suas atividades e resultados também são excluídos e não podem ser recuperados. Os projetos que foram associados à meta ou às metas secundárias não são excluídos.
 

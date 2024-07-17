@@ -39,22 +39,22 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Etapas passo a passo
 
-1. Comece a criar um relatório acessando o **Menu principal** > **Relatórios**, em seguida, selecione o objeto do relatório.
+1. Comece a criar um relatório indo até o **Menu principal** > **Relatórios** e selecione o objeto do seu relatório.
 
    Ou
 
    Abra um relatório existente e clique em **Ações de Relatório** > **Editar**.
 
-1. Clique em **Configurações do relatório** no canto superior direito do report builder.
+1. Clique em **Configurações do relatório** no canto superior direito do Report Builder.
 1. Defina as seguintes configurações de relatório:
 
    <table style="table-layout:auto"> 
@@ -71,7 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Executar este relatório com direitos de acesso de</td> 
-      <td>Selecione o usuário cujos direitos de acesso você deseja que este relatório use ao exibir para outros usuários. Para obter mais informações sobre como executar um relatório com os direitos de acesso de outro usuário, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Executar e entregar um relatório com direitos de acesso de outro usuário</a>.</td> 
+      <td>Selecione o usuário cujos direitos de acesso você deseja que este relatório use ao exibir para outros usuários. Para obter mais informações sobre como executar um relatório com direitos de acesso de outro usuário, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Executar e entregar um relatório com direitos de acesso de outro usuário</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Quando o relatório for carregado, mostrar a</td> 
@@ -95,7 +95,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Mostra este relatório em um gráfico Gantt por padrão</td> 
-      <td>(Somente Relatório de Projeto e Relatório de Tarefa) Selecione esta opção para habilitar automaticamente a exibição de Gantt quando os usuários exibirem a guia Detalhes neste relatório.<br>Para obter mais informações sobre a exibição do Gráfico de Gantt em relatórios de projeto e relatórios de tarefa, consulte a seção "Exibir informações da tarefa no Gráfico de Gantt da lista de projetos" no artigo <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Exibir informações no Gráfico de Gantt </a>.</td> 
+      <td>(Somente Relatório de Projeto e Relatório de Tarefa) Selecione esta opção para habilitar automaticamente a exibição de Gantt quando os usuários exibirem a guia Detalhes neste relatório.<br>Para obter mais informações sobre como exibir o Gráfico de Gantt em relatórios de projeto e relatórios de tarefa, consulte a seção "Exibir informações de tarefa no Gráfico de Gantt da lista de projetos" no artigo <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Exibir informações no Gráfico de Gantt </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir que a visualização seja alterada no relatório</td> 
@@ -112,16 +112,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </tbody> 
    </table>
 
-1. Clique em **Prompts do relatório** para configurar qualquer prompt para o relatório.\
-   Para obter mais informações sobre como adicionar prompts a um relatório, consulte o artigo [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. Clique em **Prompts do Relatório** para configurar qualquer prompt para o relatório.\
+   Para obter mais informações sobre como adicionar prompts a um relatório, consulte o artigo [Adicionar prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Clique em **Concluído,** e clique em **Salvar + Fechar**.
+1. Clique em **Concluído** e em **Salvar + Fechar**.
 
 ## Informações adicionais
 
 Consulte também:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Introdução a relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [Usar relatórios integrados do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [Introdução aos relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Usar relatórios internos do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

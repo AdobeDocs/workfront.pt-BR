@@ -11,7 +11,7 @@ feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -39,29 +39,29 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para utilizar [Aplicativo Fusion] com [!DNL Workfront Fusion], você deve ter uma conta FTP.
+Para usar o [Aplicativo Fusion] com o [!DNL Workfront Fusion], é necessário ter uma conta FTP.
 
 ## Criar uma conexão em um módulo FTP {#create-a-connection}
 
@@ -97,15 +97,15 @@ Para utilizar [Aplicativo Fusion] com [!DNL Workfront Fusion], você deve ter um
    <td> <p>[!UICONTROL Rejeitar certificados não autorizados]</p> </td> 
    <td> <p>Habilite essa opção para verificar o certificado do servidor FTP. Se a verificação falhar, a conexão não será criada. Para ser aprovado na verificação, o certificado deve atender a um dos seguintes critérios:</p> 
     <ul> 
-     <li>ser assinado por uma Raiz <a href="https://en.wikipedia.org/wiki/Certificate_authority">Autoridade de certificação</a></li> 
-     <li>ser assinada por uma autoridade de certificação intermediária (consulte <a href="https://knowledge.digicert.com/solution/SO16297.html">Como funcionam as cadeias de certificados</a> para obter mais explicações). Nesse caso, todos os certificados intermediários devem ser instalados no servidor FTP.</li> 
+     <li>ser assinado por uma <a href="https://en.wikipedia.org/wiki/Certificate_authority">Autoridade de certificação</a> raiz</li> 
+     <li>ser assinado por uma Autoridade de Certificação Intermediária (consulte, por exemplo, <a href="https://knowledge.digicert.com/solution/SO16297.html">Como funcionam as cadeias de certificados</a> para obter mais explicações). Nesse caso, todos os certificados intermediários devem ser instalados no servidor FTP.</li> 
      <li>ser um Certificado Autoassinado fornecido no campo [!UICONTROL Self-signed certificate] (veja abaixo)</li> </ul>
 
 Se essa opção estiver desativada, o certificado do servidor FTP não será verificado. Recomendamos não desativar a opção, pois ela torna a conexão insegura e representa um sério risco de segurança.</td>
 </tr> 
   <tr> 
    <td> <p>[!UICONTROL Certificado autoassinado]</p> </td> 
-   <td> <p>Clique em <b>[!UICONTROL Extract]</b> botão para abrir a caixa de diálogo de upload.</p> <p>Faça upload do certificado para usar o TLS com seu certificado autoassinado. [!DNL Workfront Fusion] O não retém nem armazena dados fornecidos, como arquivos e senhas. O arquivo e a senha são usados somente para extrair o certificado.</p> </td> 
+   <td> <p>Clique no botão <b>[!UICONTROL Extract]</b> para abrir a caixa de diálogo de carregamento.</p> <p>Faça upload do certificado para usar o TLS com seu certificado autoassinado. [!DNL Workfront Fusion] não retém nem armazena dados que você fornece, como arquivos e senhas. O arquivo e a senha são usados somente para extrair o certificado.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Se essa opção estiver desativada, o certificado do servidor FTP não será ver
 
 #### [!UICONTROL Observar arquivos]
 
-[!UICONTROL Observar arquivos] O é o único módulo de acionador para FTP. Monitora o conteúdo do arquivo da pasta selecionada. O acionador é executado quando um novo arquivo é inserido na pasta especificada.
+[!UICONTROL Arquivos de observação] é o único módulo de acionador para FTP. Monitora o conteúdo do arquivo da pasta selecionada. O acionador é executado quando um novo arquivo é inserido na pasta especificada.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -131,11 +131,11 @@ Se essa opção estiver desativada, o certificado do servidor FTP não será ver
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Pasta]</p> </td> 
-   <td> <p>Selecione a pasta que deseja observar.</p> <p><b>Nota:</b> Somente uma pasta por cenário é permitida. Subpastas são ignoradas.</p> <p><b>Dica:</b> Para rastrear várias pastas, crie um cenário independente para cada uma delas.</p> </td> 
+   <td> <p>Selecione a pasta que deseja observar.</p> <p><b>Observação:</b> somente uma pasta por cenário é permitida. Subpastas são ignoradas.</p> <p><b>Dica:</b> para acompanhar várias pastas, crie um cenário independente para cada uma delas.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Número máximo de arquivos retornados] </td> 
-   <td> <p>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará com durante um ciclo. Se o valor for definido como muito alto, a conexão pode ser interrompida no lado do serviço de terceiros especificado (tempo limite). [!DNL Workfront Fusion] não tem qualquer influência nesta matéria. Recomendamos que você defina um valor mais baixo e defina um valor mais alto para o número máximo de ciclos ou execute o cenário com mais frequência.</p> </td> 
+   <td> <p>Defina o número máximo de resultados com os quais [!DNL Workfront Fusion] trabalhará durante um ciclo. Se o valor for definido como muito alto, a conexão pode ser interrompida no lado do serviço de terceiros especificado (tempo limite). [!DNL Workfront Fusion] não tem nenhuma influência sobre isso. Recomendamos que você defina um valor mais baixo e defina um valor mais alto para o número máximo de ciclos ou execute o cenário com mais frequência.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -254,7 +254,7 @@ Este módulo de ação exclui permanentemente a pasta especificada.
 
 #### [!UICONTROL Obter um arquivo]
 
-Recupera um arquivo do servidor FTP que pode ser processado, por exemplo, carregado na [!DNL Dropbox].
+Recupera um arquivo do servidor FTP que pode ser processado, por exemplo, carregado para o [!DNL Dropbox].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -262,7 +262,7 @@ Recupera um arquivo do servidor FTP que pode ser processado, por exemplo, carreg
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como estabelecer uma conexão com a conta FTP, consulte <a href="#creating-the-ftp-connection" class="MCXref xref">Criação da conexão FTP</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como estabelecer uma conexão com a conta FTP, consulte <a href="#creating-the-ftp-connection" class="MCXref xref">Criando a conexão FTP</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Caminho do arquivo]</td> 
@@ -281,7 +281,7 @@ Recupera informações de arquivos e/ou pastas.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como estabelecer uma conexão com a conta FTP, consulte <a href="#creating-the-ftp-connection" class="MCXref xref">Criação da conexão FTP</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como estabelecer uma conexão com a conta FTP, consulte <a href="#creating-the-ftp-connection" class="MCXref xref">Criando a conexão FTP</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pasta] </td> 
@@ -340,14 +340,14 @@ Faz upload de um arquivo para o servidor FTP.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td>Para obter instruções sobre como estabelecer uma conexão com a conta FTP, consulte <a href="#creating-the-ftp-connection" class="MCXref xref">Criação da conexão FTP</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como estabelecer uma conexão com a conta FTP, consulte <a href="#creating-the-ftp-connection" class="MCXref xref">Criando a conexão FTP</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pasta] </td> 
    <td> <p>Selecione a pasta FTP na qual deseja fazer upload do arquivo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Arquivo de origem] </td> 
+   <td>[!UICONTROL arquivo Source] </td> 
    <td> <p>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</p> </td> 
   </tr> 
   <tr> 

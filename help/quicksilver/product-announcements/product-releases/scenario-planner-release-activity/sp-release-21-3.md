@@ -1,47 +1,47 @@
 ---
-title: Adobe Workfront Scenario Planner com a versão 21.3
-description: Adobe Workfront Scenario Planner com a versão 21.3
+title: Planejador de cenários do Adobe Workfront com a versão 21.3
+description: Planejador de cenários do Adobe Workfront com a versão 21.3
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Scenario Planner com a versão 21.3
+# Planejador de cenários do Adobe Workfront com a versão 21.3
 
-O Adobe Workfront Scenario Planner está disponível somente com a nova experiência do Adobe Workfront.
+O Planejador de cenários do Adobe Workfront está disponível somente com a nova experiência do Adobe Workfront.
 
 Os seguintes recursos estão incluídos na versão 21.3:
 
-## Recursos do projeto de orçamento no Caso de negócios usando informações do Planejador de cenário
+## Estimativa de recursos de projeto no Business Case usando informações do Planejador de cenários
 
 >[!NOTE]
 >
 >Esse recurso está disponível somente na nova experiência do Adobe Workfront.
 
-Para dar àqueles que usam o Planejador de Cenário do Adobe Workfront uma única fonte de verdade ao orçar recursos para seus projetos, introduzimos uma configuração na área de Orçamento de Recursos do Caso de Negócios de um projeto que permite selecionar se deseja usar o Planejador de Recursos ou o Planejador de Cenário para orçar recursos para o projeto. Quando você opta por usar o Planejador de Cenário, as informações de função de cargo da iniciativa vinculada ao projeto são refletidas na área Orçamento de Recursos do Caso de Negócios e calcula o Custo de Mão-de-Obra Orçada do projeto.
+Para dar aos usuários do Planejador de cenários do Adobe Workfront uma única fonte de verdade ao orçar recursos para seus projetos, introduzimos uma configuração na área Orçamento de recursos do Business Case de um projeto que permite selecionar se deseja usar o Planejador de recursos ou o Planejador de cenários para orçar recursos para o projeto. Quando você opta por usar o Planejador de Cenários, as informações de função de trabalho da iniciativa vinculada ao projeto são refletidas na área Orçamento de Recursos do Business Case e calculam o Custo de Mão de obra Orçado do projeto.
 
-Isso está disponível somente na nova experiência do Adobe Workfront para clientes que compraram uma licença do Adobe Workfront Scenario Planner.
+Isso está disponível somente na nova experiência do Adobe Workfront para clientes que compraram uma licença do Planejador de cenários do Adobe Workfront.
 
-Para obter mais informações, consulte [Recursos de orçamento no Caso de negócios usando o Planejador de cenário](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+Para obter mais informações, consulte [Recursos de orçamento no Business Case usando o Planejador de Cenários](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-## Criar pinos e páginas de aterrissagem para o Planejador de Cenário e Metas em um Modelo de Layout
+## Criar marcadores e páginas de aterrissagem para o Planejador de cenários e metas em um modelo de layout
 
 >[!NOTE]
 >
 >Esse recurso está disponível somente na nova experiência do Adobe Workfront.
 
-Para ter consistência ao acessar todas as áreas do Adobe Workfront listadas no Menu principal, adicionamos a capacidade de um administrador de grupo ou Workfront adicionar uma guia fixa e uma landing page para o Planejador de cenário e as áreas de Metas ao atualizar um modelo de layout.
+Para ter consistência ao acessar todas as áreas do Adobe Workfront listadas no Menu principal, adicionamos a capacidade de um administrador de grupo ou do Workfront adicionar uma guia fixada e uma página de aterrissagem para as áreas Planejador de cenários e Metas quando atualizam um modelo de layout.
 
-Antes desse aprimoramento, você podia adicionar o Planejador de cenário e a área Metas somente ao Menu principal usando um modelo de layout.
+Antes dessa melhoria, você poderia adicionar o Planejador de cenários e a área Metas somente ao Menu principal usando um modelo de layout.
 
 Para obter informações, consulte os seguintes artigos:
 
-* [Personalizar a landing page usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [Personalizar páginas fixas usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [Personalizar a página de aterrissagem usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [Personalizar páginas fixadas usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 

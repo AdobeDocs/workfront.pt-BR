@@ -21,13 +21,13 @@ ht-degree: 1%
 
 Esta seção contém as seguintes subseções:
 
-* [Noções básicas de relatórios](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [Noções básicas sobre relatórios](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
 * [Visão geral dos elementos de relatório](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
-* [Usar relatórios integrados](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
+* [Usar relatórios internos](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [Criar e gerenciar relatórios](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [Dados personalizados calculados em relatórios](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-* [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Exemplos personalizados de exibição, filtro e agrupamento: índice do artigo](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Recursos do modo de texto: índice do artigo](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-* [Visão geral do uso de relatórios](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
-* [Calendários: índice de artigos](../../reports-and-dashboards/reports/calendars/calendars.md)
+* [Visão geral do uso do relatório](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+* [Calendários: índice de artigo](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Dicas, truques e solução de problemas para relatórios](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

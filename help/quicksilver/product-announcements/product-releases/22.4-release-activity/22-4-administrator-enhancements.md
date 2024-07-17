@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Administrador feitas com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte [22.4 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte a [Visão geral da versão 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Usar status desbloqueados em um processo de aprovação
 
@@ -41,9 +41,9 @@ O ícone Blueprints aparece no menu principal quando:
 
 Os modelos de layout existentes incluem automaticamente o ícone de blueprints, e os administradores podem remover o ícone dos modelos de layout para restringir a visibilidade do catálogo de blueprints. Os novos modelos de layout criados após a versão 22.4 incluirão o ícone Blueprints na lista Itens ativos.
 
-Para obter mais informações, consulte [Configurar acesso aos blueprints](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
+Para obter mais informações, consulte [Configurar acesso a blueprints](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Personalização do cabeçalho do problema
 
@@ -65,7 +65,7 @@ Antes desta versão, somente os cabeçalhos de projetos e tarefas podiam ser per
 
 Para obter mais informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Personalização do cabeçalho da tarefa
 
@@ -81,9 +81,9 @@ Essa atualização inclui os seguintes aprimoramentos:
 
 Antes desta versão, somente os cabeçalhos do projeto podiam ser personalizados.
 
-Para obter mais informações, consulte [Personalizar cabeçalhos de objetos usando um Modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Para obter mais informações, consulte [Personalizar cabeçalhos de objetos usando um Modelo de Layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Aceitação antecipada de recursos para os recursos mais recentes nos quadros
 
@@ -93,7 +93,7 @@ Somente um administrador do Workfront pode aceitar os recursos anteriores. Quand
 
 Para obter mais informações, consulte [Aceitação antecipada de recursos para painéis do Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## O editor de cálculo de campo de formulário personalizado exibe informações de erro
 
@@ -105,7 +105,7 @@ A edição de cálculos para campos personalizados agora é mais fácil com info
 
 Para obter mais informações, consulte [Adicionar dados calculados a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migração para a experiência unificada do Adobe
 
@@ -123,4 +123,4 @@ A Experiência unificada do Adobe inclui:
 
 Para obter mais informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}

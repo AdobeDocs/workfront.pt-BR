@@ -24,7 +24,7 @@ Para obter mais informações sobre o Frame.io, consulte [Introdução ao Frame.
 
 O administrador do Workfront habilita a integração entre o Workfront e o Frame.io, configurando a conta padrão Frame.io na área Configuração e designando os usuários do Frame.io no Workfront. Isso permite que o coordenador planeje e inicie o trabalho usando projetos do Workfront e workflows formais de revisão e aprovação.
 
-### Configurar a conta padrão do Frame.io [!BADGE Em breve]{type=Informative}
+### Configure a conta padrão do Frame.io [!BADGE Em breve]{type=Informative}
 
 Os administradores do Workfront iniciam a integração do Workfront e do Frame.io adicionando uma conta padrão do Frame.io na área Configuração do Workfront. Uma vez configurada a conta padrão Frame.io, todos os projetos criados no Workfront têm um projeto espelho criado no Frame.io.
 
@@ -50,7 +50,7 @@ Quando um usuário é marcado como um usuário do Frame.io no Workfront e adicio
 * Eles podem enviar ativos do Frame.io para o Workfront para revisão e aprovação formais.
 * Eles podem exibir informações na pasta de sincronização unidirecional do Workfront. [!BADGE Em breve]{type=Informative}
 
-Para obter mais informações, consulte [Configure o [!DNL Workfront] e [!DNL Frame.io] integração](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+Para obter mais informações, consulte [Configurar a [!DNL Workfront] e [!DNL Frame.io] integração](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ![](assets/Frame-enabled-user.png)
 
@@ -62,7 +62,7 @@ Depois que a conta padrão Frame.io é adicionada e os usuários do Frame.io sã
 * **Atribuir usuários do Frame.io a tarefas**: os usuários habilitados com Frame.io são notificados por email quando são atribuídos a uma tarefa do Workfront, sinalizando que há trabalho a ser concluído.
 * **Compartilhar o projeto com usuários do Frame.io**: quando um projeto é compartilhado com usuários habilitados para Frame.io, eles têm acesso ao projeto dentro do Workfront e do Frame.io.
 * **Compartilhar materiais criativos com o Frame.io**: os coordenadores de projetos podem enviar instruções e materiais do Workfront diretamente para o usuário criativo no Frame.io usando uma pasta de projeto de sincronização unidirecional. [!BADGE Em breve]{type=Informative}
-* **Rastrear o progresso da tarefa**: os criadores podem enviar ativos concluídos e marcar tarefas como concluídas, tudo sem sair do Frame.io.
+* **Rastrear o progresso da tarefa**: os criadores podem enviar os ativos concluídos e marcar as tarefas como concluídas, tudo sem sair do Frame.io.
 
 Para obter mais informações, consulte [Criar um projeto conectado ao Frame.io](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
 
@@ -77,9 +77,9 @@ Quando um criativo é adicionado a um projeto conectado, ele pode fazer o seguin
 * Realizar avaliações informais pelos pares
 * Enviar ativos concluídos para a Workfront para revisão e aprovação formais
 * Alterar o status de uma tarefa ou marcá-la como concluída
-* Fazer upload de novas versões e reenviá-las para aprovação <!--do they have to send to frame.io again?-->
+* Carregar novas versões e reenviá-las para aprovação <!--do they have to send to frame.io again?-->
 
-Para obter mais informações sobre o Frame.io, consulte [Fui convidado para colaborar em um projeto](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
+Para obter mais informações sobre o Frame.io, consulte [Fui convidado para colaborar em um Projeto](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
 
 ## Revisar e aprovar ativos
 
@@ -93,8 +93,8 @@ Os coordenadores de projetos podem criar revisões e aprovações únicas ou mod
 
 Os coordenadores de projeto têm a opção de atribuir revisores, aprovadores ou uma combinação de ambos:
 
-* **Revisores** O pode adicionar comentários e marcar ativos. Depois de concluído, eles podem marcar sua revisão como concluída. Não é necessário marcar a revisão como concluída para que o ativo possa avançar no processo de aprovação.
-* **Aprovadores** O pode adicionar comentários e marcar ativos. Eles devem tomar a decisão de mover o processo de aprovação para frente.
+* **Os revisores** podem adicionar comentários e marcar ativos. Depois de concluído, eles podem marcar sua revisão como concluída. Não é necessário marcar a revisão como concluída para que o ativo possa avançar no processo de aprovação.
+* **Aprovadores** podem adicionar comentários e marcar ativos. Eles devem tomar a decisão de mover o processo de aprovação para frente.
 
 
 #### Criar um fluxo de trabalho de revisão e aprovação
@@ -105,7 +105,7 @@ Revisores e aprovadores podem ser adicionados a um fluxo de trabalho de aprovaç
 
   Para obter mais informações, consulte * [Criar uma solicitação de revisão ou aprovação para um ativo Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
-* **Modelos de aprovação**: na área Configuração do Workfront, os coordenadores de projetos podem criar Modelos de aprovação reutilizáveis. Em um modelo, os usuários podem adicionar revisores e aprovadores e especificar um período de conclusão. Quando o modelo de aprovação é aplicado a um ativo, o prazo é calculado a partir do período especificado.
+* **Modelos de aprovação**: na área Configuração do Workfront, os coordenadores de projeto podem criar Modelos de aprovação reutilizáveis. Em um modelo, os usuários podem adicionar revisores e aprovadores e especificar um período de conclusão. Quando o modelo de aprovação é aplicado a um ativo, o prazo é calculado a partir do período especificado.
 
   Depois que um modelo é criado, ele pode ser aplicado a ativos enviados do Frame.io para iniciar o processo formal de revisão e aprovação no Workfront.
 
@@ -136,12 +136,12 @@ Todos os comentários feitos no visualizador Frame.io também são registrados n
 Quando toda a atividade de revisão estiver concluída, os aprovadores deverão tomar uma das seguintes decisões:
 
 * **Aprovar**: o ativo não precisa de alterações e está pronto para uso.
-* **Aprovar com alterações**: o ativo precisa de alterações e está pronto para uso depois de feito. Aprovação adicional não é necessária.
+* **Aprovar com alterações**: o ativo precisa de alterações e está pronto para uso quando for feito. Aprovação adicional não é necessária.
 * **Precisa do trabalho**: o ativo precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o ativo deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Os revisores podem marcar sua revisão como concluída dentro do visualizador Frame.io, mas isso não é necessário para que o ativo avance no processo de aprovação.
 
-Para obter mais informações sobre decisões no Workfront, consulte [Visão geral do status de decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Para obter mais informações sobre decisões no Workfront, consulte [Visão geral do status da decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![](assets/frame-viewer-and-decision.png)
 

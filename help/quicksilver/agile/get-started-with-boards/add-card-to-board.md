@@ -19,7 +19,7 @@ Você pode adicionar rapidamente um cartão a um quadro e atribuí-lo a um membr
 
 >[!NOTE]
 >
->Os cartões ad hoc em um quadro não estão conectados a itens de trabalho no [!DNL Adobe Workfront]. Para obter detalhes sobre cartões conectados, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>Os cartões ad hoc em um quadro não estão conectados aos itens de trabalho em [!DNL Adobe Workfront]. Para obter detalhes sobre cartões conectados, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisitos de acesso
 
@@ -42,23 +42,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Adicione um cartão ad hoc com detalhes completos
 
-Um cartão ad hoc não está conectado a um item de trabalho no [!DNL Adobe Workfront].
+Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Workfront].
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe] Workfront e clique em **[!UICONTROL Quadros]**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito do [!DNL Adobe] Workfront e em **[!UICONTROL Quadros]**.
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique em **[!UICONTROL Adicionar cartão] > [!UICONTROL Novo cartão]**.
 
-   A variável [!UICONTROL Detalhes do cartão] é exibida.
+   A caixa [!UICONTROL Detalhes do cartão] é exibida.
 
    >[!NOTE]
    >
-   >Se você clicar fora do campo Nome, o cartão ad hoc será salvo automaticamente como &quot;Sem título&quot; na parte inferior da coluna mais à esquerda. Para sair sem salvar o cartão, clique em [!UICONTROL **Cancelar**] sem clicar em qualquer outro lugar na [!UICONTROL Detalhes do cartão] caixa.
+   >Se você clicar fora do campo Nome, o cartão ad hoc será salvo automaticamente como &quot;Sem título&quot; na parte inferior da coluna mais à esquerda. Para sair sem salvar o cartão, clique em [!UICONTROL **Cancelar**] sem clicar em outro local na caixa [!UICONTROL Detalhes do Cartão].
 
-1. No **[!UICONTROL Detalhes do cartão]** adicione as seguintes informações:
+1. Na caixa **[!UICONTROL Detalhes do cartão]**, adicione as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -73,12 +73,12 @@ Um cartão ad hoc não está conectado a um item de trabalho no [!DNL Adobe Work
       <td>Uma descrição do cartão. Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Coluna]</strong> </td> 
-      <td>Selecione a coluna do cartão. Se você deixar a variável <strong>[!UICONTROL Coluna]</strong> for deixado em branco, o cartão será colocado na primeira coluna à esquerda do quadro.</td>
+      <td role="rowheader"><strong>[!UICONTROL coluna]</strong> </td> 
+      <td>Selecione a coluna do cartão. Se você deixar o campo <strong>[!UICONTROL Column]</strong> em branco, o cartão será colocado na primeira coluna à esquerda do quadro.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Selecione um status para o cartão. Se você clicar em <strong>[!UICONTROL Marcar como Concluída]</strong> na parte superior do cartão, o status muda automaticamente para [!UICONTROL Concluído].</td> 
+      <td>Selecione um status para o cartão. Se você clicar em <strong>[!UICONTROL Marca Concluída]</strong> na parte superior do cartão, o status será alterado automaticamente para [!UICONTROL Concluída].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Data de vencimento]</strong></td> 
@@ -90,23 +90,23 @@ Um cartão ad hoc não está conectado a um item de trabalho no [!DNL Adobe Work
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Atribuições]</strong> </td> 
-      <td>Para atribuir o cartão, clique em <strong>[!UICONTROL Adicionar Atribuição]</strong> e comece digitando um nome no campo de pesquisa. Em seguida, selecione-o quando ele for exibido na lista de resultados. Você pode adicionar indivíduos e equipes e atribuir mais de uma pessoa ou equipe a um cartão.</td>
+      <td>Para atribuir o cartão, clique em <strong>[!UICONTROL Adicionar Atribuição]</strong> e comece a digitar um nome no campo de pesquisa. Em seguida, selecione-o quando ele for exibido na lista de resultados. Você pode adicionar indivíduos e equipes e atribuir mais de uma pessoa ou equipe a um cartão.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Marcas]</strong></td> 
-      <td>Procure e selecione tags para o cartão. Para obter informações sobre como criar novas tags, consulte <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Adicionar tags</a>.</td> 
+      <td>Procure e selecione tags para o cartão. Para obter informações sobre como criar novas marcas, consulte <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Adicionar marcas</a>.</td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Conexão]</strong> </td>
-      <td>Você pode conectar um cartão ad hoc a um [!DNL Workfront] tarefa ou problema. Para obter mais informações, consulte "Converter um cartão ad hoc em um cartão conectado" no artigo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Usar placas conectadas em placas</a>.</td>
+      <td>Você pode conectar um cartão ad hoc a uma tarefa ou problema do [!DNL Workfront]. Para obter mais informações, consulte "Converter um cartão ad hoc em um cartão conectado" no artigo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Usar cartões conectados em quadros</a>.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Lista de Verificação]</strong> </td> 
-      <td> <p>Clique em <strong>[!UICONTROL Adicionar item de lista de verificação]</strong>. Em seguida, digite o título do item e pressione Enter. Outro item é adicionado automaticamente. Continue inserindo títulos para adicionar mais itens.</p> <p>O contador na parte superior da lista de verificação mostra o número de itens concluídos e o número total de itens.</p> <p>Para obter mais informações sobre os itens da lista de verificação, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gerenciar itens da lista de verificação em cartões</a>.</p> </td> 
+      <td> <p>Clique em <strong>[!UICONTROL Adicionar item de lista de verificação]</strong>. Em seguida, digite o título do item e pressione Enter. Outro item é adicionado automaticamente. Continue inserindo títulos para adicionar mais itens.</p> <p>O contador na parte superior da lista de verificação mostra o número de itens concluídos e o número total de itens.</p> <p>Para obter mais informações sobre itens da lista de verificação, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gerenciar itens da lista de verificação em cartões</a>.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comentários]</strong></td>
-      <td><p>Clique em <strong>[!UICONTROL Novo comentário]</strong> e digite seu comentário. Use as ferramentas de formatação para formatar o texto. (As imagens não estão disponíveis em comentários em cartões ad hoc.) Para marcar uma pessoa ou equipe, use a caixa de pesquisa na parte inferior da área de comentários. O usuário não precisa ser membro do painel.</p><p><strong>NOTA:</strong> No momento, os usuários marcados em comentários em cartões ad hoc não recebem uma notificação por email.
+      <td><p>Clique no campo <strong>[!UICONTROL Novo comentário]</strong> e digite seu comentário. Use as ferramentas de formatação para formatar o texto. (As imagens não estão disponíveis em comentários em cartões ad hoc.) Para marcar uma pessoa ou equipe, use a caixa de pesquisa na parte inferior da área de comentários. O usuário não precisa ser membro do painel.</p><p><strong>OBSERVAÇÃO:</strong> No momento, os usuários marcados em comentários em cartões ad hoc não recebem uma notificação por email.
       </p><p>Clique em <strong>[!UICONTROL Enviar]</strong> para adicionar o comentário ao cartão.</p>
       <p>Para obter mais informações sobre comentários, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Atualizar trabalho</a>.</p></td>
      </tr>
@@ -126,7 +126,7 @@ Um cartão ad hoc não está conectado a um item de trabalho no [!DNL Adobe Work
 Você pode adicionar cartões ad hoc com apenas um título para preencher rapidamente seu quadro.
 
 1. Acesse o quadro ao qual deseja adicionar cartões.
-1. Clique em **[!UICONTROL Adicionar]** ícone ![Adicionar cartão](assets/addicon-spectrum.png) na coluna em que deseja adicionar o cartão.
+1. Clique no ícone **[!UICONTROL Adicionar]** ![Adicionar cartão](assets/addicon-spectrum.png) na coluna em que deseja adicionar o cartão.
 1. Digite o nome do cartão e pressione Enter.
 
    Outra placa é adicionada automaticamente abaixo da nova placa.
@@ -143,8 +143,8 @@ Você pode adicionar cartões ad hoc com apenas um título para preencher rapida
 
    Ou
 
-   Clique em **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
+   Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menus]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
 
-1. No [!UICONTROL Detalhes do cartão] , atualize as informações conforme necessário e clique em **[!UICONTROL Fechar]** para retornar ao painel.
+1. Na caixa [!UICONTROL Detalhes do Cartão], atualize as informações conforme necessário e clique em **[!UICONTROL Fechar]** para retornar ao quadro.
 
    Se você tiver políticas de coluna ativadas para atualizar valores de campo, alterar o status no cartão moverá automaticamente o cartão para a coluna correspondente. Para obter mais informações, consulte &quot;Definir configurações e políticas de coluna&quot; no artigo [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

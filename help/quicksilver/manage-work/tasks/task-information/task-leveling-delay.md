@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Como gerente de projeto ou designado da tarefa, você também pode adicionar um Atraso de Nivelamento em tarefas individuais para levar em conta quaisquer conflitos de recursos ou de programação. Em outras palavras, uma tarefa pode ser agendada com atraso para garantir que, quando o Adobe Workfront nivelar as tarefas, um agendamento mais realista supere os conflitos de recursos.
 
-Adicionar um atraso de nivelamento a uma tarefa ajusta a Data de Conclusão Projetada da tarefa. Para obter informações sobre a data de conclusão projetada, consulte [Visão geral da Data de conclusão projetada para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Adicionar um atraso de nivelamento a uma tarefa ajusta a Data de Conclusão Projetada da tarefa. Para obter informações sobre a data de conclusão projetada, consulte [Visão geral da data de conclusão projetada para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
 ## Requisitos de acesso
 
@@ -43,23 +43,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para Tarefas </p> <p>Contribuir com permissões ou mais altas para projetos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para Tarefas </p> <p>Permissões do Contribute ou superiores para Projetos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Adicionar um Atraso de Nivelamento a uma tarefa
 
 1. Vá para uma tarefa para a qual deseja adicionar um Atraso de Nivelamento.
-1. Clique em **Ícone Mais** à direita do nome da tarefa e clique em **Editar**.
+1. Clique no **ícone Mais** à direita do nome da tarefa e em **Editar**.
 
 1. Clique em **Configurações**.
 
    ![](assets/leveling-delay-edit-task-nwe-350x345.png)
 
-1. Especifique a **Atraso de Nivelamento**, em horas, em seguida, escolha uma unidade de tempo.\
+1. Especifique o **Atraso no Nivelamento**, em horas, e escolha uma unidade de tempo.\
    Este é o momento em que o recurso será atrasado ao iniciar a tarefa devido a conflitos de recursos.
 
    Selecione entre as seguintes opções de unidades de tempo:

@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Abrir uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+* [Abrindo uma Prova no  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
 * [Revisar um fluxo de trabalho no visualizador de provas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
 * [Revisar uma prova simultaneamente com vários revisores](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
 * [Exibir atividade em uma prova no visualizador de provas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
@@ -32,5 +32,5 @@ Esta seção contém os seguintes artigos:
 * [Comparar provas no visualizador de provas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [Exibir versões de prova anteriores no Visualizador de provas da Web](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [Baixar uma prova no visualizador de provas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [Atalhos de teclado no [!DNL Workfront Proof] revisor de provas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [Atalhos de teclado no  [!DNL Workfront Proof] visualizador de provas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [Visualizador de provas herdadas removido](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

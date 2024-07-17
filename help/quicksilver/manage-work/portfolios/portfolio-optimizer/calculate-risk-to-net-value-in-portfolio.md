@@ -1,8 +1,8 @@
 ---
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Calcular o risco para o valor líquido em um portfólio
-description: No Portfolio Otimizer, a variável [!UICONTROL Risco para o valor líquido] O indicador mede o Risco potencial levando em conta o Valor Líquido fornecido por todos os projetos exibidos no Portfolio Otimizer.
+title: Calcular o Risco de Valor Líquido em um portfólio
+description: No Otimizador de Portfolio, o indicador [!UICONTROL Risco para o valor líquido] mede o Risco potencial levando em conta o Valor líquido fornecido por todos os projetos exibidos no Otimizador de Portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
@@ -13,34 +13,34 @@ ht-degree: 0%
 
 ---
 
-# Calcule o [!UICONTROL Risco para o valor líquido] em um portfólio
+# Calcular o [!UICONTROL Risco de Valor Líquido] em um portfólio
 
-No [!UICONTROL Portfolio Otimizer], o [!UICONTROL Risco para o valor líquido] O indicador mede o Risco Potencial tendo em consideração a [!UICONTROL Valor líquido] fornecidos por todos os projetos exibidos no [!UICONTROL Portfolio Otimizer]. 
+No [!UICONTROL Otimizador de Portfolio], o indicador [!UICONTROL Risco para o Valor Líquido] mede o Risco Potencial levando em consideração o [!UICONTROL Valor Líquido] fornecido por todos os projetos exibidos no [!UICONTROL Otimizador de Portfolio]. 
 
-Para obter a maior eficiência no portfólio, você quer ver que a variável [!UICONTROL Risco] estiver baixo e o indicador [!UICONTROL Valor líquido] O indicador está alto. 
+Para obter a maior eficiência do portfólio, verifique se o indicador [!UICONTROL Risco] é baixo e o indicador [!UICONTROL Valor Líquido] é alto. 
 
-O [!UICONTROL Risco] e [!UICONTROL Valor líquido] os indicadores são representados na perspectiva de como se relacionam entre si.
+Os indicadores [!UICONTROL Risco] e [!UICONTROL Valor Líquido] são representados da perspectiva de como se relacionam entre si.
 
-[!DNL Adobe Workfront] calcula o [!UICONTROL Risco] e [!UICONTROL Valor líquido] indicadores que usam as seguintes fórmulas:
+[!DNL Adobe Workfront] calcula os indicadores [!UICONTROL Risco] e [!UICONTROL Valor Líquido] usando as seguintes fórmulas:
 
-* O [!UICONTROL Risco] é calculado pela seguinte fórmula:
+* O indicador [!UICONTROL Risco] é calculado pela seguinte fórmula:
 
-   ```
-   Risk indicator = Risk / (Risk + Net Value)
-   ```
+  ```
+  Risk indicator = Risk / (Risk + Net Value)
+  ```
 
-* O [!DNL Net Value] O indicador é calculado pelas seguintes fórmulas:
+* O indicador [!DNL Net Value] é calculado pelas seguintes fórmulas:
 
-   ```
-   Net Value indicator = 1 - Risk / (Risk + Net Value)
-   ```
+  ```
+  Net Value indicator = 1 - Risk / (Risk + Net Value)
+  ```
 
-   Ou
+  Ou
 
-   ```
-   Net Value indicator = Net Value / (Risk + Net Value)
-   ```
+  ```
+  Net Value indicator = Net Value / (Risk + Net Value)
+  ```
 
 >[!NOTE]
 >
->O [!UICONTROL Risco para o valor líquido] O indicador é calculado com base nos projetos exibidos no [!UICONTROL Portfolio Otimizer], e não em todos os projetos associados ao portfólio. 
+>O indicador [!UICONTROL Risco para o valor líquido] é calculado com base nos projetos exibidos no [!UICONTROL Portfolio Otimizer] e não em todos os projetos associados ao portfólio. 

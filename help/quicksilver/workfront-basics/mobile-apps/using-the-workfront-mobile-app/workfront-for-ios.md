@@ -3,7 +3,7 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront para iOS
-description: A variável [!DNL Adobe Workfront] permite acessar seu trabalho em qualquer dispositivo iOS. Você pode instalar e usar o [!DNL Workfront] aplicativo móvel em telefones e tablets com iOS 10 ou posterior. Uma ferramenta [!DNL Workfront] O aplicativo móvel está disponível para a iPhone e a iPad.
+description: O aplicativo  [!DNL Adobe Workfront]  permite acessar seu trabalho em qualquer dispositivo iOS. Você pode instalar e usar o  [!DNL Workfront] aplicativo móvel em telefones e tablets com o iOS 10 ou posterior. Um aplicativo móvel  [!DNL Workfront]  dedicado está disponível para a iPhone e a iPad.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # [!DNL Adobe Workfront] para [!DNL iOS]
 
-A variável [!DNL Adobe Workfront] permite acessar seu trabalho em qualquer [!DNL iOS] dispositivo. Você pode instalar e usar o [!DNL Workfront] aplicativo móvel em telefones e tablets com iOS 10 ou posterior. Uma ferramenta [!DNL Workfront] O aplicativo móvel está disponível para o [!DNL iPhone] e a variável [!DNL iPad].
+O aplicativo [!DNL Adobe Workfront] permite acessar seu trabalho em qualquer dispositivo [!DNL iOS]. Você pode instalar e usar o aplicativo móvel [!DNL Workfront] em telefones e tablets com iOS 10 ou posterior. Um aplicativo móvel [!DNL Workfront] dedicado está disponível para [!DNL iPhone] e [!DNL iPad].
 
-Para obter informações sobre como fazer logon no aplicativo móvel, consulte a seção [Faça logon no [!UICONTROL Workfront] aplicativo móvel](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) no artigo [Efetue logon no [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Para obter informações sobre como fazer logon no aplicativo móvel, consulte a seção [Fazer logon no aplicativo móvel [!UICONTROL Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) no artigo [Fazer logon no [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Página inicial]
 
-A variável [!UICONTROL Início] permite trabalhar diretamente em tarefas, problemas e aprovações atribuídas a você. No [!UICONTROL Início] área do aplicativo, é possível:
+A área [!UICONTROL Página inicial] permite trabalhar diretamente em tarefas, problemas e aprovações atribuídas a você. Na área [!UICONTROL Página inicial] do aplicativo, você pode:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,21 +48,21 @@ A variável [!UICONTROL Início] permite trabalhar diretamente em tarefas, probl
  </tbody> 
 </table>
 
-Para obter mais informações, consulte [[!UICONTROL Início] widgets de área](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) e [[!UICONTROL Meu trabalho] no aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Para obter mais informações, consulte a seção [[!UICONTROL Página inicial] dos widgets de área](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) e [[!UICONTROL Meu trabalho] no aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
-![Área inicial](assets/mobile-home-area.png)
+![Área da página inicial](assets/mobile-home-area.png)
 
 ## [!UICONTROL Quadros]
 
-A variável [!UICONTROL Quadros] permite acessar seu [!DNL Workfront] placas.
+A área [!UICONTROL Quadros] permite acessar seus quadros [!DNL Workfront].
 
 ![Área de painéis](assets/mobile-all-boards-displayed.png)
 
-Para obter mais informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] para dispositivos móveis](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Para obter mais informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] para celular](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Projetos]
 
-A variável [!UICONTROL Projetos] permite interagir com e gerenciar [!UICONTROL projetos] seus projetos e projetos em que você está. Na área de projetos do aplicativo, é possível:
+A área [!UICONTROL Projetos] permite que você interaja com e gerencie os seus [!UICONTROL projetos] e projetos em que está. Na área de projetos do aplicativo, é possível:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,11 +87,11 @@ A variável [!UICONTROL Projetos] permite interagir com e gerenciar [!UICONTROL 
  </tbody> 
 </table>
 
-![Área Projetos](assets/mobile-projects-area.png)
+![Área de projetos](assets/mobile-projects-area.png)
 
 ## Aprovações
 
-A variável [!UICONTROL Aprovações] permite exibir e aprovar [!UICONTROL aprovações] atribuído ou delegado a você. Na área de aprovações, é possível aprovar:
+A área [!UICONTROL Aprovações] permite visualizar e aprovar [!UICONTROL aprovações] atribuídas ou delegadas a você. Na área de aprovações, é possível aprovar:
 
 <table style="table-layout:auto">
  <col>
@@ -115,13 +115,13 @@ A variável [!UICONTROL Aprovações] permite exibir e aprovar [!UICONTROL aprov
 
 Para obter mais informações sobre aprovações, consulte [Aprovações no [!DNL Adobe Workfront] aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Para obter informações sobre revisão e aprovação de provas, consulte [Revisar e tomar decisões sobre provas no [!DNL Adobe Workfront] aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Para obter informações sobre como revisar e aprovar provas, consulte [Revisar e tomar decisões sobre provas no [!DNL Adobe Workfront] aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Lista de aprovações no aplicativo móvel](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Notificações]
 
-A variável [!UICONTROL Notificação] permite visualizar e responder às notificações no aplicativo para o seu trabalho.
+A área [!UICONTROL Notificações] permite exibir e responder às notificações no aplicativo para o seu trabalho.
 
 >[!NOTE]
 >Os hiperlinks não estão disponíveis nas notificações de atualização, a menos que todo o conteúdo de uma nota seja um hiperlink sem texto de exibição.
@@ -130,7 +130,7 @@ A variável [!UICONTROL Notificação] permite visualizar e responder às notifi
 
 ## [!UICONTROL Solicitações]
 
-A variável [!UICONTROL Solicitações] permite exibir detalhes sobre solicitações. No [!UICONTROL Solicitações] área do aplicativo, é possível:
+A área [!UICONTROL Solicitações] permite exibir detalhes sobre solicitações. Na área [!UICONTROL Solicitações] do aplicativo, é possível:
 
 <table style="table-layout:auto">
  <col>
@@ -158,31 +158,31 @@ A variável [!UICONTROL Solicitações] permite exibir detalhes sobre solicitaç
 
 ## Planilhas de horas
 
-A variável [!UICONTROL planilhas de horas] permite exibir detalhes sobre suas folhas de horas. No [!UICONTROL Planilhas de Horas] área do aplicativo, é possível:
+A área [!UICONTROL folhas de horas] permite exibir detalhes sobre suas folhas de horas. Na área [!UICONTROL Folhas de horas] do aplicativo, você pode:
 
-* Post no [!UICONTROL Atualizações] área
+* Post na área [!UICONTROL Atualizações]
 * Ajustar tipos de horas
 * Alterar o horário em que você fez logon
 * Inserir comentários em sua folha de horas
 * Fechar sua planilha de horas
 
-![Área Planilhas de Horas](assets/mobile-timesheets-area.png)
+![Área de planilhas de horas](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Favoritos]
 
-Você pode acessar itens existentes no menu Favoritos e adicionar novos itens à [!UICONTROL Favoritos] menu.
+Você pode acessar itens existentes no menu Favoritos e adicionar novos itens ao menu [!UICONTROL Favoritos].
 
 ![Área Favoritos](assets/mobile-favorites-area.png)
 
 ## [!UICONTROL Contatos]
 
-A variável [!UICONTROL Contatos] permite exibir as informações de contato de todos os usuários em sua empresa.
+A área [!UICONTROL Contatos] permite exibir as informações de contato de todos os usuários da sua empresa.
 
-![Área Contatos](assets/mobile-contacts-area.png)
+![Área de contatos](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Configuração]
 
-A variável [!UICONTROL Configuração] permite:
+A área [!UICONTROL Configuração] permite:
 
 * Gerenciar suas configurações
 * Exibir equipes atribuídas

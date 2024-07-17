@@ -1,23 +1,23 @@
 ---
 navigation-topic: workfront-navigation
 title: Acessar a ajuda do Adobe Workfront
-description: O Workfront oferece uma grande variedade de conteúdo para ajudá-lo a encontrar respostas para perguntas sobre a funcionalidade nos vários produtos oferecidos pelo Workfront.
+description: O Workfront oferece uma grande variedade de conteúdo para ajudá-lo a encontrar respostas para suas dúvidas relacionadas à funcionalidade nos vários produtos oferecidos pelo Workfront.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 1%
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
-# Acesso [!DNL Adobe Workfront] ajuda
+# Acessar a ajuda do [!DNL Adobe Workfront]
 
-[!DNL Workfront] O oferece uma ampla variedade de conteúdo para ajudá-lo a encontrar respostas para perguntas sobre a funcionalidade nos vários produtos oferecidos pelo [!DNL Workfront].
+O [!DNL Workfront] oferece uma grande variedade de conteúdo para ajudá-lo a encontrar respostas para suas dúvidas relacionadas à funcionalidade nos vários produtos oferecidos pelo [!DNL Workfront].
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -36,21 +36,21 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano ou tipo de licença você possui, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
 
-## Acesse o [!DNL Adobe Workfront] documentação sobre o Experience League
+## Acessar a documentação do [!DNL Adobe Workfront] no Experience League
 
-1. Vá para o [[!DNL Adobe Workfront] página de documentação em [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
+1. Vá para a [[!DNL Adobe Workfront] página de documentação em [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
 
-Além de pesquisar a documentação de ajuda, você também pode acessar o seguinte [!DNL Workfront] recursos do Experience League:
+Além de procurar a documentação de ajuda, você também pode acessar os seguintes [!DNL Workfront] recursos do Experience League:
 
-* Workfront Tutorials: Para obter mais informações, consulte [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
+* Tutorials do Workfront: Para obter mais informações, consulte [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
 
-* [!UICONTROL Laboratório de inovação]: Para obter mais informações, consulte [O [!UICONTROL Laboratório de inovação]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* [!UICONTROL [!DNL Workfront] Comunidade]: Para obter mais informações, consulte [O [!UICONTROL [!DNL Adobe Workfront] Comunidade]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+* [!UICONTROL Laboratório de Inovação]: Para obter mais informações, consulte [O [!UICONTROL Laboratório de Inovação]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+* [!UICONTROL [!DNL Workfront] Comunidade]: Para obter mais informações, consulte [A [!UICONTROL [!DNL Adobe Workfront] Comunidade]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
-## Acessar ajuda de dentro [!DNL Workfront]
+## Acessar ajuda de dentro de [!DNL Workfront]
 
 {{step1-click-main-menu}}
 
-1. Clique em **[!UICONTROL Ajuda]** ![Ícone da Ajuda](assets/help-icon.png).
+1. Clique no **[!UICONTROL ícone Ajuda]** ![Ícone Ajuda](assets/help-icon.png).

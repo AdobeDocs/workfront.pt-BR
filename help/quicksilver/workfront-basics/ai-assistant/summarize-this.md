@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: bddf7a2a9c3e8732bbced042e6fdc28b440870c4
+exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
@@ -30,21 +31,16 @@ O Assistente de IA pode resumir os seguintes objetos:
 >
 >A funcionalidade de resumo do Assistente de IA é diferente do painel Resumo.
 >
->Para obter informações sobre o painel Resumo no Workfront, consulte [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>Para obter informações sobre o painel Resumo no Workfront, consulte [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Resumir um objeto
 
 Para ver um resumo de um objeto:
 
 1. Navegue até o objeto para o qual deseja ver um resumo.
-1. Clique em **Assistente de IA** ícone ![Ícone do Assistente de IA](assets/ai-assistant-icon.png) próximo ao canto superior direito da tela.
-1. No painel Assistente de IA, clique em **Resumir isso**.
+1. Clique no ícone do **Assistente de IA** ![ícone do Assistente de IA](assets/ai-assistant-icon.png) próximo ao canto superior direito da tela.
+1. No painel Assistente de IA, clique em **Resumir isto**.
 
    O Assistente de IA pode levar alguns minutos para gerar o resumo, dependendo do tamanho ou da complexidade do objeto.
 
 1. Exibir o resumo de IA no painel Assistente de IA.
-
-
-
-
-

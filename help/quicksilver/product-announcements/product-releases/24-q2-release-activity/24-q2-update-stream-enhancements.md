@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todos os aprimoramentos de Atualização de fluxo e notificação feitos com a versão do Segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2024, consulte [Visão geral da versão do Segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Novas experiências de comentário adicionadas às iterações
 
@@ -42,9 +42,9 @@ Para obter mais informações, consulte [Nova experiência de comentários](/hel
 >
 >Versão de pré-visualização: 1 de março de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (11 de abril de 2024)
 
-Agora adicionamos a nova funcionalidade de comentários à **Adicionar nova atualização** botão de ação rápida nos widgets Meu trabalho, Meus projetos, Minhas tarefas e Meus problemas, na nova página inicial.
+Agora adicionamos a nova funcionalidade de comentários ao botão de ação rápida **Adicionar nova atualização** nos widgets Meu Trabalho, Meus Projetos, Minhas Tarefas e Meus Problemas, na nova Página inicial.
 
-Para obter mais informações, consulte [Introdução à nova Página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obter mais informações, consulte [Introdução à nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Informações adicionais do comentador disponíveis na nova experiência de comentários
 
@@ -59,7 +59,7 @@ Fizemos os seguintes aprimoramentos na nova experiência de comentários:
 
 Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa às 2:47)
+[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa às 2:47)
 
 ## A guia Atividade do sistema na nova experiência de comentários aceita comentários somente leitura
 
@@ -71,7 +71,7 @@ Os comentários feitos nos registros de atividade do sistema na experiência de 
 
 Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa às 2:00)
+[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa às 2:00)
 
 ## Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema
 
@@ -85,7 +85,7 @@ A guia Todos é uma guia somente para visualização. Não é possível responde
 
 Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa em 0:31)
+[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa às 0:31)
 
 ## Novo fluxo de comentários agora disponível no painel Resumo
 
@@ -95,6 +95,6 @@ Para obter mais informações, consulte [Visão geral da seção Atualizações]
 
 Agora adicionamos a nova funcionalidade de comentários ao painel Resumo para listas de tarefas e problemas.
 
-Para obter mais informações, consulte [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+Para obter mais informações, consulte [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427991/){target=_blank}

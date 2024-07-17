@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as outras melhorias feitas com a versão 21.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 21 de julho de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.3, consulte [21.3 Visão geral da versão](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.3, consulte a [Visão geral da versão 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Redesign de área inicial para aplicativo móvel
 
@@ -44,4 +44,4 @@ Os seguintes artigos serão atualizados quando o aplicativo for lançado nas loj
 
 Agora, os filtros de assinatura de evento estão ativados em ambientes de visualização. A filtragem por assinatura de evento pode ser usada para garantir que você receba apenas mensagens relevantes. Criar filtros para suas assinaturas pode diminuir significativamente o número de mensagens que seu terminal precisa consumir.
 
-Para saber mais sobre assinaturas de evento, consulte [API de assinatura de evento](../../../wf-api/general/event-subs-api.md) e [Perguntas frequentes - Assinaturas de eventos](../../../wf-api/general/event-subs-faq.md).
+Para saber mais sobre assinaturas de evento, consulte [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md) e [Perguntas Frequentes - Assinaturas de Evento](../../../wf-api/general/event-subs-faq.md).

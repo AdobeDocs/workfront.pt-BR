@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2128'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -41,7 +41,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um modelo e para a tarefa de modelo </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um modelo e para a tarefa de modelo </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,20 +83,20 @@ Considere o seguinte ao mover tarefas de modelo:
 Você pode copiar uma única tarefa de modelo ou pode copiar várias tarefas de modelo em massa.
 
 1. Vá para o modelo que contém a tarefa de modelo ou as tarefas de modelo que você deseja copiar.
-1. Clique em **Modelos de Tarefa** no painel esquerdo.
+1. Clique em **Tarefas de modelo** no painel esquerdo.
 1. Siga um destes procedimentos:
    * Clique no nome de uma tarefa de modelo para abri-la.
    * Selecione uma ou várias tarefas de modelo na lista.
-1. (Condicional) Clique no link **Mais** menu ![](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa, clique em **Copiar para** ou **Copiar**, dependendo de onde você está acessando a opção Copiar de.
+1. (Condicional) Clique no menu **Mais** ![](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa, e clique em **Copiar para** ou **Copiar**, dependendo de onde você está acessando a opção Copiar.
 A caixa Copiar Modelo de Tarefa é aberta.
    ![](assets/copy-template-task-box-unshimmed.png)
-1. (Opcional) Renomeie a tarefa de modelo na **Nome do Modelo de Tarefa** campo.
+1. (Opcional) Renomeie a tarefa de modelo no campo **Nome da Tarefa de Modelo**.
 
    >[!TIP]
    >
    >Este campo fica esmaecido e não pode ser editado ao selecionar para copiar várias tarefas de modelo em uma lista. Você pode passar o mouse sobre o campo Nome do Modelo de Tarefa e uma lista de todas as tarefas de modelo selecionadas é exibida.
 
-1. Comece digitando o nome do **Modelo de destino** onde você deseja copiar a tarefa de modelo na variável **Selecionar modelo de destino** e selecione-o quando ele for exibido na lista.
+1. Comece digitando o nome do **Modelo de Destino** para o qual você deseja copiar a tarefa de modelo no campo **Selecionar Modelo de Destino** e selecione-o quando ele for exibido na lista.
 
    O nome do modelo atual é exibido por padrão. Se quiser copiar a tarefa de modelo no mesmo modelo, deixe esse campo inalterado.
 
@@ -104,10 +104,10 @@ A caixa Copiar Modelo de Tarefa é aberta.
    >
    >Você também pode começar a digitar o Número de referência ou inserir a ID do modelo. Isso pode ajudá-lo a distinguir entre modelos com nomes idênticos.
 
-1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao modelo de destino, se você não tiver acesso ao modelo selecionado.
+1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao modelo de destino, caso não tenha acesso ao modelo selecionado.
 1. (Condicional) Continue a copiar a tarefa de modelo para o modelo de destino selecionado sem solicitar acesso se tiver acesso para adicionar tarefas de modelo a uma das tarefas de modelo no modelo de destino.
 
-1. Clique em **Opções** no painel esquerdo, desmarque os atributos de tarefa de modelo que você não deseja copiar com a tarefa de modelo. Todas as opções são selecionadas por padrão.
+1. Clique em **Opções** no painel esquerdo e desmarque os atributos de tarefa de modelo que você não deseja copiar com a tarefa de modelo. Todas as opções são selecionadas por padrão.
 
    >[!TIP]
    >
@@ -179,7 +179,7 @@ A caixa Copiar Modelo de Tarefa é aberta.
    </table>
 
 
-1. (Opcional) Clique em **Selecionar pai** no painel esquerdo, selecione a tarefa de modelo no modelo de destino que você deseja que se torne a principal da tarefa de modelo copiada.
+1. (Opcional) Clique em **Selecionar pai** no painel esquerdo e selecione a tarefa de modelo no modelo de destino que você deseja que se torne a principal da tarefa de modelo copiada.
 
    >[!TIP]
    >
@@ -196,7 +196,7 @@ A caixa Copiar Modelo de Tarefa é aberta.
 
    Se você não selecionar uma tarefa de modelo pai, as tarefas de modelo serão copiadas como tarefas de modelo principais em vez de subtarefas e serão colocadas no final da lista de tarefas de modelo no modelo de destino.
 
-1. Clique em **Copiar Modelo de Tarefa**.
+1. Clique em **Copiar Tarefa de Modelo**.
 
    As tarefas de modelo copiadas agora estão no modelo especificado e são subtarefas da tarefa de modelo pai selecionada ou as últimas tarefas de modelo no modelo.
 
@@ -206,30 +206,30 @@ A caixa Copiar Modelo de Tarefa é aberta.
 Você pode mover uma tarefa de modelo para outra tarefa de modelo no mesmo modelo ou para outro modelo. Você pode mover uma ou várias tarefas de modelo em massa.
 
 1. Vá para o modelo que contém a tarefa de modelo ou as tarefas de modelo que você deseja mover.
-1. Clique em **Modelos de Tarefa** no painel esquerdo.
+1. Clique em **Tarefas de modelo** no painel esquerdo.
 1. Siga um destes procedimentos:
    * Clique no nome de uma tarefa de modelo para abri-la.
    * Selecione uma ou várias tarefas de modelo na lista.
-1. (Condicional) Clique no link **Mais** menu ![](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa, clique em **Mover para** ou **Mover**, dependendo de onde você está acessando a opção Mover do.
+1. (Condicional) Clique no menu **Mais** ![](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa, e clique em **Mover para** ou **Mover**, dependendo de onde você está acessando a opção Mover.
 A caixa Mover Modelo de Tarefa é aberta.
    ![](assets/move-template-task-box-unshimmed.png)
 
-1. (Opcional) Renomeie a tarefa de modelo na **Nome do Modelo de Tarefa** campo.
+1. (Opcional) Renomeie a tarefa de modelo no campo **Nome da Tarefa de Modelo**.
 
    >[!TIP]
    >
    >Este campo fica esmaecido e não pode ser editado ao selecionar para mover várias tarefas de modelo em uma lista. Você pode passar o mouse sobre o campo Nome da tarefa de modelo e uma lista de todas as tarefas de modelo selecionadas é exibida.
 
-1. Comece digitando o nome do **Modelo de destino** onde você deseja mover a tarefa de modelo na **Selecionar modelo de destino** e selecione-o quando ele for exibido na lista.
+1. Comece digitando o nome do **Modelo de Destino** para onde você deseja mover a tarefa de modelo no campo **Selecionar Modelo de Destino** e selecione-o quando ele for exibido na lista.
 
    >[!TIP]
    >
    >Você também pode começar a digitar o Número de referência ou inserir a ID do modelo. Isso pode ajudá-lo a distinguir entre modelos com nomes idênticos.
 
-1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao modelo, se você não tiver acesso ao modelo de destino.
+1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao modelo, caso não tenha acesso ao modelo de destino.
 1. (Condicional) Continue movendo a tarefa de modelo para o modelo de destino selecionado sem solicitar acesso se tiver acesso para adicionar tarefas de modelo a uma das tarefas de modelo no modelo de destino.
 
-1. Clique em **Opções** no painel esquerdo, desmarque os atributos de tarefa de modelo que você não deseja copiar com a tarefa de modelo. Todas as opções são selecionadas por padrão.
+1. Clique em **Opções** no painel esquerdo e desmarque os atributos de tarefa de modelo que você não deseja copiar com a tarefa de modelo. Todas as opções são selecionadas por padrão.
 
    >[!TIP]
    >
@@ -312,7 +312,7 @@ A caixa Mover Modelo de Tarefa é aberta.
    </table>
 
 
-1. (Opcional) Clique em **Selecionar pai** no painel esquerdo, selecione a tarefa de modelo no modelo de destino que você deseja que se torne a principal da tarefa de modelo movida.
+1. (Opcional) Clique em **Selecionar pai** no painel esquerdo e selecione a tarefa de modelo no modelo de destino que você deseja que se torne a principal da tarefa de modelo movida.
 
    >[!TIP]
    >
@@ -329,6 +329,6 @@ A caixa Mover Modelo de Tarefa é aberta.
 
    Se você não selecionar uma tarefa de modelo pai, as tarefas de modelo serão movidas como tarefas de modelo principais em vez de subtarefas e serão colocadas no final da lista de tarefas de modelo no modelo de destino.
 
-1. Clique em **Mover Modelo de Tarefa**.
+1. Clique em **Mover Tarefa de Modelo**.
 
    As tarefas de modelo movidas agora estão no modelo especificado e são subtarefas da tarefa de modelo pai selecionada ou as últimas tarefas de modelo no modelo.

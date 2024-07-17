@@ -40,4 +40,4 @@ Com os módulos do Adobe Campaign Classic, você pode:
 * Executar uma ação da API do Adobe Campaign
 * Fazer uma chamada de API personalizada para a API do Adobe Campaign Classic
 
-Para obter mais informações, consulte [Módulos do Adobe Campaign Classic](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).
+Para obter mais informações, consulte [módulos do Adobe Campaign Classic](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: "Introdução ao [!DNL Workfront Proof]: índice do artigo"
+title: "Introdução ao  [!DNL Workfront Proof]: índice do artigo"
 description: Saiba como começar a usar o Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém as seguintes subseções:
 
 * [Exemplos de fluxo de trabalho](../../workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-* [Configurações pessoais no [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
-* [Informações do sistema em [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/system-information/system-information.md)
+* [Configurações pessoais em [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+* [Informações do sistema em  [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/system-information/system-information.md)
 * [[!DNL Workfront Proof] - perguntas frequentes](../../workfront-proof/wp-getstarted/faqs/faqs.md)

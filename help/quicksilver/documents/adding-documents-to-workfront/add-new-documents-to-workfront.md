@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Esta seção contém os seguintes artigos:
 
-* [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+* [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
 * [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 * [Remover links entre o Adobe Workfront e provedores de armazenamento de documentos externos](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
 * [Solicitar um documento](../../documents/adding-documents-to-workfront/request-a-document.md)

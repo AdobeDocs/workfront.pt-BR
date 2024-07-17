@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
@@ -45,29 +45,29 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões de um relatório para editar um agrupamento em um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar um agrupamento em um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Criar um agrupamento
 
 1. Vá para o relatório ou lista onde deseja criar o agrupamento personalizado.
-1. Clique em **Agrupamento** ícone .
+1. Clique no ícone **Agrupamento**.
 
    ![Selecionar novo agrupamento](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Clique em **Novo Agrupamento**.
+1. Clique em **Novo agrupamento**.
 O construtor de interface para criar as inicializações de agrupamento.
 
-1. No **Visualização do agrupamento** clique em **Adicionar Agrupamento** para definir como você deseja que as informações no relatório sejam organizadas. Uma visualização da aparência do agrupamento no relatório é mostrada abaixo.
+1. Na seção **Visualização do Agrupamento**, clique em **Adicionar Agrupamento** para definir como você deseja que as informações no relatório sejam organizadas. Uma visualização da aparência do agrupamento no relatório é mostrada abaixo.
 
 1. Comece digitando o nome do campo que representa a maneira como deseja organizar as informações no relatório e, em seguida, clique nele quando ele aparecer na lista suspensa.
-1. (Opcional e condicional) Ao criar um agrupamento em uma lista atualizada, selecione **Recolher este agrupamento por padrão** se desejar que os resultados no agrupamento sejam exibidos recolhidos, em vez de expandidos. Essa configuração é desabilitada por padrão e os resultados do agrupamento sempre são exibidos na lista expandida.
+1. (Opcional e condicional) Ao criar um agrupamento em uma lista atualizada, selecione **Recolher este agrupamento por padrão** se desejar que os resultados do agrupamento sejam exibidos recolhidos em vez de expandidos. Essa configuração é desabilitada por padrão e os resultados do agrupamento sempre são exibidos na lista expandida.
 
-   Para obter informações sobre listas atualizadas e herdadas, consulte a seção [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   Para obter informações sobre listas atualizadas e herdadas, consulte a seção [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -78,18 +78,17 @@ O construtor de interface para criar as inicializações de agrupamento.
    >* Quando você ajusta agrupamentos manualmente ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você faça logout. Ao fazer logon novamente, a lista é exibida de acordo com essa configuração.
    >* Os resultados de um agrupamento sempre são exibidos expandidos depois de acessá-los a partir de um elemento do gráfico ou em uma lista herdada. Nesses casos, essa configuração é ignorada.
 
-
 1. Repita as etapas 4, 5 e 6 para definir agrupamentos adicionais.\
    É possível definir até três agrupamentos para organizar as informações. Você pode organizar ainda mais suas informações com até quatro agrupamentos criando um relatório de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Clique em **Salvar Agrupamento**.
+1. Clique em **Salvar agrupamento**.
 
 ## Informações adicionais
 
 Consulte também:
 
-* [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [Elementos de relatórios: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Elementos de relatórios: filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Editar agrupamentos existentes](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
 <!--

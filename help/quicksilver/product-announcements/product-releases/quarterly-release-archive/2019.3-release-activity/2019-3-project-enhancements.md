@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as alterações que o Project aprimorou com a versão 2019.3. Ele foi disponibilizado no ambiente de Produção na semana de 19 de agosto de 2019.
 
-Para obter uma lista de todas as alterações feitas em 2019.3, consulte [Visão geral da atividade da versão 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.3, consulte a [visão geral da atividade da versão 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Alterar o tipo de exibição de um campo em um formulário personalizado
 
@@ -81,7 +81,7 @@ Para obter informações sobre como visualizar itens em uma lista, consulte [Int
 
 Agora você pode editar o gráfico de Gantt da lista de tarefas quando o salvamento automático estiver ativado ou não. Não é possível desfazer alterações quando o botão está ativado. Nesse caso, as alterações feitas no projeto são salvas automaticamente.
 
-Para obter informações sobre a edição do gráfico de Gantt da lista de tarefas, consulte [Atualizar informações no Diagrama de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obter informações sobre como editar o gráfico de Gantt da lista de tarefas, consulte [Atualizar informações no Gráfico de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Remoção da guia Problemas do quadro Kanban
 
@@ -95,8 +95,8 @@ Estamos removendo a guia Problemas do quadro Kanban na versão de Produção 19.
 
 Estamos removendo as guias Documentos e Problemas da página de detalhes da iteração do Agile:
 
-* **Documentos:** Todos os documentos armazenados na guia Documentos devem ser movidos antes da versão de produção. Se você não conseguir mover seus documentos, não terá mais acesso a eles.
-* **Problemas:** Essa guia geralmente está localizada no menu suspenso Mais. Você ainda pode acessar a subguia Problemas na guia Itens de trabalho na iteração.
+* **Documentos:** todos os documentos armazenados na guia Documentos devem ser movidos antes da versão de produção. Se você não conseguir mover seus documentos, não terá mais acesso a eles.
+* **Problemas:** esta guia geralmente está localizada no menu suspenso Mais. Você ainda pode acessar a subguia Problemas na guia Itens de trabalho na iteração.
 
 ## Considerar ou ignorar o tempo de folga do usuário nas datas da tarefa
 
@@ -106,9 +106,9 @@ Você pode tomar essa decisão no nível do sistema, como administrador do Workf
 
 Antes dessa alteração, o tempo de folga do Destinatário principal sempre ajustava as datas planejadas da tarefa, se a Restrição da tarefa permitisse a modificação das datas.
 
-Para obter informações sobre a configuração de Folga do usuário no nível do sistema, consulte [Configurar preferências de projeto em todo o sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obter informações sobre a configuração de Tempo Livre do Usuário no nível do sistema, consulte [Configurar preferências de projeto do sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Para obter informações sobre a configuração de Folga do usuário no nível do projeto, consulte [Editar projetos](../../../../manage-work/projects/manage-projects/edit-projects.md).
+Para obter informações sobre a configuração de Tempo livre do usuário no nível do projeto, consulte [Editar projetos](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ Ao atribuir um usuário a uma tarefa ou um problema, agora é possível ver um a
 
 Para obter informações sobre atribuição de tarefas, consulte [Atribuir tarefas](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Para obter informações sobre a folga, consulte [Configurar folga pessoal](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Para obter informações sobre folga, consulte [Configurar folga pessoal](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 >[!NOTE]
 >

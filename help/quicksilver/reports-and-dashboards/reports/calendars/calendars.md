@@ -25,8 +25,8 @@ Revise os seguintes artigos para obter uma compreensão dos relatórios de calen
 
 * [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [Usar campos de data personalizados em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-* [Uso [!UICONTROL Datas Planejadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Uso [!UICONTROL Datas Projetadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [Usar [!UICONTROL Datas planejadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Usar [!UICONTROL Datas Projetadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Exibir relatórios de calendário e detalhes do evento](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
 * [Compartilhar um relatório de calendário](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 * [Editar um relatório de calendário existente](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)

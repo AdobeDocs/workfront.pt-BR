@@ -21,6 +21,6 @@ A duração de um problema é calculada automaticamente pelo Adobe Workfront e n
 
 Você pode exibir a Duração de um problema em um relatório de problemas ou exibir a lista de problemas.
 
-Para obter mais informações sobre criação de relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obter mais informações sobre a criação de um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ![](assets/nwe-issue-duration-view-highlighted-350x73.png)

@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
-ht-degree: 3%
+source-wordcount: '3620'
+ht-degree: 2%
 
 ---
 
@@ -108,7 +108,7 @@ acesso para agirem em seu nome. Esse processo de handshaking só ocorre uma vez 
 1. O usuário começa conectando a integração do webhook à conta. Atualmente, isso é feito clicando na lista suspensa &quot;Adicionar documento&quot; > &quot;Adicionar serviço&quot; > Nome da integração personalizada.
 1. O Workfront navega o usuário pelo URL de autenticação, que pode solicitar que o usuário faça logon no provedor de documentos externo. Esta página é hospedada pelo provedor de webhook ou pelo sistema de gerenciamento de documentos externo. Ao fazer isso, o Workfront adiciona um parâmetro de &quot;estado&quot; ao URL de autenticação. Esse valor deve ser passado de volta para o Workfront, anexando o mesmo valor ao URI de retorno do Workfront na etapa abaixo.
 1. Depois de fazer logon no sistema externo (ou se o usuário já estiver conectado), o usuário é direcionado para uma página &quot;Autenticação&quot;, que explica que a Workfront está solicitando acesso para executar um conjunto de ações em nome do usuário.
-1. Se o usuário clicar no botão &quot;Permitir&quot;, o navegador será redirecionado para o URI de redirecionamento do Workfront, adicionando &quot;code=`<code>`&quot; para a querystring. De acordo com a especificação do OAuth2, esse token tem vida curta. A sequência de consulta também deve ter o seguinte, &quot;state=`<sent_by_workfront>`&quot;.
+1. Se o usuário clicar no botão &quot;Permitir&quot;, o navegador será redirecionado para o URI de Redirecionamento do Workfront, adicionando &quot;code=`<code>`&quot; à querystring. De acordo com a especificação do OAuth2, esse token tem vida curta. A sequência de consulta também deve ter o seguinte, &quot;state=`<sent_by_workfront>`&quot;.
 1. O Workfront processa essa solicitação e faz uma chamada de API para o URL do ponto de extremidade token com o código de autorização.
 1. O URL do ponto de extremidade do token retorna um token de atualização e um token de acesso.
 1. O Workfront armazena esses tokens e provisiona totalmente a integração de webhook para esse usuário.
@@ -277,7 +277,7 @@ Retorna os metadados do arquivo ou pasta especificada.
 
 **URL**
 
-GET /metadata?id=[ID do documento ou da pasta]
+GET /metadata?id=[ID de documento ou pasta]
 
 **Parâmetros de consulta**
 
@@ -315,7 +315,7 @@ GET /metadata?id=[ID do documento ou da pasta]
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>título </td> 
    <td>String </td> 
    <td>O nome do documento ou pasta</td> 
   </tr> 
@@ -614,7 +614,7 @@ PUT /upload
 
  
 
-**Corpo da solicitação**
+**Solicitar corpo**
 
 Os bytes de conteúdo bruto do documento.
 
@@ -634,7 +634,7 @@ ou
 }
 ```
 
-**Exemplo:** `https://www.acme.com/api/upload?id=1234` *[bytes de documento incluídos no fluxo de atualização]*
+**Exemplo:** `https://www.acme.com/api/upload?id=1234` *[bytes de documentos incluídos no fluxo de atualização]*
 
 **Resposta**
 

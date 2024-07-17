@@ -54,7 +54,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -118,7 +118,7 @@ Você deve ter o seguinte:
 
 ## Compartilhar uma meta
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+1. Clique no ícone ![](assets/main-menu-icon.png) > **Metas** do **Menu Principal** no canto superior direito.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Você deve ter o seguinte:
 
 1. Clique no nome de uma meta na lista. A página de meta é aberta.
 
-1. Clique em **Ícone Mais** ao lado do nome da meta, clique em **Compartilhar**.
+1. Clique no ícone **Mais** ao lado do nome da meta e clique em **Compartilhar**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,8 +137,8 @@ Você deve ter o seguinte:
 
 1. Siga um destes procedimentos:
 
-   * Selecione o **Gerenciar em todo o sistema** configuração para conceder permissões de gerenciamento a todos os usuários no sistema que têm acesso de Edição a Metas em seus níveis de acesso. Esta opção fica desmarcada por padrão para todas as novas metas.
-   * Comece digitando o nome de um usuário ao qual você deseja conceder permissões de gerenciamento na **Conceder acesso de gerenciamento a** caixa. Selecione o nome quando ele aparecer na lista.
+   * Selecione a configuração **Gerenciar em todo o sistema** para conceder permissões de gerenciamento a todos os usuários do sistema que tenham acesso de Edição a Metas em seus respectivos níveis de acesso. Esta opção fica desmarcada por padrão para todas as novas metas.
+   * Comece digitando o nome de um usuário ao qual você deseja conceder permissões de gerenciamento na caixa **Conceder acesso de gerenciamento a**. Selecione o nome quando ele aparecer na lista.
 
      >[!TIP]
      >

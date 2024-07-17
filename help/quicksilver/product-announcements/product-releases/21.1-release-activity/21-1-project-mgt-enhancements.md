@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Esta página descreve todas as melhorias de Gerenciamento de projetos feitas com a versão 21.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 15 de fevereiro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.1, consulte [Visão geral da versão 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.1, consulte a [visão geral da versão 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Exportar agora disponível na seção Métricas em um projeto
 
@@ -27,13 +27,13 @@ Para compartilhar mais facilmente o status e o progresso de um projeto, você po
 
 Para obter mais informações, consulte [Visão geral das métricas do projeto](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Esse recurso agora está incluído na [Fundamentos do planejador para a nova experiência do Workfront, Parte 3: gerenciar um projeto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 3: Gerenciar um caminho de aprendizado do Projeto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) no Workfront One.
 
 ## Atualizar percentual concluído de problema quando o projeto ou tarefa convertido a partir da atualização de problema
 
 Atualizamos a forma como a porcentagem concluída dos problemas funciona para problemas que foram convertidos em projetos ou tarefas. Com a nova funcionalidade, quando um problema é convertido em uma tarefa ou um projeto, o percentual concluído do problema é atualizado em sincronia com o percentual concluído da tarefa ou do projeto de resolução quando a configuração &quot;Atualizar automaticamente o status de um problema resolvível quando o status do Objeto de resolução é alterado&quot; é ativada na configuração.
 
-Para obter informações sobre a conversão de problemas, consulte [Visão Geral de Objetos Resolventes e Resolvíveis](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Para obter informações sobre como converter problemas, consulte [Visão Geral de Objetos Resolventes e Resolvíveis](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Nova lista de solicitações enviadas
 
@@ -41,9 +41,9 @@ Para permitir que você gerencie suas Solicitações enviadas de uma maneira mai
 
 Para obter informações sobre como localizar solicitações enviadas, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Esse recurso agora está incluído na [Fundamentos do colaborador para a nova experiência do Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) no Workfront One.
 
-Esse recurso agora está incluído na [Solicitações na nova experiência do Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nas [Solicitações no novo caminho de aprendizado da experiência de Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) no Workfront One.
 
 ## Campos removidos da página Nova solicitação
 
@@ -65,7 +65,7 @@ Os seguintes campos Novo problema são exibidos somente ao criar um problema na 
 
 Substituímos os campos Atribuído a, Função de trabalho e Equipe pelo novo campo Atribuições na página Nova solicitação para designar com eficiência um usuário, função de trabalho ou equipe em um campo comum à medida que você envia uma nova solicitação.
 
-Para obter informações sobre como definir novos campos de problema para um projeto, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obter informações sobre como definir Campos de Novo Problema para um projeto, consulte [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Nova experiência ao enviar solicitações na área Solicitações
 
@@ -93,7 +93,7 @@ Agora, tornamos possível compartilhar um link para um tópico de fila de solici
 
 Antes de submeter uma nova solicitação, você pode copiar um link para a fila de solicitações, grupo de tópicos ou tópico da fila da solicitação e compartilhá-lo com outros usuários ou incorporá-lo em um painel.
 
-Para obter informações sobre como compartilhar um link com uma fila de solicitações ao submeter uma solicitação, consulte [Compartilhar um link para uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Para obter informações sobre como compartilhar um link com uma fila de solicitações ao enviar uma solicitação, consulte [Compartilhar um link com uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Procure um grupo que você deseja atribuir a um projeto e visualize seus detalhes
 
@@ -105,7 +105,7 @@ Dependendo dos detalhes configurados para o grupo, você também pode ver o Líd
 
 Com essas informações, você pode ter certeza de que está selecionando o grupo correto para atribuir ao projeto.
 
-Para obter mais informações, consulte [Gerenciar informações na área Visão geral do projeto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+Para obter mais informações, consulte [Gerenciar informações na área Visão Geral do projeto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
 ## Novo relatório de delegação de usuários
 

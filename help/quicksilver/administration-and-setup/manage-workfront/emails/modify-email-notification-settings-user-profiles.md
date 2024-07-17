@@ -57,28 +57,28 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Ao definir as configurações de notificação em massa, você pode alterar apenas as configurações que os usuários selecionados têm em comum.
 
-Quando você modifica uma configuração de notificação, o rótulo **Editado** é exibida para essa configuração de notificação, para que você saiba que essa configuração de notificação foi modificada.
+Quando você modifica uma configuração de notificação, o rótulo **Editado** é exibido para essa configuração de notificação, para que você saiba que a configuração de notificação foi modificada.
 
 Para modificar as configurações de notificação por email para vários usuários:
 
 {{step-1-to-users}}
 
 1. Selecione os usuários e clique em **Editar**.
-1. No **Editar pessoa** for exibida, clique em **Notificação**.
+1. Na caixa **Editar Pessoa** exibida, clique em **Notificações**.
 
 1. Expanda uma categoria para exibir as configurações de notificação relacionadas a ela.
 
-   Se houver pelo menos um usuário selecionado em que as notificações não correspondam às notificações dos outros usuários selecionados, a caixa de seleção de categoria para essa notificação conterá uma linha horizontal ![](assets/straight-line-instead-of-checkmark.jpg) em vez de uma marca de seleção.
+   Se houver pelo menos um usuário selecionado no qual as notificações não correspondam às notificações dos outros usuários selecionados, a caixa de seleção de categoria para essa notificação conterá uma linha horizontal ![](assets/straight-line-instead-of-checkmark.jpg) em vez de uma marca de seleção.
 
 
 1. Clique em qualquer notificação que você deseja que os usuários recebam diariamente ou instantaneamente, ou desmarque qualquer uma que você deseja que eles parem de receber.
 
    >[!NOTE]
    >
-   >   Para o **Comunicação** você pode selecionar notificações individuais somente para entrega instantânea. Você deve selecionar todas as notificações que serão entregues em um resumo diário.
+   >   Na categoria **Comunicação**, você pode selecionar notificações individuais somente para entrega instantânea. Você deve selecionar todas as notificações que serão entregues em um resumo diário.
 
 
-1. Se você selecionou notificações para serem enviadas como um resumo diário, selecione a hora do dia em que deseja que o resumo seja entregue na parte superior do **Notificação** na seção **Enviar o resumo diário por email depois de** menu.
+1. Se você selecionou notificações para serem enviadas como um resumo diário, selecione a hora do dia em que deseja que o resumo seja entregue na parte superior da seção **Notificações** do menu **Resumo diário de emails após**.
 
    ![](assets/daily-digest-time.png)
 

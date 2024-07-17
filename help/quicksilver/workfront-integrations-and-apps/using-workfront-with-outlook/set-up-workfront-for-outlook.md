@@ -2,7 +2,7 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Configurar [!DNL Adobe Workfront] para [!DNL Outlook]
-description: A variável [!DNL Adobe Workfront] [!DNL Outlook] permite que você execute a chave [!DNL Workfront] tarefas diretamente do Outlook.
+description: O suplemento  [!DNL Adobe Workfront] [!DNL Outlook] permite executar as tarefas principais [!DNL Workfront]  diretamente do Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-A variável [!DNL Adobe Workfront] [!DNL Outlook] permite que você execute a seguinte ação [!DNL Workfront] tarefas diretamente do Outlook:
+O suplemento [!DNL Adobe Workfront] [!DNL Outlook] permite executar as seguintes tarefas [!DNL Workfront] principais diretamente do Outlook:
 
 * Atualize um projeto, tarefa ou problema existente com informações de um email. Para obter mais informações, consulte [Atualizar um objeto existente a partir de um [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
-* Criar um [!DNL Workfront] solicitação com base em um email no [!DNL Outlook]. Para obter mais informações, consulte [Criar uma solicitação Adobe Workfront de um [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
-* Adicione um email como uma tarefa no seu [!UICONTROL Meu trabalho] área. Para obter mais informações, consulte [Adicionar um [!DNL Outlook] enviar email como uma tarefa para sua lista de trabalho](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md).
-* Responder a comentários por meio do [!DNL Workfront] suplemento para [!DNL Outlook]. Para obter informações sobre como responder a comentários do Workfront sobre [!DNL Outlook], consulte [Responder a um comentário de [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md).
-* Crie tarefas e problemas do zero ou crie-os a partir de emails existentes (usando a funcionalidade arrastar e soltar). Para obter mais informações, consulte [Adicionar um [!DNL Outlook] enviar email para um projeto como uma tarefa ou um problema](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
+* Crie uma solicitação [!DNL Workfront] com base em um email no [!DNL Outlook]. Para obter mais informações, consulte [Criar uma solicitação Adobe Workfront a partir de um [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+* Adicione um email como uma tarefa na área [!UICONTROL Meu Trabalho]. Para obter mais informações, consulte [Adicionar um [!DNL Outlook] email como uma tarefa à sua lista de trabalho](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md).
+* Responder comentários por meio do suplemento [!DNL Workfront] para [!DNL Outlook]. Para obter informações sobre como responder a comentários do Workfront para [!DNL Outlook], consulte [Responder a um comentário de [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md).
+* Crie tarefas e problemas do zero ou crie-os a partir de emails existentes (usando a funcionalidade arrastar e soltar). Para obter mais informações, consulte [Adicionar um [!DNL Outlook] email a um projeto como uma tarefa ou um problema](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
-É necessário adicionar o [!DNL Workfront] suplemento ao seu [!DNL Outlook] antes de poder usar [!DNL Workfront for Outlook].
+Você deve adicionar o suplemento [!DNL Workfront] à sua conta [!DNL Outlook] antes de poder usar [!DNL Workfront for Outlook].
 
-Se não conseguir instalar o [!DNL Workfront] suplemento com o seu [!DNL Outlook] conta, entre em contato com o [!DNL Workfront] administrador assegurar que [!DNL Outlook] os suplementos estão habilitados para sua organização.
+Se você não conseguir instalar o suplemento [!DNL Workfront] com sua conta [!DNL Outlook], contate o administrador do [!DNL Workfront] para garantir que os suplementos do [!DNL Outlook] estejam habilitados para sua organização.
 
-Para obter mais informações sobre como ativar o [!DNL Outlook] para sua organização, consulte [Ativar [!DNL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md).
+Para obter informações sobre como habilitar a integração do [!DNL Outlook] para sua organização, consulte [Habilitar [!DNL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md).
 
 ## Requisitos de acesso
 
@@ -60,26 +60,26 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Pré-requisitos
 
-Seu [!DNL Workfront] o administrador precisa habilitar [!DNL Outlook for Office] com [!DNL Workfront] antes de usar essa integração.
+O administrador do [!DNL Workfront] deve habilitar [!DNL Outlook for Office] com [!DNL Workfront] antes que você possa usar essa integração.
 
 ## Requisitos do sistema
 
 Os seguintes aplicativos estão disponíveis:
 
-* **[!DNL Outlook]na Web:** A variável [!DNL Workfront] o suplemento está disponível ao usar [!DNL Outlook] de um navegador da web em um desktop ou dispositivo móvel. Essa funcionalidade também está disponível ao usar o [!DNL Outlook] Aplicativo Web.
-* **[!DNL Outlook]Aplicativo de desktop:** A variável [!DNL Workfront] o suplemento está disponível ao usar o [!DNL Windows] e [!DNL Mac] versões para desktop do [!DNL Outlook] incluído com o [!DNL Office] pacote.
+* **[!DNL Outlook]na Web:** O suplemento [!DNL Workfront] está disponível ao usar [!DNL Outlook] de um navegador da Web em um computador ou dispositivo móvel. Essa funcionalidade também está disponível ao usar o Aplicativo Web [!DNL Outlook].
+* Aplicativo de Área de Trabalho **[!DNL Outlook]:** O suplemento [!DNL Workfront] está disponível ao usar as versões de área de trabalho [!DNL Windows] e [!DNL Mac] de [!DNL Outlook] incluídas no pacote [!DNL Office].
 
-A variável [!DNL Workfront] suplemento para [!DNL Outlook] O é compatível com ambientes que atendem aos seguintes requisitos:
+O suplemento [!DNL Workfront] para [!DNL Outlook] tem suporte em ambientes que atendem aos seguintes requisitos:
 
 * [Requisitos do cliente](#client-requirements-client-requirements)
 * [Requisitos do servidor de email](#mail-server-requirements-mail-server-requirements)
 
 ### Requisitos do cliente {#client-requirements}
 
-O Workfront é compatível com as seguintes versões do [!DNL Outlook]:
+O Workfront oferece suporte às seguintes versões do [!DNL Outlook]:
 
-* [!DNL Outlook 2013] ou posteriormente [!DNL Windows]
-*[!DNL  Outlook 2016] ou posteriormente [!DNL Windows]
+* [!DNL Outlook 2013] ou posterior em [!DNL Windows]
+*[!DNL  Outlook 2016] ou posterior em [!DNL Windows]
 * [!DNL Outlook] em [!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook] em [!DNL Windows] ([!DNL Microsoft 365])
 * [!DNL Outlook] na Web
@@ -90,62 +90,62 @@ Ao configurar o cliente, o usuário deverá selecionar um dos seguintes tipos de
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com]&#x200B;**&#x200B;**&#x200B;Se o cliente estiver configurado para se conectar com POP3 ou IMAP, a variável [!DNL Workfront] o suplemento não carrega.
+* [!DNL Outlook.com]&#x200B;**&#x200B;**&#x200B;Se o cliente estiver configurado para se conectar com POP3 ou IMAP, o suplemento [!DNL Workfront] não será carregado.
 
 ### Requisitos do servidor de email {#mail-server-requirements}
 
-Os requisitos do servidor de email são atendidos por padrão quando você se conecta ao [!DNL Office 365] ou [!DNL Outlook.com]. No entanto, se você estiver conectado a uma instalação local do [!DNL Exchange Server], são aplicáveis os seguintes requisitos:
+Os requisitos do servidor de email são atendidos por padrão quando você se conecta ao [!DNL Office 365] ou ao [!DNL Outlook.com]. No entanto, se você estiver conectado a uma instalação local do [!DNL Exchange Server], os seguintes requisitos se aplicam:
 
-* O Workfront oferece suporte a todos [!DNL Exchange On-Premise] servidores
+* A Workfront oferece suporte a todos os [!DNL Exchange On-Premise] servidores
 * [!DNL Exchange Web Services] (EWS) deve ser habilitado e deve ser exposto à Internet.
-* O servidor deve ter um certificado de autenticação válido para emitir tokens de identidade válidos. Novas instalações de [!DNL Exchange Server] incluir um certificado de autenticação padrão.
+* O servidor deve ter um certificado de autenticação válido para emitir tokens de identidade válidos. As novas instalações do [!DNL Exchange Server] incluem um certificado de autenticação padrão.
 
   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
-* Para acessar o [!DNL Workfront] suplemento do [[!DNL Office] Loja](https://store.office.com/), seus servidores de acesso para cliente devem poder se comunicar com  [https://store.office.com](https://store.office.com/).
+* Para acessar o suplemento [!DNL Workfront] da [[!DNL Office] Loja](https://store.office.com/), os servidores de acesso para cliente devem ser capazes de se comunicar com [https://store.office.com](https://store.office.com/).
 
-Para obter informações mais detalhadas sobre ambientes compatíveis, consulte a [[!DNL Microsoft Office 365] home page](https://products.office.com/en-us/office-365-home).
+Para obter informações mais detalhadas sobre os ambientes compatíveis, consulte a [[!DNL Microsoft Office 365] home page](https://products.office.com/en-us/office-365-home).
 
 ## Instalar o suplemento
 
-Você pode obter o suplemento Workfront para Outlook em [loja da Microsoft](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
+Você pode obter o suplemento Workfront para Outlook na [Microsoft store](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
 ### [!DNL Workfront] para [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. Entrada [!DNL Outlook 365], clique no link **[!UICONTROL Procurar Suplementos]** ícone ![](assets/outlook-add-in-26x26.png)na parte superior da interface do Office 365 e clique em **[!UICONTROL Gerenciar suplementos]**.
+1. Em [!DNL Outlook 365], clique no ícone ![](assets/outlook-add-in-26x26.png)Procurar Suplementos ]**na parte superior da interface do Office 365 e clique em**[!UICONTROL  Gerenciar suplementos ]**.**[!UICONTROL 
 
-1. No **[!UICONTROL Pesquisar suplementos]** caixa, pesquisar **[!DNL Workfront]** depois pressione [!UICONTROL Enter].
+1. Na caixa **[!UICONTROL Pesquisar suplementos]**, procure **[!DNL Workfront]** e pressione [!UICONTROL Enter].
 
 1. Clique em **[!UICONTROL Adicionar]**.
 
 ### [!DNL Workfront] para [!DNL Outlook] na Web {#workfront-for-outlook-on-the-web}
 
-1. Abertura [!DNL Microsoft Outlook] em um navegador da Web.
-1. Clique em **[!UICONTROL Procurar] suplementos** ícone ![](assets/outlook-add-in-web-version-20x20.png).
+1. Abra [!DNL Microsoft Outlook] em um navegador da Web.
+1. Clique no ícone **[!UICONTROL Procurar] suplementos** ![](assets/outlook-add-in-web-version-20x20.png).
 
-   Para localizar o ícone, consulte [Uso de suplementos no [!DNL Outlook] na Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) na documentação do Microsoft.
+   Para localizar o ícone, consulte [Uso de suplementos [!DNL Outlook] na Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) na documentação do Microsoft.
 
-1. Pesquisar por **[!DNL Workfront]** no **[!UICONTROL Pesquisar suplementos]** e pressione **[!UICONTROL Enter]**.
+1. Pesquise por **[!DNL Workfront]** no campo **[!UICONTROL Pesquisar suplementos]** e pressione **[!UICONTROL Enter]**.
 
 1. Quando ele aparecer na lista, clique em **Adicionar**.
 
-### [!DNL Workfront for Outlook] em [!UICONTROL Windows] ou [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
+### [!DNL Workfront for Outlook] no [!UICONTROL Windows] ou [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
 
-1. Clique em **[!UICONTROL Início]** > **[!UICONTROL Loja]** na fita.
+1. Clique em **[!UICONTROL Página Inicial]** > **[!UICONTROL Loja]** na faixa de opções.
 
-1. Pesquisar por **[!DNL Workfront]** no **[!UICONTROL Pesquisar]** e pressione **[!UICONTROL Enter]**.
+1. Pesquise por **[!DNL Workfront]** no campo **[!UICONTROL Pesquisa]** e pressione **[!UICONTROL Enter]**.
 
-1. Clique no botão de alternância para ativar a **[!UICONTROL [!DNL Workfront]suplemento]**.
+1. Clique no botão de alternância para habilitar o suplemento **[!UICONTROL [!DNL Workfront]]**.
 
-## Efetue logon no [!DNL Workfront] de [!DNL Outlook]
+## Fazer logon em [!DNL Workfront] a partir de [!DNL Outlook]
 
-1. Entrada [!DNL Outlook], selecione uma mensagem de email e clique no link **[!DNL Workfront]** no cabeçalho do email.
-1. Siga as instruções para fazer logon no [!DNL Workfront] usando a Autenticação aprimorada, o OAuth 2.0 ou o URL da SAML (Security Assertion Markup Language).
+1. Em [!DNL Outlook], selecione uma mensagem de email e clique no ícone **[!DNL Workfront]** no cabeçalho do email.
+1. Siga as instruções para fazer logon no [!DNL Workfront] usando a Autenticação Aprimorada, o OAuth 2.0 ou a URL da Linguagem de Marcação de Asserção de Segurança (SAML).
 
-   Antes que os usuários possam fazer logon na [!DNL Workfront] add-in usando SAML, um [!DNL Workfront] o administrador precisa primeiro habilitar [!DNL Office 365] suplementos para autenticar usando uma solução SAML 2.0. Para obter mais informações, consulte a seção [Configurar [!DNL Adobe Workfront] com SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) no artigo [Configurar [!DNL Adobe Workfront] com SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+   Para que os usuários possam fazer logon no suplemento [!DNL Workfront] usando SAML, um administrador do [!DNL Workfront] deve primeiro habilitar os suplementos do [!DNL Office 365] para autenticação usando uma solução SAML 2.0. Para obter mais informações, consulte a seção [Configurar [!DNL Adobe Workfront] com SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) no artigo [Configurar [!DNL Adobe Workfront] com SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
    >[!NOTE]
    >
-   >* Quando for solicitado que você insira o domínio de seu [!DNL Workfront] digite-a usando este formato: *yourCompany&#39;sDomain.my.workfront.com*. O domínio da sua empresa geralmente é o nome da sua empresa.
-   >* A Autenticação aprimorada não estará disponível até que um [!DNL Workfront] o administrador o habilita nessa integração.
+   >* Quando for solicitado que você insira o domínio da sua conta do [!DNL Workfront], digite-o usando este formato: *yourCompany&#39;sDomain.my.workfront.com*. O domínio da sua empresa geralmente é o nome da sua empresa.
+   >* A Autenticação Aprimorada não estará disponível até que um administrador do [!DNL Workfront] a habilite para esta integração.
 

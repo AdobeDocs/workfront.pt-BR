@@ -55,8 +55,8 @@ Você deve ter o seguinte:
 
 ## Abrir a exibição Resumo
 
-1. Vá para a **Documentos** e selecione um item na lista.
-1. Clique em **Ícone Abrir resumo** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Vá para a área **Documentos** e selecione um item na lista.
+1. Clique no ícone **Abrir Resumo** ![](assets/qs-summary-in-new-toolbar-small.png).
 
    Após abrir o Resumo, ele permanece aberto quando você clica em outros documentos e permanece aberto até que você o feche manualmente.
 
@@ -64,7 +64,7 @@ Você deve ter o seguinte:
 
 ## Detalhes
 
-Use a seção Detalhes para exibir informações de visão geral de alto nível e interagir com formulários personalizados. Clique em **Detalhes** na parte superior da seção para acessar a página Detalhes do documento completa.
+Use a seção Detalhes para exibir informações de visão geral de alto nível e interagir com formulários personalizados. Clique em **Detalhes** na parte superior da seção para ir para a página Detalhes do documento completa.
 
 * [Visão geral](#overview)
 * [Formulários personalizados](#custom-forms)
@@ -87,7 +87,7 @@ Use a seção Forms personalizado para adicionar, editar ou exibir quaisquer for
 
 Use a seção Atualizações para ler e atualizar alguém feito no documento ou na prova. O resumo mostra os dois primeiros comentários feitos. Para obter mais informações sobre atualizações, consulte [Comentar em uma prova](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Seção Atualizações no painel Resumo](assets/summary-updates-section-new-comments.png)
+![Atualiza a seção no painel Resumo](assets/summary-updates-section-new-comments.png)
 
 ## Aprovações
 
@@ -95,14 +95,14 @@ Use a seção Aprovações para solicitar uma aprovação de documento. Você ta
 
 Aprovações de provas devem ser adicionadas no Fluxo de trabalho de provas. Para obter mais informações sobre aprovações, consulte
 
-* [Aprovar trabalho](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [Aprovando trabalho](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Solicitar aprovações de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versões
 
-Use a seção Versões para exibir o número de versões criadas para um documento específico. Clique em **Menu Mais** para
+Use a seção Versões para exibir o número de versões criadas para um documento específico. Clique no **Mais menu** para
 
 * Abrir uma prova
 * Baixar uma prova ou documento

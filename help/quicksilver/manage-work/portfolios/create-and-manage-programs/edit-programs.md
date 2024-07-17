@@ -2,26 +2,26 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Editar programas
-description: É possível editar informações sobre programas que você criou ou que outros usuários criaram se compartilharam com você.
+description: É possível editar informações sobre programas criados por você ou criados por outros usuários, caso eles tenham sido compartilhados com você.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 1%
+source-wordcount: '1052'
+ht-degree: 0%
 
 ---
 
 # Editar programas
 
-É possível editar informações sobre programas que você criou ou que outros usuários criaram se compartilharam com você.
+É possível editar informações sobre programas criados por você ou criados por outros usuários, caso eles tenham sido compartilhados com você.
 
-Você pode editar um programa na página do programa ou pode editar programas em uma lista.
+Você pode editar um programa na página Programa ou editar programas em uma lista.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,29 +29,29 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Acesso à [!UICONTROL Editar] para programas</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a programas em seu Nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">Conceder acesso aos programas</a>. Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td> <p>Acesso de [!UICONTROL Editar] a Programas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre o acesso a programas no seu Nível de Acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">Conceder acesso a programas</a>. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do [!UICONTROL Gerenciar] para um programa</p> <p> Para obter informações sobre a concessão de permissões para programas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">Compartilhar um programa </a>. </p> <p>Para obter informações sobre a solicitação de permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL Gerenciar] permissões para um programa</p> <p> Para obter informações sobre como conceder permissões a programas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">Compartilhar um programa </a>. </p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Editar programas
 
-1. Vá para o **[!UICONTROL Menu principal]**.
-1. Clique em **[!UICONTROL Programas]**, em seguida, clique no nome de um programa para abri-lo.
+1. Vá para o **[!UICONTROL Menu Principal]**.
+1. Clique em **[!UICONTROL Programas]** e no nome de um programa para abri-lo.
 
    >[!TIP]
    >
@@ -67,42 +67,41 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    >[!NOTE]
    >
-   >Dependendo de como o [!DNL Workfront] administrador ou administrador de grupo modificou seu Modelo de layout, os campos na [!UICONTROL Detalhes do programa] pode ser reorganizada ou não ser exibida. Para obter mais informações, consulte [Personalize o [!UICONTROL Detalhes] exibir usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Dependendo de como o administrador do [!DNL Workfront] ou o administrador de Grupo modificou o Modelo de Layout, os campos na área [!UICONTROL Detalhes do Programa] podem ser reorganizados ou não ser exibidos. Para obter informações, consulte [Personalizar a exibição [!UICONTROL Detalhes] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   Para editar informações na [!UICONTROL Detalhes] faça o seguinte:
+   Para editar informações na seção [!UICONTROL Detalhes], faça o seguinte:
 
-   1. (Opcional) Clique no botão **[!UICONTROL Recolher Tudo]** ícone no canto superior direito para recolher todas as áreas.
-   1. (Opcional e condicional) Quando uma área for recolhida, clique no botão **seta apontando para a direita** ![](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
-   1. Para obter informações sobre os campos visíveis no [!UICONTROL Detalhes do programa] , continue com a edição do programa no [!UICONTROL Editar programa] conforme descrito abaixo.
-   1. (Opcional) Se não houver formulários personalizados anexados ao programa, comece a digitar o nome de um formulário no **[!UICONTROL Adicionar formulário personalizado]** , selecione-o quando for exibido na lista e clique em **[!UICONTROL Salvar alterações]**.
-   1. (Opcional) Clique no botão **[!UICONTROL Exportar]** ícone ![](assets/export.png) para exportar o [!UICONTROL Visão geral] e informações personalizadas de formulários para um arquivo PDF, em seguida, clique em **[!UICONTROL Exportar]**. Selecione uma das opções a seguir:
+   1. (Opcional) Clique no ícone **[!UICONTROL Recolher Tudo]** no canto superior direito para recolher todas as áreas.
+   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
+   1. Para obter informações sobre os campos visíveis na seção [!UICONTROL Detalhes do Programa], continue editando o programa na caixa [!UICONTROL Editar Programa], conforme descrito abaixo.
+   1. (Opcional) Se não houver formulários personalizados anexados ao programa, comece digitando o nome de um formulário no campo **[!UICONTROL Adicionar formulário personalizado]**, selecione-o quando ele for exibido na lista e clique em **[!UICONTROL Salvar alterações]**.
+   1. (Opcional) Clique no ícone **[!UICONTROL Exportar]** ![](assets/export.png) para exportar a [!UICONTROL Visão geral] e as informações de formulários personalizados para um arquivo PDF e, em seguida, clique em **[!UICONTROL Exportar]**. Selecione entre as seguintes opções:
 
       * Selecionar tudo (é exibido somente quando há pelo menos um formulário personalizado anexado)
       * [!UICONTROL Visão geral]
       * O nome de um ou vários formulários personalizados
 
-      O arquivo PDF é baixado para o computador.
+      O arquivo PDF é baixado no computador.
 
       ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      Para obter mais informações, consulte [Exportar formulários personalizados e detalhes do objeto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
-
+      Para obter mais informações, consulte [Exportar detalhes de formulários e objetos personalizados](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Para editar todas as informações sobre um ou mais programas, siga um destes procedimentos:
 
-   * Clique no botão **[!UICONTROL Mais]** menu ![](assets/more-icon.png) ao lado do nome do programa, em seguida, &#x200B;**[!UICONTROL Editar].**
-   * Vá para uma lista de programas, selecione um ou mais programas que deseja editar e clique no botão **[!UICONTROL Editar]** ícone ![](assets/edit-icon.png) na parte superior da lista.
+   * Clique no menu **[!UICONTROL Mais]** ![](assets/more-icon.png) ao lado do nome do programa e, em seguida&#x200B;**[!UICONTROL Editar].**
+   * Vá para uma lista de programas, selecione um ou mais programas que deseja editar e clique no ícone **[!UICONTROL Editar]** ![](assets/edit-icon.png) na parte superior da lista.
 
-   O **[!UICONTROL Editar programa]** será exibida.
+   A caixa de diálogo **[!UICONTROL Editar Programa]** é exibida.
 
    ![](assets/edit-program-box-nwe-350x236.png)
 
-   Todos os campos do programa estão disponíveis na variável [!UICONTROL Editar programa] e são agrupadas pelas áreas listadas no painel esquerdo.
+   Todos os campos de programa estão disponíveis na caixa [!UICONTROL Editar Programa] e são agrupados pelas áreas listadas no painel esquerdo.
 
 1. Considere especificar informações em qualquer uma das seguintes seções:
 
@@ -131,24 +130,24 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Atualize o nome do programa. </p> <p>Dica: Isso não está disponível quando você selecionou mais de um programa. </p> </td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td> <p>Atualize o nome do programa. </p> <p>Dica: não está disponível quando você selecionou mais de um programa. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Descrição]</td> 
       <td> <p>Digite uma descrição para o Portfolio para indicar o que é exclusivo sobre ele. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Gerenciador do programa]</td> 
-      <td> <p>Comece a digitar o nome de um usuário que você deseja indicar como o gerente do programa e selecione-o quando ele for exibido na lista. Quem pode fiscalizar o trabalho definido nos projetos do programa é essa pessoa. </p> <p>Importante: Quando você designa alguém como o Gerenciador de programas, ele obtém automaticamente as permissões do [!UICONTROL Manager] para o programa e os projetos do programa. </p> <p>Dica: Você pode atualizar rapidamente o gerente do programa no cabeçalho do programa. </p> </td> 
+      <td role="rowheader">[!UICONTROL Gerenciador de Programas]</td> 
+      <td> <p>Comece digitando o nome de um usuário que deseja indicar como gerente de programa e, em seguida, selecione-o quando ele aparecer na lista. Essa é a pessoa que pode supervisionar o trabalho definido nos projetos do programa. </p> <p>Importante: quando você designa alguém como Gerente de programa, ele automaticamente obtém permissões do [!UICONTROL Manager] para o programa e os projetos no programa. </p> <p>Dica: você pode atualizar rapidamente o gerenciador de programas no cabeçalho do programa. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Grupo]</td> 
-      <td> <p>Adicione o nome de um único grupo se ele estiver associado ao programa ou tiver a responsabilidade de completá-lo. </p> <p>Dica:  <p>Ao acessar o campo [!UICONTROL Group] da página [!UICONTROL Program Details], faça o seguinte: </p> <p>Certifique-se de selecionar o grupo correto ao passar o mouse sobre ele e clicar no ícone [!UICONTROL informações] <img src="assets/info-icon.png"> que é exibido ao lado dele. Isso exibe uma dica de ferramenta listando informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Essa opção não está disponível na caixa [!UICONTROL Editar programa]. </p> </p> </td> 
+      <td> <p>Adicione o nome de um único grupo se ele estiver associado ao programa ou tiver responsabilidade de concluí-lo. </p> <p>Dica:  <p>Ao acessar o campo [!UICONTROL Group] a partir da página [!UICONTROL Detalhes do programa], faça o seguinte: </p> <p>Você pode verificar se está selecionando o grupo correto passando o mouse sobre ele e clicando no ícone [!UICONTROL information] <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opção não está disponível na caixa [!UICONTROL Editar Programa]. </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Está Ativo]</td> 
-      <td> <p> Marque essa caixa de seleção se desejar que o programa esteja ativo. Outros usuários podem encontrar programas ativos e anexá-los a projetos ou adicioná-los a portfólios. Os programas inativos não podem ser anexados a projetos ou portfólios. Isso é ativado por padrão.</p> </td> 
+      <td> <p> Marque essa caixa de seleção se desejar que o programa fique ativo. Outros usuários podem encontrar programas ativos e anexá-los a projetos ou adicioná-los a portfólios. Programas inativos não podem ser anexados a projetos ou portfólios. Isso é ativado por padrão.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -158,25 +157,25 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 ### [!UICONTROL Formulários personalizados]
 
 1. Comece a editar o programa conforme descrito acima.
-1. Clique no botão **[!UICONTROL Adicionar Forms]** menu suspenso para selecionar um formulário personalizado e adicioná-lo ao programa.
+1. Clique no menu suspenso **[!UICONTROL Adicionar Forms]** para selecionar formulários personalizados e adicioná-los ao programa.
 
    Você deve criar formulários personalizados do programa antes que eles estejam disponíveis para adição.
 
    >[!NOTE]
    >
-   >Dependendo de como o [!DNL Workfront] O administrador definiu as permissões para as seções em seu formulário personalizado. Nem todos podem exibir ou editar os mesmos campos em um determinado formulário personalizado. As permissões para editar campos em uma seção de um formulário personalizado dependem das permissões que você tem no próprio programa. Para obter informações sobre como configurar permissões em seções de um formulário personalizado, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   >Dependendo de como o administrador do [!DNL Workfront] definiu as permissões para as seções no formulário personalizado, nem todos podem exibir ou editar os mesmos campos em um determinado formulário personalizado. As permissões para editar campos em uma seção de um formulário personalizado dependem das permissões que você tem no próprio programa. Para obter informações sobre como configurar permissões em seções de um formulário personalizado, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Atualize quaisquer campos nos formulários personalizados e clique em **[!UICONTROL Salvar alterações]** ou continue com a seção a seguir.
+1. Atualize todos os campos nos formulários personalizados e clique em **[!UICONTROL Salvar alterações]** ou continue com a seção a seguir.
 
 ### [!UICONTROL Comentário] {#comment}
 
 1. Comece a editar um programa conforme descrito acima.
-1. Clique em **[!UICONTROL Comentário]**.
+1. Clique em **[!UICONTROL Comentário]**.
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. Adicione um comentário na **[!UICONTROL Publicar uma atualização no programa]** campo.
-1. (Opcional) Clique no botão **[!UICONTROL Pessoas]** ícone para adicionar um usuário ou uma equipe ao comentário.
-1. (Opcional) Clique no botão **[!UICONTROL Bloquear]** ícone para bloquear o comentário e torná-lo privado somente para usuários em sua empresa.
+1. Adicione um comentário no **[!UICONTROL Post e atualize o campo do programa]**.
+1. (Opcional) Clique no ícone **[!UICONTROL Pessoas]** para adicionar um usuário ou uma equipe ao comentário.
+1. (Opcional) Clique no ícone **[!UICONTROL Bloquear]** para bloquear o comentário e torná-lo privado somente para os usuários em sua empresa.
 
-   Depois de salvar as alterações, o comentário adicionado é exibido no relatório de [!UICONTROL Atualizações] e envia um email para os usuários incluídos nela.
+   Depois de salvar as alterações, o comentário adicionado é exibido na guia [!UICONTROL Atualizações] do programa e envia um email aos usuários incluídos nele.

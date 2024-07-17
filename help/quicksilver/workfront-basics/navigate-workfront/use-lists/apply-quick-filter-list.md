@@ -25,19 +25,19 @@ Você pode usar o filtro rápido em uma lista de objetos para ajudá-lo a locali
 >Você pode encontrar itens que contenham uma palavra de pesquisa usando filtros rápidos, independentemente de esse item ter sido fisicamente exibido na tela ou ser exibido depois que você rolar para a parte inferior da página. Ao usar os recursos de pesquisa do seu navegador, você só pode encontrar itens que são fisicamente exibidos na tela. Se sua lista tem várias páginas, os filtros rápidos não localizam itens que estejam em páginas que não são exibidas.
 
 Se quiser salvar um filtro rápido, recomendamos que você crie um filtro permanente para sua lista.\
-Para obter mais informações sobre como criar filtros no [!DNL Adobe Workfront], consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obter informações sobre como criar filtros no [!DNL Adobe Workfront], consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 O filtro rápido está disponível atualmente nas seguintes áreas
 
 
 É possível usar filtros rápidos temporários em todas as listas, exceto os seguintes:
 
-* A variável [!UICONTROL Relatórios] área
+* A área [!UICONTROL Relatórios]
 * Listas de documentos e relatórios
-* Vários [!UICONTROL Configuração] áreas
+* Várias áreas de [!UICONTROL Instalação]
   >[!NOTE]
   >
-  >Filtros rápidos estão disponíveis nas seguintes áreas de configuração: [!UICONTROL Grupos], [!UICONTROL Equipes], [!UICONTROL Empresas], [!UICONTROL Agendamentos], [!UICONTROL Modelos de layout], e [!UICONTROL Forms personalizado].
+  >Filtros rápidos estão disponíveis nas seguintes áreas de configuração: [!UICONTROL Grupos], [!UICONTROL Equipes], [!UICONTROL Empresas], [!UICONTROL Agendamentos], [!UICONTROL Modelos de Layout] e [!UICONTROL Forms Personalizada].
 
 
 Considere o seguinte ao aplicar filtros rápidos a uma lista:
@@ -68,20 +68,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><b>Configurações de nível de acesso*</b></td> 
-   <td> <p>Visualizar o acesso à área em que a lista está</p> <p>Por exemplo, para aplicar um filtro rápido a um projeto, é necessário ter acesso à [!UICONTROL View] para Projetos.</p> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso.<br>Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualizar o acesso à área em que a lista está</p> <p>Por exemplo, para aplicar um filtro rápido a um projeto, é necessário ter acesso à [!UICONTROL View] para Projetos.</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso.<br>Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><b>Permissões de objeto</b></td> 
-   <td> <p>[!UICONTROL Exibir]</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL Exibir]</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Aplicar um filtro rápido a uma lista
 
-1. Vá para uma lista ou relatório que suporta filtros rápidos e clique no link **[!UICONTROL Filtro rápido] ícone** ![](assets/qs-quick-filter-icon.png) na barra de ferramentas.
+1. Vá para uma lista ou um relatório que tenha suporte para filtros rápidos e clique no ícone **[!UICONTROL Filtro Rápido]** ![](assets/qs-quick-filter-icon.png) na barra de ferramentas.
 
    Ou
 
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      >
      >Se você pressionar CTRL+F ou CMD+F, uma dica de ferramenta será exibida ao lado do filtro rápido para lembrá-lo sobre esses comandos. Os comandos também são exibidos dentro da caixa de pesquisa de filtro rápido.
 
-1. No **[!UICONTROL Filtrar página]** digite a palavra-chave pela qual deseja filtrar.
+1. Na caixa **[!UICONTROL Filtrar página]**, digite a palavra-chave pela qual deseja filtrar.
 
    Você pode usar qualquer palavra exibida atualmente na exibição da lista.
 
@@ -102,7 +102,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Se você usar uma palavra que pode ser exibida em outra página da lista, o filtro rápido não encontrará resultados.
 
-   Uma lista de itens que correspondem aos critérios de pesquisa é exibida dinamicamente na lista à medida que você digita e todos os outros itens são ocultados. A palavra-chave usada na pesquisa é realçada em amarelo em todos os campos independentes e complexos. Alguns exemplos de campos complexos são colunas compartilhadas ou qualquer um dos seguintes: [!UICONTROL Atribuições], [!UICONTROL Atribuições] e [!UICONTROL Status], [!UICONTROL Percentual Completo], [!UICONTROL Predecessores], [!UICONTROL Aprovadores e Status], [!UICONTROL Gerentes de recursos], [!UICONTROL Categorias], [!UICONTROL Condição], [!UICONTROL Atualização da Condição], etc.
+   Uma lista de itens que correspondem aos critérios de pesquisa é exibida dinamicamente na lista à medida que você digita e todos os outros itens são ocultados. A palavra-chave usada na pesquisa é realçada em amarelo em todos os campos independentes e complexos. Alguns exemplos de campos complexos são colunas compartilhadas ou qualquer um dos seguintes: [!UICONTROL Atribuições], [!UICONTROL Atribuições] e [!UICONTROL Status], [!UICONTROL Percentual Concluído], [!UICONTROL Predecessoras], [!UICONTROL Aprovadores e Status], [!UICONTROL Gerentes de Recursos], [!UICONTROL Categorias], [!UICONTROL Condição], [!UICONTROL Atualização de Condição], etc.
 
 1. (Opcional) Para editar em massa os itens encontrados pelo filtro rápido:
 
@@ -118,6 +118,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >Somente os itens encontrados na exportação da pesquisa de filtro rápido para o arquivo selecionado. Se você não selecionar nenhum item antes de exportar a lista, a lista completa e não filtrada será exportada.\
    >Para obter mais informações, consulte [Exportar uma lista](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Opcional) Para limpar os resultados filtrados, clique no link **[!UICONTROL Filtro rápido]** no canto superior direito da janela.\
+1. (Opcional) Para limpar os resultados filtrados, clique no ícone **[!UICONTROL Filtro rápido]**, no canto superior direito da janela.\
    Ou\
    Atualize a página.

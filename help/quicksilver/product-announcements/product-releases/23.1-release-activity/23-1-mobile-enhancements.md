@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias móveis feitas com a versão 23.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 16 de janeiro de 2023.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte a [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Quadros agora está disponível no aplicativo móvel
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de análise feitas com a versão 20.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 9 de novembro de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 20.4, consulte [Visão geral da versão 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 20.4, consulte a [visão geral da versão 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Paginação e classificação adicionadas à Análise aprimorada
 
@@ -29,4 +29,4 @@ Para permitir que você visualize as informações que deseja ver sem precisar a
 
 Anteriormente, a área Analítica aprimorada limitava a quantidade de projetos que podiam ser visualizados a 50.
 
-Esse recurso agora está incluído na [Caminho de aprendizagem do Analytics aprimorado, Parte 1](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado do Enhanced Analytics, Parte 1](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) no Workfront One.

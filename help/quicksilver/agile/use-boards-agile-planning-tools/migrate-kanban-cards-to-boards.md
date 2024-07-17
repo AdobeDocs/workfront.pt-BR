@@ -5,8 +5,8 @@ title: Migrar cartões Kanban da Equipe Ágil para quadros do Workfront
 description: Você pode migrar seus itens de trabalho de um quadro Kanban da Equipe Ágil para um quadro Workfront novo ou existente.
 author: Lisa
 feature: Agile
-exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody>
   <tr>
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td>
-   <td> <p>Qualquer Um</p> </td>
+   <td> <p>Qualquer</p> </td>
   </tr>
   <tr>
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td>
@@ -42,15 +42,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody>
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Migrar cartões Kanban para um novo quadro
 
 {{step1-to-team}}
 
 1. Acessar um quadro Kanban.
-1. Clique em [!UICONTROL **Adicionar a painéis**] e selecione [!UICONTROL **Novo painel**].
-1. No [!UICONTROL Adicionar ao novo quadro] digite um nome para o novo quadro (o nome do atual [!UICONTROL Kanban] automaticamente) e clique em [!UICONTROL **Adicionar**].
+1. Clique em [!UICONTROL **Adicionar aos Quadros**] e selecione [!UICONTROL **Novo Quadro**].
+1. Na caixa de diálogo [!UICONTROL Adicionar ao novo painel], digite um nome para o novo painel (o nome do atual painel [!UICONTROL Kanban] é exibido automaticamente) e clique em [!UICONTROL **Adicionar**].
 
    ![Adicionar cartões Kanban ao novo quadro](assets/add-kanban-cards-to-new-board-dialog.png)
 
@@ -61,8 +61,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 {{step1-to-team}}
 
 1. Acessar um quadro Kanban.
-1. Clique em [!UICONTROL **Adicionar a painéis**] e selecione [!UICONTROL **Quadro existente**].
-1. No [!UICONTROL Adicionar a um quadro existente] , procure e selecione o quadro para o qual migrar os cartões. Em seguida, clique em [!UICONTROL **Adicionar**].
+1. Clique em [!UICONTROL **Adicionar aos Quadros**] e selecione [!UICONTROL **Quadro Existente**].
+1. Na caixa de diálogo [!UICONTROL Adicionar ao quadro existente], procure e selecione o quadro para o qual migrar os cartões. Em seguida, clique em [!UICONTROL **Adicionar**].
 
    ![Adicionar cartões Kanban ao quadro existente](assets/add-kanban-cards-to-existing-board-dialog.png)
 

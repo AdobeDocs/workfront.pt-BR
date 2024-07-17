@@ -28,9 +28,9 @@ A classificação do quadro classifica todos os cartões nas colunas. Não é po
 
 A pesquisa também ajuda a localizar um cartão específico no quadro.
 
-Quando os filtros são aplicados, um indicador é exibido no quadro ![Filtro aplicado ao quadro](assets/boards-filterapplied-30x30.png). Clique em **[!UICONTROL Limpar tudo]** para remover todos os filtros do quadro, e clique no ícone recolher para fechar o painel filtro.
+Quando os filtros são aplicados, um indicador é exibido no quadro ![Filtro aplicado ao quadro](assets/boards-filterapplied-30x30.png). Clique em **[!UICONTROL Limpar tudo]** para remover todos os filtros do quadro e clique no ícone recolher para fechar o painel de filtro.
 
-![Painel Filtro](assets/boards-all-filters-collapsed-0823.png)
+![Painel de filtros](assets/boards-all-filters-collapsed-0823.png)
 
 ## Requisitos de acesso
 
@@ -42,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -51,27 +51,27 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Filtrar um quadro por responsáveis
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Membros] e selecione a pessoa ou as pessoas cujos cartões você deseja ver. Também é possível exibir cartões não atribuídos.
+1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Membros] e selecione a pessoa ou as pessoas cujos cartões você deseja ver. Também é possível exibir cartões não atribuídos.
 
    ![Filtrar por membro](assets/boards-filter-by-assignees-0822.png)
 
 ## Filtrar um quadro por tags
 
 1. Acesse o quadro.
-1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Tags] e selecione as tags que deseja ver.
+1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Marcas] e selecione as marcas que deseja ver.
 
-   ![Filtrar por tag](assets/boards-filter-by-tags-0822.png)
+   ![Filtrar por marca](assets/boards-filter-by-tags-0822.png)
 
 ## Filtrar um quadro por status
 
 1. Acesse o quadro.
-1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Status] e selecione os tipos de status que deseja ver.
+1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Status] e selecione os tipos de status que deseja ver.
 
    Também é possível ocultar cartões concluídos.
 
@@ -80,7 +80,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Filtrar um quadro pela data de vencimento
 
 1. Acesse o quadro.
-1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Prazo] e selecione as opções de data que deseja ver.
+1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Data de Conclusão] e selecione as opções de data que deseja ver.
 
    Somente cartões nos intervalos de datas selecionados são exibidos.
 
@@ -91,10 +91,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode filtrar o quadro para exibir também todos os cartões arquivados.
 
 1. Acesse o quadro.
-1. Clique em [!UICONTROL **Configurar**] à direita da placa para abrir o painel Configurar.
-1. Expandir [!UICONTROL **Cartões**].
-1. Ativar [!UICONTROL **Exibir cartões arquivados no quadro**].
-1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Cartões arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir cartões arquivados.
+1. Clique em [!UICONTROL **Configurar**] à direita do quadro para abrir o painel Configurar.
+1. Expanda [!UICONTROL **Cartões**].
+1. Ative [!UICONTROL **Exibir cartões arquivados no quadro**].
+1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Cartões Arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir todos os cartões arquivados.
 
    O filtro mostra o número de cartões arquivados.
 
@@ -102,14 +102,14 @@ Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode f
 
    >[!NOTE]
    >
-   >A variável [!UICONTROL Cartões arquivados] A seção não está disponível no filtro se você não ativou a configuração para exibir cartões arquivados. Para obter mais informações, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >A seção [!UICONTROL Cartões Arquivados] não estará disponível no filtro se você não tiver ativado a definição de configuração para exibir cartões arquivados. Para obter mais informações, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-1. Selecionar **[!UICONTROL Cartões arquivados]** novamente para desmarcar a opção e exibir somente cartões ativos.
+1. Selecione **[!UICONTROL Cartões arquivados]** novamente para limpar a opção e exibir apenas cartões ativos.
 
 ## Filtrar um quadro por conexão
 
 1. Acesse o quadro.
-1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Conexão] e selecione o [!DNL Workfront] projetos para os cartões conectados que você deseja ver.
+1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Conexão] e selecione os projetos [!DNL Workfront] para os cartões conectados que você deseja ver.
 
    Você também pode exibir cartões que não estão conectados a um projeto.
 
@@ -120,13 +120,13 @@ Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode f
 Quando você seleciona uma opção para classificar por, todas as colunas são classificadas. Não é possível classificar uma única coluna, e a coluna de backlog ou de entrada não é classificada.
 
 1. Acesse o quadro.
-1. Clique em [!UICONTROL **Classificar por**] e selecione [!UICONTROL **Nome**], [!UICONTROL **Prazo**], [!UICONTROL **Estimativa**], [!UICONTROL **Status**] ou [!UICONTROL **Conexão**].
+1. Clique em [!UICONTROL **Classificar por**] e selecione [!UICONTROL **Nome**], [!UICONTROL **Data de vencimento**], [!UICONTROL **Estimativa**], [!UICONTROL **Status**] ou [!UICONTROL **Conexão**].
 
    A conexão (nome do projeto) se aplica somente a cartões conectados e as outras opções classificarão os cartões conectados e ad hoc nas colunas.
 
    A opção &quot;ordem do usuário&quot; retorna os cartões na ordem em que foram definidos manualmente, antes de qualquer outra opção de classificação ser aplicada. Essa é a classificação padrão das colunas.
 
-1. Selecionar [!UICONTROL **Ordem inversa**] para classificar as colunas na ordem inversa da opção de classificação.
+1. Selecione [!UICONTROL **Ordem inversa**] para classificar as colunas em ordem inversa da opção de classificação.
 
    A seta no ícone de classificação indica se as colunas são classificadas em ordem crescente ou decrescente.
 

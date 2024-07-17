@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 4 2018.3
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 Beta 4. A funcionalidade estará disponível no ambiente de Pré-visualização em 30 de agosto de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
+title: Atividade da versão 2018.3 do Beta 4
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 4. A funcionalidade estará disponível no ambiente de Pré-visualização em 30 de agosto de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 4 2018.3
+# Atividade da versão 2018.3 do Beta 4
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 Beta 4. A funcionalidade estará disponível no ambiente de Pré-visualização em 30 de agosto de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 4. A funcionalidade estará disponível no ambiente de Pré-visualização em 30 de agosto de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 
-Para obter uma lista de todas as alterações feitas em 2018.3, consulte  [Visão geral da atividade da versão 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.3, consulte  Visão geral da atividade da versão [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-A versão Beta 4 de 2018.3 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2018.3 do Beta 4 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
-* [Atualizar estrutura de relatórios no Perfil do usuário como administrador de grupo](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
+* [Atualizar estrutura de relatórios no Perfil de usuário como administrador de grupo](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
 * [Exportar mais informações do Planejador de recursos](#export-more-information-from-the-resource-planner)
-* [Melhorias na lista de tarefas](#task-list-improvements) Removido da versão
-* [Melhorias na lista de projetos](#project-list-improvements)
-* [Editando a Lista de Tarefas no Modo de Edição do Gráfico de Gantt](#editing-the-task-list-in-gantt-chart-edit-mode) Removido da versão
+* [Melhorias na Lista de Tarefas](#task-list-improvements) Removidas da Versão
+* [Melhorias na Lista de Projetos](#project-list-improvements)
+* [A Edição da Lista de Tarefas no Modo de Edição do Gráfico de Gantt](#editing-the-task-list-in-gantt-chart-edit-mode) foi removida da Liberação
 * [Cores da Ferramenta de Medida](#measurement-tool-colors)
-* [Abrir provas em uma nova guia](#proofs-open-in-a-new-tab)  Removido da versão
+* [Abrir Provas em uma Nova Guia](#proofs-open-in-a-new-tab) Removida da Versão
 
-* [Melhorias no resumo de impressão](#print-summary-enhancements)
+* [Melhorias no Resumo de Impressão](#print-summary-enhancements)
 * [Registrar tempo em dias no aplicativo móvel do Workfront](#log-time-in-days-in-the-workfront-mobile-app)
 
 ## Atualizar estrutura de relatórios no Perfil do usuário como administrador de grupo {#update-reporting-structure-in-the-user-profile-as-a-group-administrator}
@@ -52,7 +52,7 @@ Agora você pode exportar informações de até 52 semanas, 36 meses ou 12 trime
 
 Anteriormente, só era possível exportar até um máximo de 4 semanas, meses ou trimestres por vez.
 
-Para obter mais informações, consulte [Exportar informações do Planejador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obter mais informações, consulte [Exportar informações do Planejador de Recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Melhorias na lista de tarefas {#task-list-improvements}
 
@@ -82,7 +82,7 @@ A seguinte funcionalidade foi alterada nas listas de tarefas:
 
 Para obter mais informações sobre como trabalhar em listas, consulte [Introdução a listas no Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Para obter mais informações sobre tarefas de encadeamento no gráfico de Gantt, consulte [Criar relacionamentos de predecessores por encadeamento de tarefas](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+Para obter mais informações sobre encadeamento de tarefas no gráfico de Gantt, consulte [Criar relações de predecessoras encadeando tarefas](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 
 ## Melhorias na lista de projetos {#project-list-improvements}
 
@@ -112,7 +112,7 @@ Embora você possa ver como as alterações afetam a linha do tempo do projeto, 
 
 Anteriormente, não era possível executar essas ações em tarefas quando elas eram exibidas no modo de edição do Gráfico de Gantt. Você poderia fazer essas alterações em uma lista de tarefas que não era exibida no gráfico de Gantt, mas elas eram imediatas.
 
-Para obter informações sobre como editar tarefas no Gráfico de Gantt, consulte [Atualizar informações no Diagrama de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obter informações sobre como editar tarefas no Gráfico de Gantt, consulte [Atualizar informações na lista de tarefas Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Cores da Ferramenta de Medida {#measurement-tool-colors}
 
@@ -128,7 +128,7 @@ Anteriormente, a ferramenta de medição era exibida apenas em azul, o que dific
 >
 >* Este recurso foi removido do ambiente de Pré-visualização e não será incluído na versão 2018.3.
 
-Ao abrir uma prova em qualquer lugar no Workfront ou no Workfront Proof, o visualizador de provas agora é iniciado em uma nova guia do navegador e o foco muda para essa guia. É possível trabalhar em várias guias do navegador, revisar provas e continuar seu trabalho em projetos, tarefas e problemas no Workfront ou Workfront Proof.
+Ao abrir uma prova em qualquer lugar no Workfront ou Workfront Proof, o visualizador de provas agora é iniciado em uma nova guia do navegador e o foco muda para essa guia. Você pode trabalhar em várias guias do navegador, revisar provas e continuar seu trabalho em projetos, tarefas e problemas no Workfront ou Workfront Proof.
 
 Anteriormente, o visualizador de provas era iniciado em um quadro na parte superior da guia atual do navegador Workfront ou Workfront Proof, tornando essa guia inacessível até que você fechasse o visualizador de provas.
 

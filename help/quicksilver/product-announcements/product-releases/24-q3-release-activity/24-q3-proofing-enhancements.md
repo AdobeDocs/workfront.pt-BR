@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de prova feitas com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do terceiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Atualizações de segurança para o Visualizador de provas de desktop
 

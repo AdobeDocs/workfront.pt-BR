@@ -1,6 +1,6 @@
 ---
-title: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 28 de fevereiro de 2022'
-description: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 28 de fevereiro de 2022'
+title: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 28 de fevereiro de 2022
+description: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 28 de fevereiro de 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 28 de fevereiro de 2022.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Selecione a versão da API em Azure DevOps > Módulo de chamada da API personalizada
 

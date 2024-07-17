@@ -1,8 +1,8 @@
 ---
 product-area: user-management
 navigation-topic: workfront-navigation
-title: Entender a navegação de um usuário de licença de revisão
-description: O Menu Principal muda com o nível de acesso que foi atribuído pelo seu [!DNL Adobe Workfront] administrador. Por padrão, você recebe acesso somente às áreas que incluem funcionalidade permitida pelo seu nível de acesso.
+title: Entender a navegação de um usuário com licença de revisão
+description: O menu principal muda com o nível de acesso que você foi atribuído pelo seu administrador [!DNL Adobe Workfront] O. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
@@ -13,31 +13,31 @@ ht-degree: 0%
 
 ---
 
-# Entender a navegação para um [!UICONTROL Revisão]-licenciado usuário
+# Compreender a navegação de um usuário de licença do [!UICONTROL Review]
 
-O  [!UICONTROL Menu principal] alterações com o nível de acesso atribuído por [!DNL Adobe Workfront] administrador. Por padrão, você recebe acesso somente às áreas que incluem funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o padrão [!DNL Adobe Workfront] layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+O [!UICONTROL Menu Principal] é alterado com o nível de acesso atribuído a você pelo administrador do [!DNL Adobe Workfront]. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o layout padrão [!DNL Adobe Workfront] 2}.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
 
-## Entender o padrão [!UICONTROL Menu principal] de [!UICONTROL Revisor]
+## Entender o [!UICONTROL Menu Principal] padrão de um [!UICONTROL Revisor]
 
-Como um [!UICONTROL Revisor], sua principal responsabilidade é revisar, comentar e aprovar o trabalho. As áreas que são visíveis para você na variável [!UICONTROL Menu principal] permita que você faça isso.
+Como um [!UICONTROL Revisor], sua principal responsabilidade é revisar, comentar e aprovar o trabalho. As áreas visíveis no [!UICONTROL Menu Principal] permitem que você faça isso.
 
 As seguintes áreas estão incluídas no layout padrão de um [!UICONTROL Revisor]:
 
-* **[!UICONTROL Minhas atualizações]**: O **[!UICONTROL Início]** A área que está disponível para usuários de todos os níveis de acesso é substituída pela variável **[!UICONTROL Minhas atualizações]** por padrão, para usuários com um tipo de licença Revisar . Como um [!UICONTROL Revisor], você não conclui o trabalho. Você precisa apenas ver informações sobre o trabalho que precisa revisar, comentar ou aprovar. O **[!UICONTROL Minhas atualizações]** permite executar essas ações. Esta é a área de aterrissagem padrão para novos usuários da Revisão.
+* **[!UICONTROL Minhas Atualizações]**: a área **[!UICONTROL Página Inicial]**, que está disponível para usuários de todos os níveis de acesso, é substituída por **[!UICONTROL Minhas Atualizações]** para usuários com um tipo de licença Revisão, por padrão. Como um [!UICONTROL Revisor], você não conclui seu trabalho. Você precisa ver apenas as informações sobre o trabalho que precisa revisar, comentar ou aprovar. A área **[!UICONTROL Minhas atualizações]** permite executar essas ações. Essa é a área de aterrissagem padrão para novos usuários de Revisão.
 
-   >[!TIP]
-   >
-   >Seu [!DNL Workfront] ou O administrador do grupo pode atribuir a você um modelo de layout que pode alterar a landing page padrão. Usando um modelo de layout, também é possível exibir as variáveis [!UICONTROL Início] e [!UICONTROL Atualizações] área como [!UICONTROL Revisão]-licenciar usuário.
+  >[!TIP]
+  >
+  >O administrador de Grupo ou o [!DNL Workfront] pode atribuir a você um modelo de layout que pode alterar a página de aterrissagem padrão. Usando um modelo de layout, você também pode exibir a área [!UICONTROL Página Inicial] e [!UICONTROL Atualizações] como um usuário de licença [!UICONTROL Revisão].
 
-* **[!UICONTROL Solicitações]**: É possível enviar e revisar solicitações que você ou outros usuários da sua empresa enviaram nessa área.
-* **[!UICONTROL Documentos]**: Você pode fazer upload de documentos ou revisar documentos compartilhados com você aqui.
-* **[!UICONTROL Analytics]**: Examine os dados do projeto e identifique tendências com o planejamento e a conclusão. Essa área exibe informações sobre projetos que você tem acesso para visualizar. Para obter mais informações, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
+* **[!UICONTROL Solicitações]**: você pode enviar e revisar solicitações que você ou outros usuários da sua empresa enviaram nesta área.
+* **[!UICONTROL Documentos]**: você pode carregar documentos ou revisar documentos compartilhados com você aqui.
+* **[!UICONTROL Analytics]**: examine os dados do projeto e identifique tendências com o planejamento e a conclusão. Essa área exibe insights dos projetos que você tem acesso para visualizar. Para obter mais informações, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-* **[!UICONTROL Blueprints]**: Analise os blueprints existentes em seu sistema e solicite a instalação de um, se a variável [!DNL Workfront] o administrador configurou a fila de solicitações para blueprints. Para obter mais informações, consulte [Visão geral do Blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **[!UICONTROL Blueprints]**: examine os blueprints existentes no sistema e solicite a instalação de um, caso o administrador do [!DNL Workfront] tenha configurado a fila de solicitações para blueprints. Para obter mais informações, consulte [Visão geral dos blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
 ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
-## Personalizar o padrão [!UICONTROL Menu principal]
+## Personalizar o [!UICONTROL Menu Principal] padrão
 
-Seu [!DNL Workfront] o administrador pode modificar seu [!DNL Workfront] layout padrão ao atribuir um modelo de layout. Para obter mais informações sobre como trabalhar com modelos de layout, consulte [Personalize o [!UICONTROL Menu principal] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+O administrador do [!DNL Workfront] pode modificar o layout padrão do [!DNL Workfront] atribuindo um modelo de layout. Para obter mais informações sobre como trabalhar com modelos de layout, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

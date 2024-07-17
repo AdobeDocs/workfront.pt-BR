@@ -22,7 +22,7 @@ Quando alguém marca você em um comentário de registro, você pode receber uma
 >
 >Sua empresa deve ser um cliente da Experiência Unificada do Adobe para poder receber notificações do Workfront Planning.
 >
->Para obter informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Para obter informações, consulte [Experiência unificada Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 
@@ -42,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <p> Produto</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Para receber notificações do Workfront Planning, a instância da Workfront de sua organização deve ser integrada à Experiência unificada do Adobe. Para obter informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>.</p></td>
+   <p>Para receber notificações do Workfront Planning, a instância da Workfront de sua organização deve ser integrada à Experiência unificada do Adobe. Para obter informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada Adobe para Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
@@ -69,14 +69,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Exibir ou aumentar as permissões de um espaço de trabalho</a> </p>  
+   <td> <p>Exibir ou aumentar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -85,7 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Gerenciar notificações no aplicativo
 
-1. (Condicional) Depois que alguém adicionar uma tag a você em um comentário em um registro, acesse o aplicativo **Notificação** ícone ![](assets/experience-cloud-notifications-icon.png) no Adobe Experience Cloud.
+1. (Condicional) Depois que alguém marcar você em um comentário em um registro, vá para o ícone **Notificações** no aplicativo ![](assets/experience-cloud-notifications-icon.png) no Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
@@ -94,4 +94,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    A página de detalhes do registro é aberta no Workfront Planning. Você pode fazer atualizações no registro ou responder ao comentário.
 
 1. (Opcional) Clique em **Marcar tudo como lido** para indicar que você leu todas as notificações.
-1. (Opcional) Clique em **Exibir todos** para acessar o **Notificação** página no Adobe Experience Cloud.
+1. (Opcional) Clique em **Exibir tudo** para ir para a página **Notificações** no Adobe Experience Cloud.

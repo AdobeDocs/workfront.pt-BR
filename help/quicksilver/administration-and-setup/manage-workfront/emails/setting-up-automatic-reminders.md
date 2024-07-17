@@ -58,11 +58,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Configurar lembretes automáticos
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **E-mail** >**Lembretes automáticos**.
+1. Clique em **Email** >**Lembretes automáticos**.
 
-1. No **Enviar uma notificação de atraso para** selecione uma das seguintes opções:
+1. Na área **Enviar uma notificação de atraso para**, selecione uma das seguintes opções:
 
    <table>
     <tr>
@@ -82,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </tr>
     <tr>
         <td>O usuário "Atribuído a"</td>
-        <td>(No <b>Enviar lembrete de prazo final para</b> área.) Selecione esta opção se quiser que o usuário atribuído a uma tarefa ou um problema receba uma notificação sobre seu item de trabalho perto da data de vencimento.</td>
+        <td>(Na área <b>Enviar lembrete de prazo final para</b>.) Selecione esta opção se quiser que o usuário atribuído a uma tarefa ou um problema receba uma notificação sobre seu item de trabalho perto da data de vencimento.</td>
         <td></td>
     </tr>
 </table>
@@ -91,7 +91,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    A hora é calculada a partir da Data de conclusão planejada da tarefa ou problema.
 
-   Especifique o número de minutos, horas, dias, semanas ou meses para adicionar tempo à Data de conclusão planejada das tarefas ou problemas. Selecionar **Minutos Corridos**, **Horas Corridas**, **Dias Corridos** ou **Semanas Corridas** para adicionar horas que incluem fins de semana, feriados e fora do horário de trabalho, conforme indicado em sua programação.
+   Especifique o número de minutos, horas, dias, semanas ou meses para adicionar tempo à Data de conclusão planejada das tarefas ou problemas. Selecione **Minutos Decorridos**, **Horas Decorridas**, **Dias Decorridos** ou **Semanas Decorridas** para adicionar horas que incluam finais de semana, feriados e horas fora do horário comercial conforme indicado em sua agenda.
 
    Por exemplo, se uma tarefa for atribuída na sexta-feira e tiver uma duração de 3 dias decorridos, a data de conclusão da tarefa será definida para segunda-feira (supondo que sábado e domingo seja um fim de semana). Se a tarefa tiver uma duração de 3 dias (não decorridos), a data de conclusão da tarefa será definida para quarta-feira.
 
@@ -105,10 +105,10 @@ Se você for a entidade designada em uma notificação de Lembrete automático, 
 
 As tarefas com determinados tipos de dependência podem ser entregues após a data de início especificada, mesmo que estejam vencidas. Por exemplo, se uma tarefa tiver uma predecessora com uma dependência Finish-Start (fs), ela não será incluída no email, mesmo que tenha passado da data de início especificada, porque você não pode iniciar a tarefa até que a predecessora seja concluída.
 
-Para obter mais informações sobre como receber emails de Lembretes automáticos, consulte [Lembretes automáticos](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) seção em [Notificações do Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
+Para obter mais informações sobre como receber emails de Lembretes automáticos, consulte a seção [Lembretes automáticos](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) em [Notificações do Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Enviar lembretes automáticos
 
 Os lembretes automáticos são enviados assim que a hora selecionada pelo administrador do Workfront é atingida.
 
-Se quiser acionar o envio manual dos emails de lembrete automáticos, use o Diagnóstico. Para obter mais informações sobre como acessar e usar o diagnóstico no Workfront, consulte [Usar diagnósticos para acionar processos automatizados](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Se quiser acionar o envio manual dos emails de lembrete automáticos, use o Diagnóstico. Para obter mais informações sobre como acessar e usar o Diagnóstico no Workfront, consulte [Usar Diagnóstico para acionar processos automatizados](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

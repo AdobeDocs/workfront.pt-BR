@@ -19,7 +19,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Você pode configurar um projeto para permitir que os usuários adicionem problemas ao projeto por email. Você pode permitir que problemas sejam enviados por email a um projeto somente se o projeto for designado como uma Fila de solicitação. Para obter mais informações sobre como criar um projeto da Fila de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Você pode configurar um projeto para permitir que os usuários adicionem problemas ao projeto por email. Você pode permitir que problemas sejam enviados por email a um projeto somente se o projeto for designado como uma Fila de solicitação. Para obter mais informações sobre como criar um projeto da Fila de solicitações, consulte [Criar uma Fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Requisitos de acesso
 
@@ -53,7 +53,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -81,11 +81,11 @@ Essas condições devem ser atendidas antes de habilitar esse recurso:
 
 1. Vá para o projeto que você deseja habilitar para receber problemas por email.
 1. Clique em **Detalhes da fila** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais** primeiro.
-1. No **Tipo de fila** , selecione **Publish como Fila de solicitação de ajuda**.
+1. Na área **Tipo de fila**, selecione **Publish como Fila de solicitação de ajuda**.
 
-1. Role para baixo até **Configurações da fila de emails** e selecione **Habilitar Entrada de solicitação por e-mail**.
+1. Role para baixo até a área **Configurações da fila de emails** e selecione **Habilitar entrada de solicitação por email**.
 
-1. Insira o início do endereço de email nas **Endereço de e-mail de entrada** caixa.
+1. Digite o início do endereço de email na caixa **Endereço de email de entrada**.
 
    Você deve criar um endereço de email exclusivo. Recomendamos usar o nome da sua empresa como parte do seu endereço de email de entrada.
 
@@ -98,7 +98,7 @@ Essas condições devem ser atendidas antes de habilitar esse recurso:
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. (Opcional) Selecione a **Encaminhar todos os problemas que não forem enviados por email** e digite um endereço de email de encaminhamento na caixa abaixo.
+1. (Opcional) Selecione a opção **Encaminhar todos os problemas que não forem enviados por email** e digite um endereço de email de encaminhamento na caixa abaixo.
 
    Esse endereço de email recebe informações sobre emails que não foram enviados para o projeto.
 

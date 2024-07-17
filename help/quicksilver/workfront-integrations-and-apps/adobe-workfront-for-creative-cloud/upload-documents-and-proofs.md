@@ -2,98 +2,98 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Fazer upload de documentos e provas do [!DNL Adobe Workfront plugin] para [!DNL Creative Cloud]
-description: Fazer upload de documentos e provas do [!DNL Adobe Workfront plugin] para [!DNL Creative Cloud]
+title: Carregar documentos e provas de [!DNL Adobe Workfront plugin] para [!DNL Creative Cloud]
+description: Carregar documentos e provas de [!DNL Adobe Workfront plugin] para [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 67952bf88a782595e13e559bfbc14ce1c622d432
+exl-id: 88870441-8895-477c-9409-f2c33654545a
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
+# Carregar documentos e provas de [!DNL Adobe Workfront plugin] para [!DNL Creative Cloud]
 
-# Fazer upload de documentos e provas do [!DNL Adobe Workfront plugin] para [!DNL Creative Cloud]
-
-Você pode fazer upload de seus projetos como documentos para uma revisão e aprovação rápidas ou simplesmente armazenar em [!DNL Adobe Workfront].
+Você pode carregar seus projetos como documentos para revisão e aprovação rápidas ou simplesmente armazená-los em [!DNL Adobe Workfront].
 
 >[!NOTE]
 >
->No momento, o upload de documentos e provas não é suportado no Premiere Pro e no After Effects.
+>Atualmente, o upload de documentos e provas não é suportado no Premiere Pro e no After Effects.
 
 
 ## Limitações do documento
 
-Esta seção descreve as limitações conhecidas de documentos no [!DNL Workfront for Adobe Creative Cloud plugins].
+Esta seção descreve as limitações conhecidas do documento no [!DNL Workfront for Adobe Creative Cloud plugins].
 
-### As novas versões de documento aceitam apenas um arquivo para upload
+### Novas versões de documentos aceitam apenas um arquivo para upload
 
-Porque [!DNL Workfront] documentos não podem conter vários arquivos, determinadas configurações devem ser desativadas para carregar novas versões do documento no Workfront.
+Como [!DNL Workfront] documentos não podem conter vários arquivos, algumas configurações devem ser desabilitadas para carregar novas versões de documentos para o Workfront.
 
 >[!NOTE]
 >
->Se você precisar gerar vários arquivos, poderá criar uma prova. A nova prova não será associada ao documento original.
+>Se precisar gerar vários arquivos, crie uma prova. A nova prova não será associada ao documento original.
 
 
 
-Para alterar sua opção de volta para um único arquivo em [!DNL InDesign]:
+Para alterar sua alternância de volta para um único arquivo em [!DNL InDesign]:
 
-1. Abra o **Definir configurações do arquivo de exportação** caixa de diálogo.
+1. Abra a caixa de diálogo **Definir Configurações do Arquivo de Exportação**.
 
    ![](assets/file-export-settings.png)
 
-1. Localize o Tipo de ativo que deseja exportar e ajuste as configurações conforme descrito abaixo:
+1. Encontre o tipo de ativo que deseja exportar e ajuste as configurações conforme descrito abaixo:
 
    <table>
     <tr>
     <td><strong>PDF e PDF-PRINT</strong>
     </td>
-    <td>Desmarcar <strong>Criar arquivos PDF separados</strong>.
+    <td>Desmarque <strong>Criar Arquivos PDF Separados</strong>.
     </td>
     </tr>
     <tr>
     <td><strong>EPS</strong>
     </td>
-    <td>Selecionar <strong>Intervalos</strong> e digite um único número de página. 
+    <td>Selecione <strong>Intervalos</strong> e digite um único número de página. 
     <p>
-    <strong>Observação</strong>: Para carregar o documento completo, você deve criar uma prova. 
+    <strong>Observação</strong>: se quiser carregar o documento completo, você deve criar uma prova. 
     </td>
     </tr>
     <tr>
-    <td><strong>ePub e EPUB FIXO</strong>
+    <td><strong>EPUB e EPUB FIXO</strong>
     </td>
-    <td>Nenhum ajuste necessário.
+    <td>Não são necessários ajustes.
     </td>
     </tr>
     <tr>
     <td><strong>IDML</strong>
     </td>
-    <td>Nenhum ajuste necessário.
+    <td>Não são necessários ajustes.
     </td>
     </tr>
     <tr>
     <td><strong>JPG</strong>
     </td>
-    <td>Selecionar <strong>Intervalos</strong> e digite um único número de página. 
+    <td>Selecione <strong>Intervalos</strong> e digite um único número de página. 
     <p>
-    <strong>Observação</strong>: Para carregar o documento completo, você deve criar uma prova. 
+    <strong>Observação</strong>: se quiser carregar o documento completo, você deve criar uma prova. 
     </td>
     </tr>
     <tr>
-    <td><strong>Imagem PNG</strong>
+    <td><strong>PNG</strong>
     </td>
-    <td>Selecionar <strong>Intervalos</strong> e digite um único número de página. 
+    <td>Selecione <strong>Intervalos</strong> e digite um único número de página. 
     <p>
-    <strong>Observação</strong>: Para carregar o documento completo, você deve criar uma prova. 
+    <strong>Observação</strong>: se quiser carregar o documento completo, você deve criar uma prova. 
     </td>
     </tr>
     <tr>
     <td><strong>XML</strong>
     </td>
-    <td>Nenhum ajuste necessário. 
+    <td>Não são necessários ajustes. 
     </td>
     </tr>
     </table>

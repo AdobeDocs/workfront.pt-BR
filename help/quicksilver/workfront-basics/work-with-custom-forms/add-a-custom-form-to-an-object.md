@@ -64,7 +64,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerencie permissões para o objeto ao qual você deseja anexar um formulário personalizado.</p> <p>Exibir permissões ou mais altas para o formulário personalizado, com permissão para <b>Anexar aos dados personalizados</b> objetos (projetos, tarefas e problemas). Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartilhar um formulário personalizado</a>.</p> <p>Importante: se você não tiver uma licença de Plano com acesso administrativo ao Forms Personalizado, deverá ter permissões específicas para pelo menos exibir o formulário personalizado, conforme descrito em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartilhar um formulário personalizado</a>. Essas permissões devem ser concedidas a você mesmo se o formulário estiver visível em todo o sistema. </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos</a>.</p> </td> 
+   <td> <p>Gerencie permissões para o objeto ao qual você deseja anexar um formulário personalizado.</p> <p>Exiba ou aumente as permissões do formulário personalizado, com permissão para <b>Anexar a objetos de Dados Personalizados</b> (projetos, tarefas e problemas). Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartilhar um formulário personalizado</a>.</p> <p>Importante: se você não tiver uma licença de Plano com acesso administrativo ao Forms Personalizado, deverá ter permissões específicas para pelo menos exibir o formulário personalizado, conforme descrito em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartilhar um formulário personalizado</a>. Essas permissões devem ser concedidas a você mesmo se o formulário estiver visível em todo o sistema. </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,14 +81,14 @@ O administrador do Workfront ou um usuário com uma licença de Plano e acesso a
 
 Você pode adicionar um formulário personalizado a um objeto de duas maneiras:
 
-* [Adicionar um formulário personalizado a um objeto ao editar o objeto](#add-a-custom-form-to-an-object-by-editing-the-object)
+* [Adicione um formulário personalizado a um objeto editando o objeto](#add-a-custom-form-to-an-object-by-editing-the-object)
 * [Adicionar um formulário personalizado a um objeto da área Detalhes](#add-a-custom-form-to-an-object-from-the-details-area)
 
 ### Adicionar um formulário personalizado a um objeto ao editar o objeto {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Vá para o objeto ao qual deseja adicionar o formulário personalizado.
-1. Clique em **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em **Editar** ![](assets/edit-icon.png).
-1. Clique em **Forms personalizado** > **Adicionar o Forms**, selecione até 10 formulários no menu suspenso.
+1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Editar** ![](assets/edit-icon.png).
+1. Clique em **Forms Personalizado** > **Adicionar Forms** e selecione até 10 formulários no menu suspenso.
 
 1. (Opcional) Atualize as informações nos campos editáveis no formulário personalizado.
 
@@ -99,8 +99,8 @@ Você pode adicionar um formulário personalizado a um objeto de duas maneiras:
 ### Adicionar um formulário personalizado a um objeto da área Detalhes {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Vá para o objeto ao qual deseja adicionar o formulário personalizado.
-1. Clique em **`<Object type>`Detalhes** no painel esquerdo. Por exemplo, clique **Detalhes do projeto** para adicionar formulários personalizados a um projeto ou **Detalhes do problema** para adicionar formulários personalizados a um problema.
-1. Clique em **Adicionar formulário personalizado** no canto superior direito e selecione até 10 formulários personalizados na lista exibida.
+1. Clique na seção **`<Object type>`Detalhes** no painel esquerdo. Por exemplo, clique em **Detalhes do Projeto** para adicionar formulários personalizados a um projeto ou em **Detalhes do Problema** para adicionar formulários personalizados a um problema.
+1. Clique no campo **Adicionar formulário personalizado** no canto superior direito e selecione até 10 formulários personalizados na lista a ser exibida.
 
    Se o formulário contiver campos obrigatórios (marcados com um asterisco vermelho), não é necessário preenchê-los neste momento.
 
@@ -112,7 +112,7 @@ Você pode adicionar um formulário personalizado a um objeto de duas maneiras:
 
 Você pode adicionar até 10 formulários personalizados em um determinado objeto, o que permite disponibilizar campos para alguns usuários e não para outros, ou permitir que você atenda melhor aos requisitos de formulário de vários projetos.
 
-**Exemplo:** Se um projeto existente já tiver um formulário personalizado e mais campos personalizados forem necessários para esse projeto, que existem em outro formulário personalizado, você poderá adicionar um segundo formulário ao projeto com os campos adicionais, em vez de adicionar os campos ao formulário personalizado existente.
+**Exemplo:** Se um projeto existente já tiver um formulário personalizado, e mais campos personalizados forem necessários para esse projeto, que existe em outro formulário personalizado, você poderá adicionar um segundo formulário ao projeto com os campos adicionais, em vez de adicionar os campos ao formulário personalizado existente.
 
 ## Adicionar um formulário personalizado a vários objetos em massa
 
@@ -131,13 +131,13 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navegue até uma lista de objetos.
 1. Selecione vários objetos na lista.
 
-1. Clique em **Mais** menu ![](assets/more-icon.png)e, em seguida, clique na guia **Editar** ícone  ![](assets/edit-icon.png).
+1. Clique no menu ![](assets/more-icon.png) **Mais** e no ícone ![](assets/edit-icon.png) **Editar**.
 
    Ou
 
-   Clique em **Editar** ícone ![](assets/edit-icon.png) no topo da lista.
-1. Clique em **Forms personalizado** no painel esquerdo.
-1. no **Faça uma seleção** selecione o formulário que deseja associar a todos os objetos selecionados.
+   Clique no ícone ![](assets/edit-icon.png) de **Editar** na parte superior da lista.
+1. Clique em **Forms Personalizado** no painel esquerdo.
+1. no menu suspenso **Fazer uma seleção**, selecione o formulário que deseja associar a todos os objetos selecionados.
 
    >[!NOTE]
    >

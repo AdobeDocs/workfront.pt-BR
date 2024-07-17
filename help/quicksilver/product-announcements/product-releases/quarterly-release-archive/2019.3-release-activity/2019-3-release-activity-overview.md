@@ -156,7 +156,7 @@ A versão 2019.3 contém as seguintes melhorias:
 
   Adicionamos Projetos mortos como opção de filtro na guia Projetos do aplicativo móvel.
 
-* [Excluir objetos usando o aplicativo para dispositivos móveis no iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
+* [Excluir objetos usando o aplicativo móvel no iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
   <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
@@ -357,11 +357,11 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 
 ## Anúncios
 
-* [A nova experiência beta do Workfront agora está disponível em Visualização](#the-new-workfront-experience-beta-now-available-in-preview)
-* [Biblioteca da Workfront agora disponível](#workfront-library-now-available)
-* [A API versão 3 não é mais compatível](#api-version-3-no-longer-supported)
+* [A nova experiência beta do Workfront agora está disponível na Pré-visualização](#the-new-workfront-experience-beta-now-available-in-preview)
+* [Biblioteca Workfront disponível agora](#workfront-library-now-available)
+* Não há mais suporte para a [API versão 3](#api-version-3-no-longer-supported)
 * [O suporte para TLS 1.0 e 1.1 está terminando](#tls-1-0-and-1-1-support-is-ending)
-* [Remoção do aplicativo do Flash](#flash-application-removal)
+* [remoção do aplicativo do Flash](#flash-application-removal)
 * [Várias opções de Logon Único a serem removidas](#various-single-sign-on-options-to-be-removed)
 * [Webinário do roteiro de produtos do terceiro trimestre](#q3-product-roadmap-webinar)
 
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 Todas as funcionalidades que dependem da tecnologia Flash foram removidas do Workfront desde a versão 2018.3 e substituídas por uma nova solução.
 
-Para obter informações detalhadas sobre as ferramentas herdadas do Flash e suas substituições, consulte [Substituição de ferramentas baseadas em Flashes no Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Para obter informações detalhadas sobre as ferramentas herdadas do Flash e suas substituições, consulte [Substituição de ferramentas baseadas no Flash no Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -419,7 +419,7 @@ As seguintes opções de Logon único (SSO) agora são suportadas apenas em uma 
 
 * LDAP
 
-  Para obter mais informações sobre o uso do LDAP com Workfront, consulte [Configurar o Adobe Workfront com LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Para obter mais informações sobre como usar o LDAP com Workfront, consulte [Configurar o Adobe Workfront com LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -443,7 +443,7 @@ As seguintes opções de Logon único (SSO) agora são suportadas apenas em uma 
 
 * SAML 1.1
 
-  Para obter mais informações sobre como usar o SAML 1.1 com o Workfront, consulte [Configurar o Adobe Workfront com SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Para obter mais informações sobre como usar o SAML 1.1 com Workfront, consulte [Configurar o Adobe Workfront com SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Esta é a linha do tempo de remoção dessas opções de SSO:
 
 ### Webinário do roteiro de produtos do terceiro trimestre {#q3-product-roadmap-webinar}
 
-Saiba mais sobre o que está por vir durante o [Webinário do roteiro do 3º trimestre](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) em 1º de agosto às 9h. MST
+Saiba mais sobre o que está por vir durante o [webinário do T3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) em 1º de agosto, às 9h. MST

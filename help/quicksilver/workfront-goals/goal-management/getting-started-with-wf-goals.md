@@ -32,7 +32,7 @@ Sua organização deve ter as seguintes opções para usar a funcionalidade desc
 
 Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 
-Para obter informações adicionais sobre o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Cada organização precisa definir e comunicar metas claras para manter suas equipes produtivas, focadas e engajadas. Saber realmente como o trabalho está alinhado à estratégia é a chave para o sucesso. No entanto, sem um sistema de registro que conecte sua estratégia e metas com o trabalho na organização, alcançar o alinhamento pode ser realmente difícil.
 
@@ -40,7 +40,7 @@ O Workfront Goals ajuda você a definir, comunicar e alcançar resultados estrat
 
 O Workfront Goals é um módulo complementar da plataforma principal de gerenciamento de trabalho da Workfront. Ele deve funcionar em conjunto com a plataforma Workfront e aproveita muitas das entidades de configuração e definição da plataforma, como usuários, equipes, grupos e projetos.
 
-Para obter informações sobre o Workfront Goals, consulte [Visão geral dos objetivos do Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md).
+Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Estabeleça uma visão e uma estratégia para sua organização
 
@@ -72,7 +72,7 @@ Recomendamos o seguinte:
 
 Para obter informações sobre como criar metas e adicionar resultados, consulte os seguintes artigos:
 
-* [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
+* [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 ### Colabore em torno de metas empresariais e organizacionais {#collaborate-around-enterprise-and-organizational-goals}
@@ -90,7 +90,7 @@ Considere as diretrizes a seguir ao criar e alinhar metas:
 
 Para obter informações sobre como criar e alinhar metas, consulte os seguintes artigos:
 
-* [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
+* [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Visão geral do alinhamento de metas no Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
 ### Alinhar grupos e equipes à estratégia {#align-groups-and-teams-to-strategy}
@@ -117,7 +117,7 @@ Faça o seguinte:
 
   Para obter informações sobre ativação, adição de atividades e atualização de metas, consulte os seguintes artigos:
 
-   * [Ativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md)
+   * [Ativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
    * [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Atualizar progresso da meta nas Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
@@ -134,11 +134,11 @@ Siga estas diretrizes para garantir que você esteja configurado corretamente pa
 >
 >Ao identificar os proprietários principais, considere que você está definindo metas estratégicas para os resultados da empresa e não metas de desenvolvimento pessoal.
 
-Para obter informações sobre como configurar o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obter informações sobre como configurar o acesso ao Workfront Goals, consulte [Requisitos para usar o Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 ## Objetos do Workfront Goals
 
-A tabela abaixo descreve os objetos do Workfront Goals. É possível personalizar o nome modificando um modelo de layout e atribuindo-o a usuários, equipes ou grupos. Para obter informações sobre como personalizar nomes de objetos usando um modelo de layout, consulte [Personalizar a terminologia da interface de usuário usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+A tabela abaixo descreve os objetos do Workfront Goals. É possível personalizar o nome modificando um modelo de layout e atribuindo-o a usuários, equipes ou grupos. Para obter informações sobre como personalizar nomes de objetos usando um modelo de layout, consulte [Personalizar terminologia da interface de usuário usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 O Workfront Goals usa os seguintes objetos principais:
 
@@ -156,5 +156,5 @@ Além dos resultados e das atividades, você também pode conectar projetos com 
 
 Para obter informações sobre metas, resultados e atividades, consulte:
 
-* [Visão geral dos objetivos do Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md)
+* [Visão geral das metas do Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md)
 * [Introdução aos resultados e atividades nos Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)

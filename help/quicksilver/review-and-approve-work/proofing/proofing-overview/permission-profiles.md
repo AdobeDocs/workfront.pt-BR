@@ -11,7 +11,7 @@ exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Os perfis de permissão de prova determinam quais permissões gerais os usuários têm sobre todas as provas em sua conta. Perfis de permissão de prova são atribuídos a usuários em seus respectivos Perfis de usuário.
 
-Os perfis de permissão de prova são diferentes das funções de prova. Para obter mais informações sobre funções de prova, consulte [Visão geral das funções de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Os perfis de permissão de prova são diferentes das funções de prova. Para obter mais informações sobre funções de prova, consulte [Visão geral sobre funções de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ A tabela a seguir exibe as permissões disponíveis com cada Perfil de permissã
    </td>
    <td colspan="3" ><strong>Itens de outros usuários</strong>
    </td>
-   <td><strong>Admin</strong>
+   <td><strong>Administrador</strong>
    </td>
   </tr>
   <tr>
@@ -72,7 +72,7 @@ A tabela a seguir exibe as permissões disponíveis com cada Perfil de permissã
    </td>
    <td><strong>Excluir</strong>
    </td>
-   <td><strong>Editar e excluir</strong>
+   <td><strong>Editar e Excluir</strong>
    </td>
   </tr>
   <tr>
@@ -139,7 +139,7 @@ A tabela a seguir exibe as permissões disponíveis com cada Perfil de permissã
 
 ### Administrador
 
-Os administradores têm acesso ao [Configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) e têm as seguintes permissões:
+Administradores têm acesso a [Configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) e têm as seguintes permissões:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ Os administradores têm acesso ao [Configurações da conta](https://support.wor
  </tbody> 
 </table>
 
-&#42;Disponível somente no produto independente Workfront Proof.
+&#42;Disponível somente no produto independente do Workfront Proof.
 
 ### Supervisor
 

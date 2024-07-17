@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Esta página descreve várias melhorias feitas com a versão 2019.4. Ele será disponibilizado no ambiente de Produção na semana de 11 de novembro de 2019.
 
-Para obter uma lista de todas as alterações feitas em 2019.4, consulte [Visão geral da versão 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.4, consulte a [visão geral da versão 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>Iniciar um fluxo de trabalho de comprovação automatizada de um documento Adobe CC</strong> <p>Sem sair do Adobe CC, você pode iniciar um fluxo de trabalho de prova automatizada para um documento Adobe CC criado. Para obter mais informações, consulte a seção <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Gerar uma prova pelo Illustrator ou InDesign</a> no artigo <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Usar a extensão do Workfront para Illustrator e InDesign</a>.</p> </td> 
+   <td> <strong>Iniciar um fluxo de trabalho de comprovação automatizada de um documento Adobe CC</strong> <p>Sem sair do Adobe CC, você pode iniciar um fluxo de trabalho de prova automatizada para um documento Adobe CC criado. Para obter mais informações, consulte a seção <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Gerar uma prova do Illustrator ou do InDesign</a> no artigo <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Usar a Extensão do Workfront para o Illustrator e o InDesign</a>.</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -55,14 +55,14 @@ Para obter uma lista de todas as alterações feitas em 2019.4, consulte [Visão
   <tr> 
    <td> 
     <div> 
-     <strong>Tipos de objeto adicionais disponíveis para campos Digitação antecipada em um formulário personalizado</strong> 
+     <strong>Tipos de objetos adicionais disponíveis para campos de Digitação antecipada em um formulário personalizado</strong> 
      <p>Agora, ao criar um campo personalizado Digitação antecipada, você pode associar os seguintes tipos de objetos ao campo: Usuário, Empresa, Grupo, Função de trabalho, Portfolio, Programa, Projeto e Modelo.</p> 
      <p>Anteriormente, só era possível associar o tipo de objeto Usuário a um campo personalizado Digitação antecipada.</p> 
      <p>Para obter mais informações, consulte a seção <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Criar ou editar um formulário personalizado</a> no artigo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Criar ou editar um formulário personalizado</a>.</p> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Nome do arquivo da versão mais recente de um documento exibido</strong> <p>Agora, ao fazer upload de uma versão do documento com um nome de arquivo diferente do nome da versão existente, o novo nome de arquivo é exibido no Workfront.</p> <p>Anteriormente, ao adicionar uma nova versão com um nome de arquivo diferente, o nome do arquivo da versão anterior continuava a ser exibido no Workfront.</p> <p>Para obter mais informações, consulte <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Fazer upload de uma nova versão de um documento</a>.</p> </td> 
+   <td> <strong>Nome do arquivo da última versão de um documento exibido</strong> <p>Agora, ao fazer upload de uma versão do documento com um nome de arquivo diferente do nome da versão existente, o novo nome de arquivo é exibido no Workfront.</p> <p>Anteriormente, ao adicionar uma nova versão com um nome de arquivo diferente, o nome do arquivo da versão anterior continuava a ser exibido no Workfront.</p> <p>Para obter mais informações, consulte <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Carregar uma nova versão de um documento</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adicionar um filtro a um campo Digitação antecipada em um formulário personalizado</strong> <p>Agora, ao adicionar um campo Digitação antecipada a um formulário personalizado, você pode adicionar um filtro para limitar os objetos que estão disponíveis quando alguém usa o campo. Por exemplo, é possível limitar o campo para que o usuário possa selecionar apenas os membros das equipes de Marketing e Vendas na organização.</p> <p>Para obter mais informações, consulte a seção Criar e adicionar um novo campo no artigo Criação de Forms personalizado.</p> </td> 

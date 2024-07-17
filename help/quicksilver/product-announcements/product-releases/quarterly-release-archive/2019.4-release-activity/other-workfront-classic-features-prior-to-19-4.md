@@ -18,7 +18,7 @@ ht-degree: 4%
 
 Os recursos a seguir foram disponibilizados para o ambiente de produção do Workfront Classic antes da versão 2019.4 para produção.
 
-Para obter informações sobre o período de lançamento e todas as funcionalidades disponíveis com a versão 2019.4, consulte [Visão geral da versão 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Para obter informações sobre o período de lançamento e todas as funcionalidades disponíveis com a versão 2019.4, consulte a [visão geral da versão 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Para obter informações sobre o período de lançamento e todas as funcionalida
        <li>Workfront Classic</li> 
        <li>A nova experiência do Workfront</li> 
       </ul> 
-      <p><strong>Primeiro disponível na Pré-visualização:</strong> </p> 
+      <p><strong>Primeiro disponível na Visualização:</strong> </p> 
       <ul> 
        <li>sábado, 9 de agosto de 2019</li> 
       </ul> 
@@ -70,7 +70,7 @@ Para obter informações sobre o período de lançamento e todas as funcionalida
        <li>Workfront Classic</li> 
        <li>A nova experiência do Workfront</li> 
       </ul> 
-      <p><strong>Primeiro disponível na Pré-visualização:</strong> </p> 
+      <p><strong>Primeiro disponível na Visualização:</strong> </p> 
       <ul> 
        <li>sábado, 9 de agosto de 2019</li> 
       </ul> 

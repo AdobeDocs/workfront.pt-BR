@@ -22,20 +22,20 @@ Você pode visualizar o número de decisões de prova e documento tomadas pelos 
 
 >[!NOTE]
 >
->Este relatório é visível somente para usuários no novo modelo de nível de acesso. Para obter mais informações, consulte [Visão geral dos novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Este relatório é visível somente para usuários no novo modelo de nível de acesso. Para obter mais informações, consulte [Visão geral sobre novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Para exibir o número de decisões de um usuário:
 
 {{step-1-to-users}}
 
-1. Abra o **Visualizações** e escolha a opção **Licenças** exibição.
-1. Localizar a coluna **Decisões este mês** para visualizar o número de decisões que cada usuário tomou no mês.
-1. Para ver dados históricos, abra a variável **Visualizações** e escolha **Visualização de usuário histórica**.
-1. Localizar a coluna **Decisões históricas de usuários** para visualizar o número de decisões que cada usuário tomou em um mês. Os dados podem incluir até 12 meses antes do mês atual, dependendo de quando esse relatório foi disponibilizado para sua organização.
+1. Abra a área **Exibições** e escolha a exibição **Licenças**.
+1. Localize a coluna **Decisões este mês** para exibir o número de decisões que cada usuário tomou no mês.
+1. Para ver dados históricos, abra a área **Exibições** e escolha **Exibição Histórica de Usuário**.
+1. Localize a coluna **Decisões históricas de usuários** para exibir o número de decisões que cada usuário tomou em um mês. Os dados podem incluir até 12 meses antes do mês atual, dependendo de quando esse relatório foi disponibilizado para sua organização.
 
 >[!NOTE]
 >
->Se a View de Usuário Histórico não estiver disponível, você poderá criar uma nova view para exibir os dados históricos. Adicionar **Decisões históricas de usuários** como uma coluna na exibição. Para obter informações sobre como adicionar uma coluna a uma exibição, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Se a View de Usuário Histórico não estiver disponível, você poderá criar uma nova view para exibir os dados históricos. Adicione **Decisões históricas de usuários** como uma coluna na exibição. Para obter informações sobre como adicionar uma coluna a uma exibição, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 
 ## Exibir decisões na área Relatórios
@@ -46,10 +46,10 @@ Para exibir o número de decisões de um usuário:
 
 {{step1-to-reports}}
 
-1. Clique em **Novo Relatório** e selecione **Decisões de usuários**.
-1. Localizar a coluna **Decisões este mês** para visualizar o número de decisões que cada usuário tomou no mês.
+1. Clique em **Novo Relatório** e selecione **Decisões de Usuários**.
+1. Localize a coluna **Decisões este mês** para exibir o número de decisões que cada usuário tomou no mês.
 
-   Os dados podem incluir até 12 meses antes do mês atual, dependendo de quando esse relatório foi disponibilizado para sua organização. A variável **Month** e **Ano** as colunas mostram em qual mês as decisões foram tomadas. O mês 1 é janeiro, o mês 2 é fevereiro e assim por diante.
+   Os dados podem incluir até 12 meses antes do mês atual, dependendo de quando esse relatório foi disponibilizado para sua organização. As colunas **Mês** e **Ano** mostram em qual mês as decisões foram tomadas. O mês 1 é janeiro, o mês 2 é fevereiro e assim por diante.
 
 1. Revise o relatório e edite-o conforme necessário. Para obter mais informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

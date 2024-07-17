@@ -35,7 +35,7 @@ Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o cic
 
 * Você pode criar campos somente a partir da exibição de tabela de uma página do tipo registro. Os campos são exibidos como colunas na exibição de tabela. Todos os campos associados a um tipo de registro também são exibidos na página de registro.
 
-  Para obter informações sobre o gerenciamento de colunas de tabela (ou campos de registro), consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Para obter informações sobre como gerenciar colunas de tabela (ou campos de registro), consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
   Para obter informações sobre como gerenciar campos, consulte também os seguintes artigos:
 
@@ -83,7 +83,7 @@ Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o cic
 
 * Os campos do Workfront Planning não podem ser acessados no Workfront.
 
-* Os campos do Workfront podem ser acessados no Workfront Planning somente quando você conecta tipos de registro a tipos de objeto do Workfront e adiciona campos vinculados ou de pesquisa a partir de objetos do Workfront. Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Os campos do Workfront podem ser acessados no Workfront Planning somente quando você conecta tipos de registro a tipos de objeto do Workfront e adiciona campos vinculados ou de pesquisa a partir de objetos do Workfront. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * É possível exibir e atualizar as configurações dos campos criados por você ou por qualquer outro usuário, se você tiver permissões de gerenciamento no espaço de trabalho ao qual o campo pertence.
 

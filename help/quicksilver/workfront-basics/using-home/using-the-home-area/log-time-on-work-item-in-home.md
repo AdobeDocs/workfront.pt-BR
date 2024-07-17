@@ -2,7 +2,7 @@
 product-area: projects;calendars
 navigation-topic: use-the-home-area
 title: Registrar o tempo em um item de trabalho na área Página inicial
-description: Você pode registrar horas em qualquer item de trabalho na variável [!UICONTROL Lista de trabalho] no [!UICONTROL Início] área. Para obter informações, consulte a [!UICONTROL Início] no artigo Registrar tempo.
+description: Você pode registrar horas em qualquer item de trabalho na [!UICONTROL Lista de Trabalho] na área [!UICONTROL Página Inicial]. Para obter informações, consulte a seção [!UICONTROL Página inicial] no artigo Tempo de log.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: e68f4200-dbcb-4a2f-a2f7-45fb968684cc
@@ -13,6 +13,6 @@ ht-degree: 0%
 
 ---
 
-# Registrar o tempo em um item de trabalho do [!UICONTROL Início] área
+# Registrar horas em um item de trabalho da área [!UICONTROL Página inicial]
 
-Você pode registrar horas em qualquer item de trabalho na variável [!UICONTROL Lista de trabalho] no [!UICONTROL Início] área. Para obter informações, consulte  [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Você pode registrar horas em qualquer item de trabalho na [!UICONTROL Lista de Trabalho] na área [!UICONTROL Página Inicial]. Para obter informações, consulte [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).

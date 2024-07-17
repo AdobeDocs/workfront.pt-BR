@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Criar um modelo de aprovação para ativos e documentos
 
-<span class="preview">As informações nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Na área Configuração do Workfront, os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis. Depois de criados, os Modelos de aprovação podem ser aplicados a ativos na área Documentos de um projeto, tarefa ou problema.
 
@@ -51,13 +51,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Revisar e aprovar** > **Modelos de aprovação**.
+1. No painel esquerdo, clique em **Revisar e aprovar** > **Modelos de Aprovação**.
 1. Clique em **Novo modelo** no lado direito da página.
 1. Especifique as seguintes informações:
 
    | Nome do modelo | Comece a digitar um nome para este modelo. |
    |----------------------------|---|
-   | **(Opcional) Período** | Insira o período em dias. O prazo de aprovação é calculado a partir desse campo assim que o modelo é aplicado a um ativo. |
+   | **(Opcional) Cronograma** | Insira o período em dias. O prazo de aprovação é calculado a partir desse campo assim que o modelo é aplicado a um ativo. |
    | **Adicionar aprovadores ou revisores** | Comece a digitar o nome de usuários ou equipes e, em seguida, designe-os como revisores ou aprovadores. |
 1. Clique em **Salvar**.
 

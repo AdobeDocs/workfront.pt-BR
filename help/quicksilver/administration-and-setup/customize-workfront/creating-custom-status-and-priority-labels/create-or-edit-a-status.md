@@ -25,7 +25,7 @@ Como administrador do Adobe Workfront, você pode criar status personalizados pa
 
 >[!NOTE]
 >
->Os administradores de grupo também podem criar seus próprios status de grupo, para uso somente por seus grupos. Para obter mais informações, consulte [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>Os administradores de grupo também podem criar seus próprios status de grupo, para uso somente por seus grupos. Para obter mais informações, consulte [Criar ou editar o status de um grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 ## Requisitos de acesso
 
@@ -64,13 +64,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode adicionar um status personalizado para ser usado por toda a organização ou por um único grupo.
 
-Ao criar um status personalizado para toda a organização, você pode configurá-lo para que todos os grupos no sistema possam usá-lo sem editá-lo. Ou você pode configurá-lo para que os administradores de grupo possam modificá-lo para seus grupos, conforme explicado em [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Ao criar um status personalizado para toda a organização, você pode configurá-lo para que todos os grupos no sistema possam usá-lo sem editá-lo. Ou você pode configurá-lo para que os administradores de grupos possam modificá-lo para seus grupos, conforme explicado em [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Configuração]** ![Ícone de Configuração](/help/_includes/assets/gear-icon-setup.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 
 1. No painel esquerdo, clique em **Preferências do projeto** > **Status**.
 
-1. (Condicional) Se você estiver criando ou editando um status para uso em todo o sistema, verifique se **Status do sistema** for selecionada na caixa no canto superior direito.
+1. (Condicional) Se você estiver criando ou editando um status para uso em todo o sistema, verifique se **Status do Sistema** está selecionado na caixa no canto superior direito.
 
    ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
@@ -80,13 +80,13 @@ Ao criar um status personalizado para toda a organização, você pode configur�
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Selecione a guia do tipo de objeto (**Projeto**, **Tarefas** ou **Problemas**) que deseja associar ao status.
+1. Selecione a guia do tipo de objeto (**Projeto**, **Tarefas** ou **Problemas**) que você deseja associar ao status.
 
-1. Se você estiver criando um novo status, clique em **Adicionar um novo status**.
+1. Se você estiver criando um novo status, clique em **Adicionar um Novo Status**.
 
    Ou
 
-   Se você estiver editando um status existente, passe o mouse sobre ele e clique no link **Editar** ícone que é exibido na extremidade direita.
+   Se você estiver editando um status existente, passe o mouse sobre ele e clique no ícone **Editar**, que é exibido na extremidade direita.
 
    ![](assets/custom-status-edit.png)
 
@@ -134,7 +134,7 @@ Ao criar um status personalizado para toda a organização, você pode configur�
        <li>Um usuário começa a editar um processo de aprovação que usa um status desbloqueado. Uma mensagem alerta o usuário sobre o status desbloqueado para que ele possa avaliar se seria uma boa ideia bloqueá-lo novamente ou substituí-lo.</li>
        <li>Um processo de aprovação em nível de sistema com status desbloqueado é anexado a um objeto e o status foi excluído para o grupo atribuído ao objeto. Quando um membro do grupo vai para a seção Aprovações do objeto, uma mensagem explica que o processo de aprovação não pode ser iniciado para o objeto.</li>
        </ul>
-       <p>Para obter mais informações sobre status de bloqueio, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Status bloqueados e desbloqueados no nível do sistema</a>.</p>
+       <p>Para obter mais informações sobre status de bloqueio, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Status de nível de sistema bloqueados e desbloqueados</a>.</p>
        </div>
       </td>
      </tr> 
@@ -143,6 +143,6 @@ Ao criar um status personalizado para toda a organização, você pode configur�
 
 1. Clique em **Salvar**.
 
-   Para obter instruções sobre como tornar esse status padrão, consulte [Usar status personalizados como status padrão](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Para obter instruções sobre como tornar este status padrão, consulte [Usar status personalizados como status padrão](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-Para obter informações sobre como reordenar os status de grupos, consulte [Reordenar os status do sistema e do grupo](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Para obter informações sobre como reordenar os status de grupo, consulte [Reordenar os status de grupo e de nível de sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a visualização da lista ou do relatório. É possível exibir objetos e seus atributos em uma visualização. Para obter informações sobre os objetos do Adobe Workfront, consulte [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a visualização da lista ou do relatório. É possível exibir objetos e seus atributos em uma visualização. Para obter informações sobre os objetos do Adobe Workfront, consulte [Entender os objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Considerações sobre visualizações
 
@@ -28,7 +28,7 @@ Você pode personalizar o tipo de informação exibida em uma lista ou relatóri
   Para obter informações sobre como conceder acesso, consulte [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Seu nível de permissões para uma exibição determina como uma exibição é salva. Se tiver criado a visualização originalmente, você poderá salvar as alterações, caso contrário, será solicitado que você salve uma versão da visualização. Se você fizer alterações em uma visualização compartilhada com outras pessoas, elas também serão afetadas.
-* É possível personalizar uma visualização que foi compartilhada com você somente se o usuário que a compartilhou tiver concedido acesso de Gerenciar. Para obter informações sobre como compartilhar uma visualização, consulte [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* É possível personalizar uma visualização que foi compartilhada com você somente se o usuário que a compartilhou tiver concedido acesso de Gerenciar. Para obter informações sobre como compartilhar um modo de exibição, consulte [Compartilhar um filtro, modo de exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 Você pode personalizar visualizações existentes, criar visualizações com base em visualizações existentes ou criar visualizações do zero.
 
@@ -39,7 +39,7 @@ A seguir estão tipos de exibições que podem ser aplicadas em listas ou relat�
 <table style="table-layout:auto">
     <tr>
         <td><strong>Exibições padrão</strong></td>
-        <td>Você pode aplicá-los a qualquer lista ou relatório de objetos. As exibições padrão são altamente personalizáveis. Você pode personalizar e compartilhar uma exibição padrão com outras pessoas. Para obter informações, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Criar ou editar exibições no Adobe Workfront</a>.</td>
+        <td>Você pode aplicá-los a qualquer lista ou relatório de objetos. As exibições padrão são altamente personalizáveis. Você pode personalizar e compartilhar uma exibição padrão com outras pessoas. Para obter informações, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Crie ou edite exibições no Adobe Workfront</a>.</td>
     </tr>
     <tr>
         <td><strong>Visualização Agile</strong></td>
@@ -55,7 +55,7 @@ A seguir estão tipos de exibições que podem ser aplicadas em listas ou relat�
 
 ## Compartilhar uma exibição
 
-Para obter informações sobre como compartilhar uma visualização, consulte [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Para obter informações sobre como compartilhar um modo de exibição, consulte [Compartilhar um filtro, modo de exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Remover uma visualização
 

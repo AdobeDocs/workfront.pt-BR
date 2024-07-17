@@ -25,7 +25,7 @@ Este recurso está em desenvolvimento e ainda não oferece suporte a:
 * relatórios solicitados
 * distribuição por meio de modelos de layout
 
-Para obter uma lista completa dos recursos que foram adicionados aos Painéis do Canvas, consulte [Painéis do Canvas: atividade de lançamento](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+Para obter uma lista completa dos recursos que foram adicionados aos Painéis da Tela, consulte [Painéis da Tela: atividade de lançamento](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## Acessar painéis da tela
 
@@ -37,19 +37,19 @@ Uma nova opção Painéis de tela de desenho no painel esquerdo da página de at
 >
 >Você deve ter pelo menos direitos de Visualização para Relatórios e Painéis para alternar o item Painéis de tela no Modelo de layout.
 
-1. Comece a trabalhar no modelo de layout em que deseja ativar os Painéis de controle do Canvas, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Comece a trabalhar no modelo de layout no qual você deseja habilitar os Painéis de Tela, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Clique no link **Personalize o que os usuários veem** e, em seguida, clique em **Painéis**.
+1. Clique no menu suspenso **Personalizar o que os usuários veem** e clique em **Painéis**.
 
-1. No **Painel esquerdo** que aparece abaixo, clique no link ![](assets/delete-secondary-nav-item.png) ícone ao lado de **Painéis do Canvas**. O ícone mudará para ![](assets/add-secondary-nav-item.png) para mostrar que agora está visível no painel esquerdo de Painéis.
+1. Na lista **Painel esquerdo** que aparece abaixo, clique no ícone ![](assets/delete-secondary-nav-item.png) ao lado de **Painéis da Tela**. O ícone mudará para ![](assets/add-secondary-nav-item.png) para mostrar que agora está visível no painel esquerdo de Painéis.
 
 1. Clique em **Salvar** na parte inferior da tela.
 
 ### Abrir Painéis de Controle de Tela
 
-1. Certifique-se de ter ativado a opção Painéis da tela de desenho no Modelo de layout. Consulte **Adicionando Painéis de Controle do Canvas ao menu Painéis** acima para obter instruções.
+1. Certifique-se de ter ativado a opção Painéis da tela de desenho no Modelo de layout. Consulte **Adicionando Painéis da Tela de Pintura ao menu Painéis** acima para obter instruções.
 
-1. Clique no ícone Menu principal ![](assets/main-menu-icon.png)e, em seguida, clique em **Painéis**.
+1. Clique no ícone Menu Principal ![](assets/main-menu-icon.png) e em **Painéis**.
 
 1. No painel esquerdo, clique em **Painéis do Canvas**.
 
@@ -57,39 +57,39 @@ Uma nova opção Painéis de tela de desenho no painel esquerdo da página de at
 
 ### Criar um novo painel da tela de desenho
 
-1. Abra os Painéis do Canvas conforme descrito em **Abrir Painéis de Controle de Tela** acima.
+1. Abra os Painéis da Tela conforme descrito em **Abrir Painéis da Tela** acima.
 
-1. Clique em **+ Novo painel**
+1. Clique em **+ Novo Painel**
 
-1. Clique em **Sem título** no canto superior esquerdo, para inserir um nome para o painel.
+1. Clique em **Sem título** no canto superior esquerdo para inserir um nome para o painel.
 
-1. Clique em **Concluído** no canto superior direito para salvar o novo painel ou começar a adicionar widgets, conforme descrito em **Adicionar um relatório a um painel da tela** abaixo.
+1. Clique em **Concluído** no canto superior direito para salvar o novo painel ou começar a adicionar widgets conforme descrito em **Adicionar um relatório a um Painel da Tela** abaixo.
 
 ### Adicionar um relatório a um painel da tela
 
-1. Abra os Painéis do Canvas conforme descrito em **Abrir Painéis de Controle de Tela** acima.
+1. Abra os Painéis da Tela conforme descrito em **Abrir Painéis da Tela** acima.
 
 1. Clique no painel ao qual deseja adicionar um relatório da lista de painéis.
 
-1. Clique em **Gerenciar widgets** no canto superior direito e clique em **Adicionar widget**.
+1. Clique em **Gerenciar dispositivos** no canto superior direito e em **Adicionar dispositivo**.
 
 1. Passe o mouse sobre o tipo de dispositivo de relatório que deseja adicionar e clique na caixa de seleção exibida.
 
-1. Quando tiver selecionado todos os widgets que deseja adicionar, clique em **Adicionar** no canto superior direito.
+1. Após selecionar todos os widgets que deseja adicionar, clique em **Adicionar** no canto superior direito.
 
-1. Os widgets selecionados aparecerão no painel. Clique em **Configuração** no centro de um widget para escolher qual relatório será exibido.
+1. Os widgets selecionados aparecerão no painel. Clique em **Configuração** no centro de um widget para escolher qual relatório ele exibirá.
 
-1. Comece a digitar o nome do relatório que deseja exibir no campo **Localizar Relatório** campo. Ao visualizar o relatório na lista, clique em **Relatório de Lista** ou **Relatório de Gráfico** ícone ao lado do nome para exibir as informações desse relatório no formato escolhido.
+1. Comece a digitar o nome do relatório que deseja exibir no campo **Localizar Relatório**. Ao ver o relatório na lista, clique no ícone **Relatório de Lista** ou **Relatório de Gráfico** ao lado do respectivo nome para exibir as informações desse relatório no formato escolhido.
 
 >[!WARNING]
 > Embora a adição de vários widgets que exibem informações do mesmo relatório seja possível no momento, recomendamos exibir cada relatório apenas uma vez, pois isso pode afetar o desempenho do painel.
 
 ### Editar um widget em um painel do Canvas
 
-1. Abra os Painéis do Canvas conforme descrito em **Abrir Painéis de Controle de Tela** acima.
+1. Abra os Painéis da Tela conforme descrito em **Abrir Painéis da Tela** acima.
 
 1. Clique no painel que deseja editar na lista de painéis.
 
-1. (Opcional) Para redimensionar um widget, arraste e solte o **Redimensionar** no canto inferior esquerdo do widget para o tamanho desejado.
+1. (Opcional) Para redimensionar um widget, arraste e solte o ícone **Redimensionar** no canto inferior esquerdo do widget para o tamanho desejado.
 
 1. (Opcional) Para reposicionar um widget, arraste o espaço em branco da borda do widget e arraste-o para a posição relativa desejada no painel.

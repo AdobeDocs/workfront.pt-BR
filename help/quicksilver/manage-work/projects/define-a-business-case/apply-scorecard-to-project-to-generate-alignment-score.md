@@ -61,14 +61,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Cartões de pontuação do projeto {#project-scorecards}
 
-* [Visão geral dos Scorecards](#scorecards-overview)
+* [Visão geral dos scorecards](#scorecards-overview)
 * [Aplicar um cartão de pontuação a um projeto](#apply-a-scorecard-to-a-project)
 
 ### Visão geral dos Scorecards {#scorecards-overview}
 
 Normalmente, um gerente de projeto conclui as informações do cartão de pontuação para produzir um valor de alinhamento entre 0 e 100 para o projeto. O valor produzido é usado posteriormente quando o gerente de portfólio revisa os projetos no otimizador de portfólio para compará-los.
 
-Para obter mais informações sobre otimização de portfólio, consulte [Visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Para obter mais informações sobre otimização de portfólio, consulte [visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Aplicar um cartão de pontuação a um projeto
 
@@ -78,16 +78,16 @@ Para obter mais informações sobre permissões de projeto, consulte [Compartilh
 
 Você pode adicionar scorecards a um projeto como parte da criação do business case do projeto.
 
-Para obter mais informações sobre como criar um business case, consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obter mais informações sobre a criação de um business case, consulte [Criar um business case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-O administrador do Adobe Workfront ou o administrador de grupo deve ativar a seção Scorecard na área Business Case dos projetos antes que você possa acessar scorecards do Business Case. Para obter informações sobre como configurar as preferências do projeto e ativar áreas do Business Case, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+O administrador do Adobe Workfront ou o administrador de grupo deve ativar a seção Scorecard na área Business Case dos projetos antes que você possa acessar scorecards do Business Case. Para obter informações sobre como configurar preferências de projeto e habilitar áreas do Business Case, consulte [Configurar preferências de projeto do sistema inteiro](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Para aplicar um cartão de pontuação a um projeto:
 
 1. Vá para um projeto ao qual deseja aplicar um cartão de pontuação.
 1. Clique em **Business Case** no painel esquerdo.
-1. Localize o **Scorecard** seção do Business Case.\
-   Você deve criar um cartão de pontuação antes da variável **Scorecard** é exibida no Business Case.
+1. Localize a seção **Scorecard** do Business Case.\
+   Você deve criar um scorecard antes que a seção **Scorecard** seja exibida no Business Case.
 
    Para obter informações sobre como criar um cartão de pontuação, consulte [Criar um cartão de pontuação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -99,7 +99,7 @@ Para aplicar um cartão de pontuação a um projeto:
 
    O Workfront aplica uma pontuação a cada pergunta respondida e calcula a pontuação geral do projeto com base na pontuação individual de cada pergunta.
 
-   Para obter mais informações sobre como gerar a pontuação geral de alinhamento do projeto, consulte [Gerar uma pontuação de alinhamento para um projeto](#generate-an-alignment-score-for-a-project).
+   Para obter mais informações sobre como gerar a pontuação de alinhamento geral do projeto, consulte [Gerar uma Pontuação de Alinhamento para um projeto](#generate-an-alignment-score-for-a-project).
 
 1. Clique em **Salvar** para salvar o cartão de pontuação e pontuar o projeto.
 
@@ -122,7 +122,7 @@ Para aplicar um cartão de pontuação a um projeto:
 
 ## Gerar uma pontuação de alinhamento
 
-* [Gerar uma pontuação de alinhamento para um projeto](#generate-an-alignment-score-for-a-project)
+* [Gerar uma Pontuação de Alinhamento para um projeto](#generate-an-alignment-score-for-a-project)
 * [Gerar uma Pontuação de alinhamento para um portfólio](#generate-an-alignment-score-for-a-portfolio)
 
 ### Gerar uma pontuação de alinhamento para um projeto {#generate-an-alignment-score-for-a-project}
@@ -153,7 +153,7 @@ Quando os scorecards dos projetos são concluídos, o Workfront usa esses valore
 
 Você pode visualizar a pontuação de alinhamento de um projeto no nível do projeto ou no Otimizador de Portfolio.
 
-* [Exibir a pontuação de alinhamento em um projeto](#view-the-alignment-score-on-a-project)
+* [Exibir a Pontuação de Alinhamento em um projeto](#view-the-alignment-score-on-a-project)
 * [Exibir as Pontuações de Alinhamento do projeto e do portfólio no Otimizador de Portfolio](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### Exibir a pontuação de alinhamento em um projeto
@@ -162,9 +162,9 @@ Você pode visualizar a pontuação de alinhamento de um projeto no nível do pr
 
 1. Vá para o projeto cuja Pontuação de alinhamento você deseja exibir.
 1. Clique em **Business Case** no painel esquerdo.
-1. Vá para a **Resumo de Business Case** no lado direito da tela.
+1. Vá para o **Resumo do Business Case** no lado direito da tela.
 
-   A Pontuação de alinhamento está localizada no Resumo de business case, no campo **Alinhado** valor.
+   A Pontuação de alinhamento está localizada no Resumo de business case, no valor **Aligned**.
 
    ![Pontuação de alinhamento em um projeto](assets/alignment-score-on-a-project.png)
 
@@ -172,12 +172,12 @@ Você pode visualizar a pontuação de alinhamento de um projeto no nível do pr
 
 Você pode visualizar a pontuação de alinhamento de um projeto ou de um portfólio no Otimizador de Portfolio, se tiver acesso de Gerenciamento ao portfólio.
 
-Para obter mais informações sobre as informações exibidas no Otimizador de Portfolio, consulte [Visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Para obter mais informações sobre as informações exibidas no Portfolio Otimizer, consulte [visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* [Localize a Pontuação de alinhamento do projeto no Otimizador de Portfolio](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [Localizar a Pontuação de Alinhamento do projeto no Otimizador de Portfolio](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Localize a Pontuação de alinhamento do portfólio no Otimizador de Portfolio](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Pontuação de alinhamento no Portfolio Otimizer](assets/alignment-score-in-portfolio-optimizer.png)
+  ![Pontuação de alinhamento no Otimizador de Portfolio](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Localize a Pontuação de alinhamento do projeto no Otimizador de Portfolio {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
@@ -188,7 +188,7 @@ Para obter mais informações sobre as informações exibidas no Otimizador de P
 
    O Otimizador de Portfolio é exibido.
 
-   A pontuação de alinhamento de um projeto é exibida como uma porcentagem na **Alinhamento** coluna do Otimizador de Portfolio.
+   A pontuação de alinhamento de um projeto é exibida como uma porcentagem na coluna **Alinhamento** do Otimizador de Portfolio.
 
    Essa é a pontuação de alinhamento do projeto com base no cartão de pontuação associado ao projeto.
 
@@ -198,11 +198,11 @@ Para obter mais informações sobre as informações exibidas no Otimizador de P
 
 1. Clique no nome de um portfólio.
 1. Clique em **Otimização de Portfolio** no painel esquerdo.
-1. Na parte superior do Otimizador de Portfolio, encontre **Alinhado** , bem como o **Alinhamento** medidor, que indica a pontuação de alinhamento do portfólio.
+1. Na parte superior do Otimizador de Portfolio, encontre o valor **Aligned**, bem como o medidor **Alignment**, que indica a pontuação de alinhamento do portfólio.
 
    Essa é a pontuação de alinhamento do portfólio.
 
-   Para obter mais informações sobre como a pontuação de alinhamento de um portfólio é gerada, consulte [Gerar uma Pontuação de alinhamento para um portfólio](#generate-an-alignment-score-for-a-portfolio).
+   Para obter mais informações sobre como a pontuação de alinhamento de um portfólio é gerada, consulte [Gerar uma pontuação de alinhamento para um portfólio](#generate-an-alignment-score-for-a-portfolio).
 
 ## Visão geral da pontuação do Portfolio Otimizer
 
@@ -210,10 +210,10 @@ Há uma diferença entre a pontuação de alinhamento e a pontuação do otimiza
 
 A pontuação de alinhamento de um projeto é calculada com base nos pontos obtidos após concluir o cartão de pontuação. Essa pontuação é então usada para determinar a pontuação de alinhamento do portfólio. A pontuação de alinhamento é exibida como uma porcentagem.
 
-A pontuação de alinhamento de um projeto é exibida na variável **Alinhamento** coluna do Otimizador de Portfolio.
+A pontuação de alinhamento de um projeto é exibida na coluna **Alinhamento** do Otimizador de Portfolio.
 
-A pontuação do otimizador de portfólio é uma classificação calculada automaticamente no Otimizador de Portfolio pela qual os projetos podem ser priorizados. A pontuação do otimizador de portfólio é exibida como um ícone de indicador acompanhado por um número e exibida na **Pontuação** coluna do Otimizador de Portfolio. Uma pontuação do Otimizador de Portfolio é gerada somente quando todas as seções do Business Case são concluídas, exceto Metas.
+A pontuação do otimizador de portfólio é uma classificação calculada automaticamente no Otimizador de Portfolio pela qual os projetos podem ser priorizados. A pontuação do otimizador de portfólio é exibida como um ícone de indicador acompanhado por um número e exibida na coluna **Score** do Otimizador de Portfolio. Uma pontuação do Otimizador de Portfolio é gerada somente quando todas as seções do Business Case são concluídas, exceto Metas.
 
 Para obter mais informações sobre como criar um Business Case para um projeto, consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Para obter mais informações sobre como calcular a pontuação do otimizador de portfólio de um projeto, consulte [Visão geral da pontuação do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+Para obter mais informações sobre como calcular a pontuação do otimizador de portfólio de um projeto, consulte [Visão geral da pontuação do otimizador de Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).

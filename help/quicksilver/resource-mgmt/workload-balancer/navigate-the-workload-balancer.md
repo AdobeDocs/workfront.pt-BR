@@ -19,7 +19,7 @@ Use o Balanceador de carga de trabalho no Adobe Workfront para atribuir trabalho
 
 O Balanceador de carga de trabalho está disponível em várias áreas do Adobe Workfront. Navegar por ele é semelhante em todas as áreas.
 
-Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localize o Balanceador de carga de trabalho](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
 
 ## Requisitos de acesso
@@ -91,7 +91,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Visualize ou aumente as permissões para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualize ou aumente as permissões para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,9 +117,9 @@ Considere o seguinte ao visualizar o Balanceador de carga de trabalho:
 
 * Quando um projeto não tem tarefas durante um período de tempo, a barra no nível do projeto fica em branco por esse tempo.
 
-  ![Projeto sem tarefas durante um período de tempo](assets/wb-no-tasks-in-time-period.png)
+  ![Projeto sem tarefas durante um período](assets/wb-no-tasks-in-time-period.png)
 
-* Quando você não tem permissões para ver determinados itens, eles são exibidos como **Itens de trabalho inacessíveis** ou **Projetos inacessíveis**.
+* Quando você não tem permissões para ver determinados itens, eles são exibidos como **itens de trabalho inacessíveis** ou **projetos inacessíveis**.
 
   ![Itens de trabalho inacessíveis](assets/wb-inaccessible-work-items.png)
 
@@ -134,7 +134,7 @@ Para obter mais informações sobre como exibir informações no Balanceador de 
 * [Localize o Balanceador de carga de trabalho](../workload-balancer/locate-workload-balancer.md)
 * [Filtrar informações no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md)
 * [Compartilhar o Balanceador de carga de trabalho com um link](../workload-balancer/share-link-for-workload-balancer.md)
-* [Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+* [Atualizar itens de trabalho no Balanceador de Carga de Trabalho usando o Resumo](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 Para obter informações sobre como gerenciar recursos usando o Balanceador de carga de trabalho, consulte também os seguintes artigos:
 
@@ -156,23 +156,23 @@ Após selecionar as configurações que deseja aplicar à visualização, o Bala
 
 Para navegar pelo Balanceador de carga de trabalho para vários projetos:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Workfront e clique em **Recursos**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Recursos**.
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
    ![Balanceador de carga de trabalho](assets/nwe-balancer-global.png)
 
    O Balanceador de carga de trabalho exibe informações de atribuição de trabalho começando com a semana atual nas duas áreas a seguir:
 
-   * A variável **Trabalho não atribuído** exibe os seguintes itens de trabalho:
+   * A área **Trabalho não atribuído** exibe os seguintes itens de trabalho:
 
       * Itens de trabalho (tarefas e problemas) atribuídos a funções, equipes ou que não foram atribuídos são exibidos após a aplicação dos filtros.
 A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recomendamos o uso de filtros para exibir informações relevantes nesta área.
 
-        Para obter informações sobre o uso de filtros, consulte [Filtrar informações no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
+        Para obter informações sobre como usar filtros, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
 
       * Os projetos são exibidos somente quando você ativa a configuração Agrupar por projeto. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
 
-   * A variável **Trabalho atribuído** exibe os seguintes itens de trabalho:
+   * A área **Trabalho atribuído** exibe os seguintes itens de trabalho:
 
       * Todos os usuários ativos no sistema são exibidos nessa área por padrão. Recomendamos o uso de filtros para limitar a quantidade de informações nessa área. Se os usuários forem atribuídos a itens, os itens de trabalho também serão exibidos com seu nome.
 
@@ -192,7 +192,7 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
             > 
             >Para obter informações sobre como personalizar configurações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
 
-1. (Opcional) Clique no link **Filtro** ícone ![Ícone Filtrar](assets/filter-icon.png) no **Trabalho atribuído** e selecione a **Filtro padrão** no **Sugerido** área da caixa de filtro.
+1. (Opcional) Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) na área **Trabalho atribuído** e selecione o **Filtro padrão** na área **Sugerido** da caixa de filtro.
 
    Ao aplicar o filtro Padrão, os usuários que pertencem a qualquer uma das suas equipes e seus itens de trabalho são exibidos. É possível editar uma cópia desse filtro.
 
@@ -203,19 +203,19 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 1. Continue com as seguintes etapas para navegar pelo Balanceador de carga de trabalho:
 
    * [Selecione um intervalo de tempo no Balanceador de carga de trabalho](#select-a-time-frame-in-the-workload-balancer)
-   * [Personalizar a exibição](#customize-the-view)
+   * [Personalizar o modo de exibição](#customize-the-view)
    * [Atribuir itens de trabalho e ajustar alocações de usuário](#assign-work-items-and-adjust-user-allocations)
    * [Exibir alocações em um gráfico](#view-allocations-in-a-chart)
 
 ### Selecione um intervalo de tempo no Balanceador de carga de trabalho
 
-1. Acesse o Balanceador de carga de trabalho no **Recursos** conforme descrito na seção [Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) neste artigo.
+1. Acesse o Balanceador de carga de trabalho na área **Recursos**, conforme descrito na seção [Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
 
    O Balanceador de carga de trabalho exibe informações de atribuição de trabalho começando com a semana atual.
 
 1. Use a rolagem horizontal para exibir a linha do tempo de itens de trabalho que ultrapassam os limites da tela.
-1. Clique em **voltar ou avançar** ícones ![Ícones para voltar e avançar](assets/back-and-forward-icons.png) no canto superior esquerdo para navegar na linha do tempo, clique em **Hoje** para retornar à semana atual.
-1. Clique em **menu suspenso intervalo de tempo** na barra de ferramentas, clique na data inicial do período que deseja exibir. Por padrão, a primeira semana selecionada no calendário é a semana para a qual você navegou.
+1. Clique nos ícones **voltar ou encaminhar** ![Voltar e encaminhar ícones](assets/back-and-forward-icons.png) no canto superior esquerdo para navegar na linha do tempo e clique em **Hoje** para retornar à semana atual.
+1. Clique no **menu suspenso de intervalo de tempo** na barra de ferramentas e, em seguida, clique na data de início do período que deseja exibir. Por padrão, a primeira semana selecionada no calendário é a semana para a qual você navegou.
 
    ![Seleção de calendário](assets/calendar-date-picker-wb.png)
 
@@ -229,21 +229,21 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
    ![Selecionar semanas](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. Clique em uma das seguintes opções na barra de ferramentas para exibir as informações em diferentes intervalos de tempo:
-   * **Dia**: exibe informações por dia, durante quatro semanas, começando na data de hoje, por padrão.
-   * **Semana**: exibe informações por semana, durante quatro semanas.
-   * **Month**: exibe informações por mês durante três meses.
+   * **Dia**: exibe informações por dia durante quatro semanas, começando com a data de hoje, por padrão.
+   * **Semana**: exibe informações por semana durante quatro semanas.
+   * **Mês**: exibe informações por mês durante três meses.
 
 1. Continue navegando no Balanceador de carga de trabalho conforme descrito nas seções a seguir.
 
 ### Personalizar a exibição
 
-1. Acesse o Balanceador de carga de trabalho no **Recursos** conforme descrito na seção [Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) neste artigo.
+1. Acesse o Balanceador de carga de trabalho na área **Recursos**, conforme descrito na seção [Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
 
    Os nomes dos itens de trabalho são listados no lado esquerdo e são representados por barras no lado direito do Balanceador de carga de trabalho. O comprimento da barra representa a linha do tempo de um item de trabalho.
 
 1. (Opcional e recomendado) Use filtros nas áreas Trabalho não atribuído e atribuído para exibir somente itens de trabalho ou usuários que sejam relevantes para você.
 
-   Para obter mais informações, consulte [Filtrar informações no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
+   Para obter mais informações, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
 
    Por padrão, as barras azuis representam as linhas do tempo dos projetos e tarefas, e as barras laterais representam problemas.
 
@@ -254,30 +254,30 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
    1. Data de Término Planejada (a mais antiga primeiro)
    1. Ordem alfabética por projeto (somente quando os dois primeiros critérios são idênticos para vários itens de trabalho)
 
-1. Clique em **seta para a direita** à esquerda das áreas Não atribuído ou Atribuído para expandir todos os itens nos nomes de projeto (na área Não atribuído) e nos nomes de usuário (na área Atribuído).
+1. Clique na **seta à direita** à esquerda das áreas Não atribuído ou Atribuído para expandir todos os itens nos nomes de projeto (na área Não atribuído) e nos nomes de usuário (na área Atribuído).
 
    >[!TIP]
    >
    >Os itens de trabalho são listados em nomes de projeto na área Não atribuído somente quando você ativa a configuração &quot;Agrupar por projeto&quot;.
 
-1. Clique em **seta apontando para baixo** à esquerda das áreas Não atribuído ou Atribuído para recolher todos os itens sob os nomes do projeto (na área Não atribuído) e sob os nomes de usuário (na área Atribuído).
+1. Clique na **seta para baixo** à esquerda das áreas Não atribuído ou Atribuído para recolher todos os itens nos nomes de projeto (na área Não atribuído) e nos nomes de usuário (na área Atribuído).
 
 1. Arraste e solte a **linha de separação** entre o painel esquerdo e a área da linha do tempo para ajustar o tamanho do painel esquerdo.
 
    ![Linha de separação](assets/wb-adjust-panel-size.png)
 
-1. Clique em **Configurações** ícone ![Ícone Configurações](assets/settings-gear-icon.png).
+1. Clique no ícone **Configurações** ![Ícone Configurações](assets/settings-gear-icon.png).
 
    O painel Configurações é exibido à direita.
 
-   ![Painel Configurações](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
+   ![Painel de configurações](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
-   Selecione entre as opções listadas abaixo para atualizar as informações exibidas no Balanceador de carga de trabalho e clique no botão **Ícone X** no canto superior direito da caixa Configurações para fechá-la.
+   Selecione entre as opções listadas abaixo para atualizar as informações exibidas no Balanceador de carga de trabalho e clique no **ícone X** no canto superior direito da caixa Configurações para fechá-lo.
 
-   * **Agrupar por Projeto**: quando selecionado, os itens nas áreas Trabalho não atribuído e atribuído são agrupados por projeto. É selecionado por padrão.
+   * **Agrupar por Projeto**: quando selecionado, os itens nas áreas Trabalho Atribuído e Não Atribuído são agrupados por projeto. É selecionado por padrão.
 
-   * **Incluir horas de problemas**: quando essa opção é selecionada, os problemas atribuídos aos usuários são exibidos sob o nome do usuário na área Trabalho atribuído e os problemas que não são atribuídos aos usuários são exibidos na área Trabalho não atribuído. As Horas planejadas dos problemas contam para as Horas planejadas do projeto e do usuário na área Trabalho atribuído.
-   * **Mostrar datas projetadas**: Quando essa opção estiver selecionada, a linha do tempo projetada dos itens de trabalho será exibida, além da linha do tempo planejada. Observe o seguinte:
+   * **Incluir horas de problemas**: quando selecionado, os problemas atribuídos aos usuários são exibidos sob o nome do usuário na área Trabalho atribuído, e os problemas não atribuídos aos usuários são exibidos na área Trabalho não atribuído. As Horas planejadas dos problemas contam para as Horas planejadas do projeto e do usuário na área Trabalho atribuído.
+   * **Mostrar Datas Projetadas**: quando selecionado, a linha do tempo projetada dos itens de trabalho é exibida além da linha do tempo planejada. Observe o seguinte:
       * A linha do tempo projetada do projeto, tarefas e problemas é exibida como uma linha azul escura acima das barras de tarefa, problema e projeto.
       * A linha do tempo projetada fora da linha do tempo planejada é exibida em azul claro, mesmo quando você atualiza o tema de cor, conforme descrito abaixo.
       * A linha do tempo projetada para os itens que você não tem acesso para visualizar é exibida em cinza claro com uma linha abaixo.
@@ -287,11 +287,11 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
      >
      >Observe que os itens de trabalho são exibidos no Balanceador de carga de trabalho quando suas linhas do tempo planejadas ou projetadas (não necessariamente as duas ao mesmo tempo) ocorrem durante o período selecionado.
 
-   * **Mostrar o trabalho concluído**: quando estiver ativado, as tarefas concluídas e os problemas são exibidos na área Trabalho atribuído. Isso é ativado por padrão.
+   * **Mostrar trabalho concluído**: quando habilitado, as tarefas concluídas e os problemas são exibidos na área Trabalho Atribuído. Isso é ativado por padrão.
 
      Um ícone de marca de seleção verde é exibido no canto superior direito de uma barra de tarefas ou problemas quando são concluídos. O mesmo ícone é exibido para um projeto quando as tarefas ou problemas do período selecionado do projeto são concluídos.
-   * **Mostrar o tempo restante**: quando esta opção está ativada, o Workfront exibe a diferença entre o horário diário para o qual o usuário está disponível para trabalhar com base em suas programações e as horas para as quais ele está alocado na área Trabalho atribuído para os usuários. Isso é desativado por padrão e o tempo alocado é exibido por padrão.
-   * No **Selecionar tema de cor** selecione a cor desejada para as barras de projeto e tarefa.
+   * **Mostrar tempo restante**: quando habilitado, o Workfront exibe a diferença entre o horário diário para o qual o usuário está disponível para trabalhar com base em seus cronogramas e as horas para as quais ele está alocado na área Trabalho atribuído para os usuários. Isso é desativado por padrão e o tempo alocado é exibido por padrão.
+   * Na seção **Selecionar tema de cor**, selecione a cor desejada para as barras de projeto e tarefa.
 
      >[!TIP]
      >
@@ -300,17 +300,17 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
      Selecione entre as seguintes opções:
       * **Padrão**: as barras de todos os projetos e seus itens de trabalho são exibidas em azul.
       * **Projeto**: as barras associadas a cada projeto e suas tarefas mudam de acordo com o nome do projeto. Todas as tarefas que pertencem ao projeto são exibidas em barras que correspondem à cor do projeto. As barras de projeto são exibidas em uma sombra mais clara para diferenciá-las das tarefas. As barras de projeto também incluem um ícone de projeto ao optar por não exibir alocações.
-      * **Status do projeto**: as barras associadas a cada projeto e seus itens de trabalho mudam para a cor do status do projeto.
+      * **Status do Projeto**: as barras associadas a cada projeto e a seus itens de trabalho mudam para a cor do status do projeto.
 
-        O status do projeto é aquele associado ao Grupo do projeto. Se o Grupo não tiver status específicos de grupo, a cor das barras do item de trabalho será a do status do projeto no nível do sistema. Tanto os status do sistema quanto os personalizados são exibidos. Para obter informações sobre status de grupos, consulte [Criar ou editar um status de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+        O status do projeto é aquele associado ao Grupo do projeto. Se o Grupo não tiver status específicos de grupo, a cor das barras do item de trabalho será a do status do projeto no nível do sistema. Tanto os status do sistema quanto os personalizados são exibidos. Para obter informações sobre status de grupo, consulte [Criar ou editar um status de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-   * No **Exibir alocação de usuários em** selecione entre as seguintes opções:
+   * Na seção **Exibir alocação de usuário em**, selecione uma das seguintes opções:
       * **Horas**: exibe o tempo alocado como horas. Este é o padrão.
-      * **Porcentagem**: exibe o tempo alocado como um percentual do tempo total disponível
-   * No **Classificação de preferências** selecione como deseja que os itens sejam classificados no Balanceador de carga de trabalho. Selecione entre as seguintes opções:
-      * **Classificar usuários pela função principal**: os usuários são exibidos na ordem alfabética de suas Funções principais na área Trabalho atribuído.
-      * **Classificar usuários em ordem alfabética**: os usuários são exibidos na ordem alfabética de seus nomes na área Trabalho atribuído.
-      * **Classificar projetos por**: selecione um campo de projeto no menu suspenso para classificar projetos em ordem alfabética de acordo com esse campo nas áreas Trabalho não atribuído ou atribuído.
+      * **Porcentagem**: exibe o tempo alocado como uma porcentagem do tempo total disponível
+   * Na seção **Preferências de classificação**, selecione como deseja que os itens sejam classificados no Balanceador de carga de trabalho. Selecione entre as seguintes opções:
+      * **Classificar usuários por função principal**: os usuários são exibidos na ordem alfabética de suas funções principais na área Trabalho atribuído.
+      * **Classificar usuários em ordem alfabética**: os usuários são exibidos em ordem alfabética de seus nomes na área Trabalho atribuído.
+      * **Classificar projetos por**: selecione um campo de projeto no menu suspenso para classificar projetos em ordem alfabética de acordo com o campo nas áreas Trabalho não atribuído ou atribuído.
 
    >[!TIP]
    >
@@ -318,12 +318,12 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
 1. (Opcional e condicional) Ao alterar o tema de cores para Status do projeto, passe o mouse sobre o nome de um projeto à esquerda para visualizar o status do projeto.
 
-   ![Dica de ferramenta de status do projeto](assets/hover-over-project-status-tooltip-350x115.png)
+   ![Dica de ferramenta do status do projeto](assets/hover-over-project-status-tooltip-350x115.png)
 
 ### Atribuir itens de trabalho e ajustar alocações de usuário
 
 1. Acesse o Balanceador de carga de trabalho na área Recursos, conforme descrito na seção [Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) neste artigo.
-1. Clique em **Mostrar ícone de alocações** ![Mostrar ícone de alocações](assets/show-allocations-icon-small.png) para exibir as Horas Planejadas diárias ou semanais dos itens de trabalho.
+1. Clique no **ícone Mostrar alocações** ![ícone Mostrar alocações](assets/show-allocations-icon-small.png) para exibir as Horas Planejadas diárias ou semanais dos itens de trabalho.
 
    Isso substitui o nome nas barras dos itens de trabalho pela quantidade de Horas planejadas diárias ou semanais nas áreas Trabalho não atribuído e atribuído. Essa configuração é desativada por padrão.
 
@@ -340,12 +340,12 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
    ![Detalhes do tempo alocado](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
-1. (Opcional) Clique no link **Ícone Ocultar alocações** ![](assets/show-allocations-icon-small.png) para exibir o nome das tarefas e problemas nas barras dos itens de trabalho.
-1. Clique em **Menu Mais** ícone ![](assets/more-icon.png) à direita do nome de uma tarefa ou problema e clique em uma das opções abaixo.
+1. (Opcional) Clique no **ícone Ocultar alocações** ![](assets/show-allocations-icon-small.png) para exibir o nome das tarefas e problemas nas barras dos itens de trabalho.
+1. Clique no ícone ![](assets/more-icon.png) do **Mais menu** à direita do nome de uma tarefa ou problema e clique em uma das opções abaixo.
 
-   ![Menu Mais](assets/more-menu-right-of-task-350x104.png)
+   ![Mais menu](assets/more-menu-right-of-task-350x104.png)
 
-   * **Atribuir esta para**, em seguida, comece digitando o nome de um usuário, função ou equipe à qual você deseja atribuir o item de trabalho na **Pesquisar pessoas, funções ou equipes** campo.
+   * **Atribua isto a** e comece digitando o nome de um usuário, função ou equipe ao qual deseja atribuir o item de trabalho no campo **Pesquisar pessoas, função ou equipes**.
 
      Você também pode usar os seguintes atalhos para atribuir tarefas ou problemas:
 
@@ -356,13 +356,13 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
      >[!TIP]
      >
-     >Se a Workfront ou o administrador de grupo tiver ativado delegações no seu ambiente, use a guia Atribuições para atribuir usuários à tarefa ou problema. Para obter informações sobre como delegar trabalho, consulte [Gerenciar delegação de tarefas e problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Se a Workfront ou o administrador de grupo tiver ativado delegações no seu ambiente, use a guia Atribuições para atribuir usuários à tarefa ou problema. Para obter informações sobre delegação de trabalho, consulte [Gerenciar delegação de tarefas e problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-   * **Editar alocações** e edite as alocações diárias ou semanais para o usuário. Para obter informações sobre o gerenciamento de alocações de usuários, consulte [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   * **Editar alocações** e editar as alocações diárias ou semanais do usuário. Para obter informações sobre como gerenciar alocações de usuários, consulte [Gerenciar alocações de usuários no Balanceador de carga de trabalho](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   * **Abrir resumo**. O painel Resumo é aberto à direita, clique no campo Atribuições e comece a digitar o nome de um usuário, função ou equipe no **Pesquisar pessoas, funções ou equipes** para atribuir o item. Para obter mais informações, consulte a seção [Exibir mais informações sobre tarefas e problemas](#display-more-information-about-tasks-and-issues) neste artigo.
+   * **Abrir Resumo**. O painel Resumo é aberto à direita, em seguida, clique no campo Atribuições e comece a digitar o nome de um usuário, função ou equipe no campo **Pesquisar pessoas, função ou equipes** para atribuir o item. Para obter mais informações, consulte a seção [Exibir mais informações sobre tarefas e problemas](#display-more-information-about-tasks-and-issues) neste artigo.
 
-1. (Opcional) Clique duas vezes em uma alocação diária ou semanal para um usuário dentro da barra de um item de trabalho para editar o número de horas alocadas e clique no botão **Salvar** ícone ![Ícone Salvar](assets/save-allocations-wb.png) para salvar as alocações ou a variável **Cancelar** ícone ![Ícone Cancelar](assets/cancel-allocations-wb.png) para remover as alocações ajustadas.
+1. (Opcional) Clique duas vezes em uma alocação diária ou semanal para um usuário dentro da barra de um item de trabalho para editar o número de horas alocadas e clique no **ícone Salvar** ![ícone Salvar](assets/save-allocations-wb.png) para salvar as alocações ou no **ícone Cancelar** ![ícone Cancelar](assets/cancel-allocations-wb.png) para remover as alocações ajustadas.
 
    >[!TIP]
    >
@@ -370,12 +370,12 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
    >
    >![Salvar ou cancelar alocações manuais](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
 
-   Para obter informações sobre o gerenciamento de alocações de usuários, consulte [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   Para obter informações sobre como gerenciar alocações de usuários, consulte [Gerenciar alocações de usuários no Balanceador de carga de trabalho](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 1. Clique em **Atribuições em massa** para atribuir itens de trabalho em massa.
 
-   Para obter mais informações, consulte [Atribuir trabalho em massa usando o Balanceador de carga de trabalho](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
-1. Arraste itens do menu **Trabalho não atribuído** ou de um usuário e solte-os em outro usuário para atribuí-los.
+   Para obter mais informações, consulte [Atribuir trabalho em massa usando o Balanceador de Carga de Trabalho](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+1. Arraste itens da área **Trabalho não atribuído** ou de um usuário e solte-os em outro usuário para atribuí-los.
 
    Para obter mais informações, consulte [Atribuir trabalho no Balanceador de carga de trabalho arrastando e soltando](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
@@ -384,13 +384,13 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 Em vez de exibir alocações em números diários ou semanais, você pode exibi-los em um gráfico.
 
 1. Acesse o Balanceador de carga de trabalho na área Recursos, conforme descrito na seção [Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) neste artigo.
-1. Clique em **Ícone do gráfico** ![Ícone do gráfico](assets/user-allocation-chart-icon.png) para exibir a alocação de usuários em um formato de gráfico.
+1. Clique no **ícone do Gráfico** ![ícone do Gráfico](assets/user-allocation-chart-icon.png) para exibir a alocação de usuário em um formato de gráfico.
 
    Os dias em que o usuário está superalocado são exibidos como blocos vermelhos e os dias em que o usuário está subalocado ou na capacidade são exibidos como blocos azuis.
 
    O tamanho dos blocos indica a quantidade da alocação: quanto maior a caixa, mais tempo o usuário é alocado para itens de trabalho para esse dia ou semana.
 
-   ![Alocação de usuários como um gráfico](assets/wb-allocation-as-chart.png)
+   ![Alocação de usuário como gráfico](assets/wb-allocation-as-chart.png)
 
 ### Exibir mais informações sobre tarefas e problemas
 
@@ -400,10 +400,10 @@ Você pode ver mais informações sobre as tarefas e os problemas no Balanceador
 1. Para exibir mais informações no painel Resumo, siga um destes procedimentos:
 
    * Clique na barra de uma tarefa ou problema para abrir o painel Resumo à direita.
-   * Clique em **Abrir resumo** ícone ![](assets/summary-panel-icon.png), em seguida, clique na barra de uma tarefa ou problema para abrir o painel Resumo.
-   * Clique em **Mais** à direita de uma tarefa ou problema, em seguida, clique em **Abrir resumo**.
+   * Clique no ícone ![](assets/summary-panel-icon.png) do **Abrir resumo** e, em seguida, clique na barra de uma tarefa ou problema para abrir o painel Resumo.
+   * Clique no menu **Mais** à direita de uma tarefa ou problema e clique em **Abrir resumo**.
 
-   Para obter informações sobre como atualizar informações da tarefa no Resumo do Balanceador de carga de trabalho, consulte [Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+   Para obter informações sobre como atualizar informações de tarefa no Resumo do Balanceador de carga de trabalho, consulte [Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 1. Passe o mouse sobre o nome de uma tarefa ou problema para ver mais informações sobre ele. Uma caixa é exibida acima da tarefa ou do problema com as seguintes informações:
 
@@ -422,18 +422,18 @@ Você pode ver mais informações sobre as tarefas e os problemas no Balanceador
 
 1. Acesse o Balanceador de carga de trabalho na área Recursos, conforme descrito na seção [Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) neste artigo.
 
-1. Clique em **Tela cheia** ícone ![Ícone de tela cheia](assets/full-screen.png) para exibir o Balanceador de carga de trabalho em tela cheia.
+1. Clique no ícone **Tela cheia** ![Ícone de tela cheia](assets/full-screen.png) para exibir o Balanceador de carga de trabalho em tela cheia.
 
    O Balanceador de carga de trabalho ocupa toda a tela. As janelas e guias do navegador são excluídas da visualização.
 
-1. Clique em **Sair da tela cheia** ícone ![Ícone Sair da tela cheia](assets/exit-full-screen.png) para retornar à tela padrão e visualizar o Balanceador de carga de trabalho dentro da guia do navegador.
+1. Clique no ícone **Sair da tela cheia** ![Sair da tela cheia](assets/exit-full-screen.png) para retornar à tela padrão e exibir o Balanceador de carga de trabalho na guia do navegador.
 
 
 ## Navegar pelo Balanceador de carga de trabalho de uma equipe
 
 Navegar pelo Balanceador de carga de trabalho de uma equipe é semelhante a como você navega pelo Balanceador de carga de trabalho para vários projetos. Para obter informações, consulte a seção [Navegar pelo Balanceador de carga de trabalho para vários projetos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) neste artigo.
 
-1. Clique em **Menu principal** ícone ![Menu principal](assets/main-menu-icon.png)e, em seguida, clique em **Equipes**.
+1. Clique no ícone **Menu principal** ![Menu principal](assets/main-menu-icon.png) e em **Equipes**.
 A página da Equipe inicial é exibida por padrão.
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. O Balanceador de carga de trabalho de uma equipe deve ser exibido por padrão.
 
@@ -441,35 +441,35 @@ A página da Equipe inicial é exibida por padrão.
 
    O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações, por padrão:
 
-   * No **Trabalho não atribuído** área: itens de trabalho atribuídos à equipe ou às funções de equipe e trabalho e que não estão atribuídos a usuários.
-   * No **Trabalho atribuído** área: os itens de trabalho atribuídos aos usuários são exibidos sob os nomes dos usuários.
+   * Na área **Trabalho não atribuído**: itens de trabalho atribuídos à equipe ou às funções de equipe e trabalho e que não estão atribuídos a usuários.
+   * Na área **Trabalho atribuído**: os itens de trabalho atribuídos aos usuários são exibidos sob os nomes dos usuários.
 
-1. Continue navegando no Balanceador de carga de trabalho de uma equipe, conforme descrito na [Navegar pelo Balanceador de carga de trabalho para vários projetos na área Recursos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) seção deste artigo.
+1. Continue navegando no Balanceador de carga de trabalho de uma equipe, conforme descrito na seção [Navegar no Balanceador de carga de trabalho para vários projetos na seção Área de recursos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
 
 ## Navegar pelo Balanceador de carga de trabalho de um único projeto
 
-1. Clique em **Menu principal** ícone ![Menu principal](assets/main-menu-icon.png)e, em seguida, clique em **Projetos**.
+1. Clique no ícone **Menu principal** ![Menu principal](assets/main-menu-icon.png) e em **Projetos**.
 1. Clique no nome de um projeto para abrir a página.
-1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais**, depois **Balanceador de carga de trabalho**.
+1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Balanceador de Carga de Trabalho**.
 
    ![Balanceador de carga de trabalho de um projeto](assets/nwe-balancer-project-350x152.png)
 
    O Balanceador de carga de trabalho do projeto exibe as seguintes informações, por padrão:
 
-   * No **Trabalho não atribuído** Área: itens de trabalho no projeto que são atribuídos a funções ou equipes e não são atribuídos a usuários.
-   * No **Trabalho atribuído** área: itens de trabalho no projeto que são atribuídos a pelo menos um usuário.
+   * Na área **Trabalho não atribuído**: itens de trabalho no projeto que são atribuídos a funções ou equipes e não são atribuídos a usuários.
+   * Na área **Trabalho atribuído**: itens de trabalho no projeto atribuídos a pelo menos um usuário.
 
    Recomendamos o uso de filtros para mostrar apenas os usuários que são importantes para você.
 
-   Por exemplo, você pode considerar exibir somente os usuários que pertencem a suas equipes ou grupos. Para obter mais informações, consulte [Filtrar informações no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
+   Por exemplo, você pode considerar exibir somente os usuários que pertencem a suas equipes ou grupos. Para obter mais informações, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Opcional) Clique no link **Filtro** ícone ![Ícone Filtrar](assets/filter-icon.png) na área Trabalho atribuído e selecione o **Os itens de trabalho deste projeto** opção no **Sugerido** área do painel de filtros. Esse filtro é desmarcado por padrão.
+1. (Opcional) Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) na área Trabalho Atribuído e selecione a opção **Itens de trabalho deste projeto** na área **Sugerido** do painel de filtro. Esse filtro é desmarcado por padrão.
 
    Quando essa opção é selecionada, somente os itens atribuídos aos usuários no projeto selecionado são exibidos.
 
    Quando a opção não está selecionada, todos os itens atribuídos aos usuários no projeto são exibidos, independentemente dos projetos aos quais os itens pertencem.
 
-1. (Opcional e recomendado) Aplique um filtro na área Trabalho atribuído para exibir usuários que são importantes para você, mas que podem não estar atribuídos a itens no projeto, depois clique no link **Mostrar todos os usuários** ícone ![Ícone Mostrar todos os usuários](assets/show-all-users-icon-project-workload-balancer.png).
+1. (Opcional e recomendado) Aplique um filtro na área Trabalho atribuído para exibir usuários que são importantes para você, mas que podem não estar atribuídos a itens no projeto, em seguida, clique no ícone **Mostrar todos os usuários** ![Ícone Mostrar todos os usuários](assets/show-all-users-icon-project-workload-balancer.png).
 
    Ao mostrar todos os usuários, você pode exibir todos os usuários no Workfront que ainda não estão atribuídos ao trabalho ou a outras funções no projeto.
 
@@ -477,13 +477,13 @@ A página da Equipe inicial é exibida por padrão.
 
    Por exemplo, você pode filtrar primeiro para usuários que pertencem a suas equipes ou grupos e, em seguida, exibir todos esses usuários.
 
-   Para obter informações sobre como criar um filtro, consulte [Filtrar informações no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
+   Para obter informações sobre como criar um filtro, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
 
    >[!NOTE]
    >
    > A opção Mostrar todos os usuários está disponível somente para o Balanceador de carga de trabalho de um projeto.
 
-1. (Opcional) Clique no link **Mostrar alocações de funções** ícone ![Ícone Mostrar alocações de funções](assets/show-role-allocation-icon.png).
+1. (Opcional) Clique no **ícone Mostrar alocações de função** ![ícone Mostrar alocações de função](assets/show-role-allocation-icon.png).
 
    O painel Alocação de função é exibido.
 
@@ -496,7 +496,7 @@ A página da Equipe inicial é exibida por padrão.
    >
    >Não é possível exibir as informações de função de trabalho da iniciativa se a organização não tiver comprado uma licença do Planejador de cenários do Workfront. Nesse caso, você só pode exibir as horas planejadas associadas às funções de trabalho no projeto. Para obter mais informações, consulte [Acesso necessário para usar o Planejador de cenários](../../scenario-planner/access-needed-to-use-sp.md).
 
-1. Continue navegando no Balanceador de carga de trabalho de um projeto, conforme descrito na [Navegar pelo Balanceador de carga de trabalho para vários projetos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) seção deste artigo.
+1. Continue navegando no Balanceador de carga de trabalho de um projeto, conforme descrito na seção [Navegar no Balanceador de carga de trabalho para vários projetos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

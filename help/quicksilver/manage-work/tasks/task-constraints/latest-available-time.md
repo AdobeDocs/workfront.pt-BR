@@ -54,13 +54,13 @@ A restrição Último Tempo Disponível difere da restrição O Mais Tarde Poss�
 
 Nesta situação:
 
-* **Último horário disponível:** Usar a restrição Último Tempo Disponível na tarefa predecessora dá prioridade à restrição flexível da sucessora.
+* **Último Tempo Disponível:** Usar a última restrição de Tempo Disponível na tarefa predecessora dá prioridade à restrição flexível da sucessora.
 
   **Exemplo:** Por exemplo, a Tarefa A é predecessora da Tarefa B. A Tarefa A tem a restrição Tempo Disponível Mais Recente e a Tarefa B tem a restrição O Mais Breve Possível. Nessa situação, a Tarefa A é agendada o mais próximo possível do início do projeto.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **O Mais Tarde Possível:** Nesse cenário, usar a restrição O Mais Tarde Possível na tarefa predecessora dá prioridade à tarefa predecessora.
+* **O Mais Tarde Possível:** neste cenário, usar a restrição O Mais Tarde Possível na tarefa predecessora dá prioridade à tarefa predecessora.
 
   **Exemplo:** Por exemplo, a Tarefa A é predecessora da Tarefa B. A Tarefa A tem a restrição O Mais Tarde Possível e a Tarefa B tem a restrição O Mais Breve Possível. Nessa situação, a Tarefa A é agendada o mais próximo possível do final do projeto.
 

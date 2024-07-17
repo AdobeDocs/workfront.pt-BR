@@ -26,7 +26,7 @@ Vários recursos estão sendo removidos do produto Adobe Workfront. A seguir, um
   <tr> 
    <td><b>Área de recurso ou produto</b></td> 
    <td><strong>Última versão com novos recursos</strong> </td> 
-   <td> <p rowspan="2"><strong>Datas principais</strong> </p> <p rowspan="2"> </p> </td> 
+   <td> <p rowspan="2"><strong>Datas-chave</strong> </p> <p rowspan="2"> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Adobe Workfront Classic <p style="font-weight: normal;">Mais informações em breve.</p> </td> 
@@ -34,7 +34,7 @@ Vários recursos estão sendo removidos do produto Adobe Workfront. A seguir, um
    <td> <p>Última versão com novas melhorias de recursos no Classic com a versão 21.2</p> <p>Não é mais compatível em 31 de março de 2022</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Suporte ao Internet Explorer</p> <p>Com a remoção do suporte ao Internet Explorer, a Workfront agora oferece suporte oficial ao Microsoft Edge. </p> <p>Para obter mais informações sobre os navegadores compatíveis, consulte <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Requisitos do navegador Adobe Workfront</a>.</p> </td> 
+   <td> <p>Suporte ao Internet Explorer</p> <p>Com a remoção do suporte ao Internet Explorer, a Workfront agora oferece suporte oficial ao Microsoft Edge. </p> <p>Para obter mais informações sobre navegadores compatíveis, consulte <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">requisitos do navegador Adobe Workfront</a>.</p> </td> 
    <td>Com a versão 21.1</td> 
    <td>Não é mais compatível com a versão 21.2</td> 
   </tr> 

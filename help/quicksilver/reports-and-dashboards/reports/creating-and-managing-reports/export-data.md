@@ -32,15 +32,15 @@ As informações deste artigo não se aplicam às seguintes exportações:
 
 * Exportar informações de relatórios de gráficos.
 
-  Para obter mais informações sobre a exportação de um relatório de gráfico, consulte [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Para obter mais informações sobre como exportar um relatório de gráfico, consulte [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 * Exportando informações do gráfico de Gantt.
 
-  Para obter mais informações sobre a exportação do gráfico de Gantt, consulte [Exporte o Gráfico de Gantt para o PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+  Para obter mais informações sobre como exportar o Gráfico de Gantt, consulte [Exportar o Gráfico de Gantt para PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 * Exportando informações do Planejador de recursos.
 
-  Para obter mais informações sobre a exportação de informações do Planejador de recursos, consulte &quot;Opção de exportação&quot; em [Visão geral da navegação do Planejador de recursos](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Para obter mais informações sobre como exportar as informações do Planejador de recursos, consulte &quot;Opção de exportação&quot; na [Visão geral da navegação do Planejador de recursos](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Requisitos de acesso
 
@@ -84,7 +84,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 O relatório deve ser criado antes que você possa exportar seus dados.
 
-Para obter mais informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) ou [Criar uma cópia de um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) ou [Criar uma cópia de um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Exportar formatos e limites
 
@@ -109,11 +109,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Há várias limitações no modo como os relatórios são exibidos no Workfront, bem como no modo como são exportados por meio de uma exportação manual, um relatório entregue ou pela API.
 
-* **50.000 células:** O número máximo de células permitidas em uma exportação de relatório para arquivos do Excel.
-* **50.000 linhas:** O número de linhas de dados permitidas em uma exportação de relatório para arquivos .pdf e Delimitados por tabulação.
+* **50.000 células:** o número máximo de células permitidas em uma exportação de relatório para arquivos do Excel.
+* **50.000 linhas:** o número de linhas de dados permitidas em uma exportação de relatório para arquivos .pdf e Delimitados por tabulação.
 
-   * Para arquivos .xls do Excel, esse limite é **65.000 linhas**.
-   * Para arquivos .xlsx do Excel, esse limite é **100.000 linhas**.
+   * Para arquivos .xls do Excel, esse limite é de **65.000 linhas**.
+   * Para arquivos .xlsx do Excel, esse limite é de **100.000 linhas**.
    * Esses limites excluem os cabeçalhos da coluna, bem como linhas para agrupamentos no relatório. Por exemplo, se você tiver seis agrupamentos em um relatório e 50.000 linhas de dados, o arquivo exportado terá 50.000 linhas.
 
   >[!IMPORTANT]
@@ -127,9 +127,9 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
 
   Se seu relatório tiver mais de 50.000/ 65.000/ 100.000 linhas e você quiser exportar todos os dados, sugerimos que você use filtros ou prompts para obter cargas menores de dados e executar várias exportações.
 
-  Para obter informações sobre o uso de filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obter informações sobre como usar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-  Para obter informações sobre o uso de prompts, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Para obter informações sobre como usar prompts, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 * Estes limites aplicam-se a:
 
@@ -138,7 +138,7 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
    * Uma exportação por meio de uma integração de API.
    * Dados exportados por meio de um início.
 
-     Para obter mais informações sobre como exportar dados por meio de inicializações, consulte [Exportar dados do Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Para obter mais informações sobre como exportar dados por meio de inícios, consulte [Exportar dados do Adobe Workfront por meio de Inícios](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
@@ -146,10 +146,10 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
 
    * Exportando informações de utilização de um projeto.
 
-     Para obter mais informações sobre a exportação de informações de utilização de um projeto, consulte [Visão Geral do relatório de Utilização de Recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+     Para obter mais informações sobre como exportar informações de utilização de um projeto, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
-* **Tamanho do arquivo de 10 MB:** Limite de tamanho de arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
-* **65.530 hiperlinks:** Esse é um limite imposto pelo Excel a documentos que contêm mais de 65.530 hiperlinks. Esses documentos não podem ser abertos quando são exportados manualmente ou enviados em um relatório entregue. Observe que um documento do Excel pode ter apenas 200 linhas de dados, mas se houver mais de 65.530 links dentro do documento, ele não abrirá. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis. 
+* **Tamanho do arquivo de 10 MB:** Limite do tamanho do arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
+* **65.530 hiperlinks:** esse é um limite imposto pelo Excel a documentos que contêm mais de 65.530 hiperlinks. Esses documentos não podem ser abertos quando são exportados manualmente ou enviados em um relatório entregue. Observe que um documento do Excel pode ter apenas 200 linhas de dados, mas se houver mais de 65.530 links dentro do documento, ele não abrirá. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis. 
 * **256 colunas**: esse é um limite imposto pelo Excel a documentos que contêm mais de 256 colunas. Esses documentos não podem ser exportados manualmente ou enviados em um relatório entregue. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis.
 
 Se você tentar exportar dados além do limite, talvez não receba todos os dados esperados na exportação. Em vez disso, um relatório modificado é produzido dentro do limite.
@@ -183,7 +183,7 @@ Se você tiver dúvidas ou problemas relacionados ao seu limite, entre em contat
 
    Ou
 
-   Clique em **Exportar** ícone ![Ícone Exportar](assets/export-icon-nwe.png)e selecione um formato.
+   Clique no ícone **Exportar** ![Ícone Exportar](assets/export-icon-nwe.png) e selecione um formato.
 
    As opções disponíveis para você exportar PDF dependem das configurações de local nas configurações de usuário do Workfront:
 
@@ -212,7 +212,7 @@ Para obter mais informações sobre como exportar dados de um painel, consulte [
 
 * [Nomes de arquivos](#file-names)
 * [Títulos](#titles)
-* [Carimbos de data e hora](#timestamps)
+* [Carimbos de data/hora](#timestamps)
 * [Formatação](#formatting)
 * [Links](#links)
 * [Marca](#branding)
@@ -225,7 +225,7 @@ Se você exportar uma lista de objetos ou um relatório, seu arquivo exportado t
 
 Quando você exporta uma lista de objetos, o tipo do objeto é exibido no arquivo exportado no nome do arquivo e no título da lista.
 
-Quando exportar uma lista de tarefas ou problemas, a variável **Nome do arquivo** pode ser um dos seguintes:
+Quando você exporta uma lista de tarefas ou problemas, o **Nome do Arquivo** pode ser um dos seguintes:
 
 * Ao exportar listas de tarefas e problemas em um projeto:
 
@@ -240,14 +240,14 @@ Quando exportar uma lista de tarefas ou problemas, a variável **Nome do arquivo
 Quando você exporta uma lista de quaisquer outros objetos de um projeto para um arquivo PDF, o nome do arquivo do documento exportado indica o tipo de objetos que você exportou.\
 Por exemplo, o nome do arquivo pode ser:
 
-* *Usuários_Exportados*, ao exportar a guia Pessoas no projeto(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
-* *Riscos_Exportados*, ao exportar uma lista de riscos no projeto(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+* *Exported_Users*, ao exportar a guia Pessoas no projeto(*nos formatos de PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+* *Exported_Risks*, ao exportar uma lista de Riscos no projeto(*nos formatos de PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 
 #### Nomes de arquivos para relatórios exportados {#file-names-for-exported-reports}
 
 Quando você exporta um relatório, o nome do arquivo do relatório exportado é:
 
-*O_nome_do_relatório*(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+*The_report_name*(*nos formatos de PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 
 ### Títulos {#titles}
 
@@ -257,8 +257,8 @@ Ao exportar uma lista de objetos, somente o arquivo no formato PDF terá um tít
 
 Quando você exporta listas de tarefas e problemas em um projeto para um arquivo PDF, o título do documento exportado é um dos seguintes:
 
-* *Nome do projeto - Tarefas exportadas*
-* *Nome do projeto - Problemas exportados*
+* *Nome do projeto - Tarefas Exportadas*
+* *Nome do projeto - Problemas Exportados*
 
 Quando você exporta listas de tarefas e problemas em uma tarefa para um arquivo PDF, o bloco do documento exportado é um dos seguintes:
 
@@ -269,7 +269,7 @@ Quando você exporta uma lista de quaisquer outros objetos de um projeto para um
 Por exemplo, o título pode ser:
 
 * *Usuários Exportados*, ao exportar a guia Pessoas no projeto.
-* *Riscos exportados*, ao exportar uma lista de Riscos no projeto.
+* *Riscos Exportados*, ao exportar uma lista de Riscos no projeto.
 
 #### Títulos para relatórios exportados {#titles-for-exported-reports}
 
@@ -291,8 +291,8 @@ O carimbo de data e hora inclui:
 
 Dependendo do tipo de documento exportado, os carimbos de data e hora são exibidos em vários locais:
 
-* **PDF:** As marcas de data e hora são exibidas no rodapé de cada página e no nome do arquivo.
-* **Excel:** Os carimbos de data e hora são exibidos no nome do arquivo.
+* **PDF:** Os carimbos de data e hora são exibidos no rodapé de cada página e no nome do arquivo.
+* **Excel:** Os carimbos de data/hora são exibidos no nome do arquivo.
 
 ### Formatação {#formatting}
 
@@ -306,7 +306,7 @@ Se o relatório tiver formatação especial no aplicativo web, ele deverá ser e
 >
 >Se os dados exportados contiverem colunas compartilhadas e você exportar para um formato Excel ou Delimitado por tabulação, essas colunas serão separadas no arquivo exportado.
 
-Para obter mais informações sobre como personalizar a formatação em um relatório, consulte [Usar formatação condicional em exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Para obter mais informações sobre como personalizar a formatação em um relatório, consulte [Usar formatação condicional nos modos de exibição](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ### Links {#links}
 
@@ -314,7 +314,7 @@ Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a 
 
 >[!TIP]
 >
->Se a linha `valueformat=HTML` é exibido no modo texto para uma coluna de campo personalizado e os valores de link não são exibidos em um arquivo .pdf exportado. é necessário inserir linhas adicionais de código na coluna no modo texto.
+>Se a linha `valueformat=HTML` aparecer no modo texto para uma coluna de campo personalizado e os valores de link não forem exibidos em um arquivo .pdf exportado, você precisará inserir linhas adicionais de código na coluna no modo texto.
 >
 >Por exemplo, se você tem um campo personalizado chamado Abrir projetos Q1 que contém links, você adicionaria o seguinte código:
 >
@@ -335,4 +335,4 @@ Se o administrador do Workfront tiver adicionado a marca personalizada à sua in
 
 Os dados exportados em qualquer outro formato não podem ser personalizados com o logotipo.
 
-Para obter mais informações sobre como marcar sua instância do Workfront e a Barra de navegação global, consulte [Marque sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Para obter mais informações sobre como marcar sua instância do Workfront e a Barra de Navegação Global, consulte [Marcar sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).

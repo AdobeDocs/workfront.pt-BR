@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Salvar um arquivo de cabeçalho de email
-description: Ocasionalmente, [!DNL Adobe Workfront] O suporte pode solicitar um arquivo de cabeçalho de email. Cada aplicativo de email tem sua própria maneira de obter esse arquivo. Estas são algumas instruções diferentes do aplicativo de email para localizar e salvar o Cabeçalho. [!DNL Outlook]
+description: Ocasionalmente, o  [!DNL Adobe Workfront] suporte pode solicitar um arquivo de cabeçalho de email. Cada aplicativo de email tem sua própria maneira de obter esse arquivo. Estas são algumas instruções diferentes do aplicativo de email para localizar e salvar o Cabeçalho. [!DNL Outlook]
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,12 +18,12 @@ ht-degree: 0%
 
 # Salvar um arquivo de cabeçalho de email
 
-Ocasionalmente, [!DNL Adobe Workfront] O suporte pode solicitar um arquivo de cabeçalho de email. Cada aplicativo de email tem sua própria maneira de obter esse arquivo. Estas são algumas instruções diferentes do aplicativo de email para localizar e salvar o Cabeçalho.
+Ocasionalmente, o suporte do [!DNL Adobe Workfront] pode solicitar um arquivo de cabeçalho de email. Cada aplicativo de email tem sua própria maneira de obter esse arquivo. Estas são algumas instruções diferentes do aplicativo de email para localizar e salvar o cabeçalho.
 
 ## Outlook
 
 1. Abra a mensagem de email.
-1. Clique em **[!UICONTROL Exibir]** e selecione **[!UICONTROL Opções de mensagem]**.
+1. Clique em **[!UICONTROL Exibir]** e selecione **[!UICONTROL Opções de Mensagem]**.
 
 1. Clique em **[!UICONTROL Cabeçalhos da Internet]**.
 1. Salve o arquivo de cabeçalho completo.
@@ -31,24 +31,24 @@ Ocasionalmente, [!DNL Adobe Workfront] O suporte pode solicitar um arquivo de ca
 ## Outlook para Mac
 
 1. Clique com o botão direito do mouse na mensagem de email.
-1. Selecionar **[!UICONTROL Exibir Origem]**.
+1. Selecione **[!UICONTROL Exibir Source]**.
 1. Salve o arquivo de cabeçalho completo.
 
 ## Gmail
 
 1. Abra a mensagem de email.
-1. Clique no botão **[!UICONTROL Responder]** menu suspenso no canto superior direito da tela.
+1. Clique no menu suspenso **[!UICONTROL Responder]**, no canto superior direito da tela.
 1. Role para baixo e selecione **[!UICONTROL Mostrar original]**.
 1. Salve o arquivo de cabeçalho completo.
 
 ## Thunderbird
 
 1. Abra a mensagem de email.
-1. Clique em **[!UICONTROL Exibir]** e selecione **[!UICONTROL Gerenciar fonte]**.
+1. Clique em **[!UICONTROL Exibir]** e selecione **[!UICONTROL Gerenciar Source]**.
 
 1. Salve o arquivo de cabeçalho completo.
 
-## Yahoo Mail
+## E-mail do Yahoo
 
 1. Abra a mensagem.
 1. Clique em **[!UICONTROL Ações]** e selecione **[!UICONTROL Exibir Cabeçalho Completo]**.
@@ -57,6 +57,6 @@ Ocasionalmente, [!DNL Adobe Workfront] O suporte pode solicitar um arquivo de ca
 
 ## Hotmail
 
-1. Vá para a lista de mensagens.
-1. Clique com o botão direito do mouse na mensagem e selecione **[!UICONTROL Exibir Origem da Mensagem]**.
+1. Ir para a lista de mensagens.
+1. Clique com o botão direito do mouse na mensagem e selecione **[!UICONTROL Exibir Mensagem Source]**.
 1. Salve o arquivo de cabeçalho completo.

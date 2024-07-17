@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Status dos grupos bloqueados e desbloqueados
-description: Bloquear os status personalizados de um grupo é uma maneira de garantir que as pessoas no grupo e em seus subgrupos estejam usando os mesmos processos em seu fluxo de trabalho. Quando um status de grupo é bloqueado, ele fica disponível para todos os usuários do grupo e em grupos inferiores. Embora você (ou um administrador do Workfront) possa editar ou excluir um status que você bloqueie, os administradores de subgrupos abaixo não poderão fazê-lo para esses grupos. Por outro lado, desbloquear os status personalizados de um grupo permite que os administradores de subgrupos mais baixos tenham mais flexibilidade para gerenciar seus fluxos de trabalho. Eles podem alterar os atributos de um status desbloqueado ou excluí-lo de seus grupos.
+title: Status de grupos bloqueados e desbloqueados
+description: Bloquear os status personalizados de um grupo é uma maneira de garantir que as pessoas no grupo e em seus subgrupos estejam usando os mesmos processos em seu fluxo de trabalho. Quando um status de grupo é bloqueado, ele fica disponível para todos os usuários no grupo e nos grupos inferiores. Embora você (ou um administrador do Workfront) possa editar ou excluir um status bloqueado, os administradores de subgrupos abaixo não podem fazer isso para esses grupos. Por outro lado, desbloquear os status personalizados de um grupo permite que os administradores de subgrupos mais baixos tenham mais flexibilidade para gerenciar seus workflows. Eles podem alterar os atributos de um status desbloqueado ou excluí-lo de seus grupos.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# Status dos grupos bloqueados e desbloqueados
+# Status de grupos bloqueados e desbloqueados
 
-Bloquear os status personalizados de um grupo é uma maneira de garantir que as pessoas no grupo e em seus subgrupos estejam usando os mesmos processos em seu fluxo de trabalho. Quando um status de grupo é bloqueado, ele fica disponível para todos os usuários do grupo e em grupos inferiores. Embora você (ou um administrador do Workfront) possa editar ou excluir um status que você bloqueie, os administradores de subgrupos abaixo não poderão fazê-lo para esses grupos; eles podem alterar somente sua ordem de exibição na lista Status.
+Bloquear os status personalizados de um grupo é uma maneira de garantir que as pessoas no grupo e em seus subgrupos estejam usando os mesmos processos em seu fluxo de trabalho. Quando um status de grupo é bloqueado, ele fica disponível para todos os usuários no grupo e nos grupos inferiores. Embora você (ou um administrador do Workfront) possa editar ou excluir um status bloqueado, os administradores de subgrupos abaixo não podem fazer isso para esses grupos; eles podem alterar apenas sua ordem de exibição na lista Status.
 
-Por outro lado, desbloquear os status personalizados de um grupo permite que os administradores de subgrupos mais baixos tenham mais flexibilidade para gerenciar os fluxos de trabalho exclusivos usados em seus grupos. Quando um status de grupo é desbloqueado, os administradores de subgrupos inferiores podem alterar seus atributos ou excluí-lo para esses subgrupos.
+Por outro lado, desbloquear os status personalizados de um grupo permite que os administradores de subgrupos mais baixos tenham mais flexibilidade para gerenciar os workflows exclusivos usados em seus grupos. Quando um status de grupo é desbloqueado, os administradores de subgrupos inferiores podem alterar seus atributos ou excluí-los desses subgrupos.
 
 >[!IMPORTANT]
 >
->Se você bloquear um status personalizado após ele ter sido desbloqueado por qualquer período de tempo, suas configurações para o status substituirão aquelas feitas pelos administradores de grupo em subgrupos inferiores. Enquanto o status estiver bloqueado, esses administradores não poderão modificar ou excluir o status de seus grupos.
+>Se você bloquear um status personalizado depois de desbloqueado por qualquer período, as configurações do status substituirão as feitas pelos administradores de grupo nos subgrupos inferiores. Enquanto o status é bloqueado, esses administradores não podem modificar ou excluir o status de seus grupos.
 
 Para obter instruções sobre como bloquear ou desbloquear um status de grupo, consulte [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 

@@ -75,7 +75,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td>  <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td>  <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -115,8 +115,8 @@ Você pode adicionar uma miniatura das seguintes maneiras:
 1. Clique no espaço de trabalho cujos registros deseja adicionar miniaturas e, em seguida, clique no cartão de tipo de registro.
 
    Isso abre a página do tipo de registro.
-1. Selecione uma exibição de tabela na **Exibir** menu suspenso. Todos os registros do tipo selecionado são exibidos em uma tabela.
-1. Passe o mouse sobre as informações do campo principal, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Miniatura**.
+1. Selecione uma exibição de tabela no menu suspenso **Exibir**. Todos os registros do tipo selecionado são exibidos em uma tabela.
+1. Passe o mouse sobre as informações do campo principal, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Miniatura**.
 
    ![](assets/record-more-menu-expanded.png)
 
@@ -124,9 +124,9 @@ Você pode adicionar uma miniatura das seguintes maneiras:
    >
    >   O campo principal é aquele exibido na primeira coluna de uma exibição de tabela. O campo principal é sempre congelado e não pode ser oculto ou realocado. A opção Miniatura não está disponível no menu Mais quando o campo principal é um campo de fórmula.
 
-   A variável **Carregar** A guia é aberta por padrão no **Miniatura de registro** caixa.
+   A guia **Carregar** é aberta por padrão na caixa **Miniatura do registro**.
 
-   Para obter mais informações sobre como fazer upload da miniatura, consulte a seção [Adicionar uma miniatura a um registro da página de detalhes](#add-a-thumbnail-to-a-record-from-the-details-page) neste artigo, a partir da Etapa 6. <!--see if this is accurate-->
+   Para obter mais informações sobre como carregar a miniatura, consulte a seção [Adicionar uma miniatura a um registro da página de detalhes](#add-a-thumbnail-to-a-record-from-the-details-page) neste artigo, a partir da Etapa 6. <!--see if this is accurate-->
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ Você pode adicionar uma miniatura das seguintes maneiras:
 1. Em qualquer exibição, clique em um registro para abri-lo.
 
    A caixa de visualização de detalhes é exibida.
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito.
+1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** no canto superior direito.
 
    A página de detalhes do registro é aberta.
-1. Passe o mouse sobre a imagem ou o ícone da miniatura ![](assets/record-thumbnail-icon-on-details-page.png)e, em seguida, clique na guia **Mais** menu ![](assets/more-menu.png) > **Editar miniatura**.
+1. Passe o mouse sobre a imagem ou o ícone de miniatura ![](assets/record-thumbnail-icon-on-details-page.png) e clique no menu **Mais** ![](assets/more-menu.png) > **Editar miniatura**.
 
-   A variável **Carregar** A guia é aberta por padrão no **Miniatura de registro** caixa.
+   A guia **Carregar** é aberta por padrão na caixa **Miniatura do registro**.
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -177,25 +177,25 @@ Você pode adicionar uma miniatura das seguintes maneiras:
 
    Ou
 
-   Clique em **Procurar imagens** e procure um arquivo de imagem para adicionar. O arquivo deve ser salvo no computador.
+   Clique em **Procurar imagens** e procure um arquivo de imagem a ser adicionado. O arquivo deve ser salvo no computador.
 
-1. (Opcional) Depois que a imagem for carregada na **Miniatura de registro** use a ferramenta de dimensionamento para recortar e redimensionar a imagem.
-1. (Opcional) Clique no link **Carregar nova imagem** ícone ![](assets/upload-new-image-icon.png) para carregar outra imagem.
-1. (Opcional) Clique no link **Galeria** e clique em uma imagem. A galeria de imagens não pode ser modificada.
+1. (Opcional) Depois que a imagem for carregada na caixa **Gravar miniatura**, use a ferramenta de dimensionamento para recortar e redimensionar a imagem.
+1. (Opcional) Clique no ícone ![](assets/upload-new-image-icon.png) de **Carregar nova imagem** para carregar outra imagem.
+1. (Opcional) Clique na guia **Galeria** e clique em uma imagem. A galeria de imagens não pode ser modificada.
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Opcional) Para remover a miniatura antes de salvá-la, clique no link **Remover** ícone ![](assets/remove-image-icon.png) à direita da imagem.
+1. (Opcional) Para remover a miniatura antes de salvá-la, clique no ícone ![](assets/remove-image-icon.png) de **Remover** à direita da imagem.
 
 1. Clique em **Usar imagem** para adicionar a imagem como miniatura.
-Isso fecha o **Miniatura de registro** caixa.
+Isso fecha a caixa **Miniatura do registro**.
 A miniatura é exibida nas áreas do Workfront Planning onde o registro é exibido.
 
    >[!TIP]
    >
    >   Você deve ativar o campo Miniatura na exibição de tabela para exibir miniaturas nesta exibição. Ela está desativada por padrão.
 
-1. (Opcional) Para remover a miniatura depois de salvá-la, clique em um registro em qualquer exibição para abrir a página de detalhes, passe o mouse sobre a imagem da miniatura e clique no link **Mais** menu ![](assets/more-menu.png)> **Remover** ícone ![](assets/remove-image-icon.png). A imagem em miniatura é removida.
+1. (Opcional) Para remover a miniatura depois que ela for salva, clique em um registro em qualquer modo de exibição para abrir a página de detalhes, passe o mouse sobre a imagem de miniatura e clique no ícone ![](assets/remove-image-icon.png) do menu **Mais**> **Remover**. ![](assets/more-menu.png) A imagem em miniatura é removida.
 
 
 

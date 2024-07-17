@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -50,24 +50,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
 ## Criar uma prova interativa para um site ou outro conteúdo da Web
 
 1. Vá para o projeto, tarefa ou problema em que deseja criar uma nova prova de site ou uma nova versão de uma existente.
 1. Clique em **Documentos** no painel esquerdo.
-1. (Condicional) Se estiver criando uma nova prova, clique em **Adicionar novo** e, em seguida, clique em **Prova** no menu exibido.
+1. (Condicional) Se estiver criando uma nova prova, clique em **Adicionar novo** e em **Prova** no menu exibido.
 
-1. (Condicional) No **Nova prova** será exibida, se você estiver criando uma nova versão de uma prova existente:
+1. (Condicional) Na página **Nova prova** será exibida, se você estiver criando uma nova versão de uma prova existente:
 
    1. Passe o mouse sobre a prova de URL para a qual deseja criar uma nova versão e selecione-a clicando no plano de fundo azul-claro ao redor dela.
 
       ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
-   1. No **Adicionar novo** , clique em **Versão** > **Prova**.
+   1. No menu suspenso **Adicionar novo**, clique em **Versão** > **Prova**.
 
-1. No **Adicionar arquivos** digite o URL do site que deseja revisar e pressione **Enter**.  Você pode repetir esse processo para adicionar vários sites a serem revisados.
+1. Na seção **Adicionar arquivos**, digite a URL do site que deseja revisar e pressione **Enter**.  Você pode repetir esse processo para adicionar vários sites a serem revisados.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
@@ -80,8 +80,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    ![](assets/click-url-350x137.png)
 
-1. (Opcional) Se quiser alterar o nome da prova do URL do site para algo diferente, digite um **Nome da prova**.
-1. Selecionar **Interativo** e, em seguida, clique em **Concluído**.
+1. (Opcional) Se você deseja alterar o nome da prova da URL do site para algo diferente, digite um **Nome da prova**.
+1. Selecione **Interativo** e clique em **Concluído**.
 
    >[!NOTE]
    >

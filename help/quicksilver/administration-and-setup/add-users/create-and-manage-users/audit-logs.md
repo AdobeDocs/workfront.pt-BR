@@ -11,7 +11,7 @@ exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '1464'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Como administrador do Adobe Workfront, você pode rastrear as alterações de usuário acionadas no sistema nos últimos 90 dias usando os logs de auditoria descritos abaixo.
 
-Para obter instruções sobre como visualizar e filtrar o que você deseja ver nesses logs de auditoria, consulte [Exibir e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Para obter instruções sobre como visualizar e filtrar o que deseja ver nesses logs de auditoria, consulte [Exibir e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Informações que você pode encontrar em um log de auditoria
 
@@ -64,13 +64,13 @@ Os seguintes campos são registrados em cada entrada do log de auditoria:
 
 ## Tipos de log de auditoria e as ações que os acionam
 
-* [Nível de acesso](#access-level)
+* [Nível de Acesso](#access-level)
 * [Empresa](#company)
 * [Condição](#condition)
 * [Campo personalizado](#custom-field)
 * [Formulários personalizados](#custom-forms)
 * [Seção personalizada](#custom-section)
-* [Taxa de câmbio](#exchange-rate)
+* [Taxa de Câmbio](#exchange-rate)
 * [Grupo](#group)
 * [Funções de trabalho](#job-roles)
 * [Tentativa de login](#login-attempt)
@@ -132,7 +132,7 @@ O sistema gera uma entrada de log de auditoria de Condição quando um usuário 
 
 * Exclui uma condição
 
-Para obter mais informações sobre a configuração de funções de trabalho, consulte [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Para obter mais informações sobre como configurar funções de trabalho, consulte [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ### Campo personalizado {#custom-field}
 
@@ -207,7 +207,7 @@ O sistema gera uma entrada de log de auditoria de Taxa de Câmbio quando um usu�
 
 * Exclui uma taxa de câmbio
 
-Para obter mais informações sobre a configuração de taxas de câmbio, consulte [Configurar taxas de câmbio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Para obter mais informações sobre como configurar taxas de câmbio, consulte [Configurar taxas de câmbio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Grupo {#group}
 
@@ -234,7 +234,7 @@ O sistema gera uma entrada de log de auditoria Funções de trabalho quando um u
 
 * Exclui uma função de trabalho
 
-Para obter mais informações sobre a configuração de funções de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Para obter mais informações sobre como configurar funções de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Tentativa de login {#login-attempt}
 
@@ -265,7 +265,7 @@ O sistema gera uma entrada de log de auditoria de prioridade quando um usuário 
 
 * Exclui uma prioridade
 
-Para obter mais informações sobre a configuração de prioridades, consulte [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Para obter mais informações sobre como configurar prioridades, consulte [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Preferências do projeto {#project-preference}
 
@@ -281,7 +281,7 @@ O sistema gera uma entrada de log de auditoria de Preferências do projeto quand
 
 * Exclui um trimestre personalizado
 
-Para obter mais informações sobre preferências de projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obter mais informações sobre preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Severidade {#severity}
 
@@ -298,7 +298,7 @@ O sistema gera uma entrada de log de auditoria de severidade quando um usuário 
 
 * Exclui a gravidade de um problema
 
-Para obter mais informações sobre a configuração de funções de trabalho, consulte [Criar ou personalizar severidades de problema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Para obter mais informações sobre como configurar funções de trabalho, consulte [Criar ou personalizar severidades de problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Status {#status}
 

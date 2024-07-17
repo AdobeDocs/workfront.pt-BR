@@ -23,6 +23,6 @@ Você pode classificar os resultados por qualquer campo se anexar o seguinte à 
 &entryDate_Sort=asc
 ```
 
-Por exemplo, se você deseja classificar por Data de Início Planejada da tarefa, remova `entryDate` e substitua-o por `plannedCompletionDate`.
+Por exemplo, se você deseja classificar por Data de Início Planejada da tarefa, remova `entryDate` e substitua-a por `plannedCompletionDate`.
 
 Isso funciona para a maioria dos campos no Adobe Workfront.

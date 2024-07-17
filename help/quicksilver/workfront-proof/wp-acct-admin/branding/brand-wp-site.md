@@ -2,70 +2,70 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marcar o [!DNL Workfront Proof] site
-description: Como um [!DNL Workfront Proof] administrador, você pode marcar seu [!DNL Workfront Proof] para oferecer a você e a seus usuários uma experiência mais personalizada.
+title: Marcar o site  [!DNL Workfront Proof]
+description: Como administrador do [!DNL Workfront Proof] você pode marcar sua [!DNL Workfront Proof] conta para fornecer a você e a seus usuários uma experiência mais personalizada.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 2%
+source-wordcount: '555'
+ht-degree: 1%
 
 ---
 
-# Marcar o [!DNL Workfront Proof] site
+# Marcar o site [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront] Prova. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront] Proof. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-Como um [!DNL Workfront Proof] administrador, você pode marcar seu [!DNL Workfront Proof] para oferecer a você e a seus usuários uma experiência mais personalizada.
+Como administrador do [!DNL Workfront Proof], você pode marcar a conta do [!DNL Workfront Proof] para fornecer a você e a seus usuários uma experiência mais personalizada.
 
 A marca básica da conta está disponível em todos os planos sem custo adicional.
 
-Para obter informações sobre marcas avançadas, que incluem marcas no cabeçalho, barra de menu, painel e muito mais, consulte [Marcar o [!DNL Workfront Proof] site - avançado](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). A marca avançada está disponível apenas nos planos Select e Premium
+Para obter informações sobre marca avançada, que inclui marcas no cabeçalho, barra de menu, painel e muito mais, consulte [Marcar o [!DNL Workfront Proof] site - avançado](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). A marca avançada está disponível apenas nos planos Select e Premium
 
-Consulte as seções a seguir para obter informações sobre como criar uma marca em vários aspectos da [!DNL Workfront] Site de prova:
+Consulte as seguintes seções para obter informações sobre como marcar vários aspectos do site de prova [!DNL Workfront]:
 
-## Ativação da marca no [!DNL Workfront Proof] Página de logon
+## Habilitando a Identidade Visual na Página de Logon [!DNL Workfront Proof]
 
 Para ativar a marca em sua conta:
 
-1. Efetue logon no [!DNL Workfront Proof] como o [!DNL Workfront Proof] administrador.
-1. Clique em **[!UICONTROL Configurações da conta]** no canto superior direito da [!DNL Workfront Proof] interface.
+1. Faça logon em [!DNL Workfront Proof] como administrador [!DNL Workfront Proof].
+1. Clique em **[!UICONTROL Configurações da conta]** no canto superior direito da interface [!DNL Workfront Proof].
 
-   Para obter mais informações sobre as várias configurações de conta que você pode definir, consulte [Configurações da conta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
+   Para obter mais informações sobre as várias configurações de conta que você pode definir, consulte [Configurações de conta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Clique em **[!UICONTROL Configurações]** guia.
-1. No **[!UICONTROL Marcas]** clique em **[!UICONTROL Ativar]**. (1)
+1. Clique na guia **[!UICONTROL Configurações]**.
+1. Na seção **[!UICONTROL Identidade Visual]**, clique em **[!UICONTROL Habilitar]**. (1)
 
-   ![Enable_branding.png](assets/enable-branding-350x177.png)
+   ![Habilitar_marca.png](assets/enable-branding-350x177.png)
 
    A imagem da marca agora aparece na página de logon.
 
    >[!NOTE]
    >
-   >A imagem de marca não será exibida na página de logon se você acessar por meio da [!DNL Workfront] URL de logon da prova. Por exemplo, `https://www.proofhq.com/login`. Ela será exibida somente se você acessar a página de logon por meio do subdomínio personalizado ou do domínio totalmente marcado. Para acessar a página de logon personalizada, basta digitar o URL da conta no navegador. Por exemplo, `http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
+   >A imagem de marca não será exibida na página de logon se você acessar por meio da URL de logon de prova [!DNL Workfront] principal. Por exemplo, `https://www.proofhq.com/login`. Ela será exibida somente se você acessar a página de logon por meio do subdomínio personalizado ou do domínio totalmente marcado. Para acessar a página de logon personalizada, basta digitar o URL da conta no navegador. Por exemplo, `http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
 
    ![Branding_-_Login_page.png](assets/branding---login-page-350x198.png)
 
 ## Ativação da identidade visual em provas
 
-Para adicionar sua própria imagem de marca à [!UICONTROL carregamento de prova] de cada prova criada em sua conta:
+Para adicionar sua própria imagem de marca à página [!UICONTROL carregamento de prova] de cada prova criada em sua conta:
 
-1. Efetue logon no [!DNL Workfront Proof] como o [!DNL Workfront Proof] administrador.
-1. Clique em **[!UICONTROL Configurações da conta]** no canto superior direito da [!DNL Workfront Proof] interface.
+1. Faça logon em [!DNL Workfront Proof] como administrador [!DNL Workfront Proof].
+1. Clique em **[!UICONTROL Configurações da conta]** no canto superior direito da interface [!DNL Workfront Proof].
 
-   Para obter mais informações sobre as várias configurações de conta que você pode definir, consulte [Configurações da conta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
+   Para obter mais informações sobre as várias configurações de conta que você pode definir, consulte [Configurações de conta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Clique em **[!UICONTROL Configurações]** guia.
-1. No **[!UICONTROL Marcas]** clique em **[!UICONTROL Configuração]** ao lado de **[!UICONTROL Marca de prova]**. (1)
+1. Clique na guia **[!UICONTROL Configurações]**.
+1. Na seção **[!UICONTROL Identidade visual]**, clique em **[!UICONTROL Configurar]** ao lado de **[!UICONTROL Identidade visual da prova]**. (1)
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
-1. No menu suspenso, selecione **[!UICONTROL Imagem da marca]**.
-Se você selecionar **[!UICONTROL Desativar]**, o [!DNL Workfront Proof] O logotipo do é exibido na página de carregamento de prova
+1. No menu suspenso, selecione **[!UICONTROL Imagem de marca]**.
+Se você selecionar **[!UICONTROL Desabilitar]**, o logotipo [!DNL Workfront Proof] aparecerá na página de carregamento de prova
 
 1. Clique em **[!UICONTROL Salvar]**. (3)
 
@@ -90,18 +90,18 @@ Você pode configurar a imagem de marca para ser incluída nas notificações po
 
 Para configurar a identidade visual do email:
 
-1. Efetue logon no [!DNL Workfront Proof] como o [!DNL Workfront Proof] administrador.
-1. Clique em **[!UICONTROL Configurações da conta]** no canto superior direito da [!DNL Workfront Proof] interface.
+1. Faça logon em [!DNL Workfront Proof] como administrador [!DNL Workfront Proof].
+1. Clique em **[!UICONTROL Configurações da conta]** no canto superior direito da interface [!DNL Workfront Proof].
 
-   Para obter mais informações sobre as várias configurações de conta que você pode definir, consulte [Configurações da conta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
+   Para obter mais informações sobre as várias configurações de conta que você pode definir, consulte [Configurações de conta.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Clique em **[!UICONTROL Configurações]** guia.
-1. No **[!UICONTROL Marcas]** clique em **[!UICONTROL Editar]** ao lado da imagem do aplicativo de email (1).
+1. Clique na guia **[!UICONTROL Configurações]**.
+1. Na seção **[!UICONTROL Identidade Visual]**, clique em **[!UICONTROL Editar]** ao lado da imagem do aplicativo de email (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. Selecione a imagem que deseja usar para marcar os emails. (2)
 
-   Se já tiver uma identidade visual de email configurada e quiser desativá-la, clique em **[!UICONTROL Limpar]**. (4)
+   Se você tiver uma identidade visual de email já configurada e quiser desabilitá-la, clique em **[!UICONTROL Limpar]**. (4)
 
    ![Email_branding_setup_2.png](assets/email-branding-setup-2-350x96.png)
 
@@ -109,7 +109,7 @@ Para configurar a identidade visual do email:
 
    A imagem agora aparece em todos os emails de notificações de prova. (3)
 
-   ![Marca_-_email_notification.png](assets/branding---email-notification-350x195.png)
+   ![Branding_-_email_notification.png](assets/branding---email-notification-350x195.png)
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Sub-Domains</h2>
@@ -133,6 +133,6 @@ Para configurar a identidade visual do email:
 
 ## Supressão de botões e links por meio da API
 
-Se você criar uma prova por meio da variável [!DNL Workfront Proof] , você pode suprimir botões e links e criar seus próprios links personalizados.
+Se você criar uma prova por meio da API do [!DNL Workfront Proof], poderá suprimir botões e links e criar seus próprios links personalizados.
 
 Consulte [[!DNL Workfront Proof] API](https://api.proofhq.com/) para obter mais informações.

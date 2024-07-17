@@ -42,7 +42,7 @@ Para obter informações sobre como criar campos personalizados no Workfront Pla
 * As informações armazenadas no campo são excluídas e não podem ser recuperadas.
 * Quando você exclui um campo de registro vinculado, todos os campos de pesquisa vinculados também são excluídos do tipo de registro que você vincula. Os campos de registro vinculados dos tipos de registro vinculados não são excluídos.
 
-  Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -88,12 +88,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
@@ -119,7 +119,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no cartão de um tipo de registro.
 
-1. (Condicional) Se ainda não estiver selecionada, clique na guia de uma **Visualização em tabela** na página tipo de registro.
+1. (Condicional) Se ainda não estiver selecionada, clique na guia de uma **exibição de Tabela** na página de tipo de registro.
 
    Todos os registros existentes associados ao tipo de registro são exibidos nas linhas da exibição de tabela.
 

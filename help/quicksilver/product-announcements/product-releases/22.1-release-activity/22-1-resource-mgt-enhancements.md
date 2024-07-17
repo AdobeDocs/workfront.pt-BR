@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 17 de janeiro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte a [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Melhorias no painel Configurações e capacidade de colorir projetos de código e suas tarefas no Balanceador de carga de trabalho
 
@@ -34,7 +34,7 @@ Para melhorar sua experiência ao usar o Balanceador de carga de trabalho, intro
 * O painel Configurações foi reprojetado para incluir opções que anteriormente estavam localizadas na barra de ferramentas. Isso melhora o uso do espaço na barra de ferramentas.
 * Adição da capacidade de personalizar o tema de cores por projeto. Ao selecionar o código de cores por projeto, cada projeto e seus itens de trabalho são exibidos na mesma cor. As cores são exclusivas para cada projeto. Antes dessa melhoria, você só podia codificar com cores por Status do projeto.
 
-Para obter mais informações, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter mais informações, consulte [Navegar pelo Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Atribuir trabalho em massa usando o Balanceador de carga de trabalho
 

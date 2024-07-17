@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Agregador] módulo no [!DNL Adobe Workfront Fusion]
+# Módulo [!UICONTROL Aggregator] em [!DNL Adobe Workfront Fusion]
 
 Um módulo agregador é um tipo de módulo projetado para unir vários pacotes de dados em um único pacote.
 
@@ -40,34 +40,34 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Agregador] módulo
+## Módulo [!UICONTROL Agregador]
 
-Quando um [!UICONTROL Agregador] for executado, o módulo fará o seguinte:
+Quando um módulo [!UICONTROL Aggregator] é executado, ele faz o seguinte:
 
 * Acumula todos os pacotes que recebe durante a operação de um único módulo de origem.
-* Gera um único pacote com uma matriz contendo um item para cada pacote acumulado. O conteúdo dos itens da matriz depende de propriedades [!UICONTROL Agregador] e sua configuração.
+* Gera um único pacote com uma matriz contendo um item para cada pacote acumulado. O conteúdo dos itens da matriz depende do módulo [!UICONTROL Aggregator] específico e de sua configuração.
 
-A imagem a seguir mostra uma configuração típica do [!UICONTROL Agregador] módulo:
+A imagem a seguir mostra uma configuração típica do módulo [!UICONTROL Agregador]:
 
 ![](assets/array-aggregator-350x190.png)
 
@@ -76,13 +76,13 @@ A imagem a seguir mostra uma configuração típica do [!UICONTROL Agregador] m�
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!UICONTROL Módulo de Origem]</p> </td> 
+   <td> <p>[!UICONTROL Módulo Source]</p> </td> 
    <td> <p>O módulo a partir do qual a agregação do pacote será iniciada. O módulo de origem geralmente é um iterador ou um módulo de pesquisa que gera uma série de pacotes. Quando você configura o módulo de origem do agregador (e fecha a configuração do agregador), a rota entre o módulo de origem e o módulo do agregador é colocada em uma área cinza para que você possa ver claramente o início e o fim da agregação. 
-   </p> <p>Para obter mais informações sobre iteradores, consulte <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Módulo [!UICONTROL Iterador] em [!DNL Adobe Workfront Fusion]</a></p> <p>Para obter mais informações sobre módulos de pesquisa, consulte módulos de pesquisa em <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Tipos de módulos</a>.</p> </td> 
+   </p> <p>Para obter mais informações sobre iteradores, consulte o módulo <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator] em [!DNL Adobe Workfront Fusion]</a></p> <p>Para obter mais informações sobre módulos de pesquisa, consulte módulos de pesquisa em <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Tipos de módulos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Tipo de estrutura de destino]</p> </td> 
-   <td> <p>(Aplicável somente ao módulo [!UICONTROL Array aggregator].) A estrutura-alvo na qual os dados devem ser agregados. A opção padrão, [!UICONTROL Personalizado], permite que você escolha itens que devem ser agregados no conjunto de saída do A[!UICONTROL agregador de matriz] <code>Array </code>item:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Depois de conectar mais módulos após o módulo [!UICONTROL Array aggregator] e voltar à configuração do módulo, a lista suspensa de tipo de estrutura [!UICONTROL Target] conterá todos os módulos a seguir e seus campos que são do tipo Matriz de Coleções, conforme mostrado no campo [!UICONTROL Attachments] do [!DNL Slack] Módulo &gt;[!UICONTROL Criar uma Mensagem]:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>(Aplicável somente ao módulo [!UICONTROL Array aggregator].) A estrutura-alvo na qual os dados devem ser agregados. A opção padrão, [!UICONTROL Personalizado], permite que você escolha itens que devem ser agregados no <code>Array </code>item do pacote de saída do A[!UICONTROL array aggregator]:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Depois de conectar mais módulos após o módulo [!UICONTROL Array aggregator] e voltar à configuração do módulo, a lista suspensa de tipo de estrutura [!UICONTROL Target] conterá todos os módulos a seguir e seus campos que são do tipo Matriz de Coleções, conforme mostrado no campo [!UICONTROL Attachments] do módulo [!DNL Slack] &gt;[!UICONTROL Criar uma Mensagem]:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Campos Agregados]</td> 
@@ -93,7 +93,7 @@ A imagem a seguir mostra uma configuração típica do [!UICONTROL Agregador] m�
    <td> <p>A saída do agregador pode ser dividida em vários grupos com a ajuda do campo [!UICONTROL Agrupar por]. O campo [!UICONTROL Agrupar por] pode conter uma fórmula que é avaliada para cada pacote de entrada do agregador. O agregador então gera um pacote por valor de cada fórmula distinta. Cada pacote contém dois itens:</p> 
     <ul> 
      <li><code>Key </code>contém o valor distinto.</li> 
-     <li><code>Array </code>contém os dados agregados dos pacotes para os quais a fórmula avaliou para o <code>Key </code>valor.</li> 
+     <li><code>Array </code>contém os dados agregados dos pacotes para os quais a fórmula avaliou para o valor <code>Key </code>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -105,25 +105,25 @@ A imagem a seguir mostra uma configuração típica do [!UICONTROL Agregador] m�
 
 >[!NOTE]
 >
->Pacotes gerados por módulos entre o módulo de origem e o [!UICONTROL Agregador] Os módulos do não são gerados pelo [!UICONTROL Agregador] módulo, de modo que não sejam acessíveis pelos módulos no fluxo após o [!UICONTROL Agregador]. Se você precisar de dados de um pacote emitido por um módulo entre o módulo de origem e o [!UICONTROL Agregador] módulo, certifique-se de incluir o item fornecido na variável [!UICONTROL Agregador] configuração do módulo (como na variável [!UICONTROL Campos agregados] na configuração do [!UICONTROL Agregador de matrizes] módulo).
+>Os pacotes gerados pelos módulos entre o módulo de origem e o módulo [!UICONTROL Agregador] não são gerados pelo módulo [!UICONTROL Agregador], portanto, não são acessíveis pelos módulos no fluxo após o [!UICONTROL Agregador]. Se você precisar de dados de um pacote emitido por um módulo entre o módulo de origem e o módulo [!UICONTROL Agregador], inclua o item fornecido na configuração do módulo [!UICONTROL Agregador] (como no campo [!UICONTROL Campos agregados] da configuração do módulo [!UICONTROL Agregador de matrizes]).
 
 
 >[!INFO]
 >
->**Exemplo:** Caso de uso: compactar todos os anexos de email e fazer upload do ZIP para [!DNL Dropbox]
+>**Exemplo:** Caso de uso: compactando todos os anexos de email e carregando o ZIP em [!DNL Dropbox]
 >
 >O cenário abaixo mostra como:
 >
->* Verifique se há emails de entrada em uma caixa de correio: [!UICONTROL E-mail] >[!UICONTROL Assistir a emails] o acionador gerará um pacote com o item `Attachments[]`, que é uma matriz que contém todos os anexos do email.
+>* Assista a uma caixa de correio para emails de entrada: [!UICONTROL Email] >[!UICONTROL Assista a emails]. O acionador exibirá um pacote com o item `Attachments[]`, que é uma matriz contendo todos os anexos do email.
 >
->* Repita os anexos do email: [!UICONTROL E-mail] >[!UICONTROL Iterar anexos] o iterador pega os itens do `Attachments[]` um por um e os envia como pacotes separados.
+>* Iterar os anexos do email: [!UICONTROL Email] >[!UICONTROL Iterar anexos] O iterador pega os itens da matriz `Attachments[]` um por um e os envia como pacotes separados.
 >
->* Agregar os pacotes gerados pelo [!UICONTROL E-mail] >[!UICONTROL Iterar anexos] módulo: [!UICONTROL Arquivar] >[!UICONTROL Criar um agregador de arquivo] O acumula todos os pacotes que recebe e gera um único pacote contendo o arquivo ZIP.
+>* Agregar os pacotes gerados pelo módulo [!UICONTROL Email] >[!UICONTROL Iterar anexos]: [!UICONTROL Arquivo morto] >[!UICONTROL Criar um agregador de arquivo morto] acumula todos os pacotes que recebe e gera um único pacote contendo o arquivo ZIP.
 >
->* Faça upload do arquivo ZIP resultante para [!DNL Dropbox]: [!DNL Dropbox] > [!UICONTROL Carregar um arquivo] obtém o arquivo ZIP do [!UICONTROL Arquivar] > [!UICONTROL Criar um arquivo] e faz upload para [!DNL Dropbox].
+>* Carregar o arquivo ZIP resultante para [!DNL Dropbox]: [!DNL Dropbox] > [!UICONTROL Carregar um arquivo] obtém o arquivo ZIP do módulo [!UICONTROL Arquivar] > [!UICONTROL Criar um arquivo] e faz o upload para [!DNL Dropbox].
 >
 >![](assets/dropbox-archive-350x87.png)
 >
->Abaixo está uma amostra da configuração de [!UICONTROL Arquivar] > [!UICONTROL Criar um arquivo] agregador:
+>Abaixo está uma configuração de exemplo do agregador [!UICONTROL Arquivo] > [!UICONTROL Criar um arquivo]:
 >
 >![](assets/archive-create-an-archive-350x484.png)

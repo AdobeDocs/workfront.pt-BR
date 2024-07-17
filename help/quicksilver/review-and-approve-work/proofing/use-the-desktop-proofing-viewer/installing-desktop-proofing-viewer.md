@@ -63,11 +63,11 @@ Se esse não for o caso, você pode seguir as etapas abaixo.
 
 1. Siga um destes procedimentos para baixar o aplicativo:
 
-   * Se estiver usando o ambiente de Produção, clique em [Download de produção do Mac para o Visualizador de provas de desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
-   * Se estiver usando o ambiente de Pré-visualização, clique em [Download da visualização do Mac para o Visualizador de provas de desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
+   * Se você estiver usando o ambiente de Produção, clique em [Download de Produção do Mac para o Visualizador de Revisão de Texto para Desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
+   * Se você estiver usando o ambiente de Visualização, clique em [Download da Visualização do Mac para o Visualizador de Revisão de Texto para Desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
-1. Na caixa de instalação exibida, clique em **Continuar** e, em seguida, clique em **Instalar**.
+1. Na caixa de instalação exibida, clique em **Continuar** e em **Instalar**.
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -75,7 +75,7 @@ Se esse não for o caso, você pode seguir as etapas abaixo.
 
 >[!NOTE]
 >
->Se o Visualizador de provas de desktop não se iniciar quando você abrir uma prova interativa, isso provavelmente significa que o administrador do Workfront ou do Workfront Proof precisa configurar o Visualizador de provas de desktop como o visualizador padrão para provas interativas, conforme descrito em [Configuração do usuário para abrir provas não interativas no visualizador de provas da área de trabalho](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>Se o Visualizador de provas de desktop não for iniciado quando você abrir uma prova interativa, isso provavelmente significa que o administrador do Workfront ou do Workfront Proof precisa configurar o Visualizador de provas de desktop como o visualizador padrão para provas interativas, conforme descrito em [Configuração do usuário para abrir provas não interativas no Visualizador de provas de desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Instalar o Visualizador de provas de desktop no Windows
 
@@ -88,15 +88,15 @@ Se o administrador do Workfront ou do Workfront Proof tiver baixado o aplicativo
 1. Siga um destes procedimentos para baixar o aplicativo:
 
    * No ambiente de Produção, clique em [Download de Produção do Windows para o Visualizador de Revisão de Texto para Desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
-   * No ambiente de Pré-visualização, clique em [Download da Visualização do Windows para o Visualizador de Revisores de Texto para Desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
+   * No ambiente de Visualização, clique em [Download de Visualização do Windows para o Visualizador de Revisão de Texto para Desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
 1. Na caixa de instalação exibida, abra o arquivo que acabou de baixar para iniciar a instalação.
 
-   ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
+   ![Captura de tela_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
 1. Na caixa de aviso de segurança exibida, clique em **Executar**. O Desktop Proofing Viewer instala e executa automaticamente.
 1. (Condicional) Se você instalar o aplicativo usando o Internet Explorer, atualize a página de inicialização no navegador depois que o aplicativo for instalado.
 1. Abra uma prova interativa na área Documentos.
 
-Após a instalação do Visualizador de provas de desktop, todas as provas interativas são abertas no Visualizador de provas de desktop. Se o Visualizador de provas de desktop não se iniciar quando você abrir uma prova interativa, isso provavelmente significa que o administrador do Workfront ou do Workfront Proof precisa configurar o Visualizador de provas de desktop como o visualizador padrão para provas interativas, conforme descrito em [Configuração do usuário para abrir provas não interativas no visualizador de provas da área de trabalho](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+Após a instalação do Visualizador de provas de desktop, todas as provas interativas são abertas no Visualizador de provas de desktop. Se o Visualizador de provas de desktop não for iniciado quando você abrir uma prova interativa, isso provavelmente significa que o administrador do Workfront ou do Workfront Proof precisa configurar o Visualizador de provas de desktop como o visualizador padrão para provas interativas, conforme descrito em [Configuração do usuário para abrir provas não interativas no Visualizador de provas de desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).

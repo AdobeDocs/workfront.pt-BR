@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -48,22 +48,57 @@ Acesse os seguintes artigos para obter uma visão geral do novo Workfront Planni
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-* [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): uma visão geral de alto nível do Adobe Workfront Planning, incluindo a terminologia e os conceitos exclusivos dessa solução. Recomendamos que você inicie sua jornada com o Workfront Planning aqui.
+* [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): uma visão geral de alto nível do Adobe Workfront Planning, incluindo a terminologia e os conceitos exclusivos desta solução. Recomendamos que você inicie sua jornada com o Workfront Planning aqui.
 * [Atividade da versão atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md): uma lista de todos os recursos que foram lançados desde o lançamento do programa Adobe Workfront Planning, em 22 de maio de 2023, com datas de lançamento exatas e uma breve visão geral de cada recurso.
-* [Visão geral do Assistente do Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Com o Assistente do Workfront AI para Planning, é possível pesquisar registros ou criar, atualizar e excluir registros usando comandos e permitindo que o assistente faça o trabalho por você.
+* [Visão geral do Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Workfront AI Assistant para Planning, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos e permitindo que o assistente faça o trabalho por você.
 
-  O Assistente de IA do Workfront está disponível no momento para clientes selecionados em uma fase beta. Entre em contato com seu representante de conta para saber se você está qualificado a participar para experimentar esta nova oferta.
+  >[!NOTE]
+  >
+  >    O Assistente de IA do Workfront está disponível no momento para clientes selecionados em uma fase beta. Entre em contato com seu representante de conta para saber se você está qualificado a participar para experimentar esta nova oferta.
 
-* [Módulos do Adobe Workfront Planning para Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
+* [Módulos do Adobe Workfront Planning para Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
 
 ## Arquitetura e funcionalidade do Workfront Planning
 
 As seções a seguir contêm artigos que descrevem em detalhes os recursos atualmente disponíveis para o Workfront Planning:
 
-* [Informações de acesso e permissão: índice do artigo](/help/quicksilver/planning/access/access-information.md): Informações sobre o acesso e as permissões necessárias para usar o Workfront Planning.
-* [Arquitetura: índice de artigos](/help/quicksilver/planning/architecture/architecture-information.md): Informações detalhadas sobre a arquitetura do Workfront Planning, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho e tipos de registro.
-* [Campos: índice do artigo](/help/quicksilver/planning/fields/fields-information.md): informações detalhadas e instruções passo a passo sobre a criação de campos personalizados para tipos de registro.
-* [Registros: índice do artigo](/help/quicksilver/planning/records/records-information.md): informações detalhadas e instruções passo a passo sobre como criar e gerenciar registros.
-* [Visualizações: índice do artigo](/help/quicksilver/planning/views/views-information.md): informações detalhadas sobre exibições de registros e como gerenciá-las ao visualizar uma página do tipo de registro.
-* [Notificações: índice do artigo](/help/quicksilver/planning/notifications/notifications-information.md): Informações sobre emails e notificações no aplicativo geradas por eventos no Workfront Planning.
+* [Informações de acesso e permissão: o índice de artigo](/help/quicksilver/planning/access/access-information.md) contém as seguintes informações:
+
+   * Licenças do Workfront e permissões do Planning
+   * Permissões de compartilhamento do Planning
+   * Compartilhar exibições
+   * Compartilhar espaços de trabalho (tipos de registro, registros e campos)
+
+* [Arquitetura: o índice do artigo](/help/quicksilver/planning/architecture/architecture-information.md) contém as seguintes informações:
+
+   * Criar, editar, excluir espaços de trabalho
+   * Criar, editar, excluir tipos de registro
+   * Conectar tipos de registro e exemplos de tipos de registro de conexão
+   * Modelo do Workspace
+
+* [Campos: o índice do artigo](/help/quicksilver/planning/fields/fields-information.md) contém as seguintes informações:
+
+   * Criar, editar e excluir campos
+   * Campos de fórmula
+   * Campos primários
+
+* [Registros: o índice de artigo](/help/quicksilver/planning/records/records-information.md) contém as seguintes informações:
+
+   * Criar, editar e excluir registros
+   * Conectar registros
+   * Adicionar uma imagem da capa ou uma miniatura a um registro
+   * Registrar comentários e seção Histórico
+   * Compartilhar registros
+   * Seção do Workfront Planning para objetos do Workfront
+
+* [Exibições: o índice de artigo](/help/quicksilver/planning/views/views-information.md) contém as seguintes informações:
+
+   * Criar visualizações de registro
+   * Gerenciar as exibições de tabela, linha do tempo e calendário
+
+* [Notificações: o índice de artigo](/help/quicksilver/planning/notifications/notifications-information.md) contém as seguintes informações:
+
+   * Gerenciar preferências de notificação
+   * Planejamento de notificações no aplicativo
+   * Notificações por email do Planning
 

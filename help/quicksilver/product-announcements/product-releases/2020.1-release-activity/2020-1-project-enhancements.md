@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas nos Projetos com a versão 2020.1. Esses aprimoramentos estão disponíveis atualmente no ambiente de Pré-visualização e serão disponibilizados no ambiente Produção no final de março ou início de abril de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte [Visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte a [visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Veja mais facilmente quem está marcado em uma atualização
 
@@ -28,7 +28,7 @@ Os usuários marcados também são listados na caixa de comentários.
 
 Antes dessa melhoria, os usuários marcados anteriormente não apareciam na caixa Notificar.
 
-Para obter mais informações, consulte [Marcar outros usuários em atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Para obter mais informações, consulte [Marcar outros em atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Incluir e identificar texto citado em um comentário ou resposta de atualização
 
@@ -53,7 +53,7 @@ Para obter informações sobre riscos no Workfront, consulte [Criar e editar ris
 
 Para ajudá-lo a entender melhor o progresso financeiro de seus projetos, agora é possível incluir informações adicionais de custo e receita em um relatório de Linha de base ou de Tarefa de Linha de base. As informações financeiras adicionais não são adicionadas às linhas de base que você salvou no momento, mas são adicionadas para novas linhas de base.
 
-Para obter informações sobre campos financeiros de projeto e tarefa que podem ser acessados a partir dos objetos de Linha de Base e Tarefa de Linha de Base, consulte [Finanças do projeto incluídas nas linhas de base do projeto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+Para obter informações sobre campos financeiros de projetos e tarefas que podem ser acessados a partir dos objetos de Linha de Base e Tarefa de Linha de Base, consulte [Finanças do projeto incluídas nas linhas de base do projeto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Problemas no status &quot;Fechado-Pendente de Aprovação&quot; são considerados incompletos
 
@@ -63,5 +63,5 @@ Antes dessa alteração, os problemas em um status &quot;Fechado-Pendente de Apr
 
 Todos os problemas colocados em um status Fechado - Pendente de Aprovação antes dessa alteração se comportarão da mesma forma que antes, sendo considerados concluídos e permitindo que o projeto também seja concluído. Todos os problemas colocados nesse status após a alteração serem feitos serão considerados incompletos.
 
-Para obter informações sobre status de projetos, consulte [Acessar a lista de status de projeto do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+Para obter informações sobre status de projeto, consulte [Acessar a lista de status de projeto do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Criptografador
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Criptografador] Os módulos do permitem criptografar quaisquer dados de texto. Atualmente, eles são compatíveis com a criptografia de mensagens via AES256 e PGP ([!UICONTROL OpenPGP]).
+Os módulos [!DNL Adobe Workfront Fusion] [!UICONTROL Criptografador] permitem criptografar quaisquer dados de texto. Atualmente, eles oferecem suporte à criptografia de mensagens via AES256 e PGP ([!UICONTROL OpenPGP]).
 
 ## Requisitos de acesso
 
@@ -35,23 +35,23 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -61,9 +61,9 @@ Ao criptografar e descriptografar via PGP, é necessário usar um chaveiro e cri
 
 Para obter mais informações sobre chaves públicas e privadas, consulte [Termos básicos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Para obter mais informações sobre chaveiros, consulte [Chaves em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
 
-## [!UICONTROL Criptografador] módulos e seus campos
+## [!UICONTROL Módulos {Encryptor] e seus campos
 
-Ao configurar [!UICONTROL Criptografador] , os campos a seguir serão exibidos. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar os módulos do [!UICONTROL Encryptor], os campos a seguir são exibidos. Um título em negrito em um módulo indica um campo obrigatório.
 
 ### Criptografar uma mensagem PGP
 

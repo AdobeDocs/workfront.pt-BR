@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Os seguintes pré-requisitos são necessários para executar os testes:
 
 Esses testes também pressupõem que a instância do Webhook do documento está registrada. (Você pode registrar sua instância no Workfront em Configuração > Documentos > Integrações personalizadas.)
 
-**Teste 1: provisionar o serviço Webhook do documento para um usuário**
+**Teste 1: provisionar o serviço Webhook de documentos para um usuário**
 
 Testa o URL de autenticação e o URL do ponto de extremidade do token para provedores de Webhook baseados em OAuth.
 
@@ -41,7 +41,7 @@ Testa o URL de autenticação e o URL do ponto de extremidade do token para prov
 1. (Somente serviços OAuth) Depois de concluir a etapa anterior, você verá o carregamento da página de autenticação OAuth2 do seu serviço em uma janela pop-up. (Observação: você pode ser solicitado a fazer logon no serviço primeiro.) Na página de autenticação, conceda acesso à conta do usuário pelo Workfront clicando no botão Confiar ou Permitir.
 1. Verifique se o serviço foi adicionado à lista suspensa Adicionar documentos. Caso não o veja inicialmente, tente atualizar o navegador.
 
-**Teste 2: vincular um documento no Workfront Testa os seguintes endpoints: /files, /metadata**
+**Teste 2: Vincular um documento no Workfront Testa os seguintes pontos de extremidade: /files, /metadata**
 
 1. No Workfront, vá para a página principal Documentos clicando no link Documentos na barra de navegação superior.
 1. Selecione o serviço Webhook de documentos em Adicionar documentos.
@@ -67,7 +67,7 @@ Testa os seguintes pontos de extremidade: /metadata (especificamente o viewLink)
 1. Verifique se a tela de logon do sistema de gerenciamento de conteúdo é carregada em uma nova guia.
 1. Faça logon e verifique se você está direcionado ao documento
 
-**Teste 5: baixar o documento do sistema de gerenciamento de conteúdo**
+**Teste 5: Baixar o documento do sistema de gerenciamento de conteúdo**
 
 Testa os seguintes pontos de extremidade (especificamente o link de download): /metadata 
 
@@ -75,7 +75,7 @@ Testa os seguintes pontos de extremidade (especificamente o link de download): /
 1. Selecione o documento e clique no link Download.
 1. Verifique se o download foi iniciado.
 
-**Teste 6: pesquisar conteúdo**
+**Teste 6: Pesquisar por conteúdo**
 
 Testa os seguintes pontos de extremidade: /search
 
@@ -84,7 +84,7 @@ Testa os seguintes pontos de extremidade: /search
 1. No modal, execute uma pesquisa.
 1. Verifique se os resultados da pesquisa estão corretos.
 
-**Teste 7: enviar documento do Workfront para o sistema de gerenciamento de conteúdo**
+**Teste 7: Enviar documento do Workfront para o sistema de gerenciamento de conteúdo**
 
 Testa os seguintes pontos de extremidade: /files, /uploadInit, /upload
 
@@ -95,7 +95,7 @@ Testa os seguintes pontos de extremidade: /files, /uploadInit, /upload
 1. Vá para a pasta de destino desejada e clique no botão Save.
 1. Verifique se o documento foi carregado no local correto no sistema de gerenciamento de conteúdo.
 
-**Teste 8: exibir miniaturas no Workfront**
+**Teste 8: Exibir Miniaturas no Workfront**
 
 Testa os seguintes pontos de extremidade: /thumbnail
 

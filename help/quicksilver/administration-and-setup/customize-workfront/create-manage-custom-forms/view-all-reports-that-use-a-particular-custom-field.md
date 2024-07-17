@@ -50,28 +50,28 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Forms personalizado**.
-1. Clique em **Campos** para exibir um relatório listando todos os campos e widgets personalizados na instância do Workfront.
+1. No painel esquerdo, clique em **Forms Personalizado**.
+1. Clique em **Campos** para exibir um relatório que lista todos os campos e widgets personalizados da sua instância do Workfront.
 
-1. Clique em **Exibir** e, em seguida, verifique se há exibições personalizadas na lista que incluam **Relatórios** (que não é uma coluna padrão nesta guia).
+1. Clique no menu **Exibir** e verifique se há exibições personalizadas na lista que incluam a coluna **Relatórios** (que não é uma coluna padrão nesta guia).
 
-   A coluna Relatórios é o local onde você pode ver quais relatórios estão usando cada campo e widget personalizado que foi adicionado a um formulário personalizado em seu sistema. É possível que alguém já tenha criado uma visualização que inclui a variável **Relatórios** coluna.
+   A coluna Relatórios é o local onde você pode ver quais relatórios estão usando cada campo e widget personalizado que foi adicionado a um formulário personalizado em seu sistema. É possível que alguém já tenha criado uma exibição que inclui a coluna **Relatórios**.
 
-1. Se você não vir uma visualização que inclua a variável **Relatórios** crie uma nova exibição que a inclua:
+1. Se você não vir um modo de exibição que inclua a coluna **Relatórios**, crie um novo modo de exibição que o inclua:
 
-   1. Clique em **Exibir** e clique em **Nova visualização**.
+   1. Clique no menu **Exibir** e em **Nova exibição**.
 
-   1. No **Nova visualização** que aparece, na caixa próxima ao canto superior esquerdo, substituir **Nova Exibição de Parâmetro** com um nome descritivo para a exibição, como *Campos e widgets*.
+   1. Na página **Nova Exibição** que aparece, na caixa próxima ao canto superior esquerdo, substitua **Nova Exibição de Parâmetros** por um nome descritivo para a exibição, como *Campos e widgets*.
 
    1. Clique em **Adicionar coluna** próximo ao canto inferior direito.
-   1. No **Mostrar nesta coluna** que é exibido próximo ao canto superior esquerdo, comece a digitar *relatório* e selecione **Relatórios** quando ele aparecer na lista abaixo da caixa.
+   1. Na caixa **Mostrar nesta coluna** que é exibida próxima ao canto superior esquerdo, comece digitando *relatório* e selecione **Relatórios** quando ele aparecer na lista abaixo da caixa.
 
-   1. (Condicional) Se desejar mover a variável **Relatórios** coluna que você acabou de adicionar a uma posição horizontal diferente, arraste o cabeçalho na **Visualização da coluna** na parte inferior da página.
+   1. (Condicional) Se quiser mover a coluna **Relatórios** que você acabou de adicionar para uma posição horizontal diferente, arraste o cabeçalho na área **Visualização da coluna**, na parte inferior da página.
 
-   1. Clique em **Concluído** e, em seguida, clique em **Salvar visualização**.
+   1. Clique em **Concluído** e em **Salvar exibição**.
 
-1. Clique em **Exibir** e selecione o nome da exibição personalizada que acabou de criar.
-1. No **Nome** , localize o campo ou widget personalizado que deseja editar ou excluir e, em seguida, consulte o **Relatórios** coluna nessa linha para ver quais relatórios a usam, se houver.
+1. Clique no menu suspenso **Exibir** e selecione o nome da exibição personalizada que você acabou de criar.
+1. Na coluna **Nome**, localize o campo ou widget personalizado que você planeja editar ou excluir, em seguida, verifique a coluna **Relatórios** nessa linha para ver quais relatórios o usam, se houver.
 
    Para localizar as informações desta coluna, o Workfront pesquisa os campos e widgets personalizados em todos os filtros, visualizações e agrupamentos de relatório.
 
@@ -88,9 +88,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >Essa exibição também está disponível em um relatório de Parâmetro:
    >      
    > 1. No menu principal, clique em **Relatórios**.
-   > 1. Ao lado do canto superior esquerdo, clique em **Novo Relatório** e, em seguida, clique em **Parâmetro** na lista exibida.
+   > 1. Próximo ao canto superior esquerdo, clique em **Novo relatório** e em **Parâmetro** na lista exibida.
    > 1. Clique em **Adicionar coluna** próximo ao canto inferior direito.
-   > 1. No **Mostrar nesta coluna** que é exibido próximo ao canto superior esquerdo, comece a digitar *relatório* e selecione **Relatórios** quando ele aparecer na lista abaixo da caixa.
-   > 1. (Condicional) Se desejar mover a variável **Relatórios** coluna que você acabou de adicionar a uma posição horizontal diferente, arraste o cabeçalho na **Visualização da coluna** na parte inferior da página.
-   > 1. Clique em **Concluído** e, em seguida, clique em **Salvar+Fechar**.
+   > 1. Na caixa **Mostrar nesta coluna** que é exibida próxima ao canto superior esquerdo, comece digitando *relatório* e selecione **Relatórios** quando ele aparecer na lista abaixo da caixa.
+   > 1. (Condicional) Se quiser mover a coluna **Relatórios** que você acabou de adicionar para uma posição horizontal diferente, arraste o cabeçalho na área **Visualização da coluna**, na parte inferior da página.
+   > 1. Clique em **Concluído** e em **Salvar+Fechar**.
    > 1. Digite um nome descritivo para o relatório, como *Campos e widgets*.

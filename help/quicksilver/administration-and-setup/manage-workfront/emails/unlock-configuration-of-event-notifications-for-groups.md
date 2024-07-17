@@ -58,19 +58,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 >
 >Quando você bloquear novamente uma notificação, todos os grupos no sistema herdarão a notificação exatamente como você a definiu. Isso substitui todas as alterações que os administradores de grupo possam ter feito em seus grupos. Portanto, é uma boa ideia consultar esses grupos primeiro.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **E-mail** > **Notificação**.
+1. Clique em **Email** > **Notificações**.
 
-1. Verifique se **Notificações de Eventos** está aberta.
-1. Clique no ícone à direita da notificação para alterná-lo para a tag bloqueada ![Ícone Bloquear](assets/lock-toggle-button.png) ou desbloqueado ![Ícone Desbloquear](assets/unlock-toggle-button.png) posição.
+1. Verifique se a guia **Notificações de Eventos** está aberta.
+1. Clique no ícone à direita da notificação para alterná-lo para a posição ![Bloquear ícone](assets/lock-toggle-button.png) ou ![Desbloquear ícone](assets/unlock-toggle-button.png) bloqueado.
 
    Ou
 
-   Para desbloquear ou bloquear várias notificações de uma só vez, selecione-as e, em seguida, clique no botão Desbloquear ![Ícone Desbloquear](assets/unlock-icon-toolbar.png) ou Bloqueio ![Ícone Bloquear](assets/lock-icon-locked-qs.png) botão que é exibido na barra de ferramentas acima da lista.
+   Para desbloquear ou bloquear várias notificações de uma só vez, selecione-as e clique no botão Desbloquear ![Ícone Desbloquear](assets/unlock-icon-toolbar.png) ou Bloquear ![Ícone Bloquear](assets/lock-icon-locked-qs.png), exibido na barra de ferramentas acima da lista.
 
 1. Clique em **Salvar**.
 1. (Opcional) Se quiser configurar a notificação de eventos para um grupo de nível superior, em vez de deixar essa tarefa para o administrador do grupo, você pode executar um dos seguintes procedimentos:
 
-   * Excluir **Notificações de Eventos do Sistema** na caixa pesquisar acima da lista de notificações, procure e selecione o nome do grupo de nível superior para listar suas notificações e, em seguida, ative ou desative as notificações desbloqueadas na lista exibida.
-   * Clique em **Grupos** no menu esquerdo, em seguida, clique no nome do grupo de nível superior. Clique em **Notificações de Eventos** no painel esquerdo e configure a notificação de evento desbloqueada, conforme explicado em [Exibir e configurar notificações de eventos para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * Exclua **Notificações de Eventos do Sistema** na caixa de pesquisa acima da lista de notificações, procure e selecione o nome do grupo de nível superior para listar suas notificações e, em seguida, ative ou desative as notificações desbloqueadas na lista exibida.
+   * Clique em **Grupos** no menu esquerdo e, em seguida, clique no nome do grupo de nível superior. Clique em **Notificações de Eventos** no painel esquerdo e configure a notificação de eventos desbloqueados, conforme explicado em [Exibir e configurar notificações de eventos para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

@@ -30,7 +30,7 @@ hide: yes
 
 Você pode exibir registros e seus campos em uma exibição de calendário na página de tipo de registro.
 
-Para obter informações sobre as exibições do Adobe Workfront Planning e como gerenciá-las, consulte [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+Para obter informações sobre os modos de exibição do Adobe Workfront Planning e como gerenciá-los, consulte [Gerenciar modos de exibição de registro](/help/quicksilver/planning/views/manage-record-views.md).
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -82,7 +82,7 @@ Para obter informações sobre as exibições do Adobe Workfront Planning e como
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -108,7 +108,7 @@ Considere o seguinte:
 Para gerenciar uma exibição de calendário:
 
 1. Vá para a página do tipo de registro para a qual deseja exibir o calendário.
-1. Crie uma exibição de calendário, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. Crie uma exibição de calendário, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/calendar-view-example.png)
 

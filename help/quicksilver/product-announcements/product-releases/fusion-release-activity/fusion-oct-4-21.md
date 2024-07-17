@@ -1,6 +1,6 @@
 ---
-title: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 4 de outubro de 2021'
-description: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 4 de outubro de 2021'
+title: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 4 de outubro de 2021
+description: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 4 de outubro de 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 4 de outubro de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Consulte filtros de evento existentes nos módulos Workfront > Eventos de observação
 
@@ -28,7 +28,7 @@ Para maior clareza, possibilitamos ver os filtros de evento usados por um webhoo
 
 Anteriormente, os usuários só podiam ver filtros de evento ao configurar o webhook e não havia como visualizar os filtros em um módulo Workfront > Eventos de observação existente.
 
-Para obter mais informações, consulte [Filtros de assinatura de evento nos módulos Workfront > Eventos de observação](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações, consulte [Filtros de assinatura de evento no Workfront > Módulos de eventos de observação](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) em [módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Anexe formulários personalizados a objetos do Workfront usando os módulos Workfront > Criar registro e Atualizar registro
 
@@ -36,7 +36,7 @@ Para tornar o uso de formulários personalizados mais semelhante à experiência
 
 Anteriormente, era possível inserir valores em campos em formulários personalizados, mas eles não eram organizados por formulário e eram difíceis de encontrar.
 
-Para obter mais informações, consulte [Módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações, consulte [módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Usar rich text em comentários e campos personalizados criados pelo Workfront Fusion
 
@@ -55,6 +55,6 @@ As atualizações são compatíveis com os seguintes formatos rich text:
 
 Anteriormente, o rich text só podia ser adicionado a comentários ou campos personalizados por meio do próprio Workfront ou da API do Workfront.
 
-Para obter mais informações sobre os módulos Criar registro e Atualizar registro, consulte [Módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações sobre os módulos Criar registro e Atualizar registro, consulte [módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-Para obter mais informações sobre o rich text disponível em comentários ou campos personalizados, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obter mais informações sobre o rich text disponível em comentários ou campos personalizados, consulte [Trabalho de atualização](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

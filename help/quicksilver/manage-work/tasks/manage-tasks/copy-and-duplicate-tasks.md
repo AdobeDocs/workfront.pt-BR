@@ -74,12 +74,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para uma tarefa </p> <p>Contribute ou tem permissões mais altas para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para uma tarefa </p> <p>Permissões do Contribute ou superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações para copiar tarefas
 
@@ -107,7 +107,7 @@ Considere o seguinte ao copiar uma tarefa:
    Ir para um relatório de tarefa.
 
 1. (Condicional) Clique em **Tarefas** no painel esquerdo, se você tiver aberto o projeto que contém as tarefas.
-1. Clique em **Modo de plano** ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png)e assegurar que a **Salvamento automático** está ativada.
+1. Clique no ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png) do **Modo de Plano** e verifique se a opção **Salvamento automático** está habilitada.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -117,13 +117,13 @@ Considere o seguinte ao copiar uma tarefa:
 
 1. Selecione a tarefa ou tarefas que deseja copiar e siga um destes procedimentos:
 
-   * Clique em **Menu Mais** na parte superior da lista de tarefas, em seguida, clique em **Copiar para**.
+   * Clique no **Mais menu** na parte superior da lista de tarefas e clique em **Copiar para**.
    * Clique com o botão direito do mouse nas tarefas selecionadas e clique em **Copiar para**.
-   * Ao selecionar uma tarefa, clique no botão **Mais** menu ![](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista, em seguida, clique em **Copiar para**.
+   * Ao selecionar uma tarefa, clique no menu **Mais** ![](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Copiar para**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
-1. Continue copiando a tarefa, conforme descrito na seção [Copiar uma tarefa no nível da tarefa](#copy-a-task-at-the-task-level) começando com a Etapa 4.
+1. Continue copiando a tarefa, conforme descrito na seção [Copiar uma tarefa no nível da tarefa](#copy-a-task-at-the-task-level), começando com a Etapa 4.
 
    <!--
       (NOTE: is this still accurate?!)
@@ -135,13 +135,13 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
 1. Encontre uma tarefa em seu sistema Workfront procurando por ela.
 1. Clique no nome da tarefa para abri-la.
-1. Clique em **Mais** menu suspenso ![](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Copiar para**.
+1. Clique no menu suspenso **Mais** ![](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Copiar para**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    A caixa Copiar Tarefa é exibida.
 
-1. (Opcional) Atualize a **Nome da tarefa**.
+1. (Opcional) Atualize o **Nome da tarefa**.
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Digite o nome do **Projeto de destino** onde você deseja copiar a tarefa no **Selecionar projeto de destino** campo.
+1. Digite o nome do **Projeto de destino** para o qual você deseja copiar a tarefa no campo **Selecionar projeto de destino**.
 
    >[!TIP]
    >
@@ -159,16 +159,16 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
    O nome do projeto atual é exibido por padrão. Se quiser copiar a tarefa dentro do mesmo projeto, deixe esse campo inalterado.
 
-1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao projeto, se você não tiver acesso ao projeto selecionado.
+1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao projeto, caso não tenha acesso ao projeto selecionado.
 1. (Condicional) Continue a copiar a tarefa para o projeto de destino selecionado sem solicitar acesso se tiver acesso para adicionar tarefas a uma das tarefas no projeto de destino.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Mensagens semelhantes serão exibidas se o projeto selecionado estiver com aprovação pendente, concluído ou inativo, quando o administrador do Workfront impedir a adição de tarefas a esses projetos. Para obter mais informações, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Mensagens semelhantes serão exibidas se o projeto selecionado estiver com aprovação pendente, concluído ou inativo, quando o administrador do Workfront impedir a adição de tarefas a esses projetos. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Clique em **Opções** no painel esquerdo, desmarque os atributos de tarefa que você não quer copiar com a tarefa. Todas as opções são selecionadas por padrão.
+1. Clique em **Opções** no painel esquerdo e desmarque os atributos de tarefa que você não deseja copiar com a tarefa. Todas as opções são selecionadas por padrão.
 
    >[!TIP]
    >
@@ -182,7 +182,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
     <tbody> 
      <tr> 
       <td role="rowheader">Dt Restr</td> 
-      <td> <p>A restrição da tarefa é definida como O Mais Breve Possível ou O Mais Tarde Possível com base na configuração do Modo de Cronograma do projeto.</p> <p> Quando selecionada, a restrição atual da tarefa é transferida para a tarefa copiada. </p> <p>Nota: Ao mover ou copiar uma tarefa com restrições específicas de data para outro projeto e as datas de restrição da tarefa estiverem fora das datas do novo projeto, a Restrição de Tarefa será alterada para O Mais Breve Possível ou o Mais Tarde Possível ou as datas de Início Planejado ou de Conclusão Planejada dos projetos serão ajustadas. Alguns exemplos de restrições específicas de data são: Deve iniciar em, Deve terminar em, Não iniciar antes de, Não iniciar depois de, etc. Para obter informações sobre restrições de tarefa e como restrições de tarefa ou datas de projeto podem ser afetadas, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral de Restrição de Tarefa</a> e procure por uma restrição específica.</p> </td> 
+      <td> <p>A restrição da tarefa é definida como O Mais Breve Possível ou O Mais Tarde Possível com base na configuração do Modo de Cronograma do projeto.</p> <p> Quando selecionada, a restrição atual da tarefa é transferida para a tarefa copiada. </p> <p>Nota: Ao mover ou copiar uma tarefa com restrições específicas de data para outro projeto e as datas de restrição da tarefa estiverem fora das datas do novo projeto, a Restrição de Tarefa será alterada para O Mais Breve Possível ou o Mais Tarde Possível ou as datas de Início Planejado ou de Conclusão Planejada dos projetos serão ajustadas. Alguns exemplos de restrições específicas de data são: Deve iniciar em, Deve terminar em, Não iniciar antes de, Não iniciar depois de, etc. Para obter informações sobre restrições de tarefa e como restrições de tarefa ou datas de projeto podem ser afetadas, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral de Restrição de Tarefa</a> e procure uma restrição específica.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Atribuições</td> 
@@ -227,7 +227,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
     </tbody> 
    </table>
 
-1. (Opcional) Clique em **Selecionar pai** no painel esquerdo, selecione a tarefa no projeto de destino que você deseja que se torne a principal da tarefa copiada.
+1. (Opcional) Clique em **Selecionar pai** no painel esquerdo e selecione a tarefa no projeto de destino que você deseja que se torne a principal da tarefa copiada.
 
    >[!TIP]
    >
@@ -257,7 +257,7 @@ As tarefas copiadas agora estão no projeto especificado e são subtarefas da ta
 
 Você pode duplicar rapidamente uma tarefa em uma lista de tarefas, se precisar de uma tarefa idêntica no mesmo projeto.
 
-* [Considerações para duplicação de tarefas](#considerations-for-duplicating-tasks)
+* [Considerações sobre tarefas duplicadas](#considerations-for-duplicating-tasks)
 * [Tarefas duplicadas](#duplicate-tasks)
 
 ### Considerações para duplicação de tarefas {#considerations-for-duplicating-tasks}
@@ -289,15 +289,15 @@ Você pode duplicar rapidamente uma tarefa em uma lista de tarefas, se precisar 
 1. Clique em **Tarefas** no painel esquerdo.
 1. Siga um destes procedimentos:
 
-   * (Condicional) Clique no link **Modo de plano** ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png) e assegurar a **Salvamento automático** estiver ativada, selecione as tarefas que deseja duplicar e clique no botão **Menu Mais** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
+   * (Condicional) Clique no ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png) do **Modo de Plano** e verifique se a opção **Salvamento automático** está habilitada, selecione as tarefas que deseja duplicar e clique no **menu Mais** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Condicional) Clique no link **Modo de plano** ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvamento manual** > **Padrão** ou **Planejamento da linha do tempo**, faça o seguinte:
+   * (Condicional) Clique no ícone **Modo de Plano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvamento manual** > **Padrão** ou **Planejamento de Linha do Tempo** e faça o seguinte:
 
-      1. Selecione a tarefa ou tarefas que deseja duplicar e clique em **Duplicar**.
-      1. (Opcional) Clique em **Desfazer** para reverter as alterações e não duplicar as tarefas.
-      1. (Opcional e condicional) Clique em **Refazer** se você clicou anteriormente em **Desfazer**, para manter as alterações e duplicar as tarefas.
+      1. Selecione a(s) tarefa(s) que deseja duplicar e clique em **Duplicar**.
+      1. (Opcional) Clique em **Desfazer** para reverter suas alterações e não duplicar as tarefas.
+      1. (Opcional e condicional) Clique em **Refazer** se você já clicou em **Desfazer** para manter as alterações e duplicar as tarefas.
 
       1. Clique em **Salvar** para salvar as alterações.
 

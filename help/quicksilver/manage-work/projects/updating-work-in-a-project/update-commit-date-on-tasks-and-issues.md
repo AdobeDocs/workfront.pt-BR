@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Atualizar datas de confirmação nas tarefas e problemas
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
-Você pode atualizar manualmente a data de confirmação de uma tarefa ou problema atribuído a você. Para obter mais informações sobre Datas de confirmação no Adobe Workfront, consulte [Visão geral da data de compromisso](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Você pode atualizar manualmente a data de confirmação de uma tarefa ou problema atribuído a você. Para obter mais informações sobre Datas de Confirmação no Adobe Workfront, consulte [Visão geral da Data de Confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Requisitos de acesso
 
@@ -79,7 +79,7 @@ Você pode atualizar a Data de confirmação de uma tarefa ou problema nas segui
 * A seção Detalhes de uma tarefa ou problema
 * <span class="preview">O cabeçalho da tarefa ou do problema</span>
 
-  <span class="preview">O administrador do Workfront ou do grupo deve adicionar a Data de confirmação ao cabeçalho da tarefa ou do problema do modelo de layout para exibi-la na página da tarefa ou do problema.
+  <span class="preview">O administrador do Workfront ou do grupo deve adicionar a Data de Confirmação ao cabeçalho da tarefa ou do problema do modelo de layout para exibi-la na página de tarefas ou problemas.
 Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 A atualização da Data de confirmação é idêntica para tarefas e problemas.
@@ -90,21 +90,21 @@ A atualização da Data de confirmação é idêntica para tarefas e problemas.
 >
 >Para obter mais informações, consulte os seguintes artigos:
 >
->* [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Personalizar Página Inicial e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
-1. Ir para uma tarefa ou problema atribuído como **Proprietário**.
+1. Vá para uma tarefa ou problema ao qual você está atribuído como o **Proprietário**.
 
-   Para obter mais informações sobre descobrir quem é o Proprietário da Tarefa para um problema ou tarefa, consulte a seção [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) no artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   Para obter mais informações sobre como descobrir quem é o Proprietário da Tarefa para um problema ou tarefa, consulte a seção [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) no artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Condicional e opcional) Se o administrador do Workfront ou do grupo tiver adicionado a Data de confirmação ao cabeçalho da tarefa ou do problema, clique no link **Data de confirmação** no cabeçalho e selecione uma data no calendário. Se a Data de confirmação não estiver no cabeçalho, continue com as etapas a seguir. </span>
+1. <span class="preview">(Condicional e opcional) Se o administrador do Workfront ou do grupo tiver adicionado a Data de Confirmação ao cabeçalho da tarefa ou do problema, clique no campo **Data de Confirmação** no cabeçalho e selecione uma data no calendário. Se a Data de confirmação não estiver no cabeçalho, continue com as etapas a seguir. </span>
 
    <span class="preview">![](assets/commit-date-task-header.png)</span>
 
 1. Clique em **Detalhes da tarefa** ou **Detalhes do problema** no painel esquerdo.
 1. Clique em **Visão geral** para expandi-la.
-1. Atualize o **Data de confirmação** campo.
+1. Atualize o campo **Data de Confirmação**.
 
    ![](assets/task-commit-date-edit-highlighted-details-page.png)
 
@@ -126,6 +126,6 @@ A atualização da Data de confirmação é idêntica para tarefas e problemas.
 
      <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Para obter informações sobre as notificações e atualizações acionadas por essa alteração, consulte a seção &quot;Notificações e atualizações acionadas pela alteração da Data de confirmação&quot; no artigo [Visão geral da data de compromisso](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Para obter informações sobre as notificações e atualizações acionadas por essa alteração, consulte a seção &quot;Notificações e atualizações acionadas pela alteração da Data de Confirmação&quot; no artigo [Visão geral da Data de Confirmação](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

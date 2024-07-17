@@ -32,7 +32,7 @@ A experiência do usuário para integrações baseadas em webhook será semelhan
 
 **Implementação de referência**
 
-Para ajudar a iniciar o desenvolvimento de uma nova implementação de webhooks, o Workfront fornece exemplos de uma implementação de referência. Esses exemplos podem ser encontrados em [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Os exemplos são baseados em Java e permitem que o Workfront conecte documentos em um sistema de arquivos de rede. 
+Para ajudar a iniciar o desenvolvimento de uma nova implementação de webhooks, o Workfront fornece exemplos de uma implementação de referência. Estes exemplos podem ser encontrados em [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Os exemplos são baseados em Java e permitem que o Workfront conecte documentos em um sistema de arquivos de rede. 
 
 >[!NOTE]
 >

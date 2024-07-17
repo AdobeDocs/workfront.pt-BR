@@ -25,13 +25,13 @@ Você deve ter o seguinte:
 
 <table>
   <tr>
-   <td><strong>plano do Adobe Workfront*</strong>
+   <td><strong>Plano Adobe Workfront*</strong>
    </td>
-   <td>Qualquer Um
+   <td>Qualquer
    </td>
   </tr>
   <tr>
-   <td><strong>Licenças da Adobe Workfront*</strong>
+   <td><strong>Licenças do Adobe Workfront*</strong>
    </td>
    <td>Plano
    </td>
@@ -78,11 +78,11 @@ Para criar uma pasta vinculada:
 
 
 1. Vá para o Projeto onde deseja colocar a pasta.
-1. Selecionar **Adicionar novo**, em seguida, acesse a integração do Experience Manager configurada pelo administrador.
+1. Selecione **Adicionar novo** e vá para a integração do Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, pode ser que ele não mencione especificamente o Experience Manager Assets ou o Assets Essentials.
 
-1. Selecionar **Criar pasta vinculada**. O sistema cria automaticamente uma pasta no Experience Manager com base no local especificado quando a integração foi configurada.
+1. Selecione **Criar pasta vinculada**. O sistema cria automaticamente uma pasta no Experience Manager com base no local especificado quando a integração foi configurada.
    ![criar uma pasta vinculada](assets/linked-folder.png)

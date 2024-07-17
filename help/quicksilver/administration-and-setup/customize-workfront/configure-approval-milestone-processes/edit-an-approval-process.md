@@ -10,8 +10,8 @@ role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 6%
+source-wordcount: '1954'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -51,16 +51,16 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a Processos de Aprovação se você não for um Administrador do Sistema</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Acesso administrativo a Processos de Aprovação se você não for um Administrador do Sistema</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Editar um processo de aprovação existente
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 1. (Condicional) Se você estiver editando um processo de aprovação no nível do sistema, clique em **Processos** > **Aprovações** no painel esquerdo.
 
    Ou
@@ -71,9 +71,9 @@ Você deve ter o seguinte:
    1. Clique no nome do grupo para o qual deseja listar ou gerenciar processos de aprovação de grupo.
    1. No painel esquerdo, clique em **Aprovações**. Talvez seja necessário clicar em **Mostrar mais** primeiro.
 
-1. Clique em **Aprovações de projetos**, **Aprovações de tarefas** ou **Aprovação de problemas** dependendo do tipo de processo de aprovação que deseja editar.
+1. Clique na guia **Aprovações de projetos**, **Aprovações de tarefas** ou **Aprovações de problemas**, dependendo do tipo de processo de aprovação que deseja editar.
 
-1. Selecione o processo de aprovação que deseja editar e clique em **Editar** no topo da lista. A caixa Edit approval process é exibida.
+1. Selecione o processo de aprovação que deseja editar e clique em **Editar** na parte superior da lista. A caixa Edit approval process é exibida.
 
    ![](assets/edit-approval-process-global-area-new.png)
 
@@ -89,7 +89,7 @@ Você deve ter o seguinte:
      </tr> 
      <tr> 
       <td role="rowheader">Descrição</td> 
-      <td>Digite uma descrição do processo de aprovação. Isso é exibido na <b>Aprovações</b> na seção <b>Configuração</b> área ao lado do nome do processo de aprovação.</td> 
+      <td>Digite uma descrição do processo de aprovação. Isso é exibido na seção <b>Aprovações</b> na área <b>Configuração</b> ao lado do nome do processo de aprovação.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Está ativo</td> 
@@ -99,9 +99,9 @@ Você deve ter o seguinte:
       <td role="rowheader">Este processo de aprovação pode ser usado por </td> 
       <td> <p>Se quiser que o processo de aprovação esteja disponível para projetos, tarefas, problemas e modelos pertencentes apenas a um grupo específico, comece digitando o nome do grupo e, em seguida, selecione o nome quando ele for exibido:</p> 
        <ul> 
-        <li>Se você for um administrador do sistema ou tiver acesso administrativo a processos de aprovação, poderá ver qualquer grupo no sistema ao digitar seu nome. <b>Todos os grupos</b> é selecionada por padrão. </li> 
-        <li>Se você for um administrador de grupo sem acesso administrativo a processos de aprovação, poderá atribuir o processo de aprovação a qualquer grupo gerenciado ao digitar seu nome. A variável <b>Todos os grupos</b> opção não está disponível.</li> 
-       </ul> <p>Esta opção não está disponível para processos de aprovação de uso único.</p> <p><b>AVISO</b>: Quando você faz alterações no processo de aprovação específico do grupo, os processos de aprovação existentes que já foram associados a itens de trabalho podem mudar. Para obter informações sobre essas alterações, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos</a>.</p> <p>Para obter informações sobre como listar e gerenciar os processos de aprovação do seu grupo na página do seu grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação de nível de grupo</a>. </p> <p>Para obter informações sobre acesso administrativo a processos de aprovação, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+        <li>Se você for um administrador do sistema ou tiver acesso administrativo a processos de aprovação, poderá ver qualquer grupo no sistema ao digitar seu nome. <b>Todos os grupos</b> está selecionado por padrão. </li> 
+        <li>Se você for um administrador de grupo sem acesso administrativo a processos de aprovação, poderá atribuir o processo de aprovação a qualquer grupo gerenciado ao digitar seu nome. A opção <b>Todos os Grupos</b> não está disponível.</li> 
+       </ul> <p>Esta opção não está disponível para processos de aprovação de uso único.</p> <p><b>AVISO</b>: quando você faz alterações ao processo de aprovação específico do grupo, os processos de aprovação existentes que já foram associados a itens de trabalho podem mudar. Para obter informações sobre essas alterações, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos</a>.</p> <p>Para obter informações sobre como listar e gerenciar os processos de aprovação do seu grupo na página do seu grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação de nível de grupo</a>. </p> <p>Para obter informações sobre acesso administrativo a processos de aprovação, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -116,9 +116,9 @@ Você deve ter o seguinte:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Iniciar o processo de aprovação quando o status estiver configurado como</p> </td> 
-      <td> <p>Selecione o status que acionará o processo de aprovação em itens de trabalho. Quando alguém atualiza um item de trabalho para esse status, seu processo de aprovação é iniciado. </p> <p>O mesmo status não pode ser selecionado para vários caminhos de processo de aprovação.</p> <p>Os status disponíveis são baseados no que é selecionado na opção <b>Esta aprovação pode ser usada por</b> (explicado no quadro acima):</p> 
+      <td> <p>Selecione o status que acionará o processo de aprovação em itens de trabalho. Quando alguém atualiza um item de trabalho para esse status, seu processo de aprovação é iniciado. </p> <p>O mesmo status não pode ser selecionado para vários caminhos de processo de aprovação.</p> <p>Os status disponíveis baseiam-se no que está selecionado na opção <b>Esta aprovação pode ser usada por</b> (explicado na tabela acima):</p> 
       <ul> 
-      <li> Se <b>Todos os grupos</b> for selecionada, somente os status bloqueados em todo o sistema estarão disponíveis. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> Se <b>Todos os grupos</b> estiver selecionado, somente os status bloqueados do sistema estarão disponíveis. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>Se um grupo específico for selecionado, somente os status disponíveis para esse grupo estarão disponíveis</p> </li> 
       </ul> <p>Para obter informações sobre como o processo de aprovação funciona com status, consulte a seção <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Como os processos de aprovação dependem dos status</a> no artigo <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Visão geral do processo de aprovação</a>.</p> </td> 
@@ -136,20 +136,20 @@ Você deve ter o seguinte:
    <p>Ao adicionar um usuário como aprovador, observe o avatar, a função principal do usuário ou o endereço de email dele para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.</p>
       <p>Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acesso aos usuários</a></p>.
 
-   <p><b>Nota</b>:
+   <p><b>NOTA</b>:
 
    Adicionar um usuário, equipe ou função como aprovador não lhes dá permissões automaticamente para o objeto associado a essa aprovação. Eles recebem permissões para o objeto quando a etapa de aprovação é acionada. Caso contrário, os objetos devem ser compartilhados com eles antes que possam tomar uma decisão de aprovação. </p>
    <p>Você também pode designar um indivíduo como um aprovador especificando a função do indivíduo. Por exemplo, você pode atribuir um Proprietário do projeto, Patrocinador do projeto, Proprietário do Portfolio, Proprietário do programa ou Gerente como aprovador. Essas opções são exibidas automaticamente quando você começa a digitar.</p> 
       <p><b>IMPORTANTE</b>:  
       <ul> 
       <li> Quando você atribui uma aprovação ao Patrocinador do Projeto e ninguém é designado como patrocinador de um projeto, a aprovação é reatribuída ao Proprietário do Projeto. Se ninguém for designado como o proprietário do projeto, a aprovação será atribuída ao administrador do Workfront. </li> 
-      <li> Quando você atribui uma aprovação a uma função e a opção <b>Não é necessário que o aprovador faça parte da equipe do projeto</b> estiver desativado, mas nenhuma função na equipe do projeto corresponder à função na aprovação, a aprovação será reatribuída ao Proprietário do projeto. Para obter informações sobre configurações de aprovação, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Definir configurações de aprovação global</a>.
+      <li> Quando você atribui uma aprovação a uma função e a opção <b>Aprovador que não precisa estar na equipe do projeto</b> está desabilitada, mas nenhuma função na equipe do projeto corresponde à função na aprovação, a aprovação é reatribuída ao Proprietário do projeto. Para obter informações sobre configurações de aprovação, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Definir configurações de aprovação globais</a>.
       </li> 
-      <li>Quando você atribui uma aprovação ao Proprietário do projeto e ninguém é designado como o proprietário de um projeto, a aprovação é reatribuída ao administrador principal do Workfront, conforme indicado na seção Informações do cliente na área Configuração. Para obter informações, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurar informações básicas do seu sistema</a>.</li> 
+      <li>Quando você atribui uma aprovação ao Proprietário do projeto e ninguém é designado como o proprietário de um projeto, a aprovação é reatribuída ao administrador principal do Workfront, conforme indicado na seção Informações do cliente na área Configuração. Para obter informações, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurar informações básicas do sistema</a>.</li> 
       <p><img src="assets/approval-create-add-users-nwe-350x304.png"></p> 
       <li><p>Quando você atribui funções de trabalho como aprovadores, todos os usuários associados a essa função de trabalho que também estão na equipe do projeto podem tomar uma decisão sobre a aprovação. </p> 
       <p>Quando você atribui uma equipe como um aprovador, qualquer usuário nessa equipe pode tomar uma decisão sobre a aprovação. </p> 
-      <p>Para obter mais informações sobre a equipe do projeto, consulte <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Visão geral da equipe do projeto</a>. Para obter mais informações sobre aprovação de trabalho, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovar trabalho </a>.</p>
+      <p>Para obter mais informações sobre a equipe de criação, consulte <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Visão geral da Equipe de Criação</a>. Para obter mais informações sobre aprovação de trabalho, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovando trabalho </a>.</p>
       </li>
       </ul>  
       </td> 
@@ -168,23 +168,23 @@ Você deve ter o seguinte:
      <tr> 
       <td role="rowheader"> Escolha o que acontece quando a aprovação é rejeitada</td> 
       <td> <p>Selecione a ação que deseja realizar se o item de trabalho for rejeitado em qualquer estágio do caminho:</p> 
-      <ul> <li><strong>Criar um tópico</strong>: (Disponível somente para processos de aprovação de projetos e tarefas) Um problema é criado no projeto ou tarefa em que o processo de aprovação está em execução. O recurso padrão atribuído na tarefa ou o proprietário do projeto é atribuído ao problema. Por padrão, o nome do problema criado é <strong>Aprovação rejeitada (nome do projeto ou da tarefa)</strong>. Esse é um Problema de rejeição, inserido na tarefa ou no projeto, dependendo do processo de aprovação em que a rejeição aconteceu.</li> 
-      <li> <p><strong>Defina o status para</strong>: escolha uma das seguintes opções:</p> 
-      <ul> <li><strong>Status anterior</strong>: o projeto, a tarefa ou o problema rejeitado é revertido para o status anterior ao status que ativa o processo de aprovação.</li> 
-      <li> <p><strong>Qualquer outro status na lista</strong>: O objeto rejeitado se move para o status escolhido, como Em espera. Você pode escolher um dos status padrão ou um status personalizado adicionado ao sistema do Workfront.</p> <p>Se você selecionar um status associado a um processo de aprovação como status de rejeição para um caminho de aprovação, o objeto rejeitado será movido para o status selecionado e será marcado como “Aprovação pendente”. </p>
-      <p>Por exemplo, se você selecionar Em espera para o status de rejeição e o status Em espera estiver associado a um processo de aprovação, o objeto rejeitado será colocado no status “Em espera - Aprovação pendente”, exigindo a aprovação.</p>    <p>Para um processo de aprovação em todo o sistema, somente os status de todo o sistema estão disponíveis.</p> <p>Para um processo de aprovação específico de grupo, todos os status de grupo estão disponíveis. Isso inclui todos os status personalizados que o administrador do grupo criou especificamente para o grupo, bem como quaisquer status de todo o sistema. </p> <p>Para obter informações sobre como o processo de aprovação funciona com status, consulte a seção <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Como os processos de aprovação dependem dos status</a> no artigo <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Visão geral do processo de aprovação</a>.</p> </li>
+      <ul> <li><strong>Criar um Problema</strong>: (Disponível somente para processos de aprovação de projetos e tarefas) Um problema é criado no projeto ou tarefa em que o processo de aprovação está em execução. O recurso padrão atribuído na tarefa ou o proprietário do projeto é atribuído ao problema. Por padrão, o nome do problema criado é <strong>Aprovação rejeitada (Nome do Projeto ou da Tarefa)</strong>. Esse é um Problema de rejeição, inserido na tarefa ou no projeto, dependendo do processo de aprovação em que a rejeição aconteceu.</li> 
+      <li> <p><strong>Definir Status como</strong>: escolha uma das seguintes opções:</p> 
+      <ul> <li><strong>Status Anterior</strong>: o projeto, tarefa ou problema rejeitado reverte para o status anterior ao status que ativa o processo de aprovação.</li> 
+      <li> <p><strong>Qualquer outro status na lista</strong>: o objeto rejeitado é movido para o status escolhido, como Em Espera. Você pode escolher um dos status padrão ou um status personalizado adicionado ao sistema do Workfront.</p> <p>Se você selecionar um status associado a um processo de aprovação como status de rejeição para um caminho de aprovação, o objeto rejeitado será movido para o status selecionado e será marcado como "Aprovação pendente".</p>
+      <p>Por exemplo, se você selecionar Em espera para o status de rejeição e o status Em espera estiver associado a um processo de aprovação, o objeto rejeitado será colocado no status "Em espera - Aprovação pendente", exigindo a aprovação.</p>    <p>Para um processo de aprovação em todo o sistema, somente os status de todo o sistema estão disponíveis.</p> <p>Para um processo de aprovação específico de grupo, todos os status de grupo estão disponíveis. Isso inclui todos os status personalizados que o administrador do grupo criou especificamente para o grupo, bem como quaisquer status de todo o sistema. </p> <p>Para obter informações sobre como o processo de aprovação funciona com status, consulte a seção <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Como os processos de aprovação dependem dos status</a> no artigo <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Visão geral do processo de aprovação</a>.</p> </li>
       </ul> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Clique em **Adicionar caminho** para adicionar outro caminho ao processo de aprovação, consulte a lista de opções na etapa anterior.
+1. (Opcional) Clique em **Adicionar caminho** para adicionar outro caminho ao processo de aprovação, referindo-se à lista de opções na etapa anterior.
 
    O novo caminho deve ser associado a outro status. O caminho dispara quando o item é atualizado para mostrar este status. Você não pode ter dois caminhos para o mesmo status.
 
 1. Clique em **Salvar**.
 1. (Opcional) Siga qualquer um destes procedimentos:
 
-   * Associe o processo de aprovação a projetos, tarefas ou problemas específicos em todo o sistema, conforme descrito em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-   * Fora do Workfront, notifique os usuários que o processo de aprovação está disponível para eles associarem a seus projetos, tarefas ou problemas, conforme descrito em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Associe o processo de aprovação a projetos, tarefas ou problemas específicos em todo o sistema, conforme descrito em [Associe um processo de aprovação novo ou existente a um trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Fora da Workfront, notifique os usuários de que o processo de aprovação está disponível para eles associarem a seus projetos, tarefas ou problemas, conforme descrito em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * Crie outro processo de aprovação que será acionado se esse processo de aprovação for rejeitado e o item receber outro status. Isso oferece uma maneira de vincular processos de aprovação.

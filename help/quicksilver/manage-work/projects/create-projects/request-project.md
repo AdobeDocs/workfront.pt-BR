@@ -57,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Ao criar uma solicitação de projeto, você recebe automaticamente permissões de gerenciamento para o projeto </p> <p> Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Ao criar uma solicitação de projeto, você recebe automaticamente permissões de gerenciamento para o projeto </p> <p> Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,12 +68,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Siga um destes procedimentos:
 
-   * Clique em **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito, ou na guia **Menu principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Projetos**, em seguida, expandir **Novo projeto**.
-   * Acesse um portfólio e expanda **Novo projeto**.
-   * Ir para um programa e expandir **Novo projeto**.
-   * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo gerenciado. Para obter mais informações, consulte [Criar e modificar os projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
+   * Vá para um portfólio e expanda **Novo projeto**.
+   * Vá para um programa e expanda **Novo Projeto**.
+   * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo gerenciado. Para obter mais informações, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Clique em **Solicitar Projeto**.
+1. Clique em **Solicitar projeto**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
@@ -87,4 +87,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      Para obter informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md) ou [Criar um projeto usando um modelo](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   O projeto solicitado tem o status de **Solicitado** e é exibido no **Projetos Solicitados** guia de um Portfolio, se você o associou a um Portfolio. Um gerente de portfólio agora pode revisá-lo e aprová-lo ou rejeitá-lo, nesse caso, o status do projeto muda para **Aprovado** ou **Rejeitado**.
+   O projeto solicitado tem o status **Solicitado** e é exibido na guia **Projetos Solicitados** de um Portfolio, caso você o tenha associado a um Portfolio. Um gerente de portfólio agora pode revisá-lo e aprová-lo ou rejeitá-lo. Nesse caso, o status do projeto será alterado para **Aprovado** ou **Rejeitado**.

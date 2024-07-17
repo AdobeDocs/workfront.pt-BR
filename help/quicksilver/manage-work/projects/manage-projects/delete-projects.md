@@ -73,7 +73,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Se o projeto tiver tarefas ou problemas com horas reportadas, o administrador do Workfront ou do grupo deverá permitir a exclusão dessas tarefas configurando as Preferências de tarefas e problemas na sua instância do Workfront para que você possa excluir o projeto que contém as tarefas.
 
-  Para obter mais informações sobre como ativar a exclusão de tarefas, problemas ou projetos em que as horas são registradas, consulte a seção &quot;Exclusão&quot; em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obter mais informações sobre como habilitar a exclusão de tarefas, problemas ou projetos com horas registradas, consulte a seção &quot;Exclusão&quot; em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -87,7 +87,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * Documentos
 
-     Não é possível excluir um projeto que tenha um documento anexado cujo check-out tenha sido feito. Para obter mais informações sobre como fazer check-out de documentos, consulte [Fazer check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
+     Não é possível excluir um projeto que tenha um documento anexado cujo check-out tenha sido feito. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
 
    * Tarefas
    * Subtarefas
@@ -127,25 +127,25 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * Se você recuperar o projeto excluído, o projeto também será restaurado como a atividade da meta.
 
-     Isso requer uma licença adicional. Para obter informações sobre o Workfront Goals, consulte [Visão geral dos objetivos do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Isso requer uma licença adicional. Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Para obter informações sobre como associar projetos a metas, consulte [Adicionar projetos às metas no Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     Para obter informações sobre como associar projetos a metas, consulte [Adicionar projetos a metas nas Metas da Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Excluir um projeto em uma lista
 
 É possível excluir projetos de uma lista de projetos.
 
 1. Ir para uma lista de projetos ou um relatório de projeto.
-1. Selecione o(s) projeto(s) que deseja excluir e clique no **Excluir** ícone ![](assets/delete-icon.png) no topo da lista.
+1. Selecione o(s) projeto(s) que deseja excluir e clique no ícone **Excluir** ![](assets/delete-icon.png) na parte superior da lista.
 
-1. Clique em **Sim, exclua.** para confirmar a exclusão.
+1. Clique em **Sim, Excluir** para confirmar a exclusão.
 
    Os projetos são excluídos e armazenados na Lixeira por 30 dias. O administrador do Workfront pode restaurar projetos excluídos da Lixeira durante esse período.
 
 ## Excluir um projeto no nível do projeto
 
 1. Vá para o projeto que deseja excluir.
-1. Clique em **Mais** ícone ![](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Excluir Projeto**.
+1. Clique no ícone **Mais** ![](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Excluir projeto**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

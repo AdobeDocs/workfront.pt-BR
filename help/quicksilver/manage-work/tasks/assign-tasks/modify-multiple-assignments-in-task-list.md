@@ -26,7 +26,7 @@ Este artigo se refere à modificação de várias atribuições de usuário para
 
 * Para obter informações sobre como atribuir tarefas usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Para obter informações sobre atribuir uma tarefa a um recurso em uma lista, consulte [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+Para obter informações sobre como atribuir uma tarefa a um recurso em uma lista, consulte [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
 ## Requisitos de acesso
 
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -50,12 +50,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou mais altas para tarefas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Contribute ou permissões mais altas para tarefas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -95,25 +95,25 @@ When assigning users to work, their availability according to their schedules af
    Para obter informações sobre como criar um filtro, consulte [Criar ou editar filtros](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 
-1. Para filtrar uma função, selecione **Funções das atribuições** e, em seguida, clique em **ID**.
+1. Para filtrar uma função, selecione **Funções de atribuição** e clique em **ID**.
 
    >[!TIP]
    >
-   >Não use o **Atribuído a** campo. Localiza somente o Proprietário principal da tarefa, em vez de qualquer uma das funções que podem ser atribuídas a ele.
+   >Não use o campo **Atribuído a**. Localiza somente o Proprietário principal da tarefa, em vez de qualquer uma das funções que podem ser atribuídas a ele.
 
    Ou
 
-   Para filtrar um usuário, selecione **Usuários Atribuídos,** e clique em **ID.**
+   Para filtrar por um usuário, selecione **Usuários de Atribuição,** e clique em **ID.**
 
    >[!TIP]
    >
-   >Não use o **Atribuído a** campo. Localiza somente o Proprietário principal da tarefa, em vez de qualquer um dos usuários que podem ser atribuídos a ele.
+   >Não use o campo **Atribuído a**. Localiza somente o Proprietário principal da tarefa, em vez de qualquer um dos usuários que podem ser atribuídos a ele.
 
-1. Selecione as tarefas para as quais deseja modificar atribuições e clique no botão **Editar** ícone ![](assets/edit-icon.png).
+1. Selecione as tarefas para as quais deseja modificar atribuições e clique no ícone **Editar** ![](assets/edit-icon.png).
 
    A página Editar Tarefas é exibida. Os itens editados são exibidos no canto superior esquerdo da página.
 
-1. Vá para a **Atribuições** seção.
+1. Vá para a seção **Atribuições**.
 1. Siga um destes procedimentos para adicionar ou remover responsáveis:
 
    >[!IMPORTANT]
@@ -122,9 +122,9 @@ When assigning users to work, their availability according to their schedules af
 
    * Para adicionar um novo destinatário:
 
-      1. No **Atribuições** , selecione **Destinatário**.
+      1. Na seção **Atribuições**, selecione **Atribuído**.
 
-         As informações comuns em todas as tarefas selecionadas são exibidas. Por exemplo, se o mesmo usuário for atribuído a todas as tarefas, ele será exibido na **Destinatário** coluna. Se as informações não forem comuns nas tarefas selecionadas, nenhuma informação será exibida.
+         As informações comuns em todas as tarefas selecionadas são exibidas. Por exemplo, se o mesmo usuário for atribuído a todas as tarefas, ele será exibido na coluna **Atribuído**. Se as informações não forem comuns nas tarefas selecionadas, nenhuma informação será exibida.
 
       1. Comece a digitar o nome de um usuário, função ou equipe e selecione-o quando ele for exibido na lista. A atribuição é adicionada e não substitui as atribuições atuais nas tarefas selecionadas.
 
@@ -143,15 +143,15 @@ When assigning users to work, their availability according to their schedules af
 
    * Para remover designados individuais:
 
-      1. Clique em **Ícone X** ao lado do nome do designado que você deseja remover se ele for exibido na lista Atribuições.
+      1. Clique no ícone **X** ao lado do nome do destinatário que você deseja remover se ele for exibido na lista Atribuições.
 
          Ou
 
-         (Condicional) Se o destinatário que você deseja remover não for exibido na seção Atribuições porque o destinatário está atribuído a apenas algumas das tarefas selecionadas, clique em **Remover atribuidor** e comece digitando o nome do destinatário que deseja remover, em seguida, clique no nome quando ele aparecer na lista suspensa.
+         (Condicional) Se o destinatário que você deseja remover não for exibido na seção Atribuições porque o destinatário está atribuído a apenas algumas das tarefas que você selecionou, clique em **Remover destinatário** e comece a digitar o nome do destinatário que você deseja remover, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
    * Para remover todos os designados existentes:
 
-      1. Clique em **Remover todos os atribuídos existentes** e, em seguida, clique em **Sim, excluir todos os atribuídos**.
+      1. Clique em **Remover todos os atribuídos existentes** e em **Sim, Excluir todos os atribuídos**.
 
          Isso remove não somente os atribuídos comuns (atribuídos exibidos na caixa de diálogo de edição), mas também todos os atribuídos em todas as tarefas selecionadas.
 
@@ -161,16 +161,16 @@ When assigning users to work, their availability according to their schedules af
 
 1. (Opcional) Modifique qualquer uma das seguintes opções para os designados:
 
-   * (Condicional) **% de Alocação ou Horas**: especifique uma nova porcentagem de alocação ou horas.
+   * (Condicional) **Percentual de Alocação ou Horas**: especifique uma nova porcentagem de alocação ou horas.
 
      >[!NOTE]
      >
-     >Essa opção só poderá ser modificada se o Tipo de Duração for o mesmo em todas as tarefas que estão sendo editadas. Quando o Tipo de Duração for Trabalho Calculado ou Orientado pelo Esforço, você poderá atualizar a Alocação %. Quando o Tipo de duração é Simples, você pode atualizar as Horas. Para obter informações sobre o Tipo de duração, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+     >Essa opção só poderá ser modificada se o Tipo de Duração for o mesmo em todas as tarefas que estão sendo editadas. Quando o Tipo de Duração for Trabalho Calculado ou Orientado pelo Esforço, você poderá atualizar a Alocação %. Quando o Tipo de duração é Simples, você pode atualizar as Horas. Para obter informações sobre o Tipo de Duração, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
      >
      >
-     Se o campo estiver em branco, significa que o valor é diferente nas tarefas; no entanto, você ainda poderá modificá-lo.
+     >Se o campo estiver em branco, significa que o valor é diferente nas tarefas; no entanto, você ainda poderá modificá-lo.
 
    * **Proprietário da tarefa**: selecione essa opção para tornar o destinatário o proprietário da tarefa para todas as tarefas que estão sendo editadas.
-   * **Função do atribuidor**: selecione uma função na lista suspensa. Se não for selecionada, o Adobe Workfront selecionará automaticamente a função principal do usuário.
+   * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Adobe Workfront selecionará automaticamente a função principal do usuário.
 
 1. Clique em **Salvar alterações.**

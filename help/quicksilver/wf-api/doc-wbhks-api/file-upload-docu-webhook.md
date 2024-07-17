@@ -10,8 +10,8 @@ role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ O upload de um arquivo para um provedor de armazenamento de documentos é um pro
 
 Adicionado à versão 1.1 desta especificação, o ID do documento e o ID da versão do documento podem ser usados para recuperar informações adicionais do Workfront.
 
-**Exemplo:** Se o sistema de gerenciamento de documentos quiser informações adicionais sobre o documento, o código de implementação do webhook poderá usar a ID do documento para recuperar essas informações usando a API RESTful do Workfront. Como prática recomendada, essas informações podem vir de campos de dados personalizados no documento e estão contendo tarefas, problemas ou projetos.
+**Exemplo:** se o sistema de gerenciamento de documentos desejar obter informações adicionais sobre o documento, o código de implementação do webhook poderá usar a ID do documento para recuperar essas informações usando a API RESTful do Workfront. Como prática recomendada, essas informações podem vir de campos de dados personalizados no documento e estão contendo tarefas, problemas ou projetos.
 
 ## Método POST
 
@@ -86,7 +86,7 @@ PUT /upload
 | id  |  A ID do documento que acabou de ser criada. |
 
 
-**Corpo da solicitação**
+**Solicitar corpo**
 
 Os bytes de conteúdo bruto do documento.
 

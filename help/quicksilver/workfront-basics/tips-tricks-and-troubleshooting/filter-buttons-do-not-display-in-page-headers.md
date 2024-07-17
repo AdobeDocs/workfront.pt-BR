@@ -25,10 +25,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licença</strong></td> 
+   <td role="rowheader"><strong>licença do Adobe [!DNL Workfront]</strong></td> 
    <td> <p>[!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
@@ -71,25 +71,25 @@ Os botões de filtro a seguir não são exibidos nas respectivas áreas:
 
 ## Solução
 
-Os botões de filtro no [!UICONTROL Projetos e planilha de horas] não são exibidos porque os filtros correspondentes não estão incluídos no modelo de layout aplicado ao usuário. A variável [!DNL Workfront] O administrador deve atribuir um modelo de layout que inclua os filtros.
+Os botões de filtro na área [!UICONTROL Projetos e Planilhas de Horas] não são exibidos porque os filtros correspondentes não estão incluídos no modelo de layout aplicado ao usuário. O administrador do [!DNL Workfront] deve atribuir um modelo de layout que inclua os filtros.
 
 >[!NOTE]
 >
->Às vezes, os filtros são removidos da variável [!UICONTROL Controles de Lista] área em [!UICONTROL Configuração]. A variável [!DNL Workfront] o administrador precisa incluí-los nas listas desta área para que estejam disponíveis nos templates de layout.
+>Às vezes, os filtros são removidos da área [!UICONTROL Controles de Lista] na [!UICONTROL Instalação]. O administrador [!DNL Workfront] deve incluí-los nas listas desta área para que eles fiquem disponíveis nos modelos de layout.
 
 1. Verifique se o modelo de layout exibe os seguintes filtros:
 
-   * [!UICONTROL Projetos em que estou trabalhando] e [!UICONTROL Projetos dos quais sou proprietário] no [!UICONTROL Projetos] área
-   * [!UICONTROL Minhas planilhas de horas aprovadas] e [!UICONTROL Minhas Planilhas de Horas] no [!UICONTROL Planilha de horas] área
+   * [!UICONTROL Projetos dos quais sou proprietário] e [!UICONTROL Projetos dos quais sou proprietário] na área [!UICONTROL Projetos]
+   * [!UICONTROL Minhas Aprovações de Planilha de Horas] e [!UICONTROL Minhas Planilhas de Horas] na área [!UICONTROL Planilha de Horas]
 
    Para fazer isso:
 
    1. Acesse o modelo de layout.
-   1. Selecionar **[!UICONTROL Listas]** em **[!UICONTROL Personalize o que os usuários veem]**.
-   1. Selecionar **[!UICONTROL Projetos]** ou **[!UICONTROL Planilhas de Horas]** em **[!UICONTROL Selecione uma lista para personalizar]**.
-   1. No **[!UICONTROL Filtro]** , verifique se **[!UICONTROL Projetos em que estou trabalhando]**, **[!UICONTROL Projetos dos quais sou proprietário]** (para projetos) e **[!UICONTROL Minhas planilhas de horas aprovadas]** e **[!UICONTROL Minhas Planilhas de Horas]** (para folhas de horas) são selecionadas.
+   1. Selecione **[!UICONTROL Listas]** em **[!UICONTROL Personalize o que os usuários veem]**.
+   1. Selecione **[!UICONTROL Projetos]** ou **[!UICONTROL Folhas de horas]** em **[!UICONTROL Selecione uma lista para personalizar]**.
+   1. Na seção **[!UICONTROL Filtro]**, verifique se **[!UICONTROL Projetos dos quais sou proprietário]**, **[!UICONTROL Projetos dos quais sou proprietário]** (para projetos) e **[!UICONTROL Minhas aprovações de folha de horas]** e **[!UICONTROL Minhas folhas de horas]** (para folhas de horas) estão selecionados.
    1. Clique em **[!UICONTROL Salvar]**.
 
-   Para obter mais informações, consulte [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. Atribua o modelo de layout aos usuários, funções de trabalho, equipes ou grupos corretos. Para obter informações, consulte [Atribuir usuários a um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).

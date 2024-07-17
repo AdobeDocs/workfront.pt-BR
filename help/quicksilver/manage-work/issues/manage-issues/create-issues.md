@@ -55,11 +55,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a problemas em seu Nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre acesso a problemas em seu Nível de Acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superior com capacidade para adicionar problemas à tarefa ou projeto em que você cria o problema</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre a solicitação de permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superior com capacidade para Adicionar problemas à tarefa ou ao projeto em que você cria o problema</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,16 +76,16 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 
 Quando você tem o acesso e as permissões corretas, é possível criar problemas em um projeto ou tarefa. No entanto, os seguintes casos ocorrem quando talvez você não consiga criar problemas:
 
-* O administrador do Workfront ou um administrador de grupo deve ativar a adição de problemas a um projeto com status Concluído ou Inativo na área Preferências do projeto. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* O administrador do Workfront ou um administrador de grupo deve ativar a adição de problemas a um projeto com status Concluído ou Inativo na área Preferências do projeto. Para obter informações sobre como definir preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Não é possível adicionar problemas a um projeto que está em Aprovação pendente.
 
 ## Preparar o formulário Novo problema
 
 Sua organização deve ter um processo bem definido para quando e como registrar um problema. Ao configurar esse processo, a primeira etapa é criar o formulário necessário para enviar um problema. Se você permitir que problemas sejam adicionados diretamente a tarefas e projetos, ou se tiver filas de solicitações em que problemas são enviados, será possível definir quais campos do Workfront, bem como quais campos personalizados estão disponíveis para os usuários quando eles enviam novos problemas e devem ser concluídos. O formulário Novo problema pode conter informações importantes que serão úteis para resolver o problema rapidamente.
 
-Os campos para os novos problemas em um projeto são definidos na seção Detalhes da fila do projeto onde os problemas serão registrados. Para obter informações sobre a configuração da seção Detalhes da fila do projeto, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Os campos para os novos problemas em um projeto são definidos na seção Detalhes da fila do projeto onde os problemas serão registrados. Para obter informações sobre como configurar a seção Detalhes da Fila do projeto, consulte [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Para obter informações sobre como criar ocorrências enviando-as para uma fila de solicitações, consulte [Criar problemas inserindo uma nova solicitação](#create-issues-by-entering-a-new-request) neste artigo.
+Para obter informações sobre como criar problemas enviando-os para uma fila de solicitações, consulte a seção [Criar problemas inserindo uma nova solicitação](#create-issues-by-entering-a-new-request) neste artigo.
 
 ## Criar problemas em uma tarefa ou projeto usando o botão Novo Problema
 
@@ -155,25 +155,25 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 Para criar um problema em uma tarefa ou um projeto:
 
 1. Vá para um projeto em que deseja criar o problema.
-1. (Opcional) Se quiser registrar o problema de uma tarefa, vá para a **Tarefas** e clique no nome de uma tarefa.
-1. Clique em **Problemas** seção.
+1. (Opcional) Se quiser registrar o problema de uma tarefa, vá para a área **Tarefas** e clique no nome de uma tarefa.
+1. Clique na seção **Problemas**.
 
    A lista de problemas do projeto é exibida
 
-1. Clique em **Nova Problema** na parte superior da lista de problemas.
+1. Clique em **Novo problema** na parte superior da lista de problemas.
 A caixa Nova ocorrência é exibida.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
 
-1. (Condicional) Se o criador do projeto criou Tópicos de fila ou Grupos de tópicos no projeto, eles serão adicionados ao novo formulário de problema. Especifique a **Grupo de tópicos** ou o **Enfileirar tópico** do seu novo problema. Grupos de tópicos e Tópicos de fila têm nomes personalizados para o seu ambiente.\
-   Para obter mais informações sobre a criação de Grupos de Tópicos, consulte [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obter mais informações sobre a criação de Tópicos de Fila, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Condicional) Se o criador do projeto criou Tópicos de fila ou Grupos de tópicos no projeto, eles serão adicionados ao novo formulário de problema. Especifique o **Grupo de Tópicos** ou o **Tópico da Fila** do novo problema. Grupos de tópicos e Tópicos de fila têm nomes personalizados para o seu ambiente.\
+   Para obter mais informações sobre como criar Grupos de Tópicos, consulte [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obter mais informações sobre como criar Tópicos da Fila, consulte [Criar Tópicos da Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    * Se houver apenas um Tópico da fila definido no projeto, ele será exibido automaticamente.
    * Se o Grupo de tópicos não tiver nenhum Tópico ou Grupo de tópicos na fila, nada estará disponível no menu suspenso Grupo de tópicos.
 
-1. Adicione o nome do problema na **Assunto** e, em seguida, adicione um **Descrição**.
+1. Adicione o nome do problema no campo **Assunto** e adicione uma **Descrição**.
 
-1. (Condicional) Se o criador do projeto permitiu a **Tipo de solicitação** para ser exibido no formulário Novo problema, selecione o tipo do seu problema dentre as seguintes opções:
+1. (Condicional) Se o criador do projeto permitiu que o campo **Tipo de solicitação** fosse exibido no formulário Novo problema, selecione o tipo do seu problema dentre as seguintes opções:
 
    * Relatório de erro
    * Pedido de alteração
@@ -184,32 +184,32 @@ A caixa Nova ocorrência é exibida.
    >[!TIP]
    >
    >Os Tipos de solicitação devem ser ativados em Detalhes da fila e ao criar o Tópico da fila para ser exibido como uma seleção no formulário Novo problema. Para obter informações, consulte os seguintes artigos:
-   >* [Criar uma fila de solicitações](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >* [Criar uma Fila de Solicitações](../../requests/create-and-manage-request-queues/create-request-queue.md)
    >  * [Criar Tópicos de Fila](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. Continue especificando os campos disponíveis no **Novo problema** formulário. Para obter mais informações sobre os campos disponíveis à medida que você insere um novo problema, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Continue especificando os campos disponíveis no formulário **Novo problema**. Para obter mais informações sobre os campos disponíveis quando você insere um novo problema, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
    >Nem todos os campos relacionados a problemas estão disponíveis no formulário Novo problema. O criador do projeto ativa os campos disponíveis ao criar um problema ao definir a área Detalhes da fila do projeto. Para obter mais informações, consulte [Criar uma fila de solicitações](../../requests/create-and-manage-request-queues/create-request-queue.md).
 
 
-1. (Condicional) Se os Tópicos da fila estiverem associados a um formulário personalizado, esse formulário personalizado será exibido na **Novo problema** formulário.\
+1. (Condicional) Se os Tópicos da fila estiverem associados a um formulário personalizado, ele será exibido no formulário **Novo problema**.\
    Ou\
-   Se o projeto estiver associado a um formulário personalizado de problema por meio da área Detalhes da fila, o formulário será exibido na **Novo problema** após os campos padrão do Workfront.
+   Se o projeto estiver associado a um formulário personalizado de problema por meio da área Detalhes da fila, o formulário será exibido no formulário **Novo problema**, após os campos padrão do Workfront.
 
    Para obter informações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Clique em **Enviar**.
 
-   Problemas podem ser atribuídos a vários usuários, funções de trabalho ou a uma equipe. Para obter mais informações sobre atribuição e gerenciamento de solicitações, consulte [Gerenciar solicitações de trabalho e de equipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Problemas podem ser atribuídos a vários usuários, funções de trabalho ou a uma equipe. Para obter mais informações sobre como atribuir e gerenciar solicitações, consulte [Gerenciar solicitações de trabalho e de equipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 
 ## Criar problemas em uma tarefa ou projeto em linha
 
 >[!IMPORTANT]
 >
->O proprietário do projeto deve habilitar **Permitir que os usuários adicionem problemas em linha** ao definir configurações de problema para o projeto antes de poder adicionar problemas em linha ao projeto ou às tarefas. Para obter informações sobre como definir configurações de problemas em um projeto, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+>O proprietário do projeto deve habilitar **Permitir que os usuários adicionem problemas embutidos** ao definir configurações de problemas para o projeto antes que você possa adicionar problemas embutidos no projeto ou nas tarefas. Para obter informações sobre como definir configurações de problemas em um projeto, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 >
 
 Quando quiser adicionar vários problemas rapidamente, você pode criar problemas para uma tarefa ou um projeto em linha, adicionando-os a uma lista de problemas.
@@ -221,8 +221,8 @@ Quando quiser adicionar vários problemas rapidamente, você pode criar problema
 Para criar problemas em linha:
 
 1. Vá para um projeto em que deseja criar o problema.
-1. (Opcional) Se quiser registrar o problema de uma tarefa, vá para a **Tarefas** e clique no nome de uma tarefa.
-1. Clique em **Problemas** no painel esquerdo.
+1. (Opcional) Se quiser registrar o problema de uma tarefa, vá para a seção **Tarefas** e clique no nome de uma tarefa.
+1. Clique na seção **Problemas** no painel esquerdo.
 1. Clique em **Adicionar mais problemas** na parte inferior da lista de problemas.
 
    Uma nova linha é criada na lista de problemas na seção Problemas.

@@ -68,26 +68,26 @@ Criar um relatório para Observações para qualquer objeto é idêntico, indepe
 
 Por exemplo, para criar um relatório de Notas para todas as notas de um projeto:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
-1. Clique em **Relatórios**.
-1. Clique em **Novo Relatório** e escolha **Nota**.
+1. Clique em **Relatórios**.
+1. Clique em **Novo Relatório** e escolha **Nota**.
 
-1. (Opcional) Clique em **Visualizações**, depois **Adicionar coluna** para adicionar o **Nome** do **Projeto** do relatório. 
+1. (Opcional) Clique em **Exibições** e depois em **Adicionar Coluna** para adicionar o **Nome** do **Projeto** no modo de exibição do relatório. 
 
-1. (Opcional) Clique em **Agrupamentos**, depois **Adicionar Agrupamento** para agrupar pela **Nome do projeto**, se estiver relatando vários projetos ao mesmo tempo.\
+1. (Opcional) Clique em **Agrupamentos** e depois em **Adicionar Agrupamento** para agrupar pelo **Nome do Projeto**, se estiver relatando vários projetos ao mesmo tempo.\
    Isso garante que as notas sejam agrupadas por seus respectivos projetos, facilitando a leitura do relatório. 
 
-1. (Opcional) Clique em **Filtros,** depois **Adicionar uma regra de filtro**.
-1. Adicionar um filtro para **Nota** > **Texto da Nota** > **Não está em branco**.
+1. (Opcional) Clique em **Filtros** e depois em **Adicionar uma Regra de Filtro**.
+1. Adicione um filtro para **Nota** > **Texto da Nota** > **Não Está em Branco**.
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   Se um campo de projeto foi atualizado, mas nenhuma nota foi adicionada no momento da atualização, a variável **Texto da Nota** da atualização é exibida como **(Nenhum texto foi adicionado para atualização)**.
+   >   Se um campo de projeto foi atualizado, mas nenhuma nota foi adicionada no momento da atualização, o **Texto da Nota** da atualização é exibido como **(Nenhum texto adicionado à atualização)**.
 
 
-1. (Opcional) Adicione outro filtro para **Projeto** > **Nome** > **Igual a** e adicione um ou vários nomes de projeto para os quais deseja exibir notas.
+1. (Opcional) Adicione outro filtro para **Projeto** > **Nome** > **Igual a** e adicione um ou vários nomes de projeto para os quais deseja exibir anotações.
 1. Clique em **Salvar + Fechar**.\
    Todas as atualizações inseridas no projeto por todos os usuários com permissões para, pelo menos, Visualizar o projeto são exibidas no relatório.

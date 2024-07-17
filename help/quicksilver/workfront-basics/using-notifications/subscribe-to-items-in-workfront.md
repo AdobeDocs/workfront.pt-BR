@@ -7,16 +7,16 @@ feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1574'
 ht-degree: 0%
 
 ---
 
-# Inscrever-se em itens no [!DNL Adobe Workfront]
+# Assinar itens em [!DNL Adobe Workfront]
 
-[!UICONTROL Adobe Workfront] O envia notificações sobre os itens aos quais você está atribuído ou que você possui. Se você quiser seguir a comunicação em itens que não estão atribuídos a você, mas que podem afetar seu trabalho, é possível assiná-los.
+O [!UICONTROL Adobe Workfront] envia notificações sobre itens aos quais você está atribuído ou que você possui. Se você quiser seguir a comunicação em itens que não estão atribuídos a você, mas que podem afetar seu trabalho, é possível assiná-los.
 
-Você também pode manter seu gerente e colegas atualizados sobre seu trabalho inscrevendo-os no Status de Atualização dos itens para os quais você tem [!UICONTROL Gerenciar] e [!UICONTROL Compartilhar] permissões.
+Você também pode manter seus colegas e gerentes atualizados sobre o seu trabalho inscrevendo-os no Status de Atualização de itens para os quais você tem permissões de [!UICONTROL Gerenciar] e [!UICONTROL Compartilhar].
 
 Atualmente, você pode assinar os seguintes itens:
 
@@ -30,7 +30,7 @@ Ao assinar problemas, tarefas ou projetos, você recebe notificações no aplica
 >
 >Você não será notificado sobre outros eventos que ocorrem no item no qual você se inscreveu. Você só será notificado quando alguém postar um comentário no item.
 
-Para obter mais informações sobre como trabalhar com assinaturas, consulte [Sobre o trabalho com assinaturas](#about-working-with-subscriptions).
+Para obter mais informações sobre o trabalho com assinaturas, consulte [Sobre o trabalho com assinaturas](#about-working-with-subscriptions).
 
 ## Requisitos de acesso
 
@@ -44,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Plano [!UICONTROL Adobe Workfront]*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -52,7 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Se o seu [!DNL Workfront] o administrador habilitou <strong>[!UICONTROL Exibir apenas atualizações nas quais tenham sido incluídas na conversa]</strong> no seu nível de acesso, você não pode se inscrever em itens no [!DNL Workfront].</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!UICONTROL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!UICONTROL Workfront] pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Se o administrador do [!DNL Workfront] tiver habilitado o <strong>[!UICONTROL Exibir somente atualizações nas quais elas foram incluídas na conversa]</strong> no seu nível de acesso, você não poderá assinar itens no [!DNL Workfront].</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!UICONTROL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!UICONTROL Workfront] pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
@@ -61,7 +61,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Inscrever-se em um item
 
@@ -75,10 +75,10 @@ Por exemplo, para assinar um problema:
    >
    >Para se inscrever em projetos, siga um destes procedimentos:
    >
-   >* Vá para o projeto que deseja assinar e clique no link **[!UICONTROL Mais]** ícone ![](assets/qs-more-menu.png) à direita do nome do projeto, então **[!UICONTROL Assinar]**.
-   >* Vá para uma lista de projetos ou relatório e selecione um projeto, clique no **[!UICONTROL Mais]** ícone ![](assets/qs-more-menu.png) na parte superior da lista, em seguida, clique em **[!UICONTROL Assinar]**. Isso está disponível somente em uma lista de projetos.
+   >* Vá para o projeto que você deseja assinar, clique no ícone **[!UICONTROL Mais]**, ![](assets/qs-more-menu.png) à direita do nome do projeto e **[!UICONTROL Assinar]**.
+   >* Vá para uma lista de projetos ou relatório e selecione um projeto, clique no ícone **[!UICONTROL Mais]** ![](assets/qs-more-menu.png) na parte superior da lista e clique em **[!UICONTROL Assinar]**. Isso está disponível somente em uma lista de projetos.
 
-1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png)e, em seguida, clique em **[!UICONTROL Assinar]**.
+1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png) e em **[!UICONTROL Assinar]**.
 
    ![](assets/subscribe-to-a-work-item-350x258.png)
 
@@ -92,7 +92,7 @@ Por exemplo, para assinar um problema:
 
 ## Cancelar inscrição de um item
 
-É possível cancelar facilmente a inscrição de um item no [!DNL Workfront]. O processo para cancelar a inscrição de um item no [!DNL Workfront] é idêntico para todos os itens.
+Você pode cancelar facilmente a inscrição de um item em [!DNL Workfront]. O processo para cancelar a assinatura de um item em [!DNL Workfront] é idêntico para todos os itens.
 
 Por exemplo, para cancelar a inscrição de um problema:
 
@@ -102,14 +102,14 @@ Por exemplo, para cancelar a inscrição de um problema:
    >
    >Para cancelar a assinatura de projetos, siga um destes procedimentos:
    >
-   >* Vá para o projeto do qual deseja cancelar a inscrição e clique no link **[!UICONTROL Mais]** ícone ![](assets/qs-more-menu.png) à direita do nome do projeto, então **[!UICONTROL Cancelar inscrição]**.
-   >* Vá para uma lista de projetos ou relatório e selecione um projeto, clique no **[!UICONTROL Mais]** ícone ![](assets/qs-more-menu.png) na parte superior da lista, em seguida, clique em **[!UICONTROL Cancelar inscrição]**. Isso está disponível somente em uma lista de projetos.
+   >* Vá para o projeto do qual você deseja cancelar a assinatura, clique no ícone **[!UICONTROL Mais]**, ![](assets/qs-more-menu.png) à direita do nome do projeto e **[!UICONTROL Cancelar assinatura]**.
+   >* Vá para uma lista de projetos ou relatório e selecione um projeto, clique no ícone **[!UICONTROL Mais]** ![](assets/qs-more-menu.png) na parte superior da lista e clique em **[!UICONTROL Cancelar inscrição]**. Isso está disponível somente em uma lista de projetos.
 
-1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png)e, em seguida, clique em **[!UICONTROL Cancelar inscrição]**.
+1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png) e em **[!UICONTROL Cancelar inscrição]**.
 
    ![](assets/unsubscribe-to-a-work-item-350x258.png)
 
-1. Também é possível cancelar a inscrição de um item que você assina clicando no link [!UICONTROL Cancelar inscrição] no email de assinatura.
+1. Também é possível cancelar a inscrição de um item no qual você está inscrito clicando no link [!UICONTROL Cancelar inscrição] no email de inscrição.
 
    Depois de cancelar a assinatura de um item, você não receberá mais notificação quando alguém comentar o problema.
 
@@ -119,10 +119,10 @@ Por exemplo, para cancelar a inscrição de um problema:
 
 É possível gerenciar quem se inscreve em projetos, tarefas e problemas para os quais você tem permissões Gerenciar e Compartilhar.
 
-* [Inscrever outro usuário em um item](#subscribe-another-user-to-an-item)
+* [Assinar outro usuário a um item](#subscribe-another-user-to-an-item)
 * [Cancelar inscrição de outra pessoa em um item](#unsubscribe-another-person-from-an-item)
 
-Todos os assinantes são fornecidos [!UICONTROL Exibir] permissão para o item assinado. Se os novos assinantes já tiverem permissões para o item, suas permissões permanecerão intactas.
+Todos os assinantes recebem a permissão [!UICONTROL Exibir] para o item assinado. Se os novos assinantes já tiverem permissões para o item, suas permissões permanecerão intactas.
 
 ### Inscrever outro usuário em um item
 
@@ -137,15 +137,15 @@ Todos os assinantes são fornecidos [!UICONTROL Exibir] permissão para o item a
    >* Vá para uma lista de projetos ou relatório e selecione um projeto.
 
 1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png).
-1. Clique no número de bolhas ao lado da **[!UICONTROL Assinar]** link.
-1. Na caixa exibida, comece digitando o nome do usuário no campo **[!UICONTROL Inscrever outros]** e selecione o usuário nas opções exibidas.
+1. Clique na bolha numérica ao lado do link **[!UICONTROL Assinar]**.
+1. Na caixa exibida, comece digitando o nome do usuário na caixa **[!UICONTROL Assinar outros]** e selecione o usuário nas opções exibidas.
 
 1. (Opcional) Para adicionar mais assinantes, repita a etapa 4.
 1. Clique em **[!UICONTROL Salvar]**.
 
 O assinante não é notificado da assinatura, mas uma entrada sobre a assinatura é adicionada às Atualizações do Sistema do item.
 
-Quando alguém adiciona um comentário à [!UICONTROL Atualizações] do item, o assinante receberá uma notificação no aplicativo. Dependendo dos recursos ativados pelo administrador do Workfront, o assinante também pode receber notificações por email e celular para o item.
+Quando alguém adiciona um comentário à guia [!UICONTROL Atualizações] do item, o assinante recebe uma notificação no aplicativo. Dependendo dos recursos ativados pelo administrador do Workfront, o assinante também pode receber notificações por email e celular para o item.
 
 ### Cancelar inscrição de outra pessoa em um item
 
@@ -160,12 +160,12 @@ Quando alguém adiciona um comentário à [!UICONTROL Atualizações] do item, o
    >* Vá para uma lista de projetos ou relatório e selecione um projeto.
 
 1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png).
-1. Clique no número de bolhas ao lado da **[!UICONTROL Assinar]** ou **[!UICONTROL Cancelar inscrição]** link.
-1. No **[!UICONTROL Assinantes]** que for exibida, clique no &quot;X&quot; ao lado do nome do usuário que deseja cancelar a inscrição.
+1. Clique na bolha numérica ao lado do link **[!UICONTROL Assinar]** ou **[!UICONTROL Cancelar assinatura]**.
+1. Na página **[!UICONTROL Assinantes]** exibida, clique no &quot;X&quot; ao lado do nome do usuário que deseja cancelar a assinatura.
 
    Ou
 
-   Comece digitando o nome do usuário no campo **[!UICONTROL Procurar pessoas na lista]** e clique no &quot;X&quot; à direita do nome do usuário.
+   Comece digitando o nome do usuário na caixa **[!UICONTROL Procurar pessoas na lista]** e clique no X à direita do nome do usuário.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -181,9 +181,9 @@ Para obter mais informações, consulte [Exibir e gerenciar notificações no ap
 
 ## Receber o email de assinatura
 
-Dependendo dos recursos do seu [!UICONTROL Workfront] administrador tiver ativado, você poderá receber emails de assinatura além de notificações no aplicativo sempre que alguém comentar em um item no qual você está inscrito.
+Dependendo dos recursos habilitados pelo administrador do [!UICONTROL Workfront], você poderá receber emails de assinatura além de notificações no aplicativo sempre que alguém comentar em um item no qual você se inscreveu.
 
-Para obter mais informações sobre como configurar ou desativar o email, consulte [Configurar notificações de eventos para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Para obter mais informações sobre como configurar ou desabilitar o email, consulte [Configurar notificações de eventos para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 >[!NOTE]
 >
@@ -199,15 +199,15 @@ Para ver quem está se inscrevendo em um item:
 
    ![Exibir assinantes](assets/bell-hover-for-list-qs-350x90.png)
 
-   Também é possível exibir uma lista de assinantes adicionando um [!UICONTROL Assinante] campo como uma coluna em um relatório ou exibição para o item inscrito. Para obter mais informações, consulte [Glossário de [!DNL Adobe Workfront] terminologia](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Você também pode exibir uma lista de assinantes adicionando um campo [!UICONTROL Assinante] como uma coluna em um relatório ou exibição para o item assinado. Para obter mais informações, consulte [Glossário de [!DNL Adobe Workfront] terminologia](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Sobre o trabalho com assinaturas
 
 Considere o seguinte ao trabalhar com assinaturas:
 
-* A variável [!DNL Workfront] o administrador não pode controlar o que os usuários podem ou não assinar.
+* O administrador do [!DNL Workfront] não pode controlar o que os usuários podem ou não assinar.
 
-  Qualquer pessoa com [!UICONTROL Exibir] ou permissões mais altas para qualquer tarefa, problema ou projeto podem se inscrever nelas.
+  Qualquer pessoa com permissões de [!UICONTROL Visualização] ou superior para qualquer tarefa, problema ou projeto pode se inscrever neles.
 
 * As assinaturas não podem ser configuradas para um email de resumo diário.
 * Se você se inscrever em uma tarefa, problema ou projeto e também for o responsável, o contato primário ou o proprietário do projeto, você receberá somente o email de inscrição quando alguém comentar no item que você inscrever.
@@ -215,7 +215,7 @@ Considere o seguinte ao trabalhar com assinaturas:
   Para obter mais informações sobre notificações por email que são acionadas quando um comentário é feito em um de seus itens, consulte [Notificações do Adobe Workfront](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * Se você se inscrever em um item e fizer um comentário, não receberá um email de inscrição sobre esse comentário, a menos que inclua seu nome no comentário.
-* Se o usuário que comenta no item tornar o comentário privado ao bloqueá-lo e você não fizer parte da mesma empresa que esse usuário, você não receberá uma notificação para esse comentário. Para obter mais informações sobre como tornar um comentário privado para sua empresa, consulte [Adicionar uma atualização a um item de trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) seção em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* Se o usuário que comenta no item tornar o comentário privado ao bloqueá-lo e você não fizer parte da mesma empresa que esse usuário, você não receberá uma notificação para esse comentário. Para obter mais informações sobre como tornar um comentário privado para sua empresa, consulte a seção [Adicionar uma atualização a um item de trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Não é possível criar um relatório de assinaturas. Uma auditoria é registrada no Status de atualização de cada item quando alguém assina ou cancela a assinatura do item.
-* Comentários feitos em objetos filho não disparam notificações de assinatura para objetos pai. Se assinar um projeto, você só receberá a notificação de comentários feitos sobre esse projeto. Você não receberá notificações de comentários feitos em itens secundários associados ao projeto (ou seja, tarefas ou problemas), a menos que assine cada filho. Para obter mais informações sobre relacionamentos entre objetos, consulte [Interdependência e hierarquia de objetos](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) seção em [Entender objetos no [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+* Comentários feitos em objetos filho não disparam notificações de assinatura para objetos pai. Se assinar um projeto, você só receberá a notificação de comentários feitos sobre esse projeto. Você não receberá notificações de comentários feitos em itens secundários associados ao projeto (ou seja, tarefas ou problemas), a menos que assine cada filho. Para obter mais informações sobre relações de objetos, consulte a seção [Interdependência e hierarquia de objetos](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) em [Entender objetos em [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

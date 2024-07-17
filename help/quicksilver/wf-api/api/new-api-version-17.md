@@ -9,8 +9,8 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 4%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
@@ -234,7 +234,7 @@ Um objeto Company representa uma organização que consiste em uma coleção de 
       <td>
         <ul>
           <li>
-            <p><b>defaultInterface</b>
+            <p><b>InterfacePadrão</b>
             </p>
             <p>Removido</p>
           </li>
@@ -257,7 +257,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>nome</b>
             </p>
             <p>Adição do valor possível "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)&gt;/p?<p>Isso permite que uma organização torne a nova experiência da Página inicial a padrão para seus usuários.</p>
           </li>
@@ -285,7 +285,7 @@ Um objeto DocumentVersion representa uma versão específica de um arquivo (como
             <p>Adição do possível valor "Frame.io" (FRAMEIO)</p>
           </li>
           <li>
-            <p><b>fileType</b>
+            <p><b>tipoArquivo</b>
             </p>
             <p>Adição do possível valor "enum.filetype.site" (site)</p>
           </li>
@@ -317,7 +317,7 @@ Um objeto ExchangeRate representa uma taxa de câmbio de moeda configurada no Wo
       <td>
         <ul>
           <li><p><b>getCustomerCurrencies</b></p></li>
-          <p>Adicionado.</p>
+          <p>Adição de.</p>
        </ul>
       </td>
     </tr>
@@ -328,7 +328,7 @@ Um objeto ExchangeRate representa uma taxa de câmbio de moeda configurada no Wo
 
 As despesas representam os custos não mão de obra que podem ser incorridos durante a vida útil de um projeto.
 
-O objeto Despesa removeu o sinalizador **INLINE_EDITABLE**.
+O objeto Expense removeu o sinalizador **INLINE_EDITABLE**.
 
 ### Grupo (GRUPO)
 
@@ -343,7 +343,7 @@ Um objeto Grupo representa um conjunto de usuários e equipes. Os grupos geralme
       <td>
         <ul>
           <li>
-            <p><b>defaultInterface</b>
+            <p><b>InterfacePadrão</b>
             </p>
             <p>Removido</p>
           </li>
@@ -357,7 +357,7 @@ Um objeto Grupo representa um conjunto de usuários e equipes. Os grupos geralme
 
 Um objeto Hour representa uma hora registrada por um usuário em uma folha de horas.
 
-O objeto Hora removeu o sinalizador **INLINE_EDITABLE**.
+O objeto Hour removeu o sinalizador **INLINE_EDITABLE**.
 
 ### Iteração (ITRN)
 
@@ -395,7 +395,7 @@ O objeto JournalEntry pode ser configurado para registrar informações sobre ca
               <li>Revisor alterado (ARC)</li>
               <li>Revisão concluída (RDC)</li>
               <li>Revisão revogada (RDR)</li>
-              <li>Publicar (PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -461,7 +461,7 @@ Um objeto ProjectUser representa um usuário associado a um projeto específico.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -473,7 +473,7 @@ Um objeto ProjectUser representa um usuário associado a um projeto específico.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -508,7 +508,7 @@ O objeto Rate removeu o sinalizador **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>A variável <b>setRatesForRole</b> A ação foi modificada para adicionar os seguintes campos:
+        <p>A ação <b>setRatesForRole</b> foi modificada para adicionar os seguintes campos:
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -523,7 +523,7 @@ O objeto Rate removeu o sinalizador **INLINE_EDITABLE**.
 
 Um objeto de Risco representa um evento possível que pode impedir que um projeto seja concluído no prazo ou dentro do orçamento. Os riscos são adicionados aos projetos na fase de planejamento para identificar possíveis obstáculos antes da aprovação de qualquer trabalho.
 
-O objeto de Risco removeu o sinalizador **INLINE_EDITABLE**.
+O objeto Risk removeu o sinalizador **INLINE_EDITABLE**.
 
 ### Função/Função (ROLE)
 
@@ -538,7 +538,7 @@ Um objeto Função (função de trabalho) representa uma capacidade funcional ou
       <td>
         <ul>
           <li>
-            <p><b>defaultInterface</b>
+            <p><b>InterfacePadrão</b>
             </p>
             <p>Removido</p>
           </li>
@@ -552,7 +552,7 @@ Um objeto Função (função de trabalho) representa uma capacidade funcional ou
 
 Um objeto Tarefa representa um item de trabalho que deve ser executado como uma etapa para atingir uma meta final (concluir um Projeto).
 
-O objeto Tarefa removeu o sinalizador **INLINE_EDITABLE**.
+O objeto Task removeu o sinalizador **INLINE_EDITABLE**.
 
 ### Equipe (TEAMOB)
 
@@ -567,7 +567,7 @@ Um objeto Equipe é uma coleção de Usuários que pode ser atribuída a um item
       <td>
         <ul>
           <li>
-            <p><b>defaultInterface</b>
+            <p><b>InterfacePadrão</b>
             </p>
             <p>Removido</p>
           </li>
@@ -592,7 +592,7 @@ Um objeto TeamMember é um usuário associado a uma equipe específica.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -604,7 +604,7 @@ Um objeto TeamMember é um usuário associado a uma equipe específica.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -625,7 +625,7 @@ Um objeto TeamMember é um usuário associado a uma equipe específica.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -637,7 +637,7 @@ Um objeto TeamMember é um usuário associado a uma equipe específica.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -712,7 +712,7 @@ Os itens de trabalho no Workfront podem ser atualizados para manter os usuários
 
 Um objeto Usuário representa uma pessoa com uma conta no Workfront que pode fazer logon e interagir com o sistema.
 
-O objeto Usuário removeu o sinalizador **INLINE_EDITABLE**.
+O objeto User removeu o sinalizador **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -723,7 +723,7 @@ O objeto Usuário removeu o sinalizador **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>workTime</b>
+            <p><b>horárioTrabalho</b>
             </p>
             <p>Este campo foi adicionado e é um número entre 0 e 1 que representa a porcentagem de tempo que um usuário pode gastar no trabalho do projeto (trabalho não administrativo) a cada dia. Um valor de 1 significa que o usuário pode gastar 100% de seu tempo no trabalho do projeto.</p>
           </li>
@@ -757,7 +757,7 @@ O objeto Usuário removeu o sinalizador **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -769,7 +769,7 @@ O objeto Usuário removeu o sinalizador **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -834,7 +834,7 @@ Um objeto UserNote é uma notificação.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -846,7 +846,7 @@ Um objeto UserNote é uma notificação.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>

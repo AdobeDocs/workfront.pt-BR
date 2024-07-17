@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas ao Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
 >
->Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Como administrador do Adobe Workfront, você pode adicionar usuários ao Workfront e notificá-los de que foram adicionados, usando convites por email.
 
@@ -40,7 +40,7 @@ Você pode configurar os novos emails de usuário para:
 
 Todos os novos usuários veem o mesmo email quando um convite por email é enviado.
 
-Para obter informações sobre como receber convites por email, consulte [Receba convites por email e crie uma senha para o Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
+Para obter informações sobre como receber convites por email, consulte [Receber convites por email e criar uma senha para o Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
 ## Requisitos de acesso
 
@@ -69,23 +69,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Convites por email são gerados nos seguintes cenários:
 
-* Ao criar um novo usuário e selecionar a variável **Enviar um email de convite a essa pessoa** no **Novo usuário** formulário. Para obter mais informações sobre como criar novos usuários, consulte [Adicionar usuários](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* Ao importar vários usuários novos e selecionar a variável **Enviar emails de convite a essas pessoas** opção. Para obter mais informações sobre a importação de vários usuários novos, consulte [Importar usuários](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* Ao criar um novo usuário e selecionar o **Enviar um email de convite para essa pessoa** no formulário **Novo Usuário**. Para obter mais informações sobre como criar novos usuários, consulte [Adicionar usuários](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Ao importar vários usuários novos e selecionar a opção **Enviar emails de convite para essas pessoas**. Para obter mais informações sobre como importar vários usuários novos, consulte [Importar usuários](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 * Após a criação dos usuários, é possível gerar manualmente os convites para usuários que ainda não registraram sua conta na Workfront e que não estabeleceram uma senha do Workfront.\
-  Os usuários que têm uma conta criada, mas ainda não registraram sua conta, são marcados como **Não registrado** no Workfront.
+  Os usuários que têm uma conta criada, mas ainda não registraram sua conta, são marcados como **Não Registrados** no Workfront.
 
   >[!NOTE]
   >
-  >Se você desmarcar a opção **Enviar um convite por email a esta pessoa** ao criar o usuário, o convite por email não pode ser gerado manualmente. O reenvio manual dos convites por email só é possível para usuários que receberam o convite original por email quando sua conta foi criada. Para obter mais informações sobre como criar novos usuários, consulte [Adicionar usuários](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >Se você desmarcar a caixa **Enviar um convite por email para esta pessoa** ao criar o usuário, o convite por email não poderá ser gerado manualmente. O reenvio manual dos convites por email só é possível para usuários que receberam o convite original por email quando sua conta foi criada. Para obter mais informações sobre como criar novos usuários, consulte [Adicionar usuários](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Para gerar convites por email manualmente para usuários não registrados existentes:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
-1. Selecione o usuário que mostra a **Não registrado** após o nome.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Selecione o usuário que mostra o rótulo **Não registrado** depois de seu nome.
 
    ![](assets/unreg-user-qs-350x221.png)
 
-1. Clique no ícone Mais ![](assets/more-icon.png)e, em seguida, clique em **Lembrar usuário de se registrar**.
+1. Clique no ícone Mais ![](assets/more-icon.png) e em **Lembrar usuário de se registrar**.
 
    Um convite é enviado por email para o novo usuário com um novo link que ele pode usar para criar sua senha do Workfront.
 
@@ -101,11 +101,11 @@ Para gerar convites por email manualmente para usuários não registrados existe
 
 Como administrador do Workfront, você pode configurar a mensagem que inclui com os convites por email para novos usuários.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Na lista à esquerda, clique em **E-mail** > **Convites**.
+1. Na lista à esquerda, clique em **Email** > **Convites**.
 
-1. No **Opções gerais** faça qualquer uma das seguintes modificações:
+1. Na seção **Opções Gerais**, faça qualquer uma das seguintes modificações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -120,11 +120,11 @@ Como administrador do Workfront, você pode configurar a mensagem que inclui com
       <td> <p>Selecione essa opção se quiser modificar o convite por email para todos os novos usuários adicionados ao Workfront. Isso não inclui usuários com uma licença de Solicitante.</p> 
        <ul> 
         <li><strong>Mensagem</strong>: se você optar por modificar o convite por email para todos os novos usuários, especifique o texto que deseja incluir nos convites por email como corpo do email.</li> 
-        <li><strong>Termos e condições</strong>: se você optar por modificar o convite por email para todos os novos usuários, especifique o texto que deseja incluir nos convites por email como os termos e condições.<br></li> 
-        <li><strong>Incluir uma mensagem e/ou termo de serviço para usuários do helpdesk</strong>: selecione esta opção se quiser modificar o convite por email para todos os novos usuários adicionados ao Workfront que tenham uma licença de Solicitante.</li> 
-        <li><strong>Mensagem</strong>: se você optar por modificar o convite por email para todos os novos usuários com uma licença de Solicitante, especifique o texto que deseja incluir nos convites por email como o corpo do email.</li> 
-        <li><strong>Termos e condições</strong>: se você optar por modificar o convite por email para todos os novos usuários com uma licença de Solicitante, especifique o texto que deseja incluir nos convites por email como os termos e condições.<br></li> 
-        <li> <p>No <strong>Visualização do convite</strong> você pode ver uma pré-visualização do convite por email. Se você optou por incluir uma mensagem personalizada no convite por email, a mensagem personalizada será exibida nesta área.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>Termos e Condições</strong>: se você optar por modificar o convite por email para todos os novos usuários, especifique o texto que deseja incluir nos convites por email como os termos e condições.<br></li> 
+        <li><strong>Incluir uma mensagem e/ou termo de serviço para usuários do helpdesk</strong>: selecione essa opção se desejar modificar o convite por email para todos os novos usuários adicionados ao Workfront que tenham uma licença de Solicitante.</li> 
+        <li><strong>Mensagem</strong>: se você optar por modificar o convite por email para todos os novos usuários com uma licença de Solicitante, especifique o texto que deseja incluir nos convites por email como corpo do email.</li> 
+        <li><strong>Termos e Condições</strong>: se você optar por modificar o convite por email para todos os novos usuários com uma licença de Solicitante, especifique o texto que deseja incluir nos convites por email como os termos e condições.<br></li> 
+        <li> <p>Na seção <strong>Visualização do Convite</strong>, você pode ver uma visualização do seu convite por email. Se você optou por incluir uma mensagem personalizada no convite por email, a mensagem personalizada será exibida nesta área.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

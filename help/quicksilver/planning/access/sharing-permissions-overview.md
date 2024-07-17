@@ -41,7 +41,7 @@ Você pode compartilhar os seguintes objetos:
 
 * Visualizações
 
-  Você deve fornecer aos usuários, incluindo administradores do sistema, permissões para acessar exibições separadamente de suas permissões para acessar espaços de trabalho. Para obter informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
+  Você deve fornecer aos usuários, incluindo administradores do sistema, permissões para acessar exibições separadamente de suas permissões para acessar espaços de trabalho. Para obter informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
 Você pode compartilhar um espaço de trabalho ou uma exibição com as seguintes entidades:
 
@@ -54,7 +54,7 @@ Você pode compartilhar um espaço de trabalho ou uma exibição com as seguinte
 
 * Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Workfront Planning para fornecer acesso a exibir, contribuir ou gerenciar espaços de trabalho e seus objetos.
 
-  Para obter informações sobre como os tipos de licença afetam os níveis de permissão para o Workfront Planning, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+  Para obter informações sobre como os tipos de licença afetam os níveis de permissão do Workfront Planning, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 * Os administradores do sistema podem gerenciar todos os espaços de trabalho no sistema, incluindo aqueles que não criaram.
 * Outros usuários, incluindo Administradores do sistema, só podem acessar as exibições que criaram ou que foram compartilhadas com eles. Os administradores do sistema só podem receber permissões para Gerenciar uma visualização.
 * Você pode compartilhar um link com outros usuários para um espaço de trabalho ou uma visualização.

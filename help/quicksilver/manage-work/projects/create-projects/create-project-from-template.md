@@ -25,7 +25,7 @@ Os modelos fornecem uma maneira de capturar processos, informações e configura
 >
 >O Workfront define o Grupo e o Status do novo projeto da seguinte maneira:
 >
->* O status padrão de um novo projeto criado a partir de um modelo corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto, ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto de um grupo. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Configurar as preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>* O status padrão de um novo projeto criado a partir de um modelo corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto, ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto de um grupo. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências do projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Configurar preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 >
 >* O Grupo do novo projeto é o Grupo do modelo. Se o modelo não estiver associado a um Grupo, o Grupo do projeto será o Grupo inicial do usuário que cria o projeto.
 >
@@ -117,20 +117,20 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
 1. Siga um destes procedimentos:
 
-   * Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo. Clique em **Projetos**, em seguida, expandir **Novo projeto**.
-   * Acesse um portfólio e expanda **Novo projeto**.
+   * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo. Clique em **Projetos** e expanda **Novo projeto**.
+   * Vá para um portfólio e expanda **Novo projeto**.
 
      >[!TIP]
      >
      >Ao criar um projeto usando um modelo de um portfólio, o campo Portfolio do novo projeto é atualizado para exibir o portfólio escolhido para criar o projeto. Isso substitui o campo Portfolio no modelo, se for especificado.
 
-   * Ir para um programa e expandir **Novo projeto**.
+   * Vá para um programa e expanda **Novo Projeto**.
 
      >[!TIP]
      >
      >Ao criar um projeto usando um modelo de um programa, o campo Programa dos novos projetos é atualizado para exibir o Programa escolhido para criar o projeto. O campo Portfolio das atualizações de modelo para exibir o portfólio do programa escolhido para criar o projeto. Isso substitui os campos Program e Portfolio no modelo, se forem especificados.
 
-   * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo gerenciado. Para obter mais informações, consulte [Criar e modificar os projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo gerenciado. Para obter mais informações, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
      >[!TIP]
      >
@@ -142,16 +142,16 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
    ![Novas opções de projeto](assets/new-project-dropdown.png)
 
-1. Clique no nome de um modelo na **Modelos favoritos** lista.
+1. Clique no nome de um modelo na lista **Modelos favoritos**.
 
-   ![Selecionar um modelo favorito](assets/new-project-from-template-dropdown-with-template-favorites.png)
+   ![Selecione um modelo favorito](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
    Ou
 
    Faça o seguinte:
 
-   1. Selecionar **Novo projeto do modelo**.
-   1. No **Procurar Modelos** digite o nome de um template e clique nele quando ele for exibido na lista.
+   1. Selecione **Novo projeto do modelo**.
+   1. No campo **Pesquisar Modelos**, comece digitando o nome de um modelo e clique nele quando ele for exibido na lista.
    1. Revise os detalhes do modelo à direita.
 
       Os detalhes do template incluem o seguinte:
@@ -162,33 +162,33 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       * O número de todas as tarefas no modelo
       * Os nomes dos formulários personalizados do modelo
 
-   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **Favoritos** **ícone** ![](assets/favorites-icon-small.png) para marcá-la como favorita para uso futuro.
+   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no ícone **Favoritos** **3} ![](assets/favorites-icon-small.png) para marcá-lo como favorito para uso futuro.**
 
       Ou
 
-      Expanda a **Modelos favoritos** e selecione um template na lista suspensa.
+      Expanda a lista **Modelos favoritos** e selecione um modelo na lista suspensa.
 
       >[!TIP]
       >
       >É possível marcar até 40 itens do Workfront como favoritos. Isso inclui modelos e outros itens.
 
-   1. Clique em **Usar modelo** quando você seleciona um template.
+   1. Clique em **Usar modelo** quando tiver selecionado um modelo.
 
       ![Detalhes do modelo](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
       >[!NOTE]
       >
-      >Se você tiver a visualização Marco aplicada à lista de projetos, clique no nome de um modelo na **Novo na seção Modelo**.
+      >Se você tiver o Modo de Exibição de Marco aplicado à lista de projetos, clique no nome de um modelo na **seção Novo a partir do Modelo**.
       >
       >
-      >![Exibição de marco da criação de um projeto a partir de um modelo](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Modo de exibição de Marco da criação de um projeto a partir de um modelo](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
 
-   A variável **Novo projeto** é aberta.
+   A caixa **Novo Projeto** é aberta.
 
-   ![Caixa Novo projeto](assets/new-project-from-template-box.png)
+   ![Nova caixa de projeto](assets/new-project-from-template-box.png)
 
-1. Se um campo já estiver preenchido no modelo, ele será preenchido previamente na variável **Novo projeto** caixa. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Se um campo já estiver preenchido no modelo, ele será preenchido na caixa **Novo projeto**. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Clique em **Criar projeto**.
 
    Todos os detalhes definidos no modelo são associados automaticamente ao projeto recém-criado se você não os alterou na etapa anterior.
@@ -200,17 +200,17 @@ Em vez de começar na área Projetos, você pode criar um projeto a partir de um
 {{step1-to-templates}}
 
 1. Clique no nome de um modelo que deseja usar.
-1. Clique em **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em **Criar projeto**.
+1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Criar projeto**.
 
-   ![Criar projeto a partir de modelo](assets/project-sharing-on-template.png)
+   ![Criar projeto a partir do modelo](assets/project-sharing-on-template.png)
 
-   A variável **Novo projeto** é aberta.
+   A caixa **Novo Projeto** é aberta.
 
 1. Insira um nome para o projeto, revise cada seção e faça as alterações necessárias.
 
-   ![Caixa Novo projeto](assets/new-project-from-template-box.png)
+   ![Nova caixa de projeto](assets/new-project-from-template-box.png)
 
-   Se um campo já estiver preenchido no modelo, ele será preenchido previamente na variável **Novo projeto** caixa. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Se um campo já estiver preenchido no modelo, ele será preenchido na caixa **Novo projeto**. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Clique em **Criar projeto**.
 

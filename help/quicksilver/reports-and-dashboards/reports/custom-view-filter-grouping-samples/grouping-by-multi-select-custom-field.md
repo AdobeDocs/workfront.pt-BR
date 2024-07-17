@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ Exemplos de campos personalizados de seleção múltipla são:
 * Caixa de Seleção
 * Menus suspensos de seleção múltipla
 
-Para obter informações sobre como usar o modo de texto, consulte o artigo [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obter informações sobre como usar o modo de texto, consulte o artigo [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Considerações ao agrupar por um campo personalizado de seleção múltipla
 
 * Não é possível criar um gráfico de um relatório que usa um agrupamento de modo de texto. É necessário criar um campo calculado adicional que se refira ao campo personalizado de seleção múltipla para também representar o gráfico do relatório pelo valor do campo personalizado de seleção múltipla.
 
-  Para obter mais informações, consulte [Criar um gráfico de um relatório por um campo personalizado de várias seleções](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  Para obter mais informações, consulte [Criar gráfico de um relatório por campo personalizado de várias seleções](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Os itens que têm qualquer uma das opções selecionadas são contados apenas uma vez.
 
   Por exemplo, se você tiver um campo personalizado Caixa de seleção com Opção 1 e Opção 2 como opções e anexar o formulário a tarefas, as tarefas que tiverem Opção 1 e Opção 2 selecionadas serão agrupadas separadamente das tarefas que tiverem apenas Opção 1 ou Opção 2 selecionadas.
@@ -45,7 +45,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -60,7 +60,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,13 +82,16 @@ Para agrupar por um campo personalizado de várias seleções em um relatório:
 1. Crie um relatório ou edite um existente onde deseja adicionar um agrupamento para um campo personalizado de seleção múltipla.\
    Para obter informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Selecione o **Agrupamentos** guia.
-1. Clique em **Alternar para modo de texto**.
+1. Selecione a guia **Agrupamentos**.
+1. Clique em **Alternar para Modo de Texto**.
 
-1. Selecione o texto no campo **Agrupar seu relatório** e substitua-o pelo seguinte código:
+1. Selecione o texto na caixa **Agrupar seu relatório** e substitua-o pelo seguinte código:
 
    <pre>
-   group.0.displayname=Multisseleção do Nome do Campo Personalizado group.0.valueexpression={DE:Multisseleção do Nome do Campo Personalizado} group.0.valueformat=HTML group.0.textmode=true
+   group.0.displayname=Nome de campo personalizado de seleção múltipla
+   group.0.valueexpression={DE:Multi-select Custom Field Name}
+   group.0.valueformat=HTML
+   group.0.textmode=true
    </pre>
 
 1. Substitua &quot;Nome do campo personalizado de seleção múltipla&quot; pelo nome real do seu campo personalizado de seleção múltipla, como exibido no Workfront.

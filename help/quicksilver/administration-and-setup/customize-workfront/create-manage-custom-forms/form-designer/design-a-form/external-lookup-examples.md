@@ -21,7 +21,7 @@ Um campo Pesquisa externa em um formulário personalizado chama uma API externa 
 
 Este artigo fornece exemplos de como usar o campo Pesquisa externa para chamar a mesma instância do Workfront ou uma API pública. Você também pode usar a Pesquisa externa para se comunicar com um sistema externo, como Jira, Salesforce ou ServiceNow.
 
-Os campos de Pesquisa externa só estão disponíveis no novo designer de formulário, não no construtor de formulários herdado. Para obter mais informações sobre como adicionar um campo Pesquisa externa a um formulário personalizado e definições adicionais dos componentes de pesquisa externa, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Os campos de Pesquisa externa só estão disponíveis no novo designer de formulário, não no construtor de formulários herdado. Para obter mais informações sobre como adicionar um campo Pesquisa Externa a um formulário personalizado e definições adicionais dos componentes de pesquisa externa, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configurar um campo Pesquisa externa para a mesma instância do Workfront
 
@@ -30,10 +30,10 @@ Você pode usar a Pesquisa externa para trazer dados da sua instância do Workfr
 Este exemplo mostra como chamar a API do Workfront e trazer dados do campo &quot;Consulta de status&quot; existente para o campo Pesquisa externa.
 
 1. Abra o formulário personalizado.
-1. No lado esquerdo da tela, localize **Pesquisa externa** e arraste-a para uma seção na tela.
-1. Insira o **Rótulo** e **Nome** para o campo.
+1. No lado esquerdo da tela, encontre **Pesquisa externa** e arraste-a para uma seção da tela.
+1. Insira o **Rótulo** e o **Nome** do campo.
 1. Selecione o **Formato** para o campo.
-1. Insira a chamada do URL da API no **URL base da API** campo.
+1. Insira a chamada da URL da API no campo **URL da API de base**.
 
    * Você pode adicionar $$HOST para fazer referência à mesma instância.
    * Você pode adicionar $$QUERY para filtrar os resultados com base na consulta de um campo diferente.
@@ -41,28 +41,28 @@ Este exemplo mostra como chamar a API do Workfront e trazer dados do campo &quot
    **Exemplo**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
 
-1. Revise o **Dependências** para os campos que esse campo de pesquisa referencia na API.
+1. Revise as **Dependências** dos campos aos quais este campo de pesquisa faz referência na API.
 
    Um campo de dependência pode ser qualquer campo personalizado ou nativo existente na página de detalhes do objeto.
 
-   Neste exemplo, a variável `{DE:StatusQuery}` serão substituídos pelo valor do campo personalizado StatusQuery.
+   Neste exemplo, o `{DE:StatusQuery}` será substituído pelo valor do campo personalizado StatusQuery.
 
 1. Selecione o **Método HTTP**.
 
-   Isto será provavelmente **Obter**.
+   Isto provavelmente será **Obter**.
 
-1. Insira o **Caminho JSON** para obter os resultados da sua chamada de API.
+1. Insira o **Caminho JSON** para obter os resultados da sua chamada à API.
 
    **Exemplo**
    `$.data[*].name`
 
    >[!NOTE]
    >
-   >**Cabeçalho** não são necessárias informações para uma chamada para a mesma instância do Workfront.
+   >As informações do **Cabeçalho** não são necessárias para uma chamada para a mesma instância do Workfront.
 
 1. Clique em **Aplicar**.
 
-   ![Configuração da chamada de API para o Workfront no formulário personalizado](assets/external-lookup-to-workfront.png)
+   ![Configuração da chamada de API para o Workfront no formato personalizado](assets/external-lookup-to-workfront.png)
 
    Quando o formulário personalizado é adicionado a um objeto do Workfront (neste exemplo, um projeto), ele é semelhante a este.
 
@@ -74,13 +74,13 @@ Este exemplo mostra como chamar a API do Workfront e trazer dados do campo &quot
 
 Você pode usar a Pesquisa externa para chamar uma API externa pública e recuperar dados.
 
-Este exemplo mostra como chamar uma API de países (como <https://api.first.org/data/v1/countries>) para que não seja necessário codificar todos os nomes de países nas opções suspensas.
+Este exemplo mostra como chamar uma API de países (como <https://api.first.org/data/v1/countries>) para que você não precise codificar todos os nomes de países nas opções suspensas.
 
 1. Abra o formulário personalizado.
-1. No lado esquerdo da tela, localize **Pesquisa externa** e arraste-a para uma seção na tela.
-1. Insira o **Rótulo** e **Nome** para o campo.
+1. No lado esquerdo da tela, encontre **Pesquisa externa** e arraste-a para uma seção da tela.
+1. Insira o **Rótulo** e o **Nome** do campo.
 1. Selecione o **Formato** para o campo.
-1. Insira a chamada do URL da API no **URL base da API** campo.
+1. Insira a chamada da URL da API no campo **URL da API de base**.
 
    * Você pode adicionar $$QUERY para implementar a filtragem de consultas para seus usuários finais.
 
@@ -89,22 +89,22 @@ Lista todos os países: <https://api.first.org/data/v1/countries>
 
    Permite que o usuário pesquise por qualquer país no campo suspenso: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
-   Permite que o usuário pesquise por um país em uma região: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
+   Permite que o usuário procure por um país em uma região: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * As regiões disponíveis são definidas em um campo personalizado separado no Workfront.
    * Quando o usuário seleciona uma região no formulário, o campo Pesquisa externa mostra apenas os países dessa região (qual país está em qual região está definida na API). O usuário também pode pesquisar por um país na região selecionada.
 
-1. Revise o **Dependências** para os campos que esse campo de pesquisa referencia na API.
+1. Revise as **Dependências** dos campos aos quais este campo de pesquisa faz referência na API.
 
    Um campo de dependência pode ser qualquer campo personalizado ou nativo existente na página de detalhes do objeto.
 
-   Neste exemplo, a variável `{DE:Region}` será substituído pelo valor do campo personalizado Região.
+   Neste exemplo, o `{DE:Region}` será substituído pelo valor do campo personalizado Região.
 
 1. Selecione o **Método HTTP**.
 
-   Isto será provavelmente **Obter**.
+   Isto provavelmente será **Obter**.
 
-1. Insira o **Caminho JSON** para obter os resultados da sua chamada de API.
+1. Insira o **Caminho JSON** para obter os resultados da sua chamada à API.
 
    Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.
 
@@ -117,11 +117,11 @@ Lista todos os países: <https://api.first.org/data/v1/countries>
    >
    >Os campos de Cabeçalho não são um local seguro para armazenar credenciais, e você deve ter cuidado com o que digitar e salvar.
 
-1. (Opcional) Selecione **Lista suspensa de seleção múltipla** para permitir que o usuário selecione mais de um valor na lista suspensa.
+1. (Opcional) Selecione **Seleção múltipla** para permitir que o usuário selecione mais de um valor na lista suspensa.
 
 1. Clique em **Aplicar**.
 
-   ![Configuração da chamada da API para a API pública em um formulário personalizado](assets/external-lookup-to-api-for-countries.png)
+   ![Configuração da chamada de API para API pública no formato personalizado](assets/external-lookup-to-api-for-countries.png)
 
    Quando o formulário personalizado é adicionado a um objeto do Workfront (neste exemplo, um projeto), ele é semelhante a este.
 

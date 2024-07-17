@@ -28,7 +28,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -43,29 +43,29 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Filtrar itens comparando dois campos
 
 1. Ir para uma lista de tarefas.
-1. No **Filtro** selecione **Novo Filtro**.
+1. No menu suspenso **Filtro**, selecione **Novo Filtro**.
 
-1. Clique em **Adicionar Regra de Filtro** e adicionar **Data de término efetivo** >**Maior que** > **Selecionar uma data**.
+1. Clique em **Adicionar Regra de Filtro** e adicione **Data de Término Efetivo** >**Maior que** > **Selecione uma data**.
 
    >[!TIP]
    >
    >Escolha o modificador de filtro que deseja usar para o campo selecionado, se disponível.
 
-1. Clique em **Alternar para modo de texto**.
-1. No **Definir regras de filtro para seu relatório** adicione o seguinte código:
+1. Clique em **Alternar para Modo de Texto**.
+1. Na área **Definir Regras de Filtro para seu Relatório**, adicione o seguinte código:
 
    ```
    actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt
    ```
 
-1. Clique em **Concluído**, depois **Salvar Filtro**.
+1. Clique em **Concluído** e em **Salvar filtro**.

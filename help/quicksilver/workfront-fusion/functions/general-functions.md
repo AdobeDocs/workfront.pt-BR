@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Funções gerais no [!DNL Adobe Workfront Fusion]
+# Funções gerais em [!DNL Adobe Workfront Fusion]
 
 ## Requisitos de acesso
 
@@ -36,27 +36,27 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL get (objeto ou matriz; caminho)]
+## [!UICONTROL obter (objeto ou matriz; caminho)]
 
 Retorna o caminho do valor de um objeto ou matriz. Para acessar objetos aninhados, use a notação de pontos. O primeiro item em uma matriz é o índice 1.
 
@@ -71,7 +71,7 @@ Retorna o caminho do valor de um objeto ou matriz. Para acessar objetos aninhado
 
 ## [!UICONTROL if (expressão; valor1; valor2)]
 
-Retorna a variável `value1` se a expressão for avaliada como verdadeira; caso contrário, retornará a variável `value2`.
+Retorna `value1` se a expressão for avaliada como verdadeira; caso contrário, retorna `value2`.
 
 >[!INFO]
 >
@@ -85,9 +85,9 @@ Retorna a variável `value1` se a expressão for avaliada como verdadeira; caso 
 >
 >   Devoluções B
 
-## [!UICONTROL ifempty (valor1; valor2)]
+## [!UICONTROL ifempty (value1; value2)]
 
-Retorna a variável `value1` se este valor não estiver vazio; caso contrário, retorna o valor `value2`.
+Retorna `value1` se este valor não estiver vazio; caso contrário, retorna `value2`.
 
 >[!INFO]
 >
@@ -105,7 +105,7 @@ Retorna a variável `value1` se este valor não estiver vazio; caso contrário, 
 >
 >   Devoluções B
 
-## [!UICONTROL opção (expressão; valor1; resultado1; [valor2; resultado2; ...]; [else])]
+## [!UICONTROL opção (expressão; valor1; resultado1; [valor2; resultado2; ...]; [outra])]
 
 Avalia um valor (chamado de expressão) em relação a uma lista de valores; retorna o resultado correspondente ao primeiro valor correspondente.
 
@@ -125,7 +125,7 @@ Avalia um valor (chamado de expressão) em relação a uma lista de valores; ret
 >
 >  Devoluções 4
 
-## [!UICONTROL omit( objeto; chave1; [key2; ...])]
+## [!UICONTROL omit(object; key1; [key2; ...])]
 
 Omite as chaves fornecidas do objeto e retorna o restante.
 
@@ -137,7 +137,7 @@ Omite as chaves fornecidas do objeto e retorna o restante.
 >
 >Retorna uma coleção das informações do usuário, excluindo a senha.
 
-## [!UICONTROL pick( objeto; chave1; [key2; ...])]
+## [!UICONTROL pick(object; key1; [key2; ...])]
 
 Seleciona somente as chaves fornecidas do objeto.
 

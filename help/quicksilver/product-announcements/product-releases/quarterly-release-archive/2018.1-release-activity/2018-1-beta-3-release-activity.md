@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 3 2018.1
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 7 de janeiro de 2018. Ele será disponibilizado no ambiente de Produção no início de 2018.
+title: Atividade da versão 2018.1 do Beta 3
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 7 de janeiro de 2018. Ele será disponibilizado no ambiente de Produção no início de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,35 +14,35 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 3 2018.1
+# Atividade da versão 2018.1 do Beta 3
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 7 de janeiro de 2018. Ele será disponibilizado no ambiente de Produção no início de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 3. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 7 de janeiro de 2018. Ele será disponibilizado no ambiente de Produção no início de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  [Visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-A versão 2018.1 Beta 3 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2018.1 do Beta 3 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
 * [Melhorias no administrador de grupo](#group-administrator-improvements)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
-* [Melhorias no visualizador de provas do HTML5](#html5-proofing-viewer-improvements)
-* [Aprimoramentos de provas no Workfront](#proofing-improvements-within-workfront)
-* [Melhorias na área inicial](#home-area-improvements) 
+* [Melhorias do visualizador de provas do HTML5](#html5-proofing-viewer-improvements)
+* [Melhorias na revisão no Workfront](#proofing-improvements-within-workfront)
+* [Melhorias na Área Residencial](#home-area-improvements) 
 * [Melhorias Agile](#agile-improvements)
 * [Melhorias no Gráfico de Gantt](#gantt-chart-improvements)
 * [Melhorias no planejamento de recursos](#resource-planner-improvements)
 
 ## Melhorias no administrador de grupo {#group-administrator-improvements}
 
-* [Redefinição da interface de usuário de senha atualizada para administradores de grupo](#reset-password-ui-updated-for-group-administrators)
-* [Opções de configuração de nível de acesso para administradores de grupo](#access-level-setup-options-for-group-administrators)
+* [Redefinição da IU de senha atualizada para administradores de grupo](#reset-password-ui-updated-for-group-administrators)
+* [Opções de Configuração de Nível de Acesso para administradores de grupo](#access-level-setup-options-for-group-administrators)
 * [Criar perfis de planilha de horas para grupos](#create-timesheet-profiles-for-groups)
 * [Recuperar itens excluídos para usuários como um administrador de grupo](#recover-deleted-items-for-users-as-a-group-administrator)
 
@@ -50,7 +50,7 @@ A versão 2018.1 Beta 3 contém melhorias para administradores do Workfront e ou
 
 Como administrador de grupo, ao redefinir a senha de outro usuário, você será solicitado a fornecer sua própria senha antes de alterar a deles. A interface do usuário foi atualizada para refletir essa funcionalidade. Antes dessa alteração, a interface do usuário mostrava que a senha de administrador do Workfront era necessária.
 
-Para obter mais informações sobre como redefinir senhas para outros usuários, consulte [Editar o perfil de um usuário](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obter mais informações sobre como redefinir senhas para outros usuários, consulte [Editar perfil de um usuário](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Para obter mais informações sobre os recursos de um administrador de grupo, consulte a seção &quot;Recursos de administradores de grupo&quot; em [Criar um grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
@@ -68,7 +68,7 @@ Como administrador de grupo, agora você pode criar Perfis de planilha de horas 
 
 Antes dessa alteração, somente um administrador do Workfront poderia criar Perfis de folha de horas.
 
-Para obter mais informações sobre a criação de Perfis de planilha de horas, consulte [Criar, editar e atribuir perfis de planilha de horas](../../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Para obter mais informações sobre como criar Perfis de Planilha de Horas, consulte [Criar, editar e atribuir perfis de planilha de horas](../../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Para obter mais informações sobre os recursos de um administrador de grupo, consulte a seção &quot;Recursos de administradores de grupo&quot; em [Criar um grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
@@ -82,8 +82,8 @@ Para obter mais informações sobre os recursos de um administrador de grupo, co
 
 ## Melhorias no visualizador de provas do HTML5  {#html5-proofing-viewer-improvements}
 
-* [Modo de comparação](#compare-mode)
-* [Filtrar a lista de comentários](#filter-the-comment-list)
+* [Comparar Modo](#compare-mode)
+* [Filtrar a Lista de Comentários](#filter-the-comment-list)
 * [A lista de comentários é pesquisada depois que o primeiro caractere é inserido](#comment-list-is-searched-after-the-first-character-is-entered)
 
 ### Modo de comparação {#compare-mode}
@@ -121,17 +121,17 @@ Para obter mais informações, consulte em .
 
 ## Aprimoramentos de provas no Workfront {#proofing-improvements-within-workfront}
 
-* [Vincular provas do Workfront Proof ao Workfront](#link-proofs-from-workfront-proof-to-workfront)
+* [Vincular Provas do Workfront Proof ao Workfront](#link-proofs-from-workfront-proof-to-workfront)
 * [Não é mais possível remover uma prova de um documento](#can-no-longer-remove-a-proof-from-a-document)
 * [Aparência atualizada ao gerar e abrir provas](#updated-look-and-feel-when-generating-and-opening-proofs)
 
 ### Vincular provas do Workfront Proof ao Workfront {#link-proofs-from-workfront-proof-to-workfront}
 
-Agora é possível vincular provas de documentos que já existem em sua conta do Workfront Proof ao Workfront.
+Agora você pode vincular provas de documentos que já existem em sua conta do Workfront Proof ao Workfront.
 
 Antes dessa alteração, não era possível acessar provas que já existiam no Workfront Proof no Workfront. 
 
-Para obter mais informações, consulte [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) in [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obter mais informações, consulte [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) em [Vincular documentos de aplicativos externos](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ### Não é mais possível remover uma prova de um documento {#can-no-longer-remove-a-proof-from-a-document}
 
@@ -139,7 +139,7 @@ Não é mais possível remover uma prova de um documento. Em vez disso, para rem
 
 Esse aprimoramento reduz o risco de os usuários excluírem inadvertidamente todas as versões de um documento comprovado. 
 
-Para obter informações sobre como excluir um documento, consulte [Excluir uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md) in [Excluir uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md).
+Para obter informações sobre como excluir um documento, consulte [Excluir uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md) em [Excluir uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md).
 
 ### Aparência atualizada ao gerar e abrir provas {#updated-look-and-feel-when-generating-and-opening-proofs}
 
@@ -149,7 +149,7 @@ Agora há um ponteiro de animação atualizado quando uma prova está sendo gera
 
 As seguintes melhorias foram feitas na área Página inicial:
 
-* [Exibir aprovações de provas na área inicial](#view-proof-approvals-from-the-home-area)
+* [Exibir aprovações de provas da área inicial](#view-proof-approvals-from-the-home-area)
 * [Os campos padrão são exibidos ao configurar o modelo de layout para itens na área da página inicial](#default-fields-are-displayed-when-configuring-the-layout-template-for-items-in-the-home-area)
 
 ### Exibir aprovações de provas na área inicial {#view-proof-approvals-from-the-home-area}
@@ -158,7 +158,7 @@ Agora você pode visualizar aprovações de prova na área Página inicial, alé
 
 Anteriormente, era possível visualizar as aprovações do Workfront, mas não as aprovações de uma prova.  
 
-Para obter mais informações, consulte [Usar a área Início](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Para obter mais informações, consulte [Usar a área da Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ### Os campos padrão são exibidos ao configurar o modelo de layout para itens na área da página inicial {#default-fields-are-displayed-when-configuring-the-layout-template-for-items-in-the-home-area}
 
@@ -168,10 +168,10 @@ Para obter mais informações, consulte &quot;Criar e gerenciar modelos de layou
 
 ## Melhorias Agile {#agile-improvements}
 
-* [Adicionar tarefas e problemas à iteração diretamente da página Detalhes da tarefa ou problema](#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page)
-* [Incluir problemas no backlog de Scrum e no Storyboard de uma Equipe Ágil](#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team)
-* [Aplicar agrupamentos e filtros ao backlog de uma equipe Agile](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team)
-* [Criar uma iteração em Branco e Atualizar Mais Tarde](#create-a-blank-iteration-and-update-it-later)
+* [Adicionar Tarefas e Problemas à Iteração Diretamente da Página de Detalhes da Tarefa ou Problema](#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page)
+* [Incluir problemas no Backlog Scrum e no Story Board de uma Equipe Agile](#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team)
+* [Aplicar Agrupamentos e Filtros ao Backlog de uma Equipe Agile](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team)
+* [Criar uma Iteração em Branco e Atualizá-la Mais Tarde](#create-a-blank-iteration-and-update-it-later)
 * [Os campos &quot;Foco&quot; e &quot;Capacidade&quot; são preenchidos previamente ao criar uma iteração](#the-focus-and-capacity-fields-are-pre-populated-when-creating-an-iteration)
 
 ### Adicionar tarefas e problemas à iteração diretamente da página Detalhes da tarefa ou problema {#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page}
@@ -180,7 +180,7 @@ Agora é possível adicionar tarefas e problemas que estão atribuídos a uma Eq
 
 Anteriormente, só era possível adicionar tarefas a uma iteração a partir do backlog. 
 
-Para obter mais informações, consulte [Criar uma iteração](../../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) in [Criar uma iteração](../../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+Para obter mais informações, consulte [Criar uma iteração](../../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) em [Criar uma iteração](../../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
 
 ### Incluir problemas no backlog de Scrum e no Storyboard de uma Equipe Ágil {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
@@ -196,7 +196,7 @@ As opções de Agrupamento e Filtro agora estão disponíveis no backlog ágil, 
 
 Antes dessa alteração, você poderia aplicar em exibições ao backlog ágil.
 
-Para obter mais informações, consulte  [Gerenciar o backlog ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Gerenciar o backlog ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter mais informações, consulte  [Gerenciar a lista de pendências ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) no  [Gerenciar o backlog ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Criar uma iteração em Branco e Atualizar Mais Tarde {#create-a-blank-iteration-and-update-it-later}
 
@@ -214,20 +214,20 @@ Para obter mais informações, consulte [Criar uma iteração](../../../../agile
 
 ## Melhorias no Gráfico de Gantt {#gantt-chart-improvements}
 
-* [Ativar modo de edição no gráfico de Gantt](#enable-edit-mode-in-the-gantt-chart)
+* [Habilitar Modo de Edição no Gráfico de Gantt](#enable-edit-mode-in-the-gantt-chart)
 * [Remover predecessores ao editar o gráfico de Gantt](#remove-predecessors-when-editing-the-gantt-chart)
 
 ### Ativar modo de edição no gráfico de Gantt {#enable-edit-mode-in-the-gantt-chart}
 
 Ao ativar o modo de edição no gráfico de Gantt, você pode fazer alterações nas informações dentro do gráfico. Antes dessa alteração, não era possível editar as informações no gráfico de Gantt. Só é possível editar informações de tarefas na lista de tarefas.
 
-Para obter mais informações sobre a edição do Gráfico de Gantt, consulte [Atualizar informações no Diagrama de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obter mais informações sobre a edição do Gráfico de Gantt, consulte [Atualizar informações na lista de tarefas Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ### Remover predecessores ao editar o gráfico de Gantt {#remove-predecessors-when-editing-the-gantt-chart}
 
 Usando o modo Editar para o Diagrama de Gantt, agora é possível remover os relacionamentos de predecessores entre tarefas no Diagrama de Gantt de um projeto. Antes dessa melhoria, você poderia remover a relação de predecessora somente na lista de tarefas ou no nível da tarefa.
 
-Para obter mais informações sobre a edição do Gráfico de Gantt, consulte [Atualizar informações no Diagrama de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obter mais informações sobre a edição do Gráfico de Gantt, consulte [Atualizar informações na lista de tarefas Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Melhorias no planejamento de recursos {#resource-planner-improvements}
 
@@ -243,10 +243,10 @@ Para obter mais informações sobre a edição do Gráfico de Gantt, consulte [A
 
 Agora você pode fazer o orçamento de seus recursos no Planejador de recursos para qualquer data, dentro ou fora do período do projeto. Antes dessa melhoria, você poderia estimar seus recursos somente para as datas dentro do período do projeto.
 
-Para obter mais informações sobre recursos de orçamento no Planejador de recursos, consulte a seção &quot;Budgeting Resources in the Resource Planner&quot; em [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obter mais informações sobre recursos de orçamento no Planejador de recursos, consulte a seção &quot;Recursos de orçamento no Planejador de recursos&quot; na [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Mostrar dados por custo no Planejador de recursos {#show-data-by-cost-in-the-resource-planner}
 
 Agora você pode exibir as informações no Planejador de recursos por custo, além dos valores de Horas e FTE. Você pode exibir Custos no Planejador de Recursos quando você o estiver visualizando nas visualizações Visualizar por Projeto ou Visualizar por Função. Você não pode exibir Custos quando está exibindo o Planejador de Recursos na view Exibir por Usuário.
 
-Para obter mais informações sobre como exibir o Planejador de Recursos por valores de Horas, FTE ou Custo, consulte [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Para obter mais informações sobre como exibir o Planejador de Recursos por valores de Horas, FTE ou Custo, consulte [Visão geral da navegação do Planejador de Recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).

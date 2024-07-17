@@ -1,7 +1,7 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Recursos orçamentários no Caso de Negócios
-description: Como parte do planejamento de recursos, você pode orçar as funções de trabalho necessárias para concluir o trabalho em um projeto quando criar o caso comercial. Para obter mais informações sobre como criar um Caso de negócios, consulte Criar um Caso de negócios para um projeto .
+title: Recursos de orçamento no Business Case
+description: Como parte do planejamento de recursos, você pode estimar as funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o business case. Para obter mais informações sobre como criar um Business Case, consulte Criar um Business Case para um projeto .
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# Recursos orçamentários no Caso de Negócios
+# Recursos de orçamento no Business Case
 
-Como parte do planejamento de recursos, você pode orçar as funções de trabalho necessárias para concluir o trabalho em um projeto quando criar o caso comercial. Para obter mais informações sobre como criar um Caso de negócios, consulte [Criar um caso de negócios para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Como parte do planejamento de recursos, você pode estimar as funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o business case. Para obter mais informações sobre como criar um Business Case, consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!NOTE]
 >
->Os recursos orçamentários não são o mesmo que programar recursos para um projeto. Ao orçar recursos, você estima as funções que podem ser necessárias para concluir o trabalho em um projeto. Para realmente programar ou atribuir usuários ao trabalho em um projeto, consulte [Gerenciar alocações de usuários no Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>Orçar recursos não é o mesmo que agendar recursos para um projeto. Ao estimar recursos, você estima as funções que podem ser necessárias para concluir o trabalho em um projeto. Para realmente agendar ou atribuir usuários ao trabalho em um projeto, consulte [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
-Você deve associar funções de cargo ao projeto antes de poder orçar os recursos para ele. Veja a seguir formas de alocar funções de cargo a um projeto:
+Você deve associar funções de trabalho ao projeto antes de poder fazer o orçamento dos recursos para ele. Estas são as formas de alocar funções de trabalho a um projeto:
 
-* Use o Planejador de Recursos para aplicar os Pools de Recursos às funções de projeto e de trabalho de orçamento.
+* Use o Planejador de recursos para aplicar Conjuntos de recursos às funções de trabalho de projeto e orçamento.
 
-   Para obter mais informações, consulte [Recursos de orçamento no Caso de negócios usando o Planejador de recursos](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Para obter mais informações, consulte [Recursos de orçamento no Business Case usando o Planejador de Recursos](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Use o Planejador de Cenário para criar iniciativas com as funções de cargo necessárias e vinculá-las ao projeto. Para obter mais informações, consulte [Recursos de orçamento no Caso de negócios usando o Planejador de cenário](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Use o Planejador de cenários para criar iniciativas com as funções de trabalho necessárias e vinculá-las ao projeto. Para obter mais informações, consulte [Recursos de orçamento no Business Case usando o Planejador de cenários](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-   >[!NOTE]
-   >
-   >O Planejador de cenário está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de Cenário do Workfront, consulte [A visão geral do Planejador de cenário](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

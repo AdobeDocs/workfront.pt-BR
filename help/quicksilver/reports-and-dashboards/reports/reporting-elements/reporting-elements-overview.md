@@ -11,7 +11,7 @@ exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -35,18 +35,18 @@ Esta seção contém os seguintes artigos:
 * [Elementos de relatórios: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Criar ou editar filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+* [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 * [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Criar ou editar exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 * [Usar formatação condicional em exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-* [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 * [Criar agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * [Editar agrupamentos existentes](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 * [Criar ou editar exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-* [Usar curingas com base em data para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
-* [Usar curingas com base no usuário para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
-* [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Usar curingas baseados em data para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
+* [Usar curingas baseados no usuário para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
+* [Compartilhar um filtro, exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Remover filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-* [Usar a visualização de Etapas](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
+* [Usar a exibição de Marco](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
 * [Modificar a largura e a ordem da coluna](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

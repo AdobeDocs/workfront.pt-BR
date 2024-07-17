@@ -28,7 +28,7 @@ Para obter informações sobre operadores de filtro Adobe Workfront na interface
 
 O Workfront tem dois operadores de filtro que conectam cada instrução de filtro:
 
-* **E**: ao unir a instrução de filtro 2 pelo operador AND, você indica que deseja que ambas as instruções de filtro sejam atendidas ao mesmo tempo.
+* **AND**: ao unir 2 instruções de filtro pelo operador AND, você indica que deseja que ambas as instruções de filtro sejam atendidas ao mesmo tempo.
 
   Por padrão, as instruções em um filtro são unidas pelo operador AND.
 
@@ -38,7 +38,7 @@ O Workfront tem dois operadores de filtro que conectam cada instrução de filtr
 
   <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
 
-* **OU**: ao unir duas instruções de filtro pelo operador OR, você indica que deseja que uma delas seja atendida.
+* **OR**: ao unir duas instruções de filtro pelo operador OR, você indica que deseja que qualquer uma delas seja atendida.
 
   >[!TIP]
   >
@@ -48,7 +48,7 @@ O Workfront tem dois operadores de filtro que conectam cada instrução de filtr
 
   **Exemplo:** Para filtrar tarefas com uma Data de Conclusão Planejada de Hoje ou uma Porcentagem Concluída inferior a 100%, use o seguinte código de modo de texto:
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OU:1:percentComplete=100</pre><pre>OU:1:percentComplete_Mod=lt</pre>
+  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre>
 
 ## Sintaxe do modo de texto para filtros OR
 
@@ -66,13 +66,13 @@ A sintaxe do modo de texto para um filtro OR deve conter o seguinte:
 
   Você pode ter várias instruções OR em um filtro. Nesse caso, cada instrução OR recebe um número, na ordem em que você deseja que as instruções sejam aplicadas.
 
-  **Exemplo:**  Para filtrar tarefas com uma Data de conclusão planejada de Hoje OU um Percentual concluído inferior a 100% OU um Status de Novo, use o seguinte código de modo de texto:
+  **Exemplo:** Para filtrar tarefas com uma Data de Conclusão Planejada de Hoje OU uma Porcentagem Concluída inferior a 100% OU um Status de Novo, use o seguinte código de modo de texto:
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OU:1:status=NOVO</pre><pre>OU:1:status_Mod=in</pre><pre>OU:2:percentComplete=100</pre><pre>OU:2:percentComplete_Mod=lt</pre>
+  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OR:1:status=NEW</pre><pre>OR:1:status_Mod=in</pre><pre>OR:2:percentComplete=100</pre><pre>OR:2:percentComplete_Mod=lt</pre>
 
-* O nome dos campos ou dos atributos aos quais você faz referência em um filtro deve ser escrito em camel case. Para obter informações sobre camel case, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+* O nome dos campos ou dos atributos aos quais você faz referência em um filtro deve ser escrito em camel case. Para obter informações sobre camel case, consulte [Visão geral da sintaxe do modo texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 * Quando você faz referência a campos personalizados em um filtro OR, deve inserir DE: entre a sintaxe do modificador OR e o nome do campo personalizado. Você deve digitar o nome do campo personalizado como ele aparece na interface do Workfront.
 
-  **Exemplo:** Para filtrar tarefas com um Status de Novo OU uma Porcentagem Concluída inferior a 100% OU um campo personalizado chamado &quot;Tipo de conta&quot; com um valor de &quot;Igual&quot;, use o seguinte código de modo de texto:
+  **Exemplo:** Para filtrar tarefas com status Novo OU Porcentagem Concluída inferior a 100% OU um campo personalizado chamado &quot;Tipo de Conta&quot; com valor &quot;Igual&quot;, use o seguinte código de modo de texto:
 
-  <pre>status=NOVO</pre><pre>status_Mod=in</pre><pre>OU:1:percentComplete=100</pre><pre>OU:1:percentComplete_Mod=lt</pre><pre>OU:2:DE:Tipo de Conta=Capital</pre><pre>OU:2:DE:Tipo de Conta_Mod=in</pre>
+  <pre>status=NOVO</pre><pre>status_Mod=in</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre><pre>OR:2:DE:Account Type=Capital</pre><pre>OR:2:DE:Account Type_Mod=in</pre>

@@ -10,7 +10,7 @@ exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Pré-requisitos
 
-Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; na [Visão geral do Enhanced Analytics](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Entender a visualização do mapa de árvore do projeto
 
@@ -65,15 +65,15 @@ As caixas na visualização do mapa de árvore do projeto representam projetos e
 
 A visualização do mapa de árvore do projeto é composta de:
 
-* **Caixas menores, azuis claras**: projetos com menos horas ou dias são exibidos como caixas menores com uma cor azul-claro.
+* **Caixas menores e azuis claras**: os projetos que têm menos horas ou dias são exibidos como caixas menores com uma cor azul-claro.
 
   ![](assets/project-treemap-smaller-box.png)
 
-* **Caixas azuis escuras e maiores**: os projetos com mais horas ou dias são exibidos como caixas maiores com uma cor azul escura.
+* **Caixas azuis escuras e maiores**: os projetos que têm mais horas ou dias são exibidos como caixas maiores com uma cor azul escura.
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* **Caixas azuis de tamanho médio**: os projetos que se encaixam entre as duas categorias são exibidos como caixas de tamanho médio com uma sombra de azul entre as cores azul escuro e azul claro. Há 3 tons possíveis de azul para as caixas de tamanho médio.
+* **Caixas azuis de tamanho Medium**: os projetos que se encaixam entre as duas categorias são exibidos como caixas de tamanho médio com uma sombra de azul entre as cores azul escuro e azul claro. Há 3 tons possíveis de azul para as caixas de tamanho médio.
 
 A legenda no lado direito mostra um detalhamento de horas concluídas para cada sombra de azul. Essa legenda é dinâmica e é atualizada de acordo com os dados.
 
@@ -84,35 +84,35 @@ A legenda no lado direito mostra um detalhamento de horas concluídas para cada 
 >Se você estiver observando a visualização do mapa de árvore do projeto por duração em vez de por horas planejadas, essa legenda mostra um detalhamento dos dias trabalhados para cada sombra de azul.\
 >![](assets/project-treemap-days-worked.png)>
 
-Ver essas informações ajuda a determinar:
+Essas informações ajudam a determinar:
 
-* A prioridade dos itens sendo trabalhados durante o intervalo de datas selecionado.
+* A prioridade dos itens nos quais se trabalhou durante o intervalo de datas selecionado.
 * Em que equipes estão gastando tempo.
 * Se as equipes estão focadas nas coisas certas.
 * Quando um projeto específico é clicado, quanto o escopo de um projeto mudou nesse período de tempo.
 
-Para saber como obter os melhores dados para essa visualização, consulte [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
+Para saber como obter os melhores dados para esta visualização, consulte [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Exibir a visualização do mapa de árvore do projeto
 
-1. Clique no ícone Menu principal ![](assets/main-menu-icon-16x12.png)e selecione **Analytics**.
+1. Clique no ícone Menu Principal ![](assets/main-menu-icon-16x12.png) e selecione **Analytics**.
 1. (Opcional) Para usar um intervalo de datas diferente, selecione novas datas de início e término no filtro de intervalo de datas.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Para obter informações sobre o uso do filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condicional) Se precisar limitar o conjunto de dados do projeto, selecione e aplique os filtros que deseja usar.
 
-   Para obter mais informações sobre como adicionar filtros na Análise aprimorada, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obter mais informações sobre como adicionar filtros na Análise aprimorada, consulte [Aplicar filtros na Análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Depois de adicionar filtros, os dados de até 50 projetos são exibidos e os filtros permanecem ativos mesmo depois de sair da página ou do Workfront.
 
-1. (Opcional) Para alterar a forma como os projetos são classificados, clique no **Classificar por** no canto superior direito da visualização Mapa de árvore do projeto, em seguida, selecione uma nova opção de classificação:
+1. (Opcional) Para alterar a forma como os projetos são classificados, clique no menu **Classificar por** no canto superior direito da visualização do mapa de árvore do projeto e selecione uma nova opção de classificação:
 
    * **A - Z**
    * **Z - A**
-   * **Data de término planejada**
+   * **Data de conclusão planejada**
    * **Data de início planejada**
 
    Todas as outras visualizações na página são atualizadas para corresponder à sua seleção de classificação.
@@ -123,7 +123,7 @@ Para saber como obter os melhores dados para essa visualização, consulte [Vis�
 
    ![](assets/pagination-350x118.png)
 
-1. (Opcional) Altere a exibição de de **horas planejadas** para **duração**.
+1. (Opcional) Altere a exibição de **horas planejadas** para **duração**.
 
    As horas planejadas são selecionadas por padrão.
 
@@ -133,21 +133,21 @@ Para saber como obter os melhores dados para essa visualização, consulte [Vis�
 
    >[!NOTE]
    >
-   >Se você selecionou a variável **duração** você verá os seguintes detalhes de duração:
+   >Se você selecionou a exibição **duração**, verá os seguintes detalhes de duração:
    >
-   >* **Cronograma planejado**: O número de dias planejados para concluir o projeto.
+   >* **Período planejado**: o número de dias planejados para concluir o projeto.
    >* **Dias trabalhados**: a duração planejada para cada tarefa que foi concluída dentro do intervalo de datas selecionado na parte superior, dividida pelo número de horas em um dia.
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >Para obter mais informações sobre duração, consulte a seção &quot;Exibição de duração&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
+   >Para obter mais informações sobre duração, consulte a seção &quot;Exibição de duração&quot; na [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Opcional) Para exportar os dados de visualização, clique no link **Ícone Exportar** ![](assets/export.png) no canto superior direito da visualização, selecione o formato de exportação:
+1. (Opcional) Para exportar os dados de visualização, clique no **ícone Exportar** ![](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
 
    * **Gráfico (PNG)**
-   * **Tabela de dados (XSLX)**
+   * **Tabela de Dados (XSLX)**
 
 1. Clique em um projeto para abrir as visualizações Burndown e Tarefas em andamento para obter um insight mais profundo sobre como as tarefas e as horas ou dias contribuíram para o tamanho de um projeto.
 
-Para obter mais informações sobre a visualização de Burndown, consulte [Exibir a visualização de Burndown na análise aprimorada](../enhanced-analytics/burndown-overview.md). Para obter mais informações sobre a visualização Tarefas em andamento, consulte [Visualização das Tarefas em andamento na Análise aprimorada](../enhanced-analytics/tasks-in-flight-overview.md).
+Para obter mais informações sobre a visualização de Burndown, consulte [Exibir a visualização de Burndown na análise aprimorada](../enhanced-analytics/burndown-overview.md). Para obter mais informações sobre as Tarefas na visualização em andamento, consulte [Exibir as Tarefas na visualização em andamento na análise aprimorada](../enhanced-analytics/tasks-in-flight-overview.md).
 

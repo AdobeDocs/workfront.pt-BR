@@ -25,6 +25,6 @@ Como os ativos nas Bibliotecas do Adobe Creative Cloud geralmente são detalhado
 
 Anteriormente, os uploads de arquivo neste módulo eram limitados a 5 MB.
 
-Para obter mais informações sobre os módulos de bibliotecas Adobe Creative Cloud, consulte [Módulos de bibliotecas da Adobe Creative Cloud](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Para obter mais informações sobre os módulos de Bibliotecas do Adobe Creative Cloud, consulte [Módulos de Bibliotecas do Adobe Creative Cloud](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
-Para obter informações sobre outras medidas de proteção de desempenho do Workfront Fusion, incluindo limites de tamanho de arquivo, consulte [Medidas de proteção de desempenho do Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+Para obter informações sobre outras medidas de proteção de desempenho do Workfront Fusion, incluindo limites de tamanho de arquivo, consulte [medidas de proteção de desempenho do Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).

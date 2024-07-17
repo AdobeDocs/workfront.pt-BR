@@ -1,8 +1,8 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Vincular ativos e pastas da Experience Manager Assets ou Assets Essentials
-description: Você pode vincular um ativo ou uma pasta do Experience Manager Assets ou Assets Essentials a qualquer objeto do Adobe Workfront que seja compatível com documentos. Os ativos enviados do Assets Essentials não contam para o armazenamento geral de documentos no Workfront. Os documentos carregados e enviados do Workfront para o Assets Essentials não contam no armazenamento geral.
+title: Vincular ativos e pastas do Experience Manager Assets ou Assets Essentials
+description: É possível vincular um ativo ou pasta do Experience Manager Assets ou do Assets Essentials a qualquer objeto do Adobe Workfront compatível com documentos. O Assets enviado do Assets Essentials não conta para o armazenamento geral de documentos no Workfront. Os documentos carregados e enviados do Workfront para o Assets Essentials contam para o armazenamento geral.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Vincular ativos e pastas da Experience Manager Assets ou Assets Essentials
+# Vincular ativos e pastas do Experience Manager Assets ou Assets Essentials
 
-Você pode vincular um ativo ou uma pasta do Experience Manager Assets ou Assets Essentials a qualquer objeto do Adobe Workfront que seja compatível com documentos. Os ativos enviados do Assets Essentials não contam para o armazenamento geral de documentos no Workfront. Os documentos carregados e enviados do Workfront para o Assets Essentials não contam no armazenamento geral.
+É possível vincular um ativo ou pasta do Experience Manager Assets ou do Assets Essentials a qualquer objeto do Adobe Workfront compatível com documentos. O Assets enviado do Assets Essentials não conta para o armazenamento geral de documentos no Workfront. Os documentos carregados e enviados do Workfront para o Assets Essentials contam para o armazenamento geral.
 
-Os campos de metadados são mapeados pela primeira vez ao enviar um ativo do Workfront para a Experience Manager Assets ou Assets Essentials. Se o administrador do Workfront ativou a sincronização de metadados de objetos, os campos permanecerão atualizados se forem alterados em qualquer um dos aplicativos.
+Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets ou Assets Essentials. Se o administrador do Workfront tiver ativado a sincronização de metadados de objeto, os campos permanecerão atualizados se forem alterados em qualquer um dos aplicativos.
 
 ## Requisitos de acesso
 
@@ -28,53 +28,53 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p> Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças Adobe Workfront*</td> 
+   <td role="rowheader">Licenças da Adobe Workfront*</td> 
    <td> <p>Solicitação ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Você deve ter o Experience Manager as a Cloud Service ou Assets Essentials e deve ser adicionado ao produto como um usuário no Admin Console.</td> 
+   <td>Você deve ter Assets Essentials Experience Manager as a Cloud Service e ser adicionado ao produto como usuário no Admin Console.</td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Permissões de Experience Manager</td> 
+    <td role="rowheader">Permissões Experience Manager</td> 
     <td>Você deve ter acesso de gravação à pasta.</td> 
    </tr>
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir acesso ou superior</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir acesso ou superior</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
 Antes de começar,
 
-* O administrador do Workfront deve configurar uma integração com o Experience Manager. Para obter mais informações, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* O administrador do Workfront deve configurar uma integração de Experience Manager. Para obter mais informações, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Vincular um ativo da Experience Manager Assets ou Assets Essentials
+## Vincular um ativo do Experience Manager Assets ou do Assets Essentials
 
-Você pode vincular um ativo do Experience Manager Assets ou Assets Essentials ao Workfront. Depois que o ativo é vinculado, é possível
+É possível vincular um ativo do Experience Manager Assets ou do Assets Essentials à Workfront. Depois que o ativo for vinculado, você poderá
 
-* [Prova de um ativo vinculado para Experience Manager Assets ou Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [Criar uma prova de um ativo vinculado para o Experience Manager Assets ou o Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [Fazer upload de uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md)
 
-1. Vá para o **Documentos** no Workfront, onde deseja adicionar o documento.
-1. Selecionar **Adicionar novo** e selecione a integração do Experience Manager configurada pelo administrador.
+1. Vá para a área **Documentos** no Workfront onde deseja adicionar o documento.
+1. Selecione **Adicionar novo** e depois selecione a integração de Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode escolher qualquer nome para essa integração, de modo que pode não mencionar especificamente o Assets ou o Assets Essentials.
+   >O administrador do Workfront pode escolher qualquer nome para essa integração, de modo que pode não mencionar especificamente Assets ou Assets Essentials.
 
 1. Selecione os ativos desejados.
 
@@ -84,14 +84,14 @@ Você pode vincular um ativo do Experience Manager Assets ou Assets Essentials a
 
 ## Vincular uma pasta do Experience Manager Assets ou Assets Essentials
 
-As permissões para exibir ativos individuais dentro de uma pasta dependem das permissões do Experience Manager Assets ou Assets Essentials.
+As permissões para visualizar ativos individuais dentro de uma pasta dependem das permissões do Experience Manager Assets ou Assets Essentials.
 
-1. Vá para o **Documentos** no Workfront, onde deseja colocar a pasta.
-1. Selecionar **Adicionar novo** e selecione a integração do Experience Manager configurada pelo administrador.
+1. Vá para a área **Documentos** no Workfront onde deseja colocar a pasta.
+1. Selecione **Adicionar novo** e depois selecione a integração de Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode escolher qualquer nome para essa integração, de modo que talvez não mencione especificamente os Ativos ou o Assets Essentials.
+   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, pode ser que ele não mencione especificamente o Assets ou o Assets Essentials.
 
 1. Selecione as pastas desejadas.
 
@@ -101,19 +101,19 @@ As permissões para exibir ativos individuais dentro de uma pasta dependem das p
 
 ## Vincular uma nova versão do Experience Manager Assets ou Assets Essentials
 
-Você pode extrair um novo ativo do Assets Essentials e adicioná-lo a um ativo existente como uma nova versão. Se o documento já estiver vinculado e uma nova versão for adicionada ao Assets Essentials, a nova versão será exibida automaticamente no Workfront.
+Você pode obter um novo ativo do Assets Essentials e adicioná-lo a um ativo existente como uma nova versão. Se o documento já estiver vinculado e uma nova versão for adicionada ao Assets Essentials, a nova versão será exibida automaticamente no Workfront.
 
 Para vincular uma nova versão do Assets Essentials:
 
-1. Vá para o **Documentos** no Workfront, onde deseja adicionar o documento.
+1. Vá para a área **Documentos** no Workfront onde deseja adicionar o documento.
 1. Selecione o ativo que deseja substituir por uma nova versão. Não é possível criar uma nova versão de um ativo em uma pasta vinculada.
-1. Selecionar **Adicionar novo** > **Versão** e selecione a integração do Experience Manager configurada pelo administrador.
+1. Selecione **Adicionar novo** > **Versão** e depois selecione a integração de Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode escolher qualquer nome para essa integração, de modo que talvez não mencione especificamente os Ativos ou o Assets Essentials.
+   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, pode ser que ele não mencione especificamente o Assets ou o Assets Essentials.
 
-1. Selecione o ativo que deseja.
+1. Selecione o ativo desejado.
 
    ![](assets/select-an-asset.png)
 
@@ -121,4 +121,4 @@ Para vincular uma nova versão do Assets Essentials:
 
 >[!TIP]
 >
->É possível exibir todas as versões de um ativo em **Detalhes do documento** > **Versões**.
+>Você pode exibir todas as versões de um ativo se acessar **Detalhes do documento** > **Versões**.

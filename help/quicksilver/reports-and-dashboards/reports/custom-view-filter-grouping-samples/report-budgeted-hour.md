@@ -52,22 +52,22 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Criar um relatório de horas orçadas
 
-1. Clique em **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito e clique em **Relatórios**.
+1. Clique no **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito e em **Relatórios**.
 
-1. Clique em **Novo relatório > Hora orçada**.
+1. Clique em **Novo Relatório > Hora Orçada**.
 
    A visualização padrão é aplicada ao relatório.
 
-1. (Opcional) Para facilitar a leitura do relatório, clique no link **Horas orçadas** coluna, depois **Alternar para modo de texto** e, em seguida, altere o
+1. (Opcional) Para facilitar a leitura do relatório, clique na coluna **Horas Orçadas** e depois em **Alternar para o Modo de Texto** e altere a variável
 
    ```
    valuefield
@@ -85,18 +85,18 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    Para obter informações sobre como arredondar um número no Workfront, consulte o artigo [Visão geral das expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. (Opcional) Clique em **Adicionar coluna** para adicionar mais colunas.
+1. (Opcional) Clique em **Adicionar coluna** para adicionar outras colunas.
 1. (Opcional) Para facilitar a leitura do relatório, recomendamos adicionar um agrupamento a ele. Sugerimos o seguinte agrupamento:
 
-   Clique em **Agrupamentos** e execute um ou vários dos procedimentos a seguir:
+   Clique na guia **Agrupamentos** e siga um ou vários destes procedimentos:
 
-   1. Clique em **Adicionar Agrupamento** e comece digitando &quot;Nome do projeto&quot;, em seguida, selecione-o quando ele aparecer na lista.
-   1. Clique em **Adicionar Agrupamento** e comece digitando &quot;Nome da função de trabalho&quot;, em seguida, selecione-o quando ele aparecer na lista.
-   1. Clique em **Adicionar Agrupamento** e comece a digitar **Data de Alocação**, selecione-o quando ele aparecer na lista e selecione o período pelo qual deseja agrupar na **Datas de Grupo por** campo.
+   1. Clique em **Adicionar agrupamento**, comece a digitar &quot;Nome do projeto&quot; e depois selecione-o quando ele aparecer na lista.
+   1. Clique em **Adicionar Agrupamento**, comece digitando &quot;Nome da Função&quot; e depois selecione-o quando ele aparecer na lista.
+   1. Clique em **Adicionar agrupamento** e comece digitando **Data de Alocação**, selecione-a quando ela aparecer na lista e depois selecione o período pelo qual deseja agrupar a partir do campo **Agrupar Datas por**.
 
-1. (Opcional) Clique em **Filtros** para adicionar filtros ao relatório.
-1. (Opcional) Clique em **Gráfico** para adicionar um gráfico ao relatório.
-1. Clique em **Salvar + Fechar**.
+1. (Opcional) Clique em **Filtros** para adicionar filtros ao relatório.
+1. (Opcional) Clique em **Gráfico** para adicionar um gráfico ao relatório.
+1. Clique em **Salvar + Fechar**.
 
 ## Revise o relatório Hora orçada
 

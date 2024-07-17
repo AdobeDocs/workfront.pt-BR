@@ -41,7 +41,7 @@ Você pode fazer isso no Workfront configurando o seguinte:
 
 * Crie um relatório para mostrar qualquer problema pendente que não tenha sido fechado dentro de 5 dias.
 
-  Para obter mais informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Melhore o tempo gasto com projetos e melhore as despesas orçamentárias no próximo ano
 
@@ -49,7 +49,7 @@ Você pode fazer isso no Workfront configurando o seguinte:
 
 * Desenvolva uma metodologia padrão de projeto para sua organização. Isso inclui a identificação dos usuários responsáveis pela criação e gerenciamento de projetos e a concessão de quaisquer aprovações.
 
-  Para obter mais informações sobre a criação de projetos, consulte [Criar um projeto](../../manage-work/projects/create-projects/create-project.md).
+  Para obter mais informações sobre como criar projetos, consulte [Criar um projeto](../../manage-work/projects/create-projects/create-project.md).
 
   Para obter mais informações sobre como criar processos de aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -60,7 +60,7 @@ Você pode fazer isso no Workfront configurando o seguinte:
 * Inclua uma abordagem de práticas recomendadas para fornecer qualidade em cada projeto.
 * Identifique projetos repetíveis que possam ser usados para criar modelos.
 
-  Para obter mais informações sobre a criação de modelos, consulte [Criar um modelo de projeto](../../manage-work/projects/create-and-manage-templates/create-template.md).
+  Para obter mais informações sobre como criar modelos, consulte [Criar um modelo de projeto](../../manage-work/projects/create-and-manage-templates/create-template.md).
 
 * Crie um painel que mostre o progresso dos portfólios de projetos deste ano.
 
@@ -72,7 +72,7 @@ Você pode fazer isso no Workfront configurando o seguinte:
 
 * Desenvolva um processo para a entrega de serviços e use o Workfront para gerenciar tarefas associadas a qualquer responsabilidade diária ou semanal.
 * Use as ferramentas de Gerenciamento de recursos para exibir a alocação de recursos para tarefas, para que você possa entender melhor como melhorar a produtividade e a qualidade do delivery.\
-  Para obter mais informações sobre o Planejamento de Recursos, consulte [Planejamento de Recursos : índice de artigo](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  Para obter mais informações sobre o Planejamento de Recursos, consulte [Planejamento de Recursos: índice do artigo](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Definir critérios de sucesso
 

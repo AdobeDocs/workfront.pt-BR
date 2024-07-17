@@ -21,11 +21,11 @@ Você pode adicionar documentos a projetos, tarefas ou problemas nas seguintes �
 * A área Documentos de um objeto do Workfront
 * Uma placa conectada em uma placa Workfront
 
-Você também pode carregar novas versões de documentos e adicionar links para documentos de fornecedores de nuvem de terceiros, como Google Drive, Dropbox e Microsoft OneDrive. Para obter informações sobre como adicionar novas versões de documentos, consulte [Fazer upload de uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md). Para obter informações sobre como adicionar documentos de fornecedores de nuvem de terceiros, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Você também pode carregar novas versões de documentos e adicionar links para documentos de fornecedores de nuvem de terceiros, como Google Drive, Dropbox e Microsoft OneDrive. Para obter informações sobre como adicionar novas versões de documentos, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md). Para obter informações sobre como adicionar documentos de fornecedores de nuvem de terceiros, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Não há restrições quanto aos tipos e tamanhos de arquivos que você pode carregar no Workfront. No entanto, para ser bem-sucedido, o upload deve ser concluído em cinco minutos e você deve ter espaço de armazenamento adequado disponível.
 
-Se precisar de informações sobre o upload de novas versões de um documento no Workfront, consulte [Fazer upload de uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md).
+Se você precisar de informações sobre como carregar novas versões de um documento no Workfront, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Requisitos de acesso
 
@@ -69,7 +69,7 @@ Você pode adicionar novos documentos ao Workfront a partir do sistema de arquiv
 Para adicionar um documento:
 
 1. Vá para o projeto, tarefa ou problema em que deseja adicionar um novo documento.
-1. Clique em **Documentos** e clique na guia **Adicionar novo** menu suspenso.
+1. Clique na guia **Documentos** e no menu suspenso **Adicionar novo**.
 
    ![](assets/add-new-doc.png)
 
@@ -83,17 +83,17 @@ Para adicionar um documento:
       <td role="rowheader">Fazer upload de documentos do sistema de arquivos na estação de trabalho</td> 
       <td> 
        <ol> 
-        <li value="1">No <strong>Adicionar novo</strong> selecione <strong>Documento.</strong></li> 
+        <li value="1">No menu suspenso <strong>Adicionar novo</strong>, selecione <strong>Documento.</strong></li> 
         <li value="2"> <p>Procure e selecione o documento que deseja adicionar do sistema de arquivos na estação de trabalho.<br></p> <p>Você pode selecionar vários documentos pressionando a tecla Shift enquanto seleciona arquivos adicionais.</p> </li> 
-        <li value="3">Clique em <strong>Abertura</strong>.</li> 
+        <li value="3">Clique em <strong>Abrir</strong>.</li> 
        </ol> 
-       <p><b>NOTA</b>: Também é possível arrastar e soltar arquivos diretamente do gerenciador de arquivos na lista de documentos.</td> 
+       <p><b>OBSERVAÇÃO</b>: você também pode arrastar e soltar arquivos diretamente do gerenciador de arquivos na lista de documentos.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fazer upload de documentos de um aplicativo de terceiros, como o Google Drive ou o SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>No <strong>Adicionar novo</strong> selecione <strong>De &lt;name_of_third-party_application&gt;</strong>.</p> <p>Por exemplo, para carregar um documento do Google Drive, clique em <strong>Do Google Drive</strong>.</p> </li> 
+        <li value="1"> <p>No menu suspenso <strong>Adicionar novo</strong>, selecione <strong>De &lt;name_of_third-party_application&gt;</strong>.</p> <p>Por exemplo, para carregar um documento do Google Drive, clique em <strong>Do Google Drive</strong>.</p> </li> 
         <li value="2"> <p>Siga as instruções para selecionar o documento no aplicativo de terceiros.<br></p> <p>Para obter mais informações sobre documentos vinculados, consulte <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Vincular documentos de aplicativos externos</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -101,10 +101,10 @@ Para adicionar um documento:
       <td role="rowheader">Solicitar um documento de outro usuário do Workfront</td> 
       <td> 
        <ol> 
-        <li value="1">No <strong>Adicionar novo</strong> selecione <strong>Solicitar um documento</strong>.</li> 
-        <li value="2">No <strong>De quem você está solicitando o item</strong> digite o nome do usuário do qual você está solicitando o documento.</li> 
-        <li value="3">No <strong>Diga a eles o que você está solicitando</strong> digite o nome do documento.</li> 
-        <li value="4"> <p>Clique em <strong>Enviar solicitação</strong>.</p> <p>Sua solicitação é exibida na guia Documentos.</p> <p>Para obter mais informações sobre a solicitação de documentos, consulte <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Solicitar um documento</a>.</p> </li> 
+        <li value="1">No menu suspenso <strong>Adicionar novo</strong>, selecione <strong>Solicitar um documento</strong>.</li> 
+        <li value="2">Na caixa <strong>De quem você está solicitando o documento</strong>, digite o nome do usuário de quem você está solicitando o documento.</li> 
+        <li value="3">Na caixa <strong>Diga a eles o que você está solicitando</strong>, digite o nome do documento.</li> 
+        <li value="4"> <p>Clique em <strong>Enviar solicitação</strong>.</p> <p>Sua solicitação é exibida na guia Documentos.</p> <p>Para obter mais informações sobre a solicitação de documentos, consulte <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Solicitar um Documento</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 

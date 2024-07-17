@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 1 2018.2
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 1 de 2018.2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 22 de março de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
+title: Atividade da versão 2018.2 do Beta 1
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 22 de março de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 1 2018.2
+# Atividade da versão 2018.2 do Beta 1
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 1 de 2018.2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 22 de março de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 22 de março de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
 
 >[!IMPORTANT]
 >
 >A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte [Visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte a [visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-A versão Beta 1 de 2018.2 contém as seguintes melhorias:
+A versão 2018.2 do Beta 1 contém as seguintes melhorias:
 
 * [Modificar Datas da Tarefa no Gráfico de Gantt](#modify-task-dates-in-the-gantt-chart)
-* [Acesse o Gráfico de Gantt do Projeto na Guia Atualizações](#access-the-project-gantt-chart-from-the-updates-tab) (Removido Temporariamente)
+* [Acesse o Gráfico de Gantt do Projeto da Guia Atualizações](#access-the-project-gantt-chart-from-the-updates-tab) (Removido Temporariamente)
 
-* [Vários links foram reintroduzidos a documentos na lista de documentos](#various-links-re-introduced-to-documents-on-the-document-list)
-* [Melhorias na visualização do usuário no Planejador de recursos](#user-view-improvements-in-the-resource-planner)
-* [Nova experiência de lista de projetos](#new-project-list-experience)
+* [Vários Links Reintroduzidos a Documentos na Lista de Documentos](#various-links-re-introduced-to-documents-on-the-document-list)
+* [Melhorias na exibição do usuário no Planejador de recursos](#user-view-improvements-in-the-resource-planner)
+* [Nova Experiência de Lista de Projetos](#new-project-list-experience)
 * [Nova Guia Procurar Atualizações](#new-look-for-updates-tab)
 * [Melhorias na mobilidade](#mobile-improvements)
 
@@ -41,7 +41,7 @@ Agora você pode arrastar a bolha de tarefas para alterar as Datas de Início Pl
 
 Antes dessa alteração, você poderia alterar as datas da tarefa somente na lista de tarefas ou no nível da tarefa.
 
-Para obter mais informações, consulte [Atualizar informações no Diagrama de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obter mais informações, consulte [Atualizar informações no Gráfico de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Acesse o Gráfico de Gantt do Projeto na Guia Atualizações {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,9 +53,9 @@ Agora você pode acessar o novo gráfico de Gantt do projeto na guia Atualizaç�
 
 Antes dessa alteração, o link Linha do tempo do projeto abria o Gráfico de Gantt herdado.
 
-Para obter mais informações, consulte [Visão geral da data de compromisso](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Para obter mais informações, consulte [Visão geral da Data de Confirmação](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-Para obter mais informações, consulte [Visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Para obter mais informações, consulte [visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Vários links foram reintroduzidos a documentos na lista de documentos {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -119,10 +119,10 @@ Na maioria das vezes, as mudanças estão na velocidade e eficiência da lista. 
 
 Os seguintes recursos foram temporariamente desabilitados nas listas de projetos especificadas:
 
-* Redimensionamento de colunas (Essa funcionalidade foi reintroduzida na versão Beta 5 de 2018.2)
+* Redimensionamento de colunas (essa funcionalidade foi reintroduzida na versão 2018.2 do Beta 5)
 * Reorganização de coluna
-* Os campos de ícone de status são exibidos como em branco (essa funcionalidade foi reintroduzida na versão Beta 5 de 2018.2)
-* O gráfico de Gantt não está acessível (essa funcionalidade foi reintroduzida na versão Beta 3 de 2018.2).
+* Os campos de ícone de status são exibidos como em branco (essa funcionalidade foi reintroduzida na versão 2018.2 do Beta 5)
+* O Gráfico de Gantt não está acessível (essa funcionalidade foi reintroduzida na versão 2018.2 do Beta 3.)
 
 Para obter mais informações sobre como trabalhar em listas, consulte [Introdução a listas no Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -178,13 +178,13 @@ A tabela a seguir mostra as atualizações feitas na guia Atualizações:
    <td> <p>Permitir que apenas usuários em sua empresa visualizem um objeto</p> </td> 
    <td> <p>Clique no ícone Bloquear</p> </td> 
    <td> <p>Ativar a opção Privado para minha empresa</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outros usuários em atualizações</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outros usuários sobre atualizações</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Permitir que usuários fora da empresa visualizem um objeto</p> </td> 
    <td> <p>Clique no ícone Bloquear</p> </td> 
    <td> <p>Desativar a alternância de Privado para Minha Empresa</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outros usuários em atualizações</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outros usuários sobre atualizações</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Adicionar uma resposta ou atualização a um comentário ou atualização</p> </td> 
@@ -203,7 +203,7 @@ O aplicativo móvel contém as seguintes melhorias:
 
   Para obter mais informações sobre compartilhamento de links, consulte .
 
-  Essa atualização será lançada no iOS às vezes nessa semana, e a atualização do Android deve seguir logo depois.
+  Essa atualização será lançada no iOS às vezes nesta semana, e a atualização do Android deve seguir logo depois.
 
 * Atualizamos nossos requisitos de suporte para a plataforma iOS para oferecer suporte ao iPhone X.
 

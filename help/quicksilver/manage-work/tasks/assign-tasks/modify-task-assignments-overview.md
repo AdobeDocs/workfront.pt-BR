@@ -35,7 +35,7 @@ Este artigo contém informações gerais sobre o impacto da modificação de atr
 * Para obter informações sobre como modificar atribuições em várias tarefas na área Programação, consulte &quot;Modificar atribuições de vários usuários a tarefas nas áreas Programação&quot;.
 * Para obter informações sobre como atribuir tarefas usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Algumas informações neste artigo também se aplicam às atribuições aos problemas. Para obter mais informações sobre a atribuição de problemas e considerações adicionais, consulte [Visão geral da modificação de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Algumas informações neste artigo também se aplicam às atribuições aos problemas. Para obter mais informações sobre atribuição de problemas e considerações adicionais, consulte [Visão geral da modificação de atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## Quando modificar atribuições de usuário em tarefas
 
@@ -46,7 +46,7 @@ Talvez você queira modificar as atribuições de usuário para tarefas por vár
 
   >[!NOTE]
   >
-  >Ao atribuir usuários para trabalhar, sua disponibilidade de acordo com seus agendamentos afetará as Datas Planejadas e Projetadas das tarefas. Para obter informações sobre programações, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >Ao atribuir usuários para trabalhar, sua disponibilidade de acordo com seus agendamentos afetará as Datas Planejadas e Projetadas das tarefas. Para obter informações sobre agendamentos, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Uma função ou usuário específico é definido como o destinatário de várias tarefas e você deseja modificar rapidamente todos os itens a serem atribuídos a um usuário ou função diferente
 
@@ -54,7 +54,7 @@ Talvez você queira modificar as atribuições de usuário para tarefas por vár
 
 Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
-* Os usuários podem ter mais de uma função de trabalho associada ao seu perfil. Para obter informações sobre como associar usuários a funções de trabalho, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Os usuários podem ter mais de uma função de trabalho associada ao seu perfil. Para obter informações sobre como associar usuários a funções de trabalho, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Geralmente, tarefas ou problemas são atribuídos primeiro a uma ou várias funções de trabalho ou a uma equipe. Quando os projetos estiverem prontos para serem iniciados, talvez também seja necessário atribuí-los aos usuários.\
   Se uma tarefa ou um problema for atribuído a uma ou várias funções e você também atribuir um usuário, o Adobe Workfront decide qual função de trabalho deve ser associada ao usuário adicional (se houver) de acordo com as seguintes regras:
@@ -67,17 +67,17 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
 ## Como a remoção de atribuídos afeta as horas da tarefa e as porcentagens de alocação
 
-A remoção de usuários pode afetar as horas de tarefas e as porcentagens de alocação. O efeito que a remoção de um usuário tem na tarefa depende do Tipo de Duração que foi selecionado para a tarefa. Para obter informações sobre o Tipo de duração, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+A remoção de usuários pode afetar as horas de tarefas e as porcentagens de alocação. O efeito que a remoção de um usuário tem na tarefa depende do Tipo de Duração que foi selecionado para a tarefa. Para obter informações sobre o Tipo de Duração, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Ao excluir um usuário de uma tarefa com os seguintes Tipos de duração:
 
-* **Simples:** As horas planejadas atribuídas a esse usuário são subtraídas do total de horas planejadas da tarefa.
+* **Simples:** as horas planejadas atribuídas a esse usuário são subtraídas do total de horas planejadas da tarefa.
 
   >[!IMPORTANT]
   >
   >Isso pode afetar negativamente o plano do projeto, pois altera o total de horas planejadas da tarefa e do projeto.
 
-* **Orientado pelo esforço:** A porcentagem de alocação não é alterada para outros usuários.
+* **Orientado pelo Esforço:** A porcentagem de alocação não é alterada para outros usuários.
 * **Atribuição Calculada:** As porcentagens de alocação de outros usuários são ajustadas para que o total seja igual a 100%.
 * **Trabalho Calculado:** A porcentagem de alocação não é alterada para outros usuários.
 
@@ -85,7 +85,7 @@ Ao excluir um usuário de uma tarefa com os seguintes Tipos de duração:
 
 Você pode remover atribuições de uma tarefa de cada vez ou remover atribuições de várias tarefas em massa.
 
-Para obter mais informações sobre como remover atribuições de tarefas em massa, consulte [Modificar atribuições de vários usuários em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+Para obter mais informações sobre como remover atribuições de tarefas em massa, consulte [Modificar várias atribuições de usuário em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 Considere o seguinte ao remover atribuições de tarefas:
 

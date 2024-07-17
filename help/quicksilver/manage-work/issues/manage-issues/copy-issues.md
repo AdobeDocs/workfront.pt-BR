@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -46,16 +46,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a problemas em seu Nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre acesso a problemas em seu Nível de Acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do problema</p> <p>Contribua com permissões para o item no qual você está copiando o problema com a capacidade de Adicionar problemas.</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre a solicitação de permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do problema</p> <p>Permissões do Contribute para o item no qual você está copiando o problema com a capacidade de Adicionar problemas.</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações ao copiar problemas
 
@@ -78,9 +78,9 @@ Os seguintes objetos não são copiados para a nova ocorrência, por padrão:
 
 Considere o seguinte ao copiar problemas que contêm documentos ou estão associadas a uma fila de solicitações:
 
-* **Quando um problema é associado a uma fila de solicitações:** Quando você copia uma ocorrência para outro objeto e a ocorrência está associada a uma fila de solicitações, a ocorrência copiada não está mais associada à fila original da qual a primeira ocorrência se originou.
-* **Quando um documento é anexado ao problema:** Quando você copia uma ocorrência para outro objeto e a ocorrência tem um documento anexado a ela, o documento e suas versões também são movidos para a nova ocorrência. As provas ou aprovações associadas ao documento não são movidas.
-* **Quando um problema é vinculado a um documento ou pasta:** Quando você copia um problema que tem documentos ou pastas vinculados a um serviço de terceiros, como o Google Drive, os links para os documentos são transferidos para o problema copiado.
+* **Quando um problema está associado a uma fila de solicitações:** Quando você copia um problema para outro objeto e o problema está associado a uma fila de solicitações, o problema copiado não está mais associado à fila original da qual o primeiro problema se originou.
+* **Quando um documento é anexado ao problema:** Quando você copia um problema para outro objeto e o problema tem um documento anexado a ele, o documento e suas versões também são movidos para o novo problema. As provas ou aprovações associadas ao documento não são movidas.
+* **Quando um problema está vinculado a um documento ou a uma pasta:** Quando você copia um problema que tem documentos ou pastas vinculados a um serviço de terceiros, como o Google Drive, os links para os documentos são transferidos para o problema copiado.
 
 ## Copiar problemas em uma lista
 
@@ -92,12 +92,12 @@ Você pode copiar um ou vários problemas de uma lista ou de um relatório de pr
 
    Ir para um relatório de problemas.
 
-1. Se você selecionou ir para um projeto, clique em **Problemas** no painel esquerdo.
-1. Selecione o problema ou problemas que deseja copiar e clique no botão **Menu Mais** na parte superior da lista de problemas, em seguida, clique em **Copiar para**.
+1. Se você optou por ir para um projeto, clique em **Problemas** no painel esquerdo.
+1. Selecione o(s) problema(s) que deseja copiar e clique no **menu Mais** na parte superior da lista de problemas, depois clique em **Copiar para**.
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. Continue copiando o problema, conforme descrito na seção [Copiar um único problema](#copy-a-single-issue) começando com a Etapa 2.
+1. Continue copiando o problema, conforme descrito na seção [Copiar um único problema](#copy-a-single-issue), começando com a Etapa 2.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,30 +109,30 @@ Você pode copiar um ou vários problemas de uma lista ou de um relatório de pr
 
 Você pode copiar um problema ao visualizá-lo.
 
-1. Vá para um problema que deseja copiar e clique no link **Mais** menu ![](assets/more-icon.png) à direita do nome do problema, depois **Copiar** para.
+1. Vá para um problema que você deseja copiar e clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do problema e em **Copiar** para.
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
-   A variável **Copiar Problema** é exibida.
+   A caixa **Copiar Problema** é exibida.
 
    ![](assets/copy-issue-box-nwe-350x285.png)
 
-1. No **Selecionar projeto de destino** especifique o nome do projeto no qual deseja copiar os problemas. O nome do projeto atual é exibido por padrão.
+1. Na seção **Selecionar projeto de destino**, especifique o nome do projeto para o qual deseja copiar os problemas. O nome do projeto atual é exibido por padrão.
 
    >[!TIP]
    >
    >Somente 100 projetos são exibidos na lista.
 
-1. (Condicional) Clique em **solicitar acesso** se você não tiver acesso para copiar problemas no projeto.
+1. (Condicional) Clique em **solicitar acesso** se você não tiver acesso para copiar problemas para o projeto.
 1. (Condicional) Continue a copiar o problema para o projeto de destino selecionado sem solicitar acesso se tiver acesso para adicionar problemas a uma das tarefas no projeto de destino.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Mensagens semelhantes serão exibidas se o projeto selecionado estiver com aprovação pendente, concluído ou inativo, quando o administrador do Workfront impedir a adição de problemas a esses projetos. Para obter mais informações, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Mensagens semelhantes serão exibidas se o projeto selecionado estiver com aprovação pendente, concluído ou inativo, quando o administrador do Workfront impedir a adição de problemas a esses projetos. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Opcional) Na **Opções** desmarque qualquer um dos itens listados na tabela abaixo para removê-los do novo problema. Todas as opções são selecionadas por padrão.
+1. (Opcional) Na seção **Opções**, desmarque qualquer um dos itens listados na tabela abaixo para removê-los do novo problema. Todas as opções são selecionadas por padrão.
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Você pode copiar um problema ao visualizá-lo.
      </tr> 
      <tr> 
       <td role="rowheader">Documentos</td> 
-      <td><span style="line-height: 1.5;">Remove tudo na guia documentos, incluindo versões de documentos, documentos vinculados e pastas.</span> <br>Por padrão, provas e aprovações de documentos não podem ser copiadas para outro problema.</td> 
+      <td><span style="line-height: 1.5;">Remove tudo na guia de documentos, incluindo versões de documentos, documentos vinculados e pastas.</span> <br>Por padrão, provas e aprovações de documentos não podem ser copiadas para outro problema.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permissões</td> 
@@ -169,8 +169,8 @@ Você pode copiar um problema ao visualizá-lo.
     </tbody> 
    </table>
 
-1. (Opcional) Na **Selecionar tarefa** selecione a tarefa para onde deseja mover o problema.
-1. Clique em **Copiar problema** ou **Copiar problemas** se você selecionou várias ocorrências em uma lista.
+1. (Opcional) Na seção **Selecionar tarefa**, selecione a tarefa para onde deseja mover o problema.
+1. Clique em **Copiar problema** ou **Copiar problemas** se você selecionou vários problemas em uma lista.
 
    Os problemas copiados são adicionados ao projeto especificado.
 

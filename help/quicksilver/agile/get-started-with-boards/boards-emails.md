@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Notificações e preferências de email dos painéis
 
-[!DNL Adobe Workfront] [!UICONTROL Quadros] O envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você. As notificações são ativadas por padrão e você pode selecionar em suas preferências de Quadros quais emails deseja receber.
+[!DNL Adobe Workfront] [!UICONTROL Quadros] envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você. As notificações são ativadas por padrão e você pode selecionar em suas preferências de Quadros quais emails deseja receber.
 
 Você também receberá um email quando estiver marcado em um comentário em um cartão conectado, dependendo das configurações de notificação por email. Para obter mais informações, consulte [Modificar suas próprias notificações por email](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). No momento, os usuários marcados em comentários em cartões ad hoc não recebem uma notificação por email.
 
@@ -32,7 +32,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -41,7 +41,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Definir preferências para emails de Quadros
 

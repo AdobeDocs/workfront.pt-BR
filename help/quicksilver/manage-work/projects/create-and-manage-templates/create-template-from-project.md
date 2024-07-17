@@ -9,7 +9,7 @@ role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -52,17 +52,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Visualizar ou aumentar as permissões de um projeto </p> <p>Você obtém permissões de gerenciamento para o modelo após criá-lo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualizar ou aumentar as permissões de um projeto </p> <p>Você obtém permissões de gerenciamento para o modelo após criá-lo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Criar modelo a partir do projeto
 
 1. Vá para o projeto que deseja salvar como modelo.
-1. Clique em **Mais** menu ![](assets/qs-more-icon-on-an-object.png), depois **Salvar como modelo**.
+1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) e depois em **Salvar como Modelo**.
 1. Especifique as seguintes informações para o modelo:
 
    <table style="table-layout:auto"> 
@@ -81,32 +81,32 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td role="rowheader">Está ativo</td> 
       <td> <p>Selecione entre as seguintes opções:</p> 
        <ul> 
-        <li> <p><strong>Sim</strong>: outros usuários podem encontrar o modelo e anexá-lo a projetos.</p> </li> 
+        <li> <p><strong>Sim</strong>: outros usuários podem encontrar o modelo e anexá-lo aos projetos.</p> </li> 
         <li><strong>Não</strong>: outros usuários não podem encontrar o modelo e não podem anexá-lo a projetos.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Formulários personalizados</td> 
-      <td>Use a lista suspensa para selecionar qualquer formulário personalizado para anexar ao modelo. Se algum formulário personalizado já tiver sido associado ao projeto, todos os campos de dados desses formulários personalizados serão exibidos.<br>É possível incluir até 10 formulários personalizados em um único modelo.</td> 
+      <td>Use a lista suspensa para selecionar qualquer formulário personalizado para anexar ao modelo. Se algum formulário personalizado já tiver sido associado ao projeto, todos os campos de dados desses formulários personalizados serão exibidos.<br>Você pode incluir até 10 formulários personalizados em um único modelo.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clique em **Gerenciar o Forms** para remover ou reordenar os formulários. Para obter informações sobre como remover e reordenar formulários personalizados no modelo, consulte [Formulários personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Clique em **Gerenciar Forms** para remover ou reordenar os formulários. Para obter informações sobre como remover e reordenar formulários personalizados no modelo, consulte [Formulários personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
 1. Clique em **Próxima etapa.**
-1. No **Opções** marque a caixa de seleção ao lado de qualquer informação que você deseja apagar do modelo.
+1. Na seção **Opções**, marque a caixa de seleção ao lado de qualquer informação que você deseja apagar do modelo.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
 1. Clique em **Próxima etapa.**
-1. No **Excluir** selecione as tarefas que deseja excluir do projeto.
+1. Na seção **Excluir**, selecione as tarefas que deseja excluir do projeto.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Clique em **Finalizar e salvar modelo.**
+1. Clique em **Concluir e Salvar Modelo.**
 
    Seu modelo agora aparece na lista de modelos disponíveis e pode ser anexado a um projeto existente ou usado para criar um novo.
 

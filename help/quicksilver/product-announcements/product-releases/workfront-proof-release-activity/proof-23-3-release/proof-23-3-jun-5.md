@@ -25,10 +25,12 @@ Esses aprimoramentos serão disponibilizados no ambiente de Produção com a ver
 
 Para manter uma solução de processamento de prova robusta e escalonável, estamos alterando nossos tipos de arquivo do Microsoft Office e limites de tamanho de arquivo compatíveis.
 
-Os seguintes tipos de arquivos do Office não são mais suportados como provas: XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
+Os seguintes tipos de arquivos do Office não são mais suportados como provas:
+XLT, XLTX, PONTO, DOTX, POT, POTX, PPS, PPSX
 
-Os usuários podem continuar criando provas para os seguintes tipos de arquivos do Office: DOC, DOCX, PPT, PPTX, XLS, XLSX
+Os usuários podem continuar criando provas para os seguintes tipos de arquivos do Office:
+DOC, DOCX, PPT, PPTX, XLS, XLSX
 
 O limite de tamanho do arquivo do PowerPoint e do Word agora é de 512 MB.
 
-Para obter mais informações, consulte [Visão geral de tipos de arquivo de comprovação e limites de tamanho compatíveis](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Para obter mais informações, consulte [Visão geral sobre tipos de arquivos de comprovação e limites de tamanho com suporte](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

@@ -1,56 +1,56 @@
 ---
-title: Adicionar lógica de exibição e ignorar lógica a um formulário personalizado
-description: Adicionar lógica de exibição e ignorar lógica a um formulário personalizado
+title: Adicionar lógica de exibição e lógica de salto a um formulário personalizado
+description: Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 draft: Probably
 source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
 
-# Adicionar lógica de exibição e ignorar lógica a um formulário personalizado
+# Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 
-Você pode usar regras inteligentes para tornar um formulário personalizado dinâmico e mais relevante para os usuários que o preencherem. Quando um usuário responde de determinada maneira a um campo de múltipla escolha em um formulário, uma regra inteligente mostra o que você deseja que ele veja em seguida, com base nessa resposta.
+Você pode usar regras inteligentes para tornar um formulário personalizado dinâmico e mais relevante para os usuários que o preenchem. Quando um usuário responde de determinada maneira a um campo de múltipla escolha em um formulário, uma regra inteligente mostra a ele o que você deseja que veja a seguir, com base nessa resposta.
 
-Os tipos de campos de múltipla escolha são Menu suspenso, Caixas de seleção e Botões de opção.
+Os tipos de campo de múltipla escolha são Suspenso, Caixas de seleção e Botões de opção.
 
-* **Exibir lógica**: Você configura uma regra de lógica de exibição no campo, no widget ou na seção que deseja que o usuário veja somente depois de selecionar uma escolha específica em um campo de múltipla escolha anterior.
+* **Lógica de exibição**: você configura uma regra de lógica de exibição no campo, widget ou seção que você deseja que o usuário veja somente depois de selecionar uma opção específica em um campo de múltipla escolha anterior.
 
-   **Exemplo:** Você está criando um formulário de Solicitação de conteúdo de marketing em que as pessoas em sua organização podem solicitar um novo logotipo, atualização de site, folheto ou outros tipos de conteúdo de marketing. Com base no tipo de conteúdo que o usuário deseja, é necessário solicitar a eles diferentes tipos de detalhes, como cores e ideias de design, se eles precisarem de um logotipo ou uma lista de recursos do produto, caso precisem de um folheto.
+  **Exemplo:** Você está criando um formulário de Solicitação de Conteúdo de Marketing no qual as pessoas da sua organização podem solicitar um novo logotipo, atualização de site, folheto ou outros tipos de conteúdo de marketing. Com base no tipo de conteúdo que o usuário deseja, você precisa solicitar diferentes tipos de detalhes, como cores e ideias de design se precisar de um logotipo ou uma lista de recursos do produto se precisar de um folheto.
 
-   No campo perguntando sobre cores e detalhes para um novo logotipo, é possível adicionar uma regra de lógica de exibição que exibe esse campo somente depois que o usuário seleciona o botão de opção Logotipo no primeiro campo.
+  No campo que pergunta sobre cores e detalhes de um novo logotipo, é possível adicionar uma regra de lógica de exibição que exibe esse campo somente depois que o usuário seleciona o botão de opção Logotipo no primeiro campo.
 
-   Da mesma forma, no campo perguntando sobre os recursos do produto, é possível adicionar uma regra de lógica de exibição que exibe esse campo somente depois que um usuário seleciona o botão de opção Brochura no primeiro campo.
+  Da mesma forma, no campo que pergunta sobre recursos do produto, é possível adicionar uma regra de lógica de exibição que exiba esse campo somente depois que um usuário selecionar o botão de opção Folheto no primeiro campo.
 
-   ![](assets/display-logic-logo-request-350x196.png)
+  ![](assets/display-logic-logo-request-350x196.png)
 
-   Você pode configurar regras de lógica de exibição em qualquer campo personalizado, widget ou quebra de seção que siga um campo de múltipla escolha.
+  Você pode configurar regras de lógica de exibição em qualquer campo personalizado, widget ou quebra de seção que siga um campo de múltipla escolha.
 
-* **Ignorar regra lógica**: Essa regra é configurada para ocultar partes de um formulário que o usuário não precisa. Quando o usuário seleciona um item específico em um campo de múltipla escolha anterior, a regra de lógica de ignorar os ignora até o final do formulário ou até um campo, widget ou seção personalizado que você deseja que eles vejam.
+* **Ignorar regra de lógica**: você configura esta regra para ocultar partes de um formulário de que o usuário não precisa. Quando o usuário seleciona um item específico em um campo de múltipla escolha anterior, a regra de lógica de salto o ignora até o final do formulário ou até um campo, widget ou seção personalizada que você deseja que ele veja.
 
-   **Exemplo:** Alguém usa o formulário de Solicitação de conteúdo de marketing acima para solicitar um white paper, que é fornecido por Vendas, não pelo Marketing. Para esse usuário, uma regra de lógica de ignorar pode ocultar a pergunta solicitando detalhes e ignorar para uma linha de texto que os referencie ao departamento necessário.
+  **Exemplo:** Alguém usa o formulário de Solicitação de Conteúdo de Marketing acima para solicitar um white paper, que é fornecido pelas Vendas, não pelo Marketing. Para esse usuário, uma regra lógica de salto pode ocultar a pergunta solicitando detalhes e pular para uma linha de texto que os encaminhe ao departamento de que precisam.
 
-   ![](assets/skip-logic-white-paper-request-350x221.png)
+  ![](assets/skip-logic-white-paper-request-350x221.png)
 
-   Nesse caso, é possível adicionar um campo de Texto descritivo que faça referência ao usuário para o departamento de Vendas. No primeiro campo personalizado que pergunta qual tipo de conteúdo de marketing o usuário precisa, é possível adicionar uma regra de lógica de omissão que exibe apenas a linha de texto quando um usuário seleciona o botão de opção White Paper no primeiro campo.
+  Nesse caso, é possível adicionar um campo Texto descritivo que faça referência ao usuário ao departamento de vendas. No primeiro campo personalizado que pergunta qual tipo de conteúdo de marketing o usuário precisa, é possível adicionar uma regra de lógica de salto que exibe somente a linha do texto quando um usuário seleciona o botão de opção White Paper no primeiro campo.
 
-   Isso seria especialmente útil se você adicionasse muitos outros campos sobre logotipos, atualizações do site e panfletos que este usuário não precisa ver.
-É possível aplicar uma regra de lógica de omissão somente a um campo personalizado, não a um widget ou seção.
+  Isso seria especialmente útil se você adicionar muitos outros campos sobre logotipos, atualizações de sites e folhetos que este usuário não precisa ver.
+É possível aplicar uma regra lógica de salto somente a um campo personalizado, não a um widget ou seção.
 
 Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Adicionar um campo personalizado a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Adicionar ou editar um widget de ativo em um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Plano Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -63,38 +63,38 @@ Você deve ter o seguinte para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou configurações de nível de acesso você possui, entre em contato com o administrador da Workfront.
+&#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
 
-## Crie um formulário personalizado de amostra que tenha a lógica de exibição e omissão
+## Criar um formulário personalizado de amostra com lógica de exibição e salto
 
-A melhor maneira de aprender a adicionar a lógica de exibição e de omissão a um formulário personalizado é através do exemplo prático explicado nas duas seções a seguir:
+A melhor maneira de aprender a adicionar lógica de exibição e salto a um formulário personalizado é por meio do exemplo prático explicado nas duas seções a seguir:
 
 * [Lógica de exibição - exemplo prático](#display-logic-practical-example)
-* [Ignorar lógica - exemplo prático](#skip-logic-practical-example)
+* [Lógica de salto - exemplo prático](#skip-logic-practical-example)
 
 ### Lógica de exibição - exemplo prático {#display-logic-practical-example}
 
 Neste exemplo, você criará um formulário personalizado com um campo de botão de opção de múltipla escolha. Em seguida, você adicionará a lógica de exibição que conecta esse campo a um segundo campo.
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. No painel esquerdo, selecione **Forms personalizada** ![](assets/custom-forms-icon.png).
+1. No painel esquerdo, selecione **Forms Personalizado** ![](assets/custom-forms-icon.png).
 
-1. Clique em **Novo formulário personalizado**, selecione **Projeto** na caixa exibida, selecione **Continuar**.
+1. Clique em **Novo formulário personalizado**, selecione **Projeto** na caixa exibida e selecione **Continuar**.
 
-1. No **Título do formulário** caixa de texto, tipo **Exemplo de formulário personalizado - Saiba mais sobre a lógica de exibição e ignore a lógica** para nomear o formulário.
+1. Na caixa de texto **Título do formulário**, digite **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto** para nomear o formulário.
 
    ![](assets/form-title-box-350x247.png)
 
-1. Para adicionar o primeiro campo no formulário:
+1. Para adicionar o primeiro campo ao formulário:
 
-   1. Abra o **Adicionar um campo** guia .
+   1. Abra a guia **Adicionar um Campo**.
 
       ![](assets/add-a-field-tab-350x237.png)
 
-   1. Selecione o **Botões de opção** tipo de campo e, em seguida, digite *De que tipo de conteúdo de marketing você precisa?* como **Rótulo** para o campo .
+   1. Selecione o tipo de campo **Botões de opção** e digite *Qual tipo de conteúdo de marketing é necessário?* como o **Rótulo** do campo.
 
-   1. Em **Opções**, substituir **Escolha 1** e **Escolha 2** com o seguinte texto para criar duas opções, os usuários podem escolher no campo :
+   1. Em **Opções**, substitua **Opção 1** e **Opção 2** pelo seguinte texto para criar duas opções que os usuários podem escolher no campo:
 
       *Atualização do site*
 
@@ -102,92 +102,91 @@ Neste exemplo, você criará um formulário personalizado com um campo de botão
 
 1. Para adicionar o próximo campo personalizado e adicionar uma regra de lógica de exibição a ele:
 
-   1. Abra o **Adicionar um campo** novamente e adicione uma nova **Botões de opção** campo chamado *De que tipo de atualização de site você precisa?*
+   1. Abra a guia **Adicionar campo** novamente e adicione um novo campo **Botões de Opção** chamado *Que tipo de atualização de site você precisa?*
 
       Adicionaremos as opções para esse campo posteriormente.
 
-   1. No **Configurações adicionais** seção , selecione **Adicionar lógica**.
+   1. Na seção **Configurações adicionais**, selecione **Adicionar lógica**.
 
       ![](assets/add-logic-btn-350x408.png)
 
-1. Na caixa exibida, com a variável **Exibir lógica** abra a guia , configure o segundo campo para que ele apareça somente para os usuários que selecionaram *Design do site* no primeiro campo:
+1. Na caixa exibida, com a guia **Lógica de Exibição** aberta, configure o segundo campo para que ele seja exibido apenas para os usuários que selecionaram *Design do site* no primeiro campo:
 
-   1. Na primeira lista suspensa, selecione **De que tipo de conteúdo de marketing você precisa?**
+   1. Na primeira lista suspensa, selecione **Que tipo de conteúdo de marketing você precisa?**
    1. Na segunda lista suspensa, selecione **Design do site**.
    1. Deixando a terceira lista suspensa definida como **Selecionado**, selecione **Salvar**.
 
-   Observe os pequenos quadrados coloridos com um valor D, indicando que o segundo campo está conectado à lógica de exibição para a seleção do usuário no primeiro campo:
+   Observe os pequenos quadrados coloridos com um D, indicando que o segundo campo está conectado com a lógica de exibição à seleção do usuário no primeiro campo:
 
    ![](assets/red-display-logic-indicators-350x250.png)
 
-1. Selecionar **Visualizar** para garantir que a lógica funcione da forma desejada no formulário, selecione **Visualização final**.
+1. Selecione **Visualizar** para verificar se a lógica funciona da maneira que você deseja no formulário e selecione **Finalizar Visualização**.
 
-1. Clique em **Salvar + Fechar** salve o formulário e continue em [Ignorar lógica - exemplo prático](#skip-logic-practical-example) abaixo.
+1. Clique em **Salvar + Fechar** para salvar o formulário e prosseguir para [Lógica de ramificação - exemplo prático](#skip-logic-practical-example) abaixo.
 
-### Ignorar lógica - exemplo prático {#skip-logic-practical-example}
+### Lógica de salto - exemplo prático {#skip-logic-practical-example}
 
-Ignorar a lógica funciona de forma semelhante à lógica de exibição, mas atua como o inverso: em vez de fazer com que campos de escolha múltipla personalizados específicos sejam exibidos com base em seleções de usuário anteriores, você determinará quais deles devem ser ocultos (ignorados), pois não são relevantes para o usuário.
+A lógica de ignorar funciona de forma semelhante à lógica de exibição, mas age como o inverso: em vez de fazer com que campos de múltipla escolha personalizados específicos sejam exibidos com base em seleções de usuários anteriores, você determina quais devem ser ocultos (ignorados), pois não são relevantes para o usuário.
 
-Para saber mais sobre isso, continue trabalhando no formulário personalizado de amostra criado na seção [Lógica de exibição - exemplo prático](#display-logic-practical-example) neste artigo.
+Para saber mais sobre isso, continue trabalhando no exemplo de formulário personalizado criado na seção [Lógica de exibição - exemplo prático](#display-logic-practical-example) deste artigo.
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Forms personalizada**.
-1. Clique no nome do formulário **Exemplo de formulário personalizado - Saiba mais sobre a lógica de exibição e ignore a lógica** que você criou nas etapas acima, para abri-la para edição.
-1. Selecione o campo suspenso que você criou com o nome *De que tipo de site você precisa?*, adicione as seguintes opções para o campo e clique em **Aplicar**:
+1. Clique em **Forms Personalizado**.
+1. Clique no nome do formulário **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto** que você criou nas etapas acima para abri-lo para edição.
+1. Selecione o campo suspenso criado com o nome *De que tipo de site você precisa?*, adicione as seguintes opções para o campo e clique em **Aplicar**:
 
    *Comércio eletrônico*
 
-   *Brochura*
+   *Folheto*
 
    *Associação*
 
-1. Abra o **Adicionar um campo** crie um **Campo de texto com Formatação **campo chamado *Qual é o objetivo do site?*, depois clique em **Aplicar**.
+1. Abra a guia **Adicionar um campo**, crie um **Campo de Texto com Formatação **campo chamado *Qual é a meta do site?* e clique em **Aplicar**.
 
-   Nesta organização, um site de documentação da Ajuda é criado pela equipe de Gravação Técnica, não pelo departamento de Marketing. Portanto, nenhuma informação adicional é necessária de um usuário que seleciona a documentação da Ajuda no segundo campo. Criaremos uma linha de texto (um campo de texto descritivo) dizendo para que eles visualizem a equipe de gravação técnica. E usaremos uma regra de lógica de omissão que ignora esse usuário nessa linha de texto.
+   Nesta organização, um site de documentação de ajuda é criado pela equipe técnica de redação, não pelo departamento de Marketing. Portanto, não são necessárias mais informações de um usuário que seleciona a documentação de Ajuda no segundo campo. Criaremos uma linha de texto (um campo de texto descritivo) dizendo para eles verem a equipe de Redação técnica em vez disso. E usaremos uma regra de lógica de salto que ignora esse usuário para essa linha de texto.
 
 1. Para criar a linha de texto:
 
-   1. Abra o **Adicionar um campo** e crie uma **Campo de texto descritivo**.
+   1. Abra a guia **Adicionar um campo** e crie um **campo de Texto Descritivo**.
 
-   1. Para o **Rótulo**, tipo *Consulte Equipe de escrita técnica*.
+   1. Para o **Rótulo**, digite *Consulte a equipe técnica de gravação*.
 
-   1. Para o **Texto descritivo**, tipo *Consulte a equipe de Escrita Técnica para obter a documentação de ajuda online*.
+   1. Para o **Texto descritivo**, digite *Consulte a equipe de Redação técnica sobre como criar a documentação de ajuda online*.
 
-   1. Selecionar **Aplicar**.
+   1. Selecione **Aplicar**.
 
-1. Para criar a regra lógica de omissão:
+1. Para criar a regra de lógica de salto:
 
-   1. Selecione o segundo campo suspenso , *De que tipo de site você precisa?*
-   1. No **Configuração adicional** s seção , selecione **Editar lógica**.
-   1. Na caixa exibida, abra o **Ignorar lógica** guia .
-   1. Defina o primeiro menu suspenso como **Documentação de ajuda**, deixe o segundo menu suspenso definido como **Selecionado** e defina o terceiro menu suspenso como **Consulte a equipe de escrita técnica**.
-   1. Selecionar **Salvar**.
+   1. Selecione o segundo campo suspenso, *Que tipo de site você precisa?*
+   1. Na seção **Configuração adicional** s, selecione **Editar Lógica**.
+   1. Na caixa que é exibida, abra a guia **Lógica de salto**.
+   1. Defina o primeiro menu suspenso como **Documentação de ajuda**, deixe o segundo menu suspenso definido como **Selecionado** e defina o terceiro menu suspenso como **Consulte a equipe de Redação Técnica**.
+   1. Selecione **Salvar**.
 
-   Observe os pequenos quadrados lógicos de omissão com um S, indicando que o usuário ignorará algo depois de selecionar uma determinada escolha no segundo campo.
+   Observe a pequena lógica de salto quadrada com um S, indicando que o usuário ignorará algo após selecionar uma determinada escolha no segundo campo.
 
    ![](assets/notice-skip-logic-squares-350x249.png)
 
-1. Clique em **Visualizar**  para ter certeza de que a lógica se aplica da maneira que você quer.
+1. Clique em **Visualizar**  para garantir que a lógica se aplique da maneira desejada.
 1. Clique em **Salvar +Fechar**.
 
-Ao criar um formulário como esse, você poderia adicionar mais campos de texto para solicitar informações de usuários que selecionaram Comércio eletrônico ou Folheto no segundo campo. Esses campos poderiam perguntar quem é o público-alvo do site, qual é o objetivo da criação, qual é o orçamento e assim por diante.
+Ao criar um formulário como esse, você pode adicionar mais campos de texto para solicitar informações de usuários que selecionam Comércio eletrônico ou Folheto no segundo campo. Esses campos podem perguntar quem é o público-alvo do site, qual é o objetivo da criação, qual é o orçamento e assim por diante.
 
-E, com regras lógicas, você poderia criar caminhos de perguntas de ramificação.
+E, com as regras de lógica, você poderia criar caminhos de perguntas de ramificação.
 
-Por exemplo, para usuários que selecionam E-commerce, você pode criar campos fazendo perguntas sobre fotos de produtos, descrições, preços e opções de pagamento. Para usuários que selecionam Brochura, você pode criar campos perguntando sobre conteúdo.
+Por exemplo, para usuários que selecionam Comércio eletrônico, você pode criar campos fazendo perguntas sobre fotos de produtos, descrições, preços e opções de pagamento. Para usuários que selecionam Folheto, você pode criar campos perguntando sobre o conteúdo.
 
-Um usuário que selecionou a documentação da Ajuda nunca veria nenhum desses campos adicionais irrelevantes para ele.
+Um usuário que selecionou Documentação de ajuda nunca veria nenhum desses campos adicionais que são irrelevantes para ele.
 
 >[!TIP]
 >
->Você pode adicionar lógica de exibição e lógica de omissão a um campo personalizado se tudo o seguinte for verdadeiro sobre o campo:
+>Você pode adicionar a lógica de exibição e a lógica de salto a um campo personalizado se todos os itens a seguir forem verdadeiros sobre o campo:
 >
 >* É um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção)
->* É precedido por um campo de escolha múltipla
->* É seguido por outro campo personalizado
+>* É precedido por um campo de múltipla escolha
+>* Ele é seguido por outro campo personalizado
 >
-
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Multi-field display logic statements</h2>

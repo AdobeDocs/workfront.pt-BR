@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 21.2 Aprimoramentos do projeto
 
-Esta página descreve todas as melhorias de projeto feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte [21.2 Visão geral da versão](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página descreve todas as melhorias de projeto feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nova interface para criar e editar tarefas recorrentes
 
@@ -29,7 +29,7 @@ Como parte do redesign das caixas Novo e Editar tarefa, adicionamos a capacidade
 
 Para obter mais informações, consulte [Criar tarefas recorrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Esse recurso agora está incluído na [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: Planejar um projeto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) no caminho de aprendizado do Workfront One.
 
 ## Novos botões disponíveis no cabeçalho Projetos
 
@@ -39,7 +39,7 @@ Esse recurso agora está incluído na [Fundamentos do planejador para a nova exp
 
 Para permitir que você filtre rapidamente a lista de projetos na página Projetos, há dois novos botões no cabeçalho que permitem aplicar rapidamente o filtro Projetos em que estou ou Projetos que possuo.
 
-Esse recurso agora está incluído na [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: criar um projeto](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) no Workfront One.
 
 ## Mover ou excluir uma história ou problema do quadro Scrum
 
@@ -115,7 +115,7 @@ Para obter informações sobre a conversão de problemas, consulte [Visão geral
 
 Quando você está atribuindo um grupo a um portfólio, programa ou equipe, facilitamos garantir que você tenha o grupo correto. Você pode clicar no ícone de informações ao lado do nome do grupo para exibir uma dica de ferramenta que contém a hierarquia de grupos acima dele, junto com os administradores do grupo. Dependendo dos detalhes configurados para o grupo, você também pode ver o Líder de negócios e a descrição do grupo.
 
-Essa é a mesma funcionalidade lançada recentemente para ajudar a identificar um grupo que você precisa atribuir a um projeto, conforme explicado em [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+Esta é a mesma funcionalidade que foi lançada recentemente para ajudar a identificar um grupo que você precisa atribuir a um projeto, conforme explicado em [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Para obter mais informações, consulte os seguintes artigos:
 
@@ -133,7 +133,7 @@ Os usuários agora podem ver a formatação do texto, como negrito, listas de ma
 
 Anteriormente no Workfront Classic, a formatação de texto era visível somente nas listas Projeto, Tarefa e Hora.
 
-Para obter informações sobre a formatação de texto em um campo personalizado, consulte [Criar um formulário personalizado](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Para obter informações sobre como formatar texto em um campo personalizado, consulte [Criar um formulário personalizado](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
 Para obter informações sobre como exibir informações em listas, consulte [Introdução a listas](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
 
@@ -156,7 +156,7 @@ Além de uma aparência atualizada, as seguintes alterações também estão dis
 * Adicionamos os campos Duração, Tipo de duração e Horas planejadas à seção Atribuições para fornecer consistência ao atualizar atribuições em vários tipos de duração e o tempo ou duração que elas gastam na tarefa.
 * Removemos a funcionalidade de comentários da tela editar tarefa para eliminar a redundância com a seção Atualizações.
 
-Para obter informações sobre a nova caixa Editar tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Para obter informações sobre a nova caixa Editar Tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Caixa Nova tarefa
 
@@ -176,7 +176,7 @@ Além de uma aparência atualizada, as seguintes alterações também estão dis
 * É possível personalizar o Modelo de layout uma vez e refletir essas personalizações na página Detalhes e na caixa Nova tarefa.
 * Adicionamos os campos Duração, Tipo de duração e Horas planejadas à seção Atribuições para fornecer consistência ao atualizar atribuições e o tempo ou duração que elas gastam na tarefa.
 
-Para obter informações sobre a nova caixa Nova tarefa, consulte [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Para obter informações sobre a nova caixa Nova Tarefa, consulte [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 ## Desativar equipes que não estão mais em uso
 
@@ -198,5 +198,5 @@ Para oferecer uma experiência coesa em todos os objetos, alteramos a forma como
 
 Antes dessa alteração, desabilitar a configuração impedia que os usuários excluíssem apenas tarefas ou problemas, não projetos.
 
-Para obter mais informações, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obter mais informações, consulte [Configurar preferências de tarefas e problemas do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

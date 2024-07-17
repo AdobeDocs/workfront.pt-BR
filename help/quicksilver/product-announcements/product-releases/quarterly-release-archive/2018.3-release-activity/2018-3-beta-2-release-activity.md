@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 2 de 2018.3
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 Beta 2. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de agosto de 2018. Os aprimoramentos de revisão lançados com a versão Beta 2 estarão disponíveis no ambiente de Pré-visualização na quarta-feira, 18 de julho. Ele estará disponível no ambiente de Produção em novembro de 2018.
+title: Atividade da versão 2018.3 do Beta 2
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 2. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de agosto de 2018. Os aprimoramentos de revisão lançados com o Beta 2 estarão disponíveis no ambiente de Pré-visualização na quarta-feira, 18 de julho. Ele estará disponível no ambiente de Produção em novembro de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,31 +14,31 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 2 de 2018.3
+# Atividade da versão 2018.3 do Beta 2
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 Beta 2. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de agosto de 2018. Os aprimoramentos de revisão lançados com a versão Beta 2 estarão disponíveis no ambiente de Pré-visualização na quarta-feira, 18 de julho. Ele estará disponível no ambiente de Produção em novembro de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 2. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de agosto de 2018. Os aprimoramentos de revisão lançados com o Beta 2 estarão disponíveis no ambiente de Pré-visualização na quarta-feira, 18 de julho. Ele estará disponível no ambiente de Produção em novembro de 2018.
 
 >[!NOTE]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.3, consulte  [Visão geral da atividade da versão 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.3, consulte  Visão geral da atividade da versão [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-A versão 2018.3 Beta 2 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2018.3 do Beta 2 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
 * [Atualize o endereço de email no Perfil de usuário como um administrador de grupo](#update-the-email-address-in-the-user-profile-as-a-group-administrator)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
 * [Exibir aprovações delegadas a mim na área da página inicial](#view-approvals-delegated-to-me-in-the-home-area)
 * [Exportar dados para um determinado período no Planejador de recursos](#export-data-for-a-given-period-in-the-resource-planner)
 * [Os totais diários agora são exibidos em vermelho quando o usuário está superalocado](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
-* [Tarefas e problemas são ocultados na linha de tempo do agendamento quando minimizados](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
-* [Filtrar comentários e respostas por usuário no visualizador de provas](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
-* [Comentar em uma variedade de imagens em uma prova de vídeo](#comment-on-a-range-of-footage-in-a-video-proof)
-* [Nova ferramenta de polilinha para marcação de comentários no visualizador de provas](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
+* [Tarefas e problemas estão ocultos na linha de tempo do agendamento quando minimizados](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
+* [Filtrar Comentários e Respostas por Usuário no visualizador de provas](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
+* [Comentar em um intervalo de imagens em uma prova de vídeo](#comment-on-a-range-of-footage-in-a-video-proof)
+* [Nova Ferramenta de Polilinha para Marcação de Comentários no visualizador de provas](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
 * [Remoção de Flashes para relatórios, calendários e compartilhamento de documentos](#flash-removal-for-report-calendar-and-document-sharing)
 
 ## Atualize o endereço de email no Perfil de usuário como um administrador de grupo {#update-the-email-address-in-the-user-profile-as-a-group-administrator}
@@ -63,13 +63,13 @@ Uma nova janela agora é exibida ao exportar as informações no Planejador de r
 
 Antes dessa melhoria, você poderia exportar apenas as informações exibidas na tela.
 
-Para obter mais informações sobre a exportação de dados do Planejador de recursos, consulte [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) no artigo [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Para obter mais informações sobre como exportar dados do Planejador de recursos, consulte [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) no artigo [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Os totais diários agora são exibidos em vermelho quando o usuário está superalocado {#daily-totals-now-display-in-red-when-the-user-is-overallocated}
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Quando um usuário está superalocado, os totais diários dos dias em que o usuário está superalocado agora são exibidos em vermelho. Esta opção é exibida somente quando a opção Mostrar os totais das horas planejadas diárias está habilitada nas configurações de cronograma do cronograma. Antes desse aprimoramento, havia um indicador de barra vermelha para os dias em que o usuário estava superalocado, mas os totais diários eram exibidos sem um destaque vermelho.
 
@@ -81,7 +81,7 @@ Ao minimizar tarefas e problemas na linha do tempo do agendamento, eles agora fi
 
 Anteriormente, ao minimizar tarefas e problemas, as tarefas e problemas permaneceriam na linha do tempo de agendamento para usuários e funções, mas seriam exibidos em uma exibição compactada.
 
-Para obter mais informações sobre como minimizar tarefas e problemas na linha do tempo do agendamento, consulte &quot;Introdução ao agendamento de recursos&quot;.
+Para obter mais informações sobre como minimizar tarefas e problemas na linha do tempo do agendamento, consulte  &quot;Introdução ao Agendamento de recursos&quot;.
 
 ## Filtrar comentários e respostas por usuário no visualizador de provas {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 

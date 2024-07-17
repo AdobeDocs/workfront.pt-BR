@@ -29,4 +29,4 @@ Agora você pode usar o Adobe Workfront Fusion para se conectar à sua conta Git
 * Repetir builds ou trabalhos de pipeline com falha
 * Editar, modificar ou atualizar objetos GitLab
 
-Para obter mais informações, incluindo uma lista completa de ações disponíveis, consulte [Módulos do GitLab](/help/quicksilver/workfront-fusion/apps-and-their-modules/gitlab-modules.md).
+Para obter mais informações, incluindo uma lista completa das ações disponíveis, consulte [módulos do GitLab](/help/quicksilver/workfront-fusion/apps-and-their-modules/gitlab-modules.md).

@@ -9,7 +9,7 @@ role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ As seguintes alterações serão feitas no formato de mensagem de saída:
 
 Se você usa atualmente assinaturas de eventos do Workfront, precisará atualizar suas integrações do Workfront antes da versão 2017.3 para levar em conta essas alterações.
 
-Para saber mais sobre assinaturas de evento, consulte [API de assinatura de evento](../../wf-api/general/event-subs-api.md).
+Para saber mais sobre assinaturas de evento, consulte [API de Assinatura de Evento](../../wf-api/general/event-subs-api.md).
 
 ## Exemplos de formatos de mensagem antigos e novos
 

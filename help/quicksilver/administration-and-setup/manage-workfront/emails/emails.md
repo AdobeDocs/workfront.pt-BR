@@ -37,5 +37,5 @@ Esta seção contém os seguintes artigos:
 * [Anexar uma notificação de lembrete a um objeto](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [Configurar lembretes automáticos](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
 * [Configurar modelos de email](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
-* [Permitir emails do aplicativo Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
+* [Permitindo emails do aplicativo Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
 * [Gerenciar convites por email para novos usuários](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)

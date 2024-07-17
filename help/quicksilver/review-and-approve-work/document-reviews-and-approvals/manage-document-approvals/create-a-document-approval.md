@@ -43,12 +43,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar acesso ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar acesso ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Criar uma solicitação de revisão ou aprovação de documento a partir da página do documento
 
@@ -62,9 +62,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
-1. Para adicionar um aprovador, clique no **Aprovador** e comece a digitar um nome de usuário ou de equipe.
+1. Para adicionar um aprovador, clique em **Aprovador** e comece a digitar um nome de usuário ou de equipe.
 
-1. Para adicionar um revisor, clique no botão **Revisor** e comece a digitar o nome de um usuário ou equipe.
+1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -78,15 +78,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecione a versão do documento para a qual você deseja criar uma aprovação na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Role para baixo até **Aprovações** no painel Resumo do documento, depois clique em **Adicionar**.
+1. Role para baixo até a seção **Aprovações** no painel Resumo do documento e clique em **Adicionar**.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
-1. Para adicionar um aprovador, clique no **Aprovador** e comece a digitar um nome de usuário ou de equipe.
+1. Para adicionar um aprovador, clique em **Aprovador** e comece a digitar um nome de usuário ou de equipe.
 
-1. Para adicionar um revisor, clique no botão **Revisor** e comece a digitar o nome de um usuário ou equipe.
+1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
 
    ![](assets/add-approver-and-deadline.png)
 

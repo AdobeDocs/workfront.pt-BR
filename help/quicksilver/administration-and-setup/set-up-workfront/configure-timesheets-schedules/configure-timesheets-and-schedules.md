@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: Configurar preferências de cronograma e folha de horas
-description: Como um [!DNL Workfront] administrador, você pode definir sua semana de trabalho usando agendamentos e associar um agendamento a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários. Você também pode configurar as preferências de horas e planilha de horas.
+description: Como administrador  [!DNL Workfront] , você pode definir sua semana de trabalho usando agendas e associar uma agenda a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] calcular linhas do tempo e disponibilidade de usuários. Você também pode configurar as preferências de horas e planilha de horas.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

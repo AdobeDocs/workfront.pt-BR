@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 1%
 
 Você pode localizar os seguintes tipos de solicitações que você ou outra pessoa submeteu ou as solicitações que você iniciou, mas que nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
 
-* **Seção enviada**: todas as solicitações que você ou outra pessoa submeteu e você tem acesso a pelo menos Exibir.
-* **Seção de rascunho** : Todas as solicitações que você iniciou, mas nunca terminou e nunca submeteu. Para obter mais informações sobre rascunhos de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **Seção enviada**: todas as solicitações que você ou outra pessoa enviou e que você tem acesso a pelo menos Exibir.
+* **Seção de rascunho**: todas as solicitações que você iniciou, mas nunca terminou e nunca enviou. Para obter mais informações sobre rascunhos de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
@@ -38,7 +38,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Visão geral das licenças da Adobe Workfront*</td> 
@@ -52,7 +52,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões nas solicitações ou superiores</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões nas solicitações ou superiores</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 Para localizar solicitações que você ou outros usuários submeteram:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 1. Clique em **Enviado** no painel esquerdo para exibir todas as solicitações enviadas.
 
    É possível exibir até 2000 solicitações, que podem ser exibidas em várias páginas.
@@ -116,17 +116,17 @@ Para localizar solicitações que você ou outros usuários submeteram:
    >
    >Ao sair da lista Solicitações enviadas, a opção de classificação selecionada é preservada.
 
-1. (Opcional) Selecione uma solicitação na lista e clique no botão **Abrir resumo** ícone ![](assets/open-summary-with-text-nwe.png) para abrir o painel Resumo e exibir informações adicionais sobre a solicitação, adicione comentários, documentos ou atribua-os. Para obter informações sobre o painel Resumo, consulte [Visão geral do resumo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Opcional) Selecione uma solicitação na lista e clique no ícone ![](assets/open-summary-with-text-nwe.png) do **Abrir Resumo** para abrir o painel Resumo e exibir informações adicionais sobre a solicitação, adicionar comentários, documentos ou atribuí-la. Para obter informações sobre o painel Resumo, consulte [Visão geral do resumo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Se o painel Resumo já estiver aberto, o ícone Abrir resumo será alterado para Fechar resumo.
 
-1. (Opcional e condicional) Clique no link **X** no canto superior direito ou no **Fechar resumo** ícone ![](assets/close-summary-with-text-nwe.png) para fechar o Painel de resumo.
+1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone ![](assets/close-summary-with-text-nwe.png) de **Fechar Resumo** para fechar o Painel de Resumo.
 
    Se um problema tiver sido convertido em uma tarefa ou projeto e tiver sido excluído no processo de conversão, o Painel de resumo ficará em branco. Para obter informações sobre a conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. No **Ícone Filtrar** ![](assets/filter-nwepng.png) na parte superior direita da lista, selecione qualquer um dos filtros listados na tabela abaixo.
+1. No **ícone de Filtro** ![](assets/filter-nwepng.png), na parte superior direita da lista, selecione qualquer um dos filtros listados na tabela abaixo.
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Para localizar solicitações que você ou outros usuários submeteram:
     </tbody> 
    </table>
 
-1. (Opcional) Clique no link **Filtrar página** ícone ![](assets/search-icon.png) na parte superior da lista para procurar uma solicitação por nome. A lista é atualizada com resultados que correspondem aos seus critérios de pesquisa.
+1. (Opcional) Clique no ícone ![](assets/search-icon.png) da **Página de filtro** na parte superior da lista para procurar uma solicitação por nome. A lista é atualizada com resultados que correspondem aos seus critérios de pesquisa.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -184,7 +184,7 @@ Para localizar solicitações que você ou outros usuários submeteram:
    </ul></li>
    -->
 
-1. Clique em **Rascunhos** para exibir todas as solicitações em rascunho. O Workfront salva um número ilimitado de rascunhos para cada fila de solicitações nesta pasta. Ao informar uma nova solicitação para um tópico da fila que já tem um rascunho, você será solicitado a usar um rascunho existente. Para obter mais informações, consulte [Criar solicitações a partir de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+1. Clique em **Rascunhos** para exibir todas as solicitações em rascunho. O Workfront salva um número ilimitado de rascunhos para cada fila de solicitações nesta pasta. Ao informar uma nova solicitação para um tópico da fila que já tem um rascunho, você será solicitado a usar um rascunho existente. Para obter mais informações, consulte [Criar solicitações de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
  
 

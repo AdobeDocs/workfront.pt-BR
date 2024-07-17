@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -39,12 +39,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir ou aumentar as permissões de um modelo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir ou aumentar as permissões de um modelo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 
 ## Considerações sobre a cópia de modelos
@@ -69,10 +69,10 @@ Os seguintes itens nunca são copiados de um projeto existente para um novo:
 ## Copiar um modelo
 
 1. Vá para o template que deseja copiar.
-1. Clique em **Mais** menu ![](assets/qs-more-icon-on-an-object.png)e, em seguida, clique em **Copiar**.
-1. Especifique um nome para o modelo na variável **Novo nome do modelo** campo.
+1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) e em **Copiar**.
+1. Especifique um nome para o modelo no campo **Novo Nome do Modelo**.
 
    Por padrão, o novo nome é **Cópia de `<original template name>`.**
 
-1. Selecione se deseja **Reter as atribuições de usuário nas tarefas e no modelo**: selecione esta opção para carregar todas as atribuições de tarefas e modelos do modelo original para o novo modelo.
-1. Clique em **Salvar** para criar uma cópia do template.
+1. Selecione se deseja **Reter atribuições de usuário em tarefas e modelo**: selecione esta opção para carregar todas as atribuições de tarefa e modelo do modelo original para o novo modelo.
+1. Clique em **Salvar** para criar uma cópia do modelo.

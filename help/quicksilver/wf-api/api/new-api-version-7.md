@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 47%
+source-wordcount: '498'
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 47%
   <tr> 
    <th>Campos</th> 
    <th>Referências</th> 
-   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Coleções</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
+   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Coleções</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++ </p> </th> 
    <th>Pesquisar</th> 
    <th>Ações</th> 
    <th>Consultas</th> 
@@ -226,7 +226,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis 
+<sup>1</sup> Alterações em valores possíveis 
 
  
 
@@ -242,9 +242,9 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
  
 
-### Regra de acesso<sup>1</sup>
+### Regra de Acesso<sup>1</sup>
 
-<sup>1</sup> Sinalizado como reportável
+<sup>1</sup> sinalizado como reportável
 
  
 
@@ -268,7 +268,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Sinalizador reportável removido
+<sup>1</sup> Sinalizador Relatável Removido
 
  
 
@@ -298,7 +298,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Campo incluído includeIssues
+<sup>1</sup> Incluir problemas de campo adicionado
 
  
 
@@ -310,7 +310,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis 
+<sup>1</sup> Alterações em valores possíveis 
 
  
 
@@ -353,7 +353,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterado o validador PRECISION de 8 para 9
+<sup>1</sup> alterou o validador PRECISION de 8 para 9
 
  
 
@@ -379,7 +379,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em valores possíveis
 
  
 
@@ -566,4 +566,4 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em valores possíveis

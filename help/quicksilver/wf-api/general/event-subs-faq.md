@@ -9,7 +9,7 @@ role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ Se você tentar criar uma assinatura de evento e receber um código de resposta:
 
 Procure os seguintes cenários e use a solução recomendada:
 
-* Certifique-se de que o endpoint de subscrição — definido pelo **url** campo — está retornando um código de resposta HTTP 2XX. Caso contrário, entre em contato com o Suporte da Workfront ou consulte [Requisitos de entrega de Assinatura de Evento](../../wf-api/general/setup-event-sub-endpoint.md).
+* Verifique se o ponto de extremidade da sua assinatura (definido pelo campo **url**) está retornando um código de resposta HTTP 2XX. Caso contrário, entre em contato com o Suporte da Workfront ou consulte [Requisitos de entrega de Assinatura de Eventos](../../wf-api/general/setup-event-sub-endpoint.md).
 
-* A solicitação de entrega de evento pode estar expirando antes de ser concluída. Certifique-se de que o endpoint responda de forma consistente em 5 segundos. Esse é o tempo limite padrão definido para a solicitação HTTP para entregar uma mensagem de Assinatura de evento. Se o terminal não responder em 5 segundos, entre em contato com o Suporte da Workfront ou consulte [Requisitos de entrega de Assinatura de Evento](../../wf-api/general/setup-event-sub-endpoint.md).
+* A solicitação de entrega de evento pode estar expirando antes de ser concluída. Certifique-se de que o endpoint responda de forma consistente em 5 segundos. Esse é o tempo limite padrão definido para a solicitação HTTP para entregar uma mensagem de Assinatura de evento. Se o seu ponto de extremidade não responder em 5 segundos, contate o Suporte da Workfront ou consulte [Requisitos de entrega de Assinatura de Eventos](../../wf-api/general/setup-event-sub-endpoint.md).
 * Os eventos podem não gerar o que você pensa. Certifique-se de que você não esteja fazendo suposições sobre como ou quando os eventos devem ser disparados. Por exemplo, você pode pensar que a atualização de um documento em uma tarefa gera um evento de atualização de tarefa, mas em vez disso, gera um evento de criação de documento ou atualização de documento.
 * Sua assinatura pode não estar configurada conforme o esperado. Você pode criar assinaturas de evento em diferentes ambientes e esperar que elas sejam transferidas como seus outros dados do Workfront. No entanto, os dados de Assinatura de evento não estão configurados para serem copiados ou promovidos para outros ambientes. Verifique se você está emitindo solicitações de API para o ambiente correto e se as assinaturas nesse ambiente estão configuradas conforme esperado.
 * A carga não foi recebida porque o endereço IP necessário do Workfront não foi adicionado ao arquivo de inclui na lista de permissões do firewall. Os eventos de Assinatura de eventos são enviados de apenas alguns endereços IP. Verifique se a rede de destino tem todas as exceções de IP necessárias para receber cargas das Assinaturas de Eventos da Workfront.
@@ -73,11 +73,11 @@ Alguns dos seguintes cenários podem ser responsáveis:
 
 ## O que devo fazer se estiver recebendo um status de resposta 500 ao tentar chamar a API de assinatura de evento?
 
-Entre em contato com o Suporte da Workfront. Para saber como entrar em contato com o suporte, consulte [Entre em contato com o Suporte ao cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Entre em contato com o Suporte da Workfront. Para saber como entrar em contato com o suporte, consulte [Entrar em contato com o Suporte ao Cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Que tipos diferentes de autenticação posso usar com as assinaturas de evento da Workfront?
 
-Você pode usar qualquer autenticação que use um token de portador. A variável **authToken** o campo de uma subscrição é uma string que representa um token de portador OAuth2 usado para a autenticação com o URL especificado no **url** campo. Em teoria, esse valor de token pode ser qualquer coisa, desde que o endpoint de destino esteja ciente de como lidar com sua codificação, que é **utf-8**.
+Você pode usar qualquer autenticação que use um token de portador. O campo **authToken** de uma assinatura é uma cadeia de caracteres que representa um token de portador OAuth2 usado para a autenticação com a URL especificada no campo **url**. Em teoria, esse valor de token pode ser qualquer coisa, desde que o endpoint de destino esteja ciente de como lidar com sua codificação, que é **utf-8**.
 
 ## Quanto tempo deve levar até que eu receba minha carga de evento das Assinaturas de Evento do Workfront?
 
@@ -85,12 +85,12 @@ Em geral, você pode esperar receber solicitações de entrega de eventos de Ass
 
 ## Recursos adicionais
 
-* **Documentação da API**: [API de assinatura de evento](../../wf-api/general/event-subs-api.md)
+* **Documentação da API**: [API de Assinatura de Eventos](../../wf-api/general/event-subs-api.md)
 
 * **Práticas recomendadas**: [Práticas recomendadas de assinatura de evento](../../wf-api/general/event-sub-best-practice.md)
 
-* **Campos que acionam cargas de Assinatura de evento**: [Campos de recurso de assinatura do evento](../../wf-api/api/event-sub-resource-fields.md)
+* **Campos que acionam cargas de Assinatura de Evento**: [Campos de recurso de assinatura de evento](../../wf-api/api/event-sub-resource-fields.md)
 
-* **Noções básicas sobre novas tentativas de assinatura de evento**: [Novas tentativas de assinatura de evento](../../wf-api/api/event-sub-retries.md)
+* **Noções básicas sobre as tentativas de Assinatura de Evento**: [Novas tentativas de assinatura de evento](../../wf-api/api/event-sub-retries.md)
 
-* **Configuração do firewall para o Workfront**: [Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Configurando o firewall para o Workfront**: [Configurar a inclui na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

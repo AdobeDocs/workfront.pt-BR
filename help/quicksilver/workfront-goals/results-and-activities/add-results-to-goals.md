@@ -45,7 +45,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -55,7 +55,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Nível de acesso</p></td>
@@ -87,7 +87,7 @@ Você deve ter o seguinte antes de iniciar:
 * Um Modelo de layout que inclui a área Metas no Menu principal.
 * Uma meta existente.
 
-  Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+  Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >Uma meta não pode ter mais de 1.000 atividades, resultados, projetos ou metas alinhadas.
@@ -138,25 +138,25 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Clique no menu principal ![](assets/main-menu-icon.png), depois **Metas**.
+1. Clique no Menu Principal ![](assets/main-menu-icon.png) e depois em **Metas**.
 
-1. No **Lista de metas**, clique no nome de uma meta para abrir a página de metas.
+1. Na **Lista de Metas**, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
-1. Expanda a **Novo indicador de progresso** e, em seguida, clique em **Criar resultado**.
+1. Expanda o menu suspenso **Novo indicador de progresso** e clique em **Criar resultado**.
 
    A caixa Novo resultado é aberta.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Insira um nome para o resultado no campo **Nome do resultado** campo. Este campo é obrigatório.
-1. (Opcional) Remova seu nome da lista **Proprietário do resultado** se desejar atribuir o resultado a outro usuário. Por padrão, você é o proprietário de uma atividade criada.
+1. Insira um nome para o resultado no campo **Nome do resultado**. Este campo é obrigatório.
+1. (Opcional) Remova seu nome do campo **Proprietário do resultado** se desejar atribuir o resultado a outro usuário. Por padrão, você é o proprietário de uma atividade criada.
 
    >[!NOTE]
    >
    >Não é possível atribuir uma equipe, grupo ou empresa como proprietário do resultado.
 
-1. No **Como você deseja medir seu resultado?** especifique as seguintes informações:
-   * **Tipo de valor**: indica como você deseja medir o progresso no resultado. Você pode medir o progresso numericamente, com um valor percentual ou usando um valor de moeda.
+1. Na **Como você deseja medir o resultado?área**, especifique as seguintes informações:
+   * **Tipo de valor**: isso indica como você deseja medir o progresso no resultado. Você pode medir o progresso numericamente, com um valor percentual ou usando um valor de moeda.
 
      Selecione um tipo de valor nas opções listadas na tabela a seguir:
 
@@ -166,8 +166,8 @@ Adding results to goals differs depending on which environment you use.
      | % | Valor percentual |
      | CN¥,DKK,KR,Mex$, R, R$, zł, £ , ¥ , € , Rt, ฿, MYR, Novo, $ | Valores de moeda |
 
-   * **Valor inicial**: o valor que o resultado tem no início, antes que qualquer progresso nele tenha sido registrado.
-   * **Valor de destino**: o valor que o resultado busca atingir quando é considerado concluído.
+   * **Valor Inicial**: o valor que o resultado tem no início, antes que qualquer progresso tenha sido registrado.
+   * **Valor de Destino**: o valor que o resultado pretende atingir quando é considerado concluído.
 1. Clique em **Criar resultado**.
 
    O resultado é exibido na seção Indicadores de progresso da página de meta, no Agrupamento de resultados.

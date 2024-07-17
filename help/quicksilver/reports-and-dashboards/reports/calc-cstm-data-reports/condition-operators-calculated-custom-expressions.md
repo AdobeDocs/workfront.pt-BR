@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!-- Audited: 2/2024 -->
 
-Você pode usar operadores de condição ou modificadores ao criar dados personalizados calculados no Adobe Workfront ao usar o modo de texto. Para obter informações sobre como usar o modo de texto no Workfront, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Você pode usar operadores de condição ou modificadores ao criar dados personalizados calculados no Adobe Workfront ao usar o modo de texto. Para obter informações sobre como usar o modo de texto no Workfront, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Operadores ou modificadores de condição ajudam a criar uma declaração condicional conectando campos existentes do Workfront em declarações e gerando um novo campo. O uso mais comum de operadores de condição é criar a condição de uma instrução &quot;IF&quot;.
 
@@ -30,7 +30,7 @@ Você pode criar instruções &quot;IF&quot; para os seguintes elementos do Work
 * Agrupamento
 * Campos personalizados calculados
 
-Para obter mais informações sobre a criação de instruções &quot;IF&quot;, consulte [Visão geral das instruções &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Para obter mais informações sobre a compilação de instruções &quot;IF&quot;, consulte a [ visão geral das instruções &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Os exemplos neste guia ilustram o uso de operadores de condição em campos personalizados calculados. Também é possível usá-los em colunas ou agrupamentos personalizados calculados, ao seguir a sintaxe correta para campos personalizados calculados em relatórios.
 
@@ -53,7 +53,7 @@ Você pode usar os seguintes modificadores de condição no Workfront:
  </thead> 
  <tbody> 
   <tr> 
-   <td>Igual (Distingue maiúsc. e minúsc.)</td> 
+   <td>Igual</td> 
    <td>= </td> 
    <td> <p>Use esse operador para indicar que a condição é atendida quando o primeiro campo da instrução é igual ao segundo campo.</p> <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
@@ -70,12 +70,12 @@ Você pode usar os seguintes modificadores de condição no Workfront:
   <tr> 
    <td>Menor que </td> 
    <td>&lt; </td> 
-   <td>Use esse operador para indicar que a condição é atendida quando o primeiro campo da instrução é menor que o segundo campo. <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
+   <td>Use este operador para indicar que a condição é atendida quando  o primeiro campo da instrução é menor que o segundo. <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Menor que ou igual a </td> 
    <td>&lt;= </td> 
-   <td>Use esse operador para indicar que a condição é atendida quando o primeiro campo da instrução é menor ou igual ao segundo campo. <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
+   <td>Use este operador para indicar que a condição é atendida quando  o primeiro campo da instrução é menor que ou igual ao segundo campo. <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>Não </td> 
@@ -95,12 +95,12 @@ Você pode usar os seguintes modificadores de condição no Workfront:
   <tr> 
    <td>Ou </td> 
    <td>|| </td> 
-   <td> <p>Use esse operador para indicar que a condição é atendida quando a expressão encontra o primeiro ou o segundo valor da sua instrução. </p> <p>Por exemplo, use a seguinte instrução em um campo personalizado calculado para criar uma instrução "IF" que marca os projetos nos status Atual ou Planejando como "Ativo": </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
+   <td> <p>Use esse operador para indicar que a condição é atendida quando a expressão  O encontra o primeiro ou o segundo valor da instrução. </p> <p>Por exemplo, use a seguinte instrução em um campo personalizado calculado para criar uma instrução "IF" que marca os projetos nos status Atual ou Planejando como "Ativo": </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> E </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Use esse operador para indicar que a condição é atendida quando a expressão encontra um item que atende a duas condições ao mesmo tempo. </p> <p>Por exemplo, use a seguinte instrução em um campo personalizado calculado para criar uma instrução "IF" que localize projetos que estejam no status Atual e tenham uma Condição de Em Risco e os marque como "Mediação Necessária". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>Use esse operador para indicar que a condição é atendida quando a expressão  localiza um item que preenche duas condições ao mesmo tempo. </p> <p>Por exemplo, use a seguinte instrução em um campo personalizado calculado para criar uma instrução "IF" que localize projetos que estejam no status Atual e tenham uma Condição de Em Risco e os marque como "Mediação Necessária". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

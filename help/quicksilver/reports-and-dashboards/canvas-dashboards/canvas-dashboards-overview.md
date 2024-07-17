@@ -26,7 +26,7 @@ Esta seção contém os seguintes artigos:
    * [Introdução aos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
    * [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
    * [Compartilhar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [Tipos de relatório do Painel de controle do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+* [Tipos de relatório do Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [Adicionar um relatório existente a um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * [Criar um relatório de KPI em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
    * [Criar um relatório de gráfico em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)

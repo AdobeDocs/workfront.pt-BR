@@ -20,7 +20,7 @@ ht-degree: 8%
 
 O Adobe Workfront lança regularmente novas versões da API, geralmente duas vezes por ano. As versões da API são compatíveis por 3 anos após o lançamento. As versões da API com mais de 3 anos não são mais compatíveis.
 
-Para obter mais informações sobre como identificar e usar versões da API, consulte [Especifique uma Versão da API em suas integrações](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
+Para obter mais informações sobre como identificar e usar versões de API, consulte [Especificar uma Versão de API em suas integrações](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 A tabela a seguir mostra a versão e a programação de suporte da API do Workfront.
 
@@ -32,7 +32,7 @@ A tabela a seguir mostra a versão e a programação de suporte da API do Workfr
   <tr> 
    <th><strong>Versão</strong> </th> 
    <th><strong>Versão</strong> </th> 
-   <th><strong>*Não suportado</strong> </th> 
+   <th><strong>*Sem suporte</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -98,7 +98,7 @@ A tabela a seguir mostra a versão e a programação de suporte da API do Workfr
   <tr> 
    <td>6</td> 
    <td>Novembro de 2015</td> 
-   <td><strong>Novembro de 2019</strong> <p>(com a versão 2019.4)</p> </td> 
+   <td><strong>novembro de 2019</strong> <p>(com a versão 2019.4)</p> </td> 
   </tr> 
   <tr> 
    <td>5</td> 
@@ -140,6 +140,6 @@ A tabela a seguir mostra a versão e a programação de suporte da API do Workfr
 
 &#42;Problemas relacionados a versões não compatíveis da API não serão solucionados pelo Workfront.
 
-&#42;&#42;Datas sujeitas a alterações.
+&#42;&#42;Datas sujeitas a alteração.
 
-Para obter informações sobre o uso de versões específicas da API, consulte [Especifique uma Versão da API em suas integrações](../../wf-api/api/specify-api-version-integrations.md)
+Para obter informações sobre como usar versões específicas da API, consulte [Especificar uma versão da API em suas integrações](../../wf-api/api/specify-api-version-integrations.md)

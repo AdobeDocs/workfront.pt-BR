@@ -31,4 +31,4 @@ Com os módulos do Microsoft Power BI, você pode:
 * Adicionar ou excluir linhas em uma tabela de conjunto de dados
 * Fazer uma chamada de API personalizada para a API do Microsoft Power BI
 
-Para obter mais informações, consulte [Módulos do Microsoft Power BI](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+Para obter mais informações, consulte [módulos do Microsoft Power BI](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).

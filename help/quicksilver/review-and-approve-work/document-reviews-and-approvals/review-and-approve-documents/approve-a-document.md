@@ -45,16 +45,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou mais altas para os objetos associados às aprovações</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou mais altas para os objetos associados às aprovações</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Aprovar um documento da Página inicial
 
-1. Clique em **Início** ícone ![](../assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![](../assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
    >
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no link **Menu principal** ![](../assets/main-menu-icon.png) no canto superior direito da página e clique em **Início**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](../assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
 1. Clique em **Filtros** na parte superior esquerda da página e verifique se **Aprovações** está marcado.
 
@@ -76,19 +76,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em uma das duas seguintes opções de aprovação no canto superior direito da página:
 
-   * A variável **Aprovar** contém duas opções:
+   * A lista suspensa **Aprovar** contém duas opções:
 
-      * **Aprovar** indica que não são necessárias alterações para esta versão do documento e que é concedida aprovação.
+      * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
 
-      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada na condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela que contém uma caixa de texto chamada **Próximas etapas** onde você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou você pode clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
+      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
 
    * **Precisa do trabalho** indica que a versão do documento não foi aprovada e requer alterações significativas.
 
    Considere o seguinte ao exibir aprovações de documentos na Página inicial:
 
-   * O nome do usuário que solicitou a aprovação é exibido acima do nome do documento na Página inicial com o texto &quot;*Usuário A* gostaria de obter sua aprovação em...&quot;, bem como em **Enviado por** nas informações de aprovação exibidas à direita depois que uma aprovação é selecionada.
+   * O nome do usuário que solicitou a aprovação é exibido acima do nome do documento na Página inicial com o texto &quot;*O usuário A* gostaria de obter sua aprovação em...&quot;, bem como em **Enviado por** nas informações de aprovação que são exibidas à direita depois que uma aprovação é selecionada.
 
-   * Depois que uma decisão é tomada em uma aprovação, ela permanece na guia Minhas aprovações com o texto &quot;Tomada de decisão&quot; até que você clique na guia **Atualizar** ou até atualizar a página do navegador.
+   * Depois que uma decisão é tomada em uma aprovação, ela permanece na guia Minhas aprovações com o texto &quot;Tomada de decisão&quot; até que você clique no botão **Atualizar** ou até que você atualize a página do navegador.
 
 ## Aprovar um documento na página de documento
 
@@ -104,11 +104,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em uma das duas seguintes opções de aprovação no canto superior direito da página:
 
-   * A variável **Aprovar** contém duas opções:
+   * A lista suspensa **Aprovar** contém duas opções:
 
-      * **Aprovar** indica que não são necessárias alterações para esta versão do documento e que é concedida aprovação.
+      * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
 
-      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada na condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela que contém uma caixa de texto chamada **Próximas etapas** onde você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou você pode clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
+      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
 
    * **Precisa do trabalho** indica que a versão do documento não foi aprovada e requer alterações significativas.
 
@@ -128,10 +128,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em uma das duas opções de aprovação a seguir no canto superior direito do painel Resumo do documento:
 
-   * A variável **Aprovar** contém duas opções:
+   * A lista suspensa **Aprovar** contém duas opções:
 
-      * **Aprovar** indica que não são necessárias alterações para esta versão do documento e que é concedida aprovação.
+      * **Aprovar** indica que nenhuma alteração é necessária para esta versão do documento e que a aprovação é fornecida.
 
-      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada na condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela que contém uma caixa de texto chamada **Próximas etapas** onde você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou você pode clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
+      * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
 
    * **Precisa do trabalho** indica que a versão do documento não foi aprovada e requer alterações significativas.

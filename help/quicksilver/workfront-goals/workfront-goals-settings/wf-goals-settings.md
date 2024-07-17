@@ -34,10 +34,10 @@ Sua organização deve ter as seguintes opções para usar a funcionalidade desc
 
 Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 
-Para obter informações adicionais sobre o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Ativar notificações do Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* [Habilitar notificações do Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * [Compartilhar uma meta no Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 * [Personalizar a terminologia das Metas do Adobe Workfront](../workfront-goals-settings/customize-wf-goals-terminology.md)

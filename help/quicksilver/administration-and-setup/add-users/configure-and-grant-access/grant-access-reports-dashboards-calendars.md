@@ -10,51 +10,51 @@ role: Admin
 exl-id: 776bb223-3481-4ea9-8049-276b2dec95c5
 source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # Conceder acesso a relatórios, painéis e calendários
 
-Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário a relatórios, painéis e calendários, como explicado em [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário a relatórios, painéis e calendários, conforme explicado na [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-Esse acesso também inclui o acesso a Páginas externas. Para obter informações sobre Páginas externas, consulte [Conceder acesso aos dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Esse acesso também inclui o acesso a Páginas Externas. Para obter informações sobre Páginas Externas, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 >[!NOTE]
 >
->* Se quiser conceder aos usuários acesso aos relatórios, painéis e calendários, também deverá conceder acesso a filtros, visualizações e agrupamentos. Para obter instruções, consulte [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
->* Quando alguém compartilha um relatório, painel ou calendário com outro usuário, os direitos dele são determinados por uma combinação de duas coisas: A configuração de nível de acesso do destinatário para relatórios, painéis e calendários _e_ quaisquer permissões que o compartilhador tenha concedido para o relatório, painel ou calendário
+>* Se quiser conceder aos usuários acesso a relatórios, painéis e calendários, você também deverá conceder a esses usuários acesso a filtros, visualizações e agrupamentos. Para obter instruções, consulte [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+>* Quando alguém compartilha um relatório, painel ou calendário com outro usuário, os direitos do recipient nele são determinados por uma combinação de dois fatores: A configuração de nível de acesso do recipient para relatórios, painéis e calendários _e_ todas as permissões que o compartilhador concedeu ao relatório, painel ou calendário
 >
->Para obter informações sobre permissões que os usuários podem conceder em um relatório, painel ou calendário ao compartilhá-lo, consulte [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+>Para obter informações sobre permissões que os usuários podem conceder a um relatório, painel ou calendário durante o compartilhamento, consulte [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença Adobe Workfront</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>Plano</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configurar o acesso do usuário a relatórios, painéis e calendários usando um nível de acesso personalizado
 
-1. Comece a criar ou editar o nível de acesso, como explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no **Exibir** ou **Editar** à direita de Relatórios, selecione as capacidades que deseja conceder em **Ajustar as configurações**.
+1. Comece a criar ou editar o nível de acesso, conforme explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Exibir** ou **Editar** à direita de Relatórios e selecione as capacidades que deseja conceder em **Ajustar suas configurações**.
 
    ![reports_access.png](assets/reports-access.png)
 
@@ -62,17 +62,17 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    * **Criar**
    * **Excluir**
-   * **Exibir relatórios internos**: Isso precisa ser selecionado para ver os relatórios criados pelo Workfront.
+   * **Exibir relatórios internos**: esta opção precisa ser selecionada para que os relatórios criados pela Workfront possam ser vistos.
    * **Compartilhar**
-   * **Compartilhar relatórios publicamente**: Os relatórios podem ser compartilhados publicamente, compartilhando um link público com qualquer pessoa que não tenha uma conta do Workfront. Essa opção deve ser selecionada para permitir esse nível de compartilhamento.
-   * **Compartilhar todo o sistema**: Os relatórios podem ser compartilhados com todos no sistema que tenham uma licença do Workfront. Essa opção deve ser selecionada para permitir esse nível de compartilhamento.
+   * **Compartilhar Relatórios Publicamente**: os relatórios podem ser compartilhados publicamente, compartilhando um link público com o relatório com qualquer pessoa que não tenha uma conta do Workfront. Essa opção deve ser selecionada para permitir esse nível de compartilhamento.
+   * **Compartilhar em todo o sistema**: os relatórios podem ser compartilhados com qualquer pessoa no sistema que tenha uma licença do Workfront. Essa opção deve ser selecionada para permitir esse nível de compartilhamento.
 
-      Para obter informações sobre como compartilhar relatórios, painéis e calendários, consulte [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+     Para obter informações sobre como compartilhar relatórios, painéis e calendários, consulte [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
-1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configuração do acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso aos dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configurar acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Quando terminar, clique em **Salvar**.
 
-   Depois que o nível de acesso é criado, você pode atribuí-lo a um usuário. Para obter mais informações, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Após criar o nível de acesso, você pode atribuí-lo a um usuário. Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Acesso a relatórios, painéis e calendários por tipo de licença
 
@@ -80,7 +80,7 @@ Para obter informações sobre o que os usuários em cada nível de acesso podem
 
 ## Acesso a relatórios, painéis e calendários compartilhados
 
-Como proprietário ou criador de um relatório, painel ou calendário, você pode compartilhá-lo com outros usuários, concedendo a eles permissões, como explicado em [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+Como proprietário ou criador de um relatório, painel ou calendário, você pode compartilhá-lo com outros usuários concedendo a eles permissões, conforme explicado em [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -91,7 +91,7 @@ Como proprietário ou criador de um relatório, painel ou calendário, você pod
 </div>
 -->
 
-Quando você compartilha qualquer objeto com outro usuário, os direitos do recipient são determinados por uma combinação de dois itens:
+Quando você compartilha qualquer objeto com outro usuário, os direitos do recipient sobre ele são determinados por uma combinação de dois itens:
 
 * As permissões concedidas ao destinatário para o objeto
-* As configurações de nível de acesso do recipient para o tipo do objeto
+* As configurações de nível de acesso do destinatário para o tipo do objeto

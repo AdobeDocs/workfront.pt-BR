@@ -65,8 +65,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Níveis de Acesso** no painel esquerdo.
-1. Selecione o nível de acesso que deseja copiar e personalizar e clique em **Copiar**.
+1. Clique em **Níveis de acesso** no painel esquerdo.
+1. Selecione o nível de acesso que você deseja copiar e personalizar e clique em **Copiar**.
 
    Ou
 
@@ -80,7 +80,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <tbody> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>Digite um nome para o seu nível de acesso. </p> <p>Se você acabou de copiar um nível de acesso para criar um novo, o nome padrão é Nome do Nível de Acesso (Cópia), onde Nome do Nível de Acesso é o nível de acesso copiado.</p> <p><strong>Dica</strong>: Recomendamos que você inclua o nome original do nível de acesso no nome da cópia. Por exemplo, na empresa ACME, uma cópia do nível de acesso Standard pode se chamar ACME Standard.</p> </td> 
+      <td> <p>Digite um nome para o seu nível de acesso. </p> <p>Se você acabou de copiar um nível de acesso para criar um novo, o nome padrão é Nome do Nível de Acesso (Cópia), onde Nome do Nível de Acesso é o nível de acesso copiado.</p> <p><strong>Dica</strong>: recomendamos que você inclua o nome original do nível de acesso no nome da cópia. Por exemplo, na empresa ACME, uma cópia do nível de acesso Standard pode se chamar ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrição </td> 
@@ -88,12 +88,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de Licença</td> 
-      <td>Certifique-se de que a licença selecionada aqui seja a mais associada ao tipo de nível de acesso que você está criando ou editando. A licença selecionada determina quais configurações estão disponíveis para o nível de acesso. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral de novas licenças</a> ou <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Visão geral de licenças</a>.</td> 
+      <td>Certifique-se de que a licença selecionada aqui seja a mais associada ao tipo de nível de acesso que você está criando ou editando. A licença selecionada determina quais configurações estão disponíveis para o nível de acesso. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral das novas licenças</a> ou <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Visão geral das licenças</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional) Se **Padrão** ou **Plano** está selecionado no **Tipo de licença** , role até a seção **Permitir acesso administrativo para** e selecione permissões de acesso administrativo para aqueles que terão esse nível de acesso.
+1. (Condicional) Se o **Standard** ou o **Plan** estiver selecionado na caixa **Tipo de Licença**, role até a seção **Permitir acesso administrativo para** e selecione permissões de acesso administrativo para aqueles que terão esse nível de acesso.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -122,7 +122,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
         <li>Despesas com projetos, tarefas ou problemas que gerenciam</li>
         <li>Suas próprias despesas</li>
         <li>As despesas de seus subordinados</li>
-       </ul><p><b>NOTA</b>: Isso não permite que o usuário crie novos Tipos de Despesas.</p></td> 
+       </ul><p><b>OBSERVAÇÃO</b>: isso não permite que o usuário crie novos Tipos de Despesas.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Funções de trabalho</td> 
@@ -132,7 +132,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
         <li>Adicionar novas funções de trabalho</li> 
         <li>Editar taxas de custo e cobrança de função</li> 
        </ul> 
-       <p>Para obter informações importantes sobre o acesso a dados financeiros disponíveis para um usuário do Standard ou do Planner com acesso administrativo a funções de trabalho, consulte <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Usuários padrão ou do Planejador com acesso administrativo às funções de trabalho</a>.</p>
+       <p>Para obter informações importantes sobre o acesso a dados financeiros disponíveis para um usuário do Standard ou do Planner com acesso administrativo a funções de trabalho, consulte <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Usuários do Standard ou do Planner com acesso administrativo a funções de trabalho</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -156,7 +156,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     </tbody> 
    </table>
 
-1. Clique em **Definir restrições adicionais**, em seguida, defina qualquer uma das restrições a seguir para o nível de acesso.
+1. Clique em **Definir restrições adicionais** e defina qualquer uma das restrições a seguir para o nível de acesso.
 
    >[!IMPORTANT]
    >
@@ -176,15 +176,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Ver apenas atualizações em que tenham sido incluídas na conversa</td> 
-      <td> Permite que os usuários vejam apenas os comentários nos quais o nome ou o nome da equipe foi incluído. <p> <p><b>NOTA</b>: isso impede que os usuários assinem itens no Workfront. Para obter mais informações sobre a assinatura de itens, consulte <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Assinar itens no Adobe Workfront</a>.</p> </p> </td> 
+      <td> Permite que os usuários vejam apenas os comentários nos quais o nome ou o nome da equipe foi incluído. <p> <p><b>OBSERVAÇÃO</b>: isso impede que os usuários assinem itens no Workfront. Para obter mais informações sobre como assinar itens, consulte <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Assinar itens no Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir que os usuários apaguem os comentários </td> 
-      <td> Impede que os usuários excluam os comentários feitos nos itens.  <p><b>NOTA</b>: ninguém pode excluir os comentários de outros usuários.</p> </td> 
+      <td> Impede que os usuários excluam os comentários feitos nos itens.  <p><b>OBSERVAÇÃO</b>: ninguém pode excluir os comentários de outros usuários.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Visualizar apenas empresas, grupos e equipes aos quais pertencem</td> 
-      <td>Permite que os usuários visualizem e compartilhem itens somente com empresas, grupos e equipes aos quais pertencem.<p><strong>NOTA</strong>: os usuários com licenças de Solicitante não podem exibir empresas às quais não pertencem, mesmo se essa opção estiver selecionada.</td> 
+      <td>Permite que os usuários visualizem e compartilhem itens somente com empresas, grupos e equipes aos quais pertencem.<p><strong>OBSERVAÇÃO</strong>: os usuários com licenças de Solicitante não podem exibir empresas às quais não pertencem, mesmo que esta opção esteja selecionada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir visibilidade das Horas planejadas ou Horas efetivas</td> 
@@ -192,12 +192,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir que os usuários excluam as notificações</td> 
-      <td>Impede que os usuários excluam anúncios no Centro de Notificações. Para obter mais informações, consulte <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Enviar notificações</a>.</td> 
+      <td>Impede que os usuários excluam anúncios no Centro de Notificações. Para obter mais informações, consulte <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Enviar comunicados</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional e opcional) Se seu sistema Workfront estiver configurado para usuários que pertencem a várias empresas, restrinja a visibilidade a outros usuários com base em qual empresa eles pertencem na seção **As pessoas de outras empresas devem visualizar somente os usuários de**.
+1. (Condicional e opcional) Se seu sistema Workfront estiver configurado para usuários que pertencem a várias empresas, restrinja a visibilidade a outros usuários com base na empresa à qual pertencem na seção **As pessoas de outras empresas só devem ver os usuários de**.
 
    É possível restringir os usuários para ver apenas os usuários de sua própria empresa ou da empresa designada como a empresa primária. A empresa principal geralmente representa a conta da Workfront na qual a maioria dos usuários trabalha. Para obter mais informações sobre a empresa primária, consulte [Criar e editar empresas](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
@@ -205,14 +205,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Se dois usuários pertencerem a duas empresas diferentes, mas ambos puderem ver os usuários da empresa primária, eles poderão ver a área Atualizações associada à empresa primária.
 
-1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configuração do acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configurar acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Clique em **Salvar**.
 
    Após criar o nível de acesso, você pode atribuí-lo a um usuário (a menos que seja um nível de acesso de Administrador do sistema).
 
-   Para obter mais informações, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Para obter informações sobre como um administrador de Adobe atribui um nível de acesso de Administrador de Sistema a um usuário, consulte [Conceder acesso administrativo total a um usuário](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Para obter informações sobre como um administrador de Adobe atribui um nível de acesso de Administrador do Sistema a um usuário, consulte [Conceder a um usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Usuários padrão ou do Planejador com acesso administrativo às funções de trabalho {#planner-users}
 

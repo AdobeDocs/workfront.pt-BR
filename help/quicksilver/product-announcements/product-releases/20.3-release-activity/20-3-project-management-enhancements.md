@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de gerenciamento de projeto feitas com a versão 20.3 para o ambiente de Produção. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 10 de agosto de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte [Visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte a [visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Formatação de campo personalizado em listas
 
@@ -60,7 +60,7 @@ Além de uma aparência atualizada, as seguintes melhorias estão disponíveis n
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-Para obter informações sobre a nova caixa Editar projeto, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+Para obter informações sobre a nova caixa Editar Projeto, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Novo painel Resumo e melhorias de Atualizações para a lista de documentos
 
@@ -72,7 +72,7 @@ O novo painel Resumo à direita da lista de documentos agora está disponível c
 
 Algumas ações estão indisponíveis no momento, mas serão adicionadas em uma versão futura. Essas ações incluem o fluxo de trabalho de prova.
 
-Para obter mais informações, consulte [Resumo para visão geral de documentos](../../../documents/managing-documents/summary-for-documents.md).
+Para obter mais informações, consulte [Resumo de documentos](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Melhorias nos detalhes do documento
 
@@ -87,7 +87,7 @@ Procure as seguintes melhorias na página Detalhes do documento:
 * Miniatura de visualização maior, permitindo identificar facilmente o documento
 * Ícone Edição global adicionado, que oferece a capacidade de editar vários campos de uma só vez.
 
-Para obter mais informações, consulte [Visão geral dos detalhes do documento](../../../documents/managing-documents/document-details-overview.md).
+Para obter mais informações, consulte [Visão geral de Detalhes do Documento](../../../documents/managing-documents/document-details-overview.md).
 
 ## Para administradores: definir preferências de projeto no nível do grupo
 
@@ -99,7 +99,7 @@ Para dar mais autonomia aos administradores de grupo e permitir maior personaliz
 
 Todas as preferências do projeto podem ser personalizadas no nível do grupo, exceto Cálculos de linha do tempo e Trimestres personalizados.
 
-Para obter mais informações sobre Preferências de Projeto de Grupo, consulte [Configurar as preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+Para obter mais informações sobre Preferências de Projeto de Grupo, consulte [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 ## Novo para administradores: criar campos de formulário personalizados em que os usuários podem formatar texto
 
@@ -109,7 +109,7 @@ Para obter mais informações, consulte Criar um formulário personalizado na no
 
 ## Novo para administradores: crie um nome interno e um rótulo voltado para o usuário para um campo de Formulário personalizado
 
-Para oferecer mais flexibilidade na rotulagem e no renomeamento de campos de Formulário personalizado, agora é possível criar uma *name* para um campo, além do campo voltado para o usuário *rótulo* você tem usado. Isso dá a você a liberdade de alterar o rótulo de campo que os usuários veem sem alterar o nome do campo que o sistema vê.
+Para lhe dar mais flexibilidade na rotulagem e renomeação de campos de Formulário Personalizado, agora você pode criar um *nome* interno para um campo, além do *rótulo* voltado para o usuário que você tem usado. Isso dá a você a liberdade de alterar o rótulo de campo que os usuários veem sem alterar o nome do campo que o sistema vê.
 
 Anteriormente, o rótulo era exibido acima do campo para usuários e usado pelo sistema para identificar o campo. Assim, alterar o rótulo para os usuários fazia com que o campo funcionasse mal onde quer que fosse usado, porque o sistema não podia mais identificá-lo.
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas nas Listas com a versão 2020.1. Esses aprimoramentos estão disponíveis atualmente no ambiente de Pré-visualização e serão disponibilizados no ambiente Produção no final de março ou início de abril de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte [Visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte a [visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Novo modo de salvamento ao fazer alterações em uma lista de tarefas: o modo Planejamento de linha do tempo
 
@@ -30,7 +30,7 @@ Considere os seguintes benefícios ao usar o modo de Planejamento de linha do te
 * O envio de cada alteração é mais rápido do que no uso dos modos de salvamento Automático ou Manual.
 * Você pode reverter as alterações antes de salvá-las.
 
-Para obter mais informações sobre como salvar alterações em uma lista de tarefas, consulte a seção &quot;Editar tarefas usando a configuração de planejamento de Linha do tempo&quot; no artigo [Editar tarefas em uma lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Para obter mais informações sobre como salvar alterações em uma lista de tarefas, consulte a seção &quot;Editar tarefas usando a configuração de planejamento de Linha do Tempo&quot; no artigo [Editar tarefas em uma lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 ## Aparência e comportamento atualizados das novas listas
 
@@ -54,7 +54,7 @@ Algumas das atualizações incluem:
 
 Agora é possível ver com mais clareza a diferenciação entre várias camadas de agrupamentos em listas com um novo esquema de cores. Os resultados do agrupamento também são descritos mais claramente em um quadro separado. Esta alteração foi aplicada a todas as novas listas.
 
-Para obter informações sobre como criar e personalizar agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obter informações sobre como criar e personalizar agrupamentos, consulte [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Realçar itens correspondentes em listas ao usar os filtros rápidos
 

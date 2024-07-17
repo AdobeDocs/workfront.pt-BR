@@ -3,44 +3,44 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Exibir e gerenciar os itens restaurados recentemente de um grupo
-description: Ao visualizar um grupo que você gerencia na área Grupos , é possível visualizar, filtrar, agrupar e restaurar os itens de trabalho, documentos e modelos restaurados recentemente.
+description: Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar, filtrar, agrupar e restaurar os itens de trabalho, documentos e modelos restaurados recentemente.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
 
 # Exibir e gerenciar os itens restaurados recentemente de um grupo
 
-Ao visualizar um grupo que você gerencia na área Grupos , é possível visualizar e trabalhar com projetos, tarefas, problemas, documentos e modelos restaurados recentemente das seguintes maneiras:
+Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com projetos, tarefas, problemas, documentos e modelos restaurados recentemente das seguintes maneiras:
 
 * Exibir, filtrar e agrupar uma lista de itens restaurados recentemente
 * Exportar uma lista de itens restaurados recentemente
 
-Se houver algum grupo acima do seu grupo, os administradores também poderão fazer essas tarefas para o seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
+Se houver algum grupo acima do seu, os administradores também poderão fazer essas coisas pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 Para obter mais informações sobre itens restaurados, consulte [Restaurar itens excluídos](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">plano do Workfront*</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores do grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder ao usuário acesso administrativo total</a>.</p> </td> 
+   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -49,17 +49,17 @@ Você deve ter o seguinte para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir qual plano ou tipo de licença você tem, entre em contato com o administrador da Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Exibir e gerenciar os itens restaurados recentemente de um grupo
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
 1. Clique no nome do grupo.
-1. No painel esquerdo, clique em **Restaurado recentemente**.
-1. Abra uma das guias a seguir, onde deseja visualizar e gerenciar os itens restaurados recentemente do grupo:
+1. No painel esquerdo, clique em **Restaurados recentemente**.
+1. Abra uma das seguintes guias onde deseja exibir e gerenciar os itens restaurados recentemente pelo grupo:
 
    * Projetos
    * Tarefas
@@ -67,7 +67,7 @@ Você deve ter o seguinte para executar as etapas neste artigo:
    * Documentos
    * Modelos
 
-   Cada guia lista os itens do tipo de objeto correspondente que pertencem ao grupo atual ou seus subgrupos e que foram restaurados nos últimos 30 dias.
+   Cada guia lista itens do tipo de objeto correspondente que pertencem ao grupo atual ou a seus subgrupos e que foram restaurados nos últimos 30 dias.
 
 1. Siga um destes procedimentos:
 
@@ -81,7 +81,7 @@ Você deve ter o seguinte para executar as etapas neste artigo:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <p>Alterar a exibição de informações na lista</p> </td> 
-      <td> <p>No canto superior direito acima da lista, use <strong>Filtro</strong> para definir o que é exibido com base nos critérios fornecidos. Use <strong>Exibir</strong> para definir quais campos são exibidos como colunas. Use <strong>Agrupamento</strong> para agrupar os itens em categorias.</p> </td> 
+      <td> <p>No canto superior direito acima da lista, use <strong>Filtro</strong> para definir o que é exibido com base nos critérios fornecidos. Use <strong>Exibir</strong> para definir quais campos são exibidos como colunas. Use o <strong>Agrupamento</strong> para agrupar os itens em categorias.</p> </td> 
      </tr> 
     </tbody> 
    </table>

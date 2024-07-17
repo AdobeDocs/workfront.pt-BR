@@ -38,12 +38,12 @@ Você pode usar variáveis de filtro, também conhecidas como curingas, ao criar
 <table>
     <tr>
         <td>Filtros em listas, relatórios e no Planejador de recursos</td>
-        <td>Para obter informações sobre filtros do Workfront, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Visão geral dos filtros</a>.
+        <td>Para obter informações sobre filtros Workfront, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Visão geral dos filtros</a>.
 </td>
     </tr>
     <tr>
         <td>Pesquisas avançadas</td>
-        <td>Para obter informações sobre pesquisas avançadas, consulte a seção <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Usar pesquisa avançada</a> no artigo <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Pesquisar no Adobe Workfront</a>.
+        <td>Para obter informações sobre pesquisas avançadas, consulte a seção <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Usar Pesquisa Avançada</a> no artigo <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Pesquisar Adobe Workfront</a>.
     </tr>
     <tr>
         <td>Colunas calculadas em visualizações</td>
@@ -51,20 +51,20 @@ Você pode usar variáveis de filtro, também conhecidas como curingas, ao criar
     </tr>
     <tr>
         <td>Formatação condicional em exibições</td>
-        <td>Para obter informações sobre formatação condicional, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Usar formatação condicional em exibições</a>.
+        <td>Para obter informações sobre formatação condicional, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Usar formatação condicional nas exibições</a>.
     </tr>
     <tr>
         <td>Campos personalizados calculados</td>
         <td>Não há suporte para variáveis de filtro curinga ao fazer referência a coleções aninhadas em uma coluna calculada.
 
-Para obter informações sobre campos e colunas personalizados calculados, consulte o artigo <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Campos personalizados calculados versus colunas calculadas</a>.
+Para obter informações sobre campos e colunas personalizados calculados, consulte o artigo <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Campos personalizados calculados vs. colunas calculadas</a>.
 </td>
     </tr>
 </table>
 
 ## Variáveis de filtro curinga com base em data
 
-As opções de curinga com base em data podem ser usadas em combinação com qualquer atributo de filtro de data. Para obter informações sobre como adicionar um curinga com base em data a um relatório, consulte o artigo [Usar curingas com base em data para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+As opções de curinga com base em data podem ser usadas em combinação com qualquer atributo de filtro de data. Para obter informações sobre como adicionar um curinga baseado em data a um relatório, consulte o artigo [Usar curingas baseados em data para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
@@ -77,12 +77,12 @@ Você pode escolher entre os seguintes curingas com base em data:
  <col> 
  <tbody> 
   <tr valign="top"> 
-   <td width="100" role="rowheader"> <p><strong>$$TODAY</strong> </p> </td> 
-   <td> <p>Recomendamos que você crie filtros sensíveis a data usando esse curinga para evitar a criação do filtro novamente amanhã, na próxima semana ou no próximo mês.</p> <p>Por exemplo, se você quiser exibir todas as tarefas com vencimento antes de hoje, poderá usar a seguinte regra em um filtro de tarefa: <em>Data de Início Planejada Anterior a $$TODAY</em>.</p> <p>$$TODAY é sempre igual à meia-noite do dia atual.</p> </td> 
+   <td width="100" role="rowheader"> <p><strong>$$HOJE</strong> </p> </td> 
+   <td> <p>Recomendamos que você crie filtros sensíveis a data usando esse curinga para evitar a criação do filtro novamente amanhã, na próxima semana ou no próximo mês.</p> <p>Por exemplo, se você quiser exibir todas as tarefas com vencimento antes de hoje, poderá usar a seguinte regra em um filtro de tarefa: <em>Data de Início Planejada Menor que $$TODAY</em>.</p> <p>$$TODAY é sempre igual à meia-noite do dia atual.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>Isso é semelhante ao curinga $$TODAY, mas inclui a data e a hora atuais. $$NOW é igual à data e hora atuais.</p> <p>Por exemplo, se você quiser exibir todas as entradas de horas fornecidas até o horário atual, faça isso usando a seguinte regra em um filtro de horas: <em>Data de Início Planejada Anterior a $$NOW</em>.</p> <p>Observação: Este curinga não é suportado no Planejador de Recursos.</p> </td> 
+   <td> <p>Isso é semelhante ao curinga $$TODAY, mas inclui a data e a hora atuais. $$NOW é igual à data e hora atuais.</p> <p>Por exemplo, se você deseja exibir todas as entradas de horas fornecidas até a hora atual, você pode fazer isso usando a seguinte regra em um filtro de horas: <em>Data de Início Planejada Menor que $$NOW</em>.</p> <p>Observação: Este curinga não é suportado no Planejador de Recursos.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +96,7 @@ Para indicar vários períodos de tempo e vários pontos no tempo (futuros ou pa
 | **d** | dia |
 | **w** | semana |
 | **m** | mês |
-| **y** | ano |
+| **a** | ano |
 
 {style="table-layout:auto"}
 
@@ -114,7 +114,7 @@ Para indicar vários períodos de tempo e vários pontos no tempo (futuros ou pa
 
 {style="table-layout:auto"}
 
-Por exemplo, o curinga `$$TODAYb+2w` refere-se a &quot;2 semanas a partir do início desta semana&quot;. O curinga *`$$NOW+2h` refere-se a &quot;daqui a 2 horas&quot;.
+Por exemplo, o curinga `$$TODAYb+2w` se refere a &quot;2 semanas a partir do início desta semana&quot;. O curinga *`$$NOW+2h` se refere a &quot;daqui a 2 horas&quot;.
 
 ## Variáveis de filtro curinga com base no usuário
 
@@ -122,7 +122,7 @@ Por exemplo, o curinga `$$TODAYb+2w` refere-se a &quot;2 semanas a partir do in�
 >
 >Se um filtro ou relatório contiver uma variável de filtro curinga baseada em usuário, os resultados sempre mostrarão informações filtradas pelo usuário que está conectado no momento. Quando você compartilha esse filtro ou relatório com outro usuário, o curinga recupera informações para o usuário que está observando o relatório. Os dois usuários veem resultados diferentes.
 >
->Para obter informações sobre como adicionar um curinga baseado no usuário a um relatório, consulte o artigo [Usar curingas com base no usuário para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+>Para obter informações sobre como adicionar um curinga baseado no usuário a um relatório, consulte o artigo [Usar curingas baseados no usuário para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Você pode escolher entre as seguintes variáveis baseadas no usuário:
 
@@ -134,7 +134,7 @@ Você pode escolher entre as seguintes variáveis baseadas no usuário:
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>A variável baseada em usuário mais comum é $$USER.ID. Isso sempre retorna a ID do usuário conectado. Essa é a ID usada para identificar qual usuário criou cada objeto e suas atribuições de trabalho.</p> <p>Quando usado em relatórios, esse curinga diminui o número de relatórios que precisam ser criados em seu sistema. É possível criar um relatório e compartilhá-lo com vários usuários, e os resultados são alterados com base no usuário que está conectado e observando o relatório.</p> <p>Por exemplo, para criar um relatório para todos os problemas atribuídos ao usuário que está conectado, é possível usar a seguinte regra em um filtro de problemas: <em>Atribuído a ID é igual a $$USER.ID</em>.</p> <p>O Workfront usa essa variável nos seguintes filtros incorporados:</p> 
+    --> <p>A variável baseada em usuário mais comum é $$USER.ID. Isso sempre retorna a ID do usuário conectado. Essa é a ID usada para identificar qual usuário criou cada objeto e suas atribuições de trabalho.</p> <p>Quando usado em relatórios, esse curinga diminui o número de relatórios que precisam ser criados em seu sistema. É possível criar um relatório e compartilhá-lo com vários usuários, e os resultados são alterados com base no usuário que está conectado e observando o relatório.</p> <p>Por exemplo, para criar um relatório para todos os problemas atribuídos ao usuário que está conectado, você pode usar a seguinte regra em um filtro de problemas: <em>Atribuído a ID igual a $$USER.ID</em>.</p> <p>O Workfront usa essa variável nos seguintes filtros incorporados:</p> 
     <ul> 
      <li>Meus Relatórios</li> 
      <li>Meus projetos</li> 
@@ -182,7 +182,7 @@ Você pode escolher entre as seguintes variáveis baseadas no usuário:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.homeGroupID</strong> </p> </td> 
-   <td> <p>A variável $$USER.homeGroupID se refere à ID do Grupo padrão do usuário conectado. Como um Administrador de grupo, você pode usar essa variável para filtrar somente por itens que pertençam aos usuários no seu grupo padrão.</p> <p>Por exemplo, para ver todas as tarefas incompletas em projetos no grupo financeiro, use as seguintes regras de filtro em um filtro de tarefa:<br><em>Projeto: ID de Grupo Igual a $$USER.homeGroupID </em><br><em>Porcentagem Concluída Menor Que 100</em></p> <p>Para ver todas as tarefas incompletas atribuídas a indivíduos em um grupo específico que seja o Grupo inicial do usuário conectado, use as seguintes regras de filtro em um filtro de tarefa:</p> <p><em>Atribuído a: ID de grupo igual a $$USER.homeGroupID<br>Porcentagem Concluída Menor Que 100</em> </p> </td> 
+   <td> <p>A variável $$USER.homeGroupID se refere à ID do Grupo padrão do usuário conectado. Como um Administrador de grupo, você pode usar essa variável para filtrar somente por itens que pertençam aos usuários no seu grupo padrão.</p> <p>Por exemplo, para ver todas as tarefas incompletas nos projetos do grupo financeiro, use as seguintes regras de filtro em um filtro de tarefa:<br><em>Projeto: ID de Grupo igual a $$USER.homeGroupID </em><br><em>Percentual Concluído menor que 100</em></p> <p>Para ver todas as tarefas incompletas atribuídas a indivíduos em um grupo específico que seja o Grupo inicial do usuário conectado, use as seguintes regras de filtro em um filtro de tarefa:</p> <p><em>Atribuído a: ID de Grupo igual a $$USER.homeGroupID<br>Percentual de Conclusão Menor que 100</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.otherGroupIDs</strong> </p> </td> 
@@ -198,11 +198,11 @@ Você pode escolher entre as seguintes variáveis baseadas no usuário:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.roleID</strong> </p> </td> 
-   <td> <p>A variável $$USER.roleID refere-se à Função principal do usuário conectado. Usando essa variável, você pode relatar tarefas ou problemas atribuídos a uma função de trabalho específica.</p> <p>Por exemplo, para ver todas as tarefas atribuídas à função principal do usuário conectado, é possível usar a seguinte regra de filtro em um filtro de tarefa:</p> <p><em>Tarefa: a ID da função é igual a $$USER.roleID.</em> </p> </td> 
+   <td> <p>A variável $$USER.roleID refere-se à Função principal do usuário conectado. Usando essa variável, você pode relatar tarefas ou problemas atribuídos a uma função de trabalho específica.</p> <p>Por exemplo, para ver todas as tarefas atribuídas à função principal do usuário conectado, é possível usar a seguinte regra de filtro em um filtro de tarefa:</p> <p><em>Tarefa: a ID da Função é igual a $$USER.roleID.</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
-   <td> <p>A variável $$USER.roleIDs se refere a todas as funções de trabalho associadas ao usuário conectado. Usando essa variável, você pode relatar tarefas ou problemas atribuídos a qualquer uma das funções de trabalho associadas ao usuário conectado. </p> <p>Por exemplo, para ver todas as tarefas atribuídas a qualquer uma das funções associadas ao usuário conectado, é possível usar a seguinte regra de filtro em um filtro de tarefa:</p> <p><i>Tarefa: a ID da função é igual a $$USERID.roleIDs<br></i> </p> <p>Dica: o <i>Tarefa: a ID da função é igual a $$USERID.roleIDs</i> A regra de filtro existe nos filtros integrados Tarefas não atribuídas na minha função e Problemas não atribuídos na minha função. </p> </td> 
+   <td> <p>A variável $$USER.roleIDs se refere a todas as funções de trabalho associadas ao usuário conectado. Usando essa variável, você pode relatar tarefas ou problemas atribuídos a qualquer uma das funções de trabalho associadas ao usuário conectado. </p> <p>Por exemplo, para ver todas as tarefas atribuídas a qualquer uma das funções associadas ao usuário conectado, é possível usar a seguinte regra de filtro em um filtro de tarefa:</p> <p><i>Tarefa: a ID da Função é igual a $$USERID.roleIDs<br></i> </p> <p>Dica: A regra de filtro <i>Tarefa: ID de Função igual a $$USERID.roleIDs</i> existe nos filtros internos Tarefas não atribuídas em minha função e Problemas não atribuídos em minha função. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -69,7 +69,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 * Você pode mesclar duas colunas adjacentes e exibir as informações de cada coluna separadas por uma quebra de linha, ou pode mesclar as informações em duas colunas adjacentes sem separador entre as informações de cada coluna.
 * É possível mesclar as informações de mais de duas colunas aplicando a mesma sintaxe descrita neste artigo a uma coluna já compartilhada e a uma coluna adjacente.
-* A variável `valueformat=HTML` a linha é obrigatória em uma coluna compartilhada. Caso contrário, as colunas não conterão informações (estarão em branco) quando o relatório for exportado do Adobe Workfront.
+* A linha `valueformat=HTML` é obrigatória em uma coluna compartilhada. Caso contrário, as colunas não conterão informações (estarão em branco) quando o relatório for exportado do Adobe Workfront.
 * A formatação condicional pode não ser suportada em colunas mescladas.
 
   As seguintes exceções existem:
@@ -78,11 +78,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * Ao exportar a exibição para um arquivo PDF, a formatação condicional se aplica à primeira coluna em uma coluna mesclada.
    * Ao exportar a exibição para um arquivo do Excel, as colunas mescladas são exibidas como colunas separadas. As colunas individuais também exibem suas respectivas regras de formatação condicional.
 
-* Colunas com o **viewalias** O atributo pode limitar a quantidade de colunas que podem ser mescladas. Para evitar esses limites, evite usar a variável **viewalias** atributo. Se você precisar incluir a variável **viewalias** em uma coluna, verifique se esse é o último item listado na coluna.
+* As colunas com o atributo **viewalias** podem limitar a quantidade de colunas que podem ser mescladas. Para evitar esses limites, evite usar o atributo **viewalias**. Se você precisar incluir o atributo **viewalias** em uma coluna, verifique se ele é o último item listado na coluna.
 
 * Se você exportar uma lista com colunas compartilhadas para um formato Excel ou Delimitado por tabulação, essas colunas serão separadas no arquivo exportado.
 
-* Quando uma ou ambas as colunas exibem uma variável `tile` tipo, uma quebra de linha forçada é introduzida automaticamente na coluna mesclada. Por exemplo, Campos de texto com formatação são `tile` campos do tipo. Nesse caso, há um código de linha de `type=tile` ao exibir as colunas no Modo de texto.
+* Quando uma ou ambas as colunas exibem um campo do tipo `tile`, uma quebra de linha forçada é introduzida automaticamente na coluna mesclada. Por exemplo, Campos de Texto com Formatação são campos do tipo `tile`. Nesse caso, há um código de linha de `type=tile` ao visualizar as colunas no Modo de texto.
 
 ## Mesclar dados de duas colunas sem uma quebra de linha
 
@@ -98,13 +98,13 @@ Para mesclar dados de duas colunas sem uma quebra de linha:
 
    `sharecol=true`
 
-   Ao mesclar as duas primeiras colunas de uma lista ou relatório, o Workfront precede cada linha de texto que contém informações sobre o objeto na primeira coluna com `column.0.` e as linhas de texto que contêm informações sobre a segunda coluna com `column.1.` .
+   Ao mesclar as duas primeiras colunas de uma lista ou relatório, o Workfront precede cada linha de texto que contém informações sobre o objeto na primeira coluna com `column.0.` e as linhas de texto que contêm informações sobre a segunda coluna com `column.1.`.
 
-   Você deve preceder o número da primeira coluna com o número dessa coluna. A contagem de colunas sempre começa com a coluna mais à esquerda da lista ou do relatório rotulado como `column.0.`.
+   Você deve preceder o número da primeira coluna com o número dessa coluna. A contagem de colunas sempre começa com a coluna mais à esquerda da lista ou relatório rotulado como `column.0.`.
 
    Se você compartilhar mais de uma coluna, adicione o número da coluna nas linhas de código que contêm as informações de compartilhamento para cada coluna.
 
-   **Exemplo:** Este é o código do modo de texto para uma coluna mesclada que contém três colunas separadas, começando com a segunda coluna da lista. Os valores mesclados são Nome do projeto, Data de início planejada e nome do Proprietário do projeto, e não há interrupção entre os três valores:
+   **Exemplo:** este é o código do modo de texto para uma coluna mesclada que contém três colunas separadas, começando com a segunda coluna da lista. Os valores mesclados são Nome do projeto, Data de início planejada e nome do Proprietário do projeto, e não há interrupção entre os três valores:
 
    `column.1.valuefield=name`
 
@@ -124,7 +124,7 @@ Para mesclar dados de duas colunas sem uma quebra de linha:
 
 ![](assets/shared-column-no-line-breaks-350x142.png)
 
-1. Clique em **Salvar**, depois **Salvar visualização**.
+1. Clique em **Salvar** e depois em **Salvar exibição**.
 
 ## Mesclar dados de duas colunas com uma quebra de linha
 
@@ -137,7 +137,7 @@ Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma 
    >* As colunas que você deseja mesclar devem ser adjacentes entre si.
    >* Você deve clicar na primeira coluna que deseja mesclar.
 
-1. Clique em **Alternar para modo de texto** e adicione o seguinte código na coluna do meio que você adicionou na etapa 1:
+1. Clique em **Alternar para Modo de Texto** e adicione o seguinte código na coluna do meio que você adicionou na etapa 1:
 
    `value=<br>`
 
@@ -148,17 +148,17 @@ Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma 
    `sharecol=true`
 
 
-1. Clique na primeira coluna e clique em **Alternar para modo de texto**, em seguida, adicione o seguinte texto à coluna:
+1. Clique na primeira coluna, clique em **Alternar para Modo de Texto** e adicione o seguinte texto à coluna:
 
    `sharecol=true`
 
-   Ao mesclar as duas primeiras colunas de uma lista ou relatório, o Workfront precede cada linha de texto que contém informações sobre o objeto na primeira coluna com `column.0.`, a coluna com as informações de compartilhamento com `column.1.`e as linhas de texto que contêm informações sobre a segunda coluna com `column.2.`.
+   Ao mesclar as duas primeiras colunas de uma lista ou relatório, o Workfront precede cada linha de texto que contém informações sobre o objeto na primeira coluna com `column.0.`, a coluna com as informações de compartilhamento com `column.1.` e as linhas de texto que contêm informações sobre a segunda coluna com `column.2.`.
 
-   Se a coluna combinada estiver no meio da exibição, as colunas serão numeradas de acordo com seu local na exibição. A contagem de colunas sempre começa com a coluna mais à esquerda da lista ou do relatório rotulado como `column.0.`.
+   Se a coluna combinada estiver no meio da exibição, as colunas serão numeradas de acordo com seu local na exibição. A contagem de colunas sempre começa com a coluna mais à esquerda da lista ou relatório rotulado como `column.0.`.
 
    Se você compartilhar mais de uma coluna, adicione o número da coluna nas linhas de código que contêm as informações de compartilhamento.
 
-   **Exemplo:** Este é o código do modo de texto para uma coluna compartilhada que contém o Nome do Projeto, a Data de Início Planejada e o nome do Proprietário do Projeto com uma quebra de linha. A coluna compartilhada é a segunda coluna de uma exibição de projeto.
+   **Exemplo:** este é o código do modo de texto para uma coluna compartilhada que contém o Nome do Projeto, a Data de Início Planejada e o nome do Proprietário do Projeto com uma quebra de linha. A coluna compartilhada é a segunda coluna de uma exibição de projeto.
 
 
    `column.1.displayname=Project_StartDate_Owner`
@@ -203,4 +203,4 @@ Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
 
-1. Clique em **Salvar**, depois **Salvar visualização**.
+1. Clique em **Salvar** e depois em **Salvar exibição**.

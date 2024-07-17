@@ -54,7 +54,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique em **[!UICONTROL Adicionar coluna]** à direita das colunas existentes.
-1. Na nova coluna, digite um nome e clique em **[!UICONTROL Adicionar coluna]**.
+1. Na nova coluna, digite um nome e clique em **[!UICONTROL Adicionar Coluna]**.
 
    ![Adicionar nova coluna](assets/boards-add-column.png)
 
@@ -76,14 +76,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Ou
 
-   Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) na coluna e selecione **[!UICONTROL Editar]**. Na área Configurações, digite o novo nome no campo **[!UICONTROL Nome da coluna]** e clique em **[!UICONTROL Fechar]**.
+   Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) na coluna e selecione **[!UICONTROL Editar]**. Na área Configurações, digite o novo nome no campo **[!UICONTROL Nome da coluna]** e clique em **[!UICONTROL Fechar]**.
 
 ## Excluir uma coluna de quadro
 
 Quando você exclui uma coluna de um quadro, ela não pode ser recuperada.
 
 1. Acesse o quadro.
-1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) na coluna e selecione **[!UICONTROL Excluir]**.
+1. Clique no menu **[!UICONTROL Mais]** ![Mais menus](assets/more-icon-spectrum.png) na coluna e selecione **[!UICONTROL Excluir]**.
 
    >[!NOTE]
    >
@@ -93,18 +93,18 @@ Quando você exclui uma coluna de um quadro, ela não pode ser recuperada.
 
 Você pode usar uma definição de configuração para exibir o número de cartões em cada coluna.
 
-Se você estiver usando o limite de WIP em uma coluna, não será adicionado um contador de placa separado. Para obter mais informações sobre limites WIP, consulte [Gerenciar o [!UICONTROL Trabalho em progresso] Limite (WIP) em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+Se você estiver usando o limite de WIP em uma coluna, não será adicionado um contador de placa separado. Para obter mais informações sobre limites WIP, consulte [Gerenciar o limite de [!UICONTROL Trabalho em Andamento] (WIP) em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Acesse o quadro.
-1. Clique em **[!UICONTROL Configurar]** à direita da placa para abrir o painel Configurar.
-1. Expandir **[!UICONTROL Coluna]**.
-1. Ativar **[!UICONTROL Exibir uma contagem de cartão de coluna]**.
+1. Clique em **[!UICONTROL Configurar]** à direita do quadro para abrir o painel Configurar.
+1. Expanda **[!UICONTROL Coluna]**.
+1. Ative **[!UICONTROL Exibir uma contagem de cartão de coluna]**.
 
-   ![Ativar contador de cartões](assets/display-card-count.png)
+   ![Ativar contador de cartão](assets/display-card-count.png)
 
    O contador de cartão é exibido na parte superior de cada coluna.
 
-1. Clique em **[!UICONTROL Ocultar configuração]** para fechar o [!UICONTROL Configurar] painel.
+1. Clique em **[!UICONTROL Ocultar configuração]** para fechar o painel [!UICONTROL Configurar].
 
 ## Definir configurações e políticas de coluna
 
@@ -124,58 +124,58 @@ Um cartão permanecerá em uma coluna em que é colocado se o status do cartão 
 >Além disso, para todos os tipos de quadro, se você mover um cartão de uma coluna para outra coluna com o mesmo status, o cartão retornará à coluna original quando você atualizar o quadro.
 
 1. Acesse o quadro.
-1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) na coluna e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **[!UICONTROL Mais]** ![Mais menus](assets/more-icon-spectrum.png) na coluna e selecione **[!UICONTROL Editar]**.
 
-   A variável [!UICONTROL Configurações] é exibida. A variável **[!UICONTROL Nome da coluna]** informa para qual coluna você está definindo configurações.
+   A área [!UICONTROL Configurações] é exibida. O **[!UICONTROL Nome da coluna]** permite que você saiba para qual coluna você está definindo configurações.
 
-1. Ativar o **[!UICONTROL Atualizar valores de campo automaticamente]** política para alterar determinados valores de campo automaticamente quando um cartão for movido para essa coluna.
+1. Habilite a política **[!UICONTROL Atualizar valores de campo automaticamente]** para alterar determinados valores de campo automaticamente quando um cartão for movido para esta coluna.
 
    ![Configurações e políticas de coluna](assets/boards-column-policies-enabled.png)
 
 1. (Opcional) Defina um valor para o status do cartão:
 
-   1. Selecione o **[!UICONTROL Status]** caixa de seleção
+   1. Marque a caixa de seleção **[!UICONTROL Status]**.
 
    1. Selecione o status a ser aplicado a um cartão quando ele for movido para essa coluna.
 
       ![Status das colunas](assets/boards-column-status.png)
 
-      As opções de conversão de status para cartões conectados também são exibidas. (A tradução de status não se aplica a cartões ad hoc.) Essas opções determinam o status personalizado aplicado à tarefa ou problema no [!DNL Workfront] quando um cartão conectado é movido para essa coluna.
+      As opções de conversão de status para cartões conectados também são exibidas. (A tradução de status não se aplica a cartões ad hoc.) Essas opções determinam o status personalizado aplicado à tarefa ou problema em [!DNL Workfront] quando um cartão conectado é movido para esta coluna.
 
-   1. Selecione um [!UICONTROL **Personalizado**] Status a ser aplicado ao cartão para tarefas e problemas.
+   1. Selecione um status [!UICONTROL **Personalizado**] para aplicar ao cartão para tarefas e problemas.
 
-      Quando um cartão é movido para essa coluna, [!DNL Workfront] O primeiro tenta aplicar o status personalizado (por exemplo, Resolvido). Se o status personalizado selecionado não estiver disponível para essa placa, você será solicitado a escolher outro status que corresponda ao status do sistema (da etapa b acima). Para obter mais informações sobre status, consulte [Visão geral dos status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      Quando um cartão é movido para essa coluna, [!DNL Workfront] tenta aplicar o status personalizado primeiro (por exemplo, Resolvido). Se o status personalizado selecionado não estiver disponível para essa placa, você será solicitado a escolher outro status que corresponda ao status do sistema (da etapa b acima). Para obter mais informações sobre status, consulte [Visão geral dos status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Além disso, se o status na tarefa ou problema conectado for alterado para o status personalizado ou do sistema definido na política de coluna, o cartão será movido automaticamente para a coluna.
 
 1. (Opcional) Defina um valor para os atribuídos do cartão:
 
-   1. Selecione o **[!UICONTROL Responsáveis]** caixa de seleção
+   1. Marque a caixa de seleção **[!UICONTROL Atribuídos]**.
    1. Selecione uma ação.
 
-      * **[!UICONTROL Adicionar responsáveis]:** Os atribuídos selecionados são adicionados à lista existente de atribuídos em um cartão quando ele é movido para essa coluna.
-      * **[!UICONTROL Substituir responsáveis]:** Os atribuídos selecionados substituem todos os outros atribuídos e se tornam os únicos atribuídos em um cartão quando ele é movido para essa coluna.
+      * **[!UICONTROL Adicionar responsáveis]:** Os responsáveis selecionados são adicionados à lista existente de responsáveis em um cartão quando ele é movido para esta coluna.
+      * **[!UICONTROL Substituir atribuídos]:** os atribuídos selecionados substituem todos os outros atribuídos e se tornam os únicos atribuídos de um cartão quando ele é movido para esta coluna.
 
    1. Clique em [!UICONTROL **Adicionar atribuição**] e procure um usuário. Selecione os atribuídos nos resultados da pesquisa. Todos os usuários e equipes do Workfront estão disponíveis para escolha.
 
-      ![Responsáveis pela coluna](assets/boards-column-assignees.png)
+      ![Atribuídos para a coluna](assets/boards-column-assignees.png)
 
 1. (Opcional) Defina um valor para as tags do cartão:
 
-   1. Selecione o **[!UICONTROL Cartões]** caixa de seleção
+   1. Marque a caixa de seleção **[!UICONTROL Cartões]**.
    1. Selecione uma ação.
 
-      * **[!UICONTROL Adicionar em tags]:** As tags selecionadas são adicionadas à lista existente de tags em um cartão quando ele é movido para essa coluna.
-      * **[!UICONTROL Substituir tags]:** As tags selecionadas substituem todas as outras tags e se tornam as únicas tags em um cartão quando ele é movido para essa coluna.
+      * **[!UICONTROL Adicionar nas marcas]:** As marcas selecionadas são adicionadas à lista existente de marcas em um cartão quando ele é movido para esta coluna.
+      * **[!UICONTROL Substituir marcas]:** As marcas selecionadas substituem todas as outras marcas e se tornam as únicas marcas em um cartão quando ele é movido para esta coluna.
 
-   1. Selecione as tags na lista suspensa. Somente as tags já criadas na [!UICONTROL Gerenciador de tags] estão disponíveis para escolha. Para obter informações sobre como adicionar novas tags, consulte [Adicionar tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+   1. Selecione as tags na lista suspensa. Somente as marcas já criadas no [!UICONTROL Gerenciador de Marcas] estão disponíveis para seleção. Para obter informações sobre como adicionar novas marcas, consulte [Adicionar marcas](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
-      ![Tags para a coluna](assets/boards-column-tags.png)
+      ![Marcas da coluna](assets/boards-column-tags.png)
 
-1. Ativar o **[!UICONTROL Limite de trabalho em andamento]** política para limitar o número de cartões que podem ser adicionados à coluna. Em seguida, digite o número do limite na caixa **[!UICONTROL Definir limite]** campo.
+1. Habilite a política de **[!UICONTROL Limite de trabalho em andamento]** para limitar o número de cartões que podem ser adicionados à coluna. Em seguida, digite o número do limite no campo **[!UICONTROL Definir limite]**.
 
    ![Limite de WIP para a coluna](assets/boards-wip-limit-in-column.png)
 
-   Para obter mais informações, consulte [Gerenciar o limite Trabalho em curso (WIP) em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+   Para obter mais informações, consulte [Gerenciar o limite de Trabalho em andamento (WIP) em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
-1. Clique em **[!UICONTROL Fechar]** para sair da área Configurações e visualizar a coluna e seus cartões.
+1. Clique em **[!UICONTROL Fechar]** para sair da área Configurações e exibir a coluna e seus cartões.

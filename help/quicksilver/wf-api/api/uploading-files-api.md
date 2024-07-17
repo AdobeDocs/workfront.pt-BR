@@ -18,11 +18,11 @@ ht-degree: 0%
 
 É possível fazer upload de arquivos usando APIs do Workfront com ferramentas de API, como o Postman, ou com comandos cURL simples.
 
-Para fazer upload de documentos, consulte as instruções de **Carregando Documentos** no Workfront [Comportamento da publicação](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Você também pode usar essas mesmas instruções para solicitações cURL.
+Para carregar documentos, consulte as instruções para **Carregar Documentos** no [Comportamento do Post](/help/quicksilver/wf-api/general/api-basics.md#post-behavior) do Workfront. Você também pode usar essas mesmas instruções para solicitações cURL.
 
-**Ao usar ferramentas de API para fazer upload de arquivos, siga estas diretrizes:**
+**Ao usar as ferramentas de API para carregar arquivos, siga estas diretrizes:**
 
-* Use a opção da ferramenta API para fazer upload do arquivo. Muitas vezes, trata-se de uma **Escolher arquivo** na tela de solicitação.
+* Use a opção da ferramenta API para fazer upload do arquivo. Geralmente, este é um botão **Escolher Arquivo** na tela de solicitação.
 
 * Use o método HTTP POST para fazer a solicitação para carregar o arquivo.
 

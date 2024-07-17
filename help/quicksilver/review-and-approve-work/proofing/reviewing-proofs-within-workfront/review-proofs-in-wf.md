@@ -23,5 +23,5 @@ Esta seção contém os seguintes artigos:
 * [Comentar em uma prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
 * [Tomar uma decisão sobre uma prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
 
-* [Gerenciar notificações para comentários e decisões de prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+* [Gerenciar notificações para comentários de prova e decisões](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 * [Definir configurações do revisor de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)

@@ -44,7 +44,7 @@ A seguir estão os tipos de filtros que você pode usar no Workfront:
   </tr> 
   <tr> 
    <td><strong>Filtros temporários ou permanentes para áreas especiais</strong></td> 
-   <td>Criado pela Workfront ou personalizado por você ou outros usuários. É possível salvar filtros permanentes e usá-los mais de uma vez, ou aplicá-los temporariamente para atender às suas necessidades imediatas, sem salvá-los. Filtros não salvos não podem ser compartilhados ou excluídos. Eles estão disponíveis em áreas especiais, conforme descrito na seção <a href="#workfront-filters-for-special-areas" class="MCXref xref">Filtros do Workfront para áreas especiais</a> neste artigo. </td> 
+   <td>Criado pela Workfront ou personalizado por você ou outros usuários. É possível salvar filtros permanentes e usá-los mais de uma vez, ou aplicá-los temporariamente para atender às suas necessidades imediatas, sem salvá-los. Filtros não salvos não podem ser compartilhados ou excluídos. Eles estão disponíveis em áreas especiais, conforme descrito na seção <a href="#workfront-filters-for-special-areas" class="MCXref xref">Filtros do Workfront para áreas especiais</a> deste artigo. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ Para obter informações sobre filtros rápidos, consulte [Aplicar o filtro ráp
 
 Você pode usar filtros permanentes que você, outras pessoas ou a Workfront criaram em listas ou relatórios de objetos.
 
-Para obter informações sobre objetos no Workfront e quais objetos você pode criar relatórios, consulte [Visão geral dos objetos do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obter informações sobre objetos no Workfront e quais objetos você pode criar relatórios, consulte [visão geral dos objetos do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Para obter mais informações sobre filtros em listas e relatórios, consulte os seguintes artigos:
 
@@ -72,21 +72,21 @@ Para obter mais informações sobre filtros em listas e relatórios, consulte os
 Você pode usar filtros integrados ou criar filtros personalizados nas seguintes áreas do Workfront:
 
 * Início\
-  Para obter informações, consulte a [Filtrar a Lista de trabalho](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) no artigo [Exibir itens na Lista de trabalho na área Página inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Para obter informações, consulte a seção [Filtrar a Lista de Trabalho](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) no artigo [Exibir itens na Lista de Trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Área de solicitações. Não é possível personalizar filtros na área Solicitações.
 
   Para obter informações, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-* Planejamento de recursos\
-  Para obter informações, consulte o artigo [Filtrar informações no Planejador de recursos](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+* Planejador de recursos\
+  Para obter informações, consulte o artigo [Filtrar informações no Planejador de Recursos](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Relatório de utilização
 
-  Para obter informações, consulte a seção [Filtrar informações de utilização](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) no artigo [Exibir informações de utilização de recursos](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  Para obter informações, consulte a seção [Informações de utilização do filtro](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) no artigo [Exibir informações de utilização do recurso](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Balanceador de carga de trabalho
 
-  Para obter informações, consulte [Filtrar informações no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+  Para obter informações, consulte [Informações de filtro no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 * Área do Analytics
 
@@ -118,11 +118,11 @@ Você pode usar filtros integrados ou criar filtros personalizados nas seguintes
 
 * Metas
 
-  As metas exigem uma licença adicional. Para obter informações sobre o Workfront Goals, consulte [Visão geral dos objetivos do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  As metas exigem uma licença adicional. Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
   Você pode usar critérios de filtragem integrados, mas não pode criar filtros personalizados para reutilizar na área Metas.
 
-  Para obter informações, consulte [Filtrar informações nos Adobe Workfront Goals](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
+  Para obter informações, consulte [Filtrar informações em Metas do Adobe Workfront](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 * Quadros
 
@@ -146,7 +146,7 @@ Ao trabalhar com listas e relatórios, você pode filtrar as informações na te
 
 Para obter informações sobre listas do Workfront, consulte [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Para obter informações sobre relatórios do Workfront, consulte [Introdução a relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Para obter informações sobre relatórios do Workfront, consulte [Introdução aos relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Considere o seguinte ao trabalhar com filtros em listas ou relatórios:
 
@@ -162,7 +162,7 @@ Considere o seguinte ao trabalhar com filtros em listas ou relatórios:
   >
   >Lembre-se de que, se você fizer alterações em um filtro que você compartilhou com outras pessoas, elas também serão afetadas.
 
-* É possível personalizar um filtro que foi compartilhado com você somente se o usuário que o compartilhou tiver concedido acesso de Gerenciar. Para obter informações sobre como compartilhar um filtro, consulte [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* É possível personalizar um filtro que foi compartilhado com você somente se o usuário que o compartilhou tiver concedido acesso de Gerenciar. Para obter informações sobre como compartilhar um filtro, consulte [Compartilhar um filtro, exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Elementos de um filtro
 
@@ -184,7 +184,7 @@ Um filtro contém os seguintes elementos:
  <tbody> 
   <tr> 
    <td><strong>Objeto</strong></td> 
-   <td> <p>O objeto do banco de dados Workfront do filtro. Para obter informações sobre quais objetos são relatáveis no Workfront, consulte <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Visão geral dos objetos do Adobe Workfront</a>. </p> <p>Por exemplo, projetos, tarefas, problemas, usuários ou documentos podem ser o objeto de um filtro. </p> </td> 
+   <td> <p>O objeto do banco de dados Workfront do filtro. Para obter informações sobre quais objetos são reportáveis no Workfront, consulte <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">visão geral dos objetos do Adobe Workfront</a>. </p> <p>Por exemplo, projetos, tarefas, problemas, usuários ou documentos podem ser o objeto de um filtro. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Campo</strong></td> 
@@ -209,11 +209,11 @@ Um filtro contém os seguintes elementos:
 
 O Workfront tem dois operadores de filtro que conectam cada instrução de filtro:
 
-* **E**: ao unir duas instruções de filtro pelo operador AND, você indica que deseja que ambas as instruções de filtro sejam atendidas ao mesmo tempo.
+* **AND**: ao unir duas instruções de filtro pelo operador AND, você indica que deseja que ambas sejam atendidas ao mesmo tempo.
 
   Por padrão, as instruções em um filtro são unidas pelo operador AND.
 
-* **OU**: ao unir duas instruções de filtro pelo operador OR, você indica que deseja que uma delas seja atendida.
+* **OR**: ao unir duas instruções de filtro pelo operador OR, você indica que deseja que qualquer uma delas seja atendida.
 
   >[!TIP]
   >
@@ -230,7 +230,7 @@ Você pode usar modificadores de filtro para indicar que tipo de informação vo
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
-Para obter mais informações sobre modificadores de filtro, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Para obter mais informações sobre modificadores de filtro, consulte [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 ## Criar filtros na interface do construtor
 
@@ -240,7 +240,7 @@ Você pode criar um filtro usando a interface padrão ou do construtor herdado d
 * Modificar um filtro existente
 * Copiar um filtro existente
 
-Para obter informações sobre como criar um filtro usando a interface padrão ou do construtor herdada, consulte [Criar ou editar filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Para obter informações sobre como criar um filtro usando a interface de construtor padrão ou herdada, consulte [Criar ou editar filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Criar filtros usando a interface do modo de texto
 
@@ -274,7 +274,7 @@ Se você quiser criar um filtro que encontraria apenas projetos nos quais a terc
 
 Essa sintaxe garante que os valores sejam lidos juntos, como uma opção. Se você omitir a barra, o Workfront lerá a vírgula como um OR, nesse caso, somente os projetos que têm a primeira ou a segunda opção serão selecionados.
 
-Essa sintaxe também se aplica ao criar prompts. Para obter mais informações sobre o uso de prompts, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Essa sintaxe também se aplica ao criar prompts. Para obter mais informações sobre como usar prompts, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ### Criar filtros para os quais os valores são um campo personalizado de várias seleções {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 

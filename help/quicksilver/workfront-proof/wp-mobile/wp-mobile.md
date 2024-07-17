@@ -1,20 +1,21 @@
 ---
-title: Workfront Proof Mobile
-description: Saiba mais sobre o Workfront Proof para dispositivos móveis.
+title: Workfront Proof mobile
+description: Saiba mais sobre o Workfront Proof Mobile.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 5f2280d0-8a4d-4daa-b5d9-ce347d2892ed
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] dispositivo móvel
+# [!DNL Workfront Proof] celular
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 

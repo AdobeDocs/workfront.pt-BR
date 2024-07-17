@@ -9,7 +9,7 @@ exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,12 +45,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões para um relatório para editar elementos de relatórios em um relatório</p> <p>Gerenciar permissões em uma exibição ou um filtro para editá-las</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório para editar elementos de relatórios em um relatório</p> <p>Gerenciar permissões em uma exibição ou um filtro para editá-las</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -63,21 +63,21 @@ Para obter instruções sobre como criar relatórios, consulte [Criar um relató
 Para inserir um curinga baseado no usuário em um relatório:
 
 1. Ir para um relatório para o qual você deseja inserir um curinga baseado em usuário.
-1. Clique em **Ações de Relatório**, depois **Editar**.
+1. Clique em **Ações de Relatório** e depois em **Editar**.
 
-1. Clique em **Filtros** guia.
-1. Clique em **Adicionar uma regra de filtro**.
+1. Clique na guia **Filtros**.
+1. Clique em **Adicionar uma Regra de Filtro**.
 1. Comece digitando o nome do campo pelo qual deseja filtrar.\
    Você deve digitar campos que façam referência ao objeto do usuário ou informações sobre os usuários.
-1. Selecionar **Igual** no menu suspenso para a variável de filtro.
+1. Selecione **Igual** no menu suspenso da variável de filtro.
 
    >[!TIP]
    >
-   >Você sempre deve selecionar o **Igual** ao trabalhar com curingas no Adobe Workfront.
+   >Você sempre deve selecionar a variável de filtro **Igual** ao trabalhar com curingas no Adobe Workfront.
 
-1. No **Comece a digitar o nome...** digite: `$$USER.ID` ou `$$USER.name` se desejar que o relatório exiba informações sobre o usuário que faz logon, com base em seu nome. Você pode inserir outros curingas que se referem a Grupo, Equipe, Empresa ou outras informações do usuário conectado.
+1. Na caixa **Comece a digitar o nome ...**, digite: `$$USER.ID` ou `$$USER.name` se desejar que o relatório exiba informações sobre o usuário que faz logon, com base em seu nome. Você pode inserir outros curingas que se referem a Grupo, Equipe, Empresa ou outras informações do usuário conectado.
 
-   Para obter uma lista completa de curingas com base no usuário, consulte [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Para obter uma lista completa de curingas baseados no usuário, consulte [Visão geral das variáveis de filtro de curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 

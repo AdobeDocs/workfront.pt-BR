@@ -19,13 +19,13 @@ ht-degree: 1%
 
 Como administrador de grupo, você pode criar status personalizados para um grupo gerenciado por você. Isso ajuda a eliminar a necessidade de dezenas de status personalizados em toda a empresa e permite mais autonomia nas hierarquias do grupo.
 
-Você também pode editar um status de nível de sistema para um grupo gerenciado se um administrador do Workfront tiver desbloqueado o status. Para obter mais informações, consulte [Status bloqueados e desbloqueados no nível do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+Você também pode editar um status de nível de sistema para um grupo gerenciado se um administrador do Workfront tiver desbloqueado o status. Para obter mais informações, consulte [Status de nível de sistema bloqueados e desbloqueados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
 Se houver algum grupo acima do seu, os administradores também poderão fazer essas coisas pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 >[!NOTE]
 >
->Status de grupo personalizados não podem ser exibidos em um projeto ao visualizar o projeto em uma visualização ágil. Somente os status bloqueados padrão e personalizados ficam visíveis ao visualizar um projeto em uma visualização ágil. Para obter informações sobre como personalizar uma visualização ágil para um projeto, consulte a seção [Criar ou personalizar uma visualização Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) no artigo [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Status de grupo personalizados não podem ser exibidos em um projeto ao visualizar o projeto em uma visualização ágil. Somente os status bloqueados padrão e personalizados ficam visíveis ao visualizar um projeto em uma visualização ágil. Para obter informações sobre como personalizar uma exibição Agile para um projeto, consulte a seção [Criar ou personalizar uma exibição Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) no artigo [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Para obter informações gerais sobre status, consulte [Visão geral dos status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
@@ -48,11 +48,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Criar ou editar um status para um grupo
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
@@ -69,21 +69,21 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    * Status bloqueados pertencentes aos grupos acima do subgrupo.
    * Status desbloqueados que pertenciam aos grupos acima do subgrupo quando ele foi criado.
 
-     Após a criação de um subgrupo, os status desbloqueados criados nos grupos acima dele não são incluídos na lista de status do subgrupo. No entanto, se alguém bloquear um deles posteriormente, ele será incluído na lista de status do subgrupo. Para obter mais informações, consulte [Como os grupos herdam status](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+     Após a criação de um subgrupo, os status desbloqueados criados nos grupos acima dele não são incluídos na lista de status do subgrupo. No entanto, se alguém bloquear um deles posteriormente, ele será incluído na lista de status do subgrupo. Para obter mais informações, consulte [Como os grupos herdam os status](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
-1. Selecione a guia do tipo de objeto (**Projeto**, **Tarefas** ou **Problemas**) que deseja associar ao status.
+1. Selecione a guia do tipo de objeto (**Projeto**, **Tarefas** ou **Problemas**) que você deseja associar ao status.
 
-1. (Condicional) Se o status for um status de problema, verifique se **Lista Mestra** está selecionada.
+1. (Condicional) Se o status for um problema, verifique se **Lista Mestra** está selecionada.
 
    ![](assets/master-list.png)
 
-   Para obter informações sobre como personalizar outros tipos de problemas (Relatório de erros, Pedido de alteração, Ocorrência, Solicitação), consulte [Personalizar tipos de problemas padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+   Para obter informações sobre como personalizar outros tipos de problemas (Relatório de Erros, Pedido de Alteração, Problema, Solicitação), consulte [Personalizar tipos de problemas padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-1. Para criar um novo status, clique em **Adicionar um novo status**.
+1. (Condicional) Para criar um novo status, clique em **Adicionar um novo status**.
 
    Ou
 
-   Para editar um status existente, passe com o mouse sobre o status que deseja editar, em seguida, clique no **Editar** que é exibida na extremidade direita.
+   Para editar um status existente, passe com o mouse sobre o status que deseja editar, em seguida, clique na opção **Editar** que é exibida na extremidade direita.
 
    ![](assets/group-statuses-edit.jpg)
 
@@ -138,7 +138,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       <td> 
        <p>Se você deixar essa opção ativada, os usuários no seu grupo e seus subgrupos poderão ver e usar o status e os administradores de grupo não poderão personalizá-lo para subgrupos inferiores.</p> 
        <p>Quando essa opção está desativada, os administradores de grupo podem personalizar o status para subgrupos inferiores.</p> 
-       <p><b>NOTA</b>: Você pode usar os status bloqueado e desbloqueado em um processo de aprovação de grupo. Se você criar um processo de aprovação de grupo com um status de grupo desbloqueado, os usuários poderão anexar o processo de aprovação a qualquer projeto, tarefa ou problema associado ao grupo.</p> 
+       <p><b>OBSERVAÇÃO</b>: você pode usar os status bloqueado e desbloqueado em um processo de aprovação de grupo. Se você criar um processo de aprovação de grupo com um status de grupo desbloqueado, os usuários poderão anexar o processo de aprovação a qualquer projeto, tarefa ou problema associado ao grupo.</p> 
        <p>Para obter mais informações sobre status de bloqueio, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Status de grupos bloqueados e desbloqueados</a>.</p> 
        </td> 
      </tr>
@@ -158,12 +158,12 @@ Se você for um administrador do Workfront, poderá criar um status personalizad
 Se você for um administrador de grupo (ou um administrador do Workfront), poderá criar um status personalizado para vários subgrupos dentro de uma hierarquia de grupo gerenciada criando um status para um grupo de nível superior e, em seguida, ocultando esse status de qualquer subgrupo inferior que não precise dele.
 
 1. Se você for um administrador do Workfront, crie um status desbloqueado em todo o sistema, conforme descrito em [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-1. Na caixa no canto superior direito, exclua **Status do sistema**, comece digitando o nome de um grupo no qual deseja ocultar o status e, em seguida, clique no nome quando ele for exibido.
-1. Passe o mouse sobre o status que deseja ocultar do grupo, em seguida, clique em **Editar** quando ele aparecer.
+1. Na caixa no canto superior direito, exclua **Status do Sistema**, comece digitando o nome de um grupo no qual deseja ocultar o status e, em seguida, clique no nome quando ele for exibido.
+1. Passe o cursor do mouse sobre o status que deseja ocultar do grupo e clique em **Editar** quando ele aparecer.
 
    ![](assets/hover-click-edit.jpg)
 
-1. Ativar o **Ocultar Status** que aparece.
+1. Habilite a opção **Ocultar Status** que aparece.
 
    ![](assets/hide-group-status.png)
 

@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de integração feitas com a versão do Primeiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do primeiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do Primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## O mapeamento de metadados no Experience Manager Assets Essentials agora usa `xcm:keywords` em vez de `dc:subject`
 
-Atualizamos a integração do Experience Manager Assets Essentials para corresponder à experiência da integração as a Cloud Service do Experience Manager Assets. Agora, ao mapear vários campos de texto de linha única para um único campo no Experience Manager Assets, ambos os serviços usam o `xcm:keywords` campo.
+Atualizamos a integração do Experience Manager Assets Essentials para corresponder à experiência na integração as a Cloud Service do Experience Manager Assets. Agora, ao mapear vários campos de texto de linha única para um único campo no Experience Manager Assets, ambos os serviços usam o campo `xcm:keywords`.
 
-Anteriormente, esses campos eram mapeados para a variável `dc:subject` no Experience Manager Assets Essentials. A funcionalidade as a Cloud Service do Experience Manager Assets permanece inalterada.
+Anteriormente, esses campos seriam mapeados para o campo `dc:subject` no Experience Manager Assets Essentials. A funcionalidade as a Cloud Service do Experience Manager Assets permanece inalterada.
 
-Todos os metadados do Experience Manager Assets Essentials mapeados atualmente para `dc:subject` deve ser remapeado para `xcm:keywords`.
+Qualquer metadado do Experience Manager Assets Essentials atualmente mapeado para `dc:subject` deve ser remapeado para `xcm:keywords`.
 
 Para obter informações sobre como mapear metadados para o Experience Manager Assets Essentials, consulte [Palavra-chave AEM](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
@@ -40,6 +40,6 @@ Para obter informações e instruções sobre o mapeamento de metadados na integ
 
 Adicionamos outro fluxo de trabalho à integração do Adobe Experience Manager. Agora, você pode definir que seus ativos sejam publicados automaticamente quando enviados para a Adobe Experience Manager. A integração pode ser configurada para publicar no serviço de publicação do Adobe Experience Manager ou em um portal de marcas da Adobe Experience Manager.
 
-O fluxo de trabalho de Publicação automática pode ser ativado e configurado na integração com o Adobe Experience Manager. Quando ativado, o fluxo de trabalho pode ser editado no nível do modelo ou do projeto.
+O fluxo de trabalho Automático do Publish pode ser ativado e configurado na integração do Adobe Experience Manager. Quando ativado, o fluxo de trabalho pode ser editado no nível do modelo ou do projeto.
 
-Para obter mais informações, consulte [Publicar ativos](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [Usar fluxos de trabalho na integração do Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+Para obter mais informações, consulte [Publicar ativos](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) em [Usar fluxos de trabalho na integração com o Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

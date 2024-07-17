@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Esta página descreve todas as melhorias de projeto incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 
-Para obter uma lista de todas as alterações feitas em 2019.2, consulte [Visão geral da atividade da versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.2, consulte a [Visão Geral da Atividade da Versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Encontre Grupos Com Mais Rapidez Ao Personalizar Status
 
@@ -32,7 +32,7 @@ Para obter mais informações, consulte [Criar ou editar um status](../../../../
 
 Agora é possível configurar formulários personalizados padrão e processos de aprovação para anexar a tarefas ao adicionar tarefas a um projeto. Você pode definir as configurações padrão no nível do projeto.
 
-Para obter informações sobre como configurar formulários personalizados padrão e processos de aprovação para tarefas no nível do projeto, consulte a seção &quot;Tarefas&quot; no [Editar projetos](../../../../manage-work/projects/manage-projects/edit-projects.md) artigo.
+Para obter informações sobre como configurar formulários personalizados padrão e processos de aprovação para tarefas no nível do projeto, consulte a seção &quot;Tarefas&quot; no artigo [Editar projetos](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Exibir a Linha Inteira de uma Tarefa Pai em Negrito em uma Lista de Tarefas
 
@@ -46,7 +46,7 @@ Antes desse aprimoramento, todas as alterações eram sempre salvas automaticame
 
 Para obter informações sobre como editar tarefas em uma lista de tarefas, consulte [Editar tarefas](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-Para obter informações sobre como editar tarefas no gráfico de Gantt, consulte [Atualizar informações no Diagrama de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obter informações sobre como editar tarefas no Gráfico de Gantt, consulte [Atualizar informações na lista de tarefas Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Novos Padrões de Largura de Coluna em Novas Listas
 
@@ -54,7 +54,7 @@ Agora, o Workfront ajusta automaticamente a largura das colunas de acordo com as
 
 Antes dessa melhoria, as larguras de coluna nas novas visualizações de projeto e tarefa eram definidas como 100 pixels, a menos que especificado de outra forma.
 
-Para obter informações sobre larguras de coluna, consulte [Modificar a largura e a ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Para obter informações sobre larguras de coluna, consulte [Modificar largura e ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 ## Desativar objetos não utilizados
 
@@ -86,7 +86,7 @@ Agora é possível exibir o BCWS (Custo Orçado do Trabalho Agendado) e o BCWP (
 
 Embora essas métricas de desempenho do projeto tenham sido usadas em cálculos financeiros no Workfront antes, elas não estavam visíveis no sistema antes desse aprimoramento.
 
-Para obter informações sobre o cálculo de BCWS, consulte [Calcular o Custo Orçado do Trabalho Agendado (BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Para obter informações sobre como calcular o BCWS, consulte [Calcular o BCWS (Custo do Trabalho Agendado)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
 Para obter informações sobre como calcular o COTR, consulte [Calcular o COTR (Custo Orçado do Trabalho Realizado)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 

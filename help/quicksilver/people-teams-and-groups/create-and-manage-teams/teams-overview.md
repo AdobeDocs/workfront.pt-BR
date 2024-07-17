@@ -18,20 +18,20 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-O propósito de uma equipe no [!DNL Adobe Workfront] é capturar a dinâmica real dos grupos de trabalho funcionais no local de trabalho.
+A finalidade de uma equipe no [!DNL Adobe Workfront] é capturar a dinâmica real dos grupos de trabalho funcionais no local de trabalho.
 
-Para obter informações sobre quando usar equipes em vez de grupos, consulte [Grupos versus equipes no [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Para obter informações sobre quando usar equipes em vez de grupos, consulte [Grupos vs. equipes em [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 ## Organização da equipe
 
-A [!DNL Workfront Team] O é diferente de uma equipe de projeto. [!DNL Workfront] as equipes incluem indivíduos com diversas funções de trabalho ou vários propósitos, que são funcionalmente afiliados e organizados em uma unidade de trabalho. Um indivíduo pode pertencer a mais de uma equipe. Os membros da equipe podem corresponder a relacionamentos do organograma, mas também podem aparecer fora da estrutura do departamento.
+Um [!DNL Workfront Team] é diferente de uma equipe de projeto. As equipes do [!DNL Workfront] incluem indivíduos de diversas funções de trabalho ou com várias finalidades, que são funcionalmente afiliados e organizados em uma unidade de trabalho. Um indivíduo pode pertencer a mais de uma equipe. Os membros da equipe podem corresponder a relacionamentos do organograma, mas também podem aparecer fora da estrutura do departamento.
 
-## Criação da equipe
+## Criação de equipe
 
-As equipes normalmente são criadas por um [!DNL Workfront] administrador, mas um usuário com acesso apropriado também pode criar equipes. Depois que uma equipe é criada, o Gerente de projetos pode atribuir uma equipe inteira a uma tarefa em vez de decidir uma função individual ou de trabalho. Para obter mais informações, consulte [Criar uma equipe](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+As equipes geralmente são criadas por um administrador [!DNL Workfront], mas um usuário com acesso apropriado também pode criar equipes. Depois que uma equipe é criada, o Gerente de projetos pode atribuir uma equipe inteira a uma tarefa em vez de decidir uma função individual ou de trabalho. Para obter mais informações, consulte [Criar uma equipe](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Atribuições de equipe
 
 Um Gerente de projeto nem sempre sabe qual pessoa concluirá uma atribuição, simplesmente porque uma determinada unidade de trabalho ou equipe conclui um trabalho dessa natureza específica.
 
-Os membros de uma equipe atribuída também podem ir para a [!UICONTROL Equipes] > [!UICONTROL Equipe] Área de solicitações e veja as tarefas atribuídas à sua equipe. Eles podem avaliar o impacto de uma tarefa e se voluntariar para trabalhar nela. Para obter mais informações, consulte [Visão geral de solicitações de equipe](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Os membros de uma equipe atribuída também podem ir para a área Solicitações de [!UICONTROL Equipes] > [!UICONTROL Equipe] e ver as tarefas atribuídas à sua equipe. Eles podem avaliar o impacto de uma tarefa e se voluntariar para trabalhar nela. Para obter mais informações, consulte [Visão geral das solicitações da equipe](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).

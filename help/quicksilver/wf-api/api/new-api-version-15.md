@@ -9,8 +9,8 @@ role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2349'
-ht-degree: 3%
+source-wordcount: '2286'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ O Adobe Workfront lançou a API versão 15 em 14 de junho de 2022. A API versão
 
 O objeto Iniciativa cria estimativas no Planejador de cenários da Workfront para o tipo e o número de funções de trabalho, os Custos fixos e o Benefício planejado.
 
-Para obter mais informações sobre iniciativas, consulte [Visão geral das iniciativas no Planejador de cenários](../../scenario-planner/initiatives-overview.md).
+Para obter mais informações sobre Iniciativas, consulte [Visão geral das Iniciativas no Scenario Planner](../../scenario-planner/initiatives-overview.md).
 
 <table>
   <col/>
@@ -72,7 +72,7 @@ Para obter mais informações sobre iniciativas, consulte [Visão geral das inic
             <p>A ID associada à ação</p>
           </li>
           <li>
-            <p><b>ID da iniciativa</b>
+            <p><b>IDdaIniciativa</b>
             </p>
             <p>A ID associada à iniciativa.</p>
           </li>
@@ -82,12 +82,12 @@ Para obter mais informações sobre iniciativas, consulte [Visão geral das inic
             <p>A data em que a Iniciativa foi publicada pela última vez no Planejador de cenários do Workfront.</p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b>nome</b>
             </p>
             <p>O nome da Iniciativa</p>
           </li>
           <li>
-            <p><b>planID</b>
+            <p><b>IDdoPlano</b>
             </p>
             <p>A ID do plano associado à iniciativa.</p>
           </li>
@@ -97,12 +97,12 @@ Para obter mais informações sobre iniciativas, consulte [Visão geral das inic
             <p>O nome do Plano associado à Iniciativa.</p>
           </li>
           <li>
-            <p><b>projectID</b>
+            <p><b>IDdoProjeto</b>
             </p>
             <p>A ID do projeto associado à iniciativa.</p>
           </li>
           <li>
-            <p><b>scenarioID</b>
+            <p><b>IDdoCenário</b>
             </p>
             <p>A ID do cenário no Planejador de cenários do Workfront associado à iniciativa.</p>
           </li>
@@ -142,7 +142,7 @@ Para obter mais informações sobre iniciativas, consulte [Visão geral das inic
             </p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b>nome</b>
             </p>
           </li>
           <li>
@@ -169,7 +169,7 @@ Para obter mais informações sobre iniciativas, consulte [Visão geral das inic
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>PESQUISAR</b>
             </p>
           </li>
         </ul>
@@ -277,11 +277,11 @@ Em alguns casos, é possível vincular itens de trabalho do Workfront diretament
             <p>O código do objeto no Workfront ao qual a ObjectIntegration está associada.</p>
           </li>
           <li>
-            <p><b>param1</b>
+            <p><b>parâmetro1</b>
             </p>
           </li>
           <li>
-            <p><b>param2</b>
+            <p><b>parâmetro2</b>
             </p>
           </li>
           <li>
@@ -398,7 +398,7 @@ O objeto TaskDef representa um conjunto de dados relativos ao formato de tarefas
       <td>
         <ul>
           <li>
-            <p><b>approverID</b>
+            <p><b>IDdoAprovador</b>
             </p>
           </li>
           <li>
@@ -414,7 +414,7 @@ O objeto TaskDef representa um conjunto de dados relativos ao formato de tarefas
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>IDdoSolicitante</b>
             </p>
           </li>
           <li>
@@ -471,11 +471,11 @@ O objeto TaskDef representa um conjunto de dados relativos ao formato de tarefas
       <td >
         <ul>
           <li>
-            <p><b>approverID</b>
+            <p><b>IDdoAprovador</b>
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>IDdoSolicitante</b>
             </p>
           </li>
           <li>
@@ -498,7 +498,7 @@ O objeto TaskDef representa um conjunto de dados relativos ao formato de tarefas
             </p>
           </li>
           <li>
-            <p><b>Rejeitar</b>
+            <p><b>rejeitar</b>
             </p>
           </li>
         </ul>
@@ -529,7 +529,7 @@ O objeto TaskDef representa um conjunto de dados relativos ao formato de tarefas
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>PESQUISAR</b>
             </p>
           </li>
         </ul>
@@ -699,7 +699,7 @@ Se um usuário não tiver acesso a um objeto no Workfront necessário, ele poder
       <td>
         <ul>
           <li>
-            <p><b>ação</b> (sequência de caracteres)</p>
+            <p><b>ação</b> (cadeia de caracteres)</p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
               <li>
@@ -711,7 +711,7 @@ Se um usuário não tiver acesso a um objeto no Workfront necessário, ele poder
             </ul>
           </li>
           <li>
-            <p><b>autoShareAction</b> (sequência de caracteres)</p>
+            <p><b>autoShareAction</b> (cadeia de caracteres)</p>
             <p>Adição do seguinte valor possível:</p>
             <ul>
               <li>
@@ -805,18 +805,18 @@ Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de h
           <li>
             <p><b>iniciativa</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
             <p>O objeto Iniciativa cria estimativas no Planejador de cenários da Workfront para o tipo e o número de funções de trabalho, os Custos fixos e o Benefício planejado. </p>
           </li>
           <li>
             <p><b>issueDef</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
           <li>
             <p><b>taskDef</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -826,10 +826,10 @@ Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de h
       <td>
         <ul>
           <li>
-            <p style="font-weight: bold;"><b>objectIntegations
+            <p style="font-weight: bold;"><b>objectIntegrations
 </b>
             </p>
-            <p style="font-weight: normal;">Adicionado.</p>
+            <p style="font-weight: normal;">Adição de.</p>
             <p>Em alguns casos, é possível vincular itens de trabalho do Workfront diretamente a objetos em um produto de software externo. O objeto ObjectIntegration representa esse link.</p>
           </li>
         </ul>
@@ -851,7 +851,7 @@ Um objeto de Categoria é um formulário personalizado.
       <td>
         <ul>
           <li>
-            <p><b>catObjCode</b> (sequência de caracteres)</p>
+            <p><b>catObjCode</b> (cadeia de caracteres)</p>
             <p>Adição do seguinte valor possível:</p>
             <ul>
               <li>
@@ -860,8 +860,8 @@ Um objeto de Categoria é um formulário personalizado.
             </ul>
           </li>
           <li>
-            <p><b>objTypes</b> (string[])</p>
-            <p>Adicionado.</p>
+            <p><b>objTypes</b> (cadeia[])</p>
+            <p>Adição de.</p>
             <p style="font-weight: normal;">Esse parâmetro é uma matriz de objetos possíveis aos quais o formulário personalizado pode ser anexado. Ele foi adicionado para oferecer suporte à capacidade de anexar um formulário personalizado a vários tipos de objetos.</p>
             <p>Valores possíveis: </p>
             <p>COMPY, PORT, PRGM, PROJ, TASK, OPTASK, USER, DOCU, EXPNS, ITRN, BILL, GROUP</p>
@@ -874,8 +874,8 @@ Um objeto de Categoria é um formulário personalizado.
       <td>
         <ul>
           <li>
-            <p><b>objTypes</b> (string[])</p>
-            <p>Adicionado.</p>
+            <p><b>objTypes</b> (cadeia[])</p>
+            <p>Adição de.</p>
             <p style="font-weight: normal;">Esse parâmetro é uma matriz de objetos possíveis aos quais o formulário personalizado pode ser anexado. Ele foi adicionado para oferecer suporte à capacidade de anexar um formulário personalizado a vários tipos de objetos.</p>
             <p>Valores possíveis: </p>
             <p>COMPY, PORT, PRGM, PROJ, TASK, OPTASK, USER, DOCU, EXPNS, ITRN, BILL, GROUP</p>
@@ -899,17 +899,17 @@ Um objeto de Categoria é um formulário personalizado.
           <li>
             <p><b>ocultarFórmulaDaDescrição</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
           <li>
             <p><b>journaledObjCodes</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
           <li>
             <p><b>rawCustomExpression</b>
             </p>
-            <p>Adicionado.</p>
+            <p>Adição de.</p>
           </li>
         </ul>
       </td>
@@ -930,12 +930,12 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>nome</b>
             </p>
             <p>Os seguintes valores foram adicionados:</p>
             <ul>
               <li>
-                <p><code>password:sharePointV2IntegrationEnabled</code> (Integração do SharePoint (Graph API) habilitada)</p>
+                <p><code>password:sharePointV2IntegrationEnabled</code> (Integração do SharePoint (API gráfica) ativada)</p>
                 <p>Este valor oferece suporte à integração atualizada com o Sharepoint.</p>
               </li>
               <li>
@@ -962,7 +962,7 @@ O objeto DocumentFolder adicionou o sinalizador `SHARABLE`.
 
 Um objeto DocumentVersion representa uma versão específica de um arquivo (como material escrito, imagens ou outras formas de informação).
 
-Para obter mais informações sobre versões de documentos, consulte [Fazer upload de uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md).
+Para obter mais informações sobre versões de documentos, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table>
   <col/>
@@ -1012,7 +1012,7 @@ O objeto Group adicionou o sinalizador `DATA_EXTENDIBLE`
             <p>Uma categoria é um formulário personalizado. Esse parâmetro foi adicionado para oferecer suporte à capacidade de adicionar Forms personalizado a objetos de Grupo. </p>
           </li>
           <li>
-            <p><b>isActive</b>
+            <p><b>estáAtivo</b>
             </p>
             <p>Este é um parâmetro booleano cujo valor é verdadeiro se um objeto estiver Ativo e falso se não estiver. Os objetos definidos como Ativos aparecem em menus suspensos e campos de digitação antecipada e podem ser anexados a outros objetos.</p>
           </li>
@@ -1053,7 +1053,7 @@ O objeto Group adicionou o sinalizador `DATA_EXTENDIBLE`
             </p>
           </li>
           <li>
-            <p><b>objectIntegations</b>
+            <p><b>objectIntegrations</b>
             </p>
             <p>Em alguns casos, é possível vincular itens de trabalho do Workfront diretamente a objetos em um produto de software externo. O objeto ObjectIntegration representa esse link.</p>
           </li>
@@ -1066,7 +1066,7 @@ O objeto Group adicionou o sinalizador `DATA_EXTENDIBLE`
         <p>O seguinte campo foi adicionado:</p>
         <ul>
           <li>
-            <p><b>isActive</b>
+            <p><b>estáAtivo</b>
             </p>
             <p>Este é um parâmetro booleano cujo valor é verdadeiro se um objeto estiver Ativo e falso se não estiver. Os objetos definidos como Ativos aparecem em menus suspensos e campos de digitação antecipada e podem ser anexados a outros objetos.</p>
           </li>
@@ -1214,13 +1214,13 @@ Um objeto Parameter é um campo personalizado.
           <li>
             <p><b>dataType</b>
             </p>
-            <p>Adição do valor possível <code>WIDGET </code>(Widget) </p>
+            <p>Adicionado o valor possível <code>WIDGET </code>(Widget) </p>
             <p>Este valor suporta o uso de imagens em formulários personalizados.</p>
           </li>
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Adição do valor possível <code>WIDGET </code>(Widget)</p>
+            <p>Adicionado o valor possível <code>WIDGET </code>(Widget)</p>
             <p>Este valor suporta o uso de imagens em formulários personalizados.</p>
           </li>
         </ul>
@@ -1242,7 +1242,7 @@ Um objeto Portfolio é uma coleção de projetos que competem pelos mesmos recur
       <td>
         <ul>
           <li>
-            <p><b>objectIntegations</b>
+            <p><b>objectIntegrations</b>
             </p>
           </li>
         </ul>
@@ -1279,7 +1279,7 @@ Um objeto Programa é um subconjunto de projetos em um portfólio, em que projet
       <td>
         <ul>
           <li>
-            <p><b>objectIntegations</b>
+            <p><b>objectIntegrations</b>
             </p>
           </li>
         </ul>
@@ -1347,7 +1347,7 @@ Os projetos são itens de trabalho no Workfront e um elemento principal da manei
       <td>
         <ul>
           <li>
-            <p><b>objectIntegations</b>
+            <p><b>objectIntegrations</b>
             </p>
             <p>Em alguns casos, é possível vincular itens de trabalho do Workfront diretamente a objetos em um produto de software externo. O objeto ObjectIntegration representa esse link.</p>
           </li>
@@ -1372,7 +1372,7 @@ Para obter mais informações sobre Filas de solicitações, consulte [Criar uma
       <td>
         <ul>
           <li>
-            <p><b>requestorCoreAction</b>
+            <p><b>solicitanteCoreAction</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -1385,7 +1385,7 @@ Para obter mais informações sobre Filas de solicitações, consulte [Criar uma
             </ul>
           </li>
           <li>
-            <p><b>requestorForbiddenActions</b>
+            <p><b>solicitanteForbiddenActions</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -1407,7 +1407,7 @@ Para obter mais informações sobre Filas de solicitações, consulte [Criar uma
 
 Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente de Portfolio, e suas respostas permitem que o gerente entenda como um projeto se alinha com as metas do portfólio.
 
-Para obter mais informações sobre perguntas do Scorecard, consulte [Criar um cartão de pontuação](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Para obter mais informações sobre Perguntas do Scorecard, consulte [Criar um scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 <table>
   <col/>
@@ -1420,7 +1420,7 @@ Para obter mais informações sobre perguntas do Scorecard, consulte [Criar um c
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Adição do valor possível <code>WIDGET </code>(Widget)</p>
+            <p>Adicionado o valor possível <code>WIDGET </code>(Widget)</p>
           </li>
         </ul>
       </td>
@@ -1441,7 +1441,7 @@ Um objeto Tarefa representa um item de trabalho que deve ser executado como uma 
       <td>
         <ul>
           <li>
-            <p><b>objectIntegations</b>
+            <p><b>objectIntegrations</b>
             </p>
             <p>Em alguns casos, é possível vincular itens de trabalho do Workfront diretamente a objetos em um produto de software externo. O objeto ObjectIntegration representa esse link.</p>
           </li>
@@ -1549,7 +1549,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
                 <p><code>DLIST</code> (Lista Detalhada)</p>
               </li>
               <li>
-                <p><code>DLIST_SECTION</code> (Lista Detalhada)</p>
+                <p><code>DLIST_SECTION</code> (Seção Lista Detalhada)</p>
               </li>
             </ul>
           </li>
@@ -1574,7 +1574,7 @@ Os itens de trabalho no Workfront podem ser atualizados para manter os usuários
           <li>
             <p><b>updateType</b>
             </p>
-            <p>Adição do valor possível <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
+            <p>Adicionado o valor possível <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
           </li>
         </ul>
       </td>
@@ -1610,7 +1610,7 @@ Um objeto Usuário representa uma pessoa com uma conta no Workfront que pode faz
             </p>
           </li>
           <li>
-            <p><b>resetRopgPassword</b>
+            <p><b>redefinirSenhaRopg</b>
             </p>
           </li>
         </ul>
@@ -1663,7 +1663,7 @@ Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam 
       <td>
         <ul>
           <li>
-            <p><b>objectIntegations</b>
+            <p><b>objectIntegrations</b>
             </p>
             <p>Em alguns casos, é possível vincular itens de trabalho do Workfront diretamente a objetos em um produto de software externo. O objeto ObjectIntegration representa esse link.</p>
           </li>

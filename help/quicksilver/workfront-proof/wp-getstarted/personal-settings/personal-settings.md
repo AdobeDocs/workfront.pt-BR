@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: basics-workfront-proof
-title: Configurações pessoais no [!DNL Workfront Proof]
+title: Configurações pessoais em [!DNL Workfront Proof]
 description: Saiba mais sobre configurações pessoais no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Configurações pessoais no [!DNL Workfront Proof]
+# Configurações pessoais em [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Designação de Proprietários Temporários de Prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
+* [Designando Proprietários de Prova Temporários em  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
 * [Integrações - Configuração do usuário](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)

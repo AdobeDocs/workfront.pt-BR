@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de prova incluídas na versão 2019.1. A funcionalidade agora está disponível no ambiente de Produção do.
 
-Para obter uma lista de todas as alterações feitas em 2019.1, consulte [Visão geral da atividade da versão 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.1, consulte a [visão geral da atividade da versão 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Para administradores
 
@@ -28,9 +28,9 @@ Para obter uma lista de todas as alterações feitas em 2019.1, consulte [Visão
 
 * [Provar conteúdo interativo no Visualizador de provas da Web](#proof-interactive-content-in-the-web-proofing-viewer)
 * [A ordem de classificação padrão para comentários no Visualizador de provas agora é da mais antiga para a mais recente](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [Revisão aprimorada para comentários no visualizador de provas associado a uma variedade de vídeos](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [Revisão aprimorada para comentários no Visualizador de provas associado a um intervalo de vídeo](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
 * [Link para detalhes do documento de uma notificação de prova ou do visualizador de provas](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
-* [Alterar as notificações por email no Visualizador de provas](#change-your-email-notifications-in-the-proofing-viewer)
+* [Alterar suas notificações por email no Visualizador de provas](#change-your-email-notifications-in-the-proofing-viewer)
 * [Alterar a cor de fundo no Visualizador de provas da área de trabalho](#change-the-background-color-in-the-desktop-proofing-viewer)
 * [Limpar dados do navegador em cache de uma prova no Visualizador de provas do desktop](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
 
@@ -88,7 +88,7 @@ Anteriormente, somente o proprietário da prova ou o gerente de tráfego podia c
 
 Essas configurações são separadas das configurações de alerta por email que podem ser definidas no Workfront.
 
-Para obter mais informações, consulte [Gerenciar notificações para comentários e decisões de prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+Para obter mais informações, consulte [Gerenciar notificações para comentários de prova e decisões](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 VÍDEO
 

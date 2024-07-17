@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Você pode enviar documentos do Workfront para o Experience Manager Assets ou Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam com o armazenamento geral de documentos. O Assets vinculado ao Assets Essentials não é contabilizado no armazenamento geral.
 
-O Assets enviado para o Experience Manager por meio dessa integração tem um limite de tamanho de **5 GB**.
+O Assets enviado para o Experience Manager por meio desta integração tem um limite de tamanho de **5 GB**.
 
 No ambiente de Pré-visualização, o Assets enviado para o Experience Manager por meio dessa integração tem um limite de tamanho de **30 GB**.
 
@@ -25,7 +25,7 @@ Os campos de metadados são mapeados pela primeira vez quando você envia um ati
 
 >[!INFO]
 >
->**Exemplo** Ao enviar pela primeira vez um ativo anexado a uma tarefa, os metadados da tarefa são mapeados para o Experience Manager Assets ou Assets Essentials, bem como quaisquer metadados mapeados de objetos principais, como um projeto, portfólio e programa.
+>**Exemplo** Quando você envia pela primeira vez um ativo anexado a uma tarefa, os metadados da tarefa são mapeados para o Experience Manager Assets ou Assets Essentials, bem como quaisquer metadados mapeados de objetos pai, como um projeto, portfólio e programa.
 
 ## Requisitos de acesso
 
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para concluir as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plano do Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a>*</td> 
    <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
@@ -56,12 +56,12 @@ Você deve ter o seguinte acesso para concluir as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Acesso de Visualização ou superior em Documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Acesso de Visualização ou superior em Documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 +++
 
@@ -78,8 +78,8 @@ Quando um usuário envia um documento do Workfront para o Experience Manager Ass
 
 Para enviar um documento:
 
-1. Vá para a **Documentos** no Workfront e selecione o documento que deseja enviar.
-1. Clique em **Enviar para**, em seguida, escolha a integração de Experience Manager configurada pelo administrador.
+1. Vá para a área **Documentos** do Workfront e selecione o documento que deseja enviar.
+1. Clique em **Enviar para** e escolha a integração de Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Para enviar um documento:
 
 ## Enviar uma nova versão
 
-É possível adicionar uma nova versão a um documento carregado anteriormente no Workfront. Para obter mais informações, consulte [Fazer upload de uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md). Depois que a versão mais recente for carregada, você poderá enviá-la para o Assets Essentials. Se um campo mapeado no Workfront tiver sido alterado, a nova versão atualizará os metadados no Assets Essentials quando ele enviar.
+É possível adicionar uma nova versão a um documento carregado anteriormente no Workfront. Para obter mais informações, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md). Depois que a versão mais recente for carregada, você poderá enviá-la para o Assets Essentials. Se um campo mapeado no Workfront tiver sido alterado, a nova versão atualizará os metadados no Assets Essentials quando ele enviar.
 
 >[!IMPORTANT]
 >
@@ -100,8 +100,8 @@ Para enviar um documento:
 
 Para enviar a versão mais recente:
 
-1. Vá para a **Documentos** no Workfront e localize o documento.
-1. Selecionar **Enviar para**, em seguida, escolha a integração de Experience Manager configurada pelo administrador.
+1. Vá para a área **Documentos** no Workfront e localize o documento.
+1. Selecione **Enviar para** e escolha a integração de Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >

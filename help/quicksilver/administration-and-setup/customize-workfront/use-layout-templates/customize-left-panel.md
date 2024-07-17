@@ -10,14 +10,14 @@ role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
 
 # Personalizar o painel esquerdo usando um modelo de layout
 
-Em um modelo de layout, você pode personalizar o que os usuários veem na área do painel esquerdo em todo o [!DNL Adobe Workfront].
+Em um modelo de layout, você pode personalizar o que os usuários veem na área do painel esquerdo no [!DNL Adobe Workfront].
 
 Por exemplo, você pode determinar qual dos seguintes itens os usuários veem no painel esquerdo ao visualizar uma tarefa:
 
@@ -29,7 +29,7 @@ Por exemplo, você pode determinar qual dos seguintes itens os usuários veem no
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar os modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Após configurar um modelo de layout, você deve atribuí-lo aos usuários para que as alterações feitas fiquem visíveis para outros usuários. Para obter informações sobre como atribuir um modelo de layout aos usuários, consulte [Atribuir usuários a um modelo de layout](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -43,7 +43,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
@@ -51,25 +51,25 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> Para executar essas etapas no nível do sistema, você precisa do nível de acesso [!UICONTROL Administrador do Sistema].<p>Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>NOTA</b>: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> Para executar essas etapas no nível do sistema, você precisa do nível de acesso [!UICONTROL Administrador do Sistema].<p>Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personalizar o painel esquerdo para uma área no [!DNL Workfront]:
+## Personalizar o painel esquerdo para uma área em [!DNL Workfront]:
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **[!UICONTROL Personalize o que os usuários veem]** e, em seguida, clique no painel esquerdo que deseja personalizar.
+1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **[!UICONTROL Personalizar o que os usuários veem]** e clique no painel esquerdo que você deseja personalizar.
 
    >[!NOTE]
    >
-   >Para obter informações sobre o [!UICONTROL Início] nesta lista suspensa, consulte [Personalizar [!UICONTROL Início] e [!UICONTROL Resumo] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Para obter informações sobre a opção Listas, consulte [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Para obter informações sobre a opção [!UICONTROL Página Inicial] nesta lista suspensa, consulte [Personalizar a [!UICONTROL Página Inicial] e o [!UICONTROL Resumo] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Para obter informações sobre a opção Listas, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. No **[!UICONTROL Painel esquerdo]** faça o seguinte para determinar o que os usuários verão no painel esquerdo para a opção ([!DNL Workfront] tipo de objeto) que você selecionou:
+1. Na lista **[!UICONTROL Painel esquerdo]**, siga um destes procedimentos para determinar o que os usuários verão no painel esquerdo para a opção ([!DNL Workfront] área ou tipo de objeto) que você selecionou:
 
    * Mostrar ![](assets/add-secondary-nav-item.png) ou ocultar ![](assets/delete-secondary-nav-item.png) itens. Qualquer item sem ![](assets/add-secondary-nav-item.png) ou ![](assets/delete-secondary-nav-item.png) não pode ser oculto.
 
-   * Arrastar itens ![](assets/move-icon---dots.png) para alterar a ordem no painel esquerdo.
+   * Arraste os itens ![](assets/move-icon---dots.png) para alterar sua ordem no painel esquerdo.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -142,12 +142,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      <tr> 
       <td>[!UICONTROL Painéis]</td> 
       <td>O nome de um painel</td> 
-      <td>[!UICONTROL Meus Painéis], [!UICONTROL Painéis Compartilhados], [!UICONTROL Todos os Painéis]<p><b>NOTA</b>: se você criou guias personalizadas para a área [!UICONTROL Reports] usando um modelo de layout em [!DNL Adobe Workfront Classic], elas são exibidas na parte inferior desta lista. Para usuários, eles são exibidos na parte inferior do painel esquerdo na área [!UICONTROL Dashboards].</p> </td> 
+      <td>[!UICONTROL Meus Painéis], [!UICONTROL Painéis Compartilhados], [!UICONTROL Todos os Painéis]<p><b>OBSERVAÇÃO</b>: se você criou guias personalizadas para a área [!UICONTROL Reports] usando um modelo de layout em [!DNL Adobe Workfront Classic], elas serão exibidas na parte inferior da lista. Para usuários, eles são exibidos na parte inferior do painel esquerdo na área [!UICONTROL Dashboards].</p> </td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Equipe de Scrum]</td> 
       <td>O nome de uma equipe Scrum</td> 
-      <td><p>[!UICONTROL Iterações], [!UICONTROL Iteração atual], [!UICONTROL Lista de Pendências], [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Atualizações], [!UICONTROL Configurações de Equipe]</p> <p><strong>NOTA:</strong> A variável <strong>[!UICONTROL Iteração atual]</strong> o item só é exibido no painel esquerdo quando há pelo menos uma tarefa ou problema na iteração.</p></td> 
+      <td><p>[!UICONTROL Iterações], [!UICONTROL Iteração atual], [!UICONTROL Lista de Pendências], [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Atualizações], [!UICONTROL Configurações de Equipe]</p> <p><strong>OBSERVAÇÃO:</strong> o item <strong>[!UICONTROL Iteração atual]</strong> só é exibido no painel esquerdo quando há pelo menos uma tarefa ou problema na iteração.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Equipe Kanban]</td> 
@@ -197,14 +197,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!NOTE]
    >
-   >Os últimos 3 itens na **[!UICONTROL Personalize o que os usuários veem]** lista suspensa ([!UICONTROL Listas], [!UICONTROL Página inicial e resumo], e [!UICONTROL Marcas]) são para configurar áreas diferentes do painel esquerdo. Para obter informações sobre eles, consulte estes artigos:
+   >Os três últimos itens na **[!UICONTROL Personalizar o que os usuários veem]** na lista suspensa ([!UICONTROL Listas], [!UICONTROL Página Inicial e Resumo] e [!UICONTROL Marcas]) são para configurar áreas diferentes do painel esquerdo. Para obter informações sobre eles, consulte estes artigos:
 >   >   
-* [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Personalizar [!UICONTROL Início] e [!UICONTROL Resumo] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Adobe da marca [!DNL Workfront] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+* [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+>* [Personalizar [!UICONTROL Página Inicial] e [!UICONTROL Resumo] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Adobe da marca [!DNL Workfront] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Opcional) Se quiser adicionar um item do painel esquerdo que se vincule a um dos painéis de sua organização, clique em **[!UICONTROL Adicionar seção personalizada]**, digite um **[!UICONTROL Título da seção personalizada]** para o item, em seguida, adicione o painel.
+1. (Opcional) Se quiser adicionar um item do painel esquerdo que se vincule a um dos painéis da sua organização, clique em **[!UICONTROL Adicionar seção personalizada]**, digite um **[!UICONTROL Título da seção personalizada]** para o item e, em seguida, adicione o painel.
 
    Os itens do painel são exibidos na parte inferior do painel esquerdo. Os usuários veem o título da seção Personalizada que você digita ao lado do item do painel quando passam o mouse sobre o painel esquerdo.
 
@@ -222,4 +222,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!TIP]
    >
-   Você pode clicar em [!UICONTROL Salvar] a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo posteriormente.
+   Você pode clicar em [!UICONTROL Salvar] a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

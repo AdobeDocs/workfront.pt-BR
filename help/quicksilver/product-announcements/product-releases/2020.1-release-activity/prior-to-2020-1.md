@@ -18,13 +18,13 @@ ht-degree: 6%
 
 Os recursos a seguir foram disponibilizados para o ambiente de produção do Workfront Classic antes da versão 2020.1 para produção.
 
-Para obter informações sobre o período de lançamento e todas as funcionalidades disponíveis com a versão 2020.1, consulte [Visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obter informações sobre o período de lançamento e todas as funcionalidades disponíveis com a versão 2020.1, consulte a [visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td> Comportamento de cookie do Workfront atualizado para manter a compatibilidade com o Chrome <p>Para manter a compatibilidade com uma atualização futura do Google Chrome (Chrome v80), atualizamos a plataforma do Workfront para garantir que os cookies sejam enviados adequadamente com as solicitações. </p> <p>Essa atualização do Chrome altera o valor padrão do atributo de cookie SameSite. Se você quiser testar como sua instância do Workfront se comportará após a atualização do Google Chrome, ajuste os sinalizadores no Chrome e ative as seguintes opções: </p> 
+   <td> Comportamento de cookie do Workfront atualizado para manter a compatibilidade com o Chrome <p>Para manter a compatibilidade com uma atualização futura do Google Chrome (Chrome v80), atualizamos a plataforma do Workfront para garantir que os cookies sejam enviados adequadamente com as solicitações. </p> <p>Essa atualização do Chrome altera o valor padrão do atributo de cookie SameSite. Se quiser testar como sua instância do Workfront se comportará após a atualização do Google Chrome, ajuste os sinalizadores no Chrome e ative as seguintes opções: </p> 
     <ul> 
      <li>"Cookies SameSite por padrão" </li> 
      <li>"Cookies sem SameSite devem ser seguros"</li> 

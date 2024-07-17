@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configurar tipos de solicitação
-description: Ao trabalhar em um projeto, você pode descobrir que surgem eventos inesperados. Você pode registrar esses eventos inesperados como problemas para um projeto ou tarefa específica. Também é possível enviar solicitações, que são registradas como problemas em um projeto designado como Fila de solicitações. Problemas e solicitações são considerados intercambiáveis no Adobe Workfront.
+description: Ao trabalhar em um projeto, você pode descobrir que eventos inesperados surgem. Você pode registrar esses eventos inesperados como problemas para um projeto ou tarefa específica. Também é possível enviar solicitações, que são registradas como ocorrências em um projeto designado como Fila de solicitações. Problemas e solicitações são considerados intercambiáveis no Adobe Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # Configurar tipos de solicitação
 
-Ao trabalhar em um projeto, você pode descobrir que surgem eventos inesperados. Você pode registrar esses eventos inesperados como problemas para um projeto ou tarefa específica. Também é possível enviar solicitações, que são registradas como problemas em um projeto designado como Fila de solicitações. Problemas e solicitações são considerados intercambiáveis no Adobe Workfront.
+Ao trabalhar em um projeto, você pode descobrir que eventos inesperados surgem. Você pode registrar esses eventos inesperados como problemas para um projeto ou tarefa específica. Também é possível enviar solicitações, que são registradas como ocorrências em um projeto designado como Fila de solicitações. Problemas e solicitações são considerados intercambiáveis no Adobe Workfront.
 
-Para obter informações sobre como criar problemas em [!DNL Workfront], consulte [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md). Para obter informações sobre como criar solicitações em [!DNL Workfront], consulte [Criar e enviar [!DNL Adobe Workfront] requests](../../../manage-work/requests/create-requests/create-submit-requests.md). Para obter informações sobre como associar Tipos de solicitação a projetos, consulte [Definir tipos de solicitação para um projeto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+Para obter informações sobre como criar problemas no [!DNL Workfront], consulte [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md). Para obter informações sobre como criar solicitações em [!DNL Workfront], consulte [Criar e enviar [!DNL Adobe Workfront] solicitações](../../../manage-work/requests/create-requests/create-submit-requests.md). Para obter informações sobre como associar Tipos de Solicitação a projetos, consulte [Definir Tipos de Solicitação para um projeto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,15 +31,15 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>[!UICONTROL Plano]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um [!DNL Workfront] administrador.</p> <p><b>OBSERVAÇÃO</b>: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador [!DNL Workfront].</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,33 +63,33 @@ You must have at least one request type selected. You can select multiple reques
 
 ## Personalizar os nomes dos tipos de solicitação
 
-Como um [!DNL Workfront] administrador, você pode configurar os nomes dos tipos de solicitação em seu sistema. Os novos nomes são visíveis em qualquer área do [!DNL Workfront] em que **[!UICONTROL Tipo de problema]** ou **[!UICONTROL Tipo de solicitação]** exibição de campos:
+Como administrador do [!DNL Workfront], você pode configurar os nomes dos tipos de solicitação no sistema. Os novos nomes estão visíveis em qualquer área de [!DNL Workfront] onde os campos **[!UICONTROL Tipo de Problema]** ou **[!UICONTROL Tipo de Solicitação]** exibam:
 
-* No **[!UICONTROL Detalhes da fila]** área de um projeto que receberá os problemas ou solicitações.
-* Se mais de um tipo de solicitação for selecionado para uma Fila de solicitação, na **[!UICONTROL Novo problema] Formulário** no **[!UICONTROL Tipo de problema]** , ao criar um novo problema ou enviar uma nova solicitação.
+* Na área **[!UICONTROL Detalhes da fila]** de um projeto que receberá os problemas ou solicitações.
+* Se mais de um tipo de solicitação for selecionado para uma Fila de solicitações, no Formulário **[!UICONTROL Novo problema]** no campo **[!UICONTROL Tipo de problema]**, ao criar um novo problema ou enviar uma nova solicitação.
 
-   Para obter mais informações sobre como criar problemas em [!DNL Workfront], consulte  [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md)
+  Para obter mais informações sobre como criar problemas no [!DNL Workfront], consulte [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md)
 
-   Para obter mais informações sobre como criar solicitações em [!DNL Workfront], consulte  [Criar e enviar [!DNL Adobe Workfront] requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Para obter mais informações sobre como criar solicitações em [!DNL Workfront], consulte [Criar e enviar [!DNL Adobe Workfront] solicitações](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* No **[!UICONTROL Detalhes do Tópico da Fila]** , ao configurar o Tópico da fila.\
-   Para obter mais informações sobre como criar tópicos da fila, consulte [Criar Tópicos da Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* No formulário **[!UICONTROL Detalhes do tópico da fila]**, ao configurar o Tópico da fila.\
+   Para obter mais informações sobre como criar Tópicos da Fila, consulte [Criar Tópicos da Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Para personalizar os nomes dos tipos de solicitação:
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Configuração]** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
 
 1. Clique em **[!UICONTROL Preferências do projeto]** > **[!UICONTROL Status]**.
 
-1. Clique no botão **[!UICONTROL Problemas]** guia .
-1. Na parte superior do **[!UICONTROL Problemas]** , passe o mouse sobre o nome de um tipo de solicitação e clique no botão **[!UICONTROL Editar]** ícone que aparece.
+1. Clique na guia **[!UICONTROL Problemas]**.
+1. Na parte superior da guia **[!UICONTROL Problemas]**, passe o mouse sobre o nome de um tipo de solicitação e clique no ícone **[!UICONTROL Editar]** que aparece.
 
    ![](assets/edit-request-type-name-nwe.png)
 
 1. Na caixa exibida, digite um novo nome e pressione **[!UICONTROL Enter]**.
 
-## Configurar status de problema em diferentes tipos de solicitação
+## Configurar status de problemas em diferentes tipos de solicitação
 
-Você pode associar cada tipo de solicitação a diferentes status de ocorrência. Também é possível alterar a ordem em que os status são exibidos em uma ocorrência, dependendo do tipo de problema.
+Você pode associar cada tipo de solicitação a diferentes status de ocorrência. Você também pode alterar a ordem na qual os status são exibidos em uma ocorrência, dependendo do tipo de ocorrência.
 
-Para obter mais informações sobre como alterar a ordem padrão dos status de ocorrência e configurar os status de ocorrência, consulte o [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) seção em [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Para obter mais informações sobre como alterar a ordem padrão dos status de problemas e configurar esses status, consulte a seção [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) em [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Filtro: relatório Aprovação de prova para omitir versões de prova anteriores
 
-Em um relatório Aprovação de prova, você pode usar o **É a versão atual do documento** filtro para incluir somente as versões atuais das provas que estão aguardando sua aprovação.
+Em um relatório de Aprovação de prova, você pode usar o filtro **É a versão atual do documento** para incluir apenas as versões atuais das provas que estão aguardando sua aprovação.
 
 Isso é útil, por exemplo, se você foi solicitado a aprovar provas que têm várias versões. Quando você executa o relatório Aprovação de prova com o filtro É versão atual do documento, o relatório lista somente a versão atual de cada prova que está aguardando aprovação, omitindo versões anteriores nas quais você não precisa mais trabalhar. 
 
@@ -30,7 +30,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -45,12 +45,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Filtrar relatório Aprovação de prova para omitir versões de prova anteriores
 
@@ -62,15 +62,15 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Para criar seu próprio relatório Aprovação de prova, clique no menu principal ![](assets/main-menu-icon.png)e, em seguida, clique em **Relatórios** ![](assets/reports-in-main-menu.png). Clique em **Novo Relatório**. Na lista exibida, role até e clique em **Aprovação da prova**. Clique em **Salvar + Fechar**, digite um **Nome do relatório** (opcional) e clique em **Salvar relatório**.
+   Para criar seu próprio relatório Aprovação de prova, clique no Menu principal ![](assets/main-menu-icon.png) e em **Relatórios** ![](assets/reports-in-main-menu.png). Clique em **Novo Relatório**. Na lista exibida, role até e clique em **Aprovação de prova**. Clique em **Salvar + Fechar**, digite um **Nome do Relatório** (opcional) e clique em **Salvar Relatório**.
 
 1. Clique em **Ações de Relatório > Editar**.
-1. Clique em **Filtros** e, em seguida, clique em **Adicionar uma regra de filtro**.
+1. Clique em **Filtros** e em **Adicionar uma Regra de Filtro**.
 
    <!--
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tell Proof Lehi this isn't visible unless you scroll to it over on the right, not at all obvious. When on a laptop.</p>
    -->
 
-1. Clique em **Aprovação da prova**.
-1. Na lista exibida, clique em **É a versão atual do documento**.
-1. Clique em **Salvar + Fechar** no canto inferior esquerdo do Adobe Workfront, clique em **Salvar relatório** na caixa exibida.
+1. Clique em **Aprovação de prova**.
+1. Na lista exibida, clique em **É a Versão Atual do Documento**.
+1. Clique em **Salvar + Fechar** no canto inferior esquerdo do Adobe Workfront e em **Salvar relatório** na caixa exibida.

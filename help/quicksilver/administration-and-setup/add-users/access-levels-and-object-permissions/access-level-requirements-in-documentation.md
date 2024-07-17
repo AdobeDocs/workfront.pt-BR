@@ -8,7 +8,8 @@ description: Os artigos de instruções da documentação do Workfront contêm u
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
+exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Os artigos de instruções da documentação do Workfront contêm uma tabela que
 
 Se uma linha estiver ausente da tabela Requisitos de acesso em um determinado artigo, não há requisitos desse tipo para essa ação.
 
-Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atual&quot;. Isso ocorre porque a Workfront está fazendo a transição para um novo modelo de preços e pacotes, com algumas organizações operando sob o novo modelo e outras ainda usando o modelo atual. Para descobrir qual modelo sua organização usa, entre em contato com o administrador do Workfront. Você pode encontrar detalhes e links para informações na [A tabela Requisitos de acesso](#the-access-requirements-table) seção deste artigo.
+Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atual&quot;. Isso ocorre porque a Workfront está fazendo a transição para um novo modelo de preços e pacotes, com algumas organizações operando sob o novo modelo e outras ainda usando o modelo atual. Para descobrir qual modelo sua organização usa, entre em contato com o administrador do Workfront. Você pode encontrar detalhes e links para informações na seção [Tabela de requisitos de acesso](#the-access-requirements-table) deste artigo.
 
 >[!NOTE]
 >
@@ -37,7 +38,7 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <td role="rowheader">plano do Adobe Workfront</td> 
    <td> Os planos da Adobe Workfront se referem ao conjunto de recursos que sua organização adquiriu. A maior parte da funcionalidade do Workfront está disponível em todos os planos, com algumas exceções, relacionadas principalmente ao planejamento estratégico e aos controles corporativos. 
    <ul><li>Para descobrir qual plano da Adobe Workfront sua organização usa, incluindo se sua organização está no novo ou no atual modelo de empacotamento, entre em contato com o administrador do Workfront.</li>
-   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o plano Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano da Workfront</a>.</li></ul> </td> 
+   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o plano Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -46,8 +47,8 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <li>Para descobrir qual licença você está atribuído, entre em contato com o administrador do Workfront.</li>
    <li>A Adobe Workfront está fazendo a transição para um novo modelo de preços e pacotes. Para obter informações sobre licenças, consulte:
    <ul>
-   <li>Novo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral de novas licenças</a></li>
-   <li>Atual: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral de licenças</a></li></ul></li>
+   <li>Novo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral das novas licenças</a></li>
+   <li>Atual: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças</a></li></ul></li>
    <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.
    </ul>
       </p> </td> 
@@ -60,7 +61,7 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <li>Adobe Experience Manager Assets ou Assets Essentials </li>
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
-   <li>Planejador de cenários do Workfront</li>
+   <li>Planejador de cenário do Workfront</li>
    </ul>
    <p>Para saber se sua organização adquiriu um desses produtos adicionais, entre em contato com o administrador do Workfront.</p></td> 
   </tr> 
@@ -70,10 +71,10 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <ul>
     <li>A Adobe Workfront está fazendo a transição para um novo modelo de preços e pacotes. Para obter informações sobre níveis de acesso para cada modelo, consulte:
    <ul>
-   <li>Novo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral dos novos níveis de acesso</a></li>
+   <li>Novo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral sobre novos níveis de acesso</a></li>
    <li>Atual: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Visão geral dos níveis de acesso</a></li></ul></li>
     <li>Para descobrir os detalhes do seu nível de acesso, entre em contato com o administrador do Workfront</li>
-    <li>Se você for um administrador do Workfront, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuração do acesso ao Adobe Workfront</a> para saber mais sobre como conceder acesso a objetos específicos no nível de acesso.</li>  
+    <li>Se você for um administrador do Workfront, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configurar acesso ao Adobe Workfront</a> para saber mais sobre como conceder acesso a objetos específicos no nível de acesso.</li>  
    <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</li>
     </td>
   </tr> 
@@ -85,7 +86,7 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
   <tr> 
    <td role="rowheader">Modelo de layout</td> 
    <td><p>Os modelos de layout controlam o que pode ser visto no menu principal e são configurados pelo administrador do Workfront. Essa linha anota quaisquer áreas específicas do Workfront que devem ser incluídas no Menu principal para executar a ação.</p><p>Em geral, se um artigo instruir você a clicar em uma área no menu principal e essa área não estiver visível nesse menu, entre em contato com o administrador do Workfront para determinar se essa área pode ser disponibilizada para você.</p><p>
-   Para obter informações sobre como um administrador do Workfront pode configurar o menu principal, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">Personalizar o menu principal usando um modelo de layout</a>.</p>
+   Para obter informações sobre como um administrador do Workfront pode configurar o Menu Principal, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">Personalizar o Menu Principal usando um modelo de layout</a>.</p>
    </td> 
   </tr> 
   <tr> 
@@ -94,10 +95,8 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <ul><li>Atual: O modelo de licença atual é baseado no número de operações realizadas e não tem limitações sobre quais ações uma organização pode executar. </li>
    <li>Herdados: as licenças herdadas se baseiam na capacidade dos cenários de se conectarem a aplicativos de terceiros ou se os cenários são usados apenas para automação do Workfront. </li>
    </ul>
-   Para obter informações sobre o licenciamento do Fusion, consulte <a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Licenças do Workfront Fusion</a>.
+   Para obter informações sobre o licenciamento do Fusion, consulte <a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">licenças do Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 
 </table>
-
-

@@ -18,10 +18,10 @@ ht-degree: 0%
 # Adobe Workfront para Experience Manager Assets e Assets Essentials: índice de artigos
 
 * [Visão geral das integrações do Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [Vincular ativos e pastas do Experience Manager Assets ou Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Vincular ativos e pastas do Experience Manager Assets ou do Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
 * [Exibir metadados mapeados para Experience Manager Assets ou Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [Enviar um documento para o Experience Manager Assets ou o Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
-* [Criar uma prova de um ativo vinculado do Experience Manager Assets ou Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [Criar uma prova de um ativo vinculado para o Experience Manager Assets ou o Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [Exibir ou baixar um ativo vinculado do Experience Manager Assets ou do Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [Criar uma pasta vinculada ao Experience Manager Assets ou Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [Usar fluxos de trabalho na integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)

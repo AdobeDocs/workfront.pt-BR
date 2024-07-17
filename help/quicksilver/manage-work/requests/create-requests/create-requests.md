@@ -34,7 +34,7 @@ Para obter mais informações sobre como criar, enviar ou enviar solicitações 
 * [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Criar solicitações a partir de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 * [Copiar e enviar solicitações](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)
-* [Permitir que os usuários enviem um problema por email para um projeto da Fila de solicitações](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
+* [Habilitar usuários a enviar um problema por email para um projeto da Fila de Solicitações](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
 * [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Compartilhar um link para uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Excluir um rascunho de solicitação](../../../manage-work/requests/create-requests/delete-request-draft.md)

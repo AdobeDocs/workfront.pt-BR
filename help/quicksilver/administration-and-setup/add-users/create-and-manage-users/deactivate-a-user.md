@@ -66,7 +66,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td> <p>Você deve ter um dos seguintes:</p> 
     <ul> 
      <li> <p>O nível de acesso Administrador do sistema. Para obter informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>. </p> </li> 
-     <li> <p><b>Usuários</b> no seu nível de acesso configurado para <b>Editar</b> acesso, com <b>Criar</b> e pelo menos um dos dois <b>Administrador de Usuários</b> opções ativadas em <b>Ajuste as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o usuário <b>Administrador (Usuários de grupo)</b> estiver ativado, você deve ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> <p>Para obter mais informações sobre o <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
+     <li> <p>A configuração <b>Usuários</b> no seu nível de acesso foi configurada para <b>Editar</b> acesso, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o Usuário <b>Administrador (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> <p>Para obter mais informações sobre a configuração <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 Antes de desativar um administrador do Workfront ou usuário de licença Standard ou Plan, você deve associar seus objetos e atividades a outro usuário.
 
-Para obter mais informações, consulte [Sobre a desativação de administradores do Workfront e usuários da licença de plano](#about-deactivating-workfront-administrators-and-plan-license-users) neste artigo.
+Para obter mais informações, consulte [Sobre a desativação de administradores do Workfront e usuários de licenças de Plano](#about-deactivating-workfront-administrators-and-plan-license-users) neste artigo.
 
 ## Desativar um usuário
 
@@ -90,9 +90,9 @@ Esteja ciente do seguinte ao desativar um usuário:
 
 Para desativar um usuário:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
 
-1. Selecione um usuário, clique no botão **Mais** ícone ![](assets/more-icon.png)e, em seguida, clique em **Desativar**.
+1. Selecione um usuário, clique no ícone ![](assets/more-icon.png) de **Mais** e clique em **Desativar**.
 
 1. Clique em **Desativar** na caixa exibida.
 
@@ -104,7 +104,7 @@ Os administradores do Workfront e os usuários da licença de plano podem ver a 
 
 Para programar um usuário para desativação:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
 
 1. Selecione o nome do usuário.
 
@@ -113,10 +113,10 @@ Para programar um usuário para desativação:
    (Opcional) Selecione vários usuários para agendá-los para desativação em massa.
 
 1. Clique no ícone Editar ![](assets/edit-icon.png).
-1. Na caixa Editar Usuário exibida, clique em **Planejamento de recursos** para ir para aquela área.
-1. Ativar o **Desativação programada** opção.
+1. Na caixa Editar Usuário exibida, clique em **Planejamento de Recursos** para acessar essa área.
+1. Habilite a opção **Desativação de Agendamento**.
 
-1. No calendário exibido, especifique a data e a hora da **Data de desativação programada**.
+1. No calendário exibido, especifique a data e a hora para a **Data de Desativação Programada**.
 
    >[!NOTE]
    >
@@ -131,11 +131,11 @@ Recomendamos criar um relatório para os usuários que você agendou para desati
 
 ## Reativar um usuário
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
 
-1. Selecione um usuário, clique no ícone Mais ![](assets/more-icon.png)e, em seguida, clique em **Ativar**.
+1. Selecione um usuário, clique no ícone Mais ![](assets/more-icon.png) e clique em **Ativar**.
 
-1. Atribuir um novo **Nível de acesso** no menu suspenso, depois clique em **Reativar**.
+1. Atribua um novo **Nível de acesso** no menu suspenso e clique em **Reativar**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -145,7 +145,7 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 Os usuários desativados perdem a função de prova padrão atribuída e a licença de prova (se você estiver em um Plano herdado do Workfront Premium). Se você optar por reativar o usuário, será necessário:
 
-* Reatribua a licença (se você estiver em um Plano Workfront Premium Legacy). Para obter mais informações sobre planos de prova do Workfront, consulte [Acesso à funcionalidade de prova no Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Reatribua a licença (se você estiver em um Plano Workfront Premium Legacy). Para obter mais informações sobre planos de revisão de texto do Workfront, consulte [Acesso à funcionalidade de revisão de texto no Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 * Verifique se eles têm a função de prova correta. Os usuários de prova reativados recebem o que for especificado como a função de prova padrão para novos usuários. Consulte [Configurar funções de prova padrão](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) para obter mais informações.
 
 ## Sobre a desativação de administradores do Workfront e usuários de licenças Padrão ou Plano

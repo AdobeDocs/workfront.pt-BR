@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias iniciais feitas com a versão do Primeiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do primeiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do Primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Novo widget de aprovações pendentes disponível
 
@@ -30,10 +30,10 @@ Agora, os administradores podem personalizar a nova Página inicial para usuári
 
 Observe que as opções de modelo de layout do administrador substituem a personalização de usuários individuais; ou seja, quando as alterações em um modelo de layout são salvas, os usuários nesse modelo de layout terão sua nova Página inicial alterada para corresponder ao modelo de layout e suas seleções de widget existentes serão encaminhadas para a parte inferior da página. Embora os widgets selecionados pelo administrador possam ser reposicionados por um usuário, eles não podem ser removidos.
 
-Para obter mais informações, consulte [Personalizar a nova página inicial usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Para obter mais informações, consulte [Personalizar nova Página Inicial usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## Os botões de ação rápida Meu Trabalho foram alterados para serem exibidos somente ao passar o mouse
 
 Para melhorar o desempenho, os botões de ação rápida disponíveis no widget Meu trabalho agora serão exibidos somente quando um item de trabalho for focalizado com o mouse.
 
-Para obter mais informações sobre os botões de ação rápida disponíveis no widget Meu trabalho, consulte [Introdução à nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obter mais informações sobre os botões de ação rápida disponíveis no widget Meu Trabalho, consulte [Introdução à Nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

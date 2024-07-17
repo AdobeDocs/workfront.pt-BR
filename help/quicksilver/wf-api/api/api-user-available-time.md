@@ -10,7 +10,7 @@ exl-id: fa37920a-c08b-4af3-9896-7e4044834860
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ O ponto de extremidade de tempo disponível do usuário recupera dados sobre o t
 
 * **userIDs**: matriz de cadeias de caracteres. Obrigatório. Exemplo: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
-* **fromDate**: datetime. string. Obrigatório. Exemplo:  `"2022-07-10T00:00:00"`.
+* **fromDate**: datetime. string. Obrigatório. Exemplo: `"2022-07-10T00:00:00"`.
 
 * **toDate**: datetime. string. Obrigatório. Exemplo `"2022-07-20T23:59:59"`.
 
@@ -75,5 +75,5 @@ O ponto de extremidade de tempo disponível do usuário recupera dados sobre o t
 
 ## Parâmetros de resposta
 
-* **AVL**: Horas disponíveis reais. Matriz de números.
-* **PAVL**: Horas puramente disponíveis para agendamento que não inclui dias não úteis ou folga do usuário. String.
+* **AVL**: horas disponíveis reais. Matriz de números.
+* **PAVL**: horas puramente disponíveis para agendamento que não inclui dias não úteis ou folga do usuário. String.

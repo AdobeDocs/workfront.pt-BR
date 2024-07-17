@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Substitua o botão Trabalho nele por um botão Iniciar
-description: A configuração padrão do Adobe Workfront inclui um botão Trabalhar nele para tarefas e problemas que são exibidos para itens aos quais você foi atribuído.
+title: Substitua o botão Trabalhar na tarefa por um botão Iniciar
+description: A configuração padrão do Adobe Workfront inclui um botão Trabalhar na tarefa para tarefas e problemas que é exibido para itens aos quais você foi atribuído.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Substitua o [!UICONTROL Trabalhe Com Ele] com um botão [!UICONTROL Iniciar] botão
+# Substitua o botão [!UICONTROL Trabalhar nisto] por um botão [!UICONTROL Iniciar]
 
-[!DNL Adobe Workfront]A configuração padrão do inclui um [!UICONTROL Trabalhe Com Ele] botão para tarefas e problemas que são exibidos para itens aos quais você foi atribuído. Ao clicar em [!UICONTROL Trabalhe Com Ele] em itens atribuídos a você, você sinaliza para outros usuários que recebeu o trabalho e reconhece que trabalhará nele. No entanto, a variável [!DNL Work On It] O botão não atualiza a tarefa ou emite o status para sinalizar que o trabalho foi realmente iniciado.
+A configuração padrão de [!DNL Adobe Workfront] inclui um botão [!UICONTROL Trabalhar nisto] para tarefas e problemas que é exibido para itens aos quais você foi atribuído. Ao clicar em [!UICONTROL Trabalhar Nele] nos itens atribuídos a você, você sinaliza a outros usuários que recebeu o trabalho e reconhece que irá trabalhar nele. No entanto, o botão [!DNL Work On It] não atualiza o status da tarefa ou problema para indicar que o trabalho foi realmente iniciado.
 
-Você pode substituir a variável [!DNL Work On It] com um botão [!UICONTROL Iniciar] para um grupo ao qual você pertence. Nesse caso, clique no botão [!UICONTROL Iniciar] botão em vez de [!UICONTROL Trabalhe Com Ele], que atualiza automaticamente o status e a variável [!UICONTROL Data de início real] do item de trabalho, sinalizando que você começou a trabalhar. Para obter informações sobre a configuração de qual equipe pode afetar suas alterações no [!UICONTROL Trabalhe Com Ele] , consulte a seção [Configure o [!UICONTROL Iniciar] botão](#configure-the-uicontrol-start-button) neste artigo.
+Você pode substituir o botão [!DNL Work On It] por um botão [!UICONTROL Iniciar] para a equipe à qual pertence. Nesse caso, você clica no botão [!UICONTROL Iniciar] em vez de [!UICONTROL Trabalhar nisto], que atualiza automaticamente o status e a [!UICONTROL Data do Início Efetivo] do item de trabalho, sinalizando que você começou a trabalhar. Para obter informações sobre a configuração da equipe que pode afetar suas alterações no botão [!UICONTROL Trabalhar nisto], consulte a seção [Configurar o botão [!UICONTROL Iniciar]](#configure-the-uicontrol-start-button) neste artigo.
 
 >[!IMPORTANT]
 >
->Clicar no [!UICONTROL Iniciar] altera o status do item e [!UICONTROL Data de início real]. Se outra pessoa tiver começado a trabalhar em uma tarefa ou problema (que alterou o status para [!UICONTROL Em Andamento] e preencheu os [!UICONTROL Data de início real]), o botão do item é exibido como [!UICONTROL Trabalhe Com Ele] mesmo quando um grupo ao qual você pertence teve o botão substituído por um [!UICONTROL Iniciar] botão.
+>Clicar no botão [!UICONTROL Iniciar] altera o status do item e a [!UICONTROL Data de Início Efetivo]. Se outra pessoa tiver começado a trabalhar em uma tarefa ou problema (que alterou o status para [!UICONTROL Em andamento] e preencheu a [!UICONTROL Data de Início Efetiva]), o botão do item será exibido como [!UICONTROL Trabalhar Nele] mesmo quando a equipe à qual você pertence tiver substituído o botão por um botão [!UICONTROL Iniciar].
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -44,60 +44,59 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano ou tipo de licença você possui, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
 
-## Configure o [!UICONTROL Iniciar] botão
+## Configurar o botão [!UICONTROL Iniciar]
 
-Se você tiver uma [!UICONTROL Plano] você pode configurar a [!UICONTROL Iniciar] para uma equipe no [!UICONTROL Editar] janela da equipe. Veja como o botão funciona após ser ativado para um grupo:
+Se você tiver uma licença do [!UICONTROL Plano], poderá configurar o botão [!UICONTROL Iniciar] para uma equipe na janela de equipe [!UICONTROL Editar]. Veja a seguir como o botão funciona depois que ele é ativado para um grupo:
 
-* **A equipe é atribuída a um item de trabalho**: Se uma equipe for atribuída ao item de trabalho, os membros dessa equipe visualizarão a variável [!UICONTROL Iniciar] e os status configurados para essa equipe.
-* **O usuário pertence a uma Home Team**: Se nenhuma equipe for atribuída ao item de trabalho, mas o usuário for atribuído a uma Equipe Inicial em seu perfil, o usuário visualizará a variável [!UICONTROL Iniciar] e os status configurados para essa equipe. Este é o cenário que recomendamos se você deseja que os usuários usem a variável [!UICONTROL Iniciar] frequentemente.
-* **O usuário é atribuído a um item de trabalho**: Se não houver equipe atribuída ao item de trabalho e nenhuma Equipe Inicial atribuída ao usuário, mas o usuário for atribuído ao item de trabalho, o usuário visualizará a [!UICONTROL Iniciar] e os status combinados configurados para que todas as equipes sejam atribuídas.
-* **O usuário não está atribuído a nenhuma equipe:** Se não houver uma equipe atribuída ao item de trabalho e nenhuma equipe para o usuário, incluindo a Equipe Inicial, e o item for atribuído ao usuário, o usuário parece que [!UICONTROL Trabalhe Com Ele] botão.
+* **A equipe está atribuída a um item de trabalho**: se uma equipe estiver atribuída ao item de trabalho, os membros dessa equipe verão o botão [!UICONTROL Iniciar] e os status configurados para essa equipe.
+* **O usuário pertence a uma Equipe Doméstica**: se nenhuma equipe estiver atribuída ao item de trabalho, mas o usuário estiver atribuído a uma Equipe Doméstica em seu perfil, o usuário verá o botão [!UICONTROL Iniciar] e os status configurados para essa equipe. Este é o cenário que recomendamos se você deseja que os usuários usem o botão [!UICONTROL Iniciar] com frequência.
+* **O usuário está atribuído a um item de trabalho**: se não houver nenhuma equipe atribuída ao item de trabalho e nenhuma Equipe interna atribuída ao usuário, mas o usuário estiver atribuído ao item de trabalho, o usuário verá o botão [!UICONTROL Iniciar] e os status combinados configurados para todas as equipes às quais estão atribuídos.
+* **O usuário não está atribuído a nenhuma equipe:** Se não houver nenhuma equipe atribuída ao item de trabalho e nenhuma equipe atribuída ao usuário, incluindo a Equipe Inicial, e o item estiver atribuído ao usuário, o usuário parecerá o botão [!UICONTROL Trabalhar Nele].
 
 >[!NOTE]
 >
->Este recurso não está disponível no momento em
+>Este recurso não está disponível atualmente no
 >
->* O [!DNL Workfront] aplicativo móvel
+>* O aplicativo móvel [!DNL Workfront]
 >* [!DNL Workfront for Office 365]
 >* [!DNL Workfront] notificações por email
 >
 
+Para configurar o botão Iniciar:
 
-Para configurar o botão Start :
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito do Adobe Workfront e em **[!UICONTROL Equipes]**.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **[!UICONTROL Equipes]**.
-
-1. No **[!UICONTROL Equipes]** selecione um grupo no menu suspenso.\
+1. No menu suspenso **[!UICONTROL Equipes]**, selecione uma equipe.\
    ou\
-   Clique em **[!UICONTROL Criar equipe]**.
+   Clique em **[!UICONTROL Criar Equipe]**.
 
-1. Clique no botão **[!UICONTROL Mais]** ícone ![](assets/more-icon.png), depois clique em **[!UICONTROL Editar]**.
+1. Clique no ícone **[!UICONTROL Mais]** ![](assets/more-icon.png) e em **[!UICONTROL Editar]**.
 
-1. Encontre a **[!UICONTROL Trabalhe Com Ele]** seção do botão perto da parte inferior do [!UICONTROL Editar equipes] página.
-1. Selecione o **[!UICONTROL Altere o botão Trabalhar nele para um botão Iniciar para atualizar automaticamente o status de um item]** caixa de seleção.
-1. Selecione um ou mais status para cada tipo de item de trabalho. Se você selecionar mais de um status, um menu suspenso será exibido ao clicar em [!UICONTROL Iniciar] onde você pode escolher o status desejado.
-1. Clique em **[!UICONTROL Salvar alterações]**. Os usuários agora veem um [!UICONTROL Iniciar tarefa] ou [!UICONTROL Problema inicial] em vez de [!UICONTROL Trabalhe Com Ele] quando um item de trabalho for atribuído a eles.
+1. Localize a seção do botão **[!UICONTROL Trabalhar nisto]** próxima à parte inferior da página [!UICONTROL Editar Equipes].
+1. Marque a caixa de seleção **[!UICONTROL Alterar o botão Trabalhar na tarefa para um botão Iniciar para atualizar automaticamente o status de um item]**.
+1. Selecione um ou mais status para cada tipo de item de trabalho. Se você selecionar mais de um status, um menu suspenso será exibido quando você clicar em [!UICONTROL Iniciar], onde você poderá escolher o status desejado.
+1. Clique em **[!UICONTROL Salvar alterações]**. Os usuários agora veem o botão [!UICONTROL Iniciar Tarefa] ou [!UICONTROL Iniciar Problema] em vez do botão [!UICONTROL Trabalhar nisto] quando recebem um item de trabalho.
 
    >[!NOTE]
    >
-   >Recomendamos configurar a equipe como Equipe inicial de um usuário para que o botão Iniciar apareça em todos os itens de trabalho atribuídos. Consulte [Associar usuários a uma Equipe Inicial](#associate-users-with-a-home-team) abaixo.
+   >Recomendamos configurar a equipe como a Equipe inicial do usuário para que o botão Iniciar apareça em todos os itens de trabalho atribuídos. Consulte [Associar usuários a uma Equipe Doméstica](#associate-users-with-a-home-team) abaixo.
 
-## Associar usuários a uma Equipe Inicial
+## Associar usuários a uma Equipe interna
 
-Para associar usuários a uma Equipe inicial:
+Para associar usuários a uma Equipe da Página Inicial:
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
 
-1. Clique em **[!UICONTROL Usuários]** e, em seguida, selecione o(s) usuário(s) que deseja associar a uma Equipe Inicial.
-1. Clique no botão **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.\
+1. Clique em **[!UICONTROL Usuários]** e selecione o(s) usuário(s) que deseja associar a uma Equipe interna.
+1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. No **[!UICONTROL Organização]** selecione a **[!UICONTROL Equipe inicial]** campo. Comece a digitar o nome da equipe cujas configurações você deseja associar com os usuários. Clique no nome da equipe quando visualizá-lo na lista.
+1. Na seção **[!UICONTROL Organização]**, selecione o campo **[!UICONTROL Equipe interna]**. Comece digitando o nome da equipe cujas configurações você deseja associar aos usuários. Clique no nome da equipe ao ser exibido na lista.
 
 1. Clique em **[!UICONTROL Salvar alterações]**.\
-   Os usuários selecionados agora estão associados a uma Equipe inicial.
+   Os usuários selecionados agora estão associados a uma Equipe interna.
 
-   Todas as configurações do grupo, incluindo os status associados ao grupo [!UICONTROL Concluído] agora estão visíveis para esses usuários.
+   Todas as configurações do grupo, incluindo os status associados ao botão [!UICONTROL Concluído], agora estão visíveis para esses usuários.
 

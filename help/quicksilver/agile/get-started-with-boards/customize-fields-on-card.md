@@ -42,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -51,20 +51,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Configurar cartões {#configure-cards}
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique em [!UICONTROL **Configurar**] à direita da placa para abrir o painel Configurar.
-1. Expandir [!UICONTROL **Cartões**].
+1. Clique em [!UICONTROL **Configurar**] à direita do quadro para abrir o painel Configurar.
+1. Expanda [!UICONTROL **Cartões**].
 
    A maioria dos campos e seções é ativada por padrão.
 
 1. Desative um campo ou seção para desativá-lo nas duas visualizações de cartão.
-1. Clique no ícone Ocultar ![Ícone Ocultar](assets/eye-hide-icon.png) ao lado de um campo ou seção para ocultá-lo na exibição condensada.
-1. Para exibir todos os campos e seções em ambas as exibições, clique em [!UICONTROL **Restaurar todos os campos para o padrão**].
+1. Clique no ícone Ocultar ![ícone Ocultar](assets/eye-hide-icon.png) ao lado de um campo ou seção para ocultá-lo no modo de exibição condensado.
+1. Para exibir todos os campos e seções em ambos os modos de exibição, clique em [!UICONTROL **Restaurar todos os campos para o padrão**].
 1. Clique em [!UICONTROL **Ocultar configuração**] para fechar o painel Configurar.
 
 ## Adicionar campos personalizados a cartões
@@ -74,9 +74,9 @@ Campos personalizados estão disponíveis em cartões conectados. Eles só são 
 Os dados em campos personalizados podem ser editados no cartão, embora alguns elementos personalizados possam estar disponíveis apenas para edição no campo original e não no cartão.
 
 1. Acesse um quadro e clique em [!UICONTROL **Configurar**] para abrir o painel Configurar.
-1. Expandir [!UICONTROL **Cartões**].
-1. Em [!UICONTROL Campos de cartão], clique em [!UICONTROL **Adicionar campo personalizado**].
-1. Selecionar [!UICONTROL **Tarefa**] ou [!UICONTROL **Problema**].
+1. Expanda [!UICONTROL **Cartões**].
+1. Em [!UICONTROL Campos de Cartão], clique em [!UICONTROL **Adicionar campo personalizado**].
+1. Selecione [!UICONTROL **Tarefa**] ou [!UICONTROL **Problema**].
 
    As categorias de campos disponíveis para tarefas ou problemas são exibidas. Expanda uma categoria para ver todos os campos. Também é possível pesquisar por um campo.
 
@@ -87,13 +87,13 @@ Os dados em campos personalizados podem ser editados no cartão, embora alguns e
    >Os seguintes tipos de campo não estão disponíveis para adicionar a placas: Adobe XD, Image, PDF, Video.
 
 1. Selecione o nome do campo.
-1. (Opcional) Clique no link **[!UICONTROL Valor do campo]** para alterar este campo personalizado para outro.
-1. (Opcional) Altere a **[!UICONTROL Rótulo do campo]** ao nome do campo que você deseja que apareça nos cartões.
+1. (Opcional) Clique no campo **[!UICONTROL Valor do campo]** para alterar este campo personalizado para outro.
+1. (Opcional) Altere o **[!UICONTROL Rótulo do campo]** para o nome do campo que você deseja que apareça nos cartões.
 1. Quando terminar de fazer alterações, clique em [!UICONTROL **Salvar campo**].
 
-   ![Valor e rótulo do campo personalizado](assets/save-custom-field-value-label.png)
+   ![Rótulo e valor de campo personalizado](assets/save-custom-field-value-label.png)
 
-   O campo personalizado é adicionado à lista de campos disponíveis e é ativado por padrão. Você pode desativar o campo personalizado seguindo as etapas na [Configurar cartões](customize-fields-on-card.md#configure-cards) acima, edite o campo ou exclua-o de todos os cartões.
+   O campo personalizado é adicionado à lista de campos disponíveis e é ativado por padrão. Você pode desabilitar o campo personalizado seguindo as etapas da seção [Configurar cartões](customize-fields-on-card.md#configure-cards) acima, editar o campo ou excluí-lo de todos os cartões.
 
 >[!NOTE]
 >
@@ -104,8 +104,8 @@ Os dados em campos personalizados podem ser editados no cartão, embora alguns e
 Você deve ativar uma definição de configuração para exibir cartões arquivados em uma placa.
 
 1. Acesse um quadro e clique em [!UICONTROL **Configurar**] para abrir o painel Configurar.
-1. Expandir [!UICONTROL **Cartões**].
-1. Ativar [!UICONTROL **Exibir cartões arquivados no quadro**].
+1. Expanda [!UICONTROL **Cartões**].
+1. Ative [!UICONTROL **Exibir cartões arquivados no quadro**].
 
    Agora, você pode filtrar o quadro para mostrar todos os cartões que foram arquivados. Para obter detalhes, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
@@ -113,4 +113,4 @@ Você deve ativar uma definição de configuração para exibir cartões arquiva
 
 ## Configurar queda de cartão
 
-Para remover automaticamente cartões do quadro após um período, consulte [Configurar queda de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Para remover automaticamente cartões do quadro após um período, consulte [Configurar fallout de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

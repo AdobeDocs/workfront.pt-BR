@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: Final do Beta 2018.3
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta Final 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 10 de outubro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 10 de outubro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,22 +16,22 @@ ht-degree: 0%
 
 # Final do Beta 2018.3
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta Final 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 10 de outubro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 10 de outubro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 
 >[!NOTE]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.3, consulte  [Visão geral da atividade da versão 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.3, consulte  Visão geral da atividade da versão [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-A versão final Beta 2018.3 contém as seguintes melhorias:
+A versão final do Beta 2018.3 contém as seguintes melhorias:
 
 * [Sincronização Bidirecional entre o Calendário da Página Inicial e o Calendário do Outlook](#two-way-sync-between-home-calendar-and-outlook-calendar)
-* [Atualizações para adicionar novas tarefas na Página inicial](#updates-for-adding-new-tasks-in-home)
-* [Ferramentas de marcação de revisão de texto agora expandidas por padrão](#proofing-markup-tools-now-expanded-by-default)
+* [Atualizações para Adicionar Novas Tarefas à Página Inicial](#updates-for-adding-new-tasks-in-home)
+* [Ferramentas de Marcação de Revisão agora expandidas por padrão](#proofing-markup-tools-now-expanded-by-default)
 * [Integração de documentos do Microsoft OneDrive](#microsoft-onedrive-document-integration)
-* [Integração do Workfront para Microsoft Teams](#workfront-for-microsoft-teams-integration)
-* [Atualização do Workfront para integração com o Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
+* [Workfront para integração do Microsoft Teams](#workfront-for-microsoft-teams-integration)
+* [Workfront atualizado para Integração com o Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Melhorias no aplicativo móvel do Workfront](#workfront-mobile-app-improvements)
 
 ## Sincronização Bidirecional entre o Calendário da Página Inicial e o Calendário do Outlook {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -40,14 +40,14 @@ Ao configurar seu Calendário da página inicial para sincronizar com o Calendá
 
 Anteriormente, só era possível sincronizar itens do Calendário do Outlook com o Calendário da Página Inicial.
 
-Para obter informações sobre como configurar seu Calendário da página inicial para sincronização com o Outlook, consulte [Definir as configurações de exibição do Calendário da página inicial](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+Para obter informações sobre como configurar seu Calendário da página inicial para sincronização com o Outlook, consulte [Definir configurações de exibição do Calendário da página inicial](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Atualizações para adicionar novas tarefas na Página inicial {#updates-for-adding-new-tasks-in-home}
 
 * Agora você pode atualizar a data de conclusão planejada em uma Tarefa pessoal.
 * Agora você pode atribuir Equipes e Funções às Solicitações e Tarefas de projeto criadas na Página inicial.
 
-Para obter mais informações sobre as atualizações acima, consulte  [Criar itens de trabalho a partir da Área da página inicial](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Para obter mais informações sobre as atualizações acima, consulte  [Criar itens de trabalho a partir da Área inicial](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Ferramentas de marcação de revisão de texto agora expandidas por padrão {#proofing-markup-tools-now-expanded-by-default}
 
@@ -86,7 +86,7 @@ A integração está disponível sem custo adicional para todos os clientes que 
 
 >[!NOTE]
 >
-> Algumas áreas da integração descritas no vídeo a seguir foram modificadas. Para obter as informações mais recentes sobre o Workfront para Microsoft Teams, consulte [[!DNL Adobe Workfront for Microsoft Teams]: índice do artigo](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) seção.
+> Algumas áreas da integração descritas no vídeo a seguir foram modificadas. Para obter as informações mais recentes sobre o Workfront para Microsoft Teams, consulte a seção [[!DNL Adobe Workfront for Microsoft Teams]: índice de artigo](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
 
 ## Atualização do Workfront para integração com o Adobe Creative Cloud {#updated-workfront-for-adobe-creative-cloud-integration}
 

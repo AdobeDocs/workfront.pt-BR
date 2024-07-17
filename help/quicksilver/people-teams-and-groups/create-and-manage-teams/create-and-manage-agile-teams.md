@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Criar e gerenciar equipes do Ágil
+title: Criar e gerenciar equipes Agile
 description: Para obter informações sobre como criar e gerenciar equipes ágeis, consulte Criar uma equipe ágil.
 author: Lisa
 feature: People Teams and Groups
@@ -13,6 +13,6 @@ ht-degree: 0%
 
 ---
 
-# Criar e gerenciar equipes do Ágil
+# Criar e gerenciar equipes Agile
 
 Para obter informações sobre como criar e gerenciar equipes ágeis, consulte [Criar uma equipe ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).

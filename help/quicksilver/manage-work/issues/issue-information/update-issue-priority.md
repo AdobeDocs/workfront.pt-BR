@@ -9,15 +9,15 @@ exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Atualizar prioridade do problema
 
-Você pode definir uma prioridade para uma ocorrência para indicar a importância da ocorrência.
+Você pode definir uma prioridade para um problema  para indicar a importância do problema.
 
-Você deve ter permissões de gerenciamento para o problema para modificar a Prioridade do problema.  [Atualizar a prioridade de um problema](#update-the-priority-of-an-issue).
+Você deve ter permissões de gerenciamento para o problema para modificar a Prioridade do problema.  [Atualize a Prioridade de um problema](#update-the-priority-of-an-issue).
 
 ## Requisitos de acesso
 
@@ -41,12 +41,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Visão geral das prioridades do problema
 
@@ -66,8 +66,8 @@ Consulte a tabela a seguir para entender cada rótulo de prioridade padrão e se
  <col> 
  <thead> 
   <tr> 
-   <th>Rótulo de prioridade <br>(Pode ser modificado) </th> 
-   <th>Número de Prioridade <br>(Não pode ser modificado) </th> 
+   <th>Rótulo de Prioridade <br>(Pode ser modificado) </th> 
+   <th>Número de Prioridade <br> (Não pode ser modificado) </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -99,13 +99,13 @@ Consulte a tabela a seguir para entender cada rótulo de prioridade padrão e se
 1. Vá para o problema cuja prioridade você deseja modificar.
 1. Clique em **Detalhes do problema** no painel esquerdo.
 
-   A variável **Visão geral** deve ser exibida por padrão.
+   A seção **Visão geral** deve ser exibida por padrão.
 
-1. Clique em **Prioridade** no campo **Informações básicas** área.
+1. Clique no campo **Prioridade** na área **Informações básicas**.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. Selecione um valor para a variável **Prioridade** campo.
+1. Selecione um valor para o campo **Prioridade**.
 
    Dependendo de como o administrador do Workfront configurou as Prioridades no sistema, as opções podem variar.
 

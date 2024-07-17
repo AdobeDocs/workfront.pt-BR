@@ -22,7 +22,7 @@ Uma tarefa é um item de trabalho dentro de um projeto. Representa uma quantidad
 
 As tarefas podem ser atribuídas a usuários a serem concluídas. Quando todas as tarefas em um projeto são concluídas, o Status do projeto pode ser marcado como Concluído.
 
-Para obter mais informações sobre projetos no Adobe Workfront, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
+Para obter mais informações sobre projetos na Adobe Workfront, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
 Veja a seguir os tipos de tarefas em um projeto:
 
@@ -62,4 +62,4 @@ Você pode atualizar e concluir tarefas de trabalho sem influenciar a atualizaç
 
 ## Tarefas recorrentes
 
-Se você tiver uma tarefa que ocorre repetidamente, poderá criá-la como uma tarefa recorrente com várias recorrências. Para obter informações sobre tarefas recorrentes, consulte [Visão geral das tarefas recorrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Se você tiver uma tarefa que ocorre repetidamente, poderá criá-la como uma tarefa recorrente com várias recorrências. Para obter informações sobre tarefas recorrentes, consulte [Visão geral sobre tarefas recorrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

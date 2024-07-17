@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de projeto feitas com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## Edite a Data de confirmação e a Condição da tarefa e do problema na seção de cabeçalho ou Detalhes
@@ -29,10 +29,10 @@ Para facilitar a atualização de tarefas e problemas, adicionamos os campos Dat
 
 Para obter informações sobre como atualizar a Data de confirmação e a Condição, consulte os seguintes artigos:
 
-* [Atualizar condição para tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-* [Atualizar a data de compromisso em tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+* [Atualizar Condição para tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Atualizar a data de confirmação sobre tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Atribuições inteligentes mais relevantes
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Integração e Mobile incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 
-Para obter uma lista de todas as alterações feitas em 2019.2, consulte [Visão geral da atividade da versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.2, consulte a [Visão Geral da Atividade da Versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Workfront para melhorias do Microsoft Teams
 
@@ -32,7 +32,7 @@ Agora é possível fazer o seguinte ao usar o Workfront para Microsoft Teams:
 
   Antes dessa melhoria, não era possível desativar nenhuma das notificações do Workfront no Microsoft Teams.
 
-  Para obter informações, consulte [Gerenciar notificações e solicitações de aprovação do Workfront no Microsoft Teams](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+  Para obter informações, consulte [Gerenciando Notificações e Solicitações de Aprovação do Workfront em Microsoft Teams](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Atualização do Workfront para integração com o Adobe Creative Cloud
 

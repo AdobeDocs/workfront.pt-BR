@@ -34,7 +34,7 @@ Como gerente de projeto, você pode decidir como deseja estimar a quantidade de 
     <ul> 
      <li>Este é o método padrão. </li> 
      <li>Você pode atualizar manualmente as Horas Planejadas apenas para tarefas com um Tipo de Duração de Atribuição Calculada ou Simples. </li> 
-    </ul> <p>Para obter informações sobre o Trabalho necessário, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Visão geral das Horas planejadas</a>. </p> </td> 
+    </ul> <p>Para obter informações sobre as Horas Planejadas, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">visão geral das Horas Planejadas</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Esforço do trabalho </td> 
@@ -89,43 +89,43 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Considerações sobre o uso do esforço de trabalho
 
-* Quando as tarefas do projeto tiverem 0 Horas Planejadas e você ativar a configuração Usar esforço de trabalho para calcular automaticamente as Horas Planejadas da tarefa no projeto, o nível padrão do Esforço de trabalho associado a elas será Médio. As Horas planejadas são atualizadas automaticamente para tarefas do Tipo duração simples. Para obter mais informações, consulte a seção  [Níveis de esforço de trabalho](#levels-of-work-effort) neste artigo.
-* Quando as tarefas do projeto têm Horas Planejadas maiores que 0 e você ativa a configuração Usar esforço de trabalho para calcular automaticamente as Horas Planejadas da tarefa no projeto, o nível do esforço de trabalho é atualizado de acordo com a quantidade de Horas Planejadas sem alterar a quantidade de Horas Planejadas para tarefas do Tipo Duração Simples. Para obter mais informações, consulte a seção [Como o Workfront calcula o esforço de trabalho com base nas horas planejadas](#how-workfront-calculates-work-effort-based-on-planned-hours) neste artigo.
-* Quando as tarefas do projeto tiverem 0 Horas Planejadas e você ativar o Esforço de trabalho para calcular automaticamente a configuração das Horas Planejadas da tarefa no projeto e, em seguida, atualizar o nível do Esforço de trabalho de Médio para Pequeno ou Grande, as Horas Planejadas também serão atualizadas. Para obter mais informações, consulte a seção [Como o Workfront calcula as horas planejadas com base no esforço de trabalho](#how-workfront-calculates-planned-hours-based-on-work-effort) neste artigo.
+* Quando as tarefas do projeto tiverem 0 Horas Planejadas e você ativar a configuração Usar esforço de trabalho para calcular automaticamente as Horas Planejadas da tarefa no projeto, o nível padrão do Esforço de trabalho associado a elas será Medium. As Horas planejadas são atualizadas automaticamente para tarefas do Tipo duração simples. Para obter mais informações, consulte a seção [Níveis de esforço de trabalho](#levels-of-work-effort) neste artigo.
+* Quando as tarefas do projeto têm Horas Planejadas maiores que 0 e você ativa a configuração Usar esforço de trabalho para calcular automaticamente as Horas Planejadas da tarefa no projeto, o nível do esforço de trabalho é atualizado de acordo com a quantidade de Horas Planejadas sem alterar a quantidade de Horas Planejadas para tarefas do Tipo Duração Simples. Para obter mais informações, consulte a seção [Como a Workfront calcula o esforço de trabalho com base no Trabalho necessário](#how-workfront-calculates-work-effort-based-on-planned-hours) neste artigo.
+* Quando as tarefas do projeto tiverem 0 Horas planejadas e você ativar a opção Usar esforço do trabalho para calcular automaticamente a configuração de Horas planejadas da tarefa no projeto e, em seguida, atualizar o nível de Esforço de trabalho do Medium para Pequeno ou Grande, as Horas planejadas também serão atualizadas. Para obter mais informações, consulte a seção [Como o Workfront calcula as horas planejadas com base no esforço de trabalho](#how-workfront-calculates-planned-hours-based-on-work-effort) neste artigo.
 * Quando você edita tarefas em linha e modifica o campo Horas planejadas e Esforço de trabalho para tarefa ao mesmo tempo, as Horas planejadas serão atualizadas com o valor especificado, enquanto o valor do Esforço de trabalho é calculado com base nas Horas planejadas atualizadas.
-* Quando você atualiza o valor do Esforço de trabalho de uma tarefa, a Duração não é mais calculada automaticamente com base nas Horas planejadas. Para obter mais informações sobre como a Duração é calculada para tarefas de Duração simples, consulte [Visão geral do tipo de duração: simples](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+* Quando você atualiza o valor do Esforço de trabalho de uma tarefa, a Duração não é mais calculada automaticamente com base nas Horas planejadas. Para obter mais informações sobre como a Duração é calculada para tarefas de Duração simples, consulte [Visão geral do Tipo de Duração: Simples](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 * Quando você altera o Tipo de Duração de uma tarefa de Simples para qualquer outro tipo, o campo Esforço de trabalho fica oculto na tarefa. As horas planejadas permanecem inalteradas.
 * Não é possível atualizar o nível de Esforço de trabalho em uma tarefa-pai. O nível de Esforço de trabalho de uma tarefa-pai é calculado automaticamente com base no número de Horas Planejadas das tarefas, que é uma totalização de todas as tarefas-filho. Para obter informações sobre tarefas pai, consulte [Criar subtarefas](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Ativar usando o Esforço de trabalho em vez das horas planejadas
 
-1. Vá para um projeto e clique no botão **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em **Editar**.
-1. Clique em **Configurações da tarefa** e selecione a opção **Use o esforço do trabalho para calcular automaticamente as horas planejadas das tarefas**. Essa opção é desmarcada por padrão.
+1. Vá para um projeto, clique no menu ![](assets/more-icon.png) de **Mais** e clique em **Editar**.
+1. Clique em **Configurações da tarefa** e selecione a opção **Usar esforço do trabalho para calcular automaticamente as horas planejadas da tarefa**. Essa opção é desmarcada por padrão.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
-   Para obter mais informações sobre como ativar o uso do Esforço de trabalho em um projeto, consulte a seção &quot;Configurações de tarefas&quot; no [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md) artigo.
+   Para obter mais informações sobre como habilitar o uso do Esforço de trabalho em um projeto, consulte a seção &quot;Configurações de tarefas&quot; no artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Clique em **Tarefas** no painel esquerdo, clique no nome de uma tarefa para acessá-la.
-1. Clique em **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em **Editar**. Certifique-se de que a tarefa tenha um Tipo de duração simples.
+1. Clique em **Tarefas** no painel esquerdo e, em seguida, clique no nome de uma tarefa para acessá-la.
+1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Editar**. Certifique-se de que a tarefa tenha um Tipo de duração simples.
 
    >[!TIP]
    >
    >Também é possível atualizar o Esforço de trabalho de uma tarefa na seção Detalhes da tarefa.
 
-1. No **Visão geral** clique no menu suspenso Esforço de trabalho para corrigir a quantidade de esforço necessário para concluir a tarefa.
+1. Na área **Visão geral**, clique no menu suspenso Esforço de trabalho para corrigir a quantidade de esforço necessário para concluir a tarefa.
 
    ![](assets/work-effort-on-edit-task-page-350x239.png)
 
    Para obter mais informações sobre como atualizar o campo Esforço de trabalho em uma tarefa, consulte os seguintes artigos:
 
-   * A seção &quot;Visão geral&quot; no [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md) artigo
+   * A seção &quot;Visão geral&quot; no artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
    * [Gerenciar informações da tarefa na área Visão geral de detalhes da tarefa](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Níveis de esforço de trabalho {#levels-of-work-effort}
@@ -134,9 +134,9 @@ Como gerente de projeto, você pode identificar três níveis de Esforço de tra
 
 Ao configurar o nível de Esforço de trabalho, você deve se perguntar: &quot;Quanto tempo um usuário atribuído a essa tarefa deve gastar diariamente para fazer isso a tempo?&quot;
 
-A tabela a seguir ilustra os possíveis níveis de Esforço de trabalho e suas porcentagens correspondentes padrão. Como gerente de projeto, você pode atualizar as porcentagens para atender às necessidades da organização. Faça isso ao editar um projeto. Para obter informações sobre a edição de projetos, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+A tabela a seguir ilustra os possíveis níveis de Esforço de trabalho e suas porcentagens correspondentes padrão. Como gerente de projeto, você pode atualizar as porcentagens para atender às necessidades da organização. Faça isso ao editar um projeto. Para obter informações sobre como editar projetos, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Como administrador do Workfront, você define as horas típicas por dia de trabalho na área Preferências do projeto da Configuração. Essa é a quantidade diária de tempo considerada como tempo de trabalho. Para obter informações sobre como configurar as Preferências do projeto para sua instância do Workfront, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Como administrador do Workfront, você define as horas típicas por dia de trabalho na área Preferências do projeto da Configuração. Essa é a quantidade diária de tempo considerada como tempo de trabalho. Para obter informações sobre como configurar as Preferências do Projeto para sua instância do Workfront, consulte [Configurar as preferências do projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ Como administrador do Workfront, você define as horas típicas por dia de traba
   </tr> 
   <tr> 
    <td>Média</td> 
-   <td> <p>Um nível médio de esforço para concluir uma tarefa é definido como 50% das horas Típicas por dia de trabalho. Isso significa que uma tarefa atribuída a esse nível de Esforço de trabalho deve levar mais de 2 e menos de 6 horas para ser concluída em um dia. <code>(0.50*80=4)</code> </p> <p>Nota: Quando a configuração Usar esforço do trabalho para calcular automaticamente as Horas planejadas da tarefa estiver ativada no projeto, essa será a configuração padrão para uma tarefa, se a tarefa tiver 0 Horas planejadas antes dessa configuração ter sido ativada. Isso faz com que as Horas planejadas da tarefa sejam atualizadas para 4 horas. </p> </td> 
+   <td> <p>Um nível de esforço da Medium para concluir uma tarefa é definido como 50% das horas Típicas por dia de trabalho. Isso significa que uma tarefa atribuída a esse nível de Esforço de trabalho deve levar mais de 2 e menos de 6 horas para ser concluída em um dia. <code>(0.50*80=4)</code> </p> <p>Nota: Quando a configuração Usar esforço do trabalho para calcular automaticamente as Horas planejadas da tarefa estiver ativada no projeto, essa será a configuração padrão para uma tarefa, se a tarefa tiver 0 Horas planejadas antes dessa configuração ter sido ativada. Isso faz com que as Horas planejadas da tarefa sejam atualizadas para 4 horas. </p> </td> 
   </tr> 
   <tr> 
    <td>Grande</td> 
@@ -173,7 +173,7 @@ Quando você ativa a opção Usar esforço do trabalho para calcular automaticam
 Task Planned Hours = Number of days in task Duration * Work Effort percentage * Typical hours per work day
 ```
 
-Por exemplo, uma tarefa com Duração de 3 dias e Esforço de trabalho Médio tem 12 Horas planejadas:
+Por exemplo, uma tarefa com uma Duração de 3 dias e um Esforço de trabalho do Medium tem 12 Horas planejadas:
 
 ```
 Planned Hours = 3*4=12
@@ -195,7 +195,7 @@ O Workfront usa a seguinte fórmula para atualizar o nível de Esforço de traba
 Work Effort level = Task Planned Hours / Duration / Typical hours per work day
 ```
 
-Por exemplo, se você tiver uma tarefa com uma Duração de 2 dias e atualizar as Horas planejadas de 8 para 20 horas, o Esforço de trabalho para a tarefa será atualizado de Médio para Grande:
+Por exemplo, se você tiver uma tarefa com uma Duração de 2 dias e atualizar as Horas planejadas de 8 para 20 horas, o Esforço de trabalho para a tarefa será atualizado do Medium para Grande:
 
 ```
 Work Effort level = 20 / 2 / 8 = 125 % = Large

@@ -22,13 +22,13 @@ ht-degree: 4%
 
 Esta página descreve todas as melhorias na Lista feitas com a versão 2019.4. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 11 de novembro de 2019.
 
-Para obter uma lista de todas as alterações feitas em 2019.4, consulte [Visão geral da versão 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.4, consulte a [visão geral da versão 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Aparência e comportamento atualizados das novas listas</strong> <p>As listas de Projeto, Tarefa e Horas agora têm aparência atualizada. Outras listas planejadas para serem atualizadas com a versão 2019.4 serão atualizadas com uma versão futura.</p> <p>Algumas das atualizações incluem:</p> 
+   <td><strong>Aparência e comportamento atualizados de novas listas</strong> <p>As listas de Projeto, Tarefa e Horas agora têm aparência atualizada. Outras listas planejadas para serem atualizadas com a versão 2019.4 serão atualizadas com uma versão futura.</p> <p>Algumas das atualizações incluem:</p> 
     <ul> 
      <li>Um design mais limpo, semelhante à grade</li> 
      <li>Cores e fontes atualizadas</li> 
@@ -37,7 +37,7 @@ Para obter uma lista de todas as alterações feitas em 2019.4, consulte [Visão
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Novo design aplicado a listas para Relatórios, Modelos de tarefa, Portfolio e muito mais</strong> <p>Importante: essas melhorias foram removidas do ambiente de Pré-visualização em 8 de novembro de 2019 e não serão incluídas na versão 2019.4 para Produção. Esses aprimoramentos serão adicionados novamente ao ambiente de Pré-visualização após a versão 2019.4 para produção e estarão disponíveis para Produção em uma versão futura.</p> <p>O novo design da lista agora está disponível nas seguintes listas:</p> 
+   <td><strong>Novo design aplicado a listas para Relatórios, Tarefas de modelo, Portfolio e muito mais</strong> <p>Importante: essas melhorias foram removidas do ambiente de Pré-visualização em 8 de novembro de 2019 e não serão incluídas na versão 2019.4 para Produção. Esses aprimoramentos serão adicionados novamente ao ambiente de Pré-visualização após a versão 2019.4 para produção e estarão disponíveis para Produção em uma versão futura.</p> <p>O novo design da lista agora está disponível nas seguintes listas:</p> 
     <ul> 
      <li>Relatórios </li> 
      <li>Problemas</li> 
@@ -82,10 +82,10 @@ Para obter uma lista de todas as alterações feitas em 2019.4, consulte [Visão
      <p>Os lembretes de atalho de teclado agora estão disponíveis na caixa de pesquisa de filtros rápidos em listas para facilitar o acesso aos filtros. </p> 
      <p>Os atalhos são:</p> 
      <ul> 
-      <li><strong>No Windows (apenas Internet Explorer):</strong> ALT+Shift+F</li> 
-      <li><strong>No Mac (todos os navegadores):</strong> Option+F</li> 
+      <li><strong>No Windows (somente Internet Explorer):</strong> ALT+Shift+F</li> 
+      <li><strong>No Mac (todos os navegadores):</strong> Option+F</li> 
      </ul> 
-     <p>Filtros rápidos estão disponíveis em todas as listas reprojetadas. Para obter informações sobre as listas atualizadas e os filtros rápidos, consulte <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Introdução a listas no Adobe Workfront</a>.</p>
+     <p>Filtros rápidos estão disponíveis em todas as listas reprojetadas. Para obter informações sobre as listas atualizadas e filtros rápidos, consulte <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Introdução às listas no Adobe Workfront</a>.</p>
     </div> </td> 
   </tr> 
  </tbody> 

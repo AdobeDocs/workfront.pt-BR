@@ -54,12 +54,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou mais altas para projetos, tarefas e problemas que incluem Fazer atribuições</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superiores para projetos, tarefas e problemas que incluem Fazer atribuições</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
  
 
@@ -69,14 +69,14 @@ Você pode cancelar a atribuição de itens de usuários e movê-los para a áre
 
 Para desatribuir itens de trabalho dos usuários:
 
-1. No Balanceador de carga de trabalho, vá para a guia **Trabalho atribuído** e expandir um usuário.
+1. No Balanceador de carga de trabalho, vá para a área **Trabalho atribuído** e expanda um usuário.
 1. Siga um destes procedimentos:
 
    * Localize o item que deseja cancelar a atribuição na área de um usuário, clique nele e arraste e solte-o na área Não atribuído ou na área de outro usuário.
-   * Clique em **Mais** ícone ![](assets/more-icon-task-list.png) à direita do nome de um item de trabalho, clique em **Atribuir esta para**, remova o nome das entidades atribuídas ao item de trabalho ou insira outro nome e clique em **Salvar**.
+   * Clique no ícone **Mais** ![](assets/more-icon-task-list.png) à direita do nome de um item de trabalho, clique em **Atribuir a este item**, remova o nome das entidades atribuídas ao item de trabalho ou insira outro nome e clique em **Salvar**.
 
      ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    O item é exibido na área Trabalho não atribuído se corresponder aos critérios de filtragem para essa área e não estiver atribuído a outros usuários, ou é exibido na área do usuário se estiver atribuído a outro usuário.
 
-   Para obter informações sobre como filtrar informações no Balanceador de carga de trabalho, consulte [Filtrar informações no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+   Para obter informações sobre como filtrar informações no Balanceador de carga de trabalho, consulte [Informações de filtro no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

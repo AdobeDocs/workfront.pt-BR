@@ -59,7 +59,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,13 +71,13 @@ Ou você pode usar o email padrão incluído na notificação de lembrete. O ema
 
 Se quiser personalizar o email de lembrete, crie um modelo de email e anexe-o à notificação de lembrete.
 
-Para obter informações sobre como criar um template de email, consulte [Configurar modelos de email](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+Para obter informações sobre como criar um modelo de email, consulte [Configurar modelos de email](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
 ## Criar uma notificação de lembrete
 
 {{step-1-to-setup}}
 
-1. Clique em **E-mail** > **Notificação** > **Notificações de lembrete**.
+1. Clique em **Email** > **Notificações** > **Notificações de Lembrete**.
 
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
@@ -85,9 +85,9 @@ Para obter informações sobre como criar um template de email, consulte [Config
 
 1. Na lista suspensa, clique no tipo de objeto que deseja associar à notificação de lembrete.
 
-   Por exemplo, se você deseja anexar uma notificação de lembrete a uma folha de horas, clique em **Planilha de horas**.
+   Por exemplo, se você deseja anexar uma notificação de lembrete a uma folha de horas, clique em **Folha de horas**.
 
-1. No **Nova Notificação de Lembrete** que for exibida, especifique as informações a seguir.
+1. Na caixa **Nova Notificação de Lembrete** exibida, especifique as informações a seguir.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,7 +99,7 @@ Para obter informações sobre como criar um template de email, consulte [Config
      </tr> 
      <tr> 
       <td role="rowheader">Período de qualificação</td> 
-      <td> <p>Especifique o número de horas, dias de trabalho, dias (dias do calendário), semanas ou meses antes ou depois da data no <strong>Tempo</strong> campo.</p> <p><b>NOTA</b>:  
+      <td> <p>Especifique o número de horas, dias úteis, dias (dias do calendário), semanas ou meses antes ou depois da data no campo <strong>Horário</strong>.</p> <p><b>NOTA</b>:  
         <ul> 
          <li> <p>As notificações de lembrete começam 24 horas após a data especificada e assim que todos os critérios são atendidos.</p> </li> 
          <li> <p>Notificações de lembrete para projetos, tarefas e problemas são acionadas todas as noites à meia-noite, horário das montanhas dos EUA. Todos os objetos qualificados para uma notificação de lembrete desse dia acionam uma notificação para os usuários designados logo após esse horário.</p> </li> 
@@ -122,14 +122,14 @@ Para obter informações sobre como criar um template de email, consulte [Config
       <td role="rowheader">Critério</td> 
       <td> <p>Selecione os critérios para qualificar a notificação de lembrete a ser agendada. Notificações de lembrete não são agendadas a menos que a seleção de critérios seja atendida.</p> <p>As opções de critérios a seguir estão disponíveis, dependendo do tipo de objeto selecionado na Etapa 4:</p> 
        <ul> 
-        <li><strong>Projetos em Andamento Incompletos:</strong> <i>(Disponível para lembretes de tarefas e problemas)</i> A notificação de lembrete está agendada para ser enviada somente quando o status do objeto ao qual a notificação de lembrete está associada não é Concluído e o status do projeto é Atual.</li> 
-        <li><strong>Todos os projetos atuais:</strong> <i>(Disponível para lembretes de tarefas e problemas)</i> A notificação de lembrete está agendada para ser enviada independentemente do status do objeto e somente quando o status do projeto ao qual a notificação de lembrete está associada for Atual.</li> 
-        <li><strong>Projetos Incompletos:</strong> <i>(Disponível para lembretes de projeto)</i> A notificação de lembrete é agendada para ser enviada quando o status do projeto for algo além de Concluído.</li> 
+        <li><strong>Incompleto nos Projetos Atuais:</strong> <i>(Disponível para lembretes de tarefas e problemas)</i> A notificação de lembrete está agendada para ser enviada somente quando o status do objeto ao qual a notificação de lembrete está associada não é Concluído e o status do projeto é Atual.</li> 
+        <li><strong>Todos nos Projetos Atuais:</strong> <i>(Disponível para lembretes de tarefas e problemas)</i> A notificação de lembrete está agendada para ser enviada independentemente do status do objeto e somente quando o status do projeto ao qual a notificação de lembrete está associada for Atual.</li> 
+        <li><strong>Projetos Incompletos:</strong> <i>(Disponível para lembretes de projeto)</i> A notificação de lembrete está agendada para ser enviada quando o status do projeto for qualquer coisa menos Concluído.</li> 
         <li><strong>Todos os Projetos:</strong> <i>(Disponível para lembretes de projeto)</i> A notificação de lembrete está agendada para ser enviada independentemente do status do projeto.</li> 
-        <li><strong>Abrir Planilhas de Horas:</strong> <i>(Disponível para lembretes de folha de horas)</i> A notificação de lembrete está agendada para ser enviada quando o status da folha de horas for Aberto.</li> 
-        <li><strong>Planilha de horas enviada:</strong> <i>(Disponível para lembretes de folha de horas)</i> A notificação de lembrete está agendada para ser enviada quando o status da folha de horas for Enviado.</li> 
-        <li><strong>Planilha de horas em aberto ou menos de 40 horas por semana:</strong> <i>(Disponível para lembretes de folha de horas)</i> A notificação de lembrete é agendada para ser enviada quando o status da folha de horas for Aberto ou quando a folha de horas tiver menos de 40 horas reportadas.</li> 
-        <li><strong>Modelo de email:</strong> Na lista suspensa, selecione um template de email para anexar ao seu lembrete.<br>Para obter informações sobre como criar um template de email, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurar modelos de email</a>.</li> 
+        <li><strong>Abrir Planilha de Horas:</strong> <i>(Disponível para lembretes de planilha de horas)</i> A notificação de lembrete está agendada para ser enviada quando o status da planilha de horas for Aberto.</li> 
+        <li><strong>Folhas de Horas Enviadas:</strong> <i>(Disponível para lembretes de folha de horas)</i> A notificação de lembrete está agendada para ser enviada quando o status da folha de horas for Enviado.</li> 
+        <li><strong>Abrir Planilha de Horas ou Menos de 40 Horas por Semana:</strong> <i>(Disponível para lembretes de planilha de horas)</i> A notificação de lembrete está agendada para ser enviada quando o status da planilha de horas for Aberto ou quando a planilha de horas tiver menos de 40 horas registrada.</li> 
+        <li><strong>Modelo de email:</strong> No menu suspenso, selecione um modelo de email para anexar ao seu lembrete.<br>Para obter informações sobre como criar um modelo de email, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurar modelos de email</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -157,7 +157,7 @@ Para obter informações sobre como criar um template de email, consulte [Config
 
 Quando a condição for atendida no item que tem o lembrete de notificação anexado, uma notificação por email será acionada para o usuário definido na notificação de lembrete.
 
-Para obter mais informações sobre como receber notificações de lembrete, consulte [Notificações de lembrete](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) seção em [Notificações do Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
+Para obter mais informações sobre como receber notificações de lembrete, consulte a seção [Notificações de lembrete](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) em [Notificações do Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Testar entrega de notificação de lembrete
 
@@ -170,9 +170,9 @@ Para fazer com que uma notificação de lembrete seja acionada manualmente:
 
 {{step-1-to-setup}}
 
-1. Clique em **Sistema** > **Diagnóstico** no canto inferior esquerdo do Workfront.
+1. Clique em **Sistema** > **Diagnósticos** no canto inferior esquerdo do Workfront.
 
-1. Clique em **Enviar Notificações de Lembrete** e aguarde a confirmação na parte superior da tela de que eles foram enviados.
+1. Clique em **Enviar Notificações de Lembrete** e aguarde a confirmação na parte superior da tela de que elas foram enviadas.
 
    Os usuários designados na notificação de lembrete recebem um email.
 

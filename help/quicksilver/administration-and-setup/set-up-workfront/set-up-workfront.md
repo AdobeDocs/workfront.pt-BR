@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Configurar [!DNL Adobe Workfront]
-description: Como um [!DNL Workfront] administrador, você pode configurar os padrões do sistema, as folhas de horas, os cronogramas, a forma como os usuários estão organizados no sistema, as atualizações automáticas do sistema e a [!DNL Workfront] ambientes de teste que você usa.
+description: Como administrador do  [!DNL Workfront] você pode configurar os padrões de sistema, folhas de horas, cronogramas, a forma como os usuários estão organizados no sistema, as atualizações automáticas do sistema e os [!DNL Workfront] ambientes de teste que você usa.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-Como um [!DNL Adobe Workfront] administrador, você pode configurar os padrões do sistema, as folhas de horas, os cronogramas, a forma como os usuários estão organizados no sistema, as atualizações automáticas do sistema e a [!DNL Workfront] ambientes de teste que você usa.
+Como administrador do [!DNL Adobe Workfront], você pode configurar os padrões de sistema, folhas de horas, cronogramas, a forma como os usuários estão organizados no sistema, atualizações automáticas do sistema e os ambientes de teste do [!DNL Workfront] que você usa.
 
 As seguintes subseções contêm artigos sobre como configurar a instância do Workfront e definir as preferências do sistema:
 

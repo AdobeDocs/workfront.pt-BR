@@ -31,4 +31,4 @@ Para obter informações gerais sobre a versão beta dos Painéis do Canvas, con
 
 * **Relatórios de gráfico**
 
-  Agora é possível adicionar relatórios de gráfico a uma tela, além de relatórios de lista. Para obter mais informações sobre como adicionar um relatório de gráfico a um Painel da Tela de Pintura, consulte [Visão geral dos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  Agora é possível adicionar relatórios de gráfico a uma tela, além de relatórios de lista. Para obter mais informações sobre como adicionar um relatório de gráfico a um Painel da Tela, consulte [Visão geral dos Painéis da Tela](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).

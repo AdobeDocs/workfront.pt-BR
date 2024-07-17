@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # Referência a formulários personalizados em um relatório
 
-Para obter informações sobre como fazer referência a formulários personalizados em um relatório, consulte [Referenciar um formulário personalizado em um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).
+Para obter informações sobre como fazer referência a formulários personalizados em um relatório, consulte [Fazer referência a um formulário personalizado em um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).

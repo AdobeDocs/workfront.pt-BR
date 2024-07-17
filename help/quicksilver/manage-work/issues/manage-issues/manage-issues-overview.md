@@ -20,7 +20,7 @@ ht-degree: 0%
 Esta seção contém os seguintes artigos:
 
 * [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md)
-* [Visão geral da modificação de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Visão geral da modificação das atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Atribuir problemas](../../../manage-work/issues/manage-issues/assign-issues.md)
 * [Exibir problemas](../../../manage-work/issues/manage-issues/view-issues.md)
 * [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md)

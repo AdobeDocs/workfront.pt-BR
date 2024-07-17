@@ -66,18 +66,18 @@ A restrição Primeiro Horário Disponível difere da restrição O Mais Breve P
 
 Nesta situação:
 
-* **Hora Mais Antiga Disponível:** O uso da restrição Primeiro Horário Disponível na tarefa sucessora dá prioridade à restrição flexível da predecessora.
+* **Primeiro Horário Disponível:** Usar a restrição Primeiro Horário Disponível na tarefa sucessora dá prioridade à restrição flexível da predecessora.
 
-   **EXEMPLO**
+  **EXEMPLO**
 
-   A Tarefa A é predecessora da Tarefa B. A Tarefa B tem a restrição Tempo Mais Cedo Disponível e a Tarefa A tem a restrição O Mais Tarde Possível. Nessa situação, a Tarefa B é agendada o mais próximo possível da conclusão do projeto.
+  A Tarefa A é antecessora da Tarefa B. A Tarefa B tem a restrição Tempo Mais Cedo Disponível e a Tarefa A tem a restrição O Mais Tarde Possível. Nessa situação, a Tarefa B é agendada o mais próximo possível da conclusão do projeto.
 
-   ![Restrição de Primeiro Tempo Disponível quando a tarefa tem datas próximas à Data de Término do projeto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+  ![Restrição de Tempo Mais Cedo Disponível quando a tarefa tem datas próximas à Data de Término do projeto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-* **Assim Que Possível:** Nesse cenário, usar a restrição Assim que Possível na tarefa sucessora dá prioridade à tarefa sucessora.
+* **O Mais Breve Possível:** Neste cenário, usar a restrição O Mais Breve Possível na tarefa sucessora dá prioridade à tarefa sucessora.
 
-   **EXEMPLO**
+  **EXEMPLO**
 
-   A Tarefa A é antecessora da Tarefa B. A Tarefa B tem a restrição O Mais Breve Possível e a Tarefa A tem a restrição O Mais Tarde Possível. Nessa situação, a Tarefa B é agendada o mais próximo possível do início do projeto.
+  A Tarefa A é antecessora da Tarefa B. A Tarefa B tem a restrição O Mais Breve Possível e a Tarefa A tem a restrição O Mais Tarde Possível. Nessa situação, a Tarefa B é agendada o mais próximo possível do início do projeto.
 
-   ![Restrição O Mais Breve Possível quando a tarefa tiver as datas próximas à Data de Início do projeto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+  ![Restrição o Mais Breve Possível quando a tarefa tiver datas próximas à Data de Início do projeto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

@@ -104,10 +104,10 @@ A seguir, os modelos de espaço de trabalho no Workfront Planning e o número de
 
    * Tipos de registro operacional:
 
-      * **Campaign**: 15 campos
+      * **Campanha**: 15 campos
    * Taxonomias:
 
-      * **Personas**: 7 campos
+      * **Personalidades**: 7 campos
       * **Marcas**: 6 campos
       * **Produtos**: 5 campos
 
@@ -122,10 +122,10 @@ A seguir, os modelos de espaço de trabalho no Workfront Planning e o número de
       * **Regiões**: 1 campo
       * **Estágios de Jornada do cliente**: 4 campos
       * **Públicos-alvo**: 8 campos
-      * **Entregáveis**: 12 campos
+      * **Entregas**: 12 campos
       * **Marcas**: 6 campos
 
-* **Enterprise: Gerenciamento de marketing**: projetado para organizações grandes ou maduras com sistemas de marketing complexos. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
+* **Empresa: Gerenciamento de marketing**: projetado para organizações grandes ou maduras com sistemas de marketing complexos. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
    * Tipos de registro operacional:
 
@@ -137,7 +137,7 @@ A seguir, os modelos de espaço de trabalho no Workfront Planning e o número de
    * Taxonomias:
 
       * **Produtos**: 10 campos
-      * **Entregáveis**: 18 campos
+      * **Entregas**: 18 campos
       * **Públicos-alvo**: 8 campos
       * **Regiões**: 8 campos
       * **Sub-regiões**: 7 campos
@@ -151,25 +151,25 @@ A seguir, os modelos de espaço de trabalho no Workfront Planning e o número de
 
       * **Oportunidade**: 11 campos
       * **Atividade**: 9 campos
-      * **Campaign**: 8 campos
+      * **Campanha**: 8 campos
    * Taxonomias:
       * **Conta**: 7 campos
       * **Lead**: 14 campos
       * **Contato**: 12 campos
       * **Região**: 3 campos
-      * **Setor**: campo 2
-      * **Centro de compras**: 1 campo
-      * **Produto/Serviço**: 1 campo
+      * **Setor**: 2 campos
+      * **Central de compras**: 1 campo
+      * **Produto/ Serviço**: 1 campo
       * **Concorrência**: 1 campo
 
-* **Gerenciamento de produtos**: você pode criar um processo de gerenciamento de produtos eficiente e estruturado usando esse template. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
+* **Gerenciamento de produtos**: você pode criar um processo de gerenciamento de produtos eficiente e estruturado usando este modelo. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
    * Tipos de registro operacional:
 
       * **Tema**: 10 campos
       * **Iniciativa**: 10 campos
       * **Épico**: 12 campos
-      * **História de usuário**: 11 campos
+      * **História de Usuário**: 11 campos
 
    * Taxonomias:
 

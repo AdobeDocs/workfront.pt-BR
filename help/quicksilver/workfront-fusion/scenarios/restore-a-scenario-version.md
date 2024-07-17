@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Restaurar uma versão do cenário no [!DNL Adobe Workfront Fusion]
+title: Restaurar uma versão de cenário em  [!DNL Adobe Workfront Fusion]
 description: É possível restaurar uma versão anterior de um cenário. Isso permite fazer alterações em um cenário e, em seguida, revertê-las facilmente, se preferir a funcionalidade anterior.
 author: Becky
 feature: Workfront Fusion
@@ -10,11 +10,11 @@ exl-id: 8885fe4e-a9ae-4cfa-895f-68a2f8228034
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Restaurar uma versão do cenário no [!DNL Adobe Workfront Fusion]
+# Restaurar uma versão de cenário em [!DNL Adobe Workfront Fusion]
 
 ## Requisitos de acesso
 
@@ -35,32 +35,32 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Restaurar uma versão de cenário
 
 1. Abra seu cenário.
-1. Clique em [!UICONTROL Mais] ícone ![](assets/more-icon.png)e, em seguida, clique em **[!UICONTROL Versões anteriores]**.
+1. Clique no ícone [!UICONTROL Mais] ![](assets/more-icon.png) e em **[!UICONTROL Versões Anteriores]**.
 
-1. Clique em **[!UICONTROL Escolha a versão]** e, em seguida, clique na versão que deseja restaurar.
+1. Clique em **[!UICONTROL Escolha a versão]** e clique na versão que deseja restaurar.
 1. Clique em **[!UICONTROL OK]**:
 1. A versão do cenário selecionado será restaurada.
 

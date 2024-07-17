@@ -18,17 +18,17 @@ ht-degree: 0%
 A seguir estão as diretrizes sobre como as larguras de coluna funcionam no Adobe Workfront:
 
 * Por padrão, o Workfront define a largura das colunas em listas e relatórios.
-* O Workfront ajusta automaticamente a largura das colunas de acordo com a `valueformat`informações em todas as listas e relatórios, salvo especificação em contrário no modo texto da coluna.
+* O Workfront ajusta automaticamente a largura das colunas de acordo com as `valueformat` informações em todas as listas e relatórios, a menos que especificado de outra forma no modo de texto da coluna.
 
   >[!NOTE]
   >
-  >O Workfront não ajusta a largura das colunas de acordo com a variável `valueformat` informações nas listas disponíveis nas áreas Configuração e Relatórios.
+  >O Workfront não ajusta a largura das colunas de acordo com as informações de `valueformat` nas listas disponíveis nas áreas Configuração e Relatórios.
 
-  A variável `valueformat` define que tipo de informação é exibida na coluna. Por exemplo, as colunas que exibem um número são mais estreitas do que as colunas que exibem o campo Descrição.
+  O valor `valueformat` define que tipo de informação é exibido na coluna. Por exemplo, as colunas que exibem um número são mais estreitas do que as colunas que exibem o campo Descrição.
 
 * Você pode personalizar a largura das colunas em suas listas e relatórios do Workfront para atender às suas necessidades, dependendo do tipo de informação que deseja exibir nas colunas.
 
-  Você pode modificar a largura das colunas temporariamente, ao exibir uma lista ou relatório, ou permanentemente, ajustando a largura da coluna no construtor de exibições. Para obter informações sobre como modificar temporariamente a largura das colunas, consulte a [Considerações ao modificar temporariamente a largura e a ordem das colunas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) neste artigo.
+  Você pode modificar a largura das colunas temporariamente, ao exibir uma lista ou relatório, ou permanentemente, ajustando a largura da coluna no construtor de exibições. Para obter informações sobre como modificar temporariamente a largura das colunas, consulte a seção [Considerações ao modificar temporariamente a largura e a ordem das colunas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) neste artigo.
 
 * As colunas que aparecem nas exibições integradas têm larguras definidas anteriormente pelo Workfront e codificadas. Para modificar essas larguras, você deve atualizar manualmente a largura dessas colunas usando o modo de texto no construtor de exibições.
 
@@ -56,12 +56,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões de um relatório para editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Modificar a largura e a ordem da coluna
 
@@ -90,7 +90,7 @@ Considere o seguinte ao redimensionar e ordenar temporariamente as colunas:
 
 >[!NOTE]
 > 
->As larguras de coluna são limitadas pelo tamanho da janela do navegador; se a página for atualizada, as colunas serão reduzidas em largura até que todas as colunas possam caber na janela sem rolagem horizontal. Para forçar uma coluna a permanecer mais larga do que o navegador pode ajustar, você deve definir a largura da coluna no modo de texto, conforme descrito em [Modificar permanentemente a largura e a ordem das colunas](#modify-width-and-order-of-columns-permanently) e evite ajustar manualmente qualquer largura de coluna arrastando suas bordas.
+>As larguras de coluna são limitadas pelo tamanho da janela do navegador; se a página for atualizada, as colunas serão reduzidas em largura até que todas as colunas possam caber na janela sem rolagem horizontal. Para forçar uma coluna a permanecer mais larga do que o navegador pode ajustar, você deve definir a largura da coluna no modo de texto, conforme descrito em [Modificar a largura e a ordem das colunas permanentemente](#modify-width-and-order-of-columns-permanently) e evitar o ajuste manual de quaisquer larguras de coluna arrastando suas bordas.
 >
 
 * Ao reordenar colunas, a ordem escolhida é mantida somente até você sair da lista ou atualizar a página do navegador. Depois de sair da lista ou atualizar a página do navegador, as colunas retornam à ordem padrão.
@@ -131,8 +131,8 @@ Para obter mais informações sobre como exportar dados de listas e relatórios,
 
 ### Modificar permanentemente a largura e a ordem das colunas {#modify-width-and-order-of-columns-permanently}
 
-Para reordenar colunas permanentemente, consulte a seção [Criar ou personalizar um modo de exibição padrão](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para reordenar permanentemente as colunas, consulte a seção [Criar ou personalizar um modo de exibição padrão](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) no artigo [Visão geral de modos de exibição no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 Você pode modificar permanentemente a largura de uma coluna somente usando o modo de texto.
 
-Para obter mais informações sobre como usar o modo de texto e modificar permanentemente a largura de uma coluna, consulte o artigo [Visão geral de usos comuns do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obter mais informações sobre como usar o modo texto e modificar permanentemente a largura de uma coluna, consulte o artigo [Visão geral dos usos comuns do Modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

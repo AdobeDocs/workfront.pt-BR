@@ -27,23 +27,23 @@ O novo designer de formulário tem um novo espaço de trabalho no estilo da tela
 
 Um botão na parte superior do novo designer de formulário e do construtor de formulários herdado permite alternar entre as versões.
 
-![Mudar para o novo designer de formulário](assets/switch-views.png)
+![Alternar para o novo designer de formulário](assets/switch-views.png)
 
 ## Nova funcionalidade disponível com o designer de formulário
 
 Com o novo designer de formulários, adicionamos a capacidade de:
 
-* **Copiar um campo**: Agora é possível copiar campos existentes clicando no ícone Copiar nos campos diretamente da tela.
+* **Copiar um campo**: agora é possível copiar campos existentes clicando no ícone Copiar nos campos diretamente da tela.
 
-* **Alterar o tamanho para Texto descritivo**: agora é possível atribuir tamanhos pequeno, médio ou grande a campos de texto Descritivo. Também é possível usá-los na mesma linha com outros campos.
+* **Alterar o tamanho do texto Descritivo**: agora é possível atribuir tamanhos pequeno, médio ou grande a campos de texto Descritivo. Também é possível usá-los na mesma linha com outros campos.
 
-* **Usar uma seção padrão**: se o criador do formulário não tiver adicionado uma seção na parte superior do formulário, uma seção Padrão agora estará visível na tela, para que os usuários possam ajustar as permissões para campos que não tenham uma seção personalizada atribuída.
+* **Usar uma seção Padrão**: se o criador do formulário não tiver adicionado uma seção na parte superior do formulário, uma seção Padrão agora estará visível na tela, para que os usuários possam ajustar as permissões para campos que não tenham uma seção personalizada atribuída.
 
   >[!NOTE]
   >
   >A seção Padrão não estará visível dentro dos objetos depois que o formulário for anexado ao objeto.
 
-* **Usar um campo Pesquisa externa**: esse tipo de campo chama uma API externa e retorna valores como opções em um campo suspenso.
+* **Usar um campo Pesquisa Externa**: esse tipo de campo chama uma API externa e retorna valores como opções em um campo suspenso.
 
 ## Funcionalidade removida do designer do formulário
 

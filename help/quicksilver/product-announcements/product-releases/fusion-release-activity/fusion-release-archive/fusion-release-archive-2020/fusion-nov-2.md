@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 2 de novembro de 2020.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Conector e módulos de alocação agora disponíveis
 
@@ -35,7 +35,7 @@ Com os módulos do Allocadia, você pode:
 * Criar, ler, atualizar ou excluir um registro de alocação
 * Executar uma chamada de API personalizada
 
-Para obter informações sobre módulos de alocação disponíveis, consulte [Alocar módulos](../../../../../workfront-fusion/apps-and-their-modules/allocadia-modules.md).
+Para obter informações sobre módulos de alocação disponíveis, consulte [Módulos de alocação](../../../../../workfront-fusion/apps-and-their-modules/allocadia-modules.md).
 
 ## Conector e módulos do DocuSign agora disponíveis (em breve)
 
@@ -49,4 +49,4 @@ Agora você pode usar o Workfront Fusion 2.0 para se conectar à sua conta do Do
 * Carregar um arquivo em um envelope
 * Executar uma chamada de API personalizada
 
-Para obter mais informações, consulte [Módulos do DocuSign](../../../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+Para obter mais informações, consulte [módulos do DocuSign](../../../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).

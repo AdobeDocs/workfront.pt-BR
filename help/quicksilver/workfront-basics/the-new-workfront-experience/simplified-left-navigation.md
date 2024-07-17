@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navegação à esquerda em [!DNL Adobe Workfront]
-description: O painel de navegação esquerdo em [!DNL Workfront] O facilita a navegação pelo sistema.
+description: O painel de navegação esquerdo do  [!DNL Workfront]  facilita a navegação pelo sistema.
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
@@ -17,13 +17,13 @@ ht-degree: 1%
 A maioria das áreas e objetos no WF usam um painel de navegação simples no lado esquerdo da tela. Estes são os benefícios da navegação no painel esquerdo:
 
 * Ele permite um melhor gerenciamento do espaço da tela.
-* Seu [!DNL Workfront] o administrador pode ocultar qualquer seção no painel esquerdo, exceto os detalhes do objeto usando modelos de layout.
+* O administrador do [!DNL Workfront] pode ocultar qualquer seção no painel esquerdo, exceto os detalhes do objeto, usando modelos de layout.
 
-   Para obter informações sobre como usar modelos de layout, consulte o artigo [Criar e gerenciar modelos de layout](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+  Para obter informações sobre como usar modelos de layout, consulte o artigo [Criar e gerenciar modelos de layout](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 * É possível alterar facilmente a ordem das seções na navegação à esquerda sem abrir telas adicionais, arrastando-as e soltando-as na ordem desejada.
 
-   Para obter mais informações, consulte a seguinte seção neste artigo: [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel).
+  Para obter mais informações, consulte a seguinte seção neste artigo: [Use o painel de navegação esquerdo](#use-the-left-navigation-panel).
 
 * Você pode personalizar o painel esquerdo adicionando um painel.
 
@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -48,7 +48,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
 
 ## Seções padrão no painel de navegação esquerdo
 
@@ -73,21 +73,21 @@ O painel esquerdo está disponível para os seguintes objetos:
 
 >[!IMPORTANT]
 >
->Se o painel esquerdo exibir apenas uma seção por padrão, como **[!UICONTROL Todos os Projetos]** no **[!UICONTROL Projetos]** área - a [!DNL Workfront] O administrador precisa adicionar pelo menos uma seção personalizada a esta área ao criar um modelo de layout e atribuir você a esse modelo antes que o painel esquerdo seja exibido nessa área.\
->Para obter informações sobre como uma [!DNL Workfront] administrador personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Se o painel esquerdo exibir apenas uma seção por padrão, como **[!UICONTROL Todos os projetos]** na área **[!UICONTROL Projetos]**, um administrador do [!DNL Workfront] deverá adicionar pelo menos uma seção personalizada a esta área ao criar um modelo de layout e atribuir você a esse modelo antes que o painel esquerdo seja exibido nessa área.\
+>Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 O painel esquerdo está disponível para as seguintes áreas:
 
-* [Seções padrão no [!UICONTROL Painéis] área](#default-sections-in-the-dashboards-area)
-* [Seções padrão no [!UICONTROL Solicitações] área](#default-sections-in-the-requests-area)
-* [Seções padrão no [!UICONTROL Recursos] área](#default-sections-in-the-resourcing-area)
-* [Seções padrão no [!UICONTROL Projetos] área](#default-sections-in-the-projects-area)
-* [Seções padrão no [!UICONTROL Planilhas de Horas] área](#default-sections-in-the-timesheets-area)
-* [Seções padrão no [!DNL Goals] área](#default-sections-in-the-goals-area)
+* [Seções padrão na área [!UICONTROL Painéis]](#default-sections-in-the-dashboards-area)
+* [Seções padrão na área [!UICONTROL Solicitações]](#default-sections-in-the-requests-area)
+* [Seções padrão na área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
+* [Seções padrão na área [!UICONTROL Projetos]](#default-sections-in-the-projects-area)
+* [Seções padrão na área [!UICONTROL Folhas de horas]](#default-sections-in-the-timesheets-area)
+* [Seções padrão na área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
-### Seções padrão no [!UICONTROL Painéis] área
+### Seções padrão na área [!UICONTROL Painéis]
 
-As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Painéis]** área:
+As seguintes seções são exibidas no painel esquerdo da área **[!UICONTROL Painéis]**:
 
 <table style="table-layout:auto">
     <tr>
@@ -106,7 +106,7 @@ As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Pain�
 
 Para saber como usar o painel esquerdo na área Painéis, consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
 
-### Seções padrão no [!UICONTROL Solicitações] área
+### Seções padrão na área [!UICONTROL Solicitações]
 
 <table style="table-layout:auto">
     <tr>
@@ -115,15 +115,15 @@ Para saber como usar o painel esquerdo na área Painéis, consulte a seção [Us
     </tr>
     <tr>
         <td><strong>[!UICONTROL Rascunhos]</strong></td>
-        <td>Exibe solicitações que você iniciou, mas que ainda não foram enviadas. [!DNL Workfront] O salva automaticamente qualquer nova solicitação na pasta Rascunhos após selecionar o tópico da fila.</td>
+        <td>Exibe solicitações que você iniciou, mas que ainda não foram enviadas. [!DNL Workfront] salva automaticamente qualquer nova solicitação na pasta Rascunhos, depois que você seleciona o tópico da fila.</td>
     </tr>
 </table>
 
-Para saber como usar o painel esquerdo na [!UICONTROL Solicitações] , consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
+Para saber como usar o painel esquerdo na área [!UICONTROL Solicitações], consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
 
-### Seções padrão no [!UICONTROL Recursos] área
+### Seções padrão na área [!UICONTROL Recursos]
 
-As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Recursos]** área:
+As seguintes seções são exibidas no painel esquerdo para a área **[!UICONTROL Recursos]**:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -131,30 +131,30 @@ As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Recur
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Planejador</strong></td> 
-   <td>Exibe o Planejador de recursos. Use essa área para planejar seus recursos em vários projetos. Para obter informações sobre como usar o Planejador de recursos, consulte <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Introdução ao planejamento de recursos</a>.</td> 
+   <td>Exibe o Planejador de recursos. Use essa área para planejar seus recursos em vários projetos. Para obter informações sobre como usar o Planejador de Recursos, consulte <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Introdução ao Planejamento de Recursos</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Balanceador de Carga de Trabalho]</strong></td> 
    <td>Exibe o Balanceador de carga de trabalho. Use essa área para atribuir trabalho real aos seus recursos. <br>
-   Para obter informações sobre o uso de recursos de programação, consulte <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Visão geral da atribuição de trabalho no Balanceador de carga de trabalho</a>.</td> 
+   Para obter informações sobre como usar recursos de agendamento, consulte <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Visão geral da atribuição de trabalho no Balanceador de carga de trabalho</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Utilização</strong></td> 
-   <td>Exibe o Relatório de Utilização. Para obter informações sobre como ler o Relatório de Utilização, consulte <a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Visão Geral do relatório de Utilização de Recursos</a>.</td> 
+   <td>Exibe o Relatório de Utilização. Para obter informações sobre como ler o Relatório de Utilização, consulte <a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Visão Geral do Relatório de Utilização de Recursos</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Conjuntos de Recursos</strong></td> 
-   <td>Exibe todos os Conjuntos de recursos no Workfront. Para obter informações sobre Conjuntos de recursos, consulte <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos conjuntos de recursos </a>.</td>
+   <td>Exibe todos os Conjuntos de recursos no Workfront. Para obter informações sobre Conjuntos de Recursos, consulte <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos conjuntos de recursos </a>.</td>
   </tr> 
  </tbody> 
 </table>
 
 
-Para saber como usar o painel esquerdo na [!UICONTROL Recursos] , consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
+Para saber como usar o painel esquerdo na área [!UICONTROL Recursos], consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
 
-### Seções padrão no [!UICONTROL Projetos] área
+### Seções padrão na área [!UICONTROL Projetos]
 
-As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Projetos]** área:
+As seções a seguir são exibidas no painel esquerdo da área **[!UICONTROL Projetos]**:
 
 <table style="table-layout:auto">
     <tr>
@@ -163,15 +163,15 @@ As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Proje
     </tr>
     <tr>
         <td><strong>[!UICONTROL Seções personalizadas]</strong></td>
-        <td>Você pode exibir todas as seções personalizadas que seu [!DNL Workfront] O administrador adicionou ao painel esquerdo da área [!UICONTROL Projetos] no Modelo de layout. As seções personalizadas têm nomes que foram personalizados para o seu ambiente.</td>
+        <td>Você pode exibir todas as seções personalizadas que o administrador do [!DNL Workfront] adicionou ao painel esquerdo para a área [!UICONTROL Projetos] no Modelo de Layout. As seções personalizadas têm nomes que foram personalizados para o seu ambiente.</td>
     </tr>
 </table>
 
-Para saber como usar o painel esquerdo na [!UICONTROL Projetos] , consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
+Para saber como usar o painel esquerdo na área [!UICONTROL Projetos], consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
 
-### Seções padrão no [!UICONTROL Planilhas de Horas] área
+### Seções padrão na área [!UICONTROL Folhas de horas]
 
-As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Planilhas de Horas]** área:
+As seguintes seções são exibidas no painel esquerdo para a área **[!UICONTROL Folhas de horas]**:
 
 <table style="table-layout:auto">
     <tr>
@@ -188,15 +188,15 @@ As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Plani
     </tr>
 </table>
 
-Para saber como usar o painel esquerdo na [!UICONTROL Planilhas de Horas] , consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
+Para saber como usar o painel esquerdo na área [!UICONTROL Folhas de horas], consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
 
-### Seções padrão no [!DNL Goals] área
+### Seções padrão na área [!DNL Goals]
 
 >[!NOTE]
 >
 >O acesso às metas do exige uma licença adicional. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Adobe Workfront Goals] visão geral](../../workfront-goals/goal-management/wf-goals-overview.md).
 
-As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Metas]** área:
+As seguintes seções são exibidas no painel esquerdo para a área **[!UICONTROL Metas]**:
 
 <table style="table-layout:auto">
     <tr>
@@ -205,11 +205,11 @@ As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Metas
     </tr>
     <tr>
         <td><strong>[!UICONTROL Gráficos]</strong></td>
-        <td>Exibe o desempenho de suas metas em gráficos. Para obter mais informações, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">Analisar gráficos para entender as tendências de progresso das metas no [!DNL Adobe Workfront] Metas</a>.</td>
+        <td>Exibe o desempenho de suas metas em gráficos. Para obter mais informações, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">Revisar gráficos para entender as tendências de progresso da meta em [!DNL Adobe Workfront] Metas</a>.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Alinhamento de Metas]</strong></td>
-        <td>Exibe o alinhamento das metas entre si em uma hierarquia. Para obter mais informações, consulte <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">Visão geral do alinhamento de metas no [!DNL Adobe Workfront Goals]</a>.</td>
+        <td>Exibe o alinhamento das metas entre si em uma hierarquia. Para obter mais informações, consulte <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">Visão geral do alinhamento da meta em [!DNL Adobe Workfront Goals]</a>.</td>
     </tr>
     </table>
 
@@ -230,7 +230,7 @@ As seções a seguir são exibidas no painel esquerdo para o **[!UICONTROL Metas
     </tr>
 </table>
 -->
-Para saber como usar o painel esquerdo na [!UICONTROL Metas] , consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
+Para saber como usar o painel esquerdo na área [!UICONTROL Metas], consulte a seção [Usar o painel de navegação esquerdo](#use-the-left-navigation-panel) neste artigo.
 
 ## Usar o painel de navegação esquerdo
 
@@ -238,14 +238,14 @@ Encontrar e editar informações no painel esquerdo é semelhante para esses obj
 
 Para saber quais seções estão disponíveis para áreas específicas, consulte [[!UICONTROL Seções padrão] no painel de navegação esquerdo](#default-sections-in-the-left-navigation-panel).
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon-16x12.png)e, em seguida, clique no nome de um objeto para acessá-lo.
+1. Clique no ícone ![](assets/main-menu-icon-16x12.png) do **[!UICONTROL Menu principal]** e clique no nome de um objeto para acessá-lo.
 
    A página do objeto é exibida.
 
-1. (Condicional) Se você selecionou uma área que contém uma lista de objetos, como **[!UICONTROL Projetos]** ou **[!UICONTROL Portfolio]**—você deve fazer o seguinte para acessar a navegação do painel esquerdo:
+1. (Condicional) Se você selecionou uma área que contém uma lista de objetos, como **[!UICONTROL Projetos]** ou **[!UICONTROL Portfolio]**, você deve fazer o seguinte para acessar a navegação no painel esquerdo:
 
    1. Clique em um objeto na lista.
-   1. (Opcional) Na navegação do painel esquerdo, é possível selecionar outro objeto, como **[!UICONTROL Tarefas]** ou **[!UICONTROL Problemas]** em um projeto — no painel esquerdo para acessar uma lista de objetos, em seguida, clique no nome do objeto específico.\
+   1. (Opcional) Na navegação do painel esquerdo, você pode selecionar outro objeto no painel esquerdo, como **[!UICONTROL Tarefas]** ou **[!UICONTROL Problemas]** em um projeto, para acessar uma lista de objetos e clicar no nome do objeto específico.\
 
       A página do objeto é exibida.
 
@@ -261,10 +261,10 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
    >
    >Essa opção não estará disponível se todas as seções forem exibidas no painel esquerdo por padrão.
 
-1. (Opcional) Para adicionar um link rápido do painel, clique em **[!UICONTROL Adicionar painel]** na parte inferior do painel esquerdo, faça o seguinte:
+1. (Opcional) Para adicionar um link rápido do painel, clique em **[!UICONTROL Adicionar painel]** na parte inferior do painel esquerdo e, em seguida, faça o seguinte:
 
-   1. Digite um nome para o painel no campo **[!UICONTROL Nome do link rápido]** campo.
-   1. Comece digitando o nome de um painel existente no **[!UICONTROL Escolher um painel]** e, em seguida, clique no painel quando ele for exibido na lista.
+   1. Digite um nome para o painel no campo **[!UICONTROL Nome do link rápido]**.
+   1. Comece digitando o nome de um painel existente no campo **[!UICONTROL Escolha um painel]** e clique no painel quando ele for exibido na lista.
 
       >[!TIP]
       >
@@ -274,12 +274,12 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
       O link do painel é exibido na parte inferior do painel esquerdo.
 
-1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no **[!UICONTROL Arrastar]** ícone ![](assets/drag-icon.png) à direita de uma seção e arraste-a para cima ou para baixo.
+1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone ![](assets/drag-icon.png) de **[!UICONTROL Arrastar]** à direita de uma seção e arraste-a para cima ou para baixo.
 
-   ![Arrastar uma seção](assets/drag-section-right.png)
+   ![Arraste uma seção](assets/drag-section-right.png)
 
-1. (Opcional) Para fechar o painel esquerdo, clique na guia **[!UICONTROL Recolher]** ícone ![](assets/left-panel-collapse-icon.png).
+1. (Opcional) Para fechar o painel esquerdo, clique no ícone ![](assets/left-panel-collapse-icon.png) de **[!UICONTROL Recolher]**.
 
    >[!NOTE]
    >
-   >Ao recolher o painel esquerdo, [!DNL Workfront] mantém sua preferência mesmo quando você navega para outro [!DNL Workfront] objeto. Para expandir o painel esquerdo novamente, clique no **[!UICONTROL Expandir]** ícone ![](assets/left-panel-expand-icon.png).
+   >Ao recolher o painel esquerdo, [!DNL Workfront] mantém sua preferência mesmo quando você navega para outro objeto [!DNL Workfront]. Para expandir o painel esquerdo novamente, clique no ícone **[!UICONTROL Expandir]** ![](assets/left-panel-expand-icon.png).

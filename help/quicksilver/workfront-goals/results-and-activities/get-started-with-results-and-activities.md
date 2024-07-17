@@ -33,7 +33,7 @@ Sua organização deve ter as seguintes opções para usar a funcionalidade desc
 
 Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 
-Ao criar uma meta, ela tem um status de Rascunho. Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+Ao criar uma meta, ela tem um status de Rascunho. Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 Para começar a registrar o progresso em uma meta, você deve ativá-la. Para ativar sua meta e alterar seu status para Ativo, primeiro adicione o seguinte a ela:
 
@@ -47,9 +47,9 @@ Depois que pelo menos um desses itens for adicionado, você poderá ativar a met
 
 >[!IMPORTANT]
 >
-> Uma meta não pode ter mais de 1.000 atividades, resultados, projetos ou metas alinhadas.</span>
+> Uma meta não pode ter mais de 1000 atividades, resultados, projetos ou metas alinhadas.</span>
 
-Este artigo fornece uma visão geral das atividades e dos resultados. Para obter informações sobre alinhamento de metas, consulte [Alinhamento de metas nas Metas do Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Para obter informações sobre como conectar projetos a metas, consulte [Adicionar projetos às metas no Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
+Este artigo fornece uma visão geral das atividades e dos resultados. Para obter informações sobre como alinhar metas, consulte [Alinhamento de meta em Metas do Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Para obter informações sobre como conectar projetos a metas, consulte [Adicionar projetos a metas no Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Visão geral dos resultados
 
@@ -76,7 +76,7 @@ Considere o seguinte ao trabalhar com resultados:
    * Número
    * Percentagem
 
-Para obter mais informações sobre resultados, consulte a lista de semelhanças entre resultados e atividades na seção [Semelhanças entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
+Para obter mais informações sobre resultados, consulte a lista de semelhanças entre resultados e atividades na seção [Similaridades entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
 
 ## Visão geral das atividades
 
@@ -115,13 +115,13 @@ Considere o seguinte ao associar atividades às suas metas:
 -->
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-Para obter mais informações sobre resultados e atividades, consulte a lista de semelhanças entre resultados e atividades na seção [Semelhanças entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
+Para obter mais informações sobre resultados e atividades, consulte a lista de semelhanças entre resultados e atividades na seção [Similaridades entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
 
 ## Semelhanças entre resultados, atividades e projetos {#similarities-between-results-activities-and-projects}
 
 Resultados, atividades e projetos são indicadores de progresso de metas.
 
-Há algumas diferenças no modo de gerenciar projetos em relação ao modo de gerenciar resultados e atividades. Para obter informações sobre como adicionar projetos às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Para obter informações sobre projetos conectados a metas, consulte [Adicionar projetos às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Há algumas diferenças no modo de gerenciar projetos em relação ao modo de gerenciar resultados e atividades. Para obter informações sobre como adicionar projetos às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Para obter informações sobre projetos conectados a metas, consulte [Adicionar projetos a metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 Além de resultados, atividades e projetos, você também pode associar metas secundárias a uma meta. As metas secundárias também são um tipo de indicador de progresso para uma meta. Para obter informações, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md). O progresso dos indicadores de progresso da meta secundária também orienta o progresso da meta principal.
 
@@ -140,7 +140,7 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td> <p><strong>Projetos</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td><span style="font-weight: normal;">É possível personalizar o nome do objeto na interface do Workfront</span> </td> 
+   <td><span style="font-weight: normal;">Você pode personalizar o nome do objeto na interface do Workfront</span> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 

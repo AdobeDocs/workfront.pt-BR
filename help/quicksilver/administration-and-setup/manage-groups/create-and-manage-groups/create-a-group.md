@@ -47,7 +47,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Criar um grupo de nível superior do zero
 
@@ -55,17 +55,17 @@ Essas etapas explicam como criar um novo grupo do zero. Para obter informações
 
 Você precisa ser um administrador do Workfront para criar um grupo de nível superior.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
-1. Acima da lista de grupos, clique em **Novo grupo**.
+1. Acima da lista de grupos, clique em **Novo Grupo**.
 
    >[!TIP]
    >
-   >Na parte inferior da lista de grupos, você também pode clicar em **Adicionar mais grupos** para adicionar um grupo em linha, clique em **Enter** quando terminar de adicionar as informações do grupo.
+   >Na parte inferior da lista de grupos, você também pode clicar em **Adicionar mais grupos** para adicionar um grupo incorporado e, em seguida, clicar em **Inserir** quando terminar de adicionar as informações do grupo.
 
-1. No **Novo grupo** que for exibida, digite um nome para o grupo.
+1. Na caixa **Novo Grupo** que é exibida, digite um nome para o grupo.
 1. Especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
@@ -82,7 +82,7 @@ Você precisa ser um administrador do Workfront para criar um grupo de nível su
      </tr> 
      <tr> 
       <td role="rowheader">Está ativo</td> 
-      <td> <p>(Ativado por padrão) Torna o grupo ativo na instância do Workfront.</p> <p>Em campos de digitação antecipada como o mostrado abaixo, quando os usuários regulares procuram um grupo para anexá-lo a um objeto ou compartilhar um objeto com ele, somente os grupos ativos são exibidos na lista.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para simplificar isso para seus usuários, você pode desativar a opção Está ativo para grupos que não estão em uso no momento.</p> <p>Você pode visualizar, filtrar e agrupar facilmente a lista Grupos com base no status ativo ou inativo usando esse campo. Para obter informações sobre o uso de exibições, filtros e agrupamentos em listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de relatórios: filtros, visualizações e agrupamentos</a>.</p> </td> 
+      <td> <p>(Ativado por padrão) Torna o grupo ativo na instância do Workfront.</p> <p>Em campos de digitação antecipada como o mostrado abaixo, quando os usuários regulares procuram um grupo para anexá-lo a um objeto ou compartilhar um objeto com ele, somente os grupos ativos são exibidos na lista.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para simplificar isso para seus usuários, você pode desativar a opção Está ativo para grupos que não estão em uso no momento.</p> <p>Você pode visualizar, filtrar e agrupar facilmente a lista Grupos com base no status ativo ou inativo usando esse campo. Para obter informações sobre como usar modos de exibição, filtros e agrupamentos em listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de relatório: filtros, modos de exibição e agrupamentos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tornar este grupo e seus subgrupos públicos</td> 
@@ -90,7 +90,7 @@ Você precisa ser um administrador do Workfront para criar um grupo de nível su
         <ul> 
          <li>Você não pode tornar um subgrupo público por si só, mas pode tornar público o grupo pai de nível superior, o que também torna públicos todos os subgrupos do pai.</li> 
          <li>Um subgrupo que pertence a um grupo público é público por padrão, portanto, qualquer usuário com acesso de usuário de edição também pode adicionar o subgrupo a outros usuários.</li> 
-        </ul> </p> <p>Se precisar de informações sobre o acesso necessário para editar usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>. Para obter informações sobre edição de usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar o perfil de um usuário</a>.</p> </td> 
+        </ul> </p> <p>Se precisar de informações sobre o acesso necessário para editar usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>. Para obter informações sobre como editar usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de usuário</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Líder de negócios </td> 
@@ -114,7 +114,7 @@ Você precisa ser um administrador do Workfront para criar um grupo de nível su
     </tbody> 
    </table>
 
-1. Clique em **Criar grupo**.
+1. Clique em **Criar Grupo**.
 
 ## Criar um grupo de nível superior copiando um grupo ou subgrupo existente {#create-a-top-level-group-by-copying-an-existing-group-or-subgroup}
 
@@ -127,14 +127,14 @@ Lembre-se do seguinte quando quiser fazer isso:
 
 Para criar um novo grupo de nível superior copiando um grupo ou subgrupo:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
    Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.
 
 1. Selecione o grupo que deseja copiar e clique no ícone Copiar ![](assets/copy-icon.png).
-1. No **Copiar grupo** que for exibida, digite uma **Nome do grupo** para o grupo copiado.
+1. Na caixa **Copiar Grupo** exibida, digite um **Nome de Grupo** para o grupo copiado.
 
 1. Especifique as seguintes informações:
 
@@ -152,7 +152,7 @@ Para criar um novo grupo de nível superior copiando um grupo ou subgrupo:
      </tr> 
      <tr> 
       <td role="rowheader">Está ativo</td> 
-      <td> <p>(Ativado por padrão) Torna o grupo ativo na instância do Workfront.</p> <p>Em campos de digitação antecipada como o mostrado abaixo, quando os usuários regulares procuram um grupo para anexá-lo a um objeto ou compartilhar um objeto com ele, somente os grupos ativos são exibidos na lista.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para simplificar isso para seus usuários, você pode desativar a opção Está ativo para grupos que não estão em uso no momento.</p> <p>Você pode visualizar, filtrar e agrupar facilmente a lista Grupos com base no status ativo ou inativo usando esse campo. Para obter informações sobre o uso de exibições, filtros e agrupamentos em listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Elementos de relatórios: filtros, visualizações e agrupamentos</a>.</p>  </td> 
+      <td> <p>(Ativado por padrão) Torna o grupo ativo na instância do Workfront.</p> <p>Em campos de digitação antecipada como o mostrado abaixo, quando os usuários regulares procuram um grupo para anexá-lo a um objeto ou compartilhar um objeto com ele, somente os grupos ativos são exibidos na lista.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para simplificar isso para seus usuários, você pode desativar a opção Está ativo para grupos que não estão em uso no momento.</p> <p>Você pode visualizar, filtrar e agrupar facilmente a lista Grupos com base no status ativo ou inativo usando esse campo. Para obter informações sobre como usar modos de exibição, filtros e agrupamentos em listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Elementos de relatório: filtros, modos de exibição e agrupamentos</a>.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tornar este grupo e seus subgrupos públicos</td> 
@@ -160,7 +160,7 @@ Para criar um novo grupo de nível superior copiando um grupo ou subgrupo:
         <ul> 
          <li>Você não pode tornar um subgrupo público por si só, mas pode torná-lo público, o que também torna públicos todos os subgrupos do pai.</li> 
          <li>Um subgrupo que pertence a um grupo público é público por padrão, portanto, qualquer usuário com acesso de usuário de edição também pode adicionar o subgrupo a outros usuários.</li> 
-        </ul> </p> <p>Se precisar de informações sobre o acesso necessário para editar usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Conceder acesso aos usuários</a>. Para obter informações sobre edição de usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Editar o perfil de um usuário</a>.</p> </td> 
+        </ul> </p> <p>Se precisar de informações sobre o acesso necessário para editar usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Conceder acesso aos usuários</a>. Para obter informações sobre como editar usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Editar perfil de usuário</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Líder de negócios </td> 
@@ -190,4 +190,4 @@ Para criar um novo grupo de nível superior copiando um grupo ou subgrupo:
    >* Se o grupo original tiver subgrupos, eles serão adicionados ao novo grupo e seus nomes serão, por padrão, &quot;O nome do subgrupo original (Copiar)&quot;.
    >* Você pode eliminar qualquer usuário ou subgrupo do grupo original clicando no X à direita do nome do usuário ou subgrupo.
 
-1. Clique em **Criar grupo**.
+1. Clique em **Criar Grupo**.

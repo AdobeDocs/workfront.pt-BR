@@ -31,9 +31,9 @@ Dependendo da área do Workfront na qual você acessa sua tarefa ou problema, o 
 
   >[!TIP]
   >
-  >Você pode substituir o botão Trabalhar nisso por um botão Iniciar. Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar, consulte  [Substitua o botão Trabalhar na tarefa por um botão Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >Você pode substituir o botão Trabalhar nisso por um botão Iniciar. Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar, consulte [Substituir o botão Trabalhar na tarefa por um botão Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-* Depois de clicar em Trabalhar nisto, você aceita, o botão muda para Marcar como concluído ou Concluído , dependendo de onde você acessa a tarefa ou o problema no Workfront. Para obter informações sobre onde você pode acessar o botão Trabalhar na tarefa, consulte a seção [Localize o botão Trabalhar na tarefa e concluído](#locate-the-work-on-it-and-done-button) neste artigo.
+* Depois de clicar em Trabalhar nisto, você aceita, o botão muda para Marcar como concluído ou Concluído , dependendo de onde você acessa a tarefa ou o problema no Workfront. Para obter informações sobre onde você pode acessar o botão Trabalhar na tarefa, consulte a seção [Localizar o botão Trabalhar na tarefa e Concluído](#locate-the-work-on-it-and-done-button) neste artigo.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
@@ -51,7 +51,7 @@ Dependendo da área do Workfront na qual você acessa sua tarefa ou problema, o 
 
 * No cabeçalho da tarefa ou problema
 
-  Para obter informações sobre os cabeçalhos de objetos, consulte [Novos cabeçalhos de objeto](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Para obter informações sobre os cabeçalhos de objetos, consulte [Novos cabeçalhos de objetos](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 * No painel Resumo de tarefas ou problemas em uma lista ou no Balanceador de carga de trabalho
 
@@ -61,7 +61,7 @@ Dependendo da área do Workfront na qual você acessa sua tarefa ou problema, o 
 
 A vantagem de usar os botões Trabalhar nisso e Concluído é que você pode permitir que o Workfront atualize automaticamente as informações sobre o item de trabalho atribuído a você.
 
-* [Botão Trabalhar na tarefa](#work-on-it-button)
+* [Botão Trabalhar nisto](#work-on-it-button)
 * [Botão Iniciar](#start-button)
 * [O botão Concluído](#the-done-button)
 
@@ -73,26 +73,26 @@ Ao clicar em Trabalhar nisso, os seguintes itens também são atualizados:
 
   >[!TIP]
   >
-  >O campo Status da Atribuição é visível somente em relatórios e listas. Para obter informações sobre o campo Status da Atribuição, consulte [Glossário da terminologia do Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >O campo Status da Atribuição é visível somente em relatórios e listas. Para obter informações sobre o campo Status da Atribuição, consulte o [Glossário da terminologia do Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Data de confirmação
 
-  Para obter informações sobre a data de confirmação, consulte [Visão geral da data de compromisso](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Para obter informações sobre a data de confirmação, consulte [Visão geral da Data de Confirmação](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ### Botão Iniciar {#start-button}
 
-Se você tiver acesso para editar equipes, poderá substituir o botão Trabalhar na equipe por um botão Iniciar para uma equipe. Quando usuários com essa equipe como sua Equipe inicial clicam no botão Iniciar em itens aos quais estão atribuídos, campos adicionais em seus itens de trabalho são atualizados automaticamente. Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar, consulte [Substitua o botão Trabalhar na tarefa por um botão Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Se você tiver acesso para editar equipes, poderá substituir o botão Trabalhar na equipe por um botão Iniciar para uma equipe. Quando usuários com essa equipe como sua Equipe inicial clicam no botão Iniciar em itens aos quais estão atribuídos, campos adicionais em seus itens de trabalho são atualizados automaticamente. Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar, consulte [Substituir o botão Trabalhar na tarefa por um botão Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 Além dos campos que são atualizados quando você clica no botão Trabalhar na tarefa, os seguintes campos são atualizados automaticamente em uma tarefa ou problema quando você clica no botão Iniciar:
 
 * Status
 * Data do Início Efetivo
 
-  Para obter informações sobre a Data Inicial Real, consulte [Visão Geral da Data de Início Efetivo do projeto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+  Para obter informações sobre a Data de Início Efetivo, consulte [Visão Geral da Data de Início Efetivo do projeto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 * Data de Término Real se o botão Iniciar estiver associado a um status que equivale a Concluído ou Fechado.
 
-  Para obter informações sobre a Data de Término Efetivo, consulte [Visão geral da Data de Término Efetivo do projeto](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+  Para obter informações sobre a Data de Término Efetivo, consulte [Visão Geral da Data de Término Efetivo do projeto](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 >[!NOTE]
 >

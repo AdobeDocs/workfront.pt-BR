@@ -61,9 +61,9 @@ Para desativar um formulário personalizado:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, escolha **Forms personalizado**.
-1. No **Forms** selecione o formulário personalizado que deseja desativar.
-1. Na coluna Está ativo, escolha **Falso** e clique em fora da coluna. O formulário não está mais ativo.
+1. No painel esquerdo, escolha **Forms Personalizado**.
+1. Na área **Forms**, selecione o formulário personalizado que deseja desativar.
+1. Na coluna Está ativo, escolha **Falso** e clique fora da coluna. O formulário não está mais ativo.
 
 ## Reativar um formulário personalizado
 
@@ -71,6 +71,6 @@ Se você reativar um formulário personalizado, ele manterá as configurações 
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, escolha **Forms personalizado**.
-1. No **Forms** selecione o formulário personalizado que deseja reativar.
-1. Na coluna Está ativo, escolha **True** e clique em fora da coluna. O formulário agora está ativo.
+1. No painel esquerdo, escolha **Forms Personalizado**.
+1. Na área **Forms**, selecione o formulário personalizado que deseja reativar.
+1. Na coluna Está ativo, escolha **Verdadeiro** e clique fora da coluna. O formulário agora está ativo.

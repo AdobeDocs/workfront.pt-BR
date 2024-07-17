@@ -1,35 +1,35 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Adicionar uma subtarefa a uma história existente no Quadro de crum
-description: Ao criar subtarefas para histórias existentes, lembre-se da configuração Modo de conclusão do projeto, pois isso afeta a forma como as histórias são atualizadas.
+title: Adicionar uma subtarefa a uma história existente no quadro Scrum
+description: Ao criar subtarefas para matérias existentes, lembre-se da configuração do Modo de conclusão do projeto, pois isso afeta a forma como as matérias são atualizadas.
 author: Lisa
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
-# Adicionar uma subtarefa a uma história existente no [!UICONTROL Scrum] quadro
+# Adicionar uma subtarefa a uma história existente no quadro [!UICONTROL Scrum]
 
-Ao criar subtarefas para histórias existentes, lembre-se do seguinte:
+Ao criar subtarefas para matérias existentes, lembre-se do seguinte:
 
-**Quando a variável [!UICONTROL Modo de conclusão] a configuração do projeto está definida como [!UICONTROL Manual]:**
+**Quando a configuração [!UICONTROL Modo de Conclusão] do projeto estiver definida como [!UICONTROL Manual]:**
 
-* Mover uma história pai com subtarefas para [!UICONTROL Concluído] atualiza a história pai para 100% e a variável [!UICONTROL Status] para [!UICONTROL Concluído]. Subtarefas não são atualizadas.
-* Para atualizar o [!UICONTROL Porcentagem concluída] para a história, você deve atualizá-la do [!UICONTROL Histórias] ou da guia [!UICONTROL Detalhes] página do objeto.
+* Mover uma matéria pai com subtarefas para [!UICONTROL Concluído] atualiza a matéria pai para 100% e o [!UICONTROL Status] para [!UICONTROL Concluído]. As subtarefas não são atualizadas.
+* Para atualizar o [!UICONTROL Percentual concluído] da matéria, atualize-o na guia [!UICONTROL Histórias] ou na página [!UICONTROL Detalhes] do objeto.
 
-**Quando a variável [!UICONTROL Modo de conclusão] a configuração do projeto está definida como [!UICONTROL Automático]**:
+**Quando a configuração [!UICONTROL Modo de Conclusão] do projeto estiver definida como [!UICONTROL Automático]**:
 
-* Mover uma história pai com subtarefas para [!UICONTROL Concluído] atualiza a história pai para 100% e a variável [!UICONTROL Status] para [!UICONTROL Concluído]. As subtarefas também são atualizadas para 100% e a variável [!UICONTROL Status] é atualizado para [!UICONTROL Concluído].
-* Para atualizar o [!UICONTROL Porcentagem concluída] para a história, você deve atualizar o [!UICONTROL Porcentagem concluída] para quaisquer subtarefas. O [!UICONTROL Porcentagem concluída] para a história é calculada com base na variável [!UICONTROL Porcentagem concluída] de todas as subtarefas.
+* Mover uma matéria pai com subtarefas para [!UICONTROL Concluído] atualiza a matéria pai para 100% e o [!UICONTROL Status] para [!UICONTROL Concluído]. Subtarefas também são atualizadas para 100% e o [!UICONTROL Status] é atualizado para [!UICONTROL Concluído].
+* Para atualizar o [!UICONTROL Percentual concluído] da matéria, você deve atualizar o [!UICONTROL Percentual concluído] para qualquer subtarefa. O [!UICONTROL Percentual concluído] da história é calculado com base no [!UICONTROL Percentual concluído] de todas as subtarefas.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,34 +39,34 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Trabalho] ou superior</p> </td> 
+   <td> <p>[!UICONTROL Work] ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Acesso ao [!UICONTROL Contribute] ou [!UICONTROL Gerenciar] para a tarefa na qual a subtarefa está</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Acesso à [!UICONTROL Contribute] ou [!UICONTROL Manage] para a tarefa em que a subtarefa está</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
-## Adicionar uma subtarefa a uma história existente no Quadro de crum
+## Adicionar uma subtarefa a uma história existente no quadro Scrum
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Equipes]**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Equipes]**.
 
-1. (Opcional) Clique no botão **[!UICONTROL Alterar equipe]** ícone ![Ícone Alternar equipe](assets/switch-team-icon.png)e, em seguida, selecione uma nova equipe de Soma no menu suspenso ou procure por uma equipe na barra de pesquisa.
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Vá para a iteração ágil ou o projeto que contém a história à qual deseja adicionar uma subtarefa. Para obter informações sobre como navegar para uma iteração, consulte [Exibir uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
-1. Vá para o bloco de história no quadro onde deseja adicionar uma subtarefa.
-1. Clique em **[!UICONTROL Adicionar Subtarefa]** no cartão da história principal para criar uma subtarefa para a história.
+1. Vá para a iteração ágil ou para o projeto que contém a matéria em que você deseja adicionar uma subtarefa. Para obter informações sobre como navegar para uma iteração, consulte [Exibir uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Vá para o bloco de matéria no storyboard onde deseja adicionar uma subtarefa.
+1. Clique em **[!UICONTROL Adicionar Subtarefa]** no cartão de história principal para criar uma subtarefa para a história.
 
    ![Adicionar subtarefa](assets/agile-story-addsubtask-NWE.png)
 
@@ -74,11 +74,11 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    Clique em **[!UICONTROL Adicionar Subtarefa]** em um bloco de subtarefa para criar uma subtarefa para a subtarefa.
 
-   [!DNL Workfront] O suporta níveis infinitos de subtarefas, mas apenas dois níveis (subtarefas de subtarefas) são exibidos no quadro de história ágil.
+   O [!DNL Workfront] oferece suporte a níveis infinitos de subtarefas, mas apenas dois níveis (subtarefas de subtarefas) são exibidos no storyboard Agile.
 
    ![Adicionar subtarefa](assets/agile-story-addsubtask2-NWE.png)
 
-   Ao adicionar uma subtarefa a uma história que atualmente não tem uma linha de expansão, a tarefa pai é promovida para o [!UICONTROL História principal] e a subtarefa se move dentro da faixa.
+   Ao adicionar uma subtarefa a uma história que atualmente não tem uma raia, a tarefa pai é promovida para a coluna [!UICONTROL História pai] e a subtarefa se move dentro da raia.
 
 1. Especifique as seguintes informações:
 
@@ -87,7 +87,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Nome da subtarefa]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Nome da Subtarefa]</strong></td>
       <td> Especifique um nome para a subtarefa.</td>
      </tr>
      <tr>
@@ -98,18 +98,18 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
       <td role="rowheader"><strong>[!UICONTROL Estimativa]</strong></td>
       <td>Especifique a estimativa para a subtarefa.<br><p>Lembre-se do seguinte ao criar estimativas:</p>
        <ul>
-        <li>Se sua equipe ágil estiver configurada para estimar histórias em pontos, então por padrão 1 ponto é igual a 8 horas. As estimativas são adicionadas como [!UICONTROL Horas planejadas] na história.</li>
-        <li>As estimativas combinadas para todas as subtarefas determinam a estimativa da história principal. Para obter mais informações, consulte <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">Atualize o status de histórias e subtarefas no quadro Soma</a>.</li>
-        <li>Ao criar uma nova subtarefa, o campo [!UICONTROL Estimativa] já está definido. Se você redefinir a estimativa na subtarefa, estará redefinindo a estimativa na história pai (porque a história pai é a soma de todas as suas subtarefas).</li>
+        <li>Se a sua equipe ágil estiver configurada para estimar histórias em pontos, por padrão, 1 ponto é igual a 8 horas. As estimativas são adicionadas como [!UICONTROL Horas planejadas] na história.</li>
+        <li>As estimativas combinadas de todas as subtarefas determinam a estimativa da matéria-prima. Para obter mais informações, consulte <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">Atualizar o status de histórias e subtarefas no quadro Scrum</a>.</li>
+        <li>Quando você cria uma nova subtarefa, o campo [!UICONTROL Estimativa] já está definido. Se você redefinir a estimativa na subtarefa, estará redefinindo a estimativa na matéria pai (porque a matéria pai é a soma de todas as suas subtarefas).</li>
        </ul><br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Horas planejadas]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Horas Planejadas]</strong></td>
       <td> (Disponível somente em projetos) Especifique o número de horas planejadas para a tarefa.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Atribuição]</strong></td>
-      <td>Comece digitando o nome da equipe à qual deseja atribuir a subtarefa e clique nele quando ele for exibido na lista suspensa.</td>
+      <td>Comece digitando o nome da equipe à qual deseja atribuir a subtarefa e clique nela quando ela aparecer na lista suspensa.</td>
      </tr>
     </tbody>
    </table>

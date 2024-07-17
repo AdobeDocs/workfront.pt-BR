@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas ao Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, nenhuma ação será necessária.
 >
->Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Os servidores do Adobe Workfront utilizam o protocolo SAML 2.0 para autenticação e autorização. Depois de atualizado, o novo certificado permanece válido por um ano. Quando for a hora de renovar o certificado em seu provedor de identidade, você receberá um aviso na Workfront alertando que essa alteração deve ocorrer. Como administrador do Workfront, você pode gerenciar essa alteração no nível do sistema.
 
@@ -72,13 +72,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Para revisar a mensagem de aviso e confirmar a atualização dos metadados do SAML 2.0 no provedor de identidade:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Sistema** > **Logon único**.
 
-1. No **Tipo** selecione **SAML 2.0**.
+1. No menu suspenso **Tipo**, selecione **SAML 2.0**.
 
-1. Clique em **Baixar os Metadados do SAML 2.0**.
+1. Clique em **Baixar SAML 2.0 Metadata**.
 
    Isso baixa o certificado Workfront renovado para SAML 2.0, que contém os metadados corretos para o servidor.
 
@@ -93,7 +93,7 @@ Para revisar a mensagem de aviso e confirmar a atualização dos metadados do SA
 
 1. No servidor do provedor de identidade, atualize o novo certificado baixado.
 1. (Condicional) Se o URL do Serviço de Cliente de Asserção (ACS) ou o URL de Resposta tiver sido alterado no provedor de identidade, altere-o de volta para o URL copiado na Etapa 5.
-1. No Workfront, no **Página de Logon Único (SSO)**, verifique se essa opção está selecionada: **O novo certificado do Workfront já foi carregado no Provedor de Identidade**.
+1. Na Workfront, na **página Logon Único (SSO)**, verifique se esta opção está selecionada: **O novo certificado do Workfront já foi carregado para o Provedor de Identidade**.
 
    >[!NOTE]
    >
@@ -107,8 +107,8 @@ Para revisar a mensagem de aviso e confirmar a atualização dos metadados do SA
 
    A mensagem de aviso não é mais exibida porque você confirmou a renovação do certificado SAML 2.0 no servidor do seu provedor de identidade.
 
-1. Clique em **Testar conexão** para testar sua configuração.
+1. Clique em **Testar Conexão** para testar sua configuração.
 
    Você deve ver uma mensagem confirmando que a conexão foi bem-sucedida.
 
-Para obter mais informações ou para obter assistência com a configuração manual dos metadados, entre em contato com nossa Equipe de suporte, conforme explicado em [Entre em contato com o Suporte ao cliente](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Para obter mais informações ou para obter assistência com a configuração manual de metadados, entre em contato com nossa Equipe de Suporte, conforme explicado em [Entre em contato com o Suporte ao Cliente](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

@@ -20,11 +20,11 @@ Esses webinários tiveram como foco as funcionalidades incluídas na versão 201
 
 A versão 2017.3 está disponível para teste na Pré-visualização; a versão 2017.3 estará disponível no ambiente de Produção em novembro de 2017.
 
-Para ver informações mais detalhadas sobre a funcionalidade abordada nos webinários, consulte o [Visão geral da atividade da versão 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md) página.
+Para exibir informações mais detalhadas sobre a funcionalidade abordada nos webinários, consulte a página [visão geral da atividade da versão 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 As seguintes gravações do webinário estão disponíveis:
 
-* [Webinário da versão 2017.3](#2017-3-release-webinar)
+* Webinar da Versão [2017.3](#2017-3-release-webinar)
 * [Versões de visualização de setembro do Workfront 2017.3](#workfront-2017-3-september-preview-releases)
 * [Webinário do Workfront 2017.3 Beta 1 e Beta 2](#workfront-2017-3-beta-1-and-beta-2-webinar)
 * [Webinário da versão móvel de agosto](#august-mobile-release-webinar)
@@ -38,11 +38,11 @@ Para maior comodidade, o webinário é dividido nos seguintes tópicos:
 * [Introdução](#introduction)
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Melhorias nos relatórios](#reporting-enhancements)
-* [Aprimoramentos Agile](#agile-enhancements)
+* [Melhorias Agile](#agile-enhancements)
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
 * [Aplicativos e integrações](#apps-and-integrations)
 * [Aprimoramentos de provas](#proofing-enhancements)
-* [Aprimoramentos na API](#api-enhancements)
+* [Melhorias na API](#api-enhancements)
 * [Conclusão](#conclusion)
 
 ## Versões de visualização de setembro do Workfront 2017.3 {#workfront-2017-3-september-preview-releases}
@@ -51,6 +51,6 @@ O webinário de Versões de visualização do Workfront 2017.3 de setembro foi a
 
 ## Webinário do Workfront 2017.3 Beta 1 e Beta 2 {#workfront-2017-3-beta-1-and-beta-2-webinar}
 
-O Webinário das Versões Beta 1 e Beta 2 do 2017.3 foi apresentado pela equipe de Preparação para a Versão do Workfront em 23 de agosto de 2017. Este webinário foca na nova funcionalidade que foi disponibilizada em Visualização durante o mês de agosto.
+O webinário da versão 2017.3 do Beta 1 e Beta 2 foi apresentado pela equipe de Disponibilidade de versão do Workfront em 23 de agosto de 2017. Este webinário foca na nova funcionalidade que foi disponibilizada em Visualização durante o mês de agosto.
 
 ## Webinário da versão móvel de agosto {#august-mobile-release-webinar}

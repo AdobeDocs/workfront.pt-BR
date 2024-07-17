@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período do segundo trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis com a versão do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão do Segundo trimestre de 2024, consulte [Visão geral da versão do Segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Atualizações de aparência para dois modelos de email
 

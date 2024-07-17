@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Os relatórios fornecem visibilidade sobre o que está acontecendo com os usuários e o trabalho. Com os relatórios, é possível exibir informações sobre objetos no Adobe Workfront.
 
-Para obter informações sobre como entender objetos e como eles podem ser relatados no aplicativo Workfront, consulte [Visão geral dos objetos do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obter informações sobre como entender objetos e como eles podem ser relatados no aplicativo Workfront, consulte [visão geral dos objetos do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Elementos do relatório
 
@@ -36,11 +36,11 @@ Os relatórios são uma combinação dos três elementos a seguir no Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Agrupamento</td> 
-   <td> <li>Categoriza as informações com base em informações comuns e lista os resultados do relatório em títulos.</li> <li>Para obter informações sobre agrupamentos, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Visão geral de agrupamentos no Adobe Workfront</a>.</li> </td> 
+   <td> <li>Categoriza as informações com base em informações comuns e lista os resultados do relatório em títulos.</li> <li>Para obter informações sobre agrupamentos, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Visão geral sobre agrupamentos no Adobe Workfront</a>.</li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filtro</td> 
-   <td> <li>Controla a quantidade de informações que aparece em um relatório.</li> <li>Para obter informações sobre filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Visão geral dos filtros</a>.</li> <li>Para obter informações sobre modificadores de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filtro e modificadores de condição</a>.</li> <li>É possível filtrar usando curingas, para tornar seus filtros mais gerais e dar a eles mais flexibilidade de uso.</li> <li>Para obter informações sobre o uso de curingas em filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variáveis de filtro curinga</a>.</li> </td> 
+   <td> <li>Controla a quantidade de informações que aparece em um relatório.</li> <li>Para obter informações sobre filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Visão geral sobre filtros</a>.</li> <li>Para obter informações sobre modificadores de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro e condição</a>.</li> <li>É possível filtrar usando curingas, para tornar seus filtros mais gerais e dar a eles mais flexibilidade de uso.</li> <li>Para obter informações sobre como usar curingas em filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variáveis de filtro curinga</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,12 +49,12 @@ Os relatórios são uma combinação dos três elementos a seguir no Workfront:
 >
 >Quando você seleciona um novo filtro, visualização ou agrupamento em uma lista, essa seleção é mantida mesmo se você sair do Workfront ou fechar o navegador.
 
-Para obter informações sobre elementos do relatório, consulte [Elementos de relatórios: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Para obter informações sobre elementos de relatório, consulte [Elementos de relatório: filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 Para aprimorar seus relatórios, você pode adicionar os seguintes elementos:
 
 * Um gráfico: uma representação visual dos resultados no relatório.\
-  Para obter informações sobre relatórios de gráficos, consulte [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Para obter informações sobre relatórios de gráfico, consulte [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 * Um agrupamento de matriz: resume as informações do relatório em um formato de tabela agregada.\
   Para obter informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
@@ -65,14 +65,14 @@ Para aprimorar seus relatórios, você pode adicionar os seguintes elementos:
 Ao criar um relatório, você pode modificar qualquer um desses elementos individualmente no Report Builder.
 
 Outra maneira de aprimorar a relevância das informações incluídas em seus relatórios é aplicar formatação condicional às suas visualizações.\
-Para obter informações sobre o uso de formatação condicional, consulte [Usar formatação condicional em exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Para obter informações sobre como usar a formatação condicional, consulte [Usar formatação condicional nas exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Relatórios do sistema
 
 O Workfront fornece vários relatórios de sistema que são carregados em seu sistema por padrão.\
 Depois de inserir informações em seu sistema, você pode usar esses relatórios para exibir as informações visualmente.
 
-Para obter mais informações sobre como acessar relatórios do sistema e quais relatórios do sistema estão disponíveis, consulte [Usar relatórios integrados do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+Para obter mais informações sobre como acessar relatórios do sistema e quais relatórios do sistema estão disponíveis, consulte [Usar relatórios internos do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
 ## Criar relatórios
 
@@ -82,21 +82,21 @@ Para criar um relatório, você pode executar um dos seguintes procedimentos:
 
 * Criar um relatório do zero.
 * Copie um relatório existente.\
-  Você deve ter pelo menos a permissão Exibir para copiar um relatório criado por outra pessoa. Para obter mais informações sobre a cópia de um relatório, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+  Você deve ter pelo menos a permissão Exibir para copiar um relatório criado por outra pessoa. Para obter mais informações sobre como copiar um relatório, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Para obter informações sobre como criar relatórios, consulte [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Para obter informações sobre como criar relatórios, consulte [Visão geral dos relatórios do calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ### Pré-requisitos para criar relatórios {#prerequisites-for-creating-reports}
 
 * Você deve ter uma licença Plan (licenças atuais) ou uma licença Standard (novas licenças) para criar seus próprios relatórios.\
-  Para obter informações sobre os tipos de licença do Workfront, consulte [Visão geral de licenças](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para as licenças atuais, e [Visão geral de novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) novas licenças.
+  Para obter informações sobre os tipos de licença da Workfront, consulte [Visão geral das licenças](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para as licenças atuais e [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para as novas licenças.
 
 * O administrador do Workfront deve fornecer acesso para Editar relatórios no seu nível de acesso.\
   Para obter informações sobre como conceder acesso a Editar relatórios, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * O administrador do Workfront deve fornecer acesso a Editar filtros, visualizações e agrupamentos no seu Nível de acesso.
 
-  Para obter informações sobre como conceder acesso a Editar filtros, exibições e agrupamentos, consulte [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Para obter informações sobre como conceder acesso a Editar filtros, exibições e agrupamentos, consulte [Conceder acesso a filtros, exibições e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Você deve definir um objeto sobre o qual deseja criar relatórios. Os relatórios são objetos específicos no Workfront e você deve começar selecionando um tipo de objeto antes de começar a criar o relatório. É possível criar relatórios somente sobre objetos disponíveis na interface do Workfront.
 
@@ -105,9 +105,9 @@ Para obter informações sobre como criar relatórios, consulte [Visão geral do
 Ao criar um relatório no Workfront, você se torna o proprietário padrão do relatório e ele é exibido na seção Meus relatórios. Não é possível alterar o proprietário de um relatório.
 
 Ao copiar um relatório, você automaticamente se torna o proprietário do relatório copiado.
-Para obter informações sobre a cópia de relatórios, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Para obter informações sobre como copiar relatórios, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Você pode ver quem é o proprietário de um relatório, revisando as **Cadastrado por** campo.
+Você pode ver quem possui um relatório revisando o campo **Informado por**.
 
 ![Campo Cadastrado por](assets/nwe-entered-by-350x218.png)
 
@@ -116,7 +116,7 @@ Você pode ver quem é o proprietário de um relatório, revisando as **Cadastra
 Recomendamos que você use a interface de criação de relatório primeiro para criar um novo relatório. A interface oferece um conjunto simplificado de ferramentas que orientam você na criação dos elementos necessários para criar o relatório. Você tem objetos e campos que podem ser selecionados em listas e adicionados a todos os seus elementos de relatórios.\
 Para obter mais informações sobre como criar relatórios na interface de criação de relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Para obter uma lista de objetos para os quais você pode criar relatórios, consulte [Relatório sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) no artigo [Visão geral dos objetos do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obter uma lista de objetos sobre os quais você pode criar relatórios, consulte a seção [Relatório sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) no artigo [visão geral sobre objetos do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Para obter mais informações sobre os campos que podem ser exibidos nos relatórios, consulte [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -125,7 +125,7 @@ Para obter mais informações sobre os campos que podem ser exibidos nos relató
 Às vezes, você pode não conseguir encontrar determinados campos na interface do construtor, mas eles podem estar disponíveis na API.\
 Para obter informações sobre quais campos estão disponíveis na API, consulte o artigo [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Para obter informações sobre como usar o API Explorer, consulte o artigo [Utilização do API Explorer](../../../wf-api/general/using-api-explorer.md).
+Para obter informações sobre como usar o API Explorer, consulte o artigo [Uso do API Explorer](../../../wf-api/general/using-api-explorer.md).
 
 >[!NOTE]
 >
@@ -143,20 +143,20 @@ Para obter mais detalhes sobre a sintaxe do Workfront para o modo de texto, cons
 
 Fora dos relatórios em campos que não estão disponíveis na interface do construtor, você pode usar o Modo de texto para exibir cálculos ou comparações entre determinados campos.
 
-Para obter uma lista dos usos mais comuns do Modo de texto em um relatório, consulte [Visão geral de usos comuns do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obter uma lista dos usos mais comuns do Modo de Texto em um relatório, consulte [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 Para obter informações sobre como incluir dados personalizados calculados em relatórios, consulte [Dados personalizados calculados em relatórios](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
 Para obter informações sobre a comparação de campos na formatação condicional, consulte [Comparar campos na formatação condicional](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
 Também é possível consultar campos de coleção usando o Modo de texto nos relatórios.\
-Para obter informações sobre como usar o Modo de texto para exibir informações de coleção em um relatório, consulte [Coleções de referência em um relatório](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Para obter informações sobre como usar o Modo de Texto para exibir informações de coleção em um relatório, consulte [Coleções de referência em um relatório](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 #### Amostras do modo de texto {#text-mode-samples}
 
 Temos uma biblioteca de amostras das exibições, filtros e agrupamentos mais usados que você pode criar com o Modo de texto.
 
-Para navegar nessa biblioteca e usar algumas das amostras que oferecemos, consulte o artigo [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Para navegar nesta biblioteca e usar algumas das amostras que oferecemos, consulte o artigo [Exibição personalizada, filtro e amostras de agrupamento: índice de artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## As guias de um relatório
 
@@ -183,7 +183,7 @@ Os relatórios que incluem um agrupamento têm uma guia Summary.
 
 As mesmas informações exibidas no formato de lista na guia Detalhes são resumidas e agregadas de acordo com os agrupamentos no relatório na guia Resumo.
 
-Para obter informações sobre agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obter informações sobre agrupamentos, consulte [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ### Guia Matriz {#matrix-tab}
 
@@ -222,7 +222,7 @@ Após criar um relatório, você pode compartilhá-lo com outros usuários.
 
 ### Conceder permissões de compartilhamento a um relatório {#give-sharing-permissions-to-a-report}
 
-Você pode conceder permissões de compartilhamento a outro usuário para que ele Visualize ou Gerencie um relatório que você criar. Você pode conceder a outro usuário um nível de permissões igual ou inferior ao seu. Você também pode tornar um relatório público usando permissões de compartilhamento. Para obter informações sobre o compartilhamento de um relatório, consulte [Compartilhar um relatório no Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+Você pode conceder permissões de compartilhamento a outro usuário para que ele Visualize ou Gerencie um relatório que você criar. Você pode conceder a outro usuário um nível de permissões igual ou inferior ao seu. Você também pode tornar um relatório público usando permissões de compartilhamento. Para obter informações sobre como compartilhar um relatório, consulte [Compartilhar um relatório no Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 ### Programar uma entrega de relatório {#schedule-a-report-delivery}
 
@@ -255,7 +255,7 @@ Você pode adicionar um relatório a um painel e compartilhar o painel com outro
 
 Se quiser exibir seus dados em um formato de calendário, crie calendários em vez de relatórios.
 
-Para obter informações sobre a criação e o uso de calendários, consulte [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Para obter informações sobre a criação e o uso de calendários, consulte [Visão geral dos relatórios do calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ## Uso do relatório
 
@@ -299,7 +299,7 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
   </tr> 
   <tr> 
    <td>Camel Case</td> 
-   <td> <p>Camel Case refere-se a uma maneira específica de escrever elementos de programação em strings com atributos de várias palavras. Ao soletrar um atributo em Camel Case, a primeira letra da primeira palavra é minúscula, não há espaço entre as palavras e a primeira letra de qualquer palavra subsequente é maiúscula.</p> <p>Por exemplo, o Grupo padrão seria escrito como <em>homeGroup</em>, o Conjunto de Recursos seria <em>resourcePool</em>, e a Data de Início Efetivo seria <em>atualStartDate</em>.</p> </td> 
+   <td> <p>Camel Case refere-se a uma maneira específica de escrever elementos de programação em strings com atributos de várias palavras. Ao soletrar um atributo em Camel Case, a primeira letra da primeira palavra é minúscula, não há espaço entre as palavras e a primeira letra de qualquer palavra subsequente é maiúscula.</p> <p>Por exemplo, o Grupo Padrão seria gravado como <em>homeGroup</em>, o Pool de Recursos seria <em>resourcePool</em> e a Data de Início Real seria <em>atualStartDate</em>.</p> </td> 
   </tr> 
   <tr> 
    <td>Gráfico</td> 
@@ -327,11 +327,11 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
   </tr> 
   <tr> 
    <td>Nome do Campo </td> 
-   <td>O valor de um atributo que é exibido em uma exibição ou usado na condição de um filtro ou como o elemento comum de um agrupamento. As opções para o Nome do campo dependem da seleção Origem do campo.</td> 
+   <td>O valor de um atributo que é exibido em uma exibição ou usado na condição de um filtro ou como o elemento comum de um agrupamento. As opções para o Nome do campo dependem da seleção Source do campo.</td> 
   </tr> 
   <tr> 
    <td>Origem do Campo </td> 
-   <td>O valor de um objeto exibido em uma exibição ou usado na condição de um filtro ou como o elemento comum de um agrupamento. As opções em Origem do campo dependem do tipo de objeto do elemento da interface que está sendo criada. A Origem do campo permite referenciar atributos de objetos diferentes do tipo de objeto do elemento da interface do usuário.</td> 
+   <td>O valor de um objeto exibido em uma exibição ou usado na condição de um filtro ou como o elemento comum de um agrupamento. As opções no Source de campo dependem do tipo de objeto do elemento da interface do usuário que está sendo criado. O Field Source permite referenciar atributos de objetos diferentes do tipo de objeto do elemento da interface do usuário.</td> 
   </tr> 
   <tr> 
    <td>Filtro</td> 
@@ -347,7 +347,7 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
   </tr> 
   <tr> 
    <td>Objeto ou Tipo de Objeto</td> 
-   <td> Um objeto é um elemento de aplicativo do Workfront (por exemplo, Projeto, Tarefa, Grupo, Empresa, Filtro). O Tipo de objeto é usado ao criar um novo relatório, visualização, filtro ou agrupamento para identificar qual objeto é o foco do relatório. Os relatórios podem ter apenas um tipo de objeto, que é o objeto principal do relatório.<br>Objetos pai podem ser referenciados no mesmo relatório.<br>Para obter mais informações sobre a hierarquia de objetos, consulte a seção "Entendendo a Interdependência e a Hierarquia de Objetos" no artigo <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Visão geral dos objetos do Adobe Workfront</a>.</td> 
+   <td> Um objeto é um elemento de aplicativo do Workfront (por exemplo, Projeto, Tarefa, Grupo, Empresa, Filtro). O Tipo de objeto é usado ao criar um novo relatório, visualização, filtro ou agrupamento para identificar qual objeto é o foco do relatório. Os relatórios podem ter apenas um tipo de objeto, que é o objeto principal do relatório.<br>Objetos pai podem ser referenciados no mesmo relatório.<br>Para obter mais informações sobre a hierarquia de objetos, consulte a seção "Entendendo a Interdependência e a Hierarquia de Objetos" no artigo <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">visão geral de objetos do Adobe Workfront</a>.</td> 
   </tr> 
   <tr> 
    <td>Prompt</td> 
@@ -360,7 +360,7 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
      <li>Na guia Filtro</li> 
      <li>A tela Opções Avançadas da coluna na guia Colunas (Exibir). Ao definir um qualificador, você pode comparar o Nome do Campo com outro campo ou valor.</li> 
      <li> Em um prompt personalizado<br><p>Para obter informações sobre prompts, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Adicionar um prompt a um relatório</a>.</p>.</li> 
-    </ul> <p>Por exemplo, ao criar um filtro para tarefas com uma Data de conclusão planejada de Hoje, você selecionaria <strong>Igual</strong> no campo Qualificador e na data de hoje no campo Data:</p> <p><em>Tarefa&gt; Data de conclusão planejada&gt;Igual&gt;(data de hoje)</em> </p> <p>Neste cenário, o Qualificador é <strong>Igual</strong>.<br>Para obter mais informações sobre qualificadores, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filtro e modificadores de condição</a>.</p> </td> 
+    </ul> <p>Por exemplo, ao criar um filtro para tarefas com uma Data de conclusão planejada de Hoje, você selecionaria <strong>Igual</strong> no campo Qualificador e a data de hoje no campo Data:</p> <p><em>Data de conclusão planejada&gt;(data de hoje)</em> </p> <p>Neste cenário, o Qualificador é <strong>Igual</strong>.<br>Para obter mais informações sobre qualificadores, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filtro e modificadores de condição</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Relatório </td> 

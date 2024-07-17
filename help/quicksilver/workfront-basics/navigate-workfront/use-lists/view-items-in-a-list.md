@@ -1,7 +1,7 @@
 ---
 navigation-topic: use-lists
-title: Introdução a listas em [!DNL Adobe Workfront]
-description: É possível exibir listas de objetos em [!DNL Adobe Workfront] para obter informações sobre eles, como datas de início e vencimento, usuários atribuídos a eles e outros objetos associados a eles.
+title: Introdução a listas em  [!DNL Adobe Workfront]
+description: Você pode exibir listas de objetos em  [!DNL Adobe Workfront]  para obter informações sobre eles, como suas datas de início e vencimento, usuários atribuídos a eles e outros objetos associados a eles.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
@@ -18,18 +18,18 @@ ht-degree: 0%
 {{highlighted-preview}}
 -->
 
-É possível exibir listas de objetos em [!DNL Adobe Workfront] para obter informações sobre eles, como datas de início e vencimento, usuários atribuídos a eles e outros objetos associados a eles.
+Você pode exibir listas de objetos em [!DNL Adobe Workfront] para obter informações sobre eles, como suas datas de início e vencimento, usuários atribuídos a eles e outros objetos associados a eles.
 
 Estas são algumas características das listas em [!DNL Workfront]:
 
 * As listas são atualizadas automaticamente a cada cinco minutos para atualizar as informações que outros usuários no sistema estão atualizando em outro lugar.
-* Algumas áreas em [!DNL Workfront] são pré-configuradas com listas de objetos padrão.
+* Algumas áreas no [!DNL Workfront] são pré-configuradas com listas de objetos padrão.
 
   Você pode personalizar a maioria dessas listas pré-configuradas.
 
-* A [!DNL Workfront] administrador pode criar listas personalizadas para aplicar a várias áreas do [!DNL Workfront].
+* Um administrador do [!DNL Workfront] pode criar listas personalizadas para serem aplicadas a várias áreas do [!DNL Workfront].
 
-  Para obter mais informações sobre como criar listas no nível do sistema, consulte o artigo [Criar, editar e compartilhar filtros, visualizações e agrupamentos padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  Para obter mais informações sobre como criar listas no nível do sistema, consulte o artigo [Criar, editar e compartilhar filtros, exibições e agrupamentos padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 ## Requisitos de acesso
 
@@ -49,20 +49,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL View] ou maior acesso a filtros, visualizações, agrupamentos</p> <P>Para itens na área [!UICONTROL Setup], você precisa de acesso administrativo para o item ou para o nível de acesso do [!UICONTROL System Administrator].</P> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso.<br>Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] ou maior acesso a filtros, visualizações, agrupamentos</p> <P>Para itens na área [!UICONTROL Setup], você precisa de acesso administrativo para o item ou para o nível de acesso do [!UICONTROL System Administrator].</P> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso.<br>Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Permissões da [!UICONTROL View] ou superior com acesso para compartilhar</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td>
+   <td> <p>Permissões da [!UICONTROL View] ou superior com acesso para compartilhar</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Listas de objetos
 
-Abaixo estão alguns tipos de listas de objetos que você pode encontrar [!DNL Workfront] e algumas das áreas onde são exibidos por padrão quando você tem direitos para visualizar um objeto.
+Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DNL Workfront] e algumas das áreas onde eles são exibidos por padrão quando você tem direitos para visualizar um objeto.
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar [!DNL W
     <ul> 
      <li class="preview"> <p>[!UICONTROL Configuração] &gt;[!UICONTROL Forms Personalizado]</p>
      <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>NOTA</b>: no momento, isso está disponível somente no ambiente de Pré-visualização</p> </li> 
+     <p><b>OBSERVAÇÃO</b>: está disponível no momento somente no ambiente de Visualização</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -255,7 +255,7 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar [!DNL W
  </tbody> 
 </table>
 
-Não é possível personalizar a lista na área especificada. A [!DNL Workfront] o administrador pode criar uma lista personalizada no nível do sistema, ou você pode criar um relatório para este objeto se seu nível de acesso permitir que você edite relatórios.
+Não é possível personalizar a lista na área especificada. Um administrador do [!DNL Workfront] pode criar uma lista personalizada no nível do sistema, ou você pode criar um relatório para este objeto se seu nível de acesso permitir que você edite relatórios.
 
 ## Listar elementos
 
@@ -263,7 +263,7 @@ Uma lista contém determinados elementos que definem seu formato e as informaç�
 
 >[!NOTE]
 >
->Quando você seleciona um novo filtro, visualização ou agrupamento em uma lista, essa seleção é mantida mesmo se você fizer logout do [!DNL Workfront] ou feche o navegador.
+>Quando você seleciona um novo filtro, exibição ou agrupamento em uma lista, essa seleção é mantida mesmo se você sair do [!DNL Workfront] ou fechar o navegador.
 
 A seguir estão os elementos de uma lista:
 
@@ -283,11 +283,11 @@ A seguir estão os elementos de uma lista:
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Exibir]</strong></td> 
-   <td> <p>As exibições definem quais campos (colunas) são exibidos na tela.</p> <p>Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das exibições em [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>As exibições definem quais campos (colunas) são exibidos na tela.</p> <p>Para obter mais informações, consulte Visão geral das <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Exibições em [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Agrupamento]</strong></td> 
-   <td> <p>Agrupamentos separam os objetos na lista em áreas com base nos critérios que você especifica.</p> <p>Por exemplo, os problemas em uma lista podem ser exibidos em seções por status ou prioridade.</p> <p>É possível ter até três camadas de agrupamentos em um agrupamento padrão e adicionar uma quarta camada ao configurar um agrupamento no modo de texto.</p> <p>Para obter mais informações sobre agrupamentos, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Visão geral de agrupamentos em [!DNL Adobe Workfront]</a>.</p> <p>Para obter mais informações sobre o modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Visão geral do modo de texto</a>.</p> </td> 
+   <td> <p>Agrupamentos separam os objetos na lista em áreas com base nos critérios que você especifica.</p> <p>Por exemplo, os problemas em uma lista podem ser exibidos em seções por status ou prioridade.</p> <p>É possível ter até três camadas de agrupamentos em um agrupamento padrão e adicionar uma quarta camada ao configurar um agrupamento no modo de texto.</p> <p>Para obter mais informações sobre agrupamentos, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Visão geral dos agrupamentos em [!DNL Adobe Workfront]</a>.</p> <p>Para obter mais informações sobre o modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Visão geral do Modo de Texto</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,12 +298,12 @@ Esses elementos são exibidos na parte superior de cada lista por padrão. Eles 
 
 Você pode personalizar elementos de lista nas seguintes áreas e compartilhá-los com outros usuários:
 
-* Qualquer lista padrão de sistema encontrada na seção [Introdução a listas em [!DNL Adobe Workfront]](#default-workfront-lists) neste artigo
+* Qualquer lista padrão do sistema encontrada na seção [Introdução às listas em [!DNL Adobe Workfront]](#default-workfront-lists) neste artigo
 * Qualquer relatório compartilhado com você
 
 Os elementos de construção para listas são os mesmos que os elementos de construção para relatórios.
 
-Para obter mais informações sobre como criar e personalizar os elementos de construção de listas e relatórios, consulte [Elementos de relatórios: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Para obter mais informações sobre como criar e personalizar os elementos de criação de listas e relatórios, consulte [Elementos de relatório: filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Listar ações
 
@@ -320,16 +320,16 @@ Você pode concluir as seguintes ações em uma lista:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Edição em linha</strong> </td> 
-   <td> <p>Editar objetos e suas informações diretamente na lista.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Itens de edição em linha em uma lista no [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td><strong>Edição integrada</strong> </td> 
+   <td> <p>Editar objetos e suas informações diretamente na lista.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">itens de edição em linha em uma lista em [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Atualizar com o [!UICONTROL Resumo]</strong> </td> 
-   <td> <p>Atualizar tarefas e problemas no nível do projeto usando o painel [!UICONTROL Resumo].</p> <p>Dica: o Resumo não está disponível para todos os objetos e não está disponível nos relatórios de Tarefas ou Problemas.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Visão geral do resumo</a>.</p> </td> 
+   <td> <p>Atualizar tarefas e problemas no nível do projeto usando o painel [!UICONTROL Resumo].</p> <p>Dica: o Resumo não está disponível para todos os objetos e não está disponível nos relatórios de Tarefas ou Problemas.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Resumo geral</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Personalizar exibição de lista</strong> </td> 
-   <td> <p>Personalize a aparência de uma lista, a organização da coluna, a ordem de classificação dos itens ou o número de itens exibidos.</p> <p>Observação: as alterações feitas no número de itens a serem exibidos em uma página são revertidas quando você efetua logout do [!DNL Workfront] ou feche o navegador. As alterações também podem ser revertidas após um período de 8 horas.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modificar como uma lista é exibida</a>.</p> </td> 
+   <td> <p>Personalize a aparência de uma lista, a organização da coluna, a ordem de classificação dos itens ou o número de itens exibidos.</p> <p>Observação: as alterações feitas no número de itens a serem exibidos em uma página são revertidas quando você sai do [!DNL Workfront] ou fecha o navegador. As alterações também podem ser revertidas após um período de 8 horas.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modificar como uma lista é exibida</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Filtro rápido</strong> </td> 
@@ -337,7 +337,7 @@ Você pode concluir as seguintes ações em uma lista:
   </tr> 
   <tr> 
    <td><strong>Exportar</strong> </td> 
-   <td> <p>Exportar uma lista de objetos de [!DNL Workfront]. Quando uma lista contém mais de 2000 itens, exportar a lista é a única maneira de revisar todos os itens em uma página.</p> <p>Para obter mais informações sobre a exportação de uma lista, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Exportar uma lista</a>. Para obter mais informações sobre formatos e limites de exportação, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportar dados</a>.</p> </td> 
+   <td> <p>Exportar uma lista de objetos de [!DNL Workfront]. Quando uma lista contém mais de 2000 itens, exportar a lista é a única maneira de revisar todos os itens em uma página.</p> <p>Para obter mais informações sobre como exportar uma lista, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Exportar uma lista</a>. Para obter mais informações sobre formatos e limites de exportação, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportar dados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -449,12 +449,12 @@ A tabela a seguir lista muitos dos ícones disponíveis na barra de ferramentas 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Resumo]</td> 
-   <td> <p>Exibir ou ocultar a caixa [!UICONTROL Resumo] do item selecionado.</p> <p>Isso está disponível somente para tarefas e problemas.</p> <p>Para obter informações sobre o painel [!UICONTROL Resumo] no novo [!DNL Adobe Workfront] consulte <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Visão geral do resumo</a>.</p> </td> 
+   <td> <p>Exibir ou ocultar a caixa [!UICONTROL Resumo] do item selecionado.</p> <p>Isso está disponível somente para tarefas e problemas.</p> <p>Para obter informações sobre o painel [!UICONTROL Resumo] na nova experiência [!DNL Adobe Workfront], consulte <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Visão geral do resumo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>[!UICONTROL Remover]</td> 
-   <td>Remover algo da lista. Por exemplo, como um administrador de grupo que gerencia associações de grupo ou de subgrupo, remova um membro do grupo, conforme explicado em <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Exibir e gerenciar associações de um grupo</a>.</td> 
+   <td>Remover algo da lista. Por exemplo, como um administrador de grupo gerenciando associações de grupo ou subgrupo, remova um membro do grupo conforme explicado em <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Exibir e gerenciar as associações de um grupo</a>.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
@@ -484,11 +484,11 @@ A tabela a seguir descreve as semelhanças e diferenças entre listas e relatór
  <tbody> 
   <tr> 
    <td> <p>Qualquer pessoa pode criá-los</p> </td> 
-   <td><span>✓ µ*</span> </td> 
+   <td>✓ <span>*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Somente um [!DNL Workfront] administrador e usuários com uma licença do [!UICONTROL Plan] podem criá-los</p> </td> 
+   <td> <p>Somente um administrador [!DNL Workfront] e usuários com uma licença de [!UICONTROL Plan] podem criá-los</p> </td> 
    <td> </td> 
    <td>✓ ➡**</td> 
   </tr> 
@@ -523,7 +523,7 @@ A tabela a seguir descreve as semelhanças e diferenças entre listas e relatór
    <td>✓ µ </td> 
   </tr> 
   <tr> 
-   <td> <p>É possível exportar para .pdf, [!DNL Excel]e formatos delimitados por tabulação</p> </td> 
+   <td> <p>É possível exportar para formatos .pdf, [!DNL Excel] e Delimitado por tabulação</p> </td> 
    <td>✓ µ</td> 
    <td> ✓ µ </td> 
   </tr> 
@@ -575,7 +575,7 @@ Você pode personalizar listas para relatórios que são colocados em um painel 
 >
 >Não é possível adicionar uma lista a um painel sem criar um relatório e adicioná-lo ao painel primeiro.
 
-Para obter mais informações sobre criação de relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obter informações sobre como criar seções personalizadas, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+Para obter mais informações sobre a criação de um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obter informações sobre como criar seções personalizadas, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 ## A diferença entre as listas atualizadas e herdadas
 
@@ -593,10 +593,10 @@ Ambos os tipos de listas aparecem no [!DNL Adobe Workfront].
 
 Todas as listas e relatórios no [!DNL Adobe Workfront] são listas atualizadas, exceto para o seguinte:
 
-* Listas na [!UICONTROL Configuração] área
-* Listas na [!UICONTROL Relatórios] área
+* Listas na área [!UICONTROL Configuração]
+* Listas na área [!UICONTROL Relatórios]
 
-A tabela a seguir mostra algumas das diferenças entre as listas herdadas e atualizadas no [!DNL Workfront]:
+A tabela a seguir mostra algumas das diferenças entre as listas herdadas e atualizadas em [!DNL Workfront]:
 
 <!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>

@@ -144,19 +144,19 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
     </tr>
 </table>
 
-&#42; Os usuários com uma licença de Colaborador podem exibir somente relatórios, painéis e calendários compartilhados com eles.
+&#42; usuários com uma licença de Colaborador podem exibir somente relatórios, painéis e calendários compartilhados com eles.
 
 >[!NOTE]
 >
->Os usuários com uma licença Light ou de Colaborador têm recursos de compartilhamento limitados. Para obter mais informações, consulte [Visão geral de licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Os usuários com uma licença Light ou de Colaborador têm recursos de compartilhamento limitados. Para obter mais informações, consulte [Visão geral das licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
 >Usuários externos não podem pesquisar itens no Workfront. Eles podem exibir documentos e calendários compartilhados especificamente com eles. Eles também podem ver os usuários que compartilham itens com eles.
 
 Você pode encontrar informações detalhadas sobre o que os níveis de acesso permitem para cada objeto e área nos seguintes artigos:
 
 * [Conceder acesso aos projetos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
-* [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Conceder acesso a problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Conceder acesso às tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
+* [Conceder acesso aos problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Conceder acesso a documentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [Conceder acesso aos portfólios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
 * [Conceder acesso aos programas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
@@ -166,6 +166,6 @@ Você pode encontrar informações detalhadas sobre o que os níveis de acesso p
 * [Conceder acesso às equipes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Conceder acesso aos modelos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* [Conceder acesso ao Gerenciamento de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Conceder acesso ao Gerenciamento de Recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Conceder acesso ao Planejador de cenários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Conceder acesso ao Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

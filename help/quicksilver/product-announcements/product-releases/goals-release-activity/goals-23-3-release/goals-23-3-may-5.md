@@ -6,10 +6,10 @@ title: Atividade de lançamento do Adobe Workfront Goals 23.3 Semana de 1 de mai
 description: Esta página descreve todas as melhorias feitas na versão 23.3 do Adobe Workfront Goals para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 1º de maio de 2023.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+exl-id: 1e85b9d2-f9a5-4cdd-b805-78ab35230817
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---

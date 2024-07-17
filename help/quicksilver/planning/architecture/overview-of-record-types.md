@@ -26,12 +26,12 @@ Os tipos de objeto do Workfront Planning são chamados de &quot;tipos de registr
 
 No Workfront Planning, você pode criar tipos de registros personalizados que atendam às necessidades da sua organização.
 
-Para obter informações sobre a criação de tipos de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+Para obter informações sobre como criar tipos de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Quando você cria um espaço de trabalho a partir de um gabarito, os tipos de registro são criados nas seguintes seções do espaço de trabalho:
 
-   * **Tipos de Registro Operacional**: Tipos de registros que representam planos estratégicos, iniciativas ou trabalho planejado. Por exemplo, Campanha, Atividade, Tática e Oportunidade são tipos de registro operacional.
-   * **Taxonomias**: Tipos de registro que capturam atributos sobre um tipo de registro operacional. Por exemplo, Região, Endereço e Público são taxonomias.
+   * **Tipos de Registros Operacionais**: Tipos de registros que representam planos estratégicos, iniciativas ou trabalho planejado. Por exemplo, Campanha, Atividade, Tática e Oportunidade são tipos de registro operacional.
+   * **Taxonomias**: tipos de registro que capturam atributos sobre um tipo de registro operacional. Por exemplo, Região, Endereço e Público são taxonomias.
 
 * Ao criar um tipo de registro em um espaço de trabalho criado do zero, você pode colocar o tipo de registro em qualquer seção criada no espaço de trabalho.
 * Ao criar um tipo de registro, somente você e aqueles a quem você conceder permissões para acessar o espaço de trabalho poderão exibir o tipo de registro.

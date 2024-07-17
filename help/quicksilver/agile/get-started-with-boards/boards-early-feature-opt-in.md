@@ -2,8 +2,8 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Aceitação antecipada de recursos para [!DNL Adobe Workfront] Quadros
-description: Leia este artigo para saber mais sobre [!DNL Workfront Boards] aceitação antecipada de recursos.
+title: Aceitação antecipada de recursos para  [!DNL Adobe Workfront] Quadros
+description: Leia este artigo para saber mais sobre a [!DNL Workfront Boards] aceitação antecipada de recursos.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Aceitação antecipada de recursos para [!DNL Adobe Workfront] [!UICONTROL Quadros]
 
-A aceitação antecipada de recursos para [!DNL Adobe Workfront] [!UICONTROL Quadros] foi lançado em julho de 2022.
+A aceitação antecipada de recursos para os [!DNL Adobe Workfront] [!UICONTROL Quadros] foi iniciada em julho de 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] são ferramentas flexíveis que permitem a colaboração em equipe, fornecendo acesso a um quadro compartilhado que contém colunas e cartões.
 
-Para obter informações gerais sobre quadros, consulte [[!UICONTROL Quadros] visão geral](/help/quicksilver/agile/boards-overview.md).
+Para obter informações gerais sobre painéis, consulte [[!UICONTROL Painéis] visão geral](/help/quicksilver/agile/boards-overview.md).
 
 ## Recursos
 
@@ -49,7 +49,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com o s
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Criar cartões conectados ao [!DNL Workfront] objetos</td>
+   <td>Criar cartões conectados a [!DNL Workfront] objetos</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -191,40 +191,40 @@ Os recursos iniciais dos conselhos de administração estão disponíveis para t
 
 ### Opção de participação
 
-Somente [!DNL Workfront] os administradores podem optar pelos recursos antecipados dos painéis de discussão. Quando um [!DNL Workfront] o administrador habilita recursos antecipados, todos os usuários na organização são aceitos.
+Somente administradores do [!DNL Workfront] podem aceitar os recursos antecipados para quadros. Quando um administrador do [!DNL Workfront] habilita recursos antecipados, todos os usuários na organização são aceitos.
 
 {{step1-to-boards}}
 
 1. Clique em ![Aceitação antecipada de recursos](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Aceitação antecipada de recursos]) na parte superior da tela do painel.
-1. Clique em **[!UICONTROL Ativar]**.
+1. Clique em **[!UICONTROL Habilitar]**.
 1. Comece a usar os recursos iniciais dos quadros.
 
 ## Enviar feedback
 
-1. Em um quadro, clique no botão **[!UICONTROL Feedback]** botão.
+1. Em um quadro, clique no botão **[!UICONTROL Feedback]**.
 1. Preencha o formulário e clique em **[!UICONTROL Enviar]**.
 
 ## Perguntas frequentes sobre a adesão antecipada aos recursos
 
 ### Como sei se minha organização optou pelos recursos iniciais?
 
-Entre em contato com [!DNL Workfront] administrador para descobrir se eles habilitaram recursos antecipados para placas.
+Contate o administrador do [!DNL Workfront] para saber se ele habilitou recursos antecipados para quadros.
 
 ### Os recursos antecipados podem ser habilitados somente para determinados usuários?
 
-Quando a variável [!DNL Workfront] o administrador habilita recursos antecipados para quadros; todos os usuários na organização são aceitos.
+Quando o administrador do [!DNL Workfront] habilita recursos antecipados para quadros, todos os usuários na organização são aceitos.
 
-No entanto, a [!DNL Workfront] O administrador pode ocultar a opção Quadros da variável [!UICONTROL Menu principal] para usuários individuais ou grupos de usuários com um modelo de layout. Para obter informações, consulte [Personalize o [!UICONTROL Menu principal] uso de um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+No entanto, o administrador do [!DNL Workfront] pode ocultar a opção Quadros do [!UICONTROL Menu Principal] para usuários individuais ou grupos de usuários com um modelo de layout. Para obter informações, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->Isso não impede que os usuários acessem quadros usando um URL. Isso só os impede de ver o [!DNL Boards] opção no [!UICONTROL Menu principal].
+>Isso não impede que os usuários acessem quadros usando um URL. Isso só impede que eles vejam a opção [!DNL Boards] no [!UICONTROL Menu Principal].
 
 ### Posso recusar os recursos iniciais depois de entrar?
 
-Somente [!DNL Workfront] os administradores podem recusar o recebimento de recursos antecipados. Se um [!DNL Workfront] O administrador desativa os recursos iniciais, todos os usuários na organização optam por não participar.
+Somente [!DNL Workfront] administradores podem recusar o recebimento de recursos antecipados. Se um administrador do [!DNL Workfront] desabilitar os recursos anteriores, todos os usuários na organização serão recusados.
 
 {{step1-to-boards}}
 
 1. Clique em ![Aceitação antecipada de recursos habilitada](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Aceitação antecipada de recursos habilitada]) na parte superior da tela do painel.
-1. Clique em **[!UICONTROL Desativar]**.
+1. Clique em **[!UICONTROL Desabilitar]**.

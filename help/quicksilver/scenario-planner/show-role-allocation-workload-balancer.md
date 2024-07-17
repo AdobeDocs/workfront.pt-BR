@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Mostrar alocação de funções para projetos e iniciativas na [!UICONTROL Balanceador de carga de trabalho]
+# Mostrar alocação de funções para projetos e iniciativas no [!UICONTROL Balanceador de Carga de Trabalho]
 
 >[!IMPORTANT]
 >
->Sua organização deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] para que você possa exibir as informações da iniciativa em um projeto. Para obter mais informações sobre como obter a [!DNL Workfront Scenario Planner], consulte [Acesso necessário para usar o [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+>Sua organização deve adquirir uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] para que você possa exibir informações de iniciativa em um projeto. Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte [Acesso necessário para usar o [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Depois de conectar projetos e iniciativas, é possível gerenciar a alocação de recursos lado a lado para garantir que eles correspondam. Isso evita a superalocação ou a subutilização deles.
 
-Este artigo descreve como reconciliar recursos usando o [!UICONTROL Alocação de função] painel no [!UICONTROL Balanceador de carga de trabalho] de um projeto.
+Este artigo descreve como reconciliar recursos usando o painel [!UICONTROL Alocação de função] no [!UICONTROL Balanceador de carga de trabalho] de um projeto.
 
 Para obter informações gerais sobre como reconciliar recursos entre projetos e iniciativas, incluindo pré-requisitos, consulte [Visão geral da reconciliação de alocações de recursos entre projetos e iniciativas](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
@@ -43,29 +43,29 @@ Você precisa seguir:
   </tr> 
   <tr> 
    <td><b>Produto</b> </td> 
-   <td> <p>Você deve adquirir uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] para acessar a funcionalidade descrita neste artigo.</p> <p>Para obter mais informações sobre como obter a [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>[!UICONTROL View] ou acesso superior a Projetos </p> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] ou acesso superior a Projetos </p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>[!UICONTROL Exibir] ou permissões superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md">[!UICONTROL Solicitação] acesso a um plano na [!DNL Workfront Scenario Planner]</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional a um projeto, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>. </p> </td> 
+   <td> <p>[!UICONTROL Exibir] ou permissões superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md">[!UICONTROL Solicitação] acesso a um plano no [!DNL Workfront Scenario Planner]</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional a um projeto, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
-## Mostrar alocação de funções para projetos e iniciativas na [!UICONTROL Balanceador de carga de trabalho]
+## Mostrar alocação de funções para projetos e iniciativas no [!UICONTROL Balanceador de Carga de Trabalho]
 
-Se sua empresa adquiriu um [!DNL Workfront Scenario Planner] é possível reconciliar as alocações de recursos entre a iniciativa e o projeto vinculado a ela no nível do projeto [!UICONTROL Balanceador de carga de trabalho].
+Se sua empresa adquiriu uma licença [!DNL Workfront Scenario Planner], é possível reconciliar as alocações de recursos entre a iniciativa e o projeto vinculado a ela no [!UICONTROL Balanceador de carga de trabalho] no nível do projeto.
 
 1. (Condicional) Conecte um projeto a uma iniciativa usando um dos métodos descritos nos seguintes artigos:
 
-   * [Importar projetos para planos na [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md).
-   * [Atualizar ou criar projetos publicando iniciativas no [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md).
+   * [Importe projetos para planos no [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md).
+   * [Atualize ou crie projetos publicando iniciativas em  [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md).
 
    >[!IMPORTANT]
    >
@@ -74,26 +74,26 @@ Se sua empresa adquiriu um [!DNL Workfront Scenario Planner] é possível reconc
 1. Acesse o projeto em que deseja revisar a alocação de funções de trabalho para o projeto, bem como para a iniciativa associada.
 1. Clique em [!UICONTROL Balanceador de carga de trabalho] no painel esquerdo.
 
-   Talvez seja necessário clicar em **[!UICONTROL Agendamento]**, depois **[!UICONTROL Alternar para o Balanceador de carga de trabalho]**.
+   Talvez seja necessário clicar em **[!UICONTROL Agendamento]** e em **[!UICONTROL Alternar para Balanceador de Carga de Trabalho]**.
 
 1. Siga um destes procedimentos:
 
-   * Clique em **[!UICONTROL Month]** para exibir o Balanceador de carga de trabalho por mês, clique no menu suspenso ao lado de um mês na linha do tempo ![](assets/drop-down-next-to-month-month-view-wb.png)e, em seguida, clique em **[!UICONTROL Mais]**.
-   * Clique em **[!UICONTROL Mostrar alocação de funções]** ícone ![](assets/show-role-allocation-icon.png) no canto superior direito da barra de ferramentas.
+   * Clique em **[!UICONTROL Mês]** para exibir o Balanceador de Carga de Trabalho por mês, clique no menu suspenso ao lado de um mês na linha do tempo ![](assets/drop-down-next-to-month-month-view-wb.png) e clique em **[!UICONTROL Mais]**.
+   * Clique no ícone ![](assets/show-role-allocation-icon.png) da **[!UICONTROL Mostrar alocação de função]**, no canto superior direito da barra de ferramentas.
 
-   A variável [!UICONTROL Alocação de função] é exibido.
+   O painel [!UICONTROL Alocação de função] é exibido.
 
    ![](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
-   >Embora você possa visualizar as [!UICONTROL Alocação de função] mesmo se sua organização não tiver comprado um [!DNL Workfront Scenario Planner] licença, não será possível exibir informações sobre as funções de trabalho das iniciativas.
+   >Embora você possa exibir o painel [!UICONTROL Alocação de função] mesmo que sua organização não tenha comprado uma licença do [!DNL Workfront Scenario Planner], você não pode exibir informações sobre as funções de trabalho das iniciativas.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
    -->
 
-1. Revise as seguintes informações no **[!UICONTROL Totais do projeto]** área do painel Alocação de função:
+1. Revise as seguintes informações na área **[!UICONTROL Totais do projeto]** do painel Alocação de função:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -130,38 +130,38 @@ Se sua empresa adquiriu um [!DNL Workfront Scenario Planner] é possível reconc
    >   
    >   
    >   * Quando tarefas ou problemas não são atribuídos a funções de trabalho ou usuários com uma função de trabalho associada a eles.
-   >   * Quando tarefas ou problemas têm um [!UICONTROL Duração] de zero.
+   >   * Quando as tarefas ou problemas têm uma [!UICONTROL Duração] de zero.
+   >   
+   >
 
 
 
-
-1. (Opcional) Se a variável [!UICONTROL Variação] mostra que os recursos estão superalocados e ajuste uma das opções a seguir:
+1. (Opcional) Se a coluna [!UICONTROL Variação] mostrar que seus recursos estão superalocados, ajuste uma das seguintes opções:
 
    * Reduza o número de Horas Planejadas para uma função de trabalho que mostra estar superalocada ou adicione mais recursos às tarefas e distribua mais Horas Planejadas para os novos recursos. Você pode atualizar as atribuições ou o número de Horas planejadas nas tarefas ou problemas ao editá-las. Para obter mais informações, consulte os seguintes artigos:
 
       * [Editar tarefas](../manage-work/tasks/manage-tasks/edit-tasks.md)
       * [Editar problemas](../manage-work/issues/manage-issues/edit-issues.md)
 
-      >[!NOTE]
-      >
-      >Você deve ter acesso e permissões adicionais para editar tarefas e problemas.
+     >[!NOTE]
+     >
+     >Você deve ter acesso e permissões adicionais para editar tarefas e problemas.
 
    * Aumente o número de horas necessárias para a função que mostra a superalocação na iniciativa. Para obter mais informações, consulte [Criar e editar iniciativas no [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md).
 
-      >[!NOTE]
-      >
-      >Você deve ter acesso e permissões adicionais para editar planos.
+     >[!NOTE]
+     >
+     >Você deve ter acesso e permissões adicionais para editar planos.
 
-
-1. (Opcional) Clique no ícone suspenso para expandir um dos meses na [!UICONTROL Alocação de função] ou na linha do tempo do [!UICONTROL Balanceador de carga de trabalho].
+1. (Opcional) Clique no ícone suspenso para expandir um dos meses no painel [!UICONTROL Alocação de função] ou na linha do tempo do [!UICONTROL Balanceador de carga de trabalho].
 
    ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
-   O mesmo tipo de informação exibida na variável [!UICONTROL Totais do projeto] também é exibida para cada mês.
+   O mesmo tipo de informação exibida na área [!UICONTROL Totais do Projeto] também é exibido para cada mês.
 
    >[!TIP]
    >
-   >Os meses listados na variável [!UICONTROL Alocação de função] são os meses na linha do tempo exibidos na tela no painel [!UICONTROL Balanceador de carga de trabalho]. Role para trás e para frente na linha do tempo para visualizar os meses adicionais.
+   >Os meses listados no painel [!UICONTROL Alocação de Função] são os meses na linha do tempo exibida na tela no [!UICONTROL Balanceador de Carga de Trabalho]. Role para trás e para frente na linha do tempo para visualizar os meses adicionais.
 
    <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p> </p> </li>

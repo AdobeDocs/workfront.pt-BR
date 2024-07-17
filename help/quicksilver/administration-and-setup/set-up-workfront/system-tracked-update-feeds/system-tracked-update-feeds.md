@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Atualizações rastreadas pelo sistema
-description: O Adobe Workfront captura a atividade que ocorre em determinados objetos registrando informações de status no [!UICONTROL Atualizações] área.
+description: O Adobe Workfront captura a atividade que ocorre em determinados objetos registrando informações de status na área [!UICONTROL Atualizações] do objeto.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] captura a atividade que ocorre em determinados objetos registrando informações de status no [!UICONTROL Atualizações] seção.
+[!DNL Adobe Workfront] captura a atividade que está ocorrendo em determinados objetos registrando informações de status na seção [!UICONTROL Atualizações] do objeto.
 
 Para obter informações sobre a seção Atualizações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-A variável [!UICONTROL Atualizações] inclui os seguintes tipos de atualizações:
+A área [!UICONTROL Atualizações] inclui os seguintes tipos de atualizações:
 
-* **Atualizações de usuário:** Inserido manualmente por usuários. Também conhecido como comentários, respostas e notas. As atualizações de usuário são exibidas nas guias Comentários e Todas as guias da seção Atualizações de um objeto.
+* **Atualizações de usuário:** inseridas manualmente pelos usuários. Também conhecido como comentários, respostas e notas. As atualizações de usuário são exibidas nas guias Comentários e Todas as guias da seção Atualizações de um objeto.
 
-  Para obter mais informações sobre a configuração de atualizações de usuários, consulte [Configurar preferências para atualizações de usuário](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+  Para obter mais informações sobre como configurar atualizações de usuários, consulte [Configurar preferências para atualizações de usuários](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
   ![](assets/updates-qs-350x125.png)
 
-* **Atualizações do sistema:** Automaticamente feito pelo sistema. Uma atualização do sistema inclui uma breve nota descrevendo que tipo de alteração aconteceu com o item. As atualizações de sistema são exibidas na Atividade do sistema e nas guias All da seção Updates de um objeto.
+* **Atualizações do sistema:** feitas automaticamente pelo sistema. Uma atualização do sistema inclui uma breve nota descrevendo que tipo de alteração aconteceu com o item. As atualizações de sistema são exibidas na Atividade do sistema e nas guias All da seção Updates de um objeto.
 
-  Para obter mais informações sobre os feeds de atualização do sistema e como ativá-los, consulte [Configurar atualizações do sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Para obter mais informações sobre os feeds de atualização do sistema e como habilitá-los, consulte [Configurar atualizações do sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
   ![](assets/system-updates-example-unified-stream.png)
 
@@ -56,7 +56,7 @@ A variável [!UICONTROL Atualizações] inclui os seguintes tipos de atualizaç�
 
 As atualizações rastreadas pelo sistema não estão disponíveis para todos os objetos que têm a área Atualizações.
 
-* A variável [!UICONTROL Atualizações] está disponível para os seguintes objetos:
+* A área [!UICONTROL Atualizações] está disponível para os seguintes objetos:
 
    * [!UICONTROL Projeto]
    * [!UICONTROL Tarefa]
@@ -69,23 +69,23 @@ As atualizações rastreadas pelo sistema não estão disponíveis para todos os
    * [!UICONTROL Equipe]
    * [!UICONTROL Documento]
    * [!UICONTROL Planilha de horas]
-   * [!UICONTROL Story]
+   * [!UICONTROL História]
 
-     Entrada [!DNL Workfront], uma história é uma tarefa.
+     Em [!DNL Workfront], uma história é uma tarefa.
    * [!UICONTROL Iteração]
    * [!UICONTROL Meta]
 
-     Você deve ter uma licença adicional para ter acesso à [!UICONTROL Metas] área. Para obter informações, consulte [Requisitos para usar as metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Você deve ter uma licença adicional para ter acesso à área [!UICONTROL Metas]. Para obter informações, consulte [Requisitos para usar as Metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Cartão] em um quadro
 
-     Para obter mais informações sobre atualizações em cartões, consulte [Usar placas conectadas em placas](../../../agile/get-started-with-boards/connected-cards.md).
+     Para obter mais informações sobre atualizações em cartões, consulte [Usar cartões conectados em quadros](../../../agile/get-started-with-boards/connected-cards.md).
 
-* [!DNL Workfront] O não rastreia atualizações do sistema para os seguintes objetos:
+* [!DNL Workfront] não rastreia atualizações do sistema para os seguintes objetos:
 
    * [!UICONTROL Equipe]
    * [!UICONTROL Modelo]
    * [!UICONTROL Modelo de Tarefa]
-   * Ad-hoc [!UICONTROL Cartão]
+   * Cartão [!UICONTROL Ad-hoc]
    * [!UICONTROL Iterações]
 
 
@@ -96,7 +96,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * As atualizações do usuário são exibidas na guia Comentários e as atualizações do sistema são exibidas na Atividade do sistema e nas guias Todos.
 
-  Para obter uma lista de objetos que não têm a Atividade do sistema ou as guias Todos, consulte [Visão geral da seção de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  Para obter uma lista de objetos que não têm a Atividade do Sistema ou as guias Todos, consulte [Visão geral da seção Atualizar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
 * Não é possível adicionar uma resposta a uma atualização do sistema. No entanto, quaisquer respostas feitas aos registros de atividade do sistema na experiência de comentários herdada anterior a 11 de abril de 2024 serão preenchidas na guia Atividade do sistema como somente leitura.
 
@@ -119,7 +119,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] administradores podem definir que tipo de alterações o sistema deve rastrear no [!UICONTROL Atualizações] área. Nem todos os objetos que têm um [!UICONTROL Atualizações] também têm configurações [!UICONTROL atualizar] Feeds. Os seguintes objetos têm um [!UICONTROL Atualizações] área que captura feeds de atualização rastreados pelo sistema, mas não têm feeds de atualização configuráveis:
+* Os administradores do [!DNL Workfront] podem definir que tipo de alterações o sistema deve rastrear na área [!UICONTROL Atualizações]. Nem todos os objetos que têm uma área [!UICONTROL Atualizações] também têm feeds [!UICONTROL atualizações] configuráveis. Os seguintes objetos têm uma área [!UICONTROL Atualizações] que captura feeds de atualização rastreados pelo sistema, mas não têm feeds de atualização configuráveis:
 
    * [!UICONTROL Documento]
    * [!UICONTROL Planilha de horas]

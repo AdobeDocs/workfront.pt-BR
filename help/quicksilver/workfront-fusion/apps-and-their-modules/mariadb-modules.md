@@ -1,24 +1,24 @@
 ---
 title: Módulos do MariaDB
-description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL MariaDB], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , é possível automatizar fluxos de trabalho que usam  [!DNL MariaDB], bem como conectá-los a vários aplicativos e serviços de terceiros.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 45d4d7fe-a70c-4906-adb4-f913a870fe47
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 0%
 
 ---
 
 # [!DNL MariaDB] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL MariaDB], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um cenário [!DNL Adobe Workfront Fusion], você pode automatizar fluxos de trabalho que usam [!DNL MariaDB], bem como conectá-los a vários aplicativos e serviços de terceiros.
 
-Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se você precisar de instruções sobre como criar um cenário, consulte [Criar um cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -39,35 +39,35 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!DNL MariaDB] módulos, você deve ter uma [!DNL MariaDB] conta.
+Para usar módulos [!DNL MariaDB], você deve ter uma conta [!DNL MariaDB].
 
-## Conectar [!DNL MariaDB] para [!DNL Workfront Fusion]
+## Conectar [!DNL MariaDB] a [!DNL Workfront Fusion]
 
-Você pode criar uma conexão com o seu [!DNL MariaDB] conta diretamente de dentro de um [!DNL MariaDB] módulo.
+Você pode criar uma conexão com sua conta do [!DNL MariaDB] diretamente de dentro de um módulo do [!DNL MariaDB].
 
-1. Em qualquer [!DNL MariaDB] , clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
+1. Em qualquer módulo [!DNL MariaDB], clique em **[!UICONTROL Adicionar]** ao lado do campo [!UICONTROL Conexão].
 1. Configure os seguintes campos:
 
    <table style="table-layout:auto"> 
@@ -92,7 +92,7 @@ Você pode criar uma conexão com o seu [!DNL MariaDB] conta diretamente de dent
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Nome de Usuário]</td> 
-      <td>Entre com seu nome de usuário.</td> 
+      <td>Insira seu nome de usuário.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Senha]</td> 
@@ -101,13 +101,13 @@ Você pode criar uma conexão com o seu [!DNL MariaDB] conta diretamente de dent
     </tbody> 
    </table>
 
-1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
+1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar para o módulo.
 
 ## [!DNL MariaDB] Módulos e seus campos
 
-Ao configurar [!DNL MariaDB] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL MariaDB] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL MariaDB], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL MariaDB] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -121,7 +121,7 @@ Este módulo de ação recupera informações do banco de dados, com base em uma
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td>Para obter instruções sobre como conectar seu [!DNL MariaDB] conta para [!DNL Workfront Fusion], consulte <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Conectar [!DNL MariaDB] para [!DNL Workfront Fusion]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como conectar sua conta do [!DNL MariaDB] ao [!DNL Workfront Fusion], consulte <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Conectar [!DNL MariaDB] ao [!DNL Workfront Fusion]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Consulta]</td> 
@@ -140,7 +140,7 @@ Esse módulo lê registros do banco de dados.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td>Para obter instruções sobre como conectar seu [!DNL MariaDB] conta para [!DNL Workfront Fusion], consulte <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Conectar [!DNL MariaDB] para [!DNL Workfront Fusion]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como conectar sua conta do [!DNL MariaDB] ao [!DNL Workfront Fusion], consulte <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Conectar [!DNL MariaDB] ao [!DNL Workfront Fusion]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabela]</td> 
@@ -157,7 +157,7 @@ Esse módulo lê registros do banco de dados.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Classificar] </td> 
-   <td> <p>Para cada nível cujos resultados você deseja classificar, clique em <strong>[!UICONTROL Adicionar item]</strong>, selecione o campo pelo qual deseja classificar os resultados e se deseja classificar em ordem crescente ou decrescente</p> </td> 
+   <td> <p>Para cada nível pelo qual você deseja classificar os resultados, clique em <strong>[!UICONTROL Adicionar item]</strong> e selecione o campo pelo qual deseja classificar os resultados e se deseja classificar em ordem crescente ou decrescente</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limite]</td> 

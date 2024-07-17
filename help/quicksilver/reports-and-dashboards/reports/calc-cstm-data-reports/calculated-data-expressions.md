@@ -28,7 +28,7 @@ Você pode usar expressões de dados calculados em:
 
 * Uma coluna personalizada calculada em um relatório ou lista, ao usar o modo de texto
 
-  Para obter mais informações sobre como usar o modo de texto em relatórios e visualizações, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Para obter mais informações sobre como usar o modo de texto em relatórios e exibições, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Sintaxe de campos personalizados calculados versus colunas personalizadas calculadas
 
@@ -77,17 +77,17 @@ Por exemplo:
   >
   >A mesma sintaxe se aplica a todos os elementos de relatório de modo de texto nos quais as expressões calculadas são usadas: exibições, filtros, agrupamentos, prompts.
 
-Para obter mais informações sobre a sintaxe que deve ser usada em uma coluna personalizada calculada, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obter mais informações sobre a sintaxe que deve ser usada em uma coluna personalizada calculada, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Expressões de dados que você pode usar
 
 As listas abaixo definem as expressões disponíveis que podem ser usadas ao criar um dos três diferentes tipos de campos personalizados calculados no Workfront:
 
 * [Campos personalizados calculados de data e hora](#date-time-calculated-custom-fields)
-* [Campos personalizados matematicamente calculados](#mathematical-calculated-custom-fields)
+* [Campos personalizados calculados matemáticos](#mathematical-calculated-custom-fields)
 * [Campos personalizados calculados em texto](#text-calculated-custom-fields)
 
-Você pode usar as expressões listadas abaixo para criar colunas personalizadas calculadas. No entanto, você deve usar a sintaxe correta para uma coluna personalizada calculada, conforme descrito na seção  [Sintaxe de campos personalizados calculados versus colunas personalizadas calculadas](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) neste artigo.
+Você pode usar as expressões listadas abaixo para criar colunas personalizadas calculadas. No entanto, você deve usar a sintaxe correta para uma coluna personalizada calculada, conforme descrito na seção [Sintaxe de campos personalizados calculados versus colunas personalizadas calculadas](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) deste artigo.
 
 ### Campos personalizados calculados de data e hora {#date-time-calculated-custom-fields}
 
@@ -126,7 +126,7 @@ Você pode criar um campo personalizado calculado de data ou hora usando as segu
 </p><p><code>ADDMONTHS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDYEARS</strong> </td> 
+   <td><strong>ANOSSUPLEMENTARES</strong> </td> 
    <td> <p>Adiciona o número de anos à data e é formatado da seguinte maneira:</p>
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
@@ -144,7 +144,7 @@ Você pode criar um campo personalizado calculado de data ou hora usando as segu
 <p><code>DATE(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DATEDIFF</strong> </td> 
+   <td><strong>DIFERENÇA</strong> </td> 
    <td> <p>Retorna o número de dias entre as duas datas, levando em conta os dias de início e término do período selecionado, bem como os carimbos de data/hora nesses dias. Por exemplo, se a hora de início da data de início for 15h, o dia de início não será contado como um dia inteiro.</p> <p>A expressão é formatada da seguinte maneira:</p>
 
 <p><code>DATEDIFF(date1, date2)</code></p> </td> 
@@ -210,13 +210,13 @@ Você pode criar um campo personalizado calculado de data ou hora usando as segu
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SECOND</strong> </td> 
+   <td><strong>SEGUNDO</strong> </td> 
    <td> <p>Retorna o segundo da data como um número entre 0 e 60, formatado da seguinte maneira: Neste exemplo, a data é a Data de Entrada para um objeto de trabalho.</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>WEEKDAYDIFF</strong> </td> 
+   <td><strong>DIFERENÇADIASEMANA</strong> </td> 
    <td> <p>Retorna o número de dias da semana entre duas datas, levando em conta os dias de início e término do período selecionado, bem como os carimbos de data/hora nesses dias. Por exemplo, se a hora de início da data de início for 15h, o dia de início não será contado como um dia inteiro.</p> <p>A expressão é formatada da seguinte maneira:</p>
 
 <p><code>WEEKDAYDIFF(date2, date1)</code></p> </td> 
@@ -275,7 +275,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLOOR</strong> </td> 
+   <td><strong>ANDAR</strong> </td> 
    <td>Arredonda um número para o próximo inteiro imediatamente abaixo e é formatado da seguinte maneira: Este exemplo usa o número de objetos abaixo do objeto ao qual o formulário personalizado está anexado.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -299,7 +299,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 <p><code>MAX(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>MÍN</strong> </td> 
+   <td><strong>MIN</strong> </td> 
    <td>Retorna o menor item da lista e é formatado da seguinte maneira:
 
 <p><code>MIN(item1, item2, ...)</code></p></td> 
@@ -315,7 +315,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 <p><code>POWER(number, power)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>PROD</strong> </td> 
+   <td><strong>PRODUÇÃO</strong> </td> 
    <td>Multiplica todos os números e é formatado da seguinte maneira:
 
 <p><code>PROD(number1, number2, ....)</code></p>
@@ -378,7 +378,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>CASE</strong> </td> 
+   <td><strong>CASO</strong> </td> 
    <td> <p>É usado com outras expressões para escolher um valor em uma lista, com base em um número de índice. </p>
    <p>Um número de índice é um campo ou função que retorna um valor numérico (geralmente em um intervalo conhecido).</p> 
    <p>A expressão é formatada da seguinte maneira:</p>
@@ -414,7 +414,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>IF</strong> </td> 
+   <td><strong>SE</strong> </td> 
    <td> <p>Avalia uma condição especificada e retorna o valor da expressãoVerdadeira se for verdadeira, ou o valor da expressãoFalsa se for falsa.</p>
 
 <p>A expressão é formatada da seguinte maneira:</p>
@@ -434,7 +434,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>Para obter mais informações sobre a criação de instruções "IF", consulte <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">Visão geral das instruções "IF"</a>.</p> </td> 
+<p>Para obter mais informações sobre a compilação de instruções "IF", consulte a <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref"> visão geral das instruções "IF"</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -452,7 +452,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","")</code></p> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>IN</strong> </td> 
+   <td><strong>EM</strong> </td> 
    <td> <p>Retornará true se o valor for igual a um dos valores fornecidos; caso contrário, a expressão retornará false.</p> <p>A expressão é formatada da seguinte maneira:
 
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
@@ -476,7 +476,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 <p><code>LEN(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LOWER</strong> </td> 
+   <td><strong>INFERIOR</strong> </td> 
    <td>Retorna a cadeia de caracteres em minúsculas e é formatada da seguinte maneira:
 
 <p><code>LOWER(string)</code></p></td> 
@@ -500,7 +500,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>STRING</strong> </td> 
+   <td><strong>CADEIA DE CARACTERES</strong> </td> 
    <td> <p>Converte um número em uma cadeia de caracteres e é formatado da seguinte maneira:</p>
 
 <p><code>STRING(number)</code></p> </td> 
@@ -530,7 +530,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 <p><code>TRIM(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>UPPER</strong> </td> 
+   <td><strong>SUPERIOR</strong> </td> 
    <td> <p>Retorna uma cadeia de caracteres em maiúsculas e é formatada da seguinte maneira:</p>
 
 <p><code>UPPER(string)</code></p> </td> 

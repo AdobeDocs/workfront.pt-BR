@@ -23,7 +23,7 @@ Você pode criar provas de documentos no Adobe Workfront. Você pode criar prova
 
 Saiba como criar provas nos seguintes artigos:
 
-* [Criar uma prova avançada com um fluxo de trabalho básico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+* [Criar uma prova avançada com um fluxo de trabalho Básico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [Criar uma prova avançada com um fluxo de trabalho automatizado](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 * [Configurar padrões de provas pessoais](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
 * [Criar uma prova de várias páginas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)

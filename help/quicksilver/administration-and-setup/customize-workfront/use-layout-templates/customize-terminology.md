@@ -11,7 +11,7 @@ exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Depois de salvar um modelo de layout no qual você alterou a terminologia e, em 
 
 Para obter mais informações sobre modelos de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar os modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Após configurar um modelo de layout, você deve atribuí-lo aos usuários para que as alterações feitas fiquem visíveis para outros usuários. Para obter informações sobre como atribuir um modelo de layout aos usuários, consulte [Atribuir usuários a um modelo de layout](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -62,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.
-Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,13 +73,13 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
 1. Clique em **Definir terminologia** próximo ao canto superior direito da página.
 1. Siga um destes procedimentos:
 
-   * Para usar um termo alternativo fornecido pelo Workfront, clique na seta para baixo  ![](assets/dropdown-arrow.png) ao lado do rótulo, clique no rótulo alternativo desejado na lista suspensa.
+   * Para usar um termo alternativo fornecido pelo Workfront, clique na seta para baixo ![](assets/dropdown-arrow.png) ao lado do rótulo e, em seguida, clique no rótulo alternativo desejado na lista suspensa.
 
      >[!NOTE]
      >
      >Os rótulos alternativos fornecidos nas listas suspensas são compatíveis com as versões do Workfront localizadas para idiomas que não sejam o inglês.
 
-   * Para fornecer sua própria alternativa personalizada para o rótulo exibido para um objeto, clique em **Definir nome personalizado** à direita do rótulo, digite o **Singular** e **Plural** formas do termo personalizado. Você pode clicar em **Redefinir** se mudar de ideia.
+   * Para fornecer sua própria alternativa personalizada para o rótulo exibido para um objeto, clique em **Definir nome personalizado** à direita do rótulo e digite as formas **Singular** e **Plural** do termo personalizado. Você pode clicar em **Redefinir** se mudar de ideia.
 
      Você pode personalizar os seguintes nomes de objeto:
 
@@ -110,7 +110,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
           <p>Resultado</p>
           <p>Atividade</p>
          </ul></td>
-        <td><p>Esses objetos exigem uma licença adicional. Para obter mais informações, consulte <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Visão geral dos objetivos do Adobe Workfront</a>.</p></td>
+        <td><p>Esses objetos exigem uma licença adicional. Para obter mais informações, consulte <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">visão geral das Metas do Adobe Workfront</a>.</p></td>
        </tr>
        <tr data-mc-conditions="">
         <td role="rowheader"><p>Objetos do Planejador de cenários do Workfront</p></td>

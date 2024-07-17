@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 17 de janeiro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte a [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Alterar a opção padrão de predecessores ao copiar ou mover tarefas
 
@@ -59,7 +59,7 @@ Com essa alteração, você também verá uma nova aparência no Resumo do docum
 
 Anteriormente, era necessário ir até a guia formulários personalizados em Detalhes do documento para fazer edições ou adicionar formulários personalizados.
 
-Para obter mais informações, consulte [Resumo para visão geral de documentos](../../../documents/managing-documents/summary-for-documents.md).
+Para obter mais informações, consulte [Resumo de documentos](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Nova experiência ao copiar uma ou várias tarefas
 
@@ -95,7 +95,7 @@ Para obter mais informações, consulte [Mover tarefas](../../../manage-work/tas
 
 >[!NOTE]
 >
->Esse recurso foi removido temporariamente do ambiente de Produção do em 4 de março de 2022. Mais tarde, foi lançado em uma implantação em fases a partir de 28 de abril de 2022. A implantação foi concluída em 5 de maio de 2022. Agora isso está disponível em Pré-visualização e Produção para todos os clientes. (Para obter as atualizações mais recentes sobre o status desse recurso que está sendo lançado para produção, consulte [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>Esse recurso foi removido temporariamente do ambiente de Produção do em 4 de março de 2022. Mais tarde, foi lançado em uma implantação em fases a partir de 28 de abril de 2022. A implantação foi concluída em 5 de maio de 2022. Agora isso está disponível em Pré-visualização e Produção para todos os clientes. (Para obter as atualizações mais recentes sobre o status de lançamento desse recurso para Produção, consulte a [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 Para tornar seu uso do Workfront consistente com a nova experiência do Workfront, reprojetamos a interface para converter um problema em um projeto ao usar um modelo ao convertê-lo da página de problema.
 
@@ -109,7 +109,7 @@ Para obter mais informações, consulte [Converter um problema em um projeto no 
 
 >[!NOTE]
 >
->Esse recurso foi removido temporariamente do ambiente de Produção do em 4 de março de 2022. Mais tarde, foi lançado em uma implantação em fases a partir de 28 de abril de 2022. A implantação foi concluída em 5 de maio de 2022. Agora isso está disponível em Pré-visualização e Produção para todos os clientes. (Para obter as atualizações mais recentes sobre o status desse recurso que está sendo lançado para produção, consulte [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>Esse recurso foi removido temporariamente do ambiente de Produção do em 4 de março de 2022. Mais tarde, foi lançado em uma implantação em fases a partir de 28 de abril de 2022. A implantação foi concluída em 5 de maio de 2022. Agora isso está disponível em Pré-visualização e Produção para todos os clientes. (Para obter as atualizações mais recentes sobre o status de lançamento desse recurso para Produção, consulte a [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 Para aumentar a eficiência do seu trabalho e facilitar a conversão de problemas em um ambiente de ritmo rápido, adicionamos a capacidade de converter um problema em um projeto usando um modelo de uma lista, relatório ou painel.
 
@@ -138,7 +138,7 @@ Para obter mais informações, consulte as seguintes informações
 
 Para obter instruções sobre como compartilhar um modelo, consulte [Compartilhar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-Para obter informações sobre a nova configuração avançada Adicionar documentos, consulte a seção no artigo [Compartilhamento de um modelo](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+Para obter informações sobre a nova configuração avançada Adicionar Documentos, consulte a seção no artigo [Compartilhando um modelo](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 ## Compartilhar uma pasta de documentos
 

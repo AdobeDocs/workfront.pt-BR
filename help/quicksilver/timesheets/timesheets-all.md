@@ -22,5 +22,5 @@ Esta seção contém os artigos nas seguintes subseções:
 
 * [Detalhes da folha de horas: índice do artigo](../timesheets/timesheets/timesheets.md)
 * [Criar e gerenciar folhas de horas: índice do artigo](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [Configure como o tempo é registrado: índice do artigo](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [Configurar como o tempo é registrado: índice do artigo](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [Dicas, truques e solução de problemas: índice do artigo](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

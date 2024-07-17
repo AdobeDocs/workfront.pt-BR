@@ -50,23 +50,23 @@ Normalmente, as folhas de horas são aprovadas pelos gerentes funcionais ou pela
 
 Um aprovador de folha de horas é definido ao criar o Perfil de folha de horas. Você deve ter uma licença de Plano para ser designado como um aprovador.
 
-Para obter mais informações sobre a designação de aprovadores de planilhas de horas, consulte a seção [Criar ou editar um perfil de planilha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) no artigo [Criar, editar e atribuir perfis de planilha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Para obter mais informações sobre como designar aprovadores de folha de horas, consulte a seção [Criar ou editar um perfil de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) no artigo [Criar, editar e atribuir perfis de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Aprovar uma planilha de horas
 
-Você pode aprovar qualquer planilha de horas que tenha sido submetida na qual tenha sido designado como aprovador. Quando uma planilha de horas é enviada para aprovação, ela é listada na **Aprovações** na sua área **Início**  página. Para obter mais informações, consulte [Aprovar trabalho](../../review-and-approve-work/manage-approvals/approving-work.md).
+Você pode aprovar qualquer planilha de horas que tenha sido submetida na qual tenha sido designado como aprovador. Quando uma folha de horas é enviada para aprovação, ela é listada na área **Aprovações** da sua **Página inicial**  página. Para obter mais informações, consulte [Aprovando trabalho](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Se o administrador do Workfront tiver ativado a Aprovação de folha de horas para o usuário e a Rejeição de folha de horas para os manipuladores de eventos do usuário, você será notificado depois que a folha de horas for aprovada ou rejeitada. Para obter informações sobre como ativar notificações de eventos, consulte [Tipos de notificação de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Se o administrador do Workfront tiver ativado a Aprovação de folha de horas para o usuário e a Rejeição de folha de horas para os manipuladores de eventos do usuário, você será notificado depois que a folha de horas for aprovada ou rejeitada. Para obter informações sobre como habilitar notificações de eventos, consulte [Tipos de notificação de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Para aprovar uma planilha de horas:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
-1. Clique em **Planilhas de Horas**.
-1. Selecione o **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as folhas de horas que você aprova
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique em **Folhas de horas**.
+1. Selecione as **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as planilhas de horas aprovadas por você
 
    Ou
 
-   Selecione o **Minhas planilhas de horas aprovadas** filtro na parte superior da lista da folha de horas.
+   Selecione o filtro **Minhas Aprovações de Planilha de Horas** na parte superior da lista de planilhas de horas.
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -76,24 +76,24 @@ Para aprovar uma planilha de horas:
    >
    >   
    >   
-   >   * [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Opcional) Clique no link **pesquisa** ícone ![](assets/search-icon.png) na parte superior da lista folha de horas e digite uma palavra-chave para localizar uma folha de horas específica. Você pode pesquisar um intervalo de tempo ou o nome de um proprietário ou aprovador.
+1. (Opcional) Clique no ícone ![](assets/search-icon.png) da **pesquisa** na parte superior da lista de folhas de horas e digite uma palavra-chave para localizar uma folha de horas específica. Você pode pesquisar um intervalo de tempo ou o nome de um proprietário ou aprovador.
 1. Clique no intervalo de tempo da folha de horas que você deseja aprovar. A folha de horas é aberta.
 
    >[!TIP]
    >
-   >As planilhas de horas aguardando aprovação têm status de [!UICONTROL Enviado].
+   >As planilhas de horas aguardando aprovação têm status de [!UICONTROL Enviadas].
 
 
 1. Clique em **Aprovar**
 
    Ou
 
-   Se desejar rejeitar a folha de horas, clique em **Rejeitar** no canto inferior esquerdo da folha de horas.
+   Para rejeitar a folha de horas, clique em **Rejeitar** no canto inferior esquerdo da folha de horas.
 
    Se aprovado, o status da folha de horas muda para **Fechado**.
 
-   Se rejeitado, o status da folha de horas muda para **Rejeitado**.
+   Se rejeitado, o status da folha de horas muda para **Rejected**.

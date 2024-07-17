@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Adicionar documentos em cartões
 
-Você pode adicionar documentos a cartões conectados em Adobe Workfront Boards. Todos os documentos adicionados no cartão ficam disponíveis na guia Documents da tarefa ou problema conectado e os documentos adicionados na tarefa ou problema ficam visíveis no cartão. Os mesmos tipos de arquivos são suportados em ambas as áreas. Para obter mais informações sobre documentos no Workfront, consulte [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Você pode adicionar documentos a cartões conectados em Adobe Workfront Boards. Todos os documentos adicionados no cartão ficam disponíveis na guia Documents da tarefa ou problema conectado e os documentos adicionados na tarefa ou problema ficam visíveis no cartão. Os mesmos tipos de arquivos são suportados em ambas as áreas. Para obter mais informações sobre documentos no Workfront, consulte [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 >[!NOTE]
 >
->Os documentos só estão disponíveis em cartões conectados. Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>Os documentos só estão disponíveis em cartões conectados. Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisitos de acesso
 
@@ -29,7 +29,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -42,23 +42,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Adicionar um documento a um cartão
 
 {{step1-to-boards}}
 
 1. Abra o cartão conectado ao qual deseja adicionar um documento.
-1. Arraste e solte o arquivo na [!UICONTROL Documentos] ou clique em [!UICONTROL **Adicionar documento**] para selecionar um arquivo.
+1. Arraste e solte o arquivo na área [!UICONTROL Documentos] ou clique em [!UICONTROL **Adicionar documento**] para selecionar um arquivo.
 
-   O arquivo aparece no campo [!UICONTROL Documentos] área.
+   O arquivo aparece na área [!UICONTROL Documentos].
 
    ![Documentos adicionados ao cartão](assets/add-document-to-card.png)
 
 ## Visualizar um documento existente do cartão
 
-1. No cartão, localize a variável [!UICONTROL Documentos] área. Clique em ![Ícone de Lista](assets/docs-list-icon.png) para exibir todos os documentos em uma lista ou clique em ![Ícone da Galeria](assets/docs-gallery-icon.png) para exibir os documentos em uma galeria.
-1. Passe o mouse sobre a miniatura do documento e clique em [!UICONTROL **Visualizar**] para exibir o arquivo no navegador ou [!UICONTROL **Baixar**] para baixar o arquivo no seu computador.
+1. No cartão, localize a área [!UICONTROL Documentos]. Clique em ![Ícone de Lista](assets/docs-list-icon.png) para exibir todos os documentos em uma lista ou clique em ![Ícone de Galeria](assets/docs-gallery-icon.png) para exibir os documentos em uma galeria.
+1. Passe o mouse sobre a miniatura do documento e clique em [!UICONTROL **Visualizar**] para exibir o arquivo no navegador ou em [!UICONTROL **Baixar**] para baixar o arquivo no computador.
 
    >[!NOTE]
    >

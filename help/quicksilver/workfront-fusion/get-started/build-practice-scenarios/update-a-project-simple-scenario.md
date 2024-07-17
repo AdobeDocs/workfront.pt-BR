@@ -6,7 +6,8 @@ title: Adicionar um módulo de acionamento a um cenário básico
 description: Saiba como adicionar um módulo de acionamento para permitir que o cenário procure novas solicitações periodicamente e as converta em projetos.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 91d3dcde8eda416286c6781f6eef85404fd382c2
+exl-id: f4588063-024f-4520-986e-45342a6b6777
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 Atualizar um item de trabalho do Workfront é um caso de uso comum para o Workfront Fusion. Neste exemplo, você usará uma função para alterar o nome de um projeto para ficar em letras maiúsculas.
 
-O Fusion inclui muitos tipos de funções que permitem transformar e executar lógica condicional em seus dados. Para obter mais informações sobre o uso de funções, consulte [Mapear informações de um módulo para outro no Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md).
+O Fusion inclui muitos tipos de funções que permitem transformar e executar lógica condicional em seus dados. Para obter mais informações sobre como usar funções, consulte [Mapear informações de um módulo para outro no Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md).
 
-Este exemplo modifica o cenário criado no [Criar um cenário básico](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+Este exemplo modifica o cenário criado em [Criar um cenário básico](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 ## Pré-requisitos
 
@@ -31,7 +32,7 @@ Você deve criar o cenário descrito em [Criar um cenário básico](/help/quicks
 
 1. Abra o cenário no editor de cenários.
 1. Passe o mouse sobre o círculo parcial à direita do do módulo e clique em **[!UICONTROL Adicionar outro módulo]**.
-1. Selecionar [!DNL Adobe Workfront] na lista de aplicativos, escolha o módulo **[!UICONTROL Atualizar registro]**.
+1. Selecione [!DNL Adobe Workfront] na lista de aplicativos e escolha o módulo **[!UICONTROL Atualizar Registro]**.
 1. no campo ID, selecione o bloco ID que está sob o módulo Converter objeto. Esta é a ID do projeto emitido por esse módulo.
 
    ![ID do objeto Convert](assets/id-convert-object.png)
@@ -45,10 +46,10 @@ Você deve criar o cenário descrito em [Criar um cenário básico](/help/quicks
 
 Quando esse cenário converte uma solicitação em um projeto, o nome do projeto é igual ao da solicitação. A função aqui pega esse nome e coloca todas as letras em maiúsculas nele.
 
-1. Clique em **Nome** campo.
+1. Clique no campo **Nome**.
 
    O painel de mapeamento é aberto.
-1. No painel de mapeamento, clique na guia **Funções de texto e binárias** ícone. ![Ícone de funções de texto](/help/quicksilver/workfront-fusion/functions/assets/toolbar-icon-text&binary-functions.png)
+1. No painel de mapeamento, clique no ícone **Funções binárias e de texto**. ![Ícone de funções de texto](/help/quicksilver/workfront-fusion/functions/assets/toolbar-icon-text&binary-functions.png)
 1. Selecione a função **upper**.
 
    A função aparece no campo Nome, incluindo a formatação da entrada esperada.
@@ -56,7 +57,7 @@ Quando esse cenário converte uma solicitação em um projeto, o nome do projeto
    A entrada para este exemplo é o nome do problema do qual o projeto foi convertido.
 
 1. Mova o cursor entre os parênteses, porque é para onde a entrada irá.
-1. No painel de mapeamento, clique na guia **saída do módulo** ícone. ![Ícone de saída do módulo](/help/quicksilver/workfront-fusion/functions/assets/toolbar-icon-functions-you-map-from-other-modules.png)
+1. No painel de mapeamento, clique no ícone **saída do módulo**. ![Ícone de saída do módulo](/help/quicksilver/workfront-fusion/functions/assets/toolbar-icon-functions-you-map-from-other-modules.png)
 1. Selecione o bloco de nome que foi emitido pelo primeiro módulo.
 
    O bloco de nome aparece na função.
@@ -69,10 +70,10 @@ Quando esse cenário converte uma solicitação em um projeto, o nome do projeto
 
 1. Teste o cenário clicando em **Executar uma vez** no canto inferior esquerdo da tela.
 1. Examine a saída para garantir que o cenário seja executado conforme esperado.
-1. Quando estiver satisfeito com o funcionamento do cenário, clique no link **Agendamento** no canto inferior esquerdo da tela, alterne para **Ligado**.
+1. Quando estiver satisfeito com o funcionamento do cenário, clique no botão de alternância **Agendamento** no canto inferior esquerdo da tela para **Ativado**.
 
    Isso ativa o cenário. Cenários ativos são executados de acordo com o agendamento definido no módulo do acionador.
-1. Entrada [!DNL Workfront Fusion], clique em **[!UICONTROL Salvar]** próximo ao canto inferior esquerdo para salvar seu progresso no cenário.
+1. Em [!DNL Workfront Fusion], clique em **[!UICONTROL Salvar]** próximo ao canto inferior esquerdo para salvar seu progresso no cenário.
 
    >[!IMPORTANT]
    >
@@ -80,4 +81,4 @@ Quando esse cenário converte uma solicitação em um projeto, o nome do projeto
 
 ## Recursos:
 
-* [Mapear itens usando funções no [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md)
+* [Mapear itens usando funções em  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md)

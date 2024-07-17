@@ -42,12 +42,12 @@ O painel direito de um registro exibe as seguintes seções:
 1. Clique em um cartão de tipo de registro.
 A página de tipo de registro é aberta e todos os registros desse tipo são exibidos.
 
-1. Escolha uma exibição de tabela na **Exibir** menu suspenso.
+1. Escolha uma exibição de tabela no menu suspenso **Exibir**.
 1. Clique no nome de um registro na exibição de tabela.
 
    A página do registro é aberta. A área Comentários é aberta por padrão no painel direito.
-1. Clique em **Mostrar histórico** ícone ![](assets/show-history-icon.png). Todas as alterações feitas nos campos do registro são exibidas no painel direito, começando pela mais recente.
-1. (Opcional) Clique no link **Ocultar histórico** ícone ![](assets/hide-history-icon.png) para fechar o painel direito.
+1. Clique no ícone ![](assets/show-history-icon.png) **Mostrar Histórico**. Todas as alterações feitas nos campos do registro são exibidas no painel direito, começando pela mais recente.
+1. (Opcional) Clique no ícone ![](assets/hide-history-icon.png) de **Ocultar Histórico** para fechar o painel direito.
 
 ## Considerações sobre a seção Histórico
 

@@ -27,7 +27,7 @@ Este artigo descreve as diferenças entre as Datas estimadas e projetadas dos pr
 
 Quando a tarefa é criada pela primeira vez, as Datas Planejadas, Projetadas e Estimadas normalmente devem corresponder. Existem algumas exceções. 
 
-Para obter mais informações sobre projeto, tarefa e datas de problemas no Adobe Workfront, consulte [Visão geral das datas de Projeto, Tarefa e Problema no Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Para obter mais informações sobre as datas de projeto, tarefa e problema no Adobe Workfront, consulte [Visão geral das datas de projeto, tarefa e problema no Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Visão Geral das Datas Planejadas
 
@@ -60,7 +60,7 @@ A diferença entre as Datas Projetada e Estimada é:
 
 * As Datas estimadas consideram apenas o progresso real em uma tarefa em um determinado momento.
 
-**Exemplo:** Se houver uma tarefa com uma Data de Início Planejada de 20 de setembro e uma Data de Conclusão Planejada de 24 de setembro e ela tiver a opção Precisa Ser Concluída na Restrição, a Data de Conclusão Projetada será 24 de setembro. Esta tarefa tem uma duração de 4 dias.
+**Exemplo:** se tivermos uma tarefa com Data de Início Planejada para 20 de setembro e Data de Término Planejada para 24 de setembro, e ela tiver Data de Término Planejada em Restrição, a Data de Término Projetada para 24 de setembro. Esta tarefa tem uma duração de 4 dias.
 
 A Data de conclusão estimada é calculada com base no progresso atual do trabalho na tarefa. Portanto, se hoje for 23 de setembro e a tarefa ainda não tiver sido iniciada, a Data de conclusão estimada será 27 de setembro (ela deve ser concluída após 4 dias, supondo que o trabalho seja iniciado hoje).
 
@@ -75,35 +75,35 @@ A lista a seguir exibe vários cenários quando as Datas Projetadas das tarefas 
 
 * Quando uma tarefa está marcada como Concluída:
 
-  *Datas Projetadas = Datas Estimadas = Datas Reais*
+  *Datas Projetadas = Datas Estimadas = Datas Efetivas*
 
 * Quando uma tarefa tem uma Data de Início Efetivo:
 
-  *Data Inicial Projetada = Data Inicial Estimada = Data Inicial Real*
+  *Data Inicial Projetada = Data Inicial Estimada = Data Inicial Efetiva*
 
 * Quando uma tarefa não tem uma Data Inicial Real, mas há uma restrição forçada na Data Inicial Planejada (Deve Iniciar em) que está no futuro:
 
-  *Data Inicial Projetada = Data de Restrição*
+  *Data de Início Projetada = Data de Restrição*
 
-  Para obter informações sobre Data de Restrição, consulte [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  Para obter informações sobre a Data de Restrição, consulte [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Quando uma tarefa não tem uma Data de Início Efetivo e a tarefa não tem uma data de restrição forçada:
 
-  *Data Inicial Projetada = a próxima data disponível no futuro que se enquadra na programação de trabalho*
+  *Data de Início Projetada = a próxima data disponível no futuro que se enquadra na programação de trabalho*
 
 * Quando o destinatário atualizar a Data de confirmação:
 
   *Data de conclusão projetada = Data de confirmação*
 
-  Para obter informações sobre a Data de confirmação, consulte [Visão geral da data de compromisso](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Para obter informações sobre a Data de Confirmação, consulte [Visão geral da Data de Confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Quando a tarefa não tiver uma Data de Confirmação atualizada e a tarefa tiver uma restrição forçada (Deve Ser Concluída Em) para a Data de Conclusão Planejada que estiver no futuro:
 
-  *Data de Término Projetada = Data de Restrição*
+  *Data de Conclusão Projetada = Data de Restrição*
 
 * Quando uma tarefa não tiver uma Data de Compromisso atualizada, uma data de restrição forçada no futuro ou tiver uma Data de Restrição no passado:
 
-  *Data de Término Projetada = cálculo do sistema para a Data de Término com base no andamento atual e no trabalho a ser concluído*
+  *Data de Conclusão Projetada = cálculo do sistema para a Data de Conclusão com base no progresso atual e no trabalho que falta concluir*
 
 ### Entenda quando as Datas estimadas são atualizadas nas tarefas {#understand-when-the-estimated-dates-update-on-tasks}
 

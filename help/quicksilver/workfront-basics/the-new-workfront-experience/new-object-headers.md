@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Visão geral dos cabeçalhos de objeto
-description: É possível visualizar informações rapidamente sobre objetos no [!DNL Adobe Workfront] ao revisar o cabeçalho. As informações em um cabeçalho podem incluir o proprietário do objeto, o status ou o percentual concluído.
+description: Você pode visualizar informações sobre objetos no  [!DNL Adobe Workfront] ao revisar seu cabeçalho. As informações em um cabeçalho podem incluir o proprietário do objeto, o status ou o percentual concluído.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Visão geral dos cabeçalhos de objeto
 
-É possível visualizar informações rapidamente sobre objetos no [!DNL Adobe Workfront] ao revisar o cabeçalho.
+Você pode visualizar informações rapidamente sobre objetos em [!DNL Adobe Workfront] ao revisar seu cabeçalho.
 
 Além do nome do objeto, o cabeçalho pode incluir o proprietário do objeto, o status ou o percentual concluído.
 
-[!DNL Workfront] atribui prioridade ao nome do objeto, alocando o máximo de espaço possível nele no cabeçalho. Quando um nome de objeto é muito longo, ele fica truncado. Para exibir o nome completo de um objeto, você pode passar o mouse sobre ele.
+[!DNL Workfront] dá prioridade ao nome do objeto, alocando o máximo de espaço possível para ele no cabeçalho. Quando um nome de objeto é muito longo, ele fica truncado. Para exibir o nome completo de um objeto, você pode passar o mouse sobre ele.
 
 ## Acessar o cabeçalho de um objeto
 
-Acessar o cabeçalho de um objeto no [!DNL Workfront] é idêntico para todos os objetos que o têm.
+O acesso ao cabeçalho de um objeto em [!DNL Workfront] é idêntico para todos os objetos que o possuem.
 
 Por exemplo, para acessar o cabeçalho de um projeto:
 
@@ -31,16 +31,16 @@ Por exemplo, para acessar o cabeçalho de um projeto:
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL Início] visão geral do cabeçalho
+## Visão geral do cabeçalho da [!UICONTROL Página inicial]
 
 Os seguintes cabeçalhos estão disponíveis na Página inicial:
 
-* Tarefa: Para obter mais informações sobre como usar esse cabeçalho, consulte [Visão geral do cabeçalho da tarefa](#task-header-overview) neste artigo.
-* Problema: para obter mais informações sobre como usar esse cabeçalho, consulte a [Visão geral do cabeçalho do problema](#issue-header-overview) neste artigo.
+* Tarefa: Para obter mais informações sobre como usar este cabeçalho, consulte a [Visão geral do cabeçalho da tarefa](#task-header-overview) neste artigo.
+* Problema: Para obter mais informações sobre como usar este cabeçalho, consulte a [Visão geral do cabeçalho de Problemas](#issue-header-overview) neste artigo.
 
 ## Cabeçalhos personalizáveis
 
-Seu [!DNL Workfront]  O administrador de grupo ou pode personalizar o cabeçalho de projetos, tarefas e problemas usando um modelo de layout.
+O [!DNL Workfront] ou o administrador de grupo pode personalizar o cabeçalho de projetos, tarefas e problemas usando um modelo de layout.
 
 Este artigo descreve os cabeçalhos padrão para todos os objetos, incluindo projetos, tarefas e problemas.
 
@@ -156,11 +156,11 @@ O cabeçalho da tarefa inclui as seguintes informações, por padrão:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Botão [!UICONTROL Trabalhar na Tarefa], [!UICONTROL Concluído] ou [!UICONTROL Iniciar Tarefa]</p> </td> 
-   <td> <p>Se a tarefa for atribuída a você, clique no link [!UICONTROL Trabalhar nela] <span>ou [!UICONTROL Iniciar Tarefa]</span> botão para indicar que você está trabalhando na tarefa ou no botão [!UICONTROL Concluído] para indicar que você concluiu a tarefa.</p> <p><span>Para obter informações sobre como substituir o botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar Tarefa], consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar]</a></span>.</p> </td> 
+   <td> <p>Se a tarefa for atribuída a você, clique no botão [!UICONTROL Trabalhar nela] <span>ou [!UICONTROL Iniciar Tarefa]</span> para indicar que você está trabalhando na tarefa ou no botão [!UICONTROL Concluído] para indicar que você concluiu a tarefa.</p> <p><span>Para obter informações sobre a substituição do botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar Tarefa], consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar]</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data de Término Planejada]</td> 
-   <td> <p>Você pode editar a tarefa [!UICONTROL Data de conclusão planejada] <span>e hora</span> no cabeçalho.</p> <p>Dica: observe que a [!UICONTROL Data de Confirmação] não está visível no cabeçalho. Você pode exibi-lo na página [!UICONTROL Detalhes].</p> </td> 
+   <td> <p>Você pode editar a tarefa [!UICONTROL Data de Término Planejada] <span>e a hora</span> no cabeçalho.</p> <p>Dica: observe que a [!UICONTROL Data de Confirmação] não está visível no cabeçalho. Você pode exibi-lo na página [!UICONTROL Detalhes].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -195,7 +195,7 @@ O cabeçalho do problema inclui as seguintes informações, por padrão:
   </tr> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
-   <td> <p>O ícone rosa [!UICONTROL Problema] <img src="assets/nwe-issues-icon.png"> é exibido à esquerda do nome do problema.</p> </td> 
+   <td> <p>O ícone rosa [!UICONTROL Issue] <img src="assets/nwe-issues-icon.png"> é exibido à esquerda do nome do problema.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome do problema</td> 
@@ -219,11 +219,11 @@ O cabeçalho do problema inclui as seguintes informações, por padrão:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Trabalhar nisso], [!UICONTROL Concluído], <span>ou botão [!UICONTROL Iniciar Problema]</span></td> 
-   <td>Se o problema for atribuído a você, clique no link [!UICONTROL Trabalhar nisto] <span>ou [!UICONTROL Iniciar Problema]</span> botão para indicar que você está trabalhando agora no problema, ou no botão [!UICONTROL Concluído] para indicar que você concluiu o problema.<span>Para obter informações sobre como substituir o botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar Tarefa], consulte</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar]</a></span><span>.</span></td> 
+   <td>Se o problema for atribuído a você, clique no botão [!UICONTROL Trabalhar no Problema] <span>ou [!UICONTROL Iniciar Problema]</span> para indicar que você está trabalhando no problema agora ou no botão [!UICONTROL Concluído] para indicar que você concluiu o problema.<span>Para obter informações sobre a substituição do botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar Tarefa], consulte</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar]</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data de Término Planejada]</td> 
-   <td> <p>Você pode editar o problema [!UICONTROL Data de conclusão planejada] <span>e hora</span> no cabeçalho.</p> <p>Dica: observe que a [!UICONTROL Data de Confirmação] não está visível no cabeçalho. Você pode exibi-lo na página [!UICONTROL Detalhes].</p> </td> 
+   <td> <p>Você pode editar o problema [!UICONTROL Data de Término Planejada] <span>e hora</span> no cabeçalho.</p> <p>Dica: observe que a [!UICONTROL Data de Confirmação] não está visível no cabeçalho. Você pode exibi-lo na página [!UICONTROL Detalhes].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -258,7 +258,7 @@ O cabeçalho do programa exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
-   <td> <p>O ícone laranja [!UICONTROL Programa] <img src="assets/nwe-programs-icon.png"> é exibido à esquerda do nome do programa.</p> </td> 
+   <td> <p>O ícone laranja <img src="assets/nwe-programs-icon.png"> do [!UICONTROL Program] é exibido à esquerda do nome do programa.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome do programa</td> 
@@ -376,7 +376,7 @@ O cabeçalho do modelo exibe as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
-   <td> <p>O ícone verde [!UICONTROL Template] <img src="assets/nwe-templates-icon.png">é exibido à esquerda do nome do template.</p> </td> 
+   <td> <p>O ícone verde [!UICONTROL Modelo] <img src="assets/nwe-templates-icon.png">é exibido à esquerda do nome do modelo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome do modelo</td> 
@@ -577,7 +577,7 @@ O cabeçalho do grupo mostra as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
-   <td> <p>O ícone de [!UICONTROL Team] violeta <img src="assets/nwe-teams-icon.png"> é exibido à esquerda do nome do grupo.</p> </td> 
+   <td> <p>O ícone roxo [!UICONTROL Team] <img src="assets/nwe-teams-icon.png"> é exibido à esquerda do nome da equipe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome da equipe</td> 
@@ -620,7 +620,7 @@ O cabeçalho da iteração exibe as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
-   <td> <p>O ícone laranja [!UICONTROL Iteração] <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> é exibido à esquerda do nome da iteração.</p> </td> 
+   <td> <p>O ícone laranja [!UICONTROL Iteration] <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> é exibido à esquerda do nome da iteração.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome da iteração</td> 
@@ -667,7 +667,7 @@ O cabeçalho do grupo exibe as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
-   <td> <p>O ícone laranja [!UICONTROL Group] <img src="assets/nwe-group-icon.png"> é exibido à esquerda do nome do grupo.</p> </td> 
+   <td> <p>O ícone laranja <img src="assets/nwe-group-icon.png"> do [!UICONTROL Group] é exibido à esquerda do nome do grupo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome do grupo</td> 
@@ -679,7 +679,7 @@ O cabeçalho do grupo exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área [!UICONTROL actions] do grupo</td> 
-   <td> <p>Ao lado do nome do grupo, o menu [!UICONTROL Mais] <img src="assets/more-menu.png"> é exibido, o que permite selecionar as seguintes opções:</p> 
+   <td> <p>Ao lado do nome do grupo, é exibido o menu [!UICONTROL Mais] <img src="assets/more-menu.png">, que permite selecionar as seguintes opções:</p> 
     <ul> 
      <li> <p>[!UICONTROL Editar]</p> </li> 
      <li> <p>[!UICONTROL Copiar]</p> </li> 
@@ -692,7 +692,7 @@ O cabeçalho do grupo exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenças em uso] </td> 
-   <td> <p>A caixa [!UICONTROL Licenças em uso] exibe o número de usuários de licença do [!UICONTROL Plano] e do [!UICONTROL Trabalho] no grupo e seus subgrupos. Você pode clicar nos números para ver essas informações para todos os 5 tipos de licença.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Exibir o número de licenças alocadas e usadas em um grupo no novo [!DNL Adobe Workfront] experiência</a>.</p> </td> 
+   <td> <p>A caixa [!UICONTROL Licenças em uso] exibe o número de usuários de licença do [!UICONTROL Plano] e do [!UICONTROL Trabalho] no grupo e seus subgrupos. Você pode clicar nos números para ver essas informações para todos os 5 tipos de licença.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Exibir o número de licenças alocadas e usadas em um grupo na nova experiência [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Administradores de Grupos]</td> 
@@ -739,7 +739,7 @@ O cabeçalho do documento exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de aprovação [!UICONTROL Decision]</td> 
-   <td> A área [!UICONTROL Decisões] é exibida no canto superior direito do cabeçalho do Documento. Essa área difere com base na fase de aprovação e se você é um aprovador, revisor ou nenhum dos dois. <ul><li> <p>Se você for um aprovador, poderá usar os seguintes ícones para gerenciar as aprovações do documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Aprovar]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Retroceder]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rejeitar]</p> <p>Para obter mais informações sobre decisões de aprovação, consulte <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovar trabalho</a>.</li><li><p>Se você for um revisor, poderá clicar no botão Concluir minha revisão para indicar que revisou o documento.</p><p>Para obter mais informações sobre como revisar um documento, consulte <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Revisar um documento</a>.</p></li><li>Caso contrário, essa área mostrará o status atual de revisão e aprovação do documento.</li><ul></p> </td> 
+   <td> A área [!UICONTROL Decisões] é exibida no canto superior direito do cabeçalho do Documento. Essa área difere com base na fase de aprovação e se você é um aprovador, revisor ou nenhum dos dois. <ul><li> <p>Se você for um aprovador, poderá usar os seguintes ícones para gerenciar as aprovações do documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Aprovar]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Retroceder]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rejeitar]</p> <p>Para obter mais informações sobre decisões de aprovação, consulte <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovando trabalho</a>.</li><li><p>Se você for um revisor, poderá clicar no botão Concluir minha revisão para indicar que revisou o documento.</p><p>Para obter mais informações sobre como revisar um documento, consulte <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Revisar um documento</a>.</p></li><li>Caso contrário, essa área mostrará o status atual de revisão e aprovação do documento.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -774,7 +774,7 @@ O cabeçalho da empresa exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações da empresa</td> 
-   <td> <p>Ao lado do nome da empresa, o menu [!UICONTROL Mais] <img src="assets/more-menu.png"> é exibido, o que permite selecionar as seguintes opções:</p> 
+   <td> <p>Ao lado do nome da empresa, é exibido o menu [!UICONTROL Mais] <img src="assets/more-menu.png">, que permite selecionar as seguintes opções:</p> 
     <ul> 
      <li> <p>[!UICONTROL Editar]</p> </li> 
      <li> <p>[!UICONTROL Excluir Empresa]</p> </li> 
@@ -787,7 +787,7 @@ O cabeçalho da empresa exibe as seguintes informações:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Os planos são os objetos da [!DNL Workfront Scenario Planner]. Para obter informações sobre o [!DNL Scenario Planner], consulte [A variável [!DNL Scenario Planner] visão geral](../../scenario-planner/scenario-planner-overview.md).
+Planos são objetos de [!DNL Workfront Scenario Planner]. Para obter informações sobre [!DNL Scenario Planner], consulte [A [!DNL Scenario Planner] visão geral](../../scenario-planner/scenario-planner-overview.md).
 
 O cabeçalho do plano exibe as seguintes informações:
 
@@ -825,9 +825,9 @@ O cabeçalho do plano exibe as seguintes informações:
    <td role="rowheader">Ações adicionais do plano</td> 
    <td> <p>Abaixo do nome do plano e da área de ações, você pode concluir as seguintes ações:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Mostrar conflitos]</strong>: Clicar nesse botão de alternância mostra ou oculta conflitos nas iniciativas.</p> </li> 
-     <li> <p><strong>[!UICONTROL Comparar cenários]</strong>: Ao clicar neste link, você verá uma comparação lado a lado dos cenários criados.</p> </li> 
-     <li> <p><strong>[!UICONTROL Seleção de cenário]</strong>: nesse menu suspenso, você pode copiar um cenário ou optar por exibir um cenário diferente.</p> </li> 
+     <li> <p><strong>[!UICONTROL Mostrar conflitos]</strong>: Clicar nesta opção mostra ou oculta conflitos nas iniciativas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Comparar cenários]</strong>: Clicar neste link mostra uma comparação lado a lado dos cenários criados.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleção de cenário]</strong>: nesse menu suspenso, você pode copiar um cenário ou selecionar para exibir um cenário diferente.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -847,8 +847,8 @@ O cabeçalho do plano exibe as seguintes informações:
    <td>Os usuários com acesso para exibir ou gerenciar o plano são exibidos no canto superior direito do cabeçalho. Passar o mouse sobre as imagens de perfil exibe os nomes.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ir para Publicação]</td> 
-   <td>Ao clicar em [!UICONTROL Ir para a Publicação], você pode criar ou atualizar um projeto vinculado a uma iniciativa no cenário que está visualizando.</td> 
+   <td role="rowheader">[!UICONTROL Ir para Publish]</td> 
+   <td>Ao clicar em [!UICONTROL Ir para Publish], você pode criar ou atualizar um projeto vinculado a uma iniciativa no cenário que está visualizando.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -858,7 +858,7 @@ O cabeçalho do plano exibe as seguintes informações:
 
 ![](assets/goal-header.png)
 
-Você pode criar metas estratégicas quando sua empresa tem acesso às Metas do Workfront. Para obter mais informações sobre [!DNL Workfront Goals], consulte [Introdução a [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+Você pode criar metas estratégicas quando sua empresa tem acesso às Metas do Workfront. Para obter mais informações sobre [!DNL Workfront Goals], consulte [Introdução a  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 O cabeçalho da meta exibe as seguintes informações:
 
@@ -914,7 +914,7 @@ O cabeçalho da meta exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
-   <td>Indica se a meta está ativa, nova ou fechada. Não é possível atualizar manualmente o Status da meta. Para obter mais informações, consulte <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Visão geral do Status da meta em [!DNL Adobe Workfront Goals]</a></td> 
+   <td>Indica se a meta está ativa, nova ou fechada. Não é possível atualizar manualmente o Status da meta. Para obter mais informações, consulte <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Visão geral do Status da Meta em [!DNL Adobe Workfront Goals]</a></td> 
   </tr> 
  </tbody> 
 </table>

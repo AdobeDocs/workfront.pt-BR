@@ -76,7 +76,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Você deve adicionar a área do Planning ao seu modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>Você deve adicionar a área do Planning ao seu modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -92,14 +92,14 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 1. Clique em um cartão do espaço de trabalho para abri-lo.
 1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione **Enter**.
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do espaço de trabalho no cabeçalho e clique em **Editar**.
+1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do espaço de trabalho no cabeçalho e clique em **Editar**.
 
    ![](assets/edit-workspace-box.png)
 
-   Atualize as seguintes informações no **Editar espaço de trabalho** caixa:
+   Atualize as seguintes informações na caixa **Editar espaço de trabalho**:
 
    * Adicione um nome ao espaço de trabalho. <!--did they add a label for this field?-->
-   * **Descrição**: adicione informações sobre o espaço de trabalho.
+   * **Descrição**: adicionar informações sobre o espaço de trabalho.
    * Selecione um ícone para associar ao espaço de trabalho.
 
 1. Clique em **Salvar** para fechar a caixa Editar espaço de trabalho e aplicar as alterações.
@@ -107,17 +107,17 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 1. (Opcional) Para adicionar uma nova seção do espaço de trabalho, siga um destes procedimentos:
 
    * Clique em **Adicionar seção** na parte inferior do espaço de trabalho.
-   * Passe o mouse sobre o nome de uma seção e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Adicionar seção acima** ou **Adicionar seção abaixo**.
+   * Passe o mouse sobre o nome de uma seção, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Adicionar seção acima** ou **Adicionar seção abaixo**.
 
 1. (Opcional) Para alterar o local de uma seção, siga um destes procedimentos:
 
-   * Passe o mouse sobre o nome de uma seção e clique no **agarrar** ícone ![](assets/grab-icon.png), em seguida, arraste e solte-o no ponto correto.
-   * Passe o mouse sobre o nome de uma seção e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Mover para cima** ou **Mover para baixo**. A seção se move para cima ou para baixo dentro do espaço de trabalho.
+   * Passe o mouse sobre o nome de uma seção, clique no ícone ![](assets/grab-icon.png) de **captura** e arraste-o e solte-o no ponto correto.
+   * Passe o mouse sobre o nome de uma seção, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Mover para cima** ou **Mover para baixo**. A seção se move para cima ou para baixo dentro do espaço de trabalho.
 
 1. (Opcional) Para excluir uma seção do espaço de trabalho, faça o seguinte:
 
-   1. Passe o mouse sobre o nome de uma seção, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Excluir**. <!--add screen shot when UI is final?-->
-   1. Selecione uma nova seção para mover todos os tipos de registro para ela e clique em **Excluir**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+   1. Passe o mouse sobre o nome de uma seção, em seguida, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Excluir**. <!--add screen shot when UI is final?-->
+   1. Selecione uma nova seção para mover todos os tipos de registros para ela e clique em **Excluir**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Todos os tipos de registro são movidos para a seção de seleção, e a seção é excluída.
 
@@ -125,13 +125,13 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
    Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no **Mais** menu ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para modificar a aparência de um tipo de registro.
+1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no menu **Mais** ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para modificar a aparência de um tipo de registro.
 
-   Para obter informações, consulte [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no **Mais** menu ![](assets/more-menu.png) no canto superior direito e clique em **Excluir** para excluir um tipo de registro.
+1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no menu **Mais** ![](assets/more-menu.png) no canto superior direito e clique em **Excluir** para excluir um tipo de registro.
 
-   Para obter informações, consulte [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md).
+   Para obter informações, consulte [Excluir tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Opcional) Pressione e clique em um cartão de tipo de registro para arrastá-lo e soltá-lo em um novo ponto. Você pode arrastar e soltar tipos de registro de uma seção do espaço de trabalho para outra.
 

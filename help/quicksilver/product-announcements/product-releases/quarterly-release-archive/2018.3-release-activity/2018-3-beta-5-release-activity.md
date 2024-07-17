@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 5 2018.3
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 5 de 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 21 de setembro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
+title: Atividade da versão 2018.3 do Beta 5
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 5. A funcionalidade estará disponível no ambiente de Pré-visualização em 21 de setembro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,35 +14,35 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 5 2018.3
+# Atividade da versão 2018.3 do Beta 5
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 5 de 2018.3. A funcionalidade estará disponível no ambiente de Pré-visualização em 21 de setembro de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 5.A funcionalidade estará disponível na Visualização ambiente em 21 de setembro de 2018. Será disponibilizado no ambiente de produção em novembro de 2018.
 
-Para obter uma lista de todas as alterações feitas em 2018.3, consulte  [Visão geral da atividade da versão 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para um lista de todas as alterações feitas em 2018.3, consulte [a versão 2018.3 atividade visão geral](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-A versão Beta 5 de 2018.3 contém melhorias para todos os usuários:
+A versão 5 beta 2018.3 contém melhorias para todos os usuários:
 
-* [Rastrear aprovações enviadas na área Página inicial](#track-approvals-you-ve-submitted-in-the-home-area)
+* [Rastrear aprovações enviadas na área inicial](#track-approvals-you-ve-submitted-in-the-home-area)
 * [Substituição de ferramentas baseadas em Flashes no Workfront](#replacement-of-flash-based-tools-in-workfront)
-* [Permitindo que Usuários da Licença de Trabalho Acessem a Subguia Agendamento de um Projeto](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
+* [Permitindo que Usuários de Licença de Trabalho Acessem a Subguia Agendamento de um Projeto](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
 * [Filtros aprimorados no Planejador de recursos](#improved-filters-in-the-resource-planner)
-* [Visualizar Horas efetivas no Planejador de recursos](#view-actual-hours-in-the-resource-planner)
-* [Dados do Planejador de Recursos na Exportação de Business Case](#resource-planner-data-in-the-business-case-export)
+* [Exibir Horas Efetivas no Planejador de Recursos](#view-actual-hours-in-the-resource-planner)
+* [Dados do Planejador de Recursos na Exportação do Business Case](#resource-planner-data-in-the-business-case-export)
 * [Habilitar Substituição de Taxa de Cobrança no Nível da Empresa](#enable-company-level-billing-rate-override)
 * [Aprovações simplificadas com base em funções](#simplified-role-based-approvals)
-* [Relatório de Utilização: Preenche Horas Orçadas da Nova Área de Orçamento de Recursos](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
+* [Relatório de utilização: preenche as horas orçadas da nova área de orçamento de recursos](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
 * [Relatório de Utilização: Exibir Horas Orçadas por Usuário em um Projeto](#utilization-report-view-budgeted-hours-by-user-on-a-project)
 * [Arquivos SWF não são mais suportados no visualizador de provas](#swf-files-no-longer-supported-in-the-proofing-viewer)
-* [Ações mais rapidamente acessíveis na Lista de comentários no visualizador de provas](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
+* [Ações Acessíveis Mais Rapidamente na Lista de Comentários no visualizador de provas](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
 * [Melhorias no compartilhamento de provas no visualizador de provas](#proof-sharing-improvement-in-the-proofing-viewer)
-* [Aprimoramentos da lista de comentários no visualizador de provas](#comments-list-enhancements-in-the-proofing-viewer)
-* [Provas de vídeo de Zoom e Panorâmica no visualizador de provas](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
-* [Plano de fundo mais claro no visualizador de provas](#lighter-background-in-the-proofing-viewer)
-* [Melhor visibilidade quando um comentário é editado no visualizador de provas](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
-* [Exibir o Número de Comentários Associados a uma Ação na Lista de Comentários no visualizador da prova](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
-* [Especificar o estágio ao adicionar usuários a uma prova no visualizador de provas](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
-* [Abrir o site associado a partir de uma prova interativa ou estática do site](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
-* [Melhorias no resumo de impressão](#print-summary-enhancements)
+* [Aprimoramentos da Lista de Comentários no visualizador de provas](#comments-list-enhancements-in-the-proofing-viewer)
+* [Aplicar zoom e planejar provas de vídeo no visualizador de provas](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
+* [Plano de Fundo Mais Claro no visualizador de revisões](#lighter-background-in-the-proofing-viewer)
+* [Melhor Visibilidade Quando um Comentário For Editado no visualizador de provas](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
+* [Exibir o Número de Comentários Associados a uma Ação na Lista de Comentários no visualizador de provas](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
+* [Especificar o Estágio ao Adicionar Usuários a uma Prova no visualizador de provas](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
+* [Abrindo o Site Associado a partir de uma Prova Interativa ou Estática do Site](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
+* [Melhorias no Resumo de Impressão](#print-summary-enhancements)
 * [Tempo de carregamento de prova aprimorado](#improved-proof-loading-time)
 * [Nova aparência da guia Atualizações no aplicativo móvel do Workfront](#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
 
@@ -52,10 +52,10 @@ Agora você pode usar a área da página inicial para interagir com as aprovaç�
 
 Em Casa, você pode:
 
-* Cancelar aprovações
-* Lembrar usuários de aprovações
-* Adicionar usuários às aprovações de documentos
-* Exibir aprovações de provas
+* Aprovações de recall
+* Lembrar os usuários das aprovações
+* Adicionar usuários a aprovações documento
+* aprovações Exibir prova
 
   Anteriormente, só era possível interagir com aprovações enviadas na área Meu trabalho. 
 
@@ -77,7 +77,7 @@ Para obter informações sobre o acesso necessário para acessar a subguia Agend
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Filtros aprimorados no Planejador de recursos {#improved-filters-in-the-resource-planner}
 
@@ -85,7 +85,7 @@ Agora é possível filtrar as informações no Planejador de recursos para inclu
 
 Antes dessa melhoria, você só poderia filtrar por um número limitado de campos e critérios integrados no Planejador de recursos.
 
-Para obter informações sobre como filtrar informações no Planejador de recursos, consulte [Filtrar informações no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Para obter informações sobre como filtrar informações no Planejador de recursos, consulte [Informações de filtro no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Visualizar Horas efetivas no Planejador de recursos {#view-actual-hours-in-the-resource-planner}
 
@@ -93,7 +93,7 @@ Você pode ver as Horas efetivas na visão de usuário do Planejador de recursos
 
 Antes dessa melhoria, as Horas efetivas não estavam visíveis no Planejador de recursos.
 
-Para obter informações sobre a exibição de informações de horas no Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obter informações sobre como exibir informações de horas no Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Dados do Planejador de Recursos na Exportação de Business Case {#resource-planner-data-in-the-business-case-export}
 
@@ -101,7 +101,7 @@ Quando você exporta o Business Case para um PDF, as informações financeiras n
 
 Anteriormente, o arquivo exportado refletia as informações na área Estimativas de recursos legados e no Planejador de capacidade. 
 
-Para obter informações sobre como exportar o Business Case, consulte o [Criar um Business Case para um projeto](../../../../manage-work/projects/define-a-business-case/create-business-case.md) seção em [Criar um Business Case para um projeto](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obter informações sobre como exportar o Business Case, consulte a seção [Criar um Business Case para um projeto](../../../../manage-work/projects/define-a-business-case/create-business-case.md) em [Criar um Business Case para um projeto](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Habilitar Substituição de Taxa de Cobrança no Nível da Empresa {#enable-company-level-billing-rate-override}
 
@@ -109,15 +109,15 @@ Agora você pode habilitar uma opção para permitir que taxas de cobrança no n
 
 Se você habilitar essa configuração, as taxas de cobrança no nível da empresa substituirão as taxas de função de trabalho históricas no projeto.
 
-Anteriormente, você não podia aplicar alterações de taxas de cobrança no nível da empresa a um projeto, a menos que removesse a empresa do projeto e, em seguida, o reanexasse.
+Anteriormente, você não podia aplicar alterações nas taxas de faturamento de nível empresa a um projeto, a menos que removesse os empresa do projeto e o anexasse novamente.
 
-Para obter mais informações, consulte [Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobrança no Nível da Empresa](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md). 
+Para obter mais informações, consulte [Substituir taxas de faturamento no nível do projeto com taxas de faturamento no nível da empresa](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
-## Aprovações simplificadas com base em funções {#simplified-role-based-approvals}
+## Aprovações simplificadas baseadas em função {#simplified-role-based-approvals}
 
-As aprovações com base em funções agora funcionam mais simplesmente em um projeto. Agora, os usuários devem ser atribuídos à equipe do projeto e ter a função atribuída em seu perfil de usuário para ver as aprovações atribuídas a suas funções principais ou secundárias.
+As aprovações baseadas em função agora funcionam mais simplesmente em um projeto. Agora, os usuários devem ser designados ao equipe do projeto e ter o função atribuído em seus usuário perfil para ver aprovações atribuídas às suas funções primárias ou secundárias.
 
-Anteriormente, você tinha que atribuir usuários à equipe do projeto, garantir que eles tivessem a função correta em seu perfil de usuário e selecionar essa função no Construtor de equipe herdado.
+Anteriormente, você tinha que atribuir usuários ao equipe do projeto, garantir que eles tivessem a função correta em suas usuário perfil e selecionar os função no Construtor de equipe herdado.
 
 Para obter mais informações, consulte a seção [Visão geral da equipe do projeto](../../../../manage-work/projects/planning-a-project/project-team-overview.md) no artigo [Visão geral da equipe do projeto](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -131,7 +131,7 @@ As horas orçadas no Relatório de utilização agora são preenchidas com base 
 
 Antes dessa alteração, eram usadas informações da área Estimativas de recursos herdada.
 
-Para obter mais informações, consulte  [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) no artigo  [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) no artigo  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Relatório de Utilização: Exibir Horas Orçadas por Usuário em um Projeto {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,13 +143,13 @@ O relatório de Utilização em um projeto agora exibe Horas orçadas por usuár
 
 Antes dessa alteração, o relatório de Utilização exibia as Horas Orçadas somente por função de trabalho. 
 
-Para obter mais informações, consulte  [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) no artigo  [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) no artigo  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Arquivos SWF não são mais suportados no visualizador de provas {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
 Devido a preocupações de segurança associadas ao Flash Adobe, o visualizador de provas não é mais compatível com provas criadas a partir de arquivos SWF. Se você abrir uma prova criada anteriormente para um arquivo SWF, será exibida uma mensagem mostrando onde o conteúdo da prova era exibido anteriormente no visualizador de provas. Você pode ver qualquer comentário na prova. Você também pode baixar comentários e o arquivo SWF original.
 
-Para obter mais informações, consulte [Visão geral de tipos de arquivo de comprovação e limites de tamanho compatíveis](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) no artigo [Visão geral de tipos de arquivo de comprovação e limites de tamanho compatíveis](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
+Para obter mais informações, consulte [Visão geral sobre tipos de arquivos de comprovação e limites de tamanho com suporte](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) no artigo [Visão geral sobre tipos de arquivos de comprovação e limites de tamanho com suporte](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
 
 ## Ações mais rapidamente acessíveis na Lista de comentários no visualizador de provas {#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer}
 
@@ -161,13 +161,13 @@ Para obter mais informações, consulte [Usar ações em comentários de prova](
 
 ## Melhorias no compartilhamento de provas no visualizador de provas {#proof-sharing-improvement-in-the-proofing-viewer}
 
-Ao enviar um URL do revisor de provas, as opções exibidas agora são organizadas exatamente como as opções exibidas ao compartilhar um URL na área Documentos.
+Ao enviar uma URL do visualizador de prova, as opções exibidas agora são organizadas exatamente curtir opções que você vê quando compartilha um URL da área Documentos.
 
-Anteriormente, essas opções forneciam a mesma funcionalidade que agora, mas sua organização era inconsistente com as opções correspondentes na lista Documentos.
+Anteriormente, essas opções forneceu o mesmo funcionalidade que fazem agora, mas sua organização foi inconsistente com as opções correspondentes nos Documentos lista.
 
-Para obter mais informações, consulte a seção  [Compartilhar o URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) no artigo  [Compartilhar uma prova do visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Para obter mais informações, consulte a seção [Compartilhar a URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) no artigo [Compartilhar uma prova das visualizador](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md) de prova.
 
-## Aprimoramentos da lista de comentários no visualizador de provas {#comments-list-enhancements-in-the-proofing-viewer}
+## Aprimoramentos na lista de comentários na visualizador de prova {#comments-list-enhancements-in-the-proofing-viewer}
 
 As seguintes melhorias estão disponíveis na Lista de comentários:
 
@@ -215,15 +215,15 @@ Ao adicionar um revisor a uma prova que tenha um fluxo de trabalho automatizado 
 
 Anteriormente, ao adicionar revisores a uma prova do visualizador de provas, o Workfront os colocava no estágio que estava ativo no momento.
 
-Para obter mais informações, consulte [Compartilhar uma prova adicionando usuários a ela](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in [Compartilhar uma prova do visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Para obter mais informações, consulte [Compartilhar uma prova adicionando usuários a ela](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) em [Compartilhar uma prova do visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
-## Abrir o site associado a partir de uma prova interativa ou estática do site {#opening-the-associated-website-from-an-interactive-or-static-website-proof}
+## Abrir o site associado a partir de uma prova de site interativo ou estático {#opening-the-associated-website-from-an-interactive-or-static-website-proof}
 
-Ao revisar uma prova com conteúdo da Web interativo ou estático, agora é possível clicar em um botão para abrir facilmente o site associado em uma nova guia do navegador no visualizador de provas. Isso permite comparar o que você vê na prova com o site real usando duas guias diferentes.
+Enquanto revisa um prova contendo conteúdo web interativos ou estáticos, você agora pode clicar em uma botão para abrir facilmente o site associado em uma nova navegador guia do visualizador de prova. Isso permite comparar o que você vê no prova com o site real usando duas guias diferentes.
 
-Anteriormente, você podia abrir o site associado passando o mouse sobre o URL e clicando na dica de ferramenta. Essa abordagem era acessível e intuitiva.
+Anteriormente, você podia abrir o site associado pairando sobre a URL e clicando na dica de ferramenta. Essa abordagem era acessível e intuitiva.
 
-## Melhorias no resumo de impressão {#print-summary-enhancements}
+## Melhorias do resumo de Impressão {#print-summary-enhancements}
 
 As seguintes melhorias estão disponíveis na página Resumo de impressão:
 
@@ -254,4 +254,4 @@ Para obter informações sobre como abrir provas, consulte.
 
 A aparência da guia Atualizações no Aplicativo móvel foi atualizada. No momento, esse aprimoramento está disponível somente no aplicativo beta do Workfront para Android.
 
-Para obter informações sobre como gerenciar atualizações e comentários no aplicativo móvel do Workfront, consulte a seção em .
+Para obter informações sobre como gerenciar atualizações e comentários no aplicativo móvel do Workfront, consulte a seção  em .

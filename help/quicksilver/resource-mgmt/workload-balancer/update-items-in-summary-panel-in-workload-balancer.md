@@ -51,12 +51,12 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou com permissões superiores para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superiores para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Atualizar tarefas e problemas no painel Resumo do Balanceador de carga de trabalho
 
@@ -64,11 +64,11 @@ Você deve ter o seguinte:
 
    O Balanceador de carga de trabalho exibe informações de atribuição de trabalho começando com a semana atual.
 
-1. Vá para a **Trabalho não atribuído** e localize um item de trabalho.
+1. Vá para a área **Trabalho não atribuído** e localize um item de trabalho.
 
    Ou
 
-   Vá para a **Trabalho atribuído** , expanda um usuário e localize um item de trabalho.
+   Vá para a área **Trabalho atribuído**, expanda um usuário e localize um item de trabalho.
 
 1. Clique na barra de uma tarefa ou problema para abrir o painel Resumo à direita.
 
@@ -78,19 +78,19 @@ Você deve ter o seguinte:
 
    Ou
 
-   Clique em **Mais** menu ![](assets/more-icon.png) à direita de uma tarefa ou problema, em seguida clique em **Abrir resumo**.
+   Clique no menu **Mais** ![](assets/more-icon.png) à direita de uma tarefa ou problema e clique em **Abrir Resumo**.
 
    O painel Resumo é aberto à direita.
 
    <div class="preview">
 
    Exemplo do painel Resumo no ambiente de Pré-visualização:
-   ![Painel Resumo](assets/summary-panel-task-wb-new-comments.png)
+   ![Painel de resumo](assets/summary-panel-task-wb-new-comments.png)
 
    </div>
 
    Exemplo do painel Resumo no ambiente de Produção:
-   ![Painel Resumo](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   ![Painel de resumo](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modifique um número de campos para o item de trabalho, informe uma atualização ou navegue daqui para outras áreas do Workfront para adicionar documentos ou outras informações ao item de trabalho.
 
@@ -98,7 +98,7 @@ Você deve ter o seguinte:
    >
    >Navegar do Resumo para a seção Subtarefas para adicionar subtarefas remove a tarefa original, pois as tarefas pai não são exibidas no Balanceador de carga de trabalho.
 
-   Para obter mais informações sobre como atualizar informações usando o Resumo, consulte [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Para obter mais informações sobre como atualizar informações usando o Resumo, consulte [Visão geral do Resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Condicional) Se você abriu qualquer seção do item de trabalho, clique no link do **Botão Voltar** para retornar ao Balanceador de carga de trabalho.
-1. Clique em **Ícone Fechar** ![](assets/close-icon.png) no canto superior direito do Resumo, para fechá-lo.
+1. (Condicional) Se você abriu qualquer uma das seções do item de trabalho, clique no **botão Voltar** do navegador para retornar ao Balanceador de carga de trabalho.
+1. Clique no ícone **Fechar** ![](assets/close-icon.png) no canto superior direito do Resumo para fechá-lo.

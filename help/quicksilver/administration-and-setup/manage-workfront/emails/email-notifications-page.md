@@ -27,5 +27,5 @@ Como administrador do Adobe Workfront, você pode configurar as notificações d
 
 Esses links abrem a área de usuário dos artigos de ajuda para notificações do Adobe Workfront.
 
-* Para obter informações gerais sobre notificações, consulte [Notificações do Adobe Workfront](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
-* Para obter informações sobre como configurar suas próprias notificações no perfil, consulte [Modificar suas próprias notificações por email](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Para obter informações gerais sobre notificações, consulte [notificações do Adobe Workfront](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
+* Para obter informações sobre como configurar as suas próprias notificações no perfil, consulte [Modificar suas próprias notificações por email](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).

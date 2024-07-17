@@ -33,17 +33,17 @@ Para obter uma lista de todas as alterações feitas na versão 2019.1, consulte
 **Para todos os usuários**
 
 * [Melhorias Agile](#agile-improvements)
-* [Adicionar tarefas e problemas de uma lista a uma iteração](#add-tasks-and-issues-from-a-list-to-an-iteration)
-* [Novos Tamanhos de Papel para Exportação de Gráfico de Gantt](#new-paper-sizes-for-gantt-chart-export)
-* [Remoção do acesso a caixas de diálogo no Gráfico de Gantt durante o modo de edição](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [Exibir Informações de Tarefa no Gráfico de Gantt da Lista de Projetos em um Programa ou Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [Acessar o Diagrama de Gantt da Lista de Tarefas nos Modelos](#access-the-task-list-gantt-chart-on-templates)
-* [Exibição de projeto renomeada no Gráfico de Gantt](#renamed-the-project-view-on-the-gantt-chart)
-* [Cenários de Hipóteses no Gráfico de Gantt da Lista de Tarefas](#what-if-scenarios-in-the-task-list-gantt-chart)
-* [Melhorias na lista de tarefas](#task-list-improvements)
-* [Exibir listas em tela cheia](#display-lists-in-full-screen)
-* [Novas listas em áreas adicionais](#new-lists-in-additional-areas)
-* [Enviar um relatório entregue no formato XLSX](#send-a-delivered-report-in-xlsx-format)
+* [Adicionar Tarefas e Problemas de uma Lista a uma Iteração](#add-tasks-and-issues-from-a-list-to-an-iteration)
+* [Novos Tamanhos de Papel para Exportação do Gráfico de Gantt](#new-paper-sizes-for-gantt-chart-export)
+* [Remoção do Acesso às Caixas de Diálogo do Gráfico de Gantt no Modo de Edição](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [Exibir Informações da Tarefa no Gráfico de Gantt da Lista de Projetos em um Programa ou Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [Acessar o Gráfico de Gantt da Lista de Tarefas nos Modelos](#access-the-task-list-gantt-chart-on-templates)
+* [Exibição do Projeto renomeada no Gráfico de Gantt](#renamed-the-project-view-on-the-gantt-chart)
+* [Cenários de hipóteses no Gráfico de Gantt da Lista de Tarefas](#what-if-scenarios-in-the-task-list-gantt-chart)
+* [Melhorias na Lista de Tarefas](#task-list-improvements)
+* [Exibir Listas em Tela Inteira](#display-lists-in-full-screen)
+* [Novas Listas em Áreas Adicionais](#new-lists-in-additional-areas)
+* [Enviar um Relatório Entregue no Formato XLSX](#send-a-delivered-report-in-xlsx-format)
 * [Exportar logs de auditoria](#export-audit-logs)
 
 ## Restaurar Modelos da Lixeira {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ Para obter informações sobre a programação de relatórios para entrega, cons
 
 ## Melhorias na lista de tarefas {#task-list-improvements}
 
-[atualização 18.3 Beta 4 em que foi removido de]
+[atualizar 18.3 Beta 4 de onde foi removido]
 
 As listas de tarefas recém-reprojetadas foram reativadas após uma breve remoção durante a versão 18.3 beta 4. Também introduzimos os seguintes recursos adicionais nas listas de tarefas que não faziam parte da versão original:
 

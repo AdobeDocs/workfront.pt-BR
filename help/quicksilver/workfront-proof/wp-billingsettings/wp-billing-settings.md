@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Configurações de cobrança da prova do Workfront
-description: Saiba mais sobre o Faturamento de prova do Workfront.
+title: Configurações de faturamento do Workfront Proof
+description: Saiba mais sobre o faturamento da Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] Configurações de Cobrança
+# Configurações de Cobrança do [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém as seguintes subseções:
 

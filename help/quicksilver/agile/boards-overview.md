@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Quadros] visão geral
+# Visão geral dos [!UICONTROL Quadros]
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] são ferramentas flexíveis que permitem a colaboração em equipe, fornecendo acesso a um quadro compartilhado que contém colunas e cartões.
 
@@ -24,16 +24,16 @@ Com os painéis de discussão, você pode:
 
 * Configurar rapidamente um quadro de tarefas
 * Configurar colunas para mostrar um status ou categoria
-* Personalize workflows com cartões abertos (cartões ad hoc ou cartões conectados ao [!DNL Workfront] tarefas e problemas)
+* Personalize fluxos de trabalho com cartões abertos (cartões ad hoc ou cartões conectados a tarefas e problemas do [!DNL Workfront])
 * Organize e gerencie o trabalho de uma equipe em um único local
 * Usar ferramentas de planejamento ágeis, como uma coluna de entrada para quadros Kanban
 
-Para obter informações sobre como usar os recursos básicos das placas, consulte [Introdução a quadros: índice de artigos](../agile/get-started-with-boards/get-started-with-boards.md). Para obter informações sobre as ferramentas de planejamento ágil nos quadros, consulte [Visão geral das ferramentas de planejamento ágil](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+Para obter informações sobre como usar os recursos básicos de quadros, consulte [Introdução a quadros: índice de artigo](../agile/get-started-with-boards/get-started-with-boards.md). Para obter informações sobre as ferramentas de planejamento ágil nos quadros, consulte [Visão geral das ferramentas de planejamento ágil](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Para obter informações sobre como usar um quadro em um projeto, consulte [Gerenciar um projeto na visualização Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obter informações sobre como usar um quadro em um projeto, consulte [Gerenciar um projeto na Exibição Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-Você também pode acessar quadros no aplicativo móvel. Para obter informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] para dispositivos móveis](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Você também pode acessar quadros no aplicativo móvel. Para obter informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] para celular](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Para ver as apresentações de vídeo dos recursos de placas, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] demonstrações em vídeo](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Para ver as apresentações de vídeo dos recursos de quadros, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] demonstrações de vídeo](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Para obter informações sobre ferramentas ágeis adicionais no [!DNL Workfront], consulte [Visão geral do Agile](../agile/agile-overview.md).

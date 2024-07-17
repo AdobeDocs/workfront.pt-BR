@@ -21,13 +21,13 @@ Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e traba
 
 Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
-Para obter informações gerais sobre como criar e editar um agendamento, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Para obter informações gerais sobre como criar e editar uma agenda, consulte [Criar uma agenda](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
 >Administradores de grupo e usuários com uma licença de plano que podem editar outros usuários podem adicionar um agendamento no nível do sistema ou no nível do grupo a outro usuário quando eles estiverem editando o perfil desse usuário.
 
-Para obter informações sobre como as programações são usadas no planejamento de recursos, consulte [Visão geral dos cronogramas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Visão geral do Planejador de recursos](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obter informações sobre como os agendamentos são usados no planejamento de recursos, consulte [Visão geral dos agendamentos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Visão geral do Planejador de recursos](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Requisitos de acesso
 
@@ -39,7 +39,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -48,11 +48,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Criar ou modificar as agendas de um grupo
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Grupos**.
 
@@ -62,6 +62,6 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 1. No painel esquerdo, clique em **Agendamentos**.
 1. Siga um destes procedimentos:
 
-   * Clique em **Nova programação** para criar um novo agendamento
-   * Selecione um cronograma e use os controles na barra de ferramentas para **Editar**, **Copiar** ou **Excluir** o mesmo.
+   * Clique em **Novo Calendário** para criar um novo agendamento
+   * Selecione um agendamento e use os controles da barra de ferramentas para **Editar**, **Copiar** ou **Excluí-lo**.
    * **Exportar** a lista de agendamentos do grupo.

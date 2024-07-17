@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do Adobe Campaign v7/v8
-description: Com o [!DNL Adobe Campaign] módulos, você pode iniciar um [!DNL Adobe Workfront Fusion] cenário com base em eventos no seu [!DNL Adobe Campaign] conta, criar, ler ou atualizar contratos e outros registros, pesquisar registros usando os critérios que você definiu e fazer upload de documentos.
+description: Com os  [!DNL Adobe Campaign] módulos, você pode iniciar um [!DNL Adobe Workfront Fusion] cenário com base nos eventos da sua [!DNL Adobe Campaign] conta, criar, ler ou atualizar contratos e outros registros, pesquisar registros usando os critérios que você definiu e carregar documentos.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Campaign] módulos
 
-Com o [!DNL Adobe Campaign] módulos, você pode iniciar um [!DNL Adobe Workfront Fusion] cenário com base em eventos no seu [!DNL Adobe Campaign v7/v8] criar, ler ou atualizar registros, pesquisar registros usando os critérios definidos e executar chamadas de API personalizadas.
+Com os módulos do [!DNL Adobe Campaign], você pode iniciar um cenário do [!DNL Adobe Workfront Fusion] com base em eventos na sua conta do [!DNL Adobe Campaign v7/v8], criar, ler ou atualizar registros, pesquisar registros usando critérios que você definiu e executar chamadas de API personalizadas.
 
 ## Requisitos de acesso
 
@@ -39,42 +39,42 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-É necessário adicionar os endereços IP do Fusion ao [!DNL Adobe Campaign].
+Você deve adicionar os endereços IP do Fusion a [!DNL Adobe Campaign].
 
-* Para obter instruções sobre como adicionar endereços IP ao incluo na lista de permissões Campaign, consulte [Adição de endereços IP ao incluo na lista de permissões](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) na documentação do Adobe Campaign.
-* Para obter uma lista de endereços IP a serem adicionados ao incluo na lista de permissões, consulte [Endereços IP para acessar o Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
+* Para obter instruções sobre como adicionar endereços IP ao arquivo de incluir na lista de permissões inclui na lista de permissões do Campaign, consulte [Adicionar endereços IP ao arquivo](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) na documentação do Adobe Campaign.
+* Incluir na lista de permissões Para obter uma lista de endereços IP a serem adicionados ao arquivo, consulte [Endereços IP para acessar o Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
 
-## Conectar [!DNL Adobe Campaign] para [!DNL Adobe Workfront Fusion]
+## Conectar [!DNL Adobe Campaign] a [!DNL Adobe Workfront Fusion]
 
 >[!IMPORTANT]
 >
->É altamente recomendável criar uma conexão de servidor para servidor. A Adobe Campaign atualizou a API para aceitar somente conexões servidor para servidor. Se estiver se conectando ao Campaign versão 8 ou superior, você **deve** criar uma conexão servidor a servidor.
+>É altamente recomendável criar uma conexão de servidor para servidor. A Adobe Campaign atualizou a API para aceitar somente conexões servidor para servidor. Se você estiver se conectando ao Campaign versão 8 ou superior, **deverá** criar uma conexão servidor a servidor.
 >
->Para obter mais informações sobre os novos requisitos de conexão do Campaign, consulte [Migração de operadores técnicos do Campaign para o Console do Adobe Developer](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) na documentação do Campaign.
+>Para obter mais informações sobre os novos requisitos de conexão do Campaign, consulte [Migração de operadores técnicos do Campaign para o Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) na documentação do Campaign.
 
-1. Em qualquer [!DNL Adobe Campaign] , clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
+1. Em qualquer módulo [!DNL Adobe Campaign], clique em **[!UICONTROL Adicionar]** ao lado do campo [!UICONTROL Conexão].
 1. Preencha os seguintes campos:
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -96,7 +96,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL URL Base]</td>
-          <td>Insira o URL base que você usa para se conectar ao seu [!DNL Adobe Campaign] instância.</td>
+          <td>Insira a URL de base que você usa para se conectar à sua instância do [!DNL Adobe Campaign].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Nome de Usuário]</td>
@@ -108,11 +108,11 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL ID do Cliente]</td>
-          <td>Se estiver criando uma conexão de servidor para servidor, insira [!DNL Adobe] [!UICONTROL ID do Cliente]. Isso pode ser encontrado na seção [!UICONTROL Credenciais detalhes] do [!DNL Adobe Developer Console].</td>
+          <td>Se você estiver criando uma conexão servidor a servidor, digite sua [!DNL Adobe] [!UICONTROL ID do Cliente]. Isso pode ser encontrado na seção [!UICONTROL Credentials details] do [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Segredo do Cliente]</td>
-          <td>Se estiver criando uma conexão de servidor para servidor, insira [!DNL Adobe] [!UICONTROL Segredo do Cliente]. Isso pode ser encontrado na seção [!UICONTROL Credenciais detalhes] do [!DNL Adobe Developer Console].
+          <td>Se você estiver criando uma conexão servidor a servidor, digite o [!DNL Adobe] [!UICONTROL Client Secret]. Isso pode ser encontrado na seção [!UICONTROL Credentials details] do [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Ambiente]</td>
@@ -124,13 +124,13 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
         </tr>
    </tbody>
     </table>
-1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
+1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar para o módulo.
 
 ## [!DNL Adobe Campaign] módulos e seus campos
 
-Ao configurar [!DNL Adobe Campaign] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Adobe Campaign] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL Adobe Campaign], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL Adobe Campaign] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -140,7 +140,7 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 ### Triggers
 
-#### [!UICONTROL Observar registros]
+#### [!UICONTROL Registros de observação]
 
 Esse módulo de acionador agendado inicia um cenário quando um registro é alterado.
 
@@ -150,7 +150,7 @@ Esse módulo de acionador agendado inicia um cenário quando um registro é alte
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filtro]</td> 
@@ -166,7 +166,7 @@ Esse módulo de acionador agendado inicia um cenário quando um registro é alte
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campos personalizados a serem incluídos na saída]</td> 
-   <td>Para cada campo personalizado que deseja incluir na saída, clique em <b>[!UICONTROL Adicionar]</b> e insira o nome do campo personalizado.</td> 
+   <td>Para cada campo personalizado que você deseja incluir na saída, clique em <b>[!UICONTROL Adicionar]</b> e insira o nome do campo personalizado.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de resultados retornados]</td> 
@@ -183,12 +183,12 @@ Esse módulo de acionador agendado inicia um cenário quando um registro é alte
 * [[!UICONTROL Excluir um registro]](#delete-record)
 * [[!UICONTROL Executar uma ação]](#perform-an-action)
 * [[!UICONTROL Ler um registro]](#-read-a-record)
-* [[!UICONTROL Assinar ou cancelar inscrição]](#subscribe-or-unsubscribe)
+* [[!UICONTROL Assinar ou cancelar assinatura]](#subscribe-or-unsubscribe)
 * [[!UICONTROL Atualizar um registro]](#update-record)
 
 #### [!UICONTROL Criar um registro]
 
-Este módulo de ação cria um novo registro no [!DNL Adobe Campaign].
+Este módulo de ação cria um novo registro em [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -196,11 +196,11 @@ Este módulo de ação cria um novo registro no [!DNL Adobe Campaign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
-   <td>Selecione o tipo de [!DNL Adobe Campaign] registro que deseja criar.</td> 
+   <td>Selecione o tipo de registro [!DNL Adobe Campaign] que deseja criar.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campos] </td> 
@@ -208,14 +208,14 @@ Este módulo de ação cria um novo registro no [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campos personalizados]</td> 
-   <td> Para cada campo personalizado que deseja adicionar ao novo registro, clique em <b>[!UICONTROL Adicionar item]</b> e insira ou mapeie o nome e o valor do campo. </td> 
+   <td> Para cada campo personalizado que você deseja adicionar ao novo registro, clique em <b>[!UICONTROL Adicionar item]</b> e insira ou mapeie o nome e o valor do campo. </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Fazer uma chamada de API personalizada]
 
-Esse módulo faz uma chamada de API personalizada para o [!DNL Adobe Campaign] API
+Este módulo faz uma chamada de API personalizada para a API [!DNL Adobe Campaign]
 
 <table style="table-layout:auto"> 
   <col/>
@@ -223,7 +223,7 @@ Esse módulo faz uma chamada de API personalizada para o [!DNL Adobe Campaign] A
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ação]</td>
@@ -249,7 +249,7 @@ Esse módulo faz uma chamada de API personalizada para o [!DNL Adobe Campaign] A
   </tbody>
 </table>
 
-#### [!UICONTROL Excluir registro]
+#### [!UICONTROL Excluir Registro]
 
 Este módulo de ação exclui um único registro de [!DNL Adobe Campaign].
 
@@ -259,7 +259,7 @@ Este módulo de ação exclui um único registro de [!DNL Adobe Campaign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
@@ -275,7 +275,7 @@ Este módulo de ação exclui um único registro de [!DNL Adobe Campaign].
 
 #### [!UICONTROL Executar uma ação]
 
-Este módulo de ação executa uma ação selecionada em um objeto na [!DNL Adobe Campaign] API.
+Este módulo de ação executa uma ação selecionada em um objeto na API [!DNL Adobe Campaign].
 
 Para obter informações sobre ações e campos específicos, consulte [[!DNL Adobe Campaign] - Documentação da API](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
@@ -285,17 +285,17 @@ Para obter informações sobre ações e campos específicos, consulte [[!DNL Ad
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ação]</td> 
    <td><p>Selecione a ação a ser executada no objeto.</p>
    <ul>
-   <li><p><b>[!DNL List]</b></p><p> Para obter os campos disponíveis, consulte <a href="#search" class="MCXref xref" >[!UICONTROL Pesquisar]</a> neste artigo. </p></li>
-     <li><p><b>[!UICONTROL Obter]</b></p><p> Para obter os campos disponíveis, consulte <a href="#search" class="MCXref xref" >[!UICONTROL Pesquisar]</a> neste artigo. </p></li> 
-   <li><p><b>[!UICONTROL Criar]</b></p><p> Para obter os campos disponíveis, consulte <a href="#create-a-record" class="MCXref xref" >[!UICONTROL Criar um registro]</a> neste artigo. </p></li>
-   <li><p><b>[!UICONTROL Atualizar]</b></p><p> Para obter os campos disponíveis, consulte <a href="#update-record" class="MCXref xref" >[!UICONTROL Atualizar um registro]</a> neste artigo. </p></li>
-   <li><p><b>[!UICONTROL Excluir]</b></p><p> Para obter os campos disponíveis, consulte <a href="#delete-record" class="MCXref xref" >[!UICONTROL Excluir um registro]</a> neste artigo. </p></li>
+   <li><p><b>[!DNL List]</b></p><p> Para obter os campos disponíveis, consulte <a href="#search" class="MCXref xref" >[!UICONTROL Pesquisa]</a> neste artigo. </p></li>
+     <li><p><b>[!UICONTROL Obter]</b></p><p> Para obter os campos disponíveis, consulte <a href="#search" class="MCXref xref" >[!UICONTROL Pesquisa]</a> neste artigo. </p></li> 
+   <li><p><b>[!UICONTROL Criar]</b></p><p> Para campos disponíveis, consulte <a href="#create-a-record" class="MCXref xref" >[!UICONTROL Criar um registro]</a> neste artigo. </p></li>
+   <li><p><b>[!UICONTROL Atualizar]</b></p><p> Para campos disponíveis, consulte <a href="#update-record" class="MCXref xref" >[!UICONTROL Atualizar um registro]</a> neste artigo. </p></li>
+   <li><p><b>[!UICONTROL Excluir]</b></p><p> Para campos disponíveis, consulte <a href="#delete-record" class="MCXref xref" >[!UICONTROL Excluir um registro]</a> neste artigo. </p></li>
    </ul>
    </td>
 </tr> 
@@ -312,11 +312,11 @@ Este módulo de ação lê um registro de [!DNL Adobe Campaign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
-   <td>Selecione o tipo de [!DNL Adobe Campaign] registro que você deseja ler.</td> 
+   <td>Selecione o tipo de registro [!DNL Adobe Campaign] que deseja ler.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -328,13 +328,13 @@ Este módulo de ação lê um registro de [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campos personalizados a serem incluídos na saída]</td> 
-   <td>Para cada campo personalizado que deseja incluir na saída, clique em <b>[!UICONTROL Adicionar]</b> e insira o nome do campo personalizado.</td> 
+   <td>Para cada campo personalizado que você deseja incluir na saída, clique em <b>[!UICONTROL Adicionar]</b> e insira o nome do campo personalizado.</td> 
   </tr> 
  </tbody> 
 </table>
 
 
-#### [!UICONTROL Assinar ou cancelar inscrição]
+#### [!UICONTROL Assinar ou cancelar assinatura]
 
 Este módulo de ação assina um usuário ou cancela a assinatura de um usuário em um serviço de informação.
 
@@ -344,7 +344,7 @@ Este módulo de ação assina um usuário ou cancela a assinatura de um usuário
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assinar ou cancelar assinatura]</td> 
@@ -363,7 +363,7 @@ Este módulo de ação assina um usuário ou cancela a assinatura de um usuário
 
 #### [!UICONTROL Atualizar registro]
 
-Este módulo de ação atualiza um único registro no [!DNL Adobe Campaign].
+Este módulo de ação atualiza um único registro em [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -371,11 +371,11 @@ Este módulo de ação atualiza um único registro no [!DNL Adobe Campaign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
-   <td>Selecione o tipo de [!DNL Adobe Campaign] registro que deseja criar.</td> 
+   <td>Selecione o tipo de registro [!DNL Adobe Campaign] que deseja criar.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -387,7 +387,7 @@ Este módulo de ação atualiza um único registro no [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campos personalizados]</td> 
-   <td> Para cada campo personalizado que deseja atualizar, clique em <b>[!UICONTROL Adicionar item]</b> e insira ou mapeie o nome e o valor do campo. </td> 
+   <td> Para cada campo personalizado que você deseja atualizar, clique em <b>[!UICONTROL Adicionar item]</b> e insira ou mapeie o nome e o valor do campo. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -404,11 +404,11 @@ Este módulo de pesquisa retorna registros com base nos critérios especificados
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe Campaign]</a> neste artigo.</td> 
+   <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Campaign], consulte <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Campaign]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recurso]</td> 
-   <td>Selecione o tipo de [!DNL Adobe Campaign] registro que deseja criar.</td> 
+   <td>Selecione o tipo de registro [!DNL Adobe Campaign] que deseja criar.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limite] </td> 

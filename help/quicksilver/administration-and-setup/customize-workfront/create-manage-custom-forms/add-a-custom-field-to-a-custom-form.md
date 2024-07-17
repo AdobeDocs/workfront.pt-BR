@@ -66,11 +66,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Adicionar um campo personalizado a um formulário personalizado {#add-custom-field-to-custom-form}
 
 1. Comece a criar ou editar um formulário personalizado, conforme descrito em [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Selecione o **Adicionar um campo** guia.
+1. Selecione a guia **Adicionar um campo**.
 
    ![Adicionar uma guia de campo](assets/add-a-field.jpg)
 
-1. Com **Novo campo** ![Ícone Novo campo](assets/new-field.jpg) selecionado, selecione um destes tipos de campo:
+1. Com o **Novo Campo** ![Ícone Novo Campo](assets/new-field.jpg) selecionado, selecione um destes tipos de campo:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,7 +88,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Campo de texto com formatação</td> 
-      <td>Permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Isso está disponível na Página inicial, na área Atualizações, em listas e na área Detalhes para objetos do Workfront. Um limite de 15.000 caracteres permite bastante texto e formatação.</p> <p>Esse tipo de campo personalizado não é compatível com filtros em listas e relatórios.</p> <p>Para obter informações sobre como acessar esse campo por meio da API, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Armazenamento de campo Rich Text na API</a>.</p> <p><b>NOTA</b>: campos de texto com formatação não estão disponíveis para aplicativos móveis Workfront. </p> </td> 
+      <td>Permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Isso está disponível na Página inicial, na área Atualizações, em listas e na área Detalhes para objetos do Workfront. Um limite de 15.000 caracteres permite bastante texto e formatação.</p> <p>Esse tipo de campo personalizado não é compatível com filtros em listas e relatórios.</p> <p>Para obter informações sobre como acessar este campo por meio da API, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Armazenamento de campo Rich Text na API</a>.</p> <p><b>OBSERVAÇÃO</b>: campos de texto com formatação não estão disponíveis para aplicativos móveis do Workfront. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Suspenso</td> 
@@ -141,7 +141,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Os campos que permitem várias seleções, como Caixa de seleção e Lista suspensa, são difíceis de representar em gráfico e agrupar nos relatórios. Para facilitar a criação de gráficos e o agrupamento em relatórios, é possível criar campos separados para cada escolha (por exemplo, um campo de texto de linha única).
 
-1. No **Configurações do campo** , configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
+1. Na guia **Configurações do Campo**, configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,10 +173,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td role="rowheader">Formatar</td> 
       <td> <p>Selecione o tipo de dados que será capturado no campo personalizado. Você pode alterar a seleção de formato depois de salvar o formulário, mas o novo formato deve aceitar o valor inserido.</p>
 
-   <p><strong>Exemplo:</strong> Se você salvar um valor numérico para um campo com formato de Texto em pelo menos um objeto e depois alterar o formato para Número ou Moeda, não ocorrerá erro. </p>
+   <p><strong>Exemplo:</strong> se você salvar um valor numérico para um campo com formato de Texto em pelo menos um objeto e depois alterar o formato para Número ou Moeda, não ocorrerá erro. </p>
       <p>No entanto, se você salvar um valor alfanumérico em um campo com formato Texto em pelo menos um objeto e tentar alterar o formato para Número ou Moeda, você encontrará um erro porque o valor alfanumérico salvo não é compatível com os formatos Número ou Moeda. </p>
 
-   <p><strong>Nota:</strong> O limite de caracteres para campos de Número é de 16. Você também pode usar um campo Texto para inserir números e evitar o limite.</p>
+   <p><strong>Observação:</strong> o limite de caracteres para campos de Número é 16. Você também pode usar um campo Texto para inserir números e evitar o limite.</p>
 
    </td> 
      </tr> 
@@ -197,7 +197,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td> <p>(Somente campos de digitação antecipada) Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em Aplicar ou Salvar+Fechar, não é possível alterar o tipo de objeto do campo.</p> <p><b>NOTA</b>:   
         <ul> 
          <li>Se o administrador do Workfront personalizou o nome de Portfolio, Programas ou Projetos na interface do usuário do Workfront, o nome padrão do Workfront para o objeto será exibido nessa lista suspensa, não no nome personalizado. Consulte o administrador do Workfront se precisar de ajuda com isso.<br></li> 
-         <li>Os seguintes tipos de objeto são compatíveis com os aplicativos móveis Workfront para iOS e Android: usuário, empresa, grupo, função de trabalho, Portfolio, programa, projeto e modelo.</li> 
+         <li>Os seguintes tipos de objetos são suportados nos aplicativos móveis iOS e Android Workfront: usuário, empresa, grupo, função de trabalho, Portfolio, programa, projeto e modelo.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -207,7 +207,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
         <li>Eles pertencem a um ou mais grupos especificados por você</li> 
         <li>Eles estão associados a uma função ou a um cargo especificado por você</li> 
         <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo</li> 
-       </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo de texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p>
+       </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p>
        <p><b>NOTA</b>:   
         <ul> 
          <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo Digitação antecipada não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
@@ -229,7 +229,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      <tr> 
       <td role="rowheader">Rastrear alterações de campo nos campos de atualização</td> 
       <td><p>Clique na lista suspensa e selecione os tipos de objeto nos quais deseja rastrear automaticamente as alterações de valor do campo.</p> 
-      <p><b>NOTA</b>: Essa opção não está disponível para o seguinte:</p> 
+      <p><b>OBSERVAÇÃO</b>: esta opção não está disponível para o seguinte:</p> 
       <ul> 
       <li>Formulários personalizados associados aos seguintes tipos de objeto: Despesa, Empresa, Iteração, Registro de Cobrança, Documento e Grupo.</li> 
       <li>Os seguintes tipos de campo: Calculado, Texto descritivo e Quebra de seção</li> 
@@ -247,17 +247,17 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td role="rowheader">Seleções </td> 
       <td> <p>(Suspenso, Caixas de seleção ou Botões de opção somente; opcional)</p> 
        <ol> 
-        <li> <p>Clique em <b>Opções</b>, ative uma das opções a seguir:</p> 
+        <li> <p>Clique em <b>Opções</b> e habilite qualquer um dos itens a seguir:</p> 
            <ul> 
-            <li><strong>Mostrar valores</strong>: mostra os valores de cada escolha no campo. O rótulo de cada opção é exibido por padrão.</li> 
-            <li><strong>Classificar seleções de A a Z</strong>: classifica as opções adicionadas em ordem alfabética no campo.</li> 
+            <li><strong>Mostrar Valores</strong>: mostra os valores de cada escolha no campo. O rótulo de cada opção é exibido por padrão.</li> 
+            <li><strong>Classificar seleções de A a Z</strong>: classifica as seleções adicionadas em ordem alfabética no campo.</li> 
            </ul> 
         </li> 
-        <li> <p>Para cada opção adicionada para o usuário, clique no ícone de engrenagem <img src="assets/gear-icon-settings.png">, em seguida, selecione uma das seguintes opções:</p> 
+        <li> <p>Para cada opção adicionada para o usuário, clique no ícone de engrenagem <img src="assets/gear-icon-settings.png"> e selecione uma das seguintes opções:</p> 
            <ul> 
             <li><strong>Selecionar por padrão</strong>: selecione a opção por padrão no campo.</li> 
-            <li> <p><strong>Ocultar seleção</strong>: oculte a escolha no campo. As opções ocultas permanecem acessíveis nos relatórios.</p> </li> 
-            <li> <p><strong>Remover seleção</strong>: remova a escolha do campo.</p> <p><b>AVISO</b>: se você tiver objetos atuais usando essa opção, não remova-a do campo. Sua remoção fará com que os dados do histórico sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
+            <li> <p><strong>Ocultar opção</strong>: oculta a opção no campo. As opções ocultas permanecem acessíveis nos relatórios.</p> </li> 
+            <li> <p><strong>Remover Opção</strong>: remova a opção do campo.</p> <p><b>AVISO</b>: se você tiver objetos atuais usando essa opção, não remova-a do campo. Sua remoção fará com que os dados do histórico sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
            </ul> 
         </li> 
        </ol> </td> 
@@ -265,12 +265,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     </tbody> 
    </table>
 
-1. (Condicional) Para alterar o tipo de exibição de um campo no formulário personalizado, clique no **Tipo de exibição** e, em seguida, clique no tipo desejado.
+1. (Condicional) Para alterar o tipo de exibição de um campo no formulário personalizado, clique no menu suspenso **Tipo de Exibição** e clique no tipo desejado.
 
    Você pode alternar entre os seguintes tipos de exibição de campo:
 
-   * **Campos do tipo seleção**: Caixas De Seleção, Lista Suspensa, Botões De Opção.
-   * **Campos do tipo texto**: Campo De Texto De Linha Única, Campo De Texto De Parágrafo. (Você não pode alternar um Campo de texto com Formatação para um tipo de exibição diferente. No entanto, você pode removê-lo e adicionar outro tipo de campo.)
+   * **Campos do tipo Seleção**: Caixas de Seleção, Lista Suspensa, Botões de Opção.
+   * **Campos do tipo texto**: campo de texto de linha única, campo de texto de parágrafo. (Você não pode alternar um Campo de texto com Formatação para um tipo de exibição diferente. No entanto, você pode removê-lo e adicionar outro tipo de campo.)
 
    Por exemplo, se você criou um campo Checkboxes, é possível alterá-lo para um campo Suspenso ou um campo Radio Buttons. Ou, se você tiver criado um Campo de texto de linha única, poderá alterá-lo para um campo de texto de parágrafo.
 
@@ -285,7 +285,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Ou
 
-   Adicione campos que já foram criados para sua organização, conforme explicado em [Reutilizar um campo ou widget personalizado em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   Adicione campos que já foram criados para sua organização, como explicado em [Reutilize um campo ou widget personalizado em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >

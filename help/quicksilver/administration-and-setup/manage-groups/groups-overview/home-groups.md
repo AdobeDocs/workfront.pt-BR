@@ -1,9 +1,9 @@
 ---
-title: Visão geral dos grupos domésticos
+title: Visão geral dos Grupos padrão
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Um Grupo doméstico é atribuído no perfil do usuário. Todos os usuários precisam ter um Grupo doméstico. Um usuário pode pertencer a mais de um grupo, mas só pode ter um Grupo doméstico. Embora qualquer grupo existente no sistema possa ser atribuído como Grupo doméstico de um usuário, recomendamos criar e atribuir novos grupos que representem unidades organizacionais maiores. Ao estabelecer grupos domésticos, considere como sua organização divide os usuários da Adobe Workfront.
+description: Um Grupo padrão é atribuído no perfil do usuário. Todos os usuários precisam ter um Grupo padrão. Um usuário pode pertencer a mais de um grupo, mas pode ter apenas um Grupo padrão. Embora qualquer grupo existente no sistema possa ser atribuído como o Grupo inicial de um usuário, recomendamos criar e atribuir novos grupos que representem unidades organizacionais maiores. Ao estabelecer Grupos padrão, considere como sua organização divide os usuários da Adobe Workfront.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,42 +15,40 @@ ht-degree: 0%
 
 ---
 
-# Visão geral dos grupos domésticos
+# Visão geral dos Grupos padrão
 
-Um Grupo doméstico é atribuído no perfil do usuário. Todos os usuários precisam ter um Grupo doméstico. Um usuário pode pertencer a mais de um grupo, mas só pode ter um Grupo doméstico. Para obter mais informações sobre Grupos, consulte [Visão geral dos grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Um Grupo padrão é atribuído no perfil do usuário. Todos os usuários precisam ter um Grupo padrão. Um usuário pode pertencer a mais de um grupo, mas pode ter apenas um Grupo padrão. Para obter mais informações sobre Grupos, consulte [Visão geral sobre Grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Embora qualquer grupo existente no sistema possa ser atribuído como Grupo doméstico de um usuário, recomendamos criar e atribuir novos grupos que representem unidades organizacionais maiores.
+Embora qualquer grupo existente no sistema possa ser atribuído como o Grupo inicial de um usuário, recomendamos criar e atribuir novos grupos que representem unidades organizacionais maiores.
 
-Ao estabelecer grupos domésticos, considere como sua organização divide os usuários da Adobe Workfront. Estas são algumas sugestões para determinar que tipo de grupos deve ser usado como um Grupo doméstico:
+Ao estabelecer Grupos padrão, considere como sua organização divide os usuários da Adobe Workfront. Estas são algumas sugestões para determinar que tipo de grupos deve ser usado como Grupo padrão:
 
 * Grupos que representam departamentos, como TI ou Marketing
-* Grupos governados por orçamentos diferentes
+* Grupos regidos por orçamentos diferentes
 * Grupos localizados em diferentes áreas ou regiões
-* Grupos compostos de várias equipes pertencentes ao mesmo centro de custos
+* Grupos compostos de várias equipes que pertencem ao mesmo centro de custo
 
 >[!NOTE]
 >
->Se você precisar reorganizar seus Grupos iniciais em unidades organizacionais, será necessário
+>Se você precisar reorganizar seus Grupos padrão em unidades organizacionais, será necessário>
 >1. Crie o novo grupo, conforme explicado em [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
->1. Reatribua o novo grupo como o Grupo doméstico do usuário, conforme explicado em [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
+>1. Reatribua o novo grupo como o Grupo Inicial do usuário, conforme explicado em [Editar perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 >
 
+## Gerenciamento de modelos de layout
 
-## Gerenciamento de modelo de layout
+Quando você atribui um Modelo de layout a um grupo, todos os usuários aos quais o grupo foi atribuído como Grupo inicial podem ver as configurações especificadas no Modelo de layout.
 
-Quando você atribui um Modelo de layout a um grupo, todos os usuários que têm o grupo atribuído como Grupo inicial podem ver as configurações especificadas no Modelo de layout.
-
-Se um Modelo de layout for atribuído a um Grupo inicial, ele só será visível para os usuários atribuídos a esse Grupo inicial.
+Se um Modelo de layout for atribuído a um Grupo padrão, ele só será visível para os usuários atribuídos a esse Grupo padrão.
 
 Para obter mais informações, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Gerenciamento de licenças
 
-Cada usuário pode ser atribuído a apenas um Grupo doméstico, o que facilita o gerenciamento das contagens de licença.
+Cada usuário pode ser atribuído a apenas um Grupo inicial, o que facilita o gerenciamento de contagens de licença.
 
-Os administradores do Workfront têm a opção de definir contagens máximas de licença para os Grupos Iniciais.
+Os administradores do Workfront têm a opção de definir contagens máximas de licença para os Grupos padrão.
 
-Definir uma contagem máxima de licenças permite que os administradores do Workfront evitem que uma unidade comercial use licenças do Workfront compradas para outras unidades comerciais.
+Definir uma contagem máxima de licenças permite que os administradores do Workfront impeçam uma unidade de negócios de usar licenças da Workfront adquiridas para outras unidades de negócios.
 
-Para obter mais informações, consulte [Gerencie as licenças disponíveis em seu sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Para obter mais informações, consulte [Gerenciar licenças disponíveis em seu sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

@@ -14,7 +14,7 @@ ht-degree: 13%
 # Base de conhecimento Workfront
 
 * [Administração e configuração](administration-and-setup/administration-and-setup.md)
-* [Noções básicas do Adobe Workfront](workfront-basics/workfront-basics.md)
+* [noções básicas do Adobe Workfront](workfront-basics/workfront-basics.md)
 * [Pessoas, equipes e grupos](people-teams-and-groups/people-teams-and-groups.md)
 * [Gerenciar recursos](resource-mgmt/manage-resources.md)
 * [Ágil](agile/agile.md)

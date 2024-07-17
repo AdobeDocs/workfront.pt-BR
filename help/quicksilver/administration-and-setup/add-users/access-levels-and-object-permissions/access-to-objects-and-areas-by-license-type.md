@@ -12,7 +12,7 @@ exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
 | Problemas | Editar | Editar | Editar | Editar | Sem acesso |
 | Portfólios | Editar | Exibir | Exibir | Sem acesso | Sem acesso |
 | Programas | Editar | Exibir | Exibir | Sem acesso | Sem acesso |
-| Relatórios, painéis e calendários | Editar | Exibir | Exibir | Exibir&#42; | Exibir (somente para calendários, sem permissões de compartilhamento) |
+| Relatórios, painéis e calendários | Editar | Exibir | Exibir | Visualização&#42; | Exibir (somente para calendários, sem permissões de compartilhamento) |
 | Filtros, visualizações e agrupamentos | Editar | Editar | Editar | Editar | Sem acesso |
 | Documentos | Editar | Editar | Editar | Editar | Exibir (sem permissões de compartilhamento) |
 | Usuários | Editar | Exibir | Exibir | Exibir | Exibir |
@@ -45,19 +45,19 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
 | Planejador de cenários | Editar | Editar | Editar | Sem acesso | Sem acesso |
 | Workfront Goals | Editar | Editar | Editar | Editar | Sem acesso |
 
-&#42; Os usuários com uma Solicitação de licença podem exibir somente relatórios, painéis e calendários compartilhados com eles.
+&#42; usuários com uma licença de Solicitação podem exibir somente relatórios, painéis e calendários compartilhados com eles.
 
 >[!NOTE]
 >
->Os usuários com uma licença de Revisão ou uma licença de Solicitação têm recursos de compartilhamento limitados. Para obter mais informações, consulte [Visão geral das licenças do Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Os usuários com uma licença de Revisão ou uma licença de Solicitação têm recursos de compartilhamento limitados. Para obter mais informações, consulte [visão geral das licenças da Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Usuários externos não podem pesquisar itens no Workfront. Eles podem exibir documentos e calendários compartilhados especificamente com eles. Eles também podem ver os usuários que compartilham itens com eles.
 
 Você pode encontrar informações detalhadas sobre o que os níveis de acesso permitem para cada objeto e área nos seguintes artigos:
 
 * [Conceder acesso aos projetos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
-* [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Conceder acesso a problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Conceder acesso às tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
+* [Conceder acesso aos problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Conceder acesso a documentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [Conceder acesso aos portfólios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
 * [Conceder acesso aos programas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
@@ -67,6 +67,6 @@ Você pode encontrar informações detalhadas sobre o que os níveis de acesso p
 * [Conceder acesso às equipes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Conceder acesso aos modelos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* [Conceder acesso ao Gerenciamento de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Conceder acesso ao Gerenciamento de Recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Conceder acesso ao Planejador de cenários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Conceder acesso ao Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

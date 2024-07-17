@@ -9,8 +9,8 @@ role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 2%
+source-wordcount: '2475'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ Os seguintes recursos são novos na API do Workfront versão 12.
 
 Um objeto BreadCrumb representa um elemento na hierarquia pai/filho de um item de trabalho do Adobe Workfront. As navegações estruturais indicam como um item de trabalho se encaixa na estrutura maior de Portfolio, Projetos, Projetos e Tarefas.
 
-Para obter mais informações sobre navegações estruturais no Workfront, consulte [Visão geral das navegações estruturais na nova experiência do Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Para obter mais informações sobre navegações estruturais no Workfront, consulte [Visão geral sobre navegações estruturais na nova experiência do Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -95,9 +95,9 @@ Os recursos a seguir foram modificados para a API do Workfront versão 12.
     <ul> 
      <li> <p><a href="#accesslevel" class="MCXref xref">NívelDeAcesso</a> </p> </li> 
      <li> <p><a href="#accesslevelpermissions" class="MCXref xref">PermissõesDeNívelDeAcesso</a> </p> </li> 
-     <li> <p><a href="#accessrequest" class="MCXref xref">Solicitação de acesso</a> </p> </li> 
-     <li> <p><a href="#accessrule" class="MCXref xref">Regra de acesso</a> </p> </li> 
-     <li> <p><a href="#activitylog" class="MCXref xref">ActivityLog</a> </p> </li> 
+     <li> <p><a href="#accessrequest" class="MCXref xref">SolicitaçãoDeAcesso</a> </p> </li> 
+     <li> <p><a href="#accessrule" class="MCXref xref">RegraDeAcesso</a> </p> </li> 
+     <li> <p><a href="#activitylog" class="MCXref xref">LogAtividade</a> </p> </li> 
      <li> <p><a href="#announcementattachment" class="MCXref xref">AnúncioAnexo</a> </p> </li> 
      <li> <p><a href="#approval" class="MCXref xref">Aprovação</a> </p> </li> 
      <li> <p><a href="#calendarsection" class="MCXref xref">SeçãoCalendário</a> </p> </li> 
@@ -110,15 +110,15 @@ Os recursos a seguir foram modificados para a API do Workfront versão 12.
      <li> <p><a href="#document" class="MCXref xref">Documento</a> </p> </li> 
      <li> <p><a href="#documentversion" class="MCXref xref">VersãoDocumento</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Grupo </a> </p> </li> 
-     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref">PastaVinculada</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">TarefaOp</a> </p> </li> 
      <li> <p><a href="#parameter" class="MCXref xref">Parâmetro</a> </p> </li> 
-     <li> <p><a href="#portfolio" class="MCXref xref">Portfólio</a> </p> </li> 
+     <li> <p><a href="#portfolio" class="MCXref xref">Portfolio</a> </p> </li> 
      <li> <p><a href="#program" class="MCXref xref">Programa</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
+     <li> <p><a href="#queuedef" class="MCXref xref">DefiniçãoDaFila</a> </p> </li> 
      <li> <p><a href="#scheduledreport" class="MCXref xref">RelatórioAgendado</a> </p> </li> 
      <li> <p><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Tarefa</a> </p> </li> 
@@ -175,17 +175,17 @@ Um objeto AccessLevelPermissions representa uma permissão específica para aces
     <ul> 
      <li> <p><strong>coreAction</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar Trabalho de Horas Planejadas da tarefa ao gerenciar alocações de usuários</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> em <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>forbiddenActions</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
+     <li> <p><strong>açõesProibidas</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTORNING </p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-     <li> <p><strong>secondaryActions</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
+     <li> <p><strong>açõesSecundárias</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTORNING </p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
@@ -246,8 +246,8 @@ Se um usuário não tiver acesso a um objeto no Workfront necessário, ele poder
     <ul> 
      <li> <p style="font-weight: bold;">ação</p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar Trabalho de Horas Planejadas da tarefa ao gerenciar alocações de usuários</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> em <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
@@ -269,17 +269,17 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
     <ul> 
      <li><strong>coreAction</strong> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar Trabalho de Horas Planejadas da tarefa ao gerenciar alocações de usuários</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> em <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>forbiddenActions</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
+     <li> <p><strong>açõesProibidas</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTORNING </p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-     <li> <p><strong>secondaryActions</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
+     <li> <p><strong>açõesSecundárias</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTORNING </p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
@@ -312,7 +312,7 @@ Um objeto ActivityLog é uma lista completa de todas as atividades que ocorreram
 
 Um objeto AnnouncementAttachment representa um arquivo que foi anexado a um anúncio do Workfront.
 
-Para obter mais informações sobre anexos de anúncio, consulte [Enviar notificações](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+Para obter mais informações sobre anexos de comunicado, consulte [Enviar avisos](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -345,7 +345,7 @@ Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de h
    <td>Campos diretos</td> 
    <td> 
     <ul> 
-     <li> <p><strong>backlogOrder</strong> </p> <p>Os seguintes sinalizadores foram removidos:</p> 
+     <li> <p><strong>ordemListaDePendências</strong> </p> <p>Os seguintes sinalizadores foram removidos:</p> 
       <ul> 
        <li> <p>DINÂMICO,</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
@@ -357,12 +357,12 @@ Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de h
        <li> <p>DINÂMICO,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workEffort</strong> </p> <p>Este campo foi adicionado e representa se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa. Os valores possíveis são:</p> 
+     <li> <p><strong>esforçoTrabalho</strong> </p> <p>Este campo foi adicionado e representa se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa. Os valores possíveis são:</p> 
       <ul> 
        <li> <p>1 (Pequeno)</p> </li> 
-       <li> <p>2 (Médio)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (Grande)</p> </li> 
-      </ul> <p>Para obter mais informações sobre o Esforço de trabalho no Workfront, consulte <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do esforço de trabalho</a>.</p> </li> 
+      </ul> <p>Para obter mais informações sobre o Esforço de trabalho no Workfront, consulte <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do Esforço de trabalho</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -395,7 +395,7 @@ Para obter mais informações sobre relatórios de calendário, consulte [Visão
 
 Um objeto Company representa uma organização que consiste em uma coleção de pessoas.
 
-Para obter mais informações sobre empresas, consulte [Criar e editar empresas](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Para obter mais informações, consulte [Criar e editar empresas](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -480,7 +480,7 @@ Um objeto Documento representa um arquivo (como material escrito, imagens ou out
 
 Um objeto DocumentVersion representa uma versão específica de um arquivo (como material escrito, imagens ou outras formas de informação).
 
-Para obter mais informações sobre versões de documentos, consulte [Fazer upload de uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md).
+Para obter mais informações sobre versões de documentos, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -534,14 +534,14 @@ Um objeto Grupo representa um conjunto de usuários e equipes. Os grupos geralme
    <td>Campos de referência</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>líder de negócios</p> <p style="font-weight: normal;">O Líder de negócios atribuído ao grupo. Um Líder de negócios é alguém que toma decisões de negócios para o grupo.</p> <p style="font-weight: normal;">Para obter mais informações sobre líderes empresariais, consulte <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Visão geral do Líder de negócios</a>.<br></p> </li> 
+     <li style="font-weight: bold;"> <p>líder de negócios</p> <p style="font-weight: normal;">O Líder de negócios atribuído ao grupo. Um Líder de negócios é alguém que toma decisões de negócios para o grupo.</p> <p style="font-weight: normal;">Para obter mais informações sobre líderes de negócios, consulte <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Visão geral sobre Líderes de negócios</a>.<br></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Ações</td> 
    <td> 
     <ul> 
-     <li> <p><strong>assignMultiple</strong> </p> <p>Essa ação aceita os seguintes argumentos:</p> 
+     <li> <p><strong>atribuirMúltiplo</strong> </p> <p>Essa ação aceita os seguintes argumentos:</p> 
       <ul> 
        <li> <p>userIDs (string[])</p> </li> 
        <li> <p>roleIDs (string[])</p> </li> 
@@ -562,7 +562,7 @@ Um objeto Grupo representa um conjunto de usuários e equipes. Os grupos geralme
 
 Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como Google Drive ou Dropbox.
 
-Para obter mais informações sobre Pastas vinculadas, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obter mais informações sobre Pastas Vinculadas, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -593,7 +593,7 @@ Um objeto OpTask é comumente conhecido como um Problema. Um problema é um item
    <td role="rowheader"> <p>Campos diretos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><strong>backlogOrder</strong> </p> <p>A ordem indica a posição de uma tarefa ou história no backlog Agile.</p> <p>Esse campo removeu os seguintes sinalizadores:
+     <li> <p><strong>ordemListaDePendências</strong> </p> <p>A ordem indica a posição de uma tarefa ou história no backlog Agile.</p> <p>Esse campo removeu os seguintes sinalizadores:
        <ul>
         <li>DINÂMICO,</li>
         <li>LAZY_READ,</li>
@@ -603,10 +603,10 @@ Um objeto OpTask é comumente conhecido como um Problema. Um problema é um item
   </tr> 
   <tr> 
    <td role="rowheader">Ações</td> 
-   <td> <p>Essas ações adicionaram o status do argumento para suportar a nova funcionalidade do botão Iniciar, que altera o status de um item de trabalho quando um usuário clica no botão para indicar que começou a trabalhar no item.</p> <p>Para obter mais informações, consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão Trabalhar na tarefa por um botão Iniciar</a>.</p> 
+   <td> <p>Essas ações adicionaram o status do argumento para suportar a nova funcionalidade do botão Iniciar, que altera o status de um item de trabalho quando um usuário clica no botão para indicar que começou a trabalhar no item.</p> <p>Para obter mais informações, consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
-     <li> <p><strong>unacceptWork</strong> </p> </li> 
+     <li> <p><strong>cancelarTrabalho</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -618,7 +618,7 @@ Um objeto Parameter é um campo personalizado.
 
 O recurso Parameter adicionou o sinalizador SHARABLE.
 
-Para obter mais informações sobre campos personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obter mais informações sobre campos personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) em [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -660,7 +660,7 @@ Para obter mais informações sobre campos personalizados, consulte [Criar ou ed
 
 Um objeto Portfolio é uma coleção de projetos que competem pelos mesmos recursos, normalmente dinheiro ou pessoas para concluí-los.
 
-Para obter mais informações sobre portfólios, consulte [Visão geral de Portfolio no Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Para obter mais informações sobre portfólios, consulte [visão geral de Portfolio no Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -722,12 +722,12 @@ Para obter mais informações sobre Filas de solicitações, consulte [Criar uma
    <td role="rowheader">Campos diretos</td> 
    <td> 
     <ul> 
-     <li><strong>requestorCoreAction</strong> <p>Foram adicionados os seguintes valores possíveis:</p> 
+     <li><strong>solicitanteCoreAction</strong> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar Trabalho de Horas Planejadas da tarefa ao gerenciar alocações de usuários</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> em <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a></p> </li> 
-      </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
+      </ul> <li> <p><strong>solicitanteForbiddenActions</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
        <ul> 
         <li> <p>PLANNED_HOURS_CONTORNING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
@@ -765,7 +765,7 @@ Um objeto ScheduledReport representa um relatório que foi configurado para ser 
 
 Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente de Portfolio, e suas respostas permitem que o gerente entenda como um projeto se alinha com as metas do portfólio.
 
-Para obter mais informações sobre perguntas do Scorecard, consulte [Criar um cartão de pontuação](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Para obter mais informações sobre Perguntas do Scorecard, consulte [Criar um scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -793,20 +793,20 @@ Um objeto Tarefa representa um item de trabalho que deve ser executado como uma 
    <td role="rowheader">Campos diretos</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workEffort</strong> </p> <p>Este campo foi adicionado e representa se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa. Os valores possíveis são:</p> 
+     <li> <p><strong>esforçoTrabalho</strong> </p> <p>Este campo foi adicionado e representa se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa. Os valores possíveis são:</p> 
       <ul> 
        <li> <p>1 (Pequeno)</p> </li> 
-       <li> <p>2 (Médio)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (Grande)</p> </li> 
-      </ul> <p>Para obter mais informações sobre o Esforço de trabalho no Workfront, consulte <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do esforço de trabalho</a>.</p> </li> 
+      </ul> <p>Para obter mais informações sobre o Esforço de trabalho no Workfront, consulte <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do Esforço de trabalho</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ações</td> 
-   <td> <p>Essas ações adicionaram o status do argumento para suportar a nova funcionalidade do botão Iniciar, que altera o status de um item de trabalho quando um usuário clica no botão para indicar que começou a trabalhar no item.</p> <p>Para obter mais informações, consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão Trabalhar na tarefa por um botão Iniciar</a>.</p> 
+   <td> <p>Essas ações adicionaram o status do argumento para suportar a nova funcionalidade do botão Iniciar, que altera o status de um item de trabalho quando um usuário clica no botão para indicar que começou a trabalhar no item.</p> <p>Para obter mais informações, consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
-     <li> <p><strong>unacceptWork</strong> </p> </li> 
+     <li> <p><strong>cancelarTrabalho</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -835,7 +835,7 @@ Um objeto Equipe é uma coleção de Usuários que pode ser atribuída a um item
        <li> <p><strong>workOnItOpTaskChangeOrderStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskIssueStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskRequestStatuses</strong> </p> <p><strong>workOnItTaskStatuses</strong> </p> </li> 
-      </ul> <p>Para obter mais informações sobre o botão Iniciar, consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão Trabalhar na tarefa por um botão Iniciar</a>.</p> </li> 
+      </ul> <p>Para obter mais informações sobre o botão Iniciar, consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -862,12 +862,12 @@ Para obter mais informações sobre Modelos de Tarefa, consulte [Editar uma tare
    <td role="rowheader">Campos diretos</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workEffort</strong> </p> <p>Este campo foi adicionado e representa se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa. Os valores possíveis são:</p> 
+     <li> <p><strong>esforçoTrabalho</strong> </p> <p>Este campo foi adicionado e representa se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa. Os valores possíveis são:</p> 
       <ul> 
        <li> <p>1 (Pequeno)</p> </li> 
-       <li> <p>2 (Médio)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (Grande)</p> </li> 
-      </ul> <p>Para obter mais informações sobre o Esforço de trabalho no Workfront, consulte <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do esforço de trabalho</a>.</p> </li> 
+      </ul> <p>Para obter mais informações sobre o Esforço de trabalho no Workfront, consulte <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do Esforço de trabalho</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -877,7 +877,7 @@ Para obter mais informações sobre Modelos de Tarefa, consulte [Editar uma tare
 
 Um objeto de Planilha de Horas representa um cartão de ponto virtual que permite aos Usuários inserir as horas reais trabalhadas para Tarefas, Projetos e Tipos de Horas Gerais.
 
-Para obter mais informações sobre Folhas de horas, consulte [Visão geral das planilhas de horas](../../timesheets/timesheets/timesheets-overview.md)
+Para obter mais informações sobre Folhas de horas, consulte [Visão geral sobre Folhas de horas](../../timesheets/timesheets/timesheets-overview.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -925,7 +925,7 @@ Um objeto Usuário representa uma pessoa com uma conta no Workfront que pode faz
    <td role="rowheader">Campos diretos</td> 
    <td> <p>Os seguintes campos foram adicionados ao recurso Usuário:</p> 
     <ul> 
-     <li> <p><strong>actualDeactivationDate</strong> </p> <p>Representa a data e a hora em que um usuário foi desativado.</p> <p>Para obter mais informações sobre usuários desativados, consulte <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>.</p> </li> 
+     <li> <p><strong>atualDeactivationDate</strong> </p> <p>Representa a data e a hora em que um usuário foi desativado.</p> <p>Para obter mais informações sobre Usuários desativados, consulte <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>.</p> </li> 
      <li> <p><strong>alignAccessType</strong> </p> <p>Este campo mostra o acesso do usuário às Metas do Workfront. Os valores possíveis são:</p> 
       <ul> 
        <li> <p>Sem acesso</p> </li> 
@@ -960,7 +960,7 @@ Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam 
    <td>Campos diretos</td> 
    <td> 
     <ul> 
-     <li> <p><strong>backlogOrder</strong> </p> <p>A ordem indica a posição de uma tarefa ou história no backlog Agile.</p> <p>Esse campo removeu os seguintes sinalizadores:</p> 
+     <li> <p><strong>ordemListaDePendências</strong> </p> <p>A ordem indica a posição de uma tarefa ou história no backlog Agile.</p> <p>Esse campo removeu os seguintes sinalizadores:</p> 
       <ul> 
        <li> <p>DINÂMICO,</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
@@ -972,12 +972,12 @@ Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam 
        <li> <p>DINÂMICO,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workEffort</strong> </p> <p>Este campo foi adicionado e representa se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa. Os valores possíveis são:</p> 
+     <li> <p><strong>esforçoTrabalho</strong> </p> <p>Este campo foi adicionado e representa se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa. Os valores possíveis são:</p> 
       <ul> 
        <li> <p>1 (Pequeno)</p> </li> 
-       <li> <p>2 (Médio)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (Grande)</p> </li> 
-      </ul> <p>Para obter mais informações sobre o Esforço de trabalho no Workfront, consulte <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do esforço de trabalho</a>.</p> </li> 
+      </ul> <p>Para obter mais informações sobre o Esforço de trabalho no Workfront, consulte <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do Esforço de trabalho</a>.</p> </li> 
     </ul> <p style="font-weight: normal;">  </p> </td> 
   </tr> 
  </tbody> 

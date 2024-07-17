@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 2 2017.3
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3 Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 23 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
+title: Atividade da versão 2017.3 do Beta 2
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 23 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,29 +14,29 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 2 2017.3
+# Atividade da versão 2017.3 do Beta 2
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3 Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 23 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 23 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2017.3, consulte  [Visão geral da atividade da versão 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2017.3, consulte  Visão geral da atividade da versão [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-A versão 2017.3 Beta 2 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2017.3 do Beta 2 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
 * [Restringir o acesso a fluxos de trabalho por ativação de preparo (Workfront Proof)](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
-* [Opção do Planejador de Recursos para Alterar a View](#resource-planner-option-to-change-the-view)
+* [Opção do Planejador de Recursos para Alterar a Exibição](#resource-planner-option-to-change-the-view)
 * [Filtrar Conteúdo em um Relatório de Utilização em um Projeto](#filter-content-within-a-utilization-report-on-a-project)
-* [Exibir Informações sobre Custo no Relatório de Utilização de um Projeto](#view-cost-information-in-the-utilization-report-on-a-project)
-* [Assinatura e Cancelamento de Assinatura de Usuários para Itens](#subscribing-and-unsubscribing-users-to-items)
-* [Exibindo a Lista de Assinantes em um Relatório ou View](#viewing-the-subscriber-list-in-a-report-or-view)
+* [Exibir Informações de Custo no Relatório de Utilização em um Projeto](#view-cost-information-in-the-utilization-report-on-a-project)
+* [Assinando e Cancelando Assinatura de Usuários para Itens](#subscribing-and-unsubscribing-users-to-items)
+* [Exibindo a Lista de Assinantes em um Relatório ou Exibição](#viewing-the-subscriber-list-in-a-report-or-view)
 * [Nova busca por e-mails de comunicação](#new-look-for-communication-emails)
 
 ## Opção do Planejador de Recursos para Alterar a View {#resource-planner-option-to-change-the-view}
@@ -55,13 +55,13 @@ Para obter mais informações sobre o planejamento de recursos no Planejador de 
 
 O campo &quot;Painéis&quot; agora está disponível em relatórios e listas para o objeto de relatório. Esse campo está disponível na visualização e no filtro de relatórios e listas para o objeto de relatório. Quando adicionado a uma visualização, ele exibe uma lista de painéis nos quais o relatório é adicionado.
 
-Antes dessa alteração, não era possível ver se um relatório estava listado em um painel. Para obter mais informações sobre o gerenciamento de relatórios, consulte [Acessar e organizar relatórios](../../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md) in [Acessar e organizar relatórios](../../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md).
+Antes dessa alteração, não era possível ver se um relatório estava listado em um painel. Para obter mais informações sobre como gerenciar relatórios, consulte o [Acessar e organizar relatórios](../../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md) em [Acessar e organizar relatórios](../../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md).
 
 ## Filtrar Conteúdo em um Relatório de Utilização em um Projeto {#filter-content-within-a-utilization-report-on-a-project}
 
 Agora é possível filtrar o conteúdo exibido em um Relatório de utilização em um projeto.
 
-Para obter mais informações, consulte [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in  [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) em  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Exibir Informações sobre Custo no Relatório de Utilização de um Projeto {#view-cost-information-in-the-utilization-report-on-a-project}
 
@@ -69,7 +69,7 @@ Agora é possível exibir informações sobre custos no relatório de utilizaç�
 
 Antes dessa alteração, somente as informações de hora estavam disponíveis no relatório de utilização.
 
-Para obter mais informações, consulte [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in  [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) em  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Assinatura e Cancelamento de Assinatura de Usuários para Itens {#subscribing-and-unsubscribing-users-to-items}
 
@@ -79,7 +79,7 @@ Quando você assina ou cancela a assinatura de um usuário em um item, um regist
 
 Depois de assinado, o usuário recebe uma notificação no aplicativo sempre que um comentário é feito no fluxo de atualização do objeto assinado. Além disso, o assinante pode optar por receber notificações por email e por dispositivos móveis.
 
-Para saber mais sobre subscrição e cancelamento de subscrição de usuários a objetos, consulte [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) in   [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Para saber mais sobre assinatura e cancelamento de assinatura de usuários em objetos, [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) em   [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
 
 ## Exibindo a Lista de Assinantes em um Relatório ou View {#viewing-the-subscriber-list-in-a-report-or-view}
 
@@ -89,7 +89,7 @@ Para saber mais sobre subscrição e cancelamento de subscrição de usuários a
 
 A aparência dos emails de comunicação foi atualizada, fornecendo muito mais contexto às comunicações feitas em um objeto. Agora é possível seguir rapidamente uma thread de comentários e visualizar quem está incluído nas comunicações.
 
-Para obter mais informações, consulte [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) in  [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Para obter mais informações, consulte [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) em  [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Restringir o acesso a fluxos de trabalho por ativação de preparo (Workfront Proof) {#restrict-access-to-workflows-by-stage-activation-workfront-proof}
 

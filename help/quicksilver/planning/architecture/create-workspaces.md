@@ -73,7 +73,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Você deve adicionar a área do Planning ao seu modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>Você deve adicionar a área do Planning ao seu modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -107,7 +107,7 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 ## Criar um espaço de trabalho
 
-Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para organizar seus objetos no Workfront Planning. Para obter mais informações sobre a edição de um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para organizar seus objetos no Workfront Planning. Para obter mais informações sobre como editar um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 {{step1-to-planning}}
 
@@ -115,7 +115,7 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
 
    A caixa Criar espaço de trabalho é exibida. Você pode criar um espaço de trabalho do zero ou criá-lo usando um dos modelos disponíveis.
 
-1. (Opcional e condicional) Clique em **Visualizar** em qualquer um dos modelos de espaço de trabalho predefinidos a seguir:
+1. (Opcional e condicional) Clique em **Visualizar** dentro de qualquer um dos seguintes modelos de espaço de trabalho predefinidos:
 
    * Básico: Gerenciamento de marketing
    * Avançado: Gerenciamento de marketing
@@ -129,37 +129,37 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Para obter informações sobre modelos do Workfront Planning Workspace, consulte [Lista de modelos do espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md).
+   Para obter informações sobre modelos de espaço de trabalho do Workfront Planning, consulte [Lista de modelos de espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 1. Na caixa de visualização do modelo, clique em **Usar modelo** para começar a criar o espaço de trabalho a partir do modelo selecionado
 
    Ou
 
-   Clique em **Voltar** e, em seguida, clique em **Novo espaço de trabalho** para criar um espaço de trabalho do zero.
+   Clique em **Voltar** e em **Novo espaço de trabalho** para criar um espaço de trabalho do zero.
 
    Um para os seguintes tipos de espaços de trabalho é criado:
 
-   * Um espaço de trabalho vazio chamado **Espaço de trabalho sem título** onde você pode começar a adicionar tipos de registro manualmente ao criar um espaço de trabalho do zero.
+   * Um espaço de trabalho vazio chamado **Workspace sem título**, no qual você pode começar a adicionar tipos de registro manualmente ao criar um espaço de trabalho do zero.
    * Um espaço de trabalho nomeado com base no modelo selecionado que é preenchido com tipos de registro de amostra. É possível personalizar ainda mais os tipos de registro e o espaço de trabalho.
 
 1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione Enter.
 
-1. (Opcional e condicional) Se você criou o espaço de trabalho a partir de um modelo, clique dentro do nome do **Tipos de Registro Operacional** ou **Taxonomias** seções
+1. (Opcional e condicional) Se você criou o espaço de trabalho a partir de um modelo, clique dentro do nome das **seções Tipos de Registro Operacionais** ou **Taxonomias**
 
    Ou
 
-   Passe o mouse sobre o nome de uma seção e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Renomear** para renomear a seção.
+   Passe o mouse sobre o nome de uma seção, em seguida, clique no menu **Mais** ![](assets/more-menu.png) e em **Renomear** para renomear a seção.
 
    >[!TIP]
    >
    >É possível renomear qualquer seção de qualquer espaço de trabalho, mesmo que você não tenha criado a seção.
 
-   Para obter mais informações sobre a edição de espaços de trabalho, incluindo a edição de seções do espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Para obter mais informações sobre a edição de espaços de trabalho, incluindo a edição de seções de espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 1. (Opcional) Clique em **Adicionar tipo de registro** para adicionar tipos de registro ao espaço de trabalho em qualquer seção.
 
    Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   Para obter mais informações sobre edição e exclusão de tipos de registro em um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Para obter mais informações sobre edição e exclusão de tipos de registros em um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 

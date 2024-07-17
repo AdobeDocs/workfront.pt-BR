@@ -29,7 +29,7 @@ A análise aprimorada pode ajudar a identificar:
 
 ![](assets/nwe-full-screen-analytics-350x222.png)
 
-Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizagem da análise aprimorada](https://one.workfront.com/s/enhanced-analytics-program).
+Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://one.workfront.com/s/enhanced-analytics-program).
 
 ## Pré-requisitos
 
@@ -41,7 +41,7 @@ Para acessar a área Analítica aprimorada, você deve:
 
 * Peça ao administrador do Workfront para adicionar Análises aprimoradas ao modelo de layout.
 
-  Para obter mais informações, consulte [Analítica aprimorada: adicionar análises a modelos de layout](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Para obter mais informações, consulte [Análises aprimoradas: adicionando análises a modelos de layout](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
 
 Para ver informações de projetos e tarefas, você deve:
 
@@ -68,7 +68,7 @@ Para obter os melhores dados para seus projetos, use modelos com horas planejada
   >[!NOTE]
   >
   >Se suas equipes não usarem as horas planejadas, você ainda poderá ver alguns dados com base na duração do projeto.\
-  >Para obter mais informações, consulte a seção [Visualização de duração](#duration-view) neste artigo.
+  >Para obter mais informações, consulte a seção [Exibição de duração](#duration-view) neste artigo.
 
 * Nome do Projeto
 
@@ -112,10 +112,10 @@ Na Análise aprimorada, a duração de um projeto é calculada pelas seguintes f
 
   >[!NOTE]
   >
-  >8 horas é o número padrão para **Horas de trabalho típicas por dia**. Um administrador do Adobe Workfront pode atualizar o **Horas de trabalho típicas por dia** configuração em **Configuração** > **Preferências do projeto** > **Projetos** > **Linhas de Tempo**.\
-  >Para saber mais, consulte [Configurar preferências de projeto em todo o sistema](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >8 horas é o número padrão de **horas típicas por dia útil**. Um administrador do Adobe Workfront pode atualizar a configuração **Horas típicas por dia de trabalho** em **Configuração** > **Preferências do projeto** > **Projetos** > **Linhas do tempo**.\
+  >Para saber mais, consulte [Configurar preferências de projeto do sistema](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Para obter informações sobre a Duração planejada, consulte [Visão geral da duração do projeto](../manage-work/projects/planning-a-project/project-duration.md).
+Para obter informações sobre a Duração Planejada, consulte [Visão Geral da Duração do Projeto](../manage-work/projects/planning-a-project/project-duration.md).
 
 ## Atalhos de teclado
 
@@ -124,9 +124,9 @@ Você pode usar as seguintes teclas no teclado para navegar ou concluir ações 
 | Chave | Ação |
 |---|---|
 | **Guia** | Navegue até cada elemento na página, bem como até uma tabela com informações sobre cada visualização que não é exibida na página |
-| **Enter** | Abrir o widget de calendário, excluir um filtro existente, abrir as opções adicionar filtro, selecionar/desmarcar valores de filtro, aplicar um filtro criado, abrir as opções de exportação em cada visualização, abrir os menus suspensos nas visualizações Burndown, Tarefas em andamento e Mapa de árvore do projeto |
+| **Inserir** | Abrir o widget de calendário, excluir um filtro existente, abrir as opções adicionar filtro, selecionar/desmarcar valores de filtro, aplicar um filtro criado, abrir as opções de exportação em cada visualização, abrir os menus suspensos nas visualizações Burndown, Tarefas em andamento e Mapa de árvore do projeto |
 | **Teclas de seta** | Navegue até datas no widget de calendário, por meio de opções de filtro ao adicionar um filtro e por meio de opções em todos os menus suspensos nas visualizações |
-| **Barra de espaço** | Selecionar datas no widget de calendário, selecionar um tipo de filtro ao adicionar um filtro, selecionar uma opção de exportação no menu suspenso de cada visualização e selecionar opções nos menus suspensos nas visualizações Burndown, Tarefas em andamento e Mapa de árvore do projeto |
+| **Barra de espaços** | Selecionar datas no widget de calendário, selecionar um tipo de filtro ao adicionar um filtro, selecionar uma opção de exportação no menu suspenso de cada visualização e selecionar opções nos menus suspensos nas visualizações Burndown, Tarefas em andamento e Mapa de árvore do projeto |
 
 {style="table-layout:auto"}
 
@@ -151,32 +151,32 @@ Para saber mais sobre os detalhes de um recurso específico na Análise aprimora
    <td> <p>É possível aplicar filtros personalizados, filtros de campo de projeto ou filtros de equipe para visualizar apenas os projetos que se encaixam em critérios específicos. À medida que você adiciona filtros, o número de projetos é atualizado de acordo.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Entender KPIs do Enhanced Analytics</a> </td> 
+   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Entender KPIs de análise aprimorada</a> </td> 
    <td> <p>Os indicadores-chave de desempenho (KPIs) para todos os projetos em um período específico estão localizados na parte superior da tela.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Exibir a visualização de Plano de voo na Análise aprimorada</a> </p> </td> 
-   <td> <p>A variável <b>Plano de voo</b> A visualização mostra que a condição mudou durante a vida de um projeto. Interagir com a visualização fornece mais detalhes sobre datas específicas. Selecionar um projeto abre as visualizações Burndown e Tarefas em andamento.</p> </td> 
+   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Exibir a visualização do Plano de voo na análise aprimorada</a> </p> </td> 
+   <td> <p>A visualização do <b>Plano de voo</b> mostra que a condição mudou durante a vida útil de um projeto. Interagir com a visualização fornece mais detalhes sobre datas específicas. Selecionar um projeto abre as visualizações Burndown e Tarefas em andamento.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">Exibir a visualização de Burndown na análise aprimorada</a> </td> 
-   <td> <p>A variável <b>Burndown</b> a visualização mostra a velocidade planejada de um projeto em comparação à quantidade real de horas gastas em um projeto. Interagir com a visualização fornece mais detalhes sobre a condição do projeto em uma data específica.</p> </td> 
+   <td> <p>A visualização de <b>Burndown</b> mostra a velocidade planejada de um projeto em comparação à quantidade real de horas gastas em um projeto. Interagir com a visualização fornece mais detalhes sobre a condição do projeto em uma data específica.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">Visualização das Tarefas em andamento na Análise aprimorada</a> </td> 
-   <td> <p>A variável <b>Tarefas em andamento</b> a visualização mostra o status de cada tarefa em um projeto. Interagir com a visualização permite fazer alterações em uma tarefa de maneira rápida e fácil.</p> </td> 
+   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">Exibir as Tarefas na visualização em andamento na análise aprimorada</a> </td> 
+   <td> <p>A visualização de <b>Tarefas em andamento</b> mostra o status de cada tarefa em um projeto. Interagir com a visualização permite fazer alterações em uma tarefa de maneira rápida e fácil.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">Exibir a visualização da atividade Projeto na Análise aprimorada</a> </td> 
-   <td> <p>A variável <b>Atividade do projeto</b> a visualização mostra um mapa de calor de quando os usuários atribuídos a um projeto fizeram logon no Workfront, alteraram o status da tarefa nesse projeto e concluíram tarefas nesse projeto. Interagir com a visualização permite ver esses detalhes para cada usuário. Você também pode ver datas específicas para essas ações, bem como o número de vezes que cada ação foi concluída.</p> </td> 
+   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">Exibir a visualização da atividade de Projeto na Análise aprimorada</a> </td> 
+   <td> <p>A visualização da <b>Atividade do projeto</b> mostra um mapa de calor de quando os usuários atribuídos a um projeto fizeram logon no Workfront, alteraram o status da tarefa nesse projeto e concluíram tarefas nesse projeto. Interagir com a visualização permite ver esses detalhes para cada usuário. Você também pode ver datas específicas para essas ações, bem como o número de vezes que cada ação foi concluída.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Visualização do mapa de árvore do projeto na Análise aprimorada</a> </td> 
-   <td> <p>A variável <b>Mapa de árvore do projeto</b> a visualização mostra quanto tempo foi gasto em alguns projetos em comparação a outros. Interagir com a visualização fornece detalhes sobre a condição do projeto, a conclusão planejada do projeto e a conclusão real do projeto.</p> </td> 
+   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Exibir a visualização do mapa de árvore do projeto na análise aprimorada</a> </td> 
+   <td> <p>A visualização do <b>Mapa de árvore do projeto</b> mostra quanto tempo foi gasto em alguns projetos em comparação a outros. Interagir com a visualização fornece detalhes sobre a condição do projeto, a conclusão planejada do projeto e a conclusão real do projeto.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Visualização da Atividade por equipe na Análise aprimorada</a> </td> 
-   <td> <p>A variável <b>Atividade por equipe</b> a visualização mostra um mapa de calor de quando os usuários em uma equipe inicial fizeram logon no Workfront, alteraram o status de uma tarefa e concluíram uma tarefa. Interagir com a visualização permite ver esses detalhes para cada usuário individual. Você também pode ver datas específicas para essas ações, bem como o número de vezes que cada ação foi concluída.</p> </td> 
+   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Exibir a visualização Atividade por equipe na análise aprimorada</a> </td> 
+   <td> <p>A visualização <b>Atividade por equipe</b> mostra um mapa de calor de quando os usuários em uma equipe doméstica fizeram logon no Workfront, alteraram o status de uma tarefa e concluíram uma tarefa. Interagir com a visualização permite ver esses detalhes para cada usuário individual. Você também pode ver datas específicas para essas ações, bem como o número de vezes que cada ação foi concluída.</p> </td> 
   </tr> 
   <!-- Features permanently removed from Workfront
   <tr> 

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Para obter mais informações sobre a cadência de lançamento e a programação
 
 >[!IMPORTANT]
 >
->* A versão padrão da API é definida como a versão mais recente. Qualquer chamada de API sem a versão especificada usará a versão padrão. Cada vez que o Workfront lança uma nova versão da API, a versão padrão será atualizada para a versão mais recente. **Portanto, após o lançamento de uma nova versão da API do Workfront, todas as chamadas de API que usam a versão padrão devem ser verificadas para garantir que a funcionalidade ainda seja compatível.**
+>* A versão padrão da API é definida como a versão mais recente. Qualquer chamada de API sem a versão especificada usará a versão padrão. Cada vez que o Workfront lança uma nova versão da API, a versão padrão será atualizada para a versão mais recente. **Portanto, depois que uma nova versão da API do Workfront for lançada, todas as chamadas de API que usam a versão padrão deverão ser verificadas para garantir que a funcionalidade ainda tenha suporte.**
 >
 >* Se sua organização estiver usando a API padrão no momento, o administrador do Workfront receberá uma mensagem do Centro de notificações com mais instruções sobre a API padrão.
 >
->Para ver a versão mais recente da API, consulte [Controle de versão da API e programação de suporte](../../wf-api/api/api-version-support-schedule.md).
+>Para ver a versão mais recente da API, consulte [Controle de versão da API e agendamento de suporte](../../wf-api/api/api-version-support-schedule.md).
 
 
 ## Determinar a versão da API que você está usando

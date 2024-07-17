@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir ou aumentar permissões em tarefas e problemas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir ou aumentar permissões em tarefas e problemas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,47 +53,47 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ### Enviar uma planilha de horas para aprovação
 
-Depois que um aprovador de planilha de horas é definido (conforme descrito na seção [Designar aprovadores de planilhas de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) no artigo [Aprovar uma planilha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), o **Fechar** na parte inferior da folha de horas muda para um **Enviar para aprovação** botão.
+Depois que um aprovador de folha de horas é definido (conforme descrito na seção [Designar aprovadores de folha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) no artigo [Aprovar uma folha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), o botão **Fechar** na parte inferior da folha de horas muda para um botão **Enviar para Aprovação**.
 
 Para submeter uma planilha de horas para aprovação:
 
 1. Ir para uma planilha de horas configurada para ter um aprovador.
-1. Registrar o tempo, conforme descrito em [Registrar tempo](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Clique em **Enviar para aprovação** para iniciar o processo de aprovação de planilha de horas.
+1. Registrar hora, conforme descrito em [Registrar hora](../../timesheets/create-and-manage-timesheets/log-time.md).
+1. Clique em **Enviar para Aprovação** para iniciar o processo de aprovação da folha de horas.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   A variável **Enviar para aprovação** O botão é substituído pelo **Aprovar**, **Rejeitar**, e **Retroceder** botões. O status da folha de horas muda para **Enviado**.
+   O botão **Enviar para Aprovação** foi substituído pelos botões **Aprovar**, **Rejeitar** e **Cancelar**. O status da planilha de horas muda para **Enviado**.
 
-   Quando sua planilha de horas é enviada para aprovação, o aprovador vê a planilha de horas listada no **Aprovações** área na **Início** página. As seguintes situações podem ocorrer:
+   Quando sua folha de horas é enviada para aprovação, o aprovador vê a folha de horas listada na área **Aprovações** na página **Página inicial**. As seguintes situações podem ocorrer:
 
-   * Se o aprovarem, a **Retroceder** botão muda para **Reabrir** e as atualizações de status da folha de horas em **Abertura**.
-   * Se o rejeitarem, a **Enviar para aprovação** O botão substitui a **Retroceder** e o status da folha de horas é atualizado para **Rejeitado**.
+   * Se eles aprovarem, o botão **Cancelar** será alterado para **Reabrir** e o status da folha de horas será atualizado para **Abrir**.
+   * Se ele rejeitar, o botão **Enviar para Aprovação** substituirá o botão **Cancelar** e o status da folha de horas será atualizado para **Rejeitado**.
 
-1. (Opcional) Clique em **Retroceder** se precisar reabrir a folha de horas e atualizar as horas. Para obter informações, consulte a [Cancelar uma planilha de horas](#recall-a-timesheet) neste artigo.
+1. (Opcional) Clique em **Cancelar** se precisar reabrir a folha de horas e atualizar suas horas. Para obter informações, consulte a seção [Cancelar uma folha de horas](#recall-a-timesheet) neste artigo.
 
 ### Exibir o status de uma folha de horas enviada {#view-the-status-of-a-submitted-timesheet}
 
 Você poderá ver o status de uma planilha de horas depois de enviá-la.
 
-Se o administrador do Workfront tiver ativado a Aprovação de folha de horas para o usuário e a Rejeição de folha de horas para os manipuladores de eventos do usuário, você será notificado depois que a folha de horas for aprovada ou rejeitada. Para obter informações sobre como ativar notificações de eventos, consulte [Tipos de notificação de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Se o administrador do Workfront tiver ativado a Aprovação de folha de horas para o usuário e a Rejeição de folha de horas para os manipuladores de eventos do usuário, você será notificado depois que a folha de horas for aprovada ou rejeitada. Para obter informações sobre como habilitar notificações de eventos, consulte [Tipos de notificação de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Sem essas notificações, você pode saber mais sobre o status de suas folhas de horas enviadas na área Folha de horas do Workfront.
 
 Para exibir o status de uma planilha de horas:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
-1. Clique em **Planilhas de Horas**. A variável **Todos** é selecionado por padrão.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
-   * Selecionar **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as folhas de horas que você aprova
+   * Selecione **Minhas planilhas de horas aprovadas** no canto superior direito da página para exibir somente as planilhas de horas aprovadas por você
 
      Ou
 
-     Selecionar **Minhas Planilhas de Horas** para exibir apenas suas planilhas de horas.
+     Selecione **Minhas Planilhas de Horas** para exibir apenas suas planilhas de horas.
 
      Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
 
@@ -107,11 +107,11 @@ Para exibir o status de uma planilha de horas:
    >
    >   
    >   
-   >   * [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Condicional) Se você selecionou **Minhas Planilhas de Horas**, assegurar que a **Padrão** for aplicada e observe o **Status** coluna.
+1. (Condicional) Se você selecionou **Minhas Planilhas de Horas**, verifique se a exibição **Padrão** foi aplicada e observe a coluna **Status**.
 
    As planilhas de horas podem ter os seguintes status:
 
@@ -121,11 +121,11 @@ Para exibir o status de uma planilha de horas:
     <tbody> 
      <tr> 
       <td role="rowheader">Aberto</td> 
-      <td> <p>Sua planilha de horas está aberta no momento e você pode registrar horas. </p> <p>Uma folha de horas cancelada é exibida com um status de Aberta. Para obter informações, consulte a <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma planilha de horas</a> neste artigo. </p> </td> 
+      <td> <p>Sua planilha de horas está aberta no momento e você pode registrar horas. </p> <p>Uma folha de horas cancelada é exibida com um status de Aberta. Para obter informações, consulte a seção <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma folha de horas</a> neste artigo. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Enviados</td> 
-      <td>Você enviou sua planilha de horas para aprovação, mas ela ainda não foi aprovada. Você pode cancelar uma folha de horas enviada para continuar a editá-la. Para obter informações, consulte a <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma planilha de horas</a> neste artigo. </td> 
+      <td>Você enviou sua planilha de horas para aprovação, mas ela ainda não foi aprovada. Você pode cancelar uma folha de horas enviada para continuar a editá-la. Para obter informações, consulte a seção <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma folha de horas</a> neste artigo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fechado</td> 
@@ -148,11 +148,11 @@ Você pode cancelar uma planilha de horas que já foi enviada para aprovação. 
 
 Para chamar novamente uma planilha de horas:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
-1. Clique em **Planilhas de Horas**.
-1. Clique em **Minhas Planilhas de Horas** no canto superior direito da tela ou selecione **Minhas Planilhas de Horas** do **Filtro** ![](assets/filter-nwepng.png) menu suspenso.
-1. Clique no intervalo de tempo para uma planilha de horas com status de **Enviado**.
-1. Clique em **Retroceder**.
+1. Clique em **Folhas de horas**.
+1. Clique em **Minhas Planilhas de Horas** no canto superior direito da tela ou selecione **Minhas Planilhas de Horas** no menu suspenso **Filtro** ![](assets/filter-nwepng.png).
+1. Clique no intervalo de tempo de uma planilha de horas com o status **Enviado**.
+1. Clique em **Cancelar**.
 
-   A folha de horas se torna editável novamente e seu status muda para **Abertura**.
+   A folha de horas se torna editável novamente e seu status muda para **Abrir**.

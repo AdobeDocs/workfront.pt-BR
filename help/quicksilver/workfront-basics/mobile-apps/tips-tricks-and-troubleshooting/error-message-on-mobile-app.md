@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: "Mensagem de erro no [!DNL Adobe Workfront] Aplicativo móvel: 'Sua conta não está habilitada para API'."
-description: "Mensagem de erro no [!DNL Adobe Workfront] Aplicativo móvel: 'Sua conta não está habilitada para API'."
+title: "Mensagem de Erro no  [!DNL Adobe Workfront] Aplicativo Móvel: 'Sua conta não está habilitada para API'."
+description: "Mensagem de Erro no  [!DNL Adobe Workfront] Aplicativo Móvel: 'Sua conta não está habilitada para API'."
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 ---
 
-# Mensagem de erro no [!DNL Adobe Workfront] Aplicativo móvel: &quot;[!UICONTROL Sua conta não está habilitada para API.]&quot;
+# Mensagem de erro no aplicativo móvel [!DNL Adobe Workfront]: &quot;[!UICONTROL A API da sua conta não está habilitada.]&quot;
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,10 +26,10 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
-   <td> <p> Qualquer Um</p> </td> 
+   <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licença</strong></td> 
+   <td role="rowheader"><strong>licença do Adobe [!DNL Workfront]</strong></td> 
    <td> <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -41,19 +41,19 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 ## Problema
 
-Ao tentar fazer logon no [!DNL Adobe Workfront] aplicativo móvel, você recebe o seguinte erro: *[!UICONTROL Sua conta não está habilitada para API. Informe o administrador do sistema e ele fará com que você seja configurado. Desculpe por isso.]*
+Ao tentar fazer logon no aplicativo móvel [!DNL Adobe Workfront], você recebe o seguinte erro: *[!UICONTROL Sua conta não tem a API habilitada. Informe o administrador do sistema e ele fará com que você seja configurado. Desculpe por isso.]*
 
 ## Causa
 
-Seu [!DNL Workfront] o administrador não habilitou seu [!DNL Workfront] ambiente a ser acessado de um dispositivo móvel.
+O administrador do [!DNL Workfront] não habilitou o ambiente [!DNL Workfront] para ser acessado de um dispositivo móvel.
 
 ## Solução
 
-1. Faça logon no [!DNL Workfront] aplicação web como [!DNL Workfront] Administrador.
-1. Vá para o **[!UICONTROL Configuração]** área.
-1. Expanda o **[!UICONTROL Sistema]** , em seguida, clique em **[!UICONTROL Preferências]**.
+1. Faça logon no aplicativo Web [!DNL Workfront] como Administrador [!DNL Workfront].
+1. Vá para a área **[!UICONTROL Configuração]**.
+1. Expanda o menu **[!UICONTROL Sistema]** e clique em **[!UICONTROL Preferências]**.
 
-1. Em **[!UICONTROL Segurança]** selecione a **[!UICONTROL Permitir que as pessoas utilizem [!DNL Workfront]Os aplicativos móveis da e o [!DNL Workfront Outlook] Suplemento]** para habilitá-la.
+1. Na seção **[!UICONTROL Segurança]**, selecione a opção **[!UICONTROL Permitir que as pessoas usem os aplicativos móveis de [!DNL Workfront] e o Suplemento [!DNL Workfront Outlook]]** para habilitá-lo.
 
 1. Clique em **[!UICONTROL Salvar]**.\
-   Todos os usuários do sistema agora podem acessar [!DNL Workfront] de seus aplicativos móveis e [!DNL Outlook].
+   Todos os usuários no sistema agora podem acessar o [!DNL Workfront] por meio de seus aplicativos móveis e do [!DNL Outlook].

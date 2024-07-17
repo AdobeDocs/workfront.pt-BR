@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Os administradores de grupo em organizações que foram integradas à Adobe Admin Console podem usar esse procedimento para criar usuários e enviá-los para aprovação do administrador.
 >
->Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Você pode adicionar usuários no Adobe Workfront criando usuários individuais do zero ou copiando usuários existentes.
 
@@ -59,7 +59,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td> <p>Você deve ter um dos seguintes:</p> 
     <ul> 
      <li> <p>O nível de acesso Administrador do sistema. Para obter informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>. </p> </li> 
-     <li> <p><b>Usuários</b> no seu nível de acesso configurado para <b>Editar</b> acesso, com <b>Criar</b> e pelo menos um dos dois <b>Administrador de Usuários</b> opções ativadas em <b>Ajuste as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o usuário <b>Administrador (Usuários de grupo)</b> estiver ativado, você deve ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> <p>Para obter mais informações sobre o <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
+     <li> <p>A configuração <b>Usuários</b> no seu nível de acesso foi configurada para <b>Editar</b> acesso, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o Usuário <b>Administrador (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> <p>Para obter mais informações sobre a configuração <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -83,9 +83,9 @@ Antes de adicionar um usuário, colete as informações sobre o usuário listado
   >Você pode determinar se os usuários podem exibir as informações de contato de outros usuários ajustando a definição Exibição de Usuários ao especificar níveis de acesso para objetos do Workfront. Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Qual é a posição do novo usuário na empresa? Essa pessoa tem algum subordinado direto? A quem esta pessoa está subordinada?
-* Qual função a pessoa desempenha? Essa função de trabalho existe no Workfront? Há um limite para o número de pessoas que podem preencher essa função de trabalho? Para obter informações sobre a criação de funções de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Qual função a pessoa desempenha? Essa função de trabalho existe no Workfront? Há um limite para o número de pessoas que podem preencher essa função de trabalho? Para obter informações sobre como criar funções de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 * Que nível de acesso o usuário deve ter? Ele já existe ou você precisa criar um novo? Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-* Em qual grupo padrão esse usuário deve estar? A pessoa deve estar em mais de um grupo? Para obter informações sobre grupos, consulte [Visão geral dos grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+* Em qual grupo padrão esse usuário deve estar? A pessoa deve estar em mais de um grupo? Para obter informações sobre grupos, consulte [Visão geral sobre grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 * Em qual equipe inicial este usuário deve estar? A pessoa deve pertencer a mais de uma equipe? Para obter informações sobre equipes, consulte [Visão geral das equipes](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Quais informações personalizadas você precisa associar a este usuário?
 
@@ -93,7 +93,7 @@ Antes de adicionar um usuário, colete as informações sobre o usuário listado
 
 ## Criar um usuário do zero
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
 
 1. Clique em **Novo usuário > Novo usuário** para adicionar um usuário que ainda não foi adicionado ao Workfront.
 
@@ -103,24 +103,24 @@ Antes de adicionar um usuário, colete as informações sobre o usuário listado
 
    Se você estiver importando usuários, não será necessário continuar com essas etapas. Para obter mais informações, consulte [Importar usuários](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
-1. No **Novo usuário** for exibida, clique em **Mostrar opções avançadas**, em seguida, configure as opções disponíveis para inserir as informações da pessoa.
+1. Na caixa **Novo Usuário** exibida, clique em **Mostrar Opções Avançadas** e configure as opções disponíveis para inserir as informações da pessoa.
 
-   Para obter informações sobre essas opções, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Para obter informações sobre essas opções, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Siga um destes procedimentos:
 
-   * Sair **Enviar um email de convite a essa pessoa** ativado. Se você fizer isso, o usuário receberá um email onde poderá seguir um link para criar sua própria senha do Workfront. Os usuários que não aceitam o convite por email e criam uma senha do Workfront são listados como Não registrado no Workfront.
-   * Desativar **Enviar um email de convite a essa pessoa**, em seguida digite um **Senha** para a pessoa e confirme-a na caixa **Confirmar senha** caixa. Você precisará compartilhar essa senha com o usuário fora do Workfront.
+   * Deixe **Enviar um email de convite para esta pessoa** habilitado. Se você fizer isso, o usuário receberá um email onde poderá seguir um link para criar sua própria senha do Workfront. Os usuários que não aceitam o convite por email e criam uma senha do Workfront são listados como Não registrado no Workfront.
+   * Desabilite **Enviar um email de convite a essa pessoa**, digite uma **Senha** para a pessoa e confirme-a na caixa **Confirmar Senha**. Você precisará compartilhar essa senha com o usuário fora do Workfront.
 
    >[!NOTE]
    >
-   >* Se o administrador do Workfront habilitou uma integração de SSO com o Workfront, a variável Somente permissão &lt;sso configuration=&quot;&quot;> O campo Autenticação ficará oculto se você desativar o convite por email. A ID ou &lt;sso configuration=&quot;&quot;> O campo de nome de usuário permanece visível.
+   >* Se o administrador do Workfront ativou uma integração de SSO com o Workfront, o campo Permitir apenas &lt;Configuração de SSO> autenticação ficará oculto se você desativar o convite por email. O campo ID da Federação ou &lt;Configuração do SSO> Nome de Usuário permanece visível.
    >
    * Se sua organização tiver sido integrada ao Admin Console e você adicionar um usuário por meio do Workfront, você não terá a opção de enviar um convite por email.
    >
    Para os usuários existentes do Adobe, o usuário pode ou não receber um email sobre a disponibilidade do Workfront. Esta é uma preferência controlada pelo administrador de Adobe do produto.
 
-1. Clique em **Adicionar esta pessoa**.
+1. Clique Em **Adicionar Esta Pessoa**.
 
    Ou
 
@@ -128,7 +128,7 @@ Antes de adicionar um usuário, colete as informações sobre o usuário listado
 
    >[!NOTE]
    >
-   Se você for um administrador de grupo que adiciona um usuário a uma organização que foi integrada à Adobe Admin Console, as opções para essa etapa serão **Enviar usuário para Aprovação do Administrador** e **Enviar para aprovação e iniciar outro**. O usuário é criado com um status Desativado e Pendente de Aprovação. Um administrador do Workfront deve aprovar o usuário, que o ativa no Workfront e o adiciona à Adobe Admin Console.
+   Se você for um administrador de grupo que adiciona um usuário a uma organização que foi integrada à Adobe Admin Console, as opções para esta etapa serão **Enviar usuário para Aprovação do Administrador** e **Enviar para Aprovação e Iniciar outro**. O usuário é criado com um status Desativado e Pendente de Aprovação. Um administrador do Workfront deve aprovar o usuário, que o ativa no Workfront e o adiciona à Adobe Admin Console.
 
 ## Copiar um usuário para criar um novo
 
@@ -145,13 +145,13 @@ Quando você cria um usuário dessa maneira, todas as informações são copiada
 
 Para criar um novo usuário copiando um usuário existente:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
 1. Selecione o usuário que deseja copiar e clique no ícone Copiar ![](assets/copy-icon.png).
-1. No **Copiar usuário** que for exibida, edite os campos disponíveis para o novo usuário.
+1. Na caixa **Copiar Usuário** que é exibida, edite os campos disponíveis para o novo usuário.
 
-   Para obter informações sobre todos os campos associados a um usuário, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Para obter informações sobre todos os campos associados a um usuário, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Clique em **Adicionar esta pessoa**.
+1. Clique Em **Adicionar Esta Pessoa**.
 
    Ou
 

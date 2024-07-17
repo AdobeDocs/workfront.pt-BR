@@ -21,7 +21,7 @@ O Planejador de cenários do Workfront está disponível somente com a nova expe
 
 Os seguintes recursos foram adicionados à versão 20.4:
 
-## Publicar cenários para atualizar e criar projetos no Planejador de cenários do Workfront
+## Cenários do Publish para atualizar e criar projetos no Planejador de Cenários do Workfront
 
 Um novo recurso no Planejador de cenários do Workfront agora permite publicar um cenário e mapear suas iniciativas para projetos regulares. Isso cria projetos de iniciativas existentes ou atualiza projetos já vinculados a iniciativas que foram importadas no plano. Transferências de informações de iniciativas para os projetos, economizando tempo na entrada de dados e garantindo a precisão.
 
@@ -34,7 +34,7 @@ Estão incluídos nesta nova funcionalidade os seguintes:
 * Informações de iniciativas no fluxo de atualizações de projeto
 * Informações da iniciativa em relatórios
 
-Para obter informações sobre a publicação de um plano, consulte [Atualizar ou criar projetos publicando iniciativas no Planejador de cenários](../../../scenario-planner/publish-scenarios-update-projects.md).
+Para obter informações sobre como publicar um plano, consulte [Atualizar ou criar projetos publicando iniciativas no Planejador de Cenários](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 Assista ao vídeo a seguir para entender como criar um projeto publicando um cenário:
 
@@ -44,5 +44,5 @@ Assista ao vídeo a seguir para entender como atualizar um projeto importado ant
 
 Para convidar outros usuários para colaborar com você ao trabalhar no Planejador de cenários do Workfront, agora é possível compartilhar os planos criados com outros usuários. Se você puder acessar um plano que não criou com um link antes dessa melhoria, o plano deverá ser compartilhado com você agora antes de poder acessá-lo.
 
-Para obter informações sobre o compartilhamento de um plano no Planejador de cenários, consulte [Compartilhar um plano no Planejador de cenários](../../../scenario-planner/share-a-plan.md).
+Para obter informações sobre como compartilhar um plano no Planejador de cenários, consulte [Compartilhar um plano no Planejador de cenários](../../../scenario-planner/share-a-plan.md).
 

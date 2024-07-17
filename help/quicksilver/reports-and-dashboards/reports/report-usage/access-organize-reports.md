@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: report-usage
 title: Acessar e organizar relatórios
-description: Você pode usar relatórios no Adobe Workfront para revisar ou editar informações sobre objetos no sistema. Você pode criar seus próprios relatórios, organizar os relatórios que criar e exibir relatórios que foram compartilhados com você ou compartilhados publicamente.
+description: Você pode usar relatórios no Adobe Workfront para revisar ou editar informações sobre objetos no sistema. Você pode criar seus próprios relatórios, organizar os relatórios criados e exibir os relatórios compartilhados com você ou compartilhados publicamente.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 # Acessar e organizar relatórios
 
-Você pode usar relatórios no Adobe Workfront para revisar ou editar informações sobre objetos no sistema. Você pode criar seus próprios relatórios, organizar os relatórios que criar e exibir relatórios que foram compartilhados com você ou compartilhados publicamente.
+Você pode usar relatórios no Adobe Workfront para revisar ou editar informações sobre objetos no sistema. Você pode criar seus próprios relatórios, organizar os relatórios criados e exibir os relatórios compartilhados com você ou compartilhados publicamente.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -35,32 +35,32 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Relatórios, Painéis, Calendários</p> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exibir relatórios
 
-Para acessar relatórios que você criou ou que foram compartilhados com você ou compartilhados publicamente:
+Para acessar os relatórios criados por você ou compartilhados com você ou compartilhados publicamente:
 
 1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
 
-1. Clique em uma das seguintes opções, dependendo do relatório que deseja visualizar:
+1. Clique em uma das seguintes opções, dependendo do relatório que deseja exibir:
 
-   * Clique em **Meus relatórios** para exibir relatórios que você criou.
-   * Clique em **Compartilhado comigo** para visualizar relatórios que outras pessoas compartilharam com você.
-   * Clique em **Todos os relatórios** para exibir ambos os relatórios que você criou e aqueles que foram compartilhados com você ou compartilhados publicamente.
+   * Clique em **Meus Relatórios** para exibir os relatórios que você criou.
+   * Clique em **Compartilhado comigo** para exibir os relatórios que outras pessoas compartilharam com você.
+   * Clique em **Todos os relatórios** para exibir os relatórios que você criou e os que foram compartilhados com você ou compartilhados publicamente.
 
-## Organizar relatórios criados
+## Organizar relatórios criados por você
 
-Você pode usar pastas para organizar os relatórios que criar. Não é possível organizar relatórios que foram compartilhados com você, compartilhados publicamente ou relatórios do sistema.
+Você pode usar pastas para organizar os relatórios criados. Não é possível organizar relatórios que foram compartilhados com você, compartilhados publicamente ou relatórios do sistema.
 
 * [Criar uma nova pasta para relatórios](#create-a-new-folder-for-reports)
 * [Adicionar relatórios a uma pasta](#add-reports-to-a-folder)
@@ -69,29 +69,29 @@ Você pode usar pastas para organizar os relatórios que criar. Não é possíve
 
 1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
 
-1. Clique no botão **Nova pasta** ícone .\
+1. Clique no ícone **Nova pasta**.\
    ![](assets/nwe-new-folder-350x346.png)
 
 1. Especifique um nome para a nova pasta e pressione Enter.
-1. No **Meus relatórios** , adicione relatórios à nova pasta.\
-   Para obter informações sobre como adicionar um relatório a uma nova pasta, consulte o [Adicionar relatórios a uma pasta](#add-reports-to-a-folder) neste artigo.
+1. Na pasta **Meus Relatórios**, adicione relatórios à nova pasta.\
+   Para obter informações sobre como adicionar um relatório a uma nova pasta, consulte a seção [Adicionar relatórios a uma pasta](#add-reports-to-a-folder) neste artigo.
 
    >[!NOTE]
    >
-   >Você só pode adicionar novas pastas ao **Meus relatórios** pasta. Não é possível adicionar novas pastas ou relatórios ao **Compartilhado comigo** ou **Todos os relatórios** pastas.
+   >Você só pode adicionar novas pastas à pasta **Meus Relatórios**. Você não pode adicionar novas pastas ou relatórios às pastas **Compartilhado comigo** ou **Todos os relatórios**.
 
 ### Adicionar relatórios a uma pasta {#add-reports-to-a-folder}
 
 1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
 
-1. Clique em **Meus relatórios**.\
+1. Clique em **Meus Relatórios**.\
    Ou\
-   Clique em qualquer pasta aninhada na **Meus relatórios** pasta.
+   Clique em qualquer pasta aninhada na pasta **Meus Relatórios**.
 
-1. Arraste um relatório da lista de relatórios para a pasta onde deseja que ele fique e solte-o ao acessar a pasta.
+1. Arraste um relatório da lista de relatórios para a pasta em que deseja que ele resida e solte-o quando chegar à pasta.
 
    >[!NOTE]
    >
-   >Você só pode mover relatórios do **Meus relatórios** pasta para outras pastas aninhadas em **Meus relatórios**. Não é possível mover relatórios de ou para a **Compartilhado comigo** ou **Todos os relatórios** pasta para ou de outras pastas.
+   >Você só pode mover relatórios da pasta **Meus Relatórios** para outras pastas aninhadas em **Meus Relatórios**. Você não pode mover relatórios de ou para a pasta **Compartilhado comigo** ou **Todos os relatórios** para ou de outras pastas.
 
    ![](assets/nwe-drag-report-to-folder-350x292.png)

@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [Definir Tipos de Solicitação para um projeto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-* [Fornecer acesso a filas de solicitações](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+* [Fornecer acesso às filas de solicitações](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
 * [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [Criar Regras de Encaminhamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)

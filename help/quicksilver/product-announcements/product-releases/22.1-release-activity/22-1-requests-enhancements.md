@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 17 de janeiro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte a [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Aprimoramento da interface para usuários que não têm acesso à criação de solicitações
 
@@ -33,7 +33,7 @@ Para melhorar a experiência dos usuários ao trabalhar com solicitações, intr
 
 Antes desse aprimoramento, o botão Nova solicitação não era exibido na área Solicitações para esses usuários. Copiar e enviar uma solicitação como nova também é restrito.
 
-Para obter mais informações sobre criação de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Para obter mais informações sobre como criar solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Copiar e enviar solicitações
 

@@ -5,24 +5,24 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do Split.io
-description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Split.io], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , é possível automatizar fluxos de trabalho que usam  [!DNL Split.io], bem como conectá-los a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4576a2e4-b495-430e-a9de-4e1ec7379ab8
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
 
 # [!DNL Split.io] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Split.io], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um cenário [!DNL Adobe Workfront Fusion], você pode automatizar fluxos de trabalho que usam [!DNL Split.io], bem como conectá-los a vários aplicativos e serviços de terceiros.
 
-Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se você precisar de instruções sobre como criar um cenário, consulte [Criar um cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -43,47 +43,47 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!DNL Split.io] módulos, você deve ter uma [!DNL Split.io] conta.
+Para usar módulos [!DNL Split.io], você deve ter uma conta [!DNL Split.io].
 
-## Conectar [!DNL Split.io] para [!DNL Workfront Fusion] {#connect-split-io-to-workfront-fusion}
+## Conectar [!DNL Split.io] a [!DNL Workfront Fusion] {#connect-split-io-to-workfront-fusion}
 
-Você pode criar uma conexão com o seu [!DNL Split.io] conta diretamente de dentro de um [!DNL Split.io] módulo.
+Você pode criar uma conexão com sua conta do [!DNL Split.io] diretamente de dentro de um módulo do [!DNL Split.io].
 
-1. Em qualquer [!DNL Split.io] , clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
+1. Em qualquer módulo [!DNL Split.io], clique em **[!UICONTROL Adicionar]** ao lado do campo [!UICONTROL Conexão].
 1. Insira um nome para a conexão.
-1. Insira seu [!DNL Split.io] Chave da API.
+1. Insira sua chave de API [!DNL Split.io].
 
-   Para obter mais informações sobre [!DNL Split.io] Chaves de API, consulte [Chaves de API](https://help.split.io/hc/en-us/articles/360019916211-API-keys) no [!DNL Split.io] documentação.
+   Para obter mais informações sobre [!DNL Split.io] chaves de API, consulte [chaves de API](https://help.split.io/hc/en-us/articles/360019916211-API-keys) na documentação [!DNL Split.io].
 
-1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
+1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar para o módulo.
 
 ## [!DNL Split.io] módulos e seus campos
 
-Ao configurar [!DNL split.io] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL split.io] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL split.io], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL split.io] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -94,17 +94,17 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 * [[!UICONTROL Chamada de API personalizada]](#custom-api-call)
 * [[!UICONTROL Obter Divisão]](#get-split)
-* [[!UICONTROL Obter definição de divisão no ambiente]](#get-split-definition-in-environment)
+* [[!UICONTROL Obter Definição de Divisão no Ambiente]](#get-split-definition-in-environment)
 * [[!UICONTROL Criar Divisão]](#create-split)
-* [[!UICONTROL Excluir divisão]](#delete-split)
-* [[!UICONTROL Criar definição de divisão no ambiente]](#create-split-definition-in-environment)
+* [[!UICONTROL Excluir Divisão]](#delete-split)
+* [[!UICONTROL Criar Definição de Divisão no Ambiente]](#create-split-definition-in-environment)
 * [[!UICONTROL Remover definição dividida do ambiente]](#remove-split-definition-from-environment)
 * [[!UICONTROL Definição de Divisão de Atualização Parcial no Ambiente]](#partial-update-split-definition-in-environment)
-* [[!UICONTROL Associar tags]](#associate-tags)
+* [[!UICONTROL Marcas Associadas]](#associate-tags)
 
 #### [!UICONTROL Chamada de API personalizada]
 
-Esse módulo de ação permite fazer uma chamada autenticada personalizada para o [!DNL split.io] API. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelo outro [!DNL split.io] módulos.
+Este módulo de ação permite fazer uma chamada autenticada personalizada para a API [!DNL split.io]. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelos outros módulos do [!DNL split.io].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -112,11 +112,11 @@ Esse módulo de ação permite fazer uma chamada autenticada personalizada para 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Insira um caminho relativo a <code>https://api.split.io/internal/api/v2/</code>.</td> 
+   <td>Insira um caminho relativo para <code>https://api.split.io/internal/api/v2/</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método]</td> 
@@ -132,7 +132,7 @@ Esse módulo de ação permite fazer uma chamada autenticada personalizada para 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Corpo]</td> 
-   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar declarações condicionais como <code>if</code> no JSON, coloque as aspas fora da declaração condicional.</p> 
+   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar instruções condicionais como <code>if</code> em seu JSON, coloque as aspas fora da instrução condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -154,10 +154,10 @@ Este módulo de ação recupera a divisão.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho que contém a divisão que você deseja recuperar.</td> 
   </tr> 
   <tr> 
@@ -167,7 +167,7 @@ Este módulo de ação recupera a divisão.
  </tbody> 
 </table>
 
-#### [!UICONTROL Obter definição de divisão no ambiente]
+#### [!UICONTROL Obter Definição de Divisão no Ambiente]
 
 Esse módulo de ação recupera uma definição de divisão específica do ambiente designado.
 
@@ -177,10 +177,10 @@ Esse módulo de ação recupera uma definição de divisão específica do ambie
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho que contém a definição de divisão que deseja recuperar.</td> 
   </tr> 
   <tr> 
@@ -208,10 +208,10 @@ Esse módulo de ação cria uma nova divisão em sua organização, considerando
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho em que deseja criar a divisão.</td> 
   </tr> 
   <tr> 
@@ -229,7 +229,7 @@ Esse módulo de ação cria uma nova divisão em sua organização, considerando
  </tbody> 
 </table>
 
-#### [!UICONTROL Excluir divisão]
+#### [!UICONTROL Excluir Divisão]
 
 Esse módulo de ação exclui uma divisão da sua organização. Essa ação desconfigura automaticamente a definição de divisão de todos os ambientes.
 
@@ -239,10 +239,10 @@ Esse módulo de ação exclui uma divisão da sua organização. Essa ação des
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho no qual deseja excluir a divisão.</td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ Esse módulo de ação exclui uma divisão da sua organização. Essa ação des
  </tbody> 
 </table>
 
-#### [!UICONTROL Criar definição de divisão no ambiente]
+#### [!UICONTROL Criar Definição de Divisão no Ambiente]
 
 Este módulo de ação configura uma definição de divisão para um ambiente específico.
 
@@ -262,10 +262,10 @@ Este módulo de ação configura uma definição de divisão para um ambiente es
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho em que deseja criar uma definição de divisão.</td> 
   </tr> 
   <tr> 
@@ -282,19 +282,19 @@ Este módulo de ação configura uma definição de divisão para um ambiente es
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Regras]</td> 
-   <td> <p>Para cada regra de direcionamento que deseja adicionar à definição, clique em <b>[!UICONTROL Adicionar item]</b>e, em seguida, insira ou mapeie a regra.</p> <p>Para obter mais informações sobre regras de direcionamento, consulte <a href="https://docs.split.io/reference#create-split-definition-in-environment">Criar definição de divisão em um ambiente</a> no [!DNL Split.io] documentação.</p> </td> 
+   <td> <p>Para cada regra de direcionamento que você deseja adicionar à definição, clique em <b>[!UICONTROL Adicionar item]</b> e, em seguida, insira ou mapeie a regra.</p> <p>Para obter mais informações sobre regras de direcionamento, consulte <a href="https://docs.split.io/reference#create-split-definition-in-environment">Criar definição de divisão em um ambiente</a> na documentação [!DNL Split.io].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Regra padrão]</td> 
-   <td> <p>Insira ou mapeie a regra que você deseja que a divisão use para o tráfego que não atende às especificações das outras regras.</p> <p>Para obter mais informações sobre regras de direcionamento, consulte <a href="https://docs.split.io/reference#create-split-definition-in-environment">Criar definição de divisão em um ambiente</a> no [!DNL Split.io] documentação.</p> </td> 
+   <td> <p>Insira ou mapeie a regra que você deseja que a divisão use para o tráfego que não atende às especificações das outras regras.</p> <p>Para obter mais informações sobre regras de direcionamento, consulte <a href="https://docs.split.io/reference#create-split-definition-in-environment">Criar definição de divisão em um ambiente</a> na documentação [!DNL Split.io].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tratamento padrão]</td> 
-   <td> <p>Insira ou mapeie o tratamento que deseja que a divisão use se a divisão for eliminada ou se o cliente não for incluído na alocação de tráfego.</p> <p>Para obter mais informações sobre tratamentos, consulte <a href="https://docs.split.io/reference#create-split-definition-in-environment">Criar definição de divisão em um ambiente</a> no [!DNL Split.io] documentação.</p> </td> 
+   <td> <p>Insira ou mapeie o tratamento que deseja que a divisão use se a divisão for eliminada ou se o cliente não for incluído na alocação de tráfego.</p> <p>Para obter mais informações sobre tratamentos, consulte <a href="https://docs.split.io/reference#create-split-definition-in-environment">Criar definição de divisão em um ambiente</a> na documentação [!DNL Split.io].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tratamentos]</td> 
-   <td> <p>Para cada tratamento que deseja adicionar à definição, clique em <b>[!UICONTROL Adicionar item]</b>, em seguida insira ou mapeie o tratamento.</p> <p>Para obter mais informações sobre tratamentos, consulte <a href="https://docs.split.io/reference#create-split-definition-in-environment">Criar definição de divisão em um ambiente</a> no [!DNL Split.io] documentação.</p> </td> 
+   <td> <p>Para cada tratamento que você deseja adicionar à definição, clique em <b>[!UICONTROL Adicionar item]</b> e, em seguida, insira ou mapeie o tratamento.</p> <p>Para obter mais informações sobre tratamentos, consulte <a href="https://docs.split.io/reference#create-split-definition-in-environment">Criar definição de divisão em um ambiente</a> na documentação [!DNL Split.io].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -309,10 +309,10 @@ Este módulo de ação desconfigura uma definição de divisão para um ambiente
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho para o qual deseja remover uma definição de divisão.</td> 
   </tr> 
   <tr> 
@@ -340,10 +340,10 @@ Este módulo de ação atualiza uma definição de divisão para um ambiente esp
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho no qual deseja atualizar uma definição de divisão.</td> 
   </tr> 
   <tr> 
@@ -356,7 +356,7 @@ Este módulo de ação atualiza uma definição de divisão para um ambiente esp
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Atualizar conteúdo]</td> 
-   <td> <p>Para cada atributo da divisão que você deseja atualizar, clique em <b>[!UICONTROL Adicionar item]</b> e inserir ou mapear as alterações desejadas.</p> <p>Para obter mais informações, consulte <a href="https://docs.split.io/reference#partial-update-split-definition-in-environment">Definição de Divisão de Atualização Parcial no Ambiente</a> no [!DNL Split.io] documentação.</p> </td> 
+   <td> <p>Para cada atributo da divisão que você deseja atualizar, clique em <b>[!UICONTROL Adicionar item]</b> e insira ou mapeie as alterações desejadas.</p> <p>Para obter mais informações, consulte <a href="https://docs.split.io/reference#partial-update-split-definition-in-environment">Definição de Divisão de Atualização Parcial em Ambiente</a> na documentação [!DNL Split.io].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comentários]</td> 
@@ -365,7 +365,7 @@ Este módulo de ação atualiza uma definição de divisão para um ambiente esp
  </tbody> 
 </table>
 
-#### [!UICONTROL Associar tags]
+#### [!UICONTROL Marcas Associadas]
 
 Esse módulo de ação adiciona tags ao objeto especificado.
 
@@ -375,10 +375,10 @@ Esse módulo de ação adiciona tags ao objeto especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho ao qual deseja adicionar uma tag.</td> 
   </tr> 
   <tr> 
@@ -391,7 +391,7 @@ Esse módulo de ação adiciona tags ao objeto especificado.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Marcas]</td> 
-   <td> <p>Para cada tag que deseja adicionar, clique em <b>[!UICONTROL Adicionar item]</b> e insira ou mapeie a tag.</p> </td> 
+   <td> <p>Para cada marca que você deseja adicionar, clique em <b>[!UICONTROL Adicionar item]</b> e insira ou mapeie a marca.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -401,8 +401,8 @@ Esse módulo de ação adiciona tags ao objeto especificado.
 * [[!UICONTROL Obter Espaços de Trabalho]](#get-workspaces)
 * [[!UICONTROL Obter ambientes]](#get-environments)
 * [[!UICONTROL Obter Divisões]](#get-splits)
-* [[!UICONTROL Definições de divisão de lista em um ambiente]](#list-split-definitions-in-an-environment)
-* [[!UICONTROL Obter tipos de tráfego]](#get-traffic-types)
+* [[!UICONTROL Listar definições divididas em um ambiente]](#list-split-definitions-in-an-environment)
+* [[!UICONTROL Obter Tipos de Tráfego]](#get-traffic-types)
 
 #### [!UICONTROL Obter Espaços de Trabalho]
 
@@ -414,7 +414,7 @@ Este módulo de pesquisa recupera os espaços de trabalho de uma organização.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limite]</td> 
@@ -433,10 +433,10 @@ Este módulo de pesquisa recupera uma lista de ambientes.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho que contém os ambientes que deseja listar.</td> 
   </tr> 
  </tbody> 
@@ -452,10 +452,10 @@ Este módulo de pesquisa recupera uma lista de divisões.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho que contém as divisões que deseja listar.</td> 
   </tr> 
   <tr> 
@@ -465,7 +465,7 @@ Este módulo de pesquisa recupera uma lista de divisões.
  </tbody> 
 </table>
 
-#### [!UICONTROL Definições de divisão de lista em um ambiente]
+#### [!UICONTROL Listar definições divididas em um ambiente]
 
 Este módulo de pesquisa recupera uma lista de definições de divisão em um determinado ambiente.
 
@@ -475,10 +475,10 @@ Este módulo de pesquisa recupera uma lista de definições de divisão em um de
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho que contém as definições de divisão que deseja listar.</td> 
   </tr> 
   <tr> 
@@ -492,7 +492,7 @@ Este módulo de pesquisa recupera uma lista de definições de divisão em um de
  </tbody> 
 </table>
 
-#### [!UICONTROL Obter tipos de tráfego]
+#### [!UICONTROL Obter Tipos de Tráfego]
 
 Este módulo de pesquisa recupera uma lista de tipos de tráfego.
 
@@ -502,10 +502,10 @@ Este módulo de pesquisa recupera uma lista de tipos de tráfego.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Split.io] conta para [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] para o [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Split.io] ao [!DNL Workfront Fusion], consulte <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Split.io] ao [!UICONTROL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Selecione ou mapeie o espaço de trabalho que contém os tipos de tráfego que deseja listar.</td> 
   </tr> 
  </tbody> 

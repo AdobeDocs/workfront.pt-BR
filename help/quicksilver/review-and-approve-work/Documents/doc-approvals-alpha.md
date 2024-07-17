@@ -62,7 +62,7 @@ Nesta versão de 5º Alpha, temos:
 * Adição da capacidade de adicionar aprovadores externos
 * Melhoria da exibição para aprovadores externos para visualização, download e comentário em um documento
 
-Assista ao [apresentação em vídeo](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+Assista à [apresentação](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Versão do Alpha 4 - maio de 2023
 
@@ -70,23 +70,23 @@ Nesta versão de 4º Alpha, antes de iniciar a produção do para apenas um grup
 
 Estamos entusiasmados com este marco e esperamos muito mais por vir!
 
-Assista ao [apresentação em vídeo](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+Assista à [apresentação](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Versão 3 do Alpha - março de 2023
 
 Nesta versão de 3º Alpha, incorporamos seus comentários introduzindo mensagens de sucesso que são exibidas ao concluir ações como adicionar ou remover aprovadores e revisores. Além disso, essa versão oferece maior visibilidade de aprovações pendentes, que agora podem ser visualizadas nas páginas Início e Minhas atualizações, permitindo que os usuários aprovem facilmente documentos diretamente dessas páginas.
 
-Assista ao [apresentação em vídeo](https://video.tv.adobe.com/v/3417854/){target=_blank}.
+Assista à [apresentação](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Versão 2 do Alpha - janeiro de 2023
 
 Com esta versão Alpha 2, você pode adicionar indivíduos e equipes como revisores ou aprovadores e tomar decisões de aprovação diretamente na página de detalhes do documento.
 
-Assista ao [apresentação em vídeo](https://video.tv.adobe.com/v/3413941){target=_blank}.
+Assista à [apresentação](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Alpha versão 1 - novembro de 2022
 
-Assista nosso [apresentação em vídeo](https://video.tv.adobe.com/v/3412837){target=_blank} e fique à vontade para acompanhar se quiser!
+Assista ao nosso [vídeo passo a passo](https://video.tv.adobe.com/v/3412837){target=_blank} e fique à vontade para acompanhá-lo se desejar!
 
 Para acompanhar o vídeo, é necessário configurar o seguinte no ambiente de Pré-visualização:
 
@@ -102,4 +102,4 @@ Para acompanhar o vídeo, é necessário configurar o seguinte no ambiente de Pr
 
 ## Enviar feedback
 
-Valorizamos sua contribuição e acreditamos que sua perspectiva é crucial para nos ajudar a criar o melhor produto possível. Como você tem um feedback específico sobre o que seria necessário para que sua empresa adote essa solução na produção, envie-o para [jbarron@adobe.com](mailto:jbarron@adobe.com).
+Valorizamos sua contribuição e acreditamos que sua perspectiva é crucial para nos ajudar a criar o melhor produto possível. Como você tem um feedback específico sobre o que seria necessário para que sua empresa adote esta solução na Produção, envie-o para [jbarron@adobe.com](mailto:jbarron@adobe.com).

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade de versão final Beta 2018.1
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta Final 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 31 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
+title: Atividade de versão final do Beta 2018.1
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 31 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 ---
 
-# Atividade de versão final Beta 2018.1
+# Atividade de versão final do Beta 2018.1
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta Final 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 31 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 31 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  [Visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-A versão final Beta 2018.1 contém melhorias para administradores do Workfront e outros usuários:
+A versão final do Beta 2018.1 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
 * [Configurar Disponibilidade de Recursos e Alocações de Usuários para Calcular com Base no Cronograma do Usuário](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
-* [Aprimoramentos para dispositivos móveis](#mobile-enhancements)
-* [Integração com Jira](#jira-integration)
-* [Atualização de nomes do visualizador de provas](#update-to-proofing-viewer-names)
-* [Alteração na cadência de sincronização ao sincronizar do ambiente de produção de provas para visualização](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
+* [Melhorias em dispositivos móveis](#mobile-enhancements)
+* [Integração com o Jira](#jira-integration)
+* [Atualização para revisar nomes de visualizadores](#update-to-proofing-viewer-names)
+* [Alterar para Cadência de sincronização ao sincronizar do ambiente de produção de provas para visualização](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [A mensagem de aviso é exibida quando o limite de 2.000 itens é atingido no Planejador de recursos](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
 ## Aprimoramentos para dispositivos móveis {#mobile-enhancements}
@@ -65,20 +65,20 @@ Para obter mais informações sobre o complemento Workfront para Jira, incluindo
 
 Os nomes do visualizador de provas baseado em HTML5 e dos visualizadores de provas baseados em Flash foram renomeados em todo o sistema Workfront. Os nomes anteriores e atualizados são os seguintes: 
 
-| **Nome anterior** | **Nome atualizado** |
+| **Nome Anterior** | **Nome Atualizado** |
 |---|---|
 | Visualizador de provas HTML5 | Novo visualizador de provas |
 | Visualizador da prova de Flashes | Visualizador de provas herdadas |
 
 {style="table-layout:auto"}
 
- Para obter mais informações sobre o uso do novo visualizador de provas, consulte [Revisar provas no visualizador de provas.](https://support.workfront.com/hc/en-us/sections/115000275214)
+ Para obter mais informações sobre como usar o novo visualizador de provas, consulte [Revisando Provas no visualizador de provas.](https://support.workfront.com/hc/en-us/sections/115000275214)
 
 ## Configurar Disponibilidade de Recursos e Alocações de Usuários para Calcular com Base no Cronograma do Usuário {#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule}
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 O administrador do Workfront agora pode determinar como o Workfront calcula a disponibilidade de recursos e a alocação de usuários no nível do sistema (considerando horas e a disponibilidade de FTE). O administrador do Workfront pode configurar a disponibilidade de recursos e a alocação de usuários a serem calculadas usando o agendamento padrão ou o agendamento do usuário.
 
@@ -92,7 +92,7 @@ Para obter mais informações, consulte &quot;Configurar como o Workfront calcul
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 
 ## Alteração na cadência de sincronização ao sincronizar do ambiente de produção de provas para visualização {#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview}
@@ -101,11 +101,11 @@ Para obter mais informações, consulte &quot;Configurar como o Workfront calcul
 >
 >Essa alteração entrará em vigor em 11 de fevereiro de 2018.
 
-Os dados do ambiente de produção de prova do Workfront agora são sincronizados ao ambiente de Pré-visualização de prova do Workfront todas as semanas.
+Os dados do ambiente de produção do Workfront Proof agora são sincronizados ao ambiente de Pré-visualização do Workfront Proof todas as semanas.
 
-Antes dessa alteração, os dados eram sincronizados do ambiente de produção de prova do Workfront para o ambiente de Pré-visualização mensalmente, enquanto os dados do ambiente de produção do Workfront eram sincronizados com o ambiente de Pré-visualização do Workfront semanalmente. Essa discrepância causou alguns erros de sincronização ao usar a funcionalidade de Prova no ambiente de Pré-visualização do Workfront. 
+Antes dessa alteração, os dados eram sincronizados do ambiente de produção do Workfront Proof para o ambiente de Pré-visualização mensalmente, enquanto os dados do ambiente de produção do Workfront eram sincronizados com o ambiente de Pré-visualização do Workfront semanalmente. Essa discrepância causou alguns erros de sincronização ao usar a funcionalidade de Prova no ambiente de Pré-visualização do Workfront. 
 
-Para obter mais informações, consulte [Visualizar ambiente de teste de sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+Para obter mais informações, consulte [Visualizar ambiente de teste de sandbox- Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
 
 ## A mensagem de aviso é exibida quando o limite de 2.000 itens é atingido no Planejador de recursos {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 

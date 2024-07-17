@@ -22,4 +22,4 @@ Esses aprimoramentos serão disponibilizados no ambiente de Produção com a ver
 
 Com base no feedback dos usuários, estamos adicionando a opção de adiar atualizações para o Visualizador de provas de desktop. Agora os usuários podem optar por atrasar uma atualização e continuar com seu trabalho, mas serão lembrados de que uma atualização estará disponível sempre que abrirem o Visualizador de provas de desktop.
 
-Para obter mais informações sobre a atualização do Desktop Proofing Viewer, consulte [Atualizar o Visualizador de provas da área de trabalho](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Para obter mais informações sobre como atualizar o Desktop Proofing Viewer, consulte [Atualizar o Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

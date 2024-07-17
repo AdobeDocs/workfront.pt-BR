@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Adobe Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, essa ação não estará disponível.
 >
->Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Como administrador do Adobe Workfront, às vezes pode ser necessário acessar o Workfront em nome de outro usuário.
 
@@ -71,9 +71,9 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Com o nível de acesso de Administrador do sistema, você pode fazer logon como qualquer pessoa. Para obter informações sobre esse nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>. </p> <p>Com um nível de acesso de Planejador, você pode fazer logon como um usuário com um nível de licença mais baixo se a <b>Usuários</b> no nível de acesso estiver definida como <b>Editar</b> acesso, com <b>Criar</b> e pelo menos um dos dois <b>Administrador de Usuários</b> opções ativadas em <b>Ajuste as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTA</b>: dessas duas opções, se o Usuário <b>Administrador (Usuários de grupo)</b> estiver ativado, você deve ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> 
-   <p>Para obter mais informações sobre o <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
+   <td> <p>Com o nível de acesso de Administrador do sistema, você pode fazer logon como qualquer pessoa. Para obter informações sobre este nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>. </p> <p>Com um nível de acesso Planejador, você pode fazer logon como um usuário com um nível de licença mais baixo se a configuração <b>Usuários</b> no nível de acesso estiver definida como acesso de <b>Edição</b>, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>OBSERVAÇÃO</b>: dessas duas opções, se o Usuário <b>Administrador (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> 
+   <p>Para obter mais informações sobre a configuração <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 1. No painel esquerdo, clique em **Fazer logon como**.
 
-1. No **Usuários** na caixa **Fazer logon como** comece digitando o nome do usuário e clique no nome quando ele aparecer na lista suspensa.
+1. Na caixa **Usuários** da guia **Fazer logon como**, comece digitando o nome do usuário e clique nele quando ele aparecer na lista suspensa.
 
    O usuário deve ter um nível de acesso definido no Workfront. Não é possível fazer logon no sistema Workfront como um usuário que não tem direitos para fazer logon.
 
@@ -155,9 +155,9 @@ Por exemplo, se você comentar em um item enquanto estiver conectado como outro 
 ### Exibir informações de auditoria {#view-audit-information}
 
 1. Faça logon no Workfront como administrador do Workfront ou administrador de grupo.
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Fazer logon como,** em seguida, clique no link **Log de acesso** guia.
+1. Clique em **Fazer logon como** e na guia **Log de acesso**.
 
    Sempre que um administrador de sistema ou de grupo fizer logon no Workfront como outro usuário, o evento será conectado na trilha de auditoria. Além disso, todas as ações auditáveis que ocorrem enquanto o administrador está conectado como outro usuário são conectadas na trilha de auditoria.
 

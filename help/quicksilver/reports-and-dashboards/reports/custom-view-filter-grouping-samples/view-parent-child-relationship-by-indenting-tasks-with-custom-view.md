@@ -45,22 +45,22 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exibir a relação pai-filho em uma tarefa recuando as tarefas
 
 1. Vá para o projeto com a lista de tarefas que deseja exportar.
-1. Clique em **Exibir** e selecione **Nova visualização**.
+1. Clique no menu suspenso **Exibir** e selecione **Nova Exibição**.
 
 1. Nomeie o filtro no canto superior esquerdo da tela.
-1. Clique em **Nome da tarefa** cabeçalho da coluna.
+1. Clique no cabeçalho da coluna **Nome da tarefa**.
 
-1. Selecionar **Alternar para modo de texto** no canto superior direito.
+1. Selecione **Alternar para Modo de Texto** no canto superior direito.
 1. Clique em qualquer lugar na caixa de texto para editar o texto e remover todo o texto existente.
 1. Cole o seguinte texto:
 

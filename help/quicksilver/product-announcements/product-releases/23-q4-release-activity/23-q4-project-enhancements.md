@@ -28,9 +28,9 @@ Nesta versão, o processo de aprovação foi simplificado para a criação de ap
 * Processo aprimorado para adicionar um aprovador ou revisor externo
 * Experiência de aprovação e revisão aprimorada para aprovadores e revisores externos
 
-Para obter mais informações sobre como usar as novas aprovações de documentos, consulte [Visão geral das novas aprovações de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Para obter mais informações sobre como usar as novas aprovações de documentos, consulte [Visão geral das Novas Aprovações de Documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Design atualizado ao adicionar um novo problema a um projeto
 
@@ -50,7 +50,7 @@ Um pequeno número de campos de formulário não terá recálculo dinâmico, em 
 
 Para obter mais informações, consulte [Editar informações em campos de formulário personalizados](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Definir horas planejadas em tarefas filho recorrentes com tipo de duração Simples sem atribuições
 

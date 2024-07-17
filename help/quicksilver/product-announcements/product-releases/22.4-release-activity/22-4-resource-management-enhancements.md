@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte [22.4 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte a [Visão geral da versão 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Mostrar todos os usuários do Balanceador de carga de trabalho de um projeto
 
@@ -25,7 +25,7 @@ Para permitir que você tenha visibilidade de todos os usuários no sistema e su
 
 Para obter mais informações, consulte [Atribuir trabalho no Balanceador de carga de trabalho arrastando e soltando](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
 ## Mostrar todos os usuários com uma função de trabalho selecionada no Balanceador de carga de trabalho ao atribuir trabalho em massa
 
@@ -39,7 +39,7 @@ Antes desse aprimoramento, você poderia visualizar apenas a lista de usuários 
 
 Para obter informações sobre como atribuir trabalho em massa usando o Balanceador de carga de trabalho, consulte [Atribuir trabalho em massa usando o Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
 ## Aprimoramentos do Balanceador de carga de trabalho para usuários de licença de trabalho e configurações de problemas
 
@@ -53,7 +53,7 @@ Antes dessas melhorias, somente os usuários com licença de plano podiam ajusta
 
 Para obter mais informações, consulte os seguintes artigos:
 
-* [Navegar pelo Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* [Navegar pelo Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [Gerenciar alocações de usuário no Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

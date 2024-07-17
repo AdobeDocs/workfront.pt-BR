@@ -9,13 +9,13 @@ exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Solicitar aprovações de documentos
 
-Você pode solicitar aprovação de gerentes ou outros usuários para um documento no Adobe Workfront. Você também pode solicitar aprovações de documentos de pessoas sem contas do Workfront se o administrador do Workfront tiver ativado esse recurso, conforme descrito em [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Você pode solicitar aprovação de gerentes ou outros usuários para um documento no Adobe Workfront. Você também pode solicitar aprovações de documentos de pessoas sem contas do Workfront se o administrador do Workfront tiver habilitado esse recurso, conforme descrito em [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Requisitos de acesso
 
@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -39,21 +39,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar acesso ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar acesso ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Solicitar uma aprovação de documento
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Role para baixo até **Aprovações** no Resumo e comece a digitar no campo **Adicionar aprovador** texto. Você pode adicionar usuários do Workfront por nome ou usuários externos por email.
+1. Role para baixo até a seção **Aprovações** no Resumo e comece a digitar na caixa de texto **Adicionar aprovador**. Você pode adicionar usuários do Workfront por nome ou usuários externos por email.
 
-1. Se o administrador do Adobe Workfront tiver habilitado a capacidade de colaborar com pessoas que não usam o Workfront, conforme descrito em [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), você poderá digitar os endereços de email para incluí-los.
+1. Se o administrador do Adobe Workfront tiver habilitado a capacidade de colaborar com pessoas que não usam o Workfront, conforme descrito em [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), você poderá digitar seus endereços de email para incluí-los.
 
    Não é possível solicitar aprovação de equipes ou grupos.
 
@@ -66,7 +66,7 @@ As decisões de aprovação de documentos não são redefinidas automaticamente 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Role para baixo até **Aprovações** no Resumo, clique no ícone Mais e, em seguida, clique em Reenviar.
+1. Role para baixo até a seção **Aprovações** no Resumo, clique no ícone Mais e, em seguida, clique em Reenviar.
 
    ![](assets/nwe-resubmit-approval-350x149.png)
 
@@ -75,7 +75,7 @@ As decisões de aprovação de documentos não são redefinidas automaticamente 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Role para baixo até **Aprovações** no Resumo e, em seguida, clique na guia **Mais** menu em linha com o nome do aprovador e selecione **Excluir**.
+1. Role para baixo até a seção **Aprovações** no Resumo e clique no menu **Mais** incorporado com o nome do aprovador e selecione **Excluir**.
 
    A solicitação de aprovação é removida e o aprovador recebe uma notificação de que sua aprovação não é mais necessária. O acesso compartilhado relacionado à aprovação também é removido.
 
@@ -86,6 +86,6 @@ Você pode enviar uma mensagem para lembrar um documento a um aprovador que voc�
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Role para baixo até **Aprovações** no Resumo e, em seguida, clique na guia **Mais** menu em linha com o nome do aprovador e selecione **Lembrar**.
+1. Role para baixo até a seção **Aprovações** no Resumo e clique no menu **Mais** incorporado com o nome do aprovador e selecione **Lembrar**.
 
    O aprovador recebe uma notificação informando que a aprovação ainda está pendente. Eles também podem receber um lembrete por email se tiverem essa opção ativada.

@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Módulos de armazenamento de dados
-description: Um [!DNL Adobe Workfront Fusion] o armazenamento de dados, semelhante a um banco de dados ou a uma tabela simples, pode armazenar dados de cenários, possibilitando a transferência de dados entre cenários individuais ou execuções de cenário. Você pode usar um armazenamento de dados para armazenar novos dados de vários sistemas durante a sincronização.
+description: Um armazenamento de dados  [!DNL Adobe Workfront Fusion] , semelhante a um banco de dados ou uma tabela simples, pode armazenar dados de cenários, possibilitando a transferência de dados entre cenários individuais ou execuções de cenário. Você pode usar um armazenamento de dados para armazenar novos dados de vários sistemas durante a sincronização.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Armazenamento de dados] módulos
+# [!UICONTROL Módulos de armazenamento de dados]
 
-Um [!DNL Adobe Workfront Fusion] o armazenamento de dados, semelhante a um banco de dados ou a uma tabela simples, pode armazenar dados de cenários, possibilitando a transferência de dados entre cenários individuais ou execuções de cenário. Você pode usar um armazenamento de dados para armazenar novos dados de vários sistemas durante a sincronização.
+Um armazenamento de dados [!DNL Adobe Workfront Fusion], semelhante a um banco de dados ou uma tabela simples, pode armazenar dados de cenários, possibilitando a transferência de dados entre cenários individuais ou execuções de cenário. Você pode usar um armazenamento de dados para armazenar novos dados de vários sistemas durante a sincronização.
 
-Os módulos de armazenamento de dados permitem adicionar, substituir, atualizar, recuperar, excluir, pesquisar ou contar registros na [!DNL Adobe Workfront Fusion] armazenamento de dados.
+Os módulos de armazenamento de dados permitem que você adicione, substitua, atualize, recupere, exclua, pesquise ou conte registros em seu armazenamento de dados do [!DNL Adobe Workfront Fusion].
 
-Para obter informações sobre como criar, editar e solucionar problemas de armazenamentos de dados, consulte [Armazenamentos de dados no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Para obter informações sobre como criar, editar e solucionar problemas de armazenamentos de dados, consulte [Armazenamentos de Dados em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 Para obter uma introdução em vídeo aos armazenamentos de dados no Workfront Fusion, consulte:
 
-* [Armazenamentos de dados](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [Repositórios de Dados](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisitos de acesso
 
@@ -46,41 +46,41 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!UICONTROL Armazenamento de dados] módulos, você deve primeiro criar um armazenamento de dados.
+Para usar os módulos do [!UICONTROL Repositório de Dados], primeiro crie um repositório de dados.
 
-Para obter informações sobre como criar armazenamentos de dados, consulte [Armazenamentos de dados no [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Para obter informações sobre como criar armazenamentos de dados, consulte [Armazenamentos de Dados no [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
-## [!UICONTROL Armazenamento de dados] módulos e seus campos
+## [!UICONTROL Módulos de Armazenamento de Dados] e seus campos
 
-Ao configurar módulos do Armazenamento de dados, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos adicionais do Data Store podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos de Armazenamento de Dados, o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos adicionais do Data Store podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-Todos [!UICONTROL Armazenamento de dados] módulos são módulos do tipo Ação.
+Todos os [!UICONTROL módulos de Armazenamento de Dados] são módulos do tipo Ação.
 
 * [Adicionar/Substituir um Registro](#addreplace-a-record)
 * [Atualizar um Registro](#update-a-record)
@@ -101,7 +101,7 @@ O módulo retorna a ID do registro e quaisquer campos associados, juntamente com
 
 >[!NOTE]
 >
->O módulo emite um erro quando você tenta adicionar o registro que já está no armazenamento de dados com o mesmo nome e a variável [!UICONTROL Substituir um registro existente] está desabilitada.
+>O módulo lança um erro quando você tenta adicionar o registro que já está no armazenamento de dados com o mesmo nome e a opção [!UICONTROL Substituir um registro existente] está desabilitada.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -184,7 +184,7 @@ O módulo retorna a ID do registro e quaisquer campos associados, juntamente com
  </tbody> 
 </table>
 
-### [!UICONTROL Verificar a existência de um registro]
+### [!UICONTROL Verificar a Existência de um Registro]
 
 Este módulo de ação especifica se um determinado registro existe.
 
@@ -271,7 +271,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL Limite]</td> 
-   <td> <p> Definir o número máximo de resultados da pesquisa [!DNL Workfront Fusion] retorna durante um ciclo de execução.</p> </td> 
+   <td> <p> Defina o número máximo de resultados de pesquisa [!DNL Workfront Fusion] retornos durante um ciclo de execução.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continuar a execução da rota mesmo se o módulo não retornar resultados]</td> 

@@ -43,7 +43,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um [!DNL Workfront] administrador.</p> <p><b>NOTA</b>: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador [!DNL Workfront].</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,27 +56,27 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Filtros]**.
 
-   * Clique em **[!UICONTROL Interface] >** **[!UICONTROL Visualizações]**.
+   * Clique em **[!UICONTROL Interface] >** **[!UICONTROL Exibições]**.
 
    * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Agrupamentos]**.
 
-1. Se estiver criando um filtro, exibição ou agrupamento, clique em **[!UICONTROL Adicionar filtro]**, **[!UICONTROL Adicionar visualização]** ou **[!UICONTROL Adicionar Agrupamento]**, em seguida, selecione o tipo de objeto ao qual deseja associar o novo filtro, exibição ou agrupamento.
+1. Se você estiver criando um filtro, exibição ou agrupamento, clique em **[!UICONTROL Adicionar Filtro]**, **[!UICONTROL Adicionar Exibição]** ou **[!UICONTROL Adicionar Agrupamento]** e selecione o tipo de objeto ao qual deseja associar o novo filtro, exibição ou agrupamento.
 
    Ou
 
-   Se você estiver editando um filtro, exibição ou agrupamento existente, selecione-o e clique no link **[!UICONTROL Editar]** ícone ![Ícone Editar](assets/edit-icon.png).
+   Se você estiver editando um filtro, exibição ou agrupamento existente, selecione-o e clique no **[!UICONTROL ícone Editar]** ![ícone Editar](assets/edit-icon.png).
 
 1. Configure o filtro, a visualização ou o agrupamento.
 
    Para obter informações sobre opções disponíveis, consulte um dos seguintes artigos:
 
    * [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [Visão geral das exibições em [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+   * [Visão geral das exibições no [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Visão geral de agrupamentos em [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. Clique em **[!UICONTROL Salvar]** próximo ao canto inferior esquerdo.
 
-Você pode disponibilizar o filtro, a visualização ou o agrupamento para os usuários do seu sistema. Para obter mais informações sobre o compartilhamento de filtros, visualizações ou agrupamentos com outros usuários, consulte a seção [Disponibilizar filtros, visualizações ou agrupamentos aos usuários](#make-filters-views-or-groupings-available-to-users) neste artigo.
+Você pode disponibilizar o filtro, a visualização ou o agrupamento para os usuários do seu sistema. Para obter mais informações sobre como compartilhar filtros, exibições ou agrupamentos com outros usuários, consulte a seção [Disponibilizar filtros, exibições ou agrupamentos para usuários](#make-filters-views-or-groupings-available-to-users) neste artigo.
 
 
 ## Mostrar ou ocultar filtros, exibições ou agrupamentos disponíveis no Modelo de layout
@@ -89,29 +89,29 @@ Você pode optar por mostrar ou ocultar filtros, exibições ou agrupamentos do 
 
 Para mostrar ou ocultar filtros, exibições ou agrupamentos disponíveis no Modelo de layout:
 
-1. Clique em **[!UICONTROL Interface]**, em seguida, clique em uma das opções a seguir: **[!UICONTROL Filtros]**, **[!UICONTROL Visualizações]** ou **[!UICONTROL Agrupamentos]**.
+1. Clique em **[!UICONTROL Interface]** e em um dos seguintes: **[!UICONTROL Filtros]**, **[!UICONTROL Exibições]** ou **[!UICONTROL Agrupamentos]**.
 
-1. (Condicional) Selecione o filtro, a exibição ou o agrupamento que deseja disponibilizar aos usuários e clique em **[!UICONTROL Ativar todo o sistema]**.
+1. (Condicional) Selecione o filtro, o modo de exibição ou o agrupamento que deseja disponibilizar aos usuários e clique em **[!UICONTROL Habilitar todo o sistema]**.
 
    ![](assets/enable-system-wide-fvg.png)
 
    >[!TIP]
    >
-   >Se você deseja manter o filtro, a visualização ou o agrupamento disponível para a maioria dos usuários, mas ocultá-lo de outros, é possível usar o Modelo de layout. Para obter mais informações, consulte [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Se você deseja manter o filtro, a visualização ou o agrupamento disponível para a maioria dos usuários, mas ocultá-lo de outros, é possível usar o Modelo de layout. Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Condicional) Selecione o filtro, a exibição ou o agrupamento que deseja ocultar dos usuários e clique em **[!UICONTROL Desativar todo o sistema]**. Depois de desativado, o filtro, a visualização ou o agrupamento serão ocultados do modelo de layout, bem como dos usuários em todo o sistema.
+1. (Condicional) Selecione o filtro, o modo de exibição ou o agrupamento que deseja ocultar dos usuários e clique em **[!UICONTROL Desabilitar todo o sistema]**. Depois de desativado, o filtro, a visualização ou o agrupamento serão ocultados do modelo de layout, bem como dos usuários em todo o sistema.
 
 
 ## Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários {#make-filters-views-or-groupings-available-to-users}
 
-Essas etapas explicam como disponibilizar filtros, visualizações e agrupamentos na [!UICONTROL Compartilhar] no [!UICONTROL Interface] área em [!UICONTROL Configuração]. Esta configuração funciona como uma chave liga/desliga para todo o sistema, incluindo o Modelo de layout.
+Estas etapas explicam como disponibilizar filtros, exibições e agrupamentos na caixa de diálogo [!UICONTROL Compartilhar] na área [!UICONTROL Interface] da [!UICONTROL Instalação]. Esta configuração funciona como uma chave liga/desliga para todo o sistema, incluindo o Modelo de layout.
 
 {{step-1-to-setup}}
 
-1. Clique em **[!UICONTROL Interface]**, em seguida, clique em uma das opções a seguir: **[!UICONTROL Filtros]**, **[!UICONTROL Visualizações]** ou **[!UICONTROL Agrupamentos]**.
+1. Clique em **[!UICONTROL Interface]** e em um dos seguintes: **[!UICONTROL Filtros]**, **[!UICONTROL Exibições]** ou **[!UICONTROL Agrupamentos]**.
 
-1. Selecione o filtro, a exibição ou o agrupamento que deseja disponibilizar para os usuários e clique no link **[!UICONTROL Compartilhar]** ícone ![Ícone Compartilhar](assets/share-icon.png) para abrir o [!UICONTROL Filtrar acesso], [!UICONTROL Acesso de visualização]ou [!UICONTROL Acesso de agrupamento] formulário.
-1. (Condicional) Para disponibilizar o filtro, a exibição ou o agrupamento a todos os usuários do sistema, clique no link **[!UICONTROL Engrenagem]** menu suspenso ![](assets/gear-menu-for-sharing-items.png)e, em seguida, clique em **[!UICONTROL Tornar isto visível em todo o sistema]**. Todos os usuários no sistema agora podem ver o filtro, a visualização ou o agrupamento.
+1. Selecione o filtro, a exibição ou o agrupamento que deseja disponibilizar para os usuários e clique no **[!UICONTROL ícone Compartilhar]** ![ícone Compartilhar](assets/share-icon.png) para abrir o formulário [!UICONTROL Acesso ao Filtro], [!UICONTROL Acesso ao Modo de Exibição] ou [!UICONTROL Acesso ao Agrupamento].
+1. (Condicional) Para disponibilizar o filtro, a exibição ou o agrupamento para todos os usuários do sistema, clique no menu suspenso **[!UICONTROL Engrenagem]** ![](assets/gear-menu-for-sharing-items.png) e clique em **[!UICONTROL Tornar isto visível para todo o sistema]**. Todos os usuários no sistema agora podem ver o filtro, a visualização ou o agrupamento.
 
    Ou
 
@@ -131,13 +131,13 @@ Essas etapas explicam como disponibilizar filtros, visualizações e agrupamento
 
    * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Filtros]**
 
-   * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Visualizações]**
+   * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Exibições]**
 
    * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Agrupamentos]**
 
-1. Selecione um ou mais itens na lista e clique no botão **[!UICONTROL Excluir]** ícone ![Ícone Excluir](assets/delete.png).
+1. Selecione um ou mais itens na lista e clique no **[!UICONTROL ícone Excluir]** ![ícone Excluir](assets/delete.png).
 1. Consulte um dos seguintes artigos para obter informações detalhadas sobre como configurar um filtro, uma visualização ou um agrupamento.
 
    * [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [Visão geral das exibições em [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-   * [Visão geral de agrupamentos em [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [Visão geral das exibições em  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+   * [Visão geral de agrupamentos em  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

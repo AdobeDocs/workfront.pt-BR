@@ -4,7 +4,8 @@ description: Quando você anexa um cartão de taxa a um projeto, todas as funç�
 author: Lisa
 feature: Work Management
 role: User
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-Os cartões de taxa armazenam várias taxas de cobrança por função de trabalho, com base na localização. Você pode ter uma função de trabalho de Designer com base em Paris e um segundo Designer com base em Nova York, cada um com taxas de cobrança diferentes. No entanto, não é necessário um local para funções de trabalho em um cartão de taxa. Uma taxa de cobrança para uma função de trabalho (e possivelmente local) em um cartão de taxa também pode incluir datas de efetivação.
+Os cartões de taxa armazenam várias taxas de cobrança por função de trabalho, com base na localização. Você pode ter uma função de trabalho de Designer com base em Paris e uma segunda Designer com base em Nova York, cada uma com taxas de cobrança diferentes. No entanto, não é necessário um local para funções de trabalho em um cartão de taxa. Uma taxa de cobrança para uma função de trabalho (e possivelmente local) em um cartão de taxa também pode incluir datas de efetivação.
 
 Quando você anexa um cartão de taxa a um projeto, todas as funções por localização e suas taxas de cobrança associadas são adicionadas ao projeto.
 
@@ -27,7 +28,7 @@ Você pode editar as taxas de faturamento do cartão de taxa diretamente no proj
 
 Para obter informações sobre como criar cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
 
-Para obter informações gerais sobre como substituir taxas de faturamento de função de trabalho para projetos e calcular a receita do projeto, consulte [Visão geral da substituição de Taxas de cobrança de função de trabalho e do cálculo de Receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obter informações gerais sobre substituição de taxas de cobrança de função de trabalho para projetos e cálculo de receita do projeto, consulte [Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Requisitos de acesso
 
@@ -39,7 +40,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -51,17 +52,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Anexar um cartão de taxa a um projeto
 
 1. Vá para o projeto.
-1. Clique em **Taxas de cobrança** no painel esquerdo. Talvez seja necessário clicar primeiro **Mostrar mais**.
+1. Clique em **Taxas de cobrança** no painel esquerdo. Talvez seja necessário clicar primeiro em **Mostrar mais**.
 1. Clique em **Adicionar taxa de cobrança > Anexar um cartão de taxa**.
 
    A página Anexar um cartão de taxa é aberta. Para obter mais informações, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
@@ -75,4 +76,3 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >[!NOTE]
    >
    >Na lista de taxas de cobrança, você pode remover uma ou mais funções de trabalho que vieram de um cartão de taxa. Remover uma taxa de cobrança de função de trabalho do projeto não a remove do cartão de taxa padrão.
-

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Você pode atribuir itens de trabalho usando o Balanceador de carga de trabalho do Adobe Workfront arrastando e soltando itens de trabalho para os usuários corretos.
 
-Para obter informações gerais sobre como atribuir trabalho aos usuários usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obter informações gerais sobre como atribuir trabalho a usuários usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisitos de acesso
 
@@ -53,12 +53,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou mais altas para projetos, tarefas e problemas que incluem Fazer atribuições</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superiores para projetos, tarefas e problemas que incluem Fazer atribuições</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Atribuir um item ao arrastar e soltar
 
@@ -66,15 +66,15 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
 
 1. Vá para o Balanceador de carga de trabalho onde deseja atribuir trabalho.
 
-   Você pode atribuir trabalho aos usuários usando o Balanceador de carga de trabalho na área Recursos, no projeto ou no nível da equipe. Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado no Workfront, consulte [Localize o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Você pode atribuir trabalho aos usuários usando o Balanceador de carga de trabalho na área Recursos, no projeto ou no nível da equipe. Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado na Workfront, consulte [Localizar o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Opcional) Vá para a página **Trabalho não atribuído** e aplique um filtro para exibir tarefas e problemas que não estão atribuídos a usuários
+1. (Opcional) Vá para a área **Trabalho não atribuído** e aplique um filtro para exibir tarefas e problemas que não estão atribuídos a usuários
 
    Ou
 
-   Vá para a **Trabalho atribuído** e expandir o nome de um usuário para visualizar os itens de trabalho atribuídos a ele, caso deseje reatribuir seus itens.
+   Vá para a área **Trabalho atribuído** e expanda o nome de um usuário para ver os itens de trabalho atribuídos a ele, caso queira reatribuir seus itens.
 
-1. (Condicional) No Balanceador de carga de trabalho de um projeto, clique na guia **Mostrar todos os usuários** ícone ![](assets/show-all-users-icon-project-workload-balancer.png) para exibir todos os usuários do Workfront.
+1. (Condicional) No Balanceador de carga de trabalho de um projeto, clique no ícone ![](assets/show-all-users-icon-project-workload-balancer.png) **Mostrar todos os usuários** para exibir todos os usuários do Workfront.
 
    Isso exibe todos os usuários que você tem acesso para visualizar.
 
@@ -90,7 +90,7 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
 
 
 
-1. Clique na barra de um item de trabalho que indica a linha do tempo planejada ou projetada e arraste-a sobre o nome de um usuário na **Atribuído** área.
+1. Clique na barra de um item de trabalho que indica a linha do tempo planejada ou projetada e arraste-a sobre o nome de um usuário na área **Atribuído**.
 
    O usuário que você passar o mouse para soltar o item de trabalho é realçado.
 
@@ -109,14 +109,14 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
    >* Se você ativou Agrupar por projeto na área Configurações, a tarefa atribuída é exibida no projeto correspondente. Se a configuração estiver desativada, a tarefa atribuída será exibida na área de usuário.
    >
    >
-   >     O item é exibido de acordo com os critérios do Balanceador de carga de trabalho para classificar itens de trabalho. Para obter mais informações, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >     O item é exibido de acordo com os critérios do Balanceador de carga de trabalho para classificar itens de trabalho. Para obter mais informações, consulte [Navegar pelo Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
    >* Se você ativou Mostrar todos os usuários no Balanceador de carga de trabalho de um projeto e atribuiu itens a usuários que não foram atribuídos anteriormente a itens no projeto, os usuários são adicionados à Equipe do projeto. Para obter mais informações, consulte [Gerenciar equipe de projeto](../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 
 1. (Opcional) Clique na barra de um item de trabalho sob o nome de um usuário na área Trabalho atribuído, arraste-o e solte-o sobre a área Trabalho não atribuído para desatribuí-lo. O item não está atribuído ao usuário, mas ainda pode estar atribuído a uma função de trabalho. Nesse caso, ele é exibido na área Trabalho não atribuído. Se o item for atribuído a outro usuário, ele permanecerá na área Trabalho atribuído sob o nome do usuário que ainda está atribuído.
-1. (Opcional) Clique no link **Mostrar ícone de alocações** ![](assets/show-allocations-icon-small.png)e, em seguida, clique na guia **Menu Mais** ![](assets/qs-more-menu.png) > **Editar alocações**.
+1. (Opcional) Clique no **ícone Mostrar alocações** ![](assets/show-allocations-icon-small.png) e no **menu Mais** ![](assets/qs-more-menu.png) > **Editar alocações**.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)
@@ -125,7 +125,7 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
 
    Clique duas vezes em uma alocação diária ou semanal para modificar a quantidade de tempo que o usuário está alocado para o item de trabalho.
 
-   Para obter informações sobre como modificar alocações de usuários no Balanceador de carga de trabalho, consulte a seção &quot;Modificar alocações de usuários&quot; no artigo [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Para obter informações sobre como modificar alocações de usuários no Balanceador de carga de trabalho, consulte a seção &quot;Modificar alocações de usuários&quot; no artigo [Gerenciar alocações de usuários no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
    Para obter informações sobre como remover atribuições de um item de trabalho usando o Balanceador de carga de trabalho, consulte [Cancelar atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 

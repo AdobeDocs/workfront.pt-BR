@@ -21,7 +21,7 @@ ht-degree: 0%
 
 É possível personalizar registros adicionando uma imagem de capa à página de registro no Adobe Workfront Planning, ao editar um registro.
 
-Para obter informações sobre edição de registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Para obter informações sobre como editar registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 Você deve criar tipos de registro antes de começar a criar e editar registros.
 
@@ -78,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td>  <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td>  <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -122,13 +122,13 @@ Considere o seguinte:
 
    Ou
 
-   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
+   Na exibição de tabela, clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** na primeira coluna.
 
    A visualização do registro é aberta na exibição.
 
    ![](assets/details-box.png)
 
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
+1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A página de registro é aberta.
 
@@ -139,16 +139,16 @@ Considere o seguinte:
 
    Ou
 
-   Passe o mouse sobre uma imagem de capa existente, clique no **Mais** menu ![](assets/more-menu.png) e, em seguida, clique em **Carregar**. <!--check the casing here; I logged a bug for this-->
-A variável **Gravar capa** é aberta na caixa **Carregar** guia.
+   Passe o mouse sobre uma imagem de capa existente, clique no menu **Mais** ![](assets/more-menu.png) e em **Carregar**. <!--check the casing here; I logged a bug for this-->
+A caixa **Capa de registro** é aberta na guia **Carregar**.
 
    ![](assets/record-cover-box-for-upload.png)
 
 1. Clique em **Procurar imagens** e procure uma imagem em seu computador para selecioná-la e adicioná-la.
 
-1. (Opcional) Para remover a imagem antes de salvá-la, clique no link **Carregar nova imagem** ícone ![](assets/upload-new-image-icon.png) e faça upload de uma nova imagem.
+1. (Opcional) Para remover a imagem antes de salvá-la, clique no ícone ![](assets/upload-new-image-icon.png) de **Carregar nova imagem** e carregue uma nova imagem.
 
-1. (Opcional) Clique no link **Galeria** e clique em uma imagem na galeria de imagens. A galeria de imagens não pode ser modificada.
+1. (Opcional) Clique na guia **Galeria** e clique em uma imagem na galeria de imagens. A galeria de imagens não pode ser modificada.
 
    ![](assets/record-cover-box-for-gallery.png)
 
@@ -158,10 +158,10 @@ A variável **Gravar capa** é aberta na caixa **Carregar** guia.
 
    ![](assets/record-page-with-cover-image.png)
 
-1. (Opcional) Passe o mouse sobre a imagem e clique no link **Mais** menu ![](assets/more-menu.png) no canto inferior direito da imagem da capa, siga um destes procedimentos:
+1. (Opcional) Passe o mouse sobre a imagem e clique no menu **Mais** ![](assets/more-menu.png) no canto inferior direito da imagem da capa, em seguida siga um destes procedimentos:
 
-   * Clique em **Carregar** se quiser substituir a imagem da capa e repita o Passo 6 para carregar e salvar uma nova imagem.
-   * Clique em **Reposicionar** e use o **Reposicionar** ferramenta ![](assets/reposition-tool-icon.png) para centralizar a imagem da capa, clique em **Salvar** quando terminar.
-   * Clique em **Remover** para remover a imagem da tampa.
+   * Clique em **Carregar** se quiser substituir a imagem de capa e repita a Etapa 6 para carregar e salvar uma nova imagem.
+   * Clique em **Reposicionar** e use a ferramenta ![](assets/reposition-tool-icon.png) de **Reposição** para centralizar a imagem da capa, depois clique em **Salvar** quando terminar.
+   * Clique em **Remover** para remover a imagem da capa.
 
    O Workfront salva suas alterações automaticamente.

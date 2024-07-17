@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -62,12 +62,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
 ## Definir configurações do revisor de provas
 
@@ -75,32 +75,32 @@ Para definir as configurações do revisor de provas:
 
 1. Abra o Visualizador de provas da Web ou o Visualizador de provas da área de trabalho de uma das seguintes maneiras:
 
-   * Se você revisar no Adobe Workfront, vá para uma lista de documentos que contém uma prova que deseja visualizar, passe o mouse sobre o documento e clique em **Abrir prova**.
-   * Se você usar o Workfront Proof, clique na guia **Ir para prova** ícone para a prova no painel ou em uma lista de visualizações ![](assets/go-to-proof-blue-icon.png).
+   * Se você revisar no Adobe Workfront, vá para uma lista de documentos que contém uma prova que deseja exibir, passe o mouse sobre o documento e clique em **Abrir prova**.
+   * Se você usa o Workfront Proof, clique no ícone **Ir para Prova** para a prova no Painel ou em uma lista de Exibições ![](assets/go-to-proof-blue-icon.png).
 
-1. Se a barra de ferramentas esquerda não for exibida, clique no link **Menu** ícone, localizado no canto superior esquerdo do Visualizador de provas da Web.
+1. Se a barra de ferramentas esquerda não for exibida, clique no ícone **Menu**, localizado no canto superior esquerdo do Visualizador de Provas da Web.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Na barra de ferramentas à esquerda, clique na guia **Configurações** ícone ![](assets/settings-icon-in-pv.png).
+1. Na barra de ferramentas esquerda, clique no ícone ![](assets/settings-icon-in-pv.png) de **Configurações**.
 
-1. Configure qualquer um dos seguintes **Configurações** dessa exibição.
+1. Defina qualquer uma das **Configurações** a seguir que forem exibidas.
 
    As configurações disponíveis podem variar dependendo do tipo de prova que você abriu.
 
-   * **Mostrar marcações** (sempre disponível no Visualizador de provas da Web e no Visualizador de provas da área de trabalho): essas são as marcas de comentário que os revisores adicionam às provas quando usam as ferramentas de marcação. Se você desativá-los, ainda poderá vê-los ao clicar em um comentário na lista de comentários.
+   * **Mostrar marcações** (sempre disponível no Visualizador de Revisão de Texto da Web e no Visualizador de Revisão de Texto da Área de Trabalho): Essas são as marcas de comentário que os revisores adicionam às provas quando usam as ferramentas de marcação. Se você desativá-los, ainda poderá vê-los ao clicar em um comentário na lista de comentários.
 
      Essa configuração afeta todas as provas abertas.
 
-   * **Mostrar marcadores** (sempre disponível no Visualizador de provas da Web e no Visualizador de provas da área de trabalho): esses são os pinos numerados que os revisores adicionam às provas quando usam as ferramentas de marcação. Eles indicam onde e em que ordem o revisor adicionou comentários. Se você desativá-los, ainda poderá vê-los ao clicar em um comentário na lista de comentários.
+   * **Mostrar pinos** (sempre disponível no Visualizador de Provas da Web e no Visualizador de Provas da Área de Trabalho): são os pinos numerados que os revisores adicionam às provas quando usam as ferramentas de marcação. Eles indicam onde e em que ordem o revisor adicionou comentários. Se você desativá-los, ainda poderá vê-los ao clicar em um comentário na lista de comentários.
 
      Essa configuração afeta todas as provas abertas.
 
-   * **Usar ferramentas de marcação expandidas** (sempre disponível no Visualizador de provas da Web e no Visualizador de provas da área de trabalho): por padrão, as opções da ferramenta de marcação são exibidas na parte superior do visualizador de provas. É possível configurá-los para serem exibidos em um menu vertical que é aberto somente quando você clica nele.
+   * **Usar ferramentas de marcação expandidas** (sempre disponíveis no Visualizador de Provas da Web e no Visualizador de Provas da Área de Trabalho): por padrão, as opções da ferramenta de marcação são exibidas na parte superior do visualizador de provas. É possível configurá-los para serem exibidos em um menu vertical que é aberto somente quando você clica nele.
 
      Essa configuração está em vigor para todas as provas que você abrir.
 
-   * **Enviar notificações por email sobre** (sempre disponível no Web Proofing Viewer e no Desktop Proofing Viewer): clique em uma das opções abaixo. Essa configuração afeta somente a prova que você abriu. Para obter mais informações, consulte [Visão geral das notificações para comentários de prova e decisões](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **Enviar notificações por email sobre** (sempre disponível no Visualizador de Provas da Web e no Visualizador de Provas da Área de Trabalho): Clique em uma das opções abaixo. Essa configuração afeta somente a prova que você abriu. Para obter mais informações, consulte [Notificações para obter a visão geral de comentários de prova e decisões](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
      <table style="table-layout:auto"> 
       <col> 
@@ -112,7 +112,7 @@ Para definir as configurações do revisor de provas:
        </tr> 
        <tr> 
         <td role="rowheader">Respostas aos meus comentários</td> 
-        <td>Um email é enviado ao revisor somente se alguém responder explicitamente ao comentário (isso exclui as próprias respostas nos comentários). Isso significa que se alguém na prova fizer um novo comentário, o revisor não será notificado.<p>Essa configuração é recomendada para os clientes na prova, para que não sejam notificados de nenhum outro comentário na prova e sejam notificados apenas das respostas aos próprios comentários.</p><p>Embora os revisores com essa configuração de alerta por email não sejam notificados sobre outros novos comentários, eles ainda podem exibir todos os comentários na prova no visualizador da prova.</p><p>Para obter informações sobre comentários, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Exibir e responder a comentários de prova</a>.</p></td> 
+        <td>Um email é enviado ao revisor somente se alguém responder explicitamente ao comentário (isso exclui as próprias respostas nos comentários). Isso significa que se alguém na prova fizer um novo comentário, o revisor não será notificado.<p>Essa configuração é recomendada para os clientes na prova, para que não sejam notificados de nenhum outro comentário na prova e sejam notificados apenas das respostas aos próprios comentários.</p><p>Embora os revisores com essa configuração de alerta por email não sejam notificados sobre outros novos comentários, eles ainda podem exibir todos os comentários na prova no visualizador da prova.</p><p>Para obter informações sobre comentários, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Exibir e responder aos comentários de prova</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Decisões</td> 
@@ -128,11 +128,11 @@ Para definir as configurações do revisor de provas:
        </tr> 
        <tr> 
         <td role="rowheader">Resumo Diário</td> 
-        <td>O Workfront envia um email com todos os comentários, respostas e decisões listados somente em dias quando houver atividade além da sua.<p>Este alerta é uma boa maneira de ver um resumo do projeto sem precisar de várias atualizações ao longo do dia.</p><p>Um exemplo de caso de uso para este resumo é um líder de departamento que deseja monitorar o progresso geral do projeto.</p><p>Para obter mais informações, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gerenciar notificações para comentários e decisões de prova</a>.</p></td> 
+        <td>O Workfront envia um email com todos os comentários, respostas e decisões listados somente em dias quando houver atividade além da sua.<p>Este alerta é uma boa maneira de ver um resumo do projeto sem precisar de várias atualizações ao longo do dia.</p><p>Um exemplo de caso de uso para este resumo é um líder de departamento que deseja monitorar o progresso geral do projeto.</p><p>Para obter mais informações, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gerenciar notificações para comentários de prova e decisões</a>.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Nenhum email</td> 
-        <td>O Workfront não envia alertas de email.<br>Isso é útil para uma pessoa que é adicionada a uma prova somente para fins de referência e não precisa ser notificada de qualquer alteração.<p>O padrão do sistema é Resumo diário (também visto como Não definido). Se você ou seus revisores não fizerem outras alterações, todas as provas terão essa configuração.</p></td> 
+        <td>O Workfront não envia alertas de email.<br>Isso é útil para uma pessoa que é adicionada a uma prova somente para fins de referência e não precisa ser notificada de nenhuma alteração.<p>O padrão do sistema é Resumo diário (também visto como Não definido). Se você ou seus revisores não fizerem outras alterações, todas as provas terão essa configuração.</p></td> 
        </tr> 
       </tbody> 
      </table>
@@ -141,7 +141,7 @@ Para definir as configurações do revisor de provas:
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **Ao clicar em hiperlinks em uma prova** (disponível apenas no Visualizador de provas da área de trabalho): Selecione uma opção para especificar o que acontece no Visualizador de provas da área de trabalho quando você clica em um link definido para ser aberto em uma nova guia ou janela do navegador.
+   * **Ao clicar em hiperlinks em uma prova** (disponível apenas no Visualizador de Prova de Área de Trabalho): Selecione uma opção para especificar o que acontece no Visualizador de Prova de Área de Trabalho quando você clica em um link definido para ser aberto em uma nova guia do navegador ou janela.
 
      Esta configuração está em vigor para todas as provas interativas que você abrir.
 

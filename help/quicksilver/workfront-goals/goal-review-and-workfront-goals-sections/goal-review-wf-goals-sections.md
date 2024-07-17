@@ -36,6 +36,6 @@ Entre em contato com o gerente de conta da Workfront para saber mais sobre uma l
 Esta seção contém os seguintes artigos:
 
 * [Visão geral das seções de Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-* [Gerenciar metas na Lista de metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
+* [Gerenciar metas na Lista de Metas da Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
 * [Atualizar progresso da meta nas Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Revise gráficos para entender as tendências de progresso das metas no Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)

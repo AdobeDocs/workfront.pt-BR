@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -46,7 +46,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
 ## Criar uma prova estática para um site ou outro conteúdo da Web
 
@@ -57,8 +57,8 @@ Para criar uma prova estática, o site precisa estar acessível publicamente (n�
 >Recomendamos provas interativas em vez de provas estáticas para páginas internas que exigem autorização e páginas protegidas por senha. Para obter mais informações, consulte [Visão geral das provas de conteúdo interativo](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Vá para o projeto, tarefa ou problema em que deseja criar uma nova prova de site ou uma nova versão de uma existente.
-1. Clique em **Documentos** no painel esquerdo .
-1. (Condicional) Se estiver criando uma nova prova, clique em **Adicionar novo** e, em seguida, clique em **Prova** no menu exibido.
+1. Clique em **Documentos** no painel esquerdo.
+1. (Condicional) Se estiver criando uma nova prova, clique em **Adicionar novo** e em **Prova** no menu exibido.
 1. (Condicional) Se você estiver criando uma nova versão de uma prova existente:
 
    1. Passe o mouse sobre a prova de URL para a qual deseja criar uma nova versão e selecione-a clicando no plano de fundo azul-claro ao redor dela.
@@ -67,7 +67,7 @@ Para criar uma prova estática, o site precisa estar acessível publicamente (n�
 
    1. Clique em **Adicionar novo** > **Versão** > **Prova**.
 
-1. Digite o URL do site que deseja revisar na caixa **Adicionar arquivos** e pressione **Enter**.
+1. Digite a URL do site que deseja revisar na área **Adicionar arquivos** e pressione **Enter**.
 
    >[!NOTE]
    >
@@ -79,8 +79,8 @@ Para criar uma prova estática, o site precisa estar acessível publicamente (n�
 
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
-1. (Opcional) Se quiser alterar o nome da prova do URL do site para algo diferente, digite um **Nome da prova.**
-1. Verifique se **Capturar captura de tela** for selecionada e use uma das seguintes opções:
+1. (Opcional) Se você deseja alterar o nome da prova da URL do site para algo diferente, digite um **Nome da prova.**
+1. Verifique se a **Capturar captura de tela** está selecionada e use uma das seguintes opções:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,7 +103,7 @@ Para criar uma prova estática, o site precisa estar acessível publicamente (n�
 
 1. Clique em **Concluído**.
 
-   Se você selecionou várias resoluções de captura de tela na etapa 8, a lista inclui um conjunto de capturas de tela para cada resolução. Você pode gerar essas capturas de tela como provas separadas ou combiná-las em uma única prova (consulte em .). Recomendamos que você as combine, especialmente se estiver criando uma prova estática de site.
+   Se você selecionou várias resoluções de captura de tela na etapa 8, a lista inclui um conjunto de capturas de tela para cada resolução. Você pode gerar essas capturas de tela como provas separadas ou combiná-las em uma única prova (consulte  em .). Recomendamos que você as combine, especialmente se estiver criando uma prova estática de site.
 
    >[!NOTE]
    >

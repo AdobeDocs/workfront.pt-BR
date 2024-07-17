@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão R1.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de fevereiro de 2017.
 
-Para obter uma lista de todas as alterações feitas no R1, consulte [Visão geral da atividade de versão R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Para obter uma lista de todas as alterações feitas em R1, consulte [Visão geral da atividade de versão R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Método aprimorado para vinculação de arquivos externos
 
@@ -34,7 +34,7 @@ Para obter mais informações, consulte  [Vincular documentos de aplicativos ex
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 O calendário de Trabalho em disponível para equipes agora contém funcionalidades adicionais e uma aparência atualizada. O calendário da equipe de Trabalho em agora funciona de forma semelhante à ferramenta de agendamento de recursos para projetos.
 
@@ -70,7 +70,7 @@ A linha do tempo de agendamento inclui os seguintes aprimoramentos:
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 O filtro agora pode ser usado para controlar quais usuários são exibidos na linha do tempo do agendamento, além de quais tarefas e problemas são exibidos na área Não atribuído. Quando os usuários são selecionados no filtro, somente os usuários selecionados são exibidos, independentemente de terem ou não uma atribuição de função que corresponda à atribuição de função de tarefas na área Não atribuído. Todas as tarefas atualmente atribuídas a esse usuário também são exibidas.
 
@@ -120,7 +120,7 @@ As áreas a seguir não mostram o nome atualizado dos objetos:
 * Aplicativos móveis
 * Suplemento do Outlook
 
-Para obter mais informações sobre como personalizar a terminologia do Workfront usando um Modelo de Layout, consulte a seção &quot;Personalizando Terminologia&quot; em &quot;Criando e Gerenciando Modelos de Layout&quot; e a seção &quot;Entendendo as Implicações da Personalização de Nomes de Objeto&quot; em [Entender objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obter mais informações sobre como personalizar a terminologia do Workfront usando um Modelo de Layout, consulte a seção &quot;Personalizando Terminologia&quot; em &quot;Criando e Gerenciando Modelos de Layout&quot; e a seção &quot;Entendendo as Implicações da Personalização de Nomes de Objetos&quot; em [Entender objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Incluir datas de início e término da aprovação em relatórios
 
@@ -133,7 +133,7 @@ Esses campos permitem ter informações sobre quando o caminho de aprovação at
 
 Para obter mais informações sobre esses campos, consulte [Glossário da terminologia do Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Para obter mais informações sobre caminhos de aprovação, como eles são criados e acionados e a função que desempenham nos processos de aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Para obter mais informações sobre caminhos de aprovação, como eles são criados e acionados e a função que eles oferecem nos processos de aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 Os seguintes campos foram removidos do Workfront e não podem mais ser incluídos nos relatórios (esses campos forneceram informações sobre o projeto em vez de informações sobre as próprias aprovações e foram frequentemente usados incorretamente):
 
@@ -153,7 +153,7 @@ Lembre-se de atualizar o endereço de email associado à sua conta para testar e
 
 A aparência da notificação para &quot;Aprovação de documento&quot; foi atualizada com uma nova interface:
 
-Para obter mais informações sobre notificações por email, consulte [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Para obter mais informações sobre notificações por email, consulte [notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 Lembre-se de atualizar o endereço de email associado à sua conta para testar essa funcionalidade. Isso é necessário porque a Sandbox de visualização apaga os endereços de email de todos os usuários.
 
@@ -166,4 +166,4 @@ A visualização de Marco disponível ao visualizar uma lista de projeto ou rela
 
 Antes dessa alteração, para editar as datas ou exibir o percentual concluído, você tinha que ir para a tarefa individual.
 
-Para obter mais informações, consulte [Usar a visualização de Etapas](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+Para obter mais informações, consulte [Usar a exibição de Marco](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).

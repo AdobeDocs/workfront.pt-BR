@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 4 de abril de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte a [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Melhorias nos filtros na Lista de trabalho da página inicial
 
@@ -33,5 +33,5 @@ Para dar mais controle e foco sobre sua lista de trabalho, implementamos várias
 
 Antes dessa experiência, os filtros na área da Página inicial não forneciam uma contagem precisa do número de itens de trabalho na lista quando você selecionava um ou mais filtros e eles criavam confusão sobre o estado dos itens de trabalho.
 
-Para obter mais informações, consulte [Exibir itens na Lista de trabalho na área Página inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Para obter mais informações, consulte [Exibir itens na Lista de Trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 

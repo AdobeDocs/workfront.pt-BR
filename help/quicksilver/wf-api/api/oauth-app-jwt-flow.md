@@ -24,7 +24,7 @@ Para integrar ao Workfront e permitir que seu aplicativo cliente se comunique co
 
 ## Criar um aplicativo OAuth2
 
-Para obter instruções sobre como criar o aplicativo OAuth2, consulte [Criar um aplicativo OAuth2 usando autenticação de servidor (fluxo JWT)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Criar aplicativos OAuth2 para integrações do Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Para obter instruções sobre como criar o aplicativo OAuth2, consulte [Criar um aplicativo OAuth2 usando autenticação de servidor (fluxo JWT)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) em [Criar aplicativos OAuth2 para integrações de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -38,14 +38,14 @@ O token deve ser assinado usando a chave privada para um certificado de assinatu
 
 O algoritmo usado é RS256 (Assinatura RSA com SHA-256). É um algoritmo assimétrico e usa um par de chaves públicas/privadas. O provedor de identidade tem uma chave privada (secreta) usada para gerar a assinatura, e o consumidor do JWT recebe uma chave pública para validar a assinatura.
 
-Para gerar a chave pública, faça **um** dos seguintes.
+Para gerar a chave pública, execute **um** dos procedimentos a seguir.
 
-* Abra o terminal MacOS/Linux, execute o comando a seguir e faça upload `certificate_pub.crt` usando o **Adicionar chave pública** na configuração do aplicativo OAuth2 no Workfront.
+* Abra o terminal MacOS/Linux e execute o comando a seguir. Em seguida, carregue `certificate_pub.crt` usando o botão **Adicionar chave pública** na configuração do aplicativo OAuth2 no Workfront.
 
   <!-- [Copy](javascript:void(0);) -->
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* Use o **Gerar um par de chaves públicas/privadas** na configuração do aplicativo OAuth2 no Workfront para gerar o RSA.
+* Use o botão **Gerar um par de chaves públicas/privadas** na configuração do aplicativo OAuth2 no Workfront para gerar o RSA.
 
 ## Criar um JSON Web Token
 

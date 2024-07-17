@@ -33,7 +33,7 @@ Para obter mais informações sobre como converter problemas em uma tarefa ou pr
 Você pode criar uma solicitação das seguintes maneiras:
 
 * Do zero, conforme descrito neste artigo.
-* De rascunhos. Para obter informações, consulte [Criar solicitações a partir de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+* De rascunhos. Para obter informações, consulte [Criar solicitações de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * De uma solicitação existente, copiando e submetendo uma cópia. Para obter informações, consulte [Copiar e enviar solicitações](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Requisitos de acesso
@@ -78,13 +78,13 @@ Um administrador do Workfront deve criar os seguintes componentes de uma Fila de
 
 * Um projeto com o status Atual, publicado como uma Fila de solicitação de ajuda.
 * Enfileirar tópicos.\
-  Para obter mais informações, consulte o artigo [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  Para obter mais informações, consulte o artigo [Criar tópicos da fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 * Regras de Encaminhamento.\
-  Para obter mais informações, consulte o artigo [Criar Regras de Encaminhamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+  Para obter mais informações, consulte o artigo [Criar Regras de Roteamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 * (Opcional) Grupos de tópicos.\
-  Para obter mais informações, consulte o artigo [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+  Para obter mais informações, consulte o artigo [Criar grupos de tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Opcional) Solicitar formulário personalizado.\
   Para obter mais informações, consulte o artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
@@ -110,23 +110,23 @@ Para obter informações sobre como criar solicitações a partir de rascunhos e
 
 Para criar uma solicitação no aplicativo Web do Workfront:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    </MadCap:conditionalText>
    -->
 
-1. Clique em  **Solicitações** e, em seguida, clique em **Nova solicitação** no canto superior direito da página.
+1. Clique em **Solicitações** e em **Nova solicitação** no canto superior direito da página.
 
    >[!TIP]
    >
    >* Você pode acessar a opção Nova solicitação em qualquer seção na área Solicitações.
    >* A opção Nova solicitação fica esmaecida quando você não tem acesso para criar problemas.
 
-1. (Condicional) Clique dentro da **Tipo de solicitação** e execute um dos procedimentos a seguir:
+1. (Condicional) Clique dentro do campo **Tipo de solicitação** e siga um destes procedimentos:
 
-   * No **Caminhos recentes** , selecione um caminho usado recentemente para abrir uma fila de solicitações. Um caminho inclui a fila de solicitações, os grupos de tópicos e o tópico da fila que você enviou recentemente. Os três últimos caminhos são exibidos por padrão.
+   * Na seção **Caminhos recentes**, selecione um caminho usado recentemente para abrir uma fila de solicitações. Um caminho inclui a fila de solicitações, os grupos de tópicos e o tópico da fila que você enviou recentemente. Os três últimos caminhos são exibidos por padrão.
 
      >[!NOTE]
      >
@@ -134,7 +134,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * No **Filas de solicitações** selecione uma fila de solicitações.
+   * Na seção **Filas de Solicitação**, selecione uma fila de solicitações.
    * Insira uma palavra-chave que pertença a um caminho acessado anteriormente para procurar uma fila de solicitações.
 
      Por exemplo, se você tiver uma fila de solicitações chamada &quot;Help Desk&quot; com um Grupo de tópicos chamado &quot;Local&quot; e um Tópico da fila chamado &quot;Remoto&quot;, poderá digitar &quot;remoto&quot; e todas as filas de solicitações que contêm &quot;remoto&quot; em qualquer elemento de seu caminho serão exibidas.
@@ -170,9 +170,9 @@ Para criar uma solicitação no aplicativo Web do Workfront:
    >* O nome da fila de solicitações é o nome do projeto que foi publicado como uma Fila de solicitações de ajuda.
    >* A descrição do projeto configurado como a fila de solicitações selecionada é exibida à direita do nome da fila de solicitações.
    >   
-   >Para obter mais informações sobre como publicar um projeto como uma Fila de solicitação de ajuda, consulte o artigo [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >Para obter mais informações sobre como publicar um projeto como uma Fila de solicitações de ajuda, consulte o artigo [Criar uma Fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. No **Nova solicitação** formulário, execute um dos procedimentos a seguir:
+1. No formulário **Nova solicitação**, siga um destes procedimentos:
 
    * (Condicional) Selecione um rascunho disponível na mensagem de notificação exibida sob o campo Tipo de solicitação.
 
@@ -197,13 +197,13 @@ Para criar uma solicitação no aplicativo Web do Workfront:
    >
 
    Você pode ter até 10 camadas de Grupos de tópicos incorporados à sua Fila de solicitações.\
-   Para obter mais informações sobre como criar Grupos de Tópicos, consulte o artigo [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obter mais informações sobre como criar Tópicos da fila, consulte o artigo [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Para obter mais informações sobre como criar Grupos de Tópicos, consulte o artigo [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obter mais informações sobre como criar Tópicos da Fila, consulte o artigo [Criar Tópicos da Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    >[!TIP]
    >
    >Se você tiver selecionado um rascunho ou um caminho anterior, os tópicos de grupos de tópicos e de fila já estarão selecionados. Você pode selecionar um diferente, se necessário.
 
-1. Dependendo dos campos que o administrador do Workfront ativou na variável **Campos do novo problema** seção do **Detalhes da fila** no projeto, você poderá encontrar qualquer um dos seguintes campos ao enviar uma nova solicitação:
+1. Dependendo dos campos que o administrador do Workfront habilitou na seção **Novos Campos de Problema** da subguia **Detalhes da Fila** no projeto, você poderá encontrar qualquer um dos seguintes campos ao enviar uma nova solicitação:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -249,7 +249,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>Atribuições</strong> </td> 
-      <td> <p><span>Especifique o nome de um usuário ativo, função de trabalho ou equipe à qual a solicitação deve ser atribuída.</span> </p> <p>Você pode especificar apenas um grupo.</p>
+      <td> <p><span>Especifique o nome de um usuário ativo, função de trabalho ou uma equipe à qual a solicitação deve ser atribuída.</span> </p> <p>Você pode especificar apenas um grupo.</p>
 
    <p> Dependendo de como a fila de solicitações foi configurada, você pode atribuir apenas um ou dois tipos de recursos à solicitação, em vez de todos os três (por exemplo, você só pode atribuir a solicitação aos usuários).</p>
 
@@ -257,11 +257,11 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    <p> Para obter mais informações, consulte os seguintes artigos:</p> 
       <ul> 
-      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a> </p> </li> 
-      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Criar Regras de Encaminhamento</a> <br> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma Fila de Solicitações</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Criar Regras de Roteamento</a> <br> </p> </li> 
       </ul> </p>
 
-   <p><span>Recomendamos o uso das Regras de roteamento para suas Filas de solicitações, para que elas possam ser roteadas automaticamente para os recursos apropriados.</span> </p> </td> 
+   <p><span>Recomendamos o uso das Regras de Roteamento para suas Filas de Solicitações para que elas possam ser roteadas automaticamente para os recursos apropriados.</span> </p> </td> 
      </tr>
 
    <tr> 
@@ -289,17 +289,17 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
 1. (Opcional) Se o administrador do Workfront associou um formulário personalizado à Fila de solicitação ou ao Tópico da fila, especifique os campos dentro do formulário personalizado.\
    Os formulários personalizados são diferentes para cada instância do Workfront.
-1. (Opcional e condicional) Em qualquer momento durante a inserção da solicitação, clique em [!UICONTROL **Descartar rascunho**] se quiser excluir o rascunho criado automaticamente. Isso exclui o rascunho que não pode ser recuperado. Uma mensagem de confirmação é exibida para confirmar que você está excluindo o rascunho.
+1. (Opcional e condicional) A qualquer momento durante a inserção da solicitação, clique em [!UICONTROL **Descartar rascunho**] se desejar excluir o rascunho criado automaticamente. Isso exclui o rascunho que não pode ser recuperado. Uma mensagem de confirmação é exibida para confirmar que você está excluindo o rascunho.
 
-1. (Opcional) Clique em [!UICONTROL **Desfazer**] na mensagem de confirmação se quiser reverter a ação e manter o rascunho.
+1. (Opcional) Clique em [!UICONTROL **Desfazer**] na mensagem de confirmação se desejar reverter sua ação e manter o rascunho.
 
 1. Siga um destes procedimentos:
 
-   * Clique em **Enviar** se estiver pronto para enviar a solicitação. A solicitação é salva na seção Enviado . Dependendo da Regra de Encaminhamento da Fila de Solicitações, essa solicitação pode ser encaminhada para um projeto diferente daquele designado como Fila de Solicitações. Para obter informações sobre regras de roteamento, consulte [Criar Regras de Encaminhamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Clique em **Enviar** se estiver pronto para enviar a solicitação. A solicitação é salva na seção Enviado . Dependendo da Regra de Encaminhamento da Fila de Solicitações, essa solicitação pode ser encaminhada para um projeto diferente daquele designado como Fila de Solicitações. Para obter informações sobre regras de roteamento, consulte [Criar Regras de Roteamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Ou
 
-     Clique em **Fechar** se você não estiver pronto para enviá-lo e puder voltar e concluí-lo mais tarde. Sua solicitação é salva na seção Rascunhos e estará disponível para você na próxima vez que enviar uma solicitação para essa fila de solicitações.
+     Clique em **Fechar** se não estiver pronto para enviá-lo e você poderá voltar e concluí-lo mais tarde. Sua solicitação é salva na seção Rascunhos e estará disponível para você na próxima vez que enviar uma solicitação para essa fila de solicitações.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
@@ -323,13 +323,13 @@ O texto do corpo do email é adicionado como a descrição da solicitação.
 >
 >A formatação de HTML é removida quando a solicitação entra no Workfront, mas as assinaturas e o conteúdo existente do thread de Responder para não são removidos e aparecem na descrição da solicitação.
 
-Para obter informações sobre como habilitar uma Fila de solicitações para receber solicitações por email, consulte [Permitir que os usuários enviem um problema por email para um projeto da Fila de solicitações](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Para obter informações sobre como habilitar uma Fila de solicitações para receber solicitações por email, consulte [Habilitar usuários a enviar um problema por email para um projeto da Fila de Solicitações](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Criar solicitações usando o cliente Outlook
 
 Você pode enviar solicitações usando o cliente Outlook. Você pode criar uma nova solicitação ou converter um email em uma solicitação.
 
-Para obter informações sobre como enviar solicitações usando o cliente Outlook, consulte o artigo [Criar uma solicitação Adobe Workfront a partir de um email do Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+Para obter informações sobre como enviar solicitações usando o cliente Outlook, consulte o artigo [Criar uma solicitação do Adobe Workfront por email do Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Criar solicitações usando o aplicativo móvel do Workfront
 
@@ -348,7 +348,7 @@ Para obter informações sobre como enviar solicitações por meio do aplicativo
   Para obter mais informações sobre integrações personalizadas do Workfront, consulte o artigo [Integrações do Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * Você pode enviar solicitações do Salesforce se tiver instalado o aplicativo Workfront para Salesforce.\
-  Para obter informações sobre como enviar solicitações do Salesforce usando nosso aplicativo Workfront para Salesforce, consulte o artigo [Enviar solicitações do Adobe Workfront de objetos do Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  Para obter informações sobre como enviar solicitações do Salesforce usando nosso aplicativo Workfront para o Salesforce, consulte o artigo [Enviar solicitações do Adobe Workfront de objetos do Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Localizar solicitações enviadas
 

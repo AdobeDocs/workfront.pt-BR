@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 1 2018.1
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 1 de 2018.1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
+title: Atividade da versão 2018.1 do Beta 1
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 1 2018.1
+# Atividade da versão 2018.1 do Beta 1
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 1 de 2018.1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 1. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 1 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  [Visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-A versão Beta 1 2018.1 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2018.1 do Beta 1 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
-* [Modelo de layout atualizado para oferecer suporte à área inicial](#updated-layout-template-to-support-the-home-area)
-* [Desative as notificações por email de revisão enviadas pelo Workfront](#disable-proofing-email-notifications-sent-from-workfront)
+* [Modelo de layout atualizado para oferecer suporte à Área Inicial](#updated-layout-template-to-support-the-home-area)
+* [Desabilitar Notificações por Email de Revisão Enviadas pelo Workfront](#disable-proofing-email-notifications-sent-from-workfront)
 * [Novos recursos adicionados às assinaturas de evento](#new-resources-added-to-event-subscriptions)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
-* [Área da Página Inicial (Minha Área de Trabalho Atualizada)](#home-area-updated-my-work-area)
-* [Exibir Dados do Planejador de Recursos no Business Case e Resumo de Business Case Atualizado](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
+* [Área Residencial (Atualizou Minha Área de Trabalho)](#home-area-updated-my-work-area)
+* [Exibir Dados do Planejador de Recursos no Business Case e Resumo Atualizado do Business Case](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
 * [Exibir a Porcentagem de Alocação de Horas Planejadas no Planejador de Recursos](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
-* [Os tipos de atualização &quot;Automático e Mediante alteração&quot; e &quot;Somente alteração&quot; acionam as atualizações dos objetos principais ao mesmo tempo que as tarefas são atualizadas](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
+* [Os Tipos de Atualização &quot;Automático e Mediante Alteração&quot; e &quot;Somente Alteração&quot; Atualizam os Objetos Pai ao Mesmo Tempo que as Tarefas São Atualizadas](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
 * [Instantâneo da Linha do Tempo Disponível no Gráfico de Gantt](#timeline-snapshot-available-in-the-gantt-chart)
 
 ## Área da Página Inicial (Minha Área de Trabalho Atualizada) {#home-area-updated-my-work-area}
@@ -58,7 +58,7 @@ Para obter mais informações, consulte &quot;Criar e gerenciar modelos de layou
 
 Agora você pode configurar se os usuários na sua instância do Workfront receberão notificações por email do Workfront quando um comentário for feito em uma prova.
 
-Anteriormente, os emails de prova eram sempre enviados do Workfront quando um comentário era feito em uma prova. Se as notificações também estivessem ativadas no Workfront Proof, os usuários recebiam notificações duplicadas. 
+Anteriormente, os emails de prova eram sempre enviados do Workfront quando um comentário era feito em uma prova. Se as notificações também estivessem habilitadas no Workfront Proof, os usuários recebiam notificações duplicadas. 
 
 Para clientes existentes do Workfront, o Workfront é configurado por padrão para enviar emails quando é feito um comentário em uma prova.
 
@@ -82,7 +82,7 @@ A Visualização de usuário do Planejador de recursos agora inclui uma nova col
 
 Antes dessa alteração, você poderia visualizar o total de Horas planejadas e disponíveis para usuários e funções de trabalho somente em colunas separadas.
 
-Para obter mais informações sobre a coluna Percentual de Alocação de Horas Planejadas, consulte a seção &quot;Exibindo a Diferença entre Horas Disponíveis e Planejadas ou FTE no Planejador de Recursos&quot; em [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obter mais informações sobre a coluna Porcentagem de Alocação de Horas Planejadas, consulte a seção &quot;Exibindo a Diferença entre Horas Disponíveis e Planejadas ou FTE no Planejador de Recursos&quot; na [Visão geral do Planejador de Recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Os tipos de atualização &quot;Automático e Mediante alteração&quot; e &quot;Somente alteração&quot; acionam as atualizações dos objetos principais ao mesmo tempo que as tarefas são atualizadas {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
 
@@ -97,7 +97,7 @@ Agora, quando você seleciona os Tipos de Atualização &quot;Automático e Ao A
 
 Antes dessa alteração, você tinha que atualizar a página para garantir que os objetos principais e a linha do tempo do projeto também fossem atualizados.
 
-Para obter mais informações sobre o Tipo de atualização de um projeto, consulte [Selecione o tipo de atualização do projeto](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Para obter mais informações sobre o Tipo de Atualização de um projeto, consulte [Selecionar o Tipo de Atualização do projeto](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 ## Instantâneo da Linha do Tempo Disponível no Gráfico de Gantt {#timeline-snapshot-available-in-the-gantt-chart}
 
@@ -107,14 +107,14 @@ Quando você seleciona um intervalo de tempo mais granular para o gráfico de Ga
 
 Antes dessa alteração, você tinha que rolar horizontalmente no gráfico de Gantt inteiro para encontrar um determinado momento no tempo, ou você tinha que afastar o zoom da exibição granular.
 
-Para obter mais informações sobre como as informações são exibidas no gráfico de Gantt, consulte [Configurar como as informações são exibidas no Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Para obter mais informações sobre como as informações são exibidas no Gráfico de Gantt, consulte [Configurar como as informações são exibidas no Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Novos recursos adicionados às assinaturas de evento {#new-resources-added-to-event-subscriptions}
 
 Agora é possível criar assinaturas de evento para os seguintes recursos:
 
 * **Despesa:** Notifica quando uma despesa é adicionada ou modificada.
-* **Atribuição:** Notifica quando uma atribuição é adicionada ou modificada em uma tarefa ou problema para um usuário, função de trabalho ou equipe.
-* **Planilha de horas:** Notifica quando uma planilha de horas é enviada, rejeitada ou aprovada.
+* **Atribuição:** notifica você quando uma atribuição é adicionada ou modificada em uma tarefa ou problema para um usuário, função de trabalho ou equipe.
+* **Planilha de horas:** notifica você quando uma planilha de horas é enviada, rejeitada ou aprovada.
 
-Para saber mais sobre assinaturas de evento, consulte [API de assinatura de evento](../../../../wf-api/general/event-subs-api.md).
+Para saber mais sobre assinaturas de evento, consulte [API de Assinatura de Evento](../../../../wf-api/general/event-subs-api.md).

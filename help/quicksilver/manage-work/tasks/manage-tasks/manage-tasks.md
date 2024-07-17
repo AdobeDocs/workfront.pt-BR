@@ -11,7 +11,7 @@ exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -27,12 +27,12 @@ Esta seção contém os seguintes artigos:
   <li><a href="../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md" class="MCXref xref" xrefformat="{para}">Manage task details, custom forms, and finances</a> (drafted not to lose the TOC spot, but the article is in draft)</li>
   -->
 
-* [Gerenciar informações da tarefa na área Visão geral de detalhes da tarefa](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
-* [Gerenciar finanças da tarefa na seção Detalhes da tarefa](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [Gerenciar informações da tarefa na área de Visão Geral de Detalhes da Tarefa](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+* [Gerenciar finanças da tarefa na seção Detalhes da Tarefa](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 * [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
 * [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 * [Excluir tarefas](../../../manage-work/tasks/manage-tasks/delete-tasks.md)
-* [Visão geral do Caminho crítico do projeto](../../../manage-work/tasks/manage-tasks/critical-path.md)
+* [Visão Geral do Caminho Crítico do projeto](../../../manage-work/tasks/manage-tasks/critical-path.md)
 * [Visão geral das tarefas recorrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
-* [Associar marcos a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
+* [Associar etapas com tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
 * [Converter uma tarefa em um projeto](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)

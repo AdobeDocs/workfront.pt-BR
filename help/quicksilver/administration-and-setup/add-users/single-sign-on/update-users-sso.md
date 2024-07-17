@@ -102,11 +102,11 @@ Você pode começar a preparar seu arquivo de importação criando um relatório
    >
    >Os nomes de usuários SSO fazem distinção entre maiúsculas e minúsculas.
 
-1. Exclua todas as colunas no arquivo do Excel, exceto a **ID** e a variável **Usuário do SSO** colunas.
+1. Exclua todas as colunas no arquivo do Excel, exceto as colunas **ID** e **Nome de Usuário do SSO**.
 
 1. Exclua os cabeçalhos da coluna e verifique se não há linhas em branco na parte superior do relatório.
 
-   O arquivo que você está usando para atualizar seus usuários do Workfront com os nomes de usuário do SSO **deve** contém apenas 2 colunas, nesta ordem:
+   O arquivo que você está usando para atualizar seus usuários do Workfront com os nomes de usuário SSO **must** contém apenas 2 colunas, nesta ordem:
 
    * A primeira coluna deve exibir a ID de usuário do Workfront (a GUID do usuário conforme encontrada no Workfront).
    * A segunda coluna deve conter o Nome de usuário do SSO, como exibido em seu sistema SSO.
@@ -120,23 +120,23 @@ Você pode começar a preparar seu arquivo de importação criando um relatório
 
 O processo de atualização de usuários para SSO adiciona o campo Nome de usuário do SSO aos usuários do Workfront, se algum usuário não estiver presente, ou atualiza o valor nesse campo, se já houver um valor associado aos usuários.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação** ![](assets/gear-icon-settings.png).
 
-1. Clique em. **Sistema** e selecione **Atualizar usuários para SSO**.
+1. Clique em **Sistema** e selecione **Atualizar Usuários para SSO**.
 
-1. Clique em **Escolher arquivo** para procurar o arquivo que você preparou.
+1. Clique em **Escolher Arquivo** para procurar o arquivo que você preparou.
 
    Para obter mais informações sobre como preparar este arquivo, consulte [Preparar o arquivo de importação](#prepare-the-import-file).
 
-1. Selecione o arquivo no local em que ele foi salvo no computador e clique em **Abertura**.
+1. Selecione o arquivo de onde ele foi salvo no computador e clique em **Abrir**.
 
    Isso insere as credenciais de SSO no Workfront, permitindo que todos os usuários façam logon no Workfront usando suas credenciais de SSO.
 
-   A variável **Permitir apenas `<SSO Configuration>` Autenticação** estiver ativada para todos os usuários incluídos no CSV. Isso garante que os usuários devem fazer logon por meio do SSO.
+   A configuração **Permitir apenas `<SSO Configuration>` Autenticação** está habilitada para todos os usuários incluídos no CSV. Isso garante que os usuários devem fazer logon por meio do SSO.
 
 ## Verificar o SSO em relação aos nomes de usuário do Workfront de seus usuários
 
-Para obter instruções sobre como criar um relatório de usuário contendo informações de nome de usuário SSO, consulte [Preparar o arquivo de importação](#prepare-the-import-file).
+Para obter instruções sobre como criar um relatório de usuário contendo informações de Nome de Usuário SSO, consulte [Preparar o arquivo de importação](#prepare-the-import-file).
 
 1. Execute um relatório de usuário contendo informações de nome de usuário SSO.
 
@@ -147,4 +147,4 @@ Para obter instruções sobre como criar um relatório de usuário contendo info
 
    ![](assets/users-with-sso-field-updated.png)
 
-   Para obter instruções sobre como atualizar os usuários para SSO, consulte [Atualizar seus usuários para SSO](#update-your-users-for-sso).
+   Para obter instruções sobre como atualizar seus usuários para SSO, consulte [Atualizar seus usuários para SSO](#update-your-users-for-sso).

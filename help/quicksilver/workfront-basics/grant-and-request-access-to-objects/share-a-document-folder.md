@@ -2,32 +2,31 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Compartilhar uma pasta de documentos
-description: É possível compartilhar uma pasta e seu conteúdo na área Documents .
+description: Você pode compartilhar uma pasta e seu conteúdo na área Documentos.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
 source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
 # Compartilhar uma pasta de documentos
 
-É possível compartilhar uma pasta e seu conteúdo na área Documents .
+Você pode compartilhar uma pasta e seu conteúdo na área Documentos.
 
 >[!NOTE]
 >
->* A pasta deve estar nos cinco principais níveis de uma hierarquia de pasta em um objeto. Cada pasta no sexto nível ou abaixo herda suas configurações de compartilhamento da pasta diretamente acima dela.
+>* A pasta deve estar nos cinco níveis superiores de uma hierarquia de pastas em um objeto. Cada pasta no sexto nível ou abaixo herda suas configurações de compartilhamento da pasta diretamente acima dela.
 >
->  Para obter informações sobre como adicionar subpastas para criar uma hierarquia de pastas, consulte a seção [Criar pastas e subpastas](../../documents/organizing-documents/create-documents-folder.md#creating-folders) no artigo [Criar pastas de documento](../../documents/organizing-documents/create-documents-folder.md).
+>  Para obter informações sobre como adicionar subpastas para criar uma hierarquia de pastas, consulte a seção [Criar pastas e subpastas](../../documents/organizing-documents/create-documents-folder.md#creating-folders) no artigo [Criar pastas de documentos](../../documents/organizing-documents/create-documents-folder.md).
 >
 >* As pastas inteligentes não podem ser compartilhadas.
->* Se você configurar as opções de compartilhamento para uma pasta de documento em um modelo e, em seguida, alguém criar um projeto a partir desse modelo, suas configurações de compartilhamento não serão transferidas para a pasta de documento no novo projeto.
->* Se você configurar opções de compartilhamento para uma pasta de documento em um item de trabalho e, em seguida, copiar o item de trabalho, suas configurações de compartilhamento não serão transferidas para a pasta de documento no novo item de trabalho.
+>* Se você configurar opções de compartilhamento para uma pasta de documentos em um modelo e alguém criar um projeto a partir desse modelo, suas configurações de compartilhamento não serão transferidas para a pasta de documentos no novo projeto.
+>* Se você configurar opções de compartilhamento para uma pasta de documentos em um item de trabalho e, em seguida, copiar o item de trabalho, suas configurações de compartilhamento não serão transferidas para a pasta de documentos no novo item de trabalho.
 >
-
 
 ## Requisitos de acesso
 
@@ -63,15 +62,15 @@ ht-degree: 0%
 </table>
 -->
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -79,31 +78,31 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Exibir acesso a documentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualizar acesso a documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir acesso a um objeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualizar o acesso a um objeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Compartilhar uma pasta
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Documentos**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Documentos**.
 
    Ou
 
-   Com um objeto Workfront aberto, clique em **Documentos** no painel esquerdo.
+   Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
 
 1. Selecione a pasta e clique no ícone Compartilhar ![](assets/share-icon.png) na barra de ferramentas.
 
-   A pasta deve estar nos cinco níveis superiores de uma hierarquia de pasta em um objeto e não pode ser uma pasta inteligente.
+   A pasta deve estar nos cinco níveis superiores de uma hierarquia de pastas em um objeto e não pode ser uma pasta inteligente.
 
-1. Na caixa exibida, em **Conceder acesso à pasta para**, comece digitando o nome do usuário, equipe, função de trabalho, grupo ou empresa com a qual deseja compartilhar a pasta e pressione **Enter** quando o nome for exibido.
-1. Para ajustar o acesso do usuário, da equipe, da função de trabalho, do grupo ou da empresa que acabou de adicionar, clique no menu suspenso à direita do nome e, em seguida, defina uma das seguintes opções disponíveis e qualquer uma de suas configurações avançadas:
+1. Na caixa exibida, em **Conceder acesso à pasta**, comece digitando o nome do usuário, da equipe, da função de trabalho, do grupo ou da empresa com a qual deseja compartilhar a pasta e pressione **Enter** quando o nome for exibido.
+1. Para ajustar o acesso do usuário, equipe, função de trabalho, grupo ou empresa que você acabou de adicionar, clique no menu suspenso à direita do nome e configure uma das seguintes opções disponíveis e qualquer uma de suas configurações avançadas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -111,28 +110,28 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     <tbody> 
      <tr> 
       <td role="rowheader">Visualizar o projeto</td> 
-      <td> <p>Capacidade de exibir a pasta e seu conteúdo.</p> <p>Clique em <strong>Configurações avançadas</strong> para especificar se você deseja permitir o seguinte:</p> 
+      <td> <p>Capacidade de visualizar a pasta e seu conteúdo.</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
        <ul> 
-        <li><strong>Baixar</strong>: Capacidade de baixar a pasta e seu conteúdo como um arquivo ZIP</li> 
-        <li> <p><strong>Compartilhar</strong>: Capacidade de compartilhar a pasta com outras pessoas no sistema</p> </li> 
+        <li><strong>Download</strong>: capacidade de baixar a pasta e seu conteúdo como um arquivo ZIP</li> 
+        <li> <p><strong>Compartilhar</strong>: capacidade de compartilhar a pasta com outras pessoas no sistema</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gerenciar o projeto</td> 
-      <td> <p>Capacidade de exibir e editar a pasta e seu conteúdo</p> <p>Clique em <strong>Configurações avançadas</strong> para especificar se você deseja permitir que os usuários façam o seguinte:</p> 
+      <td> <p>Capacidade de exibir e editar a pasta e seu conteúdo</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se você deseja permitir que os usuários façam o seguinte:</p> 
        <ul> 
-        <li><strong>Excluir</strong>: Excluir a pasta e seu conteúdo do sistema</li> 
-        <li><b>Baixar</b>: Baixe a pasta e seu conteúdo como um arquivo ZIP</li> 
-        <li><strong>Compartilhar</strong>: Compartilhe a pasta e seu conteúdo com outros usuários no sistema</li> 
+        <li><strong>Excluir</strong>: excluir a pasta e seu conteúdo do sistema</li> 
+        <li><b>Baixar</b>: baixe a pasta e seu conteúdo como um arquivo ZIP</li> 
+        <li><strong>Compartilhar</strong>: compartilhar a pasta e seu conteúdo com outros usuários no sistema</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Repita as Etapas 3 a 4 para adicionar outros nomes à lista e configurar suas opções.
-1. (Opcional) Se quiser que todos no sistema possam exibir a pasta e seu conteúdo, clique no ícone de engrenagem ![](assets/gear-icon-settings-with-dn-arrow.jpg) no canto superior direito da caixa de compartilhamento, clique em **Torne isso visível em todo o sistema.**
+1. (Opcional) Repita as etapas 3 a 4 para adicionar outros nomes à lista e configurar suas opções.
+1. (Opcional) Se quiser que todos no sistema possam ver a pasta e seu conteúdo, clique no ícone de engrenagem ![](assets/gear-icon-settings-with-dn-arrow.jpg) no canto superior direito da caixa de compartilhamento e clique em **Tornar isso visível em todo o sistema.**
 
-   Se você mudar de ideia, poderá clicar em **Remova o acesso em todo o sistema** (a opção padrão).
+   Se mudar de ideia, clique em **Remover acesso a todo o sistema** (a opção padrão).
 
 ## Como os usuários acessam o conteúdo de uma pasta compartilhada com eles
 
@@ -140,7 +139,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
-No momento, ao compartilhar uma pasta, os destinatários não visualizam a pasta na área Documentos. No entanto, eles podem acessar seus documentos executando um relatório de documento.
+Atualmente, quando você compartilha uma pasta, seus destinatários não veem a pasta na área Documentos. No entanto, eles podem acessar seus documentos executando um relatório de documento.
 
 Para obter informações sobre como executar um relatório, consulte a seção [Relatório sobre objetos](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) no artigo [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). Consulte também [Criar um relatório personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -156,22 +155,22 @@ Para obter informações sobre como executar um relatório, consulte a seção [
 </div>
 -->
 
-## Permissões herdadas ao compartilhar um objeto contendo uma pasta
+## Permissões herdadas ao compartilhar um objeto que contém uma pasta
 
-Quando você compartilha um objeto que tem uma pasta de documento, seus recipients também obtêm acesso à pasta:
+Quando você compartilha um objeto que tem uma pasta de documentos, os recipients também obtêm acesso à pasta:
 
-* Se você conceder aos recipients o acesso à View ao objeto pai, eles terão acesso à View à pasta.
-* Se você conceder aos recipients o acesso ao objeto pai Contribute ou Manage, eles terão acesso Manage à pasta.
-* Se você conceder um tipo de acesso (Exibir, Contribuir ou Gerenciar) ao objeto pai e outro tipo à pasta, seus recipients terão o maior desses dois tipos de acesso aos documentos dentro da pasta
+* Se você conceder aos seus recipients o acesso de Visualização ao objeto principal, eles terão acesso de Visualização à pasta.
+* Se você conceder aos recipients acesso de Contribute ou Gerenciar ao objeto principal, eles terão acesso de Gerenciar à pasta.
+* Se você conceder um tipo de acesso (Exibir, Contribute ou Gerenciar) ao objeto principal e outro tipo à pasta, os recipients terão o maior desses dois tipos de acesso aos documentos dentro da pasta
 
-   Por exemplo, se você compartilhar o objeto pai com o acesso View e a pasta com o acesso Manage , os recipients terão Gerenciar para os documentos na pasta .
+  Por exemplo, se você compartilhar o objeto pai com acesso de Visualização e a pasta com acesso de Gerenciar, os destinatários terão acesso de Gerenciar aos documentos na pasta.
 
-   >[!NOTE]
-   >
-   >Um documento anexado herda permissões somente do objeto em que foi anexado. Se você criar uma pasta no objeto e mover o documento para a pasta, ela herdará as permissões da pasta. Mas, se você criar uma pasta em um objeto pai ou avô e mover o documento para essa pasta, ele não herdará as permissões dessa pasta.
+  >[!NOTE]
+  >
+  >Um documento anexado herda permissões somente do objeto ao qual foi anexado. Se você criar uma pasta no objeto e mover o documento para a pasta, ela herdará as permissões da pasta. Porém, se você criar uma pasta em um objeto pai ou avô e mover o documento para essa pasta, ele não herdará as permissões dessa pasta.
 
-* Se a opção &quot;Nunca herdar o acesso ao documento de projetos, tarefas, problemas, etc&quot; estiver ativada no nível de acesso do destinatário, ele não herdará permissões para documentos em uma pasta que você compartilha com eles. Para conceder a eles acesso a um documento na pasta, você deve compartilhar o documento.
+* Se a opção &quot;Nunca herdar acesso a documentos de projetos, tarefas, problemas etc.&quot; estiver habilitada no nível de acesso do recipient, eles não herdarão permissões para documentos em uma pasta que você compartilha com eles. Para conceder a eles acesso a um documento na pasta, você deve compartilhar o documento.
 
-   Para obter informações sobre a opção &quot;Nunca herdar&quot;, consulte [Configuração do acesso ao Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+  Para obter informações sobre a opção &quot;Nunca herdar&quot;, consulte [Configurar acesso ao Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 
-   Para obter informações sobre como compartilhar um documento, consulte [Compartilhar um documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+  Para obter informações sobre como compartilhar um documento, consulte [Compartilhar um documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).

@@ -9,18 +9,18 @@ title: Módulos Airtable
 description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusion, além de uma licença do Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 2%
+source-wordcount: '1862'
+ht-degree: 1%
 
 ---
 
 # Módulos Airtable
 
 
-Com o [!DNL Airtable] conector para [!DNL Adobe Workfront Fusion], você pode iniciar um cenário com base em eventos em seu [!DNL Airtable] criar, carregar e atualizar registros, pesquisar registros e fazer chamadas de API personalizadas para a API do Airtable.
+Com o conector [!DNL Airtable] para [!DNL Adobe Workfront Fusion], você pode iniciar um cenário com base em eventos na sua conta [!DNL Airtable] e criar, carregar e atualizar registros, registros de pesquisa e fazer chamadas de API personalizadas para a API Airtable.
 
 ## Requisitos de acesso
 
@@ -40,16 +40,16 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>Sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -68,21 +68,21 @@ Você deve ter uma conta Airtable para usar a funcionalidade deste artigo.
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. Abra o Workfront Fusion e o **Criar uma conexão** do módulo desejado.
+1. Abra o Workfront Fusion e a caixa de diálogo **Criar uma conexão** do módulo desejado.
 1. Insira um nome para a conexão.
 1. (Opcional) Clique em Mostrar configurações avançadas e digite a ID do cliente do Airtable e o Segredo do cliente.
-1. Clique em **Continuar** botão para criar a conexão e retornar ao módulo.
+1. Clique no botão **Continuar** para criar a conexão e retornar ao módulo.
 
 ## Módulos dirigíveis e seus campos
 
 ### Registros
 
-* [Criar um registro](#create-a-record)
+* [Criar um Registro](#create-a-record)
 * [Excluir um Registro](#delete-a-record)
 * [Obter um registro](#get-a-record)
 * [Pesquisar Registros](#search-records)
 * [Atualizar um Registro](#update-a-record)
-* [Substituir um Registro](#upsert-a-record)
+* [Inserir um Registro](#upsert-a-record)
 * [Observar registros](#watch-records)
 * [Assistir Respostas](#watch-responses)
 * [Fazer uma chamada de API](#make-an-api-call)
@@ -233,7 +233,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td> <p>Fórmula</p> </td> 
-   <td> <p>Uma fórmula usada para filtrar registros. A fórmula é avaliada para cada registro e se o resultado não for <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>ou <code>#Error!</code> o registro é incluído na resposta.</p> <p>Se combinado com o <code>view</code>, apenas os registros nessa visualização que satisfaçam a fórmula serão retornados.</p> <p>Por exemplo, para incluir apenas registros em que Nome não esteja vazio, transmita em:<code> NOT({Name} = '')</code></p> <p>Para saber mais, procure informações sobre referências de campo de fórmula na documentação de suporte do Airtable.</p> </td> 
+   <td> <p>Uma fórmula usada para filtrar registros. A fórmula é avaliada para cada registro e, se o resultado não for <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> ou <code>#Error!</code>, o registro será incluído na resposta.</p> <p>Se combinado com o <code>view</code>, somente os registros nessa exibição que satisfazem a fórmula serão retornados.</p> <p>Por exemplo, para incluir apenas registros em que Nome não esteja vazio, transmita em:<code> NOT({Name} = '')</code></p> <p>Para saber mais, procure informações sobre referências de campo de fórmula na documentação de suporte do Airtable.</p> </td> 
   </tr> 
   <tr> 
    <td>Ordenar </td> 
@@ -404,7 +404,7 @@ Esse módulo de acionamento inicia um cenário quando um registro é criado ou a
   </tr> 
   <tr> 
    <td> <p>Configuração do acionador</p> </td> 
-   <td> <p>Campo de acionamento</p> <p>A <code>Created Time</code> ou <code>Last Modified Time</code> campo usado para classificar registros. Se você não tiver uma <code>Created Time</code> ou <code>Last Modified Time</code> no esquema, é necessário criar um. </p> <p>Campo de rótulo</p> <p>Um campo usado como rótulo para um registro, por exemplo, na caixa de diálogo Escolher onde iniciar.</p> </td> 
+   <td> <p>Campo de acionamento</p> <p>Um campo <code>Created Time</code> ou <code>Last Modified Time</code> que é usado para classificar registros. Se você não tiver um campo <code>Created Time</code> ou <code>Last Modified Time</code> no esquema, será necessário criar um. </p> <p>Campo de rótulo</p> <p>Um campo usado como rótulo para um registro, por exemplo, na caixa de diálogo Escolher onde iniciar.</p> </td> 
   </tr> 
   <tr> 
    <td>Limite</td> 
@@ -416,7 +416,7 @@ Esse módulo de acionamento inicia um cenário quando um registro é criado ou a
   </tr> 
   <tr> 
    <td> <p>Fórmula</p> </td> 
-   <td> <p>Uma fórmula usada para filtrar registros. A fórmula é avaliada para cada registro e se o resultado não for <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>ou <code>#Error!</code> o registro é incluído na resposta.</p> <p>Se combinado com o <code>view</code>, apenas os registros nessa visualização que satisfaçam a fórmula serão retornados.</p> <p>Por exemplo, para incluir apenas registros em que Nome não esteja vazio, transmita em:<code> NOT({Name} = '')</code></p> <p>Para saber mais, consulte as informações sobre referências de campo de fórmula na documentação de suporte do Airtable.</p> </td> 
+   <td> <p>Uma fórmula usada para filtrar registros. A fórmula é avaliada para cada registro e, se o resultado não for <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> ou <code>#Error!</code>, o registro será incluído na resposta.</p> <p>Se combinado com o <code>view</code>, somente os registros nessa exibição que satisfazem a fórmula serão retornados.</p> <p>Por exemplo, para incluir apenas registros em que Nome não esteja vazio, transmita em:<code> NOT({Name} = '')</code></p> <p>Para saber mais, consulte as informações sobre referências de campo de fórmula na documentação de suporte do Airtable.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -439,7 +439,7 @@ O URL do webhook precisa ser gerado no Workfront Fusion e adicionado para config
 1. Faça logon em sua conta do Airtable.
 1. Abra a Base e a tabela que deseja usar para o formulário e crie uma exibição de Formulário.
 1. Defina o formulário conforme necessário, role para baixo no formulário e ative a opção Redirecionar para URL após o formulário ser enviado.
-1. Insira o URL do Webhook gerado na etapa 2 para a caixa de diálogo exibida e adicione a variável ?record_id={record_id} logo após o URL do webhook para incluir a ID de registro na saída do módulo, clique em Salvar. O URL resultante será, por exemplo, semelhante a:
+1. Insira a URL do Webhook gerada na etapa 2 para a caixa de diálogo exibida e adicione ?record_id={record_id} logo após a URL do webhook para incluir a ID do Registro na saída do módulo e, em seguida, clique em Salvar. O URL resultante será, por exemplo, semelhante a:
 1. Volte para o cenário do Workfront Fusion e execute o módulo Watch Responses somente para carregar campos do Airtable e poder mapear esses campos para os outros módulos.
 1. Envie o formulário no Airtable onde a opção Redirecionar para URL após o envio do formulário está habilitada e a URL do Webhook adicionada (etapa 6 acima).
 
@@ -453,7 +453,7 @@ Agora, sempre que o formulário for enviado, o módulo Observar respostas no cen
 
 #### Chamada de API personalizada
 
-Esse módulo de ação permite fazer uma chamada autenticada personalizada para o [!DNL Airtable] API. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelo outro [!DNL Airtable] módulos.
+Este módulo de ação permite fazer uma chamada autenticada personalizada para a API [!DNL Airtable]. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelos outros módulos do [!DNL Airtable].
 
 A ação é baseada no tipo de entidade (tipo de objeto Alocadia) especificado.
 
@@ -469,7 +469,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Insira um caminho relativo a <code>https://api.airtable.com/}</code>. Exemplo: <code>v0/{base}/{table}</code> </td> 
+   <td>Insira um caminho relativo para <code>https://api.airtable.com/}</code>. Exemplo: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Método</td> 
@@ -485,7 +485,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td role="rowheader">Corpo</td> 
-   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar declarações condicionais como <code>if</code> no JSON, coloque as aspas fora da declaração condicional.</p> 
+   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar instruções condicionais como <code>if</code> em seu JSON, coloque as aspas fora da instrução condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

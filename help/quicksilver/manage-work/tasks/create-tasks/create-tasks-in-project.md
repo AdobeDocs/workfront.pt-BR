@@ -22,7 +22,7 @@ Você só pode criar tarefas em um projeto depois de criá-lo.
 
 Por exemplo, após criar um projeto, você pode adicionar tarefas e modificá-las para organizar o plano do projeto. Para obter mais informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
-Para obter informações sobre como criar tarefas pessoais que não estão em um projeto, consulte [Criar uma tarefa pessoal](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) no artigo [Criar itens de trabalho a partir da Área da página inicial](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Para obter informações sobre como criar tarefas pessoais que não estão em um projeto, consulte a seção [Criar uma tarefa pessoal](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) no artigo [Criar itens de trabalho da área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 Este artigo descreve como criar tarefas do zero. Você também pode criar tarefas das seguintes maneiras:
 
@@ -53,7 +53,7 @@ Este artigo descreve como criar tarefas do zero. Você também pode criar tarefa
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões para o projeto com a capacidade de adicionar tarefas ou superior</p> <p>Ao criar uma tarefa, você recebe automaticamente permissões Gerenciar para a tarefa</p> <p> Para obter informações sobre permissões de tarefas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartilhar uma tarefa </a>. </p> <p>Para obter informações sobre a solicitação de permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute para o projeto com capacidade para Adicionar tarefas ou superior</p> <p>Ao criar uma tarefa, você recebe automaticamente permissões Gerenciar para a tarefa</p> <p> Para obter informações sobre permissões de tarefas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartilhar uma tarefa </a>. </p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,10 +66,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Vá para o projeto em que deseja criar uma tarefa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. (Condicional) Se você estiver visualizando a lista de tarefas em uma exibição ágil, clique no link **Exibição de lista** ícone ![](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
-1. (Opcional) Clique no link **Modo de plano** ícone ![](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvamento manual** e selecione **Padrão** ou **Planejamento da linha do tempo**. Isso desativa o **Salvamento automático** que está ativada por padrão.
+1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição ágil, clique no ícone ![](assets/list-view-in-agile-view-for-tasks.png) do **Modo de Exibição de Lista** no canto superior direito para exibir a lista de tarefas.
+1. (Opcional) Clique no ícone ![](assets/nwe-plan-mode-icon-task-list.png) do **Modo de Plano** e selecione **Salvar Manualmente**. Em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
 
-   ![Selecione Salvar manualmente](assets/manual-save-option.png)
+   ![Selecionar Salvamento Manual](assets/manual-save-option.png)
 
    >[!TIP]
    >
@@ -82,17 +82,17 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
-1. (Condicional) Se você clicou em **Nova tarefa** faça o seguinte:
+1. (Condicional) Se você clicou em **Nova tarefa**, faça o seguinte:
 
-   1. Especifique qualquer um dos campos na lista limitada de campos dentro do **Nova tarefa** e clique em **Criar tarefa** se quiser criar uma tarefa rapidamente.
+   1. Especifique qualquer um dos campos na lista limitada de campos dentro da caixa **Nova tarefa** e clique em **Criar tarefa** se desejar criar uma tarefa rapidamente.
 
       Ou
 
-      Para atualizar todos os campos da tarefa, clique em **Mais opções** para abrir o **Criar tarefa** caixa.
+      Para atualizar todos os campos da tarefa, clique em **Mais Opções** para abrir a caixa **Criar Tarefa**.
 
       ![](assets/nwe-create-task-small-screen-350x272.png)
 
-      A variável **Criar tarefa** é aberta.
+      A caixa **Criar tarefa** é aberta.
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
@@ -100,7 +100,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
       >[!NOTE]
       >
-      >Dependendo de como o administrador do Workfront configura nosso Modelo de layout, os campos na caixa Criar tarefa podem exibir campos diferentes no seu ambiente. Para obter informações, consulte [Personalizar a exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+      >Dependendo de como o administrador do Workfront configura nosso Modelo de layout, os campos na caixa Criar tarefa podem exibir campos diferentes no seu ambiente. Para obter informações, consulte [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    1. Especifique informações para as seguintes áreas no painel esquerdo da caixa Criar tarefa:
 
@@ -111,12 +111,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       * Finanças
       * Configurações
 
-        Para obter informações sobre como definir todos os campos relacionados a uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+        Para obter informações sobre como definir todos os campos relacionados a tarefas em uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-   1. (Condicional e opcional) Se quiser que a tarefa seja recorrente, atualize o **Frequência de recorrência** campo. Para obter mais informações sobre como criar tarefas recorrentes, consulte [Criar tarefas recorrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
-   1. (Opcional) Clique em **Documentos** no painel esquerdo para anexar um documento à nova tarefa e clique em **Adicionar ou vincular arquivos** para adicionar um documento à tarefa a partir de seu computador ou outro serviço, ou para vincular documentos e pastas de seu computador ou outro serviço.
+   1. (Condicional e opcional) Se quiser que a tarefa seja recorrente, atualize o campo **Frequência de recorrência**. Para obter mais informações sobre como criar tarefas recorrentes, consulte [Criar tarefas recorrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+   1. (Opcional) Clique em **Documentos** no painel esquerdo para anexar um documento à nova tarefa e em **Adicionar ou vincular arquivos** para adicionar um documento à tarefa a partir de seu computador, de outro serviço ou para vincular documentos e pastas a partir de seu computador ou de outro serviço.
 
-1. (Condicional) Se você clicou em **Adicionar mais tarefas** na etapa 5, comece inserindo as informações da tarefa usando a edição em linha e, em seguida, pressione Enter.
+1. (Condicional) Se você clicou em **Adicionar mais tarefas** na etapa 5, comece a inserir as informações da tarefa usando a edição em linha e, em seguida, pressione Enter.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this stays accurate)</p>
@@ -128,7 +128,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Condicional) Siga um destes procedimentos:
 
-   * Se você clicou em **Nova tarefa** na etapa 5, clique em **Criar tarefa** para salvar as alterações e adicionar a nova tarefa ao projeto.
+   * Se você clicou em **Nova tarefa** na etapa 5, clique em **Criar tarefa** para salvar suas alterações e adicionar a nova tarefa ao seu projeto.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
@@ -145,10 +145,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
          Isso torna a nova tarefa uma tarefa filha ou subtarefa da tarefa anterior.
 
-         Para obter mais informações sobre tarefas-filho, consulte [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Para obter mais informações sobre tarefas filho, consulte [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-      1. (Condicional) Se você desativou a variável **Salvamento automático** depois de pressionar **Adicionar mais tarefas**, você pode fazer o seguinte:
+      1. (Condicional) Se você desabilitou a opção **Salvar automaticamente** depois de pressionar **Adicionar mais tarefas**, poderá fazer o seguinte:
 
-         * Clique em **Desfazer** a qualquer momento para reverter sua última alteração ou **Cancelar** para reverter todas as alterações feitas na lista de tarefas.
-         * Se você clicou anteriormente em **Desfazer**, clique em **Refazer** para reaplicar a última alteração cancelada.
-         * Clique em **Salvar** para salvar as alterações na lista de tarefas.
+         * Clique em **Desfazer** a qualquer momento para reverter a última alteração ou em **Cancelar** para reverter todas as alterações feitas na lista de tarefas.
+         * Se você clicou anteriormente em **Desfazer**, clique em **Refazer** para reaplicar a última alteração que você cancelou.
+         * Clique em **Salvar** para salvar suas alterações na lista de tarefas.

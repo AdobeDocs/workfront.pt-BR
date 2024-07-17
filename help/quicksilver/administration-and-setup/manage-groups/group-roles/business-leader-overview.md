@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
-title: Visão geral do líder empresarial
-description: Em um grupo, o Líder da Empresa é a pessoa que decide para o grupo sobre objetivos, estratégias, orçamento, contratação e assim por diante. Por exemplo, em uma organização que tem um Diretor de Marketing, essa pessoa provavelmente seria o Líder de Negócios para Marketing.
+title: Visão geral do Líder de negócios
+description: Em um grupo, o Líder de negócios é a pessoa que toma decisões para o grupo em relação a metas, estratégias, orçamento, contratação e assim por diante. Por exemplo, em uma organização com um Diretor de marketing, essa pessoa provavelmente seria o Líder de negócios de marketing.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# Visão geral do líder empresarial
+# Visão geral do Líder de negócios
 
-Em um grupo, o Líder da Empresa é a pessoa que decide para o grupo sobre objetivos, estratégias, orçamento, contratação e assim por diante. Por exemplo, em uma organização que tem um Diretor de Marketing, essa pessoa provavelmente seria o Líder de Negócios para Marketing.
+Em um grupo, o Líder de negócios é a pessoa que toma decisões para o grupo em relação a metas, estratégias, orçamento, contratação e assim por diante. Por exemplo, em uma organização com um Diretor de marketing, essa pessoa provavelmente seria o Líder de negócios de marketing.
 
-Como administrador de grupo, você pode atribuir um usuário como Líder de Negócios para um grupo ou subgrupo que você administra. Se houver algum grupo acima do grupo que você gerencia, os administradores também poderão fazer isso para o seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo). Para obter instruções, consulte [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Como administrador de grupo, você pode atribuir um usuário como Líder de negócios para um grupo ou subgrupo que administra. Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo). Para obter instruções, consulte [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-Se precisar de informações gerais sobre grupos, consulte [Visão geral dos grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Se você precisar de informações gerais sobre grupos, consulte [Visão geral dos grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 >[!NOTE]
 >
->Ao contrário do administrador de grupo de um grupo, o líder de negócios não tem a capacidade de exibir ou alterar configurações ou associações para o grupo.
+>Ao contrário do administrador de grupo de um grupo, o líder de negócios não tem a capacidade de visualizar ou alterar quaisquer configurações ou associações para o grupo.
 
 <!--
 >DRAFTED IN FLARE:
@@ -33,16 +33,16 @@ Se precisar de informações gerais sobre grupos, consulte [Visão geral dos gru
 >
 -->
 
-## Uso do campo Líder da empresa em relatórios
+## Uso do campo Líder de negócios na geração de relatórios
 
-Um usuário que cria um relatório para um grupo pode incluir o campo Líder da empresa em um filtro, visualização ou agrupamento.
+Um usuário que cria um relatório para um grupo pode incluir o campo Líder de negócios em um filtro, visualização ou agrupamento.
 
 Por exemplo:
 
-* Filtre por um Líder de Negócios para listar os grupos que têm essa pessoa atribuída como Líder de Negócios.
-* Adicione um campo Líder de Negócios a uma Exibição para listar os nomes de todos os Líderes de Negócios atribuídos aos grupos em uma lista. Você pode clicar em um nome para acessar o perfil de usuário desse Líder de Negócios ou editar o nome.
-* Agrupe por um campo Líder de Negócios para listar grupos de acordo com seus Líderes de Negócios.
+* Filtre por um Líder de negócios para listar os grupos aos quais essa pessoa foi atribuída como Líder de negócios.
+* Adicione um campo Líder de negócios a uma Exibição para listar os nomes de todos os Líderes de negócios atribuídos aos grupos em uma lista. Você pode clicar em um nome para ir ao perfil de usuário desse Líder de negócios ou editar o nome.
+* Agrupar por um campo Líder de negócios para listar grupos de acordo com seus Líderes de negócios.
 
-Além disso, o campo Líder da empresa é incluído na exibição padrão nos relatórios como uma coluna de lista.
+Além disso, o campo Líder de negócios é incluído na exibição padrão nos relatórios como uma coluna de lista.
 
-Para obter mais informações, consulte [Elementos de relatório: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Para obter mais informações, consulte [Elementos de relatório: filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).

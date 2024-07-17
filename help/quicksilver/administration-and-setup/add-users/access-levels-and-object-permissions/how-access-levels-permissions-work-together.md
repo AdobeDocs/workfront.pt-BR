@@ -43,7 +43,7 @@ Os níveis de acesso padrão são:
 * Solicitante (anexado à licença de solicitação)
 * Usuário externo (anexado à licença de Email externo)
 
-A licença do Workfront para cada nível de acesso padrão determina o que está disponível e pode ser configurado no nível de acesso. Para obter informações sobre as licenças do Workfront, consulte [Visão geral das licenças do Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+A licença do Workfront para cada nível de acesso padrão determina o que está disponível e pode ser configurado no nível de acesso. Para obter informações sobre as licenças do Workfront, consulte [visão geral das licenças do Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 Para os usuários atribuídos a ele, um nível de acesso define o que eles podem ver e fazer com os seguintes tipos de objeto e áreas no Workfront:
 
@@ -67,26 +67,26 @@ Em um nível de acesso personalizado, você pode definir as configurações dess
 >
 >É altamente recomendável que você deixe os níveis de acesso incorporados inalterados para que possa consultá-los após configurar os usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. (Você pode fazer isso para todos os níveis de acesso, exceto para Administrador do sistema e Usuário externo.)
 
-Para obter uma explicação detalhada de cada nível de acesso padrão, consulte [Níveis de acesso incorporados](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+Para obter uma explicação detalhada de cada nível de acesso padrão, consulte [Níveis de acesso predefinidos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
-Para obter instruções sobre como atribuir um nível de acesso a um usuário, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obter instruções sobre como atribuir um nível de acesso a um usuário, consulte [Editar perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Permissões
 
 Ao compartilhar um objeto com alguém no sistema, um usuário pode conceder ao recipient qualquer uma das seguintes permissões para o objeto.
 
-* **Exibir**: esse nível de permissão permite que o recipient compartilhe o objeto de uma das seguintes maneiras:
+* **Exibir**: este nível de permissão permite que o destinatário compartilhe o objeto de uma das seguintes maneiras:
 
    * Em todo o sistema, para que todos os usuários possam visualizá-lo (não disponível para todos os objetos)
    * Com usuários externos que não têm uma licença do Workfront (não disponível para todos os objetos)
    * Com um endereço de email (disponível somente para documentos)
 
 * **Contribute**: (não disponível para todos os objetos)
-* **Gerenciar**: quando alguém compartilha um objeto, os direitos do recipient sobre o objeto são determinados por uma combinação do nível de acesso do recipient e das permissões para o objeto que foram concedidas pelo compartilhador. O grau mais baixo de acesso disponível nessa combinação é o que determina o que o recipient pode fazer com o objeto.
+* **Gerenciar**: quando alguém compartilha um objeto, os direitos do destinatário ao objeto são determinados por uma combinação do nível de acesso do destinatário e das permissões do objeto que foram concedidas pelo compartilhador. O grau mais baixo de acesso disponível nessa combinação é o que determina o que o recipient pode fazer com o objeto.
 
   >[!INFO]
   >
-  >**Exemplo:** Se o nível de acesso do recipient não permitir a edição do projeto, essa pessoa não poderá editar ou excluir um projeto, mesmo que o compartilhador tenha concedido permissões para gerenciá-lo.
+  >**Exemplo:** se o nível de acesso do destinatário não permitir a edição de projetos, essa pessoa não poderá editar nem excluir um projeto, mesmo que o compartilhador tenha concedido permissões para gerenciá-lo.
   >
   >Ou, se o nível de acesso do recipient permitir a edição do projeto, mas o compartilhador conceder permissões somente de visualização para um projeto, o usuário não poderá editar nem excluir o projeto.
 

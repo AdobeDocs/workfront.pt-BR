@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 8 de março de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Pesquisar itens no painel de mapeamento
 
@@ -31,4 +31,4 @@ Para facilitar a localização dos itens que deseja mapear em seus cenários, ad
 
 Para obter mais informações sobre mapeamento, consulte [Mapear informações de um módulo para outro no Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-Esse recurso agora está incluído na [Conectores universais e roteamento no Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) caminho de aprendizado no Adobe Experience League.
+Este recurso agora está incluído nos [Conectores universais e roteamento no caminho de aprendizado do Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) no Adobe Experience League.

@@ -10,7 +10,7 @@ exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ A visualização Atividade por equipe mostra atividades que acontecem durante um
 >[!NOTE]
 >
 >A visualização da Atividade de projeto é semelhante a esta visualização, mas exibe a atividade com base nas pessoas atribuídas aos projetos, em vez das pessoas atribuídas a uma equipe inicial.\
->Para obter informações sobre a visualização da atividade Project, consulte [Exibir a visualização da atividade Projeto na Análise aprimorada](../enhanced-analytics/project-activity-overview.md).
+>Para obter informações sobre a visualização da atividade Project, consulte [Exibir a visualização da atividade Project na análise aprimorada](../enhanced-analytics/project-activity-overview.md).
 
 ![](assets/activity-by-team-350x113.png){width="700"}
 
@@ -63,37 +63,37 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Pré-requisitos
 
-Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; na [Visão geral do Enhanced Analytics](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Entender a visualização Atividade por equipe
 
 As diferentes atividades são exibidas em cores diferentes para resumir eventos específicos durante o período filtrado:
 
-* **Usuários logados**: caixas roxas mostram que as pessoas na equipe da página inicial fizeram logon naquele dia. Um tom mais escuro indica um número maior de pessoas fazendo logon.
+* **Usuários conectados**: as caixas roxas mostram que as pessoas da equipe doméstica conectaram nesse dia. Um tom mais escuro indica um número maior de pessoas que fizeram logon.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Alteração do status da tarefa**: caixas rosa mostram que as pessoas na equipe da página inicial alteraram o status de uma tarefa nesse dia. Uma sombra mais escura indica um número maior de status de tarefa em alteração.
+* **Alteração do status da tarefa**: as caixas de cor-de-rosa mostram que as pessoas na equipe inicial alteraram o status de uma tarefa nesse dia. Um tom mais escuro indica um número maior de alterações de status de tarefas.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Tarefas concluídas**: as caixas azuis mostram que as pessoas na equipe da página inicial concluíram uma tarefa nesse dia. Um tom mais escuro indica um número maior de tarefas sendo concluídas.
+* **Tarefas concluídas**: as caixas azuis mostram que as pessoas na equipe da página inicial concluíram uma tarefa nesse dia. Um tom mais escuro indica um maior número de tarefas concluídas.
 
   ![](assets/project-activity-tasks-completed.png)
 
 Passar o mouse sobre uma caixa mostra o número exato de vezes que a ação foi concluída em um determinado dia. É possível selecionar uma equipe para ver um detalhamento dessas atividades por cada pessoa na equipe da página inicial.
 
-Ver essas informações ajuda a determinar:
+Essas informações ajudam a determinar:
 
 * Quais atividades estão ocorrendo dentro de uma equipe doméstica e em que ritmo.
 * Quais equipes domésticas estão sendo sobrecarregadas ou estão usando mais o sistema.
-* Se a distribuição do trabalho for adequada para a equipe da casa.
+* Se a distribuição do trabalho é adequada para a equipe interna.
 
-Para saber como obter os melhores dados para essa visualização, consulte [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
+Para saber como obter os melhores dados para esta visualização, consulte [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Exibir a visualização Atividade por equipe
 
-1. Clique no ícone Menu principal ![](assets/main-menu-icon-16x12.png)e selecione **Analytics**.
+1. Clique no ícone Menu Principal ![](assets/main-menu-icon-16x12.png) e selecione **Analytics**.
 1. No painel esquerdo, selecione **Pessoas**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
@@ -102,11 +102,11 @@ Para saber como obter os melhores dados para essa visualização, consulte [Vis�
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Para obter informações sobre o uso do filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condicional) Se você não definiu o filtro Equipe, adicione o filtro Equipe e selecione cada equipe cujos dados você deseja ver.
 
-   Para obter mais informações sobre como adicionar filtros na Análise aprimorada, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obter mais informações sobre como adicionar filtros na Análise aprimorada, consulte [Aplicar filtros na Análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Depois de adicionar filtros, os dados de até 50 projetos são exibidos e os filtros permanecem ativos mesmo depois de sair da página ou do Workfront.
 
@@ -138,8 +138,8 @@ Para saber como obter os melhores dados para essa visualização, consulte [Vis�
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Opcional) Para exportar os dados de visualização, clique no ícone Exportar ![](assets/export.png) no canto superior direito da visualização, selecione o formato de exportação:
+1. (Opcional) Para exportar os dados de visualização, clique no ícone Exportar ![](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
 
    * **Gráfico (PNG)**
-   * **Tabela de dados (XSLX)**
+   * **Tabela de Dados (XSLX)**
 

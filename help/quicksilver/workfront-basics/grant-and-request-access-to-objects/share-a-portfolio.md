@@ -55,7 +55,7 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
 | Adicionar ou remover um programa&#42; | ✓ µ |   |
 | Adicionar ou remover um projeto&#42; | ✓ µ |   |
 | Aprovar um projeto | ✓ µ |   |
-| otimização de Portfolio&#42; | ✓ µ |   |
+| Otimização de Portfolio&#42; | ✓ µ |   |
 | Adicionar uma pasta de documentos&#42; | ✓ µ | ✓ µ |
 | Adicionar um documento | ✓ µ | ✓ µ |
 | Atualizações/comentários | ✓ µ | ✓ µ |

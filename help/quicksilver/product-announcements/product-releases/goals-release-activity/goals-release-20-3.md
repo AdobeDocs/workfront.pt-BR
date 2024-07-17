@@ -42,4 +42,4 @@ Com as Metas do Workfront, você pode definir e gerenciar metas perfeitamente em
 * Qual é o progresso dos meus KPIs em relação às minhas metas?
 * Qual trabalho está em risco, atrasado ou no caminho certo para atingir minhas metas?
 
-Para obter mais informações sobre o Workfront Goals, consulte [Visão geral dos objetivos do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+Para obter mais informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).

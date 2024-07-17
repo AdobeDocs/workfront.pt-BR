@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 2 2017.2
-description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
+title: Atividade da versão 2017.2 do Beta 2
+description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,52 +14,52 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 2 2017.2
+# Atividade da versão 2017.2 do Beta 2
 
-Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
+Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
 
 >[!IMPORTANT]
 >
 >A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2017.2, consulte [Visão geral da atividade da versão 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2017.2, consulte a [visão geral da atividade da versão 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-A versão 2017.2 Beta 2 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2017.2 do Beta 2 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores:**
+**Para Administradores:**
 
 * [Aprimoramento de API: assinaturas de evento](#api-enhancement-event-subscriptions)
 
 **Para Todos Os Usuários:**
 
-* [Inscrever-se em projetos](#subscribe-to-projects)
-* [Cancelar inscrição nos itens do email](#unsubscribe-from-items-from-email)
+* [Assinar Projetos](#subscribe-to-projects)
+* [Cancelar Assinatura de Itens de Email](#unsubscribe-from-items-from-email)
 * [Configure como os marcos são exibidos no Gráfico de Gantt](#configure-how-milestones-are-displayed-on-the-gantt-chart)
 * [Modelos de Conjuntos de Recursos](#resource-pools-templates)
-* [Exibir versões de documentos revisados no Workfront](#view-versions-of-proofed-documents-within-workfront)
+* [Exibir Versões de Documentos Comprovados no Workfront](#view-versions-of-proofed-documents-within-workfront)
 * [Novo objeto solicitante no relatório de aprovação de prova](#new-requester-object-in-proof-approval-report)
 
 ## Aprimoramento de API: assinaturas de evento {#api-enhancement-event-subscriptions}
 
 Quando ocorre uma ação em um objeto do Workfront que é compatível com assinaturas de evento, agora é possível configurar o Workfront para enviar uma resposta para o endpoint desejado. Ou seja, suas integrações podem interagir com a API do Workfront em tempo real.
 
-Para obter mais informações, consulte [API de assinatura de evento](../../../../wf-api/general/event-subs-api.md). 
+Para obter mais informações, consulte [API de Assinatura de Evento](../../../../wf-api/general/event-subs-api.md). 
 
 ## Inscrever-se em projetos {#subscribe-to-projects}
 
 Agora é possível assinar novos comentários em projetos para os quais você não faz parte da equipe do projeto. Antes desta versão, você só podia assinar comentários sobre problemas e tarefas.
 
-Para obter mais informações sobre a assinatura de itens, consulte [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+Para obter mais informações sobre como assinar itens, consulte [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Cancelar inscrição nos itens do email {#unsubscribe-from-items-from-email}
 
 Você pode cancelar a inscrição de itens usando o link &quot;Cancelar inscrição&quot; no email de inscrição. Anteriormente, só era possível cancelar a assinatura de um item na interface do Workfront.
 
-Para obter mais informações sobre o cancelamento de inscrição nos emails de inscrição, consulte a seção &quot;Recusa de notificação por email&quot; no [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) 
+Para obter mais informações sobre o cancelamento de inscrição nos emails de inscrição, consulte a seção &quot;Recusa de notificação por email&quot; em [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) 
 
 ## Configure como os marcos são exibidos no Gráfico de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORREÇÃO **: esse recurso não está no ambiente Visualização da sandbox no momento. Seu lançamento está previsto para uma data posterior, no mês de junho de 2017.*
+***CORREÇÃO **: este recurso não está atualmente no ambiente de Pré-visualização de Sandbox. Seu lançamento está planejado para uma data posterior, durante o mês de junho de 2017.*
 
 Agora há duas opções para exibir informações de etapas em um gráfico de Gantt. Você pode configurar um ou ambos os indicadores de marcos a seguir:
 
@@ -79,7 +79,7 @@ Para obter mais informações sobre como configurar as informações exibidas no
 
 Agora você pode especificar Conjuntos de recursos para modelos. Antes desta versão, você poderia associar Conjuntos de recursos somente a usuários e projetos.
 
-Para obter mais informações sobre Conjuntos de recursos, consulte [Visão geral dos conjuntos de recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Para obter mais informações sobre Conjuntos de Recursos, consulte [Visão geral sobre conjuntos de recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## Exibir versões de documentos revisados no Workfront {#view-versions-of-proofed-documents-within-workfront}
 
@@ -96,7 +96,7 @@ Os usuários com uma licença de prova podem executar um dos seguintes procedime
 * Abrir uma prova em uma versão anterior de um documento comprovado
 * Exibir os detalhes da prova em uma versão anterior de um documento comprovado
 
-Para obter mais informações, consulte [Gerenciar versões do documento](../../../../documents/managing-documents/manage-document-versions.md) in [Gerenciar versões do documento](../../../../documents/managing-documents/manage-document-versions.md).
+Para obter mais informações, consulte [Gerenciar versões de documentos](../../../../documents/managing-documents/manage-document-versions.md) em [Gerenciar versões de documentos](../../../../documents/managing-documents/manage-document-versions.md).
 
 ## Novo objeto solicitante no relatório de aprovação de prova {#new-requester-object-in-proof-approval-report}
 
@@ -110,4 +110,4 @@ O novo objeto Solicitante no relatório Aprovação de prova contém todos os ca
 
 Você acessa o objeto Solicitante ao criar um relatório Aprovação de prova, conforme descrito em [Criar um relatório personalizado](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Para obter mais informações sobre o relatório de objeto Aprovações de provas, consulte a [Entender objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) seção em [Entender objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obter mais informações sobre o relatório do objeto Aprovações de Provas, consulte a seção [Entender os objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) em [Entender os objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

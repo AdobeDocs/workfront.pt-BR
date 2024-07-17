@@ -23,8 +23,8 @@ Se você executar um relatório com os direitos de acesso de outro usuário com 
 
 >[!TIP]
 >
->Você deve substituir o **Executar este relatório com direitos de acesso de:** campo com um usuário ativo somente quando quiser que o relatório seja exibido com os direitos de acesso desse usuário. Por exemplo, um usuário de licença de trabalho pode não ter permissões para ver todos os itens em um relatório criado por um usuário de licença de plano ou um Administrador do sistema, a menos que o relatório seja exibido com os direitos de acesso de um Planejador ou Administrador do sistema.\
-Se o relatório for compartilhado com usuários com acesso semelhante ao usuário especificado na variável **Executar este relatório com direitos de acesso de:** você pode deixar esse campo em branco.
+>Você deve substituir o campo **Executar este relatório com os Direitos de Acesso de:** por um usuário ativo somente quando quiser que o relatório seja exibido com os direitos de acesso desse usuário. Por exemplo, um usuário de licença de trabalho pode não ter permissões para ver todos os itens em um relatório criado por um usuário de licença de plano ou um Administrador do sistema, a menos que o relatório seja exibido com os direitos de acesso de um Planejador ou Administrador do sistema.\
+>Se o relatório for compartilhado com usuários com acesso semelhante ao usuário especificado no campo **Executar este relatório com os Direitos de Acesso de:**, você poderá deixar este campo em branco.
 
 ## Requisitos de acesso
 
@@ -48,44 +48,44 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para um relatório (para visualizar o relatório entregue)</p> <p>Gerenciar permissões de um relatório (para executar o relatório)</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para um relatório (para visualizar o relatório entregue)</p> <p>Gerenciar permissões de um relatório (para executar o relatório)</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exibir um relatório com os direitos de acesso de outro usuário
 
-Preencher o **Executar este relatório com direitos de acesso de:** garante que um relatório contenha os mesmos dados, independentemente de qual usuário está acessando o relatório. O relatório é exibido como seria para o usuário especificado.
+Preencher o campo **Executar este Relatório com os Direitos de Acesso de:** garante que um relatório contenha os mesmos dados, independentemente de qual usuário está acessando o relatório. O relatório é exibido como seria para o usuário especificado.
 
-Os usuários que acessam o relatório devem ter pelo menos permissões de Exibição no relatório para poderem visualizá-lo. Se o usuário listado na variável **Executar este relatório com direitos de acesso de:** for desativado, o relatório não será mais exibido para outros usuários com os quais o relatório for compartilhado.
+Os usuários que acessam o relatório devem ter pelo menos permissões de Exibição no relatório para poderem visualizá-lo. Se o usuário listado no campo **Executar este Relatório com os Direitos de Acesso de:** estiver desativado, o relatório não será mais exibido para nenhum outro usuário com quem o relatório esteja compartilhado.
 
 Para executar um relatório com os direitos de acesso de outro usuário:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Workfront e clique em **Relatórios**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Relatórios**.
 
 1. Selecione o relatório que deseja exibir com os direitos de acesso de outro usuário.
-1. Clique em **Ações de Relatório** e, em seguida, clique em **Editar**.
+1. Clique em **Ações de Relatório** e em **Editar**.
 
 1. Clique em **Configurações do relatório**.
 
-1. No **Executar este relatório com direitos de acesso de:** comece digitando o nome do usuário como o qual deseja que o relatório seja exibido e, em seguida, selecione-o ao visualizá-lo na lista.\
+1. No campo **Executar este relatório com os Direitos de Acesso de:**, comece digitando o nome do usuário com o qual deseja que o relatório seja exibido e, em seguida, selecione-o quando o vir na lista.\
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
    >
-   Os usuários com um nível de acesso mais baixo que têm permissão para criar relatórios não podem selecionar um usuário diferente de si mesmos para a **Executar este relatório com direitos de acesso de:** campo.
+   >Os usuários com um nível de acesso mais baixo que têm permissão para criar relatórios não podem selecionar um usuário diferente de si mesmos para o campo **Executar este Relatório com os Direitos de Acesso de:**.
 
 1. Clique em **Concluído**.
 1. Clique em **Salvar + Fechar**.\
-   O relatório agora é exibido para todos os usuários com quem o relatório é compartilhado como se tivesse sido visualizado pelo usuário especificado na **Executar este relatório com direitos de acesso de:** campo.
+   O relatório agora é exibido para todos os usuários com os quais o relatório é compartilhado como se fosse visualizado pelo usuário especificado no campo **Executar este relatório com os Direitos de Acesso de:**.
 
 >[!IMPORTANT]
 >
-Inserir um usuário diferente do usuário conectado para o **Executar este relatório com direitos de acesso de:** O campo impacta as informações exibidas no relatório se ele contiver um filtro que use um curinga como referência para o usuário conectado. O relatório é exibido de acordo com o valor especificado na variável **Executar este relatório com direitos de acesso de:** em vez do definido no filtro curinga.
+>Inserir um usuário diferente do usuário conectado para o campo **Executar este relatório com Direitos de Acesso de:** afetará as informações exibidas no relatório se ele contiver um filtro que use um curinga para fazer referência ao usuário conectado. O relatório é exibido de acordo com o valor especificado no **Executar este relatório com o campo Direitos de Acesso de:** em vez do definido no filtro curinga.
 >
-Para obter mais informações sobre curingas para campos de usuário, consulte a seção &quot;Variáveis baseadas em usuário&quot; em [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>Para obter mais informações sobre curingas para campos de usuário, consulte a seção &quot;Variáveis baseadas em usuário&quot; na [Visão geral das variáveis de filtro de curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Entregar um relatório com os direitos de acesso de outro usuário
 
@@ -93,21 +93,21 @@ Você pode configurar relatórios para serem entregues como anexo a um email. Vo
 
 Para fornecer um relatório com os direitos de acesso de outro usuário:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Workfront e clique em **Relatórios**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Relatórios**.
 
 1. Selecione o relatório que deseja entregar com os direitos de acesso de outro usuário.
 1. Clique no nome do relatório para selecioná-lo.
 1. Clique em **Ações de Relatório**.
-1. Clique em **Enviar relatório**.
+1. Clique em **Enviar Relatório**.
 
-1. No **Enviar este relatório com direitos de acesso de:** comece digitando o nome do usuário que deseja que o relatório exiba como quando é entregue em um email e, em seguida, selecione-o quando o vir na lista. O padrão é o nome do usuário que está criando o relatório.\
+1. No campo **Entregar este relatório com os Direitos de Acesso de:**, comece digitando o nome do usuário que você deseja que o relatório exiba como quando for entregue em um email, em seguida, selecione-o quando o vir na lista. O padrão é o nome do usuário que está criando o relatório.\
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
    >
-   Os usuários com um nível de acesso mais baixo que têm permissão para criar relatórios não podem selecionar um usuário diferente de si mesmos para a **Enviar este relatório com direitos de acesso de:** campo.
+   >Os usuários com um nível de acesso mais baixo que têm permissão para criar relatórios não podem selecionar um usuário diferente de si mesmos para o **Entregar este relatório com os direitos de acesso do campo:**.
 
-1. Selecione o **Formato** deseja que o relatório seja exibido no email:
+1. Selecione o **Formato** que deseja que o relatório exiba no email:
 
    * HTML
    * PDF
@@ -115,24 +115,24 @@ Para fornecer um relatório com os direitos de acesso de outro usuário:
    * MS Excel (.xlsx)
    * TSV
 
-1. Clique em **Enviar agora** para enviá-lo imediatamente.\
+1. Clique em **Enviar Agora** para enviá-lo imediatamente.\
    Ou\
-   Clique em **Criar Entrega repetitiva** para agendar uma entrega recorrente para o relatório.\
-   Para obter mais informações sobre deliveries de relatórios, consulte o artigo [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+   Clique em **Fazer Entrega Repetida** para agendar uma entrega recorrente para o relatório.\
+   Para obter mais informações sobre entregas de relatórios, consulte o artigo [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Limitações para relatórios com uma coluna Origem
+## Limitações para relatórios com uma coluna Source
 
-Os relatórios a seguir exibem uma coluna Origem, na qual você pode exibir informações sobre o objeto pai:
+Os relatórios a seguir exibem uma coluna Source, na qual você pode exibir informações sobre o objeto pai:
 
 * Relatórios de problemas
 * Relatórios de horas
 * Relatórios de documentos
 
-Se os usuários não tiverem permissões para o objeto principal de um problema, hora ou documento, a coluna Origem do relatório será exibida vazia, mesmo quando o relatório estiver configurado para exibição ou para ser entregue com os direitos de acesso de outro usuário.
+Se os usuários não tiverem permissões para o objeto principal de um problema, hora ou documento, a coluna Source do relatório será exibida vazia, mesmo quando o relatório estiver configurado para exibição ou para ser entregue com os direitos de acesso de outro usuário.
 
 Para mostrar informações sobre o objeto pai no relatório, recomendamos adicionar uma coluna para o objeto pai, onde você pode exibir o nome do objeto pai.
 
-Por exemplo, você pode adicionar qualquer um dos itens a seguir a um relatório com uma coluna Origem:
+Por exemplo, você pode adicionar qualquer um dos itens a seguir a um relatório com uma coluna Source:
 
 * As colunas Nome do projeto, Nome da tarefa ou Nome do problema em um documento ou relatório de horas.
 * As colunas Nome do projeto ou Nome da tarefa para um relatório de problemas.
@@ -154,4 +154,4 @@ Por exemplo, você pode adicionar qualquer um dos itens a seguir a um relatório
 
   `valueformat=HTML`
 
-  Para obter informações sobre visualizações em modo de texto, consulte [Editar uma visualização usando o modo de texto](../text-mode/edit-text-mode-in-view.md).
+  Para obter informações sobre modos de exibição de texto, consulte [Editar um modo usando o modo de texto](../text-mode/edit-text-mode-in-view.md).

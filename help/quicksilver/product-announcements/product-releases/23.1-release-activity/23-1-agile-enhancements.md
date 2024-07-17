@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Agile feitas com a versão 23.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 16 de janeiro de 2023.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte a [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Planejamento de Scrum para painéis do Workfront
 
@@ -41,9 +41,9 @@ O mapeamento de datas também se aplica a itens de lista de verificação conect
 
 A data de vencimento em cartões conectados e cartões ad hoc agora também inclui um campo de tempo.
 
-Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Os itens da lista de verificação do painel e as subtarefas do Workfront agora estão vinculados
 
@@ -55,9 +55,9 @@ Quando você adiciona um cartão conectado a um quadro para uma tarefa do Workfr
 
 Anteriormente, os itens da lista de verificação e as subtarefas não eram vinculados. Se quiser incluir uma subtarefa no quadro, você pode importá-la como um cartão conectado separado ou adicionar manualmente um item de lista de verificação a um cartão.
 
-Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gerenciar itens da lista de verificação em cartões](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gerenciar itens da lista de verificação em cartões](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Contador de cartões em colunas a bordo
 
@@ -87,7 +87,7 @@ Para obter mais informações, consulte [Usar o painel de painéis](/help/quicks
 
 Se um cartão em um quadro receber um status, o status agora é exibido no cartão para que você não precise abrir o cartão para ver o status. Esse aprimoramento se aplica a placas ad hoc e conectadas.
 
-Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 ![status no cartão](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
@@ -109,7 +109,7 @@ Você pode copiar o URL completo e enviá-lo para outra pessoa. Eles irão diret
 
 Anteriormente, os links estavam disponíveis para placas, mas não para placas específicas.
 
-Para obter informações sobre cartões, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obter informações sobre cartões, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filtrar por conexão em quadros
 
@@ -121,7 +121,7 @@ A lista de filtros em um quadro agora inclui a opção de filtrar por conexão, 
 
 Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Arquivar cartões de um quadro em uma programação
 
@@ -133,6 +133,6 @@ Você pode configurar uma placa para que as placas sejam arquivadas, ou &quot;ca
 
 Se quiser exibir os cartões novamente depois que eles caírem do quadro, você pode definir o filtro de quadro para exibir cartões arquivados.
 
-Para obter mais informações, consulte [Configurar queda de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Para obter mais informações, consulte [Configurar fallout do cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412323/){target=_blank}

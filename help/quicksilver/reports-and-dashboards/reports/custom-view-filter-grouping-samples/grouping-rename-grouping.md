@@ -20,7 +20,7 @@ ht-degree: 0%
 
 É possível renomear agrupamentos para algo mais familiar aos usuários.
 
-Por exemplo, quando você aplica o agrupamento de Nome de Portfolio padrão a uma lista de projetos, o nome do agrupamento aparece como *Portfolio: Nome:`<name of portfolio>`*.
+Por exemplo, ao aplicar o agrupamento padrão de Nome de Portfolio a uma lista de projetos, o nome do agrupamento aparece como *Portfolio: Nome:`<name of portfolio>`*.
 
 ![](assets/grouping-unedited-name-350x167.png)
 
@@ -62,26 +62,26 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Editar o nome de exibição em um agrupamento
 
 Para alterar o nome de exibição em um agrupamento de projeto:
 
 1. Ir para uma lista de projetos.
-1. No **Agrupamento** selecione **Novo Agrupamento**.
+1. No menu suspenso **Agrupamento**, selecione **Novo agrupamento**.
 
-1. Clique em **Adicionar Agrupamento** e comece digitando &quot;Portfolio Name&quot; no campo **Primeiro por:** e selecione-o quando ele for exibido na lista.
+1. Clique em **Adicionar agrupamento** e comece a digitar &quot;Nome do Portfolio&quot; no campo **Primeiro por:**, depois selecione-o quando ele for exibido na lista.
 
-1. Clique em **Alternar para modo de texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Siga um destes procedimentos:
 
-   * Adicione o seguinte código ao texto existente disponível na **Agrupar seu relatório** caixa:
+   * Adicione o seguinte código ao texto existente disponível na caixa **Agrupar seu relatório**:
 
 
      `group.0.displayname=Your Value`
@@ -101,11 +101,11 @@ Para alterar o nome de exibição em um agrupamento de projeto:
 
      >[!TIP]
      >
-     >Você também pode deixar a variável `group.0.name=` e a variável `group.0.displayname=` linhas em branco, nesse caso, o agrupamento mostra o valor pelo qual você está agrupando.
+     >Você também pode deixar as linhas `group.0.name=` e `group.0.displayname=` em branco, nesse caso, o agrupamento mostra o valor pelo qual você está sendo agrupado.
 
 
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
-1. Clique em **Concluído**, depois **Salvar Agrupamento**.
+1. Clique em **Concluído** e em **Salvar agrupamento**.
 
    O nome padrão do agrupamento é modificado de acordo com as informações do modo de texto.

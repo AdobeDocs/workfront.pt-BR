@@ -75,23 +75,23 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Habilitar o processo de lançamento rápido</p> </td> 
-      <td>Permite ativar versões mensais do Workfront para sua organização em vez de versões trimestrais.</p><p>Para obter mais informações sobre o processo de lançamento rápido, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Habilitar ou desabilitar versões rápidas para sua organização</a>.</p></td> 
+      <td>Permite ativar versões mensais do Workfront para sua organização em vez de versões trimestrais.</p><p>Para obter mais informações sobre o processo de lançamento rápido, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Habilitar ou desabilitar lançamentos rápidos para sua organização</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Permitir a incorporação do Workfront em um iframe</p> </td> 
-      <td>Permite incorporar o Workfront em um iframe.<p>Essa opção está desabilitada por padrão.</p><p><b>IMPORTANTE</b>: a exibição de um aplicativo baseado na Web em um iframe torna o aplicativo susceptível a uma vulnerabilidade de segurança de clickjacking.</p></td> 
+      <td>Permite incorporar o Workfront em um iframe.<p>Essa opção está desabilitada por padrão.</p><p><b>IMPORTANTE</b>: exibir um aplicativo baseado na Web em um iframe torna o aplicativo susceptível a uma vulnerabilidade de segurança de clickjacking.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir autenticação SAML 2.0 nos suplementos do Office 365</td> 
-      <td> <p>Permite incorporar o Workfront em um iframe somente para suplementos do Office 365 quando o Workfront é integrado a uma solução de logon único SAML 2.0. </p> <p>Essa opção está ativada por padrão.</p> <p><b>NOTA</b>: Se você ativar a opção acima, <strong>Permitir a incorporação do Workfront em um iframe</strong>, a opção <strong>Permitir autenticação SAML 2.0 em suplementos do Office 365</strong> está ativado e esmaecido.</p> </td> 
+      <td> <p>Permite incorporar o Workfront em um iframe somente para suplementos do Office 365 quando o Workfront é integrado a uma solução de logon único SAML 2.0. </p> <p>Essa opção está ativada por padrão.</p> <p><b>OBSERVAÇÃO</b>: se você habilitar a opção acima <strong>Permitir incorporação do Workfront em um iframe</strong>, a opção <strong>Permitir autenticação SAML 2.0 nos suplementos do Office 365</strong> será habilitada e esmaecida.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ativar o uso de informações da sessão ao criar URLs de páginas externas</td> 
-      <td> <p>Permite que os usuários usem as informações de ID da sessão de um site ao adicionar uma Página externa a um Painel.</p> <p>Essa opção não é segura e está desativada por padrão. Em vez disso, é recomendável usar o OAuth para integrações.</p> <p>Para obter mais informações sobre como adicionar Páginas Externas a um Painel, consulte <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporar uma página externa da Web em um painel</a>.</p> </td> 
+      <td> <p>Permite que os usuários usem as informações de ID da sessão de um site ao adicionar uma Página externa a um Painel.</p> <p>Essa opção não é segura e está desativada por padrão. Em vez disso, é recomendável usar o OAuth para integrações.</p> <p>Para obter mais informações sobre como adicionar Páginas Externas a um Painel, consulte <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporar uma página da Web externa a um painel</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir que as pessoas usem os aplicativos móveis da Workfront e o suplemento para o Workfront Outlook</td> 
-      <td> <p>Permite que os usuários acessem os aplicativos móveis (Workfront View para iPad e aplicativos de celular) e o aplicativo Workfront Outlook.</p> <p>Essa opção está ativada por padrão. </p> <p>Para obter informações sobre o Workfront View, consulte <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Usar visualização do Adobe Workfront</a>. Para obter mais informações sobre os aplicativos móveis, consulte <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Usar o aplicativo móvel do Adobe Workfront: índice do artigo</a>.</p> <p>Para obter mais informações sobre o plug-in do Outlook, consulte <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Configurar o Adobe Workfront para Outlook</a>.</p> </td> 
+      <td> <p>Permite que os usuários acessem os aplicativos móveis (Workfront View para iPad e aplicativos de celular) e o aplicativo Workfront Outlook.</p> <p>Essa opção está ativada por padrão. </p> <p>Para obter informações sobre o Modo de Exibição Workfront, consulte <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Usar o Modo de Exibição Adobe Workfront</a>. Para obter mais informações sobre os aplicativos móveis, consulte <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Usar o aplicativo móvel do Adobe Workfront: índice do artigo</a>.</p> <p>Para obter mais informações sobre o plug-in do Outlook, consulte <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Configurar Adobe Workfront para Outlook</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Colaborar com pessoas sem contas do Workfront usando endereços de email</p> </td> 
@@ -101,7 +101,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
         <li>Solicitação de documento<br></li>
         <li>Aprovação de documento</li>
         <li>Calendário</li>
-       </ul><p>Essa opção está ativada por padrão.</p> <p><b>Importante</b>: o nível de acesso Usuário externo não estará disponível na instância do Workfront se essa opção estiver desativada. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Níveis de acesso incorporados</a>.</p> </td> 
+       </ul><p>Essa opção está ativada por padrão.</p> <p><b>Importante</b>: o nível de acesso Usuário Externo não estará disponível na sua instância do Workfront se esta opção estiver desabilitada. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Níveis de acesso predefinidos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exigir que usuários externos se registrem com uma senha</td> 
@@ -117,15 +117,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">URL de Ajuda</td> 
-      <td>Permite definir um site de ajuda personalizado interno para o ícone de ajuda do Menu principal ir para. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configurar um URL de ajuda personalizado</a>.</p></td> 
+      <td>Permite definir um site de ajuda personalizado interno para o ícone de ajuda do Menu principal ir para. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configurar uma URL de ajuda personalizada</a>.</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Os usuários no sistema assumirão como padrão a Nova experiência na Página inicial </td> 
-      <td>Permite especificar se os usuários verão a Nova experiência inicial por padrão. Quando habilitado, os usuários verão a Nova experiência inicial por padrão, mas ainda poderão optar por habilitar ou desabilitar a Nova página inicial individualmente. Quando desativados, os usuários não verão o banner que permite alternar para a Nova página inicial. No entanto, eles ainda podem navegar até a Nova página inicial digitando manualmente <code>/home/workspaces</code> no final do URL da instância. Essa configuração é ativada por padrão.</td> 
+      <td>Permite especificar se os usuários verão a Nova experiência inicial por padrão. Quando habilitado, os usuários verão a Nova experiência inicial por padrão, mas ainda poderão optar por habilitar ou desabilitar a Nova página inicial individualmente. Quando desabilitados, os usuários não verão o banner que permite a eles alternarem para a Nova Página Inicial. No entanto, eles ainda poderão navegar para a Nova Página Inicial digitando manualmente <code>/home/workspaces</code> no final da URL da instância. Essa configuração é ativada por padrão.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambientes de Teste</td> 
-      <td>Permite acessar os ambientes de teste do Workfront. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">O ambiente de sandbox de visualização do Adobe Workfront</a>.</p></td> 
+      <td>Permite acessar os ambientes de teste do Workfront. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">O Ambiente de Sandbox de Visualização do Adobe Workfront</a>.</p></td> 
     </tbody> 
    </table>
 

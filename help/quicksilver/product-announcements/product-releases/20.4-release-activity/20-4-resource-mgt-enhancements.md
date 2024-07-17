@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 20.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 9 de novembro de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 20.4, consulte [Visão geral da versão 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 20.4, consulte a [visão geral da versão 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Planeje o trabalho usando o esforço do trabalho em vez das horas planejadas
 
@@ -30,15 +30,15 @@ As seguintes melhorias estão disponíveis com este novo recurso:
 * Desabilite esta configuração usando um Modelo de layout para usuários que preferem continuar usando as Horas planejadas.
 * Exibir o valor deste novo campo em uma lista de tarefas ou relatório.
 
-Para obter informações sobre Esforço de trabalho, consulte [Visão geral do esforço de trabalho](../../../manage-work/tasks/task-information/work-effort.md).
+Para obter informações sobre Esforço de trabalho, consulte [Visão geral do Esforço de trabalho](../../../manage-work/tasks/task-information/work-effort.md).
 
-Esse recurso agora está incluído na [Fundamentos do planejador, Parte 2 caminho de aprendizado](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) no Workfront One.
+Este recurso agora está incluído no [Fundamentos do planejador, Parte 2 do caminho de aprendizado](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) no Workfront One.
 
 ## Cores baseadas no status do projeto para itens de trabalho no Balanceador de carga de trabalho
 
 Para melhor visibilidade e maior personalização de sua experiência no Balanceador de carga de trabalho, agora é possível alterar as cores dos projetos e seus itens de trabalho para corresponder ao status dos projetos. As cores correspondem aos status de projeto de nível de grupo ou de sistema. As cores exibidas podem corresponder aos status do sistema e do projeto personalizado.
 
-Para obter informações sobre como personalizar a visualização no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter informações sobre como personalizar a exibição no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Ajustar a alocação de usuários usando valores percentuais no Balanceador de carga de trabalho
 
@@ -68,13 +68,13 @@ Para garantir uma experiência simplificada e amigável ao gerenciar os recursos
 * Você pode acessar os recursos de atribuição com um atalho de teclado. Anteriormente, isso estava disponível somente no menu Mais.
 * Você pode carregar todos os itens restantes com o nome de um usuário em vez de apenas os 20 itens a seguir clicando em Carregar mais.
 
-Para obter mais informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter mais informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Gráfico de alocação de usuários no Balanceador de carga de trabalho
 
 Para permitir que você tenha uma representação visual de alto nível da alocação de usuários em um determinado período, uma nova configuração agora permite uma visualização de gráfico de como as alocações são exibidas no Balanceador de carga de trabalho. Ativar essa configuração exibe a alocação dos usuários em um gráfico de linhas que indica as superalocações em blocos vermelhos e as subalocações em azul.
 
-Para obter mais informações sobre as configurações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter mais informações sobre como definir configurações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Visualizar trabalho concluído no Balanceador de carga de trabalho
 
@@ -96,11 +96,11 @@ Adicionamos uma nova configuração que permite alternar entre Horas e Porcentag
 
 Essa melhoria elimina cliques e torna a navegação no Balanceador de carga de trabalho mais fácil e eficiente.
 
-Para obter informações sobre o gerenciamento de configurações para o Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter informações sobre como gerenciar configurações para o Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Um novo filtro integrado para o Balanceador de carga de trabalho: Usuários em projetos
 
 Para tornar sua experiência de filtragem no Balanceador de carga de trabalho mais eficiente, adicionamos um novo filtro incorporado na área Trabalho atribuído. Agora é possível aplicar o filtro Usuários em projetos, que exibe os usuários atribuídos a tarefas e problemas nos projetos especificados.
 
-Para obter informações sobre como usar filtros no Balanceador de carga de trabalho, consulte [Filtrar informações no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Para obter informações sobre como usar filtros no Balanceador de carga de trabalho, consulte [Informações de filtro no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 

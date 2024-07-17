@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 42%
+source-wordcount: '487'
+ht-degree: 39%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 42%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ADICIONAR |
 |   |   |   |   |   |   | CONTAGEM  |
-|   |   |   |   |   |   | EXCLUIR  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | EDITAR  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RELATÓRIO  |
@@ -54,7 +54,7 @@ ht-degree: 42%
 | ID |   |   |   |   |   | CONTAGEM |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RELATÓRIO  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | PESQUISAR  |
 
 {style="table-layout:auto"}
 
@@ -64,11 +64,11 @@ ht-degree: 42%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ADICIONAR |
 |   |   |   |   |   |   | CONTAGEM |
-|   |   |   |   |   |   | EXCLUIR  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | EDITAR  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RELATÓRIO  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | PESQUISAR  |
 
 {style="table-layout:auto"}
 
@@ -150,11 +150,11 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| name `<sup>1</sup>` |   |   |   |   |   |   |
+| nome `<sup>1</sup>` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -191,7 +191,7 @@ VersãoDocumento
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em possibleValues
 
 Despesa
 
@@ -218,7 +218,7 @@ Despesa
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em possibleValues
 
 ### OpTask
 
@@ -274,7 +274,7 @@ Despesa
 
 {style="table-layout:auto"}
 
-<sup>1</sup>adicionada a MOEDA do validador
+<sup>1</sup>MOEDA do validador adicionada
 
 ### Tarefa
 
@@ -296,7 +296,7 @@ Despesa
 
 {style="table-layout:auto"}
 
-<sup>1</sup> validador adicionado LESS_THAN
+<sup>1</sup> adicionou um validador LESS_THAN
 
 ### Atribuição da equipe
 
@@ -370,7 +370,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | ADICIONAR  |
 | budgetedHours |   |   |   |   |   | CONTAGEM  |
-| ID |   |   |   |   |   | EXCLUIR  |
+| ID |   |   |   |   |   | DELETE  |
 | plannedBudgetedHours |   |   |   |   |   | EDITAR  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | RELATÓRIO  |

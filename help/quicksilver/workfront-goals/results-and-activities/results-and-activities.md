@@ -39,9 +39,9 @@ Para registrar o progresso nas Metas do Workfront, você deve associar indicador
 
 Esta seção contém os seguintes artigos:
 
-* [Introdução aos resultados e atividades nos Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Introdução a resultados e atividades nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
 * [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Adicionar resultados às metas nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Adicionar projetos às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
-* [Editar resultados e atividades no Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Editar resultados e atividades nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 * [Remover resultados, atividades e projetos das metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

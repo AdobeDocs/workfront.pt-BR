@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Se o conteúdo de prova não estiver carregando e você só puder ver um visualizador de prova vazio, é provável que algo esteja bloqueando essa ação localmente. Tente as soluções possíveis abaixo.
 
-## Verifique se o navegador <!--and [!DNL Flash Player]--> A versão do está atualizada
+## Verifique se a versão <!--and [!DNL Flash Player]--> do seu navegador está atualizada
 
 Todos os desenvolvedores trabalham constantemente em seus aplicativos e lançam regularmente novos recursos e correções para seus produtos. Isso é para melhorar a experiência do usuário e manter o nível de segurança, de modo que seja a prática recomendada usar apenas as versões mais recentes. Isso também ajuda a evitar conflitos entre os aplicativos.
 
@@ -45,11 +45,11 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 Normalmente, a maioria dos navegadores é atualizada automaticamente, mas se tiver problemas, vale a pena verificar qual versão você está usando e executar uma atualização, se necessário.
 
-No navegador, acesse [!UICONTROL Menu] e localize o [!UICONTROL Sobre] opção (em alguns casos, isso pode ser visível em uma [!UICONTROL Ajuda] menu ). No [!UICONTROL Sobre] você encontrará informações sobre a versão atual do navegador e também uma opção para atualizar/verificar se há atualizações.
+No seu navegador, vá para [!UICONTROL Menu] e localize a opção [!UICONTROL Sobre] (em alguns casos, isso pode estar visível em um menu de [!UICONTROL Ajuda]). Na janela pop-up [!UICONTROL Sobre], você encontrará informações sobre a versão atual do navegador e também uma opção para atualizar/verificar se há atualizações.
 
 Por exemplo, no Chrome:
 
-![Versão do navegador Chrome](assets/proofview-3.png)
+![Versão do navegador do Chrome](assets/proofview-3.png)
 
 Depois que tiver a versão mais recente do navegador instalada, tente reabrir a prova e veja se o problema foi resolvido.
 
@@ -70,21 +70,21 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 * Não temos nenhum navegador preferido, mas se você tiver algum problema de desempenho em seu navegador atual, recomendamos mudar para um diferente.
 * As provas são abertas em uma máquina diferente em sua localidade?
 Se a prova não estiver sendo aberta em nenhum navegador do computador, tente abri-la em outro computador no local e/ou fora do local. Isso permitirá determinar se há um problema em seu computador específico ou se o problema está em sua rede local.
-Se o seu nível de segurança for superior, suas conexões com [!DNL Workfront Proof] pode ser bloqueado por:
+Se o nível de segurança for superior, as conexões com [!DNL Workfront Proof] poderão ser bloqueadas por:
 
    * Seu software AV local
    * Sua solução de segurança de rede
    * Configuração de DNS, firewall ou proxy
-   * Essas são as configurações que estão além de nosso controle. Há várias soluções de segurança disponíveis e não podemos saber quais estão implementadas em sua rede e quais podem estar bloqueando as conexões com o [!DNL Workfront Proof]. Também não cabe à [!DNL Workfront Proof] para decidir sobre a configuração de segurança interna. Se tiver problemas ao abrir as provas em vários computadores no seu local/rede, recomendamos que entre em contato com a sua equipe de TI para que ela possa verificar as configurações de rede e autorizar ou adicionar o [!DNL Workfront Proof] para o incluo na lista de permissões ➡, se necessário.
+   * Essas são as configurações que estão além de nosso controle. Há várias soluções de segurança disponíveis e não podemos saber quais estão implementadas em sua rede e quais podem estar bloqueando conexões com o [!DNL Workfront Proof]. Também não cabe a [!DNL Workfront Proof] decidir a configuração de segurança interna. Se você estiver com problemas para abrir as provas em vários computadores em seu local/rede, recomendamos que você entre em contato com a equipe de TI para que ela possa verificar as configurações da rede e autorizar ou adicionar o [!DNL Workfront Proof] ao incluo na lista de permissões de pesquisa, se necessário.
 
-* As conexões com o [!DNL Workfront Proof] permitido em sua rede?
-Dentro do Visualizador de prova, carregamos os blocos - fragmentos das páginas. Se esse conteúdo não for carregado corretamente no seu lado, pode ser que algumas conexões com [!DNL Workfront Proof] estão bloqueados na rede. Verifique se todas as conexões e todo o conteúdo de *.proofhq.com foram adicionados ao arquivo de inclui na lista de permissões. Sua equipe de TI deve poder ajudar na verificação.
+* As conexões com [!DNL Workfront Proof] são permitidas em sua rede?
+Dentro do Visualizador de prova, carregamos os blocos - fragmentos das páginas. Se esse conteúdo não for carregado corretamente no seu lado, pode ser que algumas conexões com [!DNL Workfront Proof] estejam bloqueadas na sua rede. Verifique se todas as conexões e todo o conteúdo de *.proofhq.com foram adicionados ao arquivo de inclui na lista de permissões. Sua equipe de TI deve poder ajudar na verificação.
 
 ## Revisar plug-ins
 
-Se o navegador estiver atualizado e a rede não estiver bloqueando as conexões com o [!DNL Workfront Proof], pode haver algo em seu navegador que esteja afetando a visualização das provas. Geralmente, há vários plug-ins e extensões disponíveis no navegador e alguns deles podem interferir ou entrar em conflito com outros.
+Se seu navegador estiver atualizado e sua rede não estiver bloqueando as conexões com o [!DNL Workfront Proof], talvez haja algo em seu navegador que esteja afetando a exibição das provas. Geralmente, há vários plug-ins e extensões disponíveis no navegador e alguns deles podem interferir ou entrar em conflito com outros.
 
-A prática recomendada é remover todos os complementos desconhecidos e manter apenas aqueles que você usa e nos quais confia. Cada navegador deve fornecer opções para verificar/modificar/excluir os plug-ins e as extensões. Usamos o JavaScript para carregar o [!DNL Workfront Proof] visualizador, portanto você desejará analisar especialmente os plug-ins que podem afetá-lo.
+A prática recomendada é remover todos os complementos desconhecidos e manter apenas aqueles que você usa e nos quais confia. Cada navegador deve fornecer opções para verificar/modificar/excluir os plug-ins e as extensões. Usamos o JavaScript para carregar o visualizador [!DNL Workfront Proof] para que você queira revisar especialmente os plug-ins que podem afetar isso.
 
 Se houver algum complemento específico que interfira no carregamento das provas, você poderá tentar verificar os detalhes no console do navegador.
 
@@ -101,8 +101,8 @@ Se tiver problemas com a visualização das provas:
 
 ## Verificar configurações de conteúdo misto
 
-Todas as conexões com o [!DNL Workfront Proof] são sobre HTTPS. No entanto, no [!DNL Workfront Proof] Visualizador que carregamos os blocos por HTTP e os dados são protegidos com os tokens. Isso cria conteúdo misto que alguns dos navegadores ou soluções de segurança podem estar bloqueando (por padrão ou por configuração manual).
+Todas as conexões com [!DNL Workfront Proof] estão em HTTPS. No entanto, no Visualizador [!DNL Workfront Proof], carregamos os blocos por HTTP e os dados estão protegidos com os tokens. Isso cria conteúdo misto que alguns dos navegadores ou soluções de segurança podem estar bloqueando (por padrão ou por configuração manual).
 
-Se esse for o motivo pelo qual as provas não estão sendo abertas no computador (você deve conseguir ver os alertas relevantes no console do navegador), autorize essas conexões para [!DNL Workfront Proof] ou corrija suas configurações para permitir conteúdo misto passivo em sua máquina. O conteúdo misto pode ser bloqueado pelo navegador, pelo software antivírus ou pela configuração de rede para determinar a causa exata. Você deve entrar em contato com a equipe de TI/administradores de rede. Eles também devem poder ajudar com a ativação do conteúdo misto no seu computador.
+Se esse for o motivo pelo qual as provas não estão sendo abertas no computador (você deve ser capaz de ver os alertas relevantes no console do navegador), autorize essas conexões para [!DNL Workfront Proof] ou corrija suas configurações para permitir conteúdo misto passivo no computador. O conteúdo misto pode ser bloqueado pelo navegador, pelo software antivírus ou pela configuração de rede para determinar a causa exata. Você deve entrar em contato com a equipe de TI/administradores de rede. Eles também devem poder ajudar com a ativação do conteúdo misto no seu computador.
 
 

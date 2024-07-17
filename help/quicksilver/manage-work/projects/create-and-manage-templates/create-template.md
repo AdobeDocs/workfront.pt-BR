@@ -29,7 +29,7 @@ Você pode criar um novo modelo das seguintes maneiras:
 * Do zero, conforme descrito neste artigo.
 * Em projetos existentes, salvando um projeto como modelo.
 
-  Para obter mais informações sobre como criar modelos a partir de projetos existentes, consulte [Salvar um projeto como modelo](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  Para obter mais informações sobre como criar modelos a partir de projetos existentes, consulte [Salvar um projeto como um modelo](../../../manage-work/projects/manage-projects/save-project-as-template.md).
 
 * Copiando-o de outro modelo.
 
@@ -72,21 +72,21 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar um modelo
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Modelos**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Modelos**.
 
-1. Clique em **Novo modelo**.
+1. Clique em **Novo Modelo**.
 
    O modelo não tem título.
 
    ![Novo modelo](assets/create-template-nwe-2022-350x102.png)
 
-1. Especifique um nome para o novo modelo no cabeçalho do modelo e pressione **Digite.**
-1. Clique em **Modelos de Tarefa** no painel esquerdo.
-1. Clique em **Comece a Adicionar Tarefas de Modelo**.
+1. Especifique um nome para o novo modelo no cabeçalho do modelo e pressione **Enter.**
+1. Clique na seção **Tarefas de modelo** no painel esquerdo.
+1. Clique Em **Começar A Adicionar Tarefas De Modelo**.
 
    Ou
 
-   Clique em **Novo Modelo de Tarefa** para começar a adicionar tarefas ao seu modelo.
+   Clique em **Nova Tarefa de Modelo** para começar a adicionar tarefas ao seu modelo.
 
    Adicionar tarefas de modelo a um modelo é idêntico a adicionar tarefas a um projeto.
 
@@ -96,13 +96,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Não é possível adicionar tarefas recorrentes a um modelo.
 
-1. (Opcional) Clique no link **Gráfico de Gantt** no canto superior direito da Lista de Tarefas para ver uma representação visual da lista de tarefas do modelo.
+1. (Opcional) Clique no ícone do **Gráfico de Gantt** no canto superior direito da Lista de Tarefas para ver uma representação visual da lista de tarefas do modelo.
 
    >[!TIP]
    >
    >Não é possível editar tarefas diretamente neste Gráfico de Gantt.
 
-1. Para adicionar informações ao novo modelo, clique no link **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em **Editar**.
+1. Para adicionar informações ao novo modelo, clique no menu ![](assets/more-icon.png) de **Mais** e em **Editar**.
 
    Para obter informações sobre como editar um modelo, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
@@ -111,4 +111,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Configurações de modelo determinadas pela associação de grupo
 
-A associação de um modelo de projeto a um grupo (ou a falta de um grupo) afeta como as preferências do projeto, da tarefa e do problema determinam determinadas configurações no modelo. Para obter mais informações, consulte a seção [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) no artigo [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+A associação de um modelo de projeto a um grupo (ou a falta de um grupo) afeta como as preferências do projeto, da tarefa e do problema determinam determinadas configurações no modelo. Para obter mais informações, consulte a seção [Criar e modificar modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) no artigo [Criar e modificar modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).

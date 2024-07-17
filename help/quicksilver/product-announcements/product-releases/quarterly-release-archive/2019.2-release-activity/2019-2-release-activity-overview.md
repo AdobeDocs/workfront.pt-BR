@@ -16,15 +16,15 @@ ht-degree: 1%
 
 # Visão geral da atividade da versão 2019.2
 
-Esta página fornece informações sobre a funcionalidade incluída na versão 2019.2 do. Para baixar esse conteúdo no formato PDF, acesse [aqui](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Esta página fornece informações sobre a funcionalidade incluída na versão 2019.2 do. Para baixar este conteúdo no formato PDF, clique [aqui](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
 
 >[!NOTE]
 >
 >A versão 2019.2 foi disponibilizada no ambiente de Produção nas seguintes datas:
 >
->* *Ambiente de produção Workfront para clusters 2, 4 e 6 - 23 de maio*
->* *Ambiente de produção Workfront para clusters 1, 3 e 5 - 24 de maio*
->* *Ambiente de produção de prova do Workfront - 21 de maio*
+>* *Ambiente de produção do Workfront para os clusters 2, 4 e 6 - 23 de maio*
+>* *Ambiente de produção do Workfront para os clusters 1, 3 e 5 - 24 de maio*
+>* *Ambiente de produção do Workfront Proof - 21 de maio*
 
 A versão 2019.2 contém melhorias para administradores do sistema e outros usuários.
 
@@ -94,7 +94,7 @@ A versão 2019.2 contém melhorias para administradores do sistema e outros usu�
 
 ### Aprimoramentos de integração
 
-* [Atualização do Workfront para integração com o Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
+* [Workfront atualizado para Integração com o Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
 
   A extensão do Workfront para Adobe Creative Cloud agora inclui a integração com a Biblioteca da Workfront.
 
@@ -133,10 +133,10 @@ A versão 2019.2 contém melhorias para administradores do sistema e outros usu�
 
 ## Anúncios
 
-* [Biblioteca Workfront disponível agora](#workfront-library-now-available)
-* [A API versão 3 não é mais suportada](#api-version-3-no-longer-supported)
-* [O suporte TLS está terminando](#tls-support-is-ending)
-* [Remoção de aplicativo do Flash](#flash-application-removal)
+* [Biblioteca Workfront Disponível Agora](#workfront-library-now-available)
+* [Não há mais suporte para a versão 3 da API](#api-version-3-no-longer-supported)
+* [O Suporte do TLS Está Terminando](#tls-support-is-ending)
+* [Remoção de Aplicativo de Flash](#flash-application-removal)
 * [Várias Opções de Logon Único a Serem Removidas](#various-single-sign-on-options-to-be-removed)
 
 ### Biblioteca Workfront disponível agora {#workfront-library-now-available}
@@ -151,13 +151,13 @@ O suporte à API versão 3 terminou em novembro de 2018. Para obter mais informa
 
 Para fornecer segurança ideal, o Workfront exige que todas as integrações e o tráfego da Web que usam TLS 1.0 ou anterior sejam atualizados para usar TLS 1.1 ou posterior. Essa alteração já está em vigor no ambiente de Pré-visualização.
 
-Para obter mais informações, consulte [TLS 1.2 necessário no Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+Para obter mais informações, consulte [TLS 1.2 a ser necessário no Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
 ### Remoção de aplicativo do Flash {#flash-application-removal}
 
 Todas as funcionalidades que dependem da tecnologia Flash foram removidas do Workfront desde a versão 2018.3 e substituídas por uma nova solução.
 
-Para obter informações detalhadas sobre as ferramentas herdadas do Flash e suas substituições, consulte [Substituição de ferramentas baseadas em Flashes no Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Para obter informações detalhadas sobre as ferramentas herdadas do Flash e suas substituições, consulte [Substituição de ferramentas baseadas no Flash no Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Várias Opções de Logon Único a Serem Removidas {#various-single-sign-on-options-to-be-removed}
 
@@ -165,7 +165,7 @@ As seguintes opções de Logon único (SSO) agora são suportadas apenas em uma 
 
 * LDAP
 
-  Para obter mais informações sobre o uso do LDAP com Workfront, consulte [Configurar o Adobe Workfront com LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Para obter mais informações sobre como usar o LDAP com Workfront, consulte [Configurar Adobe Workfront com LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
 
 * Active Directory
 
@@ -173,7 +173,7 @@ As seguintes opções de Logon único (SSO) agora são suportadas apenas em uma 
 
 * SAML 1.1
 
-  Para obter mais informações sobre como usar o SAML 1.1 com o Workfront, consulte [Configurar o Adobe Workfront com SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Para obter mais informações sobre como usar o SAML 1.1 com Workfront, consulte [Configurar o Adobe Workfront com SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
 
 Esta é a linha do tempo de remoção dessas opções de SSO:
 
@@ -195,7 +195,7 @@ O webinário do Roteiro de produtos do segundo trimestre de 2019 foi apresentado
 
 Junte-se à equipe de gerenciamento de produtos da Workfront para saber mais sobre nossa visão de produto, o roteiro de 2019 e como se envolver.
 
-Para exibir a gravação do webinário, consulte [Webinário do roteiro de produtos do segundo trimestre de 2019](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
+Para exibir a gravação do webinário, consulte o [Webinário do Roteiro de Produtos do 2º Trimestre de 2019](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
 
 ### Webinário do roteiro de produtos do Workfront - 1º trimestre de 2019
 

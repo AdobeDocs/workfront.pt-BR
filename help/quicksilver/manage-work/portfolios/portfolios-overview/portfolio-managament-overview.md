@@ -34,11 +34,11 @@ Normalmente, os profissionais de PPM usam as seguintes etapas para realizar PPM:
 1. Avaliar a disponibilidade de recursos para executar os projetos selecionados.
 1. Revise e avalie o progresso dos projetos no portfólio e faça ajustes, se necessário.
 
-## Visão geral do [!DNL Adobe Workfront] Processo PPM
+## Visão geral do processo de PPM [!DNL Adobe Workfront]
 
-Você pode priorizar seus projetos e garantir que eles estejam alinhados às suas metas e requisitos de negócios usando as ferramentas de Gerenciamento de Portfolio no [!DNL Workfront].
+Você pode priorizar seus projetos e garantir que eles estejam alinhados às suas metas e requisitos comerciais usando as ferramentas de Gerenciamento de Portfolio no [!DNL Workfront].
 
-O diagrama a seguir ilustra a visão geral de alto nível do processo PPM no [!DNL Workfront]:
+O diagrama a seguir ilustra a visão geral de alto nível do processo PPM em [!DNL Workfront]:
 
 ![](assets/pm1-350x88.png)
 
@@ -53,13 +53,13 @@ O diagrama a seguir ilustra a visão geral de alto nível do processo PPM no [!D
 
 O Gerenciamento de Portfolio do projeto começa com uma solicitação de projeto. Nesta fase, um proprietário de projeto cria uma solicitação de projeto e a envia para revisão para um comitê executivo ou para o Gerente de Portfolio. É quando eles concluem o Business Case do projeto e, em seguida, o enviam para aprovação.
 
-Para obter mais informações sobre como criar um business case e uma solicitação de projeto, consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obter mais informações sobre como criar um business case e uma solicitação de projeto, consulte [Criar um business case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Revisão do projeto {#project-review}
 
 Depois de enviar a solicitação do projeto, o Gerente de Portfolio ou uma equipe executiva a revisa e decide se aprova o projeto. Se eles aprovarem o projeto, ele será selecionado para um Portfolio de projeto de empresa.
 
-Para obter mais informações sobre portfólios, consulte [visão geral do Portfolio em [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Para obter mais informações sobre a aprovação de um Business Case, consulte [Aprovar um Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Para obter mais informações sobre portfólios, consulte [visão geral do Portfolio em [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Para obter mais informações sobre como aprovar um Business Case, consulte [Aprovar um Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Otimização do Portfólio {#portfolio-optimization}
 
@@ -69,21 +69,21 @@ Para obter mais informações sobre otimização de portfólio, consulte [Otimiz
 
 ### Planejamento de recursos {#resource-planning}
 
-Além de otimizar o desempenho do portfólio e priorizar os projetos, o Gerenciador de Recursos garante que os recursos adequados sejam alocados para os projetos. Eles avaliam a disponibilidade e a alocação dos recursos usando as ferramentas de gerenciamento de recursos disponíveis no [!DNL Workfront].
+Além de otimizar o desempenho do portfólio e priorizar os projetos, o Gerenciador de Recursos garante que os recursos adequados sejam alocados para os projetos. Eles avaliam a disponibilidade e a alocação dos recursos usando as ferramentas de Gerenciamento de Recursos disponíveis em [!DNL Workfront].
 
 Dependendo da disponibilidade dos recursos, o Gerenciador de Portfolio pode precisar repriorizar os projetos.
 
-Para obter mais informações sobre o Gerenciamento de recursos, consulte [Gerenciar recursos](../../../resource-mgmt/manage-resources.md) seção.
+Para obter mais informações sobre o Gerenciamento de Recursos, consulte a seção [Gerenciar recursos](../../../resource-mgmt/manage-resources.md).
 
 ### Execução do projeto {#project-execution}
 
-Depois de receber a aprovação do projeto do Gerenciador de Portfolio e a validação dos recursos do Gerenciador de Recursos, como o Proprietário do Projeto, você pode colocar o projeto no status de [!UICONTROL Atual] e seus usuários podem iniciar o trabalho para concluir o projeto. Recomendamos capturar uma linha de base do projeto nesta fase, para ter um ponto de referência para o projeto, em seu estado original.
+Depois de receber a aprovação do projeto do Gerenciador de Portfolio e a validação dos recursos do Gerenciador de Recursos, como Proprietário do Projeto, você pode colocar o projeto no status [!UICONTROL Atual] e os usuários podem iniciar o trabalho para concluir o projeto. Recomendamos capturar uma linha de base do projeto nesta fase, para ter um ponto de referência para o projeto, em seu estado original.
 
-Para obter mais informações sobre o gerenciamento de projetos no [!DNL Workfront], consulte [Gerenciar projetos: índice do artigo](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
-Para obter mais informações sobre como criar linhas de base em projetos, consulte [Criar linhas de base do projeto](../../../manage-work/projects/create-projects/create-baselines.md).
+Para obter mais informações sobre como gerenciar projetos no [!DNL Workfront], consulte [Gerenciar projetos: índice do artigo](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Para obter mais informações sobre como criar linhas de base em projetos, consulte [Criar linhas de base de projeto](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Projeto post-mortem {#project-postmortem}
 
 Após a conclusão dos projetos no portfólio, é possível revisar o sucesso de cada projeto criando uma linha de base e comparando-a com a linha de base original.
 
-Para obter mais informações sobre como criar linhas de base em projetos, consulte [Criar linhas de base do projeto](../../../manage-work/projects/create-projects/create-baselines.md).
+Para obter mais informações sobre como criar linhas de base em projetos, consulte [Criar linhas de base de projeto](../../../manage-work/projects/create-projects/create-baselines.md).

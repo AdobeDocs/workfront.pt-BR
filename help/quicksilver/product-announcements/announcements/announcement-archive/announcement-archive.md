@@ -20,7 +20,7 @@ ht-degree: 0%
 * [TLS 1.2 necessário no Adobe Workfront](tls-1-disabled.md)
 * [O Suplemento Outlook 365 Está Disponível](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
 * [Substituição de ferramentas baseadas em Flashes no Adobe Workfront](replace-flash-tools.md)
-* [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP em Filas de solicitações pela versão 21.1](pop-removal-request-queue.md)
+* [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP de Filas de Solicitações por 21.1](pop-removal-request-queue.md)
 * [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP em Filas de solicitações pela versão 21.1](pop-removal-request-queue.md)
 * [Novos endereços IP para email do Adobe Workfront com a versão 21.1](new-email-ip-21-1.md)
 * [Falsificação de email e resposta POP](email-spoofing-pop-reply-message.md)

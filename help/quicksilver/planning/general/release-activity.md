@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Este artigo lista os recursos que foram lançados para o Workfront Planing durante 2024.
 
-O programa de planejamento do Workfront foi iniciado desde 22 de maio de 2023. Para obter uma lista de todos os recursos lançados durante 2023, consulte [Arquivos de atividades do Adobe Workfront Planning versão 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+O programa de planejamento do Workfront foi iniciado desde 22 de maio de 2023. Para obter uma lista de todos os recursos lançados durante 2023, consulte [Arquivos da atividade de versão do Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa Workfront Planning podem acessar todos os recursos em seus ambientes de Produção.
 
@@ -95,7 +95,7 @@ O assistente de IA trabalha no contexto da página selecionada e com seu nível 
 
 O Assistente de IA está atualmente em uma fase beta e está disponível para clientes selecionados. Entre em contato com seu representante de conta para saber se você está qualificado para participar desta fase.
 
-Para obter informações, consulte [Visão geral do Assistente do Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Para obter informações, consulte [visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Nova caixa de pesquisa ao selecionar um espaço de trabalho ou um tipo de registro
 
@@ -105,7 +105,7 @@ Visualização: a ser determinado
 
 Para facilitar a navegação entre espaços de trabalho ou entre tipos de registro, agora é possível pesquisar um espaço de trabalho ou um tipo de registro no menu suspenso à direita do nome no cabeçalho da página.
 
-Para obter informações, consulte [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md).
+Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 ### Inserir um novo campo à direita ou à esquerda de um campo existente na exibição de tabela
 
@@ -149,7 +149,7 @@ Esta atualização inclui as seguintes melhorias:
 
 Para obter informações, consulte os seguintes artigos:
 
-* [Lista de modelos do espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md)
+* [Lista de modelos de espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md)
 
 * [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md)
 
@@ -169,7 +169,7 @@ Atualizamos a experiência para adicionar uma miniatura ou uma imagem de capa a 
 
 Para obter mais informações, consulte os seguintes artigos:
 
-* [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 
 * [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
@@ -205,7 +205,7 @@ Visualização: a ser determinado
 
 Ao criar uma conexão entre dois registros ou entre um registro e um objeto de outro aplicativo, o campo Name of the connection é preenchido automaticamente com o nome do registro conectado. Antes desse aprimoramento, você tinha que adicionar manualmente um Nome para o campo de conexão.
 
-Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Definir como os registros conectados são exibidos em campos conectados
 
@@ -219,7 +219,7 @@ O título de um registro é o nome do registro ou qualquer campo definido como o
 
 Esse aprimoramento está disponível para registros conectados do Workfront Planning e para ativos conectados da Adobe Experience Manager.
 
-Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Somente usuários licenciados Padrão ou Plano podem ter permissões de gerenciamento para espaços de trabalho (título)
 
@@ -309,7 +309,7 @@ O operador UNIQUE está disponível para todos os tipos de campo, exceto o segui
 * Pessoas
 * Campo de caixa de seleção
 
-Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Compartilhar exibições com todos os membros de um espaço de trabalho por padrão
 
@@ -319,7 +319,7 @@ Visualização: a ser determinado
 
 Agora introduzimos uma opção em que você pode conceder rapidamente permissões de Exibição a uma exibição para todos os membros de um espaço de trabalho. Antes desse aprimoramento, somente os usuários com os quais você compartilhou especificamente uma visualização podiam acessá-la. Essa opção não está ativada por padrão.
 
-Para obter informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
+Para obter informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
 ### Atualização da aparência do ícone Planejamento no Menu Principal
 
@@ -357,7 +357,7 @@ Visualização: a ser determinado
 
 Agora é possível definir as Datas de Início e Término da exibição de linha do tempo como um campo de pesquisa a partir de um registro conectado ou tipo de objeto.
 
-Para obter mais informações sobre a criação de exibições, consulte [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+Para obter mais informações sobre como criar exibições, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Semana de 20 de maio de 2024
 
@@ -379,7 +379,7 @@ As seguintes ações estão disponíveis na seção Planejamento do Workfront:
 
 * Abrir a caixa ou página de visualização de detalhes para exibir mais informações sobre os registros conectados
 
-Para obter informações, consulte [Gerenciar registros na seção Planning de objetos do Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Para obter informações, consulte [Gerenciar registros na seção Planning de objetos Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Semana de 13 de maio de 2024
 
@@ -412,7 +412,7 @@ Ao criar conexões com tipos de objeto fora do Workfront Planning, agora você �
 
 Por exemplo, se você vincular projetos das campanhas do Workfront Planning, todos os que tiverem acesso a Exibir a campanha também terão acesso a visualizar os projetos vinculados e as informações de seus campos de pesquisa, mesmo quando não tiverem permissões para os projetos vinculados ou acesso aos projetos, em geral. Você obtém acesso aos registros do Planning quando recebe permissões para espaços de trabalho.
 
-Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Adicionar seções à visualização e às páginas de detalhes do registro
 
@@ -422,7 +422,7 @@ Visualização: a ser determinado
 
 Para organizar melhor as informações na página do registro para facilitar a leitura e a navegação, introduzimos seções à página do registro. Os títulos de seção servem como cabeçalhos que organizam os campos em categorias distintas. As seções são totalmente personalizáveis e podem ser expandidas ou recolhidas, se necessário.
 
-Para obter informações, consulte [Gerenciar o layout da página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Atualizações em tempo real para alterações de configuração de campo
 
@@ -479,7 +479,7 @@ Visualização: a ser determinado
 
 Quando um usuário atualiza as informações em um registro na exibição de tabela, outros usuários podem exibir as informações atualizadas na caixa de detalhes do registro (dentro de uma exibição) ou na página em tempo real. Isso garante que todos os usuários visualizem as informações atualizadas ao mesmo tempo, em sincronia com quando as alterações ocorrerem.
 
-Para obter informações sobre edição de registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Para obter informações sobre como editar registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ### Atualizações em tempo real na exibição de calendário após a edição de registros
 
@@ -505,7 +505,7 @@ Para obter mais informações, consulte os seguintes artigos:
 
 * [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md)
 
-* [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md).
+* [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 ## Semana de 8 de abril de 2024
 
@@ -531,7 +531,7 @@ Visualização: a ser determinado
 
 Como gerente do Workspace, agora é possível reordenar os campos listados na página de registro ou pré-visualização. Atualizar a ordem dos campos altera a ordem dos campos em todos os registros do mesmo tipo, para todos que visualizam a página de registro ou a pré-visualização do registro.
 
-Para obter mais informações, consulte [Gerenciar o layout da página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obter mais informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Adicionar imagem de capa para gravar páginas
@@ -542,7 +542,7 @@ Visualização: a ser determinado
 
 Ao gerenciar páginas de registros, agora é possível adicionar, reposicionar e substituir uma imagem de capa em uma página de registro ou pré-visualização, para enriquecer a apresentação do registro e o envolvimento da parte interessada. As imagens de capa são visíveis para todos os usuários que visualizam os registros.
 
-Para obter mais informações, consulte [Gerenciar o layout da página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obter mais informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Semana de 25 de março de 2024
 
@@ -572,7 +572,7 @@ Para economizar seu tempo e manter a consistência, agora é possível duplicar 
 
 A duplicação de uma exibição cria uma exibição idêntica, usando os mesmos filtros, critérios de classificação e agrupamentos. A duplicação de uma exibição não mantém as permissões da exibição original.
 
-Para obter mais informações, consulte [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+Para obter mais informações, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### A área Maestro foi renomeada no Menu Principal para Planejamento
 
@@ -592,7 +592,7 @@ Visualização: a ser determinado
 
 Reprojetamos a caixa de confirmação ao excluir um tipo de registro. A exclusão de um tipo de registro é impactante, pois também exclui todos os registros, seus campos, as informações nos campos, bem como as exibições associadas ao tipo de registro. Os tipos de registro excluídos e suas informações excluídas não podem ser recuperados.
 
-Por esse motivo, queríamos garantir que a intenção do usuário seja precisa ao excluir um tipo de registro, para que tenhamos introduzido uma etapa extra na confirmação da exclusão. Para obter mais informações, consulte [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md).
+Por esse motivo, queríamos garantir que a intenção do usuário seja precisa ao excluir um tipo de registro, para que tenhamos introduzido uma etapa extra na confirmação da exclusão. Para obter mais informações, consulte [Excluir tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 ## Semana de 18 de março de 2024
 
@@ -652,18 +652,19 @@ Para melhorar a navegação e a facilidade de uso, reprojetamos a exibição de 
 
 As exibições são exibidas cronologicamente por data adicionada, da esquerda para a direita. As visualizações compartilhadas também são exibidas em ordem cronológica de quando foram compartilhadas.
 
-Para obter mais informações, consulte [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+Para obter mais informações, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Design dinâmico de uma exibição de registro
 
-Produção: visualização de 14 de março de 2024: a ser determinado
+Produção: 14 de março de 2024
+Visualização: a ser determinado
 
 Atualizamos a aparência das exibições na página de tipo de registro. As novas visualizações são dinamicamente responsivas e se ajustam rapidamente ao tamanho da tela. Os rótulos de opção da barra de ferramentas estão ocultos em telas menores para facilitar o uso da barra de ferramentas.
 
 Para obter mais informações, consulte os seguintes artigos:
 
 * [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+* [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Permitir que Administradores do Sistema gerenciem todas as exibições compartilhadas
 
@@ -673,7 +674,7 @@ Visualização: a ser determinado
 
 Para ser consistente com todas as outras áreas do sistema e poder manter e controlar qualquer exibição disponível para você como um Administrador do Sistema, agora você tem permissões de Gerenciamento para qualquer exibição compartilhada com você na página de tipo de registro. Antes desse aprimoramento, os criadores de exibições podiam ter concedido permissões para Visualizar ou Gerenciar a exibição. Agora, se a visualização for compartilhada com você e você for um Administrador do sistema, terá Permissões de gerenciamento para a visualização, por padrão.
 
-Para obter mais informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
+Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
 ### Página não autorizada ao compartilhar uma exibição sem permissões
 
@@ -683,7 +684,7 @@ Visualização: a ser determinado
 
 Quando um usuário recebe um link para um tipo de registro e tem acesso ao espaço de trabalho, mas não à exibição compartilhada no link, uma página notificando que não está autorizado a ver o tipo de registro é exibida.
 
-Para obter mais informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
+Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
 
 ### Novo rótulo para Administradores do sistema em caixas de diálogo de compartilhamento
@@ -694,7 +695,7 @@ Visualização: a ser determinado
 
 Agora exibimos um rótulo &quot;Administrador&quot; ao lado do nome do administrador do sistema na caixa de diálogo de compartilhamento ao compartilhar uma visualização ou um espaço de trabalho.
 
-Para obter informações, consulte [Visão geral de permissões de compartilhamento](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obter informações, consulte [Visão geral das permissões de compartilhamento](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Página não autorizada ao compartilhar uma exibição sem permissões
 
@@ -706,7 +707,7 @@ Quando um usuário recebe um link para um tipo de registro e tem acesso ao espa�
 
 Você deve compartilhar visualizações além de compartilhar espaços de trabalho para que outras pessoas acessem a mesma página do tipo de registro que você compartilha com um link.
 
-Para obter mais informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
+Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
 ## Semana de 4 de março de 2024
 
@@ -768,9 +769,9 @@ A seguir estão os mais altos níveis de permissões que os usuários podem rece
 
 * Os usuários com uma licença de Revisão ou Solicitante (ou Colaborador, no novo modelo de licença) só podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro e registros desses espaços de trabalho. Eles não podem criar, editar ou excluir tipos de registros ou registros.
 
-Para obter informações sobre o novo modelo de licença, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações sobre o novo modelo de licença, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obter informações sobre a conexão entre tipo de licença e permissões nos recursos do Planning, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Para obter informações sobre a conexão entre tipo de licença e permissões nos recursos de planejamento, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Nova aparência da barra de ferramentas de Rich Text para campos de registro
@@ -866,7 +867,7 @@ As seguintes informações são registradas na nova seção Histórico:
 
 * Uma data e carimbo de data e hora de quando a alteração ocorreu.
 
-Para obter mais informações, consulte [Visão geral da seção Histórico](/help/quicksilver/planning/records/history-section-overview.md).
+Para obter mais informações, consulte [Visão geral da seção de histórico](/help/quicksilver/planning/records/history-section-overview.md).
 
 ### Novo rótulo para novo link de registro
 
@@ -909,7 +910,7 @@ A seguir estão os níveis de permissões para exibições de registro:
 * View: Os usuários podem selecionar a view no menu drop-down Exibir de uma página do tipo de registro.
 * Gerenciar: Os usuários podem editar, compartilhar e excluir a exibição.
 
-Para obter mais informações, consulte [Visão geral do Access](/help/quicksilver/planning/access/access-overview.md) e [Visão geral das permissões de compartilhamento nos recursos do Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obter mais informações, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md) e [Visão geral das permissões de compartilhamento nos recursos do Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Novo tipo de campo Fórmula
 
@@ -923,7 +924,7 @@ Os campos de fórmula geram um novo valor usando valores existentes de outros ca
 
 Você não pode usar campos de pesquisa de tipos de registro vinculados em um cálculo de fórmula. Essa funcionalidade estará disponível posteriormente.
 
-Para obter informações, consulte [Visão geral dos campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
+Para obter informações, consulte [Visão geral dos campos da fórmula](/help/quicksilver/planning/fields/formula-fields.md).
 
 ### Desfazer/ Refazer ações ao gerenciar registros na visão de tabela
 

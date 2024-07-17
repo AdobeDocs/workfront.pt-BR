@@ -10,7 +10,7 @@ exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
 source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,12 +50,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Calcular custo de horas extras em uma Exibição de folha de horas
 
@@ -65,30 +65,30 @@ Para adicionar uma coluna de horas extras calculadas a uma visualização de fol
 
    Para obter informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Clique em **Personalizar visualização** em uma lista de folhas de horas.
+1. Clique em **Personalizar exibição** em uma lista de folhas de horas.
 
    Ou
 
-   Selecione o **Colunas (Exibir)** em um relatório de Planilha de horas.
+   Selecione a guia **Colunas (Exibição)** em um relatório de Planilha de Horas.
 
 1. Clique em **Adicionar coluna**.
-1. Clique em **Alternar para modo de texto**.
-1. No **Mostrar nesta coluna** clique em **Clique para editar o texto**.
-1. Copie e cole o seguinte código de modo de texto no **Modo de texto** caixa de diálogo.
-   <pre>displayname=Custo de horas extras calculado<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre>
+1. Clique em **Alternar para Modo de Texto**.
+1. Na área **Mostrar nesta coluna**, clique em **Clicar para editar texto**.
+1. Copie e cole o seguinte código de modo de texto na caixa de diálogo **Modo de texto**.
+   <pre>displayname=Calculated Overtime Cost<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre>
 
    >[!NOTE]
    >
    >Esse cálculo presume que o usuário geralmente trabalha uma semana de 40 horas.
 
-1. Clique em **Salvar**, nomeie a nova exibição e clique em **Salvar visualização** em uma lista de folhas de horas.
+1. Clique em **Salvar**, nomeie o novo modo de exibição e clique em **Salvar Modo de Exibição** em uma lista de folhas de horas.
 
    Ou
 
    Clique em **Salvar + Fechar** em um relatório de Planilha de Horas.
 
-1. (Opcional e condicional) se você estiver criando um relatório de Planilha de Horas, especifique um nome para o relatório e, em seguida, clique em **Salvar relatório**.
+1. (Opcional e condicional) se você estiver criando um relatório de Planilha de Horas, especifique um nome para o relatório e clique em **Salvar Relatório**.
 
-   O custo das horas extras de cada usuário é exibido na **Custo Calculado de Horas Extras** coluna.
+   O custo das horas extras de cada usuário é exibido na coluna **Custo Calculado de Horas Extras**.
 
-   ![calculated_overtime_cost_in_time_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+   ![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)

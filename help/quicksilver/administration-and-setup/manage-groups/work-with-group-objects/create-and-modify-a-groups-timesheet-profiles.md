@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Criar e gerenciar os perfis de folha de ponto de um grupo
-description: Ao visualizar um grupo que você gerencia na área Grupos , é possível visualizar e trabalhar com os perfis da folha de ponto para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
+title: Criar e gerenciar os perfis de planilha de horas de um grupo
+description: Quando você está visualizando um grupo gerenciado na área Grupos, é possível visualizar e trabalhar com os perfis de folha de horas para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,62 +15,62 @@ ht-degree: 0%
 
 ---
 
-# Criar e gerenciar os perfis de folha de ponto de um grupo
+# Criar e gerenciar os perfis de planilha de horas de um grupo
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.</p>
 -->
 
-Ao visualizar um grupo que você gerencia na área Grupos , é possível visualizar e trabalhar com os perfis da folha de ponto para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
+Quando você está visualizando um grupo gerenciado na área Grupos, é possível visualizar e trabalhar com os perfis de folha de horas para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
 
-Se houver algum grupo acima do grupo que você gerencia, os administradores também poderão fazer isso para o seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
+Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença Adobe Workfront</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>Plano</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Você deve ser um administrador de grupo do grupo.</p>  <p>Você também deve ter acesso administrativo às Folhas de Horas. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p>  <p><b>OBSERVAÇÃO</b>: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador de grupo do grupo.</p>  <p>Você também deve ter acesso administrativo às Folhas de horas. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p>  <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
-## Criar e editar perfis de folha de ponto em nível de grupo
+## Criar e editar perfis de planilha de horas no nível do grupo
 
-Você pode criar e editar perfis de folha de ponto para uso em um grupo que gerencia. Para obter instruções, consulte [Criar, editar e atribuir perfis de folha de ponto](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Você pode criar e editar perfis de planilha de horas para uso em um grupo gerenciado por você. Para obter instruções, consulte [Criar, editar e atribuir perfis de folha de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-## Excluir perfis de folha de ponto em nível de grupo
+## Excluir perfis de planilha de horas no nível de grupo
 
-É possível excluir perfis de folha de ponto em uso por um grupo que você gerencia. Para obter instruções, consulte [Excluir perfis de folha de ponto](../../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md).
+Você pode excluir perfis de planilhas de horas em uso por um grupo gerenciado por você. Para obter instruções, consulte [Excluir perfis de folha de horas](../../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md).
 
-## Gerar manualmente folhas de ponto do grupo
+## Gerar folhas de horas de grupo manualmente
 
-Para habilitar as alterações feitas para agrupar perfis de folha de ponto para refletir nas folhas de ponto do grupo atual, primeiro você deve excluir as folhas de ponto existentes e gerar manualmente novas. Para obter instruções, consulte [Gerar manualmente folhas de horas a partir da área Folhas e horas](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) em [Gerar manualmente folhas de ponto](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+Para permitir que as alterações feitas nos perfis de folha de horas do grupo sejam refletidas nas folhas de horas do grupo atual, primeiro exclua as folhas de horas existentes e gere manualmente as novas. Para obter instruções, consulte [Gerar folhas de horas manualmente na área Folhas de horas e Horas](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) em [Gerar folhas de horas manualmente](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-Para obter informações sobre como excluir folhas de horas de grupos, consulte [Excluir folhas de ponto no Adobe Workfront](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
+Para obter informações sobre como excluir folhas de horas de grupo, consulte [Excluir folhas de horas no Adobe Workfront](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
-## Exportar perfis de folha de ponto em nível de grupo
+## Exportar perfis de planilhas de horas de nível de grupo
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 1. Clique em **Grupos**.
 
-   Na lista que é exibida, é possível ver os grupos gerenciados, juntamente com os subgrupos que eles possuem. Os administradores do Adobe Workfront podem visualizar todos os grupos.
+   Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.
 
-1. Clique no nome do grupo com os perfis da folha de ponto que deseja exportar.
-1. Clique em **Perfis de Folha de Horas**.
-1. Clique em **Exportar** para exportar a lista de perfis de folha de ponto do grupo.
+1. Clique no nome do grupo com os perfis de planilha de horas que deseja exportar.
+1. Clique em **Perfis de Planilha de Horas**.
+1. Clique em **Exportar** para exportar a lista de perfis de folha de horas do grupo.

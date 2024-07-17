@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Visão geral do tipo de duração: simples
 
-O Tipo de duração simples é um Tipo de duração que pode ser definido para uma tarefa no Adobe Workfront. Para obter informações gerais sobre Tipos de duração no Workfront, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+O Tipo de duração simples é um Tipo de duração que pode ser definido para uma tarefa no Adobe Workfront. Para obter informações gerais sobre os Tipos de Duração no Workfront, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Visão geral do tipo de duração simples
 
-O Workfront ou um administrador de grupo pode definir o Tipo de duração padrão do sistema ou grupo como Simples. Nesse caso, todas as novas tarefas serão criadas com esse Tipo de Duração. Para obter informações sobre como alterar as preferências de tarefas e problemas como parte das preferências de projeto no nível do sistema ou do grupo, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+O Workfront ou um administrador de grupo pode definir o Tipo de duração padrão do sistema ou grupo como Simples. Nesse caso, todas as novas tarefas serão criadas com esse Tipo de Duração. Para obter informações sobre como alterar as preferências de tarefas e problemas como parte das preferências de projetos no nível do sistema ou do grupo, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Os seguintes itens ocorrem quando uma tarefa tem um Tipo de duração Simples:
 
@@ -36,14 +36,14 @@ Os seguintes itens ocorrem quando uma tarefa tem um Tipo de duração Simples:
   >
   > `Task Duration = Task Planned Hours / Typical hours per work day`
   >
-  >O administrador do Workfront define o `Typical hours per work day` na área Preferências do projeto da Configuração da sua instância.
+  >O administrador do Workfront define `Typical hours per work day` na área Preferências do projeto da instalação da sua instância.
 
 * A porcentagem de alocação está oculta e as horas de alocação estão disponíveis para edição.
 * Todos os novos clientes têm o Tipo de duração no nível do sistema definido como Simples.
 
 ## Alterar o tipo de duração de uma tarefa para Simples
 
-Para obter informações sobre como alterar o Tipo de Duração de uma tarefa, consulte [Atualizar o tipo de duração de uma tarefa](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Para obter informações sobre como alterar o Tipo de Duração de uma tarefa, consulte [Atualizar o Tipo de Duração de uma tarefa](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

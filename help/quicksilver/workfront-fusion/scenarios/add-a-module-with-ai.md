@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 1%
@@ -51,7 +52,7 @@ A Fusion AI pode atualmente gerar módulos que se conectam aos seguintes aplicat
 
 ## Gerar um módulo
 
-1. Adicione um módulo e selecione **Gerar com IA** da lista de aplicativos.
+1. Adicione um módulo e selecione **Gerar com IA** na lista de aplicativos.
 
    Ou
 
@@ -89,6 +90,3 @@ Considere o seguinte ao criar prompts de texto:
 * Como cada módulo Fusion executa uma única ação, seu prompt de texto deve descrever uma ação específica.
 * Use linguagem simples e direta.
 * Verifique e teste seu módulo. Se o desempenho não for o esperado, refine o prompt e tente novamente.
-
-
-

@@ -17,6 +17,6 @@ ht-degree: 0%
 
 # Gerenciar revisores de prova
 
-* [Definir configurações de acesso e subscrição para uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+* [Definir configurações de acesso e assinatura para uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 * [Compartilhar uma prova no Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
 * [Enviar mensagens de email para revisores em uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)

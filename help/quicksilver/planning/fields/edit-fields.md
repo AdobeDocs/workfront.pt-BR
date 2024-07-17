@@ -31,9 +31,9 @@ recommendations: noDisplay, noCatalog
 
 É possível editar as configurações de campo para campos já criados no Adobe Workfront Planning.
 
-Para obter informações sobre a criação de campos do Adobe Workfront Planning, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+Para obter informações sobre como criar campos do Adobe Workfront Planning, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
-Este artigo descreve como é possível editar as configurações para campos do Workfront Planning. Para obter informações sobre edição de valores de campo para registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Este artigo descreve como é possível editar as configurações para campos do Workfront Planning. Para obter informações sobre a edição de valores de campo para registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ## Requisitos de acesso
 
@@ -79,13 +79,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -138,10 +138,10 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
 
    Essa ação abre a página do tipo de registro.
 
-1. (Condicional) Clique na guia de um **Visualização em tabela**.
+1. (Condicional) Clique na guia de uma **exibição de Tabela**.
 
    Todos os registros existentes associados ao tipo de registro são exibidos nas linhas da exibição de tabela.
-1. Passe o mouse sobre o cabeçalho da coluna de um campo que deseja editar, clique na seta para baixo após o nome do campo e clique em **Editar campo**
+1. Passe o mouse sobre o cabeçalho da coluna de um campo que você deseja editar, clique na seta para baixo após o nome do campo e clique em **Editar campo**
 
    Ou
 
@@ -159,7 +159,7 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
 
    As informações do campo são atualizadas para todos com acesso para exibir o espaço de trabalho.
 
-1. (Condicional) Para campos de registro vinculados, clique em **Editar campos de pesquisa** e adicionar ou remover qualquer um dos campos do tipo de registro vinculado.
+1. (Condicional) Para campos de registro vinculados, clique em **Editar campos de pesquisa** e adicione ou remova qualquer um dos campos do tipo de registro vinculado.
 
-   Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 

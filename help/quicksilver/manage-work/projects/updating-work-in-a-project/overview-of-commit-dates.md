@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Visão geral da data de compromisso
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema.
 
@@ -37,9 +37,9 @@ Considere o seguinte ao trabalhar com datas de confirmação:
   Quando você cria uma tarefa ou problema, não há data de confirmação atribuída à tarefa ou problema.
 * Se você estiver atribuído a uma tarefa ou problema, poderá definir a Data de confirmação seguindo um destes procedimentos:
 
-   * Deixe o Workfront definir a Data de confirmação para corresponder à Data de conclusão planejada existente da tarefa ou problema clicando em Trabalhar nela, Iniciar problema ou Iniciar tarefa na tarefa ou problema. Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar, consulte  [Substitua o botão Trabalhar na tarefa por um botão Iniciar](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Deixe o Workfront definir a Data de confirmação para corresponder à Data de conclusão planejada existente da tarefa ou problema clicando em Trabalhar nela, Iniciar problema ou Iniciar tarefa na tarefa ou problema. Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar, consulte [Substituir o botão Trabalhar na tarefa por um botão Iniciar](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Defina manualmente a Data de confirmação por conta própria de acordo com quando achar que a tarefa ou problema pode estar concluído. Esta é sua estimativa e compromisso, como o destinatário, para o Gerente de projetos de que você terá a tarefa ou problema concluído em uma data específica.
-Para obter informações, consulte [Atualizar datas de confirmação nas tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Para obter informações, consulte [Atualizar datas de confirmação sobre tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Você pode encontrar a Data de compromisso para tarefas e problemas nas seguinte
 
 * A página Detalhes
 * O painel Resumo, depois que um administrador de Workfront ou grupo o adiciona ao modelo de layout. Para obter informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* <span class="preview">O cabeçalho de uma tarefa ou problema, depois que um administrador de Workfront ou grupo o adiciona ao seu modelo de layout. Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview">O cabeçalho de uma tarefa ou problema, depois que um administrador de Workfront ou de grupo o adiciona ao seu modelo de layout. Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## Notificações e atualizações acionadas pela alteração da Data de confirmação {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -90,9 +90,9 @@ A definição manual da Data de confirmação para uma tarefa ou problema aciona
   >
   >Para obter mais informações, consulte os seguintes artigos:
   >
-  >* [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
   >* [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [Personalize cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -107,7 +107,7 @@ A definição manual da Data de confirmação para uma tarefa ou problema aciona
 
 * A Data de conclusão projetada da tarefa ou problema é definida para a mesma data, pois a tarefa agora tem uma indicação mais precisa de quando deverá ser concluída.
 
-  Para obter mais informações sobre a Data de conclusão projetada, consulte [Visão geral da Data de conclusão projetada para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  Para obter mais informações sobre a Data de Conclusão Projetada, consulte [Visão geral da Data de Conclusão Projetada para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
@@ -123,9 +123,9 @@ A definição manual da Data de confirmação para uma tarefa ou problema aciona
   >
   >A notificação de que a Data de confirmação foi alterada é enviada ao Proprietário do projeto somente quando o administrador do Workfront ativa a exibição da Data de confirmação na área Feeds de atualizações da Configuração. Para obter informações, consulte [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte  [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Para obter informações sobre como atualizar Datas de confirmação para tarefas e problemas, consulte [Atualizar datas de confirmação nas tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Para obter informações sobre como atualizar Datas de Confirmação para tarefas e problemas, consulte [Atualizar Datas de Confirmação em tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

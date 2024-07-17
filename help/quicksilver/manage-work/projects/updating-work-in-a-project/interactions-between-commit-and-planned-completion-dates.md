@@ -33,11 +33,11 @@ A tabela a seguir contém informações sobre a diferença entre as datas de Con
  <tbody> 
   <tr> 
    <td role="rowheader">Data de confirmação</td> 
-   <td> <p>A Data de Compromisso é a data pela qual a pessoa atribuída a uma tarefa ou ocorrência estima manualmente que ela terá concluído a tarefa ou ocorrência.</p> <p>Para obter informações sobre Datas de confirmação, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Visão geral da data de compromisso</a>.</p> </td> 
+   <td> <p>A Data de Compromisso é a data pela qual a pessoa atribuída a uma tarefa ou ocorrência estima manualmente que ela terá concluído a tarefa ou ocorrência.</p> <p>Para obter informações sobre Datas de Confirmação, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Visão geral da Data de Confirmação</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Data de conclusão planejada</td> 
-   <td> <p>A Data de conclusão planejada mostra quando o proprietário do projeto espera que a tarefa ou o problema seja concluído. Ele pode ser definido manualmente pelo proprietário do projeto ou por qualquer pessoa com permissões para Gerenciar a tarefa ou o problema, ou pode ser calculado automaticamente pelo Adobe Workfront.</p> <p>Para obter mais informações sobre datas de Término Planejadas, consulte <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Visão geral da Data de conclusão planejada da tarefa</a></p> </td> 
+   <td> <p>A Data de conclusão planejada mostra quando o proprietário do projeto espera que a tarefa ou o problema seja concluído. Ele pode ser definido manualmente pelo proprietário do projeto ou por qualquer pessoa com permissões para Gerenciar a tarefa ou o problema, ou pode ser calculado automaticamente pelo Adobe Workfront.</p> <p>Para obter mais informações sobre as datas de Término Planejadas, consulte <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Visão geral da Data de Término Planejada da tarefa</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,5 +63,5 @@ Se a Data de Compromisso oferecida pelo designado for aceitável para o propriet
 
 Para obter mais informações, consulte os seguintes artigos:
 
-* [Visão geral da data de compromisso](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+* [Visão geral da Data de confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Atualizar datas de confirmação nas tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

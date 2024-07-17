@@ -30,7 +30,7 @@ Esta seção contém as seguintes subseções:
 * [Projetos: índice do artigo](../manage-work/projects/projects-overview.md)
 * [Tarefas: índice do artigo](../manage-work/tasks/tasks-overview.md)
 * [Problemas](../manage-work/issues/issues-overview.md)
-* [O Gráfico de Gantt](../manage-work/gantt-chart/the-gantt-chart.md)
+* [Gráfico de Gantt](../manage-work/gantt-chart/the-gantt-chart.md)
 * [Gerenciamento de Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
 * [Solicitações](../manage-work/requests/requests-overview.md)
 * [Delegar trabalho](../manage-work/delegate-work/delegate-work.md)

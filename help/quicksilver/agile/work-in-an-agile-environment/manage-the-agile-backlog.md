@@ -17,10 +17,10 @@ ht-degree: 0%
 
 Os itens de trabalho a seguir podem ser atribuídos a uma equipe ágil e adicionados ao backlog dessa equipe como histórias, dependendo da metodologia ágil que a equipe está usando:
 
-* **[!UICONTROL Equipes ágeis de Scrum]:** Tarefas e problemas podem ser atribuídos à equipe ágil e adicionados ao backlog.
-* **[!UICONTROL Equipes ágeis do Kanban]:** As tarefas podem ser atribuídas à equipe ágil e adicionadas ao backlog. Os usuários podem visualizar o backlog diretamente no storyboard do Agile, conforme descrito em [[!UICONTROL Adicionar o backlog] ao quadro Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). A equipe usa essa lista de pendências para priorizar e gerenciar sua fila de trabalho.
+* **[!UICONTROL Equipes ágeis de scrum]:** tarefas e problemas podem ser atribuídos à equipe ágil e adicionados à lista de pendências.
+* **[!UICONTROL Equipes ágeis do Kanban]:** as tarefas podem ser atribuídas à equipe ágil e adicionadas à lista de pendências. Os usuários podem exibir a lista de pendências diretamente do storyboard Agile, conforme descrito em [[!UICONTROL Adicionar a lista de pendências] ao quadro Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). A equipe usa essa lista de pendências para priorizar e gerenciar sua fila de trabalho.
 
-Tarefas ou problemas podem ser atribuídos à equipe (e posteriormente adicionados ao backlog da equipe) de qualquer lugar no [!DNL Adobe Workfront]. Por exemplo, uma única equipe pode receber atribuições de trabalho de vários projetos.
+Tarefas ou problemas podem ser atribuídos à equipe (e subsequentemente adicionados à lista de pendências da equipe) de qualquer lugar no [!DNL Adobe Workfront]. Por exemplo, uma única equipe pode receber atribuições de trabalho de vários projetos.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Criar e gerenciar histórias no backlog
 
 * [Reordenar histórias](#reorder-stories)
-* [[!UICONTROL Detalhamento] stories](#break-down-stories)
+* [[!UICONTROL Analisar] histórias](#break-down-stories)
 * [Editar histórias](#edit-stories)
 
 ### Reordenar histórias {#reorder-stories}
@@ -72,7 +72,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 Você pode reordenar matérias na lista de backlog usando o método arrastar e soltar.
 
 1. Acesse o backlog ágil, onde deseja reordenar as histórias.
-1. No **[!UICONTROL Exibir]** selecione a variável **[!UICONTROL Backlog]** ou uma exibição personalizada que contenha a variável **[!UICONTROL Pedido]** coluna.
+1. No menu suspenso **[!UICONTROL Exibir]**, selecione o modo de exibição **[!UICONTROL Lista de Pendências]** ou um modo de exibição personalizado que contenha a coluna **[!UICONTROL Ordem]**.
 
    >[!NOTE]
    >
@@ -96,17 +96,17 @@ Como as histórias em um backlog variam de tamanho, os usuários podem dividi-la
 Para detalhar uma história:
 
 1. Vá para o backlog que contém a história que você deseja detalhar.
-1. Selecione a matéria que deseja detalhar e clique em **[!UICONTROL Analisar história]**.\
-   A variável [!UICONTROL Analisar história] é exibida.\
-   ![Caixa de diálogo Analisar história](assets/backlog-breakdown-dialog.png)
+1. Selecione a história que deseja detalhar e clique em **[!UICONTROL Analisar história]**.\
+   A caixa de diálogo [!UICONTROL Analisar história] é exibida.\
+   ![Caixa de diálogo Analisar História](assets/backlog-breakdown-dialog.png)
 
 1. Especifique um nome e uma estimativa para a matéria e selecione se a matéria está pronta.
-1. Clique em **[!UICONTROL Adicionar história]** para criar outra história da história original.
+1. Clique em **[!UICONTROL Adicionar história]** para criar outra história a partir da história original.
 1. Clique em **[!UICONTROL Salvar]**.
 
 ### Editar histórias {#edit-stories}
 
-É possível editar histórias diretamente no [!UICONTROL Histórias] ou [!UICONTROL Problemas] no Backlog da mesma maneira que você edita tarefas ou problemas em um projeto em massa, conforme descrito em [Editar tarefas em massa](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Editar tarefas](../../manage-work/tasks/manage-tasks/edit-tasks.md), e [Editar problemas](../../manage-work/issues/manage-issues/edit-issues.md).
+Você pode editar histórias diretamente nas guias [!UICONTROL Histórias] ou [!UICONTROL Problemas] do Backlog, da mesma forma que edita qualquer tarefa ou problema de um projeto em massa, conforme descrito em [Editar tarefas em massa](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) em [Editar tarefas](../../manage-work/tasks/manage-tasks/edit-tasks.md) e [Editar problemas](../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Criar novas histórias no backlog {#create-new-stories-on-the-backlog}
 
@@ -121,18 +121,18 @@ Ao criar uma história no backlog, ela é criada como uma tarefa ou um problema 
 
 Para criar uma história no backlog:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Equipes]**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Equipes]**.
 
-1. (Opcional) Clique no link **[!UICONTROL Trocar equipe]** ícone ![Ícone Trocar equipe](assets/switch-team-icon.png), selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa e selecione-a quando ela aparecer.
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone Equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa e selecione-a quando ela aparecer.
 
-1. Selecionar **[!UICONTROL Backlog]** no painel esquerdo.
+1. Selecione **[!UICONTROL Lista de pendências]** no painel esquerdo.
 1. Desempenhe uma das ações a seguir, dependendo se você deseja criar uma tarefa ou um problema:
 
    * **Para criar uma tarefa:** Clique em **[!UICONTROL Histórias]**.
 
-   * **Para criar uma ocorrência:** Clique em **[!UICONTROL Problemas]**.
+   * **Para criar um problema:** Clique em **[!UICONTROL Problemas]**.
 
-1. Clique em **[!UICONTROL Nova história]** ou **[!UICONTROL Nova Problema]**.
+1. Clique em **[!UICONTROL Nova História]** ou **[!UICONTROL Novo Problema]**.
 
 1. Especifique as seguintes informações:
 
@@ -184,7 +184,7 @@ Para atribuir uma tarefa ou um problema a uma Equipe Ágil:
 1. Clique em **[!UICONTROL Editar]**.
 1. Clique em **[!UICONTROL Atribuições]**.
 1. (Opcional) Exclua todos os atribuídos existentes.
-1. Clique em **[!UICONTROL Adicionar atribuidor]**.
+1. Clique em **[!UICONTROL Adicionar responsável]**.
 1. Comece digitando o nome da equipe ágil que você deseja que seja atribuído à tarefa ou problema, em seguida, clique no nome da equipe quando ele aparecer na lista suspensa.
 1. Clique em **[!UICONTROL Salvar alterações]**.\
    A tarefa ou problema agora está disponível no backlog da equipe.
@@ -200,16 +200,16 @@ Para atribuir uma tarefa ou um problema a uma Equipe Ágil:
 ### Mover histórias do backlog para uma iteração ou quadro +
 
 1. Ir para o backlog da Equipe Ágil.
-1. Selecione as matérias que deseja mover para uma iteração ou quadro Kanban e clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**.\
-   Se mover a história para uma [!UICONTROL Kanban] painel, o [!UICONTROL Mover a história para o Kanban] Quadro é exibido.\
-   Se mover a matéria para uma iteração, a variável [!UICONTROL Mover a história para uma iteração] é exibida.\
-   ![Caixa de diálogo Mover história](assets/agile-backlog-addtoiteration.png)
+1. Selecione as histórias que deseja mover para uma iteração ou quadro Kanban e clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**.\
+   Se você mover a história para um quadro [!UICONTROL Kanban], o quadro [!UICONTROL Mover história para o Kanban] será exibido.\
+   Se você mover a matéria para uma iteração, a caixa de diálogo [!UICONTROL Mover a História para uma Iteração] será exibida.\
+   ![Caixa de diálogo Mover História](assets/agile-backlog-addtoiteration.png)
 
 1. Siga um destes procedimentos:
 
-   * **Para equipes do Scrum:** No **[!UICONTROL Selecionar iteração]** selecione a iteração para onde deseja mover as matérias.
+   * **Para equipes de Scrum:** no campo **[!UICONTROL Selecionar iteração]**, selecione a iteração para onde deseja mover as histórias.
 
-   * **Para equipes Kanban:** No **[!UICONTROL Selecionar Quadro Kanban]** selecione sua equipe [!UICONTROL Kanban] placa. (As equipes Kanban podem ter apenas um [!UICONTROL Kanban] painel.)
+   * **Para equipes Kanban:** no campo **[!UICONTROL Selecionar Quadro Kanban]**, selecione o quadro da equipe [!UICONTROL Kanban]. (As equipes Kanban podem ter apenas um quadro [!UICONTROL Kanban].)
 
 1. Clique em **[!UICONTROL Mover história]**.
 
@@ -223,4 +223,4 @@ Para obter mais informações, consulte [Mover uma história ágil](../../agile/
 
 É possível exportar uma ou mais histórias (incluindo tarefas e problemas) diretamente do backlog.
 
-Você exporta matérias do backlog da mesma forma que exporta outros dados no [!DNL Workfront], conforme descrito em [Exportar dados](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Você exporta histórias do backlog da mesma forma que exporta outros dados no [!DNL Workfront], conforme descrito em [Exportar dados](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).

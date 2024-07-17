@@ -20,7 +20,7 @@ Esses webinários tiveram como foco as funcionalidades incluídas na versão R1.
 
 A versão R1 está disponível para teste em Pré-visualização; as versões R1 para o ambiente de Produção em 26 de abril de 2017.
 
-Para ver informações mais detalhadas sobre a funcionalidade abordada nos webinários, consulte o [Visão geral da atividade de versão R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) página.
+Para exibir informações mais detalhadas sobre a funcionalidade abordada nos webinários, consulte a página [Visão geral da atividade de versão](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 As seguintes gravações do webinário estão disponíveis:
 
@@ -32,7 +32,7 @@ Para maior comodidade, o webinário é dividido nos seguintes tópicos:
 
 * [Introdução](#introduction)
 * [Projetos](#projects)
-* [User Management](#user-management)
+* [Gerenciamento de usuários](#user-management)
 * [Configuração](#configuration)
 * [Mobile e Outlook](#mobile-and-outlook)
 

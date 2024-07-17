@@ -3,7 +3,7 @@ content-type: reference
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Usar visualização do Adobe Workfront
-description: Leia estes artigos para saber como usar [!DNL Adobe Workfront] Exibir.
+description: Revise estes artigos para saber como usar o  [!DNL Adobe Workfront] Exibir.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ---
 
-# Uso [!DNL Adobe Workfront View]
+# Usar [!DNL Adobe Workfront View]
 
 Esta seção contém os seguintes artigos:
 
-* [Introdução a [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
+* [Introdução ao  [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
 * [Exibir projetos em [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
-* [Filtrar listas de projetos em [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
-* [Atualizar widgets na [!UICONTROL Detalhes do projeto] exibir](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
+* [Filtrar listas de projetos em  [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
+* [Atualizar widgets no modo de exibição [!UICONTROL Detalhes do Projeto]](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
 * [Adicionar atualizações em [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)

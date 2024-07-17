@@ -54,9 +54,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms personalizado.**
+1. Clique em **Forms Personalizado.**
 1. Selecione o formulário personalizado que deseja usar como base para um novo formulário personalizado e clique em ![Ícone Copiar](assets/copy-icon.png).
-1. No **Personalizar cópia do formulário** que for exibida, digite as seguintes informações:
+1. Na caixa **Cópia de Formulário Personalizada** exibida, digite as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -68,7 +68,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Tipos de formulário </p> </td> 
-      <td> <p>No <b>Tipo de formulário</b> , selecione os tipos de objeto com os quais você deseja que o formulário personalizado funcione e clique no X ao lado de qualquer tipo que você deseja remover. Os tipos que já estão associados ao formulário estão desabilitados na lista.</p> 
+      <td> <p>Na caixa <b>Tipo de Formulário</b>, selecione os tipos de objeto com os quais deseja que o formulário personalizado funcione e clique no X ao lado de todos os tipos que deseja remover. Os tipos que já estão associados ao formulário estão desabilitados na lista.</p> 
       <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>O formulário deve estar associado a pelo menos um tipo de objeto.</p> 
       </td> 
@@ -82,13 +82,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Da mesma forma, se uma opção de acesso para uma quebra de seção no formulário original não for compatível com um tipo de objeto adicionado ao novo, uma mensagem solicitará que você ajuste a opção.
 
-1. Selecione o formulário que acabou de copiar e clique em **Editar**.
+1. Selecione o formulário que você acabou de copiar e clique em **Editar**.
 1. Faça quaisquer alterações no formulário, conforme explicado nos seguintes artigos:
 
    * [Copie um formulário personalizado para criar um novo com o construtor de formulários herdado](#Add2)
    * [Adicionar dados calculados a um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Posicionar campos e widgets personalizados em um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Adicionar ou editar um widget de ativo em um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Posicione campos e widgets personalizados em um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Adicione ou edite um widget de ativo em um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [Reutilizar um campo personalizado calculado existente em um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Adicionar lógica de exibição e lógica de salto a um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Pré-visualizar e preencher um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

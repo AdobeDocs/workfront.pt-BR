@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
 source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Alguns exemplos de dependências de tarefas que podem influenciar ou impedir o r
   </tr> 
   <tr> 
    <td role="rowheader"><p>Cálculos de linha do tempo</p></td> 
-   <td>A Workfront não executa cálculos automáticos de cronograma para projetos que não foram atualizados em 6 meses e não retomarão até que uma atualização seja feita.<p>Para projetos que não são atualizados há três meses, o Workfront realiza cálculos de cronograma semanalmente em vez de à noite.</p><p>Para obter informações sobre como calcular a linha do tempo do projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular linhas do tempo do projeto</a>. </p></td> 
+   <td>A Workfront não executa cálculos automáticos de cronograma para projetos que não foram atualizados em 6 meses e não retomarão até que uma atualização seja feita.<p>Para projetos que não são atualizados há três meses, o Workfront realiza cálculos de cronograma semanalmente em vez de à noite.</p><p>Para obter informações sobre como calcular a linha de tempo do projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular linhas de tempo do projeto</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -11,7 +11,7 @@ exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -78,12 +78,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Definir manualmente a data de conclusão planejada de um projeto
 
@@ -96,20 +96,20 @@ Você deve definir manualmente a Data de conclusão planejada de um projeto ao p
 
 Para programar um projeto a partir da Data de Término:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Projetos**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e em **Projetos**.
 
-1. Clique em **Novo projeto** depois **Novo projeto**.
+1. Clique em **Novo projeto** e depois em **Novo projeto**.
 
    Para obter mais informações sobre como criar projetos, consulte o artigo [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Selecionar **Detalhes do projeto** no painel esquerdo, clique na guia **Editar Projeto** no canto superior direito.
+1. Selecione **Detalhes do projeto** no painel esquerdo e clique no ícone **Editar projeto** no canto superior direito.
 
-1. No **Modo de Cronograma** selecione **Data de Término**.
+1. No campo **Modo de Agendamento**, selecione **Data de Conclusão**.
 
-1. Especifique a **Data de Término Planejada** do projeto.
+1. Especifique a **Data de conclusão planejada** do projeto.
 1. Clique em **Salvar alterações**.
 
-   Ao começar a adicionar tarefas ao seu projeto, a variável **Data de Início Planejada** do projeto é calculada com base na Duração total de todas as tarefas. 
+   À medida que você começa a adicionar tarefas ao seu projeto, a **Data de início planejada** do projeto é calculada com base na Duração total de todas as tarefas. 
 
 ## Definir automaticamente a data de conclusão planejada de um projeto
 
@@ -117,22 +117,22 @@ A Data de conclusão planejada de um projeto é calculada automaticamente pela W
 
 Para programar um projeto a partir da Data Inicial:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Projetos**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e em **Projetos**.
 
-1. Clique em **Novo projeto** depois **Novo projeto**.
+1. Clique em **Novo projeto** e depois em **Novo projeto**.
 
    Para obter mais informações sobre como criar projetos, consulte o artigo [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Selecionar **Detalhes do projeto** no painel esquerdo, clique na guia **Editar Projeto** no canto superior direito.
+1. Selecione **Detalhes do projeto** no painel esquerdo e clique no ícone **Editar projeto** no canto superior direito.
 
-1. No **Modo de Cronograma** selecione **Data de início**.
+1. No campo **Modo de Agendamento**, selecione **Data de Início**.
 
 1. Especifique a **Data de Início Planejada** do projeto.
 1. Clique em **Salvar alterações**.
 
-   Ao começar a adicionar tarefas ao seu projeto, a variável **Data de Término Planejada** do projeto é calculada com base na Duração total de todas as tarefas. 
+   Quando você começa a adicionar tarefas ao seu projeto, a **Data de conclusão planejada** do projeto é calculada com base na Duração total de todas as tarefas. 
 
-   Para obter mais informações sobre a Duração da tarefa, consulte o artigo [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Para obter mais informações sobre a Duração da Tarefa, consulte o artigo [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    A Data de conclusão planejada do projeto coincide, neste caso, com a Data de conclusão planejada da última tarefa do projeto.
 

@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de tradução gerenciados por SDL
-description: Em um [!DNL Adobe Workfront Fusion] cenário, você pode conectar sua conta do SDL Managed Translation a vários aplicativos e serviços de terceiros.
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode conectar sua conta do SDL Managed Translation a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 1%
+source-wordcount: '530'
+ht-degree: 0%
 
 ---
 
 # [!DNL SDL Managed Translation] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, você pode conectar seu [!DNL SDL Managed Translation] conta para vários aplicativos e serviços de terceiros.
+Em um cenário do [!DNL Adobe Workfront Fusion], você pode conectar sua conta do [!DNL SDL Managed Translation] a vários aplicativos e serviços de terceiros.
 
 ## Requisitos de acesso
 
@@ -39,23 +39,23 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -63,29 +63,29 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 >[!NOTE]
 >
->O tempo limite da operação para chamadas a [!DNL SDL Managed Translation] é **120 segundos**.
+>O tempo limite da operação para chamadas a [!DNL SDL Managed Translation] é de **120 segundos**.
 
 ### Arquivos
 
-#### [!UICONTROL Baixar arquivo traduzido]
+#### [!UICONTROL Baixar Arquivo Traduzido]
 
-Este módulo recupera o conteúdo de um único arquivo traduzido, contido no projeto especificado. Se o arquivo solicitado ainda não estiver no status Downland, talvez o conteúdo do arquivo ainda não tenha sido totalmente traduzido. Se o arquivo estiver no status Download e você o tiver recuperado com êxito, certifique-se de marcar o arquivo como concluído usando o `Cancel or Complete File` método.
+Este módulo recupera o conteúdo de um único arquivo traduzido, contido no projeto especificado. Se o arquivo solicitado ainda não estiver no status Downland, talvez o conteúdo do arquivo ainda não tenha sido totalmente traduzido. Se o arquivo estiver no status Download e você o tiver recuperado com êxito, certifique-se de marcar o arquivo como concluído usando o método `Cancel or Complete File`.
 
 #### [!UICONTROL Carregar um arquivo]
 
-Esse módulo permite uploads de arquivos para tradução ou para inclusão em um projeto de tradução como material de referência. Os carregamentos devem ser enviados usando várias partes/dados de formulário e podem conter mais de um arquivo. Você especifica a `ProjectOptionId` que deve ser usado para avaliar os arquivos carregados. Isso determina se cada arquivo carregado é um possível candidato para tradução ou deve ser tratado como material de referência. No caso dos arquivos (`zip `, `rar`, `7z`, `tar` arquivos) o aplicativo examina o conteúdo do arquivamento e indica se o arquivamento como um todo pode ser traduzido ou se contém uma mistura de arquivos traduzíveis e não traduzíveis.
+Esse módulo permite uploads de arquivos para tradução ou para inclusão em um projeto de tradução como material de referência. Os carregamentos devem ser enviados usando várias partes/dados de formulário e podem conter mais de um arquivo. Você especifica o `ProjectOptionId` que deve ser usado para avaliar os arquivos carregados. Isso determina se cada arquivo carregado é um possível candidato para tradução ou deve ser tratado como material de referência. No caso de arquivos mortos (`zip `, `rar`, `7z`, `tar` arquivos), o aplicativo examina o conteúdo do arquivo morto e indica se o arquivo morto como um todo pode ser traduzido ou se contém uma mistura de arquivos traduzíveis e não traduzíveis.
 
 >[!NOTE]
 >
 >O upload de mais de um arquivo por vez não é recomendado, pois pode aumentar o impacto de qualquer falha.
 
-#### [!UICONTROL Adicionar um arquivo de referência]
+#### [!UICONTROL Adicionar um Arquivo de Referência]
 
 Este módulo adiciona um arquivo de referência.
 
 ### Projetos
 
-#### [!UICONTROL Criar um Projeto]
+#### [!UICONTROL Criar um projeto]
 
 Este módulo cria o projeto especificado.
 
@@ -93,23 +93,23 @@ Este módulo cria o projeto especificado.
 
 Este módulo cancela ou conclui o projeto especificado. Se o projeto estiver aguardando o download, ele passará por todas as etapas finais do fluxo de trabalho e, eventualmente, será movido para a conclusão. Se o projeto estiver aguardando aprovação ou a seleção do fornecedor for cancelada. Se o projeto estiver em qualquer outro status, a solicitação falhará.
 
-#### [!UICONTROL Baixar o zip do projeto]
+#### [!UICONTROL Baixar o Zip do Projeto]
 
-Este módulo obtém o `zip` arquivo de arquivos traduzidos para o projeto especificado.
+Este módulo obtém o arquivo `zip` de arquivos traduzidos para o projeto especificado.
 
 #### [!UICONTROL Ler um projeto]
 
 Este módulo obtém o projeto especificado.
 
-#### [!UICONTROL Obter Projetos com Status]
+#### [!UICONTROL Obter Projetos no Status]
 
-Este módulo obtém todos os projetos disponíveis no status especificado. Esse método permite que os resultados sejam paginados, especificando `$top`, `$skip`, e `$orderby` parâmetros de consulta.
+Este módulo obtém todos os projetos disponíveis no status especificado. Este método permite que os resultados sejam paginados, especificando `$top`, `$skip` e `$orderby` parâmetros de consulta.
 
-#### [!UICONTROL Obter lista de projetos]
+#### [!UICONTROL Obter Lista de Projetos]
 
-Obtém uma lista simples de todos os projetos, fornecendo informações gerais sobre cada projeto. Esse método permite que os resultados sejam páginas, especificando `$top`, `$skip`, e `$orderby` parâmetros de consulta.
+Obtém uma lista simples de todos os projetos, fornecendo informações gerais sobre cada projeto. Este método permite que os resultados sejam páginas, especificando `$top`, `$skip` e `$orderby` parâmetros de consulta.
 
-#### [!UICONTROL Pesquisar opções de criação de projeto]
+#### [!UICONTROL Pesquisar Opções de Criação de Projeto]
 
 Este módulo obtém Opções de Criação de Projeto.
 

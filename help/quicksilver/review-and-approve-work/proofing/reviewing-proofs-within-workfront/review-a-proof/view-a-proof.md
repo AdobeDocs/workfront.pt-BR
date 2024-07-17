@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -37,12 +37,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
 ## Alterar a exibição da prova
 
@@ -89,7 +89,7 @@ O painel Miniaturas é exibido por padrão. É possível ocultar ou ajustar o ta
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.
 
-1. Clique em **Miniatura** no canto superior esquerdo do revisor de provas.\
+1. Clique no ícone de **Miniatura** no canto superior esquerdo do visualizador de provas.\
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Opcional) Clique no ícone Miniatura novamente para exibir o painel Miniaturas.
@@ -110,7 +110,7 @@ Para aplicar zoom e panorâmica na exibição em miniatura:
 1. Localize a área de zoom atual no painel Miniaturas.\
    A área de zoom é exibida como um quadro azul ao redor das bordas da miniatura.
 
-   ![zoom_thumbnail_frame.png](assets/zoom-thumbnail---frame-350x215.png)
+   ![zoom_thumbnail_-_frame.png](assets/zoom-thumbnail---frame-350x215.png)
 
 1. Para ajustar o tamanho da área de zoom, arraste o canto inferior direito da área de zoom até que seja o tamanho desejado.
 1. Para mover a área de zoom para outra parte da prova, arraste a área de zoom até que ela cubra a parte da prova que você deseja visualizar.
@@ -122,11 +122,11 @@ Você pode girar a prova no visualizador de provas. Ao girar uma prova que cont�
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.
 
-1. Clique em **Girar** ícone na parte inferior do revisor de provas.
+1. Clique no ícone **Girar** na parte inferior do visualizador de provas.
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   A prova é girada 90 graus sempre que você clica no ícone **Girar** ícone.
+   A prova é girada 90 graus sempre que você clica no ícone **Girar**.
 
 ## Aplicar zoom e panorâmica em uma prova
 
@@ -137,21 +137,21 @@ Você pode girar a prova no visualizador de provas. Ao girar uma prova que cont�
 
 1. Siga um destes procedimentos para ajustar a porcentagem de zoom da prova:
 
-   * Clique em **Zoom** e clique na prova para exibi-la em um nível de zoom mais alto ou arraste sobre uma área da prova para exibir somente essa área.
+   * Clique no ícone **Zoom** e clique na prova para exibi-la em um nível de zoom mais alto ou arraste por uma área da prova para exibir somente essa área.
 
      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
-   * Clique na porcentagem de zoom atual, clique em uma nova porcentagem de zoom ou clique em **Ajustar à largura**, **Ajustar à altura** ou **Ajustar à página**.
+   * Clique na porcentagem de zoom atual, em uma nova porcentagem de zoom ou em **Ajustar à largura**, **Ajustar à altura** ou **Ajustar à página**.
 
      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-   * Clique em **Plus** ou **Menos** para aumentar ou diminuir a porcentagem de zoom.
+   * Clique nos ícones **Mais** ou **Menos** para aumentar ou diminuir a porcentagem de zoom.
 
-     ![change_zoom_percentage_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. Se precisar se deslocar para uma determinada área na prova de vídeo, clique no botão **Panorâmica** e arraste a prova conforme necessário.
+1. Se precisar se deslocar para uma determinada área na prova de vídeo, clique no ícone **Panorâmica** e arraste a prova conforme necessário.
 
-   ![change_zoom_pan_png](assets/change-zoom---pan-350x36.png)
+   ![alterar_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 
    >[!TIP]
    >

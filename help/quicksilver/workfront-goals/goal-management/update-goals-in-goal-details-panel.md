@@ -54,7 +54,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -64,7 +64,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso*</td>
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Clique no nome de uma meta na Lista de metas e clique no nome de uma meta.
 
-   Isso abre o **Detalhes da meta** à esquerda.
+   Isso abre a seção **Detalhes da meta** à esquerda.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Clique em **Ícone Editar** ![](assets/edit-icon.png) no canto superior direito e clique em **Editar tudo** ou **Visão geral**
+1. Clique no **ícone Editar** ![](assets/edit-icon.png) no canto superior direito e clique em **Editar tudo** ou **Visão geral**
 
    Ou
 
@@ -196,14 +196,14 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Atualize ou revise os seguintes campos:
 
-   * **Descrição**: adicione ou atualize as informações sobre a meta.
-   * **Progresso**: indica que porcentagem da meta foi concluída até o momento. Não é possível atualizar manualmente o progresso de uma meta. O progresso da meta é um cálculo de todos os indicadores de progresso.
+   * **Descrição**: adicionar ou atualizar informações sobre a meta.
+   * **Progresso**: indica que porcentagem da meta foi concluída até agora. Não é possível atualizar manualmente o progresso de uma meta. O progresso da meta é um cálculo de todos os indicadores de progresso.
    * **Condição**: indica se a meta é nova e ainda não foi atualizada, se está no destino a ser concluído no prazo ou atrasada. Não é possível atualizar a condição de uma meta. A condição da meta é calculada automaticamente pelo Worfront.\
      Para obter mais informações sobre a condição da meta e o progresso, consulte
-     [Visão geral do progresso e da condição da meta no Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
-   * **Status**: não é possível atualizar manualmente o status de uma meta. Para obter mais informações, consulte [Visão geral do status da meta no Adobe Workfront Goals](../goal-management/goal-status-overview.md).
-   * **Proprietário da meta**: Clique em para atualizar o nome do proprietário da meta. Comece digitando o nome de um usuário, equipe, grupo ou o nome de sua organização e selecione-o quando ele for exibido na lista. Você pode ter apenas um proprietário para uma meta.
-   * **Meta principal**: comece digitando o nome de uma meta que você deseja definir como principal da meta selecionada. O progresso da meta selecionada atualizará automaticamente o progresso da meta principal.
+     [Visão geral do progresso e da condição da meta nas Metas do Adobe Workfront](../goal-management/calculate-goal-progress.md).
+   * **Status**: não é possível atualizar manualmente o status de uma meta. Para obter mais informações, consulte [Visão geral do status da meta em Metas do Adobe Workfront](../goal-management/goal-status-overview.md).
+   * **Proprietário da meta**: clique para atualizar o nome do proprietário da meta. Comece digitando o nome de um usuário, equipe, grupo ou o nome de sua organização e selecione-o quando ele for exibido na lista. Você pode ter apenas um proprietário para uma meta.
+   * **Meta principal**: comece a digitar o nome de uma meta que você deseja definir como principal da meta selecionada. O progresso da meta selecionada atualizará automaticamente o progresso da meta principal.
 
      >[!TIP]
      >
@@ -214,9 +214,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
      >      
      >Você deve atualizar essas informações na própria meta principal.
 
-   * **Período**: Clique para atualizar o período de tempo da meta\
+   * **Período**: clique para atualizar o período de tempo da meta\
      Ou\
-     Selecionar **Habilitar datas personalizadas** para especificar datas para a meta **Início** e **Datas finais**.
-   * **Notas finais**: este campo é visível somente para metas com status de Fechado. Metas fechadas não podem ser editadas. Reabrir uma meta fechada exclui permanentemente as notas de fechamento.
+     Selecione **Habilitar datas personalizadas** para especificar datas para as **Datas de início** e **Datas de término** da meta.
+   * **Notas de fechamento**: este campo está visível somente para metas com o status Fechado. Metas fechadas não podem ser editadas. Reabrir uma meta fechada exclui permanentemente as notas de fechamento.
 
 

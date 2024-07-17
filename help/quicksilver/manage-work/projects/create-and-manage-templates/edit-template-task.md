@@ -18,7 +18,7 @@ ht-degree: 4%
 
 Após criar um modelo, você pode editar as informações sobre as tarefas do modelo. As informações atualizadas em uma tarefa de modelo são associadas às tarefas do projeto depois de usar o modelo para criar um projeto ou anexar o modelo a um projeto.
 
-Para obter informações sobre como criar um template, consulte [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
+Para obter informações sobre como criar um modelo, consulte [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
 Você pode editar tarefas de modelo ou editar tarefas de modelo em massa.
 
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto </td> 
-   <td> <p>Gerenciar permissões de um modelo. </p> <p>Permissões do Contribute ou superior para a tarefa de modelo.</p> </td> 
+   <td> <p>Gerenciar permissões de um modelo. </p> <p>Contribute ou permissões mais altas para a tarefa de modelo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Antes de começar, você deve
 
 * Criar um modelo.
 
-  Para obter informações sobre como criar um template, consulte [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
+  Para obter informações sobre como criar um modelo, consulte [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
 ## Editar tarefa de modelo
 
@@ -72,12 +72,12 @@ Antes de começar, você deve
 {{step1-to-templates}}
 
 1. Clique no nome de um template para abri-lo.
-1. Clique em **Modelos de Tarefa** no painel esquerdo.
+1. Clique em **Tarefas de modelo** no painel esquerdo.
 1. Clique no nome de uma tarefa de modelo na lista para abrir a tarefa de modelo.
 1. (Opcional) Para editar várias tarefas de modelo em massa, selecione várias tarefas de modelo e clique em **Editar** na parte superior da lista de modelos.
-1. (Condicional) Para editar informações limitadas sobre uma tarefa de modelo, clique em **Detalhes do Modelo de Tarefa** no painel esquerdo, vá para as áreas da seção Detalhes para editar as informações de cada área.
-1. (Opcional) Clique no link **Recolher tudo** ícone ![](assets/collapse-all-icon.png) para recolher todas as áreas.
-1. Para editar informações na seção Detalhes, clique no link **Editar** ícone ![](assets/edit-icon.png), selecione uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
+1. (Condicional) Para editar informações limitadas sobre uma tarefa de modelo, clique em **Detalhes da Tarefa de Modelo** no painel esquerdo e vá para as áreas da seção Detalhes para editar as informações de cada área.
+1. (Opcional) Clique no ícone ![](assets/collapse-all-icon.png) de **Recolher tudo** para recolher todas as áreas.
+1. Para editar informações na seção Detalhes, clique no ícone ![](assets/edit-icon.png) de **Editar** e selecione qualquer uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
 
    * Visão geral
    * Formulários personalizados
@@ -90,9 +90,9 @@ Antes de começar, você deve
    >
    >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar Tarefa de Modelo abaixo.
 
-1. (Condicional) Para editar todas as informações sobre a tarefa de modelo, clique no link **Mais** menu ![](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa de modelo e clique em **Editar**.
+1. (Condicional) Para editar todas as informações sobre a tarefa de modelo, clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa de modelo e clique em **Editar**.
 
-   A variável **Editar Modelo de Tarefa** é exibida.
+   A caixa **Editar Tarefa de Modelo** é exibida.
 
    >[!TIP]
    >
@@ -139,47 +139,47 @@ Antes de começar, você deve
       <td> <p>Este é um sinalizador visual para você que permite priorizar suas tarefas de modelo. </p> <p>Selecione entre as seguintes opções:</p> 
        <ul> 
         <li> <p><strong>Nenhum</strong> </p> </li> 
-        <li> <p><strong>Baixa</strong> </p> </li> 
+        <li> <p><strong>Baixo</strong> </p> </li> 
         <li> <p> <b>Normal</b></p> </li> 
         <li> <p><b>Alta</b> </p> </li> 
         <li> <p><b>Urgente</b> </p> </li> 
-       </ul> <p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter mais informações sobre edição de prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Criar e personalizar prioridades</a>.</p> </td> 
+       </ul> <p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter mais informações sobre como editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Criar e personalizar prioridades</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipo de Duração</strong> </td> 
-      <td> <p>A tarefa futura criada a partir desse modelo terá esse Tipo de Duração. <br>O Tipo de Duração identifica a relação entre o seguinte:</p> <p>- número de recursos atribuídos a uma tarefa</p> <p>- o esforço total necessário para concluir a tarefa</p> <p>- a duração total da tarefa. </p> <p>Os Tipos de duração permitem definir atribuições de recursos consistentes com base nas necessidades da tarefa. Para obter mais informações sobre o Tipo de Duração de uma tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> <p>Selecione entre as seguintes opções:</p> 
+      <td> <p>A tarefa futura criada a partir desse modelo terá esse Tipo de Duração. <br>O tipo de duração identifica a relação entre o seguinte:</p> <p>- número de recursos atribuídos a uma tarefa</p> <p>- o esforço total necessário para concluir a tarefa</p> <p>- a duração total da tarefa. </p> <p>Os Tipos de duração permitem definir atribuições de recursos consistentes com base nas necessidades da tarefa. Para obter mais informações sobre o Tipo de Duração de uma tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> <p>Selecione entre as seguintes opções:</p> 
        <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Atribuição Calculada</span> </p> </li> 
+        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Atribuição calculada</span> </p> </li> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Trabalho Calculado</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Orientado pelo esforço</span> </p> </li> 
+        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Orientado pelo Esforço</span> </p> </li> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Simples</span> <br> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Duração</strong> </td> 
-      <td> <p>Especifique a Duração das tarefas futuras, em minutos, horas, dias, semanas ou meses. A tarefa futura criada a partir desse modelo terá a Duração especificada aqui.</p> <p>Por padrão, o Workfront mede a Duração em dias. Período permitido para que a tarefa permaneça incompleta antes de ser concluída. Não é possível especificar a Duração de uma tarefa quando a variável <strong>Tipo de Duração</strong> da tarefa é <strong>Simples</strong>ou quando a variável <strong>Restrição de Tarefa</strong> é <strong>Datas Fixas</strong>.</p> <p><b>IMPORTANTE</b></p> <p>Normalmente, a Duração é a quantidade de tempo entre o Início planejado e as Datas de conclusão planejadas de uma tarefa de modelo e, por esse motivo, afeta a linha do tempo do modelo. Isso determina a linha do tempo do projeto futuro criado a partir do modelo. </p> </td> 
+      <td> <p>Especifique a Duração das tarefas futuras, em minutos, horas, dias, semanas ou meses. A tarefa futura criada a partir desse modelo terá a Duração especificada aqui.</p> <p>Por padrão, o Workfront mede a Duração em dias. Período permitido para que a tarefa permaneça incompleta antes de ser concluída. Você não pode especificar a Duração de uma tarefa quando o <strong>Tipo de Duração</strong> da tarefa é <strong>Simples</strong>, ou quando a <strong>Restrição de Tarefa</strong> é <strong>Datas Fixas</strong>.</p> <p><b>IMPORTANTE</b></p> <p>Normalmente, a Duração é a quantidade de tempo entre o Início planejado e as Datas de conclusão planejadas de uma tarefa de modelo e, por esse motivo, afeta a linha do tempo do modelo. Isso determina a linha do tempo do projeto futuro criado a partir do modelo. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Horas planejadas</strong> </td> 
-      <td> <p>Especifique o número de Horas planejadas para a tarefa futura no projeto criado com este modelo. Essa é a quantidade de tempo real que os atribuídos da tarefa levariam para concluí-la. Você só pode especificar o número de Horas planejadas para uma tarefa quando a variável <strong>Tipo de Duração</strong> está definida como <strong>Atribuição Calculada</strong>. </p> </td> 
+      <td> <p>Especifique o número de Horas planejadas para a tarefa futura no projeto criado com este modelo. Essa é a quantidade de tempo real que os atribuídos da tarefa levariam para concluí-la. Você só pode especificar o número de Horas Planejadas para uma tarefa quando o <strong>Tipo de Duração</strong> está definido como <strong>Atribuição Calculada</strong>. </p> </td> 
      </tr>
 
    <tr> 
       <td role="rowheader"><strong>Restrição de Tarefa</strong> </td> 
       <td> <p>A tarefa no projeto criado a partir deste modelo terá esta restrição. Restrições de Tarefa identificam quando uma tarefa deve ser concluída. </p> <p>Selecione entre as seguintes opções:</p> 
        <ul> 
-        <li><strong>Datas Fixas</strong>. Especificar um <strong>Início Planejado</strong> e uma <strong>Data de conclusão planejada.</strong></li> 
-        <li><strong>Precisa Iniciar Em</strong>. Especificar um <strong>Data de Início Planejada.</strong></li> 
-        <li><strong>Deve Terminar Em</strong>. Especificar um <strong>Data de Término Planejada</strong>.</li> 
-        <li><strong>Assim que possível</strong> </li> 
-        <li><strong>O mais tarde possível</strong> </li> 
+        <li><strong>Datas Fixas</strong>. Especifique um <strong>Início Planejado</strong> e uma <strong>Data de Conclusão Planejada.</strong></li> 
+        <li><strong>Deve Iniciar Em</strong>. Especifique uma <strong>Data de Início Planejada.</strong></li> 
+        <li><strong>Deve Terminar Em</strong>. Especifique uma <strong>Data de conclusão planejada</strong>.</li> 
+        <li><strong>O Mais Breve Possível</strong> </li> 
+        <li><strong>O Mais Tarde Possível</strong> </li> 
         <li style="font-weight: bold;"><strong>Momento Mais Cedo Disponível</strong> </li> 
-        <li style="font-weight: bold;"><strong>Último horário disponível</strong> </li> 
-        <li>Não Iniciar Depois De. Especificar um <strong>Data de Início Planejada</strong>.</li> 
-        <li><strong>Não Iniciar Antes De</strong>. Especificar um <strong>Data de Início Planejada</strong>.</li> 
-        <li><strong>Não Terminar Depois De</strong>. Especificar um <strong>Data de Término Planejada</strong>.</li> 
-        <li><strong>Não Terminar Antes De</strong>. Especificar um <strong>Data de Término Planejada</strong>.</li> 
-       </ul> <p>Para obter mais informações sobre Restrição de Tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral de Restrição de Tarefa</a>.</p> </td> 
+        <li style="font-weight: bold;"><strong>Último Horário Disponível</strong> </li> 
+        <li>Não Iniciar Depois De. Especifique uma <strong>Data de Início Planejada</strong>.</li> 
+        <li><strong>Não Iniciar Antes De</strong>. Especifique uma <strong>Data de Início Planejada</strong>.</li> 
+        <li><strong>Não Terminar Depois De</strong>. Especifique uma <strong>Data de conclusão planejada</strong>.</li> 
+        <li><strong>Não Terminar Antes De</strong>. Especifique uma <strong>Data de conclusão planejada</strong>.</li> 
+       </ul> <p>Para obter mais informações sobre Restrição de Tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral sobre Restrição de Tarefa</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">Dia de Início</span><span style="font-weight: normal;"> (Opcional e condicional)</span> </td> 
@@ -228,9 +228,9 @@ Antes de começar, você deve
       <td> <p>Especifique o Tipo de Custo para a tarefa futura. Isso vai determinar como o Custo na tarefa é calculado, com base no número de horas nas tarefas. </p> <p>Selecione entre as seguintes opções:</p> 
        <ul> 
         <li> <p style="font-weight: normal;"><span>Sem Custo</span> </p> </li> 
-        <li> <p style="font-weight: normal;"><span>Horas por Valor de Hora Fixo</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Horas Fixas</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Usuário por hora</span> </p> </li> 
-        <li> <p style="font-weight: normal;"><span>Função por hora</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Função por Hora</span> </p> </li> 
        </ul> <p>Para obter mais informações sobre o rastreamento de custos, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -282,12 +282,12 @@ Antes de começar, você deve
       <td role="rowheader"><strong>Modo de Acompanhamento</strong> </td> 
       <td> <p>Especifique como o status de progresso da futura tarefa será rastreado. </p> <p>Selecione entre as seguintes opções:</p> 
        <ul> 
-        <li> <p><strong>Usuário deve atualizar</strong> </p> </li> 
+        <li> <p><strong>O Usuário Deve Atualizar</strong> </p> </li> 
         <li> <p><strong>Assumir no Prazo</strong> </p> </li> 
         <li> <p><strong>Ignorar avisos de atrasos</strong> </p> </li> 
-        <li> <p><strong>Preenchimento automático</strong> </p> </li> 
+        <li> <p><strong>Preenchimento Automático</strong> </p> </li> 
         <li> <p><strong>Predecessora</strong> </p> </li> 
-       </ul> <p>Para obter mais informações sobre o Modo de rastreamento nas tarefas, consulte <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Visão geral do modo de rastreamento de tarefas</a>.</p> </td> 
+       </ul> <p>Para obter mais informações sobre o Modo de Acompanhamento nas tarefas, consulte <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Visão geral do Modo de Acompanhamento de Tarefas</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Processo de aprovação</strong> </td> 
@@ -295,18 +295,18 @@ Antes de começar, você deve
        <ul> 
        <li>Somente os processos de aprovação ativos são exibidos na lista. </li> 
        <li> <p>Os processos de aprovação específicos do grupo e de todo o sistema são exibidos na lista. Os processos de aprovação associados a um grupo diferente daquele do modelo não são exibidos na lista.</p> <p>Importante: se o grupo associado ao modelo for alterado, o processo de aprovação específico do grupo se tornará um processo de aprovação de uso único. Para obter mais informações sobre como as alterações no grupo do projeto ou no processo de aprovação afetam as configurações de aprovação, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos</a>. </p> </li> 
-       <li> <p>Se você tiver adicionado um processo de aprovação de uso único, ele será exibido como "&lt;custom&gt;" neste campo. Para obter informações, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>. </p> <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>--> </li> 
+       <li> <p>Se você adicionou um processo de aprovação de uso único, ele é exibido como "&lt;Custom&gt;" neste campo. Para obter informações, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>. </p> <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>--> </li> 
        <li> <p>Quando tarefas de modelo de edição em massa, os seguintes cenários existem:</p> 
        <ul> 
        <li> <p>Quando você seleciona tarefas de modelo do mesmo grupo de modelo, os processos de aprovação no nível do sistema e no nível do grupo são exibidos nesse campo.</p> </li> 
        <li> <p>Quando você seleciona tarefas de modelo de diferentes grupos de modelo, somente os processos de aprovação no nível do sistema são exibidos nesse campo.</p> </li> 
-       <li> <p>Quando qualquer uma das tarefas de modelo tiver um processo de aprovação de uso único anexado, ele será substituído pelo processo no nível do sistema <span>ou processo de aprovação em nível de grupo</span> selecione. </p> </li> 
+       <li> <p>Quando qualquer uma das tarefas de modelo tiver um processo de aprovação de uso único anexado, ela será substituída pelo <span>processo de aprovação de nível de sistema ou de grupo</span> selecionado. </p> </li> 
        </ul> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Notificações de lembrete</strong> </td> 
-      <td> <p>Selecione quais Notificações de Lembrete você deseja anexar à tarefa de modelo. Elas serão anexadas às tarefas futuras no projeto criado a partir deste modelo. O administrador do sistema deve configurar Notificações de Lembrete antes de selecioná-las em uma tarefa. Para obter mais informações sobre como configurar Notificações de lembrete, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificações de lembrete</a>.</p> </td> 
+      <td role="rowheader"><strong>Notificações de Lembrete</strong> </td> 
+      <td> <p>Selecione quais Notificações de Lembrete você deseja anexar à tarefa de modelo. Elas serão anexadas às tarefas futuras no projeto criado a partir deste modelo. O administrador do sistema deve configurar Notificações de Lembrete antes de selecioná-las em uma tarefa. Para obter mais informações sobre como configurar Notificações de Lembrete, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificações de lembrete</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -324,17 +324,17 @@ Antes de começar, você deve
 
    ![atribuições_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
 
-1. Clique em **Adicionar atribuidor** para adicionar um novo destinatário à tarefa de modelo. É possível atribuir usuários, funções ou equipes a uma tarefa. Você pode ter vários atribuídos em uma tarefa. As tarefas futuras terão os mesmos recursos atribuídos a ela quando criadas a partir desta tarefa de modelo.
-1. (Opcional) Se você tiver vários atribuídos, selecione o **Proprietário** botão de opção para indicar qual usuário ou função é considerado o Proprietário da tarefa ou o Destinatário principal. O Workfront marca o primeiro usuário ou função de trabalho atribuída a uma tarefa de modelo como Proprietário ou Designado Principal.
-1. (Condicional e opcional) Se a sua Restrição de Tarefa for Calculada com Base em Trabalho ou Esforço, especifique o **Alocação %** (porcentagem de alocação) para cada destinatário. Quantidade de tempo do agendamento do destinatário que ele pode gastar nesta tarefa. Alterar a porcentagem de alocação para um destinatário irá alterar as Horas planejadas de uma tarefa.
-1. (Condicional e opcional) Se a Restrição da tarefa for Simples, especifique a **Horas** de cada responsável
+1. Clique em **Adicionar responsável** para adicionar um novo responsável à tarefa de modelo. É possível atribuir usuários, funções ou equipes a uma tarefa. Você pode ter vários atribuídos em uma tarefa. As tarefas futuras terão os mesmos recursos atribuídos a ela quando criadas a partir desta tarefa de modelo.
+1. (Opcional) Se você tiver vários atribuídos, selecione o botão de opção **Proprietário** para indicar qual usuário ou função é considerado o Proprietário da Tarefa ou o Atribuído Principal. O Workfront marca o primeiro usuário ou função de trabalho atribuída a uma tarefa de modelo como Proprietário ou Designado Principal.
+1. (Condicional e opcional) Se a Restrição da sua Tarefa for Trabalho Calculado ou Orientado pelo Esforço, especifique a **Alocação %** (porcentagem de alocação) para cada destinatário. Quantidade de tempo do agendamento do destinatário que ele pode gastar nesta tarefa. Alterar a porcentagem de alocação para um destinatário irá alterar as Horas planejadas de uma tarefa.
+1. (Condicional e opcional) Se a sua Restrição de tarefa for Simples, especifique as **Horas** de cada destinatário
 
    Ou
 
    Especifique o número total de **Horas planejadas** para a tarefa de modelo. Isso distribui o total de horas igualmente entre todos os atribuídos.
 
 1. (Condicional e opcional) Se a Restrição da tarefa for Simples, especifique a **Duração** da tarefa de modelo em dias. Esta será a duração da tarefa criada a partir deste modelo.
-1. (Opcional) Selecione uma função na **Função do atribuidor** menu suspenso. Essa é a função que o destinatário pode desempenhar nessa tarefa futura. Somente as funções de trabalho associadas a cada destinatário em seu perfil são exibidas no menu suspenso.
+1. (Opcional) Selecione uma função no menu suspenso **Função do destinatário**. Essa é a função que o destinatário pode desempenhar nessa tarefa futura. Somente as funções de trabalho associadas a cada destinatário em seu perfil são exibidas no menu suspenso.
 1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar.
 
    Ou
@@ -346,7 +346,7 @@ Antes de começar, você deve
 Você pode definir formulários personalizados padrão para serem anexados automaticamente a tarefas quando as tarefas forem adicionadas a um projeto. Para obter informações sobre como configurar o projeto para incluir formulários de tarefa personalizados padrão, consulte a seção &quot;Tarefas&quot; no artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Comece a editar uma tarefa conforme descrito acima. test
-1. Clique em **Forms personalizado**.
+1. Clique em **Forms Personalizado**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
@@ -357,7 +357,7 @@ Você pode definir formulários personalizados padrão para serem anexados autom
    >
    >Dependendo de como o administrador do Workfront definiu as permissões para as seções no formulário personalizado, nem todos podem exibir ou editar os mesmos campos em um determinado formulário personalizado. As permissões para editar campos em uma seção de um formulário personalizado dependem das permissões que você tem na tarefa de modelo ou na tarefa futura.\
    >Para obter informações sobre como configurar permissões em seções de um formulário personalizado, consulte [Compartilhar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).\
-   >Para obter informações sobre como configurar permissões de tarefas, consulte [Compartilhar uma tarefa](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).\
+   >Para obter informações sobre como definir permissões de tarefa, consulte [Compartilhar uma tarefa](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).\
    >Para obter informações sobre como definir permissões de modelo, consulte [Compartilhar um modelo](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. (Opcional) Continue editando a seção a seguir, dependendo das informações que você deseja modificar.

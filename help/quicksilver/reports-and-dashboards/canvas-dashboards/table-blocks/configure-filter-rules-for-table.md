@@ -36,29 +36,29 @@ Há três componentes em uma regra de filtro:
  </tbody> 
 </table>
 
-**Exemplo:** Se quiser limitar os resultados no relatório para exibir apenas os projetos pertencentes à Jane Doe, crie uma regra de filtro com o campo &quot;Proprietário do projeto&quot;, o operador &quot;Igual a&quot; e o valor &quot;Jane Doe&quot;.
+**Exemplo:** Se você quiser limitar os resultados no seu relatório para exibir somente projetos pertencentes a Jane Doe, crie uma regra de filtro com o campo &quot;Proprietário do Projeto&quot;, o operador &quot;Igual a&quot; e o valor &quot;Jane Doe&quot;.
 
 Ou você pode exibir somente projetos que tenham um proprietário de projeto atribuído, que teria o campo &quot;Proprietário do projeto&quot; e o operador &quot;Não está em branco&quot;.
 
 ## Pré-requisitos
 
-Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta do relatório do Canvas: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta da tela de relatório: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configurar regras de filtro para uma tabela
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
 
 1. Clique em **Novo relatório**.
 
    Ou
 
-   Vá para um relatório existente, clique no link **Menu Mais** ícone ![](assets/more-icon.png) no cabeçalho do relatório, selecione **Editar**.
+   Vá para um relatório existente, clique no ícone ![](assets/more-icon.png) do **Mais Menu** no cabeçalho do relatório e selecione **Editar**.
 
 1. Para agrupar linhas em uma nova tabela, arraste ou clique duas vezes em um bloco de tabela na tela.
 
    Ou
 
-   Para agrupar linhas em uma tabela existente, clique no **Editar** ícone ![](assets/edit-icon.png) no cabeçalho da tabela.
+   Para agrupar linhas em uma tabela existente, clique no ícone ![](assets/edit-icon.png) de **Editar** no cabeçalho da tabela.
 
 1. No painel direito, localize o campo pelo qual deseja filtrar a tabela e arraste-o para a seção Filtro.
 
@@ -75,7 +75,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
       <td> <p>Isso só retorna uma correspondência exata do valor pesquisado.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Não Igual a</strong> </td> 
+      <td role="rowheader"><strong>Não Igual A</strong> </td> 
       <td> <p>Isso só retorna resultados que não são correspondências exatas do valor pesquisado.</p> </td> 
      </tr> 
      <tr> 
@@ -83,23 +83,23 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
       <td> <p>O campo existe para o objeto, mas o campo ainda não recebeu um valor.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Não está em branco</strong> </td> 
+      <td role="rowheader"><strong>Não Está Em Branco</strong> </td> 
       <td> <p>O campo que você está filtrando existe e recebeu um valor.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Less Than</strong> </td> 
+      <td role="rowheader"><strong>É Menor Que</strong> </td> 
       <td> <p>Pesquisa todos os resultados com um valor menor do que o inserido, sem incluir o valor inserido.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>É menor que ou igual a</strong> </td> 
+      <td role="rowheader"><strong>É Menor Que Ou Igual A</strong> </td> 
       <td> <p>Pesquisa todos os resultados com um valor menor ou igual ao valor inserido.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>É maior que</strong> </td> 
+      <td role="rowheader"><strong>É Maior Que</strong> </td> 
       <td> <p>Pesquisa todos os resultados com um valor maior que o valor inserido, sem incluir o valor inserido.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>É maior que ou igual a</strong> </td> 
+      <td role="rowheader"><strong>É Maior Que Ou Igual A</strong> </td> 
       <td> <p>Pesquisa todos os resultados com valores maiores ou iguais ao valor inserido.</p> </td> 
      </tr> 
      <tr> 
@@ -111,7 +111,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
       <td> <p>Pesquisa o texto especificado em uma cadeia de caracteres de texto inteira.</p> <p>Por exemplo, usar "Contém Inf" captura qualquer coisa com "Inf" ou "inf", como a palavra "Infinito".</p> <p>Observação: O Adobe Workfront pesquisa a palavra ou frase inteira que você informa para cada regra de filtro. Por exemplo, se você estiver procurando campos com a frase "novo projeto" no nome, o Workfront não exibirá projetos que tenham somente "novo" ou "projeto" no nome ou frases que contenham palavras extras entre eles, como "novo projeto principal". O filtro localiza somente projetos com a frase exata "novo projeto" no nome.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Não contém</strong> </td> 
+      <td role="rowheader"><strong>Não Contém</strong> </td> 
       <td> <p>Isso filtra os itens que não têm texto especificado.</p> <p>Por exemplo, "não contém inf" retorna qualquer campo sem "Inf" ou "inf" em seus nomes.</p> </td> 
      </tr> 
     </tbody> 
@@ -121,11 +121,11 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
    >[!NOTE]
    >
-   >Os valores inseridos aqui são **não** distinção entre maiúsculas e minúsculas.
+   >Os valores inseridos aqui **não** diferenciam maiúsculas de minúsculas.
 
 1. (Opcional) Para adicionar outra regra de filtro ao seu conjunto de regras, faça o seguinte:
 
-   1. Arraste outro campo para a **Solte para adicionar outra regra** na seção Filtros abaixo da outra regra.
+   1. Arraste outro campo para a área **Soltar para adicionar outra regra** na seção Filtros abaixo da outra regra.
    1. Repita as etapas 4 a 6.
    1. Na lista suspensa de operadores à esquerda da nova regra, selecione **E** ou **OU**.
 
@@ -141,7 +141,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
         </tr> 
         <tr> 
          <td role="rowheader"> <p>OU</p> </td> 
-         <td> <p>Ao unir regras de filtro ou conjunto de regras com o operador OR, você indica que deseja <strong>pelo menos</strong> uma regra, ou conjunto de regras, nesse nível a ser atendido.</p> </td> 
+         <td> <p>Ao unir regras de filtro ou conjunto de regras com o operador OR, você indica que deseja que <strong>pelo menos</strong> uma regra, ou conjunto de regras, seja atendida nesse nível.</p> </td> 
         </tr> 
        </tbody> 
       </table>
@@ -152,6 +152,6 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 1. (Condicional) Para adicionar um conjunto de regras de filtro adicional, faça o seguinte:
 
-   1. Arraste o campo que deseja adicionar à **Adicionar um conjunto de regras** abaixo dos outros conjuntos de regras de filtro.
+   1. Arraste o campo que deseja adicionar à área **Adicionar um conjunto de regras** abaixo dos outros conjuntos de regras de filtro.
    1. Repita as etapas 4 a 7.
    1. Na lista suspensa de operadores à esquerda do novo conjunto de regras, selecione **E** ou **OU**. Esses operadores funcionam da mesma forma que os listados na Etapa 7, mas se aplicam a conjuntos de regras inteiros, não a regras individuais em um conjunto.****

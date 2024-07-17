@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 17 de janeiro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte a [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Ordem crescente padrão para Data de conclusão planejada e capacidade de agrupar por Data inicial planejada na Lista de trabalho da página inicial
 
@@ -33,7 +33,7 @@ Para facilitar e agilizar a localização dos itens que exigem sua atenção, ad
 
 Antes dessas melhorias, você poderia agrupar seus itens somente pela Data de conclusão planejada, bem como pela Data de confirmação.
 
-Para obter mais informações, consulte [Exibir itens na Lista de trabalho na área Página inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Para obter mais informações, consulte [Exibir itens na Lista de Trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ## Adicionar a área Minhas atualizações para todos os usuários licenciados
 

@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Acionadores instantâneos (webhooks) no [!DNL Adobe Workfront Fusion]
+title: Acionadores instantâneos (webhooks) em [!DNL Adobe Workfront Fusion]
 description: Muitos serviços fornecem webhooks para fornecer notificações instantâneas sempre que uma determinada alteração ocorrer no serviço. Para processar essas notificações, recomendamos que você use acionadores instantâneos. Este artigo descreve o uso e a funcionalidade de acionadores instantâneos no Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Acionadores instantâneos (webhooks) no [!DNL Adobe Workfront Fusion]
+# Acionadores instantâneos (webhooks) em [!DNL Adobe Workfront Fusion]
 
-Muitos serviços fornecem webhooks para fornecer notificações instantâneas sempre que uma determinada alteração ocorrer no serviço. Para processar essas notificações, recomendamos que você use acionadores instantâneos. Você pode reconhecê-los facilmente no [!DNL Adobe Workfront Fusion] devido à tag:
+Muitos serviços fornecem webhooks para fornecer notificações instantâneas sempre que uma determinada alteração ocorrer no serviço. Para processar essas notificações, recomendamos que você use acionadores instantâneos. Você pode reconhecê-los facilmente no [!DNL Adobe Workfront Fusion] por causa da tag:
 
 ![](assets/instant-350x256.png)
 
@@ -46,23 +46,23 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -78,7 +78,7 @@ Todas as mensagens de webhooks recebidos são armazenadas na fila do webhook.
 
    >[!NOTE]
    >
-   >Os dados de entrada do webhook são sempre armazenados na fila, independentemente de como você definiu a opção [!UICONTROL Dados] é confidencial (descrito na seção [O painel de configurações do cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)). Assim que os dados forem processados em um cenário, eles serão excluídos permanentemente do sistema.
+   >Os dados de entrada do webhook são sempre armazenados na fila, independentemente de como você definiu a opção [!UICONTROL Dados] como confidencial (descrita em [O painel de configurações do cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)). Assim que os dados forem processados em um cenário, eles serão excluídos permanentemente do sistema.
 
 ## Agendar acionadores instantâneos
 
@@ -86,7 +86,7 @@ Se o cenário contiver um acionador instantâneo, você poderá agendar sua exec
 
 ![](assets/schedule-setting-350x185.png)
 
-Nesse caso, o cenário será executado imediatamente quando [!DNL Workfront Fusion] O recebe novos dados do serviço. Depois que o cenário é executado, a quantidade total de webhooks pendentes em espera na fila é contada e o cenário executa quantos ciclos houver webhooks pendentes, processando um webhook por ciclo. Para obter mais informações, consulte [Execução de cenário, ciclos e fases em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Nesse caso, o cenário será executado imediatamente quando [!DNL Workfront Fusion] receber novos dados do serviço. Depois que o cenário é executado, a quantidade total de webhooks pendentes em espera na fila é contada e o cenário executa quantos ciclos houver webhooks pendentes, processando um webhook por ciclo. Para obter mais informações, consulte [Execução do cenário, ciclos e fases em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ Nesse caso, o cenário será executado imediatamente quando [!DNL Workfront Fusi
 >
 
 
-Se você usar qualquer configuração de programação diferente de [!UICONTROL Imediatamente], o cenário é executado nos intervalos especificados. Como vários webhooks podem ser coletados na fila durante o intervalo, é recomendável definir a variável [[!UICONTROL Número máximo de ciclos]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) para um valor maior que o padrão 1 para processar mais webhooks em uma execução de cenário:
+Se você usar qualquer outra configuração de agendamento que não [!UICONTROL Imediatamente], o cenário será executado nos intervalos especificados. Como vários webhooks podem ser coletados na fila durante o intervalo, é recomendável definir o [[!UICONTROL Número máximo de ciclos]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) com um valor maior que o padrão 1 para processar mais webhooks em uma execução de cenário:
 
-1. Clique em [!UICONTROL Configurações de cenário] ícone ![](assets/gear-icon-settings.png) na parte inferior do seu cenário.
-1. No **[!UICONTROL Configurações de cenário]** que for exibida, digite um número na caixa **[!UICONTROL Número máximo de ciclos]** para indicar o número de webhooks da fila que deseja executar sempre que o cenário for executado.
+1. Clique no ícone ![](assets/gear-icon-settings.png) de [!UICONTROL Configurações de cenário] na parte inferior do cenário.
+1. Na caixa **[!UICONTROL Configurações de cenário]** exibida, digite um número na caixa **[!UICONTROL Número máximo de ciclos]** para indicar o número de webhooks da fila que você deseja executar sempre que executar o cenário.
 
 ## Limites de taxa
 
@@ -116,18 +116,18 @@ Um webhook que não foi atribuído a nenhum cenário por mais de 120 horas é re
 
 ## Cargas do Webhook
 
-[!DNL Workfront Fusion] O armazena cargas do webhook por 30 dias. Acessar uma carga de webhook mais de 30 dias após sua criação resulta no erro &quot;[!UICONTROL Falha ao ler o arquivo do armazenamento.]&quot;
+O [!DNL Workfront Fusion] armazena cargas de webhook por 30 dias. Acessar uma carga de webhook mais de 30 dias após sua criação resulta no erro &quot;[!UICONTROL Falha ao ler arquivo do armazenamento.]&quot;
 
 ## Tratamento de erros
 
 Quando há um erro no seu cenário com um acionador instantâneo, o cenário:
 
-* Para imediatamente - quando o cenário está definido para execução [!UICONTROL Imediatamente].
+* Para imediatamente - quando o cenário está definido para ser executado [!UICONTROL Imediatamente].
 * Interrupções após 3 tentativas malsucedidas (3 erros) - quando o cenário está definido para ser executado como programado.
 
 Se ocorrer um erro durante a execução do cenário, o webhook será colocado de volta na fila durante a fase de reversão do acionador instantâneo. Em tal situação, você tem a possibilidade de corrigir o cenário e executá-lo novamente. Para obter mais informações, consulte [Reversão](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) no artigo [Execução de cenário, ciclos e fases em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
-Se houver um módulo de resposta do Webhook em seu cenário, o erro será enviado para a resposta do Webhook. O módulo de resposta do Webhook é sempre executado por último (no caso em que a variável [!UICONTROL Confirmar automaticamente] nas configurações de Cenário não está habilitada). Para obter mais informações, consulte [Resposta a webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) no artigo [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+Se houver um módulo de resposta do Webhook em seu cenário, o erro será enviado para a resposta do Webhook. O módulo de resposta do Webhook é sempre executado por último (caso em que a opção [!UICONTROL Confirmação automática] nas configurações de Cenário não está habilitada). Para obter mais informações, consulte [Respondendo a webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) no artigo [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
 
 ## Webhooks personalizados
 

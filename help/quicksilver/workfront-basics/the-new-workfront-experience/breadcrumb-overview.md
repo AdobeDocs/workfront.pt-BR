@@ -1,31 +1,31 @@
 ---
 content-type: overview
-title: Visão geral das navegações estruturais
-description: As navegações estruturais exibem a hierarquia de navegação completa para todos os tipos de objetos.
+title: Visão geral da navegação estrutural
+description: As navegações estruturais exibem a hierarquia de navegação completa para todos os tipos de objeto.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 0%
 
 ---
 
-# Visão geral das navegações estruturais
+# Visão geral da navegação estrutural
 
-As navegações estruturais exibem a hierarquia de navegação completa para todos os tipos de objetos. Cada objeto no caminho da navegação estrutural tem um rótulo que exibe o tipo de objeto. A página em que você está no momento é exibida tanto no cabeçalho da página quanto no final do caminho da navegação estrutural em itálico. No exemplo abaixo, este é o &quot;[!UICONTROL Compartilhar com a equipe de marca]&quot; tarefa.
+As navegações estruturais exibem a hierarquia de navegação completa para todos os tipos de objeto. Cada objeto no caminho de navegação estrutural tem um rótulo que exibe o tipo de objeto. A página que você está atualmente exibe no cabeçalho da página e no final do caminho de navegação estrutural em itálico. No exemplo abaixo, esta é a tarefa &quot;[!UICONTROL Compartilhar com a Equipe da Marca]&quot;.
 
-![Caminho de navegação recolhido](assets/NWE-collapsed-breadcrumb.png)
+![Navegação estrutural](assets/NWE-collapsed-breadcrumb.png) recolhida
 
-Quando há muitos objetos no caminho da navegação estrutural ou a largura da tela proibir a exibição da hierarquia de navegação completa, o caminho recolhe algumas navegações estruturais e agrupa esses objetos no início do caminho da navegação estrutural. O projeto e a página de objeto atual sempre estão visíveis no caminho da navegação estrutural.
+Quando há muitos objetos no caminho de navegação estrutural ou a largura da tela proíbe que a hierarquia de navegação completa seja exibida, o caminho recolhe algumas navegações estruturais e agrupa esses objetos no início do caminho de navegação estrutural. O projeto e a página do objeto atual estão sempre visíveis no caminho da navegação estrutural.
 
-Por exemplo, &quot;mais 3&quot; na imagem acima indica que 3 objetos não estão sendo exibidos. Esses itens podem estar localizados acima do nível do projeto ou entre o projeto e a página atual.
+Por exemplo, &quot;mais 3&quot; na imagem acima indica que 3 objetos não são exibidos. Esses itens podem estar localizados acima do nível do projeto ou entre o projeto e a página atual.
 
-Clicando em &quot;[!UICONTROL more]&quot; permite expandir a hierarquia completa. Você pode clicar em &quot;[!UICONTROL Menos]&quot; para recolher o caminho da navegação estrutural novamente.
+Clicar em &quot;[!UICONTROL mais]&quot; permite expandir a hierarquia completa. Você pode clicar em &quot;[!UICONTROL Menos]&quot; para recolher o caminho de navegação estrutural novamente.
 
 ![Navegação estrutural expandida](assets/NWE-expanded-breadcrumb.png)
 
-Você também pode usar as seguintes teclas para navegar pelas navegações estruturais:
+Você também pode usar as seguintes teclas para navegar pela navegação estrutural:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,15 +36,15 @@ Você também pode usar as seguintes teclas para navegar pelas navegações estr
    <td> <p>Navegar para cada item na navegação estrutural</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Enter</strong> </td> 
-   <td> <p>Expanda um caminho de navegação estrutural recolhido, recolha um caminho de navegação estrutural expandido e abre uma nova página quando estiver num link de objeto</p> </td> 
+   <td role="rowheader"><strong>Inserir</strong> </td> 
+   <td> <p>Expandir um caminho de navegação estrutural recolhido, recolher um caminho de navegação estrutural expandido e abrir uma nova página quando estiver em um link de objeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -63,7 +63,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-*Para saber que plano ou tipo de licença você possui, entre em contato com seu [!DNL Workfront] administrador.
+*Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
 
 +++
 
@@ -84,16 +84,16 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 -->
 
-## Acessar um objeto pai da navegação estrutural
+## Acessar um objeto principal pela navegação estrutural
 
 Para obter informações sobre objetos pai em [!DNL Workfront], consulte [Entender objetos em [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Condicional) Se você não vir o objeto para o qual deseja navegar em um caminho de navegação estrutural recolhido, clique em **[!UICONTROL more]** e localize o objeto.
+1. (Condicional) Se você não vir o objeto para o qual deseja navegar em um caminho de navegação estrutural recolhido, clique em **[!UICONTROL mais]** e localize o objeto.
 
    >[!NOTE]
    >
    >Se você não tiver permissão para um objeto, ele não estará visível na navegação estrutural.
 
-1. Clique em qualquer objeto no caminho da navegação estrutural para acessar esse objeto.
+1. Clique em qualquer objeto no caminho da navegação estrutural para acessá-lo.
 
-   A página de objetos é aberta.
+   A página do objeto é aberta.

@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Blueprints
 
-* [Visão geral de blueprints](../../administration-and-setup/blueprints/blueprints-overview.md)
+* [Visão geral dos blueprints](../../administration-and-setup/blueprints/blueprints-overview.md)
 * [Configurar acesso a blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
 * [Instalar um blueprint](../../administration-and-setup/blueprints/blueprints-install.md)
 * [Configurar um blueprint](../../administration-and-setup/blueprints/configure-template-package.md)

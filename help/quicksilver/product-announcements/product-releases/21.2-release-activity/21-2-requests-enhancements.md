@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Solicitações de melhorias
 
-Esta página descreve todas as melhorias nas Solicitações feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte [21.2 Visão geral da versão](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página descreve todas as melhorias nas Solicitações feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Controlar que tipo de atribuições você faz em uma nova solicitação
 
@@ -50,7 +50,7 @@ Para obter mais informações, consulte os seguintes artigos:
 
 Para obter informações sobre como criar novas solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esse recurso agora está incluído na [Fundamentos do colaborador para a nova experiência do Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) no Workfront One.
 
 ## Melhorias no fluxo de trabalho de solicitações
 
@@ -64,7 +64,7 @@ Esse recurso agora está incluído na [Fundamentos do colaborador para a nova ex
 * A classificação da lista Solicitações enviadas por uma das colunas agora é preservada ao sair da página. Para obter mais informações, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * Ao criar uma nova solicitação, os botões Enviar e Cancelar agora estão localizados na parte inferior do formulário Nova solicitação. Para obter mais informações, consulte [Criar e enviar solicitações do Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esse recurso agora está incluído na [Fundamentos do colaborador para a nova experiência do Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) no Workfront One.
 
 ## Abra o Painel Resumo na seção Enviado da área Solicitações
 
@@ -76,7 +76,7 @@ Para tornar sua experiência consistente em todas as áreas do Adobe Workfront, 
 
 Para obter informações sobre as solicitações enviadas, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Esse recurso agora está incluído na [Fundamentos do colaborador para a nova experiência do Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) no Workfront One.
 
 ## Trazer de volta campos de novo problema removidos em um novo formulário de solicitação
 
@@ -104,7 +104,7 @@ Capacidade de compartilhar um link para a fila de solicitações, o grupo de tó
 
 Para obter informações sobre o envio de solicitações, consulte [Criar e enviar solicitações do Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esse recurso agora está incluído na [Fundamentos do colaborador para a nova experiência do Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) no Workfront One.
 
 ## Compartilhar um link para uma fila de solicitações ao enviar uma solicitação
 
@@ -116,6 +116,6 @@ Agora, tornamos possível compartilhar um link para um tópico de fila de solici
 
 Antes de submeter uma nova solicitação, você pode copiar um link para a fila de solicitações, grupo de tópicos ou tópico da fila da solicitação e compartilhá-lo com outros usuários ou incorporá-lo em um painel.
 
-Para obter informações sobre como compartilhar um link com uma fila de solicitações ao submeter uma solicitação, consulte [Compartilhar um link para uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Para obter informações sobre como compartilhar um link com uma fila de solicitações ao enviar uma solicitação, consulte [Compartilhar um link com uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Esse recurso agora está incluído na [Fundamentos do colaborador para a nova experiência do Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) no Workfront One.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Este artigo mostra como definir predecessores usando a guia Predecessores em uma tarefa.
 
-Para obter informações sobre como configurar predecessores em uma lista de tarefas, consulte [Criar uma relação de predecessora na lista de tarefas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+Para obter informações sobre como definir predecessores em uma lista de tarefas, consulte [Criar uma relação de predecessora na lista de tarefas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 É possível exibir os predecessores das tarefas nas seguintes áreas do Adobe Workfront:
 
@@ -27,7 +27,7 @@ Para obter informações sobre como configurar predecessores em uma lista de tar
 * No Gráfico de Gantt
 * Na lista de tarefas da coluna Predecessores
 
-Para obter informações sobre predecessores, consulte [Visão geral das predecessoras da tarefa](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Para obter informações sobre predecessores, consulte [Visão geral dos predecessores da tarefa](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Requisitos de acesso
 
@@ -51,38 +51,38 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para as tarefas e o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para as tarefas e o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Criar um predecessor para uma tarefa
 
 1. Vá para uma tarefa que você deseja designar como uma tarefa dependente e clique em **Predecessores** no painel esquerdo.
 
-   Talvez seja necessário clicar em **Mostrar mais**, depois **Predecessores**.
+   Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
 
 1. Clique em **+Adicionar predecessor**.
-1. (Opcional) Para adicionar uma predecessora entre projetos, substitua o nome do projeto na **Projeto pai** com outro projeto e digite o nome da tarefa ou tarefas que deseja como predecessoras.
+1. (Opcional) Para adicionar uma predecessora entre projetos, substitua o nome do projeto no campo **Projeto principal** por outro projeto e digite o nome da tarefa ou tarefas que você deseja como predecessoras.
 
-   Para obter informações sobre a adição de predecessores entre projetos, consulte [Criar predecessores entre projetos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   Para obter informações sobre como adicionar predecessores entre projetos, consulte [Criar predecessores entre projetos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
 1. Digite o nome da tarefa ou tarefas que você deseja designar como predecessoras.
 
    ![](assets/add-predecessor-box-nwe-350x465.png)
 
-1. Selecione um **Tipo de Dependência**.
+1. Selecione um **Tipo de dependência**.
 
-   Para obter informações sobre Tipos de Dependência da tarefa, consulte uma [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Para obter informações sobre Tipos de Dependência de tarefa, consulte uma [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Especificar um **Defasagem** valor em dias.
+1. Especifique um valor de **Defasagem** em dias.
 
-   Para obter informações sobre Tipos de Defasagem, consulte &#x200B; [Visão geral dos Tipos de Defasagem](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Para obter informações sobre Tipos de Defasagem, consulte &#x200B; [visão geral sobre Tipos de Defasagem](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-1. Selecionar **Reforçado** se quiser impor a relação de predecessora entre as duas tarefas.
+1. Selecione **Enforced** se desejar impor a relação de predecessora entre as duas tarefas.
 
-   Para obter informações sobre a imposição de predecessores, consulte [Forçar predecessores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   Para obter informações sobre como impor predecessores, consulte [Impor predecessores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Clique em **Salvar**.

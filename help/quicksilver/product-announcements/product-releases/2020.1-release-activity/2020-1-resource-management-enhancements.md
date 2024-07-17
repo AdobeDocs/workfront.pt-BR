@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas na funcionalidade de Gerenciamento de recursos com a versão 2020.1. Esses aprimoramentos estão disponíveis atualmente no ambiente de Pré-visualização e serão disponibilizados no ambiente Produção no final de março ou início de abril de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte [Visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.1, consulte a [visão geral da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Mostra Horas planejadas diárias para projetos, tarefas e itens inacessíveis na área Trabalho atribuído do Balanceador de carga de trabalho
 
@@ -32,13 +32,13 @@ Para ajudar você a entender como projetos individuais, tarefas ou itens inacess
 
 Antes dessa alteração, essa configuração atualizava somente as informações na área Trabalho atribuído do Balanceador.
 
-Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Ajustar a duração da linha do tempo no Balanceador de carga de trabalho
 
 Agora você tem a flexibilidade para selecionar quantas semanas você exibe no Balanceador de carga de trabalho: é possível selecionar de 2, 4 ou 6 semanas. Anteriormente, o número de semanas era definido como 4 por padrão.
 
-Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## A configuração Exibir horas efetivas removida do Planejador de recursos
 
@@ -46,7 +46,7 @@ Para facilitar a exibição de Horas Reais no Planejador de Recursos, removemos 
 
 Você ainda pode exibir Horas Reais ao exibir o Planejador de Recursos na Exibição do Usuário usando o recurso Personalizar exibição.
 
-Para obter informações sobre como navegar no Planejador de recursos, consulte [Visão geral da navegação do Planejador de recursos](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Para obter informações sobre como navegar no Planejador de recursos, consulte [Visão geral da navegação no Planejador de recursos](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Navegação aprimorada no Balanceador de carga de trabalho
 

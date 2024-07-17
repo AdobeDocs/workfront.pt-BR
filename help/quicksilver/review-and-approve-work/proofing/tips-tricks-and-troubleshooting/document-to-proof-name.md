@@ -5,13 +5,13 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: O nome do documento alterado após o upload contém um caractere inválido
 description: Determinados documentos não podem ser convertidos em provas.
 author: Courtney
-source-git-commit: a01c2e42dad1a7c00ac73fcaeb1202c56238a8bb
+exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
+source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # O nome do documento alterado após o upload contém um caractere inválido
 
@@ -29,7 +29,7 @@ Se um Nome de documento for atualizado para incluir um caractere inválido após
 
 Remova o caractere inválido do nome do documento:
 
-1. Selecione o documento e clique em **Detalhes do documento**.
+1. Selecione o documento e clique em **Detalhes do Documento**.
 1. Clique no nome do documento, remova o caractere inválido e pressione Enter.
 
    Caracteres inválidos: `! # % * \ | ' " / ? < > { } [ ]`

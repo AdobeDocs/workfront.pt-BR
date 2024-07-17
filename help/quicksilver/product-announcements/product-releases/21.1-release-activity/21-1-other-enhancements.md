@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página descreve todas as outras melhorias feitas com a versão 21.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 15 de fevereiro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.1, consulte [Visão geral da versão 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.1, consulte a [visão geral da versão 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Atualizações dos requisitos de falha de Assinatura de Evento
 
@@ -27,7 +27,7 @@ Estamos atualizando os requisitos de desabilitação flexível de falhas de Assi
 
 Além disso, adicionaremos requisitos de desativação rígida a partir de fevereiro de 2021.
 
-Para obter informações adicionais sobre os novos requisitos de desativação flexível e desativação rígida, consulte [Perguntas frequentes - Assinaturas de eventos](../../../wf-api/general/event-subs-faq.md).
+Para obter informações adicionais sobre os novos requisitos de desabilitação por software e desabilitação por hardware, consulte [Perguntas frequentes - Assinaturas de Eventos](../../../wf-api/general/event-subs-faq.md).
 
 ## Campos de nova equipe disponíveis para o Resumo diário do
 
@@ -41,13 +41,13 @@ Estamos substituindo a opção de email POP para filas de solicitações por um 
 
 Essas alterações estão disponíveis para teste na Pré-visualização.
 
-O email é desativado automaticamente em todos os ambientes de Visualização. Para ativar o email para fins de teste, consulte [Ativar a entrega de emails do ambiente Visualização da sandbox](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+O email é desativado automaticamente em todos os ambientes de Visualização. Para habilitar email para fins de teste, consulte [Habilitar entrega de emails do ambiente de Pré-visualização de Sandbox](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-Para obter mais informações, consulte [Permitir que os usuários enviem um problema por email para um projeto da Fila de solicitações](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Para obter mais informações, consulte [Habilitar usuários a enviar um problema por email para um projeto da Fila de Solicitações](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-Para obter mais informações sobre por que estamos fazendo essa alteração, consulte [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP em Filas de solicitações pela versão 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+Para obter mais informações sobre por que estamos fazendo essa alteração, consulte [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP por Filas de solicitações 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Esse recurso agora está incluído na [Gerenciamento de filas na nova experiência do Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) Caminho de Aprendizado no Workfront One.
+Este recurso agora está incluído no [Gerenciamento da fila no novo caminho de aprendizado da experiência de Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) no Workfront One.
 
 ## Restringir a edição de horas em folhas de horas
 
@@ -55,7 +55,7 @@ Para fornecer mais controle sobre folhas de horas e edição de horas, adicionam
 
 Anteriormente, os usuários com a opção Folhas de horas e Horas habilitada em seu nível de acesso podiam editar horas em qualquer folha de horas.
 
-Para obter mais informações, consulte [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obter mais informações, consulte [Configurar preferências de horas e folha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Filtros e visualizações aprimorados na área Folhas de horas
 
@@ -64,14 +64,14 @@ Adicionamos as seguintes melhorias quando você adiciona um projeto, tarefa ou p
 * Filtros: adicionamos filtros para projetos e problemas. Clique em Mais opções para visualizar esses filtros. Anteriormente, somente Tarefas tinham filtragem disponível.
 * Exibições: adicionamos opções de Exibição e Agrupamento à página Pesquisar.
 
-Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obter mais informações, consulte [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Ocultar a caixa de horas extras na Planilha de horas
 
 Agora você pode ocultar a caixa de horas extras para aliviar a confusão do usuário se não rastrear as horas extras no Workfront. Você pode ocultar a caixa de horas extras para uma folha de horas de uso único ou no Perfil da folha de horas:
 
-* Folha de horas de uso único: quando você opta por ocultar a caixa de horas extras em uma folha de horas individual, ela fica oculta somente para essa folha de horas. Para obter mais informações, consulte [Criar uma planilha de horas de uso único](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Perfil da folha de horas: quando você opta por ocultar a caixa horas extras no Perfil da folha de horas, todas as folhas de horas futuras criadas para o(s) usuário(s) atribuído(s) a esse perfil não verão a caixa horas extras. Para obter mais informações, consulte [Criar, editar e atribuir perfis de planilha de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Folha de horas de uso único: quando você opta por ocultar a caixa de horas extras em uma folha de horas individual, ela fica oculta somente para essa folha de horas. Para obter mais informações, consulte [Criar uma folha de horas de uso único](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Perfil da folha de horas: quando você opta por ocultar a caixa horas extras no Perfil da folha de horas, todas as folhas de horas futuras criadas para o(s) usuário(s) atribuído(s) a esse perfil não verão a caixa horas extras. Para obter mais informações, consulte [Criar, editar e atribuir perfis de folha de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Anteriormente, não era possível ocultar a caixa de horas extras em folhas de horas.
 

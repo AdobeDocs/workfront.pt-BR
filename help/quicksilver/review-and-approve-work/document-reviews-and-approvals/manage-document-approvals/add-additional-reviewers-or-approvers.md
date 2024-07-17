@@ -43,20 +43,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Acesso de visualização ou superior ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Acesso de visualização ou superior ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Adicionar aprovadores ou revisores adicionais na página Detalhes do documento
 
 1. Vá para a página do documento clicando no nome do documento e selecione a versão do documento à qual deseja adicionar um aprovador ou revisor na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Selecionar **Aprovações** no painel esquerdo. Todos os aprovadores e revisores existentes estão listados aqui.
+1. Selecione **Aprovações** no painel esquerdo. Todos os aprovadores e revisores existentes estão listados aqui.
 
-1. Para adicionar um aprovador, verifique se **Aprovador** estiver marcada, comece a digitar na caixa de seleção **Revisores** texto. Você pode adicionar usuários ou equipes do Workfront por nome. Se, em vez disso, você quiser adicionar um revisor, basta desmarcar a opção **Aprovador** antes de digitar.
+1. Para adicionar um aprovador, verifique se a caixa de seleção **Aprovador** está marcada e comece a digitar na caixa de texto **Revisores**. Você pode adicionar usuários ou equipes do Workfront por nome. Se você quiser adicionar um revisor, simplesmente desmarque a caixa de seleção **Aprovador** antes de digitar.
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecione a versão do documento à qual você deseja adicionar um aprovador ou revisor na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Role para baixo até **Aprovações** no painel Resumo do documento, onde todos os aprovadores e revisores existentes são listados. Para adicionar um aprovador, verifique se **Aprovador** estiver marcada, comece a digitar na caixa de seleção **Revisores** texto. Você pode adicionar usuários ou equipes do Workfront por nome. Se, em vez disso, você quiser adicionar um revisor, basta desmarcar a opção **Aprovador** antes de digitar.
+1. Role para baixo até a seção **Aprovações** no painel Resumo do documento, onde todos os aprovadores e revisores existentes estão listados. Para adicionar um aprovador, verifique se a caixa de seleção **Aprovador** está marcada e comece a digitar na caixa de texto **Revisores**. Você pode adicionar usuários ou equipes do Workfront por nome. Se você quiser adicionar um revisor, simplesmente desmarque a caixa de seleção **Aprovador** antes de digitar.
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 

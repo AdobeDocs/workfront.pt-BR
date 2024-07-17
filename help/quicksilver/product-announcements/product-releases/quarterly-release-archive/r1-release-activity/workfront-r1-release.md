@@ -22,7 +22,7 @@ A Workfront lança novas funcionalidades de produtos para todas as linhas de pro
 
 ## QUAIS SÃO AS NOVIDADES DA VERSÃO MAIS RECENTE?
 
-* [APRIMORAMENTOS DO WORKFRONT](#workfront-enhancements)
+* [MELHORIAS NO WORKFRONT](#workfront-enhancements)
 * [APRIMORAMENTOS DO PROOFHQ](#proofhq-enhancements)
 * [APRIMORAMENTOS DO WORKFRONT DAM](#workfront-dam-enhancements)
 
@@ -35,28 +35,28 @@ A integração direta no Outlook 365 permitirá que você elimine o trabalho dup
 Para obter mais informações, consulte:  [Funcionalidade disponibilizada na Pré-visualização em 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)\
-**Manter projetos sob controle e orçamento**
+**Manter projetos sob controle e dentro do orçamento**
 Gerencie seus recursos e sua utilização, mantendo os projetos sob controle e dentro do orçamento usando o novo Relatório de Utilização. Visualize as horas planejadas e reais por projeto e função, e compare recursos e departamentos regularmente.
 
-Para obter mais informações, consulte:  [Visualização 3 do R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
+Para obter mais informações, consulte:  [Visualização R1 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 ![](assets/mceclip1-350x169.png)\
-**Terminologia e personalização de notificação**
+**Personalização de Terminologia e Notificação**
 Torne o Workfront mais relevante para sua equipe, aproveitando o recurso de terminologia personalizada para alterar termos como &quot;Portfolio&quot; ou &quot;Projeto&quot; para se adequar ao seu idioma preferido, independentemente do setor. Além disso, agora cada usuário pode personalizar os tipos de notificações que recebe regulando sua frequência de resumo.
 
-Para obter mais informações, consulte:  [Visualização 3 do R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
+Para obter mais informações, consulte:  [Visualização R1 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-**Visualização de Etapas**
+**Exibição de Etapas**
 Os novos ícones de status do progresso permitem que você aproveite ao máximo seus relatórios de marcos. Além disso, agora é possível editar a porcentagem concluída diretamente na exibição de etapas.
 
-Para obter mais informações, consulte:  [Visualização 5 do R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
+Para obter mais informações, consulte:  [Visualização R1 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
 ![](assets/mceclip3-350x122.png)
 
 **Lixeira do Workfront**
 A nova Lixeira da Workfront ajuda você a restaurar projetos, tarefas, problemas e todos os documentos, formulários e atualizações relacionados dentro de 30 dias da exclusão.
 
-Para obter mais informações, consulte:  [Visualização 1 e 2 do R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
+Para obter mais informações, consulte:  [Visualização 1 e 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md) do R1
 
 ### APRIMORAMENTOS DO PROOFHQ {#proofhq-enhancements}
 
@@ -67,7 +67,7 @@ A nova funcionalidade de pesquisa no ProofHQ permite que você pesquise e locali
 Para obter mais informações, consulte:  [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 ![](assets/mceclip5-350x226.png)\
-**Visual Reporting e Exibições Personalizadas Aprimoradas**
+**Relatórios Visuais e Exibições Personalizadas Aprimoradas**
 Novas métricas de relatórios no ProofHQ permitem rastrear o tempo de resposta, as porcentagens de atraso, o número de comentários e o tempo para a primeira atividade. Novas exibições personalizadas criam uma lógica de filtro avançada para que você obtenha os dados exatos, exatamente quando precisar.
 
 Para obter mais informações, consulte:  [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
@@ -78,7 +78,7 @@ O ProofHQ agora permite testar novos recursos em um ambiente de Pré-visualizaç
 ## APRIMORAMENTOS DO WORKFRONT DAM {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)\
-**Links incorporados do DAM**
+**Links Inseridos do DAM**
 Para equipes de marketing que precisam de uma melhor maneira de gerenciar, publicar e rastrear o uso de ativos digitais em plataformas externas, o recurso de links incorporados fornece o controle necessário para gerenciar o processo de compartilhamento do conteúdo correto na hora certa.
 
 **Campos de metadados obrigatórios do DAM**

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página fornece informações sobre a funcionalidade do Adobe Workfront Proof que está sendo lançada no ambiente de produção dentro do período da versão 23.3.
 
-Para obter uma lista de todas as alterações disponíveis para todas as áreas do Workfront neste momento do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis para todas as áreas do Workfront neste momento do ciclo de versão 23.3, consulte [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -37,7 +37,7 @@ Para obter uma lista de todas as alterações disponíveis para todas as áreas 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Adiar atualizações para o Visualizador de provas de desktop</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Adiar atualizações para o Visualizador de Revisão de Texto para Área de Trabalho</a> </p>
                         <p>Com base no feedback dos usuários, estamos adicionando a opção de adiar atualizações para o Visualizador de provas de desktop. Agora os usuários podem optar por atrasar uma atualização e continuar com seu trabalho, mas serão lembrados de que uma atualização estará disponível sempre que abrirem o Visualizador de provas de desktop.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -55,7 +55,7 @@ Para obter uma lista de todas as alterações disponíveis para todas as áreas 
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Alteração de suporte para provas do Microsoft Office</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Alterando o suporte para provas do Microsoft Office</a></p>
                         <p>Para manter uma solução de processamento de prova robusta e escalonável, estamos alterando nossos tipos de arquivo do Microsoft Office e limites de tamanho de arquivo compatíveis.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -71,8 +71,8 @@ Para obter uma lista de todas as alterações disponíveis para todas as áreas 
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Atualização do Visualizador de provas de desktop</a></p>
-                        <p>O Visualizador de provas de desktop foi atualizado para a versão 2.1.24! Essa atualização inclui suporte ao Chrome v100 para revisar provas interativas, bem como várias correções de problemas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Atualização do Desktop Proofing Viewer</a></p>
+                        <p>O Visualizador de provas de desktop foi atualizado para a versão 2.1.24! Essa atualização inclui suporte ao Chrome v100 para revisão de provas interativas, bem como várias correções de problemas.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                      <p>

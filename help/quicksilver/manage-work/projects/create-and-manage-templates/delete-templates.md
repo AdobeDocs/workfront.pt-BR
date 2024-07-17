@@ -43,17 +43,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para o modelo que inclui permissões para excluí-lo</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para o modelo que inclui permissões para excluí-lo</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações para exclusão de modelos
 
 * As tarefas adicionadas aos projetos quando o modelo foi anexado permanecem nos projetos. No entanto, as informações da tarefa de modelo associadas às tarefas são excluídas.
-* O nome do modelo não é mais listado no **Modelo** no campo **Visão geral** do projeto.
+* O nome do modelo não está mais listado no campo **Modelo** da subguia **Visão geral** do projeto.
 
 * Você pode recuperar um modelo excluído recentemente da Lixeira. Para obter informações sobre como recuperar itens da Lixeira, consulte [Restaurar itens excluídos](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
@@ -63,10 +63,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Isso abre uma lista de modelos
 
-1. Selecione o modelo que deseja deletar clicando na caixa de seleção à esquerda do nome do modelo e, em seguida, clique em **Excluir > Sim, excluí-lo** para confirmar a exclusão.
+1. Selecione o modelo que deseja excluir clicando na caixa de seleção à esquerda do nome do modelo e clique em **Excluir > Sim, Excluir** para confirmar a exclusão.
 
    Ou
 
-   Clique no nome de um template para acessá-lo e clique no link **Mais** menu ![](assets/qs-more-icon-on-an-object.png) , depois **Excluir modelo > Sim, excluí-lo**.
+   Clique no nome de um modelo para acessá-lo e, em seguida, clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) e depois em **Excluir modelo > Sim, excluí-lo**.
 
    O modelo não está mais disponível para ser associado a um projeto.

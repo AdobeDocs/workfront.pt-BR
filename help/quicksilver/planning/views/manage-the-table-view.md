@@ -30,7 +30,7 @@ hide: yes
 
 Você pode exibir registros e seus campos em uma exibição de tabela, ao acessar a página tipo de registro no Adobe Workfront Planning.
 
-Para obter informações sobre visualizações de registros e como gerenciá-las, consulte [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+Para obter informações sobre exibições de registros e como gerenciá-las, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Requisitos de acesso
 
@@ -86,7 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -102,11 +102,11 @@ Ao criar uma exibição de tabela, todos os registros do tipo selecionado são e
 
 Para gerenciar uma exibição de tabela:
 
-1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
 
-1. (Opcional) Clique em **Altura da linha**, em seguida, selecione entre as seguintes opções para modificar a altura das linhas da tabela:
+1. (Opcional) Clique em **Altura da linha** e selecione uma das seguintes opções para modificar a altura das linhas da tabela:
    * Pequena
    * Média
    * Alta
@@ -116,7 +116,7 @@ Para gerenciar uma exibição de tabela:
    * [Linhas (ou registros)](#add-rows-or-records)
    * [Filtros](#add-filters)
    * [Agrupamento](#add-groupings)
-   * [Ordenar](#add-a-sort)
+   * [Classificar](#add-a-sort)
 
 
 ### Adicionar colunas (ou campos) {#add-columns}
@@ -129,7 +129,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 É possível adicionar até 500 campos (ou colunas) em uma exibição de tabela.
 
-1. Vá para uma página de tipo de registro e selecione um **Tabela** exibir no menu suspenso exibir.
+1. Vá para uma página de tipo de registro e selecione uma exibição **Tabela** no menu suspenso exibição.
 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Comece a adicionar campos (ou colunas), conforme descrito no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
@@ -140,7 +140,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    * Segure o cabeçalho da coluna e arraste e solte-o na posição desejada. A coluna movida brevemente será exibida com um plano de fundo azul até que você faça outros ajustes na tabela.
 
-   * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da **Visibilidade e ordem dos campos** para fechá-la.
+   * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da caixa **Visibilidade e ordem dos campos** para fechá-la.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -163,7 +163,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    O campo se torna um campo primário, o que significa que ele é exibido como a primeira coluna da exibição de tabela. O campo principal anterior é movido para a segunda coluna.
 
-   Os campos primários se tornam o título e a exibição do registro na área de cabeçalho da página do registro e em todos os locais onde os registros são exibidos. Por exemplo, o título do registro é exibido em campos conectados e em todas as exibições. Para obter mais informações sobre campos primários, consulte [Visão geral do campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Os campos primários se tornam o título e a exibição do registro na área de cabeçalho da página do registro e em todos os locais onde os registros são exibidos. Por exemplo, o título do registro é exibido em campos conectados e em todas as exibições. Para obter mais informações sobre campos primários, consulte [Visão geral do campo primário](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Clique e arraste as linhas de separação da coluna e solte-as no ponto desejado para aumentar a largura das colunas.
 
@@ -175,18 +175,18 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    Ou
 
-   Clique em **Campos** na barra de ferramentas da tabela e desative a alternância associada aos campos (ou colunas) que deseja ocultar. A variável **Visibilidade e ordem dos campos** é exibida.
+   Clique em **Campos** na barra de ferramentas da tabela e desabilite a alternância associada aos campos (ou colunas) que você deseja ocultar. A caixa **Visibilidade e ordem dos campos** é exibida.
 
    >[!TIP]
    >
    >O número de campos ocultos é exibido à esquerda do ícone Campos na barra de ferramentas.
 
 
-1. Clique em **Campos** e habilite a alternância associada aos campos que deseja exibir nas colunas da tabela. Todos os campos são exibidos por padrão.
+1. Clique no ícone **Campos** e habilite a alternância associada aos campos que deseja exibir nas colunas da tabela. Todos os campos são exibidos por padrão.
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique em **Pesquisar** ícone ![](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
+   1. Clique no ícone ![](assets/search-icon.png) da **Pesquisa** e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -198,7 +198,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
 
-   1. Clique em **x** ícone na caixa de pesquisa para limpar a palavra-chave de pesquisa.
+   1. Clique no ícone **x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
 
 ### Adicionar linhas (ou registros) {#add-rows}
@@ -207,18 +207,18 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
 É possível ter até 50.000 registros (ou linhas) para um tipo de registro S.
 
-1. Vá para uma página de tipo de registro e selecione um **Tabela** exibir no menu suspenso exibir.
+1. Vá para uma página de tipo de registro e selecione uma exibição **Tabela** no menu suspenso exibição.
 
 <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Comece a adicionar registros (ou linhas), conforme descrito no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
    Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
 
-1. (Opcional) Adicione uma miniatura a cada registro e clique em **Campos** no canto superior direito da tabela, selecione a alternância para a variável **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
+1. (Opcional) Adicione uma miniatura a cada registro e clique em **Campos** no canto superior direito da tabela e selecione o alternador do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
 
    Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Opcional) Selecione um ou vários registros em uma linha e arraste e solte a **identificador** ícone ![](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
+1. (Opcional) Selecione um ou vários registros em uma linha, em seguida, arraste e solte o ícone ![](assets/handle-icon.png) da **alça** à esquerda do registro para reordenar as linhas.
 
    >[!NOTE]
    >
@@ -262,7 +262,7 @@ Para adicionar um filtro a uma exibição de tabela:
 1. Selecione uma exibição de tabela e clique em **Filtros** no canto superior direito da tabela.
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
-   * **Selecionar um campo** que você deseja filtrar por <!-- the tip below might change-->
+   * **Selecione um campo** que você deseja filtrar por <!-- the tip below might change-->
 
    * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
 
@@ -339,13 +339,13 @@ Para adicionar um filtro a uma exibição de tabela:
 1. (Opcional) Clique em **Adicionar condição** para adicionar outra opção de filtragem e repita as etapas acima. O número de filtros aplicados é exibido à esquerda do ícone Filtros.
 1. Clique nos seguintes operadores para indicar como as condições de filtro são unidas e devem ser aplicadas:
 
-   * **E**: Todas as condições especificadas devem ser atendidas.
-   * **Ou**: Qualquer uma das condições especificadas deve ser atendida. Esta é a opção padrão.
+   * **And**: todas as condições especificadas devem ser atendidas.
+   * **Ou**: qualquer uma das condições especificadas deve ser atendida. Esta é a opção padrão.
 
    A lista de registros é filtrada automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Opcional) Clique em **Filtros** e, em seguida, clique na guia **x** ícone para remover um filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Opcional) Clique em **Filtros** e depois no ícone **x** para remover um filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Adicionar agrupamentos {#add-groupings}
 
@@ -372,12 +372,12 @@ Considere o seguinte:
 
 Para adicionar um agrupamento:
 
-1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clique em **Agrupamento** no canto superior direito da exibição em tabela.
+1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Clique em **Agrupamento** no canto superior direito da exibição de tabela.
 
    ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
-1. Clique em um dos campos sugeridos ou clique em **Escolha um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
+1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
    O agrupamento é aplicado automaticamente à tabela e os registros são exibidos na linha de separação de agrupamento.
 
@@ -387,14 +387,14 @@ Para adicionar um agrupamento:
 
    ![](assets/grouping-applied-in-table-view.png)
 
-1. (Opcional) Dentro do **Agrupar registros por** , clique no link **x** ícone à direita de um campo selecionado para o agrupamento para remover o agrupamento
+1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
    Ou
 
    Clique em **Limpar tudo** para remover todos os campos.
 
-1. Clique fora da **Agrupar registros por** para fechá-la.
-1. (Opcional) Clique em **+ Novo registro** no final de qualquer agrupamento para adicionar novos registros, atualize a página para adicionar o novo registro ao agrupamento apropriado. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. Clique fora da caixa **Agrupar registros por** para fechá-la.
+1. (Opcional) Clique em **+ Novo registro** no final de qualquer agrupamento para adicionar novos registros e, em seguida, atualize a página para adicionar o novo registro ao agrupamento apropriado. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Adicionar uma classificação {#sort-information}
 
@@ -427,14 +427,14 @@ Considere o seguinte ao classificar registros na exibição de tabela:
 
 Para classificar <!--ungrouped (add this when sorting for groupings will be available--> registros, faça o seguinte:
 
-1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clique em **Ordenar** ícone ![](assets/sort-icon.png) no canto superior direito da tabela
+1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Clique no ícone ![](assets/sort-icon.png) de **Classificação** no canto superior direito da tabela
 
    Ou
 
    Passe o mouse sobre o nome de uma coluna na exibição de tabela, clique na seta para baixo à direita do nome do cabeçalho da coluna e clique em **Classificar por este campo**. O campo é adicionado como uma seleção de classificação no ícone Classificar no canto superior direito da exibição de tabela.
 
-1. (Condicional) Na guia **Classificar registros por** clique em um dos campos sugeridos ou clique em **Escolha um campo diferente** e procure um campo diferente, em seguida, clique nele quando ele for exibido na lista.
+1. (Condicional) Na caixa **Classificar registros por**, clique em um dos campos sugeridos ou clique em **Escolher um campo diferente** e procure um campo diferente. Em seguida, clique nele quando ele for exibido na lista.
 
    A classificação é aplicada automaticamente à exibição de tabela e os registros são classificados pelos critérios selecionados.
 
@@ -444,13 +444,13 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
 
    O número de campos que você está classificando é exibido à esquerda do ícone Classificar no canto superior direito da barra de ferramentas. Você pode escolher somente campos que sejam exibidos nas colunas da exibição de tabela.
 
-1. (Opcional) Na **Classificar registros por** , clique no link **x** ícone à direita de um campo de classificação para remover a classificação
+1. (Opcional) Na caixa **Classificar registros por**, clique no ícone **x** à direita de um campo de classificação para remover a classificação
 
    Ou
 
    Clique em **Limpar tudo** para remover todos os campos da classificação.
 
-1. Clique fora da **Classificar registros por** para fechá-la.
+1. Clique fora da caixa **Classificar registros por** para fechá-la.
 
    ![](assets/sorting-in-table-view.png)
 

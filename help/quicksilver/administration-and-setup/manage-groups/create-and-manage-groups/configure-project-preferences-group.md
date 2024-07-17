@@ -25,14 +25,14 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 >
 >* Normalmente, uma preferência desbloqueada permanece desbloqueada indefinidamente. Se o administrador do Workfront o bloquear novamente, a configuração do sistema será aplicada novamente e as configurações da preferência feita pelos administradores de grupo serão perdidas.
 >* As preferências definidas para o grupo associado a um projeto têm precedência sobre as preferências definidas para o Grupo padrão do usuário que cria o projeto.
->* Algumas preferências de nível de grupo afetam os modelos de projeto criados para o grupo. Para obter mais informações, consulte a seção [Visualize, trabalhe com e crie modelos para seu grupo na área Grupos](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) no artigo [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Algumas preferências de nível de grupo afetam os modelos de projeto criados para o grupo. Para obter mais informações, consulte a seção [Exibir, trabalhar com e criar modelos para seu grupo da área Grupos](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) no artigo [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* Depois que um administrador do Workfront desbloqueia uma preferência no nível do sistema, você pode configurá-la e bloqueá-la para garantir que todos no seu grupo e em seus subgrupos usem a mesma configuração. Isso é paralelo à capacidade que um administrador do Workfront tem de configurar e bloquear uma preferência para todos no sistema. Para obter mais informações, consulte [Preferência Bloquear ou desbloquear um projeto, tarefa ou problema para subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Depois que um administrador do Workfront desbloqueia uma preferência no nível do sistema, você pode configurá-la e bloqueá-la para garantir que todos no seu grupo e em seus subgrupos usem a mesma configuração. Isso é paralelo à capacidade que um administrador do Workfront tem de configurar e bloquear uma preferência para todos no sistema. Para obter mais informações, consulte [Bloquear ou desbloquear uma preferência de projeto, tarefa ou problema para subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
-A configuração no nível do grupo também é possível para preferências de tarefas e problemas, bem como para preferências de horas e planilhas de horas. Para obter informações, consulte [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) e [Configurar preferências de horas e planilha de horas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+A configuração no nível do grupo também é possível para preferências de tarefas e problemas, bem como para preferências de horas e planilhas de horas. Para obter informações, consulte [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) e [Configurar preferências de horas e folha de horas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-Para obter informações sobre como um administrador do Workfront desbloqueia uma preferência de projeto, consulte [Bloquear ou desbloquear as preferências do projeto para todos os grupos no sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Para obter informações sobre como um administrador do Workfront desbloqueia uma preferência de projeto, consulte [Bloquear ou desbloquear preferências de projeto para todos os grupos no sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 ## Requisitos de acesso
 
@@ -53,7 +53,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Configurar uma preferência de projeto desbloqueada para um grupo
 
@@ -61,7 +61,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 >
 >Se você for um administrador do Workfront, poderá ignorar as etapas 1 a 4 em Configuração > Preferências do projeto > Projetos e, em seguida, pesquisará o nome do grupo na caixa na parte superior da página.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
@@ -75,7 +75,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 * [Status do projeto](#project-status)
 * [Linhas de Tempo](#timelines)
-* [Casos de negócios](#business-cases)
+* [Casos de negócio](#business-cases)
 * [Vida após a morte](#life-after-death)
 
 ### Status do projeto {#project-status}
@@ -101,7 +101,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
 </td></tr>
   <tr> 
    <td role="rowheader">Ajustar o status do novo projeto para</td> 
-   <td> <p>Determine o status dos novos projetos.</p> <p><b>NOTA</b>   
+   <td> <p>Determine o status dos novos projetos.</p> <p><b>OBSERVAÇÃO</b>   
      <ul> 
       <li>Se você ou outro administrador do Workfront ocultar o status selecionado aqui, o status padrão será alterado para o primeiro status na lista de status.</li> 
      </ul> 
@@ -111,7 +111,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
        <ul> 
         <li>Se houver um status obrigatório igual ao status padrão desbloqueado, o status obrigatório se tornará o status padrão, mesmo se ele estiver desbloqueado.</li> 
         <li>Se nenhum dos status obrigatórios for igual ao status padrão desbloqueado, o primeiro status obrigatório na lista de status se tornará o status padrão.</li> 
-       </ul> <p>Para obter informações sobre os status obrigatórios, consulte os artigos <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" data-mc-variable-override="">Acessar a lista de status de projeto do sistema</a>, <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref" data-mc-variable-override="">Acessar a lista de status de tarefas do sistema</a>, e <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref" data-mc-variable-override="">Acessar a lista de status de problemas do sistema</a>.</p> </li> 
+       </ul> <p>Para obter informações sobre os status necessários, consulte os artigos <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" data-mc-variable-override="">Acessar a lista de status de projetos do sistema</a>, <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref" data-mc-variable-override="">Acessar a lista de status de tarefas do sistema</a> e <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref" data-mc-variable-override="">Acessar a lista de status de problemas do sistema</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -120,7 +120,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
   </tr> 
   <tr> 
    <td role="rowheader">Definir automaticamente a Condição do projeto com base no Status de progresso</td> 
-   <td> <p>Essa preferência permite que os usuários definam a Condição de um projeto manualmente (No destino, Em risco, Com problema) ou que o Workfront defina a Condição (Status de progresso) automaticamente com base na progressão do projeto na linha do tempo. Para obter mais informações sobre a condição dos projetos, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Visão geral da condição do projeto e do tipo de condição</a>.</p> </td> 
+   <td> <p>Essa preferência permite que os usuários definam a Condição de um projeto manualmente (No destino, Em risco, Com problema) ou que o Workfront defina a Condição (Status de progresso) automaticamente com base na progressão do projeto na linha do tempo. Para obter mais informações sobre a Condição de projetos, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Visão Geral da Condição de Projeto e Tipo de Condição</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Criar linhas de base automaticamente</p> </td> 
@@ -128,19 +128,19 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Método Índice de desempenho </p> </td> 
-   <td> <p>O Método de índice de desempenho (PIM) do projeto controla o método que a Workfront usa para calcular métricas de Valor obtido, como Índice de desempenho de custo (CPI) e Estimar na conclusão (EAC). Para obter mais informações, consulte <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calcular Índice de Desempenho de Custo (CPI)</a>e <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calcular Estimativa no Término (EAC)</a></p> 
+   <td> <p>O Método de índice de desempenho (PIM) do projeto controla o método que a Workfront usa para calcular métricas de Valor obtido, como Índice de desempenho de custo (CPI) e Estimar na conclusão (EAC). Para obter mais informações, consulte <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calcular Índice de Desempenho de Custo (CPI)</a>e <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calcular Estimativa na Conclusão (EAC)</a></p> 
     <ul> 
-     <li><strong>Baseado em Hora</strong>: o Workfront usa o Trabalho necessário para calcular métricas de desempenho, como EAC e CPI. Quando o PIM é calculado com base nas horas, o EAC é exibido como um número de horas. Certifique-se de que você tenha um valor para Horas planejadas diferente de zero.</li> 
-     <li> <p><strong>Baseado em Custo</strong>: o Workfront usa o Custo de mão de obra planejado para calcular métricas de desempenho como EAC e CPI. Verifique se suas funções de trabalho ou usuários estão associados às taxas de Custo por hora. Quando o PIM é calculado com base nos Custos, o EAC é exibido como um valor de moeda.</p> <p>O gerente de projeto pode modificar essa configuração no nível do projeto, usando a área Finanças em Detalhes do Projeto. Para obter mais informações, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Gerenciar informações na área de finanças do projeto</a>.</p> </li> 
+     <li><strong>Baseado em hora</strong>: a Workfront usa o Trabalho em horas para calcular métricas de desempenho como EAC e CPI. Quando o PIM é calculado com base nas horas, o EAC é exibido como um número de horas. Certifique-se de que você tenha um valor para Horas planejadas diferente de zero.</li> 
+     <li> <p><strong>Baseado em custo</strong>: a Workfront usa o Custo de Trabalho Planejado para calcular métricas de desempenho como EAC e CPI. Verifique se suas funções de trabalho ou usuários estão associados às taxas de Custo por hora. Quando o PIM é calculado com base nos Custos, o EAC é exibido como um valor de moeda.</p> <p>O gerente de projeto pode modificar essa configuração no nível do projeto, usando a área Finanças em Detalhes do Projeto. Para obter mais informações, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Gerenciar informações na área Finanças do projeto</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Calcular ao concluir </p> </td> 
    <td> <p>Determine quais dados a Workfront usa para calcular a EAC (Estimativa no término), que representa o custo total projetado de um projeto.</p> 
     <ul> 
-     <li><strong>Calcular no nível do projeto</strong>:EAC para a tarefa-pai e o projeto são determinados informando Horas Reais ou Custo de Mão-de-Obra Real nas Fórmulas EAC. Esse cálculo inclui Horas Reais ou Custos e Despesas adicionados diretamente à tarefa ou ao projeto principal.</li> 
-     <li> <p><strong>Extrair de tarefas/subtarefas</strong>: a EAC da tarefa pai e do projeto é determinada pela soma da EAC de cada tarefa filho. Esse cálculo exclui Horas Reais ou Custos e Despesas Reais adicionados diretamente à tarefa ou projeto pai.</p> <p>O gerente de projeto pode modificar essa configuração no nível do projeto, usando a área Finanças em Detalhes do Projeto. Para obter mais informações, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Gerenciar informações na área de finanças do projeto</a>.</p> </li> 
-    </ul> <p>Para obter mais informações sobre como o EAC é calculado, consulte <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calcular Estimativa no Término (EAC)</a>.</p> </td> 
+     <li><strong>Calcular no nível do projeto</strong>:EAC para a tarefa pai e o projeto é determinado pela inserção de Horas Efetivas ou Custo Efetivo do Trabalho nas Fórmulas EAC. Esse cálculo inclui Horas Reais ou Custos e Despesas adicionados diretamente à tarefa ou ao projeto principal.</li> 
+     <li> <p><strong>Acúmulo de tarefas/subtarefas</strong>: a EAC da tarefa pai e do projeto é determinada pela soma da EAC de cada tarefa filho. Esse cálculo exclui Horas Reais ou Custos e Despesas Reais adicionados diretamente à tarefa ou projeto pai.</p> <p>O gerente de projeto pode modificar essa configuração no nível do projeto, usando a área Finanças em Detalhes do Projeto. Para obter mais informações, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Gerenciar informações na área Finanças do projeto</a>.</p> </li> 
+    </ul> <p>Para obter mais informações sobre como o EAC é calculado, consulte <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calcular EAC (Estimativa no Término)</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,16 +157,16 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
    <td role="rowheader">Cronograma de</td> 
    <td> <p>Determine se os novos projetos estão programados a partir da Data inicial ou da Data de conclusão quando são criados.</p> 
     <ul> 
-     <li><strong>Data de início</strong>: Novas tarefas são padronizadas para a Restrição de Tarefa O Mais Breve Possível e os gerentes de projeto são solicitados a fornecer uma Data de Início Planejada para o projeto.</li> 
-     <li><strong>Data de Término</strong>: Novas tarefas assumem como padrão a Restrição de Tarefa O Mais Tarde Possível e os gerentes de projeto são solicitados a fornecer uma Data de Conclusão Planejada para o projeto.</li> 
+     <li><strong>Data de Início</strong>: novas tarefas assumem como padrão a Restrição de Tarefa O Mais Breve Possível e os gerentes de projeto são solicitados a fornecer uma Data de Início Planejada para o projeto.</li> 
+     <li><strong>Data de conclusão</strong>: novas tarefas assumem como padrão a Restrição de Tarefa o Mais Tarde Possível e os gerentes de projeto são solicitados a fornecer uma Data de conclusão planejada para o projeto.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tempo de folga do usuário</td> 
    <td> <p>Determine se o tempo de folga do Principal responsável por uma tarefa ajusta as datas planejadas para essa tarefa em um projeto.</p> 
     <ul> 
-     <li> <p><strong>Considerar o tempo de folga do usuário nas durações de tarefas</strong>: qualquer folga programada para o Principal responsável de uma tarefa ajusta as datas planejadas da tarefa se a folga ocorrer durante a duração da tarefa. Esta é a configuração padrão. </p> <p>Por exemplo, se uma tarefa com uma Restrição o Mais Breve Possível estiver programada para iniciar em 1° de junho e terminar em 3 de junho, e o Destinatário principal tiver o dia 2 de junho marcado para Folga, as datas planejadas da tarefa serão ajustadas de 1º de junho a 4 de junho.</p> <p><b>IMPORTANTE</b>: a duração da tarefa não é alterada ao selecionar essa configuração. Somente as datas planejadas mudam, dependendo da Restrição da Tarefa.</p> </li> 
-     <li><strong>Ignorar o tempo de folga do usuário nas durações de tarefas</strong>: as datas planejadas de cada tarefa em um projeto permanecem como planejadas originalmente, mesmo que o Destinatário principal de uma tarefa tenha uma folga durante sua duração.</li> 
+     <li> <p><strong>Considere o tempo de folga do usuário nas durações da tarefa</strong>: qualquer tempo de folga agendado para o Destinatário Principal de uma tarefa ajusta as datas planejadas da tarefa se o tempo de folga ocorrer durante a duração da tarefa. Esta é a configuração padrão. </p> <p>Por exemplo, se uma tarefa com uma Restrição o Mais Breve Possível estiver programada para iniciar em 1° de junho e terminar em 3 de junho, e o Destinatário principal tiver o dia 2 de junho marcado para Folga, as datas planejadas da tarefa serão ajustadas de 1º de junho a 4 de junho.</p> <p><b>IMPORTANTE</b>: a duração da tarefa não é alterada quando você seleciona essa configuração. Somente as datas planejadas mudam, dependendo da Restrição da Tarefa.</p> </li> 
+     <li><strong>Ignorar o tempo de folga do usuário nas durações de tarefa</strong>: as datas planejadas de cada tarefa em um projeto permanecem como planejadas originalmente, mesmo que o Destinatário Principal de uma tarefa tenha folga durante sua duração.</li> 
     </ul> <p>Considere o seguinte ao selecionar opções para essa configuração:</p> 
     <ul> 
      <li>Quando você altera essa configuração, somente os projetos e modelos criados após a alteração herdam a configuração atualizada. </li> 
@@ -176,49 +176,49 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
        <li>A data de conclusão planejada</li> 
        <li>Ambas as datas</li> 
        <li>Nenhuma data. </li> 
-      </ul> <p>Por exemplo, se uma tarefa tiver uma Restrição de datas fixas, as datas não são ajustadas quando o Destinatário principal tem folga, mesmo se a opção Considerar folga do usuário na duração da tarefa estiver selecionada. Para obter informações sobre restrições de tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Visão geral de Restrição de Tarefa</a>.</p> </li> 
+      </ul> <p>Por exemplo, se uma tarefa tiver uma Restrição de datas fixas, as datas não são ajustadas quando o Destinatário principal tem folga, mesmo se a opção Considerar folga do usuário na duração da tarefa estiver selecionada. Para obter informações sobre restrições de tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Visão geral da Restrição de Tarefa</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>As linhas do tempo do projeto serão recalculadas automaticamente</strong> </p> </td> 
-   <td> <p>Determine quando a linha do tempo de um projeto é recalculada. Para obter informações sobre como recalcular a linha do tempo do projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular linhas do tempo do projeto</a>.</p> <p>As opções a seguir são ativadas por padrão. Você pode selecionar uma ou mais das seguintes configurações:</p> 
+   <td role="rowheader"> <p><strong>As linhas de tempo do projeto serão recalculadas automaticamente</strong> </p> </td> 
+   <td> <p>Determine quando a linha do tempo de um projeto é recalculada. Para obter informações sobre como recalcular a linha de tempo do projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular linhas de tempo do projeto</a>.</p> <p>As opções a seguir são ativadas por padrão. Você pode selecionar uma ou mais das seguintes configurações:</p> 
     <ul> 
-     <li> <p><strong>Todas as noites</strong>: selecione esta opção para recalcular as linhas do tempo do projeto todas as noites. Quaisquer alterações feitas no projeto que possam afetar a linha do tempo não ficam visíveis imediatamente. O Workfront​​​ recalcula as linhas do tempo à noite somente para projetos em que ambas as condições a seguir sejam atendidas:</p> <p> 
+     <li> <p><strong>Todas as noites</strong>: selecione esta opção para recalcular as linhas de tempo do projeto todas as noites. Quaisquer alterações feitas no projeto que possam afetar a linha do tempo não ficam visíveis imediatamente. O Workfront​​​ recalcula as linhas do tempo à noite somente para projetos em que ambas as condições a seguir sejam atendidas:</p> <p> 
        <ul> 
         <li>Têm status Atual</li> 
         <li>Teve uma atualização nos últimos 3 meses</li> 
        </ul> </p> </li> 
-     <li> <p><strong>Quando o escopo de um projeto é alterado</strong>: selecione esta opção para recalcular as linhas do tempo do projeto imediatamente quando ocorrer uma alteração no escopo do projeto. Para obter informações sobre o que constitui uma alteração de escopo de projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular linhas do tempo do projeto</a>.</p> </li> 
+     <li> <p><strong>Quando o escopo de um projeto for alterado</strong>: selecione esta opção para recalcular as linhas de tempo do projeto imediatamente, à medida que ocorrer uma alteração no escopo do projeto. Para obter informações sobre o que constitui uma alteração de escopo de projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular linhas do tempo do projeto</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Quando vários usuários são atribuídos a uma tarefa, use o agendamento do</strong> </p> </td> 
+   <td role="rowheader"> <p><strong>Quando vários usuários forem atribuídos a uma tarefa, use o agendamento de</strong> </p> </td> 
    <td> <p>Se um projeto não tiver um agendamento atribuído ou se os usuários atribuídos a suas tarefas não tiverem um Agendamento atribuído a eles, o Workfront usará o agendamento padrão do sistema para calcular a linha do tempo das tarefas.</p> <p>Se você atribuir vários usuários à mesma tarefa em um projeto tiver um agendamento atribuído, e os usuários atribuídos às tarefas também tiverem um agendamento atribuído a eles, o Workfront usará os seguintes agendamentos:</p> 
     <ul> 
-     <li><strong>Atribuição primária</strong>: o Workfront usa o agendamento da Atribuição principal na tarefa para calcular linhas do tempo.</li> 
-     <li><strong>Projeto</strong>: o Workfront usa o agendamento do projeto para calcular a linha do tempo de cada tarefa.</li> 
-    </ul> <p>Para obter mais informações sobre cronogramas, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Criar um agendamento</a>.</p> </td> 
+     <li><strong>Atribuição primária</strong>: a Workfront usa o agendamento da Atribuição primária na tarefa para calcular linhas do tempo.</li> 
+     <li><strong>Projeto</strong>: a Workfront usa a agenda do projeto para calcular a linha de tempo de cada tarefa.</li> 
+    </ul> <p>Para obter mais informações sobre agendamentos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Criar um agendamento</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Cálculos de linha do tempo </p> </td> 
    <td> 
     <ul> 
-     <li><strong>Horas de trabalho típicas por dia</strong>: Defina o número de horas em um dia de trabalho típico para os usuários que trabalharão nos projetos. O padrão é 8 horas.</li> 
+     <li><strong>Horas típicas por dia útil</strong>: Defina o número de horas em um dia útil típico para os usuários que trabalharão nos projetos. O padrão é 8 horas.</li> 
     </ul> 
     <ul> 
-     <li><strong>Dias de trabalho típico por semana</strong>: Defina a semana de trabalho padrão para os usuários que trabalharão nos projetos. O padrão é 5 dias.</li> 
-    </ul> <p>Essas 2 opções convertem dias em horas ou semanas em dias.</p> <p>Por exemplo, se você tiver uma tarefa com 8 Horas planejadas e a duração for calculada com base nas Horas planejadas, o Workfront converterá essas horas em dias para mostrar a Duração como dias.</p> <p>No campo Typical work days per week, o Workfront calcula o valor de Full Time Equivalent (FTE) para o seu sistema. É o que o Workfront usa ao calcular alocações para usuários.</p> <p>Esses valores são usados quando você está planejando cronogramas de projetos, orçamento de recursos ou registro de tempo em projetos. </p> <p>Eles não são usados quando você está estabelecendo folhas de horas para usuários no sistema, conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configurar preferências de horas e planilha de horas</a>.</p> <p><b>NOTA</b>: os administradores do Workfront não podem desbloquear as preferências de Cálculos de linha do tempo.</p> </td> 
+     <li><strong>Dias úteis típicos por semana</strong>: defina a semana útil padrão para os usuários que trabalharão nos projetos. O padrão é 5 dias.</li> 
+    </ul> <p>Essas 2 opções convertem dias em horas ou semanas em dias.</p> <p>Por exemplo, se você tiver uma tarefa com 8 Horas planejadas e a duração for calculada com base nas Horas planejadas, o Workfront converterá essas horas em dias para mostrar a Duração como dias.</p> <p>No campo Typical work days per week, o Workfront calcula o valor de Full Time Equivalent (FTE) para o seu sistema. É o que o Workfront usa ao calcular alocações para usuários.</p> <p>Esses valores são usados quando você está planejando cronogramas de projetos, orçamento de recursos ou registro de tempo em projetos. </p> <p>Elas não são usadas quando você está estabelecendo folhas de horas para usuários no sistema, conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configurar folhas de horas e preferências de horas</a>.</p> <p><b>OBSERVAÇÃO</b>: os administradores do Workfront não podem desbloquear as preferências de Cálculos de Linha do Tempo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Trimestres personalizados</strong> </p> </td> 
-   <td> <p>Configure trimestres anuais personalizados para os usuários que trabalharão nos projetos. Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Você pode adicionar vários trimestres personalizados. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados para projetos</a>.</p> <p><b>NOTA</b>: os administradores do Workfront não podem desbloquear as preferências de Trimestres personalizados.</p> </td> 
+   <td> <p>Configure trimestres anuais personalizados para os usuários que trabalharão nos projetos. Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Você pode adicionar vários trimestres personalizados. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados para projetos</a>.</p> <p><b>OBSERVAÇÃO</b>: os administradores do Workfront não podem desbloquear as preferências de Trimestres personalizados.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Casos de negócio {#business-cases}
 
-Você pode criar um Business Case para projetos recém-criados associados ao grupo para enviar solicitações de projeto. É possível definir preferências para determinar quais áreas ficam visíveis na **Business Case** formulário. Recomendamos ativar essas opções para que outras ferramentas, como o Portfolio Otimizer, sejam atualizadas corretamente. Para obter mais informações sobre o que cada campo exibe, consulte [Definir um Business Case: índice do artigo](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+Você pode criar um Business Case para projetos recém-criados associados ao grupo para enviar solicitações de projeto. Você pode definir preferências para determinar quais áreas estão visíveis no formulário **Business Case**. Recomendamos ativar essas opções para que outras ferramentas, como o Portfolio Otimizer, sejam atualizadas corretamente. Para obter mais informações sobre o que cada campo exibe, consulte [Definir um Business Case: índice de artigo](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 Depois que o administrador do Workfront habilita as seções no Business Case, um Proprietário do projeto pode criar um Business Case no nível do projeto. Para obter informações sobre como criar um Business Case, consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -235,14 +235,14 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
    <td> <p>Determine as regras para sua organização (ou grupo, se estiver configurando preferências de projeto para um grupo) em relação à possibilidade de uma tarefa ou problema ser excluído após o status do projeto ter sido marcado como Concluído.</p> 
     <ul> 
      <li><strong>Excluir Tarefas</strong>: permite que os usuários excluam tarefas de um projeto depois que o projeto for marcado como Concluído.<br></li> 
-     <li><strong>Excluir Problemas</strong>: permite que os usuários excluam problemas de um projeto depois que o projeto for marcado como Concluído.</li> 
+     <li><strong>Excluir Problemas</strong>: permite que usuários excluam problemas de um projeto depois que o projeto é marcado como Concluído.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Depois que um projeto é marcado como Concluído, Desativado ou com Aprovação pendente, as pessoas ainda poderão</strong> </p> </td> 
-   <td> <p>Determine as regras para sua organização (ou grupo, se estiver configurando preferências de projeto para um grupo) em relação ao que acontece com tarefas, problemas, documentos e outros objetos em um projeto depois que o status do projeto é marcado <strong>Concluído</strong>, <strong>Morto</strong>, ou é <strong>Pendente de Aprovação</strong>.</p> 
+   <td role="rowheader"> <p><strong>Depois que um projeto for marcado como Concluído, Inativo ou com Aprovação Pendente, as pessoas ainda poderão</strong> </p> </td> 
+   <td> <p>Determine as regras da sua organização (ou grupo, se estiver configurando preferências de projeto para um grupo) em relação ao que acontece com tarefas, problemas, documentos e outros objetos em um projeto depois que o status do projeto é marcado como <strong>Concluído</strong>, <strong>Desativado</strong> ou com <strong>Aprovação pendente</strong>.</p> 
     <ul> 
-     <li><strong>Adicionar e editar tarefas</strong> Permite que os usuários: 
+     <li><strong>Adicionar e editar tarefas</strong> Permite aos usuários: 
       <ul> 
        <li>Editar tarefas em um projeto depois que ele for marcado como Concluído, Inativo ou com Aprovação pendente. Isso inclui adicionar horas e alterar entradas de despesas em uma tarefa.</li> 
        <li>Adicionar tarefas a um projeto.</li> 
@@ -252,7 +252,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
        <li>Editar problemas em um projeto depois que ele for marcado como Concluído, Inativo ou Com aprovação pendente.</li> 
        <li>Adicione problemas a um projeto depois que o projeto for marcado como Concluído ou Inativo. (Você não pode adicionar problemas a um projeto que está com Aprovação pendente.)</li> 
       </ul></li> 
-     <li> <p><strong>Adicionar documentos ao projeto e às suas tarefas e problemas</strong>: permite aos usuários adicionar documentos a um projeto (ou adicionar documentos a tarefas e problemas dentro do projeto) após o projeto ser marcado como Concluído ou Inativo.</p> <p>Essa opção não se aplica a projetos com aprovação pendente.</p> </li> 
+     <li> <p><strong>Adicionar documentos ao projeto e às suas tarefas e problemas</strong>: permite que os usuários adicionem documentos a um projeto (ou para adicionar documentos a tarefas e problemas dentro do projeto) depois que o projeto for marcado como Concluído ou Inativo.</p> <p>Essa opção não se aplica a projetos com aprovação pendente.</p> </li> 
      <li> <p><strong>Anexar modelos</strong>: permite que os usuários anexem modelos a um projeto depois que o projeto for marcado como Concluído ou Inativo.</p> <p>Essa opção não se aplica a projetos com aprovação pendente.</p> </li> 
     </ul> </td> 
   </tr> 

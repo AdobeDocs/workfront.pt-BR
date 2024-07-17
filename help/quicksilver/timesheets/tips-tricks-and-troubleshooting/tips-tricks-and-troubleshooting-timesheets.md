@@ -20,6 +20,6 @@ ht-degree: 0%
 Esta seção contém os seguintes artigos:
 
 * [Corrigir o dia de início da semana de trabalho para Planilhas de Horas](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-* [Evite que a ação Recalcular Finanças afete horas de histórico quando as taxas forem alteradas](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [Rastrear registros de horas com a API do Adobe Workfront](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* [Impedir que a ação Recalcular Finanças afete as horas do histórico quando as taxas forem alteradas](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
+* [Rastrear Registros de Horas com a API do Adobe Workfront](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [Não é possível registrar horas para datas futuras](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

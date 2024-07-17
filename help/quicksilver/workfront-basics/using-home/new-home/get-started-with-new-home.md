@@ -31,7 +31,7 @@ A nova Página inicial foi projetada para ser altamente personalizável, permiti
 
 Os widgets são a base da nova Página inicial. Ao adicionar widgets à sua página inicial, você pode escolher o tipo de informação que é exibida para melhor atender às suas necessidades de trabalho. Alguns widgets só estão disponíveis para tipos específicos de licença, pois os objetos que eles rastreiam só estão disponíveis para essas licenças.
 
-Para obter informações sobre como adicionar, mover, redimensionar ou excluir widgets, consulte [Adicionar, editar ou remover widgets na Nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Para obter informações sobre como adicionar, mover, redimensionar ou excluir widgets, consulte [Adicionar, editar ou remover widgets em Nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um resumo das informações que eles exibem:
 
@@ -50,19 +50,19 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
 * **Minhas solicitações**\
     Exibe todas as solicitações que você submeteu, um filtro para exibir somente as solicitações abertas e um botão que abre o painel de resumo de uma solicitação.
 
-* **Solicitações de equipe**\
+* **Solicitações da equipe**\
     Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
 * **Aguardando minha aprovação**\
     Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no dispositivo.
 
 * **Todas as aprovações**\
-        <span class="preview"> Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas.</span> <span style="color: #ff0000;">Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.</span>
+        <span class="preview"> Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de listas de aprovações pendentes e vencidas.</span> <span style="color: #ff0000;">Este recurso faz parte de uma versão em fases e, no momento, está disponível apenas para clientes específicos.</span>
 
 * **Menções**\
     Exibe threads de comentários recentes de toda a Workfront, de forma semelhante à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
 
-* **Tarefas**\
+* **Tarefas pendentes**\
     Este widget exclusivo permite adicionar itens a uma lista de verificação pessoal que você pode editar livremente. As tarefas são rastreadas como tarefas no seu projeto pessoal e permanecem por até duas semanas após a conclusão.
 
   >[!NOTE]
@@ -129,12 +129,12 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
 
 Você pode adicionar um pouco de clarão pessoal à sua Página inicial selecionando um banner colorido para a parte superior da página.
 
-**Para alterar a cor do plano de fundo da Página inicial:**
+**Para alterar a cor da tela de fundo da Página Inicial:**
 
 1. Vá para a Home page seguindo um destes procedimentos:
 
-   * Se a Página inicial estiver definida como página inicial, clique no link **Adobe Workfront** ícone ![Ícone do Adobe Workfront](../new-home/assets/home-icon-30x29.png) no canto superior esquerdo da tela.
-   * Clique em **Menu principal** no canto superior direito da tela ou no ícone **Menu principal** ícone ![Ícone do menu principal](../new-home/assets/main-menu-icon-left-nav.png) no canto superior esquerdo, se disponível, clique em **Início**.
+   * Se a Página inicial estiver definida como página de aterrissagem, clique no **ícone do Adobe Workfront** ![ícone do Adobe Workfront](../new-home/assets/home-icon-30x29.png) no canto superior esquerdo da tela.
+   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do ](../new-home/assets/main-menu-icon-left-nav.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
 
 1. Clique em **Personalizar** no canto superior direito da tela.
 
@@ -142,7 +142,7 @@ Você pode adicionar um pouco de clarão pessoal à sua Página inicial selecion
 
    O painel Personalizar é aberto.
 
-1. No **Histórico** seção do **Personalizar** clique na cor que deseja selecionar para o plano de fundo da Página inicial. Você também pode clicar em **Nenhum** para remover o fundo.
+1. Na seção **Plano de fundo** do painel **Personalizar**, clique na cor que você deseja selecionar para o plano de fundo da Página Inicial. Você também pode clicar em **Nenhum** para remover o plano de fundo.
 
 ## Reverter para a experiência atual da Página inicial
 
@@ -150,16 +150,16 @@ Se preferir a experiência da Página inicial existente, desative a nova experi�
 
 Para voltar para a experiência atual da Página inicial:
 
-1. Vá para a Home page, clicando no link **Adobe Workfront** ícone ![Ícone do Adobe Workfront](../new-home/assets/home-icon-30x29.png) no canto superior esquerdo da tela, se a Página inicial estiver definida como página de aterrissagem, ou clique no botão **Menu principal** ícone no canto superior direito ![](assets/dots-main-menu.png) ou o **Menu principal** ícone ![Ícone do menu principal](../new-home/assets/main-menu-icon-left-nav.png) no canto superior esquerdo, se disponível, clique em **Início**.
+1. Vá para a sua Página inicial, clicando no ícone do **Adobe Workfront** ![Ícone do Adobe Workfront](../new-home/assets/home-icon-30x29.png) no canto superior esquerdo da tela, se a Página Inicial estiver definida como página de aterrissagem, ou clique no ícone do **Menu Principal** no canto superior direito ![](assets/dots-main-menu.png) ou no ícone do **Menu Principal** ![Ícone do Menu Principal](../new-home/assets/main-menu-icon-left-nav.png) no canto superior esquerdo, se disponível, depois clique em **Página Inicial**.
 
-1. Clique no link **Voltar para a página inicial atual** no canto inferior direito da página.
+1. Clique no botão **Voltar à página inicial atual**, no canto inferior direito da página.
 
-   ![Voltar ao botão Início atual](../new-home/assets/go-back-to-current-home-button.png)
+   ![Voltar ao botão Página Inicial atual](../new-home/assets/go-back-to-current-home-button.png)
 
    Uma janela de confirmação é exibida.
 
-1. Faça uma breve pesquisa sobre a sua experiência com a nova Página inicial ou clique em **Voltar à página inicial atual** para reverter para a experiência inicial atual.
+1. Faça uma breve pesquisa sobre a sua experiência com a nova Página Inicial ou clique em **Voltar para a Página Inicial atual** para reverter para a experiência da Página Inicial atual.
 
 >[!NOTE]
 >
-> Os administradores do sistema podem desativar a nova página inicial como padrão para seus usuários. Para obter informações sobre como alterar a experiência padrão da Página inicial para usuários em um sistema, consulte [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+> Os administradores do sistema podem desativar a nova página inicial como padrão para seus usuários. Para obter informações sobre como alterar a experiência padrão da Página Inicial para usuários em um sistema, consulte [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).

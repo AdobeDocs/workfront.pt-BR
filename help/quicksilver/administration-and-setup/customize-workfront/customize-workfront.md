@@ -22,7 +22,7 @@ Esta seção contém as seguintes subseções:
 
 * [Marca personalizada no Adobe Workfront](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [Modelos de layout](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
-* [Formulários personalizados: índice de artigos](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
-* [Status e rótulos de prioridade](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
+* [Formulários personalizados: índice do artigo](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+* [Rótulos de status e prioridade](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [Processos de aprovação e caminhos de etapas](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [Condições personalizadas](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)

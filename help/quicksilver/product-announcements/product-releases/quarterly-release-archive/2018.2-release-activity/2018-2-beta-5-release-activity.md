@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 5 2018.2
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 5 de 2018.2. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de junho de 2018. Os aprimoramentos de revisão lançados com a versão Beta 5 estarão disponíveis no ambiente de Pré-visualização na segunda-feira, 4 de junho. Ele estará disponível no ambiente de Produção em julho de 2018.
+title: Atividade da versão 2018.2 do Beta 5
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 5. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de junho de 2018. Os aprimoramentos de revisão lançados com o Beta 5 estarão disponíveis no ambiente de Pré-visualização na segunda-feira, 4 de junho. Ele estará disponível no ambiente de Produção em julho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,38 +14,38 @@ ht-degree: 1%
 
 ---
 
-# Atividade da versão Beta 5 2018.2
+# Atividade da versão 2018.2 do Beta 5
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 5 de 2018.2. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de junho de 2018. Os aprimoramentos de revisão lançados com a versão Beta 5 estarão disponíveis no ambiente de Pré-visualização na segunda-feira, 4 de junho. Ele estará disponível no ambiente de Produção em julho de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 5. A funcionalidade estará disponível no ambiente de Pré-visualização em 1 de junho de 2018. Os aprimoramentos de revisão lançados com o Beta 5 estarão disponíveis no ambiente de Pré-visualização na segunda-feira, 4 de junho. Ele estará disponível no ambiente de Produção em julho de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte  [Visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte  Visão geral da atividade da versão [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-A versão Beta 5 de 2018.2 contém as melhorias para administradores do Workfront e outros usuários:
+A versão 2018.2 do Beta 5 contém as melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
-* [Exibir alterações acionadas pelo usuário com logs de auditoria](#view-user-triggered-changes-with-audit-logs)
+* [Exibir Alterações Acionadas pelo Usuário com Logs de Auditoria](#view-user-triggered-changes-with-audit-logs)
 * [Exibir Informações de Licença como um administrador de grupo](#view-license-information-as-a-group-administrator)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
-* [Exibição de Calendário na Área Inicial](#calendar-view-in-the-home-area)
-* [Atualizações adicionais na Lista de trabalho (painel esquerdo) na Página inicial](#additional-updates-to-the-work-list-left-panel-in-home)
-* [Configurar limites de funções de trabalho para o Agendamento automatizado de recursos](#configure-job-role-limits-for-automated-resource-scheduling)
-* [Melhorias na visualização de projetos e funções no Planejador de recursos](#project-and-role-view-improvements-in-the-resource-planner)
+* [Exibição de calendário na Área Inicial](#calendar-view-in-the-home-area)
+* [Atualizações adicionais para a Lista de Trabalho (Painel esquerdo) na Página Inicial](#additional-updates-to-the-work-list-left-panel-in-home)
+* [Configurar os Limites de Função de Trabalho para o Agendamento Automatizado de Recursos](#configure-job-role-limits-for-automated-resource-scheduling)
+* [Melhorias na exibição de projetos e funções no Planejador de recursos](#project-and-role-view-improvements-in-the-resource-planner)
 * [Redimensionar Larguras de Coluna para Listas de Projetos](#resize-column-widths-for-project-lists)
-* [Ícone Suporte para novas listas de projeto](#icon-support-for-the-new-project-lists)
-* [Adicionar o campo &quot;Miniatura grande&quot; nas Visualizações de documento](#add-large-thumbnail-field-in-document-views)
+* [Suporte a Ícones para Novas Listas de Projetos](#icon-support-for-the-new-project-lists)
+* [Adicionar o campo &quot;Miniatura grande&quot; nas Exibições de Documento](#add-large-thumbnail-field-in-document-views)
 * [Aumentar Limite de Exportação do Excel](#increase-excel-export-limit)
 * [Filtros rápidos para listas de projetos](#quick-filters-for-project-lists)
-* [Coleções de problemas de referência nos relatórios de projeto e tarefa](#reference-issue-collections-in-project-and-task-reports)
+* [Referenciar Coleções de Problemas nos Relatórios de Projeto e de Tarefa](#reference-issue-collections-in-project-and-task-reports)
 * [Novo menu de versão mais robusta ao adicionar novas versões de documento no Workfront](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
-* [Melhorias de publicação de conteúdo para dispositivos móveis no aplicativo móvel Android Beta](#mobile-improvements-in-the-android-beta-mobile-app)
-* [Aprimoramentos do visualizador de provas (Workfront e Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
+* [Melhorias na publicação de conteúdo para dispositivos móveis no aplicativo móvel do Android Beta](#mobile-improvements-in-the-android-beta-mobile-app)
+* [Aprimoramentos do revisor (Workfront e Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
 * [Aprimoramentos de provas no Workfront](#proofing-enhancements-in-workfront)
 * [Aprimoramentos de provas no Workfront Proof](#proofing-enhancements-in-workfront-proof)
 
@@ -60,7 +60,7 @@ Agora você pode gerenciar suas tarefas de trabalho pessoais e agendamentos usan
 
 Se você usar um calendário no Outlook, poderá integrar seu calendário para exibir os eventos do Outlook no modo de exibição Calendário da Página Inicial.
 
-Para obter mais informações, consulte [Exibição do Calendário da página inicial](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+Para obter mais informações, consulte [exibição do Calendário da página inicial](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 ## Atualizações adicionais na Lista de trabalho (painel esquerdo) na Página inicial {#additional-updates-to-the-work-list-left-panel-in-home}
 
@@ -74,7 +74,7 @@ Os seguintes aprimoramentos estão disponíveis para a Lista de trabalho na áre
 
   Anteriormente, os itens concluídos eram exibidos para os 3 meses anteriores.
 
-  Para obter informações sobre como exibir o trabalho concluído na área Página inicial, consulte [Exibir itens na Lista de trabalho na área Página inicial](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) no artigo [Exibir itens na Lista de trabalho na área Página inicial](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Para obter informações sobre como visualizar o trabalho concluído na área Página Inicial, consulte [Exibir itens na Lista de Trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) no artigo [Exibir itens na Lista de Trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Adicione os campos Duração e Atribuições para exibir quando os itens forem selecionados na área Página inicial.
 
@@ -82,7 +82,7 @@ Os seguintes aprimoramentos estão disponíveis para a Lista de trabalho na áre
 
   Para obter informações sobre como adicionar campos à área da página inicial, consulte &quot;Criar e gerenciar modelos de layout&quot;.
 
-Para obter mais informações sobre o uso da área Início, consulte [Usar a área Início](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Para obter mais informações sobre como usar a área da Página Inicial, consulte [Usar a área da Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Exibir alterações acionadas pelo usuário com logs de auditoria {#view-user-triggered-changes-with-audit-logs}
 
@@ -109,7 +109,7 @@ Para obter mais informações, consulte [Administradores de grupo](../../../../a
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Nas configurações de Agendamento automatizado de recursos, agora é possível atribuir um limite a uma função de trabalho. Isso permite que você controle o número de recursos, com a mesma função, com trabalho atribuído.
 
@@ -155,7 +155,7 @@ Agora, ao arrastar a borda direita de uma coluna para redimensioná-la, a coluna
 
 Antes dessa melhoria, a coluna vizinha à direita da coluna redimensionada também seria redimensionada proporcionalmente para caber na tela e não seria possível arrastar a borda de uma coluna além da borda direita da coluna vizinha.  
 
-Para obter informações sobre como redimensionar as colunas de reordenação em listas, consulte [Modificar a largura e a ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Para obter informações sobre como redimensionar as colunas de reordenação em listas, consulte [Modificar largura e ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 Para participar do nosso programa de teste beta para as melhorias da lista atual, consulte [Estudo de novas listas.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Login necessário)
 
@@ -208,7 +208,7 @@ Atualmente, os filtros rápidos estão disponíveis somente para as listas de pr
 * Projetos dos quais sou proprietário
 * Todos os Projetos
 
-Para obter informações sobre filtros rápidos, consulte a seção &quot;Aplicação de filtros rápidos a listas&quot; no [Introdução a listas no Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Para obter informações sobre filtros rápidos, consulte a seção &quot;Aplicando Filtros Rápidos a Listas&quot; em [Introdução a listas no Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Coleções de problemas de referência nos relatórios de projeto e tarefa {#reference-issue-collections-in-project-and-task-reports}
 
@@ -218,11 +218,11 @@ Antes dessa melhoria, você podia referenciar apenas uma coleção de tarefas em
 
 Para obter informações sobre como fazer referência a uma coleção em um relatório, consulte [Coleções de referência em um relatório](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-Para obter informações sobre como usar o modo de texto, consulte  [Visão geral de usos comuns do modo de texto](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obter informações sobre como usar o modo de texto, consulte  [Visão geral dos usos comuns do Modo de Texto](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 >[!NOTE]
 >
->No vídeo a seguir, o modo de texto de amostra para coleções de problemas estava incorreto. O modo de texto de amostra correto está disponível em [Coleções de referência em um relatório](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>No vídeo a seguir, o modo de texto de amostra para coleções de problemas estava incorreto. O modo de texto de exemplo correto está disponível em [Coleções de referência em um relatório](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 ## Novo menu de versão mais robusta ao adicionar novas versões de documento no Workfront {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -243,11 +243,11 @@ As seguintes opções agora estão disponíveis no menu Nova versão para todas 
 * Opções vinculadas (Do Dropbox, Do Google Drive e assim por diante)
 * Colar da área de transferência (esta é uma nova opção ao adicionar versões)
 
-Para obter mais informações, consulte [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) no artigo [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Para obter mais informações, consulte [Adicionar documentos ao Adobe Workfront a partir de seu sistema de arquivos](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) no artigo [Adicionar documentos ao Adobe Workfront a partir de seu sistema de arquivos](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-## Melhorias de publicação de conteúdo para dispositivos móveis no aplicativo móvel Android Beta {#mobile-improvements-in-the-android-beta-mobile-app}
+## Melhorias na plataforma móvel do Android Beta {#mobile-improvements-in-the-android-beta-mobile-app}
 
-Os seguintes aprimoramentos estarão disponíveis na versão Android Beta do aplicativo móvel logo após o dia desta versão:
+Os seguintes aprimoramentos estarão disponíveis na versão do aplicativo móvel para Android Beta, logo após o dia desta versão:
 
 * Deslizar ações
 
@@ -262,27 +262,27 @@ Os seguintes aprimoramentos estarão disponíveis na versão Android Beta do apl
 
 * Nova aparência ao visualizar a guia Detalhes de um item
 
-  A interface foi alterada ao visualizar um item na versão Beta do Android do aplicativo móvel para facilitar a edição, conclusão ou anexação de um documento a ele.
+  A interface foi alterada ao visualizar um item na versão do aplicativo móvel do Android Beta para facilitar a edição, conclusão ou anexação de um documento a ele.
 
 * Nova experiência ao registrar tempo
 
   O tempo de registro é mais rápido e fácil do que antes, com um botão Tempo de registro mais fácil de acessar e uma interface mais simplificada para horas de registro.
 
-Com esta versão, essas melhorias estão disponíveis apenas para a versão Android Beta do aplicativo móvel Workfront. No momento, eles não estão disponíveis para o iOS.
+Com esta versão, essas melhorias estão disponíveis apenas para a versão do Beta para Android do aplicativo móvel Workfront. No momento, eles não estão disponíveis para o iOS.
 
-Para obter mais informações sobre como se inscrever para ser um testador beta e baixar a versão Android Beta do aplicativo móvel Workfront, consulte .
+Para obter mais informações sobre como se inscrever para ser um testador beta e baixar a versão do Android Beta do aplicativo móvel Workfront, consulte .
 
-## Aprimoramentos do visualizador de provas (Workfront e Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
+## Aprimoramentos do revisor de provas (Workfront e Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
-* [Página de resumo de impressão atualizada](#updated-print-summary-page)
+* [Página de Resumo de Impressão Atualizada](#updated-print-summary-page)
 * [Adicionar usuários a uma prova diretamente do visualizador de provas](#add-users-to-a-proof-directly-from-the-proofing-viewer)
-* [Exibir todas as ferramentas de marcação no visualizador de provas](#display-all-markup-tools-in-the-proofing-viewer)
-* [Configurar opções de classificação padrão no visualizador de provas](#configure-default-sorting-options-in-the-proofing-viewer)
-* [Visualizar aprovações de documentos do Workfront no Visualizador de provas de desktop](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
-* [Configurar links que abrem novas guias e janelas para abrir no Visualizador de provas da área de trabalho](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
-* [Indicador de presença no visualizador de provas](#presence-indicator-in-the-proofing-viewer)
+* [Exibir Todas as Ferramentas de Marcação no visualizador de provas](#display-all-markup-tools-in-the-proofing-viewer)
+* [Configurar Opções de Classificação Padrão no visualizador de provas](#configure-default-sorting-options-in-the-proofing-viewer)
+* [Exibir aprovações de documentos do Workfront no Visualizador de provas de área de trabalho](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
+* [Configurar links que abrem novas guias e janelas para serem abertos no Visualizador de Revisão de Texto da Área de Trabalho](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
+* [Indicador de Presença no visualizador de provas](#presence-indicator-in-the-proofing-viewer)
 * [Filtrar comentários para exibir uma única página para provas de URL interativas no visualizador de provas da área de trabalho](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer)
-* [Visualizador de provas de desktop para conteúdo estático e de vídeo](#desktop-proofing-viewer-for-static-and-video-content)
+* [Visualizador de Revisores de Texto para Desktop para Conteúdo Estático e de Vídeo](#desktop-proofing-viewer-for-static-and-video-content)
 * [Adicionar dispositivos personalizados ao seu sistema](#add-custom-devices-to-your-system)
 
 ### Página de resumo de impressão atualizada {#updated-print-summary-page}
@@ -321,7 +321,7 @@ Agora você pode tomar uma decisão de aprovação de documento Workfront no Vis
 
 Anteriormente, somente o Visualizador de provas da Web permitia que você tomasse uma decisão de aprovação de documento do Workfront. 
 
-Para obter mais informações, consulte  [Tomar uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) no artigo  [Tomar uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Para obter mais informações, consulte  [Tome uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) no artigo  [Tome uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ### Configurar links que abrem novas guias e janelas para abrir no Visualizador de provas da área de trabalho {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -351,9 +351,9 @@ O Visualizador de provas de desktop agora suporta conteúdo estático e de víde
 
 Anteriormente, ele só aceitava conteúdo interativo.
 
-Para obter informações sobre como configurar provas estáticas e de vídeo para serem abertas no Visualizador de provas de desktop, consulte [Definir configurações do revisor de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Para obter informações sobre como configurar provas estáticas e de vídeo para serem abertas no Visualizador de Revisão de Texto para Desktop, consulte [Definir configurações do visualizador de revisão de texto](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
-Para obter mais informações sobre o Desktop Proofing Viewer, consulte [Revisão de provas no Visualizador de provas da área de trabalho.](https://support.workfront.com/hc/en-us/sections/360000686434)
+Para obter mais informações sobre o Visualizador de Revisão de Texto para Desktop, consulte [Revisando Provas no Visualizador de Revisão de Texto para Desktop.](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Adicionar dispositivos personalizados ao seu sistema {#add-custom-devices-to-your-system}
 
@@ -363,12 +363,12 @@ Antes dessa alteração, os usuários podiam escolher somente em uma lista de di
 
 Para obter informações sobre como adicionar dispositivos personalizados, consulte em
 
-Para obter informações sobre como os usuários podem selecionar dispositivos ao revisar o conteúdo interativo, consulte [Alterar resolução de prova interativa no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Para obter informações sobre como os usuários podem selecionar dispositivos ao revisar conteúdo interativo, consulte [Alterar resolução de prova interativa no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## Aprimoramentos de provas no Workfront {#proofing-enhancements-in-workfront}
 
-* [Compartilhe o link de prova diretamente do Workfront](#share-the-proof-link-directly-from-workfront)
-* [Relatório de dados adicionais de comprovação no Workfront](#report-on-additional-proofing-data-in-workfront)
+* [Compartilhar o link de prova diretamente do Workfront](#share-the-proof-link-directly-from-workfront)
+* [Relatório sobre Dados de Revisão Adicionais no Workfront](#report-on-additional-proofing-data-in-workfront)
 * [Visualizar dados históricos para aprovações de provas no Workfront](#view-historical-data-for-proof-approvals-in-workfront)
 
 ### Compartilhe o link de prova diretamente do Workfront {#share-the-proof-link-directly-from-workfront}
@@ -419,16 +419,16 @@ Para obter mais informações, consulte  [Glossário da terminologia do Adobe W
 
 ## Aprimoramentos de provas no Workfront Proof {#proofing-enhancements-in-workfront-proof}
 
-* [Criar uma nova versão de uma prova diretamente do visualizador de provas (Workfront Proof)](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
+* [Criar uma nova versão de uma prova diretamente do revisor de provas (Workfront Proof)](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
 * [Novo link de detalhes da prova no revisor de provas e no Visualizador de provas da área de trabalho (Workfront Proof)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
 
-### Criar uma nova versão de uma prova diretamente do visualizador de provas (Workfront Proof) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
+### Criar uma nova versão de uma prova diretamente do revisor de provas (Workfront Proof) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
 
-Agora é possível criar uma nova versão de uma prova diretamente no novo visualizador de provas e no Visualizador de provas da área de trabalho ao fazer provas dentro do Workfront Proof.
+Agora é possível criar uma nova versão de uma prova diretamente no novo visualizador de provas e no Visualizador de provas da área de trabalho ao fazer provas no Workfront Proof.
 
 Anteriormente, essa opção estava disponível somente no Visualizador de Flashes herdados.
 
-Para obter mais informações, consulte [Como copiar provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) no artigo  [Como copiar provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+Para obter mais informações, consulte [Copiando provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) no artigo  [Copiando provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
 ### Novo link de detalhes da prova no revisor de provas e no Visualizador de provas da área de trabalho (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 

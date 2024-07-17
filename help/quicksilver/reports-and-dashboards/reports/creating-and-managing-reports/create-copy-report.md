@@ -40,22 +40,22 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Criar uma cópia exata de um relatório
 
 Se quiser fazer uma cópia de um relatório que você é o proprietário do, faça o seguinte:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
-1. Clique em **Relatórios**, depois **Todos os relatórios**.
+1. Clique em **Relatórios** e depois em **Todos os relatórios**.
 1. Abra um relatório.
-1. Clique em **Ações de Relatório**, depois **Copiar**.
+1. Clique em **Ações de Relatório** e em **Copiar**.
 
    >[!TIP]
    >
@@ -72,7 +72,7 @@ Se quiser fazer uma cópia de um relatório que você é o proprietário do, fa�
    >
    >Se você desmarcar o título antes de digitar o novo nome, selecione o título do relatório, exclua o nome e, em seguida, digite o novo nome.
 
-1. (Opcional) Para compartilhar a nova versão do relatório com outros usuários, clique em **Ações de Relatório**, depois **Compartilhamento**.
+1. (Opcional) Para compartilhar a nova versão do relatório com outros usuários, clique em **Ações de Relatório** e depois em **Compartilhamento**.
 
    >[!NOTE]
    >
@@ -84,34 +84,34 @@ Se quiser fazer uma cópia de um relatório que você é o proprietário do, fa�
    Para excluir o relatório original, faça o seguinte:
 
    1. Navegue até o relatório.
-   1. Clique em **Ações de Relatório**, depois **Excluir**.
+   1. Clique em **Ações de Relatório** e depois em **Excluir**.
 
-   1. Clique em **Sim, exclua.** para confirmar que deseja excluir o relatório.
+   1. Clique em **Sim, Excluir** para confirmar que deseja excluir o relatório.
 
 ## Criar uma nova versão de um relatório {#create-a-new-version-of-a-report}
 
 Se quiser criar uma cópia de um relatório padrão, faça o seguinte:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
-1. Clique em **Relatórios**, depois **Todos os relatórios**.
+1. Clique em **Relatórios** e depois em **Todos os relatórios**.
 1. Clique no nome de um relatório padrão para abri-lo.
-1. Clique em **Ações de Relatório**, depois **Editar**.
+1. Clique em **Ações de Relatório** e depois em **Editar**.
 
    ![Editar relatório](assets/nwe-reportactionsfordefaultreport-2022.png)
 
 1. Faça as modificações necessárias nas seguintes guias do relatório:
 
-   * **Colunas (Exibir)**: para obter mais informações sobre como personalizar exibições, consulte o artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * **Colunas (Modo de Exibição)**: Para obter mais informações sobre como personalizar modos de exibição, consulte o artigo [Visão geral dos modos de exibição no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
    * **Agrupamentos**: para obter mais informações sobre como personalizar agrupamentos, consulte o artigo [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
    * **Filtros**: para obter mais informações sobre como personalizar filtros, consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
    * **Gráfico**: para obter mais informações sobre como personalizar um gráfico de relatório, consulte o artigo [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. No canto superior direito, clique em **Configurações do relatório**.
-1. No **Título do relatório** dê um novo nome ao relatório.
+1. No campo **Título do relatório**, dê um novo nome ao relatório.
 1. Clique em **Concluído**.
-1. Clique em **Salvar como novo relatório**.
+1. Clique em **Salvar como Novo Relatório**.
 
    ![](assets/nwe-save-as-new-report-350x220.png)
 
-1. (Opcional) Para compartilhar a nova versão do relatório com outros usuários, clique em **Ações de Relatório**, depois **Compartilhamento**.
+1. (Opcional) Para compartilhar a nova versão do relatório com outros usuários, clique em **Ações de Relatório** e depois em **Compartilhamento**.

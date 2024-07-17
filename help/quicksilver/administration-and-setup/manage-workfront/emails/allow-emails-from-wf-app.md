@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Permitir emails do aplicativo Adobe Workfront
-description: Se você configurou seu firewall ou servidor de email para permitir acesso somente a fornecedores específicos, é necessário adicionar determinados endereços IP Adobe Workfront à  do firewall lista de permissões. Para obter instruções, consulte Configurar a  lista de permissões do firewall.
+description: Se você tiver configurado o firewall ou o servidor de e-mail para permitir o acesso somente a fornecedores específicos, será necessário adicionar determinados endereços IP da Adobe Workfront incluir na lista de permissões ao seu arquivo de firewall. Para obter instruções, consulte Configurar o arquivo de inclui na lista de permissões do firewall.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # Permitir emails do aplicativo Adobe Workfront
 
-Se você configurou seu firewall ou servidor de email para permitir acesso somente a fornecedores específicos, é necessário adicionar determinados endereços IP Adobe Workfront à  do firewall lista de permissões. Para obter instruções, consulte [Configurar a  lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Se você tiver configurado o firewall ou o servidor de e-mail para permitir o acesso somente a fornecedores específicos, será necessário adicionar determinados endereços IP da Adobe Workfront incluir na lista de permissões ao seu arquivo de firewall. Para obter instruções, consulte [Configurar a inclui na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Tokens para formatação de data e hora no [!DNL Adobe Workfront Fusion]
-description: Os seguintes tokens para a formatação de data e hora estão disponíveis no [!DNL Adobe Workfront Fusion mapping] painel.
+title: Tokens para formatação de data e hora em  [!DNL Adobe Workfront Fusion]
+description: Os seguintes tokens para formatação de data e hora estão disponíveis no painel  [!DNL Adobe Workfront Fusion mapping] .
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 6%
+source-wordcount: '373'
+ht-degree: 5%
 
 ---
 
-# Tokens para formatação de data e hora no [!DNL Adobe Workfront Fusion]
+# Tokens para formatação de data e hora em [!DNL Adobe Workfront Fusion]
 
 ## Requisitos de acesso
 
@@ -36,23 +36,23 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -297,12 +297,12 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
   <tr> 
    <td><code>A</code></td> 
    <td><code>AM PM </code> </td> 
-   <td> <p>Meridioma post ou ante (maiúsculo)</p> </td> 
+   <td> <p>Post ou ante meridiem (maiúscula)</p> </td> 
   </tr> 
   <tr> 
    <td><code>a</code> </td> 
    <td><code>am pm </code> </td> 
-   <td> <p> Meridioma post ou ante (minúsculo)</p> </td> 
+   <td> <p> Post ou ante meridiem (minúsculas)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m</code> </td> 

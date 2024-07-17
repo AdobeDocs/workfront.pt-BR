@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Você pode estimar seus recursos no Planejador de Recursos da Adobe Workfront usando valores de Custo, em vez de valores de Horas ou FTE. Os valores de custo não estão disponíveis para o **Visualizar por usuário** no Planejador de recursos.
+Você pode estimar seus recursos no Planejador de Recursos da Adobe Workfront usando valores de Custo, em vez de valores de Horas ou FTE. Os valores de custo não estão disponíveis para a exibição **Visualizar por Usuário** no Planejador de Recursos.
 
 >[!IMPORTANT]
 >
 >Você deve associar usuários e funções de trabalho às taxas de Custo por Hora para exibir informações de Custo no Planejador de Recursos.\
 >Para obter mais informações sobre como associar taxas de Custo por hora a funções de trabalho, consulte [Criar e gerenciar funções de trabalho](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->Para obter mais informações sobre como associar taxas de Custo por hora a usuários, consulte [Editar o perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>Para obter mais informações sobre como associar taxas de Custo por hora a usuários, consulte [Editar perfil de usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Antes de estimar seus recursos, certifique-se de ter um bom entendimento de qual trabalho precisa ser feito (Horas planejadas, FTE ou Custo) e que horas seus usuários estão abertos para trabalhar (Horas disponíveis, FTE ou Custo).\
-Para obter mais informações sobre como entender as informações no Planejador de recursos ao fazer o orçamento por Horas ou FTE, consulte [Visão geral de horas, FTE e informações de custo nas visualizações Projeto e Função do Planejador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Para obter mais informações sobre como entender as informações no Planejador de Recursos ao fazer o orçamento por Horas ou FTE, consulte [Visão geral de horas, FTE e informações de custo nas exibições de Projeto e Função do Planejador de Recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Requisitos de acesso
 
@@ -56,12 +56,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações com a capacidade de Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações com a capacidade de Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exibir informações no Planejador de Recursos por Custo
 
@@ -69,20 +69,20 @@ Por padrão, as informações de disponibilidade e alocação são exibidas em H
 
 Para exibir informações Disponíveis, Planejadas e Orçadas por Custo no Planejador de Recursos:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
 1. Clique em **Recursos**.
 1. Vá até o Planejador de recursos.
-1. (Condicional) Selecionar **Visualizar por Projeto** ou **Visualizar por Função**.\
-   Por padrão **Visualizar por Projeto** está selecionada.\
+1. (Condicional) Selecione **Exibir por Projeto** ou **Exibir por Função**.\
+   Por padrão, **Exibir por Projeto** está selecionado.\
    As informações de alocação e disponibilidade são exibidas em Horas.
 
-1. No **Horas** selecione **Custo**.
+1. No menu suspenso **Horas**, selecione **Custo**.
 
    Se você não tiver acesso a Dados Financeiros em seu nível de acesso, essa opção não estará disponível.\
    Se os projetos tiverem uma moeda diferente da moeda do sistema, o Custo desses projetos será exibido no Planejador de recursos convertido na moeda do sistema. O administrador do sistema define a moeda do sistema.\
    Para obter mais informações sobre como configurar a moeda do sistema no Workfront e as taxas de conversão, consulte [Configurar taxas de câmbio](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
-   ![cost_in_the_planner_with_no_budgeting.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
+   ![custos_no_planejador_com_no_orçamento.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Calcular Custo Disponível no Planejador de Recursos
 
@@ -92,7 +92,7 @@ Para exibir os valores de Custo Disponível no Planejador de Recursos, você dev
 * Informações sobre a disponibilidade do usuário.
 
   A obtenção de informações sobre a disponibilidade de usuários depende de como o administrador do Workfront configura as Preferências de gerenciamento de recursos.\
-  Para obter mais informações sobre como calcular a disponibilidade dos usuários e definir Preferências de Gerenciamento de Recursos, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Para obter mais informações sobre como calcular a disponibilidade de usuários e definir Preferências de Gerenciamento de Recursos, consulte [Configurar preferências de Gerenciamento de Recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 A tabela a seguir ilustra como o Custo Disponível é calculado no Planejador de Recursos:
 
@@ -137,7 +137,7 @@ Embora não seja possível exibir as informações da tarefa no Planejador de Re
    * Uma equipe\
      Uma tarefa atribuída a uma Equipe é considerada não atribuída, da perspectiva do Planejador de Recursos.
 
-* A variável **Tipo de Custo** das tarefas no projeto.\
+* O **Tipo de Custo** das tarefas no projeto.\
   Para obter mais informações sobre o Tipo de Custo de uma tarefa, consulte [Rastrear custos](../../manage-work/projects/project-finances/track-costs.md).
 
 * As datas efetivas das taxas de custo para funções de trabalho e usuários.
@@ -150,7 +150,7 @@ Embora não seja possível exibir as informações da tarefa no Planejador de Re
 
 Existem os seguintes cenários ao calcular o Custo Planejado para usuários, funções e o projeto:
 
-* Quando a variável **Tipo de Custo** é **Usuário por hora **e há **nenhuma atribuição** na tarefa:
+* Quando o **Tipo de Custo** for **De Hora em Hora do Usuário **e não houver **nenhuma atribuição** na tarefa:
 
    * **Custo Planejado de Função e Usuário**:
 
@@ -160,7 +160,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O custo planejado do projeto é de US$ 0,00.
 
-* Quando a variável **Tipo de Custo** é **Usuário por hora** e há uma **atribuição de usuário** na tarefa:
+* Quando o **Tipo de Custo** é **Usuário por Hora** e há uma **atribuição de usuário** na tarefa:
 
    * **Custo Planejado de Função e Usuário**:
 
@@ -182,7 +182,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O custo planejado do projeto é de US$ 0,00.
 
-* Quando a variável **Tipo de Custo** é **Usuário por hora** e há uma **atribuição de função de trabalho** na tarefa:
+* Quando o **Tipo de Custo** é **Usuário por Hora** e há uma **atribuição de função de trabalho** na tarefa:
 
    * **Custo Planejado de Função e Usuário**:
 
@@ -198,7 +198,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O custo planejado do projeto é de US$ 0,00.
 
-* Quando a variável **Tipo de Custo** é **Função por hora** e há **nenhuma atribuição** na tarefa:
+* Quando o **Tipo de Custo** é **Função por Hora** e não há **nenhuma atribuição** na tarefa:
 
    * **Custo Planejado de Função e Usuário**:
 
@@ -208,7 +208,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O custo planejado do projeto é de US$ 0,00.
 
-* Quando a variável **Tipo de Custo** é **Função por hora** e há uma **atribuição de usuário** na tarefa:
+* Quando o **Tipo de Custo** é **Função por Hora** e há uma **atribuição de usuário** na tarefa:
 
    * **Custo Planejado de Função e Usuário**:
 
@@ -228,7 +228,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      `Project Planned Cost = SUM(Role Planned Costs)`
 
-* Quando a variável **Tipo de Custo** é **Função por hora** e há uma **atribuição de função de trabalho** na tarefa:
+* Quando o **Tipo de Custo** é **Função por Hora** e há uma **atribuição de função de trabalho** na tarefa:
 
    * **Custo Planejado de Função e Usuário**:
 

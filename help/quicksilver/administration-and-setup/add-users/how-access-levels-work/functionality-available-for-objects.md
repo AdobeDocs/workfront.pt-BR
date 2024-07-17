@@ -29,12 +29,12 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |------------------------------|----------|--------|-------------|---------------|
-| Criar | ✓ µ&#42; |   |   |   |
-| Copiar | ✓ µ&#42; |   |   |   |
-| Excluir | ✓ µ&#42; |   |   |   |
-| Compartilhar | ✓ µ&#42; |   |   |   |
-| Compartilhar em todo o sistema | ✓ µ&#42; |   |   |   |
-| Exibir | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
+| Criar | ✓ ➡&#42; |   |   |   |
+| Copiar | ✓ ➡&#42; |   |   |   |
+| Excluir | ✓ ➡&#42; |   |   |   |
+| Compartilhar | ✓ ➡&#42; |   |   |   |
+| Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Adicionar um formulário personalizado | ✓ µ |   |   |   |
 | Atualizar campos personalizados | ✓ µ |   |   |   |
 | Adicionar um processo de aprovação | ✓ µ |   |   |   |
@@ -61,17 +61,17 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Tarefas
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------------|----------|--------|-------------|---------------|
-| Criar | ✓ µ&#42; |   |   |   |
-| Excluir | ✓ µ&#42; |   |   |   |
-| Compartilhar | ✓ µ&#42; |   |   |   |
-| Compartilhar em todo o sistema | ✓ µ&#42; |   |   |   |
-| Exibir | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
+| Criar | ✓ ➡&#42; |   |   |   |
+| Excluir | ✓ ➡&#42; |   |   |   |
+| Compartilhar | ✓ ➡&#42; |   |   |   |
+| Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Adicionar predecessores | ✓ µ |   |   |   |
 | Adicionar problemas | ✓ µ | ✓ µ |   |   |
 | Editar uma tarefa (excluindo o status) | ✓ µ |   |   |   |
@@ -93,18 +93,18 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Problemas
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |-------------------------------|----------|--------|-------------|---------------|
-| Criar | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
+| Criar | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Editar | ✓ µ | ✓ µ | ✓ µ |   |
-| Excluir | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
-| Compartilhar | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
-| Compartilhar em todo o sistema | ✓ µ&#42; |   |   |   |
-| Exibir | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
+| Excluir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
+| Compartilhar | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
+| Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Anexar formulários personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Editar campos personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Aprovar problemas | ✓ µ | ✓ µ | ✓ µ |   |
@@ -121,7 +121,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Portfólios
 
@@ -129,11 +129,11 @@ Somente os usuários com uma licença Standard podem ter acesso total aos portf�
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------|----------|--------|-------------|---------------|
-| Criar | ✓ µ&#42; |   |   |   |
-| Excluir | ✓ µ&#42; |   |   |   |
-| Compartilhar | ✓ µ&#42; |   |   |   |
-| Compartilhar em todo o sistema | ✓ µ&#42; |   |   |   |
-| Exibir | ✓ µ&#42; | ✓ µ&#42; |   |   |
+| Criar | ✓ ➡&#42; |   |   |   |
+| Excluir | ✓ ➡&#42; |   |   |   |
+| Compartilhar | ✓ ➡&#42; |   |   |   |
+| Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
 | Editar detalhes | ✓ µ |   |   |   |
 | Anexar formulários personalizados | ✓ µ |   |   |   |
 | Editar campos personalizados | ✓ µ |   |   |   |
@@ -145,7 +145,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos portf�
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Programas
 
@@ -153,11 +153,11 @@ Somente os usuários com uma licença Standard podem ter acesso total aos progra
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |------------------------------|----------|--------|-------------|---------------|
-| Criar | ✓ µ&#42; |   |   |   |
-| Excluir | ✓ µ&#42; |   |   |   |
-| Compartilhar | ✓ µ&#42; |   |   |   |
-| Compartilhar em todo o sistema | ✓ µ&#42; |   |   |   |
-| Exibir | ✓ µ&#42; | ✓ µ&#42; |   |   |
+| Criar | ✓ ➡&#42; |   |   |   |
+| Excluir | ✓ ➡&#42; |   |   |   |
+| Compartilhar | ✓ ➡&#42; |   |   |   |
+| Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
 | Editar detalhes | ✓ µ |   |   |   |
 | Anexar formulários personalizados | ✓ µ |   |   |   |
 | Editar campos personalizados | ✓ µ |   |   |   |
@@ -169,7 +169,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos progra
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Relatórios, painéis e calendários
 
@@ -177,19 +177,19 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------------------|----------|--------|-------------|---------------|
-| Criar | ✓ µ&#42; |   |   |   |
-| Excluir | ✓ µ&#42; |   |   |   |
-| Exibir relatórios internos | ✓ µ&#42; |   |   |   |
-| Compartilhar | ✓ µ&#42; | ✓ µ |   |   |
-| Compartilhar calendários e relatórios publicamente | ✓ µ&#42; |   |   |   |
-| Compartilhar em todo o sistema | ✓ µ&#42; |   |   |   |
-| Exibir | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |
+| Criar | ✓ ➡&#42; |   |   |   |
+| Excluir | ✓ ➡&#42; |   |   |   |
+| Exibir relatórios internos | ✓ ➡&#42; |   |   |   |
+| Compartilhar | ✓ ➡&#42; | ✓ µ |   |   |
+| Compartilhar calendários e relatórios publicamente | ✓ ➡&#42; |   |   |   |
+| Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |
 | Editar | ✓ µ |   |   |   |
 | Copiar | ✓ µ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 >[!NOTE]
 >
@@ -208,18 +208,18 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Documentos
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------------|----------|--------|-------------|---------------|
-| Criar | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
-| Excluir (documentos e pastas) | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
-| Compartilhar | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |   |
-| Compartilhar publicamente (externamente) | ✓ µ&#42; |   |   |   |
-| Compartilhar em todo o sistema | ✓ µ&#42; |   |   |   |
-| Exibir | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; | ✓ µ&#42; |
+| Criar | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
+| Excluir (documentos e pastas) | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
+| Compartilhar | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
+| Compartilhar publicamente (externamente) | ✓ ➡&#42; |   |   |   |
+| Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |
 | Editar detalhes | ✓ µ | ✓ µ | ✓ µ |   |
 | Baixar | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
 | Check-out | ✓ µ | ✓ µ | ✓ µ |   |
@@ -243,7 +243,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Usuários
 
@@ -258,7 +258,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 &#42;&#42;Usuários externos só podem procurar outros usuários.
 
@@ -275,23 +275,23 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Modelos
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |-----------------------|----------|--------|-------------|---------------|
-| Criar | ✓ µ&#42; |   |   |   |
-| Excluir | ✓ µ&#42; |   |   |   |
-| Compartilhar | ✓ µ&#42; |   |   |   |
-| Compartilhar em todo o sistema | ✓ µ&#42; |   |   |   |
-| Exibir | ✓ µ&#42; |   |   |   |
+| Criar | ✓ ➡&#42; |   |   |   |
+| Excluir | ✓ ➡&#42; |   |   |   |
+| Compartilhar | ✓ ➡&#42; |   |   |   |
+| Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; |   |   |   |
 | Copiar | ✓ µ |   |   |   |
 | Editar detalhes do modelo | ✓ µ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Dados financeiros
 
@@ -299,23 +299,23 @@ Somente os usuários com uma licença Standard podem ter acesso total aos dados 
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Editar taxas de custo e cobrança de função | ✓ µ&#42; |   |   |   |
-| Editar taxas de custo e cobrança de usuário | ✓ µ&#42; |   |   |   |
-| Exibir taxas de custo e cobrança de função | ✓ µ&#42; |   |   |   |
-| Exibir taxas de custo e cobrança de usuário | ✓ µ&#42; |   |   |   |
+| Editar taxas de custo e cobrança de função | ✓ ➡&#42; |   |   |   |
+| Editar taxas de custo e cobrança de usuário | ✓ ➡&#42; |   |   |   |
+| Exibir taxas de custo e cobrança de função | ✓ ➡&#42; |   |   |   |
+| Exibir taxas de custo e cobrança de usuário | ✓ ➡&#42; |   |   |   |
 | Gerenciar registros de faturamento | ✓ µ |   |   |   |
 | Gerenciar despesas | ✓ µ |   |   |   |
-| Exibir dados financeiros | ✓ µ&#42; | ✓ µ&#42; |   |   |
-| <span class="preview">Gerenciar cartões de taxa</span> | ✓ µ |   |   |   |
+| Exibir dados financeiros | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
+| <span class="preview">Gerenciar cartões de tarifa</span> | ✓ µ |   |   |   |
 | Exibir informações por Custo nas ferramentas de Planejamento de Recursos | ✓ µ |   |   |   |
-| Recursos de orçamento nas ferramentas de planejamento de recursos&#42;&#42; | ✓ µ |   |   |   |
+| Recursos de Orçamento nas ferramentas de Planejamento de Recursos&#42;&#42; | ✓ µ |   |   |   |
 | Exibir alocação de recursos nas ferramentas de Planejamento de Recursos&#42; | ✓ µ | ✓ µ |   |   |
 | Criar riscos em projetos | ✓ µ |   |   |   |
 | Exibir riscos em projetos | ✓ µ | ✓ µ |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
 ## Gerenciamento de recursos
 
@@ -323,29 +323,29 @@ Somente os usuários com uma licença Standard podem ter acesso total ao gerenci
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
-| Editar prioridades e horas de orçamento no Planejador | ✓ µ&#42; |   |   |   |
-| Criar, editar, excluir Conjuntos de Recursos&#42;&#42; | ✓ µ&#42; |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓ µ&#42; |   |   |   |
-| Exibir prioridades de projeto no Planejador de Recursos | ✓ µ&#42; |   |   |   |
-| Exibir alocação de recursos nas ferramentas de Planejamento de Recursos | ✓ µ&#42; | ✓ µ&#42; |   |   |
-| Exibir Conjuntos de Recursos | ✓ µ&#42; | ✓ µ&#42; |   |   |
-| Recursos de orçamento nas ferramentas de Planejamento de recursos&#42;&#42; | ✓ µ |   |   |   |
+| Editar prioridades e horas de orçamento no Planejador | ✓ ➡&#42; |   |   |   |
+| Criar, editar, excluir Conjuntos de Recursos&#42;&#42; | ✓ ➡&#42; |   |   |   |
+| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓ ➡&#42; |   |   |   |
+| Exibir prioridades de projeto no Planejador de Recursos | ✓ ➡&#42; |   |   |   |
+| Exibir alocação de recursos nas ferramentas de Planejamento de Recursos | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
+| Exibir Conjuntos de Recursos | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
+| Recursos de orçamento nas ferramentas de Planejamento de Recursos&#42;&#42; | ✓ µ |   |   |   |
 | Anexar Conjuntos de Recursos a projetos, modelos e usuários | ✓ µ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade.
+&#42; Usando um nível de acesso, os administradores do Workfront podem desabilitar ou habilitar essa funcionalidade.
 
-&#42;&#42;Requer acesso adicional a dados financeiros e permissões para finanças do projeto. Se você conceder acesso ao Gerenciamento de recursos a um usuário do Planejador que não tem acesso aos Dados financeiros, o usuário ainda poderá ver as alocações por hora no Planejador de recursos, mas não poderá alternar para a visualização de custos ou visualizar o Business Case. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar permissões financeiras em um objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Requer acesso adicional a Dados Financeiros e permissões para finanças do projeto. Se você conceder acesso ao Gerenciamento de recursos a um usuário do Planejador que não tem acesso aos Dados financeiros, o usuário ainda poderá ver as alocações por hora no Planejador de recursos, mas não poderá alternar para a visualização de custos ou visualizar o Business Case. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar permissões financeiras em um objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Requer permissão para Contribuir com o objeto, com a opção Fazer atribuições ativada em Configurações avançadas. Para obter informações, consulte a seção [Compreender as permissões herdadas e a hierarquia de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) no artigo [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Requer permissão para o Contribute para o objeto, com a opção Fazer Atribuições habilitada em Configurações Avançadas. Para obter informações, consulte a seção [Entender as permissões herdadas e a hierarquia de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) no artigo [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Área do Planejador de Cenários
 
 | Ação | Padrão | Leve | Colaborador | Usuário externo |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Criar/editar planos e iniciativas existentes | ✓ µ | ✓ µ |   |   |
-| Adicionar ou editar informações de funções de trabalho em planos e iniciativas&#42; | ✓ µ | ✓ µ |   |   |
+| Adicionar ou editar informações de função de trabalho em planos e iniciativas&#42; | ✓ µ | ✓ µ |   |   |
 | Adicionar ou editar informações de custo em planos e iniciativas&#42; | ✓ µ | ✓ µ |   |   |
 | Excluir planos e iniciativas | ✓ µ | ✓ µ |   |   |
 | Exibir cenários no menu principal | ✓ µ | ✓ µ |   |   |
@@ -357,7 +357,7 @@ Somente os usuários com uma licença Standard podem ter acesso total ao gerenci
 >
 >Os usuários poderão exibir um plano que outro usuário criou somente se um link para o plano for compartilhado com eles.
 
-&#42; Para que os usuários visualizem dados financeiros em um plano ou iniciativa, eles precisam de acesso a Dados Financeiros. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Para que os usuários visualizem dados financeiros em um plano ou iniciativa, eles precisam de acesso aos Dados Financeiros. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Área Metas do Workfront
 

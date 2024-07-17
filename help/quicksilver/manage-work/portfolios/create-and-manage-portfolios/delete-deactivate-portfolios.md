@@ -71,20 +71,20 @@ Considere o seguinte ao decidir se exclui ou desativa portfólios:
 
 ## Desativar um portfólio
 
-Ao desativar um portfólio, você ainda pode acessá-lo pelo [!UICONTROL Portfolio] , mas não é mais exibido na lista de portfólios quando os usuários tentam adicioná-lo a um projeto.
+Ao desativar um portfólio, você ainda pode acessá-lo na área [!UICONTROL Portfolio], mas ele não é mais exibido na lista de portfólios quando os usuários tentam adicioná-lo a um projeto.
 
 >[!NOTE]
 >
->Dependendo de como sua [!DNL Workfront] ou um administrador de grupo configurar seu modelo de layout, a variável [!UICONTROL Portfolio] A área pode não ser exibida na variável [!UICONTROL Menu principal]. Para obter mais informações, consulte [Personalizar o menu principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Dependendo de como o administrador de grupo ou o [!DNL Workfront] configurar o modelo de layout, a área [!UICONTROL Portfolio] talvez não seja exibida no [!UICONTROL Menu Principal]. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
-1. Clique em **[!UICONTROL Portfolio]** .
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
+1. Clique em **[!UICONTROL Portfolio]**.
 1. Clique no nome do portfólio.
-1. Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome do portfólio e clique em **[!UICONTROL Desativar Portfolio]**.
+1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do portfólio e clique em **[!UICONTROL Desativar Portfolio]**.
 
 ## Excluir um portfólio
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
-1. Clique em **[!UICONTROL Portfolio]** .
-1. Selecione o portfólio e clique em **[!UICONTROL Excluir]**&#x200B;o [!UICONTROL Excluir] ícone ![](assets/delete.png).
-1. Na caixa exibida, clique em **[!UICONTROL Sim, exclua.]** para confirmar.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
+1. Clique em **[!UICONTROL Portfolio]**.
+1. Selecione o portfólio e clique em **[!UICONTROL Excluir]**&#x200B;no ícone [!UICONTROL Excluir] ![](assets/delete.png).
+1. Na caixa exibida, clique em **[!UICONTROL Sim, exclua-o]** para confirmar.

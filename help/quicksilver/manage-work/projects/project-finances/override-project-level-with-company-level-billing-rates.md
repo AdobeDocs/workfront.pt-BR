@@ -9,7 +9,7 @@ exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
 source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -43,12 +43,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Habilitar a opção de substituição de Taxas de Cobrança no Nível da Empresa
 
@@ -57,8 +57,8 @@ Quando uma empresa está associada a um projeto e essa opção está habilitada,
 Quando um usuário recalcula manualmente as finanças do projeto, qualquer alteração nas taxas de cobrança no nível da empresa é aplicada. Os cálculos de receita histórica também são substituídos, a menos que estejam marcados como faturados.
 
 1. Ir para um projeto.
-1. Clique em **Mais** menu ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho, clique em **Editar**.
-1. No **Finanças** habilite a opção **Permitir que taxas de cobrança no nível da empresa substituam taxas de cobrança no nível do projeto**.
+1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Editar**.
+1. Na seção **Finanças**, habilite **Permitir que taxas de cobrança no nível da empresa substituam taxas de cobrança no nível do projeto**.
 
    >[!CAUTION]
    >
@@ -74,13 +74,13 @@ Depois que você ativou a opção de substituição de taxas de cobrança no ní
 >
 >Os usuários devem ter acesso a Empresas em seu nível de acesso para atualizar as taxas de cobrança no nível da empresa.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Instalação**.
 1. Clique em **Empresas**.
 1. Clique no nome da empresa associada ao projeto para o qual você ativou a substituição de taxas de cobrança no nível da empresa.
 1. Clique em **Taxas de cobrança** no painel esquerdo.
-1. Atualize o **Taxa de Cobrança da Empresa** e datas de início/término para uma função de trabalho existente, em seguida, pressione Enter.
+1. Atualize a **Taxa de Cobrança da Empresa** e as datas de início/término de uma função de trabalho existente, em seguida, pressione Enter.
 
-   Para adicionar uma nova taxa de cobrança da empresa de data de efetivação, selecione uma taxa de cobrança para a função de trabalho e clique em **Editar**. Para obter mais informações sobre taxas de faturamento da empresa de data efetiva, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+   Para adicionar uma nova taxa de cobrança da empresa de data efetiva, selecione uma taxa de cobrança para a função de trabalho e clique em **Editar**. Para obter mais informações sobre taxas de cobrança da empresa de data efetiva, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Para atualizar as taxas da empresa para um ou mais projetos, siga um destes procedimentos:
 
@@ -89,10 +89,10 @@ Depois que você ativou a opção de substituição de taxas de cobrança no ní
       1. Ir para uma lista de projetos.
       1. Marque a caixa de seleção de acordo com os projetos que deseja atualizar.
       1. Clique em **Editar**.
-      1. Na seção Configurações, ative a opção **Recalcular Custos e Receitas** opção.
+      1. Na seção Configurações, habilite a opção **Recalcular Custos e Receitas**.
       1. Clique em **Salvar alterações**.
 
    * Um único projeto:
 
       1. Vá para o projeto para o qual você ativou a substituição de taxas de cobrança no nível da empresa.
-      1. Clique em **Mais** menu ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho, clique em **Recalcular Finanças**.
+      1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Recalcular Finanças**.

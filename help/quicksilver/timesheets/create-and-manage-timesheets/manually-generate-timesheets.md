@@ -1,8 +1,8 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Gerar manualmente folhas de ponto
-description: Para permitir que as alterações feitas nos perfis da folha de ponto sejam refletidas nas folhas de horas atuais, primeiro você deve excluir as folhas de horas existentes e gerar manualmente novas. Você pode gerar manualmente as folhas de horas a partir da área Folhas de horas ou da área Diagnósticos em Configurar, conforme explicado neste artigo.
+title: Gerar folhas de horas manualmente
+description: Para permitir que as alterações feitas nos perfis de folha de horas sejam refletidas nas folhas de horas atuais, primeiro exclua as folhas de horas existentes e gere manualmente as novas. Você pode gerar folhas de horas manualmente na área Folhas de horas ou na área Diagnóstico na Configuração, conforme explicado neste artigo.
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
@@ -13,68 +13,68 @@ ht-degree: 0%
 
 ---
 
-# Gerar manualmente folhas de ponto
+# Gerar folhas de horas manualmente
 
-Para permitir que as alterações feitas nos perfis da folha de ponto sejam refletidas nas folhas de horas atuais, primeiro você deve excluir as folhas de horas existentes e gerar manualmente novas. Você pode gerar manualmente as folhas de horas a partir da área Folhas de horas ou da área Diagnósticos em Configurar, conforme explicado neste artigo.
+Para permitir que as alterações feitas nos perfis de folha de horas sejam refletidas nas folhas de horas atuais, primeiro exclua as folhas de horas existentes e gere manualmente as novas. Você pode gerar folhas de horas manualmente na área Folhas de horas ou na área Diagnóstico na Configuração, conforme explicado neste artigo.
 
-Para obter instruções sobre como excluir folhas de ponto, consulte [Excluir folhas de ponto no Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
+Para obter instruções sobre como excluir folhas de horas, consulte [Excluir folhas de horas no Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença Adobe Workfront</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Você deve ser um administrador do Workfront ou, se estiver trabalhando nos perfis da folha de ponto de um grupo, deve ser um administrador de grupo (ou administrador do Workfront). Para obter mais informações, consulte <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores do grupo</a>.</p> <p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront ou, se estiver trabalhando em perfis de folha de horas para um grupo, você deve ser um administrador de grupo (ou administrador do Workfront). Para obter mais informações, consulte <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a>.</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
-## Considerações sobre as folhas de horas geradas manualmente
+## Considerações sobre folhas de horas geradas manualmente
 
 Ao gerar folhas de horas manualmente:
 
-* Elas são geradas de acordo com os perfis da folha de ponto associados aos usuários. Os usuários que não têm perfis de folha de ponto associados a eles não recebem folhas de ponto. 
-* Somente a folha de ponto atual e a que se segue são geradas. O Workfront não gera duas folhas de ponto para o mesmo período. Se você já tiver uma folha de ponto para um período específico, outra não será gerada quando estiver usando o processo manual para gerar folhas de ponto.
+* Eles são gerados de acordo com os perfis de folha de horas associados aos usuários. Os usuários que não têm perfis de folha de horas associados a eles não recebem folhas de horas. 
+* Somente a folha de horas atual e a seguinte são geradas. O Workfront não gera duas folhas de horas para o mesmo período. Se você já tiver uma folha de horas para um intervalo de tempo específico, outra não será gerada quando você estiver usando o processo manual para gerar folhas de horas.
 
-## Gerar manualmente folhas de horas a partir da área Folhas e horas
+## Gerar folhas de horas manualmente na área Folhas de horas e horas
 
-Você pode gerar manualmente as folhas de ponto no nível do sistema ou no nível do grupo a partir da área Folhas de Horas e Horas em Configurar.
+Você pode gerar manualmente folhas de horas no nível do sistema ou do grupo na área Folhas de horas e horas na Configuração.
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Se você estiver gerando folhas de horas em uso em todo o sistema, clique em **Folhas de horas e horas.**
+1. Se você estiver gerando planilhas de horas em uso em todo o sistema, clique em **Planilhas de horas e horas.**
 
    Ou
 
-   Se você estiver gerando folhas de horas usadas por um grupo específico, clique em **Grupos** e clique no nome do grupo.
+   Se você estiver gerando planilhas de horas usadas por um grupo específico, clique em **Grupos** e, em seguida, clique no nome do grupo.
 
-1. Clique em **Perfis de Folha de Horas**.
-1. Clique em **Mais**, em seguida **Gerar Folhas de Horas**.
+1. Clique em **Perfis de Planilha de Horas**.
+1. Clique em **Mais**, em seguida em **Gerar Planilhas de Horas**.
 
-   Novas folhas de horas são criadas por até dois períodos para usuários associados a perfis de folha de ponto.
+   Novas folhas de horas são criadas para até dois períodos de tempo para usuários associados a perfis de folha de horas.
 
-## Gerar manualmente folhas de ponto no nível do sistema a partir da área de Diagnóstico
+## Gerar planilhas de horas no nível do sistema manualmente na área Diagnóstico
 
-Você pode gerar manualmente as folhas de ponto no nível do sistema a partir da área Diagnósticos em Configurar.
+Você pode gerar manualmente planilhas de horas no nível do sistema a partir da área Diagnóstico na Configuração.
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Expandir **Sistema**, depois clique em **Diagnóstico**.
+1. Expanda **Sistema** e clique em **Diagnósticos**.
 
-1. Clique em **Conduzir diagnósticos**. 
-1. Clique em **Gerar Folhas de Horas**.
+1. Clique em **Realizar Diagnóstico**. 
+1. Clique em **Gerar Planilha de Horas**.

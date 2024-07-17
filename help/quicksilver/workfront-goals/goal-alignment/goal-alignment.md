@@ -37,12 +37,12 @@ ht-degree: 0%
 >    
 >Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 > 
->Para obter informações adicionais sobre o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Analise os seguintes artigos para entender como alinhar metas nas Metas do Workfront:
 
-* [Visão geral do alinhamento de metas no Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Visão geral do alinhamento da meta no Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 * [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
-* [Remover alinhamento de metas nas Metas do Adobe Workfront](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
+* [Remover alinhamento de meta nas Metas do Adobe Workfront](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
 * [Navegar pela seção Alinhamento de metas no Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)

@@ -23,9 +23,9 @@ Para melhorar o desempenho do sistema e facilitar o uso de formulários para os 
 >
 >A exclusão de um campo personalizado também exclui todos os dados personalizados inseridos pelos usuários no campo ao preencher formulários personalizados anexados a objetos. Esses dados excluídos não podem ser recuperados.
 >
->É possível exibir todos os formulários e relatórios personalizados que usam um campo personalizado que você deseja excluir para avaliar quais podem ser as repercussões. Para obter mais informações, consulte [Exibir todos os formulários personalizados que usam um campo ou widget personalizado específico](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) e [Exibir todos os relatórios que usam um campo ou widget personalizado específico](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+>É possível exibir todos os formulários e relatórios personalizados que usam um campo personalizado que você deseja excluir para avaliar quais podem ser as repercussões. Para obter mais informações, consulte [Exibir todos os formulários personalizados que usam determinado campo personalizado ou widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) e [Exibir todos os relatórios que usam determinado campo personalizado ou widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >
->Ou, para uma solução alternativa que pode ser usada para evitar a perda de dados em campos que não são mais usados, consulte [Remover um campo personalizado sem perder os dados inseridos pelos usuários](#remove-a-custom-field-without-losing-data-that-users-have-entered) neste artigo.
+>Ou, para uma solução alternativa que você pode usar para evitar a perda de dados em campos que não são mais usados, consulte [Remover um campo personalizado sem perder os dados inseridos pelos usuários](#remove-a-custom-field-without-losing-data-that-users-have-entered) neste artigo.
 
 ## Requisitos de acesso
 
@@ -59,10 +59,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms personalizado.**
+1. Clique em **Forms Personalizado.**
 1. Clique em **Campos** para abrir a área Campos.
 1. Selecione o campo ou widget personalizado e clique em **Excluir**.
-1. Se tiver certeza de que deseja excluir permanentemente o item e (no caso de um campo personalizado) todos os dados associados nos objetos aos quais ele foi anexado, clique em **Sim, exclua.**.
+1. Se tiver certeza de que deseja excluir permanentemente o item e (no caso de um campo personalizado) todos os dados associados nos objetos aos quais ele foi anexado, clique em **Sim, Excluir**.
 
 ## Remover um campo personalizado sem perder os dados inseridos pelos usuários {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
@@ -75,13 +75,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    1. Adicione os campos personalizados ao novo formulário que deseja remover do formulário personalizado original.
 
-      * Se estiver usando o construtor de formulários personalizado, consulte [Reutilizar um campo ou widget personalizado em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * Se o designer do formulário for usado, consulte [Adicionar campos novos ou existentes ao formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+      * Se você estiver usando o construtor de formulários personalizado, consulte [Reutilizar um campo ou widget personalizado em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+      * Se você é o designer do formulário, consulte [Adicionar campos novos ou existentes ao formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
 
    1. Salve o novo formulário personalizado.
 
 1. Limite o acesso ao formulário personalizado a usuários com acesso administrativo, conforme descrito em [Compartilhar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
-1. Aplique o novo formulário personalizado aos objetos em que o formulário personalizado original já está aplicado, conforme descrito em [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. Aplique o novo formulário personalizado aos objetos nos quais o formulário personalizado original já foi aplicado, conforme descrito em [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Aplicar o novo formulário personalizado a esses objetos garante que os dados históricos de relatórios não sejam afetados.
 

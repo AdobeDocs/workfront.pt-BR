@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Enviar [!DNL Adobe Workfront] solicitações de [!DNL Microsoft] Equipes
+# Enviar [!DNL Adobe Workfront] solicitações de [!DNL Microsoft] equipes
 
 >[!NOTE]
 >
 >Atualmente, o Adobe Workfront para integração do Microsoft Teams é compatível apenas com a experiência clássica do Microsoft Teams.
 
-Após a instalação do proprietário da equipe [!DNL Adobe Workfront for Microsoft Teams], você pode enviar [!DNL Workfront] solicitações do seu [!DNL Microsoft Teams] conta. Para isso, é necessário ter uma conta da Workfront com acesso ao para enviar solicitações. Para obter informações sobre a instalação [!DNL Workfront for Microsoft Teams], consulte [Instalando [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Depois que o proprietário da equipe instalar o [!DNL Adobe Workfront for Microsoft Teams], você poderá enviar [!DNL Workfront] solicitações da sua conta do [!DNL Microsoft Teams]. Para isso, é necessário ter uma conta da Workfront com acesso ao para enviar solicitações. Para obter informações sobre como instalar o [!DNL Workfront for Microsoft Teams], consulte [Instalando [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] não oferece mais suporte [!DNL Internet Explorer]. Para usar o [!DNL Adobe Workfront for Microsoft Teams integration], você deve usar um navegador da Web diferente do [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] não dá mais suporte a [!DNL Internet Explorer]. Para usar o [!DNL Adobe Workfront for Microsoft Teams integration], você deve usar um navegador da Web diferente do [!DNL Internet Explorer].
 
 
 ## Requisitos de acesso
@@ -45,20 +45,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Pré-requisitos
 
-Seu [!DNL Microsoft Teams] o proprietário da equipe precisa instalar [!DNL Workfront] para [!DNL Microsoft Teams] antes de poder usá-lo.
+O proprietário da equipe do [!DNL Microsoft Teams] deve instalar o [!DNL Workfront] para [!DNL Microsoft Teams] antes que você possa usá-lo.
 
-## Enviar [!DNL Workfront] solicitações de [!DNL Microsoft Teams]
+## Enviar [!DNL Workfront] requisições de [!DNL Microsoft Teams]
 
-1. Clique em **[!UICONTROL Mais aplicativos adicionados]** ícone (três pontos) na barra de navegação esquerda do [!DNL Microsoft Teams].
+1. Clique no ícone **[!UICONTROL Mais aplicativos adicionados]** (três pontos) na barra de navegação esquerda em [!DNL Microsoft Teams].
 
 1. Clique em **[!DNL Workfront]** na lista exibida.
-1. Clique em **[!UICONTROL Solicitações]** guia.
+1. Clique na guia **[!UICONTROL Solicitações]**.
 1. Clique em **[!UICONTROL Nova solicitação]**.
-1. No **[!UICONTROL Selecionar um tipo de solicitação]** , selecione a fila de solicitações em que deseja submeter a solicitação.
+1. Na caixa **[!UICONTROL Selecionar um Tipo de Solicitação]**, selecione a fila de solicitações na qual deseja enviar a solicitação.
 1. (Opcional) Selecione um Grupo de tópicos ou um Tópico de fila, se estiverem disponíveis na fila de solicitações.
 1. Especifique as seguintes informações:
 
@@ -83,28 +83,28 @@ Seu [!DNL Microsoft Teams] o proprietário da equipe precisa instalar [!DNL Work
     </tbody> 
    </table>
 
-1. (Opcional) Se a variável [!DNL Workfront] administrador anexou formulários personalizados à fila de solicitações, forneça as informações nos campos disponíveis nos formulários personalizados.
+1. (Opcional) Se o administrador do [!DNL Workfront] anexou formulários personalizados à fila de solicitações, forneça as informações nos campos disponíveis nos formulários personalizados.
 1. Os formulários personalizados são exibidos na parte inferior da nova solicitação.
 1. Clique em **[!UICONTROL Enviar]**.
 
-   A solicitação aparece em [!DNL Workfront], na fila de solicitações especificada. Você receberá uma confirmação de que a solicitação foi enviada com êxito.
+   A Solicitação aparece em [!DNL Workfront], na fila de solicitações especificada. Você receberá uma confirmação de que a solicitação foi enviada com êxito.
 
 ## Exibir [!DNL Workfront] solicitações que você enviou em [!DNL Microsoft Teams]
 
-1. Clique em **[!UICONTROL Mais aplicativos adicionados]** ícone (três pontos) na barra de navegação esquerda do [!DNL Microsoft Teams].
+1. Clique no ícone **[!UICONTROL Mais aplicativos adicionados]** (três pontos) na barra de navegação esquerda em [!DNL Microsoft Teams].
 
 1. Clique em **[!DNL Workfront]** na lista exibida.
-1. Clique em **[!UICONTROL Solicitações]** guia.
+1. Clique na guia **[!UICONTROL Solicitações]**.
 
-   As solicitações enviadas estão listadas no [!UICONTROL Minhas solicitações enviadas] área do [!UICONTROL Solicitações] guia. Não é possível configurar as informações exibidas nesta guia sobre as solicitações enviadas.
+   As solicitações enviadas estão listadas na área [!UICONTROL Minhas solicitações enviadas] da guia [!UICONTROL Solicitações]. Não é possível configurar as informações exibidas nesta guia sobre as solicitações enviadas.
 
-   Você pode exibir as seguintes informações sobre suas solicitações submetidas na [!UICONTROL Minhas solicitações enviadas] área do [!UICONTROL Solicitações] guia:
+   Você pode exibir as seguintes informações sobre suas solicitações enviadas na área [!UICONTROL Minhas solicitações enviadas] da guia [!UICONTROL Solicitações]:
 
-   * **[!UICONTROL Assunto]**: O nome da solicitação
+   * **[!UICONTROL Assunto]**: o nome da solicitação
    * **[!UICONTROL Número de referência]**
-   * **[!UICONTROL Tipo de solicitação]**: O nome da fila de solicitações em que você submeteu a solicitação
+   * **[!UICONTROL Tipo de solicitação]**: o nome da fila de solicitações em que você enviou a solicitação
    * **[!UICONTROL Status]**
-   * **[!UICONTROL Enviado em]**: A data em que você enviou a solicitação
+   * **[!UICONTROL Enviado em]**: a data em que você enviou a solicitação
    * **[!UICONTROL Atribuído a]**
 
-1. (Opcional) Clique no cabeçalho de qualquer uma das colunas na lista para classificar a lista por essa coluna. Por padrão, [!DNL Workfront] classifica a lista pelo [!UICONTROL Enviado em] data, começando com a solicitação enviada mais recentemente.
+1. (Opcional) Clique no cabeçalho de qualquer uma das colunas na lista para classificar a lista por essa coluna. Por padrão, o [!DNL Workfront] classifica a lista pela data [!UICONTROL Enviada em], começando com a solicitação enviada mais recentemente.

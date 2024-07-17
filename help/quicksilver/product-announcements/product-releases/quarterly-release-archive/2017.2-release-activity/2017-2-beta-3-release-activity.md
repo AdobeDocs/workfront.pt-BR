@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 3 2017.2
-description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
+title: Atividade da versão 2017.2 do Beta 3
+description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 3 2017.2
+# Atividade da versão 2017.2 do Beta 3
 
-Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
+Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com a versão 2017.2 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 24 de maio de 2017. Ele será disponibilizado no ambiente de Produção entre o final de julho e o início de agosto de 2017.
 
 >[!IMPORTANT]
 >
 >A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2017.2, consulte [Visão geral da atividade da versão 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2017.2, consulte a [visão geral da atividade da versão 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-A versão 2017.2 Beta 2 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2017.2 do Beta 2 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores:**
+**Para Administradores:**
 
-* [Restaurando itens em massa da Lixeira](#restoring-items-in-bulk-from-the-recycle-bin)
+* [Restaurando Itens em Massa da Lixeira](#restoring-items-in-bulk-from-the-recycle-bin)
 * [As informações do usuário são sincronizadas do Workfront para o ProofHQ (ProofHQ e Workfront)](#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront)
 
 **Para Todos Os Usuários:** 
 
-* [Exibir Usuários Assinados](#view-subscribed-users)
+* [Exibir Usuários Inscritos](#view-subscribed-users)
 * [Configure como os marcos são exibidos no Gráfico de Gantt](#configure-how-milestones-are-displayed-on-the-gantt-chart)
-* [Incluir a legenda do gráfico de Gantt ao exportar para PDF](#include-the-gantt-chart-legend-when-exporting-to-pdf)
+* [Incluir a Legenda do Gráfico de Gantt ao exportar para PDF](#include-the-gantt-chart-legend-when-exporting-to-pdf)
 * [Exibir aprovações de provas na área Meu trabalho (Workfront)](#view-proof-approvals-in-the-my-work-area-workfront)
-* [Exibir nomes de usuários ao tratar solicitações de aprovação de provas da área Meu trabalho (Workfront)](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
+* [Exibir nomes de usuários ao tratar de solicitações de aprovação de revisão da área Meu Trabalho (Workfront)](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
 * [Visualizador de provas aprimorado para provas de vídeo (ProofHQ e Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
-* [Exibir provas de mídia avançada em resoluções alternativas (ProofHQ e Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
-* [Novo objeto &quot;Criador de prova&quot; no Relatório de versão do documento (Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
+* [Exibir Provas de Mídia Avançada em Resoluções Alternativas (ProofHQ e Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
+* [Novo objeto &quot;Criador de prova&quot; no Relatório de Versão do Documento (Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
 * [Nova funcionalidade de conjunto de recursos removida temporariamente da visualização](#new-resource-pool-functionality-temporarily-removed-from-preview)
 
 ## Restaurando itens em massa da Lixeira {#restoring-items-in-bulk-from-the-recycle-bin}
@@ -57,7 +57,7 @@ Agora é possível ver quem assina um item ao expandir o número de assinantes q
 
 Antes desse aprimoramento, você não tinha visibilidade de quem está inscrito em nenhum item.
 
-Para obter mais informações sobre a assinatura de itens, consulte [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md). 
+Para obter mais informações sobre como assinar itens, consulte [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md). 
 
 ## Configure como os marcos são exibidos no Gráfico de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
@@ -81,7 +81,7 @@ Ao exportar o gráfico de Gantt para um PDF, agora é possível selecionar se ta
 
 Antes dessa alteração, não era possível excluir a legenda do PDF exportado, e a legenda incluía todas as opções e marcadores possíveis do Gantt, independentemente de estarem ativados ou existentes na interface do usuário.
 
-Para obter mais informações sobre a exportação do gráfico de Gantt, consulte [Exporte o Gráfico de Gantt para o PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+Para obter mais informações sobre como exportar o Gráfico de Gantt, consulte [Exportar o Gráfico de Gantt para PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 ## As informações do usuário são sincronizadas do Workfront para o ProofHQ (ProofHQ e Workfront) {#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront}
 
@@ -101,15 +101,15 @@ O novo objeto Criador de prova no relatório Versão do documento contém todos 
 >
 > Essas informações estão disponíveis no relatório somente a partir do momento em que esse recurso foi introduzido nos respectivos ambientes de Pré-visualização ou Produção; as informações nos relatórios sobre o objeto Solicitante antes do momento em que essa funcionalidade foi introduzida não estão disponíveis.
 
-Você acessa o objeto Criador de prova ao criar um relatório de Versão do documento, conforme descrito em [Criar um relatório personalizado](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Você acessa o objeto Criador de provas ao criar um relatório de Versão do documento, conforme descrito em [Criar um relatório personalizado](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Para obter mais informações sobre o relatório do objeto Versão do documento, consulte a [Entender objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) seção em [Entender objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obter mais informações sobre o relatório de objetos Versão do Documento, consulte a seção [Entender objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) em [Entender objetos no Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Exibir aprovações de provas na área Meu trabalho (Workfront) {#view-proof-approvals-in-the-my-work-area-workfront}
 
-Todas as aprovações de prova que você submeteu para aprovação agora são exibidas na área Meu trabalho, na **Trabalho esperando aprovação** guia.
+Todas as aprovações de prova que você enviou para aprovação agora são exibidas na área Meu Trabalho, na guia **Trabalho que enviei para aprovação**.
 
-Antes dessa alteração, a variável **Trabalho esperando aprovação** não incluiu aprovações de prova.
+Antes desta alteração, a guia **Trabalho que enviei para aprovação** não incluía aprovações de prova.
 
 Aprovações de provas são exibidas somente quando os seguintes critérios são atendidos:
 
@@ -117,13 +117,13 @@ Aprovações de provas são exibidas somente quando os seguintes critérios são
 * O processo de aprovação é atribuído a um usuário licenciado do Workfront (os processos de aprovação atribuídos a usuários não licenciados do Workfront não são exibidos)
 * Os processos de aprovação foram instigados após a liberação dessa funcionalidade (os processos de aprovação instigados antes dessa funcionalidade serem liberados não são exibidos)
 
-Para obter mais informações, consulte [Exibir aprovações](../../../../review-and-approve-work/manage-approvals/view-approvals.md) in [Exibir aprovações](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
+Para obter mais informações, consulte [Exibir aprovações](../../../../review-and-approve-work/manage-approvals/view-approvals.md) em [Exibir aprovações](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Exibir nomes de usuários ao tratar solicitações de aprovação de provas da área Meu trabalho (Workfront) {#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront}
 
 Agora, ao aprovar aprovações de aprovações na área Meu trabalho, o nome do usuário que solicitou a aprovação agora é exibido.
 
-Para obter mais informações, consulte [Aprovar trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Aprovar trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Para obter mais informações, consulte [Aprovando trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md) em [Aprovando trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Visualizador de provas aprimorado para provas de vídeo (ProofHQ e Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
@@ -145,11 +145,11 @@ O novo visualizador de provas está disponível para teste nos seguintes ambient
 
 * Ambiente de visualização do ProofHQ
 
-  Para obter mais informações sobre o ambiente de Visualização do ProofHQ, consulte [Visualizar ambiente de teste de sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+  Para obter mais informações sobre o ambiente de Visualização do ProofHQ, consulte [Visualizar Ambiente de Teste de Sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
 
 * Ambiente de visualização do Workfront, quando sua conta está habilitada com comprovação
 
-  Para obter mais informações sobre o ambiente de Visualização do Workfront, consulte  [O ambiente de sandbox de visualização do Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+  Para obter mais informações sobre o ambiente de Visualização do Workfront, consulte  [O Ambiente De Sandbox De Visualização Do Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 Nesta versão, o novo visualizador de provas suporta apenas provas em vídeo. Isso significa que todas as provas de vídeo usam o novo visualizador de provas, enquanto todas as provas de mídia estática e avançada continuam a usar o visualizador de provas existente.
 
@@ -167,7 +167,7 @@ Antes dessa alteração, você podia revisar as provas usando somente a resoluç
 
 Você pode usar o modo Comparar para comparar diferentes resoluções de provas.
 
-Para obter mais informações, consulte [Abrir provas no Visualizador de provas da área de trabalho](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
+Para obter mais informações, consulte [Abrir provas no Desktop Proofing Viewer](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
 
 ## Nova funcionalidade de conjunto de recursos removida temporariamente da visualização {#new-resource-pool-functionality-temporarily-removed-from-preview}
 

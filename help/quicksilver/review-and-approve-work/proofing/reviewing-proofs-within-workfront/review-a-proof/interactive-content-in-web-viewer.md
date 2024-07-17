@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configurar prova de conteúdo interativa no Visualizador de Prova da Web
 
-Recomendamos que você revise todo o conteúdo interativo usando o Visualizador de provas de desktop. No entanto, se as políticas de sua organização impedirem isso, o administrador do Workfront poderá configurar seu sistema para usar o Visualizador de provas da Web para provas interativas. Para obter informações comparativas sobre esses dois visualizadores, consulte [Diferenças entre o Visualizador de provas da Web e a visão geral do Visualizador de provas do desktop](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Recomendamos que você revise todo o conteúdo interativo usando o Visualizador de provas de desktop. No entanto, se as políticas de sua organização impedirem isso, o administrador do Workfront poderá configurar seu sistema para usar o Visualizador de provas da Web para provas interativas. Para obter informações comparativas sobre esses dois visualizadores, consulte [Diferenças entre o Visualizador de Provas da Web e a visão geral do Visualizador de Provas do Desktop](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 Depois que o administrador do Workfront configurar o sistema para provas interativas no Visualizador de provas da Web, será necessário baixar uma extensão para adicionar comentários e marcações às provas interativas:
 
@@ -29,13 +29,13 @@ O Visualizador de provas da web tem as seguintes limitações:
 
 >[!IMPORTANT]
 >
->Você deve instalar o plug-in do navegador herdado para comentar sobre provas interativas no Visualizador de provas da Web. Este plug-in só está disponível no Firefox na [Loja de complementos do Firefox](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
+>Você deve instalar o plug-in do navegador herdado para comentar sobre provas interativas no Visualizador de provas da Web. Este plug-in só está disponível no Firefox na [loja de complementos do Firefox](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
 
 ## Configurar prova de conteúdo interativa no Visualizador de Prova da Web
 
 1. Abra uma prova criada a partir de um arquivo ZIP com conteúdo interativo.
 
-   Para obter mais informações, consulte [Sobre a preparação de conteúdo interativo em um arquivo ZIP para revisão](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Visão geral das provas de conteúdo interativo](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+   Para obter mais informações, consulte [Sobre a preparação de conteúdo interativo em um arquivo ZIP para revisão](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) em [Visão geral das provas de conteúdo interativo](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
    Consulte também [Criar uma prova para conteúdo interativo em um arquivo ZIP](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
@@ -43,9 +43,9 @@ O Visualizador de provas da web tem as seguintes limitações:
 
    Uma mensagem solicita que você baixe a extensão do navegador para conteúdo interativo.
 
-1. Clique em **Adicionar ao navegador** para acessar a página de download de extensão na loja do navegador, baixe a extensão.
-1. No Visualizador de provas da Web, clique em **Recarregar a prova**.
+1. Clique em **Adicionar ao navegador** para ir para a página de download de extensão na loja do navegador e, em seguida, baixar a extensão.
+1. No Visualizador de Provas da Web, clique em **Recarregar a prova**.
 
-Com a extensão instalada no navegador, o visualizador de provas captura uma tela estática do conteúdo sempre que você clica em **Adicionar comentário**. Esta captura de tela permite adicionar comentários com marcações.
+Com a extensão instalada no navegador, o visualizador de provas captura uma tela estática do seu conteúdo sempre que você clica em **Adicionar comentário**. Esta captura de tela permite adicionar comentários com marcações.
 
  

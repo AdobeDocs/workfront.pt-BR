@@ -26,9 +26,9 @@ Este artigo documenta algumas práticas recomendadas que recomendamos ao iniciar
 
 O módulo de planejamento do Workfront é um dos três recursos distintos, mas conectados, do Workfront que, juntos, criam um sistema de marketing de registro. Os três recursos são:
 
-* **Planejamento**: os novos recursos avançados incluídos no Workfront Planning.
+* **Planning**: os novos recursos avançados incluídos no Workfront Planning.
 
-* **Fluxo de trabalho**: os recursos de gerenciamento de trabalho colaborativo que você usa atualmente no Workfront (gerenciamento de projetos, gerenciamento de recursos etc.)
+* **Fluxo de trabalho**: os recursos de gerenciamento de trabalho colaborativo que você usa atualmente na Workfront (gerenciamento de projetos, gerenciamento de recursos etc.)
 
 * **Automação e integração**: os recursos abrangentes de integração e automação fornecidos pelo Workfront Fusion.
 
@@ -40,7 +40,7 @@ Depois de se familiarizar com a terminologia e arquitetura do Workfront Planning
 
 Algumas perguntas que você pode fazer a si mesmo ao configurar o Planning são:
 
-* **Desejo usar espaços de trabalho para grupos organizacionais maiores? Ou devo encorajar as pessoas a fazer programas pessoais?**
+* **Deseja usar espaços de trabalho para grupos organizacionais maiores? Ou devo incentivar as pessoas a configurar opções pessoais?**
 
   Você pode achar que há um bom uso para ambos. Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.
 
@@ -48,7 +48,7 @@ Algumas perguntas que você pode fazer a si mesmo ao configurar o Planning são:
   >
   >    Você pode ter mil espaços de trabalho em uma instância do Workfront.
 
-* **Quais tipos de registro personalizado devo criar em cada espaço de trabalho?**
+* **Que tipos de registros personalizados devo criar em cada espaço de trabalho?**
 
   Os tipos de registro são como os tipos de objeto do Workfront. Pense nos fluxos de trabalho e decida quais tipos de registro (objetos de trabalho, objetos de pessoas, taxonomias etc.) cada workflow pode precisar de.
 
@@ -67,11 +67,11 @@ Algumas perguntas que você pode fazer a si mesmo ao configurar o Planning são:
 
 * **Quais tipos de objeto do Workfront ou do AEM Assets são necessários para me conectar aos tipos de registro do Workfront Planning para poder mostrar dependências e criar um fluxo de trabalho contínuo para minha organização?**
 
-  Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
+  Para obter informações, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-* **Quais calendários e visualizações de marketing serão necessários para contar a história das minhas campanhas? E a que partes interessadas eu poderia disponibilizar essas visualizações para uma colaboração contínua?**
+* **Quais calendários e exibições de marketing serão necessários para contar a história das minhas campanhas? E a que partes interessadas posso disponibilizar essas visualizações para uma colaboração contínua?**
 
-  Para obter informações, consulte [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+  Para obter informações, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 
 ## Práticas recomendadas do Workfront Planning
@@ -149,7 +149,7 @@ As diretrizes são organizadas dependendo do objeto ou da área que você está 
 
 Crie e rotule tipos de registro que representam uma única construção ou substantivo, como &quot;Campanhas&quot;
 
-:no_entry_sign: Não crie um tipo de registro que seja melhor representado como uma camada de visualização. Por exemplo, &quot;Calendário&quot; é uma escolha ruim para um tipo de registro, pois não é o tipo de registro em si, mas uma exibição de registros.
+:no_entry_sign: Não crie um tipo de registro que seja melhor representado como uma camada de visualização. Por exemplo, &quot;Calendário&quot; é uma escolha ruim para um tipo de registro, porque não é o tipo de registro em si, mas uma exibição de registros.
 
 ### Quantas camadas de hierarquia devo criar?
 

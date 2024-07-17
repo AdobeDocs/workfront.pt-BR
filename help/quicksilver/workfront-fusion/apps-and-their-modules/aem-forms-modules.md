@@ -6,10 +6,11 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do Adobe Experience Manager Forms
-description: Com o [!DNL Adobe Experience Manager Forms] conector para [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] contabilizar, criar, fazer upload e atualizar ativos e copiar ou mover pastas e ativos.
+description: Com o conector  [!DNL Adobe Experience Manager Forms] para [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] conta, crie, carregue e atualize ativos e copie ou mova pastas e ativos.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c4e068729d8de4bef4b2018868e3fa020ca61a06
+exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 # [!DNL Adobe Experience Manager Forms] módulos
 
-Com o [!DNL Adobe Experience Manager Forms] conector para [!DNL Adobe Workfront Fusion], você pode iniciar um cenário com base em eventos em seu [!DNL Adobe Experience Manager Forms] criando um webhook.
+Com o conector [!DNL Adobe Experience Manager Forms] para [!DNL Adobe Workfront Fusion], você pode iniciar um cenário com base em eventos na sua conta [!DNL Adobe Experience Manager Forms] criando um webhook.
 
 Você pode configurar um formulário no [!DNL Adobe Experience Manager Forms] para enviar envios de formulários para este webhook.
 
@@ -41,33 +42,33 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-* Você deve ter um [!DNL Adobe Experience Manager Forms] conta para usar este módulo.
+* Você deve ter uma conta [!DNL Adobe Experience Manager Forms] para usar este módulo.
 
 ## Criar uma conexão com o Adobe Experience Manager Forms
 
-Para criar uma conexão para o seu [!DNL Adobe Experience Manager Forms] módulos:
+Para criar uma conexão para seus módulos do [!DNL Adobe Experience Manager Forms]:
 
 1. Clique em **[!UICONTROL Adicionar]** ao lado da caixa Conexão.
 
@@ -111,19 +112,19 @@ Para criar uma conexão para o seu [!DNL Adobe Experience Manager Forms] módulo
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID do Cliente]</td>
-        <td>Insira seu [!DNL Adobe] ID do cliente. Isso pode ser encontrado na seção [!UICONTROL Credenciais detalhes] do [!DNL Adobe Developer Console].
+        <td>Insira sua ID de cliente do [!DNL Adobe]. Isso pode ser encontrado na seção [!UICONTROL Credentials details] do [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Segredo do Cliente]</td>
-        <td>Insira seu [!DNL Adobe] Segredo do cliente. Isso pode ser encontrado na seção [!UICONTROL Credenciais detalhes] do [!DNL Adobe Developer Console].
+        <td>Insira seu Segredo do Cliente do [!DNL Adobe]. Isso pode ser encontrado na seção [!UICONTROL Credentials details] do [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID da Organização]</td>
-        <td>Insira seu [!DNL Adobe] ID da organização. Isso pode ser encontrado na seção [!UICONTROL Credenciais detalhes] do [!DNL Adobe Developer Console].
+        <td>Insira sua ID da organização [!DNL Adobe]. Isso pode ser encontrado na seção [!UICONTROL Credentials details] do [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID da conta técnica]</td>
-        <td>Insira seu [!DNL Adobe] ID da conta técnica. Isso pode ser encontrado na seção [!UICONTROL Credenciais detalhes] do [!DNL Adobe Developer Console].
+        <td>Insira sua ID de conta técnica do [!DNL Adobe]. Isso pode ser encontrado na seção [!UICONTROL Credentials details] do [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Metaescopos]</td>
@@ -132,7 +133,7 @@ Para criar uma conexão para o seu [!DNL Adobe Experience Manager Forms] módulo
       <tr>
         <td role="rowheader">[!UICONTROL Chave privada]</td>
         <td>
-          <p>Insira a chave privada que foi gerada quando suas credenciais foram criadas na [!DNL Adobe Developer Console]. </p>
+          <p>Insira a chave privada gerada quando suas credenciais foram criadas no [!DNL Adobe Developer Console]. </p>
           <p>Para extrair sua chave privada ou certificado:</p>
           <ol>
             <li value="1">
@@ -148,7 +149,7 @@ Para criar uma conexão para o seu [!DNL Adobe Experience Manager Forms] módulo
               <p>Digite a senha do arquivo.</p>
             </li>
             <li value="5">
-              <p>Clique em <b>[!UICONTROL Salvar]</b> para extrair o arquivo e retornar à configuração da conexão.</p>
+              <p>Clique em <b>[!UICONTROL Salvar]</b> para extrair o arquivo e retornar à configuração de conexão.</p>
             </li>
           </ol>
         </td>
@@ -182,18 +183,7 @@ Esse acionador instantâneo (webhook) permite iniciar um cenário quando uma aç
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Adobe Experience Manager] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/apps-and-their-modules/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref">Criar uma conexão com o [!DNL Adobe Experience Manager Forms]</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Adobe Experience Manager] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/apps-and-their-modules/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref">Criar uma conexão com o [!DNL Adobe Experience Manager Forms]</a></p> </td> 
   </tr>
 
 O módulo cria um webhook e fornece o endereço do webhook, que você pode inserir na caixa de diálogo de envio do formulário em [!DNL Adobe Experience Manager Forms].
-
-
-
-
-
-
-
-
-
-
-

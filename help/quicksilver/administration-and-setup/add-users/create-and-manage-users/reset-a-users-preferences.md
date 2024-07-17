@@ -107,10 +107,10 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
 
 {{step-1-to-setup}}
 
-1. Selecionar **Fazer logon como**.
+1. Selecione **Fazer Logon Como**.
 1. Comece digitando o nome do usuário cujas preferências você deseja redefinir, em seguida, clique no nome quando ele aparecer na lista suspensa.
-1. Selecionar  **Fazer logon**.
-1. No campo URL na parte superior do navegador da Web, adicione `/resetUser` após `workfront.com`.
+1. Selecione **Fazer Logon**.
+1. No campo URL na parte superior do navegador da Web, adicione `/resetUser` depois de `workfront.com`.
 
    >[!NOTE]
    >
@@ -119,8 +119,8 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
    >`https://company_domain.my.workfront.com/resetUser`
 
 1. Pressione **Enter**.
-1. Para redefinir todas as preferências do usuário, selecione **Redefinir**.
+1. Para redefinir todas as preferências de usuário, selecione **Redefinir**.
 
    Ou
 
-   Para redefinir somente guias personalizadas, selecione **Reinicializa Guias**.
+   Para redefinir apenas guias personalizadas, selecione **Redefinir Guias**.

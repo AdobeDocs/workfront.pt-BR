@@ -65,7 +65,7 @@ Os usuários com nível de acesso de Administrador do sistema podem fazer tudo d
 
 Eles também têm acesso à área Configuração completa, onde podem alterar qualquer configuração no nível do sistema e acessar todas as áreas no Menu principal.
 
-Para obter mais informações, consulte [Conceder acesso administrativo total a um usuário](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Para obter mais informações, consulte [Conceder a um usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ### Nível de acesso padrão
 
@@ -393,14 +393,14 @@ Os usuários obtêm acesso a objetos individuais quando outros usuários compart
 
 Um usuário pode conceder ao recipient qualquer uma das seguintes permissões para o objeto individual:
 
-* **Exibir**: esse nível de permissão permite que o recipient compartilhe o objeto de uma das seguintes maneiras:
+* **Exibir**: este nível de permissão permite que o destinatário compartilhe o objeto de uma das seguintes maneiras:
 
    * Em todo o sistema, para que todos os usuários possam visualizá-lo (não disponível para todos os objetos)
    * Com usuários externos que não têm uma licença do Workfront (não disponível para todos os objetos)
    * Com um endereço de email (disponível somente para documentos e calendários)
 
 * **Contribute**: (não disponível para todos os objetos)
-* **Gerenciar**: quando alguém compartilha um objeto, os direitos do recipient sobre o objeto são determinados por uma combinação do nível de acesso do recipient e das permissões para o objeto que foram concedidas pelo compartilhador. O grau mais baixo de acesso disponível nessa combinação é o que determina o que o recipient pode fazer com o objeto.
+* **Gerenciar**: quando alguém compartilha um objeto, os direitos do destinatário ao objeto são determinados por uma combinação do nível de acesso do destinatário e das permissões do objeto que foram concedidas pelo compartilhador. O grau mais baixo de acesso disponível nessa combinação é o que determina o que o recipient pode fazer com o objeto.
 
 ### Exemplos de cenários
 

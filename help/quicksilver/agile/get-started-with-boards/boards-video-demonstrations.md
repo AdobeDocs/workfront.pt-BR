@@ -26,7 +26,7 @@ Estes vídeos apresentarão a você os diferentes tipos de placas disponíveis n
 
 Um quadro básico ou simples permite que você comece rapidamente a usar quadros para rastrear o trabalho. Colunas padrão são incluídas com o modelo, e você pode adicionar cartões e atribuir trabalho.
 
-[Ver uma demonstração em vídeo de um quadro básico.](https://video.tv.adobe.com/v/3416382/){target=_blank}
+[Exibir uma demonstração em vídeo de um painel básico.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### Quadro Kanban
 
@@ -38,13 +38,13 @@ Um quadro kanban pode conter uma lista de pendências, ou coluna de entrada, que
 
 Um quadro dinâmico permite preencher automaticamente um quadro com cartões com base em um projeto do Workfront. Usando filtros, os cartões são adicionados às colunas com base em seus status.
 
-[Assista a uma demonstração em vídeo de uma placa dinâmica.](https://video.tv.adobe.com/v/3422404/){target=_blank}
+[Exibir uma demonstração em vídeo de um quadro dinâmico.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Quadro para dispositivos móveis
 
 Os painéis estão disponíveis no aplicativo móvel do Adobe Workfront. Ao atualizar cartões no aplicativo móvel, essas atualizações são sincronizadas com o Workfront.
 
-[Ver demonstração em vídeo de uma placa para portáteis.](https://video.tv.adobe.com/v/3416379/){target=_blank}
+[Exibir uma demonstração em vídeo de um quadro para dispositivos móveis.](https://video.tv.adobe.com/v/3416379/){target=_blank}
 
 ## Exemplos de uso de quadros
 
@@ -52,13 +52,13 @@ Os painéis estão disponíveis no aplicativo móvel do Adobe Workfront. Ao atua
 
 Você pode usar a coluna entrada para exibir tarefas atribuídas a você em um local. À medida que novas tarefas são atribuídas no Workfront, elas são automaticamente adicionadas à coluna entrada.
 
-[Ver uma demonstração em vídeo de um quadro &quot;minhas tarefas&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[Exibir uma demonstração em vídeo de um quadro &quot;minhas tarefas&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
 ### Quadro de planejamento
 
 Os painéis podem ajudar você a planejar o trabalho para si mesmo ou para sua equipe durante um período de tempo.
 
-[Ver uma demonstração em vídeo de um quadro de planejamento.](https://video.tv.adobe.com/v/3416380/){target=_blank}
+[Exibir uma demonstração em vídeo de um quadro de planejamento.](https://video.tv.adobe.com/v/3416380/){target=_blank}
 
 ### Gerenciamento de trabalho híbrido
 

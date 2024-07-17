@@ -10,7 +10,7 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -85,7 +85,7 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td> <p>Licença da Adobe Workfront*</p> </td> 
@@ -93,18 +93,18 @@ Você deve ter o seguinte:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>Editar acesso a projetos com capacidade para criar <span>e Copiar</span> projetos</p> <p><b>Nota</b>
+   <td> <p>Editar acesso aos Projetos com capacidade para Criar <span>e Copiar</span> projetos</p> <p><b>Nota</b>
 
 Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>Exibir permissões ou superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Copiar um único projeto
 
@@ -112,13 +112,13 @@ Copiar um projeto também copia algumas informações do projeto original para o
 
 Para copiar um projeto:
 
-1. Vá para o projeto que deseja copiar e clique no link **Mais** ícone ![](assets/qs-more-menu.png) à direita do nome do projeto
+1. Vá para o projeto que você deseja copiar e clique no ícone **Mais** ![](assets/qs-more-menu.png) à direita do nome do projeto
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no botão **Mais** ícone ![](assets/qs-more-menu.png) no topo da lista.
+   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no ícone **Mais** ![](assets/qs-more-menu.png) na parte superior da lista.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
@@ -130,9 +130,9 @@ Para copiar um projeto:
 
    ![](assets/copy-project-box-nwe-350x276.png)
 
-1. Selecione o **Status** para o novo projeto.
+1. Selecione o **Status** do novo projeto.
 
-   Por padrão, a variável **Status** corresponde ao do projeto original.
+   Por padrão, o **Status** corresponde ao do projeto original.
 
 1. (Opcional) Desmarque os itens que você não quer copiar para o novo projeto. A tabela a seguir descreve o que acontece quando você desmarca os itens:
 
@@ -181,9 +181,9 @@ Para copiar um projeto:
       <td role="rowheader">Horas orçadas</td> 
       <td> <p>Remove as horas orçadas na área Planejamento de recursos do Business Case do projeto copiado.</p>
 
-<b>Nota</b>
+<b>OBSERVAÇÃO</b>
 
-Horas orçadas usando o Planejador de cenários nunca são copiadas para o novo projeto porque o novo projeto não está vinculado a uma iniciativa no Planejador de cenários. Para obter mais informações, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos de orçamento no Business Case usando o Planejador de Cenários</a>
+Horas orçadas usando o Planejador de cenários nunca são copiadas para o novo projeto porque o novo projeto não está vinculado a uma iniciativa no Planejador de cenários. Para obter mais informações, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos de orçamento no Business Case usando o Planejador de cenários</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Informações financeiras</td> 
@@ -192,7 +192,7 @@ Horas orçadas usando o Planejador de cenários nunca são copiadas para o novo 
         <li>Subguia Finanças do projeto</li> 
         <li> Benefício planejado no Business Case</li> 
         <li>Informações financeiras de todas as tarefas<br></li> 
-       </ul> <p>Para obter mais informações sobre a subguia Project Finance, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gerenciar informações na área de finanças do projeto</a>.</p> </td> 
+       </ul> <p>Para obter mais informações sobre a subguia Project Finance, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gerenciar informações na área Project Finance</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Processo de aprovação</td> 

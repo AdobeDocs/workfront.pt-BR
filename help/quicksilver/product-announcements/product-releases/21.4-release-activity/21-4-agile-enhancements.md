@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Agile feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte [21.4 Visão geral da versão](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte a [Visão geral da versão 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Atribuições de usuário em quadros Kanban e Scrum
 
@@ -41,7 +41,7 @@ Para obter mais informações, consulte [Configurar Scrum](../../../agile/get-st
 >
 >Esse recurso foi lançado no ambiente de Pré-visualização em 16 de setembro de 2021.
 
-Como parte da versão 21.3, fizemos melhorias no cabeçalho do cartão agile e nos storyboards (consulte [Atualizações do cabeçalho do cartão Agile e do storyboard](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Essas atualizações se aplicavam às iterações, bem como à exibição ágil nos projetos.
+Como parte da versão 21.3, fizemos melhorias no cabeçalho e nos storyboards do cartão agile (consulte [Atualizações do cabeçalho e do storyboard do cartão agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Essas atualizações se aplicavam às iterações, bem como à exibição ágil nos projetos.
 
 Com a versão 21.4, estamos revertendo esses aprimoramentos para a exibição ágil nos projetos. Nenhuma alteração está sendo feita nas iterações ágeis.
 

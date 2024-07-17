@@ -1,24 +1,25 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Criar uma conta [!DNL Adobe Workfront] como usuário externo
+title: Criar uma conta  [!DNL Adobe Workfront]  como usuário externo
 description: Pode ser solicitado que você execute tarefas no Workfront, mesmo que não seja membro de uma organização na Workfront. Você pode fazer esse trabalho mais facilmente criando uma conta no Workfront.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: a7416559941f826c119438aadc0fb9a04d46d20b
+exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
-# Criar uma conta no [!DNL Adobe Workfront] como usuário externo
+# Criar uma conta em [!DNL Adobe Workfront] como usuário externo
 
-Você pode ser convidado a exibir ou aprovar itens em [!DNL Workfront] mesmo que você não seja membro de um [!DNL Workfront] organização. Por exemplo, você pode ser solicitado a revisar ou aprovar documentos. Você pode visualizar ou aprovar esses itens mais facilmente criando uma conta no [!DNL Workfront].
+Você pode ser convidado a exibir ou aprovar itens em [!DNL Workfront] mesmo que não seja membro de uma organização [!DNL Workfront]. Por exemplo, você pode ser solicitado a revisar ou aprovar documentos. Você pode exibir ou aprovar esses itens mais facilmente criando uma conta em [!DNL Workfront].
 
-Quando um usuário estiver no [!DNL Workfront] faz uma solicitação para que você revise ou aprove um documento, <!--or shares a Workfront object such as a report or Board with you, -->você receberá um email. Ao clicar no link do email, você será direcionado diretamente para o item que foi compartilhado com você.
+Quando um usuário no [!DNL Workfront] faz uma solicitação para que você revise ou aprove um documento, <!--or shares a Workfront object such as a report or Board with you, -->você recebe um email. Ao clicar no link do email, você será direcionado diretamente para o item que foi compartilhado com você.
 
-Criação de uma conta no [!DNL Workfront] permite que você veja todos os itens compartilhados com você ou solicitados a você. Sem uma conta, você pode acessar esses itens somente por meio dos links de email individuais.
+Criar uma conta em [!DNL Workfront] permite que você veja todos os itens compartilhados com você ou solicitados a você. Sem uma conta, você pode acessar esses itens somente por meio dos links de email individuais.
 
 ## Criar uma conta
 
@@ -26,15 +27,15 @@ Criação de uma conta no [!DNL Workfront] permite que você veja todos os itens
 
 1. Na página do ativo, clique em **Concluir configuração da conta** no cabeçalho do documento.
 
-1. Preencha o **Senha** seção.
+1. Preencha a seção **Senha**.
 
    Para obter detalhes, consulte [Senha](#password).
 
-1. (Opcional) Preencha o **Perfil** seção.
+1. (Opcional) Preencha a seção **Perfil**.
 
    Para obter detalhes, consulte [Perfil](#profile).
 
-1. Clique em **Criar conta**.
+1. Clique em **Criar Conta**.
 
 
 Quando a página Criar uma conta for exibida, preencha as informações a seguir.

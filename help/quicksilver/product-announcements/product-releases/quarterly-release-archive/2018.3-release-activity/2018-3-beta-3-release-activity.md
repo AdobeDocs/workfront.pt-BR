@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 3 2018.3
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 Beta 3. A funcionalidade estará disponível no ambiente de Pré-visualização em 16 de agosto de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
+title: Atividade da versão 2018.3 do Beta 3
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 3. A funcionalidade estará disponível no ambiente de Pré-visualização em 16 de agosto de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 3 2018.3
+# Atividade da versão 2018.3 do Beta 3
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 Beta 3. A funcionalidade estará disponível no ambiente de Pré-visualização em 16 de agosto de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.3 do Beta 3. A funcionalidade estará disponível no ambiente de Pré-visualização em 16 de agosto de 2018. Ele estará disponível no ambiente de Produção em novembro de 2018.
 
 >[!NOTE]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.3, consulte  [Visão geral da atividade da versão 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.3, consulte  Visão geral da atividade da versão [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-A versão Beta 3 2018.3 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2018.3 do Beta 3 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
 * [Atualizar funções no perfil do usuário como um administrador de grupo](#update-roles-in-the-user-profile-as-a-group-administrator)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
-* [A área inicial agora é o padrão](#home-area-is-now-the-default)
-* [Priorize o seu trabalho em casa](#prioritize-your-work-in-home)
-* [URL exclusivo para a Exibição do Usuário do Planejador de Recursos](#unique-url-for-the-resource-planner-user-view)
-* [Carregar imagem de perfil no aplicativo móvel do Workfront](#upload-profile-picture-in-the-workfront-mobile-app) 
+* [A Área Inicial agora é o Padrão](#home-area-is-now-the-default)
+* [Priorizar seu Trabalho em Casa](#prioritize-your-work-in-home)
+* [URL exclusiva para a Exibição de Usuário do Planejador de Recursos](#unique-url-for-the-resource-planner-user-view)
+* [Carregar Imagem de Perfil no Aplicativo Móvel do Workfront](#upload-profile-picture-in-the-workfront-mobile-app) 
 * [Aprimoramento de formulário personalizado no aplicativo móvel do Workfront](#custom-form-improvement-in-the-workfront-mobile-app)
-* [Registrar o tempo no aplicativo móvel do Workfront na orientação de paisagem](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
+* [Registrar Tempo no Aplicativo Móvel Workfront na Orientação Paisagem](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
 * [Reorganizar os ícones na barra de navegação inferior no aplicativo móvel do Workfront](#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app)
 
 ## A área inicial agora é o padrão {#home-area-is-now-the-default}
@@ -50,7 +50,7 @@ Usando a opção Minha Prioridade, você pode priorizar qualquer item de trabalh
 
 Anteriormente, só era possível priorizar tarefas e problemas na área Meu trabalho.
 
-Para obter mais informações, consulte [Priorizar o trabalho na área da Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+Para obter mais informações, consulte [Priorizar trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ## Atualizar funções no perfil do usuário como um administrador de grupo {#update-roles-in-the-user-profile-as-a-group-administrator}
 
@@ -69,7 +69,7 @@ Agora você pode gerar um URL exclusivo para o Planejador de recursos quando exi
 
 Anteriormente, essa funcionalidade não estava disponível.
 
-Para obter mais informações, consulte a seção &quot;URL exclusivo para a visualização do usuário&quot; em [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Para obter mais informações, consulte a seção &quot;URL exclusivo para o Modo de Exibição de Usuário&quot; na [Visão geral da navegação do Planejador de Recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Carregar imagem de perfil no aplicativo móvel do Workfront  {#upload-profile-picture-in-the-workfront-mobile-app}
 
@@ -93,7 +93,7 @@ Anteriormente, os formulários personalizados apareciam em uma guia separada.
 
 ## Registrar o tempo no aplicativo móvel do Workfront na orientação de paisagem {#log-time-in-the-workfront-mobile-app-in-landscape-orientation}
 
-Agora você pode registrar o tempo na orientação paisagem no aplicativo beta do Workfront para Android.
+Agora você pode registrar horas na orientação paisagem no aplicativo beta do Workfront para Android.
 
 Anteriormente, só era possível registrar horas na orientação de retrato.
 

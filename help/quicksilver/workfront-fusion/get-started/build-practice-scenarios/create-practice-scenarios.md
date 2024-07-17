@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# Criar cenários de prática no [!DNL Adobe Workfront Fusion]
+# Criar cenários de prática em [!DNL Adobe Workfront Fusion]
 
 Esta seção contém os seguintes artigos:
 
-* [Criar um cenário básico no [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-* [Adicionar um módulo de acionamento a um cenário básico no [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-* [Use uma função para atualizar um projeto em um cenário simples no [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-* [Adicionar um filtro a um cenário básico no [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-* [Adicionar um webhook a um cenário básico no [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+* [Criar um cenário básico em  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+* [Adicionar um módulo de gatilho a um cenário básico em  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+* [Use uma função para atualizar um projeto em um cenário simples em  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+* [Adicionar um filtro a um cenário básico em  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+* [Adicionar um webhook a um cenário básico em  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)

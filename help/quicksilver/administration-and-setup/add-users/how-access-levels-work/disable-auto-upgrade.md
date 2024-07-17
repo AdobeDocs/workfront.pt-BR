@@ -21,7 +21,7 @@ ht-degree: 1%
 
 As decisões de prova e documento são limitadas para todas as licenças não pagas do Workfront nos novos planos. Quando os usuários atingem o número permitido de decisões, eles são atualizados para uma licença Light por padrão.
 
-Você pode desativar a opção de atualização automática na área de configuração. Para saber mais sobre como funcionam as atualizações automáticas, consulte [Visão geral de documentos e decisões de prova limitados para usuários não pagos](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Você pode desativar a opção de atualização automática na área de configuração. Para saber mais sobre como as atualizações automáticas funcionam, consulte [Visão geral sobre documento limitado e decisão de prova para usuários não pagos](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
@@ -56,6 +56,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step-1-to-setup}}
 
-1. Expandir [!UICONTROL **Sistema**] no painel de navegação esquerdo, clique em [!UICONTROL **Preferências**].
-1. No [!UICONTROL **Preferências gerais**] , verifique a [!UICONTROL **Desativar a atualização automática nos Níveis de acesso**] caixa.
+1. Expanda [!UICONTROL **Sistema**] na navegação à esquerda e clique em [!UICONTROL **Preferências**].
+1. Na seção [!UICONTROL **Preferências Gerais**], marque a caixa [!UICONTROL **Desabilitar atualização automática em Níveis de Acesso**].
 1. Clique em [!UICONTROL **Salvar**].

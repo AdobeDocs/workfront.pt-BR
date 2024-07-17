@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 16 de novembro de 2020.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Atualizações do conector do Jira Cloud
 
@@ -35,7 +35,7 @@ Para expandir as maneiras de usar o conector Jira Cloud, adicionamos três novos
 
 Também atualizamos módulos existentes para oferecer suporte ao tipo de objeto &quot;Sprint&quot;. Anteriormente, o objeto &quot;Sprint&quot; só podia ser acessado por meio do módulo Chamada de API personalizada.
 
-Para obter mais informações, consulte [Módulos do Jira Software](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Para obter mais informações, consulte [módulos do Jira Software](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
 ## A ID de execução agora está disponível para mapeamento em cenários
 
@@ -66,7 +66,7 @@ Para expandir as maneiras de usar o conector do Excel do Office 365, adicionamos
 
 Os módulos disponíveis anteriormente ainda estão presentes no aplicativo.
 
-Para obter mais informações, consulte [Módulos do Excel para Microsoft Office 365](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md).
+Para obter mais informações, consulte [Módulos do Excel do Microsoft Office 365](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md).
 
 ## Usar o OAuth 2.0 em suas conexões com o aplicativo Workfront
 
@@ -74,4 +74,4 @@ Atualizamos o conector do Workfront para usar o OAuth 2.0. Essa atualização si
 
 As conexões existentes não exigem alterações no momento. No entanto, você pode reautorizar conexões existentes se quiser aproveitar os benefícios do OAuth 2.0.
 
-Para obter mais informações, consulte [Módulos do Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações, consulte [módulos do Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

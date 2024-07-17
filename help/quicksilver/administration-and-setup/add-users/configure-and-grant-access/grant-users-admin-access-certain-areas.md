@@ -1,13 +1,13 @@
 ---
 title: Conceder aos usuários acesso administrativo a determinadas áreas
-description: Como administrador do Adobe Workfront, você pode usar um nível de acesso para conceder aos usuários uma licença do Plano acesso administrativo a determinadas áreas do sistema.
+description: Como administrador do Adobe Workfront, você pode usar um nível de acesso para conceder aos usuários uma licença de Plano acesso administrativo a determinadas áreas do sistema.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -16,31 +16,31 @@ ht-degree: 2%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-Como administrador do Adobe Workfront, você pode usar um nível de acesso para conceder aos usuários uma licença do Plano acesso administrativo a determinadas áreas do sistema.
+Como administrador do Adobe Workfront, você pode usar um nível de acesso para conceder aos usuários uma licença de Plano acesso administrativo a determinadas áreas do sistema.
 
 >[!NOTE]
 >
->Isso é diferente de conceder a um usuário acesso administrativo total ao Workfront, o que é explicado em [Conceder ao usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)&#x200B;
+>Isso é diferente de conceder a um usuário acesso administrativo total ao Workfront, que é explicado em [Conceder a um usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).&#x200B;
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença Adobe Workfront</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>Plano</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,15 +49,15 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 >[!IMPORTANT]
 >
->É altamente recomendável deixar os níveis de acesso integrados inalterados para que você possa fazer referência a eles depois de configurar seus usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. (Você pode fazer isso para cada nível de acesso, exceto Administrador do sistema e Usuário externo.)
+>É altamente recomendável que você deixe os níveis de acesso incorporados inalterados para que possa consultá-los após configurar os usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. (Você pode fazer isso para todos os níveis de acesso, exceto para Administrador do sistema e Usuário externo.)
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. No painel esquerdo, clique em **Níveis de acesso**.
+1. No painel esquerdo, clique em **Níveis de Acesso**.
 1. Clique no nome do nível de acesso que deseja usar para conceder aos usuários acesso administrativo a determinadas áreas do Workfront.
-1. No **Permitir acesso administrativo para** , caixas de seleção para conceder o acesso administrativo necessário.
+1. Na seção **Permitir acesso administrativo para**, marque as caixas para conceder o acesso administrativo necessário.
 
-   Essas opções permitem que você conceda os seguintes recursos:
+   Essas opções permitem conceder os seguintes recursos:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     <tbody> 
      <tr> 
       <td role="rowheader">Processos de Aprovação</td> 
-      <td><p>Crie e gerencie processos de aprovação para uso em todo o sistema e para grupos específicos.</p><p>Sem esse acesso, os usuários podem criar somente processos de aprovação ad-hoc em itens que têm acesso para gerenciar.</p></td> 
+      <td><p>Crie e gerencie processos de aprovação para uso em todo o sistema e para grupos específicos.</p><p>Sem esse acesso, os usuários podem criar apenas processos de aprovação ad hoc em itens que eles tenham acesso para gerenciar.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Empresas</td> 
@@ -74,47 +74,47 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Formulários personalizados</td> 
-      <td><p>Crie e edite (adicione, edite e exclua os campos) formulários personalizados em seu grupo.</p><p>Sem esse acesso, os usuários só podem anexar formulários existentes a objetos nos quais tenham acesso para contribuir ou gerenciar.</p></td> 
+      <td><p>Criar e editar (adicionar, editar e excluir os campos) formulários personalizados dentro de seus grupos.</p><p>Sem esse acesso, os usuários só podem anexar formulários existentes a objetos nos quais têm acesso para contribuir ou gerenciar.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Taxas de câmbio</td> 
-      <td> <p>Adicionar nova moeda no Workfront.</p> <p>Sem esse acesso, o usuário só pode adicionar uma moeda existente a um projeto que criar.</p> </td> 
+      <td> <p>Adicionar nova moeda no Workfront.</p> <p>Sem esse acesso, o usuário só poderá adicionar uma moeda existente a um projeto que criar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Despesas</td> 
-      <td><p>Exibir todas as despesas com objetos no Workfront.</p><p>Isso não permite que o usuário crie novos Tipos de Despesa.</p><p>Sem esse acesso, o usuário só poderá visualizar o seguinte:</p>
+      <td><p>Exibir todas as despesas em objetos no Workfront.</p><p>Isso não permite que o usuário crie novos Tipos de Despesas.</p><p>Sem esse acesso, o usuário só poderá exibir o seguinte:</p>
        <ul>
-        <li>Despesas com projetos, tarefas ou problemas que gerem</li>
+        <li>Despesas com projetos, tarefas ou problemas que gerenciam</li>
         <li>Suas próprias despesas</li>
-        <li>As despesas dos seus subordinados</li>
+        <li>As despesas de seus subordinados</li>
        </ul></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Funções de trabalho</td> 
-      <td> <p>Com esse acesso, o usuário tem permissão para fazer o seguinte:</p> 
+      <td> <p>Com esse acesso, o usuário pode fazer o seguinte:</p> 
        <ul> 
         <li>Exibir e editar funções de trabalho existentes</li> 
         <li>Adicionar novas funções de trabalho</li> 
-        <li>Editar taxas de custo e faturamento de função</li> 
-       </ul> <p><b>IMPORTANTE</b>: Se você conceder a um Usuário do Planejador acesso administrativo a funções de cargo, a configuração Acesso a Dados Financeiros Editar Faturamento de Função e Taxas de Custo será ativada automaticamente para o usuário. Posteriormente, se você desativar o acesso administrativo às funções do job para o usuário do Planejador, as funções do job ainda estarão visíveis para o usuário, pois a configuração Editar Faturamento de Função e Taxas de Custo ainda estará ativada. Se isso acontecer e você precisar remover o acesso do usuário para exibir funções de trabalho, será necessário desativar a configuração de permissão Editar Faturamento de Função e Taxas de Custo do usuário. Para obter instruções, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso aos dados financeiros</a>.</p> </td> 
+        <li>Editar taxas de custo e cobrança de função</li> 
+       </ul> <p><b>IMPORTANTE</b>: se você conceder a um usuário do Planejador acesso administrativo a funções de trabalho, a configuração do Acesso a dados financeiros Editar taxas de custo e cobrança de função será habilitada automaticamente para o usuário. Posteriormente, se você desativar o acesso administrativo a funções de trabalho para o usuário Planejador, as funções de trabalho ainda estarão visíveis para o usuário, pois a configuração Editar taxas de custo e faturamento de função ainda está ativada. Se isso acontecer e você precisar remover o acesso do usuário para visualizar funções de trabalho, será necessário desativar a configuração de permissão Editar taxas de custo e cobrança de função. Para obter instruções, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Etapas no meu grupo</td> 
-      <td>Visualize todos os caminhos de marcos no sistema, no menu Caminhos de marcos, em Configurar. Os usuários também podem editar ou excluir caminhos de marcos pertencentes a qualquer um de seus grupos. Os usuários não podem gerenciar (editar ou excluir) os caminhos de marcos que não são atribuídos a nenhum de seus grupos.<br><p>Sem esse acesso, os usuários só podem visualizar os caminhos de marcos existentes e aplicá-los aos projetos que têm acesso para gerenciar.</p></td> 
+      <td>Exibir todos os caminhos de etapas no sistema no menu Caminhos de Etapas na Configuração. Os usuários também podem editar ou excluir caminhos de marcos pertencentes a qualquer um de seus grupos. Os usuários não podem gerenciar (editar ou excluir) os caminhos de marcos que não estão atribuídos a nenhum dos grupos.<br><p>Sem esse acesso, os usuários só poderão visualizar os caminhos de marcos existentes e aplicá-los aos projetos que tiverem acesso para gerenciar.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Notificações de lembrete</td> 
-      <td>Crie e gerencie notificações de lembrete no Workfront.<br>Sem esse acesso, os usuários estão limitados a receber e exibir notificações.</td> 
+      <td>Crie e gerencie notificações de lembrete no Workfront.<br>Sem esse acesso, os usuários ficam limitados a receber e visualizar notificações.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Horas e planilhas de horas</td> 
-      <td> <p>Permite que os usuários visualizem todas as horas e folhas de horas no Workfront.</p> <p>Quando essa opção está desativada, os usuários podem exibir somente horas em:</p> 
+      <td> <p>Permite que os usuários visualizem todas as horas e planilhas de horas no Workfront.</p> <p>Quando essa opção está desativada, os usuários podem exibir apenas horas em:</p> 
        <ul> 
         <li>Projetos, tarefas ou problemas que eles gerenciam</li> 
-        <li>Sua própria folha de ponto</li> 
-        <li>Uma folha de ponto de alguém que reporta para ele</li> 
-        <li>Uma folha de ponto que eles aprovam</li> 
-       </ul> <p><b>Nota</b>:  <p>Se essa opção estiver ativada ou desativada, os administradores de grupo podem criar perfis de folha de ponto para os grupos e subgrupos que gerenciam e atribuí-los a membros do grupo cujos perfis de usuário têm acesso para editar.</p> <p>Ativar essa opção pode fornecer acesso excessivo a alguns administradores de grupo, pois eles podem exibir as folhas de horas geradas pelos perfis da folha de ponto (e as horas) para todos os usuários no sistema, não apenas para aqueles nos grupos que administram. Você pode desativar essa opção para administradores de grupo que não precisam de muito acesso.</p> </p> </td> 
+        <li>Sua própria planilha de horas</li> 
+        <li>Uma planilha de horas de alguém que reporta a eles</li> 
+        <li>Uma planilha de horas que eles aprovam</li> 
+       </ul> <p><b>NOTA</b>:  <p>Se essa opção estiver ativada ou desativada, os administradores de grupo poderão criar perfis de planilha de horas para os grupos e subgrupos que gerenciam e atribuí-los aos membros do grupo cujos perfis de usuário eles têm acesso para editar.</p> <p>Habilitar essa opção pode fornecer muito acesso para alguns administradores de grupo, pois eles podem visualizar as folhas de horas geradas pelos perfis de folha de horas (e as horas) para todos os usuários no sistema, não apenas para aqueles nos grupos que eles administram. Você pode desativar essa opção para administradores de grupo que não precisam desse acesso.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>

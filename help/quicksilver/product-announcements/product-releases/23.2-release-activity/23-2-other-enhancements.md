@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as outras melhorias feitas na versão 23.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.2.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.2, consulte [23.2 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.2, consulte [Visão geral da versão 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Novidade na Workfront para plug-ins do Creative Cloud
 
@@ -26,7 +26,7 @@ Adicionamos as seguintes alterações ao Workfront para plug-ins do Creative Clo
 * O plug-in agora o notifica quando uma tarefa tem um predecessor
 * O coreano agora é um idioma suportado
 
-## Nova experiência de comentário para problemas Beta
+## Nova experiência de comentários para problemas do Beta
 
 Uma atualização para a experiência de comentários no Adobe Workfront está em desenvolvimento no momento. Esta atualização inclui uma nova interface, novos recursos e melhor desempenho na seção Atualizações de alguns objetos.
 
@@ -52,7 +52,7 @@ Mais recursos serão adicionados em versões futuras, à medida que essas melhor
 
 Para obter informações sobre o que a nova experiência de comentários oferece, consulte [Nova experiência de comentários](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3416962/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Exportar pranchetas como um único PDF ou vários arquivos PDF no Adobe Workfront para XD
 
@@ -60,8 +60,8 @@ No plug-in Adobe Workfront for XD, agora é possível exportar as pranchetas com
 
 Para obter mais informações, consulte os seguintes artigos:
 
-* [Carregar [!DNL XD] quadros de arte como documentos para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [Carregar [!DNL XD] quadros de arte como provas para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [Carregar [!DNL XD] quadros artísticos como documentos para [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [Carregar [!DNL XD] quadros de arte como provas [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## Novos clientes de rede a serem integrados à experiência unificada do Adobe
 
@@ -77,7 +77,7 @@ A Experiência unificada do Adobe inclui:
 
 Para obter mais informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## O visualizador de provas é aberto em uma nova guia para usuários na Experiência unificada
 

@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Variáveis matemáticas em [!DNL Adobe Workfront Fusion]
-description: As seguintes variáveis matemáticas estão disponíveis no [!DNL Adobe Workfront Fusion mapping] painel.
+title: Variáveis matemáticas em  [!DNL Adobe Workfront Fusion]
+description: As variáveis matemáticas a seguir estão disponíveis no painel  [!DNL Adobe Workfront Fusion mapping] .
 author: Becky
 feature: Workfront Fusion
 exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td>  
    <td> 
-   <p>Atual: Não [!DNL Workfront Fusion] requisito de licença.</p> 
+   <p>Atual: nenhum requisito de licença [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Herdados: Qualquer um </p> 
    </td>  
@@ -48,7 +48,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> 
    <p>Novo:</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</li></ul> 
    <p>Ou</p> 
-   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Atual: sua organização deve comprar o [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -62,11 +62,11 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 Representa o símbolo matemático $\pi$.
 
-## [!UICONTROL random]
+## [!UICONTROL aleatório]
 
-Retorna um número pseudo-aleatório de ponto flutuante no intervalo [`0`,`1`] (inclusive de `0`, mas não `1`).
+Retorna um número pseudo-aleatório de ponto flutuante no intervalo [`0`,`1`] (inclusive `0`, mas não `1`).
 
-Use a seguinte fórmula para gerar um número pseudo-aleatório inteiro no intervalo [`min`,`max`] (inclusive de ambos `min` e `max`):
+Use a seguinte fórmula para gerar um número pseudo-aleatório inteiro no intervalo [`min`,`max`] (incluindo `min` e `max`):
 
 ![](assets/math-variable-random-350x61.png)
 

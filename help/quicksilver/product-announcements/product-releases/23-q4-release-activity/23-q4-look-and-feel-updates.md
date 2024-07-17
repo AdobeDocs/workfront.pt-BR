@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento do quarto trimestre de 2023.
 
-Para obter uma lista de todas as alterações disponíveis com a versão do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão do quarto trimestre de 2023, consulte a [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Atualizações de aparência para aprovações de documentos e modelos de email
 

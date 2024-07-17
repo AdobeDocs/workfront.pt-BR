@@ -27,9 +27,9 @@ Considere o seguinte antes de criar uma instrução &quot;IF&quot;:
 * Recomendamos uma compreensão básica de qualquer linguagem de programação geral, mas não a exigimos, para este guia.
 * Precisamos de uma compreensão avançada da sintaxe do modo de texto do Workfront. Isso ajuda a compreender a terminologia da API do Workfront e a entender a sintaxe dos dados personalizados nesses formatos específicos.
 
-  Para obter informações sobre a API do Workfront, consulte [Noções básicas sobre API](../../../wf-api/general/api-basics.md).
+  Para obter informações sobre a API do Workfront, consulte [noções básicas sobre API](../../../wf-api/general/api-basics.md).
 
-  Para obter informações sobre como usar o modo de texto, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Para obter informações sobre como usar o modo de texto, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 * Você pode criar instruções &quot;IF&quot; para os seguintes elementos do Workfront:
 
@@ -46,8 +46,8 @@ Considere o seguinte antes de criar uma instrução &quot;IF&quot;:
 Você pode criar instruções &quot;IF&quot; no Workfront usando o seguinte formato:
 <pre>IF(Condição,Expressão Verdadeira,Expressão Falsa)</pre>Os componentes de uma instrução "IF" são:
 
-* **IF** = Esta é a expressão de dados calculados do Workfront para &quot;função&quot;. Semelhante às expressões SUM e PROD, isso informa primeiro o sistema a entender a função como uma instrução &quot;IF&quot;. Use sempre letras maiúsculas para &quot;IF&quot; neste demonstrativo.\
-  Para obter uma lista de todas as expressões de dados calculadas, consulte [Visão geral das expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+* **IF** = Esta é a expressão de dados calculados Workfront para &quot;função&quot;. Semelhante às expressões SUM e PROD, isso informa primeiro o sistema a entender a função como uma instrução &quot;IF&quot;. Use sempre letras maiúsculas para &quot;IF&quot; neste demonstrativo.\
+  Para obter uma lista de todas as expressões de dados calculados, consulte [Visão geral das expressões de dados calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 * **Condição** = Essa é a condição que a variável Workfront deve atender e é a base dessa equação. Tudo que pode ser especificado posteriormente na equação depende da condição. Você pode usar várias referências, comparações ou expressões matemáticas para iniciar uma equação. Alguns exemplos de condições são:
 
@@ -55,11 +55,11 @@ Você pode criar instruções &quot;IF&quot; no Workfront usando o seguinte form
    * Um status é igual a um dos status disponíveis em um objeto especificado.
    * O percentual concluído de uma tarefa é menor ou maior que um determinado percentual.
 
-* **Operador de Condição** = esse é o operador que ajuda a criar a condição da instrução &quot;IF&quot;. Por exemplo, &quot;é igual a&quot; ou &quot;é maior que&quot; são operadores de condição. Para obter uma lista de operadores de condição que você pode usar em instruções, consulte [Operadores de condição em expressões personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+* **Operador de Condição** = este é o operador que ajuda a criar a condição da sua instrução &quot;IF&quot;. Por exemplo, &quot;é igual a&quot; ou &quot;é maior que&quot; são operadores de condição. Para obter uma lista de operadores de condição que você pode usar em instruções, consulte [Operadores de condição em expressões personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expressão** = Esta é a variável &quot;True&quot;, que informa à equação qual indicador deve ser exibido quando os critérios da condição forem atendidos (indicadores verdadeiros).
+* **True****Expression** = Esta é a variável &quot;True&quot;, que informa à equação qual indicador será exibido quando os critérios da condição forem atendidos (indicadores true).
 
-* **Expressão falsa** = Esta é a variável &quot;False&quot;, que informa à equação qual indicador deve ser exibido quando os critérios da condição não forem atendidos (indicadores falsos).
+* **Expressão Falsa** = Essa é a variável &quot;False&quot;, que informa à equação qual indicador exibir quando os critérios da condição não forem atendidos (indicadores falsos).
 
 No exemplo a seguir, o formato da instrução original é usado para escrever uma expressão de dados simples para uma instrução &quot;IF&quot;. A expressão compara dois campos de data diferentes no Workfront seguidos por um resultado Verdadeiro/Falso como uma string de dados:
 
@@ -75,7 +75,7 @@ Você pode criar declarações &quot;IF&quot; em um campo calculado em um formul
 
 Há uma diferença na sintaxe usada em um formulário personalizado calculado em comparação a uma coluna personalizada calculada. Consulte os seguintes exemplos:
 
-* [Instruções &quot;IF&quot; únicas](#single-if-statements)
+* [Instruções &quot;IF&quot; simples](#single-if-statements)
 * [Várias instruções &quot;IF&quot;](#multiple-if-statements)
 
 ### Instruções &quot;IF&quot; únicas {#single-if-statements}
@@ -123,4 +123,4 @@ Você pode explorar ainda mais essas opções recriando esses exemplos em seu pr
 
 A melhor maneira de aprender isso é experimentando com vários campos e cenários. Além disso, familiarize-se com o API Explorer, que revela os nomes de campo que podem ser usados. Para obter informações sobre o API Explorer, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Para obter mais informações sobre a sintaxe Workfront de expressões de dados calculadas, consulte [Visão geral das expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Para obter mais informações sobre a sintaxe Workfront de expressões de dados calculados, consulte [Visão geral de expressões de dados calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).

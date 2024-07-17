@@ -8,8 +8,8 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1381'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -77,7 +77,7 @@ Se você não tiver acesso, pergunte ao administrador do Workfront se ele defini
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -88,11 +88,11 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 * Você só pode copiar e enviar solicitações enviadas. Não é possível copiar solicitações em rascunho.
 * Você pode copiar e submeter solicitações que submeteu originalmente ou solicitações que outras pessoas submeteram e que você tem acesso a pelo menos Exibir.
 * Você sempre tem acesso para copiar e enviar uma cópia de suas próprias solicitações, a menos que alguém tenha removido suas permissões.
-* O acesso para copiar e enviar solicitações originalmente enviadas por outros pode ser concedido automaticamente a pessoas na mesma empresa quando o criador da fila de solicitações habilitar a **As pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações** nas áreas Detalhes da fila ou Editar projeto. Desativar essa configuração permite que somente o solicitante original visualize suas próprias solicitações.
+* O acesso para copiar e enviar solicitações originalmente enviadas por outras pessoas pode ser concedido automaticamente a pessoas na mesma empresa quando o criador da fila de solicitações habilitar a **Pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações** nas áreas Detalhes da fila ou Editar projeto. Desativar essa configuração permite que somente o solicitante original visualize suas próprias solicitações.
 
   Para obter mais informações, consulte os seguintes artigos:
 
-   * [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   * [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * Você pode atualizar a cópia da solicitação original antes de reenviá-la como uma nova solicitação.
@@ -118,8 +118,8 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 
 ## Copiar e enviar solicitações
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Solicitações**.
-1. (Condicional) Se a seção Enviada não for exibida por padrão, clique em **Enviado** no painel esquerdo.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Solicitações**.
+1. (Condicional) Se a seção Enviado não for exibida por padrão, clique em **Enviado** no painel esquerdo.
 
    >[!TIP]
    >
@@ -127,17 +127,17 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 
 1. Localize a solicitação que você deseja copiar e submeter como nova e siga um destes procedimentos:
 
-   * Selecione-o e clique em **Copiar** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) no canto superior esquerdo da lista Solicitações enviadas.
+   * Selecione-a e clique em **Copiar** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) no canto superior esquerdo da lista de solicitações enviadas.
 
    >[!TIP]
    >
    > Se você não tiver selecionado uma solicitação primeiro, o ícone Copiar ficará esmaecido.
 
-   * Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome da solicitação e clique em **Copiar e enviar como novo**
+   * Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome da solicitação e clique em **Copiar e enviar como novo**
 
      Ou
 
-     Clique com o botão direito do mouse na solicitação selecionada e clique em **Copiar e enviar como novo**.
+     Clique com o botão direito do mouse na solicitação selecionada, em seguida clique em **Copiar e enviar como novo**.
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -147,14 +147,14 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 
 1. (Opcional) Atualize as seguintes informações, se necessário:
 
-   * **Tipo de solicitação**: a fila de solicitações em que a solicitação copiada é salva. Por padrão, a solicitação copiada é salva na fila de solicitações da solicitação original.
-   * **Grupos de Tópicos** e **Enfileirar tópicos**, se estiverem selecionados. Os nomes ou grupos de tópicos e tópicos da fila são personalizados para o seu ambiente. Por padrão, a solicitação copiada é salva nos grupos de tópicos e nos tópicos da fila da solicitação original.
+   * **Tipo de Solicitação**: a fila de solicitações na qual a solicitação copiada é salva. Por padrão, a solicitação copiada é salva na fila de solicitações da solicitação original.
+   * **Grupos de Tópicos** e **Tópicos da Fila**, se estiverem selecionados. Os nomes ou grupos de tópicos e tópicos da fila são personalizados para o seu ambiente. Por padrão, a solicitação copiada é salva nos grupos de tópicos e nos tópicos da fila da solicitação original.
 
      >[!TIP]
      >
      >Se o caminho mudar do caminho da solicitação original, o criador da fila de solicitações modificará a fila.
 
-1. (Opcional) Atualize quaisquer informações da solicitação copiada. Dependendo de quais campos o criador da fila de solicitações ativou no campo **Campos do novo problema** seção do **Detalhes da fila** no projeto, você poderá encontrar qualquer um dos seguintes campos:
+1. (Opcional) Atualize quaisquer informações da solicitação copiada. Dependendo dos campos que o criador da fila de solicitações habilitou na seção **Novos Campos de Problema** da subguia **Detalhes da Fila** no projeto, você poderá encontrar qualquer um dos seguintes campos:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +162,7 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Assunto</strong> </td> 
-      <td>Exibe o nome da solicitação original. Atualize-a, se necessário. Caso contrário, o Workfront nomeia a solicitação copiada <b>Cópia de &lt;name of="" original="" request=""&gt;</b>. Este campo é obrigatório.</td> 
+      <td>Exibe o nome da solicitação original. Atualize-a, se necessário. Caso contrário, o Workfront nomeia a solicitação copiada <b>Cópia de &lt;Nome da solicitação original&gt;</b>. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descrição</strong> </td> 
@@ -205,8 +205,8 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
      <tr> 
       <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Dependendo de como a fila de solicitações foi configurada, você pode atribuir apenas um tipo de recurso à solicitação (por exemplo, usuários). Se uma regra de roteamento também estiver associada à fila de solicitações e ela rotear automaticamente a solicitação para um tipo diferente de recurso (por exemplo, uma equipe), sua solicitação será atribuída à entidade especificada manualmente ao enviar a solicitação (usuários) e ao recurso especificado na regra de roteamento (a equipe).</p> <p style="font-weight: normal;">Para obter mais informações, consulte os seguintes artigos:</p> 
         <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Criar Regras de Encaminhamento</a> <br> </p> </li> 
+         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma Fila de Solicitações</a> </p> </li> 
+         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Criar Regras de Roteamento</a> <br> </p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -214,11 +214,11 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
       <td> <p>Estime quantas horas levaria para essa solicitação ser concluída.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Data de início planejado</strong> </td> 
+      <td role="rowheader"><strong>Data de Início Planejada</strong> </td> 
       <td> <p>A data em que o trabalho nesta solicitação deve começar.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Data de conclusão planejada</strong> </td> 
+      <td role="rowheader"><strong>Data de Término Planejada</strong> </td> 
       <td>A data em que você deseja que esta solicitação seja resolvida.</td> 
      </tr> 
      <tr> 

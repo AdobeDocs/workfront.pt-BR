@@ -1,25 +1,25 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Crie um [!DNL Anaplan] item de lista de um [!DNL Adobe Workfront] solicitação de orçamento
-description: Esse cenário de integração vincula um [!DNL Adobe Workfront] projeto (campanha) com um [!DNL Anaplan] item da lista de orçamento. Isso é feito adicionando uma solicitação de orçamento ao [!DNL Workfront] projeto que precisa receber financiamento. Este cenário observa solicitações de orçamento não processadas e executa um processo para criar um item de lista de orçamento vazio em [!DNL Anaplan] para iniciar processos de alocação de orçamento em Anaplan.
+title: Criar um item de lista  [!DNL Anaplan]  a partir de uma solicitação de orçamento  [!DNL Adobe Workfront]
+description: Este cenário de integração vincula um projeto  [!DNL Adobe Workfront]  (campanha) a um item da lista de orçamento  [!DNL Anaplan] . Isso é feito adicionando uma solicitação de orçamento ao projeto  [!DNL Workfront]  que precisa receber financiamento. Este cenário procura solicitações de orçamento não processadas e executa um processo para criar um item de lista de orçamento vazio em  [!DNL Anaplan]  para iniciar processos de alocação de orçamento em Anaplan.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
-# Crie um [!DNL Anaplan] item de lista de um [!DNL Adobe Workfront] solicitação de orçamento
+# Criar um item de lista [!DNL Anaplan] de uma solicitação de orçamento [!DNL Adobe Workfront]
 
-Esse cenário de integração vincula um [!DNL Adobe Workfront] projeto (campanha) com um [!DNL Anaplan] item da lista de orçamento. Isso é feito adicionando uma solicitação de orçamento ao [!DNL Workfront] projeto que precisa receber financiamento. Este cenário observa solicitações de orçamento não processadas e executa um processo para criar um item de lista de orçamento vazio em [!DNL Anaplan] para iniciar os processos de alocação de orçamento em [!DNL Anaplan].
+Este cenário de integração vincula um projeto [!DNL Adobe Workfront] (campanha) a um item da lista de orçamento [!DNL Anaplan]. Isso é feito adicionando uma solicitação de orçamento ao projeto [!DNL Workfront] que precisa receber financiamento. Este cenário procura solicitações de orçamento não processadas e executa um processo para criar um item de lista de orçamento vazio em [!DNL Anaplan] para iniciar processos de alocação de orçamento em [!DNL Anaplan].
 
 >[!IMPORTANT]
 >
->&quot;Campanha&quot; neste artigo se refere ao caso de uso da campanha de marketing que este cenário representa e não está de forma alguma conectado ao cenário [!DNL Workfront Fusion] Conector do Adobe Campaign ou ao recentemente obsoleto [!UICONTROL Campanha] em [!DNL Workfront].
+>&quot;Campanha&quot; neste artigo refere-se ao caso de uso de campanha de marketing que este cenário representa e não está conectado de forma alguma ao conector do Adobe Campaign [!DNL Workfront Fusion] ou ao objeto [!UICONTROL Campanha] recentemente descontinuado em [!DNL Workfront].
 
 ## Requisitos de acesso
 
@@ -38,37 +38,37 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader" [!DNL>Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td role="rowheader" [!DNL>Licença do Adobe Workfront Fusion**</td> 
+   <td> <p>[!UICONTROL Workfront Fusion para Automação e Integração do Trabalho] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>Sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 &#42;&#42;Para obter informações sobre[!DNL  Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Acionando evento
+## Evento de acionamento
 
-Esse cenário é agendado para ser executado a cada 15 minutos.
+Este cenário é agendado para ser executado a cada 15 minutos.
 
-## Esperado [!DNL Workfront] Configuração
+## Configuração [!DNL Workfront] Esperada
 
 Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
 
-* Um perfil de usuário em [!DNL Workfront] nomeado *[!UICONTROL *[!DNL Anaplan] Integração]**, que tem direitos de administrador do sistema.
+* Um perfil de usuário em [!DNL Workfront] chamado *[!UICONTROL *[!DNL Anaplan] Integração]**, que tem direitos de administrador do sistema.
 
-   Para obter informações sobre como criar um usuário em [!DNL Workfront], consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  Para obter informações sobre como criar um usuário em [!DNL Workfront], consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* A **[!UICONTROL Solicitação de orçamento]** formulário personalizado anexado ao [!UICONTROL Solicitação] objeto.
+* Um formulário personalizado **[!UICONTROL Solicitação de Orçamento]** anexado ao objeto [!UICONTROL Solicitação].
 
-   Os seguintes campos obrigatórios devem ser incluídos no formulário personalizado para auxiliar no mapeamento de dados para [!DNL Anaplan]:
+  Os seguintes campos obrigatórios devem ser incluídos no formulário personalizado para auxiliar no mapeamento de dados para [!DNL Anaplan]:
 
-   <table style="table-layout:auto"> 
+  <table style="table-layout:auto"> 
    <col> 
    </col> 
    <col> 
@@ -81,15 +81,15 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Tipo de solicitação de orçamento]</td> 
-     <td> <p>[!UICONTROL suspensa]</p> <p>Opções:</p> 
+     <td role="rowheader">[!UICONTROL Tipo de Solicitação de Orçamento]</td> 
+     <td> <p>[!UICONTROL Lista Suspensa]</p> <p>Opções:</p> 
       <ul> 
-       <li> <p>[!UICONTROL Ajuste para Financiamento]</p> </li> 
-       <li> <p>[!UICONTROL Financiamento inicial]</p> </li> 
+       <li> <p>[!UICONTROL Ajuste de Financiamento]</p> </li> 
+       <li> <p>[!UICONTROL Financiamento Inicial]</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Fundos de mão de obra solicitados]</td> 
+     <td role="rowheader">[!UICONTROL Fundos de Trabalho Solicitados]</td> 
      <td> </td> 
     </tr> 
     <tr> 
@@ -99,14 +99,14 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </tbody> 
   </table>
 
-   Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
-* Modelos de projeto que representam campanhas e outros projetos que exigem financiamento, configurados com um [!UICONTROL Solicitação de orçamento] tópico da fila. O [!UICONTROL Solicitação de orçamento] o tópico da fila é atribuído para usar o [!UICONTROL Solicitação de orçamento] formulário personalizado.
-* A **[!UICONTROL resumo da campanha]** para o objeto do projeto.
+* Modelos de projeto que representam campanhas e outros projetos que exigem financiamento, configurados com um tópico de fila [!UICONTROL Solicitação de orçamento]. O tópico da fila [!UICONTROL Solicitação de orçamento] é atribuído para usar o formulário personalizado [!UICONTROL Solicitação de orçamento].
+* Um formulário de **[!UICONTROL Resumo da campanha]** para o objeto de projeto.
 
-   Este formulário deve conter os seguintes campos:
+  Este formulário deve conter os seguintes campos:
 
-   <table style="table-layout:auto"> 
+  <table style="table-layout:auto"> 
    <col> 
    </col> 
    <col> 
@@ -119,11 +119,11 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Na Data De Início Do Mercado]</td> 
+     <td role="rowheader">[!UICONTROL Na Data de Início do Mercado]</td> 
      <td>[!UICONTROL Data] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Na Data Final Do Mercado]</td> 
+     <td role="rowheader">[!UICONTROL Na Data de Término do Mercado]</td> 
      <td>[!UICONTROL Data]</td> 
     </tr> 
     <tr> 
@@ -131,73 +131,73 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
      <td>[!UICONTROL Campo Rich Text]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Mensagem principal]</td> 
+     <td role="rowheader">[!UICONTROL Mensagem de Chave]</td> 
      <td>[!UICONTROL Campo Rich Text]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Público-alvo]</td> 
-     <td> <p>[!UICONTROL suspensa]</p> <p>Inclua opções que se ajustem aos seus processos.</p> </td> 
+     <td role="rowheader">[!UICONTROL Público-alvo de destino]</td> 
+     <td> <p>[!UICONTROL Lista Suspensa]</p> <p>Inclua opções que se ajustem aos seus processos.</p> </td> 
     </tr> 
    </tbody> 
   </table>
 
-   Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
-## Esperado [!DNL Anaplan] Configuração
+## Configuração [!DNL Anaplan] Esperada
 
 Você deve ter o seguinte em [!DNL Anaplan] para usar este cenário:
 
-* Um perfil de usuário em [!DNL Anaplan] nomeado **[!UICONTROL [!DNL Workfront]Integração]**, que tem direitos de administrador do sistema.
-* O [!DNL Anaplan] Modelo que você deseja usar para este cenário.
-* A lista no [!DNL Anaplan] Modelo que captura orçamentos de campanha.
+* Um perfil de usuário em [!DNL Anaplan] chamado **[!UICONTROL [!DNL Workfront]Integração]**, que tem direitos de administrador do sistema.
+* O Modelo [!DNL Anaplan] que você deseja usar para este cenário.
+* A Lista dentro do Modelo [!DNL Anaplan] que captura os orçamentos da campanha.
 
-   O módulo da lista deve suportar o recebimento dos seguintes atributos:
+  O módulo da lista deve oferecer suporte ao recebimento dos seguintes atributos:
 
-   * [!UICONTROL GUID do projeto do Workfront]
+   * [!UICONTROL GUID do Projeto do Workfront]
    * [!UICONTROL Nome da campanha]
-   * [!UICONTROL Fundos de mão de obra solicitados]
+   * [!UICONTROL Fundos de trabalho solicitados]
    * [!UICONTROL Fundos de Despesas Solicitados]
    * [!UICONTROL Tipo de Solicitação de Orçamento]
-   * [!UICONTROL Motivo do Ajuste do Financiamento]
+   * [!UICONTROL Motivo do Ajuste de Financiamento]
 
-   Esta lista e o módulo devem armazenar detalhes adicionais necessários para a funcionalidade normal do [!DNL Anaplan], incluindo a capacidade de definir um orçamento e comunicar que o item da lista de orçamento está pronto para ser sincronizado novamente [!DNL Workfront].
+  Esta lista e este módulo devem armazenar os detalhes adicionais necessários para a funcionalidade normal do [!DNL Anaplan], incluindo a capacidade de definir um orçamento e comunicar que o item da lista de orçamento está pronto para ser sincronizado novamente ao [!DNL Workfront].
 
-Para obter instruções sobre qualquer uma dessas ações, consulte a [!DNL Anaplan] documentação.
+Para obter instruções sobre qualquer uma dessas ações, consulte a documentação do [!DNL Anaplan].
 
-## Implantação do para [!DNL Workfront Fusion]
+## Implantando para [!DNL Workfront Fusion]
 
-Complete as etapas a seguir para implantar este cenário de integração no seu [!DNL Fusion] conta. Isso só deve ser feito após completar o [!DNL Workfront] e [!DNL Anaplan] configuração.
+Conclua as etapas a seguir para implantar este cenário de integração na sua conta do [!DNL Fusion]. Isso só deve ser feito após a conclusão das configurações necessárias de [!DNL Workfront] e [!DNL Anaplan].
 
-1. Navegue até o [!UICONTROL Modelos] em [!DNL Workfront Fusion] e clique no botão **[!UICONTROL Crie um [!DNL Anaplan] listar item de uma solicitação de orçamento do Workfront]** modelo de cenário.
-1. Substitua os valores da variável para o seguinte [!DNL Anaplan] variáveis:
+1. Navegue até o menu [!UICONTROL Modelos] em [!DNL Workfront Fusion] e clique no **[!UICONTROL Criar um item de lista [!DNL Anaplan] a partir de um modelo de cenário de solicitação de orçamento do Workfront]**.
+1. Substitua os valores da variável para as seguintes [!DNL Anaplan] variáveis:
 
    | Nome da variável | Substituir valor por |
    |---|---|
-   | [!UICONTROL [!DNL Anaplan] ID do espaço de trabalho] | A ID de um espaço de trabalho da [!DNL Anaplan] conta. |
-   | [!UICONTROL [!DNL Anaplan] ID do modelo] | A ID de um modelo da [!DNL Anaplan] e o espaço de trabalho selecionado. |
-   | [!UICONTROL [!DNL Anaplan] Nome do módulo] | O nome do módulo que descreve os atributos da campanha no [!DNL Anaplan] Lista. |
-   | [!UICONTROL Nome da lista de campanha] | O nome da lista da sua [!DNL Anaplan] e o espaço de trabalho e modelo selecionados. |
+   | [!UICONTROL [!DNL Anaplan] Workspace ID] | A ID de um espaço de trabalho da sua conta [!DNL Anaplan]. |
+   | [!UICONTROL [!DNL Anaplan] ID do Modelo] | A ID de um modelo da sua conta [!DNL Anaplan] e do espaço de trabalho selecionado. |
+   | [!UICONTROL [!DNL Anaplan] Nome do módulo ] | O nome do módulo que descreve os atributos de campanha na Lista [!DNL Anaplan] selecionada. |
+   | [!UICONTROL Nome da Lista de Campanhas] | O nome da lista da sua conta [!DNL Anaplan] e o espaço de trabalho e modelo selecionados. |
 
    {style="table-layout:auto"}
 
-   Os detalhes sobre como configurar os arquivos e processos são fornecidos no [!DNL Anaplan] documentação de configuração.
+   Detalhes sobre como configurar os arquivos e processos são fornecidos na documentação de configuração do [!DNL Anaplan].
 
-1. Selecione ou adicione um [!DNL Anaplan] perfil de conexão.
-1. Atualizar todas as restantes [!DNL Anaplan] módulos com uma [!DNL Anaplan] , quando solicitado.
-1. Selecione ou adicione um [!DNL Workfront] perfil de conexão.
+1. Selecione ou adicione um perfil de conexão [!DNL Anaplan].
+1. Atualize todos os [!DNL Anaplan] módulos restantes com uma conexão [!DNL Anaplan], quando solicitado.
+1. Selecione ou adicione um perfil de conexão [!DNL Workfront].
 
-   Depois de implantar o modelo, esse é o módulo que você atualizará para adicionar ou remover referências de campo personalizadas do valor da propriedade fields se desejar alterar os campos mapeados padrão para [!DNL Anaplan].
+   Após implantar o modelo, este é o módulo que você atualizará para adicionar ou remover referências de campo personalizado do valor da propriedade fields se desejar alterar os campos mapeados padrão para [!DNL Anaplan].
 
-1. Atualizar todas as restantes [!DNL Workfront] módulos com uma [!DNL Workfront] , quando solicitado.
+1. Atualize todos os [!DNL Workfront] módulos restantes com uma conexão [!DNL Workfront], quando solicitado.
 
-## Outros modelos de cenário recomendados
+## Outros Modelos de Cenário Recomendados
 
-Para concluir o workflow representado por este template, você também deve implantar o seguinte template adicional:
+Para concluir o workflow representado por esse template, você também deve implantar o seguinte template adicional:
 
-* [[!UICONTROL Aplique um [!DNL Anaplan] alocação de orçamento para um [!DNL Adobe Workfront] projeto]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Aplicar uma [!DNL Anaplan] alocação de orçamento a um [!DNL Adobe Workfront] projeto]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
-Os cenários adicionais para otimização de gastos incluem:
+Outros cenários para otimização de gastos incluem:
 
 * [[!UICONTROL Enviar [!DNL Adobe Workfront] atualizações de projeto para um [!DNL Anaplan] item de lista]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [[!UICONTROL Enviar [!DNL Adobe Workfront] as horas reais são atualizadas para um [!DNL Anaplan] item de lista]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [[!UICONTROL Enviar [!DNL Adobe Workfront] despesas de [!DNL Anaplan] item de lista]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL Enviar [!DNL Adobe Workfront] atualizações de horas reais para um [!DNL Anaplan] item de lista]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Enviar [!DNL Adobe Workfront] despesas para um [!DNL Anaplan] item de lista]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

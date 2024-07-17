@@ -19,20 +19,20 @@ ht-degree: 1%
 
 O data lake da Workfront permite usar os dados Workfront de sua organização com ferramentas de business intelligence ou armazená-los em um data warehouse externo.
 
-Para conectar seus dados do data lake da Workfront incluir na lista de permissões a um produto externo, primeiro adicione os IPs necessários ao arquivo, conforme descrito em [Adicionar IPs ao incluo na lista de permissões](#add-ips-to-the-allowlist) abaixo. Além disso, a maioria dos produtos exigirá informações adicionais sobre seu data lake para estabelecer uma conexão:
+Para conectar seus dados do data lake da Workfront a um produto externo, primeiro adicione os IPs necessários ao arquivo, conforme descrito em [Adicionar IPs ao arquivo de incluir na lista de permissões inclui na lista de permissões](#add-ips-to-the-allowlist) abaixo. Além disso, a maioria dos produtos exigirá informações adicionais sobre seu data lake para estabelecer uma conexão:
 
 | Nome do campo | Valor |
 |---------------|-------------|
-| Servidor | O URL da conexão, sem o parâmetro `https://` porção (encontrada no **Acesso aos dados** página no Workfront*) |
+| Servidor | A URL da conexão, sem a parte `https://` (encontrada na página **Acesso a dados** no Workfront*) |
 | Porta | `443` |
 | Banco de dados | `WORKFRONT` |
 | Warehouse | `READER_WH` |
 | Esquema | `WF` |
 | Função | `READER_ROLE` |
-| Nome de usuário | O nome de usuário escolhido ao criar a conexão (encontrado no **Acesso aos dados** página no Workfront*) |
+| Nome de usuário | O nome de usuário escolhido ao criar a conexão (encontrado na página **Acesso aos dados** no Workfront*) |
 | Senha | A senha escolhida no primeiro logon de Snowflake* |
 
-*Para obter informações sobre onde encontrar o **Acesso aos dados** contendo suas conexões de data lake, consulte [Criar uma conta de leitor (serviço) para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Para obter informações sobre onde encontrar a página **Acesso a dados** contendo suas conexões de data lake, consulte [Criar uma conta de leitor (serviço) para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
@@ -43,23 +43,23 @@ Para conectar seus dados do data lake da Workfront incluir na lista de permissõ
 
 ## Adicionar IPs ao incluo na lista de permissões
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Configuração**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação**.
 
-1. No painel esquerdo, clique em **Sistema** > **Acesso aos dados**.
+1. No painel esquerdo, clique em **Sistema** > **Acesso a Dados**.
 
-1. Clique no link **IPs permitidos** e, em seguida, clique na guia **Adicionar um endereço IP ao seu Incluo na lista de permissões** botão.
+1. Incluir na lista de permissões Clique na guia **IPs permitidos** e, em seguida, clique no botão **Adicionar um endereço IP à pesquisa**.
 
-1. Insira um nome para o endereço IP em **Descrição do endereço IP** e insira o endereço IP (ou bloco CIDR) da ferramenta que deseja usar no **Endereço IP** e, em seguida, clique em **Adicionar IP ao Incluo na lista de permissões**.
+1. Incluir na lista de permissões Insira um nome para o endereço IP em **descrição do Endereço IP** e insira o endereço IP (ou bloco CIDR) da ferramenta que deseja usar em **Endereço IP** e clique em **Adicionar IP à pesquisa**.
 
    ![Adicionar endereço IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Remover um endereço IP da inclui na lista de permissões
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Configuração**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação**.
 
-1. No painel esquerdo, clique em **Sistema** > **Acesso aos dados**.
+1. No painel esquerdo, clique em **Sistema** > **Acesso a Dados**.
 
-1. Clique no link **IPs permitidos** e, em seguida, clique no ícone da lixeira ![Ícone Excluir](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) à direita do endereço IP que deseja remover.
+1. Clique na guia **IPs permitidos** e clique no ícone da lixeira ![Ícone Excluir](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) à direita do endereço IP que você deseja remover.
 
 1. Na janela exibida, marque a caixa para confirmar e clique em **Excluir**.
 

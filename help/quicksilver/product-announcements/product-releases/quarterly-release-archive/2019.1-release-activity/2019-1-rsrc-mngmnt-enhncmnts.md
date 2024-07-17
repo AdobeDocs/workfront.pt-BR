@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos incluídas na versão 2019.1. A funcionalidade agora está disponível no ambiente de Produção do.
 
-Para obter uma lista de todas as alterações feitas em 2019.1, consulte [Visão geral da atividade da versão 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.1, consulte a [visão geral da atividade da versão 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Filtro padrão atualizado no Planejador de recursos
 
@@ -37,15 +37,15 @@ Anteriormente, o filtro padrão recuperava as informações dos seguintes projet
 * Com Status Atual ou de Planejamento.
 * Com um Grupo que corresponda ao Grupo inicial do usuário que está conectado.
 
-Para obter informações sobre como aplicar filtros ao Planejador de recursos, consulte [Filtrar informações no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Para obter informações sobre como aplicar filtros ao Planejador de Recursos, consulte [Informações de filtro no Planejador de Recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Uso de curingas para filtros do Planejador de recursos
 
-Agora é possível usar curingas ao criar filtros no Planejador de recursos. Por exemplo, você pode usar $$USER.ID para filtrar informações sobre o usuário que está conectado, ou $$USER.companyID para filtrar informações sobre todos os usuários que pertencem à mesma empresa que o usuário que está conectado. Para obter uma lista completa de variáveis baseadas no usuário, consulte [Variáveis de filtro curinga com base no usuário](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) seção em [Variáveis de filtro curinga](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Agora é possível usar curingas ao criar filtros no Planejador de recursos. Por exemplo, você pode usar $$USER.ID para filtrar informações sobre o usuário que está conectado, ou $$USER.companyID para filtrar informações sobre todos os usuários que pertencem à mesma empresa que o usuário que está conectado. Para obter uma lista completa de variáveis baseadas em usuário, consulte a seção [Variáveis de filtro curinga baseadas em usuário](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) em [Variáveis de filtro curinga](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 Anteriormente, os curingas não estavam disponíveis para os filtros do Planejador de recursos.
 
-Para obter informações sobre filtragem no Planejador de recursos, consulte [Filtrar informações no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Para obter informações sobre a filtragem no Planejador de recursos, consulte [Informações de filtro no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 <!--
 <iframe class="mt-media" src="assets/290697527?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
@@ -57,7 +57,7 @@ Agora você pode usar qualquer versão da variável de filtro curinga $$TODAY ao
 
 Antes desse aprimoramento, você poderia usar somente variáveis de filtro curinga baseadas em usuário.
 
-Para obter informações sobre filtragem no Planejador de recursos, consulte [Filtrar informações no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Para obter informações sobre a filtragem no Planejador de recursos, consulte [Informações de filtro no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 Para obter informações sobre variáveis de filtro curinga, consulte [Variáveis de filtro curinga](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -71,7 +71,7 @@ Agora você pode selecionar quais níveis de informação serão exportados do P
 
 Antes desse aprimoramento, todos os níveis de informação eram exportados na visualização Função. Essas opções foram introduzidas nas visualizações Projeto e Usuário em uma versão anterior.
 
-Para obter informações sobre a exportação de informações do Planejador de recursos, consulte [Exportar informações do Planejador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obter informações sobre como exportar informações do Planejador de recursos, consulte [Exportar informações do Planejador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Opções de Formatação de Dados para Exportação do Planejador de Recursos
 
@@ -84,13 +84,13 @@ Você pode exibir a disponibilidade e a alocação de informações exportadas d
 
 Antes desse aprimoramento, as informações no arquivo exportado apareciam como aparecem no Workfront.
 
-Para obter informações sobre a exportação de informações do Planejador de recursos, consulte [Exportar informações do Planejador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obter informações sobre como exportar informações do Planejador de recursos, consulte [Exportar informações do Planejador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Cronograma persistente
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 As linhas do tempo de agendamento agora mantêm o período selecionado ao atualizar a linha do tempo ou sair da página.
 
@@ -120,7 +120,7 @@ Na Exibição de usuário, é possível exportar qualquer um dos itens a seguir:
 
 Antes desse aprimoramento, todos os níveis de informação eram exportados em todas as visualizações do Planejador de recursos por padrão.
 
-Para obter informações sobre a exportação de informações do Planejador de recursos, consulte [Exportar informações do Planejador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obter informações sobre como exportar informações do Planejador de recursos, consulte [Exportar informações do Planejador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Atualizar para a visualização Usuário no Planejador de recursos
 
@@ -130,4 +130,4 @@ Antes desta atualização, somente os usuários atribuídos aos itens de trabalh
 
 É possível usar filtros baseados em usuário para reduzir o número de usuários exibidos na Exibição de usuário apenas para aqueles atribuídos aos projetos que você deseja exibir.
 
-Para obter informações sobre filtros no Planejador de recursos, consulte [Filtrar informações no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Para obter informações sobre filtros no Planejador de recursos, consulte [Informações sobre filtros no Planejador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).

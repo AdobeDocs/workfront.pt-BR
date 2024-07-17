@@ -55,16 +55,16 @@ Considere o seguinte ao criar modelos:
 
   Para obter informações sobre Duração, consulte os seguintes artigos:
 
-   * [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+   * [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [Visão geral da duração do projeto](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-  Para obter informações sobre o Trabalho necessário, consulte [Visão geral das Horas planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
+  Para obter informações sobre as Horas Planejadas, consulte [visão geral das Horas Planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Adicione as relações predecessoras entre as tarefas no final, quando você tiver uma compreensão clara do plano de projeto futuro em sua totalidade. Adicionar predecessores às tarefas de modelo é semelhante a adicionar predecessores às tarefas em um projeto.
 
-  Para obter informações sobre como adicionar predecessores a tarefas, consulte [Visão geral das predecessoras da tarefa](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Para obter informações sobre como adicionar predecessores a tarefas, consulte [Visão geral dos predecessores da tarefa](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-* Indique com quem o modelo deve ser compartilhado para uso futuro e com quem os projetos que serão criados a partir do modelo devem ser compartilhados. Para obter informações sobre modelos de compartilhamento, consulte [Compartilhar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* Indique com quem o modelo deve ser compartilhado para uso futuro e com quem os projetos que serão criados a partir do modelo devem ser compartilhados. Para obter informações sobre como compartilhar modelos, consulte [Compartilhar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 * Use processos de aprovação global e adicione-os ao modelo e às tarefas do modelo, se possível. Isso economizará tempo quando as tarefas ou o futuro projeto precisarem passar pelas mesmas aprovações.
 
   Para obter informações sobre como criar aprovações, consulte [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -85,4 +85,4 @@ Você pode criar um novo modelo das seguintes maneiras:
   Para obter mais informações sobre como copiar um modelo existente, consulte [Copiar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
 * Usando nossos modelos de exemplo.\
-  Para obter mais informações sobre como criar modelos usando nossos modelos de exemplo, consulte [Criar modelos de projeto a partir de exemplos](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).
+  Para obter mais informações sobre como criar seus modelos usando nossos modelos de exemplo, consulte [Criar modelos de projeto a partir de exemplos](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).

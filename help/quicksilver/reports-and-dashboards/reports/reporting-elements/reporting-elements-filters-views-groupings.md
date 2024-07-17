@@ -35,7 +35,7 @@ Considere o seguinte ao trabalhar com filtros, exibições e agrupamentos:
 * Os relatórios no Workfront são específicos para um objeto. Você deve definir o objeto principal de um relatório antes de criá-lo. Portanto, todos os elementos de relatórios são específicos do objeto.
 * O administrador do Workfront deve conceder acesso a filtros, visualizações e agrupamentos no seu nível de acesso para poder exibi-los ou editá-los em listas e relatórios.
 
-  Para obter informações sobre como conceder acesso a filtros, visualizações e agrupamentos, consulte [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Para obter informações sobre como conceder acesso a filtros, exibições e agrupamentos, consulte [Conceder acesso a filtros, exibições e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * O administrador do Workfront deve conceder acesso aos relatórios, painéis e calendários no seu nível de acesso para poder visualizar ou editar relatórios.
 
@@ -56,7 +56,7 @@ Alguns atributos de filtros são:
 
   Para obter mais informações sobre filtros, consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Ícone Filtrar](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
+![Ícone de filtro](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
 ## Visualizações
 
@@ -89,14 +89,14 @@ Alguns atributos de agrupamentos são:
 * O Workfront fornece vários agrupamentos para objetos diferentes por padrão.
 * É possível personalizar os agrupamentos que você possui ou gerencia.
 
-  Para obter mais informações sobre agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Para obter mais informações sobre agrupamentos, consulte [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Outros elementos de relatório
 
 Além de filtros, visualizações e agrupamentos, você também pode adicionar os seguintes elementos a um relatório:
 
-* **Aviso**: um filtro aberto que pode ser personalizado e aplicado de forma diferente sempre que um relatório é executado.\
-  Para obter mais informações sobre prompts, consulte o artigo [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Prompt**: um filtro aberto que pode ser personalizado e aplicado de forma diferente sempre que você executar um relatório.\
+  Para obter mais informações sobre prompts, consulte o artigo [Adicionar prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* **Gráfico**: é possível aprimorar os relatórios adicionando um gráfico a eles e exibindo as informações visualmente.\
+* **Gráfico**: você pode aprimorar seus relatórios adicionando um gráfico a eles e exibindo as informações de forma visual.\
   Para obter mais informações sobre gráficos em relatórios, consulte o artigo [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

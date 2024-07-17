@@ -2,8 +2,8 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Gerenciar o limite de Trabalho em Andamento (WIP) em um quadro
-description: Você pode configurar um limite de Trabalho em andamento (WIP) para cada coluna em um quadro.
+title: Gerenciar o limite Trabalho em curso (WIP) em um quadro
+description: Você pode configurar um limite de Trabalho em andamento (WIP) para cada coluna de um quadro.
 author: Lisa
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Gerencie o [!UICONTROL Trabalho em Andamento] Limite (WIP) em um quadro
+# Gerenciar o limite de [!UICONTROL Trabalho em andamento] (WIP) em um quadro
 
-Você pode configurar um [!UICONTROL Trabalho Em Andamento] Limite (WIP) para cada coluna em um quadro.
+Você pode configurar um limite de [!UICONTROL Trabalho em andamento] (WIP) para cada coluna de um quadro.
 
-O limite WIP é simplesmente um aviso visual e não restringe a presença de mais itens em cada coluna do que o limite definido.
+O limite WIP é simplesmente uma advertência visual e não o impede de ter mais itens em cada coluna do que o limite definido.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -41,24 +41,24 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
-## Definir o limite WIP em uma coluna
+## Definir o limite de WIP em uma coluna
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Acesse um quadro. Para obter mais informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Localize a coluna à qual deseja adicionar o limite WIP.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
+1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
+1. Localize a coluna à qual deseja adicionar o limite de WIP.
 
    Para adicionar uma nova coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-1. Clique no botão **[!UICONTROL Mais]** na coluna e selecione **[!UICONTROL Editar]** para abrir a área Configurações .
-1. Em [!UICONTROL Políticas da coluna], ativar a **[!UICONTROL Trabalho em andamento] limite** política para limitar o número de cartões que podem ser adicionados à coluna.
-1. Digite o número limite na **[!UICONTROL Definir limite]** campo.
+1. Clique no menu **[!UICONTROL Mais]** na coluna e selecione **[!UICONTROL Editar]** para abrir a área Configurações.
+1. Em [!UICONTROL Políticas de Coluna], habilite a política de limite **de**[!UICONTROL  Trabalho em andamento] para limitar o número de cartões que podem ser adicionados à coluna.
+1. Digite o número de limite no campo **[!UICONTROL Definir limite]**.
 
-   ![Limite WIP para coluna](assets/boards-wip-limit-in-column.png)
+   ![Limite de WIP para a coluna](assets/boards-wip-limit-in-column.png)
 
    O número de cartões e o limite são exibidos na parte superior da coluna. Se a coluna contiver mais cartões do que o limite, o contador ficará vermelho.
 
-   ![Contador de limites WIP](assets/boards-wip-limit-counter.png)
+   ![Contador de limite de WIP](assets/boards-wip-limit-counter.png)
 
-1. Clique em **[!UICONTROL Fechar]** para sair do [!UICONTROL Configurações] e visualize a coluna e seus cartões.
+1. Clique em **[!UICONTROL Fechar]** para sair da área [!UICONTROL Configurações] e exibir a coluna e seus cartões.

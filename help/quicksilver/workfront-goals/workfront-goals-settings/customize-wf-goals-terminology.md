@@ -19,7 +19,7 @@ Sua organização deve ter as seguintes opções para usar a funcionalidade desc
 
 * Para o plano e a estrutura de licença atuais:
 
-   * A Pro ou superior [plano do Adobe Workfront](https://www.workfront.com/plans).
+   * Um [plano Adobe Workfront](https://www.workfront.com/plans) Pro ou superior.
    * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
 
 * Para o novo plano e estrutura de licença:
@@ -32,7 +32,7 @@ Sua organização deve ter as seguintes opções para usar a funcionalidade desc
 
 Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 
-Para obter informações adicionais sobre o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 

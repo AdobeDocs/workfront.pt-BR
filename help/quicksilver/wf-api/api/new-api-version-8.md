@@ -9,8 +9,8 @@ role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 30%
+source-wordcount: '269'
+ht-degree: 29%
 
 ---
 
@@ -58,7 +58,7 @@ Esta é uma lista de recursos novos da API versão 9. Para obter uma lista de at
 
 {style="table-layout:auto"}
 
-**Quadro Kanban**
+**QuadroKanban**
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
@@ -94,7 +94,7 @@ Esta é uma lista de recursos novos da API versão 9. Para obter uma lista de at
 
 {style="table-layout:auto"}
 
-**ResourceBudgetedHour**
+**HorasOrçadasRecursos**
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|

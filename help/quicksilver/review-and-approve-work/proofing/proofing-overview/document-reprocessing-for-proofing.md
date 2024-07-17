@@ -54,4 +54,4 @@ Os arquivos enviados passam por algumas ou todas as seguintes etapas:
 
 1. **Envio**. Ao fazer upload de um documento no sistema, você faz isso usando a página Nova prova ou usando uma interface de programação de aplicativo (API). 
 1. **Fila**. Durante períodos de tráfego intenso, a Workfront pode precisar colocar os envios em fila para evitar sobrecarga do sistema. A maioria das provas passa apenas alguns segundos em uma fila. 
-1. **Processando.** Os arquivos chegam às máquinas de processamento de acordo com o tipo de conteúdo. Usamos diferentes ferramentas para processar provas de vídeo, capturas da Web, imagens estáticas e documentos. Os envios de Rich Media containers (ZIP) e captura interativa na Web não exigem processamento.
+1. **Processando.** Os arquivos chegam às máquinas de processamento de acordo com o tipo de conteúdo. Usamos diferentes ferramentas para processar provas de vídeo, capturas da Web, imagens estáticas e documentos. Os envios de Rich Media containers (ZIP) e captura interativa na Web não exigem processamento.

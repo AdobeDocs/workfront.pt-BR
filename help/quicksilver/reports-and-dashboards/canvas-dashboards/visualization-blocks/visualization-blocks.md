@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Adicionar ou editar um bloco de visualização na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-* [Configurar uma visualização de barra na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
+* [Adicionar ou editar um bloco de visualização na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
+* [Configurar uma visualização de barra na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
 * [Configurar uma visualização de coluna na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
 * [Configurar visualização de pizza na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
 * [Configurar uma visualização de KPI na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)

@@ -7,7 +7,8 @@ description: Por padrão, quando você adiciona um novo campo ou widget personal
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
+exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -52,14 +53,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Forms personalizado**.
+1. No painel esquerdo, clique em **Forms Personalizado**.
 1. Clique em **Campos** para abrir a área Campos.
 1. Selecione o item para o qual você deseja configurar o compartilhamento e clique em ![Ícone Compartilhar](assets/share-icon.png).
 1. Na caixa Acesso de campo personalizado exibida, especifique com quem você deseja compartilhar o item e como deseja compartilhá-lo:
 
-   1. Próximo ao canto inferior esquerdo do **Acesso ao campo personalizado** caixa, em **Conceder acesso ao campo personalizado a**, comece digitando o nome de um usuário, equipe, função de trabalho, grupo ou empresa com a qual deseja compartilhar o item e clique no nome quando ele for exibido.
+   1. Próximo ao canto inferior esquerdo da caixa **Acesso a Campo Personalizado**, em **Conceda acesso a campo personalizado a**, comece digitando o nome de um usuário, equipe, função de trabalho, grupo ou empresa com a qual deseja compartilhar o item e clique no nome quando ele aparecer.
 
-      ![Caixa Acesso de campo personalizado](assets/share-field-give-access-to.jpg)
+      ![Caixa Acesso a Campo Personalizado](assets/share-field-give-access-to.jpg)
 
    1. Se quiser ser mais específico sobre como compartilhar o item, clique na lista suspensa à direita do nome e use uma das seguintes opções:
 
@@ -71,25 +72,25 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
        <tbody> 
         <tr> 
          <td role="rowheader">Visualizar o projeto</td> 
-         <td> <p>Você pode clicar em <strong>Configurações avançadas</strong> para especificar se você deseja que o usuário ou usuários possam usar seu acesso para adicionar o item a um formulário personalizado ou compartilhá-lo com outros usuários.</p> </td> 
+         <td> <p>Você pode clicar em <strong>Configurações Avançadas</strong> para especificar se deseja que o usuário ou usuários possam usar seu acesso para adicionar o item a um formulário personalizado ou compartilhá-lo com outros usuários.</p> </td> 
         </tr> 
         <tr> 
          <td role="rowheader">Gerenciar o projeto</td> 
-         <td> <p>Permite acesso para editar o campo personalizado e vê-lo na Biblioteca de campos e na página onde você cria formulários personalizados.</p> <p>Você pode clicar em <strong>Configurações avançadas</strong> para especificar se você deseja que o usuário ou usuários possam usar seu acesso para excluir o item do sistema ou compartilhá-lo com outros usuários.</p> </td> 
+         <td> <p>Permite acesso para editar o campo personalizado e vê-lo na Biblioteca de campos e na página onde você cria formulários personalizados.</p> <p>Você pode clicar em <strong>Configurações avançadas</strong> para especificar se deseja que o usuário ou usuários possam usar seu acesso para excluir o item do sistema ou compartilhá-lo com outros usuários.</p> </td> 
         </tr> 
        </tbody> 
       </table>
 
 1. (Opcional) Repita a etapa anterior para adicionar outros nomes à lista e configurar suas opções.
-1. (Opcional) Clique no ícone de engrenagem ![Ícone Configurações](assets/gear-icon-settings.png) no canto superior direito, se desejar escolher uma opção de compartilhamento em todo o sistema para o campo.
+1. (Opcional) Clique no ícone de engrenagem ![ícone de Configurações](assets/gear-icon-settings.png) no canto superior direito se desejar escolher uma opção de compartilhamento em todo o sistema para o campo.
 
    Nem todas as opções a seguir são exibidas nesse menu suspenso ao mesmo tempo. Por exemplo, o segundo é exibido somente quando um dos outros dois é selecionado.
 
-   * **Tornar isso editável em todo o sistema para que todos no Workfront possam editá-lo** (a opção padrão)
+   * **Tornar isto editável em todo o sistema para que todos no Workfront possam editá-lo** (a opção padrão)
 
      Ao adicionar um campo ou widget personalizado e não limitar o compartilhamento, todos os usuários no sistema que têm acesso a formulários personalizados podem visualizá-lo e editar suas propriedades.
 
-   * **Remover o acesso para editar em todo o sistema**
+   * **Remover acesso de edição em todo o sistema**
 
      Limita o acesso somente àqueles que você adicionou à lista.
 
@@ -101,10 +102,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Forms personalizado**.
+1. No painel esquerdo, clique em **Forms Personalizado**.
 1. Abra um formulário personalizado ou crie um novo formulário personalizado.
-1. No designer do formulário, selecione o item para o qual você deseja configurar o compartilhamento e clique em **Compartilhar** na área de edição de campo à direita.
-1. Na caixa exibida, em **Conceder acesso ao formulário personalizado a**, comece digitando o nome do usuário, da equipe, da função de trabalho, do grupo ou da empresa com a qual deseja compartilhar o item e pressione **Enter** quando o nome é exibido.
+1. No designer do formulário, selecione o item para o qual você deseja configurar o compartilhamento e clique em **Compartilhar** na área de edição de campos à direita.
+1. Na caixa exibida, em **Conceder acesso ao formulário personalizado**, comece digitando o nome do usuário, da equipe, da função de trabalho, do grupo ou da empresa com a qual deseja compartilhar o item e pressione **Enter** quando o nome for exibido.
 1. Se quiser ser mais específico sobre como compartilhar o item, clique no menu suspenso à direita do nome e use uma das seguintes opções:
 
    <table style="table-layout:auto"> 
@@ -152,11 +153,11 @@ Você pode descobrir quem herdou acesso a um campo ou widget personalizado e rem
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Forms personalizado**.
-1. Clique em **Campos**, em seguida, selecione o campo, imagem ou widget de acesso.
-1. Na caixa exibida, clique em **Permissões herdadas** e visualize os nomes exibidos.
+1. No painel esquerdo, clique em **Forms Personalizado**.
+1. Clique em **Campos** e selecione o campo, a imagem ou o widget de acesso.
+1. Na caixa exibida, clique em **Permissões Herdadas** e exiba os nomes exibidos.
 1. Clique em **Cancelar**.
 
 ### Remover o acesso a um campo ou widget personalizado em um formulário personalizado que foi compartilhado {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-Se você precisar remover o acesso a um campo ou widget personalizado em um formulário personalizado que foi compartilhado, será necessário cancelar o compartilhamento do formulário. Para obter instruções, consulte a seção [Remover o acesso a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms) no artigo [Compartilhar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+Se você precisar remover o acesso a um campo ou widget personalizado em um formulário personalizado que foi compartilhado, será necessário cancelar o compartilhamento do formulário. Para obter instruções, consulte a seção [Remover acesso a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms) no artigo [Compartilhar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).

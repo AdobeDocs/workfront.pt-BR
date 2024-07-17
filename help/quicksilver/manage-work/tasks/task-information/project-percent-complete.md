@@ -20,7 +20,7 @@ ht-degree: 0%
 
 O valor do Percentual concluído de um projeto é calculado com base na Duração ou nas Horas planejadas das tarefas no projeto. O administrador do Adobe Workfront ou um administrador de grupo define qual valor é levado em conta ao calcular o percentual concluído no sistema quando configuram informações na área Preferências do projeto.
 
-Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obter informações sobre como configurar preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 O Percentual de Término de uma tarefa pai é baseado na Duração ou nas Horas Planejadas de cada uma de suas subtarefas.
 
@@ -40,7 +40,7 @@ Você pode modificar o percentual concluído de uma tarefa manualmente. Isso nã
 
 O Workfront usa o percentual concluído de uma tarefa individual para calcular o percentual concluído de sua tarefa pai ou o percentual concluído do projeto.
 
-Para obter informações sobre como atualizar o percentual concluído de uma tarefa, consulte [Exibir e atualizar o Percentual Concluído das tarefas](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Para obter informações sobre como atualizar o percentual concluído de uma tarefa, consulte [Exibir e atualizar o Percentual concluído das tarefas](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ### Como o Workfront calcula a porcentagem concluída em uma tarefa pai {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

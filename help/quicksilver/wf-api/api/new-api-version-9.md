@@ -9,8 +9,8 @@ role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 20%
+source-wordcount: '179'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 ## Novos recursos
 
-Esta é uma lista de recursos novos na API versão 9. Para ver uma lista de atualizações feitas nos recursos da versão 9, visite [Atualizações da API versão 9](../../wf-api/api/new-api-version-9-updates.md)
+Esta é uma lista de recursos novos da API versão 9. Para ver uma lista de atualizações feitas nos recursos da versão 9, visite [Atualizações da API versão 9](../../wf-api/api/new-api-version-9-updates.md)
 
 ### NívelDeAcesso
 
@@ -140,4 +140,4 @@ Esta é uma lista de recursos novos na API versão 9. Para ver uma lista de atua
 
  
 
-Esta lista foi dividida em duas metades. Para ver a segunda metade, consulte [Novidades da API versão 9 (continuação)](../../wf-api/api/new-api-version-9-continue.md). Para visualizar a lista de atualizações da versão 9, visite [Atualizações da API versão 9](../../wf-api/api/new-api-version-9-updates.md)
+Esta lista foi dividida em duas metades. Para exibir a segunda metade, consulte [Novidades na API Versão 9 (continuação)](../../wf-api/api/new-api-version-9-continue.md). Para exibir a lista de atualizações da versão 9, visite [Atualizações da API Versão 9](../../wf-api/api/new-api-version-9-updates.md)

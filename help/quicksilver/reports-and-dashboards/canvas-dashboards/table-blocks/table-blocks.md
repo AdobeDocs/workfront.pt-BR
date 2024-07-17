@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Adicionar ou editar um bloco de tabela na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-* [Configurar uma coluna de tabela na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-* [Criar um campo de fórmula na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-* [Agrupar linhas de tabela na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
+* [Adicionar ou editar um bloco de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+* [Configurar uma coluna de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
+* [Criar um campo de fórmula na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
+* [Agrupar linhas da tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
 * [Filtrar uma tabela na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)

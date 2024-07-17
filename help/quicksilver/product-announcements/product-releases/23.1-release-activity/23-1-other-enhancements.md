@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as outras melhorias feitas com a versão 23.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 16 de janeiro de 2023.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte a [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Introdução à adição do Illustrator ao Adobe Workfront para design e plug-in de vídeo
 
@@ -27,13 +27,13 @@ O plug-in atualizado do, Adobe Workfront para design e vídeo, agora será compa
 
 Este plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e registre o tempo todo sem sair do seu aplicativo Creative Cloud favorito.
 
-Baixar [Adobe Workfront para design e vídeo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) no Marketplace hoje.
+Baixe hoje o [Adobe Workfront para design e vídeo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) no Marketplace.
 
-Os administradores também podem [criar um pacote com os plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) do Admin Console e implante para os usuários de maneira gerenciada ou autogerenciada.
+Os administradores também podem [criar um pacote com os plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) do Admin Console e implantar para os usuários de maneira gerenciada ou autogerenciada.
 
 ## Experiência de filtro aprimorada geralmente disponível no Adobe Workfront
 
-Uma atualização da experiência de filtro foi lançada em beta público nas listas de projetos, tarefas e problemas em agosto de 2022. A maioria das listas agora oferece os filtros aprimorados. (Para revisar todas essas listas, consulte a [Notas de versão de atualizações de aparência e comportamento do 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+Uma atualização da experiência de filtro foi lançada em beta público nas listas de projetos, tarefas e problemas em agosto de 2022. A maioria das listas agora oferece os filtros aprimorados. (Para examinar todas essas listas, consulte a [nota de versão de atualizações de aparência](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
 
 Como um &quot;acompanhamento rápido&quot; da versão 23.1, a experiência aprimorada de filtro estará disponível no geral e se tornará o construtor de filtros padrão no período de fevereiro/março de 2023.
 
@@ -47,15 +47,15 @@ Esses recursos corrigem problemas relacionados a listas de filtros com curadoria
 
 Você ainda pode acessar os filtros herdados nas listas habilitando-os no painel de filtro. Os filtros herdados serão descontinuados das listas no futuro, mas permanecerão disponíveis nos relatórios porque os filtros aprimorados não estão disponíveis nos relatórios.
 
-Para obter detalhes sobre os filtros aprimorados e uma demonstração em vídeo, consulte a [nota de versão do beta público de filtros](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Para obter detalhes sobre os filtros aprimorados e uma demonstração em vídeo, consulte a [nota de versão beta pública de filtros](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Nova funcionalidade de controle de lista em Interface > Filtros, Visualizações e Agrupamentos
 
 Adicionamos a funcionalidade de controle de lista às páginas Filtros, Exibições e Agrupamentos na área Configuração. Lá, você pode ativar ou desativar filtros, visualizações e agrupamentos para o Modelo de layout.
 
-Para obter mais informações, consulte [Criar, editar e compartilhar filtros, visualizações e agrupamentos padrão](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+Para obter mais informações, consulte [Criar, editar e compartilhar filtros, exibições e agrupamentos padrão](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
 ## Apresentação do Adobe Workfront para design e vídeo
 
@@ -65,9 +65,9 @@ O plug-in atualizado do, Adobe Workfront para design e vídeo, agora oferecerá 
 
 Este plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e registre o tempo todo sem sair do seu aplicativo Creative Cloud favorito.
 
-Baixar [Adobe Workfront para design e vídeo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) no mercado hoje.
+Baixe hoje o [Adobe Workfront para design e vídeo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) no marketplace.
 
-Os administradores também podem [criar um pacote com os plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) do Admin Console e implante para os usuários de maneira gerenciada ou autogerenciada.
+Os administradores também podem [criar um pacote com os plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) do Admin Console e implantar para os usuários de maneira gerenciada ou autogerenciada.
 
 ## Como acessar a ajuda do Workfront para clientes no Adobe Unified Experience
 
@@ -94,6 +94,6 @@ As seguintes atualizações estão disponíveis para marcadores:
 
 As opções para renomear um pino e remover um pino são exibidas em um menu suspenso quando você passa o mouse sobre o pino.
 
-Para obter mais informações, consulte [Fixar páginas para personalizar o espaço de trabalho](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+Para obter mais informações, consulte [Fixar páginas para personalizar seu espaço de trabalho](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412389/){target=_blank}

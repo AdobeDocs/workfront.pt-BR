@@ -9,8 +9,8 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 38%
+source-wordcount: '538'
+ht-degree: 34%
 
 ---
 
@@ -66,9 +66,9 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em valores possíveis
 
-<sup>2</sup> Atributo hasFilters alterado para true
+<sup>2</sup> atributo hasFilters alterado para verdadeiro
 
  
 
@@ -86,7 +86,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 <sup>1</sup> Validação de data adicionada
 
-<sup>2</sup> Sinalizador NOT_FILTERABLE adicionado
+<sup>2</sup> sinalizador NOT_FILTERABLE adicionado
 
  
 
@@ -110,7 +110,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em valores possíveis
 
  
 
@@ -127,13 +127,13 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 | isPrivate |   |   |   |   |   | Pesquisar |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name<sup>2</sup> |   |   |   |   |   |   |
+| nome<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterado para Reportável
+<sup>1</sup> alterado para reportável
 
-<sup>2</sup> Validador de comprimento máximo adicionado
+<sup>2</sup> Adicionou O Validador De Comprimento Máximo
 
  
 
@@ -196,7 +196,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> sinalizador de campo NO_TIME adicionado
+<sup>1</sup> adicionou sinalizador de campo NO_TIME
 
 ### Evento de burndown 
 
@@ -251,7 +251,7 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterado o validador PRECISION de 8 para 9
+<sup>1</sup> alterou o validador PRECISION de 8 para 9
 
  
 
@@ -273,7 +273,7 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em valores possíveis
 
  
 
@@ -285,7 +285,7 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Sinalizado como RESTORÁVEL
+<sup>1</sup> sinalizado como RESTORÁVEL
 
 <sup>2</sup> Sinalizador Not_Filterable Adicionado
 
@@ -304,7 +304,7 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
+<sup>1</sup> sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
 
 <sup>2</sup> Sinalizador Not_Filterable Adicionado
 
@@ -319,9 +319,9 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Sinalizado como RESTORÁVEL
+<sup>1</sup> sinalizado como RESTORÁVEL
 
-<sup>2</sup> Validador AT_DATE_YEAR_BEFORE adicionado
+<sup>2</sup> validador AT_DATE_YEAR_BEFORE adicionado
 
 <sup>3</sup> Sinalizador Not_Filterable Adicionado
 
@@ -346,7 +346,7 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
+<sup>1</sup> sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
 
 ### Modelo de Tarefa<sup>1</sup> 
 
@@ -356,7 +356,7 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Sinalizado como RESTORÁVEL
+<sup>1</sup> sinalizado como RESTORÁVEL
 
 <sup>2</sup> Sinalizador Not_Filterable Adicionado
 
@@ -370,7 +370,7 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Violadores de MAX_LENGTH
+<sup>1</sup> violadores de MAX_LENGTH
 
  
 

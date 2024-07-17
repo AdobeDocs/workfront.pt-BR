@@ -1,5 +1,5 @@
 ---
-title: Formulários personalizados no meu grupo
+title: Formulários personalizados
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -27,6 +27,6 @@ Não há limite para o número de formulários personalizados que você pode cri
 
 Esta seção contém os seguintes artigos:
 
-* [Visão geral de formulários personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+* [Visão geral dos formulários personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
 * [Construtor de formulários personalizados herdados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [Designer de formulários](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)

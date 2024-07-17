@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 
@@ -22,11 +22,11 @@ Você pode exibir as seguintes informações da ocorrência original em uma exib
 * Data de entrada do problema convertido
 * Nome do originador do problema convertido
 
-Para obter informações sobre como criar uma visualização usando o Report Builder padrão, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obter informações sobre como criar uma exibição usando o Report Builder padrão, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
+![tarefa_e_projeto_lista_com_problema_original_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Para obter mais informações sobre como incluir informações adicionais sobre problemas em projetos e listas de tarefas, consulte também [Exibir: detalhes de problemas de origem para tarefas e projetos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Para obter mais informações sobre como incluir informações adicionais de problemas em projetos e listas de tarefas, consulte também [Exibir: detalhes de problemas de origem para tarefas e projetos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

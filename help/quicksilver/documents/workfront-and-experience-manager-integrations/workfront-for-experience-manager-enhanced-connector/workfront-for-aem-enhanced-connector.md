@@ -17,8 +17,8 @@ ht-degree: 0%
 # Conector aprimorado do Workfront para Experience Manager
 
 * [Visão geral do conector aprimorado do Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-* [Visão geral dos metadados do conector aprimorado Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+* [visão geral dos metadados do conector aprimorado do Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
 * [Vincular ativos e pastas ao conector aprimorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
-* [Enviar um documento com o conector aprimorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
-* [Criar uma prova de um ativo vinculado com o conector aprimorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [Enviar um Documento com o conector aprimorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
+* [Faça uma prova de um ativo vinculado com o conector aprimorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Exibir ou baixar um ativo vinculado com o conector aprimorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)

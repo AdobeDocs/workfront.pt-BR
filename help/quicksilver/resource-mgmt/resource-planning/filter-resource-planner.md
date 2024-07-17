@@ -49,7 +49,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou superiores para projetos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou superiores para projetos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 ## Visão geral dos filtros do Planejador de recursos
 
-Para minimizar a quantidade de informações exibidas no Planejador de recursos, o Adobe Workfront fornece um Filtro padrão com critérios pré-configurados. Para obter informações sobre o Filtro padrão, consulte a seção [Visão geral do filtro padrão no Planejador de recursos](#overview-of-the-default-filter-in-the-resource-planner) neste artigo.
+Para minimizar a quantidade de informações exibidas no Planejador de recursos, o Adobe Workfront fornece um Filtro padrão com critérios pré-configurados. Para obter informações sobre o Filtro Padrão, consulte a seção [Visão Geral do Filtro Padrão no Planejador de Recursos](#overview-of-the-default-filter-in-the-resource-planner) neste artigo.
 
 Também é possível criar filtros personalizados. Para obter informações sobre como personalizar filtros no Planejador de recursos, consulte a seção [Criar filtros do Planejador de recursos](#create-resource-planner-filters) neste artigo.
 
@@ -67,7 +67,7 @@ Considere o seguinte ao usar filtros no Planejador de recursos:
 * Os filtros que você criar estarão visíveis apenas para você. É possível compartilhar filtros para disponibilizá-los a outros usuários.
 * Como administrador do Workfront, você só pode ver os filtros criados ou compartilhados com você.
 * Os resultados filtrados não são alterados quando você seleciona uma visualização diferente para o Planejador de recursos.\
-  Para mais informações sobre como alterar a visualização no Planejador de recursos, veja a seção de seleção &quot;Projeto/ Função/ Visão do usuário&quot; em [Visão geral da navegação do Planejador de recursos](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Para obter mais informações sobre como alterar a exibição no Planejador de recursos, consulte a seção de seleção &quot;Projeto/ Função/ Usuário&quot; na [Visão geral da navegação do Planejador de recursos](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 * A aplicação de um filtro não altera os dados de alocação e disponibilidade no Planejador de recursos para projetos, funções ou usuários. Um filtro altera somente o número de objetos que você vê no Planejador de recursos.
 * A filtragem se aplica a todos os objetos exibidos no Planejador de recursos ao mesmo tempo. Por exemplo, se você filtrar por um usuário específico, o Planejador de recursos exibirá apenas os seguintes resultados:
@@ -78,7 +78,7 @@ Considere o seguinte ao usar filtros no Planejador de recursos:
 
 ## Visão geral do filtro padrão no Planejador de recursos {#overview-of-the-default-filter-in-the-resource-planner}
 
-Quando você abre o Planejador de recursos pela primeira vez, o Workfront aplica o filtro Padrão. É possível editar o filtro Padrão para filtrar apenas os itens que deseja exibir. Para obter informações sobre como modificar filtros, consulte a seção [Editar um filtro no Planejador de recursos](#edit-a-filter-in-the-resource-planner) neste artigo.
+Quando você abre o Planejador de recursos pela primeira vez, o Workfront aplica o filtro Padrão. É possível editar o filtro Padrão para filtrar apenas os itens que deseja exibir. Para obter informações sobre como modificar filtros, consulte a seção [Editar um filtro no Planejador de Recursos](#edit-a-filter-in-the-resource-planner) neste artigo.
 
 Considere o seguinte ao usar o filtro Padrão:
 
@@ -108,7 +108,7 @@ Considere o seguinte ao usar o filtro Padrão:
 A criação de um filtro no Planejador de recursos é idêntica para todas as exibições.
 
 Verifique se os pré-requisitos para exibir as informações corretas no Planejador de recursos estão em vigor antes de criar um filtro.\
-Para obter informações sobre como atender aos pré-requisitos necessários para trabalhar com o Planejador de Recursos, consulte a seção &quot;Pré-requisitos para trabalhar no Planejador de Recursos&quot; na [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md) artigo.
+Para obter informações sobre como atender aos pré-requisitos necessários para trabalhar com o Planejador de recursos, consulte a seção &quot;Pré-requisitos para trabalhar no Planejador de recursos&quot; no artigo [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Considere o seguinte ao criar um filtro:
 
@@ -117,39 +117,39 @@ Considere o seguinte ao criar um filtro:
 
 Para criar um filtro no Planejador de recursos:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
 1. Clique em **Recursos**.
 
-   A variável **Planejador** é exibido por padrão.
+   O **Planejador** é exibido por padrão.
 
-   Por padrão, na primeira vez que você acessar o Planejador de recursos, a variável <strong>Filtro padrão</strong> é aplicada.<br>Para obter mais informações sobre o filtro Padrão, consulte o <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Visão geral do filtro padrão no Planejador de recursos</a> neste artigo.
+   Por padrão, na primeira vez que você acessa o Planejador de recursos, o <strong>Filtro padrão</strong> é aplicado.<br>Para obter mais informações sobre o filtro Padrão, consulte a <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Visão Geral do Filtro Padrão na seção Planejador de Recursos</a> neste artigo.
 
-1. No canto superior esquerdo da, clique na guia **Filtro** ícone.\
-   ![filter_icon.png](assets/filter-icon.png)\
+1. No canto superior esquerdo do, clique no ícone **Filtro**.\
+   ![ícone_de_filtro.png](assets/filter-icon.png)\
    Ou\
-   Expanda a **Filtro** e clique em **Adicionar novo filtro**.\
+   Expanda o menu suspenso **Filtro** e clique em **Adicionar Novo Filtro**.\
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Para criar um filtro usando os critérios internos, especifique qualquer um dos seguintes campos:
 
-   * **Portfolio**: Comece digitando o nome do portfólio que contém as informações que você deseja incluir no Planejador de recursos e, em seguida, clique no nome quando ele aparecer na lista.\
+   * **Portfolio**: comece digitando o nome do portfólio que contém as informações que você deseja incluir no Planejador de recursos, em seguida, clique no nome quando ele aparecer na lista.\
      Repita esse processo para incluir informações de vários portfólios.
 
-   * **Status do projeto**: expanda o menu suspenso Status do projeto e selecione um ou vários status de projeto disponíveis na lista.
+   * **Status do Projeto**: expanda o menu suspenso Status do Projeto e selecione um ou vários status de projeto disponíveis na lista.
    * **Equipe**: comece a digitar o nome de uma ou várias equipes associadas aos usuários atribuídos às tarefas nos projetos que você deseja exibir.
    * **Função de trabalho**: comece a digitar o nome de uma ou várias funções de trabalho associadas aos usuários atribuídos às tarefas nos projetos que você deseja exibir.
-   * **Pools**: comece digitando o nome de um ou vários Conjuntos de Recursos associados aos projetos (para a Exibição de Projetos), aos usuários (para a Exibição de Usuários) ou associados aos projetos e aos usuários (para a Exibição de Funções) que você deseja exibir.
-   * **Grupo**: comece digitando o nome de um ou vários grupos associados aos usuários (no modo de exibição Usuário) ou projetos (nos modos de exibição Projeto e Função) que você deseja visualizar.
+   * **Pools**: comece a digitar o nome de um ou vários Pools de Recursos associados aos projetos (para o Modo de Exibição de Projeto), aos usuários (para o Modo de Exibição de Usuário) ou associados aos projetos e usuários (para o Modo de Exibição de Função) que você deseja exibir.
+   * **Grupo**: comece a digitar o nome de um ou vários grupos associados aos usuários (no modo de exibição Usuário) ou projetos (nos modos de exibição Projeto e Função) que você deseja exibir.
 
-1. Clique em **Adicionar Regra de Filtro**, em seguida, comece digitando o nome do campo pelo qual você deseja filtrar na **Digite para filtrar itens** caixa. Se o campo estiver disponível, ele será preenchido para cada objeto em que puder ser associado.
+1. Clique em **Adicionar regra de filtro** e comece a digitar o nome do campo pelo qual você deseja filtrar na caixa **Digitar para filtrar itens**. Se o campo estiver disponível, ele será preenchido para cada objeto em que puder ser associado.
 
    >[!IMPORTANT]
    >
-   >Ao fazer referência a campos personalizados, você deve digitar o nome do campo, não o rótulo do campo. O rótulo do campo é exibido em um formulário personalizado anexado a um objeto. Para obter informações sobre a diferença entre o rótulo e o nome de um campo personalizado, consulte  [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+   >Ao fazer referência a campos personalizados, você deve digitar o nome do campo, não o rótulo do campo. O rótulo do campo é exibido em um formulário personalizado anexado a um objeto. Para obter informações sobre a diferença entre o rótulo e o nome de um campo personalizado, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Clique no nome do campo para adicioná-lo ao filtro quando ele aparecer na lista.\
-   Para obter mais informações sobre os campos exibidos na lista, consulte [Glossário da terminologia do Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Para obter mais informações sobre os campos que você vê na lista, consulte [Glossário da terminologia do Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. (Opcional) Selecione o filtro e os modificadores de condição para o filtro. Os modificadores disponíveis estão descritos em [Filtro e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -157,7 +157,7 @@ Para criar um filtro no Planejador de recursos:
    Para obter informações sobre curingas aceitos em filtros, consulte [Visão geral das variáveis de filtro curinga](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 1. Clique em **Salvar** para salvar a regra de filtro.
-1. (Opcional) Clique em **Adicionar Regra de Filtro** para adicionar uma nova regra para outro objeto ou campo.
+1. (Opcional) Clique em **Adicionar regra de filtro** para adicionar uma nova regra para outro objeto ou campo.
 1. Clique em **Aplicar** para aplicar o filtro sem salvá-lo.
 
    Ou
@@ -165,7 +165,7 @@ Para criar um filtro no Planejador de recursos:
    Clique em **Salvar Filtro** para salvar o filtro.\
    ![RP_Apply_or_Save_buttons_on_filters.png](assets/rp-apply-or-save-buttons-on-filters-320x79.png)
 
-1. (Condicional) Depois de clicar em **Salvar**, especifique um nome para o filtro nas **Nome do filtro** dentro da caixa **Salvar Filtro** caixa de diálogo. Este campo é obrigatório.\
+1. (Condicional) Depois de clicar em **Salvar**, especifique um nome para o filtro na caixa **Nome do Filtro** dentro da caixa de diálogo **Salvar Filtro**. Este campo é obrigatório.\
    ![RP_new_save_filter_box_with_Save_button_without_apply.png](assets/rp-new-save-filter-box--with-save-button--without-apply-350x175.png)
 
    >[!NOTE]
@@ -188,7 +188,7 @@ Quando você ou alguém com acesso ao Planejador de recursos salva um filtro, el
 Para aplicar um filtro existente:
 
 1. Vá até o Planejador de recursos.
-1. No canto superior esquerdo, expanda a **Filtro** menu suspenso.
+1. No canto superior esquerdo, expanda o menu suspenso **Filtro**.
 
    Você pode ver os filtros que criou ou outros criados e compartilhados com você neste menu.\
    ![RP_filter_drop_down.png](assets/rp-filter-drop-down-350x152.png)
@@ -210,13 +210,13 @@ Quando você edita um filtro, ele é atualizado para todos os usuários no siste
 
 É possível alterar o nome de um filtro sem alterar seus critérios. Recomendamos informar outros usuários no sistema sobre essa alteração, pois os filtros estão visíveis para outros usuários. Essa alteração afeta as listas de filtros para todos que podem ver o Planejador de recursos.
 
-1. Vá para o Planejador de recursos e expanda a **Filtro** para selecionar um filtro salvo.
-1. Expanda a **Filtro** menu suspenso. Localize o filtro que deseja renomear e passe o mouse sobre seu nome.
-1. Selecione o **Renomear filtro** ícone ao lado do nome do filtro.
+1. Vá para o Planejador de recursos e expanda o menu suspenso **Filtro** para selecionar um filtro salvo.
+1. Expanda o menu suspenso **Filtro**. Localize o filtro que deseja renomear e passe o mouse sobre seu nome.
+1. Selecione o ícone **Renomear filtro** ao lado do nome do filtro.
 
    ![](assets/rp-filter-options-edit-350x154.png)
 
-1. Especifique um novo nome para o filtro no **Nome do filtro** caixa.
+1. Especifique um novo nome para o filtro na caixa **Nome do Filtro**.
 1. Clique em **Salvar**.\
    As informações incluídas no filtro são iguais e o nome é atualizado.
 
@@ -224,19 +224,19 @@ Quando você edita um filtro, ele é atualizado para todos os usuários no siste
 
 É possível alterar as informações incluídas em um filtro sem alterar seu nome. Recomendamos informar outros usuários no sistema sobre essa alteração, pois os filtros ficam visíveis para eles. Essa alteração afeta as listas de filtros para todos que podem ver o Planejador de recursos.
 
-1. Vá para o Planejador de recursos e expanda a **Filtro** no canto superior esquerdo.
+1. Vá para o Planejador de recursos e expanda o menu suspenso **Filtro** no canto superior esquerdo.
 1. Selecione um filtro existente que deseja editar.
-1. Clique em **Filtro** ícone.\
-   ![filter_icon.png](assets/filter-icon.png)
+1. Clique no ícone **Filtro**.\
+   ![ícone_de_filtro.png](assets/filter-icon.png)
 
 1. Adicione novos campos ao filtro.\
-   Para obter informações sobre a criação de filtros, consulte [Criar filtros do Planejador de recursos](#create-resource-planner-filters).
+   Para obter informações sobre a criação de filtros, consulte [Criar filtros do Planejador de Recursos](#create-resource-planner-filters).
 
-1. Passe o mouse sobre os campos existentes selecionados para o filtro e clique no **Editar** para selecionar outro campo, ou o campo **Excluir** ícone para excluir o campo.\
+1. Passe o mouse sobre os campos existentes selecionados para o filtro e clique no ícone **Editar** para selecionar outro campo ou no ícone **Excluir** para excluir o campo.\
    ![RP_custom_filter_delete_and_edit_icons.png](assets/rp-custom-filter-delete-and-edit-icons-350x169.png)
 
-1. (Opcional) Clique em **Adicionar Regra de Filtro** para adicionar novos campos ao filtro.\
-   Para obter mais informações sobre como definir critérios de filtro, consulte [Criar filtros do Planejador de recursos](#create-resource-planner-filters).
+1. (Opcional) Clique em **Adicionar regra de filtro** para adicionar novos campos ao filtro.\
+   Para obter mais informações sobre como definir critérios de filtro, consulte [Criar filtros do Planejador de Recursos](#create-resource-planner-filters).
 
 1. Clique em **Aplicar** para aplicar o filtro sem salvá-lo.
 
@@ -249,15 +249,15 @@ Quando você edita um filtro, ele é atualizado para todos os usuários no siste
 
 É possível duplicar um filtro existente. Os critérios de filtragem originais permanecem os mesmos no filtro duplicado e você pode salvar o novo filtro com um novo nome.
 
-1. Vá para o Planejador de recursos e expanda a **Filtro** no canto superior esquerdo.
+1. Vá para o Planejador de recursos e expanda o menu suspenso **Filtro** no canto superior esquerdo.
 1. Passe o mouse sobre o nome de um filtro salvo que deseja duplicar.
-1. Clique em **Duplicar** ícone.
+1. Clique no ícone **Duplicar**.
 
    ![](assets/rp-filter-options---duplicate-350x154.png)\
    A caixa Duplicar Filtro é exibida.
 
-1. No **Nome do filtro** especifique um novo nome para o filtro duplicado.\
-   O nome padrão do novo filtro é *`<Original Filter Name>`(copiar)*.
+1. No campo **Nome do Filtro**, especifique um novo nome para o filtro duplicado.\
+   O nome padrão do novo filtro é *`<Original Filter Name>`(cópia)*.
 
 1. Clique em **Salvar**. Um novo filtro é criado com os mesmos critérios do filtro original e com um novo nome.
 
@@ -269,20 +269,20 @@ Quando você edita um filtro, ele é atualizado para todos os usuários no siste
 
 Você pode excluir um filtro quando ele não é mais necessário. Não é possível excluir o filtro padrão.
 
-Para obter informações sobre o Filtro padrão, consulte [Visão geral do filtro padrão no Planejador de recursos](#overview-of-the-default-filter-in-the-resource-planner) neste artigo.
+Para obter informações sobre o Filtro Padrão, consulte a [Visão Geral do Filtro Padrão na seção Planejador de Recursos](#overview-of-the-default-filter-in-the-resource-planner) neste artigo.
 
 Quando você exclui um filtro, ele é excluído para todos os usuários do Workfront que têm acesso ao Planejador de recursos. Antes de removê-lo, verifique se o filtro que você deseja remover não é mais usado por outra pessoa que esteja trabalhando no Planejador de recursos. Um filtro excluído não pode ser recuperado.
 
 Para remover um filtro:
 
 1. Vá até o Planejador de recursos.
-1. Expanda a **Filtro** menu suspenso.
+1. Expanda o menu suspenso **Filtro**.
 1. Localize o filtro que deseja remover e passe o mouse sobre seu nome.
-1. Selecione o **Excluir filtro** ícone ao lado do nome do filtro.
+1. Selecione o ícone **Excluir filtro** ao lado do nome do filtro.
 
    ![](assets/rp-filter-options---delete-350x154.png)
 
-1. Clique em **Excluir** no **Excluir Filtro** caixa de diálogo.
+1. Clique em **Excluir** na caixa de diálogo **Excluir Filtro**.
 
 1. O filtro é excluído e removido do Planejador de recursos.
 
@@ -294,24 +294,24 @@ Você pode compartilhar um filtro que criou ou que tem acesso para compartilhar 
 >
 >Todos os usuários, incluindo administradores do Workfront, podem acessar somente os filtros que criaram ou que foram compartilhados com eles. Você pode compartilhar um filtro com usuários específicos para disponibilizá-lo para todos os usuários do Planejador de recursos.
 
-Para obter informações sobre o Filtro padrão, consulte [Visão geral do filtro padrão no Planejador de recursos](#overview-of-the-default-filter-in-the-resource-planner) neste artigo.
+Para obter informações sobre o Filtro Padrão, consulte a [Visão Geral do Filtro Padrão na seção Planejador de Recursos](#overview-of-the-default-filter-in-the-resource-planner) neste artigo.
 
-Para obter informações sobre filtros duplicados, consulte [Duplicação de um filtro](#duplicate-a-filter) neste artigo.
+Para obter informações sobre duplicação de filtros, consulte a seção [Duplicar um filtro](#duplicate-a-filter) neste artigo.
 
 1. Vá até o Planejador de recursos.
-1. Expanda a **Filtro** menu suspenso.
+1. Expanda o menu suspenso **Filtro**.
 1. Localize o filtro que deseja compartilhar e passe o mouse sobre seu nome.
-1. Selecione o **Compartilhar filtro** ícone ao lado do nome do filtro.
+1. Selecione o ícone **Compartilhar filtro** ao lado do nome do filtro.
 
    ![](assets/rp-filter-options---share-350x154.png)
 
    A caixa de diálogo Filtrar acesso será exibida.
 
-1. (Opcional) Para disponibilizar o filtro para todos os usuários do Planejador de recursos, clique no link **Configurações** e selecione **Tornar isto visível em todo o sistema**.
+1. (Opcional) Para disponibilizar o filtro para todos os usuários do Planejador de Recursos, clique no ícone **Configurações** e selecione **Tornar isto visível em todo o sistema**.
 
    ![](assets/make-this-visible-system-wide-350x119.png)
 
-1. No **Conceder acesso ao filtro do planejador de recursos a:** digite os nomes de usuários, equipes, funções, grupos ou empresas com os quais deseja compartilhar o filtro.
+1. Na caixa **Conceder acesso ao filtro do planejador de recursos para:**, comece a digitar os nomes de usuários, equipes, funções, grupos ou empresas com as quais deseja compartilhar o filtro.
 1. Selecione entre os seguintes níveis de permissões:
 
    * Exibir
@@ -319,12 +319,12 @@ Para obter informações sobre filtros duplicados, consulte [Duplicação de um 
 
      Para obter informações sobre permissões no Workfront, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
-1. (Opcional) Clique em **Configuração avançada** s para adicionar permissões para cada nível, selecionando-as ou remover permissões para cada nível, desmarcando-as.
+1. (Opcional) Clique em **Configuração Avançada** s para adicionar permissões para cada nível, selecionando-as ou removendo permissões para cada nível, desmarcando-as.
 
    ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. Clique em **Salvar**.
 
-   O filtro é compartilhado com as entidades selecionadas e aparece no campo **Compartilhado comigo** área.
+   O filtro é compartilhado com as entidades selecionadas e aparece na área **Compartilhado comigo**.
 
    ![](assets/rp-shared-with-me-area.png)

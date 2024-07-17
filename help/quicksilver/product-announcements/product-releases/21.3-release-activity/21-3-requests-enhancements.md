@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias nas Solicitações feitas com a versão 21.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 21 de julho de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.3, consulte [21.3 Visão geral da versão](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.3, consulte a [Visão geral da versão 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Localizar solicitações por caminhos recentes ou pesquisando usando uma palavra-chave
 

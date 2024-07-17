@@ -21,7 +21,7 @@ Você pode vincular manualmente a resolução de um problema à resolução de u
 >
 >Ao vincular a resolução de uma ocorrência à resolução de outro objeto, não é mais possível editar manualmente o status da ocorrência original.
 
-Para obter mais informações sobre resolução e objetos resolvíveis, consulte [Visão Geral de Objetos Resolventes e Resolvíveis](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Para obter mais informações sobre resolução e objetos resolvíveis, consulte [Visão Geral de Objetos Resolvíveis e Resolvíveis](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Requisitos de acesso
 
@@ -45,12 +45,12 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerencie permissões para o problema que você vincula a outro problema, tarefa ou projeto</p> <p>Visualize ou aumente as permissões para o problema, tarefa ou projeto que você adiciona ao problema existente</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerencie permissões para o problema que você vincula a outro problema, tarefa ou projeto</p> <p>Visualize ou aumente as permissões para o problema, tarefa ou projeto que você adiciona ao problema existente</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -63,11 +63,11 @@ Antes de começar, você deve:
 ## Vincular a resolução de um problema à resolução de outro problema, tarefa ou projeto
 
 1. Navegue até uma ocorrência cuja resolução você deseja vincular à resolução de outra ocorrência ou à resolução de uma tarefa ou projeto.
-1. Clique em **Detalhes do problema** no painel esquerdo, expanda a variável **Visão geral** área.
+1. Clique em **Detalhes do problema** no painel esquerdo e expanda a área **Visão geral**.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Clique em **Resolvido por** e selecione entre os seguintes tipos de objetos de resolução:
+1. Clique no campo **Resolvido por** e selecione um dos seguintes tipos de objetos de resolução:
 
    * **Projeto**
    * **Tarefa**
@@ -75,11 +75,11 @@ Antes de começar, você deve:
 
    Dependendo do objeto selecionado, os seguintes campos serão exibidos:
 
-   * **Resolvendo projeto**
+   * **Resolvendo Projeto**
    * **Resolvendo tarefa**
    * **Resolvendo problema**
 
-1. Comece digitando o nome de um projeto, tarefa ou problema específico na **Resolvendo projeto**, **Tarefa** ou **Problema** e, em seguida, clique nele quando ele aparecer na lista.
+1. Comece digitando o nome de um projeto, tarefa ou problema específico no campo **Resolvendo Projeto**, **Tarefa** ou **Problema**, e clique nele quando ele aparecer na lista.
 
    >[!NOTE]
    >

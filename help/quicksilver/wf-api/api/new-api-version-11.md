@@ -9,15 +9,15 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 2%
 
 ---
 
 # Novidades da API versão 11
 
-* [Recursos adicionados](#added-resources)
-* [Recursos removidos](#removed-resources)
+* [Recursos Adicionados](#added-resources)
+* [Recursos Removidos](#removed-resources)
 * [Recursos modificados](#modified-resources)
 
 ## Recursos adicionados {#added-resources}
@@ -235,8 +235,8 @@ Nenhum recurso foi removido para a API v11.
    <td> 
     <ul> 
      <li><a href="#accesslevelpermissions" class="MCXref xref">PermissõesDeNívelDeAcesso</a> </li> 
-     <li><a href="#accessrequest" class="MCXref xref">Solicitação de acesso</a> </li> 
-     <li><a href="#accessrule" class="MCXref xref">Regra de acesso</a> </li> 
+     <li><a href="#accessrequest" class="MCXref xref">SolicitaçãoDeAcesso</a> </li> 
+     <li><a href="#accessrule" class="MCXref xref">RegraDeAcesso</a> </li> 
      <li><a href="#approval" class="MCXref xref">Aprovação</a> </li> 
      <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
      <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
@@ -253,16 +253,16 @@ Nenhum recurso foi removido para a API v11.
      <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
      <li><a href="#document" class="MCXref xref">Documento</a> </li> 
      <li><a href="#iteration" class="MCXref xref">Iteração</a> </li> 
-     <li><a href="#layout-template" class="MCXref xref">Modelo de Layout</a> </li> 
+     <li><a href="#layout-template" class="MCXref xref">Modelo de layout</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">CaminhoEtapas</a> </li> 
      <li><a href="#note" class="MCXref xref">Nota</a> </li> 
-     <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
+     <li><a href="#optask" class="MCXref xref">TarefaOp</a> </li> 
      <li><a href="#parameter" class="MCXref xref">Parâmetro</a> </li> 
-     <li><a href="#portfolio" class="MCXref xref">Portfólio</a> </li> 
+     <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">Programa</a> </li> 
      <li><a href="#project" class="MCXref xref">Projeto</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">AprovaçãoDaProva</a> </li> 
-     <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">AprovaçãoDeProva</a> </li> 
+     <li><a href="#queuedef" class="MCXref xref">DefiniçãoDaFila</a> </li> 
      <li><a href="#reservedtime" class="MCXref xref">TempoReservado</a> </li> 
     </ul> </td> 
    <td> 
@@ -277,10 +277,10 @@ Nenhum recurso foi removido para a API v11.
      <li><a href="#templateassignment" class="MCXref xref">AtribuiçãoModelo</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TarefaModelo</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Planilha de horas</a> </li> 
-     <li><a href="#update" class="MCXref xref">Atualizar</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Atualização</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
-     <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
+     <li><a href="#usernote" class="MCXref xref">AnotaçãoUsuário</a> </li> 
      <li><a href="#work" class="MCXref xref">Trabalho </a> </li> 
     </ul> </td> 
   </tr> 

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade de versão final Beta 2018.2
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta Final 2018.2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 20 de junho de 2018. Ele estará disponível no ambiente de Produção em julho de 2018.
+title: Atividade de versão final do Beta 2018.2
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 20 de junho de 2018. Ele estará disponível no ambiente de Produção em julho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# Atividade de versão final Beta 2018.2
+# Atividade de versão final do Beta 2018.2
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta Final 2018.2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 20 de junho de 2018. Ele estará disponível no ambiente de Produção em julho de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão final do Beta 2018.2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 20 de junho de 2018. Ele estará disponível no ambiente de Produção em julho de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte  [Visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte  Visão geral da atividade da versão [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Os novos recursos a seguir serão lançados na versão de produção 18.2:
 
-* [Especificar serviços de entrega de e-mail para responder às notificações por e-mail do Workfront](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
-* [Receber notificações por e-mail para comentários em documentos](#receive-email-notifications-for-comments-on-documents)
-* [As atualizações rastreadas pelo sistema não contêm mais um ícone](#system-tracked-updates-no-longer-contain-an-icon)
+* [Especifique os Serviços de Entrega de Email para Responder às Notificações por Email do Workfront](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
+* [Receber Notificações por Email para Comentários em Documentos](#receive-email-notifications-for-comments-on-documents)
+* [As Atualizações Rastreadas pelo Sistema Não Contêm Mais Ícone](#system-tracked-updates-no-longer-contain-an-icon)
 * [A opção de converter um comentário em uma tarefa foi removida](#option-to-convert-a-comment-to-a-task-was-removed)
 * [Workfront para Salesforce](#workfront-for-salesforce)
 * [Workfront para melhorias de Slack](#workfront-for-slack-improvements)
@@ -93,7 +93,7 @@ As seguintes notificações do Workfront também podem ser configuradas para ser
 
 Antes dessa melhoria, não era possível receber notificações do Workfront no Slack.
 
-Para obter mais informações sobre notificações Workfront no Slack, consulte [Receber notificações do Adobe Workfront no Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Para obter mais informações sobre notificações Workfront no Slack, consulte [Receber notificações Adobe Workfront no Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Melhorias na mobilidade {#mobile-improvements}
 
@@ -113,10 +113,10 @@ Os novos recursos a seguir serão lançados para as lojas móveis no momento da 
 
   Esse recurso só estará disponível para o aplicativo móvel do iOS.
 
-Os seguintes recursos já foram lançados para a versão Android Beta do aplicativo móvel Workfront e também estão sendo lançados para os aplicativos móveis públicos Android e iOS. A experiência da plataforma iOS contém as seguintes diferenças em relação à experiência já lançada do Android:
+Os seguintes recursos já foram lançados para a versão Android Beta do aplicativo móvel do Workfront e também estão sendo lançados para os aplicativos móveis públicos Android e iOS. A experiência da plataforma iOS contém as seguintes diferenças em relação à experiência do Android já lançada:
 
 * Nova barra de navegação inferior para o iOS 
 
 * Nova experiência tutorial para o iOS 
 
-Para obter mais informações sobre esses recursos e assistir a vídeos demonstrando eles, consulte [Atividade da versão Beta 4 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) e [Atividade da versão Beta 5 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+Para obter mais informações sobre esses recursos e assistir a vídeos que os demonstram, consulte [atividade da versão 2018.2 do Beta 4](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) e [atividade da versão 2018.2 do Beta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).

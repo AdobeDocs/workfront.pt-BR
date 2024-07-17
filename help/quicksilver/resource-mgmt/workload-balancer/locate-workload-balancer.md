@@ -33,7 +33,7 @@ Este artigo descreve as áreas em que você pode acessar o Balanceador de carga 
 >Para obter informações sobre o Balanceador de carga de trabalho e como usá-lo para gerenciar e programar seus recursos para trabalho, consulte os seguintes artigos:
 >
 >* [Visão geral do Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
->* [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+>* [Navegar pelo Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 >
@@ -70,7 +70,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou permissões superiores para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou permissões superiores para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,21 +83,21 @@ As seções a seguir ilustram onde você pode acessar o Balanceador de carga de 
 
 ### Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png)e, em seguida, clique em **Recursos**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Recursos**.
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
    ![](assets/nwe-balancer-global.png)
 
    O Balanceador de carga de trabalho exibe as seguintes informações na área Recursos, por padrão:
 
-   * **Trabalho não atribuído**: Nenhum item de trabalho não atribuído.
+   * **Trabalho não atribuído**: nenhum item de trabalho não atribuído.
    * **Trabalho atribuído**: todos os usuários ativos no sistema.
 
-     Recomendamos o uso de filtros ao exibir usuários na área Trabalho atribuído. Para obter mais informações, consulte [Filtrar informações no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
+     Recomendamos o uso de filtros ao exibir usuários na área Trabalho atribuído. Para obter mais informações, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Acessar o Balanceador de carga de trabalho de uma equipe
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png)e, em seguida, clique em Equipes.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em Equipes.
 A página da sua equipe inicial é exibida.
 
    O Balanceador de carga de trabalho da equipe é exibido por padrão.
@@ -117,9 +117,9 @@ A página da sua equipe inicial é exibida.
 
 ### Acessar o Balanceador de carga de trabalho de um projeto
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png)e, em seguida, clique em **Projetos**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Projetos**.
 1. Clique no nome de um projeto para abrir a página.
-1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais**, depois **Balanceador de carga de trabalho**.
+1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Balanceador de Carga de Trabalho**.
 
    O Balanceador de carga de trabalho do projeto é exibido.
 
@@ -132,7 +132,7 @@ A página da sua equipe inicial é exibida.
 
      >[!TIP]
      >
-     >Você pode exibir todos os usuários no sistema em vez de somente os do projeto (na área Trabalho atribuído ) ativando a opção Mostrar todos os usuários. Para obter informações, consulte [Navegar pelo Balanceador de carga de trabalho](../workload-balancer/navigate-the-workload-balancer.md).
+     >Você pode exibir todos os usuários no sistema em vez de somente os do projeto (na área Trabalho atribuído ) ativando a opção Mostrar todos os usuários. Para obter informações, consulte [Navegar pelo Balanceador de Carga de Trabalho](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## Adicionar o Balanceador de carga de trabalho a uma seção personalizada
@@ -148,7 +148,7 @@ A maioria das personalizações já aplicadas ao Balanceador de carga de trabalh
    * Um projeto
 
 1. Obtenha um link compartilhável e copie-o para a área de transferência conforme descrito em [Compartilhar o Balanceador de carga de trabalho com um link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
-1. Crie um painel com uma página externa, conforme descrito em [Incorporar uma página externa da Web em um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Use o link compartilhável obtido na Etapa 2 para a página externa.
+1. Crie um painel com uma página externa conforme descrito em [Incorporar uma página da Web externa em um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Use o link compartilhável obtido na Etapa 2 para a página externa.
 
    <!--
       (NOTE: ensure this stays correct)
@@ -162,7 +162,7 @@ A maioria das personalizações já aplicadas ao Balanceador de carga de trabalh
       (NOTE: ensure this stays correct)
      -->
 
-1. (Opcional) Compartilhe a guia personalizada em um modelo de layout, conforme descrito em  [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (Opcional) Compartilhe a guia personalizada em um Modelo de layout conforme descrito em [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
 <!--

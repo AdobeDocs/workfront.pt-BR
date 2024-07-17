@@ -18,17 +18,17 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Ao gerenciar atribuições de tarefas e problemas, você pode usar atribuições inteligentes para identificar quem é o melhor recurso para concluir o trabalho. As atribuições inteligentes são sugestões que o Adobe Workfront apresenta ao atribuir itens de trabalho a recursos com base em um algoritmo que determina o recurso mais apropriado para o trabalho. As atribuições inteligentes podem ser usuários, funções de trabalho ou equipes.
 
 >[!NOTE]
 >
->Ao sugerir usuários, as atribuições inteligentes não levam em conta a disponibilidade do usuário. No entanto, sua disponibilidade de acordo com seus agendamentos afeta as Datas Planejadas e Projetadas das tarefas e problemas quando são atribuídas. Para obter informações sobre cronogramas, consulte o artigo [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Ao sugerir usuários, as atribuições inteligentes não levam em conta a disponibilidade do usuário. No entanto, sua disponibilidade de acordo com seus agendamentos afeta as Datas Planejadas e Projetadas das tarefas e problemas quando são atribuídas. Para obter informações sobre agendamentos, consulte o artigo [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Este artigo contém informações gerais sobre atribuições inteligentes. Para obter informações sobre como usar atribuições inteligentes para atribuir tarefas e problemas a usuários, consulte [Fazer atribuições inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
@@ -53,7 +53,7 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* <span class="preview">Um cabeçalho de tarefa no campo Assignments</span>
+* <span class="preview">Um cabeçalho de tarefa no campo Atribuições</span>
 
   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
@@ -65,7 +65,7 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* <span class="preview">O campo Atribuições na caixa Nova tarefa, ao adicionar uma tarefa a um projeto</span>
+* <span class="preview">O campo Atribuições na caixa Nova Tarefa, ao adicionar uma tarefa a um projeto</span>
 
   <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
@@ -124,7 +124,7 @@ O cálculo da pontuação de similaridade e a ordem na qual as atribuições sã
 
   Por exemplo, se Rick foi designado a uma tarefa semelhante hoje e Jennifer foi designada a uma tarefa semelhante dois dias atrás, Rick aparece primeiro.
 
-* As atribuições identificadas nesta fase estão listadas no    **Atribuições sugeridas**  seção do campo Assignments para tarefas.
+* As atribuições identificadas nesta fase estão listadas no    Seção **Atribuições sugeridas** do campo Atribuições para tarefas.
 
 * Se não houver correspondências usando esse cálculo, a segunda fase das atribuições inteligentes começa, que é calculada usando um algoritmo diferente.
 
@@ -134,7 +134,7 @@ Se a primeira etapa das atribuições inteligentes de tarefas não encontrar cor
 
 Para obter mais informações, consulte a seção [Critérios de atribuições inteligentes para tarefas e problemas](#smart-assignments-criteria-for-tasks-and-issues) neste artigo.
 
-As atribuições identificadas nesta fase estão listadas no **Usuários e equipes**, **Atribuições de funções de trabalho**, e **Avaliar funções de cartão**  seções do campo Assignments. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+As atribuições identificadas nesta fase estão listadas nas seções **Usuários e equipes**, **Atribuições de funções de trabalho** e **Funções de cartão de taxa** do campo Atribuições. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Critérios de atribuições inteligentes para tarefas e problemas
 
@@ -142,7 +142,7 @@ As atribuições identificadas nesta fase estão listadas no **Usuários e equip
 
 >[!NOTE]
 >
-><span class="preview">Os critérios a seguir se aplicam às tarefas somente quando a primeira fase do cálculo de atribuição inteligente de tarefa não encontrou correspondências. Para obter informações, consulte a seção [Primeira fase do cálculo de atribuição inteligente para tarefas](#first-phase-of-smart-assignment-calculation-for-tasks) neste artigo. Os critérios a seguir sempre se aplicam a problemas, por padrão. </span>
+><span class="preview">Os critérios a seguir se aplicam às tarefas somente quando a primeira fase do cálculo de atribuição inteligente de tarefa não encontrou nenhuma correspondência. Para obter informações, consulte a seção [Primeira fase do cálculo de atribuição inteligente para tarefas](#first-phase-of-smart-assignment-calculation-for-tasks) neste artigo. Os critérios a seguir sempre se aplicam a problemas, por padrão. </span>
 
 <span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 

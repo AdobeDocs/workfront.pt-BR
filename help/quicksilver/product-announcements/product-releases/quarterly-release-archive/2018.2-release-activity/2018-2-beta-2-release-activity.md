@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 2 de 2018.2
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 Beta 2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 5 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
+title: Atividade da versão 2018.2 do Beta 2
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 5 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 2 de 2018.2
+# Atividade da versão 2018.2 do Beta 2
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 Beta 2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 5 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.2 do Beta 2. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 5 de abril de 2018. Ele estará disponível no ambiente de Produção em junho de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.2, consulte  [Visão geral da atividade da versão 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.2, consulte  Visão geral da atividade da versão [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-A versão Beta 2 de 2018.2 contém as seguintes melhorias:
+A versão 2018.2 do Beta 2 contém as seguintes melhorias:
 
-* [Editar campos diretamente da área inicial](#edit-fields-directly-from-the-home-area)
+* [Editar Campos Diretamente da Área Inicial](#edit-fields-directly-from-the-home-area)
 * [Registrar Tempo em Dias](#log-time-in-days)
 * [Exibir Relações de Predecessoras entre Projetos no Gráfico de Gantt em uma Lista de Projetos](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
-* [Usar o custo orçado no Portfolio Otimizer para calcular as finanças do Portfolio](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
-* [Relatório de Utilização: Preenche Horas Orçadas da Nova Área de Orçamento de Recursos](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (Somente visualização)
+* [Usar custo orçado no Otimizador de Portfolio para calcular as finanças do Portfolio](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
+* [Relatório de utilização: preenche as horas orçadas da nova área de orçamento de recursos](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (somente visualização)
 
-* [Relatório de Utilização: Exibir Horas Orçadas por Usuário em um Projeto](#utilization-report-view-budgeted-hours-by-user-on-a-project) (Somente visualização)
+* [Relatório de Utilização: Exibir Horas Orçadas por Usuário em um Projeto](#utilization-report-view-budgeted-hours-by-user-on-a-project) (Somente Visualização)
 
-* [Progresso da prova na lista de documentos disponível para usuários que não fazem provas](#proof-progress-from-the-document-list-available-to-non-proofing-users)
+* [Progresso da Prova da Lista de Documentos Disponível para Usuários que Não Fazem Prova](#proof-progress-from-the-document-list-available-to-non-proofing-users)
 * [Melhorias na mobilidade](#mobile-improvements)
 
 ## Editar campos diretamente da área inicial {#edit-fields-directly-from-the-home-area}
@@ -43,7 +43,7 @@ Agora, ao selecionar um objeto na área Página inicial, você pode editar os ca
 
 Antes dessa alteração, as informações só podiam ser visualizadas na área da Página inicial, não editadas.
 
-Para obter mais informações, consulte [Atualizar ou editar um item de trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) no artigo  [Atualizar ou editar um item de trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+Para obter mais informações, consulte o artigo [Atualizar ou editar um item de trabalho na Área da página inicial](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)  [Atualize ou edite um item de trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 
 ## Registrar Tempo em Dias {#log-time-in-days}
 
@@ -53,7 +53,7 @@ Antes dessa alteração, os usuários podiam registrar horas somente em horas.
 
 É possível definir essa configuração editando o perfil do usuário. Para obter mais informações, consulte [Configurar se a hora está conectada em horas ou dias](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 
-Para obter informações sobre como os usuários podem registrar horas em dias após a atualização dessa configuração, consulte [Registrar tempo](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obter informações sobre como os usuários podem registrar horas em dias após a atualização dessa configuração, consulte [Registrar horas](../../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Exibir Relações de Predecessoras entre Projetos no Gráfico de Gantt em uma Lista de Projetos {#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects}
 
@@ -78,7 +78,7 @@ Anteriormente, o novo e o Legacy Portfolio Otimizer usavam o Custo orçado herda
 
 Também adicionamos dois novos campos aos Campos financeiros Portfolio: ROI herdado e Valor líquido herdado para capturar os novos valores das novas ferramentas de gerenciamento de recursos.
 
-Para obter mais informações, consulte [Visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) no artigo  [Visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Para obter mais informações, consulte a [visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) no artigo  [Visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Relatório de Utilização: Preenche Horas Orçadas da Nova Área de Orçamento de Recursos {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +90,7 @@ As horas orçadas no Relatório de utilização agora são preenchidas com base 
 
 Antes dessa alteração, eram usadas informações da área Estimativas de recursos herdada.
 
-Para obter mais informações, consulte [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) no artigo  [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) no artigo  [Visão geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Relatório de Utilização: Exibir Horas Orçadas por Usuário em um Projeto {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -102,7 +102,7 @@ O relatório de Utilização em um projeto agora exibe Horas orçadas por usuár
 
 Antes dessa alteração, o relatório de Utilização exibia as Horas Orçadas somente por função de trabalho. 
 
-Para obter mais informações, consulte [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) no artigo [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) no artigo [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Progresso da prova na lista de documentos disponível para usuários que não fazem provas {#proof-progress-from-the-document-list-available-to-non-proofing-users}
 
@@ -110,7 +110,7 @@ Indicadores de progresso de prova (Enviado, Aberto, Comentários Feitos e Decis�
 
 Antes dessa alteração, os indicadores de progresso de prova estavam disponíveis somente para usuários que podiam gerar provas.
 
-Para obter mais informações, consulte [Visão geral do progresso e do status da prova](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+Para obter mais informações, consulte [Progresso da prova e visão geral do status](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 
 ## Melhorias na mobilidade {#mobile-improvements}
 

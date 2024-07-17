@@ -73,16 +73,16 @@ Por exemplo, você pode calcular a diferença entre a Data de conclusão planeja
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Ir para uma lista de tarefas.
-1. No **Exibir** clique em **Nova visualização**.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
 
-1. Clique em **Adicionar coluna** e comece digitando &quot;Data de conclusão planejada&quot; na caixa **Mostrar nesta coluna** e selecione-o quando ele for exibido na lista.
+1. Clique em **Adicionar coluna** e comece a digitar &quot;Data de conclusão planejada&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-a quando ela for exibida na lista.
 
-1. Clique em **Adicionar coluna** e comece digitando &quot;Data de conclusão efetiva&quot; na caixa **Mostrar nesta coluna** e selecione-o quando ele for exibido na lista.
+1. Clique em **Adicionar coluna** e comece a digitar &quot;Data de Término Efetivo&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-a quando ela for exibida na lista.
 
-1. Clique em **Adicionar coluna** e, em seguida, clique em **Alternar para modo de texto**.
+1. Clique em **Adicionar Coluna** e em **Alternar para Modo de Texto**.
 
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
-1. Remova o texto localizado na **Modo de texto** e substitua-o pelo seguinte código:
+1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
+1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,26 +93,26 @@ Por exemplo, você pode calcular a diferença entre a Data de conclusão planeja
     valueformat=HTML
    ```
 
-1. Clique em **Salvar**, depois **Salvar visualização**.
+1. Clique em **Salvar** e depois em **Salvar exibição**.
 
 ## Calcular a diferença de data e hora entre o campo em um objeto e outro campo em um objeto pai
 
-Para obter uma lista de objetos e seus pais, consulte a seção &quot;Entendendo a Interdependência e a Hierarquia de Objetos&quot; em [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+Para obter uma lista de objetos e seus pais, consulte a seção &quot;Noções Básicas sobre a Interdependência e a Hierarquia de Objetos&quot; em [Noções Básicas sobre Objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Por exemplo, você pode calcular a diferença entre a Data de conclusão planejada de uma tarefa e a Data de conclusão planejada de sua tarefa pai ou do projeto em que a tarefa está.
 
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ir para uma lista de tarefas.
-1. No **Exibir** clique em **Nova visualização**.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
 
-1. Clique em **Adicionar coluna** e comece digitando &quot;Data de conclusão planejada do projeto&quot; ou &quot;Data de conclusão pai&quot; na **Mostrar nesta coluna** e selecione-o quando ele for exibido na lista.
+1. Clique em **Adicionar coluna** e comece digitando &quot; Data de conclusão planejada do projeto&quot; ou &quot;Data de conclusão principal&quot; no campo **Mostrar nesta coluna** e depois selecione-a quando ela for exibida na lista.
 
-1. Clique em **Adicionar coluna** e comece digitando &quot;Data de conclusão planejada&quot; na caixa **Mostrar nesta coluna** e selecione-o quando ele for exibido na lista.
+1. Clique em **Adicionar coluna** e comece a digitar &quot;Data de conclusão planejada&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-a quando ela for exibida na lista.
 
-1. Clique em **Adicionar coluna** e, em seguida, clique em **Alternar para modo de texto**.
+1. Clique em **Adicionar Coluna** e em **Alternar para Modo de Texto**.
 
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
-1. Remova o texto localizado na **Modo de texto** e substitua-a por um dos seguintes códigos:
+1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
+1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o por um dos seguintes códigos:
 
    * Para exibir a diferença entre a Data de conclusão planejada do projeto e a da tarefa:
 
@@ -131,4 +131,4 @@ Por exemplo, você pode calcular a diferença entre a Data de conclusão planeja
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Clique em **Salvar**, depois **Salvar visualização**.
+1. Clique em **Salvar** e depois em **Salvar exibição**.

@@ -9,7 +9,7 @@ role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Você pode importar os dados exportados das seguintes maneiras:
 * Manualmente, se você estiver usando relatórios exportados
 * Em massa, se você estiver usando o Kick-Starts
 
-   Para obter mais informações sobre como importar dados para o Workfront usando o Kick-Starts, consulte [Importar dados para o Adobe Workfront usando um modelo do Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Para obter mais informações sobre como importar dados para o Workfront usando o Kick-Starts, consulte [Importar dados para o Adobe Workfront usando um modelo de Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 O ambiente de Visualização da sandbox é atualizado durante nossas janelas de manutenção durante o fim de semana.
 
-Para obter mais informações sobre as janelas de manutenção do ambiente de Pré-visualização da sandbox, consulte [o site de status do Adobe](https://status.adobe.com/pt).
+Para obter mais informações sobre as janelas de manutenção do ambiente de Pré-visualização da Sandbox, consulte [o site de status do Adobe](https://status.adobe.com/pt).
 
 >[!IMPORTANT]
 >
@@ -51,10 +51,10 @@ Depois de determinar que um objeto excluído precisa ser restaurado pela Equipe 
 * Data e hora estimadas da exclusão
 * GUID do objeto (se possível)
 
-   Consulte as seguintes informações ao localizar o GUID de um objeto:
+  Consulte as seguintes informações ao localizar o GUID de um objeto:
 
    * O GUID pode ser encontrado referenciando notificações por email acionadas pela interação com o objeto (atribuições, comentários, etc.)
-   * Exemplo de GUID encontrado no final de um URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
+   * Exemplo de GUID encontrado no final de uma URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
 
 Depois de obter essas informações ou se precisar de assistência, ligue para nossa Equipe de suporte ao cliente pelo telefone 844-306-HELP(4357) ou envie um tíquete online.
 

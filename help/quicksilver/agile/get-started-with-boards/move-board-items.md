@@ -2,30 +2,30 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gerenciar cartões
-description: Você pode mover um cartão para qualquer coluna no quadro ou copiar um cartão.
+description: Você pode mover um cartão para qualquer coluna no quadro ou copiá-lo.
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
 source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Gerenciar cartões
 
-Você pode mover um cartão para qualquer coluna no quadro ou copiar um cartão.
+Você pode mover um cartão para qualquer coluna no quadro ou copiá-lo.
 
-Se você tiver políticas de coluna ativadas para atualizar valores de campo, o status, os destinatários e as tags poderão ser atualizados automaticamente quando você mover um cartão de uma coluna para outra. Para obter mais informações, consulte &quot;Definir configurações e políticas da coluna&quot; no artigo [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Se você tiver políticas de coluna ativadas para atualizar valores de campo, o status, os atribuídos e as tags poderão ser atualizados automaticamente quando você mover um cartão de uma coluna para outra. Para obter mais informações, consulte &quot;Definir configurações e políticas de coluna&quot; no artigo [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 >[!NOTE]
 >
->Você não pode mover um cartão de um quadro para outro quadro.
+>Você não pode mover uma carta de um quadro para outro.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -44,46 +44,46 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Mover cartões entre colunas
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Acesse um quadro. Para obter mais informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Arraste e solte o cartão em outra coluna, na posição em que deseja que ele apareça.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
+1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
+1. Arraste e solte o cartão em outra coluna, na posição em que deseja que ele seja exibido.
 
    Ou
 
-   Clique no botão **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Mover]**. Em seguida, no **[!UICONTROL Mover item]** escolha outra coluna e selecione **[!UICONTROL Mover]**.
+   Clique no menu **[!UICONTROL Mais]** ![Mais menus](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Mover]**. Em seguida, na caixa **[!UICONTROL Mover Item]**, escolha outra coluna e selecione **[!UICONTROL Mover]**.
 
    ![Mover cartão](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
-   >Quando você usar a variável **[!UICONTROL Mover item]** , o cartão é sempre movido para a parte superior da coluna.
+   >Quando você usa a caixa **[!UICONTROL Mover Item]**, o cartão é sempre movido para a parte superior da coluna.
 
 ## Mover cartões para a parte superior ou inferior de uma coluna
 
 1. Acesse o quadro.
-1. Arraste e solte o cartão na posição desejada para que apareça na coluna .
+1. Arraste e solte o cartão na posição em que deseja que ele apareça na coluna.
 
    Ou
 
-   Clique no botão **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Parte superior da coluna]** ou **[!UICONTROL Parte inferior da coluna]**.
+   Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Parte superior da coluna]** ou **[!UICONTROL Parte inferior da coluna]**.
 
-   ![Menu Mais](assets/boards-moremenu-350x329.png)
+   ![Mais menu](assets/boards-moremenu-350x329.png)
 
 ## Copiar um cartão
 
-Copiar um cartão ad hoc duplica todos os campos no cartão, incluindo itens da lista de verificação.
+Copiar um cartão ad hoc duplica todos os campos no cartão, incluindo os itens da lista de verificação.
 
 >[!NOTE]
 >
->Não é possível copiar cartões conectados.
+>Você não pode copiar cartões conectados.
 
 1. Acesse o quadro.
-1. Clique no botão **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Copiar]**.
+1. Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Copiar]**.
 
-   ![Menu Mais](assets/boards-moremenu-350x329.png)
+   ![Mais menu](assets/boards-moremenu-350x329.png)
 
-   Um novo cartão é adicionado na mesma coluna com o título &quot;cópia de - [nome do cartão original].&quot;
+   Um novo cartão é adicionado na mesma coluna com o título &quot;cópia de - [nome original do cartão]&quot;.

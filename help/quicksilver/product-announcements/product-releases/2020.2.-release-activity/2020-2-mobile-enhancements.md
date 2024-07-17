@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias móveis feitas com a versão 2020.2 no ambiente de produção. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de maio de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.2, consulte [Visão geral da versão 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.2, consulte a [visão geral da versão 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Ajude-nos a testar o novo assistente virtual móvel em beta
 
@@ -33,5 +33,5 @@ Estes são alguns exemplos de comandos de voz que você pode usar para interagir
 
 Para participar do beta, consulte
 
-* [Ser um testador beta do iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [Seja um testador beta do iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [Ser um testador beta do Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

@@ -71,28 +71,28 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Tipos de prioridade de projeto no Adobe Workfront
 
 A seguir estão os tipos de prioridades que você pode usar para classificar projetos no Adobe Workfront:
 
-* **O campo Prioridade do projeto**: é possível atribuir uma Prioridade manualmente a um projeto. Este artigo descreve como atribuir manualmente uma prioridade a um projeto.
+* **O campo Prioridade do Projeto**: você pode atribuir uma Prioridade manualmente a um projeto. Este artigo descreve como atribuir manualmente uma prioridade a um projeto.
 
-  Para obter mais informações, consulte a seção [Considerações sobre a prioridade do projeto](#considerations-about-project-priority) neste artigo.
+  Para obter mais informações, consulte a seção [Considerações sobre a Prioridade de Projeto](#considerations-about-project-priority) neste artigo.
 
 * **A prioridade de um projeto no Otimizador de Portfolio**, se o projeto estiver associado a um portfólio:
 
   Para obter mais informações sobre a prioridade de um projeto no Portfolio Otimizer, consulte o artigo [Priorizar projetos no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* **A prioridade de um projeto no Planejador de recursos**: é possível priorizar manualmente os projetos no Planejador de recursos, para indicar quais projetos devem receber recursos primeiro.
+* **A prioridade de um projeto no Planejador de Recursos**: você pode priorizar manualmente projetos no Planejador de Recursos para indicar quais projetos devem receber recursos primeiro.
 
-  Para obter mais informações sobre a priorização de projetos no Planejador de recursos, consulte a seção &quot;Prioridade de planejamento de projetos&quot; no artigo [Visão geral da navegação do Planejador de recursos](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Para obter mais informações sobre a priorização de projetos no Planejador de recursos, consulte a seção &quot;Prioridade de planejamento de projetos&quot; no artigo [Visão geral da navegação no Planejador de recursos](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Considerações sobre a prioridade do projeto {#considerations-about-project-priority}
 
@@ -111,17 +111,17 @@ Considere o seguinte ao selecionar uma Prioridade para seus projetos:
 * Tarefas e problemas também têm Prioridades, mas as Prioridades de tarefa, problema e projeto funcionam independentemente umas das outras e não se influenciam automaticamente. Você pode ter um problema de alta prioridade ou uma tarefa de prioridade média em um projeto de baixa prioridade.
 * Você pode atualizar a Prioridade dos projetos nas seguintes áreas do Workfront:
 
-   * No **Editar Projeto** caixa de diálogo.
-   * No **Detalhes do projeto** de um projeto.
+   * Na caixa de diálogo **Editar Projeto**.
+   * Na guia **Detalhes do projeto** de um projeto.
    * Em uma lista ou relatório de projeto.
 
 ## Atualizar o campo Prioridade do projeto
 
 1. Vá para o projeto cuja Prioridade você deseja atualizar.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique em **Editar** ícone ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do projeto, clique em **Visão geral**.
+1. Clique no ícone **Editar** ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do Projeto e clique em **Visão Geral**.
 
-1. No **Prioridade** selecione entre as seguintes opções:
+1. No campo **Prioridade**, selecione uma das seguintes opções:
 
    * Nenhum(a)
    * Baixa

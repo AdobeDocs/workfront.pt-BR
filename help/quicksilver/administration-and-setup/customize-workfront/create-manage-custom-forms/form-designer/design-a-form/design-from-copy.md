@@ -51,9 +51,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms personalizado.**
+1. Clique em **Forms Personalizado.**
 1. Selecione o formulário personalizado que deseja usar como base para um novo formulário personalizado e clique em ![Ícone Copiar](assets/copy-icon.png).
-1. No **Personalizar cópia do formulário** que for exibida, digite as seguintes informações:
+1. Na caixa **Cópia de Formulário Personalizada** exibida, digite as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,7 +65,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Tipos de formulário </p> </td> 
-      <td> <p>No <b>Tipo de formulário</b> , selecione os tipos de objeto com os quais você deseja que o formulário personalizado funcione e clique no X ao lado de qualquer tipo que você deseja remover. Os tipos que já estão associados ao formulário estão desabilitados na lista.</p> 
+      <td> <p>Na caixa <b>Tipo de Formulário</b>, selecione os tipos de objeto com os quais deseja que o formulário personalizado funcione e clique no X ao lado de todos os tipos que deseja remover. Os tipos que já estão associados ao formulário estão desabilitados na lista.</p> 
       <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>O formulário deve estar associado a pelo menos um tipo de objeto.</p> 
       </td> 
@@ -79,8 +79,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Da mesma forma, se uma opção de acesso para uma quebra de seção no formulário original não for compatível com um tipo de objeto adicionado ao novo, uma mensagem solicitará que você ajuste a opção.
 
-1. Selecione o formulário que acabou de copiar e clique em ![Ícone Editar](assets/edit-icon.png).
-1. Faça alterações no formulário, conforme explicado nas seções a seguir do [Criar um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) artigo:
+1. Selecione o formulário que você acabou de copiar e clique em ![Ícone Editar](assets/edit-icon.png).
+1. Faça alterações no formulário, conforme explicado nas seções a seguir do artigo [Criar um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
 
    * [Reutilizar um campo ou widget existente já usado em outro formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
       * [Adicionar campos de texto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)

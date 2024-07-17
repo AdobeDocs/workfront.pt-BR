@@ -53,6 +53,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Forms personalizado**.
-1. Clique em **Campos**, procure o campo ou widget no campo **Nome** e, em seguida, exiba a **Forms** para ver quais formulários personalizados estão usando o campo ou widget.
+1. No painel esquerdo, clique em **Forms Personalizado**.
+1. Clique em **Campos**, procure o campo ou widget na coluna **Nome** e exiba a coluna **Forms** para ver quais formulários personalizados estão usando o campo ou widget.
 1. (Opcional) Clique no nome de qualquer um desses formulários personalizados para ir para o formulário e considerar quais alterações você pode precisar fazer lá se modificar o campo ou widget.

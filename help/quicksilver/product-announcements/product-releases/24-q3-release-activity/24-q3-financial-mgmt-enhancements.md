@@ -4,7 +4,8 @@ description: Melhorias na gestão financeira no terceiro trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2681e878b3366b08343aa8d0a513b71126d2a67b
+exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
+source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 Esta página descreve todos os aprimoramentos de gerenciamento financeiro feitos com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do terceiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Campos de despesas faturáveis e não faturáveis disponíveis para projetos e tarefas
 

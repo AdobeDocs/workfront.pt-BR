@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias ágeis feitas com a versão 23.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.2.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.2, consulte [23.2 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.2, consulte [Visão geral da versão 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Adicionar tarefas e problemas dos detalhes do objeto a um quadro ou fluxo de trabalho do Workfront
 
@@ -35,9 +35,9 @@ Vários novos recursos disponíveis nas placas Workfront possibilitam o uso da f
 
 Observe que as coleções foram renomeadas para fluxos de trabalho. Fluxos de trabalho ajudam você a visualizar dados de maneiras diferentes. É possível exibir itens em cartões em uma lista, em um quadro ou em uma iteração. Os cartões em um workflow também podem ser compartilhados entre vários quadros. Você pode facilitar facilmente os fluxos de trabalho usando cartões e quadros em um fluxo de trabalho.
 
-Para obter mais informações, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), e [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+Para obter mais informações, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) e [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3417059/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Adicionar tarefas e problemas de listas e relatórios a uma lista de cartões de workflow
 
@@ -72,9 +72,9 @@ Para obter mais informações, consulte [Adicionar tarefas ou problemas existent
 
 Agora é possível registrar horas em cartões conectados, da mesma maneira que você faria em uma tarefa ou problema. Você deve ter as permissões corretas para a tarefa ou problema para registrar o tempo.
 
-Por padrão, os campos de registro de tempo não são exibidos em cartões conectados. Você deve ativar **Horas** na área Configurar, em Cartões.
+Por padrão, os campos de registro de tempo não são exibidos em cartões conectados. Você deve habilitar **Horas** na área Configurar em Cartões.
 
-Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 
 ## Personalizar a exibição de campos em um cartão
@@ -88,7 +88,7 @@ A personalização agora está disponível para configurar quais campos são exi
 
 Para obter mais informações, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3415710/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
 ## Definir um status padrão para cartões movidos para uma coluna de quadro
 
@@ -102,7 +102,7 @@ Anteriormente, você era solicitado a selecionar um status para cada cartão mov
 
 Para obter mais informações, consulte [Gerenciar colunas](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3415711/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3415711/){target=_blank}
 
 ## Coleções agora disponíveis em painéis do Adobe Workfront
 
@@ -116,7 +116,7 @@ Adicionar membros a uma coleção funciona da mesma maneira que adicionar membro
 
 Para obter mais informações, consulte [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3415609/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
 ## O campo Estimativa em cartões conectados é mapeado para o campo Pontos de história em objetos Workfront
 
@@ -132,7 +132,7 @@ Anteriormente, a estimativa do cartão era uma entrada manual e não era mapeada
 
 Além disso, o campo Estimativa em cartões ad hoc e conectados não tem mais um limite de caracteres. Anteriormente, o número máximo de caracteres era 99.
 
-Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Visualizar cartão na coluna de entrada
 

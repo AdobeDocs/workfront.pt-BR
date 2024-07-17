@@ -30,6 +30,6 @@ Esta seção contém os seguintes artigos:
 * [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Fazer atribuições inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Modificar atribuições de vários usuários em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [Modificar várias atribuições de usuário em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Gerenciar horas de alocação de usuários e funções em tarefas](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
 * [Gerenciar porcentagem de alocação de usuários ou funções em tarefas](../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)

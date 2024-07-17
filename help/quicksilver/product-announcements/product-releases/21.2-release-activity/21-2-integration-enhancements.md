@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2 Aprimoramentos de integração
 
-Esta página descreve todas as melhorias de Integração feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte [21.2 Visão geral da versão](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página descreve todas as melhorias de Integração feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Introdução ao Adobe Workfront para XD
 
 Estamos animados em anunciar o lançamento de nosso novo plug-in: Adobe Workfront para XD. Esse plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e envie provas para revisão, tudo sem sair do XD. Vá para o marketplace do Adobe XD para baixar o plug-in hoje mesmo.
 
-Para saber mais sobre o que você pode fazer com o Adobe Workfront para XD, consulte [Gerenciar o trabalho com o plug-in Adobe Workfront para aplicativos Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
+Para saber mais sobre o que você pode fazer com o Adobe Workfront para XD, consulte [Gerenciar trabalho com o plug-in do Adobe Workfront para aplicativos Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 
 
 ## Pesquisar pastas em integrações de documentos

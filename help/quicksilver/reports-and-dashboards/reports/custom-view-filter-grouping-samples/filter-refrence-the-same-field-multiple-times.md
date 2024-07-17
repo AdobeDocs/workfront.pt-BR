@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Na interface do modo padrão, ao tentar criar vários filtros que fazem referência ao mesmo campo (usando o qualificador AND), um dos filtros é excluído quando você salva o relatório e sai do Report Builder.
 
-**Exemplo:** Talvez você queira exibir apenas as tarefas que contenham a palavra &quot;verde&quot;, mas que não contenham a palavra &quot;vermelho&quot; no nome. O Adobe Workfront não permite salvar as seguintes regras de filtro usando a interface de modo padrão, pois faz referência ao mesmo campo (Nome da tarefa), mas usa modificadores diferentes e faz referência a valores diferentes:
+**Exemplo:** talvez você queira exibir somente as tarefas que contenham a palavra &quot;verde&quot;, mas que não contenham a palavra &quot;vermelho&quot; no nome. O Adobe Workfront não permite salvar as seguintes regras de filtro usando a interface de modo padrão, pois faz referência ao mesmo campo (Nome da tarefa), mas usa modificadores diferentes e faz referência a valores diferentes:
 
 * Nome da tarefa > Contém > Verde
 * Nome da tarefa > Não contém > Vermelho
@@ -35,7 +35,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -50,7 +50,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,9 +60,9 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 ## Criar várias regras de filtro que fazem referência ao mesmo campo
 
 1. Ir para uma lista de tarefas.
-1. No **Filtro** selecione **Novo Filtro**.
-1. Clique em **Alternar para modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
+1. No menu suspenso **Filtro**, selecione **Novo Filtro**.
+1. Clique em **Alternar para Modo de Texto**.
+1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
 1. Na área Definir regras de filtro para relatórios, adicione o seguinte código:
 
    ```
@@ -76,19 +76,17 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
    >
    >Para construir filtros semelhantes, crie a primeira instrução primeiro. Por exemplo:
    >
-   >
-   ```
+   >```
    >name=green
    >name_Mod=cicontains
    >```
    >
    >Copie e cole a instrução quantas vezes forem necessárias. Em seguida, você pode adicionar quantas instruções forem necessárias para fazer referência ao mesmo campo (no nosso caso, &quot;nome&quot;) e fazer as seguintes modificações nas instruções adicionais:
    >
-   >1. Preceda as duas linhas copiadas com &quot;AND:1:&quot;, &quot;E:2:&quot;, &quot;E:3:&quot;, etc para cada novo valor de campo possível.
+   >1. Preceda as duas linhas copiadas com &quot;AND:1:&quot;, &quot;AND:2:&quot;, &quot;AND:3:&quot;, etc. para cada novo valor possível de campo.
    >1. Substitua a linha de campo pelo novo valor de campo (após o sinal &quot;=&quot;).
    >1. Substitua a linha do modificador (_Mod) pelo novo modificador.
-
    >   
    >Essas instruções fazem distinção entre maiúsculas e minúsculas.
 
-1. Clique em **Concluído**, depois **Salvar Filtro**.
+1. Clique em **Concluído** e em **Salvar filtro**.

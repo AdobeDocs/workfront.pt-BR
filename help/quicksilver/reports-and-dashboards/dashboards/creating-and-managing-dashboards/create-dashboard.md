@@ -62,17 +62,17 @@ Você deve ter o seguinte:
 
 Você deve criar qualquer um dos seguintes objetos antes de adicioná-los a um painel:
 
-* **Relatórios**: para obter informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* **Relatórios**: Para obter informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* **Calendários**: Para obter informações sobre como criar calendários, consulte [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* **Calendários**: para obter informações sobre como criar calendários, consulte [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-Você pode adicionar páginas externas existentes a um painel ou criar uma a partir do novo painel. Para obter informações sobre como criar páginas externas, consulte [Incorporar uma página externa da Web em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Você pode adicionar páginas externas existentes a um painel ou criar uma a partir do novo painel. Para obter informações sobre como criar páginas externas, consulte [Incorporar uma página da Web externa em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Criar um painel
 
 {{step1-to-dashboards}}
 
-1. Clique em **Novo painel**.\
+1. Clique em **Novo Painel**.\
    A caixa de diálogo Novo Painel é exibida.
 
 1. Especifique o seguinte:
@@ -92,7 +92,7 @@ Você pode adicionar páginas externas existentes a um painel ou criar uma a par
     </tbody>
    </table>
 
-1. Selecione um layout clicando no botão de opção correspondente a ele na parte superior do **Selecionar layout/adicionar relatórios/adicionar calendários** seção. Esse é o layout no qual os relatórios, calendários ou páginas externas serão exibidos no painel.
+1. Selecione um layout clicando no botão de opção correspondente a ele na parte superior da seção **Selecionar layout/Adicionar relatórios/Adicionar calendários**. Esse é o layout no qual os relatórios, calendários ou páginas externas serão exibidos no painel.
 
    O layout de coluna única é o padrão.
 
@@ -102,7 +102,7 @@ Você pode adicionar páginas externas existentes a um painel ou criar uma a par
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Pesquisar relatórios, calendários ou páginas externas no **Pesquisar por nome ou tipo...** e arraste-os para o painel de layout, quando eles aparecerem na lista.
+1. Pesquise relatórios, calendários ou páginas externas no campo **Pesquisar por nome ou tipo ...** e arraste-os para o painel de layout quando eles aparecerem na lista.
 
    >[!NOTE]
    >
@@ -110,9 +110,9 @@ Você pode adicionar páginas externas existentes a um painel ou criar uma a par
 
    ![Pesquisar relatórios](assets/qs-new-dashboard-ui-0722.png)
 
-1. (Opcional) Clique em **Adicionar página externa** para adicionar uma nova Página Externa ao painel.
+1. (Opcional) Clique em **Adicionar página externa** para adicionar uma nova Página externa ao painel.
 
-   Para obter mais informações sobre como criar páginas externas e incorporá-las aos painéis, consulte [Incorporar uma página externa da Web em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Para obter mais informações sobre como criar páginas externas e incorporá-las aos painéis, consulte [Incorporar uma página da Web externa em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Clique em **Salvar + Fechar**.
 

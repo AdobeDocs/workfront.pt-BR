@@ -22,4 +22,4 @@ Esta seção contém as seguintes subseções:
 * [Portfólios](../../manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
 * [Criar e gerenciar portfólios](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
 * [Criar e gerenciar programas](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
-* [Gerenciar projetos na [!UICONTROL Otimizador de Portfolio]](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+* [Gerenciar projetos no [!UICONTROL Portfolio Otimizer]](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)

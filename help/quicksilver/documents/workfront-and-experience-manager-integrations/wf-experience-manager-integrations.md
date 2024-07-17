@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # Integrações do Workfront e da Experience Manager Assets
 
-* [Conector aprimorado do Workfront para Experience Manager](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
+* [Conector aprimorado do Workfront for Experience Manager](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
 * [Adobe Workfront para Experience Manager Assets e Asset Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
 * [Migrar dos conectores herdados ou aprimorados](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)

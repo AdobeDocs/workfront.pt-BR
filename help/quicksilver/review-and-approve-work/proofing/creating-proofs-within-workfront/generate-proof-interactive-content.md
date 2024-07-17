@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -44,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
 ## Criar uma prova para conteúdo interativo em um arquivo ZIP
 
@@ -63,9 +63,9 @@ Depois de adicionar o conteúdo interativo em um arquivo ZIP a uma prova, o Adob
    * No caso de arquivos ZIP criados no iOS, a ferramenta identifica automaticamente a pasta correta onde o conteúdo é colocado.
 
 1. Vá para o projeto, tarefa ou problema em que deseja fazer upload do arquivo ZIP.
-1. Clique em **Documentos** no painel esquerdo .
-1. Clique em **Adicionar novo** e, em seguida, clique em **Prova** no menu exibido.
-1. No **Adicionar arquivos** arraste e solte ou procure o arquivo ZIP necessário.
+1. Clique em **Documentos** no painel esquerdo.
+1. Clique em **Adicionar novo** e em **Prova** no menu exibido.
+1. Na seção **Adicionar arquivos**, arraste e solte ou procure o arquivo ZIP necessário.
 1. Clique em **Criar prova** para criar uma prova simples sem processo de revisão.\
    ou\
    Continue configurando uma prova avançada:

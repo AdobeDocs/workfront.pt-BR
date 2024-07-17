@@ -41,15 +41,15 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+&#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
 
 ## Listar e editar formulários personalizados e itens adicionados a formulários personalizados
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Forms personalizado**.
+1. Clique em **Forms Personalizado**.
 
-   Com o **Forms** guia selecionada, todos os formulários personalizados da organização serão listados, juntamente com suas descrições, os tipos de objetos associados a eles, os nomes dos usuários que os criaram e se eles estão ou não ativos no sistema.
+   Com a guia **Forms** selecionada, todos os formulários personalizados da sua organização são listados, juntamente com suas descrições, os tipos de objetos associados a eles, os nomes dos usuários que os criaram e se eles estão ou não ativos no sistema.
 
    Para obter informações sobre o que você pode fazer ao selecionar um formulário personalizado na lista, consulte os seguintes artigos:
 
@@ -58,7 +58,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    * [Copiar um formulário personalizado para criar um novo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
    * [Excluir ou desativar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
-1. Clique em **Campos** guia.
+1. Clique na guia **Campos**.
 
    Esta guia lista os campos e widgets personalizados que os usuários no sistema adicionaram aos formulários personalizados, juntamente com informações sobre o tipo de cada item, instruções e detalhes sobre ele, e uma lista dos formulários personalizados que o contêm.
 
@@ -79,7 +79,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    * [Configurar compartilhamento para campos e widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Excluir um campo ou widget personalizado do sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
-1. Selecione o **Seções** e verifique se **Grupo de Parâmetros** está selecionado como **Exibir** para a lista..
+1. Selecione a guia **Seções** e verifique se o **Grupo de Parâmetros** está selecionado como a **Exibição** da lista.
 
    Todas as quebras de seção são exibidas nessa visualização, juntamente com uma lista de formulários personalizados que contêm cada quebra de seção.
 

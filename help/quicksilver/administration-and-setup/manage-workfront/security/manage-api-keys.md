@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,21 +72,21 @@ Você pode gerar, redefinir ou remover a Chave de API da conta de usuário admin
 
 >[!NOTE]
 >
->Você também pode gerar uma Chave de API por meio da API. Para obter mais informações, consulte [API de assinatura de evento](../../../wf-api/general/event-subs-api.md) seção em [API de assinatura de evento](../../../wf-api/general/event-subs-api.md).
+>Você também pode gerar uma Chave de API por meio da API. Para obter mais informações, consulte a seção [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md) em [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md).
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Sistema >** **Informações do cliente.**
+1. Clique em **Sistema >** **Informações do Cliente.**
 1. (Condicional) Execute uma das seguintes ações:
 
-   Para gerar uma chave de API: na **Configurações da chave de API** clique em **Gerar chave de API**.
+   Para gerar uma Chave de API: Na seção **Configurações da Chave de API**, clique em **Gerar Chave de API**.
 
    Ou\
-   Para redefinir uma chave de API: no **Configurações da chave de API** clique em **Redefinir**, depois **Redefinir.**
+   Para redefinir uma Chave de API: Na seção **Configurações da Chave de API**, clique em **Redefinir** e depois em **Redefinir.**
 
    Ou
 
-   Para remover a chave de API: na guia **Configurações da chave de API** clique em **Remover**, depois **Remover**.
+   Para remover a Chave de API: Na seção **Configurações da Chave de API**, clique em **Remover** e depois em **Remover**.
 
 ## Gerar uma chave de API para usuários não administradores
 
@@ -98,48 +98,48 @@ Você pode gerar e gerenciar chaves de API para usuários em funções diferente
 
 1. (Condicional) Se sua organização usar o gerenciamento de acesso de Logon único (SSO), desative temporariamente a opção que exige autenticação SSO.
 
-   1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+   1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-   1. Expandir **Sistema** e, em seguida, clique em **Logon único (SSO)**.
-   1. No **Tipo** selecione o tipo de SSO que sua organização usa.
-   1. Com o tipo selecionado, role para baixo e limpe a **Ativar** caixa de seleção
+   1. Expanda **Sistema** e clique em **Logon Único (SSO)**.
+   1. No campo **Tipo**, selecione o tipo de SSO que sua organização usa.
+   1. Com o tipo selecionado, role para baixo e desmarque a caixa de seleção **Habilitar**.
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Clique em **Salvar**.
 
 
 1. Na barra de endereços de um navegador, insira a seguinte chamada de API:
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**nome de usuário**&amp;senha=**senha**&amp;method=PUT
+   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
 
-   Substituir `<domain>` com o nome de domínio do Workfront e o nome de usuário e senha com as credenciais Workfront do usuário.
+   Substitua `<domain>` pelo nome de domínio, nome de usuário e senha do Workfront pelas credenciais Workfront do usuário.
 
 1. (Condicional) Ative a opção que exige autenticação SSO se ela tiver sido desativada na Etapa 1.
 
-   1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+   1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-   1. Expandir **Sistema** e, em seguida, clique em **Logon único (SSO)**.
+   1. Expanda **Sistema** e clique em **Logon Único (SSO)**.
 
-   1. Selecione o método SSO no campo **Tipo** menu suspenso.
+   1. Selecione seu método SSO no menu suspenso **Type**.
    1. Marque a caixa de seleção que requer autenticação SSO.
 
 ## Configurar quando as chaves de API expiram
 
 Você pode configurar as Chaves de API para expirarem para todos os usuários em seu sistema. Quando a chave de API de um usuário expira, o usuário deve se autenticar novamente em qualquer aplicativo que use a API do Workfront para acessar o Workfront. Você pode alterar a frequência com que as Chaves de API expiram. Você também pode configurar se as Chaves de API expiram quando a senha de um usuário expira.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Sistema** > **Informações do cliente**.
-1. No **Configurações da chave de API** área, no **Após a criação**, **As chaves de API expiram em** selecione o período quando deseja que as chaves de API expirem.
+1. Na área **Configurações da Chave de API**, na lista suspensa **Após a criação**, as **chaves de API expiram em**, selecione o período em que deseja que as chaves de API expirem.
 
-   Ao alterar essa opção, o novo período começa a partir do momento em que você fez a alteração. Por exemplo, se você alterar essa opção de *1 mês* para *6 meses*, as Chaves de API expiram em 6 meses a partir do momento em que você faz a alteração.
+   Ao alterar essa opção, o novo período começa a partir do momento em que você fez a alteração. Por exemplo, se você alterar esta opção de *1 mês* para *6 meses*, as Chaves de API expirarão em 6 meses a partir do momento em que você fizer a alteração.
 
    Por padrão, as Chaves de API expiram a cada mês.
 
-1. Para configurar as Chaves de API para expirarem no momento em que as senhas dos usuários expirarem, selecione **Remover a chave de API quando a senha de um usuário expirar**.
+1. Para configurar as Chaves de API para expirarem no momento em que as senhas dos usuários expirarem, selecione **Remover chave de API quando a senha de um usuário expirar**.
 
    Por padrão, essa opção não está selecionada.
 
-   Para obter informações sobre como configurar senhas de usuários para expirar, consulte [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+   Para obter informações sobre como configurar senhas de usuário para expirar, consulte [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 1. Clique em **Salvar**.
 
@@ -151,11 +151,11 @@ Se você estiver preocupado com uma violação de segurança específica em rela
 >
 >Remover as chaves de API de todos os usuários invalida TODAS as chaves de API de todos os usuários do sistema. Essa ação causará falha em todas as suas integrações no Workfront até que você gere uma nova Chave de API no Workfront e atualize todas as suas integrações.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Expandir **Sistema** e, em seguida, clique em **Informações do cliente.**
+1. Expanda **Sistema** e clique em **Informações do cliente.**
 
-1. No **Configurações da chave de API** clique em **Remover todas as chaves de API** e, em seguida, clique em **Remover** **Todos**.
+1. Na área **Configurações da Chave de API**, clique em **Remover todas as chaves de API** e em **Remover** **Tudo**.
 
 ## Restrição de logons da API com um certificado X.509
 
@@ -163,7 +163,7 @@ Se você estiver preocupado com uma violação de segurança específica em rela
 >
 >O procedimento descrito nesta seção se aplica apenas a organizações que ainda não foram integradas à Plataforma de negócios Adobe. Fazer logon no Workfront por meio da API do Workfront não estará disponível se sua organização tiver sido integrada à Plataforma comercial Adobe.
 >
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Plataforma de negócios Adobe, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Plataforma Comercial Adobe, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Aplicativos de terceiros podem se comunicar com o Workfront por meio da API. Para aumentar a segurança do site do Workfront, você pode configurar o Workfront para restringir solicitações de logon da API fazendo upload de um certificado X.509 no Workfront. Depois de habilitada, todas as solicitações de logon por meio da API devem incluir um certificado de cliente, além do nome de usuário e da senha.
 
@@ -172,7 +172,7 @@ Aplicativos de terceiros podem se comunicar com o Workfront por meio da API. Par
 >Isso não estará disponível se a instância Workfront da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 * [Obter o certificado X.509](#obtain-the-x-509-certificate)
-* [Fazer upload do certificado para o Workfront](#upload-the-certificate-to-workfront)
+* [Carregar o certificado para o Workfront](#upload-the-certificate-to-workfront)
 * [Verifique se as chamadas de logon da API são restritas](#verify-api-login-calls-are-restricted)
 
 ### Obter o certificado X.509 {#obtain-the-x-509-certificate}
@@ -183,13 +183,13 @@ Obtenha um certificado X.509 válido de uma Autoridade de certificação confiá
 
 Depois de obter o certificado X.509 da sua autoridade de certificação, é necessário carregá-lo no Workfront.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Expandir **Sistema** e, em seguida, clique em **Informações do cliente**.
+1. Expanda **Sistema** e clique em **Informações do cliente**.
 
-1. No **Configurações da chave de API** , selecione **Habilitar Certificado X.509**.
+1. Na área **Configurações da Chave de API**, selecione **Habilitar Certificado X.509**.
 1. Na estação de trabalho, navegue até o certificado X.509 que você baixou anteriormente e selecione-o.
-1. (Opcional) Clique em **Exibir detalhes** ao lado do nome do certificado para exibir os seguintes detalhes sobre o certificado:
+1. (Opcional) Clique em **Exibir Detalhes** ao lado do nome do certificado para exibir os seguintes detalhes sobre o certificado:
 
    * Nome comum do assunto
    * Organização do assunto
@@ -205,7 +205,7 @@ Depois de obter o certificado X.509 da sua autoridade de certificação, é nece
 
 ### Verifique se as chamadas de logon da API são restritas {#verify-api-login-calls-are-restricted}
 
-Antes de configurar sua instância do Workfront para exigir um certificado X.509, execute uma solicitação de API para o `/login` ponto de extremidade usando parâmetros válidos de nome de usuário e senha. Você receberá uma resposta 200 que contém uma sessionID.
+Antes de configurar sua instância do Workfront para exigir um certificado X.509, execute uma solicitação de API para o ponto de extremidade `/login` usando parâmetros válidos de nome de usuário e senha. Você receberá uma resposta 200 que contém uma sessionID.
 
 Depois de fazer do certificado X.509 um requisito por meio da página de informações do cliente em sua instância do Workfront, faça outra tentativa de logon. Desta vez você receberá uma resposta de erro 500 com a seguinte mensagem: &quot;Solicitação não confiável. Entre em contato com o administrador do sistema e anexe um certificado.&quot;
 

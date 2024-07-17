@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. No Workfront Planning, você pode criar tipos de registro personalizados que ilustrem os itens relacionados ao trabalho necessários no ciclo de vida da organização.
 
-Para obter mais informações sobre tipos de registros, consulte [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Para obter mais informações sobre tipos de registros, consulte [Visão geral sobre tipos de registros](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 ## Requisitos de acesso
 
@@ -67,12 +67,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram
 </td>
   </tr>
@@ -129,7 +129,7 @@ Você pode adicionar tipos de registro manualmente nas seções Tipos de Registr
 
 Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-Para obter informações sobre quais tipos de registro são incluídos em cada modelo, consulte [Lista de modelos do espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md).
+Para obter informações sobre quais tipos de registro são incluídos em cada modelo, consulte [Lista de modelos de espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 ## Criar um tipo de registro do zero
 
@@ -142,7 +142,7 @@ Para obter informações sobre quais tipos de registro são incluídos em cada m
    Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 1. (Opcional) Clique em **Adicionar seção** para adicionar uma nova seção ao espaço de trabalho.
 1. Clique em **Adicionar tipo de registro**.
-1. (Condicional) Ao criar tipos de registro importando um arquivo do Excel ou CSV ativado, clique em **Do zero**. Caso contrário, a variável **Adicionar tipo de registro** é aberta.
+1. (Condicional) Ao criar tipos de registro importando um arquivo do Excel ou CSV habilitado, clique em **Do zero**. Caso contrário, a caixa **Adicionar tipo de registro** será aberta.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -161,7 +161,7 @@ A Descrição do tipo de registro é exibida no cartão.
 
    ![](assets/record-type-card-with-description.png)
 
-1. (Opcional) Passe o mouse sobre o cartão de tipo de registro, clique no **Mais** ícone ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para modificar informações sobre o tipo de registro.
+1. (Opcional) Passe o mouse sobre o cartão de tipo de registro, clique no ícone **Mais** ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para modificar as informações sobre o tipo de registro.
 1. (Opcional) Clique no cartão de tipo de registro para abrir a página de tipo de registro.
 
    ![](assets/operational-record-type-blank.png)
@@ -184,12 +184,12 @@ A Descrição do tipo de registro é exibida no cartão.
 
    Ou
 
-   Clique em **Mais** ícone ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Editar** para renomeá-la ou alterar as informações sobre ela. Para obter mais informações, consulte [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Clique no ícone **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Editar** para renomeá-lo ou alterar as informações sobre ele. Para obter mais informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Opcional) Clique em **+ Novo registro** para adicionar registros do tipo selecionado. Para obter mais informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
-1. (Opcional) Clique no link **+** ícone no canto superior direito da tabela para adicionar mais campos ao tipo de registro.
+1. (Opcional) Clique em **+ Novo registro** para adicionar registros do tipo de registro selecionado. Para obter mais informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+1. (Opcional) Clique no ícone **+** no canto superior direito da tabela para adicionar mais campos ao tipo de registro.
 
-   Para obter mais informações sobre a criação de campos, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+   Para obter mais informações sobre como criar campos, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
 1. (Opcional) Clique na seta à esquerda do nome do tipo de registro, no cabeçalho, para voltar ao espaço de trabalho selecionado.
 
@@ -202,7 +202,7 @@ A Descrição do tipo de registro é exibida no cartão.
    * [Criar registros](/help/quicksilver/planning/records/create-records.md)
    * [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
-   * [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md)
+   * [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md)
 
 ## Criar tipos de registro importando um arquivo Excel ou CSV
 
@@ -233,8 +233,8 @@ Para importar tipos de registro usando um arquivo do Excel:
    Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 1. Clique em **Adicionar tipo de registro**.
 1. Clique em **Excel/CSV**.
-1. Arraste e solte um arquivo Excel ou CSV salvo anteriormente no computador ou clique em **Selecione um arquivo CSV ou do Excel** para procurar um.
-1. Clique em **Revise seus dados**.
+1. Arraste e solte um arquivo Excel ou CSV salvo anteriormente no computador ou clique em **Selecionar um arquivo CSV ou Excel** para procurar um.
+1. Clique em **Examine seus dados**.
 
    A caixa Preview and edit é exibida com as seguintes informações:
 
@@ -251,7 +251,7 @@ Para importar tipos de registro usando um arquivo do Excel:
    >    Planilhas vazias não são suportadas e estão esmaecidas.
 
 
-1. (Opcional) Clique no link **Selecionar planilhas para importar** e desmarque as planilhas que não deseja importar.
+1. (Opcional) Clique no menu suspenso **Selecionar planilhas a serem importadas** e desmarque as planilhas que você não deseja importar.
 
    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 

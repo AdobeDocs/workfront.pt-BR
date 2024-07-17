@@ -1,6 +1,6 @@
 ---
-title: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 30 de agosto de 2021'
-description: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 30 de agosto de 2021'
+title: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 30 de agosto de 2021
+description: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 30 de agosto de 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 30 de agosto de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Filtrar eventos que acionam o módulo Workfront > Eventos de observação
 
@@ -43,5 +43,5 @@ Para obter uma lista de correções de erros recentes no Workfront Fusion, consu
 
    Anteriormente, esse filtro não estava disponível. Portanto, foi mais fácil para as alterações feitas nos módulos do Workfront acionarem cenários que contêm esses módulos, potencialmente fazendo com que os cenários se acionassem em um loop infinito.
 
-Para obter mais informações sobre filtros de evento no módulo Workfront > Eventos de observação, consulte [Módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações sobre filtros de evento no módulo Workfront > Eventos de observação, consulte [módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

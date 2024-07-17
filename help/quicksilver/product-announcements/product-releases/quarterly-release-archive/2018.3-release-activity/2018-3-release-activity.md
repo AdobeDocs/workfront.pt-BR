@@ -16,10 +16,10 @@ ht-degree: 0%
 
 # Atividade da versão 2018.3
 
-* [Visão geral da atividade da versão 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
+* Visão geral da atividade da versão [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
 * [Final do Beta 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
-* [Atividade da versão Beta 5 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
-* [Atividade da versão Beta 4 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
-* [Atividade da versão Beta 3 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
-* [Atividade da versão Beta 2 de 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
-* [Atividade da versão Beta 1 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
+* [Atividade da versão 2018.3 do Beta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
+* [Atividade da versão 2018.3 do Beta 4](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
+* [Atividade da versão 2018.3 do Beta 3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
+* [Atividade da versão 2 do Beta 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+* [Atividade da versão 2018.3 do Beta 1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Esta página descreve todas as placas e as melhorias ágeis feitas com a versão 23.3. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-Para obter detalhes sobre como aderir aos novos recursos de Quadros antes da versão trimestral, consulte [Aceitação antecipada de recursos para painéis do Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Para obter detalhes sobre como aceitar novos recursos de Quadros antes da versão trimestral, consulte [Aceitação antecipada de recursos para Quadros Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## A Exibição Agile de um projeto exibe um quadro kanban
 
@@ -30,9 +30,9 @@ A Exibição Agile de um projeto agora inclui funcionalidades adicionais para fi
 
 Enquanto estiver no quadro, você pode optar por alternar para a Exibição Agile herdada.
 
-Para obter mais informações, consulte [Gerenciar um projeto na visualização Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obter mais informações, consulte [Gerenciar um projeto na Exibição Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3421283/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Classificar por colunas do quadro
 
@@ -44,7 +44,7 @@ A opção &quot;ordem do usuário&quot; retorna os cartões na ordem em que fora
 
 Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## O modo escuro agora está disponível em placas Adobe Workfront
 
@@ -72,15 +72,15 @@ Para obter mais informações, consulte [Criar uma iteração em um fluxo de tra
 
 Agora é possível adicionar comentários a cartões ad hoc e conectados em quadros e marcar outros usuários nos comentários. Os comentários estão disponíveis nos detalhes do cartão. O recurso de comentário para quadros usa a nova experiência de comentário do Adobe Workfront.
 
-Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3420832/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Melhorias no gerenciador de tags das placas
 
 A interface do gerenciador de tags foi aprimorada, permitindo criar novas tags rapidamente e aplicá-las a cartões. Você também pode criar tags para fluxos de trabalho.
 
-Para obter mais informações, consulte [Adicionar tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+Para obter mais informações, consulte [Adicionar marcas](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
 ## Filtros simples disponíveis nas colunas de entrada a bordo
 
@@ -92,7 +92,7 @@ Filtros simplificados foram adicionados à configuração da coluna de entrada p
 
 Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3419420/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3419420/){target=_blank}
 
 ## Filtros simples adicionados ao modelo de quadro dinâmico
 
@@ -116,11 +116,11 @@ O quadro dinâmico permite preencher automaticamente um quadro com cartões com 
 
 Para obter mais informações, consulte [Criar ou editar um quadro](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3418600/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
 ## Migrar cartões Kanban da Equipe Ágil para Quadros
 
-Um novo **Adicionar a painéis** O botão em quadros Kanban de equipe ágil permite adicionar todos os cartões do quadro Kanban a um quadro Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.
+Um novo botão **Adicionar aos quadros** em quadros Kanban de equipes ágeis permite adicionar todos os cartões do quadro Kanban a um quadro Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.
 
 O posicionamento dos cartões no quadro do Workfront é baseado nas políticas de coluna. (Por exemplo, uma política pode mover todos os cartões com status &quot;Em andamento&quot; para uma coluna específica.) Se não houver políticas ou os cartões não corresponderem às políticas, os cartões serão colocados na coluna mais à esquerda. Nesse momento, os cartões na coluna Backlog da placa herdada não são adicionados à placa Workfront.
 
@@ -128,7 +128,7 @@ Os cartões não são removidos do quadro Kanban da Equipe Ágil e as alteraçõ
 
 Para obter mais informações, consulte [Migrar cartões Kanban da Equipe Ágil para quadros do Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3420425/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
 ## Navegação à esquerda adicionada aos detalhes do cartão em Quadros
 
@@ -140,9 +140,9 @@ Para obter mais informações, consulte [Migrar cartões Kanban da Equipe Ágil 
 
 Além disso, agora é possível adicionar URLs no campo Descrição, que se tornarão links clicáveis quando os detalhes do cartão forem salvos. Essas atualizações se aplicam aos cartões ad hoc e conectados.
 
-Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3418598/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 
 ## Notificações e preferências de email dos painéis
 
@@ -154,4 +154,4 @@ As notificações por email agora estão disponíveis para painéis do Adobe Wor
 
 Para obter mais informações, consulte [Notificações e preferências de email dos painéis](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3418597/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3418597/){target=_blank}

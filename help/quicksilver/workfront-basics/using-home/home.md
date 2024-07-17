@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Página inicial
+title: Início
 description: Revise essas áreas para obter um entendimento da área Página inicial no Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
@@ -14,9 +14,9 @@ ht-degree: 7%
 
 ---
 
-# Página inicial
+# Início
 
 Esta seção contém as seguintes subseções:
 
 * [Nova Página Inicial](../../workfront-basics/using-home/new-home/new-home.md)
-* [Use o [!UICONTROL Início] área](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [Usar a área [!UICONTROL Página inicial]](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

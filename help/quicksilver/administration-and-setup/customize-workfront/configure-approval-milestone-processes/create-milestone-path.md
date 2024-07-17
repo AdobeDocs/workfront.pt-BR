@@ -43,7 +43,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ A soma de todos os marcos predefinidos é chamada de caminho de marcos.
 
 A primeira etapa na criação de um caminho de marcos é identificar quais são as etapas de marcos e estabelecer os marcos. Como é possível associar um caminho de etapas a vários projetos, as etapas de etapas devem ser fases ou estágios gerais de qualquer projeto.
 
-Para obter mais informações sobre como associar um caminho de etapas a um projeto e um marco a uma tarefa, consulte [Associar marcos a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Para obter mais informações sobre como associar um caminho de etapas a um projeto e uma etapa a uma tarefa, consulte [Associar etapas a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 ## Criar um caminho de etapas
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Processos** > **Caminhos de Etapas**.
 1. Clique em **Novo Caminho de Etapas.**
-1. Especifique as seguintes informações no campo **Informações básicas** área:
+1. Especifique as seguintes informações na área **Informações Básicas**:
 
    <table style="table-layout:auto">
     <tr>
@@ -87,7 +87,7 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
     </tr>
    </table>
 
-1. Especifique as seguintes informações no campo **Etapas** área:
+1. Especifique as seguintes informações na área **Etapas**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,9 +108,9 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
     </tbody> 
    </table>
 
-1. Clique em **Adicionar Etapa** e continue adicionando marcos, conforme necessário, até que o caminho seja concluído.
-1. Clique em **Criar Caminho de Etapas** para salvar as alterações.
+1. Clique em **Adicionar Etapa** e continue adicionando etapas conforme necessário até que o caminho seja concluído.
+1. Clique em **Criar Caminho de Etapas** para salvar suas alterações.
 
    Seu caminho de etapas está pronto para ser associado a um projeto.
 
-   Para obter mais informações sobre como associar caminhos de etapas a projetos e etapas a tarefas, consulte [Associar marcos a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   Para obter mais informações sobre como associar caminhos de etapas a projetos e etapas a tarefas, consulte [Associar etapas a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).

@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Trabalhar em fusos horários
-description: Pode ser útil compreender como [!DNL Adobe Workfront] O usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
+description: Pode ser útil entender como o  [!DNL Adobe Workfront] usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
@@ -16,10 +16,10 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Pode ser útil compreender como [!DNL Adobe Workfront] O usa fusos horários para calcular o seguinte:
+Pode ser útil entender como o [!DNL Adobe Workfront] usa fusos horários para calcular o seguinte:
 
 * Campos de tempo para objetos
-* Horas em outras [!DNL Workfront] áreas, como emails automatizados do Workfront
+* Tempos em outras áreas do [!DNL Workfront], como emails automatizados do Workfront
 
 >[!WARNING]
 >
@@ -32,25 +32,25 @@ Pode ser útil compreender como [!DNL Adobe Workfront] O usa fusos horários par
 
 ## Fusos horários em [!DNL Workfront]
 
-Vezes que você vê em [!DNL Workfront] são baseados nas configurações de fuso horário da sua organização [!DNL Workfront] instância e para seu perfil de usuário. Se esses dois fusos horários forem diferentes, você poderá ver discrepâncias de tempo em diferentes áreas e recursos que usa no [!DNL Workfront].
+Os horários que você vê no [!DNL Workfront] são baseados nas configurações de fuso horário da instância [!DNL Workfront] da sua organização e do seu perfil de usuário. Se esses dois fusos horários forem diferentes, você poderá ver discrepâncias de tempo em diferentes áreas e recursos que você usa no [!DNL Workfront].
 
 >[!NOTE]
 >
 >Em um formulário personalizado anexado a um objeto, os demonstrativos de data e hora em campos personalizados calculados são calculados e salvos pelo Tempo universal coordenado (UTC), não pelas configurações de fuso horário definidas para a instância da organização e o perfil do usuário. Os cálculos em um formulário personalizado são gerados e exibidos com base nos fusos horários individuais de cada usuário.
 
-* [Da sua organização [!DNL Workfront] instância](#your-organization-s-workfront-instance)
+* [Instância  [!DNL Workfront]  da sua organização](#your-organization-s-workfront-instance)
 * [Seu perfil de usuário](#your-user-profile)
 
-### Da sua organização [!DNL Workfront] instância {#your-organization-s-workfront-instance}
+### Instância [!DNL Workfront] da sua organização {#your-organization-s-workfront-instance}
 
-O fuso horário de sua organização [!DNL Workfront] geralmente, a instância é definida para a localização do escritório principal. Isso determina o seguinte:
+O fuso horário da instância [!DNL Workfront] de sua organização geralmente é definido para a localização do escritório principal. Isso determina o seguinte:
 
 * O tempo mostrado nos emails gerados por [!DNL Workfront]
-* O fuso horário dos usuários recém-adicionados (antes da variável [!DNL Workfront] o administrador configura um fuso horário diferente para eles com base no local em que trabalham)
+* O fuso horário para usuários recém-adicionados (antes do administrador do [!DNL Workfront] configurar um fuso horário diferente para eles com base no local em que trabalham)
 
-  Para obter mais informações sobre esses dois exemplos, consulte [Configurar informações básicas do seu sistema](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  Para obter mais informações sobre esses dois exemplos, consulte [Configurar informações básicas do sistema](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-* O início ou o fim de uma taxa de cobrança substituída para um projeto. Para obter mais informações, consulte [Substituir Taxas de Cobrança de Função de Trabalho no nível do projeto](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+* O início ou o fim de uma taxa de cobrança substituída para um projeto. Para obter mais informações, consulte [Substituir taxas de cobrança de função de trabalho no nível do projeto](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 ### Seu perfil de usuário {#your-user-profile}
 
@@ -62,17 +62,17 @@ O fuso horário em seu perfil de usuário deve ser configurado para o local onde
 -->
 * Horários para um objeto no qual você trabalha, como horário de início e término
 
-  Se usuários em vários fusos horários forem atribuídos a um objeto, [!DNL Workfront] converte as horas do objeto para todos envolvidos, usando o fuso horário configurado em cada perfil de usuário.
+  Se usuários em vários fusos horários forem atribuídos a um objeto, o [!DNL Workfront] converterá os horários do objeto para todos os envolvidos, usando o fuso horário configurado em cada perfil de usuário.
 
-  **Exemplo:** Na zona Horário Padrão da Costa Leste (EST) onde você trabalha, você define uma tarefa para começar às 16h e a atribui aos usuários que trabalham na zona Horário Padrão do Pacífico (PST). Para esses usuários, a hora de início é exibida como 13h. Se fosse exibido como 16h, começariam a trabalhar nele com três horas de atraso.
+  **Exemplo:** na zona EST (Horário Padrão da Costa Leste) onde você trabalha, você define uma tarefa para começar às 16h e a atribui aos usuários que trabalham na zona PST (Horário Padrão do Pacífico). Para esses usuários, a hora de início é exibida como 13h. Se fosse exibido como 16h, começariam a trabalhar nele com três horas de atraso.
 
   Se o criador do objeto não observar a diferença entre os fusos horários dos atribuídos e fizer os ajustes necessários ao definir os tempos do objeto, ou se os atribuídos não observarem essa diferença, pode ser difícil obter o tempo correto enquanto todos colaboram no objeto.
 
-  **Exemplo:** Você configura uma tarefa de um dia para começar às 9h EST, esquecendo que alguns usuários na tarefa trabalham na zona PST. Para eles, a hora de início é 6:00. Como eles não começarão a trabalhar nisso até às 9:00 da hora (meio-dia, horário de vocês), a tarefa começa e termina com três horas de atraso.
+  **Exemplo:** configure uma tarefa de um dia para começar às 9h EST, esquecendo que alguns usuários na tarefa trabalham na zona PST. Para eles, a hora de início é 6:00. Como eles não começarão a trabalhar nisso até às 9:00 da hora (meio-dia, horário de vocês), a tarefa começa e termina com três horas de atraso.
 
-Para obter informações sobre como configurar o fuso horário no perfil do usuário, consulte [Definir minhas configurações](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Para obter informações sobre como configurar o fuso horário no seu perfil de usuário, consulte [Configurar minhas configurações](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-Para obter informações sobre como uma [!DNL Workfront] administrador (ou alguém com [!UICONTROL Editar] aos usuários) puder configurar o fuso horário em um perfil de usuário, consulte [Editar o perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obter informações sobre como um administrador do [!DNL Workfront] (ou alguém com acesso de [!UICONTROL Edição] aos usuários) pode configurar o fuso horário em um perfil de usuário, consulte [Editar perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Como você pode facilitar para os usuários trabalharem em fusos horários
 
@@ -84,10 +84,10 @@ Você pode ajudar os usuários a trabalharem mais facilmente em vários fusos ho
 
 ### Usar agendas {#use-schedules}
 
-[!DNL Workfront] os administradores criam programações separadas para cada fuso horário na organização para garantir que o trabalho seja agendado adequadamente para todos, onde quer que estejam. Depois que o administrador cria os cronogramas, eles podem ser associados a determinados projetos e usuários:
+Os administradores do [!DNL Workfront] criam cronogramas separados para cada fuso horário da sua organização para garantir que o trabalho seja agendado adequadamente para todos, onde quer que estejam. Depois que o administrador cria os cronogramas, eles podem ser associados a determinados projetos e usuários:
 
-* **[!UICONTROL Projetos]**: um criador de projeto pode selecionar um agendamento para um projeto individual. Isso determina o agendamento das tarefas no projeto, com base nas horas de trabalho definidas para os fusos horários dos atribuídos.
-* **[!UICONTROL Usuários]**: A [!DNL Workfront] administrador (ou alguém com [!UICONTROL Editar] acesso a usuários) podem selecionar um agendamento para usuários individuais no perfil do usuário.
+* **[!UICONTROL Projetos]**: o criador de um projeto pode selecionar um agendamento para um projeto individual. Isso determina o agendamento das tarefas no projeto, com base nas horas de trabalho definidas para os fusos horários dos atribuídos.
+* **[!UICONTROL Usuários]**: Um administrador do [!DNL Workfront] (ou alguém com acesso de [!UICONTROL Edição] aos usuários) pode selecionar um agendamento para um usuário individual no perfil do usuário.
 
   Este cronograma pode ser diferente de um cronograma de projeto. Por exemplo, quando alguém cria uma tarefa no projeto e ainda não atribuiu ninguém a ela, a tarefa usa o cronograma do projeto. Quando um usuário é atribuído à tarefa, ela usa o agendamento desse usuário.
 
@@ -98,23 +98,23 @@ Você pode ajudar os usuários a trabalharem mais facilmente em vários fusos ho
 
   Isso pode fazer com que as datas das tarefas mudem.
 
-  **Exemplo:** Um usuário EST é atribuído a uma tarefa de um dia agendada para iniciar às 9h00 PST, que é meio-dia EST. Como o usuário EST tem apenas 2 horas de trabalho restantes para o dia, a data de conclusão da tarefa se estende por cerca de 6 horas no próximo dia útil.
+  **Exemplo:** um usuário EST é atribuído a uma tarefa de um dia agendada para iniciar às 9h00 PST, que é meio-dia EST. Como o usuário EST tem apenas 2 horas de trabalho restantes para o dia, a data de conclusão da tarefa se estende por cerca de 6 horas no próximo dia útil.
 
-  Para obter informações sobre o [!UICONTROL Preferências do projeto] área de [!UICONTROL Configuração], consulte [Configurar preferências de projeto em todo o sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Para obter informações sobre a área [!UICONTROL Preferências do Projeto] da [!UICONTROL Instalação], consulte [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-  Para obter instruções sobre como atribuir um agendamento a um projeto ou usuário, consulte [Criar um agendamento](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Para obter instruções sobre como atribuir uma agenda a um projeto ou usuário, consulte [Criar uma agenda](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-  Para obter informações sobre como o fuso horário configurado no seu agendamento afeta a distribuição de [!UICONTROL Horas planejadas] no [!UICONTROL Balanceador de carga de trabalho], consulte [Gerenciar alocações de usuários no [!UICONTROL Balanceador de carga de trabalho]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Para obter informações sobre como o fuso horário configurado em seu agendamento afeta a distribuição de [!UICONTROL Horas planejadas] no [!UICONTROL Balanceador de carga de trabalho], consulte [Gerenciar alocações de usuários no [!UICONTROL Balanceador de carga de trabalho]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Usar campos de tempo calculado em um formulário personalizado {#use-calculated-time-fields-in-a-custom-form}
 
 Você pode usar uma série de campos personalizados calculados em um formulário personalizado para exibir a hora atual dos usuários em sua organização, como uma linha de relógios do aeroporto exibindo a hora em várias cidades. Você pode criar um campo para cada um dos fusos horários em que seus usuários trabalham, cada um calculando o horário para seu fuso horário.
 
-Para obter mais informações, consulte [Adicionar dados calculados a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), bem como a seção [Campos personalizados calculados de data e hora](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) no artigo [Visão geral das expressões de dados calculadas](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Para obter mais informações, consulte [Adicionar dados calculados a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), bem como a seção [Campos personalizados calculados de data e hora](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) no artigo [Visão geral das expressões de dados calculados](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Usar campos de texto em vez de campos de data em um formulário personalizado {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
-Se você não quiser [!DNL Workfront] para converter as horas configuradas para o em um objeto para usuários em diferentes fusos horários, é possível usar um campo de texto em um formulário personalizado anexado a um objeto, em vez de um campo de data. Dessa forma, o horário exibe o horário digitado para todos no projeto.
+Se você não quiser que o [!DNL Workfront] converta horas configuradas em um objeto para usuários em diferentes fusos horários, poderá usar um campo de texto em um formulário personalizado anexado a um objeto, em vez de um campo de data. Dessa forma, o horário exibe o horário digitado para todos no projeto.
 
 Se você fizer isso, recomendamos lembrar os usuários do formulário de calcular a diferença entre o fuso horário deles e o seu para que eles possam determinar quando o trabalho deve começar e terminar. Você pode incluir isso nas instruções digitadas para o formulário personalizado ou em uma dica de ferramenta para esse campo. Para obter mais informações, consulte [Adicionar um campo personalizado a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).

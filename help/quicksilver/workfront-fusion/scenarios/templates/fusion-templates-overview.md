@@ -3,21 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Visão geral dos modelos do Adobe Workfront Fusion
-description: O recurso de modelos do Workfront Fusion permite criar e usar modelos existentes como ponto de partida para o [!DNL Workfront Fusion] cenários.
+description: O recurso de modelos do Workfront Fusion permite criar e usar modelos existentes como ponto de partida para seus  [!DNL Workfront Fusion]  cenários.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ebc1853906e56b95601c1fe202ddc19d147fa7c2
+exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] visão geral dos modelos
+# Visão geral dos modelos [!DNL Adobe Workfront Fusion]
 
-[!DNL Workfront Fusion] O recurso de modelos permite criar e usar modelos existentes como ponto de partida para a [!DNL Workfront Fusion] cenários. Os modelos representam casos de uso comuns que você pode configurar e modificar para atender às necessidades da sua organização e de casos de uso específicos.
+O recurso de modelos [!DNL Workfront Fusion] permite criar e usar modelos existentes como ponto de partida para seus cenários [!DNL Workfront Fusion]. Os modelos representam casos de uso comuns que você pode configurar e modificar para atender às necessidades da sua organização e de casos de uso específicos.
 
-Para obter uma lista de modelos do Fusion disponíveis no momento, consulte [Modelos do Adobe Workfront Fusion disponíveis no momento](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
+Para obter uma lista de modelos do Fusion atualmente disponíveis, consulte [Modelos do Adobe Workfront Fusion atualmente disponíveis](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
 
 ## Requisitos de acesso
 
@@ -38,7 +39,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td>  
    <td> 
-   <p>Atual: Não [!DNL Workfront Fusion] requisito de licença.</p> 
+   <p>Atual: nenhum requisito de licença [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Herdados: Qualquer um </p> 
    </td>  
@@ -48,7 +49,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> 
    <p>Novo:</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</li></ul> 
    <p>Ou</p> 
-   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Atual: sua organização deve comprar o [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -62,7 +63,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 Na área Modelos, é possível exibir os modelos disponíveis, os aplicativos que eles incluem e sua estrutura. Você também pode pesquisar aplicativos ou nomes específicos e filtrar por caso de uso.
 
-1. Clique em **Modelos** ![Ícone de modelo](assets/fusion-template-icon.png) no painel de navegação esquerdo.
+1. Clique em **Modelos** ![Ícone de modelo](assets/fusion-template-icon.png) na navegação à esquerda.
 1. Para exibir o modelo disponível publicamente, clique na guia Templates Públicos.
 
    Ou

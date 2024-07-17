@@ -5,7 +5,8 @@ title: Adicionar um relatório existente a um painel da tela
 description: Os relatórios criados por meio da ferramenta Relatórios do Adobe Workfront podem ser adicionados a um Painel de controle da tela.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # Adicionar um relatório existente a um painel da tela
 
-Os relatórios criados por meio da ferramenta Relatórios do Adobe Workfront podem ser adicionados a um Painel de controle da tela. Para obter mais informações sobre a criação de relatórios, consulte [Introdução a relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Os relatórios criados por meio da ferramenta Relatórios do Adobe Workfront podem ser adicionados a um Painel de controle da tela. Para obter mais informações sobre como criar relatórios, consulte [Introdução aos relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-Para obter informações gerais sobre como adicionar e organizar relatórios em um Painel de Controle da Tela de Pintura, consulte [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Para obter informações gerais sobre como adicionar e organizar relatórios em um Painel da Tela de Pintura, consulte [Adicionar, remover ou organizar relatórios em um Painel da Tela de Pintura](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
 
 ## Requisitos de acesso
 
@@ -49,4 +50,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 >[!IMPORTANT]
 >
->Este artigo ainda não foi concluído. Consulte as instruções gerais para adicionar um relatório a um Painel da tela no artigo [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>Este artigo ainda não foi concluído. Consulte as instruções gerais para adicionar um relatório a um Painel da Tela no artigo [Adicionar, remover ou organizar relatórios em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).

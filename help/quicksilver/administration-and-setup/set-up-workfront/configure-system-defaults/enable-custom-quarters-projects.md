@@ -3,27 +3,27 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Habilitar trimestres personalizados para projetos
-description: Para fins de relatório, você pode criar trimestres personalizados se os trimestres de sua organização se basearem em critérios específicos diferentes das datas do calendário (como dias úteis ou dias de compras).
+description: Para fins de relatórios, você pode criar trimestres personalizados se os trimestres de sua organização forem baseados em critérios específicos diferentes das datas do calendário (como dias úteis ou dias de compras).
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Habilitar trimestres personalizados para projetos
 
-Para fins de relatório, você pode criar trimestres personalizados se os trimestres de sua organização se basearem em critérios específicos diferentes das datas do calendário (como dias úteis ou dias de compras).
+Para fins de relatórios, você pode criar trimestres personalizados se os trimestres de sua organização forem baseados em critérios específicos diferentes das datas do calendário (como dias úteis ou dias de compras).
 
-Você pode configurar até oito trimestres personalizados para sua [!DNL Adobe Workfront] sistema.
+Você pode configurar até oito trimestres personalizados para seu sistema [!DNL Adobe Workfront].
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,41 +31,41 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>[!UICONTROL Plano]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um [!DNL Workfront] administrador.</p> <p><b>OBSERVAÇÃO</b>: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador [!DNL Workfront].</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Configure os trimestres personalizados para sua [!DNL Workfront] sistema
+## Configurar trimestres personalizados para o sistema [!DNL Workfront]
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Configuração]** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
 
 1. Clique em **[!UICONTROL Preferências do projeto]** > **[!UICONTROL Projetos].**
 
-1. No **[!UICONTROL Linhas do tempo]** seção , selecione **[!UICONTROL Ativar Trimestres Personalizados]**.
+1. Na seção **[!UICONTROL Linhas do Tempo]**, selecione **[!UICONTROL Habilitar Trimestres Personalizados]**.
 
-1. Digite um nome para o trimestre personalizado, como &quot;T1 fiscal 2021.&quot;
+1. Digite um nome para o trimestre personalizado, como &quot;T1 fiscal de 2021&quot;.
 1. Selecione datas de início e término para o trimestre personalizado.
 
    ![](assets/custom-quarters-nwe.png)
 
-1. (Opcional) Clique em **[!UICONTROL Adicionar Trimestre Personalizado]** para adicionar outros trimestres personalizados ao sistema.
-1. (Opcional) Crie um elemento de relatório que se refere aos trimestres fiscais.
+1. (Opcional) Clique em **[!UICONTROL Adicionar trimestre personalizado]** para adicionar mais trimestres personalizados ao sistema.
+1. (Opcional) Crie um elemento de relatório que faça referência aos trimestres fiscais.
 
-   **Exemplo:** Criar um filtro para um [!UICONTROL projeto] e incluir a Data de conclusão planejada de um projeto que faça referência aos trimestres personalizados.
+   **Exemplo:** Crie um filtro para uma lista de [!UICONTROL projetos] e inclua a Data de Conclusão Planejada de um projeto que faça referência aos trimestres personalizados.
 
    ![](assets/example-of-project-filter-with-custom-quarters.png)
 
-   As referências a &quot;Este Trimestre&quot;, &quot;Próximo Trimestre&quot; e &quot;Último Trimestre&quot; são substituídas por novas referências aos trimestres personalizados.
+   As referências a &quot;Este trimestre&quot;, &quot;Próximo trimestre&quot; e &quot;Último trimestre&quot; são substituídas por novas referências aos trimestres personalizados.
 
-   Para obter informações sobre elementos de relatório, consulte [Elementos de relatório: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   Para obter informações sobre elementos de relatórios, consulte [Elementos de relatórios: filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    Para obter informações sobre como criar filtros, consulte [Criar ou editar filtros em [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).

@@ -36,7 +36,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -49,10 +49,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-boards}}
 
-1. Para abrir um workflow, clique em [!UICONTROL **Exibir fluxo de trabalho**].
-1. Clique em [!UICONTROL **Lista de cartões**] guia.
+1. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
+1. Clique na guia [!UICONTROL **Lista de cartões**].
 1. Clique em [!UICONTROL **Adicionar cartão**].
-1. No [!UICONTROL **Criar/editar cartão**] adicione as seguintes informações:
+1. Na caixa de diálogo [!UICONTROL **Criar/Editar Cartão**], adicione as seguintes informações:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -88,9 +88,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Exibir cartões
 
-Para exibir todos os cartões do workflow em uma única lista, clique em [!UICONTROL **Exibição de lista**] na guia Lista de cartões.
+Para exibir todos os cartões para o fluxo de trabalho em uma única lista, clique em [!UICONTROL **Exibição de lista**] na guia Lista de cartões.
 
-Para exibir todos os cartões do fluxo de trabalho agrupados por iteração, clique em [!UICONTROL **Visualização de iteração**]. Os cartões não planejados são exibidos em seu próprio grupo.
+Para exibir todos os cartões do fluxo de trabalho agrupados por iteração, clique em [!UICONTROL **Exibição de iteração**]. Os cartões não planejados são exibidos em seu próprio grupo.
 
 Para editar um cartão existente, selecione-o na lista e clique em [!UICONTROL **Editar**].
 
@@ -122,10 +122,10 @@ Clique no X para limpar a pesquisa.
 >Você deve criar uma iteração antes de adicionar cartões a ela. Para obter informações, consulte [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Acesse a lista de cartões para o workflow.
-1. Selecione o [!UICONTROL **Visualização de iteração**] para ver quais cartões são atribuídos a uma iteração e quais não estão planejados.
+1. Selecione a [!UICONTROL **Exibição de iteração**] para ver quais cartões estão atribuídos a uma iteração e quais não estão planejados.
 1. Selecione um cartão não planejado na lista e clique em [!UICONTROL **Editar**].
-1. Selecione uma iteração na variável [!UICONTROL **Iterações**] campo.
-1. Se estiver usando pontos de história, insira um valor na variável [!UICONTROL **Estimativa**] campo.
+1. Selecione uma iteração no campo [!UICONTROL **Iterações**].
+1. Se você estiver usando pontos de história, insira um valor no campo [!UICONTROL **Estimativa**].
 1. Clique em [!UICONTROL **Salvar**].
 
    O cartão é movido para a iteração e as métricas de iteração refletem o número de cartões e pontos.
@@ -134,4 +134,4 @@ Clique no X para limpar a pesquisa.
 
 >[!TIP]
 >
->Se você tiver criado um quadro de processo de iteração, todos os cartões não planejados na lista de cartões aparecerão na [!UICONTROL Backlog] coluna. Quando um cartão é movido para outra coluna, ele se torna parte da iteração ativa. Os cartões adicionados à iteração na lista de cartões são adicionados a uma coluna com base em seus status.
+>Se você criou um quadro de processo de iteração, todos os cartões não planejados na lista de cartões aparecerão na coluna [!UICONTROL Backlog]. Quando um cartão é movido para outra coluna, ele se torna parte da iteração ativa. Os cartões adicionados à iteração na lista de cartões são adicionados a uma coluna com base em seus status.

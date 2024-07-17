@@ -25,12 +25,12 @@ Nesta seção, você pode encontrar informações e instruções sobre a primeir
 
 Esta seção contém os seguintes artigos:
 
-* [Visão geral da definição de objetivos para sua implementação do Adobe Workfront](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+* [Visão geral da definição de objetivos para a implementação do Adobe Workfront](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
 * [Gerenciar licenças disponíveis em seu sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
-* [Configurar informações básicas do seu sistema](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
+* [Configurar informações básicas do sistema](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [Visão geral do firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
-* [Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-* [Configurar a inclui na lista de permissões por email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+* incluir na lista de permissões [Configurar o arquivo de pesquisa do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* incluir na lista de permissões [Configurar sua pesquisa de email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [Enviar notificações](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 * [Requisitos do navegador para o Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
 * [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

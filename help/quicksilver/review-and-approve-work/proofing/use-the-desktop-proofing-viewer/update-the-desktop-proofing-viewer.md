@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
-title: Atualize o visualizador de prova de desktop
+title: Atualizar o Visualizador de provas da área de trabalho
 description: Ocasionalmente, novas atualizações de software contendo melhorias e correções de erros ficam disponíveis para o Desktop Proofing Viewer. Os usuários podem executar essas atualizações sem a ajuda de um administrador do Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Atualize o visualizador de prova de desktop
+# Atualizar o Visualizador de provas da área de trabalho
 
 Ocasionalmente, novas atualizações de software contendo melhorias e correções de erros ficam disponíveis para o Desktop Proofing Viewer. Os usuários podem executar essas atualizações sem a ajuda de um administrador do Adobe Workfront.
 
@@ -24,58 +24,58 @@ Ocasionalmente, novas atualizações de software contendo melhorias e correçõe
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront</td> 
-   <td> <p>Plano atual: Pro ou superior</p> <p>ou</p> <p>Plano herdado: Selecionar ou Premium</p> <p>Para obter mais informações sobre como revisar o acesso com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> <p>Plano herdado: Qualquer (É necessário ter a prova ativada para o usuário)</p> </td> 
+   <td> <p>Qualquer</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 {{latest-version}}
 
-## Verificar manualmente se há atualizações
+## Verificar atualizações manualmente
 
-O Desktop Proofing Viewer verifica automaticamente se há atualizações quando ele é iniciado. 
+O Visualizador de provas de desktop verifica automaticamente as atualizações quando é iniciado. 
 
 Para verificar manualmente se há atualizações:
 
-1. Em uma Mac, clique em **Workfront Proof** > **Sobre a Workfront Proof** na barra de navegação do Apple acima do Desktop Proofing Viewer. 
+1. Em uma Mac, clique em **Workfront Proof** > **Sobre o Workfront Proof** na barra de navegação do Apple acima do Visualizador de Revisão de Texto para Desktop. 
 
    Ou
 
-   No Windows, clique em **Window** > **Sobre a Workfront Proof** na barra de menu acima do Desktop Proofing Viewer.
+   No Windows, clique em **Janela** > **Sobre o Workfront Proof** na barra de menus acima do Desktop Proofing Viewer.
 
    O Desktop Proofing Viewer verifica se há atualizações.
 
-1. Se houver atualizações disponíveis, siga os prompts na tela para atualizar o Desktop Proofing Viewer.
+1. Se houver atualizações disponíveis, siga as instruções na tela para atualizar o Desktop Proofing Viewer.
 
 ## Atualizações padrão
 
-O Desktop Proofing Viewer pode funcionar sem as atualizações não críticas. No entanto, para obter a funcionalidade ideal, recomendamos que você as aplique quando disponíveis. Você será notificado quando eles estiverem disponíveis por um **Atualização do aplicativo** na barra lateral esquerda do Visualizador de prova de desktop.
+O Desktop Proofing Viewer pode funcionar sem as atualizações não críticas. No entanto, para obter a funcionalidade ideal, recomendamos que você as aplique quando disponíveis. Você será notificado quando eles estiverem disponíveis por um botão **Atualização de aplicativo** na barra lateral esquerda do Visualizador de provas de desktop.
 
-1. Clique em **Atualização do aplicativo.**
+1. Clique em **Atualização de aplicativo.**
 
-   As atualizações são baixadas.
+   O download das atualizações.
 
-1. Clique em **Reinicie.**
+1. Clique em **Reiniciar.**
 
-   O **Visualizador de prova de desktop** é reiniciado e você pode retomar o trabalho em sua prova.
+   O **Desktop Proofing Viewer** é reiniciado e você pode retomar o trabalho em sua prova.
 
 ## Atualizações necessárias
 
-É importante executar as atualizações necessárias para o Desktop Proofing Viewer. Depois, é necessário reiniciar para continuar usando o visualizador.
+É importante executar as atualizações necessárias para o Visualizador de provas de desktop. Depois disso, você deverá reiniciar o para continuar usando o visualizador.
 
-1. Abra o Desktop Proofing Viewer.
-1. Na caixa exibida, clique em **Reinicie.**
+1. Abra o Visualizador de provas de desktop.
+1. Na caixa exibida, clique em **Reiniciar.**
 
-   O Desktop Proofing Viewer é reiniciado e você pode retomar o trabalho em sua prova. 
+   O Visualizador de provas de desktop é reiniciado e você pode retomar o trabalho na prova. 

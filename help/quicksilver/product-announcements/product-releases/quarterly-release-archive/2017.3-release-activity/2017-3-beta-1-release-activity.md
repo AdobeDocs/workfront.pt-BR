@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 1 2017.3
+title: Atividade da versão 2017.3 do Beta 1
 description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 9 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 1 2017.3
+# Atividade da versão 2017.3 do Beta 1
 
 Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2017.3. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 9 de agosto de 2017. Ele estará disponível no ambiente de Produção no início de novembro de 2017.
 
@@ -22,37 +22,37 @@ Esta página descreve todas as alterações disponíveis mais recentemente no am
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2017.3, consulte  [Visão geral da atividade da versão 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2017.3, consulte  Visão geral da atividade da versão [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-A versão Beta 1 2017.3 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2017.3 do Beta 1 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores:**
+**Para Administradores:**
 
-* [Evite que tarefas e problemas sejam excluídos quando as horas são registradas](#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
-* [Remoção da configuração de &quot;Acesso antecipado&quot; da área de configuração](#removal-of-the-early-access-setting-from-the-setup-area)
+* [Impedir a Exclusão de Tarefas e Problemas quando as Horas Forem Registradas](#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
+* [Remoção da Configuração de &quot;Acesso Antecipado&quot; da Área de Instalação](#removal-of-the-early-access-setting-from-the-setup-area)
 * [Alteração de endereço de email padrão do Workfront](#workfront-default-email-address-change)
 
 **Para Todos Os Usuários:**
 
 * [Melhorias no Agendamento de Recursos](#resource-scheduling-improvements)
-* [Monitor widescreen](#widescreen-display)
-* [Redimensionar e reordenar colunas em relatórios e listas](#resize-and-reorder-columns-in-reports-and-lists)
-* [Opção Limpar dados personalizados ao copiar tarefas e problemas](#clear-custom-data-option-when-copying-tasks-and-issues)
-* [Criar um projeto diretamente de um modelo](#create-a-project-directly-from-a-template)
-* [Notificação no aplicativo para objetos inscritos](#in-app-notification-for-subscribed-objects)
-* [@Tagging atualmente não disponível no ambiente de visualização](#tagging-currently-not-available-in-the-preview-environment)
+* [Monitor Widescreen](#widescreen-display)
+* [Redimensionar e Reordenar Colunas em Relatórios e Listas](#resize-and-reorder-columns-in-reports-and-lists)
+* [Opção Limpar Dados Personalizados ao Copiar Tarefas e Problemas](#clear-custom-data-option-when-copying-tasks-and-issues)
+* [Criar um Projeto Diretamente de um Modelo](#create-a-project-directly-from-a-template)
+* [Notificação no Aplicativo para Objetos Assinados](#in-app-notification-for-subscribed-objects)
+* [@Tagging Atualmente Não Disponível no Ambiente de Visualização](#tagging-currently-not-available-in-the-preview-environment)
 * [Incluir Informações de Alocação de Usuário no Relatório de Utilização em um Projeto](#include-user-allocation-information-in-the-utilization-report-on-a-project)
 
 ## Melhorias no Agendamento de Recursos {#resource-scheduling-improvements}
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 As seguintes melhorias no agendamento de recursos estão disponíveis ao agendar recursos para uma equipe, para um projeto ou para vários projetos como gerente de recursos:
 
-* [Exibir área de agendamento no modo de tela cheia](#view-scheduling-area-in-full-screen-mode)
-* [Mais Opções de Intervalo de Datas para Exibir a Área de Programação de Recursos](#more-date-range-options-for-viewing-the-resource-scheduling-area)
+* [Exibir Área de Agendamento no Modo de Tela Inteira](#view-scheduling-area-in-full-screen-mode)
+* [Mais Opções de Intervalo de Datas para Exibir a Área de Agendamento de Recursos](#more-date-range-options-for-viewing-the-resource-scheduling-area)
 * [Exibir Datas Projetadas na Linha do Tempo de Agendamento](#view-projected-dates-on-the-scheduling-timeline)
 
 ### Exibir área de agendamento no modo de tela cheia {#view-scheduling-area-in-full-screen-mode}
@@ -104,7 +104,7 @@ Agora é possível reordenar e redimensionar colunas em um relatório ou lista, 
 
 Essa funcionalidade não está disponível para listas ou relatórios de painel, pois essas listas foram reprojetadas em uma nova estrutura de grade de dados. Todas as outras listas terão essa funcionalidade ativada nesta versão.
 
-Para obter mais informações sobre como redimensionar e reordenar colunas, consulte [Modificar a largura e a ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Para obter mais informações sobre como redimensionar e reordenar colunas, consulte [Modificar largura e ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 ## Opção Limpar dados personalizados ao copiar tarefas e problemas {#clear-custom-data-option-when-copying-tasks-and-issues}
 
@@ -112,15 +112,15 @@ Ao copiar uma tarefa ou problema, agora é possível selecionar uma opção para
 
 Antes dessa alteração, os dados personalizados incluídos em um formulário personalizado também eram copiados para o novo item quando você copiava a tarefa ou problema. 
 
-Para obter mais informações sobre copiar tarefas, consulte [Copiar e duplicar tarefas](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+Para obter mais informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Para obter mais informações sobre cópia de problemas, consulte [Copiar problemas](../../../../manage-work/issues/manage-issues/copy-issues.md).
+Para obter mais informações sobre como copiar problemas, consulte [Copiar problemas](../../../../manage-work/issues/manage-issues/copy-issues.md).
 
 ## Criar um projeto diretamente de um modelo {#create-a-project-directly-from-a-template}
 
 Agora é possível criar um projeto a partir de um modelo, no nível do modelo.
 
-Antes dessa alteração, você poderia criar um projeto a partir de um modelo somente na guia Projetos na área Projetos do Workfront, usando a **Novo projeto do modelo** opção.
+Antes dessa alteração, você só poderia criar um projeto a partir de um modelo na guia Projetos da área Projetos do Workfront, usando a opção **Novo projeto a partir de modelo**.
 
 Para obter mais informações sobre como criar um projeto a partir de um modelo, consulte [Criar um projeto usando um modelo](../../../../manage-work/projects/create-projects/create-project-from-template.md).
 
@@ -132,9 +132,9 @@ Antes dessa alteração, quando você excluía uma tarefa ou problema em que as 
 
 Para obter mais informações sobre como excluir tarefas, consulte [Excluir tarefas](../../../../manage-work/tasks/manage-tasks/delete-tasks.md).
 
-Para obter mais informações sobre exclusão de problemas, consulte [Excluir problemas](../../../../manage-work/issues/manage-issues/delete-issues.md).
+Para obter mais informações sobre como excluir problemas, consulte [Excluir problemas](../../../../manage-work/issues/manage-issues/delete-issues.md).
 
-Para obter mais informações sobre como ativar a configuração do sistema para exclusão de tarefas e problemas, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obter mais informações sobre como habilitar a configuração do sistema para exclusão de tarefas e problemas, consulte [Configurar preferências de tarefas e problemas do sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Remoção da configuração de &quot;Acesso antecipado&quot; da área de configuração {#removal-of-the-early-access-setting-from-the-setup-area}
 
@@ -144,7 +144,7 @@ Antes dessa alteração, os administradores do Workfront ainda podiam adicionar 
 
 ## Alteração de endereço de email padrão do Workfront {#workfront-default-email-address-change}
 
-O endereço de email padrão para emails de saída do Workfront foi alterado de [noreply@attask.com](mailto:noreply@attask.com) para [noreply@my.workfront.com](mailto:noreply@workfront.com).
+O endereço de email padrão para email de saída do Workfront foi alterado de [noreply@attask.com](mailto:noreply@attask.com) para [noreply@my.workfront.com](mailto:noreply@workfront.com).
 
 Se você filtrar emails enviados do Workfront atualmente, será necessário alterar seu filtro para refletir o novo endereço padrão. 
 
@@ -154,15 +154,15 @@ Para obter mais informações, consulte.
 
 ## Notificação no aplicativo para objetos inscritos {#in-app-notification-for-subscribed-objects}
 
-Quando um usuário faz um comentário sobre projetos, tarefas e problemas que você assinou, agora você recebe uma notificação no aplicativo. Para saber mais sobre as notificações no aplicativo de assinatura, consulte [Exibir e gerenciar notificações no aplicativo](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Quando um usuário faz um comentário sobre projetos, tarefas e problemas que você assinou, agora você recebe uma notificação no aplicativo. Para saber mais sobre notificações no aplicativo de assinatura, consulte [Exibir e gerenciar notificações no aplicativo](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-Dependendo dos recursos ativados pelo administrador do Workfront, você também pode receber notificações por email sobre itens inscritos. É possível cancelar facilmente a inscrição de um item por meio de um link em um email de inscrição, conforme descrito em [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Dependendo dos recursos ativados pelo administrador do Workfront, você também pode receber notificações por email sobre itens inscritos. É possível cancelar facilmente a assinatura de um item por meio de um link em um email de assinatura, conforme descrito em [Notificações do Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 Antes dessa alteração, você sempre recebia uma notificação por email sobre itens inscritos e não havia opção de receber uma notificação no aplicativo.
 
 Embora você possa desativar o email de subscrição, não pode desativar as notificações no aplicativo para itens subscritos. Para obter mais informações, consulte [Configurar notificações de eventos para todos no sistema](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Para saber mais sobre a assinatura de itens, consulte [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Para saber mais sobre como assinar itens, consulte [Assinar itens no Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
 
 ## @Tagging atualmente não disponível no ambiente de visualização {#tagging-currently-not-available-in-the-preview-environment}
 
@@ -173,16 +173,16 @@ Para saber mais sobre a assinatura de itens, consulte [Assinar itens no Adobe Wo
 * Problema
 * Planilha de horas
 
-Você ainda pode marcar outras pessoas clicando no link **Incluir outros nesta atualização** ícone.
+Você ainda pode marcar outras pessoas clicando no ícone **Incluir outras nesta Atualização**.
 
-Para obter mais informações, consulte [Marcar outros usuários em atualizações](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Para obter mais informações, consulte [Marcar outros em atualizações](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Incluir Informações de Alocação de Usuário no Relatório de Utilização em um Projeto {#include-user-allocation-information-in-the-utilization-report-on-a-project}
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 O Relatório de utilização em um projeto agora considera se as Horas planejadas foram realocadas na duração de uma tarefa. Quando a alocação de horas do usuário tiver sido modificada (conforme descrito em &quot;Gerenciar alocações de usuários nas áreas de Agendamento&quot;), os dados no Relatório de Utilização poderão ser afetados se as datas selecionadas no Relatório de Utilização contiverem apenas uma parte de uma tarefa.
 
-Para obter mais informações, consulte [Visão Geral do relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obter mais informações, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).

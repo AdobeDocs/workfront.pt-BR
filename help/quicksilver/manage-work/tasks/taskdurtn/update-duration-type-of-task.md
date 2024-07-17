@@ -9,13 +9,13 @@ exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Atualizar o tipo de duração de uma tarefa
 
-O Tipo de Duração de uma tarefa identifica a relação entre o número de recursos atribuídos a uma tarefa, o esforço total e a Duração total da tarefa. Para obter mais informações, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+O Tipo de Duração de uma tarefa identifica a relação entre o número de recursos atribuídos a uma tarefa, o esforço total e a Duração total da tarefa. Para obter mais informações, consulte [Visão geral da duração e do tipo de duração da tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Requisitos de acesso
 
@@ -27,7 +27,7 @@ Você deve ter o seguinte para alterar o Tipo de Duração de uma tarefa:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -39,12 +39,12 @@ Você deve ter o seguinte para alterar o Tipo de Duração de uma tarefa:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar acesso à tarefa </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar acesso à tarefa </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Atualizar o tipo de duração de uma tarefa
 
@@ -55,9 +55,9 @@ Além de atualizar o Tipo de Duração de uma tarefa conforme descrito neste art
 
 Para atualizar o Tipo de Duração de uma tarefa:
 
-1. Clique em **Menu principal** > **Projetos** e, em seguida, clique em um projeto para acessá-lo.
-1. Clique em **Tarefas** no painel esquerdo .
-1. Clique em **Detalhes da tarefa** no painel esquerdo e, na área Visão geral, clique em **Tipo de Duração**.
+1. Clique em **Menu principal** > **Projetos** e clique em um projeto para acessá-lo.
+1. Clique na seção **Tarefas** no painel esquerdo.
+1. Clique em **Detalhes da tarefa** no painel esquerdo e, na área Visão geral, clique em **Tipo de duração**.
 
    ![](assets/duration-type-all-options-on-overview-350x155.png)
 
@@ -65,9 +65,9 @@ Para atualizar o Tipo de Duração de uma tarefa:
 
    | Tipo de Duração | Mais informações |
    |---|---|
-   | Trabalho Calculado | Para obter informações, consulte [Visão geral do tipo de duração: trabalho calculado](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
-   | Controlado pelo empenho | Para obter informações, consulte [Visão geral do tipo de duração: Controlado pelo esforço](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
-   | Atribuição Calculada | Para obter informações, consulte [Visão geral do tipo de duração: atribuição calculada](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
-   | Simples | Para obter informações, consulte [Visão geral do tipo de duração: simples](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
+   | Trabalho Calculado | Para obter informações, consulte [Visão geral do Tipo de Duração: Trabalho Calculado](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Controlado pelo empenho | Para obter informações, consulte [Visão geral do tipo de duração: Controlado por esforço](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
+   | Atribuição Calculada | Para obter informações, consulte [Visão geral do Tipo de Duração: Atribuição Calculada](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
+   | Simples | Para obter informações, consulte [Visão geral do Tipo de Duração: Simples](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
 1. Clique em **Salvar alterações**.

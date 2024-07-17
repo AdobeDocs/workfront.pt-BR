@@ -28,7 +28,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licença</strong></td> 
+   <td role="rowheader"><strong>licença do Adobe [!DNL Workfront]</strong></td> 
    <td> <p>[!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
@@ -40,16 +40,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Problema
 
-A variável [!UICONTROL **Projetos em que estou trabalhando**] O filtro inclui resultados que eu não esperaria, pois não estou atribuído ou associado a esses projetos.
+O filtro [!UICONTROL **Projetos em que estou**] inclui resultados que eu não esperaria, pois não estou atribuído ou associado a esses projetos.
 
 ## Solução
 
-A variável [!UICONTROL **Projetos em que estou trabalhando**] filtro inclui projetos que contêm o usuário em qualquer uma de suas [!UICONTROL **Detalhes do projeto**] campos, incluindo campos facilmente perdidos ou preenchidos automaticamente, como [!UICONTROL **Cadastrado por**] ou [!UICONTROL **ID do Patrocinador**]. Para remover resultados indesejados, há duas soluções possíveis:
+O filtro [!UICONTROL **Projetos em que estou**] inclui projetos que contêm o usuário em qualquer um de seus campos [!UICONTROL **Detalhes do Projeto**], incluindo campos que podem ser perdidos facilmente ou que são preenchidos automaticamente, como [!UICONTROL **Informado por**] ou [!UICONTROL **ID do Patrocinador**]. Para remover resultados indesejados, há duas soluções possíveis:
 
-1. Verifique a [!UICONTROL **Detalhes do projeto**] para cada projeto inesperado incluído pelo filtro e remova seu nome de todos os campos.
+1. Verifique os [!UICONTROL **Detalhes do Projeto**] para cada projeto inesperado incluído pelo filtro e remova seu nome de todos os campos.
 
    OU
 
-1. Tente usar um filtro semelhante, como [!UICONTROL **Projetos dos quais sou proprietário**], que inclui apenas projetos especificamente atribuídos a você.
+1. Tente usar um filtro semelhante, como [!UICONTROL **Projetos dos quais sou proprietário**], que inclui apenas projetos que são atribuídos especificamente a você.
 
-Para obter mais informações sobre o uso de filtros em [!DNL Workfront], consulte [Visão geral dos filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obter mais informações sobre o uso de filtros no [!DNL Workfront], consulte [Visão Geral de Filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

@@ -30,7 +30,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -42,12 +42,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Acesso de visualização ou superior ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Acesso de visualização ou superior ao objeto associado à solicitação de acesso ou aprovação </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Solicitações de Acesso
 
@@ -66,18 +66,18 @@ Você pode solicitar acesso adicional para os seguintes objetos:
 
 Para lembrar outro usuário de aprovar sua solicitação de acesso para um objeto:
 
-1. Clique em **Início** ícone ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no link **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Início**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
-1. No **Lista de trabalho** , Vá para a guia **Aprovações que enviei** agrupamento.
+1. Na área **Lista de Trabalho**, vá para o agrupamento **Aprovações que Enviei**.
 
-1. Selecione um **Solicitação de acesso** aprovação na Lista de trabalho.
+1. Selecione uma aprovação de **Solicitação de acesso** na Lista de trabalho.
 
    Isso abre a Solicitação de acesso à direita da Lista de trabalho.
 
@@ -87,22 +87,22 @@ Para lembrar outro usuário de aprovar sua solicitação de acesso para um objet
 
 ## Documentos
 
-1. Clique em **Início** ícone ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no link **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Início**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
-1. No **Lista de trabalho** , Vá para a guia **Aprovações que enviei** agrupamento.
+1. Na área **Lista de Trabalho**, vá para o agrupamento **Aprovações que Enviei**.
 
-1. Clique em a **Documento** aprovação na Lista de trabalho.
+1. Clique em uma aprovação de **Documento** na Lista de Trabalho.
 
    Isso abre a aprovação do documento à direita da Lista de trabalho.\
    ![](assets/document-350x232.png)
 
 1. Clique em **Gerenciar aprovações** no canto superior direito do painel direito.
-1. Clique em **Lembrar** ícone para enviar uma notificação ao aprovador.\
-   ![lembrete.png](assets/remind-350x41.png)
+1. Clique no ícone **Lembrar** para enviar uma notificação ao aprovador.\
+   ![reminder.png](assets/remind-350x41.png)

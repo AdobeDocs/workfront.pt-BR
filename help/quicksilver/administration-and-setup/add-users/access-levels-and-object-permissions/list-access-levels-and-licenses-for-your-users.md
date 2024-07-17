@@ -1,25 +1,25 @@
 ---
-title: Liste os níveis de acesso e as licenças dos usuários
+title: Liste os níveis de acesso e as licenças de seus usuários
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: acessar,nível,licença
+keywords: acesso,nível,licença
 navigation-topic: access-levels
-description: Você pode ver qual nível de acesso e licença são atribuídos a cada usuário em uma lista de usuários ou relatório.
+description: Você pode ver qual nível de acesso e licença estão atribuídos a cada usuário em uma lista de usuários ou relatório.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 1%
 
 ---
 
-# Liste os níveis de acesso e as licenças dos usuários
+# Liste os níveis de acesso e as licenças de seus usuários
 
-Você pode ver qual nível de acesso e licença são atribuídos a cada usuário em uma lista de usuários ou relatório.
+Você pode ver qual nível de acesso e licença estão atribuídos a cada usuário em uma lista de usuários ou relatório.
 
 ## Requisitos de acesso
 
@@ -30,8 +30,8 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -39,41 +39,42 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Visualizar o acesso dos usuários. Para obter mais informações sobre o acesso a usuários de visualização, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> <p><b>OBSERVAÇÃO</b>: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Acesso de visualização para usuários. Para obter mais informações sobre o acesso para exibir usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
-## Liste os níveis de acesso e as licenças dos usuários
+## Liste os níveis de acesso e as licenças de seus usuários
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Usuários**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Usuários**.
 
-   Por padrão, todos os usuários definidos como Ativo são exibidos na lista.
+   Por padrão, todos os usuários definidos como Ativos são exibidos na lista.
 
-1. No **Exibir** , selecione **Licenças**.
+1. No menu suspenso **Exibir**, selecione **Licenças**.
 
    A coluna Licença exibe o nome da licença atribuída a cada usuário.
 
-1. No **Agrupamento** , clique em **Tipo de licença**.
+1. No menu suspenso **Agrupamento**, clique em **Tipo de Licença**.
 
    Essa exibição agrupa os usuários que têm os mesmos tipos de licença.
 
 1. (Opcional) Para filtrar a lista por uma licença específica:
 
-   1. Clique no botão **Filtro** menu suspenso e, em seguida, clique em **Novo filtro**.
+   1. Clique no menu suspenso **Filtro** e em **Novo Filtro**.
 
-   1. Clique em **Adicionar uma regra de filtro**.
-   1. Comece a digitar **Licença** e selecione-o quando aparecer na lista.
-   1. Com o **Igual** modificador selecionado, comece digitando o nome da licença que deseja filtrar pela lista.
+   1. Clique em **Adicionar uma Regra de Filtro**.
+   1. Comece digitando **Licença** e selecione-a quando ela aparecer na lista.
+   1. Com o modificador **Equal** selecionado, comece digitando o nome da licença pela qual deseja filtrar a lista.
 
       Você pode especificar mais de um tipo de licença.
 
    1. Clique em **Salvar filtro**.
 
-      A lista exibe apenas os usuários associados aos tipos de licença especificados no filtro.
+      A lista exibe somente os usuários associados aos tipos de licença especificados no filtro.
+
    >[!TIP]
    >
-   >Também é possível agrupar a lista por tipos de licença ou filtrá-la por uma licença específica.
+   >Você também pode agrupar a lista por tipos de licença ou filtrá-la por uma licença específica.
 

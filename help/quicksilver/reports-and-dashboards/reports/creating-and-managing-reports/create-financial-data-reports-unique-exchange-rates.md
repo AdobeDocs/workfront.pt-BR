@@ -47,12 +47,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -63,7 +63,7 @@ Antes de exibir moedas alternativas conforme descrito nesta seção, o administr
 Para converter valores financeiros entre moedas ao trabalhar com relatórios:
 
 1. Vá para o relatório em que deseja converter os valores financeiros para uma moeda diferente.
-1. Clique em **Exibir** , clique em **Alterar moeda**, em seguida, selecione uma das seguintes moedas nas quais deseja exibir valores financeiros:
+1. Clique na lista suspensa **Exibir**, clique em **Alterar Moeda** e selecione uma das seguintes moedas nas quais deseja exibir valores financeiros:
 
    * Moeda original do projeto
    * Qualquer outra moeda
@@ -96,7 +96,7 @@ Quando você personaliza a moeda no nível do projeto e deseja exibir informaç�
 
 * Se você criar um relatório que traz informações financeiras de dois ou mais projetos que têm moedas diferentes aplicadas, por padrão, o resumo de agrupamento reflete a moeda padrão do sistema, conforme selecionado pelo administrador do Workfront.
 * Se você criar um relatório para dois ou mais projetos que têm a mesma moeda, mas diferem da moeda padrão do sistema, as somas nos agrupamentos serão exibidas usando a moeda padrão do sistema.
-* Se você criar um relatório para dois ou mais projetos que têm atribuições de função de trabalho associadas a uma sobreposição de moeda, o Workfront converterá as informações financeiras das taxas de moeda sobrepostas da função de trabalho para a moeda do projeto (quando você selecionar Moeda Original do Projeto na exibição) ou para qualquer moeda diferente que você selecionar ao exibir o relatório. Para obter informações sobre a substituição da moeda de uma função de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Se você criar um relatório para dois ou mais projetos que têm atribuições de função de trabalho associadas a uma sobreposição de moeda, o Workfront converterá as informações financeiras das taxas de moeda sobrepostas da função de trabalho para a moeda do projeto (quando você selecionar Moeda Original do Projeto na exibição) ou para qualquer moeda diferente que você selecionar ao exibir o relatório. Para obter informações sobre como substituir a moeda de uma função de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 Para exibir dois projetos com moedas personalizadas em um relatório:
 
@@ -106,25 +106,25 @@ Para exibir dois projetos com moedas personalizadas em um relatório:
 
 1. Registre as horas em ambos os projetos.
 
-   Para obter mais informações sobre o tempo de registro, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Para obter mais informações sobre o tempo de registro, consulte [Tempo de registro](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png)e, em seguida, clique em **Relatórios**.
-1. Clique em **Novo Relatório**, depois **Relatório de Projeto**.
-1. No **Colunas (Exibir)** , adicionar um **Custo Efetivo** e resumi-la por **Sum**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Relatórios**.
+1. Clique em **Novo Relatório**, depois em **Relatório de Projeto**.
+1. Na guia **Colunas (Exibição)**, adicione uma coluna **Custo Real** e resuma-a por **Soma**.
 
    Para obter informações sobre como criar uma coluna, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. No **Agrupamentos** , aplique uma **Data de Término Planejada** agrupamento.
+1. Na guia **Agrupamentos**, aplique um agrupamento **Data de conclusão planejada**.
 
    Para obter informações sobre como criar um agrupamento, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. No **Filtros** , adicionar um filtro para **Nome do projeto** e selecione os dois projetos com moedas diferentes.
+1. Na guia **Filtros**, adicione um filtro para **Nome do Projeto** e selecione os dois projetos com moedas diferentes.
 
    Para obter informações sobre como criar um filtro, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 
-   O total dos **Custo Efetivo** é exibido no Agrupamento usando a moeda padrão do sistema, independentemente da moeda dos projetos no relatório.
+   O total do **Custo Efetivo** é exibido no Agrupamento usando a moeda padrão do sistema, independentemente da moeda dos projetos no relatório.
 
    ![Moeda exibida no agrupamento](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
@@ -137,20 +137,20 @@ Se um agrupamento for aplicado em uma lista de tarefas ou horas em um projeto, a
 1. Crie um projeto com uma moeda personalizada, diferente da moeda padrão do sistema.
 1. Vá para o projeto e verifique se ele inclui horas que foram registradas para tarefas.
 
-   Para obter mais informações sobre o tempo de registro, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Para obter mais informações sobre o tempo de registro, consulte [Tempo de registro](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
    >[!NOTE]
    >
    >As tarefas devem ser atribuídas a usuários ou funções de trabalho com taxas de custo por hora.
 
 1. Clique em **Tarefas**.
-1. Expanda a **Exibir** e selecione **Nova visualização**.
-1. Adicionar **Custo Efetivo** na nova Exibição como uma nova coluna e resumi-la por **Sum**.
-1. Clique em **Concluído** e, em seguida, clique em **Salvar visualização**.
-1. Expanda a **Agrupamento** e selecione **Novo Agrupamento**.
-1. Adicionar **Data de término efetivo** no novo agrupamento como um novo campo, em seguida, clique em **Salvar Agrupamento**.
+1. Expanda o menu suspenso **Exibir** e selecione **Nova Exibição**.
+1. Adicione o **Custo Efetivo** na nova Exibição como uma nova coluna e resuma-o pela **Soma**.
+1. Clique em **Concluído** e em **Salvar exibição**.
+1. Expanda o menu suspenso **Agrupamento** e selecione **Novo agrupamento**.
+1. Adicione **Data de conclusão efetiva** no novo agrupamento como um novo campo, depois clique em **Salvar Agrupamento**.
 
-   A variável **Custo Efetivo** A coluna resume no novo Agrupamento e exibe o total na moeda do projeto.
+   A coluna **Custo Real** resume no novo Agrupamento e exibe o total na moeda do projeto.
 
 ## Editar relatórios com moedas exclusivas
 
@@ -167,7 +167,7 @@ Para editar em linha um campo financeiro em um relatório:
 
 1. Clique em **Ações de Relatório** e selecione **Editar**.
 1. Clique em **Configurações do relatório**.
-1. Clique em **Moeda padrão** e selecione **Moeda original do projeto**.
+1. Clique no menu suspenso **Moeda padrão** e selecione **Moeda original do projeto**.
 
    ![](assets/qs-report-settings-default-currency-350x370.png)
 

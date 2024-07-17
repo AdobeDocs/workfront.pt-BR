@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Introdução a relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Introdução aos relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Salvar relatórios padrão como novos relatórios](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

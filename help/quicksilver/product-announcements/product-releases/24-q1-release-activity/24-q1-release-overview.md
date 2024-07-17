@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página fornece informações sobre a funcionalidade incluída na versão do Primeiro trimestre de 2024. Esses aprimoramentos estão planejados para serem disponibilizados no ambiente de produção para todos os clientes com a versão 24.1 em 18 e 19 de janeiro de 2024.
 
-O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [cadastre-se no webinário para ver uma gravação sob demanda aqui](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [registrar-se no webinário para exibir uma gravação sob demanda aqui](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Os recursos fora do ciclo (aqueles que foram lançados para produção antes da data de lançamento do Primeiro trimestre de 2024) estão destacados em amarelo.</span>
 
@@ -31,7 +31,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [ca
 >| <ul><li>Nenhuma versão (novembro de 2024)</li><li>Nenhuma versão (dezembro de 2024)</li><li>24.1 (janeiro de 2024)</li></ul> | <ul><li>24.1 (janeiro de 2024)</li></ul> |
 >| <ul><li>24.2 (fevereiro de 2024)</li><li>24.3 (março de 2024)</li><li>24.4 (abril de 2024)</li></ul> | <ul><li>24.4 (abril de 2024)</li></ul> |
 >
->Para obter mais informações sobre o processo de lançamento rápido, consulte [Ativar ou desativar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Para obter mais informações sobre o processo de lançamento rápido, consulte [Habilitar ou desabilitar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
 ## Aprimoramentos do Adobe Workfront
@@ -62,7 +62,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [ca
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisões de prova/documento agora disponíveis para os 12 meses anteriores</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Os relatórios de Decisões do usuário para tipos de licença novos e herdados agora exibem o número de decisões para o mês atual, bem como os 12 meses anteriores.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisões de prova/documento disponíveis para os 12 meses anteriores</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Os relatórios de Decisões do usuário para tipos de licença novos e herdados agora exibem o número de decisões para o mês atual, bem como os 12 meses anteriores.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [ca
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar uma revisão como concluída</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para deixar mais claro quando um documento foi revisado e está pronto para o próximo estágio de aprovação, criamos um novo <strong>Concluir minha análise</strong> botão.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar uma revisão como concluída</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para deixar mais claro quando um documento foi revisado e está pronto para o próximo estágio de aprovação, criamos um novo botão <strong>Concluir minha revisão</strong>.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -229,7 +229,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [ca
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles do administrador para nova Página inicial usando modelos de layout</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Agora, os administradores podem personalizar a nova Página inicial para usuários que usam modelos de layout. As opções de personalização incluem a seleção de elementos obrigatórios e a sua posição, a escolha de um plano de fundo e opções específicas de elementos para a escolha de filtros e grupos disponíveis (bem como a definição dos valores padrão).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles de administrador para nova Página Inicial usando modelos de layout</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Agora, os administradores podem personalizar a nova Página inicial para usuários que usam modelos de layout. As opções de personalização incluem a seleção de elementos obrigatórios e a sua posição, a escolha de um plano de fundo e opções específicas de elementos para a escolha de filtros e grupos disponíveis (bem como a definição dos valores padrão).</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -281,7 +281,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [ca
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">O mapeamento de metadados no Experience Manager Assets Essentials agora usa <code>xcm:keywords</code> em vez de <code>dc:subject</code></a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Atualizamos a integração do Experience Manager Assets Essentials para corresponder à experiência da integração as a Cloud Service do Experience Manager Assets. Agora, ao mapear vários campos de texto de linha única para um único campo no Experience Manager Assets, ambos os serviços usam o <code>xcm:keywords</code> campo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">O mapeamento de metadados no Experience Manager Assets Essentials agora usa <code>xcm:keywords</code> em vez de <code>dc:subject</code></a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Atualizamos a integração do Experience Manager Assets Essentials para corresponder à experiência na integração as a Cloud Service do Experience Manager Assets. Agora, ao mapear vários campos de texto de linha única para um único campo no Experience Manager Assets, ambos os serviços usam o campo <code>xcm:keywords</code>.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -348,7 +348,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [ca
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Atribuições inteligentes mais relevantes</a></p><p>Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mais atribuições inteligentes relevantes</a></p><p>Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -437,7 +437,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [ca
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copie e cole uma imagem em um comentário na seção Atualizações</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para contextualizar o conteúdo de uma mensagem, agora é possível anexar imagens rapidamente aos comentários copiando-as do computador e colando-as em uma nova atualização ou resposta.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copiar e colar uma imagem em um comentário na seção Atualizações</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para contextualizar o conteúdo de uma mensagem, agora é possível anexar imagens rapidamente aos comentários copiando-as do computador e colando-as em uma nova atualização ou resposta.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -460,13 +460,13 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [ca
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Primeiro trimestre de 2023. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Novos recursos no Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Primeiro trimestre de 2023. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 
 Não há atualizações do Planejador de cenários neste momento na versão. Esta área será atualizada quando houver atualizações disponíveis.
 
-### Aprimoramentos de prova do Workfront
+### Aprimoramentos do Workfront Proof
 
 Não há atualizações do Workfront Proof neste momento na versão. Esta área será atualizada quando houver atualizações disponíveis.
 
@@ -478,14 +478,14 @@ Não há atualizações do Workfront Goals neste momento na versão. Esta área 
 
 Para a API versão 17, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre novidades e atualizações, consulte [Novidades da API versão 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
-Para obter informações sobre versões da API, consulte [Controle de versão da API e programação de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do primeiro trimestre de 2024, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2024, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; do [Página do Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutorials do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).

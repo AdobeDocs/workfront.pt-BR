@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Este agrupamento de horas organiza as horas pelo patrocinador do projeto onde as horas são registradas. A interface padrão do Report Builder para agrupamentos de horas não fornece um mapeamento para o campo Patrocinador do projeto. Você deve usar a interface Text Mode para acessar esse campo.
 
-![hour_report_grouped_by_sponsor.png](assets/hour-report-grouped-by-sponsor-350x39.png)
+![hora_relatório_agrupado_por_patrocinador.png](assets/hour-report-grouped-by-sponsor-350x39.png)
 
 ## Requisitos de acesso
 
@@ -30,7 +30,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -45,25 +45,24 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Agrupar por Patrocinador do Projeto para horas
 
 Para aplicar esse agrupamento:
 
 1. Ir para uma lista de horas.
-1. No **Agrupamento** selecione **Novo Agrupamento**.
+1. No menu suspenso **Agrupamento**, selecione **Novo agrupamento**.
 
-1. Clique em **Alternar para modo de texto**.
-1. Remova o texto da **Agrupar seu relatório** área.
+1. Clique em **Alternar para Modo de Texto**.
+1. Remova o texto da área **Agrupar relatório**.
 
 1. Substitua o texto pelo seguinte código:
+   <pre>group.0.linkedname=project:sponsor:name<br>group.0.name=<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=HTML<br>textmode=true<br></pre>
 
-   <pre>group.0.linkedname=project:sponsor:name<br>group.0.name=<br>group.0.valuefield=projeto:sponsor:name<br>group.0.valueformat=HTML<br>textmode=true<br></pre>
-
-1. Clique em **Salvar Agrupamento**.
+1. Clique em **Salvar agrupamento**.

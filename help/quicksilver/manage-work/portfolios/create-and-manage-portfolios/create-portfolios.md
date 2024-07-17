@@ -2,26 +2,26 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Criar um portfólio
-description: Um Portfolio é uma coleção de projetos competindo pelos mesmos recursos, orçamento e cronograma. Os projetos em um Portfolio são semelhantes o suficiente para que usem o mesmo Pool de Recursos e sejam medidos com base no mesmo scorecard.
+description: Um Portfolio é uma coleção de projetos que competem pelos mesmos recursos, orçamento e cronograma. Os projetos em um Portfolio são semelhantes o suficiente para usarem o mesmo Conjunto de recursos e serem medidos com base no mesmo cartão de pontuação.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 0%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
 # Criar um portfólio
 
-Um Portfolio é uma coleção de projetos competindo pelos mesmos recursos, orçamento e cronograma. Os projetos em um Portfolio são semelhantes o suficiente para que usem o mesmo Pool de Recursos e sejam medidos com base no mesmo scorecard.
+Um Portfolio é uma coleção de projetos que competem pelos mesmos recursos, orçamento e cronograma. Os projetos em um Portfolio são semelhantes o suficiente para usarem o mesmo Conjunto de recursos e serem medidos com base no mesmo cartão de pontuação.
 
-Você pode usar Portfolio para agrupar projetos que pertencem às mesmas linhas de produto, divisões, departamentos, empresas ou outras unidades de negócios.
+Você pode usar Portfolio para agrupar projetos que pertencem às mesmas linhas de produtos, divisões, departamentos, empresas ou outras unidades de negócios.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,39 +33,39 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso à [!UICONTROL Editar] para Portfolio</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Editar] acesso a Portfolio</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Após criar um portfólio, você tem permissões de gerenciamento para ele, por padrão</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Após criar um portfólio, você tem Gerenciar permissões para ele, por padrão</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Criar um portfólio
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]**, no canto superior direito do Adobe Workfront.
 
 1. Clique em **[!UICONTROL Portfolio]**.
 1. Clique em **[!UICONTROL Novo Portfolio]**.
-1. Substituir **[!UICONTROL Portfolio sem título]** com o nome que deseja para o portfólio.
+1. Substitua **[!UICONTROL Portfolio sem título]** pelo nome desejado para o portfólio.
 
    O nome pode conter até 255 caracteres.
 
-1. (Opcional) Clique no nome em **[!UICONTROL Portfolio Manager]** no cabeçalho na parte superior da página para atribuir um gerente diferente para o portfólio.
+1. (Opcional) Clique no nome em **[!UICONTROL Gerenciador de Portfolio]** no cabeçalho na parte superior da página para atribuir um gerente diferente para o portfólio.
 
    ![](assets/portfolio-manager-name-350x51.jpg)
 
-   Como criador do portfólio, você é atribuído como o gerente de portfólio por padrão.
+   Como criador do portfólio, você é designado como gerente do portfólio por padrão.
 
 1. Clique em **[!UICONTROL Detalhes do Portfolio]** no painel esquerdo.
-1. No **[!UICONTROL Visão geral]** altere qualquer uma das seguintes informações:
+1. Na área **[!UICONTROL Visão geral]**, altere qualquer uma das seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -76,28 +76,28 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
       <td> <p>Digite uma descrição para o Portfolio para indicar o que é exclusivo sobre ele. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>Comece digitando o nome de um usuário que deseja indicar como o gerente de portfólio e selecione-o quando ele for exibido na lista. É o mesmo que o [!UICONTROL Portfolio Owner]. Essa é a pessoa que pode supervisionar o trabalho definido nos projetos do portfólio e aprovar o Caso de negócios.</p> <p>Importante: Ao designar alguém como o [!UICONTROL Portfolio Manager], ele automaticamente obtém permissões do [!UICONTROL Manager] para o portfólio, os programas e os projetos no portfólio. </p> <p>Dica: Você também pode atualizar o [!UICONTROL Portfolio Manager] no cabeçalho na parte superior da página.</p> </td> 
+      <td role="rowheader">[!UICONTROL Gerenciador de Portfolio]</td> 
+      <td> <p>Comece digitando o nome de um usuário que deseja indicar como gerente de portfólio e, em seguida, selecione-o quando ele aparecer na lista. É o mesmo que [!UICONTROL Portfolio Owner]. Essa é a pessoa que pode supervisionar o trabalho definido nos projetos do portfólio e aprovar o Business Case.</p> <p>Importante: quando você designa alguém como o [!UICONTROL Portfolio Manager], ele automaticamente obtém permissões do [!UICONTROL Manager] para o portfólio, os programas e os projetos no portfólio. </p> <p>Dica: você também pode atualizar o [!UICONTROL Portfolio Manager] no cabeçalho na parte superior da página.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Grupo </td> 
-      <td> <p>Adicione o nome de um único grupo se o grupo for proprietário do portfólio ou tiver responsabilidade de preenchê-lo. </p> <p>Certifique-se de selecionar o grupo correto ao passar o mouse sobre ele e clicar no ícone [!UICONTROL informações] <img src="assets/info-icon.png"> que é exibido ao lado dele. Isso exibe uma dica de ferramenta listando informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>Adicione o nome de um único grupo se o grupo for proprietário do portfólio ou tiver responsabilidade de concluí-lo. </p> <p>Você pode verificar se está selecionando o grupo correto passando o mouse sobre ele e clicando no ícone [!UICONTROL information] <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Clique dentro do **[!UICONTROL Adicionar formulário personalizado]** no canto superior direito do [!UICONTROL Detalhes do Portfolio] para selecionar um formulário personalizado para o portfólio e atualizar os campos personalizados.
+1. (Opcional) Clique dentro da caixa **[!UICONTROL Adicionar formulário personalizado]** no canto superior direito da página [!UICONTROL Detalhes do Portfolio] para selecionar um formulário personalizado para o portfólio e atualizar os campos personalizados.
 
    >[!TIP]
    >
-   >É necessário ter formulários personalizados de portfólio já criados para anexá-los a portfólios.
+   >Você deve ter formulários personalizados de portfólio já criados antes de anexá-los a portfólios.
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
-1. (Opcional) Clique em **[!UICONTROL Programas]** no painel esquerdo, em seguida **[!UICONTROL Adicionar programas]** para adicionar programas ao portfólio.
+1. (Opcional) Clique em **[!UICONTROL Programas]** no painel esquerdo e em **[!UICONTROL Adicionar Programas]** para adicionar programas ao portfólio.
 
    Para obter mais informações sobre como criar Programas, consulte [Criar um programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-1. (Opcional) Clique em **[!UICONTROL Projetos]** no painel esquerdo, em seguida **[!UICONTROL Adicionar projetos]** para adicionar projetos ao portfólio.
+1. (Opcional) Clique em **[!UICONTROL Projetos]** no painel esquerdo e em **[!UICONTROL Adicionar projetos]** para adicionar projetos ao portfólio.
 
    Para obter mais informações sobre como adicionar projetos a um Portfolio, consulte [Adicionar projetos a um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 

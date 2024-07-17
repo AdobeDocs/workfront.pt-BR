@@ -4,7 +4,8 @@ description: Na exibição de tabela de um tipo de registro no Adobe Workfront P
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
+source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Por padrão, o campo Nome é o campo principal. No entanto, você pode designar 
 
 ![](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-Para obter informações sobre como designar um campo como campo principal, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obter informações sobre como designar um campo como campo primário, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Visão geral dos campos principais
 

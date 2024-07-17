@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b5ec158fc1484df193120a9c7aca9f19d2b65265
+exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -27,7 +28,7 @@ O Assistente de IA pode ajudá-lo a revisar sua fórmula em uma expressão de ca
 
 Para revisar uma expressão de campo calculado inválida:
 
-1. Clique em **Assistente de IA** ícone ![Ícone do Assistente de IA](assets/ai-assistant-icon.png) próximo ao canto superior direito da tela.
+1. Clique no ícone do **Assistente de IA** ![ícone do Assistente de IA](assets/ai-assistant-icon.png) próximo ao canto superior direito da tela.
 1. na área de prompt próxima à parte inferior do painel Assistente do AI, digite um prompt como:
    `Rewrite this formula to remove the invalid expression error`
 1. Copie a expressão inválida do construtor de formulários personalizado e cole-a na área de prompt.
@@ -41,7 +42,4 @@ Para revisar uma expressão de campo calculado inválida:
 >
 >Recomendamos testar o campo calculado para garantir que ele recupere o resultado esperado.
 
-Para obter mais informações sobre campos calculados no Workfront, consulte [Adicionar dados calculados a um formulário personalizado com o construtor de formulários herdado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-
-
+Para obter mais informações sobre campos calculados no Workfront, consulte [Adicionar dados calculados a um formulário personalizado com o construtor de formulários herdados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).

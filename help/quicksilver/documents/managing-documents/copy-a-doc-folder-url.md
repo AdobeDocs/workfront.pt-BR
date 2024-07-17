@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Copiar e compartilhar um link para uma pasta de documento
+title: Copiar e compartilhar um link para uma pasta de documentos
 description: Você pode copiar um link para qualquer pasta de documento contida em qualquer objeto do Workfront.
 author: Courtney
 feature: Digital Content and Documents
@@ -13,40 +13,40 @@ ht-degree: 0%
 
 ---
 
-# Copiar e compartilhar um link para uma pasta de documento
+# Copiar e compartilhar um link para uma pasta de documentos
 
-Você pode copiar um link direto para qualquer pasta de documento contida em qualquer um dos itens a seguir [!DNL Workfront] objetos: [!UICONTROL Programa], [!UICONTROL Portfolio], [!UICONTROL Projeto], [!UICONTROL Tarefa]ou [!UICONTROL Problema]. Não é possível copiar um link para nenhuma pasta contida no [!UICONTROL Documentos] do Menu principal, pois essas pastas são vinculadas diretamente ao perfil do usuário e não podem ser compartilhadas com outras pessoas.
+Você pode copiar um link direto para qualquer pasta de documentos contida em qualquer um dos seguintes objetos [!DNL Workfront]: [!UICONTROL Programa], [!UICONTROL Portfolio], [!UICONTROL Projeto], [!UICONTROL Tarefa] ou [!UICONTROL Problema]. Você não pode copiar um link para nenhuma pasta contida na área [!UICONTROL Documentos] do Menu Principal, pois essas pastas estão vinculadas diretamente ao seu perfil de usuário e não podem ser compartilhadas com outras pessoas.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalho ou superior</p> </td> 
+   <td> <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Exibir acesso a documentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualizar acesso a documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
-## Copiar e compartilhar um link para uma pasta de documento
+## Copiar e compartilhar um link para uma pasta de documentos
 
-Para copiar um link para uma pasta de documento:
+Para copiar um link para uma pasta de documentos:
 
-1. Navegue até o [!DNL Workfront] objeto que contém a pasta do documento.
-1. Clique no botão **[!UICONTROL Mais]** e selecione **[!UICONTROL Copiar URL]**. Você pode compartilhar esse link para fornecer acesso rápido à pasta. Os usuários devem ter pelo menos o acesso de Exibição ao objeto para visualizar a pasta.
-   ![url da pasta de documentos de cópia](assets/copy-doc-folder-url.png)
+1. Navegue até o objeto [!DNL Workfront] que contém a pasta de documentos.
+1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Copiar URL]**. Você pode compartilhar este link para fornecer acesso rápido à pasta. Os usuários devem ter pelo menos o acesso de Visualização ao objeto para visualizar a pasta.
+   ![copiar url da pasta de documentos](assets/copy-doc-folder-url.png)

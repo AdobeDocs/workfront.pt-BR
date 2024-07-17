@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1304'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -44,12 +44,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para um projeto ou superior que incluem permissões de Finanças de Exibição</p> <p>Gerenciar permissões para o projeto que incluem Gerenciar Finanças para editar informações financeiras do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para um projeto ou superior que incluem permissões de Finanças de Exibição</p> <p>Gerenciar permissões para o projeto que incluem Gerenciar Finanças para editar informações financeiras do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Visão geral da área Financeira
 
@@ -63,13 +63,13 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
 
 1. Ir para um projeto.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique em **Editar** ícone ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças**.
+1. Clique no ícone **Editar** ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e em **Finanças**.
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
-   >Dependendo de como o administrador do Workfront configurou o Modelo de layout, a seção Visão geral pode não estar listada primeiro e, nesse caso, ela será recolhida. Para obter informações, consulte [Personalizar a exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Dependendo de como o administrador do Workfront configurou o Modelo de layout, a seção Visão geral pode não estar listada primeiro e, nesse caso, ela será recolhida. Para obter informações, consulte [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Exiba os seguintes campos na área Finanças do projeto:
 
@@ -79,20 +79,20 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
     <tbody> 
      <tr> 
       <td role="rowheader">Método Índice de desempenho</td> 
-      <td> Controla o método que o Workfront usa para calcular as métricas de Valor agregado. Pode ser baseada em horas ou em custos. <br>Para obter mais informações sobre o PIM, consulte o artigo <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o PIM (Método de Índice de Desempenho)</a></td> 
+      <td> Controla o método que o Workfront usa para calcular as métricas de Valor agregado. Pode ser baseada em horas ou em custos. <br>Para obter mais informações sobre o PIM, consulte o artigo <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o Método de Índice de Desempenho (PIM)</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">CPI / SPI / CSI</td> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
       <td> <p>Estas são as métricas de desempenho do projeto que mostram o desempenho do seu projeto em um determinado momento. Seus valores são calculados com base no Método de indexação de desempenho.<br>Para obter mais informações, consulte os seguintes artigos: </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calcular Índice de Desempenho de Custo (CPI)</a> </p> </li> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calcular Índice de Desempenho de Agendamento (SPI) </a> </p> </li> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Calcular o Índice de Desempenho de Tempo (CSI)</a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calcular SPI (Índice de Desempenho de Agendamento) </a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Calcular CSI (Índice de Desempenho de Agendamento de Custos)</a> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Calcular ao concluir</td> 
-      <td> Custo total projetado do seu projeto, representado em horas se o Método de Índice de Desempenho (PIM) for baseado em horas, e é representado em um valor de moeda, se o Método de Índice de Desempenho (PIM) for baseado em custo.<br>Para obter mais informações sobre como calcular a Estimativa no Término, consulte o artigo <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcular Estimativa no Término (EAC)</a></td> 
+      <td> Custo total projetado do seu projeto, representado em horas se o Método de Índice de Desempenho (PIM) for baseado em horas, e é representado em um valor de moeda, se o Método de Índice de Desempenho (PIM) for baseado em custo.<br>Para obter mais informações sobre como calcular a Estimativa no Término, consulte o artigo <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcular a Estimativa no Término (EAC)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Orçamento</td> 
@@ -119,7 +119,7 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
       <td>Receita projetada esperada com base nas Horas planejadas e nas taxas associadas às tarefas atribuídas (funções de trabalho ou usuários).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Receita Efetivo</td> 
+      <td role="rowheader">Receita efetiva</td> 
       <td>Receita real do projeto com base nas Horas efetivas e nas taxas associadas aos atribuídos da tarefa (funções de trabalho ou usuários).</td> 
      </tr> 
      <tr> 
@@ -150,8 +150,8 @@ Para editar informações na subguia Project Finance:
    >Você precisa de Permissões de gerenciamento para o projeto para executar as etapas a seguir. Também recomendamos que somente o Proprietário do projeto faça alterações na subguia Finanças do projeto.
 
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique em **Editar** ícone ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças** . Isso abre a área Finanças para edição.
-1. Edite qualquer campo que esteja disponível para edição, clicando uma vez no campo ou clicando em **+Adicionar** para adicionar informações a um campo vazio.
+1. Clique no ícone **Editar** ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e em **Finanças**. Isso abre a área Finanças para edição.
+1. Edite qualquer campo disponível para edição clicando uma vez no campo ou clicando em **+Adicionar** para adicionar informações a um campo vazio.
 
    >[!TIP]
    >
@@ -163,7 +163,7 @@ Para editar informações na subguia Project Finance:
 
    >[!NOTE]
    >
-   >Dependendo de como o administrador do Workfront configura nosso Modelo de layout, os campos na seção Detalhes do projeto podem ser diferentes em seu ambiente. Para obter informações, consulte [Personalizar a exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Dependendo de como o administrador do Workfront configura nosso Modelo de layout, os campos na seção Detalhes do projeto podem ser diferentes em seu ambiente. Para obter informações, consulte [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,16 +173,16 @@ Para editar informações na subguia Project Finance:
       <td role="rowheader">Método Índice de desempenho</td> 
       <td> <p>Controla o método que o Workfront usa para calcular as métricas de desempenho do projeto. Isso é configurado no nível do sistema pelo administrador, mas você também pode editá-lo no nível do projeto. Considere selecionar uma das seguintes opções:</p> 
        <ul> 
-        <li><strong>Baseado em Hora:</strong>O Workfront usa as horas planejadas no cálculo da CPI e da EAC do projeto, e a EAC do projeto é exibida como um número, em horas. </li> 
-        <li><strong>Baseado em Custo:</strong>O Workfront usa o Custo de mão de obra planejado no cálculo do CPI e do EAC do projeto, e o EAC é exibido como um valor de moeda. Ao selecionar essa opção, certifique-se de que os atribuídos da tarefa (funções de cargo ou usuários) estejam associados a taxas de custo.</li> 
+        <li><strong>Baseado em Hora:</strong>O Workfront usa as Horas Planejadas no cálculo da CPI e da EAC do projeto, e a EAC do projeto é exibida como um número, em horas. </li> 
+        <li><strong>Baseado em Custo:</strong>O Workfront usa o Custo de Trabalho Planejado no cálculo do CPI e do EAC do projeto, e o EAC é exibido como um valor de moeda. Ao selecionar essa opção, certifique-se de que os atribuídos da tarefa (funções de cargo ou usuários) estejam associados a taxas de custo.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Calcular ao concluir</td> 
       <td> <p>Representa o custo total projetado de seu projeto ou tarefa quando ela é concluída. Isso é configurado no nível do sistema pelo administrador, mas você também pode editá-lo no nível do projeto. Considere selecionar uma das seguintes opções:</p> 
        <ul> 
-        <li><strong>Calcular no Nível do Projeto</strong>: EAC para a tarefa pai e o projeto são determinados informando as horas reais/custo de mão de obra real nas Fórmulas EAC. Esse cálculo inclui Horas Reais/custos e despesas adicionadas diretamente à tarefa ou ao projeto principal.</li> 
-        <li><strong>Extrair de Tarefas/ Subtarefas</strong>: a EAC da tarefa pai e do projeto é determinada pela soma da EAC de cada tarefa filho. Esse cálculo exclui Horas Reais/custos e despesas adicionadas diretamente à tarefa ou ao projeto principal.</li> 
+        <li><strong>Calcular no Nível do Projeto</strong>: a EAC da tarefa pai e do projeto é determinada pela inserção das horas reais/custo de mão de obra real nas Fórmulas da EAC. Esse cálculo inclui Horas Reais/custos e despesas adicionadas diretamente à tarefa ou ao projeto principal.</li> 
+        <li><strong>Acúmulo de Tarefas/Subtarefas</strong>: o EAC da tarefa pai e do projeto é determinado pela soma do EAC de cada tarefa filho. Esse cálculo exclui Horas Reais/custos e despesas adicionadas diretamente à tarefa ou ao projeto principal.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

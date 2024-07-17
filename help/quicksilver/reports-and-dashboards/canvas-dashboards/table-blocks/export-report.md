@@ -22,12 +22,12 @@ ht-degree: 2%
 
 ## Pré-requisitos
 
-Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta do relatório do Canvas: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta da tela de relatório: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Exportar um relatório
 
 1. Navegue até o relatório que deseja exportar.
-1. No cabeçalho do relatório, clique na guia **Mais** ícone ![](assets/more-icon-27x15.png), clique em **Exportar**, em seguida, selecione o formato de arquivo que deseja criar.
+1. No cabeçalho do relatório, clique no ícone **Mais** ![](assets/more-icon-27x15.png), clique em **Exportar** e selecione o formato de arquivo que deseja criar.
 
    >[!NOTE]
    >

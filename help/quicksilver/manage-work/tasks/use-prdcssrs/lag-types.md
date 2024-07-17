@@ -94,21 +94,21 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ### Indicar Tipos de Defasagem na seção Predecessores de uma tarefa {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Vá para uma tarefa para a qual deseja definir o predecessor e o Tipo de Defasagem.
-1. Clique em **Predecessores** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais** e depois **Predecessores**.
+1. Clique em **Predecessores** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
 1. Clique em **Adicionar predecessor**.
-1. (Opcional) Se quiser adicionar um predecessor de projeto cruzado, substitua o **Projeto pai** com outro projeto.
+1. (Opcional) Se você deseja adicionar um predecessor entre projetos, substitua o nome do **Projeto pai** por outro projeto.
 1. Comece digitando o nome da tarefa predecessora e selecione-a quando ela aparecer na lista.
-1. Selecione o **Tipo de Dependência**.
+1. Selecione o **Tipo de dependência**.
 
-   Para obter mais informações sobre os Tipos de Dependência do predecessor, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Para obter mais informações sobre os Tipos de Dependência predecessores, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Especificar um **Defasagem** valor usando um valor numérico. Você pode especificar números negativos para indicar um atraso negativo.
+1. Especifique um valor numérico para **Lag**. Você pode especificar números negativos para indicar um atraso negativo.
 1. Selecione entre as seguintes opções para identificar o tipo de atraso que você deseja indicar para seu predecessor:
 
    * **Dias**
    * **Dias do Calendário**
    * **Percentual**
-   * **Dias da semana**
+   * **Dia da semana**
    * **Dia da Semana (Sem Zero)**
 
      Para obter mais informações sobre esses Tipos de Defasagem e como eles são calculados, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
@@ -117,24 +117,24 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ### Indicar Tipos de Defasagem em uma lista de tarefas  {#indicate-lag-types-in-a-task-list}
 
-1. Vá para uma lista de tarefas e selecione o **Padrão** exibição.
+1. Vá para uma lista de tarefas e selecione a exibição **Padrão**.
 
-1. Clique dentro do **Predecessores** coluna correspondente à tarefa para a qual você deseja especificar um predecessor e uma quantidade de atraso.
+1. Clique dentro da coluna **Predecessores** correspondente à tarefa para a qual você deseja especificar um predecessor e uma quantidade de atraso.
 1. Digite o seguinte sem espaços:
 
    * o número da tarefa que você deseja indicar como predecessora da tarefa selecionada
    * a abreviação do tipo de dependência que você deseja indicar entre as tarefas
 
-     Para obter mais informações sobre as abreviações para Tipos de Dependência, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Para obter mais informações sobre as abreviações de Tipos de Dependência, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * um **+** para um atraso positivo ou uma **-** por um atraso negativo
+   * um **+** para um atraso positivo ou um **-** para um atraso negativo
 
    * a quantidade do atraso
    * a abreviação do Tipo de Defasagem que você deseja usar
 
-     Para obter mais informações sobre as abreviações de Tipos de Defasagem, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
+     Para obter mais informações sobre as abreviações para Tipos de Defasagem, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
 
-   Por exemplo, para indicar que uma tarefa tem uma predecessora e um atraso positivo de 2 dias, você deve inserir `1fs+2d` na coluna Predecessors.
+   Por exemplo, para indicar que uma tarefa tem uma predecessora e um atraso positivo de 2 dias, digite `1fs+2d` na coluna Predecessoras.
 
 1. Pressione Enter no teclado para salvar as alterações na tarefa.
 

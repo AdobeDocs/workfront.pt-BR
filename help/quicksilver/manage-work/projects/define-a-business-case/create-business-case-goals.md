@@ -22,18 +22,18 @@ Como parte da criação de um Business Case, você pode criar um conjunto de met
 
 >[!TIP]
 >
->Você pode criar metas estratégicas para sua organização que não estejam conectadas ao Business Case individual de um projeto. Você deve ter acesso às Metas do Adobe Workfront para criar metas estratégicas. Você pode conectá-los a projetos fora do Business Case. Para obter informações sobre como criar metas usando o Workfront Goals, consulte [Visão geral dos objetivos do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>Você pode criar metas estratégicas para sua organização que não estejam conectadas ao Business Case individual de um projeto. Você deve ter acesso às Metas do Adobe Workfront para criar metas estratégicas. Você pode conectá-los a projetos fora do Business Case. Para obter informações sobre como criar metas usando as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Considere o seguinte ao criar metas do Business Case para seus projetos:
 
 * As metas do Business Case são específicas do projeto. Não é possível copiar metas de um projeto para outro, nem estabelecer metas no nível do sistema. Eles devem ser definidos no nível de cada projeto.
-* O administrador do Adobe Workfront ou o administrador de grupo deve ativar a seção Metas para seus projetos antes que ela seja exibida no Business Case de seus projetos. Para obter informações sobre como ativar campos de Business Case para projetos, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* O administrador do Adobe Workfront ou o administrador de grupo deve ativar a seção Metas para seus projetos antes que ela seja exibida no Business Case de seus projetos. Para obter informações sobre como habilitar campos de Business Case para projetos, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Metas não são uma seção obrigatória no Business Case de um projeto.
 
   Um projeto pode receber uma pontuação para ser priorizado no Otimizador de Portfolio, mesmo se a seção Metas do Business Case não estiver definida.
 
-  Para obter mais informações sobre a pontuação do Portfolio Otimizer, consulte [Aplicar um cartão de pontuação a um projeto e gerar uma Pontuação de alinhamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Para obter mais informações sobre a pontuação do Otimizador de Portfolio, consulte [Aplicar um scorecard a um projeto e gerar uma Pontuação de Alinhamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Você não pode relatar metas do Business Case.
 
@@ -61,12 +61,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões ou superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões ou superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Adicionar uma meta ao Business Case de um projeto
 
@@ -77,10 +77,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. No **Metas** clique em **Editar metas**.
+1. Na seção **Metas**, clique em **Editar Metas**.
 
 1. Especifique suas metas.
-No **Importância** selecione o nível de importância:
+No menu suspenso **Importância**, selecione o nível de importância:
 
    * Muito alta
    * Alta
@@ -92,5 +92,5 @@ No **Importância** selecione o nível de importância:
 
      Não é possível personalizar os níveis de importância das metas.
 
-1. (Opcional) Para adicionar outra meta, clique em **Adicionar outra meta** e repita as Etapas 5 e 6.
-1. Clique em **Salvar**.
+1. (Opcional) Para adicionar outra meta, clique em **Adicionar Outra Meta** e repita as Etapas 5 e 6.
+1. Clique em **Salvar**.

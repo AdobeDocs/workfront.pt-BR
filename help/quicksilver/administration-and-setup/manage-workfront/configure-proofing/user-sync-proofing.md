@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Sincronização de usuários entre o Adobe Workfront e a Workfront Proof
-description: As informações do usuário são sincronizadas do Adobe Workfront para o Workfront Proof; ela não é sincronizada do Workfront Proof para o Workfront. Por causa disso, sempre que você criar ou modificar usuários, deverá fazer essas alterações no Workfront. Não é possível fazer alterações nos usuários na Workfront Proof.
+title: Sincronização do usuário entre o Adobe Workfront e o Workfront Proof
+description: As informações do usuário são sincronizadas do Adobe Workfront para o Workfront Proof; elas não são sincronizadas do Workfront Proof para o Workfront. Por esse motivo, sempre que você criar ou modificar usuários, deverá fazer essas alterações no Workfront. Não é possível fazer alterações em usuários no Workfront Proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -16,37 +16,37 @@ ht-degree: 0%
 
 ---
 
-# Sincronização de usuários entre o Adobe Workfront e a Workfront Proof
+# Sincronização do usuário entre o Adobe Workfront e o Workfront Proof
 
-As informações do usuário são sincronizadas do Adobe Workfront para o Workfront Proof; ela não é sincronizada do Workfront Proof para o Workfront. Por causa disso, sempre que você criar ou modificar usuários, deverá fazer essas alterações no Workfront. Não é possível fazer alterações nos usuários na Workfront Proof.
+As informações do usuário são sincronizadas do Adobe Workfront para o Workfront Proof; elas não são sincronizadas do Workfront Proof para o Workfront. Por esse motivo, sempre que você criar ou modificar usuários, deverá fazer essas alterações no Workfront. Não é possível fazer alterações em usuários no Workfront Proof.
 
-As seções a seguir fornecem informações sobre a sincronização de usuários do Workfront para o Workfront Proof:
+As seções a seguir fornecem informações sobre a sincronização de usuários do Workfront com o Workfront Proof:
 
 ## Informações sincronizadas
 
-O Workfront sincroniza as seguintes informações do usuário na Workfront Proof:
+O Workfront sincroniza as seguintes informações do usuário com o Workfront Proof:
 
-* Nome (o nome e sobrenome do usuário)
+* Nome (nome e sobrenome do usuário)
 * Endereço de email
 
-## Quando a sincronização ocorre
+## Quando a sincronização ocorrer
 
 As informações do usuário são sincronizadas do Workfront para o Workfront Proof nas seguintes circunstâncias:
 
 * As informações de um usuário são atualizadas no Workfront
 * Um usuário é criado no Workfront
 
-Dependendo de um usuário com o mesmo endereço de email existir no Workfront Proof, uma das seguintes situações ocorrerá:
+Dependendo de um usuário com o mesmo endereço de email existir no Workfront Proof, uma das situações a seguir ocorrerá:
 
-* **Se nenhum usuário com um email correspondente existir na Workfront Proof e**
+* **Se não existir nenhum usuário com um email correspondente no Workfront Proof e**
 
-   * **A revisão de texto está ativada para o usuário:** O usuário é criado como um usuário na Workfront Proof.
-   * **A revisão de texto não está ativada para o usuário:** O usuário é criado como um Contato na Workfront Proof.
+   * **A revisão de texto está habilitada para o usuário:** O usuário foi criado como um usuário no Workfront Proof.
+   * **A revisão de texto não está habilitada para o usuário:** O usuário foi criado como um Contato no Workfront Proof.
 
-* **Se um usuário com um email correspondente existir na Workfront Proof:** A revisão de texto está ativada para esse usuário no Workfront (se ainda não estiver ativada) e as informações são sincronizadas entre os dois usuários.
+* **Se existir um usuário com um email correspondente no Workfront Proof:** A revisão está habilitada para esse usuário no Workfront (se ainda não tiver sido habilitada) e as informações são sincronizadas entre os dois usuários.
 
-   Para obter mais informações, consulte [Configurar o acesso à prova de um usuário](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) em [Configurar o acesso à prova de um usuário](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+  Para obter mais informações, consulte [Configurar o acesso à prova de um usuário](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) em [Configurar o acesso à prova de um usuário](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-   >[!IMPORTANT]
-   >
-   >Quando um usuário com um email correspondente existe, em seu próprio ou em outro ambiente de prova, o Workfront cria um endereço de email de alias adicionando a ID da conta do usuário como um sufixo ao email. Por exemplo, *username+accountid@domain.com*. Os usuários ainda receberão notificações de prova no caso de um email alias ser criado.
+  >[!IMPORTANT]
+  >
+  >Quando existe um usuário com um email correspondente, em si mesmo ou em outro ambiente de prova, o Workfront cria um endereço de email de alias adicionando a ID da conta do usuário como sufixo ao email. Por exemplo, *username+accountid@domain.com*. Os usuários ainda receberão notificações de prova caso um email de alias seja criado.

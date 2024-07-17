@@ -23,7 +23,7 @@ ht-degree: 0%
 </div>
 -->
 
-Você pode usar as ferramentas do Adobe Workfront Resource Management para prever a alocação dos recursos para saber com precisão se os projetos são entregues no prazo e dentro do orçamento. Para obter uma visão geral do Gerenciamento de recursos no Workfront, consulte [Introdução ao gerenciamento de recursos](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Você pode usar as ferramentas do Adobe Workfront Resource Management para prever a alocação dos recursos para saber com precisão se os projetos são entregues no prazo e dentro do orçamento. Para obter uma visão geral do Gerenciamento de recursos no Workfront, consulte [Introdução ao Gerenciamento de recursos](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 Você pode usar as ferramentas de planejamento de recursos para gerenciar suas funções de trabalho, sua disponibilidade e alocação geral para projetos com base nessa disponibilidade.
 
@@ -41,9 +41,9 @@ Para prever o tempo dos recursos para os projetos aos quais você planeja atribu
 
   Para obter informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Para alocações de orçamento para um único projeto: use o Planejador de Recursos no nível do projeto na área Orçamento de Recursos do Business Case de um projeto. Para obter informações sobre como orçar recursos para um projeto, consulte o artigo [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* Para alocações de orçamento para um único projeto: use o Planejador de Recursos no nível do projeto na área Orçamento de Recursos do Business Case de um projeto. Para obter informações sobre recursos de orçamento para um projeto, consulte o artigo [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Para gerenciar usuários e organizá-los em grupos com base em habilidades comuns ou estrutura departamental e, em seguida, gerenciar suas alocações para os projetos aos quais estão atribuídos, você deve criar conjuntos de recursos. Para obter mais informações sobre a criação de conjuntos de recursos, consulte [Criar conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Para gerenciar usuários e organizá-los em grupos com base em habilidades comuns ou estrutura departamental e, em seguida, gerenciar suas alocações para os projetos aos quais estão atribuídos, você deve criar conjuntos de recursos. Para obter mais informações sobre a criação de pools de recursos, consulte [Criar pools de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >
@@ -61,7 +61,7 @@ Para prever o tempo dos recursos para os projetos aos quais você planeja atribu
    * Entenda a disponibilidade de seus recursos com base no agendamento de seus usuários.
    * Hora do orçamento, FTE ou alocações de custo para os recursos (usuários e funções de trabalho) dos projetos aos quais estão atribuídos.
 
-  Para obter informações sobre como trabalhar com o Planejador de recursos, consulte o artigo [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Para obter informações sobre como trabalhar no Planejador de recursos, consulte o artigo [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Usando o Planejador de cenários, você pode criar planos de nível empresarial em várias iniciativas que descrevem os resultados estratégicos gerais de sua empresa. Para obter mais informações, consulte [Introdução ao Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
 

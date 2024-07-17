@@ -59,7 +59,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir o tipo de plano ou licença que você tem, entre em contato com o administrador do Workfront.
+&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do Workfront.
 
 +++
 
@@ -97,7 +97,7 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 
 * Horas (e IDs de horas)
 
-  Se as horas são restauradas para o item excluído depende das configurações que você escolheu ao configurar as preferências para folhas de horas e horas. Para obter mais informações, consulte [Configurar efeito em horas em que um objeto é excluído e restaurado](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+  Se as horas são restauradas para o item excluído depende das configurações que você escolheu ao configurar as preferências para folhas de horas e horas. Para obter mais informações, consulte [Configurar efeito em horas quando um objeto for excluído e restaurado](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
 * O URL do item
 
@@ -131,9 +131,9 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 
 * Resolvendo objetos
 
-  Um objeto de resolução é um problema convertido configurado com a opção **Conservar o problema original e vincular a sua resolução a este** &lt;**projeto** ou **task)**>. Se você excluir o projeto ou a tarefa pai, o problema não será mais identificado como um objeto de resolução porque não há mais um link que o conecta ao projeto ou à tarefa. Se você restaurar o pai, o link não será restaurado.
+  Um objeto de resolução é um problema convertido configurado com a opção **Manter o problema original e vincular sua resolução a este** &lt;**projeto** ou **tarefa)**>. Se você excluir o projeto ou a tarefa pai, o problema não será mais identificado como um objeto de resolução porque não há mais um link que o conecta ao projeto ou à tarefa. Se você restaurar o pai, o link não será restaurado.
 
-  Para obter mais informações sobre como um administrador ou administrador de grupo do Workfront configura problemas para corresponder ao objeto de resolução quando convertido, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) e [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Para obter mais informações sobre como um administrador ou administrador de grupo do Workfront configura problemas para corresponder ao objeto de resolução quando convertidos, consulte [Configurar preferências de tarefas e problemas do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) e [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
   Para obter mais informações sobre a conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -141,10 +141,10 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 
 {{step-1-to-setup}}
 
-1. Clique em **Lixeira** > **Excluídos recentemente**.
-1. Clique em **Projetos**, **Tarefas**, **Problemas**, **Modelos** ou **Documentos** dependendo do tipo de item que você deseja restaurar.
+1. Clique em **Lixeira** > **Excluída Recentemente**.
+1. Clique na guia **Projetos**, **Tarefas**, **Problemas**, **Modelos** ou **Documentos**, dependendo do tipo de item que você deseja restaurar.
 
-   Os itens são classificados pela variável **Data de exclusão** por padrão.
+   Por padrão, os itens são classificados pela coluna **Data de Exclusão**.
 
 1. Selecione até 10 itens que deseja restaurar.
 
@@ -152,10 +152,10 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 
    Se você excluir uma tarefa pai, somente ela será exibida na lista. Mas todas as tarefas filho são restauradas quando você restaura uma tarefa pai.
 
-1. Clique em **Restaurar** para restaurar os itens selecionados para seus locais originais.
+1. Clique em **Restaurar** para restaurar os itens selecionados para seu local original.
 1. (Opcional) Para visualizar rapidamente o item restaurado, siga as etapas em [Exibir item restaurado](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-   Para obter mais informações sobre o que acontece após restaurar um item, consulte a seção [O que acontece depois que você restaura itens](#what-happens-after-you-restore-items) neste artigo.
+   Para obter mais informações sobre o que acontece após a restauração de um item, consulte a seção [O que acontece após a restauração de itens](#what-happens-after-you-restore-items) neste artigo.
 
 ## O que acontece depois que você restaura itens {#what-happens-after-you-restore-items}
 

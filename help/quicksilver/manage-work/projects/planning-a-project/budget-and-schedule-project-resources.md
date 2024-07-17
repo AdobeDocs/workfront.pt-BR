@@ -27,7 +27,7 @@ Faça o seguinte ao finalizar o planejamento de seus projetos no Adobe Workfront
 
   Para obter informações, consulte os seguintes artigos:
 
-   * [Planejamento de recursos:índice do artigo](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Planejamento de Recursos:índice do artigo](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Introdução ao Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md)
 
 * Agende recursos ou atribua-os a tarefas e problemas. Ao atribuir seus recursos a tarefas e problemas, você pode realmente associar usuários, equipes ou funções a itens de trabalho específicos, tornando-os responsáveis por concluir esses itens. Para obter informações, consulte [Visão geral do Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

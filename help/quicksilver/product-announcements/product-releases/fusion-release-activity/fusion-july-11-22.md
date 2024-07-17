@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 11 de julho de 2022.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Conexão e módulos do Figma agora disponíveis
 
@@ -31,7 +31,7 @@ Agora você pode usar o Adobe Workfront Fusion para se conectar à sua conta do 
 
 * Acione um cenário quando um evento ocorrer em sua conta do Figma
 
-* Publicar ou excluir comentários em um arquivo
+* Post ou excluir comentários em um arquivo
 
 * Listar comentários em um arquivo, histórico de versões de arquivos, arquivos de projetos ou projetos.
 
@@ -40,7 +40,7 @@ Agora você pode usar o Adobe Workfront Fusion para se conectar à sua conta do 
 * Fazer uma chamada para a API do Figma
 
 
-Para obter mais informações, consulte [Módulos do Figma](../../../workfront-fusion/apps-and-their-modules/figma-modules.md).
+Para obter mais informações, consulte [Módulos Figma](../../../workfront-fusion/apps-and-their-modules/figma-modules.md).
 
 ## Conector e módulos do Workday agora disponíveis
 
@@ -53,7 +53,7 @@ Agora você pode usar o Adobe Workfront Fusion para se conectar à sua conta do 
 * Fazer uma solicitação para a API do Workday
 
 
-Para obter mais informações, consulte [Módulos do Workday](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
+Para obter mais informações, consulte [módulos do Workday](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
 
 ## Conexão e módulos de bibliotecas Adobe Creative Cloud agora disponíveis
 
@@ -68,7 +68,7 @@ Agora você pode usar o Adobe Workfront Fusion para se conectar às suas Bibliot
 * Executar uma chamada de API personalizada
 
 
-Para obter mais informações, consulte [Módulos de bibliotecas do Adobe Creative Cloud](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Para obter mais informações, consulte [módulos de bibliotecas Adobe Creative Cloud](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
 ## Conexão e módulos do Adobe Target agora disponíveis
 
@@ -83,4 +83,4 @@ Agora você pode usar o Adobe Workfront Fusion para se conectar à sua conta do 
 * Executar uma chamada de API personalizada
 
 
-Para obter mais informações, [Módulos do Adobe Target](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).
+Para obter mais informações, [módulos do Adobe Target](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).

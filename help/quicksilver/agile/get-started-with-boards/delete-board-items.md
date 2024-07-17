@@ -42,35 +42,35 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Excluir um cartão de um quadro
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Excluir]**.
+1. Clique no menu **[!UICONTROL Mais]** ![Mais menus](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Excluir]**.
 1. Clique em **[!UICONTROL Excluir]** na mensagem de confirmação.
 
 ## Arquivar um cartão de um quadro
 
 1. Acesse o quadro.
-1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Arquivar]**.
+1. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Arquivar]**.
 
    Cartões arquivados ficam ocultos no quadro, a menos que você aplique um filtro para exibi-los. Para obter mais informações, consulte [Filtrar um quadro para mostrar cartões arquivados](#filter-a-board-to-show-archived-cards) neste artigo.
 
-   Um [!UICONTROL Arquivar] ícone ![Arquivar](assets/archive-icon-spectrum-25x20.png) é exibido em cartões arquivados. Você não pode editar um cartão arquivado, mas pode excluí-lo ou movê-lo para outra coluna.
+   Um ícone [!UICONTROL Arquivar] ![Arquivar](assets/archive-icon-spectrum-25x20.png) aparece em cartões arquivados. Você não pode editar um cartão arquivado, mas pode excluí-lo ou movê-lo para outra coluna.
 
-1. Para restaurar um cartão arquivado, clique no link **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Restaurar]**.
+1. Para restaurar um cartão arquivado, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Restaurar]**.
 
 ## Filtrar um quadro para mostrar cartões arquivados {#filter-a-board-to-show-archived-cards}
 
 Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode filtrar o quadro para exibir também todos os cartões arquivados.
 
 1. Acesse o quadro.
-1. Clique em [!UICONTROL **Configurar**] à direita da placa para abrir o painel Configurar.
-1. Expandir [!UICONTROL **Cartões**].
-1. Ativar [!UICONTROL **Exibir cartões arquivados no quadro**].
-1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Cartões arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir cartões arquivados.
+1. Clique em [!UICONTROL **Configurar**] à direita do quadro para abrir o painel Configurar.
+1. Expanda [!UICONTROL **Cartões**].
+1. Ative [!UICONTROL **Exibir cartões arquivados no quadro**].
+1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Cartões Arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir todos os cartões arquivados.
 
    O filtro mostra o número de cartões arquivados.
 
@@ -78,6 +78,6 @@ Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode f
 
    >[!NOTE]
    >
-   >A variável [!UICONTROL Cartões arquivados] A seção não está disponível no filtro se você não ativou a configuração para exibir cartões arquivados. Para obter mais informações, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >A seção [!UICONTROL Cartões Arquivados] não estará disponível no filtro se você não tiver ativado a definição de configuração para exibir cartões arquivados. Para obter mais informações, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-1. Selecionar **[!UICONTROL Cartões arquivados]** novamente para desmarcar a opção e exibir somente cartões ativos.
+1. Selecione **[!UICONTROL Cartões arquivados]** novamente para limpar a opção e exibir apenas cartões ativos.

@@ -58,28 +58,28 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms personalizado**.
+1. Clique em **Forms Personalizado**.
 1. Localize o formulário necessário e clique em ![Ícone Editar](assets/edit-icon.png).
 1. Na parte superior do formulário, adicione o objeto para o qual você planeja converter a tarefa ou problema.
 
    >[!INFO]
    >
-   >**Exemplo**: se desejar transferir os dados do formulário personalizado para um projeto, selecione Projeto.
+   >**Exemplo**: se você deseja transferir os dados do formulário personalizado para um projeto, selecione Projeto.
 
 1. Clique em **Aplicar** na parte inferior do formulário.
 
-1. Continue em para [Segunda: converter o problema ou a tarefa e transferir os dados do formulário personalizado](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. Continuar em para [Segundo: converta o problema ou a tarefa e transfira os dados do formulário personalizado](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## Segunda: converter o problema ou a tarefa e transferir os dados do formulário personalizado {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Adicione mais objetos ao formulário personalizado no problema ou tarefa que você está convertendo, conforme explicado na seção [Primeira: Adicionar outros objetos ao formulário personalizado](#first-add-additonal-objects-to-the-custom-form) neste artigo.
-1. Converta o problema ou a tarefa usando o **Forms personalizado** na caixa exibida para selecionar o formulário personalizado necessário. Para obter instruções, consulte os seguintes artigos:
+1. Adicione mais objetos ao formulário personalizado no problema ou tarefa que você está convertendo, como explicado na seção [Primeiro: adicione mais objetos ao formulário personalizado](#first-add-additonal-objects-to-the-custom-form) neste artigo.
+1. Converta o problema ou a tarefa usando a opção **Forms personalizado** na caixa que é exibida para selecionar o formulário personalizado necessário. Para obter instruções, consulte os seguintes artigos:
 
    * [Converter um problema em um projeto no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Converter um problema em uma tarefa no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Converter uma tarefa em um projeto](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. No **Converter em (tipo de objeto)** que for exibida, clique na guia **Adicionar o Forms** e selecione o formulário copiado na seção anterior.
+1. Na caixa de diálogo **Converter em (tipo de objeto)** que é exibida, clique no menu suspenso **Adicionar Forms** e selecione o formulário copiado na seção anterior.
 
    As informações capturadas nos campos personalizados do problema agora são transferidas para o formulário personalizado na tarefa.
 

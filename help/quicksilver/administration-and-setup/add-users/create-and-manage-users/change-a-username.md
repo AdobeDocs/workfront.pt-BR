@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Alterar um nome de usuário
-description: É possível editar o nome de usuário de um usuário (endereço de email) editando o perfil de usuário.
+description: É possível editar o nome de usuário (endereço de email) de um usuário editando o perfil dele.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # Alterar um nome de usuário
 
-É possível editar o nome de usuário de um usuário (endereço de email) editando o perfil de usuário. Para obter instruções, consulte as informações sobre o campo Endereço de email em [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+É possível editar o nome de usuário (endereço de email) de um usuário editando o perfil dele. Para obter instruções, consulte as informações sobre o campo Endereço de email em [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período da versão 23.1. Essas melhorias serão disponibilizadas no ambiente de Produção no mínimo 2 semanas após o lançamento para Pré-visualização.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte a [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Listas atualizadas na área Configuração > Interface
 
@@ -55,7 +55,7 @@ Para criar uma experiência mais consistente no Jira, atualizamos o Workfront pa
 
 A funcionalidade da integração do Workfront para Jira não foi alterada.
 
-Para obter mais informações sobre a integração do Workfront para Jira, consulte [Adobe Workfront para Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
+Para obter mais informações sobre o Workfront para integração com o Jira, consulte [Adobe Workfront para Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
 ## Seleção de usuário inteligente ao atualizar campos de usuário
 

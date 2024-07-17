@@ -81,13 +81,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -124,7 +124,7 @@ Além disso, oferecemos suporte às seguintes expressões para campos de fórmul
  <tbody>
 
 <tr> 
-   <td><strong>ARRAYJOIN</strong> </td> 
+   <td><strong>JUNÇÃO DE MATRIZ</strong> </td> 
    <td> <p>Retorna a string concatenada por delimitador.</p> <p>A expressão é formatada da seguinte maneira:
 
 <code>ARRAYJOIN(delimitador,matriz)</code>
@@ -150,12 +150,12 @@ Além disso, oferecemos suporte às seguintes expressões para campos de fórmul
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Define o fuso horário de uma data e hora para um fuso horário específico.</p> <p>A expressão é formatada da seguinte maneira:
 
-<code>SETTIMEZONE(data,&#39;América/Los_Angeles&#39;)</code>
+<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
 <tr> 
-   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td><strong>SEMANA</strong> </td> 
    <td> <p>Retorna o número da semana em um ano. Como opção, é possível indicar em qual dia a semana começa (use 1 para domingo ou 2 para segunda-feira). Se omitido, as semanas começarão no domingo, por padrão.</p> <p>A expressão é formatada da seguinte maneira:
 
 <code>WEEKOFYEAR(data,2)</code>

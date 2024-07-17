@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-Depois que você ou outros usuários criam metas, é possível revisar o progresso e as informações na Lista de metas. Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+Depois que você ou outros usuários criam metas, é possível revisar o progresso e as informações na Lista de metas. Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 ## Requisitos de acesso
 
@@ -46,7 +46,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -56,7 +56,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -90,7 +90,7 @@ Você pode visualizar e gerenciar metas nas seguintes seções do Workfront Goal
 
 Cada seção exibe metas em formatos ligeiramente diferentes. A seção usada depende do propósito que você deseja atingir ao trabalhar com metas.
 
-Para obter mais informações, consulte [Visão geral das seções de Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Para obter mais informações, consulte [seções de Visão Geral das Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Este artigo descreve como analisar metas na Lista de metas.
 
@@ -196,7 +196,7 @@ Considere o seguinte ao revisar a Lista de metas:
 
 Para gerenciar metas na Lista de metas:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png)  no canto superior direito e clique em **Metas**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e clique em **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -208,7 +208,7 @@ Para gerenciar metas na Lista de metas:
    * **Nome**: o nome da meta.
    * **Proprietário**: o nome do proprietário da meta.
    * **Período**: o período para o qual a meta é agendada.
-   * **Status**: O status da meta pode ser um dos seguintes:
+   * **Status**: o status da meta pode ser um dos seguintes:
       * Ativo
       * Rascunho
       * Inativo
@@ -216,9 +216,9 @@ Para gerenciar metas na Lista de metas:
 
      Para obter informações sobre o status da meta, consulte [Visão geral do status da meta no Adobe Workfront Goals](../goal-management/goal-status-overview.md).
 
-     O ícone de alinhamento aparece nas metas alinhadas a outras metas. Para obter informações sobre alinhamento de metas, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md).
+     O ícone de alinhamento aparece nas metas alinhadas a outras metas. Para obter informações sobre como alinhar metas, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md).
 
-   * **Condição**: uma representação visual de como a meta está progredindo dentro do período alocado para a meta ser concluída.
+   * **Condição**: uma representação visual de como a meta está progredindo dentro do período alocado para que ela seja concluída.
 
      A condição de uma meta pode ser uma das seguintes:
 
@@ -227,15 +227,15 @@ Para gerenciar metas na Lista de metas:
       * Em Risco
       * Com problemas
 
-     Para obter informações sobre as condições da meta, consulte [Visão geral do progresso e da condição da meta no Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
+     Para obter informações sobre as condições da meta, consulte [Visão geral do progresso da meta e da condição nas Metas do Adobe Workfront](../goal-management/calculate-goal-progress.md).
 
    * **Progresso**: o indicador de progresso da meta como um valor percentual. A cor do indicador de progresso corresponde à cor da Condição da meta.
 
-     Para obter informações, consulte [Calcular o progresso da meta em Metas do Adobe Workfront](../goal-management/calculate-goal-progress.md).
+     Para obter informações, consulte [Calcular progresso da meta em Metas do Adobe Workfront](../goal-management/calculate-goal-progress.md).
 
 1. Clique no ícone de filtro ![](assets/filter-icon.png) no canto superior direito da lista de metas e aplique filtros para exibir somente as metas que são importantes para você.
 
-   Para obter informações sobre como usar filtros no Workfront Goals, consulte [Filtrar informações nos Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
+   Para obter informações sobre como usar filtros nas Metas do Workfront, consulte [Informações de filtro nas Metas do Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 
 1. Clique em qualquer um dos campos nos cabeçalhos da coluna para classificar a lista por esse campo.
 Uma seta é exibida à direita do campo pelo qual a lista é classificada.
@@ -243,10 +243,10 @@ Uma seta é exibida à direita do campo pelo qual a lista é classificada.
 1. (Opcional) Clique no campo na coluna novamente para classificar a mesma coluna em uma ordem decrescente.
 1. Clique no nome de uma meta para abrir a página da meta.
 1. Selecione uma meta na lista e clique em uma das seguintes opções na parte superior da lista:
-   * **Editar** ícone ![](assets/edit-icon.png) para editar informações sobre a meta. Para obter informações, consulte [Editar metas nas Metas do Adobe Workfront](../goal-management/edit-goals.md).
+   * **Editar** ícone ![](assets/edit-icon.png) para editar informações sobre a meta. Para obter informações, consulte [Editar metas nas Metas da Adobe Workfront](../goal-management/edit-goals.md).
    * **Compartilhar** ícone ![](assets/share-icon.png) para compartilhar a meta com outras pessoas. Para obter informações, consulte [Compartilhar uma meta no Adobe Workfront Goals](../workfront-goals-settings/share-a-goal.md).
-   * **Abrir alinhamento** ícone ![](assets/align-icon-unshimmed.png) para abrir a área Alinhamento de metas. Essa opção é exibida somente quando a meta selecionada está alinhada a outra meta.
-   * **Excluir** ícone ![](assets/delete-icon.png) para excluir a meta e clique em **Excluir** para confirmar.  Para obter informações, consulte [Excluir e desativar metas no Adobe Workfront Goals](../goal-management/delete-and-deactivate-goals.md).
+   * **Abrir alinhamento** ícone ![](assets/align-icon-unshimmed.png) para abrir a área Alinhamento de Meta. Essa opção é exibida somente quando a meta selecionada está alinhada a outra meta.
+   * **Excluir** ícone ![](assets/delete-icon.png) para excluir a meta, em seguida, clique em **Excluir** para confirmar.  Para obter informações, consulte [Excluir e desativar metas nas Metas do Adobe Workfront](../goal-management/delete-and-deactivate-goals.md).
 
 
 

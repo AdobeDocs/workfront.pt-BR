@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-a semana de 4 de abril de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+a semana de 4 de abril de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte a [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Configurar um formulário personalizado para trabalhar com vários tipos de objeto
 
@@ -33,7 +33,7 @@ Anteriormente, você podia configurar um formulário personalizado para funciona
 
 Essa funcionalidade funciona com todos os formulários personalizados criados anteriormente em seu sistema Workfront. Por exemplo, se você já tiver um formulário personalizado que foi criado para o tipo de objeto Tarefa, poderá configurar o formulário para funcionar com outros tipos de objeto, como Projeto e Problema.
 
-Para obter mais informações, consulte a seção [Comece a criar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) no artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obter mais informações, consulte a seção [Começar a criar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) no artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Para obter mais informações, consulte a seção [Comece a criar um formulário
 
 ## O catálogo de blueprints está disponível para todos os usuários e os administradores podem permitir solicitações
 
-Todos os usuários do Adobe Workfront agora podem navegar pelo catálogo de blueprints disponíveis. Para obter mais informações, consulte [Navegar pelo catálogo de blueprints e solicitar a instalação de blueprints](../../../administration-and-setup/blueprints/browse-catalog.md).
+Todos os usuários do Adobe Workfront agora podem navegar pelo catálogo de blueprints disponíveis. Para obter mais informações, consulte [Procurar o catálogo de blueprints e solicitar a instalação de blueprints](../../../administration-and-setup/blueprints/browse-catalog.md).
 
 Além disso, o administrador do sistema pode habilitar o acesso para que os usuários solicitem a instalação de blueprints. Atribuir uma fila de solicitações para armazenar as solicitações permite que os usuários façam solicitações no catálogo de blueprints. Para obter mais informações, consulte [Configurar acesso a blueprints](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
@@ -64,7 +64,7 @@ Para obter mais informações, consulte [Adicionar ou editar um widget de ativo 
 
 ## Novas configurações de nível de acesso padrão
 
-Para atender melhor às necessidades da maioria dos administradores que criam novos níveis de acesso, alteramos a configuração padrão das opções &quot;Ajuste as configurações&quot; listadas abaixo. Eles são exibidos ao clicar no ícone de engrenagem ![](assets/gear-icon-in-access-levels.png) em um botão Editar.
+Para atender melhor às necessidades da maioria dos administradores que criam novos níveis de acesso, alteramos a configuração padrão das opções &quot;Ajuste as configurações&quot; listadas abaixo. Elas são exibidas quando você clica no ícone de engrenagem ![](assets/gear-icon-in-access-levels.png) em um botão Editar.
 
 Todas essas alterações desativam uma opção que estava ativada anteriormente por padrão. Se isso não atender às necessidades de sua organização, você poderá habilitá-los ao configurar um novo nível de acesso, ou posteriormente.
 

@@ -9,7 +9,7 @@ exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,15 +19,15 @@ O objetivo do painel é fornecer acesso rápido às informações. Você pode pr
 
 * Relatórios
 
-  Para obter mais informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Calendários
 
-  Para obter mais informações sobre a criação de calendários, consulte [Calendários: índice de artigos](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  Para obter mais informações sobre como criar calendários, consulte [Calendários: índice de artigo](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * Páginas externas
 
-  Para obter mais informações sobre como criar páginas externas, consulte [Incorporar uma página externa da Web em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Para obter mais informações sobre como criar páginas externas, consulte [Incorporar uma página da Web externa em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Após criar esses itens e adicioná-los a um painel, você pode editar o painel para adicionar mais itens a ele, remover itens existentes dele ou editar as informações do painel.
 
@@ -57,12 +57,12 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões no painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões no painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -73,7 +73,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 ## Editar um painel
 
 1. Vá para o painel que deseja editar.
-1. Clique em **Ações do painel** e, em seguida, clique em **Editar**.
+1. Clique em **Ações do Painel** e em **Editar**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
@@ -86,7 +86,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
    * **Nome**: edite o nome do painel.
    * **Descrição**: especifique uma descrição para o painel.
 
-1. No **Relatórios e calendários disponíveis** comece digitando o nome de um relatório, calendário ou página externa no campo **Pesquisar por nome ou tipo...** e arraste e solte o relatório ou calendário no painel de layout à direita.
+1. Na seção **Relatórios e Calendários Disponíveis**, comece digitando o nome de um relatório, calendário ou página externa no campo **Pesquisar por nome ou tipo...** e, em seguida, arraste e solte o relatório ou calendário no painel de layout à direita.
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 1. (Opcional) Altere a ordem dos relatórios no painel clicando no nome de um relatório, arrastando-o e soltando-o no ponto desejado no painel de layout.
 1. (Opcional) Clique em **Adicionar página externa** para adicionar uma página externa ao painel.\
    Ou\
-   Localize uma página externa existente no painel, passe o mouse sobre ela e clique no **Editar** ícone para editar a página externa.\
-   Para obter mais informações sobre como adicionar ou editar páginas externas em um painel, consulte [Incorporar uma página externa da Web em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Localize uma página externa existente no painel, passe o mouse sobre ela e clique no ícone **Editar** para editar a página externa.\
+   Para obter mais informações sobre como adicionar ou editar páginas externas em um painel, consulte [Incorporar uma página da Web externa em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Clique em **Salvar + Fechar**.

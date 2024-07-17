@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Gerenciar pastas em [!DNL Workfront Proof]
-description: Todas as suas pastas são alocadas na barra lateral de navegação à esquerda em [!UICONTROL Pastas] guia . Se um usuário de uma [!DNL Workfront Proof] conta compartilha uma pasta com você (ou compartilha provas que estão em uma pasta), a pasta também é listada na [!UICONTROL Pastas] guia .
+title: Gerenciar Pastas em [!DNL Workfront Proof]
+description: Todas as suas pastas estão alocadas na barra lateral de navegação esquerda na guia [!UICONTROL Pastas]. Se um usuário de uma conta do  [!DNL Workfront Proof] diferente compartilhar uma pasta com você (ou compartilhar provas que estejam em uma pasta), a pasta também será listada na guia [!UICONTROL Pastas].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Gerenciar pastas em [!DNL Workfront Proof]
+# Gerenciar Pastas em [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro de [!DNL Adobe Workfront], consulte [Tofing](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-Todas as suas pastas são alocadas na barra lateral de navegação à esquerda em [!UICONTROL Pastas] guia . Se um usuário de uma [!DNL Workfront Proof] conta compartilha uma pasta com você (ou compartilha provas que estão em uma pasta), a pasta também é listada na [!UICONTROL Pastas] guia .
+Todas as suas pastas estão alocadas na barra lateral de navegação esquerda na guia [!UICONTROL Pastas]. Se um usuário de uma conta diferente do [!DNL Workfront Proof] compartilhar uma pasta com você (ou compartilhar provas que estejam em uma pasta), a pasta também será listada na guia [!UICONTROL Pastas].
 
-## Gerenciamento de pastas da [!UICONTROL Pastas de conta] Página
+## Gerenciando pastas da página [!UICONTROL Pastas da conta]
 
-O [!UICONTROL Pastas de conta] página mostra todas as pastas em sua conta (incluindo pastas que foram compartilhadas com você por usuários em outras [!DNL Workfront Proof] ) e permite gerenciá-las facilmente.
+A página [!UICONTROL Pastas da conta] mostra todas as pastas da sua conta (incluindo as pastas que foram compartilhadas com você por usuários em outras contas do [!DNL Workfront Proof]) e permite que você as gerencie com facilidade.
 
-1. Clique em **[!UICONTROL [Nome da sua conta] pastas]** na barra lateral de navegação esquerda.\
+1. Clique em **[!UICONTROL [Nome da sua conta] pastas]** na barra lateral de navegação à esquerda.\
    Esta página mostra as seguintes informações para cada pasta:
 
    * Nome
@@ -38,94 +38,94 @@ O [!UICONTROL Pastas de conta] página mostra todas as pastas em sua conta (incl
 
 1. Selecione as pastas que deseja gerenciar de uma das seguintes maneiras:
 
-   * Selecione uma pasta marcando a caixa de seleção ao lado da pasta.
+   * Selecione uma pasta marcando a caixa de seleção ao lado dela.
    * Selecione todas as pastas marcando a caixa de seleção acima da lista.
 
-      >[!NOTE]
-      >
-      >Você pode selecionar somente pastas para as quais tem direitos de edição.
+     >[!NOTE]
+     >
+     >Você pode selecionar somente pastas para as quais tem direitos de edição.
 
-      Uma barra de ferramentas é exibida acima da lista de pastas.
+     Uma barra de ferramentas é exibida acima da lista de pastas.
 
 1. Na barra de ferramentas, execute uma das seguintes ações:
 
    * Mova as pastas para uma pasta diferente.
-   * Compartilhe as pastas com outros usuários.
+   * Compartilhar as pastas com outros usuários.
    * Exclua as pastas.
-   * No **[!UICONTROL Mais]** altere o proprietário da pasta.
+   * No menu **[!UICONTROL Mais]**, altere o proprietário da pasta.
 
-1. Marque a caixa de seleção de uma única pasta e clique no botão **[!UICONTROL Mais]** (três pontos) à direita para ver as seguintes opções adicionais (dependendo do seu nível de acesso):
+1. Marque a caixa de seleção de uma única pasta e clique no menu **[!UICONTROL Mais]** (três pontos) à direita para ver as seguintes opções adicionais (dependendo do seu nível de acesso):
 
-   * **[!UICONTROL Exibir detalhes da pasta]**: Exibe a página Detalhes da pasta para essa pasta.
-   * **[!UICONTROL Nova prova]**: Exibe a nova página de prova com o campo de pasta preenchido automaticamente com o nome da pasta selecionada.
-   * **[!UICONTROL Upload de arquivo]**: Exibe a página do novo arquivo, o campo da pasta será preenchido automaticamente com o nome da pasta selecionada.
-   * **[!UICONTROL Nova subpasta]**: Permite criar uma pasta aninhada na pasta selecionada.
-   * **[!UICONTROL Compartilhar]**: Permite adicionar novas pessoas à pasta.
-   * **[!UICONTROL Resumo do Excel]**: Permite baixar um resumo do Excel das provas na pasta.
-   * **[!UICONTROL Excluir]**: Move a pasta para a Lixeira.
+   * **[!UICONTROL Exibir detalhes da pasta]**: exibe a página Detalhes da pasta dessa pasta.
+   * **[!UICONTROL Nova prova]**: exibe a nova página de prova com o campo de pasta preenchido automaticamente com o nome da pasta selecionada.
+   * **[!UICONTROL Carregar arquivo]**: exibe a página do novo arquivo, o campo de pasta será preenchido automaticamente com o nome da pasta selecionada.
+   * **[!UICONTROL Nova subpasta]**: permite criar uma pasta aninhada dentro da pasta selecionada.
+   * **[!UICONTROL Compartilhar]**: permite adicionar novas pessoas à pasta.
+   * **[!UICONTROL Resumo do Excel]**: permite baixar um resumo do Excel das provas na pasta.
+   * **[!UICONTROL Excluir]**: move a pasta para a Lixeira.
 
 >[!NOTE]
 >
->Ao excluir uma pasta pai, todas as subpastas, provas e arquivos dentro da pasta também são excluídos.
+>Quando você exclui uma pasta pai, todas as subpastas, provas e arquivos dentro da pasta também são excluídos.
 
-## Gerenciar uma pasta na página Detalhes da pasta
+## Gerenciando uma Pasta na Página Detalhes da Pasta
 
-1. Clique no botão **[!UICONTROL Mais]** menu (três pontos) à direita de uma pasta e clique em **[!UICONTROL Exibir detalhes da pasta]**.\
-   Você também pode clicar no nome da pasta no **[!UICONTROL Minhas pastas]** na barra lateral esquerda para acessar o **[!UICONTROL Detalhes da pasta]** página.
+1. Clique no menu **[!UICONTROL Mais]** (três pontos) à direita de uma pasta e clique em **[!UICONTROL Exibir detalhes da pasta]**.\
+   Você também pode clicar no nome da pasta na lista **[!UICONTROL Minhas pastas]** na barra lateral esquerda para acessar a página **[!UICONTROL Detalhes da pasta]**.
 
-1. Execute qualquer uma das seguintes ações:
+1. Execute uma das seguintes ações:
 
-   * Mova a pasta a ser localizada em uma pasta principal diferente.\
+   * Mova a pasta para que fique localizada em outra pasta pai.\
 
-      Mova a pasta para o nível superior clicando em **[!UICONTROL Nenhuma pasta selecionada]** no menu suspenso.
+     Mova a pasta para o nível superior clicando em **[!UICONTROL Nenhuma pasta selecionada]** no menu suspenso.
 
-   * Compartilhe a pasta com outros usuários.
-   * Crie uma nova subpasta.
-   * Solicite um resumo do Excel das provas na pasta .
+   * Compartilhar a pasta com outros usuários.
+   * Criar uma nova subpasta.
+   * Solicite um resumo das provas no Excel na pasta.
    * Exclua a pasta.
 
 ## Renomear uma pasta
 
-1. Clique no botão **[!UICONTROL Mais]** menu (três pontos) à direita de uma pasta e clique em **[!UICONTROL Exibir detalhes da pasta]**.\
-   Você também pode clicar no nome da pasta no **[!UICONTROL Minhas pastas]** na barra lateral esquerda para acessar o **[!UICONTROL Detalhes da pasta]** página.
+1. Clique no menu **[!UICONTROL Mais]** (três pontos) à direita de uma pasta e clique em **[!UICONTROL Exibir detalhes da pasta]**.\
+   Você também pode clicar no nome da pasta na lista **[!UICONTROL Minhas pastas]** na barra lateral esquerda para acessar a página **[!UICONTROL Detalhes da pasta]**.
 
 1. Clique no nome da pasta na parte superior da página.
 1. Edite o nome e clique fora da caixa.\
-   O Workfront Proof salva as alterações automaticamente.
+   O Workfront Proof salva suas alterações automaticamente.
 
-## Alterar uma pasta pública para uma pasta privada
+## Alterando uma Pasta Pública para uma Pasta Privada
 
-1. Clique no botão **[!UICONTROL Mais]** menu (três pontos) à direita de uma pasta e clique em **[!UICONTROL Exibir detalhes da pasta]**.
+1. Clique no menu **[!UICONTROL Mais]** (três pontos) à direita de uma pasta e clique em **[!UICONTROL Exibir detalhes da pasta]**.
 
-1. Clique no ícone da pasta ao lado do nome da pasta.
+1. Clique no ícone de pasta ao lado do nome da pasta.
 
 ## Excluir uma pasta
 
 Você pode excluir uma pasta dos seguintes locais:
 
-* [Excluir uma pasta do [!UICONTROL Pastas de conta] Página](#deleting-a-folder-from-the-account-folders-page)
-* [Exclusão de uma pasta do [!UICONTROL Detalhes da pasta] Página](#deleting-a-folder-from-the-folder-details-page)
+* [Excluindo uma pasta da página [!UICONTROL Pastas da conta]](#deleting-a-folder-from-the-account-folders-page)
+* [Excluindo uma pasta da página [!UICONTROL Detalhes da pasta]](#deleting-a-folder-from-the-folder-details-page)
 
 >[!NOTE]
 >
->Ao excluir uma pasta pai, todas as subpastas, provas e arquivos dentro da pasta são movidos para a [Restaure e esvazie a lixeira no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+>Ao excluir uma pasta pai, todas as subpastas, provas e arquivos dentro da pasta são movidos para a [Restaurar e Esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-### Excluir uma pasta do [!UICONTROL Pastas de conta] Página {#deleting-a-folder-from-the-account-folders-page}
+### Excluindo uma pasta da página [!UICONTROL Pastas da conta] {#deleting-a-folder-from-the-account-folders-page}
 
-1. Clique em **(Nome da sua conta) [!UICONTROL pastas]** na barra lateral de navegação esquerda para acessar o [!UICONTROL Pastas de conta] página.\
-   Você também pode clicar no nome da pasta no **[!UICONTROL Minhas pastas]** na barra lateral esquerda para acessar o **[!UICONTROL Detalhes da pasta]** página.
+1. Clique em **(Nome da sua conta) [!UICONTROL pastas]** na barra lateral de navegação à esquerda para acessar a página [!UICONTROL pastas da conta].\
+   Você também pode clicar no nome da pasta na lista **[!UICONTROL Minhas pastas]** na barra lateral esquerda para acessar a página **[!UICONTROL Detalhes da pasta]**.
 
 1. Marque a caixa de seleção de uma ou mais pastas.
-1. Clique no botão **[!UICONTROL Excluir]** Ícone (lixeira).
+1. Clique no ícone **[!UICONTROL Excluir]** (lixeira).
 
    >[!NOTE]
    >
-   >Os itens excluídos permanecem na pasta Lixeira até que a Lixeira seja esvaziada (ou a pasta seja restaurada).
+   >Os itens excluídos permanecem na pasta Lixeira até que a Lixeira seja esvaziada (ou que a pasta seja restaurada).
 
 ### Excluindo uma pasta da página Detalhes da pasta {#deleting-a-folder-from-the-folder-details-page}
 
-1. Clique no botão **[!UICONTROL Mais]** menu (três pontos) à direita de uma pasta e clique em **[!UICONTROL Exibir detalhes da pasta]**.\
-   Você também pode clicar no nome da pasta no **[!UICONTROL Minhas pastas]** na barra lateral esquerda para acessar o **[!UICONTROL Detalhes da pasta]** página.
+1. Clique no menu **[!UICONTROL Mais]** (três pontos) à direita de uma pasta e clique em **[!UICONTROL Exibir detalhes da pasta]**.\
+   Você também pode clicar no nome da pasta na lista **[!UICONTROL Minhas pastas]** na barra lateral esquerda para acessar a página **[!UICONTROL Detalhes da pasta]**.
 
-1. Clique no botão **[!UICONTROL Excluir]** Ícone (lixeira) na parte superior da página.
+1. Clique no ícone **[!UICONTROL Excluir]** (lixeira) na parte superior da página.
 1. Clique em **[!UICONTROL OK]** para confirmar a exclusão.

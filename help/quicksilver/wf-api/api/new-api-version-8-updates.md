@@ -9,8 +9,8 @@ role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 34%
+source-wordcount: '537'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 
 ## Recursos Atualizados
 
-Os recursos existentes a seguir foram atualizados com esta versão da API do Adobe Workfront. Para visualizar os recursos novos nas versões 8, consulte [Novidades da API versão 8](../../wf-api/api/new-api-version-8.md). As alterações feitas em um recurso são indicadas da seguinte maneira:
+Os recursos existentes a seguir foram atualizados com esta versão da API do Adobe Workfront. Para exibir os recursos novos das versões 8, consulte [Novidades da API versão 8](../../wf-api/api/new-api-version-8.md). As alterações feitas em um recurso são indicadas da seguinte maneira:
 
 * As adições são listadas apenas
 * As remoções são indicadas com texto tachado
@@ -32,9 +32,9 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Alterações nos valores possíveis
+<sup>1</sup> Alterações em valores possíveis
 
-### Regra de acesso<sup>1</sup> 
+### Regra de Acesso<sup>1</sup> 
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
@@ -45,7 +45,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 {style="table-layout:auto"}
 
 <sup>1</sup> Sinalizador removido: REPORTABLE\
-<sup>2</sup> Alterações nos valores possíveis
+<sup>2</sup> Alterações em valores possíveis
 
 ### Aprovação
 
@@ -58,7 +58,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis\
+<sup>1</sup>Alterações em valores possíveis\
 <sup>2</sup>Sinalizadores adicionados: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 
 ### Atribuição
@@ -80,17 +80,17 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### PreferênciasDoCliente
 
 | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| name<sup>1</sup> |   |   |   |   |   |   |
+| nome<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### DocumentApproval
 
@@ -152,7 +152,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### OpTask
 
@@ -166,7 +166,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### Portfólio
 
@@ -176,7 +176,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### Programa
 
@@ -186,7 +186,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### Projeto
 
@@ -196,7 +196,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### AprovaçãoDaProva
 
@@ -220,7 +220,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### Taxa
 
@@ -258,7 +258,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### Equipe
 
@@ -288,7 +288,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 Atualizar
 
@@ -298,7 +298,7 @@ Atualizar
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### Usuário
 
@@ -320,7 +320,7 @@ Atualizar
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis
+<sup>1</sup>Alterações em valores possíveis
 
 ### Trabalho
 
@@ -333,5 +333,5 @@ Atualizar
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Alterações nos valores possíveis\
+<sup>1</sup>Alterações em valores possíveis\
 <sup>2</sup>Sinalizadores adicionados: DYNAMIC, LAZY_READ e NOT_GROUPABLE

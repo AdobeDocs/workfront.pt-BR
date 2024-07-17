@@ -77,13 +77,13 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
 
 ### Mapear atributos do usuário na experiência clássica
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Sistema** > **Logon único (SSO)**.
+1. Clique em **Sistema** > **Logon Único (SSO)**.
 
-1. No **Tipo** , clique em **SAML 2.0**.
+1. No menu suspenso **Tipo**, clique em **SAML 2.0**.
 
-1. Clique em **Mapear Atributos de Usuário**.
+1. Clique em **Mapear atributos de usuário**.
 
    ![](assets/map-user-attributes.png)
 
@@ -127,26 +127,26 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
 
    Você pode clicar em **Adicionar regra** para adicionar mais regras ao atributo.
 
-1. (Opcional) Para mapear mais atributos de usuário, clique em **Adicionar mapeamento** e repita as etapas 6 a 7.
+1. (Opcional) Para mapear mais atributos de usuário, clique em **Adicionar mapeamento** e repita as etapas de 6 a 7.
 1. Clique em **Salvar**.
 
 ### Mapear atributos do usuário na experiência unificada do Adobe
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-left.png) no canto superior esquerdo do Adobe Workfront, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-left.png) do **Menu Principal** no canto superior esquerdo do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Sistema** > **Logon único (SSO)**.
+1. Clique em **Sistema** > **Logon Único (SSO)**.
 
-1. Selecione o **Adobe** guia.
+1. Selecione a guia **Adobe**.
 
-1. (Opcional e condicional) Se sua organização tiver o mapeamento de atributos configurado na experiência clássica e você quiser copiar esse mapeamento de atributos para a experiência unificada do Adobe, clique em **Migrar Mapeamentos**. Em seguida, você pode descartar, excluir ou editar esses mapeamentos.
+1. (Opcional e condicional) Se sua organização tiver o mapeamento de atributos configurado na experiência clássica e você quiser copiar esse mapeamento de atributos para a experiência unificada de Adobe, clique em **Migrar Mapeamentos**. Em seguida, você pode descartar, excluir ou editar esses mapeamentos.
 
    >[!NOTE]
    >
    >Recomendamos migrar mapeamentos na primeira vez que você configurar mapeamentos na experiência unificada de Adobe. Não há mal em migrá-los novamente mais tarde, mas a migração de mais de uma vez é desnecessária.
 
-1. Para criar um novo mapeamento de atributo, clique em **Adicionar mapeamento**.
+1. Para criar um novo mapeamento de atributo, clique em **Adicionar Mapeamento**.
 
-1. Clique na seta ao lado do nome do campo do Workfront e selecione o [!DNL Workfront] que você deseja mapear.
+1. Clique na seta ao lado do nome do campo do Workfront e selecione o campo [!DNL Workfront] para o qual você deseja mapear.
 
 1. (Opcional) Se quiser criar mais de uma regra para um determinado campo, clique na seta ao lado de **Sempre** e selecione o operador que deseja que a regra use.
 
@@ -167,8 +167,8 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
    > * Qualquer regra abaixo de Sempre será ignorada. Se você tiver uma regra Sempre, mova-a para a parte inferior da lista de regras. Você pode mover regras na lista clicando no menu de três pontos à direita da regra e mover a regra para cima ou para baixo.
    > * Para criar uma regra no meio da lista, clique no menu de três pontos ao lado da regra que você deseja que esteja acima ou abaixo da nova regra e selecione **Adicionar regra acima** ou **Adicionar regra abaixo**.
 
-1. Para excluir uma regra, clique no menu de três pontos ao lado da regra que deseja excluir e selecione **Excluir**.
-1. Para excluir um mapeamento, clique no link **Excluir** ícone que está no cartão para esse mapeamento.
+1. Para excluir uma regra, clique no menu de três pontos ao lado da regra que você deseja excluir e selecione **Excluir**.
+1. Para excluir um mapeamento, clique no ícone **Excluir** que está no cartão para esse mapeamento.
 
 1. Para salvar, role até a parte superior da página e clique em **Salvar**.
 

@@ -90,7 +90,7 @@ O Workfront tem os seguintes limites:
 * FLC - Animação Flic
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Formato de intercâmbio de gráficos (GIF animado no novo Visualizador de prova do Workfront apenas)
+* GIF - Graphics Interchange Format (GIF animado no novo Workfront Proof Viewer apenas)
 * GIF HDP - Foto do Windows HD
 * ICO - Ícone do Windows
 * IFF - Formato de Arquivo de Intercâmbio
@@ -99,7 +99,7 @@ O Workfront tem os seguintes limites:
 * ITG - Intergráfico
 * JBG - JBIG
 * JB2 - JBIG2
-* JPG - Grupo conjunto de peritos em fotografia (JPEG)
+* JPG - Grupo conjunto de especialistas em fotografia (JPEG)
 * JPEG-XR - Foto do Windows Media / Foto HD (HDP)
 * JPEG-LS - JPEG Sem Perdas
 * J2K - JPEG 2000
@@ -132,7 +132,7 @@ O Workfront tem os seguintes limites:
 * PNM - Utilitários de bitmap portátil
 * PPM - Utilitários de bitmap portáteis
 * PPT - Apresentação do PowerPoint
-* PPTX - PowerPoint Presentation 2007 PS - PostScript File (PPTX - Apresentação do PowerPoint 2007 PS - Arquivo PostScript)
+* PPTX - PowerPoint Presentation 2007 PS - PostScript File
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
@@ -193,7 +193,7 @@ O Workfront tem os seguintes limites:
 * DOCX - Documento do Microsoft Word
 * PDF - Arquivo de documento portátil Adobe
 * PPT - Apresentação do PowerPoint
-* PPTX - PowerPoint Presentation 2007 PS - PostScript File (PPTX - Apresentação do PowerPoint 2007 PS - Arquivo PostScript)
+* PPTX - PowerPoint Presentation 2007 PS - PostScript File
 * PSD - PHOTOSHOP
 * RTF - Rich Text
 * XLS - Planilha do Microsoft Excel
@@ -239,7 +239,7 @@ O Workfront tem os seguintes limites:
 
 ## Capturas da Web
 
-É possível criar provas estáticas de página da Web. Para obter mais informações, consulte [Criar uma prova estática para um site ou outro conteúdo da Web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) e [Criar uma prova estática do site usando o Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+É possível criar provas estáticas de página da Web. Para obter mais informações, consulte [Criar uma prova estática para um site ou outro conteúdo da Web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) e [Criar uma Prova Estática de Site usando o Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## Arquivos Zip
 

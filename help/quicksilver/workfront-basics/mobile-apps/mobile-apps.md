@@ -3,7 +3,7 @@ content-type: reference
 product-previous: mobile
 navigation-topic: get-started-with-workfront
 title: Aplicativos móveis
-description: Revise os artigos nessas áreas para saber como usar o [!DNL Adobe Workfront] aplicativos móveis.
+description: Leia os artigos destas áreas para saber como usar os  [!DNL Adobe Workfront] aplicativos móveis.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Esta seção contém as seguintes subseções:
 
-* [Use o [!DNL Adobe Workfront] aplicativo móvel](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
-* [Uso [!DNL Adobe Workfront View]](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [Dicas, truques e solução de problemas para o [!DNL Adobe Workfront] Aplicativos móveis](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [Usar o aplicativo móvel [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
+* [Usar [!DNL Adobe Workfront View]](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
+* [Dicas, truques e solução de problemas para  [!DNL Adobe Workfront] aplicativos móveis](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)

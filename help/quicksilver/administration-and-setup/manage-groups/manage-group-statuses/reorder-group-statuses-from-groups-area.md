@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Reordenar os status do grupo
-description: Como administrador de grupo, você pode alterar a ordem do projeto, tarefa e status de emissão para um grupo que você gerencia.
+title: Reordenar status do grupo
+description: Como administrador de grupo, você pode alterar a ordem dos status de projetos, tarefas e problemas de um grupo que gerencia.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 ---
 
-# Reordenar os status do grupo
+# Reordenar status do grupo
 
-Como administrador de grupo, você pode alterar a ordem do projeto, tarefa e status de emissão para um grupo que você gerencia.
+Como administrador de grupo, você pode alterar a ordem dos status de projetos, tarefas e problemas de um grupo que gerencia.
 
 <!--
 The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
@@ -25,38 +25,37 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ![](assets/statuses.png)
 
-Se houver algum grupo acima do grupo que você gerencia, os administradores também poderão fazer isso para o seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
+Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 >[!NOTE]
 >
->* Um administrador do Workfront pode reordenar os status no nível do sistema. Isso não afeta a ordem dos status nos grupos.
+>* Um administrador do Workfront pode reordenar os status no nível do sistema. Isso não afeta a ordem dos status dentro dos grupos.
 >
->  No entanto, os status em um grupo de nível superior recém-criado herdam a ordem dos status de nível de sistema. (Um novo subgrupo herda a ordem dos status no grupo um nível acima.)
+>  No entanto, os status em um grupo de nível superior recém-criado herdam a ordem dos status de nível do sistema. (Um novo subgrupo herda a ordem dos status no grupo um nível acima.)
 >
->* Você pode reordenar os status bloqueados. Para obter informações sobre status bloqueados, consulte [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>* Você pode reordenar os status bloqueados. Para obter informações sobre status bloqueados, consulte [Criar ou editar o status de um grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 >
-
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront* </td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">plano do Adobe Workfront* </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.groups"> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores do grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder ao usuário acesso administrativo total</a>.</p> </td> 
+   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir qual plano ou tipo de licença você tem, entre em contato com o administrador da Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Ordem padrão dos status
 
@@ -107,13 +106,13 @@ Por padrão, os status são exibidos na seguinte ordem:
  </tbody> 
 </table>
 
-## Reordenar os status de tarefas e projetos em um grupo que você gerencia
+## Reordenar status de tarefas e projetos em um grupo gerenciado por você
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. No painel esquerdo, clique em **Grupos**, em seguida, clique no nome do grupo.
+1. No painel esquerdo, clique em **Grupos** e, em seguida, clique no nome do grupo.
 1. No painel esquerdo, clique em **Status**.
-1. Acima da lista Status que é exibida, clique no botão **Projetos** ou **Tarefas** guia .
+1. Acima da lista de status exibida, clique na guia **Projetos** ou **Tarefas**.
 
 1. Arraste e solte os status na ordem desejada.
 
@@ -121,20 +120,19 @@ Por padrão, os status são exibidos na seguinte ordem:
 
 1. Para testar a nova ordem de status, vá para uma tarefa ou projeto associado ao grupo, clique no status no canto superior direito e verifique se os status exibidos estão na ordem configurada.
 
-## Reordenar status para problemas
+## Reordenar status de ocorrências
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. No painel esquerdo, clique em **Grupos**, em seguida, clique no nome do grupo.
+1. No painel esquerdo, clique em **Grupos** e, em seguida, clique no nome do grupo.
 1. No painel esquerdo, clique em **Status**.
-1. Clique no botão **Problemas** guia .
-1. (Opcional) Selecione um tipo de problema (**Relatório de erros**, **Alterar ordem**, **Problema** ou **Solicitação**).
+1. Clique na guia **Problemas**.
+1. (Opcional) Selecione um tipo de problema (**Relatório de Erros**, **Pedido de Alteração**, **Problema** ou **Solicitação**).
 
    >[!NOTE]
    >
-   >* Não é possível personalizar a ordem dos status da Lista Principal.
-   >* Recomendamos que você ordene os status de cada tipo de edição da mesma maneira. Para obter mais informações sobre tipos de problemas, consulte [Configurar tipos de solicitação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
-
+   >* Não é possível personalizar a ordem dos status para a Lista Mestra.
+   >* Recomendamos que você ordene os status para cada tipo de ocorrência da mesma maneira. Para obter mais informações sobre tipos de problemas, consulte [Configurar tipos de solicitação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
 1. Arraste e solte os status na ordem desejada.
 

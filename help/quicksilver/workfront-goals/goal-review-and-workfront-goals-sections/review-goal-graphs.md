@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -60,7 +60,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Nível de acesso</p></td>
@@ -114,7 +114,7 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
 ## Revisar o progresso da meta em gráficos
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+1. Clique no ícone ![](assets/main-menu-icon.png) > **Metas** do **Menu Principal** no canto superior direito.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -134,7 +134,7 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
 1. (Opcional) Selecione o tipo de informação que deseja exibir, atualizando os filtros no canto superior direito da seção Gráficos.
 
-   Para obter mais informações sobre como filtrar metas, consulte [Filtrar informações nos Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   Para obter mais informações sobre como filtrar metas, consulte [Filtrar informações em Metas da Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    >[!TIP]
    >
@@ -173,12 +173,12 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
    * **Data da semana**: o mês, o dia e o ano da semana selecionada.
    * **Progresso**: uma média do percentual de conclusão real de todas as metas para a semana selecionada.
-   * **Linha de base**: uma média do percentual de conclusão esperado de todas as metas para a semana selecionada.
+   * **Linha de Base**: uma média da porcentagem concluída esperada de todas as metas para a semana selecionada.
 
 1. (Opcional) Clique em **Progresso** na parte inferior do gráfico de progresso para remover a linha de progresso geral real
 
    Ou
 
-   Clique em **Linha de base** na parte inferior do gráfico de progresso para remover o progresso esperado do gráfico.
+   Clique em **Linha de Base** na parte inferior do gráfico de progresso para remover o progresso esperado do gráfico.
 
  

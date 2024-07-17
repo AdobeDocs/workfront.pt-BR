@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 21 de setembro de 2020.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Selecione campos de entrada ao usar os módulos Workfront > Atualizar registro ou Workfront > Criar registro
 
 Para ajudá-lo a usar seus cenários do Workfront com mais facilidade, introduzimos um novo tipo de campo. O campo &quot;Select fields to map&quot; permite escolher quais campos você deseja que estejam disponíveis para modificação em um determinado objeto. Isso facilita a inserção de informações ou a solução de problemas, já que você não precisa percorrer tantos campos. A limitação dos campos disponíveis também evita problemas que eram ocasionalmente encontrados quando objetos com muitos campos personalizados podiam se tornar muito grandes para serem executados com eficiência.
 
-Para obter mais informações, consulte [Módulos do Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações, consulte [módulos do Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Atualizações no módulo Workfront > Campos de observação
 
@@ -37,4 +37,4 @@ Para facilitar a configuração do módulo Workfront > Campos de observação, a
 
 Também incluímos uma correção que garante que você possa usar campos mapeados do objeto sem antes executar o cenário uma vez.
 
-Para obter mais informações, consulte [Módulos do Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações, consulte [módulos do Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

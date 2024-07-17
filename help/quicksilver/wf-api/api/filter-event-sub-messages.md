@@ -10,7 +10,7 @@ role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 Você pode criar componentes de processamento intermediários que podem ajudá-lo a filtrar e processar apenas as mensagens de assinatura do evento de que sua empresa precisa.
 
-Para saber mais sobre assinaturas de evento, consulte [API de assinatura de evento](../../wf-api/general/event-subs-api.md).
+Para saber mais sobre assinaturas de evento, consulte [API de Assinatura de Evento](../../wf-api/general/event-subs-api.md).
 
 ## Filtrar mensagens de evento
 
 Esta seção contém trechos de código de filtragem que podem ser implementados para diminuir a carga de mensagens de subscrição de eventos.  Para ajudar a mostrar as diferenças na sintaxe de vários idiomas, esses trechos ilustram o mesmo conjunto de filtros escritos nos seguintes idiomas:
 
-Você pode ver exemplos de filtragem em [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), onde você pode ver as diferenças na sintaxe de cada idioma e os meios de interação com o SDK do AWS. Esses exemplos são escritos como AWS Lambdas, que é um método comum para empregar componentes intermediários de filtragem e processamento.
+Você pode ver exemplos de filtragem em [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), onde você pode ver as diferenças na sintaxe de cada idioma e os meios de interação com o SDK do AWS. Esses exemplos são escritos como AWS Lambdas, que é um método comum para empregar filtragem intermediária e componentes de processamento.
 
 Os trechos de código a seguir estão quase prontos para implantação e podem ser usados como ponto de partida para ajudar você a escrever seus próprios filtros e componentes de processamento mais complexos.
 
 ### Java
 
-O exemplo a seguir em Java mostra como filtrar cargas do projeto com base na ID de grupo do projeto, como feito em [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
+O exemplo a seguir em Java mostra como filtrar cargas do projeto com base na ID de Grupo do projeto, como feito em [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
 1. Estabeleça a ID de grupo que você está procurando e crie-a como uma constante estática.
 
@@ -65,7 +65,7 @@ O exemplo a seguir em Java mostra como filtrar cargas do projeto com base na ID 
 
 3. Depois de analisar o mapa &quot;newState&quot; da mensagem, verifique se a ID do grupo do objeto corresponde à ID do grupo identificada na Etapa 1.
 
-4. (Condicional) Se as IDs **não** corresponde, solte a mensagem para que uma resposta vazia seja retornada.
+4. (Condicional) Se as IDs **não** corresponderem, remova a mensagem para que uma resposta vazia seja retornada.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -111,13 +111,13 @@ O exemplo a seguir em Java mostra como filtrar cargas do projeto com base na ID 
 
    O objetivo de passar a responsabilidade de entregar a mensagem para outro Lambda é evitar um tempo limite da solicitação de entrega proveniente do serviço de Assinatura do evento. Atualmente, o tempo limite permitido para entrega é definido como cinco segundos. Se o filtro levar mais tempo do que o permitido pela configuração, você poderá processar a solicitação, mas o serviço de Assinatura de evento expirará e entrará em um loop de repetição até que receba uma resposta de 200 níveis dentro do período de tempo limite.
 
-   Para saber mais sobre o gerenciamento de delivery de mensagens, consulte [Melhorar A Entrega De Mensagens Enquanto Acomoda Os Tempos Limite](#improving-message-delivery-while-accommodating-timeouts).
+   Para saber mais sobre como gerenciar a entrega de mensagens, consulte [Melhorando a Entrega de Mensagens Enquanto Acomoda Tempos Limite](#improving-message-delivery-while-accommodating-timeouts).
 
 ### Python
 
 A principal diferença entre os exemplos Java e Python é que no exemplo Java a mensagem de subscrição do evento é recebida como o primeiro parâmetro e no exemplo Python o primeiro parâmetro é um &quot;evento&quot; de proxy Lambda, que contém a mensagem de subscrição do evento juntamente com informações sobre a solicitação de proxy Lambda do AWS.
 
-O exemplo a seguir no Python mostra como filtrar as cargas do projeto com base na ID de grupo do projeto, como feito em  [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
+O exemplo a seguir no Python mostra como filtrar cargas do projeto com base na ID de Grupo do projeto, como feito em [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
 
 1. Estabeleça a ID de grupo que você está procurando e crie-a como uma constante estática.
 
@@ -188,7 +188,7 @@ O exemplo a seguir no Python mostra como filtrar as cargas do projeto com base n
 
 O exemplo de Node.js da filtragem de ID de grupo de projeto é semelhante aos exemplos de Java e Python. Assim como no exemplo do Python, o primeiro parâmetro é um evento proxy Lambda e o segundo parâmetro é o Contexto Lambda.
 
-O exemplo a seguir em Node.js mostra como filtrar cargas do projeto com base na ID do grupo do projeto, como feito em  [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
+O exemplo a seguir em Node.js mostra como filtrar cargas do projeto com base na ID do Grupo do projeto, como feito em [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
 
 1. Estabeleça a ID de grupo que você está procurando e crie-a como uma constante estática.
 
@@ -261,24 +261,24 @@ O exemplo a seguir em Node.js mostra como filtrar cargas do projeto com base na 
 
    O SDK do AWS é usado para invocar outro Lambda, que é responsável por enviar a mensagem filtrada para o endpoint desejado.\
    O objetivo de passar a responsabilidade de entregar a mensagem para outro Lambda é evitar um tempo limite da solicitação de entrega proveniente do serviço de Assinatura do evento. Atualmente, o tempo limite para entrega é definido como cinco segundos. Se o filtro levar mais tempo do que o permitido pela configuração, você poderá processar a solicitação, mas o serviço de Assinatura de evento expirará e entrará em um loop de repetição até que receba uma resposta de 200 níveis dentro do período de tempo limite.\
-   Para saber mais sobre o gerenciamento de delivery de mensagens, consulte [Melhorar A Entrega De Mensagens Enquanto Acomoda Os Tempos Limite](#improving-message-delivery-while-accommodating-timeouts).
+   Para saber mais sobre como gerenciar a entrega de mensagens, consulte [Melhorando a Entrega de Mensagens Enquanto Acomoda Tempos Limite](#improving-message-delivery-while-accommodating-timeouts).
 
 ## Melhorar A Entrega De Mensagens Enquanto Acomoda Os Tempos Limite
 
-O serviço Assinatura de Evento tem um tempo limite estrito de **cinco segundos** para todas as solicitações de entrega. Caso a entrega de uma mensagem exceda o tempo permitido, o serviço Assinatura do Evento iniciará um ciclo de nova tentativa para essa mensagem.
+O serviço de Assinatura de Eventos tem um tempo limite estrito de **cinco segundos** para todas as solicitações de entrega. Caso a entrega de uma mensagem exceda o tempo permitido, o serviço Assinatura do Evento iniciará um ciclo de nova tentativa para essa mensagem.
 
-Por exemplo, você constrói um filtro de ID de grupo de projeto semelhante a um dos exemplos encontrados em [Filtrar mensagens de evento](#filtering-event-messages) e você incluirá uma pesquisa no banco de dados para determinar se a mensagem é necessária. É possível que a pesquisa do banco de dados, juntamente com o tempo necessário para o processamento necessário e para o início forçado do Lambda, demore mais de cinco segundos, fazendo com que o serviço de Assinatura do Evento tente enviar a mensagem novamente.
+Por exemplo, você cria um filtro de ID de grupo de projeto semelhante a um dos exemplos encontrados em [Filtrando Mensagens de Evento](#filtering-event-messages) e inclui uma pesquisa de banco de dados para determinar se a mensagem é necessária. É possível que a pesquisa do banco de dados, juntamente com o tempo necessário para o processamento necessário e para o início forçado do Lambda, demore mais de cinco segundos, fazendo com que o serviço de Assinatura do Evento tente enviar a mensagem novamente.
 
-É possível evitar uma nova tentativa separando as partes demoradas do processo da lógica responsável por determinar se a mensagem é processada e entregue. Ao fazer isso, você pode aceitar a mensagem e enviar uma resposta de 200 níveis para o serviço de Assinatura de evento, enquanto continua de forma assíncrona o processamento ou a filtragem da mensagem em segundo plano (consulte a Etapa 5 em [Java](#java) por exemplo).
+É possível evitar uma nova tentativa separando as partes demoradas do processo da lógica responsável por determinar se a mensagem é processada e entregue. Ao fazer isso, você pode aceitar a mensagem e enviar uma resposta de 200 níveis para o serviço Assinatura de Evento, enquanto continua de forma assíncrona o processamento ou a filtragem da mensagem em segundo plano (consulte a Etapa 5 no [Java](#java) para obter um exemplo).
 
 
 Mesmo que o processamento ou a filtragem não exceda o tempo limite de cinco segundos, ainda é vantajoso separar o primeiro ponto de contato da filtragem ou do processamento de mensagens das outras etapas de processamento ou entrega no lado do cliente. Dessa forma, a entrega da mensagem para o destino a partir do serviço de Assinatura do evento tem impacto mínimo no tempo e no desempenho para ambas as partes.
 
-Para saber mais sobre o mecanismo de nova tentativa, consulte [Novas tentativas de assinatura de evento](../../wf-api/api/event-sub-retries.md).
+Para saber mais sobre o mecanismo de repetição, consulte [Tentativas de assinatura de evento](../../wf-api/api/event-sub-retries.md).
 
 ## Implementação de filtros hospedados na arquitetura sem nuvem
 
-Se não conseguir aproveitar uma arquitetura de nuvem para filtragem de assinatura de evento, você ainda poderá usar os exemplos em [Filtrar mensagens de evento](#filtering-event-messages) como roteiros de como implementar seus próprios filtros hospedados ou componentes de processamento.
+Se você não conseguir aproveitar a arquitetura de nuvem para filtragem de assinaturas de eventos, ainda poderá usar os exemplos em [Filtrar mensagens de evento](#filtering-event-messages) como roteiros de como implementar seus próprios filtros hospedados ou componentes de processamento.
 
 ### Ajustar exemplos de filtragem para serviços independentes
 
@@ -330,6 +330,6 @@ Ao consultar os recursos, você garante que seus sistemas de integração tenham
 
 ### Implementação do processamento assíncrono no delivery de mensagens
 
-Todos os exemplos no [Filtrar mensagens de evento](#filtering-event-messages) passe a responsabilidade de enviar mensagens filtradas para outro AWS Lambda. Isso é feito para evitar exceder o tempo limite de cinco segundos na solicitação de delivery, que é imposta pelo serviço de Assinatura de evento que emite a solicitação.
+Todos os exemplos na seção [Filtering Event Messages](#filtering-event-messages) passam a responsabilidade de entregar mensagens filtradas para outro AWS Lambda. Isso é feito para evitar exceder o tempo limite de cinco segundos na solicitação de delivery, que é imposta pelo serviço de Assinatura de evento que emite a solicitação.
 
 Em uma arquitetura sem nuvem, talvez seja necessário implementar um mecanismo de processamento assíncrono semelhante ao modo como o SDK do AWS permite chamadas assíncronas para outros AWS Lambdas. A maioria das linguagens de programação modernas tem bibliotecas de terceiros ou principais que lidam com o processamento assíncrono, permitindo que você aproveite o estilo assíncrono de processamento implementado em nossos exemplos.

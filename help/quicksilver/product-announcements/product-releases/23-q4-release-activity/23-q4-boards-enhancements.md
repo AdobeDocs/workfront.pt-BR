@@ -18,7 +18,7 @@ Esta página descreve todas as melhorias nas placas feitas com a versão do quar
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-Para obter detalhes sobre como aderir aos novos recursos de Quadros antes da versão trimestral, consulte [Aceitação antecipada de recursos para painéis do Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Para obter detalhes sobre como aceitar novos recursos de Quadros antes da versão trimestral, consulte [Aceitação antecipada de recursos para Quadros Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Subtarefas agora disponíveis em Adobe Workfront Boards
 
@@ -30,7 +30,7 @@ No momento, as subtarefas não estão visíveis no quadro como cartões separado
 
 Para obter mais informações, consulte [Gerenciar subtarefas em quadros](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Adicionar documentos em cartões conectados
 
@@ -40,7 +40,7 @@ No momento, você não pode excluir documentos do cartão, mas pode excluir um d
 
 Para obter mais informações, consulte [Adicionar documentos em cartões](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Aprimoramentos nas atribuições de usuários em quadros e cartões
 
@@ -52,7 +52,7 @@ Os seguintes aprimoramentos estão disponíveis ao adicionar usuários a quadros
 
 Para obter mais informações, consulte [Adicionar ou remover membros de um quadro](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Documentos disponíveis em cartões conectados como somente visualização
 
@@ -60,7 +60,7 @@ Para cartões conectados em placas Adobe Workfront, agora é possível visualiza
 
 Nesse momento, um documento deve ser carregado na tarefa do Workfront para estar disponível no cartão conectado.
 
-Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obter mais informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Visualização do quadro de um projeto agora disponível para problemas
 
@@ -70,4 +70,4 @@ Agora você pode acessar a exibição Quadro de uma lista de problemas de projet
 >
 >A exibição de Quadro existe em um único projeto porque é uma exibição alternativa do projeto e não pode ser acessada de outras áreas do Workfront, como o painel de Quadros.
 
-Para obter mais informações, consulte [Gerenciar um projeto na visualização Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obter mais informações, consulte [Gerenciar um projeto na Exibição Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

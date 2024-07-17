@@ -2,8 +2,8 @@
 content-type: reference
 product-area: user-management
 navigation-topic: manage-your-account-and-profile
-title: Gerencie seu [!DNL Adobe Workfront] account
-description: Leia estes artigos para saber como gerenciar sua [!DNL Workfront] conta.
+title: Gerenciar sua conta  [!DNL Adobe Workfront]
+description: Leia estes artigos para saber como gerenciar a sua conta  [!DNL Workfront] do.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# Gerencie seu [!DNL Adobe Workfront] account
+# Gerencie sua conta do [!DNL Adobe Workfront]
 
 Esta seção contém os seguintes artigos:
 
-* [Efetue logon no [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
-* [Fazer logoff de [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-* [Receba convites por email e crie uma senha para [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-* [Criar uma conta no [!DNL Adobe Workfront] como usuário externo](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+* [Fazer logon em  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
+* [Fazer logoff de  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
+* [Receba convites por email e crie uma senha para  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+* [Criar uma conta em  [!DNL Adobe Workfront]  como usuário externo](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
 * [Redefinir sua senha](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
   <!--* [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)-->

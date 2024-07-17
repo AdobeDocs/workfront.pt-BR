@@ -25,11 +25,11 @@ Não é possível adicionar gráficos à maioria dos relatórios, a menos que vo
 
 Para obter informações sobre exibições, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-Para obter mais informações sobre agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obter mais informações sobre agrupamentos, consulte [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 Se o relatório exibir muitos itens, um gráfico não será criado. Nesse caso, você também deve adicionar um Filtro ao relatório para reduzir o número de resultados em seu relatório.
 
-Para obter mais informações sobre filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obter mais informações sobre filtros, consulte [Visão geral sobre filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acesso
 
@@ -62,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,21 +72,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Ir para um relatório existente ou criar um novo relatório. Para obter mais informações sobre como criar um novo relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Condicional) Se você foi para um relatório existente, clique em **Ações de Relatório** > **Editar**.
 
-1. Certifique-se de que o **Colunas (Exibir)** A guia foi atualizada para exibir as informações que você deseja inserir no gráfico do relatório.
+1. Verifique se a guia **Colunas (Exibição)** foi atualizada para exibir as informações que você deseja representar no gráfico no relatório.
 
-   Para obter informações sobre como criar ou modificar a Exibição do relatório, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+   Para obter informações sobre como criar ou modificar o Modo de Exibição para o relatório, consulte [Criar ou editar modos de exibição no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-1. Clique em **Agrupamentos** e adicione um agrupamento.
+1. Clique na guia **Agrupamentos** e adicione um agrupamento.
 
    >[!TIP]
    >
    >* Você só pode adicionar um gráfico a um relatório quando os resultados do relatório são agrupados.
-   >* Os agrupamentos em modo de texto não são suportados em gráficos. Para obter mais informações sobre agrupamentos em modo de texto, consulte [Modo de edição de texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
+   >* Os agrupamentos em modo de texto não são suportados em gráficos. Para obter mais informações sobre agrupamentos modo texto, consulte [Editar modo texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Se você adicionar um único agrupamento que representa uma métrica, todos os gráficos, exceto um gráfico de pizza, serão exibidos no agrupamento com a mesma cor.
 
-   Para obter mais informações sobre a criação de agrupamentos, consulte [Criar agrupamentos no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+   Para obter mais informações sobre como criar agrupamentos, consulte [Criar agrupamentos no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-1. Selecione o **Gráfico** guia.
+1. Selecione a guia **Gráfico**.
 1. Clique em um tipo de gráfico para selecioná-lo.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
@@ -103,16 +103,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ### Gráfico de colunas {#column-chart}
 
-Para adicionar um **Coluna** gráfico para o seu relatório:
+Para adicionar um gráfico de **Coluna** ao seu relatório:
 
 1. Comece a adicionar um gráfico ao seu relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
-1. No **Eixo esquerdo (Y)** , selecione os valores que deseja incluir no eixo Y do gráfico, bem como a forma como deseja que as informações sejam resumidas.
-1. No **Eixo inferior (X)** selecione o Grouping que deseja incluir no gráfico.
+1. No campo **Eixo Esquerdo (Y)**, selecione os valores que deseja incluir no eixo Y do gráfico, bem como a forma como deseja que as informações sejam resumidas.
+1. No campo **Eixo Inferior (X)**, selecione o Agrupamento que deseja incluir no gráfico.
 1. (Opcional) Selecione **Cores Personalizadas** para atribuir suas cores preferidas a cada uma das colunas.\
    Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
 1. (Opcional) Selecione **Mostrar em 3D** para exibir o gráfico em uma exibição tridimensional.
-1. (Opcional) **Colunas de grupo**: selecione esta opção para definir como deseja que as colunas sejam agrupadas.\
+1. (Opcional) **Colunas de Grupo**: selecione essa opção para definir como você deseja que as colunas sejam agrupadas.\
    Selecione entre as seguintes opções:
 
    * Clique em uma das seguintes opções para selecionar como as colunas agrupadas serão exibidas:
@@ -121,26 +121,26 @@ Para adicionar um **Coluna** gráfico para o seu relatório:
       * **Empilhado**
       * **Empilhado a 100%**
 
-   * Selecione o Agrupamento que deseja incluir no gráfico na **Agrupar dados por** menu suspenso.
+   * Selecione o Agrupamento que deseja incluir no gráfico no menu suspenso **Agrupar Dados por**.
    * (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das colunas.\
      Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
-1. (Opcional) Selecione **Gráfico Combinado** para incluir um valor adicional no gráfico, bem como a forma como você deseja que as informações sejam resumidas.\
+1. (Opcional) Selecione **Gráfico de Combinação** para incluir um valor adicional no gráfico, bem como a forma como você deseja que as informações sejam resumidas.\
    Considere as seguintes opções:
 
-   * **Plotar no eixo secundário**: selecione essa opção para plotar os dados no lado direito do gráfico.
-   * **Tipo de gráfico**: selecione se deseja que esse valor adicional seja exibido como uma linha ou uma terceira coluna.\
+   * **Plotar no Eixo Secundário**: selecione esta opção para plotar os dados no lado direito do gráfico.
+   * **Tipo de Gráfico**: Selecione se você deseja que este valor adicional seja exibido como uma linha ou uma terceira coluna.\
      ![](assets/qs-column-chart-350x163.png)
 
 1. Clique em **Salvar + Fechar** para salvar o gráfico e o relatório.
 
 ### Gráfico de barras {#bar-chart}
 
-Para adicionar um **Barra** gráfico para o seu relatório:
+Para adicionar um gráfico de **Barra** ao seu relatório:
 
 1. Comece a adicionar um gráfico ao seu relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
-1. No **Eixo inferior (X)** , selecione os valores que deseja incluir no eixo X do gráfico, bem como a forma como deseja que as informações sejam resumidas.
-1. No **Eixo esquerdo (Y)** selecione o Grouping que deseja incluir no gráfico.
+1. No campo **Eixo Inferior (X)**, selecione os valores que deseja incluir no eixo X do gráfico, bem como a forma como deseja que as informações sejam resumidas.
+1. No campo **Eixo esquerdo (Y)**, selecione o Agrupamento que deseja incluir no gráfico.
 1. (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das barras.\
    Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
@@ -154,11 +154,11 @@ Para adicionar um **Barra** gráfico para o seu relatório:
       * **Empilhado**
       * **Empilhado a 100%**
 
-   * Selecione como deseja agrupar as informações no gráfico a partir da **Agrupar dados por** menu suspenso.
-   * (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das colunas.\
+   * Selecione como você deseja agrupar as informações no gráfico no menu suspenso **Agrupar dados por**.
+   * (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das suas colunas.\
      Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
-1. (Opcional) Selecione **Gráfico Combinado** para incluir um valor adicional no gráfico, bem como a forma como você deseja que as informações sejam resumidas.\
+1. (Opcional) Selecione **Gráfico de Combinação** para incluir um valor adicional no gráfico, bem como a forma como você deseja que as informações sejam resumidas.\
    ![](assets/qs-bar-chart-350x167.png)
 
 1. Clique em **Salvar + Fechar** para salvar o gráfico e o relatório.
@@ -169,19 +169,19 @@ Para adicionar um **Barra** gráfico para o seu relatório:
 
 ### Gráfico de pizza {#pie-chart}
 
-Para adicionar um **Pizza** gráfico para o seu relatório:
+Para adicionar um gráfico **Pizza** ao relatório:
 
 1. Comece a adicionar um gráfico ao seu relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
-1. No **Valores** selecione os valores que deseja exibir no relatório, bem como a forma como deseja que eles sejam resumidos.\
-   No **Cunhas** selecione o Grouping que deseja incluir no gráfico. O Agrupamento é representado pelas fatias do gráfico.
+1. No campo **Valores**, selecione os valores que deseja exibir no relatório, bem como a forma como deseja que eles sejam resumidos.\
+   No campo **Cunhas**, selecione o Agrupamento que deseja incluir no gráfico. O Agrupamento é representado pelas fatias do gráfico.
 
 1. (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das cunhas no gráfico.\
    Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
 1. (Opcional) Selecione **Mostrar em 3D** para exibir o gráfico em uma exibição tridimensional.
-1. No **Mostrar resultados como** selecione como deseja que os resultados sejam exibidos no gráfico. Considere as seguintes opções:
+1. No campo **Mostrar Resultados como**, selecione como deseja que os resultados sejam exibidos no gráfico. Considere as seguintes opções:
 
-   * **Porcentagem**: os resultados do gráfico são exibidos como uma porcentagem.
+   * **Percentage**: os resultados do gráfico são exibidos como uma porcentagem.
    * **Números**: os resultados do gráfico são exibidos como um número.\
      ![](assets/qs-pie-chart-350x171.png)
 
@@ -189,80 +189,80 @@ Para adicionar um **Pizza** gráfico para o seu relatório:
 
 ### Gráfico de linhas {#line-chart}
 
-Para adicionar um **Linha** gráfico para o seu relatório:
+Para adicionar um gráfico de **Linha** ao seu relatório:
 
 1. Comece a adicionar um gráfico ao seu relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
-1. No **Eixo esquerdo (Y)** , selecione os valores que deseja incluir no eixo Y do gráfico, bem como a forma como deseja que as informações sejam resumidas.
-1. No **Eixo inferior (X)** selecione o Grouping que deseja incluir no gráfico.
+1. No campo **Eixo Esquerdo (Y)**, selecione os valores que deseja incluir no eixo Y do gráfico, bem como a forma como deseja que as informações sejam resumidas.
+1. No campo **Eixo Inferior (X)**, selecione o Agrupamento que deseja incluir no gráfico.
 1. (Opcional) Selecione uma cor para personalizar a cor da linha.
-1. (Opcional) Selecione **Linhas de grupo**, para selecionar um agrupamento adicional para o gráfico.\
+1. (Opcional) Selecione **Linhas de Grupo** para selecionar um agrupamento adicional para o gráfico.\
    (Opcional) Selecione **Cores Personalizadas** para personalizar as cores do novo agrupamento.\
    Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
-1. (Opcional) Selecione **Gráfico Combinado** para combinar suas linhas por um valor adicional.\
+1. (Opcional) Selecione **Gráfico de Combinação** para combinar suas linhas por um valor adicional.\
    Considere entre as seguintes opções:
 
    * Selecione o valor que deseja incluir no gráfico e como deseja que as informações sejam resumidas.
-   * Selecione o **Plotar no eixo secundário** para plotar os dados no lado direito do gráfico.\
+   * Selecione o campo **Plotar no Eixo Secundário** para plotar os dados no lado direito do gráfico.\
      ![](assets/qs-line-chart-350x172.png)
 
 1. Clique em **Salvar + Fechar** para salvar o gráfico e o relatório.
 
 ### Gráfico de medição {#gauge-chart}
 
-A **Medidor** o gráfico exibe o número de registros que atendem a um determinado critério em um formato de medidor. O indicador do medidor aponta para o número de registros que atendem aos critérios selecionados na exibição e no agrupamento do relatório. Não é necessário um agrupamento de relatório para configurar um gráfico de medidor.
+Um gráfico **Medidor** exibe o número de registros que atendem a um determinado critério em um formato de medidor. O indicador do medidor aponta para o número de registros que atendem aos critérios selecionados na exibição e no agrupamento do relatório. Não é necessário um agrupamento de relatório para configurar um gráfico de medidor.
 
-Para adicionar um **Medidor** gráfico para o seu relatório:
+Para adicionar um gráfico **Gauge** ao seu relatório:
 
 1. Comece a adicionar um gráfico ao seu relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
-1. No **Valores** selecione os valores que deseja exibir no relatório, bem como a forma como deseja que eles sejam resumidos. Se você selecionar **Contagem de registros**, os valores exibidos são o objeto do relatório.
+1. No campo **Valores**, selecione os valores que deseja exibir no relatório, bem como a forma como deseja que eles sejam resumidos. Se você selecionar **Contagem de registros**, os valores exibidos serão o objeto do relatório.
 
-1. No **Indicadores** selecione o Grouping que deseja incluir no gráfico. O Agrupamento é representado pela linha indicadora no gráfico.\
+1. No campo **Indicators**, selecione o Agrupamento que deseja incluir no gráfico. O Agrupamento é representado pela linha indicadora no gráfico.\
    Se você tiver um Agrupamento que contenha dois itens, dois indicadores serão exibidos no gráfico.\
    Por exemplo, se você tiver um Agrupamento de Status de Projeto e houver dois status de projeto (Atual e Em Retenção), seu gráfico Medição conterá dois indicadores de medição. Eles apontarão para o número de projetos que estão nesse status.\
-   (Opcional) Selecione **Total** no **Indicadores** para exibir o total dos objetos selecionados na variável **Valores** campo.
+   (Opcional) Selecione **Total** no campo **Indicators** para exibir o total de objetos selecionados no campo **Values**.
 
-1. No **Faixa de valores** especifique o intervalo de valores e a cor para representar esses valores a serem exibidos no gráfico Gauge.
-1. (Opcional) Clique em **Adicionar outra faixa de valores** para adicionar intervalos de valor adicionais ao gráfico.\
+1. No campo **Intervalo de Valores**, especifique o intervalo de valores e a cor para representar esses valores a serem exibidos no gráfico Medidor.
+1. (Opcional) Clique em **Adicionar Outro Intervalo de Valores** para adicionar outros intervalos de valores ao gráfico.\
    ![](assets/qs-gauge-chart-350x181.png)
 
 1. Clique em **Salvar + Fechar** para salvar o gráfico e o relatório.
 
 ### Gráfico de bolhas {#bubble-chart}
 
-É possível exibir até três campos de um objeto em uma **Bolha** gráfico. Isso significa que você pode exibir até quatro pontos de dados em um gráfico de bolhas. Cada entidade com três campos associados é exibida como um círculo que expressa dois dos campos em sua localização dentro dos eixos X e Y. O terceiro campo é representado pelo tamanho do círculo.
+Você pode exibir até três campos de um objeto em um gráfico de **Bolhas**. Isso significa que você pode exibir até quatro pontos de dados em um gráfico de bolhas. Cada entidade com três campos associados é exibida como um círculo que expressa dois dos campos em sua localização dentro dos eixos X e Y. O terceiro campo é representado pelo tamanho do círculo.
 
-Para adicionar um **Bolha** gráfico para o seu relatório:
+Para adicionar um gráfico de **Bolha** ao seu relatório:
 
 1. Comece a adicionar um gráfico ao seu relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
-1. No **Eixo esquerdo (Y)** selecione os valores que deseja incluir no eixo Y do gráfico. Os valores são da exibição do relatório. Especifique como deseja que as informações sejam resumidas.
-1. No **Campo do eixo inferior (X)**, selecione os valores que deseja incluir no eixo X do gráfico. Os valores são da exibição do relatório. Especifique como deseja que as informações sejam resumidas.
+1. No campo **Eixo esquerdo (Y)**, selecione os valores que deseja incluir no eixo Y do gráfico. Os valores são da exibição do relatório. Especifique como deseja que as informações sejam resumidas.
+1. No campo **Eixo Inferior (X)**, selecione os valores que deseja incluir no eixo X do gráfico. Os valores são da exibição do relatório. Especifique como deseja que as informações sejam resumidas.
 
    >[!NOTE]
    >
    >Certifique-se de que haja pelo menos uma coluna resumida para que esse campo fique ativo.\
-   >Para obter mais informações sobre o resumo das informações em uma coluna do relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   >Para obter mais informações sobre como resumir as informações em uma coluna do relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. No **Tamanho da bolha** selecione os valores que deseja representar pelo tamanho das bolhas no gráfico. Os valores são da exibição do relatório. Especifique como deseja que as informações sejam resumidas.
+1. No campo **Tamanho da Bolha**, selecione os valores que deseja representar pelo tamanho das bolhas no gráfico. Os valores são da exibição do relatório. Especifique como deseja que as informações sejam resumidas.
 
    >[!NOTE]
    >
    >Certifique-se de que haja pelo menos uma coluna resumida para que esse campo fique ativo.\
-   >Para obter mais informações sobre o resumo das informações em uma coluna do relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   >Para obter mais informações sobre como resumir as informações em uma coluna do relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. No **Bolhas** selecione o Grouping que deseja incluir no gráfico. O Agrupamento é representado pelo posicionamento das bolhas no gráfico.
-1. No **Cor da bolha** selecione o campo que você deseja que seja representado pelas cores das bolhas.
+1. No campo **Bolhas**, selecione o Agrupamento que deseja incluir no gráfico. O Agrupamento é representado pelo posicionamento das bolhas no gráfico.
+1. No campo **Cor da Bolha**, selecione o campo que você deseja representar pelas cores das bolhas.
 
    ![](assets/qs-bubble-chart-350x103.png)
 
 
-   A variável **Cor da bolha** pode ser um Agrupamento definido no relatório, mas só estará disponível quando você selecionar a variável **Nome** coluna do objeto do relatório na variável **Bolhas** campo.
+   A **Cor da Bolha** pode ser um Agrupamento definido no relatório, mas só estará disponível quando você selecionar a coluna **Nome** para o objeto do relatório no campo **Bolhas**.
 
-   Por exemplo, se você selecionou **Nome da tarefa** em um relatório de tarefa, é possível adicionar **Status da tarefa** como o **Cor da bolha** campo.
+   Por exemplo, se você selecionou **Nome da tarefa** em um relatório de tarefa, poderá adicionar **Status da tarefa** como o campo **Cor da bolha**.
 
    ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
-   No entanto, se você selecionou **Status da tarefa** para o **Bolhas** , não é possível selecionar um **Cor da bolha** campo. Além disso, não é possível selecionar **Nome do projeto** para o **Cor da bolha** , mesmo ao selecionar **Nome da tarefa** para o **Bolha** campo.
+   No entanto, se você selecionou **Status da Tarefa** para o campo **Bolhas**, não será possível selecionar um campo **Cor da Bolha**. Além disso, você não pode selecionar **Nome do Projeto** para o campo **Cor da Bolha**, mesmo ao selecionar **Nome da Tarefa** para o campo **Bolha**.
 
    ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
@@ -298,11 +298,11 @@ Você só pode escolher uma cor para os campos exibidos na Exibição do relató
 
 Para personalizar as cores do gráfico:
 
-1. Ao criar um relatório, vá para a página **Gráfico** no construtor de relatórios.
+1. Ao criar um relatório, vá para a guia **Gráfico** no construtor de relatórios.
 1. Selecione um tipo de gráfico para adicionar ao seu relatório.\
    Para obter mais informações sobre como adicionar um gráfico ao relatório, consulte [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
 
-1. Clique em **Cores Personalizadas** quando esse campo estiver disponível.\
+1. Clique em **Cores Personalizadas** quando este campo estiver disponível.\
    A caixa de diálogo Cores Personalizadas é exibida.\
    ![](assets/custom-colors-in-charts-350x286.png)
 
@@ -319,12 +319,12 @@ Para personalizar as cores do gráfico:
          Ou\
          Clique no seletor de cores exibido após clicar no código hexadecimal e selecione outra cor.
 
-   * **Adicionar cor**: Continue a adicionar cores personalizadas para todas as outras opções possíveis do campo selecionado.
-   * **Remover tudo**: selecione esta opção para remover todas as cores e opções do campo selecionado acima.
-   * **Opções avançadas**: selecione entre as seguintes opções:
+   * **Adicionar Cor**: continue adicionando cores personalizadas para todas as outras opções possíveis do campo selecionado.
+   * **Remover Tudo**: selecione essa opção para remover todas as cores e opções do campo selecionado acima.
+   * **Opções Avançadas**: Selecione uma das seguintes opções:
 
-      * **Sem valor**: selecione esse campo e uma cor personalizada para exibir a coluna do gráfico que agrupa itens de &quot;valor nulo&quot;. Esses itens não podem ser agrupados por nenhuma das opções do campo selecionado no seu agrupamento.
-      * **Todos os outros valores**: selecione esse campo e uma cor personalizada para exibir todos os outros elementos do gráfico cujas opções não estão selecionadas acima.
+      * **Sem valor**: selecione este campo e uma cor personalizada para exibir a coluna do gráfico que agrupa itens de &quot;nenhum valor&quot;. Esses itens não podem ser agrupados por nenhuma das opções do campo selecionado no seu agrupamento.
+      * **Todos os Outros Valores**: selecione este campo e uma cor personalizada para exibir todos os outros elementos do gráfico cujas opções não estão selecionadas acima.
 
         >[!NOTE]
         >
@@ -337,7 +337,7 @@ Para personalizar as cores do gráfico:
 
 Para remover um gráfico de um relatório:
 
-1. Abra o **Gráfico** do report builder.
+1. Abra a guia **Gráfico** do Report Builder.
 1. Passe o mouse sobre o ícone do tipo de gráfico escolhido e um botão &quot;x&quot; aparecerá no canto superior direito do ícone.
 1. Clique no &quot;x&quot; para remover o gráfico.
 1. Clique em **Salvar + Fechar**.
@@ -346,7 +346,7 @@ Para remover um gráfico de um relatório:
 
 Esteja ciente das seguintes limitações ao trabalhar com gráficos:
 
-* A variável **Visualização do gráfico** à direita do Report Builder não contiver dados reais do seu relatório. Você deve salvar o gráfico e visualizá-lo a partir da **Gráfico** para ver o gráfico com seus dados.
+* A seção **Visualização de Gráfico** à direita do Report Builder não contém dados reais do seu relatório. Você deve salvar o gráfico e exibi-lo na guia **Gráfico** para ver o gráfico com seus dados.
 
 * Alguns elementos do gráfico não são editáveis:
 

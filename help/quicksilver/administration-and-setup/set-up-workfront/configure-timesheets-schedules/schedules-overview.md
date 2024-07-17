@@ -5,7 +5,7 @@ product-area: system-administration;timesheets
 keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
 title: Visão geral dos cronogramas
-description: Você pode definir sua semana de trabalho usando programações. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários. Para obter instruções, consulte Criar um agendamento.
+description: Você pode definir sua semana de trabalho usando programações. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] calcular linhas do tempo e disponibilidade de usuários. Para obter instruções, consulte Criar um agendamento.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Você pode definir sua semana de trabalho usando cronogramas e associar um cronograma a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários. Para obter instruções, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Você pode definir sua semana de trabalho usando cronogramas e associar um cronograma a um usuário ou projeto. Isso permite que [!DNL Adobe Workfront] calcule linhas do tempo e a disponibilidade do usuário. Para obter instruções, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Leve em consideração o seguinte ao trabalhar com programações no Workfront:
 
-* A variável [!DNL Workfront] o administrador identifica as horas de operação da organização em uma programação.
+* O administrador [!DNL Workfront] identifica as horas de operação da organização em um agendamento.
 
   Da mesma forma, um administrador de grupo pode identificar as horas de operação de um agendamento administrado por um grupo gerenciado por ele. Para obter mais informações sobre administradores de grupo, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   Por exemplo, uma programação pode ser definida como: de segunda a sexta-feira, das 8h às 17h, com um intervalo de uma hora para almoço.
 
-* [!DNL Workfront] O usa o cronograma para determinar quando o dia de trabalho começa e termina.
+* [!DNL Workfront] usa o agendamento para determinar quando o dia de trabalho começa e termina.
 
-  Isso não impede que um usuário trabalhe ou conclua um trabalho no [!DNL Workfront] fora do horário comercial normal. Geralmente, não é necessário criar uma nova programação ou uma exceção de programação para se concentrar no trabalho planejado à noite.
+  Isso não impede que um usuário trabalhe ou conclua o trabalho em [!DNL Workfront] fora do horário comercial normal. Geralmente, não é necessário criar uma nova programação ou uma exceção de programação para se concentrar no trabalho planejado à noite.
 
   Da mesma forma, sua organização pode ter horários de chegada flexíveis para o seu dia de trabalho. Você pode ter um conjunto de funcionários que chega às 8h e outro conjunto que chega às 9h. Não é necessário criar programações exclusivas para cada grupo, se os grupos tiverem programações semelhantes ou idênticas. Mas se os grupos tiverem cronogramas drasticamente diferentes, os usuários deverão ser associados a cronogramas únicos. Um funcionário entende se uma atribuição deve ser concluída às 17:00, isso significa que o trabalho deve ser concluído até o final do dia útil, independentemente do horário em que ele chega ao trabalho.
 
@@ -41,15 +41,15 @@ Leve em consideração o seguinte ao trabalhar com programações no Workfront:
 
   Você pode atribuir um fuso horário específico para cada agendamento para garantir que o trabalho seja agendado corretamente para usuários que trabalham em fusos horários diferentes.
 
-* A variável [!DNL Workfront] O Cronograma padrão é usado em cálculos de cronograma quando usuários ou projetos não estão associados a um cronograma.
+* O Cronograma Padrão [!DNL Workfront] é usado em cálculos de cronograma quando usuários ou projetos não estão associados a um cronograma.
 
-  O Cronograma Padrão vem com seu [!DNL Workfront] e não podem ser excluídos, a menos que sejam substituídos por um novo agendamento criado por você.
+  A Agenda Padrão vem com o sistema [!DNL Workfront] e não pode ser excluída a menos que seja substituída por uma nova agenda criada por você.
 
-* Além de calcular linhas do tempo, [!DNL Workfront] O usa agendamentos para calcular a disponibilidade do usuário.
+* Além de calcular as linhas do tempo, [!DNL Workfront] usa cronogramas para calcular a disponibilidade dos usuários.
 
   >[!IMPORTANT]
   >
-  >[!DNL Workfront] O usa o usuário ou o agendamento do projeto para determinar a disponibilidade de recursos no Planejador de recursos. Qual cronograma é usado depende do que o [!DNL Workfront] administrador selecionado para o [!UICONTROL Calcular Disponibilidade de Recursos Usando] configuração. Para obter informações sobre as configurações de Gerenciamento de recursos, consulte [Configurar preferências de gerenciamento de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  >[!DNL Workfront] usa o usuário ou o agendamento do projeto para determinar a disponibilidade de recursos no Planejador de Recursos. O cronograma usado depende do que o administrador do [!DNL Workfront] selecionou para a configuração [!UICONTROL Calcular Disponibilidade de Recursos Usando]. Para obter informações sobre as configurações de Gerenciamento de Recursos, consulte [Configurar preferências de Gerenciamento de Recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Hierarquia de programações
 
@@ -57,26 +57,26 @@ Se uma tarefa for atribuída a um usuário associado a um agendamento e residir 
 
 >[!IMPORTANT]
 >
->[!DNL Workfront] O usa o agendamento de um usuário somente quando a variável [!UICONTROL Calcular Disponibilidade de Recursos Usando] está definida como [!UICONTROL O Cronograma do Usuário] no [!UICONTROL Gerenciamento de recursos] área de [!UICONTROL Configuração]. Para obter informações sobre como a variável [!UICONTROL Calcular Disponibilidade de Recursos Usando] que a configuração afeta qual programação é usada para o Gerenciamento de recursos, consulte [Configurar preferências de gerenciamento de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+>[!DNL Workfront] usa o agendamento de um usuário somente quando a configuração [!UICONTROL Calcular Disponibilidade de Recursos Usando] está definida como [!UICONTROL O Agendamento do Usuário] na área [!UICONTROL Gerenciamento de Recursos] da [!UICONTROL Instalação]. Para obter informações sobre como a configuração [!UICONTROL Calcular Disponibilidade de Recursos Usando] afeta qual agendamento é usado para o Gerenciamento de Recursos, consulte [Configurar preferências de Gerenciamento de Recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 A ordem em que as programações são usadas pelo sistema quando existe mais de uma é:
 
-* Quando um usuário é atribuído a uma tarefa, [!DNL Workfront] O usa o cronograma do usuário para calcular a linha do tempo da tarefa. Isso também inclui o tempo pessoal do usuário. O cronograma do projeto é ignorado.
+* Quando um usuário é atribuído a uma tarefa, [!DNL Workfront] usa o cronograma do usuário para calcular a linha do tempo da tarefa. Isso também inclui o tempo pessoal do usuário. O cronograma do projeto é ignorado.
 
-  Para obter mais informações sobre o tempo pessoal, consulte [Configurar folga pessoal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Para obter mais informações sobre tempo pessoal, consulte [Configurar tempo pessoal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-* Quando vários usuários são atribuídos a uma tarefa e os usuários têm agendamentos diferentes durante o período da tarefa, [!DNL Workfront] O usa uma das seguintes programações, conforme definido na [!UICONTROL Preferências do projeto] área de [!UICONTROL Configuração]:
+* Quando vários usuários são atribuídos a uma tarefa e os usuários têm agendamentos diferentes durante o período da tarefa, [!DNL Workfront] usa um dos seguintes agendamentos, conforme definido na área [!UICONTROL Preferências do Projeto] da [!UICONTROL Instalação]:
 
    * A programação do usuário designado como Principal Designado
    * A programação associada ao projeto.
 
-     Para obter mais informações sobre preferências de projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     Para obter mais informações sobre preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Se o usuário atribuído à tarefa não tiver agendamento ou a tarefa for atribuída somente a uma função de trabalho, a uma equipe ou não estiver atribuída, [!DNL Workfront] usa a agenda do projeto para os cálculos da linha do tempo.
-* Se o usuário atribuído à tarefa não tiver agendamento ou a tarefa for atribuída somente a uma função de trabalho, a uma equipe ou não estiver atribuída, e o projeto não tiver agendamento, [!DNL Workfront] O usa a programação no sistema designada como a Programação Padrão para cálculos de cronograma.
+* Se o usuário atribuído à tarefa não tiver cronograma, ou a tarefa for atribuída apenas a uma função de trabalho, uma equipe ou não for atribuída, [!DNL Workfront] usará o cronograma do projeto para os cálculos da linha do tempo.
+* Se o usuário atribuído à tarefa não tiver cronograma, ou a tarefa for atribuída somente a uma função de trabalho, uma equipe ou não for atribuída, e o projeto não tiver cronograma, então [!DNL Workfront] usa o cronograma no sistema designado como Cronograma Padrão para cálculos de cronograma.
 
   ![](assets/default-schedule.png)
 
-## Colaboração em [!DNL Workfront] em fusos horários
+## Collaboration em [!DNL Workfront] em fusos horários
 
-Para obter informações sobre como usar as agendas para ajudar os usuários a colaborar no [!DNL Workfront] em fusos horários, consulte [Trabalhar em fusos horários](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+Para obter informações sobre como usar agendas para ajudar usuários a colaborar no [!DNL Workfront] entre fusos horários, consulte [Trabalhando entre fusos horários](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).

@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: conector
 navigation-topic: apps-and-their-modules
-title: Módulos de prova do Workfront
-description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Workfront Proof], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+title: Módulos do Workfront Proof
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , é possível automatizar fluxos de trabalho que usam  [!DNL Workfront Proof], bem como conectá-los a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 # [!DNL Workfront Proof] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Workfront Proof], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um cenário [!DNL Adobe Workfront Fusion], você pode automatizar fluxos de trabalho que usam [!DNL Workfront Proof], bem como conectá-los a vários aplicativos e serviços de terceiros.
 
-Isso é útil se você precisar executar tarefas que não são suportadas no momento em provas dentro do [!DNL Workfront] ou em [!DNL Workfront Proof], como atualizar provas com base em determinados eventos e pesquisar pelos recipients de uma prova.
+Isso é útil se você precisar executar tarefas que atualmente não têm suporte na prova no [!DNL Workfront] ou no [!DNL Workfront Proof], como atualizar provas com base em determinados eventos e procurar os destinatários de uma prova.
 
-A variável [!DNL Workfront Proof] O conector do não é contabilizado em relação ao número de aplicativos ativos disponíveis para sua organização. Todos os cenários, mesmo que usem apenas o [!DNL Workfront Proof] , não contem com a contagem total de cenários de sua organização.
+O conector [!DNL Workfront Proof] não conta com o número de aplicativos ativos disponíveis para a sua organização. Todos os cenários, mesmo que usem apenas o aplicativo [!DNL Workfront Proof], contam com a contagem total de cenários de sua organização.
 
-Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se você precisar de instruções sobre como criar um cenário, consulte [Criar um cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -47,31 +47,31 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Conectar [!DNL Workfront Proof] para [!DNL Workfront Fusion]
+## Conectar [!DNL Workfront Proof] a [!DNL Workfront Fusion]
 
-Você pode criar uma conexão com o seu [!DNL Workfront Proof] conta diretamente de dentro de um [!DNL Workfront Fusion] módulo.
+Você pode criar uma conexão com sua conta do [!DNL Workfront Proof] diretamente de dentro de um módulo do [!DNL Workfront Fusion].
 
-1. Em qualquer [!DNL Workfront Fusion] , clique em [!UICONTROL **Adicionar**] ao lado da [!UICONTROL Conexão] campo
+1. Em qualquer módulo [!DNL Workfront Fusion], clique em [!UICONTROL **Adicionar**] ao lado do campo [!UICONTROL Conexão]
 
 2. Preencha os seguintes campos:
 
@@ -95,15 +95,15 @@ Você pode criar uma conexão com o seu [!DNL Workfront Proof] conta diretamente
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Email / Nome de Usuário]</td>
-                <td>Insira o nome de usuário para [!DNL Workfront Proof] conta.</td>
+                <td>Digite o nome de usuário para sua conta [!DNL Workfront Proof].</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Senha]</td>
-                <td>Digite a senha do [!DNL Workfront Proof] conta.</td>
+                <td>Digite a senha da sua conta [!DNL Workfront Proof].</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL ID de Locatário]</td>
-                <td><strong>Nota</strong>: os clientes que não usam BYOK devem deixar esse campo em branco. <p>Insira a ID do locatário para esta conta. Se precisar de ajuda para encontrar sua ID de locatário, entre em contato com o Suporte ao cliente da Workfront.</p></td>
+                <td><strong>Observação</strong>: os clientes que não usam BYOK devem deixar este campo em branco. <p>Insira a ID do locatário para esta conta. Se precisar de ajuda para encontrar sua ID de locatário, entre em contato com o Suporte ao cliente da Workfront.</p></td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Extensão de Domínio]</td>
@@ -121,9 +121,9 @@ Você pode criar uma conexão com o seu [!DNL Workfront Proof] conta diretamente
 
 ## [!DNL Workfront Proof] módulos e seus campos
 
-Ao configurar [!DNL Workfront Proof] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Workfront Proof] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL Workfront Proof], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL Workfront Proof] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -135,9 +135,9 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 * [Assistir provas](#watch-proofs)
 * [Aguarde o resumo do PDF](#watch-for-pdf-summary)
-* [[!UICONTROL Assistir Atividade De Prova]](#watch-proof-activity)
+* [[!UICONTROL Atividade Assistir Prova]](#watch-proof-activity)
 
-#### [!UICONTROL Assistir provas]
+#### [!UICONTROL Assistir Provas]
 
 Esse módulo de acionador agendado executa um cenário quando alguém cria ou toma uma decisão sobre uma prova.
 
@@ -145,7 +145,7 @@ O módulo retorna uma lista de todos os registros encontrados durante o período
 
 Isso acontece em um intervalo programado regularmente especificado por você.
 
-Você deve ter permissões suficientes para acessar a prova ou as provas no [!DNL Workfront Proof] para recuperar essas informações.
+Você deve ter permissões suficientes para acessar a prova ou provas em [!DNL Workfront Proof] para recuperar essas informações.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -155,11 +155,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tipo de registro</td> 
-   <td>Selecione o tipo de [!DNL Workfront Proof] registre que você deseja que o módulo assista.</td> 
+   <td>Selecione o tipo de registro [!DNL Workfront Proof] que você deseja que o módulo assista.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Saídas</td> 
@@ -172,7 +172,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-#### [!UICONTROL Aguarde o resumo do PDF]
+#### [!UICONTROL Atenção ao Resumo de PDF]
 
 Esse módulo de acionador instantâneo executa um cenário quando alguém cria um resumo de PDF para uma prova.
 
@@ -188,11 +188,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
-   <td>Você pode selecionar um webhook existente ou criar um novo. Para obter mais informações, consulte <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Acionadores instantâneos (webhooks) no [!DNL Adobe Workfront Fusion]</a>. </td> 
+   <td>Você pode selecionar um webhook existente ou criar um novo. Para obter mais informações, consulte <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Acionadores instantâneos (webhooks) em [!DNL Adobe Workfront Fusion]</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limite]</td> 
@@ -201,11 +201,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-#### [!UICONTROL Assistir Atividade De Prova]
+#### [!UICONTROL Atividade Assistir Prova]
 
 Esse módulo de acionamento executa um cenário quando uma atividade especificada ocorre em uma prova de prova.
 
-O módulo retorna todos os campos padrão associados à prova, juntamente com quaisquer campos e valores personalizados que a conexão acessa. Ele também cria uma nova assinatura de evento para resumos de PDF e gera o conteúdo do `pdf_url` atributo enviado na carga. Você pode mapear essas informações em módulos subsequentes no cenário.
+O módulo retorna todos os campos padrão associados à prova, juntamente com quaisquer campos e valores personalizados que a conexão acessa. Ele também cria uma nova assinatura de evento para resumos de PDF e gera o conteúdo do atributo `pdf_url` enviado na carga. Você pode mapear essas informações em módulos subsequentes no cenário.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -215,7 +215,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de atividade]</td> 
@@ -232,10 +232,10 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
 
 * [[!UICONTROL Criar prova]](#create-proof)
 * [[!UICONTROL Chamada de API personalizada]](#custom-api-call)
-* [[!UICONTROL Baixar prova]](#download-proof)
+* [[!UICONTROL Baixar Prova]](#download-proof)
 * [[!UICONTROL Ler um Registro]](#read-a-record)
-* [[!UICONTROL Solicitar resumo de PDF]](#request-pdf-summary)
-* [[!UICONTROL Atualizar prova]](#update-proof)
+* [[!UICONTROL Solicitar Resumo de PDF]](#request-pdf-summary)
+* [[!UICONTROL Atualizar Prova]](#update-proof)
 * [[!UICONTROL Carregar arquivo]](#upload-file)
 
 #### [!UICONTROL Criar prova]
@@ -254,11 +254,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Prova]</td> 
-   <td> <p>Especifique se deseja que a prova criada tenha um fluxo de trabalho básico ou um [!UICONTROL Fluxo de trabalho automatizado].</p> <p>Em seguida, preencha os campos exibidos para o tipo de prova escolhido. Por exemplo, se você escolher [!UICONTROL Fluxo de trabalho automatizado], preencha o <strong>[!UICONTROL Fases de Fluxo de Trabalho]</strong> para configurar os estágios.</p></td> 
+   <td> <p>Especifique se deseja que a prova criada tenha um fluxo de trabalho básico ou um [!UICONTROL Fluxo de trabalho automatizado].</p> <p>Em seguida, preencha os campos exibidos para o tipo de prova escolhido. Por exemplo, se você escolher [!UICONTROL Fluxo de Trabalho Automatizado], preencha o campo <strong>[!UICONTROL Fases de Fluxo de Trabalho]</strong> para configurar as etapas.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Permitir o download do arquivo original]</td> 
@@ -274,7 +274,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL Criar uma nova versão de prova]</td> 
-   <td>Selecione esta opção se desejar que o módulo crie uma nova versão de uma prova existente. Em seguida, no <strong>[!UICONTROL ID de Prova Existente]</strong> que é exibido, mapeie ou insira o identificador exclusivo da prova.</td> 
+   <td>Selecione esta opção se desejar que o módulo crie uma nova versão de uma prova existente. Em seguida, no campo <strong>[!UICONTROL ID de Prova Existente]</strong> que é exibido, mapeie ou insira o ID exclusivo da prova.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Rótulo de Link Personalizado]</td> 
@@ -293,7 +293,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
      <li><strong>3</strong> - Resumo diário</li>
      <li><strong>4</strong> - Resumo por hora</li>
      <li><strong>5</strong> - Somente decisões</li>
-     <li><strong>9</strong> - Desativado</li>
+     <li><strong>9</strong> - Desabilitado</li>
     </ul></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -314,7 +314,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Habilitar Assinaturas]</td> 
-   <td>Selecione se as pessoas que não são participantes têm permissão para assinar a prova.<br>Se você selecionar essa opção, também poderá selecionar a Função padrão para assinantes, conforme descrito nesta tabela.</td> 
+   <td>Selecione se as pessoas que não são participantes têm permissão para assinar a prova.<br>Se você selecionar esta opção, também poderá selecionar a Função Padrão para assinantes, conforme descrito nesta tabela.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Habilitar Validação de Assinaturas]</td> 
@@ -325,7 +325,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
    <td>Selecione se deseja que a prova criada oculte ou mostre o URL da equipe.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Hash de Arquivo] <span style="font-weight: normal;">ou</span> [!UICONTROL Hashes de Arquivo]</td> 
+   <td>[!UICONTROL Hash do Arquivo] <span style="font-weight: normal;">ou</span> [!UICONTROL Hashes do Arquivo]</td> 
    <td>Adicione a ID do arquivo ou arquivos a partir dos quais deseja criar uma prova ou provas.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -358,11 +358,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Exigir logon]</td> 
-   <td> <p>Especifique se deseja que a prova criada exija um logon. </p> <p>Isso é igual à configuração [!UICONTROL Logon Necessário] explicada em <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Definir Configurações de Prova] em [!DNL Workfront Proof]</a></p> </td> 
+   <td> <p>Especifique se deseja que a prova criada exija um logon. </p> <p>Isso é o mesmo que a configuração [!UICONTROL Logon Necessário] explicada em <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Definir Configurações de Prova] em [!DNL Workfront Proof]</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID de Resolução]</td> 
-   <td>Insira a ID da resolução que deseja usar para a prova. Para obter uma lista de IDs de resolução, consulte [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">Documentação da API</a>.</td> 
+   <td>Insira a ID da resolução que deseja usar para a prova. Para obter uma lista de IDs de resolução, consulte a [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">documentação da API</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -373,7 +373,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
    <td>Para cada item, selecione se deseja mostrá-lo na prova.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ID do Espaço de Trabalho]</td> 
+   <td>[!UICONTROL Workspace ID]</td> 
    <td>Digite a ID do espaço de trabalho no qual deseja criar a prova. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -389,7 +389,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
 
 #### [!UICONTROL Chamada de API personalizada]
 
-Esse módulo de ação permite fazer uma chamada autenticada personalizada para o [!DNL Workfront Proof] API. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelo outro [!DNL Workfront Proof] módulos.
+Este módulo de ação permite fazer uma chamada autenticada personalizada para a API [!DNL Workfront Proof]. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelos outros módulos do [!DNL Workfront Proof].
 
 O módulo retorna o código de status, os cabeçalhos e o corpo. Você pode mapear essas informações em módulos subsequentes no cenário.
 
@@ -401,15 +401,15 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Método]</td> 
-   <td>Defina a ação para a chamada de API. Para ver as ações disponíveis, consulte <a href="https://api.proofhq.com/">Documentação da API de prova</a>.</td> 
+   <td>Defina a ação para a chamada de API. Para ver as ações disponíveis, consulte a <a href="https://api.proofhq.com/">documentação da API de prova</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Corpo (XML)]</td> 
-   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar declarações condicionais como <code>if</code> no JSON, coloque as aspas fora da declaração condicional.</p> 
+   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar instruções condicionais como <code>if</code> em seu JSON, coloque as aspas fora da instrução condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -423,7 +423,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
 >
 >![](assets/wfp-api-module-example-350x586.png)
 
-#### [!UICONTROL Baixar prova]
+#### [!UICONTROL Baixar Prova]
 
 Esse módulo de ação baixa o arquivo de origem de uma prova específica que você identifica usando sua ID.
 
@@ -431,7 +431,7 @@ Especifique a ID da prova.
 
 O módulo retorna o conteúdo do arquivo de origem usado para criar a prova. Você pode mapear essas informações nos módulos subsequentes no cenário.
 
-Você deve ter permissões suficientes para acessar o registro no [!DNL Workfront Proof] para recuperar essas informações.
+Você deve ter permissões suficientes para acessar o registro em [!DNL Workfront Proof] para recuperar essas informações.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -441,11 +441,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID da Prova]</td> 
-   <td> <p>Digite o identificador exclusivo da prova, encontrado na página [!UICONTROL Detalhes da Prova]. Para obter mais informações, consulte <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Gerenciar detalhes da prova no [!DNL Workfront Proof]</a>.</p> </td> 
+   <td> <p>Digite o identificador exclusivo da prova, encontrado na página [!UICONTROL Detalhes da Prova]. Para obter mais informações, consulte <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Gerenciar detalhes da prova em [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -458,7 +458,7 @@ Especifique a ID da prova e as informações que deseja obter da prova.
 
 O módulo retorna os valores dos campos escolhidos para a prova, juntamente com seus tipos. Você pode mapear essas informações em módulos subsequentes no cenário.
 
-Você deve ter permissões suficientes para acessar o registro no [!DNL Workfront Proof] para recuperar essas informações.
+Você deve ter permissões suficientes para acessar o registro em [!DNL Workfront Proof] para recuperar essas informações.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -468,7 +468,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Registro]</td> 
@@ -480,20 +480,20 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>Insira ou mapeie o [!DNL Workfront Proof] ID do registro que você deseja que o módulo leia.</td> 
+   <td>Insira ou mapeie a ID [!DNL Workfront Proof] exclusiva do registro que você deseja que o módulo leia.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Solicitar resumo de PDF]
+#### [!UICONTROL Solicitar Resumo de PDF]
 
-Esse módulo de ação solicita o resumo de PDF para uma prova específica no [!DNL Workfront Proof].
+Este módulo de ação solicita o resumo de PDF para uma prova específica em [!DNL Workfront Proof].
 
 Especifique a ID da prova.
 
 O módulo retorna as informações de resumo do PDF. Você pode mapear essas informações em módulos subsequentes no cenário.
 
-Você deve ter permissões suficientes para acessar o registro no [!DNL Workfront Proof] para recuperar essas informações.
+Você deve ter permissões suficientes para acessar o registro em [!DNL Workfront Proof] para recuperar essas informações.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -503,11 +503,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID da Prova]</td> 
-   <td> <p>Insira o único [!DNL Workfront Proof] ID da prova para a qual você deseja solicitar um resumo de PDF.</p> </td> 
+   <td> <p>Digite o identificador exclusivo [!DNL Workfront Proof] da prova para a qual você deseja solicitar um resumo de PDF.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL URL de retorno]</td> 
@@ -521,7 +521,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
 * **Erro**: &quot;[!UICONTROL Você não tem privilégio para executar esta solicitação. O estágio deve conter pelo menos um destinatário.]&quot;
 * **Solução**: verifique se você não é o único atribuído aos estágios do fluxo de trabalho. Deve haver outro usuário atribuído aos estágios do fluxo de trabalho.
 
-#### [!UICONTROL Atualizar prova]
+#### [!UICONTROL Atualizar Prova]
 
 Este módulo de ação atualiza uma prova existente no [!DNL Workfront Proof].
 
@@ -529,7 +529,7 @@ Especifique a ID da prova, o tipo de registro e quais campos deseja incluir na s
 
 O módulo retorna quaisquer campos padrão associados ao registro, juntamente com quaisquer campos e valores personalizados que a conexão acessa. Você pode mapear essas informações em módulos subsequentes no cenário.
 
-Você deve ter permissões suficientes para acessar o registro no [!DNL Workfront Proof] para recuperar essas informações.
+Você deve ter permissões suficientes para acessar o registro em [!DNL Workfront Proof] para recuperar essas informações.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -539,11 +539,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID da Prova]</td> 
-   <td> <p>Digite o identificador exclusivo da prova, encontrado na página [!UICONTROL Detalhes da Prova]. Para obter mais informações, consulte <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Gerenciar detalhes da prova no [!DNL Workfront Proof]</a>.</p> </td> 
+   <td> <p>Digite o identificador exclusivo da prova, encontrado na página [!UICONTROL Detalhes da Prova]. Para obter mais informações, consulte <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Gerenciar detalhes da prova em [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Prazo]</td> 
@@ -571,7 +571,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL Habilitar Assinaturas]</td> 
-   <td>Selecione se as pessoas que não são participantes têm permissão para assinar a prova.<br>Se você selecionar essa opção, também poderá selecionar a [!UICONTROL Função Padrão] para assinantes, conforme descrito nesta tabela.</td> 
+   <td>Selecione se as pessoas que não são participantes têm permissão para assinar a prova.<br>Se você selecionar esta opção, também poderá selecionar a [!UICONTROL Função Padrão] para assinantes, conforme descrito nesta tabela.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Habilitar Validação de Assinaturas]</td> 
@@ -599,7 +599,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL Exigir logon]</td> 
-   <td> <p>Especifique se deseja que a prova criada exija um logon. </p> <p>Isso é igual à configuração [!UICONTROL Logon Necessário] explicada em <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Definir Configurações de Prova] em [!DNL Workfront Proof]</a></p> </td> 
+   <td> <p>Especifique se deseja que a prova criada exija um logon. </p> <p>Isso é o mesmo que a configuração [!UICONTROL Logon Necessário] explicada em <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Definir Configurações de Prova] em [!DNL Workfront Proof]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Mostrar Versões Como]</td> 
@@ -614,7 +614,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
 
 #### [!UICONTROL Carregar arquivo]
 
-Este módulo de ação carrega um arquivo para uso com o [!UICONTROL Criar prova] módulo no [!DNL Workfront Proof].
+Este módulo de ação carrega um arquivo para usar com o módulo [!UICONTROL Criar Prova] em [!DNL Workfront Proof].
 
 O módulo retorna uma ID de hash para o arquivo carregado. Você pode mapear essas informações em módulos subsequentes no cenário.
 
@@ -626,10 +626,10 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Arquivo de origem]</td> 
+   <td>[!UICONTROL arquivo Source]</td> 
    <td> <p>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</p> </td> 
   </tr> 
  </tbody> 
@@ -642,11 +642,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
 
 #### [!UICONTROL Pesquisa]
 
-Este módulo de pesquisa procura registros em um objeto no [!DNL Workfront Proof] que correspondam à consulta de pesquisa especificada.
+Este módulo de pesquisa procura registros em um objeto em [!DNL Workfront Proof] que correspondam à consulta de pesquisa especificada.
 
 O módulo retorna a ID da prova se estiver procurando uma prova. Ou retorna as IDs de usuário, emails, nomes, posições e aliases de email dos destinatários, se estiver procurando destinatários. Você pode mapear essas informações nos módulos subsequentes do cenário.
 
-Você deve ter permissões suficientes para acessar o registro no [!DNL Workfront Proof] para recuperar essas informações.
+Você deve ter permissões suficientes para acessar o registro em [!DNL Workfront Proof] para recuperar essas informações.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -656,7 +656,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Procurar</td> 
@@ -668,7 +668,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Conjunto de Resultados]</td> 
-   <td>Indica se o módulo pesquisará por <strong>[!UICONTROL Todos os Registros Correspondentes]</strong> ou somente a <strong>[!UICONTROL Primeiro Registro Correspondente]</strong>.</td> 
+   <td>Indique se o módulo pesquisará por <strong>[!UICONTROL Todos os Registros Correspondentes]</strong> ou somente por <strong>[!UICONTROL Primeiro Registro Correspondente]</strong>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Classificar por]</td> 
@@ -691,7 +691,7 @@ Este módulo de pesquisa lista todos os templates de workflow disponíveis.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront Proof] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Workfront Proof] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Saídas]</td> 

@@ -58,13 +58,13 @@ Ao reunir o conteúdo interativo em um arquivo ZIP para comprovação, certifiqu
 
   Isso não é um requisito ao usar o Visualizador de provas de desktop.
 
-  Para obter mais informações, consulte [Entender o visualizador de provas de desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Para obter mais informações, consulte [Entender o Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
 * O site deve ter permissão para ser exibido em um iframe.
 
   Isso não é um requisito ao usar o Visualizador de provas de desktop.
 
-  Para obter mais informações, consulte [Entender o visualizador de provas de desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Para obter mais informações, consulte [Entender o Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
 ## Sobre a criação de uma prova interativa
 
@@ -72,8 +72,8 @@ Depois de preparar o arquivo de pacote ZIP, crie uma prova interativa.
 
 Para obter mais informações, consulte [Criar uma prova para conteúdo interativo em um arquivo ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-Ou, se estiver usando o Workfront Proof, consulte a seção [Gerar uma prova para conteúdo interativo](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) no artigo [Gerar provas no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Ou, se você estiver usando o Workfront Proof, consulte a seção [Gerar uma prova para conteúdo interativo](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) no artigo [Gerar Provas no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Sobre a revisão de provas interativas
 
-Recomendamos que você use o Desktop Proofing Viewer independente como o visualizador padrão para provas interativas. No entanto, se as políticas de sua organização não permitirem o uso do aplicativo Visualizador de provas de desktop, o administrador do Workfront poderá configurar seu sistema para que você possa revisar o conteúdo interativo, incluído em um arquivo ZIP, no Visualizador de provas de web. Para obter informações comparativas sobre o Desktop Proofing Viewer e o Web Proofing Viewer, consulte [Diferenças entre o Visualizador de provas da Web e a visão geral do Visualizador de provas do desktop](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Recomendamos que você use o Desktop Proofing Viewer independente como o visualizador padrão para provas interativas. No entanto, se as políticas de sua organização não permitirem o uso do aplicativo Visualizador de provas de desktop, o administrador do Workfront poderá configurar seu sistema para que você possa revisar o conteúdo interativo, incluído em um arquivo ZIP, no Visualizador de provas de web. Para obter informações comparativas sobre o Visualizador de Revisão de Texto para Desktop e o Visualizador de Revisão de Texto, consulte [Diferenças entre o Visualizador de Revisão de Texto para Web e a visão geral do Visualizador de Revisão de Texto para Desktop](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).

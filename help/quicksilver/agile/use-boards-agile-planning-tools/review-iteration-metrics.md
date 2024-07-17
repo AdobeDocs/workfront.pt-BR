@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -47,13 +47,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-boards}}
 
-1. Para abrir um workflow, clique em [!UICONTROL **Exibir fluxo de trabalho**].
-1. Selecione o [!UICONTROL Processo de iteração] placa.
+1. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
+1. Selecione o quadro [!UICONTROL Processo de iteração].
 1. Revise a área de métricas acima do quadro na parte superior direita. Clique nas setas para cima e para baixo para se mover entre as iterações.
 
    As seguintes métricas são exibidas: número total de pontos atribuídos à iteração, os pontos restantes ainda não concluídos na iteração e o número de pontos concluídos na iteração.
 
-1. (Opcional) Clique no link [!UICONTROL **Detalhes da iteração**] ícone ![Detalhes da iteração](assets/iteration-details-button.png) para abrir a caixa de diálogo de detalhes da iteração selecionada.
+1. (Opcional) Clique no ícone [!UICONTROL **Detalhes da iteração**] ![Detalhes da iteração](assets/iteration-details-button.png) para abrir a caixa de diálogo de detalhes da iteração selecionada.
 
 ## Revisar métricas de iteração no painel
 

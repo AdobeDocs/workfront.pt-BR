@@ -10,8 +10,8 @@ role: Developer
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ GET /arquivos
 | Nome  | Descrição |
 |---|---|
 | parentId  | A ID da pasta. Para obter os metadados do diretório raiz, use o valor &#39;/&#39;. |
-| máx  | O número máximo de itens a serem retornados. Usado para paginação. |
+| max  | O número máximo de itens a serem retornados. Usado para paginação. |
 | offset  |  O deslocamento de página, usado em conjunto com &quot;max&quot;. |
 
 

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 É possível ajustar a configuração do Modo de rastreamento de uma tarefa ao criar ou editar uma tarefa para controlar como e quando os indicadores de Status de progresso de uma tarefa são exibidos. O Adobe Workfront exibe sinalizadores de Status do Progresso quando você define determinadas configurações para rastrear o progresso em tarefas.
 
-Para obter mais informações sobre o Status do Progresso de tarefas, consulte [Visão geral do status de progresso da tarefa](../../../manage-work/tasks/task-information/task-progress-status.md).
+Para obter mais informações sobre o Status de Progresso das tarefas, consulte [Visão geral do Status de Progresso da Tarefa](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -38,14 +38,14 @@ Para obter mais informações sobre o Status do Progresso de tarefas, consulte [
 
 ## Opções do modo de rastreamento {#tracking-mode-options}
 
-Como proprietário de tarefa ou gerente de projeto, você pode selecionar como o Workfront indica o status do progresso em cada tarefa. Para obter informações sobre como definir o Modo de rastreamento em suas tarefas, consulte [Definir modo de rastreamento para tarefas](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+Como proprietário de tarefa ou gerente de projeto, você pode selecionar como o Workfront indica o status do progresso em cada tarefa. Para obter informações sobre como definir o Modo de Acompanhamento em suas tarefas, consulte [Definir Modo de Acompanhamento para tarefas](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
 Você pode selecionar entre as seguintes opções:
 
-* [Usuário deve atualizar](#user-must-update)
+* [O Usuário Deve Atualizar](#user-must-update)
 * [Assumir Em Dia](#assume-on-time)
 * [Ignorar avisos de atrasos](#ignore-late-warnings)
-* [Preenchimento automático](#auto-complete)
+* [Preenchimento Automático](#auto-complete)
 * [Predecessor](#predecessor)
 
 ### Usuário deve atualizar {#user-must-update}
@@ -71,9 +71,9 @@ As seguintes exceções existem:
 
 >[!IMPORTANT]
 >
->Selecionar a opção de conclusão automática das tarefas marca a tarefa como Concluída quando o horário do projeto for recalculado. Se o Tipo de atualização do projeto estiver definido como Automático ou Automático e Mediante alteração, a linha do tempo do projeto será calculada diariamente. Para obter informações sobre os recálculos de cronograma de projetos, consulte [Recalcular linhas do tempo do projeto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Selecionar a opção de conclusão automática das tarefas marca a tarefa como Concluída quando o horário do projeto for recalculado. Se o Tipo de atualização do projeto estiver definido como Automático ou Automático e Mediante alteração, a linha do tempo do projeto será calculada diariamente. Para obter informações sobre os recálculos de linha de tempo em projetos, consulte [Recalcular linhas de tempo do projeto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->A hora da Data de conclusão real é a meia-noite do dia em que a linha do tempo é calculada automaticamente. O horário usado para gerar esse carimbo de data e hora é o fuso horário do seu sistema, conforme definido pelo administrador do Workfront na seção Informações do cliente da Configuração. Para obter informações sobre como definir o fuso horário do seu sistema, consulte [Configurar informações básicas do seu sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>A hora da Data de conclusão real é a meia-noite do dia em que a linha do tempo é calculada automaticamente. O horário usado para gerar esse carimbo de data e hora é o fuso horário do seu sistema, conforme definido pelo administrador do Workfront na seção Informações do cliente da Configuração. Para obter informações sobre como definir o fuso horário do sistema, consulte [Configurar informações básicas do sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Predecessor {#predecessor}
 

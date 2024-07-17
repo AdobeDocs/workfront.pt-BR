@@ -3,8 +3,8 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
-title: Introdução ao [!DNL Workfront Proof] integração de eBox
-description: Nossa integração com o sistema online de compartilhamento de arquivos e gerenciamento de conteúdo da Box permite que você crie novas provas e novas versões de prova diretamente de arquivos em sua conta da Box. Para mais informações sobre a Caixa, consulte www.box.com.
+title: Introdução à integração do  [!DNL Workfront Proof]  e do Box
+description: Nossa integração com o sistema de gerenciamento de conteúdo e compartilhamento de arquivos on-line do Box permite criar novas provas e novas versões de prova diretamente dos arquivos na sua conta do Box. Para obter informações sobre o Box, consulte www.box.com.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0050a478-30a9-4400-9854-9d6339114243
@@ -15,41 +15,41 @@ ht-degree: 0%
 
 ---
 
-# Introdução ao [!DNL Workfront Proof] e [!DNL Box] integração
+# Introdução à integração [!DNL Workfront Proof] e [!DNL Box]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro de [!DNL Adobe Workfront], consulte [Tofing](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-Nossa integração com o [!DNL Box] o sistema online de compartilhamento de arquivos e gerenciamento de conteúdo permite que você crie novas provas e novas versões de prova diretamente dos arquivos em seu [!DNL Box] conta. Para obter informações sobre [!DNL Box], consulte www.box.com.
+Nossa integração com o sistema de gerenciamento de conteúdo e compartilhamento de arquivos online do [!DNL Box] permite que você crie novas provas e novas versões de prova diretamente dos arquivos na sua conta do [!DNL Box]. Para obter informações sobre [!DNL Box], consulte www.box.com.
 
-Nossa funcionalidade de sincronização de pastas permite sincronizar um [!DNL Box] com uma pasta em [!DNL Workfront Proof]. Ao adicionar um arquivo ou uma nova versão de um arquivo, para a pasta sincronizada em [!DNL Box], o arquivo também é adicionado à pasta associada no Workfront Proof. Para obter mais informações, consulte [Sincronizar [!DNL Box] Pastas com [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md).
+Nossa funcionalidade de sincronização de pastas permite sincronizar uma pasta do [!DNL Box] com uma pasta no [!DNL Workfront Proof]. Ao adicionar um arquivo, ou uma nova versão de um arquivo, à pasta sincronizada no [!DNL Box], o arquivo também é adicionado à pasta associada no Workfront Proof. Para obter mais informações, consulte [Sincronizar [!DNL Box] Pastas com [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md).
 
 ## Principais benefícios
 
-* **Melhore a revisão colaborativa e a aprovação:** Forneça à sua equipe ferramentas avançadas de marcação, comentário e discussão para melhorar a colaboração em ativos criativos.
-* **Acelere a entrega do projeto:** Acelere a entrega de seus projetos de design em 56% ao reduzir o ciclo de revisão e o número de revisões. Um consenso e decisões mais rápidos resultam em uma viragem mais rápida do projeto e na aceleração do seu lançamento no mercado. As revisões de design são reduzidas em 29%.
-* **Salvar tempo de gerenciamento:** Quando sua equipe gasta menos tempo imprimindo manualmente cópias, enviando comentários por e-mail e enviando revisões de roteamento, seu esforço para gerenciar provas pode ser reduzido em média em 59%.
-* **Reduza os custos:** Tempo é dinheiro. O fluxo de trabalho padronizado permite simplificar seus processos de aprovação. Como a eficiência, precisão e velocidade são melhoradas, você também economiza dinheiro.
-* **Obtenha maior visibilidade e responsabilidade:** Você pode registrar versões de arquivos, comentários e decisões com carimbos de data e hora em uma trilha de auditoria rastreável. Isso oferece total responsabilidade para cada estágio do processo de revisão e ajuda a atender aos requisitos de conformidade.\
+* **Melhore a análise colaborativa e a aprovação:** forneça à sua equipe ferramentas avançadas de marcação, comentários e discussão para melhorar a colaboração em ativos criativos.
+* **Acelerar a entrega de projetos**: acelere a entrega de seus projetos de design em 56%, diminuindo o ciclo de revisão e reduzindo o número de revisões. Consenso e decisões mais rápidos resultam em um retorno mais rápido dos projetos e na velocidade de entrada no mercado. As revisões de design foram reduzidas em 29%.
+* **Economize tempo de gerenciamento:** quando sua equipe gasta menos tempo imprimindo cópias manualmente, enviando comentários por email e fazendo revisões de roteamento, seu esforço para gerenciar provas pode ser reduzido em uma média de 59%.
+* **Reduzir custos:** tempo é dinheiro. O fluxo de trabalho padronizado possibilita simplificar os processos de aprovação. Como eficiência, precisão e velocidade são aprimoradas, você também economiza dinheiro.
+* **Obtenha maior visibilidade e responsabilidade:** você pode registrar versões de arquivos, comentários e decisões com carimbos de data e hora em uma trilha de auditoria rastreável. Isso proporciona total responsabilidade por cada estágio do processo de revisão e ajuda a atender aos requisitos de conformidade.\
    ![Box_and_ProofHQ_integration.jpg](assets/box-and-proofhq-integration-350x157.jpg)
 
 ## Principais recursos
 
-* Envie seus arquivos criativos para [!DNL Workfront Proof] diretamente da sua [!DNL Box] conta.
-* Notifique sua equipe de revisão sobre uma nova prova por email contendo um link para o arquivo em [!UICONTROL Caixa].
-* Forneça aos usuários [!DNL Workfront Proof]As ferramentas avançadas de marcação, comentário e discussão.
-* Permita que a equipe do projeto colabore e tome decisões em tempo real em diferentes formatos de mídia, incluindo impressão, digital, Web, vídeo e conteúdo interativo.
-* Use [!DNL Workfront Proof] para satisfazer os requisitos regulamentares e identificar as melhorias dos processos.
+* Envie seus arquivos de criação para [!DNL Workfront Proof] diretamente da sua conta do [!DNL Box].
+* Notifique a equipe de revisão sobre uma nova prova por email contendo um link para o arquivo na [!UICONTROL Caixa].
+* Forneça aos usuários as ferramentas avançadas de marcação, comentário e discussão do [!DNL Workfront Proof].
+* Permita que sua equipe de projeto colabore e tome decisões em tempo real em diferentes formatos de mídia, incluindo conteúdo impresso, digital, da Web, de vídeo e interativo.
+* Use o [!DNL Workfront Proof] para atender aos requisitos normativos e identificar melhorias no processo.
 
-## Adicionar a [!DNL Workfront Proof] Sincronizar o aplicativo com seu [!DNL Box] Conta
+## Adicionando o Aplicativo de Sincronização [!DNL Workfront Proof] à Conta [!DNL Box]
 
-Siga as poucas etapas simples abaixo para adicionar nosso aplicativo à sua conta da Caixa:
+Siga as etapas simples abaixo para adicionar nosso aplicativo à sua conta do Box:
 
-1. Em seu [!DNL Box] , vá para a **[!UICONTROL Aplicativos]** seção.
-1. Na barra de pesquisa, digite **[!DNL Workfront Proof]Sincronizar**.
-1. Clique em **[!UICONTROL [!DNL Workfront Proof]Sincronizar]** nos resultados da pesquisa.
-1. Clique em **[!UICONTROL Adicionar]** para adicionar o [!DNL Workfront Proof] Sincronize o aplicativo com sua conta da caixa.
-1. Na caixa de confirmação exibida, clique em **[!UICONTROL Ok]**.
+1. Na conta do [!DNL Box], vá para a seção **[!UICONTROL Aplicativos]**.
+1. Na barra de pesquisa, digite **[!DNL Workfront Proof]Sincronização**.
+1. Clique em **[!UICONTROL [!DNL Workfront Proof]Sincronização]** nos resultados da pesquisa.
+1. Clique em **[!UICONTROL Adicionar]** para adicionar o aplicativo de sincronização [!DNL Workfront Proof] à sua conta do Box.
+1. Na caixa de confirmação exibida, clique em **[!UICONTROL OK]**.
 
 

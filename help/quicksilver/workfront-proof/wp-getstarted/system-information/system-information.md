@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
-title: Informações do sistema em [!DNL Workfront Proof]
+title: Informações do sistema em  [!DNL Workfront Proof]
 description: Saiba mais sobre informações do sistema no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Visualizar ambiente de teste de sandbox - [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-* [Configurações de idioma em [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
-* [Codecs em [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
+* [Visualizar Ambiente de Teste de Sandbox- [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
+* [Configurações de Idioma em  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
+* [Codecs em  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)

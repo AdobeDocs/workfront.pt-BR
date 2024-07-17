@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Adicionar um filtro a um cenário no [!DNL Adobe] Workfront Fusion
+title: Adicionar um filtro a um cenário no  [!DNL Adobe] Workfront Fusion
 description: Em alguns cenários, é necessário trabalhar somente com pacotes que atendam a critérios específicos. Os filtros permitem selecionar esses pacotes.
 author: Becky
 feature: Workfront Fusion
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Adicionar um filtro a um cenário no [!DNL Adobe Workfront Fusion]
+# Adicionar um filtro a um cenário em [!DNL Adobe Workfront Fusion]
 
 Em alguns cenários, é necessário trabalhar somente com pacotes que atendam a critérios específicos. Os filtros permitem selecionar esses pacotes.
 
@@ -48,23 +48,23 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para Automação do Trabalho]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -74,19 +74,19 @@ Você deve adicionar ambos os módulos a um cenário antes de poder adicionar um
 
 ## Adicione um filtro entre dois módulos:
 
-1. Clique em **[!UICONTROL Cenários]** ![](assets/scenarios-icon.png) no painel esquerdo, selecione o cenário para abri-lo.
+1. Clique em **[!UICONTROL Cenários]** ![](assets/scenarios-icon.png) no painel esquerdo e selecione o cenário para abri-lo.
 1. No canto superior direito da janela, clique em **[!UICONTROL Editar]**.
 1. Clique na linha de conexão entre os módulos.
-1. Na caixa exibida, digite um **[!UICONTROL Rótulo]** para o filtro.
-1. Definir um filtro **[!UICONTROL Condição]**.
+1. Na caixa que é exibida, digite um **[!UICONTROL Rótulo]** para o filtro.
+1. Defina um filtro **[!UICONTROL Condição]**.
 
    É possível inserir um ou dois operandos nas duas caixas. Se você inserir operandos em ambas as caixas, será possível selecionar um operador no menu suspenso entre elas para especificar a relação entre elas.
 
    >[!TIP]
    >
-   >Nos campos de operando, você pode inserir valores da mesma maneira que os mapearia, conforme descrito em [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+   >Nos campos de operando, você pode inserir valores da mesma forma que os mapearia, conforme descrito em [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
-   Por exemplo, se você deseja que o filtro localize arquivos em [!DNL Adobe Workfront] terminando com XML e transmitindo-as para [!DNL Dropbox], você digitaria **[!UICONTROL Nome do arquivo]** na primeira caixa e .**[!UICONTROL xml]** na segunda caixa. No menu suspenso entre elas, você selecionaria **[!UICONTROL Termina com (não diferencia maiúsculas de minúsculas)]**. Esse filtro se aplicaria aos pacotes recebidos do primeiro módulo (Workfront). Somente pacotes contendo arquivos XML passariam para o próximo módulo ([!DNL Dropbox]).
+   Por exemplo, se você deseja que o filtro localize arquivos em [!DNL Adobe Workfront] terminando com XML e os transmita para [!DNL Dropbox], digite **[!UICONTROL Nome do arquivo]** na primeira caixa e .**[!UICONTROL xml]** na segunda caixa. No menu suspenso entre elas, você selecionaria **[!UICONTROL Termina com (sem distinção entre maiúsculas e minúsculas)]**. Esse filtro se aplicaria aos pacotes recebidos do primeiro módulo (Workfront). Somente pacotes contendo arquivos XML passariam para o próximo módulo ([!DNL Dropbox]).
 
    ![](assets/set-up-filter-box-350x368.jpg)
 
@@ -100,23 +100,23 @@ Atualmente, o editor de cenários não inclui um recurso para copiar um filtro.
 >
 >Se você copiar os módulos em ambos os lados do filtro, o filtro também será copiado.
 >
->Para obter mais informações sobre a cópia de módulos, consulte [Copiar módulos ou cenários no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+>Para obter mais informações sobre como copiar módulos, consulte [Copiar módulos ou cenários em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 
-Para copiar um filtro sem copiar módulos, é possível usar [!DNL Google] Chrome para a seguinte solução alternativa:
+Para copiar um filtro sem copiar módulos, você pode usar o Chrome [!DNL Google] para a seguinte solução alternativa:
 
-1. Instale o [!UICONTROL [!DNL Adobe Workfront Fusion] DevTool Chrome] extensão.
-1. Entrada [!DNL Workfront Fusion], abra o cenário.
-1. Clique no menu de três pontos do Chrome e clique em **[!UICONTROL Mais ferramentas*]* > **[!UICONTROL Ferramentas do desenvolvedor]**.
+1. Instale a extensão [!UICONTROL [!DNL Adobe Workfront Fusion] DevTool Chrome].
+1. Em [!DNL Workfront Fusion], abra o cenário.
+1. Clique no menu de três pontos do Chrome e em **[!UICONTROL Mais ferramentas*]* > **[!UICONTROL Ferramentas do desenvolvedor]**.
 
-1. No [!UICONTROL Ferramentas do desenvolvedor] painel que for exibido, na barra de menus na parte superior, clique na guia [!UICONTROL Workfront Fusion] guia.
+1. No painel [!UICONTROL Ferramentas do desenvolvedor] que é exibido, na barra de menus na parte superior, clique na guia [!UICONTROL Workfront Fusion].
 
    ![](assets/copy-a-filter-350x174.png)
 
-1. Clique em **[!UICONTROL Ferramentas]** ícone ![](assets/devtools-tools-icon.png) na barra lateral esquerda.
+1. Clique no ícone ![](assets/devtools-tools-icon.png) de **[!UICONTROL Ferramentas]** na barra lateral esquerda.
 
-1. Clique em **[!UICONTROL Copiar Filtro]**, em seguida, configure o **[!UICONTROL Copiar Filtro]** no painel direito:
+1. Clique em **[!UICONTROL Copiar Filtro]** e configure a ferramenta **[!UICONTROL Copiar Filtro]** no painel direito:
 
-   1. Defina o **[!UICONTROL Módulo de origem]** como o módulo logo após o filtro que você deseja copiar.
-   1. Defina o **[!UICONTROL Módulo do Target]** como o módulo, antes do filtro que você deseja copiar.
+   1. Defina o **[!UICONTROL Módulo Source]** como o módulo logo após o filtro que você deseja copiar.
+   1. Defina o **[!UICONTROL Módulo de Destino]** como o módulo logo antes do filtro que você deseja copiar.
 
 1. Clique em **[!UICONTROL Executar]**.

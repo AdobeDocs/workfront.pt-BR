@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Outras melhorias
 
-Esta página descreve todas as outras melhorias feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte [21.2 Visão geral da versão](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página descreve todas as outras melhorias feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Agora somos oficialmente o Adobe Workfront
 
@@ -37,7 +37,7 @@ As áreas mais proeminentes no aplicativo Adobe Workfront e em nossos sites volt
 * Exportações de PDF para listas e relatórios
 * Ícone de favicon na guia do navegador
 
-**Áreas atualizadas posteriormente**
+**Áreas sendo atualizadas mais tarde**
 
 * Notificações de email
 
@@ -49,7 +49,7 @@ As áreas mais proeminentes no aplicativo Adobe Workfront e em nossos sites volt
 
 Se você usar a inclui na lista de permissões por e-mail, os endereços de e-mail novos e atualizados do usuário serão validados em relação ao arquivo de inclui na lista de permissões. Ao adicionar um novo usuário ou editar um usuário existente e inserir um domínio de email que não esteja na inclui na lista de permissões, uma mensagem notificará que o usuário não receberá mensagens de email. Incluir na lista de permissões Ainda é possível salvar o perfil do usuário, mas você deve adicionar o domínio ao arquivo para que o usuário receba emails.
 
-Para obter mais informações, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Nova aparência para cabeçalhos de objeto
 
@@ -70,7 +70,7 @@ Anteriormente, não havia um ícone e um selo com o nome do objeto aparecia à d
 
 Os cabeçalhos de página de áreas na nova experiência do Workfront, como Analítica aprimorada, Gerenciamento de recursos e outras, também apresentam essa aparência atualizada.
 
-Para saber mais sobre os novos cabeçalhos de objetos na nova experiência do Workfront, consulte [Novos cabeçalhos de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Para saber mais sobre os novos cabeçalhos de objeto na nova experiência do Workfront, consulte [Novos cabeçalhos de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ![](assets/product-announcement-object-header-350x179.png)
 
@@ -80,7 +80,7 @@ O Workfront agora armazena status de objetos de uma nova maneira.
 
 Essas alterações não afetam como as solicitações de pesquisa de status são feitas. No entanto, as solicitações de API que contêm uma pesquisa de status de objeto retornarão uma lista incompleta de status de grupo.
 
-Para obter mais informações, consulte [Alterações na API principal: respostas da pesquisa de status](../../../wf-api/api/api-changes-search.md) .
+Para obter mais informações, consulte [Alterações na API principal: Respostas da pesquisa de status](../../../wf-api/api/api-changes-search.md).
 
 ## Cargas de assinatura do evento atualizadas para incluir todos os campos que terminam em ID
 

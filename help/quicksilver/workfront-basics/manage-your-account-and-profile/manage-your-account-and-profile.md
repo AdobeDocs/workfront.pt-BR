@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Gerenciar sua conta e perfil
-description: Leia os artigos desta seção para saber como gerenciar o seu [!DNL Workfront] conta e perfil do usuário.
+description: Leia os artigos desta seção para saber como gerenciar sua conta do  [!DNL Workfront]  e seu perfil de usuário.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -20,4 +20,4 @@ ht-degree: 0%
 Esta seção contém as seguintes subseções:
 
 * [Configurar seu perfil de usuário](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
-* [Gerencie seu [!DNL Adobe Workfront] account](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+* [Gerenciar sua conta  [!DNL Adobe Workfront] ](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)

@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Adicionar uma prova a um [!DNL Basecamp Classic] Projeto](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
+* [Adicionar uma prova a um projeto  [!DNL Basecamp Classic] ](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
 * [Integrar [!DNL Workfront Proof] com [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
-* [Revisar uma prova no [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
+* [Revisar uma Prova em  [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)

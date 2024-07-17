@@ -2,103 +2,103 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Gerenciar itens no [!UICONTROL Exibições] Página em [!DNL Workfront Proof]
-description: O [!UICONTROL Exibições] permite visualizar e trabalhar com todas as provas, arquivos e pastas em um único local.
+title: Gerenciar Itens na Página [!UICONTROL Exibições] em [!DNL Workfront Proof]
+description: A página [!UICONTROL Exibições] permite que você veja e trabalhe com todas as suas provas, arquivos e pastas em um único local.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
 
-# Gerenciar itens no [!UICONTROL Exibições] Página em [!DNL Workfront Proof]
+# Gerenciar Itens na Página [!UICONTROL Exibições] em [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro de [!DNL Adobe Workfront], consulte [Tofing](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-O [!UICONTROL Exibições] permite visualizar e trabalhar com todas as provas, arquivos e pastas em um único local.
+A página [!UICONTROL Exibições] permite que você veja e trabalhe com todas as suas provas, arquivos e pastas em um único local.
 
-## Exibição do [!UICONTROL Exibições] Página
+## Exibindo a Página [!UICONTROL Exibições]
 
 1. Clique em **[!UICONTROL Exibições]** na barra lateral esquerda.
 1. No menu suspenso (2), clique na exibição (3) que deseja visualizar.
 
-![Views.png](assets/views-350x297.png)
+![Exibições.png](assets/views-350x297.png)
 
-## Alteração do [!UICONTROL Exibições] Layout da página
+## Alterando o layout da página [!UICONTROL Exibições]
 
-O padrão [!UICONTROL Exibições] O layout da página é a Lista de miniaturas. Nesse layout, é possível ver uma imagem em miniatura de cada prova, arquivo (se possível para gerar) e pastas (se definido), com outros detalhes incluídos em colunas separadas.
+O layout de página padrão [!UICONTROL Exibições] é a lista de Miniaturas. Nesse layout, você pode ver uma imagem em miniatura de cada prova, arquivo (se possível de ser gerado) e pastas (se definido), com outros detalhes incluídos em colunas separadas.
 
-1. Clique no botão **[!UICONTROL Layout da página]** ícone (1) e escolha o layout desejado.
+1. Clique no ícone (1) do **[!UICONTROL Layout da página]** e escolha o layout desejado.
 
-![Views_Page_Layout.png](assets/views-page-layout-350x140.png)
+![Exibições_Layout_Página.png](assets/views-page-layout-350x140.png)
 
-## Alteração do [!UICONTROL Exibições] Lista
+## Alterando a lista de [!UICONTROL Exibições]
 
-Para alterar o que você vê no [!UICONTROL Exibições] lista:
+Para alterar o que você vê na lista [!UICONTROL Exibições]:
 
-1. Clique no botão **[!UICONTROL Alterar exibição]** botão.\
-   O nome que aparece nesse botão depende da exibição selecionada na última vez em que foi usado.\
-   ![Views-Change_view_button.png](assets/views-chnge-view-button-350x205.png)
+1. Clique no botão **[!UICONTROL Alterar exibição]**.\
+   O nome exibido nesse botão depende da exibição selecionada na última vez em que você o usou.\
+   ![Exibições-Change_view_button.png](assets/views-chnge-view-button-350x205.png)
 
-1. Clique em uma exibição diferente no menu suspenso:
+1. Clique em uma visualização diferente no menu suspenso:
 
-   * **[!UICONTROL Todos os itens]**: Inclui todas as provas, arquivos e pastas que você tem permissão para ver. É o padrão ao abrir o [!UICONTROL Exibições] página. Você tem a opção de incluir/excluir provas arquivadas nessa visualização.
-   * **[!UICONTROL Itens ativos]**: Todas as provas, arquivos e pastas ativos.
-   * **[!UICONTROL Provas ativas]**: Todas as provas ativas (não arquivadas) que você tem permissão para ver.
-   * **[!UICONTROL Provas bloqueadas]**: Somente provas bloqueadas.
-   * **[!UICONTROL Provas arquivadas]**: Somente provas arquivadas (consulte [Arquivar em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)).
+   * **[!UICONTROL Todos os itens]**: inclui todas as provas, arquivos e pastas que você tem permissão para ver. É o padrão quando você abre a página [!UICONTROL Exibições]. Você tem a opção de incluir/excluir provas arquivadas nessa visualização.
+   * **[!UICONTROL Itens ativos]**: todas as provas, arquivos e pastas ativos.
+   * **[!UICONTROL Provas ativas]**: todas as provas ativas (não arquivadas) que você tem permissão para ver.
+   * **[!UICONTROL Provas bloqueadas]**: somente provas bloqueadas.
+   * **[!UICONTROL Provas arquivadas]**: somente provas arquivadas (consulte [Arquivar em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)).
 
-   * **[!UICONTROL Minhas provas]**: Mostra somente provas para as quais você é o proprietário e que são delegadas a você. Para obter mais informações, consulte [Designando Proprietários Temporários de Prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **[!UICONTROL Minhas provas]**: mostra somente provas das quais você é o proprietário e que estão delegadas a você. Para obter mais informações, consulte [Designação de proprietários de prova temporários em [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
-   * **[!UICONTROL Provas que aguardam decisão]**: Mostra somente provas nas quais você precisa tomar uma decisão
-   * **[!UICONTROL Provas atrasadas]**: Mostra apenas provas cujo prazo foi ultrapassado
-   * **[!UICONTROL Arquivos]**: Mostra somente arquivos
-   Em cada uma dessas exibições, as colunas a seguir são incluídas
+   * **[!UICONTROL Provas aguardando decisão]**: mostra somente provas nas quais você precisa tomar uma decisão
+   * **[!UICONTROL Provas atrasadas]**: mostra somente provas cujo prazo final já passou
+   * **[!UICONTROL Arquivos]**: mostra somente arquivos
 
-   * **Tipo**: Ícone do item com o ícone de prova, arquivo ou pasta
-   * **Nome**: Nome da prova, arquivo ou pasta
-   * **Andamento**: S=Enviado, O=Aberto, C=Comentário, D=Decisão (consulte Barra de Progresso)
+   Em cada uma dessas exibições, as seguintes colunas são incluídas
+
+   * **Tipo**: ícone do item com o ícone de prova, arquivo ou pasta
+   * **Nome**: nome da prova, arquivo ou pasta
+   * **Progresso**: S=Enviado, O=Aberto, C=Comentário, D=Decisão (consulte Barra de Progresso)
    * **Status**: [!UICONTROL Pendente, Alterações necessárias, Aprovado]
    * **Decisões**: Número de decisões tomadas e número necessário
-   * **Proprietário**: Nome da pessoa que possui a prova\
+   * **Proprietário**: nome da pessoa que é proprietária da prova\
 
-      Minhas provas, Provas aguardando decisão e exibições de provas atrasadas têm uma coluna adicional chamada Meu prazo. Essa coluna exibe seus próprios prazos nas provas em que você é explicitamente adicionado como Revisor/Aprovador.
+     Minhas provas, Provas aguardando decisão e Visualizações de provas atrasadas têm uma coluna adicional chamada Meu prazo. Essa coluna exibe seus próprios prazos nas provas em que você é adicionado explicitamente como Revisor/Aprovador.
 
-      >[!NOTE]
-      >
-      >Se você sair da página Exibições e retornar a ela mais tarde na mesma sessão, sua última exibição selecionada será exibida.
+     >[!NOTE]
+     >
+     >Se você navegar para fora da página Exibições e retornar a ela posteriormente na mesma sessão, a última exibição selecionada será exibida.
 
-      Também é possível criar suas próprias exibições. Consulte [Criar e gerenciar exibições personalizadas no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) para obter mais informações.
-
+     Você também pode criar suas próprias visualizações. Consulte [Criar e Gerenciar Exibições Personalizadas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) para obter mais informações.
 
 
 
 ## Filtrar itens
 
-Você pode filtrar as informações listadas em uma visualização.
+Você pode filtrar as informações listadas em uma exibição.
 
-1. Clique no botão **Mostrar filtros** ícone na parte superior direita da página (1).\
-   ![Filters.png](assets/filters-350x107.png)
+1. Clique no ícone **Mostrar filtros** na parte superior direita da página (1).\
+   ![Filtros.png](assets/filters-350x107.png)
 
-1. A barra de filtro (2) é exibida e cada categoria tem um menu suspenso de filtragem (3) para selecionar o valor preferido. O valor padrão para cada categoria é Todos.
-1. A barra de filtro não é exibida em exibições personalizadas criadas por você. Para essas exibições, você pode aplicar e editar filtros na [!UICONTROL Filtros] guia . Para obter mais informações, consulte [Criar e gerenciar exibições personalizadas no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-1. Para aplicar todos os filtros escolhidos, clique no botão [!UICONTROL Filtro] ícone (4) no final da barra de filtragem.\
+1. A barra de filtro (2) é exibida e cada categoria tem um menu suspenso de filtragem (3) para selecionar seu valor preferido. O valor padrão para cada categoria é Todos.
+1. A barra de filtros não é exibida em visualizações personalizadas criadas por você. Para essas exibições, você pode aplicar e editar filtros na guia [!UICONTROL Filtros]. Para obter mais informações, consulte [Criar e Gerenciar Exibições Personalizadas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+1. Para aplicar todos os filtros escolhidos, clique no ícone [!UICONTROL Filtro] (4) ao final da barra de filtragem.\
    ![Filtros_2.png](assets/filters-2-350x102.png)
 
 Os valores de Filtro selecionados permanecem em vigor até que você os altere. Se quiser ver e acessar a lista completa de itens novamente, altere todos os valores de filtro de volta para o padrão, que é **[!UICONTROL Todos]**.
 
 >[!NOTE]
 >
->Se você definir opções de filtragem e ocultar a barra de filtragem clicando no botão [!UICONTROL Ocultar filtros] ícone (5), a barra será exibida automaticamente novamente se você alterar as exibições. Se você ocultar a barra de filtragem enquanto todos os filtros estiverem definidos como a opção padrão all , a barra de filtragem permanecerá oculta ao alterar as exibições.
+>Se você definir opções de filtragem e, em seguida, ocultar a barra de filtragem clicando no ícone [!UICONTROL Ocultar filtros] (5), a barra será exibida automaticamente novamente se você alterar os modos de exibição. Se você ocultar a barra de filtragem enquanto todos os filtros estiverem definidos com a opção all padrão, a barra de filtragem permanecerá oculta ao alterar as exibições.
 
-## Classificar itens
+## Classificação de itens
 
-Quando você cria uma nova prova (ou versão) ou carrega um novo arquivo, ela aparece na parte superior da [!UICONTROL Todos os itens] lista. O item mais antigo aparece na parte inferior da lista.
+Ao criar uma nova prova (ou versão) ou carregar um novo arquivo, ela aparece na parte superior da lista [!UICONTROL Todos os itens]. O item mais antigo aparece na parte inferior da lista.
 
 Para exibir a lista em uma ordem de classificação diferente:
 
@@ -106,95 +106,95 @@ Para exibir a lista em uma ordem de classificação diferente:
 
    * Clique em um dos cabeçalhos de coluna na lista: Tipo, Nome, Status, Decisões ou Proprietário.\
 
-      Por exemplo, se você quiser ver as provas/arquivos em ordem alfabética, clique no cabeçalho Nome uma vez (1) para classificar a lista por nome em ordem crescente (A - Z).\
+     Por exemplo, se você quiser ver as provas/arquivos em ordem alfabética, clique no cabeçalho Nome uma vez (1) para classificar a lista pelo nome em ordem crescente (A - Z).\
       Você pode clicar no cabeçalho Nome da prova novamente (2) para inverter a ordem e exibir as provas em ordem decrescente (Z - A).
 
-   * Clique na seta para baixo no canto superior direito da [!UICONTROL Exibições] página para classificar pela data de criação (mais recente ou mais antiga) ou por Tipo, Nome, Status, Decisões ou Proprietário.\
+   * Clique na seta para baixo no canto superior direito da página [!UICONTROL Exibições] para classificar por data de criação (Mais recente ou Mais antiga) ou por Tipo, Nome, Status, Decisões ou Proprietário.\
 
-      ![Views-Sort_down_seta.png](assets/views-sort-down-arrow-350x124.png)\
-      Se a coluna for classificada em ordem crescente, o cabeçalho da coluna mostrará uma seta para cima ao lado do nome da coluna. Para reverter a ordem (para decrescente), clique no cabeçalho da coluna relevante (isso mostrará uma seta para baixo ao lado do nome da coluna).
+     ![Exibições-Classificar_seta_para_baixo.png](assets/views-sort-down-arrow-350x124.png)\
+      Se a coluna estiver classificada em ordem crescente, o cabeçalho da coluna mostrará uma seta para cima ao lado do nome da coluna. Para inverter a ordem (para decrescente) clique no cabeçalho da coluna relevante (isso mostrará uma seta para baixo ao lado do nome da coluna).
 
-   * As alterações feitas na ordem de classificação dos itens duram somente enquanto você permanece na página Todos os itens . Se você sair da página Todos os itens e retornar posteriormente, os itens serão listados novamente na ordem cronológica inversa padrão.
+   * As alterações feitas na ordem de classificação dos itens duram apenas enquanto você permanece na página Todos os itens. Se você navegar para fora da página Todos os itens e retornar a ela posteriormente, os itens serão listados novamente na ordem cronológica inversa padrão.
 
-## Exibindo um resumo de prova
+## Exibição de um resumo de prova
 
 Para exibir informações mais detalhadas sobre uma prova:
 
 1. Clique na seta à esquerda da imagem de prova.\
-   A seta aponta para baixo e o Resumo da prova é exibido abaixo das informações básicas sobre a prova. O resumo da prova mostra:
+   A seta aponta para baixo e o Resumo de prova é exibido abaixo das informações básicas sobre a prova. O resumo da prova mostra:
 
-   * **Resumo da prova**: Status geral da prova
-   * **Fase**: Indica o prazo de prova e o número de decisões tomadas e obrigatórias
-   * **Revisores**: O nome, a função e o progresso de cada revisor serão listados
-   * **Versões**: Versão da prova que está sendo exibida e o número total de versões disponíveis
-   * **Pasta**: Pasta na qual a prova está localizada
-   * **Estado**: Ativo, Bloqueado, Rascunho ou Enviado
+   * **Resumo de provas**: status geral da prova
+   * **Estágio**: indica o prazo de prova e o número de decisões tomadas e necessárias
+   * **Revisores**: o nome, a função e o progresso de cada revisor serão listados
+   * **Versões**: a versão da prova que está sendo exibida e o número total de versões disponíveis
+   * **Pasta**: pasta na qual a prova está localizada
+   * **Estado**: ativo, bloqueado, rascunho ou enviado
 
-1. (Opcional) Se você tiver direitos de edição na prova e a prova tiver etapas, clique no **[!UICONTROL Mais]** (três pontos) à direita do palco para acessar as seguintes opções:
+1. (Opcional) Se você tiver direitos de edição na prova e a prova tiver estágios, clique no menu **[!UICONTROL Mais]** (três pontos) à direita do estágio para acessar as seguintes opções:
 
-   * **[!UICONTROL Mensagem tudo]**: Envie um email para todos os revisores no palco.
-   * **[!UICONTROL Compartilhar]**: Adicionar novos revisores
+   * **[!UICONTROL Mensagem para todos]**: envie um email para todos os revisores no estágio.
+   * **[!UICONTROL Compartilhar]**: adicionar novos revisores
    * **[!UICONTROL Excluir estágio]**
 
-1. (Opcional) Clique em um relatório de revisor **[!UICONTROL Mais]** (três pontos) à direita do nome para executar um dos seguintes procedimentos:
+1. (Opcional) Clique no menu **[!UICONTROL Mais]** (três pontos) de um revisor à direita do nome para executar um dos seguintes procedimentos:
 
-   * Envie uma mensagem de lembrete ao revisor.
+   * Envie ao revisor uma mensagem de lembrete.
    * Edite as configurações do Revisor na prova.\
 
-      Na caixa Editar revisor que é exibida, é possível alterar não apenas a função e os alertas de email, mas também o Nome de exibição do Revisor. Observe que o Nome de exibição pode ser alterado somente na prova específica, não nos detalhes do revisor na página Contatos. Consulte [Contatos](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts) para obter mais informações.
+     Na caixa Edit reviewer (Editar revisor) que é exibida, é possível alterar não apenas a função e os alertas de email, mas também o Display Name (Nome de exibição) do Reviewer (Revisor). Observe que o Nome de exibição pode ser alterado somente na prova específica, não nos detalhes do revisor na página Contatos. Consulte [Contatos](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts) para obter mais informações.
 
-   * Selecione o revisor para ser o Criador de decisões principal na prova.
+   * Selecione o revisor para ser o Tomador de decisão principal na prova.
    * Exclua o revisor da prova.
-   * Você também pode alterar a Função e os alertas de email de um revisor adicionado à prova.
+   * Você também pode alterar os alertas de Função e Email para um revisor adicionado à prova.
 
-## Inclusão e exclusão de provas arquivadas
+## Incluir e excluir provas arquivadas
 
-O [!UICONTROL Todos os itens] a visualização por padrão exibe todas as provas, arquivos e pastas ativos e bloqueados. Também fornece a opção de incluir ou excluir provas arquivadas na exibição.\
+Por padrão, o modo de exibição [!UICONTROL Todos os itens] exibe todas as provas, arquivos e pastas ativos e bloqueados. Também fornece a opção de incluir ou excluir provas arquivadas na visualização.\
 Para incluir as provas arquivadas:
 
 1. Ao escolher uma exibição, clique em **[!UICONTROL Incluir provas arquivadas]**.\
-   ![Exibições-include_archived_proofs.png](assets/views-include-archived-proofs-350x188.png)\
+   ![Visualizações-include_archived_proofs.png](assets/views-include-archived-proofs-350x188.png)\
    As provas arquivadas serão exibidas com um ícone arquivado para diferenciá-las de outras provas.\
-   ![Views-Archived_icon.png](assets/views-archived-icon.png)
+   ![Exibições-Archived_icon.png](assets/views-archived-icon.png)
 
-## Abrir um item de uma exibição de lista
+## Abrindo um Item em uma Exibição de Lista
 
 1. Siga um destes procedimentos:
 
-   * Para exibir detalhes sobre uma prova, arquivo ou pasta, clique em seu nome.
-   * Para abrir uma prova no visualizador de prova, clique em **[!UICONTROL Ir para prova]**.\
+   * Para exibir detalhes sobre uma prova, arquivo ou pasta, clique no nome.
+   * Para abrir uma prova no visualizador de provas, clique em **[!UICONTROL Ir para Prova]**.\
 
-      Para obter informações sobre o visualizador de prova, consulte [Revisar uma prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+     Para obter informações sobre o visualizador de provas, consulte [Revisar uma prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
 
-## Execução de ações em vários itens
+## Executando Ações em Vários Itens
 
 Para selecionar vários itens:
 
 1. Clique na caixa de seleção acima da lista.\
-   ![Views-select_all_items_checkbox.png](assets/views-select-all-items-checkbox-350x193.png)
+   ![Exibições-select_all_items_checkbox.png](assets/views-select-all-items-checkbox-350x193.png)
 
-1. Nas opções extras exibidas acima da lista de Exibições, siga um destes procedimentos para os arquivos selecionados:
+1. Nas opções extras que aparecem acima da lista de Visualizações, execute um dos procedimentos a seguir em relação aos arquivos selecionados:
 
-   * Clique em **[!UICONTROL Tags]** para adicionar uma tag a esses itens.
+   * Clique em **[!UICONTROL Marcas]** para adicionar uma marca a esses itens.
    * Clique em **[!UICONTROL Mover para]** para mover os itens selecionados para uma pasta diferente (ou mover os itens para fora da pasta se você selecionar (Nenhuma pasta selecionada).
    * Clique em **[!UICONTROL Compartilhar itens selecionados]** para compartilhar todos esses itens com revisores adicionais.\
 
-      ![Share_button-small.png](assets/share-button-small.png)
+     ![Compartilhar_botão-pequeno.png](assets/share-button-small.png)
 
    * Clique em **[!UICONTROL Excluir]** para mover os itens selecionados para a Lixeira.\
 
-      ![Trash_button.png](assets/trash-button.png)
+     ![Botão_Lixeira.png](assets/trash-button.png)
 
-   * Clique no botão **[!UICONTROL Mais]** para ver as ações adicionais disponíveis.
+   * Clique no menu **[!UICONTROL Mais]** para ver ações adicionais disponíveis.
 
-   * As ações serão aplicadas apenas àquelas dos itens selecionados que têm a opção específica disponível. Por exemplo, se você selecionar arquivos e provas e escolher [!UICONTROL Bloquear], somente as provas serão bloqueadas (porque não é possível bloquear arquivos)
+   * As ações serão aplicadas apenas àqueles dos itens selecionados que tenham a opção específica disponível. Por exemplo, se você selecionar arquivos e provas e escolher [!UICONTROL Bloquear], somente as provas serão bloqueadas (porque não é possível bloquear arquivos)
 
 ## Mover um item para uma pasta
 
-Se você tiver os direitos de edição para fazer isso, poderá mover provas, arquivos e pastas para pastas específicas na [!UICONTROL Exibições] página.
+Se você tiver os direitos de edição necessários, poderá mover provas, arquivos e pastas para pastas específicas na página [!UICONTROL Exibições].
 
-1. Abra a árvore de pastas na barra lateral clicando na seta à esquerda da pasta mais alta.
+1. Abra a árvore de pastas na barra lateral clicando na seta à esquerda da pasta localizada na extremidade superior.
 1. Siga um destes procedimentos:
 
-   * Para mover um item, clique e segure-o, arrastando-o e soltando-o na pasta onde deseja colocá-lo.
-   * Para mover vários itens ao mesmo tempo, você pode marcar as caixas de seleção à esquerda dos itens e clicar em **[!UICONTROL Mover para]**acima da lista, selecione a pasta onde deseja colocá-los ou crie uma nova pasta para eles.
+   * Para mover um item, clique nele e segure-o, arrastando-o e soltando-o na pasta onde deseja colocá-lo.
+   * Para mover vários itens ao mesmo tempo, marque as caixas de seleção à esquerda dos itens e clique em **[!UICONTROL Mover para]**acima da lista, selecione a pasta onde deseja colocá-los ou crie uma nova pasta para eles.

@@ -22,7 +22,7 @@ Para agregar vários campos no Adobe Workfront e exibir esse valor agregado em u
   Para obter mais informações sobre como adicionar um campo personalizado calculado a um formulário personalizado, consulte a seção [Adicionar um campo calculado a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) no artigo [Adicionar dados calculados a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Uma coluna calculada em uma exibição\
-  Para obter mais informações sobre o uso de cálculos em uma visualização, consulte a seção [Usar modo de texto em visualizações](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) no artigo [Visão geral de usos comuns do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Para obter mais informações sobre o uso de cálculos em uma exibição, consulte a seção [Usar Modo de Texto em exibições](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) no artigo [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 Embora você use o modo de texto para criar campos calculados e colunas calculadas, a sintaxe para criá-los é diferente. Consulte os artigos listados acima para saber como criar campos calculados e colunas calculadas. Para obter informações sobre a sintaxe diferente usada em expressões de dados calculados, como campos e colunas personalizados calculados, consulte a seção [Sintaxe de campos personalizados calculados versus colunas personalizadas calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) neste artigo.
 
@@ -62,20 +62,20 @@ As diferenças entre as duas sintaxes são:
   </tr> 
   <tr> 
    <td> <p>Use o nome dos campos conforme eles aparecem na interface do Workfront.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um campo personalizado calculado: <code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Use o nome dos objetos ou campos conforme eles aparecem no banco de dados do Workfront. Os nomes de objetos e campos são escritos em minúsculas ou em letras maiúsculas, se forem nomes compostos. </p> <p>Para obter um inventário de todos os objetos e campos do Workfront conforme aparecem no banco de dados, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um elemento de relatório personalizado calculado: <code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Use o nome dos objetos ou campos conforme eles aparecem no banco de dados do Workfront. Os nomes de objetos e campos são escritos em minúsculas ou em letras maiúsculas, se forem nomes compostos. </p> <p>Para obter um inventário de todos os objetos e campos do Workfront à medida que aparecem no banco de dados, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um elemento de relatório personalizado calculado: <code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Colocar nomes de campo entre parênteses ou chaves</td> 
-   <td> <p>Não coloque os nomes dos campos entre parênteses ou entre parênteses ao usá-los em uma <code>valuefield </code>linha.</p> <p>Coloque os nomes de campo entre chaves ao usá-los em uma <code>valueexpression</code> linha.</p> </td> 
+   <td> <p>Não coloque os nomes de campo entre parênteses ou entre parênteses ao usá-los em uma linha <code>valuefield </code>.</p> <p>Coloque os nomes de campo entre chaves ao usá-los em uma linha <code>valueexpression</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Separar os campos por períodos</td> 
-   <td> <p>Separe os campos por dois pontos ao usá-los em uma <code>valuefield</code>linha.</p> <p>Separe os campos por pontos ao usá-los em uma <code>valueexpression</code>linha.</p> </td> 
+   <td> <p>Separe os campos por dois pontos ao usá-los em uma linha <code>valuefield</code>.</p> <p>Separe os campos por pontos ao usá-los em uma linha <code>valueexpression</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais informações sobre a sintaxe que deve ser usada em uma coluna personalizada calculada, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obter mais informações sobre a sintaxe que deve ser usada em uma coluna personalizada calculada, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Quando usar campos personalizados calculados
 
@@ -85,10 +85,10 @@ Para obter mais informações sobre a sintaxe que deve ser usada em uma coluna p
 
 ## Ações que acionam a atualização de um campo personalizado calculado
 
-* Na página principal de um objeto, ao clicar no ícone Mais ![](assets/more-icon.png), clicando em **Recalcular Expressões**
+* Na página principal de um objeto, ao clicar no ícone Mais ![](assets/more-icon.png) e em **Recalcular Expressões**
 
-* Edição de vários objetos em massa quando **Recalcular expressões personalizadas** está ativado
-* Edição de um formulário personalizado ao **Atualizar cálculos anteriores** está habilitado para o campo personalizado calculado
+* Edição de vários objetos em massa quando **Recalcular Expressões Personalizadas** está habilitado
+* Edição de um formulário personalizado quando **Atualizar cálculos anteriores** está habilitado para o campo personalizado calculado
 
 ## Quando usar colunas calculadas em uma exibição
 
@@ -110,5 +110,5 @@ Para obter exemplos de campos personalizados calculados, consulte [Dados persona
 
 Para obter exemplos de colunas personalizadas calculadas em exibições, consulte os seguintes artigos:
 
-* [Visão geral de usos comuns do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

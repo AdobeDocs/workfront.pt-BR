@@ -6,7 +6,8 @@ description: Há vários relatórios diferentes que você pode adicionar a um Pa
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Há vários relatórios diferentes que você pode adicionar a um Painel de contr
 * Relatórios de tabela
 * Relatórios de aprovações pendentes
 
-Para obter informações gerais sobre como adicionar e organizar relatórios em um Painel de Controle da Tela de Pintura, consulte [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Para obter informações mais detalhadas sobre a adição e a formatação de tipos de relatórios específicos, consulte o índice do artigo abaixo.
+Para obter informações gerais sobre como adicionar e organizar relatórios em um Painel da Tela de Pintura, consulte [Adicionar, remover ou organizar relatórios em um Painel da Tela de Pintura](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Para obter informações mais detalhadas sobre a adição e a formatação de tipos de relatórios específicos, consulte o índice do artigo abaixo.
 
 ## Tipos de relatório do Painel de controle do Canvas: índice do artigo
 

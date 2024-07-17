@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Perguntas frequentes de Projetos](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
+* [Perguntas frequentes sobre Projetos](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
 * [O status do projeto não será alterado de Concluído para Atual](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
-* [Exemplo de cálculo - calcular EAC no nível do projeto](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
+* [Exemplo de cálculo - calcular EAC no Nível de Projeto](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
 * [Exemplo de cálculo - Calcular EAC como um acúmulo a partir de tarefas](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 
   <!--

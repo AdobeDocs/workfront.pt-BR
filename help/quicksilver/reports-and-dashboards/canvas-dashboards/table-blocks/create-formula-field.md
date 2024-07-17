@@ -17,12 +17,12 @@ O construtor de campos na Tela de relatório permite criar campos que executam c
 
 ## Pré-requisitos
 
-Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta do relatório do Canvas: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta da tela de relatório: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Criar um campo de fórmula
 
-1. Crie ou navegue até um bloco de tabela, conforme descrito em [Adicionar ou editar um bloco de tabela na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. No cabeçalho da tabela do relatório, clique na guia **Editar** ícone ![](assets/edit-icon.png).
+1. Crie ou navegue até um bloco de tabela, conforme descrito em [Adicionar ou editar um bloco de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. No cabeçalho da tabela do relatório, clique no ícone **Editar** ![](assets/edit-icon.png).
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
    >
    >Se você acabou de criar a tabela e ainda não adicionou nenhum campo, clique no botão Editar no centro da tabela.
 
-1. Clique em **Novo +** na parte superior do **Campos** no painel direito.
-1. Na nova página que é aberta, clique no link **Editar** ícone ![](assets/edit-icon.png) ao lado do nome do campo no canto superior esquerdo para alterar o nome do campo da fórmula.
-1. Arrastar **Funções** ou **Campos** no painel esquerdo, acesse o construtor de campos no centro para adicioná-los ao campo de fórmula.
+1. Clique em **Novo +** na parte superior da lista **Campos** no painel direito.
+1. Na nova página que é aberta, clique no ícone ![](assets/edit-icon.png) de **Editar** ao lado do nome do campo no canto superior esquerdo para alterar o nome do campo da fórmula.
+1. Arraste **Funções** ou **Campos** do painel esquerdo para o construtor de campos no centro para adicioná-los ao campo de fórmula.
 
 
    >[!TIP]
    >
-   >À medida que você cria o campo de fórmula, a variável **Visualização do campo** à direita, são exibidos exemplos do campo resultante.
+   >À medida que você cria o campo de fórmula, a **Visualização do campo** à direita exibe exemplos do campo resultante.
 
    Cada função contém um número de retângulos pontilhados vazios que serão usados como argumentos no cálculo de um resultado. Esses podem ser preenchidos inserindo texto ou números estáticos, arrastando e soltando um campo do painel esquerdo (usando o valor do campo no cálculo) ou arrastando e soltando outra função (criando uma função aninhada). As possíveis funções incluem:
 
@@ -67,4 +67,4 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
    {style="table-layout:auto"}
 
-1. Clique em **Voltar** seta no canto superior esquerdo da tela para retornar à tabela.
+1. Clique na seta **Voltar** no canto superior esquerdo da tela para retornar à tabela.

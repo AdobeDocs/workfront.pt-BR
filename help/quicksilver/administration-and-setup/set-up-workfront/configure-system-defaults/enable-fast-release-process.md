@@ -7,10 +7,11 @@ description: Você pode escolher se deseja receber a nova funcionalidade do Work
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
+source-wordcount: '376'
+ht-degree: 0%
 
 ---
 
@@ -34,11 +35,11 @@ Exemplo:
 
 Considere o seguinte ao ativar ou desativar o processo de lançamento rápido:
 
-* **Ativando** o processo de lançamento rápido, no meio de um trimestre, dá à sua organização acesso aos recursos e funcionalidades já lançados com o lançamento rápido.
+* **Habilitar** o processo de lançamento rápido no meio de um trimestre dá à sua organização acesso aos recursos e funcionalidades que já foram lançados para o lançamento rápido.
 
   Por exemplo, se o recurso A for lançado em agosto e o recurso B em setembro, qualquer organização que ative o processo de lançamento rápido em setembro terá acesso imediato aos recursos A e B.
 
-* **Desativando** o processo de lançamento rápido não entrará em vigor até a próxima versão trimestral.
+* **Desabilitar** o processo de lançamento rápido não terá efeito até a próxima versão trimestral.
 
   Por exemplo, se uma organização que ativou a versão rápida a desativar em agosto, ela ainda receberá os recursos da versão rápida em setembro, pois não migrará para a versão trimestral até que a próxima versão trimestral ocorra em outubro.
 
@@ -46,13 +47,13 @@ Considere o seguinte ao ativar ou desativar o processo de lançamento rápido:
 
 Para ativar ou desativar o processo de liberação rápida:
 
-1. Clique em **Ícone do menu principal** e, em seguida, clique em **Configuração**.
-1. Expandir **Sistema** no painel de navegação esquerdo, clique em **Preferências**.
-1. Para permitir lançamentos rápidos, marque a opção **Permitir processo de liberação rápido** caixa de seleção
+1. Clique no **ícone do Menu Principal** e em **Instalação**.
+1. Expanda **Sistema** na navegação à esquerda e clique em **Preferências**.
+1. Para habilitar lançamentos rápidos, marque a caixa de seleção **Permitir processo de lançamento rápido**.
 
    Ou
 
-   Para desativar versões rápidas e migrar para um ciclo de versões trimestrais, desmarque a opção **Permitir processo de liberação rápido** caixa de seleção
+   Para desabilitar versões rápidas e migrar para um ciclo de versões trimestrais, desmarque a caixa de seleção **Permitir processo de lançamento rápido**.
 
 1. Confirme sua escolha na janela pop-up.
 1. Clique em **Salvar**.

@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Criar atribuições avançadas
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Você pode gerenciar atribuições de tarefas ou problemas usando as Atribuições Avançadas.
 
@@ -34,7 +34,7 @@ Você pode ajustar as seguintes informações de atribuição ao fazer atribuiç
 
 >[!NOTE]
 >
->Ao atribuir usuários para trabalhar, sua disponibilidade de acordo com seus agendamentos afeta as Datas Planejadas e Projetadas de tarefas e problemas. Para obter informações sobre programações, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Ao atribuir usuários para trabalhar, sua disponibilidade de acordo com seus agendamentos afeta as Datas Planejadas e Projetadas de tarefas e problemas. Para obter informações sobre agendamentos, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Áreas do Adobe Workfront em que você pode fazer atribuições avançadas
 
@@ -45,7 +45,7 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
 * Em listas e relatórios quando o campo Atribuições é exibido na visualização.
 * Na seção Atribuições ao editar uma tarefa. Para obter mais informações, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * No cabeçalho da tarefa ou do problema, na área Atribuições.
-* No Balanceador de carga de trabalho. Para obter mais informações, consulte [Atribuir trabalho manualmente usando o Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+* No Balanceador de carga de trabalho. Para obter mais informações, consulte [Atribuir trabalho manualmente usando o Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Requisitos de acesso
 
@@ -71,25 +71,25 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou mais altas para uma tarefa ou problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superiores para uma tarefa ou problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Fazer atribuições avançadas
 
 1. Vá para o projeto ao qual deseja atribuir uma tarefa ou um problema.
-1. Clique em **Tarefas** ou **Problemas** no painel esquerdo, clique no nome de uma tarefa ou problema na lista.
+1. Clique em **Tarefas** ou **Problemas** no painel esquerdo e, em seguida, clique no nome de uma tarefa ou problema na lista.
 
    >[!TIP]
    >
-   >Você pode fazer atribuições avançadas diretamente na lista de tarefas ou problemas se houver duas ou mais pessoas atribuídas. Clique dentro do **Atribuições** na mesma linha da tarefa ou problema, em seguida, clique no botão **Ícone Pessoas** para abrir a janela atribuições avançadas. Vá para a etapa 5 para continuar criando atribuições avançadas.\
+   >Você pode fazer atribuições avançadas diretamente na lista de tarefas ou problemas se houver duas ou mais pessoas atribuídas. Clique dentro do campo **Atribuições** na mesma linha da tarefa ou problema e clique no **ícone Pessoas** para abrir a janela Atribuições Avançadas. Vá para a etapa 5 para continuar criando atribuições avançadas.\
    >![](assets/nwe-advanced-assignments-350x55.png)
    >
 
-1. Clique em **Atribuir a** no **Atribuições** no cabeçalho da tarefa ou problema
+1. Clique em **Atribuir a** no campo **Atribuições** no cabeçalho da tarefa ou problema
 
    Ou
 
@@ -100,16 +100,16 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    Imagem de amostra no ambiente de produção:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Clique em Avançado](assets/assignments-box-in-task-header.png)
 
-1. No **Pesquisar pessoas, funções e equipes** comece digitando o nome de um usuário, função ou equipe e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Pesquisar pessoas, funções e equipes**, comece digitando o nome de um usuário, função ou equipe e clique no nome quando ele aparecer na lista suspensa.
 
    >[!NOTE]
    >
    >Se o nome do usuário contiver um caractere especial, você deverá incluí-lo no campo de pesquisa.
 
-1. (Opcional) Continue adicionando responsáveis na **Pesquisar pessoas, funções ou equipes** para adicionar vários recursos à tarefa ou problema.
+1. (Opcional) Continue adicionando atribuídos na caixa **Pesquisar pessoas, funções ou equipes** para adicionar vários recursos à tarefa ou problema.
 
    >[!TIP]
    >
@@ -131,16 +131,16 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
     -->
 
-1. Para cada usuário na variável **Destinatário** especifique as seguintes informações:
+1. Para cada usuário na coluna **Destinatário**, especifique as seguintes informações:
 
 
-   * **Proprietário**: Passe o mouse sobre o nome do responsável e clique em **Tornar primário** no campo Proprietário se quiser marcar o designado como o proprietário da tarefa ou do problema. Uma caixa de seleção verde indica que o usuário especificado é o contato principal da tarefa ou problema. O Adobe Workfront marca o primeiro usuário ou função de trabalho atribuída a uma tarefa ou problema como Proprietário ou Atribuição principal. Uma equipe não pode ser designada como o Proprietário principal de uma tarefa ou problema.
+   * **Proprietário**: passe o mouse sobre o nome do destinatário e clique em **Tornar primário** no campo Proprietário se desejar marcar o destinatário como o proprietário da tarefa ou do problema. Uma caixa de seleção verde indica que o usuário especificado é o contato principal da tarefa ou problema. O Adobe Workfront marca o primeiro usuário ou função de trabalho atribuída a uma tarefa ou problema como Proprietário ou Atribuição principal. Uma equipe não pode ser designada como o Proprietário principal de uma tarefa ou problema.
 
      >[!IMPORTANT]
      >
      >Dependendo de como o administrador do Workfront ou o administrador de grupo configuram as preferências do projeto, a Workfront pode usar o agendamento do proprietário da tarefa para calcular a linha do tempo da tarefa quando vários usuários estão atribuídos a ela. Para obter informações sobre vários atribuídos de tarefa, consulte a seção &quot;Atribuir vários usuários a uma tarefa&quot; no artigo [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Alocações** : Quando o Tipo de duração de uma tarefa for Simples, especifique o número de horas que cada usuário ou função de trabalho deve ser atribuída à tarefa. A soma de todas as horas atribuídas para cada usuário é igual ao número no **Horas planejadas** na parte inferior da coluna Alocações. Em todos os outros casos, especifique a porcentagem de tempo (ou alocação) que você deseja que o destinatário passe resolvendo a tarefa ou problema.
+   * **Alocações**: quando o Tipo de Duração de uma tarefa for Simples, especifique o número de horas que cada usuário ou função de trabalho deve ser atribuída à tarefa. A soma de todas as horas atribuídas para cada usuário é igual ao número no campo **Horas planejadas**, na parte inferior da coluna Alocações. Em todos os outros casos, especifique a porcentagem de tempo (ou alocação) que você deseja que o destinatário passe resolvendo a tarefa ou problema.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
@@ -151,19 +151,19 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
      >
      >   
      >   
-     >   * Depois de modificar manualmente as alocações de atribuição em tarefas, as Horas Planejadas das tarefas podem ser atualizadas de acordo. Para obter mais informações, consulte a seção &quot;Atualizar horas planejadas da tarefa ao gerenciar alocações de usuários&quot; no artigo [Visão geral das Horas planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * Depois de modificar manualmente as alocações de atribuição em tarefas, as Horas Planejadas das tarefas podem ser atualizadas de acordo. Para obter mais informações, consulte a seção &quot;Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário&quot; no artigo [visão geral sobre horas planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Não é possível modificar manualmente as alocações de atribuição em ocorrências.
      >   * Não é possível modificar manualmente as alocações de equipes atribuídas a tarefas.
      >   
      >
 
-   * **Função do destinatário:** Selecione a função que o usuário deve usar ao realizar esta atribuição.  A Função principal do usuário é exibida por padrão. Clique na caixa Função do responsável para selecionar outra função.  Ao atribuir a tarefa ou o problema a uma função primeiro e, em seguida, adicionar um usuário que pode desempenhar essa função como uma segunda atribuição, a lista de usuários sugeridos é filtrada para os usuários que podem desempenhar as funções já atribuídas à tarefa e ao problema.
+   * **Função do destinatário:** selecione a função que o usuário deve usar ao realizar esta atribuição.  A Função principal do usuário é exibida por padrão. Clique na caixa Função do responsável para selecionar outra função.  Ao atribuir a tarefa ou o problema a uma função primeiro e, em seguida, adicionar um usuário que pode desempenhar essa função como uma segunda atribuição, a lista de usuários sugeridos é filtrada para os usuários que podem desempenhar as funções já atribuídas à tarefa e ao problema.
 
      Imagem de amostra no ambiente de produção:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-     <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
-     ![Função do atribuidor](assets/advanced-assignments-select-role.png)
+     <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+     ![Função do destinatário](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
 
@@ -173,13 +173,13 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    </div>-->
 
-   * **Tipo de Duração**: disponível somente para tarefas. Clique no nome do Tipo de duração e selecione um Tipo de duração no menu suspenso. Para obter informações sobre Tipos de duração, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Tipo de Duração**: somente disponível para tarefas. Clique no nome do Tipo de duração e selecione um Tipo de duração no menu suspenso. Para obter informações sobre Tipos de Duração, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-   * **Duração:** É possível atualizar esse campo para uma tarefa quando você tem permissões para gerenciar a tarefa.
+   * **Duração:** é possível atualizar este campo para uma tarefa quando você tem permissões para Gerenciar a tarefa.
 
-     Para obter mais informações, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Ao editar informações de atribuição em massa, uma caixa de diálogo semelhante é exibida para atribuir usuários, horas, alocação e proprietário da tarefa.
+     Para obter mais informações, consulte [Visão geral da duração e do tipo de duração da tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Ao editar informações de atribuição em massa, uma caixa de diálogo semelhante é exibida para atribuir usuários, horas, alocação e proprietário da tarefa.
 
-   * **Horas planejadas**: Quando o Tipo de duração for Atribuição calculada ou Simples, atualize o número de Horas planejadas. Como resultado, as porcentagens de alocação ou as horas de cada recurso são distribuídas uniformemente. O Workfront calcula as horas planejadas quando o tipo de duração é Trabalho calculado ou orientado pelo esforço. Para obter mais informações, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Horas planejadas**: quando o tipo de duração for Atribuição calculada ou Simples, atualize o número de Horas planejadas. Como resultado, as porcentagens de alocação ou as horas de cada recurso são distribuídas uniformemente. O Workfront calcula as horas planejadas quando o tipo de duração é Trabalho calculado ou orientado pelo esforço. Para obter mais informações, consulte [Visão geral da duração e do tipo de duração da tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Imagem de amostra no ambiente de produção:
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)

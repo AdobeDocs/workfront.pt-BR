@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Usar notificações: índice do artigo
 
-[!DNL Adobe Workfront] O envia notificações por email, no aplicativo e por dispositivos móveis para alertá-lo sobre atividades no [!DNL Workfront].
+O [!DNL Adobe Workfront] envia notificações por email, no aplicativo e por dispositivos móveis para alertá-lo sobre a atividade no [!DNL Workfront].
 
 <!-- Audited: 01/2024 -->
 
@@ -24,7 +24,7 @@ Esta seção contém os seguintes artigos:
 
 * [[!DNL Adobe Workfront] notificações](../../workfront-basics/using-notifications/wf-notifications.md)
 * [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-* [Inscrever-se em itens no [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [Assinar itens em  [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [Visão geral das notificações no aplicativo](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * [Ativar a entrega de emails do ambiente Visualização da sandbox](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento da versão 22.2. Essas melhorias serão disponibilizadas no ambiente de Produção no mínimo 2 semanas após o lançamento para Pré-visualização.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte a [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Página de aprovações atualizada
 
@@ -35,7 +35,7 @@ As páginas de Aprovação nas seguintes áreas agora têm uma aparência modern
 
 >[!NOTE]
 >
-Versão de pré-visualização: 24 de fevereiro de 2022; Versão de produção estimada: implantação em fases a partir de 9 de março, com disponibilidade para todos os clientes até 18 de março de 2022.
+>Versão de pré-visualização: 24 de fevereiro de 2022; Versão de produção estimada: implantação em fases a partir de 9 de março, com disponibilidade para todos os clientes até 18 de março de 2022.
 
 Melhoramos o desempenho da área de documentos no Workfront. A página Documentos agora carrega significativamente mais rápido.
 
@@ -55,7 +55,7 @@ As barras de ferramentas nas listas e relatórios a seguir agora têm uma aparê
 
 >[!NOTE]
 >
-A barra de ferramentas desses mesmos relatórios nos painéis também foi atualizada na Produção com o semanal [Atualização de manutenção](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) em 3 de março de 2022.
+>A barra de ferramentas desses mesmos relatórios nos painéis também foi atualizada na Produção com a [Atualização de manutenção](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) semanal em 3 de março de 2022.
 
 * Relatórios de projeto
 * Relatórios de tarefa

@@ -46,7 +46,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -56,7 +56,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -101,14 +101,14 @@ Leve em consideração o seguinte ao atualizar o progresso das metas:
 
    * Para obter informações sobre como adicionar atividades às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
    * Para obter informações sobre como adicionar resultados às metas, consulte [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Para obter informações sobre como o Workfront Goals calcula o progresso de uma meta, consulte [Visão geral do progresso e da condição da meta no Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Para obter informações sobre como o Workfront Goals calcula o progresso em uma meta, consulte [Visão geral do progresso e da condição da meta no Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * Você deve criar metas e ativá-las antes de atualizar o progresso delas.
 
   Consulte também os seguintes artigos:
 
-   * Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
-   * Para obter informações sobre a ativação de metas, consulte a [Ativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+   * Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+   * Para obter informações sobre como ativar metas, consulte [Ativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
@@ -245,7 +245,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Para atualizar o progresso das metas:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+1. Clique no ícone ![](assets/main-menu-icon.png) > **Metas** do **Menu Principal** no canto superior direito.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -268,7 +268,7 @@ Para atualizar o progresso das metas:
    >    Por sua vez, o progresso das metas secundárias e o progresso dos projetos impulsionam o progresso da meta selecionada.
 
 
-1. Para atualizar o progresso de um resultado ou atividade, clique no valor dentro do **Progresso real** do resultado ou da atividade, digite um número para atualizar seu valor e pressione Enter.
+1. Para atualizar o progresso de um resultado ou atividade, clique no valor dentro da coluna **Progresso Real** do resultado ou atividade, digite um número para atualizar seu valor e pressione Enter.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

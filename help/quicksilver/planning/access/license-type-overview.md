@@ -36,7 +36,7 @@ Conceder permissões de usuário a um espaço de trabalho também concede a eles
 | Tipo de licença da Adobe Workfront* | Permissões mais altas permitidas no Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novo: Padrão <br> ou <br>Atual: Plano | Os usuários podem gerenciar espaços de trabalho. Eles podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros e campos. <br> Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram. |
-| Novo: Light, Colaborador <br> ou <br>Atual: Trabalho, Solicitante, Revisor | Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro, registros e campos desses espaços de trabalho. <br> Os usuários não podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros ou campos. |
+| Novo: Claro, Colaborador <br> ou <br>Atual: Trabalho, Solicitante, Revisor | Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro, registros e campos desses espaços de trabalho. <br> Usuários não podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros ou campos. |
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 

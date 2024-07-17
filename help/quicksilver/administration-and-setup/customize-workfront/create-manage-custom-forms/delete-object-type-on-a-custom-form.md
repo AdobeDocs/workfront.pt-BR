@@ -63,11 +63,11 @@ Um formulário personalizado deve ter pelo menos um tipo de objeto.
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms personalizado** no painel esquerdo.
+1. Clique em **Forms Personalizado** no painel esquerdo.
 1. Selecione o formulário personalizado que deseja editar e clique em ![Ícone Editar](assets/edit-icon.png).
-1. Clique no X em qualquer uma das **Tipos de objeto** que deseja excluir do formulário e, em seguida, clique em **Excluir** na mensagem de aviso que é exibida.
+1. Clique no X em qualquer um dos **Tipos de objeto** que deseja excluir do formulário e clique em **Excluir** na mensagem de aviso exibida.
 
    ![](assets/click-x-object-types.jpg)
 
 1. (Opcional) Repita a etapa anterior para qualquer outro tipo de objeto que você deseja remover do formulário.
-1. Clique em **Concluído** e, em seguida, clique em **Salvar e fechar**.
+1. Clique em **Concluído** e em **Salvar e fechar**.

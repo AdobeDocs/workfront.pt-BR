@@ -30,15 +30,15 @@ Anteriormente chamado de Maestro do Projeto, o Planejamento da Workfront é um n
 
 O módulo de planejamento do Workfront é um dos três recursos distintos, mas conectados, do Workfront que, juntos, criam um sistema de marketing de registro. Os três recursos são:
 
-* **Planejamento**: os novos recursos avançados incluídos no Workfront Planning.
+* **Planning**: os novos recursos avançados incluídos no Workfront Planning.
 
-* **Fluxo de trabalho**: os recursos de gerenciamento de trabalho colaborativo que você usa atualmente no Workfront (gerenciamento de projetos, gerenciamento de recursos etc.)
+* **Fluxo de trabalho**: os recursos de gerenciamento de trabalho colaborativo que você usa atualmente na Workfront (gerenciamento de projetos, gerenciamento de recursos etc.)
 
 * **Automação e integração**: os recursos abrangentes de integração e automação fornecidos pelo Workfront Fusion.
 
 ## Quando o Workfront Planning será lançado?
 
-A versão mais recente do Workfront Planning para disponibilidade geral está planejada para 28 de agosto de 2024. Para obter informações atualizadas sobre quais recursos estão sendo lançados no momento, consulte [Atividade da versão atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+A versão mais recente do Workfront Planning para disponibilidade geral está planejada para 28 de agosto de 2024. Para obter informações atualizadas sobre quais recursos estão sendo lançados no momento, consulte [Atividade de lançamento atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 ## O que acontece depois que o estágio inicial do Workfront Planning é concluído?
 
@@ -175,7 +175,7 @@ Public views that are shared are visible  -->
 
 ## Como você compartilha uma visão internamente?
 
-Para obter informações sobre o compartilhamento de exibições, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
+Para obter informações sobre como compartilhar exibições, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
 
 ## Toda vez que você cria um espaço de trabalho, precisa compartilhar visualizações novamente?
 

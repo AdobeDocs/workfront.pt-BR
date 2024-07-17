@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Administrador feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte [21.4 Visão geral da versão](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte a [Visão geral da versão 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Para administradores: veja quais grupos estão associados a um processo de aprovação
 
@@ -25,7 +25,7 @@ Para ajudar você a descobrir quais grupos estão associados aos processos de ap
 
 Para obter informações sobre processos de aprovação, consulte [Visão geral do processo de aprovação](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-Para obter informações sobre o gerenciamento de processos de aprovação de grupo, consulte [Processos de aprovação de nível de grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Para obter informações sobre como gerenciar processos de aprovação de grupo, consulte [Processos de aprovação de nível de grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 ## Novo para administradores: os grupos podem configurar suas próprias preferências de folha de horas e horas
 
@@ -37,27 +37,27 @@ Em uma organização grande, alguns grupos podem precisar configurar preferênci
 
 Essa capacidade também foi adicionada recentemente para preferências de projeto e para preferências de tarefas e problemas.
 
-Para obter informações sobre como um administrador do Workfront desbloqueia uma folha de horas e uma preferência de horas, consulte a seção [Desbloquear preferências de horas e planilhas de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) no artigo [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obter informações sobre como um administrador do Workfront desbloqueia uma folha de horas e uma preferência de horas, consulte a seção [Desbloquear preferências de folha de horas e horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) no artigo [Configurar preferências de folha de horas e horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Para obter informações sobre como um administrador de grupo configura preferências de tarefas e problemas desbloqueadas para um grupo, consulte [Configurar preferências de horas e planilha de horas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Para obter informações sobre como um administrador de grupo configura preferências desbloqueadas de tarefas e problemas para um grupo, consulte [Configurar preferências de horas e folha de horas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Novo para administradores do Workfront: configurar modelos de layout para usuários provisionados automaticamente na nova experiência do Workfront
 
 Agora você pode configurar modelos de layout na nova experiência do Workfront para usuários provisionados automaticamente. No menu suspenso Atributo do usuário do Workfront, onde você mapeia atributos do usuário (Configurar > Sistema > Logon único), um novo item de menu &quot;Novo modelo de layout&quot; agora está disponível para fazer essa configuração. Anteriormente, você podia configurar modelos de layout para usuários provisionados automaticamente somente no Workfront Classic.
 
-Para obter instruções sobre como mapear atributos de usuário, consulte [Mapear atributos do usuário e provisionar automaticamente novos usuários](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Para obter instruções sobre como mapear atributos de usuário, consulte [Mapear atributos de usuário e provisionar automaticamente novos usuários](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## O novo campo exibe os grupos aos quais seus usuários pertencem
 
 Agora é fácil descobrir a quais grupos seus usuários pertencem. Em um relatório ou exibição que lista usuários, é possível criar uma coluna usando o novo campo Outros Grupos. Este campo lista os grupos dos quais cada usuário é membro.
 
-Para obter informações sobre o uso de relatórios e visualizações, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) e [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obter informações sobre como usar relatórios e exibições, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) e [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## A página de detalhes de blueprints agora exibe uma imagem
 
 A página de detalhes de cada blueprint agora exibe uma imagem do modelo de projeto que é instalado com o blueprint. A imagem fornece uma pré-visualização do conteúdo do blueprint para que você saiba o que está prestes a instalar. Como opção, é possível visualizar a imagem completa no navegador ou baixá-la.
 
-Para obter mais informações, consulte [Visão geral de blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
+Para obter mais informações, consulte [Visão geral dos blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ![](assets/blueprint-detailspage.png)
 
@@ -102,13 +102,13 @@ Anteriormente, os modelos de projeto e as tarefas do modelo de projeto herdavam 
 
 Se você criar um modelo ou uma tarefa de modelo sem um grupo, por exemplo, na página Modelos principal, as configurações acima serão herdadas das preferências de projeto e tarefa no nível do sistema. No entanto, se posteriormente você atribuir um grupo ao modelo ou à tarefa de modelo, as preferências do grupo não a afetarão.
 
-Para obter mais informações, consulte a seção Como as preferências se aplicam a modelos e tarefas de modelo no artigo [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Para obter mais informações, consulte a seção Como as preferências se aplicam a modelos e tarefas de modelo no artigo [Criar e modificar modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 ## Novo para administradores: Descubra quais formulários personalizados estão usando um campo personalizado
 
 Agora é mais fácil alterar um campo personalizado em um formulário personalizado. Com um único clique no formulário personalizado, você pode descobrir sobre outros formulários personalizados que também estão usando o campo. É importante avaliar se esses formulários precisarão de ajustes para continuar funcionando corretamente depois de fazer a alteração.
 
-Para obter mais informações, consulte [Exibir todos os formulários personalizados que usam um campo ou widget personalizado específico](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
+Para obter mais informações, consulte [Exibir todos os formulários personalizados que usam determinado campo ou widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
 ## Novo para administradores de grupo: Bloquear e desbloquear preferências de projetos, tarefas e problemas para um grupo
 
@@ -118,11 +118,11 @@ Agora você pode garantir que todos nos subgrupos abaixo do seu grupo estejam us
 
   Por outro lado, você pode desbloquear uma preferência para o seu grupo. Isso permite que administradores de subgrupo a configurem para as necessidades exclusivas de fluxo de trabalho de projetos, tarefas ou problemas de seus usuários.
 
-  Para obter mais informações, consulte [Preferência Bloquear ou desbloquear um projeto, tarefa ou problema para subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  Para obter mais informações, consulte [Bloquear ou desbloquear uma preferência de projeto, tarefa ou problema para subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 * Se você for um administrador do Workfront, não será necessário acessar a área Grupos para configurar as preferências de um subgrupo. Na área principal Preferências do projeto, Preferências de tarefas e problemas ou Folhas de horas e preferências de horas, você pode usar a caixa de pesquisa na parte superior da página para localizar o subgrupo e configurar suas preferências.
 
-  Para obter mais informações, consulte [Configurar as preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Para obter mais informações, consulte [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Novo para administradores de grupo: crie e edite modelos na área Grupos
 
@@ -132,7 +132,7 @@ Agora você pode garantir que todos nos subgrupos abaixo do seu grupo estejam us
 
 Continuamos a facilitar o gerenciamento de grupos e de seus objetos associados em um único local. Agora você pode visualizar e trabalhar com os modelos de um grupo na área Grupos em Configuração. Isso evita que você precise ir para a área Modelos para gerenciar os modelos de um grupo. E mantém a lista de modelos de grupo em que você está trabalhando separada das outras pessoas no sistema.
 
-Para obter mais informações, consulte [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Para obter mais informações, consulte [Criar e modificar modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 ## Inserir e salvar informações em um formulário personalizado anexado de cada vez
 
@@ -180,4 +180,4 @@ Adicionamos uma nova opção ao processo de associação de um modelo a um grupo
 
 Na versão 21.3, quando adicionamos a capacidade de associar um modelo de grupo a um grupo, você podia selecionar um processo de aprovação específico do grupo no modelo, mas não podia fazê-lo nos Detalhes da fila ou Tópicos da fila do modelo.
 
-Para obter mais informações, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Para obter mais informações, consulte [Associar um processo de aprovação novo ou existente a um trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

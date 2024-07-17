@@ -19,7 +19,7 @@ Você pode adicionar programas existentes a um portfólio. Como os programas n�
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,32 +31,32 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso à [!UICONTROL Editar] para Portfolio e Programas </p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Editar] acesso a Portfolio e Programas </p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do [!UICONTROL Manager] para o portfólio e o programa</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do [!UICONTROL Manage] para o portfólio e o programa</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Adicionar um programa existente a um portfólio
 
-1. Vá para um portfólio e clique em **[!UICONTROL Programas]** no painel esquerdo.
+1. Vá para um portfólio e clique em **[!UICONTROL Programas]** no painel esquerdo.
 1. Clique em **[!UICONTROL Adicionar programa]**.
-1. Clique em **[!UICONTROL Programa existente]**.
+1. Clique em **[!UICONTROL Programa Existente]**.
 
    >[!IMPORTANT]
    >
-   >A adição de um programa existente leva todos os projetos associados a esse programa ao portfólio. Tenha cuidado para não mover projetos involuntariamente dessa maneira.
+   >A adição de um programa existente transporta todos os projetos associados a esse programa para o portfólio. Tenha cuidado para não mover projetos involuntariamente dessa maneira.
 
-1. No **[!UICONTROL Adicionar programas]** digite e selecione o nome de um programa.
-1. (Opcional) Para adicionar programas adicionais, digite e selecione o nome de um programa.
+1. Na caixa de diálogo **[!UICONTROL Adicionar Programas]**, digite e selecione o nome de um programa.
+1. (Opcional) Para adicionar outros programas, digite e selecione o nome de um programa.
 1. Clique em **[!UICONTROL Adicionar programas]**.\
-   O programa aparece no **[!UICONTROL Programas]** no portfólio selecionado.
+   O programa aparece na guia **[!UICONTROL Programas]** no portfólio selecionado.

@@ -21,10 +21,10 @@ ht-degree: 0%
 
 Você pode agendar relatórios para que sejam entregues automaticamente aos usuários em um agendamento definido ou pode enviar relatórios de uma só vez, manualmente. Ao enviar um relatório do Adobe Workfront, o usuário recebe um email com o relatório do Workfront em um anexo separado.
 
-Para obter informações sobre como configurar um relatório para entrega, consulte o artigo [Programar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Para obter informações sobre como configurar um relatório para entrega, consulte o artigo [Agendar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-Não é possível agendar relatórios para entrega nem entregá-los manualmente no ambiente Visualização da sandbox. Para obter mais informações sobre a Visualização da sandbox, consulte o artigo [O ambiente de sandbox de visualização do Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-Para obter mais informações sobre como fornecer relatórios no ambiente Visualização da sandbox, consulte o artigo [Enviar um relatório no ambiente Visualização da sandbox](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+Não é possível agendar relatórios para entrega nem entregá-los manualmente no ambiente Visualização da sandbox. Para obter mais informações sobre a Visualização da sandbox, consulte o artigo [O Ambiente de Visualização da sandbox da Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
+Para obter mais informações sobre a entrega de relatórios no ambiente Visualização da sandbox, consulte o artigo [Enviar um relatório no ambiente Visualização da sandbox](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
 ## Limites de entrega de relatório
 
@@ -41,17 +41,17 @@ Considere o seguinte ao agendar relatórios para entrega:
 
 Há vários limites de tamanho que afetam como os relatórios são exibidos no Workfront e como são exportados por meio de uma exportação manual, um relatório entregue ou pela API:
 
-* **Tamanho do arquivo de 5 MB:** Limite de tamanho de arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
+* **Tamanho do arquivo de 5 MB:** Limite do tamanho do arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
 
   >[!NOTE]
   >
-  >Arquivos .xlsx do Excel com mais de 5 MB não geram um email. É possível exportar manualmente o relatório para esse formato. Para obter informações sobre a exportação de relatórios, consulte [Exportar dados](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Arquivos .xlsx do Excel com mais de 5 MB não geram um email. É possível exportar manualmente o relatório para esse formato. Para obter informações sobre como exportar relatórios, consulte [Exportar dados](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-* **50.000 linhas:** O número de linhas de dados permitidas em uma exportação de relatório para arquivos .pdf e Delimitados por tabulação.
+* **50.000 linhas:** o número de linhas de dados permitidas em uma exportação de relatório para arquivos .pdf e Delimitados por tabulação.
 
-  Para arquivos .xls do Excel, esse limite é **65.000 linhas**.
+  Para arquivos .xls do Excel, esse limite é de **65.000 linhas**.
 
-  Para arquivos .xlsx do Excel, esse limite é **100.000 linhas**.
+  Para arquivos .xlsx do Excel, esse limite é de **100.000 linhas**.
 
   Esses limites excluem os cabeçalhos da coluna, bem como linhas para agrupamentos no relatório. Por exemplo, se você tiver seis agrupamentos em um relatório e 50.000 linhas de dados, o arquivo exportado terá 50.000 linhas.
 
@@ -64,7 +64,7 @@ Há vários limites de tamanho que afetam como os relatórios são exibidos no W
    * Uma exportação por meio de uma integração de API.
    * Dados exportados por meio de um início.
 
-     Para obter mais informações sobre como exportar dados por meio de kick-starts, consulte o artigo [Exportar dados do Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Para obter mais informações sobre como exportar dados por meio de inicializações, consulte o artigo [Exportar dados do Adobe Workfront por meio de inicializações](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
@@ -72,9 +72,9 @@ Há vários limites de tamanho que afetam como os relatórios são exibidos no W
 
    * Exportando informações de utilização de um projeto.
 
-     Para obter mais informações sobre a exportação de informações de utilização de um projeto, consulte [Visão Geral do relatório de Utilização de Recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     Para obter mais informações sobre como exportar informações de utilização de um projeto, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* **65.530 hiperlinks:** Esse é um limite imposto pelo Excel a documentos que contêm mais de 65.530 hiperlinks. Esses documentos não podem ser abertos quando são exportados manualmente ou enviados em um relatório entregue. Observe que um documento do Excel pode ter apenas 200 linhas de dados, mas se houver mais de 65.530 links dentro do documento, ele não abrirá. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis.
+* **65.530 hiperlinks:** esse é um limite imposto pelo Excel a documentos que contêm mais de 65.530 hiperlinks. Esses documentos não podem ser abertos quando são exportados manualmente ou enviados em um relatório entregue. Observe que um documento do Excel pode ter apenas 200 linhas de dados, mas se houver mais de 65.530 links dentro do documento, ele não abrirá. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis.
 * **256 colunas**: esse é um limite imposto pelo Excel a documentos que contêm mais de 256 colunas. Esses documentos não podem ser exportados manualmente ou enviados em um relatório entregue. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis.
 
 Se você tentar exportar dados além do limite, talvez não receba todos os dados esperados na exportação. Em vez disso, um relatório modificado é produzido dentro do limite.
@@ -95,7 +95,7 @@ Considere o seguinte:
 
 * Ao visualizar um relatório no navegador, o carimbo de data e hora e o formato no relatório correspondem à localidade e ao fuso horário do seu navegador, conforme definido nas configurações do seu navegador.
 * Quando o relatório é entregue em um email, ele é entregue com o carimbo de data e hora e o formato que corresponde à localidade do usuário e ao fuso horário conforme especificados no perfil do Workfront.\
-  Para obter mais informações sobre a localidade do usuário e o fuso horário no Workfront, consulte o artigo [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obter mais informações sobre a Localidade e o Fuso Horário do Usuário no Workfront, consulte o artigo [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Relatórios com uma exibição especial {#reports-with-a-special-view}
 
@@ -120,16 +120,16 @@ Para obter mais informações sobre como aplicar uma exibição especial a um re
 Ao enviar um relatório do Workfront, o usuário recebe um email com o relatório em um anexo separado.
 
 * [Linha de assunto, nome do anexo e título do relatório](#subject-line-attachment-name-and-report-title)
-* [Carimbos de data e hora](#timestamps)
-* [Marcas](#branding)
+* [Carimbos de data/hora](#timestamps)
+* [Identidade visual](#branding)
 * [Formatação](#formatting)
 * [Links](#links)
 
 ### Linha de assunto, nome do anexo e título do relatório {#subject-line-attachment-name-and-report-title}
 
-Para obter mais informações sobre a linha de assunto do email do relatório entregue, consulte [Programar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Para obter mais informações sobre a linha de assunto do email de relatório entregue, consulte [Agendar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-O nome do relatório anexado é: *The_Name_Of_The_Report* seguido pelo formato de arquivo exportado.
+O nome do relatório anexado é: *The_Name_Of_The_Report* seguido do formato de arquivo exportado.
 
 Se você agendar o relatório entregue para ser formatado como um arquivo PDF ou HTML, o título do relatório será:
 
@@ -157,7 +157,7 @@ Se o administrador do Workfront tiver adicionado a marca personalizada à instâ
 
 Relatórios enviados em todos os outros formatos não podem ser personalizados com seu logotipo.
 
-Para obter mais informações sobre como marcar sua instância do Workfront, consulte o artigo [Marque sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Para obter mais informações sobre como marcar sua instância do Workfront, consulte o artigo [Marcar sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Formatação {#formatting}
 
@@ -168,7 +168,7 @@ Se o relatório tiver formatação especial no aplicativo web, ele deverá ser e
 O filtro, a visualização ou o agrupamento do relatório não estão incluídos no arquivo entregue. A descrição do relatório é incluída somente quando você envia o relatório como um arquivo PDF.
 
 Para obter mais informações sobre como receber relatórios com uma exibição especial, consulte o artigo [Relatórios com uma exibição especial](#reports-with-a-special-view).\
-Para obter mais informações sobre a seleção da guia padrão de um relatório e sobre formatação especial, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obter mais informações sobre como selecionar a guia padrão de um relatório e sobre formatação especial, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Links {#links}
 
@@ -180,15 +180,15 @@ O nome do relatório na mensagem de email também é um link.
 
 Você pode ver se um relatório foi configurado para ser entregue criando o seguinte:
 
-* **Uma Visão** para o objeto Relatório em uma lista ou um relatório para relatórios: crie uma exibição em uma lista de relatórios ou em um relatório para relatórios e adicione a seguinte coluna à exibição:\
+* **Uma Exibição** do objeto Relatório em uma lista ou um relatório para relatórios: Crie uma exibição em uma lista de relatórios ou em um relatório para relatórios e adicione a seguinte coluna à exibição:\
   *Nome do relatório agendado.\
   *Os nomes de todos os deliveries agendados para esse relatório estão listados na coluna em uma lista com marcadores.\
   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **Um Filtro** para o objeto Relatório: crie um filtro em uma lista de relatórios ou em um relatório sobre relatórios com a seguinte instrução: *A ID do relatório agendado não está em branco*.\
+* **Um Filtro** para o objeto de Relatório: Crie um filtro em uma lista de relatórios ou em um relatório sobre relatórios com a seguinte instrução: *A ID do Relatório Agendado não está em branco*.\
   Isso exibirá somente os relatórios que foram agendados na lista ou no relatório.\
   ![](assets/qs-scheduled-report-filter-350x101.png)\
-  Para obter mais informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obter informações sobre como criar um relatório sobre relatórios, consulte [Criar um relatório sobre atividades de relatório](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obter informações sobre como criar um relatório sobre relatórios, consulte [Criar um relatório sobre atividades de relatórios](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

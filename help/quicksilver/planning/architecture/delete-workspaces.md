@@ -68,14 +68,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -102,10 +102,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    A página Workspace é exibida.
 
-1. Clique em **Mais** menu ![](assets/more-menu.png) ao lado do nome do espaço de trabalho, clique em **Excluir**.
+1. Clique no menu **Mais** ![](assets/more-menu.png) ao lado do nome do espaço de trabalho e clique em **Excluir**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Tipo &quot;**excluir**&quot; no espaço fornecido e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
+1. Digite &quot;**delete**&quot; no espaço fornecido e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 
    O espaço de trabalho foi excluído e não pode ser recuperado. Quaisquer tipos de registro, registros, campos e exibições associados a eles também são excluídos. <!--ensure this is right at or before GA-->

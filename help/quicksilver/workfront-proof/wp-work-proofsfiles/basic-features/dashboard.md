@@ -3,29 +3,29 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
-title: O painel em [!DNL Workfront Proof]
-description: O Painel é a primeira página que você vê ao fazer logon em sua [!DNL Workfront Proof] conta. Ele resume a atividade no [!DNL Workfront Proof] e fornece links rápidos para outras seções e funções da [!DNL Workfront Proof].
+title: O Painel em  [!DNL Workfront Proof]
+description: O Painel é a primeira página que você vê ao fazer logon em sua conta  [!DNL Workfront Proof] . Ele resume a atividade na sua conta do  [!DNL Workfront Proof]  e fornece links rápidos para outras seções e funções no  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 2%
+source-wordcount: '973'
+ht-degree: 3%
 
 ---
 
-# O painel em [!DNL Workfront Proof]
+# O Painel em [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro de [!DNL Adobe Workfront], consulte [Tofing](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-O Painel é a primeira página que você vê ao fazer logon em sua [!DNL Workfront Proof] conta. Ele resume a atividade no [!DNL Workfront Proof] e fornece links rápidos para outras seções e funções da [!DNL Workfront Proof].
+O Painel é a primeira página que você vê ao fazer logon na sua conta do [!DNL Workfront Proof]. Ele resume a atividade na sua conta do [!DNL Workfront Proof] e fornece links rápidos para outras seções e funções no [!DNL Workfront Proof].
 
 O painel contém o seguinte:
 
-* Logotipo da organização (1)
+* Logótipo da organização (1)
 * Navegação superior (2)
 * Pesquisa (3)
 
@@ -43,17 +43,17 @@ O painel contém o seguinte:
 
 ![](assets/dashboard-350x495.png)
 
-Você pode criar uma marca em sua conta para mostrar o logotipo, as cores, os links personalizados de sua própria organização e muito mais. Para obter mais informações, consulte [Marca [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
+Você pode marcar sua conta para mostrar o logotipo, as cores, os links personalizados e muito mais da sua própria organização. Para obter mais informações, consulte [Marcar o [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
 
-Se você não marca sua conta, a variável [!DNL Workfront Proof] são exibidas cores padrão e logotipo.
+Se você não marcar sua conta, o logotipo do [!DNL Workfront Proof] e as cores padrão aparecerão.
 
-## Menu Cabeçalho
+## Menu de cabeçalho
 
 ![](assets/header-menu-350x150.png)
 
 ### O nome de usuário
 
-O nome de usuário (2) escolhido será exibido aqui. Pode ser alterado nas configurações Pessoais.
+O nome de usuário (2) escolhido aparecerá aqui. Ele pode ser alterado em Configurações pessoais.
 
 ### Configurações
 
@@ -65,22 +65,22 @@ Aqui (3) você pode acessar seu:
 
 >[!NOTE]
 >
->A visibilidade dos menus acima depende do seu perfil. Consulte Perfis de usuário e permissões para obter mais informações.
+>A visibilidade dos menus acima depende do seu perfil. Consulte Perfis e permissões de usuário para obter mais informações.
 
 ### Ajuda
 
 Aqui (4) você pode acessar:
 
-* Artigos da Ajuda
+* Artigos de ajuda
 * Filmes de demonstração
 
 >[!NOTE]
 >
->Com nossos planos Select e Premium, você pode configurar as opções de Ajuda para apontar seus usuários para o seu próprio conteúdo. Consulte nossas Opções avançadas de marca para obter mais detalhes.
+>Com nossos planos Select e Premium, você pode configurar as opções da Ajuda para direcionar seus usuários para o seu próprio conteúdo. Consulte as Opções avançadas de marca para obter mais detalhes.
 
 ### Sair
 
-Clique aqui para sair de sua conta.
+Clique aqui para fazer logoff da sua conta.
 
 ## O novo menu
 
@@ -88,10 +88,10 @@ Para abrir o menu Novo,
 
 1. Clique na seta suspensa (7).
 
-   O **[!UICONTROL Novo]** tem as seguintes opções:
+   O menu **[!UICONTROL Novo]** tem as seguintes opções:
 
    * Nova prova (8)
-   * Upload do arquivo (9)
+   * Carregar arquivo (9)
    * Nova pasta (10)
    * Novo convidado (11)
    * Novo usuário (12)
@@ -101,7 +101,7 @@ Para abrir o menu Novo,
 
 ## O menu Painel
 
-O menu Painel contém os seguintes menus:
+O menu Dashboard contém os seguintes menus:
 
 * Editar tags
 * Mover para
@@ -110,11 +110,11 @@ O menu Painel contém os seguintes menus:
 
 ## Editar tags
 
-O [!UICONTROL Editar tags] O menu (1) permite:
+O menu (1) [!UICONTROL Editar tags] permite:
 
-* Aplicar uma tag a um item ou itens
+* Aplicar uma tag a um ou mais itens
 * Criar novas tags
-* Gerenciar tags (2)
+* Gestão de tags (2)
 
 ![](assets/edit-tags-350x204.png)
 
@@ -122,15 +122,15 @@ O [!UICONTROL Editar tags] O menu (1) permite:
 
 Essa função permite mover provas e arquivos para uma de suas pastas. Para fazer isso:
 
-1. Selecione a caixa de verificação para o(s) item(ns) relevante(s).
+1. Marque a caixa de seleção do(s) item(ns) relevante(s).
 1. Clique em **[!UICONTROL Mover para]** (3) e escolha a pasta relevante (4).
-1. Clique em **[!UICONTROL Salvar]** 5.
+1. Clique em **[!UICONTROL Salvar]** (5).
 
    ![](assets/move-to-350x297.png)
 
 ### Mais ações
 
-No [!UICONTROL Mais ações] (6) você pode executar as seguintes ações:
+No menu [!UICONTROL Mais ações] (6), você pode executar as seguintes ações:
 
 * Bloquear (somente provas)
 * Ativar
@@ -144,11 +144,11 @@ No [!UICONTROL Mais ações] (6) você pode executar as seguintes ações:
 
 Para excluir itens:
 
-1. Selecione a caixa de verificação à esquerda dos itens e clique em **[!UICONTROL Excluir]** (7)
+1. Marque a caixa de seleção à esquerda do(s) item(ns) e clique em **[!UICONTROL Excluir]** (7).
 
 ![](assets/delete-350x109.png)
 
-1. Na tela de confirmação exibida, verifique os detalhes e confirme clicando em **[!UICONTROL Sim]** (8)
+1. Na tela de confirmação exibida, verifique os detalhes e confirme clicando em **[!UICONTROL Sim]** (8).
 
 ![](assets/deleteing-items-350x237.png)
 
@@ -157,26 +157,26 @@ Para excluir itens:
 A barra lateral tem links para as seguintes páginas:
 
 * Painel (1)
-* Exibições (2)
-* Fluxos de trabalho (3) (Somente planos Premium)
-* Dropzone (4) (planos Select e Premium)
+* Visualizações (2)
+* Fluxos de trabalho (3) (apenas planos Premium)
+* Zona suspensa (4) (planos Select e Premium)
 * Contatos (5)
 * Grupos (6)
 * Atividade (7)
-* Lixo (8)
-* Minhas pastas (9) (também é possível acessar cada pasta individual na barra lateral)
-* Pastas de Outras organizações (10) (onde é possível encontrar itens que outras organizações compartilharam com você)
+* Lixeira (8)
+* Minhas pastas (9) (você também pode acessar cada pasta individual na barra lateral)
+* Pastas de outras organizações (10) (onde você pode encontrar itens que outras organizações compartilharam com você)
 * Tags (11)
 
 ![](assets/sidebar-350x426.png)
 
-A Barra lateral é descrita com mais detalhes na página de ajuda da Barra lateral.
+A Barra lateral é descrita com mais detalhes na página de ajuda Barra lateral.
 
-### [!UICONTROL Welcome] seção
+### Seção de [!UICONTROL Boas-vindas]
 
-O [!UICONTROL Welcome] tem os seguintes links úteis:
+A seção [!UICONTROL Boas-vindas] tem os seguintes links úteis:
 
-* Assista a nossos filmes de demonstração (1)
+* Assista aos nossos filmes de demonstração (1)
 * Páginas de ajuda (2)
 * Dados de contato do suporte (3)
 * Link &quot;Não mostrar a seção de boas-vindas novamente&quot; (4)
@@ -187,34 +187,34 @@ O [!UICONTROL Welcome] tem os seguintes links úteis:
 
 Nesta seção, você encontrará os links rápidos para:
 
-* Criar uma nova prova Carregar um arquivo
+* Criar uma nova prova Fazer upload de um arquivo
 * Criar uma nova pasta
 * Adicionar um novo usuário
-* Alterar a senha
+* Alterar sua senha
 
 A seção de visão geral também exibe informações pré-filtradas. São eles:
 
-* Provas a gerenciar - número total de provas ativas de sua propriedade e delegadas a você
+* Provas para gerenciar - número total de provas ativas de sua propriedade e delegadas a você
 * Provas aguardando decisão - número total de provas ativas que exigem suas decisões
 
-   ![](assets/dashboard-overview-350x169.png)
+  ![](assets/dashboard-overview-350x169.png)
 
-Aqui você pode ver imediatamente quantas provas exigem uma ação imediata de você ou de seus revisores:
+Aqui você pode ver imediatamente quantas provas exigem ação imediata de você ou de seus revisores:
 
 * Total
-* No tempo - provas que não têm prazo ou que há mais de 24 horas até o prazo final
-* Em risco - provas com prazo inferior a 24 horas
-* Provas atrasadas com nem todas as ações concluídas e prazo vencido
+* No prazo - provas que não têm prazo ou há mais de 24 horas até o prazo
+* Em risco - provas com prazo final inferior a 24 horas
+* Atrasado - provas com nem todas as ações concluídas e com prazo excedido
 
 >[!NOTE]
 >
->Os valores dos gráficos são clicáveis - você pode ir facilmente para a lista detalhada dos itens.
+>Os valores dos gráficos são clicáveis - você pode facilmente Ir para a lista detalhada dos itens.
 
 ### Itens acessados recentemente
 
-O [!UICONTROL Itens acessados recentemente] mostra os itens acessados recentemente por você. Isso inclui os itens que você possui, os itens que você tem permissões para ver de acordo com as permissões do seu perfil e os itens que foram compartilhados com você. Esta seção incluirá apenas os itens que você mesmo abriu (por meio do [!DNL Workfront Proof] Visualizador ou por meio da página Detalhes da prova ).
+A seção [!UICONTROL Itens acessados recentemente] mostra os itens que foram acessados recentemente por você. Isso inclui os itens que você possui, os itens que você tem permissões para ver de acordo com suas permissões de perfil e os itens que foram compartilhados com você. Esta seção incluirá apenas os itens que você abriu (por meio do Visualizador do [!DNL Workfront Proof] ou pela página de detalhes da Prova).
 
-O [!UICONTROL Itens acessados recentemente] mostra as seguintes informações sobre provas e arquivos recentes:
+A seção [!UICONTROL Itens acessados recentemente] mostra as seguintes informações sobre provas e arquivos recentes:
 
 * Nome
 * Progresso
@@ -222,40 +222,40 @@ O [!UICONTROL Itens acessados recentemente] mostra as seguintes informações so
 * Decisão
 * Proprietário
 
-Resumo (essas informações serão recolhidas por padrão - clique no botão expandir/recolher à esquerda da prova relevante para abrir o resumo da prova)
+Resumo (essas informações serão recolhidas por padrão. Clique no botão expandir/recolher à esquerda da prova relevante para abrir o resumo de prova)
 
 Menu Ações
 
-Consulte Layouts de página para obter as diferentes opções de layout disponíveis para esta seção.
+Consulte Layouts de página para as diferentes opções de layout disponíveis para esta seção.
 
 >[!NOTE]
 >
->Ao clicar no nome da prova em [!UICONTROL Itens acessados recentemente] direcionará você à prova no Visualizador de prova.
+>Ao clicar no nome da prova na seção [!UICONTROL Itens acessados recentemente], você será direcionado para a prova no Visualizador de Provas.
 
-Para acessar a página Detalhes da prova :
+Para acessar a página Detalhes da prova:
 
-1. Clique no botão **[!UICONTROL Ações]** (1) disponível à direita do nome da prova.
-1. Selecionar **[!UICONTROL Exibir detalhes da prova]** (2) no menu .
+1. Clique no menu **[!UICONTROL Ações]** (1) disponível à direita do nome da prova.
+1. Selecione **[!UICONTROL Exibir detalhes da prova]** (2) no menu.
 
 ![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Atividade recente
 
-Esta seção mostra os seguintes detalhes sobre a atividade recente na sua conta:
+Esta seção mostra os seguintes detalhes sobre atividades recentes em sua conta:
 
 * Data e hora Nome da prova/arquivo
 * Ação
 * Detalhes
 
-Você também pode ir para a página Detalhes de um item clicando em abrindo o menu Ações do item e escolhendo Exibir detalhes. Para ver mais informações sobre a atividade na sua conta, consulte Trilha de auditoria de atividade.
+Você também pode ir para a página Detalhes de um item clicando abrindo o menu Ações do item e escolhendo Exibir detalhes. Para obter mais informações sobre atividades na sua conta, consulte Trilha de auditoria da atividade.
 
 >[!NOTE]
 >
->Clique no nome da prova no [!UICONTROL Atividade recente] abrirá a prova no Visualizador de prova.
+>Clicar no nome da prova na seção [!UICONTROL Atividade recente] abrirá a prova no Visualizador de Provas.
 
 Para acessar a página Detalhes da prova dessa prova:
 
-1. Clique no botão **[!UICONTROL Ações]** (1).
-1. Selecionar **[!UICONTROL Exibir detalhes da prova]** (2) no menu suspenso.
+1. Clique no menu **[!UICONTROL Ações]** (1).
+1. Selecione **[!UICONTROL Exibir detalhes da prova]** (2) no menu suspenso.
 
    ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

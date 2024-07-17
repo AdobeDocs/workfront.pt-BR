@@ -44,7 +44,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -54,7 +54,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png)e, em seguida, clique em **Metas**.\
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Metas**.\
    Uma lista de metas é exibida.
 1. Clique em uma meta.\
    A página da meta é exibida.
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. Siga um destes procedimentos para editar informações da meta:
    * Clique nos campos exibidos no cabeçalho da meta para atualizá-los. Nem todos os campos no cabeçalho são editáveis.
-   * Clique em **Ícone Mais** ![](assets/more-icon.png) à direita do nome da meta e clique em **Editar**.
-   * Clique em **Detalhes da meta** no painel esquerdo e clique na guia **Ícone Editar** ![](assets/edit-icon.png) no canto superior direito e clique em **Editar tudo**. Comece a atualizar campos na seção Detalhes da meta.
+   * Clique no ícone **Mais** ![](assets/more-icon.png) à direita do nome da meta e clique em **Editar**.
+   * Clique em **Detalhes da meta** no painel esquerdo e clique no **ícone Editar** ![](assets/edit-icon.png) no canto superior direito e, em seguida, clique em **Editar tudo**. Comece a atualizar campos na seção Detalhes da meta.
 
      >[!IMPORTANT]
      >
@@ -164,20 +164,20 @@ Editing goals differs depending on what environment you use.
 1. (Condicional) Dependendo do que você selecionou na etapa anterior, atualize as seguintes informações sobre a meta:
 
    * Atualize as seguintes informações no cabeçalho da meta e pressione Enter para salvar as alterações:
-      * **Nome da meta**: Clique no nome da meta e comece a digitar um novo nome.
-      * **Proprietário**: Clique no nome do proprietário, comece digitando o nome de um usuário, equipe, grupo ou empresa e, em seguida, selecione-o quando ele for exibido na lista. Você pode ter apenas um proprietário para uma meta.
-   * Atualize as seguintes informações na caixa Editar meta e clique em **Salvar**:
+      * **Nome da meta**: clique no nome da meta e comece a digitar um novo nome.
+      * **Proprietário**: clique no nome do proprietário, comece a digitar o nome de um usuário, equipe, grupo ou empresa e selecione-o quando ele for exibido na lista. Você pode ter apenas um proprietário para uma meta.
+   * Atualize as seguintes informações na caixa Editar Meta e clique em **Salvar**:
       * **Nome da meta**
-      * **Período**: Clique para atualizar o período de tempo da meta\
+      * **Período**: clique para atualizar o período de tempo da meta\
         Ou\
-        Selecionar **Habilitar datas personalizadas** para especificar datas para a meta **Início** e **Datas finais**.
+        Selecione **Habilitar datas personalizadas** para especificar datas para as **Datas de início** e **Datas de término** da meta.
 
         >[!TIP]
         >
-        >Desmarcar **Habilitar datas personalizadas** para retornar ao período original da meta.
+        >Desmarque **Habilitar datas personalizadas** para retornar ao período original da meta.
 
       * **Proprietário da meta**
-      * **Descrição**: adicione ou atualize as informações sobre a meta.
+      * **Descrição**: adicionar ou atualizar informações sobre a meta.
    * Atualizar ou revisar informações na seção Detalhes da meta. Para obter mais informações, consulte [Atualizar metas na seção Detalhes da meta no Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
@@ -185,7 +185,7 @@ Editing goals differs depending on what environment you use.
 1. (Opcional) Clique em **Indicadores de progresso** no painel esquerdo para adicionar resultados, atividades ou projetos à meta. Ao adicionar indicadores de progresso, é possível rastrear o progresso da meta.
 Para obter mais informações, consulte os seguintes artigos:
    * [Adicionar atividades às metas no Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
-   * [Adicionar resultados às metas no Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md).
+   * [Adicionar resultados às metas nas Metas do Adobe Workfront](../results-and-activities/add-results-to-goals.md).
    * [Adicionar projetos às metas no Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 </div>

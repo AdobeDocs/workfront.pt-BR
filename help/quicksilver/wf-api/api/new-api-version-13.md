@@ -9,7 +9,7 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -44,21 +44,21 @@ Os recursos a seguir foram modificados para a API versão 13.
      <li> <p><a href="#documentversion" class="MCXref xref">VersãoDocumento</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Grupo </a> </p> </li> 
      <li> <p><a href="#journalentry" class="MCXref xref">EntradaDiário</a> </p> </li> 
-     <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
-     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
+     <li> <p><a href="#layouttemplate" class="MCXref xref">ModeloDeLayout</a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref">PastaVinculada</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">TarefaOp</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">Projeto</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">AprovaçãoDaProva</a> </p> </li> 
-     <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">AprovaçãoDeProva</a> </p> </li> 
+     <li> <p><a href="#queuedef" class="MCXref xref">DefiniçãoDaFila</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Tarefa</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Equipe</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">Planilha de horas</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">PerfilPlanilhaDeHoras</a> </p> </li> 
-     <li> <p><a href="#uitemplate" class="MCXref xref">Modelo UIT</a> </p> </li> 
-     <li> <p><a href="#userdelegation" class="MCXref xref">UserDelegation</a> </p> </li> 
+     <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
+     <li> <p><a href="#userdelegation" class="MCXref xref">DelegaçãodeUsuários</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Trabalho </a> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -89,7 +89,7 @@ Para obter mais informações sobre níveis de acesso, consulte [Como os níveis
 
 Um objeto BreadCrumb representa um elemento na hierarquia pai/filho de um item de trabalho do Workfront. As navegações estruturais indicam como um item de trabalho se encaixa na estrutura maior de Portfolio, Projetos, Projetos e Tarefas.
 
-Para obter mais informações sobre navegação estrutural, consulte [Visão geral das navegações estruturais na nova experiência do Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Para obter mais informações sobre navegação estrutural, consulte [Visão geral sobre navegação estrutural na nova experiência do Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -166,7 +166,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
 
 Um objeto DocumentVersion representa uma versão específica de um arquivo (como material escrito, imagens ou outras formas de informação).
 
-Para obter mais informações sobre versões de documentos, consulte [Fazer upload de uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md).
+Para obter mais informações sobre versões de documentos, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -241,7 +241,7 @@ O recurso JournalEntry adicionou o sinalizador REPORTABLE.
 
 Os administradores do Adobe Workfront ou de grupo podem criar modelos para personalizar os elementos de layout no Adobe Workfront. O objeto LayoutTemplate é específico do Adobe Workfront Classic.
 
-Para o objeto que representa modelos de layout na nova experiência do Adobe Workfront, consulte [Modelo UIT](#uitemplate)
+Para o objeto que representa modelos de layout na nova experiência do Adobe Workfront, consulte [UITemplate](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -261,7 +261,7 @@ Para o objeto que representa modelos de layout na nova experiência do Adobe Wor
 
 Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como Google Drive ou Dropbox.
 
-Para obter mais informações sobre Pastas vinculadas, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obter mais informações sobre Pastas Vinculadas, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -292,7 +292,7 @@ Um objeto OpTask é comumente conhecido como um Problema. Um problema é um item
    <td> <p>Campos de Busca</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favitedByUsersMM</b> </p> </li> 
+     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -331,8 +331,8 @@ Um objeto ProofApproval representa uma aprovação que está diretamente conecta
    <td> <p>Os campos a seguir foram adicionados ao recurso Aprovação de prova.</p> 
     <ul> 
      <li> <p><b>approverStage</b> </p> </li> 
-     <li> <p><b>DecisionDate</b> </p> </li> 
-     <li> <p><b>workflowTemplate</b> </p> </li> 
+     <li> <p><b>DataDecisão</b> </p> </li> 
+     <li> <p><b>modeloDeFluxoDeTrabalho</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +352,7 @@ Para obter mais informações sobre Filas de solicitações, consulte [Criar uma
    <td role="rowheader">Campos diretos</td> 
    <td> 
     <ul> 
-     <li> <p><b>documentPosition</b> </p> <p>Adicionado. Os valores possíveis são:</p> 
+     <li> <p><b>documentPosition</b> </p> <p>Adição de. Os valores possíveis são:</p> 
       <ul> 
        <li> <p>0 (Após formulários personalizados)</p> </li> 
        <li> <p>1 (Antes dos formulários personalizados)</p> </li> 
@@ -374,7 +374,7 @@ Um objeto Tarefa representa um item de trabalho que deve ser executado como uma 
    <td> <p>Campos de Busca</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favitedByUsersMM</b> </p> </li> 
+     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -524,7 +524,7 @@ Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam 
    <td> <p>Campos de Busca</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favitedByUsersMM</b> </p> </li> 
+     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

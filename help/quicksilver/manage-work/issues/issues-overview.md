@@ -20,5 +20,5 @@ ht-degree: 7%
 Esta seção contém as seguintes subseções:
 
 * [Converter problemas](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [Informações do problema](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [Informações sobre o problema](../../manage-work/issues/issue-information/issue-info-overview.md)
 * [Gerenciar problemas](../../manage-work/issues/manage-issues/manage-issues-overview.md)

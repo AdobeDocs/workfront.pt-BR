@@ -38,7 +38,7 @@ Os comandos do usuário e a execução desses comandos pela IA trabalham juntos 
 
 * O Assistente de IA está disponível para administradores do Workfront por padrão.
 
-* O administrador do Workfront deve ativar o Assistente de IA para todos os outros usuários. Para obter mais informações, consulte [Ativar ou desativar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* O administrador do Workfront deve ativar o Assistente de IA para todos os outros usuários. Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 * O Assistente de IA funciona no contexto de cada página. As solicitações que você está enviando para o Assistente de IA devem fazer referência à funcionalidade que está disponível na página que você abriu.
 
@@ -72,15 +72,15 @@ Você pode usar o Assistente de IA para executar as seguintes ações neste mome
 
 ## Acessar o assistente de IA
 
-1. Faça logon no Workfront e acesse o **Planejamento** área.
+1. Faça logon no Workfront e acesse a área **Planning**.
 
-1. Clique em a **cartão do espaço de trabalho**.
+1. Clique em um **cartão de espaço de trabalho**.
 
-1. (Opcional) Clique em uma **cartão de tipo de registro**.
+1. (Opcional) Clique em um **cartão de tipo de registro**.
 
-1. (Opcional) Clique em uma **gravar** para abrir o registro **Detalhes** página.
+1. (Opcional) Clique em um **registro** para abrir a página **Detalhes** do registro.
 
-1. Clique em **Ícone do Assistente de IA** no canto superior direito da tela na barra de navegação global.
+1. Clique no **ícone do Assistente de IA**, no canto superior direito da tela da barra de navegação global.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

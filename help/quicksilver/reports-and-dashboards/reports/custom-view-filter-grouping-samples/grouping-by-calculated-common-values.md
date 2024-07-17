@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -43,21 +43,21 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>   
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Organiza os resultados da lista por um valor calculado comum a todos os objetos no agrupamento
 
 Para aplicar esse agrupamento a uma lista de tarefas:
 
 1. Ir para uma lista de tarefas.
-1. No **Agrupamento** selecione **Novo Agrupamento**.
+1. No menu suspenso **Agrupamento** selecione **Novo Agrupamento**.
 
-1. Clique em **Alternar para modo de texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. No espaço disponível, adicione o seguinte código:
 
    ```
@@ -72,4 +72,4 @@ Para aplicar esse agrupamento a uma lista de tarefas:
    }>25&&{percentComplete}<=50,'26-50%',IF({percentComplete}>50&&{percentComplete}<=75,'51-75%',IF({percentComplete}>75&&{percentComplete}<=100,'76-100%',''))))<br>group.0.linkedname=direct<br>group.0.valueformat=doubleAsString<br>group.0.namekey=percentComplete
    ```
 
-1. Clique em **Concluído**, depois **Salvar Agrupamento**.
+1. Clique em **Concluído** e em **Salvar agrupamento**.

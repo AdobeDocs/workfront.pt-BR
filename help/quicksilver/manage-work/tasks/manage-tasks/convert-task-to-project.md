@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -39,12 +39,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para uma tarefa</p> <p>Exibir permissões em um modelo, se estiver convertendo em um projeto usando um modelo</p> <p>Depois de criar o projeto, você tem Gerenciar permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para uma tarefa</p> <p>Exibir permissões em um modelo, se estiver convertendo em um projeto usando um modelo</p> <p>Depois de criar o projeto, você tem Gerenciar permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações para converter tarefas em projetos
 
@@ -67,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </tr> 
     <tr> 
     <td>Status</td> 
-    <td> Status padrão selecionado para o grupo no modelo. Se o modelo não estiver associado ao grupo, o status do projeto será definido como o status padrão definido pelo administrador do Workfront na área Preferências do projeto da Configuração. Para obter informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurar preferências de projeto em todo o sistema</a>
+    <td> Status padrão selecionado para o grupo no modelo. Se o modelo não estiver associado ao grupo, o status do projeto será definido como o status padrão definido pelo administrador do Workfront na área Preferências do projeto da Configuração. Para obter informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurar preferências de projeto do sistema</a>
 
   Existem os seguintes cenários para atualizar o Status do projeto:
   <ul>
@@ -102,8 +102,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <td>Datas do projeto</td> 
     <td> 
       <ul> 
-      <li> <p><b>Data de Início Planejada</b>: O horário de trabalho mais próximo com base no horário de trabalho do agendamento do modelo deve ser pré-selecionado, de acordo com o fuso horário do agendamento do modelo. Este campo ficará desativado se o campo Agendar de estiver definido como Conclusão de. </p> </li> 
-      <li> <p><b>Data de Término Planejada</b>: O horário de trabalho mais próximo com base no horário de trabalho do agendamento do modelo deve ser pré-selecionado, de acordo com o fuso horário do agendamento do modelo. Este campo estará desativado se o campo Agendar de estiver definido como Do início. </p> </li> 
+      <li> <p><b>Data de Início Planejada</b>: o horário de trabalho mais próximo baseado no horário de trabalho do agendamento do modelo deve ser pré-selecionado, de acordo com o fuso horário do agendamento do modelo. Este campo ficará desativado se o campo Agendar de estiver definido como Conclusão de. </p> </li> 
+      <li> <p><b>Data de conclusão planejada</b>: o horário de trabalho mais próximo baseado no horário de trabalho do agendamento do modelo deve ser pré-selecionado, de acordo com o fuso horário do agendamento do modelo. Este campo estará desativado se o campo Agendar de estiver definido como Do início. </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -162,34 +162,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Converter uma tarefa em um projeto
 
 1. Vá para a tarefa que deseja converter em um projeto.
-1. Clique em **Mais** ícone ![](assets/more-icon.png), depois **Converter em Projeto**.
+1. Clique no ícone **Mais** ![](assets/more-icon.png) e em **Converter para Projeto**.
 1. Escolha uma das opções a seguir:
 
    * **Novo projeto**
-   * Um modelo na variável **Selecionar nos modelos** seção
+   * Um modelo na seção **Selecionar nos Modelos**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Clique em **Continuar** na notificação exibida.
-1. No **Converter em Projeto** especifique o seguinte:
+1. Na caixa **Converter em Projeto**, especifique o seguinte:
 
-   * **Nome**: Dê um nome ao projeto. O nome padrão é o nome da tarefa.
+   * **Nome**: nomeie seu projeto. O nome padrão é o nome da tarefa.
    * (Opcional) **Descrição**: descreva a finalidade deste projeto.
-   * (Opcional e condicional) Se você optou por criar um projeto a partir de um modelo, atualize os campos disponíveis na **Converter em Projeto** caixa de diálogo.
+   * (Opcional e condicional) Se você optou por criar um projeto a partir de um modelo, atualize os campos disponíveis na caixa de diálogo **Converter em projeto**.
 
      Para obter mais informações sobre a edição de campos em projetos, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Para atualizar os campos na seção Finanças da caixa Converter em Projeto, você deverá ter o acesso para Editar aos Dados Financeiros no seu nível de acesso. Se você tiver o acesso de Visualização de Dados Financeiros no seu nível de acesso, todas as informações financeiras do modelo serão transferidas para o novo projeto e você não poderá editá-las enquanto converter o problema. Para obter informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar um modelo](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Para atualizar os campos na seção Finanças da caixa Converter em Projeto, você deverá ter o acesso para Editar aos Dados Financeiros no seu nível de acesso. Se você tiver o acesso de Visualização de Dados Financeiros no seu nível de acesso, todas as informações financeiras do modelo serão transferidas para o novo projeto e você não poderá editá-las enquanto converter o problema. Para obter informações, consulte [Conceder acesso aos dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar um modelo](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * (Opcional) Adicionar **Forms personalizado** para o novo projeto.
+   * (Opcional) Adicione o **Forms personalizado** ao novo projeto.
 
      >[!TIP]
      >
-     Se um formulário personalizado de vários objetos anexado à tarefa for configurado para uso com tarefas e projetos, todas as informações salvas no formulário serão retidas quando você fizer a conversão.
+     >Se um formulário personalizado de vários objetos anexado à tarefa for configurado para uso com tarefas e projetos, todas as informações salvas no formulário serão retidas quando você fizer a conversão.
      >
      >
-     Se você estiver usando um modelo para a conversão e um formulário personalizado anexado ao modelo contiver um campo personalizado também encontrado em um formulário personalizado anexado à tarefa, o valor do campo da tarefa será usado para o novo projeto. No entanto, se o campo personalizado estiver em branco na tarefa, o valor do modelo será usado.
+     >Se você estiver usando um modelo para a conversão e um formulário personalizado anexado ao modelo contiver um campo personalizado também encontrado em um formulário personalizado anexado à tarefa, o valor do campo da tarefa será usado para o novo projeto. No entanto, se o campo personalizado estiver em branco na tarefa, o valor do modelo será usado.
 
 1. Clique em **Salvar alterações**.

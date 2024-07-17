@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de email
-description: Em um [!DNL Adobe Workfront Fusion] Neste cenário, você pode conectar sua conta de email a vários aplicativos e serviços de terceiros. Isso permite baixar emails via IMAP, enviar emails via SMTP, criar novos rascunhos, mover e copiar emails de uma pasta para outra pasta, marcar emails como lidos ou não lidos e excluir emails.
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode conectar sua conta de email a vários aplicativos e serviços de terceiros. Isso permite baixar emails via IMAP, enviar emails via SMTP, criar novos rascunhos, mover e copiar emails de uma pasta para outra pasta, marcar emails como lidos ou não lidos e excluir emails.
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Módulos de email
 
-Em um [!DNL Adobe Workfront Fusion] Neste cenário, você pode conectar sua conta de email a vários aplicativos e serviços de terceiros. Isso permite baixar emails via IMAP, enviar emails via SMTP, criar novos rascunhos, mover e copiar emails de uma pasta para outra pasta, marcar emails como lidos ou não lidos e excluir emails.
+Em um cenário do [!DNL Adobe Workfront Fusion], você pode conectar sua conta de email a vários aplicativos e serviços de terceiros. Isso permite baixar emails via IMAP, enviar emails via SMTP, criar novos rascunhos, mover e copiar emails de uma pasta para outra pasta, marcar emails como lidos ou não lidos e excluir emails.
 
 ## Requisitos de acesso
 
@@ -39,23 +39,23 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -66,41 +66,41 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 ### Conectar a [!DNL Google]
 
-Use essa opção para criar cenários com módulos de email que exigem uma conexão com o seu [!DNL Google] conta. Esta é uma conta com escopos restritos.
+Use esta opção para criar cenários com módulos de email que exigem uma conexão com sua conta do [!DNL Google]. Esta é uma conta com escopos restritos.
 
-Você pode criar uma conexão com o seu [!DNL Google] diretamente de dentro de um módulo de Email.
+Você pode criar uma conexão com sua conta do [!DNL Google] diretamente de dentro de um módulo de Email.
 
-1. Em qualquer módulo de Email, clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
-1. Selecionar **[!DNL Google]** como o tipo de conexão.
+1. Em qualquer módulo Email, clique em **[!UICONTROL Adicionar]** ao lado do campo [!UICONTROL Conexão].
+1. Selecione **[!DNL Google]** como o tipo de conexão.
 1. Insira um nome para a conexão.
-1. (Opcional) Insira seu [!UICONTROL [!DNL Google] ID do cliente] e [!UICONTROL Segredo do cliente].
-1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
+1. (Opcional) Digite sua [!UICONTROL [!DNL Google] ID de Cliente] e [!UICONTROL Segredo do Cliente].
+1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar para o módulo.
 
 ### Conectar-se a outros serviços de email (SMAP)
 
 A conexão SMAP permite que você acesse sua caixa de correio remotamente e leia ou manipule mensagens em sua caixa de correio. A conexão SMAP é usada pela maioria dos módulos de email.
 
-1. Em qualquer módulo de Email, clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
-1. Selecionar **[!UICONTROL Outros (SMTP)]** como o tipo de conexão.
-1. Insira um **[!UICONTROL Nome]** para a conexão.
-1. Selecione o **[!UICONTROL Provedor de email]** da lista. Se o seu provedor de email não estiver na lista, selecione Outro.
-1. Insira seu **[!UICONTROL Endereço de email]**, **[!UICONTROL Seu nome completo]**, seu **[!UICONTROL Nome do usuário]**, e seu **[!UICONTROL Senha]**.
-1. (Condicional) Se seu provedor não estiver na lista, digite seu **[!UICONTROL Servidor SMTP]** e **[!UICONTROL Porta]** e especifique se deseja **[!UICONTROL Usar uma conexão segura (TLS)]**. Para encontrar essas informações, marque a opção [!UICONTROL Ajuda] seção da sua caixa de correio. Se você não tiver essas informações disponíveis, entre em contato com seu provedor de serviços de email.
-1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
+1. Em qualquer módulo Email, clique em **[!UICONTROL Adicionar]** ao lado do campo [!UICONTROL Conexão].
+1. Selecione **[!UICONTROL Outros (SMTP)]** como o tipo de conexão.
+1. Digite um **[!UICONTROL Nome]** para a conexão.
+1. Selecione seu **[!UICONTROL provedor de email]** na lista. Se o seu provedor de email não estiver na lista, selecione Outro.
+1. Digite seu **[!UICONTROL Endereço de email]**, **[!UICONTROL Seu nome completo]**, seu **[!UICONTROL Nome de usuário]** e sua **[!UICONTROL Senha]**.
+1. (Condicional) Se seu provedor não estiver na lista, digite seu **[!UICONTROL servidor SMTP]** e a **[!UICONTROL Porta]** e especifique se deseja **[!UICONTROL Usar uma conexão segura (TLS)]**. Para encontrar essas informações, verifique a seção [!UICONTROL Ajuda] da sua caixa de correio. Se você não tiver essas informações disponíveis, entre em contato com seu provedor de serviços de email.
+1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar para o módulo.
 
-## [!UICONTROL E-mail] módulos e seus campos
+## Módulos [!UICONTROL Email] e seus campos
 
-Ao configurar [!UICONTROL E-mail] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar os módulos de [!UICONTROL Email], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
 Alguns dos campos de email podem já conter dados porque você os usou em outro módulo no cenário. Consulte a documentação de ajuda do email se precisar de informações sobre eles.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
->A ID de e-mail exclusiva conhecida como &#39;[!UICONTROL ID de e-mail (UID)]&#39; é o identificador do email. A ID de e-mail é específica para cada uma das pastas de e-mail.
+>A Identificação de Email Exclusiva conhecida como &#39;[!UICONTROL Identificação de Email (UID)]&#39; é o identificador do email. A ID de e-mail é específica para cada uma das pastas de e-mail.
 
 * [Triggers](#triggers)
 * [Ações](#actions)
@@ -162,8 +162,8 @@ Acionado quando um novo email é recebido para processamento de acordo com crit�
 
 ### Ações
 
-* [[!UICONTROL Enviar um e-mail]](#send-an-email)
-* [[!UICONTROL Criar um rascunho]](#create-a-draft)
+* [[!UICONTROL Enviar um email]](#send-an-email)
+* [[!UICONTROL Criar um Rascunho]](#create-a-draft)
 * [[!UICONTROL Marcar um email como lido]](#mark-an-email-as-read)
 * [[!UICONTROL Marcar um email como não lido]](#mark-an-email-as-unread)
 * [[!UICONTROL Mover um email]](#move-an-email)
@@ -171,7 +171,7 @@ Acionado quando um novo email é recebido para processamento de acordo com crit�
 * [[!UICONTROL Excluir um email]](#delete-an-email)
 * [[!UICONTROL Receber Emails]](#get-emails)
 
-#### [!UICONTROL Enviar um e-mail]
+#### [!UICONTROL Enviar um email]
 
 Envia um novo email.
 
@@ -185,7 +185,7 @@ Envia um novo email.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Salvar Mensagem após Envio]</td> 
-   <td>Depois que a mensagem de email for enviada, ela será salva na sua caixa de correio. Ative esta opção se quiser salvar e-mails enviados usando [!DNL Workfront Fusion] para o <i>[!UICONTROL Enviar email]</i> pasta ou outra pasta na sua caixa de correio. Alguns serviços de email, como [!DNL Gmail], salve as mensagens enviadas automaticamente.</td> 
+   <td>Depois que a mensagem de email for enviada, ela será salva na sua caixa de correio. Habilite esta opção se quiser salvar emails enviados usando o [!DNL Workfront Fusion] na pasta <i>[!UICONTROL Email enviado]</i> ou em outra pasta da sua caixa de correio. Alguns serviços de email, como o [!DNL Gmail], salvam mensagens enviadas automaticamente.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Para] </td> 
@@ -211,7 +211,7 @@ Envia um novo email.
    <td role="rowheader"> <p>[!UICONTROL Anexos]</p> </td> 
    <td> <p>Adicionar um anexo:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nome do arquivo]</strong> </p> <p>Insira o nome do arquivo. Por exemplo, sample.doc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Nome do Arquivo]</strong> </p> <p>Insira o nome do arquivo. Por exemplo, sample.doc.</p> </li> 
      <li> <p><strong>[!UICONTROL Dados]</strong> </p> <p>Insira o caminho para a pasta onde será feito o upload do anexo.</p> </li> 
      <li> <p><strong>[!UICONTROL ID-Conteúdo]</strong> </p> <p>Insira a [!UICONTROL ID de conteúdo] para inserir o anexo (imagem) no conteúdo.</p> </li> 
     </ul> </td> 
@@ -226,11 +226,11 @@ Envia um novo email.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL De] </td> 
-   <td> <p>Insira ou mapeie o endereço de email (e o nome, se necessário) que aparece no campo [!UICONTROL From] no email. </p> <p>Importante: use a sintaxe correta: <code>name@email.com</code> ou <code>"Name" name@email.com</code>.</p> <p>Observação: normalmente, [!DNL Workfront Fusion] usa o endereço de email que você inseriu ao criar a conexão como o endereço do remetente. Se você inserir qualquer outro endereço de email, poderá ocorrer um erro ao enviar uma mensagem porque sua conta talvez não tenha permissão para enviar emails de um endereço diferente do seu. Por exemplo, <code>test@mail.com</code> ou "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p>Insira ou mapeie o endereço de email (e o nome, se necessário) que aparece no campo [!UICONTROL From] no email. </p> <p>Importante: use a sintaxe correta: <code>name@email.com</code> ou <code>"Name" name@email.com</code>.</p> <p>Observação: normalmente, o [!DNL Workfront Fusion] usa o endereço de email que você inseriu ao criar a conexão como o endereço do remetente. Se você inserir qualquer outro endereço de email, poderá ocorrer um erro ao enviar uma mensagem porque sua conta talvez não tenha permissão para enviar emails de um endereço diferente do seu. Por exemplo, <code>test@mail.com</code> ou "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Remetente]</p> </td> 
-   <td> <p>Insira ou mapeie o endereço de email que aparece no campo [!UICONTROL Remetente] no email.</p> <p>Dica: se você não tiver certeza se deve usar esse campo ou o campo De, recomendamos escolher o campo De.</p> <p>Importante: use a sintaxe correta: <code>name@email.com</code> ou <code>"Name" name@email.com</code></p> </td> 
+   <td> <p>Insira ou mapeie o endereço de email que aparece no campo [!UICONTROL Remetente] no email.</p> <p>Dica: se você não tiver certeza se deve usar esse campo ou o campo De, recomendamos escolher o campo De.</p> <p>Importante: Use a sintaxe correta: <code>name@email.com</code> ou <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Responder para]</td> 
@@ -257,14 +257,14 @@ Envia um novo email.
    <td role="rowheader"> <p>[!UICONTROL Cabeçalhos]</p> </td> 
    <td> <p>Adicione os cabeçalhos:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Chave]</strong> </p> <p>Adicione a chave. Por exemplo, [!UICONTROL Remetente], [!UICONTROL Data], [!UICONTROL Para], e assim por diante.</p> </li> 
+     <li> <p><strong>[!UICONTROL chave]</strong> </p> <p>Adicione a chave. Por exemplo, [!UICONTROL Remetente], [!UICONTROL Data], [!UICONTROL Para], e assim por diante.</p> </li> 
      <li> <p><strong>[!UICONTROL Valor]</strong> </p> <p>Insira o valor da chave.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Criar um rascunho]
+#### [!UICONTROL Criar um Rascunho]
 
 Cria e adiciona um novo rascunho a uma pasta selecionada.
 
@@ -304,7 +304,7 @@ Cria e adiciona um novo rascunho a uma pasta selecionada.
    <td role="rowheader"> <p>[!UICONTROL Anexos]</p> </td> 
    <td> <p>Adicionar um anexo:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nome do arquivo]</strong> </p> <p>Insira o nome do arquivo. Por exemplo, sample.doc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Nome do Arquivo]</strong> </p> <p>Insira o nome do arquivo. Por exemplo, sample.doc.</p> </li> 
      <li> <p><strong>[!UICONTROL Dados]</strong> </p> <p>Insira o caminho para a pasta onde será feito o upload do anexo.</p> </li> 
      <li> <p><strong>[!UICONTROL ID-Conteúdo]</strong> </p> <p>Insira a ID de conteúdo para inserir o anexo (imagem) no conteúdo.</p> </li> 
     </ul> </td> 
@@ -319,11 +319,11 @@ Cria e adiciona um novo rascunho a uma pasta selecionada.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL De] </td> 
-   <td> <p>Insira ou mapeie o endereço de email (e o nome, se necessário) que aparece no campo [!UICONTROL From] no email. </p> <p>Importante: use a sintaxe correta: <code>name@email.com</code> ou <code>"Name" name@email.com</code>.</p> <p>Observação: normalmente, [!DNL Workfront Fusion] usa o endereço de email que você inseriu ao criar a conexão como o endereço do remetente. Se você inserir qualquer outro endereço de email, poderá ocorrer um erro ao enviar uma mensagem porque sua conta talvez não tenha permissão para enviar emails de um endereço diferente do seu. Por exemplo, <code>test@mail.com</code> ou "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p>Insira ou mapeie o endereço de email (e o nome, se necessário) que aparece no campo [!UICONTROL From] no email. </p> <p>Importante: use a sintaxe correta: <code>name@email.com</code> ou <code>"Name" name@email.com</code>.</p> <p>Observação: normalmente, o [!DNL Workfront Fusion] usa o endereço de email que você inseriu ao criar a conexão como o endereço do remetente. Se você inserir qualquer outro endereço de email, poderá ocorrer um erro ao enviar uma mensagem porque sua conta talvez não tenha permissão para enviar emails de um endereço diferente do seu. Por exemplo, <code>test@mail.com</code> ou "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Remetente]</p> </td> 
-   <td> <p>Insira ou mapeie o endereço de email que aparece no campo [!UICONTROL Remetente] no email.</p> <p>Dica: se você não tiver certeza se deve usar esse campo ou o campo De, recomendamos escolher o campo De.</p> <p>Importante: use a sintaxe correta: <code>name@email.com</code> ou <code>"Name" name@email.com</code></p> </td> 
+   <td> <p>Insira ou mapeie o endereço de email que aparece no campo [!UICONTROL Remetente] no email.</p> <p>Dica: se você não tiver certeza se deve usar esse campo ou o campo De, recomendamos escolher o campo De.</p> <p>Importante: Use a sintaxe correta: <code>name@email.com</code> ou <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Responder para]</td> 
@@ -350,7 +350,7 @@ Cria e adiciona um novo rascunho a uma pasta selecionada.
    <td role="rowheader"> <p>[!UICONTROL Cabeçalhos]</p> </td> 
    <td> <p>Adicione os cabeçalhos:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Chave]</strong> </p> <p>Adicione a chave. Por exemplo, Remetente, Data, Para e assim por diante.</p> </li> 
+     <li> <p><strong>[!UICONTROL chave]</strong> </p> <p>Adicione a chave. Por exemplo, Remetente, Data, Para e assim por diante.</p> </li> 
      <li> <p><strong>[!UICONTROL Valor]</strong> </p> <p>Insira o valor da chave.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -359,7 +359,7 @@ Cria e adiciona um novo rascunho a uma pasta selecionada.
 
 #### [!UICONTROL Marcar um email como lido]
 
-Marca um email ou rascunho em uma pasta selecionada como lido ao configurar o [!UICONTROL Ler] sinalizador.
+Marca um email ou rascunho em uma pasta selecionada como lido ao definir o sinalizador [!UICONTROL Read].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -416,7 +416,7 @@ Move um email ou rascunho escolhido para uma pasta selecionada.
    <td> <p>Para obter instruções sobre como conectar sua conta de email ao [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar seu email ao [!UICONTROL Workfront Fusion]</a> neste artigo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Pasta de Origem]</td> 
+   <td role="rowheader">[!UICONTROL Pasta Source]</td> 
    <td>Selecione a pasta que contém o email a partir da qual deseja mover o email. Exemplo: Principal.</td> 
   </tr> 
   <tr> 
@@ -443,7 +443,7 @@ Copia um email ou um rascunho para uma pasta selecionada.
    <td> <p>Para obter instruções sobre como conectar sua conta de email ao [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar seu email ao [!UICONTROL Workfront Fusion]</a> neste artigo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Pasta de Origem]</td> 
+   <td role="rowheader">[!UICONTROL Pasta Source]</td> 
    <td>Selecione a pasta da qual deseja copiar o email. Exemplo: Principal.</td> 
   </tr> 
   <tr> 
@@ -479,7 +479,7 @@ Remove um email ou um rascunho da pasta selecionada.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Eliminar]</td> 
-   <td> <p>Habilite esta opção para permitir que o módulo remova permanentemente todas as mensagens sinalizadas como [!UICONTROL Excluído] na caixa de correio atualmente aberta.</p> <p>Observação: em [!DNL Gmail], esse comportamento é conduzido pela configuração na seção [!UICONTROL Configurações] &gt;[!UICONTROL Encaminhando POP/IMAP no acesso IMAP].</p> </td> 
+   <td> <p>Habilite esta opção para permitir que o módulo remova permanentemente todas as mensagens sinalizadas como [!UICONTROL Excluído] na caixa de correio atualmente aberta.</p> <p>Observação: no [!DNL Gmail], esse comportamento é orientado pela configuração na seção [!UICONTROL Configurações] &gt;[!UICONTROL Encaminhando POP/IMAP no acesso IMAP].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -539,7 +539,7 @@ Retorna emails que correspondem aos critérios especificados.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID DE E-MAIL (UID)]</td> 
-   <td> <p> Insira a ID de email (UID) do email cujos detalhes você deseja recuperar.</p> <p>É possível obter a UID do email usando [!DNL Workfront Fusion]Módulo do [!UICONTROL Watch Email] ou do [!UICONTROL Search Email].</p> </td> 
+   <td> <p> Insira a ID de email (UID) do email cujos detalhes você deseja recuperar.</p> <p>Você pode obter a UID do email usando o módulo [!UICONTROL Watch Email] ou o módulo [!UICONTROL Search Email] de [!DNL Workfront Fusion].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de resultados]</td> 
@@ -554,7 +554,7 @@ Retorna emails que correspondem aos critérios especificados.
 
 ### Iteradores
 
-#### [!UICONTROL Anexos iterados]
+#### [!UICONTROL Iterar Anexos]
 
 Repete os anexos recebidos um por um.
 
@@ -565,7 +565,7 @@ O módulo iterador de email permite gerenciar anexos de email separadamente. Por
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Módulo de origem]</td> 
+   <td role="rowheader">[!UICONTROL módulo Source]</td> 
    <td> <p>Selecione o módulo que gera o email com os anexos através dos quais você deseja iterar.</p> </td> 
   </tr> 
  </tbody> 

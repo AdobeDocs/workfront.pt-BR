@@ -19,39 +19,39 @@ ht-degree: 1%
 
 Como administrador de um grupo, você pode atribuir outros usuários como administradores de grupo para esse grupo. Os administradores do Adobe Workfront também podem fazer isso.
 
-Para obter mais informações sobre administradores de grupo e o que eles podem fazer, consulte [Administradores do grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) e [Ações permitidas para diferentes tipos de administradores](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
+Para obter mais informações sobre administradores de grupo e o que eles podem fazer, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) e [Ações permitidas para diferentes tipos de administradores](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
 
-Para obter informações gerais sobre grupos, consulte [Visão geral dos grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Para obter informações gerais sobre grupos, consulte [Visão geral sobre grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">plano do Workfront*</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores do grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder ao usuário acesso administrativo total</a>.</p> </td> 
+   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir qual plano ou tipo de licença você tem, entre em contato com o administrador da Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
 ## Atribuir um usuário como administrador de grupo
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
-1. Clique no nome do grupo para o qual você deseja atribuir um administrador de grupo.
-1. No cabeçalho, próximo ao canto superior direito, clique em uma das imagens do perfil do usuário em **Administradores de grupo**.
-1. Na caixa exibida, clique em **Procurar um usuário**, comece digitando o nome do usuário e clique no nome quando ele for exibido.
-1. Repita a etapa anterior para adicionar outros usuários como administradores de grupo do grupo.
+1. Clique no nome do grupo para o qual deseja designar um administrador de grupo.
+1. No cabeçalho, próximo ao canto superior direito, clique em uma das imagens de perfil de usuário em **Administradores de Grupo**.
+1. Na caixa que é exibida, clique em **Procurar um usuário**, comece a digitar o nome do usuário e, em seguida, clique no nome quando ele aparecer.
+1. Repita a etapa anterior para adicionar outros usuários como administradores de grupo para o grupo.
 1. Clique em **Salvar**.

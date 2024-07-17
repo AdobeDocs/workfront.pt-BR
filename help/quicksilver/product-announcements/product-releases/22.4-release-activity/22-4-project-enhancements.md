@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Esta página descreve todas as melhorias feitas no Project com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte [22.4 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte a [Visão geral da versão 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Detalhes do predecessor agora disponíveis
 
@@ -51,7 +51,7 @@ Para obter mais informações, consulte [Editar Projetos](/help/quicksilver/mana
 
 OBSERVAÇÃO: campos de usuário adicionais para projetos, tarefas e problemas serão atualizados com essa funcionalidade em versões futuras.
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## Os campos de data calculados são sempre salvos com base no Tempo Universal Coordenado (UTC)
 
@@ -65,7 +65,7 @@ Anteriormente, as configurações de tempo nos cálculos causavam confusão quan
 
 * Se alguém editou o objeto e isso causou o recálculo da expressão de campo calculado, os resultados da função de data foram determinados pelo fuso horário local do usuário. Os resultados do campo de data calculados neste cenário também serão calculados com base no UTC.
 
-Para obter mais informações, consulte [Trabalhar em fusos horários](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+Para obter mais informações, consulte [Trabalhando em fusos horários](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
 ## Aprimoramentos de formulários personalizados: Adobe XD e o Filtro rápido
 
@@ -77,9 +77,9 @@ Com base em seus comentários, introduzimos as seguintes melhorias para melhorar
 
 * Use o Filtro rápido para localizar facilmente itens na lista modernizada de formulários e campos personalizados. Além disso, desfrute de uma aparência aprimorada ao gerenciar formulários e campos.
 
-  Para obter mais informações sobre o Filtro rápido, consulte [Aplicar o filtro rápido a uma lista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Para obter mais informações sobre o Filtro Rápido, consulte [Aplicar o filtro rápido a uma lista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
 ## Beta público - Nova experiência de filtro para projetos, tarefas e problemas
 
@@ -130,4 +130,4 @@ Queremos agregar valor a você iterativamente para que continuemos a agregar val
 
 Para obter mais informações, consulte [Visão geral dos filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Criar ou editar filtros no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412391/)
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412391/)

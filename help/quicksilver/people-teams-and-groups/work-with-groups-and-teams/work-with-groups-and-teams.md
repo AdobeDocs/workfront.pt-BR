@@ -19,4 +19,4 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Grupos versus equipes no [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+* [Grupos versus equipes em [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)

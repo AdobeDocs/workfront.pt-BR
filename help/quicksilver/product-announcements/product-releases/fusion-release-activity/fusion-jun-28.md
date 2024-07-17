@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 28 de junho de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Novo módulo de pesquisa no conector do Salesforce
 
@@ -32,7 +32,7 @@ Para simplificar a pesquisa de objetos do Salesforce, adicionamos outro módulo 
 
 Se preferir inserir as consultas você mesmo, poderá usar a funcionalidade existente anteriormente no módulo Pesquisar com consulta.
 
-Para obter mais informações, [Módulos do Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Para obter mais informações, [módulos do Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
 ## A filtragem de assinatura de evento está disponível no módulo Workfront > Registros de observação
 
@@ -40,4 +40,4 @@ Para acompanhar a nova funcionalidade de filtragem de assinaturas de eventos do 
 
 Anteriormente, o módulo Observar registros recuperava todos os registros. Os usuários só podem filtrar configurando filtros em módulos de cenário posteriores.
 
-Para obter mais informações, consulte [Módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações, consulte [módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

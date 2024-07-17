@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Armazenamentos de dados no [!DNL Adobe Workfront Fusion]
+title: Repositórios de Dados em [!DNL Adobe Workfront Fusion]
 description: Um armazenamento de dados, semelhante a um banco de dados ou a uma tabela simples, pode armazenar dados de cenários, possibilitando a transferência de dados entre cenários individuais ou execuções de cenário. Você pode usar um armazenamento de dados para armazenar novos dados de vários sistemas durante a sincronização.
 author: Becky
 feature: Workfront Fusion
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 ---
 
-# Armazenamentos de dados no [!DNL Adobe Workfront Fusion]
+# Repositórios de Dados em [!DNL Adobe Workfront Fusion]
 
 Um armazenamento de dados, semelhante a um banco de dados ou a uma tabela simples, pode armazenar dados de cenários, possibilitando a transferência de dados entre cenários individuais ou execuções de cenário. Você pode usar um armazenamento de dados para armazenar novos dados de vários sistemas durante a sincronização.
 
-Os módulos de armazenamento de dados permitem que você execute as seguintes ações nos registros em seu [!DNL Adobe Workfront Fusion] armazenamento de dados:
+Os módulos de armazenamento de dados permitem que você execute as seguintes ações nos registros do seu armazenamento de dados [!DNL Adobe Workfront Fusion]:
 
 * Adicionar
 * Substituir
@@ -29,11 +29,11 @@ Os módulos de armazenamento de dados permitem que você execute as seguintes a�
 * Pesquisar
 * Contagem
 
-Para obter informações sobre o uso de módulos de armazenamento de dados, consulte [[!UICONTROL Armazenamento de dados] módulos](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+Para obter informações sobre como usar os módulos de repositório de dados, consulte [[!UICONTROL Repositório de dados] módulos](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 Para obter uma introdução em vídeo aos armazenamentos de dados no Workfront Fusion, consulte:
 
-* [Armazenamentos de dados](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [Repositórios de Dados](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisitos de acesso
 
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
    <p>Herdados: Qualquer um </p>
    </td> 
@@ -64,7 +64,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td>
    <p>Novo:</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</li></ul>
    <p>Ou</p>
-   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p>
+   <p>Atual: sua organização deve comprar o [!DNL Adobe Workfront Fusion].</p>
    </td> 
   </tr>
  </tbody> 
@@ -99,27 +99,27 @@ As instâncias do Fusion nos pacotes Select ou Prime recebem:—>
 
 Sua organização pode ter até 50 armazenamentos de dados. O tamanho combinado desses armazenamentos de dados não pode exceder o tamanho total do armazenamento de dados de sua organização.
 
-## Criar um armazenamento de dados no [!DNL Workfront Fusion]
+## Criar um armazenamento de dados em [!DNL Workfront Fusion]
 
 * [Configurar o armazenamento de dados](#set-up-the-data-store)
 * [Configurar a estrutura de dados](#set-up-the-data-structure)
 
 ### Configurar o armazenamento de dados
 
-Antes de usar um armazenamento de dados em um módulo, você deve criar o armazenamento de dados no [!DNL Workfront Fusion].
+Antes de usar um armazenamento de dados em um módulo, você deve criar o armazenamento de dados em [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->Sua organização tem um número limitado de armazenamentos de dados disponíveis. Se você tentar criar mais armazenamentos de dados do que os disponíveis, [!DNL Workfront] retorna um [!UICONTROL Máximo de armazenamentos atingido] erro.
+>Sua organização tem um número limitado de armazenamentos de dados disponíveis. Se você tentar criar mais armazenamentos de dados do que os disponíveis, o [!DNL Workfront] retornará um erro de [!UICONTROL Máximo de armazenamentos atingido].
 >
->Para obter mais informações, consulte [Erro de máximo de armazenamentos atingido](#maximum-stores-reached-error) neste artigo.
+>Para obter mais informações, consulte [O máximo de armazenamentos atingiu o erro](#maximum-stores-reached-error) neste artigo.
 
-1. Faça logon no [!DNL Workfront Fusion] conta.
-1. Clique em **[!UICONTROL Armazenamentos de dados]** no painel de navegação esquerdo.
+1. Faça logon em sua conta do [!DNL Workfront Fusion].
+1. Clique em **[!UICONTROL Repositórios de dados]** no painel de navegação esquerdo.
 1. Clique em **[!UICONTROL Adicionar armazenamento de dados]** no canto superior direito da tela.
 1. Insira as configurações para o novo armazenamento de dados.
 
-   Um título em negrito em um campo em uma [!DNL Workfront Fusion] O módulo indica uma configuração necessária.
+   Um título em negrito em um campo em um módulo [!DNL Workfront Fusion] indica uma configuração necessária.
 
    <table style="table-layout:auto">
     <col> 
@@ -134,7 +134,7 @@ Antes de usar um armazenamento de dados em um módulo, você deve criar o armaze
       <td> <p>Uma estrutura de dados é uma lista das colunas de uma tabela. Essa lista indica o nome da coluna e o tipo de dados.</p> <p>Siga um destes procedimentos:</p> 
        <ul> 
         <li style="font-weight: bold;">Selecionar uma estrutura de dados que já foi criada</li> 
-        <li> <p style="font-weight: bold;">Adicionar uma nova estrutura de dados</p> <p>Clique em <strong>[!UICONTROL Adicionar]</strong> para criar uma nova estrutura de dados.</p> <p>Para obter mais informações, consulte <a href="#set-up-the-data-structure" class="MCXref xref">Configurar a estrutura de dados</a> neste artigo.</p> </li> 
+        <li> <p style="font-weight: bold;">Adicionar uma nova estrutura de dados</p> <p>Clique em <strong>[!UICONTROL Adicionar]</strong> para criar uma nova estrutura de dados.</p> <p>Para obter mais informações, consulte a seção <a href="#set-up-the-data-structure" class="MCXref xref">Configurar a estrutura de dados</a> neste artigo.</p> </li> 
         <li style="font-weight: bold;"> <p>Deixe o campo vazio</p> <p style="font-weight: normal;">Se você não selecionar ou adicionar uma estrutura de dados, o banco de dados conterá apenas a chave primária. Esse tipo de banco de dados é útil se você quiser salvar somente as chaves e estiver interessado em saber apenas se uma chave específica existe ou não no banco de dados.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -148,7 +148,7 @@ Antes de usar um armazenamento de dados em um módulo, você deve criar o armaze
 ### Configurar a estrutura de dados
 
 1. Ao criar ou editar um armazenamento de dados, clique em **[!UICONTROL Adicionar]**.
-1. No **[!UICONTROL Adicionar estrutura de dados]** que for exibida, configure os seguintes campos:
+1. Na caixa **[!UICONTROL Adicionar estrutura de dados]** que é exibida, configure os seguintes campos:
 
    <table style="table-layout:auto">
     <col> 
@@ -162,8 +162,8 @@ Antes de usar um armazenamento de dados em um módulo, você deve criar o armaze
       <td> <p>[!UICONTROL Especificação]</p> </td> 
       <td> <p>Siga um destes procedimentos para configurar as colunas do armazenamento de dados.</p> 
        <ul> 
-        <li> <p>Clique em <strong>[!UICONTROL Adicionar item]</strong> para especificar as propriedades de uma coluna manualmente.</p> <p>Insira o <strong>[!UICONTROL Nome]</strong> e <strong>[!UICONTROL Tipo]</strong> para a coluna armazenamento de dados e defina as propriedades correspondentes.</p> </li> 
-        <li> <p>Clique em <strong>[!UICONTROL Gerador]</strong> para determinar as colunas com base nos dados de amostra fornecidos.</p> 
+        <li> <p>Clique em <strong>[!UICONTROL Adicionar item]</strong> para especificar as propriedades de uma coluna manualmente.</p> <p>Insira o <strong>[!UICONTROL Name]</strong> e <strong>[!UICONTROL Type]</strong> para a coluna de repositório de dados e defina as propriedades correspondentes.</p> </li> 
+        <li> <p>Clique em <strong>[!UICONTROL Generator]</strong> para determinar as colunas a partir dos dados de exemplo fornecidos.</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
           <span class="autonumber"><span><b>Exemplo: </b></span></span> 
           <p>Por exemplo, os seguintes dados de amostra JSON criam três colunas: nome, idade e número de telefone. O número de telefone é uma coleção de números de telefone celular e fixo.</p> 
@@ -177,7 +177,7 @@ Antes de usar um armazenamento de dados em um módulo, você deve criar o armaze
           <p><code>&rbrace;</code> </p> 
           <p>As colunas vazias na exibição do armazenamento de dados:</p> 
           <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
-          <p>Em seguida, é possível adicionar valores ao armazenamento de dados manualmente ou usando o [!DNL Workfront Fusion] módulos de armazenamento de dados.</p> 
+          <p>Você pode então adicionar valores ao armazenamento de dados manualmente ou usando os módulos de armazenamento de dados [!DNL Workfront Fusion].</p> 
          </div> </li> 
        </ul> </td> 
      </tr> 
@@ -190,7 +190,7 @@ Antes de usar um armazenamento de dados em um módulo, você deve criar o armaze
 
 ## Editar um armazenamento de dados existente
 
-É possível editar as propriedades e o conteúdo de um Armazenamento de dados existente na [!UICONTROL Armazenamento de dados] área de [!DNL Workfront Fusion].
+Você pode editar as propriedades e o conteúdo de um Armazenamento de Dados existente na área [!UICONTROL Armazenamento de Dados] de [!DNL Workfront Fusion].
 
 * [Editar as propriedades de um armazenamento de dados](#edit-the-properties-of-a-data-store)
 * [Editar o conteúdo de um armazenamento de dados](#edit-the-contents-of-a-data-store)
@@ -199,24 +199,24 @@ Antes de usar um armazenamento de dados em um módulo, você deve criar o armaze
 
 As propriedades de um armazenamento de dados incluem a estrutura de dados que o armazenamento de dados usa, bem como o tamanho do armazenamento de dados.
 
-1. Clique em **[!UICONTROL Armazenamento de dados]** ![](assets/data-store-icon.png) no painel de navegação esquerdo, para abrir a janela [!UICONTROL Armazenamento de dados] área.
+1. Clique em **[!UICONTROL Armazenamento de Dados]** ![](assets/data-store-icon.png) no painel de navegação esquerdo para abrir a área [!UICONTROL Armazenamento de Dados].
 1. Clique em **[!UICONTROL Editar]** ![](assets/data-store-edit.png) ao lado do armazenamento de dados que você deseja editar.
-1. (Opcional) Se desejar alterar a estrutura de dados usada por esse armazenamento de dados para outra estrutura de dados existente, selecione-a na **[!UICONTROL Estrutura de dados]** menu suspenso.
+1. (Opcional) Se desejar alterar a estrutura de dados usada por esse armazenamento de dados para outra estrutura de dados existente, selecione-a no menu suspenso **[!UICONTROL Estrutura de dados]**.
 
    Ou
 
-   (Opcional) Se quiser alterar a estrutura de dados usada por esse armazenamento de dados para uma estrutura de dados totalmente nova, consulte [Configurar a estrutura de dados](#set-up-the-data-structure) neste artigo.
+   (Opcional) Se você quiser alterar a estrutura de dados usada por esse armazenamento de dados para uma estrutura de dados totalmente nova, consulte [Configurar a estrutura de dados](#set-up-the-data-structure) neste artigo.
 
-1. (Opcional) Altere o tamanho do armazenamento de dados inserindo o novo tamanho na variável **[!UICONTROL Tamanho do armazenamento de dados em MB]** campo.
+1. (Opcional) Altere o tamanho do armazenamento de dados inserindo o novo tamanho no campo **[!UICONTROL Tamanho do armazenamento de dados em MB]**.
 1. Clique em **[!UICONTROL Salvar]**.
 
 ### Editar o conteúdo de um armazenamento de dados
 
-1. Clique em **[!UICONTROL Armazenamento de dados]** ícone ![](assets/data-store-icon.png) no painel de navegação esquerdo, para abrir a janela [!UICONTROL Armazenamento de dados] área.
-1. Clique em **[!UICONTROL Procurar]**  ao lado do armazenamento de dados que você deseja editar.
+1. Clique no ícone **[!UICONTROL Armazenamento de Dados]** ![](assets/data-store-icon.png) no painel de navegação esquerdo para abrir a área [!UICONTROL Armazenamento de Dados].
+1. Clique em **[!UICONTROL Procurar]** ao lado do armazenamento de dados que você deseja editar.
 1. (Opcional) Reordene as colunas arrastando-as para o local desejado.
-1. (Opcional) [!UICONTROL Editar] uma única célula clicando no ícone **[!UICONTROL Editar]** nessa célula e, em seguida, inserindo o valor desejado.
-1. (Opcional) Adicione um novo item ao armazenamento de dados clicando em **[!UICONTROL Adicionar]** e, em seguida, especificando as informações do novo item.
+1. (Opcional) [!UICONTROL Edite] uma única célula clicando no ícone **[!UICONTROL Editar]** nessa célula e inserindo o valor desejado.
+1. (Opcional) Adicione um novo item ao armazenamento de dados clicando em **[!UICONTROL Adicionar]** e inserindo as informações do novo item.
 1. Clique em **[!UICONTROL Salvar]**.
 
 ## Solução de problemas
@@ -240,9 +240,9 @@ No momento, não há nenhuma ferramenta que possa automatizar a restauração de
 
    Para obter informações sobre como inserir dados em um armazenamento de dados, consulte [Editar o conteúdo de um armazenamento de dados](#edit-the-contents-of-a-data-store) neste artigo.
 
-### [!UICONTROL Sem espaço] erro
+### Erro [!UICONTROL Sem espaço]
 
-Um [!UICONTROL Sem espaço] erro porque os armazenamentos de dados criados anteriormente já receberam o armazenamento de armazenamento de dados alocado.
+Erro [!UICONTROL Sem Espaço] porque o armazenamento de dados alocado já foi atribuído a seus armazenamentos de dados criados anteriormente.
 
 #### Solução alternativa
 
@@ -254,9 +254,9 @@ Um [!UICONTROL Sem espaço] erro porque os armazenamentos de dados criados anter
 >
 >Recomendamos que você não atribua todo o seu espaço a um único armazenamento de dados, a menos que tenha certeza de que não exigirá mais armazenamentos de dados.
 
-### [!UICONTROL Máximo de armazenamentos atingido] erro
+### Erro [!UICONTROL Máximo de armazenamentos atingido]
 
-A [!UICONTROL Máximo de armazenamentos atingido] erro porque sua organização usou todos os armazenamentos de dados disponíveis. Uma organização tem um número de armazenamentos de dados disponíveis igual ao dobro do número de cenários disponíveis. Portanto, o número total de armazenamentos de dados disponíveis depende do plano adquirido.
+Um erro de [!UICONTROL Máximo de armazenamentos atingido] ocorre porque sua organização usou todos os seus armazenamentos de dados disponíveis. Uma organização tem um número de armazenamentos de dados disponíveis igual ao dobro do número de cenários disponíveis. Portanto, o número total de armazenamentos de dados disponíveis depende do plano adquirido.
 
 Por exemplo, se sua organização tiver adquirido um plano com 15 cenários, ela poderá ter até 30 armazenamentos de dados.
 

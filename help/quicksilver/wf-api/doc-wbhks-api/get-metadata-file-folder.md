@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 7%
+source-wordcount: '268'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Retorna os metadados do arquivo ou pasta especificada.
 
 **URL**
 
-GET /metadata?id=[ID do documento ou da pasta]
+GET /metadata?id=[ID de documento ou pasta]
 
 ## Parâmetros de consulta
 
@@ -61,7 +61,7 @@ GET /metadata?id=[ID do documento ou da pasta]
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>título </td> 
    <td>String </td> 
    <td>O nome do documento ou pasta</td> 
   </tr> 
@@ -109,7 +109,7 @@ GET /metadata?id=[ID do documento ou da pasta]
 </table>
 
 **Exemplo:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>título:"Meu documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45,251Z",<br>tamanho: "32554694"<br>}</pre>
+<pre>{<br>title:"Meu Documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>size: "32554699 "<br></pre>
 
 >[!NOTE]
 >

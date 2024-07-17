@@ -26,23 +26,23 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plano do Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Workfront</a>*</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças herdadas</a>*</td> 
-   <td> <p>Você deve ser um administrador do Workfront. Para obter informações sobre administradores do Workfront, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront. Para obter informações sobre administradores do Workfront, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Verificar armazenamento de documentos
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 1. No painel esquerdo, clique em **Sistema** > **Informações do cliente**.
-1. No **Informações básicas** seção, localizar **Cota de armazenamento**. Aqui, você pode visualizar o armazenamento que está usando no momento, bem como a quantidade total de armazenamento que seu plano da Workfront inclui.
+1. Na seção **Informações Básicas**, encontre **Cota de Armazenamento**. Aqui, você pode visualizar o armazenamento que está usando no momento, bem como a quantidade total de armazenamento que seu plano da Workfront inclui.
 
 A cota de armazenamento é atualizada diariamente para mostrar a contagem mais atualizada.
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de administrador feitas com a versão do segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2024, consulte [Visão geral da versão do Segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## A lógica de exibição e a lógica de salto agora estão disponíveis no modo de visualização do designer de formulário
 
@@ -26,7 +26,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 O designer de formulário personalizado beta agora permite testar a lógica de exibição e ignorar a lógica no modo de visualização. Anteriormente, todos os campos eram exibidos na visualização mesmo quando a lógica era aplicada.
 
-Para obter mais informações sobre a visualização de um formulário personalizado no designer do formulário, consulte [Organizar e visualizar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Para obter mais informações sobre como visualizar um formulário personalizado no designer de formulário, consulte [Organizar e visualizar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Agora, empresas e usuários oferecem suporte a campos de formulário personalizados avançados
 
@@ -66,7 +66,7 @@ Esse recurso está disponível somente no designer de formulário beta, não no 
 
 Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## O mapeamento de atributos agora está disponível para organizações que migraram para o Adobe IMS
 
@@ -78,7 +78,7 @@ Os administradores de sistema do Workfront agora podem configurar o mapeamento d
 
 Anteriormente, essa funcionalidade só estava disponível para organizações que ainda não tinham sido integradas ao Adobe IMS.
 
-Para obter instruções sobre como configurar o mapeamento de atributos, consulte [Mapear atributos do usuário na experiência unificada do Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) no artigo **Mapear atributos do usuário e provisionar automaticamente novos usuários**.
+Para obter instruções sobre como configurar o mapeamento de atributos, consulte [Mapear atributos de usuário na experiência unificada do Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) no artigo **Mapear atributos de usuário e provisionar automaticamente novos usuários**.
 
 ## A lógica de salto e a lógica de exibição agora estão disponíveis no designer de formulário beta
 

@@ -17,8 +17,8 @@ ht-degree: 0%
 
 # Usar o Visualizador de provas da área de trabalho
 
-* [Instale o Visualizador de provas de desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
-* [Atualizar o Visualizador de provas da área de trabalho](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
-* [Abrir provas no Visualizador de provas da área de trabalho](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
-* [Revisar conteúdo não interativo no Visualizador de provas de desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
+* [Instalar o Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
+* [Atualizar o Visualizador de Revisão de Texto da Área de Trabalho](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
+* [Abrir provas no Visualizador de Provas da Área de Trabalho](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
+* [Revisar conteúdo não interativo no Visualizador de Revisão de Área de Trabalho](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
 * [Perguntas frequentes - Visualizador de provas de desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)

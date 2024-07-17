@@ -33,7 +33,7 @@ Os métodos HTTP padrão correspondem às seguintes operações:
 * **PUT** - Edita um objeto existente
 * **DELETE** - Exclui um objeto
 
-Para obter mais detalhes e exemplos de cada operação, consulte a [Documentação do desenvolvedor da API do Workfront Planning](https://developer.adobe.com/wf-planning/).
+Para obter mais detalhes e exemplos de cada operação, consulte a [documentação do desenvolvedor da API do Workfront Planning](https://developer.adobe.com/wf-planning/).
 
 ### Tipos de campo e modificadores de pesquisa usados com eles
 
@@ -116,25 +116,25 @@ O Workfront Planning suporta os seguintes modificadores de pesquisa:
         <td>$isAfter </td>
         <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Retorna registros cujo valor de campo está após o filtro  </td>
-        <td>"2024-05-15T20:00:00.000Z"  </td>
+        <td>"05-2024-15T20:00:00.000Z"  </td>
     </tr>
     <tr>
         <td>$isBefore </td>
         <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Retorna registros cujo valor de campo é anterior ao filtro </td>
-        <td>"2024-05-12T20:00:00.000Z" </td>
+        <td>"05-2024-12T20:00:00.000Z" </td>
     </tr>
     <tr>
         <td>$isBetween </td>
         <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Retorna registros cujo valor de campo está entre o filtro  </td>
-        <td><ul><li>"2024-05-12T20:00:00.000Z" </li><li>"2024-05-14T20:00:00.000Z" </li><ul>  </td>
+        <td><ul><li>"05-2024-12T20:00:00.000Z" </li><li>"05-2024-14T20:00:00.000Z" </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotBetween </td>
         <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Retorna registros cujo valor de campo não está entre o filtro  </td>
-        <td><ul><li>"2024-05-09T20:00:00.000Z"  </li><li>"2024-05-17T20:00:00.000Z"  </li><ul>  </td>
+        <td><ul><li>"05/2024/09T20:00:00.000Z"  </li><li>"05-2024-17T20:00:00.000Z"  </li><ul>  </td>
     </tr>
     <tr>
         <td>$isAnyOf </td>
@@ -329,9 +329,9 @@ Corpo da solicitação:
 
 ### Limites de consulta e respostas paginadas
 
-Por padrão, as solicitações da API de Planejamento retornam 500 resultados, começando do início da lista. Para substituir a limitação padrão do número de resultados, é possível usar o `limit` em suas solicitações e defina-o com um número diferente, até 2000 resultados.
+Por padrão, as solicitações da API de Planejamento retornam 500 resultados, começando do início da lista. Para substituir a limitação padrão do número de resultados, você pode usar o parâmetro `limit` em suas solicitações e defini-lo como um número diferente, até 2000 resultados.
 
-Recomendamos que você considere usar respostas paginadas para grandes conjuntos de dados adicionando o `offset` para suas solicitações. As respostas paginadas permitem especificar o local do primeiro resultado que deve ser retornado.
+Recomendamos que você considere usar respostas paginadas para conjuntos de dados grandes adicionando o parâmetro `offset` às suas solicitações. As respostas paginadas permitem especificar o local do primeiro resultado que deve ser retornado.
 
 Por exemplo, se quiser retornar os resultados 2001-4000, você poderá usar a solicitação a seguir. Este exemplo retorna 2000 registros que estão no status ativo, a partir do resultado 2001:
 
@@ -354,7 +354,7 @@ Corpo da solicitação:
 
 Para garantir que seus resultados sejam paginados corretamente, use um parâmetro de classificação. Isso permite que os resultados sejam retornados na mesma ordem, para que a paginação não repita ou ignore os resultados.
 
-Para obter mais informações sobre classificação, consulte [Classificação dos resultados da consulta na API](#sorting-query-results-in-the-api) neste artigo.
+Para obter mais informações sobre classificação, consulte [Classificar resultados da consulta na API](#sorting-query-results-in-the-api) neste artigo.
 
 
 

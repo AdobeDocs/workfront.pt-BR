@@ -17,11 +17,11 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Você pode usar atribuições inteligentes para identificar quem é o melhor usuário para concluir o trabalho.
 
@@ -55,7 +55,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou superiores com a capacidade de fazer atribuições em tarefas e problemas</p> </td> 
+   <td> <p>Permissões do Contribute ou superior com a capacidade de fazer atribuições em tarefas e problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,12 +66,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 As atribuições inteligentes estão disponíveis na maioria dos locais onde você pode fazer atribuições no Workfront.
 
-1. Vá para as seguintes áreas e clique no botão **Atribuições** ou **Atribuir esta para** campo:
+1. Vá para as seguintes áreas e clique no campo **Atribuições** ou **Atribuir a este campo**:
 
    * Uma lista de tarefas ou problemas ou um relatório
    * Um cabeçalho de tarefa ou problema
    * O painel Resumo de tarefas ou problemas
-   * <span class="preview">Caixa Nova tarefa ou Novo problema ao adicionar uma nova tarefa ou problema a um projeto</span>
+   * <span class="preview">Caixa Nova Tarefa ou Novo Problema, ao adicionar uma nova tarefa ou problema a um projeto</span>
    * O campo Atribuições de um item listado na área Página inicial
    * Uma tarefa ou problema no Balanceador de carga de trabalho
 
@@ -84,11 +84,11 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
 
      >[!TIP]
      >
-     >   O cabeçalho da lista é exibido **Aqui estão algumas recomendações** em vez de **Atribuições sugeridas** no ambiente de Produção.
+     >   O cabeçalho da lista exibe **Aqui estão algumas recomendações** em vez de **Atribuições sugeridas** no ambiente de Produção.
      >
-   * **Usuários e equipes**: exibido para tarefas e problemas.
-   * **Funções de trabalho**: exibe tarefas e problemas.
-   * **Classificar funções de trabalho de cartão**: exibido para tarefas. Para obter mais informações, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
+   * **Usuários e equipes**: exibições de tarefas e problemas.
+   * **Funções de trabalho**: exibições de tarefas e problemas.
+   * **Classificar funções de trabalho de cartão**: exibições para tarefas. Para obter mais informações, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -96,8 +96,8 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
 
    Para tarefas, as atribuições inteligentes são exibidas nas seguintes seções, dependendo de qual fase do cálculo do algoritmo identificou as atribuições:
 
-   * **Atribuições sugeridas**: Atribuições identificadas na primeira fase do cálculo do algoritmo de atribuição inteligente de tarefa. <span class="preview">Esta seção não está disponível para problemas.</span>
-   * <span class="preview">**Usuários e equipes**, **Funções de trabalho** ou **Classificar funções de trabalho de cartão**: Atribuições identificadas na segunda fase do cálculo do algoritmo de atribuição inteligente de tarefa. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **Atribuições sugeridas**: atribuições identificadas na primeira fase do cálculo do algoritmo de atribuição inteligente de tarefa. <span class="preview">Esta seção não está disponível para problemas.</span>
+   * <span class="preview">**Usuários e equipes**, **Funções de trabalho** ou **Funções de trabalho de cartão de taxa**: atribuições identificadas na segunda fase do cálculo do algoritmo de atribuição inteligente de tarefa. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
@@ -105,13 +105,13 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
 
 1. Selecione o usuário na lista de recomendações clicando no nome.
 
-1. (Opcional) Clique em **Atribuir a mim** para atribuir o item de trabalho a si mesmo.
+1. (Opcional) Clique em **Atribuir a mim** para atribuir o item de trabalho a você mesmo.
 
    >[!TIP]
    >
    >Se não houver sugestões, a lista de sugestões não será aberta.
 
 1. (Opcional) Se não quiser usar um dos usuários recomendados da lista de atribuições inteligentes, comece digitando o nome do recurso desejado e selecione o nome quando ele aparecer na lista.
-1. Clique em **Enter** para fazer a atribuição.
+1. Clique em **Inserir** para fazer a atribuição.
 
    O usuário selecionado está atribuído à tarefa ou problema.

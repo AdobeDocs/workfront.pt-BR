@@ -1,7 +1,7 @@
 ---
 navigation-topic: the-new-workfront-experience
 title: Fixar páginas para personalizar o espaço de trabalho
-description: Você pode fixar seu trabalho mais importante [!DNL Adobe Workfront] para maior visibilidade, melhor organização e acesso mais rápido. As páginas fixadas são sempre acessíveis a partir da parte superior de qualquer página no Workfront.
+description: Você pode fixar seu trabalho mais importante [!DNL Adobe Workfront] para aumentar a visibilidade, melhorar a organização e agilizar o acesso. As páginas fixadas são sempre acessíveis a partir da parte superior de qualquer página no Workfront.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Fixar páginas para personalizar o espaço de trabalho
 
-Você pode fixar seu trabalho mais importante no [!DNL Adobe Workfront] para maior visibilidade, melhor organização e acesso mais rápido. As páginas fixadas são sempre acessíveis a partir da parte superior de qualquer página no Workfront.
+Você pode fixar seu trabalho mais importante no [!DNL Adobe Workfront] para aumentar a visibilidade, melhorar a organização e agilizar o acesso. As páginas fixadas são sempre acessíveis a partir da parte superior de qualquer página no Workfront.
 
-Você pode ser atribuído a um modelo de layout que tenha páginas já fixadas (conforme descrito em [Personalizar páginas fixadas usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Esses pinos predefinidos não podem ser renomeados ou removidos. Todas as páginas fixadas são exibidas à direita dos pinos predefinidos.
+Você pode ser atribuído a um modelo de layout que já tenha páginas fixadas (conforme descrito em [Personalizar páginas fixadas usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Esses pinos predefinidos não podem ser renomeados ou removidos. Todas as páginas fixadas são exibidas à direita dos pinos predefinidos.
 
 ## Requisitos de acesso
 
@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
 
 ## Fixar uma página
 
@@ -49,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **[!UICONTROL Fixar página atual]** na parte superior da página.
 
-   A página fixada agora pode ser acessada na parte superior de qualquer página no [!DNL Workfront].
+   A página fixada agora pode ser acessada na parte superior de qualquer página em [!DNL Workfront].
 
 ## Acessar uma página fixada
 
@@ -61,7 +61,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Se você tiver muitas páginas fixadas, talvez seja necessário clicar no link **[!UICONTROL Mais] menu** ![](assets/more-icon-spectrum.png) para exibir páginas adicionais fixadas.
+   Se você tiver muitas páginas fixadas, talvez precise clicar no menu **[!UICONTROL Mais]** ![](assets/more-icon-spectrum.png) para exibir páginas fixadas adicionais.
 
    A página fixada é exibida.
 
@@ -69,8 +69,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 É possível alterar o nome de uma página fixada para ter mais significado para você.
 
-1. Passe o mouse sobre a página fixa na navegação superior ou **[!UICONTROL Menu Mais]**.
-1. Clique na seta ao lado do nome do pino e selecione **[!UICONTROL Renomear pino]**.
+1. Passe o mouse sobre a página fixada na navegação superior ou no **[!UICONTROL menu Mais]**.
+1. Clique na seta ao lado do nome do pin e selecione **[!UICONTROL Renomear pin]**.
 
    ![Renomear pino](assets/rename-remove-pin.png)
 
@@ -84,7 +84,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Você pode reorganizar a ordem em que as páginas fixadas são exibidas.
 
-1. Passe o mouse sobre a página fixa na navegação superior ou **[!UICONTROL Menu Mais]**. Ao ver o cursor manual, clique e arraste o pino para a ordem desejada.
+1. Passe o mouse sobre a página fixada na navegação superior ou no **[!UICONTROL menu Mais]**. Ao ver o cursor manual, clique e arraste o pino para a ordem desejada.
 
    Suas alterações são salvas automaticamente e lembradas na próxima vez que você acessar o Workfront.
 
@@ -95,8 +95,8 @@ Você pode reorganizar a ordem em que as páginas fixadas são exibidas.
 
    Ou
 
-   Clique na seta ao lado do nome do pino e selecione **[!UICONTROL Remover pino]**.
+   Clique na seta ao lado do nome do pin e selecione **[!UICONTROL Remover pin]**.
 
    ![Remover pino](assets/rename-remove-pin.png)
 
-   A página não pode mais ser acessada da parte superior de qualquer página no [!DNL Workfront].
+   A página não está mais acessível da parte superior de qualquer página em [!DNL Workfront].

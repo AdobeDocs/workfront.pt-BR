@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: navigate-workfront
-title: Recentes e favoritos em [!DNL Adobe Workfront]
+title: Recentes e favoritos em  [!DNL Adobe Workfront]
 description: Revise os seguintes artigos para saber mais sobre como usar favoritos e recentes no Workfront.
 feature: Get Started with Workfront
 author: Lisa

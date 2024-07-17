@@ -32,7 +32,6 @@ Você pode indicar se os resultados em um agrupamento devem ser exibidos recolhi
 >* Os resultados de um agrupamento sempre são exibidos expandidos depois de acessados de um elemento do gráfico.
 >
 
-
 Você também pode indicar se um agrupamento deve ser exibido expandido ou recolhido usando o modo de texto.
 
 ## Requisitos de acesso
@@ -45,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -60,19 +59,19 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Indica se os resultados de um agrupamento devem ser recolhidos ou expandidos usando o modo de texto
 
 1. Ir para uma lista de objetos.
-1. No **Agrupamento** selecione **Novo Agrupamento**.
+1. No menu suspenso **Agrupamento** selecione **Novo Agrupamento**.
 
-1. Adicione um agrupamento e clique em **Alternar para modo de texto**.
+1. Adicione um agrupamento e clique em **Alternar para Modo de Texto**.
 
    Ou
 
@@ -88,4 +87,4 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    group.0.iscollapsed=false
    ```
 
-1. Clique em **Concluído**, depois **Salvar Agrupamento**.
+1. Clique em **Concluído** e em **Salvar agrupamento**.

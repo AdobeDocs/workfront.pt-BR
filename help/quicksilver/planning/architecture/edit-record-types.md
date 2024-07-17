@@ -30,7 +30,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É possível editar a aparência dos tipos de registros criados por você ou por qualquer outra pessoa. Para obter informações sobre a criação de tipos de registro do Workfront Planning, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É possível editar a aparência dos tipos de registros criados por você ou por qualquer outra pessoa. Para obter informações sobre como criar tipos de registro do Workfront Planning, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisitos de acesso
 
@@ -75,13 +75,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -104,11 +104,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 
    O espaço de trabalho é aberto e os tipos de registro são exibidos.
-1. Passe o mouse sobre o cartão de um tipo de registro e clique no **Mais** menu ![](assets/more-menu.png) no canto superior direito do cartão de tipo de registro e clique em **Editar**.
+1. Passe o mouse sobre o cartão de um tipo de registro e clique no menu **Mais** ![](assets/more-menu.png) no canto superior direito do cartão de tipo de registro e clique em **Editar**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. No **Editar tipo de registro** , atualize as seguintes informações:
+1. Na caixa **Editar tipo de registro**, atualize as seguintes informações:
 
    * Edite o nome do tipo de registro, se necessário. <!--did they add a field label for this? -->
    * **Descrição**: edite ou adicione uma descrição para o tipo de registro com mais informações sobre ele.
@@ -120,7 +120,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Salvar**.
 1. (Opcional) Clique no cartão de tipo de registro na área do espaço de trabalho para abrir a página do tipo de registro.
-1. Clique em **Mais** à direita do nome do tipo de registro e clique em **Editar** para atualizar informações sobre o tipo de registro.
+1. Clique no menu **Mais** à direita do nome do tipo de registro e clique em **Editar** para atualizar as informações sobre o tipo de registro.
 
    >[!TIP]
    >

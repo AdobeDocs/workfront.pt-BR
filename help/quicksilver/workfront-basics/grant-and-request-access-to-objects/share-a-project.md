@@ -42,9 +42,9 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 * Quando você compartilha um projeto, todas as tarefas, problemas e documentos herdam as mesmas permissões, a menos que especificado de outra forma.
 
-  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário, consulte [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
-  O administrador do Workfront pode especificar se os documentos devem herdar permissões de objetos superiores no nível de acesso do usuário. Para obter mais informações sobre a restrição de permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  O administrador do Workfront pode especificar se os documentos devem herdar permissões de objetos superiores no nível de acesso do usuário. Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Você pode remover permissões herdadas de um projeto para que os objetos filhos não as herdem. Para obter mais informações sobre como remover permissões herdadas de objetos, consulte [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -55,8 +55,8 @@ Você pode compartilhar um projeto das seguintes maneiras:
 * Manualmente, seguindo um destes procedimentos:
 
    * Adicionar usuários à equipe do projeto. Quando você adiciona usuários à equipe do projeto, eles obtêm automaticamente permissões de Visualização para o projeto.\
-     Para obter mais informações sobre como adicionar usuários a uma equipe de projeto, consulte a seção &quot;Adicionando usuários a uma equipe de projeto&quot; em [Visão geral da equipe do projeto](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Compartilhamento individual ou em massa dos projetos ao usar o **Compartilhamento** opção.
+     Para obter mais informações sobre como adicionar usuários a uma equipe de projeto, consulte a seção &quot;Adicionando usuários a uma equipe de projeto&quot; na [Visão geral da Equipe de Projeto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+   * Compartilhamento individual ou em massa de projetos ao usar a opção **Compartilhamento**.
 
      O compartilhamento de um projeto é semelhante ao compartilhamento de todos os outros objetos no Adobe Workfront.
 
@@ -64,13 +64,13 @@ Você pode compartilhar um projeto das seguintes maneiras:
 
 * Automaticamente, seguindo um destes procedimentos:
 
-   * Colocar um projeto em um **Portfolio** ou **Programa** que já é compartilhado com outras pessoas. Os usuários obtêm as mesmas permissões para o projeto que têm para o portfólio ou programa.\
+   * Coloque um projeto em um **Portfolio** ou **Programa** que já esteja compartilhado com outras pessoas. Os usuários obtêm as mesmas permissões para o projeto que têm para o portfólio ou programa.\
      Para obter informações sobre como adicionar um projeto a um **Portfolio**, consulte [Adicionar projetos a um portfólio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
      Para obter informações sobre como adicionar um projeto a um **Programa**, consulte [Adicionar um projeto a um programa](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-     Para obter informações sobre a visualização de permissões herdadas em um objeto, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     Para obter informações sobre a exibição de permissões herdadas em um objeto, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto. Para obter informações sobre o compartilhamento de projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Defina o modelo de acesso ao projeto.
 
      Para definir o modelo de acesso ao projeto, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
@@ -79,7 +79,7 @@ Você pode compartilhar um projeto das seguintes maneiras:
      >
      >Ao anexar ou salvar um modelo, você pode apagar as regras de Compartilhamento do projeto de modelo.
 
-   * Editar um projeto e definir o **Quando é concedido acesso a alguém a este projeto** configuração. Para obter mais informações, consulte [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Editar um projeto e definir a configuração **Quando alguém tiver acesso a este projeto**. Para obter mais informações, consulte [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -104,7 +104,7 @@ Você pode compartilhar um projeto das seguintes maneiras:
 
 ## Limitações para diferentes tipos de licença
 
-* Os usuários com uma licença de Trabalhador não têm permissões para gerenciar projetos. Para os funcionários, a maior permissão de compartilhamento é o Contribute.
+* Os usuários com uma licença de Trabalhador não têm permissões para gerenciar projetos. Para funcionários, a maior permissão de compartilhamento é o Contribute.
 * Os usuários com uma Solicitação de licença podem visualizar informações do projeto, mas têm acesso limitado ao projeto.
 * Uma exceção à alteração do status de um projeto ocorre quando um usuário com permissões de Exibição ou Contribute também é incluído em um processo de aprovação. Eles podem aprovar o projeto, o que altera o status do projeto, mas o status é o status predefinido para aprovação ou rejeição.
 * Para poder copiar um projeto, um usuário também deve ter acesso para criar projetos em seu Nível de acesso.
@@ -350,4 +350,4 @@ A tabela a seguir lista as permissões que os usuários podem conceder ao compar
  </tbody> 
 </table>
 
-&#42;Os usuários sem acesso a dados financeiros não podem gerenciar riscos e finanças para projetos, mesmo se tiverem acesso para Editar aos projetos. Para obter informações sobre o acesso a dados financeiros, consulte [Conceder acesso a dados financeiros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42;Os usuários sem acesso a dados financeiros não podem gerenciar riscos e finanças para projetos, mesmo que tenham acesso para Editar aos projetos. Para obter informações sobre acesso a dados financeiros, consulte [Conceder acesso a dados financeiros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

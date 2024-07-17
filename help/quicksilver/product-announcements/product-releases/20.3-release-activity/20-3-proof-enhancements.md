@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de prova feitas com a versão 20.3 para o ambiente de Produção do. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 10 de agosto de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte [Visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte a [visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Melhoria de visibilidade entre a guia Atualizações e os comentários de prova
 
@@ -43,7 +43,7 @@ Para simplificar o processo de prova, agora é possível visualizar e editar cam
 
 Anteriormente, só era possível exibir campos personalizados no visualizador de provas.
 
-Para obter mais informações, consulte [Visão geral dos detalhes do documento](../../../documents/managing-documents/document-details-overview.md).
+Para obter mais informações, consulte [Visão geral de Detalhes do Documento](../../../documents/managing-documents/document-details-overview.md).
 
 ## Nova aparência para a barra de ferramentas Documento
 

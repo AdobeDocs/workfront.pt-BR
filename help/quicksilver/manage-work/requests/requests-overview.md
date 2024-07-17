@@ -19,5 +19,5 @@ ht-degree: 7%
 
 Esta seção contém as seguintes subseções:
 
-* [Criar e gerenciar filas de solicitações](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+* [Criar e gerenciar Filas de Solicitações](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
 * [Criar solicitações](../../manage-work/requests/create-requests/create-requests.md)

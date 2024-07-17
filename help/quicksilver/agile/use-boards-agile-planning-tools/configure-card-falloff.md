@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -41,17 +41,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Configurar queda de cartão
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique em **[!UICONTROL Configurar]** à direita da placa para abrir o painel Configurar.
-1. Expandir **[!UICONTROL Cartões]**.
-1. Ativar **[!UICONTROL Arquivar automaticamente cartões do quadro]**.
+1. Clique em **[!UICONTROL Configurar]** à direita do quadro para abrir o painel Configurar.
+1. Expanda **[!UICONTROL Cartões]**.
+1. Ative o **[!UICONTROL Arquivar automaticamente cartões do quadro]**.
 
-   ![Configurações de fallout de cartão](assets/card-falloff-switch.png)
+   ![Configurações de fallout do cartão](assets/card-falloff-switch.png)
 
 1. Selecione quando arquivar cartões do quadro. Você pode escolher até 8 semanas ou até 60 dias.
 
@@ -59,4 +59,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecione de qual coluna remover cartões.
 1. Clique em **[!UICONTROL Salvar]** na mensagem de confirmação.
-1. Clique em **[!UICONTROL Ocultar configuração]** para fechar o [!UICONTROL Configurar] painel. As definições de configuração são aplicadas automaticamente quando você atualiza a placa.
+1. Clique em **[!UICONTROL Ocultar configuração]** para fechar o painel [!UICONTROL Configurar]. As definições de configuração são aplicadas automaticamente quando você atualiza a placa.

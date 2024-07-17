@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de Provas incluídas na versão 2019.2. A funcionalidade está planejada para estar disponível no ambiente de Produção na semana de 20 de maio de 2019.
 
-Para obter uma lista de todas as alterações feitas em 2019.2, consulte [Visão geral da atividade da versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2019.2, consulte a [Visão Geral da Atividade da Versão 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Permitir que usuários sem uma licença de prova apliquem ações e resolvam comentários
 
@@ -45,5 +45,5 @@ Em qualquer relatório de Aprovação de prova, agora é possível usar o novo f
 
 Isso é útil, por exemplo, se você foi solicitado a aprovar provas que têm várias versões. Quando você executa o relatório Aprovação de prova com o filtro É versão atual do documento, o relatório lista somente a versão atual de cada prova que está aguardando aprovação, omitindo versões anteriores nas quais você não precisa mais trabalhar.
 
-Para obter mais informações, consulte [Filtro: relatório Aprovação de prova para omitir versões de prova anteriores](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
+Para obter mais informações, consulte [Filtro: relatório de Aprovação de prova para omitir versões de prova anteriores](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
 

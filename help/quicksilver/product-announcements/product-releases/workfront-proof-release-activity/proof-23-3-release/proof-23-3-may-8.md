@@ -23,7 +23,7 @@ Esses aprimoramentos serão disponibilizados no ambiente de Produção com a ver
 
 ## Atualização do Visualizador de provas de desktop
 
-O Visualizador de provas de desktop foi atualizado para a versão 2.1.24! Essa atualização inclui suporte ao Chrome v100 para revisar provas interativas, bem como as seguintes correções de problemas:
+O Visualizador de provas de desktop foi atualizado para a versão 2.1.24! Essa atualização inclui suporte ao Chrome v100 para revisão de provas interativas, bem como as seguintes correções de problemas:
 
 * A versão da prova agora pode ser alterada novamente depois de alterar inicialmente a versão.
 * Os links em provas interativas agora funcionam conforme esperado.
@@ -31,4 +31,4 @@ O Visualizador de provas de desktop foi atualizado para a versão 2.1.24! Essa a
 * As marcações conectadas a comentários agora são exibidas corretamente ao serem selecionadas.
 * Os menus suspensos para Função de prova e Alerta por email agora funcionam conforme esperado.
 
-Para obter informações sobre como baixar a atualização, consulte [Atualizar o Visualizador de provas da área de trabalho](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Para obter informações sobre como baixar a atualização, consulte [Atualizar o Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

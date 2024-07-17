@@ -40,7 +40,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -49,20 +49,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Configurar o backlog em uma placa de workflow
 
 {{step1-to-boards}}
 
-1. Abra o fluxo de trabalho no qual deseja trabalhar. Para abrir um workflow, clique em [!UICONTROL **Exibir fluxo de trabalho**].
+1. Abra o fluxo de trabalho no qual deseja trabalhar. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
 1. Clique em qualquer quadro no fluxo de trabalho para abri-lo.
-1. Clique em [!UICONTROL **Configurar**] à direita da placa para abrir o painel Configurar.
-1. Ativar [!UICONTROL **Incluir uma coluna de backlog neste quadro**].
+1. Clique em [!UICONTROL **Configurar**] à direita do quadro para abrir o painel Configurar.
+1. Ativar [!UICONTROL **Incluir uma coluna de lista de pendências neste quadro**].
 
    A coluna de backlog é adicionada à esquerda do quadro. Permanece em branco até que você aplique uma consulta a ele.
 
-1. Expandir [!UICONTROL **Consulta de backlog**].
+1. Expandir [!UICONTROL **Consulta de lista de pendências**].
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Por exemplo, se você escolher &quot;Data de vencimento&quot; e &quot;existe&quot;, o backlog exibirá cartões com datas de vencimento atribuídas. Qualquer cartão sem data de vencimento não será extraído para o backlog.
 
-1. (Opcional) Clique em [!UICONTROL **Adicionar condição**] para adicionar outra condição à query.
+1. (Opcional) Clique em [!UICONTROL **Adicionar condição**] para adicionar outra condição à consulta.
 
    ![Consulta de lista de pendências](assets/backlog-query-wrkstrm-board.png)
 

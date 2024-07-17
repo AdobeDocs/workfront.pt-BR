@@ -8,35 +8,35 @@ feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
 source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Use &quot;opTask&quot; e &quot;issue&quot; ao fazer referência a problemas
 
-O nome de um problema aparece como `opTask` no banco de dados do Adobe Workfront. Embora haja ocasiões em que você precisa usar o plug-in `issue` nome do campo para se referir a problemas, na maioria das vezes você deve usar o `opTask` nome do campo em vez de `issue` ao fazer referência a problemas.
+O nome de um problema aparece como `opTask` no banco de dados do Adobe Workfront. Embora haja ocasiões em que você precisa usar o nome de campo `issue` para fazer referência a problemas, na maioria das vezes você deve usar o nome de campo `opTask` em vez de `issue` ao fazer referência a problemas.
 
-Para obter mais informações sobre como os objetos aparecem no banco de dados do Workfront, consulte [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
+Para obter mais informações sobre como os objetos aparecem no banco de dados do Workfront, consulte o [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
-## `opTask` filename
+## Nome de arquivo `opTask`
 
-Use o `opTask` nome do campo ao referenciar problemas nos seguintes contextos:
+Use o nome de campo `opTask` ao fazer referência a problemas nos seguintes contextos:
 
 * Quando você cria um relatório personalizado em modo de texto para problemas e deseja referenciar problemas em exibições, filtros, agrupamentos ou prompts.
 
-   Para obter mais informações sobre como usar o modo de texto em um relatório, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Para obter mais informações sobre como usar o modo texto em um relatório, consulte [Visão geral do Modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 <!--* When you pull information about issues using our API.  
   For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
 
 * Ao atualizar campos de problema em uma folha do importador de dados de Início.
 
-   Para obter mais informações sobre como importar dados no Workfront usando um Kickstart, consulte [Importar dados para o Adobe Workfront usando um modelo do Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Para obter mais informações sobre como importar dados no Workfront usando um Kick-Start, consulte [Importar dados para o Adobe Workfront usando um modelo Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-## `issue` nome do campo
+## Nome do campo `issue`
 
-Use o `issue` nome do campo para fazer referência a problemas nos seguintes contextos:
+Use o nome de campo `issue` para referenciar problemas nos seguintes contextos:
 
 * Ao fazer referência a problemas em uma coleção usando o modo de texto em um relatório.
 * Ao fazer referência a uma coleção de problemas usando a API do Workfront.

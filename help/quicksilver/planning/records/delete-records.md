@@ -65,13 +65,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Contribuir com permissões ou mais altas para um espaço de trabalho</a> </p>  
+   <td> <p>Contribute ou permissões superiores para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Siga um destes procedimentos:
 
    * Em uma exibição de Tabela, clique no nome de um registro.
-   * Na exibição Tabela, passe o mouse sobre o nome de um registro, depois clique no botão **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
+   * Na exibição de Tabela, passe o mouse sobre o nome de um registro, em seguida, clique no menu **Mais** ![](assets/more-menu.png) e, em seguida, clique em **Exibir**
 
      ![](assets/contextual-menu-for-record-row.png)
    * Em uma exibição de Linha do tempo, clique em uma barra de registro.
 
    A página de registro é aberta.
 
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Excluir**, depois **Excluir** novamente para confirmar.
+1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do registro e clique novamente em **Excluir** e **Excluir** para confirmar.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 O registro é excluído e não pode ser recuperado.
@@ -136,17 +136,17 @@ O registro é excluído e não pode ser recuperado.
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior esquerdo da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
+1. (Condicional) No menu suspenso **Exibir**, no canto superior esquerdo da tabela, selecione um modo de exibição de Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
 1. Siga um destes procedimentos:
 
    * Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
-   * Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Excluir**
+   * Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do registro e em **Excluir**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Clique em **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) para abrir a caixa com as informações detalhadas do registro e clique em **Mais** ![](assets/more-menu.png) à direita do nome do registro, então **Excluir**.
+   * Clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** para abrir a caixa com as informações detalhadas do registro e clique em **Mais** ![](assets/more-menu.png) à direita do nome do registro e em **Excluir**.
 
    O registro é excluído e não pode ser recuperado.
 

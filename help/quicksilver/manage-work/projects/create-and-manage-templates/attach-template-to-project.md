@@ -37,16 +37,16 @@ Você deve ter o seguinte para executar as etapas descritas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a projetos </p> <p>Para obter informações sobre o acesso ao projeto, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acesso aos projetos</a>.</p> <p>Visualizar acesso a modelos</p> <p>Para obter informações sobre permissões de modelo, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Compartilhar um modelo</a>. </p> <p>Para obter informações sobre acesso a modelo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Conceder acesso aos modelos</a>.</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a projetos </p> <p>Para obter informações sobre acesso a projetos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acesso a projetos</a>.</p> <p>Visualizar acesso a modelos</p> <p>Para obter informações sobre permissões de modelo, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Compartilhar um modelo</a>. </p> <p>Para obter informações sobre acesso a modelos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Conceder acesso a modelos</a>.</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do projeto</p> <p>Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>. </p> <p>Exibir permissões ou superiores ao modelo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do projeto</p> <p>Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>. </p> <p>Exibir permissões ou superiores ao modelo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -77,26 +77,26 @@ Você deve ter o seguinte para executar as etapas descritas neste artigo:
 
 Você pode anexar um modelo a um projeto no Workfront a partir da página do projeto ou de uma lista de projetos ou relatório.
 
-1. Vá para o projeto ao qual deseja anexar um modelo e clique no botão **Mais** ícone ![](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto
+1. Vá para o projeto ao qual deseja anexar um modelo e clique no ícone **Mais** ![](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no botão **Mais** ícone ![](assets/qs-more-icon-on-an-object.png) no topo da lista.
+   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no ícone **Mais** ![](assets/qs-more-icon-on-an-object.png) na parte superior da lista.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
-1. Clique em **Anexar modelo**.
+1. Clique em **Anexar Modelo**.
 
    A caixa Anexar Modelo será exibida.
 
-1. Comece digitando o nome do modelo que deseja anexar na variável **Procurar Modelos** e, em seguida, clique nele quando for exibido.na lista
+1. Comece a digitar o nome do modelo que deseja anexar no campo **Modelos de Pesquisa** e clique nele quando ele for exibido.na lista
 
    Ou
 
-   Clique no nome de um modelo na **Outros modelos** área.
+   Clique no nome de um modelo na área **Outros modelos**.
 
    Uma pré-visualização do modelo é exibida à direita, contendo as seguintes informações sobre ele:
 
@@ -108,16 +108,16 @@ Você pode anexar um modelo a um projeto no Workfront a partir da página do pro
 
    ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Opcional) Clique no link **Favoritos** ícone ![](assets/favorites-icon-small.png) à esquerda do nome do modelo para marcá-lo como favorito. Isso move o modelo na lista Favoritos.
+1. (Opcional) Clique no ícone ![](assets/favorites-icon-small.png) de **Favoritos** à esquerda do nome do modelo para marcá-lo como favorito. Isso move o modelo na lista Favoritos.
 
    ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (Opcional) Clique no link **Favoritos** ícone ![](assets/favorites-icon-selected.png) novamente para removê-lo da lista Favoritos.
+1. (Opcional) Clique novamente no ícone **Favoritos** ![](assets/favorites-icon-selected.png) para removê-lo da lista Favoritos.
 1. Clique em **Personalizar e anexar**.
 
    ![](assets/attach-template-large-box-nwe-350x262.png)
 
-1. Atualize as informações nas seções a seguir antes de anexar o modelo (ou clique em **Anexar modelo** a qualquer momento):
+1. Atualize as informações nas seguintes seções antes de anexar o modelo (ou clique em **Anexar modelo** a qualquer momento):
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Você pode anexar um modelo a um projeto no Workfront a partir da página do pro
      </tr> 
      <tr> 
       <td role="rowheader">Selecione a tarefa do projeto que você deseja como predecessora das tarefas neste modelo.</td> 
-      <td> <p>Clique no campo para exibir uma lista de tarefas do projeto. Selecione qual tarefa do projeto você deseja concluir antes que as tarefas do modelo possam começar. Como alternativa, você pode ignorar essa etapa e configurar relações no projeto depois que o modelo for anexado. </p> <p> Selecione o <strong>Tipo de Dependência</strong>, <strong>Defasagem</strong> informações e se você deseja que o predecessor seja <strong>Reforçado</strong> ou não. </p> </td> 
+      <td> <p>Clique no campo para exibir uma lista de tarefas do projeto. Selecione qual tarefa do projeto você deseja concluir antes que as tarefas do modelo possam começar. Como alternativa, você pode ignorar essa etapa e configurar relações no projeto depois que o modelo for anexado. </p> <p> Selecione as informações de <strong>Tipo de Dependência</strong>, <strong>Atraso</strong> e se você deseja que o predecessor seja <strong>Aplicado</strong> ou não. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Selecione a tarefa de projeto que você deseja como a principal das tarefas neste modelo.</td> 
@@ -143,7 +143,7 @@ Você pode anexar um modelo a um projeto no Workfront a partir da página do pro
      </tr> 
      <tr> 
       <td role="rowheader">Os itens selecionados abaixo são transferidos para o projeto. Desmarque aqueles que deseja excluir.</td> 
-      <td> <p>Desmarque as caixas de seleção ao lado de qualquer informação que você deseja apagar do modelo antes de anexá-la ao projeto. Essas informações não são transferidas do modelo para o projeto. Para obter mais informações sobre cada campo, consulte <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Visão geral da anexação de um modelo a um projeto</a>. </p> <p>Importante: se você marcar a opção <strong>Configuração de Propriedades e Problemas da Fila</strong> , os Detalhes da fila do modelo substituem os do projeto. Nesse caso, as Regras de Encaminhamento, os Tópicos de Fila e os Grupos de Tópicos do modelo são adicionados àqueles do projeto. <br>Se o projeto estiver configurado como uma fila de solicitações e o modelo anexado ao projeto não estiver configurado como uma fila de solicitações, as informações da fila do projeto serão removidas se você deixar a <strong>Configuração de Propriedades e Problemas da Fila</strong> caixa marcada. <br>Se você desmarcar a opção <strong>Propriedades da fila e configuração do problema</strong> , todas as configurações de fila do projeto são preservadas e nenhuma configuração de fila do modelo é anexada. </p> </td> 
+      <td> <p>Desmarque as caixas de seleção ao lado de qualquer informação que você deseja apagar do modelo antes de anexá-la ao projeto. Essas informações não são transferidas do modelo para o projeto. Para obter mais informações sobre cada campo, consulte <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Visão geral de anexar um modelo a um projeto</a>. </p> <p>Importante: se você marcar a caixa <strong>Propriedades da fila e configuração de problemas</strong>, os Detalhes da fila do modelo substituirão os do projeto. Nesse caso, as Regras de Encaminhamento, os Tópicos de Fila e os Grupos de Tópicos do modelo são adicionados àqueles do projeto. <br>Se o projeto estiver configurado como uma fila de solicitações e o modelo anexado ao projeto não estiver configurado como uma fila de solicitações, as informações da fila do projeto serão removidas se você deixar marcada a caixa <strong>Propriedades da fila e Configuração de problemas</strong>. <br>Se você desmarcar a caixa <strong>Propriedades da Fila e Configuração de Problema</strong>, todas as configurações de Configuração da Fila do projeto serão preservadas e nenhuma configuração de Fila do modelo será anexada. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Seção Forms personalizada</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -163,7 +163,7 @@ Você pode anexar um modelo a um projeto no Workfront a partir da página do pro
    >* Se os campos dos formulários personalizados do modelo já existirem no projeto e contiverem informações, eles preservarão as informações já existentes no projeto. Não é possível editá-los durante a anexação do template.
 
 1. Clique em **Anexar Modelo.**
-1. Clique em **Cancelar anexo** para parar de anexar o modelo.
+1. Clique em **Cancelar anexo** para parar de anexar o modelo.
 
    Ou
 
@@ -171,11 +171,11 @@ Você pode anexar um modelo a um projeto no Workfront a partir da página do pro
 
    Depois de anexar o modelo, você pode editar o projeto e ajustar qualquer tarefa, informação ou configuração, conforme necessário.
 
-1. (Opcional) Clique em **Detalhes do projeto**, depois **Visão geral** para exibir o nome do modelo anexado na variável **Relacionamentos de projeto** área.
+1. (Opcional) Clique em **Detalhes do projeto** e depois em **Visão geral** para exibir o nome do modelo anexado na área **Relações do projeto**.
 
    >[!TIP]
    >
-   >Se você anexar mais de um modelo ao projeto, somente o modelo anexado primeiro será exibido nesse campo. Para obter informações, consulte a [Anexar vários modelos a um projeto existente e exibir informações do modelo](#attach-multiple-templates-to-an-existing-project-and-view-template-information) neste artigo.
+   >Se você anexar mais de um modelo ao projeto, somente o modelo anexado primeiro será exibido nesse campo. Para obter informações, consulte a seção [Anexar vários modelos a um projeto existente e exibir informações do modelo](#attach-multiple-templates-to-an-existing-project-and-view-template-information) neste artigo.
 
 1. (Opcional) Remova as informações do modelo do projeto ao qual você anexou o modelo. Para obter informações, consulte [Remover informações do modelo de um projeto](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 
@@ -191,7 +191,7 @@ Para entender qual modelo é aplicado a um projeto:
 
 1. Navegue até um projeto que tenha um modelo anexado.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Encontre o nome do modelo anexado ao projeto na **Modelo** na parte inferior da **Visão geral** seção em **Relacionamentos de projeto** .
+1. Encontre o nome do modelo anexado ao projeto no campo **Modelo** na parte inferior da seção **Visão geral** em **Relações do projeto**.
 
    ![](assets/nwe-template-info-on-project-350x356.png)
 

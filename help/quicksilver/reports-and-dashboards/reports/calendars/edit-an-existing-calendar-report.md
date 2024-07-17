@@ -2,20 +2,20 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Editar um relatório de calendário existente
-description: Você pode modificar um calendário existente adicionando ou excluindo um link a um projeto. Você também pode modificar agrupamentos de calendário associados a um relatório de calendário.
+description: Você pode modificar um calendário existente adicionando ou excluindo um link para um projeto. Você também pode modificar agrupamentos de calendários associados a um relatório de calendário.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
 source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 # Editar um relatório de calendário existente
 
-Você pode modificar um calendário existente adicionando ou excluindo um link a um projeto. Você também pode modificar agrupamentos de calendário associados a um relatório de calendário.
+Você pode modificar um calendário existente adicionando ou excluindo um link para um projeto. Você também pode modificar agrupamentos de calendários associados a um relatório de calendário.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Você pode modificar um calendário existente adicionando ou excluindo um link a
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,37 +33,37 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Acesso à [!UICONTROL Editar] para [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendários]</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Editar] acesso a [!UICONTROL Relatórios], [!UICONTROL Painéis] e [!UICONTROL Calendários]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Acesso ao [!UICONTROL Gerenciar] relatório de calendário</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Acesso [!UICONTROL Gerenciar] ao relatório de calendário</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Editar um relatório de calendário existente
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Calendários]**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Calendários]**.
 
-1. (Opcional) Para alterar o nome do relatório de calendário, clique no link [!UICONTROL nome do calendário] , faça as alterações desejadas.\
+1. (Opcional) Para alterar o nome do relatório de calendário, clique no campo [!UICONTROL nome do calendário] e faça as alterações desejadas.\
    ![Alterar nome do relatório](assets/titlechange-250x230.png)\
    Se você compartilhou o relatório de calendário com outros usuários ou equipes, o nome de calendário modificado é atualizado automaticamente na exibição de calendário.
 
 1. (Opcional) Para adicionar um projeto ao relatório de calendário:
 
    1. Clique em **[!UICONTROL Adicionar ao Calendário].**
-   1. No **[!UICONTROL Nome do projeto]** , comece digitando o nome de um projeto do qual deseja adicionar eventos de calendário e clique no nome quando ele for exibido na lista suspensa.\
+   1. No campo **[!UICONTROL Nome do projeto]**, comece digitando o nome de um projeto do qual deseja adicionar eventos de calendário, em seguida, clique no nome quando ele for exibido na lista suspensa.\
 
       ![Selecione o nome do projeto](assets/calendar-project-name.png)
 Itens do projeto e suas tarefas e problemas associados são adicionados ao relatório de calendário.
@@ -76,6 +76,6 @@ Itens do projeto e suas tarefas e problemas associados são adicionados ao relat
 
    1. Escolha como deseja agrupar os itens:
 
-      * [Use [!UICONTROL Datas Planejadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [Use [!UICONTROL Datas Projetadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [Usar [!UICONTROL Datas planejadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Usar [!UICONTROL Datas Projetadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Usar campos de data personalizados em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Project com a versão 2020.2 para o ambiente de Produção. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de maio de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 2020.2, consulte [Visão geral da versão 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 2020.2, consulte a [visão geral da versão 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Para administradores do Workfront: novo failsafe quando o status do projeto para novos projetos estiver oculto ou desbloqueado
 
@@ -26,7 +26,7 @@ Na Configuração, você configura uma preferência para garantir que cada novo 
 
 Para garantir que novos projetos sempre tenham um status, mesmo que um administrador oculte ou desbloqueie o status configurado para novos projetos, o sistema agora atribui o primeiro status na lista Status a todos os novos projetos até que você configure o novo status para novos projetos novamente.
 
-Para obter informações sobre como configurar a preferência para o status de todos os novos projetos, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Configurando as Preferências do Projeto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Para obter informações sobre como definir a preferência para o status de todos os novos projetos, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Definindo Preferências de Projeto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
 **Disponível nestes ambientes:**
 
@@ -42,7 +42,7 @@ A experiência de definir as preferências do projeto agora é mais intuitiva e 
 * Se você digitar um número inválido para uma opção como &quot;Horas típicas por dia de trabalho&quot;, uma mensagem de aviso será exibida imediatamente em vez de ser exibida depois que você clicar em Salvar.
 * Os rótulos de opção correspondem ao texto da interface correspondente em outro lugar no Workfront, como a área Detalhes e os relatórios.
 
-Para obter informações sobre a área Preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Configurando as Preferências do Projeto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Para obter informações sobre a área Preferências do Projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Definindo Preferências do Projeto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
 **Disponível nestes ambientes:**
 
@@ -72,7 +72,7 @@ Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../.
 
 Para obter informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Copiar e Duplicar Tarefas](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-Para obter uma visão geral de todas as Restrições de Tarefa, consulte [Visão geral de Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Visão Geral da Restrição de Tarefa](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Para obter uma visão geral de todas as Restrições de Tarefa, consulte [Visão geral da Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Visão Geral da Restrição de Tarefa](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
 **Disponível nestes ambientes:**
 

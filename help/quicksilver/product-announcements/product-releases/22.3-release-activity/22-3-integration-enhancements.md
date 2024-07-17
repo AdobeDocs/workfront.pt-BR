@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Aprimoramentos de integração
 
-Esta página descreve todas as melhorias de Integração feitas com a versão 22.3 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção em janeiro de 2022, na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte [Visão geral da versão 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página descreve todas as melhorias de Integração feitas com a versão 22.3 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção em janeiro de 2022, na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte a [Visão geral da versão 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integração do Adobe Workfront para Experience Manager Assets
 
@@ -49,7 +49,7 @@ Você não perderá o acesso a documentos que estão vinculados no momento por m
 
 Os administradores do Workfront podem ativar e desativar as integrações do SharePoint e do SharePoint herdadas separadamente, com base nas necessidades de sua organização.
 
-Para obter mais informações, consulte [Configurar a integração do SharePoint herdado](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+Para obter mais informações, consulte [Configurar a integração herdada do SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 ## Combinar vários arquivos em uma única prova no plug-in Creative Cloud
 

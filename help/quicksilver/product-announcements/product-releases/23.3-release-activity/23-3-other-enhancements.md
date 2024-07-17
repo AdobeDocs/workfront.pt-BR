@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as outras melhorias feitas com a versão 23.3 do. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Nova experiência na página inicial
 
@@ -30,9 +30,9 @@ Nova casa é um novo recurso importante que estamos animados para continuar a de
 
 A Nova página inicial será a experiência padrão para todos os usuários após o lançamento. No entanto, você pode optar por reverter para a experiência da Página inicial existente, à medida que continuamos desenvolvendo seus recursos.
 
-Para obter mais informações, consulte [Introdução à nova página inicial no Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obter mais informações, consulte [Introdução à Nova Página Inicial na Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## Nova experiência de comentários para objetos adicionais
 
@@ -42,14 +42,14 @@ Essa será a única experiência de comentários para esses objetos, já que a e
 
 Para obter mais informações, consulte [Nova atividade de lançamento de experiência de comentário](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Novo comentário sobre experiência beta para projetos, tarefas e problemas
+## Nova experiência de comentários do Beta para projetos, tarefas e problemas
 
-A nova experiência de comentário Beta agora está disponível para projetos, tarefas e documentos. Antes desta atualização, a experiência beta de comentários estava disponível somente para problemas e metas.
+A nova experiência de comentários no Beta agora está disponível para projetos, tarefas e documentos. Antes desta atualização, a experiência de comentários no Beta estava disponível somente para problemas e metas.
 
-Para obter informações sobre os recursos disponíveis atualmente na experiência de comentários Beta, consulte [Novo comentário sobre a atividade de lançamento de experiência beta](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Para obter informações sobre os recursos disponíveis atualmente na experiência de comentários no Beta, consulte [Nova atividade de lançamento de experiência beta de comentários](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Perfis sem avatares agora exibem as iniciais do usuário
 
 Para facilitar a localização de usuários específicos em listas grandes, os perfis sem avatares personalizados agora exibem as iniciais do usuário em um plano de fundo colorido em listas e relatórios herdados. Essa é uma pequena alteração cosmética e não se aplica se uma foto de avatar já estiver sendo usada ou se o usuário estiver desativado.
 
-Para obter mais informações sobre edição de perfis de usuário, consulte [Editar o perfil de um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obter mais informações sobre como editar perfis de usuários, consulte [Editar perfil de um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

@@ -60,13 +60,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 Você pode preencher um painel com os seguintes itens no Adobe Workfront:
 
 * Relatórios\
-  Para obter mais informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Calendários\
-  Para obter mais informações sobre a criação de calendários, consulte [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+  Para obter mais informações sobre como criar calendários, consulte [Visão geral dos relatórios do calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 * Páginas Externas\
-  Para obter mais informações sobre como criar páginas externas, consulte [Incorporar uma página externa da Web em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Para obter mais informações sobre como criar páginas externas, consulte [Incorporar uma página da Web externa em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Para obter mais informações sobre como criar um painel, consulte [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
@@ -75,16 +75,16 @@ Para obter mais informações sobre como criar um painel, consulte [Criar um pai
 Você pode compartilhar um painel com os usuários das seguintes maneiras:
 
 * Compartilhamento individual.\
-  Para obter mais informações sobre o compartilhamento de painéis, consulte [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) e [Compartilhar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+  Para obter mais informações sobre como compartilhar painéis, consulte [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) e [Compartilhar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Adicione um painel a qualquer área ou objeto no Workfront com uma seção personalizada.\
-  Para obter mais informações sobre criação de seções personalizadas, consulte [Navegação à esquerda no Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  Para obter mais informações sobre como criar seções personalizadas, consulte [Navegação à esquerda na Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Coloque os painéis em modelos de layout, que você pode compartilhar com os usuários.\
   Para obter mais informações sobre como compartilhar painéis por meio de modelos de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 * Imprima uma cópia impressa deles para compartilhar com os usuários.\
-  Para obter mais informações sobre a impressão de painéis, consulte [Imprimir um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
+  Para obter mais informações sobre como imprimir painéis, consulte [Imprimir um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
 * Exporte-os como um arquivo PDF para que você possa enviá-los por email aos usuários.\
   Para obter mais informações sobre como exportar um painel para um arquivo PDF, consulte [Exportar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
@@ -106,7 +106,7 @@ Você pode exibir um painel das seguintes maneiras:
 
 ## Acessar um painel
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
 1. Passe o mouse sobre a barra lateral esquerda e selecione uma das seguintes opções:
 
    * **Meus Painéis**: os painéis que você criou estão listados aqui.
@@ -116,15 +116,15 @@ Você pode exibir um painel das seguintes maneiras:
      >Se você não tiver o acesso para Editar a Relatórios, Painéis e Calendários no seu nível de acesso, não será possível criar painéis. Nesse caso, a lista Meus painéis está vazia.
 
    * **Painéis compartilhados**: os painéis criados por outros usuários e compartilhados com você são listados aqui.
-   * **Todos os painéis**: os painéis e painéis que outros usuários compartilharam com você estão listados aqui.
+   * **Todos os Painéis**: seus painéis e painéis que outros usuários compartilharam com você estão listados aqui.
 
    ![Área de painéis](assets/dashboards-area.png)
 
 1. Clique no nome de um painel para exibi-lo.\
    O painel exibe as informações incluídas nos relatórios, calendários ou páginas externas que os preenchem.
-1. (Opcional e condicional) Clique no link **Recarregar** no canto superior direito do painel para atualizar as informações no painel.\
+1. (Opcional e condicional) Clique no ícone **Recarregar** na parte superior direita do painel para atualizar as informações no painel.\
    As informações no painel são sincronizadas em tempo real quando você as acessa pela primeira vez. Se você exibir o painel por algum tempo em seu navegador, as informações contidas nos relatórios no painel poderão se tornar desatualizadas. A data e a hora em que o painel foi atualizado pela última vez são listadas à esquerda deste ícone.\
-   ![Ícone Recarregar](assets/dashboard-reload-icon.png)
+   ![Ícone de recarregamento](assets/dashboard-reload-icon.png)
 
 ## Excluir painéis
 

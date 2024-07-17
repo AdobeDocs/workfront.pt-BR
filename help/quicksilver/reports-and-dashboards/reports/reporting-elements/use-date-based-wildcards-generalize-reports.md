@@ -9,7 +9,7 @@ exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
 source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -49,12 +49,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões para um relatório para editar elementos de relatórios em um relatório</p> <p>Gerenciar permissões em uma exibição ou um filtro para editá-las</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório para editar elementos de relatórios em um relatório</p> <p>Gerenciar permissões em uma exibição ou um filtro para editá-las</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -67,30 +67,30 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 Para inserir um curinga com base em data em um relatório:
 
 1. Vá para um relatório para o qual deseja inserir um curinga com base em data.
-1. Clique em **Ações de Relatório**, depois **Editar**.
+1. Clique em **Ações de Relatório** e depois em **Editar**.
 
-1. Clique em **Filtros** guia.
-1. Clique em **Adicionar uma regra de filtro**.
+1. Clique na guia **Filtros**.
+1. Clique em **Adicionar uma Regra de Filtro**.
 1. Comece digitando o nome do campo pelo qual deseja filtrar.\
    É necessário digitar campos que façam referência a uma data.
-1. Selecionar **Igual** no menu suspenso para a variável de filtro.
+1. Selecione **Igual** no menu suspenso da variável de filtro.
 
    >[!TIP]
    >
-   >Você sempre deve selecionar o **Igual** ao trabalhar com curingas no Adobe Workfront.
+   >Você sempre deve selecionar a variável de filtro **Igual** ao trabalhar com curingas no Adobe Workfront.
 
-1. No **Comece a digitar o nome...** digite: `$$TODAY` se quiser exibir informações sobre algo que ocorre no mesmo dia em que o relatório é executado.
+1. Na caixa **Comece a digitar o nome ...**, digite: `$$TODAY` se desejar exibir informações sobre algo que ocorra no mesmo dia em que o relatório for executado.
 
    Ou
 
-   Tipo `$$NOW` se desejar exibir informações sobre algo que ocorre na mesma data e hora em que o relatório é executado.
+   Digite `$$NOW` se desejar exibir informações sobre algo que ocorre na mesma data e hora em que o relatório é executado.
 
    Essa data é sempre diferente, pois muda com a data em que o relatório é realmente visualizado por um usuário. portanto, as informações no relatório são diferentes de dia para dia.
 
-1. (Opcional) Se desejar exibir informações que ocorram em um período posterior à data em que o relatório é executado, digite `$$TODAY+1w` para exibir informações na semana seguinte, ou `$$TODAY+2m` para exibir informações nos próximos dois meses. Você também pode indicar períodos de tempo para trimestres, horas, dias ou anos.
-1. (Opcional) Se desejar exibir informações sobre algo que ocorreu em um período anterior à data em que o relatório foi executado, digite `$$TODAY-1w` para exibir informações da semana anterior, ou `$$TODAY-2m` para exibir informações dos dois meses anteriores. Você também pode indicar períodos de tempo para trimestres, horas, dias ou anos.
+1. (Opcional) Se desejar exibir informações que ocorrem dentro de um período de tempo após a data em que o relatório é executado, digite `$$TODAY+1w` para exibir informações na semana seguinte, ou `$$TODAY+2m` para exibir informações nos próximos dois meses. Você também pode indicar períodos de tempo para trimestres, horas, dias ou anos.
+1. (Opcional) Se desejar exibir informações sobre algo que ocorreu em um período anterior à data em que o relatório é executado, digite `$$TODAY-1w` para exibir informações da semana anterior, ou `$$TODAY-2m` para exibir informações dos dois meses anteriores. Você também pode indicar períodos de tempo para trimestres, horas, dias ou anos.
 
-   Para obter uma lista completa de atributos, qualificadores e operadores que você pode usar em curingas baseados em data, consulte o artigo [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Para obter uma lista completa de atributos, qualificadores e operadores que você pode usar em curingas baseados em data, consulte o artigo [Visão geral das variáveis de filtro de curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 

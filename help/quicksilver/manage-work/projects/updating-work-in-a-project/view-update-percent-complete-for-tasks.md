@@ -56,10 +56,10 @@ Você deve ter o seguinte acesso para atualizar tarefas manualmente:
 
 Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das seguintes áreas:
 
-* **Em uma lista de tarefas**: É possível atualizar o percentual concluído de uma tarefa quando a coluna Percentual concluído é exibida.\
-  Para obter mais informações sobre edição em linha, consulte [Itens de edição em linha em uma lista no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **Em uma lista de tarefas**: você pode atualizar o percentual concluído de uma tarefa quando a coluna Percentual concluído for exibida.\
+  Para obter mais informações sobre edição em linha, consulte [itens de edição em linha em uma lista no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **Na visualização Marco**: é possível atualizar o percentual concluído de uma tarefa ao usar a visualização Marco em uma lista de projetos ou em um relatório de projeto. Para obter mais informações, consulte [Usar a visualização de Etapas](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **No modo de exibição Marco**: Você pode atualizar o percentual concluído de uma tarefa ao usar o modo de exibição Marco em uma lista de projetos ou em um relatório de projeto. Para obter mais informações, consulte [Usar a exibição de Marco](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 <!--only in legacy commenting: 
 * **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
@@ -72,11 +72,11 @@ Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das s
   >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
   >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
-* **No cabeçalho da tarefa**: é possível atualizar o percentual concluído de uma tarefa no cabeçalho da tarefa. Para obter informações, consulte [Editar tarefas](../../tasks/manage-tasks/edit-tasks.md).
+* **No cabeçalho da tarefa**: você pode atualizar o percentual concluído de uma tarefa no cabeçalho da tarefa. Para obter informações, consulte [Editar tarefas](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-* **No painel Resumo de uma tarefa**: é possível atualizar o percentual concluído de uma tarefa na parte superior do painel Resumo ao visualizar a tarefa nas seguintes áreas:
+* **No painel Resumo de uma tarefa**: você pode atualizar a porcentagem concluída de uma tarefa na parte superior do painel Resumo ao visualizar a tarefa nas seguintes áreas:
 
    * Lista de tarefas ou relatório
    * Planilha de horas
@@ -84,11 +84,11 @@ Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das s
 
   ![](assets/update-percent-complete-in-task-summary-highlighted.png)
 
-  Para obter mais informações, consulte [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  Para obter mais informações, consulte [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
-* **Início**: você pode atualizar o percentual concluído de uma tarefa ou problema no painel Resumo na área Página inicial ou no widget Meu trabalho.
+* **Página inicial**: você pode atualizar a porcentagem concluída de uma tarefa ou problema no painel Resumo na área Página inicial ou no widget Meu trabalho.
 
-Para obter informações, consulte  [Introdução à nova Página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obter informações, consulte [Introdução à nova Página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Considerações sobre a atualização do percentual concluído de uma tarefa
 
@@ -106,18 +106,18 @@ Para obter informações, consulte  [Introdução à nova Página inicial](/help
    * Uma lista de tarefas
    * Uma lista de projetos e aplicar a visualização Marco
    * Uma tarefa, acessando a página de tarefas
-1. Localize o **Percentual Completo** campo da tarefa cuja porcentagem concluída você deseja atualizar.
+1. Localize o campo **Percentual concluído** da tarefa cuja porcentagem concluída você deseja atualizar.
 
    >[!TIP]
    >
    >  O campo Percentual concluído sempre é exibido na parte superior do painel Resumo.
 
 
-1. Clique dentro do **Percentual Completo** e digite um número entre 0 e 100
+1. Clique dentro do campo **Percentual concluído** e digite um número entre 0 e 100
 
    Ou
 
-   Clique e arraste o **Percentual Completo** barra para o número necessário para indicar quanto da tarefa você concluiu, quando disponível.
+   Clique e arraste a barra **Percentual concluído** para o número necessário para indicar quanto da tarefa você concluiu, quando disponível.
 
    >[!NOTE]
    >

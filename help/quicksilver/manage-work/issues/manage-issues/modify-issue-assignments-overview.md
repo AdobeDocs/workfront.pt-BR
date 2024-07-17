@@ -29,7 +29,7 @@ Você pode atribuir problemas a usuários, equipes ou funções de trabalho ou c
 
 Este artigo contém informações gerais sobre o impacto de modificar atribuições de problemas. Para obter informações sobre como atribuir problemas, consulte os seguintes artigos:
 
-* Para obter informações sobre atribuição de problemas, consulte [Atribuir problemas](../../../manage-work/issues/manage-issues/assign-issues.md) e [Modificar atribuições de usuário para vários problemas em uma lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* Para obter informações sobre atribuição de problemas, consulte [Atribuir problemas](../../../manage-work/issues/manage-issues/assign-issues.md) e [Modificar atribuições de usuários para vários problemas em uma lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
 * Para obter informações sobre como atribuir problemas usando o Balanceador de carga de trabalho, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 

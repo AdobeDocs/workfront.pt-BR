@@ -16,7 +16,7 @@ ht-degree: 16%
 # Alinhar metas convertendo resultados e atividades em metas
 
 Você pode alinhar duas metas manualmente ou converter os resultados e as atividades de uma meta existente em outra meta. O resultado ou a atividade convertida se torna a meta secundária da meta original.
-Para obter informações sobre como alinhar duas metas manualmente, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+Para obter informações sobre como alinhar manualmente duas metas, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Requisitos de acesso
 
@@ -39,7 +39,7 @@ Para obter informações sobre como alinhar duas metas manualmente, consulte [Al
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -49,7 +49,7 @@ Para obter informações sobre como alinhar duas metas manualmente, consulte [Al
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -80,7 +80,7 @@ Você deve ter o seguinte antes de iniciar:
 
 * Uma meta existente com resultados e atividades existentes.
 
-  Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+  Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -120,13 +120,13 @@ Considere o seguinte ao converter resultados e atividades em metas:
 
 1. Vá para uma meta que tenha um resultado ou uma atividade que você deseja converter em uma meta.
 1. Na página da meta, clique em **Indicadores de progresso** no painel esquerdo.
-1. Selecione um resultado ou uma atividade na lista de indicadores de progresso e clique no botão **Converter para meta** ícone ![](assets/convert-to-goal-icon-unshimmed.png) na parte superior da lista de indicadores de progresso. A caixa Converter em meta é aberta.
+1. Selecione um resultado ou uma atividade na lista de indicadores de progresso e clique no ícone ![](assets/convert-to-goal-icon-unshimmed.png) de **Converter em meta** na parte superior da lista de indicadores de progresso. A caixa Converter em meta é aberta.
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. Atualize as seguintes informações:
    * **Nome da meta**: por padrão, a nova meta tem o mesmo nome da atividade ou do resultado original.
-   * **Período**: por padrão, o período da nova meta é o trimestre atual. É possível selecionar a variável **Habilitar datas personalizadas** configuração para definir um período personalizado para a nova meta.
-   * **Proprietário da meta**: por padrão, o novo proprietário da meta é o proprietário do resultado ou atividade original.
+   * **Período**: por padrão, o período da nova meta é o trimestre atual. Você pode selecionar a configuração **Habilitar datas personalizadas** para definir um período personalizado para a nova meta.
+   * **Proprietário da meta**: por padrão, o novo proprietário da meta é o proprietário da atividade ou do resultado original.
    * **Descrição**: adicione mais informações sobre a nova meta.
 1. Clique em **Salvar**
 

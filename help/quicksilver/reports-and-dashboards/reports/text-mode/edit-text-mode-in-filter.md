@@ -23,7 +23,7 @@ ht-degree: 0%
 
 É possível editar um filtro em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar filtros mais complexos.
 
-Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a seção [Exemplos de filtros personalizados](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) no artigo [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a seção [Amostras de filtros personalizados](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) no artigo [Amostras personalizadas de exibição, filtro e agrupamento: índice do artigo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Requisitos de acesso
 
@@ -66,7 +66,7 @@ Antes de começar a usar o modo de texto em um relatório ou lista, sempre verif
 
 Para obter mais informações, consulte:
 
-* [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Visão geral do Modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
@@ -84,12 +84,12 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
 1. Siga um destes procedimentos:
 
-   1. Para acessar o filtro a partir de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > **Filtros** guia.
-   1. Para acessar o filtro em uma lista, vá para a lista e no **Filtro** menu, passe o mouse sobre o filtro que deseja modificar e clique em **Editar** ícone ![](assets/edit-icon.png).
+   1. Para acessar o filtro de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > guia **Filtros**.
+   1. Para acessar o filtro de uma lista, vá para a lista e, no menu **Filtro**, passe o mouse sobre o filtro que deseja modificar e clique no ícone ![](assets/edit-icon.png) de **Editar**.
 
       O construtor de filtros é aberto.
 
-1. Clique em **Adicionar uma regra de filtro** para começar a adicionar as condições do filtro, clique em **Modo de texto** ou **Alternar para modo de texto** no lado direito do construtor.
+1. Clique em **Adicionar uma Regra de Filtro** para começar a adicionar as condições do filtro e em **Modo de texto** ou **Alternar para Modo de texto** no lado direito do construtor.
 1. Adicione instruções de filtro usando o modo de texto. Cada declaração de filtro pode conter as seguintes linhas e informações adicionais:
 
    <table style="table-layout:auto"> 
@@ -118,7 +118,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
         <p><code>plannedCompletionDate=$$TODAYbm</code> </p> 
         <p><code>plannedCompletionDate_Mod=between</code> </p> 
         <p><code>plannedCompletionDate_Range=$$TODAYem</code> </p> 
-        <p>Para obter uma lista completa de modificadores de filtro no modo de texto, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filtro e modificadores de condição</a>.</p> 
+        <p>Para obter uma lista completa de modificadores de filtro em modo de texto, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro e condição</a>.</p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -150,17 +150,17 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
 1. Para adicionar uma instrução de filtro conectada pelo operador &quot;OR&quot;, faça o seguinte:
 
-   1. Adicione uma nova linha de código e digite OR:1: seguido pelo objeto ou atributo pelo qual você deseja filtrar e pelo valor com o qual você deseja compará-lo. Para referenciar tarefas que estão em qualquer status, exceto Nova, use a seguinte linha:
+   1. Adicione uma nova linha de código e tipo OR:1: seguido pelo objeto ou atributo pelo qual você deseja filtrar e o valor com o qual você deseja compará-lo. Para referenciar tarefas que estão em qualquer status, exceto Nova, use a seguinte linha:
 
       `OR:1:status=NEW`
 
-   1. Adicione uma segunda linha e digite OR:1: seguido pelo objeto, pelo modificador e pelo código do modificador. Para definir o modificador para a linha de código que faz referência a todos os status de tarefa, exceto para Novo, use a seguinte linha do modificador:
+   1. Adicione uma segunda linha e digite OR:1: seguido pelo objeto, modificador e código do modificador. Para definir o modificador para a linha de código que faz referência a todos os status de tarefa, exceto para Novo, use a seguinte linha do modificador:
 
       `OR:1:status_Mod=notin`
 
       Cada linha da nova instrução deve ser precedida por &quot;OR:`<number>`:&quot;.
 
-      Para obter informações sobre como criar instruções &quot;OR&quot; em um filtro, consulte [Criar instruções &quot;OR&quot; em filtros do modo de texto](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      Para obter informações sobre como criar instruções &quot;OR&quot; em um filtro, consulte [Criar instruções &quot;OR&quot; em filtros de modo de texto](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
       >[!NOTE]
       >
@@ -175,7 +175,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Clique em **Sair do modo texto** ou **Concluído** para salvar as alterações no modo de texto e continuar editando o relatório ou o filtro.
-1. Clique em **Salvar + Fechar** para salvar seu relatório ou **Salvar Filtro** para salvar o filtro na lista.
+1. Clique em **Sair do modo de texto** ou **Concluído** para salvar suas alterações no modo de texto e continuar editando o relatório ou o filtro.
+1. Clique em **Salvar + Fechar** para salvar seu relatório ou em **Salvar Filtro** para salvar o filtro na lista.
 
 

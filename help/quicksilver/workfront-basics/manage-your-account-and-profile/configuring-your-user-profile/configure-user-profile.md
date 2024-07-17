@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management;setup
 navigation-topic: manage-your-account-and-profile
 title: Configurar seu perfil de usuário
-description: Leia os artigos desta seção para saber como configurar suas [!DNL Workfront] perfil do usuário.
+description: Leia os artigos desta seção para saber como configurar seu perfil de usuário  [!DNL Workfront] .
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Configurar [!UICONTROL Minhas configurações]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-* [Configurar o tempo de folga pessoal no [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+* [Configurar [!UICONTROL Minhas Configurações]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
+* [Configurar folga pessoal em  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)

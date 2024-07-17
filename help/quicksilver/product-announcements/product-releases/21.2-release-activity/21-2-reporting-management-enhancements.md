@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21. 2 Melhorias nos relatórios
 
-Esta página descreve todas as melhorias de Relatórios feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte [21.2 Visão geral da versão](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página descreve todas as melhorias de Relatórios feitas com a versão 21.2 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 10 de maio de 2021. Para obter uma lista de todas as alterações disponíveis com a versão 21.2, consulte a [Visão geral da versão 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Restringir a edição de horas em projetos e relatórios
 
@@ -25,7 +25,7 @@ Para fornecer mais controle sobre a edição de horas na guia Horas em um projet
 
 Anteriormente, os usuários com Folhas de horas e horas ativadas no nível de acesso podiam editar horas.
 
-Para obter mais informações, consulte [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obter mais informações, consulte [Configurar preferências de horas e folha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Nova aparência para o campo Atribuições em listas e relatórios atualizados
 
@@ -62,7 +62,7 @@ Para corresponder à aparência moderna de outras áreas na nova experiência do
 * Ao clicar em um campo de digitação antecipada, o menu de sugestões agora é exibido antes da inserção do texto.
 * O menu de sugestões é mais responsivo ao comprimento dos valores e esses valores agora são truncados no final quando o limite de caracteres é atingido, em vez de no meio do valor.
 
-Para obter informações sobre listas atualizadas, consulte [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Para obter informações sobre listas atualizadas, consulte a seção [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
 

@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 22.3 Melhorias nos relatórios
 
-Esta página descreve todas as melhorias de Relatórios feitas com a versão 22.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página descreve todas as melhorias de Relatórios feitas com a versão 22.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte a [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Remoção e adição de campos de orçamento de recursos em listas e relatórios
 

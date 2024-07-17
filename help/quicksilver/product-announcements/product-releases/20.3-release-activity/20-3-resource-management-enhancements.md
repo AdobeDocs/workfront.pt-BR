@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 20.3 para o ambiente de Produção. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 10 de agosto de 2020.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte [Visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 20.3, consulte a [visão geral da versão 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Incluir horas de problemas na área Trabalho atribuído do Balanceador de carga de trabalho
 
@@ -44,7 +44,7 @@ Esses filtros substituem as variáveis de filtro curinga de $$USER.ID, $$USER.ro
 
 Ao aplicar um desses filtros e, em seguida, compartilhar o Balanceador de carga de trabalho ou colocá-lo em um painel, todos os outros usuários verão suas próprias informações.
 
-Para obter informações sobre como aplicar filtros ao Balanceador de carga de trabalho, consulte [Filtrar informações no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Para obter informações sobre como aplicar filtros ao Balanceador de carga de trabalho, consulte [Informações de filtro no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ## Nova classificação para projetos no Balanceador de carga de trabalho
 
@@ -58,11 +58,11 @@ Para fornecer uma perspectiva precisa do progresso da carga de trabalho, introdu
 
 Além disso, com essa melhoria, se uma tarefa ou um problema for concluído antes da Data de conclusão planejada, as horas alocadas dos dias restantes serão eliminadas para indicar que elas não contam para a alocação geral do usuário.
 
-Para obter informações sobre como navegar no Balanceador de carga de trabalho e ativar configurações, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter informações sobre como navegar no Balanceador de carga de trabalho e habilitar configurações, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Os recursos do Balanceador de carga de trabalho anteriormente comunicados como lançados com a versão 20.2
 
-* [Ajustar a alocação diária e semanal no Balanceador de carga de trabalho](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
+* [Ajustar a alocação diária e semanal no Balanceador de Carga de Trabalho](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
 * [Atualizar horas planejadas da tarefa no Balanceador de carga de trabalho](#update-task-planned-hours-in-the-workload-balancer)
 * [Uma maneira mais conveniente de atualizar alocações no Balanceador de carga de trabalho](#a-more-convenient-way-to-update-allocations-in-the-workload-balancer)
 
@@ -89,7 +89,7 @@ Uma nova opção na área Gerenciamento de recursos do nível de acesso agora pe
 
 Para obter informações sobre como gerenciar alocações no Balanceador de carga de trabalho, consulte [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Para obter informações sobre como conceder acesso ao Gerenciamento de recursos, consulte [Conceder acesso ao Gerenciamento de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Para obter informações sobre como conceder acesso ao Gerenciamento de Recursos, consulte [Conceder acesso ao Gerenciamento de Recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ### Uma maneira mais conveniente de atualizar alocações no Balanceador de carga de trabalho {#a-more-convenient-way-to-update-allocations-in-the-workload-balancer}
 

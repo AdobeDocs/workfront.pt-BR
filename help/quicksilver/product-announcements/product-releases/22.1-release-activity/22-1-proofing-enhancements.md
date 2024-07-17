@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 17 de janeiro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.1, consulte a [Visão geral da versão 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Recursos de prova aprimorados para revisores e solicitantes
 
@@ -47,7 +47,7 @@ Todos os usuários também se beneficiam da conectividade aprimorada entre o Wor
 
 Para obter mais informações, consulte
 
-* [Visão geral das funções de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Visão geral sobre funções de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 *  
 
 ## Aprimoramentos de assinatura eletrônica para provas
@@ -56,18 +56,18 @@ Facilitamos para os usuários a assinatura eletrônica de provas. Agora, os usu�
 
 >[!IMPORTANT]
 >
->Para assinar eletronicamente uma prova com credenciais de SSO, você deve configurar o SSO no Workfront Proof. Para obter mais informações sobre como ativar o SSO, consulte [Configurar o logon único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Para assinar eletronicamente uma prova com credenciais de SSO, você deve configurar o SSO no Workfront Proof. Para obter mais informações sobre como habilitar o SSO, consulte [Configurar Logon Único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
 Anteriormente, os usuários precisavam usar credenciais do Workfront Proof, que são diferentes de suas credenciais do Workfront.
 
-Para obter mais informações, consulte [Visão geral da segurança de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Para obter mais informações, consulte [Visão geral sobre segurança de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Atualização do Desktop Viewer
 
-Atualizamos o Visualizador de provas de desktop para oferecer suporte ao Chrome versão 91 para maior compatibilidade com provas interativas.
+Atualizamos o Visualizador de provas de desktop para oferecer suporte à versão 91 do Chrome para oferecer maior compatibilidade com provas interativas.
 
 >[!IMPORTANT]
 >
->Os usuários do Windows devem reinstalar manualmente o visualizador de desktop para atualizar para a versão mais recente. Depois disso, as atualizações futuras do Desktop Proofing Viewer serão automáticas. Para obter ajuda sobre como reinstalar o, consulte [Instale o Visualizador de provas de desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Os usuários do Windows devem reinstalar manualmente o visualizador de desktop para atualizar para a versão mais recente. Depois disso, as atualizações futuras do Desktop Proofing Viewer serão automáticas. Para obter ajuda sobre como reinstalar, consulte [Instalar o Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 Os usuários do Mac serão atualizados automaticamente para a versão mais recente.

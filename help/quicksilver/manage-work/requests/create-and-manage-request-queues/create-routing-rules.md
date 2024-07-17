@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-As regras de roteamento controlam o que o Adobe Workfront faz com os problemas quando são enviadas para uma fila de solicitações. Para obter mais informações sobre como criar Filas de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+As regras de roteamento controlam o que o Adobe Workfront faz com os problemas quando são enviadas para uma fila de solicitações. Para obter mais informações sobre como criar Filas de Solicitações, consulte [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 As regras de roteamento enviam problemas para usuários específicos ou funções de trabalho mais bem equipadas para resolver o problema ou a solicitação enviada. As regras de roteamento geralmente são associadas a tópicos de fila, que são usados para controlar qual regra de roteamento será aplicada à ocorrência ou solicitação.
 
@@ -92,8 +92,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Criar uma Regra de Encaminhamento
 
 1. Vá para o projeto no qual deseja adicionar as regras de roteamento para suas solicitações.
-1. Clique em **Regras de Encaminhamento** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais**, depois **Regras de Encaminhamento**.
-1. Clique em **Nova Regra de Encaminhamento** para adicionar a nova regra.
+1. Clique em **Regras de roteamento** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Regras de Roteamento**.
+1. Clique em **Nova Regra de Roteamento** para adicionar a nova regra.
 1. Especifique as seguintes informações para a Regra de Encaminhamento:
 
    <table style="table-layout:auto"> 
@@ -111,7 +111,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td>Adicione uma descrição para a regra de roteamento.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Destinatário padrão*</strong> </td> 
+      <td role="rowheader"><strong>Atribuído padrão*</strong> </td> 
       <td>Adicione um usuário ativo ou uma função de trabalho ativa à qual os novos problemas devem ser atribuídos. Você só pode ter um destinatário padrão nesse campo. </td> 
      </tr> 
      <tr> 
@@ -120,7 +120,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    <p><b>Nota</b></p>
 
-   Depois que o problema for enviado, você poderá editar suas atribuições e atribuir outros usuários, funções ou equipes. Para obter informações, consulte  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Atribuir problemas</a>.
+   Depois que o problema for enviado, você poderá editar suas atribuições e atribuir outros usuários, funções ou equipes. Para obter informações, consulte <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Atribuir problemas</a>.
 
    </td> 
      </tr> 
@@ -137,12 +137,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Ao rotear um problema para um projeto, os usuários com permissões sobre o problema recebem as permissões definidas nesse projeto. Para obter informações sobre como configurar permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![Caixa Nova Regra de Encaminhamento](assets/new-routing-rule-box.png)
+   ![Caixa Nova Regra de Roteamento](assets/new-routing-rule-box.png)
 
 1. Clique em **Salvar**.
 
-   Esse processo define apenas a Regra de Encaminhamento. Para garantir que a ocorrência seja roteada quando for enviada para a fila de solicitações, você deverá selecionar a regra de roteamento no **Detalhes da fila** em **Rota Padrão**.
+   Esse processo define apenas a Regra de Encaminhamento. Para garantir que o problema seja roteado quando for enviado à fila de solicitações, você deve selecionar a regra de roteamento na guia **Detalhes da fila** em **Rota padrão**.
 
-   Para obter informações sobre como adicionar uma Rota padrão a uma fila de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obter informações sobre como adicionar uma Rota Padrão a uma fila de solicitações, consulte [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Se quiser associar várias regras de roteamento à fila de solicitações, você deverá criar vários tópicos de fila e associar cada um a uma regra de roteamento separada. Para obter mais informações sobre como criar um tópico de fila, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

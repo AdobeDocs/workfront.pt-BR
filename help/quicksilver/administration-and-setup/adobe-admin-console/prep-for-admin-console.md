@@ -45,7 +45,7 @@ Para garantir que sua organização possa migrar para a Adobe Admin Console, voc
    >
    >Esteja preparado para falar com o Suporte da Workfront e sua equipe de TI sobre preferências de autenticação, como logon único (SSO) ou não-SSO.
 
-   Para obter instruções, consulte a seção Identity Management do [Guia de implantação do Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Para obter instruções, consulte a seção Identity Management do [Guia de Implantação do Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Condicional) Se estiver usando o Logon único, conecte a nova Adobe Admin Console ao seu provedor SSO existente.
 
@@ -59,9 +59,9 @@ Para garantir que sua organização possa migrar para a Adobe Admin Console, voc
 
    1. Remova emails duplicados do Workfront.
 
-      Para obter instruções, consulte [Atualizar endereços de email de usuários existentes na instância do Workfront](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Impedir usuários duplicados](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+      Para obter instruções, consulte [Atualizar endereços de email de usuários existentes na instância do Workfront](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) em [Impedir usuários duplicados](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
 
-      Se houver endereços de email duplicados em sua organização, o usuário representado pelo endereço de email com o mais recente `lastLoginDate` será movido para a organização da Adobe Admin Console. Qualquer outro usuário com esse endereço de email será desativado.
+      Se houver endereços de email duplicados em sua organização, o usuário representado pelo endereço de email com o `lastLoginDate` mais recente será movido para a organização da Adobe Admin Console. Qualquer outro usuário com esse endereço de email será desativado.
 
       >[!NOTE]
       >
@@ -85,6 +85,6 @@ Para garantir que sua organização possa migrar para a Adobe Admin Console, voc
 
 Depois que o Adobe Admin Console for configurado com o Workfront, você poderá usá-lo para criar administradores de sistema do Workfront.
 
-Para obter mais informações, consulte [Gerenciar administradores de sistema no Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Para obter mais informações, consulte [Gerenciar administradores do sistema na Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 Para obter uma lista de outras ações diferentes com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

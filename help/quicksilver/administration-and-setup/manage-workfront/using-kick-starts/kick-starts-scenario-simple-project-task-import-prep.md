@@ -40,7 +40,7 @@ Esse cenário presume que os usuários já foram importados para o Adobe Workfro
    | Gerente de projeto | Jennifer Campbell |
    | Patrocinador do Projeto | Marc Lewis |
    | Grupo | Marketing |
-   | Empresa | *Sua empresa* |
+   | Empresa | *SuaEmpresa* |
 
    {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ Esse cenário presume que os usuários já foram importados para o Adobe Workfro
    | Gerente de projeto | Pam Reynolds |
    | Patrocinador do Projeto | Marc Lewis |
    | Grupo | Marketing |
-   | Empresa | *Sua empresa* |
+   | Empresa | *SuaEmpresa* |
 
    {style="table-layout:auto"}
 
@@ -62,7 +62,7 @@ Esse cenário presume que os usuários já foram importados para o Adobe Workfro
    | Gerente de projeto | Jennifer Campbell |
    | Patrocinador do Projeto | Ray Andrews |
    | Grupo | IT |
-   | Empresa | *Sua empresa* |
+   | Empresa | *SuaEmpresa* |
 
    {style="table-layout:auto"}
 
@@ -73,7 +73,7 @@ Esse cenário presume que os usuários já foram importados para o Adobe Workfro
    | Gerente de projeto | Pam Reynolds |
    | Patrocinador do Projeto | Ray Andrews |
    | Grupo | IT |
-   | Empresa | *Sua empresa* |
+   | Empresa | *SuaEmpresa* |
 
    {style="table-layout:auto"}
 
@@ -85,7 +85,7 @@ As tarefas pai herdam a Duração, o Trabalho e o Percentual Concluído das tare
 
 >[!NOTE]
 >
->As instruções fornecidas neste cenário não são tão explícitas quanto as instruções passo a passo fornecidas em [Cenário de início: preparação da empresa, do grupo, da função e do usuário](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). A suposição é que você já aprendeu a pesquisar e copiar valores das planilhas Empresa e Grupo; portanto, essas etapas serão mencionadas, mas não serão especificamente descritas.
+>As instruções fornecidas neste cenário não são tão explícitas quanto as instruções passo a passo fornecidas em [Cenário de início: Empresa, Grupo, Função e Preparação de início de usuário](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). A suposição é que você já aprendeu a pesquisar e copiar valores das planilhas Empresa e Grupo; portanto, essas etapas serão mencionadas, mas não serão especificamente descritas.
 
 1. Configurar.
 1. Importar usuários.
@@ -284,7 +284,7 @@ A menos que você já tenha criado projetos no Workfront, deve estar vazio.
 
 Defina os valores dos seguintes campos de projeto:
 
-* **Definir a coluna isNew**
+* **Definir isNew coluna**
 Insira TRUE nas linhas 3 a 6 da coluna isNew.
 * **Definir IDs exclusivas**
 Insira um identificador exclusivo em cada linha para a coluna de ID — Normalmente, números inteiros iniciando em 1 funcionam bem ao criar novos registros.
@@ -294,11 +294,11 @@ Insira os nomes de cada projeto na coluna setName.
 
   Insira a ID do agendamento que você deseja que o projeto use no campo setScheduleID
 
-* **Definir a data de início planejada do projeto**
+* **Definir a Data de Início Planejada do projeto**
 
   Insira a data e a hora na coluna setPlannedStartDate com a hora e a data em que deseja que o projeto inicie. Se deixado em branco, o Workfront importa o projeto com a data do dia atual e um carimbo de data e hora da meia-noite desse dia de acordo com o fuso horário do navegador.
 
-* **Definir números de tarefas**
+* **Definir números de tarefa**
 Insira valores na coluna setTaskNumber para controlar a ordem em que as tarefas aparecerão no plano de projeto.
 * **Forneça as datas do projeto.**
 Insira a Data inicial planejada para cada projeto na coluna setPlannedStartDate.
@@ -315,7 +315,7 @@ Preencha outros detalhes, como uma descrição ou status atual, conforme necess�
 
 Você pode adicionar informações sobre as tarefas no projeto, ao importar o projeto usando kick-starts.
 
-Abra o arquivo Workfront.xlsx que acabou de baixar. **Vá para a planilha de Tarefas.**
+Abra o arquivo Workfront.xlsx que acabou de baixar. **Vá para a Planilha de Tarefas de TAREFA.**
 
 A menos que você já tenha criado tarefas no Workfront, esta planilha deve estar vazia.
 
@@ -333,13 +333,13 @@ Defina os valores dos seguintes campos de tarefa:
 Insira um identificador exclusivo em cada linha para a coluna de ID.
 * **Definir Nomes**
 Insira os nomes da tarefa na coluna setName.
-* **Confirmar ID do projeto**
+* **Confirmar ID do Projeto**
 Insira a ID que você definiu para o projeto Implementar o Workfront; revise a planilha Projeto do PROJ para verificar se essa é a ID correta.
 * **Definir Usuários**
 Vá para a planilha USUÁRIO para procurar a ID do usuário atribuído a cada tarefa e inserir esses valores nas respectivas células na coluna setAssignedToID.
-* **Identificar relacionamentos entre tarefas**
+* **Identificar relações de tarefas**
 Para as tarefas de 2 a 5, insira um 1 na coluna setParentID. Para a tarefa 9, insira um 8 na coluna setParentID. Na coluna setPredecessorString, insira o número da tarefa para cada tarefa predecessora. Nos casos em que uma tarefa tem vários predecessores, como a tarefa 8 neste cenário, será necessário usar uma vírgula para separar cada ID de tarefa predecessora. Os predecessores podem ser definidos com defasagens em relacionamentos que não sejam do tipo Finish-Start usando a abreviação descrita no artigo Criação de relacionamentos predecessores.
-* **Definir duração**
+* **Definir Duração**
 Defina a duração de cada tarefa inserindo o número de horas, dias, semanas ou meses para a tarefa no campo setDuration. Em seguida, insira a unidade de duração no campo setDurationUnit.
 
   |   | Valor aceitável |
@@ -376,6 +376,6 @@ Defina a duração de cada tarefa inserindo o número de horas, dias, semanas ou
    1. Atualize as atribuições de tarefas e o percentual concluído.
    1. Repita essas etapas para as tarefas do próximo projeto.
 
-* **Importar o arquivo do Excel**
+* **Importar o Arquivo do Excel**
 
-  Siga as instruções fornecidas em [Importar dados para o Adobe Workfront usando um modelo do Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Siga as instruções fornecidas em [Importar dados para o Adobe Workfront usando um modelo de Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

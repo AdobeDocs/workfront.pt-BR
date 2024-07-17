@@ -1,6 +1,6 @@
 ---
-title: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 26 de abril de 2021'
-description: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 26 de abril de 2021'
+title: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 26 de abril de 2021
+description: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 26 de abril de 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 26 de abril de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte a página [Atualizações de Manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de Manutenção do Workfront Fusion.
 
 ## Conector e módulos do Microsoft OneDrive disponíveis
 
@@ -35,7 +35,7 @@ Com o conector do Microsoft OneDrive, você pode:
 * Obter arquivos ou obter links de compartilhamento para um arquivo
 * Fazer uma chamada de API personalizada
 
-Para obter mais informações, consulte [Módulos do Microsoft OneDrive](../../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md).
+Para obter mais informações, consulte [módulos do Microsoft OneDrive](../../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md).
 
 ## Conector e módulos Split.io agora disponíveis
 
@@ -47,4 +47,4 @@ Agora você pode usar o Workfront Fusion 2.0 para se conectar à sua conta Split
 * Recuperar uma lista de espaços de trabalho, ambientes, divisões, definições de divisão ou tipos de tráfego
 * Executar uma chamada de API personalizada
 
-Para obter mais informações, consulte [Módulos do Split.io](../../../workfront-fusion/apps-and-their-modules/split-io-modules.md).
+Para obter mais informações, consulte [módulos Split.io](../../../workfront-fusion/apps-and-their-modules/split-io-modules.md).

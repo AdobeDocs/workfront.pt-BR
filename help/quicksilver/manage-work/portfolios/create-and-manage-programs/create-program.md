@@ -55,36 +55,36 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar um programa
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
 
 1. Siga um destes procedimentos.
 
-   * Crie um programa pelo [!UICONTROL Programas] área:
+   * Crie um programa na área [!UICONTROL Programas]:
 
       1. Clique em **[!UICONTROL Programas]** no menu principal.
-      1. Clique em **[!UICONTROL Novo programa]**.
-      1. Na caixa exibida, digite o nome de um Portfolio existente na caixa **[!UICONTROL Selecionar Portfolio]** campo.
-      1. Digite o nome do novo programa no campo **[!UICONTROL Nome]** campo.
+      1. Clique em **[!UICONTROL Novo Programa]**.
+      1. Na caixa que é exibida, digite o nome de um Portfolio existente no campo **[!UICONTROL Selecionar Portfolio]**.
+      1. Digite o nome do novo programa no campo **[!UICONTROL Nome]**.
       1. Clique em **[!UICONTROL Salvar]**.
-   * Crie um programa pelo [!UICONTROL Portfolio] área:
+   * Criar um programa da área [!UICONTROL Portfolio]:
 
-      1. Clique em **[!UICONTROL Portfolio]** no [!UICONTROL Menu principal], em seguida, abra um portfólio.
+      1. Clique em **[!UICONTROL Portfolio]** no [!UICONTROL Menu principal] e abra um portfólio.
       1. No painel esquerdo, clique em **[!UICONTROL Programas]**.
-      1. Clique em **[!UICONTROL Novo programa]** menu suspenso, depois **[!UICONTROL Novo programa]**.
+      1. Clique no menu suspenso **[!UICONTROL Novo programa]** e depois em **[!UICONTROL Novo programa]**.
 
 
-1. (Condicional) Se você criou o programa a partir de um portfólio, especifique o nome do Programa no **[!UICONTROL Programa sem título]** campo.
+1. (Condicional) Se você criou o programa a partir de um portfólio, especifique o nome do Programa no campo **[!UICONTROL Programa sem título]**.
 
    O nome pode conter até 255 caracteres.
 
-1. (Opcional) Clique em **[!UICONTROL Gerente de programa]** no cabeçalho do programa.
+1. (Opcional) Clique em **[!UICONTROL Gerenciador de Programas]** no cabeçalho do programa para atualizá-lo.
 
    >[!TIP]
    >
    >Como criador do programa, você é definido como Gerente de programa por padrão.
 
 1. Clique em **[!UICONTROL Detalhes do programa]** no painel esquerdo.
-1. Clique duas vezes em qualquer campo para atualizar as informações na **[!UICONTROL Visão geral]** área.
+1. Clique duas vezes em qualquer campo para atualizar as informações na área **[!UICONTROL Visão geral]**.
 
 Você pode especificar as seguintes informações:
 
@@ -108,7 +108,7 @@ Você pode especificar as seguintes informações:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Grupo] </td> 
-      <td> <p>Adicione o nome de um único grupo se o grupo for proprietário do programa ou tiver responsabilidade para concluí-lo. </p> <p>Você pode se certificar de que está selecionando o grupo correto passando o cursor do mouse sobre ele e clicando no ícone [!UICONTROL information] <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> 
+      <td> <p>Adicione o nome de um único grupo se o grupo for proprietário do programa ou tiver responsabilidade para concluí-lo. </p> <p>Você pode verificar se está selecionando o grupo correto passando o mouse sobre ele e clicando no ícone [!UICONTROL information] <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -116,7 +116,7 @@ Você pode especificar as seguintes informações:
     </tbody> 
    </table>
 
-1. (Opcional e condicional) Clique dentro da **[!UICONTROL Adicionar formulário personalizado]** para selecionar um formulário personalizado para o portfólio e atualizar os campos personalizados.
+1. (Opcional e condicional) Clique dentro da caixa **[!UICONTROL Adicionar formulário personalizado]** para selecionar um formulário personalizado para o portfólio e atualizar os campos personalizados.
 
    >[!TIP]
    >
@@ -124,14 +124,14 @@ Você pode especificar as seguintes informações:
 
 1. (Opcional e condicional) Se estiver adicionando um formulário personalizado, clique em qualquer campo no formulário personalizado para atualizar as informações nesse campo.
 1. Clique em **[!UICONTROL Salvar alterações]**.
-1. Clique em **[!UICONTROL Projetos]** no painel esquerdo, em seguida **[!UICONTROL Adicionar Projetos]** para adicionar projetos ao programa.
+1. Clique em **[!UICONTROL Projetos]** no painel esquerdo e em **[!UICONTROL Adicionar projetos]** para adicionar projetos ao programa.
 
    Para obter informações sobre como adicionar projetos a programas, consulte [Adicionar um projeto a um programa](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
-1. (Opcional) Clique no link **[!UICONTROL Menu Mais]** ![](assets/more-icon.png) ao lado do nome do programa e clique em **[!UICONTROL Desativar programa]**.
+1. (Opcional) Clique no **[!UICONTROL Mais menu]** ![](assets/more-icon.png) ao lado do nome do programa e clique em **[!UICONTROL Desativar Programa]**.
 
-   Quando você desativa um programa, ele não é mais exibido em uma lista de programas quando os usuários tentam adicioná-lo a um projeto. Você ainda pode acessar o programa pelo [!UICONTROL Programas] área.
+   Quando você desativa um programa, ele não é mais exibido em uma lista de programas quando os usuários tentam adicioná-lo a um projeto. Você ainda pode acessar o programa na área [!UICONTROL Programas].
 
 ## Visão geral do cabeçalho do programa
 

@@ -24,7 +24,7 @@ A visualização do registro é uma exibição menor da página do registro exib
 
 Quando você altera o layout de uma visualização e página de registro, as alterações afetam as caixas de visualização e as páginas de detalhes de todos os registros do mesmo tipo.
 
-Este artigo descreve como alterar o layout e a aparência de uma caixa de visualização de registro ou de uma página de registro. Para obter informações sobre edição de registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Este artigo descreve como alterar o layout e a aparência de uma caixa de visualização de registro ou de uma página de registro. Para obter informações sobre como editar registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 Você deve criar tipos de registro e registros antes de começar a editar páginas de registro.
 
@@ -78,13 +78,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
 
@@ -108,7 +108,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * As alterações de exibição feitas na visualização do registro ficam imediatamente visíveis na página de detalhes do registro. As alterações feitas na página de registro também estão visíveis na caixa de visualização do registro.
 
-* Adicionar uma imagem de capa ou uma miniatura a um registro não faz parte do layout geral da pré-visualização ou página do registro. É possível adicionar imagens de capa ou miniaturas exclusivas a cada registro. Para obter informações, consulte [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) e [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+* Adicionar uma imagem de capa ou uma miniatura a um registro não faz parte do layout geral da pré-visualização ou página do registro. É possível adicionar imagens de capa ou miniaturas exclusivas a cada registro. Para obter informações, consulte [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) e [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## Adicionar seções a uma visualização ou página de registro
 
@@ -135,23 +135,23 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
    Ou
 
-   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
+   Na exibição de tabela, clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** na primeira coluna.
 
    A visualização do registro é aberta na exibição.
 
    ![](assets/details-box.png)
 
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
+1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A página de registro é aberta.
 
    ![](assets/details-page.png)
 
-1. Na visualização do registro ou página, passe o mouse sobre o espaço em branco à esquerda dos campos e clique no botão **Adicionar seção** ícone ![](assets/add-section-icon.png) para adicionar uma seção.
-1. Clique dentro do nome da seção e substitua **Seção sem título** com um nome, em seguida, clique em Enter. Os campos exibidos abaixo da seção fazem parte automaticamente da nova seção.
-1. Comece a arrastar e soltar campos na nova seção, conforme descrito na seção [Reorganizar campos na página de visualização ou detalhes do registro](#rearrange-fields-in-the-record-preview-or-details-page) neste artigo.
+1. Na visualização ou página do registro, passe o mouse sobre o espaço em branco à esquerda dos campos e clique no ícone ![](assets/add-section-icon.png) de **Adicionar seção** para adicionar uma seção.
+1. Clique dentro do nome da seção e substitua **Seção sem título** por um nome e clique em Enter. Os campos exibidos abaixo da seção fazem parte automaticamente da nova seção.
+1. Comece a arrastar e soltar campos na nova seção, conforme descrito na seção [Reorganizar campos na página de visualização de registro ou de detalhes](#rearrange-fields-in-the-record-preview-or-details-page) deste artigo.
 
-1. (Opcional) Passe o mouse sobre o nome de uma seção e clique no link **Mais** menu ![](assets/more-menu.png).
+1. (Opcional) Passe o mouse sobre o nome de uma seção e clique no menu **Mais** ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
 1. (Opcional) Siga um destes procedimentos para editar a seção:
@@ -162,7 +162,7 @@ Para adicionar uma seção a uma visualização de registro ou página:
      >
      > É possível renomear uma seção em linha clicando no nome.
 
-   * Clique em **Mover para cima** para mover a seção uma posição acima
+   * Clique em **Mover para cima** para mover a seção uma posição para cima
 
      Ou
 
@@ -174,7 +174,7 @@ Todos os campos na seção se movem com a seção.
 1. Clique na seta apontando para baixo à esquerda do nome de uma seção para recolhê-la ou na seta apontando para a direita para expandi-la.
 Todas as seções são expandidas por padrão.
 
-1. (Opcional) Clique no link **agarrar** ícone ![](assets/grab-icon.png) à esquerda do nome de uma seção, arraste-a e solte-a no local desejado.
+1. (Opcional) Clique no ícone ![](assets/grab-icon.png) de **captura** à esquerda de um nome de seção e arraste-o e solte-o em um local desejado.
 
    A nova posição da seção atualiza na pré-visualização e na página de todos os registros do mesmo tipo para todos os usuários que visualizam os registros.
 
@@ -196,19 +196,19 @@ Todas as seções são expandidas por padrão.
 
    Ou
 
-   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
+   Na exibição de tabela, clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** na primeira coluna.
 
    A visualização do registro é aberta na exibição.
 
    ![](assets/details-box.png)
 
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
+1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A página de registro é aberta.
 
    ![](assets/details-page.png)
 
-1. Na visualização ou página do registro, clique na guia **agarrar** ícone ![](assets/grab-icon.png) à esquerda de um nome de campo, arraste e solte-o no ponto desejado. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Na visualização ou página do registro, clique no ícone ![](assets/grab-icon.png) de **captura** à esquerda de um nome de campo, em seguida, arraste e solte-o no local desejado. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    A nova posição do campo é atualizada na pré-visualização e na página de todos os registros do mesmo tipo para todos os usuários que visualizam os registros.
 

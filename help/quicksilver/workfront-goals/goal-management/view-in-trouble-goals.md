@@ -19,7 +19,7 @@ ht-degree: 0%
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Metas com um Progresso de com Problemas correm o risco de não serem atingidas e são representadas por uma barra de progresso vermelha nas Metas do Adobe Workfront. Você deve rever suas metas com frequência e entender por que o progresso está atrasado. Para obter informações sobre o progresso da meta, consulte [Visão geral do progresso e da condição da meta no Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Metas com um Progresso de com Problemas correm o risco de não serem atingidas e são representadas por uma barra de progresso vermelha nas Metas do Adobe Workfront. Você deve rever suas metas com frequência e entender por que o progresso está atrasado. Para obter informações sobre o progresso da meta, consulte [Visão geral do progresso da meta e da condição nas Metas da Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Requisitos de acesso
 
@@ -48,7 +48,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -58,7 +58,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -85,7 +85,7 @@ Você deve ter o seguinte:
 
 ## Recommendations para evitar que as metas alcancem um progresso de Com Problemas
 
-Antes das metas atingirem um progresso de Com Problemas, você pode monitorá-las com frequência e ajustar seu progresso quando atingirem um progresso de Em Risco. Metas que estão em risco estão em perigo de se tornarem em apuros. Para obter mais informações sobre o progresso da meta, consulte [Visão geral do progresso e da condição da meta no Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Antes das metas atingirem um progresso de Com Problemas, você pode monitorá-las com frequência e ajustar seu progresso quando atingirem um progresso de Em Risco. Metas que estão em risco estão em perigo de se tornarem em apuros. Para obter mais informações sobre o progresso da meta, consulte [Visão geral do progresso da meta e da condição nas Metas da Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Antes de suas metas atingirem um progresso de Com Problemas, recomendamos o seguinte:
 
@@ -98,7 +98,7 @@ Você pode revisar metas em qualquer seção das Metas do Workfront. Para obter
 
 Este artigo descreve como analisar metas na Lista de metas.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+1. Clique no ícone ![](assets/main-menu-icon.png) > **Metas** do **Menu Principal** no canto superior direito.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -107,7 +107,7 @@ Este artigo descreve como analisar metas na Lista de metas.
 
 1. (Recomendado) Ajuste os seguintes filtros para a área Lista de metas para analisar metas em risco:
 
-   * Clique em **Empresa**, depois **Minhas equipes**, depois **Meus grupos**, depois **Pessoal** metas nesta ordem para visualizar as metas que pertencem a sua organização, suas equipes, grupos e, em seguida, suas próprias metas.
+   * Clique em **Empresa**, depois em **Minhas Equipes**, depois em **Meus Grupos** e depois em **Metas pessoais** para exibir as metas que pertencem à sua organização, às suas equipes, aos grupos e, em seguida, às suas próprias metas.
 
      >[!TIP]
      >
@@ -116,12 +116,12 @@ Este artigo descreve como analisar metas na Lista de metas.
      >
      >Não é possível pesquisar empresas que usam esse campo. Por padrão, somente a organização que é a proprietária da instância do Workfront é selecionada.
 
-   * Para cada uma das unidades organizacionais selecionadas acima, clique em **Novo Filtro** > **Progresso** > **Com Problemas** >**Aplicar.**
+   * Para cada uma das unidades organizacionais selecionadas acima, clique em **Novo Filtro** > **Progresso** > **Em Problemas** >**Aplicar.**
    * (Opcional) Selecione o período para o qual deseja exibir metas.
 
      O indicador da barra de progresso é exibido em vermelho para cada meta na lista de metas.
 
-     Para obter mais informações sobre como filtrar metas usando todos os outros critérios no painel direito, consulte [Filtrar informações nos Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+     Para obter mais informações sobre como filtrar metas usando todos os outros critérios no painel direito, consulte [Informações de filtro em Metas do Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 1. Passe o mouse sobre o indicador da barra de progresso para ver qual é a porcentagem de progresso real e qual é o valor esperado para o dia atual.
 
@@ -131,9 +131,9 @@ Este artigo descreve como analisar metas na Lista de metas.
 
    Metas com problemas para os usuários selecionados são exibidas na lista de metas.
 
-1. Clique em um nome de meta para abrir a página de metas e clique em **Indicadores de progresso** no painel esquerdo. Visualize qual indicador de progresso está atrasando a meta e atualize o progresso do indicador em linha, na **Progresso real** da lista de indicadores de progresso.
+1. Clique no nome de uma meta para abrir a página de metas e, em seguida, clique em **Indicadores de progresso** no painel esquerdo. Visualize qual indicador de progresso faz com que a meta fique atrasada e atualize o progresso do indicador em linha, na coluna **Progresso real** da lista de indicadores de progresso.
 
-   Para obter informações sobre a atualização de resultados e atividades, consulte [Atualizar progresso da meta nas Metas do Adobe Workfront](../goal-review-and-workfront-goals-sections/check-in-goals.md)
+   Para obter informações sobre a atualização de resultados e atividades, consulte [Atualizar progresso da meta nas Metas da Adobe Workfront](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
    ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 

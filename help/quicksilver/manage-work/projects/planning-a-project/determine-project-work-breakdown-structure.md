@@ -51,17 +51,17 @@ Para definir resultados e materiais para distribuição da WBS no Workfront, rec
   Para obter informações sobre como criar um projeto, consulte o artigo [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
 * Crie tarefas para todos os itens de ação necessários para concluir cada resultado e produto.\
-  Para obter informações sobre como criar tarefas, consulte o artigo [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
+  Para obter informações sobre como criar tarefas, consulte o artigo [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 * Nas tarefas que acabou de criar, identifique quais são os principais resultados e associe-os aos marcos.\
-  Para obter informações sobre como criar tarefas de etapa, consulte os artigos [Criar um caminho de etapas](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) e [Associar marcos a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Para obter informações sobre como criar tarefas de marcos, consulte os artigos [Criar um caminho de marcos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) e [Associar marcos a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Divida as tarefas com um escopo muito grande em subtarefas. Associe-os ao pai que define seu material para entrega.\
   Para obter informações sobre como criar subtarefas, consulte o artigo [Criar subtarefas](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identificar relações de dependência entre subtarefas e entre marcos.\
   Em um relacionamento de dependência, o início de uma tarefa depende da conclusão de outra tarefa ou grupo de tarefas.\
-  Para obter informações sobre dependências de tarefas, consulte os artigos [Visão geral das predecessoras da tarefa](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) e [Criar uma relação de predecessora na lista de tarefas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  Para obter informações sobre dependências de tarefas, consulte os artigos [Visão geral de predecessores de tarefas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) e [Criar uma relação de predecessora na lista de tarefas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Determine se, em algum momento da vida útil do projeto, são necessárias aprovações e revisões. Crie processos de aprovação para atender a essa necessidade.\
   Para obter informações sobre aprovações, consulte o artigo [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -80,7 +80,7 @@ Considere o seguinte:
 
   Como duração é uma estimativa, certifique-se de definir valores de tempo otimistas para levar em conta fatores que podem afetar a tarefa, como clima, quedas de energia, dificuldades do fornecedor ou outros eventos imprevistos. Além disso, considere se há alguma tarefa predecessora ou de dependência associada e como elas podem colocar restrições no trabalho e afetar a conclusão da tarefa.
 
-  Dependendo do Tipo de Duração da tarefa, você pode modificar a duração de uma tarefa durante a vida útil de um projeto, mas isso também afetará a linha do tempo do projeto. Para obter informações sobre a Duração de uma tarefa, consulte o artigo [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Dependendo do Tipo de Duração da tarefa, você pode modificar a duração de uma tarefa durante a vida útil de um projeto, mas isso também afetará a linha do tempo do projeto. Para obter informações sobre a Duração de uma tarefa, consulte o artigo [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Atribuir tarefas
 
@@ -94,7 +94,7 @@ Depois de definir a duração e as restrições de cada tarefa, é possível det
 * Função no trabalho
 * Equipes
 
-Para obter informações sobre atribuição de tarefas, consulte os artigos na [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md) seção.
+Para obter informações sobre atribuição de tarefas, consulte os artigos na seção [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md).
 
 ## Gerenciar recursos
 
@@ -105,16 +105,16 @@ O gerenciamento de recursos no Workfront permite determinar se há uma equipe ad
 >Desde que o projeto tenha um status de Planning, as tarefas atribuídas aos usuários não aparecerão em suas listas de tarefas.
 
 No início de um ano fiscal ou trimestre, talvez você queira gerenciar seus recursos em um nível superior, em vários projetos, sem o conhecimento de uma Estrutura Analítica de Projeto específica.\
-Para obter informações sobre como planejar o uso de seus recursos em um nível superior, consulte o artigo [Introdução ao planejamento de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Para obter informações sobre como planejar o uso de seus recursos em um nível superior, consulte o artigo [Introdução ao Planejamento de Recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Ao gerenciar os recursos no contexto da criação da Estrutura de divisão de trabalho de um projeto e ao garantir que cada tarefa seja atribuída ao recurso correto, você estará pronto para agendar os recursos para o trabalho que precisa ser feito.\
-Para obter informações sobre como agendar recursos, consulte os artigos no [O Balanceador de carga de trabalho: índice do artigo](../../../resource-mgmt/workload-balancer/workload-balancer.md) seção.
+Para obter informações sobre como agendar seus recursos, consulte os artigos na seção [O Balanceador de Carga de Trabalho: índice do artigo](../../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 ## Estimar finanças do projeto
 
 A Workfront calculará os custos planejados para cada tarefa e os custos gerais de um projeto. Os custos planejados de uma tarefa incluem todas as despesas da tarefa mais o custo do funcionário ou da função atribuída à tarefa. Taxas por hora para a tarefa, função e funcionário são atribuídas durante a tarefa, função e criação de usuário.
 
-Para obter informações sobre as finanças do projeto, consulte a seção [Finanças do projeto: índice de artigos](../../../manage-work/projects/project-finances/project-finances-overview.md).
+Para obter informações sobre finanças do projeto, consulte a seção [Finanças do projeto: índice do artigo](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Determinar pontos de aprovação para o projeto
 
@@ -141,16 +141,16 @@ Depois de concluir a WBS, você poderá exibi-la em uma lista de tarefas no nív
 Você pode exibir a lista de tarefas no nível do projeto.
 
 1. Vá para o projeto para o qual você deseja ver a Estrutura analítica de projeto.
-1. Selecione o **Tarefas** guia.
-1. (Opcional) Selecione **Nada** no **Agrupamento** menu suspenso.
+1. Selecione a guia **Tarefas**.
+1. (Opcional) Selecione **Nada** no menu suspenso **Agrupamento**.
 
    A Estrutura do detalhamento do trabalho não exibe o recuo das tarefas na WBS.
 
-1. No **Exibir** e selecione a variável **Detalhamento do trabalho** exibição.
+1. No menu suspenso **Exibir**, selecione a exibição **Detalhamento do Trabalho**.
 
    A estrutura de Detalhamento do trabalho é exibida na segunda coluna da exibição selecionada.
 
-   ![Estrutura do detalhamento do trabalho em uma lista de tarefas](assets/work-breakdown-structure.png)
+   ![Estrutura Analítica de Projeto em uma lista de tarefas](assets/work-breakdown-structure.png)
 
 ### Exibir a WBS em um relatório de tarefas {#view-the-wbs-in-a-task-report}
 
@@ -188,4 +188,4 @@ Os seguintes elementos de uma Estrutura de detalhamento de trabalho podem ser sa
 * Compartilhamento de informações
 * Formulários personalizados
 
-Para obter informações sobre como salvar projetos como modelos, consulte o artigo [Criar modelo a partir do projeto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) .
+Para obter informações sobre como salvar projetos como modelos, consulte o artigo [Criar modelo a partir do projeto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).

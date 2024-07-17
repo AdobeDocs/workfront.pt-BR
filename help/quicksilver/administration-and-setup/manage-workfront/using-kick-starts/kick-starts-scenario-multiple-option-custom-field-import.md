@@ -51,16 +51,16 @@ Se você tiver uma boa compreensão dos objetos e da estrutura do banco de dados
 
 Para exportar dados existentes do Workfront:
 
-1. Clique em **Menu principal > Configurar** no canto superior direito da interface do Workfront.
-1. Expanda a **Sistema** à esquerda e clique em **Exportar dados (Kick-Starts)**.
+1. Clique em **Menu principal > Configuração** no canto superior direito da interface do Workfront.
+1. Expanda o menu **Sistema** para a esquerda e clique em **Exportar Dados (Kick-Starts)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
-1. Selecionar **Dados personalizados** no **O que incluir** seção.
+1. Selecione **Dados personalizados** na seção **O que incluir**.
 
    ![](assets/existing-custom-data-box-checked-kick-starts.png)
 
-1. Escolher **arquivo .xlsx** no **Formato de download** seção.
+1. Escolha o arquivo **.xlsx** na seção **Formato de download**.
 
    >[!TIP]
    >
@@ -88,15 +88,15 @@ Para exportar dados existentes do Workfront:
 
 Depois de verificar as informações sobre os campos personalizados existentes no sistema, você pode baixar um novo modelo de início para a importação.
 
-1. Clique em **Menu principal > Configurar** no canto superior direito da interface do Workfront.
+1. Clique em **Menu principal > Configuração** no canto superior direito da interface do Workfront.
 
-1. Expanda a **Sistema** à esquerda.
+1. Expanda o menu **Sistema** para a esquerda.
 
-1. Clique em **Importar dados (Kick-Starts)**.
+1. Clique em **Importar Dados (Kick-Starts)**.
 
    ![](assets/import-data-kick-starts-link-in-setup.png)
 
-1. No **Baixar uma planilha em branco do Kickstart** selecione a **Dados personalizados** e clique em **Baixar**.
+1. Na área **Baixar uma planilha em branco do Kickstart**, marque a caixa de seleção **Dados Personalizados** e clique em **Baixar**.
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -120,13 +120,13 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
    >[!INFO]
    >
-   >Por exemplo, **Parâmetro** (que se refere ao Campo personalizado), **Opção de parâmetro**(que se refere à opção Campo personalizado ), **Categoria** (que se refere ao Formulário personalizado).
+   >Por exemplo, **Parâmetro** (que se refere ao Campo Personalizado), **Opção de Parâmetro** (que se refere à opção de Campo Personalizado), **Categoria** (que se refere ao Formulário Personalizado).
    >
    >Você deve gravar os nomes dos objetos e seus atributos no formato suportado pelo banco de dados do Workfront.
    >
-   >Para obter informações sobre o significado desses objetos, consulte [Glossário de [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Para obter informações sobre o significado desses objetos, consulte o [Glossário da [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
    >
-   >Para obter informações sobre os nomes dos objetos no banco de dados do Workfront, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+   >Para obter informações sobre os nomes dos objetos no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
@@ -142,42 +142,42 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
      >[!TIP]
      >
-     >Algumas colunas são necessárias, embora não estejam em negrito. Por exemplo, a variável `isNew` e `ID` as colunas não estão em negrito, mas são campos obrigatórios.
+     >Algumas colunas são necessárias, embora não estejam em negrito. Por exemplo, as colunas `isNew` e `ID` não estão em negrito, mas são campos obrigatórios.
 
-1. Selecione o `**PARAM Parameter`** e adicione informações sobre os novos campos personalizados nas seguintes colunas necessárias:
+1. Selecione a planilha `**PARAM Parameter`** e adicione informações sobre os novos campos personalizados nas seguintes colunas necessárias:
 
-   * **`isNew`** = enter **`TRUE`** nesta coluna para cada linha que representa um novo campo personalizado. Isso indica que o campo é novo e não existe no Workfront.
+   * **`isNew`** = digite **`TRUE`** nesta coluna para cada linha que representa um novo campo personalizado. Isso indica que o campo é novo e não existe no Workfront.
 
      >[!TIP]
      >
-     >    Se uma linha representar um campo existente já no Workfront, você digitaria **`isNew`** = **`FALSE`**.
+     >    Se uma linha representa um campo existente já no Workfront, você digitaria **`isNew`** = **`FALSE`**.
 
    * **`ID`** = deve ser um número exclusivo para cada linha que representa um novo campo. Você pode usar qualquer número que comece com 1, desde que cada novo campo tenha um número exclusivo.
    * **`setDataType`** = para cada linha que representa um novo campo, insira o tipo de dados aceito pelo campo. O tipo de dados deve ser inserido da maneira como aparece no banco de dados. Selecione um dos seguintes tipos de dados:
       * **`NMBR`** para número
       * **`CURC`** para Moeda
       * **`TEXT`** para texto
-   * `**setDisplaySize**`= o tamanho de exibição (&#39;**setDisplaySize**&#39;) para qualquer opção múltipla, os campos personalizados são sempre 0.
+   * `**setDisplaySize**`= o tamanho de exibição (&#39;**setDisplaySize**&#39;) para qualquer campo personalizado de várias opções é sempre 0.
    * **`setDisplayType`** = para cada linha que representa um novo campo, insira o tipo de exibição do campo. O Tipo de Exibição deve ser inserido da maneira como apareceria no banco de dados.
 
      Para campos personalizados de várias opções, selecione uma das seguintes opções:
 
-      * **`MULT`** para lista suspensa de seleção múltipla
+      * **`MULT`** para lista suspensa de várias seleções
       * **`SLCT`** para lista suspensa
       * **`RDIO`** para botões de opção
-      * **`CHCK`** para caixas de seleção
+      * **`CHCK`** para Caixas de Seleção
 
      >[!TIP]
      >
-     >Para obter informações sobre o Tipo de dados e o Tipo de exibição, consulte as [API Explorer](../../../wf-api/general/api-explorer.md), expanda a **Parâmetro** e procure esses atributos no campo **campos** guia.
+     >Para encontrar informações sobre Tipo de Dados e Tipo de Exibição, consulte o [API Explorer](../../../wf-api/general/api-explorer.md), expanda o objeto **Parâmetro** e procure esses atributos na guia **campos**.
 
    * **`setName`** = digite o nome dos campos personalizados conforme você quer que sejam exibidos no Workfront.
 
      >[!INFO]
      >
-     >Por exemplo, podemos importar dois campos personalizados, chamados de _Marca_, um campo de caixa de seleção e _Mídia_, um campo de botão de opção.
+     >Por exemplo, podemos importar dois campos personalizados, chamados _Marca_, um campo de caixa de seleção, e _Mídia_, um campo de botão de opção.
 
-   * A variável **`setName`** e a variável **`setValue`** As colunas geralmente contêm as mesmas informações e devem refletir os nomes desejados na interface do Workfront para o novo campo.
+   * As colunas **`setName`** e **`setValue`** geralmente contêm as mesmas informações e devem refletir os nomes desejados na interface do Workfront para o seu novo campo.
 
    O valor de um campo é o nome que aparece nos relatórios, por exemplo, enquanto o nome é exibido nos formulários personalizados anexados aos objetos.
 
@@ -185,56 +185,56 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. Selecione o **`POPT Parameter Options`** planilha e adicione informações sobre as opções de cada campo personalizado nas seguintes colunas necessárias:
+1. Selecione a planilha **`POPT Parameter Options`** e adicione informações sobre as opções de cada campo personalizado nas seguintes colunas necessárias:
 
-   * **`isNew`** = enter **`TRUE`** nesta coluna para cada linha que representa uma nova opção de campo.
+   * **`isNew`** = digite **`TRUE`** nesta coluna para cada linha que representa uma nova opção de campo.
 
      >[!TIP]
      >
-     >    Se uma linha representar uma opção existente, você deverá informar **`isNew`** = **`FALSE`**.
+     >    Se uma linha representa uma opção existente, você digitaria **`isNew`** = **`FALSE`**.
 
    * **`ID`** = deve ser um número exclusivo para cada linha que representa uma nova opção. Você pode usar qualquer número que comece com 1, desde que cada nova opção tenha um número exclusivo.
-   * **`setIsDefault`** = enter `TRUE` para as opções que deseja exibir por padrão e `FALSE` para todas as outras opções, para cada campo.  Por exemplo, queremos _Nike_ ser a opção padrão para _Marca_ e _Imprimir_ ser a opção padrão para _Mídia_.
+   * **`setIsDefault`** = digite `TRUE` para as opções que deseja exibir por padrão e `FALSE` para todas as outras opções, para cada campo.  Por exemplo, queremos que _Nike_ seja a opção padrão para _Brand_ e _Print_ seja a opção padrão para _Media_.
 
      >[!TIP]
      >
      >Você só pode ter uma opção padrão para cada campo.
 
-   * **`setParameterID`** = as opções correspondentes à variável _Marca_ campo personalizado tem um **`setParameterID`** de 1, e as opções correspondentes à _Mídia_ tem um **`setParameterID`**de 2. A variável `PARAM` e `POPT` as planilhas fazem referência cruzada entre si para indicar quais opções pertencem a qual campo personalizado.
-   * **`setDisplayOrder`**= a coluna display order indica a ordem na qual as opções serão exibidas no campo personalizado. Você pode começar com 1 e continuar em ordem crescente para todas as opções, independentemente de a quais campos eles pertencerão. O importante aqui é ter números exclusivos para cada opção.
-   * A variável **`setLabel`** e a variável `**setValue`** as colunas geralmente contêm as mesmas informações e devem refletir os nomes desejados na interface do usuário do Workfront. O valor de uma opção é o nome exibido nos relatórios, por exemplo, enquanto o rótulo é exibido nos formulários personalizados quando anexados a um objeto. Para obter mais informações, consulte [Adicionar um campo personalizado a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
-   * **`setIsHidden`** = enter `TRUE` se quiser que qualquer uma das opções fique oculta.
+   * **`setParameterID`** = as opções correspondentes ao campo personalizado _Marca_ têm um **`setParameterID`** de 1, e as opções correspondentes à _Mídia_ têm um **`setParameterID`**de 2. As planilhas `PARAM` e `POPT` fazem referência cruzada entre si para indicar quais opções pertencem a qual campo personalizado.
+   * **`setDisplayOrder`**= a coluna de ordem de exibição indica a ordem na qual as opções serão exibidas no campo personalizado. Você pode começar com 1 e continuar em ordem crescente para todas as opções, independentemente de a quais campos eles pertencerão. O importante aqui é ter números exclusivos para cada opção.
+   * As colunas **`setLabel`** e `**setValue`** geralmente contêm as mesmas informações e devem refletir os nomes desejados na interface do usuário do Workfront. O valor de uma opção é o nome exibido nos relatórios, por exemplo, enquanto o rótulo é exibido nos formulários personalizados quando anexados a um objeto. Para obter mais informações, consulte [Adicionar um campo personalizado a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   * **`setIsHidden`** = digite `TRUE` se quiser que qualquer uma das opções fique oculta.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
-1. (Opcional) Se também quiser criar um formulário personalizado em que poderá adicionar os novos campos posteriormente, selecione a  **`CTGY Category`** planilha e atualize as seguintes colunas necessárias para as informações de formulário personalizado:
+1. (Opcional) Se você também quiser criar um formulário personalizado em que poderá adicionar os novos campos posteriormente, selecione a planilha **`CTGY Category`** e atualize as seguintes colunas necessárias para as informações de formulário personalizado:
 
-   * **`isNew`** = enter **`TRUE`** nesta coluna para cada linha que representa um novo formulário personalizado.
-   * **`ID`** = insira um número exclusivo para cada linha que representa um novo formulário. Você pode usar qualquer número que comece com 1, desde que cada nova opção ou linha tenha um número exclusivo.
-   * **`setGroupID`** = adicione a ID do Grupo para o Grupo Padrão ou qualquer outro grupo no sistema cujos membros você deseja ter acesso a este formulário. Este campo é obrigatório.
+   * **`isNew`** = digite **`TRUE`** nesta coluna para cada linha que representa um novo formulário personalizado.
+   * **`ID`** = digite um número exclusivo para cada linha que representa um novo formulário. Você pode usar qualquer número que comece com 1, desde que cada nova opção ou linha tenha um número exclusivo.
+   * **`setGroupID`** = adicione a ID de Grupo para seu Grupo Doméstico ou qualquer outro grupo no sistema cujos membros você deseja ter acesso a este formulário. Este campo é obrigatório.
 
-   Para saber mais sobre `ID` de um Grupo, você pode criar um relatório de Grupo e adicionar o `ID` na Exibição ou navegue até um grupo e localize o URL do grupo. A ID do grupo estará no URL da página do grupo. Por exemplo, se o URL do grupo for `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, a ID do grupo é `575b000800467a6f66e747932c807464`.
+   Para descobrir o `ID` de um Grupo, você pode criar um relatório de Grupo e adicionar o campo `ID` no Modo de Exibição ou navegar para um grupo e localizar a URL do grupo. A ID do grupo estará no URL da página do grupo. Por exemplo, se a URL do grupo for `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, a ID do Grupo será `575b000800467a6f66e747932c807464`.
 
-   * **`setCatObjCode` **= este é o código do objeto para o tipo de objeto para o qual você deseja que o formulário seja criado. Insira um código entre as seguintes opções:
-      * **`CMPY`** para Empresa
-      * **`TASK`** para tarefa
+   * **`setCatObjCode` **= este é o código de objeto para o tipo de objeto para o qual você deseja criar o formulário. Insira um código entre as seguintes opções:
+      * **`CMPY`** para a Empresa
+      * **`TASK`** para Tarefa
       * **`PROJ`** para Projeto
-      * **`PORT`** para Portfolio
+      * **`PORT`** para o Portfolio
       * **`PRGM`** para o programa
-      * **`USER`** para usuário
+      * **`USER`** para Usuário
       * **`DOCU`** para documento
-      * **`OPTASK`** para Problema
+      * **`OPTASK`** para problema
       * **`EXPNS`** para Despesa
-      * **`ITRN`** para iteração
-      * **`BILL`** para Registros de Cobrança
+      * **`ITRN`** para Iteração
+      * **`BILL`** para registros de cobrança
       * **`GROUP`** para Grupo
 
      >[!NOTE]
      >
-     >Para formulários de vários objetos, insira o primeiro objeto que você selecionaria ao criar um formulário na interface do usuário. Por exemplo, defina a variável `setCatObjCode` para `TASK`, se você selecionar Tarefa na interface do Workfront e, em seguida, Problema, Portfolio, etc., mas não quiser que o formulário esteja disponível para Projetos.
+     >Para formulários de vários objetos, insira o primeiro objeto que você selecionaria ao criar um formulário na interface do usuário. Por exemplo, defina o `setCatObjCode` como `TASK`, se você selecionaria Tarefa na interface do Workfront e, em seguida, Problema, Portfolio, etc., mas não deseja que o formulário fique disponível para Projetos.
 
-   * **`setName`** = esse é o nome do formulário personalizado como você deseja que ele seja exibido na interface do Workfront.
+   * **`setName`** = este é o nome do formulário personalizado como você deseja que ele apareça na interface do Workfront.
 
      ![](assets/category-sheet-filled-out-kick-starts.png)
 
@@ -245,9 +245,9 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
 Depois de executar as etapas descritas nas seções anteriores, continue com o seguinte para fazer upload dos novos campos e formulários no Workfront:
 
-1. Clique em **Importar dados** **(Início) ** sob o **Menu principal > Configuração > Sistema** menu.
+1. Clique em **Importar Dados** **(Kick-Starts) **no menu **Menu Principal > Configuração > Sistema**.
 
-1. Clique em **Escolher arquivo** na seção **Carregar dados com a planilha do Kickstart**.
+1. Clique em **Escolher Arquivo** na seção **Carregar dados com a planilha do Kickstart**.
 
 1. Procure a planilha do Excel que você preparou no computador e selecione-a quando a encontrar.  Quando o arquivo for reconhecido pelo Workfront, o botão Upload ficará azul.
 1. Clique em **Carregar.**
@@ -275,4 +275,4 @@ Depois de executar as etapas descritas nas seções anteriores, continue com o s
 
    * Exclua as informações que foram importadas com êxito do Workfront da área Forms personalizado e faça a correção indicada pela mensagem de erro.
    * Indique que um campo ou um formulário já está no sistema para os campos ou formulários que já foram importados e faça a correção.
-Para indicar que um campo ou um formulário personalizado já está no Workfront, você deve garantir que o `inNew` o campo está marcado como `FALSE` em planilhas que contêm informações sobre o formulário (`CTGY`) ou o campo (`PARAM`) na planilha de importação do kick-start.
+Para indicar que um campo ou um formulário personalizado já está no Workfront, você deve garantir que o campo `inNew` esteja marcado como `FALSE` em planilhas que contêm informações sobre o formulário (`CTGY`) ou o campo (`PARAM`) na planilha de importação do kick-start.

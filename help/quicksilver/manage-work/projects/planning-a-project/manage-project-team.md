@@ -72,7 +72,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Visualizar ou aumentar as permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualizar ou aumentar as permissões do projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 ## Adicionar usuários a uma Equipe do Projeto
 
-Quando você adiciona usuários à equipe do projeto, eles obtêm permissões de Exibição no projeto e nas tarefas, problemas e documentos do projeto. Para obter mais informações, consulte o artigo [Visão geral da equipe do projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Quando você adiciona usuários à equipe do projeto, eles obtêm permissões de Exibição no projeto e nas tarefas, problemas e documentos do projeto. Para obter mais informações, consulte o artigo [Visão geral da Equipe do Projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
@@ -89,7 +89,7 @@ Quando você adiciona usuários à equipe do projeto, eles obtêm permissões de
 
 Você pode adicionar usuários à equipe do projeto das seguintes maneiras:
 
-* [Adicionar usuários automaticamente a uma equipe do projeto](#automatically-add-users-to-a-project-team)
+* [Adicionar usuários automaticamente a uma Equipe de Projeto](#automatically-add-users-to-a-project-team)
 * [Adicionar usuários manualmente a uma Equipe do Projeto](#manually-add-users-to-a-project-team)
 
 ### Adicionar usuários automaticamente a uma equipe do projeto {#automatically-add-users-to-a-project-team}
@@ -109,7 +109,7 @@ Os usuários também são adicionados automaticamente à equipe do projeto quand
 
 Se os usuários que não desempenham nenhuma função no projeto quiserem ser notificados sobre determinadas atualizações ou alterações durante a vida do projeto, você pode adicioná-las manualmente à equipe do projeto.
 
-Para obter mais informações sobre quais notificações podem ser habilitadas para usuários na equipe do projeto, consulte [Tipos de notificação de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Para obter mais informações sobre quais notificações podem ser habilitadas para usuários na equipe do projeto, consulte [Tipos de notificação de evento](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -129,7 +129,7 @@ Para obter mais informações sobre quais notificações podem ser habilitadas p
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. No **Adicionar usuários** comece digitando o nome de um usuário ativo do Workfront que deseja adicionar à equipe do projeto e clique no nome quando ele aparecer na lista suspensa.
+1. Na caixa **Adicionar usuários**, comece digitando o nome de um usuário ativo do Workfront que deseja adicionar à equipe do projeto e clique no nome quando ele aparecer na lista suspensa.
 
    Repita esta etapa para adicionar vários usuários à equipe do projeto. Os usuários devem pertencer ao grupo associado ao projeto.
 
@@ -153,4 +153,4 @@ Se você remover um usuário da equipe do projeto e o usuário for atribuído a 
 
 Os usuários atribuídos a tarefas concluídas e problemas permanecem atribuídos mesmo após serem removidos da equipe do projeto.
 
-Para obter mais informações sobre como remover usuários da equipe do projeto, consulte [Remover usuários dos projetos](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+Para obter mais informações sobre como remover usuários da equipe de projeto, consulte [Remover usuários dos projetos](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).

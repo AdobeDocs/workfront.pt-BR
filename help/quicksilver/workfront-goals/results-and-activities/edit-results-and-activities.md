@@ -20,9 +20,9 @@ Depois que o administrador do Adobe Workfront conceder a você o acesso correto 
 
 Para obter informações sobre como criar metas, resultados e atividades, consulte os seguintes artigos:
 
-* [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
-* [Introdução aos resultados e atividades nos Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+* [Introdução a resultados e atividades nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Adicionar resultados às metas nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
 ## Requisitos de acesso
@@ -52,7 +52,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -62,7 +62,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Nível de acesso</p></td>
@@ -107,11 +107,11 @@ According to Vazgen, access levels will add more considerations.)
   >   * Percentual concluído do projeto
   >   
   >   
-  >Para obter informações sobre como conectar projetos a metas, consulte [Adicionar projetos às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >Para obter informações sobre como conectar projetos a metas, consulte [Adicionar projetos a metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Você pode excluir resultados e atividades das metas quando eles não são mais relevantes para o progresso da meta. Os resultados e as atividades excluídos não podem ser recuperados. Para obter informações sobre como excluir resultados e atividades, consulte [Remover resultados, atividades e projetos das metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * É possível editar resultados e atividades associados a metas de qualquer período, incluindo no passado.
-* A edição de resultados e atividades atualiza suas configurações e não atualiza seu progresso. Você deve atualizar o progresso dos resultados e das atividades. Para obter informações sobre como atualizar o progresso de metas, resultados e atividades, consulte [Atualizar progresso da meta nas Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* A edição de resultados e atividades atualiza suas configurações e não atualiza seu progresso. Você deve atualizar o progresso dos resultados e das atividades. Para obter informações sobre como atualizar o progresso de metas, resultados e atividades, consulte [Atualizar progresso da meta em Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Editar resultados
 
@@ -140,10 +140,10 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Clique em **Menu principal** ![](assets/main-menu-icon.png), depois **Metas**.
+1. Clique no **Menu principal** ![](assets/main-menu-icon.png) e depois em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
-1. Selecione um resultado na lista Progress indicators e clique no botão **Editar** ícone ![](assets/edit-icon.png).
+1. Selecione um resultado na lista Progress indicators e clique no ícone ![](assets/edit-icon.png) **Editar**.
 
    A caixa Editar resultado é aberta.
 
@@ -151,10 +151,10 @@ Editing results differs depending on which environment you use.
 
 1. Edite as seguintes informações:
    * **Nome do resultado**: o nome do resultado. Use um nome descritivo que ilustre qual resultado você precisa obter para concluir a meta.
-   * **Proprietário do resultado**: O proprietário do resultado. O proprietário deve ser um usuário ativo do Workfront.
-   * **Tipo de valor**: como você avalia o progresso do resultado.
-   * **Valor inicial**: o valor original do resultado.
-   * **Valor de destino**: o valor desejado quando o resultado é concluído.
+   * **Proprietário do resultado**: o proprietário do resultado. O proprietário deve ser um usuário ativo do Workfront.
+   * **Tipo de valor**: como você mede o progresso do resultado.
+   * **Valor Inicial**: o valor original do resultado.
+   * **Valor de Destino**: o valor desejado quando o resultado é concluído.
 Para obter mais informações sobre campos de resultados, consulte [Adicionar resultados às metas](../results-and-activities/add-results-to-goals.md).
 1. Clique em **Salvar**.
 
@@ -185,10 +185,10 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Clique em **Menu principal** ![](assets/main-menu-icon.png), depois **Metas**.
+1. Clique no **Menu principal** ![](assets/main-menu-icon.png) e depois em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
-1. Selecione uma atividade na lista Progress indicators e clique no botão **Editar** ícone ![](assets/edit-icon.png).
+1. Selecione uma atividade na lista Progress indicators e clique no ícone ![](assets/edit-icon.png) **Editar**.
 
    A caixa Editar atividade é aberta.
 

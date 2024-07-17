@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Você pode modificar temporariamente a largura das colunas arrastando e soltando suas margens para corresponder à largura desejada. Para obter mais informações, consulte [Modificar a largura e a ordem da coluna](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Você pode modificar temporariamente a largura das colunas arrastando e soltando suas margens para corresponder à largura desejada. Para obter mais informações, consulte [Modificar largura e ordem da coluna](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 Para alterar permanentemente a largura de qualquer coluna de qualquer exibição, você deve usar o modo de texto na coluna à medida que edita a exibição.
 
@@ -59,12 +59,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 >[!IMPORTANT]
 >
->Se você modificar manualmente a largura de uma coluna conforme descrito na seção [Modificar temporariamente a largura e a ordem das colunas](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) no artigo [Modificar a largura e a ordem da coluna](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) depois de modificar permanentemente a largura da coluna, ela será preservada de acordo com o redimensionamento manual. Nesse caso, a largura da coluna atualizada de acordo com as etapas a seguir é substituída. Você pode visualizar a coluna de acordo com a largura definida nas etapas a seguir depois de limpar o cache ou fazer logon em outro navegador.
+>Se você modificar manualmente a largura de uma coluna conforme descrito na seção [Modificar temporariamente a largura e a ordem das colunas](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) no artigo [Modificar a largura e a ordem da coluna](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) após modificar permanentemente a largura da coluna, ela será preservada de acordo com o redimensionamento manual. Nesse caso, a largura da coluna atualizada de acordo com as etapas a seguir é substituída. Você pode visualizar a coluna de acordo com a largura definida nas etapas a seguir depois de limpar o cache ou fazer logon em outro navegador.
 >
->Para obter informações adicionais sobre como personalizar a largura das colunas ao usar a interface do Modo de texto, consulte as definições de &quot;largura&quot; e &quot;ampliação&quot; na [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>Para obter informações adicionais sobre como personalizar a largura das colunas ao usar a interface do Modo de Texto, consulte as definições de &quot;largura&quot; e &quot;ampliação&quot; no [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Ir para uma lista de objetos.
-1. No **Exibir** clique em **Nova visualização**.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
 
 1. Clique em **Adicionar coluna** para adicionar uma nova coluna.
 
@@ -72,8 +72,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Clique no cabeçalho de qualquer coluna existente.
 
-1. Clique em **Alternar para modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
+1. Clique em **Alternar para Modo de Texto**.
+1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
 1. Adicione o seguinte código ao modo de texto da coluna:
 
    ```
@@ -81,8 +81,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    usewidths=true
    ```
 
-   Para o **largura** especifique qualquer número (em pixels) que represente a largura desejada para a exibição da coluna na exibição.
+   Para a linha **largura**, especifique qualquer número (em pixels) que represente a largura desejada para a exibição da coluna no modo de exibição.
 
-1. Clique em **Salvar**, depois **Salvar visualização**.
+1. Clique em **Salvar** e depois em **Salvar exibição**.
 
 

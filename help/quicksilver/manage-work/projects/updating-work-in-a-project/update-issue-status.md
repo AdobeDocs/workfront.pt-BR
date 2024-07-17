@@ -86,8 +86,8 @@ Você pode atualizar o status do problema nas seguintes áreas do Workfront:
 Para atualizar manualmente o status do problema no cabeçalho do problema:
 
 1. Vá para um problema para o qual deseja atualizar o status.
-1. Clique em **Status** no cabeçalho do problema e selecione um novo status.
-1. Para fornecer uma indicação visual da conclusão do problema, arraste ou clique duas vezes na bolha em **Percentual Completo** no cabeçalho do problema
+1. Clique no campo **Status** no cabeçalho do problema e selecione um novo status.
+1. Para fornecer uma indicação visual da conclusão do problema, arraste ou clique duas vezes na bolha em **Percentual concluído** no cabeçalho do problema
 
    Ou
 
@@ -97,12 +97,12 @@ Para atualizar manualmente o status do problema no cabeçalho do problema:
 
 1. (Opcional) Siga qualquer um destes procedimentos para fornecer informações adicionais sobre a atualização:
 
-   * Para adicionar uma observação sobre a atualização, acesse o **Atualizações** e clique em **Novo comentário**, em seguida, digite uma nota.
+   * Para adicionar uma observação sobre a atualização, vá para a seção **Atualizações**, clique em **Novo comentário** e digite uma observação.
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Para notificar determinados usuários sobre a atualização, digite seus nomes no campo **Marcar pessoas ou equipes** que aparece quando você digita um comentário. Para obter mais informações, consulte [Marcar outros usuários em atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Para atualizar a Data de confirmação do problema, clique em **Detalhes do problema**, em seguida, edite o **Data de confirmação** campo. Para obter informações, consulte [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * Para notificar determinados usuários sobre a atualização, digite seus nomes no campo **Marcar pessoas ou equipes**, que aparece quando você digita um comentário. Para obter mais informações, consulte [Marcar outros em atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Para atualizar a Data de confirmação do problema, clique em **Detalhes do problema** e edite o campo **Data de confirmação**. Para obter informações, consulte [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 
    >[!IMPORTANT]
@@ -161,12 +161,12 @@ O Workfront atualiza automaticamente o status existente de um problema para um s
   <tr> 
    <td>Atualizar o status de um objeto de resolução anexado ao problema</td> 
    <td>Vários status</td> 
-   <td> <p>Vários status</p> <p>Para obter informações sobre a resolução de objetos e como eles afetam o status de problemas, consulte a seção "Sincronizar o status do objeto resolvível com o status do objeto de resolução" no artigo <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Visão Geral de Objetos Resolventes e Resolvíveis </a>.</p> </td> 
+   <td> <p>Vários status</p> <p>Para obter informações sobre a resolução de objetos e como eles afetam o status de problemas, consulte a seção "Sincronizar o Status do Objeto Resolvível com o do Objeto de Resolução" no artigo <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Visão Geral de Objetos Resolvíveis e Resolvíveis </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Clique no botão Iniciar problema para aceitar trabalhar em um problema atribuído a você</span> </td> 
+   <td><span>Clique no botão Iniciar Problema para aceitar trabalhar em um problema atribuído a você</span> </td> 
    <td><span>Novo</span> </td> 
-   <td> <p>Qualquer status associado ao botão Iniciar problema nas configurações da Equipe da página inicial. </p> <p>Para obter informações sobre a substituição do botão Trabalhar na tarefa por um botão Iniciar problema, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão Trabalhar na tarefa por um botão Iniciar</a></span><span>.</span> </p> <p>Dica: Clicar <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">o botão Desfazer</span> depois de clicar em Iniciar problema, reverte o status para Novo. </p> </td> 
+   <td> <p>Qualquer status associado ao botão Iniciar problema nas configurações da Equipe da página inicial. </p> <p>Para obter informações sobre a substituição do botão Trabalhar na tarefa pelo botão Iniciar problema, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a></span><span>.</span> </p> <p>Dica: Clicar em <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">o botão Desfazer</span> depois de clicar em Iniciar problema reverte o status para Novo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

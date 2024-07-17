@@ -1,8 +1,8 @@
 ---
 product-area: resource-management;reporting
 navigation-topic: resource-planning
-title: Relatório sobre Horas Orçadas do Planejador de Recursos
-description: Você pode orçar recursos em seus projetos usando o Planejador de Recursos. Para obter informações sobre como orçar seus recursos usando o Planejador de Recursos do Adobe Workfront, consulte o artigo Recursos de Orçamento no Planejador de Recursos usando as exibições Projeto e Função .
+title: Relatório de Horas Orçadas do Planejador de Recursos
+description: Você pode estimar recursos em seus projetos usando o Planejador de recursos. Para obter informações sobre como estimar seus recursos usando o Planejador de recursos do Adobe Workfront, consulte o artigo Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função.
 author: Alina
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Relatório sobre Horas Orçadas do Planejador de Recursos
+# Relatório de Horas Orçadas do Planejador de Recursos
 
-Você pode orçar recursos em seus projetos usando o Planejador de Recursos. Para obter informações sobre como orçar seus recursos usando o Adobe Workfront Resource Planner, consulte o artigo [Recursos de orçamento no Planejador de Recursos usando as exibições Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Você pode estimar recursos em seus projetos usando o Planejador de recursos. Para obter informações sobre como estimar seus recursos usando o Planejador de Recursos da Adobe Workfront, consulte o artigo [Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-Os recursos orçamentários significam que você define (ou orçamenta) um determinado número de horas em que os recursos de um projeto precisam concluir seu trabalho no projeto. Para compartilhar as informações da hora orçada que você informa no Planejador de Recursos com outros usuários que talvez não tenham acesso ao Planejador de Recursos, é possível criar um relatório de Hora Orçada. Para obter mais informações, consulte [Relatório: Hora do Orçamento](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+Estimar recursos significa que você define (ou faz um orçamento) um determinado número de horas que os recursos em um projeto precisam para concluir seu trabalho no projeto. Para compartilhar as informações de horas orçadas inseridas no Planejador de recursos com outros usuários que talvez não tenham acesso ao Planejador de recursos, você pode criar um relatório de Horas orçadas. Para obter informações, consulte [Relatório: Hora orçada](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

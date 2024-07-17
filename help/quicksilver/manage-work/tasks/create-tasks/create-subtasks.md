@@ -45,7 +45,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões para o projeto e a tarefa pai com a capacidade de Adicionar tarefas ou superior</p> <p>Você recebe automaticamente permissões de Gerenciamento para a tarefa após criá-la.</p>  </td> 
+   <td> <p>Permissões do Contribute para o projeto e a tarefa pai com capacidade para Adicionar tarefas ou superior</p> <p>Você recebe automaticamente permissões de Gerenciamento para a tarefa após criá-la.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,16 +61,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ### Criar subtarefas da lista de tarefas {#create-subtasks-from-the-task-list}
 
 1. Vá para o projeto em que deseja criar subtarefas.
-1. Clique em **Tarefas** no painel esquerdo.
+1. Clique na seção **Tarefas** no painel esquerdo.
 1. (Condicional) Se a tarefa que você deseja tornar a tarefa filho ainda não estiver localizada diretamente abaixo da tarefa que você deseja tornar pai, arraste-a para o local apropriado na lista de tarefas.
 1. Selecione a tarefa que você deseja transformar em uma subtarefa e siga um destes procedimentos:
 
-   * Clique em **Recuar** ícone ![](assets/indent-icon-nwe-33x29.png) para tornar a tarefa selecionada uma subtarefa para a tarefa diretamente acima dela.
+   * Clique no ícone **Recuo** ![](assets/indent-icon-nwe-33x29.png) para tornar a tarefa selecionada uma subtarefa da tarefa diretamente acima dela.
    * Ao usar um teclado QWERTY padrão em inglês, pressione Option + > (Mac) ou Alt + > (Windows) no teclado. Outras linguagens podem usar os comandos Option + , (Mac) ou Alt + , (Windows) para recuar.
 
      >[!TIP]
      >
-     >Os atalhos de teclado não funcionam ao editar tarefas em edição em linha. Nesse caso, use o ícone Recuar ![](assets/cs1.png) para criar subtarefas.
+     >Os atalhos de teclado não funcionam ao editar tarefas em edição em linha. Nesse caso, use o ícone de Recuo ![](assets/cs1.png) para criar subtarefas.
 
    * Arraste e solte a tarefa sobre a tarefa que deseja designar como a tarefa pai.
 
@@ -81,9 +81,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ### Criar subtarefas a partir da seção Subtarefas de tarefa {#create-subtasks-from-the-task-subtasks-section}
 
 1. Vá para o projeto em que deseja criar subtarefas.
-1. Clique em **Tarefas** no painel esquerdo.
+1. Clique na seção **Tarefas** no painel esquerdo.
 1. Clique no nome da tarefa em que deseja criar uma subtarefa.
-1. Clique em **Subtarefas** no painel esquerdo.
+1. Clique na seção **Subtarefas** no painel esquerdo.
 1. Clique em **Nova tarefa.**
 
    Siga as etapas no artigo a seguir para continuar criando a subtarefa: [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -93,9 +93,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Transformar uma subtarefa em uma tarefa principal
 
 1. Vá para o projeto em que deseja tornar uma subtarefa uma tarefa principal.
-1. Clique em **Tarefas** no painel esquerdo.
+1. Clique na seção **Tarefas** no painel esquerdo.
 1. Selecione a subtarefa que você deseja transformar em uma tarefa principal.
-1. Clique em **Diminuir recuo** ícone ![](assets/outdent-icon-nwe-31x29.png) para tornar a subtarefa uma tarefa principal.
+1. Clique no ícone **Diminuir recuo** ![](assets/outdent-icon-nwe-31x29.png) para tornar a subtarefa uma tarefa principal.
 
    Ou
 

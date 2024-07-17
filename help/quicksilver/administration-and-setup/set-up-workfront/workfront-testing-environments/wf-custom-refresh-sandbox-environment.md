@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: A variável [!DNL Adobe Workfront] Ambiente de sandbox de atualização personalizada
+title: O  [!DNL Adobe Workfront] Ambiente de sandbox de atualização personalizada
 description: A sandbox de atualização personalizada é um ambiente em que você pode testar e trabalhar usando dados de seu ambiente de produção. Também é ideal para executar treinamentos e determinar a funcionalidade de configuração.
 author: Caroline
 feature: System Setup and Administration
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 ---
 
-# A variável [!DNL Adobe Workfront] Ambiente de sandbox de atualização personalizada
+# O ambiente de sandbox de atualização personalizada do [!DNL Adobe Workfront]
 
 A sandbox de atualização personalizada é um ambiente em que você pode testar e trabalhar usando dados de seu ambiente de produção. Também é ideal para executar treinamentos e determinar a funcionalidade de configuração.
 
 >[!NOTE]
 >
->Isso é diferente da Pré-visualização da sandbox, que também é um ambiente de teste que replica suas [!DNL Workfront] ambiente de produção.
+>Isso é diferente da sandbox de visualização, que também é um ambiente de teste que replica seu ambiente de produção [!DNL Workfront].
 >
 >* Os novos recursos são introduzidos na Sandbox de visualização antes de serem disponibilizados na produção.
 >* Os novos recursos não são introduzidos na Sandbox de atualização personalizada antes de serem disponibilizados na produção.
 >
 >  Além disso, há um custo adicional para obter a sandbox de atualização personalizada que não é necessária para a sandbox de visualização.
 >
->  Para obter mais informações sobre a Visualização da sandbox, consulte [A variável [!DNL Adobe Workfront] Visualizar ambiente de sandbox](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Para obter mais informações sobre a Visualização da sandbox, consulte [O [!DNL Adobe Workfront] Ambiente de Visualização da Sandbox](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 
 ## Requisitos de acesso
@@ -48,7 +48,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!DNL Workfront] licença</p> </td> 
-   <td> <p>[!UICONTROL Plano] </p> <p>Você deve ser um [!DNL Workfront] administrador. Para obter informações sobre [!DNL Workfront] administradores, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
+   <td> <p>[!UICONTROL Plano] </p> <p>Você deve ser um administrador [!DNL Workfront]. Para obter informações sobre administradores do [!DNL Workfront], consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Pacote de suporte</td> 
@@ -67,7 +67,7 @@ A Sandbox de atualização personalizada contém seus dados reais de produção 
 >
 >* Você não pode programar uma atualização para o dia atual. Por exemplo, se hoje for 1º de junho, o primeiro dia em que você pode programar uma atualização será 2 de junho.
 >* A atualização programada ocorre em algum momento durante a noite, com base no cluster do usuário (os clusters dos EUA são atualizados durante a noite nos EUA). O horário específico é imprevisível devido a outros clientes na fila e à quantidade de dados que são atualizados. Se a fila tiver muitos clientes grandes, a atualização pode não ser executada até mais tarde naquele dia ou no dia seguinte.
->* Sua sandbox de atualização personalizada sempre tem os mesmos recursos de produto que seu ambiente de produção. No entanto, quando você atualiza a Sandbox de atualização personalizada, ela preserva a identidade visual somente para a cor de fundo da tela de logon. Os logotipos da tela de logon e da barra de navegação são redefinidos como [!DNL Workfront] padrão e quaisquer imagens de marca modificadas antes da atualização não são exibidas.
+>* Sua sandbox de atualização personalizada sempre tem os mesmos recursos de produto que seu ambiente de produção. No entanto, quando você atualiza a Sandbox de atualização personalizada, ela preserva a identidade visual somente para a cor de fundo da tela de logon. Os logotipos da tela de logon e da barra de navegação são redefinidos para os padrões [!DNL Workfront], e as imagens de marca modificadas antes da atualização não são exibidas.
 >
 
 
@@ -80,19 +80,19 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 ## Acesse a sandbox de atualização personalizada a partir do ambiente de produção {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
-Como um [!DNL Workfront] administrador, você pode acessar sua Sandbox de atualização personalizada a partir de seu ambiente de produção.
+Como administrador do [!DNL Workfront], você pode acessar sua Sandbox de atualização personalizada no seu ambiente de produção.
 
 >[!NOTE]
 >
->Se sua conta estiver no Cluster 4 (Cluster EMEA), você não poderá acessar sua Sandbox de atualização personalizada no Ambiente de produção. Para obter mais informações sobre como você pode acessar sua Sandbox de Atualização Personalizada quando tem uma conta no Cluster 4, consulte [Acesse a sandbox de atualização personalizada para contas no cluster 4 (contas da EMEA)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Acesse a sandbox de atualização personalizada para contas no cluster 4 (contas da EMEA)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
+>Se sua conta estiver no Cluster 4 (Cluster EMEA), você não poderá acessar sua Sandbox de atualização personalizada no Ambiente de produção. Para obter mais informações sobre como acessar sua Sandbox de Atualização Personalizada quando tiver uma conta no Cluster 4, consulte [Acessar a Sandbox de Atualização Personalizada para Contas no Cluster 4 (Contas EMEA)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Acessar a Sandbox de Atualização Personalizada para Contas no Cluster 4 (Contas EMEA)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
 
 Para acessar sua sandbox de atualização personalizada:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Configuração]** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
 
 1. Clique em **[!UICONTROL Sistema]** >**[!UICONTROL Preferências]**.
 
-1. No **[!UICONTROL Ambiente de teste]** clique em **[!UICONTROL Sandbox 1]** ou **[!UICONTROL Sandbox 2]**.
+1. Na seção **[!UICONTROL Ambiente de Teste]**, clique em **[!UICONTROL Sandbox 1]** ou **[!UICONTROL Sandbox 2]**.
 
    Seu pacote de suporte especifica se você tem acesso a uma ou duas sandboxes de atualização personalizada.
 
@@ -117,18 +117,18 @@ Para acessar sua sandbox de atualização personalizada usando um URL:
 
 1. Navegue até este URL se você tiver apenas uma Sandbox de Atualização Personalizada:
 
-   https://companyname.sb01.workfront.com (URL antigo):https://cr1.attasksandbox.com/.
+   https://companyname.sb01.workfront.com (URL antiga:https://cr1.attasksandbox.com/.)
 
    Ou Se você tiver duas Sandboxes de Atualização Personalizada, além das URLs acima, você também poderá acessar a seguinte URL para acessar sua segunda Sandbox de Atualização Personalizada:
 
-   https://companyname.sb02.workfront.com (URL antigo):https://cr2.attasksandbox.com/)
+   https://companyname.sb02.workfront.com (URL antiga:https://cr2.attasksandbox.com/)
 
 1. Na tela de logon, faça logon usando as credenciais da Sandbox de atualização personalizada.
 1. Suas credenciais de Sandbox de atualização personalizada são as mesmas de suas credenciais de produção, a menos que você tenha alterado suas credenciais de produção desde que sua Sandbox de atualização personalizada foi atualizada pela última vez. Os logons são sincronizados somente quando ocorre uma atualização. Eles não são sincronizados automaticamente.
 
 ### Acesse a sandbox de atualização personalizada para contas no cluster 4 (contas da EMEA) {#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
-Se o seu [!DNL Workfront] estiver no Cluster 4 (cluster EMEA), você poderá acessar sua Sandbox de Atualização Personalizada somente usando um URL. Para descobrir em qual cluster está sua conta, entre em contato com nossa equipe de Suporte ao cliente.
+Se sua conta do [!DNL Workfront] estiver no Cluster 4 (cluster EMEA), você poderá acessar sua Sandbox de Atualização Personalizada apenas usando uma URL. Para descobrir em qual cluster está sua conta, entre em contato com nossa equipe de Suporte ao cliente.
 
 Dependendo do seu pacote de Suporte, você deve ter acesso a uma ou duas Sandboxes de Atualização Personalizada.
 
@@ -136,15 +136,15 @@ Para acessar sua sandbox de atualização personalizada usando um URL:
 
 1. Navegue até este URL se você tiver apenas uma Sandbox de Atualização Personalizada:
 
-   https://companyname.sb01.workfront.com (URL antigo):https://cr3.attasksandbox.com)
+   https://companyname.sb01.workfront.com (URL antiga:https://cr3.attasksandbox.com)
 
    Ou
 
    Vá para um desses URLs se você tiver duas Sandboxes de Atualização Personalizada:
 
-   https://companyname.sb01.workfront.com (URL antigo):https://cr3.attasksandbox.com)
+   https://companyname.sb01.workfront.com (URL antiga:https://cr3.attasksandbox.com)
 
-   https://companyname.sb02.workfront.com (URL antigo):https://cr4.attasksandbox.com)
+   https://companyname.sb02.workfront.com (URL antiga:https://cr4.attasksandbox.com)
 
 1. Na tela de logon, faça logon usando as credenciais da Sandbox de atualização personalizada.
 
@@ -154,7 +154,7 @@ Para acessar sua sandbox de atualização personalizada usando um URL:
 
 >[!IMPORTANT]
 >
->A duração da atualização depende do tamanho dos dados que estão sendo atualizados. Durante o processo de atualização, é essencial que o ambiente personalizado da sandbox de atualização não esteja sendo usado de nenhuma maneira (incluindo chamadas e integrações de API), pois isso impedirá que a atualização da sandbox seja concluída com êxito. [!DNL Workfront] desativará o ambiente personalizado de sandbox de atualização antes de ele começar, mas você deve encerrar todas as sessões ativas para garantir que a atualização da sandbox seja bem-sucedida.
+>A duração da atualização depende do tamanho dos dados que estão sendo atualizados. Durante o processo de atualização, é essencial que o ambiente personalizado da sandbox de atualização não esteja sendo usado de nenhuma maneira (incluindo chamadas e integrações de API), pois isso impedirá que a atualização da sandbox seja concluída com êxito. O [!DNL Workfront] desabilitará o ambiente de sandbox de atualização personalizada antes de ele começar, mas você deve encerrar todas as sessões ativas para garantir que a atualização da sandbox seja bem-sucedida.
 
 Depois de agendar uma atualização da Sandbox de Atualização Personalizada, você pode cancelá-la clicando em [!UICONTROL Cancelar] na parte superior da página. Você também pode reagendá-lo para um momento posterior.
 
@@ -166,26 +166,26 @@ Para agendar uma atualização da Sandbox de atualização do cliente:
 
 1. Faça logon na Sandbox de atualização personalizada.
 1. Clique em **[!UICONTROL Agendar]** no banner na parte superior da tela e selecione uma data no calendário.
-1. Selecione uma data para quando deseja que a atualização ocorra e clique em **[!UICONTROL Agendar Atualização]**.
+1. Selecione uma data para quando quiser que a atualização ocorra e clique em **[!UICONTROL Agendar Atualização]**.
 
 ## Alterne para Produção da Sandbox de Atualização Personalizada
 
 1. Faça logon na Sandbox de atualização personalizada.
 
-   Para obter mais informações sobre como acessar sua sandbox de atualização personalizada, consulte [Acesse a sandbox de atualização personalizada a partir do ambiente de produção](#access-the-custom-refresh-sandbox-from-your-production-environment) ou [Acesse a sandbox de atualização personalizada usando um URL](#access-the-custom-refresh-sandbox-using-a-url).
+   Para obter mais informações sobre como acessar sua Sandbox de Atualização Personalizada, consulte [Acessar a Sandbox de Atualização Personalizada de seu ambiente de Produção](#access-the-custom-refresh-sandbox-from-your-production-environment) ou [Acessar a Sandbox de Atualização Personalizada usando uma URL](#access-the-custom-refresh-sandbox-using-a-url).
 
 1. Clique em **[!UICONTROL Ir para produção]** no banner na parte superior da tela.
 
-   Lembre-se de que o trabalho concluído na sandbox não ficará visível no [!UICONTROL produção] ambiente, já que a transferência de dados é unidirecional, da produção à sandbox de atualização personalizada, e não ao contrário.
+   Lembre-se de que o trabalho realizado na sandbox não estará visível no ambiente [!UICONTROL produção], pois a transferência de dados é unidirecional, da produção para a sandbox de atualização personalizada, e não invertido.
 
 ## Receber emails da Sandbox de atualização personalizada
 
-[!DNL Workfront] desativa toda a comunicação por email do ambiente Personalizar atualização da sandbox. Se você quiser receber notificações por email do ambiente Personalizar atualização da sandbox, será necessário habilitar essa funcionalidade nas configurações do usuário. Para obter mais informações sobre como ativar notificações por email no ambiente de sandbox de atualização personalizada, consulte [Ativar a entrega de emails do ambiente Visualização da sandbox](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+[!DNL Workfront] desabilita todas as comunicações por email do ambiente de Sandbox de Atualização Personalizada. Se você quiser receber notificações por email do ambiente Personalizar atualização da sandbox, será necessário habilitar essa funcionalidade nas configurações do usuário. Para obter mais informações sobre como ativar notificações por email no ambiente Personalizado da Sandbox de Atualização, consulte [Habilitar a entrega de emails do ambiente Visualização da Sandbox](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->O delivery de relatórios e as notificações por push no aplicativo móvel estão sempre desativados para o ambiente sandbox de atualização personalizada. Nem você nem o [!DNL Workfront] O administrador pode habilitar a entrega de relatórios ou notificações por push para o aplicativo móvel quando você acessa o ambiente Sandbox de atualização personalizada.\
->Para obter mais informações sobre deliveries de relatórios para o ambiente de produção, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md). Para obter mais informações sobre notificações por push no aplicativo móvel para o ambiente de produção, consulte a seção em .
+>O delivery de relatórios e as notificações por push no aplicativo móvel estão sempre desativados para o ambiente sandbox de atualização personalizada. Nem você nem o administrador do [!DNL Workfront] podem habilitar a entrega de relatórios ou notificações por push para o aplicativo móvel quando você acessa o ambiente de sandbox de atualização personalizada.\
+>Para obter mais informações sobre entregas de relatório para o ambiente de produção, consulte [Visão geral da entrega de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).Para obter mais informações sobre notificações por push no aplicativo móvel para o ambiente de produção, consulte a seção em .
 
 ## Configurar o logon único na sandbox de atualização personalizada
 
@@ -193,16 +193,16 @@ Se você quiser configurar sua sandbox de atualização personalizada para funci
 Ao atualizar sua sandbox de atualização personalizada, as informações de SSO não são copiadas de seu ambiente de produção para substituir a configuração da sandbox de atualização personalizada.
 
 As etapas para configurar o logon único na sandbox de atualização personalizada são semelhantes àquelas para configurá-lo no ambiente de Produção.\
-Para obter mais informações sobre a configuração [!DNL Workfront] com SSO, consulte [Visão geral do logon único no Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Para obter mais informações sobre como configurar o [!DNL Workfront] com SSO, consulte [Visão geral do logon único no Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Isso não está disponível se o da sua organização [!DNL Workfront] A instância do é ativada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
+>Isso não está disponível se a instância [!DNL Workfront] da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 ## Uso e disponibilidade previstos
 
-* [!DNL Workfront] Os ambientes de sandbox de atualização personalizada não se destinam a testes de desempenho ou carga. Em vez disso, use esses ambientes para validar a funcionalidade do recurso com os fluxos de trabalho existentes da organização.
+* Os ambientes de sandbox de atualização personalizada do [!DNL Workfront] não se destinam a testes de desempenho ou carga. Em vez disso, use esses ambientes para validar a funcionalidade do recurso com os fluxos de trabalho existentes da organização.
 
-* [!DNL Workfront] Os ambientes de sandbox de atualização personalizada devem estar sempre disponíveis. Qualquer interrupção em um ambiente de sandbox de atualização personalizada da Workfront durante o horário comercial regular será uma prioridade imediatamente após a resolução de qualquer problema de produção, se houver. Qualquer interrupção em um ambiente Workfront Custom Refresh Sandbox nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
+* [!DNL Workfront] Os ambientes da Sandbox de atualização personalizada devem estar sempre disponíveis. Qualquer interrupção em um ambiente de sandbox de atualização personalizada da Workfront durante o horário comercial regular será uma prioridade imediatamente após a resolução de qualquer problema de produção, se houver. Qualquer interrupção em um ambiente Workfront Custom Refresh Sandbox nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
 
 * A revisão não está disponível nos ambientes de sandbox de atualização personalizada.

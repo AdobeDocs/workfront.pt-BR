@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade da versão Beta 4 2018.1
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 4 de 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 24 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
+title: Atividade da versão 2018.1 do Beta 4
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 4. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 24 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,47 +14,47 @@ ht-degree: 0%
 
 ---
 
-# Atividade da versão Beta 4 2018.1
+# Atividade da versão 2018.1 do Beta 4
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão Beta 4 de 2018.1. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 24 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 4. A funcionalidade foi disponibilizada no ambiente de Pré-visualização em 24 de janeiro de 2018. Ele estará disponível no ambiente de Produção em março de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  [Visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-A versão Beta 4 de 2018.1 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2018.1 do Beta 4 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
 * [Agendamentos gerenciados por administradores de grupo](#schedules-managed-by-group-administrators)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
-* [Aprimoramentos de provas no Workfront](#proofing-improvements-within-workfront)
-* [Criação de prova no Workfront Proof - Experiência do usuário aprimorada e funcionalidade adicional](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
-* [Melhorias na prova no Workfront e no Workfront](#proofing-improvements-within-workfront-and-workfront-proof)
-* [Aparência e funcionalidade atualizadas com a integração do Basecamp no Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
-* [Colar imagens na Workfront a partir da área de transferência](#paste-images-to-workfront-from-the-clipboard)
-* [Melhorias no relatório de utilização](#utilization-report-improvements)
+* [Melhorias na revisão no Workfront](#proofing-improvements-within-workfront)
+* [Criação de provas no Workfront Proof - Experiência do usuário aprimorada e funcionalidade adicional](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* [Melhorias na revisão no Workfront e no Workfront Proof](#proofing-improvements-within-workfront-and-workfront-proof)
+* [Aparência e funcionalidade atualizadas com a Integração do Basecamp no Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
+* [Colar imagens na Workfront a partir da Área de Transferência](#paste-images-to-workfront-from-the-clipboard)
+* [Melhorias no Relatório de Utilização](#utilization-report-improvements)
 * [Remover o objeto de horas orçadas do recurso do Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
-* [Estatísticas de uso de relatórios](#report-usage-statistics)
+* [Relatar Estatísticas de Uso](#report-usage-statistics)
 * [Atualizações do Gráfico de Gantt](#gantt-chart-updates)
-* [Novo otimizador de Portfolio](#new-portfolio-optimizer)
+* [Novo Portfolio Otimizer](#new-portfolio-optimizer)
 * [Opção de Ajuste da Data de Orçamento no Planejador de Recursos](#budget-date-adjustment-option-in-the-resource-planner)
 * [Agendamento de Recursos: Restringir Atribuições a Usuários com Base na Associação de Grupo](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
-* [Agendamento de recursos: permitir atribuições a usuários independentemente da função](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
+* [Agendamento de Recursos: Permitir Atribuições a Usuários Independentemente da Função](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [Suporte a Emoji](#emoji-support)
 
 ## Aprimoramentos de provas no Workfront {#proofing-improvements-within-workfront}
 
 Os seguintes aprimoramentos foram feitos na lista de documentos do Workfront: 
 
-* [Exibir progresso da prova na lista de documentos](#view-proof-progress-from-the-document-list)
+* [Exibir Progresso da Prova na Lista de Documentos](#view-proof-progress-from-the-document-list)
 * [Nova Opção para Exibir o Resumo de Impressão na Lista de Documentos](#new-option-to-view-the-print-summary-from-the-document-list)
 * [Aparência atualizada para gerar ou abrir a prova na lista de documentos](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
-* [Vários links removidos de documentos na lista de documentos](#various-links-removed-from-documents-on-the-document-list)
+* [Vários Links Removidos de Documentos na Lista de Documentos](#various-links-removed-from-documents-on-the-document-list)
 * [Exibir nomes de arquivo em provas combinadas](#view-file-names-on-combined-proofs)
 * [Visualizar o estágio ativo atual de uma prova na lista de documentos](#view-the-current-active-stage-of-a-proof-from-the-document-list)
 
@@ -64,7 +64,7 @@ Os indicadores de progresso de prova agora são exibidos para todas as provas ao
 
 Antes dessa alteração, era necessário selecionar uma prova na lista de documentos para visualizar o progresso da prova no painel direito. 
 
-Para obter mais informações, consulte [Visão geral do progresso e do status da prova](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+Para obter mais informações, consulte [Progresso da prova e visão geral do status](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 
 ### Nova Opção para Exibir o Resumo de Impressão na Lista de Documentos {#new-option-to-view-the-print-summary-from-the-document-list}
 
@@ -72,7 +72,7 @@ Agora é possível exibir o resumo de impressão de uma prova diretamente na lis
 
 Antes dessa alteração, você poderia exibir o resumo de impressão somente no revisor de provas. 
 
-Para obter mais informações sobre a exibição do resumo de impressão na lista de documentos, consulte [Imprimir um resumo de prova no Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Para obter mais informações sobre como exibir o resumo de impressão da lista de documentos, consulte [Imprimir um resumo de prova no Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ### Aparência atualizada para gerar ou abrir a prova na lista de documentos {#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list}
 
@@ -123,7 +123,7 @@ Agora, ao selecionar uma prova na lista de documentos, os estágios ativos atuai
 
 Para obter mais informações, consulte [Exibir estágios ativos em uma prova](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
 
-## Criação de prova no Workfront Proof - Experiência do usuário aprimorada e funcionalidade adicional {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
+## Criação de provas no Workfront Proof - Experiência do usuário aprimorada e funcionalidade adicional {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
 Além de uma experiência do usuário aprimorada ao criar provas no Workfront Proof, a seguinte funcionalidade adicional está disponível:
 
@@ -141,12 +141,12 @@ Além de uma experiência do usuário aprimorada ao criar provas no Workfront Pr
 
 Para obter mais informações, consulte  [Gerar provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
-## Melhorias na prova no Workfront e no Workfront {#proofing-improvements-within-workfront-and-workfront-proof}
+## Melhorias na revisão no Workfront e no Workfront Proof {#proofing-improvements-within-workfront-and-workfront-proof}
 
 As seguintes alterações se aplicam ao adicionar documentos ao Workfront e ao Workfront Proof:
 
 * [Redimensionar a lista de comentários ao revisar provas](#resize-the-comment-list-when-reviewing-proofs)
-* [Os Hiperlinks Estão Ativos Ao Revisar Provas Estáticas](#hyperlinks-are-active-when-reviewing-static-proofs)
+* [Os Hiperlinks Estão Ativos Durante A Revisão De Provas Estáticas](#hyperlinks-are-active-when-reviewing-static-proofs)
 * [Melhorias Ao Adicionar Provas](#improvements-when-adding-proofs)
 
 ### Redimensionar a lista de comentários ao revisar provas {#resize-the-comment-list-when-reviewing-proofs}
@@ -198,7 +198,7 @@ Agora é possível adicionar arquivos de imagem ao Workfront colando uma imagem 
 
 A capacidade de colar da área de transferência foi removida do Workfront em uma versão anterior; ela está sendo reintroduzida com esta versão. O novo método é mais simples e intuitivo.
 
-Para obter mais informações, consulte [Colar imagens da área de transferência](../../../../documents/managing-documents/paste-image-clipboard.md). 
+Para obter mais informações, consulte [Colar imagens da Área de Transferência](../../../../documents/managing-documents/paste-image-clipboard.md). 
 
 ## Melhorias no relatório de utilização {#utilization-report-improvements}
 
@@ -235,7 +235,7 @@ Para solucionar problemas de desempenho, o campo Hora orçada do recurso foi rem
 
 Como lembrete, as Horas orçadas do recurso são as horas orçadas para os recursos ou projetos no Planejador de recursos. Por enquanto, não é mais possível relatar nesse campo no aplicativo web ou por meio da API. O campo será reintegrado em uma versão futura, quando os problemas de desempenho forem resolvidos.
 
-Para obter mais informações sobre horas de orçamento no Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+Para obter mais informações sobre as horas de orçamento no Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Estatísticas de uso de relatórios {#report-usage-statistics}
 
@@ -250,13 +250,13 @@ Agora é possível exibir as seguintes informações de uso para os relatórios 
 
 Antes dessa atualização, você estava limitado às informações de uso que podia ver em seus relatórios.
 
-Para obter mais informações sobre o uso de relatórios, consulte [Visualizar uso do relatório](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
+Para obter mais informações sobre o uso de relatórios, consulte [Exibir uso de relatórios](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
 
 ## Agendamentos gerenciados por administradores de grupo {#schedules-managed-by-group-administrators}
 
 Como administrador de grupo, você pode criar e editar agendas associadas aos grupos que administra, bem como seus subgrupos. Antes dessa alteração, somente administradores do Workfront podiam criar e editar programações.
 
-Para obter mais informações sobre o gerenciamento de agendamentos, consulte [Criar um agendamento](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+Para obter mais informações sobre como gerenciar agendas, consulte [Criar uma agenda](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 ## Atualizações do Gráfico de Gantt {#gantt-chart-updates}
 
@@ -269,25 +269,25 @@ O Gráfico de Gantt agora pode ser editado. Usando o Gráfico de Gantt, você po
 
 Antes dessa alteração, você só podia remover os relacionamentos de predecessores no gráfico de Gantt e editar tarefas somente na lista de tarefas.
 
-Para obter mais informações sobre o Diagrama de Gantt, consulte [Atualizar informações no Diagrama de Gantt da lista de tarefas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+Para obter mais informações sobre o Gráfico de Gantt, consulte [Atualizar informações na lista de tarefas Gráfico de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ## Novo otimizador de Portfolio {#new-portfolio-optimizer}
 
 A área do Portfolio Otimizer do Workfront foi atualizada com uma nova aparência. A funcionalidade não foi alterada.
 
-Para obter mais informações sobre o Otimizador de Portfolio, consulte [Visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+Para obter mais informações sobre o Portfolio Otimizer, consulte [visão geral do Portfolio Otimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Opção de Ajuste da Data de Orçamento no Planejador de Recursos {#budget-date-adjustment-option-in-the-resource-planner}
 
 Adicionamos uma opção para fornecer visibilidade rápida sobre cronogramas sem conflitos de orçamento. Depois de visualizar quando ocorrem os períodos sem conflitos de orçamento, você pode mover manualmente suas Horas orçadas para esses períodos. Isso também ajustará as datas orçadas das horas. Antes dessa atualização, não era possível visualizar os conflitos de orçamento de um projeto imediatamente.
 
-Para obter mais informações sobre o ajuste de datas orçadas no Planejador de Recursos, consulte a seção &quot;Ajustando Datas Orçamentárias&quot; na [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+Para obter mais informações sobre o ajuste de datas orçadas no Planejador de recursos, consulte a seção &quot;Ajustando datas de orçamento&quot; na [Visão geral do Planejador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 
 ## Agendamento de Recursos: Restringir Atribuições a Usuários com Base na Associação de Grupo {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 
 >[!NOTE]
 >
->As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>As ferramentas de Agendamento de recursos foram substituídas e removidas do Workfront com a versão 23.1. Para obter informações sobre o agendamento de recursos usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Ao fazer atribuições de usuários na área Agendamento (conforme descrito em &quot;Atribuir manualmente tarefas e problemas não atribuídos nas áreas de Agendamento&quot;), agora é possível configurar o Workfront para restringir atribuições de tarefas e problemas somente aos usuários que são membros do grupo definido no projeto onde a tarefa ou problema se origina. 
 

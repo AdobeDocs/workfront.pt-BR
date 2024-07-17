@@ -26,5 +26,5 @@ Esta seção contém os seguintes artigos:
 * [Visão geral da duração do problema](../../../manage-work/issues/issue-information/issue-duration.md)
 * [Atualizar prioridade do problema](../../../manage-work/issues/issue-information/update-issue-priority.md)
 * [Atualizar severidade do problema](../../../manage-work/issues/issue-information/update-issue-severity.md)
-* [Visão geral da Data de conclusão planejada do problema](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [Visão geral da Data de Término Planejada do problema](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 * [Use &quot;opTask&quot; e &quot;issue&quot; ao fazer referência a problemas](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

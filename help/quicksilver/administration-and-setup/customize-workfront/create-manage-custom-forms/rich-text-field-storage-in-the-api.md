@@ -10,7 +10,7 @@ role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Por exemplo, uma simples solicitação HTTP pode se parecer com o seguinte:
 
 `https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*`
 
-Se este projeto de exemplo continha um formulário personalizado com 3 campos personalizados: campo de cálculo, texto de parágrafo e rich 1. Em seguida, a solicitação acima retornaria uma resposta que se parece com a seguinte, em que o campo &quot;rich 1&quot; é um campo de parâmetro de rich text e o valor de texto é &quot;**Olá** *Mundo!*&quot;:
+Se este projeto de exemplo continha um formulário personalizado com 3 campos personalizados: campo de cálculo, texto de parágrafo e rich 1. A solicitação acima retornará uma resposta que se parece com a seguinte, onde o campo &quot;rich 1&quot; é um campo de parâmetro rich text e o valor do texto é &quot;**Hello** *World!*&quot;:
 
 ```
 {

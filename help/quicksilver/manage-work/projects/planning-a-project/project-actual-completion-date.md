@@ -31,13 +31,13 @@ A Data de conclusão efetiva de um projeto é definida das seguintes formas:
 * Ao atualizar manualmente o status do projeto: se o Modo de conclusão do projeto estiver definido como Manual e você alterar manualmente o status do projeto para Concluído, isso acionará a Data de conclusão real do projeto a ser atualizada para a data e a hora da última tarefa concluída.
 * Automaticamente, quando a última tarefa do projeto for concluída: se o Modo de conclusão do projeto estiver definido como Automático e você marcar a última tarefa como Concluída ou atualizar a Data de conclusão real da última tarefa, a Data de conclusão real do projeto também será atualizada com essa data.
 
-  Para obter informações sobre como configurar o Modo de conclusão de um projeto, consulte o artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obter informações sobre como definir o Modo de conclusão de um projeto, consulte o artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!NOTE]
   >
   >O Workfront usa a Data de Término Efetivo da tarefa do projeto que foi concluída por último como a Data de Término Efetivo de todo o projeto.
 
-Um administrador de Workfront ou de grupo determina se o Workfront usa a data de hoje ou a Data de conclusão planejada de uma tarefa ou um problema quando estes estiverem definidos como Concluído ou Fechado. Para obter informações sobre como configurar preferências de tarefas e problemas, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Um administrador de Workfront ou de grupo determina se o Workfront usa a data de hoje ou a Data de conclusão planejada de uma tarefa ou um problema quando estes estiverem definidos como Concluído ou Fechado. Para obter informações sobre como definir preferências de tarefas e problemas, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--this statement is confusing, not sure what it is referring to, so I am drafting this for now: The value for the Actual Completion Date is always what is considered the current date and time.-->
 

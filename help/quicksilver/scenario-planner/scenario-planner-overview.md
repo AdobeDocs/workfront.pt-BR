@@ -10,22 +10,22 @@ exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
 source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# A variável [!DNL Scenario Planner] visão geral
+# A visão geral de [!DNL Scenario Planner]
 
 <!-- Audited: 1/2024 -->
 
-A variável [!DNL Scenario Planner] exige uma licença separada, além da [!DNL Adobe Workfront] licença.
+O [!DNL Scenario Planner] requer uma licença separada, além da licença [!DNL Adobe Workfront].
 Para obter informações sobre o acesso necessário para usar o [!DNL Workfront Scenario Planner], consulte [Acesso necessário para usar o [!DNL Scenario Planner]](access-needed-to-use-sp.md).
 
-## [!DNL Scenario Planner] visão geral
+## Visão geral de [!DNL Scenario Planner]
 
-O objetivo da [!DNL Workfront Scenario Planner] O objetivo é acelerar a execução dos planos de sua organização e ajudá-lo a tomar decisões cruciais que impulsionam a entrega de resultados previsíveis e desejados para seus negócios.
+O propósito do [!DNL Workfront Scenario Planner] é acelerar a execução dos planos da organização e ajudar você a tomar decisões cruciais que promovam a entrega de resultados desejados e esperados pela sua empresa.
 
-Usar o [!DNL Workfront Scenario Planner], você poderá criar planos de nível empresarial que descrevam os resultados estratégicos gerais de sua empresa. Você pode definir várias iniciativas para um plano e colocá-las em vários cenários para encontrar a solução ideal para a execução do plano.
+Usando o [!DNL Workfront Scenario Planner], você pode criar planos de nível empresarial que descrevam os resultados estratégicos gerais da sua empresa. Você pode definir várias iniciativas para um plano e colocá-las em vários cenários para encontrar a solução ideal para a execução do plano.
 
 Você pode usar o [!DNL Workfront Scenario Planner] para fazer o seguinte:
 
@@ -38,11 +38,11 @@ Para obter informações sobre como começar com o [!DNL Workfront Scenario Plan
 
 ## Recursos incluídos com o [!DNL Workfront Scenario Planner]
 
-A seguinte funcionalidade está incluída no [!DNL Workfront Scenario Planner]:
+A seguinte funcionalidade está incluída atualmente no [!DNL Workfront Scenario Planner]:
 
-* Indique o acesso que seus usuários devem ter à [!DNL Workfront Scenario Planner]
+* Indique o acesso que seus usuários devem ter ao [!DNL Workfront Scenario Planner]
 
-  Para obter informações sobre a concessão de acesso ao [!DNL Workfront Scenario Planner], consulte [Conceder acesso ao [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Para obter informações sobre como conceder acesso ao [!DNL Workfront Scenario Planner], consulte [Conceder acesso ao [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * Crie planos para indicar as principais iniciativas em sua organização e definir o suprimento de recursos de pessoas e o orçamento para seus planos
 
@@ -58,7 +58,7 @@ A seguinte funcionalidade está incluída no [!DNL Workfront Scenario Planner]:
 
 * Crie vários cenários do seu plano e compare-os para identificar o melhor resultado para a realização do plano
 
-  Para obter informações sobre como criar e comparar cenários, consulte [Criar e comparar cenários de plano no [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+  Para obter informações sobre como criar e comparar cenários, consulte [Criar e comparar cenários de plano em [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
 * Importar projetos para um plano para criar novas iniciativas
 
@@ -71,13 +71,13 @@ A seguinte funcionalidade está incluída no [!DNL Workfront Scenario Planner]:
 
   Para obter informações sobre como importar projetos para um plano, consulte [Importar projetos para planos na [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Publicar um cenário para criar ou atualizar projetos vinculados às iniciativas no cenário
+* Publish um cenário para criar ou atualizar projetos vinculados às iniciativas no cenário
 
-  Para obter informações sobre os cenários de publicação, consulte [Atualizar ou criar projetos publicando iniciativas no [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+  Para obter informações sobre cenários de publicação, consulte [Atualizar ou criar projetos publicando iniciativas em [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 * Compartilhar um plano com outros usuários para melhor colaboração
 
-  Para obter mais informações, consulte [Compartilhar um plano na [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+  Para obter mais informações, consulte [Compartilhar um plano no [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
 
 * Estimar ou ajustar as funções de trabalho ou informações de Custos fixos necessárias mensalmente, para cada mês de duração de uma iniciativa
 

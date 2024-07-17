@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Para obter mais informações sobre modelos de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar os modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Testar um novo modelo de layout
 
@@ -30,6 +30,6 @@ Você pode testar seu modelo de layout de uma das seguintes maneiras:
 * Atribua o modelo à sua própria conta de usuário e verifique se ele atende a todos os requisitos. Para obter instruções, consulte [Atribuir um modelo de layout aos usuários](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign).
 * Faça logon como um usuário atribuído ao modelo de layout. Para obter instruções, consulte [Fazer logon como outro usuário](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Depois de testar seu modelo de layout e de ter certeza de que ele funcionará bem para os usuários, continue com [Conceder acesso administrativo a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md).
+Depois de testar seu modelo de layout e de ter certeza de que ele funcionará bem para seus usuários, continue com [Conceder acesso administrativo para um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md).
 
 Para obter mais informações sobre modelos de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

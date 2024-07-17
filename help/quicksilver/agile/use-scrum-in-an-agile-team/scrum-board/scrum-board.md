@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [[!UICONTROL Scrum] visão geral do quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
-* [Adicionar uma subtarefa a uma matéria existente no [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
-* [Atribua usuários a uma história no [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
-* [Categorizar matérias por cor no [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
-* [Alterar a ordem das histórias no [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
-* [Filtrar por usuário no [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
-* [Adicionar histórias e problemas do [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
-* [Gerenciar histórias e problemas no [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
-* [Atualizar o status de histórias e subtarefas no [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
-* [Exibir e editar informações de história no [!UICONTROL Scrum] quadro](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
+* [[!UICONTROL Scrum] visão geral do painel](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
+* [Adicionar uma subtarefa a uma história existente no quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
+* [Atribuir usuários a uma história no quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* [Categorizar histórias por cor no quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
+* [Altere a ordem das histórias no quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
+* [Filtrar por usuário no quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
+* [Adicionar histórias e problemas do quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
+* [Gerenciar histórias e problemas no quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
+* [Atualizar o status de histórias e subtarefas no quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
+* [Exibir e editar informações de história no quadro [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)

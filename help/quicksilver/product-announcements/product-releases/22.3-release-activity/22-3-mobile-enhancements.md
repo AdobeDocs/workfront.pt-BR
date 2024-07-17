@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Aprimoramentos em dispositivos móveis
 
-Esta página descreve todas as melhorias móveis feitas com a versão 22.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página descreve todas as melhorias móveis feitas com a versão 22.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte a [Visão geral da versão 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Aprimoramentos de revisão no aplicativo móvel
 
@@ -30,6 +30,6 @@ Você também pode marcar outros usuários de prova em comentários e respostas.
 
 Os seguintes artigos serão atualizados quando o aplicativo for lançado nas lojas de aplicativos:
 
-* [Comentário sobre provas no Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
+* [Comentar em provas no Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
 
 * [Comentar em provas no iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 10%
 
 ---
@@ -447,7 +447,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr data-mc-conditions=""> 
    <td><span>VersãoDocumento</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>accessIDs</span> </td> 
+   <td><span>IDsAcessadores</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -462,7 +462,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>documentID</span> </td> 
+   <td><span>IDdoDocumento</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -502,12 +502,12 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fileName</span> </td> 
+   <td><span>nomeDoArquivo</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fileType</span> </td> 
+   <td><span>tipoArquivo</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -517,7 +517,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>localização</span> </td> 
+   <td><span>local</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -527,7 +527,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofApprovalStatusID</span> </td> 
+   <td><span>IDdoStatusdeAprovaçãodeProva</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -577,7 +577,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>version</span> </td> 
+   <td><span>versão</span> </td> 
   </tr> 
   <tr> 
    <td>Despesa</td> 
@@ -1780,19 +1780,19 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>workflowAutomationID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>AprovaçãoDaProva</span> </td> 
+   <td><span>AprovaçãoDeProva</span> </td> 
    <td><span>PRFAPL</span> </td> 
-   <td><span>accessIDs</span> </td> 
+   <td><span>IDsAcessadores</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>approverDecision</span> </td> 
+   <td><span>decisãodeAprovador</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>approverID</span> </td> 
+   <td><span>IDdoAprovador</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1802,7 +1802,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>documentID</span> </td> 
+   <td><span>IDdoDocumento</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -2717,7 +2717,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>title</td> 
+   <td>título</td> 
   </tr> 
   <tr> 
    <td> </td> 

@@ -61,19 +61,19 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+&#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
 
 ## Adicionar ou editar um widget de ativo em um formulário personalizado
 
 1. Comece a trabalhar em um formulário personalizado, conforme descrito em [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Com o **Adicionar um campo** Para abrir a guia, siga um destes procedimentos:
+1. Com a guia **Adicionar um campo** aberta, siga um destes procedimentos:
 
-   * Se estiver adicionando um novo widget, selecione **Imagem**, **PDF** ou **Vídeo** para adicioná-lo na parte inferior do formulário ou arrastá-lo onde você deseja que ele esteja no formulário.
+   * Se você estiver adicionando um novo widget, selecione **Imagem**, **PDF** ou **Vídeo** para adicioná-lo na parte inferior do formulário ou arraste-o para onde deseja no formulário.
 
      ![](assets/add-widget.png)
 
 
-   * Se quiser adicionar um widget que já foi adicionado a outro formulário personalizado, clique em **Biblioteca de campos**, em seguida, clique no nome do widget na lista exibida. Para obter mais informações, consulte [Reutilizar um campo ou widget personalizado em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   * Para adicionar um widget que já foi adicionado a outro formulário personalizado, clique em **Biblioteca de campos** e, em seguida, clique no nome do widget na lista exibida. Para obter mais informações, consulte [Reutilizar um campo ou widget personalizado em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    * Se você estiver editando um widget já adicionado ao formulário personalizado, selecione-o.
 
@@ -89,12 +89,12 @@ Você deve ter o seguinte para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget.</p> <p>Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p><b>IMPORTANTE</b>: Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no widget. Se você fizer isso, o sistema não reconhecerá mais o widget, onde ele pode agora ser referenciado em outras áreas do Workfront. </p> <p>Cada nome de widget deve ser exclusivo na instância do Workfront da sua organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. </p> </td> 
+      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget.</p> <p>Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p><b>IMPORTANTE</b>: embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no widget. Se você fizer isso, o sistema não reconhecerá mais o widget, onde ele pode agora ser referenciado em outras áreas do Workfront. </p> <p>Cada nome de widget deve ser exclusivo na instância do Workfront da sua organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obrigatório) Digite ou cole o URL do widget onde ele está armazenado na Internet.</p> 
-       <p><strong>Importante</strong>: o URL para o deve ser um URL público. </p>
+       <p><strong>Importante</strong>: a URL para deve ser pública. </p>
       <p>Se você estiver adicionando um widget de vídeo, é possível fazer isso adicionando o seguinte na caixa de URL:</p> 
       <ul> 
       <li> <p>Link para o YouTube ou Vimeo</p> </li> 
@@ -131,7 +131,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 ## Adicionar um arquivo XD a um formulário personalizado
 
 1. Comece a trabalhar em um formulário personalizado, conforme descrito em [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Com o **Adicionar um campo** abrir, selecione **Adobe XD**.
+1. Com a guia **Adicionar um campo** aberta, selecione **Adobe XD**.
 1. Digite ou edite qualquer uma das seguintes propriedades do widget:
 
    <table style="table-layout:auto"> 
@@ -144,7 +144,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget.</p> <p>Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p><b>IMPORTANTE</b>: Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no widget. Se você fizer isso, o sistema não reconhecerá mais o widget, onde ele pode agora ser referenciado em outras áreas do Workfront. </p> <p>Cada nome de widget deve ser exclusivo na instância do Workfront da sua organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. </p> </td> 
+      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget.</p> <p>Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p><b>IMPORTANTE</b>: embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no widget. Se você fizer isso, o sistema não reconhecerá mais o widget, onde ele pode agora ser referenciado em outras áreas do Workfront. </p> <p>Cada nome de widget deve ser exclusivo na instância do Workfront da sua organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -179,7 +179,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 >
 >Ao adicionar um vídeo a um formulário personalizado dessa maneira, somente as permissões definidas para o formulário personalizado se aplicam ao vídeo quando os usuários acessam o formulário em um objeto, não as permissões definidas para o vídeo na área Documentos.
 
-1. Acesse o vídeo na área Documentos e gere uma prova para ele, conforme descrito em [Criar uma prova interativa para um site ou outro conteúdo da Web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Vá para o vídeo na área Documentos e gere uma prova para ele, conforme descrito em [Criar uma prova interativa para um site ou outro conteúdo da Web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Abra a prova.
-1. Clique com o botão direito do mouse em qualquer lugar no vídeo e selecione **Copiar endereço de vídeo**.
-1. No formulário personalizado onde você está adicionando o widget de vídeo, cole o endereço copiado no **URL** caixa.
+1. Clique com o botão direito do mouse em qualquer lugar do vídeo e selecione **Copiar Endereço de Vídeo**.
+1. No formulário personalizado ao qual você está adicionando o widget de vídeo, cole o endereço copiado na caixa **URL**.

@@ -1,21 +1,21 @@
 ---
-title: Configure o [!DNL Workfront] e [!DNL Frame.io] integração
+title: Configurar a integração  [!DNL Workfront]  e  [!DNL Frame.io]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Como um [!DNL Adobe Workfront] administrador, você pode integrar [!DNL Workfront] com [!DNL Frame.io] e fornecer à sua organização uma maneira perfeita de revisar e aprovar ativos.
+description: Como administrador do  [!DNL Adobe Workfront] você pode integrar o [!DNL Workfront] com o [!DNL Frame.io] e fornecer à sua organização uma maneira simples de revisar e aprovar ativos.
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-source-git-commit: 089173acb8fecd920ca096c5bf9c6ee61910c20b
+exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
+source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-
-# Configure o [!DNL Workfront] e [!DNL Frame.io] integração
+# Configurar a integração do [!DNL Workfront] e do [!DNL Frame.io]
 
 O administrador do Workfront habilita a integração entre o Workfront e o Frame.io, configurando a conta padrão Frame.io na área Configuração e designando os usuários do Frame.io no Workfront. Isso permite que o coordenador do projeto planeje e inicie o trabalho usando projetos do Workfront e fluxos de trabalho de revisão e aprovação.
 
@@ -24,7 +24,7 @@ O administrador do Workfront habilita a integração entre o Workfront e o Frame
 
 >[!IMPORTANT]
 >
->Essa funcionalidade está disponível somente para organizações que foram integradas à [!DNL Adobe Admin Console].
+>Essa funcionalidade está disponível somente para organizações que foram integradas ao [!DNL Adobe Admin Console].
 
 Você deve ter o seguinte:
 
@@ -46,7 +46,7 @@ Você deve ter o seguinte:
 <tr>
    <td><strong>Configurações de nível de acesso</strong>
    </td>
-   <td>Você deve ser um [!DNL Workfront] administrador.
+   <td>Você deve ser um administrador [!DNL Workfront].
    </td>
   </tr>
 
@@ -55,9 +55,9 @@ Você deve ter o seguinte:
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-## Configurar um padrão [!DNL Frame.io] account [!BADGE Em breve]{type=Informative}
+## Configure uma conta [!DNL Frame.io] padrão [!BADGE Em breve]{type=Informative}
 
-Uma vez que um padrão [!DNL Frame.io] for configurada, qualquer projeto criado em [!DNL Workfront] ter um projeto de espelhamento criado no Frame.io.
+Uma vez configurada uma conta padrão do [!DNL Frame.io], qualquer projeto criado no [!DNL Workfront] terá um projeto espelho criado no Frame.io.
 
 >[!IMPORTANT]
 >
@@ -96,11 +96,10 @@ Para habilitar usuários do Frame.io:
 
 {{step-1-to-users}}
 
-1. Selecione um ou mais usuários e clique no botão **Editar** ícone ![](assets/edit-icon.png).
+1. Selecione um ou mais usuários e clique no ícone **Editar** ![](assets/edit-icon.png).
 1. Na seção Acesso, ative a caixa de seleção Adicionar aos projetos no Frame.io e selecione **Sim** no menu suspenso.
    ![](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >
-   >Se essa caixa estiver desmarcada, o usuário manterá acesso às atribuições anteriores e será adicionado aos projetos Frame.io dali em diante.<!-- If the user is deactivated, they lose all access to previous assignments and are removed from the Frame.io account.-->
-
+   >Se esta caixa estiver desmarcada, o usuário retém o acesso a atribuições passadas e é adicionado aos projetos Frame.io dali em diante.<!-- If the user is deactivated, they lose all access to previous assignments and are removed from the Frame.io account.-->

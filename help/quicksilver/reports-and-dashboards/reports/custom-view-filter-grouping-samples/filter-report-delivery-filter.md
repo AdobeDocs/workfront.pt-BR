@@ -10,7 +10,7 @@ exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -43,25 +43,25 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Filtro de entrega de relatório
 
 Para aplicar esse filtro:
 
 1. Ir para uma lista de relatórios.
-1. No **Filtro** selecione **Novo Filtro**.
+1. No menu suspenso **Filtro**, selecione **Novo Filtro**.
 
-1. Clique em **Alternar para modo de texto**.
-1. No **Definir regras de filtro para seu relatório** , copie e cole o seguinte código:
+1. Clique em **Alternar para Modo de Texto**.
+1. Na área **Definir regras de filtro para seu Relatório**, copie e cole o seguinte código:
 
    ```
    scheduledReportID=0<br>scheduledReportID_Mod=notnull
    ```
 
-1. Clique em **Salvar Filtro**.
+1. Clique em **Salvar filtro**.

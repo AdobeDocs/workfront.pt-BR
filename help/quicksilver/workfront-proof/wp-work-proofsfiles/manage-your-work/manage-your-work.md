@@ -20,19 +20,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [Gerenciar arquivos no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
-* [Gerenciar Itens na Página Exibições do [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
-* [Gerenciamento de versões de prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
-* [Definir configurações de prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
-* [Criar e gerenciar exibições personalizadas no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
+* [Gerenciar Arquivos em  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
+* [Gerenciar Itens na Página de Exibições em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
+* [Gerenciando Versões de Prova em  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
+* [Definir Configurações de Prova no  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
+* [Criar e Gerenciar Exibições Personalizadas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
 * [Baixar Arquivos Armazenados em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
-* [Gerenciar detalhes da prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
-* [Exibir o progresso e o status de uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
-* [Excluir uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
-* [Entender o estado da prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
-* [Restaurar e esvaziar a lixeira no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
-* [Executar relatórios em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
+* [Gerenciar Detalhes da Prova em  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+* [Exibir o Progresso e o Status de uma Prova no  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
+* [Excluir uma Prova no  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
+* [Entender o Estado da Prova em  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
+* [Restaurar e Esvaziar a Lixeira em  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
+* [Executar Relatórios em  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)

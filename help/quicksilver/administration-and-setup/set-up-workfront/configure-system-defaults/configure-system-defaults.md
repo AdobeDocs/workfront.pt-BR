@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Configurar padrões do sistema
-description: Como um [!DNL Adobe Workfront] administrador, você pode configurar os padrões do sistema, como as preferências para todos os projetos criados pelos usuários.
+description: Como administrador do  [!DNL Adobe Workfront] , você pode configurar os padrões do sistema, como as preferências de todos os projetos criados pelos usuários.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -27,7 +27,7 @@ Esta seção contém os seguintes artigos:
 * [Configurar tipos de solicitação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Personalizar tipos de problemas padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [Criar, editar e compartilhar filtros, visualizações e agrupamentos padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [Configurar [!UICONTROL Gerenciamento de recursos] preferências](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [Configurar preferências de [!UICONTROL Gerenciamento de recursos]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Editar e criar tipos de risco](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Criar tipos de despesas personalizados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Criar um cartão de pontuação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

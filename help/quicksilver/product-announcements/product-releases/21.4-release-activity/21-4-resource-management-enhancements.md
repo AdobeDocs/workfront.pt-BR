@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte [21.4 Visão geral da versão](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte a [Visão geral da versão 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Fazer atribuições rápidas no Balanceador de carga de trabalho
 
@@ -48,5 +48,5 @@ Para obter mais informações, consulte [Gerenciar filtros no Balanceador de car
 
 >[!NOTE]
 >
->Com as atualizações de filtro, eliminamos o **Todos os itens de trabalho** e **Os itens de trabalho deste projeto** filtros integrados no Balanceador de carga de trabalho de um projeto.
+>Com as atualizações de filtro, eliminamos os **Todos os itens de trabalho** e os **Itens de trabalho deste projeto** filtros internos no Balanceador de carga de trabalho de um projeto.
 

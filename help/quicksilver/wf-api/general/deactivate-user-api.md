@@ -22,7 +22,7 @@ Quando um usuário deixa a organização, você pode desativá-lo, disponibiliza
 
 Para saber mais sobre como desativar um usuário, consulte &quot; [Desativar ou reativar um usuário](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-Para obter informações sobre como usar a API principal, consulte [Noções básicas sobre API](../../wf-api/general/api-basics.md).
+Para obter informações sobre como usar a API principal, consulte [noções básicas da API](../../wf-api/general/api-basics.md).
 
 Para desativar um usuário por meio da API:
 
@@ -34,19 +34,19 @@ Para desativar um usuário por meio da API:
 
 1. Localize o GUID do usuário que deseja desativar.
 
-   1. Use a solicitação de API a seguir para recuperar o GUID para todos os usuários em seu sistema. Observe que **isActive** mostra o campo **true** para usuários que estão ativos no momento e **false** para usuários que foram desativados:
+   1. Use a solicitação de API a seguir para recuperar o GUID para todos os usuários em seu sistema. Observe que o campo **isActive** mostra **true** para os usuários que estão atualmente ativos e **false** para os usuários que foram desativados:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
-1. Localize o GUID do usuário que deseja desativar, use o seguinte **PUT** solicitação para alterar o **isActive** valor do campo para **false**:
+1. Localize o GUID do usuário que você deseja desativar, use a seguinte solicitação **PUT** para alterar o valor do campo **isActive** do usuário para **false**:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
-1. A resposta demonstrará que a **isActive** o valor do campo foi alterado de **true** para **false** indicando que o usuário foi desativado:
+1. A resposta mostrará que o valor do campo **isActive** foi alterado de **true** para **false** indicando que o usuário foi desativado:
 
 <!-- [Copy](javascript:void(0);) -->
 <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

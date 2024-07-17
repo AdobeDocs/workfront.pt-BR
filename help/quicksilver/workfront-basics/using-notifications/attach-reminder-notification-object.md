@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Você pode associar notificações de lembrete a vários tipos de objeto diferentes: Projetos, Tarefas, Problemas, Folhas de horas, Modelos, Tarefas de modelo e Perfis de folha de horas recorrentes.
 
-Antes de poder anexar notificações de lembrete a um objeto, um [!DNL Adobe Workfront] o administrador deve criar a notificação, conforme descrito em [Configurar notificações de lembrete](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Antes de anexar notificações de lembrete a um objeto, um administrador do [!DNL Adobe Workfront] deve criar a notificação, conforme descrito em [Configurar notificações de lembrete](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
 As etapas para anexar notificações de lembrete são as mesmas, independentemente do tipo de objeto ao qual você as está anexando.
 
@@ -42,31 +42,31 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar acesso ao objeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar acesso ao objeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Anexar notificações de lembrete a um objeto
 
 1. Vá para o objeto ao qual deseja anexar a notificação de lembrete.
 1. Clique no ícone Editar ![](assets/edit-icon.png).
-1. No painel esquerdo do **[!UICONTROL Editar]** for exibida, clique em **[!UICONTROL Configurações]**.
+1. No painel esquerdo da caixa **[!UICONTROL Editar]** exibida, clique em **[!UICONTROL Configurações]**.
 
-1. Em **[!UICONTROL Notificação de lembrete]**, selecione as notificações que deseja anexar ao objeto.
+1. Em **[!UICONTROL Notificação de Lembrete]**, selecione as notificações que deseja anexar ao objeto.
 
    Neste exemplo, o objeto que está sendo editado é uma tarefa:
 
    ![](assets/reminder-notification-select-one-350x213.png)
 
-   Se a variável [!DNL Workfront] administrador criou várias notificações de lembrete, você pode anexar várias notificações a um único objeto.
+   Se o administrador do [!DNL Workfront] tiver criado várias notificações de lembrete, você poderá anexar várias notificações a um único objeto.
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
-   Se precisar de ajuda para testar o delivery de uma notificação de lembrete, consulte [!DNL Workfront] administrador.
+   Se precisar de ajuda para testar a entrega de uma notificação de lembrete, consulte o administrador do [!DNL Workfront].

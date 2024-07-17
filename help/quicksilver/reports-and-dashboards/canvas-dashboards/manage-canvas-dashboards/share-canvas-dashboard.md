@@ -5,7 +5,8 @@ title: Compartilhar um painel da tela
 description: Você pode compartilhar um Painel da tela com outros usuários do Adobe Workfront para que eles possam visualizá-lo ou editá-lo.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -45,14 +46,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Compartilhar um painel da tela
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
 
-1. No painel esquerdo, clique em **Painéis do Canvas** e, em seguida, clique no nome do Painel de controle do Canvas que você deseja compartilhar.
+1. No painel esquerdo, clique em **Painéis da Tela de Pintura** e, em seguida, clique no nome do Painel da Tela de Pintura que você deseja compartilhar.
 
-1. Clique em **Compartilhar** no canto superior direito da página.
+1. Clique no botão **Compartilhar** no canto superior direito da página.
 
-1. No **Conceder acesso a:** do campo **Compartilhamento de painéis** que é exibida, comece digitando os nomes de usuários, equipes, funções, grupos ou empresas específicos na sua instância do Workfront com os quais você gostaria de compartilhar o Painel do Canvas. Quando o nome que você está procurando aparecer na lista de preenchimento automático abaixo do campo, clique nele para adicioná-lo à lista de recipients pretendidos.
+1. No campo **Conceder acesso a:** da janela **Compartilhamento de Painel** que é exibida, comece digitando os nomes de usuários, equipes, funções, grupos ou empresas específicos na sua instância do Workfront com os quais você deseja compartilhar o Painel da Tela. Quando o nome que você está procurando aparecer na lista de preenchimento automático abaixo do campo, clique nele para adicioná-lo à lista de recipients pretendidos.
 
-1. (Opcional) Depois de adicionar uma entidade à lista de recipients pretendidos, você pode editar o tipo de acesso que eles receberão para este Painel da tela. Por padrão, eles receberão apenas **Exibir** , mas você pode conceder acesso de Gerenciar a eles clicando em **Exibir >** ao lado da entidade, selecionando **Gerenciar** na lista suspensa. Observe que algumas entidades não podem ter seus níveis de acesso alterados, como administradores.
+1. (Opcional) Depois de adicionar uma entidade à lista de recipients pretendidos, você pode editar o tipo de acesso que eles receberão para este Painel da tela. Por padrão, eles receberão acesso apenas para **Exibir**, mas você pode conceder a eles acesso de Gerenciar clicando em **Exibir >** ao lado da entidade e selecionando **Gerenciar** na lista suspensa. Observe que algumas entidades não podem ter seus níveis de acesso alterados, como administradores.
 
-1. Depois de ter adicionado todos com quem gostaria de compartilhar o Painel da tela, clique na guia **Compartilhar** botão.
+1. Depois de adicionar todos com quem você gostaria de compartilhar o Painel da Tela, clique no botão **Compartilhar**.

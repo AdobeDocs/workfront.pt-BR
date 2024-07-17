@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Visão geral do progresso e status da prova
-description: Você pode exibir informações sobre como uma prova está progredindo no processo de revisão e ver um resumo geral do status da decisão da prova na área Documentos.
+title: Visão geral do progresso e do status da prova
+description: Você pode visualizar informações sobre como uma prova está avançando pelo processo de revisão e ver um resumo geral do status de decisão da prova na área Documentos.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
-# Visão geral do progresso e status da prova
+# Visão geral do progresso e do status da prova
 
-Você pode exibir informações sobre como uma prova está progredindo no processo de revisão e ver um resumo geral do status da decisão da prova na área Documentos.
+Você pode visualizar informações sobre como uma prova está avançando pelo processo de revisão e ver um resumo geral do status de decisão da prova na área Documentos.
 
 ## Visão geral do progresso da prova
 
-O progresso da prova indica o trabalho feito em uma prova a partir do momento em que você envia a prova para os recipients até o momento em que tomam uma decisão sobre a prova. Os ícones de progresso, S, O, C e D são exibidos ao lado do nome da prova e fornecem informações sobre o progresso da prova.
+O progresso da prova indica o trabalho feito em uma prova desde o momento em que você envia a prova para os recipients até o momento em que eles tomam uma decisão sobre a prova. Os ícones de progresso S, O, C e D são exibidos ao lado do nome da prova e fornecem informações sobre o progresso da prova.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -28,36 +28,36 @@ O progresso da prova indica o trabalho feito em uma prova a partir do momento em
  <col> 
  <thead> 
   <tr> 
-   <td> <p><strong>Ícone Progress</strong> </p> </td> 
+   <td> <p><strong>Ícone de progresso</strong> </p> </td> 
    <td> <p><strong>Descrição</strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Enviado</strong> </p> </td> 
-   <td> <p>A prova foi enviada para os destinatários atribuídos.</p> </td> 
+   <td> <p>A prova foi enviada aos destinatários atribuídos.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong></strong> </p> <p><strong>Aberto</strong> </p> </td> 
-   <td> <p>Todos os recipients atribuídos abrem a página de detalhes da prova ou Prova.</p> </td> 
+   <td> <p>Todos os recipients atribuídos abrem a página de detalhes da prova ou da prova.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Observações</strong> </p> </td> 
-   <td> <p>Todos os recipients atribuídos fazem pelo menos um comentário na prova.</p> <p>Se não houver revisores atribuídos à prova, a variável <strong>C</strong> não é exibido na barra de progresso.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Comentários feitos</strong> </p> </td> 
+   <td> <p>Todos os recipients atribuídos fazem pelo menos um comentário na prova.</p> <p>Se não houver revisores atribuídos à prova, o ícone <strong>C</strong> não aparecerá na barra de progresso.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Decisão tomada</strong> </p> </td> 
-   <td> <p>Todos os aprovadores atribuídos tomam uma decisão sobre a prova, Todos os aprovadores atribuídos tomam uma decisão sobre a prova, a menos que o criador da prova especifique apenas uma decisão necessária.</p> <p>Se não houver aprovadores (decisores) designados para a prova, a <strong>D</strong> não é exibido na barra de progresso. </p> </td> 
+   <td> <p>Todos os aprovadores atribuídos tomam uma decisão sobre a prova, Todos os aprovadores atribuídos tomam uma decisão sobre a prova, a menos que o criador da prova especifique que apenas uma decisão é necessária.</p> <p>Se não houver aprovadores (tomadores de decisão) designados para a prova, o ícone <strong>D</strong> não aparecerá na barra de progresso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Os ícones de progresso podem aparecer nas seguintes cores para indicar determinadas informações sobre o progresso da prova:
+Os ícones de progresso podem aparecer nas cores a seguir para indicar determinadas informações sobre o progresso da prova:
 
 * **Verde**: Concluído.
 * **Branco**: Não concluído.
-* **Laranja**: não concluído e prazo inferior a 24 horas.
-* **Vermelho**: Não completar e ultrapassar o prazo.
+* **Laranja**: não concluído e o prazo final é de menos de 24 horas.
+* **Vermelho**: não concluído e ultrapassado o prazo.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -93,7 +93,7 @@ Os ícones de progresso podem aparecer nas seguintes cores para indicar determin
 
 ## Visão geral do status da prova
 
-O status da prova exibe o status das decisões necessárias para a prova. O status da prova é determinado pelo participante no &quot;pior dos casos&quot;. Por exemplo, suponha que haja três decisões na prova: dois têm o status de **Aceite** e um tem o status de **Rejeitada**. A decisão do &quot;pior caso&quot; de **Rejeitada** regras excessivas sobre as outras decisões e o status geral da prova é mostrado como **Rejeitada**. 
+O status da prova exibe o status das decisões necessárias para a prova. O status da prova é determinado pelo participante com &quot;pior caso&quot;. Por exemplo, suponha que haja três decisões na prova: duas com o status **Aceitas** e uma com o status **Rejeitadas**. A decisão &quot;pior caso&quot; de **Rejected** ultrapassa as outras decisões e o status geral da prova é mostrado como **Rejected**. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -103,9 +103,9 @@ As opções de status padrão são as seguintes:
 * Aprovado
 * Aprovado com alterações
 * Alterações necessárias
-* Não relevante
+* Não Relevante
 
-Se decisões personalizadas forem definidas na sua conta, as opções de status refletirão as configurações de decisão personalizadas.
+Se decisões personalizadas forem configuradas em sua conta, as opções de status refletirão suas configurações de decisão personalizadas.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Viewing proof progress and status</h2>

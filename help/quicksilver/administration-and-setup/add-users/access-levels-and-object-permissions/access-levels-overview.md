@@ -46,15 +46,15 @@ Para obter informações sobre tópicos relacionados aos níveis de acesso, cons
  <tbody> 
   <tr> 
    <td><p><strong>Licenças</strong></p></td> 
-   <td> <p>A licença anexada a um nível de acesso determina como o nível de acesso pode ser configurado.</p> <p>Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral de licenças</a>.</p> <p><strong>Dica</strong>: você pode ver qual nível de acesso e licença estão atribuídos a cada usuário visualizando uma lista de usuários ou relatório. Para obter instruções, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Liste os níveis de acesso e as licenças de seus usuários</a>.</p> </td> 
+   <td> <p>A licença anexada a um nível de acesso determina como o nível de acesso pode ser configurado.</p> <p>Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças</a>.</p> <p><strong>Dica</strong>: você pode ver qual nível de acesso e licença estão atribuídos a cada usuário ao exibir uma lista de usuários ou relatório. Para obter instruções, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Listar os níveis de acesso e as licenças de seus usuários</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Níveis de acesso incorporados</strong></td> 
-   <td> <p>Para obter mais informações sobre os 6 níveis de acesso incorporados mostrados na imagem acima, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Níveis de acesso incorporados</a>.</p> </td> 
+   <td> <p>Para obter mais informações sobre os 6 níveis de acesso internos mostrados na imagem acima, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Níveis de acesso internos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Atribuição de níveis de acesso</strong></td> 
-   <td> <p>Para obter instruções sobre como atribuir um nível de acesso a um usuário, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar o perfil de um usuário</a>.</p> </td> 
+   <td> <p>Para obter instruções sobre como atribuir um nível de acesso a um usuário, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de um usuário</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Níveis de Acesso Padrão, Claro, Contribuinte</td> 

@@ -9,8 +9,8 @@ role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 22%
+source-wordcount: '304'
+ht-degree: 25%
 
 ---
 
@@ -47,12 +47,12 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
    <td> </td> 
   </tr> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;accessorIDs&quot;}"><strong>accessIDs</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;accessorIDs&quot;}"><strong>IDsAcessadores</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">IDsAcessador</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String Array&quot;}">Matriz de string</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">Lista de IDs de Pessoas/Equipes que podem acessar este objeto</td> 
    <td> </td> 
-   <td> <p><span class="dtRead">Somente leitura</span> </p> <p><span class="dtLazy">Leitura lenta</span> </p> <p><span class="dtDyn">Dinâmico</span> </p> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
+   <td> <p><span class="dtRead">Somente Leitura</span> </p> <p><span class="dtLazy">Leitura Lenta</span> </p> <p><span class="dtDyn">Dinâmico</span> </p> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;catObjCode&quot;}"><strong>catObjCode</strong> </td> 
@@ -68,7 +68,7 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the Customer&quot;}">ID do cliente</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
+   <td> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;description&quot;}"><strong>descrição</strong> </td> 
@@ -84,7 +84,7 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the User that added the Custom Form&quot;}">ID do usuário que adicionou o formulário personalizado</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
+   <td> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
@@ -100,7 +100,7 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the first group with access to the custom form&quot;}">ID do primeiro grupo com acesso ao formulário personalizado</td> 
    <td> </td> 
-   <td> <p><span class="dtEdit">Editável</span> </p> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
+   <td> <p><span class="dtEdit">Editável</span> </p> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;hasCalculatedFields&quot;}"><strong>hasCalculatedFields</strong> </td> 
@@ -108,7 +108,7 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">Booleano</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Does the form have calculated fields associated with it?&quot;}">O formulário tem campos calculados associados a ele?</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
+   <td> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdateDate&quot;}"><strong>lastUpdateDate</strong> </td> 
@@ -124,10 +124,10 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">ID do último usuário a atualizar o objeto</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
+   <td> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
   </tr> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>name</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>nome</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name&quot;}">Nome</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name of the Object&quot;}">Nome do objeto</td> 

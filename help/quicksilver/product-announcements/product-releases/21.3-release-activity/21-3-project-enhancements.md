@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Project com a versão 21.3 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 21 de julho de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.3, consulte [21.3 Visão geral da versão](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.3, consulte a [Visão geral da versão 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Associar um modelo a um grupo
 
@@ -29,7 +29,7 @@ Para ajudar você a simplificar o processo de criação de projetos e identifica
 
 Quando você atribui um grupo a um modelo de projeto, todos os projetos criados a partir do modelo são automaticamente associados ao grupo do modelo. Para obter mais informações, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-Além disso, você pode anexar um processo de aprovação de grupo a um modelo e suas tarefas de modelo se o modelo estiver associado ao seu grupo. Para obter mais informações, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Além disso, você pode anexar um processo de aprovação de grupo a um modelo e suas tarefas de modelo se o modelo estiver associado ao seu grupo. Para obter mais informações, consulte [Associar um processo de aprovação novo ou existente a um trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Edição mais fácil de campos na seção Detalhes
 
@@ -52,7 +52,7 @@ Anteriormente, as datas de transferência eram calculadas com base apenas nos pr
 
 Agora, para garantir que você sempre tenha uma data de entrega precisa para uma tarefa com um predecessor de projeto cruzado, você deve recalcular a linha do tempo do projeto da tarefa sucessora. Depois de recalcular a linha do tempo, as datas de entrega da tarefa são calculadas levando em conta as dependências entre projetos das tarefas.
 
-Para obter mais informações sobre datas de transferência, consulte [Visão geral da data de transferência da tarefa](../../../manage-work/tasks/task-information/handoff-task-date.md).
+Para obter mais informações sobre datas de transferência, consulte [Visão geral da Data de Transferência da Tarefa](../../../manage-work/tasks/task-information/handoff-task-date.md).
 
 ## Adicionar histórias e problemas existentes do quadro Scrum
 
@@ -105,7 +105,7 @@ Conforme comunicamos anteriormente, implantamos personalizações em nível de g
 
 Para obter mais informações, consulte os seguintes artigos:
 
-* [Configurar as preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+* [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
 * [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 ## Permitir que usuários externos aprovem um documento
@@ -144,7 +144,7 @@ Para facilitar o acesso fácil, a conveniência e a precisão, adicionamos a op�
 
 Antes dessa melhoria, quando você atualizava a Data de conclusão planejada de um objeto, a Workfront selecionava meia-noite como o horário padrão. Agora, você pode personalizar a hora, bem como a data de conclusão.
 
-Para obter informações sobre os cabeçalhos de objetos na nova experiência do Workfront, consulte [Novos cabeçalhos de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Para obter informações sobre os cabeçalhos de objetos na nova experiência do Workfront, consulte [Novos cabeçalhos de objetos](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ## Adicionar um formulário personalizado a um objeto sem editá-lo
 

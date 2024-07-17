@@ -43,12 +43,12 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões no painel</p> <p>Exibir permissões para o relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões no painel</p> <p>Exibir permissões para o relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -59,8 +59,8 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 ## Adicionar um relatório a um painel existente
 
 1. Vá para um relatório que você tenha permissões para Gerenciar e deseje adicionar a um painel.
-1. Clique em **Ações de Relatório** menu suspenso.
-1. Clique em **Adicionar ao painel**. Um máximo de 10 painéis modificados recentemente — pertencentes ao usuário conectado — são exibidos na ordem do mais novo ao mais antigo.
+1. Clique no menu suspenso **Ações de Relatório**.
+1. Clique em **Adicionar ao Painel**. Um máximo de 10 painéis modificados recentemente — pertencentes ao usuário conectado — são exibidos na ordem do mais novo ao mais antigo.
 1. Selecione o painel ao qual deseja adicionar o relatório.
 
    Após selecionar o painel, é possível adicionar o relatório como se estivesse editando esse painel.
@@ -68,8 +68,8 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 ## Adicionar um relatório a um novo painel
 
 1. Vá para um relatório que você tenha permissões para Gerenciar e deseje adicionar a um painel.
-1. Clique em **Ações de Relatório** menu suspenso.
-1. Clique em **Adicionar ao painel** e, em seguida, clique em **Novo painel** para adicionar seu relatório.\
+1. Clique no menu suspenso **Ações de Relatório**.
+1. Clique em **Adicionar ao Painel** e em **Novo Painel** para adicionar seu relatório.\
    Um construtor de painel é exibido.
 
 1. (Opcional) Selecione um layout e inclua relatórios adicionais no novo painel.

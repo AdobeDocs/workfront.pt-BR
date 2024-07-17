@@ -1,24 +1,24 @@
 ---
 title: Ampliar módulos
-description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!UICONTROL Ampliar], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode automatizar fluxos de trabalho que usam o [!UICONTROL Widen], bem como conectá-los a vários aplicativos e serviços de terceiros.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1582'
 ht-degree: 1%
 
 ---
 
 # [!DNL Widen] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!UICONTROL Ampliar], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um cenário [!DNL Adobe Workfront Fusion], você pode automatizar fluxos de trabalho que usam o [!UICONTROL Widen], bem como conectá-los a vários aplicativos e serviços de terceiros.
 
-Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se você precisar de instruções sobre como criar um cenário, consulte [Criar um cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -39,52 +39,52 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!UICONTROL Ampliar] módulos, você deve ter uma [!UICONTROL Ampliar] conta.
+Para usar os módulos [!UICONTROL Widen], você deve ter uma conta [!UICONTROL Widen].
 
-## Conectar [!DNL Widen] para [!DNL Workfront Fusion] {#connect-widen-to-workfront-fusion}
+## Conectar [!DNL Widen] a [!DNL Workfront Fusion] {#connect-widen-to-workfront-fusion}
 
-Você pode criar uma conexão com o seu [!DNL Widen] conta diretamente de dentro de um [!DNL Widen] módulo.
+Você pode criar uma conexão com sua conta do [!DNL Widen] diretamente de dentro de um módulo do [!DNL Widen].
 
-1. Em qualquer [!DNL Widen] , clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
-1. Selecione o [!DNL Widen] domínio ao qual você deseja se conectar.
-1. Insira o token do [!DNL Widen] conta. Para obter instruções sobre como localizar esse token, consulte [[!DNL Widen] Perguntas frequentes sobre API](https://community.widen.com/collective/s/article/API-FAQs).
-1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
+1. Em qualquer módulo [!DNL Widen], clique em **[!UICONTROL Adicionar]** ao lado do campo [!UICONTROL Conexão].
+1. Selecione o domínio [!DNL Widen] ao qual você deseja se conectar.
+1. Insira o token para sua conta [!DNL Widen]. Para obter instruções sobre como localizar este token, consulte as [[!DNL Widen] Perguntas frequentes sobre API](https://community.widen.com/collective/s/article/API-FAQs).
+1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar para o módulo.
 
 ## [!DNL Widen] módulos e seus campos
 
-Ao configurar [!DNL Widen] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Widen] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL Widen], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL Widen] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Módulos de acionamento](#trigger-modules)
+* [Módulos acionadores](#trigger-modules)
 * [Módulos de ação](#action-modules)
 * [Pesquisar módulos](#search-modules)
 
-### Módulos de acionamento
+### Módulos acionadores
 
 #### [!UICONTROL Observar ativos]
 
@@ -96,7 +96,7 @@ Esse módulo de acionamento inicia um cenário quando um ativo é criado ou atua
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo de evento]</td> 
@@ -129,7 +129,7 @@ Esse módulo de acionamento inicia um cenário quando um ativo é criado ou atua
 
 #### [!UICONTROL Chamada de API personalizada]
 
-Esse módulo de ação permite fazer uma chamada autenticada personalizada para o [!DNL Widen] API. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelo outro [!DNL Widen] módulos.
+Este módulo de ação permite fazer uma chamada autenticada personalizada para a API [!DNL Widen]. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pelos outros módulos do [!DNL Widen].
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
@@ -139,11 +139,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Versão da API]</td> 
-   <td>Selecione se deseja usar a versão mais recente do [!DNL Widen] API ou versão 1.0</td> 
+   <td>Selecione se você deseja usar a versão mais recente da API [!DNL Widen] ou a versão 1.0</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -163,7 +163,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Corpo]</td> 
-   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar declarações condicionais como <code>if</code> no JSON, coloque as aspas fora da declaração condicional.</p> 
+   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar instruções condicionais como <code>if</code> em seu JSON, coloque as aspas fora da instrução condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -181,7 +181,7 @@ Este módulo de ação recupera um ativo individual por sua ID exclusiva.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de Ativo]</td> 
@@ -208,7 +208,7 @@ Este módulo de ação adiciona um ou mais ativos às coleções.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de Coleções]</td> 
@@ -220,7 +220,7 @@ Este módulo de ação adiciona um ou mais ativos às coleções.
     </ol> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID de Ativos]</td> 
+   <td role="rowheader">[!UICONTROL Assets ID]</td> 
    <td> <p>Para cada ativo que você deseja adicionar a uma coleção:</p> 
     <ol> 
      <li value="1"> <p> Clique em <strong>[!UICONTROL Adicionar]</strong>.</p> </li> 
@@ -245,7 +245,7 @@ Este módulo de ação remove um ou mais ativos das coleções.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de Coleções]</td> 
@@ -257,7 +257,7 @@ Este módulo de ação remove um ou mais ativos das coleções.
     </ol> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ID de ativos</td> 
+   <td role="rowheader">ASSETS ID</td> 
    <td> <p>Para cada ativo que você deseja remover de uma coleção:</p> 
     <ol> 
      <li value="1"> <p> Clique em <strong>[!UICONTROL Adicionar]</strong>.</p> </li> 
@@ -282,7 +282,7 @@ Esse módulo de ação atualiza os campos de metadados de um ativo.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de Ativo]</td> 
@@ -305,7 +305,7 @@ Esse módulo de ação atualiza os campos de metadados de um ativo.
 
 #### [!UICONTROL Baixar arquivo]
 
-Esse módulo de ação baixa um ativo do [!DNL Widen] conta.
+Este módulo de ação baixa um ativo da sua conta [!DNL Widen].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -313,7 +313,7 @@ Esse módulo de ação baixa um ativo do [!DNL Widen] conta.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de Ativo]</td> 
@@ -324,7 +324,7 @@ Esse módulo de ação baixa um ativo do [!DNL Widen] conta.
 
 #### [!UICONTROL Carregar um arquivo]
 
-Esse módulo de ação carrega um arquivo no [!DNL Widen] conta.
+Este módulo de ação carrega um arquivo na conta do [!DNL Widen].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -332,7 +332,7 @@ Esse módulo de ação carrega um arquivo no [!DNL Widen] conta.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Carregar Perfil]</td> 
@@ -376,7 +376,7 @@ Este módulo de ação recupera uma lista de ativos em uma coleção.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID da Coleção]</td> 
@@ -415,7 +415,7 @@ Este módulo de pesquisa recupera uma lista de ativos que correspondem aos crit�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-  <td> <p>Para obter instruções sobre como conectar seu [!DNL Widen] conta para [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] para [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
+  <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Widen] ao [!DNL Workfront Fusion], consulte <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Widen] ao [!DNL Workfront Fusion] </a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pesquisar consulta]</td> 

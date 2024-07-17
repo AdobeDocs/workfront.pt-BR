@@ -29,7 +29,7 @@ ht-degree: 0%
 O painel direito de um registro exibe as seguintes seções:
 
 * **Comentários**: exibe comentários e respostas que os usuários adicionam aos registros.
-* **Histórico**: exibe as alterações registradas pelo sistema que os usuários fazem nos campos de registro. Para obter mais informações, consulte [Visão geral da seção Histórico](/help/quicksilver/planning/records/history-section-overview.md).
+* **Histórico**: exibe as alterações registradas pelo sistema que os usuários fazem nos campos de registro. Para obter mais informações, consulte [Visão geral da seção de histórico](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Requisitos de acesso
 
@@ -73,14 +73,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Exibir ou aumentar as permissões de um espaço de trabalho</a> </p>  
+   <td> <p>Exibir ou aumentar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -130,14 +130,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em um cartão de tipo de registro.
 A página de tipo de registro é aberta e todos os registros desse tipo são exibidos.
 
-1. Escolha uma exibição de tabela na **Exibir** menu suspenso.
+1. Escolha uma exibição de tabela no menu suspenso **Exibir**.
 1. Clique no nome de um registro na exibição de tabela.
 
-   O registro **Detalhes** é aberta. A área Comentários é aberta por padrão no painel direito.
+   A página **Detalhes** do registro é aberta. A área Comentários é aberta por padrão no painel direito.
 
-1. (Condicional) Se o painel direito não abrir por padrão, clique no link **Mostrar comentários** ![](assets/show-comments-icon.png) no canto superior direito para abrir a seção Comentários.
+1. (Condicional) Se o painel direito não abrir por padrão, clique no ícone **Mostrar comentários** ![](assets/show-comments-icon.png) no canto superior direito para abrir a seção Comentários.
 
-1. Comece a inserir um comentário no **Novo comentário** caixa.
+1. Comece a inserir um comentário na caixa **Novo comentário**.
 
    ![](assets/empty-comment-box-on-record.png)
 
@@ -148,7 +148,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 1. (Opcional) Para desfazer ou refazer uma alteração, use as seguintes teclas de atalho:
    * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
    * CTRL + Y (⌘+y para Mac) para refazer uma alteração
-1. (Opcional) Adicionar **@** seguido pelo nome de um usuário para marcar alguém na atualização.
+1. (Opcional) Adicione **@** seguido do nome de um usuário para marcar alguém na atualização.
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
@@ -163,7 +163,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
    >![](assets/new-line-indicator-comments.png)
 
 1. Clique em **Enviar** para adicionar a atualização ao registro.
-1. Para editar um comentário, clique no link **Mais** menu ![](assets/more-menu.png) no canto superior direito do comentário e clique em **Editar**.
+1. (Opcional) Para editar um comentário, clique no menu ![](assets/more-menu.png) de **Mais**, no canto superior direito do comentário, e clique em **Editar**.
 
    >[!IMPORTANT]
    >
@@ -175,32 +175,32 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
    >
    >Os comentários do ano atual não exibem o ano no carimbo de data. Passar o mouse sobre um carimbo de data e hora exibe a data completa, incluindo o ano.
 
-1. (Opcional e condicional) Para pesquisar um comentário existente, comece digitando uma palavra-chave na caixa de pesquisa no canto superior direito do **Comentários** área.
+1. (Opcional e condicional) Para pesquisar um comentário existente, comece digitando uma palavra-chave na caixa de pesquisa no canto superior direito da área **Comentários**.
 
    ![](assets/search-box-for-comments-area.png)
 
-1. (Opcional) Clique em **Responder** ou comece a digitar um comentário no campo **Adicionar resposta...** para responder a um comentário existente, siga as etapas 4 a 8 acima. <!--(**************accurate??***********)-->
+1. (Opcional) Clique em **Responder** ou comece a digitar um comentário na área **Adicionar resposta...** para responder a um comentário existente e, em seguida, siga as etapas 4 a 8 acima. <!--(**************accurate??***********)-->
 
-1. (Condicional e opcional) Se outros usuários tiverem adicionado comentários que são exibidos fora da área visível na seção Comentários enquanto você estava adicionando seus comentários, clique em **Exibir** dentro do **novo banner de comentários** na parte inferior da tela para exibir esses comentários.
+1. (Condicional e opcional) Se outros usuários adicionaram comentários que são exibidos fora da área visível na seção Comentários enquanto você estava adicionando seus comentários, clique em **Exibir** dentro do **novo banner de comentários** na parte inferior da tela para exibir esses comentários.
 
    ![](assets/new-comments-banner-on-record.png)
 
    Comentários adicionais são exibidos na parte inferior da tela.
 
-1. (Opcional) Clique no link **Curtir** para gostar de uma atualização ou confirmação de que você a leu. O ícone é atualizado com o número de curtidas.
+1. (Opcional) Clique no ícone **Curtir** para gostar de uma atualização ou confirmar que você a leu. O ícone é atualizado com o número de curtidas.
 1. (Condicional e opcional) Se você incluiu outras pessoas no seu comentário, clique nos avatares dos usuários incluídos na atualização para exibir uma lista de usuários com os quais o comentário é compartilhado.
-1. (Opcional) Clique no link **Mais** ícone ![](assets/more-menu.png) no canto superior direito do comentário e clique em uma das seguintes opções, para copiar informações de um comentário:
+1. (Opcional) Clique no ícone ![](assets/more-menu.png) de **Mais** no canto superior direito do comentário e clique em uma das seguintes opções para copiar informações de um comentário:
 
-   * **Copiar link**: isso copia um link para o comentário na área de transferência.
+   * **Copiar link**: copia um link para o comentário na área de transferência.
    * **Copiar texto do corpo**: copia o texto do comentário para a área de transferência.
-   * **Citar resposta**: copia o conteúdo do comentário para uma nova resposta. As imagens não são incluídas na resposta copiada.
+   * **Resposta à cotação**: copia o conteúdo do seu comentário para uma nova resposta. As imagens não são incluídas na resposta copiada.
 
    Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Clique no link **Mais** ícone ![](assets/more-menu.png) no canto superior direito do comentário e clique em **Excluir** para excluir o comentário.
-1. (Opcional) Clique no link **Ocultar comentários** ícone ![](assets/hide-comments-icon.png) para fechar o painel direito.
+1. (Opcional) Clique no ícone **Mais** ![](assets/more-menu.png) no canto superior direito do comentário e em **Excluir** para excluir o comentário.
+1. (Opcional) Clique no ícone ![](assets/hide-comments-icon.png) de **Ocultar Comentários** para fechar o painel direito.
 
 ## Visão geral da seção Histórico
 
 É possível revisar as alterações feitas no registro na seção History do painel direito de um registro.
 
-Para obter mais informações, consulte [Visão geral da seção Histórico](/help/quicksilver/planning/records/history-section-overview.md).
+Para obter mais informações, consulte [Visão geral da seção de histórico](/help/quicksilver/planning/records/history-section-overview.md).

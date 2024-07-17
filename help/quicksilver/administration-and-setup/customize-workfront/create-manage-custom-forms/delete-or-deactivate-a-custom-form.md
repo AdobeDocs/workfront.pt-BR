@@ -55,6 +55,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms personalizado.**
+1. Clique em **Forms Personalizado.**
 1. Selecione o formulário personalizado e clique em ![Ícone Excluir](assets/delete-icon.png).
-1. Se tiver certeza de que deseja excluir permanentemente o formulário personalizado e todos os dados associados nos objetos aos quais ele foi anexado, clique em **Sim, exclua.**.
+1. Se tiver certeza de que deseja excluir permanentemente o formulário personalizado e todos os dados associados nos objetos aos quais ele foi anexado, clique em **Sim, Excluir**.

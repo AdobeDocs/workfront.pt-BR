@@ -55,22 +55,22 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerações sobre a atualização para status específicos
 
 * **Ao atualizar um projeto para Concluído:** Verifique se todas as tarefas e problemas foram concluídos no projeto. Você não pode selecionar o status Concluído para um projeto, ou qualquer outro status que seja igual a Concluído quando houver tarefas ou problemas que não foram concluídos no projeto. Isso inclui a aprovação de qualquer tarefa ou problema que esteja com o status Concluído Pendente de Aprovação.
-* **Ao atualizar um projeto de Concluído para Atual:** Se todas as tarefas e problemas no projeto forem concluídos, verifique se o Modo de conclusão do projeto está definido como Manual. Se o Modo de conclusão do projeto for Automático, o status do projeto permanecerá como Concluído.
+* **Ao atualizar um projeto de Concluído para Atual:** Se todas as tarefas e problemas do projeto forem concluídos, verifique se o Modo de Conclusão do projeto está definido como Manual. Se o Modo de conclusão do projeto for Automático, o status do projeto permanecerá como Concluído.
 
 ## Alterar status do projeto
 
 1. Vá para o projeto cujo status você deseja atualizar.
-1. No cabeçalho do projeto, clique no nome do status na caixa **Status** e selecione um novo status.
+1. No cabeçalho do projeto, clique no nome do status no campo **Status** e selecione um novo status.
 
    ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    Ou
 
-   Clique em **Mais** menu ![](assets/qs-more-menu.png) ao lado do nome do projeto e clique em **Editar** e selecione um novo status na variável **Status** e clique em **Salvar**.
+   Clique no menu **Mais** ![](assets/qs-more-menu.png) ao lado do nome do projeto, clique em **Editar**, selecione um novo status no campo **Status** e clique em **Salvar**.
 
    O status do projeto é atualizado para o status selecionado.

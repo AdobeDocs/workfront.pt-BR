@@ -19,7 +19,7 @@ Ao criar uma meta, o Adobe Workfront Goals a salva com o status Rascunho. Metas 
 
 Para rastrear a proximidade de atingir uma meta ao atualizar o progresso dela, é necessário ativá-la. Isso altera seu status para Ativo.
 
-Para obter informações sobre como criar uma meta, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+Para obter informações sobre como criar uma meta, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Você deve ter o seguinte:
  <td>
  <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -63,7 +63,7 @@ Você deve ter o seguinte:
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -97,11 +97,11 @@ Execute pelo menos um dos seguintes procedimentos para ativar uma meta:
 
 * Adicionar um resultado à meta
 
-  Para obter informações, consulte [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Para obter informações, consulte [Adicionar resultados às metas nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Adicionar uma atividade à meta
 
-  Para obter informações, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Para obter informações, consulte [Adicionar atividades às metas nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Conectar um projeto à meta
 
@@ -117,7 +117,7 @@ Você pode ativar metas criadas ou uma meta para a qual tenha permissões de ger
 
 1. Vá para uma meta que você deseja ativar. A página de meta é aberta.
 
-1. Clique em **Mais** menu ![](../goal-management/assets/more-icon.png) à direita do nome da meta e clique em **Ativar**.
+1. Clique no menu **Mais** ![](../goal-management/assets/more-icon.png) à direita do nome da meta e clique em **Ativar**.
 
    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 

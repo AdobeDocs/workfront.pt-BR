@@ -2,23 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Conectar [!DNL Adobe Workfront Fusion] para um serviço Web que usa a autorização do token de API
-description: Alguns serviços não permitem soluções de integração, como [!DNL Adobe Workfront Fusion] para criar um aplicativo que possa ser usado facilmente em seu cenário.
+title: Conectar  [!DNL Adobe Workfront Fusion]  a um serviço Web que usa autorização de token de API
+description: Alguns serviços não permitem soluções de integração, como o [!DNL Adobe Workfront Fusion] para criar um aplicativo que possa ser usado facilmente em seu cenário.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
 source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
-# Conectar [!DNL Adobe Workfront Fusion] para um serviço Web que usa a autorização do token de API
+# Conectar [!DNL Adobe Workfront Fusion] a um serviço Web que usa autorização de token de API
 
-Alguns serviços não permitem soluções de integração, como [!DNL Adobe Workfront Fusion] para criar um aplicativo que possa ser usado facilmente em seu cenário.
+Alguns serviços não permitem que soluções de integração, como o [!DNL Adobe Workfront Fusion], criem um aplicativo que possa ser usado facilmente em seu cenário.
 
-Há uma solução alternativa para essa situação. Você pode conectar o serviço (aplicativo) desejado a [!DNL Workfront Fusion] usar [!DNL Workfront Fusion]do [!UICONTROL HTTP] módulo.
+Há uma solução alternativa para essa situação. Você pode conectar o serviço (aplicativo) desejado a [!DNL Workfront Fusion] usando o módulo [!UICONTROL HTTP] de [!DNL Workfront Fusion].
 
 Este artigo explica como conectar quase qualquer serviço Web ao [!DNL Workfront Fusion] usando uma Chave de API/token de API.
 
@@ -41,23 +41,23 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -65,14 +65,14 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 O procedimento de conexão do serviço por meio de um token de API é semelhante para a maioria dos serviços da Web.
 
-1. Crie um aplicativo no site do serviço Web, conforme explicado na seção [Crie um novo aplicativo e obtenha o token da API](#create-a-new-application-and-obtain-the-api-token) neste artigo.
+1. Crie um aplicativo no site do serviço Web, conforme explicado na seção [Crie um novo aplicativo e obtenha o token de API](#create-a-new-application-and-obtain-the-api-token) neste artigo.
 1. Obtenha a chave de API ou o token de API.
-1. Adicionar [!DNL Workfront Fusion]do [!UICONTROL HTTP] > [!UICONTROL Fazer uma solicitação] para o seu cenário.
-1. Configure o módulo de acordo com a documentação da API do serviço Web e execute o cenário, conforme explicado na seção [Configurar o [!UICONTROL HTTP] módulo](#set-up-the-http-module) neste artigo.
+1. Adicione o módulo [!UICONTROL HTTP] > [!UICONTROL Fazer uma solicitação] de [!DNL Workfront Fusion] ao seu cenário.
+1. Configure o módulo de acordo com a documentação da API do serviço Web e execute o cenário, conforme explicado na seção [Configurar o módulo [!UICONTROL HTTP]](#set-up-the-http-module) deste artigo.
 
 >[!NOTE]
 >
->Usaremos o [!DNL Pushover] serviço de notificação como exemplo neste artigo.
+>Usaremos o serviço de notificação [!DNL Pushover] como exemplo neste artigo.
 
 ## Crie um novo aplicativo e obtenha o token da API
 
@@ -82,21 +82,21 @@ O procedimento de conexão do serviço por meio de um token de API é semelhante
 >
 >Estamos incluindo instruções para obter uma chave de API Pushover somente como exemplo do que você pode encontrar.
 
-1. Faça logon no [!DNL Pushover] conta.
+1. Faça logon em sua conta do [!DNL Pushover].
 1. Clique em **[!UICONTROL Criar um token de aplicativo/API]** na parte inferior da página.
-1. Preencha as Informações do aplicativo e clique em **[!UICONTROL Criar um aplicativo]**.
-1. Armazene o token de API fornecido em um local seguro. Você precisará dele para o [!DNL Workfront Fusion] [!UICONTROL HTTP] >[!UICONTROL Fazer uma solicitação] módulo para conectar-se ao serviço Web desejado ([!DNL Pushover], neste caso).
+1. Preencha as Informações do Aplicativo e clique em **[!UICONTROL Criar um Aplicativo]**.
+1. Armazene o token de API fornecido em um local seguro. Você precisará dele para o módulo [!DNL Workfront Fusion] [!UICONTROL HTTP] >[!UICONTROL Fazer uma Solicitação] para se conectar ao serviço Web desejado ([!DNL Pushover], neste caso).
 
-## Configurar o [!UICONTROL HTTP] módulo
+## Configurar o módulo [!UICONTROL HTTP]
 
-Para conectar um serviço Web ao [!DNL Workfront Fusion] cenário, é necessário usar a variável [!UICONTROL HTTP] >[!UICONTROL Fazer uma solicitação] no cenário e configure o módulo de acordo com a documentação da API do serviço Web.
+Para conectar um serviço Web ao seu cenário [!DNL Workfront Fusion], você precisa usar o módulo [!UICONTROL HTTP] >[!UICONTROL Fazer uma solicitação] no cenário e configurar o módulo de acordo com a documentação da API do serviço Web.
 
-1. Adicione o [!UICONTROL HTTP] >[!UICONTROL Fazer uma solicitação] para o seu cenário.
-1. Para enviar uma mensagem por push usando [!DNL Workfront Fusion], configure o módulo HTTP da seguinte maneira.
+1. Adicione o módulo [!UICONTROL HTTP] >[!UICONTROL Fazer uma Solicitação] ao seu cenário.
+1. Para enviar uma mensagem usando [!DNL Workfront Fusion], configure o módulo HTTP da seguinte maneira.
 
    >[!NOTE]
    >
-   >Essas configurações de módulo correspondem à variável [!DNL Pushover] Documentação da API do serviço Web. As configurações podem ser diferentes para outros serviços da Web. Por exemplo, o token da API pode ser inserido no [!UICONTROL Cabeçalho] e não à [!UICONTROL Corpo] campo.
+   >Essas configurações de módulo correspondem à documentação da API do serviço Web [!DNL Pushover]. As configurações podem ser diferentes para outros serviços da Web. Por exemplo, o token de API pode ser inserido no [!UICONTROL Cabeçalho] e não no campo [!UICONTROL Corpo].
 
    <table style="table-layout:auto"> 
     <col> 
@@ -116,7 +116,7 @@ Para conectar um serviço Web ao [!DNL Workfront Fusion] cenário, é necessári
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Cadeia de Consulta]</p> </td> 
-      <td> <p>Alguns serviços da Web podem usar uma sequência de consulta para especificar outros parâmetros. Esse não é o caso em nosso exemplo como a variável [!DNL Pushover] o serviço da web usa o [!UICONTROL Corpo] (veja abaixo) para todos os tipos de solicitação.</p> </td> 
+      <td> <p>Alguns serviços da Web podem usar uma sequência de consulta para especificar outros parâmetros. Este não é o caso em nosso exemplo, pois o serviço Web [!DNL Pushover] usa [!UICONTROL Corpo] (veja abaixo) para todos os tipos de solicitação.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Tipo de Corpo]</p> </td> 
@@ -128,7 +128,7 @@ Para conectar um serviço Web ao [!DNL Workfront Fusion] cenário, é necessári
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Solicitar Conteúdo]</p> </td> 
-      <td> <p>Insira o conteúdo da solicitação [!UICONTROL Body] no formato JSON. Você pode usar o módulo [!UICONTROL JSON] &gt; [!UICONTROL Criar JSON] conforme explicado em <a href="#json-body-mapped-using-the-json-create-json-module" class="MCXref xref">Corpo JSON mapeado usando o módulo [!UICONTROL JSON] &gt; [!UICONTROL Criar JSON]</a> neste artigo. Ou você pode inserir o conteúdo JSON manualmente, conforme explicado em <a href="#json-body-entered-manually" class="MCXref xref">Corpo JSON inserido manualmente</a> neste artigo.</p> <p>Consulte a documentação da API do serviço Web para obter os parâmetros necessários para esse serviço Web.</p> </td> 
+      <td> <p>Insira o conteúdo da solicitação [!UICONTROL Body] no formato JSON. Você pode usar o módulo [!UICONTROL JSON] &gt; [!UICONTROL Criar JSON] como explicado no <a href="#json-body-mapped-using-the-json-create-json-module" class="MCXref xref">Corpo JSON mapeado usando o módulo [!UICONTROL JSON] &gt; [!UICONTROL Criar JSON]</a> neste artigo. Ou você pode inserir o conteúdo JSON manualmente, como explicado em <a href="#json-body-entered-manually" class="MCXref xref">Corpo JSON inserido manualmente</a> neste artigo.</p> <p>Consulte a documentação da API do serviço Web para obter os parâmetros necessários para esse serviço Web.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -154,11 +154,11 @@ Especifique parâmetros e valores no formato JSON.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL usuário]</p> </td> 
-   <td> <p>Sua USER_KEY. Isso pode ser encontrado no seu [!DNL Pushover] painel.</p> </td> 
+   <td> <p>Sua USER_KEY. Isto pode ser encontrado no seu painel [!DNL Pushover].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL token] </td> 
-   <td> <p>O token de API/Chave de API gerado para você [!DNL Pushover] aplicativo.</p> </td> 
+   <td> <p>O token de API/Chave de API gerado criou o aplicativo [!DNL Pushover].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL mensagem] </td> 
@@ -171,17 +171,17 @@ Especifique parâmetros e valores no formato JSON.
  </tbody> 
 </table>
 
-## Corpo JSON mapeado usando o [!UICONTROL JSON] >[!UICONTROL Criar JSON] módulo
+## Corpo JSON mapeado usando o módulo [!UICONTROL JSON] >[!UICONTROL Criar JSON]
 
-A variável [!UICONTROL Criar JSON] facilita a especificação do JSON. Ela também oferece a possibilidade de definir valores dinamicamente.
+O módulo [!UICONTROL Criar JSON] facilita a especificação do JSON. Ela também oferece a possibilidade de definir valores dinamicamente.
 
-Para obter mais informações sobre os módulos JSON, consulte [Módulos JSON](../../workfront-fusion/apps-and-their-modules/json-modules.md).
+Para obter mais informações sobre os módulos JSON, consulte [módulos JSON](../../workfront-fusion/apps-and-their-modules/json-modules.md).
 
 1. Insira ou mapeie os valores a partir dos quais deseja criar JSON.
 
    ![](assets/json-values-350x288.png)
 
-1. Conecte o [!UICONTROL JSON] > [!UICONTROL Criar JSON] para o módulo HTTP > Fazer uma solicitação.
-1. Mapeie a cadeia de caracteres JSON do [!UICONTROL Criar JSON] módulo para o [!UICONTROL Solicitar conteúdo] no campo [!UICONTROL HTTP] >[!UICONTROL Fazer uma solicitação] módulo.
+1. Conecte o módulo [!UICONTROL JSON] > [!UICONTROL Criar JSON] ao módulo HTTP > Fazer uma Solicitação.
+1. Mapeie a cadeia de caracteres JSON do módulo [!UICONTROL Criar JSON] para o campo [!UICONTROL Solicitar conteúdo] no módulo [!UICONTROL HTTP] >[!UICONTROL Fazer uma Solicitação].
 
-   Agora, quando você executa o cenário, a notificação por push é enviada para o dispositivo que foi registrado no [!DNL Pushover] conta.
+   Agora, quando você executa o cenário, a notificação por push é enviada para o dispositivo que foi registrado na sua conta [!DNL Pushover].

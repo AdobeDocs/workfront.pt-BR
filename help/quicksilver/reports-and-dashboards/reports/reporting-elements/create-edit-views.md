@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Você pode personalizar o tipo de informação exibida na tela usando visualizações. Você pode usar vários tipos de visualizações no Adobe Workfront.
 
-Este artigo descreve como criar e editar exibições padrão para listas e relatórios, e como criar exibições Agile. Para obter mais informações, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Este artigo descreve como criar e editar exibições padrão para listas e relatórios, e como criar exibições Agile. Para obter mais informações, consulte [Visão geral na Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Requisitos de acesso
 
@@ -43,12 +43,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 +++
 
@@ -63,19 +63,19 @@ O processo para criar ou personalizar uma view difere dependendo se você está 
 
 Você pode criar uma nova view-padrão ou personalizar uma view-padrão existente criada anteriormente.
 
-1. Clique em **Exibir** menu suspenso em qualquer lista em que você deseja criar ou personalizar uma visualização.
+1. Clique no menu suspenso **Exibir** em qualquer lista em que deseje criar ou personalizar um modo de exibição.
 1. (Opcional) Para personalizar uma exibição existente, selecione a exibição padrão que deseja personalizar.\
    As Exibições padrão estão disponíveis em qualquer tipo de lista no Workfront, como um relatório, lista de projetos ou lista de tarefas.
-1. Clique em **Exibir** e, em seguida, clique em **Personalizar visualização** ou **Nova visualização**.\
-   A variável **Personalizar visualização** é exibida.
+1. Clique no menu suspenso **Exibir** e em **Personalizar exibição** ou **Nova exibição**.\
+   A caixa de diálogo **Personalizar exibição** é exibida.
 
-1. No **Visualização da coluna** execute um dos procedimentos a seguir:
+1. Na seção **Visualização da coluna**, siga um destes procedimentos:
 
    * Modifique o valor de qualquer coluna clicando no título da coluna e selecionando um novo campo.
-   * Adicionar uma coluna clicando em **Adicionar coluna**, comece digitando o nome da coluna que deseja adicionar e, em seguida, clique nela quando ela aparecer na lista suspensa.
+   * Adicione uma coluna clicando em **Adicionar coluna**, comece digitando o nome da coluna que deseja adicionar e clique nela quando ela aparecer na lista suspensa.
    * Ajuste a ordem em que as colunas aparecem arrastando o título da coluna para um novo local.
 
-      * (Opcional) Na **Configurações de coluna** clique na guia **Resumir esta coluna por** e, em seguida, selecione uma das opções disponíveis para resumir as informações. Quando você escolhe essa opção, as informações em sua coluna são agregadas nos agrupamentos do relatório.\
+      * (Opcional) Na área **Configurações de Coluna**, clique na lista suspensa **Resumir esta coluna por** e selecione uma das opções disponíveis para resumir as informações. Quando você escolhe essa opção, as informações em sua coluna são agregadas nos agrupamentos do relatório.\
         Para campos de data, é possível resumir os valores pelas seguintes opções:
 
          * Máximo
@@ -99,9 +99,9 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
         >   
         >
 
-        Para obter mais informações sobre o uso de agrupamentos em um relatório, consulte o artigo [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Para obter mais informações sobre como usar agrupamentos em um relatório, consulte o artigo [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-      * (Opcional) Clique em **Opções avançadas** para especificar as seguintes informações para a coluna:
+      * (Opcional) Clique em **Opções Avançadas** para especificar as seguintes informações para a coluna:
 
         <table style="table-layout:auto"> 
          <col> 
@@ -121,22 +121,22 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Regras de colunas</strong></td> 
-           <td><p>Clique em <strong>Adicionar uma Regra para esta Coluna</strong> para definir uma regra para a coluna. Após adicionar uma regra, é possível definir estilos de campo e texto para a forma como os campos que correspondem a essa regra são exibidos. Clique em <strong>Adicionar regra</strong> após concluir a definição da regra.</p></td> 
+           <td><p>Clique em <strong>Adicionar uma Regra para esta Coluna</strong> para definir uma regra para a coluna. Após adicionar uma regra, é possível definir estilos de campo e texto para a forma como os campos que correspondem a essa regra são exibidos. Clique em <strong>Adicionar regra</strong> depois que terminar de definir a regra.</p></td> 
           </tr> 
          </tbody> 
         </table>
 
-        Para obter mais informações sobre a formatação condicional de exibições nos relatórios, consulte o artigo [Usar formatação condicional no Modo de texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Para obter mais informações sobre modos de exibição de formatação condicional nos relatórios, consulte o artigo [Usar formatação condicional no Modo de Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-1. (Condicional) Se você clicou em **Opções avançadas**, clique em **Concluído**.
+1. (Condicional) Se você clicou em **Opções Avançadas**, clique em **Concluído**.
 
-1. Clique em **Salvar visualização** para criar um novo modo de exibição ou substituir o modo de exibição atual por suas alterações.\
+1. Clique em **Salvar exibição** para criar um novo modo de exibição ou substituir o modo de exibição atual por suas alterações.\
    Ou\
-   Clique em **Salvar como nova visualização** para salvar as alterações como uma nova visualização.
+   Clique em **Salvar como Novo Modo de Exibição** para salvar suas alterações como um novo modo de exibição.
 
    >[!TIP]
    >
-   >A variável **Salvar como nova visualização** O é a única opção disponível ao personalizar uma visualização integrada do Workfront.
+   >A **Salvar como Nova Exibição** é a única opção disponível ao personalizar uma exibição interna do Workfront.
 
    Seu acesso determina como a visualização é salva. Se você criou a visualização originalmente, é possível salvar as alterações; caso contrário, será solicitado que você salve uma versão. Lembre-se de que as alterações feitas na exibição afetam os usuários com os quais a exibição foi compartilhada.
 
@@ -148,7 +148,7 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
 >
 >As visualizações Agile estão disponíveis somente ao visualizar um projeto.
 
-Para obter mais informações sobre visualizações Agile, consulte o artigo [Gerenciar um projeto na visualização Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obter mais informações sobre exibições Agile, consulte o artigo [Gerenciar um projeto na Exibição Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 >[!NOTE]
 >
@@ -157,24 +157,24 @@ Para obter mais informações sobre visualizações Agile, consulte o artigo [Ge
 Para criar ou personalizar uma visualização Agile:
 
 1. Vá para a lista de tarefas em um projeto.
-1. Clique em **Quadro** ícone ![Ícone do painel](assets/board-icon-for-agile-view.png)e clique em **Usar ágil legado** na exibição do quadro.
+1. Clique no **ícone de Quadro** ![ícone de Quadro](assets/board-icon-for-agile-view.png) e clique em **Usar ágil herdado** na exibição de quadro.
 
 1. (Condicional) Para personalizar uma exibição Agile existente:
 
-   1. Clique em **Exibir** e selecione a visualização Agile que deseja personalizar.\
+   1. Clique no menu suspenso **Exibir** e selecione a exibição Agile que deseja personalizar.\
       Não é possível personalizar a visualização Agile padrão.
 
-   1. Clique em **Exibir** menu suspenso novamente e clique em **Personalizar visualização**.\
+   1. Clique novamente no menu suspenso **Exibir** e clique em **Personalizar exibição**.\
       ![](assets/view-agile-customize.png)
 
-1. (Condicional) Para criar uma nova exibição Agile, clique em **Nova visualização**.\
-   A variável **Personalizar visualização Agile** é exibida.
+1. (Condicional) Para criar um novo modo de exibição Agile, clique em **Novo modo de exibição**.\
+   A caixa de diálogo **Personalizar Exibição Agile** é exibida.
 
-1. No **Personalizar visualização Agile** especifique um nome para a exibição Agile.\
+1. Na caixa de diálogo **Personalizar Exibição Agile**, especifique um nome para a exibição Agile.\
    Recomendamos que você inclua a palavra &quot;Agile&quot; no nome da visualização para que os usuários saibam que esta é uma visualização Agile.\
-   Esse nome é exibido no campo **Exibir** menu suspenso ao selecionar uma exibição.
+   Este nome é exibido no menu suspenso **Exibir** ao selecionar um modo de exibição.
 
-1. Defina as colunas de status a serem exibidas no storyboard na exibição ágil. Esses são os status de tarefa definidos pelo administrador do Workfront, conforme descrito em [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. Defina as colunas de status a serem exibidas no storyboard na exibição ágil. São os status de tarefa definidos pelo administrador do Workfront, conforme descrito em [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
    Somente os status do sistema estão disponíveis para uso no storyboard Agile. Se um status estiver disponível somente para um grupo individual do qual você é membro, o status não estará disponível no storyboard do Agile. Além disso, as tarefas com um status que está disponível somente para um grupo personalizado não ficam visíveis ao visualizar o projeto em uma visualização Agile.
 
@@ -191,11 +191,11 @@ Para criar ou personalizar uma visualização Agile:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Remover colunas de status:</strong> </td> 
-      <td>Clique no ícone (x) na coluna que deseja remover.<br>Não é possível remover o status "Novo", a menos que um status personalizado tenha sido adicionado à exibição e que o status personalizado seja igual a "Novo".<br>Para obter informações sobre como criar um status personalizado, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Criar ou editar um status</a>.</td> 
+      <td>Clique no ícone (x) na coluna que deseja remover.<br>Não é possível remover o status "Novo", a menos que um status personalizado tenha sido adicionado ao modo de exibição e que o status personalizado seja igual a "Novo".<br>Para obter informações sobre como criar um status personalizado, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Criar ou editar um status</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Adicionar colunas de status:</strong> </td> 
-      <td> <p>Clique em <strong>Plus</strong> e selecione o status que deseja adicionar.<br>Todos os status padrão do sistema são exibidos, bem como todos os status personalizados que foram compartilhados com você.<br>Você pode configurar até 10 status para serem exibidos.</p></td> 
+      <td> <p>Clique no ícone do <strong>Plus</strong> e selecione o status que deseja adicionar.<br>Todos os status padrão do sistema são exibidos, bem como quaisquer status personalizados que tenham sido compartilhados com você.<br>Você pode configurar até 10 status para serem exibidos.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -204,7 +204,7 @@ Para criar ou personalizar uma visualização Agile:
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
        -->
 
-1. No **Associar cor do cartão a** selecione entre as seguintes opções:
+1. Na área **Associar cor do cartão a**, selecione uma das seguintes opções:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -212,7 +212,7 @@ Para criar ou personalizar uma visualização Agile:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>História:</strong> </td> 
-      <td>Qualquer subtarefa corresponde à cor da tarefa pai, de modo que as cores de todas as histórias em qualquer raia sejam as mesmas.<br>As cores são atribuídas aleatoriamente às tarefas quando são criadas se a tarefa não tiver subtarefas ou não tiver uma tarefa pai.</td> 
+      <td>Qualquer subtarefa corresponde à cor da tarefa pai, de modo que as cores de todas as histórias em qualquer raia sejam as mesmas.<br>As cores são atribuídas aleatoriamente às tarefas quando criadas se a tarefa não tiver subtarefas ou não tiver uma tarefa pai.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Forma livre:</strong> </td> 
@@ -223,18 +223,18 @@ Para criar ou personalizar uma visualização Agile:
       <td> <p> As cores são associadas à prioridade da matéria, da seguinte maneira:</p> 
        <ul> 
         <li>Alto = Vermelho</li> 
-        <li>Médio = Amarelo</li> 
+        <li>Medium = Amarela</li> 
         <li>Baixo = Verde<br>Se o administrador do Workfront tiver configurado prioridades personalizadas para o seu sistema Workfront, a prioridade mais alta será vermelha, a segunda mais alta será amarela e a restante será verde.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Proprietário da tarefa:</strong> </td> 
-      <td> Todas as matérias com o mesmo destinatário primário têm a mesma cor.<br>O principal responsável é o usuário que foi atribuído pela primeira vez à tarefa. </td> 
+      <td> Todas as matérias com o mesmo destinatário primário têm a mesma cor.<br>O destinatário primário é o usuário que foi atribuído pela primeira vez à tarefa. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. No **Agile** seção, no campo **Campos Adicionais** clique em **Adicionar campo**, em seguida, selecione o campo que deseja adicionar aos cartões de história. (Esses são os mesmos campos que você pode adicionar ao criar ou personalizar uma visualização ou criar colunas para um relatório.)\
+1. Na seção **Agile**, na área **Campos Adicionais**, clique em **Adicionar Campo** e selecione o campo que deseja adicionar aos cartões de história. (Esses são os mesmos campos que você pode adicionar ao criar ou personalizar uma visualização ou criar colunas para um relatório.)\
    Repita esse processo para adicionar até três campos adicionais aos cartões de história.\
    Ao adicionar campos a cartões de matéria, os campos são somente visualização e são exibidos somente quando o campo é preenchido.
 
@@ -253,4 +253,4 @@ Para criar ou personalizar uma visualização Agile:
 1. Clique em **Salvar**.\
    Seu acesso determina como a visualização é salva. Se você criou a visualização originalmente, é possível salvar as alterações; caso contrário, será solicitado que você salve uma versão. Lembre-se de que as alterações feitas na exibição afetam os usuários com os quais a exibição foi compartilhada.
 
-1. (Opcional) Clique no link **Lista** ícone para retornar à lista de tarefas.
+1. (Opcional) Clique no ícone **Lista** para retornar à lista de tarefas.

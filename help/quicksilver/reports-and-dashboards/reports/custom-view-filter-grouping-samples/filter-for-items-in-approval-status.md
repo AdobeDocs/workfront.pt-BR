@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -49,29 +49,29 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Exibir somente itens no status de aprovação
 
 1. Acesse o filtro que deseja personalizar para obter uma lista de projetos, por exemplo.
-1. Clique em **Adicionar uma regra de filtro** para o **Status** do objeto da lista.\
-   Por exemplo, em um relatório de projeto, adicione **Planejamento de Status Igual**, se quiser exibir somente projetos com status de **Planejamento - Pendente de Aprovação**.
+1. Clique em **Adicionar uma Regra de Filtro** para o campo **Status** do objeto da sua lista.\
+   Por exemplo, em um relatório de projeto, adicione **Status Igual a Planejamento**, se desejar exibir somente projetos com status **Planejamento - Aprovação Pendente**.
 
-1. Clique em **Alternar para modo de texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Modifique o
 
    ```
    status
    ```
 
-   linha adicionando **:A** à chave de 3 letras do status:
+   adicionando **:A** à chave de 3 letras do status:
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
-1. Clique em **Concluído**, depois **Salvar Filtro**.
+1. Clique em **Concluído** e em **Salvar filtro**.
 
    A lista exibe somente projetos com status Planejamento - Aprovação Pendente.

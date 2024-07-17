@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do SharePoint
-description: Em um [!DNL Adobe Workfront Fusion] Nesse cenário, você pode automatizar workflows que usam o SharePoint, bem como conectá-lo a vários aplicativos e serviços de terceiros.
+description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode automatizar fluxos de trabalho que usam o SharePoint, bem como conectá-lo a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL SharePoint] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL SharePoint], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um cenário [!DNL Adobe Workfront Fusion], você pode automatizar fluxos de trabalho que usam [!DNL SharePoint], bem como conectá-los a vários aplicativos e serviços de terceiros.
 
-Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se você precisar de instruções sobre como criar um cenário, consulte [Criar um cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -43,58 +43,58 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!DNL SharePoint] módulos, você deve ter uma [!DNL SharePoint] conta.
+Para usar módulos [!DNL SharePoint], você deve ter uma conta [!DNL SharePoint].
 
-## Conectar [!DNL SharePoint] para [!DNL Workfront Fusion] {#connect-sharepoint-to-workfront-fusion}
+## Conectar [!DNL SharePoint] a [!DNL Workfront Fusion] {#connect-sharepoint-to-workfront-fusion}
 
-* [Conectar [!DNL SharePoint] para [!DNL Workfront Fusion] usando um [!DNL Microsoft] account](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account)
-* [Conectar [!DNL SharePoint] para [!DNL Workfront Fusion] usar configurações avançadas](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
+* [Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion] usando uma [!DNL Microsoft] conta](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account)
+* [Conectar [!DNL SharePoint] a [!DNL Workfront Fusion] usando configurações avançadas](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
 
-### Conectar [!DNL SharePoint] para [!DNL Workfront Fusion] usando um [!DNL Microsoft] account
+### Conectar [!DNL SharePoint] a [!DNL Workfront Fusion] usando uma conta [!DNL Microsoft]
 
-Você pode usar seu [!DNL Microsoft] conta à qual criar uma conexão [!DNL SharePoint]. Para obter instruções sobre como conectar seu [!DNL Sharepoint] conta para [!DNL Workfront Fusion], consulte [Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Você pode usar sua conta [!DNL Microsoft] para criar uma conexão com [!DNL SharePoint]. Para obter instruções sobre como conectar sua conta do [!DNL Sharepoint] ao [!DNL Workfront Fusion], consulte [Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-### Conectar [!DNL SharePoint] para [!DNL Workfront Fusion] usar configurações avançadas
+### Conectar [!DNL SharePoint] a [!DNL Workfront Fusion] usando configurações avançadas
 
-Para conectar [!DNL SharePoint] para [!DNL Workfront Fusion] sem um [!DNL Microsoft] conta, você precisa de uma ID do cliente, um Segredo do cliente e uma ID do locatário.
+Para conectar [!DNL SharePoint] a [!DNL Workfront Fusion] sem uma conta [!DNL Microsoft], você precisa de uma ID de Cliente, um Segredo de Cliente e uma ID de Locatário.
 
-1. Clique em **[!UICONTROL Adicionar]** perto da parte superior do **[!DNL SharePoint]** para abrir a caixa **[!UICONTROL Criar uma conexão]** caixa.
+1. Clique em **[!UICONTROL Adicionar]** próximo à parte superior da caixa **[!DNL SharePoint]** para abrir a caixa **[!UICONTROL Criar uma conexão]**.
 
-1. (Opcional) Alterar o padrão **[!UICONTROL Nome da conexão]**.
+1. (Opcional) Altere o **[!UICONTROL Nome da conexão]** padrão.
 1. Clique em **[!UICONTROL Mostrar configurações avançadas]**.
-1. Insira o [!DNL SharePoint] **[!UICONTROL ID do cliente]** e **[!UICONTROL Segredo do cliente]**.
+1. Insira a [!DNL SharePoint] **[!UICONTROL ID do Cliente]** e o **[!UICONTROL Segredo do Cliente]**.
 
 1. Clique em **[!UICONTROL Continuar]**.
 1. Na janela de logon que é exibida, digite suas credenciais para fazer logon no aplicativo, se ainda não tiver feito.
-1. (Condicional) Se uma **[!UICONTROL Permitir]** for exibido, clique no botão para conectar o aplicativo ao [!DNL Workfront Fusion].
+1. (Condicional) Se um botão **[!UICONTROL Permitir]** for exibido, clique no botão para conectar o aplicativo a [!DNL Workfront Fusion].
 
 ## [!DNL SharePoint] módulos e seus campos
 
-Ao configurar [!DNL SharePoint] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL SharePoint] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL SharePoint], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL SharePoint] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -122,13 +122,13 @@ Este módulo retorna as alterações feitas no SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir Site, Unidade e IDs de Pasta]</td> 
    <td> <p>Selecione como você deseja identificar o local da pasta na qual deseja recuperar as alterações.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID da Pasta]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID da Pasta]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o local onde deseja recuperar as alterações. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -148,13 +148,13 @@ Este módulo de ação cria uma nova pasta no SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir Site, Unidade e IDs de Pasta]</td> 
    <td> <p>Selecione como deseja identificar o local da pasta que deseja criar.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID da Pasta]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID da Pasta]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o local em que deseja criar a pasta. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -175,13 +175,13 @@ Este módulo de ação recupera o arquivo SharePoint especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir Site, Unidade e IDs de Pasta]</td> 
    <td> <p>Selecione como você deseja identificar o local do arquivo que deseja obter.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID de Arquivo]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID do Arquivo]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o local do arquivo. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -198,18 +198,18 @@ Este módulo de acionamento inicia um cenário quando um item é atualizado em u
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir Site, Unidade e IDs de Pasta]</td> 
    <td> <p>Selecione como você deseja identificar o local do arquivo que deseja obter.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID da pasta]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID da pasta]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o local da pasta que deseja observar. </p> </li> 
     </ul> </td> 
   </tr> 
    <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td>Insira o número máximo de itens [!DNL Workfront Fusion] deve retornar durante um ciclo de execução de cenário.</td> 
+   <td>Insira o número máximo de itens que [!DNL Workfront Fusion] deve retornar durante um ciclo de execução de cenário.</td> 
   <tr>
   </tr>
 </tbody> 
@@ -220,11 +220,11 @@ Este módulo de acionamento inicia um cenário quando um item é atualizado em u
 * [[!UICONTROL Copiar item]](#copy-an-item)
 * [[!UICONTROL Criar um item]](#create-an-item)
 * [[!UICONTROL Excluir um item]](#delete-an-item)
-* [[!UICONTROL Obter um item]](#get-an-item)
+* [[!UICONTROL Obter um Item]](#get-an-item)
 * [[!UICONTROL Listar itens]](#list-items)
-* [[!UICONTROL Mover item]](#move-an-item)
+* [[!UICONTROL Mover Item]](#move-an-item)
 * [[!UICONTROL Atualizar um item]](#update-an-item)
-* [[!UICONTROL Observar itens] (Agendado)](#watch-items-scheduled)
+* [[!UICONTROL Itens de observação] (Agendados)](#watch-items-scheduled)
 
 
 #### [!UICONTROL Copiar item]
@@ -237,13 +237,13 @@ Este módulo de ação copia um item existente em uma lista do SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Inserir IDs de site, unidade e pasta</td> 
    <td> <p>Selecione como deseja identificar o site e a lista que contém o item que deseja copiar.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID de Item]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID do Item]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>No campo Tipo de Item, selecione se deseja mover um campo ou uma pasta.  Selecione o site que contém o item que você deseja copiar, selecione a lista e selecione o item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -268,13 +268,13 @@ Este módulo de ação cria um novo item em uma lista do SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Criar um Item]</td> 
    <td> <p>Selecione como você deseja identificar o site e a lista onde deseja criar um item.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong> e <strong>[!UICONTROL ID de Lista]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong> e a <strong>[!UICONTROL ID da Lista]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém a lista onde você deseja criar um item e selecione-a. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -295,20 +295,20 @@ Este módulo de ação exclui um item existente em uma lista do SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Atualizar um Item]</td> 
    <td> <p>Selecione como você deseja identificar o site e a lista que contém o item que você deseja excluir.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID de Item]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID do Item]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém o item que você deseja excluir, selecione a lista e selecione o item. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Obter um item]
+#### [!UICONTROL Obter um Item]
 
 Este módulo de ação retorna os dados de um item especificado.
 
@@ -318,13 +318,13 @@ Este módulo de ação retorna os dados de um item especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Obter um Item]</td> 
    <td> <p>Selecione como você deseja identificar o site e a lista que contém o item que você deseja obter.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID de Item]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID do Item]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém a lista da qual você deseja recuperar um item e selecione a lista e, em seguida, o item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -341,13 +341,13 @@ Este módulo de ação recupera uma lista de todos os itens em uma lista especif
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listar Itens]</td> 
    <td> <p>Selecione como deseja identificar a lista da qual deseja recuperar os itens.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong> e <strong>[!UICONTROL ID de Lista]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong> e a <strong>[!UICONTROL ID da Lista]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém a lista da qual deseja recuperar itens e selecione-a. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -358,7 +358,7 @@ Este módulo de ação recupera uma lista de todos os itens em uma lista especif
  </tbody> 
 </table>
 
-#### [!UICONTROL Mover um item]
+#### [!UICONTROL Mover um Item]
 
 Este módulo de ação copia um item existente em uma lista do SharePoint.
 
@@ -368,13 +368,13 @@ Este módulo de ação copia um item existente em uma lista do SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Inserir IDs de site, unidade e pasta</td> 
    <td> <p>Selecione como você deseja identificar o site e a lista que contém o item que você deseja mover.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID de Item]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID do Item]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>No campo Tipo de Item, selecione se deseja mover um campo ou uma pasta. Selecione o site que contém o item que você deseja copiar, selecione a lista e selecione o item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -399,13 +399,13 @@ Este módulo de ação atualiza um item existente em uma lista do SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Atualizar um Item]</td> 
    <td> <p>Selecione como você deseja identificar o site e a lista que contém o item que você deseja atualizar.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID de Lista]</strong>, e <strong>[!UICONTROL ID de Item]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Lista]</strong> e <strong>[!UICONTROL ID do Item]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém o item que você deseja atualizar, selecione a lista e selecione o item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -416,7 +416,7 @@ Este módulo de ação atualiza um item existente em uma lista do SharePoint.
  </tbody> 
 </table>
 
-#### [!UICONTROL Observar itens] (Agendado)
+#### [!UICONTROL Itens de observação] (Agendados)
 
 Esse módulo de acionamento inicia um cenário quando um item é criado ou modificado.
 
@@ -426,7 +426,7 @@ Esse módulo de acionamento inicia um cenário quando um item é criado ou modif
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listas de Observação]</td> 
@@ -436,7 +436,7 @@ Esse módulo de acionamento inicia um cenário quando um item é criado ou modif
    <td role="rowheader">[!UICONTROL Inserir Site e ID de Lista]</td> 
    <td> <p>Selecione como deseja identificar o site e a lista que deseja observar.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong> e <strong>[!UICONTROL ID de Lista]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong> e a <strong>[!UICONTROL ID da Lista]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o site que deseja observar e selecione a lista. Esses menus suspensos recuperam apenas os sites seguidos.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -449,12 +449,12 @@ Esse módulo de acionamento inicia um cenário quando um item é criado ou modif
 
 ### Lista
 
-* [[!UICONTROL Criar uma lista]](#create-a-list)
-* [[!UICONTROL Obter uma lista]](#get-a-list)
+* [[!UICONTROL Criar uma Lista]](#create-a-list)
+* [[!UICONTROL Obter uma Lista]](#get-a-list)
 * [[!UICONTROL Listar listas]](#list-lists)
 * [[!UICONTROL Listas de Interesse]](#watch-lists)
 
-#### [!UICONTROL Criar uma lista]
+#### [!UICONTROL Criar uma Lista]
 
 Este módulo de ação cria uma nova lista no SharePoint.
 
@@ -464,7 +464,7 @@ Este módulo de ação cria uma nova lista no SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir uma ID de Site]</td> 
@@ -484,12 +484,12 @@ Este módulo de ação cria uma nova lista no SharePoint.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adicionar Colunas]</td> 
-   <td>Para cada coluna que você deseja definir para a nova lista, insira um <strong>[!UICONTROL Nome]</strong> para o campo e selecione o <strong>[!UICONTROL Tipo]</strong> de valor que você deseja que a nova coluna tenha.</td> 
+   <td>Para cada coluna que você deseja definir para a nova lista, insira um <strong>[!UICONTROL Name]</strong> para o campo e selecione o <strong>[!UICONTROL Type]</strong> do valor que você deseja que a nova coluna tenha.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Obter uma lista]
+#### [!UICONTROL Obter uma Lista]
 
 Este módulo de ação retorna os dados de uma lista especificada.
 
@@ -499,13 +499,13 @@ Este módulo de ação retorna os dados de uma lista especificada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Obter uma Lista]</td> 
    <td> <p>Selecione como você deseja identificar o site e a lista que contém o item que você deseja obter.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong> e <strong>ID da lista</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong> e a <strong>ID da Lista</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém a lista que você deseja recuperar e, em seguida, selecione a lista. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -522,7 +522,7 @@ Este módulo de ação recupera uma lista de todos os itens em uma lista especif
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listas de Listas]</td> 
@@ -549,7 +549,7 @@ Esse módulo de acionador inicia um cenário quando uma lista é criada ou modif
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Listas de Observação]</td> 
@@ -559,7 +559,7 @@ Esse módulo de acionador inicia um cenário quando uma lista é criada ou modif
    <td role="rowheader">[!UICONTROL Inserir Site e ID de Lista]</td> 
    <td> <p>Selecione como deseja identificar o site e a lista que deseja observar.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong> onde a lista que você deseja observar está localizada.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong> onde a lista que você deseja assistir está localizada.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o site que deseja assistir. O menu suspenso recupera apenas o site que você segue.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -574,7 +574,7 @@ Esse módulo de acionador inicia um cenário quando uma lista é criada ou modif
 
 >[!NOTE]
 >
->APIs na `beta` versão em [!DNL Microsoft Graph] estão sujeitas a alterações. O uso dessas APIs em aplicativos de produção não é compatível.
+>As APIs na versão `beta` em [!DNL Microsoft Graph] estão sujeitas a alterações. O uso dessas APIs em aplicativos de produção não é compatível.
 
 #### [!UICONTROL Obter uma página]
 
@@ -586,13 +586,13 @@ Este módulo de ação retorna os dados de uma página especificada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Obter uma Página]</td> 
    <td> <p>Selecione como você deseja identificar a página que deseja recuperar.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>e <strong>[!UICONTROL ID de Página]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>e <strong>[!UICONTROL ID da Página]</strong>.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém a página que você deseja recuperar e selecione a página.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -614,7 +614,7 @@ Este módulo de ação retorna os dados de um site especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Obter um Site]</td> 
@@ -637,7 +637,7 @@ Esse módulo de ação pesquisa sites por um parâmetro especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Palavra-chave do Nome para Exibição]</td> 
@@ -662,13 +662,13 @@ Este módulo recupera adições, atualizações e exclusões feitas na pasta do 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir Site, Unidade e IDs de Pasta]</td> 
    <td> <p>Selecione como você deseja identificar o site e a lista que contém o item que você deseja atualizar.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie o <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Unidade]</strong>, e <strong>[!UICONTROL ID da Pasta]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a <strong>[!UICONTROL ID do Site]</strong>, <strong>[!UICONTROL ID da Unidade]</strong> e <strong>[!UICONTROL ID da Pasta]</strong> nos campos exibidos.</p> </li> 
      <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém o item que você deseja atualizar, selecione a unidade e selecione a pasta. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -689,11 +689,11 @@ Este módulo permite executar uma chamada de API personalizada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] conta para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL SharePoint] ao [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Conectar [!DNL SharePoint] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Insira um caminho relativo a <code>https://graph.microsoft.com</code>. Exemplo:<code> /beta/sites</code></p> </td> 
+   <td> <p>Insira um caminho relativo para <code>https://graph.microsoft.com</code>. Exemplo:<code> /beta/sites</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Método]</p> </td> 
@@ -701,7 +701,7 @@ Este módulo permite executar uma chamada de API personalizada.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cabeçalhos]</td> 
-   <td> <p>Adicione os cabeçalhos da solicitação no formato de um objeto JSON padrão. Por exemplo, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] O adiciona os cabeçalhos de autorização para você.</p> </td> 
+   <td> <p>Adicione os cabeçalhos da solicitação na forma de um objeto JSON padrão. Por exemplo, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] adiciona os cabeçalhos de autorização para você.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cadeia de Consulta]</td> 
@@ -713,7 +713,7 @@ Este módulo permite executar uma chamada de API personalizada.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Corpo]</td> 
-   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar declarações condicionais como <code>if</code> no JSON, coloque as aspas fora da declaração condicional.</p> 
+   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar instruções condicionais como <code>if</code> em seu JSON, coloque as aspas fora da instrução condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

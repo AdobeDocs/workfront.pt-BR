@@ -97,21 +97,21 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 >[!IMPORTANT]
 >
->Uma linha de base captura um instantâneo do nome, das datas e das informações financeiras do projeto. A linha de base não inclui os valores de campos personalizados no projeto. Para obter informações sobre informações financeiras incluídas na baseline, consulte [Finanças do projeto incluídas nas linhas de base do projeto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Uma linha de base captura um instantâneo do nome, das datas e das informações financeiras do projeto. A linha de base não inclui os valores de campos personalizados no projeto. Para obter informações sobre informações financeiras incluídas na linha de base, consulte [Finanças do projeto incluídas nas linhas de base do projeto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Criar uma linha de base
 
 Você pode criar uma linha de base das seguintes maneiras:
 
-* **Automaticamente**: O administrador do Workfront ou um administrador de grupo define a preferência do projeto para o Workfront criar automaticamente uma linha de base quando um projeto se tornar Atual. Quando esta configuração está habilitada, uma linha de base é criada quando o status do projeto se torna Atual. Quando esta configuração não está habilitada, você deve criar linhas de base manualmente.
+* **Automaticamente**: o administrador do Workfront ou um administrador de grupo define a preferência do projeto para o Workfront criar automaticamente uma linha de base quando um projeto se tornar Atual. Quando esta configuração está habilitada, uma linha de base é criada quando o status do projeto se torna Atual. Quando esta configuração não está habilitada, você deve criar linhas de base manualmente.
 
-  Para obter mais informações sobre como configurar as preferências do projeto e configurar a criação automática de linha de base, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Para obter mais informações sobre como configurar preferências de projeto e configurar a criação automática de linha de base, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!CAUTION]
   >
   >Ativar essa configuração cria automaticamente uma linha de base para um projeto sempre que o status de um projeto muda para Atual. A primeira linha de base criada é a padrão. Você deve criar manualmente todas as outras linhas de base durante a vida do projeto.
 
-* **Manualmente**: Você pode criar novas linhas de base para o projeto, conforme necessário, à medida que o projeto avança. Você pode comparar linhas de base para ver como o projeto progrediu com o tempo.
+* **Manualmente**: você pode criar novas linhas de base para o projeto, conforme necessário, conforme o progresso do projeto. Você pode comparar linhas de base para ver como o projeto progrediu com o tempo.
 
 Para criar uma linha de base:
 
@@ -120,7 +120,7 @@ Para criar uma linha de base:
 
    Ou
 
-   Clique em **Mostrar mais** e, em seguida, clique em **Linhas de Base**.
+   Clique em **Mostrar mais** e em **Linhas de Base**.
 
    ![Seção Linhas de Base no projeto](assets/baselines-section-on-project-with-header.png)
 
@@ -143,7 +143,7 @@ Para criar uma linha de base:
      >
      >Não é possível exibir informações de duas linhas de base ao mesmo tempo na mesma exibição ou relatório. Você só pode exibir informações de uma determinada linha de base e da Linha de base Padrão no mesmo relatório. Você pode modificar qual linha de base considera ser a Linha de base Padrão a qualquer momento durante a vida útil do projeto.
 
-1. (Opcional) Clique no link **Exibir** e, em seguida, crie uma nova view ou edite a view atual para adicionar campos à view e comparar informações adicionais entre linhas de base. Para obter informações, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (Opcional) Clique no botão **Exibir** e, em seguida, crie uma nova exibição ou edite a exibição atual para adicionar campos à exibição e comparar informações adicionais entre linhas de base. Para obter informações, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Criar um relatório de Linha de Base ou de Tarefa de Linha de Base
 

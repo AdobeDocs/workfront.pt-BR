@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Atividade de versão Beta 2 2018.1
-description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 14 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
+title: Atividade da versão 2018.1 do Beta 2
+description: Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 14 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 2%
 
 ---
 
-# Atividade de versão Beta 2 2018.1
+# Atividade da versão 2018.1 do Beta 2
 
-Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 14 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
+Esta página descreve todas as alterações disponíveis mais recentemente no ambiente de Pré-visualização com a versão 2018.1 do Beta 2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 14 de dezembro de 2017. Ele estará disponível no ambiente de Produção em março de 2018.
 
 >[!IMPORTANT]
 >
 > A funcionalidade descrita nesta página está sujeita a alterações antes da disponibilidade no ambiente de produção.
 
-Para obter uma lista de todas as alterações feitas em 2018.1, consulte  [Visão geral da atividade da versão 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para obter uma lista de todas as alterações feitas em 2018.1, consulte  Visão geral da atividade da versão [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-A versão 2018.1 Beta 2 contém melhorias para administradores do Workfront e outros usuários:
+A versão 2018.1 do Beta 2 contém melhorias para administradores do Workfront e outros usuários:
 
-**Para administradores**
+**Para Administradores**
 
 * [Administração de grupo para usuários e modelos de layout](#group-administration-for-users-and-layout-templates)
 
-**Para todos os usuários**
+**Para Todos Os Usuários**
 
-* [Monitor widescreen em todo o sistema](#system-wide-widescreen-display)
-* [Redimensionar Instantâneo da Linha do Tempo no Gráfico de Gantt](#resize-timeline-snapshot-on-the-gantt-chart)
+* [Monitor Widescreen em Todo o Sistema](#system-wide-widescreen-display)
+* [Redimensionar Instantâneo de Linha do Tempo no Gráfico de Gantt](#resize-timeline-snapshot-on-the-gantt-chart)
 * [Planejador de recursos interativos no Business Case](#interactive-resource-planner-in-the-business-case)
-* [Visualização no Planejador de recursos - Gráfico de alocação de usuários](#visualization-in-the-resource-planner-user-allocation-chart)
+* [Visualização no Planejador de Recursos - Gráfico de Alocação de Usuário](#visualization-in-the-resource-planner-user-allocation-chart)
 * [Melhorias na área inicial](#improvements-in-the-home-area)
-* [Novas melhorias do visualizador de provas](#new-proofing-viewer-improvements) 
+* [Novas melhorias do visualizador de revisões](#new-proofing-viewer-improvements) 
 
 ## Administração de grupo para usuários e modelos de layout {#group-administration-for-users-and-layout-templates}
 
@@ -48,7 +48,7 @@ Agora você pode designar administradores de grupo no Workfront. O campo Propri
 
 ### Gerenciamento de usuários por administrador de grupo {#user-management-by-group-administrator}
 
-Estamos introduzindo o novo conceito de **administrador de grupo**. Para sustentar isso, a **Proprietário do grupo** O campo foi renomeado para **administrador de grupo** e os usuários designados como administradores de grupo têm permissões adicionais para gerenciar usuários e grupos.
+Estamos introduzindo o novo conceito de **administrador de grupo**. Para oferecer suporte a isso, o campo **Proprietário do grupo** foi renomeado para **administrador de grupo** e os usuários designados como administradores de grupo têm permissões adicionais para gerenciar usuários e grupos.
 
 Além das permissões que o Proprietário do grupo tinha anteriormente para gerenciar usuários, o administrador do grupo agora tem o seguinte acesso adicional ao gerenciar usuários nos grupos em que estão definidos como administradores do grupo:
 
@@ -62,7 +62,7 @@ Para obter mais informações sobre administradores de grupo, consulte a seção
 
 ### Gerenciamento de modelos de layout por administradores de grupo {#layout-template-management-by-group-administrators}
 
-Estamos introduzindo o novo conceito de **Grupo com Acesso de Administração** que você pode associar a um Modelo de layout.
+Estamos introduzindo o novo conceito de **Grupo com Acesso de Administração** que você pode associar a um Modelo de Layout.
 
 O usuário designado como administrador de grupo neste grupo tem acesso para gerenciar esse Modelo de layout e criar novos Modelos de layout onde os grupos gerenciados são os grupos administrativos dos modelos. 
 
@@ -97,11 +97,11 @@ Como um Gerente de recursos, agora é possível adicionar Conjuntos de recursos 
 
 Antes dessa alteração, você poderia exibir as informações de orçamento de recursos no Business Case se o projeto tivesse sido orçado para recursos no Planejador de recursos global.
 
-Para obter mais informações sobre como concluir o orçamento dos recursos do projeto no Business Case, consulte [Recursos de orçamento no Business Case](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Para obter mais informações sobre como concluir o orçamento de recursos do projeto no Business Case, consulte [Recursos de orçamento no Business Case](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Visualização no Planejador de recursos - Gráfico de alocação de usuários {#visualization-in-the-resource-planner-user-allocation-chart}
 
-Agora você pode exibir a Alocação planejada geral de todos os usuários em relação à sua disponibilidade em um gráfico no Planejador de recursos. O gráfico está disponível ao selecionar **Visualizar por usuário** no Planejador de recursos.
+Agora você pode exibir a Alocação planejada geral de todos os usuários em relação à sua disponibilidade em um gráfico no Planejador de recursos. O gráfico estará disponível quando você selecionar **Exibir por Usuário** no Planejador de Recursos.
 
 O gráfico exibe as seguintes informações:
 
@@ -130,26 +130,26 @@ Várias melhorias estão disponíveis na área da Página inicial, incluindo:
 
 * Depois de clicar em &quot;Trabalhar nisso&quot; em uma solicitação, os campos associados ao problema são exibidos no painel direito.
 
-  Para obter mais informações sobre como trabalhar em solicitações na área Página inicial, consulte [Gerenciar solicitações de trabalho e de equipe na área Página inicial](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) in [Gerenciar solicitações de trabalho e de equipe na área Página inicial](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+  Para obter mais informações sobre como trabalhar nas solicitações da Área inicial, consulte [Gerenciar solicitações de trabalho e de equipe na Área inicial](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) em [Gerenciar solicitações de trabalho e de equipe na Área inicial](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
 * Aponte para um avatar do usuário em um item de trabalho no painel esquerdo para exibir o nome do usuário.
 * Expanda a área &quot;Atrasado&quot; no painel esquerdo para exibir todos os itens atrasados (quando essa área for recolhida, somente os primeiros 5 itens serão exibidos).
 * Depois de marcar um item como Concluído, ele permanece no painel esquerdo até que você selecione outro item.\
-  Para obter informações sobre como mostrar itens concluídos, consulte [Exibir itens na Lista de trabalho na área Página inicial](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) in [Exibir itens na Lista de trabalho na área Página inicial](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Para obter informações sobre como mostrar itens concluídos, consulte [Exibir itens na Lista de Trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) em [Exibir itens na Lista de Trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-Para obter mais informações sobre como usar a nova área Página inicial, bem como informações que descrevem as diferenças na funcionalidade entre Meu trabalho e Página inicial, consulte [Usar a área Início](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Para obter mais informações sobre como usar a nova área Página inicial, bem como informações que descrevem as diferenças de funcionalidade entre Meu Trabalho e Página Inicial, consulte [Usar a área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Novas melhorias do visualizador de provas  {#new-proofing-viewer-improvements}
 
-* [Layout e design aprimorados](#improved-layout-and-design)
-* [Pesquisar comentários por número do comentário](#search-comments-by-comment-number)
-* [Opção para editar comentário ao lado do indicador de marcação](#option-to-edit-comment-next-to-the-markup-indicator)
+* [Layout e Design Aprimorados](#improved-layout-and-design)
+* [Pesquisar comentários por número de comentário](#search-comments-by-comment-number)
+* [Opção para Editar Comentário ao lado do Indicador de Marcação](#option-to-edit-comment-next-to-the-markup-indicator)
 * [Marcar todos os comentários como lidos](#mark-all-comments-as-read)
 * [Melhorias no menu esquerdo](#left-menu-improvements)
 
 ### Layout e design aprimorados {#improved-layout-and-design}
 
-O revisor de provas tem uma aparência atualizada. As seguintes áreas do revisor de provas foram atualizadas:
+O revisor de provas tem uma aparência atualizada. A variável  as seguintes áreas do revisor de provas foram atualizadas:
 
 * Área de miniaturas
 

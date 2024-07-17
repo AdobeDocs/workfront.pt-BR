@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Aprimoramentos do administrador
 
-Esta página descreve todas as melhorias de Administrador feitas com a versão 22.3 no ambiente de Pré-visualização. Essas melhorias foram disponibilizadas na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte [Visão geral da versão 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página descreve todas as melhorias de Administrador feitas com a versão 22.3 no ambiente de Pré-visualização. Essas melhorias foram disponibilizadas na semana de 11 de julho de 2022. Para obter uma lista de todas as alterações disponíveis com a versão 22.3, consulte a [Visão geral da versão 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integrar o Adobe Workfront com o JumpSeat
 
@@ -31,11 +31,11 @@ Agora você pode editar as seguintes configurações de prova na Área de config
 
 * Configurações de decisão da prova
 
-Para obter mais informações, consulte [Definir configurações padrão de prova](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Para obter mais informações, consulte [Definir configurações de prova padrão](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Usar status desbloqueados em um processo de aprovação
 
-**Nota:** Removido da versão de Produção 22.3. O lançamento desse recurso está planejado para a produção em 15 de setembro de 2022.
+**Observação:** removido da versão de Produção 22.3. O lançamento desse recurso está planejado para a produção em 15 de setembro de 2022.
 
 Para oferecer mais controle sobre os processos de aprovação e os status no sistema, possibilitamos a criação de um processo de aprovação com base em um status de sistema desbloqueado. Além disso, agora é possível desbloquear qualquer status que já seja usado em um processo de aprovação.
 
@@ -94,13 +94,13 @@ Como administrador de sistema ou de grupo, agora é possível controlar se os us
 
 A nova configuração é &quot;Permitir que usuários criem projetos sem usar um modelo&quot; e está habilitada por padrão.
 
-**Nota:** Os usuários ainda podem converter uma tarefa em um projeto em branco.
+**Observação:** os usuários ainda podem converter uma tarefa em um projeto em branco.
 
-Para obter mais informações, consulte [Configurar preferências de projeto em todo o sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obter mais informações, consulte [Configurar preferências de projeto do sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Desativar um grupo na página Grupos
 
-Recentemente, adicionamos a capacidade de desativar e reativar grupos. Para tornar essa ação mais rápida e fácil, a adicionamos à página de um grupo. Agora, depois de clicar no nome de um grupo para ir para a página dele, você pode selecionar o menu Mais ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) ao lado do nome do grupo, selecione Desativar ou Reativar.
+Recentemente, adicionamos a capacidade de desativar e reativar grupos. Para tornar essa ação mais rápida e fácil, a adicionamos à página de um grupo. Agora, depois de clicar no nome de um grupo para ir para sua página, você pode selecionar o menu Mais ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) ao lado do nome do grupo e selecionar Desativar ou Reativar.
 
 Anteriormente, só era possível desativar ou reativar um grupo usando a caixa de seleção Está ativo na página Detalhes.
 

@@ -20,7 +20,7 @@ ht-degree: 6%
 
 <!--Audited: 12/2023-->
 
-Kickstarts são pastas de trabalho do Excel especialmente formatadas que você pode preencher com dados que deseja importar para o Workfront. O Adobe Workfront fornece um modelo de Início que você pode usar para fazer isso, conforme explicado em [Importador de dados Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kickstarts são pastas de trabalho do Excel especialmente formatadas que você pode preencher com dados que deseja importar para o Workfront. A Adobe Workfront fornece um modelo de Início que você pode usar para fazer isso, conforme explicado em [Importador de dados de Início](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 Esse processo é dividido em três tarefas principais:
 
@@ -81,11 +81,11 @@ Para exportar um modelo do Kickstart:
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. Clique em **Sistema** > **Importar dados (Kick-Starts)**.
+1. Clique em **Sistema** > **Importar Dados (Kick-Starts)**.
 
 1. Selecione os tipos de informações que deseja incluir.
 
-   Cada opção selecionada representa uma coleção de várias guias na planilha exportada. Por exemplo, se você selecionar a variável **Relatório** , todos os objetos necessários para criar um relatório serão incluídos na planilha (exibições, filtros, agrupamentos, relatórios).
+   Cada opção selecionada representa uma coleção de várias guias na planilha exportada. Por exemplo, se você selecionar a opção **Relatório**, todos os objetos necessários para criar um relatório serão incluídos na planilha (exibições, filtros, agrupamentos, relatórios).
 
    Você pode usar todos os tipos de objetos listados abaixo para importar dados para o Workfront. (A única exceção é a opção Níveis de Acesso. A data sheet Níveis de acesso em uma exportação é fornecida para fins de referência; ela permite que você atribua um nível de acesso a uma nova conta de usuário por ID.)
 
@@ -99,7 +99,7 @@ Para exportar um modelo do Kickstart:
      <tr> 
       <th> <p><strong>Objeto</strong> </p> </th> 
       <th> <p><strong>Exporta como</strong> </p> </th> 
-      <th> <p><strong>Planilhas na planilha exportada</strong> </p> </th> 
+      <th> <p><strong>Planilha exportada</strong> </p> </th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -140,7 +140,7 @@ Para exportar um modelo do Kickstart:
      </tr> 
      <tr> 
       <td> <p>Usuário</p> </td> 
-      <td> <p>Exporta como arquivo do Excel. Para ver a lista completa de opções, clique em <strong>Mais opções</strong>.</p> </td> 
+      <td> <p>Exporta como arquivo do Excel. Para ver a lista completa de opções, clique em <strong>Mais Opções</strong>.</p> </td> 
       <td> <p>Usuário</p> <p>Preferências</p> </td> 
      </tr> 
      <tr> 
@@ -279,7 +279,7 @@ Para exportar um modelo do Kickstart:
    </table>
 
 1. Clique em **Baixar**.
-1. Continuar com [Preencha o modelo de planilha com seus dados](#populate-the-spreadsheet-template-with-your-data) para preencher a planilha de modelo em branco com suas informações.
+1. Continue com [Preencha o modelo de planilha com seus dados](#populate-the-spreadsheet-template-with-your-data) para preencher a planilha de modelo em branco com suas informações.
 
 ## Preencha o modelo de planilha com seus dados {#populate-the-spreadsheet-template-with-your-data}
 
@@ -309,28 +309,28 @@ Quando você abre uma dessas guias, a linha 2 exibe os campos para cada objeto q
 >
 >     No entanto, se um campo obrigatório contiver um valor padrão definido nas preferências do sistema, não será necessário preenchê-lo.
 >
->     Por exemplo, no campo **Projeto PROJ** , a guia **setCondition** e **setConditionType** os campos podem ficar vazios, mas a variável **setGroupID** e **setName** colunas não podem.
+>     Por exemplo, na guia **Projeto PROJ**, os campos **setCondition** e **setConditionType** podem ficar vazios, mas as colunas **setGroupID** e **setName** não podem.
 >
->* Determinados domínios, incluindo **setResourceRevenue** e **setEnteredByID**, são gerados automaticamente pelo sistema. Se você inserir dados para esses campos na planilha, o processo de início os substituirá quando você fizer upload da planilha.
+>* Determinados campos, incluindo **setResourceRevenue** e **setEnteredByID**, são gerados automaticamente pelo sistema. Se você inserir dados para esses campos na planilha, o processo de início os substituirá quando você fizer upload da planilha.
 
 ### Importar um registro  {#import-a-record}
 
 Cada linha da planilha corresponde a um objeto exclusivo.
 
-1. Adicionar informações no **isNew** coluna:
+1. Adicionar informações na coluna **isNew**:
 
    * Se o objeto que você está importando for novo, digite **TRUE** para importar os dados na linha. Esse valor diferencia maiúsculas de minúsculas e sempre deve estar em letras maiúsculas
-   * Se o objeto já estiver na Workfront, digite **FALSO** no **isNew** para ignorar a linha. Esse valor diferencia maiúsculas de minúsculas e sempre deve estar em letras maiúsculas
+   * Se o objeto já estiver na Workfront, digite **FALSE** na coluna **isNew** para ignorar a linha. Esse valor diferencia maiúsculas de minúsculas e sempre deve estar em letras maiúsculas
 
       * Os registros que já existem no Workfront não são atualizados.
-      * Se você baixou um modelo com dados do Workfront, os objetos existentes já estão marcados com **FALSO**.
+      * Se você baixou um modelo com dados do Workfront, os objetos existentes já estão marcados com **FALSE**.
       * Se você baixou um modelo em branco, não é necessário adicionar novas linhas para objetos existentes.
 
-1. Adicionar informações no **ID** de uma das seguintes formas:
+1. Adicione informações na coluna **ID** de uma das seguintes maneiras:
 
-   * Se o objeto que você está importando for novo (e você digitou **TRUE** no **isNew** ), digite qualquer número para a ID. Esse número deve ser exclusivo na planilha. Por exemplo, se você importar três objetos, poderá fornecer a eles a ID 1, 2, 3, respectivamente.
+   * Se o objeto que você está importando for novo (e você digitou **TRUE** na coluna **isNew**), digite qualquer número para a ID. Esse número deve ser exclusivo na planilha. Por exemplo, se você importar três objetos, poderá fornecer a eles a ID 1, 2, 3, respectivamente.
 
-   * Se o objeto já existir no Workfront (e **FALSO** está na **isNew** e você estiver importando novas informações sobre objetos existentes, a ID deverá ser o GUID alfanumérico que existe no Workfront para esse objeto.
+   * Se o objeto já existir no Workfront (e **FALSE** estiver na coluna **isNew**) e você estiver importando novas informações sobre objetos existentes, a ID deverá ser o GUID alfanumérico que existe no Workfront para esse objeto.
 
    >[!TIP]
    >
@@ -338,29 +338,29 @@ Cada linha da planilha corresponde a um objeto exclusivo.
 
    * Os registros que já existem no Workfront não são atualizados.
    * Se você baixou um modelo com dados, os objetos existentes já contêm o GUID como a ID.
-   * Você pode importar um novo objeto com base em um objeto existente alterando **FALSO** para **TRUE** no **isNew** , alterando a ID e fazendo os ajustes de dados necessários antes da importação.
+   * Você pode importar um novo objeto com base em um objeto existente alterando **FALSE** para **TRUE** na coluna **isNew**, alterando a ID e fazendo os ajustes de dados necessários antes da importação.
 
-   ![ID de exemplo para um grupo](assets/kick-start-group-example.png)
+   ![ID de exemplo para um Grupo](assets/kick-start-group-example.png)
 
    * Ao importar um projeto, você deve indicar uma ID de grupo.
 
-      * Se o grupo já existir no Workfront, você deverá adicionar seu identificador exclusivo à **setGroupID** para o projeto.
-      * Se o grupo não existir no Workfront, você poderá adicionar a variável **Grupo do GRUPO** para o arquivo de importação, defina o **isNew** campo para **TRUE** na planilha Grupo e indique uma ID numérica para o novo grupo na **ID** coluna. A variável **setGroupID** o campo do novo projeto deve corresponder ao campo numérico **ID** para o novo grupo.
+      * Se o grupo já existir no Workfront, você deverá adicionar sua ID exclusiva ao campo **setGroupID** para o projeto.
+      * Se o grupo não existir no Workfront, você poderá adicionar a planilha **Grupo** ao arquivo de importação, definir o campo **isNew** como **TRUE** na planilha Grupo e indicar uma ID numérica para o novo grupo na coluna **ID**. O campo **setGroupID** do novo projeto deve corresponder à **ID** numérica do novo grupo.
 
-     **Exemplo:** Para um projeto, o valor exibido na variável **setGroupID** deve ser uma das seguintes:
+     **Exemplo:** Para um projeto, o valor exibido na coluna **setGroupID** deve ser um dos seguintes:
 
       * O GUID para um Grupo existente na sua instância do Workfront
-      * O valor (número) na coluna ID no **Grupo do GRUPO** se você estiver criando um novo Grupo durante a importação
+      * O valor (número) na coluna ID da planilha **Grupo** se você estiver criando um novo Grupo durante a importação
 
 1. Insira valores para os campos obrigatórios e quaisquer outros campos que você deseja preencher durante a importação.
 1. (Opcional) Para adicionar dados personalizados:
 
    * Crie uma nova coluna para cada campo personalizado que deseja incluir no processo de importação.
-   * Nomeie cada nova coluna para seu campo personalizado correspondente da seguinte maneira: **DE:[Nome do campo personalizado conforme exibido no Workfront]**. Por exemplo, você pode criar o seguinte campo personalizado: &quot;DE: Departamentos&quot;.
-   * Na coluna **setCategoryID**, digite a GUID do formulário personalizado existente no qual este campo personalizado reside. Esse campo é necessário ao importar dados personalizados.
+   * Nomeie cada nova coluna para seu campo personalizado correspondente da seguinte maneira: **DE:[Nome do campo personalizado como ele aparece no Workfront]**. Por exemplo, você pode criar o seguinte campo personalizado: &quot;DE: Departamentos&quot;.
+   * Na coluna **setCategoryID**, digite o GUID do formulário personalizado existente no qual este campo personalizado reside. Esse campo é necessário ao importar dados personalizados.
    * Se precisar adicionar vários valores de dados no campo personalizado (como botões de opção, caixas de seleção ou listas), use o delimitador de dados personalizado da barra vertical &quot;|&quot; listado na guia Preferências para separar os valores.
 
-     **Exemplo:** Digite A|D na coluna DE:Departamentos para preencher o departamento A e o departamento D no formulário personalizado.
+     **Exemplo:** Digite A|D na coluna DE:Departamentos para preencher os departamentos A e D no formulário personalizado.
 
 ### Incluir datas  {#include-dates}
 
@@ -403,44 +403,44 @@ Você pode usar os seguintes curingas ao preencher sua planilha de modelo do Kic
  <tbody> 
   <tr> 
    <td> <p>$$TODAY</p> </td> 
-   <td> <p>Quando usado em um <strong>setDate</strong> , esse curinga definirá a data como meia-noite no dia em que você importar o Kick-Start.</p> <p>Você pode modificar o curinga usando a sintaxe padrão permitida com o curinga em um filtro.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Se quiser que um projeto seja iniciado na segunda-feira da semana em que é importado, independentemente do dia em que você realmente executa a importação, você poderá usar <strong>$$TODAYbw</strong>. Isso define a data de início planejada do seu projeto como 12h de domingo. Como o cronograma do projeto provavelmente não permite o trabalho nesse momento, ele começará às 9:00 da manhã de segunda-feira.</p> </td> 
+   <td> <p>Quando usado em um campo <strong>setDate</strong>, este curinga define a data como meia-noite do dia em que você importa o Kick-Start.</p> <p>Você pode modificar o curinga usando a sintaxe padrão permitida com o curinga em um filtro.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Se quiser que um projeto inicie na segunda-feira da semana em que é importado, independentemente do dia em que você realmente realizar a importação, você poderá usar <strong>$$TODAYbw</strong>. Isso define a data de início planejada do seu projeto como 12h de domingo. Como o cronograma do projeto provavelmente não permite o trabalho nesse momento, ele começará às 9:00 da manhã de segunda-feira.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
-   <td> <p>Quando usado em um <strong>setDate</strong> , esse curinga definirá a data de acordo com o momento em que você criar o registro durante a importação do Kick-Start.</p> <p>Você pode modificar o curinga usando a sintaxe padrão permitida com o curinga em um filtro.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Se quiser que um projeto seja iniciado 3 horas após sua importação, use <strong>$$AGORA+3h</strong>.</p> </td> 
+   <td> <p>Quando usado em um campo <strong>setDate</strong>, este curinga define a data de acordo com o momento em que você cria o registro durante a importação do Kick-Start.</p> <p>Você pode modificar o curinga usando a sintaxe padrão permitida com o curinga em um filtro.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Se quiser que um projeto seja iniciado 3 horas após ser importado, você poderá usar <strong>$$NOW+3h</strong>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
-   <td> <p>Quando usado em um <strong>setAssignedToID</strong> ou outro campo baseado em ID de usuário, esse curinga atribui o trabalho ou associa o registro ao indivíduo que executa a importação.</p> </td> 
+   <td> <p>Quando usado em um <strong>setAssignedToID</strong> ou outro campo baseado em userID, esse curinga atribui o trabalho ou associa o registro ao indivíduo que está executando a importação.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>Este curinga foi adicionado especificamente para importações de usuário do Kickstart. Quando uma conta do Workfront é criada, um usuário com nível de acesso de Administrador do sistema é criado. O nome de usuário atribuído ao administrador padrão pode ser usado como um prefixo ao criar outros usuários na conta.</p> <p>Como os nomes de usuários devem ser exclusivos em todos os clientes, isso é útil quando você tem vários indivíduos com nomes de usuários muito comuns, como John Smith, que podem ter um nome de usuário "jsmith". Ao anexar a atribuição do nome de usuário ao nome de usuário do administrador padrão, você garante que cada nome de usuário seja exclusivo (por exemplo: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Dica: uma maneira mais elegante de garantir que os nomes de usuários sejam exclusivos em todo o sistema é inserir o endereço de email do indivíduo na <strong>setUsername</strong> campo.</p> </td> 
+   <td> <p>Este curinga foi adicionado especificamente para importações de usuário do Kickstart. Quando uma conta do Workfront é criada, um usuário com nível de acesso de Administrador do sistema é criado. O nome de usuário atribuído ao administrador padrão pode ser usado como um prefixo ao criar outros usuários na conta.</p> <p>Como os nomes de usuários devem ser exclusivos em todos os clientes, isso é útil quando você tem vários indivíduos com nomes de usuários muito comuns, como John Smith, que podem ter um nome de usuário "jsmith". Ao anexar a atribuição do nome de usuário ao nome de usuário do administrador padrão, você garante que cada nome de usuário seja exclusivo (por exemplo: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Dica: uma maneira mais elegante de garantir que os nomes de usuários sejam exclusivos em todo o sistema é inserir o endereço de email do indivíduo no campo <strong>setUsername</strong>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Substituição de nome de atributo para IDs  {#attribute-name-substitution-for-ids}
 
-Embora seja uma prática recomendada usar IDs sempre que possível, às vezes é inconveniente usar IDs de referência cruzada de uma planilha para outra ao definir uma **setAttributeID** valor. Você pode fazer referência a valores por nome simplesmente alterando o cabeçalho da coluna.
+Embora seja uma prática recomendada usar IDs sempre que possível, às vezes é inconveniente usar IDs de referência cruzada de uma planilha para outra ao definir um valor de **setAttributeID**. Você pode fazer referência a valores por nome simplesmente alterando o cabeçalho da coluna.
 
 **Exemplos:**
 
-* **Importação de projeto**
+* **Importação do projeto**
 
-  Ao importar projetos, defina as **setGroupID** dos projetos, acessando a página **Grupo do GRUPO** planilha, anotando as respectivas IDs de Grupo e colando-as nas células corretas (**setGroupID** coluna) no **Projeto PROJ** planilha.
+  Ao importar projetos, defina a **setGroupID** dos projetos, acessando a planilha **Grupo de Grupos**, anotando as respectivas IDs de Grupos e colando-as nas células corretas (**setGroupID** coluna) na planilha **Projeto PROJ**.
 
   Isso é viável ao trabalhar com apenas alguns grupos e projetos, mas se você estiver trabalhando com vários de cada um, não é prático.
 
-  Para fazer a Substituição de Nome de Atributo para o exemplo descrito acima, altere a variável **setGroupID** cabeçalho da coluna para **#setGroupID GROUP name**. Em seguida, você pode fazer referência a cada grupo do projeto por nome.
+  Para fazer a Substituição de Nome de Atributo para o exemplo descrito acima, altere o cabeçalho da coluna **setGroupID** para **#setGroupID GROUP name**. Em seguida, você pode fazer referência a cada grupo do projeto por nome.
 
   >[!NOTE]
   >
   >A opção para usar a Substituição de Nome de Atributo está limitada a referências somente para registros existentes. Não é possível usar a substituição de nome para objetos que você está criando na mesma importação.
 
-* **Importação de usuários**
+* **Importação de usuário**
 
-  Ao importar usuários, preencha o **setRoleID** de uma lista de funções no **Função Função** guia.
+  Ao importar usuários, preencha o **setRoleID** de uma lista de funções na guia **Função**.
 
   Algumas IDs de função são para registros que já existem na conta, e outras estão sendo criadas durante a importação.
 
@@ -448,13 +448,13 @@ Embora seja uma prática recomendada usar IDs sempre que possível, às vezes é
 
   Veja como usar ambos os métodos no mesmo arquivo de importação:
 
-   * Adicione uma coluna na planilha à esquerda do **setRoleID** coluna.
+   * Adicione uma coluna na planilha à esquerda da coluna **setRoleID**.
    * Nomeie a nova coluna **#setRoleID ROLE name**.
-   * Para atribuições de funções a registros existentes, insira os nomes das funções no **#setRoleID ROLE name** coluna.
+   * Para atribuições de função a registros existentes, insira os nomes de função na coluna **#setRoleID ROLE name**.
 
      Para atribuições de funções a novos registros de funções, insira a ID que você atribuiu na planilha Função Função do setRoleID.
 
-     ![ID de função para usuários](assets/set-role-id.png)
+     ![ID de Função para usuários](assets/set-role-id.png)
 
 ## Importar os dados da planilha para o Workfront
 
@@ -482,9 +482,9 @@ Para importar os dados da planilha do modelo para o Workfront:
 
 {{step-1-to-setup}}
 
-1. Clique em **Sistema** > **Importar dados (Kick-Starts)**.
+1. Clique em **Sistema** > **Importar Dados (Kick-Starts)**.
 
-1. No **Carregar dados com a planilha do Kickstart** clique em **Escolher arquivo**, em seguida, navegue até a planilha preenchida e selecione-a.
+1. Na seção **Carregar dados com planilha do Kickstart**, clique em **Escolher Arquivo**, procure e selecione a planilha preenchida.
 
 1. Clique em **Carregar.**
 

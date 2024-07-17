@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro do [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta seção contém os seguintes artigos:
 
-* [[!UICONTROL Prova tardia] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
-* [[!UICONTROL Nova prova] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
-* [A variável [!UICONTROL Nova versão] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
-* [A variável [!UICONTROL Prova feita] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+* [[!UICONTROL Email de prova atrasada]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
+* [[!UICONTROL Novo email de prova]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
+* [O email [!UICONTROL Nova Versão]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
+* [O email [!UICONTROL Prova feita]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

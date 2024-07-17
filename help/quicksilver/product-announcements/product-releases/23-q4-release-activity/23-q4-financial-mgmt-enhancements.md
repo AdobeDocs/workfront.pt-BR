@@ -26,6 +26,6 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 As taxas de custo e cobrança com data efetiva estão agora disponíveis nos objetos de empresa, usuário e função de trabalho na Workfront. Quando taxas de efetivação de data são aplicadas a um projeto e horas são registradas em tarefas do projeto, os custos e a receita são calculados usando as taxas especificadas para cada período.
 
-Para obter mais informações, consulte [Editar o perfil de um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), e [Visão geral de faturamento e receita](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Para obter mais informações, consulte [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) e [Visão Geral de Faturamento e Receita](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424915/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3424915/){target=_blank}

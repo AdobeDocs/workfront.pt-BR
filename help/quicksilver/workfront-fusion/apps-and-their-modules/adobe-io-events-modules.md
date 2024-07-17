@@ -47,9 +47,9 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
-&#42;&#42;Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [Licenças do Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [licenças do Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Pré-requisitos
 
@@ -89,11 +89,11 @@ Para criar uma conexão para os módulos de Eventos Adobe I/O:
       </tr>
       <tr>
         <td role="rowheader">ID do cliente</td>
-        <td>Insira a ID do cliente do Adobe. Isso pode ser encontrado na seção Detalhes das credenciais da Console da Adobe Developer</td>
+        <td>Insira a ID do cliente do Adobe. Isso pode ser encontrado na seção Detalhes das credenciais do Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Segredo do cliente</td>
-        <td>Insira o segredo do cliente do Adobe. Isso pode ser encontrado na seção Detalhes das credenciais da Console da Adobe Developer</td>
+        <td>Insira o segredo do cliente do Adobe. Isso pode ser encontrado na seção Detalhes das credenciais do Adobe Developer Console</td>
       </tr>
       </tr>
         <tr>
@@ -106,15 +106,15 @@ Para criar uma conexão para os módulos de Eventos Adobe I/O:
       </tr>
       <tr>
         <td role="rowheader">IMS organization ID</td>
-        <td>Insira a ID da organização do Adobe. Isso pode ser encontrado na seção Detalhes das credenciais da Console da Adobe Developer</td>
+        <td>Insira a ID da organização do Adobe. Isso pode ser encontrado na seção Detalhes das credenciais do Adobe Developer Console</td>
       </tr>
         <tr>
         <td role="rowheader">ID do Projeto</td>
         <td>Insira a ID do projeto. Isso pode ser encontrado no URL da credencial do projeto: <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">ID do espaço de trabalho</td>
-        <td>Para exibir a ID do espaço de trabalho do seu projeto, baixe os detalhes do projeto na página de visão geral do projeto no Console do Adobe Developer. </td>
+        <td role="rowheader">WORKSPACE ID</td>
+        <td>Para exibir a Workspace ID do seu projeto, baixe os detalhes do projeto na página Visão geral do projeto no Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
@@ -123,9 +123,9 @@ Para criar uma conexão para os módulos de Eventos Adobe I/O:
 
 ## Módulos de eventos Adobe I/O e seus campos
 
-Ao configurar [!DNL Adobe I/O Events] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Adobe I/O Events] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL Adobe I/O Events], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL Adobe I/O Events] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -154,7 +154,7 @@ Para criar um webhook:
        </tr>
        <tr>
          <td role="rowheader">[!UICONTROL Conexão]</td>
-        <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe I/O Events], consulte <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe I/O Events]</a> neste artigo.</td>
+        <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe I/O Events], consulte <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Criar uma conexão com [!DNL Adobe I/O Events]</a> neste artigo.</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -197,7 +197,7 @@ Este módulo de pesquisa recupera todos os eventos de um registro de um journal.
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Conexão]</td>
-        <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe I/O Events], consulte <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe I/O Events]</a> neste artigo.</td>
+        <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe I/O Events], consulte <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Criar uma conexão com [!DNL Adobe I/O Events]</a> neste artigo.</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -242,7 +242,7 @@ Este módulo de pesquisa recupera todos os eventos de um registro de um journal.
 
 #### Fazer uma chamada de API personalizada
 
-Esse módulo de ação faz uma chamada de API personalizada para o [!DNL Adobe I/O Events] API
+Este módulo de ação faz uma chamada de API personalizada para a API [!DNL Adobe I/O Events]
 
 <table>
   <col/>
@@ -250,7 +250,7 @@ Esse módulo de ação faz uma chamada de API personalizada para o [!DNL Adobe I
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Conexão]</td>
-        <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe I/O Events], consulte <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe I/O Events]</a> neste artigo.</td>
+        <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe I/O Events], consulte <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Criar uma conexão com [!DNL Adobe I/O Events]</a> neste artigo.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -284,7 +284,7 @@ Esse módulo de ação faz uma chamada de API personalizada para o [!DNL Adobe I
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Corpo]</td>
-   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar declarações condicionais como <code>if</code> no JSON, coloque as aspas fora da declaração condicional.</p> 
+   <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar instruções condicionais como <code>if</code> em seu JSON, coloque as aspas fora da instrução condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -303,7 +303,7 @@ Esse módulo de pesquisa obtém as IDs de eventos de Adobe I/O para o provedor e
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Conexão]</td>
-        <td>Para obter instruções sobre como criar uma conexão com o [!DNL Adobe I/O Events], consulte <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Criar uma conexão com o [!DNL Adobe I/O Events]</a> neste artigo.</td>
+        <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe I/O Events], consulte <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Criar uma conexão com [!DNL Adobe I/O Events]</a> neste artigo.</td>
        </tr>
        <tr>
          <td role="rowheader">

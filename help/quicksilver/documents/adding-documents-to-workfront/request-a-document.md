@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '396'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p> Qualquer Um</p> </td> 
+   <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças da Adobe Workfront*</td> 
@@ -40,13 +40,13 @@ Você deve ter o seguinte:
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Solicitar um documento
 
 1. Vá para a área onde deseja que o documento que está solicitando resida.
-1. Clique em **Documentos** guia. 
-1. Clique em **Adicionar novo** menu suspenso.
+1. Clique na guia **Documentos**. 
+1. Clique no menu suspenso **Adicionar novo**.
 
 1. Clique em **Solicitar um documento**.
 
@@ -58,7 +58,7 @@ Você deve ter o seguinte:
 
    >[!NOTE]
    >
-   >Se você tiver o [Visão geral das licenças herdadas](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) ativado em sua conta, você pode enviar uma solicitação para qualquer endereço de email. Há uma configuração na variável [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) que determina se esses usuários de email externos precisam ou não criar uma senha antes de interagir com o Workfront. 
+   >Se você tiver a [visão geral das licenças herdadas](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) habilitada em sua conta, poderá enviar uma solicitação para qualquer endereço de email. Há uma configuração em [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) que determina se esses usuários de email externos precisam ou não criar uma senha antes de interagir com o Workfront. 
 
 1. Descreva o motivo pelo qual você está solicitando o documento.
 1. Clique em **Enviar solicitação**.
@@ -69,6 +69,6 @@ Você deve ter o seguinte:
 
    Você pode clicar no link encontrado na notificação por email e, em seguida, fazer upload do documento. Ou clique na notificação no aplicativo. Cada opção direciona você para a página de perfil do usuário, onde é possível fazer upload do documento solicitado.
 
-1. Após carregar o documento, a pessoa que solicitou o documento poderá acessá-lo em seu **Documentos** área.
+1. Após carregar o documento, a pessoa que o solicitou poderá acessá-lo em sua área pessoal **Documentos**.
 
-   Você pode acessar seu **Documentos** clicando na imagem de perfil do usuário no canto superior direito de qualquer página do Workfront, clicando no nome e, em seguida, no link **Documentos** guia.
+   Você pode acessar sua área pessoal de **Documentos** clicando na imagem de perfil de usuário no canto superior direito de qualquer página do Workfront, clicando no seu nome e, em seguida, clicando na guia **Documentos**.

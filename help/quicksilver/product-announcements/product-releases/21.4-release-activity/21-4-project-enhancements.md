@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Project com a versão 21.4 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 4 de outubro de 2021.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte [21.4 Visão geral da versão](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 21.4, consulte a [Visão geral da versão 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Incluir imagens em atualizações
 
@@ -29,7 +29,7 @@ Anteriormente, a única maneira de compartilhar uma imagem no Workfront era anex
 
 Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Antes que os usuários do Workfront possam incluir imagens em atualizações, esse recurso deve ser primeiro ativado pelo administrador do Adobe Workfront, conforme descrito em [Configurar preferências para atualizações de usuário](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Antes que os usuários do Workfront possam incluir imagens em atualizações, esse recurso deve primeiro ser habilitado pelo administrador do Adobe Workfront, conforme descrito em [Configurar preferências para atualizações de usuário](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
 ## Algoritmo atualizado para atribuições inteligentes
 
@@ -48,7 +48,7 @@ Para tornar seu uso do Workfront consistente com a nova experiência do Workfron
 
 Atualizamos a interface para criar o projeto ao criá-lo a partir da área Projetos e da área Modelos.
 
-Para obter informações, [Criar um projeto usando um modelo](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Para obter informações, [Crie um projeto usando um modelo](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Nova experiência ao anexar modelos a projetos
 
@@ -97,5 +97,5 @@ Isso depende de como você posiciona os campos no formulário personalizado. Se 
 
 Para obter informações sobre como preencher um formulário personalizado, consulte [Editar informações em campos de formulário personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-Para obter informações sobre como criar um campo de caixa de seleção ou botão de opção em um formulário personalizado, consulte as seções [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) e [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) no artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obter informações sobre como criar uma caixa de seleção ou um campo de botão de opção em um formulário personalizado, consulte as seções [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) e [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) no artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -48,7 +48,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+&#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
 
 ## Considerações sobre o uso da lógica de exibição e da lógica de salto
 
@@ -78,18 +78,18 @@ A melhor maneira de aprender a adicionar lógica de exibição e salto a um form
 
 ### Lógica de exibição {#display-logic}
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. No painel esquerdo, clique em **Forms personalizado**.
+1. No painel esquerdo, clique em **Forms Personalizado**.
 
 1. Crie o exemplo de formulário personalizado:
 
-   1. Clique em **Novo formulário personalizado** e, em seguida, clique em **Projeto** na lista suspensa.
+   1. Clique em **Novo formulário personalizado** e em **Projeto** na lista suspensa.
 
-   1. No **Título do formulário** caixa, digite **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto**.
+   1. Na caixa **Título do formulário**, digite **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto**.
 
    1. Clique em **Adicionar um campo** no canto superior esquerdo.
-   1. Adicione um campo suspenso chamado *Campo de problema* clicando em **Lista suspensa**, digitando em seguida **Campo de problema** no **Rótulo** caixa.
+   1. Adicione um campo suspenso chamado *Campo de problema* clicando em **Suspenso** e digitando **Campo de problema** na caixa **Rótulo**.
 
    1. Em **Opções**, adicione as seguintes opções nas caixas de texto:
 
@@ -99,43 +99,43 @@ A melhor maneira de aprender a adicionar lógica de exibição e salto a um form
 
    1. Clique em **Salvar + Fechar** no canto inferior esquerdo.
 
-1. Selecione o novo **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto** formulário personalizado e clique em **Editar**.
+1. Selecione o novo formulário personalizado de **Amostra - Lógica de exibição de aprendizado e lógica de salto** formulário personalizado e clique em **Editar**.
 
-1. Adicione um novo campo de texto de linha única chamado *Outras pesquisas* clicando em **Campo de texto de uma linha**, digitando em seguida **Outras pesquisas** no **Rótulo** caixa.
+1. Adicione um novo campo de texto de linha única chamado *Outra Pesquisa* clicando em **Campo de Texto de Linha Única** e digitando **Outra Pesquisa** na caixa **Rótulo**.
 
-1. Clique em **Adicionar Lógica** próximo ao lado inferior esquerdo do **Editar formulário personalizado** tela.
+1. Clique em **Adicionar Lógica** próximo ao lado inferior esquerdo da tela **Editar formulário personalizado**.
 
-1. Na caixa exibida, com a tag **Exibir Lógica** guia, configure a lógica de quando a variável **Outras pesquisas** aparecerá no formulário clicando em **Campo de problema** na primeira lista suspensa, **Pesquisa necessária** na segunda lista suspensa e **Selecionado** na terceira lista suspensa.
-1. Clique em **Salvar** para fechar o **Campo Lógica** e clique em **Concluído** no **Configurações do campo** área.
+1. Na caixa exibida, com a guia **Lógica de Exibição** aberta, configure a lógica de quando o campo **Outra Pesquisa** aparecerá no formulário clicando em **Campo de problema** na primeira lista suspensa, **Pesquisa Necessária** na segunda lista suspensa e **Selecionada** na terceira lista suspensa.
+1. Clique em **Salvar** para fechar a janela **Lógica de Campo** e em **Concluído** na área **Configurações de Campo**.
 
-   Agora, quando alguém seleciona **Pesquisa necessária** no **Campo de problema** , a variável **Outras pesquisas** será exibido.
+   Agora, quando alguém selecionar **Pesquisa necessária** no menu suspenso **Campo de problema**, o campo **Outra pesquisa** será exibido.
 
-1. Clique em **Visualizar** para garantir que a lógica apareça da maneira desejada no formulário.
-1. Clique em **Fechar visualização** quando você descobre que a lógica funciona conforme o esperado.
-1. Clique em **Salvar + Fechar** no **Editar formulário personalizado** para salvar o formulário, continue para [Lógica de salto](#skip-logic) abaixo.
+1. Clique em **Visualizar** para verificar se a lógica aparece da maneira que você deseja no formulário.
+1. Clique em **Finalizar visualização** quando descobrir que a lógica funciona conforme o esperado.
+1. Clique em **Salvar + Fechar** na janela **Editar Formulário Personalizado** para salvar o formulário e continue com a [Lógica de ramificação](#skip-logic) abaixo.
 
 ### Lógica de salto {#skip-logic}
 
 Ignorar funções lógicas de forma semelhante à lógica de exibição, mas age como o inverso: em vez de fazer com que campos específicos personalizados de múltipla escolha apareçam com base em seleções específicas, você determina quais deles devem ser ignorados, com base nas seleções dos usuários.
 
-Para saber mais sobre isso, continue trabalhando no exemplo de formulário personalizado criado na seção [Lógica de exibição](#display-logic) neste artigo:
+Para saber mais sobre isso, continue trabalhando no exemplo de formulário personalizado que você criou na seção [Lógica de exibição](#display-logic) neste artigo:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Forms personalizado**.
-1. Selecione o formulário **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto** que você criou nas etapas acima, em seguida, clique em **Editar**.
+1. Clique em **Forms Personalizado**.
+1. Selecione o formulário **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto** que você criou nas etapas acima, depois clique em **Editar**.
 
-1. Selecione o campo suspenso chamado *Campo de problema*.
-1. Clique em **Adicionar Lógica** botão na caixa **Configurações do campo** barra lateral.
+1. Selecione o campo suspenso criado chamado *Campo de problema*.
+1. Clique no botão **Adicionar Lógica** na barra lateral **Configurações de Campo**.
 
-1. No **Campo Lógica** , verifique se **Lógica de salto** for selecionada.
+1. Na caixa **Lógica de Campo**, verifique se a guia **Lógica de Ignorar** está selecionada.
 
-1. Defina a primeira lista suspensa como **Sem mais pesquisas** e a segunda lista suspensa para **Selecionado**.
+1. Defina a primeira lista suspensa como **Sem mais pesquisas** e a segunda lista suspensa como **Selecionado**.
 
-1. No **Em Seguida, Pule Para** selecione **Fim do formulário.**
+1. No menu suspenso **Pular para**, selecione **Fim do formulário.**
 
-   Agora, quando alguém seleciona **Sem mais pesquisas** no **Campo de problema** , o formulário pulará diretamente para o final do formulário sem exibir o **Outras pesquisas** campo.
+   Agora, quando alguém selecionar **Nenhuma pesquisa adicional** no campo suspenso **Campo de problema**, o formulário pulará diretamente para o final do formulário sem exibir o campo **Outra Pesquisa**.
 
 1. Clique em **Salvar**.
-1. Clique em **Visualizar**  para garantir que a lógica se aplique da maneira desejada.
+1. Clique em **Visualizar** para verificar se a lógica se aplica da maneira que você deseja.
 1. Clique em **Concluído** no lado inferior esquerdo do formulário.

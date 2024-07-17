@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 
 1. Clique no ativo conectado Frame.io necessário para abrir o painel Resumo do documento.
 
-1. (Opcional) Na **Versão** selecione a versão do ativo para o qual deseja criar uma aprovação. A versão mais recente é selecionada por padrão.
+1. (Opcional) No menu suspenso **Versão**, selecione a versão do ativo para o qual deseja criar uma aprovação. A versão mais recente é selecionada por padrão.
 
-1. Role para baixo até **Aprovações** e clique em **Adicionar**.
+1. Role para baixo até a seção **Aprovações** e clique em **Adicionar**.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
-1. Para adicionar um aprovador, clique no **Aprovador** e comece a digitar um nome de usuário ou de equipe.
+1. Para adicionar um aprovador, clique em **Aprovador** e comece a digitar um nome de usuário ou de equipe.
 
-1. Para adicionar um revisor, clique no botão **Revisor** e comece a digitar o nome de um usuário ou equipe.
+1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -88,9 +88,9 @@ You must have the following access to perform the steps in this article:
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
-1. Para adicionar um aprovador, clique no **Aprovador** e comece a digitar um nome de usuário ou de equipe.
+1. Para adicionar um aprovador, clique em **Aprovador** e comece a digitar um nome de usuário ou de equipe.
 
-1. Para adicionar um revisor, clique no botão **Revisor** e comece a digitar o nome de um usuário ou equipe.
+1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
 
    ![](assets/add-approver-and-deadline.png)
 

@@ -1,6 +1,6 @@
 ---
-title: 'Atividade de lançamento do Workfront Proof: &nbsp;Semana de 29 de novembro de 2021'
-description: 'Atividade de lançamento do Workfront Proof: &nbsp;Semana de 29 de novembro de 2021'
+title: Atividade de lançamento do Workfront Proof:&nbsp;Semana de 29 de novembro de 2021
+description: Atividade de lançamento do Workfront Proof:&nbsp;Semana de 29 de novembro de 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof

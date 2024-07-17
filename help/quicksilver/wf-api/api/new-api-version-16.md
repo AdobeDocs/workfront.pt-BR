@@ -9,7 +9,7 @@ role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de h
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code> e considera o fuso horário.</p>
           </li>
         </ul>
       </td>
@@ -118,7 +118,7 @@ Um objeto de atribuição representa a conexão entre um item de trabalho e o us
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code> e considera o fuso horário.</p>
           </li>
           <li>
             <p><b>isContoured</b>
@@ -169,7 +169,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>nome</b>
             </p>
             <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
@@ -235,9 +235,9 @@ Um objeto Hour representa uma hora registrada por um usuário em uma folha de ho
       <td>
         <ul>
           <li>
-            <p><b>timesheetHourIdentifier</b>
+            <p><b>IdentificadorHorasPlanilhaDeHoras</b>
             </p>
-            <p>Adicionado. Este parâmetro é usado para identificar as horas criadas com <code>batchSave</code>. </p>
+            <p>Adição de. Este parâmetro é usado para identificar as horas criadas com <code>batchSave</code>. </p>
            </li>
         </ul>
       </td>
@@ -289,7 +289,7 @@ Um objeto Note é um comentário ou uma atualização feita em um objeto Workfro
       <td>
         <ul>
           <li>
-            <p><b>anexadosDocumentos</b>
+            <p><b>documentosAnexados</b>
             </p>
             <p>Este campo foi adicionado e representa uma lista de documentos anexados ao comentário.</p>
           </li>
@@ -314,7 +314,7 @@ Um objeto OpTask é comumente conhecido como um Problema. Um problema é um item
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code> e considera o fuso horário.</p>
           </li>
         </ul>
       </td>
@@ -324,9 +324,9 @@ Um objeto OpTask é comumente conhecido como um Problema. Um problema é um item
       <td>
         <ul>
            <li>
-            <p><b>assignMultiple</b>
+            <p><b>atribuirMúltiplo</b>
             </p>
-            <p>Essa ação adicionou o campo <code>teamIDs</code> para oferecer suporte à funcionalidade de atribuir várias equipes a uma tarefa ou problema.</p>
+            <p>Esta ação adicionou o campo <code>teamIDs</code> para oferecer suporte à funcionalidade de atribuir várias equipes a uma tarefa ou problema.</p>
          </li>
         </ul>
       </td>
@@ -439,7 +439,7 @@ Um objeto Tarefa representa um item de trabalho que deve ser executado como uma 
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code> e considera o fuso horário.</p>
           </li>
         </ul>
       </td>
@@ -449,9 +449,9 @@ Um objeto Tarefa representa um item de trabalho que deve ser executado como uma 
       <td>
         <ul>
            <li>
-            <p><b>assignMultiple</b>
+            <p><b>atribuirMúltiplo</b>
             </p>
-            <p>Essa ação adicionou o campo <code>teamIDs</code> para oferecer suporte à funcionalidade de atribuir várias equipes a uma tarefa ou problema.</p>
+            <p>Esta ação adicionou o campo <code>teamIDs</code> para oferecer suporte à funcionalidade de atribuir várias equipes a uma tarefa ou problema.</p>
          </li>
         </ul>
       </td>
@@ -474,17 +474,17 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
            <li>
             <p><b>availableActions</b>
             </p>
-            <p>Esse parâmetro removeu o sinalizador <code>READ_ONLY</code>.</p>
+            <p>Este parâmetro removeu o sinalizador <code>READ_ONLY</code>.</p>
          </li>
            <li>
             <p><b>isEditable</b>
             </p>
-            <p>Esse parâmetro removeu o sinalizador <code>READ_ONLY</code>.</p>
+            <p>Este parâmetro removeu o sinalizador <code>READ_ONLY</code>.</p>
          </li>
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>Esse parâmetro foi adicionado e armazena a duração da folha de horas em dias, independentemente das alterações em "Horas equivalentes para Full Workday".  Por exemplo, se Equivalent Hours (Horas equivalentes) estiver definido como 6 e um dia for registrado, então Equivalent Hours (Horas equivalentes) será alterado para 8 hours (8 horas), <code>totalDays</code> ainda tem um valor de 1.</p>
+            <p>Esse parâmetro foi adicionado e armazena a duração da folha de horas em dias, independentemente das alterações em "Horas equivalentes para Full Workday".  Por exemplo, se as Horas Equivalentes forem definidas como 6 e um dia for registrado, então as Horas Equivalentes serão alteradas para 8 horas, <code>totalDays</code> ainda terá um valor de 1.</p>
          </li>
         </ul>
       </td>
@@ -506,7 +506,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>Esta ação foi adicionada, pega um mapa de consulta de filtro e adiciona o <code>allowingnull</code> junte-se para campos anuláveis.</p>
+            <p>Esta ação foi adicionada, pega um mapa de consulta de filtro e adiciona a junção <code>allowingnull</code> para campos anuláveis.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -514,7 +514,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
@@ -557,7 +557,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
       <td>
         <ul>
           <li>
-            <p><b>layoutType</b>
+            <p><b>tipoLayout</b>
             </p>
             <p>Adição do seguinte valor possível:</p>
             <ul>
@@ -579,7 +579,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
@@ -650,7 +650,7 @@ Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam 
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code> e considera o fuso horário.</p>
           </li>
         </ul>
       </td>

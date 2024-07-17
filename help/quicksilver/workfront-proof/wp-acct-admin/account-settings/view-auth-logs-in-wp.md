@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Exibir logs de autenticação em [!DNL Workfront Proof]
-description: Como um [!DNL Workfront Proof] administrador, você pode exibir as informações de uso de cada usuário que tenha feito logon [!DNL Workfront Proof].
+title: Exibir logs de autenticação em  [!DNL Workfront Proof]
+description: Como administrador [!DNL Workfront Proof] você pode exibir as informações de uso de cada usuário que fez logon [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d458989b-884f-4253-8dc9-9a545377cc63
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre prova dentro de [!DNL Adobe Workfront], consulte [Tofing](../../../review-and-approve-work/proofing/proofing.md).
+>Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-Como um [!DNL Workfront Proof] administrador, você pode exibir as informações de uso de cada usuário que tenha feito logon [!DNL Workfront Proof].
+Como administrador do [!DNL Workfront Proof], você pode exibir as informações de uso de cada usuário que fez logon no [!DNL Workfront Proof].
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Atividade]**.
-1. No **[!UICONTROL Provas e logs de mídia]** , clique em **[!UICONTROL Logs de autenticação]**.
+1. No menu suspenso **[!UICONTROL Provas e logs de mídia]**, clique em **[!UICONTROL Logs de autenticação]**.
 O histórico de logon de cada usuário no sistema é exibido.

@@ -33,7 +33,7 @@ Continue lendo abaixo para obter mais informações sobre os recursos e versões
 * **Funções diferenciadas de revisão e aprovação**\
     Novas aprovações de documentos foram criadas para reconhecer e respeitar as diferentes funções no processo de aprovação. Ao fornecer a capacidade de identificar e designar revisores — usuários notificados para fornecer feedback, mas que não têm autoridade para tomar decisões — a qualidade do feedback é aprimorada, mantendo a clareza da autoridade de aprovação final.
 
-* **Aprovações específicas à versão**\
+* **Aprovações específicas da versão**\
     A natureza iterativa do desenvolvimento de documentos geralmente leva a várias versões do mesmo documento. As novas aprovações de documentos acomodam essa realidade, fornecendo cadeias de aprovação exclusivas para cada versão de um documento. Isso permite que os usuários façam upload de uma nova versão e adicionem novos aprovadores ou revisores, conforme necessário, garantindo que o feedback e a aprovação sejam específicos à versão do documento e eliminando possíveis confusões.
 
 * **Trilhas de auditoria**\
@@ -47,7 +47,7 @@ Se você quiser que o recurso Novas aprovações de documentos esteja ativado em
 
 ## Uso de novas aprovações de documentos
 
-Para usuários que desejam criar ou gerenciar aprovações de documentos, consulte os artigos listados em [Configurar e gerenciar aprovações de ativos e documentos: índice de artigos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Para usuários que desejam criar ou gerenciar aprovações de documentos, consulte os artigos listados em [Configurar e gerenciar aprovações de ativos e documentos: índice do artigo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
 Para usuários que desejam revisar ou aprovar documentos para os quais receberam uma solicitação, consulte os artigos listados em [Aprovar e revisar documentos: índice do artigo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 O gráfico de burndown fornece uma representação visual de como as histórias estão progredindo na iteração. A taxa de burndown real é medida em relação à taxa de burndown ideal para a linha do tempo de iteração.
 
-O gráfico de burndown é ajustado com base no dia selecionado. O dia atual é o padrão. Quando um dia anterior é selecionado, todos os dados no gráfico de burndown e todos os valores no [!UICONTROL status de conclusão] As seções acima do gráfico de burndown são recalculadas para representar os dados como estavam no final do dia selecionado. (Você pode selecionar dias passados ou o dia atual; não pode selecionar dias no futuro.)
+O gráfico de burndown é ajustado com base no dia selecionado. O dia atual é o padrão. Quando um dia anterior é selecionado, todos os dados no gráfico de burndown e todos os valores na seção [!UICONTROL status de conclusão] acima do gráfico de burndown são recalculados para representar os dados como estavam no final do dia selecionado. (Você pode selecionar dias passados ou o dia atual; não pode selecionar dias no futuro.)
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -58,7 +58,7 @@ O gráfico de burndown contém os seguintes indicadores visuais:
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
    <td> <p>Um ponto verde ou vermelho é exibido na taxa de burndown real sempre que o trabalho é reduzido. (Quando a taxa de burndown real naquele dia é vermelha, o ponto é vermelho; quando a taxa de burndown real naquele dia é verde, o ponto é verde.)</p> <p>O trabalho é queimado quando qualquer uma das seguintes situações ocorre:</p> 
     <ul> 
-     <li> A [!UICONTROL Percentual concluído] é aumentada na matéria.<br>A [!UICONTROL Porcentagem Concluída] é aumentada quando: 
+     <li> A [!UICONTROL Percentual concluído] é aumentada na matéria.<br>[!UICONTROL Percentual Concluído] aumenta quando: 
       <ul> 
        <li> <p>Alterado manualmente</p> </li> 
        <li> <p>O número de pontos ou horas é atualizado na história</p> </li> 
@@ -71,9 +71,9 @@ O gráfico de burndown contém os seguintes indicadores visuais:
 
 ## Como os dias de folga afetam o gráfico de burndown {#how-days-off-affect-the-burndown-chart}
 
-O cronograma padrão definido em [!DNL Workfront] O afeta o gráfico de burndown excluindo dias de folga (finais de semana e feriados) do burndown. O gráfico de burndown usa a programação padrão para definir dias úteis (conforme descrito em  [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+O agendamento padrão definido em [!DNL Workfront] afeta o gráfico de burndown excluindo dias de folga (finais de semana e feriados) do burndown. O gráfico de burndown usa a programação padrão para definir dias úteis (conforme descrito em  [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-As equipes Agile podem incorporar dias não úteis específicos da equipe definindo uma programação alternativa (conforme descrito no artigo [Usar uma programação de equipe alternativa para gráficos de burndown](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Esse cronograma alternativo é refletido no gráfico de burndown de qualquer iteração atribuída à equipe. A programação alternativa afeta somente o gráfico de burndown.
+As equipes Agile podem incorporar dias não úteis específicos da equipe definindo um agendamento alternativo (conforme descrito no artigo [Usar um agendamento de equipe alternativo para gráficos de burndown](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Esse cronograma alternativo é refletido no gráfico de burndown de qualquer iteração atribuída à equipe. A programação alternativa afeta somente o gráfico de burndown.
 
 Os dias de folga são refletidos no gráfico de burndown somente se:
 
@@ -88,8 +88,8 @@ Os dias de folga são refletidos no gráfico de burndown somente se:
 * Você está visualizando o gráfico de burndown em um dia de folga. (O dia que você está visualizando é mostrado no gráfico de burndown.)
 * Você conclui o trabalho total restante para a iteração em um dia de folga.
 
-  Quando um usuário conclui o trabalho total restante para a iteração em um dia de folga, a variável [!UICONTROL Estimativa de Término] exibe a data em que a iteração foi concluída.
+  Quando um usuário conclui o trabalho total restante para a iteração em um dia de folga, o campo [!UICONTROL Conclusão estimada] exibe a data em que a iteração foi concluída.
 
-  Ao planejar a iteração, se você definir a data de término da iteração para um dia não útil e a iteração estiver rastreando para terminar no prazo, a variável [!UICONTROL Estimativa de Término] a data está definida para o último dia útil anterior à data final de iteração que você definiu (porque o trabalho não está programado para ser reduzido em dias não-úteis).
+  Ao planejar a iteração, se você definir a data de término da iteração para um dia não útil e a iteração estiver rastreando para terminar no prazo, a [!UICONTROL Data de conclusão estimada] será definida para o último dia útil anterior à data de término da iteração definida (porque o trabalho não está agendado para ser reduzido em dias não úteis).
 
-  A data final da iteração é especificada quando a iteração é planejada, conforme descrito no artigo [Criar uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  A data de término da iteração é especificada quando ela é planejada, conforme descrito no artigo [Criar uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

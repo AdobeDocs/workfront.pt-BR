@@ -1,39 +1,39 @@
 ---
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
-title: Programar um delivery de relatório automático
-description: Programar um delivery de relatório automático
+title: Programar uma entrega automática de relatório
+description: Programar uma entrega automática de relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 3%
+source-wordcount: '1165'
+ht-degree: 2%
 
 ---
 
-# Programar um delivery de relatório automático
+# Programar uma entrega automática de relatório
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
 -->
 
-Você pode programar relatórios para entregá-los automaticamente aos usuários em uma programação definida ou enviar relatórios manualmente de uma só vez. Quando você envia um relatório do Adobe Workfront, o usuário recebe um email com o relatório do Workfront em um anexo separado.
+Você pode agendar relatórios para serem enviados automaticamente aos usuários em um agendamento definido ou pode enviar relatórios manualmente de uma só vez. Ao enviar um relatório do Adobe Workfront, o usuário recebe um email com o relatório do Workfront em um anexo separado.
 
 Para obter mais informações, incluindo limitações de tamanho que podem afetar a entrega de seus relatórios, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -41,41 +41,41 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Relatórios, Painéis, Calendários</p> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Pré-requisitos
 
 Antes de começar, você deve criar um relatório. Para saber mais sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Programar um delivery de relatório
+## Programar uma entrega de relatório
 
-Para agendar um relatório para entrega automática ou editar ou excluir um delivery de relatório existente: &#x200B;
+Para agendar um relatório para entrega automática ou editar ou excluir uma entrega de relatório existente:&#x200B;
 
-1. Vá para um relatório que deseja agendar para entrega.
+1. Vá para um relatório que você deseja agendar a entrega.
 
    >[!NOTE]
    >
-   >Os deliveries de relatório não contêm prompts. Se você deseja limitar os dados em um delivery de relatório, recomendamos aplicar filtros ao relatório que deseja enviar.
+   >Os deliveries do relatório não contêm prompts. Se quiser limitar os dados em um delivery de relatório, recomendamos aplicar filtros ao relatório que deseja enviar.
 
-1. Clique em **Ações de Relatório**, em seguida **Enviar relatório**.
+1. Clique em **Ações de Relatório** e em **Enviar Relatório**.
 
-   O **Enviar relatório** será exibida.
+   A caixa de diálogo **Enviar Relatório** é exibida.
 
    >[!TIP]
    >
-   >Para enviar um relatório manualmente a qualquer momento, vá para o relatório e clique em **Ações de Relatório** > **Enviar relatório** > **Enviar agora**.
+   >Para enviar um relatório manualmente a qualquer momento, vá para o relatório e clique em **Ações de Relatório** > **Enviar Relatório** > **Enviar Agora**.
 
-1. Selecione o **Repetição de Deliveries** guia .
-1. (Condicional) Para modificar um delivery de relatório repetitivo existente, selecione o delivery de relatório no **Repetição de Deliveries** seção.
+1. Selecione a guia **Entregas repetitivas**.
+1. (Condicional) Para modificar uma entrega de relatório repetitivo existente, selecione a entrega de relatório na seção **Entregas repetitivas**.
 1. Especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
@@ -84,9 +84,9 @@ Para agendar um relatório para entrega automática ou editar ou excluir um deli
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Enviar para</p> </td> 
-      <td> <p>Comece digitando o nome do usuário, grupo, equipe ou função para quem deseja enviar o relatório e clique no nome quando ele aparecer na lista suspensa.</p> <p>Ou</p> <p>Especifique o endereço de email de uma pessoa externa ao sistema Workfront que você deseja que tenha acesso ao relatório.</p> <p>Repita esse processo para enviar o relatório a vários usuários, grupos, equipes ou funções.</p> <p>Nota:  <p>Considere o seguinte ao adicionar recipients do delivery do relatório:</p> 
+      <td> <p>Comece digitando o nome do usuário, grupo, equipe ou função para o qual deseja enviar o relatório e clique no nome quando ele aparecer na lista suspensa.</p> <p>Ou</p> <p>Especifique o endereço de email de uma pessoa externa ao sistema Workfront que deseja que tenha acesso ao relatório.</p> <p>Repita esse processo para enviar o relatório para vários usuários, grupos, equipes ou funções.</p> <p>Nota:  <p>Considere o seguinte ao adicionar recipients do delivery de relatório:</p> 
         <ul> 
-         <li>Se sua organização restringir as notificações do Workfront a domínios de email específicos, você só poderá enviar relatórios para endereços de email listados na  de lista de permissões de email.<p>Para obter informações sobre como um administrador do Workfront atualiza a  de lista de permissões de email, consulte a seção <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurar sua  de lista de permissões de email</a>.</p></li> 
+         <li>Se sua organização restringir notificações do Workfront a domínios de email específicos, você só poderá enviar relatórios para os endereços de email listados na inclui na lista de permissões de email.<p>Para obter informações sobre como um administrador do Workfront incluir na lista de permissões incluir na lista de permissões atualiza o arquivo de email, consulte a seção <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurar sua pesquisa de email</a>.</p></li> 
          <li> <p>Adicionar um grande número de usuários como recipients pode causar falha no delivery. Se você tiver falhas de delivery, poderá agendar vários deliveries de relatório com grupos menores de usuários.</p> </li> 
         </ul> </p> </td> 
      </tr> 
@@ -96,25 +96,25 @@ Para agendar um relatório para entrega automática ou editar ou excluir um deli
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Mensagem de email</p> </td> 
-      <td> <p>Especifique uma mensagem para incluir no email.</p> <p>Por padrão, a mensagem de email é:</p> <p><em>Anexado está o relatório [frequência do relatório] [Nome do relatório] gerado pelo Workfront em [Data].</em> </p> <p>Observação: Para relatórios entregues somente como um arquivo Excel, a seguinte mensagem também é adicionada ao email: "Esteja ciente de que, com os tipos de arquivo MS Excel (XLS), há um limite (65.530) no número de hiperlinks suportados por esses tipos de arquivo. Se você exceder esses limites, seu arquivo não será aberto e é recomendável reenviar sem os hiperlinks. Retorne ao agendador do relatório para remover hiperlinks e reenviar o relatório." A frase "volte para o agendador do relatório" é um link para o relatório.</p> </td> 
+      <td> <p>Especifique uma mensagem para incluir no email.</p> <p>Por padrão, a mensagem de email é:</p> <p><em>Anexo é o relatório [Nome do relatório] [frequência] gerado pelo Workfront em [Data].</em> </p> <p>Observação: para relatórios entregues como um arquivo do Excel somente, a seguinte mensagem também é adicionada ao email: "Esteja ciente de que, com os tipos de arquivo do MS Excel (XLS), há um limite (65.530) no número de hiperlinks que esses tipos de arquivo suportam. Se esses limites forem excedidos, o arquivo não será aberto e é recomendável reenviar sem os hiperlinks. Retorne ao agendador de relatórios para remover os hiperlinks e reenviar o relatório." A frase "volte para o agendador de relatórios" é um link para o relatório.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Enviar este relatório com direitos de acesso de</p> </td> 
-      <td> <p>Comece digitando o nome de um usuário que tem acesso ao relatório e clique no nome quando ele for exibido na lista suspensa. Os usuários que receberem o relatório terão o mesmo nível de acesso ao relatório que o usuário especificado aqui.<br> Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Executar e entregar um relatório com os direitos de acesso de outro usuário</a>.</p> <p>Observação: Este campo não suporta curingas. Por exemplo, o uso do curinga $$User.ID não executa o relatório com os direitos de acesso do usuário que está recebendo o relatório.</p> </td> 
+      <td> <p>Comece digitando o nome de um usuário que tem acesso ao relatório e clique no nome quando ele aparecer na lista suspensa. Os usuários que receberem o relatório receberão o mesmo nível de acesso que o usuário especificado aqui.<br> Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Executar e entregar um relatório com direitos de acesso de outro usuário</a>.</p> <p>Observação: este campo não aceita curingas. Por exemplo, o uso do curinga $$User.ID não executa o relatório com os direitos de acesso do usuário que está recebendo o relatório.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Formatar</p> </td> 
       <td> <p>Selecione o formato desejado para o relatório entregue:</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>Se você selecionar essa opção, será possível formatar a saída usando o <strong>Tamanho do papel</strong> e <strong>Orientação</strong> opções exibidas.</p> </li> 
+        <li> <p>PDF</p> <p>Se você selecionar esta opção, poderá formatar a saída usando as opções adicionais de <strong>Tamanho do Papel</strong> e <strong>Orientação</strong> exibidas.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Incluir Links</p> </td> 
-      <td> <p>Essa opção só está disponível quando <strong>MS Excel</strong> é selecionado no <strong>Formato</strong> menu suspenso. Quando essa opção estiver ativada, todos os hiperlinks serão incluídos no documento do Excel exportado.</p> <p>Os documentos que contêm mais de 65.530 links não podem ser abertos. Se o documento exportado contiver mais de 65.530 links, desmarque essa opção.</p> <p>Essa opção é ativada por padrão.</p> </td> 
+      <td> <p>Esta opção está disponível somente quando o <strong>MS Excel</strong> é selecionado no menu suspenso <strong>Formatar</strong>. Quando essa opção estiver habilitada, todos os hiperlinks serão incluídos no documento do Excel exportado.</p> <p>Não é possível abrir documentos com mais de 65.530 links. Se o documento exportado contiver mais de 65.530 links, desmarque essa opção.</p> <p>Essa opção está ativada por padrão.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Resumo</p> </td> 
@@ -126,18 +126,18 @@ Para agendar um relatório para entrega automática ou editar ou excluir um deli
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repete a cada</p> </td> 
-      <td> <p>Selecione a frequência com que deseja que o delivery se repita. O valor selecionado para essa opção é baseado na opção selecionada na variável <strong>Repetir</strong> lista suspensa.</p> </td> 
+      <td> <p>Selecione a frequência com que deseja que o delivery se repita. O valor selecionado para esta opção baseia-se na opção selecionada na lista suspensa <strong>Repetições</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Hora</p> </td> 
-      <td> <p>Selecione a hora do dia para o delivery ser enviado.</p> <p>Dica: Como as cargas do sistema podem afetar os tempos de entrega do relatório, pode haver um atraso entre o horário agendado e o tempo de entrega real. Se você precisar de um relatório entregue por um tempo específico, recomendamos agendar o delivery antes do tempo em que ele é necessário. Por exemplo, recomendamos agendar o delivery um dia antes da data em que for necessário.</p> </td> 
+      <td> <p>Selecione a hora do dia para o envio do delivery.</p> <p>Dica: como as cargas do sistema podem afetar os prazos de entrega do relatório, pode haver um atraso entre o horário agendado e o horário real de entrega. Se você precisar que um relatório seja entregue em um horário específico, recomendamos agendar o delivery antes do horário necessário. Por exemplo, recomendamos agendar o delivery um dia antes da data em que é necessário.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repete em</p> </td> 
-      <td> <p>Essa opção está disponível quando a variável <strong>Repetir</strong> está definida como <strong>Semanalmente</strong> ou <strong>Mensalmente</strong>:</p> 
+      <td> <p>Esta opção está disponível quando a opção <strong>Repetições</strong> está definida como <strong>Semanalmente</strong> ou <strong>Mensalmente</strong>:</p> 
        <ul> 
-        <li> <p>Quando a variável <strong>Repetir</strong> está definida como <strong>Semanalmente</strong>: Selecione os dias da semana em que o delivery é enviado.</p> </li> 
-        <li> <p>Quando a variável <strong>Repetir</strong> está definida como <strong>Mensalmente</strong>: Selecione se o delivery é enviado no dia do mês, no dia da semana ou no último dia do mês (essas opções aproveitam a data selecionada na variável <strong>Começa em</strong> campo ).</p> </li> 
+        <li> <p>Quando a opção <strong>Repetições</strong> estiver definida como <strong>Semanalmente</strong>: selecione os dias da semana em que a entrega será enviada.</p> </li> 
+        <li> <p>Quando a opção <strong>Repetições</strong> estiver definida como <strong>Mensalmente</strong>: selecione se a entrega será enviada no dia do mês, dia da semana ou último dia do mês (essas opções usam a data selecionada no campo <strong>Começa em</strong>).</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -146,31 +146,31 @@ Para agendar um relatório para entrega automática ou editar ou excluir um deli
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Termina em</p> </td> 
-      <td>Selecione uma data para o delivery agendado terminar.</td> 
+      <td>Selecione uma data para o término do delivery agendado.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Nunca</p> </td> 
-      <td>Selecionar <strong>Nunca</strong> se desejar que o delivery programado dure indefinidamente.</td> 
+      <td>Selecione <strong>Nunca</strong> se desejar que a entrega agendada dure indefinidamente.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clique em **Salvar** para salvar o delivery do relatório.
+1. Clique em **Salvar** para salvar a entrega do relatório.
 
-   O relatório é exibido na **Repetição de Deliveries** na seção **Enviar relatório** e será enviada no horário agendado.
+   O relatório é exibido na seção **Entregas repetitivas** (na caixa de diálogo **Enviar relatório**) e será enviado no horário agendado.
 
-   Para obter informações sobre limitações de tamanho que podem afetar a entrega de seus relatórios, consulte as seções [Relatórios de limites de delivery](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) e [Limites de exportação](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+   Para obter informações sobre limitações de tamanho que podem afetar a entrega de seus relatórios, consulte as seções [Limites de entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) e [Limites de exportação](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
 1. (Opcional) Para excluir um delivery agendado:
 
-   1. No **Repetição de Deliveries** , clique em entrega agendada e, em seguida, clique em **Excluir**.
+   1. No painel **Entregas repetitivas**, clique na entrega agendada e em **Excluir**.
    1. Clique em **Excluir** para confirmar.
 
-## Apresentação de vídeo
+## Apresentação do vídeo
 
-Assista ao vídeo a seguir para saber como agendar um delivery de relatório. Este vídeo foi gravado no Workfront Classic. No entanto, o conteúdo também se aplica à nova experiência do Workfront.
+Assista ao vídeo a seguir para saber como agendar a entrega de um relatório. Este vídeo foi gravado no Workfront Classic. No entanto, o conteúdo também se aplica à nova experiência do Workfront.
 
-[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>

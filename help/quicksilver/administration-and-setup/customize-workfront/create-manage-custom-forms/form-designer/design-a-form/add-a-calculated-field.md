@@ -25,13 +25,13 @@ Um campo personalizado calculado pode conter:
 
   >[!INFO]
   >
-  > **Exemplo:** Para calcular a receita gerada por projetos e tarefas, você pode criar um campo personalizado calculado que contenha o campo incorporado Receita real. Quando alguém anexa o formulário personalizado a um projeto ou tarefa, a receita do projeto ou tarefa é exibida no campo.
+  > **Exemplo:** para calcular a receita gerada por projetos e tarefas, você pode criar um campo personalizado calculado que contenha o campo interno Receita real. Quando alguém anexa o formulário personalizado a um projeto ou tarefa, a receita do projeto ou tarefa é exibida no campo.
 
 * Uma expressão que faz referência a um ou mais campos. Podem ser campos personalizados, outros campos personalizados calculados e campos incorporados.
 
   >[!INFO]
   >
-  >**Exemplo:** Para calcular o lucro gerado por projetos e tarefas, você pode criar um campo personalizado calculado chamado Lucro contendo uma expressão matemática que subtrai o custo da receita.
+  >**Exemplo:** para calcular o lucro gerado por projetos e tarefas, você pode criar um campo personalizado calculado chamado Lucro contendo uma expressão matemática que subtrai o custo da receita.
   >
   >Para fazer isso, você pode usar a expressão matemática SUB (subtrair) com os campos integrados Custo real e Receita real do Workfront.
   >
@@ -61,7 +61,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+&#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
 
 ## Reutilizar um campo personalizado calculado existente em um formulário personalizado
 
@@ -75,15 +75,15 @@ Você também pode ter um cálculo diferente para o mesmo campo, no novo formul�
 >
 >As alterações em expressões calculadas podem fazer com que o valor do campo em objetos fique desatualizado. Para garantir que o cálculo sempre esteja atualizado nesses campos, siga um destes procedimentos:
 >
->* Depois de salvar um objeto no qual você editou dados em um formulário personalizado anexado, clique no ícone Mais ![](assets/more-icon.png) na página principal do objeto, em seguida, recalcular expressões personalizadas.
+>* Depois de salvar um objeto com os dados editados em um formulário personalizado anexado, clique no ícone Mais ![](assets/more-icon.png) na página principal do objeto e em Recalcular Expressões Personalizadas.
 >* Selecione a opção Recalcular expressões personalizadas ao editar objetos em massa.
 >* Selecione a opção Update previous calculations ao editar um Campo personalizado calculado em um formulário personalizado.
 
 Para reutilizar um campo personalizado calculado existente:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Forms personalizado** no painel esquerdo.
+1. Clique em **Forms Personalizado** no painel esquerdo.
 
    <!-- >[!TIP]
     >
@@ -92,11 +92,11 @@ Para reutilizar um campo personalizado calculado existente:
 1. Clique em **Novo formulário personalizado.**
 1. Selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 
-1. No lado superior esquerdo da tela, clique em **Biblioteca de campos**.
+1. Na parte superior esquerda da tela, clique em **Biblioteca de campos**.
 
    ![](assets/field-library.png)
 
-1. Use a caixa de pesquisa ou expanda a **Calculado** para localizar o campo calculado necessário e arraste o campo onde deseja que ele apareça no formulário personalizado.
+1. Use a caixa de pesquisa ou expanda a seção **Calculado** para localizar o campo calculado necessário e, em seguida, arraste o campo onde deseja que ele apareça no formulário personalizado.
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos.
 
@@ -107,7 +107,7 @@ Para reutilizar um campo personalizado calculado existente:
    >
    >Exemplos de formulários complexos incluem formulários com parâmetros em cascata, campos de dados personalizados calculados e várias opções de valor em um único campo.
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -119,9 +119,9 @@ Para reutilizar um campo personalizado calculado existente:
 >
 >Antes de criar um novo campo personalizado calculado, identifique os campos existentes que deseja incluir para ter certeza de que os dados necessários para o cálculo estão presentes no Workfront.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Forms personalizado** no painel esquerdo.
+1. Clique em **Forms Personalizado** no painel esquerdo.
 
    <!-- >[!TIP]
     >
@@ -130,7 +130,7 @@ Para reutilizar um campo personalizado calculado existente:
 1. Clique em **Novo formulário personalizado.**
 1. Selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 
-1. No lado esquerdo da tela, localize **Calculado** e arraste-a para uma seção na tela.
+1. No lado esquerdo da tela, localize **Calculado** e arraste-o para uma seção da tela.
 
    ![](assets/drag-field-to-section.png)
 
@@ -144,7 +144,7 @@ Para reutilizar um campo personalizado calculado existente:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td>Digite um rótulo para o campo. É o que os usuários verão ao usar o formulário personalizado. O campo <b>Nome</b>, que é preenchido automaticamente, é referenciado pelo Workfront nos relatórios.</td> 
+      <td>Digite um rótulo para o campo. É o que os usuários verão ao usar o formulário personalizado. O campo <b>Nome</b>, que é preenchido automaticamente, é referenciado pela Workfront nos relatórios.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Instruções</td> 
@@ -156,14 +156,14 @@ Para reutilizar um campo personalizado calculado existente:
      </tr> 
      <tr> 
       <td role="rowheader">Formatar</td> 
-      <td> <p>O formato no qual você deseja que os resultados do campo sejam armazenados e exibidos.</p> <p>Se o campo for usado em cálculos matemáticos, sempre use um <strong>Número</strong> ou um <strong>Moeda</strong> formato. Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</p> 
+      <td> <p>O formato no qual você deseja que os resultados do campo sejam armazenados e exibidos.</p> <p>Se o campo for usado em cálculos matemáticos, sempre use o formato <strong>Número</strong> ou <strong>Moeda</strong>. Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</p> 
       <p><b>IMPORTANTE</b>: antes de escolher um formato, considere o formato correto para o novo campo. O campo de formato não pode ser editado depois que o formulário personalizado é salvo. E selecionar o formato errado poderia afetar cálculos futuros e agregar valores em agrupamentos de relatórios e listas.</p>
-      <p><strong>NOTA:</strong> Os campos calculados com um formato de Moeda não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td>
+      <p><strong>OBSERVAÇÃO:</strong> campos calculados com um formato de Moeda não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td>
      </tr> 
     </tbody> 
    </table>
 
-1. No **Cálculo** comece a criar seu cálculo:
+1. Na caixa **Cálculo**, comece a criar seu cálculo:
    1. Clique em **Maximizar** para abrir o Editor de Cálculo e criar seu cálculo.</p>
 Um cálculo geralmente começa com uma expressão, seguida por parênteses contendo os campos que você deseja referenciar quando o formulário personalizado é anexado a um objeto.
 
@@ -177,7 +177,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
       >
       >Atualmente, o sistema faz sugestões somente quando você começa a digitar o nome de um campo que deseja referenciar em um objeto ao qual o formulário personalizado será anexado. Os campos do objeto pai não são sugeridos.
 
-      **Nomes de campo de surround com chaves**
+      **Nomes de campo surround com chaves**
 
       * Se quiser que o cálculo faça referência a um campo incorporado, o nome do campo deverá estar entre chaves.
 
@@ -185,17 +185,17 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
         Os nomes de campos fazem distinção entre maiúsculas e minúsculas e devem aparecer no cálculo exatamente como aparecem no sistema Workfront.
 
-        Navegue até a [Workfront API Explorer](https://developer.adobe.com/workfront/api-explorer/) para identificar os nomes de campo que podem ser usados em cálculos.
+        Navegue até o [Workfront API Explorer](https://developer.adobe.com/workfront/api-explorer/) para identificar os nomes de campo que podem ser usados em cálculos.
 
-      * Se você quiser que o cálculo faça referência a um campo personalizado, o nome do campo deverá estar entre chaves e precedido por `DE:` dentro dos colchetes.
+      * Se você quiser que o cálculo faça referência a um campo personalizado, o nome do campo deverá estar entre chaves e precedido por `DE:` entre colchetes.
 
         Por exemplo: `{DE:Profit}`
 
         O sistema lista todos os campos personalizados que você pode escolher ao digitar `DE:`.
 
-         * Se desejar que o cálculo faça referência a um campo que extrairá dados do *pai* quando o formulário personalizado é anexado a um objeto, você deve preceder o nome do campo com o tipo do objeto pai, também entre chaves.
+         * Para que o cálculo faça referência a um campo que extrairá dados do objeto *pai* quando o formulário personalizado for anexado a um objeto, você deve preceder o nome do campo com o tipo de objeto do objeto pai, também entre chaves.
 
-        Por exemplo, se o formulário personalizado estiver configurado para trabalhar com tarefas e você quiser que o campo calcule a receita real do objeto pai quando o formulário for anexado a uma tarefa, será necessário indicar `Project` como o tipo de objeto do campo:
+        Por exemplo, se o formulário personalizado estiver configurado para funcionar com tarefas e você quiser que o campo calcule a receita real do objeto pai quando o formulário for anexado a uma tarefa, será necessário indicar `Project` como o tipo de objeto do campo:
 
         `{project}.{actualRevenue}`
 
@@ -203,7 +203,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
         `{project}.{DE:profit}`
 
-        **Separar itens com períodos**
+        **Separar itens com pontos**
 
         Ao fazer referência a um objeto relacionado em um campo personalizado calculado, você deve separar nomes de objeto e atributos com pontos.
 
@@ -223,7 +223,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
         >[!NOTE]
         >
-        >A sintaxe de um campo de digitação antecipada é um pouco diferente de outros tipos de campos, pois é necessário adicionar `:name` no final.
+        >A sintaxe de um campo de digitação antecipada é um pouco diferente de outros tipos de campos, pois você precisa adicionar `:name` no final.
         >
         >Por exemplo, para fazer referência à opção selecionada em um campo de digitação antecipada personalizado chamado &quot;Patrocinador executivo&quot;, você digitaria:
         >
@@ -234,7 +234,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
         Em um formulário personalizado de vários objetos, os tipos de objeto selecionados devem ser compatíveis com pelo menos um campo referenciado nos campos personalizados calculados do formulário. Campos não compatíveis com o objeto exibirão N/D no formulário.
 
-        Para garantir que o campo calculado esteja mostrando um resultado correto para todos os tipos de objeto, você deve usar `$$OBJCODE` para definir um cálculo para cada tipo de objeto.
+        Para garantir que o campo calculado mostre um resultado correto para todos os tipos de objeto, você deve usar `$$OBJCODE` para definir um cálculo para cada tipo de objeto.
 
         >[!INFO]
         >
@@ -249,13 +249,13 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
         >[!INFO]
         >
-        >**Exemplo:** Embora não haja o campo Atribuído a: Nome nos projetos, há um campo Proprietário integrado (que é preenchido automaticamente com o nome da pessoa que criou o projeto, a menos que alguém altere isso manualmente).
+        >**Exemplo:** Embora não haja nenhum campo Atribuído a: Nome nos projetos, há um campo Proprietário interno (que é preenchido automaticamente com o nome da pessoa que criou o projeto, a menos que alguém altere isso manualmente).
         >
-        >Portanto, em seu campo personalizado No Charge, você pode usar `$$OBJCODE` conforme mostrado abaixo para fazer referência ao campo Proprietário quando o formulário personalizado é anexado a um projeto, e ao campo Atribuído a: Nome quando o formulário é anexado a uma tarefa:
+        >Portanto, em seu campo personalizado Encargo, você pode usar `$$OBJCODE` como mostrado abaixo para fazer referência ao campo Proprietário quando o formulário personalizado estiver anexado a um projeto, e o campo Atribuído a: Nome quando o formulário estiver anexado a uma tarefa:
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        Para obter mais informações sobre variáveis como `$$OBJCODE,` consulte [Visão geral das variáveis de filtro curinga](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Para obter mais informações sobre variáveis como `$$OBJCODE,`, consulte [Visão geral das variáveis de filtro curinga](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **Atualizações automáticas de campos personalizados calculados**
 
@@ -271,7 +271,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 
 +++
 
-   1. Clique na caixa de texto grande e, em seguida, clique em **Expressões** e **Campos** que estão disponíveis para adicioná-los ao seu cálculo.
+   1. Clique na caixa de texto grande e, em seguida, clique em **Expressões** e **Campos** disponíveis para adicioná-los ao cálculo.
 
       Você também pode começar a digitar uma expressão ou campo na caixa de texto grande e selecioná-lo quando ele for exibido. Cada item é exibido com um &quot;F&quot; para o campo ou um &quot;E&quot; para a expressão.
 
@@ -313,12 +313,12 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
      </tr> 
      <tr> 
       <td role="rowheader">Exibir a fórmula nas instruções</td> 
-      <td>Deixe essa opção ativada se quiser que os usuários que preenchem o formulário personalizado vejam a fórmula do campo quando passam o mouse sobre o campo. Para obter mais informações, consulte as <a href="#instructions" class="MCXref xref">Instruções</a> anteriormente nesta tabela.</td> 
+      <td>Deixe essa opção ativada se quiser que os usuários que preenchem o formulário personalizado vejam a fórmula do campo quando passam o mouse sobre o campo. Para obter mais informações, consulte as informações sobre <a href="#instructions" class="MCXref xref">Instruções</a> anteriormente nesta tabela.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 

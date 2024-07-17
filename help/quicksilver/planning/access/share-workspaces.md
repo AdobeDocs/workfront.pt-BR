@@ -77,7 +77,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -100,7 +100,7 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. No **Conceder acesso ao espaço de trabalho para** comece digitando o nome de um usuário ou grupo e, em seguida, clique nele quando for exibido na lista.
+1. No campo **Conceder acesso ao espaço de trabalho**, comece digitando o nome de um usuário ou grupo e clique nele quando ele for exibido na lista.
 
    ![](assets/sharing-ui-with-groups.png)
 
@@ -120,7 +120,7 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
 {{step1-to-planning}}
 
-1. Abra o espaço de trabalho para o qual deseja remover permissões e clique em **Compartilhar** no canto superior direito da tela.
+1. Abra o espaço de trabalho para o qual você deseja remover permissões e clique em **Compartilhar** no canto superior direito da tela.
 1. Clique no menu suspenso à direita do nome de um usuário ou grupo e clique em **Remover**.
 1. Clique em **Salvar**.
 
