@@ -6,9 +6,9 @@ description: Portfolio são coleções de projetos ou programas no Adobe Workfro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -77,14 +77,16 @@ Ao desativar um portfólio, você ainda pode acessá-lo na área [!UICONTROL Por
 >
 >Dependendo de como o administrador de grupo ou o [!DNL Workfront] configurar o modelo de layout, a área [!UICONTROL Portfolio] talvez não seja exibida no [!UICONTROL Menu Principal]. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
+{{step1-click-main-menu}}
+
 1. Clique em **[!UICONTROL Portfolio]**.
 1. Clique no nome do portfólio.
 1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do portfólio e clique em **[!UICONTROL Desativar Portfolio]**.
 
 ## Excluir um portfólio
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
+{{step1-click-main-menu}}
+
 1. Clique em **[!UICONTROL Portfolio]**.
 1. Selecione o portfólio e clique em **[!UICONTROL Excluir]**&#x200B;no ícone [!UICONTROL Excluir] ![](assets/delete.png).
-1. Na caixa exibida, clique em **[!UICONTROL Sim, exclua-o]** para confirmar.
+1. Clique em **[!UICONTROL Sim, exclua-o]** para confirmar.

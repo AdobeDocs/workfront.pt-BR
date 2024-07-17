@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,7 @@ As seções a seguir contêm artigos que descrevem em detalhes os recursos atual
    * Criar, editar e excluir registros
    * Conectar registros
    * Adicionar uma imagem da capa ou uma miniatura a um registro
+   * Gerenciar o layout de uma página de registro
    * Registrar comentários e seção Histórico
    * Compartilhar registros
    * Seção do Workfront Planning para objetos do Workfront

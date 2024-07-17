@@ -6,9 +6,9 @@ description: Uma linha de base é um instantâneo de projeto que representa as i
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ drafted for P&P:
 </table>
 -->
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -68,7 +66,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
     <td><p>Novo: Padrão</p>
         <p>ou</p>
         <p>Atual: Plano </p> </td> 
@@ -84,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,7 +113,7 @@ Você pode criar uma linha de base das seguintes maneiras:
 
 Para criar uma linha de base:
 
-1. Navegue até um projeto.
+1. Ir para um projeto.
 1. No painel esquerdo, clique em **Linhas de Base**.
 
    Ou

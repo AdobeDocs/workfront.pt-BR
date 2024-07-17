@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '20304'
+source-wordcount: '20310'
 ht-degree: 0%
 
 ---
@@ -1531,7 +1531,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Data de Término Planejada]</td> 
-   <td> <p>Você pode definir manualmente a [!UICONTROL Data de conclusão planejada] para uma data de sua escolha. Se você não definir a [!UICONTROL Data de Conclusão Planejada], [!DNL Workfront] a definirá automaticamente. Quando definida automaticamente, a [!UICONTROL Data de conclusão planejada] é: [!UICONTROL Data de início planejada] + [!UICONTROL Duração]</p> <p>Para obter mais informações, consulte os seguintes artigos:</p> 
+   <td> <p>Você pode definir manualmente a [!UICONTROL Data de conclusão planejada] de uma tarefa, projeto ou problema para uma data de sua escolha. Se você não definir a [!UICONTROL Data de Conclusão Planejada], [!DNL Workfront] a definirá automaticamente. Quando definida automaticamente, a [!UICONTROL Data de conclusão planejada] é: [!UICONTROL Data de início planejada] + [!UICONTROL Duração]</p> <p>Para obter mais informações, consulte os seguintes artigos:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Visão geral da tarefa [!UICONTROL Data de Término Planejada]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Definir a [!UICONTROL Data de Término Planejada]</a> do projeto </p> </li> 

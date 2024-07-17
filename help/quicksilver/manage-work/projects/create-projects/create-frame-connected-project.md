@@ -6,9 +6,9 @@ description: Um projeto é uma grande unidade de trabalho no Adobe Workfront. Vo
 author: Courtney
 feature: Work Management
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1169'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,8 @@ Quando um projeto do Workfront é conectado com o Frame.io, é possível
 * **Rastrear o progresso da tarefa**: os criadores podem enviar os ativos concluídos e marcar as tarefas como concluídas, tudo sem sair do Frame.io.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 >[!IMPORTANT]
 >
@@ -56,6 +58,8 @@ Você deve ter o seguinte:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
