@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,6 @@ Forneça ao administrador de rede as seguintes informações:
 
 1. Para exibir seu plano do Workfront, selecione **Licenças**.
 
-   Seu plano é exibido próximo à parte inferior da página.
+   Seu plano é exibido próximo ao canto superior direito da página.
 
    ![](assets/locate-plan.png)
