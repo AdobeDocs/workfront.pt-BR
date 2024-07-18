@@ -6,9 +6,9 @@ description: Você pode atualizar manualmente a data de confirmação de uma tar
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Atualizar datas de confirmação nas tarefas e problemas
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 Você pode atualizar manualmente a data de confirmação de uma tarefa ou problema atribuído a você. Para obter mais informações sobre Datas de Confirmação no Adobe Workfront, consulte [Visão geral da Data de Confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -28,7 +30,7 @@ Você pode atualizar manualmente a data de confirmação de uma tarefa ou proble
 
 <!--Audited: 01/2024-->
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +43,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> 
-   Para as novas licenças:
+   Novo:
    <ul>
    <li><p>Padrão para tarefas</p> </li>
    <li><p>Colaborador ou superior para problemas</p></li>
    </ul>
-   Para licenças atuais:
+   Atual:
 <ul>
    <li><p>Trabalhar ou mais para tarefas</p></li> 
    <li><p>Solicitação ou superior para problemas</p></li>
@@ -65,7 +67,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -77,10 +81,10 @@ Antes de editar a Data de Compromisso de uma tarefa ou problema, você deve ser 
 Você pode atualizar a Data de confirmação de uma tarefa ou problema nas seguintes áreas do Workfront:
 
 * A seção Detalhes de uma tarefa ou problema
-* <span class="preview">O cabeçalho da tarefa ou do problema</span>
+* O cabeçalho da tarefa ou do problema
 
-  <span class="preview">O administrador do Workfront ou do grupo deve adicionar a Data de Confirmação ao cabeçalho da tarefa ou do problema do modelo de layout para exibi-la na página de tarefas ou problemas.
-Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  O administrador do Workfront ou do grupo deve adicionar a Data de confirmação ao cabeçalho da tarefa ou do problema do modelo de layout para exibi-la na página da tarefa ou do problema.
+Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 A atualização da Data de confirmação é idêntica para tarefas e problemas.
 
@@ -98,9 +102,9 @@ A atualização da Data de confirmação é idêntica para tarefas e problemas.
 
    Para obter mais informações sobre como descobrir quem é o Proprietário da Tarefa para um problema ou tarefa, consulte a seção [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) no artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Condicional e opcional) Se o administrador do Workfront ou do grupo tiver adicionado a Data de Confirmação ao cabeçalho da tarefa ou do problema, clique no campo **Data de Confirmação** no cabeçalho e selecione uma data no calendário. Se a Data de confirmação não estiver no cabeçalho, continue com as etapas a seguir. </span>
+1. (Condicional e opcional) Se o administrador do Workfront ou do grupo tiver adicionado a Data de confirmação ao cabeçalho da tarefa ou do problema, clique no campo **Data de confirmação** no cabeçalho e selecione uma data no calendário. Se a Data de confirmação não estiver no cabeçalho, continue com as etapas a seguir.
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>
+   ![](assets/commit-date-task-header.png)
 
 1. Clique em **Detalhes da tarefa** ou **Detalhes do problema** no painel esquerdo.
 1. Clique em **Visão geral** para expandi-la.

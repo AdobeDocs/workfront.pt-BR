@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1985'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Ou
 
-   Clique no nome das atribuições se a tarefa ou problema já estiver atribuído.
+   Clique no nome das atribuições se a tarefa já estiver atribuída.
 
-   No ambiente de produção:
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">No ambiente de Visualização:</span>
    ![Atribuições](assets/assignments-box-in-task-header.png)
 
 1. Siga um destes procedimentos:
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode procurar a função de trabalho ou o local. Selecione uma função na lista Funções de trabalho para usar a taxa de cobrança padrão para a atribuição ou selecione uma função de trabalho Cartão de taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condicional) Clique em um dos nomes nas listas <span class="preview">**Atribuições sugeridas**, **Usuários e equipes** ou **Funções de trabalho** ou **Classificar funções de cartão**</span> quando forem exibidas. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condicional) Clique em um dos nomes nas listas **Atribuições sugeridas**, **Usuários e equipes** ou **Funções de trabalho** ou <span class="preview">**Classificar funções de cartão**</span> quando forem exibidas. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Você pode começar a digitar o nome de qualquer usuário, equipe ou função de trabalho para atribuir à tarefa e, em seguida, selecioná-lo quando ele for exibido na lista.
 
@@ -215,7 +211,7 @@ Para atribuir tarefas em uma lista:
      >
      >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode procurar a função de trabalho ou o local. Selecione a Função de Trabalho Sistema/Padrão para usar a taxa de cobrança padrão para a atribuição ou selecione uma Função de Trabalho de Cartão de Taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode procurar a função de trabalho ou o local. Selecione uma Função de trabalho para usar a taxa de cobrança padrão para a atribuição ou selecione uma função de trabalho Cartão de Taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Condicional) Quando visível no campo **Atribuições**, clique no ícone **Pessoas** no canto superior direito da caixa de atribuições para abrir a caixa **Atribuições Avançadas** e criar atribuições avançadas.

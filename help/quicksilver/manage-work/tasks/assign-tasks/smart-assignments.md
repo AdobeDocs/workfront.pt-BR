@@ -7,9 +7,9 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Uma lista de tarefas ou um relatório na coluna Atribuições </span>
+* Uma lista de tarefas ou um relatório na coluna Atribuições
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">Um cabeçalho de tarefa no campo Atribuições</span>
+* Um cabeçalho de tarefa no campo Assignments
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Um cabeçalho de problema no campo Atribuições
 
@@ -63,24 +63,24 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
 * O painel Resumo de tarefas ou problemas na área Atribuições
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">O campo Atribuições na caixa Nova Tarefa, ao adicionar uma tarefa a um projeto</span>
+* O campo Atribuições na caixa Nova tarefa, ao adicionar uma tarefa a um projeto
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* O campo Atribuições para um item listado na área Página inicial, quando você abre uma tarefa ou problema
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * O Balanceador de carga de trabalho na área Atribuído a quando você atribui uma tarefa ou problema
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Critérios de atribuições inteligentes
-
-<div class="preview">
 
 As atribuições inteligentes funcionam de forma diferente para tarefas e para problemas.
 
@@ -134,17 +134,16 @@ Se a primeira etapa das atribuições inteligentes de tarefas não encontrar cor
 
 Para obter mais informações, consulte a seção [Critérios de atribuições inteligentes para tarefas e problemas](#smart-assignments-criteria-for-tasks-and-issues) neste artigo.
 
-As atribuições identificadas nesta fase estão listadas nas seções **Usuários e equipes**, **Atribuições de funções de trabalho** e **Funções de cartão de taxa** do campo Atribuições. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+As atribuições identificadas nesta fase estão listadas nas seções **Usuários e equipes**, **Atribuições de funções de trabalho** e <span class="preview">**Funções de cartão de taxa**</span> do campo Atribuições. <span class="preview">Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Critérios de atribuições inteligentes para tarefas e problemas
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">Os critérios a seguir se aplicam às tarefas somente quando a primeira fase do cálculo de atribuição inteligente de tarefa não encontrou nenhuma correspondência. Para obter informações, consulte a seção [Primeira fase do cálculo de atribuição inteligente para tarefas](#first-phase-of-smart-assignment-calculation-for-tasks) neste artigo. Os critérios a seguir sempre se aplicam a problemas, por padrão. </span>
+>Os critérios a seguir se aplicam às tarefas somente quando a primeira fase do cálculo de atribuição inteligente de tarefa não encontrou correspondências. Para obter informações, consulte a seção [Primeira fase do cálculo de atribuição inteligente para tarefas](#first-phase-of-smart-assignment-calculation-for-tasks) neste artigo. Os critérios a seguir sempre se aplicam a problemas, por padrão.
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 Os usuários são recomendados na lista suspensa atribuições inteligentes com base em uma combinação dos seguintes critérios (listados na ordem do mais importante para o menos importante):
 
