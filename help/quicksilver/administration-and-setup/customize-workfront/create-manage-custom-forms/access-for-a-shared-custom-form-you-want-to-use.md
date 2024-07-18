@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: acesso,compartilhado,personalizado,formulário
 navigation-topic: create-and-manage-custom-forms
-title: Acesso a um campo personalizado compartilhado que você deseja usar
+title: Acesso a um campo personalizado compartilhado
 description: Quando alguém compartilha um campo personalizado com acesso de Visualização ou Gerenciamento, é possível definir várias outras configurações para definir ainda mais esse acesso. Se você for um recipient do campo, essas configurações afetarão o que você pode fazer com o campo. Você poderá ver o seguinte ao visualizar o campo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
-# Acesso a um campo personalizado compartilhado que você deseja usar
+# Acesso a um campo personalizado compartilhado
 
 Quando alguém compartilha um campo personalizado com acesso de Visualização ou Gerenciamento, é possível definir várias outras configurações para definir ainda mais esse acesso. Se você for um recipient do campo, essas configurações afetarão o que você pode fazer com o campo. Você poderá ver o seguinte ao visualizar o campo.
 
-Para obter mais informações sobre como os usuários definem as configurações de compartilhamento ao compartilhar um formulário personalizado, consulte [Configurar compartilhamento para campos e widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Para obter mais informações sobre como os usuários definem as configurações de compartilhamento ao compartilhar um formulário personalizado, consulte [Configurar compartilhamento para campos e widgets personalizados em um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 <table style="table-layout:auto"> 
  <col> 

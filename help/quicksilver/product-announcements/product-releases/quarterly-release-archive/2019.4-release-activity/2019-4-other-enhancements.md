@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ Para obter uma lista de todas as alterações feitas em 2019.4, consulte a [vis�
      <strong>Tipos de objetos adicionais disponíveis para campos de Digitação antecipada em um formulário personalizado</strong> 
      <p>Agora, ao criar um campo personalizado Digitação antecipada, você pode associar os seguintes tipos de objetos ao campo: Usuário, Empresa, Grupo, Função de trabalho, Portfolio, Programa, Projeto e Modelo.</p> 
      <p>Anteriormente, só era possível associar o tipo de objeto Usuário a um campo personalizado Digitação antecipada.</p> 
-     <p>Para obter mais informações, consulte a seção <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Criar ou editar um formulário personalizado</a> no artigo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Criar ou editar um formulário personalizado</a>.</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,6 @@ Para obter uma lista de todas as alterações feitas em 2019.4, consulte a [vis�
      <p>Por exemplo, se você criou um campo Checkboxes, é possível alterá-lo para um campo Suspenso ou um campo Radio Buttons. Esses três tipos de exibição de campo são intercambiáveis.</p> 
      <p>Ou, se você tiver criado um Campo de texto de linha única, poderá alterá-lo para um campo de texto de parágrafo. Esses dois tipos de exibição de campo são intercambiáveis.</p> 
      <p>Anteriormente, para alterar o tipo de exibição de um campo personalizado, era necessário criar um novo campo e excluir o antigo. Isso exigia a transferência de dados, o que geralmente era demorado.</p> 
-     <p>Para obter mais informações, consulte <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Criar ou editar um formulário personalizado</a> no artigo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Criar ou editar um formulário personalizado</a></p> 
     </div> </td> 
   </tr> 
   <tr> 

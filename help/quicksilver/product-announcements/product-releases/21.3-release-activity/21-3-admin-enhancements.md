@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,3 @@ Para obter mais informações, consulte [Gerenciar status do grupo](../../../adm
 ## Novo para administradores: criar um formulário personalizado de registro de cobrança
 
 Agora é possível melhorar como os usuários capturam informações de faturamento criando um formulário personalizado de registro de faturamento. Os usuários podem anexar o formulário personalizado a um registro de cobrança, preenchê-lo e executar relatórios que incluam as informações no formulário.
-
-Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-Para obter informações sobre como anexar um formulário personalizado de registro de cobrança a um projeto, consulte [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-

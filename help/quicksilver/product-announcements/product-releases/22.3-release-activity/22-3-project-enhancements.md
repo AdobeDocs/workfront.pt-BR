@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ Para obter mais informações, consulte [Marcar outros em atualizações](/help/
 ## Nova sintaxe para cálculos em campos personalizados
 
 Para se preparar para aprimoramentos futuros que ajudarão você a adicionar cálculos a formulários personalizados, padronizamos a sintaxe dos campos referenciados que você adiciona a um cálculo. É fácil usar essa nova sintaxe porque o sistema a insere quando você começa a digitar o nome de um campo e o seleciona.
-
-Para obter mais informações, consulte a seção &quot;Criar o cálculo para o campo personalizado calculado&quot; no [artigo Adicionar dados calculados a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Manter informações precisas quando dois usuários com uma função em comum estiverem envolvidos em um processo de aprovação
 

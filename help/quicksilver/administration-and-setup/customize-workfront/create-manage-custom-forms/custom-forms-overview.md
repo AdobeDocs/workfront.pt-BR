@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
@@ -29,10 +29,11 @@ Por exemplo, você pode anexar um formulário personalizado chamado &quot;Pesqui
 
 ## Como criar um formulário personalizado
 
-Há duas opções para criar um formulário personalizado em [!DNL Workfront]. Você pode usar o construtor de formulários personalizado Herdado ou o novo designer de formulários:
+O designer de formulário tem um espaço de trabalho no estilo da tela de desenho que permite exibir os campos, a tela de desenho e as configurações de campo, tudo ao mesmo tempo. Ela também permite arrastar e soltar campos nas seções ao criar o formulário.
 
-* [Construtor de formulários personalizados herdados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Designer de formulários](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+![Designer de formulário de exemplo](assets/form-designer-example.png)
 
 ## Campos e widgets personalizados
 
@@ -42,15 +43,17 @@ Em um formulário personalizado, você pode criar campos adicionais que solicita
 
 Você pode adicionar os seguintes tipos de campos personalizados a um formulário personalizado no Workfront:
 
-* Campo de texto de uma linha ou Texto de uma linha no designer do formulário
-* Campo de texto em parágrafo ou texto em parágrafo no designer do formulário
-* Campo de texto com formatação ou Texto com formatação no designer do formulário
+* Texto de linha única
+* Texto de parágrafo
+* Texto com formatação
 * Suspenso
-* Pesquisa externa - disponível somente no designer do formulário
+* Menu suspenso com múltipla escolha
+* Pesquisa externa
+* Campo nativo
 * Typeahead
 * Calculado
-* Data ou Campo de data no designer do formulário
-* Caixa de Seleção
+* Campo de Data
+* Grupo de caixas de seleção
 * Botões de seleção
 * Texto descritivo
 * Quebra de seção
@@ -58,6 +61,10 @@ Você pode adicionar os seguintes tipos de campos personalizados a um formulári
 * Imagem
 * PDF
 * Vídeo
+
+>[!NOTE]
+>
+>Para rastrear alterações de campo nos feeds de atualização, acesse Configurar > Interface > Atualizar feeds. Para obter mais informações, consulte [Configurar atualizações do sistema](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Objetos em que os usuários podem anexar um formulário personalizado
 
@@ -81,5 +88,4 @@ Os usuários podem anexar formulários personalizados aos seguintes tipos de obj
 Para obter mais informações sobre como anexar formulários personalizados a objetos, consulte [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 Para obter informações sobre o que acontece com formulários personalizados ao converter um objeto, consulte [Transferir dados de formulário personalizados ao converter um objeto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
 

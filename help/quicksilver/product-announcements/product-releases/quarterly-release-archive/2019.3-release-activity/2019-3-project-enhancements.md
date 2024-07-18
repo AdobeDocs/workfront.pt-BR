@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Por exemplo, se você criou um campo Checkboxes, é possível alterá-lo para um
 Ou, se você tiver criado um Campo de texto de linha única, poderá alterá-lo para um campo de texto de parágrafo. Esses dois tipos de exibição de campo são intercambiáveis.
 
 Anteriormente, para alterar o tipo de exibição de um campo personalizado, era necessário criar um novo campo e excluir o antigo. Isso exigia a transferência de dados, o que geralmente era demorado.
-
-Para obter mais informações, consulte [Criar ou editar um formulário personalizado](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) no artigo [Criar ou editar um formulário personalizado](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ Para obter informações sobre folga, consulte [Configurar folga pessoal](../../
 Criamos um novo tipo de campo no construtor de formulários personalizado chamado Digitação antecipada. Este campo permite adicionar campos que representam objetos aos seus formulários personalizados. Atualmente, o objeto Usuário está habilitado com Digitação antecipada e outros objetos estão chegando no futuro.
 
 Anteriormente, os administradores precisavam manter os usuários manualmente como opções individuais nos menus suspensos de formulários personalizados.
-
-Para obter mais informações, consulte [Criar ou editar um formulário personalizado](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >

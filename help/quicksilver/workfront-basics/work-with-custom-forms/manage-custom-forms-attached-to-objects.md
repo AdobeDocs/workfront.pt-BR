@@ -6,7 +6,7 @@ description: Você pode atualizar a ordem na qual os formulários personalizados
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 
 ## Pré-requisitos
 
-* O administrador do Workfront ou um usuário do plano com acesso administrativo a formulários personalizados deve criar formulários personalizados em seu ambiente. Para obter mais informações, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* O administrador do Workfront ou um usuário do plano com acesso administrativo a formulários personalizados deve criar formulários personalizados em seu ambiente. Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Você deve ter formulários personalizados anexados a um objeto.
 
   Para obter informações sobre como aplicar formulários personalizados a um objeto, consulte [Adicionar um formulário personalizado a um objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -92,7 +92,7 @@ Você pode fazer com que o mesmo campo apareça em vários formulários personal
 
   Não é possível ter valores diferentes para os mesmos campos em formulários diferentes anexados ao mesmo objeto.
 
-* Se você tiver os mesmos campos calculados em dois objetos diferentes, seus cálculos deverão ser idênticos para evitar erros. Para obter informações sobre como adicionar campos calculados a formulários personalizados, incluindo vários formulários, consulte [Adicionar dados calculados a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+* Se você tiver os mesmos campos calculados em dois objetos diferentes, seus cálculos deverão ser idênticos para evitar erros. Para obter informações sobre como adicionar campos calculados a formulários personalizados, incluindo vários formulários, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ## Gerenciar vários formulários personalizados ao editar objetos em massa
 

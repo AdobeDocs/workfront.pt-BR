@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,6 @@ Para obter mais informações sobre painéis, consulte [Criar um painel](../../.
 Agora é possível controlar quem tem acesso a um formulário personalizado, concedendo acesso a usuários individuais, equipes, funções, grupos ou empresas. 
 
 Antes dessa alteração, você poderia conceder acesso somente a grupos.
-
-Para obter mais informações, consulte [Criar ou editar um formulário personalizado](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## Integração com o Adobe Creative Cloud
 

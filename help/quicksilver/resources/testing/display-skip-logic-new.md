@@ -2,9 +2,9 @@
 title: Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 description: Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Os tipos de campo de múltipla escolha são Suspenso, Caixas de seleção e Bot�
   Isso seria especialmente útil se você adicionar muitos outros campos sobre logotipos, atualizações de sites e folhetos que este usuário não precisa ver.
 É possível aplicar uma regra lógica de salto somente a um campo personalizado, não a um widget ou seção.
 
-Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Adicionar um campo personalizado a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Adicionar ou editar um widget de ativo em um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acesso
 

@@ -6,9 +6,9 @@ description: Este cenário de integração compartilha o progresso, o status e o
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </tbody> 
   </table>
 
-  Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 <!--
 <note type="note">  

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Com o novo designer de formulários, adicionamos a capacidade de
 
 * **Alterar o tamanho do texto Descritivo**: agora é possível atribuir tamanhos pequeno, médio ou grande a campos de texto Descritivo. Também é possível usá-los na mesma linha com outros campos. <span style="color: #ff0000;"> A alteração do tamanho do texto descritivo foi adiada temporariamente, mas será adicionada em breve.</span></li>
 
-Para obter mais informações, consulte [Visão geral do designer do formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Para obter mais informações, consulte [Visão geral dos formulários personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 [Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

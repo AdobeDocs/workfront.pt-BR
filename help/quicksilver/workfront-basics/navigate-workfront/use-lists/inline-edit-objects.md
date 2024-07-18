@@ -6,9 +6,9 @@ description: É possível editar objetos em linha quando eles são exibidos em u
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0912e4ef29d682ae3e6dd0e543b8e77fb7f29b6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!NOTE]
    >
-   >Se um campo personalizado tiver sido configurado para permitir a formatação, você poderá colocar o texto em negrito, itálico ou sublinhado ao editar o campo em linha em uma lista atualizada.\
-   >Para obter informações sobre como configurar a formatação de um campo personalizado, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).\
+   >Se um campo personalizado tiver sido configurado para permitir a formatação, você poderá colocar o texto em negrito, itálico ou sublinhado ao editar o campo em linha em uma lista atualizada.
+   >Para obter informações sobre como configurar a formatação de um campo personalizado, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    >Para obter informações sobre listas atualizadas, consulte a seção &quot;A diferença entre as listas atualizadas e herdadas&quot; no artigo [Introdução às listas em [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Pressione [!UICONTROL Tab] para mover para a próxima célula editável.

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Adicionamos navegação estrutural ao aplicativo móvel do Workfront. Agora, voc
 ## Rich text compatível com formulários personalizados no aplicativo Workfront
 
 Agora você pode usar a formatação de rich text em campos de texto de formulário personalizados no aplicativo móvel do Workfront.
-
-Para obter mais informações sobre como criar um formulário personalizado com campos de texto, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Os usuários do SSO agora podem fazer logon novamente no aplicativo Workfront com a tecnologia Face ID ou Fingerprint
 

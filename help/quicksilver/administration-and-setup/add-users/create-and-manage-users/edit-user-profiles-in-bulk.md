@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        <p>Para obter mais informações sobre pools de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos pools de recursos </a>.</p> </li> 
        <li><b>Custo por hora</b>: a quantidade de custo por hora para o usuário. </li> 
        <li><b>Cobrança por hora</b>: a quantidade de cobrança por hora para o usuário.</li> 
-       <li><b>Forms personalizado</b>: associe um formulário personalizado de usuário existente aos usuários. Você deve criar um formulário personalizado antes de associá-lo a um usuário. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</li> 
+       <li><b>Forms personalizado</b>: associe um formulário personalizado de usuário existente aos usuários. Você deve criar um formulário personalizado antes de associá-lo a um usuário. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário com o designer de formulário</a>.</li> 
        <li><b>Comentário</b>: insira um comentário no campo fornecido. Todos os usuários selecionados receberão uma notificação no aplicativo, bem como uma notificação por email com seu comentário. O comentário é exibido na guia Atualizações do perfil do usuário.</li> 
        </ul> </td> 
      </tr> 

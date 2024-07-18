@@ -6,9 +6,9 @@ description: O processo para criar e gerenciar despesas é o mesmo para despesas
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ A caixa de diálogo **Adicionar uma Despesa** é exibida.
    * **Faturável:** selecione esta opção se desejar faturar esta despesa. Categorizar uma despesa como faturável é importante ao criar registros de faturamento.
    * **Reembolsável:** selecione essa opção se a despesa precisar ser reembolsada. Você pode marcar a despesa como reembolsada após a despesa ter sido reembolsada.
 
-1. Selecione um **Formulário personalizado** e especifique as informações adicionais necessárias. Você deve criar um formulário personalizado antes de associá-lo a uma despesa. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte o artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Selecione um **Formulário personalizado** e especifique as informações adicionais necessárias. Você deve criar um formulário personalizado antes de associá-lo a uma despesa. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte o artigo [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Clique em **Salvar alterações**.
 

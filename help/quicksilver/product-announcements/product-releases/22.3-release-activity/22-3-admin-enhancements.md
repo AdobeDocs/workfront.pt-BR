@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ Para obter mais informações, consulte os seguintes artigos:
 
 Continuamos a ajudá-lo a tornar os formulários personalizados mais visuais e informativos com os novos widgets de ativos que você pode adicionar, como imagens e vídeos. Agora é possível adicionar um link para um arquivo PDF a um formulário personalizado. Quando o formulário é anexado a um objeto, os usuários que trabalham com o objeto podem visualizar e interagir com o PDF de dentro do formulário.
 
-Para obter mais informações, consulte [Adicionar ou editar uma imagem ou outro widget de ativo em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## O editor de cálculo de campo de formulário personalizado exibe informações de erro
 
 >[!NOTE]
@@ -63,8 +61,6 @@ Para obter mais informações, consulte [Adicionar ou editar uma imagem ou outro
 >Este recurso está temporariamente indisponível. Esta página será atualizada quando o recurso estiver disponível.
 
 A edição de cálculos para campos personalizados agora é mais fácil com informações de erro úteis indicadas diretamente no cálculo. Ao criar um campo calculado em um formulário personalizado, os erros são destacados em rosa. Quando você passa o mouse sobre a parte destacada, uma dica de ferramenta é exibida para descrever qual é o problema.
-
-Para obter mais informações, consulte [Adicionar dados calculados a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Personalização do cabeçalho do projeto
 
@@ -111,6 +107,4 @@ Para obter mais informações, consulte [Desativar ou reativar um grupo](/help/q
 Agora você pode fornecer um novo modo de informação, interesse visual e criatividade para um formulário personalizado ao adicionar um vídeo. Quando o formulário é anexado a um objeto, os usuários que trabalham com o objeto podem reproduzir o vídeo a qualquer momento.
 
 Anteriormente, só era possível adicionar campos e imagens baseados em texto a um formulário personalizado.
-
-Para obter mais informações, consulte [Adicionar ou editar um widget de ativo de imagem ou vídeo em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

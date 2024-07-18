@@ -6,7 +6,7 @@ description: Visão geral de usos comuns do modo de texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -58,9 +58,9 @@ Você pode usar o modo de texto quando quiser fazer o seguinte no Workfront:
 
 Você pode usar o modo texto para adicionar um campo personalizado calculado a um Formulário personalizado.
 
-Para obter mais informações sobre como adicionar um campo personalizado calculado a um Formulário personalizado, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obter mais informações sobre como adicionar um campo personalizado calculado a um Formulário personalizado, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Para obter mais informações sobre como criar um campo personalizado calculado no modo de texto, consulte [Adicionar dados calculados a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obter mais informações sobre como criar um campo personalizado calculado no modo de texto, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Por exemplo, é possível adicionar um campo personalizado calculado que mostre um carimbo de data e hora do momento em que um item foi marcado como Em andamento. Você pode usar esse cálculo para outros status.
 

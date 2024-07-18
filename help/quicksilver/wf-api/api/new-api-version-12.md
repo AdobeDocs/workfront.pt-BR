@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2422'
 ht-degree: 1%
 
 ---
@@ -176,8 +176,8 @@ Um objeto AccessLevelPermissions representa uma permissão específica para aces
      <li> <p><strong>coreAction</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> em <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> </li> 
       </ul> </li> 
      <li> <p><strong>açõesProibidas</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
@@ -247,8 +247,8 @@ Se um usuário não tiver acesso a um objeto no Workfront necessário, ele poder
      <li> <p style="font-weight: bold;">ação</p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> em <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -270,8 +270,8 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
      <li><strong>coreAction</strong> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> em <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> </li> 
       </ul> </li> 
      <li> <p><strong>açõesProibidas</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
@@ -618,7 +618,7 @@ Um objeto Parameter é um campo personalizado.
 
 O recurso Parameter adicionou o sinalizador SHARABLE.
 
-Para obter mais informações sobre campos personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) em [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obter mais informações sobre campos personalizados, consulte [Criar ou editar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) em [Criar ou editar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -725,9 +725,8 @@ Para obter mais informações sobre Filas de solicitações, consulte [Criar uma
      <li><strong>solicitanteCoreAction</strong> <p>Foram adicionados os seguintes valores possíveis:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTORNING </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode atualizar horas planejadas no Balanceador de carga de trabalho.</p> <p>Para obter mais informações, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> em <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gerenciar alocações de usuário no Balanceador de carga de trabalho</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar compartilhamento para campos e widgets personalizados</a></p> </li> 
-      </ul> <li> <p><strong>solicitanteForbiddenActions</strong> </p> <p>Foram adicionados os seguintes valores possíveis:</p> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode adicionar campos a formulários personalizados.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Um usuário com um nível de acesso que inclui essa permissão pode compartilhar um sistema de campos personalizados com acesso de exclusão.</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTORNING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 

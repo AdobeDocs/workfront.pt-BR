@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Para adicionar ou editar uma empresa:
      </tr>
      <tr> 
       <td role="rowheader">Seção [!UICONTROL Custom Forms]</td> 
-      <td> <p>Se houver campos que você deseja adicionar à sua empresa que não estejam disponíveis em [!DNL Workfront], você poderá criar um formulário personalizado e associá-lo à sua empresa. </p> <p>Você pode anexar esse formulário à sua empresa selecionando-o no menu suspenso. Somente formulários personalizados ativos são listados no menu.</p> <p><strong>Observação:</strong> recursos avançados de formulário personalizado, como campos de Pesquisa Externa e campos nativos do Workfront, só estarão disponíveis quando você abrir o registro da empresa na página de detalhes, não na caixa de diálogo Editar Empresa. (Na lista de empresas, clique no nome da empresa para abrir os detalhes.)</p> <p> Para obter informações sobre como criar formulários personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>. </p> </td>
+      <td> <p>Se houver campos que você deseja adicionar à sua empresa que não estejam disponíveis em [!DNL Workfront], você poderá criar um formulário personalizado e associá-lo à sua empresa. </p> <p>Você pode anexar esse formulário à sua empresa selecionando-o no menu suspenso. Somente formulários personalizados ativos são listados no menu.</p> <p><strong>Observação:</strong> recursos avançados de formulário personalizado, como campos de Pesquisa Externa e campos nativos do Workfront, só estarão disponíveis quando você abrir o registro da empresa na página de detalhes, não na caixa de diálogo Editar Empresa. (Na lista de empresas, clique no nome da empresa para abrir os detalhes.)</p> <p> Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário com o designer de formulário</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

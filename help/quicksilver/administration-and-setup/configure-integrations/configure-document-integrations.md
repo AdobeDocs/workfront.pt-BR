@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -216,7 +216,7 @@ As informações são mapeadas apenas unidirecionalmente, de [!DNL Workfront] a 
 Você pode mapear o mesmo campo [!DNL Workfront] para vários campos [!DNL Workfront DAM], mas não pode usar o mesmo campo [!DNL Workfront DAM] para vários campos [!DNL Workfront].
 
 Se você precisar configurar vários campos [!DNL Workfront] para serem exportados para um campo [!DNL Workfront DAM], primeiro crie um campo personalizado calculado em [!DNL Workfront] para exibir todos os campos personalizados individuais de um objeto. Em seguida, mapeie o campo [!DNL Workfront] calculado para um campo [!DNL Workfront DAM].\
-Para obter mais informações sobre campos personalizados calculados, consulte [Adicionar dados calculados a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obter mais informações sobre campos personalizados calculados, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 O mapeamento afeta todos os documentos carregados por qualquer usuário do DAM [!DNL Workfront] para o [!UICONTROL Workfront].
 
