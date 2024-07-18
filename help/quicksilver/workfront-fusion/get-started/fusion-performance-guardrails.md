@@ -8,10 +8,10 @@ description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
+source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,7 @@ A automação de trabalho requer processamento rápido, portanto, o [!DNL Adobe 
 ## Histórico de execução
 
 * Os logs do histórico de execução são limitados ao tamanho de **100 MB**. Se o histórico de execução exceder esse tamanho, somente os primeiros 100 MB serão exibidos.
+* Se um cenário tiver várias execuções simultâneas. apenas 5 execuções são exibidas na área Execuções da página de detalhes do cenário. Isso é verdade mesmo quando mais de 5 execuções estão em andamento.
 
 ## Execuções incompletas
 
