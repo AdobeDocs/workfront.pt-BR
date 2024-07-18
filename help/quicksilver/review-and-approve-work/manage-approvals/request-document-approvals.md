@@ -6,9 +6,9 @@ description: Você pode solicitar aprovação de gerentes ou outros usuários pa
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Você pode solicitar aprovação de gerentes ou outros usuários para um documento no Adobe Workfront. Você também pode solicitar aprovações de documentos de pessoas sem contas do Workfront se o administrador do Workfront tiver habilitado esse recurso, conforme descrito em [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -44,7 +46,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+
++++
 
 ## Solicitar uma aprovação de documento
 

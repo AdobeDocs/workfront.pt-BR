@@ -6,9 +6,9 @@ description: Você pode copiar um link para qualquer pasta de documento contida 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Você pode copiar um link direto para qualquer pasta de documentos contida em qualquer um dos seguintes objetos [!DNL Workfront]: [!UICONTROL Programa], [!UICONTROL Portfolio], [!UICONTROL Projeto], [!UICONTROL Tarefa] ou [!UICONTROL Problema]. Você não pode copiar um link para nenhuma pasta contida na área [!UICONTROL Documentos] do Menu Principal, pois essas pastas estão vinculadas diretamente ao seu perfil de usuário e não podem ser compartilhadas com outras pessoas.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -42,6 +44,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Copiar e compartilhar um link para uma pasta de documentos
 

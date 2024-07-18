@@ -6,9 +6,9 @@ description: As pastas inteligentes são usadas para gerenciar documentos fora d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ As pastas inteligentes são usadas para gerenciar documentos fora de um projeto,
 Duas pastas inteligentes estão disponíveis por padrão na primeira vez que você acessa a área Documentos: Todos os documentos e Recentes. É possível editar, renomear ou copiar pastas inteligentes padrão, mas não excluí-las. É possível criar pastas inteligentes adicionais para atender a outras necessidades de gerenciamento de ativos.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -43,6 +45,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Exibir pastas inteligentes 
 
@@ -88,7 +92,7 @@ Você pode exibir pastas em miniatura, padrão ou na exibição de lista. Para a
 
 1. Faça as alterações e clique em **Salvar Pasta**.
 
-## Excluir uma pasta inteligente 
+## Excluir uma pasta inteligente
 
 1. Vá para a área **Documentos** que contém a pasta inteligente que você deseja excluir.
 1. Na coluna **Pastas**, clique na seta suspensa ao lado da pasta inteligente que deseja excluir.

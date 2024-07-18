@@ -6,9 +6,9 @@ description: Os processos de aprovação oferecem flexibilidade para criar aprov
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Para obter informações sobre como criar processos de aprovação, consulte [Cr
 Para obter informações sobre como associar aprovações ao trabalho no Workfront, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -48,7 +50,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+
++++
 
 ## Localizar aprovações no Adobe Workfront
 
@@ -111,16 +115,13 @@ Você pode exibir o status de aprovação de um objeto nas seguintes seções do
  </tbody> 
 </table>
 
-* [Use a área Atualizações para exibir um status de aprovação](#use-the-updates-area-to-view-an-approval-status)
-* [Usar a área Aprovações para exibir um status de aprovação](#use-the-approvals-area-to-view-an-approval-status)
-
 ### Use a área Atualizações para exibir um status de aprovação {#use-the-updates-area-to-view-an-approval-status}
 
 Quando uma aprovação é iniciada em um projeto, tarefa ou problema, um status é exibido na guia **Atualizações** do objeto, indicando o status de aprovação. Um novo status é exibido sempre que o objeto passa pelo processo de aprovação. Isso inclui os seguintes eventos:
 
 * Um processo de aprovação é iniciado em um objeto. O processo de aprovação é iniciado quando o status é alterado.
 * O objeto foi rejeitado
-* O objeto foi aprovado 
+* O objeto foi aprovado
 
 >[!TIP]
 >

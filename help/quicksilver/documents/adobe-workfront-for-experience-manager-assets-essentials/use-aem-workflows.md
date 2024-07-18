@@ -6,9 +6,9 @@ description: Usar fluxos de trabalho na integração do Experience Manager Asset
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe
 
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -62,6 +64,8 @@ Para obter informações sobre como solicitar acesso adicional, consulte <strong
    </td>
   </tr>
 </table>
+
++++
 
 ## Pré-requisitos
 
@@ -145,7 +149,6 @@ Todos os valores de workflow podem ser encontrados em:
 >Como as pastas vinculadas são criadas quando o projeto é criado, a edição do fluxo de trabalho da pasta vinculada em um projeto existente não é eficaz. A edição desses valores ao criar um projeto funciona conforme esperado.
 
 Para editar o fluxo de trabalho de pastas vinculadas:
-
 
 1. Ative ou desative a **[!UICONTROL Criar pasta vinculada]** conforme desejado. Se você ativá-lo, poderá editar a configuração da pasta vinculada.
 

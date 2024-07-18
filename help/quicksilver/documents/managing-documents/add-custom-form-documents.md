@@ -6,9 +6,9 @@ description: É possível adicionar um formulário personalizado a um documento 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 É possível adicionar um formulário personalizado a um documento ou a uma versão do documento para capturar informações adicionais ou metadados específicos de seus ativos.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Pré-requisitos
 

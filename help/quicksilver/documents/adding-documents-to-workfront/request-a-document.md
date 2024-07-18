@@ -6,9 +6,9 @@ description: Você pode solicitar um documento em qualquer objeto que ofereça s
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,9 @@ ht-degree: 0%
 Você pode solicitar um documento em qualquer objeto que ofereça suporte a Documentos.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 
 Você deve ter o seguinte:
 
@@ -41,6 +44,8 @@ Você deve ter o seguinte:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Solicitar um documento
 

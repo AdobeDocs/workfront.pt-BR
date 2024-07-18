@@ -7,9 +7,9 @@ description: Você pode ver uma visualização em tempo real dos metadados mapea
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Você pode ver uma visualização em tempo real dos metadados mapeados no painel Detalhes e resumo do documento para documentos. Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets ou Assets Essentials. Se o administrador do Workfront tiver ativado a sincronização de metadados de objeto, os campos permanecerão atualizados se forem alterados em qualquer um dos aplicativos.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -62,6 +64,7 @@ Para obter informações sobre como solicitar acesso adicional, consulte <strong
 
 *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
 
++++
 
 ## Pré-requisitos
 
@@ -77,6 +80,7 @@ Para abrir o painel Metadados em Detalhes do documento:
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Passe o cursor do mouse sobre o documento necessário e selecione **Detalhes do Documento**.
 1. Localize e expanda a seção **Metadados**.
+
    >[!NOTE]
    >
    >Não é possível editar campos nesta seção. Elas são somente para visualização.
@@ -91,6 +95,7 @@ Para abrir o painel Metadados no painel Resumo:
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 1. Clique no **ícone Resumo** ![ícone resumo](assets/summary-panel-icon.png) e expanda a seção **Metadados**.
+
    >[!NOTE]
    >
    >Não é possível editar campos nesta seção. Elas são somente para visualização.

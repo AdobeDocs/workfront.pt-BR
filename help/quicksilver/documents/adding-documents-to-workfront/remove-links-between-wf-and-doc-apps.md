@@ -6,9 +6,9 @@ description: Ao fazer upload de um documento de qualquer serviço pela primeira 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Para obter informações sobre como vincular serviços de documentos externos ao
 Como o serviço de documentos é o que permite a permissão para vincular ao Workfront, não é possível para o Workfront remover a permissão concedida pelo serviço de documentos. Você deve remover a permissão de dentro do aplicativo de serviço de documento ou chamar nossa Equipe de Suporte para remover este link de nossos servidores.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Remova o link entre o Workfront e o Dropbox
 

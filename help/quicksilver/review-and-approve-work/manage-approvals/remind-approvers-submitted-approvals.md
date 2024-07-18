@@ -6,9 +6,9 @@ description: Você pode lembrar os aprovadores sobre aprovações pendentes para
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,8 @@ Você pode lembrar os aprovadores sobre aprovações pendentes para os seguintes
 * Documentos
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -47,7 +49,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+
++++
 
 ## Solicitações de Acesso
 

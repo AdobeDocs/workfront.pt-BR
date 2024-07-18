@@ -6,9 +6,9 @@ description: A delegação de solicitações de aprovação permite que você at
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Não é possível delegar aprovações de planilhas de horas, documentos ou prov
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do Workfront.
+Para descobrir o tipo de plano ou licença que você tem, entre em contato com o administrador do Workfront.
+
++++
 
 ## Entender o acesso do usuário a aprovações delegadas
 
@@ -79,9 +83,7 @@ Depois que a delegação de aprovação é interrompida ou cancelada, o usuário
 
 ## Delegar solicitações de aprovação na área Página inicial
 
-* [Delegar suas aprovações a outro usuário](#delegate-your-approvals-to-another-user)
-* [Atualizar ou parar uma delegação de aprovações](#update-or-stop-an-approval-delegation)
-* [Exibir aprovações delegadas](#view-delegated-approvals)
+Você pode delegar solicitações de aprovação a partir da área da página inicial.
 
 ### Delegar suas aprovações a outro usuário {#delegate-your-approvals-to-another-user}
 

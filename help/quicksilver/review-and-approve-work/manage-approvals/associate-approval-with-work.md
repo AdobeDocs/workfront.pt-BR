@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 65680d320a06cc96c7434d3efb91eb16e6e86e44
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Para obter informações sobre como criar um processo de aprovação global, con
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -63,7 +65,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+
++++
 
 ## Considerações sobre a associação de processos de aprovação a itens de trabalho
 

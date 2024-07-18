@@ -6,9 +6,9 @@ description: Você pode adicionar um arquivo de imagem ao Adobe Workfront copian
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 399c56757839a670a39b942d6b57992bd4f94cdc
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Esse recurso é específico do navegador, da seguinte maneira:
 * **Safari:** não há suporte para esta funcionalidade.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -56,6 +58,8 @@ Você deve ter o seguinte:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Colar da área de transferência
 

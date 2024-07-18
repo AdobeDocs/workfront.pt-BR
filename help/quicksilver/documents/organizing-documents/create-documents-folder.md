@@ -6,9 +6,9 @@ description: Os documentos podem ser organizados em pastas. Você pode criar pas
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Os documentos podem ser organizados em pastas. Você pode criar pastas pessoais 
 >Organizar documentos simplesmente cria vínculos entre os documentos e os objetos aos quais você os associa. Ele não os realoca no sistema.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -46,15 +48,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Exibir pastas
 
 Você pode exibir pastas em miniatura, padrão ou na exibição de lista. Para alterar a exibição, use as opções de exibição no canto superior direito.
 
-1. Clique em **Documentos** no menu principal. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   Ou
+Ou
 
-   Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
+Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
 
 1. Clique nas opções de exibição acima do painel direito para alterar a forma como os documentos são exibidos.
 
@@ -64,11 +68,11 @@ Você pode exibir pastas em miniatura, padrão ou na exibição de lista. Para a
 
 Crie pastas para organizar melhor seus documentos. É possível criar até 2.000 pastas em um objeto e até 50 subpastas em cada pasta. A contagem de subpastas está próxima do máximo de 2.000 pastas.
 
-1. Clique em **Documentos** no menu principal. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   Ou
+Ou
 
-   Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
+Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
 
 1. Para criar uma pasta de nível superior, verifique se nada está selecionado e clique em **Adicionar novo** > **Pasta**.
 
