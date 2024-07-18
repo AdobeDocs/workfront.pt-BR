@@ -6,9 +6,9 @@ description: Este cenário de integração vincula um projeto  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </tbody> 
   </table>
 
-  Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Modelos de projeto que representam campanhas e outros projetos que exigem financiamento, configurados com um tópico de fila [!UICONTROL Solicitação de orçamento]. O tópico da fila [!UICONTROL Solicitação de orçamento] é atribuído para usar o formulário personalizado [!UICONTROL Solicitação de orçamento].
 * Um formulário de **[!UICONTROL Resumo da campanha]** para o objeto de projeto.
@@ -141,7 +141,7 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </tbody> 
   </table>
 
-  Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuração [!DNL Anaplan] Esperada
 

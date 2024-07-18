@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
+source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1601'
 ht-degree: 11%
 
 ---
@@ -133,7 +133,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos portf�
 | Excluir | ✓ ➡&#42; |   |   |   |
 | Compartilhar | ✓ ➡&#42; |   |   |   |
 | Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
-| Exibir | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Editar detalhes | ✓ µ |   |   |   |
 | Anexar formulários personalizados | ✓ µ |   |   |   |
 | Editar campos personalizados | ✓ µ |   |   |   |
@@ -157,7 +157,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos progra
 | Excluir | ✓ ➡&#42; |   |   |   |
 | Compartilhar | ✓ ➡&#42; |   |   |   |
 | Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
-| Exibir | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Editar detalhes | ✓ µ |   |   |   |
 | Anexar formulários personalizados | ✓ µ |   |   |   |
 | Editar campos personalizados | ✓ µ |   |   |   |

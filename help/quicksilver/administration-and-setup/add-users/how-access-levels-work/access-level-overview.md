@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 5%
 
 ---
@@ -281,8 +281,8 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Projeto |   | ✓ µ |   |
 | Tarefa |   | ✓ µ |   |
 | Problema |   |   | ✓ µ |
-| Portfólios | ✓ µ |   |   |
-| Programas | ✓ µ |   |   |
+| Portfólios |   | ✓ µ |   |
+| Programas |   | ✓ µ |   |
 | Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (Somente a guia Detalhes ) |   |
 | Filtros, visualizações e agrupamentos |   |   | ✓ µ |
 | Documento |   |   | ✓ µ |
@@ -297,6 +297,13 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Metas |   |   | ✓ µ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>A partir da versão 24.7, os Colaboradores terão acesso de Visualização a Programas e Portfolio por padrão.
+>
+> 
+>Os colaboradores integrados antes da versão 24.7 continuarão a ter acesso a Programas e Portfolio por padrão. Se necessário, é possível atualizar o acesso para visualizá-los manualmente.
 
 ### Nível de acesso de Usuário Externo
 
