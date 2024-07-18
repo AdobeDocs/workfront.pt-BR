@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,4 @@ Visualizar e selecionar as opções de caixa de seleção e botão de opção em
 Isso depende de como você posiciona os campos no formulário personalizado. Se você colocar outro campo na mesma linha com a caixa de seleção ou o campo de botão de opção, as opções poderão ter apenas espaço horizontal suficiente para exibição em uma única coluna.
 
 Para obter informações sobre como preencher um formulário personalizado, consulte [Editar informações em campos de formulário personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
-
-Para obter informações sobre como criar uma caixa de seleção ou um campo de botão de opção em um formulário personalizado, consulte as seções [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) e [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) no artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

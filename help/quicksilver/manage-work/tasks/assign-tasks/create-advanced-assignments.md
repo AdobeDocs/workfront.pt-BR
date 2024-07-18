@@ -7,20 +7,14 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
 # Criar atribuições avançadas
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Você pode gerenciar atribuições de tarefas ou problemas usando as Atribuições Avançadas.
 
@@ -97,10 +91,6 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 1. Clique em **Avançado**.
 
-   Imagem de amostra no ambiente de produção:
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Clique em Avançado](assets/assignments-box-in-task-header.png)
 
 1. No campo **Pesquisar pessoas, funções e equipes**, comece digitando o nome de um usuário, função ou equipe e clique no nome quando ele aparecer na lista suspensa.
@@ -159,10 +149,6 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    * **Função do destinatário:** selecione a função que o usuário deve usar ao realizar esta atribuição.  A Função principal do usuário é exibida por padrão. Clique na caixa Função do responsável para selecionar outra função.  Ao atribuir a tarefa ou o problema a uma função primeiro e, em seguida, adicionar um usuário que pode desempenhar essa função como uma segunda atribuição, a lista de usuários sugeridos é filtrada para os usuários que podem desempenhar as funções já atribuídas à tarefa e ao problema.
 
-     Imagem de amostra no ambiente de produção:
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
-
-     <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
      ![Função do destinatário](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -181,14 +167,6 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    * **Horas planejadas**: quando o tipo de duração for Atribuição calculada ou Simples, atualize o número de Horas planejadas. Como resultado, as porcentagens de alocação ou as horas de cada recurso são distribuídas uniformemente. O Workfront calcula as horas planejadas quando o tipo de duração é Trabalho calculado ou orientado pelo esforço. Para obter mais informações, consulte [Visão geral da duração e do tipo de duração da tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-     Imagem de amostra no ambiente de produção:
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-     <div class="preview">
-
-     Imagem de exemplo no ambiente de Pré-visualização:
      ![Atribuições avançadas](assets/advanced-assignments-duration-type-allocations.png)
-
-     </div>
 
 1. Clique em **Salvar**.

@@ -7,9 +7,9 @@ description: Para agregar vários campos no Adobe Workfront e exibir esse valor 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 Para agregar vários campos no Adobe Workfront e exibir esse valor agregado em um novo campo, você pode criar o seguinte:
 
 * Um campo personalizado calculado em um formulário personalizado\
-  Para obter mais informações sobre como adicionar um campo personalizado calculado a um formulário personalizado, consulte a seção [Adicionar um campo calculado a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) no artigo [Adicionar dados calculados a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Para obter mais informações sobre como adicionar um campo personalizado calculado a um formulário personalizado, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Uma coluna calculada em uma exibição\
   Para obter mais informações sobre o uso de cálculos em uma exibição, consulte a seção [Usar Modo de Texto em exibições](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) no artigo [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

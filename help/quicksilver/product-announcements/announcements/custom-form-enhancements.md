@@ -4,9 +4,9 @@ description: Os seguintes aprimoramentos significativos foram feitos no gerencia
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ Atualmente, os usuários não podem ver o widget nas seguintes áreas:&#x200B;
 * A caixa Editar do objeto, se ele não tiver a nova aparência e comportamento da experiência do Adobe Workfront (por exemplo, a caixa Editar Despesa)
 * &#x200B;O aplicativo móvel do Workfront
 
-Para obter mais informações sobre como adicionar widgets a formulários personalizados, consulte [Adicionar ou editar uma imagem ou outro widget de ativo em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Associar um formulário personalizado a vários tipos de objeto
 
 Você pode associar vários tipos de objetos a qualquer novo formulário personalizado:
@@ -68,8 +66,6 @@ Isso é especialmente útil quando você converte um problema ou tarefa, pois é
 >
 >Quando a conversão ocorrer, o formulário personalizado já deverá estar associado ao tipo de objeto para o qual você está convertendo.
 
-Para obter instruções sobre como adicionar um dispositivo de ativo a um formulário personalizado, consulte [Adicionar ou editar uma imagem ou outro dispositivo de ativo em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 Considere o seguinte ao criar ou editar um formulário personalizado de vários objetos:
 
 * [Opções de permissão para quebras de seção](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ O conjunto de permissões de quebra de seção disponível para todos os outros 
 Em um formulário personalizado associado a tipos de objeto de ambos os grupos, o sistema usa um conjunto comum de permissões de quebra de seção que funcionam para todos os tipos de objeto. Especificamente, em vez de usar a opção de permissão Edição limitada, esse conjunto comum substitui a opção de permissão Editar pela opção de permissão Edição limitada. A opção Editar é compatível com todos os tipos de objeto.
 
 Ao associar um tipo de objeto que usa opções de permissão diferentes dos outros tipos de objeto que já estão em um formulário personalizado, uma mensagem é exibida e permite que você alterne para o conjunto comum de opções de permissão que será usado para o formulário. Essa alteração se aplicará a todos os campos, mesmo que eles não estejam em uma quebra de seção.
-
-Para obter mais informações, consulte [Adicionar uma quebra de seção a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
 ### Compatibilidade de campo personalizado calculada
 
@@ -125,7 +119,6 @@ Quando isso ocorrer, você poderá executar um dos seguintes procedimentos:
 >
 >  Se você adicionar um tipo de objeto na frente de um nome de campo, ele fará referência ao objeto pai do objeto, de modo que você não pode usar `{project}.{name}` com um projeto, mas pode usá-lo com uma tarefa.
 
-Para obter instruções sobre como adicionar um campo personalizado calculado a um formulário personalizado, consulte [Adicionar dados calculados a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 Para obter mais informações sobre variáveis como `$$OBJCODE`, consulte [Visão geral das variáveis de filtro curinga](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

@@ -6,9 +6,9 @@ description: Seu perfil  [!DNL Adobe Workfront]  contém informações sobre voc
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 1%
 
 ---
@@ -523,7 +523,7 @@ Você deve ter um dos seguintes direitos de acesso ou permissões para anexar um
 
 Todos os usuários podem ver formulários personalizados que foram associados a seus perfis.
 
-O administrador do [!DNL Workfront] deve configurar formulários personalizados para o objeto de usuário para que você possa anexar um formulário personalizado ao seu perfil de usuário. Para obter mais informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+O administrador do [!DNL Workfront] deve configurar formulários personalizados para o objeto de usuário para que você possa anexar um formulário personalizado ao seu perfil de usuário. Para obter mais informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Comentário]
 

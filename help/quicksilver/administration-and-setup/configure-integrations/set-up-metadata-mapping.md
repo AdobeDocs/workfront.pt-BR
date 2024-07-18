@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '615'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Quando um usuário envia um documento de [!DNL Workfront] para um aplicativo [!D
 
 Você pode mapear o mesmo campo [!DNL Workfront] para vários campos de metadados em [!DNL Workfront DAM], mas não pode usar um campo de metadados em nenhum desses aplicativos para vários campos de metadados [!DNL Workfront].
 
-Para configurar vários campos [!DNL Workfront] para serem exportados para um campo de metadados em um aplicativo [!DNL Workfront], primeiro crie um campo personalizado calculado em [!DNL Workfront] para exibir todos os campos personalizados individuais de um objeto. Em seguida, mapeie o campo [!DNL Workfront] calculado para um campo de metadados no aplicativo [!DNL Workfront]. Para obter mais informações sobre campos personalizados calculados, consulte [Adicionar dados calculados a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para configurar vários campos [!DNL Workfront] para serem exportados para um campo de metadados em um aplicativo [!DNL Workfront], primeiro crie um campo personalizado calculado em [!DNL Workfront] para exibir todos os campos personalizados individuais de um objeto. Em seguida, mapeie o campo [!DNL Workfront] calculado para um campo de metadados no aplicativo [!DNL Workfront]. Para obter mais informações sobre campos personalizados calculados, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Antes de mapear campos para o processo de mapeamento de metadados, você deve habilitar o aplicativo em [!DNL Workfront]. Para obter mais informações, consulte [Configurar integrações de documentos](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 

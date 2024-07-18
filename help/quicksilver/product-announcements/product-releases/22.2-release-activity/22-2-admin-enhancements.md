@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ Anteriormente, você podia configurar um formulário personalizado para funciona
 
 Essa funcionalidade funciona com todos os formulários personalizados criados anteriormente em seu sistema Workfront. Por exemplo, se você já tiver um formulário personalizado que foi criado para o tipo de objeto Tarefa, poderá configurar o formulário para funcionar com outros tipos de objeto, como Projeto e Problema.
 
-Para obter mais informações, consulte a seção [Começar a criar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) no artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 >[!NOTE]
 >
->* No momento de nosso lançamento inicial de Pré-visualização dessa funcionalidade, desativamos temporariamente a capacidade de copiar um formulário personalizado de vários objetos. Essa habilidade foi ativada em 24 de março. Para obter informações sobre como copiar um formulário personalizado, consulte [Copiar um formulário personalizado para criar um novo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* Em um campo personalizado calculado, alguns campos referenciados podem não ser compatíveis com os tipos de objeto configurados para o formulário. Nossa solução é um curinga que permitirá que o cálculo produza valores diferentes, dependendo do objeto ao qual o formulário está anexado. Adicionamos o curinga em 24 de março. Para obter informações sobre como usá-lo, consulte a seção [Campos personalizados calculados em formulários personalizados de vários objetos](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) no artigo [Adicionar dados calculados a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* Para quebras de seção em formulários personalizados, criamos um conjunto de permissões comuns de visualização e edição que funcionam para todos os tipos de objeto que você pode configurar para um formulário. Em um cenário, descobrimos que uma dessas permissões, Edição limitada, pode causar erros em um formulário. Isso foi corrigido em 24 de março. Para obter mais informações sobre quebras de seção, consulte [Adicionar uma quebra de seção a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* No momento de nosso lançamento inicial de Pré-visualização dessa funcionalidade, desativamos temporariamente a capacidade de copiar um formulário personalizado de vários objetos. Essa habilidade foi ativada em 24 de março.
+>* Em um campo personalizado calculado, alguns campos referenciados podem não ser compatíveis com os tipos de objeto configurados para o formulário. Nossa solução é um curinga que permitirá que o cálculo produza valores diferentes, dependendo do objeto ao qual o formulário está anexado. Adicionamos o curinga em 24 de março.
+>* Para quebras de seção em formulários personalizados, criamos um conjunto de permissões comuns de visualização e edição que funcionam para todos os tipos de objeto que você pode configurar para um formulário. Em um cenário, descobrimos que uma dessas permissões, Edição limitada, pode causar erros em um formulário. Isso foi corrigido em 24 de março.
 >
 
 ## O catálogo de blueprints está disponível para todos os usuários e os administradores podem permitir solicitações
@@ -60,7 +58,6 @@ Anteriormente, os formulários personalizados eram completamente baseados em tex
 >
 >Nas novas áreas de experiência do Adobe Workfront que ainda não foram modernizadas, como a caixa que é exibida ao editar itens em massa, as imagens de formulário personalizado não são exibidas. Elas serão exibidas à medida que continuarmos a atualizar essas áreas.
 
-Para obter mais informações, consulte [Adicionar ou editar um widget de ativo em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Novas configurações de nível de acesso padrão
 

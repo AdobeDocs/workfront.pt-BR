@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Para obter uma lista de todas as alterações disponíveis com a versão 20.3, c
 Agora, quando o administrador do sistema cria campos de formulários personalizados configurados para formatação, é possível formatar o texto nos campos em que você mais os usa: em listas em todo o Workfront. Em vez de entrar na área Detalhes para formatar o texto no formulário personalizado, você pode clicar em um campo em uma lista e aplicar Negrito, Itálico e Sublinhado ao texto lá.
 
 Observe que essa funcionalidade está disponível somente nas listas atualizadas. Para obter mais informações sobre listas atualizadas, consulte [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-Para obter informações sobre como um administrador do Workfront cria campos de texto com formatação, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Atualização da aparência de vários cabeçalhos globais
 
@@ -113,5 +111,4 @@ Para lhe dar mais flexibilidade na rotulagem e renomeação de campos de Formul�
 
 Anteriormente, o rótulo era exibido acima do campo para usuários e usado pelo sistema para identificar o campo. Assim, alterar o rótulo para os usuários fazia com que o campo funcionasse mal onde quer que fosse usado, porque o sistema não podia mais identificá-lo.
 
-Para obter mais informações, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

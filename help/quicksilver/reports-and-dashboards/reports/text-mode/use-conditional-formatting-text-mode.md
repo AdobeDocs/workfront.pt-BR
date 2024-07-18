@@ -6,9 +6,9 @@ description: Usar formatação condicional no Modo de texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -510,7 +510,7 @@ Para obter mais informações sobre como formatar a `valueexpression line`, cons
 
 Você não pode formatar condicionalmente uma coluna que contém uma linha de código `valueexpression`. Em vez disso, você pode adicionar um Campo personalizado calculado a um Formulário personalizado e associá-lo aos objetos que você está exibindo no relatório. Em seguida, é possível formatar condicionalmente as colunas que exibem esse campo.
 
-Para obter mais informações sobre Campos Personalizados Calculados, consulte [Adicionar dados calculados a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obter mais informações sobre Campos Personalizados Calculados, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ## Adicionar um valor de agregador em uma coluna Text Mode
 

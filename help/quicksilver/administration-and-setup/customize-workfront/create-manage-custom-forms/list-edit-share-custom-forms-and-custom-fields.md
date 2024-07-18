@@ -4,9 +4,11 @@ description: Ao visualizar uma lista dos formulários personalizados de sua orga
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+hidefromtoc: true
+hide: true
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Ao visualizar uma lista dos formulários personalizados de sua organização e dos campos e widgets personalizados que foram adicionados a eles, você pode usar as opções na barra de ferramentas para editar suas propriedades, limitar com quem eles são compartilhados, copiá-los e excluí-los. Você também pode exibir outras informações nas colunas exibidas, como a quais tipos de objeto cada formulário personalizado está associado.
 
-Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Adicionar um campo personalizado a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Adicionar ou editar um widget de ativo em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisitos de acesso
 
@@ -53,9 +55,9 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
    Para obter informações sobre o que você pode fazer ao selecionar um formulário personalizado na lista, consulte os seguintes artigos:
 
-   * [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Compartilhar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [Copiar um formulário personalizado para criar um novo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+   * [Copiar um formulário personalizado para criar um novo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Excluir ou desativar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Clique na guia **Campos**.
@@ -76,12 +78,12 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    Para obter informações sobre o que você pode fazer ao selecionar um item na lista, consulte os seguintes artigos:
 
    * [Adicionar ou editar um campo personalizado, quebra de seção ou widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [Configurar compartilhamento para campos e widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [Configurar compartilhamento para campos e widgets personalizados em um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Excluir um campo ou widget personalizado do sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. Selecione a guia **Seções** e verifique se o **Grupo de Parâmetros** está selecionado como a **Exibição** da lista.
 
    Todas as quebras de seção são exibidas nessa visualização, juntamente com uma lista de formulários personalizados que contêm cada quebra de seção.
 
-   Para obter informações sobre como editar uma seção personalizada selecionada na lista, consulte [Adicionar uma quebra de seção a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+   Para obter informações sobre como editar uma seção personalizada selecionada na lista, consulte [Organizar e visualizar um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

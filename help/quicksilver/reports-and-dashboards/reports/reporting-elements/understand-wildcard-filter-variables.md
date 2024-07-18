@@ -7,9 +7,9 @@ description: Ao usar curingas em filtros, você pode fazer referência a um usu�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,6 @@ Você pode escolher entre os seguintes curingas baseados em objetos:
      <p>A variável $$OBJCODE refere-se ao tipo de um objeto. </p> 
      <p>Em um formulário personalizado, quando os tipos de objeto selecionados do formulário forem incompatíveis com um campo referenciado em um campo personalizado calculado, você poderá usar esse curinga para evitar a solução alternativa de criar formulários duplicados para esses tipos de objeto.</p> 
      <p>No campo personalizado calculado, faça isso incluindo o curinga em uma expressão IF para que o cálculo possa produzir valores diferentes para cada um dos tipos de objeto do formulário. </p> 
-     <p>Para obter mais informações e um exemplo, consulte a seção <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Campos personalizados calculados em formulários personalizados de vários objetos</a> no artigo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Adicionar dados calculados a um formulário personalizado</a>.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

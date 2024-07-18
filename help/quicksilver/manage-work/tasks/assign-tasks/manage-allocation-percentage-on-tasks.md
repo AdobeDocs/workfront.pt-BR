@@ -6,20 +6,14 @@ description: A porcentagem de alocação representa a quantidade de tempo que um
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
 
 # Gerenciar porcentagem de alocação de usuários ou funções em tarefas
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 A porcentagem de alocação representa a quantidade de tempo que um recurso atribuído deve trabalhar em uma tarefa em um dia. É a porcentagem de um dia útil (de acordo com o agendamento do usuário ou projeto) em que um recurso é alocado durante toda a duração da tarefa.
 
@@ -91,10 +85,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Não é possível modificar a porcentagem de alocação de uma equipe atribuída a uma tarefa.
 
-   Imagem de amostra no ambiente de produção:
-   ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Modificar porcentagem de alocação](assets/advanced-assignments-allocation-percentage.png)
 
 1. Clique em **Salvar**.

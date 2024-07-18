@@ -6,9 +6,9 @@ description: Você pode fazer referência aos formulários personalizados de um 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 O formulário personalizado deve existir antes que você possa referenciá-lo em um relatório.
 
-Para obter mais informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obter mais informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Fazer referência ao conteúdo de formulários personalizados
 
@@ -61,7 +61,7 @@ Você pode referenciar campos em formulários personalizados. Depois que um form
 >[!NOTE]
 >
 >Para campos que têm várias opções, todas as opções estão disponíveis nos Filtros e Avisos do relatório, incluindo aqueles que estão ocultos.\
->Para obter mais informações sobre como ocultar opções de um campo personalizado com várias opções, consulte o artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>Para obter mais informações sobre como ocultar opções de um campo personalizado com várias opções, consulte o artigo [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Ao criar o relatório, basta usar o tipo de objeto do formulário como a fonte do campo e usar o nome do campo personalizado como o nome do campo.
 

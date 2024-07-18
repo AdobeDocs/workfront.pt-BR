@@ -6,9 +6,9 @@ description: Converter um problema em um projeto no Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1957'
 ht-degree: 1%
 
 ---
@@ -129,7 +129,7 @@ Você pode converter um problema em um projeto em branco.
      >[!TIP]
      >
      >* Se um formulário personalizado de vários objetos anexado ao problema for configurado para uso com problemas e projetos, todas as informações salvas no formulário serão mantidas quando você fizer a conversão, se os campos existirem tanto no problema quanto nos formulários personalizados do projeto.
-     >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema, bem como ao projeto, o problema e o projeto devem ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes. Para obter mais informações, consulte a seção &quot;Campos personalizados calculados em formulários personalizados de vários objetos&quot; em [Adicionar dados calculados a um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+     >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema, bem como ao projeto, o problema e o projeto devem ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes. Para obter mais informações, consulte a seção &quot;Campos personalizados calculados em formulários personalizados de vários objetos&quot; em [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 1. Clique em [!UICONTROL **Converter para projeto**].
 
@@ -237,7 +237,7 @@ Você pode converter um problema em um projeto usando um modelo.
         >[!TIP]
         >
         >* Se um formulário personalizado de vários objetos anexado ao problema for configurado para uso com problemas e projetos, todas as informações salvas no formulário serão mantidas quando você fizer a conversão, se os campos existirem tanto no problema quanto nos formulários personalizados do projeto.
-        >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema, bem como ao projeto, o problema e o projeto devem ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes. Para obter mais informações, consulte a seção &quot;Campos personalizados calculados em formulários personalizados de vários objetos&quot; em [Adicionar dados calculados a um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+        >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema, bem como ao projeto, o problema e o projeto devem ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes. Para obter mais informações, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
         >* Se um formulário personalizado anexado ao modelo contiver um campo personalizado também encontrado em um formulário personalizado anexado ao problema, o valor do campo do problema será usado para o novo projeto. No entanto, se o campo personalizado estiver em branco no problema, o valor do template será usado.
 
 1. (Opcional) Defina outros detalhes &#x200B; projeto (proprietário do projeto, datas do projeto) e tarefas, conforme necessário.

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # Atribuir problemas
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -126,11 +120,7 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
    * Comece a digitar o nome de um usuário, função ou equipe que deseja atribuir e clique nele quando ele aparecer na lista.
 
-     Imagem de amostra no ambiente de produção:
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-     <span class="preview">![Pesquisa de atribuições](assets/smart-assignments-issue-header.png)</span>
+     ![Pesquisa de atribuições](assets/smart-assignments-issue-header.png)
 
    * (Condicional) Clique em um dos nomes, funções ou equipes nas listas disponíveis
    * Clique em **Atribuir a mim** para atribuí-lo a si mesmo
@@ -177,10 +167,6 @@ Para atribuir ocorrências em uma lista:
 
    * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho ou equipe ativa que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
 
-     Imagem de amostra no ambiente de produção:
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
      ![Campo de atribuições](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]

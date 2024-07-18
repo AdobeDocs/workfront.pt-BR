@@ -5,9 +5,9 @@ title: Trabalhar em fusos horários
 description: Pode ser útil entender como o  [!DNL Adobe Workfront] usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -111,10 +111,10 @@ Os administradores do [!DNL Workfront] criam cronogramas separados para cada fus
 
 Você pode usar uma série de campos personalizados calculados em um formulário personalizado para exibir a hora atual dos usuários em sua organização, como uma linha de relógios do aeroporto exibindo a hora em várias cidades. Você pode criar um campo para cada um dos fusos horários em que seus usuários trabalham, cada um calculando o horário para seu fuso horário.
 
-Para obter mais informações, consulte [Adicionar dados calculados a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), bem como a seção [Campos personalizados calculados de data e hora](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) no artigo [Visão geral das expressões de dados calculados](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Para obter mais informações, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md), bem como a seção [Campos personalizados calculados de data e hora](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) no artigo [Visão geral das expressões de dados calculados](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Usar campos de texto em vez de campos de data em um formulário personalizado {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 Se você não quiser que o [!DNL Workfront] converta horas configuradas em um objeto para usuários em diferentes fusos horários, poderá usar um campo de texto em um formulário personalizado anexado a um objeto, em vez de um campo de data. Dessa forma, o horário exibe o horário digitado para todos no projeto.
 
-Se você fizer isso, recomendamos lembrar os usuários do formulário de calcular a diferença entre o fuso horário deles e o seu para que eles possam determinar quando o trabalho deve começar e terminar. Você pode incluir isso nas instruções digitadas para o formulário personalizado ou em uma dica de ferramenta para esse campo. Para obter mais informações, consulte [Adicionar um campo personalizado a um formulário personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+Se você fizer isso, recomendamos lembrar os usuários do formulário de calcular a diferença entre o fuso horário deles e o seu para que eles possam determinar quando o trabalho deve começar e terminar. Você pode incluir isso nas instruções digitadas para o formulário personalizado ou em uma dica de ferramenta para esse campo. Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

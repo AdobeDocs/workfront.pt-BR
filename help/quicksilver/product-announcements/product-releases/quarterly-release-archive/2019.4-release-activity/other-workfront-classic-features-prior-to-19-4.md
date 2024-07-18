@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '354'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,6 @@ Para obter informações sobre o período de lançamento e todas as funcionalida
      <p>Por exemplo, se você criou um campo Checkboxes, é possível alterá-lo para um campo Suspenso ou um campo Radio Buttons. Esses três tipos de exibição de campo são intercambiáveis.</p> 
      <p>Ou, se você tiver criado um Campo de texto de linha única, poderá alterá-lo para um campo de texto de parágrafo. Esses dois tipos de exibição de campo são intercambiáveis.</p> 
      <p>Anteriormente, para alterar o tipo de exibição de um campo personalizado, era necessário criar um novo campo e excluir o antigo. Isso exigia a transferência de dados, o que geralmente era demorado.</p> 
-     <p>Para obter mais informações, consulte <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Criar ou editar um formulário personalizado</a> no artigo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Criar ou editar um formulário personalizado</a></p> 
      <div class="workfront_plans"> 
       <p><strong>Disponível nestes ambientes:</strong> </p> 
       <ul> 

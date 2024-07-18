@@ -1,5 +1,5 @@
 ---
-title: Renomear um formulário personalizado com o designer do formulário
+title: Renomear um formulário personalizado
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Renomear um formulário personalizado com o designer do formulário
+# Renomear um formulário personalizado
 
 É possível renomear um formulário personalizado a qualquer momento após sua criação com o designer do formulário.
 

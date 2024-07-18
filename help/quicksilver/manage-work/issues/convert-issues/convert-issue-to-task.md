@@ -6,9 +6,9 @@ description: Se for necessário trabalhar mais para concluir um problema depois 
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >[!TIP]
    >
    >* Se um formulário personalizado de vários objetos anexado ao problema for configurado para uso com problemas e tarefas, todas as informações salvas no formulário serão mantidas quando você fizer a conversão, se os campos existirem tanto no problema quanto nos formulários personalizados da tarefa.
-   >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema, bem como à tarefa, o problema e a tarefa deverão ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes. Para obter mais informações, consulte a seção &quot;Campos personalizados calculados em formulários personalizados de vários objetos&quot; em [Adicionar dados calculados a um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema, bem como à tarefa, o problema e a tarefa deverão ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes. Para obter mais informações, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
    >* Se o projeto de destino tiver formulários padrão definidos no campo Forms personalizado padrão da tarefa ao editar o projeto, esses formulários de tarefa também serão adicionados à nova tarefa. Quaisquer campos personalizados comuns entre o problema original e os campos nos formulários de tarefa padrão são pré-preenchidos com informações dos campos de problema.
 
 

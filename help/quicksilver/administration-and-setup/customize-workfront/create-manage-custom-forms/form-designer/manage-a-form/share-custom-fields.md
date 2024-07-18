@@ -1,5 +1,5 @@
 ---
-title: Configurar compartilhamento para campos e widgets personalizados com o designer de formulário
+title: Configurar compartilhamento para campos e widgets personalizados
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
 
-# Configurar compartilhamento para campos e widgets personalizados com o designer de formulário
+# Configurar compartilhamento para campos e widgets personalizados
 
 Por padrão, quando você adiciona um novo campo ou widget personalizado a um formulário personalizado, qualquer pessoa no sistema com acesso a formulários personalizados pode editar as propriedades desse item, como rótulo e nome. Você pode alterar isso controlando com quem ele pode ser compartilhado.
 

@@ -6,7 +6,7 @@ description: Como um Gerenciador de recursos, você pode atribuir trabalho aos u
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 # Gerenciar alocações de usuário no Balanceador de carga de trabalho
 
 <!-- Audited: 01/2024 -->
-
-{{highlighted-preview}}
 
 Como um Gerenciador de recursos, você pode atribuir trabalho aos usuários e gerenciar suas alocações diárias, semanais ou mensais no Balanceador de carga de trabalho para garantir que eles recebam uma quantidade de horas que se ajuste a suas programações disponíveis.
 
@@ -117,14 +115,14 @@ Considere o seguinte ao localizar alocações diárias, semanais ou mensais para
 
 * Dois usuários em fusos horários ou agendamentos diferentes dos dos usuários atribuídos podem fazer com que os valores de alocação sejam exibidos de forma diferente para dois usuários que visualizam os mesmos itens de trabalho.
 
-* Quando um usuário tem uma folga programada, o dia ou a parte do dia é exibida em um plano de fundo cinza, <span class="preview">e um ícone de avião indica a folga</span>. Se o administrador do Workfront ativou a configuração Tempo livre do usuário na área Configuração para considerar o tempo livre do usuário, as horas alocadas serão movidas para o próximo dia disponível na linha do tempo. Se a configuração estiver desativada, as horas alocadas permanecerão no dia marcado para folga e o usuário será exibido como superalocado. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Quando um usuário tem uma folga programada, o dia ou a parte do dia é exibida em um plano de fundo cinza, e um ícone de avião indica a folga. Se o administrador do Workfront ativou a configuração Tempo livre do usuário na área Configuração para considerar o tempo livre do usuário, as horas alocadas serão movidas para o próximo dia disponível na linha do tempo. Se a configuração estiver desativada, as horas alocadas permanecerão no dia marcado para folga e o usuário será exibido como superalocado. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Se o tempo de folga tiver sido marcado depois que o usuário foi atribuído a um item de trabalho, você deverá recalcular a linha do tempo do projeto para exibir a alocação movida. Para obter informações, consulte [Recalcular linhas do tempo do projeto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * <span class="preview">Quando vários usuários são atribuídos a uma tarefa e o destinatário principal tem folga agendada, a linha do tempo é deslocada (se as datas não forem fixas) e as horas planejadas de todos os atribuídos são redistribuídas pela nova duração da tarefa. Se a tarefa tiver datas fixas, a linha do tempo não será alterada devido ao tempo livre, e as horas serão realocadas entre os dias restantes.</span>
-   * <span class="preview">Se as alocações forem feitas manualmente, as horas planejadas não serão realocadas após o tempo de folga.</span>
+   * Quando vários usuários são atribuídos a uma tarefa e o principal responsável tem uma folga agendada, a linha do tempo é deslocada (se as datas não forem fixas) e as horas planejadas de todos os responsáveis são redistribuídas pela nova duração da tarefa. Se a tarefa tiver datas fixas, a linha do tempo não será alterada devido ao tempo livre e as horas serão realocadas entre os dias restantes.
+   * Se as alocações forem feitas manualmente, as horas planejadas não serão realocadas após o tempo de folga.
 
 * Se houver vários usuários atribuídos à tarefa, a quantidade de Horas planejadas será distribuída uniformemente para cada usuário primeiro e, em seguida, uniformemente para cada dia dentro da Duração da tarefa. Essa distribuição se torna a alocação de cada usuário para a tarefa.
 

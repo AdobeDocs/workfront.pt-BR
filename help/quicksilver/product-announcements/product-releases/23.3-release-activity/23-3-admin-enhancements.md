@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -44,4 +44,4 @@ Além disso, ao abrir um formulário personalizado no designer de formulário be
 
 A edição da lógica existente e a adição de uma nova lógica a um formulário personalizado ainda não estão disponíveis no designer de formulário beta, mas estão planejadas para o futuro.
 
-Para obter mais informações, consulte [Visão geral do designer do formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Para obter mais informações, consulte [Visão geral dos formulários personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

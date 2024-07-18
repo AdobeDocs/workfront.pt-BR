@@ -5,9 +5,9 @@ description: Além de configurar as despesas de rastreamento e receita, você po
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Considere o seguinte ao planejar usar registros de faturamento:
 
 1. (Opcional) Em **Forms Personalizado**, selecione um formulário personalizado de registros de cobrança que você deseja adicionar ao registro de cobrança.
 
-   Você (ou outro usuário com acesso a formulários personalizados) deve criar um formulário personalizado de registros de cobrança antes de selecioná-lo aqui. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Você (ou outro usuário com acesso a formulários personalizados) deve criar um formulário personalizado de registros de cobrança antes de selecioná-lo aqui. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Você pode repetir essa etapa para adicionar outros formulários personalizados necessários para o registro de cobrança.
 

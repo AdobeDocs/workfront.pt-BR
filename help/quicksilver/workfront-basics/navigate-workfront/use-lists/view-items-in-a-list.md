@@ -5,9 +5,9 @@ description: Você pode exibir listas de objetos em  [!DNL Adobe Workfront]  par
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2398'
 ht-degree: 0%
 
 ---
@@ -628,7 +628,7 @@ A tabela a seguir mostra algumas das diferenças entre as listas herdadas e atua
   </tr> 
   <tr> 
    <td>Não é possível editar campos personalizados em linha com formatação de rich text.</td> 
-   <td> <p>O texto em campos personalizados com formatação pode ser configurado para permitir negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco.</p> <p>Para obter mais informações, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p> </td> 
+   <td> <p>O texto em campos personalizados com formatação pode ser configurado para permitir negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário com o designer de formulário</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>A formatação condicional pode alterar a cor do texto dos links em uma lista</td> 
