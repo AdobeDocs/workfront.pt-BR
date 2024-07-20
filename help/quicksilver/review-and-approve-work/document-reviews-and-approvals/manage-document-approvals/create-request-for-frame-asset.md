@@ -6,7 +6,7 @@ title: "Criar uma solicitação de revisão ou aprovação para um ativo Frame.i
 description: Você pode criar uma solicitação de revisão ou aprovação para ativos conectados ao Frame.io.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 1. Role para baixo até a seção **Aprovações** e clique em **Adicionar**.
 
-![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 

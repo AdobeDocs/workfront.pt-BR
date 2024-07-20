@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Tomar uma decisão sobre uma prova
+title: "Tome uma decisão sobre uma prova: índice do artigo"
 description: Aprovar uma prova
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 471768fd-cf52-4a3f-b6b3-14a35f4c7a4b
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
 
-# Tomar uma decisão sobre uma prova
+# Tome uma decisão sobre uma prova: índice do artigo
 
 * [Aprovar uma prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
 * [Tome uma decisão sobre uma prova no visualizador de provas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
