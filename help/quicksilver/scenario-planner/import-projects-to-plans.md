@@ -6,9 +6,9 @@ description: Você pode importar projetos existentes para um plano. Os projetos 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 844dddec944b6cfb0957eecf09c2980e9d0577cc
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1670'
 ht-degree: 0%
 
 ---
@@ -27,36 +27,43 @@ Você pode importar projetos existentes para um plano. Os projetos importados s�
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plano*</b> </p> </td> 
-   <td>[!UICONTROL Business] ou superior</td> 
+   <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
+   <td> <p>Atual: [!UICONTROL Business] ou superior</p>
+   <p>Novo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licença*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licença*</p> </td> 
+   <td> <p>Novo: Claro ou superior</p> 
+   <p>Atual: [!UICONTROL Review] ou posterior</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produto</b> </td> 
-   <td> <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Produto* </td> 
+   <td> 
+   <p>Para os planos atuais do Workfront: </p>
+   <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre acesso e permissões para o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>[!UICONTROL Editar] acesso ou superior à [!DNL Scenario Planner]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Nível de acesso </td> 
+   <td> <p>[!UICONTROL Editar] acesso à [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>[!UICONTROL Gerenciar] permissões para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no Planejador de Cenários</a>.</p> </td> 
+   <td> <p>Permissões de objeto </p> </td> 
+   <td> <p>[!UICONTROL Gerenciar] permissões para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+*Para obter informações, consulte [Requisitos de acesso à documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre a importação de projetos para planos como novas iniciativas
 
@@ -126,8 +133,6 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
  </tbody> 
 </table>
 
-
-
 ## Importar projetos para um plano
 
 >[!IMPORTANT]
@@ -147,7 +152,7 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
 >  Para obter informações sobre como as iniciativas de publicação afetam os projetos vinculados, consulte [Atualizar ou criar projetos publicando iniciativas no Planejador de Cenários](../scenario-planner/publish-scenarios-update-projects.md).
 >
 
-1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Workfront] e clique em [!DNL Scenarios] para acessar o [!DNL Scenario Planner].
+{{step1-to-scenario-planner}}
 
 1. Clique no nome de um plano para o qual deseja importar projetos.
 1. Clique em **[!UICONTROL Nova iniciativa]** e em **[!UICONTROL Importar projetos]**.

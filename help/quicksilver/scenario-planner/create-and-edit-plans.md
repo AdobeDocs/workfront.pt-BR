@@ -6,9 +6,9 @@ description: Você pode criar planos como parte do uso do Planejador de cenário
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '2427'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Você pode criar planos como parte do uso do [!DNL Workfront Scenario Planner], 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,28 +35,35 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
-   <td>[!UICONTROL Business] ou superior</td> 
+   <td> <p>Atual: [!UICONTROL Business] ou superior</p>
+   <p>Novo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licença*</p> </td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td> <p>Novo: Claro ou superior</p> 
+   <p>Atual: [!UICONTROL Review] ou posterior</p> </td> 
   </tr> 
   <tr> 
-   <td>Produto</td> 
-   <td> <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre como obter o [!UICONTROL Planejador de Cenários do Workfront], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!UICONTROL Planejador de Cenários]</a>. </p> </td> 
+   <td>Produto* </td> 
+   <td> 
+   <p>Para os planos atuais do Workfront: </p>
+   <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre acesso e permissões para o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configurações de nível de acesso* </td> 
-   <td> <p>[!UICONTROL Editar] acesso ou superior à [!DNL Scenario Planner]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Nível de acesso </td> 
+   <td> <p>[!UICONTROL Editar] acesso à [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Permissões de objeto </p> </td> 
-   <td> <p>[!DNL Manage] permissões para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>[!UICONTROL Gerenciar] permissões para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+*Para obter informações, consulte [Requisitos de acesso à documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Criar ou editar planos
 
@@ -74,9 +81,9 @@ Para obter informações sobre como excluir planos, consulte [Excluir planos na 
 
 Para criar ou editar um plano:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** e em [!UICONTROL Cenários].
+{{step1-to-scenario-planner}}
 
-   Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Scenario Planner].
+Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Scenario Planner].
 
 1. (Opcional) Clique no ícone **[!UICONTROL Filtro]** ![](assets/filter-icon-34x37.png)no canto superior direito da lista de planos e selecione um dos seguintes:
 

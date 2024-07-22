@@ -6,18 +6,16 @@ description: Depois de conectar projetos e iniciativas, é possível gerenciar a
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
 
 # Mostrar alocação de funções para projetos e iniciativas no [!UICONTROL Balanceador de Carga de Trabalho]
 
->[!IMPORTANT]
->
->Sua organização deve adquirir uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] para que você possa exibir informações de iniciativa em um projeto. Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte [Acesso necessário para usar o [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+<!--Audited: 07/2024-->
 
 Depois de conectar projetos e iniciativas, é possível gerenciar a alocação de recursos lado a lado para garantir que eles correspondam. Isso evita a superalocação ou a subutilização deles.
 
@@ -27,36 +25,43 @@ Para obter informações gerais sobre como reconciliar recursos entre projetos e
 
 ## Requisitos de acesso
 
-Você precisa seguir:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plano*</b> </p> </td> 
-   <td>[!UICONTROL Business] ou superior</td> 
+   <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
+   <td> <p>Atual: [!UICONTROL Business] ou superior</p>
+   <p>Novo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licença*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licença*</p> </td> 
+   <td> <p>Novo: Claro ou superior</p> 
+   <p>Atual: [!UICONTROL Review] ou posterior</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produto</b> </td> 
-   <td> <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Produto* </td> 
+   <td> 
+   <p>Para os planos atuais do Workfront: </p>
+   <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre acesso e permissões para o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>[!UICONTROL View] ou acesso superior a Projetos </p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Nível de acesso </td> 
+   <td> <p>[!UICONTROL Exibir] ou acesso superior a [!UICONTROL Projetos]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>[!UICONTROL Exibir] ou permissões superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md">[!UICONTROL Solicitação] acesso a um plano no [!DNL Workfront Scenario Planner]</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional a um projeto, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>. </p> </td> 
+   <td> <p>Permissões de objeto </p> </td> 
+   <td> <p>[!UICONTROL Exibir] permissões para um projeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+*Para obter informações, consulte [Requisitos de acesso à documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Mostrar alocação de funções para projetos e iniciativas no [!UICONTROL Balanceador de Carga de Trabalho]
 
@@ -133,8 +138,6 @@ Se sua empresa adquiriu uma licença [!DNL Workfront Scenario Planner], é poss�
    >   * Quando as tarefas ou problemas têm uma [!UICONTROL Duração] de zero.
    >   
    >
-
-
 
 1. (Opcional) Se a coluna [!UICONTROL Variação] mostrar que seus recursos estão superalocados, ajuste uma das seguintes opções:
 

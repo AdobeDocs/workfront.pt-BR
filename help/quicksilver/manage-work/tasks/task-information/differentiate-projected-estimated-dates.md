@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Diferenciar entre datas projetadas e estimadas
+title: Visão Geral das Datas Projetadas e Estimadas
 description: Há vários tipos de datas que mostram a linha do tempo de tarefas entre o momento em que elas podem ser iniciadas e o momento em que podem ser concluídas.
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Diferenciar entre datas projetadas e estimadas
+# Visão Geral das Datas Projetadas e Estimadas
+
+<!--Audited: 07/2024-->
 
 Há vários tipos de datas que mostram a linha do tempo de tarefas entre o momento em que elas podem ser iniciadas e o momento em que podem ser concluídas. Estas são algumas datas que exibem a linha do tempo de tarefas:
 
@@ -25,7 +27,7 @@ Há vários tipos de datas que mostram a linha do tempo de tarefas entre o momen
 
 Este artigo descreve as diferenças entre as Datas estimadas e projetadas dos projetos.
 
-Quando a tarefa é criada pela primeira vez, as Datas Planejadas, Projetadas e Estimadas normalmente devem corresponder. Existem algumas exceções. 
+Quando a tarefa é criada pela primeira vez, as Datas Planejadas, Projetadas e Estimadas normalmente devem corresponder. Existem algumas exceções.
 
 Para obter mais informações sobre as datas de projeto, tarefa e problema no Adobe Workfront, consulte [Visão geral das datas de projeto, tarefa e problema no Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
@@ -45,7 +47,7 @@ Considere o seguinte ao trabalhar com Datas projetadas e estimadas em tarefas:
 
 * Não é possível modificar manualmente as Datas estimadas nem as Datas projetadas das tarefas. Ambos são calculados pela Adobe Workfront.
 * Ao criar uma tarefa, as datas Projetado e Estimado devem ser idênticas e devem ilustrar os horários reais em que as tarefas podem começar ou terminar.\
-  Certas atualizações feitas nas tarefas afetam diretamente os valores das Datas Projetada e Estimada. 
+  Certas atualizações feitas nas tarefas afetam diretamente os valores das Datas Projetada e Estimada.
 
   Por exemplo, se o usuário iniciar ou concluir uma tarefa, a tarefa exibirá as Datas de Início e Término Reais, que influenciam as Datas Projetada e Estimada da tarefa. Além disso, se um designado na tarefa modificar a Data de confirmação, essa data influenciará a Data projetada da tarefa.
 
@@ -75,35 +77,35 @@ A lista a seguir exibe vários cenários quando as Datas Projetadas das tarefas 
 
 * Quando uma tarefa está marcada como Concluída:
 
-  *Datas Projetadas = Datas Estimadas = Datas Efetivas*
+  `Projected Dates = Estimated Dates = Actual Dates`
 
 * Quando uma tarefa tem uma Data de Início Efetivo:
 
-  *Data Inicial Projetada = Data Inicial Estimada = Data Inicial Efetiva*
+  `Projected Start Date = Estimated Start Date = Actual Start Date`
 
 * Quando uma tarefa não tem uma Data Inicial Real, mas há uma restrição forçada na Data Inicial Planejada (Deve Iniciar em) que está no futuro:
 
-  *Data de Início Projetada = Data de Restrição*
+  `Projected Start Date = Constraint Date`
 
   Para obter informações sobre a Data de Restrição, consulte [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Quando uma tarefa não tem uma Data de Início Efetivo e a tarefa não tem uma data de restrição forçada:
 
-  *Data de Início Projetada = a próxima data disponível no futuro que se enquadra na programação de trabalho*
+  `Projected Start Date = the next available date in the future that falls within working schedule`
 
 * Quando o destinatário atualizar a Data de confirmação:
 
-  *Data de conclusão projetada = Data de confirmação*
+  `Projected Completion Date = Commit Date`
 
   Para obter informações sobre a Data de Confirmação, consulte [Visão geral da Data de Confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Quando a tarefa não tiver uma Data de Confirmação atualizada e a tarefa tiver uma restrição forçada (Deve Ser Concluída Em) para a Data de Conclusão Planejada que estiver no futuro:
 
-  *Data de Conclusão Projetada = Data de Restrição*
+  `Projected Completion Date = Constraint Date`
 
 * Quando uma tarefa não tiver uma Data de Compromisso atualizada, uma data de restrição forçada no futuro ou tiver uma Data de Restrição no passado:
 
-  *Data de Conclusão Projetada = cálculo do sistema para a Data de Conclusão com base no progresso atual e no trabalho que falta concluir*
+  `Projected Completion Date = system calculation for the Completion Date based on the current progress and the work left to be done`
 
 ### Entenda quando as Datas estimadas são atualizadas nas tarefas {#understand-when-the-estimated-dates-update-on-tasks}
 
@@ -111,7 +113,7 @@ Em comparação com os cenários descritos acima para as Datas projetadas, as Da
 
 ## O que influencia a linha do tempo de uma tarefa
 
-Veja a seguir alguns exemplos do que pode influenciar a linha do tempo real de uma tarefa: 
+Veja a seguir alguns exemplos do que pode influenciar a linha do tempo real de uma tarefa:
 
 * Progresso da tarefa em relação às Datas Planejadas e ao dia atual
 * Porcentagem concluída da tarefa até o momento

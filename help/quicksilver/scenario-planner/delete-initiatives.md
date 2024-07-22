@@ -6,10 +6,10 @@ description: É possível excluir iniciativas em um plano que você criou ou em 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: '513'
+ht-degree: 1%
 
 ---
 
@@ -19,32 +19,43 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plano*</b> </p> </td> 
-   <td>[!UICONTROL Business] ou superior</td> 
+   <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
+   <td> <p>Atual: [!UICONTROL Business] ou superior</p>
+   <p>Novo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licença*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licença*</p> </td> 
+   <td> <p>Novo: Claro ou superior</p> 
+   <p>Atual: [!UICONTROL Review] ou posterior</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produto</b> </td> 
-   <td> <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo. </p> <p>Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!UICONTROL Scenario Planner]</a>. </p> </td> 
+   <td>Produto* </td> 
+   <td> 
+   <p>Para os planos atuais do Workfront: </p>
+   <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre acesso e permissões para o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>[!UICONTROL Editar] acesso ou superior à [!DNL Scenario Planner]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Nível de acesso </td> 
+   <td> <p>[!UICONTROL Editar] acesso à [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Permissões de objeto</strong> </p> </td> 
+   <td> <p>Permissões de objeto </p> </td> 
    <td> <p>[!UICONTROL Gerenciar] permissões para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Para obter informações, consulte [Requisitos de acesso à documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Excluir iniciativas
 
@@ -68,9 +79,9 @@ Considere o seguinte ao excluir iniciativas:
 
 ### Excluir uma iniciativa {#delete-one-initiative}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** e em [!UICONTROL Cenários].
+{{step1-to-scenario-planner}}
 
-   Uma lista de planos é exibida.
+Uma lista de planos é exibida.
 
 1. Clique no nome de um plano para abri-lo e, em seguida, localize a iniciativa que deseja excluir.
 1. Siga um destes procedimentos:

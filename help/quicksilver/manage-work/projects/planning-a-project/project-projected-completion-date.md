@@ -7,9 +7,9 @@ description: A Data de conclusão projetada é um indicador calculado em tempo r
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ As seções a seguir descrevem como a Data de conclusão projetada é determinad
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> 
    <p>Novo: 
    <ul><li><p>Colaborador ou posterior para exibir a Data de conclusão projetada em um relatório</p></li> <li><p>Uma licença Standard para criar um relatório</p></li> </ul>
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Nível de acesso</td> 
    <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>É necessário ter acesso de Edição a Relatórios, Painéis e Calendários para criar um relatório</p> <p>É necessário ter acesso para Editar filtros, visualizações e agrupamentos para criar um relatório ou modificar uma visualização de lista</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Como o Adobe Workfront determina a data de conclusão projetada
 
@@ -85,7 +87,7 @@ Os critérios usados para determinar a Data de conclusão projetada diferem, dep
   >Quando o antecessor de uma tarefa tiver uma Data de Conclusão Real, as tarefas dependentes receberão uma Data de Conclusão Projetada conforme descrito no seguinte cenário:
   >
   >
-  >Se o projeto tiver a Tarefa A, a Tarefa B e a Tarefa C, e a Tarefa B for a sucessora da Tarefa A, a Tarefa C for a sucessora da Tarefa B e uma Data de conclusão real for adicionada à Tarefa A, a Data de conclusão projetada será recalculada automaticamente para a Tarefa B (desde que o **Tipo de atualização** do projeto esteja definido como Automático e Mediante alteração), mas não será recalculada para a Tarefa C. Atualmente, a Workfront calcula a Data de conclusão projetada para tarefas que estejam um nível acima ou abaixo da Tarefa atualizada, por motivos de desempenho. 
+  >Se o projeto tiver a Tarefa A, a Tarefa B e a Tarefa C, e a Tarefa B for a sucessora da Tarefa A, a Tarefa C for a sucessora da Tarefa B e uma Data de conclusão real for adicionada à Tarefa A, a Data de conclusão projetada será recalculada automaticamente para a Tarefa B (desde que o **Tipo de atualização** do projeto esteja definido como Automático e Mediante alteração), mas não será recalculada para a Tarefa C. Atualmente, a Workfront calcula a Data de conclusão projetada para tarefas que estejam um nível acima ou abaixo da Tarefa atualizada, por motivos de desempenho.
 
 * **Problemas:** a Data de Conclusão Projetada do problema está inicialmente definida para corresponder à Data de Conclusão Planejada do problema.
 
@@ -119,9 +121,9 @@ Para criar um relatório de problemas que inclua a Data de conclusão projetada:
 1. Selecione a guia **Colunas (Exibição)**.
 1. Clique em **Adicionar coluna** e comece a digitar **Data de Término Projetada** no campo **Mostrar nesta coluna:**.
 
-1. Selecione-a quando ela aparecer na lista, sob o objeto **Problema**. 
+1. Selecione-a quando ela aparecer na lista, sob o objeto **Problema**.
 1. Clique em **Salvar + Fechar**.
 
-   A coluna **Data de Conclusão Projetada** no relatório está preenchida. 
+   A coluna **Data de Conclusão Projetada** no relatório está preenchida.
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

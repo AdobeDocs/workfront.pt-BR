@@ -7,31 +7,31 @@ description: Saiba mais sobre como revisar metas e entenda as seções em que é
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # Revisão de metas e as seções de Metas do Adobe Workfront
 
-Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
-
-* Para o novo plano e estrutura de licença:
-
-   * Um plano Ultimate
-
-     Ou
-
-     Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. Para obter informações, consulte [plano do Adobe Workfront](https://www.workfront.com/plans).
-
-* Para o plano e a estrutura de licença atuais:
-
-   * A Pro ou superior
-   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
-
-Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+>[!IMPORTANT]
+>
+>Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
+>
+>* Para o novo plano e estrutura de licença:
+>
+>   * O plano Ultimate Workfront
+>    
+>* Para o plano e a estrutura de licença atuais:
+>
+>   * Um plano Pro ou superior do Workfront
+>   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
+>
+>Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+> 
+>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Esta seção contém os seguintes artigos:
 

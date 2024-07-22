@@ -5,34 +5,31 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1374'
 ht-degree: 1%
 
 ---
 
 # Introdução às Metas do Adobe Workfront
 
-Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
-
-* Para o novo plano e estrutura de licença:
-
-   * Um plano Ultimate
-
-     Ou
-
-     Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. Para obter mais informações, consulte [plano do Adobe Workfront](https://www.workfront.com/plans).
-
-* Para o plano e a estrutura de licença atuais:
-
-   * A Pro ou superior
-   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
-
-
-Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
-
-Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
+>
+>* Para o novo plano e estrutura de licença:
+>
+>   * O plano Ultimate Workfront
+>    
+>* Para o plano e a estrutura de licença atuais:
+>
+>   * Um plano Pro ou superior do Workfront
+>   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
+>
+>Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+> 
+>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Cada organização precisa definir e comunicar metas claras para manter suas equipes produtivas, focadas e engajadas. Saber realmente como o trabalho está alinhado à estratégia é a chave para o sucesso. No entanto, sem um sistema de registro que conecte sua estratégia e metas com o trabalho na organização, alcançar o alinhamento pode ser realmente difícil.
 

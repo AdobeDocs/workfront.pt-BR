@@ -6,20 +6,22 @@ description: Ao usar o Planejador de cenários do Adobe Workfront, você pode cr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
 
 # Criar e editar iniciativas no [!DNL Scenario Planner]
 
+<!--Audited: 07/2024-->
+
 Ao usar o [!UICONTROL Planejador de cenários do Adobe Workfront], você pode criar iniciativas em um plano que você criou ou que foi compartilhado com você. Ao criar iniciativas, você pode mostrar como as unidades organizacionais menores contribuem para a conclusão do plano. Por exemplo, se sua organização tiver um plano para os próximos três anos para expandir para um novo mercado, você poderá criar iniciativas dentro desse plano para cada departamento a fim de estimar a necessidade de pessoal e orçamento de cada departamento para realizar esse plano.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,19 +29,24 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
-   <td>[!UICONTROL Business] ou superior</td> 
+   <td> <p>Atual: [!UICONTROL Business] ou superior</p>
+   <p>Novo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licença* </p> </td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licença*</p> </td> 
+   <td> <p>Novo: Claro ou superior</p> 
+   <p>Atual: [!UICONTROL Review] ou posterior</p> </td> 
   </tr> 
   <tr> 
-   <td>Produto </td> 
-   <td> <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo. </p> <p>Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Produto*</td> 
+   <td> 
+   <p>Para os planos atuais do Workfront: </p>
+   <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre acesso e permissões para o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configurações de nível de acesso* </td> 
-   <td> <p>[!UICONTROL Editar] acesso ou superior à [!DNL Scenario Planner]</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Nível de acesso </td> 
+   <td> <p>[!UICONTROL Editar] acesso à [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Permissões de objeto </p> </td> 
@@ -48,7 +55,9 @@ Você deve ter o seguinte:
  </tbody> 
 </table>
 
-*Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+*Para obter informações, consulte [Requisitos de acesso à documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -71,7 +80,7 @@ Para obter mais informações sobre o que são iniciativas, consulte [Visão ger
 
 Para criar iniciativas do zero:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** e em [!UICONTROL Cenários].
+{{step1-to-scenario-planner}}
 
 1. Clique no nome do plano para o qual deseja criar uma iniciativa.
 1. Clique no ícone **+** à esquerda de **[!UICONTROL Nova iniciativa]**

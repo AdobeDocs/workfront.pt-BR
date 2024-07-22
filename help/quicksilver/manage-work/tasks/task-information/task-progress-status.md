@@ -7,7 +7,7 @@ description: O Adobe Workfront determina o Status de progresso de uma tarefa obs
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Os critérios a seguir determinam o Status do Progresso de uma tarefa:
   </tr> 
   <tr> 
    <td> <p><strong>Atrasado</strong> </p> </td> 
-   <td> <p>Uma tarefa será considerada como <strong>atrasada</strong> quando a Data de conclusão estimada for posterior ou igual à Data de conclusão planejada e anterior à Data de conclusão projetada.</p> <p>A Data de conclusão projetada é uma visualização em tempo real de quando a tarefa será concluída com base no progresso anterior. Embora a tarefa tenha sido iniciada com atraso, ela ainda não é considerada atrasada, pois as Datas de Término Planejadas e Projetadas ainda estão no futuro e a tarefa ainda pode ser concluída no prazo.</p> <p>Observação: Os Status de Progresso de <strong>Em Risco</strong> e <strong>Em Risco</strong> são quase idênticos. No entanto, <strong>Em Risco</strong> indica que há algumas Restrições de Tarefa Forçadas (Precisa Terminar Em, Precisa Iniciar Em, Datas Fixas) em uma ou ambas as Datas Planejadas. Se não houver restrições forçadas na tarefa, as Datas Projetadas serão iguais às Datas Estimadas e refletirão o cálculo do sistema da Data de Conclusão com base no andamento atual da tarefa. A tarefa ainda não é considerada atrasada, pois as Datas de Término Planejadas e Projetadas ainda estão no futuro, e a tarefa ainda pode ser concluída no prazo.<br>Para obter mais informações sobre as Datas Projetadas e Estimadas, consulte <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Diferenciar entre Datas Projetadas e Estimadas </a>.</p> </td> 
+   <td> <p>Uma tarefa será considerada como <strong>atrasada</strong> quando a Data de conclusão estimada for posterior ou igual à Data de conclusão planejada e anterior à Data de conclusão projetada.</p> <p>A Data de conclusão projetada é uma visualização em tempo real de quando a tarefa será concluída com base no progresso anterior. Embora a tarefa tenha sido iniciada com atraso, ela ainda não é considerada atrasada, pois as Datas de Término Planejadas e Projetadas ainda estão no futuro e a tarefa ainda pode ser concluída no prazo.</p> <p>Observação: Os Status de Progresso de <strong>Em Risco</strong> e <strong>Em Risco</strong> são quase idênticos. No entanto, <strong>Em Risco</strong> indica que há algumas Restrições de Tarefa Forçadas (Precisa Terminar Em, Precisa Iniciar Em, Datas Fixas) em uma ou ambas as Datas Planejadas. Se não houver restrições forçadas na tarefa, as Datas Projetadas serão iguais às Datas Estimadas e refletirão o cálculo do sistema da Data de Conclusão com base no andamento atual da tarefa. A tarefa ainda não é considerada atrasada, pois as Datas de Término Planejadas e Projetadas ainda estão no futuro, e a tarefa ainda pode ser concluída no prazo.<br>Para obter mais informações sobre as Datas Projetadas e Estimadas, consulte <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Visão Geral das Datas Projetadas e Estimadas </a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Atrasado</strong> </p> </td> 

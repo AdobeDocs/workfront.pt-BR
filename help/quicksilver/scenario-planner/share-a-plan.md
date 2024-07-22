@@ -7,14 +7,16 @@ description: Você pode compartilhar um plano criado no Planejador de cenários 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
 # Compartilhar um plano no [!DNL Scenario Planner]
+
+<!--Audited: 07/2024-->
 
 Você pode compartilhar um plano no [!DNL Adobe Workfront Scenario Planner] com outros usuários para que eles possam colaborar no mesmo trabalho que você faz.
 
@@ -24,37 +26,43 @@ Você pode compartilhar um plano no [!DNL Adobe Workfront Scenario Planner] com 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plano*</b> </p> </td> 
-   <td>[!UICONTROL Business] ou superior</td> 
+   <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
+   <td> <p>Atual: [!UICONTROL Business] ou superior</p>
+   <p>Novo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licença*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licença*</p> </td> 
+   <td> <p>Novo: Claro ou superior</p> 
+   <p>Atual: [!UICONTROL Review] ou posterior</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produto</b> </td> 
-   <td> <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Produto* </td> 
+   <td> 
+   <p>Para os planos atuais do Workfront: </p>
+   <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre acesso e permissões para o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>[!UICONTROL Editar] acesso à [!DNL Scenario Planner]</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Nível de acesso </td> 
+   <td> <p>[!UICONTROL Editar] acesso à [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p> [!UICONTROL Gerenciar] permissões para o plano
-     <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!UICONTROL Solicitação] acesso a um plano no [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Permissões de objeto </p> </td> 
+   <td> <p>[!UICONTROL Gerenciar] permissões para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso à documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -70,69 +78,13 @@ Para obter mais informações sobre o acesso ao [!DNL Scenario Planner] para vá
 
 ## Considerações sobre o compartilhamento do plano
 
+* Todos os usuários, incluindo administradores do sistema, têm acesso somente aos planos que criaram.
 * Você pode compartilhar um único plano ou vários planos em massa.
 * Não é possível exibir planos que você não criou ou que não estão compartilhados com você.
 * Você só pode compartilhar um plano com outros usuários. Não é possível compartilhar planos com grupos, equipes ou empresas.
 * Primeiro, salve um plano antes de compartilhá-lo.
 * Você pode compartilhar um URL para um plano com outro usuário. Se o usuário não tiver permissões para pelo menos exibir o plano, poderá solicitar acesso ao plano a outro usuário quando receber o URL. Para obter informações sobre como solicitar acesso a um plano, consulte [Solicitar acesso a um plano no [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Ao compartilhar vários planos que já foram compartilhados com outras pessoas, os usuários com os quais você compartilha não substituem, mas são adicionados aos usuários existentes em cada plano selecionado.
-
-## Compartilhar planos
-
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito do Workfront e em **[!UICONTROL Cenários]**.
-1. Clique no nome de um plano para abri-lo
-
-   Ou
-
-   Selecione vários planos para compartilhá-los em massa.
-
-   >[!TIP]
-   >
-   >Você pode compartilhar um plano clicando nos avatares dos usuários com os quais o plano é compartilhado no canto superior direito do cabeçalho do plano.
-
-1. (Condicional) Se você abriu um plano, clique no ícone **[!UICONTROL Mais]** ![](assets/more-icon.png) à direita do nome do [!UICONTROL Plano] e clique em **[!UICONTROL Compartilhar]**
-
-   Ou
-
-   Se você selecionou vários planos para compartilhá-los em massa, clique no ícone **[!UICONTROL Compartilhar]** ![](assets/share-icon-26x26.png) na parte superior da lista de planos para abrir a caixa de acesso [!UICONTROL Plano].
-
-   >[!TIP]
-   >
-   >* Os usuários que têm permissões para todos os planos selecionados são exibidos na caixa de acesso [!UICONTROL Plano].
-   >* Usuários adicionais são adicionados a e não substituem os usuários existentes em todos os planos selecionados.
-
-1. No campo **[!UICONTROL Conceder acesso ao plano]**, comece digitando o nome dos usuários com os quais deseja compartilhar o plano e selecione-os quando eles aparecerem na lista.
-1. No menu suspenso de permissões à direita do nome do usuário, selecione o nível de permissão que deseja conceder a elas para o plano.
-1. Selecione entre as seguintes opções:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Exibir]</td> 
-      <td>Os usuários com os quais você compartilha o plano terão permissões para exibir o plano. Eles não podem editar informações sobre o plano, adicionar iniciativas, cenários ou publicar cenários. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Gerenciar]</td> 
-      <td> <p>Os usuários com os quais você compartilha o plano têm permissões para gerenciar o plano, o que inclui editar informações, adicionar iniciativas, cenários e publicar o plano. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   >[!TIP]
-   >
-   >Você pode deletar um plano somente quando o criou. Não é possível excluir planos compartilhados com você.
-
-1. Clique em **[!UICONTROL Salvar]**.
-
-   O plano agora é compartilhado com os usuários especificados.
-
-   Você pode exibir os usuários que têm permissões para o plano na coluna Compartilhado comigo em uma lista de planos ou no canto superior direito do cabeçalho do plano.
-
-   >[!TIP]
-   >
-   >Você pode exibir planos compartilhados com você aplicando o filtro [!UICONTROL Compartilhado comigo] em uma lista de planos.
 
 ## Opções de permissão do plano
 
@@ -215,3 +167,63 @@ A tabela a seguir lista as permissões que você pode conceder ao compartilhar u
 Para obter informações sobre o nível de acesso do projeto, consulte [Conceder acesso aos projetos](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Para obter informações sobre permissões de projeto, consulte [Compartilhar um projeto em [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+
+## Compartilhar planos
+
+{{step1-to-scenario-planner}}
+
+1. Clique no nome de um plano para abri-lo
+
+   Ou
+
+   Selecione vários planos para compartilhá-los em massa.
+
+   >[!TIP]
+   >
+   >Você pode compartilhar um plano clicando nos avatares dos usuários com os quais o plano é compartilhado no canto superior direito do cabeçalho do plano.
+
+1. (Condicional) Se você abriu um plano, clique no ícone **[!UICONTROL Mais]** ![](assets/more-icon.png) à direita do nome do [!UICONTROL Plano] e clique em **[!UICONTROL Compartilhar]**
+
+   Ou
+
+   Se você selecionou vários planos para compartilhá-los em massa, clique no ícone **[!UICONTROL Compartilhar]** ![](assets/share-icon-26x26.png) na parte superior da lista de planos para abrir a caixa de acesso [!UICONTROL Plano].
+
+   >[!TIP]
+   >
+   >* Os usuários que têm permissões para todos os planos selecionados são exibidos na caixa de acesso [!UICONTROL Plano].
+   >* Usuários adicionais são adicionados a e não substituem os usuários existentes em todos os planos selecionados.
+
+1. No campo **[!UICONTROL Conceder acesso ao plano]**, comece digitando o nome dos usuários com os quais deseja compartilhar o plano e selecione-os quando eles aparecerem na lista.
+1. No menu suspenso de permissões à direita do nome do usuário, selecione o nível de permissão que deseja conceder a elas para o plano.
+1. Selecione entre as seguintes opções:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Exibir]</td> 
+      <td>Os usuários com os quais você compartilha o plano terão permissões para exibir o plano. Eles não podem editar informações sobre o plano, adicionar iniciativas, cenários ou publicar cenários. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Gerenciar]</td> 
+      <td> <p>Os usuários com os quais você compartilha o plano têm permissões para gerenciar o plano, o que inclui editar informações, adicionar iniciativas, cenários e publicar o plano. </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!TIP]
+   >
+   >Você pode deletar um plano somente quando o criou. Não é possível excluir planos compartilhados com você.
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+   O plano agora é compartilhado com os usuários especificados.
+
+   Você pode exibir os usuários que têm permissões para o plano na coluna Compartilhado comigo em uma lista de planos ou no canto superior direito do cabeçalho do plano.
+
+   >[!TIP]
+   >
+   >Você pode exibir planos compartilhados com você aplicando o filtro [!UICONTROL Compartilhado comigo] em uma lista de planos.
+
+

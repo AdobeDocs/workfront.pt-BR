@@ -7,33 +7,28 @@ description: O alinhamento de metas garante que todos na organização estejam n
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Visão geral do alinhamento de metas no Adobe Workfront Goals
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
-> 
+>
 >* Para o novo plano e estrutura de licença:
+>
+>   * O plano Ultimate Workfront
 >    
->   * Um plano Ultimate
->        
->     Ou
->        
->   * Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront.
->       Para obter mais informações, consulte [Preços e pacotes do Adobe Workfront](https://www.workfront.com/plans).
->      
 >* Para o plano e a estrutura de licença atuais:
->    
->   * Um [plano Adobe Workfront] Pro ou superior
+>
+>   * Um plano Pro ou superior do Workfront
 >   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
->    
+>
 >Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 > 
 >Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).

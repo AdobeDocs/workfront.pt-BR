@@ -7,31 +7,29 @@ description: O Workfront Goals ajuda você a definir, comunicar e alcançar resu
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Visão geral dos objetivos do Adobe Workfront
 
-Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
-
-* Para o novo plano e estrutura de licença:
-
-   * Um plano Ultimate
-
-     Ou
-
-     Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. Para obter informações, consulte [plano do Adobe Workfront](https://www.workfront.com/plans).
-
-* Para o plano e a estrutura de licença atuais:
-
-   * A Pro ou superior
-   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
-
-Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+>[!IMPORTANT]
+>
+>Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
+>
+>* Para o novo plano e estrutura de licença:
+>
+>   * O plano Ultimate Workfront
+>    
+>* Para o plano e a estrutura de licença atuais:
+>
+>   * Um plano Pro ou superior do Workfront
+>   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
+>
+>Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 
 
 O Workfront Goals ajuda você a definir, comunicar e alcançar resultados estratégicos, conectando a estratégia à execução e entrega do trabalho. Você pode concentrar os esforços de todos no que realmente importa, fazer o progresso mensurável e permitir que as equipes realizem resultados surpreendentes. As pessoas podem fazer seu melhor trabalho sabendo que suas contribuições têm um impacto significativo.

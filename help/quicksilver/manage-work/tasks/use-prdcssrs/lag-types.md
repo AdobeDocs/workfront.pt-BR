@@ -7,9 +7,9 @@ description: Atraso é o tempo que deve decorrer após a conclusão de um predec
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ As datas Planejada, Projetada e Estimada das tarefas sucessoras são calculadas 
 
 -->
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -67,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td><p>Novo: Padrão</p>
        <p>ou</p>
        <p>Atual: Plano </p> </td>
@@ -83,7 +81,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
