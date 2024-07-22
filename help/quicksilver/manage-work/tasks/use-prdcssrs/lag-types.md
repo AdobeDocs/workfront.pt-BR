@@ -7,9 +7,9 @@ description: Atraso é o tempo que deve decorrer após a conclusão de um predec
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -26,36 +26,6 @@ As datas Planejada, Projetada e Estimada das tarefas sucessoras são calculadas 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -71,7 +41,7 @@ As datas Planejada, Projetada e Estimada das tarefas sucessoras são calculadas 
        <p>Atual: Plano </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td role="rowheader">Nível de acesso</td> 
    <td> <p>Editar acesso a tarefas e projetos</p> </td> 
   </tr> 
   <tr> 
@@ -84,57 +54,6 @@ As datas Planejada, Projetada e Estimada das tarefas sucessoras são calculadas 
 *Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Indicar Tipos de Defasagem e Defasagem em tarefas
-
-É possível indicar tipos de defasagem em tarefas ao definir suas relações de predecessoras.
-
-### Indicar Tipos de Defasagem na seção Predecessores de uma tarefa {#indicate-lag-types-in-the-predecessors-section-of-a-task}
-
-1. Vá para uma tarefa para a qual deseja definir o predecessor e o Tipo de Defasagem.
-1. Clique em **Predecessores** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
-1. Clique em **Adicionar predecessor**.
-1. (Opcional) Se você deseja adicionar um predecessor entre projetos, substitua o nome do **Projeto pai** por outro projeto.
-1. Comece digitando o nome da tarefa predecessora e selecione-a quando ela aparecer na lista.
-1. Selecione o **Tipo de dependência**.
-
-   Para obter mais informações sobre os Tipos de Dependência predecessores, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-
-1. Especifique um valor numérico para **Lag**. Você pode especificar números negativos para indicar um atraso negativo.
-1. Selecione entre as seguintes opções para identificar o tipo de atraso que você deseja indicar para seu predecessor:
-
-   * **Dias**
-   * **Dias do Calendário**
-   * **Percentual**
-   * **Dia da semana**
-   * **Dia da Semana (Sem Zero)**
-
-     Para obter mais informações sobre esses Tipos de Defasagem e como eles são calculados, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
-
-1. Clique em **Salvar**.
-
-### Indicar Tipos de Defasagem em uma lista de tarefas  {#indicate-lag-types-in-a-task-list}
-
-1. Vá para uma lista de tarefas e selecione a exibição **Padrão**.
-
-1. Clique dentro da coluna **Predecessores** correspondente à tarefa para a qual você deseja especificar um predecessor e uma quantidade de atraso.
-1. Digite o seguinte sem espaços:
-
-   * o número da tarefa que você deseja indicar como predecessora da tarefa selecionada
-   * a abreviação do tipo de dependência que você deseja indicar entre as tarefas
-
-     Para obter mais informações sobre as abreviações de Tipos de Dependência, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-
-   * um **+** para um atraso positivo ou um **-** para um atraso negativo
-
-   * a quantidade do atraso
-   * a abreviação do Tipo de Defasagem que você deseja usar
-
-     Para obter mais informações sobre as abreviações para Tipos de Defasagem, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
-
-   Por exemplo, para indicar que uma tarefa tem uma predecessora e um atraso positivo de 2 dias, digite `1fs+2d` na coluna Predecessoras.
-
-1. Pressione Enter no teclado para salvar as alterações na tarefa.
 
 ## Tipos de Defasagem {#lag-types}
 
@@ -215,3 +134,54 @@ Considere as seguintes regras ao usar intervalos negativos:
 
    * Defina uma relação predecessora Término-Término entre tarefas.
    * A Duração da tarefa sucessora deve ser igual ou superior ao número pretendido de dias de atraso entre as tarefas.
+
+## Indicar Tipos de Defasagem e Defasagem em tarefas
+
+É possível indicar tipos de defasagem em tarefas ao definir suas relações de predecessoras.
+
+### Indicar Tipos de Defasagem na seção Predecessores de uma tarefa {#indicate-lag-types-in-the-predecessors-section-of-a-task}
+
+1. Vá para uma tarefa para a qual deseja definir o predecessor e o Tipo de Defasagem.
+1. Clique em **Predecessores** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
+1. Clique em **Adicionar predecessor**.
+1. (Opcional) Se você deseja adicionar um predecessor entre projetos, substitua o nome do **Projeto pai** por outro projeto.
+1. Comece digitando o nome da tarefa predecessora e selecione-a quando ela aparecer na lista.
+1. Selecione o **Tipo de dependência**.
+
+   Para obter mais informações sobre os Tipos de Dependência predecessores, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+1. Especifique um valor numérico para **Lag**. Você pode especificar números negativos para indicar um atraso negativo.
+1. Selecione entre as seguintes opções para identificar o tipo de atraso que você deseja indicar para seu predecessor:
+
+   * **Dias**
+   * **Dias do Calendário**
+   * **Percentual**
+   * **Dia da semana**
+   * **Dia da Semana (Sem Zero)**
+
+     Para obter mais informações sobre esses Tipos de Defasagem e como eles são calculados, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
+
+1. Clique em **Salvar**.
+
+### Indicar Tipos de Defasagem em uma lista de tarefas  {#indicate-lag-types-in-a-task-list}
+
+1. Vá para uma lista de tarefas e selecione a exibição **Padrão**.
+
+1. Clique dentro da coluna **Predecessores** correspondente à tarefa para a qual você deseja especificar um predecessor e uma quantidade de atraso.
+1. Digite o seguinte sem espaços:
+
+   * o número da tarefa que você deseja indicar como predecessora da tarefa selecionada
+   * a abreviação do tipo de dependência que você deseja indicar entre as tarefas
+
+     Para obter mais informações sobre as abreviações de Tipos de Dependência, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+   * um **+** para um atraso positivo ou um **-** para um atraso negativo
+
+   * a quantidade do atraso
+   * a abreviação do Tipo de Defasagem que você deseja usar
+
+     Para obter mais informações sobre as abreviações para Tipos de Defasagem, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
+
+   Por exemplo, para indicar que uma tarefa tem uma predecessora e um atraso positivo de 2 dias, digite `1fs+2d` na coluna Predecessoras.
+
+1. Pressione Enter no teclado para salvar as alterações na tarefa.

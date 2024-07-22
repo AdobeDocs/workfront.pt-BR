@@ -6,9 +6,9 @@ description: É possível excluir iniciativas em um plano que você criou ou em 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -96,9 +96,9 @@ Uma lista de planos é exibida.
 
 ### Excluir iniciativas em massa {#delete-initiatives-in-bulk}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** e em [!UICONTROL Cenários].
+{{step1-to-scenario-planner}}
 
-   Uma lista de planos é exibida.
+Uma lista de planos é exibida.
 
 1. Clique no nome de um plano para abri-lo e, em seguida, localize a iniciativa que deseja excluir.
 1. Marque as caixas à esquerda das iniciativas que deseja excluir e clique em **[!UICONTROL Excluir]** no menu exibido na parte inferior do plano e em **[!UICONTROL Sim, exclua-as]**.
