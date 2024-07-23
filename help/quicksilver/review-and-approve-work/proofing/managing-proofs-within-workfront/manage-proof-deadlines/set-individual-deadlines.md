@@ -7,9 +7,9 @@ description: É possível definir diferentes prazos de conclusão para diferente
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 2%
 É possível definir diferentes prazos de conclusão para diferentes revisores em uma prova já criada. Isso requer a criação de um estágio separado para cada revisor para o qual você deseja definir um prazo individual.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -50,6 +52,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Definir prazos individuais do revisor
 

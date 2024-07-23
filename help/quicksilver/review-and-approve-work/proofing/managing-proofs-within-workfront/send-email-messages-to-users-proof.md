@@ -6,9 +6,9 @@ description: Durante o processo de revisão e aprovação, é possível enviar u
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ Durante o processo de revisão e aprovação, é possível enviar uma mensagem p
 Você pode escolher entre enviar um email de lembrete genérico ou uma mensagem personalizada para um ou todos os usuários associados a um determinado estágio.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -51,6 +53,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Enviar mensagens de email aos usuários em uma prova
 

@@ -6,9 +6,9 @@ description: Você pode gerar uma nova prova estática ou uma nova versão de um
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Você pode gerar uma nova prova estática ou uma nova versão de uma prova está
 Considere o seguinte ao criar provas estáticas para um site ou outro conteúdo da Web:
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -47,6 +49,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Criar uma prova estática para um site ou outro conteúdo da Web
 

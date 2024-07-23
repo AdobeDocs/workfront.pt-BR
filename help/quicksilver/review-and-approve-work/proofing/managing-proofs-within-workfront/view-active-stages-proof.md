@@ -6,9 +6,9 @@ description: É possível visualizar os estágios ativos atuais em uma prova que
 author: Courtney
 feature: Digital Content and Documents
 exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 2%
 É possível visualizar os estágios ativos atuais em uma prova que contém um Fluxo de trabalho automatizado.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Exibir estágios ativos em uma prova
 

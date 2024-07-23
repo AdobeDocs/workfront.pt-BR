@@ -6,9 +6,9 @@ description: Você pode acompanhar convenientemente o progresso de uma prova con
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Você pode acompanhar convenientemente o progresso de uma prova configurada com 
 Para obter informações sobre como adicionar estágios e usuários a uma prova com um Fluxo de Trabalho Automatizado, consulte [Adicionar estágios e usuários a um Fluxo de Trabalho Automatizado em uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -47,6 +49,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Exibir o diagrama de Fluxo de Trabalho Automatizado
 

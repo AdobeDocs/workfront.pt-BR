@@ -6,9 +6,9 @@ description: Você pode gerar uma prova para conteúdo interativo que não seja 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Você pode gerar uma prova para conteúdo interativo que não seja de sites armazenado em um arquivo ZIP. Exemplos desse tipo de conteúdo da Web incluem anúncios com streaming de vídeo ou áudio, animações HTML, banners interativos.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Criar uma prova para conteúdo interativo em um arquivo ZIP
 

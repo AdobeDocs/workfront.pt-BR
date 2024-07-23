@@ -7,9 +7,9 @@ description: É possível ajustar o prazo final das provas que você cria ou que
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 23010732-dab7-461d-876a-56f9928a2a23
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '299'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 2%
 É possível ajustar o prazo final das provas que você cria ou que possui.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -50,6 +52,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Adicionar, editar ou excluir um prazo final de um estágio
 

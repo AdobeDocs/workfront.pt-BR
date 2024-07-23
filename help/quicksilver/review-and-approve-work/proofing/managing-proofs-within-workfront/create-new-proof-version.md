@@ -6,9 +6,9 @@ description: Gerenciar feedback em várias versões ou revisões de um trabalho 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Considere as seguintes informações ao criar uma nova versão de uma prova:
 >Se uma prova for criada no Adobe Workfront, quaisquer novas versões criadas para essa prova também deverão ser criadas no Workfront. Não é possível criar uma nova versão de uma prova no Workfront Proof se essa prova tiver sido criada no Workfront.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -58,6 +60,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Criar uma nova versão de prova no Workfront
 
@@ -228,7 +232,7 @@ Se houver um assunto/mensagem personalizado incluído na versão anterior da pro
 
   >[!NOTE]
   >
-  > Isso não é afetado por nenhum assunto/mensagem padrão personalizado salvo em suas configurações pessoais.
+  >Isso não é afetado por nenhum assunto/mensagem padrão personalizado salvo em suas configurações pessoais.
 
 Se você tiver um assunto e uma mensagem padrão salvos nas suas configurações pessoais, isso afetará qual mensagem é mostrada por padrão na página Nova versão:
 

@@ -6,9 +6,9 @@ description: Você pode compartilhar um documento revisado no Adobe Workfront co
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Se você compartilhar a prova, conforme explicado neste artigo, seu recipient te
 >Você também pode compartilhar uma prova no visualizador de provas. Para obter instruções, consulte [Compartilhar uma prova do visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -55,6 +57,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Compartilhar um link de prova
 

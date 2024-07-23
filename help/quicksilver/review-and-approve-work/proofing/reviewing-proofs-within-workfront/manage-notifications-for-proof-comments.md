@@ -6,9 +6,9 @@ description: Ao trabalhar em uma prova, seja um usuário do Adobe Workfront ou u
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '989'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Ao trabalhar em uma prova, seja um usuário do Adobe Workfront ou um colaborador
 >Essas notificações são diferentes dos alertas de email que você pode receber sobre o fluxo de uma prova entre os revisores. Elas também são diferentes das configurações de alerta por email que podem ser definidas no Workfront. 
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -49,6 +51,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Gerenciar notificações para comentários e decisões de prova
 

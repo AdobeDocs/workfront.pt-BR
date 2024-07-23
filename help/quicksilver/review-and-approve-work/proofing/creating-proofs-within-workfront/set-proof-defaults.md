@@ -6,9 +6,9 @@ description: É possível definir configurações padrão de prova pessoal que s
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 É possível definir configurações padrão de prova pessoal que se aplicam às provas criadas por você. Esses padrões são aplicados sempre que você gera uma prova pela primeira vez ou carrega uma nova versão de prova no Workfront.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -42,9 +44,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
++++
+
 ## Configurar padrões de provas pessoais
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Revisão**.
+{{step1-to-proofing}}
 
 1. No canto superior direito, clique no seu avatar e selecione **Configurações Pessoais**.
 1. Escolha a guia **Padrões de revisão** e especifique as seguintes informações:
