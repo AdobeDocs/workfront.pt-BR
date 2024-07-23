@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2742'
 ht-degree: 4%
 
 ---
@@ -66,11 +66,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Antes de executar as ações descritas neste artigo, verifique o seguinte:
 
-* Todos os campos que você deseja relatar são rastreados no Workfront. Você só pode criar relatórios sobre dados da área Atualizações que é rastreada.
+* Todos os campos (incluindo campos personalizados) que você deseja relatar são rastreados no Workfront. Você só pode criar relatórios sobre dados da área Atualizações que é rastreada.
 
   Para saber como adicionar campos que você deseja que o Workfront rastreie, consulte [Configurar atualizações do sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Qualquer campo personalizado sobre o qual você deseja criar relatórios tem a configuração **Exibir alterações de campo nos feeds de atualização** habilitada.
 
 ## Visão geral do relatório de Lançamento
 

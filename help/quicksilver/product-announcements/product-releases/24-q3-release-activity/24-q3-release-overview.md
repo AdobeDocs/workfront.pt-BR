@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Regras de negócio agora estão disponíveis</a></p>
                         [!BADGE Na produção ]{type=Informative}
@@ -74,6 +74,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                                 <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
                             </li>
                         </ul>
+                        <p><i>Disponível somente para organizações no novo plano Ultimate.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                                 <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Esse recurso foi removido temporariamente da Produção para clientes que não estão na programação de lançamento rápido.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mais atribuições relevantes adicionadas ao fluxo de trabalho Nova Tarefa</a></p>
-                        [!BADGE Na produção ]{type=Informative}
+                        [!BADGE Na produção para a versão rápida ]{type=Positive}
                         <p>Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições na caixa Nova tarefa ao adicionar uma tarefa a um projeto e em uma lista de tarefas de projeto.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -296,16 +296,15 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
                             <li>
-                                <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
+                                <p>Versão de produção para todos os clientes: com a versão 24.10 (outubro de 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Este recurso foi removido temporariamente da Produção para clientes que não estão no cronograma de lançamento rápido.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mais atribuições inteligentes relevantes</a></p>
-                        [!BADGE Na produção ]{type=Informative}
+                        [!BADGE Na produção para a versão rápida ]{type=Positive}
                         <p>Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -317,7 +316,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
                             <li>
-                                <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
+                                <p>Versão de produção para todos os clientes: com a versão 24.10 (outubro de 2024)</p>
                             </li>
                         </ul>
                     </td>

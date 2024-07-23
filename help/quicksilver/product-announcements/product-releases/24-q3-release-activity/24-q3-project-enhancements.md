@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,25 @@ Para obter informações sobre como atualizar a Data de confirmação e a Condi�
 
 [Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
+## Atribuições mais relevantes adicionadas ao fluxo de trabalho Nova tarefa
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Versão de produção para todos os clientes: Com o lançamento 24.10 (outubro de 2024).
+
+Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições nas seguintes áreas:
+
+* A caixa Nova tarefa ao adicionar uma tarefa a um projeto
+
+* Em uma lista de tarefas de projeto
+
+Para obter mais informações, consulte [Visão geral das atribuições inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Atribuições inteligentes mais relevantes
 
 >[!NOTE]
 >
->Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Versão de produção para todos os clientes: Com o lançamento 24.7 (18 de julho de 2024).
+>Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Versão de produção para todos os clientes: Com o lançamento 24.10 (outubro de 2024).
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 
