@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '14320'
+source-wordcount: '14277'
 ht-degree: 1%
 
 ---
@@ -792,7 +792,6 @@ ht-degree: 1%
       * [Criar aplicativos OAuth2 para integrações do Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Exibir e gerenciar aplicativos OAuth2 personalizados](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Configurar a integração do JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-      * [Acessar a ajuda do Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
    * Blueprints {#blueprints}
       * [Blueprints](administration-and-setup/blueprints/blueprints.md)
       * [Visão geral de blueprints](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1132,12 +1131,6 @@ ht-degree: 1%
       * [Organizar documentos](documents/organizing-documents/organize-documents.md)
       * [Criar pastas de documentos](documents/organizing-documents/create-documents-folder.md)
       * [Criar e gerenciar pastas inteligentes](documents/organizing-documents/create-manage-smart-folders.md)
-   * DAM Workfront no Adobe Workfront {#wf-dam-within-workfront}
-      * [DAM do Workfront no Adobe Workfront](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-      * [Habilitar o DAM do Adobe Workfront](documents/workfront-dam-within-workfront/enable-wf-dam.md)
-      * [Gerenciamento de documentos com o Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-      * [Tipos de função de licenciamento do Adobe Workfront versus tipos de função do Adobe Workfront DAM](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Acessar a ajuda do Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Integrações do Workfront e do Experience Manager Assets {#wf-aem-integrations}
       * [Integrações do Workfront e da Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Conector aprimorado do Workfront para Experience Manager {#wf-aem-enhanced-connector}

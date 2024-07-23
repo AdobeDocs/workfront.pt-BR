@@ -7,9 +7,9 @@ description: O Adobe Workfront DAM é um sistema nativo de Gerenciamento de ativ
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 4bb4b61a-eafe-41f1-9f5d-20583fb76d81
-source-git-commit: b855f032b24079ff27435fb833cd3ed8a382a77c
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,4 @@ ht-degree: 0%
 Você pode acessar a documentação de suporte do [!UICONTROL [!DNL Workfront] DAM] nos seguintes locais:
 
 * Se você estiver usando o aplicativo [!UICONTROL Workfront DAM] independente (fora do aplicativo [!DNL Workfront] principal), consulte o Site de Ajuda do [!DNL Webdam].
-* Se você estiver usando a funcionalidade [!UICONTROL [!DNL Workfront] DAM] no aplicativo [!DNL Workfront] principal, consulte [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] em  [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 * OBSERVAÇÃO: se você precisar enviar uma solicitação de recurso ou registrar um problema, contate o Suporte ao Cliente do [!DNL Workfront] por telefone, email ou pelo site de Ajuda do [!DNL Workfront]. Para obter mais informações, consulte [Contate o Atendimento ao Cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
