@@ -6,9 +6,9 @@ description: É possível compartilhar uma prova no visualizador de provas se o 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >A configuração Permitir compartilhamento de prova via URL público ou código de inserção deve estar ativada.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -49,6 +51,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Compartilhar o URL
 

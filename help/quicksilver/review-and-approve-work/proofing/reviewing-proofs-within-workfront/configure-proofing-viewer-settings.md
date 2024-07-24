@@ -6,9 +6,9 @@ description: Você pode definir as configurações do Visualizador de provas da 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Você pode definir as seguintes configurações para o Visualizador de provas de
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -68,6 +70,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Definir configurações do revisor de provas
 

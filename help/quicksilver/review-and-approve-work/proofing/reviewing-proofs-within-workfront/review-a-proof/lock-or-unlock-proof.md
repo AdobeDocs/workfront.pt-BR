@@ -6,9 +6,9 @@ description: Você pode bloquear e desbloquear manualmente uma prova a qualquer 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Você pode bloquear e desbloquear manualmente uma prova a qualquer momento no processo de revisão.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Bloquear uma prova
 

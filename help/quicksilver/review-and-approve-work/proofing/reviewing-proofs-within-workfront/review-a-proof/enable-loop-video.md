@@ -6,10 +6,10 @@ description: Você pode configurar o vídeo para executar um loop contínuo (o v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 944c4d15-e868-4481-9d35-318a319dc375
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 2%
 Você pode configurar o vídeo para executar um loop contínuo (o vídeo começa a ser reproduzido novamente após a conclusão). 
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Ativar loop em uma prova de vídeo
 

@@ -6,9 +6,9 @@ description: Você pode medir uma área dentro de uma prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Você pode medir uma área dentro de uma prova.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Medir uma área dentro de uma prova
 

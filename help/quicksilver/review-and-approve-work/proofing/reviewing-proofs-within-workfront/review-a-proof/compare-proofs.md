@@ -7,9 +7,9 @@ description: Você pode usar o visualizador de provas para comparar duas provas 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '339'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 2%
 Você pode usar o visualizador de provas para comparar duas provas diferentes ou duas versões da mesma prova.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -46,6 +48,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Comparar duas provas diferentes
 

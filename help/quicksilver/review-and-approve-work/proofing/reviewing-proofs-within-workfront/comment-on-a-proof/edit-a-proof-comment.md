@@ -6,9 +6,9 @@ description: Comentários não podem ser editados depois que uma resposta é adi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Comentários não podem ser editados depois que uma resposta é adicionada ao comentário. Essa restrição mantém a integridade da thread de comentários. Quando você edita um comentário, a hora em que ele foi feito não é afetada.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -50,6 +52,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
++++
+
 ## Editar comentários de prova
 
 É possível editar qualquer comentário feito em uma prova. Além disso, os seguintes usuários podem editar comentários feitos por outros usuários:
@@ -69,7 +73,7 @@ Para editar comentários de prova:
 
 1. ![Editar_um_comentário-Mais_ícone.png](assets/edit-a-comment-more-icon.png)
 
-1. Faça qualquer alteração no comentário e clique em **Post**.
+1. Faça qualquer alteração no comentário e clique em **Postar**.
 
    >[!NOTE]
    >

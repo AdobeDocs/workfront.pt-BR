@@ -6,9 +6,9 @@ description: Ao comentar em uma prova no visualizador de provas, você pode marc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Ao marcar usuários em comentários em uma prova, os usuários que você pode ma
 * Se você foi adicionado à prova como um usuário externo e é membro de outro ambiente com uma conta de prova diferente, é possível marcar somente esses usuários do seu ambiente original. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisitos de acesso {#access-requirements}
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -55,6 +57,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
++++
+
 ## Adicione tags aos usuários para compartilhar uma prova
 
 Os usuários com a função de Perfil de Permissão de Prova ou Prova descrita na seção [Requisitos de acesso](#access-requirements) acima podem marcar os usuários para compartilhar uma prova por padrão. Você também pode adicionar tags aos usuários para compartilhar uma prova independentemente do Perfil de permissão de prova ou da função de Prova se você for o proprietário ou criador da prova. Você pode permitir que usuários com funções de Perfil de permissão de prova mais baixas ou Funções de prova marquem usuários para compartilhar uma prova ao criar uma prova. Para obter mais informações, consulte a seção [Configurar o fluxo de trabalho e adicionar revisores](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) no artigo [Criar uma prova avançada com um fluxo de trabalho básico](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
@@ -76,7 +80,7 @@ Para marcar alguém e compartilhar uma prova em um comentário:
    >Se quiser fechar a lista suspensa sem selecionar ninguém, pressione a tecla **Esc** ou clique em qualquer lugar fora da lista.
 
 1. Repita as etapas 1 a 2 para qualquer outro usuário que desejar marcar no comentário.
-1. Termine o comentário e clique em **Post**.
+1. Termine o comentário e clique em **Postar**.
 1. (Condicional) Se você marcou qualquer pessoa que ainda não foi adicionada à prova, especifique uma configuração de **Função de prova** e **Alertas de email** para cada usuário listado na caixa exibida e clique em **Adicionar pessoas e postar comentário**.
 
    ![](assets/add-people-to-proof-350x220.png)

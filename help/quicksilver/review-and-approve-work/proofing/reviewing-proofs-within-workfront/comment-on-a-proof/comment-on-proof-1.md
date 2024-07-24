@@ -6,9 +6,9 @@ description: Os comentários permitem fornecer feedback sobre o conteúdo e cola
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Ao marcar usuários em comentários em uma prova, os usuários que você pode ma
 * Se você foi adicionado à prova como um usuário externo e é membro de outro ambiente com uma conta de prova diferente, é possível marcar somente esses usuários do seu ambiente original. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -55,6 +57,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
++++
+
 ## Comentar em uma prova
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
@@ -78,17 +82,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Draw uma linha à mão livre</strong> </td> 
+      <td role="rowheader"><strong>Desenhar uma linha à mão livre</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Permite adicionar uma linha à mão livre na área selecionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw uma linha</strong> </td> 
+      <td role="rowheader"><strong>Desenhar uma linha</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Permite desenhar uma linha na área selecionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw e uma seta</strong> </td> 
+      <td role="rowheader"><strong>Desenhe uma seta</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>Permite adicionar uma seta a uma área selecionada.</td> 
      </tr> 
@@ -98,7 +102,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td>Realça a área selecionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw um retângulo</strong> </td> 
+      <td role="rowheader"><strong>Desenhar um retângulo</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Permite desenhar um retângulo ao redor de uma área.</td> 
      </tr> 
@@ -128,4 +132,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Clique no ícone de clipe de papel no canto inferior direito do comentário, localize e selecione o arquivo que deseja fazer upload.
    * Arraste um arquivo de um local no seu computador e solte-o na área de comentário.
 
-1. Clique em **Post**.
+1. Clique em **Publicar**.

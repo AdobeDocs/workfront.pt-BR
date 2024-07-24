@@ -6,9 +6,9 @@ description: Se não conseguir abrir uma prova conforme descrito abaixo, entre e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '252'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 Se não conseguir abrir uma prova conforme descrito abaixo, entre em contato com o administrador do Adobe Workfront ou do Workfront Proof.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -43,6 +45,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

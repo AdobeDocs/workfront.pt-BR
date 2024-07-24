@@ -8,9 +8,9 @@ description: Você pode desativar a capacidade de compartilhar uma prova com um 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Você pode desativar a capacidade de compartilhar uma prova com um URL público ou incorporar código em uma prova por prova ou para usuários individuais.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -43,6 +45,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Desativar por prova
 

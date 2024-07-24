@@ -7,9 +7,9 @@ description: Você pode visualizar quais usuários no Adobe Workfront têm atual
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4d45ecd9-4348-43a4-9fa7-090b996b4695
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 1%
 Você pode visualizar quais usuários no Adobe Workfront têm atualmente a opção &quot;O usuário pode gerar provas&quot; ativada em qualquer uma das seguintes maneiras abaixo.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -46,6 +48,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Criar um relatório de usuário
 

@@ -6,9 +6,9 @@ description: Desde que a prova esteja ativa (não bloqueada ou arquivada), você
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 07825eeb-9dbd-4ad8-9dca-d3b5345012f8
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '236'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Desde que a prova esteja ativa (não bloqueada ou arquivada), você pode alterar sua decisão a qualquer momento. 
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -49,6 +51,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Alterar uma decisão existente em uma prova
 

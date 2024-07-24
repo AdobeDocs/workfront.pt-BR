@@ -6,9 +6,9 @@ description: Saiba como localizar texto rapidamente em uma prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 2%
 >Provas criadas antes de 26 de abril de 2017 podem não ser pesquisáveis.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -53,6 +55,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Pesquisar conteúdo em uma prova
 

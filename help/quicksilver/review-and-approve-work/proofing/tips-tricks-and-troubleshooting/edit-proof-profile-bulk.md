@@ -7,9 +7,9 @@ description: Saiba como editar o perfil de permissão de prova em massa.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '256'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 3%
 # Editar o campo Perfil de permissão de prova em massa
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,9 +47,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
 
++++
+
 ## Editar o campo Perfil de permissão de prova em massa
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Classifique seus usuários por **Nível de Acesso**. Recomendamos a edição de lotes por Nível de acesso para garantir que o campo **Perfil de Permissão de Prova** seja exibido.
 

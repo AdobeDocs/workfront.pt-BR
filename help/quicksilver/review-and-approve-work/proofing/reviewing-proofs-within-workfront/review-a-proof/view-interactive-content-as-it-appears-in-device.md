@@ -6,9 +6,9 @@ description: Você pode visualizar como uma prova interativa ficará em vários 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Você pode visualizar como uma prova interativa ficará em vários dispositivos, permitindo que você veja como o conteúdo é exibido e responde com base em diferentes resoluções.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Visualizações de dispositivo e resolução no Visualizador de provas de desktop vs. Visualizador de provas de web
 

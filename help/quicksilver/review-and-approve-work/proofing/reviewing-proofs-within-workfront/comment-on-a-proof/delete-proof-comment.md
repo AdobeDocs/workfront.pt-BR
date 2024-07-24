@@ -6,9 +6,9 @@ description: É possível excluir um comentário ou uma resposta a um comentári
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a558cd5c-0341-48bf-b00a-d6db232bda14
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 2%
 É possível excluir um comentário ou uma resposta a um comentário, contanto que ninguém já tenha respondido a ele. Normalmente, é melhor resolver um comentário do que excluí-lo. Para obter mais informações, consulte [Resolver comentários de prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -49,6 +51,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Excluir comentários de prova
 

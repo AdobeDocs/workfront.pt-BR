@@ -6,9 +6,9 @@ description: É possível baixar arquivos de uma prova existente. Comentários e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 É possível baixar arquivos de uma prova existente. Comentários e outras informações associadas à prova não estão incluídos no download.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Baixar uma prova no visualizador de provas
 
