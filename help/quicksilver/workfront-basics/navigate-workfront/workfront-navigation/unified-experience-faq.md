@@ -6,9 +6,9 @@ description: Alguns recursos são diferentes entre o [!DNL Workfront] e o Adobe 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ Esta tabela descreve alguns recursos que diferem entre as duas experiências.
 | Um &quot;alternador de organização&quot; permite mover entre [!DNL Workfront] organizações e ambientes | O &quot;alternador de organização&quot; não está disponível |
 | A navegação inclui uma área de navegação de nível superior para [!DNL Adobe] produtos, [!DNL Adobe] notificações, ajuda e seu perfil de usuário, além da barra de navegação [!DNL Workfront] | A navegação inclui somente a barra de navegação [!DNL Workfront] |
 | A ajuda pode ser acessada pelo [!UICONTROL Menu Principal] e pela área de navegação superior | A ajuda pode ser acessada pelo [!UICONTROL Menu Principal] e pela barra de navegação [!DNL Workfront] |
+| O visualizador de provas é aberto em uma nova guia | O visualizador de provas é aberto dentro do Workfront |
 
 {style="table-layout:auto"}
 
