@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 107b397cc103c8ef93996d9017390d301305a4f3
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
@@ -24,12 +24,6 @@ ht-degree: 1%
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
-
->[!IMPORTANT]
->
->O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Adobe Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, essa ação não estará disponível.
->
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Como administrador do Adobe Workfront, às vezes pode ser necessário acessar o Workfront em nome de outro usuário.
 
