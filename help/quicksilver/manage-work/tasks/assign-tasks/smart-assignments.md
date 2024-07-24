@@ -7,7 +7,7 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
   ![](assets/smart-assignments-issue-list.png)
 
-* Uma lista de tarefas ou um relatório na coluna Atribuições
+* <span class="preview">Uma lista de tarefas ou um relatório na coluna Atribuições</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* Um cabeçalho de tarefa no campo Assignments
+* <span class="preview">Um cabeçalho de tarefa no campo Atribuições</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Um cabeçalho de problema no campo Atribuições
 
@@ -67,9 +67,9 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* O campo Atribuições na caixa Nova tarefa, ao adicionar uma tarefa a um projeto
+* <span class="preview">O campo Atribuições na caixa Nova Tarefa, ao adicionar uma tarefa a um projeto</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* O Balanceador de carga de trabalho na área Atribuído a quando você atribui uma tarefa ou problema
+* <span class="preview">Balanceador de carga de trabalho na área Atribuído a esta ao atribuir uma tarefa ou problema</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Critérios de atribuições inteligentes
