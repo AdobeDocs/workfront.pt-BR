@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Criar atribuições avançadas
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Quarto Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Você pode gerenciar atribuições de tarefas ou problemas usando as Atribuições Avançadas.
 
@@ -92,7 +100,7 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
 
 1. Clique em **Avançado**.
 
-   ![Clique em Avançado](assets/assignments-box-in-task-header.png)
+   <span class="preview">![Clique em Avançado](assets/assignments-box-in-task-header.png)</span>
 
 1. No campo **Pesquisar pessoas, funções e equipes**, comece digitando o nome de um usuário, função ou equipe e clique no nome quando ele aparecer na lista suspensa.
 
@@ -138,15 +146,10 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * Depois de modificar manualmente as alocações de atribuição em tarefas, as Horas Planejadas das tarefas podem ser atualizadas de acordo. Para obter mais informações, consulte a seção &quot;Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário&quot; no artigo [visão geral sobre horas planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Não é possível modificar manualmente as alocações de atribuição em ocorrências.
      >   * Não é possível modificar manualmente as alocações de equipes atribuídas a tarefas.
-     >   
-     >
 
    * **Função do destinatário:** selecione a função que o usuário deve usar ao realizar esta atribuição.  A Função principal do usuário é exibida por padrão. Clique na caixa Função do responsável para selecionar outra função.  Ao atribuir a tarefa ou o problema a uma função primeiro e, em seguida, adicionar um usuário que pode desempenhar essa função como uma segunda atribuição, a lista de usuários sugeridos é filtrada para os usuários que podem desempenhar as funções já atribuídas à tarefa e ao problema.
 

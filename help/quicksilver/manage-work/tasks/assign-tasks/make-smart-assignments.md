@@ -6,7 +6,7 @@ description: Você pode usar atribuições inteligentes para identificar quem é
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Quarto Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Você pode usar atribuições inteligentes para identificar quem é o melhor usuário para concluir o trabalho.
 
 As atribuições inteligentes são sugestões para usuários, funções ou equipes que a Adobe Workfront apresenta quando você atribui itens de trabalho a recursos. O Workfront baseia suas sugestões em um algoritmo que determina o recurso mais apropriado para a tarefa.
 
-Há dois algoritmos separados no Workfront que calculam atribuições inteligentes que funcionam de forma diferente para tarefas e problemas.
+<span class="preview">Há dois algoritmos separados no Workfront que calculam atribuições inteligentes que funcionam de forma diferente para tarefas e problemas.</span>
 
-Para obter mais informações sobre os critérios usados na determinação de atribuições inteligentes, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Para obter mais informações sobre os critérios usados na determinação de atribuições inteligentes, consulte [Visão geral das atribuições inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Requisitos de acesso
 
@@ -75,7 +75,7 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
    * Uma lista de tarefas ou problemas ou um relatório
    * Um cabeçalho de tarefa ou problema
    * O painel Resumo de tarefas ou problemas
-   * Caixa Nova tarefa ou Novo problema ao adicionar uma nova tarefa ou problema a um projeto
+   * <span class="preview">Caixa Nova Tarefa</span> ou Novo Problema, ao adicionar <span class="preview">uma nova tarefa</span> ou problema a um projeto
    * O campo Atribuições de um item listado na área Página inicial
    * Uma tarefa ou problema no Balanceador de carga de trabalho
 
@@ -90,14 +90,14 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
 
    Para tarefas, as atribuições inteligentes são exibidas nas seguintes seções, dependendo de qual fase do cálculo do algoritmo identificou as atribuições:
 
-   * **Atribuições sugeridas**: exibe as atribuições identificadas na primeira fase do algoritmo de atribuição inteligente de tarefa.
+   * <span class="preview">**Atribuições sugeridas**: exibe as atribuições identificadas na primeira fase do algoritmo de atribuição inteligente de tarefa.</span>
    * **Usuários e equipes**, **Funções de trabalho** ou <span class="preview">**Funções de trabalho de cartão de taxa**</span>: atribuições identificadas na segunda fase do cálculo do algoritmo de atribuição inteligente de tarefa.
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-1. Selecione o usuário na lista de recomendações clicando no nome.
+1. Selecione o recurso na lista de recomendações clicando no nome.
 
 1. (Opcional) Clique em **Atribuir a mim** para atribuir o item de trabalho a você mesmo.
 

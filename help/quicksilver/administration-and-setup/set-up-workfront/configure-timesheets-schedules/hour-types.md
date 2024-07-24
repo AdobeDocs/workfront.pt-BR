@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,9 @@ Há dois conjuntos de tipos de horas:
   >
   >Se você habilitar qualquer tipo de hora específico de projeto no sistema [!DNL Workfront], pelo menos um tipo de hora específico de projeto deve ser habilitado em cada projeto no sistema. Você não pode ativar um tipo de hora específico do projeto no nível do sistema e não tem tipos de hora específicos do projeto disponíveis no nível do projeto.
 
-* **Tipos de Horas Gerais**: as horas gerais não podem ser associadas a um projeto, tarefa ou problema, e estão registradas diretamente em uma folha de horas. Para obter mais informações sobre o tempo de registro, consulte [Tempo de registro](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Tipos de Horas Gerais**: as horas gerais não podem ser associadas a um projeto, tarefa ou problema, e estão registradas diretamente em uma folha de horas.
+
+Para obter informações sobre como registrar horas e associá-las a tipos de horas, consulte [Registrar tempo](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Requisitos de acesso
 

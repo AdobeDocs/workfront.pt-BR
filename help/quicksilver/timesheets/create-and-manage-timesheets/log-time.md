@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
+source-wordcount: '3775'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ Para obter mais informações, consulte [Usar cartões conectados em quadros](/h
 
 Você pode registrar horas no aplicativo móvel do Workfront.
 Para obter mais informações, consulte [Adobe Workfront para Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront para iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Editar horas reportadas em listas e relatórios
+
+Você pode editar as horas reportadas nas seguintes áreas:
+
+* Todas as áreas em que você adicionou as horas, incluindo folhas de horas abertas
+* Listas de horas e relatórios.
+
+Você pode editar os seguintes elementos de uma entrada de hora ao editar uma entrada de hora em uma lista ou relatório:
+
+* Número de horas
+* Tipo de hora
+* Função de trabalho associada à entrada de horas
+
+Dependendo do tipo de entrada de hora que você editar, os seguintes campos estarão disponíveis para edição:
+
+* Ao editar horas específicas do projeto:
+
+   * Você pode editar o número de horas.
+   * Você pode alterar o Tipo de Hora somente para tipos específicos do projeto.
+   * Você só poderá alterar a atribuição de função de Trabalho de hora se ela tiver sido habilitada na Configuração. Para obter informações, consulte [Configurar preferências de horas e folha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+* Ao editar o horário geral:
+
+   * Você pode editar o número de horas.
+   * Você pode alterar o Tipo de Hora somente para tipos gerais.
+   * Não é possível alterar a atribuição de função de Trabalho de hora, pois as horas gerais não podem ser associadas às funções.
+
+* Ao editar uma combinação de horas gerais e específicas do projeto, em massa:
+
+   * Você pode editar o número de horas.
+   * Não é possível alterar o Tipo de Hora, pois os tipos de hora gerais não podem ser alterados para tipos específicos de projeto e os tipos de hora específicos de projeto não podem ser alterados para tipos gerais.
+   * Não é possível alterar a atribuição de Função de trabalho, pois o horário geral não pode ser associado às funções.

@@ -6,14 +6,16 @@ description: Você pode remover um projeto de um portfólio e associá-lo a um p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Remover um projeto de um portfólio
+
+<!--Audited: 7/2024-->
 
 Você pode remover um projeto de um portfólio e associá-lo a um portfólio diferente ou remover completamente a associação entre um projeto e um portfólio.
 
@@ -21,7 +23,7 @@ Você também pode excluir projetos de um portfólio que também os remove de [!
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,24 +31,29 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!UICONTROL Business] ou superior</p> </td> 
+   <td> <p>Novo: Qualquer um</p>
+   <p>Atual: [!UICONTROL Business] ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano] </p> </td> 
+   <td> <p>Novo: Padrão</p>
+   <p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Projetos</p> <p>Acesso de [!UICONTROL View] a Portfolio ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Nível de acesso</td> 
+   <td> <p>[!UICONTROL Editar] acesso a Projetos</p> <p>[!UICONTROL Editar] acesso a Portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões [!UICONTROL Manage] no Portfolio para remover projetos <br> permissões [!UICONTROL Manage] com acesso [!UICONTROL Delete] aos projetos para excluí-los do portfólio</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Permissões do [!UICONTROL Manage] no portfólio e nos projetos para remover projetos</p>
+   <p>Permissões do [!UICONTROL Manage] com acesso ao [!UICONTROL Delete] para os projetos a fim de excluí-los do portfólio</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remover um projeto de um portfólio
 

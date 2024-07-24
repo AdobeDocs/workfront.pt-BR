@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Quarto Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 É possível atribuir tarefas a usuários, funções de trabalho ou equipes para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
 
@@ -55,6 +55,8 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
 * [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisitos de acesso
+
+<!-- Audited: 07/2024-->
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode procurar a função de trabalho ou o local. Selecione uma função na lista Funções de trabalho para usar a taxa de cobrança padrão para a atribuição ou selecione uma função de trabalho Cartão de taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condicional) Clique em um dos nomes nas listas **Atribuições sugeridas**, **Usuários e equipes** ou **Funções de trabalho** ou <span class="preview">**Classificar funções de cartão**</span> quando forem exibidas. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condicional) Clique em um dos nomes nas listas <span class="preview">**Atribuições sugeridas**</span>, **Usuários e equipes** ou **Funções de trabalho** ou <span class="preview">**Classificar funções de cartão**</span> quando forem exibidas. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Você pode começar a digitar o nome de qualquer usuário, equipe ou função de trabalho para atribuir à tarefa e, em seguida, selecioná-lo quando ele for exibido na lista.
 

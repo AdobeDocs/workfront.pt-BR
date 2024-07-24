@@ -6,10 +6,10 @@ description: Quando não for mais necessário, você poderá remover um projeto 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 0%
+source-wordcount: '228'
+ht-degree: 1%
 
 ---
 
@@ -25,34 +25,35 @@ Você pode remover um projeto de um programa seguindo um destes procedimentos:
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!UICONTROL Business] ou superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano] </p> </td> 
+   <td><p>Novo: Padrão</p> 
+   <p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Portfolio, Programas e Projetos</p> <p>Você deve ter acesso à [!UICONTROL Excluir] para que os projetos sejam excluídos.</p> <p><b> Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+   <td role="rowheader">Nível de acesso</td> 
+   <td> <p>[!UICONTROL Editar] acesso a Portfolio, Programas e Projetos</p> <p>Você deve ter acesso à [!UICONTROL Excluir] para que os projetos sejam excluídos.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do [!UICONTROL Manage] para o portfólio, o programa e o projeto</p> <p>Você deve ter permissões de [!UICONTROL Excluir] para que o projeto possa excluí-lo. </p> <p>Por padrão, após criar um programa, você terá permissões de [!UICONTROL Manager] para ele.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Permissões do [!UICONTROL Manage] para o portfólio, o programa e o projeto</p> <p>Você deve ter permissões de [!UICONTROL Excluir] para que o projeto possa excluí-lo. </p> <p>Por padrão, após criar um programa, você terá permissões de [!UICONTROL Manager] para ele.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+
++++
 
 ## Remover um projeto de um programa
 
