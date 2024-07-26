@@ -6,9 +6,9 @@ description: Você pode adicionar outros aprovadores ou revisores a um documento
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ As novas aprovações de documentos são um redesign holístico do processo de a
 
 ## Principais diferenças das aprovações de documentos legados e de provas
 
-**Prova**
+**Diferenças da Revisão**
 
 * Os botões de decisão de aprovação de documento não estão disponíveis no visualizador de provas. As decisões podem ser tomadas no Resumo do documento, nos widgets da Página inicial do Workfront ou na página Detalhes do documento.
 * Os participantes da aprovação de documentos são exibidos no Resumo do documento, não na guia do fluxo de trabalho da prova.
@@ -34,13 +34,17 @@ As novas aprovações de documentos são um redesign holístico do processo de a
    * Aprovações pendentes
    * Aprovações atrasadas
 
-**Aprovações de documentos herdados**
+**Diferenças das aprovações de documentos herdados**
 
-* Você pode adicionar revisores além dos aprovadores.
-* Você pode designar uma equipe inteira do Workfront como revisores ou aprovadores.
-* Você pode definir um prazo para a revisão ou aprovação.
-* Você pode criar e reutilizar modelos de aprovação.
-* Você pode visualizar vários indicadores-chave de desempenho para suas aprovações nos widgets da Página inicial do Workfront.
+Com novas aprovações de documentos, você pode
+
+* Adicionar revisores além dos aprovadores
+* Designar uma equipe inteira do Workfront como revisores ou aprovadores
+* Definir um prazo para a revisão ou aprovação
+* Criar e reutilizar modelos de aprovação
+* Utilizar novas versões para
+* Exibir vários indicadores-chave de desempenho para suas aprovações nos widgets da Página inicial do Workfront
+* Usar Painéis do Canvas para exibir detalhes de relatórios sobre novas aprovações de documentos
 
 ## Uso de novas aprovações de documentos
 
