@@ -6,9 +6,9 @@ description: É possível excluir tarefas que podem estar duplicadas ou que fora
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Dependendo de como o administrador do Workfront configura as Preferências de ex
    1. (Condicional) Quando a opção **Salvar automaticamente** está habilitada:
 
       1. Selecione as tarefas que deseja excluir e clique em **Mais**
-      1. Clique em **Excluir**, depois em **Sim, Excluir** para confirmar a exclusão.
+      1. Clique em **Excluir** e depois em **Excluir** para confirmar a exclusão.
 
          As tarefas são excluídas.
 
@@ -149,7 +149,7 @@ Dependendo de como o administrador do Workfront configura as Preferências de ex
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Clique em **Excluir tarefa**.
-1. Se a exclusão for permitida, clique em **Sim, Exclua-a**.
+1. Se a exclusão for permitida, clique em **Excluir**.
 
    O administrador do Workfront ou o administrador de grupo pode não permitir a exclusão de tarefas em que as horas são registradas.
 
