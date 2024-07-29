@@ -6,9 +6,9 @@ description: Você pode instalar o plug-in Adobe Workfront para XD no Adobe Mark
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for XD] no Adobe Marketplace
 * Coreano
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -54,6 +56,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+
++++
 
 ## Pré-requisitos
 

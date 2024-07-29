@@ -6,9 +6,9 @@ description: Você pode atualizar seu trabalho com o plug-in do Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '218'
 ht-degree: 2%
 
 ---
@@ -19,8 +19,9 @@ Você pode atualizar seu trabalho de qualquer um dos [!DNL Adobe Creative Cloud]
 
 {{cc-app-list}}
 
-
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -51,11 +52,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
++++
+
 ## Pré-requisitos
 
 {{cc-install-prereq}}
 
-## Post e atualização
+## Publicar uma atualização
 
 Você pode atualizar seu trabalho de qualquer uma das seguintes áreas no plug-in:
 
