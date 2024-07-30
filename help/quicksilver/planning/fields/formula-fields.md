@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '430'
 ht-degree: 8%
 
 ---
@@ -41,7 +41,7 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -68,9 +68,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Qualquer</p> 
+   <p>Novo: Padrão</p>
+   <p>Atual: Plano</p> 
   </td>
   </tr>
 
@@ -93,6 +94,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 </tbody>
 </table>
+
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>

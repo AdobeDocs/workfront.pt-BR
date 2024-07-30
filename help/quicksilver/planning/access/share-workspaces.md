@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Você pode compartilhar um espaço de trabalho com outras pessoas para garantir 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -84,6 +84,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Compartilhar permissões em um espaço de trabalho
 

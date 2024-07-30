@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ A seção Planejamento está disponível para os seguintes objetos do Workfront:
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -92,6 +92,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre a seção Planejamento de objetos do Workfront
 

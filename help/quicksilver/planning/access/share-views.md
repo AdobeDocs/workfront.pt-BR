@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Você pode compartilhar uma exibição com as seguintes entidades:
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -93,7 +93,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 *Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Compartilhar permissões para uma exibição <!--internally-->
 
@@ -141,8 +141,6 @@ Você pode compartilhar os modos de exibição criados ou os modos de exibição
    >[!TIP]
    >
    >   As exibições compartilhadas com você têm um indicador de pessoas ![](assets/view-shared-with-others-people-icon.png) ao lado do ícone de exibição. As exibições sem o indicador de pessoas são exibições que você criou.
-
-
 
 <!--
 ## Share permissions to a view publicly

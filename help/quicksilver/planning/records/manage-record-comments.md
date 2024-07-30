@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ O painel direito de um registro exibe as seguintes seções:
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -86,6 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody>
 </table>
 
++++
 
 ## Considerações sobre comentários em um registro
 

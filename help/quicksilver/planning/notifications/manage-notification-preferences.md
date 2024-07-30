@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,9 @@ Quando alguém adiciona você a um comentário na página de registro, você rec
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+<!--ensure this is truly 'Any' license when we go to GA-->
+
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -80,6 +82,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
  </tbody>
 </table>
+
++++
 
 ## Gerenciar preferências de notificação
 

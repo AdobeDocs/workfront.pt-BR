@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/p
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -83,6 +83,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre miniaturas de registro
 

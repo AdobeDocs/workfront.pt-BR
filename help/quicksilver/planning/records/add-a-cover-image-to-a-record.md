@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/p
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -86,6 +86,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre imagens de capa de página de registro
 
