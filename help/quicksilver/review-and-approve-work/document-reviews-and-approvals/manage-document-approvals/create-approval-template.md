@@ -6,7 +6,7 @@ description: Você pode criar Modelos de aprovação para simplificar seu proces
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -61,6 +61,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    |----------------------------|---|
    | **(Opcional) Cronograma** | Insira o período em dias. O prazo de aprovação é calculado a partir desse campo assim que o modelo é aplicado a um ativo. |
    | **Adicionar aprovadores ou revisores** | Comece a digitar o nome de usuários ou equipes e, em seguida, designe-os como revisores ou aprovadores. |
+
 1. Clique em **Salvar**.
 
 

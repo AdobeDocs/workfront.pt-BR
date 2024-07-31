@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '2798'
 ht-degree: 0%
@@ -25,7 +25,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
 >A versão 23.3 inclui a opção de mover sua organização para versões mensais. Portanto, a Workfront está alterando o esquema de numeração de versões para contabilizar as faixas de lançamento mensais e trimestrais.
 >
 >* Se você estiver na faixa de **lançamento rápido (mensal)**, o lançamento após a versão 23.3 será **23.8**, em 31 de agosto de 2023.
-> * Se você estiver na faixa de lançamento **trimestral**, o lançamento após a versão 23.3 será **23.10**, na semana de 26 de outubro de 2023.
+>* Se você estiver na faixa de lançamento **trimestral**, o lançamento após a versão 23.3 será **23.10**, na semana de 26 de outubro de 2023.
 > 
 > As versões trimestrais incluirão a funcionalidade de três versões mensais. Por exemplo, a versão trimestral 23.10 incluirá funcionalidades lançadas nas versões mensais 23.8, 23.9 e 23.10.
 >

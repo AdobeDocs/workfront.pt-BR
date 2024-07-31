@@ -6,10 +6,10 @@ description: Você pode visualizar a alocação de funções para todas as funç
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -114,10 +114,9 @@ Você deve ter o seguinte:
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Revise as seguintes informações no painel **Alocação de função**:
-|Campo | Descrição|
-|—|—|
-| **Função de trabalho** |Funções de trabalho atribuídas a tarefas e problemas no projeto. Podem ser funções de trabalho atribuídas diretamente a tarefas e problemas ou funções de trabalho associadas a usuários atribuídos a tarefas e problemas no projeto.  |
-| **Horas planejadas** |O número total de Horas Planejadas de tarefas e problemas atribuídas a funções de trabalho ou usuários associados a uma função de trabalho no projeto.  |
 
-
+   | Campo | Descrição |
+   |---|---|
+   | **Função** | Funções de trabalho atribuídas a tarefas e problemas no projeto. Podem ser funções de trabalho atribuídas diretamente a tarefas e problemas ou funções de trabalho associadas a usuários atribuídos a tarefas e problemas no projeto. |
+   | **Horas planejadas** | O número total de Horas Planejadas de tarefas e problemas atribuídas a funções de trabalho ou usuários associados a uma função de trabalho no projeto. |
 
