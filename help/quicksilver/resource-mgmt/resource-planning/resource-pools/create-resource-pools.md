@@ -6,9 +6,9 @@ description: Conjuntos de recursos são coleções de usuários que ajudam a ger
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -93,14 +93,14 @@ Você deve ter o seguinte:
     </tbody>
    </table>
 
-1. (Opcional) Use o link **Desfazer** para remover os usuários adicionados por meio de um grupo, equipe, empresa ou função de trabalho. <span class="preview">(A função Desfazer está temporariamente indisponível no ambiente de Visualização.)</span>
+1. (Opcional) Use o link **Desfazer** para remover os usuários adicionados por meio de um grupo, equipe, empresa ou função de trabalho.
 
    >[!NOTE]
    >
    >Não há limite para o número de usuários que você pode ter em um Conjunto de Recursos. No entanto, recomendamos não adicionar muitos usuários a um Conjunto de recursos, pois o Gerenciamento de recursos pode se tornar um desafio caso contrário. A lista de usuários mostra apenas os primeiros 2.000 usuários no Conjunto de recursos e eles são listados em ordem alfabética.
 
    <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-   <span class="preview">![Usuários adicionados ao Conjunto de Recursos](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![Usuários adicionados ao Conjunto de Recursos](assets/users-in-resource-pool2.png)</span>
 
    Imagem de amostra no ambiente de produção:
    ![Usuários adicionados ao Conjunto de Recursos](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
