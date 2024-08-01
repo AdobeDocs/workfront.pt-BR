@@ -6,16 +6,16 @@ description: Você pode alterar o idioma em que exibe o Adobe Workfront e emails
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 1%
 
 ---
 
 # Idiomas compatíveis com o Adobe Workfront
 
-Você pode alterar o idioma em que exibe o Adobe Workfront e emails provenientes do Workfront, ajustando as preferências de idioma no navegador e a localidade de email padrão no Workfront.
+Você pode alterar o idioma em que exibe o Adobe Workfront e os emails provenientes do Workfront, ajustando as preferências de idioma no navegador (se não estiver no IMS) ou nas preferências de idioma do perfil do Adobe Experience Cloud (se estiver no IMS) e na localidade de email padrão no Workfront.
 
 A terminologia do Workfront é atualizada para os idiomas compatíveis com cada atualização do Workfront.
 
