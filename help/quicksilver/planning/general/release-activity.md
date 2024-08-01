@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -39,24 +39,12 @@ Os recursos lançados são listados na ordem de lançamento, com o mais recente 
 
 O Workfront Planning foi removido temporariamente dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos documentados neste artigo estão disponíveis atualmente na Produção.
 
-## Semana de 29 de julho de 2024
-
-### A API pública do Adobe Workfront Planning agora está disponível
-
-Produção: 30 de julho de 2024
-
-Visualização: a ser determinado
-
-A API pública do Adobe Workfront Planning agora está disponível.
-
-Para obter informações, consulte [noções básicas sobre API do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md).
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## Semana de 29 de julho de 2024
+
+### A API pública do Adobe Workfront Planning agora está disponível
+
+Produção: 30 de julho de 2024
+
+Visualização: a ser determinado
+
+A API pública do Adobe Workfront Planning agora está disponível.
+
+Para obter informações, consulte [noções básicas sobre API do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md).
+
+### Inserir e duplicar registros na exibição de tabela
+
+Produção: 1 de agosto de 2024
+Visualização: a ser determinado
+
+Introduzimos os seguintes recursos ao trabalhar com registros na exibição de tabela:
+
+* Registros duplicados: é possível criar um registro rapidamente duplicando um registro existente.  Um registro idêntico é criado. Esse recurso está disponível somente na exibição de tabela.
+
+* Você pode inserir um novo registro acima ou abaixo de um registro existente na exibição de tabela. Antes desse aprimoramento, você só adiciona registros na parte inferior da exibição de tabela.
+
+Você pode executar os novos recursos nas seguintes áreas:
+
+* O menu Mais de um registro
+
+* A nova barra de ferramentas que foi adicionada à parte inferior da página de registro na exibição de tabela
+
+Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md)
+
 
 ## Semana de 8 de julho de 2024
 

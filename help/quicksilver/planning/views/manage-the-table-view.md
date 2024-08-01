@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 3%
 
 ---
@@ -135,9 +135,8 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 É possível adicionar até 500 campos (ou colunas) em uma exibição de tabela.
 
-1. Vá para uma página de tipo de registro e selecione uma exibição **Tabela** no menu suspenso exibição.
+1. Vá para uma página de tipo de registro e clique em uma guia de exibição de tabela ou clique em **+ Exibição** para adicionar um novo modo de exibição e, em seguida, escolha **Tabela**.
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Comece a adicionar campos (ou colunas), conforme descrito no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
    As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página do registro.
@@ -213,9 +212,8 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
 É possível ter até 50.000 registros (ou linhas) para um tipo de registro S.
 
-1. Vá para uma página de tipo de registro e selecione uma exibição **Tabela** no menu suspenso exibição.
+1. Vá para uma página de tipo de registro e clique em uma guia de exibição de tabela ou clique em **+ Exibição** para adicionar um novo modo de exibição e, em seguida, escolha **Tabela**.
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Comece a adicionar registros (ou linhas), conforme descrito no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
    Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
@@ -229,13 +227,8 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
    >[!NOTE]
    >
    >Não é possível reordenar linhas se você aplicar pelo menos uma classificação à exibição de tabela.
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >As alterações feitas na ordem das linhas ficam visíveis para todos os usuários que acessam o tipo de registro
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 Os filtros ajudam a reduzir a quantidade de informações exibidas na tela.
 
 Considere o seguinte ao trabalhar com filtros na exibição de tabela:
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * Os filtros criados para a exibição de tabela funcionam independentemente dos filtros na exibição de linha do tempo quando aplicados ao mesmo tipo de registro.
