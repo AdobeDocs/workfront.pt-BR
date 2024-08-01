@@ -2,22 +2,26 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Criar conjuntos de recursos
-description: Conjuntos de recursos são coleções de usuários que ajudam a gerenciar recursos com mais facilidade no Adobe Workfront. Para obter mais informações sobre conjuntos de recursos, consulte Visão geral dos conjuntos de recursos.
-author: Alina
+description: Conjuntos de recursos são coleções de usuários que ajudam a gerenciar recursos com mais facilidade no Adobe Workfront.
+author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
 
 # Criar conjuntos de recursos
 
+{{highlighted-preview}}
+
 Conjuntos de recursos são coleções de usuários que ajudam a gerenciar recursos com mais facilidade no Adobe Workfront. Para obter mais informações sobre pools de recursos, consulte [Visão geral dos pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -46,16 +50,19 @@ Você deve ter o seguinte:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Criar um conjunto de recursos {#create-a-resource-pool}
 
-1. Faça logon como um usuário com acesso para editar Conjuntos de recursos.\
-   Para obter mais informações, consulte [Criar um Pool de Recursos](#create-a-resource-pool).
+{{step1-to-resourcing}}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique em **Conjuntos de Recursos** no painel esquerdo.
 
-1. Clique em **Recursos**.
-1. Clique em **Conjuntos de Recursos** no painel esquerdo.\
-   ![resource_pools_tab.png](assets/resource-pools-tab-350x198.png)
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   <span class="preview">![Conjuntos de Recursos](assets/list-of-resource-pools.png)</span>
+
+   Imagem de amostra no ambiente de produção:
+   ![Conjuntos de Recursos](assets/resource-pools-tab-350x198.png)
 
 1. Clique em **Novo Conjunto de Recursos**.
 1. Especifique o seguinte:
@@ -80,19 +87,24 @@ Você deve ter o seguinte:
          <li><strong>Grupos</strong>: todos os membros do grupo são adicionados ao Conjunto de Recursos.</li>
          <li><strong>Funções</strong>: todos os usuários associados a essa função são adicionados ao Pool de Recursos.</li>
          <li><strong>Empresas</strong>: todos os usuários da empresa são adicionados ao Conjunto de Recursos.</li>
-        </ul><p>Dica: você só pode adicionar usuários, equipes, <span>funções,</span> ou empresas ativos.</p><p>Observação: se um usuário se tornar membro de um grupo, equipe, empresa ou estiver associado a uma função de trabalho depois que o grupo, a equipe, a empresa ou a função de trabalho forem adicionados ao Conjunto de Recursos, o novo membro não será adicionado automaticamente ao Conjunto de Recursos. <br>Se um usuário pertencer à equipe, grupo, empresa e função de trabalho que você está adicionando, ao mesmo tempo, o usuário será adicionado apenas uma vez ao Pool de Recursos.<br>Os usuários desativados após serem adicionados ao Pool de Recursos aparecem esmaecidos na lista de usuários e marcados como desativados.</p></p></td>
+        </ul><p>Dica: você só pode adicionar usuários, equipes, <span>funções,</span> ou empresas ativos.</p><br>Talvez seja necessário rolar para baixo na caixa de diálogo para ver todos os usuários no Pool de Recursos.
+        <p>Observação: se um usuário se tornar membro de um grupo, equipe, empresa ou estiver associado a uma função de trabalho depois que o grupo, a equipe, a empresa ou a função de trabalho forem adicionados ao Conjunto de Recursos, o novo membro não será adicionado automaticamente ao Conjunto de Recursos. <br>Se um usuário pertencer à equipe, grupo, empresa e função de trabalho que você está adicionando, ao mesmo tempo, o usuário será adicionado apenas uma vez ao Pool de Recursos.<br>Os usuários desativados após serem adicionados ao Pool de Recursos aparecem esmaecidos na lista de usuários e marcados como desativados.</p></p></td>
      </tr>
     </tbody>
    </table>
 
-1. (Opcional) Use o link **Desfazer** para remover os usuários adicionados por meio de um grupo, equipe, empresa ou função de trabalho.
+1. (Opcional) Use o link **Desfazer** para remover os usuários adicionados por meio de um grupo, equipe, empresa ou função de trabalho. <span class="preview">(A função Desfazer está temporariamente indisponível no ambiente de Visualização.)</span>
 
    >[!NOTE]
    >
    >Não há limite para o número de usuários que você pode ter em um Conjunto de Recursos. No entanto, recomendamos não adicionar muitos usuários a um Conjunto de recursos, pois o Gerenciamento de recursos pode se tornar um desafio caso contrário. A lista de usuários mostra apenas os primeiros 2.000 usuários no Conjunto de recursos e eles são listados em ordem alfabética.
 
-   ![Resource_pools_NEW__UNDO_button_for_team_groups_etc.png](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   <span class="preview">![Usuários adicionados ao Conjunto de Recursos](assets/users-in-resource-pool.png)</span>
 
-1. (Opcional) Clique no ícone X à direita do nome de um usuário para remover um usuário. Para obter mais informações sobre como remover usuários de um pool de recursos, consulte [Remover usuários dos pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
+   Imagem de amostra no ambiente de produção:
+   ![Usuários adicionados ao Conjunto de Recursos](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+
+1. (Opcional) Clique no ícone X à direita do nome de um usuário para remover um usuário. Para obter mais informações sobre como remover usuários de um pool de recursos, consulte [Remover usuários dos pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Opcional) Use a opção **Pesquisar** para localizar um usuário no Pool de Recursos.
 1. Clique em **Criar**.

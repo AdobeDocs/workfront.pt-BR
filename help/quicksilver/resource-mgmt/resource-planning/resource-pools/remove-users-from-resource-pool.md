@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Remover usuários do conjunto de recursos
 description: Embora não haja limite para o número de usuários que você pode ter em um pool de recursos, a lista de usuários exibe apenas os primeiros 2000 usuários, listados em ordem alfabética.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '401'
 ht-degree: 1%
 
 ---
 
 # Remover usuários do conjunto de recursos
+
+{{highlighted-preview}}
 
 Embora não haja limite para o número de usuários que você pode ter em um pool de recursos, a lista de usuários exibe apenas os primeiros 2000 usuários, listados em ordem alfabética.
 
@@ -22,6 +24,8 @@ Recomendamos que você remova os usuários que foram desativados ou que moveram 
 Para obter mais informações sobre pools de recursos, consulte [Visão geral dos pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -51,23 +55,30 @@ Você deve ter o seguinte:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Remover usuários de um Conjunto de Recursos
 
 Você pode remover usuários de um Conjunto de recursos quando eles não forem mais necessários nesse conjunto.
 
 Para remover um usuário de um Conjunto de Recursos:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Clique em **Recursos**.
 1. Clique em **Conjuntos de Recursos** no painel esquerdo.
-1. Selecione um Conjunto de recursos e clique em **Editar.**Ou\
+1. Selecione um Conjunto de Recursos e clique em **Editar**.
+Ou\
    Clique no nome de um Conjunto de Recursos.
 
 1. Comece digitando o nome de um usuário que deseja remover no campo **Pesquisar neste Pool de Recursos**.\
    Ou\
-   Comece a digitar o nome de uma empresa, função de trabalho, equipe ou grupo se quiser remover todos os usuários associados a essas entidades.\
-   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
+   Comece a digitar o nome de uma empresa, função de trabalho, equipe ou grupo se quiser remover todos os usuários associados a essas entidades.
+
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:<span>
+   <span class="preview">![Remover usuários do Pool de Recursos](assets/remove-users-from-resource-pool.png)<span>
+
+   Imagem de amostra no ambiente de produção:
+   ![Pesquisar no Pool de Recursos](assets/search-inside-new-resource-pool-350x314.png)
 
 1. Clique no ícone &quot;x&quot; no nível do usuário para remover um usuário do Conjunto de recursos. Eles são removidos de todas as listas em que aparecem.\
    Ou\
