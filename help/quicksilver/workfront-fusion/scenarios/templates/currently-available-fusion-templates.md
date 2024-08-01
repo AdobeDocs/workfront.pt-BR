@@ -7,9 +7,9 @@ description: Os seguintes modelos públicos estão disponíveis no Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Esses modelos automatizam processos e fluxos de trabalho do Workfront.
 ### [!BADGE Novo!]{type=Informative}
 
 Este Modelo do Fusion cria uma lista de verificação padrão para todos os cartões que informam uma coluna específica em um determinado quadro de acordo com o tempo.
+
+### [!BADGE Novo!]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+Este cenário é acionado por um novo projeto que está sendo criado. Com esse cenário, é possível criar um quadro com o nome do projeto, renomear ou criar colunas com base nas suas necessidades, criar tags personalizadas e associar um filtro de coluna de entrada ao projeto de origem.  Milhares de alterações adicionais podem ser feitas, mas a partir daqui você verá as possibilidades de criar um ponto de partida para a padronização do conselho da sua organização.
 
 ### Workfront - Criação de projeto a partir do CSV
 
