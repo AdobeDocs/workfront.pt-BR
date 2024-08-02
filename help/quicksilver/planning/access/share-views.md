@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,8 @@ Ao compartilhar uma exibição, você concede a outras pessoas permissões para 
 
 Você pode compartilhar uma exibição com as seguintes entidades:
 
-* Usuários do Workfront
-* Grupos do Workfront
-<!--* Publicly, with users outside Workfront
--->
+* Internamente, com usuários e grupos do Workfront
+* Publicamente, com usuários fora do Workfront
 
 ## Requisitos de acesso
 
@@ -95,9 +93,21 @@ Você pode compartilhar uma exibição com as seguintes entidades:
 
 +++
 
-## Compartilhar permissões para uma exibição <!--internally-->
+## Considerações ao compartilhar visualizações
 
-Você pode compartilhar os modos de exibição criados ou os modos de exibição para os quais você tem permissões de gerenciamento <!--with users or groups in Workfront-->.
+* É possível conceder permissões de Visualização ou Gerenciamento a uma visualização para usuários internos da Workfront.
+
+* Os usuários com permissões para Gerenciar podem modificar, compartilhar, duplicar ou excluir as configurações de exibição.
+
+* Você pode compartilhar visualizações com pessoas de fora da sua organização usando um link público.
+
+* Quando você compartilha uma visualização publicamente, o link é acessível por qualquer pessoa fora da sua empresa por um tempo limitado, indicado pela data de expiração. Não é necessário fazer logon para exibir a exibição de tabela compartilhada.
+
+* As pessoas de fora da organização que têm acesso a uma exibição não podem criar outras exibições, editar a exibição compartilhada ou adicionar, excluir ou editar informações de registro na tabela.
+
+## Compartilhar permissões para uma exibição internamente
+
+Você pode compartilhar com usuários ou grupos no Workfront os modos de exibição que criou ou os modos de exibição aos quais tem permissões de gerenciamento.
 
 >[!NOTE]
 >
@@ -115,14 +125,14 @@ Você pode compartilhar os modos de exibição criados ou os modos de exibição
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   A guia **Compartilhamento interno** deve ser selecionada por padrão.
 
-1. (Opcional) Selecione entre as seguintes opções para compartilhar a exibição:
+1. (Opcional) Na área **Quem tem acesso**, selecione uma das seguintes opções:
 
    * **Somente pessoas convidadas podem acessar**: você deve especificar os usuários ou grupos com os quais deseja compartilhar a exibição. Esta é a opção padrão.
    * **Todos no espaço de trabalho podem exibir**: todos os usuários que têm permissões de Exibição ou superiores para espaços de trabalho podem acessar a exibição.
 
-1. No campo **Conceder acesso de exibição a**, comece digitando o nome de um usuário ou grupo e clique nele quando ele for exibido na lista.  <!--***********replace screen shot below when public sharing is released***********-->
+1. No campo **Conceder acesso de exibição a**, comece digitando o nome de um usuário ou grupo e clique nele quando ele for exibido na lista.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -142,45 +152,41 @@ Você pode compartilhar os modos de exibição criados ou os modos de exibição
    >
    >   As exibições compartilhadas com você têm um indicador de pessoas ![](assets/view-shared-with-others-people-icon.png) ao lado do ícone de exibição. As exibições sem o indicador de pessoas são exibições que você criou.
 
-<!--
-## Share permissions to a view publicly
+## Compartilhar permissões para uma exibição pública
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+É possível compartilhar os modos de exibição criados ou os modos de exibição nos quais você tem permissões de gerenciamento com pessoas que não têm uma licença da Workfront e que podem ser externas à organização.
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+Para compartilhar uma exibição publicamente no Workfront Planning:
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. Abra o espaço de trabalho cuja exibição você deseja compartilhar e clique em um cartão de tipo de registro.
 
-   This opens the record type page.
+   Isso abre a página do tipo de registro.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. Na guia de exibição, passe o mouse sobre o modo de exibição que você deseja compartilhar e clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do modo de exibição e clique em **Compartilhar**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. Clique em **Compartilhamento público**.
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. Habilitar a configuração **Criar link público**.
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   Um link fica disponível. Este é um link público. Quando compartilhados, qualquer pessoa com o link, incluindo pessoas de fora da organização, pode acessar a página de tipo de registro e exibir registros e campos na página.
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. Clique no ícone ![](assets/copy-link-view.png) do **Copiar link** para copiar o link para a área de transferência.
 
-1. Click **Save**.
+1. Insira uma data manualmente ou use o calendário no campo **Data de expiração do link** para selecionar uma data de expiração para o link público. A exibição de página de registro não estará acessível após a data selecionada.
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. Clique em **Salvar**.
 
--->
+   O ícone de exibição é atualizado para indicar que a exibição é compartilhada publicamente.
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. (Opcional) Cole o link copiado em um email, mensagem de chat, documento ou comentário do Workfront para compartilhá-lo com outras pessoas.
 
 ## Remover permissões para uma exibição
 
@@ -188,26 +194,16 @@ To share a view publicly in Workfront Planning:
 
 1. Abra o espaço de trabalho cuja exibição você deseja interromper o compartilhamento e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
 1. Passe o cursor do mouse sobre o nome da guia do modo de exibição do qual deseja remover o compartilhamento e clique no menu **Mais** ![](assets/more-menu.png) e em **Compartilhar**.
-1. Localize o usuário ou grupo que deseja remover e clique em **Remover** no menu suspenso de permissões à direita do nome do usuário ou grupo.
+1. Para remover o compartilhamento interno de uma exibição, faça o seguinte:
+
+   1. Verifique se a guia **Compartilhamento interno** está selecionada.
+   1. Localize o usuário ou grupo o que deseja remover, expanda o menu suspenso de permissões à direita do nome do usuário ou grupo e clique em **Remover**.
+
+1. Para remover o compartilhamento público de uma exibição, faça o seguinte:
+
+   1. Clique na guia **Compartilhamento público**.
+   1. Desmarque a opção **Criar link público**.
+
 1. Clique em **Salvar**.
-O usuário ou os usuários que pertencem ao grupo removido não têm mais acesso à visualização. Não há notificação para os usuários que foram removidos do acesso à visualização de que perderam esse acesso.
 
-<!--Replace the above instructions with the following when public sharing is released: 
-
-{{step1-to-planning}}
-
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
-
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
-
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   As pessoas não têm mais acesso à visualização. Não há notificação para os usuários que foram removidos do acesso à visualização de que eles não têm mais esse acesso.

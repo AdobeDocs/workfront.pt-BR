@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
 workflow-type: tm+mt
-source-wordcount: '5654'
+source-wordcount: '5786'
 ht-degree: 0%
 
 ---
@@ -38,27 +38,6 @@ O programa de planejamento do Workfront foi iniciado desde 22 de maio de 2023. P
 Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa Workfront Planning podem acessar todos os recursos em seus ambientes de Produção.
 
 O Workfront Planning foi removido temporariamente dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos documentados neste artigo estão disponíveis atualmente na Produção.
-
-<!--
-### Share Workfront Planning views publicly
-
-(***************ensure this is available for *********ALL************** the views and not just the table---***********)
-
-Production: <date>
-
-Preview: To be determined 
-
-To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
-
-The following capabilities are included with this update: 
-
-* Share the view of a record type page with a public link that would expire on a specific date. 
-
-* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
-
-* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
-
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## Semana de 29 de julho de 2024
 
@@ -91,6 +70,23 @@ Você pode executar os novos recursos nas seguintes áreas:
 
 Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md)
 
+### Compartilhar exibições do Workfront Planning publicamente
+
+Produção: 2 de agosto de 2024
+
+Visualização: a ser determinado
+
+Para trabalhar perfeitamente com participantes externos, agora é possível compartilhar visualizações de registro com outras pessoas de fora da organização. Você pode compartilhar um link público para a exibição à qual você deseja que outras pessoas tenham acesso.
+
+Os seguintes recursos estão incluídos nesta atualização:
+
+* Compartilhe a exibição de uma página do tipo registro com um link público que expiraria em uma data específica.
+
+* O link compartilhado pode ser acessado por qualquer pessoa fora da sua empresa por um tempo limitado, indicado pela data de expiração. Não é necessário fazer logon para exibir a exibição compartilhada.
+
+* As pessoas que acessam a exibição por meio do link público não podem criar outras exibições, editar a exibição compartilhada ou adicionar, excluir ou editar informações de registro.
+
+Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
 ## Semana de 8 de julho de 2024
 
