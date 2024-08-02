@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,6 +28,16 @@ As mensagens de confirmação Excluir usuário e Desativar usuário que os usuá
 
 Para obter informações sobre como excluir e desativar usuários, consulte [Excluir usuários](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) e [Desativar ou reativar um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
+## Atualizações de aparência para a página Conjuntos de recursos
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 1 de agosto de 2024; Produção para lançamento rápido: Com lançamento 24.8 (agosto de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
+
+Atualizamos a página Conjuntos de recursos com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Para obter informações, consulte [Criar pools de recursos](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
 ## Atualização da aparência para Excluir mensagem de tarefa
 
 >[!NOTE]
@@ -37,17 +47,6 @@ Para obter informações sobre como excluir e desativar usuários, consulte [Exc
 A mensagem de confirmação Excluir tarefa que os usuários veem ao excluir uma tarefa foi atualizada para um design mais moderno que é consistente com outras áreas do Workfront.
 
 Para obter informações sobre como excluir uma tarefa, consulte [Excluir tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md).
-
-
-## Atualizações de aparência para a página Conjuntos de recursos
-
->[!NOTE]
->
->Versão de pré-visualização: 25 de julho de 2024; Produção para lançamento rápido: Com lançamento 24.8 (agosto de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
-
-Atualizamos a página Conjuntos de recursos com um design mais moderno que é consistente com outras áreas do Workfront.
-
-Para obter informações, consulte [Criar pools de recursos](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ## Atualizações de aparência para a página Notificações
 
