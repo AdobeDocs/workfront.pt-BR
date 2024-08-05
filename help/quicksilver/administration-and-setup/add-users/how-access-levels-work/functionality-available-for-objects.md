@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
+source-git-commit: 45890d5d9346baebe0984d581828c778d98eec5a
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1603'
 ht-degree: 11%
 
 ---
@@ -42,7 +42,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 | Adicionar documento | ✓ µ | ✓ µ |   |   |
 | Adicionar problema | ✓ µ | ✓ µ |   |   |
 | Adicionar tarefas | ✓ µ |   |   |   |
-| Fornecer atualizações/comentários | ✓ µ | ✓ µ |   |   |
+| Fornecer atualizações/comentários | ✓ µ | ✓ µ | ✓ µ |   |
 | Alterar status | ✓ µ |   |   |   |
 | Registrar horas | ✓ µ | ✓ µ |   |   |
 | Editar atribuições | ✓ µ |   |   |   |
@@ -89,7 +89,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 | Editar finanças | ✓ µ |   |   |   |
 | Adicionar/editar despesas | ✓ µ |   |   |   |
 | Exibir finanças | ✓ µ | ✓ µ |   |   |
-| Adicionar atualizações/comentários | ✓ µ | ✓ µ |   |   |
+| Adicionar atualizações/comentários | ✓ µ | ✓ µ | ✓ µ |   |
 
 {style="table-layout:auto"}
 
