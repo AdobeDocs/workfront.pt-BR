@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 1%
+source-wordcount: '306'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,8 @@ Os usuários de revisão no Adobe Workfront podem receber notificações por ema
 Para obter informações sobre como definir as configurações de notificação enviadas pelo Workfront Proof, consulte [Definir configurações de notificação por email no Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Definir configurações padrão de notificação por email de prova
 
