@@ -7,9 +7,9 @@ description: Alguns módulos de acionamento permitem selecionar o primeiro pacot
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ Você também pode especificar se deseja recuperar todos os pacotes ou apenas os
 Para obter mais informações sobre módulos de acionador, consulte a seção [Módulos de acionador](../../workfront-fusion/modules/module-types.md#triggers) no artigo [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 
@@ -60,6 +62,8 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ## Escolher onde um módulo de acionador é iniciado
 
