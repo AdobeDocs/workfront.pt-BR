@@ -6,18 +6,22 @@ description: Como gerente de pessoas ou aprovador de planilhas de horas, você p
 author: Alina
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
 
 # Exportar uma lista de planilhas de horas
 
+<!--Audited: 8/2024-->
+
 Como gerente de pessoas ou aprovador de planilhas de horas, você pode precisar baixar uma lista de planilhas de horas para visualizar rapidamente as informações sobre as planilhas de horas das pessoas pelas quais você é responsável. Você pode fazer isso exportando uma lista de folhas de horas.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -26,33 +30,64 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Claro ou superior </p>
+   <p>Atual: revisão ou superior </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior a tarefas e problemas</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Visualize ou aumente o acesso a tarefas e problemas </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou mais altas nas folhas de horas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou mais altas para a folha de horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que tipo de plano ou licença você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old permissions:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on the timesheets</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*To find out what plan or license type you have, contact your Workfront administrator.-->
 
 ## Exportar uma lista de planilhas de horas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão.
+A área **Folhas de horas** é aberta.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+
+![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Clique no ícone ![](assets/search-icon.png) de **pesquisa**, digite uma palavra-chave e procure uma planilha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de conjunto de horas ou nome do proprietário.
 

@@ -6,18 +6,22 @@ description: Enviar sua planilha de horas para aprovação oferece ao seu gerent
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
 # Enviar uma planilha de horas para aprovação
 
+<!--Audited: 8/2024-->
+
 Enviar sua planilha de horas para aprovação oferece ao seu gerente visibilidade sobre suas horas de trabalho. Os aprovadores podem verificar se todo o tempo registrado foi alocado nas áreas corretas e se um número suficiente de horas foi registrado para o período de tempo.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -26,25 +30,28 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Claro ou superior </p>
+   <p>Atual: revisão ou superior </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior a tarefas e problemas</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Visualize ou aumente o acesso a tarefas e problemas </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir ou aumentar permissões em tarefas e problemas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou mais altas para a folha de horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Enviar uma planilha de horas para aprovação
 
@@ -53,22 +60,22 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ### Enviar uma planilha de horas para aprovação
 
-Depois que um aprovador de folha de horas é definido (conforme descrito na seção [Designar aprovadores de folha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) no artigo [Aprovar uma folha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), o botão **Fechar** na parte inferior da folha de horas muda para um botão **Enviar para Aprovação**.
+Depois que um aprovador de folha de horas é definido (conforme descrito na seção [Designar aprovadores de folha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) no artigo [Aprovar uma folha de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), o botão **Fechar** na parte inferior da folha de horas muda para um botão **Enviar para aprovação**.
 
 Para submeter uma planilha de horas para aprovação:
 
 1. Ir para uma planilha de horas configurada para ter um aprovador.
 1. Registrar hora, conforme descrito em [Registrar hora](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Clique em **Enviar para Aprovação** para iniciar o processo de aprovação da folha de horas.
+1. Clique em **Enviar para aprovação** para iniciar o processo de aprovação da folha de horas.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   O botão **Enviar para Aprovação** foi substituído pelos botões **Aprovar**, **Rejeitar** e **Cancelar**. O status da planilha de horas muda para **Enviado**.
+   O botão **Enviar para aprovação** foi substituído pelos botões **Aprovar**, **Rejeitar** e **Cancelar**. O status da planilha de horas muda para **Enviado**.
 
    Quando sua folha de horas é enviada para aprovação, o aprovador vê a folha de horas listada na área **Aprovações** na página **Página inicial**. As seguintes situações podem ocorrer:
 
    * Se eles aprovarem, o botão **Cancelar** será alterado para **Reabrir** e o status da folha de horas será atualizado para **Abrir**.
-   * Se ele rejeitar, o botão **Enviar para Aprovação** substituirá o botão **Cancelar** e o status da folha de horas será atualizado para **Rejeitado**.
+   * Se ele rejeitar, o botão **Enviar para aprovação** substituirá o botão **Cancelar** e o status da folha de horas será atualizado para **Rejeitado**.
 
 1. (Opcional) Clique em **Cancelar** se precisar reabrir a folha de horas e atualizar suas horas. Para obter informações, consulte a seção [Cancelar uma folha de horas](#recall-a-timesheet) neste artigo.
 
@@ -120,7 +127,7 @@ Para exibir o status de uma planilha de horas:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Aberto</td> 
+      <td role="rowheader">Abrir</td> 
       <td> <p>Sua planilha de horas está aberta no momento e você pode registrar horas. </p> <p>Uma folha de horas cancelada é exibida com um status de Aberta. Para obter informações, consulte a seção <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma folha de horas</a> neste artigo. </p> </td> 
      </tr> 
      <tr> 

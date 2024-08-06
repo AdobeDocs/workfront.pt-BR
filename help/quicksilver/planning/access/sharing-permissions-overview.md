@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '846'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-Você pode compartilhar ou remover permissões de um espaço de trabalho ou exibição no Adobe Workfront Planning.
+Você pode compartilhar ou remover permissões de um espaço de trabalho ou exibição do Adobe Workfront Planning.
 
 Este artigo descreve os níveis de permissão para objetos do Workfront Planning.
 
@@ -38,11 +38,16 @@ Você pode compartilhar os seguintes objetos:
 * Espaços de trabalho
 
    * Você pode compartilhar espaços de trabalho com pessoas dentro da organização.
-   * Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados. As exibições não são compartilhadas.
+   * Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados.
+
+     Quando você compartilha um espaço de trabalho, as exibições não são compartilhadas. As exibições são compartilhadas separadamente.
 
 * Visualizações
 
    * Você deve fornecer aos usuários, incluindo administradores do sistema, permissões para acessar exibições separadamente de suas permissões para acessar espaços de trabalho.
+   * Quando você compartilha uma exibição, todos os elementos da exibição são compartilhados, incluindo filtros, agrupamento, classificação ou Configurações.
+
+     Quando você compartilha uma exibição, os registros visíveis na exibição não são compartilhados. Os registros devem ser compartilhados por espaços de trabalho de compartilhamento.
    * Você pode compartilhar uma exibição publicamente, com pessoas de fora da organização ao gerar um link público para uma exibição. As pessoas que acessam a página de registro de um link público podem exibir todos os registros e seus campos, incluindo registros e campos conectados.
 
   Para obter informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
@@ -124,7 +129,7 @@ A seguir estão os níveis de permissões para registros:
 
 |        | Gerenciar | Contribuir | Exibir |
 |--------|--------|------------|-------|
-| Criar | ✓ µ |            |       |
+| Criar | ✓ µ | ✓ µ |       |
 | Excluir | ✓ µ | ✓ µ |       |
 | Editar | ✓ µ | ✓ µ |       |
 | Exibir | ✓ µ | ✓ µ | ✓ µ |

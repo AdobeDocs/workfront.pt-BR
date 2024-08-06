@@ -6,9 +6,9 @@ description: Você pode fazer comentários nas folhas de horas, nos itens de tra
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Você pode fazer comentários sobre os seguintes itens em uma folha de horas:
 * Em um item individual, como uma tarefa ou um problema
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -42,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuração do nível de acesso</td> 
-   <td> <p>Acesso de visualização ou superior a tarefas e problemas</p> </td> 
+   <td> <p>Acesso maior ou igual a tarefas e problemas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -53,6 +55,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Exibir comentários de entrada de horas em uma folha de horas {#view-hour-entry-comments-on-a-timesheet}
 
 Você pode configurar comentários feitos em entradas de horas individuais a serem exibidas na folha de horas. A opção de mostrar e ocultar comentários não afeta os comentários feitos na folha de horas geral ou os comentários feitos em itens individuais. Para obter mais informações, consulte  [Fazer comentários em uma folha de horas](#make-comments-on-a-timesheet).
@@ -61,9 +65,10 @@ Por padrão, os comentários ficam ocultos na primeira vez que você acessa uma 
 
 Para mostrar comentários em uma folha de horas:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Clique em **Folhas de horas**.
+A área **Folhas de horas** é aberta.
+
 1. Abra a planilha de horas onde deseja exibir comentários.
 1. Clique em **Mostrar comentários** no canto superior direito da folha de horas.
 Os comentários são exibidos sob o item onde a entrada de hora e o comentário foram registrados.

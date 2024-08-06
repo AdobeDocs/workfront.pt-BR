@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
+source-wordcount: '3856'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: 
-   <ul><li>Leve ou superior para registrar as Horas gerais em uma folha de horas</li>
-   <li>Padrão para registrar horas em um projeto, tarefa ou problema</li></ul>
-
-
-<p>Atual: 
+   <td> <p>Novo: </p>
+   <p>Leve ou superior para registrar horas em um projeto, tarefa, problema ou Horas gerais em uma folha de horas</p>
+   <p>Atual: 
    <ul><li>Revise ou registre horas gerais em uma planilha de horas</li>
    <li>Trabalhar ou mais para registrar horas em um projeto, tarefa ou problema</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Para obter mais informações, consulte [Adobe Workfront para Android](/help/qui
 
 ## Editar horas reportadas em listas e relatórios
 
+>[!CAUTION]
+>
+>* Você não pode modificar as entradas de horas que pertencem a uma planilha de horas fechada. Primeiro, você deve reabrir a folha de horas e depois alterar as informações de entrada de horas.
+>* Quando você altera o Tipo de Hora de um tipo que não conta como receita para outro tipo que conta como receita, também ocorrem alterações nas finanças do projeto. Alterar os Tipos de Hora de um tipo que conta como receita para um tipo que não conta como receita também atualiza as finanças do projeto.
+>
+>Para obter informações, consulte [Gerenciar tipos de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+>
 Você pode editar as horas reportadas nas seguintes áreas:
 
 * Todas as áreas em que você adicionou as horas, incluindo folhas de horas abertas

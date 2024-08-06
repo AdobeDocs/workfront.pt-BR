@@ -7,7 +7,7 @@ description: O dia de início da semana em minha folha de horas não corresponde
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -22,7 +22,7 @@ O dia de início da semana em minha folha de horas não corresponde ao dia de in
 
 ## Solução
 
-O dia de início da semana de uma folha de horas no Adobe Workfront usa as configurações de idioma e localidade no navegador para determinar o dia da semana. Por causa disso, você precisa atualizar as configurações de idioma e localidade do seu navegador. 
+O dia de início da semana de uma folha de horas no Adobe Workfront usa as configurações de idioma e localidade no navegador para determinar o dia da semana. Por causa disso, você precisa atualizar as configurações de idioma e localidade do seu navegador.
 
 Por exemplo, com o idioma do navegador definido como inglês e o local definido como Estados Unidos, a semana começa no domingo. Como alternativa, o idioma do navegador é definido como inglês e o local é definido como Reino Unido, o dia de início é segunda-feira.
 
@@ -37,4 +37,4 @@ A seguir estão as instruções para alterar as configurações de idioma e loca
 * **IE 11:** Ferramentas -> Opções da Internet -> Geral -> Idiomas
 * **Safari:** infelizmente, o Safari não permite a alteração de idiomas de navegação na Web sem também alterar todo o idioma do sistema operacional. Provavelmente, é mais fácil simplesmente instalar outro navegador, como o Chrome ou o Firefox.
 
- 
+

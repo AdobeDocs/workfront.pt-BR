@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,13 @@ ht-degree: 1%
 
 Você pode compartilhar uma exibição com outras pessoas para garantir a colaboração ao trabalhar com registros no Adobe Workfront Planning.
 
-Conceder permissões a um espaço de trabalho não concede a outros usuários permissões para as exibições nas páginas do tipo de registro. Você deve conceder permissões a exibições individuais em uma página de tipo de registro para compartilhá-las com outros usuários.
-
-Ao compartilhar uma exibição, você concede a outras pessoas permissões para acessar todos os elementos da exibição. Por exemplo, se você conceder a eles permissões Gerenciar para uma exibição, eles poderão modificar a aparência do agrupamento, do filtro, da classificação ou da barra.
+>[!IMPORTANT]
+>
+>* Conceder permissões a um espaço de trabalho não concede a outros usuários permissões para as exibições nas páginas do tipo de registro. Você deve conceder permissões a exibições individuais em uma página de tipo de registro para compartilhá-las com outros usuários.
+>
+>* A concessão de permissões para uma exibição não altera as permissões de exibição dos registros. As permissões de registro são concedidas por espaços de trabalho de compartilhamento.
+>
+>* Ao compartilhar uma exibição, você concede a outras pessoas permissões para acessar todos os elementos da exibição. Por exemplo, se você conceder a eles permissões Gerenciar para uma exibição, eles poderão modificar a aparência do agrupamento, do filtro, da classificação ou da barra.
 
 
 Você pode compartilhar uma exibição com as seguintes entidades:
@@ -78,6 +82,7 @@ Você pode compartilhar uma exibição com as seguintes entidades:
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
    <td> <p>Gerenciar permissões para uma exibição</p>  
+   <p>Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhar uma visualização publicamente.</p>
 </td>
   </tr>
 
@@ -101,9 +106,9 @@ Você pode compartilhar uma exibição com as seguintes entidades:
 
 * Você pode compartilhar visualizações com pessoas de fora da sua organização usando um link público.
 
-* Quando você compartilha uma visualização publicamente, o link é acessível por qualquer pessoa fora da sua empresa por um tempo limitado, indicado pela data de expiração. Não é necessário fazer logon para exibir a exibição de tabela compartilhada.
+* Quando você compartilha uma visualização publicamente, o link é acessível por qualquer pessoa fora da sua empresa por um tempo limitado, indicado pela data de expiração. Não é necessário fazer logon para exibir a exibição compartilhada.
 
-* As pessoas de fora da organização que têm acesso a uma exibição não podem criar outras exibições, editar a exibição compartilhada ou adicionar, excluir ou editar informações de registro na tabela.
+* As pessoas de fora da organização que têm acesso a uma exibição não podem criar outras exibições, editar a exibição compartilhada ou adicionar, excluir ou editar informações de registro na exibição.
 
 ## Compartilhar permissões para uma exibição internamente
 
@@ -145,16 +150,25 @@ Você pode compartilhar com usuários ou grupos no Workfront os modos de exibiç
      Os administradores do sistema sempre recebem permissões de Gerenciamento para exibições compartilhadas com eles.
 
 1. Clique em **Copiar link** para copiar um link para o modo de exibição para a área de transferência.
-1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 1. Clique em **Salvar**.
 
-   >[!TIP]
-   >
-   >   As exibições compartilhadas com você têm um indicador de pessoas ![](assets/view-shared-with-others-people-icon.png) ao lado do ícone de exibição. As exibições sem o indicador de pessoas são exibições que você criou.
+   A exibição é atualizada com um ícone de pessoas ![](assets/view-shared-with-others-people-icon.png) para indicar que a exibição está compartilhada com outros usuários.
+
+   >>
+   [!TIP]
+   >>
+   Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
+
+1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 
 ## Compartilhar permissões para uma exibição pública
 
 É possível compartilhar os modos de exibição criados ou os modos de exibição nos quais você tem permissões de gerenciamento com pessoas que não têm uma licença da Workfront e que podem ser externas à organização.
+
+>[!IMPORTANT]
+>
+Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhar as exibições do espaço de trabalho publicamente.
+
 
 Para compartilhar uma exibição publicamente no Workfront Planning:
 
@@ -182,9 +196,13 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
 
 1. Clique em **Salvar**.
 
-   O ícone de exibição é atualizado para indicar que a exibição é compartilhada publicamente.
+   A exibição é atualizada com um ícone global ![](assets/public-shared-view-icon-highlighted.png) para indicar que a exibição é compartilhada publicamente.
 
-   ![](assets/public-shared-view-icon-highlighted.png)
+   >>
+   [!TIP]
+   >
+   >Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
+
 
 1. (Opcional) Cole o link copiado em um email, mensagem de chat, documento ou comentário do Workfront para compartilhá-lo com outras pessoas.
 

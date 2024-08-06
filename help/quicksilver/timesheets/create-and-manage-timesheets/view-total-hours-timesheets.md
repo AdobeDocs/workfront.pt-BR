@@ -6,20 +6,24 @@ description: Você pode exibir o número total de horas em sua folha de horas. O
 author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
 # Exibir horas totais na folha de horas
 
+<!--Audited: 8/2024-->
+
 Você pode exibir o número total de horas em sua folha de horas. O número total de horas na planilha de horas inclui horas registradas para projetos, tarefas, problemas e todas as horas gerais.
 
 O total de horas reflete as horas enviadas por meio da folha de horas, da área Atualizações ou da área Horas para projetos, tarefas ou problemas.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -28,25 +32,28 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar </p> </td> 
+   <td> <p>Novo: Claro ou superior </p>
+   <p>Atual: revisão ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior a tarefas e problemas</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuração do nível de acesso</td> 
+   <td> <p>Acesso maior ou igual a tarefas e problemas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir ou aumentar permissões em tarefas e problemas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir ou aumentar permissões em tarefas e problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que tipo de plano ou licença você tem, entre em contato com o administrador do Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir as horas totais de uma folha de horas no cabeçalho da folha de horas
 
@@ -56,9 +63,11 @@ Você pode ver o total de horas de uma planilha de horas no cabeçalho da planil
 
 ## Exibir o total de horas na sua folha de horas em uma lista de folhas de horas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Folhas de horas**. O filtro **Todos** é selecionado por padrão e exibe todas as planilhas de horas que você tem acesso para visualizar.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+A área **Folhas de horas** é aberta.
+
+![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
@@ -76,7 +85,7 @@ Você pode ver o total de horas de uma planilha de horas no cabeçalho da planil
 
    >[!NOTE]
    >
-   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas aprovações de folha de horas e Minhas folhas de horas dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte os seguintes artigos:
+   >As opções Minhas aprovações de folha de horas e Minhas folhas de horas não são exibidas na parte superior da lista de folha de horas ou na lista de filtros se o administrador do Workfront ou um administrador de grupo removeu os filtros Minhas aprovações de folha de horas e Minhas folhas de horas dos Controles de lista na área Configuração ou do Modelo de layout. Para obter mais informações, consulte os seguintes artigos:
    >
    >   
    >   
@@ -98,4 +107,4 @@ Você pode ver o total de horas de uma planilha de horas no cabeçalho da planil
 
    >[!TIP]
    >
-   >Ao usar a exibição Padrão para uma lista de folhas de horas, a coluna Horas totais será exibida em vermelho se o tempo registrado para os itens na folha de horas exceder o número de horas no intervalo de tempo da folha de horas. Para obter mais informações, consulte o campo &quot;Total de Horas&quot; no [Glossário da terminologia do Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Ao usar a exibição Padrão para uma lista de folhas de horas, a coluna Horas totais será exibida em vermelho se o tempo registrado para os itens na folha de horas exceder o número de horas no intervalo de tempo da folha de horas. Para obter mais informações, consulte o campo &quot;Total de Horas&quot; no [Glossário da terminologia do Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
