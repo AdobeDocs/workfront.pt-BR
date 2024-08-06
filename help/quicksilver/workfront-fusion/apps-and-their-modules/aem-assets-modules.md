@@ -10,9 +10,9 @@ description: Com o conector  [!DNL Adobe Experience Manager Assets] para [!DNL A
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,9 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 * Você deve configurar o fluxo de [!UICONTROL servidor para servidor] no [!DNL Adobe Developer console].
 
   Para obter instruções sobre como configurar o fluxo de [!UICONTROL servidor para servidor] no [!DNL Adobe Developer console], consulte [Gerando tokens de acesso para APIs do lado do servidor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+* Sua conta técnica do Adobe Experience Manager deve ter permissões de gravação.
+
+  Para obter instruções sobre como adicionar permissões de gravação à sua conta técnica da Adobe Experience Manager, consulte [Credenciais de serviço](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) na documentação da Adobe Experience Manager.
 
 ## Conectar [!DNL Adobe Experience Manager Assets] a [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
@@ -100,9 +103,13 @@ Para criar uma conexão para seus módulos do [!DNL Adobe Experience Manager Ass
 
 >[!NOTE]
 >
->As informações destes campos são geradas como parte da configuração do fluxo [!UICONTROL servidor para servidor] no [!DNL Adobe Developer Console]. Você pode encontrar esses valores no arquivo JSON de credenciais de serviço gerado como parte dessa configuração.
+>* As informações destes campos são geradas como parte da configuração do fluxo [!UICONTROL servidor para servidor] no [!DNL Adobe Developer Console]. Você pode encontrar esses valores no arquivo JSON de credenciais de serviço gerado como parte dessa configuração.
 >
->Para obter instruções sobre como configurar o fluxo de [!UICONTROL servidor para servidor] no [!UICONTROL Adobe Developer Console], consulte [Gerar tokens de acesso para APIs do lado do servidor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>   Para obter instruções sobre como configurar o fluxo de [!UICONTROL servidor para servidor] no [!UICONTROL Adobe Developer Console], consulte [Gerar tokens de acesso para APIs do lado do servidor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>
+>* Sua conta técnica do Adobe Experience Manager deve ter permissões de gravação.
+>
+>   Para obter instruções sobre como adicionar permissões de gravação à sua conta técnica da Adobe Experience Manager, consulte [Credenciais de serviço](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) na documentação da Adobe Experience Manager.
 
 
 <table style="table-layout:auto"> 
