@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
+source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
 workflow-type: tm+mt
-source-wordcount: '6090'
+source-wordcount: '6252'
 ht-degree: 4%
 
 ---
@@ -53,10 +53,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique em **Forms Personalizado** no painel esquerdo.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Clique em **Novo formulário personalizado.**
 1. Selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 
@@ -76,6 +72,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Em seguida, você pode começar a adicionar campos ao formulário personalizado. Consulte as seguintes seções:
    * [Reutilizar um campo ou widget existente já usado em outro formulário personalizado](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Observações sobre nomes e rótulos de campos](#notes-on-field-names-and-labels)
    * [Adicionar campos de texto](#add-text-fields)
    * [Adicionar campos calculados](#add-calculated-fields)
    * [Adicionar botões de opção, grupos de caixas de seleção e menus suspensos](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -89,7 +86,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode usar campos novos ou existentes ao criar o formulário personalizado.
 
-## Reutilizar um campo ou widget existente já usado em outro formulário personalizado
+### Reutilizar um campo ou widget existente já usado em outro formulário personalizado
 
 1. Na parte superior esquerda da tela, clique em **Biblioteca de campos**.
 
@@ -108,6 +105,39 @@ Você pode usar campos novos ou existentes ao criar o formulário personalizado.
    ou
 
    Clique em **Salvar e fechar**.
+
+### Observações sobre nomes e rótulos de campos {#notes-on-field-names-and-labels}
+
+O **rótulo** está disponível para a maioria dos campos. É um rótulo descritivo que aparece acima do campo ou widget no formulário personalizado. Você pode alterar o rótulo a qualquer momento.
+
+>[!NOTE]
+>
+>Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios.
+
+Um **nome** é necessário para cada campo. Esse nome é como o sistema identifica o campo. Quando você está configurando o campo ou widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.
+
+>[!NOTE]
+>
+>Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront.
+>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
+>
+>Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.
+>
+>Recomendamos que você não use o caractere ponto no nome do campo personalizado para evitar erros ao usar o campo em diferentes áreas do Workfront.
+
+Os caracteres especiais a seguir não são aceitos em rótulos e nomes de campos personalizados.
+
+* \ t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* :
+* `{`
+* `}`
 
 ### Adicionar campos de texto
 
@@ -158,13 +188,13 @@ Para adicionar um campo de texto:
     <li>Texto de linha única</li>
     <li>Texto de parágrafo</li>
     <li>Texto com formatação</li>
-    <li>Texto descritivo - Em breve</li>
+    <li>Texto descritivo</li>
     </ul></td>
     </tr>
     <tr>
     <td>Rótulo</td>
     <td><p>Digite um rótulo descritivo para ser exibido acima do widget. Você pode alterar o rótulo a qualquer momento.<p>
-    <p>IMPORTANTE: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios.</p></td>
+    <p>IMPORTANTE: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p></td>
     <td><ul>
     <li>Texto de linha única</li>
     <li>Texto de parágrafo</li>
@@ -174,11 +204,7 @@ Para adicionar um campo de texto:
     <tr>
      <td>Nome</td>
     <td><p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p>
-    <p><b>IMPORTANTE</b>:   
-      <ul> 
-      <li>Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront. <p>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.</p> </li>
-      <li> <p>Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.</p> </li>
-      <li><p>Recomendamos que você não use o caractere ponto no nome do campo personalizado para evitar erros ao usar o campo em diferentes áreas do Workfront.</p></li>
+    <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p>
     </td>
     <td><ul>
     <li>Texto de linha única</li>
@@ -189,7 +215,7 @@ Para adicionar um campo de texto:
     </tr>
     <tr>
     <td>Instruções</td>
-    <td>Digite quaisquer informações adicionais sobre o widget. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.
+    <td>Digite quaisquer informações adicionais sobre o campo. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
