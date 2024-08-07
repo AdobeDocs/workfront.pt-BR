@@ -9,9 +9,9 @@ description: Com os módulos do Adobe Photoshop, você pode iniciar um cenário 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4308'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 ![](assets/map-toggle-350x74.png)
 
-* [Aplicar edições no Photoshop](#apply-psd-edits)
+* [Aplicar edições de PSD](#apply-psd-edits)
 * [Corrigir uma imagem com cor automática](#auto-color-correct-an-image)
 * [Converter formato de imagem](#convert-image-format)
 * [Criar uma máscara](#create-a-mask)
@@ -263,14 +263,14 @@ Esse módulo de ação aplica uma variedade de edições de documento e nível d
     <tr>
       <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
       <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p>
+        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Saída) Local do Arquivo]</p>
       </td>
-   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. </td> 
+   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ Essa cor automática do módulo de ação corrige a imagem especificada.
     <tr>
       <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
       <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p>
+        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Saída) Local do Arquivo]</p>
       </td>
-   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. </td> 
+   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ Esse módulo de ação converte um arquivo em JPEG, PNG, PSD ou TIFF.
     <tr>
       <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
       <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p>
+        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Saída) Local do Arquivo]</p>
       </td>
-   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. </td> 
+   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída. </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ Este módulo de ação retorna um arquivo PNG com um mastro aplicado ao redor do
     <tr>
       <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
       <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o arquivo de máscara seja armazenado.</p>
+        <p>Selecione o serviço de arquivos no qual você deseja que o arquivo de máscara seja armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Saída) Local do Arquivo]</p>
       </td>
-   <td> Insira ou mapeie o URL ou o caminho de onde o arquivo de máscara será armazenado. </td> 
+   <td> Insira ou mapeie o URL ou o caminho de onde o arquivo de máscara será armazenado. Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Substituir]</td>
@@ -575,6 +575,119 @@ Esse módulo de ação edita camadas de texto em um arquivo do Photoshop.
    <td> Selecione o nível de compactação para o arquivo de saída. </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### Executar ações do Photoshop (JSON)
+
+Esse módulo de ação executa ações do Photoshop usando comandos JSON.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Conexão]</td>
+      <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Photoshop], consulte <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Photoshop]</a> neste artigo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Entrada) Armazenamento]</td>
+      <td>
+        <p>Selecione o serviço de arquivos no qual o arquivo que você deseja editar está armazenado.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Entrada) Local do Arquivo]</p>
+      </td>
+   <td> Insira ou mapeie o URL ou o caminho do arquivo que deseja editar. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Ação JSON]</td>
+      <td>
+        <p>Insira o comando JSON para a ação que deseja realizar.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fontes / Padrões / Pincéis / Imagens adicionais]</td>
+      <td>
+        <p>Para cada fonte, padrão, pincel ou imagem adicional que você deseja usar nesta ação, clique em Adicionar item e insira o armazenamento e o local do arquivo do item.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Fonte / Padrão / URL do arquivo de Pincel]</p>
+      </td>
+   <td> Insira ou mapeie o URL ou o caminho do arquivo que deseja usar. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Gera armazenamento de arquivos de saída]</td>
+      <td>
+        <p>Selecione o serviço de arquivos no qual você deseja que o arquivo editado seja armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL do arquivo de saída]</p>
+      </td>
+   <td> Insira ou mapeie o URL ou o caminho de onde o arquivo editado será armazenado.  Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Tipo de arquivo de saída]</p>
+      </td>
+   <td> Selecione o tipo de arquivo para o arquivo editado. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Substituir]</td>
+      <td>
+        <p>Selecione se o arquivo recém-editado substituirá qualquer arquivo de saída existente.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compactação]</p>
+      </td>
+   <td> Selecione o nível de compactação para o arquivo de saída. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Saídas]</td>
+      <td>
+        <p>Para cada arquivo convertido que deseja criar, clique em Add item e insira o armazenamento, o local e o tipo, conforme listado nesta tabela.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
+      <td>
+        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Saída) Local do Arquivo]</p>
+      </td>
+   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Tipo de Saída)]</p>
+      </td>
+   <td>Selecione o tipo de arquivo para o qual deseja converter o arquivo. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Saída) Substituir]</td>
+      <td>
+        <p>Selecione se o arquivo recém-editado substituirá qualquer arquivo de saída existente. Isso se aplica somente a arquivos no armazenamento Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Número máximo de resultados retornados]</p>
+      </td>
+   <td>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### Executar desfoque de profundidade
@@ -725,117 +838,6 @@ Esse módulo de ação executa uma ação Photoshop na imagem selecionada.
    <td> Selecione o nível de compactação para o arquivo de saída. </td> 
     </tr>
   </tbody>
-</table>
-
-### Executar ações do Photoshop (JSON)
-
-Esse módulo de ação executa ações do Photoshop usando comandos JSON.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Conexão]</td>
-      <td>Para obter instruções sobre como criar uma conexão com [!DNL Adobe Photoshop], consulte <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Criar uma conexão com [!DNL Adobe Photoshop]</a> neste artigo.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Entrada) Armazenamento]</td>
-      <td>
-        <p>Selecione o serviço de arquivos no qual o arquivo que você deseja editar está armazenado.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Entrada) Local do Arquivo]</p>
-      </td>
-   <td> Insira ou mapeie o URL ou o caminho do arquivo que deseja editar. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Ação JSON]</td>
-      <td>
-        <p>Insira o comando JSON para a ação que deseja realizar.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Fontes / Padrões / Pincéis / Imagens adicionais]</td>
-      <td>
-        <p>Para cada fonte, padrão, pincel ou imagem adicional que você deseja usar nesta ação, clique em Adicionar item e insira o armazenamento e o local do arquivo do item.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Fonte / Padrão / URL do arquivo de Pincel]</p>
-      </td>
-   <td> Insira ou mapeie o URL ou o caminho do arquivo que deseja usar. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Gera armazenamento de arquivos de saída]</td>
-      <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o arquivo editado seja armazenado.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL URL do arquivo de saída]</p>
-      </td>
-   <td> Insira ou mapeie o URL ou o caminho de onde o arquivo editado será armazenado. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Tipo de arquivo de saída]</p>
-      </td>
-   <td> Selecione o tipo de arquivo para o arquivo editado. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Substituir]</td>
-      <td>
-        <p>Selecione se o arquivo recém-editado substituirá qualquer arquivo de saída existente.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Compactação]</p>
-      </td>
-   <td> Selecione o nível de compactação para o arquivo de saída. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Saídas]</td>
-      <td>
-        <p>Para cada arquivo convertido que deseja criar, clique em Add item e insira o armazenamento, o local e o tipo, conforme listado nesta tabela.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
-      <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Saída) Local do Arquivo]</p>
-      </td>
-   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Tipo de Saída)]</p>
-      </td>
-   <td>Selecione o tipo de arquivo para o qual deseja converter o arquivo. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Saída) Substituir]</td>
-      <td>
-        <p>Selecione se o arquivo recém-editado substituirá qualquer arquivo de saída existente. Isso se aplica somente a arquivos no armazenamento Adobe.</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Número máximo de resultados retornados]</p>
-      </td>
-   <td>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### Executar corte do produto
@@ -1020,14 +1022,14 @@ Este módulo de ação identifica o assunto principal da imagem e remove o plano
     <tr>
       <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
       <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p>
+        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Saída) Local do Arquivo]</p>
       </td>
-   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. </td> 
+   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado.  Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Substituir]</td>
@@ -1115,14 +1117,14 @@ Esse módulo de ação substitui um Objeto inteligente em uma camada de PSD e ge
     <tr>
       <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
       <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p>
+        <p>Selecione o serviço de arquivos no qual você deseja que o novo arquivo seja armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Saída) Local do Arquivo]</p>
       </td>
-   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado. </td> 
+   <td> Insira ou mapeie o URL ou o caminho onde o novo arquivo será armazenado.  Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ Essa ação redimensiona uma imagem usando a mesma proporção.
     <tr>
       <td role="rowheader">[!UICONTROL Armazenamento]</td>
       <td>
-        <p>Selecione o serviço de arquivo onde o arquivo que você deseja redimensionar está armazenado.</p>
+        <p>Selecione o serviço de arquivo onde o arquivo que você deseja redimensionar está armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Local do arquivo]</p>
       </td>
-   <td> Insira ou mapeie o URL ou o caminho do arquivo que você deseja redimensionar. </td> 
+   <td> Insira ou mapeie o URL ou o caminho do arquivo que você deseja redimensionar.  Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Saídas]</td>
@@ -1269,18 +1271,17 @@ Esse módulo de ação adiciona uma marca d&#39;água à imagem selecionada.
       </td>
    <td> Insira ou mapeie a distância em pixels a partir da parte superior da imagem que a marca d'água deve estar.</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[!UICONTROL (Saída) Armazenamento]</td>
       <td>
-        <p>Selecione o serviço de arquivos no qual você deseja que o arquivo de marca d'água seja armazenado.</p>
+        <p>Selecione o serviço de arquivos no qual você deseja que o arquivo de marca d'água seja armazenado.</p><p>A seleção do armazenamento interno do Fusion disponibiliza o arquivo para módulos posteriores, mas não o disponibiliza fora do cenário.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Saída) Local do Arquivo]</p>
       </td>
-   <td> Insira ou mapeie o URL ou o caminho de onde o arquivo de marca d'água será armazenado. </td> 
+   <td> Insira ou mapeie o URL ou o caminho de onde o arquivo de marca d'água será armazenado. Isso só será necessário se você não tiver escolhido o armazenamento interno do Fusion para o armazenamento de saída.</td> 
     </tr>
     <tr>
       <td role="rowheader">
