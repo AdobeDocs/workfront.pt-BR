@@ -6,9 +6,9 @@ description: O processo de aprovação de planilhas de horas fornece aos gerente
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
    <td> <p>Novo: Padrão</p>
-   <p>Atual: Plano </p> </td> 
+   <p>Atual: Plano </p> 
+   <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso administrativo a planilhas de horas e horas </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Designar aprovadores de planilhas de horas
 
-Normalmente, as folhas de horas são aprovadas pelos gerentes funcionais ou pela equipe de recursos humanos. (Normalmente, as planilhas de horas não são aprovadas pelos gerentes de projeto.)
+Normalmente, as folhas de horas são aprovadas pelos gerentes funcionais ou pela equipe de recursos humanos. Geralmente, as planilhas de horas não são aprovadas pelos gerentes de projeto. Os gerentes de projeto podem aprovar horas reportadas nos projetos, mas os gerentes de equipe ou de recursos humanos devem aprovar folhas de horas.
 
 Um aprovador de folha de horas é definido ao criar o Perfil de folha de horas. Você deve ter uma licença de Plano para ser designado como um aprovador.
 

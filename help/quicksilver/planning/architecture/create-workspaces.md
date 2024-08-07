@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '723'
 ht-degree: 1%
 
 ---
@@ -98,6 +98,15 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 ## Considerações sobre espaços de trabalho
 
 * Você pode criar espaços de trabalho para unidades organizacionais específicas na sua organização, para corresponder à maneira exclusiva como cada unidade funciona.
+* Dependendo da sua licença do Workfront, os espaços de trabalho são exibidos nas seguintes guias na área do Planning:
+
+   * Para administradores do sistema, os espaços de trabalho são exibidos nas seguintes guias:
+
+      * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+      * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema, incluindo aqueles compartilhados com você. &lt;!—Substituir por: outros espaços de trabalho: exibe todos os outros espaços de trabalho no sistema. >
+
+   * Para todos os outros usuários, os espaços de trabalho que eles criaram e os espaços de trabalho que outros compartilharam com eles são exibidos na área Espaços de trabalho.
+
 * Os tipos de registro que um espaço de trabalho contém devem refletir o ciclo de vida de trabalho de uma unidade organizacional.
 * Ao criar um espaço de trabalho, somente você tem permissão para acessar e gerenciar seu espaço de trabalho. Você deve compartilhá-lo com outros usuários para que eles colaborem com você no mesmo espaço. Para obter informações, consulte [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md). Os administradores do sistema podem gerenciar todos os espaços de trabalho, mesmo aqueles que não criaram.
 * Você pode ter o seguinte:
@@ -144,6 +153,7 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
    * Um espaço de trabalho vazio chamado **Workspace sem título**, no qual você pode começar a adicionar tipos de registro manualmente ao criar um espaço de trabalho do zero.
    * Um espaço de trabalho nomeado com base no modelo selecionado que é preenchido com tipos de registro de amostra. É possível personalizar ainda mais os tipos de registro e o espaço de trabalho.
 
+   Para administradores do Workfront, o novo espaço de trabalho é exibido na guia **Meus espaços de trabalho**. <!--replace this with: Workspaces I'm on tab-->
 1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione Enter.
 
 1. (Opcional e condicional) Se você criou o espaço de trabalho a partir de um modelo, clique dentro do nome das **seções Tipos de Registro Operacionais** ou **Taxonomias**

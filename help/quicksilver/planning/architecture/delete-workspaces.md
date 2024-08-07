@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -100,9 +100,22 @@ Recomendamos recriar alguns ou todos os tipos de registros, registros, campos e 
 
 {{step1-to-planning}}
 
-1. Clique no espaço de trabalho que deseja deletar.
+1. (Condicional) Se você for um administrador do Workfront, clique em **Meus espaços de trabalho** para acessar os espaços de trabalho que você criou ou em **Outros espaços de trabalho** para acessar os espaços de trabalho que outras pessoas compartilharam com você. <!--change it to Workspaces I'm on-->
+
+1. Clique no cartão do espaço de trabalho que deseja excluir.
 
    A página Workspace é exibida.
+
+<!--***********Replace the first step with this:*******
+
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
+1. To delete a workspace, do one of the following:
+
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **De,ete**. 
+   * Click a workspace card to open the workspace. 
+   
+   ***********Add (Conditional) If you clicked a workspace card,******to the step below****-->
 
 1. Clique no menu **Mais** ![](assets/more-menu.png) ao lado do nome do espaço de trabalho e clique em **Excluir**.
 

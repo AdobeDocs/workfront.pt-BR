@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 2%
@@ -293,7 +293,7 @@ Para localizar o Workfront Planning:
 
 1. Clique em **Planning** ![](assets/planning-icon.png).
 
-   A página de aterrissagem do Workfront Planning é aberta.
+   A página principal do Workfront Planning é aberta.
 
    ![](assets/planning-landing-page-admin.png)
 
@@ -303,8 +303,8 @@ Para localizar o Workfront Planning:
 
 
 1. (Condicional e opcional) Se você for um administrador do Workfront, clique em uma das seguintes guias:
-   * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou.
-   * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema, incluindo aqueles compartilhados com você.
+   * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+   * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema, incluindo aqueles compartilhados com você. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
 
    Para todos os outros usuários, todos os espaços de trabalho criados ou compartilhados com eles são exibidos na área **Espaços de Trabalho**.
 
