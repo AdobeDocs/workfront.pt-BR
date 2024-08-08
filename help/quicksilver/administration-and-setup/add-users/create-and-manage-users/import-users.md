@@ -1,16 +1,16 @@
 ---
-title: Importar usuários
+title: Importar Usuários
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Você pode importar usuários para o site do Adobe Workfront sincronizando usuários de um serviço de diretório de rede (como o Ative Diretory ou outro diretório LDAP) ou pode importar usuários usando um arquivo de importação de planilha.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Você pode importar usuários usando um arquivo de importação de planilha.
 Antes de criar um novo usuário, primeiro verifique se você criou todos os objetos que deseja associar ao usuário. Por exemplo, se não tiver criado um agendamento, você não poderá atribuir um agendamento ao novo usuário e o campo usado para associar um agendamento ao novo usuário não aparecerá na tela Novo usuário.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -60,9 +62,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Use um arquivo de importação de planilha para importar usuários
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Clique na seta suspensa **Novo Usuário** e clique em **Importar Usuários**.
 

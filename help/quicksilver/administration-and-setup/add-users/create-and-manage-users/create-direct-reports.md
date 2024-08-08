@@ -1,16 +1,16 @@
 ---
-title: Criar subordinados diretos
+title: Criar relatórios diretos
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Você pode designar usuários como subordinados diretos para outro usuário. Isso permite criar um organograma que exibe a estrutura de gerenciamento da organização.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Você pode designar usuários como subordinados diretos para outro usuário. Isso permite criar um organograma que exibe a estrutura de gerenciamento da organização. Para obter mais informações, consulte [Exibir o organograma](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -46,6 +48,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Criar subordinados diretos
 
 1. Comece a editar um usuário conforme descrito em [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -54,6 +58,5 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    Este campo não pode estar em branco.
 
 1. No campo **Subordinados diretos**, especifique os usuários que se reportam ao usuário que você está editando.
-
 1. (Opcional) No campo **Relatórios para**, especifique o nome do usuário ao qual este usuário está subordinado.
 1. Clique em **Salvar alterações**.

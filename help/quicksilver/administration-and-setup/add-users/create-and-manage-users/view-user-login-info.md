@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Você pode ver a frequência com que os usuários fazem logon no Workfront, bem como a última vez que fizeram logon, indicando que você deseja incluir essas informações na exibição de uma lista de usuários ou em um relatório para usuários.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Você pode ver a frequência com que os usuários fazem logon no Adobe Workfront, bem como a última vez que fizeram logon, indicando que você deseja incluir essas informações na exibição de uma lista de usuários ou em um relatório para usuários.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Como o Workfront registra as informações de logon
 

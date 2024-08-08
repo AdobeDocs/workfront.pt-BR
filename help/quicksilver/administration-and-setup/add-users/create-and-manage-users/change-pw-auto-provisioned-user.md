@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Alterar a senha de um usuário autoprovisionado
-description: Geralmente, quando um novo usuário tenta alterar sua senha temporária, ele insere seu endereço de email e recebe um erro por um nome de usuário incorreto. Eles devem inserir o nome de usuário atribuído pelo sistema, que é o GUID (Identificador Global Exclusivo). Como um GUID é difícil de lembrar e usar, recomendamos que você altere o nome de usuário de um novo usuário para o endereço de email do Workfront e, em seguida, permita que ele altere a senha.
-author: Caroline
+title: Alterar a senha de um usuário provisionado automaticamente
+description: Recomendamos que você altere o nome de usuário de um novo usuário para seu endereço de email do Workfront e, em seguida, permita que ele altere a senha.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Como os nomes de usuário da GUID podem ser difíceis de usar, recomendamos que 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Alterar a senha de um usuário autoprovisionado
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Você pode editar contas de usuário em massa. Ao editar usuários em massa, som
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -63,9 +65,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Editar contas de usuário em massa
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Selecione mais de um usuário e clique no ícone Editar ![](assets/edit-icon.png).
 

@@ -1,5 +1,5 @@
 ---
-title: Excluir usuários
+title: Excluir Usuários
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,8 @@ Quando um usuário deixa a organização, você pode removê-lo do Adobe Workfro
 -->
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -59,6 +61,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Excluir vs. desativar um usuário
 
@@ -118,9 +122,8 @@ Para obter mais informações sobre como desativar usuários, consulte [Desativa
 
 ## Excluir um ou mais usuários
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+{{step-1-to-users}}
 
-1. Clique em **Usuários**.
 1. Selecione pelo menos um usuário que você deseja excluir, clique no menu Mais ![](assets/more-icon.png) e em **Excluir**.
 1. Na caixa exibida, clique em **Excluir** para confirmar a exclusão.
 

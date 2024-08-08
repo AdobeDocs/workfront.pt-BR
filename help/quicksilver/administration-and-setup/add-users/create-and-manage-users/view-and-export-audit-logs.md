@@ -1,16 +1,16 @@
 ---
-title: Exibir e exportar logs de auditoria
+title: Visualizar e exportar logs de auditoria
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Você pode exibir todos os logs de auditoria no sistema ou aqueles que atendem a determinados critérios de filtragem. Você também pode exportar logs de auditoria. Os logs de auditoria listam as alterações de usuário acionadas no sistema durante os últimos 90 dias.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Para obter informações sobre todos os tipos de log de auditoria e o que os ger
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -46,9 +48,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Exibir logs de auditoria
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Sistema > Logs de auditoria**.
 1. No menu suspenso **Tipo de Log**, selecione o tipo de log de auditoria que deseja exibir.
@@ -70,7 +74,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 ## Exportar logs de auditoria
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Sistema > Logs de auditoria**.
 

@@ -1,5 +1,5 @@
 ---
-title: Fazer logon como outro usuário
+title: Efetuar login como outro usuário
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 107b397cc103c8ef93996d9017390d301305a4f3
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 1%
+source-wordcount: '759'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +48,8 @@ Some users, such as executives, need to be able to control which administrators 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -73,6 +75,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Fazer logon e executar ações como outro usuário
 
