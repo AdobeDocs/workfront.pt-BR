@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '5529'
 ht-degree: 5%
@@ -552,7 +552,7 @@ Para adicionar campos de digitação antecipada e data:
 
 Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa. O campo de pesquisa externo também está disponível em listas e relatórios.
 
-Para obter exemplos de como usar o campo Pesquisa Externa para chamar a mesma instância do Workfront ou uma API pública, consulte [Exemplos do campo Pesquisa Externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Para obter exemplos de como usar o campo de pesquisa externa para chamar a mesma instância do Workfront ou uma API pública, consulte [Exemplos do campo de pesquisa externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -598,7 +598,7 @@ Para adicionar uma pesquisa externa:
       <li><p>$$QUERY - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</p>
       <p>Se a API à qual você está fazendo referência permitir, também será possível incluir modificadores na consulta de pesquisa para identificar como a pesquisa deve funcionar. Por exemplo, você pode usar o seguinte como a URL da API Base para permitir que as pessoas pesquisem por qualquer projeto do Workfront que contenha texto específico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Saiba mais sobre os modificadores de pesquisa do Workfront em <a href="/help/quicksilver/wf-api/general/api-basics.md">Noções básicas sobre API</a>.</p>
       <p><strong>OBSERVAÇÃO:</strong> se você não estiver usando o $$QUERY e o usuário digitar o texto na caixa de pesquisa, ele restringirá as opções que você já tem. No entanto, se você usar $$QUERY e o usuário digitar algo, uma nova chamada de rede para sua API será executada. Portanto, se você tiver mais de 2000 valores em sua API e a API for compatível com consultas, será possível utilizar o $$QUERY não apenas para pesquisar a partir dos valores de 2000 existentes, mas a partir da API original com as opções limitadas.</p></li>
-      <li><p>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</p>
+      <li><p>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo de pesquisa Externo para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</p>
       <p>Para um campo de pesquisa externo que tem uma dependência em outros campos (usando a sintaxe {fieldName}), as opções retornadas da API são limitadas àquelas que correspondem a qualquer cadeia de caracteres ou valor inserido em outros campos. (Essa funcionalidade não é compatível com listas e relatórios.)</p></li>
       <li>{referenceObject}.{fieldName} - Onde o campo faz parte de um objeto. Essa sintaxe é semelhante às expressões personalizadas. (Por exemplo, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>OBSERVAÇÃO:</strong> revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td>
