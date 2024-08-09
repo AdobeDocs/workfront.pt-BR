@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Trabalhar Nele</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Acesso]](#access)
 
@@ -118,7 +118,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Ao converter um problema em uma tarefa]</td> 
+    <td role="rowheader" [!UICONTROL>Ao converter um problema em uma tarefa]</td> 
     <td> <p>As configurações nesta seção determinam o que acontece durante o processo de conversão de problema em tarefa:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Manter o problema original e vincular sua resolução à tarefa]</strong>: quando você está convertendo o problema, ele permanece visível como um problema até que a tarefa seja concluída. O status do problema muda automaticamente para [!UICONTROL Fechado] quando a tarefa é concluída. Quando essa opção não está selecionada, o problema é excluído.</p> <p><b>NOTA</b>:  <p>Os usuários sem acesso ou permissões para excluir problemas não poderão excluir o problema como estão convertendo-o, independentemente do status dessa configuração. Para obter informações sobre acesso e permissões para problemas, consulte:</p> 

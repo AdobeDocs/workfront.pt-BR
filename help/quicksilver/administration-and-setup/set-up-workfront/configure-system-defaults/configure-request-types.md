@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configurar tipos de solicitação
 description: Ao trabalhar em um projeto, você pode descobrir que eventos inesperados surgem. Você pode registrar esses eventos inesperados como problemas para um projeto ou tarefa específica. Também é possível enviar solicitações, que são registradas como ocorrências em um projeto designado como Fila de solicitações. Problemas e solicitações são considerados intercambiáveis no Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Ao trabalhar em um projeto, você pode descobrir que eventos inesperados surgem.
 Para obter informações sobre como criar problemas no [!DNL Workfront], consulte [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md). Para obter informações sobre como criar solicitações em [!DNL Workfront], consulte [Criar e enviar [!DNL Adobe Workfront] solicitações](../../../manage-work/requests/create-requests/create-submit-requests.md). Para obter informações sobre como associar Tipos de Solicitação a projetos, consulte [Definir Tipos de Solicitação para um projeto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -43,6 +45,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ Como administrador do [!DNL Workfront], você pode configurar os nomes dos tipos
 
 Para personalizar os nomes dos tipos de solicitação:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Preferências do projeto]** > **[!UICONTROL Status]**.
 

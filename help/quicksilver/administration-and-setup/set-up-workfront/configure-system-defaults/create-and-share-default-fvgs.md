@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Criar, editar e compartilhar filtros, visualizações e agrupamentos padrão
 description: Você pode criar filtros, visualizações e agrupamentos padrão e, em seguida, disponibilizá-los aos usuários em sua organização.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Você pode criar filtros, visualizações e agrupamentos padrão e, em seguida, 
 Ao criar filtros, visualizações e agrupamentos padrão conforme descrito neste artigo, os usuários com os quais você os compartilha podem aproveitá-los ao visualizar suas listas. Os usuários podem criar seus próprios filtros, visualizações e agrupamentos com base naqueles que você cria, mas não podem alterar diretamente aqueles que você cria.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -47,6 +49,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Criar filtros, visualizações ou agrupamentos padrão
 

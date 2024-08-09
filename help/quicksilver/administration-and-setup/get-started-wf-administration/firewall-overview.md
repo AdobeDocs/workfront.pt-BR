@@ -5,13 +5,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Visão geral do firewall
 description: Como a Adobe Workfront se comunica com a rede de sua organização, o firewall da organização deve ser configurado para permitir essa comunicação. Os firewalls são medidas de segurança altamente eficazes que funcionam ao separar a rede de uma organização da Internet. Eles garantem que somente os dados e o tráfego de rede selecionados possam ser movidos para dentro ou para fora da rede da organização. O firewall permite ou bloqueia dados com base no site que está enviando ou recebendo os dados. Como administrador do Adobe Workfront, você deve garantir que os dados enviados para ou da Workfront possam passar pelo firewall da sua organização.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Forneça ao administrador de rede as seguintes informações:
 
 ### Exibir o cluster da sua organização e o plano da Workfront {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** no painel esquerdo
 1. Para exibir seu cluster, Selecione **Informações do Cliente**.

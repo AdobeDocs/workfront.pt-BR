@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Enviar notificações
 description: Como administrador do Adobe Workfront, você pode usar a página Anúncios para enviar anúncios aos usuários.
-author: Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ As mensagens de comunicado da Workfront normalmente incluem informações sobre 
 Para obter informações sobre como exibir anúncios, consulte [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Enviar comunicados aos usuários
 

@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: business rules
-title: Criar e editar regras de negócios
+title: Criar e Editar Regras de Negócios
 description: Uma regra de negócios permite aplicar validação a objetos do Workfront e impede que os usuários criem, editem ou excluam um objeto quando determinadas condições forem atendidas. As regras de negócios ajudam a melhorar a qualidade dos dados e a eficiência operacional, evitando ações que podem comprometer a integridade dos dados.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%

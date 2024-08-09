@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall
+title: Configurar a Inclui na lista de permissões do firewall
 description: Incluir na lista de permissões Se o firewall ou o servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu arquivo. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront e permite que seus usuários enviem mensagens do Workfront e usem o SSO com o Ative Diretory ou o LDAP.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ Os endereços IP que você deve adicionar ao arquivo de inclui na lista de permi
 
 Para localizar o cluster da organização:
 
-1. Como administrador do Workfront, clique no ícone **Menu Principal** ![Menu Principal](assets/main-menu-icon.png) e em **Instalação**.
+{{step-1-to-setup}}
+
 1. Na navegação à esquerda, clique em **Sistema** e selecione **Informações do cliente**.
 1. Localize o campo **Configuração do Cluster** no canto superior direito da página. O cluster da sua organização está listado aqui.
 

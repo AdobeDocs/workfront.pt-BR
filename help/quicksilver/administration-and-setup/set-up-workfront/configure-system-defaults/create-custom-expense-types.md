@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Criar tipos de despesas personalizados
+title: Criar Tipos de Despesas Personalizadas
 description: Como administrador do  [!DNL Adobe Workfront] , você pode criar tipos de despesas personalizados para definir e acompanhar as despesas associadas às suas tarefas e projetos. Despesas são custos não mão de obra que podem ser associados a tarefas ou projetos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Como administrador do [!DNL Adobe Workfront], você pode criar tipos de despesas
 É possível editar ou excluir qualquer tipo de despesa criada. Não é possível excluir ou editar os tipos de despesas [!DNL Workfront] predefinidos.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -46,6 +48,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Tipos de Despesas Padrão
 
 Os Tipos de Despesas que estão em [!DNL Workfront] por padrão não podem ser excluídos ou editados incluem o seguinte:
@@ -59,7 +63,8 @@ Os Tipos de Despesas que estão em [!DNL Workfront] por padrão não podem ser e
 
 ## Criar tipos de despesas personalizados
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Clique em **[!UICONTROL Tipos de Despesas]**.
 1. Clique em **[!UICONTROL Novo Tipo de Despesa]**.
 1. Na caixa **[!UICONTROL Novo Tipo de Despesa]** que é exibida, especifique as seguintes informações:
@@ -101,7 +106,8 @@ Os Tipos de Despesas que estão em [!DNL Workfront] por padrão não podem ser e
 
 ## Modificar Tipos de Despesas personalizados
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Clique em **[!UICONTROL Tipos de Despesas]**.
 1. Selecione o tipo de despesa que você deseja modificar e clique em **[!UICONTROL Editar]**.
 

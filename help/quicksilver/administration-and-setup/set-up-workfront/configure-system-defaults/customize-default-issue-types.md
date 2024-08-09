@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Personalizar tipos de problemas padrão
 description: Você pode personalizar os rótulos para cada tipo de problema padrão para melhor corresponder à terminologia usada em sua organização. Os tipos de problemas são úteis para personalizar status de problemas e criar filas de solicitações.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Os tipos de problemas são úteis nas seguintes circunstâncias:
 Você pode personalizar os rótulos para cada tipo de problema padrão para melhor corresponder à terminologia usada em sua organização.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -46,6 +48,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Tipos de problema padrão
 
@@ -70,7 +74,7 @@ Considere o seguinte sobre a personalização de tipos de problemas:
 
 Para personalizar um tipo de ocorrência:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Preferências do projeto]** > **[!UICONTROL Status]**.
 

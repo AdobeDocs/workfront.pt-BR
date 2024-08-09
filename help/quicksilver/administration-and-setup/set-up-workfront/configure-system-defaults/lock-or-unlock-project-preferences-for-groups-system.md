@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Os grupos em sua organização podem precisar de uma preferência de projeto con
 Quando uma preferência é desbloqueada e o administrador do grupo a modifica, os projetos associados ao grupo adquirem a configuração dessa preferência na configuração de nível do grupo, em vez da configuração de nível do sistema.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -44,6 +46,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Sobre preferências bloqueadas e desbloqueadas
 
 Bloquear uma preferência de projeto, tarefa ou problema configurada no nível do sistema garante que todos estejam usando a mesma configuração para essa preferência. Embora você ainda possa reconfigurar uma preferência bloqueada, os administradores de grupos não podem reconfigurá-la para seus grupos.
@@ -60,7 +64,7 @@ Para obter instruções sobre como bloquear ou desbloquear uma preferência de p
 
 ## Desbloquear uma preferência de projeto para que grupos possam configurá-la
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Preferências do projeto]** e em **[!UICONTROL Projetos]**.
 

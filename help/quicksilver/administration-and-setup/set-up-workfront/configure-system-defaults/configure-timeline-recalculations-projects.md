@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
-title: Configurar recálculos de cronograma de projetos
+title: Configurar recálculos de linha de tempo para projetos
 description: Recalcular linhas do tempo permite que os gerentes vejam como as forças fora do projeto estão afetando a linha do tempo do projeto. A linha do tempo de um projeto se refere às datas planejadas e projetadas para o projeto.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Como administrador [!DNL Adobe Workfront], você pode recalcular manualmente as 
 Este artigo descreve como você, como administrador do [!DNL Workfront], pode determinar como e quando o [!DNL Workfront] calcula automaticamente as linhas do tempo do projeto, configurando as preferências do projeto na área [!UICONTROL Configuração].
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -46,11 +48,13 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Configurar recálculos automáticos
 
 Como administrador [!DNL Adobe Workfront], você pode configurar quando [!DNL Workfront] recalcula automaticamente as linhas de tempo do projeto. [!DNL Workfront] pode recalcular as linhas de tempo do projeto todas as noites, quando o escopo do projeto mudar, ou ambos.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito ou no ícone ![](assets/lines-main-menu.png) do [!UICONTROL **Menu Principal**] no canto superior esquerdo do [!DNL Workfront], se disponível, em seguida clique em **[!UICONTROL Instalação]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Preferências do projeto]** > **[!UICONTROL Projetos].**
 

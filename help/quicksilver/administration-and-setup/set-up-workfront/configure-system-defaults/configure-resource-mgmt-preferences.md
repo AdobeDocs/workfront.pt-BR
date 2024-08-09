@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configurar preferências de gerenciamento de recursos
 description: Como administrador do  [!DNL Adobe Workfront] , você pode configurar as Preferências de Gerenciamento de Recursos para o seu sistema. Essas preferências do Gerenciamento de recursos determinam como a disponibilidade ou a capacidade do usuário e o FTE são calculados para as  [!DNL Workfront] ferramentas de planejamento e agendamento de recursos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Como administrador do [!DNL Adobe Workfront], você pode configurar as Preferên
 </table>
 -->
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] 
  </tbody> 
 </table>
 
++++
+
 ## Informações consideradas ao calcular a capacidade de um usuário
 
 Ao calcular a capacidade de um usuário, o Workfront considera as seguintes informações:
@@ -97,7 +101,8 @@ Para obter informações sobre o planejamento e o agendamento de recursos no [!D
 >
 >Como essa é uma configuração global, essa seleção afeta todos os cálculos para todo o sistema, para todos os usuários, em todas as ferramentas de gerenciamento de recursos.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Clique em **[!UICONTROL Gerenciamento de recursos]**.
 1. Selecione um dos métodos a seguir para calcular a disponibilidade dos usuários em [!DNL Workfront]:
 
