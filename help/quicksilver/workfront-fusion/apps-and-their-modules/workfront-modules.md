@@ -9,7 +9,7 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
+source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -145,12 +145,12 @@ Ao configurar módulos do [!DNL Workfront], o [!DNL Workfront Fusion] exibe os c
 
 Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
+
+![](assets/map-toggle-350x74.png)
 >[!NOTE]
 >
 >* Se você não vir os campos mais atualizados em um módulo do Workfront, isso pode ser devido a problemas de cache. Aguarde uma hora e tente novamente.
 >* Os códigos de status HTTP 429 do Adobe Workfront não devem causar desativações, mas acionar uma pausa de execução curta no cenário.
-
-![](assets/map-toggle-350x74.png)
 
 * [Acionadores](#triggers)
 * [Ações](#actions)
