@@ -9,9 +9,9 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
+source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
 workflow-type: tm+mt
-source-wordcount: '6259'
+source-wordcount: '6280'
 ht-degree: 2%
 
 ---
@@ -147,7 +147,8 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 >[!NOTE]
 >
->Se você não vir os campos mais atualizados em um módulo do Workfront, isso pode ser devido a problemas de cache. Aguarde uma hora e tente novamente.
+>* Se você não vir os campos mais atualizados em um módulo do Workfront, isso pode ser devido a problemas de cache. Aguarde uma hora e tente novamente.
+>* Os códigos de status HTTP 429 do Adobe Workfront não devem causar desativações, mas acionar uma pausa de execução curta no cenário.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -1067,7 +1068,7 @@ Veja uma lista dos [!DNL Workfront] tipos de objetos para os quais você pode us
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Etapa</td> 
+   <td>Marco</td> 
    <td> </td> 
    <td>✓ µ</td> 
    <td> </td> 
@@ -1426,7 +1427,7 @@ Veja uma lista dos [!DNL Workfront] tipos de objetos para os quais você pode us
    <td>✓ µ</td> 
   </tr> 
   <tr> 
-   <td>Etapa</td> 
+   <td>Marco</td> 
    <td>✓ µ</td> 
    <td>✓ µ</td> 
    <td>✓ µ</td> 
@@ -1720,7 +1721,7 @@ Veja uma lista dos [!DNL Workfront] tipos de objetos para os quais você pode us
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Etapa</td> 
+   <td>Marco</td> 
    <td>✓ µ</td> 
    <td> </td> 
   </tr> 
