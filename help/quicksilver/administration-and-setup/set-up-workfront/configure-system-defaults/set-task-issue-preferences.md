@@ -118,7 +118,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader" [!UICONTROL>Ao converter um problema em uma tarefa]</td> 
+    <td role="rowheader">[!UICONTROL Ao converter um problema em uma tarefa]</td> 
     <td> <p>As configurações nesta seção determinam o que acontece durante o processo de conversão de problema em tarefa:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Manter o problema original e vincular sua resolução à tarefa]</strong>: quando você está convertendo o problema, ele permanece visível como um problema até que a tarefa seja concluída. O status do problema muda automaticamente para [!UICONTROL Fechado] quando a tarefa é concluída. Quando essa opção não está selecionada, o problema é excluído.</p> <p><b>NOTA</b>:  <p>Os usuários sem acesso ou permissões para excluir problemas não poderão excluir o problema como estão convertendo-o, independentemente do status dessa configuração. Para obter informações sobre acesso e permissões para problemas, consulte:</p> 
