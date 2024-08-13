@@ -4,13 +4,13 @@ content-type: overview
 product-area: system-administration;timesheets
 keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
-title: Visão geral dos cronogramas
+title: Visão geral de cronogramas
 description: Você pode definir sua semana de trabalho usando programações. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] calcular linhas do tempo e disponibilidade de usuários. Para obter instruções, consulte Criar um agendamento.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%

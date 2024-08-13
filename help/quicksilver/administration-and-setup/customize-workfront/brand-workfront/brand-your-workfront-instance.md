@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Como administrador do Workfront, você pode marcar o Workfront com logotipos na tela de logon, na área de navegação superior e no menu principal. Você também pode alterar a imagem de fundo e a cor da tela de logon.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,8 @@ Você também pode alterar a imagem de fundo e a cor da tela de logon:
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Marca a tela de logon
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Identidade Visual**.
 

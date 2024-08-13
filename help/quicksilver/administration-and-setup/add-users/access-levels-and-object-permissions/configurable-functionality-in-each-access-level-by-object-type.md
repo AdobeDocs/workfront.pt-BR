@@ -1,11 +1,11 @@
 ---
 title: Acesso configurável à funcionalidade para cada tipo de objeto
 description: Este artigo explica o que você pode permitir como administrador do Adobe Workfront para cada tipo de objeto em cada nível de acesso. Também explica qual é a configuração padrão para cada tipo de nível de acesso.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '3436'
 ht-degree: 10%

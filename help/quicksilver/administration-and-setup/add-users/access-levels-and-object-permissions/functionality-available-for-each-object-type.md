@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration
 keywords: acesso,modelo,funil,diagrama,níveis,permissões
 navigation-topic: access-levels
-title: Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso
+title: Funcionalidade Disponível para Cada Tipo de Objeto para Vários Níveis de Acesso
 description: As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1891'
 ht-degree: 10%
 
 ---
@@ -519,7 +519,7 @@ Somente usuários com uma licença de Plano podem ter acesso total a [selecionar
 |---|---|---|---|---|---|
 | Editar prioridades e horas de orçamento no Planejador | ✓ ➡&#42; |   |   |   |   |
 | Criar, editar, excluir Conjuntos de Recursos&#42;&#42; | ✓ ➡&#42; |   |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
+| Atualizar Horas Planejadas no Balanceador de Carga de Trabalho&#42;&#42;&#42; | ✓ µ* |   |   |   |   |
 | Exibir prioridades de projeto no Planejador de Recursos | ✓ ➡&#42; |   |   |   |   |
 | Exibir alocação de recursos nas ferramentas de Planejamento de Recursos | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
 | Exibir Conjuntos de Recursos | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |   |

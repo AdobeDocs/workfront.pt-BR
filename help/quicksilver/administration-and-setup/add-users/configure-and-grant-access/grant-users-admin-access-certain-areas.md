@@ -1,13 +1,13 @@
 ---
 title: Conceder aos usuários acesso administrativo a determinadas áreas
 description: Como administrador do Adobe Workfront, você pode usar um nível de acesso para conceder aos usuários uma licença de Plano acesso administrativo a determinadas áreas do sistema.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
 >Isso é diferente de conceder a um usuário acesso administrativo total ao Workfront, que é explicado em [Conceder a um usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).&#x200B;
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,13 +47,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Conceder aos usuários do Plano acesso administrativo a determinadas áreas do Workfront
 
 >[!IMPORTANT]
 >
 >É altamente recomendável que você deixe os níveis de acesso incorporados inalterados para que possa consultá-los após configurar os usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. (Você pode fazer isso para todos os níveis de acesso, exceto para Administrador do sistema e Usuário externo.)
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Níveis de Acesso**.
 1. Clique no nome do nível de acesso que deseja usar para conceder aos usuários acesso administrativo a determinadas áreas do Workfront.

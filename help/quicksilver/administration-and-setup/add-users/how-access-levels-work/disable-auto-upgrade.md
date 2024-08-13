@@ -1,18 +1,18 @@
 ---
-title: Desabilitar a opção de atualização automática para usuários não pagos no novo plano de licenciamento
+title: Desative a opção de atualização automática para usuários não pagos no novo plano de licenciamento
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: acesso,nível,sistema,administrador,padrão,claro,colaborador
 navigation-topic: access-levels
 description: Todos os usuários devem ter um nível de acesso para fazer logon e trabalhar no Workfront. Você usa o nível de acesso para controlar o que um usuário pode ver e fazer com determinados objetos e áreas do Workfront.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '216'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Você pode desativar a opção de atualização automática na área de configur
 >Uma vez desativado, qualquer usuário não pago que exceda o número alocado de decisões não será atualizado automaticamente.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -51,6 +53,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Desabilitar atualizações automáticas para usuários não pagos
 

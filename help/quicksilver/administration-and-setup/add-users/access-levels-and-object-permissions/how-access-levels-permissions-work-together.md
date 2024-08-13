@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: acesso,modelo,funil,diagrama,níveis,permissões
 navigation-topic: access-levels
 description: O administrador do Adobe Workfront determina o nível de acesso que cada usuário deve ter. Esse nível de acesso define o que os usuários podem ver e fazer com os tipos de objetos e áreas no sistema.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 2%

@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Como administrador do [!DNL Adobe Workfront], você pode especificar preferênci
 >
 >Para obter mais informações, consulte [Tempo de registro](../../../timesheets/create-and-manage-timesheets/log-time.md) e [Visão geral da folha de horas](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
-
-
 Quaisquer alterações feitas nas folhas de horas afetam todas as folhas de horas criadas no futuro.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -64,6 +64,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Definir preferências de horas e planilha de horas
 

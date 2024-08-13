@@ -1,13 +1,13 @@
 ---
 title: Conceder acesso às equipes
 description: Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário às equipes no Workfront
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '696'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 5%
 Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário às equipes no Workfront, conforme explicado na [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -38,6 +40,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado
 

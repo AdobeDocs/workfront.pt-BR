@@ -1,13 +1,13 @@
 ---
 title: Conceder acesso ao Planejador de cenários
 description: Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário ao Planejador de cenários.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
 Além do acesso ao Planejador de Cenários, um usuário com um nível de acesso que não seja Administrador do Sistema também deve ter acesso a dados financeiros para ver qualquer informação financeira contida em um plano, como orçamentos, custos e taxas de funções de trabalho. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -50,6 +52,8 @@ Você deve ter o seguinte:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Configurar o acesso do usuário ao Planejador de cenários usando um nível de acesso personalizado
 

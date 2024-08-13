@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Acesso a objetos e áreas por novas licenças
+title: Acesso a Objetos e Áreas por Novas Licenças
 description: A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada uma das licenças do Adobe Workfront permite para os objetos e áreas no Workfront.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 18%

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Quando um usuário clica em Trabalhar nela ou adiciona um comentário de atualização a uma nova tarefa à qual foi atribuído (sem definir manualmente uma condição para a tarefa), o Adobe Workfront exibe a condição padrão para tarefas, que é configurada em Configuração. O mesmo se aplica às questões.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Quando um usuário clica em Trabalhar nela ou adiciona um comentário de atualiz
 O Workfront usa a condição integrada Indo bem como a condição padrão para tarefas e, separadamente, para problemas. Como administrador do Workfront, você pode alterar a condição padrão para ambos os tipos de objeto para uma condição personalizada criada.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -44,9 +46,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Defina uma condição personalizada como uma condição padrão para tarefas ou problemas:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Preferências do projeto** > **Condições**.
 

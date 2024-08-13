@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ Você pode começar a preparar seu arquivo de importação criando um relatório
 
 O processo de atualização de usuários para SSO adiciona o campo Nome de usuário do SSO aos usuários do Workfront, se algum usuário não estiver presente, ou atualiza o valor nesse campo, se já houver um valor associado aos usuários.
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** e selecione **Atualizar Usuários para SSO**.
 

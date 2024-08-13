@@ -7,9 +7,10 @@ navigation-topic: administration-and-setup
 description: Como administrador do Workfront, você pode personalizar elementos como modelos de layout, formulários personalizados e status para atender às necessidades dos usuários em sua organização.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: c9b16408-c02f-409e-91df-33288f3aae23
-source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 3%

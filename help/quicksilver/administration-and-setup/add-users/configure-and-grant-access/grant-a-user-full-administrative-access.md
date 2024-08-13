@@ -1,13 +1,13 @@
 ---
-title: Conceder acesso administrativo total a um usuário
+title: Conceder a um usuário acesso administrativo total
 description: Você pode conceder aos usuários acesso administrativo total ao Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,8 @@ Como administrador do Adobe Workfront, você pode criar outro administrador do W
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Conceder acesso completo de Administrador do sistema a um único usuário
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Clique no nome do usuário a quem deseja conceder direitos de administrador.
 1. Clique no menu Mais ![](assets/more-icon.png) e em **Editar**.

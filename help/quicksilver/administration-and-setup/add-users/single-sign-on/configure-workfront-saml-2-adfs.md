@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configurar o Adobe Workfront com SAML 2.0 usando ADFS
 description: Você pode habilitar a autenticação no Workfront com SAML 2.0.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Como administrador do Adobe Workfront, você pode integrar o Workfront a uma sol
 Este guia tem como foco a configuração do ADFS sem provisionamento automático ou mapeamentos de atributos. Recomendamos concluir a configuração e testá-la antes de configurar qualquer provisionamento automático.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -46,6 +48,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Habilitar autenticação para o Workfront com SAML 2.0
 
 Para habilitar a autenticação para o aplicativo web do Workfront e o aplicativo móvel do Workfront com SAML 2.0, conclua as seguintes seções:
@@ -57,7 +61,8 @@ Para habilitar a autenticação para o aplicativo web do Workfront e o aplicativ
 
 ### Recuperar o arquivo de metadados de SSO do Workfront {#retrieve-the-workfront-sso-metadata-file}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. No painel esquerdo, clique em **Sistema** > **Logon Único (SSO)**.
 1. No menu suspenso **Tipo**, clique em **SAML 2.0** para exibir informações e opções adicionais.
 1. Copie a URL exibida após **a URL de metadados**.

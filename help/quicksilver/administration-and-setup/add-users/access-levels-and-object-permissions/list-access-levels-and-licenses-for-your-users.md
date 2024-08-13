@@ -1,18 +1,18 @@
 ---
-title: Liste os níveis de acesso e as licenças de seus usuários
+title: Listar os níveis de acesso e as licenças de seus usuários
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: acesso,nível,licença
 navigation-topic: access-levels
 description: Você pode ver qual nível de acesso e licença estão atribuídos a cada usuário em uma lista de usuários ou relatório.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 Você pode ver qual nível de acesso e licença estão atribuídos a cada usuário em uma lista de usuários ou relatório.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -46,11 +48,13 @@ Você deve ter o seguinte:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Liste os níveis de acesso e as licenças de seus usuários
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Usuários**.
+{{step-1-to-users}}
 
-   Por padrão, todos os usuários definidos como Ativos são exibidos na lista.
+Por padrão, todos os usuários definidos como Ativos são exibidos na lista.
 
 1. No menu suspenso **Exibir**, selecione **Licenças**.
 

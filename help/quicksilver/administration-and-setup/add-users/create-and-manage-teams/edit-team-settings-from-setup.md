@@ -1,13 +1,13 @@
 ---
-title: Editar as configurações de uma equipe na área Configuração
+title: Editar as configurações de uma equipe na área de configuração
 description: Como administrador do Adobe Workfront, você pode editar as configurações de uma equipe na área Configuração. Você pode adicionar usuários a uma equipe, definir um modelo de layout de equipe e definir como o status é registrado quando itens de trabalho são concluídos por uma equipe.
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '617'
 ht-degree: 3%
 
 ---
@@ -25,6 +25,8 @@ Para obter informações sobre equipes, consulte [Visão geral das equipes](../.
 >
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -47,9 +49,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Editar as configurações de uma equipe
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Equipes** no painel esquerdo.
 1. Selecione uma equipe e clique em **Editar** ![](assets/edit-icon.png).

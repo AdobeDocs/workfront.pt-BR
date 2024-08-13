@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Se você criar um site de ajuda interno personalizado contendo informações sobre como sua organização usa o Workfront, poderá configurar o ícone Menu principal Ajuda para acessar esse site. Isso não afeta o link principal da Ajuda no Menu principal nem os links de ajuda com reconhecimento de contexto no Workfront, que direciona os usuários para o site da Ajuda do Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Isso não afeta o link principal da Ajuda no Menu principal nem os links de ajud
 Para obter informações sobre como os usuários acessam uma URL de ajuda personalizada que você configura no Workfront e o site de ajuda regular do Workfront, consulte [Acessando a Ajuda do Workfront na nova experiência do Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -50,9 +52,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Configurar um URL de Ajuda personalizado
 
-1. Clique no ícone Menu Principal ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em Configurar.
+{{step-1-to-setup}}
+
 1. Clique em **Sistema** > **Preferências**.
 1. Na seção **Preferências Gerais**, no campo **URL de Ajuda Personalizada**, digite a URL onde está localizado o site de ajuda personalizado.
 

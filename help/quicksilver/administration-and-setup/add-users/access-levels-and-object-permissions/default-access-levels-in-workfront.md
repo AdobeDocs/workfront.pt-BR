@@ -6,11 +6,11 @@ keywords: acesso,modelo,funil,diagrama,níveis,permissões
 navigation-topic: access-levels
 title: Níveis de acesso incorporados
 description: Cada um dos seis atuais níveis de acesso incorporados foi projetado para um tipo específico de usuário, incluindo Administrador do sistema, Planejador, Trabalhador, Revisor, Solicitante e Usuário externo. Esses níveis de acesso permitem controlar o que os usuários podem editar e visualizar no sistema. Se você precisar de um nível de acesso personalizado, poderá copiar um nível de acesso incorporado e modificá-lo de acordo com a quantidade de acesso que você deseja que ele permita para os vários tipos de objeto do Workfront.
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 5%
