@@ -1,5 +1,5 @@
 ---
-title: Personalizar a exibição de Detalhes usando um modelo de layout
+title: Personalizar a visualização de detalhes usando um modelo de layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,8 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -88,6 +90,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo</p> <p><b
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalize o que os usuários veem na visualização de Detalhes
 

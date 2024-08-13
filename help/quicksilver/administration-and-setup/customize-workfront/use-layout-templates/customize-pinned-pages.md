@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
 Após configurar um modelo de layout, você deve atribuí-lo aos usuários para que as alterações feitas fiquem visíveis para outros usuários. Para obter informações sobre como atribuir um modelo de layout aos usuários, consulte [Atribuir usuários a um modelo de layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -52,6 +54,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Fixar páginas usando um modelo de layout
 

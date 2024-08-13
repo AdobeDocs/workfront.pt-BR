@@ -1,5 +1,5 @@
 ---
-title: Personalizar a terminologia da interface de usuário usando um modelo de layout
+title: Personalizar a terminologia da interface do usuário usando um modelo de layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,8 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -66,6 +68,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar a terminologia da interface do usuário
 

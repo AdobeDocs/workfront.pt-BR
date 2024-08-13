@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 >Quando Solicitações é definida como página inicial, os usuários Colaboradores ou Solicitantes atribuídos ao modelo de layout veem a página inicial como a página inicial. É recomendável escolher uma página de aterrissagem diferente de Solicitações para modelos de layout destinados a usuários Colaboradores ou Solicitantes.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -52,6 +54,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar a landing page
 

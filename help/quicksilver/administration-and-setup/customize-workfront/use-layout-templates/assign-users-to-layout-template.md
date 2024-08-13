@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Para obter mais informações sobre modelos de layout, consulte [Modelos de layo
 Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -52,6 +54,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Atribuir um modelo de layout aos usuários
 

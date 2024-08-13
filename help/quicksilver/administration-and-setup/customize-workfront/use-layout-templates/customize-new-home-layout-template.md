@@ -1,5 +1,5 @@
 ---
-title: Personalizar a nova página inicial usando um modelo de layout
+title: Personalizar nova página inicial usando um modelo de layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '840'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar a nova página inicial usando um modelo de layout
 

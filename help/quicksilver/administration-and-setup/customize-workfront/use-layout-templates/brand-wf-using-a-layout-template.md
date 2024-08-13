@@ -1,5 +1,5 @@
 ---
-title: Brand Adobe Workfront usando um modelo de layout
+title: Adobe Workfront de marca usando um modelo de layout
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Brand Adobe Workfront usando um modelo de layout
 
