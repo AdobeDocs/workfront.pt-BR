@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2495'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,6 @@ Você pode conectar o seguinte:
 
    * De um registro do Planning no Workfront Planning
 
-
 ## Pré-requisitos para vinculação de registros
 
 Para vincular registros a outros registros ou objetos, você deve ter o seguinte:
@@ -181,7 +180,7 @@ Para vincular registros a outros registros ou objetos, você deve ter o seguinte
 
    O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
-1. Selecione uma exibição de **Tabela** no menu suspenso **Exibir**, no canto superior direito da página de tipo de registro.
+1. Clique no nome de um modo de exibição de **Tabela** para abri-lo.
 1. (Opcional) Adicione registros ao tipo de registro selecionado adicionando uma nova linha à tabela. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 1. (Condicional) Depois de conectar o tipo de registro selecionado a outro tipo de registro, vá para a coluna de registro vinculada e clique duas vezes na célula correspondente ao registro que deseja vincular a outros registros.
 
@@ -191,9 +190,18 @@ Para vincular registros a outros registros ou objetos, você deve ter o seguinte
 
    * Clique no nome de um registro conectado na lista para adicioná-lo ao registro selecionado. O registro é adicionado automaticamente.
    * Comece a digitar o nome de um registro e clique nele quando ele for exibido na lista. O registro é adicionado automaticamente.
-   * Clique em **Ver tudo** para exibir todos os registros.
 
-1. (Condicional) Se você clicou em **Selecionar tudo** na etapa anterior, a caixa **Conectar objetos** será exibida.
+   <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+   >[!TIP]
+   >
+   >    Você pode abrir a página de um registro clicando no nome do registro na exibição, localize o campo de registro vinculado e clique duas vezes no campo (se já houver registros conectados) ou clique em **Conectar registros** (se o campo estiver vazio) para adicionar registros do registro ou tipo de objeto conectado.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
+
+1. (Opcional) Clique em **Ver tudo** para exibir todos os registros.
+
+1. (Condicional) Se você clicou em **Ver tudo** na etapa anterior, a caixa **Conectar objetos** será exibida.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -201,17 +209,11 @@ Para vincular registros a outros registros ou objetos, você deve ter o seguinte
 
    Ou
 
-   Selecione o nome de um ou vários registros na caixa e clique em **Conectar objetos** no canto superior direito da caixa Conectar objetos.
-
-   >[!TIP]
-   >
-   >    Você pode abrir a página de um registro, localizar o campo de registro vinculado e clicar no campo conectado (se já houver registros conectados) ou clicar em **Conectar registros** (se o campo estiver vazio) para adicionar registros do registro ou tipo de objeto conectado.
-   >
-   >![](assets/connect-records-from-record-page-field.png)
+   Selecione o nome de um ou vários registros na caixa e clique em **Conectar objetos**.
 
    São aditados os seguintes pontos:
 
-   * Os registros vinculados são exibidos no campo de registro vinculado do registro selecionado na etapa 6. <!--accurate?-->
+   * Os registros vinculados são exibidos no campo de registro vinculado do registro selecionado em uma etapa anterior.
    * Os campos vinculados são preenchidos com as informações dos registros vinculados, se você tiver adicionado campos de pesquisa vinculados ao conectar os tipos de registro.
 
    A atualização dos registros vinculados atualiza os campos vinculados para os registros dos quais você está vinculando automaticamente. Não é possível editar manualmente campos vinculados.
@@ -259,7 +261,12 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
    * Clique em um objeto da lista para adicioná-lo ao registro selecionado. Os objetos são listados em ordem alfabética. O objeto é adicionado automaticamente.
    * Comece a digitar o nome de um objeto e clique nele quando ele for exibido na lista. O objeto é adicionado automaticamente.
-   * Clique em **Ver tudo** para exibir todos os objetos que você tem pelo menos permissões para exibir.
+
+   >[!TIP]
+   >
+   >Você pode abrir a página de um registro na exibição, clicar duas vezes no campo de registro vinculado ou clicar em **Conectar** no campo para adicionar objetos do tipo de objeto conectado.
+
+1. (Opcional) Clique em **Ver tudo** para exibir todos os objetos que você tem pelo menos permissões para exibir.
 
 1. (Condicional) Se você clicou em **Ver tudo** na etapa anterior, a caixa **Conectar objetos** será exibida.
 
@@ -269,7 +276,7 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
    Ou
 
-   Selecione o nome de um ou vários objetos na caixa e clique em **Conectar objetos** no canto superior direito da caixa Conectar objetos.
+   Selecione o nome de um ou vários objetos na caixa e clique em **Conectar objetos**.
 
    >[!IMPORTANT]
    >
@@ -281,10 +288,6 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
    * Os objetos Workfront selecionados são adicionados ao campo de registro vinculado.
    * Se você os tiver adicionado ao conectar o tipo de registro ao Workfront, os campos vinculados (ou os campos de pesquisa) dos objetos do Workfront serão automaticamente preenchidos com informações do Workfront.
-
-   >[!TIP]
-   >
-   >Você pode abrir a página de um registro, localizar o campo de registro vinculado e clicar no ícone **+** no campo para adicionar objetos do tipo de objeto conectado.
 
    Para obter mais informações sobre como conectar tipos de registro a objetos de outro aplicativo, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 

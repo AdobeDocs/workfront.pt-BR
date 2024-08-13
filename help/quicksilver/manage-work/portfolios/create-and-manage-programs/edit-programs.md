@@ -1,14 +1,14 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Editar programas
-description: É possível editar informações sobre programas criados por você ou criados por outros usuários, caso eles tenham sido compartilhados com você.
+title: Editar Programas
+description: É possível editar informações sobre programas criados por você ou criados por outros usuários, caso eles tenham sido compartilhados com você. Este artigo descreve como pesquisar, localizar e editar um programa, se você tiver permissões para isso.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. Adicione um comentário no **[!UICONTROL Post e atualize o campo do programa]**.
+1. Adicione um comentário no campo **[!UICONTROL Postar uma atualização para o programa]**.
 1. (Opcional) Clique no ícone **[!UICONTROL Pessoas]** para adicionar um usuário ou uma equipe ao comentário.
 1. (Opcional) Clique no ícone **[!UICONTROL Bloquear]** para bloquear o comentário e torná-lo privado somente para os usuários em sua empresa.
 

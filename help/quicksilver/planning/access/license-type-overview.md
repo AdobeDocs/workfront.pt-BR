@@ -1,11 +1,11 @@
 ---
-title: Visão geral do tipo de licença ao usar o Adobe Workfront Planning
+title: Visão Geral Do Tipo De Licença Ao Usar O Adobe Workfront Planning
 description: Seu acesso ao Adobe Workfront Planning depende do tipo de licença, além das permissões para objetos.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -40,6 +40,17 @@ Conceder permissões de usuário a um espaço de trabalho também concede a eles
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+<!--Replace the table above with the following at GA:
+
+
+| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Standard                     | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
+| Light or Contributor  | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+
 ### Tipos de licença e permissões de espaço de trabalho
 
 Somente usuários com uma licença Padrão (ou Plano) podem ter permissões do Contribute ou Manage para espaços de trabalho. Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho compartilhados com eles.
@@ -56,6 +67,26 @@ Os administradores do sistema podem exibir todos os espaços de trabalho no sist
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
+
+<!--Replace all the content in the section above with the following at Planning GA
+
+
+Only users with a Standard license can have Contribute or Manage permissions to workspaces. Users with all other license types can have View permissions to workspaces shared with them. 
+
+System administrators can view all workspaces in the system, even the ones they did not create. 
+
+>[!INFO]
+>
+>**EXAMPLE:** 
+>
+>Contributors or Light-license users cannot contribute to or manage workspaces and their objects. 
+>
+>There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license, as these permissions levels are dimmed. 
+>
+>![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+-->
+
+
 ### Tipos de licença e permissões de exibição
 
 Somente usuários com uma licença Padrão (ou Plano) podem ter permissões de Gerenciamento para exibições. Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para exibições compartilhadas com eles.
@@ -69,6 +100,35 @@ Somente usuários com uma licença Padrão (ou Plano) podem ter permissões de G
 >Há uma indicação na caixa de compartilhamento de que os usuários não podem receber permissões para gerenciar uma exibição quando têm uma licença de nível inferior, pois esses níveis de permissão estão esmaecidos.
 >
 >![](assets/permissions-grayed-out-for-reviewer-user-on-a-view.png)
+
+
+<!--Replace all of the above in this section with the following at GA:
+
+Only users with a Standard license can have Manage permissions to views. Users with all other license types can have View permissions to views shared with them. 
+
+>[!INFO]
+>
+>**EXAMPLE:** 
+>
+>Contributors or Light-license users cannot manage views. They can apply temporary filters, sorts, or groupings to views they can access. 
+>
+>There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
+>
+>![](assets/permissions-grayed-out-for-light-user.png)-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--Replace all of the above with this:

@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Criar um programa
-description: Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Os programas não podem existir fora de um portfólio.
+description: Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio. Os programas normalmente compartilham os mesmos recursos que outros programas no mesmo portfólio. Você pode criar programas para organizar seus portfólios quando eles se tornarem muito grandes.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Os programas não podem existir fora de um portfólio.
+Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto.
+Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio. Os programas normalmente compartilham os mesmos recursos que outros programas no mesmo portfólio.
+
+Você pode criar programas para organizar seus portfólios quando eles se tornarem muito grandes.
+
+Por exemplo, você pode ter uma Portfolio de Ano Fiscal de Marketing 2024 que contém todos os projetos da sua divisão de Marketing. Você pode considerar organizar ainda mais seus projetos em trimestres fiscais e adicionar programas do Trimestre fiscal de marketing 1-4 de 2024 na Portfolio do Ano fiscal de marketing de 2024.
 
 ## Requisitos de acesso
 
