@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '14309'
-ht-degree: 1%
+source-wordcount: '14317'
+ht-degree: 2%
 
 ---
 
@@ -474,7 +474,7 @@ ht-degree: 1%
          * [Configurar tipos de tempo de log](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
          * [Preferências de horas e planilha de horas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
          * [Gerenciar tipos de horas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
-         * [Criar um agendamento](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+         * [Criar um cronograma](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * Configuração organizacional {#organization-setup}
          * [Configuração organizacional](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [Gerenciar empresas](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
@@ -647,7 +647,7 @@ ht-degree: 1%
          * [Editar um processo de aprovação](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
          * [Configurações do processo de aprovação global](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
          * [Como as alterações afetam os processos de aprovação atribuídos](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
-         * [Criar um caminho de etapas](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
+         * [Criar um caminho de marcos](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
       * Criar e gerenciar condições personalizadas {#custom-conditions}
          * [Condições personalizadas](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [Criar ou editar uma condição](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
@@ -1753,7 +1753,7 @@ ht-degree: 1%
       * [Acesso necessário para orçar recursos no Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [Visão geral do Planejador de recursos](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Localizar o Planejador de recursos](resource-mgmt/resource-planning/locate-resource-planner.md)
-      * [Visão geral da navegação do Planejador de recursos](resource-mgmt/resource-planning/resource-planner-navigation.md)
+      * [Visão geral da navegação do planejador de recursos](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [Revisar a disponibilidade e a alocação de recursos usando o Planejador de Recursos da Adobe Workfront](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
       * [Visão geral de horas, FTE e informações de custo nas visualizações Projeto e Função do Planejador de recursos](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
       * [Recursos de orçamento no Planejador de recursos usando as visualizações Projeto e Função](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
@@ -1943,7 +1943,7 @@ ht-degree: 1%
       * [Visão geral do layout da folha de horas](timesheets/timesheets/timesheet-layout.md)
    * Criar e gerenciar planilhas de horas {#create-and-manage-timesheets-in-adobe-workfront}
       * [Criar e gerenciar folhas de horas: índice do artigo](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-      * [Criar, editar e atribuir perfis de planilha de horas](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+      * [Criar, editar e atribuir perfis de folha de horas](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definir tipos de horas e disponibilidade](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Criar uma planilha de horas de uso único](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Editar informações da folha de horas](timesheets/create-and-manage-timesheets/edit-timesheets.md)
@@ -2039,11 +2039,13 @@ ht-degree: 1%
       * [Informações gerais sobre o Adobe Workfront Planning: índice do artigo](planning/general/planning-general-article-index.md)
       * [Visão geral do Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Noções básicas sobre a API do Adobe Workfront Planning](planning/general/planning-api-basics.md)
+      * [Visão geral das limitações de objetos do Adobe Workfront Planning](planning/general/limitations-overview.md)
       * [Visão geral do Assistente do Adobe Workfront Planning AI](planning/general/planning-ai-assistant-overview.md)
       * [Atividade da versão atual do Adobe Workfront Planning](planning/general/release-activity.md)
       * [Arquivos de atividades do Adobe Workfront Planning versão 2023](planning/general/release-activity-archives-2023.md)
    * Arquitetura do Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Arquitetura: índice de artigos](planning/architecture/architecture-information.md)
+      * [Visão geral dos espaços de trabalho](planning/architecture/workspaces-overview.md)
       * [Criar espaços de trabalho](planning/architecture/create-workspaces.md)
       * [Visão geral dos tipos de registro](planning/architecture/overview-of-record-types.md)
       * [Criar tipos de registro](planning/architecture/create-record-types.md)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Você pode conectar tipos de registro uns aos outros ou tipos de registro com ti
 Este artigo descreve como é possível conectar dois tipos de registro do Workfront Planning a um tipo de registro do Workfront Planning com um objeto de outro aplicativo.
 
 Depois de estabelecer a conexão entre registros ou tipos de objeto, você pode conectar registros individuais uns aos outros e exibir campos do registro vinculado ou tipos de objeto em um registro do Workfront Planning.
+
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 Para obter informações sobre como conectar um registro do Workfront Planning a um objeto de outro aplicativo, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -194,7 +196,9 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
 
 1. No campo **Tipo de registro**, procure um tipo de registro ou selecione um dos seguintes:
 
-   * Outro tipo de registro da seção do espaço de trabalho selecionado
+   * Outro tipo de registro do espaço de trabalho selecionado
+
+     <!--replace screen shot below-->
 
      ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -204,7 +208,15 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
      > 
      >Se você não tiver outros tipos de registro no espaço de trabalho selecionado, a seção espaço de trabalho não será exibida.
 
+     <!--remove the first sentence in the tip above at GA-->
+
+     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
+        [!TIP]
+         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+
    * Um **Projeto, Portfolio, Programa, Empresa** ou **Grupo** da seção **Tipos de Objetos do Workfront**.
+
+     <!--replace screen shot below-->
 
      ![](assets/workfront-project-connection-selection.png)
 
@@ -221,7 +233,14 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    >É possível ter várias conexões para o mesmo registro ou tipo de objeto. Se você não editar o nome do campo conectado, o Workfront adicionará um numeral após o nome do registro conectado, para indicar o número de tipos de registros conectados com o mesmo nome.
 
    * **Descrição**: informações adicionais sobre o campo de registro conectado. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
-   * **Permitir vários registros**: selecione esta opção para indicar que você permite que os usuários possam adicionar vários registros quando o campo de tipo de registro vinculado for exibido nos registros originais. É selecionado por padrão.
+   * **Permitir vários registros**: selecione esta opção para indicar que você permite que os usuários possam adicionar vários registros quando o campo de tipo de registro vinculado for exibido nos registros originais. É selecionado por padrão. <!--This option is available only when connecting records from two different workspaces or a record and an AEM asset object type.-->
+   <!--* **Connection type**: This option is available only when connecting records from the same workspace or a record and a Workfront object type. Choose from the following connection types:
+        * One to one
+        * One to many
+        * Many to one
+        * Many to many
+        
+        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **Selecionar campos de pesquisa**: selecione esta opção para adicionar campos do tipo de registro selecionado. Os campos de pesquisa são campos associados ao registro ou tipo de objeto ao qual você está vinculando. Vinculá-los exibe informações do registro ou objeto ao qual você está vinculando no registro do qual você está gostando. É selecionado por padrão.
 
      >[!TIP]
@@ -245,7 +264,7 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    >
    >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-1. (Condicional) Se você optou por se conectar ao Experience Manager Assets ou a um tipo de registro do Workfront Planning, desabilite a opção **Título** na área **Aparência do registro**, se não quiser que o título dos registros ou ativos conectados seja exibido no campo vinculado. Quando desativado, somente as miniaturas dos registros são exibidas nos campos vinculados. Os registros sem uma imagem em miniatura exibem um ícone de imagem. O botão de alternância é ativado por padrão. Um exemplo de como os registros conectados serão exibidos é exibido na área **Aparência do registro**.
+1. (Condicional) Se você optou por se conectar ao Experience Manager Assets ou a um tipo de registro do Workfront Planning, desmarque a opção **Título** na área **Aparência do registro**, se não quiser que o título dos registros ou ativos conectados seja exibido no campo vinculado. Quando desmarcada, somente as miniaturas dos registros são exibidas nos campos vinculados. Os registros sem uma imagem em miniatura exibem um ícone de imagem. O botão de alternância é selecionado por padrão. Um exemplo de como os registros conectados serão exibidos é exibido na área **Aparência do registro**.
 
    >[!TIP]
    >

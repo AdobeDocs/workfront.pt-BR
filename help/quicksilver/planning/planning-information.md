@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,16 @@ Os artigos nas seções listadas abaixo descrevem como você pode configurar o W
 >
 >A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
 
-## Visão geral do Adobe Workfront Planning
+## Informações gerais sobre o Adobe Workfront Planning
 
-Acesse os seguintes artigos para obter uma visão geral do novo Workfront Planning:
+Acesse os seguintes artigos para obter informações gerais sobre o novo Workfront Planning:
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): uma visão geral de alto nível do Adobe Workfront Planning, incluindo a terminologia e os conceitos exclusivos desta solução. Recomendamos que você inicie sua jornada com o Workfront Planning aqui.
+* [Visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md): uma lista de limitações para o número de objetos que você pode criar no Workfront Planning.
 * [Atividade da versão atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md): uma lista de todos os recursos que foram lançados desde o lançamento do programa Adobe Workfront Planning, em 22 de maio de 2023, com datas de lançamento exatas e uma breve visão geral de cada recurso.
 * [Visão geral do Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Workfront AI Assistant para Planning, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos e permitindo que o assistente faça o trabalho por você.
 
@@ -76,7 +77,7 @@ As seções a seguir contêm artigos que descrevem em detalhes os recursos atual
    * Criar, editar, excluir espaços de trabalho
    * Criar, editar, excluir tipos de registro
    * Conectar tipos de registro e exemplos de tipos de registro de conexão
-   * Modelo do Workspace
+   * Modelos do Workspace
 
 * [Campos: o índice do artigo](/help/quicksilver/planning/fields/fields-information.md) contém as seguintes informações:
 

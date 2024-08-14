@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 2%
 
 ---
@@ -136,11 +136,11 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
    O espaço de trabalho é aberto e os tipos de registro são exibidos.
 1. Siga um destes procedimentos:
 
-   * Passe o mouse sobre o cartão de tipo de registro, clique no menu Mais e **Excluir**.
+   * Passe o mouse sobre o cartão de tipo de registro, clique no menu **Mais** e **Excluir**.
    * Clique no cartão do tipo de registro que deseja excluir e, na página de tipo de registro, clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. Digite **excluir** na caixa de confirmação e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 
-   O tipo de registro selecionado, juntamente com seus campos, registros associados e exibições são excluídos.
+   O tipo de registro selecionado, juntamente com seus campos, registros associados e exibições são excluídos e não podem ser recuperados.

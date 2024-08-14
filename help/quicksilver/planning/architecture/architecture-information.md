@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Além disso, o Workfront Planning pode se vincular a tipos de objetos de outros 
 
 Os artigos nas seções a seguir descrevem como configurar os espaços de trabalho do Adobe Workfront Planning, definir os tipos de registro que são os blocos de construção desses espaços de trabalho e começar a usar seus recursos:
 
+* [Visão geral dos espaços de trabalho](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [Lista de modelos do espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md)
