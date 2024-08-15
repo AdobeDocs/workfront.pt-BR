@@ -6,7 +6,7 @@ description: Embora não haja limite para o número de usuários que você pode 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Remover usuários do conjunto de recursos
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 Embora não haja limite para o número de usuários que você pode ter em um pool de recursos, a lista de usuários exibe apenas os primeiros 2000 usuários, listados em ordem alfabética.
 
@@ -75,6 +75,7 @@ Ou\
    Comece a digitar o nome de uma empresa, função de trabalho, equipe ou grupo se quiser remover todos os usuários associados a essas entidades.
 
    <span class="preview">Imagem de exemplo no ambiente de Visualização:<span>
+
    ![Remover usuários do Pool de Recursos](assets/remove-users-from-resource-pool.png)
 
    Imagem de amostra no ambiente de produção:

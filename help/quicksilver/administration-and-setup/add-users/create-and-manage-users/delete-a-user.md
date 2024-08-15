@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
 
 # Excluir usuários
+
+>[!IMPORTANT]
+>
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Plataforma de negócios Adobe. Se você foi integrado à Plataforma comercial Adobe, é necessário excluir usuários na Adobe Admin Console.
+>
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Plataforma Comercial Adobe, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Quando um usuário deixa a organização, você pode removê-lo do Adobe Workfront.
 

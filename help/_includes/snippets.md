@@ -1,7 +1,7 @@
 ---
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2524'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,14 @@ ht-degree: 1%
 ## Visualização realçada do artigo completo {#highlighted-preview-article-level}
 
 <span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
+
+## Pré-visualização e lançamento rápido no quarto trimestre de 2024 {#preview-and-fast-release-Q424}
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Quarto Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 ## Pré-visualização e lançamento rápido no quarto trimestre de 2023 {#preview-and-fast-release}
 
