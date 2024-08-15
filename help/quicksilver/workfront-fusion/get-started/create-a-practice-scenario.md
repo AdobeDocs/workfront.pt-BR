@@ -7,7 +7,7 @@ description: Este artigo descreve como criar um cenário de integração com o A
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '2139'
 ht-degree: 0%
@@ -120,7 +120,7 @@ A criação de um cenário consiste em várias tarefas principais:
    O editor de cenários exibe, contendo um módulo vazio no centro, o aplicativo [!DNL Google Sheets] pré-carregado e algumas opções na barra de ferramentas na parte inferior.
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
 Quando você começar a criar um novo cenário, é uma boa ideia começar criando um nome para ele.

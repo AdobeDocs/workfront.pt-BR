@@ -7,7 +7,7 @@ description: Você pode exibir informações sobre todas as execuções de um ce
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -70,8 +70,6 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próxima ao canto superior esquerdo da janela.
 
 1. Veja as informações na lista à direita.
-
-   ![](assets/open-history-tab-350x202.png)
 
    Você também pode clicar em para visualizar uma página inteira dessas informações. A exibição de página inteira permite filtrar o histórico para exibir execuções específicas.
 

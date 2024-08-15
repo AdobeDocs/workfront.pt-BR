@@ -7,7 +7,7 @@ description: A pasta [!UICONTROL Execuções incompletas] armazena execuções d
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 5%
@@ -65,9 +65,13 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 ## Exibir execuções incompletas
 
-Se um módulo encontrar um erro durante sua operação, uma nova execução incompleta será adicionada à pasta Incomplete executions. Cada execução incompleta contém o blueprint do cenário e todos os pacotes que podem ser mapeados no módulo com falha. É possível abrir a lista de execuções incompletas clicando na guia [!UICONTROL Execuções Incompletas] na página de detalhes do cenário:
+Se um módulo encontrar um erro durante sua operação, uma nova execução incompleta será adicionada à pasta Incomplete executions. Cada execução incompleta contém o blueprint do cenário e todos os pacotes que podem ser mapeados no módulo com falha. É possível abrir a lista de execuções incompletas clicando na guia [!UICONTROL Execuções Incompletas] na página de detalhes do cenário.
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 Para obter mais informações, consulte [Erros resultantes em execuções incompletas](#errors-resulting-into-incomplete-executions).
 

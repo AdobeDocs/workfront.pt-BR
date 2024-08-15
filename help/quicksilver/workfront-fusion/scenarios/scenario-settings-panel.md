@@ -7,7 +7,7 @@ description: Este artigo descreve as configurações disponíveis no painel [!UI
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -132,10 +132,7 @@ Definir mais ciclos pode ser útil quando você deseja impedir a interrupção d
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->O [!UICONTROL número máximo de arquivos retornados] no módulo [!UICONTROL Dropbox] >[!UICONTROL Observar arquivos] está definido como `10`.
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>O [!UICONTROL número máximo de arquivos retornados] no módulo [!UICONTROL Workfront] >[!UICONTROL Watch records] está definido como `10`.
 >Se 100 solicitações forem enviadas para [!DNL Workfront], e o campo [!UICONTROL Limite] estiver definido como 10, 90 arquivos serão deixados sem processamento após a execução de um cenário. Os próximos 10 arquivos são processados na próxima execução de cenário agendada.
 >
 >### O número máximo de ciclos é definido como 10
