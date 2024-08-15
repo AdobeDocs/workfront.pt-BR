@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para obter informações, consulte [Configurar preferências do sistema](/help/q
 
 >[!NOTE]
 >
->Versão de pré-visualização: 1 de agosto de 2024; Produção para lançamento rápido: Com lançamento 24.8 (agosto de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
+>Versão de pré-visualização: 1 de agosto de 2024; Produção para lançamento rápido: Com lançamento 24.8 (15 de agosto de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
 
 As mensagens de confirmação Excluir usuário e Desativar usuário que os usuários veem ao excluir ou desativar um usuário foram atualizadas para um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -42,7 +42,7 @@ Para obter informações sobre como excluir e desativar usuários, consulte [Exc
 
 >[!NOTE]
 >
->Versão de pré-visualização: 1 de agosto de 2024; Produção para lançamento rápido: Com lançamento 24.8 (agosto de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
+>Versão de pré-visualização: 1 de agosto de 2024; Produção para lançamento rápido: Com lançamento 24.8 (15 de agosto de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
 
 Atualizamos a página Conjuntos de recursos com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -62,8 +62,8 @@ Para obter informações sobre como excluir uma tarefa, consulte [Excluir tarefa
 
 >[!NOTE]
 >
->Versão de pré-visualização: 17 de julho de 2024; Produção para lançamento rápido: Com lançamento 24.8 (agosto de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
+>Versão de pré-visualização: 17 de julho de 2024; Produção para lançamento rápido: Com lançamento 24.8 (15 de agosto de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
 
 Atualizamos a página Notificação (acessada ao clicar no ícone de notificação na barra de ferramentas principal e, em seguida, clicar em Todas as notificações) com um design mais moderno e consistente com outras áreas do Workfront.
 
-Para obter informações, consulte [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Para obter informações, consulte [Exibir e gerenciar notificações no aplicativo](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
