@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,11 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
 1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
-   A página de registro é aberta.
+   A página de registro é aberta. <!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. Na visualização ou página do registro, passe o mouse sobre o espaço em branco à esquerda dos campos e clique no ícone ![](assets/add-section-icon.png) de **Adicionar seção** para adicionar uma seção.
+1. Na visualização ou página do registro <!--**Details** tab of the-->, passe o mouse sobre o espaço em branco à esquerda dos campos e clique no ícone ![](assets/add-section-icon.png) de **Adicionar seção** para adicionar uma seção.
 1. Clique dentro do nome da seção e substitua **Seção sem título** por um nome e clique em Enter. Os campos exibidos abaixo da seção fazem parte automaticamente da nova seção.
 1. Comece a arrastar e soltar campos na nova seção, conforme descrito na seção [Reorganizar campos na página de visualização de registro ou de detalhes](#rearrange-fields-in-the-record-preview-or-details-page) deste artigo.
 
@@ -182,7 +182,13 @@ Todas as seções são expandidas por padrão.
 
    Todas as alterações nas seções e na ordem dos campos são salvas automaticamente.
 
-## Reorganizar campos na página de visualização ou detalhes do registro
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## Reorganizar campos na visualização ou página do registro
 
 {{step1-to-planning}}
 
