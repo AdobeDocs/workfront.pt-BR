@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -51,15 +51,20 @@ Acesse os seguintes artigos para obter informações gerais sobre o novo Workfro
 * [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): uma visão geral de alto nível do Adobe Workfront Planning, incluindo a terminologia e os conceitos exclusivos desta solução. Recomendamos que você inicie sua jornada com o Workfront Planning aqui.
 * [Visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md): uma lista de limitações para o número de objetos que você pode criar no Workfront Planning.
 * [Atividade da versão atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md): uma lista de todos os recursos que foram lançados desde o lançamento do programa Adobe Workfront Planning, em 22 de maio de 2023, com datas de lançamento exatas e uma breve visão geral de cada recurso.
+
+## Recursos adicionais disponíveis para o Workfront Planning
+
 * [Visão geral do Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Workfront AI Assistant para Planning, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos e permitindo que o assistente faça o trabalho por você.
 
   >[!NOTE]
   >
-  >    O Assistente de IA do Workfront está disponível no momento para clientes selecionados em uma fase beta. Entre em contato com seu representante de conta para saber se você está qualificado a participar para experimentar esta nova oferta.
+  >    O Assistente de IA do Workfront foi removido temporariamente e estará disponível em uma data posterior.
 
 * [Módulos do Adobe Workfront Planning para Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
 
 * [Noções básicas da API de Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md): a meta da API de Planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP.
+
+<!--* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).-->
 
 ## Arquitetura e funcionalidade do Workfront Planning
 

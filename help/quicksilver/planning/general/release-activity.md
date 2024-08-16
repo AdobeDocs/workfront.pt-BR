@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '5891'
+source-wordcount: '5894'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,40 @@ We have added a new tab on the record's preview and page. Now, when you click th
 
 For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
 
+### Create records, projects, and portfolios as you connect them
+
+Production: <date> 
+
+Preview: To be determined 
+
+You now have the capability to create records, projects, or portfolios as you connect them to existing records. For example, if you connect Workfront Planning campaigns with Workfront projects, and you determine that a particular project does not exist, you can add it as a new project in the connected record field. The project is then added to Workfront. Newly added records are added to their respective record type pages in the table view.   
+
+At this time, you can create the following when connecting records: 
+
+* Records 
+* Projects without a template 
+* Portfolios 
+ 
+You cannot create other connected Workfront objects or AEM assets when connecting them to a record. 
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
+
+## Export record details to Word
+
+Production: <date> 
+
+Preview: To be determined 
+
+You can now export a record's details to a Word document (.docx). For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
+
+### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
+
+Production: August 28, 2024 
+
+Preview: To be determined 
+
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with canvas dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+
 -->
 
 ## Semana de 12 de agosto de 2024
@@ -132,7 +166,7 @@ For information, see [Connect records](/help/quicksilver/planning/records/connec
 Produção: 12 de agosto de 2024
 Visualização: a ser determinado
 
-O Assistente de IA foi removido temporariamente e retornará em uma data posterior. Para obter mais informações sobre o Assistente de IA, consulte [visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+O Assistente de IA do Workfront foi removido temporariamente e estará disponível em uma data posterior. Para obter mais informações sobre o Assistente de IA, consulte [visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Preservar o último intervalo de tempo exibido na exibição de linha do tempo
 

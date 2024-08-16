@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-><span class="preview">O Assistente de IA foi removido temporariamente e retornará em uma data posterior.</span>
+><span class="preview">O Workfront AI Assistant foi removido temporariamente e estará disponível em uma data posterior.</span>
 >As informações neste artigo se referem ao Adobe Workfront Planning e ao Workfront AI Assistant (beta), que são novas ofertas da Adobe Workfront.
 >
 >Atualmente, o Workfront Planning está em uma fase de acesso antecipado, e o Assistente de IA da Workfront está em uma fase beta.

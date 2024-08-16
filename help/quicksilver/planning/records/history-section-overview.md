@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,7 @@ O painel direito de um registro exibe as seguintes seções:
 1. Clique em um cartão de tipo de registro.
 A página de tipo de registro é aberta e todos os registros desse tipo são exibidos.
 
-1. Escolha uma exibição de tabela no menu suspenso **Exibir**.
-1. Clique no nome de um registro na exibição de tabela.
+1. Em qualquer exibição, clique no nome de um registro.
 
    A página do registro é aberta. A área Comentários é aberta por padrão no painel direito.
 1. Clique no ícone ![](assets/show-history-icon.png) **Mostrar Histórico**. Todas as alterações feitas nos campos do registro são exibidas no painel direito, começando pela mais recente.

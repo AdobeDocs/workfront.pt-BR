@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -233,6 +233,8 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
 
    O Workfront salva suas alterações automaticamente.
 
+   <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->
+
 1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continue editando o registro conforme descrito na seção [Editar um registro da página do registro](#edit-a-record-from-the-records-page) deste artigo.
 
 ### Editar um registro da página do registro
@@ -285,6 +287,9 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
    Para obter mais informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    O Workfront salva suas alterações automaticamente.
+
+   <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->
+
 
 ## Editar um registro de um objeto do Workfront na seção Planejamento
 
