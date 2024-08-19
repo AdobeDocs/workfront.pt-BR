@@ -7,24 +7,51 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Revisar fórmulas de campo calculado com o Assistente do AI
+# Gerar ou revisar fórmulas de campo calculado com o Assistente do AI
 
-Você pode usar o Assistente de IA para resolver erros em suas expressões personalizadas inválidas em campos calculados.
+Você pode usar o Assistente do AI para gerar fórmulas com base em um prompt fornecido. Você também pode resolver erros em suas expressões personalizadas inválidas em campos calculados.
+
+## Requisitos de acesso
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td><p>Novo: Prime ou Ultimate</p>
+       <p>ou</p>
+       <p>Atual: não disponível</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: não disponível</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Gerar uma expressão de campo calculado
+
+## Revisar uma expressão de campo calculado
 
 Quando você está criando o campo calculado no construtor de formulários personalizado, uma mensagem de erro será exibida no campo se a fórmula for inválida.
 
 ![Erro de expressão inválida](assets/invalid-expression.png)
 
 O Assistente de IA pode ajudá-lo a revisar sua fórmula em uma expressão de campo calculado válida.
-
-## Revisar uma expressão de campo calculado
 
 Para revisar uma expressão de campo calculado inválida:
 

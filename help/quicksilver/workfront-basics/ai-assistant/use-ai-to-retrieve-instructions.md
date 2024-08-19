@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 32f2c7227ba5851f5a9de85bd350fe9093a5fc8f
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 O AI Assistant pode localizar informações da documentação do Workfront, eliminando a necessidade de visitar o Adobe Experience League para obter a ajuda necessária.
 
 Por exemplo, se você perguntar ao Assistente de IA &quot;Como criar uma fila de solicitações&quot;, ele retornará instruções para criar a solicitação, extraídas do artigo [Criar e gerenciar filas de solicitações](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+## Requisitos de acesso
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td><p>Novo: Qualquer um</p>
+       <p>ou</p>
+       <p>Atual: não disponível</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: não disponível</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Obter informações do Assistente de IA
 
