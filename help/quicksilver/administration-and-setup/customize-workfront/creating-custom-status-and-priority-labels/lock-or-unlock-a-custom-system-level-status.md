@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Status bloqueados e desbloqueados no nível do sistema
 description: Bloquear status personalizados é uma maneira de garantir que as pessoas em toda a organização usem os mesmos processos no fluxo de trabalho. Quando um status é bloqueado, ele fica disponível para todos os usuários no sistema. Embora você possa editá-lo ou excluí-lo, os administradores de grupo não podem fazer isso para seus grupos. Por outro lado, desbloquear status personalizados permite que os administradores de grupos tenham mais flexibilidade para gerenciar workflows exclusivos usados em seus grupos. Eles podem alterar os atributos de um status desbloqueado ou excluí-lo de seus grupos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c70a10a920d32ad00a2e833b331c92a598902d21
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

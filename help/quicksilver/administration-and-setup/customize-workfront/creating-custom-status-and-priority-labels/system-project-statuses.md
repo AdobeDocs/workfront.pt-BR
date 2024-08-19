@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Visão geral dos status de projeto do sistema
+title: Visão Geral dos Status de Projeto do Sistema
 description: O Workfront tem 9 status de projeto de sistema incorporados. Os primeiros 3 na tabela abaixo são obrigatórios, o que significa que você pode desbloqueá-los, renomeá-los e reordená-los, mas não pode ocultá-los ou excluí-los. A alteração do status de um projeto geralmente é um processo manual. No entanto, às vezes, o status de um projeto é alterado automaticamente, dependendo de outras atividades que estão acontecendo no sistema.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -80,7 +80,7 @@ O Workfront fornece os seguintes status de projeto com sua instância do Adobe W
    <td> <p>Os usuários na equipe do projeto não podem ver o projeto em suas listas de Projetos por padrão (sem um filtro personalizado), na área Projetos do Workfront. As tarefas e problemas atribuídos a eles no projeto desaparecem da Lista de trabalho. </p> <p>Decisões de aprovação não podem ser concedidas a tarefas ou problemas.</p> <p>Notificações sobre alterações de linha do tempo, atribuições, ações necessárias e aprovações não são enviadas aos usuários na equipe do projeto.</p> <p> <p><b>Nota</b></p>  <p>Quando você coloca um projeto em espera, a linha do tempo do projeto não para. O projeto ainda pode ser exibido como Em risco ou Com problema, mesmo se ninguém estiver trabalhando ativamente no projeto. Alguns ajustes manuais das datas das tarefas abertas restantes podem ser necessários ao retornar o projeto para Atual novamente, para que o projeto possa mostrar o progresso atualizado.</p> </p> </td> 
   </tr> 
   <tr> 
-   <td>Solicitado(a)</td> 
+   <td>Solicitado</td> 
    <td>O status do projeto é marcado automaticamente como Solicitado pelo sistema quando o business case de uma solicitação de projeto é concluído e enviado para aprovação. Para obter mais informações sobre como solicitar um projeto usando um business case, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Revisar projetos solicitados</a>.</td> 
    <td> <p>Os usuários na equipe do projeto não podem ver o projeto em suas listas de Projetos por padrão (sem um filtro personalizado), na área Projetos do Workfront. As tarefas e problemas no projeto atribuídos a eles não preenchem sua Lista de trabalho.</p> <p>Todas as notificações relacionadas ao projeto, exceto uma notificação de alteração de status, não são enviadas a nenhum usuário.</p> <p>A linha do tempo do projeto não é calculada automaticamente pelo sistema.</p> </td> 
   </tr> 
@@ -106,7 +106,7 @@ O Workfront fornece os seguintes status de projeto com sua instância do Adobe W
 >
 >Os status de projeto a seguir não podem ser alterados para um status Morto, Em espera ou Concluído:
 >
->* Solicitado(a)
+>* Solicitado
 >* Ideia
 >* Aprovado
 >* Rejeitado (ou seu equivalente)

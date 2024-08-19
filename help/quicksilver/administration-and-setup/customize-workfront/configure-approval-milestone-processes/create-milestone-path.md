@@ -1,5 +1,5 @@
 ---
-title: Criar um caminho de etapas
+title: Criar um Caminho de Etapas
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Criar um caminho de etapas
+# Criar um caminho de marcos
 
 <!--Audited: 07/2024-->
 
@@ -62,7 +62,7 @@ A primeira etapa na criação de um caminho de marcos é identificar quais são 
 
 Para obter mais informações sobre como associar um caminho de etapas a um projeto e uma etapa a uma tarefa, consulte [Associar etapas a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-## Criar um caminho de etapas
+## Criar um caminho de marcos
 
 {{step-1-to-setup}}
 

@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Status de tarefas do sistema
 description: Os três status de tarefa do sistema incorporados no Workfront são obrigatórios, o que significa que você pode desbloqueá-los, renomeá-los e reordená-los, mas não pode ocultá-los ou excluí-los. Você também pode adicionar novos status de tarefas do sistema para atender às necessidades em sua organização. A alteração do status de uma tarefa geralmente é um processo manual, mas, às vezes, o status de uma tarefa é alterado automaticamente, dependendo de outros fatores que estão acontecendo no sistema.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

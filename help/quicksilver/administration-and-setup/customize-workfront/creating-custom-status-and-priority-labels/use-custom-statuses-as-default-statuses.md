@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Usar status personalizados como status padrão
 description: Quando um status personalizado é definido como um status padrão, o novo status padrão é usado em todo o sistema de várias maneiras. A forma como ele é usado depende se é definido como um status padrão do nível do sistema ou um status padrão do nível do grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Quando um status personalizado é definido como um status padrão, o novo status padrão é usado em todo o sistema de várias maneiras. A forma como ele é usado depende se é definido como um status padrão do nível do sistema ou um status padrão do nível do grupo.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -41,6 +43,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Status padrão personalizados no nível do sistema
 
@@ -76,7 +80,8 @@ Se o status personalizado for um status de Problema, todos os quatro tipos de pr
 
 ## Definir um status personalizado como status padrão
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. No painel esquerdo, clique em **Preferências do projeto** > **Status**.
 1. (Condicional) Se estiver definindo um status padrão para um grupo, comece digitando o nome do grupo no menu no canto superior direito e, em seguida, selecione-o quando ele for exibido.
 1. Abra a guia **Projeto**, **Tarefas** ou **Problemas**, dependendo do tipo de status que você deseja definir como um status padrão.

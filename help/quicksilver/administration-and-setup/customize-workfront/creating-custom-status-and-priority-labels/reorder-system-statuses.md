@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Reordenar os status do sistema e do grupo
+title: Reordenar Status de Grupo e Nível de Sistema
 description: Como administrador do Workfront, você pode alterar a ordem dos status de projetos, tarefas e problemas para todos no sistema ou para um único grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -35,6 +35,8 @@ Como administrador do Workfront, você pode alterar a ordem dos status de projet
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 </table>
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
+
++++
 
 ## Ordem padrão dos status
 
@@ -78,7 +82,7 @@ Por padrão, os status são exibidos na seguinte ordem:
      <li> Em Espera </li> 
      <li> Em Planejamento </li> 
      <li> Completo </li> 
-     <li> Solicitado(a) </li> 
+     <li> Solicitado </li> 
      <li> Aprovado </li> 
      <li> Rejeitado </li> 
      <li> Ideia </li> 
@@ -108,7 +112,7 @@ Por padrão, os status são exibidos na seguinte ordem:
 
 ## Reordenar status para tarefas e projetos em todo o sistema ou para um grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Preferências do projeto > Status**.
 1. (Condicional) Se estiver reorganizando os status de um grupo, comece digitando o nome do grupo na caixa no canto superior direito e, em seguida, clique no nome quando ele for exibido.

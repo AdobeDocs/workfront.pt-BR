@@ -6,9 +6,9 @@ description: No painel [!UICONTROL painéis], é possível criar um novo painel 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
       >[!NOTE]
       >
-      >O limite de placas para placas dinâmicas é de 700 tarefas e 700 problemas, para um total de 1.400 placas. O alto número de placas na placa pode afetar o desempenho da placa.
+      >O limite de placas para placas dinâmicas é de 700 tarefas e 700 problemas, para um total de 1.400 placas. O alto número de placas na placa pode afetar o desempenho da placa. Todos os cartões arquivados, ocultos e visíveis, contam dentro desse limite.
 
    1. (Opcional) Selecione [!UICONTROL **Não arquivar cartões concluídos**] para trazer tarefas concluídas e problemas para o quadro como cartões visíveis na coluna Concluído. Quando essa opção não está selecionada, os cartões concluídos no momento da criação do quadro são trazidos para o quadro como cartões arquivados.
 

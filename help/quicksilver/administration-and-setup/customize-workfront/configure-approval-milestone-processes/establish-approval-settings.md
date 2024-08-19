@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Como administrador do Adobe Workfront, você pode determinar as configurações globais para processos de aprovação no Workfront. Essas configurações afetam todos os processos de aprovação de item de trabalho no sistema.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 1%
+source-wordcount: '897'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 Como administrador do Adobe Workfront, você pode determinar as configurações globais para processos de aprovação no Workfront. Essas configurações afetam todos os processos de aprovação de item de trabalho no sistema.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -44,10 +46,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Definir configurações de aprovação global
 
-1. Faça logon no Workfront como administrador do Workfront.
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Processos** > **Aprovações**.
 

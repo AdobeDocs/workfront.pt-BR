@@ -1,13 +1,13 @@
 ---
 title: Criar e personalizar prioridades
 description: Você pode controlar as prioridades de projetos, tarefas e problemas na área Configuração do Workfront. As prioridades dão importância aos seus projetos, tarefas ou problemas no Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Você pode controlar as prioridades de projetos, tarefas e problemas na área Configuração do Workfront. As prioridades dão importância aos seus projetos, tarefas ou problemas no Adobe Workfront.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -42,6 +44,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalização de prioridades existentes
 
@@ -87,7 +91,7 @@ As prioridades fornecidas por padrão para cada tipo de objeto (projeto, tarefa 
 
 Além das prioridades padrão fornecidas no Workfront, você pode adicionar suas próprias prioridades para refletir as necessidades de sua organização.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Preferências do projeto** > **Prioridades**.
 

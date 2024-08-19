@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '955'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Você pode adicionar um status personalizado para ser usado por toda a organiza�
 
 Ao criar um status personalizado para toda a organização, você pode configurá-lo para que todos os grupos no sistema possam usá-lo sem editá-lo. Ou você pode configurá-lo para que os administradores de grupos possam modificá-lo para seus grupos, conforme explicado em [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Preferências do projeto** > **Status**.
 

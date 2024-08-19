@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Listar objetos com um processo de aprovação pendente usando um determinado status
 description: Se você tentar excluir um status, uma mensagem de erro poderá informar que ele não pode ser excluído porque está sendo usado em processos de aprovação pendentes em objetos do sistema. Se você quiser localizar e revisar esses objetos para decidir o que precisa fazer, poderá executar um relatório que os liste.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Se você tentar excluir um status, uma mensagem de erro poderá informar que ele
 
 ## No modo Padrão
 
-1. Vá para a área **Relatórios** na Barra de Navegação Global e selecione a guia **Relatórios**.
-1. Clique no ícone Menu Principal ![](assets/main-menu-icon.png) no canto superior direito e em **Relatórios**.
+{{step1-to-reports}}
+
 1. Clique em **Novo Relatório** e selecione **Relatório do Projeto**, **Relatório de Tarefas** ou **Relatório de Problemas**.
 1. Abra a guia **Filtros**.
 1. Clique em **Adicionar uma Regra de Filtro** e faça o seguinte para configurar a regra:
@@ -42,7 +42,8 @@ Se você tentar excluir um status, uma mensagem de erro poderá informar que ele
 
 ## No modo de texto
 
-1. Clique no ícone Menu Principal ![](assets/main-menu-icon.png) no canto superior direito e em **Relatórios**.
+{{step1-to-reports}}
+
 1. Clique em **Novo Relatório** e selecione **Relatório do Projeto**, **Relatório de Tarefas** ou **Relatório de Problemas**.
 1. Abra a guia **Filtros**.
 1. Selecione **Alternar para Modo de Texto**.

@@ -1,21 +1,21 @@
 ---
-title: Criar ou personalizar severidades de problema
+title: Criar ou personalizar severidades de problemas
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Seus usuários podem usar severidades para definir a gravidade de um problema. Você pode personalizar qualquer uma das cinco severidades padrão existentes no Adobe Workfront ou criar uma nova severidade para seus usuários.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 4%
+source-wordcount: '588'
+ht-degree: 5%
 
 ---
 
-# Criar ou personalizar severidades de problema
+# Criar ou personalizar a gravidade de problemas
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -30,6 +30,8 @@ Seus usuários podem usar severidades para definir a gravidade de um problema. V
 >Tarefas e projetos não têm severidade.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -51,6 +53,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Severidades de problema embutidas
 
@@ -85,7 +89,7 @@ O Workfront tem cinco severidades de problema integradas:
 
 Como administrador do Workfront, você pode criar e editar severidades de problemas para atender às necessidades dos usuários.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Preferências do projeto** > **Severidades**.
 
