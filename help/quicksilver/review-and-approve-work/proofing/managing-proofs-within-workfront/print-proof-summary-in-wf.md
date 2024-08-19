@@ -6,9 +6,9 @@ description: Você pode imprimir um resumo de prova, salvá-lo como um PDF ou ex
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 >[!NOTE]
 >
->Não é possível imprimir vários resumos de prova da lista de documentos ao mesmo tempo.
+>* Resumos maiores que 1 GB não são compatíveis.
+>* Não é possível imprimir vários resumos de prova da lista de documentos ao mesmo tempo.
 
 1. Na lista de documentos que contém a prova, passe o mouse sobre a linha que contém o documento e clique em **Imprimir Resumo**.
 
