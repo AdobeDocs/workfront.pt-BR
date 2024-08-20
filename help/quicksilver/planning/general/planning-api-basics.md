@@ -1,16 +1,16 @@
 ---
-title: "Noções básicas sobre a API do Adobe Workfront Planning"
+title: Noções básicas sobre a API do Adobe Workfront Planning
 description: O objetivo da API de planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP. Este documento supõe que você esteja familiarizado com as respostas REST e JSON e descreve a abordagem adotada pela API de Planejamento.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
 
 ---
-
 
 # Noções básicas sobre a API do Adobe Workfront Planning
 
@@ -98,13 +98,13 @@ O Workfront Planning suporta os seguintes modificadores de pesquisa:
         <td>$greaterThanOrEqual </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
         <td>Retorna registros cujo valor de campo é maior ou igual ao filtro  </td>
-        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
         <td>$lessThan </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>Retorna registros cujo valor de campo é menor que o filtro  </td>
-        <td><ul><li>5</li><li>9</li><ul> </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
     </tr>
     <tr>
         <td>$lessThanOrEqual </td>
@@ -355,6 +355,3 @@ Corpo da solicitação:
 Para garantir que seus resultados sejam paginados corretamente, use um parâmetro de classificação. Isso permite que os resultados sejam retornados na mesma ordem, para que a paginação não repita ou ignore os resultados.
 
 Para obter mais informações sobre classificação, consulte [Classificar resultados da consulta na API](#sorting-query-results-in-the-api) neste artigo.
-
-
-
