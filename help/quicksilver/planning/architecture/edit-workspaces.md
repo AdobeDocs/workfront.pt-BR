@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -91,28 +91,20 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 {{step1-to-planning}}
 
-1. (Condicional) Se você for um administrador do Workfront, clique em **Meus espaços de trabalho** para acessar os espaços de trabalho que você criou ou em **Outros espaços de trabalho** para acessar os espaços de trabalho que outras pessoas compartilharam com você. <!--replace My workspaces with **Workspaces I'm on**-->
+1. (Condicional) Se você for um administrador do Workfront, clique em **Espaços de trabalho em que estou** para acessar os espaços de trabalho que você criou ou em **Outros espaços de trabalho** para acessar os espaços de trabalho que outras pessoas compartilharam com você.
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To edit a workspace, do one of the following:
+1. (Opcional) Clique em **Mostrar tudo** para exibir espaços de trabalho adicionais. O link **Mostrar tudo** é exibido somente quando há mais de duas linhas de cartões de espaço de trabalho.
+1. (Opcional) Clique em K **Mostrar menos** para limitar o número de espaços de trabalho exibidos na tela.
+1. Para editar um espaço de trabalho, siga um destes procedimentos:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Edit**.
+   * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![](assets/more-menu.png), no canto superior direito do cartão
+Ou
+   * Clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e no menu **Mais** ![](assets/more-menu.png) à direita do nome do espaço de trabalho.
+1. Clique em **Editar**.
 
-   ![](assets/edit-workspace-box.png)
-   -->
-
-1. Clique em um cartão do espaço de trabalho para abri-lo.
-
-   A página do espaço de trabalho é aberta.
-
-1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione **Enter**.
-1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do espaço de trabalho no cabeçalho e clique em **Editar**.
+   A caixa **Editar espaço de trabalho** é exibida.
 
    ![](assets/edit-workspace-box.png)
 

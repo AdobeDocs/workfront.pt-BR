@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '628'
+ht-degree: 1%
 
 ---
 
@@ -35,8 +35,6 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
 ## Requisitos de acesso
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
-
-<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -79,7 +77,8 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
    <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
+   <p>Somente administradores do sistema podem habilitar tipos de registro para se conectar de outros espaços de trabalho</p>
 </td>
   </tr>
 <tr>
@@ -115,60 +114,34 @@ Ou
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-   <!--replace everything below with the commented out text below-->
+1. Na caixa **Editar tipo de registro**, a guia **Aparência** é aberta por padrão.
 
-1. Na caixa **Editar tipo de registro**, atualize as seguintes informações:
+   ![](assets/edit-record-type-box-appearance-tab.png)
 
-   * Edite o nome do tipo de registro, se necessário. <!--did they add a field label for this? -->
+   Atualize as seguintes informações na guia **Aparência**:
+
+   * Edite o nome do tipo de registro, se necessário. <!--did they add a field label for this?-->
    * **Descrição**: edite ou adicione uma descrição para o tipo de registro com mais informações sobre ele.
    * Editar a cor e a forma do ícone associado ao tipo de registro. Faça o seguinte:
-      * Selecione uma cor para identificar o tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
+      * Selecione uma cor para identificar o tipo de registro. Esta é a cor do ícone do tipo de registro.
       * Selecione um ícone na lista ou comece a digitar o nome de um ícone para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
 
-     ![](assets/update-record-type-box.png)
-
-1. Clique em **Salvar**.
-1. (Opcional) Clique no cartão de tipo de registro na área do espaço de trabalho para abrir a página do tipo de registro.
-1. Clique no menu **Mais** à direita do nome do tipo de registro e clique em **Editar** para atualizar as informações sobre o tipo de registro.
-
-   >[!TIP]
-   >
-   >   É possível renomear o tipo de registro no cabeçalho.
-
-   ![](assets/more-menu-options-from-record-type-page.png)
-
-   <!--check this screen shot - not sure this is valid ???-->
-
-1. (Opcional) Para editar outro tipo de registro, expanda a seta apontando para baixo à direita de um nome de tipo de registro, procure um tipo de registro e selecione-o quando ele for exibido na lista.
-
-<!--*******************For GA - replace the above with this:
-
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
-
-    * Edit the record type name, if needed. (*****did they add a field label for this?******)
-    * **Description**: Edit or add a description for the record type with more information about it. 
-    * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
-
-        ![](assets/update-record-type-box.png)
-
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
-
-   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+1. (Condicional) Se você for um administrador do sistema, clique na guia **Configurações avançadas** na caixa **Editar tipo de registro**.
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+1. (Condicional) Como administrador do sistema, atualize as seguintes informações na guia **Configurações avançadas**:
 
+   * **Conectar de outros espaços de trabalho**: selecione esta opção para permitir que os usuários se conectem a este tipo de registro de outros espaços de trabalho. Essa opção é desmarcada por padrão.
+   * **Nível do sistema**: selecione esta opção para permitir que os usuários se conectem a este registro de todos os espaços de trabalho do sistema.
+   * **Espaços de trabalho específicos**: selecione esta opção para restringir os espaços de trabalho dos quais os usuários podem se conectar a este tipo de registro, expanda o menu suspenso e selecione os espaços de trabalho dos quais deseja que os usuários se conectem a este tipo de registro. Você pode começar a digitar o nome de um espaço de trabalho e selecioná-lo quando ele for exibido na lista.
 
-1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+1. Clique em **Salvar**.
 
-1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+   O cartão de tipo de registro no espaço de trabalho exibe um ícone de conectividade ![](assets/connect-from-other-workspaces-icon.png) no canto superior direito para indicar que o registro agora pode ser acessado de outros espaços de trabalho.
+
+1. (Opcional) Clique no cartão de tipo de registro na área do espaço de trabalho para abrir a página do tipo de registro e, em seguida, renomeie o tipo de registro no cabeçalho.
+
+1. (Opcional) Para editar outro tipo de registro, na página Tipo de registro, expanda a seta apontando para baixo à direita do nome de um tipo de registro, procure um tipo de registro e selecione-o quando ele for exibido na lista.
 
    ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
-
-   -->

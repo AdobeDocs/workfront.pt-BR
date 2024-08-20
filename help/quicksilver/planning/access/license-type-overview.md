@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 Somente usuários com uma licença Padrão (ou Plano) podem ter permissões do Contribute ou Manage para espaços de trabalho. Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho compartilhados com eles.
 
 Os administradores do sistema podem exibir todos os espaços de trabalho no sistema, mesmo aqueles que não criaram.
+
+Há limitações para quantos objetos do Workfront Planning você pode ter. Para obter informações, consulte [visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 >[!INFO]
 >
@@ -115,19 +117,6 @@ Only users with a Standard license can have Manage permissions to views. Users w
 >There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
 >
 >![](assets/permissions-grayed-out-for-light-user.png)-->
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

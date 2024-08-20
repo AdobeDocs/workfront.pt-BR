@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,10 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
    * Um espaço de trabalho vazio chamado **Workspace sem título**, no qual você pode começar a adicionar tipos de registro manualmente ao criar um espaço de trabalho do zero.
    * Um espaço de trabalho nomeado com base no modelo selecionado que é preenchido com tipos de registro de amostra. É possível personalizar ainda mais os tipos de registro e o espaço de trabalho.
 
-   Para administradores do Workfront, o novo espaço de trabalho é exibido na guia **Meus espaços de trabalho**. <!--replace this with: **Workspaces I'm on** tab-->
+   Para administradores do Workfront, o novo espaço de trabalho é exibido na guia **Espaços de trabalho em que estou**.
+
+   Para todos os outros usuários que podem criar espaços de trabalho, o novo espaço de trabalho é exibido na área **Espaços de Trabalho**.
+
 1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione Enter.
 
 1. (Opcional e condicional) Se você criou o espaço de trabalho a partir de um modelo, clique dentro do nome das **seções Tipos de Registro Operacionais** ou **Taxonomias**

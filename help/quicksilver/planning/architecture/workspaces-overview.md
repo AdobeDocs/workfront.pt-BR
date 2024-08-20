@@ -4,9 +4,9 @@ description: Um espaço de trabalho é uma coleção de tipos de registro usados
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ Um espaço de trabalho é uma coleção de tipos de registro usados por uma unid
 
    * Para administradores do sistema, os espaços de trabalho são exibidos nas seguintes guias:
 
-      * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou. <!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema, incluindo aqueles compartilhados com você. <!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **Espaços de trabalho em que estou**: exibe os espaços de trabalho que você criou ou os espaços de trabalho que são compartilhados com você.
+      * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema.
 
    * Para todos os outros usuários, os espaços de trabalho que eles criaram e os espaços de trabalho que outros compartilharam com eles são exibidos na área Espaços de trabalho.
 
@@ -55,6 +55,7 @@ Um espaço de trabalho é uma coleção de tipos de registro usados por uma unid
   Os administradores do sistema podem gerenciar todos os espaços de trabalho, mesmo aqueles que não criaram.
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * Há limites para a quantidade de objetos do espaço de trabalho que você pode criar na instância do Workfront Planning. Para obter informações, consulte [visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Os artigos nas seções a seguir descrevem como configurar os espaços de trabal
 * [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
 * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
+* [Visão geral dos tipos de registro conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Exemplo de conexão de tipos de registro e registros](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
 * [Excluir espaços de trabalho](/help/quicksilver/planning/architecture/delete-workspaces.md)

@@ -4,10 +4,10 @@ description: Uma maneira de indicar como os tipos de registro individuais se rel
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 1%
+source-wordcount: '818'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,18 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
 
 ## Considerações sobre a conexão de tipos de registro
 
+Há duas etapas para conexões no Workfront Planning:
+
+1. Primeiro, você deve estabelecer uma conexão entre dois tipos de registro ou um tipo de registro e um tipo de objeto de outro aplicativo. Para obter informações sobre como você pode conectar tipos de registro, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+1. Em segundo lugar, você pode conectar registros individuais de um tipo com registros de outro tipo depois que os dois tipos de registros estiverem conectados. Para obter informações sobre como conectar registros, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+Considere o seguinte sobre a conexão de tipos de registro:
+
 * Você pode conectar as seguintes entidades no Adobe Workfront Planning:
 
    * Dois tipos de registro.
 
-     Por padrão, você pode conectar dois tipos de registro do mesmo espaço de trabalho. Você também pode configurar tipos de registro para se conectar com tipos de registro de outros espaços de trabalho.
+     Por padrão, você pode conectar dois tipos de registro do mesmo espaço de trabalho. Você também pode configurar tipos de registro para se conectar com tipos de registro de outros espaços de trabalho. Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
    * Um tipo de registro e um tipo de objeto de outro aplicativo.
 
 * Você pode conectar tipos de registro do Workfront Planning com os seguintes tipos de objeto dos seguintes aplicativos:
@@ -82,73 +89,79 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
 
      >[!IMPORTANT]
      >
-     >Todos os usuários com permissões de Exibição ou superiores ao espaço de trabalho podem exibir as informações nos campos de pesquisa, independentemente de suas permissões ou nível de acesso no aplicativo dos tipos de objeto vinculados <!--or their permissions in other workspaces-->.
+     >Todos os usuários com permissões de Exibição ou superiores para o espaço de trabalho podem exibir as informações nos campos de pesquisa, independentemente de suas permissões ou nível de acesso na aplicação dos tipos de objeto vinculados ou suas permissões em outros espaços de trabalho.
 
-<!--see the commented out text above for the release of cross-workspace connections-->
+     Os campos de registro vinculados são precedidos por um ícone de relação ![](assets/relationship-field-icon.png).
 
-* Os campos de registro vinculados são precedidos por um ícone de relação ![](assets/relationship-field-icon.png).
+     Os campos vinculados são precedidos por um ícone que identifica o tipo de campo. Por exemplo, campos vinculados (ou de pesquisa) são precedidos por ícones que indicam que um campo é um número, um parágrafo ou uma data.
 
-  Os campos vinculados são precedidos por um ícone que identifica o tipo de campo. Por exemplo, campos vinculados (ou de pesquisa) são precedidos por ícones que indicam que um campo é um número, um parágrafo ou uma data.
+<!--## Connection types
 
+After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
-## Tipos de conexão
+Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
 
-Depois de estabelecer uma conexão entre dois tipos de registro ou entre um registro e um tipo de objeto de outro aplicativo, você pode adicionar registros nos campos de registro conectado.
-
-Dependendo de quantos registros você pode adicionar a um campo de registro conectado, os seguintes tipos de conexão que você pode escolher ao conectar tipos de registro:
-
-* [Um para muitos](#one-to-many-connection-type)
-* [Um para um](#many-to-one-connection-type)
-* [Muitos para um](#many-to-one-connection-type)
-* [Muitos para muitos](#many-to-many-connection-type)
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->Essas opções não estão disponíveis ao conectar o seguinte:
->* Dois registros de espaços de trabalho diferentes
+>These options are not available when connecting the following: 
+>* Two records from different workspaces
 >
->* Um tipo de registro e ativos AEM
+>* A record type and AEM assets
 
-
-<!-- add screen shots for each type of connection below-->
-
-### Tipo de conexão um para muitos
-
-![](assets/one-to-many-connection-picker.png)
-
-Ao selecionar o tipo de conexão um para muitos entre os tipos de registro, você pode conectar um registro com vários registros aos quais está se conectando.
-
-Por exemplo, se você conectar campanhas a projetos, será possível conectar uma campanha a vários projetos. Mas um projeto pode ser conectado somente a uma campanha.
-
-Ao selecionar esse tipo de conexão, você poderá alterá-lo posteriormente somente para um tipo de conexão muitos para muitos.
-
-### Tipo de conexão um para um
-
-![](assets/one-to-one-connection-picker.png)
-
-Ao selecionar o tipo de conexão um para um entre os tipos de registro, você pode conectar um registro a outro registro ao qual está se conectando posteriormente.
-
-Por exemplo, se você conectar campanhas a projetos, será possível conectar uma campanha a um projeto. Um projeto pode ser conectado somente a uma campanha.
-
-Ao selecionar esse tipo de conexão, você pode alterá-lo posteriormente para qualquer outro tipo.
-
-### Tipo de conexão muitos para um
-
-![](assets/many-to-one-connection-picker.png)
-
-Ao selecionar o tipo de conexão muitos para um entre os tipos de registro, você pode conectar muitos registros posteriormente com apenas um registro ao qual está se conectando.
-
-Por exemplo, se você conectar campanhas a projetos, será possível conectar várias campanhas a um único projeto. Um projeto pode ser conectado a várias campanhas.
-
-Ao selecionar esse tipo de conexão, você poderá alterá-lo posteriormente somente para um tipo de conexão muitos para muitos.
-
-### Tipo de conexão muitos para muitos
+### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-Ao selecionar o tipo de conexão muitos para muitos entre os tipos de registro, você pode conectar muitos registros com vários registros aos quais está se conectando.
+When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
 
-Por exemplo, se você conectar campanhas a projetos, será possível conectar várias campanhas a vários projetos. Você também pode conectar vários projetos a várias campanhas.
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
 
-Ao selecionar esse tipo de conexão, você não pode alterar o tipo de conexão depois de salvá-lo.
+A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+
+When you select this connection type, you cannot change the connection type after you save it. 
+
+### One-to-many connection type
+
+![](assets/one-to-many-connection-picker.png)
+
+When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+
+A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type. 
+ 
+### Many-to-one connection type
+
+![](assets/many-to-one-connection-picker.png)
+
+When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+
+A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type.
+
+### One-to-one connection type
+
+![](assets/one-to-one-connection-picker.png)
+
+When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+
+A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+
+When you select this connection type, you can later change it to any other connection type. 
+
+-->
+
+
 
