@@ -7,14 +7,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # Visão geral dos tipos de relatório do Painel de controle do Canvas
+
+>[!IMPORTANT]
+>
+>Esta página descreve a funcionalidade que só está disponível para usuários inscritos na versão beta fechada dos Painéis do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
 
 Há vários relatórios diferentes que você pode adicionar a um Painel de controle do Canvas que visualizam seus dados do Workfront de maneiras diferentes. Os seguintes tipos de relatórios podem ser adicionados a um Painel de controle do Canvas:
 

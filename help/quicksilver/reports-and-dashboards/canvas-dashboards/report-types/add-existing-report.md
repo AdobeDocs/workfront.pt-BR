@@ -6,14 +6,18 @@ description: Os relatórios criados por meio da ferramenta Relatórios do Adobe 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # Adicionar um relatório existente a um painel da tela
+
+>[!IMPORTANT]
+>
+>Esta página descreve a funcionalidade que só está disponível para usuários inscritos na versão beta fechada dos Painéis do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
 
 Os relatórios criados por meio da ferramenta Relatórios do Adobe Workfront podem ser adicionados a um Painel de controle da tela. Para obter mais informações sobre como criar relatórios, consulte [Introdução aos relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 

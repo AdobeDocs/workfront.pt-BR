@@ -6,14 +6,18 @@ description: Depois de criar um Painel de controle do Canvas, você pode adicion
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
 # Adicionar, remover ou organizar relatórios em um Painel da tela de desenho
+
+>[!IMPORTANT]
+>
+>Esta página descreve a funcionalidade que só está disponível para usuários inscritos na versão beta fechada dos Painéis do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
 
 Depois de criar um Painel de controle do Canvas, você pode adicionar relatórios que exibirão os dados do Adobe Workfront em vários formatos. Esses relatórios podem ser movidos e redimensionados na tela conforme você desejar. Para obter informações sobre como criar um Painel da Tela de Pintura, consulte [Introdução aos Painéis da Tela de Pintura](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

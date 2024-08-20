@@ -6,14 +6,18 @@ description: Você pode compartilhar um Painel da tela com outros usuários do A
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Compartilhar um painel da tela
+
+>[!IMPORTANT]
+>
+>Esta página descreve a funcionalidade que só está disponível para usuários inscritos na versão beta fechada dos Painéis do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
 
 Você pode compartilhar um Painel da tela com outros usuários do Adobe Workfront para que eles possam visualizá-lo ou editá-lo.
 

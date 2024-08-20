@@ -6,14 +6,18 @@ description: Um relatório de gráfico que visualiza seus dados como um gráfico
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # Criar um relatório de gráfico em um painel da tela
+
+>[!IMPORTANT]
+>
+>Esta página descreve a funcionalidade que só está disponível para usuários inscritos na versão beta fechada dos Painéis do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
 
 Um relatório de gráfico que visualiza seus dados como um gráfico de barras, colunas, linhas ou de pizza pode ser adicionado a um Painel da Tela de Pintura.
 

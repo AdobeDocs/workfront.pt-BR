@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ Painéis de tela é um recurso atualmente em desenvolvimento que permite visuali
 Para obter informações básicas sobre como usar os Painéis do Canvas, consulte [Introdução aos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 Para obter uma lista de toda a documentação dos Painéis da Tela de Pintura, consulte [Visão geral dos Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Agendamento do Beta:**
+**Status do Beta**
 
-* Data de início da versão beta fechada - TBA
-* Abrir data de início da versão beta - TBA
-* Data de lançamento planejada - TBA
+Os Painéis do Canvas estão atualmente em uma fase de teste beta fechada e, portanto, só está disponível por convite para clientes específicos.
 
 ## Participe da versão beta
 

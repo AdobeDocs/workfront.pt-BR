@@ -6,14 +6,18 @@ description: Um relatório de tabela que exibe seus dados como uma tabela config
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # Criar um relatório de tabela em um painel da tela
+
+>[!IMPORTANT]
+>
+>Esta página descreve a funcionalidade que só está disponível para usuários inscritos na versão beta fechada dos Painéis do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
 
 Um relatório de tabela que exibe seus dados como uma tabela configurável pode ser adicionado a um Painel da tela.
 
