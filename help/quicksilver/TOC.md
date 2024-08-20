@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
 workflow-type: tm+mt
-source-wordcount: '14334'
+source-wordcount: '14337'
 ht-degree: 2%
 
 ---
@@ -406,13 +406,13 @@ ht-degree: 2%
             * [Webinários de versão R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * Comunicados {#announcements}
       * [Anúncios](product-announcements/announcements/announcements.md)
-      * [Aprimoramentos de formulários personalizados](product-announcements/announcements/custom-form-enhancements.md)
       * [A programação de recursos não é mais suportada](product-announcements/announcements/feature-removal-timeline.md)
       * [Perguntas frequentes sobre a Janela de manutenção](product-announcements/announcements/maintenance-window-faq.md)
       * [Alteração necessária para adicionar provas ao seu arquivo de inclui na lista de permissões](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Cancelar inscrição nas mensagens do Centro de notificações na nova experiência do Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Arquivo morto de notificações {#announcement-archive}
          * [Arquivo de avisos](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [Aprimoramentos de formulários personalizados](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [Atualização do aplicativo móvel para iOS e Android (início de agosto de 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [TLS 1.2 necessário no Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [O Suplemento Outlook 365 Está Disponível](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
@@ -895,6 +895,7 @@ ht-degree: 2%
          * [Usar a área Minhas atualizações](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Assistente de IA {#ai-assistant}
       * [Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Resumir usando o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Obter ajuda do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [Revisar fórmulas de campo calculado com o Assistente do AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
