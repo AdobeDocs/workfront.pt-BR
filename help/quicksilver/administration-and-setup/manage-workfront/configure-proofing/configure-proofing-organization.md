@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Como administrador do Adobe Workfront ou administrador do Workfront Proof, você pode personalizar as configurações de prova padrão para sua organização. Essas configurações incluem opções de compartilhamento padrão, identidade visual e muito mais.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -44,6 +46,8 @@ Você deve ter o seguinte:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Configurar ações
 
 Para obter informações sobre como usar ações no visualizador de provas, consulte [Usar ações em comentários de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
@@ -56,7 +60,7 @@ Você pode configurar ações para sua organização das seguintes maneiras:
 
 ### Adicionar ou renomear uma ação {#add-or-rename-an-action}
 
-1. No Workfront, clique no Menu Principal ![](assets/main-menu-icon.png) e, em seguida, clique em Revisão ![](assets/proofing-in-main-menu.png) para acessar o Workfront Proof.
+{{step1-to-proofing}}
 
 1. Clique em **Configurações** > **Configurações da conta** no canto superior direito da interface do Workfront Proof e clique na guia **Configurações**.
 
@@ -73,7 +77,7 @@ Você pode configurar ações para sua organização das seguintes maneiras:
 
 ### Desativar ou reativar uma ação {#deactivate-or-reactivate-an-action}
 
-1. No Workfront, clique no Menu Principal ![](assets/main-menu-icon.png) e, em seguida, clique em Revisão ![](assets/proofing-in-main-menu.png) para acessar o Workfront Proof.
+{{step1-to-proofing}}
 
 1. Clique em **Configurações** > **Configurações da conta** no canto superior direito da interface do Workfront Proof e clique na guia **Configurações**.
 
@@ -82,7 +86,7 @@ Você pode configurar ações para sua organização das seguintes maneiras:
 
 ### Reordenar ações {#reorder-actions}
 
-1. No Workfront, clique no Menu Principal ![](assets/main-menu-icon.png) e, em seguida, clique em Revisão ![](assets/proofing-in-main-menu.png) para acessar o Workfront Proof.
+{{step1-to-proofing}}
 
 1. Clique em **Configurações** > **Configurações da conta** no canto superior direito da interface do Workfront Proof e clique na guia **Configurações**.
 
@@ -98,7 +102,7 @@ Para obter informações sobre como os usuários podem selecionar dispositivos a
 
 Para adicionar um dispositivo personalizado:
 
-1. No Workfront, clique no Menu Principal ![](assets/main-menu-icon.png) e, em seguida, clique em Revisão ![](assets/proofing-in-main-menu.png) para acessar o Workfront Proof.
+{{step1-to-proofing}}
 
 1. Clique em **Configurações** > **Configurações da conta** no canto superior direito da interface do Workfront Proof e clique na guia **Configurações**.
 

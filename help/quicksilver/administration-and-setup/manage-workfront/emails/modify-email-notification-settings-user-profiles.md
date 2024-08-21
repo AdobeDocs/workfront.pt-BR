@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration
 keywords: modificar,email,notificação,configurações,em massa,edição em massa,configurar,vários,usuários
 navigation-topic: emails-administration
-title: Modificar as configurações de notificação por email de vários usuários
+title: Modificar Configurações de Notificação por Email de Vários Usuários
 description: Este artigo fornece informações para a Workfront ou administradores de grupo sobre como eles podem atualizar as notificações por email de outros usuários.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%

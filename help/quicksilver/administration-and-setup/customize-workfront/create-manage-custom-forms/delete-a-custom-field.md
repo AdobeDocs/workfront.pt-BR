@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Para melhorar o desempenho do sistema e facilitar o uso de formulários para os 
 
 >[!CAUTION]
 >
->A exclusão de um campo personalizado também exclui todos os dados personalizados inseridos pelos usuários no campo ao preencher formulários personalizados anexados a objetos. Esses dados excluídos não podem ser recuperados.
+>A exclusão de um campo personalizado também exclui todos os dados personalizados inseridos pelos usuários no campo ao preencher formulários personalizados anexados a objetos. Esses dados excluídos não podem ser recuperados. Além disso, não há um sistema de notificação para alertar as pessoas que usam o formulário personalizado de que ele foi excluído.
 >
 >É possível exibir todos os formulários e relatórios personalizados que usam um campo personalizado que você deseja excluir para avaliar quais podem ser as repercussões. Para obter mais informações, consulte [Exibir todos os formulários personalizados que usam determinado campo personalizado ou widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) e [Exibir todos os relatórios que usam determinado campo personalizado ou widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >

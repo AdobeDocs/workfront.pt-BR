@@ -2,24 +2,26 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configurar funções de prova padrão
+title: Configurar Funções de Revisão Padrão
 description: Como administrador do Adobe Workfront, você pode configurar as funções de prova padrão para usuários e usuários convidados que acessam provas criadas no Workfront. Qualquer pessoa que adicionar usuários a uma prova poderá ajustar essas funções para ela.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
+source-wordcount: '550'
+ht-degree: 2%
 
 ---
 
-# Configurar funções de prova padrão
+# Configurar funções de revisão padrão
 
 Como administrador do Adobe Workfront, você pode configurar as funções de prova padrão para usuários e usuários convidados que acessam provas criadas no Workfront. Qualquer pessoa que adicionar usuários a uma prova poderá ajustar essas funções para ela.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -44,11 +46,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
-## Configurar funções de prova padrão
++++
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+## Configurar funções de revisão padrão
 
-   <!--
+{{step-1-to-setup}}
+
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

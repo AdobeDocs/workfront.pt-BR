@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Tipos de notificação de eventos
+title: Tipos de Notificação de Eventos
 description: As notificações de eventos são emails acionados por vários tipos de eventos em objetos, como projetos, tarefas e problemas. Este artigo lista e descreve os tipos disponíveis de notificações de eventos.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 7%

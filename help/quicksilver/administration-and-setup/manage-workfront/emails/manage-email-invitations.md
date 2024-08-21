@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Para obter informações sobre como receber convites por email, consulte [Recebe
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Gerar convites por email {#generate-email-invitations}
 
 Convites por email são gerados nos seguintes cenários:
@@ -80,7 +84,8 @@ Convites por email são gerados nos seguintes cenários:
 
 Para gerar convites por email manualmente para usuários não registrados existentes:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Selecione o usuário que mostra o rótulo **Não registrado** depois de seu nome.
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ Para gerar convites por email manualmente para usuários não registrados existe
 
 Como administrador do Workfront, você pode configurar a mensagem que inclui com os convites por email para novos usuários.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Na lista à esquerda, clique em **Email** > **Convites**.
 

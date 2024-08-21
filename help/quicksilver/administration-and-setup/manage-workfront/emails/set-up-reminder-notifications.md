@@ -1,11 +1,11 @@
 ---
-title: Configurar notificações de lembrete
+title: Configurar Notificações de Lembrete
 description: As notificações de lembrete geram emails enviados aos usuários com base em critérios especificados. Notificações de lembrete lembram os usuários de uma ação que eles precisam tomar para uma tarefa, problema, projeto ou planilha de horas.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 2%

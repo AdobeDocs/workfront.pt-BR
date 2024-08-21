@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 6%
+source-wordcount: '557'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Definir novas configurações padrão de prova
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Instalação**.
+{{step-1-to-setup}}
+
 1. No painel esquerdo, clique em **Provas** > **Configurações de prova**.
 1. Na seção **Novos padrões de prova**, defina as seguintes configurações:
 
@@ -113,7 +114,8 @@ Os usuários podem usar decisões de prova para indicar o status da prova após 
 
 Para configurar decisões de prova:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Instalação**.
+{{step-1-to-setup}}
+
 1. No painel esquerdo, clique em **Provas** > **Configurações de prova**.
 1. Na seção **Decisões** você pode
 

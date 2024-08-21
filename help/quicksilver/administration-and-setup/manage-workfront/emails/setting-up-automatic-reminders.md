@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Configurar lembretes automáticos
-description: Configurar lembretes automáticos
+description: Você pode configurar lembretes automáticos para acionar notificações por email quando todas as tarefas ou problemas estiverem vencidos, atrasados ou próximos à data planejada de conclusão.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 4%
+source-wordcount: '627'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,8 @@ Um lembrete automático pode ser enviado para um ou mais dos seguintes itens:
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Configurar lembretes automáticos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Clique em **Email** >**Lembretes automáticos**.
+1. Clique em **Email** > **Lembretes automáticos**.
 
 1. Na área **Enviar uma notificação de atraso para**, selecione uma das seguintes opções:
 
@@ -85,7 +89,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
         <td>(Na área <b>Enviar lembrete de prazo final para</b>.) Selecione esta opção se quiser que o usuário atribuído a uma tarefa ou um problema receba uma notificação sobre seu item de trabalho perto da data de vencimento.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. Selecione o tempo para o lembrete automático a ser enviado, selecionando o tempo antes ou depois da data de vencimento do item de trabalho.
 

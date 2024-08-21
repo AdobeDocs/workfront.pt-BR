@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Como administrador do Adobe Workfront ou administrador do Workfront Proof, você pode configurar as contas de usuário com as quais as provas podem ser compartilhadas, se os usuários podem ver todas as versões de uma prova e o tempo em que os usuários obtêm acesso aos itens compartilhados.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -44,9 +46,11 @@ Você deve ter o seguinte:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Configurar compartilhamento com outras contas
 
-1. No Workfront, clique no Menu Principal ![](assets/main-menu-icon.png) e, em seguida, clique em Revisão ![](assets/proofing-in-main-menu.png) para acessar o Workfront Proof.
+{{step1-to-proofing}}
 
 1. Clique em **Configurações** > **Configurações de conta** e na guia **Configurações**.
 
@@ -57,7 +61,7 @@ Você deve ter o seguinte:
 
 ## Configurar a visibilidade de todas as versões de uma prova compartilhada
 
-1. No Workfront, clique no Menu Principal ![](assets/main-menu-icon.png) e, em seguida, clique em Revisão ![](assets/proofing-in-main-menu.png) para acessar o Workfront Proof.
+{{step1-to-proofing}}
 
 1. Clique em **Configurações** > **Configurações de conta** e na guia **Configurações**.
 
@@ -75,7 +79,7 @@ Você pode especificar quando as provas com um fluxo de trabalho automatizado es
 
 Para configurar quando as provas com um fluxo de trabalho automatizado ficam visíveis para os usuários:
 
-1. No Workfront, clique no Menu Principal ![](assets/main-menu-icon.png) e, em seguida, clique em Revisão ![](assets/proofing-in-main-menu.png) para acessar o Workfront Proof.
+{{step1-to-proofing}}
 
 1. Clique em **Configurações** > **Configurações de conta** e na guia **Configurações**.
 

@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;documents;setup
 navigation-topic: manage-workfront
-title: Configurar funcionalidade de prova
+title: Configurar funcionalidade de provas
 description: Você pode definir as configurações de prova para sua organização.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 62361d01-1154-4d42-aa8d-f68091c76e18
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%

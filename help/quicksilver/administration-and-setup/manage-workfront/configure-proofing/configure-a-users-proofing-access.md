@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
-title: Configurar o acesso à prova de um usuário
+title: Configurar o acesso de revisão de um usuário
 description: Como administrador do Adobe Workfront ou administrador do Workfront Proof, você pode configurar o acesso de um usuário para criar e exibir provas no Workfront e no Workfront Proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Como administrador do Adobe Workfront ou administrador do Workfront Proof, você
 Para obter informações sobre a funcionalidade de revisão de texto disponível para revisões básicas e integradas, consulte [Acesso à funcionalidade de revisão de texto no Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -46,6 +48,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Habilitar e desabilitar revisões para um usuário (somente planos herdados) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 Se sua organização estiver usando um Select ou Premium Workfront Plan herdado, como administrador do Workfront, você poderá ativar e desativar a funcionalidade de comprovação para o usuário.
@@ -63,7 +67,8 @@ Embora seja possível habilitar um usuário como usuário de comprovação, ele 
 
 O perfil de permissão selecionado é concedido aos usuários para cada prova existente em sua organização.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Selecione um ou mais usuários e clique em **Editar**.
 
 1. Na seção **Access**, clique em uma das seguintes opções de permissão de Workfront Proof no menu suspenso **Perfil de Permissão de Prova**:

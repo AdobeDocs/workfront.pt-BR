@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Instale o Visualizador de provas de desktop na sua organização
+title: Instale o Visualizador de provas de desktop para sua organização
 description: O Desktop Proofing Viewer, projetado principalmente para revisar conteúdo interativo, é um aplicativo que deve ser instalado no computador local de cada usuário. Como administrador do Adobe Workfront ou administrador do Workfront Proof, você pode executar essa instalação.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 O Desktop Proofing Viewer, projetado principalmente para revisar conteúdo interativo, é um aplicativo que deve ser instalado no computador local de cada usuário. Como administrador do Adobe Workfront ou administrador do Workfront Proof, você pode executar essa instalação.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,6 +47,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos do sistema
 

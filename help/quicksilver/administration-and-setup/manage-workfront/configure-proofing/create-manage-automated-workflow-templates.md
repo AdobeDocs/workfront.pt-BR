@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Criar e gerenciar modelos de fluxo de trabalho automatizado
+title: Criar e gerenciar modelos de fluxo de trabalho automatizados
 description: Como administrador do Adobe Workfront, se o processo de revisão de conteúdo da sua organização for repetido com frequência ou o conteúdo for revisado com frequência pelas mesmas pessoas, você poderá criar modelos de Fluxo de trabalho automatizado que contenham esses revisores com funções de prova e configurações de notificação especificadas. Um modelo de fluxo de trabalho automatizado pode ser simples com apenas um ou dois revisores ou complexo com vários estágios e dependências.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

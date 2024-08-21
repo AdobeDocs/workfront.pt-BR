@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Sincronização do usuário entre o Adobe Workfront e o Workfront Proof
+title: Sincronização de usuários entre o Adobe Workfront e o Workfront Proof
 description: As informações do usuário são sincronizadas do Adobe Workfront para o Workfront Proof; elas não são sincronizadas do Workfront Proof para o Workfront. Por esse motivo, sempre que você criar ou modificar usuários, deverá fazer essas alterações no Workfront. Não é possível fazer alterações em usuários no Workfront Proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 4c88a249-b156-45c9-a44c-32f906bfa8a2
-source-git-commit: b310e36c9eb148db631e7a3552a35dcccc652d60
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
