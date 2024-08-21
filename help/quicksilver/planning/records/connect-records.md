@@ -1,13 +1,13 @@
 ---
-title: Conectar registros
+title: Conectar Registros
 description: Depois de criar conexões entre tipos de registro, você pode conectar registros individuais uns aos outros.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 1%
 
 ---
@@ -151,11 +151,11 @@ Para conectar registros a outros registros ou objetos, você deve ter o seguinte
 
 Você pode conectar registros do Workfront Planning nas seguintes áreas:
 
-* A partir de um registro do Planning no Workfront Planning nos campos conectados na exibição de tabela.
+* De um registro do Planning no Workfront Planning nos campos de registro conectado na exibição de tabela.
 * De um registro do Planning no Workfront Planning na pré-visualização de registro ou página nos campos de registro conectados.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### Conectar registros do Adobe Workfront Planning da exibição de tabela ou da página de registro <!--Details tab of the-->
 
@@ -211,7 +211,7 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas:
    >
    >* Usamos &quot;campos vinculados&quot; e &quot;campos de pesquisa&quot; alternadamente.
    >
-   >* Se você tiver habilitado a configuração **Permitir vários registros** ao conectar os tipos de registro, os valores dos campos dos vários objetos selecionados serão exibidos separados por vírgulas ou agregados de acordo com o agregador escolhido.
+   >* Quando você opta por conectar vários registros ao conectar os tipos de registro, os valores de campo dos vários objetos são exibidos separados por vírgulas ou são agregados de acordo com o agregador escolhido.
 
 1. (Opcional) Feche a página de tipo de registro e vá para o espaço de trabalho selecionado.
 1. Clique no cartão do tipo de registro ao qual você está vinculado.
@@ -286,7 +286,7 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
    >[!TIP]
    >
-   >* Quando você ativa a configuração Permitir vários registros, os valores dos campos de pesquisa são exibidos separados por vírgulas ou agregados de acordo com o agregador escolhido.
+   >* Quando você opta por conectar vários registros ao conectar os tipos de registro, os valores dos campos de pesquisa são exibidos separados por vírgulas ou são agregados de acordo com o agregador escolhido.
    >
    >* Um campo de registro vinculado não é criado para os objetos vinculados do Workfront no Workfront.
 
@@ -360,7 +360,7 @@ Para conectar registros com ativos AEM:
 
      >[!TIP]
      >
-     >* Se você ativou a configuração Permitir vários registros, os valores dos vários objetos serão exibidos separados por vírgulas ou agregados de acordo com o agregador escolhido.
+     >* Quando você seleciona conectar vários registros ao conectar os tipos de registro, os valores dos vários objetos são exibidos separados por vírgulas ou agregados de acordo com o agregador escolhido.
      >
      >* Um campo de registro vinculado aos registros vinculados do Workfront Planning não é criado para os ativos de Experience Manager vinculados no aplicativo Experience Manager Assets.
 
@@ -408,6 +408,12 @@ Para conectar registros com ativos AEM:
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ Para obter informações sobre como criar campos personalizados no Workfront Pla
 * É possível excluir um campo somente na exibição de tabela do tipo de registro.
 * Não é possível excluir o campo principal de um registro.
 * As informações armazenadas no campo são excluídas e não podem ser recuperadas.
-* Quando você exclui um campo de registro vinculado, todos os campos de pesquisa vinculados também são excluídos do tipo de registro que você vincula. Os campos de registro vinculados dos tipos de registro vinculados não são excluídos.
+* Quando você exclui um campo de registro conectado, todos os campos de pesquisa conectados também são excluídos do tipo de registro ao qual você se conecta. Os campos de registro conectados dos tipos de registro aos quais você se conecta também são excluídos do registro ao qual você se conecta.
+
+  Por exemplo, ao conectar campanhas a outro tipo de registro chamado produto e excluir o campo conectado Produto e o campo de pesquisa Status do Produto da campanha, as seguintes opções são excluídas:
+
+   * O campo Produto conectado da campanha
+   * O campo de pesquisa Status do produto da campanha
+   * O campo conectado do Campaign do produto.
 
   Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 

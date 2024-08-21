@@ -4,10 +4,10 @@ description: O Adobe Workfront Planning tem limites para a quantidade de objetos
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 2%
 
 ---
 
@@ -31,14 +31,13 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Tamanho do arquivo que você pode colar em uma tabela do tipo record | 1 MB |
 | Tamanho do arquivo que você pode importar por meio da API para uma tabela de tipo de registro | 1,5 MB |
 | A velocidade com a qual as solicitações de API podem ser feitas | 200 solicitações por minuto |
-| Tamanho do CSV do arquivo do Excel que você pode importar* | 5 MB |
 | Número de visualizações que um usuário pode criar para um tipo de registro | 100 |
 
-<!--add to the table above: Maximum number of views created by one use 100 -->
+<!--| Size of CSV of Excel file you can import* | 5MB |-->
 
->[!IMPORTANT]
+<!--[!IMPORTANT]
 >
->*Esta funcionalidade foi temporariamente desabilitada e estará disponível em uma data posterior.
+>*This functionality has been temporarily removed and it will be available at a later date.-->
 
 <!--At GA, replace the table above with this:
 
@@ -55,9 +54,11 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
-| Size of CSV of Excel file you can import** | 5MB |
 | Number of views one user can create for one record type | 100 |
 
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
-**This functionality has been temporarily disabled and it will be available at a later date.
+
+****************KEEP THIS COMMENTED OUT:
+| Size of CSV of Excel file you can import** | 5MB |
+**This functionality has been temporarily removed and it will be available at a later date.**********************
 -->

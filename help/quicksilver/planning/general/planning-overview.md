@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 2%
@@ -61,12 +61,12 @@ A tabela a seguir ilustra os principais recursos que estarão disponíveis no Wo
 
 Para obter informações sobre novos recursos e quando eles são lançados, consulte a [atividade da versão atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
-| Recurso | Disponível agora | Disponível em breve | Em pesquisa |
+| Recurso | Disponível agora | Brevemente | Em pesquisa |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Criar espaços de trabalho | ✓ µ |                                  |                  |
 | Criar tipos de registro | ✓ µ |                                  |                  |
 | Criar campos personalizados de registro | ✓ µ |                                  |                  |
-| Importar tipos e campos de registro usando um arquivo Excel ou CSV* | ✓ µ |                                  |                  |
+| Importar tipos e campos de registro usando um arquivo Excel ou CSV |                              | ✓ µ |                  |
 | Vincular registros | ✓ µ |                                  |                  |
 | Exibir registros em uma tabela | ✓ µ |                                  |                  |
 | Exibir registros em uma linha do tempo | ✓ µ |                                  |                  |

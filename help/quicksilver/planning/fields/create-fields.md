@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3361'
 ht-degree: 2%
 
 ---
@@ -43,9 +43,9 @@ Você pode criar campos das seguintes maneiras no Workfront Planning:
 
 * Do zero
 * Conectando tipos de registro
-* Importando tipos de registro usando um arquivo Excel ou CSV
 * Criando um tipo de registro
 * Criando um espaço de trabalho a partir de um modelo
+  <!--* By importing record types using an Excel or CSV file-->
 
 Para obter mais informações sobre campos do Workfront Planning, consulte [Visão geral do campo](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -401,7 +401,13 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -545,9 +551,9 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
 
 Para obter informações sobre como conectar tipos de registro do Workfront Planning, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-## Criar campos importando tipos de registro usando um arquivo Excel ou CSV
+<!--## Create fields by importing record types using an Excel or CSV file
 
-Para obter mais informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## Criar campos criando um tipo de registro
 
