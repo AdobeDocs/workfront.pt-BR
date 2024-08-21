@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-groups
 title: Mover um grupo
 description: Você pode mover um grupo para outro grupo gerenciado.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Você pode mover um grupo para outro grupo gerenciado.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -40,6 +42,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Mover um grupo para outro grupo
 
 >[!NOTE]
@@ -50,7 +54,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 >
 >Para obter mais informações sobre status de grupo, consulte [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) e [Criar ou editar um status de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

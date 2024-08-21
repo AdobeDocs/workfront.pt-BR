@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Criar, modificar e exibir os programas de um grupo
+title: Criar, Modificar e Exibir os Programas de um Grupo
 description: Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com seus programas.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e traba
 Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -46,9 +48,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Exibir, trabalhar com e criar programas para seu grupo na área Grupos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

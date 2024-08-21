@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Cenário de início — preparação de importação de projetos e tarefas simples
+title: "Cenário de início: preparação simples de importação de projetos e tarefas"
 description: Descreve em detalhes as configurações e os controles disponíveis para uma Importação básica de projeto e tarefa usando o método Kick Start.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1475'
 ht-degree: 9%
 
 ---
 
 # Cenário de início: preparação de importação de projetos e tarefas simples
 
-Descreve em detalhes as configurações e os controles disponíveis para uma Importação básica de projeto e tarefa usando o método Kick Start.
+Descreve em detalhes as configurações e os controles disponíveis para uma Importação básica de projeto e tarefa usando o método Kick-Start.
 
 ## Cenário
 
-A equipe de implementação preferiria importar informações de projetos e tarefas para projetos ativos em vez de inserir manualmente esses dados no sistema.
+A equipe de implementação preferiria importar as informações do projeto e da tarefa para projetos ativos, em vez de inserir manualmente esses dados no sistema.
 
 * [Projetos](#projects)
 * [Lista de tarefas](#task-list)

@@ -4,14 +4,14 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Excluir um grupo
 description: Você pode excluir um grupo que gerencia. Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 3%
+source-wordcount: '316'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ Você pode excluir um grupo que gerencia. Se houver algum grupo acima do grupo g
 Para obter informações sobre como excluir um subgrupo, consulte [Gerenciar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -42,9 +44,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Excluir um grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

@@ -2,23 +2,25 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Configurar efeito em horas em que um objeto é excluído e restaurado
+title: Configurar o efeito em horas quando um objeto é excluído e restaurado
 description: Você pode configurar o que acontece com as horas quando alguém exclui um projeto, tarefa ou problema no qual as horas são registradas. A opção escolhida também determina o que acontece com as horas se o projeto, tarefa ou problema for restaurado posteriormente. (Para obter mais informações sobre como restaurar itens no Workfront, consulte Restaurar itens excluídos.)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# Configurar efeito em horas em que um objeto é excluído e restaurado
+# Configurar efeito em horas quando um objeto é excluído e restaurado
 
 Você pode configurar o que acontece com as horas quando alguém exclui um projeto, tarefa ou problema no qual as horas são registradas. A opção escolhida também determina o que acontece com as horas se o projeto, tarefa ou problema for restaurado posteriormente. (Para obter mais informações sobre como restaurar itens no Workfront, consulte [Restaurar itens excluídos](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -41,9 +43,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Configure como as horas são gerenciadas quando um item é excluído e restaurado
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Expanda **Folhas de horas e horas** e clique em **Preferências**.
 

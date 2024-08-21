@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Exibir e gerenciar membros do subgrupo
+title: Exibir e Gerenciar Membros do Subgrupo
 description: Ao visualizar um grupo gerenciado por você, é possível visualizar e gerenciar todos os usuários nos subgrupos do grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Ao visualizar um grupo gerenciado por você, é possível visualizar e gerenciar
 Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -46,9 +48,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Exibir e gerenciar membros dos subgrupos de um grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Grupos**.
 

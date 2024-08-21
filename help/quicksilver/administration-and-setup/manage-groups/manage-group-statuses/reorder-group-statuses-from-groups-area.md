@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Reordenar status do grupo
 description: Como administrador de grupo, você pode alterar a ordem dos status de projetos, tarefas e problemas de um grupo que gerencia.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -38,6 +38,8 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 </table>
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
+
++++
 
 ## Ordem padrão dos status
 
@@ -80,7 +84,7 @@ Por padrão, os status são exibidos na seguinte ordem:
      <p> Em Espera </p> 
      <p> Em Planejamento </p> 
      <p> Completo </p> 
-     <p> Solicitado(a) </p> 
+     <p> Solicitado </p> 
      <p> Aprovado </p> 
      <p> Rejeitado </p> 
      <p> Ideia </p> 
@@ -108,7 +112,7 @@ Por padrão, os status são exibidos na seguinte ordem:
 
 ## Reordenar status de tarefas e projetos em um grupo gerenciado por você
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** e, em seguida, clique no nome do grupo.
 1. No painel esquerdo, clique em **Status**.
@@ -122,7 +126,7 @@ Por padrão, os status são exibidos na seguinte ordem:
 
 ## Reordenar status de ocorrências
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** e, em seguida, clique no nome do grupo.
 1. No painel esquerdo, clique em **Status**.

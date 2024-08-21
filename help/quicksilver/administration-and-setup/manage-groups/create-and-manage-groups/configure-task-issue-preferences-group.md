@@ -5,13 +5,13 @@ product-area: system-administration;user-management;setup
 keywords: grupo,preferências,tarefa,problema,desbloquear
 navigation-topic: create-and-manage-groups
 description: Se os grupos em sua organização precisarem configurar uma preferência de tarefa ou problema independentemente da forma como é configurada no nível do sistema, um administrador do Adobe Workfront poderá desbloquear a preferência. Em seguida, como administrador de grupo, você pode configurar a preferência para seu grupo e ela afetará todas as tarefas ou problemas associados ao seu grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1891'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,8 @@ Para obter informações sobre como o administrador do Workfront desbloqueia pre
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -58,13 +60,15 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Configurar preferências de tarefas e problemas desbloqueadas para um grupo de nível superior
 
 >[!TIP]
 >
 >Se você for um administrador do Workfront, ignore as etapas 1 a 4. Para isso, acesse Configurar > Preferências do projeto > Tarefas e problemas e, em seguida, procure o nome do grupo na caixa na parte superior da página.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

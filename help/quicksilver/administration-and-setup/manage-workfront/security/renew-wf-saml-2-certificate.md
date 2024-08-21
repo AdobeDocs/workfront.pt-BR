@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Para revisar a mensagem de aviso e confirmar a atualização dos metadados do SAML 2.0 no provedor de identidade:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Logon único**.
 

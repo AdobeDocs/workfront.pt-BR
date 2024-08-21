@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1658'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,8 @@ Todo subgrupo precisa de pelo menos um administrador de grupo. Os administradore
 Se você for um administrador de grupo ou um administrador do Workfront, também poderá criar subgrupos em um grupo. Para obter instruções, consulte [Criar um subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -49,13 +51,15 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Criar um grupo de nível superior do zero
 
 Essas etapas explicam como criar um novo grupo do zero. Para obter informações sobre como criar um grupo ou subgrupo copiando um existente, consulte [Criar um grupo de nível superior copiando um grupo ou subgrupo existente](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) neste artigo.
 
 Você precisa ser um administrador do Workfront para criar um grupo de nível superior.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
@@ -127,7 +131,7 @@ Lembre-se do seguinte quando quiser fazer isso:
 
 Para criar um novo grupo de nível superior copiando um grupo ou subgrupo:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

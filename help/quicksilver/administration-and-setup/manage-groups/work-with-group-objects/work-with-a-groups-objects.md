@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: Trabalhar com os objetos de um grupo
+title: Trabalhar com objetos de um grupo
 description: Quando novos objetos forem adicionados à página Grupos, não se esqueça de atualizar o artigo Gerenciar grupos/Grupos overview/groups.html
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

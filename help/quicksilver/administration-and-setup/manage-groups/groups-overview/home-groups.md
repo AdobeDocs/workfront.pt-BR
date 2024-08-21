@@ -1,16 +1,16 @@
 ---
-title: Visão geral dos Grupos padrão
+title: Visão Geral dos Grupos Padrão
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Um Grupo padrão é atribuído no perfil do usuário. Todos os usuários precisam ter um Grupo padrão. Um usuário pode pertencer a mais de um grupo, mas pode ter apenas um Grupo padrão. Embora qualquer grupo existente no sistema possa ser atribuído como o Grupo inicial de um usuário, recomendamos criar e atribuir novos grupos que representem unidades organizacionais maiores. Ao estabelecer Grupos padrão, considere como sua organização divide os usuários da Adobe Workfront.
-author: Caroline
+description: Um Grupo padrão é atribuído no perfil do usuário. Todos os usuários precisam ter um Grupo padrão.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---

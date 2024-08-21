@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: security
 title: Alterar o domínio do Adobe Workfront
 description: Como administrador da Adobe Workfront e contato autorizado com o Suporte da Workfront, você pode solicitar ajuda da equipe de Suporte da Workfront para alterar o domínio do Workfront de sua organização.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 Como administrador da Adobe Workfront e contato autorizado com o Suporte da Workfront, você pode solicitar ajuda da equipe de Suporte da Workfront para alterar o domínio do Workfront de sua organização.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -48,6 +50,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Solicitar uma alteração de domínio
 
 1. Comece a criar um tíquete de suporte no Experience League.
@@ -64,7 +68,7 @@ Se sua empresa utiliza SSO, as seguintes etapas serão necessárias depois que v
 >
 >Isso não estará disponível se a instância Workfront da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Na barra lateral esquerda, clique em **Sistema** > **Informações do cliente** e verifique se seu domínio está atualizado na página Informações do cliente.
 

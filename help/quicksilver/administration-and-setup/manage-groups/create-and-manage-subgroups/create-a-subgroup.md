@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: Criar um subgrupo
 description: É possível criar um subgrupo em um grupo que você gerencia para organizar usuários e projetos e atribuir direitos de acesso no Adobe Workfront. Normalmente, os administradores de grupos gerenciam grupos e subgrupos. Eles podem usar a página Grupos para gerenciar seus grupos e subgrupos em um único local.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '879'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 Normalmente, no entanto, os administradores de grupos gerenciam grupos e subgrupos. Eles podem usar a página Grupos para gerenciar seus grupos e subgrupos em um único local. Para obter informações sobre como grupos e subgrupos funcionam na Workfront, consulte [Visão geral dos grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md) e [Visão geral dos subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -44,9 +46,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Adicionar um subgrupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Grupos**.
 

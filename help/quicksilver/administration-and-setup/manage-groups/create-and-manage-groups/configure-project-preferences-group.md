@@ -1,16 +1,16 @@
 ---
-title: Configurar as preferências do projeto para um grupo
+title: Configurar preferências do projeto para um grupo
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: Se você for um administrador de grupo e um administrador do Adobe Workfront desbloquear uma preferência de projeto para todos os grupos no sistema, poderá configurar essa preferência para que o grupo afete todos os projetos subsequentes criados pelo grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '2658'
+source-wordcount: '2654'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ Para obter informações sobre como um administrador do Workfront desbloqueia um
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -55,13 +57,15 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Configurar uma preferência de projeto desbloqueada para um grupo
 
 >[!TIP]
 >
 >Se você for um administrador do Workfront, poderá ignorar as etapas 1 a 4 em Configuração > Preferências do projeto > Projetos e, em seguida, pesquisará o nome do grupo na caixa na parte superior da página.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

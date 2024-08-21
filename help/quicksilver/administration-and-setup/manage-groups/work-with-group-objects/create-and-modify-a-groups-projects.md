@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: grupo,projetos
 navigation-topic: work-with-a-groups-objects
-title: Criar e modificar os projetos de um grupo
+title: Criar e modificar projetos de um grupo
 description: Ao visualizar um grupo gerenciado na área Grupos, você pode criar, editar, exportar, copiar e excluir os projetos do grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e traba
 Se houver algum grupo acima do seu, os administradores também poderão fazer essas coisas pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -54,9 +56,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Exiba, trabalhe com e crie projetos para seu grupo na área Grupos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

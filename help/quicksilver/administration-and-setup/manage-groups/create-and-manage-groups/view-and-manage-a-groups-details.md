@@ -1,13 +1,13 @@
 ---
 title: Exibir e gerenciar os detalhes de um grupo
 description: Você pode exibir e editar a página Detalhes do Grupo de um grupo ou subgrupo que gerencia.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '633'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,8 @@ Delete this paragraph when Callisto adds the
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -61,9 +63,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Exibir e gerenciar os detalhes de um grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Grupos**.
 

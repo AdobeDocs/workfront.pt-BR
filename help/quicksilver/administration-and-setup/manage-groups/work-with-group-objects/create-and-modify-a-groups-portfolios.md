@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Criar e modificar portfólios de grupos
+title: Criar e modificar os Portfolio de um grupo
 description: Como administrador de grupo, ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com seus portfólios.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: 0ca141d790df70894498d0bb35deb0e24db4e698
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e traba
 Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -46,9 +48,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Visualize, trabalhe com e crie portfólios para seu grupo na área Grupos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

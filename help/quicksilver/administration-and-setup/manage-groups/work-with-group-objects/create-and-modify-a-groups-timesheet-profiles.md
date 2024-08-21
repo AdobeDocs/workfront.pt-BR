@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Criar e gerenciar os perfis de planilha de horas de um grupo
+title: Criar e gerenciar perfis de planilha de horas de um grupo
 description: Quando você está visualizando um grupo gerenciado na área Grupos, é possível visualizar e trabalhar com os perfis de folha de horas para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Quando você está visualizando um grupo gerenciado na área Grupos, é possíve
 Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -50,6 +52,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Criar e editar perfis de planilha de horas no nível do grupo
 
 Você pode criar e editar perfis de planilha de horas para uso em um grupo gerenciado por você. Para obter instruções, consulte [Criar, editar e atribuir perfis de folha de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
@@ -66,7 +70,8 @@ Para obter informações sobre como excluir folhas de horas de grupo, consulte [
 
 ## Exportar perfis de planilhas de horas de nível de grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Clique em **Grupos**.
 
    Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.

@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Importar dados para o Adobe Workfront usando um modelo do Kickstart
+title: Importar dados para o Workfront usando um modelo do Kickstart
 description: Kickstarts são pastas de trabalho do Excel especialmente formatadas que você pode preencher com dados que deseja importar para o Workfront. O Adobe Workfront fornece um modelo de Início que você pode usar para fazer isso, conforme explicado no importador de dados de Início.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 6%
 
 ---
 
-# Importar dados para o Adobe Workfront usando um modelo do Kickstart
+# Importar dados para o Workfront usando um modelo do Kickstart
 
 <!--Audited: 12/2023-->
 
@@ -207,7 +207,7 @@ Para exportar um modelo do Kickstart:
    <tr> 
       <td>Caminho de Etapas</td> 
       <td> Exporta como arquivo do Excel</td> 
-      <td> <p> Etapa</p> <p>Caminho de Etapas</p> <p>Preferências </p> </td> 
+      <td> <p> Marco</p> <p>Caminho de Etapas</p> <p>Preferências </p> </td> 
      </tr>
 
    <tr> 
@@ -223,7 +223,7 @@ Para exportar um modelo do Kickstart:
      <tr> 
       <td>Projeto</td> 
       <td>Exporta como arquivo do Excel</td> 
-      <td> <p> Fila</p> <p>Projeto</p> <p>Regra de Encaminhamento</p> <p>Enfileirar tópico</p> <p>Preferências </p> </td> 
+      <td> <p> Fila</p> <p>Projeto</p> <p>Regra de Encaminhamento</p> <p>Tópico da fila</p> <p>Preferências </p> </td> 
      </tr> 
      <tr> 
       <td>Estimativa de Recursos</td> 
@@ -253,7 +253,7 @@ Para exportar um modelo do Kickstart:
      <tr> 
       <td>Modelo</td> 
       <td> Exporta como arquivo do Excel</td> 
-      <td> <p> Fila</p> <p>Modelo</p> <p>Regra de Encaminhamento</p> <p>Enfileirar tópico</p> <p>Preferências </p> </td> 
+      <td> <p> Fila</p> <p>Modelo</p> <p>Regra de Encaminhamento</p> <p>Tópico da fila</p> <p>Preferências </p> </td> 
      </tr> 
      <tr> 
       <td>Atribuição de Modelo</td> 

@@ -6,11 +6,12 @@ title: Usar diagnósticos para acionar processos automatizados
 description: Você pode usar o Diagnóstico para acionar manualmente processos automatizados, como scripts baseados em tempo, recálculos ou notificações por email.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 6%
+source-wordcount: '367'
+ht-degree: 9%
 
 ---
 
@@ -24,22 +25,30 @@ Você pode usar o Diagnóstico para acionar manualmente processos automatizados,
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças</a> </td> 
-   <td> <p>Plano </p>Você deve ser um administrador do Workfront. Para obter informações sobre administradores do Workfront, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>.</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>Plano</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Usar diagnósticos para acionar processos automatizados
 

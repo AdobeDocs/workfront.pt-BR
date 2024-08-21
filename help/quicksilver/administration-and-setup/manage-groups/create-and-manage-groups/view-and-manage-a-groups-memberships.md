@@ -5,13 +5,13 @@ keywords: adicionar,usuários,grupo,adicionar,outro,atribuir,administrador,remov
 navigation-topic: create-and-manage-groups
 title: Exibir e gerenciar associações de um grupo
 description: Como administrador do Adobe Workfront, você pode exibir, adicionar, remover, exportar, ativar e desativar membros de qualquer grupo gerenciado. Você também pode editar os perfis, adicionar Atualizações aos perfis e atribuí-los como administradores de grupo adicionais para o grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ Como administrador do Adobe Workfront, você pode exibir, adicionar, remover, ex
 Se houver algum grupo acima do seu, os administradores também poderão fazer essas coisas pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -43,9 +45,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Exibir e gerenciar associações de um grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos**.
 

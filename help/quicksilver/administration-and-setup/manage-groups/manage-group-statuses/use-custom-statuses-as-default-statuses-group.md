@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Usar um status personalizado como status padrão para um grupo
-description: Como administrador de grupo, você pode configurar um status personalizado como status padrão para um grupo ou subgrupo gerenciado. Isso é útil quando o sistema precisa atribuir automaticamente um status do Workfront a um projeto, tarefa ou problema. Um projeto, tarefa ou problema sempre exibe o status personalizado definido como status padrão, em vez de exibir o status do Workfront igual a.
-author: Caroline
+description: Como administrador de grupo, você pode configurar um status personalizado como status padrão para um grupo ou subgrupo gerenciado.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Status de problemas
 
 Se o status personalizado for um status de Problema, todos os quatro tipos de problemas deverão ser habilitados para ele (Relatório de erros, Pedido de alteração, Problema e Solicitação). Por exemplo, no status de ocorrência mostrado abaixo, o status Reaberto não pode ser usado como um status padrão porque o tipo de ocorrência de Pedido de alteração não está selecionado:
@@ -58,7 +62,8 @@ Se o status personalizado for um status de Problema, todos os quatro tipos de pr
 
 ## Definir um status personalizado como status padrão para um grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png) e depois clique no nome do grupo no qual deseja criar ou personalizar os status.
 1. No painel esquerdo, clique em **Status** ![](assets/gear-icon-settings.png).
 1. Abra a guia **Projeto**, **Tarefas** ou **Problemas**, dependendo do tipo de status que você deseja definir como um status padrão.

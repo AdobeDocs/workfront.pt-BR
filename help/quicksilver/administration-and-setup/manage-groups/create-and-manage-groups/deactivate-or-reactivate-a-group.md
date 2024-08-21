@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Desativar ou reativar um grupo
 description: É possível desativar um grupo gerenciado que você não usa mais.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 É possível desativar um grupo gerenciado que você não usa mais.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -44,6 +46,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Desativar ou reativar um grupo
 
 >[!IMPORTANT]
@@ -55,9 +59,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 >* Remova-o do grupo pai. Para obter mais informações, consulte a seção [Remover um subgrupo de seu grupo pai e torná-lo um grupo de nível superior](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) no artigo [Gerenciar um subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 >* Movê-lo para um grupo ativo. Para obter mais informações, consulte a seção [Criar, mover, exibir, editar, copiar, renomear, exportar ou excluir um subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) no artigo [Gerenciar um subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
->
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, selecione **Grupos**.
 

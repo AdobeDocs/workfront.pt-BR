@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Gerenciar status do grupo
 description: Como administrador de grupo, você pode criar status personalizados para um grupo gerenciado por você. Isso ajuda a eliminar a necessidade de dezenas de status personalizados em toda a empresa e permite mais autonomia nas hierarquias do grupo. Você também pode editar um status de nível de sistema para um grupo gerenciado se um administrador do Workfront tiver desbloqueado o status.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

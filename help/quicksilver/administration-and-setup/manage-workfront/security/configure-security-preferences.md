@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '877'
 ht-degree: 5%
 
 ---
@@ -36,6 +36,8 @@ Recomendamos que você configure as preferências do sistema durante a implement
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -60,6 +62,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar as preferências do sistema
 

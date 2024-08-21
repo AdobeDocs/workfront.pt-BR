@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Preferência Bloquear ou desbloquear um projeto, tarefa ou problema para subgrupos
+title: Bloquear ou desbloquear uma preferência de projeto, tarefa ou problema para subgrupos
 description: Como administrador de grupo, você pode configurar e bloquear uma preferência de projeto, tarefa ou problema se um administrador do Workfront a tiver desbloqueado no nível do sistema.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Para obter informações sobre como um administrador do Workfront pode bloquear 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -64,9 +66,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Preferência Bloquear ou desbloquear um projeto, tarefa ou problema de grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos**.
 1. Clique no nome do grupo em que deseja bloquear ou desbloquear uma preferência de projeto.

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1364'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Um administrador do Adobe Workfront pode desbloquear as seguintes seções de pr
 
 * Preferências gerais
 * Onde os usuários podem registrar o tempo
-* Preencher folhas de horas previamente
+* Pré-preencher folhas de horas
 
 Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
@@ -81,7 +81,7 @@ Considere as seguintes informações sobre a configuração de uma folha de hora
 >
 >Se você for um administrador do Workfront, ignore as etapas 1 a 4. Para isso, acesse Configurar > Folhas de horas e horas > Preferências e, em seguida, procure o nome do grupo na caixa na parte superior da página.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

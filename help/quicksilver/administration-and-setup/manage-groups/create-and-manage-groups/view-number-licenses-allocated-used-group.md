@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 >Uma licença de usuário é contada em um grupo específico somente se o grupo for o Grupo inicial do usuário.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -43,9 +45,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Exibir o número de licenças usadas em um grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

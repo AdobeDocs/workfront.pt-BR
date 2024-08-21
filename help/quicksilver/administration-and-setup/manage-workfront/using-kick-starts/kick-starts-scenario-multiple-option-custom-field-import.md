@@ -5,13 +5,13 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: "Cenário de início: importar campos personalizados de várias opções para o Workfront"
 description: Você pode importar campos personalizados com várias opções no Adobe Workfront usando a funcionalidade de Início.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ Se você tiver uma boa compreensão dos objetos e da estrutura do banco de dados
 
 Para exportar dados existentes do Workfront:
 
-1. Clique em **Menu principal > Configuração** no canto superior direito da interface do Workfront.
-1. Expanda o menu **Sistema** para a esquerda e clique em **Exportar Dados (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Expanda **Sistema** no menu esquerdo e clique em **Exportar Dados (Kick-Starts)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ Para exportar dados existentes do Workfront:
 
 Depois de verificar as informações sobre os campos personalizados existentes no sistema, você pode baixar um novo modelo de início para a importação.
 
-1. Clique em **Menu principal > Configuração** no canto superior direito da interface do Workfront.
+{{step-1-to-setup}}
 
-1. Expanda o menu **Sistema** para a esquerda.
+1. Expanda **Sistema** no menu esquerdo.
 
 1. Clique em **Importar Dados (Kick-Starts)**.
 
@@ -129,9 +130,6 @@ Para preencher a planilha do Excel com informações para os novos campos person
    >Para obter informações sobre os nomes dos objetos no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. Verifique se as informações a seguir estão formatadas corretamente:
@@ -245,7 +243,9 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
 Depois de executar as etapas descritas nas seções anteriores, continue com o seguinte para fazer upload dos novos campos e formulários no Workfront:
 
-1. Clique em **Importar Dados** **(Kick-Starts) **no menu **Menu Principal > Configuração > Sistema**.
+{{step-1-to-setup}}
+
+1. Clique em **Sistema > Importar Dados (Kick-Starts)**.
 
 1. Clique em **Escolher Arquivo** na seção **Carregar dados com a planilha do Kickstart**.
 

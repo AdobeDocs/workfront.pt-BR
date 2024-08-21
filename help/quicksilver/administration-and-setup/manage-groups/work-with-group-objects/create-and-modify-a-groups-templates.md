@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1280'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e traba
 Se houver algum grupo acima do seu, os administradores também poderão fazer essas coisas pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -46,9 +48,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Visualize, trabalhe com e crie modelos para seu grupo na área Grupos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

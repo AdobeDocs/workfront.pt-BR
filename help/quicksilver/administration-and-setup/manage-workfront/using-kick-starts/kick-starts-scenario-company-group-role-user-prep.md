@@ -9,18 +9,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 2%
 
 ---
 
-# Cenário de início: preparação da empresa, do grupo, da função e do usuário
+# Cenário de lançamentos: empresa, grupo, função e preparação de lançamentos do usuário
 
 Ao implementar o Adobe Workfront, em vez de inserir dados manualmente, você pode importar a lista de clientes, os departamentos internos, as funções de trabalho e as informações do usuário.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -43,9 +45,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## O que pode ser importado
 
-A tabela a seguir exibe as Empresas, Grupos e Funções a serem importados:
+A tabela a seguir exibe as empresas, grupos e funções a serem importados:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +71,7 @@ A tabela a seguir exibe as Empresas, Grupos e Funções a serem importados:
  </tbody> 
 </table>
 
-Os nomes das funções devem ser exclusivos, as funções de trabalho existentes não podem ser importadas.
+Os nomes das funções devem ser exclusivos. As funções de trabalho existentes não podem ser importadas.
 
 As tabelas a seguir exibem os usuários a serem importados e vários atributos de usuário para cada um:
 
@@ -157,7 +161,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 
 ## Baixar um modelo de início
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Kick-Starts** > **Importar Dados.**
 
@@ -299,4 +303,4 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 1. Preencha outros detalhes do usuário, conforme necessário, e salve o arquivo.
 1. Importe o arquivo do Excel.
 
-   Siga as instruções fornecidas na seção **Importando arquivos Kick Start** deste artigo.
+   Siga as instruções fornecidas em [Importar dados para o Adobe Workfront usando um modelo de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

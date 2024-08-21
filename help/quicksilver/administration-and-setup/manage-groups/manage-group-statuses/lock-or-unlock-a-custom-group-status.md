@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Status de grupos bloqueados e desbloqueados
-description: Bloquear os status personalizados de um grupo é uma maneira de garantir que as pessoas no grupo e em seus subgrupos estejam usando os mesmos processos em seu fluxo de trabalho. Quando um status de grupo é bloqueado, ele fica disponível para todos os usuários no grupo e nos grupos inferiores. Embora você (ou um administrador do Workfront) possa editar ou excluir um status bloqueado, os administradores de subgrupos abaixo não podem fazer isso para esses grupos. Por outro lado, desbloquear os status personalizados de um grupo permite que os administradores de subgrupos mais baixos tenham mais flexibilidade para gerenciar seus workflows. Eles podem alterar os atributos de um status desbloqueado ou excluí-lo de seus grupos.
-author: Caroline
+description: Bloquear os status personalizados de um grupo é uma maneira de garantir que as pessoas no grupo e em seus subgrupos estejam usando os mesmos processos em seu fluxo de trabalho. Quando um status de grupo é bloqueado, ele fica disponível para todos os usuários no grupo e nos grupos inferiores.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: d67de32fcbe4706cf8a1fc6f5bb8ec9d08b07119
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---

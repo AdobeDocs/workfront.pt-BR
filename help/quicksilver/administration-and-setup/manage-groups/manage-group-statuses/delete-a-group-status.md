@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Excluir um status de grupo
 description: Como administrador de grupo, você pode deletar um status de um grupo gerenciado se ele não estiver configurado como um status obrigatório ou bloqueado no nível do sistema ou para um grupo superior na hierarquia.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 >* Status que estão em um estado pendente de aprovação para pelo menos um objeto associado ao grupo ou um de seus subgrupos.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -49,9 +51,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Excluir um status de grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos**.
 1. Clique no nome do grupo de nível superior.

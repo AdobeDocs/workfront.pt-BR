@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: Gerenciar chaves de API
 description: Para minimizar as vulnerabilidades de segurança da API, os administradores do Adobe Workfront podem gerenciar as Chaves de API usadas para permitir que os aplicativos acessem o Workfront em nome de um usuário.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1322'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,8 @@ Exemplos de aplicativos que usam a API do Workfront são:
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Chaves de API do Workfront
 
 Cada usuário no Workfront tem uma chave de API exclusiva. Essa chave é gerada com base no usuário no momento em que o usuário acessa uma integração que aproveita a API do Workfront (como o aplicativo móvel Workfront ou uma integração de documentos).
@@ -74,7 +78,7 @@ Você pode gerar, redefinir ou remover a Chave de API da conta de usuário admin
 >
 >Você também pode gerar uma Chave de API por meio da API. Para obter mais informações, consulte a seção [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md) em [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md).
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema >** **Informações do Cliente.**
 1. (Condicional) Execute uma das seguintes ações:
@@ -98,7 +102,7 @@ Você pode gerar e gerenciar chaves de API para usuários em funções diferente
 
 1. (Condicional) Se sua organização usar o gerenciamento de acesso de Logon único (SSO), desative temporariamente a opção que exige autenticação SSO.
 
-   1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
 
    1. Expanda **Sistema** e clique em **Logon Único (SSO)**.
    1. No campo **Tipo**, selecione o tipo de SSO que sua organização usa.
@@ -115,7 +119,7 @@ Você pode gerar e gerenciar chaves de API para usuários em funções diferente
 
 1. (Condicional) Ative a opção que exige autenticação SSO se ela tiver sido desativada na Etapa 1.
 
-   1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
 
    1. Expanda **Sistema** e clique em **Logon Único (SSO)**.
 
@@ -126,7 +130,7 @@ Você pode gerar e gerenciar chaves de API para usuários em funções diferente
 
 Você pode configurar as Chaves de API para expirarem para todos os usuários em seu sistema. Quando a chave de API de um usuário expira, o usuário deve se autenticar novamente em qualquer aplicativo que use a API do Workfront para acessar o Workfront. Você pode alterar a frequência com que as Chaves de API expiram. Você também pode configurar se as Chaves de API expiram quando a senha de um usuário expira.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Informações do cliente**.
 1. Na área **Configurações da Chave de API**, na lista suspensa **Após a criação**, as **chaves de API expiram em**, selecione o período em que deseja que as chaves de API expirem.
@@ -151,9 +155,9 @@ Se você estiver preocupado com uma violação de segurança específica em rela
 >
 >Remover as chaves de API de todos os usuários invalida TODAS as chaves de API de todos os usuários do sistema. Essa ação causará falha em todas as suas integrações no Workfront até que você gere uma nova Chave de API no Workfront e atualize todas as suas integrações.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Expanda **Sistema** e clique em **Informações do cliente.**
+1. Expanda **Sistema** e clique em **Informações do cliente**.
 
 1. Na área **Configurações da Chave de API**, clique em **Remover todas as chaves de API** e em **Remover** **Tudo**.
 

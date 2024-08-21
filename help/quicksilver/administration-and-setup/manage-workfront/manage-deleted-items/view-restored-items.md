@@ -2,19 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Exibir item restaurado
+title: Exibir Itens Restaurados
 description: Como administrador do Adobe Workfront ou usuário com uma licença de Plano, você pode visualizar quais projetos, tarefas, problemas e documentos foram restaurados nos últimos sete dias.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 2%
 
 ---
 
-# Exibir item restaurado
+# Exibir itens restaurados
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -25,6 +26,8 @@ Como administrador do Adobe Workfront ou usuário com uma licença de Plano, voc
 Para obter informações sobre como restaurar um projeto, tarefa, problema ou documento após sua exclusão, consulte [Restaurar itens excluídos](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -45,9 +48,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Para saber que tipo de plano ou licença você tem, contate o administrador do Workfront.
 
++++
+
 ## Exibir itens que foram excluídos recentemente
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Expanda **Lixeira** e clique em **Restaurado recentemente**.
 

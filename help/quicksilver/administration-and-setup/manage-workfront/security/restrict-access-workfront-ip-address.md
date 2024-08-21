@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: Restringir o acesso ao Adobe Workfront pelo endereço IP
+title: Restringir acesso ao Adobe Workfront pelo endereço IP
 description: Você pode configurar um Adobe Workfront IP do incluir na lista de permissões que limita o acesso ao Workfront a 45 endereços IP ou intervalos de endereços IP especificados. Isso fornece uma camada adicional de segurança para o aplicativo do Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '447'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ Você pode configurar um Adobe Workfront IP do incluir na lista de permissões q
 Esses endereços IP ou intervalos de endereços IP devem ser fornecidos pelo administrador da rede.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -44,6 +46,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Outras listas de permissões
 
 Incluir na lista de permissões Se o firewall ou o servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu arquivo. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront. Incluir na lista de permissões Para obter informações sobre isso, consulte [Configurar o arquivo de consulta do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
@@ -54,7 +58,7 @@ Além disso, se sua organização usar o plano Enterprise, você poderá configu
 
 Depois de adicionar endereços IP ao arquivo de Workfront do incluir na lista de permissões, somente esses endereços IP poderão ser usados para acessar o Workfront. Os usuários que tentam acessar o Workfront a partir de outro endereço IP recebem uma mensagem de erro indicando que o endereço IP está bloqueado.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Informações do Cliente.**
 

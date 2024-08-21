@@ -4,14 +4,14 @@ product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configurar políticas de senha para autenticação
 description: Como administrador do Adobe Workfront, você pode configurar opções de política de senha para personalizar a experiência de autenticação para seu sistema Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,8 @@ Recomendamos que você configure as preferências de autenticação durante a im
 Recursos aprimorados de gerenciamento de senhas serão oferecidos em breve ou já podem estar disponíveis para a sua organização. Use qualquer uma das seções a seguir, dependendo se sua organização tem acesso à nova experiência de autenticação.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -48,13 +50,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Configurar autenticação (disponível para todos os clientes) {#configure-authentication-available-for-all-customers}
 
 As opções de autenticação são exibidas para todos os clientes. Recursos aprimorados de gerenciamento de senhas serão oferecidos em breve ou já podem estar disponíveis para a sua organização, conforme descrito na seção [Configurar autenticação aprimorada)](#configure-enhanced-authentication-coming-soon) deste artigo.
 
 Para configurar preferências de autenticação:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Autenticação**.
 
@@ -97,7 +101,7 @@ Esta seção descreve a experiência de autenticação aprimorada, que pode aind
 
 Para configurar preferências de autenticação aprimoradas:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Autenticação aprimorada**.
 1. Na caixa **Comprimento da Senha**, digite o número mínimo de caracteres necessários para uma senha válida.

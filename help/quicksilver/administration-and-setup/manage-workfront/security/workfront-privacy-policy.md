@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: security
 title: Política de privacidade da Adobe Workfront
 description: A Adobe Workfront Inc. ("Workfront") leva a proteção da privacidade de nossos clientes a sério. Esta política de privacidade (a "Política de Privacidade") informa você sobre nossas políticas relativas à coleta, uso e divulgação de todas as informações de identificação pessoal ("Dados Pessoais") e outros dados que são fornecidos por meio do uso de cada um de nossos sites e aplicativos móveis nos quais um link para esta Política de Privacidade é exibido e todos os produtos e serviços disponibilizados por meio desses sites, incluindo, sem limitação, nossas ofertas SaaS (coletivamente, o "Serviço").
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cacff71c-d0a9-4a36-b8d2-787101a16f52
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%

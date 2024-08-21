@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Criar e modificar as empresas de um grupo
+title: Criar e Modificar Empresas de um Grupo
 description: Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com empresas associadas ao grupo e a qualquer um de seus subgrupos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e traba
 Se houver algum grupo acima do seu, os administradores também poderão fazer essas coisas pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -42,9 +44,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Exiba, trabalhe com e crie empresas para seu grupo na área Grupos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

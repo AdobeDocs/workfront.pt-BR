@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Para obter informações sobre a configuração de notificação padrão de um e
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -51,10 +53,15 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Exibir e configurar as notificações de eventos de um grupo
 
-1. (Condicional e opcional) Se você for um administrador do Workfront e já estiver na página Notificações por email (Configurar > Email > Notificações), faça o seguinte e pule para a etapa 6: Excluir **Notificações de eventos do sistema** na caixa acima da lista, comece digitando o nome do grupo na caixa e, em seguida, clique nele quando ele aparecer.
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+>[!TIP]
+>
+>Se você for um administrador do Workfront e já estiver na página Notificações por email (Configurar > Email > Notificações), faça o seguinte e pule para a etapa 6: Excluir **Notificações de eventos do sistema** na caixa acima da lista, começar a digitar o nome do grupo na caixa e, em seguida, clicar nele quando ele aparecer.
+
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

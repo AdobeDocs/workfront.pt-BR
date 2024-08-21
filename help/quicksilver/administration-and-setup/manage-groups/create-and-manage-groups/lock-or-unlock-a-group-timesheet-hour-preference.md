@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Bloquear ou desbloquear uma planilha de horas e uma preferência de horas do grupo
+title: Bloquear ou desbloquear uma planilha de horas de grupo e uma preferência de horas
 description: Se você for um administrador de grupo, poderá configurar e bloquear uma folha de horas e uma preferência de horas para seu grupo depois que um administrador do Workfront desbloqueá-lo no nível do sistema.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,10 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* Se você mover um grupo em um grupo que tenha uma preferência desbloqueada, o grupo movido não será afetado por essa preferência.
 >
 >  Se a preferência no grupo movido estiver bloqueada no momento da movimentação, ela permanecerá bloqueada, mas o administrador do grupo poderá desbloqueá-la agora porque ela está desbloqueada para o grupo pai.
->
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -66,13 +67,15 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Bloquear ou desbloquear uma planilha de horas e uma preferência de horas do grupo
 
 >[!TIP]
 >
 >Se você for um administrador do Workfront, ignore as etapas 1 a 4. Para isso, acesse Configurar > Folhas de horas e horas > Preferências e, em seguida, procure o nome do grupo na caixa na parte superior da página.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos**.
 1. Clique no nome do grupo no qual você deseja bloquear ou desbloquear a preferência de horas e folhas de horas.

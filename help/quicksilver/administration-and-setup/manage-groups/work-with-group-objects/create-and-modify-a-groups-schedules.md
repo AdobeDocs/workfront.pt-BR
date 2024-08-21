@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Criar e modificar as agendas de um grupo
+title: Criar e modificar os cronogramas de um grupo
 description: Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com os agendamentos para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Para obter informações sobre como os agendamentos são usados no planejamento 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -50,9 +52,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Criar ou modificar as agendas de um grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Grupos**.
 

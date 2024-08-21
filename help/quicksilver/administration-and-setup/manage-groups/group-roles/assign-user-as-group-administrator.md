@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Como administrador de grupo de um grupo, você pode atribuir outros usuários como administradores de grupo para esse grupo. Os administradores do Adobe Workfront também podem fazer isso.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Para obter mais informações sobre administradores de grupo e o que eles podem 
 Para obter informações gerais sobre grupos, consulte [Visão geral sobre grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -44,9 +46,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Atribuir um usuário como administrador de grupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 

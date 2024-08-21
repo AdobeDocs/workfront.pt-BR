@@ -5,13 +5,13 @@ keywords: gerenciar,subgrupo,editar
 navigation-topic: create-and-manage-subgroups
 title: Gerenciar um subgrupo
 description: Como administrador de grupo de um subgrupo, você pode criar, mover, exibir, editar, copiar, renomear, exportar e excluir o subgrupo. Você também pode tornar um subgrupo um grupo de nível superior removendo-o do grupo pai.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Se houver algum grupo acima do seu, os administradores também poderão fazer es
 Para obter mais informações sobre subgrupos, consulte [Visão geral dos subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -47,9 +49,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
 
++++
+
 ## Criar, mover, exibir, editar, copiar, renomear, exportar ou excluir um subgrupo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
@@ -125,9 +129,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 >
 >No Workfront, esse departamento de marketing é representado por um grupo chamado Marketing, com três subgrupos chamados Marketing de campo, Marketing de produto e Marketing digital. Para listar os projetos que pertencem a todo o departamento de marketing (todos os 4 grupos), você pode criar um Filtro para a área Projetos com a seguinte Regra de filtro:
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >Você também pode usar o campo Nome do pai superior para identificar dados associados a um grupo de nível superior, mas somente em Exibições, não em Filtros ou Agrupamentos.
 
@@ -141,7 +143,7 @@ Você pode tornar um subgrupo um grupo de nível superior removendo-o do grupo p
 >
 >Para obter instruções sobre como desativar e reativar grupos, consulte as seções [Exibir e gerenciar os detalhes de um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) e [Exibir e gerenciar os detalhes de um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) no artigo [Exibir e gerenciar os detalhes de um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
 
@@ -159,8 +161,6 @@ Considere o seguinte ao copiar um subgrupo.
 
 * Se um subgrupo copiado tiver seus próprios subgrupos, eles serão incluídos na cópia e seus nomes serão formatados da seguinte maneira:
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * Qualquer subgrupo que pertença a um grupo público também é público, portanto, qualquer usuário com acesso de edição de usuário, dentro ou fora do grupo, pode adicionar usuários ao subgrupo.

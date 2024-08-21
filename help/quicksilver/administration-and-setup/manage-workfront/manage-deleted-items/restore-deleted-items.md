@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Restaurar itens excluídos
-description: Se você for um administrador do Workfront, poderá restaurar projetos, tarefas, problemas, documentos e modelos no Adobe Workfront se eles tiverem sido excluídos nos últimos 30 dias. Após 30 dias, esses itens são excluídos permanentemente e não podem ser restaurados. Quando você restaura um objeto, todos os seus objetos e campos filhos também são restaurados. Por exemplo, se você restaurar um projeto, todas as tarefas, problemas, documentos, horas, notas, atribuições e dados personalizados no projeto também serão restaurados.itens
+title: Restaurar Itens Excluídos
+description: Se você for um administrador do Workfront, poderá restaurar projetos, tarefas, problemas, documentos e modelos no Adobe Workfront se eles tiverem sido excluídos nos últimos 30 dias. Após 30 dias, esses itens são excluídos permanentemente e não podem ser restaurados.
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 

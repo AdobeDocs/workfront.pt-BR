@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Status personalizados em uma tarefa ou problema que é movido ou copiado
 description: Ao mover ou copiar uma tarefa ou problema para um projeto diferente, alguns status na tarefa ou problema podem ser atualizados para corresponder aos status usados pelo grupo do projeto de destino.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
