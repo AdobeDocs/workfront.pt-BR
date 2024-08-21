@@ -7,9 +7,9 @@ description: Este artigo descreve as configurações disponíveis no painel [!UI
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,30 @@ Esta opção determina como [!DNL Adobe Workfront Fusion] procede se ocorrer um 
 
 ## [!UICONTROL Processamento sequencial]
 
-Esta opção determina como [!DNL Workfront Fusion] procede se ocorrer um erro e a execução de um cenário for movida para a [Exibir e resolver execuções incompletas em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Se a opção [!UICONTROL Processamento sequencial] estiver habilitada, o Workfront Fusion interromperá completamente o processamento da sequência de tarefas até que todas as execuções incompletas sejam resolvidas. Se a opção [!UICONTROL Processamento sequencial] estiver desabilitada, o cenário continuará a ser executado de acordo com seu cronograma, acompanhado por tentativas repetidas de executar novamente as execuções incompletas.
+Essa opção força todas as execuções a ocorrerem em ordem e é relevante principalmente para Webhooks e Execuções incompletas.
+
+Quando o processamento sequencial está ativado, as execuções paralelas do cenário são desativadas.
+
+### Webhooks instantâneos
+
+Se um acionador de webhook estiver configurado como `instant` e o &quot;Processamento sequencial&quot; estiver habilitado, todas as cargas de webhook instantâneas serão enfileiradas e processadas na ordem em que chegarem. Isso pode ser útil ao processar eventos de sistemas externos em uma ordem exata.
+
+>[!NOTE]
+>
+>Haverá atrasos de processamento automático, pois cada carga será processada antes que a próxima seja iniciada.
+
+### Execuções Incompletas
+
+Se &quot;Execuções Incompletas&quot; também estiver ativado, se ocorrer um erro durante a execução de um cenário, ele será pausado. Uma das situações a seguir ocorre:
+
+* Se a opção de processamento Sequencial estiver **habilitada**, o Workfront Fusion interromperá o processamento da sequência pré-existente até que todas as execuções incompletas sejam resolvidas.
+* Se a opção de processamento Sequencial estiver **desabilitada**, o cenário continuará a ser executado de acordo com seu cronograma, acompanhado por tentativas repetidas de executar novamente as execuções incompletas.
+
+Para obter mais informações sobre execuções incompletas, consulte [Exibir e resolver execuções incompletas no Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
