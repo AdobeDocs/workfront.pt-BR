@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '14341'
+source-wordcount: '14345'
 ht-degree: 2%
 
 ---
@@ -2043,10 +2043,10 @@ ht-degree: 2%
       * [Informações gerais sobre o Adobe Workfront Planning: índice do artigo](planning/general/planning-general-article-index.md)
       * [Visão geral do Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Noções básicas sobre a API do Adobe Workfront Planning](planning/general/planning-api-basics.md)
-      * [Visão geral das limitações de objetos do Adobe Workfront Planning](planning/general/limitations-overview.md)
       * [Visão geral do Assistente do Adobe Workfront Planning AI](planning/general/planning-ai-assistant-overview.md)
       * [Atividade da versão atual do Adobe Workfront Planning](planning/general/release-activity.md)
       * [Arquivos de atividades do Adobe Workfront Planning versão 2023](planning/general/release-activity-archives-2023.md)
+      * [Visão geral das limitações de objetos do Adobe Workfront Planning](planning/general/limitations-overview.md)
    * Arquitetura do Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Arquitetura: índice de artigos](planning/architecture/architecture-information.md)
       * [Visão geral dos espaços de trabalho](planning/architecture/workspaces-overview.md)
@@ -2091,6 +2091,7 @@ ht-degree: 2%
       * [Adicionar uma imagem da capa a um registro](planning/records/add-a-cover-image-to-a-record.md)
       * [Gerenciar o layout da página de registros](planning/records/manage-the-record-page.md)
       * [Gerenciar registros na seção Planning de objetos do Adobe Workfront](planning/records/manage-records-in-planning-section.md)
+      * [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md)
    * Exibições do Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Visualizações: índice do artigo](planning/views/views-information.md)
       * [Gerenciar exibições de registro](planning/views/manage-record-views.md)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1900'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 2%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 2%
 >
 >Para obter uma lista completa de todas as seções e artigos que documentam o Workfront Planning, consulte [Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/planning-information.md).
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Introdução ao Adobe Workfront Planning
 
@@ -56,6 +51,8 @@ Veja a seguir alguns dos principais recursos:
 * Link para tipos de objetos de outros sistemas, criando uma estrutura coerente para todos os seus processos.
 
 ## Recursos do Adobe Workfront Planning disponíveis no momento
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 A tabela a seguir ilustra os principais recursos que estarão disponíveis no Workfront Planning e uma linha do tempo de sua disponibilidade. A lista não inclui todos os recursos.
 
@@ -90,7 +87,7 @@ Para obter informações sobre novos recursos e quando eles são lançados, cons
 | Compartilhar exibições publicamente com recursos externos | ✓ µ | |  |
 | Exibições duplicadas | ✓ µ | |  |
 | Enviar solicitações |                               | ✓ µ |                 |
-| Exportar detalhes do registro para o Word |                               | ✓ µ |                 |
+| Exportar detalhes do registro para o Word | ✓ µ |                                  |                 |
 | Exportar detalhes do registro para PDF |                               |                                  | ✓ µ |
 | Personalizar a cor e o ícone de um registro | ✓ µ |                                  |                 |
 | Adicionar comentários aos registros | ✓ µ |                                  |                 |
@@ -203,9 +200,9 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
    * Modificado pela última vez por
    * Data da última modificação
 
-* **Tipos de registros vinculados**, **Registros vinculados** e **Campos de registros vinculados** ou **Tipos de registros conectados**, **Registros conectados** e **Campos conectados**: você pode criar uma conexão entre as seguintes entidades no Workfront Planning:
+* **Tipos de registros conectados**, **Registros conectados** e **Campos conectados**: você pode criar uma conexão entre as seguintes entidades no Workfront Planning:
 
-   * Dois tipos de registro.
+   * Dois tipos de registro do Workfront Planning.
    * Um tipo de registro e um tipo de objeto de projeto, programa, portfólio, empresa ou grupo do Workfront.
    * Um tipo de registro e um ativo ou pasta da Adobe Experience Manager.
 
@@ -224,7 +221,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   >[!TIP]
   >
-  > Não é possível adicionar os seguintes tipos de campo como campos de pesquisa:
+  > Não é possível adicionar os seguintes tipos de campo como campos de pesquisa do registro conectado ou tipos de objeto:
   >
   >* Pessoas
   >* Criado por
@@ -246,11 +243,11 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   A seguir estão os tipos de exibição que podem ser aplicados à página tipo de registro:
 
-   * **Modo de exibição de tabela**: exibe registros e seus campos em um formato de tabela. As linhas da tabela são os registros individuais e as colunas são os campos de registro. Essa é a exibição padrão.
+   * **Modo de exibição de tabela**: mostra registros e seus campos, incluindo campos conectados e de pesquisa, em formato de tabela. As linhas da tabela são os registros individuais e as colunas são os campos de registro. Essa é a exibição padrão.
 
      ![](assets/table-view-example.png)
 
-   * **Modo de exibição de Linha do Tempo**: mostra registros que têm pelo menos dois campos do tipo Data em uma linha do tempo cronológica.
+   * **Modo de exibição de Linha do Tempo**: mostra registros que têm pelo menos dois campos do tipo Data em uma linha do tempo cronológica. Você pode exibir até 5 tipos de registros conectados e seus registros na exibição de linha do tempo.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ Para localizar o Workfront Planning:
    >[!TIP]
    >
    >    O administrador do Workfront pode adicionar a área Planejamento à opção Selecionar página de aterrissagem no modelo de layout, para que você possa abrir o Planning assim que fizer logon no Workfront. Para obter informações, consulte [Personalizar a página de aterrissagem usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
-
 
 1. (Condicional e opcional) Se você for um administrador do Workfront, clique em uma das seguintes guias:
    * **Espaços de trabalho em que estou**: exibe os espaços de trabalho que você criou ou os espaços de trabalho que são compartilhados com você.

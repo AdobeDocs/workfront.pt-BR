@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '6116'
+source-wordcount: '6694'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,7 @@ Adobe Workfront Planning capabilities are currently available to all customers. 
 >You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
 >
 >For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
-
-## Workfront Planning release timeline
-
-| Time               | Release                                 |
-|--------------------|-----------------------------------------|
-| 2023               | Workfront Planning beta release         |
-| First half of 2024 | Workfront Planning early release        |
-| August 28, 2024    | Workfront Planning general availability |
-
-The following articles describe the features released during the release for Workfront Planning: 
-
-* [Adobe Workfront Planning release activity archives for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) lists features released during the beta release, in 2023.
-* This article lists the features that were released to Workfront Planning during the early access period in 2024.
-* `[]()` lists features released after the general availability release on August 28, 2024. 
--->
+>-->
 
 >[!IMPORTANT]
 >
@@ -65,73 +50,29 @@ The following articles describe the features released during the release for Wor
 >
 >Em alguns casos, a documentação referenciada nas seções abaixo pode estar disponível depois que os recursos documentados forem lançados para produção.
 
-Este artigo lista os recursos que foram lançados para o Workfront Planing durante 2024.
+<!--Not sure if we should enable this - Richard: 
 
-O programa de planejamento do Workfront foi iniciado desde 22 de maio de 2023. Para obter uma lista de todos os recursos lançados durante 2023, consulte [Arquivos da atividade de versão do Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+## Workfront Planning release timeline
 
-Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa Workfront Planning podem acessar todos os recursos em seus ambientes de Produção.
+| Time               | Release                                 |
+|--------------------|-----------------------------------------|
+| August - December 2023               | Workfront Planning beta release         |
+| January - August 2024 | Workfront Planning early release        |
+| August 28, 2024    | Workfront Planning general availability |-->
+
+Os artigos a seguir descrevem os recursos lançados durante a versão do Workfront Planning:
+
+* [Arquivos da atividade de versão do Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) lista os recursos lançados durante a versão beta, durante 2023.
+* Este artigo lista os recursos que foram lançados para o Workfront Planning durante o período de acesso antecipado em 2024.
+
+  Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa Workfront Planning podem acessar todos os recursos em seus ambientes de Produção.
+
+<!--* See the current release overview documentation for features that were released after the general availability release on August 28, 2024. 
+-->
 
 O Workfront Planning foi removido temporariamente dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos documentados neste artigo estão disponíveis atualmente na Produção.
 
 <!--
-
-### Break down connected records in the timeline view
-
-Production: <date> 
-
-Preview: To be determined 
-
-As a Timeline view manager, you can now view the relationships between connected records by breaking down records into visual hierarchies in the timeline view.  
-
-For example, when you are viewing Campaigns in the timeline view which are linked to Products, and Products have associations with Projects, you can now break down the campaigns visually by Products first, and further break down Products by Projects.  
-
-This allows you to seamlessly navigate through multiple levels of relationships, all within the same timeline view.  
-
-This is not an actual hierarchy (no object is higher than another). It is a visual hierarchy that displays connected record types in one timeline view.  
-
-You can display up to 5 levels of record types in the same timeline for one record.  
-
-For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
-
-### New Connections tab in the record details area
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have added a new tab on the record's preview and page. Now, when you click the record name in a view, the record's preview and the record's page display the following tabs: 
-
-* **Details**: Displays all record fields, thumbnail, and cover image. 
-
-* **Connections**: Displays all record or object types and their records or objects that are connected to the selected record. You can add more records to the record or object types that already display connected records from the Connections tab.  
-
-For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
-
-### Create records, projects, and portfolios as you connect them
-
-Production: <date> 
-
-Preview: To be determined 
-
-You now have the capability to create records, projects, or portfolios as you connect them to existing records. For example, if you connect Workfront Planning campaigns with Workfront projects, and you determine that a particular project does not exist, you can add it as a new project in the connected record field. The project is then added to Workfront. Newly added records are added to their respective record type pages in the table view.   
-
-At this time, you can create the following when connecting records: 
-
-* Records 
-* Projects without a template 
-* Portfolios 
- 
-You cannot create other connected Workfront objects or AEM assets when connecting them to a record. 
-
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-
-## Export record details to Word
-
-Production: <date> 
-
-Preview: To be determined 
-
-You can now export a record's details to a Word document (.docx). For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
 
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
@@ -157,29 +98,6 @@ As a workspace manager, you can now define the format for the values displayed i
 * Tags
 
 For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-### Add connection type options
-
-Production: <date> 
-Preview: To be determined 
-
-Now, when you configure a connection between two record types, you can define whether users can connect single or multiple records in each of the record types of the connection. This ensures that you can reliably design your team's workflows and ensure that users only select the information expected according to their processes.  
-
-For example, you can now choose from the following types of connections when you link two record types:  
-
-* Many to many. When you select this connection type, it is not possible to change it after you save it 
-* One to many 
-* One to one 
-* Many to one 
- 
-This allows you to define how many records of the connected record types users can connect after a connection is established.  
-
-The new connection types are not supported for the following record type connections: 
- 
-* When you connect record types with AEM assets 
-* When you connect record types that don't belong to the same workspace (**********ensure this feature was released before you post this release note; otherwise, hide**********) 
-
-For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
 
 -->
 
@@ -214,6 +132,91 @@ Os administradores do sistema agora podem configurar tipos de registro para sere
 Antes desse aprimoramento, você poderia conectar somente tipos de registro que pertenciam ao mesmo espaço de trabalho, juntamente com tipos de objeto de outros aplicativos.
 
 Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+### Exibir registros conectados na exibição de linha do tempo usando o recurso Detalhamento
+
+Produção: 22 de agosto de 2024
+
+Visualização: a ser determinado
+
+Como gerente de visualização de Linha do tempo, agora é possível visualizar os relacionamentos entre registros conectados, dividindo os registros em hierarquias visuais na visualização de Linha do tempo.
+
+Por exemplo, quando você está visualizando Campanhas na visualização de linha do tempo, que estão vinculadas a Produtos, e Produtos têm associações com Projetos, agora é possível exibir Produtos em Campanhas e Projetos nos respectivos Produtos.
+
+Isso permite navegar facilmente por vários níveis de relacionamentos, tudo na mesma visualização de linha do tempo.
+
+Esta não é uma hierarquia real (nenhum objeto é maior do que outro). É uma hierarquia visual que exibe os tipos de registro conectados em uma exibição de linha do tempo.
+
+Você pode exibir até 5 níveis de tipos de registro na mesma linha do tempo para um registro.
+
+Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+### Nova guia Conexões na área de detalhes do registro
+
+Produção: 22 de agosto de 2024
+
+Visualização: a ser determinado
+
+Adicionamos uma nova guia nas áreas de visualização e página do registro. Agora, ao clicar no nome do registro em uma exibição, a visualização do registro e a página do registro exibem as seguintes guias:
+
+* **Detalhes**: exibe todos os campos de registro, miniaturas e imagens de capa. É possível editar campos na guia Details.
+
+* **Conexões**: exibe todos os tipos de registro ou objeto e seus registros ou objetos conectados. Você pode adicionar mais registros na guia Conexões.
+
+Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+### Criar registros, projetos e portfólios à medida que você os conecta
+
+Produção: 22 de agosto de 2024
+
+Visualização: a ser determinado
+
+Agora é possível criar registros, projetos e portfólios à medida que você os conecta a registros existentes.
+
+Por exemplo, se você conectar campanhas do Workfront Planning a projetos do Workfront e determinar que um determinado projeto não existe, poderá adicioná-lo como um novo projeto no campo registro conectado. O projeto é adicionado ao Workfront. Os registros recém-adicionados são adicionados às respectivas páginas de tipo de registro na exibição de tabela.
+
+Nesse momento, você pode criar o seguinte ao conectar registros:
+
+* Registros do Workfront Planning
+* Projetos Workfront sem um modelo
+* Workfront Portfolio
+
+Não é possível criar outros objetos ou ativos Experience Manager do Workfront conectados ao conectá-los a um registro.
+
+Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+
+## Exportar detalhes do registro para o Word
+
+Produção: 22 de agosto de 2024
+
+Visualização: a ser determinado
+
+Agora é possível exportar a página de detalhes de um registro ou pré-visualizar para um documento do Word (.docx).
+
+Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
+
+### Adicionar opções de tipo de conexão
+
+Produção: 22 de agosto de 2024
+Visualização: a ser determinado
+
+Agora, ao configurar uma conexão entre dois tipos de registro, você pode definir se os usuários podem conectar um ou vários registros em cada um dos tipos de registro da conexão. Isso garante que você possa projetar de forma confiável os fluxos de trabalho da sua equipe e garantir que os usuários selecionem apenas as informações esperadas de acordo com seus processos.
+
+Agora é possível escolher entre os seguintes tipos de conexões ao vincular dois tipos de registro:
+
+* De muitos para muitos. Quando você seleciona esse tipo de conexão, não é possível alterá-lo depois de salvá-lo.
+* Um para muitos
+* Um para um
+* De muitos para um.
+
+Isso permite definir quantos registros dos tipos de registro conectados os usuários podem se conectar quando uma conexão é estabelecida.
+
+Os novos tipos de conexão não são compatíveis com as seguintes conexões de tipo de registro:
+
+* Ao conectar tipos de registro com ativos do Experience Manager
+* Ao conectar tipos de registro que não pertencem ao mesmo espaço de trabalho
+
+Para obter informações, consulte [Visão geral sobre tipos de registros do Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Semana de 12 de agosto de 2024
 

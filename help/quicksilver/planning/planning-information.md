@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -24,11 +24,7 @@ role: User, Admin
 hide: yes
 -->
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!-- update the title to "Article index" when we get out of early access and we inhide this article-->
-
-<!--remove the video at open early access or before-->
+<!--update the metadata with real information when making this available to GA-->
 
 {{planning-important-intro}}
 
@@ -43,10 +39,6 @@ Os artigos nas seções listadas abaixo descrevem como você pode configurar o W
 ## Informações gerais sobre o Adobe Workfront Planning
 
 Acesse os seguintes artigos para obter informações gerais sobre o novo Workfront Planning:
-
-<!--update the video when we have something better, especially after early access - remove it-->
-
-<!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): uma visão geral de alto nível do Adobe Workfront Planning, incluindo a terminologia e os conceitos exclusivos desta solução. Recomendamos que você inicie sua jornada com o Workfront Planning aqui.
 * [Visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md): uma lista de limitações para o número de objetos que você pode criar no Workfront Planning.
