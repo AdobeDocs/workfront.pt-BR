@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obter uma lista de toda a documentação dos Painéis da Tela de Pintura, c
 
 **Status do Beta**
 
-Os Painéis do Canvas estão atualmente em uma fase de teste beta fechada e, portanto, só está disponível por convite para clientes específicos.
+Os Painéis do Canvas estão atualmente em uma fase pública de teste beta e, portanto, estão sujeitos a alterações frequentes. Consulte abaixo para obter instruções sobre como se inscrever no beta.
 
 ## Participe da versão beta
 

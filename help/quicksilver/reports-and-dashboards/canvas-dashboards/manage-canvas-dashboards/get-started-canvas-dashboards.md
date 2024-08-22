@@ -6,18 +6,18 @@ description: Instruções básicas para usar Painéis do Canvas, incluindo como 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
 
-# Introdução aos painéis da tela de desenho
+# Introdução aos Painéis do Canvas
 
 >[!IMPORTANT]
 >
->Esta página descreve a funcionalidade que só está disponível para usuários inscritos na versão beta fechada dos Painéis do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
+>Esta página descreve a funcionalidade que está disponível como parte da versão beta dos Painéis de controle do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
 
 Os Painéis do Canvas permitem visualizar facilmente os dados do Adobe Workfront, adicionando vários tipos de relatórios em uma tela personalizável. Esta página fornece instruções básicas para usar os Painéis do Canvas, incluindo como navegar até a lista de Painéis do Canvas, bem como como criá-los e editá-los.
 

@@ -6,9 +6,9 @@ description: Um relatório de aprovações pendentes que inclui dados sobre suas
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Esta página descreve a funcionalidade que só está disponível para usuários inscritos na versão beta fechada dos Painéis do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
+>Esta página descreve a funcionalidade que está disponível como parte da versão beta dos Painéis de controle do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
 
 Um relatório de aprovações pendentes que inclui dados sobre suas decisões de aprovação pendentes e passadas pode ser adicionado a um Painel de controle da tela.
 
