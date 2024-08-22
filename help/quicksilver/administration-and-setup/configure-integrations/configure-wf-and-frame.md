@@ -1,5 +1,5 @@
 ---
-title: Configurar a integração  [!DNL Workfront]  e  [!DNL Frame.io]
+title: Configurar a Integração  [!DNL Workfront]  e  [!DNL Frame.io]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ O administrador do Workfront habilita a integração entre o Workfront e o Frame
 >
 >Essa funcionalidade está disponível somente para organizações que foram integradas ao [!DNL Adobe Admin Console].
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plano</strong>
-   </td>
-   <td>Qualquer
-   </td>
+   <td>[!DNL Adobe Workfront] plano</td>
+   <td>Qualquer</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenças</strong>
+   <td>[!DNL Adobe Workfront] licenças
    </td>
-   <td>Atual: [!UICONTROL Plano] <br>
-   Novo: [!UICONTROL Padrão]
-   </td>
+   <td><p>Atual: [!UICONTROL Plano]</p>
+   <p>Novo: [!UICONTROL Padrão]</p></td>
   </tr>
-
-<tr>
-   <td><strong>Configurações de nível de acesso</strong>
+  <tr>
+   <td>Configurações de nível de acesso
    </td>
    <td>Você deve ser um administrador [!DNL Workfront].
    </td>
@@ -54,6 +52,7 @@ Você deve ter o seguinte:
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Configure uma conta [!DNL Frame.io] padrão [!BADGE Em breve]{type=Informative}
 

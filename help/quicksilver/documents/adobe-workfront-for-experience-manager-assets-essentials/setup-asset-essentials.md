@@ -6,10 +6,10 @@ description: Conecte seu trabalho ao seu conteúdo no Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -27,48 +27,51 @@ Conecte seu trabalho ao seu conteúdo no Experience Manager Assets Essentials&#x
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table>
   <tr>
-   <td><strong>Plano Adobe Workfront*</strong>
+   <td>[!DNL Adobe Workfront] plano
    </td>
    <td>Qualquer
    </td>
   </tr>
   <tr>
-   <td><strong>Licenças do Adobe Workfront*</strong>
+   <td>[!DNL Adobe Workfront] licença
    </td>
-   <td>Plano
+   <td><p>Atual: [!UICONTROL Plano]</p>
+   <p>Novo: [!UICONTROL Padrão]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] licença
+   </td>
+   <td>[!UICONTROL Padrão]
    </td>
   </tr>
   <tr>
-   <td><strong>licença de Experience Manager</strong>
-   </td>
-   <td>Padrão
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Produto</strong>
+   <td>Produto
    </td>
    <td>Você deve ter o Experience Manager Assets Essentials e ser adicionado ao produto como usuário no Admin Console.
    </td>
   </tr>
   <tr>
-   <td><strong>Configurações de nível de acesso</strong>
+   <td>Configurações de nível de acesso
    </td>
-   <td>Você deve ser um administrador do Workfront. Para obter informações sobre administradores do Workfront, consulte <strong>Conceder a um usuário acesso administrativo total</strong>.
+   <td>Você deve ser um administrador [!DNL Workfront].
    </td>
   </tr>
 </table>
 
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
-
++++
 
 ## Configurar a integração
 
-1. Clique no ícone **Menu Principal** no canto superior direito do Adobe Workfront e em **Instalação**.
+{{step-1-to-setup}}
+
 1. Selecione **Documentos** ![ícone de documentos](assets/document-icon.png) no painel esquerdo e selecione **Integração de Experience Manager**.
 1. Selecione **Adicionar Integração de Experience Manager**.
 1. Especifique o seguinte:
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### Ativos
 
 Os metadados são mapeados quando um ativo é enviado por push do Workfront pela primeira vez. Documentos com campos incorporados ou personalizados são mapeados automaticamente para os campos especificados na primeira vez que um ativo é enviado ao Experience Manager Assets Essentials.
 
 1. Na coluna **Campo do Workfront**, escolha um campo interno ou personalizado do Workfront.
+
    >[!NOTE]
    >
    >Você pode mapear um único campo do Workfront para vários campos do Experience Manager Assets. Não é possível mapear vários campos do Workfront para um único campo do Experience Manager Assets.
+
 1. No campo **Experience Manager**, escolha um campo do Experience Manager Assets.
 
    Para mapear um campo do Workfront para uma marca Experience Manager Assets, selecione `xcm:keywords`.
+
 1. Repita as etapas 1 e 2 conforme necessário.
    ![habilitar metadados](assets/metadata-assets-essentials.png)
 1. Clique em **Salvar** ou vá para a seção [Configurar pastas vinculadas (opcional)](#set-up-linked-folders-optional) neste artigo.

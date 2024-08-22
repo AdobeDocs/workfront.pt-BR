@@ -4,13 +4,13 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configurar acesso a blueprints
 description: Como administrador do sistema, você pode habilitar o acesso para que os usuários solicitem a instalação de blueprints configurando uma fila de solicitações para armazenar as solicitações. Você tem um único local para rastrear e atualizar solicitações.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Como administrador do sistema, você pode:
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -41,19 +43,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
-   <td> <p> Qualquer</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>licença do Adobe [!DNL Workfront]</strong></td> 
-   <td>[!UICONTROL Plano]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
-   <td> <p>[!UICONTROL Administrador do Sistema]</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Você deve ser um administrador [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos {#prerequisites}
 
@@ -68,7 +77,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Antes que os usuários possam solicitar que você instale blueprints para eles, você deve selecionar uma fila de solicitações para essas solicitações. Até que a fila de solicitações seja definida, os usuários só poderão navegar pelo catálogo de blueprints.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Blueprints]**.
+{{step1-to-blueprints}}
+
 1. Clique em **[!UICONTROL Configurar solicitações de blueprint]** na parte superior direita da tela do catálogo.
 
    <!--

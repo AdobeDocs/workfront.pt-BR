@@ -1,17 +1,17 @@
 ---
-title: Configurar o mapeamento de metadados
+title: Configurar mapeamento de metadados
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Os metadados são informações descritivas associadas a um documento. Você pode configurar [!DNL Adobe Workfront] para incluir metadados com documentos enviados para [!DNL Workfront] aplicativos.
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 Os metadados são informações descritivas associadas a um documento. Você pode configurar o [!DNL Adobe Workfront] para incluir metadados com documentos enviados para aplicativos do [!DNL Workfront].
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -41,6 +43,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Sobre [!DNL Workfront] metadados
 
@@ -64,7 +68,7 @@ Antes de mapear campos para o processo de mapeamento de metadados, você deve ha
 
 ## Configurar [!DNL Workfront] para enviar metadados
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **[!UICONTROL Documentos]** > **[!UICONTROL Mapeamento de Metadados]**.
 
@@ -82,7 +86,8 @@ Antes de mapear campos para o processo de mapeamento de metadados, você deve ha
 ## Excluir campos mapeados
 
 1. Faça logon em [!DNL Workfront] como administrador.
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **[!UICONTROL Documentos]** > **[!UICONTROL Mapeamento de Metadados]**.
 

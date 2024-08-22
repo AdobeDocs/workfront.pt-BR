@@ -6,10 +6,11 @@ title: Exibir e gerenciar aplicativos OAuth2 personalizados
 description: Como administrador do Adobe Workfront, você pode exibir e gerenciar os aplicativos OAuth2 para sua instância do Workfront, que permitem que outros aplicativos acessem o Workfront.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,8 @@ Como administrador do [!DNL Adobe Workfront], você pode exibir e gerenciar os a
 * Para obter instruções sobre como configurar e usar o aplicativo OAuth2 usando o PKCE, consulte [Configurar e usar os aplicativos OAuth 2 personalizados de sua organização usando o fluxo de PKCE](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -55,6 +58,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
++++
+
 ## Pré-requisitos
 
 Você deve criar aplicativos [!UICONTROL OAuth2] para sua organização antes de exibi-los ou gerenciá-los.
@@ -68,7 +73,7 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Wor
 
 ### Exibir e editar aplicativos OAuth2 personalizados {#view-and-edit-custom-oauth2-applications}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Sistema]** e selecione **[!UICONTROL Aplicativos OAuth]**.
 1. Clique em **[!UICONTROL Criar integração de aplicativo]**.
@@ -79,7 +84,7 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Wor
 
 ### Excluir aplicativos OAuth2 personalizados {#delete-custom-oauth2-applications}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Sistema]** e selecione **[!UICONTROL Aplicativos OAuth]**.
 1. Clique em ** **.
@@ -101,9 +106,7 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Wor
 >* Para criar um novo Segredo do Cliente, consulte [Criar um aplicativo OAuth2](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) em [Criar aplicativos OAuth2 para [!DNL Workfront] integrações](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 >
 
-
-
-1. Clique no ícone ![](assets/main-menu-icon.png) do *[!UICONTROL *Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Instalação]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Sistema]** e selecione **[!UICONTROL Aplicativos OAuth]**.
 1. Passe o mouse sobre o aplicativo e clique no ícone **[!UICONTROL Editar]** quando ele aparecer na extremidade direita.
@@ -117,7 +120,7 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Wor
 
 ### Adicionar ou editar notas do Segredo do cliente {#add-or-edit-notes-for-client-secret}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Sistema]** e selecione **[!UICONTROL Aplicativos OAuth]**.
 1. Clique em **[!UICONTROL Criar integração de aplicativo]**.
@@ -135,7 +138,7 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Wor
 
 ### Excluir segredo do cliente {#delete-client-secret}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Sistema]** e selecione **[!UICONTROL Aplicativos OAuth]**.
 1. Clique em **[!UICONTROL Criar integração de aplicativo]**.

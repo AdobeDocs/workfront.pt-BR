@@ -1,14 +1,14 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configurar a integração do [!UICONTROL Experience Manager Assets as a Cloud Service]
+title: Configurar a Integração do [!UICONTROL Experience Manager Assets as a Cloud Service]
 description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -39,36 +39,35 @@ Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager As
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plano</strong>
+   <td>[!DNL Adobe Workfront] plano
    </td>
    <td>Qualquer
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenças</strong>
+   <td>[!DNL Adobe Workfront] licença
    </td>
-   <td>Atual: [!UICONTROL Plano] <br>
-   Novo: [!UICONTROL Padrão]
-   </td>
+   <td><p>Atual: [!UICONTROL Plano]</p>
+   <p>Novo: [!UICONTROL Padrão]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager] licença</strong>
+   <td>[!DNL Experience Manager] licença
    </td>
    <td>[!UICONTROL Padrão]
    </td>
   </tr>
   <tr>
-   <td><strong>Produto</strong>
+   <td>Produto
    </td>
    <td>Você deve ter [!DNL Experience Manager Assets as a Cloud Service] e ser adicionado ao produto como um usuário.
    </td>
   </tr>
   <tr>
-   <td>Configurações de nível de acesso*
+   <td>Configurações de nível de acesso
    </td>
    <td>Você deve ser um administrador [!DNL Workfront].
    </td>
@@ -78,7 +77,6 @@ Você deve ter o seguinte:
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Pré-requisitos
 

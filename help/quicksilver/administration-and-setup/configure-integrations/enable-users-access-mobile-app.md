@@ -1,17 +1,17 @@
 ---
-title: Permitir que os usuários acessem o aplicativo para dispositivos móveis
+title: Permitir que os usuários acessem o aplicativo móvel
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Você pode habilitar ou desabilitar o acesso ao  [!DNL Adobe Workfront] aplicativo móvel.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 Você pode habilitar ou desabilitar o acesso ao aplicativo móvel [!DNL Adobe Workfront].
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -43,9 +45,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
++++
+
 ## Permitir que os usuários acessem o aplicativo para dispositivos móveis
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Configuração],**, localizado no canto superior direito da página.
 

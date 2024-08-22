@@ -1,5 +1,5 @@
 ---
-title: Criar aplicativos OAuth2 para  [!DNL Workfront] integrações
+title: Criar aplicativos OAuth2 para  [!DNL Workfront] Integrações
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 6%
 
 ---
@@ -40,23 +40,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td><p>Novo: [!UICONTROL Padrão]</p>
    Ou
    <p>Atual:[!UICONTROL Plano]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> Você deve ser um administrador [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

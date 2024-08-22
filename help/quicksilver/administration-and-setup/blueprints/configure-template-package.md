@@ -4,13 +4,13 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configurar um blueprint
 description: Você pode configurar detalhes do modelo de projeto ou da estrutura organizacional antes de instalar o blueprint.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1856'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Você pode configurar detalhes de um blueprint antes de instalá-lo. Os tipos de
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -28,19 +30,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>licença do Adobe [!DNL Workfront]</strong></td>
-   <td>[!UICONTROL Plano]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td>
-   <td> <p>[!UICONTROL Administrador do sistema]</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Você deve ser um administrador [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar um blueprint de modelo de projeto
 
