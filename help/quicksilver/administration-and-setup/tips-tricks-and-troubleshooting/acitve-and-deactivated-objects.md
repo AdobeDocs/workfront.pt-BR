@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Objetos ativos e desativados
 description: Como administrador  [!DNL Adobe Workfront] , você pode ativar ou desativar objetos no sistema. É recomendável nunca excluir os objetos que podem ser desativados. Você deve simplesmente desativar o objeto para impedir seu uso futuro e removê-lo dos menus suspensos de outros objetos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 2%

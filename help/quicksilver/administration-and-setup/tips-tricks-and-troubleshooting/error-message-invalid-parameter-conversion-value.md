@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Mensagem de erro: Parâmetro inválido: valor de conversão"
+title: "Mensagem de erro: Parâmetro inválido: Valor de conversão"
 description: "Você recebe a seguinte mensagem de erro ao tentar alterar o formato de um campo personalizado em um formulário personalizado existente: 'Parâmetro inválido: valor de conversão `&lt;...&gt;`'"
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,28 +29,41 @@ Essa mensagem ocorre no seguinte cenário:
 
 Por exemplo, você tem um Campo personalizado formatado como Texto.  Agora, você deseja alterar o Formato do Campo personalizado para Moeda. Em algum lugar na instância do Adobe Workfront, esse campo já está anexado a um objeto e tem informações já especificadas nele. As informações existentes em pelo menos um desses campos já estão formatadas como Texto. Portanto, o Formato do campo não pode ser alterado para Moeda.
 
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Plano do Workfront</a>*</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças</a>*</p> </td> 
-   <td>Plano</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Nível de acesso*</strong> </td> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a:</p> 
     <ul> 
      <li> <p>Criar relatórios, painéis e calendários</p> </li> 
      <li> <p>Criar filtros, visualizações e agrupamentos</p> </li> 
-    </ul> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+    </ul>
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Solução
 

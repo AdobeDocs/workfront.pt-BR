@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Administradores de grupo devem ter um acesso maior do que aqueles que eles gerenciam
-description: Se um administrador de grupo tiver permissões em seus Níveis de acesso inferiores àqueles que gerencia, não será possível visualizar, modificar ou atribuir níveis de acesso inferiores.
-author: Courtney
+title: Administradores De Grupos Devem Ter Acesso Maior Do Que Aqueles Que Gerenciam
+description: Se um administrador de grupo tiver permissões em seus níveis de acesso inferiores àqueles que gerencia, ele não poderá visualizar, modificar ou atribuir níveis de acesso inferiores.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2b501a1e-fb56-44fa-8518-07537dc90a5b
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Administradores de grupo devem ter um acesso maior do que aqueles que eles gerenciam
 
-Se um administrador de grupo tiver permissões em seus Níveis de acesso inferiores àqueles que gerencia, não será possível visualizar, modificar ou atribuir níveis de acesso inferiores.
+Se um administrador de grupo tiver permissões em seus níveis de acesso inferiores àqueles que gerencia, ele não poderá visualizar, modificar ou atribuir níveis de acesso inferiores.
 
 ## Problema
 

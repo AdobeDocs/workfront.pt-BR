@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Quando um email autenticado não é aceito devido à política DMARC do domínio
+title: Email não autenticado não aceito devido à política DMARC do domínio
 description: Se um email enviado do sistema  [!DNL Workfront]  não for aceito devido à política DMARC do domínio, o administrador de email poderá corrigir o problema configurando seu sistema de email para permitir todos os emails de workfront.com.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

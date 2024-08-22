@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '"Mensagem de erro: Há um pequeno problema. Esse campo é usado em uma configuração de vários formulários'
+title: "Mensagem de erro: Há um pequeno problema. Esse campo é usado em uma configuração de vários formulários"
 description: Quando você altera um cálculo em um campo personalizado calculado em um formulário personalizado e uma mensagem de erro informa que o campo é usado em uma configuração de vários formulários, é necessário substituir o campo por um novo campo que contenha o cálculo que você deseja usar.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Este artigo explica como localizar o objeto e, em seguida, resolver o problema d
 
 ## Localizar o objeto ao qual os formulários personalizados estão anexados {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Usuários]** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Forms Personalizado]** > **[!UICONTROL Campos]**.
 1. Aplique o modo de exibição **[!UICONTROL Lista de campos]** para localizar o campo calculado que você está tentando modificar e anote todos os formulários personalizados em que ele é usado (por exemplo, Formulário 1, Formulário 2, Formulário 3).

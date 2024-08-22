@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '"Erro: os usuários do SSO não conseguem fazer logon no  [!DNL Adobe Workfront] devido a vários erros'''
-description: Ao receber um erro de logon sobre logon único federado, sua combinação de nome de usuário/senha ou seu acesso à instância  [!DNL Workfront], the problem might be that your [!DNL Workfront]  usa SSO e você está tentando fazer logon usando uma URL incorreta. Verifique se você está fazendo logon usando o URL correto sem nada depois de ".com".
-author: Caroline
+title: "Erro: os usuários do SSO não conseguem fazer logon em  [!DNL Adobe Workfront] devido a vários erros"
+description: Ao receber um erro de logon sobre logon único federado, sua combinação de nome de usuário/senha ou seu acesso à instância  [!DNL Workfront], the problem might be that your [!DNL Workfront]  usa SSO e você está tentando fazer logon usando uma URL incorreta.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 92936761-cda3-41ab-88b1-ec1cac3900d4
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

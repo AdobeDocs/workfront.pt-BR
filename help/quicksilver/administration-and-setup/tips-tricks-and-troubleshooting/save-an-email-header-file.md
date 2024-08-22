@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Salvar um arquivo de cabeçalho de email
 description: Ocasionalmente, o  [!DNL Adobe Workfront] suporte pode solicitar um arquivo de cabeçalho de email. Cada aplicativo de email tem sua própria maneira de obter esse arquivo. Estas são algumas instruções diferentes do aplicativo de email para localizar e salvar o Cabeçalho. [!DNL Outlook]
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

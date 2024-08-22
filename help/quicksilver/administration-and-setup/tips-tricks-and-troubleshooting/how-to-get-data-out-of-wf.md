@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Exportar dados históricos do Adobe Workfront: prós e contras"
+title: "Exportar dados históricos do Adobe Workfront: vantagens e desvantagens"
 description: Este artigo explica os prós e contras de quatro opções que você pode usar para exportar dados históricos do Workfront.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,13 @@ Este artigo explica os prós e contras de quatro opções que você pode usar pa
 
 ## Use um de nossos parceiros
 
-O [!DNL AtAppStore], um parceiro certificado do [!DNL Workfront], tem um aplicativo fácil de usar que permite baixar os dados. Esse aplicativo também inclui um visualizador que permite visualizar facilmente seus dados.
+O [!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) tem um aplicativo fácil de usar (sua solução [Instantâneo do Workfront](https://store.atappstore.com/product/workfront-snapshot/)) que permite que você baixe os dados sozinho. Um visualizador opcional (sua solução [Visualizador de Instantâneos do Workfront](https://store.atappstore.com/product/workfront-snapshot-viewer/)) permite que você exiba facilmente seus dados offline.
 
-* **Vantagens:** todos os objetos do [!DNL Workfront] são exportados, incluindo os campos personalizados. A interface do Visualizador é fácil de usar e ler, e é facilmente importável em um Banco de Dados do [!DNL MS Access].
+* **Vantagens:** todos os objetos [!DNL Workfront] principais são exportados, incluindo os campos e anotações personalizados, que são armazenados em um banco de dados do [!DNL MS Access] de fácil acesso. A interface do Visualizador é fácil de usar e ler. A extração de documentos também está disponível separadamente como um serviço, com a saída organizada em uma estrutura de pastas lógica que mapeia para cada documento (e, opcionalmente, suas versões anteriores).
 
-* **Contras:** os documentos não são exportados. Você terá que baixá-los separadamente. Para obter mais informações, acesse [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **Contras:** Há uma limitação técnica de 2 GB de dados, mas a AtAppStore permite que você compre apenas o que precisa.
+
+* **Custos:** Para obter mais informações, vá para [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
 ## Solicitar um arquivo de despejo de dados [!DNL Postgres] da nossa equipe do banco de dados
 
@@ -35,6 +37,7 @@ Seu Executivo de contas pode enviar uma solicitação para nossa equipe do banco
 * **Vantagens**: você obtém toda a sua carga de dados, incluindo campos personalizados, bem como documentos que são armazenados no sistema.
 
 * **Contras**: O arquivo de banco de dados é difícil de ler: não há como ler este arquivo, a menos que você carregue-o para um banco de dados [!DNL Postgres] e restabeleça as relações entre as tabelas. Os documentos são armazenados em um servidor de arquivos separado e devem ser extraídos separadamente usando um processo separado pela equipe do AOS. Ao fazer isso, não há organização para os documentos e todos são referenciados por seu GUID.
+
 * **Custo**: há um custo associado a este download, dependendo do tempo que a equipe leva para criar o arquivo. Consulte seu AE/CAE para obter mais informações ou para iniciar esse processo.
 
 ## Exportar via [!UICONTROL Kick-Starts]

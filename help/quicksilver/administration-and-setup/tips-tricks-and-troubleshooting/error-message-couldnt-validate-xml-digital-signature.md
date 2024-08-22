@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Mensagem de erro: não foi possível validar a assinatura digital XML"
 description: Você não pode estabelecer uma conexão bem-sucedida com o ADFS.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d30a67dd-4f91-41cf-b1ba-fefadc4e396a
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,10 @@ Você não pode estabelecer uma conexão bem-sucedida com o ADFS.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -42,14 +46,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>Plano</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador [!DNL Workfront]. Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Você deve ser um administrador [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Causa 1: certificado incorreto
 

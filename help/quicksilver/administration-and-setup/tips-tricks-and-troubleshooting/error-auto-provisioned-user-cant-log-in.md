@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Erro: o usuário provisionado automaticamente não pode fazer logon"
-description: Se um usuário provisionado automaticamente tentar fazer logon pela primeira vez e receber um erro informando que o sistema não está atribuindo a ele um nível de acesso, talvez isso ocorra porque seu sistema não tem níveis de acesso associados à licença de solicitação. O provisionamento automático usa o tipo de licença Solicitação, para que você possa corrigir esse problema criando um nível de acesso associado a uma licença Solicitação.
-author: Caroline
+title: "Erro: o usuário autoprovisionado não consegue fazer logon"
+description: Se um usuário provisionado automaticamente tentar fazer logon pela primeira vez e receber um erro informando que o sistema não está atribuindo a ele um nível de acesso, talvez isso ocorra porque seu sistema não tem níveis de acesso associados à licença de solicitação.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
-source-git-commit: 477f65efb09e8566dd0af88adfbe88135d6c6ae9
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 1%
+source-wordcount: '219'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,8 @@ Por padrão, o provisionamento automático usa o tipo Solicitar licença. Quando
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -42,14 +44,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>Plano</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador [!DNL Workfront]. Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Você deve ser um administrador [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Solução
 
