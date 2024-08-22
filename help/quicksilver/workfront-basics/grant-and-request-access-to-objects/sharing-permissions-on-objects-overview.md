@@ -6,9 +6,9 @@ description: Você pode compartilhar ou remover permissões de um objeto criado 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -140,7 +140,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Torne isto visível para todo o sistema.</strong></td> 
-   <td> <p>O objeto pode ser encontrado em pesquisas e visualizado por qualquer pessoa com uma conta do Workfront.</p> </td> 
+   <td> <p>O objeto pode ser encontrado em pesquisas e visualizado por usuários com uma conta do Workfront.</p><p><b>Observação&gt;/b&gt;: os usuários com licenças de Colaborador ou Solicitante não podem ver os projetos, mesmo que essa configuração esteja ativada. </td> 
   </tr> 
  </tbody> 
 </table>
