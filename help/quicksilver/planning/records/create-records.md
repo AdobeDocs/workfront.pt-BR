@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,89 @@ Você pode criar registros seguindo um destes procedimentos:
 * Adicioná-los da página de tipo de registro na exibição de tabela
 * Copiar e colar uma lista de registros de uma lista externa
 * Duplicar
-  <!--* Create them as you connect them from other records-->
+* Crie-os ao conectá-los a partir de outros registros
 
-Este artigo descreve como criar registros. Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
+Este artigo descreve como criar registros.
+
+Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
 
 * [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Requisitos de acesso
 
+<!--Updated for GA-->
+
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
+
+Para acessar o Workfront Planning, é necessário ter o seguinte:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produtos</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td> 
+<p>Qualquer um dos seguintes planos da Workfront:</p> 
+<ul><li>Selecionar</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Plano de planejamento do Adobe Workfront*</p></td> 
+   <td> 
+<p>Qualquer </p> 
+<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
+   <td> 
+<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td> Padrão
+   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p> 
+   <p>Edite o acesso no Workfront para os tipos de objeto que deseja criar (projetos e portfólios) à medida que os registros são conectados a eles. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
+   <td> <p>Gerencie permissões no espaço de trabalho ao qual deseja adicionar registros. </p>  
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
+   <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (projetos).</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modelo de layout</p></td> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD info: 
 
 <table style="table-layout:auto">
  <col>
@@ -45,59 +118,52 @@ Este artigo descreve como criar registros. Para obter informações sobre o gere
     <tr>
 <tr>
 <td>
-   <p> Produto</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Sua organização deve estar inscrita no estágio de acesso antecipado do Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Qualquer</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Novo: Padrão</p>
-   <p>Atual: Plano</p>  
+   <p>New: Standard</p>
+   <p>Current: Plan</p>  
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de acesso para o Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Contribute ou permissões superiores para um espaço de trabalho</a> </p>  
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-
-<!--For the release of in-context record creation - add this to the table above for permissions and access:
-
-* Manage permissions to the workspace you want to add records to. 
-* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
-* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
 
 
 ## Criar registros adicionando-os a um tipo de registro <!--in a record type table (I don't think you can create them elsewhere right now)-->
@@ -218,31 +284,30 @@ You can import records from other applications by linking them to existing recor
 
 Para obter informações sobre duplicação de registros, consulte [Duplicar registros](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
-<!--check the steps with the release of in-context record types epic: 
+## Criar registros ao conectá-los
 
-## Create records as you connect them
+É possível criar registros ou objetos Workfront ao conectá-los a partir de outros registros.
 
-You can create records or Workfront objects as you connect them from other records. 
+Você deve ter as seguintes opções antes de adicionar novos registros ou objetos do Workfront, conectando-os a partir de registros existentes:
 
-You must have the following before you can add new records or Workfront objects by connecting them from existing records:
-
-* Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+* Tipos de registro conectados. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Registros conectados. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+* O acesso e as permissões corretos no Workfront Planning e no Workfront, conforme descrito na seção [Requisitos de acesso](#access-requirements) deste artigo.
 
 >[!NOTE]
 >
->Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
+>A criação de projetos e portfólios do Workfront à medida que você os conecta aos registros do Workfront Planning é semelhante à criação de registros do Planning à medida que você os conecta a outros registros.
 
-To create records as you are connecting them from other records: 
+Para criar registros ao conectá-los a partir de outros registros:
 
-1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting from. 
+1. Comece a conectar os registros do Workfront Planning, conforme descrito no artigo [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+1. (Condicional) Se não conseguir localizar um registro ao tentar adicioná-lo do campo de registro conectado de outro registro, procure um registro e clique em **+ Adicionar**. O botão **+ Adicionar** é seguido pelo nome do tipo de registro do qual você está se conectando.
 
-    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
-    The record is created and added to the connected record field. 
-1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
-1. (Optional) Start adding information for the new record in the table view, or click its name to open the details page and add information there. 
+   O registro é criado e adicionado ao campo de registro conectado.
+1. (Opcional) Vá para a exibição de tabela do tipo de registro cujo registro você criou. Um novo registro é exibido na última linha da exibição.
+1. (Opcional) Comece a adicionar informações para o novo registro na exibição de tabela
+Ou
+Clique no nome para abrir a página de detalhes e adicionar informações lá.
 
--->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2710'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,6 @@ hide: yes
 -->
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--if you change steps here, also update steps in the "Connect records" article-->
 
 # Conectar registros
 
@@ -68,6 +67,74 @@ Você pode conectar o seguinte:
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
+Para acessar o Workfront Planning, é necessário ter o seguinte:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produtos</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td> 
+<p>Qualquer um dos seguintes planos da Workfront:</p> 
+<ul><li>Selecionar</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Plano de planejamento do Adobe Workfront*</p></td> 
+   <td> 
+<p>Qualquer </p> 
+<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
+   <td> 
+<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td> Padrão
+   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
+   <td>   <p>Gerenciar permissões em um espaço de trabalho para conectar registros </p>  
+   <p>Permissões de exibição ou mais altas em um espaço de trabalho para exibir todas as conexões com objetos e campos de outros aplicativos, independentemente do acesso no outro aplicativo. </p>
+   <p>Visualize ou aumente as permissões para os objetos que deseja vincular a partir do Workfront ou do Experience Manager Assets. </p>
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram.</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modelo de layout</p></td> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD:
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -76,62 +143,57 @@ Você pode conectar o seguinte:
  <tbody>
     <tr>
 <tr>
-<td>Produto</p> </td>
+<td>Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Para conectar os registros do Adobe Workfront Planning ao Experience Manager Assets, você deve ter uma licença do Adobe Experience Manager Assets e a instância da Workfront de sua organização deve ser integrada à Experiência unificada do Adobe. Para obter informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada Adobe para Workfront</a>.</p>
+   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
- <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Sua organização deve estar inscrita no estágio de acesso antecipado do Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Qualquer</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Novo: Padrão</p>
-   <p>Atual: Plano</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o Workfront Planning</p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões em um espaço de trabalho para conectar registros </p>  
-   <p>Permissões de exibição ou mais altas em um espaço de trabalho para exibir todas as conexões com objetos e campos de outros aplicativos, independentemente do acesso no outro aplicativo. </p>
-   <p>Visualize ou aumente as permissões para os objetos que deseja vincular a partir do Workfront ou do Experience Manager Assets. </p>
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram.</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace to connect records </p>  
+   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Pré-requisitos para conectar registros
 
@@ -149,15 +211,13 @@ Para conectar registros a outros registros ou objetos, você deve ter o seguinte
 
 ## Conectar registros do Workfront Planning
 
-Você pode conectar registros do Workfront Planning nas seguintes áreas:
+Você pode conectar registros do Workfront Planning nas seguintes áreas de um registro do Planning:
 
-* De um registro do Planning no Workfront Planning nos campos de registro conectado na exibição de tabela.
-* De um registro do Planning no Workfront Planning na pré-visualização de registro ou página nos campos de registro conectados.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.-->
+* Os campos de registro conectados na exibição de tabela.
+* A visualização ou página do registro nos campos de registro conectados na guia Detalhes.
+* A visualização ou página do registro na guia Conexões.
 
-### Conectar registros do Adobe Workfront Planning da exibição de tabela ou da página de registro <!--Details tab of the-->
+### Conectar registros do Adobe Workfront Planning a partir da exibição de tabela ou da guia Detalhes da página de registro
 
 {{step1-to-planning}}
 
@@ -176,15 +236,15 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas:
    * Clique no nome de um registro conectado na lista para adicioná-lo ao registro selecionado. O registro é adicionado automaticamente.
    * Comece a digitar o nome de um registro e clique nele quando ele for exibido na lista. O registro é adicionado automaticamente.
 
-   <!--1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
-    
-    You can also create projects and portfolios by adding them to a record in the connected record field. You can create only blank projects, without a template by adding them to a record. 
-    
-     -->
+1. (Opcional) Se você não puder encontrar um registro ou um objeto para se conectar e quiser adicioná-lo, clique em **+ Adicionar** para adicionar um novo registro. Para obter mais informações, consulte a seção &quot;Criar registros ao conectá-los&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
-   >    Você pode abrir a página de um registro clicando no nome do registro na exibição, localize o campo de registro vinculado e clique duas vezes no campo (se já houver registros conectados) ou clique em **Conectar registros** (se o campo estiver vazio) para adicionar registros do registro ou tipo de objeto conectado.
+   >    Você pode abrir a página de um registro fazendo o seguinte na exibição de tabela:
+   >1. Clique no nome do registro na exibição.
+   >1. Localize o campo de registro vinculado e clique duas vezes no campo (se já houver registros conectados)
+   >Ou
+   >Clique em **Conectar registros** (se o campo estiver vazio) para adicionar registros do tipo de objeto ou registro conectado.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -211,18 +271,18 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas:
    >
    >* Usamos &quot;campos vinculados&quot; e &quot;campos de pesquisa&quot; alternadamente.
    >
-   >* Quando você opta por conectar vários registros ao conectar os tipos de registro, os valores de campo dos vários objetos são exibidos separados por vírgulas ou são agregados de acordo com o agregador escolhido.
+   >* Quando você opta por conectar vários registros ao conectar os tipos de registro, os valores de campo dos vários objetos são exibidos separados por vírgulas ou são agregados de acordo com o agregador escolhido ao conectar os tipos de registro.
 
 1. (Opcional) Feche a página de tipo de registro e vá para o espaço de trabalho selecionado.
 1. Clique no cartão do tipo de registro ao qual você está vinculado.
 
    Por exemplo, se você conectou o registro **Campanha** ao registro Produto, clique no cartão **Produto**.
 
-   O cartão de tipo de registro deve ser aberto na exibição Tabela. Caso contrário, selecione uma exibição de tabela.
+   O cartão de tipo de registro deve abrir na exibição de tabela. Caso contrário, selecione uma exibição de tabela.
 
    Observe que o campo de registro vinculado **Campanha** exibe os nomes das campanhas vinculadas aos produtos na página Tipo de registro do produto. Atualizar as informações de Campanha atualiza automaticamente o campo de registro vinculado Campanha para o tipo de registro Produto.
 
-### Conectar registros do Adobe Workfront Planning a objetos do Workfront a partir da exibição de tabela ou da página de registro <!--Details tab of the-->
+### Conectar registros do Adobe Workfront Planning a objetos do Workfront a partir da exibição de tabela ou da guia Detalhes da página de registro
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -242,6 +302,7 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 1. Selecione uma exibição de **Tabela** no menu suspenso **Exibir**.
 
 1. Clique em **Novo registro** para adicionar registros individuais ao tipo de registro selecionado. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+
 1. (Condicional) Depois de conectar o tipo de registro selecionado a um tipo de objeto do Workfront, vá para a coluna de objeto vinculado e clique duas vezes na célula correspondente ao registro que deseja vincular a objetos do Workfront.
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -254,6 +315,10 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
    >[!TIP]
    >
    >Você pode abrir a página de um registro na exibição, clicar duas vezes no campo de registro vinculado ou clicar em **Conectar** no campo para adicionar objetos do tipo de objeto conectado.
+
+1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, clique em **+ Adicionar** para criar e adicionar um novo projeto ou portfólio.
+
+   Você só pode adicionar projetos sem um modelo ou portfólios ao conectá-los aos registros do Planning. Não é possível adicionar novos programas, usuários ou empresas.
 
 1. (Opcional) Clique em **Ver tudo** para exibir todos os objetos que você tem pelo menos permissões para exibir.
 
@@ -301,7 +366,7 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
    Isso adiciona ou remove campos vinculados dos registros do Workfront Planning. As informações associadas aos campos removidos permanecem no Workfront.
 
 
-### Conectar registros do Workfront Planning a objetos do Adobe Experience Manager a partir da exibição de tabela ou da página de registro <!--Details tab of the-->
+### Conectar registros do Workfront Planning a objetos do Adobe Experience Manager a partir da exibição de tabela ou da guia Detalhes da página de registro
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -364,7 +429,7 @@ Para conectar registros com ativos AEM:
      >
      >* Um campo de registro vinculado aos registros vinculados do Workfront Planning não é criado para os ativos de Experience Manager vinculados no aplicativo Experience Manager Assets.
 
-1. (Opcional) Vá para o tipo de registro vinculado ao Experience Manager Assets a partir de e clique no nome de um ativo no campo de registro vinculado. Os detalhes do Experience Manager do ativo são exibidos em uma janela pop-up. <!--update screen shot with hi-rez picture-->
+1. (Opcional) Vá para o tipo de registro vinculado ao Experience Manager Assets a partir de e clique no nome de um ativo no campo de registro vinculado. Os detalhes do Experience Manager do ativo são exibidos em uma janela pop-up.
 
    ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -394,46 +459,42 @@ Para conectar registros com ativos AEM:
 
    Isso adiciona ou remove campos vinculados dos registros. As informações associadas aos campos removidos permanecem no Adobe Experience Assets.
 
-<!--
-### Connect Workfront Planning records from the Connections tab of the record page
+### Conecte os registros do Workfront Planning a outros registros ou objetos a partir da guia Conexões da página de registro
 
-1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
-1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
-1. Click the name of a record. 
+1. Ir para qualquer exibição de um tipo de registro que tenha sido conectado a outros tipos de registro ou tipos de objeto do Planning de outros aplicativos.
+1. Siga as etapas descritas nas subseções anteriores para localizar um registro na exibição que você deseja conectar a outros registros ou objetos.
+1. Clique no nome de um registro.
 
-    The preview page opens. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
-1. Click the **Connections** tab in the record's preview or page. 
+   A página de visualização é aberta.
+1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** para abrir a página do registro.
+1. Clique na guia **Conexões** na visualização ou página do registro.
 
-    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
-    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+   Todos os tipos de registro ou objeto vinculados ao tipo de registro selecionado são exibidos como seções. Registros ou objetos conectados são exibidos em seus nomes de registro ou de tipo de objeto em cartões.
 
-    >[!TIP]
-    >
-    >    Only connected records that have individual records connected display by default.
+   >[!TIP]
+   >
+   >    Somente os registros conectados que têm registros individuais conectados são exibidos por padrão.
 
-1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
+1. (Opcional) Clique em **Mostrar todas as conexões** para mostrar todos os tipos de registros conectados, incluindo aqueles sem registros conectados.
 
-1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+1. (Opcional) Clique na seta para baixo à esquerda de uma seção para recolhê-la.
 
-1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
-    The Connect button does not display if there are no records currently connected to the selected record. 
-1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
-    The records and objects are added immediately.
-1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+1. (Condicional) Clique em **Conectar** para adicionar mais registros ou objetos do mesmo tipo.
+1. Siga as etapas descritas nas seções anteriores para conectar registros do Workfront Planning ou objetos do Workfront ou Experience Manager Assets.
+Os registros e objetos são adicionados imediatamente.
+1. (Opcional) Passe o mouse sobre o cartão conectado de um registro ou objeto, em seguida, clique no ícone **-** de **Desconectar registro** para desconectá-lo do registro selecionado.
 
-    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
-    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
-
--->
+   O registro é imediatamente desconectado de todas as áreas do Workfront Planning ou de outros aplicativos onde pode ser exibido como conectado. Todos os valores de campo de pesquisa também são removidos.
 
 ## Conectar registros de objetos do Workfront
 
 Você deve ter as seguintes opções para conectar os registros do Workfront Planning a partir de objetos do Workfront:
 
 * Conexões entre tipos de registro e tipos de objeto do Workfront estabelecidas no Workfront Planning.
-* O administrador do Workfront ou do grupo deve adicionar a seção Planning aos tipos de objeto do Workfront que podem se conectar aos tipos de registro do Planning no Modelo de Layout.
+* O administrador do Workfront ou do grupo deve adicionar a seção Planejamento aos projetos, portfólios e programas do Workfront no Modelo de layout.
 
 Para obter mais informações, consulte [Gerenciar registros na seção Planning de objetos do Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

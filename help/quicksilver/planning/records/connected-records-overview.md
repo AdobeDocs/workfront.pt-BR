@@ -4,9 +4,9 @@ description: Depois de criar conexões entre tipos de registro, você pode conec
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -40,23 +40,17 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
 
 * Todos os usuários com acesso ao Workfront Planning and View ou com permissões mais altas para o espaço de trabalho podem ver as conexões que você faz entre registros ou entre registros e objetos de outros aplicativos. Eles podem exibir registros e objetos conectados independentemente de suas permissões nos aplicativos aos quais você está se conectando.
 * Você poderá exibir e editar as conexões de todos os outros usuários se tiver permissões de Gerenciamento para o espaço de trabalho em que os registros conectados estão.
-* É possível conectar um registro a um ou vários objetos de outro aplicativo. <!--For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+* É possível conectar um registro a um ou vários objetos de outro aplicativo. Para obter mais informações, consulte a seção &quot;Tipos de conexões&quot; no artigo [Visão geral sobre tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Áreas em que é possível conectar registros
 
 É possível conectar registros a outros registros ou a objetos de outro aplicativo nas seguintes áreas:
 
-* Você pode conectar registros do Workfront Planning a objetos do Workfront nas seguintes áreas:
-   * A partir de um registro do Planning no Workfront Planning nos campos conectados na exibição de tabela.
-   * De um registro do Planning no Workfront Planning na pré-visualização de registro ou página nos campos de registro conectados.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+* Você pode conectar registros do Workfront Planning a objetos do Workfront ou objetos do Experience Manager Assets nas seguintes áreas de um registro do Planning:
 
-* Você pode conectar registros do Workfront Planning ao Experience Manager Assets nas seguintes áreas:
-
-   * De um registro do Planning no Workfront Planning na exibição de tabela.
-  <!--* From a Planning record in the Connections tab on the record's preview or page.  -->
+   * Os campos de registro conectados na exibição de tabela de um tipo de registro no Planning.
+   * A visualização ou página do registro nos campos de registro conectados na guia Detalhes.
+   * A visualização ou página do registro na guia Conexões.
 
 * Você pode conectar objetos do Workfront aos registros do Workfront Planning nas seguintes áreas:
 
