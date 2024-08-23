@@ -3,11 +3,11 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Criar Tópicos de Fila
 description: Tópicos de fila trabalham em conjunto com Regras de roteamento para atribuir automaticamente o trabalho recebido a um usuário, função de trabalho, equipe ou para colocá-lo em um projeto. Os Tópicos de Fila definem as condições que precisam existir para que a Regra de Encaminhamento seja implementada.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 2%

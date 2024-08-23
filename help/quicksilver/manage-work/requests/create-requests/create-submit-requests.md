@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Criar e enviar solicitações do Adobe Workfront
+title: Criar e enviar solicitações
 description: O trabalho planejado é representado na Adobe Workfront por projetos e tarefas. No entanto, você pode trabalhar em um ambiente em que o trabalho não planejado, na forma de solicitações aleatórias, pode entrar a qualquer momento. O Workfront fornece um fluxo de trabalho para acomodar esse tipo de ambiente por meio do uso de Filas de solicitações.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2303'
 ht-degree: 1%
 
 ---
 
-# Criar e enviar solicitações do Adobe Workfront
+# Criar e enviar solicitações
 
 <!--Audited: 12/2023-->
 
@@ -47,18 +47,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Colaborador ou superior</p>
    Ou
    <p>Atual: solicitação ou superior</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a ocorrências</p>  </td> 
   </tr> 
  </tbody> 
@@ -110,14 +110,9 @@ Para obter informações sobre como criar solicitações a partir de rascunhos e
 
 Para criar uma solicitação no aplicativo Web do Workfront:
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. Clique em **Solicitações** e em **Nova solicitação** no canto superior direito da página.
+1. Clique em **Nova solicitação** no canto superior direito da página.
 
    >[!TIP]
    >
@@ -331,7 +326,7 @@ Você pode enviar solicitações usando o cliente Outlook. Você pode criar uma 
 
 Para obter informações sobre como enviar solicitações usando o cliente Outlook, consulte o artigo [Criar uma solicitação do Adobe Workfront por email do Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
-## Criar solicitações usando o aplicativo móvel do Workfront
+## Criar solicitações usando o aplicativo móvel Workfront
 
 Você pode enviar solicitações usando o aplicativo móvel em seu smartphone. Você pode criar uma nova solicitação e enviá-la às Filas de solicitações que você tem acesso para ver no aplicativo web.
 

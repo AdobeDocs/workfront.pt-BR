@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: Localizar solicitações enviadas
 description: Saiba mais sobre as áreas do Adobe Workfront em que você pode localizar solicitações enviadas por você ou por outra pessoa, ou solicitações que você nunca enviou e que foram salvas como rascunhos.
-author: Alina
+author: Lisa
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -30,40 +30,46 @@ Você pode localizar os seguintes tipos de solicitações que você ou outra pes
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Visão geral das licenças da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Colaborador ou superior</p>
+   Ou
+   <p>Atual: solicitação ou superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
-  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td><p>Editar acesso a ocorrências</p></td> 
+  </tr>
+  <tr>
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões nas solicitações ou superiores</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td><p>Exibir permissões ou superiores nas solicitações</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Localizar solicitações enviadas
 
 Para localizar solicitações que você ou outros usuários submeteram:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+{{step1-to-requests}}
+
 1. Clique em **Enviado** no painel esquerdo para exibir todas as solicitações enviadas.
 
    É possível exibir até 2000 solicitações, que podem ser exibidas em várias páginas.
@@ -141,7 +147,7 @@ Para localizar solicitações que você ou outros usuários submeteram:
       <td>Todas as solicitações enviadas, independentemente do status ou de quem as enviou.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aberto</td> 
+      <td role="rowheader">Abrir</td> 
       <td> <p>Todas as solicitações enviadas que estão abertas no momento, independentemente de quem as enviou. Somente as solicitações que você tiver pelo menos permissões para exibir serão exibidas aqui se você não as tiver enviado. </p> <p>As solicitações sem uma Data de Conclusão Real ou cujo objeto de resolução não tem uma Data de Conclusão Real são listadas na subguia Abrir.</p> <p><b>DICA</b>
 
    As solicitações que estiverem em qualquer status que não seja igual a Fechado serão consideradas abertas.</p> </td>

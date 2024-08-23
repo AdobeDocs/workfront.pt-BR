@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Excluir um rascunho de solicitação
 description: É possível excluir rascunhos de solicitações ao criá-los, descartando-os.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Você poderá excluir solicitações em rascunho depois que elas forem salvas co
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -33,21 +35,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Colaborador ou superior</p>
+   Ou
+   <p>Atual: solicitação ou superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a ocorrências</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos para excluir rascunhos de solicitações
 
@@ -59,8 +66,9 @@ Você deve fazer o seguinte antes de excluir um rascunho de solicitação:
 
 ## Excluir um rascunho de solicitação
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
-1. Clique em **Solicitações** e em **Rascunhos** no painel esquerdo.
+{{step1-to-requests}}
+
+1. Selecione **Rascunhos** no painel esquerdo.
 
    Todos os rascunhos de todas as filas de solicitações são exibidos nesta lista.
 

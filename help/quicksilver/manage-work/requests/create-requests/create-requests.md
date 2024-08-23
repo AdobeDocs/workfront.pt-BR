@@ -4,11 +4,11 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Criar solicitações
 description: Solicitações e problemas são intercambiáveis no Adobe Workfront. Você pode criar solicitações enviando uma solicitação no Workfront, uma solicitação em outro aplicativo ou enviando uma solicitação por email para um projeto configurado como uma Fila de solicitações.
-author: Alina
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

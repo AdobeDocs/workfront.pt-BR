@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Criar solicitações a partir de rascunhos
 description: Além de usar os rascunhos disponíveis que o Workfront sugere quando você informa uma nova solicitação, também é possível acessar um rascunho de solicitação na seção Rascunhos e finalizar a submissão a partir daí.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,8 @@ Além de usar os rascunhos disponíveis que o Workfront sugere quando você info
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -26,21 +28,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Colaborador ou superior</p>
+   Ou
+   <p>Atual: solicitação ou superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a ocorrências</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos para criar solicitações a partir de rascunhos
 
@@ -52,8 +59,9 @@ Você deve fazer o seguinte antes de criar uma solicitação a partir de um rasc
 
 ## Criar solicitações a partir de rascunhos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Workfront.
-1. Clique em **Solicitações** > **Rascunhos**.
+{{step1-to-requests}}
+
+1. Selecione **Rascunhos** no painel esquerdo.
 
    Um rascunho para cada tópico da fila de cada fila de solicitações é exibido nesta lista.
 
