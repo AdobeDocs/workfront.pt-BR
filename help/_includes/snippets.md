@@ -1,7 +1,7 @@
 ---
-source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2544'
 ht-degree: 1%
 
 ---
@@ -279,31 +279,29 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 >
 >As informações neste artigo se referem ao Adobe Workfront Planning, uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Workfront Planning está em uma fase de acesso antecipado, aberta a um número limitado de clientes.
+>Para acessar o Workfront Planning, é necessário ter o seguinte:
 >
->Você deve ser um cliente do Workfront para usar esses recursos.
+>* Um novo plano e licença do Workfront. O Workfront Planning não está disponível para planos ou licenças herdadas do Workfront.
+>* Uma licença adicional para o Workfront Planning.
+>* A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience.
 >
->Seu representante de conta informará se você fizer parte deste estágio.
->
->Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Para obter mais informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-
-<!--At GA replace the intro with this:
-
+<!--OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->You must have the following to access Workfront Planning:
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses.
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>You must be a Workfront customer to use these capabilities. 
 >
-> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+>Your account representative will inform you if you are part of this stage.
 >
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
-
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
 <!-- Manage Work -->
 

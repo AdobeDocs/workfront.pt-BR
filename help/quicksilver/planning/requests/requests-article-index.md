@@ -4,9 +4,9 @@ description: Você pode criar um formulário de solicitação para cada tipo de 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,5 @@ Você pode criar um formulário de solicitação para cada tipo de registro, com
 
 Esta seção contém os seguintes artigos:
 
-* [Criar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Enviar solicitações do Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md)

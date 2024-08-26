@@ -4,30 +4,30 @@ description: Depois que alguém compartilhar um link para um formulário de soli
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 18183b53c783366f467e7330159923372b51deb6
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
 
-# Enviar solicitações do Adobe Workfront Planning
+# Enviar solicitações do Adobe Workfront Planning para criar registros
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
 {{planning-important-intro}}
 
 Depois que alguém compartilhar um link para um formulário de solicitação com você a partir de uma página de tipo de registro no Adobe Workfront Planning, você poderá adicionar uma solicitação para criar registros para o tipo de registro associado ao formulário de solicitação.
 
-Usuários do Workfront e usuários externos podem enviar solicitações para o Planning e criar registros. <!--double check on the external users-->
+Usuários do Workfront e usuários externos podem enviar solicitações para tipos de registro do Planning e criar registros. <!--double check on the external users-->
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
-
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 <table style="table-layout:auto">
  <col>
@@ -38,50 +38,104 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <tr>
 <tr>
 <td>
-   <p> Produto</p> </td>
+   <p> Produtos</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Planejamento do Adobe Workfront<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
+ <tr>
+   <td role="rowheader"><p>plano do Adobe Workfront*</p></td>
    <td>
-<p>Sua organização deve estar inscrita no estágio de acesso antecipado do Workfront Planning </p>
+<p>Qualquer um dos seguintes planos da Workfront:</p>
+<ul><li>Selecionar</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>O Workfront Planning não está disponível para planos herdados do Workfront</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td>
+<tr>
+   <td role="rowheader"><p>Plano de planejamento do Adobe Workfront*</p></td>
    <td>
-<p>Qualquer</p>
+<p>Qualquer </p>  
+<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>. </td>
+
+<tr>
+   <td role="rowheader"><p>plataforma Adobe Workfront</p></td>
+   <td>
+<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p>
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p>
    </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Novo: Padrão</p>
-   Ou
-   <p>Atual: Plano </p> 
+   <p>Licença externa, do Colaborador, do Light ou do Standard</p>
+   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> Não há controles de acesso para o Adobe Workfront Planning</p>  
+  <tr>
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td>
+   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>  
 </td>
   </tr>
-
 <tr>
-   <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Exibir permissões ou mais altas para um espaço de trabalho, se você for um usuário do Workfront</p>  
-</td>
+   <td role="rowheader"><p>Permissões de objeto</p></td>
+   <td>
+   <p>Exibir permissões ou mais altas para um espaço de trabalho, se você for um usuário do Workfront</p> 
+  </td>
   </tr>
-
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu Principal para poder acessar a área Planejamento. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p> 
+   <td> <p>Para acessar a área do Planning no Workfront, você deve receber um modelo de layout que inclua a área do Planning no Menu principal. </p>
+   <p> No entanto, para enviar solicitações ao Workfront Planning, não é necessário acessar a área Planejamento. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Pré-requisitos
+
+Para que você possa enviar uma solicitação para um formulário de solicitação do Workfront Planning, é necessário que o seguinte esteja em vigor:
+
+* Deve existir o seguinte no Workfront Planning:
+
+   * Um espaço de trabalho
+   * Um tipo de registro associado a um formulário de solicitação. Para obter informações, consulte [Criar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+* O formulário de solicitação deve ser compartilhado com um link para que você possa acessá-lo. Existem os seguintes cenários:
+
+   * Se você tiver uma conta do Workfront, o link foi compartilhado somente com pessoas internas e você tem acesso ao espaço de trabalho. Pessoas fora do Workfront não podem acessar um link compartilhado internamente.
+   * Se você não tiver uma conta do Workfront, o link foi compartilhado com pessoas externas. Os usuários do Workfront também podem usar um link compartilhado com pessoas externas.
+
+* O link para o formulário não deve estar expirado.
+
+## Considerações sobre o envio de solicitações ao Workfront Planning
+
+* Não é possível acessar os formulários de solicitação para solicitações do Workfront Planning sem um link específico para os formulários.
+* Não é possível editar uma solicitação depois de enviá-la para o Workfront Planning.
+* Cada solicitação enviada cria um registro para o tipo de registro associado ao formulário que você usa.
+* Os registros criados enviando formulários de solicitação não podem ser diferenciados dos registros adicionados por qualquer outro método. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+
+## Enviar uma solicitação ao Workfront Planning
+
+1. Acesse o link compartilhado com você a partir de um tipo de registro do Workfront Planning.
+
+1. Atualize os campos disponíveis no formulário. Os campos com um asterisco são obrigatórios.
+
+   >[!TIP]
+   >
+   >   Se o campo **Assunto** do Workfront estiver disponível, talvez ele não esteja visível no Workfront Planning. Recomendamos que você atualize o máximo de campos em sua solicitação possível para tornar o novo registro identificável quando ele for adicionado ao tipo de registro.
+
+1. Clique em **Enviar**.
+
+   O formulário é enviado e um novo registro é adicionado ao tipo de registro associado ao formulário.
+
+
+
+
+

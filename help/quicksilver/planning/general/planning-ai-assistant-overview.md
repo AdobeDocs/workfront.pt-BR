@@ -1,35 +1,22 @@
 ---
-title: Visão geral do Assistente do Adobe Workfront Planning AI
+title: Visão Geral do Assistente do Adobe Workfront Planning AI
 description: Você pode usar o assistente de IA para gerar, atualizar ou remover registros com base no contexto da página atual e na estrutura de registro. Os comandos do usuário e a execução desses comandos pela IA trabalham juntos para garantir que as alterações feitas pela IA sejam refletidas com precisão no ambiente.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
+
 # Visão geral do Assistente do Adobe Workfront Planning AI
 
-<!-- update metadata above at GA-->
-
->[!IMPORTANT]
->
-><span class="preview">O Workfront AI Assistant foi removido temporariamente e estará disponível em uma data posterior.</span>
->As informações neste artigo se referem ao Adobe Workfront Planning e ao Workfront AI Assistant (beta), que são novas ofertas da Adobe Workfront.
->
->Atualmente, o Workfront Planning está em uma fase de acesso antecipado, e o Assistente de IA da Workfront está em uma fase beta.
->
->O Workfront Planning e o AI Assistant (beta) estão abertos para um número limitado de clientes.
->
->Você deve ser um cliente do Workfront para usar esses recursos.
->
->Seu representante de conta informará se você fizer parte deste estágio.
->
->Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+{{planning-important-intro}}
 
 Você pode usar o Assistente de IA para gerar, atualizar ou remover registros com base no contexto da página atual e na estrutura de registro.
 
@@ -37,7 +24,8 @@ Os comandos do usuário e a execução desses comandos pela IA trabalham juntos 
 
 ## Considerações sobre o Assistente de IA
 
-* Por padrão, o Assistente de IA está disponível para o administrador principal do Workfront. Para obter informações, consulte [Configurar informações básicas do sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* O Assistente de IA deve estar ativado para sua organização antes de estar disponível para usuários em sua empresa. Para obter informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+* Depois que a Workfront ativar o Assistente de IA para sua organização, ele estará disponível para o administrador principal do Workfront. Para obter informações, consulte [Configurar informações básicas do sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * O administrador do Workfront deve ativar o Assistente de IA para todos os outros usuários. Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
@@ -71,7 +59,7 @@ Você pode usar o Assistente de IA para executar as seguintes ações neste mome
 * Excluir registros
 * Restaurar registros que você acabou de excluir
 
-## Acessar o assistente de IA
+## Acessar o Assistente de IA na área Planejamento
 
 1. Faça logon no Workfront e acesse a área **Planning**.
 
