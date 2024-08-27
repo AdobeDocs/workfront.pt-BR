@@ -1,30 +1,19 @@
 ---
 title: Gerenciar a exibição de linha do tempo
 description: Acesse e edite registros em uma exibição de linha do tempo na página tipo de registro do Adobe Workfront Planning. Personalize a linha do tempo com filtros, agrupamentos e configurações. Use o recurso Detalhamento para exibir registros conectados.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
 
 # Gerenciar a exibição de linha do tempo
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ Para obter informações sobre exibições de registros, consulte [Gerenciar exi
 
 ## Requisitos de acesso
 
-<!--Updated for GA-->
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Qualquer um, para exibir informações do Workfront Planning</p></li>
-   <li><p>Padrão, para criar espaços de trabalho</p></li></ul>
+   <td><p> Padrão </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
-   <p>Permissões de exibição ou superiores para uma exibição para alterar temporariamente as configurações de exibição</p> </td> 
+   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modelo de layout</p></td> 
@@ -102,6 +88,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Gerenciar uma exibição de linha do tempo {#manage-a-timeline-view}
 

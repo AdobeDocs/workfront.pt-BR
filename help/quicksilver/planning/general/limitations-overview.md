@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de seções para um espaço de trabalho | 50 |
 | Número de Tipos de Registro para um espaço de trabalho | 1.000 (isso inclui tipos de registro de todas as seções e aqueles que são criados ao usar um modelo de espaço de trabalho) |
 | Número de registros de um tipo de registro | 25.000 |
-| Número de registros de um espaço de trabalho | 25.000 para clientes com o plano do Planning <br> 500.000 para clientes com o plano do Planning Plus |
-| Número do total de registros para uma instância do tipo Workfront Planning | 500.000 para clientes com o plano do Planning <br>2 milhões para clientes com o plano do Planning Plus |
+| Número de registros de um espaço de trabalho | 25.000 para clientes com o Planning <br> 500.000 para clientes com o Planning Plus |
+| Número do total de registros para uma instância do Workfront Planning | 500.000 para clientes com o plano de Planejamento <br>2 milhões para clientes com o Planning Plus |
 | Número de campos para um tipo de registro ou taxonomia | 500 |
 | Número de caracteres de um campo de texto | 1.000 caracteres |
 | Tamanho do arquivo que você pode colar em uma tabela do tipo record | 1 MB |

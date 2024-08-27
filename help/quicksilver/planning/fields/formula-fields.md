@@ -1,33 +1,19 @@
 ---
-title: Visão geral dos campos de fórmula
+title: Visão Geral de Campos de Fórmula
 description: No Adobe Workfront Planning, é possível criar campos de fórmula que usam funções e campos existentes para calcular um novo valor personalizado.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 8%
+source-wordcount: '553'
+ht-degree: 7%
 
 ---
 
 # Visão geral dos campos de fórmula
-
-<!--update the metadata with real information when making this available in TOC and in the left nav - below-->
-
-<!--this article is linked to the UI in the formula box, "Learn more..."-->
-
-<!---
-title: Formula fields overview
-description: In Adobe Workfront Planning, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: (*******************WE NEED A NEW ONE*******************)
-role: User, Administrator (************is this right???************)
-recommendations: noDisplay, noCatalog
---->
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
@@ -43,6 +29,75 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
+Para acessar o Workfront Planning, é necessário ter o seguinte:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produtos</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td> 
+<p>Qualquer um dos seguintes planos da Workfront:</p> 
+<ul><li>Selecionar</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Plano de planejamento do Adobe Workfront*</p></td> 
+   <td> 
+<p>Qualquer </p> 
+<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
+   <td> 
+<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td><p> Padrão</p>
+   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
+   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
+   <td>   <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modelo de layout</p></td> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+
+OLD:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -52,57 +107,52 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
     <tr>
 <tr>
 <td>
-   <p> Produto</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Sua organização deve estar inscrita no estágio de acesso antecipado do Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Qualquer</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Novo: Padrão</p>
-   <p>Atual: Plano</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access controls for Workfornt planining</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td>
-   <td> <p>Não há controles de acesso para o Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso</a>. </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
+-->
 
 ## Considerações sobre campos de fórmula
 

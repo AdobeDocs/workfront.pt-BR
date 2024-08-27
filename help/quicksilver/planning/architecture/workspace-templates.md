@@ -1,29 +1,17 @@
 ---
 title: Lista de modelos do espaço de trabalho
 description: Um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe. O Adobe Workfront Planning vem com um conjunto de modelos para você começar a usar tipos de registro e campos básicos quando estiver criando seu espaço de trabalho.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav:
----
-title: List of available workspace templates
-description: You can use templates to create workspaces. This article provides a list of available workspace templates
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
----
-
--->
 
 # Lista de modelos do espaço de trabalho
 

@@ -6,13 +6,12 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
+source-git-commit: c497276579c5d70c29fe961e43356e1ae603262d
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
 
 ---
-
 
 
 # Compartilhar exibições
@@ -273,6 +272,30 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
 
 
 1. (Opcional) Cole o link copiado em um email, mensagem de chat, documento ou comentário do Workfront para compartilhá-lo com outras pessoas.
+
+<!--
+## Grant permissions to a view from a permission request
+
+Users who access a link to a view to which they do not have permissions can request permissions to the view. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+
+1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
+   
+   * An in-app notification
+      ![](assets/in-app-notification-for-access-request-for-view.png)
+   * An email notification
+      ![](assets/in-app-notification-for-access-request-for-view.png)
+1. (Conditional) From the notification area in Workfront, click the in-app notification
+   Or
+   From the email notification, click **View all notifications**, then click the notification in the list.
+
+   The **Pending access requests** box displays. 
+
+      ![](assets/notifications-list-approval-box.png)
+1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
+1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+
+   If you approved the request, the users are added to the sharing box of the view. 
+-->
 
 ## Remover permissões para uma exibição
 

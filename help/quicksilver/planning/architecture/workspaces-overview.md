@@ -1,17 +1,16 @@
 ---
 title: Visão geral dos espaços de trabalho
 description: Um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning para corresponder aos fluxos de trabalho de suas unidades organizacionais.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Visão geral dos espaços de trabalho
 
@@ -19,7 +18,6 @@ ht-degree: 0%
 
 Um espaço de trabalho é uma coleção de tipos de registro usados por uma unidade organizacional e representa o ciclo de vida e os processos de trabalho da unidade. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning.
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 

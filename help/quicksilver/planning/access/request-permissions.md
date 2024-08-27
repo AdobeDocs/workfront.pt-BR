@@ -3,9 +3,9 @@ title: Solicitar permissões para uma visualização ou um Workspace
 description: Você pode solicitar permissões para uma exibição ou um espaço de trabalho para o qual outras pessoas enviaram um link que não foi compartilhado anteriormente com você.
 hidefrontoc: true
 hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +27,8 @@ role: User
 # Solicitar permissões para uma exibição ou um espaço de trabalho
 
 Você pode solicitar permissões para uma exibição ou um espaço de trabalho para o qual outras pessoas enviaram um link que não foi compartilhado anteriormente com você.
+
+A solicitação de permissões para uma visualização é semelhante à solicitação de permissões para um espaço de trabalho.
 
 ## Requisitos de acesso
 
@@ -86,8 +88,10 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>  <p>Gerenciar permissões para uma exibição</p>  
-   <p>Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhar uma visualização publicamente.</p></td> 
+   <td>  <p>Após receber sua solicitação de permissão, você pode obter as seguintes permissões:</p>
+   <ul><li><p>Exibir ou Gerenciar para um modo de exibição</p></li>
+   <li><p>Exibir, Contribute ou Gerenciar para um espaço de trabalho</p></li></ul>  
+   <p>Somente usuários com permissões para Gerenciar um espaço de trabalho e uma visualização podem compartilhar uma visualização publicamente.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modelo de layout</p></td> 
@@ -100,20 +104,32 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 +++
 
-## Solicitar e conceder permissões para uma exibição ou espaço de trabalho
+## Solicitar permissões para uma exibição ou espaço de trabalho
 
-Quando alguém compartilha com você um link para um espaço de trabalho ou uma visualização ao qual você não tem acesso, o seguinte cenário existe:
+A solicitação de permissões para uma visualização é semelhante à solicitação de permissão para um espaço de trabalho.
+
+Quando alguém compartilha com você um link para um espaço de trabalho ou uma visualização à qual você não tem acesso:
 
 1. Clique no link compartilhado com você para a exibição ou o espaço de trabalho.
 
    Uma página **Você não tem acesso** é exibida para informá-lo de que você não tem acesso à exibição ou ao espaço de trabalho.
 
+   ![](assets/request-access-to-view.png)
+
 1. (Condicional) Se o link compartilhado for para uma exibição de um espaço de trabalho ao qual você tem acesso, clique em **Abrir com exibição existente**. Se você tiver permissões para acessar o espaço de trabalho, a página do tipo de registro será aberta na exibição padrão.
 
-1. (Opcional) Adicione uma mensagem personalizada na caixa disponível.
+1. (Opcional e condicional) Se você não tiver permissões para exibir o espaço de trabalho, adicione uma mensagem personalizada na caixa disponível e clique em **Solicitar acesso**.
 
-1. Clique em **Solicitar acesso**.
+   Todos os usuários com permissões para Gerenciar a exibição ou o espaço de trabalho recebem as seguintes notificações para a solicitação de acesso:
+   * Uma notificação no aplicativo
+     ![](assets/in-app-notification-for-access-request.png)
+   * Uma notificação por email
+     ![](assets/email-notification-for-access-request.png)
 
-   Todos os usuários com permissões para Gerenciar a exibição ou o espaço de trabalho recebem uma notificação por email para sua solicitação.
-1. Os usuários que receberam a notificação por email para a solicitação de acesso vão para a exibição ou o espaço de trabalho e concedem permissões.
-1. Você receberá uma notificação por email notificando que recebeu o acesso à exibição ou ao espaço de trabalho. Você pode acessar a visualização ou o espaço de trabalho pela notificação por email.
+   Para obter informações sobre a concessão de permissões para exibições e espaços de trabalho, consulte os seguintes artigos:
+
+   * [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md)
+   * [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
+1. (Condicional) Quando a view ou o gerenciador de espaço de trabalho concede permissões para a view ou o espaço de trabalho, você recebe uma notificação por e-mail com uma confirmação de que as permissões foram concedidas ou negadas. <!--check this - I was not able to test this-->
+
+

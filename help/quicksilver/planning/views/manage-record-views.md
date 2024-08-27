@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -42,9 +42,9 @@ Este artigo descreve as seguintes informações sobre visualizações de registr
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Padrão, Claro ou Contribuinte, para exibir informações do Workfront Planning</p></li>
-   <li><p>Padrão, para criar espaços de trabalho</p></li></ul>
+   <td><p> Padrão </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
-   <p>Permissões de exibição ou superiores para uma exibição para alterar temporariamente as configurações de exibição</p> </td> 
+   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modelo de layout</p></td> 

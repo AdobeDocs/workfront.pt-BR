@@ -1,11 +1,12 @@
 ---
 title: Criar registros
 description: Ao usar o Adobe Workfront Planning, um registro é uma instância de um tipo de registro. Você pode criar registros exclusivos para cada tipo de registro no Workfront Planning adicionando-os manualmente à exibição de tabela, importando-os de uma lista, duplicando-os ou criando-os conforme você os conecta a outros registros.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -36,8 +37,6 @@ Para obter informações sobre o gerenciamento de registros nas exibições de t
 * [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Requisitos de acesso
-
-<!--Updated for GA-->
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 

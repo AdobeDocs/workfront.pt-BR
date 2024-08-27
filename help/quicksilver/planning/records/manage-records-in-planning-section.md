@@ -1,23 +1,20 @@
 ---
-title: Gerenciar registros na seção Planning de objetos do Adobe Workfront
+title: Gerenciar Registros na Seção de Planejamento de Objetos do Adobe Workfront
 description: Você pode exibir os registros do Workfront Planning conectados a objetos do Adobe Workfront na seção Planning de um objeto do Workfront, no painel esquerdo.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
-
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
 
 # Gerenciar registros na seção Planning de objetos do Adobe Workfront
 
@@ -34,8 +31,6 @@ A seção Planejamento está disponível para os seguintes objetos do Workfront:
 * Company-->
 
 ## Requisitos de acesso
-
-<!--Updated for GA-->
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 

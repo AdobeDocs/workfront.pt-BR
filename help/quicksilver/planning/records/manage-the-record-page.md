@@ -1,18 +1,18 @@
 ---
-title: Gerenciar o layout da página de registros
+title: Gerenciar o layout da página de registro
 description: É possível editar o layout da visualização de registro e da página no Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Gerenciar o layout da página de registros
 
@@ -35,8 +35,6 @@ Para obter informações, consulte os seguintes artigos:
 * [Criar registros](/help/quicksilver/planning/records/create-records.md)
 
 ## Requisitos de acesso
-
-<!--Updated for GA-->
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 

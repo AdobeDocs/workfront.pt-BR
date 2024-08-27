@@ -1,28 +1,17 @@
 ---
-title: Conectar tipos de registro
+title: Conectar Tipos de Registro
 description: Uma maneira de indicar como os tipos de registro individuais se relacionam entre si é conectá-los. Além disso, é possível conectar tipos de registro do Adobe Workfront Planning a tipos de objeto de outros aplicativos para aprimorar a experiência dos usuários e manter o foco em um aplicativo.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+feature: Workfront Planning
+role: User
+author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 1%
 
 ---
 
-<!-----
-title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
-hidefromtoc: yes
-hide: yes
-feature: Work management
-role: User
-author: Alina
---->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Conectar tipos de registro
 
@@ -46,8 +35,6 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
 ## Requisitos de acesso
-
-<!--Updated for GA-->
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
