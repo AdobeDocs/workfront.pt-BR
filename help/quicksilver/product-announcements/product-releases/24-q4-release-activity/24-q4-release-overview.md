@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -216,16 +216,14 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações de aparência durante o quarto trimestre de 2024</a></p>
-                        <p>Pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront estão sendo feitas no período do quarto trimestre de 2024. Revise as notas de versão individuais para datas de lançamento específicas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Disponibilidade geral do Adobe Workfront Planning</a></p>
+                        <p>O Workfront Planning está disponível para todos os clientes que compraram uma licença do Workfront Planning, além da licença do Workfront. Entre em contato com seu representante de conta para obter mais informações sobre o Workfront Planning.</p>
+                        <p>Para obter as informações mais recentes da versão do Workfront Planning a cada trimestre, consulte a seção <a href="#workfront-planning-enhancements">Melhorias do Workfront Planning</a> abaixo.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: durante todo o período de lançamento do quarto trimestre de 2024</p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Versão de produção: revise as notas de versão para datas específicas</span></p>
+                                <p><span class="preview">Versão de produção para todos os clientes: 28 de agosto de 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -251,6 +249,22 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                             </li>
                         </ul>
                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações de aparência durante o quarto trimestre de 2024</a></p>
+                        <p>Pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront estão sendo feitas no período do quarto trimestre de 2024. Revise as notas de versão individuais para datas de lançamento específicas.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: durante todo o período de lançamento do quarto trimestre de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção: revise as notas de versão para datas específicas</span></p>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>                            
            </tbody>
         </table>
@@ -260,6 +274,10 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 ### Aprimoramentos do Workfront Fusion
 
 Novos recursos do Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Quarto Trimestre de 2024. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+### Melhorias no planejamento do Workfront
+
+Novos recursos no Workfront Planning estão disponíveis na Produção. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de versão do Adobe Workfront Planning Quarto Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 
