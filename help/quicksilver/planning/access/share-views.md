@@ -224,9 +224,8 @@ Você pode compartilhar com usuários ou grupos no Workfront os modos de exibiç
 
    A exibição é atualizada com um ícone de pessoas ![](assets/view-shared-with-others-people-icon.png) para indicar que a exibição está compartilhada com outros usuários.
 
-   >>
-   [!TIP]
-   >>
+   >[!TIP]
+   >
    Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
 
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
@@ -268,8 +267,7 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
 
    A exibição é atualizada com um ícone global ![](assets/public-shared-view-icon-highlighted.png) para indicar que a exibição é compartilhada publicamente.
 
-   >>
-   [!TIP]
+   >[!TIP]
    >
    >Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
 
