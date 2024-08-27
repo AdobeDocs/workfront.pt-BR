@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -226,7 +226,7 @@ Você pode compartilhar com usuários ou grupos no Workfront os modos de exibiç
 
    >[!TIP]
    >
-   Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
+   >Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
 
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 
@@ -236,7 +236,7 @@ Você pode compartilhar com usuários ou grupos no Workfront os modos de exibiç
 
 >[!IMPORTANT]
 >
-Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhar as exibições do espaço de trabalho publicamente.
+>Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhar as exibições do espaço de trabalho publicamente.
 
 
 Para compartilhar uma exibição publicamente no Workfront Planning:

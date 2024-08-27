@@ -10,9 +10,9 @@ description: Em um cenário do Adobe Workfront Fusion, é possível automatizar 
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -102,17 +102,13 @@ Um modelo [!DNL Microsoft Word] é um documento [!DNL Microsoft Word] comum (arq
 
 ### Marca de valor simples {#simple-value-tag}
 
-Uma tag de valor simples é simplesmente substituída por um valor correspondente. O nome da marca corresponde ao valor do campo [!UICONTROL Chave], que é colocado dentro de chaves duplas; por exemplo,
-
-
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
-
-
-.
+Uma tag de valor simples é simplesmente substituída por um valor correspondente. O nome da marca corresponde ao valor do campo [!UICONTROL Chave], que é colocado dentro de chaves duplas; por exemplo, `{{name}}`.
 
 **Exemplo:** Para criar um documento que diga &quot;Olá, Petr!&quot;, você pode usar um módulo [!DNL Microsoft Word Template] para criar o seguinte modelo:
 
-<pre>&gt; Olá &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+```
+> Hi {{name}}!
+```
 
 Para fazer isso, você configuraria o módulo da seguinte maneira:
 
@@ -123,12 +119,21 @@ Para fazer isso, você configuraria o módulo da seguinte maneira:
 Você pode usar uma tag de condição para quebrar o texto que deve ser renderizado somente quando determinadas condições forem atendidas. Para quebrar o texto, coloque-o entre as tags de condição de abertura e fechamento, como &quot;hasPhone&quot;, se a condição for se os dados incluem ou não um número de telefone. O nome de uma tag de abertura é anexado ao sinal de hash #; o nome de uma tag de fechamento é anexado a uma barra /, como mostrado no exemplo abaixo.
 
 **Exemplo:** para produzir um documento que inclua o número de telefone de um cliente, se os dados de entrada incluírem um número de telefone, mas nenhum endereço de email, você poderá usar um módulo [!DNL Microsoft Word Template] e criar o seguinte modelo:
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Telefone: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;Email: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Para fazer isso, você configuraria o módulo da seguinte maneira:
+
+```
+> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}
+> {{#hasEmail}}Email: {{email}} {{/hasEmail}}
+```
+
+Para fazer isso, você configuraria o módulo da seguinte maneira:
 
 ![](assets/word-template-conditional-350x501.png)
 
 No documento, o número de telefone seria exibido da seguinte maneira:
-<pre>&gt; Telefone: 4445551234</pre>
+
+```
+> Phone: 4445551234
+```
 
 ### Marca Loop {#loop-tag}
 
@@ -141,7 +146,11 @@ Você pode usar uma tag de loop, também conhecida como tag de seção, para rep
 
 **Exemplo:** Para produzir um documento que liste o nome e o número de telefone de cada contato em uma lista de clientes, você poderia usar um módulo [!DNL Microsoft Word Template] e criar o seguinte modelo:
 
-<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+```
+> {{#contact}}
+>     {{name}}, {{phone}}
+> {{/contact}}
+```
 
 Para fazer isso, você configuraria o módulo da seguinte maneira:
 

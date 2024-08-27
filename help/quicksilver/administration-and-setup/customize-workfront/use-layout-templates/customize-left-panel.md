@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -202,10 +202,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >[!NOTE]
    >
    >Os três últimos itens na **[!UICONTROL Personalizar o que os usuários veem]** na lista suspensa ([!UICONTROL Listas], [!UICONTROL Página Inicial e Resumo] e [!UICONTROL Marcas]) são para configurar áreas diferentes do painel esquerdo. Para obter informações sobre eles, consulte estes artigos:
->   >   
-* [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Personalizar [!UICONTROL Página Inicial] e [!UICONTROL Resumo] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Adobe da marca [!DNL Workfront] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >
+   >* [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [Personalizar [!UICONTROL Página Inicial] e [!UICONTROL Resumo] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Adobe da marca [!DNL Workfront] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Opcional) Se quiser adicionar um item do painel esquerdo que se vincule a um dos painéis da sua organização, clique em **[!UICONTROL Adicionar seção personalizada]**, digite um **[!UICONTROL Título da seção personalizada]** para o item e, em seguida, adicione o painel.
@@ -214,7 +214,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!NOTE]
    >
-   Os usuários podem adicionar itens personalizados do painel a seu próprio painel esquerdo. Quando você adiciona itens personalizados do painel em um modelo de layout, seus itens são mesclados com os deles, sem substituir ou redefini-los. Isso também é verdadeiro se você atribuir usuários a um novo modelo de layout com itens de painel personalizados. Para obter informações sobre como os usuários podem personalizar o painel esquerdo, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Os usuários podem adicionar itens personalizados do painel a seu próprio painel esquerdo. Quando você adiciona itens personalizados do painel em um modelo de layout, seus itens são mesclados com os deles, sem substituir ou redefini-los. Isso também é verdadeiro se você atribuir usuários a um novo modelo de layout com itens de painel personalizados. Para obter informações sobre como os usuários podem personalizar o painel esquerdo, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Para obter informações sobre painéis, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
@@ -226,4 +226,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!TIP]
    >
-   Você pode clicar em [!UICONTROL Salvar] a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
+   >Você pode clicar em [!UICONTROL Salvar] a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

@@ -9,9 +9,9 @@ description: Com os  [!DNL Adobe Workfront Fusion] módulos Figma, você pode re
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 * [Listar comentários](#list-comments)
 
-* [Post um comentário](#post-a-comment)
+* [Postar um comentário](#post-a-comment)
 
 
 #### [!UICONTROL Excluir um comentário]
@@ -156,7 +156,7 @@ Este módulo de pesquisa lista todos os comentários anexados a um único arquiv
 </table>
 
 
-#### [!UICONTROL Post um comentário]
+#### [!UICONTROL Postar um comentário]
 
 Este módulo de ação publica um comentário em um arquivo Figma.
 
@@ -363,7 +363,7 @@ Este módulo de ação recupera um único arquivo ou imagem de uma biblioteca Fi
       <td>Selecione o arquivo do qual deseja retornar JSON.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>IDs de nó]</td>
+      <td role="rowheader">[!UICONTROL IDs de Nó]</td>
       <td>
         <p>Insira os nós que você deseja que o módulo renderize.</p>
         <p>Para cada nó que você deseja renderizar, clique em <b>[!UICONTROL Add]</b> e insira o texto do nó.</p>
