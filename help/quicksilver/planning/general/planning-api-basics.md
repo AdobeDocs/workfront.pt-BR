@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 20e8d45264f9441d9576c7d4d5521e4f6053a7f3
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 2%
+source-wordcount: '973'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 2%
 O objetivo da API de planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP. Este documento supõe que você esteja familiarizado com as respostas REST e JSON e descreve a abordagem adotada pela API de Planejamento.
 
 Uma familiaridade com o esquema do Workfront Planning o ajudará a entender os relacionamentos de banco de dados que podem ser utilizados para extrair dados do Workfront Planning para fins de integração.
+
+Você pode chamar a API de planejamento a partir de um campo de pesquisa externo em um formulário personalizado do Workfront.
+
+Para obter mais informações sobre campos de pesquisa externos, consulte [Exemplos do campo de pesquisa externo em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 ## URL da API do Workfront Planning
 
