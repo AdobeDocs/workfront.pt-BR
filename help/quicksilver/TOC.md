@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
 workflow-type: tm+mt
-source-wordcount: '14318'
+source-wordcount: '14317'
 ht-degree: 2%
 
 ---
@@ -1017,7 +1017,7 @@ ht-degree: 2%
    * [Visão geral dos painéis](agile/boards-overview.md)
    * Introdução aos painéis no Adobe Workfront {#boards-in-workfront}
       * [Introdução a quadros: índice de artigos](agile/get-started-with-boards/get-started-with-boards.md)
-      * [Demonstrações de vídeo das placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
+      * [Demonstrações de vídeo das placas Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Aceitação antecipada de recursos dos painéis](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Usar o painel de painéis](agile/get-started-with-boards/use-boards-page.md)
       * [Criar ou editar um quadro](agile/get-started-with-boards/create-edit-board.md)

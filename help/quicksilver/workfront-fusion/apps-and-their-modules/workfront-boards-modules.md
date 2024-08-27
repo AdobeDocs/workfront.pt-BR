@@ -9,10 +9,10 @@ description: Você pode usar o conector de placas Adobe Workfront para automatiz
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 1%
+source-wordcount: '2631'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Este conector está atualmente no Beta.
+>O conector de fusão de placas está em status beta. Como resultado, o suporte para este conector é limitado e pode mudar devido ao desenvolvimento futuro das placas. Além disso, pode haver alterações na API do GraphQL sem aviso prévio que podem afetar o processo do conector Fusion.
 
 As placas Adobe Workfront são ferramentas flexíveis que permitem a colaboração em equipe, fornecendo acesso a uma placa compartilhada que contém colunas e cartões.
 

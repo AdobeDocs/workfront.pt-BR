@@ -2,14 +2,14 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Adicionar uma coluna de entrada a um quadro
+title: Adicionar uma coluna Entrada a um Quadro
 description: Opcionalmente, é possível adicionar uma coluna de entrada ao quadro que automaticamente extrai tarefas e problemas como cartões conectados quando adicionados no Workfront, com base nos filtros definidos.
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 14448432922ec1fa478b805dead2ba1e6c211e86
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -46,30 +46,37 @@ Para obter mais informações sobre colunas, consulte [Gerenciar colunas do quad
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!DNL Request] ou superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> 
+   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
+   <p>ou</p>
+   <p>Atual: [!UICONTROL Request] ou superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Criar uma coluna de entrada usando filtros simples
 
-1. Clique no ícone **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique em **[!UICONTROL Configurar]** à direita do quadro para abrir o painel Configurar.
 1. Expanda **[!UICONTROL Painel]**.
@@ -95,7 +102,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar uma coluna de entrada usando filtros avançados
 
-1. Clique no ícone **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique em **[!UICONTROL Configurar]** à direita do quadro para abrir o painel Configurar.
 1. Expanda **[!UICONTROL Painel]**.

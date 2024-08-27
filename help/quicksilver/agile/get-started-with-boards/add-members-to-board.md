@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Adicionar ou remover membros de um quadro
+title: Adicionar ou Remover Membros de um Quadro
 description: As pessoas devem ser adicionadas ao painel como membros antes de visualizarem o painel e serem atribuídas a cartões.
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,37 @@ Pessoas e equipes devem ser adicionadas ao painel como membros antes de visualiz
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> 
+   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
+   <p>ou</p>
+   <p>Atual: [!UICONTROL Request] ou superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Adicionar membros a um quadro
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito do [!DNL Adobe] Workfront e em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. Crie um novo painel ou edite um existente. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique no ícone **[!UICONTROL Adicionar membro]** ![Adicionar membros](assets/boards-addmember-spectrum-25x25.png).
 1. Na caixa **[!UICONTROL Adicionar membros]**, comece digitando um nome e, em seguida, selecione-o quando ele for exibido na lista.
@@ -58,7 +65,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Remover membros de um quadro
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito do [!DNL Adobe] Workfront e em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. Crie um novo painel ou edite um existente. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique no ícone **[!UICONTROL Adicionar membro]** ![Adicionar membros](assets/boards-addmember-spectrum-25x25.png).
 1. Na caixa **[!UICONTROL Adicionar membros]**, clique no X ao lado do nome de uma pessoa ou equipe para removê-los do quadro.

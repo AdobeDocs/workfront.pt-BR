@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Usar placas conectadas em placas
+title: Uso de placas conectadas em placas
 description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e problemas existentes no Workfront.
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Adicionar um cartão conectado
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique em **[!UICONTROL Adicionar cartão] > [!UICONTROL Cartão conectado]**.
 1. Escolha um projeto e escolha uma tarefa ou problema para adicionar como cartão ao quadro.

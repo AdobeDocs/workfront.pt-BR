@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Adicionar tarefas ou problemas existentes a um quadro ou fluxo de trabalho do Adobe Workfront
+title: Adicionar tarefas ou problemas existentes a um Workfront Board
 description: Você pode adicionar qualquer tarefa ou problema a um quadro no Adobe Workfront a partir de uma lista ou exibição de relatório.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
-# Adicionar tarefas ou problemas existentes a um quadro ou fluxo de trabalho do [!DNL Adobe Workfront]
+# Adicionar tarefas ou problemas existentes a um quadro [!DNL Workfront]
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ Você pode adicionar qualquer tarefa ou problema a um quadro ou fluxo de trabalh
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto">
@@ -30,25 +32,32 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td>
    <td> <p>Qualquer</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td>
-   <td> <p>[!UICONTROL Work] ou superior</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td>
+   <td>
+   <p>Novo: [!UICONTROL Padrão]</p> 
+   <p>ou</p>
+   <p>Atual: [!UICONTROL Trabalho] ou superior</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Permissões de objeto</strong></td>
-   <td> <p>[!UICONTROL Exibir] ou permissões superiores para a tarefa ou problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td>
+   <td role="rowheader">Permissões de objeto</td>
+   <td>[!UICONTROL Exibir] ou permissões superiores para a tarefa ou problema </td>
   </tr>
  </tbody>
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Adicionar tarefas ou problemas existentes a um quadro ou workflow a partir de uma lista
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Escolha um dos seguintes: **[!UICONTROL Projetos]**, **[!UICONTROL Relatórios]** ou **[!UICONTROL Painéis]**.
 1. Vá para o projeto, relatório ou painel que contém a tarefa ou problema que deseja adicionar ao quadro ou fluxo de trabalho.
 1. Selecione uma ou mais tarefas ou problemas.
@@ -70,7 +79,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Adicionar tarefa ou problemas existentes a um quadro ou fluxo de trabalho a partir dos detalhes do objeto
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Clique em [!UICONTROL **Projetos**] e no nome de um projeto para abri-lo.
 1. Clique em [!UICONTROL **Tarefas**] ou [!UICONTROL **Problemas**] no painel esquerdo.
 1. Clique na tarefa, subtarefa ou problema que deseja adicionar a um quadro ou workflow.

@@ -7,9 +7,9 @@ description: Você pode excluir ou arquivar um quadro no Workfront. A exclusão 
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -20,32 +20,39 @@ Você pode excluir ou arquivar um quadro no [!DNL Workfront]. Excluir um quadro 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> 
+   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
+   <p>ou</p>
+   <p>Atual: [!UICONTROL Request] ou superior</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Excluir um quadro
 
 Quando você exclui um quadro, ele é removido permanentemente do [!DNL Workfront] e não pode ser restaurado. Quaisquer cartões no quadro também são excluídos juntamente com o quadro.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. No painel, selecione o quadro a ser aberto.
 1. Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e selecione **[!UICONTROL Excluir]**. Em seguida, clique em **[!UICONTROL Excluir quadro]** na mensagem de confirmação.
 
@@ -59,7 +66,8 @@ Quando você exclui um quadro, ele é removido permanentemente do [!DNL Workfron
 
 Os quadros arquivados retêm todos os cartões e atribuições. Qualquer usuário pode arquivar ou restaurar um quadro a qualquer momento.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. No painel, selecione o quadro a ser aberto.
 1. Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e selecione **[!UICONTROL Arquivar]**.
 
@@ -69,7 +77,8 @@ Os quadros arquivados retêm todos os cartões e atribuições. Qualquer usuári
 
 Uma placa arquivada pode ser restaurada a qualquer momento. Qualquer usuário pode restaurar um quadro arquivado.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. No painel, clique no ícone de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png) e selecione **[!UICONTROL Quadros arquivados]**.
 1. Localize o quadro que deseja restaurar, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) ao lado do nome do quadro e selecione **[!UICONTROL Restaurar]**.
 

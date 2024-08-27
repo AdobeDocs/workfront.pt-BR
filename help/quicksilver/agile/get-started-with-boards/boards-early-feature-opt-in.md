@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Aceitação antecipada de recursos para  [!DNL Adobe Workfront] Quadros
+title: Aceitação antecipada de recursos para  [!DNL Workfront] painéis
 description: Leia este artigo para saber mais sobre a [!DNL Workfront Boards] aceitação antecipada de recursos.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# Aceitação antecipada de recursos para [!DNL Adobe Workfront] [!UICONTROL Quadros]
+# Aceitação antecipada de recursos para [!DNL Workfront] [!UICONTROL Quadros]
 
 A aceitação antecipada de recursos para os [!DNL Adobe Workfront] [!UICONTROL Quadros] foi iniciada em julho de 2022.
 
