@@ -1,11 +1,13 @@
 ---
 title: Solicitar permissões para uma visualização ou um Workspace
 description: Você pode solicitar permissões para uma exibição ou um espaço de trabalho para o qual outras pessoas enviaram um link que não foi compartilhado anteriormente com você.
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -130,6 +132,6 @@ Quando alguém compartilha com você um link para um espaço de trabalho ou uma 
 
    * [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md)
    * [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Condicional) Quando a view ou o gerenciador de espaço de trabalho concede permissões para a view ou o espaço de trabalho, você recebe uma notificação por e-mail com uma confirmação de que as permissões foram concedidas ou negadas. <!--check this - I was not able to test this-->
+1. (Condicional) Quando a exibição ou o gerenciador de espaço de trabalho concede permissões para a exibição ou o espaço de trabalho, você recebe uma notificação por email e uma notificação no aplicativo com uma confirmação de que a permissão foi concedida. <!--check this - I was not able to test this-->
 
 

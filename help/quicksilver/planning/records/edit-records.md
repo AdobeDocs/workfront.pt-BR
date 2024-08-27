@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,10 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 * [De um objeto do Workfront na seção Planejamento](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Editar um registro incorporado na exibição de tabela de um tipo de registro
+
+Ao editar registros na exibição de tabela, há uma indicação de qual campo está sendo editado por outros usuários no momento em que você está visualizando o registro.
+
+Para obter mais informações, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 {{step1-to-planning}}
 

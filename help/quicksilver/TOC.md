@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 2%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 2%
       * [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Compartilhar espaços de trabalho](planning/access/share-workspaces.md)
       * [Compartilhar exibições](planning/access/share-views.md)
+      * [Solicitar permissões para uma exibição ou um espaço de trabalho](planning/access/request-permissions.md)
    * Registros do Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Registros: índice do artigo](planning/records/records-information.md)
       * [Criar registros](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 2%
       * [Gerenciar o layout da página de registros](planning/records/manage-the-record-page.md)
       * [Gerenciar registros na seção Planning de objetos do Adobe Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Solicitações do Adobe Workfront Planning {#adobe-workfront-planning-requests}
+      * [Solicitações de Planejamento do Adobe Workfront: índice do artigo](planning/requests/requests-article-index.md)
+      * [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](planning/requests/create-request-form.md)
+      * [Enviar solicitações do Adobe Workfront Planning para criar registros](planning/requests/submit-requests.md)
    * Exibições do Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Visualizações: índice do artigo](planning/views/views-information.md)
       * [Gerenciar exibições de registro](planning/views/manage-record-views.md)

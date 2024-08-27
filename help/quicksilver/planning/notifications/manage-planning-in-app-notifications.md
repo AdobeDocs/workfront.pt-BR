@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,14 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Quando alguém marca você em um comentário de registro, você pode receber uma notificação no aplicativo para essa tag.
+Você pode receber notificações no aplicativo do Workfront Planning quando os seguintes cenários existirem:
 
->[!IMPORTANT]
->
->Sua empresa deve ser um cliente da Experiência Unificada do Adobe para poder receber notificações do Workfront Planning.
->
->Para obter informações, consulte [Experiência unificada Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+* Alguém marcou você em um comentário de registro
 
-Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+  Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+* Alguém solicitar sua permissão para acessar uma visualização ou um espaço de trabalho
+* Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--verify this-->
+* Alguém negou seu acesso a uma visualização ou a um espaço de trabalho. <!--verify this-->
 
 ## Requisitos de acesso
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## Gerenciar notificações no aplicativo
+## Gerenciar notificações no aplicativo quando alguém adicionar uma tag a você em um comentário
 
 1. (Condicional) Depois que alguém marcar você em um comentário em um registro, vá para o ícone **Notificações** no aplicativo ![](assets/experience-cloud-notifications-icon.png) no Adobe Experience Cloud.
 
@@ -170,3 +169,8 @@ OLD:
 
 1. (Opcional) Clique em **Marcar tudo como lido** para indicar que você leu todas as notificações.
 1. (Opcional) Clique em **Exibir tudo** para ir para a página **Notificações** no Adobe Experience Cloud.
+
+
+## Gerencie notificações no aplicativo ao solicitar, conceder ou negar permissões para uma exibição ou um espaço de trabalho
+
+Para obter informações sobre como solicitar, conceder ou negar permissões para uma exibição ou um espaço de trabalho, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).

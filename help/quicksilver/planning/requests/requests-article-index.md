@@ -1,10 +1,11 @@
 ---
-title: "Solicitações de Planejamento do Adobe Workfront: índice do artigo"
+title: "Solicitações de Planejamento do Adobe Workfront: Índice de Artigos"
 description: Você pode criar um formulário de solicitação para cada tipo de registro, compartilhá-lo com os usuários e eles podem adicionar novos registros preenchendo e enviando o formulário.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -14,8 +15,6 @@ ht-degree: 0%
 # Solicitações de Planejamento do Adobe Workfront: índice do artigo
 
 Você pode criar um formulário de solicitação para cada tipo de registro, compartilhá-lo com os usuários e eles podem adicionar novos registros preenchendo e enviando o formulário.
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 Esta seção contém os seguintes artigos:
 

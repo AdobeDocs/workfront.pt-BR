@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2786'
 ht-degree: 3%
 
 ---
@@ -180,6 +180,7 @@ Para gerenciar uma exibição de tabela:
    * [Filtros](#add-filters)
    * [Agrupamento](#add-groupings)
    * [Classificar](#add-a-sort)
+   * [Ativar o indicador de presença em tempo real](#enable-the-real-time-presence-indicator)
 
 
 ### Adicionar colunas (ou campos) {#add-columns}
@@ -523,3 +524,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### Ativar o indicador de presença em tempo real
+
+Os avatares de outros usuários que estão editando informações de registro ao mesmo tempo que você exibe no canto superior direito de todas as visualizações de registro, por padrão.
+
+Ao exibir a visualização de tabela, você também pode visualizar qual campo outro usuário está editando no momento em que você está visualizando o registro.
+
+Para obter mais informações, consulte a seção &quot;Habilitar o indicador de presença em tempo real&quot; no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).

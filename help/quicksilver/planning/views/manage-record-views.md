@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,8 @@ Este artigo descreve as seguintes informações sobre visualizações de registr
 
 * [Criar e editar um modo de exibição](#create-or-edit-record-views)
 * [Excluir um modo de exibição](#delete-views)
-* [Duplicar uma exibição](#duplicate-views)
+* [Duplicar uma visualização](#duplicate-views)
+* [Habilitar os indicadores de presença em tempo real em uma exibição](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -343,3 +344,22 @@ Por padrão, todos os registros do tipo selecionado são exibidos na exibição 
 
    A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.
 
+## Ativar o indicador de presença em tempo real em uma exibição
+
+Os avatares de outros usuários que estão editando informações de registro ao mesmo tempo que você exibe no canto superior direito de todas as visualizações de registro, por padrão.
+
+Ao exibir a visualização de tabela, você também pode visualizar qual campo outro usuário está editando no momento em que você está visualizando o registro.
+
+1. Ir para uma página de tipo de registro e abrir qualquer exibição.
+1. (Condicional) Se houver outros usuários editando os registros do tipo selecionado ao mesmo tempo, seus avatares serão exibidos no canto superior direito da exibição.
+1. Clique no menu suspenso ao lado dos avatares e selecione a opção **Mostrar colaboradores**. O botão de alternância é selecionado por padrão.
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. (Condicional) Abra uma exibição de tabela e o campo que outra pessoa está editando é contornado com a cor correspondente ao contorno de seu avatar na exibição de tabela.
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Você pode selecionar a opção **Mostrar colaboradores** de qualquer modo de exibição. O campo editado é descrito somente na exibição de tabela.

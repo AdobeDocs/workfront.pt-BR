@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,11 @@ ht-degree: 1%
 Você pode receber notificações por email do Workfront Planning quando os seguintes cenários existirem:
 
 * Alguém marcou você em um comentário de registro
-<!--
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace
-* Someone has denied your access for a view or a workspace. -->
 
-
->[!IMPORTANT]
->
->Sua empresa deve ser um cliente da Experiência Unificada do Adobe para poder receber notificações do Workfront Planning.
->
->Para obter informações, consulte [Experiência unificada Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+  Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+* Alguém solicitar sua permissão para acessar uma visualização ou um espaço de trabalho
+* Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--verify this-->
+* Alguém negou seu acesso a uma visualização ou a um espaço de trabalho. <!--verify this-->
 
 ## Requisitos de acesso
 
@@ -160,7 +152,7 @@ OLD:
 -->
 
 
-## Gerenciar notificações por email <!--when someone tags you in a comment-->
+## Gerenciar notificações por email quando alguém adicionar uma tag a você em um comentário
 
 1. (Condicional) Depois que alguém adicionar uma tag a você em um comentário em um registro, acesse a notificação por email que informa sobre a tag e o comentário. O remetente do email é o Adobe Experience Cloud.
 
@@ -173,8 +165,6 @@ OLD:
 1. (Condicional) Se disponível, clique em **Exibir todas as notificações**. <!--check with Lilit - do non-IMS users have this button??-->
 A página **Notificações** é aberta no Adobe Experience Cloud. Todas as notificações de todos os aplicativos Adobe Experience Cloud são exibidas.
 
-<!--
-## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+## Gerenciar notificações por email ao solicitar, conceder ou negar permissões para uma exibição ou um espaço de trabalho
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
--->
+Para obter informações sobre como solicitar, conceder ou negar permissões para uma exibição ou um espaço de trabalho, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).

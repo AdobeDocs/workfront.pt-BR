@@ -1,19 +1,18 @@
 ---
 title: Enviar solicitações do Adobe Workfront Planning
 description: Depois que alguém compartilhar um link para um formulário de solicitação com você a partir de uma página de tipo de registro no Adobe Workfront Planning, você poderá adicionar uma solicitação para criar registros para o tipo de registro associado ao formulário de solicitação.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
 
 # Enviar solicitações do Adobe Workfront Planning para criar registros
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 1%
 Depois que alguém compartilhar um link para um formulário de solicitação com você a partir de uma página de tipo de registro no Adobe Workfront Planning, você poderá adicionar uma solicitação para criar registros para o tipo de registro associado ao formulário de solicitação.
 
 Usuários do Workfront e usuários externos podem enviar solicitações para tipos de registro do Planning e criar registros. <!--double check on the external users-->
+
+Este artigo descreve como você pode enviar uma solicitação para adicionar novos registros a um tipo de registro.
+
+Para obter informações sobre como um gerenciador de espaço de trabalho pode criar um formulário de solicitação e associá-lo a um tipo de registro, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Requisitos de acesso
 
@@ -57,7 +60,6 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
    <td>
 <p>Qualquer </p>  
 <p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>. </td>
-
 <tr>
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td>
    <td>
@@ -110,7 +112,7 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 * O formulário de solicitação deve ser compartilhado com um link para que você possa acessá-lo. Existem os seguintes cenários:
 
    * Se você tiver uma conta do Workfront, o link foi compartilhado somente com pessoas internas e você tem acesso ao espaço de trabalho. Pessoas fora do Workfront não podem acessar um link compartilhado internamente.
-   * Se você não tiver uma conta do Workfront, o link foi compartilhado com pessoas externas. Os usuários do Workfront também podem usar um link compartilhado com pessoas externas.
+   * Se você não tiver uma conta do Workfront, o link foi compartilhado com pessoas externas. Os usuários do Workfront também podem acessar um link compartilhado com pessoas externas.
 
 * O link para o formulário não deve estar expirado.
 
