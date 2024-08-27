@@ -88,7 +88,7 @@ Se o campo de cadeia de caracteres JSON contiver uma coleção `{ ... }`, a saí
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Se o campo de cadeia de caracteres JSON contiver uma matriz `[ ... ]`, a saída 
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -238,27 +238,28 @@ Esse módulo de ação transforma um objeto em uma sequência de caracteres json
 >
 1. Conecte o [!UICONTROL JSON] > [!UICONTROL Criar módulo JSON] após o módulo [!UICONTROL Agregador de Matriz]. A configuração do módulo requer uma estrutura de dados que descreva o formato JSON. Clique em **[!UICONTROL Adicionar]** para abrir a configuração da estrutura de dados. A maneira mais fácil de criar essa estrutura de dados é gerá-la automaticamente a partir de uma amostra JSON. Clique em **[!UICONTROL Gerador]** e cole sua amostra JSON no campo **[!UICONTROL Dados de amostra]**:
 >
-**Exemplo:**
+>     **Exemplo:**
 >
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>     ```
+>     {
+>     
+>     "books": [
+>     
+>     {
+>     
+>     "id": "ID",
+>     
+>     "title": "Title",
+>     
+>     "author": "Author"
+>     
+>     }
+>     
+>     ]
+>     
+>     }
+>     
+>     ```
 >
 1. Clique em **[!UICONTROL Salvar]**. O campo [!UICONTROL Especificação] na estrutura de dados agora contém a estrutura gerada.
 1. Altere o nome da estrutura de dados para algo mais específico e clique em **[!UICONTROL Salvar]**. Um campo correspondente ao atributo de matriz raiz aparece como um campo mapeável na configuração do módulo JSON.
