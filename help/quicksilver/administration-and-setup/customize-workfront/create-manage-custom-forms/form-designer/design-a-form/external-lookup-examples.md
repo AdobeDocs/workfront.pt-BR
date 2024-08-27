@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,16 @@ Este exemplo mostra como chamar a API do Workfront e trazer dados de um campo pe
 1. Clique em **Aplicar**.
 
    Quando o formulário personalizado é adicionado a um objeto do Workfront, todos os valores do campo &quot;Cores de combinação&quot; são exibidos na lista suspensa do campo Pesquisa externa.
+
+## Configurar um campo de pesquisa externo para a API do Workfront Planning
+
+Um ponto de extremidade está disponível na [API do Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md) para pesquisar registros por ID de tipo de registro por meio do método Get. Você pode usar esse endpoint para fazer referência a registros do Planning em campos de pesquisa Externos.
+
+* URL da API de **Base:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **Método HTTP:** Get
+* **Caminho JSON:** `$.records[*].data.{fieldID}`
+
+  **{fieldID}** é o campo a ser exibido nos resultados da pesquisa de pesquisa externa no formulário personalizado para usuários finais.
 
 ## Configurar um campo de pesquisa externo para uma API pública
 
