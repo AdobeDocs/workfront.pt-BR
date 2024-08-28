@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 816d45225f2d9c7fa91df901a945457c46af7945
+source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
 workflow-type: tm+mt
-source-wordcount: '14359'
+source-wordcount: '14358'
 ht-degree: 2%
 
 ---
@@ -438,8 +438,8 @@ ht-degree: 2%
          * [Nova experiência de comentários](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nova atividade de lançamento de experiência de comentário](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Perguntas frequentes sobre a nova experiência de comentários](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront data lake beta {#data-lake-beta}
-         * [Informações beta do data lake da Workfront](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+      * Versão beta do Workfront Data Connect {#data-lake-beta}
+         * [Informações beta do Workfront Data Connect](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administração e configuração {#administration-and-setup}
    * [Administração e configuração: índice de artigos](administration-and-setup/administration-and-setup.md)
    * Introdução à administração {#get-started-administration}
@@ -1734,12 +1734,12 @@ ht-degree: 2%
       * [Exibir a visualização da atividade Projeto na Análise aprimorada](enhanced-analytics/project-activity-overview.md)
       * [Visualização do mapa de árvore do projeto na Análise aprimorada](enhanced-analytics/project-treemap-overview.md)
       * [Visualização da Atividade por equipe na Análise aprimorada](enhanced-analytics/activity-by-team-overview.md)
-   * data lake do Workfront {#data-lake}
-      * [Visão geral do data lake do Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
+   * Workfront Data Connect {#data-lake}
+      * [Visão geral da Conexão de dados do Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Criar uma conta de leitor](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [Estabelecer uma conexão com o data lake da Workfront](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Dicionário de dados do Workfront data lake](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [Exemplos básicos de consulta de data lake do Workfront](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Estabelecer uma conexão com o Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Dicionário de dados da Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Exemplos de consulta da Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
 * Gerenciar recursos {#manage-resources}
    * [Gerenciar recursos](resource-mgmt/manage-resources.md)
    * Gerenciamento de recursos {#resource-management}

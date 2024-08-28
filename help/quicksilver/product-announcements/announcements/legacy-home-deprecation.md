@@ -5,9 +5,9 @@ title: Guia de descontinuação do Legacy Home
 description: Esta página contém informações sobre a descontinuação futura da Página inicial herdada.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Recomendamos aos administradores:
 
 1. Reatribua o restante dos usuários ao novo layout da página inicial.
 
-Fazer isso o mais rápido possível dará aos usuários tempo para se ajustarem à nova experiência e personalizar suas novas Páginas iniciais para melhor atender às suas necessidades individuais.
+Fazer isso o mais rápido possível dará aos usuários tempo para se ajustarem à nova experiência e personalizar suas novas Páginas iniciais para melhor atender às suas necessidades individuais. Consulte [Remover, adicionar e reorganizar widgets na nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) para obter informações sobre como um usuário pode personalizar os widgets em sua própria nova Página Inicial.
 
 ### Siga a experiência da Página inicial à medida que ela se desenvolve
 
@@ -74,7 +74,7 @@ Não, ele será completamente removido do aplicativo.
 
 Quase, com exceção de:
 
-* Calendário, que está atualmente em nosso roteiro para a nova Página inicial.
+* atualmente em nosso roteiro para prioridades.
 
 * A exibição de carimbos de data/hora para datas de vencimento do objeto não está disponível no momento.
 
