@@ -8,10 +8,10 @@ description: Explore as perguntas frequentes sobre a promoção do ambiente Work
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Atualmente, a promoção de ambientes entre domínios não é suportada. Você d
 
 ### Responder
 
-Não. A Promoção de ambiente está disponível para instâncias habilitadas para IMS e não IMSWorkfront.
+Não. A Promoção de ambiente está disponível para instâncias do Workfront habilitadas para IMS e não IMS.
 
 ## Como podemos descobrir se nossa instância do Workfront está em uma licença Prime ou Ultimate?
 
@@ -73,4 +73,3 @@ A reversão é uma prioridade e está em desenvolvimento no momento. Esperamos l
 * &quot;Usar existente&quot; é o mesmo que &quot;ignorar&quot; ou ignorar a implantação, pois ela mapeia para o objeto existente no ambiente de destino e não faz alterações.
 * Para ignorar objetos, recomendamos remover
 todos os objetos que você não deseja instalar diretamente do pacote promocional ou do ambiente de origem. Após remover os objetos, remonte o pacote.
-
