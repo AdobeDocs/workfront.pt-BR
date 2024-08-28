@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 >Para obter uma visão geral do Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Este artigo lista os recursos que foram lançados durante 2023 após o lançamento do programa de planejamento do Adobe Workfront, em 22 de maio de 2023.
+Este artigo lista os recursos que foram lançados durante 2023 após o lançamento do programa beta do Adobe Workfront Planning, em 22 de maio de 2023.
 
 Para obter mais informações sobre a atividade de lançamento, consulte também os seguintes artigos:
 
-* [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): Para obter informações sobre a atividade de versão atual do Workfront Planning.
+* [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) para obter informações sobre a atividade de versão atual do Workfront Planning.
 
-* [Atividade de versão do Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md): para obter informações sobre os recursos lançados durante 2024, antes da disponibilização geral em 28 de agosto de 2024.
+* [Atividade de versão do Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md) para obter informações sobre os recursos lançados durante 2024, antes da disponibilização geral em 28 de agosto de 2024.
 
 Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro.
 
