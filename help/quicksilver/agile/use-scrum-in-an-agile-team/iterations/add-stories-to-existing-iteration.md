@@ -6,9 +6,9 @@ description: É possível adicionar histórias a uma iteração de várias manei
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Você pode adicionar histórias a uma iteração de qualquer uma das seguintes maneiras:
 
-* Da lista de pendências após a criação da iteração, conforme descrito na seção [Mover histórias da lista de pendências para uma iteração ou quadro [!UICONTROL Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#moving-stories-from-the-backlog) em [Gerenciar a lista de pendências ágil](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Da lista de pendências após a criação da iteração, conforme descrito na seção [Mover histórias da lista de pendências para uma iteração ou quadro [!UICONTROL Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) em [Gerenciar a lista de pendências ágil](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Na página [!UICONTROL Detalhes] da tarefa ou problema individual
 * De uma lista de tarefas ou problemas
@@ -26,32 +26,32 @@ Você pode adicionar histórias a uma iteração de qualquer uma das seguintes m
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Acesso [!UICONTROL Gerenciar] ao projeto em que a história está</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p> 
+   ou
+   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
+  </tr>
+   <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td>Acesso [!UICONTROL Gerenciar] ao projeto em que a história está </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Entender como a adição de histórias afeta as datas da tarefa
 
@@ -79,17 +79,9 @@ Por padrão, quando você adiciona uma tarefa existente a uma iteração, a [!UI
 
    * A [!UICONTROL Data de Início Planejada] do projeto é *após* a Data de Início da iteração e a [!UICONTROL Data de Conclusão Planejada] do projeto é *após* a Data de Término da iteração.
 
-Você pode configurar equipes Scrum individuais para usar as datas do projeto por padrão, em vez das datas de iteração. Para obter informações, consulte a seção [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Você pode configurar equipes Scrum individuais para usar as datas do projeto por padrão, em vez das datas de iteração. Para obter informações, consulte a seção [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Adicionar uma história a uma iteração existente
-
-Para adicionar histórias a uma iteração diretamente da tarefa ou problema:
-
->[!IMPORTANT]
->
->Depois que a tarefa é movida para a iteração, não é possível atualizar o [!UICONTROL Tipo de Duração] ou a [!UICONTROL Restrição de Tarefa]. [!UICONTROL Tipo de Duração] está definido como [!UICONTROL Simples] e [!UICONTROL Restrição de Tarefa] está definido como [!UICONTROL Datas Fixas] para manter a linha do tempo da tarefa consistente com a linha do tempo da iteração.
-
-### Na guia tarefas ou problemas
 
 É possível adicionar qualquer tarefa ou problema a qualquer iteração se você tiver acesso de Gerenciamento ao projeto. Lembre-se do seguinte ao mover uma tarefa ou problema para uma iteração:
 
@@ -98,17 +90,21 @@ Para adicionar histórias a uma iteração diretamente da tarefa ou problema:
 * Se a tarefa ou problema não for atribuído a uma equipe, a tarefa ou problema será atribuído à equipe que possui a iteração.
 * Não é possível adicionar tarefas pai à iteração. Se você adicionar qualquer tarefa filho, a tarefa pai aparecerá no quadro Scrum como uma raia.
 
-1. Vá para o projeto, relatório ou painel que contém a tarefa ou problema que deseja adicionar a uma iteração.
-1. Selecione uma ou mais tarefas ou problemas.
-1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png) > **[!UICONTROL Adicionar à Iteração]**.\
-   Não é possível atribuir tarefas ou problemas atribuídos a equipes não ágeis.
+>[!IMPORTANT]
+>
+>Depois que a tarefa é movida para a iteração, não é possível atualizar o [!UICONTROL Tipo de Duração] ou a [!UICONTROL Restrição de Tarefa]. [!UICONTROL Tipo de Duração] está definido como [!UICONTROL Simples] e [!UICONTROL Restrição de Tarefa] está definido como [!UICONTROL Datas Fixas] para manter a linha do tempo da tarefa consistente com a linha do tempo da iteração.
 
-1. Na caixa **[!UICONTROL Adicionar histórias]**, digite o nome da iteração.
+1. Abra a tarefa ou problema que deseja adicionar a uma iteração.
+Ou
+Vá para o projeto, relatório ou painel que contém a tarefa ou problema que deseja adicionar a uma iteração. Em seguida, selecione uma ou mais tarefas ou problemas.
+
+1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png) > **[!UICONTROL Adicionar à Iteração]**.
+Não é possível atribuir tarefas ou problemas atribuídos a equipes não ágeis.
+
+1. Na caixa **[!UICONTROL Adicionar a]**, comece digitando o nome da iteração e selecione-o quando ele aparecer na lista.
 
    >[!NOTE]
    >
    >Você pode mover uma história de uma iteração existente para uma nova iteração.
 
-1. Se você estiver adicionando tarefas, clique em **[!UICONTROL Adicionar histórias]**.\
-   Ou\
-   Se você estiver adicionando problemas, clique em **[!UICONTROL Adicionar Problemas]**.
+1. Clique em **[!UICONTROL Adicionar]**.

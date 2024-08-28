@@ -6,9 +6,9 @@ description: As iterações são um componente essencial para as equipes ágeis 
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ As iterações são um componente essencial para as equipes ágeis de Scrum no p
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Light] ou superior</p> 
+   ou
+   <p>Atual: [!UICONTROL Review] ou posterior</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Adicionar uma iteração
 
 Use o recurso [!UICONTROL Adicionar iteração] para criar rapidamente uma iteração e adicionar tarefas e problemas mais tarde.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Na guia **[!UICONTROL Iterações]**, clique em **[!UICONTROL Adicionar Iteração]**.\
+1. Na guia **[!UICONTROL Iterações]**, clique em **[!UICONTROL Adicionar Iteração]**.
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. Especifique o seguinte:
@@ -90,7 +96,7 @@ Use o recurso [!UICONTROL Adicionar iteração] para criar rapidamente uma itera
 
 Use o recurso [!UICONTROL Planejar Iteração] para criar uma iteração usando tarefas em sua lista de pendências.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
@@ -129,10 +135,10 @@ Use o recurso [!UICONTROL Planejar Iteração] para criar uma iteração usando 
     </tbody> 
    </table>
 
-1. (Opcional) Selecione matérias para adicioná-las à iteração agora, ou ignore esta etapa e adicione matérias a uma iteração posteriormente. As histórias no topo do backlog têm prioridade mais alta. As histórias são destacadas em verde quando se encaixam na capacidade; se não se encaixarem, elas são destacadas em vermelho.\
-   É possível adicionar tarefas e problemas a uma única iteração:
+1. (Opcional) Selecione matérias para adicioná-las à iteração agora, ou ignore esta etapa e adicione matérias a uma iteração posteriormente. As histórias no topo do backlog têm prioridade mais alta. As histórias são destacadas em verde quando se encaixam na capacidade; se não se encaixarem, elas são destacadas em vermelho.
+É possível adicionar tarefas e problemas a uma única iteração:
 
-   * **Para adicionar tarefas à iteração:** na guia **[!UICONTROL Lista de pendências]**, verifique se a guia **[!UICONTROL Histórias]** está selecionada (essa guia é selecionada por padrão ao exibir a lista de pendências). Selecione as matérias que deseja adicionar à iteração.\
+   * **Para adicionar tarefas à iteração:** na guia **[!UICONTROL Lista de pendências]**, verifique se a guia **[!UICONTROL Histórias]** está selecionada (essa guia é selecionada por padrão ao exibir a lista de pendências). Selecione as matérias que deseja adicionar à iteração.
 
      Ao adicionar tarefas a uma iteração, a data de início da tarefa é calculada conforme descrito em [[!UICONTROL Entender] como as datas de início da tarefa são calculadas quando adicionadas a uma iteração](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
@@ -151,4 +157,4 @@ Quando você adiciona uma tarefa como uma história a uma iteração, a restriç
 
 A [!UICONTROL Data de Término do Projeto] é usada em vez da   se a data de início do projeto for posterior à data de início da iteração e a data de término do projeto for posterior à data de término da iteração.
 
-Você pode configurar equipes Scrum individuais para usar as datas do projeto por padrão, em vez das datas de iteração. Para obter informações, consulte a seção [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Você pode configurar equipes Scrum individuais para usar as datas do projeto por padrão, em vez das datas de iteração. Para obter informações, consulte a seção [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

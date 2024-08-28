@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Adicionar tarefas ou problemas existentes ao quadro Kanban
+title: Adicionar tarefas ou problemas existentes ao Quadro Kanban
 description: Você pode adicionar qualquer tarefa ou problema a um Quadro Kanban se tiver acesso de gerenciamento ao projeto.
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -22,34 +22,38 @@ Você pode adicionar qualquer tarefa ou problema a um quadro [!UICONTROL Kanban]
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p> 
+   ou
+   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Adicionar tarefas ou problemas existentes ao quadro Kanban
 
 Para adicionar uma tarefa ou problema a um quadro [!UICONTROL Kanban]:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
 
 1. Escolha um dos seguintes: **[!UICONTROL Projetos]**, **[!UICONTROL Relatórios]** ou **[!UICONTROL Painéis]**.
 
@@ -60,7 +64,7 @@ Para adicionar uma tarefa ou problema a um quadro [!UICONTROL Kanban]:
 
    >[!NOTE]
    >
-   >Se você adicionar várias equipes, a tarefa ou problema poderá ser exibido somente no quadro [!DNL kanban] de uma equipe. Esta é a placa escolhida na etapa 5.
+   >Se você adicionar várias equipes, a tarefa ou problema poderá ser exibido somente no quadro [!DNL kanban] de uma equipe. Este é o painel que você escolheu anteriormente.
 
 1. Se você estiver adicionando tarefas, clique em **[!UICONTROL Adicionar histórias]**.
 Ou

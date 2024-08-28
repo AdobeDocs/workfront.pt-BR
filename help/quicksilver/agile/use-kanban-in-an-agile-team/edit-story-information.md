@@ -6,9 +6,9 @@ description: Ao visualizar um bloco de matéria no quadro Kanban, determinadas i
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 9da0c8234f563a0202cd15017b37a341476f7406
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -71,32 +71,36 @@ Ao visualizar um bloco de história no quadro [!UICONTROL Kanban], as informaç�
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p> 
+   ou
+   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir e editar informações em um bloco de história
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do *[!UICONTROL *Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone Equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
 
@@ -105,9 +109,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. (Opcional) Para editar um campo, clique nele e, em seguida, faça as alterações.\
-   Você deve ter direitos de [!UICONTROL Editar] à tarefa ou problema para editar o bloco de história.\
-   Para obter mais informações sobre cada campo e se ele pode ser editado, consulte [Entender quais informações podem ser visualizadas e editadas](#understand-what-information-can-be-viewed-and-edited).
+1. (Opcional) Para editar um campo, clique nele e, em seguida, faça as alterações.
+Você deve ter direitos de [!UICONTROL Editar] à tarefa ou problema para editar o bloco de história.
+Para obter mais informações sobre cada campo e se ele pode ser editado, consulte [Entender quais informações podem ser visualizadas e editadas](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]
 >

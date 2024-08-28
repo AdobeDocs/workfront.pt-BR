@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
-title: Criar uma equipe ágil
+title: Criar uma equipe Agile
 description: O Adobe Workfront permite que equipes ágeis concluam o trabalho de forma incremental e organizada.
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>Novo: Padrão</p>
    Atual: 
    <ul><li><p>[!UICONTROL Plano] para criar uma nova Equipe Ágil</p></li> 
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,14 +71,14 @@ A metodologia ágil [!DNL Kanban] no [!DNL Workfront] permite mover mais facilme
 
 A seguinte funcionalidade é compatível com essa metodologia:
 
-* Exibir o backlog no storyboard ágil [!DNL Kanban].\
-   Para obter mais informações, consulte [Adicionar o backlog ao quadro [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+* Exibir o backlog no storyboard ágil [!DNL Kanban].
+Para obter mais informações, consulte [Adicionar o backlog ao quadro [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Configure os itens na lista de pendências a serem adicionados automaticamente ao [!UICONTROL Kanban] storyboard ágil quando outros itens forem movidos para um status que equivale a Concluído.\
-   Para obter mais informações, consulte a seção [Configurar histórias que serão adicionadas automaticamente da lista de pendências](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) no artigo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+* Configure os itens na lista de pendências a serem adicionados automaticamente ao [!UICONTROL Kanban] storyboard ágil quando outros itens forem movidos para um status que equivale a Concluído.
+Para obter mais informações, consulte a seção [Configurar histórias que serão adicionadas automaticamente da lista de pendências](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) no artigo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure um limite de Trabalho em andamento (WIP) a ser exibido no storyboard ágil [!UICONTROL Kanban].\
-   Para obter mais informações, consulte [Gerenciar o limite de trabalhos em andamento (WIP) no quadro Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+* Configure um limite de Trabalho em andamento (WIP) a ser exibido no storyboard ágil [!UICONTROL Kanban].
+Para obter mais informações, consulte [Gerenciar o limite de trabalhos em andamento (WIP) no quadro Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Benefícios do uso do Scrum em [!DNL Workfront]
 
@@ -89,8 +89,8 @@ A seguinte funcionalidade é compatível com essa metodologia:
 * Incluir problemas no storyboard [!UICONTROL Scrum]
 * Incluir problemas na lista de pendências de uma equipe ágil
 * Subtarefas podem ser exibidas no storyboard [!UICONTROL Scrum]
-* Exibir um gráfico de burndown para ver o progresso em relação às histórias durante a iteração\
-   Para obter mais informações, consulte [Visão geral do gráfico de burndown ágil](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+* Exibir um gráfico de burndown para ver o progresso em relação às histórias durante a iteração
+Para obter mais informações, consulte [Visão geral do gráfico de burndown ágil](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Criar uma equipe ágil
 
@@ -150,19 +150,21 @@ A seguinte funcionalidade é compatível com essa metodologia:
 
 É possível converter uma equipe existente em uma equipe ágil:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
+
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe que você deseja converter em uma equipe ágil.
-1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.\
-   Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL Trabalho] veem essa opção.\
+1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+
+   Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] podem ver esta opção.
    ![](assets/edit-team-settings-350x205.png)
 
 1. Na seção **[!UICONTROL Agile]**, selecione **[!UICONTROL Equipe Agile]**.
 
 1. Na seção **[!UICONTROL Metodologia]**, selecione se a equipe usará uma metodologia ágil de **[!UICONTROL Scrum]** ou **[!UICONTROL Kanban]**.
 
-1. Clique em **Salvar alterações.**
+1. Clique em **Salvar alterações**.
 
    A equipe é salva como uma equipe Agile. Você pode configurar a nova equipe como um Scrum ou uma equipe Kanban ao editá-la.
 

@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Gerenciar o backlog ágil
+title: Gerenciar o backlog Agile
 description: Tarefas e problemas podem ser atribuídos a uma equipe ágil e adicionados ao backlog dessa equipe como histórias, dependendo da metodologia ágil que a equipe está usando.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
-   <td> <p>Novo: [!UICONTROL Padrão]</p><p>Ou</p><p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p> 
+   ou
+   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
-   <td> <p>Novo: [!UICONTROL Padrão]</p><p>Ou</p><p>Atual: [!UICONTROL Worker] ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Acesso [!UICONTROL Gerenciar] ao projeto em que a história está</p>  </td> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td>Acesso [!UICONTROL Gerenciar] ao projeto em que a história está </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ Você pode reordenar matérias na lista de backlog usando o método arrastar e s
    >
    >Se uma tarefa ou problema tiver uma equipe ágil atribuída e o projeto não estiver em um status que corresponda a Atual, ele não será exibido no backlog. No entanto, elas ainda afetam a contagem de backlog na coluna Ordem.
 
-1. Selecione uma ou mais matérias e arraste-as para a ordem em que deseja que elas apareçam no backlog.\
+1. Selecione uma ou mais matérias e arraste-as para a ordem em que deseja que elas apareçam no backlog.
    ![Arrastar e soltar itens do backlog](assets/agile-backlog-drag-and-drop.png)
 
 ### Analisar histórias {#break-down-stories}
@@ -96,8 +94,8 @@ Como as histórias em um backlog variam de tamanho, os usuários podem dividi-la
 Para detalhar uma história:
 
 1. Vá para o backlog que contém a história que você deseja detalhar.
-1. Selecione a história que deseja detalhar e clique em **[!UICONTROL Analisar história]**.\
-   A caixa de diálogo [!UICONTROL Analisar história] é exibida.\
+1. Selecione a história que deseja detalhar e clique em **[!UICONTROL Analisar história]**.
+A caixa de diálogo [!UICONTROL Analisar história] é exibida.
    ![Caixa de diálogo Analisar História](assets/backlog-breakdown-dialog.png)
 
 1. Especifique um nome e uma estimativa para a matéria e selecione se a matéria está pronta.
@@ -179,19 +177,17 @@ Para criar uma história no backlog:
 
 Para atribuir uma tarefa ou um problema a uma Equipe Ágil:
 
-1. Vá para o Projeto que contém a tarefa que você deseja atribuir.
+1. Vá para o projeto que contém a tarefa que você deseja atribuir.
 1. Selecione a tarefa ou problema na lista.
 1. Clique em **[!UICONTROL Editar]**.
 1. Clique em **[!UICONTROL Atribuições]**.
 1. (Opcional) Exclua todos os atribuídos existentes.
 1. Clique em **[!UICONTROL Adicionar responsável]**.
 1. Comece digitando o nome da equipe ágil que você deseja que seja atribuído à tarefa ou problema, em seguida, clique no nome da equipe quando ele aparecer na lista suspensa.
-1. Clique em **[!UICONTROL Salvar alterações]**.\
-   A tarefa ou problema agora está disponível no backlog da equipe.
+1. Clique em **[!UICONTROL Salvar alterações]**.
+A tarefa ou problema agora está disponível no backlog da equipe.
 
 ## Mover histórias para dentro ou para fora do backlog
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
 * [Mover histórias do backlog para uma iteração ou quadro +](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Mover as histórias existentes para o backlog](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ Para atribuir uma tarefa ou um problema a uma Equipe Ágil:
 ### Mover histórias do backlog para uma iteração ou quadro +
 
 1. Ir para o backlog da Equipe Ágil.
-1. Selecione as histórias que deseja mover para uma iteração ou quadro Kanban e clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**.\
-   Se você mover a história para um quadro [!UICONTROL Kanban], o quadro [!UICONTROL Mover história para o Kanban] será exibido.\
-   Se você mover a matéria para uma iteração, a caixa de diálogo [!UICONTROL Mover a História para uma Iteração] será exibida.\
+1. Selecione as histórias que deseja mover para uma iteração ou quadro Kanban e clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**.
+Se você mover a história para um quadro [!UICONTROL Kanban], o quadro [!UICONTROL Mover história para o Kanban] será exibido.
+Se você mover a matéria para uma iteração, a caixa de diálogo [!UICONTROL Mover a História para uma Iteração] será exibida.
    ![Caixa de diálogo Mover História](assets/agile-backlog-addtoiteration.png)
 
 1. Siga um destes procedimentos:
