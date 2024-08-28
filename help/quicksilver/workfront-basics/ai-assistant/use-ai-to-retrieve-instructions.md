@@ -5,7 +5,7 @@ description: Você pode resumir rapidamente itens de trabalho e documentos usand
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -55,3 +55,4 @@ Para obter informações ou instruções da Documentação do Workfront usando o
 1. Visualize a resposta no painel Assistente de IA.
 1. (Opcional) Se a resposta não contiver as informações necessárias, refine sua resposta e tente novamente.
 1. (Opcional e condicional) Se a resposta incluir um link para um artigo do Adobe Experience League, clique no link para abrir o artigo em uma nova janela.
+

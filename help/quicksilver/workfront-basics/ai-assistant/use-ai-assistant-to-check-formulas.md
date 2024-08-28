@@ -5,7 +5,7 @@ description: Você pode usar o Assistente de IA para resolver erros em suas expr
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -68,3 +68,4 @@ Para revisar uma expressão de campo calculado inválida:
 >Recomendamos testar o campo calculado para garantir que ele recupere o resultado esperado.
 
 Para obter mais informações sobre campos calculados no Workfront, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+
