@@ -4,11 +4,11 @@ navigation-topic: get-started-with-workfront
 title: Idiomas compatíveis com o Adobe Workfront
 description: Você pode alterar o idioma em que exibe o Adobe Workfront e emails provenientes do Workfront, ajustando as preferências de idioma no navegador e a localidade de email padrão no Workfront.
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ O idioma do navegador deve ser alterado de acordo com cada usuário.
 
 Consulte o menu &quot;Ajuda&quot; do seu navegador para obter informações específicas sobre como alterar o idioma do seu navegador.
 
-## Alterar o idioma do Adobe Experience Cloud
+### Alterar o idioma do Adobe Experience Cloud
 
 Se sua organização estiver no IMS, o idioma do perfil do Adobe Experience Cloud determinará o idioma que é exibido no Workfront.
 
@@ -149,6 +149,10 @@ Para alterar a localidade de email padrão do Workfront:
 ### Alterar a localidade de email do usuário {#change-the-user-locale}
 
 Ao alterar a Localidade de email do usuário, você modifica o idioma, a data e o formato do número usados nas mensagens de saída. Essas configurações substituem as configurações do sistema selecionadas na área Informações do cliente da Configuração.
+
+>[!NOTE]
+>
+>Quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas no perfil de Adobe e a localidade do email não é usada. Consulte [Alterar o idioma do Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) neste artigo.
 
 Para alterar a localidade de email do usuário:
 

@@ -6,9 +6,9 @@ description: Seu perfil  [!DNL Adobe Workfront]  contém informações sobre voc
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3319'
 ht-degree: 1%
 
 ---
@@ -220,8 +220,8 @@ A grade a seguir mostra quais seções na área [!UICONTROL Minhas Configuraçõ
 Esta seção inclui as seguintes subseções:
 
 * [Informações básicas](#basic-info)
-* [Informações do trabalho](#job-info)
-* [Informações de contato](#contact-info)
+* [Informações profissionais](#job-info)
+* [Informações para contato](#contact-info)
 
 #### [!UICONTROL Informações básicas]
 
@@ -339,7 +339,8 @@ Especifique o que deseja exibir na interface do [!DNL Workfront] nesta seção.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Local de Email]</strong> </td> 
-   <td>Especifique seu idioma preferido aqui. Controla o idioma, a data e o formato do número usados nas mensagens de email de saída.</td> 
+   <td><p>Especifique seu idioma preferido aqui. Controla o idioma, a data e o formato do número usados nas mensagens de email de saída.</p>
+   <p><strong>OBSERVAÇÃO:</strong> quando sua organização está no Adobe da Experiência unificada, as preferências de idioma são armazenadas no seu perfil de Adobe e a localidade de email não é usada. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Alterar o idioma do Adobe Experience Cloud</a> no artigo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas com suporte no Adobe Workfront</a>.</p></td> 
   </tr>
 
 <tr> 

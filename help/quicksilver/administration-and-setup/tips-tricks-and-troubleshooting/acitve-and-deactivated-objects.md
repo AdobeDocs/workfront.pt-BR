@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 307bfb397555c7f9d424e429785dae36c639756a
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 2%
@@ -123,3 +123,4 @@ Uma função de trabalho deve estar ativa para aparecer em qualquer campo de dig
 É possível desativar funções de trabalho ao editá-las.
 
 Para obter informações sobre como desativar funções de trabalho, consulte [Desativar funções de trabalho](../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+
