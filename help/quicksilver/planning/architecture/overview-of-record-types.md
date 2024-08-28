@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para obter informações sobre como criar tipos de registro, consulte [Criar tip
 * Ao criar um tipo de registro em um espaço de trabalho criado do zero, você pode colocar o tipo de registro em qualquer seção criada no espaço de trabalho.
 * Ao criar um tipo de registro, somente você e aqueles a quem você conceder permissões para acessar o espaço de trabalho poderão exibir o tipo de registro.
 * Você deve criar um espaço de trabalho antes de criar tipos de registro para ele.
-* Você pode ter um total de 1.000 tipos de registros em um espaço de trabalho, independentemente de quantas seções o espaço de trabalho tenha. Isso inclui os tipos de registro criados do zero ou criados ao usar um modelo.
+* Para limitações sobre quantos tipos de registros você pode ter em um espaço de trabalho ou instância do Workfront, consulte [Visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 
 <!--

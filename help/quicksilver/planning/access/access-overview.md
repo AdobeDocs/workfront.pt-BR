@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
    <ul>
    <li><p>Exiba ou aumente as permissões dos espaços de trabalho e exibições que você não criou para acessá-los e seus objetos.</p></li>
    <li><p>Permissões do Contribute ou superior para espaços de trabalho que você não criou para editá-los e criar, editar ou excluir tipos de registros e registros.</p></li>
-   <li><p>Permissões do Contribute ou superior para visualizações que você não criou, para editar, excluir e compartilhá-las</p>
+   <li><p>Permissões do Contribute ou superior para exibições que você não criou, para editá-las, excluí-las e compartilhá-las</p>
    </li>
     <li><p>Os administradores do sistema podem gerenciar espaços de trabalho que não criaram. </p></li>
     <li><p>Os administradores do sistema não podem acessar as exibições que não criaram. </p></li></ul>
@@ -225,7 +225,7 @@ Usuários com qualquer tipo de licença do Workfront podem acessar o Workfront P
 
 Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Workfront Planning para fornecer acesso a visualização, contribuição ou gerenciamento de objetos do Workfront Planning.
+O tipo de licença do Adobe Workfront funciona com as permissões do Workfront Planning para que você tenha acesso a visualizar, contribuir ou gerenciar objetos do Workfront Planning.
 
 Para obter informações sobre como os tipos de licença afetam os níveis de permissão para objetos do Workfront Planning, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 

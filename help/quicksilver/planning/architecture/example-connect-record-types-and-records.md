@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,21 @@ Para fazer isso:
    * **Tipo de registro**: produto <!--did they change the casing here?-->
    * **Nome**: dê um nome ao novo campo. Por exemplo, &quot;Informações do produto&quot;. Este é o nome do campo de registro vinculado.
    * **Descrição**: adicione uma descrição para o novo campo. Por exemplo, &quot;Estes são os produtos aos quais desejo associar minhas campanhas&quot;. A descrição do campo é exibida ao passar o mouse sobre o campo no cabeçalho da coluna.
-   * **Permitir vários registros**: se você deixar essa opção selecionada, os usuários poderão selecionar vários registros quando o campo de tipo de registro vinculado (Informações do produto) for exibido nos registros originais (Campanhas). Em nosso caso, os usuários podem selecionar vários produtos para serem conectados a uma campanha.
+   * **Tipo de conexão**: selecione entre as seguintes opções:
+      * **De muitos para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a várias campanhas.
+      * **De um para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a uma campanha.
+      * **De muitos a um**: os usuários podem conectar uma campanha a um produto e um produto a várias campanhas.
+      * **Um para um**: os usuários podem conectar uma campanha a um produto e um produto a uma campanha.
+
+     >[!NOTE]
+     >
+     >A opção **Tipo de conexão** não está disponível ao conectar registros de espaços de trabalho diferentes ou ao conectar ativos do Experience Manager. Para obter mais informações, consulte [Visão geral dos tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+   * **Aparência do registro**: desmarque a opção **Título** se não quiser exibir o nome dos produtos ao adicioná-los ao campo Informações do produto da campanha. Se ativado, os registros exibem a miniatura e o título. O botão de alternância é ativado por padrão.
    * **Selecionar campos de pesquisa**: se você deixar essa opção selecionada, a caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Produto posteriormente.
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Opcional) Desmarque a opção **Título** na seção **Aparência do registro** para exibir somente a imagem em miniatura do registro nos campos conectados. Se ativado, os registros exibem a miniatura e o título. O botão de alternância é ativado por padrão.
 1. (Condicional) Se você selecionou a opção **Selecionar campos de pesquisa** na etapa anterior, na lista de campos associados ao tipo de registro **Produto**, clique no ícone **+** do campo **Orçamento** e clique em **Adicionar campos**. Isso cria um campo chamado **Orçamento (das informações do produto)**, que é o nome do campo vinculado. Todas as informações para o Orçamento do produto são exibidas nesse campo para os registros da Campanha.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -138,8 +147,12 @@ Para fazer isso:
    * **Tipo de registro**: projeto (da subseção Workfront)
    * **Nome**: dê um nome ao novo campo, por exemplo &quot;Informações do projeto&quot;.
    * **Descrição**: adicione uma descrição para o novo campo. Por exemplo, &quot;Estes são os projetos aos quais quero associar minhas campanhas&quot;. A descrição é exibida na exibição de tabela, à medida que você passa o mouse sobre o nome do campo no cabeçalho da coluna.
-   * 
-      * **Permitir vários registros**: se esta opção for deixada selecionada, os usuários poderão selecionar vários projetos quando o campo de tipo de projeto vinculado (Informações do projeto) for exibido nos registros originais (Campanhas).
+   * **Tipo de conexão**: selecione entre as seguintes opções:
+      * **De muitos para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a várias campanhas.
+      * **De um para muitos**: os usuários podem conectar uma campanha a vários produtos e um produto a uma campanha.
+      * **De muitos a um**: os usuários podem conectar uma campanha a um produto e um produto a várias campanhas.
+      * **Um para um**: os usuários podem conectar uma campanha a um produto e um produto a uma campanha.
+   * **Vincular somente objetos que correspondam a este critério**: selecione um formulário personalizado no menu suspenso **Formulário personalizado**. Somente os projetos associados aos formulários especificados estão disponíveis para serem conectados às campanhas. É possível selecionar vários formulários.
    * **Selecionar campos de pesquisa**: se você deixar essa opção selecionada, a caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir que você vincule campos do Project ao tipo de registro do Campaign. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos do Project mais tarde.
 
    ![](assets/new-connection-tab-with-workfront-option.png)

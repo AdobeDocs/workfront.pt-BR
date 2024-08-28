@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
 
    O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
-1. Clique no nome de um modo de exibição de **Tabela** para abri-lo.
+1. Clique no nome de uma exibição de tabela para abri-la.
 1. (Opcional) Adicione registros ao tipo de registro selecionado adicionando uma nova linha à tabela. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 1. (Condicional) Depois de conectar o tipo de registro selecionado a outro tipo de registro, vá para a coluna de registro vinculada e clique duas vezes na célula correspondente ao registro que deseja vincular a outros registros.
 
@@ -240,7 +240,7 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
 
    >[!TIP]
    >
-   >    Você pode abrir a página de um registro fazendo o seguinte na exibição de tabela:
+   >    Você pode abrir a página de um registro e conectar outros registros fazendo o seguinte na exibição de tabela:
    >1. Clique no nome do registro na exibição.
    >1. Localize o campo de registro vinculado e clique duas vezes no campo (se já houver registros conectados)
    >Ou

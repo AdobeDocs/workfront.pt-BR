@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 1%
+source-wordcount: '1989'
+ht-degree: 2%
 
 ---
 
@@ -95,7 +95,7 @@ A seguir estão os recursos que estão disponíveis atualmente no Workfront Plan
 * Receber notificações no aplicativo
 * Receber notificações por email
 * Adicionar miniaturas e folhas de rosto aos registros
-* Exibir histórico de alterações em um registro
+* Exibir o histórico de alterações em um registro
 * Formatação de Rich Text para campos de parágrafo
 * Acessar registros do Planning de objetos do Workfront
 * Conectar registros do Planning de objetos do Workfront
@@ -174,8 +174,6 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
 * **Workspace**: uma coleção de tipos de registro que define o ciclo de vida operacional de uma determinada organização. Um espaço de trabalho é o quadro de trabalho de uma unidade organizacional.
 
-  Uma instância do Workfront pode ter no máximo 1.000 espaços de trabalho.
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Para obter mais informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
@@ -204,9 +202,15 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  O Adobe Workfront Planning vem com um modelo de espaço de trabalho de Vendas, Marketing e Gerenciamento de Produto.
+  O Adobe Workfront Planning contém os seguintes modelos:
 
-  Para obter mais informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+   * Básico: Gerenciamento de marketing
+   * Avançado: Gerenciamento de marketing
+   * Enterprise: Gerenciamento de marketing
+   * Gerenciamento de vendas
+   * Gerenciamento de produtos
+
+  Para obter mais informações, consulte [Lista de modelos de espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Campos**: os campos são atributos que podem ser adicionados aos tipos de registro. Os campos contêm informações sobre o tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   A seguir estão os tipos de exibição que podem ser aplicados à página tipo de registro:
 
-   * **Modo de exibição de tabela**: mostra registros e seus campos, incluindo campos conectados e de pesquisa, em formato de tabela. As linhas da tabela são os registros individuais e as colunas são os campos de registro. Essa é a exibição padrão.
+   * **Modo de exibição de tabela**: mostra registros e seus campos, incluindo campos conectados e de pesquisa, em formato de tabela. As linhas da tabela são os registros individuais e as colunas são os campos de registro. A exibição em tabela é a exibição padrão.
 
      ![](assets/table-view-example.png)
 
@@ -328,7 +332,7 @@ Para localizar o Workfront Planning:
    >    O administrador do Workfront pode adicionar a área Planejamento à opção Selecionar página de aterrissagem no modelo de layout, para que você possa abrir o Planning assim que fizer logon no Workfront. Para obter informações, consulte [Personalizar a página de aterrissagem usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 1. (Condicional e opcional) Se você for um administrador do Workfront, clique em uma das seguintes guias:
-   * **Espaços de trabalho em que estou**: exibe os espaços de trabalho que você criou ou os espaços de trabalho que são compartilhados com você.
+   * **Espaços de trabalho em que estou**: exibe os espaços de trabalho que você criou ou os compartilhados com você.
    * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema.
 
    Para todos os outros usuários, ambos os espaços de trabalho criados ou compartilhados com eles são exibidos na área **Espaços de Trabalho**.
