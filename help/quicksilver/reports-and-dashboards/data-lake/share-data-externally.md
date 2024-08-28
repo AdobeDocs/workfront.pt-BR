@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Estabelecer uma conexão com o data lake da Workfront
 description: O data lake da Workfront permite usar os dados Workfront de sua organização com ferramentas populares de business intelligence ou armazená-los em um data warehouse externo.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 1%
 
 ---
 
-# Estabelecer uma conexão com o data lake da Workfront
+# Estabelecer uma conexão com o Workfront Data Connect
 
-O data lake da Workfront permite usar os dados Workfront de sua organização com ferramentas de business intelligence ou armazená-los em um data warehouse externo.
+O Workfront Data Connect permite usar os dados do Workfront de sua organização com ferramentas de business intelligence ou armazená-los em um data warehouse externo.
 
-Para conectar seus dados do data lake da Workfront a um produto externo, primeiro adicione os IPs necessários ao arquivo, conforme descrito em [Adicionar IPs ao arquivo de incluir na lista de permissões inclui na lista de permissões](#add-ips-to-the-allowlist) abaixo. Além disso, a maioria dos produtos exigirá informações adicionais sobre seu data lake para estabelecer uma conexão:
+Para conectar seu data lake do Data Connect a um produto externo, primeiro adicione os IPs necessários ao arquivo, conforme descrito em [Adicionar IPs ao arquivo de incluir na lista de permissões inclui na lista de permissões](#add-ips-to-the-allowlist) abaixo. Além disso, a maioria dos produtos exigirá informações adicionais sobre seu data lake para estabelecer uma conexão:
 
 | Nome do campo | Valor |
 |---------------|-------------|
@@ -32,14 +32,13 @@ Para conectar seus dados do data lake da Workfront a um produto externo, primeir
 | Nome de usuário | O nome de usuário escolhido ao criar a conexão (encontrado na página **Acesso aos dados** no Workfront*) |
 | Senha | A senha escolhida no primeiro logon de Snowflake* |
 
-*Para obter informações sobre onde encontrar a página **Acesso a dados** contendo suas conexões de data lake, consulte [Criar uma conta de leitor (serviço) para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Para obter informações sobre onde encontrar a página **Acesso a dados** contendo suas conexões de Conexão de Dados, consulte [Criar uma conta de leitor (serviço) para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
 >Depois que uma entrada é adicionada ao arquivo de inclui na lista de permissões IP, todos os outros endereços IP não são mais permitidos. Verifique se você inseriu todos os endereços IP necessários, para as experiências de criação e leitura da ferramenta de visualização, antes de tentar usar a ferramenta. Caso contrário, você poderá encontrar um erro relacionado às credenciais inválidas.
 >
 >Se você não tiver nenhum endereço IP incluído na sua inclui na lista de permissões do, mas ainda tiver problemas para se conectar a uma ferramenta de BI, verifique a configuração do servidor proxy para a ferramenta de BI.
-
 
 ## Adicionar IPs ao incluo na lista de permissões
 
