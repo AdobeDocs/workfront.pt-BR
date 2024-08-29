@@ -6,10 +6,10 @@ description: O progresso da meta é orientado por indicadores de progresso como 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +35,6 @@ Entre em contato com o gerente de conta da Workfront para saber mais sobre uma l
 Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 O Adobe Workfront calcula o progresso da meta automaticamente, com base no progresso de seus indicadores de progresso.
-
-## Pré-requisitos
-
-Você deve ter o seguinte antes de iniciar:
-
-* Um Modelo de layout que inclui a área Metas no Menu principal.
 
 ## Visão geral do progresso e limite da meta
 

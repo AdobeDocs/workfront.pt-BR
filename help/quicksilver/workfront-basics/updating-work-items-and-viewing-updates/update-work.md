@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    1. Clique em na atualização em que deseja inserir um link.
    1. Na barra de ferramentas **Rich Text**, clique no ícone ![](assets/link-icon.png) do **Hyperlink**.
 
-   1. Na caixa **Criar Link** exibida, em **URL**, digite ou cole a URL da origem à qual deseja vincular.
+   1. Na caixa **Criar Link**, em **URL**, digite ou cole a URL da origem à qual deseja vincular.
 
    1. Em **Texto a ser exibido**, digite ou cole o texto do link.
    1. Clique em **Salvar**.
@@ -386,7 +386,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 1. (Opcional) Para anexar uma imagem à atualização, siga um destes procedimentos:
 
    * Salve a imagem no computador e arraste-a e solte-a na área Novo comentário.
-   * Copie uma captura de tela do computador e cole-a no comentário.<!-- This is not available in the legacy commenting experience.-->
+   * Copie uma captura de tela do computador e cole-a no comentário.
    * Clique no ícone ![](assets/add-image-mountain-with-plus-icon.png) de **Adicionar imagem** e navegue até a imagem no seu computador.
 
 
@@ -399,7 +399,8 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    >* O administrador do Workfront deve ativar a adição de imagens na seção Preferências de atualização de feeds da área Interface do Workfront antes que você possa ver os ícones de Imagem ou Adicionar anexo. Para obter informações, consulte [Configurar preferências para atualizações de usuário](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* O tamanho máximo do arquivo de imagem é 7 MB. Os tipos de arquivo de imagem compatíveis são .jpg, .gif e .png.
    >* As imagens podem ser acessadas na seção Atualizações em um objeto e também estão disponíveis na área Documentos do Menu principal.
-   >* Você pode colar a imagem clicando com o botão direito do mouse no novo comentário ou pressionando CTRL + V para Windows (ou ⌘ + V para Mac) no teclado.
+   >Você pode copiar uma captura de tela do computador usando uma combinação de teclado ou, por exemplo, a função Print Screen (em computadores com Windows).
+   >* Para colar a imagem, clique com o botão direito do mouse no novo comentário e clique em **Colar** ou pressione CTRL + V para Windows (ou ⌘ + V para Mac) no teclado.
    >* É possível enviar uma atualização com uma imagem e nenhum texto.
    >* Quando você exclui um comentário que contém uma imagem, ela é removida da seção Atualizações, bem como da área Documentos. A imagem também é excluída da área Documentos ao editar um comentário e excluir a imagem.
    >* Quando alguém exclui uma imagem anexada a um comentário da área Documentos, ela também é removida do comentário.

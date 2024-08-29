@@ -7,9 +7,9 @@ description: O Workfront Goals ajuda você a definir, comunicar e alcançar resu
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
 >
 >Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
-
+> 
+>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 O Workfront Goals ajuda você a definir, comunicar e alcançar resultados estratégicos, conectando a estratégia à execução e entrega do trabalho. Você pode concentrar os esforços de todos no que realmente importa, fazer o progresso mensurável e permitir que as equipes realizem resultados surpreendentes. As pessoas podem fazer seu melhor trabalho sabendo que suas contribuições têm um impacto significativo.
 
@@ -42,9 +43,9 @@ Para obter mais informações sobre as práticas recomendadas para usar as Metas
 >
 >As metas estratégicas que você gerencia usando as Metas da Workfront não devem ser confundidas com as metas de nível de projeto que fazem parte do Business Case do projeto. Para obter informações sobre metas no nível do projeto, consulte [Criar metas do Business Case](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
-## Recursos incluídos nas Metas do Workfront
+## Recursos do Workfront Goals
 
-A seguinte funcionalidade está incluída atualmente no Workfront Goals:
+A seguinte funcionalidade está incluída nos Workfront Goals:
 
 * Crie metas trimestrais ou anuais e as atribua a usuários, equipes, grupos ou à sua organização. Você também pode personalizar as linhas do tempo da meta.
 

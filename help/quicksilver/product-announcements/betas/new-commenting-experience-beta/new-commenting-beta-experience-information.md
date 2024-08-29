@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O novo programa beta de experiência de comentários está fechado no momento.
+>O novo programa beta de experiência de comentários está fechado e os recursos de comentários agora estão disponíveis para todos os clientes.
 >
 >Os recursos lançados durante o período beta foram disponibilizados a todos os clientes a partir da versão do quarto trimestre de 2023 (outubro de 2023).
 

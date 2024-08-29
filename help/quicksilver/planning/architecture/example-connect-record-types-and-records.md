@@ -3,9 +3,10 @@ title: Exemplo de Conexão de Tipos de Registros e Registros
 description: Este artigo descreve um exemplo de como criar uma conexão entre um tipo de registro do Adobe Workfront Planning e um tipo de objeto de projeto do Workfront. Também descreve como é possível conectar um registro do Workfront Planning a um projeto individual.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%

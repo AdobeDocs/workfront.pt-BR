@@ -1,42 +1,35 @@
 ---
 title: Solicitar permissões para uma visualização ou um Workspace
-description: Você pode solicitar permissões para uma exibição ou um espaço de trabalho para o qual outras pessoas enviaram um link que não foi compartilhado anteriormente com você.
+description: Quando alguém compartilha um link para uma exibição ou um espaço de trabalho ao qual você não tem acesso, é possível solicitar permissões para poder abri-lo. Este artigo explica as etapas para solicitar acesso a uma exibição ou espaço de trabalho ao encontrar um link compartilhado que não pode ser aberto.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # Solicitar permissões para uma exibição ou um espaço de trabalho
 
-Você pode solicitar permissões para uma exibição ou um espaço de trabalho para o qual outras pessoas enviaram um link que não foi compartilhado anteriormente com você.
+Você pode solicitar permissões para uma view ou um espaço de trabalho quando alguém compartilhar um link com você para a view ou o espaço de trabalho ao qual você não tem acesso.
 
 A solicitação de permissões para uma visualização é semelhante à solicitação de permissões para um espaço de trabalho.
+
+Este artigo descreve como solicitar acesso a uma visualização ou a um espaço de trabalho quando alguém compartilha um link com você e você não pode acessar a página compartilhada.
+
+Para obter informações sobre a concessão de permissões para exibições e espaços de trabalho, consulte os seguintes artigos:
+
+* [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md)
+* [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## Requisitos de acesso
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 Para acessar o Workfront Planning, é necessário ter o seguinte:
 
@@ -128,10 +121,6 @@ Quando alguém compartilha com você um link para um espaço de trabalho ou uma 
    * Uma notificação por email
      ![](assets/email-notification-for-access-request.png)
 
-   Para obter informações sobre a concessão de permissões para exibições e espaços de trabalho, consulte os seguintes artigos:
-
-   * [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md)
-   * [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Condicional) Quando a exibição ou o gerenciador de espaço de trabalho concede permissões para a exibição ou o espaço de trabalho, você recebe uma notificação por email e uma notificação no aplicativo com uma confirmação de que a permissão foi concedida. <!--check this - I was not able to test this-->
+1. (Condicional) Quando a exibição ou o gerenciador de espaço de trabalho concede permissões para a exibição ou o espaço de trabalho, você recebe uma notificação por email e uma notificação no aplicativo com uma confirmação de que a permissão foi concedida. <!--check this - I was not able to test this, but Isk confirmed.-->
 
 

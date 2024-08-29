@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Você pode receber notificações no aplicativo ou por email quando as seguintes
 
 * Alguém adicionou você a um comentário na página de gravação
 * Alguém solicitar permissão para acessar uma visualização ou um espaço de trabalho
-* Alguém concede ou nega a você permissão para acessar uma exibição ou um espaço de trabalho <!--test this - could not test before GA-->
+* Alguém concede a você permissão para acessar uma exibição ou um espaço de trabalho <!--I could not test this but Isk confirmed-->
 
 ## Requisitos de acesso
 
@@ -62,7 +62,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
  <tr> 
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
+<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience.</p> 
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ Desmarque as notificações que deseja parar de receber.
 1. As seguintes notificações estão disponíveis para o Workfront:
 
    * **Menções**: você recebe uma notificação quando alguém marca você em um comentário no Workfront Planning
-   * **Solicitações**: você recebe uma notificação quando alguém solicita permissão para um objeto do Workfront Planning
+   * **Solicitações**: você recebe uma notificação quando alguém solicita ou concede permissão a um objeto do Workfront Planning
 
    Para obter mais informações sobre como gerenciar notificações, consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

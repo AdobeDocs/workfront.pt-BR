@@ -3,11 +3,12 @@ title: Gerenciar notificações no aplicativo do Adobe Workfront Planning
 description: Quando alguém marca você em um comentário de registro, você recebe uma notificação por email para essa tag.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -23,8 +24,7 @@ Você pode receber notificações no aplicativo do Workfront Planning quando os 
 
   Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * Alguém solicitar sua permissão para acessar uma visualização ou um espaço de trabalho
-* Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--verify this-->
-* Alguém negou seu acesso a uma visualização ou a um espaço de trabalho. <!--verify this-->
+* Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Requisitos de acesso
 
@@ -64,7 +64,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
  <tr> 
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
+<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience.</p> 
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -170,7 +170,10 @@ OLD:
 1. (Opcional) Clique em **Marcar tudo como lido** para indicar que você leu todas as notificações.
 1. (Opcional) Clique em **Exibir tudo** para ir para a página **Notificações** no Adobe Experience Cloud.
 
+## Gerenciar notificações no aplicativo ao solicitar e conceder permissões
 
-## Gerencie notificações no aplicativo ao solicitar, conceder ou negar permissões para uma exibição ou um espaço de trabalho
+Você recebe notificações no aplicativo quando alguém solicita ou concede permissões para uma visualização ou um espaço de trabalho.
 
 Para obter informações sobre como solicitar, conceder ou negar permissões para uma exibição ou um espaço de trabalho, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).
+
+Para obter informações sobre como gerenciar as notificações do Workfront Planning, consulte [Gerenciar preferências de notificação do Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
