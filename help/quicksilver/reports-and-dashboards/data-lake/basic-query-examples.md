@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Este exemplo demonstra como você pode compor uma consulta para retornar seus da
 
 ### Cenário:
 
-Sua organização que utiliza um formulário personalizado chamado Integração de finanças. O formulário é anexado a cada projeto e contém os seguintes campos:
+Sua organização utiliza um formulário personalizado chamado Integração de finanças. O formulário é anexado a cada projeto e contém os seguintes campos:
 
 * **Unidade de Negócios** - Um campo personalizado que contém uma cadeia de caracteres.
 * **IDdoProjeto** - Um campo personalizado que contém uma cadeia de caracteres numérica.
