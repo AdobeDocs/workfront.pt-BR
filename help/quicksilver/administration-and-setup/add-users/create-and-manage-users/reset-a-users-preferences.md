@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -110,13 +110,25 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
 1. Selecione **Fazer Logon Como**.
 1. Comece digitando o nome do usuário cujas preferências você deseja redefinir, em seguida, clique no nome quando ele aparecer na lista suspensa.
 1. Selecione **Fazer Logon**.
-1. No campo URL na parte superior do navegador da Web, adicione `/resetUser` depois de `workfront.com`.
+1. Se sua organização não tiver sido integrada à Experiência unificada do Adobe, siga esta etapa:
 
-   >[!NOTE]
-   >
-   >Isso diferencia maiúsculas e minúsculas. O U deve estar em maiúsculas e os caracteres restantes devem estar em minúsculas. Por exemplo:
-   >
-   >`https://company_domain.my.workfront.com/resetUser`
+   * No campo URL na parte superior do navegador da Web, adicione `/resetUser` depois de `workfront.com`.
+
+     >[!NOTE]
+     >
+     >Isso diferencia maiúsculas e minúsculas. O U deve estar em maiúsculas e os caracteres restantes devem estar em minúsculas. Por exemplo:
+     >
+     >`https://company_domain.my.workfront.com/resetUser`
+
+1. Se sua organização tiver sido integrada à Experiência unificada do Adobe, siga esta etapa:
+
+   * No campo URL na parte superior do navegador da Web, adicione `/resetUser` depois de `workfront`.
+
+     >[!NOTE]
+     >
+     >Isso diferencia maiúsculas e minúsculas. O U deve estar em maiúsculas e os caracteres restantes devem estar em minúsculas. Por exemplo:
+     >
+     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Pressione **Enter**.
 1. Para redefinir todas as preferências de usuário, selecione **Redefinir**.

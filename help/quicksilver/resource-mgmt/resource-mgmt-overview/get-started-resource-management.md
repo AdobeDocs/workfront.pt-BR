@@ -4,12 +4,12 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: Introdução ao gerenciamento de recursos
 description: O Gerenciamento de Recursos permite configurar o sistema para prever com precisão o uso dos recursos com base em sua disponibilidade, de modo que o trabalho que deve ser feito seja concluído no prazo e dentro do orçamento.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ Os seguintes usuários têm acesso às ferramentas de Gerenciamento de recursos 
 Você deve ser um dos usuários a seguir e ter o seguinte acesso e permissões para acessar as ferramentas de gerenciamento de recursos:
 
 * O administrador do sistema.
-* Um usuário com uma licença de Plano.
+* Um usuário com uma licença Padrão ou de Plano.
 
   Um usuário com uma licença de Trabalho pode usar o Balanceador de carga de trabalho de um projeto e gerenciar atribuições e alocações.
 
-  Além de ter uma licença de Trabalho ou superior, você deve ter o seguinte para usar ferramentas de gerenciamento de recursos específicas:
+  Além de ter uma licença Work ou superior (ou uma licença Standard), você deve ter o seguinte para usar ferramentas de gerenciamento de recursos específicas:
 
    * Editar o acesso ao Gerenciamento de recursos (não necessário para fazer atribuições no Balanceador de carga de trabalho)
    * Editar o acesso aos Dados Financeiros para exibir as informações de Custo no Planejador de Recursos
@@ -168,7 +168,6 @@ Você deve atender a um conjunto de requisitos antes de usar com eficiência as 
 Para obter informações sobre quais são os requisitos de cada ferramenta de gerenciamento de recursos no Workfront, consulte o seguinte:
 
 * A seção [Pré-requisitos para trabalhar no Planejador de Recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) no artigo [Visão geral do Planejador de Recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * A seção [Práticas recomendadas para usar o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) no artigo [Visão geral do Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Acesso necessário para fazer o orçamento de recursos no Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Acesso necessário para gerenciar recursos no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
