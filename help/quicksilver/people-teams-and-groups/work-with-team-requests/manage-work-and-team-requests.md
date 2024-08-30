@@ -2,14 +2,14 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Gerenciar solicitações de trabalho e de equipe
+title: Gerenciar requisições de trabalho e de equipe
 description: Uma solicitação representa uma atribuição pendente de tarefa ou problema. As solicitações de trabalho são feitas a indivíduos e as solicitações de equipe são feitas a equipes.
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,36 @@ Uma solicitação representa uma atribuição pendente de tarefa ou problema. As
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>Revisar ou mais para atribuir ou trabalhar em uma solicitação; Trabalhar ou mais para reatribuir uma solicitação</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Para atribuir ou trabalhar em uma solicitação:
+   <p>Novo: Claro ou superior</br>
+    ou</br>
+   Atual: revisão ou superior</p>
+   <p>Para reatribuir uma solicitação:
+   <p>Novo: Padrão</br>
+    ou</br>
+   Atual: trabalho ou superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Atribuir uma solicitação a uma equipe {#assign-a-request-to-a-team}
 
@@ -64,7 +74,7 @@ Você pode atribuir uma solicitação manualmente a uma equipe na página da equ
 
 Para atribuir manualmente uma solicitação a uma equipe na página da equipe:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
@@ -80,7 +90,8 @@ Para atribuir manualmente uma solicitação a uma equipe na página da equipe:
 
 É possível reatribuir solicitações que foram atribuídas à sua equipe:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
+
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. No painel de navegação esquerdo, selecione **[!UICONTROL Solicitações da equipe]**.
 1. Clique no ícone **[!UICONTROL Reatribuir]**.

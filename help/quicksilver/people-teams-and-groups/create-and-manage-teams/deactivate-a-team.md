@@ -6,9 +6,9 @@ description: Você pode desativar as equipes que não usam mais enquanto retém 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -44,24 +44,31 @@ As equipes desativadas não aparecem quando você pesquisa por uma equipe, mas a
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>Plano</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Desativar uma equipe
 
@@ -73,7 +80,8 @@ Qualquer trabalho atribuído à equipe antes da desativação permanece atribuí
 
 Ao usar filas de solicitações, se você desativar uma equipe atribuída como a equipe padrão em uma regra de roteamento, a equipe permanecerá e as solicitações ainda serão encaminhadas para a equipe desativada. Recomendamos atualizar as regras de roteamento com equipes ativas antes de desativar a equipe.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito do Adobe Workfront e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
+
 1. Clique no ícone **[!DNL Switch team]** e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 

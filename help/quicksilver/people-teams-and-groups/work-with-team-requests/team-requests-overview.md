@@ -2,12 +2,12 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Visão geral de solicitações de equipe
+title: Visão geral das solicitações de equipe
 description: As solicitações de equipe são encontradas na área Equipes do menu principal.
 author: Lisa
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

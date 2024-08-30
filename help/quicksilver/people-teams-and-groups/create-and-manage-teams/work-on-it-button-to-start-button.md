@@ -6,9 +6,9 @@ description: A configuração padrão do Adobe Workfront inclui um botão Trabal
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -25,26 +25,31 @@ Você pode substituir o botão [!DNL Work On It] por um botão [!UICONTROL Inici
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>Plano</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar o botão [!UICONTROL Iniciar]
 
@@ -66,7 +71,7 @@ Se você tiver uma licença do [!UICONTROL Plano], poderá configurar o botão [
 
 Para configurar o botão Iniciar:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito do Adobe Workfront e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. No menu suspenso **[!UICONTROL Equipes]**, selecione uma equipe.\
    ou\
@@ -87,9 +92,9 @@ Para configurar o botão Iniciar:
 
 Para associar usuários a uma Equipe da Página Inicial:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
+{{step-1-to-users}}
 
-1. Clique em **[!UICONTROL Usuários]** e selecione o(s) usuário(s) que deseja associar a uma Equipe interna.
+1. Selecione o(s) usuário(s) que deseja associar a uma Equipe interna.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.\
    ![](assets/user-settings-nwe-350x291.png)
 

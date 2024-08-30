@@ -1,14 +1,14 @@
 ---
 product-area: user-management
 navigation-topic: collaboration
-title: Exibir o organograma
+title: Exibir o Organograma
 description: O recurso de organograma permite exibir o organograma associado a um usuário específico do Adobe Workfront. Os gráficos organizacionais são uma ótima maneira de visualizar a estrutura de um departamento específico.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,35 @@ O recurso de organograma permite exibir o organograma associado a um usuário [!
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>Revisar ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Claro ou superior</p>
+   <p>ou</p>
+   <p>Atual: revisão ou superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Localizar o organograma de um usuário
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito do [!DNL Adobe Workfront] e clique no seu nome de usuário ao lado da imagem do perfil.
+{{step1-click-profile-pic}}
 
 1. No painel esquerdo, clique em **[!UICONTROL Organograma]**.\
    ![Organograma](assets/org-chart.png)

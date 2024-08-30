@@ -7,9 +7,9 @@ description: Leia estas dicas quando você receber um erro de que o nome de usu�
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -18,26 +18,35 @@ ht-degree: 1%
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
-   <td> <p>Qualquer</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
-   <td> <p>[!UICONTROL Plano]</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
-   <td> <p>[!UICONTROL Administrador do sistema]</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Administrador do sistema</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Questão
 
@@ -57,7 +66,8 @@ Isso pode ocorrer porque o nome de usuário ou o endereço de email não é excl
 
 Verifique se o nome de usuário e o endereço de email são exclusivos na instância [!DNL Workfront] atual:
 
-1. Como administrador do [!DNL Workfront], clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]**, no canto superior direito do [!DNL Adobe Workfront], e clique em **[!UICONTROL Usuários]**.
+{{step-1-to-users}}
+
 1. Na lista de pessoas, verifique na coluna **[!UICONTROL Email]** se não há emails duplicados.
 1. Adicione uma coluna para o nome de usuário à visualização.
 

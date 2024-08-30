@@ -1,50 +1,55 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Editar configurações da equipe
+title: Editar Configurações da Equipe
 description: Os administradores e usuários do Workfront com uma licença de Plano ou Trabalho podem editar as Configurações da equipe.
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Editar configurações da equipe
 
-Como administrador [!DNL Adobe Workfront] ou usuário com uma licença de [!UICONTROL Plano] ou [!UICONTROL Trabalho], você pode editar as [!UICONTROL Configurações da Equipe].
+Como administrador do [!DNL Adobe Workfront] ou usuário com uma licença do [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho], você pode editar as [!UICONTROL Configurações da Equipe].
 
 Você pode adicionar usuários a uma equipe, definir o modelo de layout da equipe e definir como o status é registrado quando os itens de trabalho são concluídos por uma equipe.
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: trabalho ou superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Editar configurações da equipe
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu principal]** no canto superior direito do Adobe Workfront e em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
