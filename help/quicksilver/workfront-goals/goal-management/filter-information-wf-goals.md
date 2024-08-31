@@ -6,9 +6,9 @@ description: Você pode visualizar metas que você ou qualquer outra pessoa adic
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,8 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li>
-  Ou
-  <li>Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. </li></ul> </p>
+  <ul><li>Um plano Ultimate </li> </ul>
+
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
   <li>Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.</li></ul></p>
