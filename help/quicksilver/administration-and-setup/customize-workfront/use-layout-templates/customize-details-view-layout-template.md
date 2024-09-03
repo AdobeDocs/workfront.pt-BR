@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo</p> <p><b
 1. Na seção **Detalhes**, siga um destes procedimentos para personalizar o que os usuários veem na exibição Detalhes:
 
    * Arraste qualquer cabeçalho de seção ![](assets/move-icon---dots.png) para alterar sua ordem.
-   * Habilite ou desabilite opções em **Visão geral** e **Forms Personalizado** para exibi-las ou ocultá-las.
+   * Habilite ou desabilite opções nas várias áreas (como **Visão geral**, **Finanças** e **Forms Personalizado**) para exibi-las ou ocultá-las.
 
      Se você ocultar todos os campos em uma dessas seções, a seção inteira será ocultada.
 
-     Todos os campos são ativados por padrão.
+     Todos os campos são ativados por padrão. Você pode marcar ou desmarcar a caixa de seleção **Selecionar tudo** em uma área para exibir ou ocultar todos os campos dessa área.
+
+   ![Modo de exibição de detalhes no modelo de layout](assets/layout-template-details-view.png)
 
 1. Continue personalizando o modelo de layout.
 
