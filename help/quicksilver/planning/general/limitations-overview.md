@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,9 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de registros de um espaço de trabalho | 25.000 para clientes com o Planning <br> 500.000 para clientes com o Planning Plus |
 | Número do total de registros para uma instância do Workfront Planning | 500.000 para clientes com o plano de Planejamento <br>2 milhões para clientes com o Planning Plus |
 | Número de campos para um tipo de registro ou taxonomia | 500 |
-| Número de caracteres de um campo de texto | 1.000 caracteres |
+| Número de caracteres de um campo de texto de linha única | 1.000 caracteres |
+| Número de caracteres para um campo de parágrafo | 100.000 caracteres |
+| Número de campos de parágrafo para um tipo de registro | Campos de 20 parágrafos |
 | Tamanho do arquivo que você pode colar em uma tabela do tipo record | 1 MB |
 | Tamanho do arquivo que você pode importar por meio da API para uma tabela de tipo de registro | 1,5 MB |
 | A velocidade com a qual as solicitações de API podem ser feitas | 200 solicitações por minuto |

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 0%
 
 ---
@@ -403,7 +403,7 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
 * Você pode exibir registros ou objetos conectados nos registros do tipo de registro selecionado na exibição de linha do tempo.
 * Você pode exibir o seguinte na exibição de linha do tempo, usando o recurso Detalhamento:
    * Registros do Workfront Planning conectados ao tipo de registro selecionado.
-   * Tipos de objeto Workfront (************* ou AEM Assets *************) conectados ao tipo de registro selecionado.
+   * Tipos de objetos do Workfront ou ativos de Experience Manager conectados ao tipo de registro selecionado.
    * Registros ou objetos do Workfront Planning de outro aplicativo que estão conectados a registros conectados ao tipo de registro selecionado.
 
      Por exemplo, você pode conectar campanhas a portfólios. Além disso, você pode conectar outro tipo de registro, produtos, a projetos, e a campanhas. Ao criar a visualização da linha do tempo da campanha, você pode detalhar as campanhas por portfólios, produtos e projetos.

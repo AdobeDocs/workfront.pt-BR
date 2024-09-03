@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
@@ -356,10 +356,12 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. (Condicional) Abra uma exibição de tabela e o campo que outra pessoa está editando é contornado com a cor correspondente ao contorno de seu avatar na exibição de tabela.
+1. (Condicional) Abra uma exibição de tabela e o campo que outra pessoa está editando ativamente será destacado na cor correspondente ao contorno do avatar na exibição de tabela.
+
+   Se a cor de destaque do avatar for cinza, o usuário parou de editar ativamente o registro há mais de 30 segundos.
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >Você pode selecionar a opção **Mostrar colaboradores** de qualquer modo de exibição. O campo editado é descrito somente na exibição de tabela.
+   >Você pode selecionar a opção **Mostrar colaboradores** de qualquer modo de exibição. O campo atualmente editado por outros é descrito somente na exibição de tabela.

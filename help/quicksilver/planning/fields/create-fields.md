@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3622'
 ht-degree: 2%
 
 ---
@@ -225,7 +225,7 @@ OLD:
 
 ### Texto de linha única {#single-line-text}
 
-Os campos de texto de linha única capturam informações alfanuméricas limitadas. Por exemplo, você pode capturar as informações de Proprietário, Participante, Equipe ou Unidade organizacional em um campo de texto de linha única. O conteúdo de um campo de texto de linha única pode ter até 250 caracteres. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+Os campos de texto de linha única capturam informações alfanuméricas limitadas. Por exemplo, você pode capturar as informações de Proprietário, Participante, Equipe ou Unidade organizacional em um campo de texto de linha única. O conteúdo de um campo de texto de linha única pode ter até 1.000 caracteres. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Texto de linha única**.
 
@@ -245,9 +245,12 @@ Os campos de parágrafo capturam informações alfanuméricas adicionais sobre u
 
 >[!TIP]
 >
->* O conteúdo de um campo de parágrafo pode ter até 1.000 caracteres.
+>* É possível ter no máximo 20 campos de parágrafo para um tipo de registro.
 >
+>* O conteúdo de um campo de parágrafo pode ter até 100.000 caracteres.
 >* Você pode usar a formatação Rich Text para aprimorar o conteúdo de campos de parágrafo quando eles são exibidos na exibição de tabela ou na página Detalhes de um registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+>
+
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Parágrafo**.
 

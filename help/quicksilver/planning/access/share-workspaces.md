@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,8 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
  <tr> 
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
+<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p>
+<p>Sua organização deve estar integrada à Experiência unificada do Adobe para que os usuários possam solicitar e conceder permissões para um espaço de trabalho a partir de uma solicitação de permissão. </p> 
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -203,6 +204,11 @@ Na notificação por email, clique em **Exibir todas as notificações** e cliqu
    A caixa **Solicitações de acesso pendentes** é exibida.
 
    ![](assets/notifications-list-approval-box.png)
+
+1. (Opcional) Para o usuário cujas permissões você deseja aprovar, selecione uma das seguintes opções no menu suspenso à direita do nome do usuário:
+   * **Exibir**
+   * **Contribute**
+   * **Gerenciar**
 1. Selecione o usuário para o qual você deseja aprovar ou negar a permissão e clique em **Aprovar tudo** ou **Negar tudo**.
 1. Clique na seta à esquerda de **Solicitações de acesso pendentes** e clique em **Salvar**.
 
