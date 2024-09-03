@@ -8,9 +8,9 @@ description: As seguintes funções gerais estão disponíveis no painel Mapeame
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ Retorna o caminho do valor de um objeto ou matriz. Para acessar objetos aninhado
 
 Retorna `value1` se a expressão for avaliada como verdadeira; caso contrário, retorna `value2`.
 
+Para criar uma instrução if que retorne um valor somente se duas ou mais expressões forem avaliadas como true, use a palavra-chave `and`.
+
+Para combinar instruções `if`, use os operadores `and` e `or`.
+
+![e operador](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**Exemplos:**
@@ -81,9 +87,14 @@ Retorna `value1` se a expressão for avaliada como verdadeira; caso contrário, 
 >
 >    Retorna A
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   Devoluções B
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    Devoluções B
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -107,7 +118,7 @@ Retorna `value1` se este valor não estiver vazio; caso contrário, retorna `val
 
 ## [!UICONTROL opção (expressão; valor1; resultado1; [valor2; resultado2; ...]; [outra])]
 
-Avalia um valor (chamado de expressão) em relação a uma lista de valores; retorna o resultado correspondente ao primeiro valor correspondente.
+Avalia um valor (chamado de expressão) em relação a uma lista de valores; retorna o resultado correspondente ao primeiro valor correspondente. Para incluir um valor `else`, adicione-o depois da expressão ou valor final.
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ Avalia um valor (chamado de expressão) em relação a uma lista de valores; ret
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Devoluções 4
+>   Devoluções 4
+>   
+>   Nesta função, 4 é o valor a ser retornado se nenhuma expressão se aplicar (o valor `else`).
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
