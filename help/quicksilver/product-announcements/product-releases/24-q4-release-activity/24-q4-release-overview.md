@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td>
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Correção de tela em branco para usuários do Windows do Desktop Proofing Viewer</a></p>
+                        [!BADGE Na produção ]{type=Informative}
+                        <p>Corrigimos um problema na nova versão 2.1.36 do Desktop Proofing Viewer que fazia com que alguns usuários do Windows vissem uma tela em branco após abrirem o visualizador. </p>
+                        <p>Nova versão para usuários do Windows: 2.1.37</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 30 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção para todos os clientes: 30 de agosto de 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
