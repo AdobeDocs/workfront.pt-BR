@@ -6,10 +6,10 @@ description: Como um gerente de projeto, você pode determinar como a Condição
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Definir o tipo de condição de um projeto
 
 1. Vá para o projeto para o qual deseja atualizar o Tipo de condição.
-1. Siga um destes procedimentos: 
+1. Siga um destes procedimentos:
 
    * Clique no menu **Mais** ![](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Editar**.
    * Clique em **Detalhes do projeto** no painel esquerdo.
@@ -72,4 +72,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Clique em **Salvar alterações** ao modificar o Tipo de Condição na seção Detalhes do Projeto.
 
- 
+
