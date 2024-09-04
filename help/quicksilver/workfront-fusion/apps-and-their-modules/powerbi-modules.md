@@ -10,9 +10,9 @@ description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,23 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 ![](assets/map-toggle-350x74.png)
 
+* [Painéis](#dashboards)
+* [Relatórios](#reports)
+* [Conjunto de dados](#dataset)
+* [Aplicativos](#apps)
+* [Outro](#other)
+
 ### Painéis
 
-#### [!UICONTROL Listar Painéis]
+* [Criar um painel](#create-a-dashboard)
+* [Obter um painel](#get-a-dashboard)
+* [Obter um bloco do painel](#get-a-dashboard-tile)
+* [Listar blocos do painel](#list-dashboard-tiles)
+* [Listar Painéis de Controle](#list-dashboards)
 
-Este módulo de pesquisa recupera uma lista de painéis.
+#### [!UICONTROL Criar um painel]
+
+Esse módulo de ação cria um novo painel.
 
 <table>
   <col/>
@@ -88,55 +100,14 @@ Este módulo de pesquisa recupera uma lista de painéis.
    <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
-      <td>
-        <p>Selecione ou mapeie a ID do grupo que possui os painéis que você deseja listar.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Nome]</td>
+      <td>Insira ou mapeie um nome para o Painel.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
-      <td>
-        <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
+      <td>Selecione ou mapeie a ID do grupo que será o proprietário do novo painel.</td>
     </tr>
   </tbody>
-</table>
-
-#### [!UICONTROL Listar Blocos do Painel]
-
-Este módulo de pesquisa recupera uma lista de blocos de painéis.
-
-<table>
-<col/>
-<col/>
-<tbody>
-  <tr>
-    <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Inserir uma ID de Painel]</td>
-    <td>
-      <p>Selecione ou mapeie a opção para escolher o painel cujos blocos você deseja listar.</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL ID do Painel]</td>
-    <td>
-      <p>Insira ou mapeie a ID do painel que contém os blocos que você deseja listar.</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
-    <td>Selecione ou mapeie a ID do Grupo que possui os painéis que contêm os blocos que você deseja listar.</td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Limite]  </td>
-    <td>
-      <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p>
-    </td>
-  </tr>
-</tbody>
 </table>
 
 #### [!UICONTROL Obter um Painel]
@@ -205,34 +176,46 @@ Este módulo de ação recupera metadados de um bloco do painel especificado.
   </tbody>
 </table>
 
-#### [!UICONTROL Criar um painel]
+#### [!UICONTROL Listar Blocos do Painel]
 
-Esse módulo de ação cria um novo painel.
+Este módulo de pesquisa recupera uma lista de blocos de painéis.
 
 <table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Conexão]</td>
+<col/>
+<col/>
+<tbody>
+  <tr>
+    <td role="rowheader">[!UICONTROL Conexão]</td>
    <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Nome]</td>
-      <td>Insira ou mapeie um nome para o Painel.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
-      <td>Selecione ou mapeie a ID do grupo que será o proprietário do novo painel.</td>
-    </tr>
-  </tbody>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Inserir uma ID de Painel]</td>
+    <td>
+      <p>Selecione ou mapeie a opção para escolher o painel cujos blocos você deseja listar.</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL ID do Painel]</td>
+    <td>
+      <p>Insira ou mapeie a ID do painel que contém os blocos que você deseja listar.</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
+    <td>Selecione ou mapeie a ID do Grupo que possui os painéis que contêm os blocos que você deseja listar.</td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Limite]  </td>
+    <td>
+      <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p>
+    </td>
+  </tr>
+</tbody>
 </table>
 
-### Relatórios
+#### [!UICONTROL Listar Painéis]
 
-#### [!UICONTROL Listar Relatórios]
-
-Este módulo de pesquisa recupera uma lista de relatórios.
+Este módulo de pesquisa recupera uma lista de painéis.
 
 <table>
   <col/>
@@ -245,7 +228,7 @@ Este módulo de pesquisa recupera uma lista de relatórios.
     <tr>
       <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
       <td>
-        <p>Selecione ou mapeie a ID do Grupo que possui os relatórios que você deseja listar.</p>
+        <p>Selecione ou mapeie a ID do grupo que possui os painéis que você deseja listar.</p>
       </td>
     </tr>
     <tr>
@@ -257,36 +240,12 @@ Este módulo de pesquisa recupera uma lista de relatórios.
   </tbody>
 </table>
 
-#### [!UICONTROL Obter um relatório]
+### Relatórios
 
-Este módulo de ação recupera metadados de um relatório especificado.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Inserir uma ID de Relatório]</td>
-      <td>
-        <p>Selecione ou mapeie a opção para escolher o relatório para o qual deseja recuperar metadados.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID de Relatório]</td>
-      <td>
-        <p>Insira ou mapeie a ID do relatório para o qual deseja recuperar metadados.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
-      <td>Selecione ou mapeie a ID do Grupo que é proprietário do relatório para o qual você deseja recuperar metadados.</td>
-    </tr>
-  </tbody>
-</table>
+* [Copiar um relatório](#copy-a-report)
+* [Excluir um relatório](#delete-a-report)
+* [Obter um relatório](#get-a-report)
+* [Listar Relatórios](#list-reports)
 
 #### [!UICONTROL Copiar um relatório]
 
@@ -354,36 +313,9 @@ Este módulo de ação exclui um relatório.
   </tbody>
 </table>
 
-### Conjunto de dados
+#### [!UICONTROL Obter um relatório]
 
-#### [!UICONTROL Listar conjuntos de dados]
-
-Este módulo de pesquisa recupera uma lista de conjuntos de dados.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
-      <td>Selecione ou mapeie a ID do Grupo que é proprietário do relatório para o qual você deseja recuperar metadados.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limite]</td>
-      <td>
-        <p>Insira ou mapeie o número máximo de registros para o qual deseja que o módulo [action] durante cada ciclo de execução do cenário.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Obter um Conjunto de Dados]
-
-Esse módulo de ação recupera metadados de um conjunto de dados especificado.
+Este módulo de ação recupera metadados de um relatório especificado.
 
 <table>
   <col/>
@@ -402,12 +334,132 @@ Esse módulo de ação recupera metadados de um conjunto de dados especificado.
     <tr>
       <td role="rowheader">[!UICONTROL ID de Relatório]</td>
       <td>
-        <p>Insira ou mapeie a ID do conjunto de dados para o qual você deseja recuperar metadados.</p>
+        <p>Insira ou mapeie a ID do relatório para o qual deseja recuperar metadados.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
-      <td>Selecione ou mapeie a ID do Grupo que possui o conjunto de dados para o qual você deseja recuperar metadados.</td>
+      <td>Selecione ou mapeie a ID do Grupo que é proprietário do relatório para o qual você deseja recuperar metadados.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Listar Relatórios]
+
+Este módulo de pesquisa recupera uma lista de relatórios.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Conexão]</td>
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
+      <td>
+        <p>Selecione ou mapeie a ID do Grupo que possui os relatórios que você deseja listar.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td>
+        <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Conjunto de dados
+
+* [Adicionar/Excluir Linhas em uma Tabela de Conjunto de Dados](#add-or-delete-rows-in-a-dataset-table)
+* [Criar um conjunto de dados](#create-a-dataset)
+* [Excluir um conjunto de dados](#delete-a-dataset)
+* [Obter um conjunto de dados](#get-a-dataset)
+* [Listar conjuntos de dados](#list-datasets)
+* [Atualizar um conjunto de dados](#refresh-a-dataset)
+
+#### [!UICONTROL Adicionar ou Excluir Linhas em uma Tabela de Conjunto de Dados]
+
+Esse módulo de ação adiciona ou exclui linhas de uma tabela de conjunto de dados de push especificada.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Conexão]</td>
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Inserir uma tabela]</td>
+      <td>Selecione ou mapeie a opção para selecionar o conjunto de dados que contém a tabela que você deseja ajustar.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ID de Conjunto de Dados]</td>
+      <td>Insira ou mapeie a ID do conjunto de dados que contém as linhas que você deseja adicionar ou excluir.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Nome da Tabela]  </td>
+      <td>
+        <p>Insira ou mapeie o nome da tabela que contém as linhas que você deseja adicionar ou excluir.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
+      <td>Insira ou mapeie a ID do grupo que é proprietário do conjunto de dados.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Selecionar a Ação]</td>
+      <td>
+        <p>Selecione ou mapeie a ação que deseja executar.</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Adicionar linhas]</p>
+          </li>
+          <li>
+            <p>[!UICONTROL Excluir Todas as Linhas]</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Linhas]</td>
+      <td>
+        <p>Adicione os campos de linha.</p>
+        <ul>
+          <li>
+            <p><b>[!UICONTROL chave]</b>
+            </p>
+            <p>Insira ou mapeie o nome da chave.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Tipo de Campo]</b>
+            </p>
+            <p>Selecione ou mapeie o tipo de campo:</p>
+            <ul>
+              <li>
+                <p>Booleano</p>
+              </li>
+              <li>
+                <p>Data</p>
+              </li>
+              <li>
+                <p>Texto</p>
+              </li>
+              <li>
+                <p>Número</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>[!UICONTROL Valor]</p>
+            <p>Insira ou mapeie o valor da chave.</p>
+          </li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -583,9 +635,9 @@ Esse módulo de ação cria um novo conjunto de dados.
   </tbody>
 </table>
 
-#### [!UICONTROL Adicionar ou Excluir Linhas em uma Tabela de Conjunto de Dados]
+#### [!UICONTROL Excluir um conjunto de dados]
 
-Esse módulo de ação adiciona ou exclui linhas de uma tabela de conjunto de dados de push especificada.
+Esse módulo de ação exclui um conjunto de dados.
 
 <table>
   <col/>
@@ -596,71 +648,75 @@ Esse módulo de ação adiciona ou exclui linhas de uma tabela de conjunto de da
    <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Inserir uma tabela]</td>
-      <td>Selecione ou mapeie a opção para selecionar o conjunto de dados que contém a tabela que você deseja ajustar.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID de Conjunto de Dados]</td>
-      <td>Insira ou mapeie a ID do conjunto de dados que contém as linhas que você deseja adicionar ou excluir.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Nome da Tabela]  </td>
+      <td role="rowheader">[!UICONTROL Inserir uma ID de Relatório]</td>
       <td>
-        <p>Insira ou mapeie o nome da tabela que contém as linhas que você deseja adicionar ou excluir.</p>
+        <p>Selecione ou mapeie a opção para escolher o conjunto de dados que deseja excluir.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ID de Relatório]</td>
+      <td>
+        <p>Insira ou mapeie a ID do conjunto de dados que você deseja excluir.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
-      <td>Insira ou mapeie a ID do grupo que é proprietário do conjunto de dados.</td>
+      <td>Selecione ou mapeie a ID do Grupo que possui o conjunto de dados que você deseja excluir.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Obter um Conjunto de Dados]
+
+Esse módulo de ação recupera metadados de um conjunto de dados especificado.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Conexão]</td>
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Selecionar a Ação]</td>
+      <td role="rowheader">[!UICONTROL Inserir uma ID de Relatório]</td>
       <td>
-        <p>Selecione ou mapeie a ação que deseja executar.</p>
-        <ul>
-          <li>
-            <p>[!UICONTROL Adicionar linhas]</p>
-          </li>
-          <li>
-            <p>[!UICONTROL Excluir Todas as Linhas]</p>
-          </li>
-        </ul>
+        <p>Selecione ou mapeie a opção para escolher o relatório para o qual deseja recuperar metadados.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Linhas]</td>
+      <td role="rowheader">[!UICONTROL ID de Relatório]</td>
       <td>
-        <p>Adicione os campos de linha.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL chave]</b>
-            </p>
-            <p>Insira ou mapeie o nome da chave.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Tipo de Campo]</b>
-            </p>
-            <p>Selecione ou mapeie o tipo de campo:</p>
-            <ul>
-              <li>
-                <p>Booleano</p>
-              </li>
-              <li>
-                <p>Data</p>
-              </li>
-              <li>
-                <p>Texto</p>
-              </li>
-              <li>
-                <p>Número</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>[!UICONTROL Valor]</p>
-            <p>Insira ou mapeie o valor da chave.</p>
-          </li>
-        </ul>
+        <p>Insira ou mapeie a ID do conjunto de dados para o qual você deseja recuperar metadados.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
+      <td>Selecione ou mapeie a ID do Grupo que possui o conjunto de dados para o qual você deseja recuperar metadados.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Listar conjuntos de dados]
+
+Este módulo de pesquisa recupera uma lista de conjuntos de dados.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Conexão]</td>
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
+      <td>Selecione ou mapeie a ID do Grupo que é proprietário do relatório para o qual você deseja recuperar metadados.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limite]</td>
+      <td>
+        <p>Insira ou mapeie o número máximo de registros para o qual deseja que o módulo [action] durante cada ciclo de execução do cenário.</p>
       </td>
     </tr>
   </tbody>
@@ -716,9 +772,19 @@ Este módulo de ação atualiza um conjunto de dados especificado.
   </tbody>
 </table>
 
-#### [!UICONTROL Excluir um conjunto de dados]
+### Aplicativos
 
-Esse módulo de ação exclui um conjunto de dados.
+* [Obter um aplicativo](#get-an-app)
+* [Obter o painel de um aplicativo](#get-an-apps-dashboard)
+* [Obter um relatório do aplicativo](#get-an-apps-report)
+* [Listar painéis do aplicativo](#list-apps-dashboards)
+* [Listar relatórios do aplicativo](#list-apps-reports)
+* [Listar aplicativos](#list-apps)
+* [Assistir Aplicativos](#watch-apps)
+
+#### [!UICONTROL Obter um aplicativo]
+
+Este módulo de ação recupera metadados de um aplicativo especificado.
 
 <table>
   <col/>
@@ -729,29 +795,44 @@ Esse módulo de ação exclui um conjunto de dados.
    <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Inserir uma ID de Relatório]</td>
+      <td role="rowheader">[!UICONTROL ID do Aplicativo]  </td>
       <td>
-        <p>Selecione ou mapeie a opção para escolher o conjunto de dados que deseja excluir.</p>
+        <p>Selecione ou mapeie a ID do aplicativo que deseja recuperar.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Obter o Painel de um Aplicativo]
+
+Este módulo de ação recupera metadados do painel de um aplicativo especificado.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Conexão]</td>
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ID do Aplicativo]  </td>
+      <td>
+        <p>Selecione ou mapeie a ID do aplicativo que contém o painel que você deseja recuperar.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de Relatório]</td>
       <td>
-        <p>Insira ou mapeie a ID do conjunto de dados que você deseja excluir.</p>
+        <p>  Selecione ou mapeie a ID do painel que deseja recuperar.</p>
       </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID de Grupo]  </td>
-      <td>Selecione ou mapeie a ID do Grupo que possui o conjunto de dados que você deseja excluir.</td>
     </tr>
   </tbody>
 </table>
 
-### Aplicativos
+#### [!UICONTROL Obter relatório de um aplicativo]
 
-#### [!UICONTROL Assistir Aplicativos]
-
-Este módulo de acionamento inicia um cenário quando um aplicativo é atualizado.
+Este módulo de ação recupera os metadados do relatório de um aplicativo especificado.
 
 <table>
   <col/>
@@ -762,9 +843,15 @@ Este módulo de acionamento inicia um cenário quando um aplicativo é atualizad
    <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td role="rowheader">[!UICONTROL ID do Aplicativo]  </td>
       <td>
-        <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p>
+        <p>Selecione ou mapeie a ID do aplicativo que contém o relatório que você deseja recuperar.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ID de Relatório]</td>
+      <td>
+        <p>  Selecione ou mapeie a ID do relatório que deseja recuperar.</p>
       </td>
     </tr>
   </tbody>
@@ -781,31 +868,6 @@ Este módulo de pesquisa recupera uma lista de todos os aplicativos instalados.
     <tr>
       <td role="rowheader">[!UICONTROL Conexão]</td>
    <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
-      <td>
-        <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Listar relatórios do aplicativo]
-
-Este módulo de pesquisa recupera uma lista de todos os relatórios do aplicativo especificado.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID do Aplicativo]</td>
-      <td>Selecione ou mapeie a ID do aplicativo do qual deseja listar relatórios.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limite]  </td>
@@ -841,9 +903,9 @@ Este módulo de pesquisa recupera uma lista de painéis de um aplicativo especif
   </tbody>
 </table>
 
-#### [!UICONTROL Obter um aplicativo]
+#### [!UICONTROL Listar relatórios do aplicativo]
 
-Este módulo de ação recupera metadados de um aplicativo especificado.
+Este módulo de pesquisa recupera uma lista de todos os relatórios do aplicativo especificado.
 
 <table>
   <col/>
@@ -854,44 +916,21 @@ Este módulo de ação recupera metadados de um aplicativo especificado.
    <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ID do Aplicativo]  </td>
+      <td role="rowheader">[!UICONTROL ID do Aplicativo]</td>
+      <td>Selecione ou mapeie a ID do aplicativo do qual deseja listar relatórios.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limite]  </td>
       <td>
-        <p>Selecione ou mapeie a ID do aplicativo que deseja recuperar.</p>
+        <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Obter relatório de um aplicativo]
+#### [!UICONTROL Assistir Aplicativos]
 
-Este módulo de ação recupera os metadados do relatório de um aplicativo especificado.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Conexão]</td>
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID do Aplicativo]  </td>
-      <td>
-        <p>Selecione ou mapeie a ID do aplicativo que contém o relatório que você deseja recuperar.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID de Relatório]</td>
-      <td>
-        <p>  Selecione ou mapeie a ID do relatório que deseja recuperar.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Obter o Painel de um Aplicativo]
-
-Este módulo de ação recupera metadados do painel de um aplicativo especificado.
+Este módulo de acionamento inicia um cenário quando um aplicativo é atualizado.
 
 <table>
   <col/>
@@ -902,15 +941,9 @@ Este módulo de ação recupera metadados do painel de um aplicativo especificad
    <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Power BI] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o Adobe [!DNL Workfront Fusion] - Instruções básicas</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ID do Aplicativo]  </td>
+      <td role="rowheader">[!UICONTROL Limite]  </td>
       <td>
-        <p>Selecione ou mapeie a ID do aplicativo que contém o painel que você deseja recuperar.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL ID de Relatório]</td>
-      <td>
-        <p>  Selecione ou mapeie a ID do painel que deseja recuperar.</p>
+        <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p>
       </td>
     </tr>
   </tbody>

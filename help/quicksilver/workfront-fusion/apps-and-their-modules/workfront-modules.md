@@ -9,7 +9,7 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -147,6 +147,7 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 
 ![](assets/map-toggle-350x74.png)
+
 >[!NOTE]
 >
 >* Se você não vir os campos mais atualizados em um módulo do Workfront, isso pode ser devido a problemas de cache. Aguarde uma hora e tente novamente.

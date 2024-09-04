@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3719'
 ht-degree: 0%
@@ -150,8 +150,6 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Gerar documento]](#generate-document)
-* [[!UICONTROL Extrair texto/tabela]](#extract-text--table)
 * [[!UICONTROL Combinar arquivos de PDF]](#combine-pdf-files)
 * [[!UICONTROL Compactar arquivos PDF]](#compress-pdf-files)
 * [[!UICONTROL Converter documento em arquivo PDF]](#convert-document-to-pdf-file)
@@ -159,6 +157,8 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 * [[!UICONTROL Converter imagem em arquivo PDF]](#convert-image-to-pdf-file)
 * [[!UICONTROL Converter PDF em documento]](#convert-pdf-to-document)
 * [[!UICONTROL Converter PDF em imagem]](#convert-pdf-to-image)
+* [[!UICONTROL Extrair texto/tabela]](#extract-text--table)
+* [[!UICONTROL Gerar documento]](#generate-document)
 * [[!UICONTROL Linearizar um arquivo PDF]](#linearize-a-pdf-file)
 * [[!UICONTROL OCR para o arquivo PDF]](#ocr-for-pdf-file)
 * [[!UICONTROL Manipulação de página]](#page-manipulation)
@@ -167,127 +167,6 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 * [[!UICONTROL Arquivo PDF do Protect]](#protect-pdf-file)
 * [[!UICONTROL Remover proteção de um arquivo PDF]](#remove-protection-of-a-pdf-file)
 * [Dividir um arquivo PDF](#split-a-pdf-file)
-
-### [!UICONTROL Gerar documento]
-
-O módulo [!UICONTROL Gerar documento] é uma maneira poderosa de criar um PDF que contenha os dados selecionados. Você pode formatá-lo usando um modelo [!DNL Microsoft Word] ou fornecendo dados no formato JSON.
-
-Para obter mais informações sobre a funcionalidade [!UICONTROL [!DNL Adobe PDF Services] Gerar documento], consulte a [Visão Geral da Geração de Documento](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) na documentação [!DNL Adobe Document Services].
-
-* [Usar o módulo [!UICONTROL Gerar documento] com um [!DNL Microsoft Word] modelo](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [Usar o módulo [!UICONTROL Gerar documento] com JSON](#use-the-generate-document-module-with-json)
-
-#### Usar o módulo [!UICONTROL Gerar documento] com um modelo [!DNL Microsoft Word]
-
-<!--
->[!NOTE]
->
->For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
->
->You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
--->
-
-Para usar o módulo [!UICONTROL Gerar documento] com um modelo do [!UICONTROL Microsoft Word], você deve primeiro criar o modelo. Para obter instruções, procure por &quot;Criar um modelo&quot; na documentação do [!DNL Microsoft Office].
-
-Preencha os campos do módulo [!UICONTROL Gerar documento] da seguinte maneira:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Selecione a conexão a ser usada para este módulo.</p> Para obter instruções sobre como criar uma conexão com [!DNL Adobe PDF Services], consulte <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Criar uma conexão com [!DNL Adobe PDF Services]</a> neste artigo. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Arquivo Source]</td> 
-   <td> <p>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</p> <p>Esse arquivo de origem é o modelo [!DNL Microsoft Word ] que o módulo usa para gerar o novo PDF.</p> <p>Recomendamos criar um projeto no [!DNL Workfront] para os modelos [!DNL Microsoft Word] que você usa no [!DNL Workfront Fusion]. Você pode usar o módulo [!DNL Workfront] &gt; [!UICONTROL Baixar documento] para inserir o modelo apropriado em seu cenário.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Formato de Saída]</td> 
-   <td> <p>Selecione o formato do documento gerado.</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Dados para mesclagem]</td> 
-   <td> <p>Para cada tag de valor no modelo que você deseja substituir por texto, preencha o seguinte:</p> 
-    <ul> 
-     <li> <p>[!UICONTROL Chave]</p> <p>Insira uma chave. No modelo, a chave é o texto mostrado na tag de valor. Por exemplo, se você deseja colocar texto na marca de valor <code>&#123;&#123;name&#125;&#125;</code>, digite <code>name </code> no campo de chave.</p> </li> 
-     <li> <p>Tipo de valor</p> <p>Selecione se os dados no campo de valor são um valor, um objeto ou uma matriz de objetos.</p> </li> 
-     <li> <p>[!UICONTROL Valor]</p> <p>Insira ou mapeie o texto que você deseja que apareça no documento gerado no lugar da marca de valor.</p> </li> 
-    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Usar o módulo [!UICONTROL Gerar documento] com JSON
-
-Para usar o módulo [!UICONTROL Gerar documento] com JSON, preencha os campos da seguinte maneira:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Selecione a conexão a ser usada para este módulo.</p> Para obter instruções sobre como criar uma conexão com [!DNL Adobe PDF Services], consulte <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Criar uma conexão com [!DNL Adobe PDF Services]</a> neste artigo. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Arquivo Source]</td> 
-   <td> <p>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Formato de Saída]</td> 
-   <td> <p>Selecione o formato do documento gerado.</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Dados para mesclagem]</td> 
-   <td> <p>Para usar o JSON neste módulo, você deve habilitar o mapeamento neste campo.</p> <p>Insira ou mapeie o JSON a partir do qual o documento será gerado. </p> <p>Você pode digitar o JSON diretamente neste campo ou mapear a saída JSON de um módulo JSON.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Extrair texto/tabela]
-
-Esse módulo de ação permite extrair dados de um arquivo PDF. O módulo gera elementos de texto individuais, como um parágrafo ou o texto em uma única célula de uma tabela.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Selecione a conexão a ser usada para este módulo.</p> Para obter instruções sobre como criar uma conexão com [!DNL Adobe PDF Services], consulte <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Criar uma conexão com [!DNL Adobe PDF Services]</a> neste artigo. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL arquivo Source]</td> 
-   <td>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Elementos que devem ser extraídos como JSON]</td> 
-   <td> 
-    <ul> 
-     <li> <p>[!UICONTROL Texto]</p> </li> 
-     <li> <p>[!UICONTROL Tabelas]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Extrair caixas delimitadoras?]</td> 
-   <td>Habilite esta opção para extrair dados sobre a caixa delimitadora do texto.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Incluir informações de estilo para saída?]</td> 
-   <td>Ative essa opção para adicionar informações de estilo ao JSON de saída.</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### [!UICONTROL Combinar arquivos de PDF]
 
@@ -545,6 +424,127 @@ Por exemplo, um arquivo chamado &quot;TestFile&quot; com 8 páginas produziria 8
      <li>Imagem PNG</li> 
      <li>JPEG</li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Extrair texto/tabela]
+
+Esse módulo de ação permite extrair dados de um arquivo PDF. O módulo gera elementos de texto individuais, como um parágrafo ou o texto em uma única célula de uma tabela.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Selecione a conexão a ser usada para este módulo.</p> Para obter instruções sobre como criar uma conexão com [!DNL Adobe PDF Services], consulte <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Criar uma conexão com [!DNL Adobe PDF Services]</a> neste artigo. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL arquivo Source]</td> 
+   <td>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Elementos que devem ser extraídos como JSON]</td> 
+   <td> 
+    <ul> 
+     <li> <p>[!UICONTROL Texto]</p> </li> 
+     <li> <p>[!UICONTROL Tabelas]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Extrair caixas delimitadoras?]</td> 
+   <td>Habilite esta opção para extrair dados sobre a caixa delimitadora do texto.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Incluir informações de estilo para saída?]</td> 
+   <td>Ative essa opção para adicionar informações de estilo ao JSON de saída.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Gerar documento]
+
+O módulo [!UICONTROL Gerar documento] é uma maneira poderosa de criar um PDF que contenha os dados selecionados. Você pode formatá-lo usando um modelo [!DNL Microsoft Word] ou fornecendo dados no formato JSON.
+
+Para obter mais informações sobre a funcionalidade [!UICONTROL [!DNL Adobe PDF Services] Gerar documento], consulte a [Visão Geral da Geração de Documento](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) na documentação [!DNL Adobe Document Services].
+
+* [Usar o módulo [!UICONTROL Gerar documento] com um [!DNL Microsoft Word] modelo](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [Usar o módulo [!UICONTROL Gerar documento] com JSON](#use-the-generate-document-module-with-json)
+
+#### Usar o módulo [!UICONTROL Gerar documento] com um modelo [!DNL Microsoft Word]
+
+<!--
+>[!NOTE]
+>
+>For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
+>
+>You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
+-->
+
+Para usar o módulo [!UICONTROL Gerar documento] com um modelo do [!UICONTROL Microsoft Word], você deve primeiro criar o modelo. Para obter instruções, procure por &quot;Criar um modelo&quot; na documentação do [!DNL Microsoft Office].
+
+Preencha os campos do módulo [!UICONTROL Gerar documento] da seguinte maneira:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Selecione a conexão a ser usada para este módulo.</p> Para obter instruções sobre como criar uma conexão com [!DNL Adobe PDF Services], consulte <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Criar uma conexão com [!DNL Adobe PDF Services]</a> neste artigo. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Arquivo Source]</td> 
+   <td> <p>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</p> <p>Esse arquivo de origem é o modelo [!DNL Microsoft Word ] que o módulo usa para gerar o novo PDF.</p> <p>Recomendamos criar um projeto no [!DNL Workfront] para os modelos [!DNL Microsoft Word] que você usa no [!DNL Workfront Fusion]. Você pode usar o módulo [!DNL Workfront] &gt; [!UICONTROL Baixar documento] para inserir o modelo apropriado em seu cenário.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Formato de Saída]</td> 
+   <td> <p>Selecione o formato do documento gerado.</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Dados para mesclagem]</td> 
+   <td> <p>Para cada tag de valor no modelo que você deseja substituir por texto, preencha o seguinte:</p> 
+    <ul> 
+     <li> <p>[!UICONTROL Chave]</p> <p>Insira uma chave. No modelo, a chave é o texto mostrado na tag de valor. Por exemplo, se você deseja colocar texto na marca de valor <code>&#123;&#123;name&#125;&#125;</code>, digite <code>name </code> no campo de chave.</p> </li> 
+     <li> <p>Tipo de valor</p> <p>Selecione se os dados no campo de valor são um valor, um objeto ou uma matriz de objetos.</p> </li> 
+     <li> <p>[!UICONTROL Valor]</p> <p>Insira ou mapeie o texto que você deseja que apareça no documento gerado no lugar da marca de valor.</p> </li> 
+    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Usar o módulo [!UICONTROL Gerar documento] com JSON
+
+Para usar o módulo [!UICONTROL Gerar documento] com JSON, preencha os campos da seguinte maneira:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Selecione a conexão a ser usada para este módulo.</p> Para obter instruções sobre como criar uma conexão com [!DNL Adobe PDF Services], consulte <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Criar uma conexão com [!DNL Adobe PDF Services]</a> neste artigo. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Arquivo Source]</td> 
+   <td> <p>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Formato de Saída]</td> 
+   <td> <p>Selecione o formato do documento gerado.</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Dados para mesclagem]</td> 
+   <td> <p>Para usar o JSON neste módulo, você deve habilitar o mapeamento neste campo.</p> <p>Insira ou mapeie o JSON a partir do qual o documento será gerado. </p> <p>Você pode digitar o JSON diretamente neste campo ou mapear a saída JSON de um módulo JSON.</p> </td> 
   </tr> 
  </tbody> 
 </table>

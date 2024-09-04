@@ -8,9 +8,9 @@ description: Um webhook é uma chamada HTTP acionada por um evento. Você pode u
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Ou você pode seguir as etapas abaixo para enviar os dados de exemplo pelo módu
 
    Os itens do webhook agora estão disponíveis no painel de mapeamento para uso com módulos subsequentes no cenário.
 
-## Fila
+## A fila de webhook
 
 Se um webhook receber dados e não houver um cenário ativo esperando esses dados, os dados serão armazenados na fila. Depois que você ativa o cenário, ele processa todos os pacotes aguardando na fila sequencialmente.
 

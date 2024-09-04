@@ -9,9 +9,9 @@ description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode automati
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2850'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ Este módulo de acionamento inicia um cenário quando um item é atualizado em u
 
 ### Item
 
-* [[!UICONTROL Copiar item]](#copy-an-item)
+* [[!UICONTROL Copiar um item]](#copy-an-item)
 * [[!UICONTROL Criar um item]](#create-an-item)
 * [[!UICONTROL Excluir um item]](#delete-an-item)
 * [[!UICONTROL Obter um Item]](#get-an-item)
@@ -651,6 +651,10 @@ Esse módulo de ação pesquisa sites por um parâmetro especificado.
 </table>
 
 ### Outro
+
+* [Obter alterações](#get-changes)
+* [Fazer uma chamada de API](#make-an-api-call)
+* [Assistir a eventos](#watch-events)
 
 #### Obter alterações
 

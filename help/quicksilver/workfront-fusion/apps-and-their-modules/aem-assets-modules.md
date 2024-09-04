@@ -10,9 +10,9 @@ description: Com o conector  [!DNL Adobe Experience Manager Assets] para [!DNL A
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -190,9 +190,18 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 ![](assets/map-toggle-350x74.png)
 
+* [Copiar uma pasta ou um ativo](#copy-a-folder-or-asset)
+* [Criar um registro](#create-a-record)
+* [Excluir uma pasta, ativo ou representação](#delete-a-folder-asset-or-rendition)
+* [Obter uma lista de pastas](#get-a-folder-listing)
+* [Fazer uma chamada de API personalizada](#make-a-custom-api-call)
+* [Mover uma pasta ou um ativo](#move-a-folder-or-asset)
+* [Atualizar um registro](#update-a-record)
+* [Fazer upload de um ativo](#upload-an-asset)
+
 ### [!UICONTROL Copiar uma pasta ou um ativo]
 
-Este módulo de ação copia uma pasta ou um ativo para outro local em sua conta do Adobe Experience Manager Assets.
+Este módulo de ação copia uma pasta ou um ativo para outro local em sua conta da Adobe Experience Manager Assets.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,7 +269,7 @@ Esse módulo de ação cria uma pasta ou um comentário de ativo.
  </tbody> 
 </table>
 
-### [!UICONTROL Excluir um registro]
+### [!UICONTROL Excluir uma pasta, ativo ou representação]
 
 Este módulo de ação exclui uma pasta, ativo ou representação.
 

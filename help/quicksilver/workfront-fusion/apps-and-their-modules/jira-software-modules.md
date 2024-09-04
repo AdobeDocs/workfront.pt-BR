@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
 source-wordcount: '2072'
 ht-degree: 1%
@@ -282,8 +282,8 @@ Este módulo de acionamento inicia um cenário quando um registro é adicionado,
 ### Ações
 
 * [[!UICONTROL Adicionar problema ao sprint]](#add-issue-to-sprint)
-* [[!UICONTROL Chamada de API personalizada]](#custom-api-call)
 * [[!UICONTROL Criar um Registro]](#create-a-record)
+* [[!UICONTROL Chamada de API personalizada]](#custom-api-call)
 * [[!UICONTROL Excluir um registro]](#delete-a-record)
 * [[!UICONTROL Baixar um anexo]](#download-an-attachment)
 * [[!UICONTROL Ler um registro]](#read-a-record)

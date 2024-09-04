@@ -9,7 +9,7 @@ description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode automati
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: a09116572d4f9101740fa976f1d334e99fac3010
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '2699'
 ht-degree: 0%
@@ -656,6 +656,7 @@ Este módulo recupera uma lista de anexos pertencentes à mensagem especificada.
 ### Outro
 
 * [[!UICONTROL Adicionar Anexo]](#add-an-attachment)
+  <!--Create and send a message-->
 * [[!UICONTROL Fazer uma chamada de API]](#make-an-api-call)
 
 #### [!UICONTROL Adicionar Anexo]
