@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,23 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td>
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Uma opção "Selecionar tudo" agora está disponível nos modelos de layout</a></p>
+                        [!BADGE Na produção ]{type=Informative}
+                        <p>Para facilitar a exibição e ocultação de campos com modelos de layout, uma caixa de seleção "Selecionar tudo" foi adicionada às áreas Visão geral e Finanças da exibição Detalhes em um modelo de layout. Essa opção está disponível quando você seleciona Projeto, Tarefa, Problema, Portfolio ou Programa em "Personalizar o que os usuários veem".</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 29 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção para todos os clientes: 6 de agosto de 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Aprimoramentos na experiência de logon da integração com o Outlook</a></p>
+                        [!BADGE Na produção ]{type=Informative}
                         <p>A experiência de logon para integração com o Outlook foi simplificada para que todos os clientes vejam o mesmo botão para fazer logon no Workfront, estejam eles habilitados para IMS ou não. As etapas de logon subsequentes permanecem diferentes para instâncias IMS e não IMS, mas a página inicial é a mesma para todos os usuários.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
