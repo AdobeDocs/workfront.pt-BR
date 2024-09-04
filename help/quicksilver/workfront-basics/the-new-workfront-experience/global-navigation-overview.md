@@ -5,9 +5,9 @@ description: A barra de navegação superior, exibida na parte superior da tela 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,13 @@ O administrador do Workfront pode personalizar o ícone Início para abrir uma p
 
 Você pode fixar as páginas que visita com frequência para que elas sejam exibidas na barra de navegação superior. Para saber mais sobre as páginas fixadas, consulte [Fixar páginas para personalizar seu espaço de trabalho](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-## Menu [!UICONTROL Ajuda]
+<!--
+## [!UICONTROL Help] menu
 
-O menu **[!UICONTROL Ajuda]** permite procurar ajuda para uma tarefa específica, encontrar mais informações sobre como usar o [!DNL Workfront], exibir o conteúdo relacionado à página em que você está no momento ou enviar comentários sobre a sua experiência.
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-Para saber mais sobre o menu Ajuda, consulte [Acesso [!DNL Adobe Workfront] ajuda](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## Menu [!UICONTROL Notificações]
 

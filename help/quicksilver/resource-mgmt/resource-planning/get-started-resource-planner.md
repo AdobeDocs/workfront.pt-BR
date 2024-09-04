@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Visão geral do Planejador de recursos
 description: Você pode estimar e orçar a alocação dos recursos para os projetos aos quais estão atribuídos e prever sua disponibilidade para trabalho futuro usando o Planejador de Recursos.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

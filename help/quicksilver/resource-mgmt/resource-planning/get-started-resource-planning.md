@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Introdução ao planejamento de recursos
 description: Você pode usar as ferramentas de planejamento de recursos para gerenciar suas funções de trabalho, sua disponibilidade e alocação geral para projetos com base nessa disponibilidade.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%

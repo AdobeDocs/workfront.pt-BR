@@ -6,7 +6,7 @@ description: Embora não haja limite para o número de usuários que você pode 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader">plano do Adobe Workfront</td> 
    <td><p>Novo: Qualquer um</p>
        <p>ou</p>
-       <p>Atual: Pro e superior</p> </td> 
+       <p>Atual: Pro ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 

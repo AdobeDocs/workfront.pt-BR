@@ -6,7 +6,7 @@ description: Conjuntos de recursos são coleções de usuários que ajudam a ger
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader">plano do Adobe Workfront</td> 
    <td><p>Novo: Qualquer um</p>
        <p>ou</p>
-       <p>Atual: Pro e superior</p> </td> 
+       <p>Atual: Pro ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 

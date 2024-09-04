@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Acesso necessário para orçar recursos no Adobe Workfront
+title: Acesso necessário para orçar recursos no Workfront
 description: Você pode exibir e gerenciar informações sobre o planejamento de recursos para os projetos que você tem acesso para exibir quando tem determinadas configurações de nível de acesso e as permissões para seus itens de trabalho, usuários, funções de trabalho e equipes.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
-# Acesso necessário para orçar recursos no Adobe Workfront
+# Acesso necessário para orçar recursos no Workfront
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -37,33 +37,34 @@ Para fazer o orçamento de recursos, gerenciar Conjuntos de Recursos e consultar
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Pro ou superior</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td><p>Novo: Qualquer um</p>
+       <p>ou</p>
+       <p>Atual: Pro ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
-  </tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: Plano</p></td>
+  </tr>  
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> 
     <ul> 
-     <li> <p>Edite o acesso ao Gerenciamento de recursos no seu Nível de acesso que inclua:</p> 
+     <li> <p>Edite o acesso ao Gerenciamento de recursos no seu nível de acesso que inclua:</p> 
       <ul> 
        <li> <p>Acesso para editar prioridades de projeto e horas de orçamento. </p> </li> 
        <li> <p>Acesso para gerenciar Conjuntos de recursos, se você precisar gerenciar Conjuntos de recursos.</p> </li> 
       </ul> <p>Para obter informações sobre o nível de acesso Gerenciamento de Recursos, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acesso ao Gerenciamento de Recursos</a>.</p> </li> 
      <li> <p>Acesso de edição a projetos e usuários. </p> </li> 
-     <li> <p> Edite o acesso a Dados Financeiros no seu Nível de Acesso, se precisar visualizar ou gerenciar informações por Custo.</p> <p>Para obter mais informações sobre o nível de acesso de Dados Financeiros, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> </li> 
-    </ul>
-
-<p><b>OBSERVAÇÃO</b> </p>
-
-<p> Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+     <li> <p> Edite o acesso a Dados financeiros no seu nível de acesso, se precisar exibir ou gerenciar informações por Custo.</p> <p>Para obter mais informações sobre o nível de acesso de Dados Financeiros, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> </li> 
+    </ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerencie permissões no projeto que incluem Gerenciar permissões financeiras.</p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre permissões financeiras em um projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartilhar permissões financeiras em um objeto</a></a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Solicitar acesso aos objetos </a>.</p>
+   <td> <p>Gerencie permissões no projeto que incluem Gerenciar permissões financeiras.</p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre permissões financeiras em um projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartilhar permissões financeiras em um objeto</a></a>.</p>
 
 <p><b>Nota</b>
 
@@ -72,4 +73,4 @@ Ao estimar recursos na visualização Função, se você tiver menos que Gerenci
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
