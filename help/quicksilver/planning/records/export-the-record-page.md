@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 1%
 
 # Exportar os detalhes de um registro
 
-Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham uma conta do Workfront, é possível exportar os detalhes de um registro para um documento do Word e compartilhá-lo com elas.
-
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham uma conta do Workfront, é possível exportar os detalhes de um registro para um arquivo e compartilhá-lo com elas.
 
 ## Requisitos de acesso
 
@@ -54,7 +50,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
    <td role="rowheader"><p>Plano de planejamento do Adobe Workfront*</p></td> 
    <td> 
 <p>Qualquer </p> 
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>. </p> 
+<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
@@ -150,16 +146,12 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 ## Considerações sobre a exportação de detalhes de um registro:
 
-* Você pode exportar os detalhes de um registro para um documento do Word.
+* É possível exportar os detalhes de um registro para os seguintes formatos de arquivo:
 
-<!--replace the first bullet with this, when it's possible:
+   * .docx Word
+   * .pdf
 
-* You can export a record's details to the following file formats:
-
-    * Word
-    * PDF -->
-
-* É possível exportar a página Detalhes da página de um registro. Não é possível exportar a guia Connections.
+* É possível exportar a guia Details da página de um registro. Não é possível exportar a guia Connections.
 
 * O arquivo exportado preserva o layout da página de registro, incluindo a miniatura e as imagens de capa.
 
@@ -182,10 +174,15 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 
 1. Escolha a guia **Detalhes**. A guia Detalhes deve ser aberta por padrão.
 
-1. Clique no ícone **Exportar** ![](assets/export-icon-in-record-details-page.png) na visualização ou na página do registro.
+1. Clique no ícone **Exportar** ![](assets/export-icon-in-record-details-page.png) na visualização ou na página do registro e clique em uma das seguintes opções:
 
-   Um arquivo do Word (.docx) é baixado e salvo no computador.
+   * **Microsoft Word**
+   * **Adobe PDF**
+
+   Um arquivo do Word (.docx) ou PDF é baixado e salvo no computador.
+
+   O nome do arquivo exportado é o campo Primary do registro.
 
    ![](assets/exported-word-file.png)
 
-1. (Opcional) Vá para o arquivo baixado, abra-o e edite-o ou compartilhe-o com outras pessoas.
+1. (Opcional) Vá para o arquivo baixado, abra-o e edite-o (se for um arquivo do Word) ou compartilhe-o com outras pessoas.

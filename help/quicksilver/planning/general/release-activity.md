@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '7462'
+source-wordcount: '7446'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
+><span class="preview">Este artigo lista os recursos que foram lançados durante a fase inicial do Workfront Planning, em 2024, antes do lançamento de disponibilidade geral em 28 de agosto de 2024.</span>
+>
 >As informações neste artigo se referem ao Adobe Workfront Planning, uma nova oferta da Adobe Workfront.
 >
 >Você deve adquirir um plano do Workfront Planning, além de um plano do Workfront para poder acessar e usar os recursos do Workfront Planning.
@@ -28,18 +30,16 @@ ht-degree: 0%
 >Para obter uma visão geral do Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Este artigo lista os recursos que foram lançados para o Workfront Planning durante o período de acesso antecipado em 2024.
-
-Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro.
-
-Consulte também os seguintes artigos para obter mais recursos lançados para o Workfront Planning:
+Para obter mais informações sobre as versões do Workfront Planning, consulte também os seguintes artigos:
 
 * [Atividade de versão do Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) para recursos lançados durante a versão beta, durante 2023.
 * [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) para recursos atualmente lançados para o Workfront Planning, depois que ele foi disponibilizado ao público em 28 de agosto de 2024.
 
 ## Cronograma da versão do Workfront Planning
 
-A tabela a seguir mostra a linha do tempo do lançamento do Workfront Planning, começando com sua disponibilidade beta em 2023:
+<!-- this section is also duplicated in the 2023 release notes article-->
+
+A tabela a seguir mostra a linha do tempo da versão do Workfront Planning:
 
 | Hora | Versão |
 |--------------------|-----------------------------------------|

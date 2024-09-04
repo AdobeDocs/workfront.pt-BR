@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 <ul><li>Em Planejamento</li>
 <li>Planning Plus</li>
 </ul>
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>. </p>
+<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p>
    </td>
 
 <tr>
