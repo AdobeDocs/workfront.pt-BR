@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Para obter uma lista de toda a documentação dos Painéis da Tela de Pintura, c
 
 **Status do Beta**
 
-Os Painéis do Canvas estão atualmente em uma fase pública de teste beta e, portanto, estão sujeitos a alterações frequentes. Consulte abaixo para obter instruções sobre como se inscrever no beta.
+Os Painéis do Canvas estão atualmente em uma fase fechada de teste beta e, portanto, estão sujeitos a alterações frequentes. Consulte abaixo para obter instruções sobre como se inscrever no beta.
 
 ## Participe da versão beta
+
+>[!IMPORTANT]
+>
+>Painéis do Canvas está atualmente em beta fechado e, portanto, só está disponível para organizações específicas. Continuamos a convidar diretamente organizações para o beta a partir de uma lista de espera daquelas que manifestaram interesse. Você pode adicionar sua organização à lista de espera enviando [este formulário do programa de comentários sobre Adobe](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta). Além disso, as organizações que compraram o Workfront Planning como parte de seu pacote receberam acesso beta para testar os recursos de relatórios entre produtos.
+>
+>Eventualmente, faremos a transição para um beta aberto, quando o processo de inscrição estará disponível para todas as organizações.
 
 ### Inscrever-se
 
@@ -33,11 +39,7 @@ Para se inscrever na versão beta:
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
 
-1. Clique no botão **Ingressar no Painel da Tela beta** beta no canto superior direito da página.
-
-   >[!NOTE]
-   >
-   >Esse botão só estará disponível se sua organização tiver sido aceita no beta fechado. Quando o beta aberto começar, ele estará disponível para todas as organizações.
+1. Clique no botão **Ingressar no Painel da Tela beta** beta no canto superior direito da página. Observe que esse botão só estará disponível se sua organização tiver sido convidada para o beta fechado.
 
 1. Leia os termos e clique em **Aceitar**. Agora você está inscrito no beta; observe, no entanto, que levará alguns minutos para que seus dados do Workfront fiquem totalmente acessíveis nos Painéis do Canvas.
 
