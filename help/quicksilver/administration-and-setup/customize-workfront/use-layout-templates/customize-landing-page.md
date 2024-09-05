@@ -8,16 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 5%
 
 ---
 
 # Personalizar a página de aterrissagem usando um modelo de layout
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para especificar a área que os usuários devem ver sempre que fizerem logon no Workfront.
+
+Os usuários podem abrir uma das seguintes opções:
+
+* Uma área designada do Workfront
+* Um painel personalizado.
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,9 +67,38 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Na **Área de navegação superior**, clique em **Selecionar página de aterrissagem** e selecione a área que deseja que os usuários vejam ao fazer logon.
 
+   Selecione uma das seguintes áreas ou adicione um painel personalizado:
+
+   * Análise
+   * Calendários
+   * Painéis
+   * Documentos
+   * Metas
+   * Início
+   * Minhas atualizações
+   * Portfólios
+   * Programas
+   * Projetos
+   * Relatórios
+   * Solicitações
+   * Recursos
+   * Cenários
+   * Equipes
+   * Modelos
+   * Planilhas de horas
+   * Usuários
+   * Blueprints
+   * Em Planejamento
+
    >[!IMPORTANT]
    >
-   >Para exibir as áreas Cenários e Metas, são necessárias licenças adicionais. Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) ou para obter informações sobre o Planejador de Cenários do Workfront, consulte [A visão geral do Planejador de Cenários](../../../scenario-planner/scenario-planner-overview.md).
+   >Para exibir as áreas Cenários, Metas e Planejamento, são necessárias licenças adicionais.
+   >
+   >* Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Para obter informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 1. Continue personalizando o modelo de layout.
 

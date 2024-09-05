@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '7446'
+source-wordcount: '7484'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,13 @@ Os seguintes recursos estão incluídos nesta atualização:
 * Como gerenciador de espaço de trabalho, você pode criar um formulário de solicitação e associá-lo a um tipo de registro. Você pode compartilhar um link para este formulário com outras pessoas, incluindo usuários externos.
 
 * Quando os usuários acessarem o formulário, preenchê-lo e enviar a solicitação, um registro será criado para o tipo de registro associado ao formulário de solicitação.
+
+* Dependendo de como estiver configurado, o formulário de solicitação pode exibir todos os campos do tipo de registro, exceto os campos dos seguintes tipos:
+
+   * Pessoas
+   * Campos conectados (inclui conexões com ativos Experience Manager)
+   * Campos de pesquisa conectados
+   * Fórmula
 
 Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 

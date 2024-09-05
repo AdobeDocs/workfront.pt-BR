@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
 
-
 # Exportar os detalhes de um registro
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham uma conta do Workfront, é possível exportar os detalhes de um registro para um arquivo e compartilhá-lo com elas.
 
@@ -149,7 +151,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 * É possível exportar os detalhes de um registro para os seguintes formatos de arquivo:
 
    * .docx Word
-   * .pdf
+   * <span class="preview">.pdf</span>
 
 * É possível exportar a guia Details da página de um registro. Não é possível exportar a guia Connections.
 
@@ -177,12 +179,18 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 1. Clique no ícone **Exportar** ![](assets/export-icon-in-record-details-page.png) na visualização ou na página do registro e clique em uma das seguintes opções:
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   Um arquivo do Word (.docx) ou PDF é baixado e salvo no computador.
+   Um arquivo do Word (.docx) <span class="preview">ou PDF</span> é baixado e salvo no computador.
 
    O nome do arquivo exportado é o campo Primary do registro.
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    Informações adicionais que não são exibidas na página e só são visíveis depois de clicar em Mostrar mais na guia Detalhes não são exibidas no arquivo de PDF exportado. Somente as informações visíveis na página são exibidas no arquivo exportado.
+
+
 1. (Opcional) Vá para o arquivo baixado, abra-o e edite-o (se for um arquivo do Word) ou compartilhe-o com outras pessoas.
+

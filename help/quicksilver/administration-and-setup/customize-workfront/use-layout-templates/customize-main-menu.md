@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '601'
 ht-degree: 4%
 
 ---
@@ -113,6 +113,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Minhas atualizações
    * Quadros
    * Blueprints
+   * Em Planejamento
+
+     >[!NOTE]
+     >
+     >O Planning exige uma licença adicional. Para obter informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
 1. Siga um destes procedimentos:
 
