@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2087'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Para conectar [!DNL Jira Software] a [!DNL Workfront Fusion], você deve criar u
 1. Em [!DNL Workfront Fusion], adicione um módulo [!DNL Jira] a um cenário para abrir a caixa **[!UICONTROL Criar uma conexão]**.
 1. Especifique as seguintes informações:
 
-   * **[!UICONTROL URL do Serviço]**
+   * **[!UICONTROL URL do Serviço]:** Esta é a URL base que você usa para acessar sua conta Jira. Exemplo: `yourorganization.atlassian.net`
    * **[!UICONTROL Nome de usuário]**
    * **[!UICONTROL Token de API]:** Este é o token de API criado na seção [Criar um token de API [!DNL Jira]](#create-an-api-token-in-jira) deste artigo.
 
@@ -231,7 +231,7 @@ arquivo.
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>Insira a URL da instância do [!DNL Jira]. </td> 
+      <td>Insira a URL da instância do [!DNL Jira]. Exemplo: <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -378,9 +378,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   <tr> 
    <td role="rowheader">[!UICONTROL Corpo]</td> 
    <td> <p>Adicione o conteúdo do corpo para a chamada à API na forma de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar instruções condicionais como <code>if</code> em seu JSON, coloque as aspas fora da instrução condicional.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
