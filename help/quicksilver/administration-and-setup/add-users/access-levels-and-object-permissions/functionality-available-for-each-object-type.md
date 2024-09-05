@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1919'
 ht-degree: 10%
 
 ---
@@ -357,7 +357,7 @@ Os usuários com uma licença de Plano podem ter acesso total aos relatórios. T
   </tr> 
   <tr> 
    <td>Editar, excluir, desativar, fazer logon como ou redefinir a senha para qualquer usuário</td> 
-   <td>✓ µ*</td> 
+   <td>✓ µ*<p><b>OBSERVAÇÃO</b>: você não pode fazer logon como qualquer usuário administrador do sistema.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ Os usuários com uma licença de Plano podem ter acesso total aos relatórios. T
   </tr> 
   <tr> 
    <td>Editar, excluir, desativar, fazer logon como ou redefinir a senha de qualquer usuário em um grupo que ele administra</td> 
-   <td>✓ µ*</td> 
+   <td>✓ µ*<p><b>OBSERVAÇÃO</b>: você não pode fazer logon como qualquer usuário administrador do sistema.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
