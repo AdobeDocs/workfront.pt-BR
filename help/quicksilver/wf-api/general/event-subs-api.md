@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 3%
 
 ---
@@ -452,6 +452,12 @@ Por exemplo, uma assinatura de evento **UPDATE - TASK** pode ser definida para d
 * Aplicar vários filtros a uma única assinatura é uma prática equivalente ao uso de um operador lógico **AND**.
 * Várias assinaturas de evento podem ser aplicadas a um único objeto, desde que um ou mais parâmetros de campo de assinatura de evento sejam diferentes em cada assinatura de evento.
 * Quando várias assinaturas de evento são atribuídas a um único objeto, todas as assinaturas de evento associadas a esse objeto podem ser retornadas a um único endpoint. Esta prática pode ser usada como um substituto equivalente para o operador lógico **OR**, que não pode ser definido usando parâmetros de filtro.
+* Os seguintes campos não podem ser filtrados:
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### Uso de operadores de comparação
 
