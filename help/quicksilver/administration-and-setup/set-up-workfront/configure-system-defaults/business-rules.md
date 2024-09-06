@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,17 @@ Para obter informações sobre curingas baseados em data, consulte [Usar curinga
 
 Um curinga de API também está disponível nas regras de negócios. Você pode usar `$$ISAPI` para acionar a regra somente na interface ou somente na API.
 
+Os curingas `$$BEFORE_STATE` e `$$AFTER_STATE` são usados em expressões para acessar os valores de campo do objeto antes e depois de qualquer edição.
+
+* Esses curingas estão disponíveis para o acionador de edição. O estado padrão do acionador de edição (se nenhum estado for incluído na expressão) é `$$AFTER_STATE`.
+* O acionador de criação de objeto permite apenas `$$AFTER_STATE`, pois o estado anterior não existe.
+* O gatilho de exclusão de objeto permite apenas `$$BEFORE_STATE`, pois o estado posterior não existe.
+
+
 Alguns cenários simples de regras de negócios são:
 
 * Os usuários não podem adicionar novas despesas durante a última semana de fevereiro. Esta fórmula pode ser declarada como: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Os usuários não podem editar um projeto com o status Concluído. Esta fórmula pode ser declarada como: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Os usuários não podem editar o nome de um projeto com o status Concluído. Esta fórmula pode ser declarada como: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 Um cenário com instruções IF aninhadas é:
 

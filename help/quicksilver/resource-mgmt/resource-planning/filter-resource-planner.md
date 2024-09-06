@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Filtrar informações no Planejador de recursos
-description: '(AL:*Iterar neste artigo: filtrar por dados personalizados. Outras melhorias? Os avisos de personagens especiais podem mudar - siga a história para saber quando. Originalmente veio em Beta 3 17.3.)'
-author: Alina
+description: Usando filtros, você pode modificar quais informações são exibidas no Planejador de recursos de todas as informações armazenadas no sistema.
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,40 @@ Usando filtros, você pode modificar quais informações são exibidas no Planej
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Pro e superior</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td><p>Novo: Qualquer um</p>
+       <p>ou</p>
+       <p>Atual: Pro ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou superior<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Claro ou superior</p>
+       <p>ou</p>
+       <p>Atual: revisão ou superior</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior ao Gerenciamento de projetos, usuários e recursos </p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso de visualização ou superior para Projetos, Usuários e Gerenciamento de recursos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou superiores para projetos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou superiores para projetos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visão geral dos filtros do Planejador de recursos
 
@@ -117,18 +119,16 @@ Considere o seguinte ao criar um filtro:
 
 Para criar um filtro no Planejador de recursos:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Clique em **Recursos**.
+O **Planejador** é exibido por padrão.
 
-   O **Planejador** é exibido por padrão.
+Por padrão, na primeira vez que você acessa o Planejador de recursos, o <strong>Filtro padrão</strong> é aplicado.<br>Para obter mais informações sobre o filtro Padrão, consulte a <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Visão Geral do Filtro Padrão na seção Planejador de Recursos</a> neste artigo.
 
-   Por padrão, na primeira vez que você acessa o Planejador de recursos, o <strong>Filtro padrão</strong> é aplicado.<br>Para obter mais informações sobre o filtro Padrão, consulte a <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Visão Geral do Filtro Padrão na seção Planejador de Recursos</a> neste artigo.
-
-1. No canto superior esquerdo do, clique no ícone **Filtro**.\
-   ![ícone_de_filtro.png](assets/filter-icon.png)\
-   Ou\
-   Expanda o menu suspenso **Filtro** e clique em **Adicionar Novo Filtro**.\
+1. No canto superior esquerdo do, clique no ícone **Filtro**.
+   ![ícone_de_filtro.png](assets/filter-icon.png)
+Ou
+Expanda o menu suspenso **Filtro** e clique em **Adicionar Novo Filtro**.
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Para criar um filtro usando os critérios internos, especifique qualquer um dos seguintes campos:
