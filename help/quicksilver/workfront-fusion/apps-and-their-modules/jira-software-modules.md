@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
+source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
 workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 1%
@@ -210,6 +210,7 @@ arquivo.
 >[!NOTE]
 >
 >Use o aplicativo [!DNL Jira Server] para se conectar a [!DNL Jira Server] ou [!DNL Jira Data Center].
+
 1. Em qualquer módulo [!DNL Jira Server] em [!DNL Workfront Fusion], clique em **[!UICONTROL Adicionar]** ao lado do campo [!UICONTROL conexão].
 1. No painel [!UICONTROL Criar uma conexão], preencha os seguintes campos:
 
