@@ -7,9 +7,9 @@ description: Este artigo descreve por que os cenários ativos ou desativados sã
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 * Um cenário inativo é executado somente quando executado manualmente.
 
-  Isso é útil quando você deseja executar o cenário somente em determinados momentos.
+  Isso é útil quando você deseja executar o cenário manualmente todas as vezes.
 
 É possível ativar ou desativar um cenário a qualquer momento, dependendo de como você deseja usá-lo.
 
