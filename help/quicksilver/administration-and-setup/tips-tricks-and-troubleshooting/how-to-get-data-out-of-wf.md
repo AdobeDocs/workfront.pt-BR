@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-# Exportar dados históricos do [!DNL Adobe Workfron]t: prós e contras
+# Exportar dados históricos de [!DNL Adobe Workfront]: prós e contras
 
 Este artigo explica os prós e contras de quatro opções que você pode usar para exportar dados históricos de [!DNL Workfront].
 
@@ -32,11 +32,11 @@ O [!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) tem um ap
 
 ## Solicitar um arquivo de despejo de dados [!DNL Postgres] da nossa equipe do banco de dados
 
-Seu Executivo de contas pode enviar uma solicitação para nossa equipe do banco de dados para exportar um arquivo de despejo de banco de dados (arquivo .dmp [!DNL Postgres]) com seus dados. Uma solicitação adicional será enviada para nossa equipe do AOS para recuperar todos os documentos armazenados.
+Você deve enviar uma solicitação para nossa equipe de Suporte ao cliente, que enviará uma solicitação para nossa equipe de banco de dados para exportar um arquivo de despejo de banco de dados (arquivo .dmp [!DNL Postgres]) com seus dados. Uma solicitação adicional será encaminhada à nossa equipe de NOC para recuperar todos os documentos armazenados.
 
 * **Vantagens**: você obtém toda a sua carga de dados, incluindo campos personalizados, bem como documentos que são armazenados no sistema.
 
-* **Contras**: O arquivo de banco de dados é difícil de ler: não há como ler este arquivo, a menos que você carregue-o para um banco de dados [!DNL Postgres] e restabeleça as relações entre as tabelas. Os documentos são armazenados em um servidor de arquivos separado e devem ser extraídos separadamente usando um processo separado pela equipe do AOS. Ao fazer isso, não há organização para os documentos e todos são referenciados por seu GUID.
+* **Contras**: O arquivo de banco de dados é difícil de ler: não há como ler este arquivo, a menos que você carregue-o para um banco de dados [!DNL Postgres] e restabeleça as relações entre as tabelas. Os documentos são armazenados em um servidor de arquivos separado e devem ser extraídos separadamente usando um processo separado pela equipe do NOC. Ao fazer isso, não há organização para os documentos e todos são referenciados por seu GUID.
 
 * **Custo**: há um custo associado a este download, dependendo do tempo que a equipe leva para criar o arquivo. Consulte seu AE/CAE para obter mais informações ou para iniciar esse processo.
 

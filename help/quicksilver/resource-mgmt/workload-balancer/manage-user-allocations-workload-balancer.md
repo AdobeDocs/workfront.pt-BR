@@ -6,7 +6,7 @@ description: Como um Gerenciador de recursos, você pode atribuir trabalho aos u
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Como um Gerenciador de recursos, você pode atribuir trabalho aos usuários e ge
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>
-   <p>Ao usar o Balanceador de carga de trabalho na área Recursos, é necessário:</p>
-   <p>Novo: Padrão</p>
-   <p>Ou</p>
-   <p>Atual: Plano</p>
-   <p>Ao usar o Balanceador de carga de trabalho de uma equipe ou projeto, é necessário:</p>
-   <p>Novo: Padrão</p>
-   <p>Ou</p>
-   <p>Atual: Trabalho</p>
- </td> 
-  </tr> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
+       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuração do nível de acesso</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso ao seguinte:</p> 
     <ul> 
-     <li> <p>Gerenciamento de recursos</p> </li> 
-     <li> <p>Projetos</p> </li> 
-     <li> <p>Tarefas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-    </ul> </td> 
+     <li>Gerenciamento de recursos</li> 
+     <li>Projetos</li> 
+     <li>Tarefas</li> 
+     <li>Problemas</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 

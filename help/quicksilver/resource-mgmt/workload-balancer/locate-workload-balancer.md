@@ -7,15 +7,14 @@ description: Você pode usar o Balanceador de carga de trabalho para agendar rec
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Localize o Balanceador de carga de trabalho
-
 
 Você pode usar o Balanceador de carga de trabalho para agendar recursos para trabalho ou revisar sua disponibilidade e alocações atuais.
 
@@ -36,9 +35,10 @@ Este artigo descreve as áreas em que você pode acessar o Balanceador de carga 
 >* [Navegar pelo Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
->
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -47,35 +47,35 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos</p>
-   <p>Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p>
- </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
+       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader">Nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Visualize ou tenha acesso superior ao seguinte:</p> 
     <ul> 
-     <li> <p>Gerenciamento de recursos</p> </li> 
-     <li> <p>Projetos</p> </li> 
-     <li> <p>Tarefas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-    </ul> <p><b> Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+     <li>Gerenciamento de recursos</li> 
+     <li>Projetos</li> 
+     <li>Tarefas</li> 
+     <li>Problemas</li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou permissões superiores para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td>Exibir permissões ou permissões superiores para projetos, tarefas e problemas</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Acessar o Balanceador de carga de trabalho em áreas predefinidas
 
@@ -83,7 +83,8 @@ As seções a seguir ilustram onde você pode acessar o Balanceador de carga de 
 
 ### Acesse o Balanceador de carga de trabalho para vários projetos na área Recursos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Recursos**.
+{{step1-to-resourcing}}
+
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
    ![](assets/nwe-balancer-global.png)
@@ -97,27 +98,27 @@ As seções a seguir ilustram onde você pode acessar o Balanceador de carga de 
 
 ### Acessar o Balanceador de carga de trabalho de uma equipe
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em Equipes.
+{{step1-to-team}}
+
 A página da sua equipe inicial é exibida.
 
-   O Balanceador de carga de trabalho da equipe é exibido por padrão.
-
-   ![](assets/nwe-balancer-team-350x172.png)
-
-   O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações, por padrão:
-
-   * **Trabalho não atribuído**: itens atribuídos à equipe e não atribuídos a usuários.
-   * **Trabalho atribuído**: todos os membros da equipe com todas as suas atribuições.
-
-     >[!TIP]
-     >
-     >Os membros da equipe podem ser atribuídos a trabalhos também atribuídos à equipe ou a trabalhos atribuídos a outras equipes ou funções.
-
-
+    Clique em **Balanceador de carga de trabalho** no painel esquerdo.
+    
+    ![](assets/nwe-balancer-team-350x172.png)
+    
+    O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações por padrão:
+    
+    * **Trabalho não atribuído**: itens atribuídos à equipe e não atribuídos aos usuários.
+    * **Trabalho atribuído**: todos os membros da equipe com todas as suas atribuições.
+    
+    >[!TIP]
+    >
+    >Os membros da equipe podem ser atribuídos ao trabalho também atribuído à equipe ou ao trabalho atribuído a outras equipes ou funções.
 
 ### Acessar o Balanceador de carga de trabalho de um projeto
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Projetos**.
+{{step1-to-projects}}
+
 1. Clique no nome de um projeto para abrir a página.
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Balanceador de Carga de Trabalho**.
 

@@ -6,9 +6,9 @@ description: Use o Balanceador de carga de trabalho para entender a disponibilid
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,47 +21,9 @@ O Balanceador de carga de trabalho está disponível em várias áreas do Adobe 
 
 Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
-
 ## Requisitos de acesso
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -70,33 +32,37 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos</p>
-   <p>Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
+       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Visualize ou tenha acesso superior ao seguinte:</p> 
     <ul> 
-     <li> <p>Gerenciamento de recursos</p> </li> 
-     <li> <p>Projetos</p> </li> 
-     <li> <p>Tarefas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-    </ul> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+     <li>Gerenciamento de recursos</li> 
+     <li>Projetos</li> 
+     <li>Tarefas</li> 
+     <li>Problemas</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Visualize ou aumente as permissões para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td>Visualize ou aumente as permissões para projetos, tarefas e problemas</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações para a visualização de itens no Balanceador de carga de trabalho
 
@@ -156,7 +122,8 @@ Após selecionar as configurações que deseja aplicar à visualização, o Bala
 
 Para navegar pelo Balanceador de carga de trabalho para vários projetos:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Recursos**.
+{{step1-to-resourcing}}
+
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
    ![Balanceador de carga de trabalho](assets/nwe-balancer-global.png)
@@ -433,9 +400,11 @@ Você pode ver mais informações sobre as tarefas e os problemas no Balanceador
 
 Navegar pelo Balanceador de carga de trabalho de uma equipe é semelhante a como você navega pelo Balanceador de carga de trabalho para vários projetos. Para obter informações, consulte a seção [Navegar pelo Balanceador de carga de trabalho para vários projetos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) neste artigo.
 
-1. Clique no ícone **Menu principal** ![Menu principal](assets/main-menu-icon.png) e em **Equipes**.
+{{step1-to-team}}
+
 A página da Equipe inicial é exibida por padrão.
-1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. O Balanceador de carga de trabalho de uma equipe deve ser exibido por padrão.
+
+1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
    ![Balanceador de carga de trabalho de uma equipe](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ A página da Equipe inicial é exibida por padrão.
 
 ## Navegar pelo Balanceador de carga de trabalho de um único projeto
 
-1. Clique no ícone **Menu principal** ![Menu principal](assets/main-menu-icon.png) e em **Projetos**.
+{{step1-to-projects}}
+
 1. Clique no nome de um projeto para abrir a página.
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Balanceador de Carga de Trabalho**.
 

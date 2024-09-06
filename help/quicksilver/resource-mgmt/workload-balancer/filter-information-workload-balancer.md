@@ -6,9 +6,9 @@ description: Para encontrar itens de trabalho com eficiência e se concentrar no
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Este artigo contém informações sobre filtros no Balanceador de carga de traba
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,38 +45,40 @@ Você deve ter o seguinte:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer plano</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos</p>
-   <p>Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
+       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Visualize ou tenha acesso superior ao seguinte:</p> 
     <ul> 
-     <li> <p>Gerenciamento de recursos</p> </li> 
-     <li> <p>Projetos</p> </li> 
-     <li> <p>Tarefas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filtros, visualizações e agrupamentos</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Editar acesso a Filtros, Modos de Exibição e Agrupamentos ao criar ou editar filtros</span> </p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+     <li>Gerenciamento de recursos</li> 
+     <li>Projetos</li> 
+     <li>Tarefas</li> 
+     <li>Problemas</li>
+     <li>Filtros, visualizações e agrupamentos</li>
+    </ul>
+    <p>Editar acesso a Filtros, Visualizações e Agrupamentos ao criar ou editar filtros </p> </td>
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Visualize ou aumente as permissões para projetos, tarefas, problemas</p>
    <p>Gerencie permissões para os filtros que deseja editar ou excluir</p>
-     </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visão geral dos filtros no Balanceador de carga de trabalho
 

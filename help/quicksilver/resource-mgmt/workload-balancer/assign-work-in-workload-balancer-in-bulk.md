@@ -6,20 +6,16 @@ description: Você pode atribuir recursos a várias tarefas e problemas em massa
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
 # Atribuir trabalho em massa usando o Balanceador de carga de trabalho
 
 <!--Audited: 07/2024-->
-
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 Você pode atribuir recursos a várias tarefas e problemas em massa usando o Balanceador de carga de trabalho do Adobe Workfront.
 
@@ -28,6 +24,8 @@ Para obter informações gerais sobre como atribuir trabalho a usuários usando 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ Para obter informações gerais sobre como atribuir trabalho a usuários usando 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> 
-   <p>Novo: Padrão</p>
-   <p>Atual:</p>
-   <ul>
-   <li><p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos</p></li>
-   <li><p>Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
+       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Nível de acesso</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso ao seguinte:</p> 
     <ul> 
-     <li> <p>Gerenciamento de recursos</p> </li> 
-     <li> <p>Projetos</p> </li> 
-     <li> <p>Tarefas</p> </li> 
-     <li> <p>Problemas</p> </li> 
+     <li>Gerenciamento de recursos</li> 
+     <li>Projetos</li> 
+     <li>Tarefas</li> 
+     <li>Problemas</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superiores para projetos, tarefas e problemas que incluem Fazer atribuições</p> </td> 
+   <td>Permissões do Contribute ou superiores para projetos, tarefas e problemas que incluem Fazer atribuições</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,27 +93,27 @@ Para obter informações gerais sobre como atribuir trabalho a usuários usando 
 
 1. (Condicional) Se você estiver acessando o Balanceador de carga de trabalho da área de Recursos ou de uma equipe, expanda o menu suspenso **Projeto: Nome** e use os modificadores de filtro para selecionar o projeto ou projetos para os quais deseja fazer atribuições. Você pode selecionar projetos por Nome (esta é a opção padrão) ou por Status.
 
-Para obter informações sobre modificadores de filtro Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Para obter informações sobre modificadores de filtro Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->O Nome do projeto é selecionado por padrão quando você acessa o Balanceador de carga de trabalho de um projeto.
+   >[!NOTE]
+   >
+   >O Nome do projeto é selecionado por padrão quando você acessa o Balanceador de carga de trabalho de um projeto.
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Opcional) Clique em **Selecionar tarefas do projeto** para selecionar a(s) tarefa(s) para a(s) qual(is) você deseja fazer atribuições. Em seguida, no menu suspenso **Tarefa: Nome**, selecione as tarefas por Nome (esta é a opção padrão) ou Status e use os modificadores de filtro para procurar tarefas específicas.
 
-Para obter informações sobre modificadores de filtro Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Para obter informações sobre modificadores de filtro Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->Não é possível selecionar tarefas com o status Concluído.
+   >[!NOTE]
+   >
+   >Não é possível selecionar tarefas com o status Concluído.
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->Deixe essa seleção em branco se quiser fazer atribuições em massa para problemas e tarefas.
+   >[!TIP]
+   >
+   >Deixe essa seleção em branco se quiser fazer atribuições em massa para problemas e tarefas.
 
 1. (Opcional) Clique no ícone ![](assets/delete.png) de **Excluir** ao lado de um dos critérios selecionados
 
