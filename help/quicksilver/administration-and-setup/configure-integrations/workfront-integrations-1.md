@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,18 @@ O [!DNL Workfront] fornece as seguintes integrações internas sem custo adicion
      <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a></p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>ADOBE EXPERIENCE MANAGER ASSETS e ASSETS ESSENTIALS </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Criar automaticamente pastas vinculadas entre o Workfront e o Adobe Experience Manager 
+      <li>Sincronizar metadados de ativos vinculados existentes</p></li>
+      <li>Atualize automaticamente o portfólio, o programa, o projeto, a tarefa, o problema e os documentos metatada quando houver alteração no Workfront.</li>
+      <li>Conecte sem problemas vários repositórios Experience Manager Assets a um ambiente Workfront ou vários ambientes Workfront a um repositório Experience Manager Assets em IDs de organização</li></ul>
+     <p>Para obter informações e instruções, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Visão geral das integrações do Adobe Experience Manager Assets</a></p> 
+     </td>
+   <td><ul><li>A Workfront deve estar em um Admin Console com uma ID de organização atribuída.</li><li>O Workfront e o Experience Manager Assets ou Assets Essentials devem ser atribuídos como um produto ao usuário que está configurando a integração.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

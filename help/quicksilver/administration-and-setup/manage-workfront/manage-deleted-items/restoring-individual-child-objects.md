@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Restaurar Objetos Filho Individuais
-description: Este documento descreve como obter ajuda para recuperar objetos secundários individuais que foram excluídos dos ambientes de produção ou pré-visualização do Adobe Workfront menos de 30 dias antes.
+description: Este artigo descreve como obter ajuda para recuperar objetos secundários individuais que foram excluídos dos ambientes de produção ou pré-visualização do Adobe Workfront menos de 30 dias antes.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 # Restaurar objetos filho individuais
 
-Este documento descreve como obter ajuda para recuperar objetos secundários individuais que foram excluídos dos ambientes de produção ou pré-visualização do Adobe Workfront menos de 30 dias antes.
+Este artigo descreve como obter ajuda para recuperar objetos secundários individuais que foram excluídos dos ambientes de produção ou pré-visualização do Adobe Workfront menos de 30 dias antes.
 
 Um administrador do Workfront pode restaurar projetos, tarefas, problemas e documentos em cada instância do Workfront, conforme descrito em [Restaurar itens excluídos](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Mas somente a Equipe de banco de dados do Workfront pode restaurar objetos como tarefas, problemas, documentos, formulários personalizados, horas e observações, independentemente do objeto principal.
 
@@ -42,6 +42,39 @@ Para obter mais informações sobre as janelas de manutenção do ambiente de Pr
 >[!IMPORTANT]
 >
 >Os documentos são uma exceção a esses métodos de restauração. Você pode baixá-los manualmente no Ambiente de visualização e fazer upload deles novamente no ambiente de produção. Se você deseja baixar e carregar documentos em massa, será necessário solicitar uma restauração de dados da Workfront.
+
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>Ou</p>
+       <p>Atual: Plano</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informações necessárias para uma restauração de dados
 

@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -44,24 +44,32 @@ Delete this paragraph when Callisto adds the
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>Ou</p>
+       <p>Atual: Plano</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Você deve ser um administrador de grupo do grupo ou um administrador do sistema.</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

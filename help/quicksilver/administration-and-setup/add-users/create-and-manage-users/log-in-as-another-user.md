@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Com o nível de acesso de Administrador do sistema, você pode fazer logon como qualquer pessoa.</p> <p>Com um nível de acesso Padrão ou Planejador, você pode fazer logon como um usuário com um nível de licença mais baixo se a configuração <b>Usuários</b> no nível de acesso estiver definida como acesso de <b>Edição</b>, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>OBSERVAÇÃO</b>: dessas duas opções, se o Usuário <b>Administrador (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p></td> 
+   <p><b>OBSERVAÇÃO</b>: dessas duas opções, se <b>Administrador de Usuários (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p></td>
   </tr> 
  </tbody> 
 </table>

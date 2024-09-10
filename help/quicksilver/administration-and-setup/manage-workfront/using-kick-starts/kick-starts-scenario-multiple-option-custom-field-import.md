@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,37 @@ Exemplos de campos personalizados com várias opções são:
 >1. Preencher a planilha de Kick-Starts do Excel
 >1. Faça upload da Planilha do Excel para o Workfront
 
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p> Novo: Padrão</p>
+   ou
+   <p>Atual: Plano</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exportar dados personalizados existentes do Workfront (etapa opcional)
 

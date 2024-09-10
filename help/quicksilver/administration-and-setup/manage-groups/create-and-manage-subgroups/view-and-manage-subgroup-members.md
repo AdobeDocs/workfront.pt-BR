@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -25,28 +25,36 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>Ou</p>
+       <p>Atual: Plano</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso aos usuários, com a opção Administrador de usuários (todos os usuários) selecionada</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ter um dos seguintes:</p> 
+    <ul> 
+     <li> <p>O nível de acesso Administrador do sistema. </li> 
+     <li> <p>A configuração <b>Usuários</b> no seu nível de acesso foi configurada para <b>Editar</b> acesso, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-settings.png">. </p> <p>Dessas duas opções, se <b>Administrador de Usuários (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> </li> 
+    </ul> </td> 
+  </tr>  
  </tbody> 
 </table>
 
-&#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
