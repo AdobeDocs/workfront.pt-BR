@@ -7,16 +7,18 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 4%
 
 ---
 
 # Editar uma tarefa de modelo
 
-Após criar um modelo, você pode editar as informações sobre as tarefas do modelo. As informações atualizadas em uma tarefa de modelo são associadas às tarefas do projeto depois de usar o modelo para criar um projeto ou anexar o modelo a um projeto.
+<!--Audited: 09/2024-->
+
+Após criar um modelo, você pode editar as informações das tarefas do modelo. As informações atualizadas em uma tarefa de modelo são associadas às tarefas do projeto depois de usar o modelo para criar um projeto ou anexar o modelo a um projeto.
 
 Para obter informações sobre como criar um modelo, consulte [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -28,6 +30,8 @@ Você pode editar tarefas de modelo ou editar tarefas de modelo em massa.
 
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -55,7 +59,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para saber qual plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -88,7 +94,7 @@ Antes de começar, você deve
 
    >[!TIP]
    >
-   >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar Tarefa de Modelo abaixo.
+   >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar Tarefa de Modelo, conforme descrito abaixo.
 
 1. (Condicional) Para editar todas as informações sobre a tarefa de modelo, clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa de modelo e clique em **Editar**.
 
@@ -212,7 +218,7 @@ Antes de começar, você deve
 
 ### Finanças {#finance}
 
-1. Comece a editar uma tarefa conforme descrito acima.
+1. Comece a editar uma tarefa de modelo conforme descrito acima.
 1. Clique em **Finanças**.
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ Antes de começar, você deve
 
 ### Configurações {#settings}
 
-1. Comece a editar uma tarefa conforme descrito acima.
+1. Comece a editar uma tarefa de modelo conforme descrito acima.
 1. Clique em **Configurações**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -271,7 +277,7 @@ Antes de começar, você deve
     <col> 
     <tbody> 
    <tr> 
-      <td role="rowheader"><p><b>Etapa</b></p></strong> </td> 
+      <td role="rowheader"><p><b>Marco</b></p></strong> </td> 
       <td> <p>Escolha um marco para associar à tarefa de modelo selecionada.</p>
 
    <p><b>IMPORTANTE</b></p>
@@ -319,7 +325,7 @@ Antes de começar, você deve
 
 ### Atribuições {#assignments}
 
-1. Comece a editar uma tarefa conforme descrito acima.
+1. Comece a editar uma tarefa de modelo conforme descrito acima.
 1. Clique em **Atribuições**.
 
    ![atribuições_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ Antes de começar, você deve
 
 ### Formulários personalizados {#custom-forms}
 
-Você pode definir formulários personalizados padrão para serem anexados automaticamente a tarefas quando as tarefas forem adicionadas a um projeto. Para obter informações sobre como configurar o projeto para incluir formulários de tarefa personalizados padrão, consulte a seção &quot;Tarefas&quot; no artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+Você pode definir formulários personalizados para serem anexados automaticamente por padrão a tarefas quando as tarefas forem adicionadas a um projeto. Para obter informações sobre como configurar o projeto para incluir formulários de tarefa personalizados padrão, consulte a seção &quot;Tarefas&quot; no artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Comece a editar uma tarefa conforme descrito acima. test
+Você também pode adicionar formulários personalizados às tarefas futuras de um projeto quando o projeto for criado a partir de um modelo, adicionando os formulários personalizados às tarefas de modelo.
+
+1. Comece a editar uma tarefa de modelo conforme descrito acima.
 1. Clique em **Forms Personalizado**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Selecione o(s) formulário(s) personalizado(s) que deseja associar à tarefa de modelo. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode adicionar até dez formulários personalizados a uma tarefa de modelo. Os formulários são adicionados automaticamente às tarefas criadas a partir do modelo.
+1. Selecione o(s) formulário(s) personalizado(s) que deseja associar à tarefa de modelo.
+
+   Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo.
+Somente formulários personalizados ativos são exibidos na lista.
+Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Você pode adicionar até dez formulários personalizados a uma tarefa de modelo.
+Os formulários são adicionados automaticamente às tarefas criadas a partir do modelo.
 1. (Condicional e opcional) Se você anexou um formulário personalizado à tarefa de modelo, edite quaisquer campos no formulário. Você deve especificar todos os campos obrigatórios antes de poder salvar a tarefa de modelo.
 
    >[!NOTE]
@@ -368,14 +382,12 @@ Você pode definir formulários personalizados padrão para serem anexados autom
 
 ### Comentário {#comment}
 
-1. Comece a editar uma tarefa conforme descrito acima.
+1. Comece a editar uma tarefa de modelo conforme descrito acima.
 1. Clique em **Comentário**.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. Especifique um comentário que deseja exibir no fluxo de atualizações da tarefa de modelo no campo disponível. Este comentário é visível para todos com acesso de Exibição ao modelo e à tarefa de modelo e com acesso para exibir Notas.
 1. Clique em **Salvar alterações**.
-
-   Suas alterações serão enviadas para esta tarefa de modelo.
 
    Quando você ou outro usuário cria um projeto a partir desse modelo, todas as configurações aplicadas às tarefas do modelo se tornam as configurações para as tarefas do projeto.

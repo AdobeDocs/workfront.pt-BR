@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 2%
@@ -247,7 +247,7 @@ Os campos de parágrafo capturam informações alfanuméricas adicionais sobre u
 >
 >* É possível ter no máximo 20 campos de parágrafo para um tipo de registro.
 >
->* O conteúdo de um campo de parágrafo pode ter até 100.000 caracteres.
+>* O conteúdo de um campo de parágrafo pode ter até 10.000 caracteres.
 >* Você pode usar a formatação Rich Text para aprimorar o conteúdo de campos de parágrafo quando eles são exibidos na exibição de tabela ou na página Detalhes de um registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 >
 
