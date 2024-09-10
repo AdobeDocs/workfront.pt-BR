@@ -5,13 +5,13 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Gerenciar Tipos de Hora
 description: Você pode associar tipos de horas a suas entradas de horas. Os tipos de horas são rótulos usados para definir suas entradas de horas.
-author: Alina
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,8 @@ Para obter informações sobre como registrar horas e associá-las a tipos de ho
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -60,18 +62,18 @@ Para obter informações sobre como registrar horas e associá-las a tipos de ho
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>Novo: [!UICONTROL Padrão]</p>
    <p>Atual: [!UICONTROL Plano]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
-   <td> <p>Você deve ser um administrador [!DNL Workfront].</p> <p> </td> 
+   <td>[!UICONTROL Administrador do Sistema]</td>
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

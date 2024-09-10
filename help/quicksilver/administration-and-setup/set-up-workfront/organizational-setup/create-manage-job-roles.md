@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Como administrador do [!DNL Adobe Workfront] ou usuário com acesso administrati
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,17 +40,18 @@ Você deve ter o seguinte:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td>
-   <p>Novo: Padrão</p>
+   <p>Novo: [!UICONTROL Padrão]</p>
+   <p>Ou</p>
    <p>Atual: [!UICONTROL Plano]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso administrativo a funções de trabalho</p> </td> 
+   <td>Acesso administrativo a Funções de trabalho</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

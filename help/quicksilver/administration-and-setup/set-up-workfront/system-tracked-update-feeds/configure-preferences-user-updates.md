@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Configurar preferências para atualizações de usuário
 description: Você pode configurar preferências que acessam determinados recursos quando os usuários adicionam comentários na área [!UICONTROL Atualizações] de um objeto.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Você pode configurar preferências que dão aos usuários acesso a determinados recursos ao adicionar comentários na área [!UICONTROL Atualizações] de um objeto.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -33,14 +35,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>[!UICONTROL Plano]</td> 
-  </tr> 
+   <td><p>Novo: [!UICONTROL Padrão]</p>
+   Ou
+   <p>Atual: [!UICONTROL Plano]</p>
+   </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso [!UICONTROL Administrador do Sistema].</p><p>Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td><p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso [!UICONTROL Administrador do Sistema].</p><p>Para executá-las para um grupo, você deve ser um gerente desse grupo.</p></td>
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Permitir que usuários adicionem imagens em atualizações
 

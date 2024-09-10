@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: set-up-workfront
 title: Ambientes de teste do Adobe Workfront
 description: Você pode usar dois [!DNL Workfront] ambientes de teste que replicam seu [!DNL Workfront] ambiente de produção. A sandbox de visualização é atualizada todos os finais de semana pelo Workfront. Os dados adicionados ao seu ambiente ativo na sexta-feira aparecem em sua sandbox de visualização na segunda-feira seguinte. A sandbox de atualização personalizada é um ambiente de teste separado que é atualizado manualmente por você. Há um custo adicional para obter a sandbox de atualização personalizada.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
-source-git-commit: 84573688765f7e4d88c941ac8a4d95386bf202de
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

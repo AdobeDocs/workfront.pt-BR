@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Desativar ou reativar uma empresa
 description: É possível desativar uma empresa que não é mais usada, mantendo todos os dados históricos associados a ela. Se você desativar uma empresa já em uso em algum lugar no sistema, ela continuará a funcionar da mesma forma que sempre funcionou. Ele não é removido ou bloqueado.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 0%
+source-wordcount: '371'
+ht-degree: 1%
 
 ---
 
@@ -21,44 +21,53 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para gerenciar empresas em [!DNL Workfront]:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] plano*</p> </td> 
-   <td>[!UICONTROL Team] ou superior</td> 
+   <td role="rowheader"> <p>[!DNL Workfront] plano</p> </td> 
+   <td><p>Atual: [!UICONTROL Team] ou superior</p>
+   <p>Ou</p>
+   <p>Novo: Qualquer um</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] licença*</p> </td> 
-   <td>[!UICONTROL Plano]</td> 
-  </tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] licença</p> </td> 
+   <td><p>Atual: [!UICONTROL Plano]</p>
+   <p>Ou</p>
+   <p>Novo: [!UICONTROL Padrão]</p>
+   </td> 
+  </tr>
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong> </td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong> </td> 
    <td> <p>Uma das seguintes opções:</p> 
     <ul> 
-     <li> <p>O nível de acesso do [!UICONTROL System Administrator], que permite editar qualquer empresa no sistema. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>. </p> </li> 
-     <li> <p>Acesso administrativo para gerenciar empresas, que permite editar qualquer empresa no sistema. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </li> 
+     <li> <p>O nível de acesso do [!UICONTROL System Administrator], que permite editar qualquer empresa no sistema.</p> </li> 
+     <li> <p>Acesso administrativo para gerenciar empresas, que permite editar qualquer empresa no sistema.</p> </li> 
     </ul> <p><b>NOTA</b>:  
      <ul> 
       <li> <p>Você também pode gerenciar empresas associadas a qualquer grupo ao qual esteja atribuído como administrador de grupo.</p> </li> 
       <li> <p>Para adicionar e remover usuários do sistema [!DNL Workfront], você deve ter um dos seguintes:</p> 
        <ul> 
-        <li> <p>O nível de acesso do [!UICONTROL System Administrator]. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>. </p> </li> 
-        <li> <p>Em seu nível de acesso, [!UICONTROL Editar] deve ser selecionado para a configuração [!UICONTROL Usuários]. Além disso, para a configuração [!UICONTROL Usuários], em [!UICONTROL Ajustar suas configurações] <img src="assets/gear-icon-in-access-levels.png"> , a opção [!UICONTROL Criar] e pelo menos uma das duas opções [!UICONTROL Administrador de Usuário] devem estar habilitadas. </p> <p> <img src="assets/access-req-users.png" style="width: 350;height: 101;"> </p> <p>Se você estiver usando a opção [!UICONTROL Administrador de Usuários (Usuários de Grupo)], deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> </li> 
-       </ul> <p>Para obter informações sobre a configuração Usuários em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
+        <li> <p>O nível de acesso do [!UICONTROL System Administrator].</p> </li> 
+        <li> <p>Em seu nível de acesso, [!UICONTROL Editar] deve ser selecionado para a configuração [!UICONTROL Usuários]. Além disso, para a configuração [!UICONTROL Usuários], em [!UICONTROL Ajustar suas configurações] <img src="assets/gear-icon-in-access-levels.png"> , a opção [!UICONTROL Criar] e pelo menos uma das duas opções [!UICONTROL Administrador de Usuário] devem estar habilitadas. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Se você estiver usando a opção [!UICONTROL Administrador de Usuários (Usuários de Grupo)], deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber quais configurações de plano, tipo de licença ou nível de acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Desativar ou reativar uma empresa
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito do [!DNL Adobe] Workfront e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **[!UICONTROL Empresas]** ![](assets/companies-icon-left-panel.png).
 

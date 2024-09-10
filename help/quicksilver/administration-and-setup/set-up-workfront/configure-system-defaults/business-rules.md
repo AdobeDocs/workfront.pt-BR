@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ Os curingas `$$BEFORE_STATE` e `$$AFTER_STATE` são usados em expressões para a
 * O acionador de criação de objeto permite apenas `$$AFTER_STATE`, pois o estado anterior não existe.
 * O gatilho de exclusão de objeto permite apenas `$$BEFORE_STATE`, pois o estado posterior não existe.
 
-
 Alguns cenários simples de regras de negócios são:
 
 * Os usuários não podem adicionar novas despesas durante a última semana de fevereiro. Esta fórmula pode ser declarada como: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ Os usuários não podem editar projetos concluídos e não podem editar projetos
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

@@ -8,14 +8,14 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
 
-# Criar um agendamento
+# Criar um cronograma
 
 <!--Audited: 01/2024-->
 
@@ -57,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>Você deve ser um administrador [!DNL Workfront]. </td> 
+   <td>[!UICONTROL Administrador do Sistema]</td>  
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-## Criar um agendamento
+## Criar um cronograma
 
 {{step-1-to-setup}}
 
