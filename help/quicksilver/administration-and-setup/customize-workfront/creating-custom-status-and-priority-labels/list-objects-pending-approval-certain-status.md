@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,43 @@ ht-degree: 0%
 # Listar objetos com um processo de aprovação pendente usando um determinado status
 
 Se você tentar excluir um status, uma mensagem de erro poderá informar que ele não pode ser excluído porque está em pelo menos um processo de aprovação pendente no sistema. Você pode executar um relatório para listar os objetos onde ele está em um processo de aprovação pendente e, em seguida, decidir o que precisa ser feito para cada um deles.
+
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+     <p>Novo: Padrão</p>
+     <p>ou</p>
+     <p>Atual: Plano</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td><p>Editar acesso a relatórios, painéis, calendários</p><p>Editar acesso a Filtros, Visualizações, Agrupamentos</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td>Você obtém permissões de Gerenciamento para os relatórios que criar.</td>
+  </tr>
+ </tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## No modo Padrão
 

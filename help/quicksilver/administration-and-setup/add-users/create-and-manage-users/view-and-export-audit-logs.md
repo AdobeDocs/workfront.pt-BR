@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para obter informações sobre todos os tipos de log de auditoria e o que os ger
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,11 +42,21 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
+  <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador do Workfront.</p> </td> 
+   <td><p>Novo: Padrão</p>
+       <p>Ou</p>
+       <p>Atual: Plano</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td>
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

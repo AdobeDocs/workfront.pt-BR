@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '507'
 ht-degree: 6%
 
 ---
@@ -37,24 +37,32 @@ Como administrador do Workfront, você pode alterar a ordem dos status de projet
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront* </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador do Workfront. Para obter informações sobre administradores do Workfront, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a um usuário acesso administrativo total</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+     <p>Novo: Padrão</p>
+     <p>ou</p>
+     <p>Atual: Plano</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
