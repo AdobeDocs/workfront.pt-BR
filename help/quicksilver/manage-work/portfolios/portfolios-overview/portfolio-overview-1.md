@@ -2,20 +2,20 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: Portfólios
-description: Saiba mais sobre portfólios nos artigos a seguir.
+title: "Portfolio: índice de artigos"
+description: Um Portfolio é uma coleção de projetos que têm características unificadoras. Saiba mais sobre portfólios nos artigos a seguir.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 655c655c-4bfe-44c8-bbb5-0222b0d158eb
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '42'
+ht-degree: 0%
 
 ---
 
-# Portfólios
+# Portfolio: índice do artigo
 
 Esta seção contém os seguintes artigos:
 

@@ -6,10 +6,10 @@ description: Você pode remover um projeto de um portfólio e associá-lo a um p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 1%
 
 ---
 
@@ -30,9 +30,8 @@ Você também pode excluir projetos de um portfólio que também os remove de [!
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Novo: Qualquer um</p>
-   <p>Atual: [!UICONTROL Business] ou superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 

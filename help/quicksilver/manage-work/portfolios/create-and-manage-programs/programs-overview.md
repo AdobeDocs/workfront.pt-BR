@@ -6,7 +6,7 @@ title: Visão Geral de Programas em  [!DNL Adobe Workfront]
 description: Um programa é uma coleção de projetos que têm características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Programas são um subgrupo de portfólios. Você pode associar projetos a programas antes que eles sejam adicionados a um portfólio.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -34,12 +34,12 @@ Você deve ter o seguinte acesso para criar e gerenciar portfólios:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
    <td> <p>Novo: Qualquer um</p>
-   <p>Atual:[!UICONTROL Business] ou superior</p> </td> 
+   <p>Atual: [!UICONTROL Business] ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
    <td> <p>Novo: [!UICONTROL Padrão]</p>
-   <p>Atual:[!UICONTROL Plano] </p> </td> 
+   <p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
