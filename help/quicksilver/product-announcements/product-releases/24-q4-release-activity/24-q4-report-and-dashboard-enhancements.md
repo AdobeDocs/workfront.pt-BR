@@ -4,9 +4,9 @@ description: Melhorias no painel e no relatório do quarto trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 O Workfront Data Connect ficará disponível para clientes em um dos novos planos da Workfront. A Data Connect permite que as organizações acessem seus dados como um data lake seguro e escalável, que pode ser analisado e visualizado usando ferramentas de business intelligence ou armazenado externamente. Além disso, as organizações podem usar o Data Connect para exibir análises de dados que estavam indisponíveis anteriormente, como análise de tendências com base no tempo, mapeamento de variáveis e análise de dados de sistemas externos em combinação com dados do Workfront.
 
-Entre em contato com o representante de conta para obter mais informações sobre o seu plano atual da Adobe Workfront e como adquirir complementos. Para obter mais informações sobre o Workfront Data Connect, consulte [Visão geral dos formulários personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Entre em contato com o representante de conta para obter mais informações sobre o seu plano atual da Adobe Workfront e como adquirir complementos. Para obter mais informações sobre o Workfront Data Connect, consulte [Visão geral do Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).

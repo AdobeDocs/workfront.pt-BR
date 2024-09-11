@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: "Atividade de Versão do Adobe Workfront Planning para a Versão 24.10"
+title: Atividade de Versão do Adobe Workfront Planning para a Versão 24.10
 description: Esta é a atividade de lançamento do produto Adobe Workfront Planning para o Quarto Trimestre de 2024.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
-
 
 # Atividade de lançamento do quarto trimestre de 2024 para o Adobe Workfront Planning
 
@@ -37,6 +37,22 @@ Para obter informações sobre os recursos incluídos nesta versão, consulte [A
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning após a versão de disponibilidade geral em 28 de agosto de 2024, consulte [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Opções de Exibição para Registros Conectados
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 9 de setembro de 2024; Versão de produção para todos os clientes: com a versão 24.10 (outubro de 2024)
+
+Reprojetamos a área Aparência do registro ao conectar tipos de registro. Agora, ao decidir como os registros conectados serão exibidos nos campos conectados, você pode selecionar entre as seguintes opções:
+
+* Nome
+* Nome e imagem
+* Imagem
+
+Antes desse aprimoramento, você poderia marcar ou desmarcar o botão Título para exibir o nome dos registros ou exibir apenas o ícone ou a miniatura. A opção Título foi removida.
+
+Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Exportar detalhes do registro para PDF
 
@@ -67,4 +83,3 @@ A seguir estão alguns dos principais recursos do Adobe Workfront Planning:
 * Conecte-se a tipos de objetos de outros sistemas, criando uma estrutura coerente para todos os seus processos.
 
 Para obter mais informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-
