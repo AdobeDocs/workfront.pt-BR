@@ -8,9 +8,9 @@ description: O  [!DNL Adobe Workfront Fusion]  é automatizar seus processos par
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
+source-git-commit: 600f5d41e1dbecf1f354805f7fc17bbcf2409aee
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,15 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 ## Visão geral do Workfront Fusion
 
-O papel de [!DNL Adobe Workfront Fusion] é automatizar seus processos para que você possa se concentrar em novas tarefas em vez de repetir as mesmas tarefas repetidamente. Ele funciona vinculando ações em e entre aplicativos e serviços para criar um cenário que transfere e transforma seus dados automaticamente. O cenário que você cria observa dados em um aplicativo ou serviço e processa esses dados para fornecer o resultado desejado.
+A função do [!DNL Adobe Workfront Fusion] é automatizar seus processos para que seus usuários não precisem gastar muito tempo em tarefas de rotina. Ele funciona vinculando ações em e entre aplicativos e serviços para criar um cenário que transfere e transforma seus dados automaticamente. O cenário que você cria observa dados em um aplicativo ou serviço e processa esses dados para fornecer o resultado desejado.
 
-Um cenário é composto de uma série de módulos que indicam como os dados devem ser transformados em um aplicativo ou transferidos entre aplicativos e serviços da Web.
+Um cenário no Workfront Fusion representa um fluxo de trabalho específico. Por exemplo, um cenário muito simples pode observar uma fila de solicitações específica do Workfront e, em seguida, converter automaticamente essas solicitações em projetos usando um modelo.
 
-Você coloca módulos de vários aplicativos e serviços da Web em um cenário que executa uma tarefa. Por exemplo, com uma licença [!DNL Workfront Fusion for Work Automation and Integration], você pode criar um cenário que procura novos dados em um aplicativo ou serviço da Web e, em seguida, usa esses dados em um módulo subsequente no cenário para criar um determinado resultado, como a criação de um novo registro. Depois de configurar um cenário, [!DNL Workfront Fusion] executa a tarefa automaticamente.
+Os cenários podem ser criados para lidar com situações e casos de uso muito específicos. Você pode usar filtros para alterar a ação com base em campos ou propriedades de dados, iterar por meio de arquivos ou dados, salvar dados em um armazenamento de dados e usá-los em outra execução de cenário ou configurar seu cenário de muitas outras maneiras.
+
+Você também pode adicionar aplicativos diferentes do Workfront ao seu cenário. O Fusion inclui muitos conectores dedicados para aplicativos externos, incluindo aplicativos por Adobe, Google, Microsoft e muitos outros. Se não houver um conector dedicado para um aplicativo, o Fusion incluirá maneiras de se conectar a qualquer serviço com uma API pública.
+
+O Workfront Fusion também oferece recursos que oferecem suporte a cenários, como modelos de criação de cenário, histórico de execução e depuração.
 
 >[!NOTE]
 >
@@ -72,8 +76,12 @@ Você coloca módulos de vários aplicativos e serviços da Web em um cenário q
 
 Ao começar a trabalhar com o Workfront Fusion, os seguintes recursos podem ser úteis:
 
-* Para saber mais sobre as [!DNL Workfront Fusion] licenças disponíveis, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+* Para obter recursos de treinamento do Workfront Fusion, consulte [Visão geral do treinamento do Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
-* Para saber mais sobre cenários, consulte [Criar um cenário de integração de prática [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+* Para começar a criar cenários de prática, consulte [Criar cenários de prática](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
-* Para saber mais sobre módulos, consulte [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
+<!--
+
+* To learn more about how scenarios work, see, see [new article]().
+
+-->
