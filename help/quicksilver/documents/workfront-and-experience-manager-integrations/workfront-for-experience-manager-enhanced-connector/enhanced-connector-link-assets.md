@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
+
 
 # Vincular ativos e pastas ao conector aprimorado
 
 Você pode vincular um ativo ou pasta do Experience Manager Assets a qualquer objeto do Workfront que suporte documentos. O Assets enviado do Experience Manager Assets não conta para o armazenamento geral de documentos no Workfront. Os documentos carregados e enviados do Workfront para o Experience Manager Assets contam para o armazenamento geral.
 
+
+>[!NOTE]
+>
+>Os arquivos do Excel vinculados por meio do conector aprimorado não podem ser visualizados no Workfront. Você deve baixar o arquivo para acessá-lo.
+
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -30,7 +38,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> </td> 
+   <td> <p>Atual: solicitação ou superior</p> 
+   ou
+   <p>Novo: Colaborador ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
@@ -48,6 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
++++
 
 ## Pré-requisitos
 
