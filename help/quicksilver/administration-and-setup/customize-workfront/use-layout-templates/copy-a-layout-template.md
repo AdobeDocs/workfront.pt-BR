@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
 
 # Copiar um modelo de layout
+
+<!--Audited: 09/2024-->
 
 Você pode copiar um modelo de layout existente. Isso é útil quando sua organização precisa de vários modelos de layout que compartilham muitas das mesmas configurações.
 
@@ -38,17 +40,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td><p>Novo: Padrão</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.
-Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Copiar um modelo de layout

@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '495'
 ht-degree: 4%
 
 ---
 
 # Personalizar páginas fixadas usando um modelo de layout
 
-Em um modelo de layout, você pode fixar as páginas que deseja que os usuários sempre tenham disponíveis na parte superior do Adobe Workfront. Elas podem ser páginas acessadas pelo Menu Principal ![](assets/main-menu-icon.png) ou pelos painéis.
+Em um modelo de layout, você pode fixar as páginas que deseja que os usuários sempre tenham disponíveis na parte superior do Adobe Workfront. Elas podem ser páginas acessadas pelo Menu Principal ![](assets/main-menu-icon.png) ou pelo Menu Principal ![](assets/lines-main-menu.png), quando disponíveis, ou painéis.
 
 Quaisquer pins adicionados por seus usuários são exibidos à direita dos pinos adicionados no modelo de layout.
 
@@ -44,16 +44,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td><p>Novo: Padrão</p>
+  <p> Atual: Plano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.
-Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

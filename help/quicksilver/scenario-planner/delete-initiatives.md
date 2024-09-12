@@ -6,10 +6,10 @@ description: É possível excluir iniciativas em um plano que você criou ou em 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '512'
+ht-degree: 2%
 
 ---
 
@@ -27,8 +27,10 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
-   <td> <p>Atual: [!UICONTROL Business] ou superior</p>
-   <p>Novo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Novo: Ultimate </p></li>
+   <p>O Planejador de cenários não está disponível para o novo Workfront Select ou Workfront Plan. </p>
+   <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -38,9 +40,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>Produto* </td> 
-   <td> 
-   <p>Para os planos atuais do Workfront: </p>
-   <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre acesso e permissões para o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Para os novos planos do Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Para os planos atuais do Workfront: </p>
+   <p>Adobe Workfront</p> <p>Planejador de cenários do Adobe Workfront</p></li></ul>
+
+<p>Para obter mais informações, consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Nível de acesso </td> 

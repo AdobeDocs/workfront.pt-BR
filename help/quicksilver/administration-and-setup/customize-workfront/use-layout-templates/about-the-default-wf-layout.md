@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
 
 # Sobre o layout padrão do Adobe Workfront
 
-O layout padrão é a organização do Menu Principal ![](assets/main-menu-icon.png), do painel esquerdo e dos modos de exibição, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
+O layout padrão é a organização do Menu Principal ![](assets/main-menu-icon.png) ou do Menu Principal ![](assets/lines-main-menu.png), se disponível, o painel esquerdo, os modos de exibição, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
 
 Para obter informações sobre como um administrador do Workfront pode modificar o layout padrão de um usuário atribuindo um modelo de layout ao usuário, consulte [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -30,7 +30,7 @@ Para obter informações sobre como um administrador do Workfront pode modificar
 
 O layout padrão de cada usuário depende de seu nível de acesso. Alguns usuários podem não ver determinadas áreas no Menu principal ou determinados itens no painel esquerdo, dependendo do nível de acesso atribuído a eles.
 
-A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrão para cada nível de acesso. A área de aterrissagem padrão para cada nível de acesso também é indicada:
+A tabela a seguir mostra a área de aterrissagem padrão e quais itens do painel esquerdo são exibidos para cada nível de acesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
   <tr> 
    <th>Área</th> 
    <th> Itens do painel esquerdo </th> 
-   <th> <p>Administrador de Sistema</p> </th> 
-   <th> <p>Planejador</p> </th> 
+   <th> Administrador de Sistema</th> 
+   <th> Planejador </th> 
    <th>Trabalhador</th> 
    <th>Revisor</th> 
    <th>Solicitante</th> 
@@ -150,7 +150,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Solicitações</strong> </td> 
-   <td><strong>Nova solicitação</strong> </td> 
+   <td>Nova solicitação </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

@@ -1,14 +1,14 @@
 ---
 title: Gerenciar a exibição de linha do tempo
-description: Acesse e edite registros em uma exibição de linha do tempo na página tipo de registro do Adobe Workfront Planning. Personalize a linha do tempo com filtros, agrupamentos e configurações. Use o recurso Detalhamento para exibir registros conectados.
+description: Acesse e edite registros em uma exibição de linha do tempo na página tipo de registro do Adobe Workfront Planning. Este artigo descreve como criar uma visualização de linha do tempo e editar ou excluir uma existente. Personalize a linha do tempo com filtros, agrupamentos e configurações. Use o recurso Detalhamento para exibir registros conectados.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---

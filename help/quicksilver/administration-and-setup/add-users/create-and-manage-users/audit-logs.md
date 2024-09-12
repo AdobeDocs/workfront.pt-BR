@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Como administrador do Adobe Workfront, você pode rastrear as alterações de usuário acionadas no sistema nos últimos 90 dias usando logs de auditoria.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 3%
 
 ---
@@ -65,10 +65,11 @@ Os seguintes campos são registrados em cada entrada do log de auditoria:
 ## Tipos de log de auditoria e as ações que os acionam
 
 * [Nível de Acesso](#access-level)
+* [Regras de negócios](#business-rules)
 * [Empresa](#company)
 * [Condição](#condition)
 * [Campo personalizado](#custom-field)
-* [Formulários personalizados](#custom-forms)
+* [Formulário personalizado](#custom-forms)
 * [Seção personalizada](#custom-section)
 * [Taxa de Câmbio](#exchange-rate)
 * [Grupo](#group)
@@ -97,6 +98,21 @@ O sistema gera uma entrada de log de Nível de acesso quando um usuário executa
      >O sistema não registra nenhuma alteração de permissão nos Dados financeiros ou nos seguintes tipos de acesso: Exibir e Editar.
      >
      >Por exemplo, se um usuário alterar o tipo de acesso Planejador de Exibir para Editar, o sistema não exibirá as informações contidas no menu suspenso Ajustar as configurações.
+
+### Regras de negócios
+
+O Business Rules só está disponível para clientes que compraram um Plano Ultimate Workfront. Para obter mais informações, consulte [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+O sistema gera uma entrada de log de auditoria da Regra de Negócios quando um usuário realiza uma das seguintes ações:
+
+* Cria uma regra de negócios
+* Edita uma regra de negócios:
+
+   * Renomeia
+   * Adiciona ou remove expressões
+   * Altera um acionador
+
+* Exclui uma regra de negócios
 
 ### Empresa {#company}
 
@@ -160,7 +176,7 @@ O sistema gera uma entrada de log de auditoria Campo personalizado quando um usu
 * Exclui um campo personalizado
 * Compartilha um campo personalizado
 
-### Formulários personalizados {#custom-forms}
+### Formulário personalizado {#custom-form}
 
 O sistema gera uma entrada de log de auditoria Forms personalizada quando um usuário executa uma das seguintes ações:
 

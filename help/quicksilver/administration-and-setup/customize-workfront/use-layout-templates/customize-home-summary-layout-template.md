@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -49,16 +49,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td><p>Novo: Padrão</p>
+  <p> Atual: Plano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.
-Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +72,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
 
 1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e clique em **Página Inicial e Resumo**.
 
-1. Na lista exibida à esquerda, clique no tipo de objeto (**Tarefas**, **Problemas**, **Projetos**, **Documentos** ou **Versões de Documentos**) que você deseja personalizar na Página Inicial e no Resumo.
+1. Na lista à esquerda, clique no tipo de objeto (**Tarefas**, **Problemas**, **Projetos**, **Documentos** ou **Versões de Documentos**) que você deseja personalizar na Página Inicial e no Resumo.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -139,7 +143,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
         <li>Data de conclusão planejada</li>
         <li>Data de confirmação</li>
         <li>Data de Envio</li>
-       </ul><p><b>OBSERVAÇÃO</b>: quando esta opção está habilitada, os itens de trabalho vencidos são movidos para o agrupamento Atrasado na Lista de Trabalho da Página Inicial somente com base na data, não na hora.</p></td> 
+       </ul><p><b>NOTA</b>:</p> <p> Quando esta opção está habilitada, os itens de trabalho vencidos são movidos para o agrupamento Atrasado na Lista de trabalho da página inicial com base somente na data, não na hora.</p></td> 
      </tr> 
     </tbody> 
    </table>

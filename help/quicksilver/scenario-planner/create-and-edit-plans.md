@@ -6,9 +6,9 @@ description: Você pode criar planos como parte do uso do Planejador de cenário
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2396'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,10 @@ Você pode criar planos como parte do uso do [!DNL Workfront Scenario Planner], 
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
-   <td> <p>Atual: [!UICONTROL Business] ou superior</p>
-   <p>Novo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Novo: Ultimate </p></li>
+   <p>O Planejador de cenários não está disponível para o novo Workfront Select ou Workfront Plan. </p>
+   <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -46,9 +48,11 @@ Você pode criar planos como parte do uso do [!DNL Workfront Scenario Planner], 
   </tr> 
   <tr> 
    <td>Produto* </td> 
-   <td> 
-   <p>Para os planos atuais do Workfront: </p>
-   <p>Você deve comprar uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre acesso e permissões para o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Para os novos planos do Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Para os planos atuais do Workfront: </p>
+   <p>Adobe Workfront</p> <p>Planejador de cenários do Adobe Workfront</p></li></ul>
+
+<p>Para obter mais informações, consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Nível de acesso </td> 
