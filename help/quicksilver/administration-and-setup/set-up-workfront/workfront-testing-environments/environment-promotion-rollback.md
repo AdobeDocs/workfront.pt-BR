@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
 # Reverter um pacote de promoção de ambiente
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
+
 
 Depois de instalar um pacote, você pode revertê-lo. Isso remove as alterações feitas pelo pacote no ambiente de destino e restaura os objetos afetados às configurações anteriores.
 
@@ -86,10 +87,3 @@ Para saber se uma implantação de pacote específica pode ser revertida, consid
 
 1. (Opcional) Na área Visualização da reversão, visualize as alterações que ocorrerão quando a implantação for revertida.
 1. Clique em **Reverter** no canto superior direito da tela.
-
-
-
-
-
-
-
