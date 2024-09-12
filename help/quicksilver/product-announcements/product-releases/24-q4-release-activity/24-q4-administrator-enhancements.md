@@ -4,9 +4,10 @@ description: Aprimoramentos do administrador do quarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -38,6 +39,8 @@ Para tornar a promoção do ambiente mais flexível e fácil de usar, ativamos a
 Anteriormente, as configurações eram restauradas manualmente ou por meio de outro pacote de promoção de ambiente.
 
 Para obter mais informações sobre como reverter um pacote de promoção de ambiente, consulte [Reverter um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
+
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## O botão Layout no designer de formulário personalizado permite duas ou três colunas
 

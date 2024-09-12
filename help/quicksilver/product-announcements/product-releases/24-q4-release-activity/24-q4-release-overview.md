@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 * [Aprimoramentos de provas](#proofing-enhancements)
 * [Aprimoramentos de Relatório e Painel de Controle](#report-and-dashboard-enhancements)
 * [Outras melhorias](#other-enhancements)
-
+* [Funcionalidade que será removida em breve do Workfront](#functionality-soon-to-be-removed-from-workfront)
 
 ### Melhorias do administrador
 
@@ -78,6 +78,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Reverter pacotes de promoção de ambiente</a></p>
+                        [!BADGE Na produção para a versão rápida ]{type=Positive}
                         <p>Para tornar a promoção do ambiente mais flexível e fácil de usar, ativamos a funcionalidade de reversão. Agora, é possível reverter pacotes em 24 horas, permitindo restaurar com mais facilidade as configurações anteriores que foram afetadas por um pacote de promoção de ambiente.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -192,7 +193,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mais atribuições inteligentes relevantes</a></p>
-                        [!BADGE Na produção ]{type=Informative}
+                        [!BADGE Na produção para a versão rápida ]{type=Positive}
                         <p>Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -362,6 +363,14 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
            </tbody>
         </table>
 
+### Funcionalidade que será removida em breve do Workfront
+
+A seguinte funcionalidade será removida do Workfront em breve:
+
+#### Substituição da experiência inicial herdada com o 24.10
+
+Descontinuaremos oficialmente a experiência herdada do Início com a versão 24.10. Os usuários são incentivados a começar a usar a nova Página inicial, que continuará a ser aprimorada com recursos adicionais antes da desativação. Para obter mais informações sobre a transição, incluindo recomendações sobre o que usuários e administradores podem fazer para se preparar, consulte [Guia de descontinuação da Página inicial herdada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
 ## Anúncios
 
 ### Aprimoramentos do Workfront Fusion
@@ -399,11 +408,3 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 ### Atualizações de treinamento
 
 Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutorials do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
-
-### Funcionalidade que será removida em breve do Workfront
-
-A seguinte funcionalidade será removida do Workfront em breve:
-
-#### Substituição da experiência inicial herdada com o 24.10
-
-Descontinuaremos oficialmente a experiência herdada do Início com a versão 24.10. Os usuários são incentivados a começar a usar a nova Página inicial, que continuará a ser aprimorada com recursos adicionais antes da desativação. Para obter mais informações sobre a transição, incluindo recomendações sobre o que usuários e administradores podem fazer para se preparar, consulte [Guia de descontinuação da Página inicial herdada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).

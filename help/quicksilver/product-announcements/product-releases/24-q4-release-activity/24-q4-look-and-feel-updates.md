@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão do quar
 
 >[!NOTE]
 >
->Versão de pré-visualização: 18 de julho de 2024; Produção para lançamento rápido: Com lançamento 24.9 (setembro de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
+>Versão de pré-visualização: 18 de julho de 2024; Produção para lançamento rápido: Com lançamento 24.9 (12 de setembro de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
 
 Atualizamos a página Configuração > Sistema > Preferências para um design mais moderno que é consistente com outras áreas do Workfront.
 
