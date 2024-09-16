@@ -6,9 +6,9 @@ description: Alguns recursos são diferentes entre o [!DNL Workfront] e o Adobe 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
+source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Esta tabela descreve alguns recursos que diferem entre as duas experiências.
 | A ajuda pode ser acessada pelo [!UICONTROL Menu Principal] e pela área de navegação superior | A ajuda pode ser acessada pelo [!UICONTROL Menu Principal] e pela barra de navegação [!DNL Workfront] |
 | O visualizador de provas é aberto em uma nova guia | O visualizador de provas é aberto dentro do Workfront |
 | A URL usada para acessar o Workfront é `experience.adobe.com` | A URL usada para acessar o Workfront é `(CompanyName).my.workfront.com` |
-| O formato da data (como MM/DD/AAAA) é baseado nas preferências do navegador | O formato da data (como MM/DD/AAAA) é baseado nas configurações de idioma da Experiência unificada. Se o usuário não atualizou as configurações de idioma, as configurações `en-US` serão usadas. |
+| O formato da data (como MM/DD/AAAA) é baseado nas configurações de idioma da Experiência unificada. Se o usuário não atualizou as configurações de idioma, as configurações `en-US` serão usadas. | O formato da data (como MM/DD/AAAA) é baseado nas preferências do navegador |
 
 {style="table-layout:auto"}
 
