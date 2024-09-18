@@ -7,9 +7,9 @@ description: A visualização do mapa de árvore do projeto é uma exibição de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '828'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,9 @@ A visualização do mapa de árvore do projeto é uma exibição de horas, ou di
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,6 +56,8 @@ Você deve ter o seguinte:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
