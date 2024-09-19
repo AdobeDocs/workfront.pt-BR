@@ -5,9 +5,10 @@ title: Guia de descontinuação do Legacy Home
 description: Esta página contém informações sobre a descontinuação futura da Página inicial herdada.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Quase, com exceção de:
 * A exibição de carimbos de data/hora para datas de vencimento do objeto não está disponível no momento.
 
 * A exibição da data de confirmação no feed de atualização não está disponível no momento. No entanto, há uma solução alternativa disponível: exibir a data de confirmação no cabeçalho por meio da personalização do modelo de layout.
+* Atualmente, as aprovações que enviei não são suportadas na Página inicial nova. Se você precisar dessa funcionalidade, vote a favor ou publique um comentário aqui nas seguintes publicações da comunidade:
+   * [Adicionar o widget &quot;Aprovações que enviei&quot; à nova página inicial](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [Adicionar &quot;Aprovações que enviei&quot; à nova página inicial](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++Como regular quais widgets os usuários têm acesso no novo Início?
