@@ -5,9 +5,10 @@ title: Visão geral dos novos filtros de widget da página inicial
 description: Você pode escolher entre vários widgets para personalizar o conteúdo que aparece em sua Página inicial. Esses widgets podem ser redimensionados e organizados na sua página inicial.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 14%
 
 ---
@@ -19,6 +20,7 @@ Você pode usar filtros nos seguintes widgets para localizar e organizar o traba
 * [Meus projetos](#my-projects)
 * [Minhas tarefas](#my-tasks)
 * [Meus problemas](#my-issues)
+* [Meu trabalho]
 
 ## Meus projetos
 
@@ -229,4 +231,52 @@ Você pode usar os seguintes filtros no widget Meus problemas:
     <td>Não atribuído na minha função</td>
     <td>Exibe todos os problemas que não têm um usuário primário atribuído, mas têm uma função atribuída </td>
   </tr>
+</table>
+
+## Meu trabalho
+
+Você pode usar os seguintes filtros no widget Meu trabalho:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Trabalhando em</td>
+      <td>Exibe itens nos quais você está trabalhando no momento</td>
+    </tr>
+    <tr>
+      <td>Pronto para iniciar</td>
+      <td>Exibe itens com 
+      <ul>
+      <li>Sem predecessores incompletos ou restrições de tarefa</li>
+      <li>A Data de Início Planejada está no passado ou em até duas semanas no futuro</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Não está pronto</td>
+      <td>Exibe itens que possuem
+       <ul>
+      <li>Predecessoras incompletas ou restrições de tarefa que impedem o trabalho no item</li>
+      ou
+      <li>A Data de Início Planejada mais de duas semanas no futuro</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Solicitado</td>
+      <td>Exibe problemas nos quais você não começou a trabalhar</td>
+    </tr>
+    <tr>
+      <td>Delegado por mim</td>
+      <td>Exibe itens que você delegou a outros usuários</td>
+    </tr>
+    <tr>
+      <td>Delegado a mim</td>
+      <td>Exibe itens que os usuários delegaram a você</td>
+    </tr>
+    <tr>
+      <td>Concluídos</td>
+      <td>Exibe o trabalho concluído nas últimas duas semanas. Essa opção de filtro não inclui aprovações.</td>
+    </tr>
+  </tbody>
 </table>
