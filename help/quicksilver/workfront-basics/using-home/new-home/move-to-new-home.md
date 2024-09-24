@@ -5,7 +5,7 @@ title: Mudar da página inicial herdada para a nova página inicial
 description: A página inicial herdada será removida do Workfront em 17/10 com a versão do quarto trimestre. Este artigo fornece informações sobre qual funcionalidade estará disponível na nova página inicial, bem como recomendações para mover os usuários para a nova experiência na página inicial.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 5%
