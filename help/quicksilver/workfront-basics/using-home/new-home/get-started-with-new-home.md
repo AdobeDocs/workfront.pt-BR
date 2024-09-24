@@ -6,9 +6,9 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: 233016ccc574118df705b857092d647767c05835
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1173'
 ht-degree: 5%
 
 ---
@@ -33,10 +33,13 @@ Os widgets são a base da nova Página inicial. Ao adicionar widgets à sua pág
 
 Para obter informações sobre como adicionar, mover, redimensionar ou excluir widgets, consulte [Adicionar, editar ou remover widgets em Nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
-Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um resumo das informações que eles exibem:
+Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um resumo das informações que eles exibem:
 
 * **Meu trabalho**\
     Um ótimo local para começar para gerenciar uma variedade de trabalhos, este widget exibe todas as tarefas, problemas e solicitações atribuídas em um único local. Você pode clicar no botão Trabalhar nisso para começar a trabalhar em um item ou no botão Concluído para marcá-los como concluídos. Você também pode atualizar informações (Status, Condição, Percentual concluído) sobre tarefas e problemas, tempo de registro e adicionar atualizações do widget Meu trabalho.
+
+* **Quadros**\
+    Exibe todos os painéis que você criou ou que foi convidado a usar. Você também pode criar um novo quadro com base nos seguintes modelos: Quadro básico, Quadro Kanban, Quadro retrospectivo, Quadro dinâmico
 
 * **Meus projetos**\
     Exibe os projetos que você possui ou os projetos em que você está em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar um projeto diretamente do widget.
@@ -48,7 +51,7 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
     Exibe os problemas atribuídos a você em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar um problema diretamente do widget. Este widget inclui apenas problemas cujos projetos associados estão definidos como Atuais e não inclui projetos concluídos. Você também pode delegar seus problemas enquanto estiver fora do escritório.
 
 * **Minhas solicitações**\
-    Exibe todas as solicitações que você submeteu, um filtro para exibir somente as solicitações abertas e um botão que abre o painel de resumo de uma solicitação.
+    Exibe todas as solicitações que você submeteu, um filtro para exibir somente solicitações abertas e um botão que abre o painel de resumo de uma solicitação.
 
 * **Solicitações da equipe**\
     Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
@@ -57,10 +60,10 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
     Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no dispositivo.
 
 * **Todas as aprovações**\
-        <span class="preview"> Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de listas de aprovações pendentes e vencidas.</span> <span style="color: #ff0000;">Este recurso faz parte de uma versão em fases e, no momento, está disponível apenas para clientes específicos.</span>
+        Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas. <span style="color: #ff0000;">Este recurso faz parte de uma versão em fases e, no momento, está disponível apenas para clientes específicos.</span>
 
 * **Menções**\
-    Exibe threads de comentários recentes de toda a Workfront, de forma semelhante à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
+    Exibe threads de comentários recentes de toda a Workfront, semelhantes à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
 
 * **Tarefas pendentes**\
     Este widget exclusivo permite adicionar itens a uma lista de verificação pessoal que você pode editar livremente. As tarefas são rastreadas como tarefas no seu projeto pessoal e permanecem por até duas semanas após a conclusão.

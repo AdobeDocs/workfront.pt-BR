@@ -5,9 +5,9 @@ title: Gerencie seu trabalho com o widget Meu trabalho
 description: O widget Meu trabalho exibe todas as tarefas, problemas e solicitações atribuídas a você em um único local. Aqui, você pode filtrar e organizar seu trabalho, registrar horas, fazer atualizações e marcar itens de trabalho como concluídos.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -74,6 +74,7 @@ Você pode ajustar os filtros Meu trabalho para se concentrar em itens específi
       <td>Exibe itens com 
       <ul>
       <li>Sem predecessores incompletos ou restrições de tarefa</li>
+      <p>e</p>
       <li>A Data de Início Planejada está no passado ou em até duas semanas no futuro</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ Você pode ajustar os filtros Meu trabalho para se concentrar em itens específi
       <td>Exibe itens que possuem
        <ul>
       <li>Predecessoras incompletas ou restrições de tarefa que impedem o trabalho no item</li>
-      ou
+      <p>ou</p>
       <li>A Data de Início Planejada mais de duas semanas no futuro</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ Os itens vencidos exibem um ícone de aviso ao lado da data. O Workfront usa a D
 
 >[!TIP]
 >
->Para criar uma lista que exiba todos os itens em atraso na parte superior do widget Meu trabalho, classifique por Data de vencimento e não aplique um grupo.
+>Para criar uma lista que exiba todos os itens em atraso na parte superior do widget Meu trabalho, classifique por Data de vencimento e não aplique um agrupamento.
 
 
 ![](assets/sort-my-work-widget.png)
@@ -156,7 +157,7 @@ Você pode abrir o painel Resumo para atualizar rapidamente as informações em 
 * Adicionar uma atualização
 * Navegue até a área Documento para fazer upload de um documento
 * Exibir detalhes do item de trabalho e atualizar campos personalizados
-Os administradores do Workfront podem personalizar quais campos aparecem no Resumo no modelo de Layout. Para obter mais informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Os administradores do Workfront podem personalizar quais campos aparecem no Resumo no modelo de layout. Para obter mais informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Alterar o status do item de trabalho
 * Exibir subtarefas
 * Registrar de tempo
