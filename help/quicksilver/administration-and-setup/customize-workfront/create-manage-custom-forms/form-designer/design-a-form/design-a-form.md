@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
-ht-degree: 5%
+source-wordcount: '5541'
+ht-degree: 4%
 
 ---
 
@@ -151,9 +151,9 @@ Os caracteres especiais a seguir não são aceitos em rótulos e nomes de campos
 
 +++ **Expanda para ver descrições de campos de texto disponíveis**
 
-* **Campo de Texto de Linha Única**: permite que os usuários digitem uma única linha de texto no campo.
-* **Campo de texto do parágrafo**: permite que os usuários digitem várias linhas de texto no campo.
-* **Campo de Texto com Formatação**: permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Um limite de 15.000 caracteres permite bastante texto e formatação.
+* **Campo de texto de linha única**: permite que os usuários digitem uma única linha de texto no campo.
+* **Campo de parágrafo**: permite que os usuários digitem várias linhas de texto no campo.
+* **Campo de texto com formatação**: permite aos usuários digitar várias linhas de texto no campo e formatar o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Um limite de 15.000 caracteres permite bastante texto e formatação.
 
   Esse tipo de campo personalizado não é compatível com filtros em listas e relatórios.
 
@@ -171,9 +171,9 @@ Para adicionar um campo de texto:
 
 1. No lado esquerdo da tela, localize um dos seguintes campos de texto e arraste-o para uma seção da tela:
 
-   * Texto em linha única
-   * Texto de parágrafo
-   * Campo de texto com formatação
+   * Texto de linha única
+   * Parágrafo
+   * Texto com formatação
    * Texto descritivo
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +192,7 @@ Para adicionar um campo de texto:
    </td>
     <td><ul>
     <li>Texto de linha única</li>
-    <li>Texto de parágrafo</li>
+    <li>Parágrafo</li>
     <li>Texto com formatação</li>
     <li>Texto descritivo</li>
     </ul></td>
@@ -203,7 +203,7 @@ Para adicionar um campo de texto:
     <p>IMPORTANTE: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p></td>
     <td><ul>
     <li>Texto de linha única</li>
-    <li>Texto de parágrafo</li>
+    <li>Parágrafo</li>
     <li>Texto com formatação</li>
     </ul></td>
     </tr>
@@ -214,7 +214,7 @@ Para adicionar um campo de texto:
     </td>
     <td><ul>
     <li>Texto de linha única</li>
-    <li>Texto de parágrafo</li>
+    <li>Parágrafo</li>
     <li>Texto com formatação</li>
     <li>Texto descritivo</li>
     </ul></td>
@@ -226,7 +226,7 @@ Para adicionar um campo de texto:
     </td>
     <td><ul>
     <li>Texto de linha única</li>
-    <li>Texto de parágrafo</li>
+    <li>Parágrafo</li>
     <li>Texto com formatação</li>
     </ul></td>
     </tr>
@@ -240,7 +240,7 @@ Para adicionar um campo de texto:
      </ul></p></td> </td>
     <td><ul>
     <li>Texto de linha única</li>
-    <li>Texto de parágrafo</li>
+    <li>Parágrafo</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ Para adicionar um campo de texto:
     <td>Alternar entre campos de texto de linha única e de parágrafo.</td>
     <td><ul>
     <li>Texto de linha única</li>
-    <li>Texto de parágrafo</li>
+    <li>Parágrafo</li>
     </ul></td>
     </tr>
     <tr>
@@ -286,7 +286,7 @@ Você pode adicionar botões de opção, grupos de caixas de seleção, menus su
 
 * **Botões de opção**: requer que os usuários selecionem apenas uma opção.
 * **Grupo de caixas de seleção**: permite que os usuários selecionem várias opções.
-* **Lista suspensa**: fornece uma lista de opções suspensas.
+* **Lista suspensa de seleção única**: fornece uma lista de opções suspensas.
 * **Lista suspensa de várias seleções**: permite que os usuários selecionem várias opções em uma lista suspensa.
 
 +++
@@ -301,8 +301,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
 
    * Botões de seleção
    * Grupo de caixas de seleção
-   * Suspenso
-   * Menu suspenso com múltipla escolha
+   * Lista suspensa de seleção única
+   * Lista suspensa de multisseleção
 
    ![Arraste um campo até a tela](assets/drag-field-to-section.png)
 
@@ -321,8 +321,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
      <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
-    <li>Suspenso</li>
-    <li>Menu suspenso com múltipla escolha</li>
+    <li>Lista suspensa de seleção única</li>
+    <li>Lista suspensa de multisseleção</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -332,8 +332,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
      <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
-    <li>Suspenso</li>
-    <li>Menu suspenso com múltipla escolha</li>
+    <li>Lista suspensa de seleção única</li>
+    <li>Lista suspensa de multisseleção</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -344,8 +344,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
-    <li>Suspenso</li>
-    <li>Menu suspenso com múltipla escolha</li>
+    <li>Lista suspensa de seleção única</li>
+    <li>Lista suspensa de multisseleção</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -359,18 +359,18 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
      <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
-    <li>Suspenso</li>
-    <li>Menu suspenso com múltipla escolha</li>
+    <li>Lista suspensa de seleção única</li>
+    <li>Lista suspensa de multisseleção</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">Tipo de Exibição</td> 
-    <td>Alterne entre botões de opção, grupos de caixas de seleção, listas suspensas ou listas suspensas de seleção múltipla para o campo.</td> 
+    <td>Alterne entre botões de opção, grupo de caixas de seleção, lista suspensa de seleção única ou lista suspensa de seleção múltipla para o campo.</td> 
     <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
-    <li>Suspenso</li>
-    <li>Menu suspenso com múltipla escolha</li>
+    <li>Lista suspensa de seleção única</li>
+    <li>Lista suspensa de multisseleção</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -379,8 +379,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
-    <li>Suspenso</li>
-    <li>Menu suspenso com múltipla escolha</li>
+    <li>Lista suspensa de seleção única</li>
+    <li>Lista suspensa de multisseleção</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -404,8 +404,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
-    <li>Suspenso</li>
-    <li>Menu suspenso com múltipla escolha</li>
+    <li>Lista suspensa de seleção única</li>
+    <li>Lista suspensa de multisseleção</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -441,7 +441,7 @@ Você pode adicionar campos de digitação antecipada e data a um formulário pe
    * Equipe
    * Modelo
    * Empresa
-* **Campo de Data**: exibe um calendário no qual os usuários podem selecionar uma data e hora.
+* **Data**: exibe um calendário em que os usuários podem selecionar uma data e hora.
 
 +++
 
@@ -450,7 +450,7 @@ Para adicionar campos de digitação antecipada e data:
 1. No lado esquerdo da tela, encontre um dos campos a seguir e arraste-o para uma seção da tela.
 
    * Typeahead
-   * Campo de Data
+   * Data
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +468,7 @@ Para adicionar campos de digitação antecipada e data:
       <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Campo de Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +477,7 @@ Para adicionar campos de digitação antecipada e data:
       <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
-    <li>Campo de Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +487,14 @@ Para adicionar campos de digitação antecipada e data:
       </td> 
          <td><ul>
     <li>Typeahead</li>
-    <li>Campo de Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Exibir horário</td> 
       <td>Selecione essa opção se desejar mostrar a hora do dia junto com a data no campo.</td> 
          <td><ul>
-    <li>Campo de Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +532,7 @@ Para adicionar campos de digitação antecipada e data:
       <td>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado. </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Campo de Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -807,7 +807,7 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
 
 +++
 
-1. No lado esquerdo da tela, localize o **Campo nativo** e arraste-o para uma seção da tela.
+1. No lado esquerdo da tela, localize a **Referência de campo nativo** e arraste-a para uma seção da tela.
 1. No lado direito da tela, configure as opções do campo personalizado:
 
    <table style="table-layout:auto"> 
