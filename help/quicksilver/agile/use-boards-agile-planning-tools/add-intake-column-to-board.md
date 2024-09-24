@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,8 @@ Problemas:
 >[!IMPORTANT]
 >
 >É recomendável atualizar o quadro frequentemente se vários usuários estiverem trabalhando no quadro ao mesmo tempo. Atualizar a página ajuda a manter as alterações visuais no quadro atualizadas e evita que problemas como cartões duplicados sejam movidos para o quadro a partir da coluna de entrada.
+>
+>Para sincronizar com o Workfront e trazer novas tarefas e problemas para o quadro ou coluna de entrada, clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e selecione **[!UICONTROL Sincronizar itens conectados]**.
 
 Para obter mais informações sobre colunas, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Para obter informações sobre cartões conectados, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

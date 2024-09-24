@@ -6,9 +6,9 @@ description: No painel [!UICONTROL painéis], é possível criar um novo painel 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '858'
 ht-degree: 1%
 
 ---
@@ -107,6 +107,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. No painel, selecione o quadro a ser aberto.
 1. Edite o quadro conforme necessário. Você pode clicar no nome do quadro para renomeá-lo.
+
+   Para sincronizar cartões conectados com o Workfront e trazer novas tarefas e problemas para o quadro ou coluna de entrada, clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e selecione **[!UICONTROL Sincronizar itens conectados]**.
 
    Para obter informações, consulte [Adicionar ou remover membros de um quadro](../../agile/get-started-with-boards/add-members-to-board.md), [Gerenciar colunas do quadro](../../agile/get-started-with-boards/manage-board-columns.md) e [Adicionar um cartão a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 

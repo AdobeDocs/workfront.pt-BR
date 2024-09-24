@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ Quando estiver atribuído a uma tarefa ou problema, você poderá usar um botão
 
 Usando o botão contextual para aceitar ou concluir itens de trabalho, você pode permitir que o Adobe Workfront atualize vários campos nos itens sem precisar atualizá-los manualmente.
 
+Os botões Trabalhar nisso e Concluído estão visíveis para usuários que têm:
+
+* Uma licença Padrão (nova) ou uma licença de Plano ou Trabalho (atual)
+* Acesso de edição limitado ou superior na tarefa ou problema
+
 ## Trabalhar nisso e nomes de botão Concluído
 
-Dependendo da área do Workfront na qual você acessa sua tarefa ou problema, o botão Trabalhar na tarefa ou Concluído pode alterar os nomes, conforme descrito nos seguintes cenários: 
+Dependendo da área do Workfront na qual você acessa sua tarefa ou problema, o botão Trabalhar na tarefa ou Concluído pode alterar os nomes, conforme descrito nos seguintes cenários:
 
 * Quando a tarefa ou problema for atribuído a você pela primeira vez e o status for Novo, o botão será exibido como Trabalhar nela.
 
@@ -33,7 +38,7 @@ Dependendo da área do Workfront na qual você acessa sua tarefa ou problema, o 
   >
   >Você pode substituir o botão Trabalhar nisso por um botão Iniciar. Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar, consulte [Substituir o botão Trabalhar na tarefa por um botão Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-* Depois de clicar em Trabalhar nisto, você aceita, o botão muda para Marcar como concluído ou Concluído , dependendo de onde você acessa a tarefa ou o problema no Workfront. Para obter informações sobre onde você pode acessar o botão Trabalhar na tarefa, consulte a seção [Localizar o botão Trabalhar na tarefa e Concluído](#locate-the-work-on-it-and-done-button) neste artigo.
+* Depois de clicar em Trabalhar nisso, o botão muda para Marcar como concluído ou Concluído, dependendo de onde você acessa a tarefa ou o problema no Workfront. Para obter informações sobre onde você pode acessar o botão Trabalhar na tarefa, consulte a seção [Localizar o botão Trabalhar na tarefa e Concluído](#locate-the-work-on-it-and-done-button) neste artigo.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
@@ -110,7 +115,7 @@ Se você tiver acesso para editar equipes, poderá configurar o botão Concluíd
 
 * Status
 * Atualizações de Status de Atribuição de Em Execução para Concluído
-* Data de término efetivo
+* Data de Término Efetivo
 
 Para obter informações sobre como configurar o botão Concluído para uma equipe, consulte os seguintes artigos:
 
