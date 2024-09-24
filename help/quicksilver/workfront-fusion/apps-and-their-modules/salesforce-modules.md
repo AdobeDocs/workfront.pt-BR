@@ -5,11 +5,11 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do Salesforce
-description: Em um cenário do Adobe Workfront Fusion, é possível automatizar workflows que usam o Salesforce, bem como conectá-los a vários aplicativos e serviços de terceiros.
+description: Em um cenário do Adobe Workfront Fusion, é possível automatizar workflows que usam o Salesforce, bem como conectá-lo a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '2740'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo] </td> 
@@ -191,7 +191,7 @@ Este módulo de acionador inicia um cenário quando um campo é atualizado em [!
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Registro] </td> 
@@ -233,7 +233,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Tipo de Registro] </p> </td> 
@@ -262,7 +262,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr>
     <td>[!UICONTROL Conexão]</td>
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Tipo de Registro]</td>
@@ -295,7 +295,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Registro] </td> 
@@ -329,11 +329,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Insira um caminho relativo a <code> &lt;Instance URL&gt;/services/data/v46.0/</code>.</p> <p>Para obter a lista de pontos de extremidade disponíveis, consulte o <a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Guia do desenvolvedor da API REST do Salesforce</a>.</p> </td> 
+   <td> <p>Insira um caminho relativo a <code> &lt;Instance URL&gt;/services/data/v46.0/</code>.</p> <p>Para obter a lista de pontos de extremidade disponíveis, consulte o <a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Guia do Desenvolvedor da API REST do Salesforce</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Método]</p> </td> 
@@ -392,7 +392,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Carregamento]</td> 
@@ -429,11 +429,11 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr>
     <td>[!UICONTROL Conexão]</td>
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Tipo de Download]</td>
-    <td> <p>Especifique o tipo de arquivo que deseja baixar do Salesforce.</p> 
+    <td> <p>Especifique o tipo de arquivo que deseja baixar da Salesforce.</p> 
      <ul> 
       <li>[!UICONTROL Anexo]</li> 
       <li>[!UICONTROL Documento]</li> 
@@ -464,7 +464,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
@@ -495,15 +495,15 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Salesforce] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Pesquisa]</td> 
    <td> <p>Selecione o tipo de pesquisa que deseja que o módulo execute:</p> 
     <ul> 
      <li> <p>[!UICONTROL Simples]</p> </li> 
-     <li> <p>[!UICONTROL Usando SOSL (Linguagem de pesquisa de objeto do Salesforce)]</p> </li> 
-     <li> <p>[!UICONTROL Usando SOQL (Linguagem de consulta de objetos do Salesforce)]</p> </li> 
+     <li> <p>[!UICONTROL Usando SOSL (Salesforce Object Search Language)]</p> </li> 
+     <li> <p>[!UICONTROL Usando SOQL (Salesforce Object Query Language)]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -512,7 +512,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL Consulta] / [!UICONTROL Consulta SOSL] / [!UICONTROL Consulta SOQL]</td> 
-   <td> <p>Informe a consulta pela qual deseja pesquisar.</p> <p>Para obter mais informações sobre SOSL, consulte <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Linguagem de Pesquisa de Objeto (SOSL) do Salesforce</a> na documentação [!DNL Salesforce].</p> <p>Para obter mais informações sobre SOQL, consulte <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Linguagem de consulta de objetos (SOQL) do Salesforce</a> na documentação de [!DNL Salesforce].</p> <p>Observação: observe que o valor do parâmetro <code>RETURNING </code> influencia a saída do módulo. Se você usar <code>LIMIT</code>, [!DNL Fusion] ignorará as configurações no campo [!UICONTROL Contagem máxima de registros]. Se você não definir um limite, o Fusion inserirá o valor [!UICONTROL LIMIT = Contagem máxima de registros].</p> </td> 
+   <td> <p>Informe a consulta pela qual deseja pesquisar.</p> <p>Para obter mais informações sobre SOSL, consulte <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce Object Search Language (SOSL)</a> na documentação de [!DNL Salesforce].</p> <p>Para obter mais informações sobre SOQL, consulte <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> na documentação de [!DNL Salesforce].</p> <p>Observação: observe que o valor do parâmetro <code>RETURNING </code> influencia a saída do módulo. Se você usar <code>LIMIT</code>, [!DNL Fusion] ignorará as configurações no campo [!UICONTROL Contagem máxima de registros]. Se você não definir um limite, o Fusion inserirá o valor [!UICONTROL LIMIT = Contagem máxima de registros].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Contagem máxima de registros]</td> 

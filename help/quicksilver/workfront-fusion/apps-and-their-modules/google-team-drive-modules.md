@@ -9,7 +9,7 @@ description: Os  [!DNL Adobe Workfront Fusion Google Team Drive] módulos permit
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Retorna os detalhes do arquivo quando um novo arquivo é adicionado e/ou modific
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 
@@ -155,7 +155,7 @@ Faz upload de um arquivo para a unidade compartilhada especificada.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe] </td> 
@@ -190,7 +190,7 @@ Permite alterar o nome e/ou o conteúdo do arquivo.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 
@@ -229,7 +229,7 @@ Copia um arquivo especificado para a pasta selecionada.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 
@@ -260,7 +260,7 @@ Exclui um arquivo especificado.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de Arquivo]</td> 
@@ -279,7 +279,7 @@ Move um arquivo especificado para a lixeira.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de Arquivo]</td> 
@@ -298,7 +298,7 @@ Recupera detalhes sobre o arquivo especificado.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Converter [!DNL Google Documents] arquivos no formato] </td> 
@@ -333,7 +333,7 @@ Recupera detalhes de arquivos e/ou pastas com base no termo de pesquisa.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 
@@ -377,7 +377,7 @@ Cria uma nova pasta.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 

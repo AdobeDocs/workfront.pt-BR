@@ -9,7 +9,7 @@ description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode automati
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '5095'
 ht-degree: 0%
@@ -99,7 +99,7 @@ Este módulo de acionamento inicia um cenário quando uma nova placa é adiciona
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limite] </td> 
@@ -120,7 +120,7 @@ Este módulo de ação cria um novo quadro com as configurações selecionadas.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nome] </td> 
@@ -205,7 +205,7 @@ Este módulo de ação edita as configurações de um quadro existente.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID do Quadro]</p> </td> 
@@ -302,7 +302,7 @@ Este módulo de ação recupera os detalhes de um quadro.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID do Quadro]</p> </td> 
@@ -323,7 +323,7 @@ Este módulo de pesquisa recupera informações sobre um quadro especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Consulta] </td> 
@@ -356,7 +356,7 @@ Esse módulo de ação fecha ou reabre um quadro especificado por você.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID do Quadro]</td> 
@@ -381,7 +381,7 @@ Esse módulo de ação atribui um membro a um quadro especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID do Quadro]</td> 
@@ -419,7 +419,7 @@ Este módulo de ação remove um membro de um quadro.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID do Quadro]</td> 
@@ -446,7 +446,7 @@ Esse módulo acionador é ativado quando um cartão é movido para uma lista esp
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board]</td> 
@@ -475,7 +475,7 @@ Esse módulo de ação cria uma lista em um quadro que você especifica.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID do Quadro]</td> 
@@ -512,7 +512,7 @@ Este módulo de ação edita uma lista existente.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de Lista]</td> 
@@ -549,7 +549,7 @@ Este módulo de ação recupera detalhes sobre uma lista específica.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID de Lista]</p> </td> 
@@ -572,7 +572,7 @@ Esse módulo acionador é ativado quando um novo cartão é adicionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL objeto Observado]</td> 
@@ -602,7 +602,7 @@ Esse módulo de ação cria um cartão em uma lista selecionada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir uma ID de lista]</td> 
@@ -678,7 +678,7 @@ Esse módulo de ação edita um cartão existente.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir ID de Cartão]</td> 
@@ -747,7 +747,7 @@ Esse módulo de ação recupera os detalhes de um cartão selecionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID do Quadro]</td> 
@@ -776,7 +776,7 @@ Este módulo de ação retorna cartões que correspondem à consulta de pesquisa
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board] </td> 
@@ -827,7 +827,7 @@ Esse módulo de ação arquiva ou envia um cartão de volta para a placa.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID do Cartão]</td> 
@@ -852,7 +852,7 @@ Esse módulo de ação adiciona um anexo ao cartão selecionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir ID do cartão]</td> 
@@ -899,7 +899,7 @@ Esse módulo de ação adiciona o membro especificado ao cartão especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Inserir ID do cartão e ID do membro]</p> </td> 
@@ -924,7 +924,7 @@ Este módulo de ação recupera informações sobre membros do [!UICONTROL Trell
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Consulta] </td> 
@@ -955,7 +955,7 @@ Esse módulo de ação cria uma lista de verificação no cartão selecionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir uma ID de cartão]</td> 
@@ -992,7 +992,7 @@ Este módulo de ação adiciona um item a uma lista de verificação específica
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir ID de lista de verificação]</td> 
@@ -1029,7 +1029,7 @@ Este módulo de ação edita uma lista de verificação existente.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir uma ID de Cartão e uma ID de Item de Lista de Verificação]</td> 
@@ -1072,7 +1072,7 @@ Esse módulo de ação adiciona um rótulo a um cartão selecionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir ID do cartão]</td> 
@@ -1099,7 +1099,7 @@ Recupera detalhes do comentário quando há um novo comentário em um local espe
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL objeto Observado]</td> 
@@ -1131,7 +1131,7 @@ Esse módulo de ação adiciona um comentário a um cartão selecionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir uma ID de cartão]</td> 
@@ -1158,7 +1158,7 @@ Esse módulo de ação adiciona um comentário a um cartão selecionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!UICONTROL Trello] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inserir uma ID de cartão]</td> 
