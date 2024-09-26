@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -279,6 +279,8 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
 +++
 
    1. Clique na caixa de texto grande e, em seguida, clique em **Expressões** e **Campos** disponíveis para adicioná-los ao cálculo.
+
+      Expanda um nome de objeto em **Campos** para ver todos os campos disponíveis para esse objeto. A lista é limitada a 200 itens. Se você souber o nome do campo, poderá pesquisá-lo.
 
       Você também pode começar a digitar uma expressão ou campo na caixa de texto grande e selecioná-lo quando ele for exibido. Cada item é exibido com um &quot;F&quot; para o campo ou um &quot;E&quot; para a expressão.
 
