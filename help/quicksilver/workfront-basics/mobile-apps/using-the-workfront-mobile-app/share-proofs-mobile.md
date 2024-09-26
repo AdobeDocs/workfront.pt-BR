@@ -6,9 +6,9 @@ description: Você pode compartilhar um documento de prova com recipients intern
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Esta opção envia um email com um link de prova pública para um contato de [!D
 
 ## Baixar a prova
 
-Você pode baixar uma cópia do documento de prova no seu dispositivo móvel.
+Você pode baixar uma cópia do documento de prova no seu dispositivo móvel. Observe que, embora não seja possível visualizar os arquivos de vídeo, ainda é possível baixá-los.
 
 1. Abra a prova do documento e selecione o menu **[!UICONTROL Mais]** ![Mais menu](assets/mobile-verticalmoremenu-20x33.png) na parte superior direita do documento. Em seguida, selecione **[!UICONTROL Mais]**.
 1. Selecione **[!UICONTROL Baixar]**.

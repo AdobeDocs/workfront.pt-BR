@@ -6,9 +6,9 @@ description: Programar uma entrega automática de relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ Para agendar um relatório para entrega automática ou editar ou excluir uma ent
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Hora</p> </td> 
-      <td> <p>Selecione a hora do dia para o envio do delivery.</p> <p>Dica: como as cargas do sistema podem afetar os prazos de entrega do relatório, pode haver um atraso entre o horário agendado e o horário real de entrega. Se você precisar que um relatório seja entregue em um horário específico, recomendamos agendar o delivery antes do horário necessário. Por exemplo, recomendamos agendar o delivery um dia antes da data em que é necessário.</p> </td> 
+      <td> <p>Selecione a hora do dia para o envio do delivery.</p> <p>Dica: como as cargas do sistema podem afetar os prazos de entrega do relatório, pode haver um atraso de até 24 horas entre o horário agendado e o horário real de entrega. Se você precisar que um relatório seja entregue em um horário específico, recomendamos agendar o delivery antes do horário necessário. Em geral, recomendamos agendar o delivery pelo menos um dia antes da data em que é necessário.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repete em</p> </td> 
