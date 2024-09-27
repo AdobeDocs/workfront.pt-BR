@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
+source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 11%
@@ -107,9 +107,9 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 | Criar | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Editar | ✓ µ | ✓ µ | ✓ µ |   |
 | Excluir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
-| Compartilhar | ✓&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
+| Compartilhar | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
-| Exibir | ✓ ➡&#42; | ✓&#42; | ✓&#42; |   |
+| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Anexar formulários personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Editar campos personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Aprovar problemas | ✓ µ | ✓ µ | ✓ µ |   |
@@ -143,7 +143,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos portf�
 | Anexar formulários personalizados | ✓ µ |   |   |   |
 | Editar campos personalizados | ✓ µ |   |   |   |
 | Adicionar e remover projetos | ✓ µ |   |   |   |
-| Aprovar projetos | ✓ |   |   |   |
+| Aprovar projetos | ✓ µ |   |   |   |
 | otimização de Portfolio | ✓ µ |   |   |   |
 | Adicionar documentos | ✓ µ | ✓ µ |   |   |
 | Adicionar atualizações e comentários | ✓ µ | ✓ µ |   |   |
@@ -290,7 +290,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 | Excluir | ✓ ➡&#42; |   |   |   |
 | Compartilhar | ✓ ➡&#42; |   |   |   |
 | Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
-| Exibir | ✓&#42; |   |   |   |
+| Exibir | ✓ ➡&#42; |   |   |   |
 | Copiar | ✓ µ |   |   |   |
 | Editar detalhes do modelo | ✓ µ |   |   |   |
 
@@ -330,10 +330,10 @@ Somente os usuários com uma licença Standard podem ter acesso total ao gerenci
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Editar prioridades e horas de orçamento no Planejador | ✓ ➡&#42; |   |   |   |
 | Criar, editar, excluir Conjuntos de Recursos&#42;&#42; | ✓ ➡&#42; |   |   |   |
-| Atualizar horas planejadas no balanceador de carga de trabalho&#42;&#42;&#42; | ✓&#42; |   |   |   |
+| Atualizar Horas Planejadas no Balanceador de Carga de Trabalho&#42;&#42;&#42; | ✓ ➡&#42; |   |   |   |
 | Exibir prioridades de projeto no Planejador de Recursos | ✓ ➡&#42; |   |   |   |
 | Exibir alocação de recursos nas ferramentas de Planejamento de Recursos | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
-| Pools de recursos do Exibir | ✓&#42; | ✓&#42; |   |   |
+| Exibir Conjuntos de Recursos | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
 | Recursos de orçamento nas ferramentas de Planejamento de Recursos&#42;&#42; | ✓ µ |   |   |   |
 | Anexar Conjuntos de Recursos a projetos, modelos e usuários | ✓ µ |   |   |   |
 
@@ -390,3 +390,4 @@ Somente os usuários com uma licença Standard podem ter acesso total ao gerenci
 | Exibir a área Check-in no painel esquerdo |   | ✓ µ |
 | Exibir a área Configurações no painel esquerdo | ✓ µ | ✓ µ |
 | Imprimir uma lista de metas | ✓ µ | ✓ µ |
+

@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
+source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 10%
@@ -577,4 +577,5 @@ Somente usuários com uma licença de Plano podem ter acesso total a [selecionar
 | Exibir a seção Lista de metas no painel esquerdo | ✓ µ | ✓ µ |
 | Exibir a seção Gráficos no painel esquerdo | ✓ µ | ✓ µ |
 | Exibir a seção Alinhamento de metas no painel esquerdo | ✓ µ | ✓ µ |
+
 
