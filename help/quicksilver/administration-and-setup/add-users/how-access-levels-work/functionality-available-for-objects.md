@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1646'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,11 @@ ht-degree: 11%
 As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
 
 Também indica quais ações os administradores do Workfront podem desativar ou ativar usando um nível de acesso.
+
+>[!NOTE]
+>
+>Este artigo descreve a funcionalidade disponível para níveis de acesso no modelo de plano atual do Workfront. Para ver a funcionalidade disponível no novo modelo de plano, consulte [Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+
 
 ## Projetos
 
@@ -102,9 +107,9 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 | Criar | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Editar | ✓ µ | ✓ µ | ✓ µ |   |
 | Excluir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
-| Compartilhar | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
+| Compartilhar | ✓&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
 | Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
-| Exibir | ✓ ➡&#42; | ✓ ➡&#42; | ✓ ➡&#42; |   |
+| Exibir | ✓ ➡&#42; | ✓&#42; | ✓&#42; |   |
 | Anexar formulários personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Editar campos personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Aprovar problemas | ✓ µ | ✓ µ | ✓ µ |   |
@@ -138,7 +143,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos portf�
 | Anexar formulários personalizados | ✓ µ |   |   |   |
 | Editar campos personalizados | ✓ µ |   |   |   |
 | Adicionar e remover projetos | ✓ µ |   |   |   |
-| Aprovar projetos | ✓ µ |   |   |   |
+| Aprovar projetos | ✓ |   |   |   |
 | otimização de Portfolio | ✓ µ |   |   |   |
 | Adicionar documentos | ✓ µ | ✓ µ |   |   |
 | Adicionar atualizações e comentários | ✓ µ | ✓ µ |   |   |
@@ -285,7 +290,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 | Excluir | ✓ ➡&#42; |   |   |   |
 | Compartilhar | ✓ ➡&#42; |   |   |   |
 | Compartilhar em todo o sistema | ✓ ➡&#42; |   |   |   |
-| Exibir | ✓ ➡&#42; |   |   |   |
+| Exibir | ✓&#42; |   |   |   |
 | Copiar | ✓ µ |   |   |   |
 | Editar detalhes do modelo | ✓ µ |   |   |   |
 
@@ -325,10 +330,10 @@ Somente os usuários com uma licença Standard podem ter acesso total ao gerenci
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Editar prioridades e horas de orçamento no Planejador | ✓ ➡&#42; |   |   |   |
 | Criar, editar, excluir Conjuntos de Recursos&#42;&#42; | ✓ ➡&#42; |   |   |   |
-| Atualizar Horas Planejadas no Balanceador de Carga de Trabalho&#42;&#42;&#42; | ✓ ➡&#42; |   |   |   |
+| Atualizar horas planejadas no balanceador de carga de trabalho&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Exibir prioridades de projeto no Planejador de Recursos | ✓ ➡&#42; |   |   |   |
 | Exibir alocação de recursos nas ferramentas de Planejamento de Recursos | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
-| Exibir Conjuntos de Recursos | ✓ ➡&#42; | ✓ ➡&#42; |   |   |
+| Pools de recursos do Exibir | ✓&#42; | ✓&#42; |   |   |
 | Recursos de orçamento nas ferramentas de Planejamento de Recursos&#42;&#42; | ✓ µ |   |   |   |
 | Anexar Conjuntos de Recursos a projetos, modelos e usuários | ✓ µ |   |   |   |
 
