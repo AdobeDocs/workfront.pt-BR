@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ Para obter mais informações sobre como reverter um pacote de promoção de amb
 
 >[!NOTE]
 >
->Versão de pré-visualização: 12 de agosto de 2024; Produção para lançamento rápido: Com o lançamento 24.9 (12 de setembro de 2024); Produção para lançamento trimestral: a ser definido
+>Versão de visualização: ~~12 de agosto de 2024~~; Produção para lançamento rápido: N/A; Produção para lançamento trimestral: N/A
 >
->_Este recurso faz parte de uma versão em fases e estará disponível para um número limitado de clientes em setembro. Ele permanecerá no ambiente de Visualização por um tempo estendido enquanto coletamos comentários._
+>_Este recurso foi removido da Visualização e não será lançado em versões futuras._
 
 Um botão &quot;Layout&quot; no designer de formulário personalizado permite escolher entre uma área de trabalho de duas ou três colunas. O designer do formulário original usa três colunas e as configurações de campo são exibidas na coluna mais à direita. Se você selecionar duas colunas, as configurações de campo serão exibidas ao lado da biblioteca de campos na coluna à esquerda.
 
