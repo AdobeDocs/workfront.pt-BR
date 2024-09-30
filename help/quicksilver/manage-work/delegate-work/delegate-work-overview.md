@@ -7,10 +7,10 @@ description: Quando você planeja ficar fora do escritório por um curto períod
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +28,11 @@ Você pode delegar os seguintes objetos em [!DNL Adobe Workfront]:
 
 * Tarefas atribuídas a você
 * Problemas atribuídos a você
-* Aprovações de projetos, tarefas, problemas e documentos atribuídas a você.
+* Aprovações de projetos, tarefas ou problemas atribuídas a você.
 
 Este artigo contém informações gerais sobre a delegação de tarefas e problemas.
 
-Para obter informações sobre como delegar aprovações de projetos, tarefas, problemas e documentos, consulte [Delegar solicitação de aprovação](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Para obter informações sobre como delegar aprovações de projetos, tarefas e problemas, consulte [Delegar solicitação de aprovação](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Para obter informações sobre como delegar tarefas e problemas, consulte [Delegar tarefas e problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
 
@@ -43,6 +43,7 @@ Considere o seguinte ao delegar tarefas e problemas:
 * O administrador de grupo ou o seu [!DNL Workfront] deve habilitar as preferências de Delegação na área [!UICONTROL Instalação] antes que você possa delegar seu trabalho a outras pessoas.
 
   Para obter informações, consulte [Configurar preferências de tarefas e problemas do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Você pode delegar tarefas e problemas somente da área [!UICONTROL Página inicial].
 * Existem exceções para os seguintes tipos de licença:
 
