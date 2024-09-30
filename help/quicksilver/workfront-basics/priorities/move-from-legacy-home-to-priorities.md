@@ -5,9 +5,9 @@ description: A página inicial herdada será removida do Workfront em 17/10 com 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -49,9 +49,7 @@ Agrupamento
 
 #### Delegar trabalho
 
-Os usuários não podem delegar ou exibir trabalho delegado em Prioridades no momento.
-
-Os usuários ainda podem delegar trabalho da Nova página inicial nos seguintes widgets:
+Os usuários não podem delegar ou exibir trabalho delegado em Prioridades no momento. No entanto, os usuários ainda podem delegar trabalho da Nova página inicial nos seguintes widgets:
 
 * Meu trabalho
 * Minhas tarefas
