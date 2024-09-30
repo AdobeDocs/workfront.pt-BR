@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '14419'
+source-wordcount: '14437'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 2%
          * [Visão geral da versão do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [Aprimoramentos do administrador do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [Aprimoramentos na integração do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [Aprimoramentos na página inicial do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
          * [Aprimoramentos do projeto do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [Aprimoramentos de provas do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [Aprimoramentos no painel e no relatório do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
@@ -877,6 +878,9 @@ ht-degree: 2%
       * [Entender a navegação de um usuário de licença de trabalho](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Entender a navegação de um usuário com licença de revisão](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Visão geral das datas de Projeto, Tarefa e Problema no Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+   * Prioridades {#priorities}
+      * [Prioridades: índice de artigos](workfront-basics/priorities/priorities-toc.md)
+      * [Introdução às prioridades](workfront-basics/priorities/get-started-with-priorities.md)
    * Página inicial {#home}
       * [Início](workfront-basics/using-home/home.md)
       * Nova Casa {#new-home}
@@ -888,6 +892,7 @@ ht-degree: 2%
       * Usar a área da página inicial {#use-home-area}
          * [Usar a área Início](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Mudar da página inicial herdada para a nova página inicial](workfront-basics/using-home/new-home/move-to-new-home.md)
+         * [Mudar da página inicial herdada para Prioridades](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Introdução à Página inicial](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Exibir itens na Lista de trabalho na área Página inicial](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Priorizar o trabalho na área da Página Inicial](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
+source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 * [Melhorias do administrador](#administrator-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
+* [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Aprimoramentos de provas](#proofing-enhancements)
 * [Aprimoramentos de Relatório e Painel de Controle](#report-and-dashboard-enhancements)
@@ -154,6 +155,48 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
            </tbody>
         </table>
 
+### Aprimoramentos na página inicial
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introdução às Prioridades: uma experiência do Workfront mais simples, simplificada e intuitiva para proprietários de tarefas.</a></p>
+                        <p>As prioridades aumentam o foco e a produtividade para ajudar os clientes a fazer mais em menos tempo.</p>
+                        <p>Com as Prioridades, você pode aproveitar:</p>
+                        <ul>
+                        <li>Gerencie e priorize tarefas diárias: organize seu dia ou semana com a navegação consolidada para maior clareza</li>
+                        <li>Maior produtividade: acesse o contexto do projeto e execute tarefas com mais rapidez e menos cliques</li>
+                        <li>Recursos personalizados: aproveite os recursos criados exclusivamente para proprietários de tarefas</li>
+                        </ul>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 3 de outubro de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versão de produção para todos os clientes: 17 de outubro de 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Aprimoramentos do projeto
 
 <table>
@@ -227,6 +270,23 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td>
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Correção de problema de copiar/colar para o Visualizador de Revisão de Texto para Área de Trabalho</a></p>
+                        <p>Corrigimos um problema em que o conteúdo é colado incorretamente na seção Atualizações do Visualizador de provas de desktop.</p>
+                        <p>Nova versão: 2.1.39</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 2 de outubro de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção para todos os clientes: 2 de outubro de 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
