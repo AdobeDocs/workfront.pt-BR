@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
 # Personalizar a nova página inicial usando um modelo de layout
 
-Você pode usar um modelo de layout para configurar o que os usuários veem quando abrem uma nova página inicial.
+Você pode usar um modelo de layout para configurar o que os usuários veem quando abrem a nova página inicial pela primeira vez.
 
 Você pode configurar:
 
-* Quais widgets são exibidos no espaço de trabalho por padrão e seu layout na página
+* Quais widgets são exibidos no espaço de trabalho por padrão
 * Qual plano de fundo está selecionado
 * Configurações específicas do widget, incluindo quais filtros e grupos estão disponíveis para os widgets Meus projetos, Minhas tarefas e Meus problemas, bem como seus padrões
 
 >[!IMPORTANT]
 >
->As opções do modelo de layout do administrador descritas nesta página substituem as opções de personalização de usuários individuais.
->
->Quando as alterações em um modelo de layout forem salvas, os usuários desse modelo de layout terão sua nova página inicial alterada para corresponder ao modelo de layout. As seleções de widget existentes serão enviadas para a parte inferior da página. Embora os widgets selecionados pelo administrador possam ser reposicionados e redimensionados por um usuário, eles não podem ser removidos.
+>Os usuários finais podem alterar seu plano de fundo e reordenar widgets na página após a aplicação do Modelo de layout. Eles não podem remover widgets incluídos por um Administrador do Workfront.
+> <br>
+>Os administradores têm a capacidade de adicionar novos widgets para os usuários. No entanto, se um usuário final já tiver personalizado a ordem do widget ou a seleção do plano de fundo, essas personalizações específicas não serão alteradas.
+
+
 
 Para obter informações sobre a nova Página inicial, consulte [Introdução à nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -72,6 +74,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 +++
 
 ## Personalizar a nova página inicial usando um modelo de layout
+
+Para personalizar a Nova página inicial usando um modelo de layout:
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
