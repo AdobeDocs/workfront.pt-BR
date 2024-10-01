@@ -2,16 +2,16 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Gerar um módulo usando IA
+title: Gerar um segmento de cenário usando IA
 description: Você pode inserir um prompt de texto para criar um módulo HTTP configurado para o prompt.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Os prompts de texto devem incluir as seguintes informações no mínimo:
 >Isso inclui o aplicativo `Workfront Planning` e a ação `get field details`.
 >
 >O exemplo a seguir NÃO está correto:
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    Este exemplo está incorreto porque inclui mais de um aplicativo
