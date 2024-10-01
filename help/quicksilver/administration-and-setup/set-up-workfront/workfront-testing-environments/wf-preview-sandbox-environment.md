@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,16 @@ Quando a sandbox de visualização é atualizada (todos os finais de semana), as
 As etapas para configurar o logon único na Sandbox de visualização são semelhantes àquelas para configurá-lo no ambiente de Produção.
 
 Para obter mais informações sobre como configurar o [!DNL Workfront] com SSO, consulte [Visão geral do logon único no Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+
+## Recálculo automático de linhas de tempo do projeto
+
+Recalcular linhas do tempo permite que os gerentes vejam como as forças fora do projeto estão afetando a linha do tempo do projeto. A linha do tempo de um projeto se refere às datas planejadas e projetadas para o projeto.
+
+Como administrador do Workfront, você pode configurar quando o Workfront recalcula automaticamente as linhas do tempo do projeto. O Workfront pode recalcular as linhas do tempo do projeto todas as noites, quando o escopo do projeto mudar, ou ambos.
+
+Para obter informações, consulte [Configurar recálculos de linha de tempo para projetos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+Para o ambiente de Pré-visualização, o recálculo noturno é desativado e as linhas de tempo do projeto não são recalculadas automaticamente. Você deve recalcular manualmente a linha do tempo do projeto para o ambiente de Pré-visualização. Para obter informações, consulte [Recalcular linhas do tempo do projeto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Pré-visualizar o desempenho e a disponibilidade do ambiente
 

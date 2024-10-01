@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,11 @@ Para obter informações sobre Tipos de Atualização de Projeto, consulte [Vis�
 1. Clique em **[!UICONTROL Salvar]**.
 
    A linha do tempo de todos os projetos no sistema é recalculada automaticamente com base no Tipo de atualização de cada projeto.
+
+>[!IMPORTANT]
+>
+>Para os ambientes Visualização e Atualização personalizada da sandbox, o recálculo noturno é desativado e as linhas de tempo do projeto não são recalculadas automaticamente. Você deve recalcular manualmente a linha do tempo do projeto para os ambientes Pré-visualização e Atualização personalizada da sandbox. Para obter informações, consulte [Recalcular linhas do tempo do projeto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
 
 ## Recalcular linhas do tempo para toda a instância [!DNL Workfront]
 

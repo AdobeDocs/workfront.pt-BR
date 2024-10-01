@@ -6,9 +6,9 @@ description: Recalcular as linhas do tempo permite que os gerentes vejam como di
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,11 @@ Por padrão, as linhas do tempo do projeto são recalculadas automaticamente dia
 
 * [Recálculo automático das linhas de tempo do projeto](#automatic-recalculation-of-project-timelines)
 * [Ações que acionam um recálculo automático de linhas de tempo do projeto](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+
+>[!IMPORTANT]
+>
+>Para os ambientes Visualização e Atualização personalizada da sandbox, o recálculo noturno é desativado e as linhas de tempo do projeto não são recalculadas automaticamente. Você deve recalcular manualmente a linha do tempo do projeto para os ambientes Pré-visualização e Atualização personalizada da sandbox.
 
 ### Recálculo automático de linhas de tempo do projeto {#automatic-recalculation-of-project-timelines}
 
