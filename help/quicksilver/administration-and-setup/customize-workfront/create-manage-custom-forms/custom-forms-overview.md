@@ -8,20 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 7%
+source-wordcount: '383'
+ht-degree: 11%
 
 ---
 
 # Visão geral de formulários personalizados
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 Você pode criar um formulário personalizado que os usuários podem anexar a um objeto do Adobe Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre o objeto.
 
@@ -32,8 +28,6 @@ Por exemplo, você pode anexar um formulário personalizado chamado &quot;Pesqui
 ## Como criar um formulário personalizado
 
 O designer de formulário tem um espaço de trabalho no estilo da tela de desenho que permite exibir os campos, a tela de desenho e as configurações de campo, tudo ao mesmo tempo. Ela também permite arrastar e soltar campos nas seções ao criar o formulário. É possível redimensionar o lado direito da tela para fornecer mais espaço para as opções de campo.
-
-<span class="preview">Um botão Layout (não mostrado nesta imagem) permite escolher entre uma área de trabalho de duas ou três colunas. O botão indica qual layout está selecionado no momento. O layout de três colunas exibe as configurações de campo na coluna mais à direita. No layout de duas colunas, as configurações de campo são exibidas ao lado da biblioteca de campos na coluna à esquerda.</span>
 
 Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
