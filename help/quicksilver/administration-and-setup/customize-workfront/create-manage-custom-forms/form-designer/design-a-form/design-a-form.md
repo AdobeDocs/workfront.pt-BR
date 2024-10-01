@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
+source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
 workflow-type: tm+mt
-source-wordcount: '5541'
-ht-degree: 4%
+source-wordcount: '5575'
+ht-degree: 5%
 
 ---
 
 # Criar um formulário com o designer de formulário
+
+{{highlighted-preview}}
 
 Você pode criar um formulário personalizado com o designer do formulário. Você pode anexar formulários personalizados a diferentes objetos do Workfront para capturar dados sobre esses objetos.
 
@@ -89,6 +91,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Adicionar campos novos ou existentes ao formulário personalizado
 
 Você pode usar campos novos ou existentes ao criar o formulário personalizado.
+
+<span class="preview">Os formulários personalizados estão limitados a 500 campos. Um contador na parte inferior esquerda exibe quantos campos são usados no formulário e ele fica sempre visível à medida que você rola a tela dentro do designer do formulário.</span>
 
 ### Reutilizar um campo ou widget existente já usado em outro formulário personalizado
 
@@ -302,7 +306,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
    * Botões de seleção
    * Grupo de caixas de seleção
    * Lista suspensa de seleção única
-   * Lista suspensa de multisseleção
+   * Lista suspensa com seleção múltipla
 
    ![Arraste um campo até a tela](assets/drag-field-to-section.png)
 
@@ -322,7 +326,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
-    <li>Lista suspensa de multisseleção</li>
+    <li>Lista suspensa com seleção múltipla</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -333,7 +337,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
-    <li>Lista suspensa de multisseleção</li>
+    <li>Lista suspensa com seleção múltipla</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -345,7 +349,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
-    <li>Lista suspensa de multisseleção</li>
+    <li>Lista suspensa com seleção múltipla</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -360,7 +364,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
-    <li>Lista suspensa de multisseleção</li>
+    <li>Lista suspensa com seleção múltipla</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -370,7 +374,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
-    <li>Lista suspensa de multisseleção</li>
+    <li>Lista suspensa com seleção múltipla</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -380,7 +384,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
-    <li>Lista suspensa de multisseleção</li>
+    <li>Lista suspensa com seleção múltipla</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -405,7 +409,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
-    <li>Lista suspensa de multisseleção</li>
+    <li>Lista suspensa com seleção múltipla</li>
     </ul></td>
      </tr> 
     </tbody> 
