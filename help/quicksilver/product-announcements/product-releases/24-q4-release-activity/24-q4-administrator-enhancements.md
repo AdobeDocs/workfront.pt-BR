@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para obter mais informações, consulte [Personalizar o modo de exibição de De
 
 >[!NOTE]
 >
->Versão de pré-visualização: 29 de agosto de 2024; Produção para lançamento rápido: Com lançamento 24.9 (12 de setembro de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
+>Versão de pré-visualização: 29 de agosto de 2024; Produção para lançamento rápido: Com lançamento 24.9 (12 de setembro de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (17 de outubro de 2024)
 
 Para tornar a promoção do ambiente mais flexível e fácil de usar, ativamos a funcionalidade de reversão. Agora, é possível reverter pacotes em 24 horas, permitindo restaurar com mais facilidade as configurações anteriores que foram afetadas por um pacote de promoção de ambiente.
 

@@ -4,9 +4,9 @@ description: Melhorias no painel e no relatório do quarto trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Versão de produção para todos os clientes: com a versão 24.10 (outubro de 2024)
+>Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)
 >
 >_Disponível somente para organizações em um dos novos planos da Adobe Workfront. A Conexão de Dados está incluída no plano Ultimate ou pode ser adquirida como um complemento dos planos Prime e Select._
 

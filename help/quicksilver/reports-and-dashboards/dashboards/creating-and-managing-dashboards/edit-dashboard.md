@@ -6,9 +6,9 @@ description: O objetivo do painel é fornecer acesso rápido às informações. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ O objetivo do painel é fornecer acesso rápido às informações. Você pode pr
 
   Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Calendários
-
-  Para obter mais informações sobre como criar calendários, consulte [Calendários: índice de artigo](../../../reports-and-dashboards/reports/calendars/calendars.md).
-
 * Páginas externas
 
   Para obter mais informações sobre como criar páginas externas, consulte [Incorporar uma página da Web externa em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
@@ -33,7 +29,7 @@ Após criar esses itens e adicioná-los a um painel, você pode editar o painel 
 
 Quaisquer alterações feitas em um painel afetarão todos os usuários que têm acesso a esse painel.
 
-Quando você compartilha um painel com usuários, todos os relatórios, calendários e páginas externas também são compartilhados com os mesmos usuários.
+Quando você compartilha um painel com os usuários, todos os relatórios e páginas externas também são compartilhados com os mesmos usuários.
 
 ## Requisitos de acesso
 
@@ -86,7 +82,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
    * **Nome**: edite o nome do painel.
    * **Descrição**: especifique uma descrição para o painel.
 
-1. Na seção **Relatórios e Calendários Disponíveis**, comece digitando o nome de um relatório, calendário ou página externa no campo **Pesquisar por nome ou tipo...** e, em seguida, arraste e solte o relatório ou calendário no painel de layout à direita.
+1. Na seção **Relatórios Disponíveis**, comece digitando o nome de um relatório ou página externa no campo **Pesquisar por nome ou tipo ...** e, em seguida, arraste e solte o relatório no painel de layout à direita.
 
    >[!NOTE]
    >

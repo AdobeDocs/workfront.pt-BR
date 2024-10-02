@@ -6,9 +6,9 @@ description: Programar uma entrega automática de relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
@@ -160,6 +160,12 @@ Para agendar um relatório para entrega automática ou editar ou excluir uma ent
    O relatório é exibido na seção **Entregas repetitivas** (na caixa de diálogo **Enviar relatório**) e será enviado no horário agendado.
 
    Para obter informações sobre limitações de tamanho que podem afetar a entrega de seus relatórios, consulte as seções [Limites de entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) e [Limites de exportação](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+
+>[!IMPORTANT]
+>
+>Os relatórios agendados estão sujeitos a um limite de tempo interno ao serem processados para entrega. Caso um relatório leve mais tempo do que o limite para ser enviado, você receberá uma notificação e o relatório não será mais entregue, independentemente de quaisquer deliveries agendados restantes. Para continuar enviando o relatório, primeiro tente reduzir o tamanho do relatório por meio de filtros e visualizações e, em seguida, crie um novo delivery agendado.
+>
+>Se você estiver usando uma entrega de relatório agendada para analisar dados do Workfront por meio de uma ferramenta de BI, recomendamos usar o Workfront Data Connect. Para obter mais informações, consulte [visão geral do Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Opcional) Para excluir um delivery agendado:
 

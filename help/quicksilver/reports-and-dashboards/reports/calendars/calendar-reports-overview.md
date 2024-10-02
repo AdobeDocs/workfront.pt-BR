@@ -7,9 +7,9 @@ description: Um relatório de calendário é um relatório dinâmico que fornece
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,3 @@ Em cada relatório de calendário, você pode criar grupos de itens que permitem
 >[!NOTE]
 >
 >Se você encontrar um erro 504 ao executar um relatório de calendário, provavelmente terá muitos filtros no relatório. A redução do número de filtros deve permitir que o relatório seja executado.
-
-## Adicionar seus calendários a um painel
-
-Você pode ter acesso rápido aos seus relatórios de calendário exibindo-os em um painel. Para saber como adicionar um calendário a um painel, consulte [Editar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
