@@ -5,9 +5,9 @@ description: As prioridades são uma experiência simplificada e intuitiva perso
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -182,6 +182,7 @@ Use o recurso Alcance-me para ver o que você perdeu. Pegar-me resumirá as atua
 
 ## Considerações
 
+* No momento, os administradores do Workfront não podem personalizar prioridades por meio do Modelo de layout.
 * O acesso às tarefas em Prioridades é feito em todas as guias. Planejamos adicionar guias adicionais, como Documentos, Subtarefas, Aprovações, etc., no futuro. Diga-nos que você precisa desses itens enviando comentários usando o botão **Fornecer Comentários**.
 
 
