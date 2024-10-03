@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 ## Aprimoramentos do Adobe Workfront
 
 * [Melhorias do administrador](#administrator-enhancements)
+* [Aprimoramentos no gerenciamento de documentos](#document-management-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
 * [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
@@ -46,8 +47,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 ### Melhorias do administrador
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td>
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Um contador em formulários personalizados mostra o número de campos</a></p>
+                        <p>Os formulários personalizados são limitados a 500 campos. Em um formulário longo, pode ser difícil saber quantos campos estão no formulário e se você está se aproximando do limite. Um contador foi adicionado aos formulários personalizados na parte inferior esquerda. O contador exibe quantos campos são usados no formulário e ele fica sempre visível à medida que você rola a tela dentro do designer do formulário.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 1 de outubro de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### Aprimoramentos no gerenciamento de documentos
+
+>[!IMPORTANT]
+>
+>Os recursos listados em **Aprimoramentos no gerenciamento de documentos** fazem parte de uma versão em fases e só estão disponíveis para clientes específicos.
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Exibir o status de decisão do documento diretamente na lista de documentos</a></p>
+                        <p>Agora você pode visualizar o status de decisão de um documento diretamente na lista de documentos.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 3 de outubro de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Adicionar rapidamente revisores e aprovadores anteriores a novas versões de documentos</a></p>
+                        <p>Agora é possível adicionar revisores e aprovadores rapidamente de versões anteriores do documento.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 3 de outubro de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### Aprimoramentos de integração
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Aprimoramentos na página inicial
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### Aprimoramentos do projeto
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Aprimoramentos de provas
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Correção de problema de copiar/colar para o Visualizador de Revisão de Texto para Área de Trabalho</a></p>
+                        [!BADGE Na produção ]{type=Informative}
                         <p>Corrigimos um problema em que o conteúdo é colado incorretamente na seção Atualizações do Visualizador de provas de desktop.</p>
                         <p>Nova versão: 2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Aprimoramentos de Relatório e Painel de Controle
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)</span></p>
+                                <p>Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)</p>
                             </li>
                         </ul>
                         <p><i>Disponível somente para organizações em um dos novos planos da Adobe Workfront. A Data Connect está incluída no plano Ultimate ou pode ser adquirida como um complemento dos planos Prime e Select.</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Outras melhorias
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Resuma projetos ou atualizações com um clique</a></p>
+                        <p>Para facilitar a visualização rápida dos destaques de um projeto ou de um fluxo de atualização, adicionamos botões Resumir a essas áreas do Workfront. Agora, você pode clicar no botão para gerar um resumo no Assistente de IA.</p><p>Anteriormente, os usuários podiam abrir o Assistente de IA e digitar um prompt para criar um resumo do projeto ou atualizar o fluxo.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 3 de outubro de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Disponibilidade geral do Adobe Workfront Planning</a></p>
@@ -421,7 +510,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### Funcionalidade que será removida em breve do Workfront
 
