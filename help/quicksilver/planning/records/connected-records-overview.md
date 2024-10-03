@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral dos registros conectados
 
@@ -30,9 +30,9 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
 * Você pode procurar e adicionar registros e objetos do registro vinculado e tipos de objeto a partir dos campos de registro vinculados.
 * É possível adicionar campos (campos de pesquisa) dos tipos de registro vinculados na tabela do tipo de registro a partir do qual você está vinculando.
 
-  É possível adicionar campos (campos de pesquisa) dos tipos de registro que você está vinculando na tabela do tipo de registro ao qual você está vinculando.
+  Além disso, é possível adicionar campos (campos de pesquisa) dos tipos de registro que você está vinculando na tabela do tipo de registro ao qual você está vinculando.
 
-  Por exemplo, se você vincular o tipo de registro de Produto do tipo de registro de Campanha, será possível exibir campos de Produto para campanhas, bem como campos de Campanha para Produtos.
+  Por exemplo, se você vincular o tipo de registro de Produto do tipo de registro de Campanha, será possível exibir campos de produto para campanhas, bem como campos de campanha para produtos.
 * Não é possível atualizar manualmente os valores dos campos de pesquisa nos registros a partir dos quais você está vinculando.
 
   Os valores dos campos de pesquisa preenchem o registro do Workfront Planning que você está vinculando automaticamente depois de serem atualizados no registro ou objeto original.
@@ -54,4 +54,3 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
 * Você pode conectar objetos do Workfront aos registros do Workfront Planning nas seguintes áreas:
 
    * Na seção Planejamento de um objeto do Workfront.
-

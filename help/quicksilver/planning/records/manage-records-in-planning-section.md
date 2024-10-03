@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -110,14 +110,16 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 ## Considerações sobre a seção Planejamento de objetos do Workfront
 
-* Os tipos de registro do Workfront Planning devem estar conectados a tipos de objeto do Workfront.
+Considere o seguinte ao exibir registros do Workfront Planning na seção Planning de um objeto Workfront:
+
+* Os tipos de registro do Workfront Planning devem primeiro ser conectados aos tipos de objeto do Workfront.
 
   Para obter informações, consulte os seguintes artigos:
 
    * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
-* Você pode exibir a seção Planejamento em um objeto Workfront, mesmo quando não há registros associados ao objeto Workfront.
-* Você pode conectar registros do Planning a objetos do Workfront a partir do Workfront, na seção Planning quando houver pelo menos um registro conectado ao objeto do Workfront.
+* Você pode exibir a seção Planejamento de um objeto do Workfront, mesmo quando não há registros associados ao objeto do Workfront.
+* Além de conectar objetos do Workfront a partir da área Planning do Workfront, você pode conectar registros do Planning a objetos do Workfront a partir do Workfront na seção Planning.
 
 ## Gerenciar registros na seção Planejamento
 
@@ -130,7 +132,11 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 1. Clique no cartão de um tipo de registro conectado a um projeto, portfólio ou programa do Workfront.
 1. Vá para um campo de registro conectado que tenha uma conexão com um objeto do Workfront, na exibição de tabela ou na página de detalhes de um registro. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. Clique no nome de um objeto Workfront no campo de registro conectado.
-A página dos objetos é aberta no Workfront.
+A página do objeto é aberta no Workfront.
+
+   >[!NOTE]
+   >
+   >  Se você souber de um objeto do Workfront já conectado a um registro do Planning, poderá navegar até a seção do Planning a partir do objeto do Workfront.
 
 1. Clique em **Planejamento** no painel esquerdo.
 
@@ -152,7 +158,7 @@ A página dos objetos é aberta no Workfront.
 1. Clique em um cartão de registro para exibir mais informações sobre o registro. A caixa de visualização do registro é exibida.
 1. (Opcional) Inicie a modificação de campos na caixa de visualização do registro. Suas alterações são salvas automaticamente.
 1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em uma nova guia** no canto superior direito da caixa de visualização para abrir a página de detalhes do registro. A página de detalhes do registro é aberta no Workfront Planning.
-1. Passe o mouse sobre um cartão de registro, clique no ícone de desconectar registro **-** e clique em **Desconectar**.
+1. (Opcional) Passe o mouse sobre um cartão de registro, em seguida, clique no ícone de desconectar registro **-** e clique em **Desconectar**.
 As seguintes situações ocorrem:
    * O registro não está mais conectado ao objeto Workfront.
    * O objeto Workfront também é removido do campo conectado do registro do Workfront Planning.

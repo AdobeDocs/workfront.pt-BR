@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Atualizar status da tarefa
+title: Atualizar Status da Tarefa
 description: Você pode atualizar o status de uma tarefa para informar a outras pessoas sobre onde a tarefa está (e o projeto geral) e como está progredindo.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # Atualizar status da tarefa
+
+<!--Audited: 10/2024-->
 
 Você pode atualizar o status de uma tarefa para informar a outras pessoas sobre onde a tarefa está (e o projeto geral) e como está progredindo.
 
@@ -22,6 +24,8 @@ Os status padrão são Novo, Em andamento e Concluído. O administrador do Adobe
 Você pode atualizar manualmente os status das tarefas ou permitir que o Workfront os atualize automaticamente quando determinadas ações ocorrerem.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para atualizar tarefas manualmente:
 
@@ -51,7 +55,9 @@ Você deve ter o seguinte acesso para atualizar tarefas manualmente:
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre a atualização do Status das tarefas
 

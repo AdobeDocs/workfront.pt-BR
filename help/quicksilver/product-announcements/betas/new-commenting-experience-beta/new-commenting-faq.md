@@ -9,9 +9,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Não pretendemos trazer de volta a capacidade de executar essas ações, pois el
 
 ## Há planos para ter uma visão combinada de comentários e atualizações do sistema?
 
-No momento, não há planos para fornecer uma visualização combinada. Forneça seu feedback e casos de uso por meio do botão Deixar feedback no aplicativo ou envie solicitações na área Workfront Ideas da Comunidade para que possamos entender melhor como a funcionalidade é necessária.
+No momento, não há planos para fornecer uma visualização combinada. Envie uma solicitação com a equipe de suporte, se necessário, para que possamos entender melhor a necessidade dessa funcionalidade.
 
 ## Você trará de volta a funcionalidade de desfazer um comentário publicado?
 
@@ -40,11 +40,11 @@ Substituímos a funcionalidade de desfazer um comentário publicado pela capacid
 
 ## A funcionalidade de remover participantes de thread será limitada a tipos de licença específicos?
 
-No momento, não há planos para adicionar permissões ou controles de acesso para quem pode usar essa funcionalidade recém-introduzida. Forneça feedback e casos de uso por meio do botão Deixar feedback no aplicativo ou envie solicitações na área Ideias do Workfront da Comunidade, para que possamos entender melhor a importância dessa funcionalidade.
+No momento, não há planos para adicionar permissões ou controles de acesso para quem pode usar essa funcionalidade recém-introduzida. Envie uma solicitação à equipe de suporte, se necessário, para que possamos entender melhor a importância dessa funcionalidade.
 
 ## Há uma maneira de controlar quem pode editar comentários?
 
-No momento, não há planos de adicionar permissões ou controles de acesso para editar comentários. Forneça feedback e casos de uso por meio do botão Deixar feedback no aplicativo ou envie solicitações na área Ideias do Workfront da Comunidade, para que possamos entender melhor a importância dessa funcionalidade.
+No momento, não há planos de adicionar permissões ou controles de acesso para editar comentários. Envie uma solicitação à equipe de suporte, se necessário, para que possamos entender melhor a importância dessa funcionalidade.
 
 ## É possível pesquisar ou filtrar comentários?
 

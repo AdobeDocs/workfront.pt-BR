@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-Você pode conectar tipos de registro uns aos outros ou tipos de registro com tipos de objeto de outros aplicativos.
+Você pode conectar tipos de registro uns aos outros ou pode conectar tipos de registro a tipos de objeto de outros aplicativos.
 
 Este artigo descreve como é possível conectar dois tipos de registro do Workfront Planning ou um tipo de registro do Workfront Planning a um objeto de outro aplicativo.
 
@@ -183,7 +183,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 1. No campo **Tipo de registro**, procure um tipo de registro ou selecione um dos seguintes:
 
-   * Outro tipo de registro do espaço de trabalho selecionado
+   * Outro tipo de registro do espaço de trabalho atual
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -198,7 +198,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
      >[!TIP]
      >
-     >Se não houver tipos de registro configurados para se conectar a partir de outro espaço de trabalho, a seção espaço de trabalho não será exibida.
+     >Se não houver tipos de registro configurados para se conectar a partir de outros espaços de trabalho, a seção espaço de trabalho não será exibida.
 
 
    * Um **Projeto, Portfolio, Programa, Empresa** ou **Grupo** da seção **Tipos de Objetos do Workfront**.
@@ -218,7 +218,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
    >É possível ter várias conexões para o mesmo registro ou tipo de objeto. Se você não editar o nome do campo conectado, o Workfront adicionará um numeral após o nome do registro conectado, para indicar o número de tipos de registros conectados com o mesmo nome.
 
    * **Descrição**: informações adicionais sobre o campo de registro conectado. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
-   * **Permitir vários registros**: selecione esta opção para indicar que você permite que os usuários possam adicionar vários registros quando o campo de tipo de registro vinculado for exibido nos registros originais. É selecionado por padrão.
+   * **Permitir vários registros**: selecione esta opção para indicar que você permite que os usuários adicionem vários registros quando o campo de tipo de registro vinculado for exibido nos registros originais. É selecionado por padrão.
 
      Essa opção está disponível somente ao conectar registros de dois espaços de trabalho diferentes ou um registro e um objeto de ativo do Adobe Experience Manager.
 
@@ -237,7 +237,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
      Para obter mais informações sobre tipos de conexão, consulte [Visão geral sobre tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Selecionar campos de pesquisa**: selecione esta opção para adicionar campos do tipo de registro selecionado. Os campos de pesquisa são campos associados ao registro ou tipo de objeto ao qual você está vinculando. Vinculá-los exibe informações do registro ou objeto ao qual você está vinculando no registro do qual você está gostando. É selecionado por padrão.
+   * **Selecionar campos de pesquisa**: selecione esta opção para adicionar campos do tipo de registro selecionado. Os campos de pesquisa são campos associados ao registro ou tipo de objeto ao qual você está vinculando. Vinculá-los exibe informações do registro ou objeto ao qual você está vinculando no registro a partir do qual você está vinculando. É selecionado por padrão.
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
    * Os registros são agrupados por cada combinação exclusiva de valores de campo
 
-   * A exibição da linha do tempo é criada com base no primeiro valor de data.
+   * A exibição da linha do tempo é criada com base no primeiro valor de data
 
    >[!IMPORTANT]
    >
@@ -331,7 +331,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
    >[!NOTE]
    >
-   >Por exemplo, você pode vincular o registro Product (registro vinculado) do registro Campaign (registro original) e nomeá-lo como &quot;Campo de produto&quot;. Também é possível vincular o campo Budget do registro Product do registro Campaign e chamá-lo de &quot;Product Budget&quot;. Se você tiver permissão para selecionar vários registros no &quot;campo Produto&quot;, poderá selecionar o Produto 1 com um Orçamento de $100.000 e o Produto 2 com um Orçamento de $110.000 e o Produto 3 com um Orçamento de $100.000. Você pode exibir as seguintes informações de Orçamento no campo vinculado do registro original, dependendo do agregador escolhido:
+   >Por exemplo, você pode vincular o registro Product (registro vinculado) do registro Campaign (registro original) e nomeá-lo como &quot;Campo de produto&quot;. Também é possível vincular o campo Budget do registro Product do registro Campaign e chamá-lo de &quot;Product Budget&quot;. Se você tiver permissão para selecionar vários registros no &quot;campo Produto&quot;, poderá selecionar o Produto 1 com um Orçamento de US$ 100.000 e o Produto 2 com um Orçamento de US$ 110.000, e o Produto 3 com um Orçamento de US$ 100.000. Você pode exibir as seguintes informações de Orçamento no campo vinculado do registro original, dependendo do agregador escolhido:
    >
    >* **Nenhum**: $100.000, $110.000, $100.000
    >* **MAX**: $110.000
@@ -353,7 +353,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     Por exemplo, se você vinculou um tipo de registro de Campanha a um tipo de registro de Programa e nomeou o campo de registro vinculado Programa como &quot;Informações do programa&quot;, então selecione para exibir também o campo Orçamento do programa na exibição de tabela da Campanha, o campo vinculado será automaticamente nomeado como `Budget (from Program information)` na exibição de tabela da campanha.
+     Por exemplo, se você vinculou um tipo de registro de Campanha a um tipo de registro de Programa e nomeou o campo &quot;Informações do programa&quot; do registro vinculado ao Programa, então selecionou exibir também o campo Orçamento do programa na exibição de tabela da Campanha, o campo vinculado será automaticamente nomeado como `Budget (from Program information)` na exibição de tabela da campanha.
 
    * Quando você vincula tipos de registro um ao outro, um campo de registro vinculado também é adicionado ao tipo de registro ao qual você está vinculando. O nome do campo de registro vinculado no tipo de registro vinculado é o nome do tipo de registro que você vincula.
 
@@ -365,7 +365,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 1. (Opcional e condicional) Na exibição da tabela do tipo de registro original ou da tabela do tipo de registro vinculado, clique na seta para baixo no cabeçalho dos campos de registro vinculados e, em seguida, clique em uma das seguintes opções:
 
-   * **Editar campo**: você pode atualizar as informações de **Nome** e **Descrição** do campo.
+   * **Editar campo**: atualize as informações de **Nome** e **Descrição** do campo.
    * **Editar campos de pesquisa**: adicionar ou remover qualquer um dos campos de registro vinculados.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

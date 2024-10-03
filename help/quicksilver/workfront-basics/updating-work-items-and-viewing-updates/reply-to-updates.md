@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Responder a atualizações
+title: Responder a Atualizações
 description: Quando alguém adiciona ou responde a uma atualização em um objeto de trabalho, sua resposta é exibida no thread de comunicação na seção Atualizações do objeto. Você pode adicionar uma resposta a uma atualização ou Curtir se tiver acesso de Visualização ao objeto.
 author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,8 @@ Este artigo descreve como você responde aos comentários da maioria dos objetos
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -80,6 +82,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Responder a uma atualização ou uma resposta no Workfront
 

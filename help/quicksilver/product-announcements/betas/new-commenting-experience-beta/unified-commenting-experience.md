@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 >O programa beta para a nova experiência de comentários começou em abril de 2023 e terminou em outubro de 2023, com a versão de outubro de 2023.
 >
 >Desde 11 de abril de 2024, todos os recursos da nova experiência de comentários estão disponíveis no ambiente de produção para todos os clientes.
+>
+> A experiência de comentários anterior foi removida do Workfront.
 
 ## Recursos
 
@@ -47,7 +49,7 @@ Entre as melhorias incluídas na nova experiência de comentários estão as seg
 * Indicador em tempo real quando novos comentários são adicionados a um objeto
 * Edição de comentários após o envio
 
-Os seguintes recursos foram removidos ou serão descontinuados da nova experiência:
+Os seguintes recursos foram removidos da nova experiência:
 
 * Comentar em uma atualização do sistema. Comentários adicionados às atualizações do sistema no passado foram importados como comentários somente leitura na nova guia Atividade do sistema.
 * Capacidade de editar Status, Condição, Data de confirmação e Percentual concluído ao comentar tarefas e problemas.
@@ -81,17 +83,14 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td><strong>Recurso </strong>
    </td>
-   <td><strong>Existe na experiência de comentários antiga </strong>
+   <td><strong>Existente na experiência de comentários antiga </strong>
    </td>
    <td><strong>Existe na nova experiência de comentários </strong>
    </td>
-   <td><strong>Será apresentado na nova experiência de comentários </strong>
+
+<td><strong>Introduzido na nova experiência de comentários </strong>
    </td>
-   <td><strong>Quando serão introduzidos na nova experiência de comentários </strong>
-   </td>
-   <td><strong>Em pesquisa </strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Criar/ler/responder/excluir comentários 
    </td>
@@ -99,13 +98,11 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   </td>
    <td>✓ µ 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Rich text (exclui aspas e emojis)
    </td>
@@ -113,12 +110,10 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ µ
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Rich text (aspas de bloco)
@@ -143,13 +135,10 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓ µ
    </td>
-   <td> 
+    <td> 2 o trim. de 2023
    </td>
-   <td> 2 o trim. de 2023
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> Citar comentários
@@ -158,13 +147,10 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓ µ
    </td>
-   <td> 
-   </td>
    <td> 2 o trim. de 2023
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Reagir a comentários (Curtir) 
    </td>
@@ -174,11 +160,8 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Anexar imagens a comentários 
    </td>
@@ -186,13 +169,10 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ µ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Marcar pessoas em comentários 
    </td>
@@ -202,11 +182,8 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Remover participantes do thread
    </td>
@@ -216,23 +193,13 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>Marcar automaticamente todos os participantes do thread
    </td>
    <td> 
    </td>
    <td>✓ µ
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>Desfazer postagem de um comentário 
@@ -259,11 +222,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>Substituído pelo comentário de edição 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Editar comentários 
    </td>
@@ -289,11 +244,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Salvar rascunhos de comentários ao sair da página 
    </td>
@@ -303,21 +254,13 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Ver novos comentários em tempo real (inclui ver quando um comentário é excluído)
    </td>
    <td> 
    </td>
    <td>✓ µ
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>Copiar link da discussão 
@@ -343,11 +282,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> Substituído pelo link Copiar
    </td>
-   <td> 
-   </td>
    <td>2 o trim. de 2023 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Citar texto de comentário 
    </td>
@@ -371,13 +302,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ µ
    </td>
-   <td> 
+  <td>2 o trim. de 2023 
    </td>
-   <td>2 o trim. de 2023 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Copiar texto do corpo 
    </td>
@@ -385,13 +312,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓ µ
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>Pesquisar em comentários 
    </td>
@@ -399,13 +322,10 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓ µ
    </td>
-   <td> 
-   </td>
    <td>1º trim. de 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Copiar e colar imagens em um comentário
@@ -414,13 +334,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓ µ
    </td>
-   <td> 
-   </td>
    <td>1º trim. de 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>Arrastar e soltar imagens em um comentário
@@ -429,22 +345,14 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓ µ
    </td>
-   <td> 
-   </td>
    <td>1º trim. de 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>Editar formulário personalizado 
    </td>
    <td>✓ µ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>Responder a atualizações do sistema 
@@ -472,11 +376,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓ µ
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓ µ
    </td>
-   <td> Pode ser lançado em uma data posterior
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓ µ
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 >Para obter mais informações sobre como gerenciar atualizações para objetos do Workfront, consulte [Trabalho de atualização](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-Veja a seguir uma linha do tempo planejada com marcos importantes para o lançamento da nova experiência de comentários no ambiente de produção. Além dos marcos abaixo, continuaremos a melhorar a experiência de comentários com aprimoramentos menores.
+As informações a seguir descrevem a linha do tempo com os principais marcos para o lançamento da nova experiência de comentários para o ambiente de produção. Além dos marcos abaixo, continuaremos a melhorar a experiência de comentários com aprimoramentos menores.
 
-Para obter informações sobre os recursos lançados para a nova experiência de comentários após o encerramento do período beta, consulte a página de visão geral da versão atual.
+Para obter informações sobre os recursos lançados para a nova experiência de comentários após o encerramento do período beta, consulte a página de visão geral da versão atual. Para obter mais informações, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-Esta é uma linha do tempo planejada para o lançamento da nova experiência de comentários:
+A seguir, uma linha do tempo planejada para o lançamento da nova experiência de comentários:
 
 * Com a versão 23.2 (6 de abril de 2023):
-   * Iniciar a experiência de comentários do Beta para problemas
-   * Lançar a nova experiência de comentários para metas (como a única experiência)
+   * Iniciada a experiência de comentários do Beta para problemas
+   * Lançamento da nova experiência de comentários para metas (como a única experiência)
 * Com a versão 23.3 (20 de julho de 2023):
-   * Inicie a experiência de comentários do Beta para projetos, tarefas e documentos.
-   * Lançar a nova experiência de comentários para cartões na área Quadros (como a única experiência)
+   * Iniciada a experiência de comentários do Beta para projetos, tarefas e documentos.
+   * Lançamento da nova experiência de comentários para cartões na área Quadros (como a única experiência)
 * Durante a versão do quarto trimestre de 2023 (versão limitada, disponível somente para clientes que escolhem a versão rápida):
-   * Libere a nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência)
-   * Atualize a experiência de comentários do Beta para projetos, tarefas, problemas e documentos para se tornar a opção padrão. O rótulo &quot;Beta&quot; é removido.
+   * Lançamento da nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência)
+   * Atualização da experiência de comentários no Beta para que projetos, tarefas, problemas e documentos se tornem a opção padrão. O rótulo &quot;Beta&quot; foi removido.
 * Com a versão do quarto trimestre de 2023 (23.10) (26 de outubro de 2023)
-   * Libere a nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência) para todos os clientes.
-   * Torne a nova experiência de comentários para projetos, tarefas, problemas e documentos a opção padrão.
+   * Lançada a nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência) para todos os clientes.
+   * A nova experiência de comentários para projetos, tarefas, problemas e documentos tornou-se a opção padrão.
 
   >[!IMPORTANT]
   >
-  >    Isso concluirá a etapa Beta da nova experiência de comentários.
+  >    Isso encerrou o estágio Beta da nova experiência de comentários.
 
-   * Inclua todos os recursos lançados para a nova experiência de comentários começando com essa data nas versões atuais, mensais e trimestrais.
+   * Todos os recursos lançados para a nova experiência de comentários começando com essa data fizeram parte das versões mensais e trimestrais atuais.
 * Final de 2023:
-   * Mantenha a experiência de comentários herdada como uma opção secundária para os seguintes objetos: projetos, tarefas, problemas e documentos. A nova experiência de comentários é a opção padrão para todos os usuários desses objetos.
-   * Torne a nova experiência de comentários a única experiência para todos os outros objetos.
-
-  >[!NOTE]
-  >
-  >    As iterações continuarão tendo a experiência de comentários herdada. A nova experiência de comentários não estará disponível para iterações.
+   * Manteve a experiência de comentários herdada como uma opção secundária para os seguintes objetos: projetos, tarefas, problemas e documentos. A nova experiência de comentários é a opção padrão para todos os usuários desses objetos.
+   * A nova experiência de comentários foi a única experiência para todos os outros objetos.
 
 * Com a segunda versão do trimestre de 2024 (11 de abril de 2024):
 
-  Remova a opção para alternar de volta para o fluxo de comentários herdado e tornar o novo fluxo de comentários a única experiência para todos os objetos.
+  Remoção da opção de alternar de volta para o fluxo de comentários herdado e tornar o novo fluxo de comentários a única experiência para todos os objetos.
+
+* 3 de outubro de 2024:
+
+  Remoção do botão Deixar feedback na área Atualizações.
 
 ## Localizar a nova experiência de comentários
 

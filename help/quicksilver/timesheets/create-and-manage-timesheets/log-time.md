@@ -1,13 +1,13 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Registrar de tempo
+title: Registro de tempo
 description: Você pode registrar horas para itens de trabalho no &nbsp;Adobe Workfront para indicar o número de horas que você gasta trabalhando neles. Você também pode registrar horas que não estejam relacionadas ao trabalho, como férias, licença médica ou tempo gasto em reuniões. O horário registrado é exibido em sua folha de horas.
 author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '3856'
 ht-degree: 0%
