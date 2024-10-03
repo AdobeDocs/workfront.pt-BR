@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
 
 # Personalizar Início e Resumo usando um modelo de layout
+
+<span class="preview">Este artigo será renomeado para &quot;Personalizar o painel de resumo usando um modelo de layout&quot; quando a Página Inicial Herdada for removida do Workfront com a versão do quarto trimestre em 17 de outubro. 2024.</span>
 
 Você pode usar um Modelo de layout para configurar o que os usuários veem quando clicam em uma tarefa ou problema na Página inicial e no Resumo. Cada configuração feita usando as etapas abaixo afeta a área Página inicial e o Painel de resumo da mesma maneira. Essas personalizações não se aplicam ao painel Resumo do documento.
 

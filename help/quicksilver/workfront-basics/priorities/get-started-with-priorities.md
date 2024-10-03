@@ -5,17 +5,15 @@ description: As prioridades são uma experiência simplificada e intuitiva perso
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 3%
 
 ---
 
 
 # Introdução às prioridades
-
-<span class="preview">As prioridades estarão disponíveis na Pré-visualização em 3/10/2024</span>
 
 As prioridades são uma experiência simplificada e intuitiva personalizada para proprietários de tarefas. As prioridades serão distribuídas em fases, começando pela lista de trabalho.
 
@@ -118,6 +116,16 @@ A exibição de Calendário fornecerá uma representação visual de suas tarefa
 ## Trabalhar em tarefas e problemas
 
 Em Prioridades, você pode atualizar itens de trabalho para manter os detalhes dos itens de trabalho atualizados, registrar horas para rastrear as horas de trabalho com precisão, fazer upload de ativos sem precisar navegar para um projeto e adicionar links rápidos para facilitar o acesso aos recursos usados com frequência.
+
+>[!NOTE]
+>
+>As licenças Light, Review, Contributor e Requestor têm acesso limitado às Prioridades. Para obter mais informações sobre como esses tipos de licença podem interagir com tarefas e problemas, consulte
+>
+>* [Acesso a objetos e áreas pelo para novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [Funcionalidade disponível para cada tipo de objeto para novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [Acesso a objetos e áreas por tipo de licença](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [Funcionalidade disponível para cada tipo de objeto](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### Adicionar e exibir atualizações
 

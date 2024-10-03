@@ -5,17 +5,15 @@ description: A página inicial herdada será removida do Workfront em 17/10 com 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
 
 
 # Mudar da Página inicial herdada para Prioridades
-
-<span class="preview">As prioridades estarão disponíveis na Pré-visualização em 3/10/2024</span>
 
 A página inicial herdada será removida do Workfront em 17/10 com a versão do quarto trimestre. Este artigo fornece informações sobre qual funcionalidade estará disponível em Prioridades, bem como recomendações para os administradores do Workfront que migram os usuários para Prioridades.
 
