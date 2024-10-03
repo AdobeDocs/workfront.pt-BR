@@ -5,10 +5,10 @@ description: Você pode resumir rapidamente itens de trabalho e documentos usand
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -42,6 +42,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Pré-requisitos
+
+* O administrador do Workfront deve ter ativado o Assistente de IA para sua organização.
+
+  Para obter mais informações, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) no artigo Visão geral do Assistente de IA.
+* O administrador do Workfront deve ter ativado o Assistente de IA para o seu nível de acesso.
+
+  Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Obter informações do Assistente de IA
 

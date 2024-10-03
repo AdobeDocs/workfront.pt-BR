@@ -1,31 +1,24 @@
 ---
-title: Resumir usando o Assistente de IA
-content-type: reference
-description: Você pode resumir rapidamente itens de trabalho e documentos usando a funcionalidade Resumir.
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: Resumir atualizações com o Assistente de IA
+description: As Atualizações são de um objeto que inclui um botão que usa o AI Assistant para resumir as atualizações.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
-# Resumir usando o Assistente de IA
+# Resumir atualizações com o Assistente de IA
+
+O Assistente de IA do Workfront pode resumir o conteúdo do fluxo de atualização, permitindo que você entenda rapidamente os comentários e as discussões que ocorrem em torno de um objeto do Workfront.
+
+Você pode usar o botão Resumir conteúdo para gerar um resumo ou pode inserir um prompt no Assistente do AI.
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
-
-O Assistente de IA da Workfront pode resumir alguns objetos, fornecendo uma visualização de alto nível da intenção ou dos detalhes do objeto.
-
-Por exemplo, se você pedir ao Assistente de IA para resumir um projeto, ele retornará breves descrições da finalidade e do status do projeto, fornecerá exemplos de tarefas concluídas e ainda pendentes e fornecerá alguns detalhes e observações adicionais.
-
-O Assistente de IA pode resumir os seguintes objetos:
-
-* Projetos
-* Tarefas
-* Problemas
-* Documentos
 
 >[!NOTE]
 >
@@ -65,22 +58,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
   Para obter mais informações, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) no artigo Visão geral do Assistente de IA.
 * O administrador do Workfront deve ter ativado o Assistente de IA para o seu nível de acesso.
 
-  Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
 <div class="preview">
 
-## Resumir usando os botões Resumir
+## Resumir usando o botão Resumir Conteúdo
 
-As áreas a seguir têm botões que geram resumos usando o Assistente de IA:
+1. Navegue até o fluxo de atualização que deseja resumir.
+1. Clique no botão **Resumir Conteúdo**.
 
-* Cabeçalho do projeto: Resumo do projeto
-* Área Atualizações: Resumir conteúdo
-
-Para usar o botão Sumário do Projeto ou Sumariar Conteúdo:
-
-1. Clique no botão.
-
-   O Assistente de IA é aberto, com um prompt para resumir o projeto ou os últimos 7 dias de comentários no fluxo de atualização.
+   O Assistente de IA é aberto, com um prompt para resumir os últimos 7 dias de comentários no fluxo de atualização.
 
    O Assistente de IA pode levar alguns minutos para gerar o resumo, dependendo do tamanho ou da complexidade do objeto.
 

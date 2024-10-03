@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ada8aa9f72b57d6008473c6d9dcc17765d8656c4
+source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
 workflow-type: tm+mt
-source-wordcount: '14445'
+source-wordcount: '14455'
 ht-degree: 2%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 2%
       * [Marcar outros usuários em atualizações](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Exibir todas as atualizações em um relatório de Nota](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Visão geral do botão Trabalhar na tarefa e Concluído](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+      * [Resumir atualizações com o Assistente de IA](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
    * Trabalhar com formulários personalizados {#work-with-custom-forms}
       * [Trabalhar com formulários personalizados](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Adicionar um formulário personalizado a um objeto](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1246,6 +1247,7 @@ ht-degree: 2%
          * [Gerenciar um projeto na visualização Agile](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Visão geral das métricas do projeto](manage-work/projects/manage-projects/project-metrics.md)
          * [Visão geral dos limites do projeto](manage-work/projects/manage-projects/project-maximums.md)
+         * [Resumir atualizações com o Assistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * Criar e gerenciar modelos de projeto {#create-and-manage-project-templates}
          * [Criar e gerenciar modelos de projeto: índice do artigo](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Visão geral do modelo de projeto](manage-work/projects/create-and-manage-templates/project-template-overview.md)

@@ -5,9 +5,9 @@ description: Você pode usar o Assistente de IA para resolver erros em suas expr
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Gerar uma expressão de campo calculado
+## Pré-requisitos
+
+* O administrador do Workfront deve ter ativado o Assistente de IA para sua organização.
+
+  Para obter mais informações, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) no artigo Visão geral do Assistente de IA.
+* O administrador do Workfront deve ter ativado o Assistente de IA para o seu nível de acesso.
+
+  Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+<!--## Generate a calculated field expression-->
 
 ## Revisar uma expressão de campo calculado
 
