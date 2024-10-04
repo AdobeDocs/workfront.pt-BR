@@ -6,9 +6,9 @@ description: Você pode adicionar outros aprovadores ou revisores a um documento
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Role para baixo até a seção **Aprovações** no painel Resumo do documento, onde todos os aprovadores e revisores existentes estão listados. Para adicionar um aprovador, verifique se a caixa de seleção **Aprovador** está marcada e comece a digitar na caixa de texto **Revisores**. Você pode adicionar usuários ou equipes do Workfront por nome. Se você quiser adicionar um revisor, simplesmente desmarque a caixa de seleção **Aprovador** antes de digitar.
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
+
+## Adicionar revisões e aprovadores adicionais de uma versão anterior
+
+Se você precisar de aprovação para uma nova versão do documento, poderá adicionar facilmente
 
 <!--
 ## Add additional approvers or reviewers from Home

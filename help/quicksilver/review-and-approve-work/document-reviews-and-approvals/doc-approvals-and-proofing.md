@@ -5,13 +5,13 @@ title: Usar novas aprovações e revisões de documentos juntas
 description: Você pode usar novas aprovações de documentos com revisões.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # Usar novas aprovações e revisões de documentos juntas
 
@@ -85,9 +85,9 @@ Para adicionar uma nova versão:
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
-1. Para adicionar um aprovador, clique no botão Aprovador e comece a digitar o nome de um usuário ou de uma equipe.
+1. Para adicionar um aprovador, clique no botão Aprovador e comece a digitar um nome de usuário ou de equipe,<span class="preview">, ou escolha um aprovador da versão anterior.</span>
 
-1. Para adicionar um revisor, clique no botão Revisor e comece a digitar um nome de usuário ou de equipe.
+1. Para adicionar um revisor, clique no botão Revisor e comece a digitar um nome de usuário ou de equipe, <span class="preview">ou escolha um revisor da versão anterior. </span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Para revisar e aprovar um documento:
    * **Precisa do trabalho**: o documento precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o documento deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. Para obter mais informações sobre como carregar uma nova versão, consulte [Criar uma nova versão conforme necessário](#create-a-new-version-as-needed) neste artigo.
 
 Depois de tomar uma decisão, o proprietário do documento é notificado por email.
-

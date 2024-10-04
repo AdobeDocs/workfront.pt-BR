@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 298411941cafb96ab2c3b7e611dc1fb9db8ec31f
+source-git-commit: 8a69b640d90471b042ed1ecfaa1c0eb6d7eb24a4
 workflow-type: tm+mt
-source-wordcount: '14460'
+source-wordcount: '14469'
 ht-degree: 2%
 
 ---
@@ -1834,6 +1834,7 @@ ht-degree: 2%
          * [Remover aprovadores ou revisores de um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Criar um modelo de aprovação para ativos e documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Usar novas aprovações e revisões de documentos juntas](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+         * [Fazer upload de uma nova versão do documento e solicitar uma aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * Revisar e aprovar ativos e documentos {#review-and-approve-documents}
          * [Revisar e aprovar documentos: índice do artigo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Revisar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
