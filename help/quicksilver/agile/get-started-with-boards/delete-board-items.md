@@ -6,9 +6,9 @@ description: Ao excluir um cartão de um quadro, ele é permanentemente excluíd
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Se você excluir um cartão conectado de um quadro dinâmico, ele reaparecerá q
 Quando você exclui um cartão conectado de qualquer outro tipo de placa que tenha uma coluna de entrada, o cartão reaparecerá na coluna de entrada quando você atualizar o quadro se a tarefa ou problema conectado ainda não estiver marcado como concluído. Para obter mais informações sobre colunas de entrada, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 O arquivamento de um cartão o envia para o arquivo e você pode restaurá-lo para o quadro posteriormente.
+
+Cartões arquivados não são sincronizados com tarefas e problemas do Workfront. Se você restaurar um cartão, ele será sincronizado novamente.
 
 ## Requisitos de acesso
 
@@ -71,7 +73,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Para restaurar um cartão arquivado, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Restaurar]**.
 
-## Filtrar um quadro para mostrar cartões arquivados {#filter-a-board-to-show-archived-cards}
+## Filtrar um quadro para mostrar cartões arquivados
 
 Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode filtrar o quadro para exibir também todos os cartões arquivados.
 

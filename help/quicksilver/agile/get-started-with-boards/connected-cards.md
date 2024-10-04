@@ -6,9 +6,9 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Quando qualquer um dos detalhes a seguir é atualizado para o cartão em um loca
 * [!UICONTROL Subtarefas]
 * [!UICONTROL Documentos]
 
-Para sincronizar cartões conectados com o Workfront, clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e selecione **[!UICONTROL Sincronizar itens conectados]**.
+Para sincronizar cartões conectados com o Workfront, clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e selecione **[!UICONTROL Sincronizar itens conectados]**. Cartões arquivados não são sincronizados com tarefas e problemas do Workfront. Se você restaurar um cartão, ele será sincronizado novamente.
 
 >[!NOTE]
 >
