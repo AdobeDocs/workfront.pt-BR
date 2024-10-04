@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Exibir o histórico de execução de um cenário no Adobe Workfront Fusion
+title: Exibir o histórico de um cenário no Adobe Workfront Fusion
 description: Você pode exibir informações sobre todas as execuções de um cenário ou pesquisar todas as execuções do cenário por dados específicos.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
-# Exibir um histórico de execução de cenário em [!DNL Adobe Workfront Fusion]
+# Exibir o histórico de um cenário em [!DNL Adobe Workfront Fusion]
 
-Você pode exibir informações sobre todas as execuções de um cenário ou pesquisar todas as execuções do cenário por dados específicos.
+Você pode exibir informações sobre os eventos ou execuções de um cenário ou pesquisar todas as execuções do cenário por dados específicos.
 
-O histórico de execução de um cenário exibe todas as execuções de um cenário nos últimos 30 dias.
+A execução de um cenário representa uma única execução do cenário.
+
+Um evento de cenário é uma modificação no cenário, como edição, ativação ou desativação.
+
+>[!NOTE]
+>
+>O histórico de um cenário exibe todos os eventos e execuções de um cenário nos últimos 30 dias.
 
 ## Requisitos de acesso
 
@@ -59,9 +65,9 @@ Para saber que plano, tipo de licença ou acesso você tem, contate o administra
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Exibir todas as execuções de um cenário
+## Exibir histórico de cenários
 
-### Exibir o histórico de execução de cenários na página [!UICONTROL Detalhes do Cenário]
+### Exibir o histórico de cenários na página [!UICONTROL Detalhes do Cenário]
 
 1. Clique na guia **[!UICONTROL Cenário]** no painel esquerdo e clique no cenário.
 
@@ -69,9 +75,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
    Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próxima ao canto superior esquerdo da janela.
 
-1. Veja as informações na lista à direita.
-
-   Você também pode clicar em para visualizar uma página inteira dessas informações. A exibição de página inteira permite filtrar o histórico para exibir execuções específicas.
+1. Exiba o histórico de execução na guia **Histórico** do painel à direita.
 
    Os detalhes a seguir são listados para cada execução do cenário:
 
@@ -80,13 +84,16 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    * Executar **[!UICONTROL Duração]**
    * Número de **[!UICONTROL Operações]**
    * Tamanho de **[!UICONTROL Transferência de Dados]**
-   * Link para **[!UICONTROL Detalhes]**
 
->[!NOTE]
->
->O histórico de cenários exibe um selo **Processando** ao lado dos cenários que foram executados recentemente, enquanto os detalhes da execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
+   >[!NOTE]
+   >
+   >O histórico de cenários exibe um selo **Processando** ao lado dos cenários que foram executados recentemente, enquanto os detalhes da execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
 
-### Exibir o histórico de execução de cenário na guia [!UICONTROL Histórico]
+1. Para exibir detalhes da execução de um cenário específico, clique nessa execução no painel direito.
+1. Para exibir eventos, clique na guia **Eventos** do painel à direita.
+
+
+### Exibir histórico de cenários na guia [!UICONTROL Histórico]
 
 A guia [!UICONTROL Histórico] mostra mais detalhes do que o disponível na página [!UICONTROL Detalhes do cenário]. Você também pode filtrar e classificar as execuções na guia [!UICONTROL Histórico].
 
@@ -97,7 +104,7 @@ A guia [!UICONTROL Histórico] mostra mais detalhes do que o disponível na pág
    Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próxima ao canto superior esquerdo da janela.
 
 1. Clique na guia **[!UICONTROL Histórico]** próxima ao canto superior esquerdo da página
-1. (Opcional) Para obter informações detalhadas sobre a execução de um cenário selecionado, incluindo quais pacotes foram processados, clique no link **[!UICONTROL Detalhes]**.
+1. (Opcional) Para obter informações detalhadas sobre a execução de um cenário selecionado, incluindo quais pacotes foram processados, clique no botão **[!UICONTROL Detalhes]** na linha para essa execução.
 
    Para obter mais informações sobre o processamento de pacotes, consulte [Fluxo de execução de cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -106,6 +113,8 @@ A guia [!UICONTROL Histórico] mostra mais detalhes do que o disponível na pág
    >* O link [!UICONTROL details] estará visível somente se a execução tiver detalhes disponíveis.
    >
    >* O histórico de cenários exibe um selo **Histórico de processamento** ao lado dos cenários que foram executados recentemente, enquanto os detalhes de execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
+
+1. Para exibir eventos, habilite a opção **Mostrar eventos**.
 
 ## Filtrar o histórico de execução do cenário
 
@@ -128,13 +137,7 @@ Você pode classificar o histórico de execução do cenário.
 
 ## Pesquisar todas as execuções de um cenário
 
-1. Clique no ícone **[!UICONTROL Cenário]** ![](assets/scenarios-icon.png) no painel esquerdo e clique no cenário.
-
-   Ou
-
-   Se estiver trabalhando no cenário no Editor de cenários, clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próxima ao canto superior esquerdo da janela.
-
-1. Clique na guia **[!UICONTROL Histórico]** próxima ao canto superior esquerdo da tela.
+1. Abra o histórico de página inteira de um cenário conforme descrito em [Exibir o histórico de execução de cenários na guia [!UICONTROL Histórico]](#view-scenario-execution-history-on-the-history-tab) deste artigo.
 1. Clique em **[!UICONTROL Pesquisa de texto completo]** na parte superior da lista de execuções.
 
    Ou
