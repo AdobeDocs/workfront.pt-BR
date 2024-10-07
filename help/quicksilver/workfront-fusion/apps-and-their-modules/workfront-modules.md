@@ -9,9 +9,9 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '6280'
+source-wordcount: '6518'
 ht-degree: 2%
 
 ---
@@ -744,7 +744,7 @@ Veja uma lista dos [!DNL Workfront] tipos de objetos para os quais você pode us
 
 +++ **[!UICONTROL Carregar documento]**
 
-Este módulo de ação carrega um documento para um objeto [!DNL Workfront], como um projeto, tarefa ou problema.
+Este módulo de ação carrega um documento para um objeto [!DNL Workfront], como um projeto, tarefa ou problema. Esse módulo carrega o documento em partes, o que torna o processo de upload mais suave para o Workfront.
 
 Especifique o local do documento, o arquivo que deseja fazer upload e um novo nome opcional para o arquivo.
 
@@ -767,6 +767,51 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   <tr> 
    <td>[!UICONTROL Tipo de Registro Relacionado]</td> 
    <td>Selecione o tipo de registro [!DNL Workfront] no qual você deseja que o módulo carregue o documento.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID da Pasta]</td> 
+   <td>Dependendo do tipo de registro relacionado, talvez seja necessário inserir ou mapear uma ID de pasta.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL arquivo Source]</td> 
+   <td> <p>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Veja uma lista dos [!DNL Workfront] tipos de objetos para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objetos disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+
++++
+
++++ **[!UICONTROL Carregar Documento (Herdado)]**
+
+Este módulo de ação carrega um documento para um objeto [!DNL Workfront], como um projeto, tarefa ou problema. Ele carrega o documento inteiro de uma só vez.
+
+Especifique o local do documento, o arquivo que deseja fazer upload e um novo nome opcional para o arquivo.
+
+O módulo retorna a ID do documento e quaisquer campos associados, juntamente com quaisquer campos e valores personalizados que a conexão acessa. Você pode mapear essas informações em módulos subsequentes no cenário.
+
+Ao configurar esse módulo, os campos a seguir são exibidos.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu aplicativo [!DNL Workfront] ao [!DNL Workfront Fusion], consulte <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Workfront] ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL ID de Registro Relacionado]</td> 
+   <td>Insira a ID [!DNL Workfront] exclusiva do registro para o qual você deseja carregar o documento.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Tipo de Registro Relacionado]</td> 
+   <td>Selecione o tipo de registro [!DNL Workfront] no qual você deseja que o módulo carregue o documento.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID da Pasta]</td> 
+   <td>Dependendo do tipo de registro relacionado, talvez seja necessário inserir ou mapear uma ID de pasta.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL arquivo Source]</td> 
