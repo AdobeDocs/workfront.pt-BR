@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->A nova integração do [!DNL SharePoint] foi lançada para produção com a versão 22.3 (julho de 2022). Embora seus usuários ainda possam acessar documentos vinculados por meio da integração herdada do [!DNL SharePoint], eles devem usar a nova integração do [!DNL SharePoint] para vincular documentos do SharePoint.
+>A nova integração do [!DNL SharePoint] foi lançada para produção com a versão 22.3 (julho de 2022).
+>
+>* Embora os usuários ainda possam acessar documentos vinculados por meio da integração herdada do [!DNL SharePoint], eles não podem vincular documentos por meio dela. eles devem usar a nova integração [!DNL SharePoint] para vincular documentos do SharePoint.
+>
+>* Se você não tiver uma integração herdada do SharePoint configurada, não poderá adicioná-la. Você deve usar a nova integração do SharePoint para vincular documentos ao SharePoint.
 >
 >* A nova integração do SharePoint pode não exigir configuração por um administrador e pode ser configurada por usuários individuais. No entanto, para garantir uma transição suave para a nova integração do SharePoint, um administrador do Workfront deve fazer algumas pequenas alterações de configurações na área Configuração do Workfront.
 >

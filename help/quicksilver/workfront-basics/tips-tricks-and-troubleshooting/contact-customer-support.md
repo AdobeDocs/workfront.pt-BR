@@ -6,9 +6,9 @@ description: Como cliente do Adobe Workfront, você pode entrar em contato com a
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -52,19 +52,14 @@ Você pode enviar um tíquete de suporte do portal de autoatendimento [!DNL Expe
 
    Na página inicial do [!UICONTROL Suporte], você pode navegar até os casos de suporte abertos, registrar um novo caso, exibir os [!UICONTROL artigos de Suporte] principais ou acessar fontes de aprendizado adicionais.
 
-1. Para enviar um caso, selecione a opção **[!UICONTROL Abrir um caso de suporte]** e clique em **[!UICONTROL Assinar] em**.
+<!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. Clique em **[!UICONTROL Abrir caso]** na barra lateral esquerda.
-
-<!--
-   ![](assets/left-nav-bar-for-exl-support-portal.png)
--->
-
+1. Clique em **[!UICONTROL Abrir tíquete]** na barra lateral esquerda.
 Será aberta a página [!UICONTROL criação de ocorrência], na qual você poderá inserir o nome do produto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), o título da ocorrência e a descrição da ocorrência.
 
->[!TIP]
->
->Seja o mais descritivo possível ao descrever o problema que você está enfrentando para nos ajudar a acelerar o processo de solução de problemas.
+   >[!TIP]
+   >
+   >Seja o mais descritivo possível ao descrever o problema que você está enfrentando para nos ajudar a acelerar o processo de solução de problemas.
 
 
 1. Preencha as informações dos seguintes campos para obter detalhes mais específicos:
@@ -87,7 +82,7 @@ Em caso de dúvidas ou problemas ao enviar uma solicitação, entre em contato c
 
 ## Exibir e gerenciar os casos de suporte
 
-1. Navegue até a página **[!UICONTROL Meus casos]**. Esta página é aberta quando você envia um caso ou você pode abri-la clicando em **[!UICONTROL Meus casos]** na navegação à esquerda.
+1. Navegue até a página **[!UICONTROL Meus Casos]**. Esta página é aberta quando você envia um caso ou você pode abri-la clicando em **[!UICONTROL Meus Casos]** na navegação à esquerda.
 
 1. (Opcional) Use as opções na parte superior da página para filtrar por **Produto ([!DNL Experience Cloud] solução)** ou caso **[!UICONTROL Status]** ([!UICONTROL Abrir] ou Closed). Você também pode usar a caixa [!UICONTROL pesquisar] para procurar quaisquer palavras-chave relacionadas aos seus casos de suporte.
 
@@ -97,9 +92,9 @@ Em caso de dúvidas ou problemas ao enviar uma solicitação, entre em contato c
 
 1. (Opcional) Na exibição de caso, revise os comentários mais recentes com o proprietário do caso atribuído e adicione anexos ou respostas adicionais.
 
-1. (Opcional) Para encaminhar a ocorrência, clique em **[!UICONTROL Encaminhar para a gerência]** no lado direito da página em **[!UICONTROL Detalhes da ocorrência].
+1. (Opcional) Para encaminhar a ocorrência, clique em **[!UICONTROL Encaminhar para a gerência]** no lado direito da página em **[!UICONTROL Detalhes da ocorrência]**.
 
-1. Clique no botão **[!UICONTROL Fechar caso]** para fechar o caso.
+1. (Opcional) Para fechar o caso, clique no botão **[!UICONTROL Fechar caso]**.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
