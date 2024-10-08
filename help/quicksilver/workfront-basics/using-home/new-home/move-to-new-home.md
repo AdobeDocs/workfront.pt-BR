@@ -5,9 +5,9 @@ title: Mudar da página inicial herdada para a nova página inicial
 description: A página inicial herdada será removida do Workfront em 17/10 com a versão do quarto trimestre. Este artigo fornece informações sobre qual funcionalidade estará disponível na nova página inicial, bem como recomendações para mover os usuários para a nova experiência na página inicial.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
+source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1641'
 ht-degree: 5%
 
 ---
@@ -271,6 +271,7 @@ Fazer isso o mais rápido possível dará aos usuários tempo para se ajustarem 
 
 **Treinamento**
 
+* [Tutorial sobre remoção, adição e reorganização de widgets na Página Inicial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Fundamentos do Worker no Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
