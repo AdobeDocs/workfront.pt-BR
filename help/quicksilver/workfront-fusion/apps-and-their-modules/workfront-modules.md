@@ -9,9 +9,9 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
+source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
 workflow-type: tm+mt
-source-wordcount: '6518'
+source-wordcount: '6558'
 ht-degree: 2%
 
 ---
@@ -324,6 +324,10 @@ Esse módulo de ação faz uma das seguintes conversões:
 * Converter problema em tarefa
 * Converter Tarefa em Projeto
 
+>[!NOTE]
+>
+>A partir de julho de 2024, formulários personalizados poderão ser incluídos ao converter um objeto.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -603,6 +607,10 @@ Veja uma lista dos [!DNL Workfront] tipos de objetos para os quais você pode us
 +++ **[!UICONTROL Ações diversas]**
 
 Esse módulo de ação permite executar ações na API.
+
+>[!NOTE]
+>
+>A partir de julho de 2024, a ação `convertToProject` inclui o campo `copyCategories`. Quando definido como `TRUE`, todos os formulários personalizados serão incluídos no projeto para o qual o problema é convertido.
 
 Ao configurar esse módulo, os campos a seguir são exibidos.
 
