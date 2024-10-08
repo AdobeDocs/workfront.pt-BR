@@ -7,10 +7,10 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
@@ -75,8 +75,12 @@ Os seguintes objetos têm uma seção Atualizações, na qual você pode adicion
 * Planilhas de horas
 * Equipes
 * Metas
-* Cartões na área Quadros
 * Iterações
+
+Os seguintes objetos têm áreas em que você pode adicionar comentários e revisar atualizações do sistema:
+
+* Cartões nos quadros
+* Registros no Workfront Planning
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -120,20 +124,24 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Visão geral da seção Atualizações
+### Atualiza a visão geral das guias de seção
 
 ![Atualiza a seção](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 * A seção Updates exibe informações nas seguintes guias:
 
    * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Use a guia Comentários para adicionar novos comentários ou responder aos existentes. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Atividade do Sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pela Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pela Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * **Todos (somente leitura)**: exibe os comentários do usuário e os comentários da atividade do sistema em um único local. Esta é uma guia somente para visualização. Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário específico, use o link da guia All para a guia Comments. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
      >As guias Comentários e Atividade do sistema são atualizadas em tempo real. Atualize a guia Todos para exibir as atualizações mais recentes.
 
+
+### Semelhanças e diferenças entre as áreas de Atualizações de diferentes objetos
+
+Há diferenças entre a forma como comentários e atualizações são exibidos para objetos diferentes.
 
 * Os seguintes objetos têm experiências semelhantes nas três guias na seção Atualizações:
 
@@ -145,17 +153,30 @@ Depending on what objects you access the commenting experience for, you might fi
    * Usuários
    * Planilhas de horas
 
-* Os seguintes objetos não têm uma guia Atividade do sistema ou uma guia Todos, e a experiência na guia Comentários corresponde à de todos os outros objetos:
+* Os seguintes objetos não têm uma guia de atividade Sistema ou uma guia Todos, e a experiência na guia Comentários corresponde à de todos os outros objetos:
 
    * Equipe
    * Modelo
    * Modelo de Tarefa
 
-* Os seguintes objetos não têm uma guia Atividade do sistema ou uma guia Todos, e a experiência na guia Comentários é diferente da de todos os outros objetos:
+* Os seguintes objetos não têm uma guia de atividade Sistema ou uma guia Todos, e a experiência na guia Comentários é diferente da de todos os outros objetos:
+
    * Iterações
-   * Cartão ad-hoc
+   * Cartões ad-hoc na área Quadros
 
      Para obter mais informações sobre atualizações em cartões, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
+* Os seguintes objetos têm uma guia de atividade Sistema e não têm uma guia Todos:
+
+   * Placas conectadas na área Quadros
+
+     Para obter informações, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+* Os seguintes objetos têm uma guia History que substitui a guia System activity:
+
+   * Registros no Workfront Planning
+
+     Para obter informações, consulte [Visão geral da seção de histórico](/help/quicksilver/planning/records/history-section-overview.md).
 
 * Os seguintes objetos não têm uma guia Todos e a experiência na guia Comentários corresponde à maioria dos objetos:
 

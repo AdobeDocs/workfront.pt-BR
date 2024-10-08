@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,11 @@ No Adobe Workfront Planning, um registro é uma instância de um tipo de registr
 
 Você pode criar registros seguindo um destes procedimentos:
 
-* Adicionar registros da página de tipo de registro na exibição de tabela
-* Copiar e colar uma lista de registros de uma lista externa
-* Duplicar registros de uma exibição de tabela
-* Criar registros ao conectá-los a partir de outros registros
-* Crie-os enviando um formulário de solicitação para um tipo de registro
-
-Este artigo descreve como criar registros.
+* [Adicionar registros da página de tipo de registro na exibição de tabela](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Copiar e colar uma lista de registros de uma lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Duplicar registros de uma exibição de tabela](#create-records-by-duplicating-them)
+* [Criar registros ao conectá-los a partir de outros registros](#create-records-as-you-connect-them)
+* [Crie-os enviando um formulário de solicitação para um tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
 
@@ -106,62 +104,6 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 </table>
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -305,6 +247,15 @@ Para criar registros ao conectá-los a partir de outros registros:
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    O registro é criado e adicionado ao campo de registro conectado.
+
+   >[!IMPORTANT]
+   >
+   >* Você pode criar somente projetos e portfólios no Workfront ao conectá-los a partir de um registro.
+   >
+   >* Não é possível criar programas, grupos ou empresas ao conectá-los a partir de um registro no Workfront Planning.
+   >
+   >* Não é possível criar um projeto a partir de um modelo ao criar projetos ao conectá-los a partir de um registro. Você deve adicionar manualmente tarefas e informações do projeto ou um modelo ao novo projeto depois de adicioná-lo ao registro.
+
 1. (Opcional) Vá para a exibição de tabela do tipo de registro cujo registro você criou. Um novo registro é exibido na última linha da exibição.
 1. (Opcional) Comece a adicionar informações para o novo registro na exibição de tabela
 Ou

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -96,60 +96,6 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 +++
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront Planning. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
--->
-
 ## Considerações sobre comentários em um registro
 
 * É possível adicionar comentários e respostas a registros no Workfront Planning, na seção Comentários de um registro.
@@ -166,16 +112,11 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 
 * É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados não recebem uma notificação no aplicativo nem um email sobre a atualização. <!--this might change??-->
 
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
+* É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados receberão uma notificação no aplicativo ou por email sobre a atualização.
 
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
+  >[!NOTE]
+  >
+  >   Somente os usuários de clientes que integraram com a Experiência unificada do Adobe recebem uma notificação no aplicativo e uma notificação por email. Para determinar se sua empresa está usando a Experiência unificada do Adobe, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Você pode adicionar uma atualização aos registros e revisar o histórico de alterações das seguintes áreas do Workfront Planning:
 
@@ -211,54 +152,58 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 1. (Opcional) Para desfazer ou refazer uma alteração, use as seguintes teclas de atalho:
    * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
    * CTRL + Y (⌘+y para Mac) para refazer uma alteração
-1. (Opcional) Adicione **@** seguido do nome de um usuário para marcar alguém na atualização.
+1. (Opcional e condicional) Se a sua instância do Workfront fizer parte da Experiência unificada do Adobe, adicione **@** seguido do nome de um usuário para marcar alguém na atualização. Para obter mais informações, consulte a seção [Considerações sobre comentários em um registro](#considerations-about-commenting-on-a-record) neste artigo.
 
-   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis, links ou imagens à atualização e aprimorar o conteúdo.
 
-1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis, links ou imagens à atualização e aprimorar o conteúdo. Para obter mais informações, consulte a seção &quot;Usar Rich Text em uma atualização do Workfront&quot; no artigo [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Continue adicionando comentários ao registro.
 
-   >[!TIP]
-   >
-   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, há uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo sobre os comentários mais recentes.
-   >
-   >O indicador é exibido somente depois que o comentário foi enviado no item, e não quando o comentário ainda está composto.
-   >
-   >![](assets/new-line-indicator-comments.png)
+   Para obter mais informações sobre a atualização de objetos, incluindo registros do Workfront Planning, consulte [Trabalho de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Clique em **Enviar** para adicionar a atualização ao registro.
-1. (Opcional) Para editar um comentário, clique no menu ![](assets/more-menu.png) de **Mais**, no canto superior direito do comentário, e clique em **Editar**.
+<!--
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there is a red line with a "New" indicator to inform you of the newer comments. 
+      >
+      >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >
+      >![](assets/new-line-indicator-comments.png)
+
+1. Click **Submit** to add the update to the record. 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
 
    >[!IMPORTANT]
    >
-   >Você pode editar seu comentário somente em 15 minutos a partir do envio.
+   >You can edit your comment only within 15 minutes from submitting it.  
 
-1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados. Um indicador &quot;editado&quot; é adicionado à esquerda do comentário.
+1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "edited" indicator is added to the left of the comment.
+   
+      >[!TIP]
+      >
+      >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-   >[!TIP]
-   >
-   >Os comentários do ano atual não exibem o ano no carimbo de data. Passar o mouse sobre um carimbo de data e hora exibe a data completa, incluindo o ano.
-
-1. (Opcional e condicional) Para pesquisar um comentário existente, comece digitando uma palavra-chave na caixa de pesquisa no canto superior direito da área **Comentários**.
+1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
 
    ![](assets/search-box-for-comments-area.png)
+     
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 
-1. (Opcional) Clique em **Responder** ou comece a digitar um comentário na área **Adicionar resposta...** para responder a um comentário existente e, em seguida, siga as etapas 4 a 8 acima. <!--(**************accurate??***********)-->
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
 
-1. (Condicional e opcional) Se outros usuários adicionaram comentários que são exibidos fora da área visível na seção Comentários enquanto você estava adicionando seus comentários, clique em **Exibir** dentro do **novo banner de comentários** na parte inferior da tela para exibir esses comentários.
+    ![](assets/new-comments-banner-on-record.png)
 
-   ![](assets/new-comments-banner-on-record.png)
+    Additional comments display at the bottom of the screen.
+  
+1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
+1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
+1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
 
-   Comentários adicionais são exibidos na parte inferior da tela.
+    * **Copy link**: This copies a link to the comment to your clipboard.
+    * **Copy body text**: This copies the text of the comment to your clipboard.
+    * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-1. (Opcional) Clique no ícone **Curtir** para gostar de uma atualização ou confirmar que você a leu. O ícone é atualizado com o número de curtidas.
-1. (Condicional e opcional) Se você incluiu outras pessoas no seu comentário, clique nos avatares dos usuários incluídos na atualização para exibir uma lista de usuários com os quais o comentário é compartilhado.
-1. (Opcional) Clique no ícone ![](assets/more-menu.png) de **Mais** no canto superior direito do comentário e clique em uma das seguintes opções para copiar informações de um comentário:
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
 
-   * **Copiar link**: copia um link para o comentário na área de transferência.
-   * **Copiar texto do corpo**: copia o texto do comentário para a área de transferência.
-   * **Resposta à cotação**: copia o conteúdo do seu comentário para uma nova resposta. As imagens não são incluídas na resposta copiada.
-
-   Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Clique no ícone **Mais** ![](assets/more-menu.png) no canto superior direito do comentário e em **Excluir** para excluir o comentário.
 1. (Opcional) Clique no ícone ![](assets/hide-comments-icon.png) de **Ocultar Comentários** para fechar o painel direito.
 

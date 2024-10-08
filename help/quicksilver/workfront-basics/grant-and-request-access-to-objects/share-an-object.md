@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,22 @@ Para obter informações sobre como compartilhar todos os outros objetos no Work
 * Para pastas de documentos, consulte [Compartilhar uma pasta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Para planos, consulte [Compartilhar um plano no Planejador de Cenários](../../scenario-planner/share-a-plan.md).
 
-  Isso requer uma licença adicional.
+  O Planejador de cenários do Workfront pode exigir uma licença adicional.
 
-* Para metas, consulte [Compartilhar uma meta no Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md). Isso requer uma licença adicional.
+* Para metas, consulte [Compartilhar uma meta no Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+
+  O Workfront Goals pode exigir uma licença adicional.
+
+* Para objetos do Workfront Planning, consulte os seguintes artigos:
+
+   * [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md)
+   * [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
+
+  O acesso ao Workfront Planning exige uma licença adicional.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para compartilhar objetos:
 
@@ -85,7 +96,9 @@ Você deve ter o seguinte para compartilhar objetos:
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Compartilhar um projeto, tarefa ou problema da página
 
@@ -176,7 +189,7 @@ Você deve ter o seguinte para compartilhar objetos:
 
    Clique no botão **Compartilhar** ao lado do nome do objeto.
 
-   ![](assets/new-share-button.png)
+   ![](assets/new-share-button-on-portfolio.png)
 
    Ou
 
@@ -186,20 +199,15 @@ Você deve ter o seguinte para compartilhar objetos:
 
    ![](assets/share-a-document-350x160.png)
 
-1. Na caixa **Conceder a &lt; Nome do Objeto > acesso a**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o objeto e, em seguida, clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder a &lt; Nome do Objeto > acesso a**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o objeto e, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
-   ![](assets/list-share-add-people.png){width="350"}
-
-   >[!TIP]
-   >
-   >Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
-
-
+   ![](assets/portfolio-access-box.png)
 
    >[!TIP]
    >
-   >Se você tiver várias entidades nomeadas de forma semelhante, todas serão listadas em seu tipo. Os nomes das entidades aparecem em ordem alfabética. No entanto, a ordem em que os tipos de entidade aparecem é aleatória.
+   >* Se você tiver várias entidades nomeadas de forma semelhante, todas serão listadas em seu tipo. Os nomes das entidades aparecem em ordem alfabética. No entanto, a ordem em que os tipos de entidade aparecem é aleatória.
    >
+   >* Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
 
 1. (Opcional) Repita a etapa 3 para cada usuário, equipe, função ou grupo ao qual deseja conceder acesso ao objeto.
 
@@ -216,14 +224,12 @@ Você deve ter o seguinte para compartilhar objetos:
      >
      >O administrador do Workfront ou o criador do objeto tem a capacidade de remover permissões dessas entidades.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
 
 1. (Opcional) Clique em **Configurações Avançadas** para configurar permissões específicas no objeto.
 
-   Exibir, Gerenciar e Contribute têm opções avançadas diferentes, dependendo do objeto selecionado.\
+   As permissões Exibir e Gerenciar têm opções avançadas diferentes, dependendo do objeto selecionado.\
    Para obter mais informações sobre os níveis de permissões, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Opcional) Para disponibilizar este objeto para todos os usuários no sistema, clique no ícone **Engrenagem** ![](assets/gear-icon-settings-with-dn-arrow.jpg) e, no menu suspenso, clique em **Tornar isto visível para todo o sistema**.
 
@@ -249,25 +255,26 @@ Você deve ter o seguinte para compartilhar objetos:
 
 ## Compartilhar objetos únicos ou em massa de uma lista
 
-1. Vá para a lista que contém o(s) objeto(s) que deseja compartilhar.
+1. Vá para a lista que contém os objetos que você deseja compartilhar.
 
    Para obter informações sobre quais objetos podem ser compartilhados, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. Clique na caixa de seleção ao lado do(s) objeto(s) que você deseja compartilhar e clique no **ícone Compartilhar** ![](assets/share-icon.png) na parte superior da página.
 
+   A caixa **&lt; Objeto > Acesso** é aberta.
+
    ![](assets/list-share-object-select.png){width="350"}
 
-1. Na janela **&lt; Objeto > Acesso**, comece digitando na caixa **Editar &lt; Nome do Objeto > acesso para** o nome do usuário, equipe, função, grupo ou empresa com quem deseja compartilhar o(s) objeto(s) e, em seguida, clique no nome quando ele aparecer na lista suspensa.
+1. No acesso **Editar &lt; Nome do Objeto > para**, comece digitando o nome do usuário, equipe, função, grupo ou empresa com quem deseja compartilhar os objetos e, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
    ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
-   >Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
-
-   >[!TIP]
+   >* Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
    >
-   >Se você tiver várias entidades nomeadas de forma semelhante, todas serão listadas em seu tipo. Os nomes das entidades aparecem em ordem alfabética. No entanto, a ordem em que os tipos de entidade aparecem é aleatória.
+   >
+   >* Se você tiver várias entidades nomeadas de forma semelhante, todas serão listadas em seu tipo. Os nomes das entidades aparecem em ordem alfabética. No entanto, a ordem em que os tipos de entidade aparecem é aleatória.
    >
 
 1. (Opcional) Repita a etapa 3 para cada usuário, equipe, função ou grupo ao qual deseja conceder acesso ao(s) objeto(s).
