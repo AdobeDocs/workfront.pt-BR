@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Editar ou reunir um pacote existente
 
-1. Vá para o ambiente em que deseja criar o pacote. Este é o ambiente do qual você está copiando objetos **de**.
+Um pacote deve estar com o status `DRAFT` para ser editado.
+
+1. Vá para o ambiente em que deseja editar o pacote. Este é o ambiente em que o pacote foi criado originalmente.
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 1. Selecione **Sistema** na navegação à esquerda e **Promoção do ambiente**.
 1. Selecione o pacote na lista exibida.
@@ -99,6 +101,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. (Opcional) Para exibir o conteúdo, incluindo todos os objetos e seus subobjetos, clique na seta suspensa ao lado do tipo de objeto na seção **Conteúdo**.
 1. (Opcional) Para exibir instalações anteriores e tentativas de instalação deste pacote, clique em **Implantações**.
 1. (Opcional) Para editar o pacote, clique em **Editar Pacote** no canto superior direito da tela.
+Um pacote deve estar com o status `DRAFT` para ser editado. Para mover o pacote para o status `DRAFT`, no campo **Status**, selecione `Draft`. Você pode continuar editando o pacote.
 1. Para instalar o pacote, clique em **Instalar** no canto superior direito da tela.
 
    Para obter instruções sobre como instalar um pacote, consulte [Instalar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
