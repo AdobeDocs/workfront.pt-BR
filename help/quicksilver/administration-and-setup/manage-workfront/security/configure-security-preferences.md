@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
+source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '923'
 ht-degree: 5%
 
 ---
@@ -129,7 +129,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr>
      <tr> 
       <td role="rowheader">Ativar a lista de trabalho de prioridades </td> 
-      <td>Permite optar por habilitar ou desabilitar a experiência da lista de trabalho de prioridades para seus usuários. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> Para obter mais informações sobre prioridades, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introdução às prioridades</a>.</td> 
+      <td>Permite optar por habilitar ou desabilitar a experiência da lista de trabalho de prioridades para seus usuários. Os usuários ainda verão os ícones de Prioridades no Workfront, mas não terão acesso à funcionalidade. Para obter mais informações sobre prioridades, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introdução às prioridades</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambientes de Teste</td> 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
+source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
@@ -145,7 +145,6 @@ Para personalizar a Nova página inicial usando um modelo de layout:
 
    Se tiver terminado de personalizar, clique em **Salvar** no canto inferior esquerdo.
 
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Os administradores que personalizam seu próprio modelo de layout precisarão atualizar a página para ver as alterações.
+>Você deve atualizar a nova página inicial para ver as personalizações do Modelo de layout.
