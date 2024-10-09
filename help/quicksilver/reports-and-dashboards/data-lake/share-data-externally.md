@@ -2,15 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Estabelecer uma conexão com o data lake da Workfront
-description: O data lake da Workfront permite usar os dados Workfront de sua organização com ferramentas populares de business intelligence ou armazená-los em um data warehouse externo.
+title: Estabelecer uma conexão com o Workfront Data Connect
+description: O Workfront Data Connect permite usar os dados do Workfront de sua organização com ferramentas de business intelligence ou armazená-los em um data warehouse externo.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
@@ -103,16 +102,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Compartilhar dados com ferramentas de Business Intelligence
 
-Várias ferramentas comuns de business intelligence estão listadas abaixo; os links levarão você ao site de documentação do serviço para saber mais sobre como se conectar ao seu data lake.
+Várias ferramentas comuns de business intelligence estão listadas abaixo; visite os sites de documentação para saber mais sobre como se conectar ao seu data lake.
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* Domo
 * SAP HANA
 
 ## Armazenar dados em um data warehouse externo
 
-Vários data warehouses comuns estão listados abaixo; os links o levarão para o site de documentação de cada serviço, onde você poderá saber mais sobre como se conectar ao seu data lake.
+Vários data warehouses comuns estão listados abaixo; visite os sites de documentação deles para saber mais sobre como se conectar ao seu data lake.
 
-* [Databricks](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Databricks
+* AWS Redshift
