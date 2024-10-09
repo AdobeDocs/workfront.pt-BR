@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '3075'
+source-wordcount: '3065'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,6 @@ Adicionar comentários a outros objetos do Workfront é semelhante a atualizar p
 Para obter informações adicionais sobre comentários em cartões, metas e registros no Workfront Planning, consulte também os seguintes artigos:
 
 * [Gerenciar comentários de meta nas Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
-
-  Você deve ter uma licença adicional para acessar o Workfront Goals.
 
 * [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 

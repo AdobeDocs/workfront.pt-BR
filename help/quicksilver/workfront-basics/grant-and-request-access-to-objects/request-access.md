@@ -6,9 +6,9 @@ description: A visibilidade dos objetos no Adobe Workfront depende do seu acesso
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ A visibilidade dos objetos no Adobe Workfront depende do seu acesso a esse tipo 
 >
 >* O Planejador de cenários planeja no Planejador de cenários do Adobe Workfront. Para obter mais informações, consulte [Solicitar acesso a um plano no Planejador de cenários](../../scenario-planner/request-access-to-plan.md). Isso requer uma licença adicional.
 >
->* Exibições e espaços de trabalho no Workfront Planning. Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>* Exibições e espaços de trabalho no Workfront Planning. Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Isso requer uma licença adicional.
 
 
 O administrador do Workfront configura o acesso a um tipo de objeto no seu nível de acesso. Para obter mais informações, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

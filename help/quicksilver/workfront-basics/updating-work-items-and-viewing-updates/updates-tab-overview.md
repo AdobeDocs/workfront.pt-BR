@@ -7,7 +7,7 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 4%
@@ -128,16 +128,15 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ![Atualiza a seção](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* A seção Updates exibe informações nas seguintes guias:
+A seção Updates exibe informações nas seguintes guias:
 
-   * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Use a guia Comentários para adicionar novos comentários ou responder aos existentes. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pela Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Todos (somente leitura)**: exibe os comentários do usuário e os comentários da atividade do sistema em um único local. Esta é uma guia somente para visualização. Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário específico, use o link da guia All para a guia Comments. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
+* **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Use a guia Comentários para adicionar novos comentários ou responder aos existentes. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
+* **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pela Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **Todos (somente leitura)**: exibe os comentários do usuário e os comentários da atividade do sistema em um único local. Esta é uma guia somente para visualização. Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário específico, use o link da guia All para a guia Comments. Para obter informações sobre como atualizar objetos, consulte [Trabalho de atualização](../updating-work-items-and-viewing-updates/update-work.md).
 
-     >[!NOTE]
-     >
-     >As guias Comentários e Atividade do sistema são atualizadas em tempo real. Atualize a guia Todos para exibir as atualizações mais recentes.
-
+  >[!NOTE]
+  >
+  >As guias Comentários e Atividade do sistema são atualizadas em tempo real. Atualize a guia Todos para exibir as atualizações mais recentes.
 
 ### Semelhanças e diferenças entre as áreas de Atualizações de diferentes objetos
 
