@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -62,6 +62,7 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
    <li>Planejador de cenário do Workfront</li>
+   <li>Workfront Planning</li>
    </ul>
    <p>Para saber se sua organização adquiriu um desses produtos adicionais, entre em contato com o administrador do Workfront.</p></td> 
   </tr> 

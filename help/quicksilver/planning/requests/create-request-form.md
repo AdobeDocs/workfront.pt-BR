@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 4%
+source-wordcount: '1282'
+ht-degree: 3%
 
 ---
 
@@ -137,13 +137,15 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
      >
      >   Os campos dos seguintes tipos não são exibidos no formulário de solicitação:
      >
-     >    * Pessoas
-     >    * Campos conectados (inclui conexões com ativos Experience Manager)
+     >    * Pessoas (inclui Criado por e Modificado pela última vez por)
+     >    * Campos conectados (inclui conexões com ativos Workfront e Experience Manager)
      >    * Campos de pesquisa conectados
      >    * Fórmula
+     >    * Data de criação
+     >    * Data da última modificação
 
    * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.
-   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. Esse recurso ainda não está disponível.
+   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. Esse recurso ainda não está disponível. A configuração e o valor do campo Subject não são editáveis.
    * Todos os campos associados ao tipo de registro.
 
      Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
@@ -158,21 +160,23 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
    * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
    * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto.
 
-   O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário. Os nomes dos tipos de campo no formulário de solicitação diferem de seus nomes na exibição de tabela. A tabela a seguir descreve as diferenças entre os nomes dos tipos de campo na view de tabela e os nomes dos mesmos campos no formulário de solicitação do tipo de registro:
-
-   | Tipo de campo do Workfront Planning | Tipo de campo do formulário de solicitação |
-   |-------------------------------|-------------------------|
-   | Texto de linha única | Texto de linha única |
-   | Parágrafo | Texto com formatação |
-   | Moeda, Número, Porcentagem | Texto de linha única |
-   | Seleção única | Lista suspensa de seleção única |
-   | Seleção múltipla | Lista suspensa com seleção múltipla |
-   | Caixa de seleção | Grupo de caixas de seleção |
-
    >[!NOTE]
    >
-   >   Os formatos dos campos são preservados. Por exemplo, embora Moeda e Porcentagem sejam exibidas como campos de texto de Linha única, as informações nos campos são exibidas como moeda e como um valor percentual.
-
+   >   O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
+   >   
+   >
+   >   A tabela abaixo exibe os nomes dos tipos de campo na exibição de tabela e os nomes dos mesmos campos no formulário de solicitação do tipo de registro. Os formatos de cada campo correspondem entre a exibição de tabela e o formulário de solicitação.
+   >
+   >   | Tipo de campo do Workfront Planning | Tipo de campo do formulário de solicitação |
+   >   |-------------------------------|-------------------------|
+   >   | Texto de linha única | Texto de linha única |
+   >   | Parágrafo | Parágrafo |
+   >   | Moeda, Número, Porcentagem | Texto em linha única (os formatos desses campos permanecem como moeda, número e porcentagem) |
+   >   | Seleção única | Seleção única |
+   >   | Seleção múltipla | Seleção múltipla |
+   >   | Caixa de seleção | Caixa de seleção |
+   >   | Data | Data |
+   >
 
 1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
 
