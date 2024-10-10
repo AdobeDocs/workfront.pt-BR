@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Como a Adobe Workfront se comunica com a rede de sua organização, o firewall d
 Isso é feito por meio de uma inclui na lista de permissões, que é essencialmente uma &quot;lista&quot; de sites que têm &quot;permissão&quot; para enviar ou receber dados por meio do firewall. Os sites podem ser identificados de uma das duas formas a seguir:
 
 * **Endereço IP**: uma série de números, como 52.31.132.175
-* **Domínio**: parte de uma URL, como &quot;este domínio&quot; em www.thisdomain.com
+* **Domínio**: parte de uma URL, como `thisdomain` em `www.thisdomain.com`.
 
 O Workfront usa domínios e endereços IP específicos para comunicação na Web. Eles devem ser adicionados ao arquivo de inclui na lista de permissões da sua organização antes de você poder usar o Workfront na organização.
 

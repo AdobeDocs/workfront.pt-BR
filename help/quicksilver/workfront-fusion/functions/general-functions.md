@@ -8,9 +8,9 @@ description: As seguintes funções gerais estão disponíveis no painel Mapeame
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -161,3 +161,8 @@ Seleciona somente as chaves fornecidas do objeto.
 >`pick(` Usuário `;` senha `;` email `)`
 >
 >Retorna uma coleção somente da senha e do endereço de email do usuário.
+
+## mergeCollections(coleção1 ; coleção2)
+
+Mescla duas coleções combinando seus pares de valor chave. Se ambas as coleções contiverem a mesma chave, o valor da segunda coleção substituirá esse valor da primeira coleção.
+
