@@ -6,10 +6,10 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 5%
+source-wordcount: '1168'
+ht-degree: 3%
 
 ---
 
@@ -56,8 +56,8 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
 * **Solicitações da equipe**\
     Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
-* **Aguardando minha aprovação**\
-    Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no dispositivo.
+* **Minha aprovação**\
+    Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas; um botão para delegar aprovações; e botões para tomar decisões de aprovação diretamente no widget.
 
 * **Todas as aprovações**\
         Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas. <span style="color: #ff0000;">Este recurso faz parte de uma versão em fases e, no momento, está disponível apenas para clientes específicos.</span>
@@ -85,15 +85,15 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
     </tr>
     <tr>
         <td>Leve</td>
-        <td>Meu trabalho, esperando minha aprovação</td>
+        <td>Meu trabalho, Minha aprovação</td>
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Minhas solicitações, Menções, Aguardando minha aprovação, Quadros</td>
+        <td>Minhas solicitações, Menções, Minha aprovação, Quadros</td>
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Aguardando minha aprovação</td>
+        <td>Minha aprovação</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
     </tr>
     <tr>
         <td>Solicitar</td>
-        <td>Meus projetos, aguardando minha aprovação</td>
+        <td>Meus projetos, Minha aprovação</td>
     </tr>
     <tr>
         <td>Contribuir</td>
@@ -124,7 +124,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Aguardando minha aprovação</td>
+        <td>Minha aprovação</td>
     </tr>
 </table>
 

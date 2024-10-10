@@ -5,9 +5,9 @@ description: A página inicial herdada será removida do Workfront em 17/10 com 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -80,13 +80,13 @@ Os usuários podem sinalizar trabalhos de alta prioridade com as seguintes opç�
 
 #### Exibir aprovações que enviei
 
-Os usuários não podem visualizar as aprovações que enviaram em Prioridades. Como solução alternativa, os usuários podem criar um relatório de aprovação para exibir essas informações.
+Os usuários não podem visualizar as aprovações que enviaram em Prioridades. Como solução, os usuários podem visualizar essas informações no widget Minhas aprovações na Página inicial usando a opção de filtro Aprovações que enviei.
 
 ### Exibir aprovações e solicitações de equipe
 
 Os usuários não podem interagir com aprovações e solicitações de equipe em Prioridades. No entanto, é possível gerenciar solicitações de aprovação e de equipe na Nova página inicial usando os seguintes widgets:
 
-* Aguardando minha aprovação
+* Minha aprovação
 * Todas as aprovações
 * Solicitações de equipe
 

@@ -5,9 +5,9 @@ title: Mudar da página inicial herdada para a nova página inicial
 description: A página inicial herdada será removida do Workfront em 17/10 com a versão do quarto trimestre. Este artigo fornece informações sobre qual funcionalidade estará disponível na nova página inicial, bem como recomendações para mover os usuários para a nova experiência na página inicial.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 5%
 
 ---
@@ -51,12 +51,12 @@ Os usuários ainda podem delegar trabalho da Nova página inicial nos seguintes 
 * Meu trabalho
 * Minhas tarefas
 * Meus problemas
-* Aguardando minhas aprovações
+* Minhas aprovações
 
 Os usuários podem encontrar trabalho delegado a eles nos seguintes widgets:
 
 * Widget Meu trabalho usando o filtro Delegado a mim
-* Aguardando minhas aprovações usando o filtro Aprovações delegadas
+* Minhas aprovações usando o filtro Aprovações delegadas
 
 | **Residência Herdada** | **Nova Página Inicial** |
 |------------|-----------|
@@ -72,10 +72,7 @@ Os usuários não podem mais criar uma tarefa pessoal exatamente da mesma forma 
 
 #### Exibir aprovações que enviei
 
-Os usuários não podem visualizar as aprovações que enviaram na Nova página inicial. Se os usuários em sua organização precisarem dessa funcionalidade, você poderá criar um relatório de aprovações como uma solução alternativa ou voto favorável ou publicar um comentário aqui nas seguintes publicações da comunidade:
-
-* [Adicionar o widget &quot;Aprovações que enviei&quot; à nova página inicial](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [Adicionar &quot;Aprovações que enviei&quot; à nova página inicial](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+Os usuários podem visualizar as aprovações que enviaram na Nova página inicial no widget Minhas aprovações usando o filtro Aprovações que enviei.
 
 #### Adicionar itens à Minha Prioridade
 
@@ -131,7 +128,7 @@ Para localizar o menu de ações rápidas, passe o mouse sobre o item de trabalh
 
 Os usuários ainda podem gerenciar aprovações e solicitações de equipe na Nova página inicial usando os seguintes widgets:
 
-* Aguardando minha aprovação
+* Minha aprovação
 * Todas as aprovações
 * Solicitações de equipe
 
@@ -167,7 +164,7 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
 * **Solicitações da equipe**\
     Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
-* **Aguardando minha aprovação**\
+* **Minha aprovação**\
     Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no dispositivo.
 
 * **Todas as aprovações**\
@@ -202,15 +199,15 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
     </tr>
     <tr>
         <td>Leve</td>
-        <td>Meu trabalho, esperando minha aprovação</td>
+        <td>Meu trabalho, Minha aprovação</td>
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Minhas solicitações, Menções, Aguardando minha aprovação, Quadros</td>
+        <td>Minhas solicitações, Menções, Minha aprovação, Quadros</td>
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Aguardando minha aprovação</td>
+        <td>Minha aprovação</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
     </tr>
     <tr>
         <td>Solicitar</td>
-        <td>Meus projetos, aguardando minha aprovação</td>
+        <td>Meus projetos, Minha aprovação</td>
     </tr>
     <tr>
         <td>Contribuir</td>
@@ -241,7 +238,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Aguardando minha aprovação</td>
+        <td>Minha aprovação</td>
     </tr>
 </table>
 

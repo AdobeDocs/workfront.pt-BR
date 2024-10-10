@@ -5,9 +5,9 @@ title: Gerencie seu trabalho com o widget Meu trabalho
 description: O widget Meu trabalho exibe todas as tarefas, problemas e solicitações atribuídas a você em um único local. Aqui, você pode filtrar e organizar seu trabalho, registrar horas, fazer atualizações e marcar itens de trabalho como concluídos.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Para localizar o menu de ações rápidas, passe o mouse sobre o item de trabalh
 
 Aprovações e solicitações de equipe não são exibidas no widget Meu trabalho. Se você trabalha regularmente com aprovações e solicitações de equipe, recomendamos adicionar os seguintes widgets à Nova página inicial:
 
-* Aguardando minha aprovação
+* Minha aprovação
 * Todas as aprovações
 * Solicitações de equipe
 

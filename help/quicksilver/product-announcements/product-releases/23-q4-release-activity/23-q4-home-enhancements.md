@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Para obter mais informações sobre os widgets disponíveis em Nova Página Inic
 
 ## Página de aterrissagem padrão do novo colaborador: Nova página inicial
 
-Nova página inicial agora é a página inicial padrão para contas de Colaborador/Solicitante. Esta nova página inicial padrão inclui vários widgets selecionados especificamente para permitir que os Colaboradores gerenciem seu trabalho imediatamente. Após sua primeira visita à página, os Colaboradores também serão instruídos a usar a Nova página inicial e os widgets específicos disponíveis por padrão em uma apresentação personalizada. Esses widgets padrão para Colaboradores são: Minhas solicitações, Menções, Aguardando minha aprovação e Quadros. Observe que se um layout com uma página inicial personalizada estiver sendo usado atualmente por uma conta de colaborador, ele permanecerá como página inicial.
+Nova página inicial agora é a página inicial padrão para contas de Colaborador/Solicitante. Esta nova página inicial padrão inclui vários widgets selecionados especificamente para permitir que os Colaboradores gerenciem seu trabalho imediatamente. Após sua primeira visita à página, os Colaboradores também serão instruídos a usar a Nova página inicial e os widgets específicos disponíveis por padrão em uma apresentação personalizada. Esses widgets padrão para Colaboradores são: Minhas solicitações, Menções, Minha aprovação e Quadros. Observe que se um layout com uma página inicial personalizada estiver sendo usado atualmente por uma conta de colaborador, ele permanecerá como página inicial.
 
 Para obter mais informações sobre como usar a Nova Página inicial, consulte [Introdução à Nova Página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Alterações no rastreamento de trabalho na Nova Página Inicial
 
-Com base no feedback dos usuários, removemos o filtro de intervalo de tempo em toda a página e a barra de resumo que relacionava as tarefas com vencimento e concluídas. Os widgets de Projeto, Tarefa e Problema têm recursos de filtragem integrados, permitindo personalizar o escopo individualmente. Além disso, esses widgets agora incluirão apenas conteúdo que está ativo no momento com base no status, garantindo que o trabalho que eles rastreiam seja sempre relevante. Também limitamos quais widgets exibem bolhas de contagem de itens àqueles em que são mais úteis: Meu trabalho, Menções, Aguardando minha aprovação e Tarefas pendentes.
+Com base no feedback dos usuários, removemos o filtro de intervalo de tempo em toda a página e a barra de resumo que relacionava as tarefas com vencimento e concluídas. Os widgets de Projeto, Tarefa e Problema têm recursos de filtragem integrados, permitindo personalizar o escopo individualmente. Além disso, esses widgets agora incluirão apenas conteúdo que está ativo no momento com base no status, garantindo que o trabalho que eles rastreiam seja sempre relevante. Também limitamos quais widgets exibem bolhas de contagem de itens àqueles em que são mais úteis: Meu trabalho, Menções, Minha aprovação e Tarefas pendentes.
 
 Para obter mais informações sobre o trabalho de rastreamento na Nova Página Inicial, consulte [Introdução à Nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

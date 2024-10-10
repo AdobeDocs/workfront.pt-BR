@@ -5,9 +5,9 @@ description: As prioridades são uma experiência simplificada e intuitiva perso
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ Você pode incorporar links usados com frequência na página de detalhes do ite
 
 A capacidade de revisar e aprovar ativos está no roteiro de prioridades.
 
-Por enquanto, recomendamos usar os widgets Aguardando minha aprovação e Todas as aprovações na Nova página inicial.
+Por enquanto, recomendamos usar os widgets Minha aprovação e Todas as aprovações na Nova página inicial.
 
 Para obter mais informações, consulte [Adicionar, editar ou remover widgets na Nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
