@@ -4,9 +4,9 @@ description: Melhorias na página inicial do quarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Esta página descreve todas as melhorias na Página inicial feitas com a versão do Quarto trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2024, consulte [Visão geral da versão do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Atualizações para o widget Aguardando minha aprovação na nova Página inicial
+
+>[!NOTE]
+>
+>Versão de visualização: 10 de outubro de 2024; Versão de produção para todos os clientes: 10 de outubro de 2024.
+
+Fizemos as seguintes alterações no widget Aguardando minha aprovação:
+
+* **Widget renomeado**: o nome deste widget agora é Minhas aprovações.
+* **Adicionadas as aprovações que enviei como uma opção de filtro**: agora você pode visualizar as aprovações que enviou na nova Página inicial com este widget.
+
+Para obter mais informações, consulte [Introdução à nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Simplifique a experiência do Workfront para proprietários de tarefas com prioridades
 

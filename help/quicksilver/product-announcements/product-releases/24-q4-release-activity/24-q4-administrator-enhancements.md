@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Para obter mais informações sobre como reverter um pacote de promoção de amb
 
 >[!NOTE]
 >
->Versão de visualização: ~~12 de agosto de 2024~~; Produção para lançamento rápido: N/A; Produção para lançamento trimestral: N/A
+>~~Versão de visualização: 12 de agosto de 2024~~; Produção para lançamento rápido: N/A; Produção para lançamento trimestral: N/A
 >
 >_Este recurso foi removido da Visualização e não será lançado em versões futuras._
 
