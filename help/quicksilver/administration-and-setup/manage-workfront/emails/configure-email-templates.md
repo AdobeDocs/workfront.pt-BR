@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
 
+
 # Configurar modelos de email
+
+<!--Audited: 10/2024-->
+
 
 Como administrador do Adobe Workfront, você pode configurar modelos de email para aceitar notificações de lembrete.
 
@@ -40,9 +44,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td><p>Atual: Plano</p>
+   <td><p>Novo: Padrão</p>
    Ou
-   <p>Novo: Padrão</p></td> 
+   <p>Atual: Plano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuração do nível de acesso</td> 

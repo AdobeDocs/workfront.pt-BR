@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3611'
 ht-degree: 2%
 
 ---
@@ -277,8 +277,8 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
 1. Adicione as seguintes informações na guia **Novo campo**:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
-   * **Opções**: as opções disponíveis para seleção no menu suspenso depois que o campo é salvo. Você pode ter números e letras para o nome de cada escolha.
-1. Clique em **Adicionar opção** para adicionar quantas opções forem necessárias. Não há limite para quantas opções você pode adicionar a um campo de seleção múltipla.
+   * **Opções**: as opções que os usuários podem selecionar ao atualizar este campo. Você pode usar números e letras para o nome de cada escolha.
+1. Clique em **Adicionar opção** para adicionar mais opções. Não há limite para quantas opções você pode adicionar a um campo de seleção múltipla.
 1. (Opcional) Arraste e solte manualmente cada escolha na ordem desejada ou selecione a opção
    **Classifique a opção A-Z** se desejar que as opções sejam listadas automaticamente em ordem alfabética. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Opcional) Para remover uma opção, clique no ícone **x** à direita.
@@ -301,7 +301,7 @@ Os campos de seleção única capturam informações adicionais em qualquer form
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Opções**: as opções disponíveis para seleção no menu suspenso depois que o campo é salvo. Você pode ter números e letras para o nome de cada escolha.
 
-1. Clique em **Adicionar opção** para adicionar quantas opções forem necessárias. Não há limite para quantas opções você pode adicionar a um campo de seleção única.
+1. Clique em **Adicionar opção** para adicionar mais opções. Não há limite para quantas opções você pode adicionar a um campo de seleção única.
 1. (Opcional) Arraste e solte manualmente cada opção na ordem desejada ou selecione a opção **Classificar opções de A a Z** se desejar que as opções sejam listadas automaticamente em ordem alfabética. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Opcional) Para remover uma opção, clique no ícone **x** à direita.
 1. Clique na amostra de cores à esquerda de uma opção para expandir o seletor de cores e personalizar a cor de cada opção.
@@ -351,7 +351,7 @@ Os tipos de campo de número capturam informações em um formato de número.
 
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
-   * **Precisão**: o número de casas decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
+   * **Precisão**: o número de casas decimais que você deseja gravar para o campo. É possível exibir até 6 casas decimais.
    * **Permitir números negativos**: selecione esta opção se desejar permitir números negativos neste campo. Essa opção não está selecionada por padrão.
 
    >[!NOTE]
@@ -373,7 +373,7 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
 1. Adicione as seguintes informações na guia **Novo campo**:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
-   * **Precisão**: o número de casas decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
+   * **Precisão**: o número de casas decimais que você deseja gravar para o campo. É possível exibir até 6 casas decimais.
    * **Permitir números negativos**: selecione esta opção se desejar permitir valores percentuais negativos neste campo. Essa opção não está selecionada por padrão.
 
    >[!NOTE]
@@ -450,7 +450,10 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
    >
    >* Não é possível adicionar campos do tipo Seleção múltipla em uma fórmula.
    >
-   >* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um campo de fórmula para um tipo de registro Atividade e a Atividade estiver conectada ao tipo de registro Produto, que está conectado ao tipo de registro Campanha, que está conectado a um Projeto Workfront, você poderá fazer referência ao Orçamento do projeto na fórmula que está criando para o tipo de registro Atividade.
+   >* Você pode fazer referência a um campo que esteja a até 4 campos (e objetos) de distância do tipo de registro atual. Por exemplo, se você estiver criando um campo de fórmula para um tipo de registro Atividade (1) e a Atividade estiver conectada ao tipo de registro Campanha (2) que está conectado a um Projeto Workfront (3), poderá fazer referência ao campo Orçamento do projeto (4) na fórmula que está sendo criada para o tipo de registro Atividade.
+   >
+   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >
 
 1. No campo **Formato**, selecione uma das opções a seguir para identificar o formato do resultado exibido no campo de tipo de fórmula:
 
@@ -604,7 +607,7 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
 
 É possível criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro ou um tipo de registro e tipos de objeto de outros aplicativos.
 
-Para obter informações sobre como conectar tipos de registro do Workfront Planning, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
+Para obter informações sobre como conectar tipos de registro do Workfront Planning, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--## Create fields by importing record types using an Excel or CSV file
 

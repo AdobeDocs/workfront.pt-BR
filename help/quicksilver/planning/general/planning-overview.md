@@ -1,14 +1,14 @@
 ---
 title: Visão Geral do Adobe Workfront Planning
-description: O Adobe Workfront Planning é uma nova oferta da Adobe Workfront. Você pode criar espaços de trabalho totalmente personalizáveis para definir fluxos de trabalho que atendam às necessidades de cada unidade organizacional da empresa.
+description: O Adobe Workfront Planning é um recurso adicional do Adobe Workfront. Você pode criar espaços de trabalho totalmente personalizáveis para definir fluxos de trabalho que atendam às necessidades de cada unidade organizacional da empresa.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2116'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem ao Adobe Workfront Planning, uma nova oferta da Adobe Workfront.
+>As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
 >
 >Para acessar o Workfront Planning, é necessário ter o seguinte:
 >
@@ -44,9 +44,9 @@ Para obter a lista completa de artigos que contêm a documentação para o Workf
 
 ## Introdução ao Adobe Workfront Planning
 
-O Adobe Workfront Planning é uma nova oferta da Adobe Workfront. O objetivo do Workfront Planning é liberar uma visibilidade abrangente dos detalhes operacionais de uma organização e responder a perguntas comerciais críticas em cada estágio do ciclo de vida do gerenciamento de trabalho.
+O Adobe Workfront Planning é um recurso adicional do Adobe Workfront. O objetivo do Workfront Planning é liberar uma visibilidade abrangente dos detalhes operacionais de uma organização e responder a perguntas comerciais críticas em cada estágio do ciclo de vida do gerenciamento de trabalho.
 
-Equipes e liderança precisam de respostas claras para perguntas como:
+O Workfront Planning pode responder a perguntas como:
 
 * Quantas campanhas estamos executando na EMEA no quarto trimestre?
 * Temos sobreposições de público-alvo entre campanhas simultâneas?
@@ -69,7 +69,7 @@ Veja a seguir alguns dos principais recursos:
 
 Para obter informações sobre novos recursos e quando eles são lançados, consulte [Atividade de versão do Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md).
 
-A seguir estão os recursos que estão disponíveis atualmente no Workfront Planning:
+Os seguintes recursos estão disponíveis no Workfront Planning:
 
 * Criar espaços de trabalho
 * Criar tipos de registro
@@ -92,7 +92,7 @@ A seguir estão os recursos que estão disponíveis atualmente no Workfront Plan
 * Personalizar o layout da página de um registro
 * Compartilhar espaços de trabalho
 * Compartilhar exibições
-* Compartilhar exibições publicamente com recursos externos
+* Compartilhar exibições publicamente com qualquer recurso externo, até mesmo pessoas que não sejam usuários do Workfront
 * Exibições duplicadas
 * Enviar solicitações para criar registros
 * Exportar detalhes do registro para o Word <span class="preview">e PDF.</span>
@@ -161,11 +161,11 @@ A seguir estão os recursos que estão disponíveis atualmente no Workfront Plan
 
 ## Habilitar o Workfront Planning para os usuários em sua instância do Workfront
 
-Depois que sua organização adquiriu uma licença do Workfront Planning, o seguinte deve estar em vigor antes que você possa acessar o Workfront Planning:
+Depois que sua organização comprar uma licença para o Workfront Planning, como administrador do Workfront, você deverá se certificar de que as seguintes opções estejam em vigor antes que os usuários possam acessar o Workfront Planning:
 
-* O administrador do Workfront deve atribuir a você um modelo de layout que inclua Planning no Menu principal. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Atribuir usuários a um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* Atribua aos usuários que precisam de acesso ao Planning um modelo de layout que inclua o Planning no Menu Principal. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Atribuir usuários a um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* O administrador do Workfront deve atribuir a você uma licença do Workfront e permissões do Workfront Planning que permitam visualizar ou criar objetos no Workfront Planning. Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem o Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
+* Atribua aos usuários uma licença do Workfront e permissões do Workfront Planning que permitiriam a você 5554hview ou criar objetos no Workfront Planning. Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem o Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologia do Workfront Planning
 
@@ -183,7 +183,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   Para obter mais informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Tipo de Registro**: o tipo de objeto do Workfront Planning.
+* **Tipo de Registro**: o nome dos tipos de objeto no Workfront Planning.
 
   Diferentemente do Workfront, onde os tipos de objeto são predefinidos, no Workfront Planning você pode criar seus próprios tipos de objeto.
 
@@ -298,7 +298,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  As exibições contêm configurações personalizadas de um tipo de exibição específico, como a lista de campos (colunas), uma lista de registros (linhas), sua ordem (classificação), um filtro e agrupamento aplicados ou aplicáveis.
+  As exibições contêm configurações personalizadas de um tipo de exibição específico, como a lista de campos (colunas), uma lista de registros (linhas), sua ordem (classificação), um filtro aplicado ou aplicável e um agrupamento.
 
   A seguir estão os tipos de exibição que podem ser aplicados à página tipo de registro:
 
@@ -318,7 +318,7 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
 ## Localizar o Adobe Workfront Planning
 
-Certifique-se de que sua organização tenha recebido acesso ao Workfront Planning e que o administrador do sistema ou do grupo tenha adicionado a área do Planning ao Menu Principal. Para obter informações, consulte [Visão geral sobre acesso](/help/quicksilver/planning/access/access-overview.md).
+Para localizar o Adobe Planning, verifique se sua organização recebeu acesso ao Workfront Planning e se o administrador do sistema ou do grupo adicionou a área do Planning ao Menu Principal. Para obter informações, consulte [Visão geral sobre acesso](/help/quicksilver/planning/access/access-overview.md).
 
 Para localizar o Workfront Planning:
 

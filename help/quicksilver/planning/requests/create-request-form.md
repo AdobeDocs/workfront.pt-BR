@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 3%
+source-wordcount: '1236'
+ht-degree: 2%
 
 ---
 
@@ -165,18 +165,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
    >   O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
    >   
    >
-   >   A tabela abaixo exibe os nomes dos tipos de campo na exibição de tabela e os nomes dos mesmos campos no formulário de solicitação do tipo de registro. Os formatos de cada campo correspondem entre a exibição de tabela e o formulário de solicitação.
-   >
-   >   | Tipo de campo do Workfront Planning | Tipo de campo do formulário de solicitação |
-   >   |-------------------------------|-------------------------|
-   >   | Texto de linha única | Texto de linha única |
-   >   | Parágrafo | Parágrafo |
-   >   | Moeda, Número, Porcentagem | Texto em linha única (os formatos desses campos permanecem como moeda, número e porcentagem) |
-   >   | Seleção única | Seleção única |
-   >   | Seleção múltipla | Seleção múltipla |
-   >   | Caixa de seleção | Caixa de seleção |
-   >   | Data | Data |
-   >
+   >   Os campos Moeda, Número e Porcentagem são exibidos como um tipo de campo de texto de linha única. No entanto, o formato do campo é preservado e os valores dentro desses campos serão exibidos como valores de Moeda, Número e Porcentagem.
 
 1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
 

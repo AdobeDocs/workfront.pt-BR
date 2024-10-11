@@ -7,9 +7,9 @@ description: O Workfront Proof permite criar provas a partir de documentos ou si
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ O [!DNL Workfront Proof] permite que você crie provas a partir de documentos ou
 
 1. Para revisar um ou mais documentos, adicione os documentos a serem revisados de uma das seguintes maneiras (repita esse processo para adicionar vários documentos a serem revisados):
 
-   * Arraste um documento do sistema de arquivos para a área de arrastar e soltar na área **[!UICONTROL Adicionar arquivos]**.
+   * Arraste um documento do seu sistema de arquivos para a área de arrastar e soltar na área **[!UICONTROL Adicionar arquivos]**.
    * Clique na área de arrastar e soltar na área **[!UICONTROL Adicionar arquivos]** e procure e selecione o documento que deseja carregar do sistema de arquivos da sua estação de trabalho.
 
      ![prova_documento_upload.png](assets/proof-document-upload-350x64.png)
@@ -81,7 +81,7 @@ O [!DNL Workfront Proof] permite que você crie provas a partir de documentos ou
 
      Para obter mais informações sobre como compartilhar uma prova, consulte &quot;Adicionando usuários a uma prova&quot; em [Compartilhar uma prova no [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Automatizado:** selecione essa opção para gerenciar a revisão e a aprovação do conteúdo quando tiver processos de revisão complexos ou se enviar conteúdo para revisão aos mesmos grupos de pessoas regularmente. Com o fluxo de trabalho automatizado, a prova muda de estágio para estágio até a aprovação final. Os usuários relevantes são notificados sempre que precisam fazer uma aprovação.
+   * **Automatizado:** selecione essa opção para gerenciar a revisão e a aprovação do conteúdo quando tiver processos de revisão complexos ou se enviar conteúdo para revisão aos mesmos grupos de pessoas regularmente. Com um fluxo de trabalho automatizado, a prova é transferida de estágio para estágio até a aprovação final. Os usuários relevantes são notificados a qualquer momento de que precisam fazer uma aprovação.
 
      Para obter mais informações sobre como criar um Fluxo de Trabalho Automatizado, consulte [Configurar uma prova com um Fluxo de Trabalho Automatizado em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
@@ -122,11 +122,11 @@ O [!DNL Workfront Proof] permite que você crie provas a partir de documentos ou
       <td> <p><strong></strong> Quando essa opção é selecionada, os revisores podem baixar o arquivo original do qual a prova foi criada.</p> <p>Quando essa opção é desmarcada, o ícone Download não fica mais visível.<br>Esta opção está habilitada por padrão.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Compartilhar prova por meio de URL público ou código de inserção</td> 
+      <td role="rowheader">Compartilhar prova por meio de um URL público ou código integrado</td> 
       <td>Quando essa opção é selecionada, a prova pode ser compartilhada por meio de um URL público ou código integrado.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Inscrever-se para obter prova por meio de URL público ou código incorporado</td> 
+      <td role="rowheader">Inscrever-se para obter prova por meio de um URL público ou código de inserção</td> 
       <td> <p>Quando essa opção é selecionada, as pessoas que não foram adicionadas explicitamente à prova podem assinar a prova. A pessoa que se inscreve na prova recebe a função e o email definidos nas seguintes configurações:</p> 
        <ul> 
         <li><strong>Função do assinante</strong>: a função de prova padrão que é atribuída a todos os revisores que assinam a prova.</li> 
@@ -220,7 +220,7 @@ Para gerar uma prova para um URL:
 
 1. Clique em **[!UICONTROL Concluído]**.
 
-   Se você estiver adicionando uma nova versão a uma prova de URL existente, todas as opções configuradas na prova original ou na versão anterior serão mantidas nesta versão.Se você estiver adicionando uma nova versão a uma prova de URL existente, todas as opções configuradas na prova original ou na versão anterior serão mantidas nesta versão.
+   Se você estiver adicionando uma nova versão a uma prova de URL existente, todas as opções configuradas na prova original ou na versão anterior serão mantidas nesta versão. Se você estiver adicionando uma nova versão a uma prova de URL existente, todas as opções configuradas na prova original ou na versão anterior serão mantidas nesta versão.
 
 1. Clique em **[!UICONTROL Criar prova]**.
 
