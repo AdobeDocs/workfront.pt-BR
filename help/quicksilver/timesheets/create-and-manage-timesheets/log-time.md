@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ Para remover um item da folha de horas que foi adicionado manualmente:
 
 Você pode registrar horas específicas do projeto na Página inicial.
 
-Para obter informações gerais sobre o uso da área Início, consulte as seguintes seções:
+Para obter informações gerais sobre o uso da área Página Inicial, consulte [Usar a área Página Inicial](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* Para obter informações sobre como usar a área inicial herdada, consulte [Usar a área inicial](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Para obter informações sobre como usar a nova área da página inicial, consulte [Introdução à nova página inicial](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Registrar horas em um item de trabalho na nova área Página inicial
 

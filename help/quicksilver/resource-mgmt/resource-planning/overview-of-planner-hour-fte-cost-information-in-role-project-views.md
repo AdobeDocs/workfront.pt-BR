@@ -7,7 +7,7 @@ description: Visão geral de horas, FTE e informações de custo nas visualizaç
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ Esta opção é aplicada somente quando você personaliza o modo de exibição n
 
 >[!NOTE]
 >
->**Quando as Horas LÍQUIDAS, o FTE ou o Custo são exibidos em vermelho, não há tempo ou orçamento Disponível suficiente para cobrir o Orçamento** ou o tempo ou custo Planejado associado ao trabalho. Nesse caso, os recursos estão superalocados.
+>Quando as Horas LÍQUIDAS, FTE ou Custo são exibidos em vermelho, não há tempo ou orçamento Disponível suficiente para cobrir o tempo ou custo Orçado ou Planejado associado ao trabalho. Nesse caso, os recursos estão superalocados.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

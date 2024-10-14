@@ -7,9 +7,9 @@ description: O resumo de Comentários pode ser acessado no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ O resumo de Comentários pode ser acessado diretamente das seguintes áreas:
 
 ### O visualizador de prova {#the-proof-viewer}
 
-Você pode imprimir o resumo de Comentários da prova, incluindo as miniaturas ou a imagem em tela cheia da prova clicando no ícone **[!UICONTROL Imprimir]** no Visualizador de Provas. (1)
+Você pode imprimir o resumo de Comentários da prova, incluindo as miniaturas ou a imagem em tela cheia da prova clicando no ícone **[!UICONTROL Imprimir]** no Visualizador de Provas.
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### A página de detalhes da prova {#the-proof-details-page}
 
-Você pode imprimir o resumo do Comentário da prova clicando no ícone **[!UICONTROL Imprimir]** na página Detalhes da prova. (2)
+Você pode imprimir o resumo do Comentário da prova clicando no ícone **[!UICONTROL Imprimir]** na página Detalhes da prova.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ Você pode imprimir o resumo do Comentário da prova clicando no ícone **[!UICO
 
 Para acessar a página [!UICONTROL Resumo dos comentários] a partir de uma exibição de lista:
 
-1. Clique no menu **[!UICONTROL Ações]**. (3)
-1. Selecione **[!UICONTROL Imprimir comentários]**. (4)
+1. Clique no menu **[!UICONTROL Ações]**.
+1. Selecione **[!UICONTROL Imprimir comentários]**.
 
-![List_view.png](assets/list-view-350x155.png)\
-Na página de resumo de comentários, você tem as seguintes opções de impressão para escolher:
+   ![List_view.png](assets/list-view-350x155.png)
 
-* Visualização em miniatura (1)
-* Exibição de página inteira (2)
-* Imprima a página (3)
-* Exportar a prova com comentários para um arquivo PDF (4)
-* Exportar comentários de prova para um arquivo [!DNL Excel] (5)
+   Na página de resumo de comentários, você tem as seguintes opções de impressão para escolher:
+
+   * Visualização em miniatura (1)
+   * Exibição de página inteira (2)
+   * Imprima a página (3)
+   * Exportar a prova com comentários para um arquivo PDF (4)
+   * Exportar comentários de prova para um arquivo [!DNL Excel] (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ Para baixar o resumo de [!DNL Excel]:
 Para baixar o resumo [!DNL Excel] na página de detalhes da Prova:
 
 1. Clique no ícone Exportar para **[!DNL Excel]**. (2)
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exportar para o PDF
 
