@@ -6,9 +6,9 @@ description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Configurar fluxos de trabalho (opcional)
 
-Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Como administrador do Workfront, você pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto. Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
+Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Como administrador do Workfront, você pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto.
 
-Os fluxos de trabalho são ativados e configurados para a Adobe Experience Manager como um todo. Esses fluxos de trabalho podem ser aplicados a modelos de projeto e ajustados ou personalizados no nível do modelo ou do projeto.
+Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
+
+Os fluxos de trabalho são ativados e configurados para a Adobe Experience Manager como um todo. Esses fluxos de trabalho podem ser aplicados a modelos de projeto. Elas podem ser ajustadas ou personalizadas no nível do modelo ou no nível do projeto quando um projeto é criado a partir desse modelo.
 
 Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Experience Manager:
 
