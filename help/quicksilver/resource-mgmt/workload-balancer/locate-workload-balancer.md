@@ -7,9 +7,9 @@ description: Você pode usar o Balanceador de carga de trabalho para agendar rec
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -104,16 +104,16 @@ A página da sua equipe inicial é exibida.
 
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
-![](assets/nwe-balancer-team-350x172.png)
+   ![](assets/nwe-balancer-team-350x172.png)
 
-O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações, por padrão:
+   O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações, por padrão:
 
-* **Trabalho não atribuído**: itens atribuídos à equipe e não atribuídos a usuários.
-* **Trabalho atribuído**: todos os membros da equipe com todas as suas atribuições.
+   * **Trabalho não atribuído**: itens atribuídos à equipe e não atribuídos a usuários.
+   * **Trabalho atribuído**: todos os membros da equipe com todas as suas atribuições.
 
-  >[!TIP]
-  >
-  >Os membros da equipe podem ser atribuídos a trabalhos também atribuídos à equipe ou a trabalhos atribuídos a outras equipes ou funções.
+     >[!TIP]
+     >
+     >Os membros da equipe podem ser atribuídos a trabalhos também atribuídos à equipe ou a trabalhos atribuídos a outras equipes ou funções.
 
 ### Acessar o Balanceador de carga de trabalho de um projeto
 

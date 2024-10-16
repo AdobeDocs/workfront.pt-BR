@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +109,7 @@ Para exportar um modelo do Kickstart:
       <td scope="col"> <p>Parâmetro</p> <p>Texto descritivo</p><p>Opção de parâmetro</p> <p>Grupo de Parâmetros</p> <p>Parâmetro da Categoria</p> <p>Categoria</p> <p>Relatório</p> <p>Seção de Guias do Portal</p> <p>Painel</p> <p>Preferências</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Relatório</p> <p>Todos os relatórios do sistema estão disponíveis para exportação. É possível selecionar até 100 relatórios específicos em uma única exportação.</p> <p>O Kick-Starts não é compatível com filtros do modo de texto. Para uma exportação bem-sucedida, os filtros de relatórios devem ser alternados para o Modo Padrão.</p> </td> 
+      <td scope="col"> <p>Relatório</p> <p>Todos os relatórios do sistema estão disponíveis para exportação. É possível selecionar até 100 relatórios específicos em uma única exportação.</p> <p>O Kick-Starts não é compatível com filtros ou agrupamentos do modo de texto. Para uma exportação bem-sucedida, os filtros e agrupamentos de relatórios devem ser alternados para o Modo Padrão.</p> </td> 
       <td scope="col">Exporta como arquivo ZIP </td> 
       <td scope="col"> <p scope="col">Parâmetro</p> <p scope="col">Texto descritivo</p> <p scope="col">Opção de parâmetro</p> <p scope="col">Grupo de Parâmetros</p> <p scope="col">Parâmetro da Categoria</p> <p scope="col">Categoria</p> <p scope="col">Relatório</p> <p scope="col">Preferências</p> </td> 
      </tr> 
