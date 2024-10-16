@@ -5,9 +5,9 @@ description: A página inicial herdada será removida do Workfront em 17/10 com 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ A exibição de tabela Prioridades exibe tarefas e problemas atribuídos a você
 
 | **Filtro** | **Agrupamento** |
 |------------|-----------|
-| - Trabalhando em <br> - Pronto para iniciar <br> - Não está pronto <br> - Solicitado <br> - Concluído <br> - Projeto <br> - Data de Vencimento <br> - Status | - Nenhum <br> - Semana de Vencimento <br> - Status <br> - Projeto |
+| - Trabalhando em <br> - Pronto para iniciar <br> - Não está pronto <br> - Solicitado <br> - Concluído <br> - Projeto <br> - Data de Vencimento <br> - Status <br> - Meu Foco | - Nenhum <br> - Meu Foco <br> - Semana de Vencimento <br> - Status <br> - Projeto |
 
 
 **Opções de agrupamento e filtro herdado da página inicial não disponíveis em Prioridades**
