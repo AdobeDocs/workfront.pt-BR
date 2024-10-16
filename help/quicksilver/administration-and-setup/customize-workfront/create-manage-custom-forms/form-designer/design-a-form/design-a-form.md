@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '5575'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # Criar um formulário com o designer de formulário
-
-{{highlighted-preview}}
 
 Você pode criar um formulário personalizado com o designer do formulário. Você pode anexar formulários personalizados a diferentes objetos do Workfront para capturar dados sobre esses objetos.
 
@@ -92,7 +90,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode usar campos novos ou existentes ao criar o formulário personalizado.
 
-<span class="preview">Os formulários personalizados estão limitados a 500 campos. Um contador na parte inferior esquerda exibe quantos campos são usados no formulário e ele fica sempre visível à medida que você rola a tela dentro do designer do formulário.</span>
+Os formulários personalizados são limitados a 500 campos. Um contador na parte inferior esquerda exibe quantos campos são usados no formulário e ele fica sempre visível à medida que você rola a tela dentro do designer do formulário.
 
 ### Reutilizar um campo ou widget existente já usado em outro formulário personalizado
 

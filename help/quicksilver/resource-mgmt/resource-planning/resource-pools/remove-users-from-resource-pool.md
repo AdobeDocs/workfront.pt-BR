@@ -1,21 +1,19 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Remover usuários do conjunto de recursos
+title: Remover usuários dos conjuntos de recursos
 description: Embora não haja limite para o número de usuários que você pode ter em um pool de recursos, a lista de usuários exibe apenas os primeiros 2000 usuários, listados em ordem alfabética.
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
 
 # Remover usuários do conjunto de recursos
-
-{{preview-and-fast-release-Q424}}
 
 Embora não haja limite para o número de usuários que você pode ter em um pool de recursos, a lista de usuários exibe apenas os primeiros 2000 usuários, listados em ordem alfabética.
 
@@ -73,15 +71,10 @@ Ou\
    Ou\
    Comece a digitar o nome de uma empresa, função de trabalho, equipe ou grupo se quiser remover todos os usuários associados a essas entidades.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:<span>
-
    ![Remover usuários do Pool de Recursos](assets/remove-users-from-resource-pool.png)
 
-   Imagem de amostra no ambiente de produção:
-   ![Pesquisar no Pool de Recursos](assets/search-inside-new-resource-pool-350x314.png)
-
-1. Clique no ícone &quot;x&quot; no nível do usuário para remover um usuário do Conjunto de recursos. Eles são removidos de todas as listas em que aparecem.\
-   Ou\
-   Para remover todos os usuários associados a uma função de trabalho, grupo, equipe ou empresa, clique em **Remover** no nível de função de trabalho, grupo, equipe ou empresa. Isso remove todos os usuários associados a essa função de trabalho, grupo, equipe ou empresa do Conjunto de Recursos.
+1. Clique no ícone X no nível do usuário para remover um usuário do Pool de recursos. Eles são removidos de todas as listas em que aparecem.
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. Clique em **Salvar**.
