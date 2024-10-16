@@ -5,7 +5,7 @@ description: Você pode resumir rapidamente itens de trabalho e documentos usand
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -73,10 +73,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 As áreas a seguir têm botões que geram resumos usando o Assistente de IA:
 
-* Cabeçalho do projeto: Resumo do projeto
-* Área Atualizações: Resumir conteúdo
+* Cabeçalho do projeto: Resumir projeto
+* Área Atualizações: Resumir comentários
 
-Para usar o botão Sumário do Projeto ou Sumariar Conteúdo:
+Para usar o botão Resumir projeto ou Resumir comentários:
 
 1. Clique no botão.
 
