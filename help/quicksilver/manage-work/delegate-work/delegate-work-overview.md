@@ -7,10 +7,10 @@ description: Quando você planeja ficar fora do escritório por um curto períod
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 1%
 
 ---
 
@@ -30,13 +30,18 @@ Você pode delegar os seguintes objetos em [!DNL Adobe Workfront]:
 * Problemas atribuídos a você
 * Aprovações de projetos, tarefas ou problemas atribuídas a você.
 
-Este artigo contém informações gerais sobre a delegação de tarefas e problemas.
+  >[!TIP]
+  >
+  >   Não é possível delegar aprovações de planilhas de horas, documentos ou provas.
+
+
+Este artigo contém informações gerais sobre como delegar tarefas e problemas atribuídos a você.
 
 Para obter informações sobre como delegar aprovações de projetos, tarefas e problemas, consulte [Delegar solicitação de aprovação](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Para obter informações sobre como delegar tarefas e problemas, consulte [Delegar tarefas e problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Delegar visão geral do trabalho
+## Delegar visão geral de tarefas e problemas
 
 Considere o seguinte ao delegar tarefas e problemas:
 
@@ -62,7 +67,7 @@ Considere o seguinte ao delegar tarefas e problemas:
 * Se tarefas e problemas adicionais forem atribuídos a você durante o período selecionado para que seu trabalho seja delegado a outros usuários, o novo trabalho atribuído será automaticamente delegado à mesma pessoa para o período selecionado se as datas da tarefa ou problema estiverem dentro desse período.
 * O mesmo usuário pode ser selecionado como delegado por vários usuários.
 * Tarefas e problemas delegados não são exibidos nas ferramentas de gerenciamento de recursos, como o [!UICONTROL Balanceador de carga de trabalho] ou o [!UICONTROL Planejador de recursos] para os usuários delegados.
-* Você pode exibir o trabalho delegado e os nomes dos delegados em várias áreas do [!DNL Workfront]. Para obter mais informações, consulte a seção &quot;Localizar trabalho delegado e informações delegadas&quot; no artigo [Gerenciar delegação de tarefas e problemas](../delegate-work/how-to-delegate-work.md).
+* Você pode exibir o trabalho delegado e os nomes dos delegados em várias áreas do [!DNL Workfront]. Para obter mais informações, consulte a seção &quot;Localizar trabalho delegado e informações delegadas&quot; no artigo [Delegar tarefas e problemas](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]

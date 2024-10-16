@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2110'
 ht-degree: 0%
 
 ---
@@ -193,15 +193,22 @@ Habilitar a configuração **[!UICONTROL Permitir que usuários deleguem tarefas
 
 Quando essa configuração estiver ativada, os usuários poderão ver o seguinte:
 
-* O link [!UICONTROL Delegar] em sua área [!UICONTROL Residência]. Eles podem delegar aprovações ou atribuições de tarefas e problemas daqui.
+* O link [!UICONTROL **Delegar**] em seus widgets [!UICONTROL Meu Trabalho], [!UICONTROL Minhas Tarefas] ou [!UICONTROL Meus Problemas] na área [!UICONTROL Página Inicial]. Eles podem delegar atribuições de tarefas e problemas a partir daí.
+
+  >[!NOTE]
+  >
+  >  O link [!UICONTROL **Delegar aprovações**] sempre está habilitado na área [!UICONTROL Página inicial].
+
 * Uma indicação de que uma tarefa ou problema é delegada a outro usuário na área [!UICONTROL Atribuições e delegações] no cabeçalho da tarefa ou problema.
+* Uma indicação de que uma tarefa ou problema é delegada a outro usuário no widget [!UICONTROL Meu trabalho] na [!UICONTROL Página inicial].
 
   Se você desabilitar a configuração [!UICONTROL Permitir que os usuários deleguem tarefas e problemas], as delegações agendadas no momento serão interrompidas e os usuários delegados receberão uma notificação por email de que a delegação foi interrompida.
 
 Para obter informações sobre como delegar trabalho a outras pessoas, consulte os seguintes artigos:
 
 * [Delegar visão geral do trabalho](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [Gerenciar delegação de tarefas e problemas](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Delegar tarefas e problemas](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

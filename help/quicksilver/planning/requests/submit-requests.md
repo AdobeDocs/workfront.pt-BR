@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ Para obter informações sobre como um gerenciador de espaço de trabalho pode c
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Para acessar o Workfront Planning, é necessário ter o seguinte:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 1. Clique em **Enviar**.
 
    O formulário é enviado e um novo registro é adicionado ao tipo de registro associado ao formulário.
-
-
-
-
-

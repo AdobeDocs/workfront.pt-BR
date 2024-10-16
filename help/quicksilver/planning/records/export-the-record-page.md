@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
 # Exportar os detalhes de um registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Quarto Trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham uma conta do Workfront, é possível exportar os detalhes de um registro para um arquivo e compartilhá-lo com elas.
@@ -28,7 +28,7 @@ Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham
 
 +++ Expanda para exibir os requisitos de acesso do Workfront Planning.
 
-Para acessar o Workfront Planning, é necessário ter o seguinte:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ Para acessar o Workfront Planning, é necessário ter o seguinte:
 * É possível exportar os detalhes de um registro para os seguintes formatos de arquivo:
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * .pdf
 
 * É possível exportar a guia Details da página de um registro. Não é possível exportar a guia Connections.
 
@@ -184,9 +184,9 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 1. Clique no ícone **Exportar** ![](assets/export-icon-in-record-details-page.png) na visualização ou na página do registro e clique em uma das seguintes opções:
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   Um arquivo do Word (.docx) <span class="preview">ou PDF</span> é baixado e salvo no computador.
+   Um arquivo Word (.docx) ou PDF é baixado e salvo no computador.
 
    O nome do arquivo exportado é o campo Primary do registro.
 
@@ -194,7 +194,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 
    >[!NOTE]
    >
-   >    Informações adicionais que não são exibidas na página e só são visíveis depois de clicar em Mostrar mais na guia Detalhes não são exibidas no arquivo de PDF exportado. Somente as informações visíveis na página são exibidas no arquivo exportado.
+   >    Informações adicionais que não são exibidas na página e só são visíveis depois de clicar em Mostrar mais na área de detalhes do registro não são exibidas no arquivo PDF exportado. Somente as informações visíveis na página são exibidas no arquivo exportado.
 
 
 1. (Opcional) Vá para o arquivo baixado, abra-o e edite-o (se for um arquivo do Word) ou compartilhe-o com outras pessoas.

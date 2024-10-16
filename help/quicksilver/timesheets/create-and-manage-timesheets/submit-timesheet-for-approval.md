@@ -1,14 +1,14 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Enviar uma planilha de horas para aprovação
+title: Enviar planilha de horas para aprovação
 description: Enviar sua planilha de horas para aprovação oferece ao seu gerente visibilidade sobre suas horas de trabalho. Os aprovadores podem verificar se todo o tempo registrado foi alocado nas áreas corretas e se um número suficiente de horas foi registrado para o período de tempo.
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> <p>Novo: Claro ou superior </p>
    <p>Atual: revisão ou superior </p>
   </tr> 
@@ -49,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Para submeter uma planilha de horas para aprovação:
 
    O botão **Enviar para aprovação** foi substituído pelos botões **Aprovar**, **Rejeitar** e **Cancelar**. O status da planilha de horas muda para **Enviado**.
 
-   Quando sua folha de horas é enviada para aprovação, o aprovador vê a folha de horas listada na área **Aprovações** na página **Página inicial**. As seguintes situações podem ocorrer:
+   Quando sua planilha de horas é enviada para aprovação, o aprovador vê a planilha de horas listada no widget **Minhas aprovações** na área **Página inicial**. As seguintes situações podem ocorrer:
 
    * Se eles aprovarem, o botão **Cancelar** será alterado para **Reabrir** e o status da folha de horas será atualizado para **Abrir**.
    * Se ele rejeitar, o botão **Enviar para aprovação** substituirá o botão **Cancelar** e o status da folha de horas será atualizado para **Rejeitado**.

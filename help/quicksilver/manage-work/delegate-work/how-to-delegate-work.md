@@ -3,19 +3,19 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delegar tarefas e problemas
 description: Você pode delegar temporariamente o trabalho ao qual está atribuído enquanto estiver fora do escritório. Este artigo descreve como delegar atribuições de tarefas e problemas.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
 
-# Gerenciar delegação de tarefas e problemas
+# Delegar tarefas e problemas
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
 
 <!--
@@ -59,7 +59,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
    <td> <p>Novo: Colaborador ou superior</p><p>Ou</p><p>Atual: revisão ou superior</p>
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +92,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Antes de executar as atividades descritas neste artigo, você deve garantir o seguinte:
 
-* O [!DNL Workfront] ou o administrador de grupo habilitou a configuração [!UICONTROL Permitir que usuários excluam tarefas e problemas com horas reportadas] na área [!UICONTROL Configuração] da sua instância [!DNL Workfront].
+* O [!DNL Workfront] ou o administrador de grupo habilitou a configuração [!UICONTROL **Permitir que usuários deleguem tarefas e problemas**] na seção [!UICONTROL Preferências de Tarefas e Problemas] na área [!UICONTROL Instalação] da sua instância [!DNL Workfront].
 
   Para obter mais informações, consulte [Configurar preferências de tarefas e problemas do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -104,11 +104,16 @@ Para obter informações gerais sobre a delegação de tarefas e problemas, cons
 
 Para delegar tarefas e problemas a outras pessoas:
 
-1. Vá para a área [!UICONTROL **Página Inicial**] e clique em [!UICONTROL **Delegar**] na parte superior da [!UICONTROL **Lista de Trabalho**].
+1. Vá para a área [!UICONTROL **Início**].
+1. Verifique se você adicionou os widgets [!UICONTROL **Meu Trabalho**], [!UICONTROL **Minhas Tarefas**] ou [!UICONTROL **Meus Problemas**] à sua [!UICONTROL **Página Inicial**].
 
-   ![](assets/delegate-button-in-home.png)
+   Para obter informações, consulte [Adicionar, editar ou remover widgets na Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
-1. Na guia [!UICONTROL **Delegar tarefas e problemas**], atualize o seguinte:
+1. Clique em [!UICONTROL **Delegar**] no canto superior esquerdo dos widgets [!UICONTROL **Meu Trabalho**], [!UICONTROL **Minhas Tarefas**] ou [!UICONTROL **Meus Problemas**].
+
+   ![](assets/delegate-button-on-my-work-widget.png)
+
+1. Atualize o seguinte:
 
    * [!UICONTROL **Delegar tarefas e problemas a**]: comece digitando o nome de um usuário ao qual você deseja que suas tarefas e problemas sejam delegados, em seguida, selecione-o quando ele for exibido na lista. Você só pode selecionar um usuário.
 
@@ -129,6 +134,7 @@ Para delegar tarefas e problemas a outras pessoas:
      >Se você deixar o campo Data final vazio e a opção Sem data final não estiver selecionada, a delegação será definida somente para o dia atual.
 
      ![](assets/delegate-box-expanded-in-home.png)
+     <!--check screen shot - submitted bug for casing-->
 
 1. Clique em [!UICONTROL **Salvar**].
 
@@ -141,18 +147,18 @@ Para delegar tarefas e problemas a outras pessoas:
      >   Itens de trabalho concluídos que têm datas dentro do período de delegação não são delegados.
 
 
-   * Você receberá uma mensagem no canto superior direito da tela para confirmar que ativou a delegação do seu trabalho para outro usuário. O nome do usuário delegado é exibido na mensagem de confirmação.
+   * Você receberá uma mensagem na parte inferior da tela para confirmar que ativou a delegação do seu trabalho para outro usuário. O nome do usuário delegado é exibido na mensagem de confirmação.
 
    * Uma indicação de que suas tarefas e problemas estão delegados a outros usuários é exibida na maioria das áreas em que você pode ver as atribuições no [!DNL Workfront]. Para obter mais informações sobre quais áreas não incluem nomes de representantes, consulte [Visão geral do trabalho de delegação](delegate-work-overview.md).
 
-   * O botão [!UICONTROL **Delegar**] na área [!UICONTROL Página inicial] é alterado para [!UICONTROL **Editar delegação**] para indicar que há uma delegação em vigor.
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
-   </MadCap:conditionalText>
-   -->
+   * O botão [!UICONTROL **Delegar**] na área [!UICONTROL **Página inicial**] é alterado para [!UICONTROL **Editar delegação**] para indicar que há uma delegação em vigor.
+     <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      </MadCap:conditionalText>
+      -->
 
-   ![](assets/work-delegated-button-in-home.png)
+     ![](assets/edit-delegation-button-on-my-work-widget.png)
 
    * Se as notificações de eventos e as notificações pessoais estiverem ativadas, você também receberá uma confirmação por email da sua delegação.
 
@@ -164,8 +170,8 @@ Para delegar tarefas e problemas a outras pessoas:
 
 Você pode permitir que uma delegação expire se tiver selecionado uma Data final ou pode interrompê-la manualmente. Também é possível modificar o período da delegação, se as datas da delegação tiverem sido alteradas.
 
-1. Vá para a área [!UICONTROL Página inicial] e clique em [!UICONTROL Editar delegação] no canto superior direito da Lista de trabalho.
-1. Na guia [!UICONTROL Delegar tarefas e problemas], siga um destes procedimentos:
+1. Vá para a área [!UICONTROL **Página Inicial**] e clique em [!UICONTROL **Editar delegação**] em qualquer um dos seguintes widgets: **Meu Trabalho**, **Minhas Tarefas** ou **Meus Problemas**.
+1. Na caixa [!UICONTROL Parar de delegar tarefas e problemas], siga um destes procedimentos:
    * Modifique a [!UICONTROL **Data inicial**] ou a [!UICONTROL **Data final**]
    * Clique em [!UICONTROL **Parar delegação**]
 
@@ -173,7 +179,7 @@ Você pode permitir que uma delegação expire se tiver selecionado uma Data fin
    >
    >    Você poderá editar somente a Data de término de uma delegação se ela já tiver sido iniciada.
 
-   ![](assets/stop-delegation-screen-in-home.png)
+   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (Condicional) clique em [!UICONTROL **Salvar**] para salvar as novas datas de delegação
 
@@ -182,7 +188,6 @@ Você pode permitir que uma delegação expire se tiver selecionado uma Data fin
    Clique em [!UICONTROL **Parar delegação**] na caixa de confirmação para confirmar a interrupção da delegação.
 
    A delegação atualizou as datas ou parou e os usuários delegados foram removidos de suas tarefas e problemas. As permissões para as tarefas e problemas permanecem em vigor.
-
 
 ## Localizar trabalho delegado e informações delegadas
 
@@ -229,24 +234,31 @@ Se uma tarefa ou um problema for delegado e a subguia [!UICONTROL Delegações] 
 
 ### Localizar trabalho delegado em [!UICONTROL Residência]
 
-1. Vá para a área [!UICONTROL **Início**], clique no menu suspenso de filtro e selecione uma ou mais das seguintes opções:
+1. Vá para a área [!UICONTROL **Página Inicial**] no widget [!UICONTROL **Meu Trabalho**].
+1. Clique no menu suspenso do filtro e selecione uma ou mais das seguintes opções:
    * [!UICONTROL **Delegado**]: para exibir tarefas e problemas delegados a você ou por você.
    * [!UICONTROL **Delegado a mim**]: para exibir tarefas e problemas delegados a você por outro usuário.
    * [!UICONTROL **Delegado por mim**]: para exibir tarefas e problemas delegados por você a outros usuários.
 
-   ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
+     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
 
-1. Clique no menu suspenso [!UICONTROL sorting] para classificar a lista pelos seguintes critérios:
-   * [!UICONTROL Conclusão planejada]. Esta é a opção de classificação padrão.
-   * [!UICONTROL Início planejado]
-   * [!UICONTROL Data de confirmação]
+1. (Opcional) Clique no menu suspenso [!UICONTROL **Classificar**] para classificar a lista pelos seguintes critérios:
+   * [!UICONTROL Data de Conclusão]. Esta é a opção de classificação padrão.
+   * [!UICONTROL Nome]
+   * [!UICONTROL Percentual concluído]
+   * [!UICONTROL Status]
+1. (Opcional) Expanda o menu suspenso de agrupamentos no canto superior direito do widget [!UICONTROL **Meu trabalho**] e agrupe-o por um dos seguintes critérios:
+   * Nada. Esta é a opção de agrupamento padrão.
    * [!UICONTROL Projeto]
-   * [!UICONTROL Minha Prioridade]
-1. Expanda os agrupamentos na [!UICONTROL **Lista de trabalho**] para exibir os itens de trabalho delegados. Existem os seguintes cenários:
-   * Para itens que você delegou a outras pessoas, o nome do delegado é exibido na [!UICONTROL **Lista de Trabalho**], bem como no campo [!UICONTROL **Atribuições e delegações**] à direita.
+   * [!UICONTROL Status]
+   * [!UICONTROL Data de vencimento]
 
-   * Para itens delegados a você, o nome do destinatário é exibido na [!UICONTROL **Lista de trabalho**], bem como no campo **[!UICONTROL Atribuições e delegações]** à direita.
+1. Para exibir os itens que você delegou ou que foram delegados a você, exiba um dos seguintes:
 
-   >[!TIP]
-   >
-   >    Se a delegação estiver definida para iniciar em uma data posterior à data de hoje, a data de início da delegação também será exibida na [!UICONTROL Lista de Trabalho]. Os itens delegados são exibidos no agrupamento selecionado para a [!UICONTROL Lista de Trabalho], de acordo com o tipo de agrupamento. Por exemplo, se você agrupar por [!UICONTROL Data de conclusão planejada], os itens delegados serão exibidos no agrupamento de acordo com suas datas de conclusão planejadas.
+   * Para itens que você delegou a outras pessoas, encontre o nome do representante no status da tarefa ou problema, após [!UICONTROL **Delegado a**].
+
+   * Para itens delegados a você, localize o nome do destinatário sob o status da tarefa ou problema, após [!UICONTROL **Delegado a você por**].
+
+     >[!TIP]
+     >
+     >    Se a delegação estiver definida para iniciar em uma data posterior à data de hoje, a data de início da delegação também será exibida na [!UICONTROL Lista de Trabalho]. Os itens delegados são exibidos no agrupamento selecionado para a [!UICONTROL Lista de Trabalho], de acordo com o tipo de agrupamento. Por exemplo, se você agrupar por [!UICONTROL Data de conclusão planejada], os itens delegados serão exibidos no agrupamento de acordo com suas datas de conclusão planejadas.

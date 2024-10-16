@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '3830'
+source-wordcount: '3650'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: </p>
-   <p>Leve ou superior para registrar horas em um projeto, tarefa, problema ou Horas gerais em uma folha de horas</p>
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Novo: Leve ou superior para registrar horas em um projeto, tarefa, problema ou Horas gerais em uma folha de horas</p>
    <p>Atual: 
    <ul><li>Revise ou registre horas gerais em uma planilha de horas</li>
    <li>Trabalhar ou mais para registrar horas em um projeto, tarefa ou problema</li></ul> </td> 
@@ -64,7 +63,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -338,36 +337,36 @@ Você pode registrar horas específicas do projeto na Página inicial.
 Para obter informações gerais sobre o uso da área Página Inicial, consulte [Usar a área Página Inicial](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 
-#### Registrar horas em um item de trabalho na nova área Página inicial
+<!--#### Log time on a work item from the new Home area-->
 
 Você pode registrar horas para tarefas e problemas em qualquer um dos widgets usando o painel Resumo na área Página inicial. Para obter informações, consulte a seção [Painel de resumo](#summary-panel) neste artigo.
 
 Além disso, para registrar o tempo para um item no widget Meu trabalho:
 
-1. Chegou à área **Início**.
+1. Vá para a área **Início**.
 1. Adicione o widget **Meu Trabalho** à sua Página Inicial.
-1. (Opcional) Selecione uma tarefa, problema ou solicitação em uma lista e clique em **Trabalhar nela**
+1. (Opcional) Selecione uma tarefa, problema ou solicitação em uma lista e clique em **Trabalhar nela**.
 1. Passe o mouse sobre a tarefa ou problema para o qual deseja registrar o tempo, em seguida, clique no ícone **Registrar Tempo** ![](assets/log-time-icon-in-new-home.png) à direita das informações da tarefa.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
 1. Clique em **Log time**.
 
-   O tempo reportado é exibido na seção Horas do objeto e em sua folha de horas.
+   O tempo registrado é exibido na seção Horas do objeto e em sua folha de horas.
 
-#### Registrar o tempo em um item de trabalho na área inicial herdada
+<!--#### Log time on a work item from the legacy Home area
 
-1. Na área **Lista de Trabalho**, selecione o item no qual deseja registrar horas.
-1. No painel direito, clique em **Registrar Tempo**.
+1. In the **Work List** area, select the item where you want to log time.
+1. In the right panel, click **Log Time**.  
+  
+   ![](assets/log-time-home-350x181.png)  
 
-   ![](assets/log-time-home-350x181.png)
+1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the time you want to log, then click **Log Time**.
 
-1. No menu suspenso **Inserir Horas**, selecione o tipo de hora apropriado.\
-   Os tipos de horas estão disponíveis dependendo do que foi definido nos níveis de sistema, projeto e usuário, conforme descrito em [Definir tipos de horas e disponibilidade](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Condicional) Se o administrador do Workfront ou do grupo tiver habilitado a configuração **Atribuir funções de trabalho a entradas de hora manualmente**, selecione uma função de trabalho no menu suspenso. A função especificada quando você está atribuído ao item de trabalho é exibida por padrão. Se uma função não for atribuída a você no objeto, sua função principal será exibida como padrão. Para obter mais informações sobre essa configuração, consulte o artigo [Configurar preferências de horas e folha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-1. Especifique a hora que deseja registrar e clique em **Registrar Hora**.
-
-   O tempo reportado é exibido na seção Horas do objeto e em sua folha de horas.
+   The logged time displays in the object's Hours section, nad in your timesheet. -->
 
 ### Projeto, tarefa ou problema {#project-task-or-issue}
 

@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
 
 # Personalizar o painel esquerdo usando um modelo de layout
+
+<!--Audited: 10/2024-->
 
 Em um modelo de layout, você pode personalizar o que os usuários veem na área do painel esquerdo no [!DNL Adobe Workfront].
 
@@ -68,26 +70,19 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 ## Personalizar o painel esquerdo para uma área em [!DNL Workfront]:
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **[!UICONTROL Personalizar o que os usuários veem]** e clique no painel esquerdo que você deseja personalizar.
+1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **[!UICONTROL Personalizar o que os usuários veem]** e clique no nome de um tipo de objeto ou de uma área [!DNL Workfront] cujo painel esquerdo você deseja personalizar.
 
-   >[!NOTE]
-   >
-   >Para obter informações sobre a opção [!UICONTROL Página Inicial] nesta lista suspensa, consulte [Personalizar a [!UICONTROL Página Inicial] e o [!UICONTROL Resumo] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Para obter informações sobre a opção Listas, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Os tipos de objetos e as áreas [!DNL Workfront] cujo painel esquerdo você pode personalizar estão listados na tabela a seguir:
 
-1. Na lista **[!UICONTROL Painel esquerdo]**, siga um destes procedimentos para determinar o que os usuários verão no painel esquerdo para a opção ([!DNL Workfront] área ou tipo de objeto) que você selecionou:
-
-   * Mostrar ![](assets/add-secondary-nav-item.png) ou ocultar ![](assets/delete-secondary-nav-item.png) itens. Qualquer item sem ![](assets/add-secondary-nav-item.png) ou ![](assets/delete-secondary-nav-item.png) não pode ser oculto.
-
-   * Arraste os itens ![](assets/move-icon---dots.png) para alterar sua ordem no painel esquerdo.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Opção</th> 
+      <th>Tipo de objeto ou área [!DNL Workfront]</th> 
       <th>Quando os usuários clicarem no seguinte...</th> 
-      <th>Eles verão os itens do painel esquerdo que você escolher entre os seguintes:</th> 
+      <th>Seções no painel esquerdo que os usuários veem depois que você as mostra no modelo de layout:</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,24 +201,38 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
    *Sua empresa deve comprar uma licença adicional para que o Workfront Planning possa adicionar essa área ao painel esquerdo de projetos, portfólios e programas. Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. Na lista **[!UICONTROL Painel esquerdo]**, siga um destes procedimentos para determinar o que os usuários verão no painel esquerdo para a área [!DNL Workfront] ou o tipo de objeto selecionado:
+
+   * Clique nos ícones **Mostrar** ![](assets/add-secondary-nav-item.png) ou **Ocultar** ![](assets/delete-secondary-nav-item.png) para exibir ou ocultar seções no painel esquerdo. Você não pode ocultar itens que não tenham um ícone **Mostrar** ou **Ocultar**.
+
+   * Arraste os itens ![](assets/move-icon---dots.png) para alterar sua ordem no painel esquerdo.
+
    >[!NOTE]
    >
-   >Os três últimos itens na **[!UICONTROL Personalizar o que os usuários veem]** na lista suspensa ([!UICONTROL Listas], [!UICONTROL Página Inicial e Resumo] e [!UICONTROL Marcas]) são para configurar áreas diferentes do painel esquerdo. Para obter informações sobre eles, consulte estes artigos:
+   >Os seguintes itens da **[!UICONTROL Personalize o que os usuários veem]** na lista suspensa se referem a áreas diferentes do painel esquerdo:
+   >* [!UICONTROL Listas]
+   >* [!UICONTROL Painel de resumo]
+   >* [!UICONTROL Página inicial]
+   >* [!UICONTROL Identidade visual]
+   > 
+   >Para obter informações sobre como personalizar as áreas adicionais, consulte os seguintes artigos:
    >
    >* [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [Personalizar [!UICONTROL Página Inicial] e [!UICONTROL Resumo] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Personalizar o [!UICONTROL Painel de resumo] usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Personalizar Página Inicial usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [Adobe da marca [!DNL Workfront] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Opcional) Se quiser adicionar um item do painel esquerdo que se vincule a um dos painéis da sua organização, clique em **[!UICONTROL Adicionar seção personalizada]**, digite um **[!UICONTROL Título da seção personalizada]** para o item e, em seguida, adicione o painel.
 
-   Os itens do painel são exibidos na parte inferior do painel esquerdo. Os usuários veem o título da seção Personalizada que você digita ao lado do item do painel quando passam o mouse sobre o painel esquerdo.
+   Os itens do painel são exibidos na parte inferior do painel esquerdo. Os usuários veem o título da seção Personalizada que você digita ao lado do item do painel quando passam o mouse sobre ele no painel esquerdo.
 
    >[!NOTE]
    >
-   >Os usuários podem adicionar itens personalizados do painel a seu próprio painel esquerdo. Quando você adiciona itens personalizados do painel em um modelo de layout, seus itens são mesclados com os deles, sem substituir ou redefini-los. Isso também é verdadeiro se você atribuir usuários a um novo modelo de layout com itens de painel personalizados. Para obter informações sobre como os usuários podem personalizar o painel esquerdo, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
-
-   Para obter informações sobre painéis, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   >Os usuários podem adicionar itens personalizados do painel a seu próprio painel esquerdo. Ao adicionar itens personalizados do painel em um modelo de layout, seus itens são exibidos além daqueles que adicionam, sem substituí-los ou redefini-los. Isso também é verdadeiro se você atribuir usuários a um novo modelo de layout com itens de painel personalizados. Para obter informações sobre como os usuários podem personalizar o painel esquerdo, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   >Para obter informações sobre painéis, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Continue personalizando o modelo de layout.
 
@@ -233,4 +242,4 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
    >[!TIP]
    >
-   >Você pode clicar em [!UICONTROL Salvar] a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
+   >Você pode clicar em [!UICONTROL **Salvar**] a qualquer momento para salvar seu progresso, o que fecha o editor de modelo de layout, e continuar modificando o modelo posteriormente.
