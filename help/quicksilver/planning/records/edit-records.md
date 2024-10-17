@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -304,7 +304,7 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    O Workfront salva suas alterações automaticamente.
 
-1. (Opcional) Clique no ícone ![](assets/export-icon-in-record-details-page.png) de **Exportar** para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Opcional) Clique no menu ![](assets/export-icon-in-record-details-page.png) **Exportar** para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continue editando o registro conforme descrito na seção [Editar um registro da página do registro](#edit-a-record-from-the-records-page) deste artigo.
 
@@ -359,7 +359,7 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    O Workfront salva suas alterações automaticamente.
 
-1. (Opcional) Clique no ícone ![](assets/export-icon-in-record-details-page.png) de **Exportar** para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Opcional) Clique no menu ![](assets/export-icon-in-record-details-page.png) **Exportar** para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Editar um registro de um objeto do Workfront na seção Planejamento

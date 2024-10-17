@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ Para fazer isso:
      >
      >A opção **Tipo de conexão** não está disponível ao conectar registros de espaços de trabalho diferentes ou ao conectar ativos do Experience Manager. Para obter mais informações, consulte [Visão geral dos tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Aparência do registro**: desmarque a opção **Título** se não quiser exibir o nome dos produtos ao adicioná-los ao campo Informações do produto da campanha. Se ativado, os registros exibem a miniatura e o título. O botão de alternância é ativado por padrão.
+   * **Aparência do registro**: escolha entre as seguintes opções:
+      * **Nome e imagem**: exibe o nome e a miniatura ou o ícone dos registros conectados. É selecionado por padrão.
+      * **Nome**: exibe somente o nome dos registros conectados.
+      * **Imagem**: exibe somente a miniatura ou o ícone dos registros conectados.
    * **Selecionar campos de pesquisa**: se você deixar essa opção selecionada, a caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Produto posteriormente.
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. (Condicional) Se você selecionou a opção **Selecionar campos de pesquisa** na etapa anterior, na lista de campos associados ao tipo de registro **Produto**, clique no ícone **+** do campo **Orçamento** e clique em **Adicionar campos**. Isso cria um campo chamado **Orçamento (das informações do produto)**, que é o nome do campo vinculado. Todas as informações para o Orçamento do produto são exibidas nesse campo para os registros da Campanha.
 

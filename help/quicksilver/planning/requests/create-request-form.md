@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -175,11 +175,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Para obter mais informações sobre a criação de um formulário personalizado, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido para outros usuários quando eles o usarem para enviar um novo registro.
+1. (Opcional) Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do formulário no cabeçalho e clique em **Editar** para atualizar o nome do formulário.
 1. Clique em **Publish** para publicar o formulário e obter um link exclusivo para ele.
 
    As seguintes situações ocorrem:
 
-   * O botão Publish é removido.
+   * O botão **Publish** foi removido.
    * O botão **Cancelar publicação** é adicionado ao formulário. Clicar nele impedirá que o formulário seja acessível.
    * Um botão **Compartilhar** é adicionado ao formulário.
 
