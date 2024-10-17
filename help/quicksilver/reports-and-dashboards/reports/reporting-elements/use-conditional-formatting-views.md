@@ -6,9 +6,9 @@ description: Ao compartilhar seus relatórios com outros usuários no Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Cor do texto</strong></td> 
-      <td> <p>Selecione a cor na qual o texto será exibido. Há 8 cores disponíveis.</p> <p><b>Nota</b></p> <p> Se o campo contiver um hiperlink, as seleções de cor do texto não serão aplicadas a esse campo.</p> </td> 
+      <td> <p>Selecione a cor na qual o texto é exibido usando o seletor de cores.</p> <p><b>Nota</b></p> <p> Se o campo contiver um hiperlink, as seleções de cor do texto não serão aplicadas a esse campo.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato do texto</strong></td> 
@@ -151,7 +151,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Histórico</strong></td> 
-      <td>Selecione a cor do plano de fundo do texto. Há 8 cores disponíveis.</td> 
+      <td>Selecione a cor do plano de fundo do texto usando o seletor de cores.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar ícone</strong></td> 
@@ -189,6 +189,6 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
    * Adicione a regra de coluna novamente para o plano de fundo vermelho em projetos atrasados.
    * Ao salvar as regras e a visualização, o plano de fundo vermelho não é aplicado a um projeto cancelado.
 
-1. Clique em **Concluído**.
+1. Clique em **Salvar**.
 1. Clique em **Salvar + Fechar**.\
    No relatório, os usuários veem as alterações no formato se as condições especificadas tiverem sido atendidas.

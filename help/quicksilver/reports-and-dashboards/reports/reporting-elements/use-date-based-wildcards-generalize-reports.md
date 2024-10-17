@@ -6,9 +6,9 @@ description: Você pode generalizar um relatório usando curingas em vez de info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,6 @@ Para inserir um curinga com base em data em um relatório:
 
 1. Vá para um relatório para o qual deseja inserir um curinga com base em data.
 1. Clique em **Ações de Relatório** e depois em **Editar**.
-
 1. Clique na guia **Filtros**.
 1. Clique em **Adicionar uma Regra de Filtro**.
 1. Comece digitando o nome do campo pelo qual deseja filtrar.\
@@ -79,7 +78,7 @@ Para inserir um curinga com base em data em um relatório:
    >
    >Você sempre deve selecionar a variável de filtro **Igual** ao trabalhar com curingas no Adobe Workfront.
 
-1. Na caixa **Comece a digitar o nome ...**, digite: `$$TODAY` se desejar exibir informações sobre algo que ocorra no mesmo dia em que o relatório for executado.
+1. Clique no botão **Definir data relativa** e, na caixa de texto exibida, digite: `$$TODAY` se desejar exibir informações sobre algo que ocorra no mesmo dia em que o relatório for executado.
 
    Ou
 
@@ -91,8 +90,6 @@ Para inserir um curinga com base em data em um relatório:
 1. (Opcional) Se desejar exibir informações sobre algo que ocorreu em um período anterior à data em que o relatório é executado, digite `$$TODAY-1w` para exibir informações da semana anterior, ou `$$TODAY-2m` para exibir informações dos dois meses anteriores. Você também pode indicar períodos de tempo para trimestres, horas, dias ou anos.
 
    Para obter uma lista completa de atributos, qualificadores e operadores que você pode usar em curingas baseados em data, consulte o artigo [Visão geral das variáveis de filtro de curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Clique em **Salvar + Fechar**.
 

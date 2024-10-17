@@ -6,9 +6,9 @@ description: Filtros e prompts são semelhantes, no sentido de que ambos restrin
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
 1. Vá para o relatório em que deseja adicionar um prompt.
 1. Expanda **Ações de Relatório** e clique em **Editar**.
 
-1. Clique em **Configurações do relatório**.
-1. Na área **Prompts do Relatório**, clique em **Adicionar um Prompt**.\
-   ![](assets/qs-add-a-prompt-350x216.png)
+1. Clique no botão **Configurações do Relatório**.
+1. Clique na guia **Prompts do Relatório** e em **Adicionar um Prompt**.\
+   ![](assets/create-report-prompt-tab.png)
 
 1. (Condicional) Selecione o campo no qual você deseja que o prompt se baseie. Comece digitando o nome do campo e clique em para selecioná-lo quando ele aparecer na lista.\
    As opções disponíveis para usuários que executam o relatório serão diferentes dependendo do campo selecionado.\
@@ -92,8 +92,9 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
    Especifique as seguintes informações para o prompt personalizado: a condição de um prompt personalizado só pode ser editada usando o modo de texto. Isso permite que várias condições sejam aplicadas em um único campo.
 
    * **Nome do campo:** Esse é o nome do prompt, como você vê antes de executar o relatório.
-   * **Rótulo:** Este é o nome de uma das opções dentro do prompt à medida que você o vê antes de executar o relatório.
+   * **Rótulo do Item Suspenso:** Esse é o nome de uma das opções dentro do prompt à medida que você o vê antes de executar o relatório.
    * **Condição:** insira uma condição que defina o prompt.
+   * **Padrão:** Você pode selecionar um item para ser a opção padrão para este prompt.
 
    Use a mesma sintaxe que você usaria ao inserir um filtro de modo de texto e junte suas instruções por &quot;&amp;&quot;. Para obter mais informações sobre como editar um filtro no modo texto, consulte [Editar um filtro usando o modo texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -128,7 +129,7 @@ Para executar um relatório com um prompt:
 
 1. Acesse o relatório com o prompt.
 
-   ![](assets/qs-prompt-drop-downs-350x229.png)
+   ![](assets/run-report-prompts.png)
 
 1. Escolha uma condição para uma ou todas as solicitações exibidas na guia **Solicitações**.\
    (Opcional) Você pode deixar os prompts em branco e não filtrar o relatório pelas condições do prompt.
@@ -145,13 +146,14 @@ Para executar um relatório com um prompt:
 
 >[!CAUTION]
 >
->Quando você compartilha um relatório solicitado fora do Workfront, o usuário que visualiza o relatório deve estar conectado ao Workfront para executar o relatório usando o prompt. Se o usuário que visualiza o relatório não estiver conectado, todos os resultados do relatório serão exibidos sem aplicar o prompt.
+>Quando você compartilha um relatório solicitado, os usuários conectados e não conectados que visualizam o relatório usando o link de compartilhamento público não podem executar o relatório usando seus prompts. Nesse caso, os resultados do relatório são exibidos sem aplicar prompts e as informações exibidas serão baseadas no nível de acesso e nas permissões do usuário ou no nível de acesso e permissões Executar como usuário do relatório, se definido.
 
 A seguir, há limitações no compartilhamento de relatórios solicitados do Workfront:
 
-* Quando você compartilha um relatório publicamente, os usuários não podem executar o relatório aplicando o prompt, a menos que tenham credenciais do Workfront e façam logon primeiro para exibir o relatório no Workfront.
+* Ao compartilhar um relatório publicamente, os usuários não podem executá-lo com prompts aplicados, a menos que: tenham credenciais do Workfront, façam logon primeiro e naveguem até o relatório diretamente no Workfront (não por meio do link de compartilhamento público).
 
   Para obter mais informações sobre como compartilhar relatórios, consulte o artigo [Compartilhar um relatório no Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
-* Ao agendar um relatório solicitado para entrega, o relatório no anexo de email inclui os dados do relatório que não foram solicitados. Quando o usuário clica no link no email para acessar o relatório, ele deve fazer logon primeiro para visualizar o relatório e executar o prompt.
+
+* Ao agendar um relatório solicitado para entrega, o relatório no anexo de email inclui os dados do relatório não solicitados. Quando o usuário clica no link no email para acessar o relatório, ele deve fazer logon primeiro para visualizar o relatório e executar o prompt.
 
   Para obter informações sobre como agendar um relatório entregue, consulte [Agendar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

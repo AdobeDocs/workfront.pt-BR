@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [re
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (março de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para todos os clientes: com a versão 24.10 (outubro de 2024)</p>
+                                <p>Produção para todos os clientes: a ser anunciado</p>
                             </li>
                         </ul>
                     </td>

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -18,33 +18,51 @@ Esta página descreve pequenas atualizações na aparência de várias áreas do
 
 Para obter uma lista de todas as alterações disponíveis com a versão do quarto trimestre de 2024, consulte a [Visão geral da versão do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
-## Atualizações de aparência para painéis
-
->[!NOTE]
->
->Versão de pré-visualização: 15 de outubro; Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)
-
-Fizemos uma variedade de atualizações na interface dos painéis para corresponder ao design de outras áreas do Workfront, incluindo melhorias na tela de pré-visualização de impressão ao imprimir um painel.
-
-Para obter mais informações sobre painéis, consulte [Criar e gerenciar painéis](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Para obter mais informações sobre calendários, consulte [Visão geral dos relatórios do calendário](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
-
 ## Atualizações de aparência para relatórios
 
 >[!NOTE]
 >
->Versão de pré-visualização: a partir de 12 de setembro de 2024; Versão de produção para todos os clientes: variável, todas as atualizações estarão disponíveis em 8 de novembro de 2024
+>Versão de produção para todos os clientes: começando incrementalmente com a versão 24.10 (17 de outubro de 2024), disponibilidade total até 8 de novembro de 2024
 
-Fizemos uma variedade de atualizações na interface dos relatórios para corresponder ao design de outras áreas do Workfront. Essas atualizações incluem algumas alterações adicionais em vários recursos de relatórios, incluindo:
+Fizemos uma variedade de atualizações na interface do relatório para corresponder ao design de outras áreas do Workfront. Essas atualizações incluem algumas alterações adicionais em vários recursos de relatórios, incluindo:
 
-* Um novo botão para entrar no modo de texto ao editar uma coluna de relatório
-* Pequenas alterações na função de curingas de datas relativas e atalhos curingas
-* Regras condicionais não exigem mais que se clique em um botão &quot;Concluído&quot; para serem criadas
-* Uma paleta de cores expandida para regras de formatação condicional em relatórios
-* Alterações nos relatórios existentes que melhoram o uso nos Painéis do Canvas
+* Uma paleta de cores expandida foi adicionada para regras de formatação condicional em relatórios. Para obter mais informações sobre formatação condicional, consulte [Usar formatação condicional nos modos de exibição](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Um novo botão &quot;Editar modo de texto&quot; foi adicionado para entrar no modo de texto ao editar uma coluna no Report Builder. Para obter mais informações sobre como editar exibições de relatórios no modo de texto, consulte [Editar uma exibição usando o modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* Foi adicionado um novo botão à interface do filtro de relatório para alternar entre um seletor de datas do calendário e um campo de texto curinga de data relativa ao filtrar por um campo de data. Além disso, selecionar um atalho curinga de data relativo na interface do filtro de relatório agora preenche automaticamente os campos curingas associados com base na sua seleção. Para obter mais informações sobre como usar curingas de data relativos em filtros de relatório, consulte [Usar curingas baseados em data para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+* Os curingas com base no usuário nos filtros de relatório agora sugerem curingas relevantes para preenchimento automático com base no tipo de campo selecionado. Para obter mais informações sobre curingas baseados no usuário em filtros de relatório, consulte [Usar curingas baseados no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+* Os relatórios com prompts compartilhados publicamente agora serão exibidos sem prompts aplicados para todos os usuários que os acessarem por meio do link de compartilhamento público. Os usuários conectados que acessam o relatório diretamente ainda poderão aplicar prompts. Para obter informações sobre solicitações de relatório, consulte [Adicionar uma solicitação a um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* Alterações nos relatórios existentes que melhoram a compatibilidade com os Painéis do Canvas.
 
-Essas atualizações estão sendo implementadas individualmente na pré-visualização e produção a partir de 12 de setembro de 2024. Todas as atualizações serão completamente implementadas na produção para todos os clientes até 8 de novembro de 2024.
+_Essas atualizações estão sendo implementadas de forma incremental na produção a partir da versão 24.10 em 17 de outubro de 2024. As alterações estarão disponíveis para apenas um pequeno número de clientes no início, tornando-se cada vez mais disponíveis ao longo do tempo até estarem totalmente disponíveis para todos os clientes em 8 de novembro de 2024._
 
-Para obter mais informações sobre relatórios no Workfront, consulte [Introdução aos relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+## Atualizações de aparência para painéis
+
+>[!NOTE]
+>
+>Versão de produção para todos os clientes: começando incrementalmente com a versão 24.10 (17 de outubro de 2024), disponibilidade total até 8 de novembro de 2024
+
+Fizemos uma variedade de atualizações na interface dos painéis para corresponder ao design de outras áreas do Workfront. Essas atualizações incluem algumas alterações adicionais em vários recursos do painel, incluindo:
+
+* A tela de visualização de impressão ao imprimir um painel foi aprimorada. Para obter informações sobre como imprimir um painel, consulte []
+
+Para obter informações gerais sobre painéis, consulte [Criar e gerenciar painéis](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+
+_Essas atualizações estão sendo implementadas de forma incremental na produção a partir da versão 24.10 em 17 de outubro de 2024. As alterações estarão disponíveis para apenas um pequeno número de clientes no início, tornando-se cada vez mais disponíveis ao longo do tempo até estarem totalmente disponíveis para todos os clientes em 8 de novembro de 2024._
+
+## Atualizações de aparência e comportamento para filtros e visualizações
+
+>[!NOTE]
+>
+>Versão de produção para todos os clientes: começando incrementalmente com a versão 24.10 (17 de outubro de 2024), disponibilidade total até 8 de novembro de 2024
+
+Fizemos uma variedade de atualizações nas interfaces de filtros e visualizações para corresponder ao design de outras áreas do Workfront. Essas atualizações incluem algumas alterações adicionais nas exibições e na interface do filtro herdado, incluindo:
+
+* Uma paleta de cores expandida foi adicionada para regras de formatação condicional em relatórios. Para obter mais informações sobre formatação condicional, consulte [Usar formatação condicional nos modos de exibição](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Um novo botão &quot;Editar modo de texto&quot; foi adicionado para entrar no modo de texto ao editar uma coluna ao criar uma nova visualização. Para obter mais informações sobre como editar exibições no modo de texto, consulte [Editar uma exibição usando o modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* Um novo botão foi adicionado à interface do filtro herdado para alternar entre um seletor de datas do calendário e um campo de texto curinga de data relativa ao filtrar por um campo de data. Além disso, selecionar um atalho curinga de data relativo na interface do filtro de relatório agora preenche automaticamente os campos curingas associados com base na sua seleção.
+* Os curingas com base no usuário em filtros herdados agora sugerem curingas relevantes para preenchimento automático com base no tipo de campo selecionado. Para obter mais informações sobre como usar filtros herdados, consulte [Criar ou editar filtros no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
+_Essas atualizações estão sendo implementadas de forma incremental na produção a partir da versão 24.10 em 17 de outubro de 2024. As alterações estarão disponíveis para apenas um pequeno número de clientes no início, tornando-se cada vez mais disponíveis ao longo do tempo até estarem totalmente disponíveis para todos os clientes em 8 de novembro de 2024._
 
 ## Atualizações de aparência para a página Preferências do sistema
 

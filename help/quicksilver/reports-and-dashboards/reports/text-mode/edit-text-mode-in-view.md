@@ -6,9 +6,9 @@ description: "OBSERVAÇÃO: adicione uma seção a este artigo: /Content/Reports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -97,13 +97,11 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
    >
    >Para editar uma visualização usando o modo texto, é necessário editar uma coluna de cada vez.
 
-1. Clique em **Alternar para modo de texto** no canto superior direito do construtor.
+1. Clique em **Alternar para Modo de Texto** no canto superior direito do construtor e em **Editar Modo de Texto**.
 
    >[!NOTE]
    >
    >Ao editar uma coluna no modo texto, o Workfront adiciona a linha de código `textmode=true` à coluna. Isso indica que a coluna é modificada no modo de texto.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    A tabela a seguir descreve as linhas-chave em uma exibição de modo de texto:
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
                             <li>
-                                <p>Versão de produção para todos os clientes: com a versão 24.10 (outubro de 2024)</p>
+                                <p>Versão de produção para todos os clientes: a ser anunciada</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +316,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
                             <li>
-                                <p>Versão de produção para todos os clientes: com a versão 24.10 (outubro de 2024)</p>
+                                <p>Versão de produção para todos os clientes: a ser anunciada</p>
                             </li>
                         </ul>
                     </td>

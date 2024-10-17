@@ -6,9 +6,9 @@ description: Você pode exportar dados do Adobe Workfront de várias listas, rel
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,6 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
   >A exportação de um relatório que inclui uma referência de coleção em uma coluna pode resultar em erro, mesmo que o relatório esteja dentro dos limites de exportação listados. Se a coleção referenciada for muito grande, o processo de exportação expirará e resultará em um erro.
   >
   >Para evitar esse erro, exclua as colunas que fazem referência a coleções grandes ou reduza o tamanho das coleções referenciadas antes da exportação.
-  >
 
   Se o relatório tiver mais itens do que esses limites, você receberá um erro de que a exportação não foi bem-sucedida. Reduza o número de itens que você vê na tela para um número menor ou igual a esses limites para poder exportar os resultados.
 
@@ -151,6 +150,14 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
 * **Tamanho do arquivo de 10 MB:** Limite do tamanho do arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
 * **65.530 hiperlinks:** esse é um limite imposto pelo Excel a documentos que contêm mais de 65.530 hiperlinks. Esses documentos não podem ser abertos quando são exportados manualmente ou enviados em um relatório entregue. Observe que um documento do Excel pode ter apenas 200 linhas de dados, mas se houver mais de 65.530 links dentro do documento, ele não abrirá. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis. 
 * **256 colunas**: esse é um limite imposto pelo Excel a documentos que contêm mais de 256 colunas. Esses documentos não podem ser exportados manualmente ou enviados em um relatório entregue. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis.
+
+  >[!IMPORTANT]
+  >
+  >A exportação de um relatório que inclui uma coluna Relatórios pode resultar em erro, mesmo que o relatório esteja dentro dos limites de exportação listados.
+  >
+  >Se você estiver usando o recurso de exportação para compartilhar um relatório contendo uma coluna Relatórios com outras pessoas, considere compartilhar o relatório tornando-o público. Para obter mais informações sobre como tornar um relatório público, consulte [Compartilhar um relatório no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  >
+  >Se você estiver usando o recurso de exportação para avaliar dados externamente, recomendamos usar o Workfront Data Connect. Para obter mais informações, consulte [visão geral do Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Se você tentar exportar dados além do limite, talvez não receba todos os dados esperados na exportação. Em vez disso, um relatório modificado é produzido dentro do limite.
 
