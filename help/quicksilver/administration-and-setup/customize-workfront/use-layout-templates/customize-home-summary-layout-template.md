@@ -1,25 +1,24 @@
 ---
-title: Personalizar Início e Resumo Usando um Modelo de Layout
+title: Personalizar o painel de resumo usando um modelo de layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Você pode usar um Modelo de layout para configurar o que os usuários veem quando clicam em uma tarefa ou problema na Página inicial e no Resumo. Cada configuração feita usando as etapas abaixo afeta a área Página inicial e o Painel de resumo da mesma maneira. Essas personalizações não se aplicam ao painel Resumo do documento.
+description: Você pode usar um Modelo de layout para configurar o que os usuários veem quando clicam em uma tarefa ou problema no Resumo. Cada configuração feita usando as etapas abaixo afeta o painel Resumo. Essas personalizações não se aplicam ao painel Resumo do documento.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
+source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '940'
 ht-degree: 2%
 
 ---
 
-# Personalizar Início e Resumo usando um modelo de layout
+# Personalizar o painel Resumo usando um modelo de layout
 
-<span class="preview">Este artigo será renomeado para &quot;Personalizar o painel de resumo usando um modelo de layout&quot; quando a Página Inicial Herdada for removida do Workfront com a versão do quarto trimestre em 17 de outubro. 2024.</span>
 
-Você pode usar um Modelo de layout para configurar o que os usuários veem quando clicam em uma tarefa ou problema na Página inicial e no Resumo. Cada configuração feita usando as etapas abaixo afeta a área Página inicial e o Painel de resumo da mesma maneira. Essas personalizações não se aplicam ao painel Resumo do documento.
+Você pode usar um Modelo de layout para configurar o que os usuários veem quando clicam em uma tarefa ou problema no Resumo. Cada configuração feita usando as etapas abaixo afeta o painel Resumo. Essas personalizações não se aplicam ao painel Resumo do documento.
 
 Você pode configurar:
 
@@ -28,7 +27,7 @@ Você pode configurar:
 
 Você também pode personalizar os campos que os usuários veem na área Página inicial quando eles clicam em uma aprovação de projeto, aprovação de documento ou aprovação de versão de documento atribuída a eles.
 
-Para obter informações sobre a área Página Inicial, consulte [Usar a área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Para obter informações sobre o painel Resumo, consulte [Visão geral do resumo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Para obter informações sobre o painel Resumo, consulte [Visão geral do resumo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -68,11 +67,11 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
 +++
 
-## Personalizar Início e Resumo usando um modelo de layout
+## Personalizar o painel Resumo usando um modelo de layout
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e clique em **Página Inicial e Resumo**.
+1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalizar o que os usuários veem** e em **Painel de resumo**.
 
 1. Na lista à esquerda, clique no tipo de objeto (**Tarefas**, **Problemas**, **Projetos**, **Documentos** ou **Versões de Documentos**) que você deseja personalizar na Página Inicial e no Resumo.
 
@@ -82,23 +81,28 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
     <tbody> 
      <tr> 
       <td role="rowheader">Tarefas</td> 
-      <td> <p>Na Página inicial, a configuração dessa configuração afeta a área à direita de uma tarefa quando um usuário clica na tarefa. E, em uma lista de tarefas, isso afeta o painel Resumo que é exibido no lado direito da página quando um usuário seleciona uma tarefa e clica no ícone Abrir Resumo <img src="assets/summary-panel-icon.png">.</p> <p>Por exemplo, você pode determinar quais campos os usuários veem na área Detalhes quando os usuários selecionam tarefas na Página inicial:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>E quando selecionam uma tarefa no Resumo:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problemas</td> 
-      <td> <p>Na Página inicial, a configuração dessa configuração afeta a área à direita de um problema quando um usuário clica nele.</p> <p>Em uma lista de problemas, essa configuração afeta o painel Resumo que é exibido no lado direito da página quando um usuário seleciona um problema e clica no ícone Abrir Resumo <img src="assets/summary-panel-icon.png">.</p> </td> 
+      <td><p>Em uma lista de problemas, essa configuração afeta o painel Resumo que é exibido no lado direito da página quando um usuário seleciona um problema e clica no ícone Abrir Resumo <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Projetos</td> 
-      <td>Na Página inicial, quando um usuário clica em uma aprovação de projeto atribuída a ele, sua configuração para essa configuração afeta a área à direita da aprovação.</td> 
+      <td><p>Na Página inicial, quando um usuário clica em uma aprovação de projeto atribuída a ele, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
+      <p>IMPORTANTE: esse é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documentos</td> 
-      <td>Na Página inicial, quando um usuário clica em uma aprovação de documento atribuída a ele, sua configuração para essa configuração afeta a área à direita da aprovação.</td> 
+      <td><p>Na Página inicial, quando um usuário clica em uma aprovação de documento atribuída a ele, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
+      <p>IMPORTANTE: esse é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Versões do documento</td> 
-      <td>Na Página inicial, quando um usuário clica em uma aprovação atribuída a ele para uma versão específica de um documento, sua configuração para essa configuração afeta a área à direita da aprovação.</td> 
+      <td><p>Na Página inicial, quando um usuário clica em uma aprovação atribuída a ele para uma versão específica de um documento, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
+      <p>IMPORTANTE: esse é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,7 +123,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. Repita as etapas 3 a 6 para personalizar a área Início e o painel Resumo para qualquer outro tipo de objeto.
+1. Repita as etapas 3 a 6 para personalizar o painel Resumo para qualquer outro tipo de objeto.
 1. Clique em **Configurações globais**, próximo ao canto inferior esquerdo, e habilite ou desabilite qualquer uma das seguintes opções relacionadas a objetos do Adobe Workfront na Página Inicial e em Resumo:
 
    <table style="table-layout:auto"> 

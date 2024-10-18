@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
@@ -61,5 +61,3 @@ Para ajudá-lo a gerenciar e analisar suas solicitações de aprovação rapidam
 * Aprovações atrasadas
 
 Você pode detalhar as categorias listadas acima para obter uma visualização mais detalhada. O widget Todas as aprovações está disponível em Nova página inicial e Painéis da tela.
-
-Para obter mais informações, consulte [Introdução à nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

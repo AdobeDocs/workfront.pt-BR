@@ -4,9 +4,9 @@ description: Melhorias na página inicial do quarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Fizemos as seguintes alterações no widget Aguardando minha aprovação:
 * **Adicionadas as aprovações que enviei como uma opção de filtro**: agora você pode visualizar as aprovações que enviou na nova Página inicial com este widget.
 * **Prazo**: agora você pode ver o prazo da prova, se ele já tiver sido definido. Se um prazo não estiver definido, o prazo assumirá como padrão a data de criação.
 
-Para obter mais informações, consulte [Introdução à nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obter mais informações, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Simplifique a experiência do Workfront para proprietários de tarefas com prioridades
 

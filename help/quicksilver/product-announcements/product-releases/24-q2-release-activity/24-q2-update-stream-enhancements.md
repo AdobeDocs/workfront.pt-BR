@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ Para obter mais informações, consulte [Nova experiência de comentários](/hel
 
 Agora adicionamos a nova funcionalidade de comentários ao botão de ação rápida **Adicionar nova atualização** nos widgets Meu Trabalho, Meus Projetos, Minhas Tarefas e Meus Problemas, na nova Página inicial.
 
-Para obter mais informações, consulte [Introdução à nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Informações adicionais do comentador disponíveis na nova experiência de comentários
 

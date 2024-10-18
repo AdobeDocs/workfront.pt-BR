@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Marcar um item como Concluído na área Página inicial
 description: Você pode marcar uma tarefa ou problema como Concluído se for o designado da tarefa ou do problema. Quando você marca uma tarefa ou problema como Concluído, o status da tarefa ou problema é alterado para Concluído.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Você pode marcar uma tarefa ou problema como Concluído se for o designado da t
 >[!NOTE]
 >
 >Você não verá o botão [!UICONTROL Concluído], a menos que seja um dos recursos atribuídos à tarefa ou ao problema.
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 ## Requisitos de acesso
 
@@ -52,18 +54,27 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
-## Marcar uma tarefa ou problema como [!UICONTROL Concluído]
++++
 
-Somente o usuário atribuído à tarefa ou problema pode marcá-la como [!UICONTROL Concluído].
+## Marcar um item de trabalho como Concluído no widget Meu trabalho
 
 1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
-1. Na **[!UICONTROL Lista de Trabalho]**, localize todos os itens que estão aguardando para serem trabalhados.
-1. Siga um destes procedimentos:
+1. (Condicional) Clique em **Personalizar** para adicionar o widget **Meu trabalho**.
+1. Localize o item de trabalho e clique em **[!UICONTROL Marcar como Concluído]** no item de trabalho.
+Consulte [Entender as opções do botão [!UICONTROL Concluído]](#understand-the-options-of-the-done-button) para obter informações mais detalhadas sobre como esse botão pode aparecer.
+   ![](assets/my-work-done.png)
 
-* Clique em **[!UICONTROL Concluído]** no item de trabalho.\
-   Consulte [Entender as opções do botão [!UICONTROL Concluído]](#understand-the-options-of-the-done-button) para obter informações mais detalhadas sobre como esse botão pode aparecer.
 
-* Selecione o item que deseja marcar como concluído e, no painel direito, clique em **[!UICONTROL Atualizar status]** e altere o status do item para um status que corresponda a [!UICONTROL Concluído] ou [!UICONTROL Fechado].
+## Marcar um item de trabalho como Concluído no painel Resumo
+
+Você pode marcar um item de trabalho como Concluído no widget Minhas tarefas e Meus problemas usando o painel Resumo.
+
+1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. (Condicional) Clique em **Personalizar** para adicionar os widgets **Minhas Tarefas** ou **Meus Problemas**.
+1. Passe o mouse sobre o item de trabalho e clique no ícone **Resumo**.
+   ![](assets/open-summary-new-home.png)
+1. Clique em **Marcar como concluído** na parte superior do painel Resumo.
+
 
 ## Entenda as opções do botão [!UICONTROL Concluído]
 
@@ -81,7 +92,7 @@ Dependendo de quantos status estão associados ao botão [!UICONTROL Concluído]
 
 Quando o botão [!UICONTROL Concluído] estiver associado a um status e o item de trabalho for atribuído somente a você, o botão exibirá **[!UICONTROL Concluído]**. Ao clicar nela, o status da tarefa ou do problema é alterado para o status associado ao botão [!UICONTROL Concluído].
 
-![Botão Concluído](assets/Done.png)
+![Botão Concluído](assets/done-button-status.png)
 
 Para entender qual status está associado ao botão [!UICONTROL Concluído], verifique as [!UICONTROL Configurações de Equipe] da sua Equipe Doméstica para a seção [!UICONTROL Botão Concluído], conforme descrito em [Editar configurações de equipe](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
@@ -93,10 +104,6 @@ Quando o botão [!UICONTROL Concluído] estiver associado a mais de um status, o
 
 Para entender como você pode associar vários status ao botão [!UICONTROL Concluído], consulte [Configurar o botão [!UICONTROL Concluído] para tarefas](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) e [Configurar o botão [!UICONTROL Concluído] para problemas](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
-<!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ### Botão [!UICONTROL Concluído] para itens atribuídos a vários recursos
 
 Quando a tarefa ou o problema for atribuído a mais de um recurso, o botão mostrará a palavra **[!UICONTROL Concluído]**, seguida por um menu suspenso. No menu suspenso, você tem a opção de escolher entre **[!UICONTROL Concluído com minha parte]** (que permite que os membros da equipe saibam que você está concluído com sua parte da tarefa) ou o status associado ao botão [!UICONTROL Concluído] (que conclui o item). Depois de selecionar **[!UICONTROL Concluído com minha parte]**, o item de trabalho será removido da Lista de Trabalho, mas permanecerá na Lista de Trabalho daqueles ainda atribuídos ao item de trabalho.\
@@ -106,4 +113,5 @@ Se o botão Concluído estiver associado a vários status, eles serão listados 
 >
 >Em uma tarefa ou problema com vários atribuídos, cada usuário é responsável por indicar que sua própria atribuição na tarefa ou problema foi realmente concluída. Por esse motivo, cada destinatário deve clicar em [!UICONTROL Concluído] para mostrar que concluiu o trabalho atribuído a ele no item.
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
+

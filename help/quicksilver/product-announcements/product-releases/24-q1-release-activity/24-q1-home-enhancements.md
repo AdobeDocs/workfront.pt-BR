@@ -4,9 +4,9 @@ description: Melhorias na página inicial do primeiro trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 Para facilitar a visualização do status das aprovações e revisões nos projetos que você possui, adicionamos um novo widget Aprovações pendentes à Página inicial. Aqui, você pode ver uma lista de usuários atribuídos para aprovar ou revisar documentos em projetos que possui, ver o status de sua revisão ou aprovação e lembrar os revisores e aprovadores a concluírem sua revisão ou aprovação.
 
-Para obter mais informações sobre widgets da Página inicial, consulte [Introdução à nova Página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Controles do administrador para nova Página inicial usando modelos de layout
 
@@ -34,5 +33,3 @@ Para obter mais informações, consulte [Personalizar nova Página Inicial usand
 ## Os botões de ação rápida Meu Trabalho foram alterados para serem exibidos somente ao passar o mouse
 
 Para melhorar o desempenho, os botões de ação rápida disponíveis no widget Meu trabalho agora serão exibidos somente quando um item de trabalho for focalizado com o mouse.
-
-Para obter mais informações sobre os botões de ação rápida disponíveis no widget Meu Trabalho, consulte [Introdução à Nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

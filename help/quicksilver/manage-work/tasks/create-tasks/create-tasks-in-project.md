@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '749'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Você só pode criar tarefas em um projeto depois de criá-lo.
 
 Por exemplo, após criar um projeto, você pode adicionar tarefas e modificá-las para organizar o plano do projeto. Para obter mais informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
-Para obter informações sobre como criar tarefas pessoais que não estão em um projeto, consulte a seção [Criar uma tarefa pessoal](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) no artigo [Criar itens de trabalho da área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Para obter informações sobre como criar tarefas pessoais que não estão em um projeto, consulte a seção [Criar uma tarefa pessoal](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) no artigo [Criar itens de trabalho e projetos da área Página inicial](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 Este artigo descreve como criar tarefas do zero. Você também pode criar tarefas das seguintes maneiras:
 

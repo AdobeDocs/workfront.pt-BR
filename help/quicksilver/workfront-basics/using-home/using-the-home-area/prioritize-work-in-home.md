@@ -6,20 +6,27 @@ description: Você pode priorizar itens da sua Lista de trabalho na Página inic
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 8647df70-c9cc-47fb-a7f7-a83d0fd061b4
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
 # Priorizar trabalho na área [!UICONTROL Residência]
 
-Você pode priorizar itens da sua [!UICONTROL Lista de Trabalho] na [!UICONTROL Página Inicial]. Os itens adicionados a [!UICONTROL Minha Prioridade] são prioridades somente para você. Elas não são priorizadas para outras pessoas, e ninguém pode priorizá-las para você. Você pode adicionar até 20 itens na opção [!UICONTROL Minha Prioridade] [!UICONTROL Classificar por].
+>[!IMPORTANT]
+>
+>Essa funcionalidade foi removida com a desativação da Página inicial herdada em 17/10/2014.
 
-## Requisitos de acesso
+<!--You can prioritize your work in the new Priorities area. See []().
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+You can prioritize items from your [!UICONTROL Work List] in [!UICONTROL Home]. Items you add to [!UICONTROL My Priority] are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the [!UICONTROL My Priority] [!UICONTROL Sort By] option.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,63 +36,64 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Qualquer</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Acesso de [!UICONTROL Editar] a Tarefas e Problemas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL Edit] access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Permissões do Contribute ou superior para as tarefas e problemas que você deseja priorizar</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you want to prioritize</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Adicionar itens a [!UICONTROL Minha Prioridade]
+## Add items to [!UICONTROL My Priority] 
 
-Você pode adicionar qualquer item atribuído a você em sua [!UICONTROL Lista de Trabalho] a [!UICONTROL Minha Prioridade]. Novos itens são adicionados na parte inferior da lista.
+You can add any item assigned to you in your [!UICONTROL Work List] to [!UICONTROL My Priority]. New items are added at the bottom of the list.
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
-1. No painel esquerdo, verifique se o menu suspenso **[!UICONTROL Agrupar por]** está classificando por uma das seguintes opções:
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the left panel, ensure the **[!UICONTROL Group by]** drop-down menu is sorting by one of the following options:
 
-   * [!UICONTROL Conclusão planejada]
-   * [!UICONTROL Início planejado]
-   * [!UICONTROL Data de confirmação]
-   * [!UICONTROL Projeto]
+   * [!UICONTROL Planned Completion]
+   * [!UICONTROL Planned Start]
+   * [!UICONTROL Commit Date]
+   * [!UICONTROL Project]
 
-1. Passe o mouse sobre um item de trabalho e clique no ícone **[!UICONTROL Mais]** ![](assets/more-icon.png).
+1. Hover over a work item, and click on the **[!UICONTROL More]** icon ![](assets/more-icon.png).
 
-1. Selecione **[!UICONTROL Adicionar à Minha Prioridade]**.
+1. Select **[!UICONTROL Add to My Priority]**.
 
    ![](assets/getting-started-my-priority-group-by-drop-down-nwe-350x405.png)
 
-## Priorizar itens usando o agrupamento [!UICONTROL Minha Prioridade]
+## Prioritize items using the [!UICONTROL My Priority] grouping
 
-Você pode priorizar seu trabalho depois de selecionar [!UICONTROL Minha Prioridade] no menu suspenso de agrupamento, colocando os itens mais importantes no topo da lista. As prioridades que você definir estarão visíveis somente para você. Ninguém mais pode priorizar o trabalho para você.
+You can prioritize your work after you select [!UICONTROL My Priority] in your grouping drop-down menu, placing the most important items at the top of the list. Priorities you set are visible only to you. No one else can prioritize work for you.
 
-Você deve adicionar itens de trabalho a [!UICONTROL Minha Prioridade] antes de começar a priorizar.
+You must add work items to [!UICONTROL My Priority] before you can begin prioritizing.
 
-Para obter mais informações, consulte a seção [Adicionar itens à [!UICONTROL Minha Prioridade]](#add-items-to-my-priority) neste artigo.
+For more information, see the section [Add items to [!UICONTROL My Priority]](#add-items-to-my-priority) in this article.
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
-1. No painel esquerdo, clique no menu suspenso **[!UICONTROL Agrupar por]** e selecione **[!UICONTROL Minha Prioridade]**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the left panel, click the **[!UICONTROL Group by]** drop-down menu, then select **[!UICONTROL My Priority]**.
 
-1. Selecione um item de trabalho e arraste-o e solte-o no lugar certo para priorizá-lo na sua lista.
+1. Select a work item and drag and drop it in the right place to prioritize it in your list.
 
    ![](assets/drag-drop-my-priority-with-group-by-menu-nwe-350x426.png)
 
-## Remover itens de [!UICONTROL Minha Prioridade]
+## Remove items from [!UICONTROL My Priority]
 
-Você pode remover itens de [!UICONTROL Minha Prioridade] concluindo o item de trabalho ou removendo-o manualmente usando o ícone [!UICONTROL Mais]. Se você tiver uma atribuição removida de um item de trabalho, ela também será removida de [!UICONTROL Minha Prioridade].
+You can remove items from [!UICONTROL My Priority] by completing the work item or manually removing it using the [!UICONTROL More] icon. If you are unassigned from a work item, it is also removed from [!UICONTROL My Priority].
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
-1. No painel esquerdo, clique no ícone **[!UICONTROL Mais]** e selecione **[!UICONTROL Remover de Minha Prioridade]**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the left panel, click the **[!UICONTROL More]** icon, then select **[!UICONTROL Remove from My Priority]**.
 
-   ![[!UICONTROL Remover de [!UICONTROL Minha Prioridade]]](assets/getting-started-remove-from-priority-nwe-350x395.png)
+   ![[!UICONTROL Remove from [!UICONTROL My Priority]]](assets/getting-started-remove-from-priority-nwe-350x395.png)
+-->

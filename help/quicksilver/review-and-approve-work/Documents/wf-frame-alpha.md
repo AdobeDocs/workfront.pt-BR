@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,6 @@ Para ajudá-lo a gerenciar e analisar suas solicitações de aprovação rapidam
 
 Você pode detalhar as categorias listadas acima para obter uma visualização mais detalhada. O widget Todas as aprovações está disponível em Nova página inicial e Painéis da tela.
 
-Para obter mais informações, consulte [Introdução à nova Página Inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Bloquear sua análise e aprovações depois que uma decisão geral for tomada
 

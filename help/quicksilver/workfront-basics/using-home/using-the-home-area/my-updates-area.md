@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Usar a área Minhas atualizações
 description: Você pode usar a área [!UICONTROL Minhas atualizações] para revisar rapidamente as aprovações que estão aguardando sua decisão ou as conversas incluídas em.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # Usar a área [!UICONTROL Minhas atualizações]
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 Você pode usar a área [!UICONTROL Minhas atualizações] para revisar rapidamente as aprovações que estão aguardando sua decisão ou as conversas incluídas em.
 
@@ -28,6 +25,8 @@ Para obter informações sobre [!DNL Adobe Workfront] licenças, consulte [[!DNL
 Se você tiver um tipo de licença diferente de Revisão, o administrador do [!DNL Workfront] ou do Grupo deverá adicionar a área [!UICONTROL Minhas Atualizações] ao modelo de layout para exibi-la no Menu Principal. Para obter informações, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -57,6 +56,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront]. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 

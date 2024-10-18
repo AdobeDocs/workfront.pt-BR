@@ -6,10 +6,10 @@ description: Aprovar trabalho
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 1%
 
 ---
 
@@ -66,68 +66,75 @@ Para obter mais informações sobre como exibir itens que estão aguardando apro
 
 ## Aprovar trabalho na área Página inicial
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
+1. (Condicional) Clique no menu suspenso **Filtro** e selecione **Todos** para ver as aprovações atribuídas e delegadas a você.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
-   >
-   >   
-   >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >As aprovações atribuídas a funções ou grupos de trabalho não são exibidas na Página inicial. As aprovações atribuídas a equipes são exibidas no widget Minhas aprovações para cada membro da equipe.
 
-1. Clique no menu suspenso **Filtro**.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. Selecione **Aprovações**.\
-   Todos os itens de trabalho que exigem sua aprovação são exibidos. 
-
-   >[!NOTE]
-   >
-   >As aprovações atribuídas a funções ou grupos de trabalho não são exibidas na Página inicial. As aprovações atribuídas a Equipes são exibidas no agrupamento Solicitação de equipe na Lista de trabalho.
-
-1. (Opcional) Altere a ordem na qual as aprovações são exibidas, conforme descrito na seção &quot;Agrupar e classificar por data, projeto ou prioridade&quot; no artigo [Exibir itens na Lista de Trabalho na área Página Inicial](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 1. Selecione o item em que deseja tomar uma decisão de aprovação.
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. Clique em uma das opções disponíveis ao tomar uma decisão de aprovação no painel direito. As seguintes opções são exibidas no canto superior direito da página, dependendo do tipo de item que você está aprovando:
 
-   * **Projetos:** Clique em **Aprovar** ou **Rejeitar**.
+   <table>
+   <tr>
+      <td>
+      <p><strong>Acesso</strong></p>
+      </td>
+      <td>
+      <p><strong>Itens de trabalho</strong></p>
+      </td>
+      <td>
+      <p><strong>Documentos</strong></p>
+      </td>
+      <td>
+      <p><strong>Provas</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>Conceder</li>
+      <li>Ignorar</li>
+      </ul>
+      Você pode ajustar o nível de acesso no menu suspenso <b>Alterar acesso</b>, se desejar.
+      </td>
+      <td>
+         <ul>
+         <li>Aprovar</li>
+         <li>Rejeitar</li>
+         </ul>
+      Você pode deixar um comentário com sua decisão clicando no menu suspenso no botão de decisão.
+      </td>
+      <td>
+   Atribuído como um aprovador
+         <ul>
+         <li>Aprovar</li>
+         <li>Aprovar com alterações</li>
+         <li>Precisa do trabalho</li>
+         </ul>
+   Atribuído como revisor
+         <ul>
+         <li>Concluir minha revisão</li>
+         </ul>
+      As opções dessa coluna se aplicam somente a novas aprovações de documentos. As aprovações de documentos herdados aparecem da mesma forma que as aprovações de itens de Trabalho. 
+      </td>
+      <td>
+         <ul>
+         <li>Ir para prova</li>
+         </ul>
+         Você toma a sua decisão no visualizador de prova. Para obter informações sobre como revisar uma prova, consulte <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Revisar provas no Adobe Workfront</a>.
+      </td>
+   </tr>
+   </table>
 
-   * **Tarefas:** Clique em **Aprovar** ou **Rejeitar**.
+Depois de tomar uma decisão, a aprovação é removida do widget Minha aprovação.
 
-   * **Problemas:** Clique em **Aprovar** ou **Rejeitar**.
-
-   * **Folhas de horas:** Clique em **Aprovar** ou **Rejeitar**.
-
-   * **Documentos:** Clique em **Aprovar**, **Rejeitar** ou **Alterações**.\
-      Considere o seguinte ao visualizar  aprovações:
-
-      * As aprovações de prova são exibidas aqui quando um usuário compartilha uma prova com você, conforme descrito na seção &quot;Compartilhar um link de prova&quot; no artigo [Compartilhar uma prova no Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * As aprovações de provas são exibidas na área Página inicial somente se o ambiente do Workfront estiver integrado a uma conta do Workfront Proof Premium. Se não conseguir usar provas como discutido aqui, entre em contato com o administrador do Workfront.
-      * Você recebe uma notificação no aplicativo, notificando você sobre a aprovação da prova.\
-        Para obter mais informações sobre notificações no aplicativo, consulte [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
-
-      * O nome do usuário que solicitou a aprovação é exibido ao lado da imagem em miniatura na área Página inicial, com o seguinte texto:\
-        &quot;*O Usuário A* deseja obter sua aprovação em...&quot;
-
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
-
-        Se o nome de usuário não estiver disponível, o seguinte texto será exibido:\
-        &quot;Uma nova versão de uma prova está pronta para ser visualizada&quot;
-      * Para tomar uma decisão de aprovação na prova, clique em **Ir para Prova**, clique em **Concluir revisão** e em uma das opções disponíveis. As opções disponíveis ao aprovar uma prova são: **Aprovado**, **Aprovado com alterações**, **Alterações necessárias** e **Não relevante**.
-
-      * Depois que uma decisão é tomada sobre a prova, ela permanece na guia Minhas aprovações com o texto &quot;Tomada de decisão&quot; até que você clique no botão **Atualizar** ou até que você atualize a página do navegador.
-
-        Para obter informações sobre como revisar uma prova, consulte [Revisar provas no Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-
-   * **Acesso:** Selecione o nível de acesso a ser concedido no menu suspenso **Alterar acesso** e clique em **Conceder acesso**. Ou clique em **Ignorar**.
 
 ## Aprovar o trabalho diretamente de um projeto, tarefa ou problema
 
