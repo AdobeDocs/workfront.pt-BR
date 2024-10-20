@@ -6,9 +6,9 @@ description: O objetivo do painel é fornecer acesso rápido às informações. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
    * **Nome**: edite o nome do painel.
    * **Descrição**: especifique uma descrição para o painel.
 
-1. Na seção **Relatórios Disponíveis**, comece digitando o nome de um relatório ou página externa no campo **Pesquisar por nome ou tipo ...** e, em seguida, arraste e solte o relatório no painel de layout à direita.
+1. Na seção **Relatórios e Calendários Disponíveis**, comece digitando o nome de um relatório, calendário ou página externa na barra de pesquisa e, em seguida, arraste e solte o relatório, o calendário ou a página externa no painel de layout à direita.
 
    >[!NOTE]
    >

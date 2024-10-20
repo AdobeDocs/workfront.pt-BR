@@ -6,9 +6,9 @@ description: Você pode criar painéis para acessar informações rapidamente no
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -102,13 +102,13 @@ Você pode adicionar páginas externas existentes a um painel ou criar uma a par
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Pesquise relatórios, calendários ou páginas externas no campo **Pesquisar por nome ou tipo ...** e arraste-os para o painel de layout quando eles aparecerem na lista.
+1. Na seção **Relatórios e Calendários Disponíveis**, comece digitando o nome de um relatório, calendário ou página externa na barra de pesquisa e, em seguida, arraste e solte o relatório, o calendário ou a página externa no painel de layout à direita.
 
    >[!NOTE]
    >
    >Ao pesquisar por um item, a pesquisa retorna qualquer um dos 2.000 relatórios criados mais recentemente. Os nomes de relatório que incluem caracteres unicode não são retornados nos resultados da pesquisa. Como prática recomendada, evite incluir caracteres unicode ao nomear objetos no Workfront digitando nomes em vez de copiar e colar nomes de outra fonte.
 
-   ![Pesquisar relatórios](assets/qs-new-dashboard-ui-0722.png)
+   ![Pesquisar relatórios](assets/unshimmed-dashboard-ui.png)
 
 1. (Opcional) Clique em **Adicionar página externa** para adicionar uma nova Página externa ao painel.
 

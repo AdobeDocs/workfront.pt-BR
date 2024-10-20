@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: c243aafc5d62fdd5ed2f209fe963e92f2548965c
+source-git-commit: 393405424c0ce3334304643c9474369e12417406
 workflow-type: tm+mt
-source-wordcount: '14514'
+source-wordcount: '14505'
 ht-degree: 2%
 
 ---
@@ -445,8 +445,6 @@ ht-degree: 2%
          * [Nova experiência de comentários](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nova atividade de lançamento de experiência de comentário](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Perguntas frequentes sobre a nova experiência de comentários](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Versão beta do Workfront Data Connect {#data-lake-beta}
-         * [Informações beta do Workfront Data Connect](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administração e configuração {#administration-and-setup}
    * [Administração e configuração: índice de artigos](administration-and-setup/administration-and-setup.md)
    * Introdução à administração {#get-started-administration}
