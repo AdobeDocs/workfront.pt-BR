@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
 1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalizar o que os usuários veem** e em **Painel de resumo**.
 
-1. Na lista à esquerda, clique no tipo de objeto (**Tarefas**, **Problemas**, **Projetos**, **Documentos** ou **Versões de Documentos**) que você deseja personalizar na Página Inicial e no Resumo.
+1. Na lista à esquerda, clique no tipo de objeto (**Tarefas**, **Problemas**, **Projetos**, **Documentos** ou **Versões de Documentos**) que você deseja personalizar no painel Resumo.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Condicional) Se o menu suspenso **Definir botão de ação principal** for exibido (se você selecionar **Tarefas** ou **Problemas** na lista à esquerda), clique na ação principal (**Concluído** ou **Status**) que você deseja disponibilizar para os usuários na área Página inicial e no painel Resumo quando eles visualizarem uma tarefa ou um problema.
+1. (Condicional) Se o menu suspenso **Definir botão de ação principal** for exibido (se você selecionar **Tarefas** ou **Problemas** na lista à esquerda), clique na ação principal (**Concluído** ou **Status**) que você deseja disponibilizar para os usuários no Painel de resumo quando eles visualizarem uma tarefa ou um problema.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Repita as etapas 3 a 6 para personalizar o painel Resumo para qualquer outro tipo de objeto.
-1. Clique em **Configurações globais**, próximo ao canto inferior esquerdo, e habilite ou desabilite qualquer uma das seguintes opções relacionadas a objetos do Adobe Workfront na Página Inicial e em Resumo:
+1. Clique em **Configurações globais**, próximo ao canto inferior esquerdo, e habilite ou desabilite qualquer uma das seguintes opções relacionadas a objetos do Adobe Workfront no Resumo:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
     <tbody> 
      <tr> 
       <td role="rowheader">Exibir atualizações do trabalho</td> 
-      <td>Exibe todas as atualizações feitas em uma tarefa ou problema selecionado na Página inicial ou em Resumo. Isso inclui atualizações do sistema e atualizações feitas por um usuário. Os usuários ainda podem filtrar atualizações do sistema, conforme descrito em <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Habilitar ou desabilitar atualizações do sistema</a> em <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabalho de atualização</a>.</td> 
+      <td>Exibe todas as atualizações feitas em uma tarefa ou problema selecionado no painel Resumo. Isso inclui atualizações do sistema e atualizações feitas por um usuário. Os usuários ainda podem filtrar atualizações do sistema, conforme descrito em <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Habilitar ou desabilitar atualizações do sistema</a> em <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabalho de atualização</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Registar horas em relação a trabalho</td> 
@@ -140,16 +140,16 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
      </tr> 
      <tr> 
       <td role="rowheader">Exibir documentos associados ao trabalho</td> 
-      <td>Exibe uma área Documentos na Página inicial e em Resumo quando uma tarefa ou problema é selecionado, listando todos os documentos anexados à tarefa ou problema. Os usuários podem clicar em documentos para exibi-los em uma janela de pré-visualização.</td> 
+      <td>Exibe uma área Documentos no painel Resumo quando uma tarefa ou problema é selecionado, listando todos os documentos anexados à tarefa ou problema. Os usuários podem clicar em documentos para exibi-los em uma janela de pré-visualização.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ocultar carimbo de data e hora</td> 
-      <td>Oculta carimbos de data e hora para os seguintes campos de data na Página inicial e no Resumo:
+      <td>Oculta carimbos de data e hora para os seguintes campos de data no painel Resumo:
        <ul>
         <li>Data de conclusão planejada</li>
         <li>Data de confirmação</li>
         <li>Data de Envio</li>
-       </ul><p><b>NOTA</b>:</p> <p> Quando esta opção está habilitada, os itens de trabalho vencidos são movidos para o agrupamento Atrasado na Lista de trabalho da página inicial com base somente na data, não na hora.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

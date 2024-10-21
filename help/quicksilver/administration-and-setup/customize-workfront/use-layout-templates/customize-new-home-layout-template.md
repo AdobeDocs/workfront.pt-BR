@@ -3,21 +3,21 @@ title: Personalizar nova página inicial usando um modelo de layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Você pode usar um modelo de layout para configurar o que os usuários veem quando abrem uma nova página inicial.
+description: Você pode usar um Modelo de layout para configurar o que os usuários veem quando abrem a Página inicial.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
 
-# Personalizar a nova página inicial usando um modelo de layout
+# Personalizar página inicial usando um modelo de layout
 
-Você pode usar um modelo de layout para configurar o que os usuários veem quando abrem a nova página inicial pela primeira vez.
+Você pode usar um Modelo de layout para configurar o que os usuários veem quando abrem a Página inicial pela primeira vez.
 
 Você pode configurar:
 
@@ -33,7 +33,7 @@ Você pode configurar:
 
 
 
-Para obter informações sobre a nova Página inicial, consulte [Introdução à Página inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Para obter informações sobre a página inicial, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -73,9 +73,9 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
 +++
 
-## Personalizar a nova página inicial usando um modelo de layout
+## Personalizar página inicial usando um modelo de layout
 
-Para personalizar a Nova página inicial usando um modelo de layout:
+Para personalizar a Página inicial usando um modelo de layout:
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -91,13 +91,13 @@ Para personalizar a Nova página inicial usando um modelo de layout:
       <td role="rowheader">Design e layout</td> 
       <td>
       <p>Selecione quais widgets estarão presentes nos espaços de trabalho dos usuários, suas posições e escolha um plano de fundo. Observe que, embora os usuários não possam remover os widgets selecionados, eles podem movê-los e redimensioná-los livremente, bem como adicionar widgets adicionais.</p>
-      <p>Esta guia funciona essencialmente como um pequeno espaço de trabalho novo na Página Inicial; dessa forma, ela pode ser personalizada de acordo com as etapas descritas em <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Adicionar, editar ou remover widgets na Página Inicial</a>. Selecione widgets e organize o espaço de trabalho da maneira que você desejar que ele seja exibido para os usuários.</p>
+      <p>Esta guia funciona essencialmente como um pequeno espaço de trabalho na Página Inicial; dessa forma, ela pode ser personalizada de acordo com as etapas descritas em <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Adicionar, editar ou remover widgets na Página Inicial</a>. Selecione widgets e organize o espaço de trabalho da maneira que você desejar que ele seja exibido para os usuários.</p>
       <p>Para alterar o plano de fundo, siga as etapas em <b>Personalização do plano de fundo</b> em <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Introdução à Página Inicial</a>.</p>
       <p>
 
 >[!NOTE]
 >
->Somente mover ou redimensionar widgets no Modelo de layout não fará com que as novas Home pages dos usuários atualizem seu layout. No entanto, adicionar ou remover um widget acionará uma atualização nas páginas dos usuários.
+>Somente mover ou redimensionar widgets no Modelo de layout não fará com que as Home pages dos usuários atualizem seu layout. No entanto, adicionar ou remover um widget acionará uma atualização nas páginas dos usuários.
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ Para personalizar a Nova página inicial usando um modelo de layout:
 
 >[!IMPORTANT]
 >
->Os usuários devem ter pelo menos o acesso de Criação a Exibições para que a configuração da coluna do administrador seja aplicada corretamente às novas Páginas iniciais.
+>* As opções Filtro, Colunas e Grupo são vinculadas às opções de personalização da lista no Modelo de layout. As alterações feitas aqui também serão aplicadas a essas configurações.
+>* Os usuários devem ter pelo menos o acesso de Criação a Exibições para que a configuração da coluna do administrador seja aplicada corretamente a suas Páginas iniciais.
 
 </p>
       <li><p><b>Defina um Filtro ou Grupo padrão para o widget:</b></p>
@@ -147,4 +148,4 @@ Para personalizar a Nova página inicial usando um modelo de layout:
 
 >[!IMPORTANT]
 >
->Você deve atualizar a nova página inicial para ver as personalizações do Modelo de layout.
+>Você deve atualizar a página inicial para ver as personalizações do Modelo de layout.

@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: b2135fb5f29ebc794763ab6d3fb1c539de6125b4
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1644'
 ht-degree: 11%
 
 ---
@@ -113,7 +113,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 | Anexar formulários personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Editar campos personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Aprovar problemas | ✓ µ | ✓ µ | ✓ µ |   |
-| Adicionar um processo de aprovação | ✓ µ | ✓ µ | ✓ µ |   |
+| Adicionar um processo de aprovação | ✓ µ |   |   |   |
 | Adicionar documentos | ✓ µ | ✓ µ | ✓ µ |   |
 | Copiar problemas | ✓ µ | ✓ µ | ✓ µ |   |
 | Mover problemas | ✓ µ | ✓ µ | ✓ µ |   |
