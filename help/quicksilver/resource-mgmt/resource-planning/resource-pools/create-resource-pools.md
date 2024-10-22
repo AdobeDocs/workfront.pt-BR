@@ -9,7 +9,7 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="Conjunto de recursos"
->abstract="Um Conjunto de Recursos é uma coleção de usuários necessários ao mesmo tempo para a conclusão de um projeto. Após criar um conjunto de recursos, você pode associá-lo a projetos e modelos."
+>abstract="Um Conjunto de recursos é uma coleção de usuários necessários ao mesmo tempo para a conclusão de um projeto. Após criar um conjunto de recursos, você pode associá-lo a projetos e modelos."
 
 Conjuntos de recursos são coleções de usuários que ajudam a gerenciar recursos com mais facilidade no Adobe Workfront. Para obter mais informações sobre pools de recursos, consulte [Visão geral dos pools de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
