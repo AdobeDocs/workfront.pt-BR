@@ -6,9 +6,9 @@ description: O Adobe Workfront permite que equipes ágeis concluam o trabalho de
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Para obter mais informações, consulte [Visão geral do gráfico de burndown á
 
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipe](assets/switch-team-icon.png) e clique em **[!UICONTROL Criar nova equipe]**.
 
-   ![Selecione Criar nova equipe.](assets/create-new-team-350x198.png)
+   ![Selecione Criar nova equipe](assets/create-new-team.png)
 
    A caixa Nova equipe é exibida.
 
@@ -158,7 +158,7 @@ Para obter mais informações, consulte [Visão geral do gráfico de burndown á
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] podem ver esta opção.
-   ![](assets/edit-team-settings-350x205.png)
+   ![Selecionar Editar](assets/edit-team-settings.png)
 
 1. Na seção **[!UICONTROL Agile]**, selecione **[!UICONTROL Equipe Agile]**.
 

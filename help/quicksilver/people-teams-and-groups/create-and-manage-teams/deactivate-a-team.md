@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Desativar uma equipe
+title: Desativar ou excluir uma equipe
 description: Você pode desativar as equipes que não usam mais enquanto retém os dados históricos associados. Os administradores do Adobe Workfront podem reativar uma equipe a qualquer momento na área Equipes em Configuração.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Desativar uma equipe
+# Desativar ou excluir uma equipe
 
 Você pode desativar as equipes que não usam mais enquanto retém os dados históricos associados. Os administradores do [!DNL Adobe Workfront] podem reativar uma equipe a qualquer momento na área Equipes em Configuração. Se você desativar um grupo, ele não será mais exibido nas seguintes áreas:
 
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <p>Novo: Padrão</p>
    <p>ou</p>
    <p>Atual: Plano</p></td>
-  </tr> 
+  </tr>
+  <tr>
+   <td>Configurações de nível de acesso</td>
+   <td><p>Não são necessárias configurações para desativar um grupo.</p>
+   <p>É necessário ser administrador do sistema para excluir uma equipe.</p></td>
+  </tr>
  </tbody> 
 </table>
 
@@ -85,13 +90,28 @@ Ao usar filas de solicitações, se você desativar uma equipe atribuída como a
 1. Clique no ícone **[!DNL Switch team]** e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![](assets/edit-team-settings.png)
 
-1. Desmarque a caixa de seleção **[!UICONTROL Está ativo]**.
+1. Desmarque a caixa de seleção **[!UICONTROL Está ativo]** nas configurações da equipe.
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
-## Limitações conhecidas
+## Limitações conhecidas da desativação de um grupo
 
 As equipes desativadas são exibidas nas seguintes áreas:
 
 * O campo Proprietário em [!DNL Workfront Goals]. Isso requer uma licença adicional para [!DNL Adobe Workfront Goals]. Para obter mais informações, consulte [Introdução a [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+
+## Excluir uma equipe
+
+Somente um administrador do sistema pode excluir uma equipe. Se você for um proprietário de equipe (mas não um administrador) e tentar excluir uma equipe, verá uma mensagem de erro.
+
+Para excluir uma equipe:
+
+{{step1-to-team}}
+
+1. Clique no ícone **[!DNL Switch team]** e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Excluir]**.
+
+   ![](assets/edit-team-settings.png)
+
+1. Clique em [!UICONTROL **Confirmar**] na mensagem de confirmação para excluir permanentemente a equipe. As equipes excluídas não podem ser recuperadas.

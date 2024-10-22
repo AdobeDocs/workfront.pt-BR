@@ -6,9 +6,9 @@ description: Os administradores e usuários do Workfront com uma licença de Pla
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique no menu ![](assets/more-icon.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
-   Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL Trabalho] veem essa opção.
+   Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] podem ver esta opção.
 
    Se você tiver a opção [!UICONTROL Editar], mas não a vir, peça ao administrador do Workfront para verificar se as [!UICONTROL Configurações da Equipe] estão visíveis no modelo de layout para a [!UICONTROL Equipe de Scrum], a [!UICONTROL Equipe Kanban] ou a [!UICONTROL Equipe Waterfall].
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. Nas configurações do grupo, você pode fazer os seguintes tipos de alterações:
 

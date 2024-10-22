@@ -6,7 +6,7 @@ description: Por padrão, ao criar uma equipe, você se torna o Proprietário da
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipe](assets/switch-team-icon.png) e clique em **[!UICONTROL Criar nova equipe]**.
 
-   ![Selecione Criar nova equipe.](assets/create-new-team-350x198.png)
+   ![Selecione Criar nova equipe.](assets/create-new-team.png)
 
 1. Na caixa **[!UICONTROL Nova Equipe]** que é exibida, insira as seguintes informações:
 

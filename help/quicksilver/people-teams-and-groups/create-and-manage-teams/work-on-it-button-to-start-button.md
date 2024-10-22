@@ -6,9 +6,9 @@ description: A configuração padrão do Adobe Workfront inclui um botão Trabal
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Para configurar o botão Iniciar:
 
 1. No menu suspenso **[!UICONTROL Equipes]**, selecione uma equipe.\
    ou\
-   Clique em **[!UICONTROL Criar Equipe]**.
+   Clique em **[!UICONTROL Criar nova equipe]**.
 
 1. Clique no ícone **[!UICONTROL Mais]** ![](assets/more-icon.png) e em **[!UICONTROL Editar]**.
 

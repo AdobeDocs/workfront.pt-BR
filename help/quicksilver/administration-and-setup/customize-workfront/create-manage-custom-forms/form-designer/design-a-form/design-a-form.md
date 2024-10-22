@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '5575'
+source-wordcount: '5540'
 ht-degree: 5%
 
 ---
@@ -233,7 +233,7 @@ Para adicionar um campo de texto:
     </ul></td>
     </tr>
     <tr>
-    <td>Formatar</td>
+    <td>Formato</td>
     <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>NOTA</b>:   
     <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li> 
@@ -351,7 +351,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     </ul></td>
     </tr> 
     <tr> 
-    <td role="rowheader">Formatar</td> 
+    <td role="rowheader">Formato</td> 
     <td> <p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>NOTA</b>:   
      <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.<br></li> 
@@ -562,9 +562,8 @@ Para obter exemplos de como usar o campo de pesquisa externa para chamar a mesma
 
 >[!NOTE]
 >
->* No momento, os campos de pesquisa externa de formulários personalizados não são compatíveis com painéis. Não é possível editar o valor do campo em linha e ele pode não ser exibido corretamente em um painel. (Campos de pesquisa externa são aceitos nos Painéis do Canvas.)
 >* Não há suporte para campos de pesquisa externos no plug-in do Outlook.
->* Os campos de pesquisa externos estão disponíveis em listas, a menos que o campo tenha uma dependência em outro campo.
+>* Campos de pesquisa externa não estão disponíveis em listas quando o campo tem uma dependência em outro campo.
 
 Para adicionar uma pesquisa externa:
 
@@ -588,7 +587,7 @@ Para adicionar uma pesquisa externa:
       <td> <p>Digite quaisquer informações adicionais sobre o campo personalizado. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Formatar</td>
+      <td role="rowheader">Formato</td>
       <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p>
       <p><strong>NOTA:</strong></p>
       <ul><li>É possível alterar o tipo de formato depois que o formulário é salvo, com uma limitação: todos os valores existentes em objetos devem poder ser convertidos para o novo tipo. (Por exemplo, se o tipo de formato for Texto e um objeto estiver armazenando o valor "abc", você não poderá converter o campo e receberá um erro de que o sistema não poderá converter "abc" em número/moeda.) Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li>
