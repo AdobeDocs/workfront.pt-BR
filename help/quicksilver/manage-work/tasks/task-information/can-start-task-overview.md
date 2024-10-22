@@ -7,9 +7,9 @@ description: Quando uma tarefa está pronta para ser iniciada, o Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ Quando a tarefa está pronta para ser trabalhada, o campo Pode Iniciar na tarefa
 
 O Workfront verifica os seguintes itens antes de marcar uma tarefa como Verdadeira para o campo Pode iniciar:
 
-* Se a tarefa tiver um pai, ela verificará se o valor Pode Iniciar para o pai está definido como Verdadeiro. Se o valor do pai for Falso, todas as subtarefas terão o valor Pode Iniciar definido como Falso. 
-* Também verifica se os predecessores da tarefa e os predecessores de seus pais foram concluídos. Se estiverem concluídos, o valor Pode iniciar da tarefa será definido como Verdadeiro. Se qualquer um dos predecessores da tarefa ou os predecessores de seus pais não estiverem completos ou tiverem um status de Concluído-Pendente de Aprovação, o valor Pode Iniciar da tarefa será definido como Falso. 
+* Se o valor Pode Iniciar para o pai definido como Verdadeiro, se a tarefa tiver um pai. Se o valor do pai for Falso, todas as subtarefas terão o valor Pode Iniciar definido como Falso.
+* Se os predecessores da tarefa e os predecessores de seus pais estão concluídos. Se estiverem concluídos, o valor Pode iniciar da tarefa será definido como Verdadeiro. Se qualquer um dos predecessores da tarefa ou os predecessores de seus pais não estiverem completos ou tiverem um status de Concluído-Pendente de Aprovação, o valor Pode Iniciar da tarefa será definido como Falso.
+* Se o tipo de dependência da tarefa é Início-Início ou Início-Término. Se o tipo de dependência for Início-Início ou Início-Término, a tarefa dependente terá o sinalizador &quot;Pode iniciar&quot; definido como Verdadeiro depois que a tarefa pai estiver em andamento (ou depois que a porcentagem concluída da tarefa pai for maior que 1%). <!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
 
   Para obter informações sobre predecessores de tarefas, consulte [Visão geral dos predecessores da tarefa](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

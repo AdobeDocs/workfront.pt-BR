@@ -7,9 +7,9 @@ description: A Data de conclusão planejada de uma tarefa é a data na qual a ta
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 A Data de conclusão planejada de uma tarefa é a data na qual a tarefa está definida para ser concluída.
 
-Você pode especificar a Data de conclusão planejada de uma tarefa ou deixá-la a cargo do Adobe Workfront para calculá-la, dependendo de determinados critérios. 
+Você pode especificar a Data de conclusão planejada de uma tarefa ou deixá-la a cargo do Adobe Workfront para calculá-la, dependendo de determinados critérios.
 
-As Datas de conclusão planejadas das tarefas em um projeto determinam a Data de conclusão planejada de um projeto quando ele estiver programado a partir da Data inicial. Para obter mais informações sobre a Data de Conclusão Planejada do projeto, consulte [Definir a Data de Conclusão Planejada do projeto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+As Datas de conclusão planejadas das tarefas em um projeto determinam a Data de conclusão planejada de um projeto quando ele estiver programado a partir da Data inicial. Para obter mais informações sobre a Data de Conclusão Planejada do projeto, consulte [Definir a Data de Conclusão Planejada do projeto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -38,19 +38,19 @@ As Datas de conclusão planejadas das tarefas em um projeto determinam a Data de
 
 Você deve ter acesso para Editar a Tarefas e Gerenciar permissões na tarefa para poder atualizar a Data de conclusão planejada da tarefa.
 
-Definir a Data de conclusão planejada de uma tarefa depende do tipo de Restrição de tarefa que você atribui à tarefa. 
+Definir a Data de conclusão planejada de uma tarefa depende do tipo de Restrição de tarefa que você atribui à tarefa.
 
 Você pode definir manualmente a Data de conclusão planejada nas seguintes áreas do Workfront:
 
-* Na caixa Editar tarefa, ao criar ou editar uma tarefa. Para obter informações, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Na caixa Editar tarefa, ao criar ou editar uma tarefa. Para obter informações, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * Na área Detalhes da tarefa. Para obter informações, consulte [Gerenciar informações da tarefa na área Visão Geral de Detalhes da Tarefa](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
-* Na área Início, se a Data de conclusão planejada for exibida durante a visualização de uma tarefa. Para obter informações, consulte [Atualizar ou editar um item de trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Na área Início, se a Data de conclusão planejada for exibida ao visualizar uma tarefa no painel Resumo. Para obter informações, consulte [Atualizar ou editar um item de trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * No cabeçalho da tarefa. Para obter informações, consulte [Novos cabeçalhos de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * Em uma lista de tarefas ou relatório quando o campo Data de conclusão planejada é exibido na exibição.
 
   Para obter informações, consulte [Editar tarefas em uma lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-Você pode especificar manualmente a Data de Conclusão Planejada ao selecionar qualquer uma das seguintes Restrições de Tarefa: 
+Você pode especificar manualmente a Data de Conclusão Planejada ao selecionar qualquer uma das seguintes Restrições de Tarefa:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -96,7 +96,7 @@ Quando é calculado automaticamente pelo sistema, o seguinte pode influenciar a 
 
 * A quantidade de tempo associada às Configurações de aprovação se a tarefa estiver associada a uma aprovação. Para obter mais informações, consulte [Definir configurações de aprovação global](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-Quando definida automaticamente, a Data de conclusão planejada é determinada com base no seguinte cálculo: 
+Quando definida automaticamente, a Data de conclusão planejada é determinada com base no seguinte cálculo:
 
 ```
 Planned Completion Date = Planned Start Date + Duration
@@ -106,5 +106,5 @@ Por exemplo, se sua tarefa tiver uma data de início de 16 de setembro e uma Dur
 
 >[!NOTE]
 >
-> O Tipo de atualização do projeto deve ser definido como Automático e Mediante alteração ou Automaticamente para que as Horas planejadas e a Duração sejam ajustadas automaticamente.\
+> O Tipo de atualização do projeto deve ser definido como Automático e Mediante alteração ou Automaticamente para que as Horas planejadas e a Duração sejam ajustadas automaticamente.\
 >Para obter mais informações sobre o Tipo de Atualização, consulte o artigo [Selecionar o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).

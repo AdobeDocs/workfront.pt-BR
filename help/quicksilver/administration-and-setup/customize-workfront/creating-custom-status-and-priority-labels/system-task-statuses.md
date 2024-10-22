@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Os seguintes status de tarefa são fornecidos com a instância do Workfront:
   <tr> 
    <td>Concluído (status obrigatório)</td> 
    <td> <p>Você pode marcar uma tarefa manualmente como concluída quando o trabalho nela for concluído.</p> <p>Quando o Modo de Rastreamento de uma tarefa é definido como Preenchimento Automático, a tarefa é automaticamente marcada como Concluída quando atinge a Data de Conclusão Planejada.</p> </td> 
-   <td> <p>Quando uma tarefa é concluída, o percentual concluído da tarefa é marcado como 100%. A tarefa é removida da Lista de trabalho do destinatário na área da Página inicial quando é concluída.</p> <p>Quando você marca uma tarefa como Concluída, ela mostra um valor para a Data de Término Efetivo.</p> <p><b>OBSERVAÇÃO</b>: se a tarefa tiver problemas incompletos e você alterar o status da tarefa para Concluído, o status será alterado automaticamente para Concluído - Problemas Pendentes.</p> </td> 
+   <td> <p>Quando uma tarefa é concluída, o percentual concluído da tarefa é marcado como 100%. A tarefa é removida da lista Meu trabalho do destinatário na área Página inicial quando é concluída.</p> <p>Quando você marca uma tarefa como Concluída, ela mostra um valor para a Data de Término Efetivo.</p> <p><b>OBSERVAÇÃO</b>: se a tarefa tiver problemas incompletos e você alterar o status da tarefa para Concluído, o status será alterado automaticamente para Concluído - Problemas Pendentes.</p> </td> 
   </tr> 
  </tbody> 
 </table>

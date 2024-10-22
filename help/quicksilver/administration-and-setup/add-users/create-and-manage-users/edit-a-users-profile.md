@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3298'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       </li>
 
    </li> 
-       <li><b>Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando em</b>: marque esta opção se desejar que tudo o que o usuário atribuir a si mesmo apareça diretamente na lista Trabalhando em na área Página Inicial. O padrão é listar tudo atribuído a um usuário nas listas Pronto para iniciar ou Não pronto na área Página inicial.</li> 
+       <li><b>Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando</b>: esta configuração se refere a um recurso obsoleto que foi removido do Workfront.</li> 
        <li><b>Gerar provas automaticamente ao carregar documentos</b>: marque esta opção se desejar que os documentos carregados pelo usuário gerem uma prova imediatamente. </li>
        </ul> </td> 
      </tr> 
@@ -153,7 +153,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <li><b>Subordinados diretos:</b> Se você especificou uma empresa para o usuário, você também pode especificar os subordinados diretos do usuário. Um usuário pode ter vários subordinados diretos. Esse campo não será exibido se o usuário não estiver associado a uma empresa primeiro.</li> 
       <li><b>Equipe interna</b>: especifique a equipe interna do usuário. Os usuários só podem ter uma equipe inicial. A Equipe interna é importante ao atribuir um modelo de layout ou ao definir o botão Trabalhar na tarefa para as tarefas e problemas atribuídos ao usuário. </li> 
       <li><b>Outras equipes</b>: os usuários podem pertencer a várias equipes. Um usuário pode visualizar itens de trabalho atribuídos a qualquer uma de suas equipes na área Início. </li> 
-      <li> <p><b>Grupo Padrão:</b> Selecione um grupo apropriado para atribuir ao usuário. Isso dá ao usuário a capacidade de acessar objetos que são compartilhados com o grupo. Você também pode compartilhar modelos de layout com o Grupo padrão do usuário.</p> <p>Este campo é obrigatório. Todos os usuários devem estar associados a um grupo padrão. Se você não selecionar um, seu grupo será atribuído como o grupo inicial do novo usuário.</p> <p><b>NOTA</b>:</p> 
+      <li> <p><b>Grupo Padrão:</b> Selecione um grupo apropriado para atribuir ao usuário. Isso dá ao usuário a capacidade de acessar objetos que são compartilhados com o grupo. Você também pode compartilhar modelos de layout com o Grupo padrão do usuário.</p> <p>Este campo é obrigatório. Todos os usuários devem estar associados a um grupo padrão. Se você não selecionar um, seu Grupo padrão será atribuído como o Grupo padrão do novo usuário.</p> <p><b>NOTA</b>:</p> 
       <p> Você pode atribuir um grupo a um usuário somente se um dos seguintes for verdadeiro:</p>
       <ul><li>você é um administrador do Workfront</li>
       <li>você é o administrador do grupo</li>

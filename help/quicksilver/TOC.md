@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14512'
 ht-degree: 2%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 2%
          * [Visão geral da duração original da tarefa e das horas planejadas originais](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Diferença entre a Duração Planejada e a Duração das tarefas](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Criar tarefas {#create-tasks}
-         * [Criar tarefas](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [Criar tarefas: índice do artigo](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Visão geral da criação de tarefas](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Criar tarefas em um projeto](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Criar subtarefas](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2092,7 +2092,7 @@ ht-degree: 2%
       * [Visão geral do campo principal](planning/fields/primary-field-overview.md)
    * Acesso ao Adobe Workfront Planning {#adobe-workfront-planning-access}
       * [Informações de acesso do Adobe Workfront Planning: índice do artigo](planning/access/access-information.md)
-      * [Visão geral do Access](planning/access/access-overview.md)
+      * [Visão geral do acesso ao Adobe Workfront Planning](planning/access/access-overview.md)
       * [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
       * [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Compartilhar espaços de trabalho](planning/access/share-workspaces.md)

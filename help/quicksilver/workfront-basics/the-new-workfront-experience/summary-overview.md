@@ -5,9 +5,9 @@ description: Você pode usar o painel Resumo para revisar e atualizar as informa
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -187,9 +187,7 @@ Use a seção [!UICONTROL Documentos] do [!UICONTROL Resumo] para ver documentos
 
 Use a seção [!UICONTROL Detalhes] do [!UICONTROL Resumo] para exibir detalhes de item de trabalho de alto nível, fazer atribuições ou adicionar datas de início. Clique em **[!UICONTROL Ver tudo]** para ir diretamente para a guia [!UICONTROL Detalhes] na tarefa ou problema.
 
->[!NOTE]
->
->Os campos exibidos nesta seção são os mesmos campos exibidos no painel direito da Página inicial. Você pode personalizar estes campos [Personalizar [!UICONTROL Página Inicial] e [!UICONTROL Resumo] usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
 
 ![Seção de detalhes no painel Resumo](assets/summary-details-section.png)
 

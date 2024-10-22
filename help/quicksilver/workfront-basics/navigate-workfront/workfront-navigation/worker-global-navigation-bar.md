@@ -7,7 +7,7 @@ description: O menu principal muda com o nível de acesso que você foi atribuí
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Como um [!UICONTROL Trabalhador], sua principal responsabilidade é concluir o t
 
 As seguintes áreas estão incluídas no layout padrão de um [!UICONTROL Trabalhador]:
 
-* **[!UICONTROL Página inicial]**: tarefas e problemas atribuídos a você são exibidos aqui. Esta é a página de aterrissagem padrão de um Trabalhador . No entanto, ela não aparece no [!UICONTROL Menu Principal], a menos que um administrador do Workfront a adicione ao modelo de layout.  Para obter informações, consulte [Introdução à [!UICONTROL Página inicial]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Página inicial]**: tarefas e problemas atribuídos a você são exibidos aqui. Esta é a página de aterrissagem padrão de um Trabalhador. No entanto, ela não aparece no [!UICONTROL Menu Principal], a menos que um administrador do Workfront a adicione ao modelo de layout.  Para obter informações, consulte [Introdução à [!UICONTROL Página inicial]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * **[!UICONTROL Projetos]**: os projetos compartilhados com você são exibidos aqui. Para obter informações, consulte [Projetos: índice do artigo](../../../manage-work/projects/projects-overview.md).
 

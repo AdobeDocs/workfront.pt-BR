@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 2%
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 As tarefas são itens de trabalho menores no Adobe Workfront que contribuem para a conclusão de um projeto. Saiba mais sobre como gerenciar tarefas nos artigos nas seguintes subseções:
 
 * [Informações sobre a tarefa](../../manage-work/tasks/task-information/task-information.md)
-* [Criar tarefas](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+* [Criar tarefas: índice do artigo](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
 * [Atribuir tarefas](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [Gerenciar tarefas](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [Restrições da tarefa](../../manage-work/tasks/task-constraints/task-constraints.md)

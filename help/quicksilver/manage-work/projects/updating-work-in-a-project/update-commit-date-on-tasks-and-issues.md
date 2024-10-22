@@ -6,7 +6,7 @@ description: Você pode atualizar manualmente a data de confirmação de uma tar
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -95,7 +95,7 @@ A atualização da Data de confirmação é idêntica para tarefas e problemas.
 >Para obter mais informações, consulte os seguintes artigos:
 >
 >* [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personalizar Página Inicial e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personalize o painel Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 1. Vá para uma tarefa ou problema ao qual você está atribuído como o **Proprietário**.

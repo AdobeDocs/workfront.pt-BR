@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
        <ul> 
         <li><b>Fuso Horário:</b> O fuso horário dos usuários.</li> 
         <li><b>Localidade</b>: a localidade preferencial dos usuários. Isso afeta o formato de números e datas nos emails que vêm do Workfront.</li> 
-        <li><b>Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando em</b>: marque esta opção se desejar que tudo o que os usuários atribuírem a si mesmos apareça diretamente na guia Trabalhando em. O padrão é listar tudo atribuído a um usuário em sua guia Solicitação de trabalho.</li> 
+        <li><b>Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando</b>: esta configuração se refere a um recurso obsoleto que foi removido do Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

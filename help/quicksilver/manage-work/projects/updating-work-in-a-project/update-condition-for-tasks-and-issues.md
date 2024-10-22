@@ -6,7 +6,7 @@ description: A Condição de uma tarefa ou problema é um sinalizador colocado s
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -83,7 +83,7 @@ As condições são exibidas como um sinalizador associado a tarefas ou problema
 
 * O cabeçalho de uma tarefa ou problema, depois que um administrador de Workfront ou grupo o adiciona ao seu modelo de layout. Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-* O painel Resumo, depois que um administrador de Workfront ou grupo o adiciona ao modelo de layout. Para obter informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* O painel Resumo, depois que um administrador de Workfront ou grupo o adiciona ao modelo de layout. Para obter informações, consulte [Personalizar o painel Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 * Relatórios e listas quando você exibe o campo Condição em uma Exibição ou Agrupamento.
 
@@ -116,7 +116,7 @@ Você pode atualizar manualmente a Condição de uma tarefa ou problema em um re
 >Para obter mais informações, consulte os seguintes artigos:
 >
 >* [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personalizar Página Inicial e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personalize o painel Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

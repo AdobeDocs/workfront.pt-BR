@@ -6,9 +6,9 @@ description: As notificações a seguir informam sobre solicitações feitas no 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Uma tarefa pessoal que eu atribuí a outra pessoa foi concluída</strong> </p> <p>Uma notificação é enviada ao usuário que atribuiu uma tarefa ad-hoc a outra pessoa quando essa tarefa for concluída. </p> <p>Para obter mais informações sobre tarefas ad hoc, consulte <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Criar itens de trabalho e projetos na área [!UICONTROL Início]</a>.</p> <p>O assunto do email de notificação instantânea é: <em>Conclusão da tarefa: &lt;Nome da tarefa&gt;</em></p> <p> <p>Observação: não é possível configurar essa notificação para um email de resumo diário.</p> </p> </td> 
+   <td> <p><strong>Uma tarefa pessoal que eu atribuí a outra pessoa foi concluída</strong> </p> <p>Uma notificação é enviada ao usuário que atribuiu uma solicitação de trabalho pessoal a outra pessoa quando essa solicitação é concluída. </p>  <p>O assunto do email de notificação instantânea é: <em>Conclusão da tarefa: &lt;Nome da tarefa&gt;</em></p> <p> <p>Observação: não é possível configurar essa notificação para um email de resumo diário.</p> </p> </td> 
    <td> Nome da Tarefa<br>Nome Padrão do Projeto (Projeto Pessoal do usuário que recebeu a tarefa pessoal)<br>Número de Referência da Tarefa<br>Nome do Proprietário da Tarefa<br>Novo Status da Tarefa<br>Data e Hora em que a tarefa foi concluída<br>Status Anterior da Tarefa<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br><br><br></td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 

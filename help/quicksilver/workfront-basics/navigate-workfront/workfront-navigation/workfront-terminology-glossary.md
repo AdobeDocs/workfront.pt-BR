@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '20938'
+source-wordcount: '20901'
 ht-degree: 0%
 
 ---
@@ -471,7 +471,9 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendário]</td> 
-   <td> <p>Há dois tipos de calendários em [!DNL Workfront]: o [!UICONTROL Calendário da Página Inicial] e os relatórios de calendário.</p> <p>O [!UICONTROL Calendário da Página Inicial] é um calendário pessoal que permite que um usuário gerencie sua carga de trabalho em relação às horas disponíveis em [!DNL Workfront]. Os usuários também podem integrar o [!UICONTROL Calendário da Página Inicial] com a integração do [!DNL Outlook] ([!DNL Google] e do [!DNL Microsoft] no futuro). </p> <p>Para obter mais informações sobre o [!UICONTROL Calendário da Página Inicial], consulte a exibição <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Calendário da Página Inicial]</a>.</p> <p>Um relatório de calendário é um relatório dinâmico no qual os usuários podem visualizar a data e outros detalhes importantes de um evento, incluindo a data de vencimento, o status do trabalho e o usuário ao qual o evento é atribuído.</p> <p> Para obter mais informações sobre relatórios de calendário, consulte <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Visão geral dos relatórios de calendário</a>.</p> </td> 
+   <td> <p>No Workfront, um relatório de calendário é um relatório dinâmico no qual os usuários podem visualizar a data e outros detalhes importantes de um evento, incluindo a data de vencimento, o status do trabalho e o usuário ao qual o evento é atribuído.</p> <p> Para obter mais informações sobre relatórios de calendário, consulte <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Visão geral dos relatórios de calendário</a>.</p>
+   <p> No Workfront Planning, uma exibição de Calendário é um tipo de exibição para um tipo de registro que exibe registros em um calendário. Você deve ter uma licença adicional para acessar o Workfront Planning. </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Pode Iniciar]</td> 
@@ -1644,7 +1646,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Perfil de Portal]</td> 
-   <td>Uma coleção definida pelo administrador de Guias e Seções do Portal que aparece no Aplicativo [!DNL Workfront] [!UICONTROL Home] e em outros Painéis.</td> 
+   <td>Uma coleção de Guias e Seções definida pelo administrador que é exibida no [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Seção do Portal]</td> 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Você deve adquirir um plano do Workfront Planning, além de um plano do Workfront para poder acessar e usar os recursos do Workfront Planning.
 >
->Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
+>Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe](/help/quicksilver/planning/access/access-overview.md).
 >Para obter uma visão geral do Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
@@ -1259,7 +1259,7 @@ A seguir estão os níveis de permissões para exibições de registro:
 * View: Os usuários podem selecionar a view no menu drop-down Exibir de uma página do tipo de registro.
 * Gerenciar: Os usuários podem editar, compartilhar e excluir a exibição.
 
-Para obter mais informações, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md) e [Visão geral das permissões de compartilhamento nos recursos do Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obter mais informações, consulte [Visão geral do acesso ao Adobe Planning](/help/quicksilver/planning/access/access-overview.md) e [Visão geral das permissões de compartilhamento nos recursos do Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Novo tipo de campo Fórmula
 

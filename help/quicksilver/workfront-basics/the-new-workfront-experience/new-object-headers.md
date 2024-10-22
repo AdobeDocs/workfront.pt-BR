@@ -4,10 +4,11 @@ navigation-topic: the-new-workfront-experience
 title: Visão geral dos cabeçalhos de objeto
 description: Você pode visualizar informações sobre objetos no  [!DNL Adobe Workfront] ao revisar seu cabeçalho. As informações em um cabeçalho podem incluir o proprietário do objeto, o status ou o percentual concluído.
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3697'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ Por exemplo, para acessar o cabeçalho de um projeto:
 
    ![](assets/project-header-350x18.png)
 
-## Visão geral do cabeçalho da [!UICONTROL Página inicial]
+<!--## [!UICONTROL Home] header overview 
 
-Os seguintes cabeçalhos estão disponíveis na Página inicial:
+The following headers are available in Home:
 
-* Tarefa: Para obter mais informações sobre como usar este cabeçalho, consulte a [Visão geral do cabeçalho da tarefa](#task-header-overview) neste artigo.
-* Problema: Para obter mais informações sobre como usar este cabeçalho, consulte a [Visão geral do cabeçalho de Problemas](#issue-header-overview) neste artigo.
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## Cabeçalhos personalizáveis
 
@@ -80,8 +81,8 @@ O cabeçalho do projeto exibe as seguintes informações, por padrão:
    <td> <p>O texto "[!UICONTROL PROJECT]" é exibido acima do nome do projeto no cabeçalho.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A área de ações da tarefa</td> 
-   <td> <p>Ao lado do nome do projeto, a área ações é exibida.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">A área de ações do projeto</td> 
+   <td> <p>Ao lado do nome do projeto, é exibida a área de ações, que inclui a opção <b>Compartilhar</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
@@ -144,7 +145,7 @@ O cabeçalho da tarefa inclui as seguintes informações, por padrão:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações da tarefa</td> 
-   <td> <p>Ao lado do nome da tarefa, a área [!UICONTROL ações] é exibida.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Se o ícone Dependência for exibido, você poderá clicar no ícone para ver quaisquer predecessores ou sucessores da tarefa.</p> </td> 
+   <td> <p>Ao lado do nome da tarefa, é exibida a área de ações, que inclui a opção <b>Compartilhar</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Se o ícone Dependência for exibido, você poderá clicar no ícone para ver quaisquer predecessores ou sucessores da tarefa.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
@@ -207,7 +208,7 @@ O cabeçalho do problema inclui as seguintes informações, por padrão:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações da questão</td> 
-   <td> <p>Ao lado do nome do problema, a área [!UICONTROL ações] é exibida.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Se o ícone [!UICONTROL Dependência] for exibido, você poderá clicar no ícone para ver quaisquer predecessores ou sucessores do problema.</p>  </td> 
+   <td> <p>Ao lado do nome do problema, a área de ações é exibida, incluindo a opção <b>Compartilhar</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Se o ícone [!UICONTROL Dependência] for exibido, você poderá clicar no ícone para ver quaisquer predecessores ou sucessores do problema.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
@@ -274,7 +275,7 @@ O cabeçalho do programa exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">Domínio de ação do programa</td> 
-   <td> <p>Ao lado do nome do programa, a área [!UICONTROL ações] é exibida.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Ao lado do nome do programa, é exibida a área de ações, que inclui a opção <b>Compartilhar</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
@@ -328,8 +329,8 @@ O cabeçalho do portfólio inclui as seguintes informações:
    <td> <p>Se o portfólio estiver desativado, o texto "[!UICONTROL PORTFOLIO DESATIVADO]" será exibido acima do nome do portfólio no cabeçalho.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A área [!UICONTROL actions] do portfólio</td> 
-   <td> <p>Ao lado do nome do portfólio, a área [!UICONTROL actions] é exibida.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">A área de ações do portfólio</td> 
+   <td> <p>Ao lado do nome do portfólio, a área [!UICONTROL actions] é exibida.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Gerenciador de Portfolio]</td> 
@@ -392,7 +393,7 @@ O cabeçalho do modelo exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações do modelo</td> 
-   <td> <p>Ao lado do nome do modelo, a área de ações é exibida.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Ao lado do nome do modelo, a área de ações é exibida.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Proprietário do Modelo]</td> 
@@ -439,7 +440,7 @@ O cabeçalho da tarefa de modelo exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações da tarefa de modelo</td> 
-   <td> <p>Ao lado do nome da tarefa de modelo, é exibida a área ações.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Ao lado do nome da tarefa de modelo, é exibida a área ações.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Atribuições]</td> 
@@ -485,12 +486,15 @@ O cabeçalho do registro de faturamento exibe as seguintes informações:
    <td> <p>O texto "[!UICONTROL REGISTRO DE COBRANÇA]" é exibido acima do nome do registro de cobrança no cabeçalho.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A área de ações do registro de cobrança</td> 
+   <td role="rowheader">O menu Mais do registro de cobrança</td> 
    <td> <p>Ao lado do nome do registro de cobrança, o menu [!UICONTROL Mais] <img src="assets/more-menu.png"> é exibido, o que permite selecionar as seguintes opções:</p> 
     <ul> 
      <li> <p>[!UICONTROL Editar]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> Excluir </p> </li> 
+    </ul>
+    <p><b>Nota</b></p>
+    <p>O menu Mais não é exibido para registros de cobrança com um Status de Faturado. Não é possível editar ou excluir registros faturados.</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Total de Registros de Cobrança]</td> 
@@ -542,7 +546,7 @@ O cabeçalho do usuário exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações do usuário</td> 
-   <td> <p>Ao lado do nome do usuário, a área de ações é exibida.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Ao lado do nome do usuário, a área de ações é exibida.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Endereço de email</td> 
@@ -589,7 +593,7 @@ O cabeçalho do grupo mostra as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações da equipe</td> 
-   <td> <p>Ao lado do nome do grupo, aparece a área [!UICONTROL ações].</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>Ao lado do nome da equipe, é exibida a área ações.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Imagens do perfil do membro da equipe</td> 
@@ -632,8 +636,7 @@ O cabeçalho da iteração exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações da iteração</td> 
-   <td> <p>No canto superior direito do cabeçalho, a área ações é exibida.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>Ao lado do nome da iteração, a área ações é exibida.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Proprietário</td> 
    <td>Este é o [!UICONTROL Proprietário] da iteração. Não é possível editar o [!UICONTROL Proprietário] no cabeçalho.</td> 
@@ -735,7 +738,7 @@ O cabeçalho do documento exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações do documento</td> 
-   <td> <p>Ao lado do nome do documento, a área de ações é exibida.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>Ao lado do nome do documento, a área de ações é exibida.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">A área de aprovação [!UICONTROL Decision]</td> 
@@ -773,7 +776,7 @@ O cabeçalho da empresa exibe as seguintes informações:
    <td> <p>O texto "[!UICONTROL COMPANY]" é exibido acima do nome da empresa no cabeçalho.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A área de ações da empresa</td> 
+   <td role="rowheader">O menu Mais da empresa</td> 
    <td> <p>Ao lado do nome da empresa, é exibido o menu [!UICONTROL Mais] <img src="assets/more-menu.png">, que permite selecionar as seguintes opções:</p> 
     <ul> 
      <li> <p>[!UICONTROL Editar]</p> </li> 
@@ -819,7 +822,7 @@ O cabeçalho do plano exibe as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações do plano</td> 
-   <td> <p>Ao lado do nome do plano, é exibida a área ações.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Ao lado do nome do plano, é exibida a área ações.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ações adicionais do plano</td> 
@@ -885,9 +888,9 @@ O cabeçalho da meta exibe as seguintes informações:
    <td> <p>O texto "[!UICONTROL GOAL]" é exibido acima do nome da meta no cabeçalho.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">A área de ações da meta</td> 
-   <td> <p>Ao lado do nome da meta, a área de ações é exibida.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   Você pode executar as seguintes ações na área ações da meta:
+   <td role="rowheader">O menu Mais da meta</td> 
+   <td> <p>Ao lado do nome da meta, o menu Mais <img src="assets/more-icon.png"> é exibido.</p> </p>
+   Você pode executar as seguintes ações no menu Mais de uma meta:
    <ul><li>[!UICONTROL Editar]</li>
    <li>[!UICONTROL Copiar meta]</li>
    <li>[!UICONTROL Excluir meta]</li>

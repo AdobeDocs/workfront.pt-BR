@@ -6,7 +6,7 @@ description: A data de conclusão planejada de uma ocorrência é a data até a 
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 A data de conclusão planejada de uma ocorrência é a data até a qual a ocorrência deve terminar.
 
-Você pode especificar a Data de conclusão planejada de um problema ou deixá-la a cargo da Adobe Workfront para calculá-la, dependendo de determinados critérios. 
+Você pode especificar a Data de conclusão planejada de um problema ou deixá-la a cargo da Adobe Workfront para calculá-la, dependendo de determinados critérios.
 
-As datas de conclusão planejadas dos problemas não afetam a data de conclusão planejada do projeto. Somente as datas de conclusão planejadas das tarefas afetam a data de conclusão planejada do projeto. Para obter mais informações sobre a Data de Conclusão Planejada do projeto, consulte [Definir a Data de Conclusão Planejada do projeto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+As datas de conclusão planejadas dos problemas não afetam a data de conclusão planejada do projeto. Somente as datas de conclusão planejadas das tarefas afetam a data de conclusão planejada do projeto. Para obter mais informações sobre a Data de Conclusão Planejada do projeto, consulte [Definir a Data de Conclusão Planejada do projeto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Você deve ter acesso para Editar problemas e Gerenciar permissões sobre o prob
 
 Você pode definir manualmente a Data de conclusão planejada de um problema nas seguintes áreas do Workfront:
 
-* Na caixa Editar problema ou na área Detalhes do problema ao criar ou editar um problema. Para obter informações, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
+* Na caixa Editar problema ou na área Detalhes do problema ao criar ou editar um problema. Para obter informações, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 * Na área Página inicial, se a Data de conclusão planejada for exibida ao visualizar um problema. Para obter informações, consulte [Atualizar ou editar um item de trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * No cabeçalho do problema. Para obter informações, consulte [Novos cabeçalhos de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * Em uma lista de problemas ou relatório quando o campo Data de conclusão planejada é exibido na visualização.
@@ -50,17 +50,17 @@ Você pode definir manualmente a Data de conclusão planejada de um problema nas
 
 Quando a Workfront calcula a Data de conclusão planejada de um problema automaticamente, o seguinte pode influenciar a data:
 
-* Data de Início Planejada
+* Data de início planejado
 
   A Data de entrada e a Data inicial planejada devem corresponder a uma ocorrência quando você a cria pela primeira vez.
 
-* A duração padrão conforme configurada na seção Detalhes da fila do projeto. Para obter informações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* A duração padrão conforme configurada na seção Detalhes da fila do projeto. Para obter informações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
   Se a Duração padrão for 0 dias, a Data de conclusão planejada corresponderá à Data inicial planejada do problema.
 
 * Cronograma do Projeto
 
-Quando definida automaticamente, a Data de conclusão planejada é determinada com base no seguinte cálculo: 
+Quando definida automaticamente, a Data de conclusão planejada é determinada com base no seguinte cálculo:
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ As seguintes situações existem:
 >
 >O Workfront leva em consideração Exceções de programação, como feriados e finais de semana, ao calcular Datas de conclusão planejadas.
 
- 
+
