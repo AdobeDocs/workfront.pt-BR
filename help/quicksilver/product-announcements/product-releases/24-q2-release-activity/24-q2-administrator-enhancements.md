@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Para obter mais informações sobre como visualizar um formulário personalizado
 
 Recursos avançados de formulário personalizado, como campos de Pesquisa externa e campos nativos do Workfront, agora estão disponíveis quando você anexa um formulário personalizado a uma empresa ou usuário. Os recursos avançados estão disponíveis nas páginas Detalhes da empresa e Detalhes do usuário, não nas caixas de diálogo Editar empresa e Editar usuário. O formulário personalizado deve ser criado no novo designer de formulário para aproveitar esses tipos de campo.
 
-Para obter mais informações sobre campos de formulário personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obter mais informações sobre campos de formulário personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## A integração JumpSeat agora está disponível para novos tipos de pacote
 
@@ -64,7 +64,7 @@ Os campos nativos usados em formulários personalizados ficam disponíveis na bi
 
 Esse recurso está disponível somente no designer de formulário beta, não no construtor de formulário herdado.
 
-Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

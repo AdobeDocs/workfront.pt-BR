@@ -6,9 +6,9 @@ description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Para configurar campos de metadados:
 1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configure o mapeamento de metadados de ativos entre Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
-1. Configure campos de formulário personalizados no Workfront. [!DNL Workfront] tem muitos campos personalizados internos que você pode usar. Entretanto, você também pode criar seus próprios campos personalizados, conforme explicado em [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Configure campos de formulário personalizados no Workfront. [!DNL Workfront] tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados, conforme explicado em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 +++ **Expanda para ver mais informações sobre campos do Workfront e do Experience Manager Assets compatíveis**
 

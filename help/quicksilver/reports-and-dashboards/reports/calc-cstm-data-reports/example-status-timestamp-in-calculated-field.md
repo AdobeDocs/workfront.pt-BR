@@ -7,9 +7,9 @@ description: O campo calculado a seguir exibe a data em que o status do objeto �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Para adicionar um campo calculado que exibe o histórico de edição de um campo
 
 1. Vá para um formulário personalizado no qual deseja adicionar o campo.
 1. Clique em **Calculado** para adicionar um campo personalizado calculado ao formulário.
-1. Digite um **Rótulo** para o campo personalizado, como *Campo Personalizado de Carimbo de Data/Hora de Status*.
-1. Clique em **Concluído** e em **Salvar+Fechar**.
+1. Digite um **Rótulo** para o campo personalizado. Por exemplo, &quot;Campo personalizado do carimbo de data e hora do status&quot;.
+1. Clique em **Salvar+Fechar**.
 1. Reabra o formulário personalizado e selecione o novo **Campo Personalizado de Carimbo de Data/Hora de Status** no formulário.
 1. Na caixa **Cálculo**, copie e cole o seguinte cálculo para o seu campo personalizado:
 

@@ -6,9 +6,9 @@ description: Visão geral de usos comuns do modo de texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Você pode usar o modo de texto quando quiser fazer o seguinte no Workfront:
 
 Você pode usar o modo texto para adicionar um campo personalizado calculado a um Formulário personalizado.
 
-Para obter mais informações sobre como adicionar um campo personalizado calculado a um Formulário personalizado, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obter mais informações sobre como adicionar um campo personalizado calculado a um Formulário personalizado, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Para obter mais informações sobre como criar um campo personalizado calculado no modo de texto, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Um campo de pesquisa externo em um formulário personalizado chama uma API exter
 
 Este artigo fornece exemplos de como usar o campo de pesquisa externa para chamar a mesma instância do Workfront ou uma API pública. Você também pode usar a Pesquisa externa para se comunicar com um sistema externo, como Jira, Salesforce ou ServiceNow.
 
-Para obter mais informações sobre como adicionar um campo de pesquisa externa a um formulário personalizado e definições adicionais dos componentes de pesquisa externa, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obter mais informações sobre como adicionar um campo de pesquisa externa a um formulário personalizado e definições adicionais dos componentes de pesquisa externa, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configurar um campo de pesquisa externo para a mesma instância do Workfront
 

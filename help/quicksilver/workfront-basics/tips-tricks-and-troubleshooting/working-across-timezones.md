@@ -5,9 +5,9 @@ title: Trabalhar em fusos horários
 description: Pode ser útil entender como o  [!DNL Adobe Workfront] usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Para obter mais informações, consulte [Adicionar campos calculados a um formul
 
 Se você não quiser que o [!DNL Workfront] converta horas configuradas em um objeto para usuários em diferentes fusos horários, poderá usar um campo de texto em um formulário personalizado anexado a um objeto, em vez de um campo de data. Dessa forma, o horário exibe o horário digitado para todos no projeto.
 
-Se você fizer isso, recomendamos lembrar os usuários do formulário de calcular a diferença entre o fuso horário deles e o seu para que eles possam determinar quando o trabalho deve começar e terminar. Você pode incluir isso nas instruções digitadas para o formulário personalizado ou em uma dica de ferramenta para esse campo. Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Se você fizer isso, recomendamos lembrar os usuários do formulário de calcular a diferença entre o fuso horário deles e o seu para que eles possam determinar quando o trabalho deve começar e terminar. Você pode incluir isso nas instruções digitadas para o formulário personalizado ou em uma dica de ferramenta para esse campo. Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

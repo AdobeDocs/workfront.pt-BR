@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ A introdução de um novo painel e seus relatórios pode possibilitar a desativa
 
 ### Distribuir dados personalizados a formulários relevantes
 
-Alguns relatórios incluídos em um blueprint de painel têm campos de dados personalizados na exibição, no filtro ou no agrupamento do relatório. Em alguns casos, o blueprint também terá um formulário ao qual esses campos estão associados. No entanto, na maioria das vezes, os campos personalizados não são aplicados a um formulário personalizado. Para que as colunas, filtros ou agrupamentos funcionem corretamente, esses campos devem ser associados a formulários que estejam conectados a um registro de usuário, projeto, tarefa ou outro objeto. Para obter informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Alguns relatórios incluídos em um blueprint de painel têm campos de dados personalizados na exibição, no filtro ou no agrupamento do relatório. Em alguns casos, o blueprint também terá um formulário ao qual esses campos estão associados. No entanto, na maioria das vezes, os campos personalizados não são aplicados a um formulário personalizado. Para que as colunas, filtros ou agrupamentos funcionem corretamente, esses campos devem ser associados a formulários que estejam conectados a um registro de usuário, projeto, tarefa ou outro objeto. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

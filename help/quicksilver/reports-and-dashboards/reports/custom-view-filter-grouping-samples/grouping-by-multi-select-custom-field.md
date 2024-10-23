@@ -7,9 +7,9 @@ description: Você pode agrupar pelo valor em um campo personalizado de várias 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 Para poder agrupar por um campo personalizado de seleção múltipla, você deve ter os seguintes pré-requisitos:
 
 * Crie o campo personalizado de várias seleções em um formulário personalizado.\
-  Para obter informações sobre como criar formulários personalizados e adicionar campos personalizados a eles, consulte o artigo [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obter informações sobre como criar formulários personalizados e adicionar campos personalizados a eles, consulte o artigo [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Anexe o formulário personalizado a objetos.
 * Preencha o campo personalizado de várias seleções com um valor em cada objeto. 

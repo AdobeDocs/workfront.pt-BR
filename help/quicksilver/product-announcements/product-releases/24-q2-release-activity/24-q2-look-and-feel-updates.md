@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ Os modelos de email para adicionar um aprovador a um ativo e adicionar um usuár
 
 Atualizamos as guias para Forms, Campos e Seções na área Configuração > Forms personalizado para um design mais moderno que é consistente com outras áreas do Workfront. Agora você acessa as três áreas no menu de navegação esquerdo. Filtros, visualizações e agrupamentos ainda estão disponíveis para as listas. O design atualizado se aplica a formulários, campos e seções personalizados criados no novo designer de formulários e no construtor de formulários herdados.
 
-Para obter informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

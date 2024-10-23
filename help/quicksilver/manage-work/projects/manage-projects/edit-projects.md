@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7528'
 ht-degree: 1%
 
 ---
@@ -340,7 +340,7 @@ Para editar informações sobre formulários personalizados ao editar um projeto
 
    >[!NOTE]
    >
-   >Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode adicionar até dez formulários personalizados a um projeto.
+   >Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode adicionar até dez formulários personalizados a um projeto.
 
 
 1. (Condicional) Se você anexou um formulário personalizado ao projeto, edite os campos no formulário. Você deve especificar todos os campos obrigatórios antes de salvar o projeto.
@@ -562,7 +562,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
    * Quando você seleciona vários projetos do mesmo grupo, os processos de aprovação de tarefas específicos do sistema e do grupo são exibidos nesse campo.
    * Quando você seleciona vários projetos de grupos diferentes, somente os processos de aprovação de tarefa no nível do sistema são exibidos nesse campo.
 
-1. Na caixa **Forms Personalizado Padrão de Tarefa**, selecione o(s) formulário(s) personalizado(s) que deseja associar a todas as novas tarefas ao adicioná-las ao projeto. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode associar até dez formulários personalizados a uma tarefa.
+1. Na caixa **Forms Personalizado Padrão de Tarefa**, selecione o(s) formulário(s) personalizado(s) que deseja associar a todas as novas tarefas ao adicioná-las ao projeto. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode associar até dez formulários personalizados a uma tarefa.
 1. (Opcional) Selecione **Usar Esforço de trabalho para calcular automaticamente as Horas Planejadas da tarefa** se desejar habilitar o gerenciamento do esforço da tarefa usando o Esforço de trabalho em vez das Horas Planejadas.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

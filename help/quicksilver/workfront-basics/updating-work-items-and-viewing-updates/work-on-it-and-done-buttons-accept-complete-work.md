@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ Os botões Trabalhar nisso e Concluído estão visíveis para usuários que têm
 
 * Uma licença Padrão (nova) ou uma licença de Plano ou Trabalho (atual)
 * Acesso de edição limitado ou superior na tarefa ou problema
+
+>[!NOTE]
+>
+>O botão Concluído é exibido como Marcar como concluído em todas as áreas do Workfront.
 
 ## Trabalhar nisso e nomes de botão Concluído
 
@@ -47,9 +51,9 @@ Dependendo da área do Workfront na qual você acessa sua tarefa ou problema, o 
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-## Localize o botão Trabalhar nisto e Marcar como concluído {#locate-the-work-on-it-and-done-button}
+## Localize o botão Trabalhar na tarefa e concluído {#locate-the-work-on-it-and-done-button}
 
-Você pode localizar os botões Trabalhar nisto e Marcar como concluído nas seguintes áreas do Workfront:
+É possível localizar o botão Trabalhar nisso e Concluído nas seguintes áreas do Workfront:
 
 * A área Página inicial no widget Meu trabalho
 
@@ -63,9 +67,9 @@ Você pode localizar os botões Trabalhar nisto e Marcar como concluído nas seg
 
   Para obter informações sobre como usar o painel Resumo, consulte [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Visão geral dos campos que são atualizados automaticamente ao clicar no botão Trabalhar nisto e Marcar como concluído
+## Visão geral dos campos que são atualizados automaticamente ao clicar nos botões Trabalhar nisto ou Concluído
 
-A vantagem de usar os botões Trabalhar na tarefa e Marcar como concluído é que você pode permitir que o Workfront atualize automaticamente as informações sobre o item de trabalho atribuído a você.
+A vantagem de usar os botões Trabalhar nisso e Concluído é que você pode permitir que o Workfront atualize automaticamente as informações sobre o item de trabalho atribuído a você.
 
 * [Botão Trabalhar nisto](#work-on-it-button)
 * [Botão Iniciar](#start-button)
@@ -111,10 +115,6 @@ Além dos campos que são atualizados quando você clica no botão Trabalhar na 
 >
 
 ### O botão Concluído {#the-done-button}
-
->[!NOTE]
->
->O botão Concluído é exibido como Marcar como concluído em todas as áreas do Workfront.
 
 Se você tiver acesso para editar equipes, poderá configurar o botão Concluído para que uma equipe atualize os status de tarefas ou problemas quando marcar um item como concluído. Quando os usuários com essa equipe como sua Equipe inicial clicarem no botão Marcar como concluído em seus itens, os seguintes campos serão atualizados automaticamente em uma tarefa ou problema:
 

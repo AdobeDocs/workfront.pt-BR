@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2529'
+source-wordcount: '2523'
 ht-degree: 2%
 
 ---
@@ -324,13 +324,13 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. No campo **Adicionar formulário personalizado**, selecione o(s) formulário(s) personalizado(s) que deseja associar ao problema. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode adicionar até dez formulários personalizados a um problema.
+1. No campo **Adicionar formulário personalizado**, selecione o(s) formulário(s) personalizado(s) que deseja associar ao problema. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode adicionar até dez formulários personalizados a um problema.
 
 1. (Condicional) Se você anexou um formulário personalizado ao problema, edite os campos no formulário. Você deve especificar todos os campos obrigatórios antes de poder salvar a ocorrência.
 
    >[!NOTE]
    >
-   >Dependendo de como o administrador do Workfront define as permissões para as seções no formulário personalizado, nem todos podem exibir ou editar os mesmos campos em um determinado formulário personalizado. As permissões para editar campos em uma seção de um formulário personalizado dependem das permissões que você tem no próprio problema. Para obter informações sobre a configuração de permissões em seções de um formulário personalizado, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Para obter informações sobre como configurar permissões de problemas, consulte [Compartilhar um problema](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >Dependendo de como o administrador do Workfront define as permissões para as seções no formulário personalizado, nem todos podem exibir ou editar os mesmos campos em um determinado formulário personalizado. As permissões para editar campos em uma seção de um formulário personalizado dependem das permissões que você tem no próprio problema. Para obter informações sobre como configurar permissões em seções de um formulário personalizado, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Para obter informações sobre como configurar permissões de problemas, consulte [Compartilhar um problema](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Clique em **Salvar** ou continue editando a seção a seguir.
 

@@ -6,9 +6,9 @@ description: Um relatório de calendário é um relatório dinâmico que fornece
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Pré-requisitos
 
-1. Você deve ter campos de data personalizados e um valor dentro do campo disponível em sua instância [!DNL Workfront]. Se você não tiver um formulário personalizado configurado com datas personalizadas, siga as instruções em [Criar um formulário com o designer do formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Você deve ter campos de data personalizados e um valor dentro do campo disponível em sua instância [!DNL Workfront]. Se você não tiver um formulário personalizado configurado com datas personalizadas, siga as instruções em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Anexe o formulário personalizado a um projeto, tarefa ou problema que você planeja adicionar ao calendário e especifique uma data. Para obter mais informações, consulte [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Configurar o grupo de itens

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '845'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    * [Criar Regras de Roteamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Vá para o projeto que você escolheu para ativar como uma Fila de solicitação de ajuda e onde você deseja criar um novo tópico da fila.\
    Para obter mais informações sobre como designar um projeto como uma Fila de Solicitação de Ajuda, consulte [Criar uma Fila de Solicitação](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

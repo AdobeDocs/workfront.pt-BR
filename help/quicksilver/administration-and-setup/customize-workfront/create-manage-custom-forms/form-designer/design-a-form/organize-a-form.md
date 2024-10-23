@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ As configurações de acesso selecionadas para uma seção são vinculadas diret
 
 Para obter informações sobre permissões em objetos, consulte [Visão geral das permissões de compartilhamento em objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Criar e configurar o acesso para uma seção em um formulário personalizado
 
-1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito em [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Clique em **Quebra de seção** e arraste-a para a posição desejada na tela.
 
@@ -147,7 +147,7 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 ## Posicionar campos e widgets personalizados em um formulário personalizado
 
 
-1. Comece a criar ou editar um formulário personalizado, conforme descrito em [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Comece a criar ou editar um formulário personalizado, conforme descrito em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Para posicionar campos e widgets personalizados na mesma linha, arraste um ao lado do outro até que uma linha apareça entre eles.
 
@@ -166,7 +166,7 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 
 ## Pré-visualizar um formulário personalizado
 
-1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito em [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Clique em **Visualizar** no canto superior direito para ver como o formulário será exibido quando estiver sendo usado e clique em **Finalizar Visualização** para retornar à edição do formulário.
 

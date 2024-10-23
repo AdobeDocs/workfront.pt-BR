@@ -5,15 +5,17 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
 
 ---
 
-
 # Visão geral dos tipos de registro conectados
+
+<!--see the commented out markers below for the Planning connection field, might not display in green; also add Preview tags for the article-->
 
 Você pode indicar que os tipos de registro individuais se relacionam entre si ou com objetos de outros aplicativos, conectando-os.
 
@@ -70,8 +72,10 @@ Considere o seguinte sobre a conexão de tipos de registro:
 
       * Um campo de registro vinculado é criado no tipo de registro ao qual você está se conectando. Nenhum campo de registro vinculado é criado automaticamente no tipo de objeto do outro aplicativo.
       * Os campos de registros de planejamento não podem ser acessados de objetos do Workfront.
-      * Os campos de registro do Planning podem ser acessados de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
       * Os registros do Planning ficam visíveis na guia Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar registros na seção Planning de objetos Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+     <!--* Planning records are visible from a Workfront object's custom form when you add the Planning connection field type to the form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). -->
+      * Os campos de registro do Planning podem ser acessados de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
    * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando.
 
@@ -159,8 +163,3 @@ Por exemplo, se você conectar campanhas a projetos e escolher esse tipo de cone
 Um exemplo real de relação um para um é o que existe entre uma pessoa e o identificador exclusivo de seu país (como Número de Seguridade Social, ID de Passaporte, ID de identificação local): cada pessoa tem apenas um identificador exclusivo para um país e cada identificador exclusivo pode ser vinculado a apenas uma pessoa.
 
 Ao selecionar esse tipo de conexão, você pode alterá-lo posteriormente para qualquer outro tipo.
-
-
-
-
-

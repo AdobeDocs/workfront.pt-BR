@@ -6,10 +6,10 @@ description: Este cenário de integração vincula um projeto  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 1%
+source-wordcount: '729'
+ht-degree: 2%
 
 ---
 
@@ -112,7 +112,7 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </tbody> 
   </table>
 
-  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Um projeto configurado como uma fila de solicitações para capturar novas solicitações de campanha. O formulário [!UICONTROL Resumo da campanha] deve ser anexado a essas solicitações.
 

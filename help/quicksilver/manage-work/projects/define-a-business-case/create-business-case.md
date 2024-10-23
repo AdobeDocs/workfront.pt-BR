@@ -5,9 +5,9 @@ description: Você pode usar o Business Case para solicitar um projeto e definir
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Considere o seguinte ao solicitar um projeto por meio de um Business Case:
 
    O Forms personalizado deve ser criado antes de ser anexado aos projetos.
 
-   Para obter mais informações sobre o Forms Personalizado, consulte o artigo [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Para obter mais informações sobre o Forms Personalizado, consulte o artigo [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Clique em **Enviar**.
 

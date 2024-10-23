@@ -6,9 +6,9 @@ description: Este cenário de integração vincula um projeto  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </tbody> 
   </table>
 
-  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Modelos de projeto que representam campanhas e outros projetos que exigem financiamento, configurados com um tópico de fila [!UICONTROL Solicitação de orçamento]. O tópico da fila [!UICONTROL Solicitação de orçamento] é atribuído para usar o formulário personalizado [!UICONTROL Solicitação de orçamento].
 * Um formulário de **[!UICONTROL Resumo da campanha]** para o objeto de projeto.
@@ -141,7 +141,7 @@ Você deve ter o seguinte em [!DNL Workfront] para usar este cenário:
    </tbody> 
   </table>
 
-  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuração [!DNL Anaplan] Esperada
 

@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
+source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
 workflow-type: tm+mt
-source-wordcount: '14512'
+source-wordcount: '14518'
 ht-degree: 2%
 
 ---
@@ -614,7 +614,7 @@ ht-degree: 2%
          * [Visão geral de formulários personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Criar um formulário personalizado {#design-a-form}
             * [Criar um formulário: índice do artigo](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [Criar um formulário com o designer de formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [Criar um formulário personalizado](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [Criar um formulário a partir de uma cópia](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [Adicionar campos calculados a um formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Adicionar lógica de exibição e lógica de salto a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
@@ -1933,6 +1933,7 @@ ht-degree: 2%
             * [Exibir versões de prova anteriores no visualizador de provas](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [Alterar resolução de prova interativa no visualizador de provas](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Definir configurações do revisor de provas](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [Revisar conteúdo interativo com a ferramenta de revisão do Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * Comentar em uma prova {#comment-on-a-proof}
             * [Comentário sobre provas: índice do artigo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Comentar em uma prova](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)

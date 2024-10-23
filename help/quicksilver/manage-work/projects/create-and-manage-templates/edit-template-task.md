@@ -7,9 +7,9 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2406'
 ht-degree: 4%
 
 ---
@@ -362,7 +362,7 @@ Você também pode adicionar formulários personalizados às tarefas futuras de 
 
    Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo.
 Somente formulários personalizados ativos são exibidos na lista.
-Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 Você pode adicionar até dez formulários personalizados a uma tarefa de modelo.
 Os formulários são adicionados automaticamente às tarefas criadas a partir do modelo.
 1. (Condicional e opcional) Se você anexou um formulário personalizado à tarefa de modelo, edite quaisquer campos no formulário. Você deve especificar todos os campos obrigatórios antes de poder salvar a tarefa de modelo.

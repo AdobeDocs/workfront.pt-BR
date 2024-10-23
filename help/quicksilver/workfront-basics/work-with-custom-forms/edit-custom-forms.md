@@ -7,9 +7,9 @@ description: Você pode editar informações em um formulário personalizado dep
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Você deve ter o seguinte:
 
 ## Pré-requisitos
 
-* O administrador do Workfront ou um usuário do plano com acesso administrativo a formulários personalizados deve criar formulários personalizados em seu ambiente. Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* O administrador do Workfront ou um usuário do plano com acesso administrativo a formulários personalizados deve criar formulários personalizados em seu ambiente. Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Você deve ter formulários personalizados anexados a um objeto.
 
   Para obter informações sobre como aplicar formulários personalizados a um objeto, consulte [Adicionar um formulário personalizado a um objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -91,7 +91,7 @@ A edição de informações em um formulário personalizado anexado a um objeto 
    * Você pode formatar campos de texto (negrito, itálico ou sublinhado) somente se o usuário que criou o formulário os configurar como um Campo de texto com o tipo de campo Formatação. Campos de Texto de Linha Única e Campos de Texto de Parágrafo não podem ser formatados.
    * Você só poderá atualizar a hora do dia em um tipo de campo Data se o usuário que criou o formulário o tiver incluído ao criar o campo.
 
-   Para obter informações sobre todos os tipos de campo, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Para obter informações sobre todos os tipos de campo, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Clique em **Salvar alterações**.
 
