@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
+source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
 workflow-type: tm+mt
-source-wordcount: '14549'
+source-wordcount: '14559'
 ht-degree: 2%
 
 ---
@@ -423,6 +423,7 @@ ht-degree: 2%
    * Comunicados {#announcements}
       * [Anúncios](product-announcements/announcements/announcements.md)
       * [A programação de recursos não é mais suportada](product-announcements/announcements/feature-removal-timeline.md)
+      * [Guia de desativação do Analytics aprimorado](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [Guia de descontinuação do Legacy Home](product-announcements/announcements/legacy-home-deprecation.md)
       * [Perguntas frequentes sobre a Janela de manutenção](product-announcements/announcements/maintenance-window-faq.md)
       * [Alteração necessária para adicionar provas ao seu arquivo de inclui na lista de permissões](product-announcements/announcements/proofhq-domain-change-workfront.md)
@@ -929,6 +930,7 @@ ht-degree: 2%
       * [Visão geral da seção Atualizações](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Atualizar trabalho](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Limites de caracteres em campos](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+      * [Criar tarefas pessoais](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
       * [Responder a atualizações](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [Responder a notificações por email](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
       * [Marcar outros usuários em atualizações](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
@@ -1619,6 +1621,7 @@ ht-degree: 2%
          * [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Relatórios ou listas: exibir usuários associados a um objeto](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filtro: exibir predecessores incompletos entre projetos](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+         * [Filtro: tarefas pessoais](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
          * [Filtro: exibir sucessores incompletos entre projetos](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
          * [Filtro: exibir seus projetos atuais pendentes de aprovação](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
          * [Filtro: exibir somente itens em um status de aprovação](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,12 @@ Atualizamos a interface do relatório para corresponder ao design de outras áre
 
 * Adicionamos uma paleta de cores expandida para regras de formatação condicional nos relatórios. Para obter mais informações sobre formatação condicional, consulte [Usar formatação condicional nos modos de exibição](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 * Adicionamos um novo botão &quot;Editar modo de texto&quot; para entrar no modo de texto ao editar uma coluna no Report Builder. Para obter mais informações sobre como editar exibições de relatórios no modo de texto, consulte [Editar uma exibição usando o modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* Não é mais possível editar o título de um relatório clicando em seu título. Você ainda pode editar um título de relatório clicando em Ações de Relatório > Editar e, em seguida, alterando o título. Para obter mais informações sobre como editar relatórios, consulte [Editar configurações de relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+* Não é mais possível criar um agrupamento clicando em um nome de coluna no construtor de agrupamento. Você ainda pode criar um agrupamento com base em uma coluna existente em um relatório selecionando o campo correspondente na lista do campo Agrupar por:. Para obter mais informações sobre como criar agrupamentos, consulte [Criar agrupamentos no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * Adicionamos um novo botão na interface do filtro de relatório para alternar entre um seletor de datas do calendário e um campo de texto curinga de data relativa ao filtrar por um campo de data. Além disso, selecionar um atalho curinga de data relativo na interface do filtro de relatório agora preenche automaticamente os campos curingas associados com base na sua seleção. Para obter mais informações sobre como usar curingas de data relativos em filtros de relatório, consulte [Usar curingas baseados em data para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 * Os curingas com base no usuário nos filtros de relatório agora sugerem curingas relevantes para preenchimento automático com base no tipo de campo selecionado. Para obter mais informações sobre curingas baseados no usuário em filtros de relatório, consulte [Usar curingas baseados no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 * Os relatórios com prompts compartilhados publicamente agora serão exibidos sem prompts aplicados para todos os usuários que os acessarem por meio do link de compartilhamento público. Os usuários conectados que acessam o relatório diretamente ainda poderão aplicar prompts. Para obter informações sobre solicitações de relatório, consulte [Adicionar uma solicitação a um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-* Alterações nos relatórios existentes que melhoram a compatibilidade com os Painéis do Canvas.
+* Fizemos alterações nos relatórios existentes que melhoram a compatibilidade com os Painéis do Canvas.
 
 _Essas atualizações estão sendo implementadas de forma incremental na produção a partir da versão 24.10 em 17 de outubro de 2024. As alterações estarão disponíveis para apenas um pequeno número de clientes no início, tornando-se cada vez mais disponíveis ao longo do tempo até estarem totalmente disponíveis para todos os clientes em 8 de novembro de 2024._
 
@@ -58,9 +60,9 @@ _Essas atualizações estão sendo implementadas de forma incremental na produç
 
 Atualizamos as interfaces de exibições, agrupamentos e filtros herdados nas listas para corresponder ao design de outras áreas do Workfront. Essas atualizações incluem alterações adicionais em exibições, agrupamentos e filtros herdados em listas:
 
-* Uma paleta de cores expandida para regras de formatação condicional em relatórios. Para obter mais informações sobre formatação condicional, consulte [Usar formatação condicional nos modos de exibição](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-* Um novo botão &quot;Editar modo de texto&quot; para entrar no modo de texto ao editar uma coluna ao criar uma nova visualização. Para obter mais informações sobre como editar exibições no modo de texto, consulte [Editar uma exibição usando o modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
-* Um novo botão na interface do filtro herdado para alternar entre um seletor de datas do calendário e um campo de texto curinga de data relativa ao filtrar por um campo de data. Além disso, selecionar um atalho curinga de data relativo na interface do filtro de relatório agora preenche automaticamente os campos curingas associados com base na sua seleção.
+* Adicionamos uma paleta de cores expandida para regras de formatação condicional nos relatórios. Para obter mais informações sobre formatação condicional, consulte [Usar formatação condicional nos modos de exibição](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Adicionamos um novo botão &quot;Editar modo de texto&quot; para entrar no modo de texto ao editar uma coluna ao criar uma nova visualização. Para obter mais informações sobre como editar exibições no modo de texto, consulte [Editar uma exibição usando o modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* Adicionamos um novo botão na interface do filtro herdado para alternar entre um seletor de datas do calendário e um campo de texto curinga de data relativa ao filtrar por um campo de data. Além disso, selecionar um atalho curinga de data relativo na interface do filtro de relatório agora preenche automaticamente os campos curingas associados com base na sua seleção.
 * Os curingas com base no usuário em filtros herdados agora sugerem curingas relevantes para preenchimento automático com base no tipo de campo selecionado. Para obter mais informações sobre como usar filtros herdados, consulte [Criar ou editar filtros no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 _Essas atualizações estão sendo implementadas de forma incremental na produção a partir da versão 24.10 em 17 de outubro de 2024. As alterações estarão disponíveis para apenas um pequeno número de clientes no início, tornando-se cada vez mais disponíveis ao longo do tempo até estarem totalmente disponíveis para todos os clientes em 8 de novembro de 2024._
