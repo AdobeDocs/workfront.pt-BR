@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '5537'
+source-wordcount: '6294'
 ht-degree: 5%
 
 ---
 
 # Criar um formulário personalizado
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Você pode criar um formulário personalizado com o designer de formulário no Adobe Workfront. Você pode anexar formulários personalizados a diferentes objetos do Workfront para capturar dados sobre esses objetos.
 
@@ -85,7 +89,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * [Adicionar imagens, PDF e vídeos](#add-images-pdfs-and-videos)
    * [Adicionar campos nativos do Workfront](#add-workfront-native-fields)
    * [Adicionar arquivos do Adobe XD](#add-adobe-xd-files)
-     <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
+   * <span class="preview">[Adicionar campos de conexão do Planning](#add-planning-connection-fields)</span>
 
 ## Adicionar campos novos ou existentes ao formulário personalizado
 
@@ -903,102 +907,102 @@ Para adicionar um arquivo Adobe XD:
 
    Clique em **Salvar e fechar**.
 
-<!--
-### Add Planning connection fields
+<div class="preview">
+
+### Adicionar campos de conexão do Planning
 
 >[!IMPORTANT]
 >
->The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>As informações nesta seção se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
 >
->You must have the following to access Workfront Planning:
+>Para acessar o Workfront Planning, é necessário ter o seguinte:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>* Um novo plano e licença do Workfront. O Workfront Planning não está disponível para planos ou licenças herdadas do Workfront.
+>* Uma licença adicional para o Workfront Planning.
+>* A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience.
 >
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>Para obter mais informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
+Você pode exibir registros conectados do Workfront Planning em um campo personalizado em um objeto do Workfront adicionando um campo personalizado de conexão do Planning ao formulário personalizado de um objeto.
 
-You can add the Planning connection field to all objects' custom forms. However, you can display connected records only on the custom forms associated with Workfront objects that can be connected from Workfront Planning. 
+Você pode adicionar o campo de conexão do Planning a todos os formulários personalizados de objetos. No entanto, é possível exibir registros conectados somente nos formulários personalizados associados a objetos do Workfront que podem ser conectados no Workfront Planning.
 
 >[!NOTE]
 >
->Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
+>Os usuários que visualizam informações no campo personalizado devem ter acesso ao Workfront Planning e aos espaços de trabalho que contêm os tipos de registro conectados a objetos do Workfront.
 
+Para adicionar um campo de conexão do Planning:
 
-To add a Planning connection field:
-
-1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
-1. On the right side of the screen, configure the options for the custom field:
+1. No lado esquerdo da tela, localize a **conexão do Planning** e arraste-a para uma seção da tela.
+1. No lado direito da tela, configure as opções do campo personalizado:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
-      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+      <td role="rowheader">Rótulo</td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>:</p> <p>Evite usar caracteres especiais neste rótulo.</p> 
+      <p>Recomendamos que você escolha um rótulo pelo qual possa identificar facilmente de onde vem o registro do Planning. Adicione informações como o nome do espaço de trabalho ou o nome do tipo de registro. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td role="rowheader">Nome</td>
+      <td> <p>(Obrigatório) O nome é a forma como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
-      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      <td role="rowheader">Instruções</td> 
+      <td> <p>(Recomendado) Digite quaisquer informações adicionais sobre o campo. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p>
+      <p>Aqui é possível adicionar informações explícitas sobre o registro e os objetos que você está conectando. </p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Object type</td> 
-      <td><p>(Required) Select a Workfront object type that is connected to a record type in Workfront Planning.</p>
-      You may select from the following object types:
-      <ul><li> Project</li>
-      <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
-       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+      <td role="rowheader">Tipo de objeto</td> 
+      <td><p>(Obrigatório) Selecione um tipo de objeto do Workfront que esteja conectado a um tipo de registro no Workfront Planning.</p>
+      Você pode selecionar entre os seguintes tipos de objeto:
+      <ul><li> Projeto</li>
+      <li> Portfólio</li><li> Programa</li><li> Empresa</li><li> Grupo</li></ul>
+       <p>Somente os tipos de objeto do Workfront para os tipos de objeto do formulário estão disponíveis.</p> <p> Por exemplo, se a lista Tipos de objeto na parte superior do designer de formulário mostrar Projeto, você só poderá selecionar Projeto nesse campo e não poderá selecionar Portfolio, embora os portfólios também possam ser conectados a tipos de registro.</p>
       </td>
      </tr>
      <tr> 
-      <td role="rowheader">Workspace</td> 
-      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+      <td role="rowheader">Espaço de trabalho</td> 
+      <td> <p>(Obrigatório) Selecione o espaço de trabalho do Planning de onde vêm os registros que você deseja exibir no Workfront.</p> <p> Somente os espaços de trabalho conectados aos tipos de objeto selecionados no campo Tipo de objeto são exibidos. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Record Type</td> 
-      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+      <td role="rowheader">Tipo de registro</td> 
+      <td><p>(Obrigatório) Selecione o tipo de registro do Workfront Planning que tem uma conexão com o tipo de objeto do Workfront.</p><p>Somente os tipos de registro que têm conexões com o tipo de objeto selecionado no campo Tipo de objeto são exibidos. </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+      <td role="rowheader">Campo de conexão</td> 
+      <td><p>(Obrigatório) Selecione o campo de conexão entre o tipo de registro selecionado do Planning que você deseja exibir nos objetos do Workfront e o tipo de objeto do Workfront. </p> <p> <b>OBSERVAÇÃO</b></p><p>Você pode ter vários campos de conexão entre o mesmo objeto e tipos de registro, mas pode selecionar apenas um campo.</p>  </td> 
      </tr>
     </tbody> 
    </table>
 
-1. (Optional) Repeat the previous steps to add any other fields. 
+1. (Opcional) Repita as etapas anteriores para adicionar outros campos.
 
-    or
+   ou
 
-    To copy a field, hover over a field, and click the copy icon.
+   Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
-    ![copy icon](assets/copy-field.png)
+   ![ícone de cópia](assets/copy-field.png)
 
-1. To save your changes, click **Apply** and move on to another section to continue building your form.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-    or
+   ou
 
-    Click **Save and Close**.
+   Clique em **Salvar e fechar**.
 
-    You can now attach the form to an object connected from Workfront Planning and do one of the following:
+   Agora é possível anexar o formulário a um objeto conectado do Workfront Planning e executar um dos seguintes procedimentos:
 
-    * View Workfront Planning record types connected to the Workfront object
-    * Connect or disconnect records from the Workfront object associated with the form. 
+   * Exibir tipos de registro do Workfront Planning conectados ao objeto do Workfront, se houver.
+   * Conectar ou desconectar registros do objeto Workfront.
 
-    For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   Para obter mais informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
--->
+</div>
 
 ## Organizar e visualizar um formulário com o designer de formulário
 
