@@ -6,7 +6,7 @@ description: Se não conseguir abrir uma prova conforme descrito abaixo, entre e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 5%
@@ -67,7 +67,3 @@ Se você revisar regularmente o conteúdo interativo no Visualizador de provas d
    >O Visualizador de provas de desktop não suporta sites que exigem login.
 
 1. Clique em **Abrir prova** na tela exibida. 
-
- 
-
- 
