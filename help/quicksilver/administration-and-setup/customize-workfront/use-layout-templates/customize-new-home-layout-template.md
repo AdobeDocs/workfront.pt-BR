@@ -1,16 +1,16 @@
 ---
-title: Personalizar nova página inicial usando um modelo de layout
+title: Personalizar página inicial usando um modelo de layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Você pode usar um Modelo de layout para configurar o que os usuários veem quando abrem a Página inicial.
+description: Você pode usar um Modelo de layout para configurar o que os usuários veem quando abrem a Página inicial no Adobe Workfront.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '853'
 ht-degree: 1%
 
 ---
@@ -28,12 +28,10 @@ Você pode configurar:
 >[!IMPORTANT]
 >
 >Os usuários finais podem alterar seu plano de fundo e reordenar widgets na página após a aplicação do Modelo de layout. Eles não podem remover widgets incluídos por um Administrador do Workfront.
-> <br>
+> 
 >Os administradores têm a capacidade de adicionar novos widgets para os usuários. No entanto, se um usuário final já tiver personalizado a ordem do widget ou a seleção do plano de fundo, essas personalizações específicas não serão alteradas.
 
-
-
-Para obter informações sobre a página inicial, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Para obter informações sobre Página Inicial, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -81,7 +79,12 @@ Para personalizar a Página inicial usando um modelo de layout:
 
 1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e clique em **Workspace Residencial**.
 
-1. Nas guias à direita, clique em **Design e layout** para escolher e organizar widgets e o plano de fundo, ou em **Configurações de widget** para gerenciar configurações de widgets individuais, como filtros e grupos disponíveis.
+1. Nas guias à direita, clique em uma das opções a seguir:
+
+   * **Design e layout**: selecione para escolher e organizar widgets e o plano de fundo
+   * **Configurações do widget**: selecione para gerenciar configurações de widgets individuais, como filtros e grupos disponíveis.
+
+   A tabela a seguir contém detalhes sobre cada guia:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,55 +93,66 @@ Para personalizar a Página inicial usando um modelo de layout:
      <tr> 
       <td role="rowheader">Design e layout</td> 
       <td>
-      <p>Selecione quais widgets estarão presentes nos espaços de trabalho dos usuários, suas posições e escolha um plano de fundo. Observe que, embora os usuários não possam remover os widgets selecionados, eles podem movê-los e redimensioná-los livremente, bem como adicionar widgets adicionais.</p>
-      <p>Esta guia funciona essencialmente como um pequeno espaço de trabalho na Página Inicial; dessa forma, ela pode ser personalizada de acordo com as etapas descritas em <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Adicionar, editar ou remover widgets na Página Inicial</a>. Selecione widgets e organize o espaço de trabalho da maneira que você desejar que ele seja exibido para os usuários.</p>
-      <p>Para alterar o plano de fundo, siga as etapas em <b>Personalização do plano de fundo</b> em <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Introdução à Página Inicial</a>.</p>
+      <p>Selecione quais widgets serão exibidos nos espaços de trabalho dos usuários, suas posições e escolha um plano de fundo.</p> 
+      <p>Observe que, embora os usuários não possam remover os widgets selecionados, eles podem movê-los e redimensioná-los livremente. Eles também podem adicionar mais widgets.</p>
+      <p>Essa guia funciona essencialmente como uma pré-visualização do espaço de trabalho real da Página inicial, que os usuários com esse modelo de layout experimentarão.</p> 
+      <p> Siga um destes procedimentos: </p>
+      <ul><li>Personalize esta guia de acordo com as etapas descritas em <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Adicionar, editar ou remover widgets na Página Inicial</a>. </li>
+      <li>Selecione widgets e organize o espaço de trabalho da maneira que você desejar que ele seja exibido para os usuários.</li>
+      <li>Para alterar o plano de fundo, siga as etapas em <b>Personalização do plano de fundo</b> em <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Introdução à Página Inicial</a>.</li></p>
       <p>
 
->[!NOTE]
->
->Somente mover ou redimensionar widgets no Modelo de layout não fará com que as Home pages dos usuários atualizem seu layout. No entanto, adicionar ou remover um widget acionará uma atualização nas páginas dos usuários.
+   >[!NOTE]
+   >
+   >Somente mover ou redimensionar widgets no Modelo de layout não fará com que as Home pages dos usuários atualizem seu layout. No entanto, adicionar ou remover um widget acionará uma atualização nas páginas dos usuários.
 
-</p>
+   </p>
      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configurações do dispositivo</td> 
       <td>
-      <p>Alterar configurações de widgets individuais. Atualmente, somente três widgets são suportados:</p>
+      <p>Alterar configurações de widgets individuais.</p> 
+      <p>
+
+   >[!NOTE]
+   >
+   >Essas opções não se estendem ao painel Resumo. Você deve configurar essa área na guia Resumo do Modelo de layout.
+
+   </p>
+      <p> Selecione um dos seguintes widgets da lista à esquerda:</p>
       <ul>
         <li>Meus projetos</li>
         <li>Minhas tarefas</li>
         <li>Meus problemas</li>
       </ul>
-      <p>Depois de selecionar o widget que deseja editar, as opções disponíveis serão exibidas à direita. Estas opções incluem <b>Filtros</b>, <b>Colunas</b> e <b>Grupos</b>. Você pode:</p>
+      <p>Depois de selecionar o widget que deseja editar, selecione os <b>Filtros</b>, <b>Colunas</b> e <b>Grupos</b> que deseja disponibilizar para a Página Inicial à direita.</p>
+      <p> Você pode:</p>
       <ul>
-      <li><p><b>Selecione e ordene Filtros, Colunas ou Grupos disponíveis para os usuários:</b></p>
-      <p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Essas opções não se estendem ao painel Resumo. Você deve configurar essa área na guia Resumo do Modelo de layout. Opções desmarcadas não serão exibidas para usuários. Arraste e solte opções na lista para definir uma ordem.</li></p>
+      <li><p>Selecione e ordene os Filtros, Colunas ou Grupos disponíveis aos usuários marcando a caixa ao lado das opções na lista. Opções desmarcadas não serão exibidas para usuários.</p></li>
+      <li> <p>Arraste e solte opções na lista para definir uma ordem.</p></li>
       <p>
 
->[!IMPORTANT]
->
->* As opções Filtro, Colunas e Grupo são vinculadas às opções de personalização da lista no Modelo de layout. As alterações feitas aqui também serão aplicadas a essas configurações.
->* Os usuários devem ter pelo menos o acesso de Criação a Exibições para que a configuração da coluna do administrador seja aplicada corretamente a suas Páginas iniciais.
+   >[!IMPORTANT]
+   >
+   >* As opções Filtro, Colunas e Grupo são vinculadas às opções de personalização da lista no Modelo de layout. As alterações feitas aqui também serão aplicadas a essas configurações.
+   >* Os usuários devem ter pelo menos o acesso de Criação a Exibições para que a configuração da coluna do administrador seja aplicada corretamente a suas Páginas iniciais.
 
-</p>
-      <li><p><b>Defina um Filtro ou Grupo padrão para o widget:</b></p>
-      <p>Passe o mouse sobre uma opção e um botão aparecerá, permitindo que você defina essa opção como padrão para os usuários. O padrão atual terá um emblema Padrão azul à direita.</li></p>
-      <li><p><b>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis:</b></p>
-      <p>Clique no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros, Campos (para Colunas) ou Grupos existentes podem ser adicionados dessa maneira.</p></li>
+   </p>
+      <li><p>Defina um Filtro ou Grupo padrão para o widget, passando o mouse sobre uma opção e clicando em <b>Definir como padrão</b>. O padrão atual exibe um símbolo azul <b>Padrão</b> à direita.</p></li>
+      <li><p>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis clicando no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros, Campos (para Colunas) ou Grupos existentes podem ser adicionados dessa maneira.</p></li>
       </ul>
       <p>
 
->[!NOTE]
->
->Se você definir um filtro ou agrupamento padrão para um widget específico usando um modelo de layout, ele pode não entrar em vigor imediatamente devido às preferências do usuário existentes. Para aplicar o novo filtro ou agrupamento imediatamente, você ou o usuário podem precisar redefinir suas preferências de usuário anexando &quot;/resetUser&quot; ao final de seu URL.
+   >[!NOTE]
+   >
+   >Se você definir um filtro ou agrupamento padrão para um widget específico usando um modelo de layout, ele pode não entrar em vigor imediatamente devido às preferências do usuário existentes. Para aplicar o novo filtro ou agrupamento imediatamente, você ou o usuário podem precisar redefinir suas preferências de usuário anexando &quot;/resetUser&quot; ao final de seu URL.
 
-</p>
-  </td> 
-  </tr>
-  </tbody> 
-  </table>
+   </p>
+      </td> 
+      </tr>
+      </tbody> 
+      </table>
 
 1. Continue personalizando o modelo de layout.
 
@@ -146,6 +160,6 @@ Para personalizar a Página inicial usando um modelo de layout:
 
    Se tiver terminado de personalizar, clique em **Salvar** no canto inferior esquerdo.
 
->[!IMPORTANT]
->
->Você deve atualizar a página inicial para ver as personalizações do Modelo de layout.
+   >[!IMPORTANT]
+   >
+   >Os usuários devem atualizar sua página inicial para ver as personalizações do Modelo de layout.

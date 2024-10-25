@@ -6,9 +6,9 @@ description: A data de conclusão planejada de uma ocorrência é a data até a 
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Você deve ter acesso para Editar problemas e Gerenciar permissões sobre o prob
 Você pode definir manualmente a Data de conclusão planejada de um problema nas seguintes áreas do Workfront:
 
 * Na caixa Editar problema ou na área Detalhes do problema ao criar ou editar um problema. Para obter informações, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
-* Na área Página inicial, se a Data de conclusão planejada for exibida ao visualizar um problema. Para obter informações, consulte [Atualizar ou editar um item de trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Na área Página inicial, se a Data de conclusão planejada for exibida no painel Resumo de um problema. Para obter informações, consulte [Atualizar ou editar um item de trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * No cabeçalho do problema. Para obter informações, consulte [Novos cabeçalhos de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * Em uma lista de problemas ou relatório quando o campo Data de conclusão planejada é exibido na visualização.
 

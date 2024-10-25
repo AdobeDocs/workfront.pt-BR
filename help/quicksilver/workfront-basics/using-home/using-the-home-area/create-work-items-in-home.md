@@ -6,10 +6,10 @@ description: Você pode criar itens de trabalho e projetos na área [!UICONTROL 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 3%
+source-wordcount: '761'
+ht-degree: 2%
 
 ---
 
@@ -54,16 +54,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar um item de tarefa pessoal
 
-Você pode criar um item de tarefa pessoal que esteja disponível somente para você na área [!UICONTROL Página inicial]:
+Você pode criar um item de tarefa pessoal na área [!UICONTROL Página inicial]. Os itens de tarefa são tarefas pessoais que você cria para si mesmo.
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
-1. (Condicional) Adicionar o widget tarefa à sua tela inicial. Clique em **Personalizar** e localize **tarefas**.
+Você e outros usuários podem exibir suas tarefas pessoais em um relatório de tarefas pessoais. A partir daí, eles podem adicioná-los aos projetos, se necessário.
+
+Para criar um item de tarefa:
+
+1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
+1. (Condicional) Clique em **Personalizar** e em **Tarefas pendentes** para adicionar o widget tarefa à sua tela inicial.
 1. Vá para o widget **Tarefa pendente** e clique em **Adicionar tarefa**.
-1. Digite o
+1. Digite o nome do seu item de tarefa pessoal e clique em Enter.
 1. (Opcional) Clique no ícone ![](assets/date-icon.png) de **Data** para adicionar uma data de conclusão para o item.
    ![](assets/my-work-to-dos.png)
-
-
+1. (Opcional) Crie um relatório ou filtro de tarefa pessoal. Para obter informações sobre como criar um filtro de tarefa pessoal, consulte [Filtro: tarefa pessoal](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+Você pode visualizar seus itens de tarefa, bem como os itens de tarefa de outros usuários no relatório de tarefas pessoais.
 
 ## Adicionar uma tarefa a um projeto
 

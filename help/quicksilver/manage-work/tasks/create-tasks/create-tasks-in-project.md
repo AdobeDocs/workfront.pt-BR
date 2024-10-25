@@ -7,24 +7,41 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '959'
 ht-degree: 1%
 
 ---
 
 # Criar tarefas em um projeto
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
-Você só pode criar tarefas em um projeto depois de criá-lo.
+Você pode criar tarefas no Adobe Workfront das seguintes maneiras:
 
-Por exemplo, após criar um projeto, você pode adicionar tarefas e modificá-las para organizar o plano do projeto. Para obter mais informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
+* Crie uma tarefa em um projeto do zero, após a criação do projeto.
 
-<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
+  Depois de criar um projeto, você pode adicionar tarefas e modificá-las para organizar o plano do projeto. Para obter mais informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
-Este artigo descreve como criar tarefas do zero. Você também pode criar tarefas das seguintes maneiras:
+* Crie tarefas adicionando um modelo a um projeto.
+
+  Para obter informações, consulte [Anexar um modelo a um projeto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+
+* Criar tarefas pessoais e movê-las para um projeto.
+
+  Você pode criar tarefas pessoais seguindo um destes procedimentos:
+
+   * Criar uma solicitação de trabalho ad hoc e enviá-la a um usuário
+   * Criar um item de tarefa pendente na área Página inicial
+
+  Para obter informações sobre como criar tarefas pessoais que não estão em um projeto, consulte [Criar tarefas pessoais](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+
+  Você pode mover tarefas pessoais para um projeto e elas se tornam tarefas de trabalho.
+
+Este artigo descreve como criar tarefas do zero e como mover tarefas pessoais para um projeto.
+
+Você também pode criar tarefas das seguintes maneiras:
 
 * Copiando ou duplicando tarefas existentes. Para obter informações, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * Movendo tarefas de um projeto para outro. Para obter informações, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
@@ -152,3 +169,21 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
          * Clique em **Desfazer** a qualquer momento para reverter a última alteração ou em **Cancelar** para reverter todas as alterações feitas na lista de tarefas.
          * Se você clicou anteriormente em **Desfazer**, clique em **Refazer** para reaplicar a última alteração que você cancelou.
          * Clique em **Salvar** para salvar suas alterações na lista de tarefas.
+
+## Criar tarefas movendo uma tarefa pessoal para um projeto
+
+1. (Condicional) Certifique-se de que você ou outros usuários criaram tarefas pessoais.
+
+   Para obter informações, consulte [Criar tarefas pessoais](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+1. Crie um filtro de tarefa pessoal e aplique-o a um relatório ou lista de tarefas.
+
+   Para obter informações, consulte [Filtro: tarefas pessoais](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+
+   ![](assets/personal-tasks-report.png)
+1. Clique em um nome de tarefa no relatório de tarefa pessoal para abri-lo.
+
+   O Workfront salva tarefas pessoais em um projeto pessoal não listado que é sempre nomeado de acordo com este padrão: &quot;Tarefas do > nome completo do usuário. Por exemplo, um projeto pessoal poderia ser chamado de &quot;Tarefas de Rick&quot;.
+
+1. Na página de tarefas, clique no **menu Mais** ![](assets/more-icon.png) e em **Mover**. Para obter mais informações sobre como mover tarefas, consulte [Mover tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+
+   Depois que você terminar de mover a tarefa, ela será exibida no projeto selecionado. A linha do tempo do projeto pode ser afetada pela linha do tempo da nova tarefa.

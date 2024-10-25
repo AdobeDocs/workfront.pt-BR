@@ -7,10 +7,10 @@ description: Este filtro de tarefa retorna predecessores de projetos cruzados in
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
@@ -54,11 +54,11 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 Para aplicar esse filtro:
 
-1. Ir para uma lista de tarefas.
-1. No menu suspenso **Filtro**, selecione **Novo Filtro**.
+1. Ir para uma lista de tarefas ou um relatório de tarefas.
+1. No menu suspenso **Filtro**, selecione **Novo filtro**.
 
-1. Clique em **Alternar para Modo de Texto**.
-1. Na área **Definir regras de filtro para seu Relatório**, cole o seguinte código:
+1. (Condicional) Clique em **Modo de texto** se você acessou o filtro de uma lista ou **Alternar para Modo de texto** se acessou o filtro de um relatório.
+1. Na nova área, cole o seguinte código:
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. Clique em **Salvar filtro**.
+1. (Condicional) Clique em **Salvar Filtro** se você acessou o filtro de um relatório, ou **Aplicar** e **Salvar como novo** se acessou o filtro de uma lista de tarefas.

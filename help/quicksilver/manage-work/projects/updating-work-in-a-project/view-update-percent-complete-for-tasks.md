@@ -6,7 +6,7 @@ description: Você pode atualizar o percentual concluído de uma tarefa para ind
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das s
 
 * **Página inicial**: você pode atualizar a porcentagem concluída de uma tarefa ou problema no painel Resumo na área Página inicial ou no widget Meu trabalho.
 
-Para obter informações, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Para obter informações, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Considerações sobre a atualização do percentual concluído de uma tarefa
 
