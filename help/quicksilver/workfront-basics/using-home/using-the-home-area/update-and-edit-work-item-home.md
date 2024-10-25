@@ -6,9 +6,9 @@ description: Você pode exibir e adicionar atualizações a um item de trabalho 
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '678'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Você pode exibir atualizações em qualquer item de trabalho na [!UICONTROL Lis
 
 Você pode fornecer atualizações em qualquer item de trabalho na Lista [!UICONTROL Trabalho]:
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
 
    | Dispositivo | Descrição |
@@ -102,7 +102,7 @@ Para obter informações mais detalhadas sobre como adicionar atualizações, co
 
 É possível editar qualquer campo em qualquer item de trabalho que você tenha acesso para editar.
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
 
    | Dispositivo | Descrição |

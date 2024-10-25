@@ -7,9 +7,9 @@ description: Você pode usar filtros no Adobe Workfront para reduzir a quantidad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1821'
 ht-degree: 1%
 
 ---
@@ -71,8 +71,8 @@ Para obter mais informações sobre filtros em listas e relatórios, consulte os
 
 Você pode usar filtros integrados ou criar filtros personalizados nas seguintes áreas do Workfront:
 
-<!--* Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
+* Início\
+  Para obter informações, consulte [Exibir itens na Lista de Trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Área de solicitações. Não é possível personalizar filtros na área Solicitações.
 
   Para obter informações, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

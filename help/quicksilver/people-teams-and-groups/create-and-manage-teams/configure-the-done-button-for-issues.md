@@ -6,9 +6,9 @@ description: O botão Concluído pode definir automaticamente o status de uma ta
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Configure o botão [!UICONTROL Concluído] para problemas
 
 O botão [!UICONTROL Concluído] pode definir automaticamente o status de uma tarefa ou problema. Por padrão, [!DNL Adobe Workfront] marca um problema como [!UICONTROL Resolvido] quando um destinatário clica em [!UICONTROL Concluído] em seu item de trabalho.
+
+>[!NOTE]
+>
+>O botão Concluído é exibido como Marcar como concluído em todas as áreas do Workfront.
 
 ## Visão geral
 

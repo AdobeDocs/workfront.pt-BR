@@ -6,7 +6,7 @@ description: Você pode fornecer acesso às informações de que sua organizaç�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Criar um relatório personalizado
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 Você pode fornecer acesso às informações de que sua organização precisa no Adobe Workfront criando relatórios. Você pode usar qualquer um dos relatórios internos disponíveis no Workfront ou criar seus relatórios personalizados do zero.
 
@@ -126,7 +126,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Para alterar uma coluna existente, clique na coluna, clique no ícone ![](assets/x-icon-circled.png) de **Remover** à esquerda do campo atual na caixa **Mostrar neste campo de coluna** no canto superior esquerdo do Report Builder, comece a digitar um novo campo e, em seguida, clique nele quando ele for exibido na lista.
+   Para alterar uma coluna existente, clique na coluna, clique no ícone ![](assets/remove-column-icon.png) de **Remover** à direita do campo atual na área **Mostrar neste campo de coluna** no canto superior esquerdo do Report Builder, comece a digitar um novo campo e, em seguida, clique nele quando ele for exibido na lista.
 
    Para obter mais informações sobre os campos exibidos nas colunas, consulte [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
