@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Agrupar um relatório por um campo personalizado de várias seleções
+title: Agrupar um relatório por um campo personalizado de seleção múltipla
 description: Você pode agrupar pelo valor em um campo personalizado de várias seleções em um relatório do Adobe Workfront somente usando o modo de texto.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 # Agrupar um relatório por um campo personalizado de várias seleções
+
+<!--Audited: 10/2024-->
 
 Você pode agrupar pelo valor em um campo personalizado de várias seleções em um relatório do Adobe Workfront somente usando o modo de texto.
 
@@ -37,6 +39,8 @@ Para obter informações sobre como usar o modo de texto, consulte o artigo [Vis
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -44,28 +48,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar um agrupamento </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador para modificar um filtro </p></li>
+   <li><p>Padrão para modificar um relatório</p></li> </ul>
+
+<p>Atual:</p>
+   <ul><li><p>Solicitação para modificar um filtro </p></li>
+   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um agrupamento</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agrupar um relatório por campos personalizados de seleção múltipla
 
@@ -75,17 +85,17 @@ Para poder agrupar por um campo personalizado de seleção múltipla, você deve
   Para obter informações sobre como criar formulários personalizados e adicionar campos personalizados a eles, consulte o artigo [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Anexe o formulário personalizado a objetos.
-* Preencha o campo personalizado de várias seleções com um valor em cada objeto. 
+* Preencha o campo personalizado de várias seleções com um valor em cada objeto.
 
 Para agrupar por um campo personalizado de várias seleções em um relatório:
 
 1. Crie um relatório ou edite um existente onde deseja adicionar um agrupamento para um campo personalizado de seleção múltipla.\
    Para obter informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
+1. Clique em **Ações de Relatório** e depois em **Editar**.
 1. Selecione a guia **Agrupamentos**.
 1. Clique em **Alternar para Modo de Texto**.
 
-1. Selecione o texto na caixa **Agrupar seu relatório** e substitua-o pelo seguinte código:
+1. Selecione o texto na caixa **Agrupar por** e substitua-o pelo seguinte código:
 
    <pre>
    group.0.displayname=Nome de campo personalizado de seleção múltipla
@@ -94,7 +104,7 @@ Para agrupar por um campo personalizado de várias seleções em um relatório:
    group.0.textmode=true
    </pre>
 
-1. Substitua &quot;Nome do campo personalizado de seleção múltipla&quot; pelo nome real do seu campo personalizado de seleção múltipla, como exibido no Workfront.
+1. Substitua &quot;Nome do campo personalizado de seleção múltipla&quot; pelo nome real do seu campo personalizado de seleção múltipla, como ele aparece na instância do Workfront.
 1. Clique em **Salvar e fechar**.
 
    Os objetos no relatório são agrupados pelos valores do campo personalizado de seleção múltipla.

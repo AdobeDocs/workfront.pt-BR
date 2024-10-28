@@ -5,17 +5,19 @@ keywords: calculado,agregações,avançado,exibições
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Agrupamento: exibir o resultado da agregação de vários valores calculados em um agrupamento"
 description: Você pode usar o modo texto em uma coluna para exibir um cálculo entre dois campos na exibição de um relatório ou lista. Cada linha exibe o cálculo de cada objeto no relatório ou lista.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Grouping: exibe o resultado da agregação de vários valores calculados em um agrupamento
+
+<!--Audited: 10/2024-->
 
 Você pode usar o modo texto em uma coluna para exibir um cálculo entre dois campos na exibição de um relatório ou lista. Cada linha exibe o cálculo de cada objeto no relatório ou lista.
 
@@ -25,6 +27,8 @@ Você pode exibir o valor agregado de vários itens de exibição calculados na 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -32,33 +36,39 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar um agrupamento </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador para modificar um filtro </p></li>
+   <li><p>Padrão para modificar um relatório</p></li> </ul>
+
+<p>Atual:</p>
+   <ul><li><p>Solicitação para modificar um filtro </p></li>
+   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um agrupamento</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir o resultado da agregação de vários valores calculados em um agrupamento
 
 1. Vá para um relatório de tarefa, clique em **Ações de Relatório** > **Editar**.
-1. Na guia **Agrupamentos**, clique em **Adicionar Agrupamento** e comece a digitar o **Nome do Projeto** no campo **Agrupar seu Relatório** > **Primeiro por** e selecione-o quando ele for exibido na lista.
+1. Na guia **Agrupamentos**, clique em **Adicionar agrupamento** e comece a digitar o **Nome do projeto** no campo **Agrupar por**. Em seguida, selecione **Projeto > Nome** quando ele for exibido na lista.
 
 1. Na guia **Colunas(Modo de Exibição)**, clique em **Adicionar Coluna** e comece a digitar **Horas Planejadas** no campo **Mostrar nesta coluna**. Em seguida, selecione-a quando ela for exibida na lista.
 
@@ -66,10 +76,9 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    >
    >Sempre comece a adicionar o máximo de informações usando a interface Padrão antes de editar as informações no modo de texto. Adicione campos que estejam mais próximos ou que contenham a maior quantidade de informações que você está tentando fazer para o cálculo.
 
-1. No campo **Resumir esta coluna por**, selecione **Soma** e clique em **Concluído**.
-1. Clique em **Alternar para Modo de Texto** na coluna adicionada.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
-1. Substitua as linhas `valuefield ` e `aggregator.valuefield` pelas linhas realçadas no seguinte exemplo de modo de texto:
+1. No campo **Resumir esta coluna por**, selecione **Soma**.
+1. Clique em **Alternar para Modo de Texto** na coluna adicionada e em **Editar Modo de Texto**.
+1. Substitua o texto na caixa pelo seguinte exemplo de modo de texto:
 
    ```
    valueformat=compound
@@ -93,5 +102,5 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    >
    >
    >A definição `minutesAsHoursString` da linha `aggregator.displayformat` significa que não há necessidade de dividir cada campo por 60, como concluído em `valueexpression` para os resultados. Neste `aggregator.valuefield=workRequired` torna-se: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
-
+1. Clique em **Concluído**.
 1. Clique em **Salvar+Fechar**.
