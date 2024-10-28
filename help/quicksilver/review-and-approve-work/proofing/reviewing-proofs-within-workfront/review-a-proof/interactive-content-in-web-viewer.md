@@ -6,14 +6,19 @@ description: Recomendamos que você revise todo o conteúdo interativo usando o 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # Configurar prova de conteúdo interativa no Visualizador de Prova da Web
+
+>[!IMPORTANT]
+>
+>Esta é uma extensão de navegador herdada e não é mais suportada. Recomendamos instalar a nova extensão de navegador atualmente na versão beta: [ferramenta de revisão do Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+
 
 Recomendamos que você revise todo o conteúdo interativo usando o Visualizador de provas de desktop. No entanto, se as políticas de sua organização impedirem isso, o administrador do Workfront poderá configurar seu sistema para usar o Visualizador de provas da Web para provas interativas. Para obter informações comparativas sobre esses dois visualizadores, consulte [Diferenças entre o Visualizador de Provas da Web e a visão geral do Visualizador de Provas do Desktop](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
@@ -47,5 +52,3 @@ O Visualizador de provas da web tem as seguintes limitações:
 1. No Visualizador de Provas da Web, clique em **Recarregar a prova**.
 
 Com a extensão instalada no navegador, o visualizador de provas captura uma tela estática do seu conteúdo sempre que você clica em **Adicionar comentário**. Esta captura de tela permite adicionar comentários com marcações.
-
- 
