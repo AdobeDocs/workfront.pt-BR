@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,10 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 
 1. (Opcional) Para posicionar um campo ou widget personalizado acima ou abaixo de outro, arraste-o para cima ou para baixo até que uma linha azul horizontal apareça entre os itens.
 
-<div class="preview">
+1. Para mover um campo personalizado para outra seção no formulário, você pode arrastá-lo e soltá-lo no local, <span class="preview">ou clicar no ícone **Mover para** no campo e selecionar a seção para a qual movê-lo.</span>
 
-1. Para mover um campo personalizado para outra seção no formulário, você pode arrastá-lo e soltá-lo no local ou clicar no ícone **Mover para** no campo e selecionar a seção para onde movê-lo.
-
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Mover campo para uma seção](assets/move-field-to-section.png)
-
-</div>
 
 1. Para salvar as alterações, clique em **Aplicar**
 
