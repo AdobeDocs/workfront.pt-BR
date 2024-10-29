@@ -4,9 +4,9 @@ description: Aprimoramentos no gerenciamento de documentos do quarto trimestre d
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >[!NOTE]
 >
 >~~Versão de visualização: 3 de outubro de 2024~~; Produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)
->
->_Este recurso foi removido temporariamente da Visualização._
 
 Agora você pode visualizar o status de decisão de um documento diretamente na lista de documentos.
 

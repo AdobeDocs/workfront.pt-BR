@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         <li>
                             <p>Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)</p>
                         </li>
-                        <p><i>Este recurso foi removido temporariamente da Visualização.</i></p>
                     </ul>
                 </td>
             </tr>
