@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 95f21f064c5298dc6d2e1c24872ee049f77c3fac
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '3612'
+source-wordcount: '3689'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 2%
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # Criar campos
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -233,7 +238,7 @@ Os campos de texto de linha única capturam informações alfanuméricas limitad
 
 1. Adicione as seguintes informações na guia **Novo campo**:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida ao passar o mouse sobre o cabeçalho da coluna do campo em uma tabela.
+   * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida ao passar o mouse sobre o cabeçalho da coluna do campo em uma tabela ou <span class="preview"> ao clicar no ícone de informações ao lado do nome do campo na página de detalhes do registro.</span>
 1. Clique em **Criar**.
 
    O novo campo de linha única é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.
@@ -366,7 +371,7 @@ Os tipos de campo de número capturam informações em um formato de número.
 
 Os tipos de campo Porcentagem capturam informações em um formato de número seguido por um sinal de porcentagem.
 
-1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Porcentagem**.
+1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Porcentagem**. <!--change screen shot for preview-->
 
    ![](assets/percentage-field-type.png)
 
@@ -376,9 +381,23 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
    * **Precisão**: o número de casas decimais que você deseja gravar para o campo. É possível exibir até 6 casas decimais.
    * **Permitir números negativos**: selecione esta opção se desejar permitir valores percentuais negativos neste campo. Essa opção não está selecionada por padrão.
 
-   >[!NOTE]
-   >
-   >    Se você selecionar Permitir números negativos e valores negativos forem armazenados nos registros aos quais o campo está anexado, não será mais possível desmarcar a configuração no futuro.
+     >[!NOTE]
+     >
+     >    Se você selecionar Permitir números negativos e valores negativos forem armazenados nos registros aos quais o campo está anexado, não será mais possível desmarcar a configuração no futuro.
+
+   <!--<div class="preview">  
+
+    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
+        * **Number**: The percent value displays as a number followed by the percentage sign. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+
+    >[!NOTE]
+    >
+    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
+    >* You can change the Show as selection when editing the field later. 
+    </div>-->
+
 
 1. Clique em **Criar**.
 

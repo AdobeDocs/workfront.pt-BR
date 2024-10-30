@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Relatório: visualização e agrupamento combinados de tarefas e problemas"
+title: "Relatório: Exibição e Agrupamento Combinados de Tarefas e Problemas"
 description: Este relatório de Item de trabalho mostra tarefas e problemas em que os usuários aceitaram trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bc99e303047b989b972974b398420a9180e40874
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 1%
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
 # Relatório: Exibição e Agrupamento combinados de tarefas e problemas
+
+<!--Audited: 10/2024-->
 
 Este relatório de Item de trabalho mostra tarefas e problemas em que os usuários aceitaram trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
 
@@ -22,11 +24,13 @@ Este relatório usa `sharecol=true` na exibição para combinar vários campos s
 
 >[!TIP]
 >
-> A exibição Item de trabalho exibe somente tarefas e problemas que foram aceitos pelos usuários atribuídos a eles. Este relatório não exibe itens de trabalho que não foram movidos das listas Solicitações de Trabalho ou Solicitações da Equipe para a lista Trabalhando em.
+>  A exibição Item de trabalho exibe somente tarefas e problemas que foram aceitos pelos usuários atribuídos a eles. Este relatório não exibe itens de trabalho que não foram movidos das listas Solicitações de Trabalho ou Solicitações da Equipe para a lista Trabalhando em.
 
 ![item_de_trabalho_relatório.png](assets/work-item-report-350x46.png)
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -35,40 +39,47 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador para modificar um filtro </p></li>
+   <li><p>Padrão para modificar um relatório</p></li> </ul>
+
+<p>Atual:</p>
+   <ul><li><p>Solicitação para modificar um filtro </p></li>
+   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Criar um relatório com Exibição e Agrupamento combinados de tarefas e problemas
 
 Para criar um relatório com esta exibição:
 
-1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
+1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito ou no ícone ![](assets/lines-main-menu.png) do **Menu Principal** no canto superior esquerdo, se disponível, em seguida clique em **Relatórios**.
 
-1. Clique em **Novo Relatório** e selecione o objeto **Item de Trabalho** no menu suspenso.
+1. Clique em **Novo Relatório** > **Mais** > **Item de Trabalho** no menu suspenso.
 
-1. Na área **Visualização da coluna**, clique no cabeçalho da única coluna exibida.
+1. Na área **Visualização da coluna**, clique no cabeçalho da única coluna exibida. Esta é a coluna **Ext Ref**.
 1. Clique em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a área de modo de texto e clique em **Clicar para editar o texto**.
-1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
+1. Passe o mouse sobre a área de modo de texto e clique em **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa de modo de texto e substitua-o pelo seguinte código:
 
    ```
    column.0.description=Task or Issue 
@@ -259,8 +270,9 @@ Para criar um relatório com esta exibição:
    column.15.width=1
    ```
 
+1. Clique em **Concluído**.
 1. (Opcional) Clique em **Agrupamentos** para adicionar um agrupamento ao relatório.
-1. (Opcional) Se você estiver adicionando um agrupamento, clique em **Alternar para Modo de Texto**.
+1. (Opcional e condicional) Se você estiver adicionando um agrupamento, clique em **Alternar para Modo de Texto**.
 1. (Opcional) Substitua o texto dentro da área do modo de texto de agrupamento pelo seguinte código:
 
    ```
@@ -273,3 +285,4 @@ Para criar um relatório com esta exibição:
    Esse agrupamento agrupa todas as tarefas e todos os problemas.
 
 1. Clique em **Salvar + Fechar**.
+1. (Opcional) Atualize o nome do relatório e clique em **Aplicar**.

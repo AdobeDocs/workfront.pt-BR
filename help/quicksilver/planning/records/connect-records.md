@@ -1,14 +1,14 @@
 ---
 title: Conectar Registros
-description: Depois de criar conexões entre tipos de registro, você pode conectar registros individuais uns aos outros.
+description: Depois de criar conexões entre tipos de registro, você pode conectar registros individuais uns aos outros. É possível exibir informações de um registro em outro registro ao conectá-los.
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2988'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 1%
 
 # Conectar registros
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
-É possível conectar registros do Adobe Workfront Planning uns aos outros ou a objetos de outros aplicativos.
+É possível conectar registros do Adobe Workfront Planning uns aos outros ou a objetos de outros aplicativos. É possível exibir informações de um registro em outro registro ao conectá-los.
 
 Este artigo descreve como conectar registros. Para obter informações mais gerais sobre como conectar registros, consulte [Visão geral dos registros conectados](/help/quicksilver/planning/records/connected-records-overview.md).
 
@@ -129,11 +133,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Pré-requisitos para conectar registros
+## Considerações para conexão de registros
 
-Para conectar registros a outros registros ou objetos, você deve ter o seguinte:
+* Para conectar registros a outros registros ou objetos, você deve ter o seguinte:
 
-* Pelo menos um espaço de trabalho, tipo de registro e registro.
+   * Pelo menos um espaço de trabalho, tipo de registro e registro.
 
   Para obter mais informações, consulte os seguintes artigos:
 
@@ -141,7 +145,9 @@ Para conectar registros a outros registros ou objetos, você deve ter o seguinte
    * [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
    * [Criar registros](/help/quicksilver/planning/records/create-records.md)
 
-* Conexões entre tipos de registro ou entre tipos de registro e objetos de outros aplicativos. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Conexões entre tipos de registro ou entre tipos de registro e objetos de outros aplicativos. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+* É possível conectar um ou vários registros ou objetos entre si. Isso depende do tipo de conexão selecionado ao conectar os tipos de registro ou objeto. Para obter informações, consulte [Visão geral sobre tipos de registros do Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Conectar registros do Workfront Planning
 
@@ -172,9 +178,10 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
 
    >[!TIP]
    >
-   >    Se apenas a imagem do registro foi selecionada para exibição quando os tipos de registro foram conectados, somente a miniatura ou o ícone do registro será exibido no campo conectado. Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >Se apenas a imagem do registro foi selecionada para exibição quando os tipos de registro foram conectados, somente a miniatura ou o ícone do registro será exibido no campo conectado. Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >
 
-
+1. <span class="preview"> (Condicional) Se você selecionou Um para muitos ou Um para um para o tipo Conexão ao conectar os tipos de registro e tentar conectar um registro ou um objeto que já está conectado em outro lugar, você receberá um aviso de que a conexão novamente o removerá da conexão original. Clique em **Conectar** para permitir a remoção e conectar o registro, ou em **Cancelar** para voltar ao campo e selecionar outro registro.</span>
 1. (Opcional) Se você não puder encontrar um registro ou um objeto para se conectar e quiser adicioná-lo, clique em **+ Adicionar** para adicionar um novo registro. Para obter mais informações, consulte a seção &quot;Criar registros ao conectá-los&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]

@@ -7,9 +7,9 @@ description: É possível renomear agrupamentos em listas e relatórios para alg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Você pode modificar esse agrupamento usando o modo texto para exibir um nome ma
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -37,37 +39,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador para modificar um filtro </p></li>
+   <li><p>Padrão para modificar um relatório</p></li> </ul>
 
-<p>Novo: </p>
-   <ul>
-   <li> <p>Colaborador para modificar um agrupamento </p></li>
-   <li><p>Padrão para modificar um relatório</p></li></ul>
-
-<p> Atual:</p>
-   <ul>  
-   <li><p>Solicitação para modificar um agrupamento </p></li>
-   <li><p>Planejar a modificação de um relatório</p></li> </td> 
+<p>Atual:</p>
+   <ul><li><p>Solicitação para modificar um filtro </p></li>
+   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um agrupamento</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Editar o nome de exibição em um agrupamento
 
@@ -76,7 +75,7 @@ Para alterar o nome de exibição em um agrupamento de projeto:
 1. Ir para uma lista de projetos.
 1. No menu suspenso **Agrupamento**, selecione **Novo agrupamento**.
 
-1. Clique em **Adicionar agrupamento** e comece a digitar &quot;Nome do Portfolio&quot; no campo **Primeiro por:**, depois selecione-o quando ele for exibido na lista.
+1. Clique em **Adicionar agrupamento**, comece a digitar &quot;Nome do Portfolio&quot; no campo **Agrupar por:** e selecione-o quando ele for exibido na lista.
 
 1. Clique em **Alternar para Modo de Texto**.
 1. Siga um destes procedimentos:
@@ -87,7 +86,7 @@ Para alterar o nome de exibição em um agrupamento de projeto:
      `group.0.displayname=Your Value`
 
 
-     Ou, neste caso:
+     Por exemplo, adicione o seguinte código para alterar o nome de exibição para &quot;Portfolio&quot;:
 
      `group.0.displayname=Portfolio`
 
@@ -95,7 +94,7 @@ Para alterar o nome de exibição em um agrupamento de projeto:
 
      `group.0.name=Your Value`
 
-     Ou, neste caso:
+     Por exemplo, adicione o seguinte código para alterar o nome de exibição para &quot;Portfolio&quot;:
 
      `group.0.name=Portfolio`
 
@@ -107,5 +106,6 @@ Para alterar o nome de exibição em um agrupamento de projeto:
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Clique em **Concluído** e em **Salvar agrupamento**.
+1. (Opcional) Atualize o nome do agrupamento e clique em **Salvar agrupamento**.
 
    O nome padrão do agrupamento é modificado de acordo com as informações do modo de texto.
