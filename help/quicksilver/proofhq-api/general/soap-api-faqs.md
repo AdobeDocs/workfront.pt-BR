@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,4 @@ Por exemplo, o URL de miniprova
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` deve ser codificado como 
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` para que os parâmetros personalizados sejam transmitidos.
 
-## Como criar um cliente de serviço Web Java?
-
-[Este vídeo](https://screencast.com/t/xsSNrqs5b) mostra como criar um cliente de serviço Web Java usando o Eclipse e a definição WSDL do Workfront Proof.
 
