@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
+source-git-commit: 0a7d92d4a869e048ba11b84d5f78df06392d5f94
 workflow-type: tm+mt
-source-wordcount: '14564'
+source-wordcount: '14574'
 ht-degree: 2%
 
 ---
@@ -96,9 +96,9 @@ ht-degree: 2%
          * [Visão geral da versão 23.1](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
          * [23.1 Aprimoramentos no gerenciamento de projetos e recursos](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
          * [23.1 Melhorias na agilidade](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
-         * [Melhorias no Publicação de conteúdo para dispositivos móveis da 23.1](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
-         * [Outros aprimoramentos 23.1](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
-         * [atualizações do Look-and-feel durante a versão 23.1 intervalo de tempo](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
+         * [Aprimoramentos do 23.1 Mobile](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
+         * [23.1 Outras melhorias](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
+         * [Atualizações de aparência durante o período de lançamento da versão 23.1](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
       * Versão 22.4 {#release-22-4}
          * [22.4 Visão geral da versão](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
          * [22.4 Aprimoramentos do administrador](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
@@ -278,16 +278,16 @@ ht-degree: 2%
             * [Adobe Workfront Goals com a versão 23.3](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
             * [Atividade de lançamento do Adobe Workfront Goals 23.3: Semana de 1 de maio de 2023](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
          * Metas com versão 23.2 {#goals-23-2}
-            * [Adobe Systems metas da Workfront com a versão 23.2](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
-            * [Adobe Systems versão das Metas da Workfront 23.2 atividade: Semana de 20 de março de 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
+            * [Adobe Workfront Goals com a versão 23.2](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
+            * [Atividade de lançamento do Adobe Workfront Goals 23.2: Semana de 20 de março de 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
          * Metas com versão 23.1 {#goals-23-1}
-            * [Adobe Systems metas da Workfront com a versão 23.1](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
-            * [versão Adobe Systems Metas da Workfront 23.1 atividade: Semana de 5 de dezembro de 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
+            * [Adobe Workfront Goals com a versão 23.1](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
+            * [Atividade de lançamento do Adobe Workfront Goals 23.1: Semana de 5 de dezembro de 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
          * Metas com versão 21.2 {#goals-21-2}
             * [Adobe Workfront Goals com a versão 21.2](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
             * [Atividade de lançamento do Adobe Workfront Goals 21.2: semana de 19 de abril de 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
-            * [Adobe Systems versão das Metas da Workfront 21.2 atividade: Semana de 5 de abril de 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
-            * [Adobe Systems lançamento das Metas da Workfront 21.2 atividade: Semana de 15 de fevereiro de 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
+            * [Atividade de lançamento do Adobe Workfront Goals 21.2: Semana de 5 de abril de 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
+            * [Atividade de lançamento do Adobe Workfront Goals 21.2: semana de 15 de fevereiro de 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
          * Metas com versão 21.1 {#goals-21-1}
             * [Adobe Workfront Goals com a versão 21.1](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
             * [Atividade de lançamento do Adobe Workfront Goals 21.1: Semana de 11 de janeiro de 2021](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
@@ -521,7 +521,7 @@ ht-degree: 2%
    * Gerenciamento de usuários {#add-users}
       * [Gerenciamento de usuários: índice de artigos](administration-and-setup/add-users/add-users.md)
       * Criar e gerenciar usuários {#create-manage-users}
-         * [usuários do Criar e gerenciar: índice do artigo](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+         * [Criar e gerenciar usuários: índice do artigo](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Adicionar usuários](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [Importar usuários](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [Editar o perfil de um usuário](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
@@ -710,9 +710,9 @@ ht-degree: 2%
          * [Remoção das opções de logon único](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [Renovar certificado de metadados SAML 2.0](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
          * [Impedir usuários duplicados](administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
-         * [Limitar o acesso à Workfront por endereço IP](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
-         * [criptografia do Arquivo](administration-and-setup/manage-workfront/security/file-encryption.md)
-         * [Alterar seu domínio da Workfront](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
+         * [Limitar o acesso do Workfront por endereço IP](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
+         * [Criptografia de arquivo](administration-and-setup/manage-workfront/security/file-encryption.md)
+         * [Alterar o domínio do Workfront](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
          * [Gerenciar chaves de API](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [Política de privacidade](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [Visão geral da autenticação aprimorada](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
@@ -925,6 +925,7 @@ ht-degree: 2%
       * [Resumir usando o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Obter ajuda do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [Revisar fórmulas de campo calculado com o Assistente do AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [Usar o Assistente de IA para trabalhar com projetos, tarefas e problemas](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Ativar ou desativar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * Atualizar itens de trabalho e exibir atualizações {#update-work-items-view-updates}
       * [Atualizar itens de trabalho e exibir atualizações: índice do artigo](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
@@ -947,13 +948,13 @@ ht-degree: 2%
    * Usar notificações {#use-notifications}
       * [Usar notificações: índice do artigo](workfront-basics/using-notifications/use-notifications.md)
       * [Visão geral das notificações](workfront-basics/using-notifications/wf-notifications.md)
-      * [Modifique suas próprias notificações por email](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-      * [assinar a itens no Adobe Systems Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+      * [Modificar suas próprias notificações por email](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+      * [Assinar itens no Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [Visão geral das notificações no aplicativo](workfront-basics/using-notifications/in-app-notifications-overview.md)
       * [Exibir e gerenciar notificações no aplicativo](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
       * [Ativar a entrega de emails do ambiente Visualização da sandbox](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
       * [Notificações de eventos](workfront-basics/using-notifications/event-notifications.md)
-      * [Anexar um notificação de lembrete a um objeto](workfront-basics/using-notifications/attach-reminder-notification-object.md)
+      * [Anexar uma notificação de lembrete a um objeto](workfront-basics/using-notifications/attach-reminder-notification-object.md)
       * [Notificações: ação necessária](workfront-basics/using-notifications/notifications-action-needed.md)
       * [Notificações: Informações de aprovação](workfront-basics/using-notifications/notifications-approval-information.md)
       * [Notificações: Comunicação](workfront-basics/using-notifications/notifications-communication.md)
@@ -1185,8 +1186,8 @@ ht-degree: 2%
          * [Criar uma pasta vinculada ao Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Desvincular ou excluir ativos e pastas do Experience Manager Assets ou Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Usar fluxos de trabalho na integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
-         * [Use o Workfront Fusion para converter um problema da Workfront em um projeto que inclui Adobe Experience Manager workflows](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [Solução de problemas na integração do Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [Usar o Workfront Fusion para converter um problema do Workfront em um projeto que inclui fluxos de trabalho do Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
+         * [Solucionar problemas da integração do Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrar dos conectores herdados ou aprimorados {#migrate-from-legacy-enhanced-connectors}
       * [Migrar dos conectores herdados ou aprimorados](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migração do conector herdado ou aprimorado para o Workfront Adobe para integração as a Cloud Service Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -1368,15 +1369,15 @@ ht-degree: 2%
       * Gerenciar tarefas {#manage-tasks}
          * [Gerenciar tarefas](manage-work/tasks/manage-tasks/manage-tasks.md)
          * [Editar tarefas](manage-work/tasks/manage-tasks/edit-tasks.md)
-         * [Editar tarefas em um lista](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
-         * [Visão geral de salvar alterações simultâneas em uma tarefa lista](manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
-         * [Gerenciar informações tarefa na área Visão geral dos detalhes da tarefa](manage-work/tasks/manage-tasks/task-information-in-overview.md)
-         * [Gerencie tarefa finanças na seção Detalhes da tarefa](manage-work/tasks/manage-tasks/task-finances-in-details.md)
-         * [Copiar e duplicado tarefas](manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
+         * [Editar tarefas em uma lista](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+         * [Visão geral de salvar alterações simultâneas em uma lista de tarefas](manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
+         * [Gerenciar informações da tarefa na área Visão geral de detalhes da tarefa](manage-work/tasks/manage-tasks/task-information-in-overview.md)
+         * [Gerenciar finanças da tarefa na seção Detalhes da tarefa](manage-work/tasks/manage-tasks/task-finances-in-details.md)
+         * [Copiar e duplicar tarefas](manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
          * [Mover tarefas](manage-work/tasks/manage-tasks/move-tasks.md)
          * [Excluir tarefas](manage-work/tasks/manage-tasks/delete-tasks.md)
          * [Visão geral das tarefas recorrentes](manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
-         * [Visão geral do caminho crítico do projeto](manage-work/tasks/manage-tasks/critical-path.md)
+         * [Visão geral do Caminho crítico do projeto](manage-work/tasks/manage-tasks/critical-path.md)
          * [Associar marcos a tarefas](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [Converter uma tarefa em um projeto](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * Restrições de Tarefa {#task-constraints}
@@ -1612,7 +1613,7 @@ ht-degree: 2%
       * Dados personalizados calculados em relatórios {#calculated-custom-data}
          * [Dados personalizados calculados em relatórios](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
          * [Visão geral das expressões de dados calculadas](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
-         * [Campos personalizados calculados vs. colunas calculadas](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
+         * [Campos personalizados calculados versus colunas calculadas](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
          * [Operadores de condição em expressões personalizadas calculadas](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
          * [Visão geral das instruções &quot;IF&quot;](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
          * [Exemplo de campo personalizado calculado: exibir o gerente do criador de um problema no formulário personalizado de problema](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
@@ -1851,7 +1852,7 @@ ht-degree: 2%
       * Revisar e aprovar ativos e documentos {#review-and-approve-documents}
          * [Revisar e aprovar documentos: índice do artigo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Revisar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-         * [Aprovar uma documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+         * [Aprovar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Prova {#proofing}
       * [Prova: índice do artigo](review-and-approve-work/proofing/proofing.md)
       * Visão geral da revisão {#proofing-overview}
@@ -2274,10 +2275,10 @@ ht-degree: 2%
       * [Módulos do Adobe Campaign Classic](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [módulos do Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Módulo Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
-      * [módulos Firefly Adobe Systems](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
-      * [módulos de Eventos de E/Adobe Systems de E/S](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
-      * [Módulos Adobe Systems Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
-      * [módulos de Lightroom de Adobe Systems](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
+      * [módulos Adobe Firefly](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
+      * [Módulos de eventos do Adobe I/O](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
+      * [Módulos do Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+      * [Módulos do Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Módulos do Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Módulos do Adobe Photoshop](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Módulos do Adobe Target](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
@@ -2458,15 +2459,15 @@ ht-degree: 2%
       * [Postar um comentário Slack como atualização](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Receber notificações do Adobe Workfront no Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront com Anaplan {#workfront-with-anaplan}
-      * [Adobe Systems a Frente de Trabalho com a Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
-      * [Perguntas frequentes Adobe Systems integração do Anaplan com a Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
-      * [Enviar Adobe Systems atualizações de projeto da Workfront para um item no lista Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-      * [Enviar Adobe Systems despesas da Workfront para um item lista Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-      * [Enviar Adobe Systems de horas reais da Workfront para um item de lista Do Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-      * [Criar um item de lista do Anaplan de um orçamento Adobe Systems da Workfront solicitação](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+      * [Adobe Workfront com Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
+      * [Perguntas frequentes sobre a integração do Adobe Workfront com o Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
+      * [Enviar atualizações de projeto do Adobe Workfront para um item da lista Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+      * [Enviar despesas do Adobe Workfront para um item de lista do Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+      * [Enviar atualizações de horas reais do Adobe Workfront para um item de lista Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+      * [Criar um item de lista do Anaplan a partir de uma solicitação de orçamento do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
       * [Aplicar uma alocação de orçamento Anaplan a um projeto Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
-      * [Criar um item de lista do Anaplan de uma Adobe Systems Workfront campanha solicitação](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-      * [Aplicar um alocação de orçamento da Anaplan para um projeto de campanha de Adobe Systems solicitação ou campanha](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+      * [Criar um item de lista Anaplan a partir de uma solicitação de campanha do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+      * [Aplicar uma alocação de orçamento Anaplan a uma solicitação de campanha ou projeto de campanha do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Prova do Workfront {#workfront-proof}
    * [Workfront Proof: índice do artigo](workfront-proof/workfront-proof.md)
    * Introdução ao Workfront Proof {#get-started-wf-proof}
