@@ -7,9 +7,9 @@ description: Os relatórios fornecem visibilidade sobre o que está acontecendo 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ Para aprimorar seus relatórios, você pode adicionar os seguintes elementos:
 
 Ao criar um relatório, você pode modificar qualquer um desses elementos individualmente no Report Builder.
 
-Outra maneira de aprimorar a relevância das informações incluídas em seus relatórios é aplicar formatação condicional às suas visualizações.\
-Para obter informações sobre como usar a formatação condicional, consulte [Usar formatação condicional nas exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Outra maneira de aprimorar a relevância das informações incluídas em seus relatórios é aplicar formatação condicional às suas visualizações. Para obter informações sobre como usar a formatação condicional, consulte [Usar formatação condicional nas exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Relatórios do sistema
 
@@ -81,17 +80,20 @@ Além dos relatórios de sistema fornecidos pela Workfront, você pode criar seu
 Para criar um relatório, você pode executar um dos seguintes procedimentos:
 
 * Criar um relatório do zero.
-* Copie um relatório existente.\
+* Copie um relatório existente.
+
   Você deve ter pelo menos a permissão Exibir para copiar um relatório criado por outra pessoa. Para obter mais informações sobre como copiar um relatório, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Para obter informações sobre como criar relatórios, consulte [Visão geral dos relatórios do calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Para obter informações sobre como criar relatórios, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Pré-requisitos para criar relatórios {#prerequisites-for-creating-reports}
 
-* Você deve ter uma licença Plan (licenças atuais) ou uma licença Standard (novas licenças) para criar seus próprios relatórios.\
+* Você deve ter uma licença Plan (licenças atuais) ou uma licença Standard (novas licenças) para criar seus próprios relatórios.
+
   Para obter informações sobre os tipos de licença da Workfront, consulte [Visão geral das licenças](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para as licenças atuais e [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para as novas licenças.
 
-* O administrador do Workfront deve fornecer acesso para Editar relatórios no seu nível de acesso.\
+* O administrador do Workfront deve fornecer acesso para Editar relatórios no seu nível de acesso.
+
   Para obter informações sobre como conceder acesso a Editar relatórios, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * O administrador do Workfront deve fornecer acesso a Editar filtros, visualizações e agrupamentos no seu Nível de acesso.
@@ -109,7 +111,7 @@ Para obter informações sobre como copiar relatórios, consulte [Criar uma cóp
 
 Você pode ver quem possui um relatório revisando o campo **Informado por**.
 
-![Campo Cadastrado por](assets/nwe-entered-by-350x218.png)
+![Campo Cadastrado por](assets/unshimmed-entered-by.png)
 
 ### Criar relatórios na interface do construtor {#create-reports-in-the-builder-interface}
 

@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 30b4db53220c67a3fa8fe8865329f74a80cd7343
+source-git-commit: 8facde17caa9054354c3a632ea3a3ab2ba112a5e
 workflow-type: tm+mt
-source-wordcount: '14577'
+source-wordcount: '14547'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
       * [Preparar-se para uma versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versão do primeiro trimestre de 2025 {#release-25-q1}
          * [Visão geral da versão do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+         * [Aprimoramentos do administrador do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+         * [Outras melhorias durante o período da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Atualizações da aparência durante o período de lançamento do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Versão do quarto trimestre de 2024 {#release-24-q4}
          * [Visão geral da versão do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
@@ -902,23 +904,16 @@ ht-degree: 2%
       * [Início](workfront-basics/using-home/home.md)
       * Usar a área da página inicial {#use-home-area}
          * [Usar a área Início](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [Mudar da página inicial herdada para Prioridades](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Introdução à Página inicial](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Adicionar, editar ou remover widgets na Nova página inicial](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Exibir itens na Lista de trabalho na área Página inicial](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Visão geral dos filtros de widget da página inicial](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
          * [Gerencie seu trabalho com o widget Meu trabalho](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
-         * [Priorizar o trabalho na área da Página Inicial](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [Gerenciar solicitações de trabalho e de equipe na área Página inicial](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Atualizar ou editar um item de trabalho na área Página Inicial](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [Criar itens de trabalho e projetos na área Página inicial](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [Registrar o tempo em um item de trabalho na área Página inicial](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Marcar um item como Concluído na área Página inicial](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-         * [Exibição do Calendário da página inicial](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-         * [Definir as configurações de exibição do Calendário da página inicial](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-         * [Área inicial para Revisores](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-         * [Usar a exibição Calendário da página inicial](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-         * [Exibir o Calendário da página inicial](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Usar a área Minhas atualizações](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Assistente de IA {#ai-assistant}
       * [Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
@@ -1037,7 +1032,6 @@ ht-degree: 2%
       * [O laboratório de inovação](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [Trabalhar em fusos horários](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
       * [Solução de problemas de permissões do Workfront Proof Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [Processos de aprovação duplicados exibidos na Lista de trabalho da página inicial](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Os botões de filtro não são exibidos nos cabeçalhos da página](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [O filtro Projetos em que estou trabalhando inclui resultados inesperados](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [Várias guias do navegador fazem com que o Workfront faça logout](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)

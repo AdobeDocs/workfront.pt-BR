@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período do primeiro trimest
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período do primeiro trimestre de 2025.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do Primeiro trimestre de 2025, consulte a [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Atualizações da aparência na barra de navegação do Workfront
+
+>[!NOTE]
+>
+>Versão de produção para todos os clientes: antes da versão 24.11 (14 de novembro de 2024)
+
+Atualizamos a barra de navegação do Workfront para melhorar o desempenho. As mudanças na aparência são mínimas.
+
+A alteração mais notável é que as telas suspensas Favoritos e Recentes não têm mais um botão Fechar. Basta clicar fora da tela ou pressionar ESC no teclado para fechá-la.
 
 ## Atualização da aparência para enviar atualização para a janela do usuário
 
@@ -28,4 +38,3 @@ A janela Enviar atualização para o usuário foi atualizada para um design mais
 Os usuários com uma licença Padrão, Planejada ou de Trabalho podem usar este recurso acessando a lista Usuário, selecionando um ou mais usuários e clicando em **Enviar Atualização ao Usuário**.
 
 Para obter informações, consulte [Enviar mensagens diretas a outros usuários](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).
-
