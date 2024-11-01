@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,6 @@ A versão final do Beta 2018.3 contém as seguintes melhorias:
 Ao configurar seu Calendário da página inicial para sincronizar com o Calendário do Outlook, os itens do seu Calendário da página inicial agora aparecem no Calendário do Outlook.
 
 Anteriormente, só era possível sincronizar itens do Calendário do Outlook com o Calendário da Página Inicial.
-
-Para obter informações sobre como configurar seu Calendário da página inicial para sincronização com o Outlook, consulte [Definir configurações de exibição do Calendário da página inicial](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Atualizações para adicionar novas tarefas na Página inicial {#updates-for-adding-new-tasks-in-home}
 

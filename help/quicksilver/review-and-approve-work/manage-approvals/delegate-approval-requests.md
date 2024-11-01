@@ -6,9 +6,9 @@ description: A delegação de solicitações de aprovação permite que você at
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -81,11 +81,7 @@ Depois que a delegação de aprovação é interrompida ou cancelada, o usuário
 * Continua a ter acesso de Visualização aos itens de trabalho\
   Os usuários que receberam acesso de visualização a objetos por meio de uma delegação de aprovação retêm esse acesso mesmo após a delegação de aprovação parar ou ser cancelada. Para remover o acesso de Visualização a quaisquer objetos aos quais o usuário tinha acesso durante o tempo em que as aprovações estavam sendo delegadas, você deve ir para o objeto e remover os direitos de acesso diretamente do objeto.
 
-## Delegar solicitações de aprovação na área Página inicial
-
-Você pode delegar solicitações de aprovação a partir da área da página inicial.
-
-### Delegar suas aprovações a outro usuário {#delegate-your-approvals-to-another-user}
+## Delegar suas aprovações a outro usuário {#delegate-your-approvals-to-another-user}
 
 Você pode delegar os seguintes tipos de aprovações, independentemente de como a aprovação foi atribuída a você (seja atribuída diretamente a você, a uma equipe da qual você é membro ou à sua função de trabalho):
 
@@ -103,61 +99,60 @@ Considere o seguinte ao delegar aprovações:
 * No máximo 5 usuários podem delegar aprovações para o mesmo usuário ao mesmo tempo. Em outras palavras, um único usuário não pode ser designado como aprovador temporário para mais de 5 usuários ao mesmo tempo.
 * A atividade relacionada às aprovações é exibida na guia Atualizações. Você deve ter a opção Mostrar atualizações do sistema habilitada. O usuário que delega a aprovação e o usuário ao qual as aprovações estão sendo delegadas recebem uma notificação por email sobre a atividade de aprovação.
 
+### Delegar aprovações da área Página inicial
+
+
 Para delegar aprovações a outro usuário:
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
+1. Vá para o widget Minhas aprovações e clique em **Delegar minhas aprovações**.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
-   >
-   >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >Os administradores do Workfront podem desativar delegações de aprovação na área de configuração. Se as delegações de aprovação estiverem desativadas, você não verá o botão Delegar aprovações.
 
-   Ou
-
-   Clique no ícone **Menu principal** > **seu nome** > **Folga** no painel esquerdo.
-
-1. (Opcional e condicional) Na área da Página inicial, clique no menu suspenso **Filtro** e em **Aprovações**.
-
-1. (Condicional) Clique em **Delegar minhas aprovações**
-
-   Ou
-
-   Se o administrador do sistema ou do grupo tiver habilitado a delegação de tarefas e problemas, clique em **Delegar** e em **Delegar aprovações**.
-
-   ![](assets/delegate-approvals-nwe.png)
+   ![](assets/delegate-approvals-home.png)
 
 1. Especifique as seguintes informações na seção Delegar minhas aprovações:
 
    * **Nome**: comece a digitar o nome do usuário ao qual deseja delegar aprovações e clique no nome quando ele aparecer no menu suspenso.
    * **Data de início**: selecione a data para que as aprovações comecem a ser encaminhadas. O encaminhamento começa às 12h na data selecionada.\
      A Data inicial deve ser a data atual ou uma data futura.
-   * **Data de término**:Siga um destes procedimentos:
-
+   * **Data final**: siga um destes procedimentos:
       * Selecione a data para que as aprovações parem de ser encaminhadas. O encaminhamento termina às 23h59 na data selecionada.
       * Selecione **Nenhuma data de término** para configurar o Workfront para delegar aprovações indefinidamente.
 
 1. Clique em **Salvar**.
 
-### Atualizar ou interromper uma delegação de aprovações {#update-or-stop-an-approval-delegation}
+### Delegar aprovações do seu perfil de usuário
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Menu principal** > **seu nome** > **Folga** no painel esquerdo.
+1. Clique em **Delegar aprovações**.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
-   >
-   >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >Os administradores do Workfront podem desativar delegações de aprovação na área de configuração. Se as delegações de aprovação estiverem desativadas, você não verá o botão Delegar aprovações.
+1. Especifique as seguintes informações na seção Delegar minhas aprovações:
 
-1. Clique no menu suspenso **Filtro** e em **Aprovações**.
+   * **Nome**: comece a digitar o nome do usuário ao qual deseja delegar aprovações e clique no nome quando ele aparecer no menu suspenso.
+   * **Data de início**: selecione a data para que as aprovações comecem a ser encaminhadas. O encaminhamento começa às 12h na data selecionada.\
+     A Data inicial deve ser a data atual ou uma data futura.
+   * **Data final**: siga um destes procedimentos:
+      * Selecione a data para que as aprovações parem de ser encaminhadas. O encaminhamento termina às 23h59 na data selecionada.
+      * Selecione **Nenhuma data de término** para configurar o Workfront para delegar aprovações indefinidamente.
 
-1. (Condicional) Clique em **Editar delegação**
+## Atualizar ou interromper uma delegação de aprovações {#update-or-stop-an-approval-delegation}
 
-   Ou
+1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
 
-   Se o administrador do sistema ou do grupo tiver habilitado a delegação de tarefas e problemas, clique em **Editar delegação** e em **Delegar aprovações**.
+1. Vá para o widget Minhas aprovações e clique em **Editar delegação**.
+   ![](assets/edit-delegations.png)
+<!--
+   Or
+
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
 
 1. (Condicional) Siga um destes procedimentos:
 
@@ -165,11 +160,9 @@ Para delegar aprovações a outro usuário:
 
    * Para interromper a delegação existente: clique em **Parar delegação** e em **Parar delegação** para confirmar.
 
-     ![](assets/stop-delegation-nwe.png)
+## Exibir aprovações delegadas {#view-delegated-approvals}
 
-### Exibir aprovações delegadas {#view-delegated-approvals}
-
-Você pode exibir somente os seguintes tipos de delegações de aprovação na Lista de trabalho:
+Você pode exibir somente os seguintes tipos de delegações de aprovação no widget Minhas aprovações:
 
 * Aprovações de projetos
 * Aprovações de tarefas
@@ -177,16 +170,7 @@ Você pode exibir somente os seguintes tipos de delegações de aprovação na L
 
 Para exibir aprovações delegadas:
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
-
-   >[!NOTE]
-   >
-   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
-   >
-   >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
-
-1. Clique no menu suspenso **Filtro** e em **Aprovações**.\
-   Todas as aprovações são exibidas na lista por padrão, incluindo aprovações atribuídas a você e aprovações delegadas a você.
-
-   ![](assets/delegated-to-me-nwe-350x93.png)
+1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
+1. No widget **Minhas aprovações**, clique no menu suspenso **Filtro** e clique em **Aprovações delegadas**.\
+   Todas as aprovações delegadas a você são exibidas na lista.

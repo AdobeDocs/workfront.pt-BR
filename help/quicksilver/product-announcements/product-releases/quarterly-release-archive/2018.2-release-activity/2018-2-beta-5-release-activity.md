@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3158'
 ht-degree: 1%
 
 ---
@@ -59,8 +59,6 @@ Agora você pode gerenciar suas tarefas de trabalho pessoais e agendamentos usan
 * Fazer atualizações em tarefas atribuídas a você
 
 Se você usar um calendário no Outlook, poderá integrar seu calendário para exibir os eventos do Outlook no modo de exibição Calendário da Página Inicial.
-
-Para obter mais informações, consulte [exibição do Calendário da página inicial](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 ## Atualizações adicionais na Lista de trabalho (painel esquerdo) na Página inicial {#additional-updates-to-the-work-list-left-panel-in-home}
 

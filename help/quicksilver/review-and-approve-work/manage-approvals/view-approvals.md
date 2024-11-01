@@ -6,9 +6,9 @@ description: Os processos de aprovação oferecem flexibilidade para criar aprov
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Você pode exibir ou gerenciar aprovações das seguintes áreas:
 
 * Na área Início
 
-   * Todos os projetos, tarefas, problemas, folhas de horas, documentos e acessos que aguardam sua aprovação são exibidos na área Página inicial quando você seleciona exibir Todos ou Aprovações.
-   * As aprovações enviadas por você mesmo também são exibidas na área Página inicial, na seção Aprovações enviadas da Lista de trabalho. Para obter mais informações, consulte a seção [Revisar trabalho enviado para aprovação na área Página inicial](#review-work-you-submit-for-approval-in-the-home-area) neste artigo.
-   * As aprovações são removidas da área Página inicial quando o projeto, tarefa ou problema associado é marcado como Resolvido, Em espera, Fechado ou Cancelado.
+   * Todos os projetos, tarefas, problemas, folhas de horas, documentos e acessos que aguardam sua aprovação são exibidos no widget Minhas aprovações na área Página inicial.
+   * As aprovações enviadas por você mesmo também são exibidas no widget Minhas aprovações na área Página inicial, ao escolher a opção de filtro Aprovações enviadas. Para obter mais informações, consulte a seção [Revisar trabalho enviado para aprovação na área Página inicial](#review-work-you-submit-for-approval-in-the-home-area) neste artigo.
+   * As aprovações são removidas do widget Minhas aprovações na área Página inicial quando o projeto, tarefa ou problema associado é marcado como Resolvido, Em espera, Fechado ou Cancelado.
 
   Para obter informações sobre como usar a Página inicial, consulte [Introdução à Página inicial](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -82,19 +82,10 @@ Você pode exibir ou gerenciar aprovações das seguintes áreas:
 
 ## Revise o trabalho que você envia para aprovação na área Página inicial {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
+1. (Condicional) Clique no menu suspenso **Filtro** e selecione **Aprovações que enviei** para ver as aprovações que você enviou.
 
-   >[!NOTE]
-   >
-   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
-   >
-   >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
-
-1. Selecione **Lista de Trabalho**, clique no menu suspenso **Filtro** e selecione **Aprovações**.
-1. Expanda a seção **Aprovações que enviei** e localize as aprovações que você enviou.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## Exibir o status de aprovação de um objeto
 

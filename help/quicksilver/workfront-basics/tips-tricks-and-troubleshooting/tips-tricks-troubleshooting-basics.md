@@ -5,9 +5,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Esta seção contém os seguintes artigos:
 * [O [!UICONTROL Laboratório de Inovação]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [Trabalhar em fusos horários](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [[!DNL Workfront] [!UICONTROL Gerenciador de Provas] permissões solução de problemas](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-* [Processos de aprovação duplicados sendo exibidos na [!UICONTROL Lista de trabalho da página inicial]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [Os botões de filtro não são exibidos nos cabeçalhos da página](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Alterar o formato de datas em  [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [O filtro Projetos em que estou trabalhando inclui resultados inesperados](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)

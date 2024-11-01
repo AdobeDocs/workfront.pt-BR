@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ O [!DNL Workfront] fornece as seguintes integrações internas sem custo adicion
     <ul> 
      <li> <p>Integrar com uma versão baseada na Web de [!DNL Outlook] no [!DNL Office 365] ou [!DNL Outlook Live.] hospedado na nuvem </p> </li> 
      <li> <p>Exiba todos os eventos do calendário [!DNL Outlook] e de qualquer calendário associado selecionado, como os calendários de Aniversários e Feriados, no [!UICONTROL Calendário Padrão].</p> </li> 
-    </ul> <p><b>OBSERVAÇÃO</b>: a configuração de calendário do [!UICONTROL Outlook] é completamente separada do Suplemento [!DNL Outlook] ([!DNL Outlook] Integração ou [!DNL Workfront for Outlook]). Não é necessária nenhuma instalação para configurar o calendário.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Definir as configurações de exibição do [!UICONTROL Calendário da Página Inicial]</a>.</p> </td> 
+    </ul> <p><b>OBSERVAÇÃO</b>: a configuração de calendário do [!UICONTROL Outlook] é completamente separada do Suplemento [!DNL Outlook] ([!DNL Outlook] Integração ou [!DNL Workfront for Outlook]). Não é necessária nenhuma instalação para configurar o calendário.</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 

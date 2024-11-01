@@ -6,7 +6,7 @@ description: Você pode usar a área [!UICONTROL Minhas atualizações] para rev
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -146,8 +146,6 @@ Você deve ter o seguinte antes de começar:
 1. (Opcional) Clique em **[!UICONTROL Ignorar]** para limpar a solicitação de acesso da sua lista de aprovação sem concedê-la.
 1. Clique em **[!UICONTROL Delegar minhas aprovações]** para delegar as aprovações enviadas a você, caso não esteja disponível para tomar decisões de aprovação por algum tempo. Para obter mais informações sobre a delegação de aprovações, consulte [Delegar solicitação de aprovação](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Role até a área **[!UICONTROL Menções]** abaixo das suas aprovações. Aqui, você pode exibir todos os itens nos quais foi incluído em uma conversa.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

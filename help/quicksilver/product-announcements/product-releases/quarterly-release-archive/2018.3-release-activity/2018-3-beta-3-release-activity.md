@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,6 @@ Removemos toda a marcação beta na área Página inicial. Todos os modelos de l
 Usando a opção Minha Prioridade, você pode priorizar qualquer item de trabalho na sua lista de trabalho que seja importante para você.
 
 Anteriormente, só era possível priorizar tarefas e problemas na área Meu trabalho.
-
-Para obter mais informações, consulte [Priorizar trabalho na área Página Inicial](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ## Atualizar funções no perfil do usuário como um administrador de grupo {#update-roles-in-the-user-profile-as-a-group-administrator}
 

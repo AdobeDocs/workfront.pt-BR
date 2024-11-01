@@ -6,9 +6,9 @@ description: As aprovações de provas são exibidas na área Página inicial so
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -52,26 +52,16 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 
 ## Exibir aprovações de comprovação enviadas
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
+1. (Condicional) Clique no menu suspenso **Filtro** e selecione **Aprovações que enviei** para ver as aprovações que você enviou.
 
-   >[!NOTE]
-   >
-   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
-   >
-   >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
-
-1. Na área **Lista de Trabalho**, vá para o agrupamento **Aprovações que Enviei**.
-
-1. Clique em uma aprovação **Proof** na Lista de trabalho.
-
-   Isso abre a aprovação da prova à direita da Lista de trabalho.
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    > Se você enviar uma aprovação para um usuário de prova de convidado, a aprovação não será exibida na Página inicial.
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. (Opcional) Clique em **Ir para Prova** no canto superior direito do painel direito para iniciar o visualizador de provas.
 

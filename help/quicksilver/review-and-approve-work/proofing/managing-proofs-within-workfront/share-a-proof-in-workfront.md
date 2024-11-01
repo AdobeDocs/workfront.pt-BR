@@ -6,9 +6,9 @@ description: Você pode compartilhar um documento revisado no Adobe Workfront co
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,6 @@ Para obter mais informações sobre o relatório do objeto Aprovações de Prova
 
 ## Aprovar uma prova compartilhada
 
-Quando um usuário adiciona você a uma prova e concede a função Aprovador ou a função Revisor e Aprovador usando o Fluxo de trabalho automatizado, a solicitação de aprovação é exibida na guia Aprovações na área Página inicial ou Meu trabalho. Em seguida, você pode visualizar a prova e tomar uma decisão de aprovação sobre a prova diretamente do Workfront.
+Quando um usuário adiciona você a uma prova e concede a função Aprovador ou a função Revisor e Aprovador usando o Fluxo de trabalho automatizado, a solicitação de aprovação é exibida no widget Minhas aprovações na área Página inicial. Em seguida, você pode visualizar a prova e tomar uma decisão de aprovação sobre a prova diretamente do Workfront.
 
-Para obter informações sobre como tomar decisões de aprovação da área Meu Trabalho, consulte [Aprovar trabalho da área Página Inicial](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ou [Aprovar trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) em [Aprovar trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Para obter informações sobre como tomar decisões de aprovação no widget Minhas aprovações, consulte [Aprovar trabalho na área Página inicial](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ou [Aprovar trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) em [Aprovar trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md).

@@ -6,9 +6,9 @@ description: É possível compartilhar uma prova no visualizador de provas se o 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Se a prova tiver um Fluxo de trabalho automatizado, é possível adicionar o usu
 Por padrão, os usuários adicionados à prova:
 
 * Receba uma notificação por email com um link para a prova.
-* Pode tomar decisões de aprovação na prova na área Página Inicial ou Meu Trabalho, conforme descrito em [Aprovando trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Pode tomar decisões de aprovação na prova a partir da área Página inicial, conforme descrito em [Aprovando trabalho](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * Não é necessário ter a prova ativada para revisá-la.
 
 Quando o Fluxo de trabalho automatizado está ativado e você adiciona um usuário à prova que não tem a prova ativada no Workfront, um novo estágio é criado no Fluxo de trabalho automatizado. O usuário que você está adicionando é automaticamente adicionado a esse novo estágio quando visualiza a prova pela primeira vez. Para obter mais informações, consulte [Visão geral do Fluxo de Trabalho Automatizado](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
