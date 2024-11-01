@@ -6,9 +6,9 @@ description: Alguns recursos são diferentes entre o [!DNL Workfront] e o Adobe 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Esta tabela descreve alguns recursos que diferem entre as duas experiências.
 | O visualizador de provas é aberto em uma nova guia | O visualizador de provas é aberto dentro do Workfront |
 | A URL usada para acessar o Workfront é `experience.adobe.com` | A URL usada para acessar o Workfront é `(CompanyName).my.workfront.com` |
 | O formato da data (como MM/DD/AAAA) é baseado nas configurações de idioma da Experiência unificada. Se o usuário não atualizou as configurações de idioma, as configurações `en-US` serão usadas. | O formato da data (como MM/DD/AAAA) é baseado nas preferências do navegador |
-| A integração do JumpSeat não é compatível | A integração do Jumpseat é compatível |
 
 {style="table-layout:auto"}
 
@@ -145,3 +144,7 @@ Não há impacto para [!DNL Creative Cloud] usuários com a migração para [!DN
 ### Os logons serão alterados para [!DNL Workfront] usuários de dispositivos móveis?
 
 [!DNL Workfront] usuários móveis não devem ser afetados pela migração para [!DNL Adobe Unified Experience].
+
+### O JumpSeat não está funcionando com o [!DNL Adobe Unified Experience]. Como posso resolver isso?
+
+O JumpSeat funciona com [!DNL Adobe Unified Experience], mas requer uma atualização de configuração. Usando o painel de administração JumpSeat, altere a URL do aplicativo de `workfront.com` para terminar com `.workfront.adobe.com`

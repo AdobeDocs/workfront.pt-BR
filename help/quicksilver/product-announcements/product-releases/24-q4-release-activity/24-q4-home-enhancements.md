@@ -4,9 +4,9 @@ description: Melhorias na página inicial do quarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,16 @@ Para obter mais informações, consulte [Introdução às Prioridades](/help/qui
 
 Descontinuaremos oficialmente a experiência herdada do Início com a versão 24.10.
 
-Com essa alteração, as seguintes áreas do Modelo de layout serão renomeadas:
+Com essa alteração, as seguintes áreas serão afetadas:
+
+**Modelo de layout**
 
 * A área _Espaço de trabalho da página inicial_ será renomeada para _Página inicial_.
 * A área _Página Inicial e Resumo_ será renomeada para _Painel de Resumo_. As personalizações nesta área ainda se aplicarão ao painel Resumo na nova Página inicial. Para obter mais informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+**Gerenciar aprovações**
+
+* Não será mais possível retroceder, lembrar ou remover usuários de aprovações enviadas na área Página inicial. Em vez disso, você pode gerenciá-lo na própria aprovação.
 
 Os usuários são incentivados a começar a usar a nova Página inicial, que continuará a ser aprimorada com recursos adicionais antes da desativação. Para obter mais informações sobre a transição, incluindo recomendações sobre o que usuários e administradores podem fazer para se preparar, consulte [Guia de descontinuação da Página inicial herdada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 

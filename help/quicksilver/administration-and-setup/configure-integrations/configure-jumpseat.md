@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -58,6 +58,12 @@ Antes de começar, você deve
 
 * Adicionar e ativar [!DNL Workfront] como um aplicativo em [!DNL JumpSeat]. Para obter mais informações, consulte [Como Adicionar Ou Excluir Um Aplicativo](https://support.jumpseat.io/article/how-to-add-an-application/).
 
+>[!IMPORTANT]
+>
+>Se você estiver no Adobe Unified Experience, deverá usar a seguinte URL do Aplicativo: `.workfront.adobe.com`.
+
+
+
 ## Configurar a integração do [!DNL JumpSeat]
 
 Recomendamos configurar uma integração do [!DNL JumpSeat] nos ambientes de Pré-visualização e Produção.
@@ -73,7 +79,15 @@ Para configurar a integração do [!DNL JumpSeat]:
 1. No painel esquerdo, clique em **[!UICONTROL Sistema]** > **[!UICONTROL [!DNL JumpSeat]Integração]**.
 1. Insira a URL **[!UICONTROL [!DNL JumpSeat]]**, que pode ser encontrada no ícone da sua extensão em [!DNL JumpSeat].
 
-   **Exemplo:** [!DNL https]://{mycompanyname}.jumpseat.io
+>[!BEGINSHADEBOX]
+
+**Exemplo:**
+
+https://{mycompanyname}.jumpseat.io
+
+>>
+
+>[!ENDSHADEBOX]
 
 1. Insira o token de integração **[!UICONTROL [!DNL JumpSeat]]**. Você pode encontrar isso na página **[!UICONTROL Configuração]** em [!DNL JumpSeat].
 

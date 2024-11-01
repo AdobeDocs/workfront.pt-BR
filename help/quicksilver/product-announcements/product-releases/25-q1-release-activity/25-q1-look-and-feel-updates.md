@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período do primeiro trimest
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ Para obter uma lista de todas as alterações disponíveis com a versão do Prim
 
 Atualizamos a barra de navegação do Workfront para melhorar o desempenho. As mudanças na aparência são mínimas.
 
-A alteração mais notável é que as telas suspensas Favoritos e Recentes não têm mais um botão Fechar. Basta clicar fora da tela ou pressionar ESC no teclado para fechá-la.
+As alterações mais notáveis são as seguintes:
+
+* As telas suspensas Favoritos e Recentes não têm mais um botão Fechar. Basta clicar fora da tela ou pressionar ESC no teclado para fechá-la.
+* Não é mais possível arrastar e soltar as páginas fixadas para organizá-las. Em vez disso, há um menu suspenso com botões que permitem mover as páginas fixadas.
 
 ## Atualização da aparência para enviar atualização para a janela do usuário
 
