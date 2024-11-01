@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
+source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,35 @@ Um campo personalizado calculado pode conter:
 
 * Uma referência simples a um único campo incorporado.
 
-  >[!INFO]
-  >
-  > **Exemplo:** para calcular a receita gerada por projetos e tarefas, você pode criar um campo personalizado calculado que contenha o campo interno Receita real. Quando alguém anexa o formulário personalizado a um projeto ou tarefa, a receita do projeto ou tarefa é exibida no campo.
+<div style="padding-left: 2em">
+
+>[!BEGINSHADEBOX]
+
+**Exemplo:** para calcular a receita gerada por projetos e tarefas, você pode criar um campo personalizado calculado que contenha o campo interno Receita real. Quando alguém anexa o formulário personalizado a um projeto ou tarefa, a receita do projeto ou tarefa é exibida no campo.
+
+>[!ENDSHADEBOX]
+
+</div>
 
 * Uma expressão que faz referência a um ou mais campos. Podem ser campos personalizados, outros campos personalizados calculados e campos incorporados.
 
-  >[!INFO]
-  >
-  >**Exemplo:** para calcular o lucro gerado por projetos e tarefas, você pode criar um campo personalizado calculado chamado Lucro contendo uma expressão matemática que subtrai o custo da receita.
-  >
-  >Para fazer isso, você pode usar a expressão matemática SUB (subtrair) com os campos integrados Custo real e Receita real do Workfront.
-  >
-  >Nas etapas abaixo, é possível ver como esse exemplo pode ser executado.
+<div style="padding-left: 2em">
 
+>[!BEGINSHADEBOX]
+
+**Exemplo:** para calcular o lucro gerado por projetos e tarefas, você pode criar um campo personalizado calculado chamado Lucro contendo uma expressão matemática que subtrai o custo da receita.
+
+Para fazer isso, você pode usar a expressão matemática SUB (subtrair) com os campos integrados Custo real e Receita real do Workfront.
+
+Nas etapas abaixo, é possível ver como criar uma expressão como esse exemplo.
+
+>[!ENDSHADEBOX]
+
+</div>
+
+>[!NOTE]
+>
+>As alterações em um campo direto acionam automaticamente uma atualização do valor do campo calculado. (Campos diretos são campos disponíveis no Workfront API Explorer ou campos personalizados em um formulário personalizado anexado a um objeto.) As alterações em uma referência ou fórmula exigem um recálculo manual dos valores do campo.
 
 ## Requisitos de acesso
 
@@ -162,7 +177,7 @@ Para reutilizar um campo personalizado calculado existente:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Formatar</td> 
+      <td role="rowheader">Formato</td> 
       <td> <p>O formato no qual você deseja que os resultados do campo sejam armazenados e exibidos.</p> <p>Se o campo for usado em cálculos matemáticos, sempre use o formato <strong>Número</strong> ou <strong>Moeda</strong>. Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</p> 
       <p><b>IMPORTANTE</b>: antes de escolher um formato, considere o formato correto para o novo campo. O campo de formato não pode ser editado depois que o formulário personalizado é salvo. E selecionar o formato errado poderia afetar cálculos futuros e agregar valores em agrupamentos de relatórios e listas.</p>
       <p><strong>OBSERVAÇÃO:</strong> campos calculados com um formato de Moeda não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td>
