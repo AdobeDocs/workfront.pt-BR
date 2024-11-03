@@ -7,7 +7,7 @@ description: Você pode compartilhar e revisar vários tipos de arquivos com seu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
+source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -49,6 +49,7 @@ O Workfront tem os seguintes limites:
 > * PPSX - Apresentação de slides do Microsoft PowerPoint
 > * XLT - Modelo do Microsoft Excel
 > * XLTX - Modelo do Microsoft Excel
+> * EPS - PostScript encapsulado
 
 * ABC - Compactação bitonal avançada de LEAD
 * ABIC - Compressão adaptável de imagem de dois níveis
@@ -181,7 +182,6 @@ O Workfront tem os seguintes limites:
 > * PPSX - Apresentação de slides do Microsoft PowerPoint
 > * XLT - Modelo do Microsoft Excel
 > * XLTX - Modelo do Microsoft Excel
-> * EPS - PostScript encapsulado
 
 
 * AI - Arte do Adobe Illustrator
