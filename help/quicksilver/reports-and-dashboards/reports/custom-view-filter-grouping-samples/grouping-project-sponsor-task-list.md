@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupamento: patrocinador do projeto para uma lista de tarefas"
+title: "Agrupamento: patrocinador do projeto para uma Lista de tarefas"
 description: Este agrupamento de tarefas permite agrupar tarefas pelo Patrocinador do Projeto.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Agrupamento: Patrocinador do Projeto para uma lista de tarefas
+
+<!--Audited: 11/2024-->
 
 Este agrupamento de tarefas permite agrupar tarefas pelo Patrocinador do Projeto.
 
@@ -71,7 +73,11 @@ Para aplicar esse agrupamento:
 1. Clique em **Alternar para Modo de Texto**.
 1. Remova o texto na área que é exibida e substitua-o pelo seguinte código:
 
-   `group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string`
+   ```
+   group.0.name=Project Sponsor
+   group.0.valuefield=project:sponsor:name
+   group.0.valueformat=string
+   ```
 
 1. Clique em **Concluído**.
 1. Atualize o nome do agrupamento e clique em **Salvar agrupamento**.

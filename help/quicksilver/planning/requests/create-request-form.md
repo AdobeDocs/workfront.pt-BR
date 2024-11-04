@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -139,20 +139,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * Campos de registro disponíveis na exibição de tabela do tipo de registro selecionado. <!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > Dependendo do ambiente usado para criar um formulário de solicitação, os seguintes cenários existem:
-     >
-     >* Campos dos seguintes tipos não são exibidos no formulário de solicitação <span class="preview"> nos ambientes de Pré-visualização </span> ou Produção:
-     >
-     >    * Pessoas (inclui Criado por e Modificado pela última vez por)
-     >    * Fórmula
-     >    * Data de criação
-     >    * Data da última modificação
-     >    * Campos conectados ou campos de pesquisa de objetos do Workfront
-     >    * Campos de pesquisa conectados de registros do Workfront Planning
-     >* Os campos dos seguintes tipos não são exibidos no formulário de solicitação no ambiente de Produção. <span class="preview">Eles são exibidos no ambiente de Visualização:</span>
-     >    * <span class="preview"> campos conectados de registros do Workfront Planning (inclui conexões com ativos Workfront e Experience Manager)</span>
+   >[!IMPORTANT]
+   >
+   > Dependendo do ambiente usado para criar um formulário de solicitação, os seguintes cenários existem:
+   >
+   >* Campos dos seguintes tipos não são exibidos no formulário de solicitação <span class="preview"> nos ambientes de Pré-visualização </span> ou Produção:
+   >
+   >    * Pessoas (inclui Criado por e Modificado pela última vez por)
+   >    * Fórmula
+   >    * Data de criação
+   >    * Data da última modificação
+   >    * Campos conectados ou campos de pesquisa de objetos do Workfront
+   >    * Campos de pesquisa conectados de registros do Workfront Planning
+   >* Os campos dos seguintes tipos não são exibidos no formulário de solicitação no ambiente de Produção. <span class="preview">Eles são exibidos no ambiente de Visualização:</span>
+   >    * <span class="preview"> campos conectados de registros do Workfront Planning</span>
 
 
    * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.

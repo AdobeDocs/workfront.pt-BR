@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Esta seção fornece exemplos de exibições, filtros e agrupamentos personaliza
 * [Exibir: calcular diferenças de data e hora](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 * [Exibir: exibir o resultado de um cálculo entre dois campos em uma coluna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [Exibir: adicionar uma lista de tarefas sucessoras em uma coluna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [Exibir e agrupar: exibir a Duração Real do projeto agregada pela média em um Agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [Exibir e agrupar: exibir a Duração Real do projeto agregada pela média em um agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
 * [Exibir: detalhes combinados de tarefas e problemas em uma lista de Horas](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [Exibir: exibir uma imagem em vez de uma cadeia de caracteres em uma coluna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Exibir: objetos de exibição que não estão incluídos na interface padrão](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)

@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualização: calcular diferenças de data e hora"
+title: "View: Calcular Diferenças de Data e Hora"
 description: Saiba como calcular diferenças de data e hora.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Exibir: calcular diferenças de data e hora
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ Por exemplo, você pode calcular a diferença entre a Data de conclusão planeja
 
 1. Clique em **Adicionar coluna** e comece a digitar &quot;Data de conclusão planejada&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-a quando ela for exibida na lista.
 
-1. Clique em **Adicionar Coluna** e em **Alternar para Modo de Texto**.
-
-1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
-1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o por um dos seguintes códigos:
+1. Clique em **Adicionar Coluna** e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o por um dos seguintes códigos:
 
    * Para exibir a diferença entre a Data de conclusão planejada do projeto e a da tarefa:
 
@@ -131,4 +129,4 @@ Por exemplo, você pode calcular a diferença entre a Data de conclusão planeja
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Clique em **Salvar** e depois em **Salvar exibição**.
+1. Clique em **Concluído** e depois em **Salvar exibição**.
