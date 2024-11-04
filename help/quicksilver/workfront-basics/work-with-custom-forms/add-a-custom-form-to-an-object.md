@@ -7,9 +7,9 @@ description: Você pode adicionar um formulário personalizado existente a qualq
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,7 @@ Você pode adicionar um formulário personalizado existente a qualquer um dos ob
 * Programas
 * Documentos
 * Usuários
+* Grupos
 * Iterações
 * Despesas
 * Registros de faturamento
