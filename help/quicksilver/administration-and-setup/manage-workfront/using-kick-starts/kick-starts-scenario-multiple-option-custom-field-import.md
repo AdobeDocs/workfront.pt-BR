@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Para exportar dados existentes do Workfront:
 
 1. Selecione **Dados personalizados** na seção **O que incluir**.
 
-   Imagem de exemplo no ambiente de Pré-visualização:
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Selecionar dados personalizados](assets/kickstarts-select-existing-data.png)
 
    Imagem de amostra no ambiente de produção:
@@ -130,10 +130,11 @@ Depois de verificar as informações sobre os campos personalizados existentes n
 
 1. Na área **Baixar uma planilha em branco do Kickstart**, marque a caixa de seleção **Dados Personalizados** e clique em **Baixar**.
 
-   Imagem de exemplo no ambiente de Pré-visualização:
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Selecionar dados personalizados](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   Imagem de amostra no ambiente de produção:
+   ![Selecionar dados personalizados](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Um arquivo em branco de início é baixado para o computador.
 
@@ -182,7 +183,7 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
      >[!TIP]
      >
-     >    Se uma linha representa um campo existente já no Workfront, você digitaria **`isNew`** = **`FALSE`**.
+     >Se uma linha representa um campo existente já no Workfront, você digitaria **`isNew`** = **`FALSE`**.
 
    * **`ID`** = deve ser um número exclusivo para cada linha que representa um novo campo. Você pode usar qualquer número que comece com 1, desde que cada novo campo tenha um número exclusivo.
    * **`setDataType`** = para cada linha que representa um novo campo, insira o tipo de dados aceito pelo campo. O tipo de dados deve ser inserido da maneira como aparece no banco de dados. Selecione um dos seguintes tipos de dados:
