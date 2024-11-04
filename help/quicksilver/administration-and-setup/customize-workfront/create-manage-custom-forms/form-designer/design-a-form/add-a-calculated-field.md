@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
+source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 0%
@@ -23,31 +23,19 @@ Um campo personalizado calculado pode conter:
 
 * Uma referência simples a um único campo incorporado.
 
-<div style="padding-left: 2em">
-
->[!BEGINSHADEBOX]
-
-**Exemplo:** para calcular a receita gerada por projetos e tarefas, você pode criar um campo personalizado calculado que contenha o campo interno Receita real. Quando alguém anexa o formulário personalizado a um projeto ou tarefa, a receita do projeto ou tarefa é exibida no campo.
-
->[!ENDSHADEBOX]
-
-</div>
+  >[!INFO]
+  >
+  >**Exemplo:** para calcular a receita gerada por projetos e tarefas, você pode criar um campo personalizado calculado que contenha o campo interno Receita real. Quando alguém anexa o formulário personalizado a um projeto ou tarefa, a receita do projeto ou tarefa é exibida no campo.
 
 * Uma expressão que faz referência a um ou mais campos. Podem ser campos personalizados, outros campos personalizados calculados e campos incorporados.
 
-<div style="padding-left: 2em">
-
->[!BEGINSHADEBOX]
-
-**Exemplo:** para calcular o lucro gerado por projetos e tarefas, você pode criar um campo personalizado calculado chamado Lucro contendo uma expressão matemática que subtrai o custo da receita.
-
-Para fazer isso, você pode usar a expressão matemática SUB (subtrair) com os campos integrados Custo real e Receita real do Workfront.
-
-Nas etapas abaixo, é possível ver como criar uma expressão como esse exemplo.
-
->[!ENDSHADEBOX]
-
-</div>
+  >[!INFO]
+  >
+  >**Exemplo:** para calcular o lucro gerado por projetos e tarefas, você pode criar um campo personalizado calculado chamado Lucro contendo uma expressão matemática que subtrai o custo da receita.
+  >
+  >Para fazer isso, você pode usar a expressão matemática SUB (subtrair) com os campos integrados Custo real e Receita real do Workfront.
+  >
+  >Nas etapas abaixo, é possível ver como criar uma expressão como esse exemplo.
 
 >[!NOTE]
 >
