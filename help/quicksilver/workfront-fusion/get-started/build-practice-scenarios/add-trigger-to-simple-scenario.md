@@ -7,9 +7,9 @@ description: Saiba como adicionar um módulo de acionamento para permitir que o 
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Você deve criar o cenário descrito em [Criar um cenário básico](/help/quicks
 1. Selecione **Assistir Registro**.
 1. Certifique-se de que o módulo usa a mesma conexão que o restante dos módulos no cenário.
 1. No campo Filtro, selecione **Somente novos registros**.
+1. No campo Tipo de Registro, selecione **Problema**.
 1. Na caixa Saídas, selecione `ID`, `Name` e `Project ID`.
 1. Clique em **OK** para salvar as configurações do módulo.
 

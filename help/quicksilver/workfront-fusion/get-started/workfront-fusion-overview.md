@@ -8,9 +8,9 @@ description: O  [!DNL Adobe Workfront Fusion]  é automatizar seus processos par
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 600f5d41e1dbecf1f354805f7fc17bbcf2409aee
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,8 @@ O Workfront Fusion também oferece recursos que oferecem suporte a cenários, co
 Ao começar a trabalhar com o Workfront Fusion, os seguintes recursos podem ser úteis:
 
 * Para obter recursos de treinamento do Workfront Fusion, consulte [Visão geral do treinamento do Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
+
+* Para obter mais informações sobre cenários, consulte [Visão geral do cenário](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
 
 * Para começar a criar cenários de prática, consulte [Criar cenários de prática](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
