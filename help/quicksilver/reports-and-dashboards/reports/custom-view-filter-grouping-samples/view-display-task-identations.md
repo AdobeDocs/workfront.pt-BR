@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: exibir recuos de tarefas em uma lista de tarefas"
+title: "Exibir: Exibir Recuos de Tarefas em uma Lista de Tarefas"
 description: Nesta visualização de tarefa, você pode adicionar código à coluna Nome da tarefa para exibir as tarefas recuadas de acordo com a Estrutura de divisão de trabalho do projeto.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
 # Exibição: exibir recuos de tarefas em uma lista de tarefas
 
+<!--Audited: 11/2024-->
+
 Nesta visualização de tarefa, você pode adicionar código à coluna Nome da tarefa para exibir as tarefas recuadas de acordo com a Estrutura de divisão de trabalho do projeto.
 
 ![](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -29,28 +33,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador para modificar um filtro </p></li>
+   <li><p>Padrão para modificar um relatório</p></li> </ul>
+
+<p>Atual:</p>
+   <ul><li><p>Solicitação para modificar um filtro </p></li>
+   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir recuos de tarefas em uma coluna de uma lista de tarefas
 
@@ -59,12 +69,13 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 1. Clique em **Adicionar coluna** e comece a digitar &quot;Nome da tarefa&quot; no campo **Mostrar nesta coluna** e depois selecione-o quando ele for exibido na lista.
 
-1. Na nova coluna, clique em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
+1. Na nova coluna, clique em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
 1. Remova o texto localizado na linha `valuefield=` e substitua-o pelo seguinte código:
 
    ```
+   displayname=Task hierarchy
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
    ```
 
-1. Clique em **Salvar** e depois em **Salvar exibição**.
+1. Clique em **Concluído** e depois em **Salvar exibição**.
+1. (Opcional) Atualize o nome da exibição e clique em **Salvar exibição**.

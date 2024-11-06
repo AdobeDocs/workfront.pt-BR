@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: objetos de exibição que não estão incluídos na interface padrão"
+title: "View: Exibir Objetos que Não Estão Incluídos na Interface Padrão"
 description: Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Você pode determinar quais campos podem ser incluídos em uma view de uma das s
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -37,28 +39,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador para modificar um filtro </p></li>
+   <li><p>Padrão para modificar um relatório</p></li> </ul>
+
+<p>Atual:</p>
+   <ul><li><p>Solicitação para modificar um filtro </p></li>
+   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exemplo: adicionar a coluna Nome do proprietário do Portfolio a uma visualização do projeto
 
@@ -67,17 +75,14 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 1. Clique em **Adicionar coluna** e comece a digitar &quot;ID de proprietário do Portfolio&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-a quando ela for exibida na lista.
 
-1. Clique em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
+1. Clique em **Alternar para Modo de Texto** e em **Editar Modo de Texto**.
 1. Substitua a linha `valuefield` (`valuefield=portfolio:ownerID`) pela seguinte linha:
 
-   ```
-   valuefield=portfolio:owner:name
-   ```
+   `valuefield=portfolio:owner:name`
 
    Ou
 
-   Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
+   Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    valuefield=portfolio:owner:name
@@ -93,4 +98,4 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    >
    >Para substituir qualquer campo `ID` pelo campo `name` usando o modo texto, sempre substitua `ID` por `:name` na linha `valuefield`.
 
-1. Clique em **Salvar** e depois em **Salvar exibição**.
+1. Clique em **Concluído** e depois em **Salvar exibição**.

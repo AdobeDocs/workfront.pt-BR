@@ -2,23 +2,25 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: ocultar o conteúdo de uma coluna"
+title: "Visualização: ocultar o conteúdo de uma coluna"
 description: Talvez você queira ocultar as informações na coluna de uma exibição. Você pode fazer isso modificando o modo de texto da coluna.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # Exibir: ocultar o conteúdo de uma coluna
 
+<!--Audited: 11/2024-->
+
 Talvez você queira ocultar as informações na coluna de uma exibição. Você pode fazer isso modificando o modo de texto da coluna.
 
->[!TIP]
+>[!NOTE]
 >
 >* Você pode usar colunas ocultas para classificar por um determinado objeto que não deseja exibir na visualização.\
 >  Por exemplo, você pode classificar por Número da Tarefa em uma exibição de tarefa e ocultar as informações de Número da Tarefa da exibição. Nesse caso, o objeto referenciado na coluna ajuda a classificar a view, mas as informações desse objeto não são exibidas na view.
@@ -27,6 +29,8 @@ Talvez você queira ocultar as informações na coluna de uma exibição. Você 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -34,28 +38,27 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo:<ul><li>Colaborador para modificar uma visualização</li><li>Padrão para modificar um relatório</li></ul></p><p>Ou</p>Atual:<ul><li>Solicitação para modificar uma exibição</li><li>Planejar a modificação de um relatório</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exemplo: Classifique e oculte a coluna Número da Tarefa em uma exibição de tarefa:
 
@@ -64,28 +67,25 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 1. Clique em **Adicionar coluna** e comece a digitar &quot;Número da tarefa&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-o quando ele for exibido na lista.
 
-1. Clique em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
-1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
-
-   <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueformat=int<br><strong>width=0</strong></pre>As alterações importantes nesse código que tornam a coluna oculta são:
+1. Clique em **Alternar para Modo de Texto** e depois em **Editar Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
-   displayname
+   displayname=
+   linkedname=direct
+   querysort=taskNumber
+   sortOrder=1
+   sortType=asc
+   textmode=true
+   value=
+   valueformat=int
+   width=0
    ```
 
-   esta linha deve estar em branco.
+   As alterações importantes nesse código que tornam a coluna oculta são:
 
-   ```
-   valuefield
-   ```
+   * `displayname=`: Esta linha deve estar em branco.
+   * `valuefield=`: Isto foi substituído por `value`, e deve estar em branco.
+   * `width=`: Dependendo do campo, deve ter um valor de **0** ou **1**.
 
-   Este item foi substituído por *valor* e deve estar em branco.
-
-   ```
-   width
-   ```
-
-   : Dependendo do campo, deve ter um valor de *0* ou *1*.
-
-1. Clique em **Salvar** e depois em **Salvar exibição**.
+1. Clique em **Concluído** e depois em **Salvar exibição**.

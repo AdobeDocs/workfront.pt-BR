@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: detalhes do antecessor"
+title: "Exibir: detalhes do predecessor"
 description: Esta exibição de tarefa mostra detalhes dos predecessores das tarefas usando uma exibição de coleção. Em uma exibição de coleção, é possível exibir informações sobre objetos que estão em uma relação "um para muitos". Nesse caso, cada tarefa (uma) pode ter várias predecessoras (muitas). A view exibe o nome das tarefas, bem como os Nomes dos Predecessores, os Nomes dos Projetos dos Predecessores, as Datas de Conclusão Planejadas dos Predecessores e os Status dos Predecessores.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
 # Exibir: detalhes da predecessora
+
+<!--Audited: 11/2024-->
 
 Esta exibição de tarefa mostra detalhes dos predecessores das tarefas usando uma exibição de coleção. Em uma exibição de coleção, é possível exibir informações sobre objetos que estão em uma relação &quot;um para muitos&quot;. Nesse caso, cada tarefa (uma) pode ter várias predecessoras (muitas). A view exibe o nome das tarefas, bem como os Nomes dos Predecessores, os Nomes dos Projetos dos Predecessores, as Datas de Conclusão Planejadas dos Predecessores e os Status dos Predecessores.
 
@@ -24,6 +26,8 @@ Para obter informações sobre como fazer referência a coleções em relatório
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -31,28 +35,39 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p> Atual: 
+   <ul>
+   <li>Solicitação para modificar uma exibição</li> 
+   <li>Planejar a modificação de um relatório</li>
+   </ul>
+     </p>
+     <p> Novo: 
+   <ul>
+   <li>Colaborador para modificar uma visualização</li> 
+   <li>Padrão para modificar um relatório</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>   
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir detalhes da predecessora
 
@@ -60,9 +75,44 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
 1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a área de modo de texto e clique em **Clicar para editar o texto**.
-1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
-   <pre>column.0.displayname=<br>column.0.linkedname=direct<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.1.displayname=Predecessors Números e Nomes<br>column.1.listdelimititer=<br><br>column.1.listmethod=nested(predecessors).lists<br>column.1.textmode=true<br>column.1.type=intermint ate<br>column.1.valueexpression=CONCAT({predecessor}.{taskNumber},' - ',{predecessor}.{name})<br>coluna.1.valueformat=HTML<br>coluna.2.displayname=Predecessores Nomes de Projeto<br>coluna.2.listdelimititer=<br><br>coluna.2.listmethod=nested(predecessors).lists<br>coluna.2.textmode=true<br>coluna.2.type=iterate<br>coluna.2.valueexpression={predecessor}.{project}.{name}<br>column.2.valueformat=HTML<br>column.3.displayname=Datas de Conclusão de Predecessores<br>column.3.listdelimititer=<br><br>column.3.listmethod=nested(predecessors).lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={predecessor}.{plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=Predecessors Status<br>column.4.listdelimititer=<br><br>column.4.listmethod=nested(predecessors).lists<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={predecessor}.{status}<br>column.4.valueformat=HTML</pre>
+1. Clique no cabeçalho da coluna restante e clique em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
-1. Clique em **Salvar visualização**.
+   ```
+   column.0.displayname=
+   column.0.linkedname=direct
+   column.0.namekey=name
+   column.0.querysort=name
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.1.displayname=Predecessors Numbers & Names
+   column.1.listdelimiter=
+   column.1.listmethod=nested(predecessors).lists
+   column.1.textmode=true
+   column.1.type=iterate
+   column.1.valueexpression=CONCAT({predecessor}.{taskNumber},' - ',{predecessor}.{name})
+   column.1.valueformat=HTML
+   column.2.displayname=Predecessors Project Names
+   column.2.listdelimiter=
+   column.2.listmethod=nested(predecessors).lists
+   column.2.textmode=true
+   column.2.type=iterate
+   column.2.valueexpression={predecessor}.{project}.{name}
+   column.2.valueformat=HTML
+   column.3.displayname=Predecessors Completion Dates
+   column.3.listdelimiter=
+   column.3.listmethod=nested(predecessors).lists
+   column.3.textmode=true
+   column.3.type=iterate
+   column.3.valueexpression={predecessor}.{plannedCompletionDate}
+   column.3.valueformat=HTML
+   column.4.displayname=Predecessors Status
+   column.4.listdelimiter=
+   column.4.listmethod=nested(predecessors).lists
+   column.4.textmode=true
+   column.4.type=iterate
+   column.4.valueexpression={predecessor}.{status}
+   column.4.valueformat=HTML
+   ```
+
+1. Clique em **Concluído** > **Salvar exibição**.

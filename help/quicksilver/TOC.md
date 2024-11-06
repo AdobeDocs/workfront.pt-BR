@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 2%
@@ -1658,7 +1658,7 @@ ht-degree: 2%
          * [Visualização: detalhes combinados de tarefas e problemas em uma lista de Horas](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [Exibição: exibir uma imagem em vez de uma cadeia de caracteres em uma coluna](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [View: objetos de exibição que não estão incluídos na interface padrão](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-         * [Exibir: exibir informações sobre a emissão original em listas de tarefas e projetos](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+         * [Exibir: exibir informações sobre a emissão original em listas de tarefas ou projetos](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
          * [Exibição: exibir informações de Programa e Portfolio em uma exibição de tarefa](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [Exibição: exibir recuos de tarefas em uma lista de tarefas](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [Exibição: exibir o relacionamento pai-filho em uma tarefa recuando as tarefas](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)

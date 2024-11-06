@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: editar permanentemente a largura de uma coluna"
+title: "Visualização: editar permanentemente a largura de uma coluna"
 description: Você pode modificar temporariamente a largura das colunas arrastando e soltando suas margens para corresponder à largura desejada. Para obter mais informações, consulte Modificar a largura e a ordem da coluna.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # Exibir: edite permanentemente a largura de uma coluna
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Você pode modificar temporariamente a largura das colunas arrastando e soltando suas margens para corresponder à largura desejada. Para obter mais informações, consulte [Modificar largura e ordem da coluna](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
@@ -73,7 +73,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    Clique no cabeçalho de qualquer coluna existente.
 
 1. Clique em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
+1. Clique Em **Editar Modo De Texto**.T
 1. Adicione o seguinte código ao modo de texto da coluna:
 
    ```
@@ -83,6 +83,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Para a linha **largura**, especifique qualquer número (em pixels) que represente a largura desejada para a exibição da coluna no modo de exibição.
 
-1. Clique em **Salvar** e depois em **Salvar exibição**.
+1. Clique em **Concluído** e depois em **Salvar exibição**.
 
 

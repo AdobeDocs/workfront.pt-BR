@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: mesclar informações de várias colunas em uma coluna compartilhada"
+title: "Exibir: Mesclar Informações de Várias Colunas em Uma Coluna Compartilhada"
 description: É possível mesclar as informações exibidas em várias colunas separadas e exibi-las em uma coluna compartilhada.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Exibição: mesclar informações de várias colunas em uma coluna compartilhada
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 É possível mesclar as informações exibidas em várias colunas separadas e exibi-las em uma coluna compartilhada.
 
@@ -94,7 +94,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Para mesclar dados de duas colunas sem uma quebra de linha:
 
-1. Usando o modo de texto para uma exibição, adicione o seguinte texto à primeira coluna que deseja mesclar:
+1. Ir para uma lista de objetos.
+1. No menu suspenso **Exibir**, selecione um modo de exibição e clique no ícone ![](assets/edit-icon.png) de **Editar** para editá-lo.
+1. Vá para a primeira coluna que deseja mesclar e clique em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Adicione o seguinte texto à primeira coluna que deseja mesclar:
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ Para mesclar dados de duas colunas sem uma quebra de linha:
 
    Se você compartilhar mais de uma coluna, adicione o número da coluna nas linhas de código que contêm as informações de compartilhamento para cada coluna.
 
-   **Exemplo:** este é o código do modo de texto para uma coluna mesclada que contém três colunas separadas, começando com a segunda coluna da lista. Os valores mesclados são Nome do projeto, Data de início planejada e nome do Proprietário do projeto, e não há interrupção entre os três valores:
 
-   `column.1.valuefield=name`
+   **EXEMPLO:** este é o código do modo de texto para uma coluna mesclada que contém três colunas separadas, começando com a segunda coluna da lista. Os valores mesclados são Nome do projeto, Data de início planejada e nome do Proprietário do projeto, e não há interrupção entre os três valores:
 
-   `column.1.valueformat=HTML`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.sharecol=true`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.2.valuefield=plannedStartDate`
 
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. Clique em **Salvar** e depois em **Salvar exibição**.
+1. Clique em **Concluído** e depois em **Salvar exibição**.
 
 ## Mesclar dados de duas colunas com uma quebra de linha
 
 Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma coluna comum com uma quebra de linha entre os valores de cada coluna:
 
+1. Ir para uma lista de objetos.
+1. No menu suspenso **Exibir**, selecione um modo de exibição e clique no ícone ![](assets/edit-icon.png) de **Editar** para editá-lo.
 1. Adicione uma terceira coluna entre as duas colunas que deseja mesclar.
 
    >[!TIP]
@@ -137,18 +139,16 @@ Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma 
    >* As colunas que você deseja mesclar devem ser adjacentes entre si.
    >* Você deve clicar na primeira coluna que deseja mesclar.
 
-1. Clique em **Alternar para Modo de Texto** e adicione o seguinte código na coluna do meio que você adicionou na etapa 1:
+1. Clique em **Alternar para Modo de Texto** > **Editar Modo de Texto** e adicione o seguinte código na coluna do meio que você adicionou na etapa 1:
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. Clique na primeira coluna, clique em **Alternar para Modo de Texto** e adicione o seguinte texto à coluna:
+1. Clique na primeira coluna e clique em **Alternar para Modo de Texto** > **Editar Modo de Texto** e, em seguida, adicione o seguinte texto à coluna:
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma 
 
    Se você compartilhar mais de uma coluna, adicione o número da coluna nas linhas de código que contêm as informações de compartilhamento.
 
-   **Exemplo:** este é o código do modo de texto para uma coluna compartilhada que contém o Nome do Projeto, a Data de Início Planejada e o nome do Proprietário do Projeto com uma quebra de linha. A coluna compartilhada é a segunda coluna de uma exibição de projeto.
+   **EXEMPLO:** este é o código do modo de texto para uma coluna compartilhada que contém o Nome do Projeto, a Data de Início Planejada e o nome do Proprietário do Projeto com uma quebra de linha. A coluna compartilhada é a segunda coluna de uma exibição de projeto.
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. Clique em **Salvar** e depois em **Salvar exibição**.
+1. Clique em **Concluído** e depois em **Salvar exibição**.

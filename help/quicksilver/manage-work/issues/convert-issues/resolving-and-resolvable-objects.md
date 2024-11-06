@@ -7,7 +7,7 @@ description: Um Objeto Resolvível é um problema cuja resolução está vincula
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 1%
@@ -148,7 +148,7 @@ Os seguintes status padrão para projetos acionam as seguintes alterações nos 
 | Em Planejamento | Novo(a) |
 | Em Andamento | Em andamento |
 | Em Espera | Em Espera |
-| Solicitado(a) | Não aciona uma alteração no status do problema |
+| Solicitado | Não aciona uma alteração no status do problema |
 | Aprovado | Não aciona uma alteração no status do problema |
 | Rejeitado | Não aciona uma alteração no status do problema |
 | Ideia | Não aciona uma alteração no status do problema |
@@ -228,7 +228,7 @@ A tabela a seguir mostra quais campos você pode exibir e em quais exibições v
    <td>✓ µ</td> 
   </tr> 
   <tr> 
-   <td><strong>Nome Original do Problema, Data de Entrada Original do Problema, Nome da Origem</strong>: Exibe o nome e a data de entrada do problema original, bem como o nome do usuário que criou o problema em uma exibição personalizada em modo de texto.<br>Para obter mais informações sobre como criar um modo de exibição personalizado de texto para um projeto ou uma lista de relatórios de tarefas para exibir informações sobre o problema original, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Exibir: exibir informações de problema original em listas de tarefas e projetos</a>.<br></td> 
+   <td><strong>Nome Original do Problema, Data de Entrada Original do Problema, Nome da Origem</strong>: Exibe o nome e a data de entrada do problema original, bem como o nome do usuário que criou o problema em uma exibição personalizada em modo de texto.<br>Para obter mais informações sobre como criar um modo de exibição personalizado de texto para um projeto ou uma lista de relatórios de tarefas para exibir informações sobre o problema original, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Exibir: exibir informações de problema original em listas de tarefas ou de projetos</a>.<br></td> 
    <td> </td> 
    <td> ✓ µ</td> 
    <td> ✓ µ</td> 
