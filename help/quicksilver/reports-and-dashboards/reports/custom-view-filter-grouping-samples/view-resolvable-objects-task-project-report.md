@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: objetos resolvíveis em um relatório de tarefa ou de projeto"
+title: "Exibir: Objetos Resolvíveis em um Relatório de Tarefa ou Projeto"
 description: Você pode exibir uma lista de todos os Objetos Resolvíveis em um projeto ou visualização de tarefa ou relatório.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 1%
+source-wordcount: '280'
+ht-degree: 0%
 
 ---
 
 # Exibir: Objetos Resolvíveis em um relatório de tarefa ou de projeto
+
+<!--Audited: 11/2024-->
 
 Você pode exibir uma lista de todos os Objetos Resolvíveis em um projeto ou visualização de tarefa ou relatório.
 
@@ -26,6 +28,8 @@ A aplicação deste modo de exibição é idêntica para tarefas e projetos.
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -33,40 +37,59 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p> Atual: 
+   <ul>
+   <li>Solicitação para modificar uma exibição</li> 
+   <li>Planejar a modificação de um relatório</li>
+   </ul>
+     </p>
+     <p> Novo: 
+   <ul>
+   <li>Colaborador para modificar uma visualização</li> 
+   <li>Padrão para modificar um relatório</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>  
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir Objetos Resolvíveis em um relatório de tarefa ou de projeto
 
-1. Ir para uma lista de tarefas que foram convertidas de problemas.
-1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
+1. Ir para uma lista de tarefas ou projetos que foram convertidos a partir de problemas.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
 
 1. Na área **Visualização da coluna**, clique em **Adicionar coluna**.
 
-1. Clique no cabeçalho da nova coluna e em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a área de modo de texto e clique em **Clicar para editar o texto**.
-1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
-   <pre>displayname=Resolvables<br>listdelimititer=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML<br></pre>
+1. Clique no cabeçalho da nova coluna e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
-1. Clique em **Salvar visualização**.\
+   ```
+   displayname=Resolvables
+   listdelimiter=<br>
+   listmethod=nested(resolvables).lists
+   textmode=true
+   type=iterate
+   valuefield=name
+   valueformat=HTML
+   ```
+
+1. Clique em **Concluído** > **Salvar exibição**.\
    Uma lista de todos os Objetos Resolvíveis é exibida na nova coluna. Os nomes dos objetos na lista não podem ser vinculados diretamente aos objetos.

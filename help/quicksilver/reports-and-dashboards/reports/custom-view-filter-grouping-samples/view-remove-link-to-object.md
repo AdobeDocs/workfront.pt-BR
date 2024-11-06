@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualização: remover link de um objeto em uma coluna"
+title: "Visualização: Remover link para um objeto em uma coluna"
 description: Alguns objetos exibidos em uma view são vinculados à página Detalhes do objeto, por padrão. Por exemplo, a coluna que exibe o Nome de um projeto é um link para o projeto; a coluna que exibe o Nome de um usuário é um link para a página de perfil do usuário.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Exibir: remover link de um objeto em uma coluna
 
+<!--Audited: 11/2024-->
+
 Alguns objetos exibidos em uma view são vinculados à página Detalhes do objeto, por padrão. Por exemplo, a coluna que exibe o Nome de um projeto é um link para o projeto; a coluna que exibe o Nome de um usuário é um link para a página de perfil do usuário.
 
 Você pode remover esse link usando o modo de texto em colunas exibidas em todas as exibições.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -29,28 +33,40 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p> Atual: 
+   <ul>
+   <li>Solicitação para modificar uma exibição</li> 
+   <li>Planejar a modificação de um relatório</li>
+   </ul>
+     </p>
+     <p> Novo: 
+   <ul>
+   <li>Colaborador para modificar uma visualização</li> 
+   <li>Padrão para modificar um relatório</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>   
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Exemplo: Remova o link para uma tarefa da coluna Nome da Tarefa em uma exibição de tarefa:
 
@@ -69,16 +85,24 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    Clique em uma coluna existente com um link para um objeto.
 
-1. Clique em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clicar para editar o texto**.
-1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
-   <pre>displayname=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
+1. Clique em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+
+   ```
+   displayname=Task Name
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression={name}
+   valueformat=Compound
+   ```
 
    >[!TIP]
    >
    >Você pode usar um código semelhante para outros objetos ajustando o seguinte:
    >
-   >* Substitua a linha **valuefield** do código por **valueexpression** e mantenha o mesmo nome incluído entre chaves após o sinal de igual.
+   >* Substitua a linha `valuefield` do código por `valueexpression` e mantenha o mesmo nome incluído entre chaves após o sinal de igual.
    >* Eliminar todas as linhas que começam com `link.` do texto original da coluna. Por exemplo, elimine todas as linhas a seguir:
    >
    >  ```
@@ -90,4 +114,5 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    >  ```
    >
 
-1. Clique em **Salvar** e depois em **Salvar exibição**.
+1. Clique em **Concluído** e depois em **Salvar exibição**.
+

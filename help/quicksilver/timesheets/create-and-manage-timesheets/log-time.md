@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Leve ou superior para registrar horas em um projeto, tarefa, problema ou Horas gerais em uma folha de horas</p>
+   <td> <p>Novo:</p>
+   <ul><li><p> Leve ou superior para registrar horas em uma tarefa, problema ou Horas gerais em uma folha de horas</p>
+   <li><p>Padrão para registrar horas em projetos</p></li></ul>
+   <p>
    <p>Atual: 
    <ul><li>Revise ou registre horas gerais em uma planilha de horas</li>
    <li>Trabalhar ou mais para registrar horas em um projeto, tarefa ou problema</li></ul> </td> 
