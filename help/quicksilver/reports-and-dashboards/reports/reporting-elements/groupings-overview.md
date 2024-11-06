@@ -7,18 +7,18 @@ description: É possível adicionar agrupamentos para gerenciar o layout das inf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Visão geral de agrupamentos no Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 É possível adicionar agrupamentos para gerenciar o layout das informações nos relatórios e listas.
 
@@ -32,13 +32,13 @@ Você pode adicionar agrupamentos aos relatórios das seguintes maneiras:
 
   Para obter informações sobre como criar um agrupamento do zero, consulte [Criar agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-Por padrão, os agrupamentos são mostrados em um destaque cinza ou azul no relatório ou lista. Os resultados do relatório ou da lista são listados em seu agrupamento individual, sem destaque.
+Por padrão, os agrupamentos são mostrados em um destaque cinza no relatório ou lista. Os resultados do relatório ou da lista são listados em seu agrupamento individual, sem destaque.
+
+![Exemplo de agrupamentos](assets/grouping-example-blue.png)
 
 Você pode adicionar até três agrupamentos em um relatório. Você pode organizar suas informações com até quatro agrupamentos criando um relatório de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-Em um relatório de agrupamento padrão, o primeiro agrupamento é de cor mais escura, o segundo e o terceiro são mais claros. Não é possível personalizar a cor do destaque do seu agrupamento ou a fonte do nome do agrupamento. O número entre parênteses após o nome do agrupamento representa o número de resultados sob esse agrupamento. Se o seu relatório abrange várias páginas, certifique-se de exibir *Todos* os resultados no relatório ou lista para obter uma contagem precisa dos resultados em cada agrupamento.
-
-![Agrupamento de amostra](assets/grouping-example-blue.png)
+O número entre parênteses após o nome do agrupamento representa o número de resultados sob esse agrupamento. Se o seu relatório abrange várias páginas, certifique-se de exibir *Todos* os resultados no relatório ou lista para obter uma contagem precisa dos resultados em cada agrupamento.
 
 Considere o seguinte ao trabalhar com agrupamentos:
 

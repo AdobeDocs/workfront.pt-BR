@@ -7,7 +7,7 @@ description: Você pode usar filtros no Adobe Workfront para reduzir a quantidad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Visão geral dos filtros
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 Você pode usar filtros no Adobe Workfront para reduzir a quantidade de informações exibidas na tela em listas, relatórios ou outras áreas.
 
@@ -71,13 +71,16 @@ Para obter mais informações sobre filtros em listas e relatórios, consulte os
 
 Você pode usar filtros integrados ou criar filtros personalizados nas seguintes áreas do Workfront:
 
-* Início\
+* Início
+
   Para obter informações, consulte [Exibir itens na Lista de Trabalho na área Página Inicial](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
 * Área de solicitações. Não é possível personalizar filtros na área Solicitações.
 
   Para obter informações, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-* Planejador de recursos\
+* Planejador de recursos
+
   Para obter informações, consulte o artigo [Filtrar informações no Planejador de Recursos](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Relatório de utilização
@@ -104,9 +107,7 @@ Você pode usar filtros integrados ou criar filtros personalizados nas seguintes
   >
   >Não é possível personalizar filtros no Planejador de cenários.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   Você pode usar filtros integrados para planos, iniciativas ou projetos e personalizar filtros de projeto no Planejador de cenários.
 

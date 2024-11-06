@@ -6,14 +6,16 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 1%
 
 ---
 
 # Criar ou editar exibições no Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 Você pode personalizar o tipo de informação exibida na tela usando visualizações. Você pode usar vários tipos de visualizações no Adobe Workfront.
 
@@ -30,25 +32,36 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Solicitação ou superior</p> </td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Colaborador ou superior</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Solicitação ou superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para criar uma visualização em um relatório</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para criar uma visualização em um relatório</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader"><strong>Permissões de objeto*</strong></td> 
+   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,10 +77,11 @@ O processo para criar ou personalizar uma view difere dependendo se você está 
 Você pode criar uma nova view-padrão ou personalizar uma view-padrão existente criada anteriormente.
 
 1. Clique no menu suspenso **Exibir** em qualquer lista em que deseje criar ou personalizar um modo de exibição.
-1. (Opcional) Para personalizar uma exibição existente, selecione a exibição padrão que deseja personalizar.\
-   As Exibições padrão estão disponíveis em qualquer tipo de lista no Workfront, como um relatório, lista de projetos ou lista de tarefas.
-1. Clique no menu suspenso **Exibir** e em **Personalizar exibição** ou **Nova exibição**.\
-   A caixa de diálogo **Personalizar exibição** é exibida.
+
+1. Clique no botão **+ Nova Exibição** para criar uma nova exibição.
+Ou
+Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) que aparece ao passar o mouse à direita de um modo de exibição existente que você deseja editar.
+A caixa de diálogo **Personalizar exibição** é exibida.
 
 1. Na seção **Visualização da coluna**, siga um destes procedimentos:
 
@@ -121,7 +135,7 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Regras de colunas</strong></td> 
-           <td><p>Clique em <strong>Adicionar uma Regra para esta Coluna</strong> para definir uma regra para a coluna. Após adicionar uma regra, é possível definir estilos de campo e texto para a forma como os campos que correspondem a essa regra são exibidos. Clique em <strong>Adicionar regra</strong> depois que terminar de definir a regra.</p></td> 
+           <td><p>Clique em <strong>+ Adicionar uma Regra para esta Coluna</strong> para definir uma regra para a coluna. Após adicionar uma regra, é possível definir estilos de campo e texto para a forma como os campos que correspondem a essa regra são exibidos. Clique em <strong>Adicionar regra</strong> depois que terminar de definir a regra.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ Para criar ou personalizar uma visualização Agile:
     </tbody> 
    </table>
 
-1. Na seção **Agile**, na área **Campos Adicionais**, clique em **Adicionar Campo** e selecione o campo que deseja adicionar aos cartões de história. (Esses são os mesmos campos que você pode adicionar ao criar ou personalizar uma visualização ou criar colunas para um relatório.)\
+1. Na área **Campos Adicionais**, clique em **Adicionar Campo** e selecione o campo que deseja adicionar aos cartões de história. (Esses são os mesmos campos que você pode adicionar ao criar ou personalizar uma visualização ou criar colunas para um relatório.)\
    Repita esse processo para adicionar até três campos adicionais aos cartões de história.\
    Ao adicionar campos a cartões de matéria, os campos são somente visualização e são exibidos somente quando o campo é preenchido.
 

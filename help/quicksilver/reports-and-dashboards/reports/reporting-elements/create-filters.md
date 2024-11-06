@@ -6,16 +6,16 @@ description: É possível limitar a quantidade de informações exibidas na tela
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # Criar ou editar filtros no Adobe Workfront
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 É possível limitar a quantidade de informações exibidas na tela em uma lista de itens com um filtro. Você pode definir determinados critérios com base em informações específicas sobre um objeto e exibir somente os objetos que atendem a esses critérios.
 
@@ -47,42 +47,36 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Novo: Colaborador ou superior</p>
-
-Ou
-
-<p>Atual: solicitação ou superior</p>
-
-<p><b>NOTA:</b></p>
-
-Para editar um filtro em um relatório, você deve ter a seguinte licença:
-
-<p>Novo: Padrão</p>
-
-Ou
-
-<p>Atual: Plano</p>
-
-</td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Colaborador para modificar um filtro</p></li>
+         <li><p>Padrão para modificar um filtro em um relatório</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Solicitação para modificar um filtro</p></li>
+         <li><p>Plano para modificar um filtro em um relatório</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
    <td> <ul><li><p>Editar acesso a Filtros, Visualizações e Agrupamentos</p></li></ul>
-    <p><b>NOTA:</b></p>
-   Para editar um filtro em um relatório, você deve ter a seguinte configuração de nível de acesso, além de Editar acesso a Filtros, Visualizações e Agrupamentos:
 
-<ul><li><p>Editar acesso a relatórios, painéis e calendários</p></li></ul>
+Para editar um filtro em um relatório, você deve ter a seguinte configuração de nível de acesso, além de Editar acesso a Filtros, Visualizações e Agrupamentos:
 
-<p><b>NOTA:</b></p> <p> Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+<ul><li><p>Editar acesso a relatórios, painéis e calendários</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões para um filtro</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader"><strong>Permissões de objeto*</strong></td> 
+   <td> <p>Gerenciar permissões para um filtro</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -369,19 +363,17 @@ Você pode criar filtros herdados em listas e relatórios das seguintes maneiras
 Independentemente do método usado para criar filtros, criar um filtro do zero ou a partir de um filtro existente é semelhante.
 
 1. Vá para uma lista ou um relatório que contenha o filtro que você deseja personalizar.
-1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png).
+1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png), em seguida, clique no ícone **Mais** ![Ícone Mais](assets/more-icon.png) e clique em **Voltar para Filtros Herdados**.
 
    >[!TIP]
    >
    >O criador do relatório deve permitir que os filtros sejam editados para exibir a lista suspensa Filtro em um relatório. O filtro Padrão de relatório é aplicado a um relatório por padrão. O filtro Padrão de relatório pode ser personalizado somente quando você edita o relatório.
 
-   ![Lista suspensa de filtros](assets/filter-drop-down-expanded-nwe.png)
-
-1. Clique em **Novo filtro** na parte superior da lista de filtros.
+1. Clique em **+ Novo filtro** na parte superior da lista de filtros.
 
    Ou
 
-   Passe o mouse sobre o filtro que você deseja modificar e clique no ícone **Editar** ![](assets/edit-icon.png).
+   Passe o mouse sobre o filtro que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 
    O construtor para personalizar as inicializações do filtro.
 
@@ -423,7 +415,7 @@ Independentemente do método usado para criar filtros, criar um filtro do zero o
 
    Ou
 
-   Clique em **Salvar como Novo Filtro** para criar um filtro a partir do filtro selecionado.
+   Clique em **Salvar como Novo Filtro** para criar um novo filtro a partir do filtro selecionado.
 
    O novo filtro é exibido na lista de filtros e é aplicado automaticamente à lista ou ao relatório selecionado.
 

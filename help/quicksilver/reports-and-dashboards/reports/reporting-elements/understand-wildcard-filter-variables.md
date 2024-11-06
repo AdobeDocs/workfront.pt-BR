@@ -7,7 +7,7 @@ description: Ao usar curingas em filtros, você pode fazer referência a um usu�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 1%
@@ -16,18 +16,14 @@ ht-degree: 1%
 
 # Visão geral das variáveis de filtro curinga
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 11/2024 -->
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: This article is linked to the training self-serve promted articles for user-based and date-based widlcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.) </p>
-<p>(NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.</p>
-<p>&gt;&gt;This was included but it is not supported???:</p>
-<p>The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.</p>
-<p>For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:</p>
-<p>AssignedToID Equals $$USER.roleIDs.)</p>
-</div>
--->
+<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+(NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
+This was included but it is not supported???:
+The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
+For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
+AssignedToID Equals $$USER.roleIDs.)-->
 
 Usando curingas, você pode fazer referência a um usuário ou data genérica em vez de a um usuário ou data específica. Dessa forma, os elementos criados são dinâmicos; os resultados mudam dependendo do contexto em que são usados.
 

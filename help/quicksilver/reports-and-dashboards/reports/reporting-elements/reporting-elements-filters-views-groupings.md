@@ -6,24 +6,22 @@ description: Os principais elementos que cada lista e relatório deve ter no Wor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Elementos de relatórios: filtros, visualizações e agrupamentos
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 Há vários elementos que tornam uma lista ou um relatório possível no Adobe Workfront. Os principais elementos que cada lista e relatório deve ter são um filtro, uma visualização e um agrupamento. Cada elemento fornece informações diferentes em qualquer relatório.
 
@@ -56,11 +54,10 @@ Alguns atributos de filtros são:
 
   Para obter mais informações sobre filtros, consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Ícone de filtro](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## Visualizações
 
-Ao definir a exibição de um relatório, você define quais informações incluir no relatório. Como todos os elementos de relatórios, as exibições são baseadas em um tipo de objeto.\
+Ao definir a exibição de um relatório, você define quais informações incluir no relatório. Como todos os elementos de relatórios, as exibições são baseadas em um tipo de objeto.
+
 Por exemplo, um modo de exibição de um relatório de tarefa poderia mostrar Datas de Vencimento, incluir detalhes financeiros importantes como Custo, ou ser usado para mostrar detalhes de Atribuições e Data de Entrega. As exibições podem ser usadas para fornecer uma variedade de detalhes sobre os dados no relatório.
 
 Alguns atributos de visualizações são:

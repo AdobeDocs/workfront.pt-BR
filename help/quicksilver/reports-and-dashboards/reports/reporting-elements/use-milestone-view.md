@@ -6,7 +6,7 @@ description: Você pode aplicar a visualização Marco a uma lista de projeto ou
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Usar a visualização de Etapas
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Você pode aplicar a visualização Marco a uma lista de projeto ou relatório.
 
@@ -42,8 +42,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> 
-   <p>Novo: Padrão</p>
-   <p>Atual: trabalho ou superior </p> </td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Trabalhar ou superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 

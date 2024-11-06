@@ -6,14 +6,16 @@ description: Leia este artigo para saber mais sobre as diretrizes de largura da 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
 # Modificar a largura e a ordem da coluna
+
+<!-- Audited: 11/2024 -->
 
 A seguir estão as diretrizes sobre como as larguras de coluna funcionam no Adobe Workfront:
 
@@ -36,6 +38,8 @@ A seguir estão as diretrizes sobre como as larguras de coluna funcionam no Adob
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Solicitação ou superior </p> </td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Colaborador ou superior</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Solicitação ou superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar a visualização em um relatório</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar a visualização em um relatório</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões de um relatório para editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modificar a largura e a ordem da coluna
 
@@ -113,17 +128,13 @@ Para obter mais informações sobre como exportar dados de listas e relatórios,
 #### Redimensionar colunas temporariamente {#resize-columns-temporarily}
 
 1. Vá para a lista que deseja modificar.
-1. Arraste a borda de uma coluna até que ela atinja o tamanho desejado.\
+1. Arraste a borda de um cabeçalho de coluna até que a coluna atinja o tamanho desejado.\
    ![](assets/column-resize-350x124.png)
 
 #### Reordenar colunas temporariamente {#reorder-columns-temporarily}
 
 1. Vá para a lista que deseja modificar.
-1. Clique em uma coluna que você deseja mover para outro local para selecionar a coluna.
-1. Arraste a coluna para o local correto.
-1. Solte a coluna no local para movê-la.
-
-   ![](assets/column-reorder-350x118.png)
+1. Clique e arraste o cabeçalho da coluna que deseja mover para o local desejado.
 
 >[!TIP]
 >

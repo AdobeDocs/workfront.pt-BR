@@ -6,16 +6,16 @@ description: Ao compartilhar seus relatórios com outros usuários no Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1162'
 ht-degree: 3%
 
 ---
 
 # Usar formatação condicional em exibições
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 Ao compartilhar seus relatórios com outros usuários no Adobe Workfront, considere personalizar a exibição dos relatórios para facilitar a leitura de determinadas informações ou apenas destacá-las.
 
@@ -54,24 +54,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Novo:</p> 
    <ul><li>Padrão para exibições de relatório</li>
   <li> Colaborador ou superior para exibições de lista</li></ul>
-
-<p>Atual:</p>
+   <p>Atual:</p>
    <ul>
     <li> Planejar exibições de relatório </li>
     <li> Solicitação ou superior para exibições de lista </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar uma visualização em um relatório</p> <p><b>Nota</b></p> <p>Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar uma visualização em um relatório</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões para uma exibição</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões para uma exibição</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
