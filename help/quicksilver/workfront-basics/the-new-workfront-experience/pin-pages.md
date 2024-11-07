@@ -5,10 +5,10 @@ description: Você pode fixar seu trabalho mais importante [!DNL Adobe Workfront
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -70,33 +70,32 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 É possível alterar o nome de uma página fixada para ter mais significado para você.
 
 1. Passe o mouse sobre a página fixada na navegação superior ou no **[!UICONTROL menu Mais]**.
-1. Clique na seta ao lado do nome do pin e selecione **[!UICONTROL Renomear pin]**.
+1. Clique no ícone Mais ![](assets/more-icon.png) ao lado do nome do pin e selecione **[!UICONTROL Renomear pin]**.
 
-   ![Renomear pino](assets/rename-remove-pin.png)
+   ![Renomear pino](assets/pin-menu.png)
 
-1. Digite o novo nome do pino e clique no ícone de marca de seleção ou pressione Enter.
+1. Digite o novo nome do pin e clique em **Salvar**.
 
-   ![Clique na marca de seleção para renomear o pino](assets/rename-pin-click-checkmark.png)
+   ![Clique na marca de seleção para renomear o pino](assets/new-pin-name.png)
 
-   Uma pequena janela pop-up é exibida por vários segundos após você clicar na marca de seleção ou pressionar Enter, permitindo desfazer a alteração do nome do pino antes que ele seja salvo.
 
 ## Reordenar páginas fixadas
 
 Você pode reorganizar a ordem em que as páginas fixadas são exibidas.
 
-1. Passe o mouse sobre a página fixada na navegação superior ou no **[!UICONTROL menu Mais]**. Ao ver o cursor manual, clique e arraste o pino para a ordem desejada.
+1. Passe o mouse sobre a página fixa que você deseja mover, em seguida, clique no ícone **Mais**.
+1. Escolha **Mover para a esquerda** ou **Mover para a direita** para mover o pino.
+1. (Opcional) Escolha **Mover para a frente** para mover o pino para a posição mais à direita da barra de pinos.
+
+   ![mover marcadores](assets/pin-menu.png)
 
    Suas alterações são salvas automaticamente e lembradas na próxima vez que você acessar o Workfront.
 
 ## Remover uma página fixada
 
-1. Clique na página fixada que deseja desafixar.
-1. Clique em **[!UICONTROL Desafixar página atual]** na parte superior da tela.
+1. Clique no ícone Mais ![](assets/more-icon.png) ao lado do pino que você deseja remover.
+1. Clique em **Remover pino**.
 
-   Ou
-
-   Clique na seta ao lado do nome do pin e selecione **[!UICONTROL Remover pin]**.
-
-   ![Remover pino](assets/rename-remove-pin.png)
+   ![Remover pino](assets/pin-menu.png)
 
    A página não está mais acessível da parte superior de qualquer página em [!DNL Workfront].
