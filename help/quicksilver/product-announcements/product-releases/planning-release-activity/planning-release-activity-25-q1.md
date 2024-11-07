@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 0%
 >
 >Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
 >Para obter uma visão geral do Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
 
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Primeiro Trimestre de 2025.
 
@@ -33,6 +32,24 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning após a versão de disponibilidade geral em 28 de agosto de 2024, consulte [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Novos tipos de exibição para campos do tipo porcentagem na exibição de tabela
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 7 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+
+Para facilitar a leitura dos números na exibição de tabela, agora é possível selecionar entre as seguintes opções para alterar a forma como um campo do tipo Porcentagem é exibido na exibição de tabela:
+
+* Número
+* Barra
+* Círculo
+
+Esse tipo de exibição é compatível somente na exibição de tabela.
+
+Antes dessa melhoria, você poderia exibir valores percentuais somente como números.
+
+Para obter mais informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Agora os campos de conexão são aceitos em formulários de solicitação
 
