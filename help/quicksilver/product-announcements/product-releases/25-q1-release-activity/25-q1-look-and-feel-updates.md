@@ -4,9 +4,10 @@ description: Atualizações de aparência durante o período do primeiro trimest
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -49,19 +50,6 @@ Para obter informações sobre taxas de câmbio, consulte [Configurar taxas de c
 Atualizamos a página Exportar dados (Kick-Starts) na área Configuração com um design mais moderno e consistente com outras áreas do Workfront.
 
 Para obter informações, consulte [Exportar dados do Workfront via Kick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
-
-## Atualizações da aparência na barra de navegação do Workfront
-
->[!NOTE]
->
->Versão de produção para todos os clientes: antes da versão 24.11 (14 de novembro de 2024)
-
-Atualizamos a barra de navegação do Workfront para melhorar o desempenho. As mudanças na aparência são mínimas.
-
-As alterações mais notáveis são as seguintes:
-
-* As telas suspensas Favoritos e Recentes não têm mais um botão Fechar. Basta clicar fora da tela ou pressionar ESC no teclado para fechá-la.
-* Não é mais possível arrastar e soltar as páginas fixadas para organizá-las. Em vez disso, há um menu suspenso com botões que permitem mover as páginas fixadas.
 
 ## Atualização da aparência para enviar atualização para a janela do usuário
 
