@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
+source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
 workflow-type: tm+mt
 source-wordcount: '3847'
 ht-degree: 2%
@@ -334,7 +334,7 @@ Você pode usar um campo de data para capturar informações adicionais no forma
       * **Longo**: 16 de maio de 2023
       * **Europeu**: 05/16/2023
       * **ISO**: 16/05/2023
-   * **Incluir um campo de hora**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. <!--update this setting name - submitted bug for it to be changed-->
+      * **Incluir um campo de hora**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. <!--update this setting name - submitted bug for it to be changed-->
 
      Selecione entre as seguintes opções:
 
@@ -610,6 +610,7 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
       * **Longo**: 16 de maio de 2023
       * **Europeu**: 05/16/2023
       * **ISO**: 16/05/2023
+
    * **Incluir um campo de hora**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. <!--submitted a UI text change for this - check the UI-->
 
      Selecione entre as seguintes opções:
