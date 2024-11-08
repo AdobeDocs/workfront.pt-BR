@@ -4,9 +4,10 @@ content-type: reference
 description: Você pode resumir rapidamente itens de trabalho e documentos usando a funcionalidade Resumir.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 0eeee68c45003525b9593ce985729f7aa12189cf
+exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -31,27 +32,29 @@ O Assistente de IA pode ajudá-lo a localizar projetos, tarefas e problemas no W
 1. Visualize a resposta no painel Assistente de IA.
 1. (Opcional) Para ir para o item de trabalho, clique no link no painel Assistente de IA.
 
-## Criar um item de trabalho
+<!--
 
-1. Clique no ícone do **Assistente de IA** ![ícone do Assistente de IA](assets/ai-assistant-icon.png) próximo ao canto superior direito da tela.
-1. Insira um prompt, como
+## Create a work item
 
-   * Criar o projeto &quot;Campanha da primavera&quot;
-   * Adicione o problema &quot;Bug da interface do usuário&quot; ao projeto &quot;Nova interface do usuário&quot;
-   * Criar tarefa de &quot;sessão de fotos&quot; no projeto &quot;Campanha da primavera&quot;
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. Enter a prompt such as 
 
-1. Verifique a resposta do Assistente de IA para garantir que ele esteja executando a ação desejada
-1. (Condicional) Se a resposta descrever a ação correta, clique em **Sim**.
+   * Create project "Spring campaign"
+   * Add issue "UI Bug" to project "New UI" 
+   * Create "photoshoot" task in project "Spring campaign"
 
-   O Assistente de IA pode levar alguns minutos para criar o item, dependendo do tamanho ou da complexidade do prompt e de quantos registros ele precisa pesquisar.
-1. (Condicional) Para cancelar a criação do novo item, clique em **Não**.
-1. (Opcional) Para ir para o item de trabalho, clique no link no painel Assistente de IA.
+1. Check the AI Assistant response to ensure that it is taking the desired action
+1. (Conditional) If the response describes the correct action, click **Yes**.
+
+   AI Assistant may take a few moments to create the item, depending on how large or complex the prompt is and how many records it needs to search.
+1. (Conditional) To cancel the creation of the new item, click **No**.
+1. (Optional) To go to the work item, click the link in the AI Assistant panel.
 
 >[!NOTE]
 >
->Recomendamos verificar o novo item para garantir que ele foi criado conforme esperado.
+>We recommend checking the new item to ensure that it was created as expected.
 
-
+-->
 
 <!--
 
