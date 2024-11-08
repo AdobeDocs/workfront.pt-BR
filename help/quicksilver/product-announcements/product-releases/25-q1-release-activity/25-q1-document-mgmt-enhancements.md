@@ -4,9 +4,10 @@ description: Aprimoramentos no gerenciamento de documentos do primeiro trimestre
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -27,4 +28,6 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >
 >Versão de pré-visualização: 7 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
 
-Quando uma nova versão é adicionada a um documento com aprovações pendentes, as aprovações na versão anterior agora são exibidas como Retirado. O processo de aprovação anterior é encerrado, mesmo que alguns participantes ainda não tenham tomado uma decisão.
+Quando uma nova versão for adicionada a um documento com aprovações pendentes, a aprovação da versão anterior será exibida como &quot;Retirado&quot;, indicando que o processo de aprovação anterior foi fechado devido à adição da nova versão.
+
+Para obter mais informações, consulte [Carregar uma nova versão do documento e solicitar uma aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
