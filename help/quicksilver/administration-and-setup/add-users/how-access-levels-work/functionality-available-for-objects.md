@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
+source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1668'
 ht-degree: 11%
 
 ---
@@ -228,7 +228,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 | Editar detalhes | ✓ µ | ✓ µ | ✓ µ |   |
 | Baixar | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
 | Check-out | ✓ µ | ✓ µ | ✓ µ |   |
-| Adicionar aprovadores | ✓ µ | ✓ µ | ✓ µ |   |
+| Adicionar aprovadores (documentos) | ✓ µ | ✓ µ | ✓ µ |   |
 | Aprovar documentos | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
 | Anexar formulários personalizados | ✓ µ | ✓ µ | ✓ µ |   |
 | Editar campos personalizados | ✓ µ | ✓ µ | ✓ µ |   |
@@ -238,8 +238,8 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 | Carregar nova versão | ✓ µ | ✓ µ | ✓ µ |   |
 | Excluir uma versão | ✓ µ | ✓ µ | ✓ µ |   |
 | Visualização | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
-| Prova | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
-| Gerar prova | ✓ µ |   |   |   |
+| Aprovar provas | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
+| Gerar provas | ✓ µ |   |   |   |
 | Remover prova | ✓ µ | ✓ µ | ✓ µ |   |
 | Adicionar/Remover&#42;&#42; | ✓ µ | ✓ µ | ✓ µ |   |
 | Renomear&#42;&#42; | ✓ µ | ✓ µ | ✓ µ |   |
