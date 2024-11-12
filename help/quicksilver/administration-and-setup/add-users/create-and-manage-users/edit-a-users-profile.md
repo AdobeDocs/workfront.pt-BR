@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -232,7 +232,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Formulários personalizados</td> 
-      <td><p>Associar um formulário personalizado de usuário existente a este usuário. Você deve criar um formulário personalizado antes de associá-lo a um usuário. Somente formulários personalizados ativos são exibidos na lista. Os campos que você não tem acesso para editar não são exibidos em um formulário personalizado individual.</p> <p><strong>Observação:</strong> recursos avançados de formulário personalizado, como campos de pesquisa Externos e campos nativos do Workfront, só estarão disponíveis quando você abrir o registro do usuário na página de detalhes, não na caixa de diálogo Editar Usuário. (Na lista de usuários, clique no nome do usuário para abrir os detalhes.)</p> <p>Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Criar um formulário com o designer de formulário</a>.</p></td> 
+      <td><p>Associar um formulário personalizado de usuário existente a este usuário. Você deve criar um formulário personalizado antes de associá-lo a um usuário. Somente formulários personalizados ativos são exibidos na lista. Os campos que você não tem acesso para editar não são exibidos em um formulário personalizado individual.</p> <p><strong>Observação:</strong> recursos avançados de formulário personalizado, como campos de pesquisa Externos e campos nativos do Workfront, só estarão disponíveis quando você abrir o registro do usuário na página de detalhes, não na caixa de diálogo Editar Usuário. (Na lista de usuários, clique no nome do usuário para abrir os detalhes.)</p> <p>Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Criar um formulário personalizado</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Comentário</td> 

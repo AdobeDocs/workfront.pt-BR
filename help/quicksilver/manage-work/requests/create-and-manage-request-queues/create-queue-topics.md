@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formulários personalizados</strong> </td> 
-      <td>Selecione quaisquer formulários personalizados que deseja associar ao tópico da fila. Você deve criar formulários personalizados para ocorrências antes de associá-los a tópicos da fila. Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário com o designer de formulário</a>.</td> 
+      <td>Selecione quaisquer formulários personalizados que deseja associar ao tópico da fila. Você deve criar formulários personalizados para ocorrências antes de associá-los a tópicos da fila. Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário personalizado</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aprovação padrão</strong></td> 

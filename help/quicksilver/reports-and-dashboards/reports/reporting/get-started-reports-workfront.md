@@ -7,9 +7,9 @@ description: Os relatórios fornecem visibilidade sobre o que está acontecendo 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3296'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -325,7 +325,7 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
   </tr> 
   <tr> 
    <td>Campos</td> 
-   <td> <p>Refere-se aos atributos de seus objetos. Por exemplo, "Status" é um campo para Projetos, Tarefas ou Problemas. "Gerenciador de Portfolio" é um campo para o objeto Portfolio.</p> <p>Também é possível ter campos personalizados que você mesmo cria e adiciona a formulários personalizados.<br>Para obter informações sobre como criar formulários personalizados, consulte o artigo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário com o designer de formulário</a>.</p> </td> 
+   <td> <p>Refere-se aos atributos de seus objetos. Por exemplo, "Status" é um campo para Projetos, Tarefas ou Problemas. "Gerenciador de Portfolio" é um campo para o objeto Portfolio.</p> <p>Também é possível ter campos personalizados que você mesmo cria e adiciona a formulários personalizados.<br>Para obter informações sobre como criar formulários personalizados, consulte o artigo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário personalizado</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Nome do Campo </td> 

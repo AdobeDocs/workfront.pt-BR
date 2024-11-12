@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
      </tr>
      <tr> 
       <td role="rowheader">Seção Forms personalizada</td> 
-      <td> <p>Se houver campos que você deseja adicionar à sua empresa que não estejam disponíveis no Workfront, é possível criar um formulário personalizado e associá-lo à sua empresa. Você pode anexar esse formulário à sua empresa selecionando-o no menu suspenso. Somente as empresas ativas são listadas no menu suspenso. Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário com o designer de formulário</a>. </p> </td> 
+      <td> <p>Se houver campos que você deseja adicionar à sua empresa que não estejam disponíveis no Workfront, é possível criar um formulário personalizado e associá-lo à sua empresa. Você pode anexar esse formulário à sua empresa selecionando-o no menu suspenso. Somente as empresas ativas são listadas no menu suspenso. Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário personalizado</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>
