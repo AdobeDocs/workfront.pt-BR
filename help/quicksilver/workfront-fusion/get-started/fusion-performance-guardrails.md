@@ -8,9 +8,9 @@ description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
+source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,10 @@ A automação de trabalho requer processamento rápido, portanto, o [!DNL Adobe 
 ## Arquivos
 
 * A capacidade total de processamento do Fusion para arquivos é de **1 GB**. O limite se baseia em um custo total de memória. Cada operação contribui para esse custo. Se um único arquivo de 400 MB for baixado e carregado, o custo total da capacidade do arquivo será de 800 MB.
+* As organizações no plano Workfront Ultimate têm acesso a um maior processamento de arquivos além de 1 GB. A plataforma Fusion pode oferecer suporte a arquivos individuais de até 15 GB para uma única ação (por exemplo, carregar arquivo), mas há outros fatores que afetam a transferência de dados. O limite de tamanho de arquivo de uma única ação depende do serviço Web ao qual o Fusion se conecta. A transferência de dados é o processamento total de uma única execução. Isso significa que várias ações em uma única execução contribuem para a transferência total de dados. O Fusion processará arquivos até que o limite de execução de 40 minutos seja atingido.
+
+  Para obter mais informações, consulte [Trabalhando com arquivos grandes no Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md).
+
 
 ## Uso de Memória do Servidor
 
