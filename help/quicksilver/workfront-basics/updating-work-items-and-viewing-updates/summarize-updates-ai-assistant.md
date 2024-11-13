@@ -5,9 +5,10 @@ title: Resumir atualizações com o Assistente de IA
 description: As Atualizações são de um objeto que inclui um botão que usa o AI Assistant para resumir as atualizações.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 O Assistente de IA do Workfront pode resumir o conteúdo do fluxo de atualização, permitindo que você entenda rapidamente os comentários e as discussões que ocorrem em torno de um objeto do Workfront.
 
 Você pode usar o botão Resumir conteúdo para gerar um resumo ou pode inserir um prompt no Assistente do AI.
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
   Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
-<div class="preview">
-
 ## Resumir usando o botão Resumir Conteúdo
 
 1. Navegue até o fluxo de atualização que deseja resumir.
@@ -75,8 +72,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. (Opcional) Refine o prompt para garantir que ele forneça as informações necessárias.
 
    Por exemplo, você pode refinar o prompt Resumir conteúdo para resumir comentários dos últimos 14 dias, em vez dos últimos 7.
-
-   </div>
 
 ## Resumir um objeto no Assistente de IA
 
@@ -92,4 +87,3 @@ Para ver um resumo de um objeto:
    O Assistente de IA pode levar alguns minutos para gerar o resumo, dependendo do tamanho ou da complexidade do objeto.
 
 1. Exibir o resumo de IA no painel Assistente de IA.
-
