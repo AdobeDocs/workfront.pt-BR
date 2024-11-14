@@ -4,10 +4,11 @@ description: Melhorias na página inicial do primeiro trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2517e07cacf9563ca3927db0ba3415f81ab41526
+exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 2%
 
 ---
 
@@ -17,6 +18,21 @@ Esta página descreve todas as melhorias na Página inicial feitas com a versão
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2025, consulte [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Opções atualizadas na coluna Meu foco em Prioridades
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 14 de novembro de 2024; Versão de produção para todos os clientes: 14 de novembro de 2024
+
+Atualizamos as opções na coluna Meu foco para ajudá-lo a priorizar e classificar seu trabalho de uma maneira mais intuitiva. Os novos rótulos incluem
+
+* Urgente
+* Alta
+* Normal
+* Baixa
+
+Essa alteração facilita a visualização e a organização do trabalho com base na urgência. Para obter mais informações, consulte [Priorizar itens de trabalho importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+
 ## Exibir detalhes do projeto em Prioridades
 
 >[!NOTE]
@@ -25,4 +41,4 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 Agora é possível exibir detalhes e comentários do projeto na lista de trabalho em Prioridades.
 
-<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
+Para obter mais informações, consulte [Exibir detalhes do projeto e da tarefa na lista de trabalho Prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).

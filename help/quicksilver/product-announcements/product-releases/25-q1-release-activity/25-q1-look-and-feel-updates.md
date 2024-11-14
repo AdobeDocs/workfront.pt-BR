@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período do primeiro trimestre de 2025.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do Primeiro trimestre de 2025, consulte a [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Atualizações de aparência para integrações de documentos
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 14 de novembro de 2024; Versão de produção para todos os clientes: 14 de novembro de 2024
+
+Fizemos atualizações de desempenho na área em Configuração, onde você configura integrações personalizadas: Configuração > Documentos > Integração personalizada. Essa atualização inclui pequenas alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
+## Atualizações de aparência para as páginas Membros da empresa e Taxas de cobrança da empresa
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+
+Atualizamos as páginas Membros da empresa e Taxas de cobrança da empresa com um design mais moderno que é consistente com outras áreas do Workfront. As associações de empresa são acessadas por meio de Configuração > Empresas > selecione um nome de empresa > selecione Membros da empresa no painel esquerdo. As taxas de faturamento da empresa são acessadas em Configurar > Empresas > selecione o nome de uma empresa > selecione Taxas de faturamento no painel esquerdo.
+
+Para obter informações, consulte [Criar e editar empresas](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) e [Gerenciar associações de empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Atualizações da aparência para as áreas de navegação principal e secundária
 
