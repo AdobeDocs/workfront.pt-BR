@@ -5,19 +5,48 @@ description: Você pode resumir rapidamente itens de trabalho e documentos usand
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Usar o Assistente de IA para trabalhar com projetos, tarefas e problemas
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível no ambiente de Pré-visualização para todos os clientes e no ambiente Produção para clientes que ativaram versões mensais. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 O Assistente de IA pode ajudá-lo a localizar projetos, tarefas e problemas no Workfront.
+
+## Requisitos de acesso
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td><p>Novo: Qualquer um</p>
+       <p>ou</p>
+       <p>Atual: não disponível</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: não disponível</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Localizar itens de trabalho
 
