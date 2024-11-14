@@ -5,13 +5,13 @@ description: As prioridades são uma experiência simplificada e intuitiva perso
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
+source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # Priorizar itens de trabalho importantes
 
@@ -26,14 +26,13 @@ Você pode usar a coluna Meu foco para priorizar seu trabalho. A coluna Meu foco
 
    | Foco | Descrição |
    |-----------|-------------|
-   | **Urgente** | Urgente é um trabalho que requer atenção imediata. |
-   | **Principal** | Principal é para o trabalho que você planeja focar nesta semana. |
-   | **Secundário** | Secundário é o trabalho que você planeja passar depois para quando as tarefas de foco principal estiverem concluídas. |
-   | **Normal** | O normal é um trabalho que ainda não precisa ser focado.  Normal é o padrão para todas as tarefas e problemas. |
+   | **Urgente** | Urgente é para itens de trabalho que exigem atenção imediata. Os itens de trabalho urgentes devem ter prioridade sobre todos os outros e ser abordados o mais rapidamente possível. |
+   | **Alta** | Alto é para itens de trabalho importantes que você planeja resolver após a conclusão do trabalho urgente. |
+   | **Normal** | O normal é para itens de trabalho de rotina nos quais você trabalhará depois que itens Urgentes e de Alta prioridade forem concluídos. Esse é o padrão para tarefas e problemas. |
+   | **Baixo** | Baixa é para itens de trabalho que não precisam de atenção imediata e podem ser adiados até que todos os itens de trabalho de prioridade mais alta sejam concluídos. |
 
    ![](assets/my-focus.png)
 
    >[!TIP]
    >
    >Você pode Filtrar e Agrupar seu trabalho por níveis de foco.
-

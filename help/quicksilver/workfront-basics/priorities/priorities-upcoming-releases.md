@@ -5,13 +5,13 @@ description: Visualizar informações sobre versões futuras do Priority
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Prioridades: versões futuras
 
@@ -21,8 +21,8 @@ Estamos entusiasmados em mostrar a vocês o que buscamos por Prioridades. Use o 
   <tr>
     <td><strong>Próximos</strong>
     <ul>
-    <li><strong>Acessar detalhes do projeto da lista de trabalho</strong>: a guia de detalhes do projeto exibirá os detalhes, comentários e documentos do projeto.</li>
-   <li><strong>Exibir documentos na guia Documentos</strong>: a guia documentos permitirá que você exiba documentos carregados em tarefas e problemas. Você poderá visualizar uma visualização e deixar comentários em um documento. </li>
+
+<li><strong>Exibir documentos na guia Documentos</strong>: a guia documentos permitirá que você exiba documentos carregados em tarefas e problemas. Você poderá visualizar uma visualização e deixar comentários em um documento. </li>
     </ul>
     </td>
   </tr>
