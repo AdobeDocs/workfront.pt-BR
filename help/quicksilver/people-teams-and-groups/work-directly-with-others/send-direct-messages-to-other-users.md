@@ -7,9 +7,9 @@ description: O Adobe Workfront permite enviar mensagens rápidas e fáceis que n
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Claro ou superior</p>
-   <p>ou</p>
-   <p>Atual: revisão ou superior</p>
-   </td>
+   <p>Para enviar uma mensagem da página de perfil do usuário, você deve ter:<br>
+   Novo: Claro ou superior<br>
+   ou<br>
+   Atual: revisão ou superior</p>
+   <p>Para enviar uma mensagem da lista de Usuários, você deve ter:<br>
+   Novo: Padrão<br>
+   ou<br>
+   Atual: trabalho ou superior</p></td>
   </tr> 
  </tbody> 
 </table>
