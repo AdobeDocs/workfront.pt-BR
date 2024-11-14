@@ -9,9 +9,9 @@ description: Com o módulo Adobe Authenticator, você pode se conectar a qualque
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1209'
 ht-degree: 1%
 
 ---
@@ -178,15 +178,16 @@ Para criar uma conexão:
 
 1. Clique em **[!UICONTROL Continuar]** para salvar a conexão e retornar ao módulo.
 
-## Módulo
+## Módulos
+
+* [Fazer uma chamada de API personalizada](#make-a-custom-api-call)
+* [Fazer uma chamada de API personalizada (herdado)](#make-a-custom-api-call-legacy)
 
 ### Fazer uma chamada de API personalizada
 
-Esse módulo de ação permite fazer uma chamada para qualquer API Adobe.
+Esse módulo de ação permite fazer uma chamada para qualquer API Adobe. Ele suporta arquivos grandes, em vez de corpos somente texto.
 
->[!TIP]
->
->É necessário inserir o URL inteiro da API à qual você deseja se conectar. Este módulo não aceita URLs relativos.
+Esse módulo foi disponibilizado em 14 de novembro de 2024. Qualquer chamada de Adobe Authenticator > Fazer uma API personalizada configurada antes dessa data não lida com arquivos grandes e agora é considerada o módulo Fazer uma chamada de API personalizada (Herdado).
 
 <table>
   <col/>
@@ -198,10 +199,83 @@ Esse módulo de ação permite fazer uma chamada para qualquer API Adobe.
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL URL Base]</p>
+      </td>
+      <td>
+        <p>Insira o URL de base do ponto de API ao qual você deseja se conectar.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Insira o URL inteiro do ponto de API ao qual deseja se conectar.</p>
+        <p>Insira o caminho relativo ao URL de base.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Método]</p>
+   <td> <p>Selecione o método de solicitação HTTP necessário para configurar a chamada de API. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitação HTTP em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Cabeçalhos]</td>
+      <td>
+        <p>Adicione os cabeçalhos da solicitação no formulário de um objeto JSON padrão.</p>
+        <p>Por exemplo, <code>{"Content-type":"application/json"}</code></p>
+        <p>O Workfront Fusion adiciona cabeçalhos de autorização automaticamente.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Cadeia de Consulta]  </td>
+      <td>
+        <p>Insira a string de consulta da solicitação.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Tipo de Corpo]</td>
+   <td> Selecione o tipo de corpo para esta solicitação de API:
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>Brutos</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Campos]  </td>
+      <td>
+        <p>Para cada arquivo que você deseja adicionar à solicitação APU, clique em <b>Adicionar item</b> e insira o texto do arquivo (para dados brutos), ou insira a chave <code>uploadedFile</code> e mapeie os dados do arquivo.</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### Fazer uma chamada de API personalizada (herdado)
+
+Esse módulo de ação permite fazer uma chamada para qualquer API Adobe.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Conexão]</td>
+     <td>Para obter instruções sobre como criar uma conexão com o módulo Adobe Authenticator, consulte <a href="#create-a-connection" class="MCXref xref" >Criar uma conexão</a> neste artigo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL Base]</p>
+      </td>
+      <td>
+        <p>Insira o URL de base do ponto de API ao qual você deseja se conectar.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>Insira o caminho relativo ao URL de base.</p>
       </td>
     </tr>
     <tr>

@@ -7,9 +7,9 @@ description: Atualmente, há suporte para arquivos grandes nos conectores Workfr
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Na versão inicial, os seguintes conectores são compatíveis com arquivos grand
 
 * Workfront > Fazer upload de documento
 * Adobe Experience Manager Assets > Fazer upload de documento
+* Workfront Proof > Fazer upload de arquivo
+* Adobe Authenticator > Fazer uma chamada de API personalizada
 * HTTP
 
 Outros conectores serão compatíveis em versões futuras.
