@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Editar itens em linha em uma lista em  [!DNL Adobe Workfront]
+title: Editar Itens Embutidos em uma Lista em  [!DNL Adobe Workfront]
 description: É possível editar objetos em linha quando eles são exibidos em uma lista ou relatório. Quando você edita as informações nos objetos exibidos em uma lista ou relatório, o objeto é atualizado imediatamente.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
 
 # Editar itens em linha em uma lista em [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 É possível editar objetos em linha quando eles são exibidos em uma lista ou relatório. Quando você edita as informações nos objetos exibidos em uma lista ou relatório, o objeto é atualizado imediatamente.
 
@@ -24,14 +26,18 @@ Para obter mais informações sobre listas, consulte [Introdução a listas em [
 Embora a maioria dos objetos exibidos em listas ou relatórios sejam editáveis em linha no [!DNL Adobe Workfront], há algumas limitações, que incluem:
 
 * Não é possível editar campos calculados ou [!DNL Workfront] campos internos que são cálculos.
-* Você só pode editar campos associados diretamente aos objetos na lista. Não é possível editar campos que pertencem a objetos associados aos objetos na lista.\
-   Por exemplo, você pode editar o status de uma tarefa em um relatório de Tarefa, mas não pode editar o nome do projeto ao qual a tarefa está associada no mesmo relatório. Você pode editar o nome do projeto somente em um Relatório do projeto.
-* Não é possível editar campos em linha quando a exibição de uma lista não está exibindo a moeda padrão.\
-   Para obter informações sobre como exibir a moeda padrão, consulte a seção [Editar relatórios com moedas exclusivas](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) no artigo [Criar relatórios de dados financeiros com taxas de câmbio exclusivas](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* Você só pode editar campos associados diretamente aos objetos na lista. Não é possível editar campos que pertencem a objetos associados aos objetos na lista.
+
+  Por exemplo, você pode editar o status de uma tarefa em um relatório de Tarefa, mas não pode editar o nome do projeto ao qual a tarefa está associada no mesmo relatório. Você pode editar o nome do projeto somente em um Relatório do projeto.
+* Não é possível editar campos em linha quando a exibição de uma lista não está exibindo a moeda padrão.
+
+  Para obter informações sobre como exibir a moeda padrão, consulte a seção [Editar relatórios com moedas exclusivas](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) no artigo [Criar relatórios de dados financeiros com taxas de câmbio exclusivas](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 * Não é possível editar sinalizadores e ícones exibidos em uma lista.
 * Não é possível editar campos de relatório em linha originados de outros relatórios.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -40,25 +46,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador ou superior </p></li>
+   </ul>
+
+<p>Atual:</p>
+   <ul><li><p>Solicitação ou superior</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Editar] acesso à área em que a lista está</p> <p>Por exemplo, para editar tarefas em linha em um projeto, você precisa de acesso à [!UICONTROL Editar] para Projetos.</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso.<br>Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>[!UICONTROL Editar] acesso à área em que a lista está</p> <p>Por exemplo, para editar tarefas em linha em um projeto, você precisa de acesso à [!UICONTROL Editar] para Projetos.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>[!UICONTROL Gerenciar]</p> <p>Você também deve ter permissões para editar determinados campos, como campos personalizados, status etc.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>[!UICONTROL Gerenciar]</p> <p>Você também deve ter permissões para editar determinados campos, como campos personalizados, status etc.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Editar objetos em linha
 
@@ -72,13 +87,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Se você tiver várias páginas, poderá localizar um objeto usando:
    >
-   >   
-   >   
-   >   * **Paginação**: clique nas setas para frente e para trás para navegar entre as páginas.\
+   >   * **Paginação**: clique nas setas para frente e para trás para navegar entre as páginas.
    >     Localizada no canto inferior direito da lista, a área [!UICONTROL paginação] permanece fixa à medida que você percorre a lista.
-   >   * **Filtro rápido**: clique no ícone de filtro ou digite Alt+F para abrir o filtro rápido e insira o texto para exibir somente itens que contenham o texto inserido.\
+   >   * **Filtro rápido**: clique no ícone de filtro ou digite Alt+F para abrir o filtro rápido e insira o texto para exibir somente itens que contenham o texto inserido.
    >     O filtro rápido está localizado na barra de ferramentas da lista. Para obter mais informações, consulte [Aplicar o filtro rápido a uma lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
-
 
    Se o campo puder ser editado, o campo e todos os outros campos exibidos na lista serão transformados em células editáveis.
 

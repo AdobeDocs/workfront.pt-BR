@@ -3,18 +3,20 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Exibição: tempo de folga pessoal do usuário"
-description: "Exibição: tempo de folga pessoal do usuário"
-author: Lisa and Nolan
+description: "Exibição: folga pessoal do usuário"
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 4%
+source-wordcount: '257'
+ht-degree: 5%
 
 ---
 
 # Exibir: tempo de folga pessoal do usuário
+
+<!--Audited: 11/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
@@ -24,6 +26,8 @@ Você pode criar um relatório de Folga para capturar as informações de folga 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -31,33 +35,43 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p> Atual: 
+   <ul>
+   <li>Solicitação para modificar uma exibição</li> 
+   <li>Planejar a modificação de um relatório</li>
+   </ul>
+     </p>
+     <p> Novo: 
+   <ul>
+   <li>Colaborador para modificar uma visualização</li> 
+   <li>Padrão para modificar um relatório</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>  
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir tempo de folga pessoal do usuário
 
 1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e em **Relatórios > Novo relatório**.
-
 1. No menu suspenso, selecione **Folga**.
 1. Clique em **Salvar + Fechar**.
 

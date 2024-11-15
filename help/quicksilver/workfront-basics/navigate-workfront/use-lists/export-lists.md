@@ -3,22 +3,26 @@ navigation-topic: use-lists
 title: Exportar uma lista
 description: Você pode exportar uma lista de objetos do Adobe Workfront. Quando a lista de objetos no Workfront contiver mais de 2000 itens, exportar a lista é a única maneira de revisar todos os itens na lista em uma página.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 # Exportar uma lista
 
+<!--Audited: 11/2024-->
+
 Você pode exportar uma lista de objetos de [!DNL Adobe Workfront]. Quando a lista de objetos no [!DNL Workfront] contiver mais de 2000 itens, exportar a lista é a única maneira de revisar todos os itens da lista em uma página.
 
 Para obter informações sobre formatos e limites de exportação, consulte [Exportar dados](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -27,31 +31,40 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador ou superior </p></li>
+   </ul>
+
+<p>Atual:</p>
+   <ul><li><p>Solicitação ou superior</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Acesso à [!UICONTROL View] para a área em que a lista está</p> <p>Por exemplo, para exportar a lista de tarefas de um projeto, você precisa de acesso à [!UICONTROL View] para Projetos.</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso.<br>Para obter informações sobre como um administrador do [!DNL Workfront] pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Visualizar o acesso à área em que a lista está</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>[!UICONTROL Exibir]</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Permissões de [!UICONTROL View] para o objeto em que a lista está</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exportar uma lista
 
 1. Ir para uma lista de objetos.
-1. (Opcional) Selecione qualquer filtro, exibição e agrupamento que deseja aplicar à lista antes de exportar.\
-   Para obter informações sobre filtros, exibições e agrupamentos, consulte [Elementos de relatório: filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+1. (Opcional) Selecione qualquer filtro, exibição e agrupamento que deseja aplicar à lista antes de exportar.
+Para obter informações sobre filtros, exibições e agrupamentos, consulte [Elementos de relatório: filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Opcional) Para exportar apenas itens específicos em uma lista, selecione todos os itens na lista que você deseja no arquivo exportado.
 
@@ -69,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Clique em **[!UICONTROL Exportar]** ![Exportar](assets/export.png).
+1. Clique no ícone **[!UICONTROL Exportar]** ![Exportar](assets/export.png).
 
 1. Selecione entre os seguintes formatos:
 
@@ -80,5 +93,5 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      Essa ação exporta uma cópia da lista para um desses formatos e a salva no computador.
 
-1. (Opcional) Abra a lista exportada usando o aplicativo apropriado.\
-   Todos os itens na lista são exibidos no arquivo exportado, sejam eles exibidos na tela do aplicativo web ou não.
+1. (Opcional) Abra a lista exportada usando o aplicativo apropriado.
+Todos os itens na lista são exibidos no arquivo exportado, sejam eles exibidos na tela do aplicativo web ou não.

@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Criar um gráfico de um relatório por um campo personalizado de várias seleções
+title: Criar gráfico de um relatório por um campo personalizado de seleção múltipla
 description: Você pode criar um relatório por meio de um campo personalizado de seleção múltipla somente após criar um campo calculado adicional que capture as opções selecionadas no campo personalizado de seleção múltipla.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
 
 # Criar um gráfico de um relatório por um campo personalizado de várias seleções
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ No entanto, se não for possível ter campos separados para cada opção de um c
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> 
+    <p>Novo:</p>
+   <ul><li><p>Colaborador para modificar um filtro </p></li>
+   <li><p>Padrão para modificar um relatório</p></li> </ul>
+
+<p>Atual:</p>
+   <ul><li><p>Solicitação para modificar um filtro </p></li>
+   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -114,12 +127,12 @@ Para criar o campo personalizado calculado que faz referência ao campo personal
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Opcional) Se o campo personalizado de seleção múltipla já estiver neste formulário e se ele já estiver anexado a objetos, habilite a opção **Atualizar cálculos anteriores (em segundo plano)**.
+1. (Opcional) Se o campo personalizado de seleção múltipla já estiver neste formulário e se ele já estiver anexado a objetos, habilite a opção **Aplicar a cálculos existentes**.
 
    Isso garante que o novo campo calculado seja preenchido automaticamente com o valor do campo personalizado de seleção múltipla conforme for adicionado aos formulários já anexados aos objetos.
 
-1. Clique em **Concluído**.
-1. Clique em **Salvar + Fechar**.
+1. Clique em **Aplicar**.
+1. Clique em **Salvar e fechar**.
 
    O campo personalizado calculado é adicionado ao formulário personalizado e, se o formulário estiver anexado atualmente a objetos, o campo será preenchido com informações do campo personalizado de várias seleções.
 

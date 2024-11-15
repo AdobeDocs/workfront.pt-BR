@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Visualização: URL externo usando campo de dados personalizado"
 description: Você pode exibir um link para um URL personalizado interno usando um Campo personalizado calculado chamado "URL personalizado" em uma Exibição de tarefa.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Exibição: URL externo usando campo de dados personalizado
+
+<!--Audited: 11/2024-->
 
 Você pode exibir um link para uma URL personalizada interna usando um **Campo Personalizado Calculado** chamado &quot;URL Personalizado&quot; em uma **Exibição de Tarefa**.
 
@@ -28,6 +30,8 @@ Usando as mesmas etapas, você pode criar campos personalizados calculados semel
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -35,28 +39,39 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p> Atual: 
+   <ul>
+   <li>Solicitação para modificar uma exibição</li> 
+   <li>Planejar a modificação de um relatório</li>
+   </ul>
+     </p>
+     <p> Novo: 
+   <ul>
+   <li>Colaborador para modificar uma visualização</li> 
+   <li>Padrão para modificar um relatório</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr>  
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Crie o campo personalizado calculado &quot;URL personalizado&quot;
 
@@ -69,15 +84,7 @@ Se você tiver acesso para criar um formulário personalizado, poderá criar um 
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&quot;,&quot;/&quot;,&quot;task/&quot;,ID,&quot;/overview&#39;&#39;)
 
-1. Substitua &quot;`<domain>`&quot; pelo nome de domínio real, sem os colchetes.
-
-   O
-
-   ```
-   /overview
-   ```
-
-   parte desta URL direciona o link para a seção **Visão geral** no painel esquerdo da tarefa.
+1. Substitua &quot;`<domain>`&quot; pelo nome de domínio real, sem os colchetes. A parte `/overview` desta URL direciona o link para a seção **Visão geral** do painel esquerdo da tarefa.
 
 1. Depois de criar seu **Campo Personalizado Calculado**, anexe o **Formulário Personalizado** com este campo a várias tarefas no Adobe Workfront que você deseja exibir no seu novo modo de exibição.
 
@@ -94,10 +101,51 @@ Para personalizar esta exibição:
 1. Clique em **Personalizar exibição**.
 1. Remova todas as colunas da exibição, exceto a primeira coluna.
 1. Clique no cabeçalho da primeira coluna.
-1. Clique em **Alternar para Modo de Texto** no canto superior direito da interface.
-1. Clique em **Clique para editar o texto**.
-1. Cole o modo de texto abaixo em uma coluna.\
-   Neste exemplo, a &#39;column.1.&#39; exibe o valor no campo &#39;URL personalizado&#39; como um link na **Visão geral** da tarefa. &#39;Coluna.2.&#39; exibe o valor armazenado no **Campo de URL** da tarefa.
-   <pre>column.0.descriptionkey=name<br>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat= int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield= objCode<br>column.0.link.valueformat= val<br>column.0.linkedname=direct<br>column.0.listsort=string(nome))<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.description=URL Personalizado<br>column.1.link.isnewwindow=true<br>column.1 link.url=customDataLabelsAsString(URL Personalizado)<br>column.1.linkedname=direct<br>column.1.listsort=customDataLabelsAsString(URL Personalizado)<br>column.1.name=URL Personalizado<br>column.1.querysort=URL<br>column.1.shortview=false<br>column.1.stretch=0<br>column.1.valuefield=URL Personalizado<br>column.1.valuevalue format=customDataLabelsAsString<br>column.1.width=150<br>column.2.descriptionkey=url<br>column.2.linkedname=direct<br>column.2.listsort=string(URL)<br>column.2.namekey=url.abbr<br>column.2.querysort=URL<br>column.2.shortview=false<br>column.2.stretch=0<br>column.2 .valuefield=URL<br>column.2.valueformat=HTML<br>column.2.width=150</pre>
+1. Clique em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto da caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
-1. Clique em **Salvar visualização**.
+
+   ```
+   column.0.descriptionkey=name
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat= int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield= objCode
+   column.0.link.valueformat= val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=150
+   column.1.description=Custom URL
+   column.1.link.isnewwindow=true
+   column.1.link.url=customDataLabelsAsString(Custom URL)
+   column.1.linkedname=direct
+   column.1.listsort=customDataLabelsAsString(Custom URL)
+   column.1.name=Custom URL
+   column.1.querysort=URL
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valuefield=Custom URL
+   column.1.valueformat=customDataLabelsAsString
+   column.1.width=150
+   column.2.descriptionkey=url
+   column.2.linkedname=direct
+   column.2.listsort=string(URL)
+   column.2.namekey=url.abbr
+   column.2.querysort=URL
+   column.2.shortview=false
+   column.2.stretch=0
+   column.2.valuefield=URL
+   column.2.valueformat=HTML
+   column.2.width=150
+   ```
+
+   Neste exemplo, a &#39;column.1.&#39; as linhas exibem o valor no campo &#39;URL personalizado&#39; como um link na seção **Visão geral** da tarefa; &#39;coluna.2.&#39; exibe o valor armazenado no **Campo de URL** da tarefa.
+
+1. Clique em **Concluído** > **Salvar exibição**.
