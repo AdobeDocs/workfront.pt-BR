@@ -6,9 +6,9 @@ description: Você pode usar o [!UICONTROL Portfolio Otimizer] para priorizar se
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do [!UICONTROL Manager] para o portfólio</p> <p>Permissões do Contribute ou superiores para os projetos</p>  </td> 
+   <td> <p>Permissões do [!UICONTROL Manager] para o portfólio</p> <p>Permissões do Contribute ou superiores para os projetos</p> 
+   <p>Você deve ter permissões de Gerenciamento para todos os projetos da lista para poder usar <b>Definir prioridade de projeto</b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Otimizar]**.
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+
    As categorias pelas quais um projeto pode ser pontuado são exibidas à esquerda do ícone [!UICONTROL Otimizar].
 
 1. Usando o círculo deslizante, modifique a otimização de qualquer uma das seguintes categorias:
@@ -78,9 +81,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Depois que os pesos corretos forem definidos para a coluna **[!UICONTROL Score]**, clique no cabeçalho da coluna **[!UICONTROL Score]** para classificar por essa coluna. O projeto com a pontuação mais alta é exibido na parte superior da lista.
 
-1. (Opcional) Arraste e solte projetos na ordem de sua prioridade.\
-   Isso alterará a ordem dos projetos no [!UICONTROL Portfolio Otimizer].
-1. (Opcional) Clique em **[!UICONTROL Definir prioridade]** para salvar a nova prioridade dos projetos.\
+1. (Opcional) Arraste e solte projetos na ordem de sua prioridade.
+Isso alterará a ordem dos projetos no [!UICONTROL Portfolio Otimizer].
+1. (Opcional) Clique em **[!UICONTROL Definir prioridade]** para salvar a nova prioridade dos projetos.
+
+   >[!NOTE]
+   >
+   >   Você deve ter permissões de Gerenciamento para todos os projetos da lista para poder usar **Definir prioridade de projeto**.
+
    Para obter mais informações sobre a priorização de projetos no [!UICONTROL Portfolio Otimizer], consulte o artigo [Priorizar projetos no [!UICONTROL Portfolio Otimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Clique em **[!UICONTROL Salvar]** para salvar seu [!UICONTROL Portfolio Otimizer].

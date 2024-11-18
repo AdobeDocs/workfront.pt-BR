@@ -7,9 +7,9 @@ description: O [!UICONTROL Otimizador de Portfolio] é a ferramenta usada para a
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,9 @@ Os ícones e opções a seguir estão disponíveis para o [!UICONTROL Portfolio 
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[!UICONTROL Definir prioridade de projeto]</td> 
-   <td>Use esse ícone quando quiser salvar a ordem do projeto, com base em sua prioridade. </td> 
+   <td><p>Use esse ícone quando quiser salvar a ordem do projeto, com base em sua prioridade.</p>
+   <p>Você deve ter permissões de Gerenciamento para todos os projetos da lista para poder usar <b>Definir prioridade do projeto</b></p>.
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 

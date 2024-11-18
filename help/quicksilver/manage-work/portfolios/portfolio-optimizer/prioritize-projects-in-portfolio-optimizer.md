@@ -6,9 +6,9 @@ description: É possível priorizar os projetos no Portfolio Otimizer para estab
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do [!UICONTROL Manager] para o portfólio</p> <p>Permissões do Contribute ou superiores para os projetos</p>  </td> 
+   <td> <p>Permissões do [!UICONTROL Manager] para o portfólio</p> <p>Permissões do Contribute ou superiores para os projetos</p> 
+   <p>Você deve ter permissões de Gerenciamento para todos os projetos da lista para poder usar <b>Definir prioridade de projeto</b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
