@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Criar e editar regras de negócios
+
+{{preview-fast-release-general}}
 
 Uma regra de negócios permite aplicar validação a objetos do Workfront e impede que os usuários criem, editem ou excluam um objeto quando determinadas condições forem atendidas. As regras de negócios ajudam a melhorar a qualidade dos dados e a eficiência operacional, evitando ações que podem comprometer a integridade dos dados.
 
@@ -131,6 +133,10 @@ IF(
    * A &quot;ação&quot; é o acionador selecionado para a regra: criar, editar ou excluir o objeto.
    * Como o objeto e a ação já estão definidos, você não os inclui na fórmula.
    * A mensagem de erro personalizada é exibida ao usuário quando ele aciona a regra de negócios. Ele deve fornecer instruções claras sobre o que deu errado e como corrigir o problema.
+
+     <span class="preview">Você pode incluir uma URL estática na mensagem de erro, para vincular à documentação ou outras páginas úteis para orientar o usuário sobre como modificar sua ação dentro da restrição da regra.</span>
+
+     <span class="preview">Neste exemplo, &quot;Saiba mais&quot; será vinculado à URL. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` A URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir a URL completa e ela será um link clicável.</span>
 
    ![Caixa de diálogo Adicionar regra de negócio](assets/add-business-rule-dialog-no-ai-button.png)
 
