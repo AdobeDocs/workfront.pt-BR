@@ -7,18 +7,22 @@ description: É possível criar uma cópia de qualquer relatório ao qual você 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
 # Criar uma cópia de um relatório
 
+<!-- Audited: 11/2024 -->
+
 É possível criar uma cópia de qualquer relatório ao qual você tenha acesso. Você pode criar uma cópia exata de um relatório personalizado ou salvar uma nova versão de um relatório padrão. Depois de copiar um relatório, você se torna o proprietário do relatório copiado e ele é exibido na seção Meus relatórios.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -32,29 +36,40 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader">Permissões de objeto*</td> 
+   <td><p>Exibir permissões para um relatório</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Criar uma cópia exata de um relatório
 
-Se quiser fazer uma cópia de um relatório que você é o proprietário do, faça o seguinte:
+Se quiser fazer uma cópia de um relatório personalizado, faça o seguinte:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Relatórios]**.
 
-1. Clique em **Relatórios** e depois em **Todos os relatórios**.
-1. Abra um relatório.
+1. Clique em **Todos os relatórios** e abra um relatório.
+
 1. Clique em **Ações de Relatório** e em **Copiar**.
 
    >[!TIP]
@@ -62,15 +77,11 @@ Se quiser fazer uma cópia de um relatório que você é o proprietário do, fa�
    >Se o relatório for um relatório padrão, a opção Copiar não aparecerá no menu Ações de Relatório.\
    >Para obter informações sobre como criar uma cópia de um relatório padrão, consulte [Criar uma nova versão de um relatório](#create-a-new-version-of-a-report).
 
-   ![Copiar relatório](assets/nwe-fulllistofreportactions-2022.png)
+   ![Copiar relatório](assets/unshimmed-report-actions-copy.png)
 
-   Uma cópia do relatório original é criada com o nome padrão de *Cópia de [Nome do relatório original]*. Por exemplo, o relatório &quot;Tarefas concluídas no quarto trimestre&quot; teria &quot;Cópia de tarefas concluídas no quarto trimestre&quot; como o nome.
+   Uma cópia do relatório original é criada com o nome padrão de _[Nome do relatório original] (Cópia)_. Por exemplo, uma cópia do relatório &quot;Tarefas concluídas do quarto trimestre&quot; seria nomeada &quot;Tarefas concluídas do quarto trimestre (Cópia)&quot;.
 
-1. (Opcional) Para renomear o relatório, comece digitando um novo nome.
-
-   >[!TIP]
-   >
-   >Se você desmarcar o título antes de digitar o novo nome, selecione o título do relatório, exclua o nome e, em seguida, digite o novo nome.
+1. (Opcional) Para renomear o relatório, clique em **Ações de Relatório** e em **Editar**. Digite um novo nome na caixa de texto no canto superior esquerdo e clique em **Salvar + Fechar** quando terminar.
 
 1. (Opcional) Para compartilhar a nova versão do relatório com outros usuários, clique em **Ações de Relatório** e depois em **Compartilhamento**.
 
@@ -84,9 +95,10 @@ Se quiser fazer uma cópia de um relatório que você é o proprietário do, fa�
    Para excluir o relatório original, faça o seguinte:
 
    1. Navegue até o relatório.
+
    1. Clique em **Ações de Relatório** e depois em **Excluir**.
 
-   1. Clique em **Sim, Excluir** para confirmar que deseja excluir o relatório.
+   1. Clique em **Sim, exclua-o** para confirmar que deseja excluir o relatório.
 
 ## Criar uma nova versão de um relatório {#create-a-new-version-of-a-report}
 
@@ -94,11 +106,11 @@ Se quiser criar uma cópia de um relatório padrão, faça o seguinte:
 
 1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
 
-1. Clique em **Relatórios** e depois em **Todos os relatórios**.
+1. Clique em **Relatórios** e depois em **Todos os Relatórios**.
 1. Clique no nome de um relatório padrão para abri-lo.
 1. Clique em **Ações de Relatório** e depois em **Editar**.
 
-   ![Editar relatório](assets/nwe-reportactionsfordefaultreport-2022.png)
+   ![Editar relatório](assets/unshimmed-report-actions-default-report.png)
 
 1. Faça as modificações necessárias nas seguintes guias do relatório:
 
@@ -112,6 +124,6 @@ Se quiser criar uma cópia de um relatório padrão, faça o seguinte:
 1. Clique em **Concluído**.
 1. Clique em **Salvar como Novo Relatório**.
 
-   ![](assets/nwe-save-as-new-report-350x220.png)
+   ![](assets/unshimmed-save-as-new-report.png)
 
 1. (Opcional) Para compartilhar a nova versão do relatório com outros usuários, clique em **Ações de Relatório** e depois em **Compartilhamento**.

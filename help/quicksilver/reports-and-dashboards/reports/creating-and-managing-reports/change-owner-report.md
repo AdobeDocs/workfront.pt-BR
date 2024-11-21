@@ -6,7 +6,7 @@ description: Não é possível alterar o proprietário de um relatório. No enta
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Alterar o proprietário de um relatório
+
+<!-- Audited: 11/2024 -->
 
 Não é possível alterar o proprietário de um relatório. No entanto, ao copiar um relatório, você automaticamente se torna o proprietário do relatório copiado.
 
