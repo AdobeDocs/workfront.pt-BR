@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 0%
@@ -136,11 +136,11 @@ IF(
 
      <span class="preview">Você pode incluir uma URL estática na mensagem de erro, para vincular à documentação ou outras páginas úteis para orientar o usuário sobre como modificar sua ação dentro da restrição da regra.</span>
 
-     <span class="preview">Neste exemplo, &quot;Saiba mais&quot; será vinculado à URL. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` A URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir a URL completa e ela será um link clicável.</span>
+     <span class="preview">Neste exemplo, &quot;Saiba mais&quot; será vinculado à URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` A URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir a URL completa e ela será um link clicável.</span>
 
    ![Caixa de diálogo Adicionar regra de negócio](assets/add-business-rule-dialog-no-ai-button.png)
 
-   Este exemplo é uma regra de negócios para despesas. Se o mês atual for junho, os usuários não poderão criar novas despesas e a mensagem explica isso.
+   Este exemplo é uma regra de negócios para projetos. Se o mês atual for novembro, os usuários não poderão criar novos projetos e a mensagem explica isso.
 
    Para obter mais exemplos de regras de negócios, consulte [Cenários para regras de negócios](#scenarios-for-business-rules) neste artigo.
 
