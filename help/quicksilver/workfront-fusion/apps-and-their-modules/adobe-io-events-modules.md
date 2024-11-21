@@ -9,9 +9,9 @@ description: Com os módulos de Eventos de Adobe I/O, é possível iniciar um ce
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,25 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 Antes de usar o conector de Eventos Adobe I/O, você deve garantir que os seguintes pré-requisitos sejam atendidos:
 
 * Você deve ter uma conta Adobe ativa.
+
+## Informações da API de eventos Adobe I/O
+
+O conector de Eventos Adobe I/O usa o seguinte:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL base</td> 
+   <td>https://api.adobe.io/events</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag da API</td> 
+   <td>v1.6.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Criar uma conexão com Adobe I/O Events
 

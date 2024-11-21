@@ -9,9 +9,9 @@ description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode automati
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2768'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 ## Pré-requisitos
 
 Para usar o [!DNL Microsoft office 365 Excel], você deve ter uma conta da Microsoft.
+
+## Informações da API do Excel do Microsoft Office 365
+
+O conector do Microsoft Office 365 Excel usa o seguinte:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL base</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versão da API</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag da API</td> 
+   <td>v2.0.16</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 

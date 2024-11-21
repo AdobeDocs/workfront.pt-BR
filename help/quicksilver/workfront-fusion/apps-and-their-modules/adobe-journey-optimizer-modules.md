@@ -9,9 +9,9 @@ description: Em um cenário  [!DNL Adobe Workfront Fusion] , é possível automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3692'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,25 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 Antes de usar o conector [!DNL Adobe Journey Optimizer], verifique se os seguintes pré-requisitos foram atendidos:
 
 * Você deve ter uma conta [!DNL Adobe Journey Optimizer] ativa.
+
+## Informações da API do Adobe Journey Optimizer
+
+O conector do Adobe Journey Optimizer usa o seguinte:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL base</td> 
+   <td>{{connection.url}}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag da API</td> 
+   <td>v1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Criar uma conexão com o Adobe Journey Optimizer
 
@@ -1018,7 +1037,7 @@ Esse módulo de ação aciona uma mensagem unitária para os recipients especifi
    <td>Para cada destinatário que você deseja receber esta mensagem, clique em <b>Adicionar destinatário</b> e insira o seguinte:
    <ul>
    <li><p><b>Tipo</b></p>Selecione <code>aep</code>.</li>
-   <li><p><b>ID do Usuário</b></p>Insira ou mapeie o identificador de perfil do Adobe Experience Platform do recipient.</li>
+   <li><p><b>ID de usuário</b></p>Insira ou mapeie o identificador de perfil do Adobe Experience Platform do recipient.</li>
    <li><p><b>Namespace</b></p>Insira ou mapeie o namespace do perfil do Adobe Experience Platform do recipient.</li>
    <li><p><b>Endereço de email</b></p></li>
    <li><p><b>Número de celular</b></p></li>

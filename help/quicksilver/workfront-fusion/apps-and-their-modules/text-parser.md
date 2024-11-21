@@ -8,9 +8,9 @@ description: Você pode usar a ferramenta Analisador de texto para analisar o te
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informações da API do analisador de texto
+
+O conector do analisador de texto usa o seguinte:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag da API</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Módulos [!UICONTROL Analisador de texto] e seus campos
 
@@ -180,7 +195,7 @@ Uma discussão de expressões regulares está fora do escopo deste artigo. Recom
   </tr> 
   <tr> 
    <td>[!UICONTROL Linha Simples]</td> 
-   <td>Habilite essa opção para garantir que o ponto (.) corresponde a caracteres de nova linha (<code>\n</code>).</td> 
+   <td>Habilite esta opção para garantir que o ponto (.) corresponda aos caracteres de nova linha (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continuar a execução da rota mesmo se o módulo não retornar resultados]</td> 
@@ -223,7 +238,7 @@ Pesquisa no texto inserido um valor especificado ou uma expressão regular e sub
   </tr> 
   <tr> 
    <td>[!UICONTROL Linha Simples]</td> 
-   <td>Habilite essa opção para garantir que o ponto (.) corresponde a caracteres de nova linha (<code>\n</code>).</td> 
+   <td>Habilite esta opção para garantir que o ponto (.) corresponda aos caracteres de nova linha (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Texto] </td> 

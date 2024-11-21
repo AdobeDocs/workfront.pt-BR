@@ -9,9 +9,9 @@ description: Os  [!DNL Adobe Workfront Fusion Google Drive] módulos permitem qu
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2958'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informações da API do Google Drive
+
+O conector da unidade Google usa o seguinte:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL base</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versão da API</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag da API</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ Todos os exemplos nesta página mostram o parâmetro `<q>q</q>` não codificado,
   <pre>fullText contém '"olá mundo"'fullText contém '"olá_mundo"'</pre>
 * Procure arquivos com uma consulta que contenha o caractere &quot;\&quot; (por exemplo, &quot;\autores&quot;)
   <pre>fullText contém '\\autores'</pre>
-* Procurar arquivos graváveis pelo usuário &quot;test@example.org&quot;
+* Procurar arquivos graváveis pelo usuário `test@example.org`
   <pre>'test@example.org' em [!DNL writers]</pre>
 * Procure a ID `1234567` na coleção `parents`. Isso localiza todos os arquivos e pastas localizados diretamente na pasta cuja ID é `1234567`.
   <pre>'1234567' em [!UICONTROL pais]</pre>
 * Procure a ID de alias `appDataFolder` na coleção `parents`. Isso localiza todos os arquivos e pastas localizados diretamente na [pasta Dados de Aplicativos](https://developers.google.com/drive/api/v2/appdata).
   <pre>'appDataFolder' nos pais</pre>
-* Procurar arquivos graváveis pelos usuários &quot;test@example.org&quot; e &quot;test2@example.org&quot;
+* Procurar arquivos graváveis pelos usuários `test@example.org` e `test2@example.org`
   <pre>'test@example.org' em escritores e 'test2@example.org' em escritores</pre>
 * Procurar por arquivos contendo o texto &quot;importante&quot; que estejam na lixeira
   <pre>fullText contém 'important' e trash = true</pre>
