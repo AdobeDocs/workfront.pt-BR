@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Você pode definir sua semana de trabalho usando cronogramas e associar um cronograma a um usuário ou projeto. Isso permite que [!DNL Adobe Workfront] calcule linhas do tempo e a disponibilidade do usuário. Para obter instruções, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -68,23 +65,17 @@ Se uma tarefa for atribuída a um usuário associado a um agendamento e residir 
 
 A ordem em que as programações são usadas pelo sistema quando existe mais de uma é:
 
-<!--Replace the first bullet below with this when the setting releases: 
-* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
 
-   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+* Quando um usuário é atribuído a uma tarefa, os seguintes cenários existem, dependendo do ambiente usado:
 
-      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   * No ambiente de Produção, [!DNL Workfront] usa o cronograma do usuário para calcular a linha do tempo da tarefa. Isso também inclui o tempo pessoal do usuário. O cronograma do projeto é ignorado.
 
-   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+     Para obter mais informações sobre tempo pessoal, consulte [Configurar tempo pessoal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-      * <span class="preview">The schedule of the user who is assigned to the task </span>
-      * <span class="preview">The schedule associated with the project.</span>
+   * <span class="preview">No ambiente de Visualização, [!DNL Workfront] usa um dos seguintes agendamentos, conforme definido na área [!UICONTROL Preferências do Projeto] da [!UICONTROL Instalação]:</span>
 
--->
-
-* Quando um usuário é atribuído a uma tarefa, [!DNL Workfront] usa o cronograma do usuário para calcular a linha do tempo da tarefa. Isso também inclui o tempo pessoal do usuário. O cronograma do projeto é ignorado.
-
-  Para obter mais informações sobre tempo pessoal, consulte [Configurar tempo pessoal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+      * <span class="preview">O agendamento do usuário atribuído à tarefa </span>
+      * <span class="preview">A agenda associada ao projeto.</span>
 
 * Quando vários usuários são atribuídos a uma tarefa e os usuários têm agendamentos diferentes durante o período da tarefa, [!DNL Workfront] usa um dos seguintes agendamentos, conforme definido na área [!UICONTROL Preferências do Projeto] da [!UICONTROL Instalação]:
 
