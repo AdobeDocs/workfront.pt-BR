@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td>
 
 <tr>
-   <td role="rowheader"><p>Plano de planejamento do Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td>
    <td>
 <p>Qualquer </p>  
 <p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </td>
@@ -205,7 +205,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Qualquer pessoa com acesso de contribuição ou superior ao espaço de trabalho
    * Qualquer pessoa com o link
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >Quando você seleciona **Qualquer pessoa com o link**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas fora da sua organização que não tenham uma conta do Workfront.
 

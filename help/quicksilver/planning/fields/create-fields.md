@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Plano de planejamento do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
    <td> 
 <p>Qualquer </p> 
 <p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
@@ -206,6 +206,9 @@ OLD:
    Passe o mouse sobre o cabeçalho de qualquer coluna, clique na seta para baixo após o nome do campo e clique em **Inserir à esquerda** ou **Inserir à direita** para adicionar o novo campo.
 1. Na guia **Novo campo**, procure por um tipo de campo na caixa **Tipo de campo** ou selecione um dos seguintes tipos de campo:
 
+   Na guia **Novo campo**, procure por um tipo de campo na caixa <!--using any related keyword--> **Tipo de campo** ou selecione um dos tipos de campo listados abaixo.
+
+
    * [Texto de linha única](#single-line-text)
    * [Parágrafo](#paragraph)
    * [Seleção múltipla](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    Não é possível alterar o tipo Field do campo depois de salvá-lo.
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Continue adicionando cada campo, conforme descrito nas seções abaixo.
 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -276,7 +276,7 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 
    A página de aterrissagem do Workfront Planning é aberta.
 
-1. (Opcional e condicional) Se você for um administrador do Workfront, clique nas guias a seguir:
+1. (Opcional e condicional) Se você for um administrador do Workfront, clique em uma das seguintes guias:
 
    * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou.
    * **Outros espaços de trabalho**: exibe todos os espaços de trabalho no Workfront Planning, incluindo aqueles compartilhados com você.
@@ -291,8 +291,8 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 >
 >Para acessar o Workfront Planning, é necessário ter o seguinte:
 >
->* Um novo plano e licença do Workfront. O Workfront Planning não está disponível para planos ou licenças herdadas do Workfront.
->* Uma licença adicional para o Workfront Planning.
+>* Um novo pacote e licença do Workfront. O Workfront Planning não está disponível para pacotes ou licenças herdadas do Workfront.
+>* Um pacote do Workfront Planning.
 >* A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience.
 >
 > Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).

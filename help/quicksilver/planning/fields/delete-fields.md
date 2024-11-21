@@ -6,7 +6,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 1%
@@ -72,7 +72,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Plano de planejamento do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
    <td> 
 <p>Qualquer </p> 
 <p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 

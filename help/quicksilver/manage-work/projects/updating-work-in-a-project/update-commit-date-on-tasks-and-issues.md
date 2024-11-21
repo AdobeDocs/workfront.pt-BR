@@ -6,9 +6,9 @@ description: Você pode atualizar manualmente a data de confirmação de uma tar
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,9 @@ Você pode atualizar manualmente a data de confirmação de uma tarefa ou proble
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões na tarefa ou problema</p> </td> 
+   <td> <p>Gerenciar permissões na tarefa ou problema</p>
+   <p> Você deve estar atribuído à tarefa ou problema para atualizar a data de confirmação </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

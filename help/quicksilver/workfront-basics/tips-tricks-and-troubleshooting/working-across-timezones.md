@@ -5,9 +5,9 @@ title: Trabalhar em fusos horários
 description: Pode ser útil entender como o  [!DNL Adobe Workfront] usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # Trabalhar em fusos horários
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Pode ser útil entender como o [!DNL Adobe Workfront] usa fusos horários para calcular o seguinte:
 
@@ -91,20 +98,37 @@ Os administradores do [!DNL Workfront] criam cronogramas separados para cada fus
 
   Este cronograma pode ser diferente de um cronograma de projeto. Por exemplo, quando alguém cria uma tarefa no projeto e ainda não atribuiu ninguém a ela, a tarefa usa o cronograma do projeto. Quando um usuário é atribuído à tarefa, ela usa o agendamento desse usuário.
 
-  Se vários usuários forem atribuídos a uma tarefa, o sistema usará um dos seguintes, conforme configurado nas preferências do projeto do sistema geral:
+  Se vários usuários forem atribuídos a uma tarefa, o sistema usará um dos seguintes, conforme configurado nas preferências do projeto do sistema ou do grupo:
 
    * O fuso horário do agendamento do proprietário principal da tarefa
    * O fuso horário para o agendamento do projeto.
 
-  Isso pode fazer com que as datas das tarefas mudem.
+<!--
+   <div class="preview">
 
-  **Exemplo:** um usuário EST é atribuído a uma tarefa de um dia agendada para iniciar às 9h00 PST, que é meio-dia EST. Como o usuário EST tem apenas 2 horas de trabalho restantes para o dia, a data de conclusão da tarefa se estende por cerca de 6 horas no próximo dia útil.
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  Para obter informações sobre a área [!UICONTROL Preferências do Projeto] da [!UICONTROL Instalação], consulte [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  Para obter instruções sobre como atribuir uma agenda a um projeto ou usuário, consulte [Criar uma agenda](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   </div>
+-->
 
-  Para obter informações sobre como o fuso horário configurado em seu agendamento afeta a distribuição de [!UICONTROL Horas planejadas] no [!UICONTROL Balanceador de carga de trabalho], consulte [Gerenciar alocações de usuários no [!UICONTROL Balanceador de carga de trabalho]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Isso pode fazer com que as datas das tarefas mudem.
+
+>[!BEGINSHADEBOX]
+
+**EXEMPLO:**
+Um usuário EST é atribuído a uma tarefa de um dia agendada para iniciar às 9h00 PST, que é meio-dia EST. Como o usuário EST tem apenas 2 horas de trabalho restantes para o dia, a data de conclusão da tarefa se estende por cerca de 6 horas no próximo dia útil.
+
+
+>[!ENDSHADEBOX]
+
+Para obter informações sobre a área [!UICONTROL Preferências do Projeto] da [!UICONTROL Instalação], consulte [Configurar preferências de projeto do sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+Para obter instruções sobre como atribuir uma agenda a um projeto ou usuário, consulte [Criar uma agenda](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+Para obter informações sobre como o fuso horário configurado em seu agendamento afeta a distribuição de [!UICONTROL Horas planejadas] no [!UICONTROL Balanceador de carga de trabalho], consulte [Gerenciar alocações de usuários no [!UICONTROL Balanceador de carga de trabalho]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Usar campos de tempo calculado em um formulário personalizado {#use-calculated-time-fields-in-a-custom-form}
