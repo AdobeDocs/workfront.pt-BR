@@ -9,7 +9,7 @@ description: Em um cenário  [!DNL Adobe Workfront Fusion] , você pode conectar
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
+   <p>Requisito atual do produto: se você tiver o plano [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], sua organização deve comprar [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
@@ -375,7 +375,7 @@ Marca um email ou rascunho em uma pasta selecionada como lido ao definir o sinal
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID DE E-MAIL (UID)]</p> </td> 
-   <td> <p>Insira a UID de e-mail do e-mail que deseja marcar como lido.</p> <p>É possível obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
+   <td> <p>Insira o UID de email do email que você deseja marcar como lido.</p> <p>Você pode obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -398,7 +398,7 @@ Marca um email ou rascunho em uma pasta selecionada como não lido ao configurar
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID DE E-MAIL (UID)]</p> </td> 
-   <td> <p>Insira a UID de e-mail do e-mail que você deseja marcar como não lido.</p> <p>É possível obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
+   <td> <p>Insira o UID de email do email que você deseja marcar como não lido.</p> <p>Você pode obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -425,7 +425,7 @@ Move um email ou rascunho escolhido para uma pasta selecionada.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID DE E-MAIL (UID)]</p> </td> 
-   <td> <p>Insira a UID de email do email que você deseja mover para a pasta de destino.</p> <p>É possível obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
+   <td> <p>Insira o UID de email do email que você deseja mover para a pasta de destino.</p> <p>Você pode obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,7 +452,7 @@ Copia um email ou um rascunho para uma pasta selecionada.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID DE E-MAIL (UID)]</p> </td> 
-   <td> <p>Insira a UID de email do email que você deseja copiar para a pasta de destino.</p> <p>É possível obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
+   <td> <p>Insira o UID de email do email que deseja copiar para a pasta de destino.</p> <p>Você pode obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,7 +475,7 @@ Remove um email ou um rascunho da pasta selecionada.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID DE E-MAIL (UID)]</p> </td> 
-   <td> <p>Insira a UID de e-mail do e-mail que deseja excluir.</p> <p>É possível obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
+   <td> <p>Insira o UID de email do email que deseja excluir.</p> <p>Você pode obter a UID do email usando o módulo [!UICONTROL Email] &gt;[!UICONTROL Assistir Email] ou o módulo [!UICONTROL Pesquisar Email].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Eliminar]</td> 
