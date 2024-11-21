@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 0%
 Esta página descreve as melhorias feitas com a versão do Primeiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2025, consulte [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Atualização sobre como os ativos movidos ou excluídos em pastas vinculadas são gerenciados
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 21 de novembro de 2024; Versão de produção para todos os clientes: 5 de dezembro de 2024
+
+Alteramos a maneira como os ativos movidos e excluídos são tratados ao usar a integração do Adobe Workfront com o Experience Manager Assets e o Assets Essentials:
+
+* Ativos excluídos: quando um ativo é excluído dentro de uma pasta vinculada no Assets ou Assets Essentials, o ativo excluído é retido na área Documentos do projeto.
+* Ativos movidos: quando um ativo é movido para fora de uma pasta vinculada no Assets ou no Assets Essentials, o ativo movido é retido na área Documentos do projeto.
 
 ## As seções em um formulário personalizado agora podem ser recolhidas e expandidas
 

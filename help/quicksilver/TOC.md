@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
+source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
 workflow-type: tm+mt
-source-wordcount: '14597'
+source-wordcount: '14607'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
          * [Aprimoramentos no gerenciamento de documentos do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
          * [Melhorias na Página inicial do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
          * [Aprimoramentos de provas do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
+         * [Aprimoramentos no painel e no relatório do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
          * [Outras melhorias durante o período da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Atualizações da aparência durante o período de lançamento do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Versão do quarto trimestre de 2024 {#release-24-q4}
@@ -1768,7 +1769,7 @@ ht-degree: 2%
       * [Visualização da Atividade por equipe na Análise aprimorada](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Visão geral da Conexão de dados do Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [Criar uma conta de leitor](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Criar uma conta ou conexão de leitor para o Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Estabelecer uma conexão com o Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Dicionário de dados da Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Exemplos de consulta da Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)

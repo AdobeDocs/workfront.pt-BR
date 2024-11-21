@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,6 +33,29 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning após a versão de disponibilidade geral em 28 de agosto de 2024, consulte [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Assistente de IA de Adobe disponível nas áreas de detalhes de registro
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 21 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Para facilitar a realização do trabalho, adicionamos o Assistente de IA de Adobe à visualização dos detalhes de um registro ou à página do registro. Você pode usar o Assistente de IA dentro de uma página de registro para atualizar informações sobre o registro.
+
+Para obter informações, consulte [visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+## Nova experiência ao adicionar uma miniatura e uma imagem de capa a uma página de registro
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 20 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Ao abrir uma visualização ou página de registro e o registro não tiver uma miniatura ou uma imagem de capa, passe o mouse sobre a área acima do nome do registro no cabeçalho para ver as opções de adição de uma capa e uma imagem de miniatura ao registro. Antes dessa melhoria, as imagens vazias de espaço reservado para a miniatura e a capa são exibidas acima do nome do registro.
+
+Para obter mais informações, consulte os seguintes artigos:
+
+* [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Adicionar uma imagem em miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Novos tipos de exibição para campos do tipo porcentagem na exibição de tabela
 

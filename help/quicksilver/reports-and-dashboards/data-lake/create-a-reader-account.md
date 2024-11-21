@@ -2,21 +2,23 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Criar uma conta de leitor (serviço) para o Snowflake
+title: Criar uma conta de leitor para o Snowflake
 description: Para acessar os dados do Data Connect, primeiro você deve criar uma conta de leitor de Snowflake.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
 
-# Criar uma conta de leitor (serviço) para o Snowflake
+# Criar uma conta ou conexão de leitor para o Snowflake
 
-Para acessar os dados do Data Connect, você deve primeiro criar uma conta de leitor de Snowflake (ou serviço) para cada nova conexão. Depois de criar uma conexão, você pode encontrar sua URL e nome de usuário associados clicando nela na página **Acesso aos dados** (**Menu principal** > **Configuração** > **Sistema** > **Acesso aos dados**) na guia **Conexões Existentes**.
+Para acessar os dados do Data Connect, primeiro você deve criar uma conta de leitor de Snowflake (ou serviço) para sua organização e, em seguida, criar uma nova conexão para cada usuário ou ferramenta que você deseja que tenha acesso ao Data Connect.
+
+Depois de criar uma conexão, você pode encontrar sua URL e nome de usuário associados clicando nela na página **Conexão de Dados** (**Menu principal** > **Configuração** > **Sistema** > **Conexão de Dados**) na guia **Conexões Existentes**.
 
 Para obter informações sobre como usar uma conexão recém-criada com um produto externo, consulte [Estabelecer uma conexão com o Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
@@ -61,15 +63,35 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar uma conta de leitor
 
+Você deve criar uma nova conta do Snowflake Reader para sua organização antes de começar a criar conexões.
+
+>[!IMPORTANT]
+>
+>Esse processo deve ser concluído apenas uma vez por organização. Se o botão **Criar Conta Reader** não estiver presente no local descrito abaixo, sua conta de leitor já foi criada.
+
+Para criar uma conta de leitor:
+
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação**.
 
-1. No painel esquerdo, clique em **Sistema** > **Acesso a Dados**.
+1. No painel esquerdo, clique em **Sistema** > **Conexão de Dados**.
+
+1. Clique no botão **Criar Conta Reader** para começar a criar a conta de leitor de sua organização. O processo é automático, mas pode levar alguns minutos para ser concluído.
+
+1. Uma vez concluída, uma janela de caixa de diálogo será exibida explicando que sua conta de leitor está ativa agora. Atualize a página do navegador para obter acesso ao botão **Criar nova conexão**.
+
+![caixa de diálogo da conta de Reader criada](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+
+## Criar uma conexão
+
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação**.
+
+1. No painel esquerdo, clique em **Sistema** > **Conexão de Dados**.
 
 1. Clique em **Criar nova conexão**
 
 1. Na janela exibida, digite um nome para sua conexão em **Descrição da referência da conexão** e um nome de usuário em **Usuário da conexão** e clique em **Gerar conexão**.
 
-   ![Criar conta de leitor](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+   ![Criar nova conexão](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
 1. Uma **Senha padrão** será gerada, bem como uma URL na qual seus dados possam ser visualizados por meio do Snowflake. Você precisará usar a senha em conjunto com o nome de usuário que você escolheu para entrar no Snowflake pela primeira vez, para garantir que você mantenha um registro dela, bem como o URL. Marque a caixa alegando que você fez isso e clique em **Fechar**.
 
