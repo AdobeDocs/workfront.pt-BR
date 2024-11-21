@@ -5,13 +5,13 @@ title: Gerencie seu trabalho com o widget Meu trabalho
 description: O widget Meu trabalho exibe todas as tarefas, problemas e solicitações atribuídas a você em um único local. Aqui, você pode filtrar e organizar seu trabalho, registrar horas, fazer atualizações e marcar itens de trabalho como concluídos.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
 
 ---
-
 
 # Gerencie seu trabalho com o widget Meu trabalho
 
@@ -157,7 +157,7 @@ Você pode abrir o painel Resumo para atualizar rapidamente as informações em 
 * Adicionar uma atualização
 * Navegue até a área Documento para fazer upload de um documento
 * Exibir detalhes do item de trabalho e atualizar campos personalizados
-Os administradores do Workfront podem personalizar quais campos aparecem no Resumo no modelo de layout. Para obter mais informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Os administradores do Workfront podem personalizar quais campos aparecem no Resumo no modelo de layout. Para obter mais informações, consulte [Personalizar o painel Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Alterar o status do item de trabalho
 * Exibir subtarefas
 * Registrar de tempo
@@ -190,7 +190,3 @@ Aprovações e solicitações de equipe não são exibidas no widget Meu trabalh
 * Solicitações de equipe
 
 Para obter informações sobre como adicionar widgets à Nova Página Inicial, consulte [Adicionar, editar ou remover widgets na Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
-
-
-

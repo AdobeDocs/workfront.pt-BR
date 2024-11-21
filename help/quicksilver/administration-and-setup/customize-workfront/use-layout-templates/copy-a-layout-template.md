@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
    * [Personalizar o painel esquerdo usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [Personalizar páginas fixadas usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Personalizar Início e Resumo usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Personalizar o painel Resumo usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Personalizar a página de aterrissagem usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personalizar a terminologia da interface de usuário usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
