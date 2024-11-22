@@ -6,14 +6,14 @@ description: É possível baixar documentos do Adobe Workfront individualmente o
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Baixar Documentos
+# Baixar documentos
 
 É possível baixar documentos do Adobe Workfront individualmente ou em massa. Os documentos podem ser baixados de qualquer área que contenha documentos no Workfront. 
 

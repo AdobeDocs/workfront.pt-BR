@@ -5,9 +5,9 @@ description: 'As notificações no aplicativo mantêm você informado sobre dois
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ O ícone numerado no canto superior direito de [!DNL Workfront] exibe o número 
 
    ![Notificações não lidas recentes](assets/qs-notifications-350x330.png)
 
-   Até 80 notificações são exibidas em uma lista rolável. Para ver mais, você pode clicar em **[!UICONTROL Todas as notificações]** na parte inferior da lista para exibir até 100 notificações. As notificações são excluídas automaticamente após 30 dias.
+   O ícone de número exibe uma lista rolável com até 80 notificações. Para ver mais, você pode clicar em **[!UICONTROL Todas as notificações]** na parte inferior da lista para exibir até 500 notificações. As notificações são excluídas automaticamente após 30 dias.
 
    Na parte inferior de cada notificação, o [!UICONTROL tipo de notificação] e um ícone de identificação correspondente são exibidos. Isso o ajudará a identificar o que aconteceu com o item [!DNL Workfront] mencionado e alertá-lo se você tiver um item de ação:
 

@@ -4,9 +4,10 @@ description: Melhorias na página inicial do quarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -63,12 +64,18 @@ Com essa alteração, as seguintes áreas serão afetadas:
 
 * A área _Espaço de trabalho da página inicial_ será renomeada para _Página inicial_.
 * A área _Página Inicial e Resumo_ será renomeada para _Painel de Resumo_. As personalizações nesta área ainda se aplicarão ao painel Resumo na nova Página inicial. Para obter mais informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Removeremos as seguintes guias do painel Início e Resumo:
+   * Projetos
+   * Documentos
+   * Versões do documento
+
+Nota: O documento e suas versões são aplicados somente à página inicial herdada. Eles não permitiram personalizar o Resumo na área Documentos.
 
 **Gerenciar aprovações**
 
 * Não será mais possível retroceder, lembrar ou remover usuários de aprovações enviadas na área Página inicial. Em vez disso, você pode gerenciá-lo na própria aprovação.
 
-Os usuários são incentivados a começar a usar a nova Página inicial, que continuará a ser aprimorada com recursos adicionais antes da desativação. Para obter mais informações sobre a transição, incluindo recomendações sobre o que usuários e administradores podem fazer para se preparar, consulte [Guia de descontinuação da Página inicial herdada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Os usuários são incentivados a começar a usar a nova Página inicial, que continuará a ser aprimorada com recursos adicionais antes da desativação.
 
 >[!NOTE]
 >

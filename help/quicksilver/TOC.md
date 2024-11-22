@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
+source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
 workflow-type: tm+mt
 source-wordcount: '14611'
 ht-degree: 2%
@@ -432,7 +432,6 @@ ht-degree: 2%
       * [Anúncios](product-announcements/announcements/announcements.md)
       * [A programação de recursos não é mais suportada](product-announcements/announcements/feature-removal-timeline.md)
       * [Guia de desativação do Analytics aprimorado](product-announcements/announcements/enhanced-analytics-deprecation.md)
-      * [Guia de descontinuação do Legacy Home](product-announcements/announcements/legacy-home-deprecation.md)
       * [Perguntas frequentes sobre a Janela de manutenção](product-announcements/announcements/maintenance-window-faq.md)
       * [Alteração necessária para adicionar provas ao seu arquivo de inclui na lista de permissões](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Cancelar inscrição nas mensagens do Centro de notificações na nova experiência do Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -1163,6 +1162,7 @@ ht-degree: 2%
       * [Verificar limites de armazenamento de documentos](documents/managing-documents/check-document-storage.md)
       * [Delete Documents](documents/managing-documents/delete-documents.md)
       * [Colar imagens da área de transferência](documents/managing-documents/paste-image-clipboard.md)
+      * [Editar documentos em massa](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [AddBuilder nos detalhes do documento do Workfront](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Organizar documentos {#organize-documents}
       * [Organizar documentos](documents/organizing-documents/organize-documents.md)

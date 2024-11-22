@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
+source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -561,7 +561,7 @@ A seguinte funcionalidade será removida do Workfront em breve:
 
 #### Substituição da experiência inicial herdada com o 24.10
 
-Descontinuaremos oficialmente a experiência herdada do Início com a versão 24.10. Os usuários são incentivados a começar a usar a nova Página inicial, que continuará a ser aprimorada com recursos adicionais antes da desativação. Para obter mais informações sobre a transição, incluindo recomendações sobre o que usuários e administradores podem fazer para se preparar, consulte [Guia de descontinuação da Página inicial herdada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Descontinuaremos oficialmente a experiência herdada do Início com a versão 24.10. Os usuários são incentivados a começar a usar a nova Página inicial, que continuará a ser aprimorada com recursos adicionais antes da desativação.
 
 ## Anúncios
 
