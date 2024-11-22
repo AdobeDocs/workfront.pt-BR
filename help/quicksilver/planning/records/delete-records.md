@@ -1,14 +1,14 @@
 ---
 title: Excluir Registros
-description: É possível excluir registros criados por você ou por outro usuário. Não é possível recuperar registros excluídos.
+description: É possível excluir registros criados por você ou por outro usuário.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '764'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 2%
 
 # Excluir registros
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
-Você pode excluir registros que não são mais relevantes no Adobe Workfront Planning.
+Você pode excluir registros que não são mais relevantes no Adobe Workfront Planning. <span class="preview">Você pode recuperar registros excluídos por 30 dias após sua exclusão. Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
 
 ## Requisitos de acesso
 
@@ -156,10 +162,9 @@ OLD
 ## Considerações sobre a exclusão de registros
 
 * É possível excluir registros criados por você ou por outro usuário.
-* Não é possível recuperar registros excluídos. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* Não é possível recuperar registros excluídos no ambiente de Produção. <span class="preview">Você pode recuperar registros excluídos no ambiente de Visualização.</span>
 * Se os registros excluídos estiverem vinculados a outros registros, os registros vinculados não serão excluídos, mas as informações do registro excluído também serão excluídas.
-* Não é possível excluir registros em massa. <!--this will probably change-->
-* Não é possível excluir registros da exibição de linha do tempo.
+* Não é possível excluir registros da linha do tempo ou das exibições do calendário.
 
 ## Excluir registros
 
@@ -192,7 +197,10 @@ OLD
 1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do registro e clique novamente em **Excluir** e **Excluir** para confirmar.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-O registro é excluído e não pode ser recuperado.
+O registro é excluído.
+1. (Opcional e condicional) Se você excluir o registro no ambiente de Visualização, vá para a exibição de tabela da página de registro e clique no ícone **Desfazer** ![](assets/undo-icon.png) no canto superior direito da exibição e, em seguida, clique em **Excluído recentemente** para recuperar os registros excluídos.
+
+Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ### Excluir um registro da exibição de tabela do tipo de registro
 
@@ -211,15 +219,22 @@ O registro é excluído e não pode ser recuperado.
 1. Siga um destes procedimentos:
 
    * Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
-   * Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do registro e em **Excluir**
+   * Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do registro e em **Excluir**.
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * Clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** para abrir a caixa com as informações detalhadas do registro e clique em **Mais** ![](assets/more-menu.png) à direita do nome do registro e em **Excluir**.
 
-   O registro é excluído e não pode ser recuperado.
+   O registro é excluído.
 
-1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a exclusão de um registro:
+1. (Opcional) Siga um destes procedimentos para desfazer ou refazer a exclusão de um registro:
 
-   * CTRL + Z (⌘ + Z para Mac) para desfazer uma alteração
-   * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer uma alteração
+   * <span class="preview">Clique no ícone ![](assets/undo-icon.png) de **Desfazer** e em **Excluído recentemente** para recuperar os registros excluídos. Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Use os atalhos de teclado a seguir para desfazer ou refazer a exclusão de um registro:
+
+      * CTRL + Z (⌘ + Z para Mac) para desfazer a exclusão de um registro
+      * CTRL + Shift + Z (⌘ + Shift + Z para o Mac) para refazer a exclusão do registro
+
+
+
+

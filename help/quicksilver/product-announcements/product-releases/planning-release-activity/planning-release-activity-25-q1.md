@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning após a versão de disponibilidade geral em 28 de agosto de 2024, consulte [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Restaurar registros excluídos
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 22 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Após a exclusão dos registros, eles agora são movidos temporariamente para um compartimento Excluído recentemente por 30 dias. Você pode acessar o compartimento Recentemente excluído na página do tipo de registro e ele contém apenas registros de um tipo específico.
+
+Os gerentes do Workspace podem restaurar registros do lixo por até 30 dias após a exclusão. Os registros conectados e suas informações de campo também são restaurados.
+
+Antes desse aprimoramento, não era possível restaurar os registros excluídos.
+
+Para obter mais informações, consulte [Restaurar registros excluídos](/help/quicksilver/planning/records/records-information.md).
 
 ## Assistente de IA de Adobe disponível nas áreas de detalhes de registro
 

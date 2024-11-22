@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,13 @@ O Tipo de Duração de uma tarefa identifica a relação entre o número de recu
 
 Se o Início Efetivo e as Datas de Término Efetivo da tarefa estiverem fora do cronograma do projeto, do responsável principal ou do Cronograma Padrão, a Duração da tarefa será zero.
 
-**Exemplo:** Se você tiver uma agenda que começa às 9h e termina às 12h e uma tarefa que está agendada para iniciar às 14h e terminar às 16h, a Duração da tarefa será zero.
+>[!BEGINSHADEBOX]
+
+**EXEMPLO**
+Se você tiver uma programação que comece às 9h e termine às 12h e uma tarefa que esteja programada para iniciar às 14h e terminar às 16h, a Duração da tarefa será zero.
+
+
+>[!ENDSHADEBOX]
 
 Veja a seguir dois cenários que existem ao calcular a duração no Adobe Workfront:
 
@@ -70,6 +76,14 @@ Veja a seguir dois cenários que existem ao calcular a duração no Adobe Workfr
 >[!NOTE]
 >
 >Ao considerar o tempo de folga do responsável principal em um projeto, as datas planejadas da tarefa podem ser ajustadas, mas a Duração da tarefa permanece a mesma. Para obter informações sobre como considerar o tempo de folga do Atribuído principal ao planejar um projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+## A duração original de uma tarefa pai
+
+A duração original de uma tarefa é a duração que uma tarefa tinha originalmente antes de se tornar uma tarefa pai, em minutos.
+
+Quando uma tarefa se torna pai, a Duração entre a Data Inicial Planejada do filho mais antigo e a Data de Conclusão Planejada do último filho é totalizada para a tarefa pai e se torna a Duração da tarefa pai. Isso substitui a Duração da tarefa original.
+
+Para obter mais informações, consulte [Visão geral da duração original da tarefa e das horas planejadas originais](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Unidades de tempo para a Duração da Tarefa
 
