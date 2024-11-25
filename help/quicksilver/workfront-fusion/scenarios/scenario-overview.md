@@ -8,9 +8,9 @@ description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 27158301e491d4ff45ce7987a81f841fb4525b2a
+source-git-commit: f8ea4a1c40cd3fc4664a5a3b1c3a900e874d78b1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,48 @@ ht-degree: 0%
 O papel de [!DNL Adobe Workfront Fusion] é automatizar seus processos para que você possa se concentrar em novas tarefas em vez de repetir as mesmas tarefas repetidamente. Ele funciona vinculando ações em e entre aplicativos e serviços para criar um cenário que transfere e transforma seus dados automaticamente. O cenário que você cria observa dados em um aplicativo ou serviço e processa esses dados para fornecer o resultado desejado.
 
 Um cenário é composto de uma série de módulos que indicam como os dados devem ser transformados em um aplicativo ou transferidos entre aplicativos e serviços da Web.
+
+## Visão geral dos elementos do cenário
+
+Um cenário é criado com elementos diferentes. Entender a terminologia desses elementos facilita o uso da documentação.
+
+### Cenário
+
+Um **cenário** é uma série de etapas automatizadas criadas pelo usuário, criadas para mover e manipular dados. O termo &quot;cenário&quot; se refere a todo o grupo de etapas conectadas.
+
+![Cenário](assets/entire-scenario-scenario.png)
+
+### Acionador
+
+Um cenário começa com um **acionador**. O acionador observa dados novos e atualizados e inicia o cenário quando determinadas condições configuradas no módulo são aplicadas. Os acionadores podem ser configurados para iniciar um cenário em um agendamento (pesquisa) ou sempre que ocorrerem alterações de dados (instantâneo).
+
+![Acionador](assets/scenario-trigger.png)
+
+### Módulo
+
+O acionador é seguido por um número de **módulos**. Um módulo representa uma única etapa em um cenário que executa uma ação específica. Os módulos são configurados e encadeados para criar cenários.
+
+![Módulo](assets/scenario-module.png)
+
+### Rota
+
+Um cenário pode ser dividido em **rotas**. Uma rota é uma seção do cenário que pode ou não ser usada para um determinado pacote de dados. As rotas são configuradas usando um módulo de roteador e filtros.
+
+![Rota](assets/scenario-route.png)
+
+### Segmento de cenário
+
+Um segmento de cenário é uma seção de um cenário que consiste em uma série de módulos contíguos que se conectam ao mesmo aplicativo. Os segmentos de cenário geralmente representam um fluxo de trabalho curto no aplicativo.
+
+![Segmento do cenário](assets/scenario-segment.png)
+
+### Conector
+
+Um conector é o conjunto de módulos de um determinado aplicativo. O Workfront Fusion oferece conectores para muitos aplicativos de trabalho comuns, como Workfront, Salesforce e Jira, bem como conectores genéricos que podem ser usados para qualquer serviço da Web.
+
+![Conectores](assets/scenario-connectors.png)
+
+
 
 ## Exemplo: automatizando processos em [!DNL Adobe Workfront]
 
