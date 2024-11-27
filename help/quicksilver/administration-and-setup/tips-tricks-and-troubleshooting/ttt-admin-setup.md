@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: 806a4c4835e47da4fbbdb28ec0c35c990f70239e
+source-git-commit: f66b219e9fd203f108844ad397bcfa848b8f1134
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -43,4 +43,4 @@ Esta seção contém os seguintes artigos:
 * [Salvar um arquivo de cabeçalho de email](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [O compartilhamento mostra mais de uma permissão](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [Email não autenticado não aceito devido à política DMARC do domínio](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-* [Workfront: configurações de ZScalar podem causar redução no desempenho](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+* [Workfront: as configurações do ZScaler podem causar redução no desempenho](../../administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
