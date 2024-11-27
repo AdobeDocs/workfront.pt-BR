@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 2%
 
 ---
@@ -145,14 +145,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >* Campos dos seguintes tipos não são exibidos no formulário de solicitação <span class="preview"> nos ambientes de Pré-visualização </span> ou Produção:
    >
-   >    * Pessoas (inclui Criado por e Modificado pela última vez por)
+   >    * Criado por e Modificado pela última vez por
    >    * Fórmula
-   >    * Data de criação
-   >    * Data da última modificação
-   >    * Campos conectados ou campos de pesquisa de objetos do Workfront
-   >    * Campos de pesquisa conectados de registros do Workfront Planning
+   >    * Data de criação e data da última modificação
+   >    * Campos de pesquisa de objetos do Workfront
+   >    * Campos de pesquisa de registros conectados do Workfront Planning
+   >    * Campos conectados do AEM Assets
    >* Os campos dos seguintes tipos não são exibidos no formulário de solicitação no ambiente de Produção. <span class="preview">Eles são exibidos no ambiente de Visualização:</span>
    >    * <span class="preview"> campos conectados de registros do Workfront Planning</span>
+   >    * <span class="preview">Pessoas </span>
+   >    * <span class="preview">Campos conectados de objetos do Workfront</span>
+   >    * <span class="preview">Campos conectados do AEM Assets </span>
+
 
 
    * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.
@@ -208,7 +212,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >[!WARNING]
    >
    >
-   >Quando você seleciona **Qualquer pessoa com o link**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas fora da sua organização que não tenham uma conta do Workfront.
+   >* Quando você seleciona **Qualquer pessoa com o link**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas fora da sua organização que não tenham uma conta do Workfront.
+   >
+   > * <span class="preview">Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:</span>
+   >
+   >     * <span class="preview">Fórmula</span>
+   >     * <span class="preview">Conexões do Workfront ou AEM Assets</span>
+   >     * <span class="preview">Campos de pesquisa</span>
+   >     * <span class="preview">Pessoas</span>
+   >
 
 1. (Condicional) Se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível. As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link antes que elas possam acessar o formulário novamente.
 

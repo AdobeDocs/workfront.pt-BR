@@ -6,16 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
+
 
 # Enviar solicitações do Adobe Workfront Planning para criar registros
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,17 +117,21 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 * O formulário de solicitação deve ser compartilhado com um link para que você possa acessá-lo. Existem os seguintes cenários:
 
-   * Se você tiver uma conta do Workfront, o link foi compartilhado somente com pessoas internas e você tem acesso ao espaço de trabalho. Pessoas fora do Workfront não podem acessar um link compartilhado internamente.
+   * Se você tiver uma conta do Workfront, o link foi compartilhado somente com pessoas internas e você tem acesso de contribuir ou superior ao espaço de trabalho. Pessoas fora do Workfront não podem acessar um link compartilhado internamente.
    * Se você não tiver uma conta do Workfront, o link foi compartilhado com pessoas externas. Os usuários do Workfront também podem acessar um link compartilhado com pessoas externas.
 
 * O link para o formulário não deve estar expirado.
 
 ## Considerações sobre o envio de solicitações ao Workfront Planning
 
-* Não é possível acessar os formulários de solicitação para solicitações do Workfront Planning sem um link específico para os formulários.
+* É possível acessar um formulário de solicitação para solicitações do Workfront Planning somente a partir de um link específico para o formulário.
 * Não é possível editar uma solicitação depois de enviá-la para o Workfront Planning.
-* Cada solicitação enviada cria um registro para o tipo de registro associado ao formulário que você usa.
+* Cada solicitação enviada cria um registro para o tipo de registro associado ao formulário usado <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->
 * Os registros criados enviando formulários de solicitação não podem ser diferenciados dos registros adicionados por qualquer outro método. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+* <span class="preview">As solicitações enviadas são exibidas na guia Planejamento da seção Enviadas na área Solicitações do Workfront </span>.
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## Enviar uma solicitação ao Workfront Planning
 
@@ -132,8 +141,35 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
    >[!TIP]
    >
-   >   Se o campo **Assunto** do Workfront estiver disponível, talvez ele não esteja visível no Workfront Planning. Recomendamos que você atualize o máximo de campos em sua solicitação possível para tornar o novo registro identificável quando ele for adicionado ao tipo de registro.
+   >   Se o campo **Assunto** estiver disponível, ele não estará visível no Workfront Planning após o envio da solicitação.
+   >
+   >Recomendamos que você atualize o máximo possível de campos em sua solicitação para tornar o novo registro identificável quando ele for adicionado ao tipo de registro no Workfront Planning.
 
 1. Clique em **Enviar**.
 
-   O formulário é enviado e um novo registro é adicionado ao tipo de registro associado ao formulário.
+   Seu formulário é enviado e os seguintes itens ocorrem:
+
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->Um novo registro é adicionado ao tipo de registro associado ao formulário.
+
+
+   * <!--If the request form was not associated with an approval, the--> <span class="preview"> A solicitação é adicionada à seção Enviado da área Solicitações do Workfront e um novo registro é adicionado à página de tipo de registro.</span>
+
+     ![](assets/planning-tab-in-requests.png)
+
+     >[!IMPORTANT]
+     >
+     ><span class="preview">Todos os usuários com acesso a pelo menos um espaço de trabalho podem exibir a guia Planejamento na área Solicitações. Você pode exibir somente as solicitações enviadas. Os administradores do Workfront podem exibir todas as solicitações no sistema. </span> <!--ensure this is correct; asking team in slack-->
+
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   -->
+
+
+

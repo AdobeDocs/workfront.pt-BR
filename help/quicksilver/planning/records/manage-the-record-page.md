@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # Gerenciar o layout da página de registros
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ As seguintes situações ocorrem:
    A nova posição do campo é atualizada na pré-visualização e na página de todos os registros do mesmo tipo para todos os usuários que visualizam os registros.
 
    Todas as alterações no layout da visualização do registro ou na página são salvas automaticamente.
+
+<span class="preview">
+
+## Adicionar uma página de exibição conectada à página de um registro
+
+Você pode adicionar uma página de exibição conectada à página de um registro.
+
+Não é possível adicionar uma página de exibição conectada à área de visualização de um registro.
+
+As páginas de exibição conectadas exibem uma página de registro conectada na exibição de tabela. A exibição de tabela é somente leitura.
+
+É possível adicionar uma página de Exibição conectada para cada tipo de registro conectado.  <!--edit this when we can remove fields from this page-->
+
+Para adicionar uma página de exibição conectada:
+
+1. Em uma exibição de página de registro, clique no nome de um registro para abri-lo e, em seguida, clique no ícone Abrir em nova guia ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da página de visualização.
+1. Clique em **Adicionar página** > **Modo de exibição conectado**.
+1. Adicione o **Nome da página** e clique em **Criar**.
+
+   Uma página adicional é adicionada à página do registro em uma nova guia.
+1. Pesquise ou clique no nome de um registro ou tipo de objeto conectado na lista.
+A exibição de tabela do tipo de registro selecionado é exibida e os registros conectados são exibidos na exibição de tabela.
+A exibição de tabela é somente leitura.
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Opcional) Clique duas vezes no nome da guia
+
+   Ou
+
+   Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![](assets/more-menu.png) e em **Renomear** para renomear para a nova guia Modo de Exibição Conectado.
+1. (Opcional) Use quaisquer elementos de exibição na barra de ferramentas para gerenciar a exibição de tabela. Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

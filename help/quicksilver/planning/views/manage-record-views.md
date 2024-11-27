@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
 
 
 # Gerenciar exibições de registro
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -199,7 +204,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Recurso | Visualização em tabela | Exibição da linha do tempo | Exibição de calendário |
+| Recurso | Exibição em tabela | Exibição da linha do tempo | Exibição de calendário |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | Exibir registros em uma lista ou tabela | ✓ µ |              | |
 | Exibir todos os campos como colunas na tabela, por padrão | ✓ µ |              |    |
@@ -218,6 +223,9 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Pesquisar registros específicos | ✓ µ | ✓ µ |
 | Compartilhar a exibição com outras pessoas | ✓ µ | ✓ µ | ✓ µ |
 | Abrir a página do registro na exibição | ✓ µ | ✓ µ |    |
+| Exibir registros por ano e trimestre |           | ✓ µ |    |
+| Exibir registros por mês |           | ✓ µ | ✓ µ |
+| <span class="preview">Exibir registros por semana</span> |           |               | ✓ µ |
 
 
 ## Criar ou editar exibições {#create-or-edit-views}

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
+source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,115 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning após a versão de disponibilidade geral em 28 de agosto de 2024, consulte [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Importar campos existentes do Workfront para tipos de registro do Workfront Planning
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Agora, ao adicionar campos a um tipo de registro, você tem a opção de importar campos personalizados ou nativos existentes do Workfront e associá-los ao tipo de registro selecionado.
+
+Antes desse aprimoramento, era necessário criar manualmente todos os campos e associá-los aos tipos de registro.
+
+Os campos calculados não são compatíveis no momento.
+
+Para obter informações, consulte [Importar campos do Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+
+## Criar tipos de registro, registros e campos importando um arquivo CSV ou do Excel
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Agora é possível importar novos tipos de registro importando um arquivo CSV ou do Excel.
+
+As seguintes informações são importadas:
+
+* O nome da planilha ou do arquivo é importado como o nome do tipo de registro.
+
+* A primeira linha de cada coluna é importada como um novo campo. É possível ter até 500 campos em cada planilha importada.
+
+* Cada linha é importada como um novo registro. Você pode ter até 10.000 registros em cada planilha.
+
+Para obter mais informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Evitar referências circulares em fórmulas
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Introduzimos uma mensagem de aviso ao editar ou criar um campo de fórmula que pode criar uma referência circular a si mesmo ou campos compartilhados. Não é possível salvar um campo de fórmula que faça referência a ele mesmo ou a itens referenciados em seu cálculo.
+
+Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+
+## Adicionar páginas de exibição conectadas à página de um registro para exibir registros conectados em uma exibição de tabela
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+É possível adicionar páginas à área de detalhes de um registro para exibir registros conectados em uma exibição de tabela. É possível adicionar uma página por registro conectado.
+
+As páginas adicionadas são somente leitura.
+
+Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Nova guia Planejamento, na seção Enviado da área Solicitações
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Agora é possível encontrar solicitações do Workfront Planning na seção Enviado da área Solicitações do Workfront. A seção Enviado agora exibe duas guias: as solicitações enviadas no Workfront na guia Workfront e as solicitações enviadas usando um formulário de solicitação do Workfront Planning na guia Planning.
+
+Você deve usar um link para o formulário de solicitação para poder adicionar solicitações a um tipo de registro do Workfront Planning. A submissão de uma solicitação do Workfront Planning a partir da área Solicitações do Workfront estará disponível em uma data posterior.
+
+Sua organização deve comprar um pacote do Workfront Planning antes que a guia Planejamento esteja disponível na área Solicitações.
+
+Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Tipos de campos adicionais agora são aceitos em formulários de solicitação
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Agora é possível adicionar os seguintes tipos de campo a um formulário de solicitação de tipo de registro no Workfront Planning:
+
+* Pessoas
+* Conexões do Workfront
+
+Antes desse aprimoramento, esses tipos de campos não podiam ser adicionados a formulários de solicitação no Workfront Planning.
+
+Para obter informações, consulte Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md).
+
+## Limitar o compartilhamento público de formulários de solicitação que contêm determinados tipos de campo
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Não é mais possível compartilhar um formulário de solicitação publicamente se ele contiver qualquer um dos seguintes tipos de campo:
+
+* Fórmula
+* Conexões
+* Campos de pesquisa
+* Pessoas
+
+Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
+## Exibir registros na exibição de calendário por semana
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 26 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+Agora é possível exibir registros na exibição de calendário por semana. Antes dessa melhoria, você poderia exibir a exibição do calendário somente por mês.
+
+Para obter informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Restaurar registros excluídos
 

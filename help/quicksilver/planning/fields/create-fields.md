@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4287'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,9 @@ Você pode criar campos das seguintes maneiras no Workfront Planning:
 * Conectando tipos de registro
 * Criando um tipo de registro
 * Criando um espaço de trabalho a partir de um modelo
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">Importando tipos de registros usando um arquivo Excel ou CSV</span>
+* <span class="preview">Importando cópias de campos existentes do Workfront</span>
+
 
 Para obter mais informações sobre campos do Workfront Planning, consulte [Visão geral do campo](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -178,6 +180,8 @@ OLD:
 ## Criar campos do zero {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ Você pode usar um campo de data para capturar informações adicionais no forma
       * **Longo**: 16 de maio de 2023
       * **Europeu**: 05/16/2023
       * **ISO**: 16/05/2023
-      * **Incluir um campo de hora**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. <!--update this setting name - submitted bug for it to be changed-->
+      * **Incluir horário**: selecione esta opção se desejar incluir um carimbo de data/hora. Essa opção não está selecionada por padrão. Não é possível incluir um tempo depois de salvar o campo.
 
      Selecione entre as seguintes opções:
 
@@ -467,6 +471,12 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
    ![](assets/description-of-formula-expression.png)
 
    Para obter mais informações sobre quais expressões são suportadas, consulte [Visão geral dos campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
+
+
+   >[!TIP]
+   >
+   ><span class="preview">Você receberá uma mensagem de aviso ao editar ou criar um campo de fórmula que pode causar uma referência circular a si mesmo ou a campos compartilhados. Não é possível salvar um campo de fórmula que faça referência a ele mesmo ou a itens referenciados em seu cálculo.  </span>
+
 
 1. Adicione nomes de campo conforme eles são exibidos no Workfront Planning para referenciá-los em uma fórmula.
 
@@ -647,3 +657,21 @@ Ao criar um tipo de registro, vários campos associados ao novo tipo de registro
 O Adobe Workfront Planning cria campos para tipos de registro quando você cria um espaço de trabalho a partir de um modelo.
 
 Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+<div class="preview">
+
+## Criar campos ao importar tipos de registro de um arquivo CSV ou do Excel
+
+É possível importar campos ao importar tipos de registro usando um arquivo CSV ou do Excel.
+
+Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Criar campos importando-os do Workfront
+
+É possível importar cópias de campos existentes do Workfront. A importação de campos do Workfront cria uma cópia de cada campo para um tipo de registro do Workfront Planning.
+
+Após copiar os campos, eles se tornam independentes uns dos outros e não trocam informações.
+
+Para obter informações, consulte [Importar campos do Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
+</div>
