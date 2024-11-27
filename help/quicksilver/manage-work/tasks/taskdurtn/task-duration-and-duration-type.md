@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,14 @@ Ao atualizar a Duração das tarefas em uma lista, você pode usar as seguintes 
 
 {style="table-layout:auto"}
 
-**Exemplo:** Se você quiser indicar que a Duração de uma tarefa é 3 Dias Decorridos, digite &quot;3 ED&quot; no campo Duração em uma lista de tarefas.  Você também pode selecionar a opção preferida para a Unidade de tempo de duração no menu suspenso disponível ao editar uma tarefa ou na seção Detalhes da tarefa. Para obter informações sobre como editar tarefas, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**EXEMPLO**
+
+Se você quiser indicar que a duração de uma tarefa é de 3 dias decorridos, digite &quot;3 ED&quot; no campo Duração em uma lista de tarefas .  Você também pode selecionar a opção preferida para a Unidade de tempo de duração no menu suspenso disponível ao editar uma tarefa ou na seção Detalhes da tarefa. Para obter informações sobre como editar tarefas, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ Ao atualizar a Duração das tarefas em uma lista, você pode usar as seguintes 
 Considere o seguinte ao indicar a Duração de uma tarefa:
 
 * Tempo decorrido é uma unidade de tempo da Duração de uma tarefa. É o tempo entre a Data de Início Planejada e a Data de Conclusão Planejada de uma tarefa que inclui feriados, finais de semana e folga. Em outras palavras, o tempo decorrido é a passagem de dias do calendário.
-* O tempo normal leva em conta feriados, fins de semana e folga e os exclui da Duração da tarefa.
-
+* Dias representa os dias úteis definidos no sistema e ele é configurável na área Configuração. Na maioria dos casos, um dia consiste em 8 horas.
+* O tempo normal (dias ou dias úteis) leva em conta feriados, finais de semana e folga e os exclui da Duração da tarefa.
 * Quando você indica a Duração de uma tarefa em semanas, o Workfront calcula a Duração em dias e horas com base nas configurações de Dias de trabalho típicos por semana e Horas típicas por dia de trabalho definidas pelo administrador do Workfront na área Preferências do projeto da Configuração.
 * O Workfront usa a duração padrão de 4 semanas para um mês ao calcular a Duração em meses.
 

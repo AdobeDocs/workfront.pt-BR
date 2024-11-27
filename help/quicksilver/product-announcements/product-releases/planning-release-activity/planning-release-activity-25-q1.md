@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >
 >Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
-Agora, ao adicionar campos a um tipo de registro, você tem a opção de importar campos personalizados ou nativos existentes do Workfront e associá-los ao tipo de registro selecionado.
+Agora, ao adicionar campos a um tipo de registro, você tem a opção de importar campos personalizados ou nativos existentes do Workfront e associá-los ao tipo de registro selecionado. A importação de campos existentes cria uma cópia dos campos do Workfront no Workfront Planning. Os campos copiados são independentes das versões originais.
 
 Antes desse aprimoramento, era necessário criar manualmente todos os campos e associá-los aos tipos de registro.
 
@@ -89,13 +89,16 @@ As páginas adicionadas são somente leitura.
 
 Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-## Nova guia Planejamento, na seção Enviado da área Solicitações
+## Novas guias Workfront e Planejamento na seção Enviado da área Solicitações
 
 >[!NOTE]
 >
 >Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
-Agora é possível encontrar solicitações do Workfront Planning na seção Enviado da área Solicitações do Workfront. A seção Enviado agora exibe duas guias: as solicitações enviadas no Workfront na guia Workfront e as solicitações enviadas usando um formulário de solicitação do Workfront Planning na guia Planning.
+Agora é possível encontrar solicitações do Workfront Planning na seção Enviado da área Solicitações do Workfront. A seção Enviado agora exibe as seguintes guias:
+
+* Workfront: exibe solicitações enviadas no Workfront.
+* Planning: exibe solicitações enviadas usando um formulário de solicitação do Workfront Planning.
 
 Você deve usar um link para o formulário de solicitação para poder adicionar solicitações a um tipo de registro do Workfront Planning. A submissão de uma solicitação do Workfront Planning a partir da área Solicitações do Workfront estará disponível em uma data posterior.
 
@@ -127,7 +130,7 @@ Para obter informações, consulte Criar e gerenciar um formulário de solicita�
 Não é mais possível compartilhar um formulário de solicitação publicamente se ele contiver qualquer um dos seguintes tipos de campo:
 
 * Fórmula
-* Conexões
+* Conexões do Workfront e do AEM Assets
 * Campos de pesquisa
 * Pessoas
 

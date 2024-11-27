@@ -3,9 +3,9 @@ title: Aprovar uma solicitação
 description: Quando um usuário envia uma solicitação a um formulário de solicitação associado a uma aprovação no Adobe Workfront Planning, os aprovadores recebem uma notificação e um email sobre a aprovação pendente. Eles devem aprovar a solicitação antes que o Workfront Planning crie um objeto.
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Recomendamos que você também veja os seguintes artigos:
 As solicitações enviadas são exibidas na guia Planejamento da seção Enviado na área Solicitações do Workfront com um dos seguintes status de solicitação:
 
 * **Revisão pendente**: este status é mostrado quando nenhum dos aprovadores abriu o objeto de solicitação.
-* **Em revisão**: o status muda para **Em revisão** quando pelo menos um aprovador abre o objeto de solicitação.
+* **Em revisão**: o status muda para **Em revisão** quando pelo menos um aprovador abre o objeto de solicitação. O status da solicitação permanece **Em revisão** até que todos os aprovadores aprovem a solicitação.
 * **Aprovado**: quando um aprovador aprova o objeto de solicitação, seu status individual torna-se
 * **Aprovado**, mas o status geral do objeto de solicitação permanece **Em revisão** até que todos os aprovadores tenham tomado suas decisões.
 * **Concluído**: se todos os aprovadores aprovarem o objeto de solicitação, seu status será alterado para **Concluído** ou se a solicitação não precisar de aprovação.
@@ -152,7 +152,13 @@ Para aprovar uma solicitação:
 
 1. Siga um destes procedimentos:
 
-   * No **Menu Principal** ![](assets/dots-menu.png) do Workfront, no canto superior direito da tela, ou no **Menu Principal** ![](assets/lines-menu.png), no canto superior esquerdo, se disponível, clique em **Solicitações** > **Enviadas** > **Planejamento** e clique na solicitação com o status de **Em revisão**. <!--did they change this to Pending approval; logged  a bug-->
+   * Se você tiver acesso ao Workfront Planning, clique em **Menu Principal** ![](assets/dots-menu.png) no canto superior direito da tela ou no **Menu Principal** ![](assets/lines-menu.png) no canto superior esquerdo, se disponível, em seguida, clique em **Solicitações** > **Enviadas** > **Planejamento** e clique na solicitação com o status de **Em revisão**. <!--did they change this to Pending approval; logged  a bug-->
+
+     >[!TIP]
+     >
+     >    Se você não tiver acesso ao Workfront Planning, poderá acessar apenas uma solicitação para aprová-la usando suas notificações.
+
+
    * Vá para a área **Notificações** no canto superior direito da tela e clique na notificação sobre uma solicitação pendente de aprovação para abrir a solicitação.
    * Vá para a notificação por email no seu email que notifica sobre uma solicitação pendente de aprovação e clique em para abrir a solicitação. <!--add the name of the button here, from the email-->
 
@@ -162,5 +168,5 @@ Para aprovar uma solicitação:
 1. (Opcional) Clique no ícone ![](assets/approvals-icon.png) de **Aprovações** no canto superior direito da solicitação para ver os aprovadores.
 1. Clique em **Revisar e aprovar** e escolha uma das seguintes opções: <!--did they fix the button and removed the &??-->
 
-   * **Aprovar**: para aprovar a solicitação. Um registro é criado imediatamente para o tipo de registro associado ao formulário de solicitação.
-   * **Rejeitar**: para rejeitar a solicitação. Nenhum registro é criado para o tipo de registro associado ao formulário de solicitação. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **Aprovar**: aprova a solicitação. Um registro é criado imediatamente para o tipo de registro associado ao formulário de solicitação.
+   * **Rejeitar**: essa ação rejeita a solicitação. Nenhum registro é criado para o tipo de registro associado ao formulário de solicitação. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

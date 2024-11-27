@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 1%
@@ -668,7 +668,9 @@ Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/p
 
 ## Criar campos importando-os do Workfront
 
-É possível importar cópias de campos existentes do Workfront. A importação de campos do Workfront cria uma cópia de cada campo para um tipo de registro do Workfront Planning.
+É possível importar cópias de campos existentes do Workfront.
+
+A importação de campos do Workfront cria uma cópia de cada campo para um tipo de registro do Workfront Planning.
 
 Após copiar os campos, eles se tornam independentes uns dos outros e não trocam informações.
 
