@@ -6,14 +6,16 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
 # Compartilhar um relatório no Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar relatórios quando eles atribuírem níveis de acesso. Para obter mais informações sobre como conceder acesso a problemas, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ As permissões são específicas a um item no Workfront e definem quais ações 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para compartilhar objetos:
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Você deve ter o seguinte para compartilhar objetos:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou superior</p> </td> 
+      <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Leve ou superior</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Revisar ou superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior a relatórios, painéis, calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Acesso de visualização ou superior a relatórios, painéis, calendários</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou aumentar o relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou aumentar o relatório</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre o compartilhamento de relatórios
 
@@ -79,7 +94,7 @@ O compartilhamento de um ou vários relatórios de uma lista é idêntico.
 
    Clique no nome de um relatório e em **Ações de Relatório >****Compartilhamento**.
 
-   ![](assets/qs-report-actions-sharing.png)
+   ![](assets/unshimmed-report-actions-sharing.png)
 
 1. Na caixa que é exibida, no campo **Adicionar pessoas, equipes, funções, grupos ou empresas ...**, comece digitando o nome do usuário, equipe, função de trabalho, grupo ou empresa com a qual deseja compartilhar o relatório e pressione **Enter** quando o nome for exibido.
 
@@ -91,7 +106,7 @@ O compartilhamento de um ou vários relatórios de uma lista é idêntico.
     <tbody> 
      <tr> 
       <td role="rowheader">Visualizar o projeto</td> 
-      <td> <p>Permite que o destinatário acesse para ver o relatório na área <strong>Relatórios</strong> <img src="assets/reports-in-main-menu.png"> e executá-lo.</p> <p>Você pode clicar em <strong>Configurações Avançadas</strong> para especificar se deseja que o usuário ou usuários possam <strong>Compartilhar</strong> com qualquer pessoa no sistema.</p> </td> 
+      <td> <p>Permite que o destinatário acesse para ver o relatório na área <strong>Relatórios</strong> e executá-lo.</p> <p>Você pode clicar em <strong>Configurações Avançadas</strong> para especificar se deseja que o usuário ou usuários possam <strong>Compartilhar</strong> com qualquer pessoa no sistema.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gerenciar o projeto</td> 
@@ -101,9 +116,15 @@ O compartilhamento de um ou vários relatórios de uma lista é idêntico.
    </table>
 
 1. (Opcional) Repita as duas etapas anteriores para adicionar outros nomes à lista e configurar suas opções.
-1. (Opcional) Clique no ícone de **engrenagem** ![](assets/gear-icon-settings-with-dn-arrow.jpg) no canto superior direito da caixa de compartilhamento e selecione uma das seguintes opções:
+1. (Opcional) Clique no menu suspenso **Somente pessoas convidadas podem acessar** na caixa de compartilhamento e escolha entre as seguintes opções:
 
-   * **Tornar público para usuários externos:** selecione esta opção para gerar uma URL que possa ser compartilhada com outras pessoas. Qualquer pessoa com o URL pode acessar o relatório, sem ter uma licença do Adobe Workfront.
+   * **Somente pessoas convidadas podem acessar**. Selecione esta opção para que somente os usuários aos quais foi concedido acesso ao relatório possam exibi-lo.
+
+   * **Todos no sistema podem exibir**. Selecione esta opção para que todos no Workfront com acesso a relatórios possam exibir o relatório.
+
+1. (Opcional) Clique no ícone ![](assets/gear-icon-settings-with-dn-arrow.jpg) da **engrenagem** no canto superior direito da caixa de compartilhamento e, opcionalmente, selecione a seguinte opção:
+
+   * **Tornar público para usuários externos** Selecione esta opção para gerar uma URL que possa ser compartilhada com outras pessoas. Qualquer pessoa com o URL pode acessar o relatório, sem ter uma licença do Adobe Workfront.
 
      >[!CAUTION]
      >
@@ -112,7 +133,5 @@ O compartilhamento de um ou vários relatórios de uma lista é idêntico.
      >[!NOTE]
      >
      >Se o relatório tiver um prompt e você compartilhá-lo publicamente, os usuários que executam o relatório por meio do link de compartilhamento público não poderão executar o relatório usando o prompt. Eles verão o relatório sem o prompt aplicado, a menos que façam logon no Workfront e acessem o relatório sem usar o link de compartilhamento público. Para obter mais informações sobre as limitações do compartilhamento de relatórios com prompts, consulte a seção [Limitações do compartilhamento de relatórios solicitados](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) no artigo [Adicionar prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-
-   * **Tornar isto visível em todo o sistema:** Selecione esta opção para que todos no Workfront com acesso aos relatórios possam ver o relatório.
 
 1. Clique em **Salvar**.
