@@ -9,7 +9,7 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
 workflow-type: tm+mt
 source-wordcount: '6797'
 ht-degree: 2%
@@ -2027,7 +2027,7 @@ Recomendamos que você verifique novamente para garantir que isso funcione da ma
 
 +++
 
-## Filtros de assinatura de evento nos módulos [!DNL Workfront] > [!UICONTROL Eventos de observação]
+## Filtros de assinatura de evento no módulo [!DNL Workfront] > [!UICONTROL Eventos de observação]
 
 >[!NOTE]
 >
