@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1154'
 ht-degree: 3%
 
 ---
@@ -38,6 +38,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>Área</td>
@@ -89,7 +90,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ícone "Mover para" adicionado a campos personalizados</a></p>
-            [!BADGE Na produção para a versão rápida ]{type=Positive}
             <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
         </td>
         <td>quarta-feira, 29 de outubro de 2024</td>
@@ -173,8 +173,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ícone "Mover para" adicionado a campos personalizados</a></p>
-            [!BADGE Na produção para a versão rápida ]{type=Positive}
             <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
         </td>
         <td>quarta-feira, 29 de outubro de 2024</td>
