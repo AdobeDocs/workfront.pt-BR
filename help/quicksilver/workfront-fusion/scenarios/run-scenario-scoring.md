@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: ed100c6ba32a6fbff6fa68ac7a4bfb38db861b17
+exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
+source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -79,8 +80,4 @@ O especialista em pontuação de cenários usa as seguintes verificações:
 * Se um módulo de acionador instantâneo do Workfront for usado, ele deverá ser filtrado.
 
   Para obter instruções, consulte [Filtros de assinatura de evento no [!DNL Workfront] > [!UICONTROL Módulo Assistir Eventos]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-module).
-
-
-
-
 
