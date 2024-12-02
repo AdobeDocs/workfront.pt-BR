@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 89c5ed4d73d875fcbb56287ad51859dc8f4bc5ff
+exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
+source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 1%
 
 ---
-
 
 # Criar um painel de relatório para revisão e aprovações
 
@@ -344,9 +344,3 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
       ![exemplo de filtro de tabela de aprovação pendente](assets/approvals-ive-submitted-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 +++
-
-
-
-
-
-
