@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -40,6 +40,7 @@ Os clientes precisam garantir que todos os endpoints que consomem mensagens de s
 * Uma URL de assinatura está **congelada** se tiver mais de 2.000 falhas consecutivas e o último sucesso tiver ocorrido há mais de 72 horas OU se tiver 50.000 falhas consecutivas em qualquer período.
 * Uma URL de assinatura **desabilitada** continuará tentando entregar a cada 10 minutos e será reabilitada com uma entrega bem-sucedida.
 * Uma URL de assinatura **congelada** nunca tentará a entrega, a menos que seja habilitada manualmente fazendo uma solicitação de API.
+
 
 
 

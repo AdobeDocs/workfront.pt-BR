@@ -6,7 +6,7 @@ description: Você pode compartilhar ou remover permissões de um objeto criado 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -166,6 +166,7 @@ Para obter mais informações sobre a hierarquia e a interdependência de objeto
 Se você conceder permissões de Gerenciamento a um Grupo de usuários em um objeto e conceder permissões de Exibição a um usuário individual nesse Grupo no mesmo objeto, o usuário terá o mais alto nível de permissões (Gerenciar) concedidas por meio da associação de Grupo no objeto. 
 
 Se você quiser conceder permissões mais baixas a um usuário que já faz parte de uma unidade organizacional (Grupo, Equipe, Função de trabalho ou Empresa) com um nível de permissão mais alto, remova as permissões da unidade organizacional e adicione usuários individualmente com um nível de permissões mais baixo.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
