@@ -6,9 +6,9 @@ description: Você pode compartilhar ou remover permissões de um objeto criado 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -108,6 +108,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
     <ul> 
      <li><p>Exibir o objeto</p></li> 
      <li><p>Adicionar documentos ao objeto</p></li> 
+     <li><p>Adicionar problemas ao objeto (se for uma tarefa ou um projeto)</p></li> 
      <li><p>Exibir informações financeiras sobre o objeto</p></li> 
      <li> <p>Compartilhar o objeto<br></p> <p>Ao compartilhar o objeto, você pode conceder a outros usuários o mesmo nível de permissão que você tem somente no objeto, não um nível superior.</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
     <ul> 
      <li>Todas as ações incluídas com a permissão Exibir.</li> 
      <li>Adicionar despesas a ele</li> 
-     <li>Adicionar problemas a ele (se for uma tarefa ou um projeto)</li> 
      <li>Adicionar tarefas a ele (se for um projeto)</li> 
      <li>Editar Forms personalizado nela</li> 
      <li>Registrar horas no objeto</li> 
