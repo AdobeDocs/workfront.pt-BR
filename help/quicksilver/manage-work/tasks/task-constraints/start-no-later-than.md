@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Visão geral da restrição de tarefa: iniciar até"
+title: 'Visão geral de Restrição de tarefa: não iniciar depois de'
 description: Não Iniciar Depois de (SNLT) é uma Restrição de Tarefa que programa uma tarefa para ser iniciada antes da data especificada.
 author: Alina
 feature: Work Management

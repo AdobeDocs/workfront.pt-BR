@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: tarefas pessoais"
+title: 'Filtro: tarefas pessoais'
 description: Este filtro de tarefa retorna solicitações de trabalho ad hoc enviadas a um usuário ou itens de tarefa adicionados por usuários em sua área de Início. As tarefas pessoais não estão conectadas a um projeto, mas podem ser movidas para um projeto, se necessário.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%

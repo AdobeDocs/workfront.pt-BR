@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: Mostrar nome das tarefas pai como todas em maiúsculas"
+title: 'Exibição: Mostrar Nome de Tarefas Pai como Todas em Maiúsculas'
 description: É possível adicionar essa coluna a uma visualização de tarefa para exibir o nome das tarefas pai em todas as letras maiúsculas.
 author: Nolan
 feature: Reports and Dashboards

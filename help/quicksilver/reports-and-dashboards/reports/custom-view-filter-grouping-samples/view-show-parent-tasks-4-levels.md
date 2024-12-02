@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: Mostrar tarefas pai de até 4 níveis de profundidade"
+title: 'Exibição: Mostrar Tarefas Pai com Até 4 Níveis de Profundidade'
 description: Esta exibição de tarefa mostra o nome da tarefa na primeira coluna e (se existirem) até 4 tarefas pai em colunas separadas na mesma lista.
 author: Nolan
 feature: Reports and Dashboards

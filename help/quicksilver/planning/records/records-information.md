@@ -1,5 +1,5 @@
 ---
-title: "Registros: índice de artigos"
+title: 'Registros: índice de artigos'
 description: Depois de criar tipos de registro no Adobe Workfront Planning, você pode criar registros individuais desses tipos. Os artigos a seguir descrevem como criar e gerenciar registros e suas informações no Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning

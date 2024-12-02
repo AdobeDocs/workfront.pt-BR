@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Horas efetivas sobre horas planejadas na mesma coluna de uma View de tarefa"
+title: 'View: Horas Reais sobre Horas Planejadas na mesma coluna de uma View de tarefa'
 description: Nesta visualização de tarefa, a quantidade real de horas registradas em uma tarefa são exibidas sobre as horas planejadas para cada tarefa. A Variação de horas entre as horas planejadas e reais também é exibida em uma coluna separada.
 author: Nolan
 feature: Reports and Dashboards

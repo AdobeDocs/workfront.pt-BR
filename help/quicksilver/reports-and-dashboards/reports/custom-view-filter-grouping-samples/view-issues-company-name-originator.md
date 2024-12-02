@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: problemas com o Nome da empresa do originador"
+title: 'Exibição: problemas com o Nome da empresa do originador'
 description: Essa visualização de problema exibe o nome da empresa associado ao usuário que enviou o problema.
 author: Nolan
 feature: Reports and Dashboards

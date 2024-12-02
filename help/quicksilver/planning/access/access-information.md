@@ -1,5 +1,5 @@
 ---
-title: "Informações sobre Acesso ao Adobe Workfront Planning: Índice de Artigos"
+title: 'Informações de Acesso ao Adobe Workfront Planning: Índice de Artigos'
 description: Como administrador do Workfront, você deve conceder acesso aos usuários para usar o Adobe Workfront Planning. Os artigos a seguir contêm informações sobre o acesso que os usuários precisam para usar o Workfront Planning, bem como sobre como solicitar e conceder permissões quando os usuários não têm acesso.
 author: Alina
 feature: Workfront Planning

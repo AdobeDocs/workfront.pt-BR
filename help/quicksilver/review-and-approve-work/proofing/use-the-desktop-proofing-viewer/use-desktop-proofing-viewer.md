@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: "Usar o Visualizador de provas de desktop: índice do artigo"
+title: 'Usar o Visualizador de provas de desktop: índice do artigo'
 description: Instale o Visualizador de provas de desktop
 author: Courtney
 feature: Digital Content and Documents

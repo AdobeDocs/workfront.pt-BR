@@ -1,5 +1,5 @@
 ---
-title: "Dicas, truques e solução de problemas para aprovações: índice do artigo"
+title: 'Dicas, truques e solução de problemas para aprovações: índice do artigo'
 description: Dicas, truques e solução de problemas para aprovações
 author: Courtney
 draft: Probably

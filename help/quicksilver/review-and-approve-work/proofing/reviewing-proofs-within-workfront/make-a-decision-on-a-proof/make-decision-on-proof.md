@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: "Tome uma decisão sobre uma prova: índice do artigo"
+title: 'Tome uma decisão sobre uma prova: índice do artigo'
 description: Aprovar uma prova
 author: Courtney
 feature: Digital Content and Documents

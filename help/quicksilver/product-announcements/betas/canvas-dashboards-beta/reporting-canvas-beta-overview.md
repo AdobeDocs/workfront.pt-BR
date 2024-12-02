@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Tela de relatório beta: visão geral"
+title: 'Versão beta do relatório do Canvas: visão geral'
 description: Informações sobre o programa beta da próxima ferramenta de tela de relatório do Adobe Workfront
 author: Nolan
 feature: Product Announcements

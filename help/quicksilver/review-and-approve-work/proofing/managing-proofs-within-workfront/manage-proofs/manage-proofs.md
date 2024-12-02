@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Gerenciar provas: índice do artigo"
+title: 'Gerenciar provas: índice do artigo'
 description: Editar configurações de prova
 author: Courtney
 feature: Digital Content and Documents

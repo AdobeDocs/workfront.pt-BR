@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupamento: Detalhamento da porcentagem do projeto 1"
+title: 'Agrupamento: Detalhamento Percentual do Projeto 1'
 description: Neste agrupamento de projeto personalizado, você pode exibir projetos agrupados por um intervalo de seus valores de porcentagem concluída.
 author: Nolan
 feature: Reports and Dashboards

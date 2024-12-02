@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Erro de logon: os seguintes campos são inválidos: emailAddr não pode ser nulo"
+title: 'Erro de logon: os seguintes campos são inválidos: emailAddr não pode ser nulo'
 description: Quando tento fazer logon [!DNL Adobe Workfront] no URL do meu domínio, sou redirecionado para o portal de logon SAML e redirecionado para [!DNL Workfront] com um erro informando que o campo emailAddr não pode ser nulo.
 author: Lisa
 feature: System Setup and Administration

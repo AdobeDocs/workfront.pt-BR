@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: "Atividade de lançamento do Workfront Fusion: semana de 18 de janeiro de 2021"
+title: 'Atividade de lançamento do Workfront Fusion: semana de 18 de janeiro de 2021'
 description: Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 18 de janeiro de 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion

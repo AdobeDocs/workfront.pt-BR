@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: "Logon único no Workfront: índice de artigos"
+title: 'Logon único no Workfront: índice do artigo'
 description: É possível integrar o Workfront à sua solução corporativa de SSO existente. Essa configuração é fácil de definir e gerenciar e está disponível para clientes OnDemand e OnPremise Enterprise.
 author: Becky
 feature: System Setup and Administration

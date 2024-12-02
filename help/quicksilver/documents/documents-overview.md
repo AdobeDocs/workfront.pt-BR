@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "Documentos: índice do artigo"
+title: 'Documentos: índice do artigo'
 description: Saiba como usar documentos.
 author: Courtney
 feature: Digital Content and Documents

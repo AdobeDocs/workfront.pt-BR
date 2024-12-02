@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: empresa e grupo padrão do usuário atribuído"
+title: 'Exibir: Empresa e Grupo Inicial do Usuário Atribuído'
 description: Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Proprietário principal da tarefa. Esses são valores que não estão disponíveis na interface padrão, mas são acessíveis por meio do modo de texto.
 author: Nolan
 feature: Reports and Dashboards
