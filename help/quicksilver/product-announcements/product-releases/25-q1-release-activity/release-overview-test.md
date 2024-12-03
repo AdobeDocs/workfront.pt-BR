@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1388'
 ht-degree: 3%
 
 ---
@@ -126,7 +126,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 ### Melhorias do administrador
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 </tbody>
 </table>
 
+### Aprimoramentos no gerenciamento de documentos
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Recurso</span></p>
+        </td>
+        <td>Visualização</td>
+        <td>Lançamento rápido</td>
+        <td>Trimestralmente</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Preferência para usar projeto ou agendamento de usuário para tarefas de atribuição única</a></p>
+            <p>Como administrador de sistema ou de grupo, agora você tem uma nova preferência para indicar se o Workfront deve usar o cronograma do projeto ou do usuário para calcular a linha do tempo do projeto ao atribuir um usuário a uma tarefa e se o projeto e o usuário estão associados a um cronograma.</p>
+        </td>
+        <td><p>16 de novembro de 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td>Dez de 2024</td>
+        <td>25,1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Agora as regras de negócios oferecem suporte a hiperlinks</a></p>
+            <p>Agora é possível incluir hiperlinks na mensagem de erro personalizada de uma regra de negócios para orientar o usuário sobre como modificar sua ação dentro da restrição da regra. O URL estático pode vincular à documentação ou outras páginas que seriam úteis para o usuário.</p>
+        </td>
+        <td>14 de novembro </td>
+        <td><p>14 de novembro</p> <p>[!BADGE Fora de ciclo ]{type=Negative}</p></td>
+        <td><p>14 de novembro</p> <p>[!BADGE Fora de ciclo ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Ícone "Mover para" adicionado a campos personalizados</a></p>
+            <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
+        </td>
+        <td>29 de outubro</td>
+          <td><p>Dezembro de 2024</p><p> [!BADGE Na produção para a versão rápida ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE Na produção]{type=Positive}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Atividade de versão do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [Atividade da versão do Adobe Workfront Planning First Quarter 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+
+Não há atualizações para o seguinte neste momento na versão:
+
 * Planejador de cenários
 * Prova
 * Metas
