@@ -7,9 +7,9 @@ description: Visão geral de horas, FTE e informações de custo nas visualizaç
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3086'
 ht-degree: 0%
 
 ---
@@ -217,12 +217,6 @@ Considere o seguinte ao exibir as Horas planejadas:
 
 Considere o seguinte ao trabalhar com Horas orçadas:
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * Você pode estimar recursos somente quando tem acesso de Edição a Gerenciamento de Recursos e Dados Financeiros e de Gerenciamento de Permissões financeiras nos projetos.
 
   Para obter informações sobre o acesso necessário para recursos de orçamento, consulte o artigo [Acesso necessário para recursos de orçamento no Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
@@ -232,15 +226,23 @@ Considere o seguinte ao trabalhar com Horas orçadas:
   Para obter mais informações sobre as opções de projeto e função, consulte a seção [Visão geral de horas, FTE e informações de custo nas exibições de Projeto e Função do Planejador de Recursos](#Budget) neste artigo.
 
 * O menor período para o qual você pode estimar horas, FTE ou Custo é uma semana. Você não pode estimar horas, FTE ou Custo para um dia.
-* As horas orçadas são distribuídas igualmente a cada dia dentro da Duração de tarefas, para cada recurso atribuído a elas. A duração da tarefa é baseada nas datas planejadas de início e conclusão da tarefa e inclui todos os dias dentro desse período de tempo.\
-  O Workfront leva em conta a programação do usuário ou do projeto ao distribuir Horas orçadas a usuários ou projetos. Nesse caso, as horas orçadas são distribuídas igualmente a cada dia dentro da Duração de tarefas, excluindo fins de semana, mas incluindo exceções de folga e agendamento.\
+* As horas orçadas são distribuídas igualmente a cada dia dentro da Duração de tarefas, para cada recurso atribuído a elas. A duração da tarefa é baseada nas datas planejadas de início e conclusão da tarefa e inclui todos os dias dentro desse período de tempo.
+
+  O Workfront leva em conta a programação do usuário ou do projeto ao distribuir Horas orçadas a usuários ou projetos. Nesse caso, as horas orçadas são distribuídas igualmente a cada dia dentro da Duração de tarefas, excluindo fins de semana, mas incluindo exceções de folga e agendamento.
+
   Se você exibir o Planejador de Recursos por Semana, por exemplo, e tiver tarefas que abrangem várias semanas, o número de Horas Orçadas por semana dependerá de quantos dias dentro dessa semana fazem parte da Duração da tarefa. Os dias de fim de semana são excluídos desta distribuição. Isso funciona de forma semelhante ao exibir o Planejador de recursos por mês ou trimestre e quando as tarefas abrangem vários meses ou trimestres.
 
-* Você pode criar relatórios sobre Horas orçadas selecionando Hora orçada como seu objeto de relatório para um novo relatório.\
-  Para obter informações sobre quais objetos você pode relatar no Workfront, consulte a seção &quot;Relatório sobre objetos&quot; no artigo [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+* Você pode criar relatórios sobre Horas orçadas selecionando Hora orçada como seu objeto de relatório para um novo relatório.
+
+  Para obter informações sobre quais objetos você pode relatar no Workfront, consulte a seção &quot;Relatório sobre objetos&quot; no artigo [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
   Para obter informações sobre como criar um relatório de Horas orçadas, consulte o artigo [Relatório: Hora orçada](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * As horas orçadas anteriormente para usuários que foram desativados posteriormente não são exibidas.
+
+  Observe que o Custo de mão de obra orçado de um projeto ainda inclui as horas orçadas para usuários que foram desativados no Planejador de recursos.
+
+  Por exemplo: se uma função é atribuída a dois usuários e as horas orçadas são adicionadas (20 horas por usuário, totalizando 40 horas) e o total é definido manualmente para a função, desativar um dos usuários no Planejador de recursos faz com que suas horas não sejam mais consideradas no cálculo (diminuindo o total para 20 horas). No entanto, o orçamento do projeto retém corretamente o total definido manualmente para a função, de modo que as horas do usuário desativado ainda são incluídas no cálculo (restante em 40 horas).
 
 ### A coluna VAR (Variance) {#the-var-variance-column}
 
