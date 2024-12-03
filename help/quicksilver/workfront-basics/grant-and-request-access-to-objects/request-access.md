@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Solicitar Acesso a Objetos
 description: A visibilidade dos objetos no Adobe Workfront depende do seu acesso a esse tipo de objeto, bem como das suas permissões em um objeto individual.
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
 
 # Solicitar acesso a objetos
+
+{{preview-fast-release-general}}
 
 A visibilidade dos objetos no Adobe Workfront depende do seu acesso a esse tipo de objeto, bem como das suas permissões em um objeto individual.
 
@@ -92,14 +94,18 @@ Para solicitar acesso inicial a um objeto:
 1. Clique em **Solicitar Acesso**.\
    A caixa de diálogo **Solicitar Acesso** é exibida.
 
-1. (Condicional) Se mais de um usuário tiver o acesso apropriado para conceder a você acesso adicional, uma seta suspensa será exibida ao lado do nome do usuário.
-1. Selecione na lista suspensa o usuário que receberá sua solicitação de acesso.\
+1. (Condicional) Se mais de um usuário tiver o acesso apropriado para conceder a você acesso adicional, uma seta suspensa será exibida ao lado do nome do usuário. Selecione o usuário na lista suspensa que deve receber sua solicitação de acesso.
+
    Somente 10 usuários são exibidos na lista suspensa. A lista é classificada em ordem alfabética.\
    Para obter mais informações sobre a ordem dos usuários listados nesse menu suspenso, consulte [Hierarquia dos menus suspensos &quot;Solicitar Acesso&quot; e &quot;Solicitar Mais Acesso&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Na lista suspensa, selecione o tipo de acesso que você está solicitando.
 1. (Opcional) No campo **P.S.**, especifique uma observação para o usuário sobre por que você precisa de acesso adicional.
 
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Solicitar caixa de diálogo de acesso](assets/request-access-to-project.png)
+
+   Imagem de amostra no ambiente de produção:
    ![](assets/request-access-dialog-350x314.png)
 
 Se você não tiver direitos de nível de acesso a um objeto e tentar acessá-lo por meio de um link, uma tela será exibida informando para entrar em contato com o administrador do Workfront.
@@ -115,7 +121,7 @@ Para solicitar acesso adicional a um objeto ao qual você já tem acesso limitad
 
 1. Clique no menu **Mais** à direita do nome do projeto e em **Solicitar Mais Acesso**.
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![Solicitar Mais Acesso](assets/more-menu-request-more-access.png)
 
 1. (Condicional) Se mais de um usuário tiver o acesso apropriado para conceder a você acesso adicional, uma seta suspensa será exibida ao lado do nome do usuário.
 1. Selecione na lista suspensa o usuário que receberá sua solicitação de acesso.\
@@ -124,7 +130,12 @@ Para solicitar acesso adicional a um objeto ao qual você já tem acesso limitad
 
 1. Na lista suspensa, selecione o nível de acesso que você está solicitando.
 1. (Opcional) No campo **PS.**, especifique uma observação sobre por que você precisa de acesso adicional.
-1. Clique em **Solicitar Acesso**.\
+1. Clique em **Solicitar Acesso**.
+
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Solicitar caixa de diálogo de acesso](assets/request-access-to-project.png)
+
+   Imagem de amostra no ambiente de produção:
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarquia dos menus suspensos &quot;Solicitar acesso&quot; e &quot;Solicitar mais acesso&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
