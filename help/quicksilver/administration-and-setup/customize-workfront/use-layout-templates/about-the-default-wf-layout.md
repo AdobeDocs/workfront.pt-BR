@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 6%
+source-wordcount: '621'
+ht-degree: 9%
 
 ---
 
@@ -26,11 +26,459 @@ Para obter informações sobre como um administrador do Workfront pode modificar
 >
 >Os usuários podem alterar seu próprio layout editando suas preferências de perfil de usuário. Para obter mais informações, consulte a seção [Preferências](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) em [Configurar minhas configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-## Layouts padrão para cada nível de acesso
+## Itens padrão do menu principal para cada tipo de licença
 
-O layout padrão de cada usuário depende de seu nível de acesso. Alguns usuários podem não ver determinadas áreas no Menu principal ou determinados itens no painel esquerdo, dependendo do nível de acesso atribuído a eles.
+O layout padrão de cada usuário depende do tipo de licença. Alguns usuários podem não ver determinadas áreas no Menu principal ou determinados itens no painel esquerdo, dependendo do tipo de licença atribuída a eles.
 
-A tabela a seguir mostra a área de aterrissagem padrão e quais itens do painel esquerdo são exibidos para cada nível de acesso:
+Há dois tipos de licenças que sua organização pode atribuir:
+
+* Novas licenças
+* Licenças atuais
+
+<!--rename the above if we change Current to Legacy-->
+
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+### Menu principal padrão dos tipos de licença atuais
+
+A tabela a seguir mostra os itens padrão do Menu principal e quais itens do painel esquerdo são exibidos para cada tipo de licença atual:
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:bold">Área</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Itens do painel esquerdo</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Administrador de Sistema</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Planejador</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Trabalhador</span></th>
+    <th class="tg-1wig">Revisor</th>
+    <th class="tg-1wig">Solicitante</th>
+    <th class="tg-1wig">Usuário externo</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Início</td>
+    <td class="tg-0lax">Página Inicial<br>Prioridades</td>
+    <td class="tg-0lax">✔ (página de aterrissagem padrão)</td>
+    <td class="tg-0lax">✔ (página de aterrissagem padrão)</td>
+    <td class="tg-0lax">✔ (página de aterrissagem padrão)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Projetos</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ </td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Portfólios</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Programas</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Relatórios</td>
+    <td class="tg-0lax">Meus Relatórios<br>Compartilhados Comigo<br>Todos Os Relatórios</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (Compartilhado comigo e Todos os relatórios no painel esquerdo)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (Compartilhado comigo e Todos os relatórios no painel esquerdo)</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Painéis</td>
+    <td class="tg-0lax">Meus Painéis<br>Painéis Compartilhados<br>Todos os Painéis<br>Painéis do Canvas*</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Calendários</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Recursos</td>
+    <td class="tg-0lax">Planejador<br>Balanceador de Carga de Trabalho<br>Utilização<br>Pools de Recursos</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (Planejador e Conjuntos de Recursos no painel esquerdo)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Equipes</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Usuários</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Solicitações</td>
+    <td class="tg-0lax">Enviado<br>Rascunhos</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Planilhas de horas</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Documentos</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Modelos</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Análise</td>
+    <td class="tg-0lax">Trabalho<br>Pessoas</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Cenários</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Quadros</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Blueprints</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (Recurso de instalação)</td>
+    <td class="tg-0lax">✔ (Somente recurso de solicitação)</td>
+    <td class="tg-0lax">✔ (Somente recurso de solicitação)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Prioridades</td>
+    <td class="tg-0lax">Página Inicial<br>Prioridades</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Configuração</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (funcionalidade limitada)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Minhas atualizações</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (página de aterrissagem padrão)</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+
+</tbody></table>
+
+*Você deve estar inscrito no Canvas Dashboards beta para visualizar esta área. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+### Menu principal padrão para novos tipos de licença
+
+A tabela a seguir mostra os itens padrão do Menu principal e quais itens do painel esquerdo são exibidos para cada novo tipo de licença:
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-fymr">Área</th>
+    <th class="tg-fymr">Itens do painel esquerdo</th>
+    <th class="tg-fymr">Administrador de Sistema</th>
+    <th class="tg-fymr">Padrão</th>
+    <th class="tg-fymr">Leve</th>
+    <th class="tg-fymr">Colaborador</th>
+    <th class="tg-fymr">Usuário externo</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Início</td>
+    <td class="tg-0pky">Página Inicial<br>Prioridades</td>
+    <td class="tg-0pky">✔ (página de aterrissagem padrão)</td>
+    <td class="tg-0pky">✔ (página de aterrissagem padrão)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (página de aterrissagem padrão)</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Projetos</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ </td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Portfólios</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Programas</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Relatórios</td>
+    <td class="tg-0pky">Meus Relatórios<br>Compartilhados Comigo<br>Todos Os Relatórios</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (Compartilhado comigo e todos os relatórios no painel esquerdo)</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Painéis</td>
+    <td class="tg-0pky">Meus Painéis<br>Painéis Compartilhados<br>Todos os Painéis<br>Painéis do Canvas*</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Calendários</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Recursos</td>
+    <td class="tg-0pky">Planejador<br>Balanceador de Carga de Trabalho<br>Utilização<br>Pools de Recursos</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Equipes</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Usuários</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Solicitações</td>
+    <td class="tg-0pky">Enviado<br>Rascunhos</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Planilhas de horas</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Documentos</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Modelos</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Análise</td>
+    <td class="tg-0pky">Trabalho<br>Pessoas</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Cenários</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Quadros</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Blueprints</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (Recurso de instalação)</td>
+    <td class="tg-0pky">✔ (Somente recurso de solicitação)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Prioridades</td>
+    <td class="tg-0pky">Página Inicial<br>Prioridades</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Configuração</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔ (funcionalidade limitada)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Minhas atualizações</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (página de aterrissagem padrão)</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody></table>
+
+*Você deve estar inscrito no Canvas Dashboards beta para visualizar esta área. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+<!--
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,114 +491,104 @@ A tabela a seguir mostra a área de aterrissagem padrão e quais itens do painel
  <col> 
  <thead> 
   <tr> 
-   <th>Área</th> 
-   <th> Itens do painel esquerdo </th> 
-   <th> Administrador de Sistema</th> 
-   <th> Planejador </th> 
-   <th>Trabalhador</th> 
-   <th>Revisor</th> 
-   <th>Solicitante</th> 
-   <th>Usuário externo</th> 
+   <th>Area</th> 
+   <th> Left panel items </th> 
+   <th> System Administrator</th> 
+   <th> Planner </th> 
+   <th>Worker</th> 
+   <th>Reviewer</th> 
+   <th>Requestor</th> 
+   <th>External User</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td rowspan="2"><strong>Projetos</strong> </td> 
-   <td><strong>Projetos</strong> </td> 
-   <td>✔ <br>(Área de aterrissagem padrão)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Área de aterrissagem padrão)</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td rowspan="2"><strong>Projects</strong> </td> 
+   <td><strong>Projects</strong> </td> 
+   <td>✔ <br>(Default landing area)</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br>(Default landing area)</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Portfólios</strong> </td> 
+   <td><strong>Portfolios</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Relatórios</strong> </td> 
-   <td><strong>Relatórios</strong> </td> 
+   <td rowspan="3"><strong>Reporting</strong> </td> 
+   <td><strong>Reports</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Painéis</strong> </p> </td> 
+   <td> <p><strong>Dashboards</strong> </p> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Calendários</strong> </td> 
+   <td><strong>Calendars</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>Pessoas</strong> (renomeado para <strong>Equipes</strong> para usuários com uma licença de Trabalho)</td> 
-   <td><strong>Equipes</strong> </td> 
+   <td rowspan="5"><strong>People</strong> (renamed to <strong>Teams</strong> for users with a Work license)</td> 
+   <td><strong>Teams</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Pessoas</strong> </td> 
+   <td><strong>People</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> <!--
-   <tr> 
-    <td><strong>Legacy Resource Planning</strong> </td> 
-    <td>✔ </td> 
-    <td>✔ </td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-   </tr>
-  --> 
-  <tr> 
-   <td><strong>Planejamento</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Agendando</strong> </td> 
+   <td><strong>Planning</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Solicitações</strong> </td> 
-   <td>Nova solicitação </td> 
+   <td><strong>Scheduling</strong> </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td rowspan="3"><strong>Requests</strong> </td> 
+   <td>New Request </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -159,16 +597,16 @@ A tabela a seguir mostra a área de aterrissagem padrão e quais itens do painel
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td><strong>Solicitações que enviei</strong> </td> 
+   <td><strong>Requests I've Submitted</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br>(Área de aterrissagem padrão)</td> 
-   <td>✔ <br>(Área de aterrissagem padrão)</td> 
+   <td>✔ <br>(Default landing area)</td> 
+   <td>✔ <br>(Default landing area)</td> 
   </tr> 
   <tr> 
-   <td><strong>Todas as solicitações</strong> </td> 
+   <td><strong>All Requests</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -177,52 +615,53 @@ A tabela a seguir mostra a área de aterrissagem padrão e quais itens do painel
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Planilha de horas</strong> </td> 
-   <td><strong>Minhas Planilhas de Horas</strong> </td> 
+   <td rowspan="3"><strong>Timesheet</strong> </td> 
+   <td><strong>My Timesheets</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Planilhas De Horas Que Eu Aprovo</strong> </td> 
+   <td><strong>Timesheets I Approve</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Todas as Planilhas de Horas</strong> </td> 
+   <td><strong>All Timesheets</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Documentos</strong> </td> 
-   <td> </td> 
+   <td><strong>Documents</strong> </td> 
+   <td>&nbsp;</td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Configuração</strong> </td> 
-   <td> </td> 
+   <td><strong>Setup</strong> </td> 
+   <td>&nbsp;</td> 
    <td>✔ </td> 
-   <td>Funcionalidade limitada</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>Limited Functionality</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
+-->

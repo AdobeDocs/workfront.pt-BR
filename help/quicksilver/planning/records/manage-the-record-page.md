@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -256,23 +256,29 @@ As seguintes situações ocorrem:
 
 <span class="preview">
 
-## Adicionar uma página de exibição conectada à página de um registro
+## Adicionar uma página de exibição de conexão à página de um registro
 
-Você pode adicionar uma página de exibição conectada à página de um registro.
+Considere o seguinte ao adicionar uma exibição de Conexão à página de um registro:
 
-Não é possível adicionar uma página de exibição conectada à área de visualização de um registro.
+* Você pode adicionar uma página de exibição de conexão à página de um registro.
 
-As páginas de exibição conectadas exibem uma página de registro conectada na exibição de tabela. A exibição de tabela é somente leitura.
+* Não é possível adicionar uma página de exibição de conexão à área de visualização de um registro.
 
-É possível adicionar uma página de Exibição conectada para cada tipo de registro conectado.  <!--edit this when we can remove fields from this page-->
+* As páginas de exibição de conexão exibem uma página de registro conectada na exibição de tabela. A exibição de tabela é somente leitura.
 
-Para adicionar uma página de exibição conectada:
+* É possível adicionar uma página de exibição de conexão para cada tipo de registro conectado.  <!--edit this when we can remove fields from this page-->
 
-1. Em uma exibição de página de registro, clique no nome de um registro para abri-lo e, em seguida, clique no ícone Abrir em nova guia ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da página de visualização.
-1. Clique em **Adicionar página** > **Modo de exibição conectado**.
-1. Adicione o **Nome da página** e clique em **Criar**.
+* Depois de adicionar uma página de exibição de conexão à página de um registro, a página fica visível na área de visualização do registro.
 
-   Uma página adicional é adicionada à página do registro em uma nova guia.
+Para adicionar uma página de exibição de conexão:
+
+1. Em uma exibição de página de registro, clique no nome de um registro para abri-lo e no ícone ![](assets/open-details-in-a-new-tab-icon.png) da **guia Abrir em nova**, no canto superior direito da página de visualização.
+1. Clique em **Adicionar página** > **Exibição de conexão**.
+
+   ![](assets/add-connection-view-page-modal.png)
+1. Adicione o **Nome da página**, clique em **Modo de exibição de conexão** e em **Criar**.
+
+   Uma nova guia é adicionada à página do registro.
 1. Pesquise ou clique no nome de um registro ou tipo de objeto conectado na lista.
 A exibição de tabela do tipo de registro selecionado é exibida e os registros conectados são exibidos na exibição de tabela.
 A exibição de tabela é somente leitura.
@@ -284,6 +290,7 @@ A exibição de tabela é somente leitura.
 
    Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![](assets/more-menu.png) e em **Renomear** para renomear para a nova guia Modo de Exibição Conectado.
 1. (Opcional) Use quaisquer elementos de exibição na barra de ferramentas para gerenciar a exibição de tabela. Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+1. (Opcional) Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![](assets/more-menu.png) e em **Excluir** para remover para a nova guia de exibição Conectada.
 
 </span>
 

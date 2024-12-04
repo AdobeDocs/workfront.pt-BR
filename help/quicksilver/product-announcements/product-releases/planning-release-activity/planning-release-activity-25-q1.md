@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Introduzimos uma mensagem de aviso ao editar ou criar um campo de fórmula que p
 
 Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
-## Adicionar páginas de exibição conectadas à página de um registro para exibir registros conectados em uma exibição de tabela
+## Adicionar páginas de exibição de conexão à página de um registro para exibir registros conectados em uma exibição de tabela
 
 >[!NOTE]
 >

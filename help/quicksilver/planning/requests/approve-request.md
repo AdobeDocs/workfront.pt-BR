@@ -3,9 +3,9 @@ title: Aprovar uma solicitação
 description: Quando um usuário envia uma solicitação a um formulário de solicitação associado a uma aprovação no Adobe Workfront Planning, os aprovadores recebem uma notificação e um email sobre a aprovação pendente. Eles devem aprovar a solicitação antes que o Workfront Planning crie um objeto.
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ As solicitações enviadas são exibidas na guia Planejamento da seção Enviado
 * **Aprovado**: quando um aprovador aprova o objeto de solicitação, seu status individual torna-se
 * **Aprovado**, mas o status geral do objeto de solicitação permanece **Em revisão** até que todos os aprovadores tenham tomado suas decisões.
 * **Concluído**: se todos os aprovadores aprovarem o objeto de solicitação, seu status será alterado para **Concluído** ou se a solicitação não precisar de aprovação.
-* **Rejeitada**: se qualquer aprovador rejeitar o objeto de solicitação, o status será **Rejeitada**.
+* **Rejeitada**: se qualquer aprovador rejeitar o objeto de solicitação, o status será **Rejeitada**. Nenhum registro é criado e uma nova solicitação deve ser enviada para criar o registro.
 
 ## Requisitos de acesso
 

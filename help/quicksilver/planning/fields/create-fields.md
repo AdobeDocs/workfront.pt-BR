@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 1%
@@ -298,6 +298,16 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
    **Classifique a opção A-Z** se desejar que as opções sejam listadas automaticamente em ordem alfabética. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Opcional) Para remover uma opção, clique no ícone **x** à direita.
 1. Clique na amostra de cores à esquerda de uma opção para expandir o seletor de cores e personalizar a cor de cada opção.
+
+   <!--
+    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+        <span class="preview">Or</span>
+
+        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+        </span>
+    1. <span class="preview:>Click outside the color box to close it. </span>     
+    -->
 1. Clique em **Criar**.
 
    O novo campo de seleção múltipla é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.
@@ -320,6 +330,16 @@ Os campos de seleção única capturam informações adicionais em qualquer form
 1. (Opcional) Arraste e solte manualmente cada opção na ordem desejada ou selecione a opção **Classificar opções de A a Z** se desejar que as opções sejam listadas automaticamente em ordem alfabética. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Opcional) Para remover uma opção, clique no ícone **x** à direita.
 1. Clique na amostra de cores à esquerda de uma opção para expandir o seletor de cores e personalizar a cor de cada opção.
+
+   <!--
+        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+            <span class="preview">Or</span>
+
+            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+            </span>
+        1. <span class="preview:>Click outside the color box to close it. </span>     
+        -->
 1. Clique em **Criar**.
 
    O novo campo de seleção única é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.
