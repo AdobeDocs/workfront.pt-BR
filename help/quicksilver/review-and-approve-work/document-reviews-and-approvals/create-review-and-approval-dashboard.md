@@ -5,12 +5,10 @@ title: Criar um painel de revisão e aprovação
 description: Você pode revisar métricas de aprovações nos Painéis do Canvas.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
+source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
@@ -48,10 +46,9 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 
 ### KPIs
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>Os dados de aprovação de novos documentos são atualizados atualmente durante as noites no fuso horário das montanhas dos EUA. As atualizações em tempo real estão planejadas e serão lançadas em breve.
 
 ![Exemplos de KPI](assets/kpi-dashboard.png)
 
@@ -132,6 +129,10 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 
 ### Gráficos
 
+>[!IMPORTANT]
+>
+>Os dados de aprovação de novos documentos são atualizados atualmente durante as noites no fuso horário das montanhas dos EUA. As atualizações em tempo real estão planejadas e serão lançadas em breve.
+
 ![Exemplos de gráfico](assets/chart-dashboard.png)
 
 #### Gráfico de barras de decisão para aprovações
@@ -178,6 +179,10 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Concluído** no canto superior direito da tela.
 
 ## Adicionar informações detalhadas de revisão e aprovação com Tabelas
+
+>[!IMPORTANT]
+>
+>Os dados de aprovação de novos documentos são atualizados atualmente durante as noites no fuso horário das montanhas dos EUA. As atualizações em tempo real estão planejadas e serão lançadas em breve.
 
 ![exemplo de tabela](assets/table-dashboard.png)
 
