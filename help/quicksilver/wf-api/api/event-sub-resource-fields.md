@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '757'
 ht-degree: 9%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 9%
 # Campos de recurso de assinatura do evento
 
 Os campos de recurso de assinatura de evento representam acionadores para eventos que fazem com que uma assinatura de evento envie uma mensagem de saída para um ponto de extremidade configurado. Quando um campo de recurso é editado, um evento UPDATE é acionado.
+
+Observe que os dados podem ser filtrados usando a filtragem aninhada. Para obter mais informações, consulte [Uso de filtros aninhados](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) no artigo API de Assinatura de Evento.
 
 A tabela a seguir lista os campos disponíveis para recursos de assinatura de eventos:
 
