@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
+source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
 workflow-type: tm+mt
-source-wordcount: '2173'
+source-wordcount: '2181'
 ht-degree: 3%
 
 ---
@@ -685,6 +685,27 @@ A Assinatura de Evento oferece suporte à filtragem em campos aninhados de event
     ],
     "filterConnector": 'AND'
 }
+```
+
+Filtros duplamente aninhados também podem ser endereçados.
+
+```
+"filters": [
+    {
+        "fieldName": "data",
+        "fieldValue": {
+            "fields": {
+                "children": {
+                    "customerId":"customer1234",
+                    "name":"New Campaign"
+                }
+            }
+        },
+        "comparison": "eq",
+        "state": "newState"
+    }
+],
+"filterConnector": 'AND'
 ```
 
 ### Uso de campos de conector
