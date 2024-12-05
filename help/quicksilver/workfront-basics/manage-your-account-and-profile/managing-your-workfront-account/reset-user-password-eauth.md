@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Redefinir a senha de um usuário com Autenticação Aprimorada
 description: Quando a Autenticação Aprimorada (eAuth) está habilitada para o seu Ambiente  [!DNL Workfront] , um administrador  [!DNL Workfront]  não pode redefinir as credenciais de logon de outro usuário. Isso difere de  [!DNL Workfront] ambientes sem eAuth ou dos ambientes para os quais o Logon único (SSO) está habilitado.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

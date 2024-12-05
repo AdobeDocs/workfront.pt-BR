@@ -2,13 +2,13 @@
 content-type: reference
 product-area: user-management
 navigation-topic: manage-your-account-and-profile
-title: Gerenciar sua conta  [!DNL Adobe Workfront]
+title: 'Gerenciar sua conta  [!DNL Adobe Workfront] '
 description: Leia estes artigos para saber como gerenciar a sua conta  [!DNL Workfront] do.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: f442a681-39fa-499c-8b1f-95d50424f539
-source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%
