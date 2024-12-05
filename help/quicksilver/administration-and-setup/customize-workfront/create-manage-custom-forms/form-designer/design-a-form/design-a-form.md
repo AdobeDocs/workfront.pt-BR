@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 5%
 
 ---
@@ -750,11 +750,11 @@ Para adicionar imagens, PDF ou vídeos:
 
    Clique em **Salvar e fechar**.
 
-#### Adicionar um widget de vídeo a um formulário personalizado na área Documentos{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Adicionar uma imagem ou vídeo a um formulário personalizado da área Documentos{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->Ao adicionar um vídeo a um formulário personalizado dessa maneira, somente as permissões definidas para o formulário personalizado se aplicam ao vídeo quando os usuários acessam o formulário em um objeto, não as permissões definidas para o vídeo na área Documentos.
+>Ao adicionar um vídeo a um formulário personalizado dessa maneira, as permissões definidas na área Documentos se aplicam ao vídeo quando os usuários acessam o formulário em um objeto.
 
 1. Vá para o vídeo na área Documentos e gere uma prova para ele, conforme descrito em [Criar uma prova interativa para um site ou outro conteúdo da Web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Abra a prova.
