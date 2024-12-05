@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
+source-wordcount: '4370'
 ht-degree: 1%
 
 ---
@@ -210,7 +210,12 @@ OLD:
    Passe o mouse sobre o cabeçalho de qualquer coluna, clique na seta para baixo após o nome do campo e clique em **Inserir à esquerda** ou **Inserir à direita** para adicionar o novo campo.
 1. Na guia **Novo campo**, procure por um tipo de campo na caixa **Tipo de campo** ou selecione um dos seguintes tipos de campo:
 
-   Na guia **Novo campo**, procure por um tipo de campo na caixa <!--using any related keyword--> **Tipo de campo** ou selecione um dos tipos de campo listados abaixo.
+   Na guia **Novo campo**, procure um tipo de campo na caixa **Tipo de campo** usando qualquer palavra-chave relacionada ou selecione um dos tipos de campo listados abaixo.
+
+   >[!TIP]
+   >
+   >    Você pode digitar &quot;Orçamento&quot; e os tipos de campo Número e Moeda são exibidos em uma pequena lista.
+
 
 
    * [Texto de linha única](#single-line-text)
@@ -299,15 +304,13 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
 1. (Opcional) Para remover uma opção, clique no ícone **x** à direita.
 1. Clique na amostra de cores à esquerda de uma opção para expandir o seletor de cores e personalizar a cor de cada opção.
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview">Clique em **Amostras** para selecionar uma cor predefinida</span>
 
-        <span class="preview">Or</span>
+   <span class="preview">Ou</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview">Clique em **Personalizado** para selecionar uma cor personalizada usando um seletor de cores ou um código hexadecimal.
+   </span>
+1. Clique fora da caixa de cores para fechá-la.
 1. Clique em **Criar**.
 
    O novo campo de seleção múltipla é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.
@@ -330,16 +333,13 @@ Os campos de seleção única capturam informações adicionais em qualquer form
 1. (Opcional) Arraste e solte manualmente cada opção na ordem desejada ou selecione a opção **Classificar opções de A a Z** se desejar que as opções sejam listadas automaticamente em ordem alfabética. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Opcional) Para remover uma opção, clique no ícone **x** à direita.
 1. Clique na amostra de cores à esquerda de uma opção para expandir o seletor de cores e personalizar a cor de cada opção.
+1. <span class="preview">Clique em **Amostras** para selecionar uma cor predefinida</span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">Ou</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview">Clique em **Personalizado** para selecionar uma cor personalizada usando um seletor de cores ou um código hexadecimal.
+   </span>
+1. Clique fora da caixa de cores para fechá-la.
 1. Clique em **Criar**.
 
    O novo campo de seleção única é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.

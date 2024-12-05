@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Criar Regras de Encaminhamento
-description: As Regras de Encaminhamento controlam o que o Adobe Workfront faz com os problemas quando eles são enviados para uma Fila de solicitações. Para obter mais informações sobre como criar Filas de solicitações, consulte Criar uma fila de solicitações.
-author: Lisa
+description: As Regras de Encaminhamento controlam o que o Adobe Workfront faz com os problemas quando eles são enviados para uma Fila de solicitações.
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -27,73 +27,42 @@ As regras de roteamento enviam problemas para usuários específicos ou funçõe
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<!--drafted - replace the table at P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader"><p>plano do Adobe Workfront</p></td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>
-    <p>Novo: Padrão</p>
-    <p>ou</p>
-    <p>Atual: Plano</p></td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Nova licença: Standard </p> 
+   Ou
+   <p>Licença atual: plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td>
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a projetos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p> Gerenciar permissões do projeto</p> </td>
+   <td> <p> Gerenciar permissões do projeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Criar uma Regra de Encaminhamento
 
-1. Vá para o projeto no qual deseja adicionar as regras de roteamento para suas solicitações.
+1. Vá para o projeto no qual deseja adicionar regras de roteamento para suas solicitações.
 1. Clique em **Regras de roteamento** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Regras de Roteamento**.
-1. Clique em **Nova Regra de Roteamento** para adicionar a nova regra.
+1. Clique em **Nova Regra de Roteamento** para adicionar a nova regra. A caixa **Nova Regra de Roteamento** é aberta.
+
+   ![Caixa Nova Regra de Roteamento](assets/new-routing-rule-box.png)
 1. Especifique as seguintes informações para a Regra de Encaminhamento:
 
    <table style="table-layout:auto"> 
@@ -136,8 +105,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >*Se um usuário, função de trabalho ou equipe for desativado depois de ser associado a uma regra de roteamento, as solicitações continuarão a ser encaminhadas para eles. Periodicamente, você deve fazer um inventário de todas as regras de roteamento e substituir atribuições desativadas por ativas.
 
    Ao rotear um problema para um projeto, os usuários com permissões sobre o problema recebem as permissões definidas nesse projeto. Para obter informações sobre como configurar permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-
-   ![Caixa Nova Regra de Roteamento](assets/new-routing-rule-box.png)
 
 1. Clique em **Salvar**.
 
