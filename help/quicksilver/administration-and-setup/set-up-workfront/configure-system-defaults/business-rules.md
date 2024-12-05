@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,10 @@ Para obter informações sobre curingas baseados no usuário, consulte [Usar cur
 
 Para obter informações sobre curingas baseados em data, consulte [Usar curingas baseados em data para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-Um curinga de API também está disponível nas regras de negócios. Você pode usar `$$ISAPI` para acionar a regra somente na interface ou somente na API.
+Um curinga de API também está disponível nas regras de negócios. Use `$$ISAPI` para acionar a regra somente na API. Use `!$$ISAPI` para impor a regra somente na interface do usuário e permitir que os usuários ignorem a regra por meio da API.
+
+* Por exemplo, essa regra proíbe que os usuários editem projetos concluídos por meio da API. Se o curinga não fosse usado, a regra bloquearia a ação na interface do usuário e na API.
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 Os curingas `$$BEFORE_STATE` e `$$AFTER_STATE` são usados em expressões para acessar os valores de campo do objeto antes e depois de qualquer edição.
 
