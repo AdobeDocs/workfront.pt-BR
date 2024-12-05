@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período do primeiro trimestre de 2025.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do Primeiro trimestre de 2025, consulte a [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Experiência atualizada na página Provedores de nuvem na área Configuração
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 5 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 24.12 (12 de dezembro de 2024)
+
+Para aprimorar o desempenho, fizemos atualizações visuais na página Provedores de nuvem na área Configuração.
+
+Uma pequena mudança de funcionalidade foi aplicada à integração com o Quip. Em vez de inserir a ID do cliente e o Segredo do cliente diretamente na página Provedores de nuvem, clique no ícone Editar para tornar esses campos visíveis.
+
+## Atualização da aparência para a caixa de diálogo Solicitar acesso
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 28 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+
+A caixa de diálogo para solicitar acesso a objetos foi atualizada para um design mais moderno que é consistente com outras áreas do Workfront. Essa caixa de diálogo está disponível quando você solicita acesso a projetos, tarefas, problemas, programas, portfólios, modelos e tarefas de modelo.
+
+Para obter informações, consulte [Solicitar acesso a objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Atualizações de aparência para integrações de documentos
 
@@ -30,7 +50,7 @@ Fizemos atualizações de desempenho na área em Configuração, onde você conf
 
 >[!NOTE]
 >
->Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
 
 Atualizamos as páginas Membros da empresa e Taxas de cobrança da empresa com um design mais moderno que é consistente com outras áreas do Workfront. As associações de empresa são acessadas por meio de Configuração > Empresas > selecione um nome de empresa > selecione Membros da empresa no painel esquerdo. As taxas de faturamento da empresa são acessadas em Configurar > Empresas > selecione o nome de uma empresa > selecione Taxas de faturamento no painel esquerdo.
 
@@ -53,7 +73,7 @@ As alterações mais notáveis são as seguintes:
 
 >[!NOTE]
 >
->Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
 
 Estamos introduzindo um novo formato de lista na área Configuração do Workfront e a lista de taxas de câmbio é a primeira página a usar esse formato de tabela. A funcionalidade de adicionar novas taxas de câmbio e pesquisar taxas de câmbio não foi alterada.
 
@@ -63,7 +83,7 @@ Para obter informações sobre taxas de câmbio, consulte [Configurar taxas de c
 
 >[!NOTE]
 >
->Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
 
 Atualizamos a página Exportar dados (Kick-Starts) na área Configuração com um design mais moderno e consistente com outras áreas do Workfront.
 

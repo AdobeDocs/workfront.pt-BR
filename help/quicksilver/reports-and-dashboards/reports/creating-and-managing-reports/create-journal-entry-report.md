@@ -5,14 +5,16 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2734'
 ht-degree: 4%
 
 ---
 
 # Relatório na área Atualizações
+
+<!-- Audited: 11/2024 -->
 
 O relatório de Lançamento documentado revela atualizações de sistema da área Atualizações de projetos, tarefas, problemas e outros objetos que antes só estavam disponíveis por meio da API do Adobe Workfront. Embora este seja um relatório avançado destinado a casos de uso específicos, o formato mais simples facilita a criação de relatórios sobre atividades de projeto e atualizações de sistema no Workfront.
 
@@ -45,7 +47,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão </p><p>Ou </p><p>Atual: Plano </p> </td> 
+      <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -58,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -222,7 +233,8 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
       <td> <p>A chave para o status atualizado.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Código de Objeto Superior</p> </td> 
+      <td> <p style="font-weight: bold;">Código de objeto principal
+</p> </td> 
       <td> <p>O objeto pai mais alto do campo que teve a alteração de status.</p> </td> 
      </tr> 
      <tr> 
@@ -439,7 +451,7 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 
    * **ID do Projeto** > **Igual** > **`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -503,7 +515,8 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
       <td> <p>A data em que a Data de conclusão planejada do projeto foi alterada.</p> <p>Você deve classificar por esse campo em ordem decrescente.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Código de Objeto Superior</p> </td> 
+      <td> <p style="font-weight: bold;">Código de objeto principal
+</p> </td> 
       <td> <p>O objeto pai mais alto do campo que teve a data de conclusão planejada alterada.</p> </td> 
      </tr> 
      <tr> 
@@ -596,7 +609,8 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
       <td> <p>O tipo de alteração que ocorreu, como <strong>Adicionar</strong>, <strong>Excluir</strong> ou <strong>Editar</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Código de Objeto Superior</p> </td> 
+      <td> <p style="font-weight: bold;">Código de objeto principal
+</p> </td> 
       <td> <p>O objeto pai mais alto do projeto que teve o proprietário atualizado.</p> </td> 
      </tr> 
      <tr> 
@@ -629,7 +643,7 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
    * **Nome do Campo** > **Igual** > **IDdoProprietário**
    * **ID do Projeto** > **Igual** > **`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Alteramos a maneira como os ativos movidos e excluídos são tratados ao usar a 
 
 >[!NOTE]
 >
->Versão de pré-visualização: 11 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 11 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
 
 Quando um formulário personalizado com várias seções é anexado a um objeto, agora é possível recolher e expandir todas as seções, exceto a seção padrão na parte superior do formulário. O administrador também pode visualizar essa funcionalidade ao visualizar o formulário no designer do formulário.
 

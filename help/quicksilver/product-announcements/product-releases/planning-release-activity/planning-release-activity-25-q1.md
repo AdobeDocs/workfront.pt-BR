@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,31 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning após a versão de disponibilidade geral em 28 de agosto de 2024, consulte [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Pesquisa inteligente ao procurar um tipo de campo
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 5 de dezembro de 2024; Versão de produção para todos os clientes: 5 de dezembro de 2024
+
+Adicionamos a funcionalidade de pesquisa inteligente ao procurar um tipo de campo no Workfront Planning. Agora é possível encontrar tipos de campo ao digitar uma palavra-chave. Por exemplo, digitar &quot;Preço&quot; localiza os tipos de campo Número e Moeda. Antes dessa melhoria, você poderia pesquisar somente pelo nome do tipo de campo real.
+
+Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+
+## Seletor de cores personalizado para opções codificadas por cores de campos de seleção única ou múltipla
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 5 de dezembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
+
+Agora, você pode fazer escolhas de cores personalizadas ao criar ou editar um campo de seleção única ou múltipla. Ao criar ou editar campos com opções codificadas por cores, clicar no ícone de cor abre uma caixa do seletor de cores. Você pode escolher entre cores predefinidas ou criar cores personalizadas usando códigos hexadecimais ou um espectro de cores.
+
+Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Importar campos existentes do Workfront para tipos de registro do Workfront Planning
 
 >[!NOTE]
 >
->Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Agora, ao adicionar campos a um tipo de registro, você tem a opção de importar campos personalizados ou nativos existentes do Workfront e associá-los ao tipo de registro selecionado. A importação de campos existentes cria uma cópia dos campos do Workfront no Workfront Planning. Os campos copiados são independentes das versões originais.
 
@@ -53,7 +72,7 @@ Para obter informações, consulte [Importar campos do Adobe Workfront](/help/qu
 
 >[!NOTE]
 >
->Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Agora é possível importar novos tipos de registro importando um arquivo CSV ou do Excel.
 
@@ -71,7 +90,7 @@ Para obter mais informações, consulte [Criar tipos de registro](/help/quicksil
 
 >[!NOTE]
 >
->Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Introduzimos uma mensagem de aviso ao editar ou criar um campo de fórmula que pode criar uma referência circular a si mesmo ou campos compartilhados. Não é possível salvar um campo de fórmula que faça referência a ele mesmo ou a itens referenciados em seu cálculo.
 
@@ -81,7 +100,7 @@ Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fie
 
 >[!NOTE]
 >
->Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 É possível adicionar páginas à área de detalhes de um registro para exibir registros conectados em uma exibição de tabela. É possível adicionar uma página por registro conectado.
 
@@ -93,7 +112,7 @@ Para obter informações, consulte [Gerenciar o layout da página de registro](/
 
 >[!NOTE]
 >
->Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Agora é possível encontrar solicitações do Workfront Planning na seção Enviado da área Solicitações do Workfront. A seção Enviado agora exibe as seguintes guias:
 
@@ -110,7 +129,7 @@ Para obter informações, consulte [Enviar solicitações do Adobe Workfront Pla
 
 >[!NOTE]
 >
->Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Agora é possível adicionar os seguintes tipos de campo a um formulário de solicitação de tipo de registro no Workfront Planning:
 
@@ -125,7 +144,7 @@ Para obter informações, consulte Criar e gerenciar um formulário de solicita�
 
 >[!NOTE]
 >
->Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 27 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Não é mais possível compartilhar um formulário de solicitação publicamente se ele contiver qualquer um dos seguintes tipos de campo:
 
@@ -141,7 +160,7 @@ Para obter informações, consulte [Criar e gerenciar um formulário de solicita
 
 >[!NOTE]
 >
->Versão de pré-visualização: 26 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 26 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Agora é possível exibir registros na exibição de calendário por semana. Antes dessa melhoria, você poderia exibir a exibição do calendário somente por mês.
 
@@ -151,7 +170,7 @@ Para obter informações, consulte [Gerenciar a exibição de calendário](/help
 
 >[!NOTE]
 >
->Versão de pré-visualização: 22 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 22 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Após a exclusão dos registros, eles agora são movidos temporariamente para um compartimento Excluído recentemente por 30 dias. Você pode acessar o compartimento Recentemente excluído na página do tipo de registro e ele contém apenas registros de um tipo específico.
 
@@ -165,7 +184,7 @@ Para obter mais informações, consulte [Restaurar registros excluídos](/help/q
 
 >[!NOTE]
 >
->Versão de pré-visualização: 21 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 21 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Para facilitar a realização do trabalho, adicionamos o Assistente de IA de Adobe à visualização dos detalhes de um registro ou à página do registro. Você pode usar o Assistente de IA dentro de uma página de registro para atualizar informações sobre o registro.
 
@@ -175,7 +194,7 @@ Para obter informações, consulte [visão geral do Assistente de IA do Adobe Wo
 
 >[!NOTE]
 >
->Versão de pré-visualização: 20 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 20 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
 
 Ao abrir uma visualização ou página de registro e o registro não tiver uma miniatura ou uma imagem de capa, passe o mouse sobre a área acima do nome do registro no cabeçalho para ver as opções de adição de uma capa e uma imagem de miniatura ao registro. Antes dessa melhoria, as imagens vazias de espaço reservado para a miniatura e a capa são exibidas acima do nome do registro.
 
@@ -188,7 +207,7 @@ Para obter mais informações, consulte os seguintes artigos:
 
 >[!NOTE]
 >
->Versão de pré-visualização: 7 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.12 (dezembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 7 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
 
 Para facilitar a leitura dos números na exibição de tabela, agora é possível selecionar entre as seguintes opções para alterar a forma como um campo do tipo Porcentagem é exibido na exibição de tabela:
 

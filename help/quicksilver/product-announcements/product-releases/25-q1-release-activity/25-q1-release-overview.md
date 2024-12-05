@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <p><b>Disponível nas seguintes datas:</b></p>
             <ul>
                 <li>Versão de pré-visualização: 21 de novembro de 2024</li>
-                <li>Produção para lançamento rápido: com o lançamento do 24.12 (dezembro de 2024)</li>
+                <li>Produção para lançamento rápido: com o lançamento do 24.12 (12 de dezembro de 2024)</li>
                 <li>Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)</li>
             </ul>
         </td>
@@ -80,7 +80,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <p><b>Disponível nas seguintes datas:</b></p>
             <ul>
                 <li>Versão de pré-visualização: 21 de novembro de 2024</li>
-                <li>Produção para lançamento rápido: com o lançamento do 24.12 (dezembro de 2024)</li>
+                <li>Produção para lançamento rápido: com o lançamento do 24.12 (12 de dezembro de 2024)</li>
                 <li>Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)</li>
             </ul>
         </td>
@@ -95,7 +95,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <p><b>Disponível nas seguintes datas:</b></p>
             <ul>
                 <li>Versão de pré-visualização: 21 de novembro de 2024</li>
-                <li>Produção para lançamento rápido: com o lançamento do 24.12 (dezembro de 2024)</li>
+                <li>Produção para lançamento rápido: com o lançamento do 24.12 (12 de dezembro de 2024)</li>
                 <li>Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)</li>
             </ul>
         </td>
@@ -175,7 +175,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <p><b>Disponível nas seguintes datas:</b></p>
             <ul>
                 <li>Versão de pré-visualização: 21 de novembro de 2024</li>
-                <li>Produção para lançamento rápido: com o lançamento do 24.12 (dezembro de 2024)</li>
+                <li>Produção para lançamento rápido: com o lançamento do 24.12 (12 de dezembro de 2024)</li>
                 <li>Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)</li>
             </ul>
         </td>
@@ -212,6 +212,21 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         </td>
         <td>
             <p><span class="bold">Datas de lançamento</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Acesse a página Detalhes de um projeto em Prioridades</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Agora você pode navegar diretamente para um projeto no Workfront a partir da lista de trabalho Prioridades.</p>
+        </td>
+        <td>
+            <p><b>Disponível nas seguintes datas:</b></p>
+            <ul>
+                <li>Versão de pré-visualização: 5 de dezembro de 2024</li>
+                <li>Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -353,7 +368,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <p><b>Disponível nas seguintes datas:</b></p>
             <ul>
                 <li>Versão de pré-visualização: 11 de novembro de 2024</li>
-                <li>Produção para lançamento rápido: com o lançamento do 24.12 (dezembro de 2024)</li>
+                <li>Produção para lançamento rápido: com o lançamento do 24.12 (12 de dezembro de 2024)</li>
                 <li>Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)</li>
             </ul>
         </td>

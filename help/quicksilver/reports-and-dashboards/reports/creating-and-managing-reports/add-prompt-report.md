@@ -6,9 +6,9 @@ description: Filtros e prompts são semelhantes, no sentido de que ambos restrin
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -172,3 +172,5 @@ A seguir, há limitações no compartilhamento de relatórios solicitados do Wor
 * Ao agendar um relatório solicitado para entrega, o relatório no anexo de email inclui os dados do relatório não solicitados. Quando o usuário clica no link no email para acessar o relatório, ele deve fazer logon primeiro para visualizar o relatório e executar o prompt.
 
   Para obter informações sobre como agendar um relatório entregue, consulte [Agendar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+* Ao executar um relatório com um prompt baseado em data, os resultados do relatório serão filtrados com base nas configurações de fuso horário do navegador. Isso pode causar pequenas discrepâncias nos intervalos de datas exibidos em um relatório solicitado para datas no início ou no final de um mês. Se as configurações de fuso horário do seu navegador estiverem vinculadas a um local específico, as variações no horário local desse local (como a adesão ao horário de verão) também serão fatoradas nas datas exibidas para um relatório solicitado. Isso pode levar a pequenas discrepâncias de intervalo de datas entre usuários no mesmo fuso horário, mas com configurações de local diferentes.
