@@ -8,10 +8,10 @@ description: Você pode exibir um log de atividades, como criação ou ativaçã
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '528'
+ht-degree: 0%
 
 ---
 
@@ -47,11 +47,14 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <p>Herdados: Qualquer um </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ser um administrador do Fusion para usar o Log de atividades.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Novo: [!DNL Workfront Fusion] está incluído no plano Ultimate Workfront.</p> <p>Ou</p>
-   <p>Atual: não disponível</p>
+   <p>Essa funcionalidade está disponível somente para organizações com o plano Ultimate Workfront, que inclui [!DNL Workfront Fusion]. Não é necessária nenhuma compra de produto adicional.</p>
    </td> 
   </tr>
  </tbody> 
