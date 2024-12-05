@@ -5,13 +5,13 @@ description: Você pode exibir detalhes do projeto e da tarefa na lista de traba
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
-
 
 # Exibir detalhes do projeto e da tarefa na lista de trabalho Prioridades
 
@@ -67,8 +67,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Exibir e adicionar comentários ao projeto
    * Registrar de tempo
    * Adicionar um arquivo
+   * <span class="preview">Ir diretamente para o projeto</span>
 
-   ![detalhes do projeto](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## Exibir detalhes da tarefa
 
@@ -83,4 +84,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Adicionar um arquivo
    * Adicionar links rápidos
 
-   ![detalhes da tarefa](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
