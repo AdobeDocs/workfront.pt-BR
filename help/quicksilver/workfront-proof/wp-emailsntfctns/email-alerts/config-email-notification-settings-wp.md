@@ -7,9 +7,9 @@ description: As notificações por email geradas pelo Workfront Proof informam o
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Clique em **[!UICONTROL Configurações]** > **[!UICONTROL Configurações pessoais]**.
+1. Clique na imagem do seu perfil no canto superior direito e em **[!UICONTROL Configurações pessoais]**.
 
 1. Clique na guia **[!UICONTROL Padrões da revisão]**.
 1. Clique em **[!UICONTROL Configurações padrão de notificação por email]** para expandi-las.
@@ -163,7 +163,7 @@ Você pode alterar alertas de email para um determinado recipient em uma ação 
 
 Se você for um administrador do [!DNL Workfront Proof], poderá definir padrões de prova para usuários em sua conta.
 
-1. Clique em **[!UICONTROL Configurações]** > **[!UICONTROL Configurações de conta]**.
+1. Clique em **[!UICONTROL Configurações da conta]** na parte superior da tela.
 
 1. Abra a guia **[!UICONTROL Usuários]**.
 1. Abra o menu **[!UICONTROL Mais]** ![Mais_botão_pequeno.png](assets/more-button-small.png) à direita do nome do usuário.

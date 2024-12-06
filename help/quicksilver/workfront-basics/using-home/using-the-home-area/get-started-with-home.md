@@ -6,10 +6,10 @@ description: O Início ajuda você a gerenciar seu trabalho. É possível person
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 4%
 
 ---
 
@@ -148,32 +148,6 @@ Você pode adicionar um pouco de clarão pessoal à sua Página inicial selecion
    O painel Personalizar é aberto.
 
 1. Na seção **Plano de fundo** do painel **Personalizar**, clique na cor que você deseja selecionar para o plano de fundo da Página Inicial. Você também pode clicar em **Nenhum** para remover o plano de fundo.
-
-## Reverter para a experiência atual da Página inicial
-
-Se preferir a experiência da Página inicial existente, desative a nova experiência.
-
-Para voltar para a experiência atual da Página inicial:
-
-1. Vá para a Home page seguindo um destes procedimentos:
-
-   * Se a Página inicial estiver definida como página de aterrissagem, clique no **ícone do Adobe Workfront** ![ícone do Adobe Workfront](assets/home-icon-30x29.png) no canto superior esquerdo da tela.
-   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do ](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
-
-1. Clique no botão **Voltar à página inicial atual**, no canto inferior direito da página.
-
-   ![Voltar ao botão Página Inicial atual](assets/customize-button.png)
-
-   Uma janela de confirmação é exibida.
-
-1. Faça uma breve pesquisa sobre a sua experiência com a nova Página Inicial ou clique em **Voltar para a Página Inicial atual** para reverter para a experiência da Página Inicial atual.
-
->[!NOTE]
->
-> Os administradores do sistema podem desativar a nova página inicial como padrão para seus usuários. Para obter informações sobre como alterar a experiência padrão da Página Inicial para usuários em um sistema, consulte [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
-
-
 
 
 
