@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
+source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 3%
+source-wordcount: '878'
+ht-degree: 2%
 
 ---
 
@@ -33,92 +33,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 >Para obter mais informações sobre o processo de lançamento rápido, consulte [Habilitar ou desabilitar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
-## Aprimoramentos do Adobe Workfront
-
-
-<table>
-<col style="width: 20%;" />
-<col style="width: 75%;" />
-<tbody>
-    <tr>
-    <td>Área</td>
-        <td>
-            <p><span class="bold">Recurso</span></p>
-        </td>
-        <td>Visualização</td>
-        <td>Lançamento rápido</td>
-        <td>Trimestralmente</td>
-    </tr>
-    <tr>
-     <td>Administração e configuração</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Preferência para usar projeto ou agendamento de usuário para tarefas de atribuição única</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>Como administrador de sistema ou de grupo, agora você tem uma nova preferência para indicar se o Workfront deve usar o cronograma do projeto ou do usuário para calcular a linha do tempo do projeto ao atribuir um usuário a uma tarefa e se o projeto e o usuário estão associados a um cronograma.</p>
-        </td>
-        <td>21 de novembro de 2024</td>
-        <td>Dezembro de 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-     <td>Administração e configuração</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Agora as regras de negócios oferecem suporte a hiperlinks</a></p>
-            [!MEDALHA fora do ciclo]{type=Caution}
-            <p>Agora é possível incluir hiperlinks na mensagem de erro personalizada de uma regra de negócios para orientar o usuário sobre como modificar sua ação dentro da restrição da regra. O URL estático pode vincular à documentação ou outras páginas que seriam úteis para o usuário.</p>
-        </td>
-        <td>sexta-feira, 14 de novembro de 2024</td>
-        <td>sexta-feira, 14 de novembro de 2024</td>
-        <td>sexta-feira, 14 de novembro de 2024</td>
-    </tr>    
-    <tr>
-     <td>Administração e configuração</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            A filtragem em campos de digitação antecipada nativos agora está disponível</a></p>
-            [!BADGE Fora de ciclo ]{type=Negative}
-            <p>Quando você adiciona uma referência de campo nativo a um formulário personalizado e ela faz referência a um campo de digitação antecipada (como Portfolio, Empresa ou Proprietário), uma opção de filtro está disponível. O filtro permite limitar os objetos que os usuários podem escolher quando estão usando o campo. Esse filtro personalizado funciona da mesma forma que um filtro em um campo de digitação antecipada personalizado, usando o Modo de texto para definir o filtro.</p>
-        </td>
-        <td>21 de novembro</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-     <td>Administração e configuração</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ícone "Mover para" adicionado a campos personalizados</a></p>
-            <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
-        </td>
-        <td>quarta-feira, 29 de outubro de 2024</td>
-          <td>Dezembro de 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Aprimoramentos do Workfront
-
-
-
-
-
 
 
 * [Aprimoramentos do administrador](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
@@ -127,7 +42,10 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 ### Melhorias do administrador
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -163,91 +81,25 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             A filtragem em campos de digitação antecipada nativos agora está disponível</a></p>
-            [!BADGE Fora de ciclo ]{type=Negative}
             <p>Quando você adiciona uma referência de campo nativo a um formulário personalizado e ela faz referência a um campo de digitação antecipada (como Portfolio, Empresa ou Proprietário), uma opção de filtro está disponível. O filtro permite limitar os objetos que os usuários podem escolher quando estão usando o campo. Esse filtro personalizado funciona da mesma forma que um filtro em um campo de digitação antecipada personalizado, usando o Modo de texto para definir o filtro.</p>
         </td>
         <td>21 de novembro</td>
         <td>25,12</td>
         <td>25,1</td>
     </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
-        </td>
-        <td>quarta-feira, 29 de outubro de 2024</td>
-          <td>Dezembro de 2024</td>
-        <td>25,1</td>
-    </tr>
+
 </tbody>
 </table>
+
 
 ### Aprimoramentos no gerenciamento de documentos
 
 
 <table>
-<col style="width: 50%;" />
-<tbody>
-    <tr>
-        <td>
-            <p><span class="bold">Recurso</span></p>
-        </td>
-        <td>Visualização</td>
-        <td>Lançamento rápido</td>
-        <td>Trimestralmente</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Preferência para usar projeto ou agendamento de usuário para tarefas de atribuição única</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>Como administrador de sistema ou de grupo, agora você tem uma nova preferência para indicar se o Workfront deve usar o cronograma do projeto ou do usuário para calcular a linha do tempo do projeto ao atribuir um usuário a uma tarefa e se o projeto e o usuário estão associados a um cronograma.</p>
-        </td>
-        <td>21 de novembro de 2024</td>
-        <td>Dezembro de 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Agora as regras de negócios oferecem suporte a hiperlinks</a></p>
-            [!BADGE New in Preview ]{type=Caution}
-            <p>Agora é possível incluir hiperlinks na mensagem de erro personalizada de uma regra de negócios para orientar o usuário sobre como modificar sua ação dentro da restrição da regra. O URL estático pode vincular à documentação ou outras páginas que seriam úteis para o usuário.</p>
-        </td>
-        <td>sexta-feira, 14 de novembro de 2024</td>
-        <td>sexta-feira, 14 de novembro de 2024</td>
-        <td>sexta-feira, 14 de novembro de 2024</td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            A filtragem em campos de digitação antecipada nativos agora está disponível</a></p>
-            [!BADGE Fora de ciclo ]{type=Negative}
-            <p>Quando você adiciona uma referência de campo nativo a um formulário personalizado e ela faz referência a um campo de digitação antecipada (como Portfolio, Empresa ou Proprietário), uma opção de filtro está disponível. O filtro permite limitar os objetos que os usuários podem escolher quando estão usando o campo. Esse filtro personalizado funciona da mesma forma que um filtro em um campo de digitação antecipada personalizado, usando o Modo de texto para definir o filtro.</p>
-        </td>
-        <td>21 de novembro</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ícone "Mover para" adicionado a campos personalizados</a></p>
-            [!BADGE Na produção para a versão rápida ]{type=Positive}
-            <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
-        </td>
-        <td>quarta-feira, 29 de outubro de 2024</td>
-          <td>Dezembro de 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-### Aprimoramentos no gerenciamento de documentos
-
-
-<table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -264,8 +116,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <p>Como administrador de sistema ou de grupo, agora você tem uma nova preferência para indicar se o Workfront deve usar o cronograma do projeto ou do usuário para calcular a linha do tempo do projeto ao atribuir um usuário a uma tarefa e se o projeto e o usuário estão associados a um cronograma.</p>
         </td>
         <td><p>16 de novembro de 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
-        <td>Dez de 2024</td>
-        <td>25,1</td>
+        <td><p>24,12</p></td>
+        <td><p>25,1</p></td>
     </tr>     
     <tr>
         <td>
@@ -273,9 +125,9 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             Agora as regras de negócios oferecem suporte a hiperlinks</a></p>
             <p>Agora é possível incluir hiperlinks na mensagem de erro personalizada de uma regra de negócios para orientar o usuário sobre como modificar sua ação dentro da restrição da regra. O URL estático pode vincular à documentação ou outras páginas que seriam úteis para o usuário.</p>
         </td>
-        <td>14 de novembro </td>
-        <td><p>14 de novembro</p> <p>[!BADGE Fora de ciclo ]{type=Negative}</p></td>
-        <td><p>14 de novembro</p> <p>[!BADGE Fora de ciclo ]{type=Negative}</p></td>
+        <td><p>14 de novembro</p> </td>
+        <td><p>Dez de 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25,1</p> </td>
     </tr>    
     <tr>
         <td>
@@ -283,9 +135,29 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             Ícone "Mover para" adicionado a campos personalizados</a></p>
             <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
         </td>
-        <td>29 de outubro</td>
-          <td><p>Dezembro de 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
+        <td><p>5 de dezembro</p></td>
+          <td><p>Dez 15</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>Dez 15</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Fora de ciclo ]{type=Caution}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Ícone "Mover para" adicionado a campos personalizados</a></p>
+            <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
+        </td>
+        <td><p>5 de dezembro</p><p>[!BADGE Fora de ciclo ]{type=Caution}</p></td>
+          <td><p>Dez 15</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>Dez 15</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Ícone "Mover para" adicionado a campos personalizados</a></p>
+            <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
+        </td>
+        <td><p>1 de novembro</p></td>
+          <td><p>24,11</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25,1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
