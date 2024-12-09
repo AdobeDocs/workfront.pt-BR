@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2757'
 ht-degree: 4%
 
 ---
@@ -254,7 +254,7 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione a regra de filtro **Nome do Campo** > **Igual** > **status**.
+1. Na guia **Filtros**, clique em **Adicionar uma Regra de Filtro** e adicione a regra de filtro **Nome do Campo** > **Igual** > **status**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
@@ -340,7 +340,7 @@ Para ver quando uma tarefa ou problema foi excluído:
 1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione os seguintes filtros:
 
    * **Tipo de Alteração** > **Igual** > **Excluir**
-   * **ID do Projeto** > **Igual** > **`<project>`**
+   * **ID do Projeto** > **Igual** > **&lt; nome do projeto >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -384,7 +384,7 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 
    O Report Builder é carregado.
 
-1. Na guia **Colunas (Modo de Exibição)**, adicione as seguintes colunas:
+1. Na guia **Colunas (Exibição)**, verifique se você tem ou clique em **Adicionar Coluna** para adicionar as seguintes colunas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -441,15 +441,15 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione os seguintes filtros:
+1. Na guia **Filtros**, clique em **Adicionar uma Regra de Filtro** e adicione os seguintes filtros:
 
    * **Nome do Campo de Entrada do Diário** > **Contém** > **DE**
 
      >[!TIP]
      >
-     >Para limitar este relatório a campos personalizados específicos, adicione a regra de filtro **Nome do Campo de Entrada do Diário** > **Igual** > **`<custom field>`**.
+     >Para limitar este relatório a campos personalizados específicos, adicione a regra de filtro **Nome do Campo de Entrada do Diário** > **Igual** > **&lt; nome do campo personalizado>**.
 
-   * **ID do Projeto** > **Igual** > **`<project>`**
+   * **ID do Projeto** > **Igual** > **&lt; projeto >**.
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -548,10 +548,10 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione o seguinte:
+1. Na guia **Filtros**, clique em **Adicionar uma Regra de Filtro** e adicione o seguinte:
 
    * **Nome do Campo** > **Igual** > **Data**
-   * **ID do Projeto** > **Igual** > **`<project>`**
+   * **ID do Projeto** > **Igual** > **&lt; nome do projeto >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -641,7 +641,7 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
 1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione o seguinte:
 
    * **Nome do Campo** > **Igual** > **IDdoProprietário**
-   * **ID do Projeto** > **Igual** > **`<project name>`**
+   * **ID do Projeto** > **Igual** > **&lt; nome do projeto >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -665,4 +665,4 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
 
 1. Clique em **Salvar + Fechar**.
 
-   O novo relatório é carregado.
+   O novo relatório de lançamento é exibido.

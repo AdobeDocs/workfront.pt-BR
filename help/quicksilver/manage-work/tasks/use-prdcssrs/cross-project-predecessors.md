@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Criar predecessores entre projetos
+title: Criar projetos cruzados predecessores
 description: Uma Predecessora entre projetos é uma tarefa da qual outra tarefa (chamada tarefa sucessora) em outro projeto depende. O predecessor é a tarefa que tem prioridade sobre a tarefa dependente (sucessora). Por exemplo, você pode criar uma dependência que exija que a tarefa predecessora seja marcada como Concluída antes que a tarefa dependente possa ser iniciada.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Criar predecessores entre projetos
 
-<!--Audited: 12/2023-->
+<!--Audited: 12/2024-->
 
 Uma predecessora entre projetos é uma tarefa da qual outra tarefa (chamada tarefa sucessora) em outro projeto depende. O predecessor é a tarefa que tem prioridade sobre a tarefa dependente (sucessora). Por exemplo, você pode criar uma dependência que exija que a tarefa predecessora seja marcada como Concluída antes que a tarefa dependente possa ser iniciada.
 
@@ -72,12 +72,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Criar uma predecessora entre projetos
 
 1. Vá para a tarefa que será sua sucessora (tarefa dependente).
-1. Clique em **Predecessores** no painel esquerdo.
+1. Clique em **Predecessores** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
+
+   >[!TIP]
+   >
+   >   O administrador do Workfront ou de grupo pode remover a seção **Predecessores** ou outras seções do painel esquerdo.
+
 1. Clique em **Adicionar Predecessora.**
 1. No campo **Projeto principal**, comece digitando o nome do projeto que contém a tarefa que você deseja que seja a predecessora da tarefa atual.
 1. Clique no nome quando ele aparecer na lista suspensa.
 1. No campo **Tarefas**, comece digitando o nome da tarefa que você deseja que seja a predecessora da tarefa atual.
 1. Especifique as seguintes informações para definir a relação entre a tarefa predecessora e a tarefa dependente:
+
 
    * **Tipo de Dependência:** Selecione a relação que você deseja que a tarefa predecessora tenha com a tarefa dependente. A relação padrão é &quot;Término-Início&quot;, o que significa que a tarefa predecessora deve terminar antes que a tarefa dependente possa iniciar. Para obter mais informações sobre os vários tipos de dependência, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 

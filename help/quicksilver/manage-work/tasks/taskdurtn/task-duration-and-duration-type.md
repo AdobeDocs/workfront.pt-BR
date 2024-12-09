@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -76,14 +76,6 @@ Veja a seguir dois cenários que existem ao calcular a duração no Adobe Workfr
 >[!NOTE]
 >
 >Ao considerar o tempo de folga do responsável principal em um projeto, as datas planejadas da tarefa podem ser ajustadas, mas a Duração da tarefa permanece a mesma. Para obter informações sobre como considerar o tempo de folga do Atribuído principal ao planejar um projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-## A duração original de uma tarefa pai
-
-A duração original de uma tarefa é a duração que uma tarefa tinha originalmente antes de se tornar uma tarefa pai, em minutos.
-
-Quando uma tarefa se torna pai, a Duração entre a Data Inicial Planejada do filho mais antigo e a Data de Conclusão Planejada do último filho é totalizada para a tarefa pai e se torna a Duração da tarefa pai. Isso substitui a Duração da tarefa original.
-
-Para obter mais informações, consulte [Visão geral da duração original da tarefa e das horas planejadas originais](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Unidades de tempo para a Duração da Tarefa
 
@@ -181,6 +173,27 @@ O Tipo de duração ajuda a responder às seguintes perguntas:
 ## O tipo de duração das novas tarefas
 
 O Tipo de Duração de uma nova tarefa corresponde ao Tipo de Duração configurado em seu sistema. O tipo de duração padrão é Atribuição calculada. O administrador do Workfront ou um administrador de grupo pode atualizar o Tipo de duração padrão para o seu sistema ou para o grupo associado ao projeto. Para obter informações, consulte [Configurar preferências de tarefas e problemas do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+## A duração original de uma tarefa pai
+
+A duração original de uma tarefa é a duração que uma tarefa tinha originalmente antes de se tornar uma tarefa pai, em minutos.
+
+Quando uma tarefa se torna pai, a Duração entre a Data Inicial Planejada do filho mais antigo e a Data de Conclusão Planejada do último filho é totalizada para a tarefa pai e se torna a Duração da tarefa pai. Isso substitui a Duração da tarefa original.
+
+Quando os filhos usam a unidade Duração de Dias Decorridos e seus pais usam a unidade Duração de Dias, pode haver discrepâncias na maneira como o Workfront calcula a Duração da tarefa pai.
+
+Considere o seguinte:
+
+* A unidade de duração Dias Decorridos representa dias do calendário, que sempre consiste em 24 horas por dia.
+* A unidade de duração Dias representa o dia útil definido no sistema e é configurável. Na maioria dos casos, consiste em 8 horas por dia.
+* A fórmula para calcular a duração da tarefa pai é a seguinte:
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* Ao calcular a duração da tarefa pai, o sistema calcula primeiro a duração pela fórmula acima e, em seguida, aplica o agendamento.
+
+
+Para obter mais informações, consulte [Visão geral da duração original da tarefa e das horas planejadas originais](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Alterar o tipo de duração de uma tarefa
 

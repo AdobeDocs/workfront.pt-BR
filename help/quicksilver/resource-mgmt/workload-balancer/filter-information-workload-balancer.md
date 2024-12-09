@@ -6,9 +6,9 @@ description: Para encontrar itens de trabalho com eficiência e se concentrar no
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2458'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,6 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 
 1. Clique em **Novo filtro.**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. Para criar um filtro, faça o seguinte:
 
    1. Selecione um nome de campo no primeiro menu suspenso ou clique em **Procurar campos** para começar a digitar o nome de um campo que não é exibido por padrão.
@@ -198,7 +196,7 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
       >Você pode selecionar um campo nas seguintes seções:
       >
       >* **Seleções recentes**: os campos que você filtrou recentemente.
-      >* **Campos sugeridos**: os campos usados com mais frequência.
+      >* **Sugerido**: os campos usados com mais frequência.
 
 
    1. Selecione um modificador no segundo menu suspenso. Para obter informações sobre modificadores de filtro Workfront, consulte [Filtros e modificadores de condição](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -206,13 +204,13 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 
       >[!NOTE]
       >
-      > Quando quiser exibir objetos de trabalho de um portfólio específico, você pode aplicar o seguinte filtro: &quot;Portfolio name contains marketing&quot; (O nome da contém marketing). Isso exibe itens de trabalho que pertencem a qualquer portfólio que contenha &quot;marketing&quot; no nome.
+      > Quando quiser exibir objetos de trabalho de um portfólio específico, você pode aplicar o seguinte filtro: &quot;ID do Portfolio é igual a &lt; nome do portfólio >&quot;.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
       >Para excluir projetos com status Em espera, você deve aplicar o seguinte filtro: &quot;Projeto: o status não é igual a Em espera&quot;. Isso impede que itens de trabalho de projetos Em espera sejam exibidos no Balanceador de carga de trabalho.
+      >
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. (Opcional) Clique no ícone ![](assets/delete.png) de **Excluir** para remover um critério de filtro.
 
@@ -240,8 +238,8 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
    >
    >Ao clicar em **Cancelar** a qualquer momento, você será redirecionado para a área de criação do filtro.
 
-1. Selecione **Filtro sem título** e insira o nome do novo filtro.
-1. Selecione um ícone para o novo filtro no menu suspenso **Ícone**.
+1. Clique dentro do campo **Filtro sem título** e digite o nome do novo filtro.
+1. (Opcional) Selecione um ícone para o novo filtro no menu suspenso **Ícone**.
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 

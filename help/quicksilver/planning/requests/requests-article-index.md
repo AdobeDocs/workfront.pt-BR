@@ -1,14 +1,14 @@
 ---
-title: "Solicitações de planejamento do Adobe Workfront: índice do artigo"
+title: 'Solicitações de Planejamento do Adobe Workfront: Índice de Artigos'
 description: Você pode criar um formulário de solicitação para cada tipo de registro, compartilhá-lo com os usuários e eles podem adicionar novos registros preenchendo e enviando o formulário.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,6 @@ Esta seção contém os seguintes artigos:
 
 * [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Enviar solicitações do Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md)
+* [Cancelar a publicação de um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/unpublish-request-form.md)
   <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
   <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->
