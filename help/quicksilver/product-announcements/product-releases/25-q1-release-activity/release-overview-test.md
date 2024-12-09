@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>Área</td>
@@ -247,7 +247,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             Preferência para usar projeto ou agendamento de usuário para tarefas de atribuição única</a></p>
             <p>Como administrador de sistema ou de grupo, agora você tem uma nova preferência para indicar se o Workfront deve usar o cronograma do projeto ou do usuário para calcular a linha do tempo do projeto ao atribuir um usuário a uma tarefa e se o projeto e o usuário estão associados a um cronograma.</p>
         </td>
-        <td><p>16 de novembro de 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>16 de novembro de 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td>Dez de 2024</td>
         <td>25,1</td>
     </tr>     
@@ -284,8 +284,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <p>Quando um formulário personalizado contém várias seções com muitos campos, pode ser difícil mover um campo de uma seção para outra arrastando e soltando. Um ícone "mover para" foi adicionado a cada campo, permitindo selecionar a seção em que o campo é colocado.</p>
         </td>
         <td>29 de outubro</td>
-          <td><p>Dezembro de 2024</p><p> [!BADGE Na produção para a versão rápida ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE Na produção]{type=Positive}</p></td>
+          <td><p>Dezembro de 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
