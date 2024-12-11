@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Glossário da terminologia  [!DNL Adobe Workfront]
+title: 'Glossário da terminologia  [!DNL Adobe Workfront] '
 description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados em [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] interface, relatórios ou você tenta entender o significado dos [!DNL Workfront] conceitos definidos na  [!DNL Workfront] documentação.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '20901'
+source-wordcount: '20875'
 ht-degree: 0%
 
 ---
@@ -1252,12 +1252,9 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Tarefa de Biblioteca]</td> 
-   <td>Um modelo para uma única tarefa que é usado para fornecer nomes consistentes de [!UICONTROL Tarefas] e [!UICONTROL Tarefas de Modelo] no aplicativo.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Tipo de Licença]</td> 
    <td>O tipo de licença alocada para um [!UICONTROL Access Level]. Ele é [!UICONTROL Usuário Completo], [!UICONTROL Usuário Limitado] ou [!UICONTROL Solicitante].</td> 
   </tr> 
