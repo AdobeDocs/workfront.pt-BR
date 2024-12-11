@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 5%
+source-wordcount: '542'
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,7 @@ Como administrador do Adobe Workfront, você pode criar uma equipe na área Conf
 >[!NOTE]
 >
 >* Um administrador de grupo pode criar uma equipe para um grupo que administra na área Configuração. Para obter mais informações, consulte [Criar e modificar as equipes de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* Um usuário com uma licença de Plano também pode criar uma equipe na área Pessoas. Para obter mais informações, consulte [Criar uma equipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
->
+>* Um usuário com uma licença Padrão ou Plano também pode criar uma equipe na área Equipes. Para obter mais informações, consulte [Criar uma equipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Requisitos de acesso
 

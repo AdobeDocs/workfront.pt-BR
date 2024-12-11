@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '596'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,7 @@ Para obter informações sobre equipes, consulte [Visão geral das equipes](../.
 >[!NOTE]
 >
 >* Um administrador de grupo pode editar as configurações de uma equipe para um grupo que ele administra. Para obter mais informações, consulte [Criar e modificar as equipes de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* Um usuário com uma licença de Plano pode editar as configurações de uma equipe na área Pessoas. Para obter mais informações, consulte [Editar configurações da equipe](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
->
+>* Um usuário com uma licença Padrão ou de Plano pode editar as configurações de uma equipe na área Equipes. Para obter mais informações, consulte [Editar configurações da equipe](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
 ## Requisitos de acesso
 

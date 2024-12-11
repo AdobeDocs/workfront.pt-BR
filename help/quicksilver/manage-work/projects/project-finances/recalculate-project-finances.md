@@ -3,12 +3,12 @@ title: Recalcular as finanças do projeto
 product-area: projects
 navigation-topic: financials
 description: As finanças são calculadas em um projeto à medida que ocorrem alterações nas horas registradas para o projeto ou nas taxas usadas para calcular custos e receita.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Quando a taxa de um usuário ou função é alterada durante a vida útil de um 
 
 * Quando a alteração é feita, a taxa atualizada é usada a partir desse ponto, pois as horas são registradas e as informações financeiras são calculadas. A alteração da taxa não afeta como as coisas foram calculadas antes da alteração ser feita. Para todas as horas existentes registradas, a taxa antiga é usada para calcular as informações financeiras.
 * Você pode forçar o Adobe Workfront a usar a nova taxa retroativamente para todas as horas registradas até o momento, usando a opção Recalcular Finanças. Isso força o Workfront a recalcular retroativamente todas as horas, custos planejados e receitas inseridos anteriormente de acordo com as novas informações de taxas.
+
+O Projeto de tipo de relatório (Dados financeiros) não recalcula automaticamente antes de carregar os dados. Para atualizar os dados neste tipo de relatório, você deve recalcular manualmente as finanças de projetos individuais.
 
 >[!CAUTION]
 >
