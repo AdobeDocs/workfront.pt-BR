@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 7%
+source-wordcount: '760'
+ht-degree: 6%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ Todos os outros tipos de campo do Workfront não são suportados no Workfront Pl
 1. Clique em **+** e depois em **Adicionar campos**.
 Os campos são adicionados à exibição de tabela e às páginas de detalhes dos registros.
 
+   >[!IMPORTANT]
+   >
+   >    Há um limite de 500 campos para qualquer tipo de registro. Os campos existentes junto com os campos importados contribuem para esse limite.
+
+   Os campos adicionados são cópias dos campos do Workfront e não se conectam mais aos campos originais no Workfront.

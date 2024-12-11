@@ -6,9 +6,9 @@ description: Como administrador do Adobe Workfront, você pode conceder aos usu�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,8 @@ As permissões são específicas a um item no Workfront e definem quais ações 
   Para obter informações sobre como gerenciar o acesso a tarefas e problemas de modelo no projeto com base nas permissões de um usuário para o projeto, consulte a seção [Acesso](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) no artigo [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 * O administrador do Workfront pode especificar se os documentos devem herdar permissões de objetos superiores no nível de acesso do usuário. Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Não é possível compartilhar tarefas de modelo individualmente. O compartilhamento de um modelo também compartilha as tarefas do modelo. Compartilhar o projeto a partir do modelo também compartilha as tarefas futuras do projeto.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: '6534'
 ht-degree: 5%
 
 ---
@@ -328,7 +328,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     </tr>
     <tr> 
      <td role="rowheader">Rótulo</td> 
-     <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+     <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: </p> <p>Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
@@ -411,13 +411,18 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <li> <p><strong>Remover Opção</strong>: remova a opção do campo.</p> <p><b>AVISO</b>: se você tiver objetos atuais usando essa opção, não remova-a do campo. Sua remoção fará com que os dados do histórico sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol>
+
+   <p><b>NOTA:</b></p>
+    <p>Não há limite para o número de opções que você pode selecionar. </p>    
+    </td> 
     <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
     <li>Lista suspensa com seleção múltipla</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>

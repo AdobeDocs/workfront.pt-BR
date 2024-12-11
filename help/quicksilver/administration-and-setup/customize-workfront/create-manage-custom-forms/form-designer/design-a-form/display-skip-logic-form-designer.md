@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Selecione um campo com lógica aplicada para exibir as regras de lógica existen
 * Para adicionar lógica de exibição em um campo personalizado, widget ou quebra de seção, pelo menos um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção) deve ser posicionado antes dele no formulário.
 Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Não é possível adicionar lógica de salto a um widget ou quebra de seção. Você pode adicioná-lo somente a um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção).
-* Não é possível aplicar a lógica de exibição ou de salto para opções de um campo de várias opções. Por exemplo, não é possível restringir a exibição das opções de um campo Suspenso, Grupo de caixas de seleção ou Botão de opção com base na exibição ou na lógica de ignorar outro campo.
+* Não é possível aplicar a exibição ou a lógica de salto para exibir ou ocultar as opções de um campo de várias opções. Por exemplo, você não pode restringir as opções exibidas para um campo Suspenso, Grupo de caixas de seleção ou Botão de opção, com base na exibição ou na lógica de ignorar outro campo.
 * Você pode adicionar a lógica de exibição e a lógica de salto a um campo personalizado se todos os itens a seguir forem verdadeiros sobre o campo personalizado:
 
    * É um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção)

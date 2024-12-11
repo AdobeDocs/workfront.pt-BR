@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '943'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 Você pode usar um Modelo de layout para configurar o que os usuários veem no painel Resumo quando clicam em uma tarefa ou problema. Cada configuração feita usando as etapas abaixo afeta o painel Resumo. Essas personalizações não se aplicam ao painel Resumo do documento.
@@ -101,7 +101,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
       <td role="rowheader">Projetos</td> 
       <td><ul><li><p>Na Página inicial, quando um usuário clica em uma aprovação de projeto atribuída a ele, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
       <p><b>IMPORTANTE:</b> </p><p>Este é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p></li>
-      <li><span class="preview"><p>Esta área foi removida do ambiente de Visualização.</p></li></span></ul> 
+      </ul> 
       </td> 
      </tr> 
      <tr> 
@@ -109,14 +109,14 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
       <td>
      <ul><li><p>Na Página inicial, quando um usuário clica em uma aprovação de documento atribuída a ele, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
       <p><b>IMPORTANTE:</b> </p><p> Este é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p></li>
-      <li><span class="preview"><p>Esta área foi removida do ambiente de Visualização.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Versões do documento</td> 
       <td><ul><li><p>Na Página inicial, quando um usuário clica em uma aprovação atribuída a ele para uma versão específica de um documento, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
       <p><p><b>IMPORTANTE:</b></p> Este é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p></li>
-      <li><span class="preview"><p>Esta área foi removida do ambiente de Visualização.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
     </tbody> 
@@ -128,15 +128,15 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
 1. (Condicional) Se você clicou em Tarefas ou Problemas na etapa anterior, selecione a categoria da tarefa ou problema que deseja personalizar.
 
-   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Condicional) Se o menu suspenso **Definir botão de ação principal** for exibido (se você selecionar **Tarefas** ou **Problemas** na lista à esquerda), clique na ação principal (**Concluído** ou **Status**) que você deseja disponibilizar para os usuários no Painel de resumo quando eles visualizarem uma tarefa ou um problema.
 
-   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. Adicionar ![](assets/add-item-plus-in-circle-blue.png) ou ocultar ![](assets/close-or-hide---x.png) campos para o tipo de objeto selecionado.
 
-   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Repita as etapas 3 a 6 para personalizar o painel Resumo para qualquer outro tipo de objeto.
 1. Clique em **Configurações globais**, próximo ao canto inferior esquerdo, e habilite ou desabilite qualquer uma das seguintes opções relacionadas a objetos do Adobe Workfront no Resumo:

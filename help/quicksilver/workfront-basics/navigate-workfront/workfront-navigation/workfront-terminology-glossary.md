@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '20875'
+source-wordcount: '20930'
 ht-degree: 0%
 
 ---
@@ -812,7 +812,15 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   <tr> 
    <td>[!UICONTROL Versão do Documento]</td> 
    <td> <p>Sempre que o mesmo documento for carregado no mesmo objeto, um número de versão será atribuído a ele. Os usuários podem exibir e alterar várias opções de uma versão anterior de um documento.</p> <p>Para obter mais informações, consulte <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Gerenciar versões de documentos</a>.</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Data de Conclusão]</td> 
+   <td> <p>A data em que uma tarefa ou um problema deve ser concluído. A Data de Vencimento de uma tarefa ou problema é a mesma data que a Data de Conclusão Planejada.</p>
+    <p>A Data de Conclusão da tarefa e do problema está visível nas listas de tarefas e problemas e nos relatórios.</p> 
+    <p>Consulte também Data de conclusão planejada nesta tabela. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duração]</td> 
    <td> <p>A janela de tempo alocada para a conclusão de um problema de tarefa ou projeto (conforme determinado pelo número de dias entre o [!UICONTROL Início Planejado] e a Conclusão Planejada).</p> 
