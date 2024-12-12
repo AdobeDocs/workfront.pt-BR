@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
 source-wordcount: '6534'
 ht-degree: 5%
@@ -948,7 +948,7 @@ Para adicionar um arquivo Adobe XD:
 >Para acessar o Workfront Planning, é necessário ter o seguinte:
 >
 >* Um novo plano e licença do Workfront. O Workfront Planning não está disponível para planos ou licenças herdadas do Workfront.
->* Uma licença adicional para o Workfront Planning.
+>* Um pacote adicional para o Workfront Planning.
 >* A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience.
 >
 > Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).

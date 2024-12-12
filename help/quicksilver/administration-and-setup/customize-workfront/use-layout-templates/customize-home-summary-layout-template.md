@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
@@ -97,34 +97,38 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
       <td role="rowheader">Problemas</td> 
       <td><p>Em uma lista de problemas, essa configuração afeta o painel Resumo que é exibido no lado direito da página quando um usuário seleciona um problema e clica no ícone Abrir Resumo <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Projetos</td> 
-      <td><ul><li><p>Na Página inicial, quando um usuário clica em uma aprovação de projeto atribuída a ele, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
-      <p><b>IMPORTANTE:</b> </p><p>Este é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Documentos</td> 
+      <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>Na Página inicial, quando um usuário clica em uma aprovação de documento atribuída a ele, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
-      <p><b>IMPORTANTE:</b> </p><p> Este é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Versões do documento</td> 
-      <td><ul><li><p>Na Página inicial, quando um usuário clica em uma aprovação atribuída a ele para uma versão específica de um documento, sua configuração para essa configuração afeta a área à direita da aprovação.</p>
-      <p><p><b>IMPORTANTE:</b></p> Este é um recurso obsoleto. Todas as alterações feitas nessa área estão relacionadas a um recurso que a Workfront removeu. Essa opção será removida do Workfront com uma atualização de manutenção posterior.</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >Se uma tarefa não estiver atribuída, o usuário atribuído ao modelo de layout não verá as personalizações de campo no Resumo.
+
+>[!IMPORTANT]
+>
+>Se uma tarefa não estiver atribuída, o usuário atribuído ao modelo de layout não verá as personalizações de campo no Resumo.
 
 1. (Condicional) Se você clicou em Tarefas ou Problemas na etapa anterior, selecione a categoria da tarefa ou problema que deseja personalizar.
 
