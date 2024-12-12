@@ -6,7 +6,7 @@ description: As finanças são calculadas em um projeto à medida que ocorrem al
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
+source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 As finanças são calculadas em um projeto à medida que ocorrem alterações nas horas registradas para o projeto ou nas taxas usadas para calcular custos e receita.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -44,6 +46,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações sobre o cálculo de finanças no Adobe Workfront
@@ -58,13 +64,11 @@ Quando a taxa de um usuário ou função é alterada durante a vida útil de um 
 * Quando a alteração é feita, a taxa atualizada é usada a partir desse ponto, pois as horas são registradas e as informações financeiras são calculadas. A alteração da taxa não afeta como as coisas foram calculadas antes da alteração ser feita. Para todas as horas existentes registradas, a taxa antiga é usada para calcular as informações financeiras.
 * Você pode forçar o Adobe Workfront a usar a nova taxa retroativamente para todas as horas registradas até o momento, usando a opção Recalcular Finanças. Isso força o Workfront a recalcular retroativamente todas as horas, custos planejados e receitas inseridos anteriormente de acordo com as novas informações de taxas.
 
-O Projeto de tipo de relatório (Dados financeiros) não recalcula automaticamente antes de carregar os dados. Para atualizar os dados neste tipo de relatório, você deve recalcular manualmente as finanças de projetos individuais.
+O Projeto de tipo de relatório (Dados financeiros) não executa automaticamente um recálculo dos dados financeiros. Para atualizar os dados neste tipo de relatório, você deve recalcular manualmente as finanças de projetos individuais.
 
 >[!CAUTION]
 >
 >Antes de recalcular manualmente as finanças de um determinado projeto, convém preservar os dados financeiros que já foram calculados em uma taxa anterior. Recomendamos o uso da opção Recalcular Finanças somente quando tiver certeza de que não está fazendo alterações nas informações existentes ou somente quando tais alterações forem desejadas.
->
->Observe que a execução de um relatório de Projeto (Dados Financeiros) executa um recálculo de seus dados financeiros e, como tal, você deve fazer as mesmas considerações antes de executar o relatório.
 
 ## Preservar dados financeiros para tarefas com horas existentes {#preserve-financial-data-for-tasks-with-existing-hours}
 
