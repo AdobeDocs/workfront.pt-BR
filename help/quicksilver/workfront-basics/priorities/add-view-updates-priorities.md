@@ -5,13 +5,13 @@ description: Você pode adicionar uma atualização em uma tarefa ou problema pa
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # Adicionar e exibir comentários em Prioridades
 
@@ -65,6 +65,7 @@ Você pode adicionar um comentário da lista de trabalho:
 1. Localize o item de trabalho que você deseja atualizar.
 1. Passe o mouse sobre o nome, em seguida, clique em **Adicionar nova atualização**.
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Comece a digitar seu comentário.
 1. (Opcional) Na caixa **Marcar pessoas ou equipes**, comece digitando o nome ou o email de um usuário ou de uma equipe que você deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
 1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis, links ou imagens ao comentário para aprimorar o conteúdo.

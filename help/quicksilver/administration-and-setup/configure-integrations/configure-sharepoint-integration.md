@@ -1,5 +1,5 @@
 ---
-title: Configurar a Integração  [!DNL SharePoint]
+title: 'Configurar a Integração  [!DNL SharePoint] '
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
+source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -176,7 +176,7 @@ A reconfiguração da integração herdada [!DNL SharePoint] permite que seus us
 1. Clique em **[!UICONTROL Salvar]**.
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL [!DNL SharePoint]Integração]**.
 1. Selecione a marca de seleção à esquerda da lista para todas as integrações existentes e selecione **[!UICONTROL Desativar]**.
-   ![](assets/disable-old-sharepoint.png)
+
 
 
 ### Configure o Segredo do Cliente para obter acesso contínuo à integração herdada [!DNL SharePoint]

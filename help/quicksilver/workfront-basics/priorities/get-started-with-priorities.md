@@ -5,13 +5,13 @@ description: As prioridades são uma experiência simplificada e intuitiva perso
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 3%
 
 ---
-
 
 # Introdução ao [!DNL Priorities]
 
@@ -91,7 +91,6 @@ Encontre o seu trabalho mais importante com filtros. Você pode filtrar tarefas 
 
 Após filtrar o trabalho, você pode agrupar itens com base em
 
-* Nenhum(a)
 * Meu foco
 * Semana do prazo
 * Status
@@ -104,15 +103,16 @@ Para obter mais informações, consulte [Filtrar e agrupar seu trabalho em Prior
 Meu foco é uma coluna na lista de trabalho que ajuda a priorizar seu trabalho. O valor Meu foco é pessoal e não afeta dados de projetos, tarefas ou problemas. Você pode usar os seguintes níveis de foco:
 
 * Urgente
-* Principal
-* Secundário
+* Alta
 * Normal (padrão)
+* Baixa
 
 Depois de atribuir níveis de foco aos itens de trabalho, você pode classificar a coluna para exibir itens urgentes na parte superior da lista de trabalho.
 
 Para obter mais informações, consulte [Priorizar itens de trabalho importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### Usar o modo de exibição Calendário [!BADGE Em breve]{type=Informative}
 
@@ -141,6 +141,7 @@ A seção Atualizações mostra atualizações de sistema e até 200 das atualiz
 Para obter mais informações, consulte [Adicionar e exibir comentários em Prioridades](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Registrar de tempo
 
@@ -149,6 +150,7 @@ Você pode registrar o tempo dos itens de trabalho para indicar o número de hor
 Para obter mais informações, consulte [Registrar tempo em Prioridades](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Fazer upload de arquivos
 
@@ -162,6 +164,7 @@ Fazer upload de arquivos diretamente na área Documentos da tarefa ou problema s
 Para obter mais informações, consulte [Fazer upload de arquivos em Prioridades](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Exibir documentos [!BADGE Em breve]{type=Informative}
 
@@ -197,5 +200,3 @@ Use o recurso [!DNL Catch me up] para ver o que você perdeu. Pegar-me resumirá
 
 * No momento, os administradores do Workfront não podem personalizar prioridades por meio do Modelo de layout.
 * O acesso às tarefas em Prioridades é feito em todas as guias. Planejamos adicionar guias adicionais, como Documentos, Subtarefas, Aprovações, etc., no futuro. Diga-nos que você precisa desses itens enviando comentários usando o botão **Fornecer Comentários**.
-
-

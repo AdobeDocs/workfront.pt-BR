@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -32,6 +32,7 @@ Você pode usar a coluna Meu foco para priorizar seu trabalho. A coluna Meu foco
    | **Baixo** | Baixa é para itens de trabalho que não precisam de atenção imediata e podem ser adiados até que todos os itens de trabalho de prioridade mais alta sejam concluídos. |
 
    ![](assets/my-focus.png)
+   <!--new screen for prod ![](assets/my-focus-new.png)-->
 
    >[!TIP]
    >

@@ -5,13 +5,13 @@ description: Você pode registrar o tempo para itens de trabalho no Adobe Workfr
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 410963f404aa496b2ac4aa43098917d03fc1ca75
+exl-id: 5457f516-c213-4b82-b033-bc8db943a217
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
 
 ---
-
 
 # Registrar tempo em Prioridades
 
@@ -61,6 +61,7 @@ Você pode registrar o tempo diretamente na lista de trabalho:
 
 1. Passe o cursor do mouse sobre o nome e clique em **Registrar tempo**.
    ![](assets/log-time.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. No menu suspenso **Tipo de Hora**, selecione o tipo de hora apropriado. Os tipos de horas estão disponíveis dependendo do que foi definido nos níveis de sistema, projeto e usuário, conforme descrito em Definir tipos de horas e disponibilidade.
 
 1. (Condicional) Se o administrador do Workfront ou do grupo tiver ativado a configuração Atribuir funções de trabalho a entradas de hora manualmente, selecione uma função de trabalho no menu suspenso. A função especificada quando você está atribuído ao item de trabalho é exibida por padrão. Se uma função não for atribuída a você no objeto, sua função principal será exibida como padrão. Se você não tiver uma Função primária atribuída, Nenhuma Função de trabalho será exibida.
@@ -83,4 +84,3 @@ Você pode registrar horas em um item de trabalho individual:
 1. Insira a hora que deseja registrar e clique em **Registrar hora**.
 
    ![](assets/log-time-dialog.png)
-

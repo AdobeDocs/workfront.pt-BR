@@ -5,13 +5,13 @@ description: Você pode fazer upload de arquivos da lista de trabalho Prioridade
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
 
 ---
-
 
 # Fazer upload de arquivos em Prioridades
 
@@ -54,6 +54,7 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 
 1. Passe o cursor do mouse sobre o nome e clique em **Carregar**.
    ![](assets/upload-file.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. (Opcional) Selecione uma pasta.
 1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou

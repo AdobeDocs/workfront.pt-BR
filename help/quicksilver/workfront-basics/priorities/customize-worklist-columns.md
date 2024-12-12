@@ -5,15 +5,17 @@ description: Você pode personalizar as colunas na lista de trabalho em Priorida
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
+source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-
 # Personalizar as colunas da lista de trabalho de prioridades
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode personalizar as colunas na lista de trabalho em Prioridades para respaldar a maneira como você trabalha.
 
@@ -59,7 +61,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Ativar ou desativar colunas
+## Personalize as colunas da lista de trabalho de prioridades na produção
+
+### Ativar ou desativar colunas
 
 {{step1-to-priorities}}
 
@@ -67,7 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    ![](assets/columns.png)
 1. Use os botões para ativar ou desativar colunas na lista de trabalho.
 
-## Reordenar as colunas
+### Reordenar as colunas
 
 {{step1-to-priorities}}
 
@@ -75,10 +79,37 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no ícone **Arrastar** e mova a coluna para o local desejado. A movimentação de colunas atualiza a lista de trabalho automaticamente.
    ![](assets/reorder-columns.png)
 
-## Redefinir larguras de coluna
+### Redefinir larguras de coluna
 
 {{step1-to-priorities}}
 
 1. Clique em **Colunas** no lado direito da tela.
 1. Clique no ícone ![](assets/more-icon.png) de **Mais** e escolha **Redefinir larguras de coluna**.
    ![](assets/columns.png)
+
+<div class="preview">
+
+## Personalizar as colunas da lista de trabalho de prioridades na Pré-visualização
+
+### Ativar ou desativar colunas
+
+{{step1-to-priorities}}
+
+1. Clique em **Colunas** no lado esquerdo da tela.
+   ![](assets/columns-new.png)
+1. Use os botões para ativar ou desativar colunas na lista de trabalho.
+
+### Reordenar as colunas
+
+{{step1-to-priorities}}
+
+1. Clique em **Colunas** no lado esquerdo da tela.
+1. Clique no ícone **Arrastar** e mova a coluna para o local desejado. A movimentação de colunas atualiza a lista de trabalho automaticamente.
+   ![](assets/reorder-columns-new.png)
+
+>[!NOTE]
+>
+>A coluna Name está fixa e não pode ser movida.
+
+
+</div>

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
+source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Adicionar um arquivo
    * <span class="preview">Ir diretamente para o projeto</span>
 
-<!-- ![project details](assets/project-details.png)-->
+   ![detalhes do projeto](assets/project-details.png)
+   <!--new screen for prod ![](assets/project-details-new.png)-->
 
 ## Exibir detalhes da tarefa
 
@@ -84,4 +85,5 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Adicionar um arquivo
    * Adicionar links rápidos
 
-   <!-- ![task details](assets/task-details.png)-->
+   ![detalhes da tarefa](assets/task-details.png)
+   <!--new screen for prod ![](assets/task-details-new.png)-->
