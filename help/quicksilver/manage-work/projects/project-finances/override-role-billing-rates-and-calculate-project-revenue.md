@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Visão geral da substituição de Taxas de cobrança de função de trabalho e do cálculo de Receita em um projeto
+title: Visão geral da substituição de taxas de cobrança de função de trabalho e do cálculo da receita em um projeto
 description: É possível usar as taxas de faturamento para calcular a receita dos projetos quando você as multiplica pelas horas gastas no projeto. Para obter mais informações sobre taxas de faturamento e receita, consulte o artigo Visão geral de faturamento e receita.
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calcular Valor Líquido
 description: O Valor Líquido de um projeto é o valor total esperado do projeto após calcular seu benefício e remover os custos.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # Calcular Valor Líquido
 
-O Valor Líquido de um projeto é o valor total esperado do projeto após calcular seu benefício e remover os custos. 
+O Valor Líquido de um projeto é o valor total esperado do projeto após calcular seu benefício e remover os custos.
 
 ## Visão geral do Valor Líquido do projeto
 
-O Adobe Workfront calcula o Valor líquido de um projeto usando a seguinte fórmula: 
+O Adobe Workfront calcula o Valor líquido de um projeto usando a seguinte fórmula:
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

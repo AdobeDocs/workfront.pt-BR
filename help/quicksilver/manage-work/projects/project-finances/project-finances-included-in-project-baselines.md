@@ -2,12 +2,12 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Finanças do projeto incluídas nas linhas de base do projeto
+title: Finanças do Projeto Incluídas nas Linhas de Base do Projeto
 description: Linhas de Base são instantâneos de como era o desempenho de um projeto em um determinado momento. Eles armazenam informações importantes sobre o projeto, como datas importantes, progresso, valores de custo e receita.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 14%
