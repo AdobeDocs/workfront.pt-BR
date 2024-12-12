@@ -6,7 +6,7 @@ description: As finanças são calculadas em um projeto à medida que ocorrem al
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
+source-git-commit: 946b2697d8988fae252a13d982c9aa6685961d43
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -46,11 +46,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Considerações sobre o cálculo de finanças no Adobe Workfront
 
