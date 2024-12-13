@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Você também precisa abrir determinadas portas para que as mensagens de email s
 Se sua organização tiver o plano Enterprise, você também poderá configurar duas Workfront do incluir na lista de permissões:
 
 * **inclui na lista de permissões por email**: permite que você controle onde os usuários podem enviar dados de email armazenados no Workfront. Incluir na lista de permissões Para obter mais informações, consulte [Configurar a pesquisa de email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **inclui na lista de permissões de IP**: limita o acesso ao Workfront a 45 endereços IP ou intervalos de endereços IP especificados, fornecendo uma camada adicional de segurança para o aplicativo Workfront. Para obter mais informações, consulte [Restringir acesso ao Adobe Workfront pelo endereço IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **inclui na lista de permissões de IP**: limita o acesso ao Workfront a 75 endereços IP ou intervalos de endereços IP especificados, fornecendo uma camada adicional de segurança para o aplicativo Workfront. Para obter mais informações, consulte [Restringir acesso ao Adobe Workfront pelo endereço IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Localizar o cluster do Workfront
 

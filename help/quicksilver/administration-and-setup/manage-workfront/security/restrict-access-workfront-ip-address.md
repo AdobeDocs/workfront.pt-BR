@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: security
 title: Restringir acesso ao Adobe Workfront pelo endereço IP
-description: Você pode configurar um Adobe Workfront IP do incluir na lista de permissões que limita o acesso ao Workfront a 45 endereços IP ou intervalos de endereços IP especificados. Isso fornece uma camada adicional de segurança para o aplicativo do Workfront.
+description: Você pode configurar um Adobe Workfront IP do incluir na lista de permissões que limita o acesso ao Workfront a 75 endereços IP ou intervalos de endereços IP especificados. Isso fornece uma camada adicional de segurança para o aplicativo do Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Restringir o acesso ao Adobe Workfront pelo endereço IP
 
-Você pode configurar um Adobe Workfront IP do incluir na lista de permissões que limita o acesso ao Workfront a 45 endereços IP ou intervalos de endereços IP especificados. Isso fornece uma camada adicional de segurança para o aplicativo do Workfront.
+Você pode configurar um Adobe Workfront IP do incluir na lista de permissões que limita o acesso ao Workfront a 75 endereços IP ou intervalos de endereços IP especificados. Isso fornece uma camada adicional de segurança para o aplicativo do Workfront.
 
 Esses endereços IP ou intervalos de endereços IP devem ser fornecidos pelo administrador da rede.
 
@@ -77,6 +77,6 @@ Depois de adicionar endereços IP ao arquivo de Workfront do incluir na lista de
 1. Clique em **Adicionar intervalo de IPs** e especifique o endereço IP ou intervalo de endereços IP que você deseja que acesse o Workfront.
 1. (Opcional) Repita a etapa anterior para adicionar mais endereços IP ou intervalos de endereço IP.
 
-   Você pode adicionar até 45 endereços ou intervalos.
+   Você pode adicionar até 75 endereços ou intervalos.
 
 1. Clique em **Salvar.**

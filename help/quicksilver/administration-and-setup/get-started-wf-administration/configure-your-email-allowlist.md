@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Outras listas de permissões
 
-Se sua organização tiver o plano Enterprise, você poderá configurar um Adobe Workfront incluir na lista de permissões IP que limite o acesso a 45 endereços IP da Workfront ou a intervalos de endereços IP especificados. Isso fornece uma camada adicional de segurança para o aplicativo do Workfront. Para obter mais informações, consulte [Restringir acesso ao Adobe Workfront pelo endereço IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+Se sua organização tiver o plano Enterprise, você poderá configurar um Adobe Workfront incluir na lista de permissões IP que limite o acesso a 75 endereços IP da Workfront ou a intervalos de endereços IP especificados. Isso fornece uma camada adicional de segurança para o aplicativo do Workfront. Para obter mais informações, consulte [Restringir acesso ao Adobe Workfront pelo endereço IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 Além disso, se o firewall ou servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu incluo na lista de permissões. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront. Incluir na lista de permissões Para obter informações sobre isso, consulte [Configurar o arquivo de consulta do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
