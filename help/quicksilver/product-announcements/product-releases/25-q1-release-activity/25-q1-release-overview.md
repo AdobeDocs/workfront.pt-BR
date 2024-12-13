@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1728'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Preferência para usar projeto ou agendamento de usuário para tarefas de atribuição única</a></p>
+            [!BADGE Na produção para a versão rápida ]{type=Positive}
             <p>Como administrador de sistema ou de grupo, agora você tem uma nova preferência para indicar se o Workfront deve usar o cronograma do projeto ou do usuário para calcular a linha do tempo do projeto ao atribuir um usuário a uma tarefa e se o projeto e o usuário estão associados a um cronograma.</p>
         </td>
         <td>
@@ -74,6 +75,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Agora as regras de negócios oferecem suporte a hiperlinks</a></p>
+            [!BADGE Na produção para a versão rápida ]{type=Positive}
             <p>Agora é possível incluir hiperlinks na mensagem de erro personalizada de uma regra de negócios para orientar o usuário sobre como modificar sua ação dentro da restrição da regra. O URL estático pode vincular à documentação ou outras páginas que seriam úteis para o usuário.</p>
         </td>
         <td>
@@ -169,6 +171,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Editar vários documentos de uma só vez</a></p>
+            [!BADGE Na produção para a versão rápida ]{type=Positive}
             <p>Agora é possível editar vários documentos de uma só vez. É possível editar as descrições e atualizar formulários personalizados.</p>
         </td>
         <td>
@@ -217,8 +220,22 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Acesse a página Detalhes de um projeto em Prioridades</a></p>
+            Atualizações na lista de trabalho de prioridades</a></p>
             [!BADGE New in Preview ]{type=Negative}
+            <p>Atualizamos a lista de trabalho de Prioridades para melhorar os recursos e alinhar com outras áreas do aplicativo.</p>
+        </td>
+        <td>
+            <p><b>Disponível nas seguintes datas:</b></p>
+            <ul>
+                <li>Versão de pré-visualização: 12 de dezembro de 2024</li>
+                <li>Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Acesse a página Detalhes de um projeto em Prioridades</a></p>
             <p>Agora você pode navegar diretamente para um projeto no Workfront a partir da lista de trabalho Prioridades.</p>
         </td>
         <td>
@@ -344,6 +361,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Atualização sobre como os ativos movidos ou excluídos em pastas vinculadas são gerenciados</a></p>
+            [!BADGE Na produção ]{type=Informative}
             <p>Alteramos a maneira como os ativos movidos e excluídos são tratados ao usar a integração do Adobe Workfront com o Experience Manager Assets e o Assets Essentials:</p>
             <ul>
                 <li>Ativos excluídos: quando um ativo é excluído dentro de uma pasta vinculada no Assets ou Assets Essentials, o ativo excluído é retido na área Documentos do projeto.</li>
@@ -362,6 +380,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             As seções em um formulário personalizado agora podem ser recolhidas e expandidas</a></p>
+            [!BADGE Na produção para a versão rápida ]{type=Positive}
             <p>Quando um formulário personalizado com várias seções é anexado a um objeto, agora é possível recolher e expandir todas as seções, exceto a seção padrão na parte superior do formulário. O administrador também pode visualizar essa funcionalidade ao visualizar o formulário no designer do formulário.</p>
         </td>
         <td>
