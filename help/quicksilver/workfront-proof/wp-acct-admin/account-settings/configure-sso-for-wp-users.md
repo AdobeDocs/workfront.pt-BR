@@ -7,7 +7,7 @@ description: Se você tiver o plano Select ou Premium, poderá fornecer o recurs
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -59,12 +59,12 @@ Este é o link para seu servidor SSO (por exemplo, **https://sso.mycompany.com/o
 1. Insira a **URL de Logon** (3).
 Este é o URL que será chamado para redirecionar os usuários para o seu provedor de identidade.
 
-1. Este não é um URL real que você digita no navegador, mas um terminal que processará as informações que enviamos para apresentar a tela de login.
+   Este não é um URL real que você digita no navegador, mas um terminal que processará as informações que enviamos para apresentar a tela de login.
 
-Insira a **URL de logoff** (4).
+1. Insira a **URL de logoff** (4).
 Este é o URL ao qual você retornará depois de fazer logoff, por exemplo
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. Insira a **Impressão digital do certificado** (5).
 1. A impressão digital SHA1 do certificado SAML fornecido pelo Provedor de Identidade SAML.
