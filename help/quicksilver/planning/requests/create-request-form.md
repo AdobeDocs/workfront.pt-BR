@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1557'
 ht-degree: 2%
 
 ---
@@ -126,12 +126,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
 1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação**.
-1. Atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário de solicitação sem título**. <!--check this; you logged a bug to rename it to this but was it fixed?-->
+1. Atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Clique em **Criar**. O formulário de solicitação para o tipo de registro selecionado abre <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->.
+1. Clique em **Criar**. O formulário de solicitação para o tipo de registro selecionado abre <span class="preview"> na guia Formulário </span>.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -159,7 +159,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 
    * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.
-   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. Esse recurso ainda não está disponível. A configuração e o valor do campo Subject não são editáveis.
+   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. Esse recurso ainda não está disponível no ambiente de produção. <span class="preview">Está disponível no ambiente de visualização.</span> A configuração e o valor do campo Assunto não são editáveis.
+
+     >[!TIP]
+     >
+     >O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário.
+
    * Todos os campos associados ao tipo de registro.
 
      Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
@@ -190,14 +195,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido para outros usuários quando eles o usarem para enviar um novo registro.
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. 
+   <div class="preview">(Opcional) Clique na guia **Configuração** e adicione pelo menos um usuário ao campo **Aprovadores** para aprovar novas solicitações para esse formulário de registro.
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * Quando você associa um formulário de solicitação a aprovadores, qualquer nova solicitação deve primeiro ser aprovada por todos os aprovadores antes de gerar um novo registro.
+   * Você pode adicionar um ou vários aprovadores a um formulário de solicitação.
+   * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado.
+   * Todos os aprovadores devem tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
+
+     Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
 
 1. (Opcional) Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do formulário no cabeçalho e clique em **Editar** para atualizar o nome do formulário.
 1. Clique em **Publish** para publicar o formulário e obter um link exclusivo para ele.
@@ -231,7 +241,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >     * <span class="preview">Pessoas</span>
    >
 
-1. (Condicional) Se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível. As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link antes que elas possam acessar o formulário novamente.
+1. (Condicional) Se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível. As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link e gerar um novo link para compartilhar antes que as pessoas possam acessar o formulário novamente.
 
    Você pode selecionar datas futuras dentro de 180 dias a partir da data atual.
 
@@ -241,7 +251,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Para obter informações sobre como criar registros usando um link para um formulário de solicitação, consulte [Enviar solicitações do Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Clique em **Salvar** no canto inferior direito da tela para salvar o formulário.
+1. Clique em **Salvar** no canto inferior direito da guia **Formulário** para salvar o formulário.
 1. Clique na seta à esquerda do nome do formulário no cabeçalho para fechar o formulário.
 
    A página de tipo de registro é aberta.

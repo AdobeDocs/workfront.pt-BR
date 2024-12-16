@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 # Enviar solicitações do Adobe Workfront Planning para criar registros
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+<!--take Preview and Prod references out when releasing to Prod all-->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -125,11 +126,11 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 * É possível acessar um formulário de solicitação para solicitações do Workfront Planning somente a partir de um link específico para o formulário.
 * Não é possível editar uma solicitação depois de enviá-la para o Workfront Planning.
-* Cada solicitação enviada cria um registro para o tipo de registro associado ao formulário usado <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->
+* Cada solicitação enviada cria um registro para o tipo de registro associado ao formulário usado <span class="preview">se o formulário não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.</span>
 * Os registros criados enviando formulários de solicitação não podem ser diferenciados dos registros adicionados por qualquer outro método. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 * <span class="preview">As solicitações enviadas são exibidas na guia Planejamento da seção Enviadas na área Solicitações do Workfront </span>.
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
 ## Enviar uma solicitação ao Workfront Planning
@@ -148,27 +149,26 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
    Seu formulário é enviado e os seguintes itens ocorrem:
 
-   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->Um novo registro é adicionado ao tipo de registro associado ao formulário.
+   * Se o formulário de solicitação não foi associado a uma aprovação, ou <span class="preview">se a aprovação foi concedida por todos os aprovadores,</span> um novo registro será adicionado ao tipo de registro associado ao formulário.
 
-
-   * <!--If the request form was not associated with an approval, the--> <span class="preview"> A solicitação é adicionada à seção Enviado da área Solicitações do Workfront e um novo registro é adicionado à página de tipo de registro.</span>
+   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação <span class="preview"> é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront e um novo registro é adicionado à página de tipo de registro.</span>
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">Todos os usuários com acesso a pelo menos um espaço de trabalho podem exibir a guia Planejamento na área Solicitações. Você pode exibir somente as solicitações enviadas. Os administradores do Workfront podem exibir todas as solicitações no sistema. </span> <!--ensure this is correct; asking team in slack-->
+     ><span class="preview">Todos os usuários com acesso a pelo menos um espaço de trabalho podem exibir a guia Planejamento na área Solicitações. Você pode exibir somente as solicitações submetidas por você ou por qualquer outra pessoa aos espaços de trabalho para os quais você tem pelo menos permissões. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema. </span> <!--ensure this is correct; asking team in slack-->
 
-   <!--
-   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+   * <span class="preview">Se o formulário de solicitação foi associado a uma aprovação, a solicitação é temporariamente salva na guia Planejamento na seção Enviado da área Solicitações do Workfront. Nenhum registro é criado para o tipo de registro associado ao formulário de solicitação.</span>
 
-      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
-   -->
-   <!--
+     <span class="preview">Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
+   * <span class="preview">Você receberá uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.</span>
+   * <span class="preview">Se o formulário de solicitação foi associado a uma aprovação, os aprovadores receberão uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.</span>
 
-   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
-   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
-   -->
+     >[!NOTE]
+     >
+     ><span class="preview">As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Experiência unificada do Adobe.</span>
+
 
 
 

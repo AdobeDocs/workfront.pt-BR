@@ -1,30 +1,19 @@
 ---
-title: Adicionar uma aprovação a um formulário de solicitação
+title: Adicionar uma aprovação a um formulário de solicitação no Adobe Workfront Planning
 description: Você pode adicionar um processo de aprovação a um formulário de solicitação do Adobe Workfront Planning para iniciar uma aprovação para cada solicitação submetida, antes que ele crie um registro.
-hide: true
-hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
 
 
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-# Adicionar uma aprovação a um formulário de solicitação
+# Adicionar uma aprovação a um formulário de solicitação no Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -127,6 +116,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Você pode adicionar um ou vários aprovadores a um formulário de solicitação. Você pode adicionar somente usuários como aprovadores.
 * Quando você adiciona vários aprovadores a um formulário de solicitação, todos os aprovadores devem aceitar a solicitação antes que um registro seja criado no Workfront Planning.
+* Se todos os aprovadores aprovarem a solicitação, um registro será criado para o tipo de registro associado ao formulário de solicitação.
+* Se pelo menos um aprovador rejeitar a solicitação e todos os outros aprovarem, uma solicitação será criada para a área Solicitações no Workfront, mas nenhum registro será criado para o tipo de registro associado ao formulário de solicitação.
 * Adicionar aprovações a um formulário de solicitação é opcional. O Workfront Planning cria imediatamente um registro quando uma solicitação é submetida, se o form de solicitação não estiver associado a uma aprovação.
 
 ## Adicionar uma aprovação a um formulário de solicitação
@@ -143,16 +134,31 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Comece a digitar o nome de um aprovador e, em seguida, selecione-o quando ele for exibido na lista.
 
-   >[!TIP]
+   <!--most of the Note below is duplicated in the Create a request form article-->
+
+   >[!NOTE]
    >
-   >    Se você adicionar mais de um aprovador, todos os aprovadores deverão aprovar a solicitação antes que o Workfront Planning crie um registro.
+   >
+   >* Você pode adicionar um ou vários aprovadores a um formulário de solicitação.
+   >
+   >* Se você adicionar mais de um aprovador, todos os aprovadores deverão aprovar a solicitação antes que o Workfront Planning crie um registro.
+   >
+   >* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
+   >
+   >* Todos os aprovadores devem tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
+
 
 1. (Opcional) Clique em **Publish** se você nunca compartilhou o formulário de solicitação antes
 
    Ou
 
    Clique em **Compartilhar** para compartilhar o formulário e em **Copiar link**.
-1. (Opcional) Depois que um usuário usa o link compartilhado e envia uma solicitação, o Workfront Planning envia uma notificação de aprovação e um email aos aprovadores.
+1. (Opcional) Depois que um usuário usa o link compartilhado e envia uma solicitação, o Workfront Planning envia uma notificação de aprovação no aplicativo e um email aos aprovadores.
+
+   >[!NOTE]
+   >
+   >   A instância da Workfront de sua organização deve ser integrada à Experiência unificada do Adobe para que os usuários possam receber notificações por email e no aplicativo.
+
 
    Para obter informações sobre aprovação de solicitações, consulte [Aprovar uma solicitação](/help/quicksilver/planning/requests/approve-request.md).
 

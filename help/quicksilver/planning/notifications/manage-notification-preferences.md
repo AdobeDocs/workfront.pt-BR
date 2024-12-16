@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
 # Gerenciar preferências de notificação do Adobe Workfront Planning
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -23,6 +27,14 @@ Você pode receber notificações no aplicativo ou por email quando as seguintes
 * Alguém adicionou você a um comentário na página de gravação
 * Alguém solicitar permissão para acessar uma visualização ou um espaço de trabalho
 * Alguém concede a você permissão para acessar uma exibição ou um espaço de trabalho <!--I could not test this but Isk confirmed-->
+
+<div class="preview">
+
+* Você submete uma solicitação do Workfront Planning.
+* Alguém aprovar ou rejeitar uma solicitação do Workfront Planning que você enviou.
+* O status é alterado para uma solicitação do Workfront Planning enviada.
+
+</div>
 
 ## Requisitos de acesso
 
@@ -172,7 +184,12 @@ Desmarque as notificações que deseja parar de receber.
 1. As seguintes notificações estão disponíveis para o Workfront:
 
    * **Menções**: você recebe uma notificação quando alguém marca você em um comentário no Workfront Planning
-   * **Solicitações**: você recebe uma notificação quando alguém solicita ou concede permissão a um objeto do Workfront Planning
+   * **Solicitações**: você receberá uma notificação quando alguém executar uma das seguintes ações:
+
+      * Solicita ou concede permissão a um objeto do Workfront Planning
+      * <span class="preview">Você enviou uma solicitação do Workfront Planning</span>
+      * <span class="preview">O status de uma solicitação do Workfront Planning enviada para alterações</span>
+      * <span class="preview">Solicita, concede ou rejeita uma aprovação para uma solicitação do Workfront Planning</span>
 
    Para obter mais informações sobre como gerenciar notificações, consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
