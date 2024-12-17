@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Atualmente, a promoção de ambientes entre domínios não é suportada. Você d
 
 Não. A Promoção de ambiente está disponível para instâncias do Workfront habilitadas para IMS e não IMS.
 
-## Como podemos descobrir se nossa instância do Workfront está em uma licença Prime ou Ultimate?
+## Como podemos descobrir se nossa instância do Workfront está em uma licença do Prime ou da Ultimate?
 
 ### Responder
 
@@ -68,7 +68,6 @@ A reversão de pacote está disponível para o pacote mais recente, dentro de 24
 ## Haverá uma opção para ignorar a promoção de componentes individuais? Onde as opções `Use Existing`, `Overwrite` e `Save with a new Name` existem, é possível adicionar `Skip` para que você possa ignorar a promoção de parâmetros individuais?
 
 ### Responder
-
 
 * &quot;Usar existente&quot; é o mesmo que &quot;ignorar&quot; ou ignorar a implantação, pois ela mapeia para o objeto existente no ambiente de destino e não faz alterações.
 * Para ignorar objetos, recomendamos remover
