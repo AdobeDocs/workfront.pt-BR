@@ -1,21 +1,23 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Criar itens de trabalho e projetos na área Página inicial
+title: Criar itens de trabalho e projetos a partir da área inicial
 description: Você pode criar itens de trabalho e projetos na área [!UICONTROL Página inicial].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
 
 # Criar itens de trabalho e projetos na área Página inicial
 
-Você pode criar itens de trabalho e projetos na área [!UICONTROL Página inicial]. Em Casa, você pode
+Você pode criar itens de trabalho e projetos na área [!UICONTROL Página inicial].
+
+Em Casa, você pode
 
 * Criar tarefas pessoais para você
 * Enviar solicitações
@@ -23,6 +25,8 @@ Você pode criar itens de trabalho e projetos na área [!UICONTROL Página inici
 * Crie projetos com base em um modelo, projeto em branco ou importe um projeto do MS.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -52,16 +56,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
++++
+
 ## Criar um item de tarefa pessoal
 
-Você pode criar um item de tarefa pessoal na área [!UICONTROL Página inicial]. Os itens de tarefa são tarefas pessoais que você cria para si mesmo.
+Você pode criar um item de tarefa pessoal no widget de tarefas na área [!UICONTROL Página inicial]. Os itens de tarefa são tarefas pessoais que você cria para si mesmo.
 
 Você e outros usuários podem exibir suas tarefas pessoais em um relatório de tarefas pessoais. A partir daí, eles podem adicioná-los aos projetos, se necessário.
+
+>[!TIP]
+>
+>Os itens de trabalho que você envia para outros usuários ou para você mesmo na página de perfil do usuário também são exibidos no widget Tarefas na área Página inicial do usuário. Para obter informações, consulte [Criar tarefas pessoais](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+
 
 Para criar um item de tarefa:
 
 1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
-1. (Condicional) Clique em **Personalizar** e em **Tarefas pendentes** para adicionar o widget tarefa à sua tela inicial.
+1. (Condicional) Clique em **Personalizar** e em **Tarefas pendentes** para adicionar o widget Tarefas à sua tela inicial.
 1. Vá para o widget **Tarefa pendente** e clique em **Adicionar tarefa**.
 1. Digite o nome do seu item de tarefa pessoal e clique em Enter.
 1. (Opcional) Clique no ícone ![](assets/date-icon.png) de **Data** para adicionar uma data de conclusão para o item.

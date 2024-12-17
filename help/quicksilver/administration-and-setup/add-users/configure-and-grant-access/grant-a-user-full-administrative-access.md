@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
 
 # Conceder acesso administrativo total a um usuário
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Novo: Padrão</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront. Para obter mais informações, consulte <a href="#" class="MCXref xref selected">Conceder a um usuário acesso administrativo total</a>.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Conceder acesso completo de Administrador do sistema a um único usuário
@@ -64,11 +68,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 {{step-1-to-users}}
 
 1. Clique no nome do usuário a quem deseja conceder direitos de administrador.
-1. Clique no menu Mais ![](assets/more-icon.png) e em **Editar**.
+1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome de usuário e clique em **Editar**.
 
-1. Na caixa **Editar Pessoa** exibida, clique em **Acesso**.
-
-1. Na lista suspensa **nível de acesso**, selecione o nível de acesso **Administrador do Sistema**.
+   A caixa **Editar Pessoa** é exibida.
+1. Clique em **Acessar** no painel esquerdo.
+1. Na lista suspensa **Nível de acesso**, selecione o nível de acesso **Administrador do Sistema**.
 
    Dependendo das alterações feitas no sistema, o nome desse nível de acesso pode ter sido alterado.
 
@@ -78,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Acesso de um administrador do Workfront vs. acesso de um usuário do Plano com direitos administrativos  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-As duas tabelas abaixo mostram a diferença entre os direitos de acesso de um usuário com nível de acesso de administrador do Workfront e os de um usuário com uma licença de Plano com alguns direitos administrativos.
+As duas tabelas abaixo mostram a diferença entre os direitos de acesso de um usuário com um nível de acesso de Administrador de sistema do Workfront e os de um usuário com uma licença de Plano com alguns direitos administrativos.
 
 Os administradores do Workfront podem visualizar todos os objetos no sistema (independentemente de quem os criou), criar novos e modificar ou excluir os existentes. Eles têm acesso total a todos os objetos no sistema.
 

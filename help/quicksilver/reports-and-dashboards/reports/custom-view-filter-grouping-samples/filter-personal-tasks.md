@@ -7,9 +7,9 @@ description: Este filtro de tarefa retorna solicitações de trabalho ad hoc env
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Este filtro de tarefa retorna solicitações de trabalho ad hoc enviadas a um usuário ou itens de tarefa adicionados por usuários em sua área de Início.
+Este filtro de tarefas retorna solicitações de trabalho ad hoc enviadas a um usuário ou itens de tarefa adicionados por usuários em seus widgets de tarefas na área Página inicial.
 
 As solicitações de trabalho ad hoc e os itens de tarefa são salvos no Adobe Workfront como tarefas pessoais.
 
-As tarefas pessoais não estão conectadas a um projeto, mas podem ser movidas para um projeto, se necessário.
+As tarefas pessoais não estão conectadas a um projeto, mas podem ser movidas para um projeto, se necessário. Para obter informações, consulte [Criar tarefas pessoais](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
 ![](assets/personal-tasks-report.png)
 
@@ -76,7 +76,7 @@ Para criar esse filtro:
 1. (Condicional) Selecione os seguintes critérios de filtragem:
 
    * De um filtro de lista: **Tarefa** > **Pessoal** **É verdadeiro**
-   * De um filtro de relatório: **Tarefa** > **Pessoal** > **Igual** > **Verdadeiro**.
+   * De um filtro de relatório: **Tarefa** > **Pessoal** > **Igual (diferencia maiúsculas de minúsculas)** > **Verdadeiro**.
 1. Salve o filtro.
 
    A lista exibe somente tarefas pessoais que não estão em nenhum projeto.

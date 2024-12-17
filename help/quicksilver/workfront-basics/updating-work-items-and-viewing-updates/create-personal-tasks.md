@@ -2,28 +2,28 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Criar tarefas pessoais
-description: Tarefas pessoais são solicitações de trabalho ad hoc enviadas a um usuário ou itens de tarefa pendentes criados por você mesmo na sua área da Página inicial. O Workfront salva solicitações de trabalho ad hoc e itens de tarefa como tarefas pessoais.
+description: Tarefas pessoais são solicitações de trabalho ad hoc que você envia para um usuário, para você mesmo ou itens de tarefa pendentes que você cria para você mesmo na sua área da Página inicial. O Workfront salva solicitações de trabalho ad hoc e itens de tarefa como tarefas pessoais.
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
-
 
 # Criar tarefas pessoais
 
 <!--Audited: 10/2024-->
 
-Tarefas pessoais são solicitações de trabalho ad hoc enviadas a um usuário ou itens de tarefa pendentes criados por você mesmo na sua área da Página inicial.
+Tarefas pessoais são solicitações de trabalho ad hoc que você envia para um usuário ou envia para ou adiciona para você mesmo.
 
-O Workfront salva solicitações de trabalho ad hoc e itens de tarefa como tarefas pessoais.
+O Adobe Workfront salva solicitações de trabalho ad hoc e itens de tarefa como tarefas pessoais.
 
-Por padrão, todos os usuários no Workfront têm um projeto chamado &quot;&lt; nome completo >&#39;s Tasks&quot;. Por exemplo, &quot;Rick Kuvec&#39;s Tasks&quot;.
+Por padrão, todos os usuários no Workfront têm um projeto pessoal chamado de &quot;Tarefas do &lt; nome completo do usuário>&quot;. Por exemplo, &quot;Tarefas de John Smith&quot;.
 
-Este projeto não é exibido em pesquisas e está oculto. Todas as tarefas pessoais são armazenadas neste projeto.
+O projeto pessoal de cada usuário não é exibido em pesquisas e está oculto. Todas as tarefas pessoais são armazenadas neste projeto.
 
 Você pode mover tarefas pessoais para um projeto, se necessário.
 
@@ -33,10 +33,12 @@ Você pode mover tarefas pessoais para um projeto, se necessário.
 
   Para obter informações, consulte [Criar itens de trabalho e projetos a partir da Área inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-* Criar uma solicitação de trabalho pessoal para outro usuário
-* Criar uma solicitação de trabalho pessoal para o usuário
+* Criar e enviar uma solicitação de trabalho pessoal para outro usuário a partir da página de perfil do usuário
+* Crie e envie uma solicitação de trabalho pessoal para você mesmo a partir da página de perfil do usuário
 
-Este artigo descreve como criar uma solicitação de trabalho pessoal para um usuário.
+Este artigo descreve como criar uma solicitação de trabalho pessoal para um usuário ou para você mesmo na página de perfil do usuário.
+
+Independentemente de como você adicionar uma tarefa pessoal, poderá encontrá-las nas mesmas áreas do Workfront. Para obter mais informações, consulte a seção [Localizar tarefa pessoal](#locate-personal-tasks) neste artigo.
 
 ## Requisitos de acesso
 
@@ -57,9 +59,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
    <td> 
-   <p>Atual: planeja enviar solicitações a outros usuários. Todos os usuários podem criar uma solicitação de trabalho para si mesmos.</p>
    <p>Novo: Padrão, para enviar solicitações a outros usuários. Todos os usuários podem criar uma solicitação de trabalho para si mesmos.</p> 
-   </td> 
+   <p>Atual: planeja enviar solicitações a outros usuários. Todos os usuários podem criar uma solicitação de trabalho para si mesmos.</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
@@ -84,7 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >O administrador do Workfront pode impedir que você veja determinados usuários quando eles configurarem seu nível de acesso.
 
 1. Clique no **Mais menu** ![](assets/more-menu.png) à direita do nome do usuário no cabeçalho.
-1. Clique em **Enviar trabalho**.
+1. Clique em **Enviar solicitação de trabalho**.
 A caixa **Enviar ao usuário uma solicitação de trabalho** é exibida.
 
    ![](assets/personal-task-box.png)
@@ -98,19 +100,17 @@ A caixa **Enviar ao usuário uma solicitação de trabalho** é exibida.
 
 1. Clique em **Enviar solicitação** para salvar a solicitação de trabalho.
 
-   A solicitação de trabalho é salva como uma tarefa pessoal no Workfront e adicionada ao widget Tarefas na área Página inicial.
+   A solicitação de trabalho é salva como uma tarefa pessoal no Workfront e é adicionada ao widget Tarefas na área Página inicial do usuário. Se você enviar a requisição de trabalho para você mesmo, ela será exibida em seu widget de Tarefas na Página inicial.
 
-   <!--this last step will need to be updated when they fix this functionality and the work requests you create for others actually go to their To do widget instead of yours-->
 
 ## Localizar tarefas pessoais
 
 É possível localizar tarefas pessoais nas seguintes áreas:
 
-* O widget Tarefas na área Página inicial. Para obter informações, consulte [Criar itens de trabalho e projetos a partir da Área inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* O widget de Tarefas na área Página inicial do usuário para o qual a solicitação pessoal foi enviada.
 
-* Um relatório ou lista de tarefas pessoais. Você pode criar e aplicar um filtro de tarefa pessoal a um relatório ou lista de tarefas. Para obter informações, consulte [Filtro: tarefas pessoais](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+  Para obter informações, consulte [Criar itens de trabalho e projetos a partir da Área inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
+* Um relatório ou lista de tarefas pessoais. Você pode criar e aplicar um filtro de tarefa pessoal a um relatório ou lista de tarefas para exibir somente tarefas pessoais e excluir tarefas do projeto.
 
-
-
-
+  Para obter informações, consulte [Filtro: tarefas pessoais](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).

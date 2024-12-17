@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Mover tarefas
+title: Mover Tarefas
 description: Você pode mover tarefas para projetos diferentes ou para tarefas principais diferentes no Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1442'
 ht-degree: 2%
 
 ---
 
 # Mover tarefas
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Você pode mover tarefas no Adobe Workfront entre os seguintes objetos:
 
@@ -27,6 +36,8 @@ Você pode mover uma única tarefa ou pode mover várias tarefas de uma lista de
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as ações neste artigo:
 
 <table style="table-layout:auto"> 
@@ -34,29 +45,29 @@ Você deve ter o seguinte acesso para executar as ações neste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças da Adobe Workfront*</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> <p>Novo plano: Padrão </p> 
  <p>ou</p>  
 <p>Plano atual: Trabalho ou superior </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a tarefas e projetos</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a tarefas e projetos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para as tarefas</p> <p>Permissões do Contribute ou superiores para o projeto com capacidade para adicionar tarefas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para as tarefas</p> <p>Permissões do Contribute ou superiores para o projeto com capacidade para adicionar tarefas</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações para mover tarefas
 
@@ -75,6 +86,14 @@ Considere o seguinte ao mover uma tarefa:
 Os seguintes itens não são movidos com a tarefa, por padrão:
 
 * Etapas
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## Mover tarefas em uma lista
 
@@ -100,7 +119,7 @@ Os seguintes itens não são movidos com a tarefa, por padrão:
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
-   A caixa Mover Tarefa é exibida
+   A caixa **Mover Tarefa** é exibida
 
 1. Continue movendo a tarefa, conforme descrito na seção [Mover uma tarefa no nível de tarefa](#move-a-task-at-the-task-level) deste artigo, começando com a Etapa 4.
 

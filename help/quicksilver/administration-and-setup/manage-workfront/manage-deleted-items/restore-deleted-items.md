@@ -8,7 +8,7 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 2%
@@ -137,7 +137,7 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 
 * Resolvendo objetos
 
-  Um objeto de resolução é um problema convertido configurado com a opção **Manter o problema original e vincular sua resolução a este** &lt;**projeto** ou **tarefa)**>. Se você excluir o projeto ou a tarefa pai, o problema não será mais identificado como um objeto de resolução porque não há mais um link que o conecta ao projeto ou à tarefa. Se você restaurar o pai, o link não será restaurado.
+  Um objeto de resolução é um problema convertido configurado com a opção **Manter o problema original e vincular sua resolução a este(a)** &lt;**(projeto** ou **tarefa)**>. Se você excluir o projeto ou a tarefa pai, o problema não será mais identificado como um objeto de resolução porque não há mais um link que o conecta ao projeto ou à tarefa. Se você restaurar o pai, o link não será restaurado.
 
   Para obter mais informações sobre como um administrador ou administrador de grupo do Workfront configura problemas para corresponder ao objeto de resolução quando convertidos, consulte [Configurar preferências de tarefas e problemas do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) e [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 

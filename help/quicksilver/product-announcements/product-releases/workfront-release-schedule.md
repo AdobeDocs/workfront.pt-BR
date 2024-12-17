@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
 
 As versões geralmente ocorrem por volta das 20:00 às 22:00 horas (horário das montanhas dos EUA) na noite anterior à data de lançamento.
 
-Normalmente, os recursos na Pré-visualização são disponibilizados em seu ambiente de Produção com a próxima versão. No entanto, em alguns casos, os recursos são disponibilizados no ambiente de Produção fora de uma versão programada. Essas alterações permanecem na Pré-visualização por um mínimo de 2 semanas para fornecer tempo adequado para que você se familiarize com as alterações. Essas alterações também são comunicadas por meio do Centro de anúncios no momento em que são adicionadas à Pré-visualização.
+Normalmente, os recursos na Pré-visualização são disponibilizados em seu ambiente de Produção com a próxima versão. No entanto, em alguns casos, os recursos são disponibilizados no ambiente de Produção fora de uma versão programada. Normalmente, essas alterações permanecem na Pré-visualização por um mínimo de 2 semanas para fornecer tempo adequado para que você se familiarize com as alterações.
 
 Para obter mais informações sobre os processos de lançamento trimestral e rápido, consulte [Habilitar ou desabilitar lançamentos rápidos para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
