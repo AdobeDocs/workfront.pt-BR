@@ -6,16 +6,20 @@ description: As pessoas devem ser adicionadas ao painel como membros antes de vi
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Adicionar ou remover membros de um quadro
 
+{{highlighted-preview}}
+
 Pessoas e equipes devem ser adicionadas ao painel como membros antes de visualizarem o painel.
+
+Por padrão, o criador de um quadro é o proprietário. O proprietário do painel é a única pessoa que pode excluir esse painel ou atualizar seus filtros no painel Configurar. <span class="preview">Somente um administrador do sistema ou o proprietário atual do painel pode alterar o proprietário do painel.</span>
 
 ## Requisitos de acesso
 
@@ -80,3 +84,23 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >[!NOTE]
    >
    >Você não pode remover o proprietário do painel.
+
+<div class="preview">
+
+## Alterar o proprietário do quadro
+
+>[!NOTE]
+>
+>Somente um administrador do sistema ou o proprietário atual do painel pode alterar o proprietário do painel. Um quadro só pode ter um proprietário.
+
+1. Acesse o quadro.
+1. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) ao lado do nome do quadro e escolha **[!UICONTROL Alterar proprietário do quadro]**.
+1. Na caixa de diálogo Alterar proprietário do quadro, procure e selecione o usuário que deseja tornar o proprietário.
+
+   Não é possível pesquisar usuários que já são membros do painel. Para tornar um membro existente o proprietário, primeiro você deve removê-lo do quadro. Transformar um usuário em proprietário do quadro o adiciona ao quadro.
+
+   Somente um usuário pode ser o proprietário do quadro. Uma equipe não pode ser um proprietário.
+
+1. Clique em [!UICONTROL **Atualizar**].
+
+</div>

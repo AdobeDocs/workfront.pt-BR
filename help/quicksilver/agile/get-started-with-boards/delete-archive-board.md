@@ -7,9 +7,9 @@ description: Você pode excluir ou arquivar um quadro no Workfront. A exclusão 
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Excluir ou arquivar um quadro
 
 Você pode excluir ou arquivar um quadro no [!DNL Workfront]. Excluir um quadro o remove permanentemente de [!DNL Workfront], enquanto o arquivamento de um quadro retém todos os cartões e permite que ele seja restaurado posteriormente.
+
+Somente o proprietário do painel pode excluir o painel.
 
 ## Requisitos de acesso
 
@@ -58,7 +60,7 @@ Quando você exclui um quadro, ele é removido permanentemente do [!DNL Workfron
 
    >[!NOTE]
    >
-   >Você só pode excluir painéis de discussão criados, não painéis aos quais foi adicionado.
+   >Você só pode excluir painéis de discussão criados ou cujo proprietário tenha sido nomeado, não painéis de discussão aos quais foi adicionado como membro.
 
    ![Menu Mais do Painel](assets/boards-board-more-menu.png)
 
