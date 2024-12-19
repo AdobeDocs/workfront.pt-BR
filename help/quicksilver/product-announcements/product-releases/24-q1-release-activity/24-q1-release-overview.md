@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
@@ -355,17 +355,14 @@ O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [re
                         <ul>
                             <li>
                                 <p>Versão de pré-visualização: 21 de dezembro de 2023</p>
-                                <p>OBSERVAÇÃO: esse recurso permanecerá na Pré-visualização até a versão 24.4.</p>
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (março de 2024)</p>
                             </li>
-                            <li>
-                                <p>Produção para todos os clientes: a ser anunciado</p>
-                            </li>
                         </ul>
+                    <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
                     </td>
-                    </tr>
+                </tr>
            </tbody>
         </table>
 

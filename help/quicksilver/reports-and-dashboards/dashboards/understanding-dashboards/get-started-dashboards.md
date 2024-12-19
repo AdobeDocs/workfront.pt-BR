@@ -7,9 +7,9 @@ description: O objetivo de um painel é fornecer acesso rápido às informaçõe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Objetos que você pode adicionar a um painel
 
-Você pode preencher um painel com os seguintes itens no Adobe Workfront:
+É possível preencher um painel com até 25 dos seguintes itens no Adobe Workfront:
 
 * Relatórios\
   Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

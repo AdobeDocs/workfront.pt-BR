@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -340,10 +340,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         <li>
                             <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                         </li>
-                        <li>
-                            <p>Versão de produção para todos os clientes: a ser anunciada</p>
-                        </li>
                     </ul>
+                <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
                 </td>
             </tr>
             <tr>
@@ -360,10 +358,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         <li>
                             <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                         </li>
-                        <li>
-                            <p>Versão de produção para todos os clientes: a ser anunciada</p>
-                        </li>
                     </ul>
+                <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
                 </td>
             </tr>
         </tbody>
@@ -469,7 +465,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                             <p>Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Disponível somente para organizações em um dos novos planos da Adobe Workfront. A Data Connect está incluída no plano Ultimate e será disponibilizada para compra como um complemento dos planos Prime e Select no primeiro semestre de 2025.</i></p>
+                    <p><i>Disponível somente para organizações em um dos novos planos da Adobe Workfront. A Data Connect está incluída no plano do Ultimate e será disponibilizada para compra como um complemento dos planos Prime e Select no primeiro semestre de 2025.</i></p>
                 </td>
             </tr>
         </tbody>

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Para obter informações sobre como atualizar a Data de confirmação e a Condi�
 
 >[!NOTE]
 >
->Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Versão de produção para todos os clientes: a ser anunciada.
+>Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024).
+>
+>_Este recurso será removido da Visualização em 19 de dezembro de 2024 e da Produção de versão rápida com 25.1 (janeiro de 2025)._
 
 Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições nas seguintes áreas:
 
@@ -52,7 +54,9 @@ Para obter mais informações, consulte [Visão geral das atribuições intelige
 
 >[!NOTE]
 >
->Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Versão de produção para todos os clientes: a ser anunciada.
+>Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024).
+>
+>_Este recurso será removido da Visualização em 19 de dezembro de 2024 e da Produção de versão rápida com 25.1 (janeiro de 2025)._
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 

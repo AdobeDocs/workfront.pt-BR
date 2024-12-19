@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                                 <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
                             </li>
                         </ul>
-                        <p><i>Disponível somente para organizações no novo plano Ultimate.</i></p>
+                        <p><i>Disponível somente para organizações no novo plano do Ultimate.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -295,10 +295,8 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
-                            <li>
-                                <p>Versão de produção para todos os clientes: a ser anunciada</p>
-                            </li>
                         </ul>
+                    <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -315,10 +313,8 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
-                            <li>
-                                <p>Versão de produção para todos os clientes: a ser anunciada</p>
-                            </li>
                         </ul>
+                    <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
                     </td>
                  </tr>
            </tbody>

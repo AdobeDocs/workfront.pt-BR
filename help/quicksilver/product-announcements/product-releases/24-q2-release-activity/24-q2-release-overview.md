@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2260'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Você também pode [exibir um arquivo de PDF](https://acrobat.adobe.com/id/urn:a
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integração com o JumpSeat agora disponível para novos tipos de pacotes</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
-                        <p>A integração do JumpSeat existente agora está disponível para contas que usam um dos novos tipos de pacote (ou seja, Select, Prime ou Ultimate). Você ainda deve ter uma assinatura ativa do JumpSeat para habilitar a integração.</p>
+                        <p>A integração JumpSeat existente agora está disponível para contas que usam um dos novos tipos de pacote (ou seja, Select, Prime ou Ultimate). Você ainda deve ter uma assinatura ativa do JumpSeat para habilitar a integração.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -371,10 +371,8 @@ Você também pode [exibir um arquivo de PDF](https://acrobat.adobe.com/id/urn:a
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
-                            <li>
-                                <p>Versão de produção para todos os clientes: a ser anunciada</p>
-                            </li>
                         </ul>
+                    <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -391,10 +389,8 @@ Você também pode [exibir um arquivo de PDF](https://acrobat.adobe.com/id/urn:a
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
-                            <li>
-                                <p>Versão de produção para todos os clientes: a ser anunciada</p>
-                            </li>
                         </ul>
+                    <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
                     </td>
                  </tr>
            </tbody>
