@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 3f10e64745b95e4c7d668d798a6c71469948d617
 workflow-type: tm+mt
-source-wordcount: '14699'
+source-wordcount: '14715'
 ht-degree: 2%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 2%
          * [21.1 Outras melhorias](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Atividade de versão do Adobe Workfront Fusion {#fusion-release}
          * [Atividade de lançamento do Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Atividade de lançamento do Workfront Fusion: semana de 16 de dezembro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 2 de dezembro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 25 de novembro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 11 de novembro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
@@ -2264,6 +2265,7 @@ ht-degree: 2%
       * [Cenários de depuração com a Ferramenta de Desenvolvimento Adobe Workfront Fusion](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [Gerar um segmento de cenário usando IA](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * [Execute o especialista em pontuação de cenários no Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+      * [Usar cURL para adicionar um módulo HTTP](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
       * Modelos de cenário do Adobe Workfront Fusion {#fusion-scenario-templates}
          * [Modelos de cenário](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [Visão geral dos modelos [!DNL Fusion]](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
@@ -2342,6 +2344,7 @@ ht-degree: 2%
       * [Módulos de imagem](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Módulos do Jira Software](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [Módulos JSON](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [Módulos JSONata](workfront-fusion/apps-and-their-modules/jsonata-module.md)
       * [Módulos JWT](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [Módulos do MariaDB](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Módulos do Markdown](workfront-fusion/apps-and-their-modules/markdown-modules.md)
