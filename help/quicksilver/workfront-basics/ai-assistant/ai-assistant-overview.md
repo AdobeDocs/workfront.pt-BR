@@ -5,9 +5,9 @@ description: Visão geral do Assistente de IA
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
+source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Pré-requisitos para o Assistente de IA
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos para o Assistente de IA
 
@@ -55,7 +55,7 @@ Para habilitar o Assistente de IA para sua organização, **todos** dos itens a 
 
 * Sua organização deve ter migrado para o Adobe IMS (Identity Management System)
 * A Experiência unificada do Adobe deve ser habilitada
-* Sua organização deve ter um plano Select, Prime ou Ultimate para Workfront
+* Sua organização deve ter um plano Select, Prime ou Ultimate Workfront
 * O Adobe deve ter um contrato de Ger AI de Adobe assinado no arquivo
 
   Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) neste artigo.
@@ -96,9 +96,16 @@ Atualmente, o Assistente de IA oferece as seguintes funcionalidades:
 
   >[!NOTE]
   >
-  >Essa funcionalidade está disponível somente para organizações nos planos do Prime ou Ultimate Workfront.
+  >Essa funcionalidade está disponível somente para organizações nos planos do Prime ou do Ultimate Workfront.
 
   Para obter mais informações, consulte [Gerar ou revisar fórmulas de campo calculado com o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
+
+<!--<div class="preview">
+* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+
+</div>-->
 
 ## Tipos de objeto disponíveis para o Assistente de IA
 

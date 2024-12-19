@@ -6,9 +6,9 @@ description: Você pode revisar métricas de aprovações nos Painéis do Canvas
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
+source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -45,10 +45,6 @@ Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tab
 Você pode exibir informações de alto nível sobre aprovações de documentos com KPIs e gráficos. Informações detalhadas não estão disponíveis atualmente na versão beta.
 
 ### KPIs
-
->[!IMPORTANT]
->
->Os dados de aprovação de novos documentos são atualizados atualmente durante as noites no fuso horário das montanhas dos EUA. As atualizações em tempo real estão planejadas e serão lançadas em breve.
 
 ![Exemplos de KPI](assets/kpi-dashboard.png)
 
@@ -129,10 +125,6 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 
 ### Gráficos
 
->[!IMPORTANT]
->
->Os dados de aprovação de novos documentos são atualizados atualmente durante as noites no fuso horário das montanhas dos EUA. As atualizações em tempo real estão planejadas e serão lançadas em breve.
-
 ![Exemplos de gráfico](assets/chart-dashboard.png)
 
 #### Gráfico de barras de decisão para aprovações
@@ -179,10 +171,6 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Concluído** no canto superior direito da tela.
 
 ## Adicionar informações detalhadas de revisão e aprovação com Tabelas
-
->[!IMPORTANT]
->
->Os dados de aprovação de novos documentos são atualizados atualmente durante as noites no fuso horário das montanhas dos EUA. As atualizações em tempo real estão planejadas e serão lançadas em breve.
 
 ![exemplo de tabela](assets/table-dashboard.png)
 

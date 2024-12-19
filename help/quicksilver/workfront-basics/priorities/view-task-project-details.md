@@ -6,18 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
+source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 1%
+source-wordcount: '395'
+ht-degree: 2%
 
 ---
 
-# Exibir detalhes do projeto e da tarefa na lista de trabalho Prioridades
+# Exibir detalhes do projeto e da tarefa em Prioridades
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
-Você pode exibir detalhes do projeto e da tarefa na lista de trabalho de prioridades.
+Você pode exibir detalhes do projeto, da tarefa e do problema na lista de trabalho de prioridades.
 
 ## Requisitos de acesso
 
@@ -57,7 +57,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Exibir detalhes do projeto
+## Exibir detalhes no painel lateral da lista de trabalho
+
+### Exibir detalhes do projeto
 
 {{step1-to-priorities}}
 
@@ -72,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    ![detalhes do projeto](assets/project-details.png)
    <!--new screen for prod ![](assets/project-details-new.png)-->
 
-## Exibir detalhes da tarefa
+### Exibir detalhes da tarefa
 
 {{step1-to-priorities}}
 
@@ -80,10 +82,47 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Tarefa é selecionada por padrão. Aqui você pode
    * Exibir e editar detalhes e descrição do projeto
    * Exibir e adicionar comentários ao projeto
-   * Exibir e adicionar documentos
+   * <span class="preview">Exibir e adicionar documentos</span>
+   * <span class="preview">Criar uma prova</span>
    * Registrar de tempo
    * Adicionar um arquivo
    * Adicionar links rápidos
 
    ![detalhes da tarefa](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
+
+### Exibir detalhes do problema
+
+{{step1-to-priorities}}
+
+1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
+1. Problema é selecionado por padrão. Aqui você pode
+   * Exibir e editar detalhes e descrição do projeto
+   * Exibir e adicionar comentários ao projeto
+* <span class="preview">Exibir e adicionar documentos</span>
+* <span class="preview">Criar uma prova</span>
+   * Registrar de tempo
+   * Adicionar um arquivo
+   * Adicionar links rápidos
+
+  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+
+## Exibir detalhes na página Detalhes
+
+<span class="preview">Você pode exibir atualizações em tempo real na página Detalhes de uma tarefa ou problema. Você também pode ver se outras pessoas estão visualizando a página ao mesmo tempo que você com indicadores de presença em tempo real.</span>
+
+## Exibir detalhes do item de trabalho
+
+{{step1-to-priorities}}
+
+1. Na lista de trabalho, clique no nome do item de trabalho. Na página Detalhes, é possível
+
+* Exibir e editar detalhes e descrição do projeto
+* Exibir e adicionar comentários ao projeto
+* <span class="preview">Exibir e adicionar documentos</span>
+* <span class="preview">Criar uma prova</span>
+* Registrar de tempo
+* Adicionar um arquivo
+* Adicionar links rápidos
+
+<!-- screenshot for prod-->

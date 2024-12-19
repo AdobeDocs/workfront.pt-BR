@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
+source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Em Prioridades, você pode filtrar e agrupar seu trabalho para ajudá-lo a geren
 
 ### Encontre seu trabalho com filtros
 
-Encontre o seu trabalho mais importante com filtros. Você pode filtrar tarefas e problemas atribuídos a você das seguintes maneiras:
+Encontre o seu trabalho mais importante com filtros. <span class="preview">Você pode usar um idioma natural para encontrar trabalho com o filtro Inteligente</span> ou usar o filtro Padrão para encontrar tarefas e problemas atribuídos a você:
 
 <table>
   <tbody>
@@ -166,11 +166,6 @@ Para obter mais informações, consulte [Fazer upload de arquivos em Prioridades
 ![](assets/upload-file.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
-### Exibir documentos [!BADGE Em breve]{type=Informative}
-
-A guia Documentos permitirá exibir todos os arquivos relacionados a um item de trabalho. Você poderá filtrar documentos por nome, tipo de arquivo ou pessoa e classificar por nome e data de upload.
-
-Você também poderá abrir o documento ou a prova.
 
 ### Adicionar links rápidos
 
@@ -180,21 +175,33 @@ Você pode incorporar links usados com frequência na página de detalhes do ite
 
 Para obter mais informações, consulte [Adicionar e gerenciar links rápidos em Prioridades](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Revisar e aprovar ativos [!BADGE Em breve]{type=Informative}
+### Exibir documentos [!BADGE Disponíveis na visualização]{type=Informative}
 
-A capacidade de revisar e aprovar ativos está no roteiro de prioridades.
+A guia Documentos permite exibir todos os arquivos relacionados a um item de trabalho. Você poderá filtrar documentos por nome, tipo de arquivo ou pessoa e classificar por nome e data de upload.
 
-Por enquanto, recomendamos usar os widgets Minha aprovação e Todas as aprovações na Nova página inicial.
+Você também poderá abrir o documento ou a prova.
 
-Para obter mais informações, consulte [Adicionar, editar ou remover widgets na Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+### Revisar e aprovar ativos [!BADGE Disponíveis na visualização]{type=Informative}
+
+Na guia Documentos de uma tarefa ou problema, é possível
+
+* Criar provas simples ou avançadas
+* Inicie o visualizador de revisões para deixar comentários e tomar decisões
 
 
 ## Use [!DNL Catch me up] para ver o que você perdeu [!BADGE Em breve]{type=Informative}
 
 Use o recurso [!DNL Catch me up] para ver o que você perdeu. Pegar-me resumirá as atualizações, os documentos carregados, as aprovações e outras alterações importantes sobre seus projetos dentro dos seguintes prazos: 24 horas, 3 dias, 7 dias.
 
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
+
+<!--need new screen for prod-->
+
+## Exibir atualizações em tempo real na página Detalhes [!BADGE Disponível na visualização]{type=Informative}
+
+Você pode exibir atualizações em tempo real na página Detalhes de uma tarefa ou problema. Você também pode ver se outros estão visualizando a página ao mesmo tempo que você com indicadores de presença em tempo real.
 
 ## Considerações
 

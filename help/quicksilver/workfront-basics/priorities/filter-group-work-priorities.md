@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 6%
 
 ---
@@ -172,13 +172,14 @@ Para expandir ou recolher todas as seções, abra **Grupo** e clique em **Expand
 
 ## Filtre e agrupe seu trabalho com Prioridades na Pré-visualização
 
-### Filtrar seu trabalho
+### Filtre seu trabalho com filtros Padrão
 
 Você pode filtrar tarefas e problemas atribuídos a você.
 
 {{step1-to-priorities}}
 
 1. Clique em **Filtros** na parte superior esquerda da lista de trabalho.
+1. clique em **Filtros padrão**.
 1. Selecione um ou vários filtros para restringir seus itens de trabalho.
    ![](assets/filter-new.png)
 
@@ -243,6 +244,23 @@ Você pode filtrar tarefas e problemas atribuídos a você.
 
 1. (Opcional) Clique em **Voltar ao padrão** para redefinir sua seleção.
 
+### Filtre seu trabalho com filtros inteligentes
+
+Use a linguagem natural para filtrar rapidamente o trabalho.
+
+{{step1-to-priorities}}
+
+1. Clique em **Filtros** na parte superior esquerda da lista de trabalho.
+1. Clique em **Filtros inteligentes**.
+1. Digite como deseja filtrar o trabalho.
+
+   Você pode digitar coisas como
+
+   * Mostrar tarefas atrasadas
+   * Mostrar minhas prioridades principais
+   * Mostrar trabalho com vencimento hoje
+
+
 ### Agrupar seu trabalho
 
 {{step1-to-priorities}}
@@ -261,6 +279,8 @@ Você pode filtrar tarefas e problemas atribuídos a você.
 | Status | Isso agrupa itens pelos seguintes status: Novo, Em andamento, Concluído. <br>Observação: no momento, você não pode usar status personalizados em Prioridades. |
 
 +++
+
+
 
 ### Classifique seu trabalho
 
