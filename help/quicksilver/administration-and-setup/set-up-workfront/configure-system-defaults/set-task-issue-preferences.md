@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,10 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 Como administrador do [!DNL Adobe Workfront], você pode configurar preferências de todo o sistema para tarefas e problemas. Essas preferências afetam a maneira como seus usuários criam tarefas e problemas no [!DNL Workfront].
 
@@ -76,9 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * [[!UICONTROL Padrões de nova tarefa]](#new-task-defaults)
    * [[!UICONTROL Problemas]](#issues)
    * [[!UICONTROL Exclusão]](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[Mover](#move)</span>
    * [[!UICONTROL Datas efetivas]](#actual-dates)
    * [[!UICONTROL Delegação]](#delegation)
    * [[!UICONTROL Acesso]](#access)
@@ -173,21 +169,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Ao desmarcar essa opção, você receberá um aviso proibitivo ao excluir uma tarefa ou problema com horas reportadas ou ao excluir um projeto com horas reportadas para suas tarefas ou problemas. O aviso especifica que o administrador não permite que tarefas ou problemas com horas reportadas sejam excluídos. As tarefas, problemas ou projetos que têm horas registradas para tarefas e problemas não podem ser excluídos.
 
-<!--*****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Mover
 
-**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL Permitir que os usuários movam tarefas e problemas com horas registradas]**: Permite determinar se você permite a movimentação de tarefas ou problemas em que horas são registradas. Essa opção é selecionada por padrão.
 
-* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+* Quando selecionado, você pode mover tarefas e problemas com tempo reportado. As horas também se movem com as tarefas ou problemas.
 
-* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+* Ao desmarcar essa opção, você receberá um aviso proibitivo ao mover uma tarefa ou problema com horas reportadas. O aviso especifica que o administrador não permite que tarefas ou problemas com horas reportadas sejam movidos. As tarefas ou problemas que têm horas registradas não podem ser movidas.
 
 </div>
-
--->
 
 ### [!UICONTROL Datas efetivas] {#actual-dates}
 
@@ -216,7 +208,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ### Delegação
 
-Habilitar a configuração **[!UICONTROL Permitir que usuários deleguem tarefas e problemas]** permite que todos os usuários no deleguem temporariamente seu trabalho a outras pessoas.
+Habilitar a configuração **[!UICONTROL Permitir que usuários deleguem tarefas e problemas]** permite que todos os usuários do sistema deleguem trabalho a outras pessoas temporariamente.
 
 Quando essa configuração estiver ativada, os usuários poderão ver o seguinte:
 
@@ -229,7 +221,7 @@ Quando essa configuração estiver ativada, os usuários poderão ver o seguinte
 * Uma indicação de que uma tarefa ou problema é delegada a outro usuário na área [!UICONTROL Atribuições e delegações] no cabeçalho da tarefa ou problema.
 * Uma indicação de que uma tarefa ou problema é delegada a outro usuário no widget [!UICONTROL Meu trabalho] na [!UICONTROL Página inicial].
 
-  Se você desabilitar a configuração [!UICONTROL Permitir que os usuários deleguem tarefas e problemas], as delegações agendadas no momento serão interrompidas e os usuários delegados receberão uma notificação por email de que a delegação foi interrompida.
+  Se você desabilitar a configuração [!UICONTROL Permitir que usuários deleguem tarefas e problemas], as delegações que estão agendadas no momento serão interrompidas e os usuários delegados receberão uma notificação por email de que a delegação foi interrompida.
 
 Para obter informações sobre como delegar trabalho a outras pessoas, consulte os seguintes artigos:
 

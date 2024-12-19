@@ -6,10 +6,10 @@ description: Você pode exibir e adicionar atualizações a um item de trabalho 
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 4%
+source-wordcount: '906'
+ht-degree: 6%
 
 ---
 
@@ -17,11 +17,16 @@ ht-degree: 4%
 
 <!--Audited: April 2024-->
 
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Você pode exibir e adicionar atualizações a um item de trabalho na área [!UICONTROL Página Inicial] em [!DNL Adobe Workfront]. Você também pode editar outros dados relacionados ao item de trabalho se tiver acesso para editá-lo.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -48,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>permissões do Contribute ou superior para as tarefas e problemas que você precisa para trabalhar</p> </td> 
+   <td> <p>permissões do Contribute ou superiores às tarefas e problemas nos quais você precisa trabalhar</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,36 +62,57 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Exibir atualizações em um item de trabalho
+<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
-Você pode exibir atualizações em qualquer item de trabalho na [!UICONTROL Lista de Trabalho]:
+## View updates on a work item
+
+You can view updates on any work item in the [!UICONTROL Work List]:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
+   Updates are displayed in the right panel.
+
+-->
+
+## Visão geral dos widgets, onde você pode adicionar comentários ou editar itens na área Página inicial
+
+Você pode adicionar comentários nos seguintes widgets na área Página inicial:
+
+| Dispositivo | Descrição |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
+| Meu trabalho | Exibe tarefas e problemas atribuídos a você |
+| Meus projetos | Exibe os projetos que você possui ou os projetos em que você está |
+| Minhas tarefas | Exibe as tarefas atribuídas a você |
+| Meus problemas | Exibe os problemas atribuídos a você |
+| Minhas solicitações | Exibe todas as solicitações que você enviou |
+| Minhas aprovações | Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas |
+| Menções | Exibe threads de comentário recentes no Workfront, semelhantes à página Minhas atualizações, bem como um botão de resposta que permite compor uma resposta no dispositivo. |
+
+Você pode editar itens de trabalho nos seguintes widgets na área Página inicial:
+
+| Dispositivo | Descrição |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
+| Meu trabalho | Exibe tarefas e problemas atribuídos a você |
+| Meus projetos | Exibe os projetos que você possui ou os projetos em que você está |
+| Minhas tarefas | Exibe as tarefas atribuídas a você |
+| Meus problemas | Exibe os problemas atribuídos a você |
+| Minhas solicitações | Exibe todas as solicitações que você enviou |
+| Minhas aprovações | Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas |
+
+## Adicionar um comentário a um item de trabalho no widget Meu trabalho
+
+Você pode fornecer atualizações em qualquer item de trabalho no widget [!UICONTROL Meu Trabalho]:
 
 1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
-1. Na área **[!UICONTROL Lista de Trabalho]**, selecione o item no qual deseja exibir as atualizações.\
-   As atualizações são exibidas no painel direito.
+1. (Condicional) Clique em **Personalizar** para adicionar o widget [!UICONTROL **Meu trabalho**].
 
+1. Localize o item de trabalho que você deseja atualizar no widget [!UICONTROL **Meu Trabalho**].
+1. Passe o cursor do mouse sobre o nome e clique no ícone **Adicionar nova atualização**.
 
-
-## Adicionar um comentário a um item de trabalho
-
-Você pode fornecer atualizações em qualquer item de trabalho na Lista [!UICONTROL Trabalho]:
-
-1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
-1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
-
-   | Dispositivo | Descrição |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
-   | Meu trabalho | Exibe tarefas e problemas atribuídos a você |
-   | Meus projetos | Exibe os projetos que você possui ou os projetos em que você está |
-   | Minhas tarefas | Exibe as tarefas atribuídas a você |
-   | Meus problemas | Exibe os problemas atribuídos a você |
-   | Minhas solicitações | Exibe todas as solicitações que você enviou |
-   | Minhas aprovações | Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas |
-
-1. Localize o item de trabalho que você deseja atualizar.
-1. Passe o mouse sobre o nome, em seguida, clique em **Adicionar nova atualização**.
    ![](assets/add-update-on-widget.png)
+
 1. Comece a digitar seu comentário.
 1. (Opcional) Na caixa **Marcar pessoas ou equipes**, comece digitando o nome ou o email de um usuário ou de uma equipe que você deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
 1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis, links ou imagens ao comentário para aprimorar o conteúdo.
@@ -96,24 +122,40 @@ Você pode fornecer atualizações em qualquer item de trabalho na Lista [!UICON
    >
    >Você pode editar seu comentário somente em 15 minutos a partir do envio. Para editar um comentário, clique no menu **Mais** no canto superior direito do comentário e clique em **Editar**.
 
-Para obter informações mais detalhadas sobre como adicionar atualizações, consulte [Adicionar uma atualização a um item de trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Para obter informações mais detalhadas sobre como adicionar atualizações, consulte [Trabalho de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Adicionar um comentário a um item no widget de Menções
+
+1. Adicione o widget **Menções** à sua área inicial.
+
+1. Localize o item ao qual você foi incluído em uma atualização e ao qual deseja responder.
+
+1. Clique em **Responder**.
+
+   <div class="preview">
+
+   ![](assets/reply-to-comment-in-mentions-widget.png)
+
+   </div>
+
+1. Comece a digitar seu comentário.
+1. (Opcional) Na caixa <span class="preview">**Marcar pessoas**</span>, comece digitando o nome de um usuário ou equipe que você deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
+1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis, links ou imagens ao comentário para aprimorar o conteúdo.
+1. <span class="preview">Clique em **Enviar** para adicionar o comentário ao item de trabalho.</span>
+
+   >[!IMPORTANT]
+   >
+   ><span class="preview">Você pode editar seu comentário somente dentro de 15 minutos a partir do envio. Para editar um comentário, clique no menu **Mais** no canto superior direito do comentário e clique em **Editar**.</span>
+
+   <span class="preview">Para obter informações mais detalhadas sobre como adicionar atualizações, consulte [Trabalho de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
 
 ## Editar um item de trabalho
 
 É possível editar qualquer campo em qualquer item de trabalho que você tenha acesso para editar.
 
 1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
-1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
-
-   | Dispositivo | Descrição |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
-   | Meu trabalho | Exibe tarefas e problemas atribuídos a você |
-   | Meus projetos | Exibe os projetos que você possui ou os projetos em que você está |
-   | Minhas tarefas | Exibe as tarefas atribuídas a você |
-   | Meus problemas | Exibe os problemas atribuídos a você |
-   | Minhas solicitações | Exibe todas as solicitações que você enviou |
-   | Minhas aprovações | Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas |
+1. (Condicional) Clique em **Personalizar** para adicionar o widget **Meu trabalho**.
 
 1. Passe o mouse sobre o item de trabalho e clique no ícone **Resumo**.
    ![](assets/open-summary-new-home.png)
