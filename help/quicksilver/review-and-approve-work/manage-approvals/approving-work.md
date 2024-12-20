@@ -6,7 +6,7 @@ description: Aprovar trabalho
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
+source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -168,7 +168,7 @@ Para aprovar o trabalho diretamente de um projeto, tarefa ou problema:
 1. Clique em **Aprovar** ou **Rejeitar**, dependendo se você deseja aprovar ou rejeitar o processo de aprovação.\
    O estágio de aprovação que estava pendente de aprovação agora é aprovado, e o processo de aprovação passa para o próximo estágio. O status é aprovado após a aprovação de todos os estágios.
 
-## Aprovar um documento diretamente de um documento 
+## Aprovar um documento diretamente de um documento
 
 1. Vá para a área de documentos que contém o documento que requer sua aprovação.
 1. Selecione o documento e clique em **Aprovar**, **Alterações** ou **Rejeitar**.\
