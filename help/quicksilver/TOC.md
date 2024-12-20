@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8706a099b3f8111d78c3625ac1fce02cfbe07452
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '14733'
+source-wordcount: '14741'
 ht-degree: 2%
 
 ---
@@ -904,7 +904,7 @@ ht-degree: 2%
       * [Prioridades: índice de artigos](workfront-basics/priorities/priorities-toc.md)
       * [Prioridades: Próximas versões](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Introdução às prioridades](workfront-basics/priorities/get-started-with-priorities.md)
-      * [Exibir detalhes do projeto e da tarefa em Prioridades](workfront-basics/priorities/view-task-project-details.md)
+      * [Exibir detalhes do projeto e do item de trabalho em Prioridades](workfront-basics/priorities/view-task-project-details.md)
       * [Filtre e agrupe seu trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [Personalizar as colunas da lista de trabalho](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Priorizar itens de trabalho importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -914,6 +914,7 @@ ht-degree: 2%
       * [Fazer upload de arquivos em Prioridades](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [Adicionar e gerenciar links rápidos nas Prioridades](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
       * [Fazer upload de documentos e criar provas em Prioridades](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
+      * [Gerenciar seu trabalho no calendário Prioridades](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * Página inicial {#home}
       * [Início](workfront-basics/using-home/home.md)
       * Usar a área da página inicial {#use-home-area}

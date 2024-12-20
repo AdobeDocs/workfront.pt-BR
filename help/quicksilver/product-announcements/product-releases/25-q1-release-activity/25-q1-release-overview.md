@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Fazer upload e exibir documentos e provas em Prioridades</a></p>
-            <p>Agora você pode interagir com documentos e provas para tarefas e problemas. Na nova guia Documentos, é possível</p>
+            <p>Agora você pode interagir com documentos e provas para tarefas e problemas na lista de trabalho e no calendário. Na nova guia Documentos, é possível</p>
             <ul>
                 <li>Fazer upload de um documento</li>
                 <li>Criar uma prova</li>
@@ -287,11 +287,11 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             A exibição Calendário agora está disponível em Prioridades</a></p>
-            <p>Acompanhe facilmente seu trabalho com um calendário mensal visual e claro. Com o calendário Prioridades, você pode</p>
+            <p>Você pode acompanhar seu trabalho com um calendário mensal visual e claro. Com o calendário Prioridades, você pode</p>
             <ul>
                 <li>Use filtros para encontrar seu trabalho</li>
-                <li>Exibir campos como status e nível de foco</li>
-                <li>Aplicar cores para priorização rápida</li>
+                <li>Aplique campos personalizados como status e nível de foco para identificar trabalhos de alta prioridade</li>
+                <li>Aplicar cores para organização rápida</li>
                 <li>E muito mais</li>
             </ul>
         </td>

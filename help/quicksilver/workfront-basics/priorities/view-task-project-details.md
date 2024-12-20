@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Exibir detalhes do projeto e da tarefa na lista de trabalho Prioridades
+title: Exibir detalhes do projeto e do item de trabalho na lista de trabalho Prioridades
 description: Você pode exibir detalhes do projeto e da tarefa na lista de trabalho de prioridades.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 2%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
-# Exibir detalhes do projeto e da tarefa em Prioridades
+# Exibir detalhes do projeto e do item de trabalho em Prioridades
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
@@ -80,13 +80,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
 1. Tarefa é selecionada por padrão. Aqui você pode
-   * Exibir e editar detalhes e descrição do projeto
+   * Exibir e editar detalhes e descrição do projeto e da tarefa
    * Exibir e adicionar comentários ao projeto
    * <span class="preview">Exibir e adicionar documentos</span>
    * <span class="preview">Criar uma prova</span>
    * Registrar de tempo
    * Adicionar um arquivo
    * Adicionar links rápidos
+
 
    ![detalhes da tarefa](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
 1. Problema é selecionado por padrão. Aqui você pode
-   * Exibir e editar detalhes e descrição do projeto
+   * Exibir e editar detalhes e descrição do projeto e do problema
    * Exibir e adicionar comentários ao projeto
 * <span class="preview">Exibir e adicionar documentos</span>
 * <span class="preview">Criar uma prova</span>
