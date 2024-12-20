@@ -1,22 +1,24 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: Usar a área Início
+title: 'Use a área da página inicial: índice do artigo'
 description: Leia estes artigos para saber como usar a área Página inicial no Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# Usar a área Início
+# Use a área da página inicial: índice do artigo
 
-Esta seção contém os seguintes artigos:
+<!--Audited: 12/2024-->
+
+Leia estes artigos para saber como usar a área Página inicial no Adobe Workfront.
 
 * [Introdução à [!UICONTROL Página Inicial]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [Adicionar, editar ou remover widgets na Nova página inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)

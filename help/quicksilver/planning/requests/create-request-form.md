@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 2%
 
 ---
@@ -150,13 +150,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >    * Data de criação e data da última modificação
    >    * Campos de pesquisa de objetos do Workfront
    >    * Campos de pesquisa de registros conectados do Workfront Planning
-   >    * Campos conectados do AEM Assets
    >* Os campos dos seguintes tipos não são exibidos no formulário de solicitação no ambiente de Produção. <span class="preview">Eles são exibidos no ambiente de Visualização:</span>
    >    * <span class="preview"> campos conectados de registros do Workfront Planning</span>
    >    * <span class="preview">Pessoas </span>
    >    * <span class="preview">Campos conectados de objetos do Workfront</span>
    >    * <span class="preview">Campos conectados do AEM Assets </span>
-
 
    * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.
    * Campo **Assunto**: o campo que identificará a solicitação no Workfront. Esse recurso ainda não está disponível no ambiente de produção. <span class="preview">Está disponível no ambiente de visualização.</span> A configuração e o valor do campo Assunto não são editáveis.

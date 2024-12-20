@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,18 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning após a versão de disponibilidade geral em 28 de agosto de 2024, consulte [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Agora os campos de conexão com ativos do Adobe Experience Manager são permitidos em formulários de solicitação
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 20 de dezembro de 2024; Versão de produção para todos os clientes: 16 de janeiro de 2025
+
+Agora é possível adicionar campos de conexão com ativos AEM a um formulário de solicitação de tipo de registro no Workfront Planning.
+
+Antes desse aprimoramento, esses tipos de campos não podiam ser adicionados aos formulários de solicitação.
+
+Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Configuração de aprovações para solicitações do Workfront Planning
 

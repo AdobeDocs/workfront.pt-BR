@@ -6,14 +6,16 @@ description: Use o Balanceador de carga de trabalho para entender a disponibilid
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4070'
 ht-degree: 0%
 
 ---
 
 # Navegar pelo Balanceador de carga de trabalho
+
+<!--Audited: 12/2024-->
 
 Use o Balanceador de carga de trabalho no Adobe Workfront para atribuir trabalho aos usuários com base em sua disponibilidade. Este artigo descreve como você pode usar configurações e opções para navegar no Balanceador de carga de trabalho e exibir as informações relevantes para você. Os artigos adicionais listados aqui descrevem como você pode usar o Balanceador de carga de trabalho para gerenciar seus recursos e sua alocação para trabalhar.
 
@@ -36,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td><p>Novo: Padrão</p>
        <p>ou</p>
        <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
@@ -60,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -229,7 +231,7 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
 1. Clique na **seta para baixo** à esquerda das áreas Não atribuído ou Atribuído para recolher todos os itens nos nomes de projeto (na área Não atribuído) e nos nomes de usuário (na área Atribuído).
 
-1. Arraste e solte a **linha de separação** entre o painel esquerdo e a área da linha do tempo para ajustar o tamanho do painel esquerdo.
+1. Passe o mouse sobre ele e arraste e solte a **linha de separação** entre o painel esquerdo e a área da linha do tempo para ajustar o tamanho do painel esquerdo.
 
    ![Linha de separação](assets/wb-adjust-panel-size.png)
 
