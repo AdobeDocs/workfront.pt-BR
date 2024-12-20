@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,7 @@ Para obter mais informações, consulte [Priorizar itens de trabalho importantes
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Usar o modo de exibição Calendário [!BADGE Em breve]{type=Informative}
+### Usar o modo de exibição Calendário [!BADGE Disponível na visualização]{type=Informative}
 
 A exibição de Calendário fornecerá uma representação visual de suas tarefas e problemas. Você poderá escolher entre uma visualização de dia, semana ou mês. Você também poderá filtrar itens de maneira semelhante à lista de trabalho.
 
@@ -190,11 +190,11 @@ Na guia Documentos de uma tarefa ou problema, é possível
 * Inicie o visualizador de revisões para deixar comentários e tomar decisões
 
 
-## Use [!DNL Catch me up] para ver o que você perdeu [!BADGE Em breve]{type=Informative}
+## Use [!DNL Catch me up] para ver o que você perdeu [!BADGE Disponível na visualização]{type=Informative}
 
 Use o recurso [!DNL Catch me up] para ver o que você perdeu. Pegar-me resumirá as atualizações, os documentos carregados, as aprovações e outras alterações importantes sobre seus projetos dentro dos seguintes prazos: 24 horas, 3 dias, 7 dias.
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+Para obter mais informações, consulte [Acompanhar o trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
 
