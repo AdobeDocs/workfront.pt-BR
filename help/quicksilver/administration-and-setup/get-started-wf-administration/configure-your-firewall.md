@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,6 @@ Para obter mais informações, consulte a seção [Exibir o cluster da sua organ
 * [Endereços IP a serem permitidos para o Cluster 10](#ip-addresses-to-allow-for-cluster-10)
 * [Endereços IP para permitir uma Unidade de Teste](#IP%20Addre2)
 * [Endereços IP permitidos ao implementar assinaturas de evento](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [Endereços IP para permitir autenticação aprimorada](#ip-addresses-to-allow-for-enhanced-authentication)
 * [Endereços IP a serem adicionados para acessar o Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [Endereços IP a serem adicionados para usar o Workfront para Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [URLs a serem adicionados para todos os clusters do Workfront](#urls-to-add-for-all-clusters-workfront)
@@ -289,70 +288,6 @@ Para todos os ambientes, adicione os seguintes endereços IP para receber cargas
  </tbody> 
 </table>
 
-### Endereços IP para permitir autenticação aprimorada {#ip-addresses-to-allow-for-enhanced-authentication}
-
-Adicione os seguintes endereços IP para usar a autenticação aprimorada para Pré-visualização ou Produção.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Se seu ambiente estiver no Cluster 1, 2, 3, 5, 7, 8 ou 9</td> 
-   <td> 
-    <ul> 
-     <li>35 167 74 121</li> 
-     <li>35 166 202 113</li> 
-     <li>35.160.3.103</li> 
-     <li>54 183 64 135</li> 
-     <li>54.67.77.38</li> 
-     <li>54.67.15.170</li> 
-     <li>54 183 204 205</li> 
-     <li>35 171 156 124</li> 
-     <li>18.233.90.226</li> 
-     <li>3.211.189.167</li> 
-     <li>18.232.225.224</li> 
-     <li>34.233.19.82</li> 
-     <li>52.204.128.250</li> 
-     <li>3.132.201.78</li> 
-     <li>3.19.44.88</li> 
-     <li>3.20.244.231</li> 
-     <li>54 244 142 219</li> 
-     <li>52.39.217.230</li> 
-     <li>44 241 82 96</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Se seu ambiente estiver no Cluster 4</td> 
-   <td> 
-    <ul> 
-     <li>52.28.56.226</li> 
-     <li>52.28.45.240</li> 
-     <li>52.16.224.164</li> 
-     <li>52.16.193,66</li> 
-     <li>34.253.4.94</li> 
-     <li>52.50.106.250</li> 
-     <li>52 211 56 181</li> 
-     <li>52 213 38 246</li> 
-     <li>52 213 74 69</li> 
-     <li>52 213 216 142</li> 
-     <li>35 156 51 163</li> 
-     <li>35 157 221 52</li> 
-     <li>52.28.184.187</li> 
-     <li>52.28.212.16</li> 
-     <li>52.29.176.99</li> 
-     <li>52.57.230.214</li> 
-     <li>54.76.184.103</li> 
-     <li>52.210.122.50</li> 
-     <li>52 208 95 174</li> 
-     <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34 254 76 122</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Endereços IP a serem adicionados para acessar o Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 Adicione os seguintes endereços IP ao seu arquivo de inclui na lista de permissões para habilitar o Workfront para acessar seu sistema.
@@ -394,7 +329,7 @@ Adicione os seguintes endereços IP ao seu arquivo de inclui na lista de permiss
  </tbody> 
 </table>
 
-Incluir na lista de permissões Além disso, se a sua organização usar filtragem de rede de saída, adicione o seguinte domínio ao seu arquivo de pesquisa para permitir que o sistema acesse o Workfront Fusion.
+Incluir na lista de permissões Além disso, se a sua organização usar filtragem de rede de saída, adicione o seguinte domínio ao seu arquivo de pesquisa para permitir que o sistema acesse o Workfront Fusion. Esses URLs são usados para webhooks no Fusion.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -485,9 +420,12 @@ Incluir na lista de permissões Se sua organização usar filtragem de rede de s
 * auth.split.io
 * rum-http-intake.logs.datadoghq.com
 * mfe.static.workfront.com
-* https://app.pendo.io/
-* https://cdn.pendo.io/
+* fonts.gstatic.com
+* dpm.demdex.net
+* storage.googleapis.com
+* *.aptrinsic.com
 * *.static.workfront.com
+
 
   Este é um domínio estático que abrange todos os domínios a seguir. Você pode adicionar os domínios individuais se preferir:
 
@@ -496,6 +434,29 @@ Incluir na lista de permissões Se sua organização usar filtragem de rede de s
    * mfe-preview-c.static.workfront.com
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
+
+Se sua organização estiver na Experiência unificada do Adobe, ela usará os seguintes domínios. Esses domínios são cobertos em `*.adobe.com`, mas podem ser adicionados se desejado.
+
+* &lt;your domain>.my.workfront.adobe.com
+* &lt;your domain>.preview.workfront.adobe.com
+* &lt;your domain>.sb01.workfront.adobe.com
+* &lt;your domain>.sb02.workfront.adobe.com
+
+
+Para o Workfront Fusion, adicione os seguintes domínios:
+
+* Para organizações que não estejam na Experiência unificada do Adobe:
+   * app.workfrontfusion.com (AWS EUA)
+   * app-eu.workfrontfusion.com (EU AWS)
+   * app-az.workfrontfusion.com (Azure EUA)
+
+* Para organização no Adobe Unified Experience
+(Esses domínios são cobertos em `*.adobe.com`, mas podem ser adicionados se desejado.)
+
+   * fusion.adobe.com
+   * app-eu.fusion.adobe.com
+   * app-az.fusion.adobe.com
+
 
 
 ## URLs a serem adicionados para todos os clusters do Workfront {#urls-to-add-for-all-clusters-workfront}
