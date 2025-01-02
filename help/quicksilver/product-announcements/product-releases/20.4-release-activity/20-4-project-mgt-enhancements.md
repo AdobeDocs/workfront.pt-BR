@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Para economizar tempo e aumentar a compreensão da integridade geral de um proje
 
 Você pode fazer seleções nos gráficos para ver diferentes aspectos das tarefas e problemas em um projeto e clicar em determinados elementos para exibir informações da tarefa.
 
-Este recurso agora está incluído no [Fundamentos do planejador, Parte 3 do caminho de aprendizado](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) no Workfront One.
+<!--This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One. -->
 
 ## Novo para administradores: atribuir um líder de negócios a um grupo
 
