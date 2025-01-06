@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 998f30661c4bc3e6a16328b194a950f942319335
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '14763'
+source-wordcount: '14767'
 ht-degree: 2%
 
 ---
@@ -1852,7 +1852,7 @@ ht-degree: 2%
       * [Cancelar aprovações enviadas](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * Revisão e aprovação de ativos e documentos {#document-reviews-and-approvals}
       * [Revisão e aprovação de ativos e documentos: índice do artigo](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [Visão geral das aprovações de ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [Funcionalidade disponível para revisão e aprovação de ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Visão geral de novas aprovações de documento](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Visão geral do status de decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * Configurar e gerenciar aprovações de ativos e documentos {#manage-asset-review-and-approval}

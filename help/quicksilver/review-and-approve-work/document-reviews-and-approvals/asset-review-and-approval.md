@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Visão geral das aprovações de ativos e documentos
+title: Funcionalidade disponível para revisão e aprovação de ativos e documentos
 description: Visão geral dos sistemas disponíveis para revisão e aprovação no Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# Visão geral das aprovações de ativos e documentos
+# Funcionalidade disponível para revisão e aprovação de ativos e documentos
 
 Atualmente, existem 3 sistemas diferentes disponíveis no Workfront para revisão e aprovações de ativos e documentos:
 
@@ -85,4 +85,6 @@ Recursos disponíveis para revisão de texto:
 
 * Usar workflows básicos ou automatizados
 
-
+<!--
+## Upcoming deprecations
+-->
