@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,34 @@ ht-degree: 0%
 Esta página descreve todas as melhorias de administrador feitas com a versão do Primeiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2025, consulte [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Comparar objetos entre ambientes para promoção do ambiente
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 6 de janeiro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+
+Para facilitar a determinação do objeto que deve ser incluído em um pacote de promoção de ambiente, adicionamos a capacidade de comparar objetos entre ambientes. Agora, você pode selecionar tipos de objetos e ambientes. O Workfront gera uma lista de objetos desse tipo, se eles estão presentes no ambiente de destino e se esse objeto tem diferenças entre o ambiente de origem e o ambiente de destino. Você pode então adicionar objetos a um pacote diretamente dessa lista.
+
+Anteriormente, se um usuário quisesse comparar objetos entre ambientes, ele deveria verificar esses objetos manualmente.
+
+Para obter mais informações, consulte [Comparar objetos entre ambientes](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+
+## Mais objetos disponíveis para promoção de ambiente
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 6 de janeiro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+
+Para expandir os recursos da funcionalidade de promoção do ambiente, adicionamos mais objetos. Agora, é possível adicionar os seguintes objetos a um pacote de promoção de ambiente:
+
+* Locais
+* Cartões de tarifas
+* Atribuições
+
+Anteriormente, esses objetos não estavam disponíveis para promoção do ambiente.
+
+Para obter mais informações sobre objetos disponíveis para promoção de ambiente, consulte [Objetos compatíveis para promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) no artigo Visão geral da promoção de ambiente.
 
 ## Impedir a movimentação de tarefas quando há Horas registradas
 
