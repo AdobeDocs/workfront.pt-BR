@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -105,3 +105,15 @@ Um pacote deve estar com o status `DRAFT` para ser editado. Para mover o pacote 
 1. Para instalar o pacote, clique em **Instalar** no canto superior direito da tela.
 
    Para obter instruções sobre como instalar um pacote, consulte [Instalar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+
+## Criar um pacote a partir de uma comparação de objetos
+
+Você pode criar um pacote diretamente de uma comparação de objetos.
+
+1. Crie uma comparação de objetos, conforme descrito em [Comparar objetos entre ambientes](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+1. Na comparação gerada, selecione os objetos que deseja incluir no pacote.
+1. Clique em **Criar pacote** no canto superior direito da tela.
+1. Insira um nome e uma descrição para o pacote.
+1. Clique em **Criar pacote** na janela Criar pacote.
+
+   O pacote é gerado.
