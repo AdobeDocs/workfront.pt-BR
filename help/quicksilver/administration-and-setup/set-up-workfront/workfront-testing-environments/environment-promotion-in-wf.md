@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -52,8 +52,8 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 
 | Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
-| Projeto (PROJ) | Projeto<br>Tarefa<br>Atribuição<br>Predecessora<br>Empresa<br>Taxa de Substituição<br>Grupo<br>Função<br>Equipe<br>Processo de Aprovação<br>Caminho de Aprovação<br>Etapa de Aprovação<br>Aprovador da Etapa<br>Agendar<br>Dia Não Útil<br>Definição da Fila<br>Grupo de Tópicos da Fila<br>Tópico da Fila<br>Regra de Roteamento<br>Caminho de Etapas<br>Tipo de Horas<br>Tipo de Horas<br>1}Pool de Recursos<br>Categoria<br>Parâmetro de Categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de Parâmetro<br>Lógica de Exibição de Categoria |
-| Modelo (TMPL) | Modelo<br>Tarefa de Modelo<br>Atribuição de Tarefa de Modelo<br>Predecessora da Tarefa de Modelo<br>Empresa<br>Taxa de Substituição<br>Grupo<br>Função<br>Equipe<br>Processo de Aprovação<br>Caminho de Aprovação<br>Etapa de Aprovação<br>Aprovador da Etapa<br>Agendar<br>Dia Não Útil<br>Definição da Fila<br>Grupo de Tópicos da Fila<br>Tópico da Fila<br>Regra de Roteamento<br>Caminho de Etapas<br>Marco<br>Marco Tipo de Hora<br>Pool de Recursos<br>Categoria<br>Parâmetro de Categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de Parâmetro<br>Lógica de Exibição de Categoria |
+| Projeto (PROJ) | Projeto<br>Tarefa<br>Atribuição<br>Predecessora<br>Empresa<br>Taxa de Substituição<br>Grupo<br>Função<br>Equipe<br>Processo de Aprovação<br>Caminho de Aprovação<br>Etapa de Aprovação<br>Aprovador da Etapa<br>Programação<br>Dia Não Útil<br>Definição da Fila<br>Grupo de Tópicos da Fila<br>Tópico da Fila<br>Regra de Roteamento<br>Caminho de Etapas<br>Milestone<br>Hora Tipo<br>Pool De Recursos<br>Categoria<br>Parâmetro De Categoria<br>Parâmetro<br>Grupo De Parâmetros<br>Opção De Parâmetro<br>Lógica De Exibição De Categoria |
+| Modelo (TMPL) | Modelo<br>Tarefa de Modelo<br>Atribuição de Tarefa de Modelo<br>Predecessora da Tarefa de Modelo<br>Empresa<br>Taxa de Substituição<br>Grupo<br>Função<br>Equipe<br>Processo de Aprovação<br>Caminho de Aprovação<br>Etapa de Aprovação<br>Aprovador da Etapa<br>Agendar<br>Dia Não Útil<br>Definição da Fila<br>Grupo de Tópicos da Fila<br>Tópico da Fila<br>Regra de Roteamento<br>Marco Caminho<br>Marco<br>Tipo de Hora<br>Pool de Recursos<br>Categoria<br>Parâmetro de Categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de Parâmetro<br>Lógica de Exibição de Categoria |
 
 ### Objetos de relatório
 
@@ -101,6 +101,7 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 | Conjunto de Recursos (RSPL) | Conjunto de Recursos |
 | Nível de acesso (ACSLVL) | Nível de acesso |
 | <span class="preview">Cartão de Taxa (RTCRD)</span> | <span class="preview">Cartão de Avaliação</span> |
+| <span class="preview">Local/Classificador (CLSF)</span> | <span class="preview">Local/Classificador</span> |
 
 \* Não disponível no momento
 
