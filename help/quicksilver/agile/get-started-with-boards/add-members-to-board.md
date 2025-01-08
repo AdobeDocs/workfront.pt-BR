@@ -6,9 +6,9 @@ description: As pessoas devem ser adicionadas ao painel como membros antes de vi
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 >[!NOTE]
 >
 >Somente um administrador do sistema ou o proprietário atual do painel pode alterar o proprietário do painel. Um quadro só pode ter um proprietário.
+>
+>A capacidade de alterar o proprietário do quadro está disponível nos quadros básico, retrospectivo e Kanban, mas não nos dinâmicos.
 
 1. Acesse o quadro.
 1. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) ao lado do nome do quadro e escolha **[!UICONTROL Alterar proprietário do quadro]**.
