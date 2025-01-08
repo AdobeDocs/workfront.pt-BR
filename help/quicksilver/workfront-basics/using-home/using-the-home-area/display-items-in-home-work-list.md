@@ -6,9 +6,9 @@ description: Cada widget contém sua própria lista de trabalho. As listas de tr
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 6%
 <!-- Audited: 1/2024 -->
 
 Cada widget contém sua própria lista de trabalho. As listas de trabalho exibem todos os itens de trabalho atribuídos a você. Você pode controlar quais itens são exibidos na sua [!UICONTROL lista de trabalho], usando filtros e agrupamentos.
+
+>[!IMPORTANT]
+>
+>* Para exibir tarefas e problemas nos widgets da Página inicial, o projeto principal deles deve estar no status Atual ou em um status que equivale a atual.
+>* Os projetos também devem estar no status Atual ou em um status que equivale a atual para ser exibido na Página inicial.
 
 ## Requisitos de acesso
 

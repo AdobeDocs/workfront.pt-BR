@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: da688217a1240b74667f31d20e086164e1536576
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '929'
 ht-degree: 6%
 
 ---
@@ -244,23 +244,25 @@ Você pode filtrar tarefas e problemas atribuídos a você.
 
 1. (Opcional) Clique em **Voltar ao padrão** para redefinir sua seleção.
 
-<!--### Filter your work with Smart filters
+<div class="preview">
 
-Use natural language to filter quickly filter work.
+### Filtre seu trabalho com filtros inteligentes
+
+Use a linguagem natural para filtrar rapidamente o trabalho.
 
 {{step1-to-priorities}}
 
-1. Click **Filters** in the top left of the worklist.
-1. Click **Smart filters**. 
-1. Type how you want to filter your work. 
+1. Clique em **Filtros** na parte superior esquerda da lista de trabalho.
+1. Clique em **Filtros inteligentes**.
+1. Digite como deseja filtrar o trabalho.
 
-    You can type things like
+   Você pode digitar coisas como
 
-    * Show me late tasks
-    * Show my top priorities
-    * Show work due today
+   * Mostrar tarefas atrasadas
+   * Mostrar minhas prioridades principais
+   * Mostrar trabalho com vencimento hoje
 
--->
+</div>
 
 ### Agrupar seu trabalho
 

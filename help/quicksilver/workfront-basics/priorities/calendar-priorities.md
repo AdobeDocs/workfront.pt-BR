@@ -5,13 +5,13 @@ description: Acompanhe seu trabalho com um calendário visual e claro.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
-
 
 # Gerenciar seu trabalho no calendário Prioridades
 
@@ -22,6 +22,11 @@ Acompanhe facilmente seu trabalho com um calendário visual claro. Com o calend�
 * Use filtros para encontrar seu trabalho
 * Aplique campos personalizados como status e nível de foco para identificar trabalhos de alta prioridade
 * Aplicar cores para organização rápida
+
+>[!IMPORTANT]
+>
+>Os projetos devem estar no status Atual ou em um status que seja igual a atual para que possam exibir os projetos, bem como suas tarefas e problemas secundários.
+
 
 ## Requisitos de acesso
 
@@ -154,4 +159,3 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Na guia **Cor**, escolha como deseja que seus itens de trabalho sejam exibidos. Por exemplo, se você escolher Projeto, os itens de trabalho serão exibidos de acordo com a cor atribuída ao projeto na lista de trabalho.
    ![projeto de cores de amostra](assets/sample-calendar-projects.png)
-

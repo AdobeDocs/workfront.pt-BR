@@ -1,5 +1,5 @@
 ---
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -360,8 +360,8 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 ## Versão mais recente do DPV {#latest-version}
 
 **Versão mais recente**:
-* Mac: 2.1.39 em 2/10/2024
-* Windows: 2.1.39 de 2/10/2024
+* Mac: 2.1.44 a partir de 2/1/2025
+* Windows: 2.1.44 de 2/1/2025
 
 <!-- Release -->
 
