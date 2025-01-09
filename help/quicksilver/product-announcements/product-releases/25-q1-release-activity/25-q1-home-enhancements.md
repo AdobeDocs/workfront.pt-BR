@@ -1,28 +1,26 @@
 ---
 title: Melhorias na página inicial do primeiro trimestre de 2025
-description: Melhorias na página inicial do primeiro trimestre de 2025
+description: Aprimoramentos nas prioridades do primeiro trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
-# Melhorias na página inicial do primeiro trimestre de 2025
+# Aprimoramentos nas prioridades do primeiro trimestre de 2025
 
-Esta página descreve todas as melhorias na Página inicial feitas com a versão do Primeiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias nas Prioridades feitas com a versão do Primeiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2025, consulte [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Visão geral das melhorias nas prioridades
 
-Assista ao vídeo abaixo para obter uma visão geral dos novos recursos adicionados às Prioridades neste trimestre.
-
-[Vídeo de visão geral das melhorias nas prioridades](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 Consulte o [Vídeo de demonstração de aprimoramentos de prioridades](#priorities-enhancements-demo-video) abaixo para obter uma demonstração completa dos recursos incluídos nesta visão geral.
 
@@ -165,4 +163,6 @@ Para obter mais informações, consulte [Exibir detalhes do projeto e da tarefa 
 
 Assista ao vídeo abaixo para obter uma demonstração detalhada dos novos recursos adicionados às Prioridades deste trimestre.
 
-[Vídeo de demonstração sobre as melhorias nas prioridades](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+

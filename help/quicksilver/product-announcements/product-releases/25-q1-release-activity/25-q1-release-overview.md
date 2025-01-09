@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
 source-wordcount: '2527'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 * [Melhorias do administrador](#administrator-enhancements)
 * [Melhorias nas placas](#boards-enhancements)
 * [Aprimoramentos no gerenciamento de documentos](#document-management-enhancements)
-* [Aprimoramentos na página inicial](#home-enhancements)
+* [Aprimoramentos de prioridades](#priorities-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Aprimoramentos de provas](#proofing-enhancements)
 * [Aprimoramentos de Relatório e Painel de Controle](#report-and-dashboard-enhancements)
@@ -248,7 +248,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 </tbody>
 </table>
 
-### Aprimoramentos na página inicial
+### Aprimoramentos de prioridades
 
 <table>
 <col style="width: 50%;" />
