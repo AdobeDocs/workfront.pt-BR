@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Alteramos a maneira como os ativos movidos e excluídos são tratados ao usar a 
 
 >[!NOTE]
 >
->Versão de pré-visualização: 11 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 11 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (16 de janeiro de 2025)
 
 Quando um formulário personalizado com várias seções é anexado a um objeto, agora é possível recolher e expandir todas as seções, exceto a seção padrão na parte superior do formulário. O administrador também pode visualizar essa funcionalidade ao visualizar o formulário no designer do formulário.
 
@@ -43,7 +43,7 @@ Para obter informações sobre como adicionar uma seção a um formulário perso
 
 >[!NOTE]
 >
->Versão de pré-visualização: 31 de outubro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 31 de outubro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (16 de janeiro de 2025)
 
 Para facilitar o gerenciamento de itens de trabalho no Workfront, atualizamos o Assistente de IA para trabalhar com projetos, tarefas e problemas. Agora, o AI Assistant pode localizar projetos, tarefas e problemas com base em critérios especificados, como &quot;Localizar minhas tarefas com vencimento esta semana&quot;.
 Anteriormente, o Assistente de IA não podia trabalhar diretamente com projetos, tarefas e problemas.

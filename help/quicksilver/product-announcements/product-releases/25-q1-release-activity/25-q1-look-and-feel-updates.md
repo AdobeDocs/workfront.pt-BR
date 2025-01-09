@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Uma pequena mudança de funcionalidade foi aplicada à integração com o Quip. 
 
 >[!NOTE]
 >
->Versão de pré-visualização: 28 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 28 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (16 de janeiro de 2025)
 
 A caixa de diálogo para solicitar acesso a objetos foi atualizada para um design mais moderno que é consistente com outras áreas do Workfront. Essa caixa de diálogo está disponível quando você solicita acesso a projetos, tarefas, problemas, programas, portfólios, modelos e tarefas de modelo.
 
@@ -50,7 +50,7 @@ Fizemos atualizações de desempenho na área em Configuração, onde você conf
 
 >[!NOTE]
 >
->Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (16 de janeiro de 2025)
 
 Atualizamos as páginas Membros da empresa e Taxas de cobrança da empresa com um design mais moderno que é consistente com outras áreas do Workfront. As associações de empresa são acessadas por meio de Configuração > Empresas > selecione um nome de empresa > selecione Membros da empresa no painel esquerdo. As taxas de faturamento da empresa são acessadas em Configurar > Empresas > selecione o nome de uma empresa > selecione Taxas de faturamento no painel esquerdo.
 
@@ -73,7 +73,7 @@ As alterações mais notáveis são as seguintes:
 
 >[!NOTE]
 >
->Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (16 de janeiro de 2025)
 
 Estamos introduzindo um novo formato de lista na área Configuração do Workfront e a lista de taxas de câmbio é a primeira página a usar esse formato de tabela. A funcionalidade de adicionar novas taxas de câmbio e pesquisar taxas de câmbio não foi alterada.
 
@@ -83,7 +83,7 @@ Para obter informações sobre taxas de câmbio, consulte [Configurar taxas de c
 
 >[!NOTE]
 >
->Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 4 de novembro de 2024; Produção para lançamento rápido: Com lançamento do 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com lançamento do 25.1 (16 de janeiro de 2025)
 
 Atualizamos a página Exportar dados (Kick-Starts) na área Configuração com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -93,7 +93,7 @@ Para obter informações, consulte [Exportar dados do Workfront via Kick-Starts]
 
 >[!NOTE]
 >
->Versão de pré-visualização: 24 de outubro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 24 de outubro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (16 de janeiro de 2025)
 
 A janela Enviar atualização para o usuário foi atualizada para um design mais moderno que é consistente com outras áreas do Workfront.
 

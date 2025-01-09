@@ -6,14 +6,16 @@ description: Você pode adicionar um relatório a um painel novo ou existente di
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Adicionar um relatório a um painel
+
+<!-- Audited: 1/2025 -->
 
 Você pode adicionar um relatório a um painel novo ou existente diretamente de um relatório. Você também pode adicionar um relatório existente a um painel, conforme descrito em [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
@@ -23,6 +25,8 @@ Você pode adicionar um relatório a um painel novo ou existente diretamente de 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
@@ -30,25 +34,36 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões no painel</p> <p>Exibir permissões para o relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões no painel</p> <p>Exibir permissões para o relatório</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 

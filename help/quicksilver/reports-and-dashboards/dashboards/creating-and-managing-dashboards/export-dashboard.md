@@ -6,14 +6,16 @@ description: É possível exportar um painel para um arquivo PDF usando as opç�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
 # Exportar um painel
+
+<!-- Audited: 1/2025 -->
 
 É possível exportar um painel para um arquivo PDF usando as opções de impressão disponíveis no navegador da Web.
 
@@ -24,6 +26,8 @@ ht-degree: 5%
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
@@ -31,25 +35,36 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+    <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Trabalhar ou superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Visualizar acesso a relatórios, painéis e calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
+   <td> <p>Visualizar acesso a relatórios, painéis e calendários</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Exibir permissões para o painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para o painel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -60,13 +75,13 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 ## Exportar um painel para um arquivo .pdf:
 
 1. Vá para o painel que deseja exportar.
-1. Clique em **Ações do painel** e selecione **Imprimir**.
+1. Clique em **Ações do painel** e selecione **Visualizar impressão**.
 
    ![](assets/dashboard-actions-print-350x254.png)
 
-   A caixa de diálogo Imprimir é aberta.
+   A janela Visualizar impressão é aberta.
 
-1. Dependendo do navegador da Web, selecione as opções de impressão apropriadas para concluir o .pdf. exportação de arquivos:
+1. Clique em **Imprimir** e selecione as opções de impressão apropriadas com base no navegador da Web para concluir o .pdf. exportação de arquivos:
 
    <table style="table-layout:auto"> 
     <col> 

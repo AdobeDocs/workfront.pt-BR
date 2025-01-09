@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,7 @@ ht-degree: 0%
 
 # Visão geral dos painéis do Canvas
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 Painéis do Canvas, um recurso atualmente em desenvolvimento para Painéis, oferece uma nova opção para criar painéis eficazes no Workfront. Os Painéis da tela de desenho permitirão que as visualizações da Tela de relatório sejam facilmente incluídas nos relatórios existentes, fornecendo maior flexibilidade, bem como novas opções de layout.
@@ -81,6 +82,7 @@ Uma nova opção Painéis de tela de desenho no painel esquerdo da página de at
 1. Comece a digitar o nome do relatório que deseja exibir no campo **Localizar Relatório**. Ao ver o relatório na lista, clique no ícone **Relatório de Lista** ou **Relatório de Gráfico** ao lado do respectivo nome para exibir as informações desse relatório no formato escolhido.
 
 >[!WARNING]
+>
 > Embora a adição de vários widgets que exibem informações do mesmo relatório seja possível no momento, recomendamos exibir cada relatório apenas uma vez, pois isso pode afetar o desempenho do painel.
 
 ### Editar um widget em um painel do Canvas

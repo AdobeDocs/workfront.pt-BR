@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,35 @@ Esta página descreve todas as melhorias na Página inicial feitas com a versão
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2025, consulte [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Visão geral das melhorias nas prioridades
+
+Assista ao vídeo abaixo para obter uma visão geral dos novos recursos adicionados às Prioridades neste trimestre.
+
+[Vídeo de visão geral das melhorias nas prioridades](https://video.tv.adobe.com/v/3442750/){target=_blank}
+
+Consulte o [Vídeo de demonstração de aprimoramentos de prioridades](#priorities-enhancements-demo-video) abaixo para obter uma demonstração completa dos recursos incluídos nesta visão geral.
+
+## Use os Filtros inteligentes para encontrar seu trabalho nas Prioridades
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 9 de janeiro de 2025; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
+
+Use a linguagem natural para filtrar rapidamente o trabalho na lista de trabalho Prioridades. Você pode digitar coisas como
+
+* Mostrar tarefas atrasadas
+* Mostrar tarefas com vencimento nesta semana
+* Mostrar prioridades principais
+
+Disponível somente para instâncias habilitadas para IMS.
+
+Para obter mais informações, consulte [Filtrar e agrupar seu trabalho com Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
 ## Recuperar o trabalho nas prioridades
 
 >[!NOTE]
 >
->Versão de pré-visualização: 20 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 20 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 >
 >_Este recurso só está disponível para clientes na Experiência de Adobe unificada usando o Assistente de IA._
 
@@ -36,7 +60,7 @@ Para obter mais informações, consulte [Acompanhar o trabalho em Prioridades](/
 
 >[!NOTE]
 >
->Versão de pré-visualização: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
 Agora você pode exibir atualizações em tempo real na página Detalhes de uma tarefa ou problema. Você também pode ver se outros estão visualizando a página ao mesmo tempo que você com indicadores de presença em tempo real.
 
@@ -46,7 +70,7 @@ Para obter mais informações, consulte [Exibir detalhes do projeto e da tarefa 
 
 >[!NOTE]
 >
->Versão de pré-visualização: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
 Agora você pode interagir com documentos e provas para tarefas e problemas na lista de trabalho e no calendário. Na nova guia Documentos, é possível
 
@@ -61,7 +85,7 @@ Para obter mais informações, consulte [Fazer upload de documentos e criar prov
 
 >[!NOTE]
 >
->Versão de pré-visualização: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
 Agora você pode acompanhar seu trabalho com um calendário visual e claro. Com o calendário Prioridades, você pode
 
@@ -76,7 +100,7 @@ Para obter mais informações, consulte [Gerenciar seu trabalho no calendário d
 
 >[!NOTE]
 >
->Versão de pré-visualização: 12 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 12 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
 Atualizamos a lista de trabalho de Prioridades para melhorar os recursos e alinhar com outras áreas do aplicativo.
 
@@ -106,7 +130,7 @@ Para obter mais informações, consulte [Filtrar e agrupar seu trabalho com Prio
 
 >[!NOTE]
 >
->Versão de pré-visualização: 5 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 5 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
 Agora você pode navegar diretamente para um projeto no Workfront a partir da lista de trabalho Prioridades.
 
@@ -131,8 +155,14 @@ Essa alteração facilita a visualização e a organização do trabalho com bas
 
 >[!NOTE]
 >
->Versão de pré-visualização: 6 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 6 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (16 de janeiro de 2025)
 
 Agora é possível exibir detalhes e comentários do projeto na lista de trabalho em Prioridades.
 
 Para obter mais informações, consulte [Exibir detalhes do projeto e da tarefa na lista de trabalho Prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Vídeo de demonstração de melhorias nas prioridades
+
+Assista ao vídeo abaixo para obter uma demonstração detalhada dos novos recursos adicionados às Prioridades deste trimestre.
+
+[Vídeo de demonstração sobre as melhorias nas prioridades](https://video.tv.adobe.com/v/3442751/){target=_blank}

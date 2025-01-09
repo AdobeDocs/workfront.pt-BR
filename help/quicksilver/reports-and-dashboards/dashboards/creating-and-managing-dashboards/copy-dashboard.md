@@ -6,18 +6,22 @@ description: Você pode copiar um painel e todo o seu conteúdo (relatórios, ca
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
 
 # Copiar um painel
 
+<!-- Audited: 1/2025 -->
+
 Você pode copiar um painel e todo o seu conteúdo (relatórios, calendários e páginas externas). Ao copiar o conteúdo de um painel, você pode optar por mantê-los como aparecem no painel original ou criar novos itens que sejam cópias daqueles no painel original. Você também pode optar por não transferir ou copiar itens no novo painel.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -31,18 +35,31 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Plano </p> </td> 
+    <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Visualizar acesso a um painel</p> <p>Você obterá acesso de Gerenciar ao painel copiado</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Visualizar acesso a um painel</p> <p>Você obterá acesso de Gerenciar ao painel copiado</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -52,7 +69,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 
 ## Copiar um painel
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Painéis**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Painéis]**.
 
 1. Selecione o painel que você deseja copiar e clique em **Copiar** ![](assets/copy-icon.png).\
    Ou\

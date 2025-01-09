@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 16 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 16 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
 Para manter o desempenho do painel, implementamos um limite para o número total de relatórios, páginas externas ou calendários que podem ser colocados em um painel. Ao criar um novo painel, um máximo de 25 itens podem ser adicionados.
 

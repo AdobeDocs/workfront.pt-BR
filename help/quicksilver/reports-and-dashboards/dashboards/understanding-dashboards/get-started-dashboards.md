@@ -7,16 +7,16 @@ description: O objetivo de um painel é fornecer acesso rápido às informaçõe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
 # Introdução aos painéis
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 O objetivo de um painel é fornecer acesso rápido às informações provenientes de vários relatórios. Primeiro, você pode coletar informações em relatórios e colocar vários relatórios nos painéis para facilitar o acesso às informações.
 
@@ -38,7 +38,16 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td> <p><strong>Licença do Adobe Workfront</strong></p> </td> 
-   <td> <p>Novo: Colaborador ou superior</p><p>Ou</p><p>Atual: revisão ou superior</p> </td> 
+      <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Colaborador ou superior</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Revisar ou superior</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Nível de acesso</strong> </td> 
@@ -51,7 +60,7 @@ Você deve ter o seguinte:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

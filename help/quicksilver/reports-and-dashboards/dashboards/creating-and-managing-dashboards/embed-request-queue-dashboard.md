@@ -6,22 +6,26 @@ description: Você pode incorporar uma nova fila de solicitações em um painel 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
 
 # Incorporar uma fila de solicitações em um painel
 
-Você pode incorporar uma nova fila de solicitações em um painel para fornecer acesso direto à fila de solicitações aos seus usuários, sem precisar acessar a área Solicitações. 
+<!-- Audited: 1/2025 -->
+
+Você pode incorporar uma nova fila de solicitações em um painel para fornecer acesso direto à fila de solicitações aos seus usuários, sem precisar acessar a área Solicitações.
 
 Por exemplo, se você tiver uma fila de solicitações aberta para toda a organização, como uma Fila de Help Desk ou uma fila de Solicitação PTO que todos devem acessar regularmente, pode ser conveniente inserir a fila de solicitações diretamente em um de seus painéis para acesso rápido e fácil. O processo de configuração é semelhante ao de criação de uma página externa em um painel.
 
 Primeiro, você precisa obter um URL para a fila de solicitações. Em segundo lugar, você pode incorporar o URL a um painel adicionando uma página externa.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -30,31 +34,43 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões no painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões no painel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
 Ambos os itens a seguir devem ser criados antes de você poder incorporar uma fila de solicitações em um painel:
 
 * **Painel**: Para obter informações sobre como criar painéis, consulte [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
 * **A fila de solicitações**: Para obter informações sobre como criar filas de solicitações, consulte [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Obter o URL da fila de solicitações {#obtain-the-url-of-the-request-queue}
@@ -62,7 +78,9 @@ Ambos os itens a seguir devem ser criados antes de você poder incorporar uma fi
 Você pode obter o URL de uma fila de solicitações de várias maneiras, dependendo de qual parte da fila de solicitações você deseja expor aos usuários quando eles acessarem o URL a partir de um painel.
 
 * [Obter um link para um tópico de fila específico com capacidade para alterar o tipo de solicitação](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+
 * [Obter um link para uma fila de solicitações e capacidade de alterar o tipo de solicitação](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+
 * [Obter um link para uma fila de solicitações sem a capacidade de alterar o tipo de solicitação](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### Obter um link para um tópico de fila específico com capacidade para alterar o tipo de solicitação {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -139,8 +157,11 @@ Ao compartilhar um link para um tipo de solicitação pré-selecionado, o tipo d
 Você pode incorporar um link à fila de solicitações ou a um tópico da fila aninhado em uma fila de solicitações em um painel para conceder aos usuários acesso direto às solicitações de entrada.
 
 1. Obtenha uma URL da fila de solicitações usando um dos métodos descritos na seção [Obter a URL da fila de solicitações](#obtain-the-url-of-the-request-queue) deste artigo.
+
 1. Clique no **Menu Principal** > **Painéis** > **Novo Painel**.
+
 1. Digite um **Nome** para o painel. Este campo é obrigatório.
+
 1. Clique em **Adicionar Página Externa**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
@@ -150,35 +171,20 @@ Você pode incorporar um link à fila de solicitações ou a um tópico da fila 
    * **Nome**: digite o nome da fila de solicitações como deseja que ela apareça no painel. Este campo é obrigatório.
 
    * **Descrição**: digite uma descrição sobre a exibição desta página externa. Este campo não é obrigatório e é importante apenas para fins de relatório. Ele não é exibido no painel.
-   * **URL**: cole a URL que você obteve usando um dos métodos descritos na Etapa 1.
 
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <MadCap:conditionalText data-mc-conditions="">   
-     (NOTE: ensure this stays accurate)   
-     </MadCap:conditionalText>   
-     </MadCap:conditionalText>   
-     -->
+   * **URL**: cole a URL que você obteve usando um dos métodos descritos na Etapa 1.
 
    * **Altura**: digite a altura da página externa. Isso define quanto espaço a página externa que contém a fila de solicitações ocupa no painel. Este campo é obrigatório e o valor padrão é 500.
 
 1. Clique em **Salvar**.
-1. Clique em **Salvar + Fechar**. 
+
+1. Clique em **Salvar + Fechar**.
 
    A fila de solicitações é exibida no painel como um componente separado do painel.
 
-   ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
+1. (Opcional) Clique em **Ações do Painel** e em **Editar** para adicionar relatórios, calendários ou páginas externas adicionais ao mesmo painel.
 
-1. (Opcional) Clique em **Ações do Painel** e em **Editar** para adicionar relatórios, calendários ou páginas externas adicionais ao mesmo painel.\
    Para obter informações sobre como adicionar componentes a um painel, consulte [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-
- 
-
- 
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
--->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

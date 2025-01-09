@@ -6,14 +6,16 @@ description: Você pode remover uma Página externa de um painel se ela não for
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # Remover uma Página Externa de um painel
+
+<!-- Audited: 1/2025 -->
 
 Você pode remover uma Página externa de um painel se ela não for mais necessária.
 
@@ -21,39 +23,53 @@ No entanto, não é possível excluir uma página externa após sua criação no
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões no painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões no painel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remover uma página externa de um painel
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Painéis**.
-1. Selecione o painel do qual deseja remover a página externa e clique em **Editar** ![](assets/edit-icon.png).
+1. Vá para o painel que contém a página externa que deseja excluir.
 
-   ![Selecione o ícone Editar.](assets/nwe-editdashboard2021-350x188.png)
+1. Clique em **Ações do Painel** e em **Editar**.
+
+   ![](assets/unshimmed-edit-dashboard.png)
 
 1. No lado direito da tela, localize a página externa que deseja remover e clique no ícone **Excluir**: ![](assets/delete.png).
 

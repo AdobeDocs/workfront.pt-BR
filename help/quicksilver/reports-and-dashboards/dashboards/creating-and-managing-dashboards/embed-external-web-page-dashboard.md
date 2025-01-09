@@ -6,16 +6,16 @@ description: Você pode incorporar uma página externa da Web em um painel para 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 0%
+source-wordcount: '1011'
+ht-degree: 1%
 
 ---
 
 # Incorporar uma página externa da Web em um painel
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 É possível incorporar uma página externa da Web em um painel para fornecer acesso a informações relacionadas de outros sistemas ou no Adobe Workfront.
 
@@ -64,10 +64,17 @@ Você deve ter o seguinte:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Atual: Plano </p>
-   Ou
-   <p>Novo: Padrão </p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
@@ -75,12 +82,12 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> </td> 
+   <td> <p>Editar acesso ao painel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -162,7 +169,7 @@ Para atualizar as informações de uma página externa usada em um painel:
 
    A caixa **Detalhes do Painel** é aberta.
 
-1. Na área **Selecionar layout / Adicionar relatórios / Adicionar calendários** da caixa **Detalhes do painel**, localize a página externa que deseja atualizar, passe o mouse sobre ela e clique no ícone **Editar**.\
+1. Na área **Selecionar layout/Adicionar relatórios** da caixa **Detalhes do painel**, localize a página externa que deseja atualizar, passe o mouse sobre ela e clique no ícone **Editar**.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Na caixa **Editar Página Externa**, atualize os campos que deseja alterar e clique em **Salvar**.
@@ -175,7 +182,7 @@ Você pode exibir todas as páginas externas no Workfront em um relatório de P�
 
 {{step1-to-reports}}
 
-1. Clique em **Novo Relatório** > selecione **Página Externa**.
+1. Clique em **Novo Relatório** > selecione **Seção Externa**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,8 +190,7 @@ Você pode exibir todas as páginas externas no Workfront em um relatório de P�
 
    Para obter mais informações, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Clique em **Salvar+Fechar**.
+1. Clique em **Salvar + Fechar**.
 
-   Você pode exibir o nome e o URL associados às páginas externas em seu sistema no novo relatório.
+   Você pode exibir o nome e o URL associados a qualquer página externa em seu sistema no novo relatório.
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

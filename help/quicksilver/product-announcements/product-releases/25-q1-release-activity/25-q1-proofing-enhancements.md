@@ -4,7 +4,8 @@ description: Aprimoramentos de provas do primeiro trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Versão de visualização: 30 de agosto de 2024; Versão de produção para todos os clientes: 30 de agosto de 2024.
+>Versão de visualização: 7 de novembro de 2024; Versão de produção para todos os clientes: 7 de novembro de 2024.
 
 Estamos introduzindo uma nova extensão de navegador, a ferramenta de revisão do Adobe Workfront, para substituir a extensão de navegador herdada para revisão de conteúdo ZIP interativo. A extensão do navegador herdado será removida em 28 de fevereiro de 2025.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 21 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 21 de novembro de 2024; Produção para lançamento rápido: Com o lançamento 24.12 (12 de dezembro de 2024); Produção para lançamento trimestral: Com o lançamento 25.1 (16 de janeiro de 2025)
 
 Agora é possível editar vários documentos de uma só vez. É possível editar as descrições e atualizar formulários personalizados.
 
@@ -36,7 +36,7 @@ Agora é possível editar vários documentos de uma só vez. É possível editar
 
 >[!NOTE]
 >
->Versão de pré-visualização: 7 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (janeiro de 2025)
+>Versão de pré-visualização: 7 de novembro de 2024; Produção para lançamento rápido: Com o lançamento do 24.11 (14 de novembro de 2024); Produção para lançamento trimestral: Com o lançamento do 25.1 (16 de janeiro de 2025)
 
 Quando uma nova versão for adicionada a um documento com aprovações pendentes, a aprovação da versão anterior será exibida como &quot;Retirado&quot;, indicando que o processo de aprovação anterior foi fechado devido à adição da nova versão.
 

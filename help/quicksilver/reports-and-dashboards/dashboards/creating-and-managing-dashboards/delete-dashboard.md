@@ -6,18 +6,22 @@ description: Se você não tiver mais uso para um painel, poderá removê-lo do 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Excluir um painel
 
+<!-- Audited: 1/2025 -->
+
 Se você não tiver mais uso para um painel, poderá removê-lo do Adobe Workfront.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -26,25 +30,36 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões no painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões no painel</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Excluir um painel no menu Ações
 
@@ -57,7 +72,7 @@ Para excluir um painel:
 1. Vá para o painel que deseja editar.
 1. Clique em **Ações do Painel** e em **Excluir**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-delete-dashboard.png)
 
 1. Para confirmar que deseja excluir o painel, clique em **Sim, Excluir.**
 O painel é removido do Workfront.
@@ -68,10 +83,10 @@ Se você estiver excluindo vários painéis, é possível excluir os painéis da
 
 Para excluir vários painéis:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e clique em **Painéis**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Painéis]**.
 1. Selecione cada painel na lista que você deseja excluir e clique em **Excluir** ![](assets/delete.png).
 
-   ![](assets/nwe-deletedashboard2021-350x182.png)
+   ![](assets/unshimmed-delete-dashboard-list.png)
 
 1. Para confirmar que deseja excluir o painel, clique em **Sim, Excluir.**
 O painel é removido do Workfront.

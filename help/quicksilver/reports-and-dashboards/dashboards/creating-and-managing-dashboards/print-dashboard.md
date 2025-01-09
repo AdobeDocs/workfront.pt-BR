@@ -6,14 +6,16 @@ description: Você pode imprimir ou exportar um painel de controle para um arqui
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: efae17458f2aa08ca2286ef5e43c68d1f9334b7b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Imprimir um painel
+
+<!-- Audited: 1/2025 -->
 
 Você pode imprimir ou exportar um painel de controle para um arquivo .PDF. Para imprimir um painel, é necessário ter permissão para Visualizá-lo.
 
@@ -23,6 +25,8 @@ Você pode imprimir ou exportar um painel de controle para um arquivo .PDF. Para
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
@@ -30,25 +34,36 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+      <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Trabalhar ou superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Visualizar acesso a relatórios, painéis e calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
+   <td> <p>Visualizar acesso a relatórios, painéis e calendários</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong>/td&gt; 
-   <td> <p>Exibir permissões para o painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para o painel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -86,7 +101,7 @@ As seguintes informações não estão incluídas no arquivo do painel impresso 
 1. Vá para o painel que deseja imprimir.
 1. Siga um destes procedimentos:
 
-   * Clique em **Ações do Painel** > **Imprimir**
+   * Clique em **Ações do Painel** > **Visualizar Impressão**
 
    * Pressione **Ctrl+P** (no Windows) ou **Command+P** (no Mac)
 

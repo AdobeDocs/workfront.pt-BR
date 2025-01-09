@@ -6,14 +6,16 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # Compartilhar um painel
+
+<!-- Audited: 1/2025 -->
 
 O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar painéis ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a problemas, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ As permissões são específicas a um item no Workfront e definem quais ações 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para compartilhar objetos:
 
 <table style="table-layout:auto"> 
@@ -34,25 +38,36 @@ Você deve ter o seguinte para compartilhar objetos:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Revisar ou superior</p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+    <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Leve ou superior</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Revisar ou superior</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Acesso de visualização ou superior a relatórios, painéis, calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
+   <td> <p>Acesso de visualização ou superior a relatórios, painéis, calendários</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Exibir permissões ou posicionar o painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou posicionar o painel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -83,11 +98,11 @@ O compartilhamento de um ou vários painéis de uma lista é idêntico.
 
    Ou
 
-   Clique no nome de um painel e em **Ações do Painel >****Compartilhamento**.
+   Clique no nome de um painel e em **Ações do Painel** > **Compartilhamento**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. No campo **Adicionar pessoas, equipes, funções, grupos ou empresas...**, comece digitando o nome do usuário, equipe, função, grupo ou empresa com a qual deseja compartilhar o painel e clique no nome quando ele aparecer na lista suspensa.
-1. (Opcional) Para tornar o painel acessível a todos os usuários no sistema, clique no ícone **Configurações** no canto superior direito da caixa de diálogo de compartilhamento e selecione **Tornar isto visível em todo o sistema**.
+1. No campo **Adicionar pessoas, equipes, funções, grupos ou empresas**, comece digitando o nome do usuário, equipe, função, grupo ou empresa com a qual deseja compartilhar o painel e clique no nome quando ele aparecer na lista suspensa.
+1. (Opcional) Para tornar o painel acessível a todos os usuários no sistema, clique no menu suspenso **Somente pessoas convidadas podem acessar** na caixa de diálogo de compartilhamento e selecione **Todos no sistema podem exibir**.
 
 1. Clique em **Salvar**.

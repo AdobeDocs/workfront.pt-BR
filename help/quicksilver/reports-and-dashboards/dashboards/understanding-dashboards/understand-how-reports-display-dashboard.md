@@ -7,20 +7,22 @@ description: É possível gerenciar como os relatórios adicionados aos painéis
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # Entender como os relatórios são exibidos em um painel
 
+<!-- Audited: 1/2025 -->
+
 É possível gerenciar como os relatórios adicionados aos painéis são exibidos nos painéis.
 
 Para obter informações sobre como editar o layout de relatórios em um painel, consulte [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-Você pode selecionar quais colunas de relatório devem ser exibidas em um painel ao criar um relatório. Se quiser mostrar sempre todas as colunas do relatório em um painel, certifique-se de especificar isso para cada coluna ao criar o relatório.
+Você pode selecionar quais colunas de relatório devem ser exibidas em um painel ao criar ou editar um relatório clicando em [!UICONTROL **Opções Avançadas**] em [!UICONTROL **Configurações de Coluna**]. Se quiser mostrar todas as colunas do relatório em um painel, certifique-se de especificar isso para cada coluna do relatório.
 
 Para obter mais informações sobre como selecionar quais colunas de um relatório devem ser exibidas em um painel, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
