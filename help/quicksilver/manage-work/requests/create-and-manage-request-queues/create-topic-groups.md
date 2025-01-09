@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Grupos de Tópicos estão associados a Filas de solicitações. Eles permitem criar camadas das Filas de solicitações em várias categorias, dependendo da natureza das solicitações.
+Grupos de Tópicos estão associados a Filas de solicitações. Você pode criar camadas das Filas de solicitações em várias categorias, dependendo da natureza das solicitações usando grupos de tópicos.
 
 ## Requisitos de acesso
 
@@ -64,12 +64,12 @@ Por exemplo, se você tiver uma Fila de solicitações para solicitações de ma
 
 Para obter mais informações sobre como criar Filas de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
->[!TIP]
->
->* Você pode criar até 10 camadas de Grupos de tópicos em uma Fila de solicitações.
->* Não há limite para o número de Tópicos da Fila que podem ser associados a um grupo de tópicos.
->* Grupos de tópicos são um objeto reportável.
->
+Considere o seguinte ao trabalhar com grupos de tópicos:
+
+* Você pode criar até 10 camadas de Grupos de tópicos em uma Fila de solicitações.
+* Não há limite para o número de Tópicos da Fila que podem ser associados a um grupo de tópicos.
+* Grupos de tópicos são um objeto reportável.
+* Não é possível mover grupos de tópicos de um projeto para outro.
 
 ## Criar Grupos de Tópicos
 

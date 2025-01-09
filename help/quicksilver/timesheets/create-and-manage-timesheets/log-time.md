@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3848'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,10 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--remove all preview and production references from this article with 23.3 release-->
+<!--remove all preview and production references if any-->
+<!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
 
 Você pode registrar o tempo para itens de trabalho no Adobe Workfront para indicar o número de horas que você gasta trabalhando neles. Você também pode registrar horas que não estejam relacionadas ao trabalho, como férias, licença médica ou tempo gasto em reuniões. O horário registrado é exibido em sua folha de horas.
 
@@ -490,23 +486,74 @@ Você pode editar os seguintes elementos de uma entrada de hora ao editar uma en
 * Número de horas
 * Tipo de hora
 * Função de trabalho associada à entrada de horas
+* Descrição da entrada de hora
 
-Dependendo do tipo de entrada de hora que você editar, os seguintes campos estarão disponíveis para edição:
+Dependendo do tipo de entradas de hora editadas, os seguintes campos estão disponíveis para edição em uma lista de horas ou relatório:
 
 * Ao editar horas específicas do projeto:
 
-   * Você pode editar o número de horas.
-   * Você pode alterar o Tipo de Hora somente para tipos específicos do projeto.
-   * Você só poderá alterar a atribuição de função de Trabalho de hora se ela tiver sido habilitada na Configuração. Para obter informações, consulte [Configurar preferências de horas e folha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+   * O número de horas
+   * O Tipo de Hora. Você pode alterar o Tipo de Hora somente para tipos específicos do projeto.
+   * Atribuição de funções de trabalho. Você pode alterar a atribuição da Função de trabalho somente se ela tiver sido habilitada na Configuração. Para obter informações, consulte [Configurar preferências de horas e folha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+   * A Descrição da entrada de hora.
+
+<div class="preview">
+
+![](assets/edit-hour-box-project-hour-type.png)
+
+</div>
 
 * Ao editar o horário geral:
 
-   * Você pode editar o número de horas.
-   * Você pode alterar o Tipo de Hora somente para tipos gerais.
-   * Não é possível alterar a atribuição de função de Trabalho de hora, pois as horas gerais não podem ser associadas às funções.
+   * O número de horas.
+   * O Tipo de Hora. Você pode alterar o Tipo de Hora somente para tipos gerais.
+   * A Descrição da entrada de hora.
+
+>[!TIP]
+>
+> Não é possível alterar a atribuição de função de Trabalho de hora, pois as horas gerais não podem ser associadas às funções.
+
+<!--update the screen shot at production - we should not see the job role field for general hours-->
+
+![](assets/edit-hour-box-general-overhead-hour-type.png)
+
 
 * Ao editar uma combinação de horas gerais e específicas do projeto, em massa:
 
-   * Você pode editar o número de horas.
-   * Não é possível alterar o Tipo de Hora, pois os tipos de hora gerais não podem ser alterados para tipos específicos de projeto e os tipos de hora específicos de projeto não podem ser alterados para tipos gerais.
-   * Não é possível alterar a atribuição de Função de trabalho, pois o horário geral não pode ser associado às funções.
+   * O número de horas.
+   * A Descrição da entrada de hora.
+
+>[!TIP]
+>
+>* Não é possível alterar o Tipo de Hora, pois os tipos de hora gerais não podem ser alterados para tipos específicos de projeto e os tipos de hora específicos de projeto não podem ser alterados para tipos gerais.
+>* Não é possível alterar a atribuição de Função de trabalho, pois o horário geral não pode ser associado às funções.
+
+
+<!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
+
+![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+
+Para editar tipos de horas em um relatório ou lista de horas:
+
+1. Ir para uma lista de horas ou relatório.
+1. Clique na caixa à esquerda de uma ou várias entradas de hora para selecioná-las.
+1. Clique no **ícone Editar** ![](assets/edit-icon.png) na parte superior da lista.
+
+   A caixa **Editar Hora** ou **Editar Horas** é aberta.
+1. Atualize qualquer um dos seguintes campos disponíveis:
+
+   * Horas. Este campo é obrigatório.
+   * Tipo de Hora. Este campo é obrigatório.
+   * Função no trabalho
+   * Descrição
+
+   >[!TIP]
+   >
+   >   Nem todos os campos estão disponíveis, dependendo do tipo de hora associado às entradas de hora selecionadas.
+
+1. Clique em **Salvar <span class="preview">alterações</span>**.
+
+   As informações de entrada de hora são atualizadas.
+Se você selecionou mais de uma entrada de hora e modificou o campo Horas, a mesma quantidade de horas é alocada para todas as entradas de hora selecionadas. As horas originais são substituídas pelo novo valor para todas as entradas de horas selecionadas.
+
+

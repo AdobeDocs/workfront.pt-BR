@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 1%
+source-wordcount: '2245'
+ht-degree: 2%
 
 ---
 
@@ -169,7 +169,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Permitir que os usuários excluam tarefas e problemas com horas reportadas</td> 
+      <td role="rowheader">Permitir que os usuários excluam tarefas e problemas com horas registradas</td> 
       <td> <p> Permite determinar se você permite a exclusão de tarefas ou problemas em que as horas são registradas. Essa opção é selecionada por padrão.</p> 
        <div> 
         <p><b>Dica</b>: esta configuração também se aplica à exclusão de projetos que tenham tarefas ou problemas com horas registradas. Essa configuração não se aplica à exclusão de projetos em que o tempo é registrado diretamente para o projeto. </p> 
@@ -193,12 +193,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Permitir que os usuários movam tarefas e problemas com horas reportadas</td> 
+      <td role="rowheader">Permitir que os usuários movam tarefas e problemas com horas registradas</td> 
       <td> <p> Permite determinar se você permite a movimentação de tarefas ou problemas em que as horas são registradas. Essa opção é selecionada por padrão.</p> 
        <p>Considere o seguinte:</p> 
         <ul> 
          <li> Quando selecionado, você pode mover tarefas e problemas com tempo reportado. As horas também se movem com as tarefas ou problemas. </li>
-      <li>Ao desmarcar essa opção, você receberá um aviso proibitivo ao mover uma tarefa ou problema com horas reportadas. O aviso especifica que o administrador não permite que tarefas ou problemas com horas reportadas sejam movidos. As tarefas ou problemas que têm horas registradas não podem ser movidas. </li></ul>
+      <li>Ao desmarcar essa opção, você receberá um aviso proibitivo ao mover uma tarefa ou problema com horas reportadas. O aviso especifica que o administrador não permite que tarefas ou problemas com horas reportadas sejam movidos. As tarefas ou problemas que têm horas registradas não podem ser movidas para outro projeto. Você pode mover tarefas com horas reportadas no mesmo projeto, mesmo com esta opção desmarcada.  </li></ul>
       </td> 
      </tr> 
     </tbody> 

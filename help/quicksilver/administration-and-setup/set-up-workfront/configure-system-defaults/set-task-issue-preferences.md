@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2296'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Quando selecionado, você pode mover tarefas e problemas com tempo reportado. As horas também se movem com as tarefas ou problemas.
 
-* Ao desmarcar essa opção, você receberá um aviso proibitivo ao mover uma tarefa ou problema com horas reportadas. O aviso especifica que o administrador não permite que tarefas ou problemas com horas reportadas sejam movidos. As tarefas ou problemas que têm horas registradas não podem ser movidas.
+* Ao desmarcar essa opção, você recebe um aviso proibitivo ao mover uma tarefa ou problema com horas reportadas para outro projeto. O aviso especifica que o administrador não permite que tarefas ou problemas com horas reportadas sejam movidos. As tarefas ou problemas que têm horas registradas não podem ser movidas. Você pode mover tarefas dentro do mesmo projeto, mesmo quando essa opção estiver desmarcada.
 
 </div>
 

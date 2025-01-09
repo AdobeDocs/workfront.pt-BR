@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -149,9 +149,10 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
    Seu formulário é enviado e os seguintes itens ocorrem:
 
-   * Se o formulário de solicitação não foi associado a uma aprovação, ou <span class="preview">se a aprovação foi concedida por todos os aprovadores,</span> um novo registro será adicionado ao tipo de registro associado ao formulário.
+   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação será adicionada à guia <span class="preview">Planejamento da seção Enviado da área Solicitações do Workfront </span> e um novo registro será adicionado ao tipo de registro associado ao formulário.
 
-   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação <span class="preview"> é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront e um novo registro é adicionado à página de tipo de registro.</span>
+   * Se o formulário de solicitação foi associado a uma aprovação, a solicitação <span class="preview"> é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront. Um novo registro é adicionado à página de tipo de registro somente depois que todos os aprovadores o tiverem aprovado.</span>
+     <span class="preview">Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
      >
      ><span class="preview">Todos os usuários com acesso a pelo menos um espaço de trabalho podem exibir a guia Planejamento na área Solicitações. Você pode exibir somente as solicitações submetidas por você ou por qualquer outra pessoa aos espaços de trabalho para os quais você tem pelo menos permissões. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Se o formulário de solicitação foi associado a uma aprovação, a solicitação é temporariamente salva na guia Planejamento na seção Enviado da área Solicitações do Workfront. Nenhum registro é criado para o tipo de registro associado ao formulário de solicitação.</span>
-
-     <span class="preview">Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
    * <span class="preview">Você receberá uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.</span>
    * <span class="preview">Se o formulário de solicitação foi associado a uma aprovação, os aprovadores receberão uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.</span>
 

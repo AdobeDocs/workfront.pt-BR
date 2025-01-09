@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 2%
 
 ---
@@ -139,33 +139,40 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * Campos de registro disponíveis na exibição de tabela do tipo de registro selecionado. <!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > Dependendo do ambiente usado para criar um formulário de solicitação, os seguintes cenários existem:
-   >
-   >* Campos dos seguintes tipos não são exibidos no formulário de solicitação <span class="preview"> nos ambientes de Pré-visualização </span> ou Produção:
-   >
-   >    * Criado por e Modificado pela última vez por
-   >    * Fórmula
-   >    * Data de criação e data da última modificação
-   >    * Campos de pesquisa de objetos do Workfront
-   >    * Campos de pesquisa de registros conectados do Workfront Planning
-   >* Os campos dos seguintes tipos não são exibidos no formulário de solicitação no ambiente de Produção. <span class="preview">Eles são exibidos no ambiente de Visualização:</span>
-   >    * <span class="preview"> campos conectados de registros do Workfront Planning</span>
-   >    * <span class="preview">Pessoas </span>
-   >    * <span class="preview">Campos conectados de objetos do Workfront</span>
-   >    * <span class="preview">Campos conectados do AEM Assets </span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.
-   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. Esse recurso ainda não está disponível no ambiente de produção. <span class="preview">Está disponível no ambiente de visualização.</span> A configuração e o valor do campo Assunto não são editáveis.
+>[!IMPORTANT]
+>
+> Dependendo do ambiente usado para criar um formulário de solicitação, os seguintes cenários existem:
+>
+>* Campos dos seguintes tipos não são exibidos no formulário de solicitação no ambiente Produção:
+>
+>    * Criado por e Modificado pela última vez por
+>    * Data de criação e data da última modificação
+>    * Fórmula
+>    * Pessoas
+>    * Campos conectados do Workfront
+>    * Campos de pesquisa de objetos do Workfront
+>    * Campos conectados de registros do Workfront Planning
+>    * Campos de pesquisa de registros conectados do Workfront Planning
+>    * Campos de conexão do AEM Assets
+>* Campos dos seguintes tipos não são exibidos no formulário de solicitação em <span class="preview">o ambiente de Visualização:</span>
+>    * <span class="preview"> Criado por e Última modificação por</span>
+>    * <span class="preview">Data de criação e última modificação</span>
+>    * <span class="preview">Fórmula</span>
+>    * <span class="preview"> campos de pesquisa de objetos do Workfront</span>
+>    * <span class="preview">Campos de pesquisa de registros conectados do Workfront Planning </span>
 
-     >[!TIP]
-     >
-     >O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário.
+* **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.
+* Campo **Assunto**: o campo que identificará a solicitação no Workfront. Esse recurso ainda não está disponível no ambiente de produção. <span class="preview">Está disponível no ambiente de visualização.</span> A configuração e o valor do campo Assunto não são editáveis.
 
-   * Todos os campos associados ao tipo de registro.
+  >[!TIP]
+  >
+  >O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário.
 
-     Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
+* Todos os campos associados ao tipo de registro.
+
+  Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
 
 1. (Opcional) Passe o mouse sobre qualquer campo no formulário que deseja remover, em seguida, clique no ícone **x** para removê-los. Eles são adicionados à guia **Campos** à esquerda do formulário.
 
@@ -233,9 +240,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    > * <span class="preview">Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:</span>
    >
-   >     * <span class="preview">Fórmula</span>
    >     * <span class="preview">Conexões do Workfront ou AEM Assets</span>
-   >     * <span class="preview">Campos de pesquisa</span>
    >     * <span class="preview">Pessoas</span>
    >
 
