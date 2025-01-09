@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,5 @@ Os endpoints de serviço que consomem mensagens de assinatura de eventos do Adob
 
    1. o endpoint salva as informações da mensagem no recebimento e responde imediatamente com um status de nível 200.
    1. Depois que um endpoint responde a uma solicitação de delivery de subscrição de evento, as mensagens salvas podem ser processadas.
+
+* Mensagens ou objetos de inscrição em eventos não podem ter mais de 1 MB.

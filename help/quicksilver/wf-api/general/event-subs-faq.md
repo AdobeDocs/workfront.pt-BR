@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ Procure os seguintes cenários e use a solução recomendada:
 * Os eventos podem não gerar o que você pensa. Certifique-se de que você não esteja fazendo suposições sobre como ou quando os eventos devem ser disparados. Por exemplo, você pode pensar que a atualização de um documento em uma tarefa gera um evento de atualização de tarefa, mas em vez disso, gera um evento de criação de documento ou atualização de documento.
 * Sua assinatura pode não estar configurada conforme o esperado. Você pode criar assinaturas de evento em diferentes ambientes e esperar que elas sejam transferidas como seus outros dados do Workfront. No entanto, os dados de Assinatura de evento não estão configurados para serem copiados ou promovidos para outros ambientes. Verifique se você está emitindo solicitações de API para o ambiente correto e se as assinaturas nesse ambiente estão configuradas conforme esperado.
 * A carga não foi recebida porque o endereço IP necessário do Workfront não foi adicionado ao arquivo de inclui na lista de permissões do firewall. Os eventos de Assinatura de eventos são enviados de apenas alguns endereços IP. Verifique se a rede de destino tem todas as exceções de IP necessárias para receber cargas das Assinaturas de Eventos da Workfront.
+* A carga não foi recebida porque tinha mais de 1 MB. O objeto ou as mensagens de inscrição em eventos não podem ter mais de 1 MB.
 
 ## Por que está demorando muito para que minhas mensagens cheguem ao meu terminal?
 
