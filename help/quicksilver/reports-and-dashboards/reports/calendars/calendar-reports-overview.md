@@ -2,12 +2,12 @@
 content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Visão geral dos relatórios de calendário
+title: Visão Geral dos Relatórios de Calendário
 description: Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode exibir informações de data em um relatório de calendário para tarefas, problemas e projetos.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 4%

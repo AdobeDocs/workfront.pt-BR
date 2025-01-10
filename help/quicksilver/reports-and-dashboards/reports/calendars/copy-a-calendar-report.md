@@ -1,14 +1,14 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Copiar um relatório de calendário
+title: Copiar um Relatório de Calendário
 description: Se você criou um calendário, é possível copiar o calendário e usá-lo como ponto de partida para um novo calendário.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Além disso, se você tiver o acesso de [!UICONTROL Gerenciar] a um calendário 
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -30,31 +32,35 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Plano] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Editar] acesso a [!UICONTROL Relatórios], [!UICONTROL Painéis] e [!UICONTROL Calendários]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>[!UICONTROL Editar] acesso a [!UICONTROL Relatórios], [!UICONTROL Painéis] e [!UICONTROL Calendários]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Acesso [!UICONTROL Gerenciar] ao relatório de calendário</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td>Acesso [!UICONTROL Gerenciar] ao relatório de calendário</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Copiar um relatório de calendário
 
 1. Vá para o calendário que deseja copiar.
-1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique em **[!UICONTROL Ações de Calendário]** e selecione **[!UICONTROL Copiar]** na lista suspensa.\
-   Uma cópia do calendário é aberta.
+1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique em **[!UICONTROL Ações de Calendário]** e selecione **[!UICONTROL Copiar]** na lista suspensa.
+Uma cópia do calendário é aberta.
 
    ![Copiar o relatório de calendário](assets/copy-calendar-report.png)
 

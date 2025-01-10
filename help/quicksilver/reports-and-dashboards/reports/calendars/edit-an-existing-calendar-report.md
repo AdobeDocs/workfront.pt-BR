@@ -6,9 +6,9 @@ description: Você pode modificar um calendário existente adicionando ou exclui
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Você pode modificar um calendário existente adicionando ou excluindo um link p
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -32,45 +34,49 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Plano] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Editar] acesso a [!UICONTROL Relatórios], [!UICONTROL Painéis] e [!UICONTROL Calendários]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>[!UICONTROL Editar] acesso a [!UICONTROL Relatórios], [!UICONTROL Painéis] e [!UICONTROL Calendários]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Acesso [!UICONTROL Gerenciar] ao relatório de calendário</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td>Acesso [!UICONTROL Gerenciar] ao relatório de calendário</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Editar um relatório de calendário existente
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Calendários]**.
+{{step1-to-calendars}}
 
-1. (Opcional) Para alterar o nome do relatório de calendário, clique no campo [!UICONTROL nome do calendário] e faça as alterações desejadas.\
-   ![Alterar nome do relatório](assets/titlechange-250x230.png)\
-   Se você compartilhou o relatório de calendário com outros usuários ou equipes, o nome de calendário modificado é atualizado automaticamente na exibição de calendário.
+1. (Opcional) Para alterar o nome do relatório de calendário, clique no campo [!UICONTROL nome do calendário] e faça as alterações desejadas.
+   ![Alterar nome do relatório](assets/titlechange-250x230.png)
+Se você compartilhou o relatório de calendário com outros usuários ou equipes, o nome de calendário modificado é atualizado automaticamente na exibição de calendário.
 
 1. (Opcional) Para adicionar um projeto ao relatório de calendário:
 
    1. Clique em **[!UICONTROL Adicionar ao Calendário].**
-   1. No campo **[!UICONTROL Nome do projeto]**, comece digitando o nome de um projeto do qual deseja adicionar eventos de calendário, em seguida, clique no nome quando ele for exibido na lista suspensa.\
+   1. No campo **[!UICONTROL Nome do projeto]**, comece digitando o nome de um projeto do qual deseja adicionar eventos de calendário, em seguida, clique no nome quando ele for exibido na lista suspensa.
 
       ![Selecione o nome do projeto](assets/calendar-project-name.png)
 Itens do projeto e suas tarefas e problemas associados são adicionados ao relatório de calendário.
 
 1. (Opcional) Para adicionar um agrupamento de calendário ou modificar um agrupamento de calendário existente:
 
-   1. Passe o mouse sobre o nome do projeto, clique na seta suspensa ao lado do nome do projeto e clique em **[!UICONTROL Editar]**.\
+   1. Passe o mouse sobre o nome do projeto, clique na seta suspensa ao lado do nome do projeto e clique em **[!UICONTROL Editar]**.
 
       ![Editar agrupamento de calendário](assets/editcalendergroup-350x126.png)
 
