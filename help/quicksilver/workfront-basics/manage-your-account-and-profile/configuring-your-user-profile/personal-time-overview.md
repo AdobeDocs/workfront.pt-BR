@@ -7,10 +7,10 @@ description: É importante indicar no Adobe Workfront quando a folga aprovada ac
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -67,6 +67,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Configurar folga pessoal em [!DNL Workfront]
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>Se você estiver na Experiência unificada do Adobe, poderá acessar o perfil do Workfront clicando no menu da conta do Adobe (sua foto de perfil) na área de navegação superior e escolhendo Perfil do Workfront.
+>
+>![perfil do workfront](assets/aue-profile.png)
+
 
 1. No painel esquerdo, clique em **[!UICONTROL Folga]**.
 1. Selecione a data desejada para sua folga pessoal.
