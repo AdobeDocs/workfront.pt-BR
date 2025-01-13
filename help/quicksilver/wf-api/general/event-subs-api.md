@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
+source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2198'
 ht-degree: 3%
 
 ---
@@ -653,7 +653,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 
 ### Uso de filtros aninhados
 
-A Assinatura de Evento oferece suporte à filtragem em campos aninhados de eventos usando a palavra-chave `fieldValue.fields`.
+A Assinatura de Evento oferece suporte à filtragem em campos aninhados de eventos usando os nomes de campos aninhados. Por exemplo, para filtrar uma mensagem em que `newState.data.customField1 = 'myCustomeFieldValue'`, a seguinte assinatura com filtro pode ser criada:
 
 ```
 {
@@ -665,25 +665,11 @@ A Assinatura de Evento oferece suporte à filtragem em campos aninhados de event
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
 }
 ```
 
