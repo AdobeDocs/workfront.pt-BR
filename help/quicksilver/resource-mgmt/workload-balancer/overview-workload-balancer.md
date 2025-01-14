@@ -7,7 +7,7 @@ description: Depois que os gerentes de projeto planejam o trabalho nos projetos 
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Considere os seguintes benefícios ao usar o Balanceador de carga de trabalho:
 
 * Os executivos podem tomar decisões oportunas sobre a equipe por meio da transparência na forma como as pessoas em sua organização são utilizadas.
 * Os membros da equipe se beneficiam de uma melhor colaboração, pois todos podem visualizar no que seus colegas de trabalho estão trabalhando a qualquer momento. Para obter informações sobre o acesso necessário para exibir ou gerenciar recursos no Balanceador de carga de trabalho, consulte [Acesso necessário para gerenciar recursos no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Compartilhe-o com qualquer pessoa que não tenha acesso à área de Recursos, incorporando um link a ela em uma guia personalizada. Para obter informações, consulte [Compartilhar o Balanceador de Carga de Trabalho com um link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* Compartilhe-o com qualquer pessoa que não tenha Recursos no menu principal, incorporando um link a ele em uma guia personalizada. Para obter informações, consulte [Compartilhar o Balanceador de Carga de Trabalho com um link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 * Visualize e gerencie as cargas de trabalho e a demanda das pessoas em uma visualização no nível global, de projeto ou de equipe, dependendo da sua função. Ao gerenciar projetos, isso inclui não apenas a alocação de recursos para o projeto, mas também a visualização da alocação de recursos do Planejador de cenários do Adobe Workfront. Os gerentes de pessoas usam o Planejador de Cenários da Workfront para gerenciar habilidades de cargo na organização. O Planejador de cenários só está disponível na nova experiência do Adobe Workfront.
 
   >[!NOTE]

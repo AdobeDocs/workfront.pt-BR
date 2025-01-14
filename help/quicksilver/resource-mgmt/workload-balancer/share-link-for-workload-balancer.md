@@ -6,16 +6,16 @@ description: Você pode compartilhar o Balanceador de carga de trabalho com outr
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
 
 # Compartilhar o Balanceador de carga de trabalho com um link
 
-Você pode compartilhar o Balanceador de carga de trabalho com outros usuários que talvez não tenham a área Recursos disponível para eles. Para obter informações sobre como usar o Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Você pode compartilhar o Balanceador de carga de trabalho com outros usuários que talvez não tenham a área Recursos disponível no Menu principal. Para obter informações sobre como usar o Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Requisitos de acesso
 
