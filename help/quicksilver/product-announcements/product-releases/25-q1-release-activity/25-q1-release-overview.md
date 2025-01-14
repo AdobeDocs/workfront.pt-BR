@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: a91ca50cacb1f48d49fd70e9612297438bbddd83
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -455,6 +455,30 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tr>
+        <td>
+            <p><span class="bold">Recurso</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Datas de lançamento</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Atualização do Visualizador de provas de desktop</a></p>
+            [!BADGE Na produção ]{type=Informative}
+            <p>Atualizamos o Desktop Viewer com a versão mais recente do Eletron 33.3.0 que usa Chromium 130.0.6723.152. </p>
+            <p>Versão mais recente: 2.1.44 </p>
+        </td>
+        <td>
+            <p><b>Disponível nas seguintes datas:</b></p>
+            <ul>
+                <li>Versão de pré-visualização: 2 de janeiro de 2024</li>
+                <li><span class="preview">Versão de produção para todos os clientes: 9 de janeiro de 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><span class="bold">Recurso</span></p>
