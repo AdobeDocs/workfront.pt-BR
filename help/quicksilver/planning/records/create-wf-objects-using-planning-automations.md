@@ -4,16 +4,16 @@ description: Você pode configurar automações no Workfront Planning que, quand
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 4%
+source-wordcount: '1252'
+ht-degree: 3%
 
 ---
 
 # Criar objetos usando automações de registro do Adobe Workfront Planning
 
-<!--add screen shots when UI is finalized-->
+<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 <!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
 feature: Workfront Planning
@@ -22,6 +22,8 @@ author: Alina, Becky
 recommendations: noDisplay, noCatalog
 
 -->
+
+<!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
 Você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou no Workfront Planning.
 
@@ -108,8 +110,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Considerações sobre a criação de objetos e registros usando uma automação
 
 * O novo objeto ou nome de registro é igual ao nome do registro a partir do qual você o cria.
-* Se o registro que você usa a automação para já tiver objetos do mesmo tipo conectados no campo selecionado para adicionar novos objetos, os novos objetos serão adicionados ao campo de conexão e os objetos existentes também permanecerão conectados.
-
+* Se o registro usado para a automação já tiver objetos do mesmo tipo conectados no campo selecionado para adicionar novos objetos, os novos objetos serão adicionados ao campo de conexão e os objetos existentes também permanecerão conectados.
 
 ## Configurar uma automação no Workfront Planning
 
@@ -124,11 +125,17 @@ Você deve configurar uma automação no Workfront Planning antes de usá-la par
 
    A lista de automações disponíveis é aberta.
 
-1. Clique em **Nova automação** no canto superior direito da tela.
+1. Clique em **Nova automação** no canto superior direito da tela. A caixa **Nova automação** é aberta.
 1. Atualize os seguintes campos:
 
-   * **Texto do botão**: insira o texto que você deseja que apareça no botão de automação. Os usuários clicarão nesse botão ao usar a automação para criar um objeto do Workfront.
-   * **Ícone do botão**: selecione um ícone para o botão. Um ícone é selecionado por padrão.
+   * Substitua **Automação sem título** pelo texto que você deseja que apareça no botão de automação. Os usuários clicarão nesse botão ao usar a automação para criar um objeto do Workfront.
+   * **Descrição**: adicione uma descrição para identificar a finalidade da automação.
+
+1. Na página de detalhes da automação, atualize os seguintes campos na seção **Triggers**:
+
+   * **Acionador**: selecione a ação que acionará a automação. Por exemplo, selecione **Botão, clique**. <!--update this step with a list of all possible triggers; right not only Button click is available-->
+
+1. Atualize os seguintes campos na seção **Ações**:
    * **Tipo de objeto**: selecione o objeto que você deseja que a automação crie. Este campo é obrigatório.
 
      Você pode criar os seguintes objetos a partir dos registros do Workfront Planning:
@@ -160,10 +167,17 @@ Você deve configurar uma automação no Workfront Planning antes de usá-la par
       * **Mapear campo**: selecione campos do tipo de registro para o qual a automação é criada para mapeá-los aos campos do tipo de registro conectado.
       * **Para o campo de registro conectado**: selecione campos do registro conectado que corresponderão aos campos do tipo de registro para o qual você criou a automação.
 1. (Opcional e condicional) Se você não tiver um campo de conexão para um tipo de objeto do Workfront, clique no ícone ![](assets/create-a-connection-field-icon.png) **Criar um campo de conexão** para adicionar um campo.
-1. (Opcional e condicional) Se você optou por adicionar um registro, clique em **Adicionar** na área **Mapear campos conectados** para adicionar e mapear campos adicionais.
-1. Clique em **Criar**
+1. (Opcional e condicional) Se você optou por adicionar um registro, clique em **Adicionar** na área **Mapear campos** para adicionar e mapear campos adicionais, em seguida, selecione um campo para **Transferir de** e um campo para **Transferir para** para indicar qual campo do registro selecionado originalmente deve ser exibido em qual campo do registro conectado.
+1. Clique em **Salvar**.
 
-A automação aparece na lista de automações e está disponível para uso em registros.
+   A automação aparece na lista de automações e está disponível para uso em registros.
+1. (Opcional) Para editar, desativar ou excluir uma automação, faça o seguinte:
+
+   Na lista de automações, passe o mouse sobre o nome de uma automação salva, em seguida, clique no menu **Mais** ![](assets/more-menu.png) e escolha uma das seguintes opções:
+
+   * **Editar**: atualize as informações sobre os campos e configure-os na automação.
+   * **Desabilitar**: a automação não será exibida como uma opção na barra de ferramentas da exibição de tabela dos registros, e os usuários não poderão mais usá-la para criar registros ou objetos. Para torná-lo disponível novamente, clique novamente no menu **Mais** ![](assets/more-menu.png) e clique em **Ativar**.
+   * **Excluir**: a automação foi excluída e não pode ser recuperada. Os registros criados por meio da automação permanecem conectados ao registro selecionado originalmente.
 
 ## Usar uma automação do Workfront Planning para criar um objeto
 

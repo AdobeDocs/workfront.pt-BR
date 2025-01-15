@@ -7,7 +7,7 @@ description: Você pode encontrar a pontuação do Otimizador de Portfolio no Ot
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Visão geral da pontuação do [!UICONTROL Portfolio Otimizer]
+
+<!--Audited: 01/2025-->
 
 Você pode encontrar a pontuação [!UICONTROL Portfolio Otimizer] no [!UICONTROL Portfolio Otimizer]. Ele é exibido na coluna **[!UICONTROL Pontuação]** para cada projeto. Isso representa uma pontuação para cada projeto no portfólio.
 
@@ -26,7 +28,8 @@ Para obter informações sobre como [!DNL Adobe Workfront] usa a Pontuação do 
 
 Há uma diferença entre a pontuação de alinhamento e a pontuação do otimizador de portfólio de um projeto.
 
-A pontuação de alinhamento de um projeto é calculada com base nos pontos obtidos após concluir o cartão de pontuação. Essa pontuação é então usada para determinar a pontuação de alinhamento do portfólio. A pontuação de alinhamento é exibida como uma porcentagem.\
+A pontuação de alinhamento de um projeto é calculada com base nos pontos obtidos após concluir o cartão de pontuação. Essa pontuação é então usada para determinar a pontuação de alinhamento do portfólio. A pontuação de alinhamento é exibida como uma porcentagem.
+
 A pontuação de alinhamento de um projeto é exibida na coluna **[!UICONTROL Alinhamento]** do [!UICONTROL Otimizador de Portfolio] ou no campo [!UICONTROL Alinhamento] do [!UICONTROL Resumo de Business Case].
 
 ![](assets/business-case-summary-aligned-field-highlighted.png)
@@ -68,7 +71,13 @@ Para descobrir a classificação de um projeto, faça o seguinte:
 
 O algoritmo para calcular as pontuações leva em consideração os valores descritos nos Casos de negócios dos projetos e os pesos que eles carregam. Ela atribui uma pontuação a cada projeto no otimizador e normaliza essa pontuação para que haja sempre um projeto com uma pontuação de 100. Isso dá uma pontuação alta para o melhor projeto.
 
-**Exemplo:** Por exemplo, se você fizer do [!UICONTROL alinhamento mais alto] o único fator a ser considerado, o projeto com o alinhamento mais alto obterá a pontuação de 100.
+>[!BEGINSHADEBOX]
+
+**EXEMPLO**
+
+Por exemplo, se você fizer do [!UICONTROL alinhamento superior] o único fator a ser considerado, o projeto com o alinhamento mais alto obterá a pontuação de 100.
+
+>[!ENDSHADEBOX]
 
 A seguir estão os critérios pelos quais você pode pontuar um projeto:
 

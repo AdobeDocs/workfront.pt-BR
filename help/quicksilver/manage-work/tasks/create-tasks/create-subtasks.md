@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Criar subtarefas
-description: No Workfront, as tarefas podem ter relacionamentos pai-filho. Tarefas secundárias são chamadas de subtarefas. É possível criar subtarefas na lista de tarefas transformando uma tarefa principal em uma subtarefa. Também é possível transformar uma subtarefa em uma tarefa principal.
+title: Criar Subtarefas
+description: No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho. Tarefas secundárias são chamadas de subtarefas. É possível criar subtarefas na lista de tarefas transformando uma tarefa principal em uma subtarefa. Também é possível transformar uma subtarefa em uma tarefa principal.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 # Criar subtarefas
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 01/2025 -->
 
-No Workfront, as tarefas podem ter relacionamentos pai-filho. Tarefas secundárias são chamadas de subtarefas. É possível criar subtarefas na lista de tarefas transformando uma tarefa principal em uma subtarefa. Também é possível transformar uma subtarefa em uma tarefa principal.
+No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho. Tarefas secundárias são chamadas de subtarefas. É possível criar subtarefas na lista de tarefas transformando uma tarefa principal em uma subtarefa. Também é possível transformar uma subtarefa em uma tarefa principal.
 
 ## Requisitos de acesso
 
@@ -62,7 +62,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Vá para o projeto em que deseja criar subtarefas.
 1. Clique na seção **Tarefas** no painel esquerdo.
-1. (Condicional) Se a tarefa que você deseja tornar a tarefa filho ainda não estiver localizada diretamente abaixo da tarefa que você deseja tornar pai, arraste-a para o local apropriado na lista de tarefas.
+1. (Condicional) Se a tarefa que você deseja tornar a tarefa filho ainda não estiver localizada diretamente abaixo da tarefa que você deseja tornar pai, arraste-a e solte-a no local apropriado na lista de tarefas.
 1. Selecione a tarefa que você deseja transformar em uma subtarefa e siga um destes procedimentos:
 
    * Clique no ícone **Recuo** ![](assets/indent-icon-nwe-33x29.png) para tornar a tarefa selecionada uma subtarefa da tarefa diretamente acima dela.
@@ -70,7 +70,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
      >[!TIP]
      >
-     >Os atalhos de teclado não funcionam ao editar tarefas em edição em linha. Nesse caso, use o ícone de Recuo ![](assets/cs1.png) para criar subtarefas.
+     >Os atalhos de teclado não funcionam ao editar tarefas em edição em linha. Nesse caso, use o ícone de Recuo ![](assets/indent-icon-nwe-33x29.png) para criar subtarefas.
 
    * Arraste e solte a tarefa sobre a tarefa que deseja designar como a tarefa pai.
 
@@ -80,15 +80,19 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ### Criar subtarefas a partir da seção Subtarefas de tarefa {#create-subtasks-from-the-task-subtasks-section}
 
+>[!NOTE]
+>
+>O administrador do Workfront ou de grupo pode ocultar a seção Subtarefas em seu ambiente.
+
 1. Vá para o projeto em que deseja criar subtarefas.
 1. Clique na seção **Tarefas** no painel esquerdo.
 1. Clique no nome da tarefa em que deseja criar uma subtarefa.
-1. Clique na seção **Subtarefas** no painel esquerdo.
+1. Clique na seção **Subtarefas** no painel esquerdo, se presente.
 1. Clique em **Nova tarefa.**
 
    Siga as etapas no artigo a seguir para continuar criando a subtarefa: [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Clique em **Salvar tarefa.**
+1. Clique em **Criar tarefa.**
 
 ## Transformar uma subtarefa em uma tarefa principal
 

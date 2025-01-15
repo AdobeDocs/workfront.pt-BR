@@ -7,9 +7,9 @@ description: Um Objeto Resolvível é um problema cuja resolução está vincula
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1771'
 ht-degree: 1%
 
 ---
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### Sincronizar status quando o Objeto de resolução for um problema {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-Se um problema for vinculado manualmente a outro problema, o status do segundo problema (Objeto de resolução) acionará uma alteração no status do primeiro problema (Objeto de resolução). O status da primeira ocorrência corresponde ao status para o qual a segunda ocorrência foi alterada. Isso se aplica aos status de problema padrão e personalizado.
+Quando um problema é vinculado manualmente a outro problema, o status do segundo problema (Objeto de resolução) aciona uma alteração no status do primeiro problema (Objeto de resolução). O status da primeira ocorrência corresponde ao status para o qual a segunda ocorrência foi alterada. Isso se aplica aos status de problema padrão e personalizado.
 
 ### Sincronizar status quando o Objeto de Resolução for uma tarefa ou um projeto {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 Quando um problema é o Objeto resolvível de uma tarefa ou um projeto, as alterações no status das tarefas e dos projetos acionam alterações no status do problema. Nesse caso, os status padrão são acionados de forma diferente dos status Personalizados.
+
+Quando o status personalizado do projeto equivale a um status padrão que não aciona uma alteração no status do problema, isso não aciona a alteração no status do problema.
 
 * [Sincronizar o Status Padrão do Objeto de Resolução com o Status Padrão do Objeto Resolvível](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Sincronizar o Status Personalizado do Objeto de Resolução com o Status Personalizado do Objeto Resolvível](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

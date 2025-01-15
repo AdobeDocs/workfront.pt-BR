@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -382,16 +382,26 @@ Você pode aprimorar seus comentários usando Rich Text ou adicionando vários i
    1. Em **Texto a ser exibido**, digite ou cole o texto do link.
    1. Clique em **Salvar**.
 
-1. (Opcional) Para anexar uma imagem à atualização, siga um destes procedimentos:
+1. (Opcional) Anexe uma imagem a uma atualização.
+
+   >[!WARNING]
+   >
+   >Não é possível anexar uma imagem à área de atualizações dos seguintes objetos:
+   >
+   >* Metas
+   >* Cartões ad hoc em quadros
+   >* Registros no Workfront Planning. Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   Para anexar uma imagem à atualização, siga um destes procedimentos:
 
    * Salve a imagem no computador e arraste-a e solte-a na área Novo comentário.
    * Copie uma captura de tela do computador e cole-a no comentário.
    * Clique no ícone ![](assets/add-image-mountain-with-plus-icon.png) de **Adicionar imagem** e navegue até a imagem no seu computador.
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**IMPORTANTE**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ A seção Atualizações de um objeto do Workfront exibe dois tipos de informaç
    * Equipe
    * Modelo
    * Modelo de Tarefa
-   * Cartão ad-hoc
+   * Cartão ad hoc em um Quadro
 
 Para obter mais informações sobre atualizações de usuário e sistema e como elas são exibidas na seção Atualizações de objetos do Workfront, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
