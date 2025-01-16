@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1429'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Clique em **Criar**. O formulário de solicitação para o tipo de registro selecionado abre <span class="preview"> na guia Formulário </span>.
+1. Clique em **Criar**. O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * Campos de registro disponíveis na exibição de tabela do tipo de registro selecionado. <!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> Dependendo do ambiente usado para criar um formulário de solicitação, os seguintes cenários existem:
->
->* Campos dos seguintes tipos não são exibidos no formulário de solicitação no ambiente Produção:
->
->    * Criado por e Modificado pela última vez por
->    * Data de criação e data da última modificação
->    * Fórmula
->    * Pessoas
->    * Campos conectados do Workfront
->    * Campos de pesquisa de objetos do Workfront
->    * Campos conectados de registros do Workfront Planning
->    * Campos de pesquisa de registros conectados do Workfront Planning
->    * Campos de conexão do AEM Assets
->* Campos dos seguintes tipos não são exibidos no formulário de solicitação em <span class="preview">o ambiente de Visualização:</span>
->    * <span class="preview"> Criado por e Última modificação por</span>
->    * <span class="preview">Data de criação e última modificação</span>
->    * <span class="preview">Fórmula</span>
->    * <span class="preview"> campos de pesquisa de objetos do Workfront</span>
->    * <span class="preview">Campos de pesquisa de registros conectados do Workfront Planning </span>
+   >[!IMPORTANT]
+   >
+   >Os campos dos seguintes tipos não são exibidos no formulário de solicitação:
+   >
+   >* Criado por e Modificado pela última vez por
+   >* Data de criação e data da última modificação
+   >* Fórmula
+   >* Campos de pesquisa de objetos do Workfront
+   >* Campos de pesquisa de registros conectados do Workfront Planning
+   >
 
-* **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.
-* Campo **Assunto**: o campo que identificará a solicitação no Workfront. Esse recurso ainda não está disponível no ambiente de produção. <span class="preview">Está disponível no ambiente de visualização.</span> A configuração e o valor do campo Assunto não são editáveis.
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário.
+   * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. A seção Padrão não pode ser renomeada ou removida.
+   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. A configuração e o valor do campo Subject não são editáveis.
 
-* Todos os campos associados ao tipo de registro.
+     >[!TIP]
+     >
+     >O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário quando enviarem a solicitação.
 
-  Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
+   * Todos os campos associados ao tipo de registro.
+
+     Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
 
 1. (Opcional) Passe o mouse sobre qualquer campo no formulário que deseja remover, em seguida, clique no ícone **x** para removê-los. Eles são adicionados à guia **Campos** à esquerda do formulário.
 
@@ -200,8 +206,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido para outros usuários quando eles o usarem para enviar um novo registro.
 
-1. 
-   <div class="preview">(Opcional) Clique na guia **Configuração** e adicione pelo menos um usuário ao campo **Aprovadores** para aprovar novas solicitações para esse formulário de registro.
+1. (Opcional) Clique na guia **Configuração** e adicione pelo menos um usuário ao campo **Aprovadores** para aprovar novas solicitações para este formulário de registro.
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado.
    * Todos os aprovadores devem tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
 
-     Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
+     Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Opcional) Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do formulário no cabeçalho e clique em **Editar** para atualizar o nome do formulário.
 1. Clique em **Publish** para publicar o formulário e obter um link exclusivo para ele.
@@ -235,20 +240,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!WARNING]
    >
-   >
    >* Quando você seleciona **Qualquer pessoa com o link**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas fora da sua organização que não tenham uma conta do Workfront.
    >
-   > * <span class="preview">Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:</span>
+   > * Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:
    >
-   >     * <span class="preview">Conexões do Workfront ou AEM Assets</span>
-   >     * <span class="preview">Pessoas</span>
+   >     * Conexões do Workfront ou AEM Assets
+   >     * Pessoas
    >
 
 1. (Condicional) Se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível. As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link e gerar um novo link para compartilhar antes que as pessoas possam acessar o formulário novamente.
 
    Você pode selecionar datas futuras dentro de 180 dias a partir da data atual.
 
-1. Clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário.
+1. Clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
 
    As opções de compartilhamento de formulário são salvas e o link é copiado para a área de transferência. Agora você pode compartilhá-lo com outras pessoas.
 
@@ -260,7 +264,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    A página de tipo de registro é aberta.
 1. (Opcional) Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e siga um destes procedimentos:
    * Clique em **Atualizar formulário de solicitação** para fazer alterações no formulário de solicitação.
-   * Clique em **Copiar link para o formulário de solicitação** para compartilhar o link para o formulário com outras pessoas.
+   * Clique em **Copiar link para solicitar o formulário** para compartilhar o link para o formulário com outras pessoas.
 
    >[!TIP]
    >

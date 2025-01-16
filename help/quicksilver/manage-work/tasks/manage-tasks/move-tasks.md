@@ -6,9 +6,9 @@ description: Você pode mover tarefas para projetos diferentes ou para tarefas p
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 <!--Audited: 12/2024-->
 
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Você pode mover tarefas no Adobe Workfront entre os seguintes objetos:
@@ -72,6 +72,8 @@ Você deve ter o seguinte acesso para executar as ações neste artigo:
 
 Considere o seguinte ao mover uma tarefa:
 
+* O administrador do sistema ou do grupo pode impedir que você mova tarefas que tenham horas reportadas, dependendo de como ele configura a preferência Permitir que os usuários movam tarefas e problemas com horas reportadas na área Configuração. Para obter informações, consulte [Configurar preferências de tarefas e problemas do sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Quando você move uma tarefa de um projeto para outro, as datas da tarefa podem ser recalculadas. O recálculo levará em consideração o cronograma que o novo projeto usa e as informações de Cronograma de início do projeto.
 
 * Você pode optar por mover alguns itens associados à tarefa para a tarefa movida durante o processo de movimentação. No entanto, por padrão, os seguintes objetos são transferidos para a tarefa movida:
@@ -82,16 +84,9 @@ Considere o seguinte ao mover uma tarefa:
    * Formulários personalizados e informações de campos personalizados
    * Subtarefas
 
-Os seguintes itens não são movidos com a tarefa, por padrão:
+* Os seguintes itens não são movidos com a tarefa, por padrão:
 
-* Etapas
-
-<div class="preview">
-
-* O administrador do sistema ou do grupo pode impedir que você mova tarefas que tenham horas reportadas, dependendo de como ele configura a preferência Permitir que os usuários movam tarefas e problemas com horas reportadas na área Configuração. Para obter informações, consulte [Configurar preferências de tarefas e problemas do sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
-
+   * Etapas
 
 ## Mover tarefas em uma lista
 

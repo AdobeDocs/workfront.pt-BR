@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Gerenciar notificações por email do Adobe Workfront Planning
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,15 +29,9 @@ Você pode receber notificações por email do Workfront Planning quando os segu
   Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * Alguém solicitar sua permissão para acessar uma visualização ou um espaço de trabalho
 * Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--Isk confirmed that there is nno email for denying access but did not test-->
-
-<div class="preview">
-
 * Você submete uma solicitação do Workfront Planning. Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Alguém aprovar ou rejeitar uma solicitação do Workfront Planning que você enviou. Para obter informações, consulte [Aprovar uma solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * O status é alterado para uma solicitação do Workfront Planning enviada.
-
-</div>
-
 
 ## Requisitos de acesso
 

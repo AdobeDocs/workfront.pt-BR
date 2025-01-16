@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,19 @@ ht-degree: 1%
 
 Você pode localizar os seguintes tipos de solicitações que você ou outra pessoa submeteu ou as solicitações que você iniciou, mas que nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
 
-* **Seção enviada**: todas as solicitações que você ou outra pessoa enviou e que você tem acesso a pelo menos Exibir.
-* **Seção de rascunho**: todas as solicitações que você iniciou, mas nunca terminou e nunca enviou. Para obter mais informações sobre rascunhos de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* A guia **Workfront** da área Solicitações no Workfront: Localize as solicitações enviadas às filas de solicitações do Workfront nas seguintes seções:
+   * **Seção enviada**: todas as solicitações que você ou outra pessoa enviou e que você tem acesso a pelo menos Exibir.
+   * **Seção de rascunho**: todas as solicitações que você iniciou, mas nunca terminou e nunca enviou. Para obter mais informações sobre rascunhos de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
   >Você só pode exibir seus próprios rascunhos de solicitações.
+
+* A guia **Planning** da área Solicitações no Workfront: Localize as solicitações enviadas aos formulários de solicitação do Workfront Planning. Sua organização deve comprar um pacote do Workfront Planning. Para obter informações, consulte os seguintes artigos:
+
+   * [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+   * [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## Requisitos de acesso
 
@@ -70,6 +77,7 @@ Para localizar solicitações que você ou outros usuários submeteram:
 
 {{step1-to-requests}}
 
+1. (Condicional) Se sua organização adquiriu um pacote do Workfront Planning, clique na guia **Workfront** para exibir as solicitações do Workfront.
 1. Clique em **Enviado** no painel esquerdo para exibir todas as solicitações enviadas.
 
    É possível exibir até 2000 solicitações, que podem ser exibidas em várias páginas.
@@ -191,6 +199,12 @@ Para localizar solicitações que você ou outros usuários submeteram:
    -->
 
 1. Clique em **Rascunhos** para exibir todas as solicitações em rascunho. O Workfront salva um número ilimitado de rascunhos para cada fila de solicitações nesta pasta. Ao informar uma nova solicitação para um tópico da fila que já tem um rascunho, você será solicitado a usar um rascunho existente. Para obter mais informações, consulte [Criar solicitações de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+1. (Opcional e condicional) Se sua organização adquiriu um pacote do Workfront Planning, clique na guia **Planning** e em **Enviado** no painel esquerdo para exibir as solicitações do Workfront Planning.
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
  
 

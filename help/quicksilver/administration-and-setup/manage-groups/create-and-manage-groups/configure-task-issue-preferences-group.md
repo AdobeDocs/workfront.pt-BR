@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2185'
 ht-degree: 2%
 
 ---
 
 # Configurar preferências de tarefas e problemas para um grupo
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Se os grupos em sua organização precisarem configurar uma preferência de tarefa ou problema independentemente da forma como é configurada no nível do sistema, um administrador do Adobe Workfront poderá desbloquear a preferência. Em seguida, como administrador de grupo, você pode configurar a preferência para seu grupo e ela afetará todas as tarefas ou problemas associados ao seu grupo.
 
@@ -95,7 +95,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * [Padrões de nova tarefa](#new-task-defaults)
    * [Problemas](#issues)
    * [Exclusão](#deletion)
-   * <span class="preview">[Mover](#move)</span>
+   * [Mover](#move)
    * [Datas Efetivas](#actual-dates)
    * [Delegação](#delegation)
    * [Acesso](#access)
@@ -184,8 +184,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    </table>
 
 
-<div class="preview">
-
 ### Mover
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### Datas Efetivas {#actual-dates}
 

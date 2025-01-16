@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+exl-id: 058148db-1795-4d39-be87-271008ae3d47
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
-
 
 # Adicionar uma aprovação a um formulário de solicitação no Adobe Workfront Planning
 
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -161,4 +161,3 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 
    Para obter informações sobre aprovação de solicitações, consulte [Aprovar uma solicitação](/help/quicksilver/planning/requests/approve-request.md).
-

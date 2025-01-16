@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
-
 
 # Aprovar uma solicitação no Adobe Workfront Planning
 
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -168,4 +168,3 @@ Para aprovar uma solicitação:
    * **Rejeitada**: a solicitação foi rejeitada.
 
    A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
-

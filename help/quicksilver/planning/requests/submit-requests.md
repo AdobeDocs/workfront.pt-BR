@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -126,9 +126,9 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 * É possível acessar um formulário de solicitação para solicitações do Workfront Planning somente a partir de um link específico para o formulário.
 * Não é possível editar uma solicitação depois de enviá-la para o Workfront Planning.
-* Cada solicitação enviada cria um registro para o tipo de registro associado ao formulário usado <span class="preview">se o formulário não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.</span>
+* Cada solicitação submetida cria um registro para o tipo de registro associado ao form usado se o form não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.
 * Os registros criados enviando formulários de solicitação não podem ser diferenciados dos registros adicionados por qualquer outro método. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
-* <span class="preview">As solicitações enviadas são exibidas na guia Planejamento da seção Enviadas na área Solicitações do Workfront </span>.
+* As solicitações enviadas são exibidas na guia Planejamento da seção Enviado na área Solicitações do Workfront.
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -149,23 +149,24 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
    Seu formulário é enviado e os seguintes itens ocorrem:
 
-   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação será adicionada à guia <span class="preview">Planejamento da seção Enviado da área Solicitações do Workfront </span> e um novo registro será adicionado ao tipo de registro associado ao formulário.
+   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront e um novo registro é adicionado ao tipo de registro associado ao formulário.
 
-   * Se o formulário de solicitação foi associado a uma aprovação, a solicitação <span class="preview"> é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront. Um novo registro é adicionado à página de tipo de registro somente depois que todos os aprovadores o tiverem aprovado.</span>
-     <span class="preview">Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
+   * Se o formulário de solicitação foi associado a uma aprovação, a solicitação é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront. Um novo registro é adicionado à página de tipo de registro somente após ser aprovado por todos os aprovadores.
+
+     Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">Todos os usuários com acesso a pelo menos um espaço de trabalho podem exibir a guia Planejamento na área Solicitações. Você pode exibir somente as solicitações submetidas por você ou por qualquer outra pessoa aos espaços de trabalho para os quais você tem pelo menos permissões. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema. </span> <!--ensure this is correct; asking team in slack-->
+     >Todos os usuários com acesso a pelo menos um espaço de trabalho podem exibir a guia Planejamento na área Solicitações. Você pode exibir somente as solicitações submetidas por você ou por qualquer outra pessoa aos espaços de trabalho para os quais você tem pelo menos permissões. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema. <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Você receberá uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.</span>
-   * <span class="preview">Se o formulário de solicitação foi associado a uma aprovação, os aprovadores receberão uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.</span>
+   * Você recebe uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.
+   * Se o formulário de solicitação foi associado a uma aprovação, os aprovadores recebem uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.
 
      >[!NOTE]
      >
-     ><span class="preview">As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Experiência unificada do Adobe.</span>
+     >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront de sua organização é integrada à Experiência unificada do Adobe.
 
 
 

@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,12 @@ O trabalho planejado é representado na Adobe Workfront por projetos e tarefas. 
 Depois de criar uma solicitação em uma Fila de solicitações, você pode atribuí-la para ser concluída ou convertê-la em uma tarefa ou projeto.\
 Para obter mais informações sobre como converter problemas em uma tarefa ou projeto, consulte o artigo [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Você pode criar uma solicitação das seguintes maneiras:
+Você pode criar uma solicitação Workfront das seguintes maneiras:
 
 * Do zero, conforme descrito neste artigo.
 * De rascunhos. Para obter informações, consulte [Criar solicitações de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * De uma solicitação existente, copiando e submetendo uma cópia. Para obter informações, consulte [Copiar e enviar solicitações](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* Em um formulário de solicitação do Workfront Planning, para criar registros no Workfront Planning. Sua organização deve comprar um pacote do Workfront Planning. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Requisitos de acesso
 
@@ -344,6 +345,17 @@ Para obter informações sobre como enviar solicitações por meio do aplicativo
 
 * É possível enviar solicitações do Salesforce se você tiver instalado o aplicativo Workfront para Salesforce.\
   Para obter informações sobre como enviar solicitações do Salesforce usando nosso aplicativo Workfront para o Salesforce, consulte o artigo [Enviar solicitações do Adobe Workfront de objetos do Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+
+## Criar solicitações usando um formulário de solicitação do Workfront Planning
+
+É possível adicionar uma solicitação usando um formulário de solicitação do Workfront Planning. Adicionar solicitações do Workfront Planning pode criar registros do Planning, se o formulário de solicitação for aprovado ou se não exigir aprovação.
+
+Sua organização deve comprar um pacote do Workfront Planning para poder enviar solicitações do Planning.
+
+Para obter informações, consulte os seguintes artigos:
+
+* [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Localizar solicitações enviadas
 

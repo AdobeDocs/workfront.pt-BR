@@ -7,9 +7,9 @@ description: Um Objeto Resolvível é um problema cuja resolução está vincula
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Quando um problema é vinculado manualmente a outro problema, o status do segund
 
 Quando um problema é o Objeto resolvível de uma tarefa ou um projeto, as alterações no status das tarefas e dos projetos acionam alterações no status do problema. Nesse caso, os status padrão são acionados de forma diferente dos status Personalizados.
 
-Quando o status personalizado do projeto equivale a um status padrão que não aciona uma alteração no status do problema, isso não aciona a alteração no status do problema.
+Quando o status personalizado de um projeto é igual a um status padrão que não aciona uma alteração no status do problema, a alteração no status do projeto não aciona uma alteração no status do problema.
 
 * [Sincronizar o Status Padrão do Objeto de Resolução com o Status Padrão do Objeto Resolvível](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Sincronizar o Status Personalizado do Objeto de Resolução com o Status Personalizado do Objeto Resolvível](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

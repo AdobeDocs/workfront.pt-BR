@@ -6,9 +6,9 @@ description: No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 >[!NOTE]
 >
->O administrador do Workfront ou de grupo pode ocultar a seção Subtarefas em seu ambiente.
+>O administrador do Workfront ou de grupo pode remover a seção Subtarefas do seu ambiente usando um modelo de layout.
 
 1. Vá para o projeto em que deseja criar subtarefas.
 1. Clique na seção **Tarefas** no painel esquerdo.

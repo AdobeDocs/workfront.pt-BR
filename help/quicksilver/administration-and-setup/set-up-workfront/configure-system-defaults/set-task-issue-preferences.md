@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2296'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Como administrador do [!DNL Adobe Workfront], você pode configurar preferências de todo o sistema para tarefas e problemas. Essas preferências afetam a maneira como seus usuários criam tarefas e problemas no [!DNL Workfront].
@@ -74,15 +74,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * [[!UICONTROL Padrões de nova tarefa]](#new-task-defaults)
    * [[!UICONTROL Problemas]](#issues)
    * [[!UICONTROL Exclusão]](#deletion)
-   * <span class="preview">[Mover](#move)</span>
+   * [Mover](#move)
    * [[!UICONTROL Datas efetivas]](#actual-dates)
    * [[!UICONTROL Delegação]](#delegation)
    * [[!UICONTROL Acesso]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL Padrões de nova tarefa] {#new-task-defaults}
@@ -169,8 +164,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Ao desmarcar essa opção, você receberá um aviso proibitivo ao excluir uma tarefa ou problema com horas reportadas ou ao excluir um projeto com horas reportadas para suas tarefas ou problemas. O aviso especifica que o administrador não permite que tarefas ou problemas com horas reportadas sejam excluídos. As tarefas, problemas ou projetos que têm horas registradas para tarefas e problemas não podem ser excluídos.
 
-<div class="preview">
-
 ### Mover
 
 **[!UICONTROL Permitir que os usuários movam tarefas e problemas com horas registradas]**: Permite determinar se você permite a movimentação de tarefas ou problemas em que horas são registradas. Essa opção é selecionada por padrão.
@@ -178,8 +171,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Quando selecionado, você pode mover tarefas e problemas com tempo reportado. As horas também se movem com as tarefas ou problemas.
 
 * Ao desmarcar essa opção, você recebe um aviso proibitivo ao mover uma tarefa ou problema com horas reportadas para outro projeto. O aviso especifica que o administrador não permite que tarefas ou problemas com horas reportadas sejam movidos. As tarefas ou problemas que têm horas registradas não podem ser movidas. Você pode mover tarefas dentro do mesmo projeto, mesmo quando essa opção estiver desmarcada.
-
-</div>
 
 ### [!UICONTROL Datas efetivas] {#actual-dates}
 
