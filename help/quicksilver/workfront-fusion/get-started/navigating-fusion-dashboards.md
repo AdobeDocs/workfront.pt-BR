@@ -3,17 +3,29 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Navegar pelos painéis no Workfront Fusion
-description: Saiba mais sobre os painéis disponíveis no Workfront Fusion
+description: A documentação do Adobe Workfront Fusion foi movida para um novo local. Este artigo foi descontinuado, mas contém um link para o novo artigo que aborda essa funcionalidade.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 9f7597103e06f3f273dc400440ffa5db6742427b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 1%
+source-wordcount: '727'
+ht-degree: 0%
 
 ---
 
 # Navegar pelos painéis no Workfront Fusion
+
+>[!IMPORTANT]
+>
+>A documentação do Adobe Workfront Fusion foi movida para um novo local.
+>
+>As informações neste artigo agora podem ser encontradas no artigo:
+>
+>* [Navegar pelo Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/navigate-workfront-fusion.html)
+>
+>Atualize todos os marcadores.
+>
+>Este artigo não está mais sendo atualizado e será removido em breve.
 
 Ao fazer logon no Workfront Fusion, você é levado ao painel da organização. Aqui, você pode navegar para diferentes áreas do Fusion clicando nas áreas na navegação à esquerda.
 

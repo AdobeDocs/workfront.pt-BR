@@ -2,19 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: "Exemplo de cenário do Adobe Workfront Fusion: conectar-se por email, analisador de texto e Google Sheets"
-description: Este cenário ajuda você a criar um log de todas as mensagens de email e marcá-las para executar outras ações em uma planilha. Ele captura um corpo de email em duas tabelas separadas em uma planilha usando Expressões regulares (Regex) como padrões de pesquisa. O primeiro padrão pesquisa uma frase e o segundo busca a mesma frase e um endereço de email.
+title: 'Exemplo de cenário do Adobe Workfront Fusion: Conectar email, Analisador de texto e Google Sheets'
+description: A documentação do Adobe Workfront Fusion foi movida para um novo local. Este artigo foi substituído.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
 # Exemplo de cenário [!DNL Adobe Workfront Fusion]: Conectar email, [!UICONTROL Analisador de Texto] e [!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>Este artigo será removido em breve.
 
 Este cenário ajuda você a criar um log de todas as mensagens de email e marcá-las para executar outras ações em uma planilha. Ele captura um corpo de email em duas tabelas separadas em uma planilha usando Expressões regulares (Regex) como padrões de pesquisa. O primeiro padrão pesquisa uma frase e o segundo busca a mesma frase e um endereço de email.
 
@@ -45,7 +49,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] da [!UICONTROL Ultimate].</p>
    <p>Ou</p>
    <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 

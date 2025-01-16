@@ -4,21 +4,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Webhooks no Adobe Workfront Fusion
-description: Saiba mais sobre webhooks no Adobe Workfront Fusion
+description: A documentação do Adobe Workfront Fusion foi movida para um novo local. Este artigo foi descontinuado, mas contém um link para o novo artigo que aborda essa funcionalidade.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 54d74cd4-8513-45aa-8ac4-0a746d472f0f
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
 # Webhooks em [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>A documentação do Adobe Workfront Fusion foi movida para um novo local.
+>
+>Consulte os artigos individuais para obter links para a nova documentação.
+>
+>Atualize todos os marcadores.
+>
+>Este artigo não está mais sendo atualizado e será removido em breve.
 
 O [!DNL Adobe Workfront Fusion] exige uma licença do [!DNL Adobe Workfront Fusion] além de uma licença do Adobe Workfront.
 

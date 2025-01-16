@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Criar um cenário no Adobe Workfront Fusion
-description: As tarefas a seguir explicam como criar um cenário  [!DNL Adobe Workfront Fusion] .
+description: A documentação do Adobe Workfront Fusion foi movida para um novo local. Este artigo foi descontinuado, mas contém um link para o novo artigo que aborda essa funcionalidade.
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
 
 # Criar um cenário em [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>A documentação do Adobe Workfront Fusion foi movida para um novo local.
+>
+>As informações neste artigo agora podem ser encontradas no artigo:
+>
+>* [Fluxo de trabalho para criar um cenário](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Atualize todos os marcadores.
+>
+>Este artigo não está mais sendo atualizado e será removido em breve.
 
 As tarefas a seguir explicam como criar um cenário [!DNL Adobe Workfront Fusion].
 
@@ -57,8 +69,8 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
     <tr>  
       <td>Produto</td>  
       <td> 
-        Novo: plano Select ou Prime do Workfront: sua organização deve comprar o Adobe Workfront Fusion.<br>
-        Plano Ultimate do Workfront: o Workfront Fusion está incluído.<br>
+        Novo: Selecione ou Prime Workfront Plan: sua organização deve comprar o Adobe Workfront Fusion.<br>
+        Plano do Ultimate Workfront: o Workfront Fusion está incluído.<br>
         Ou<br>
         Atual: sua organização deve comprar o Adobe Workfront Fusion.
       </td>  

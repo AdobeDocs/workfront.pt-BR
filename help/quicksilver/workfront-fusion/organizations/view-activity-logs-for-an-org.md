@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Exibir logs de atividades de uma organização no Adobe Workfront Fusion
-description: Você pode exibir um log de atividades, como criação ou ativação de cenários, para sua organização.
+description: A documentação do Adobe Workfront Fusion foi movida para um novo local. Este artigo foi descontinuado, mas contém um link para o novo artigo que aborda essa funcionalidade.
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Exibir logs de atividades de uma organização no Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>A documentação do Adobe Workfront Fusion foi movida para um novo local.
+>
+>As informações neste artigo agora podem ser encontradas no artigo:
+>
+>* [Exibir logs de atividades de uma organização](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.html)
+>
+>Atualize todos os marcadores.
+>
+>Este artigo não está mais sendo atualizado e será removido em breve.
 
 <!--Move to new repo-->
 
@@ -54,7 +66,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Essa funcionalidade está disponível somente para organizações com o plano Ultimate Workfront, que inclui [!DNL Workfront Fusion]. Não é necessária nenhuma compra de produto adicional.</p>
+   <p>Essa funcionalidade está disponível somente para organizações com o plano do Ultimate Workfront, que inclui [!DNL Workfront Fusion]. Não é necessária nenhuma compra de produto adicional.</p>
    </td> 
   </tr>
  </tbody> 

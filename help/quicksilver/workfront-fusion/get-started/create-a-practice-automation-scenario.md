@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Criar um cenário de automação de prática em  [!DNL Adobe Workfront Fusion]
-description: Este artigo descreve como criar um cenário de automação com o Adobe Workfront Fusion. Cenários de automação automatizam processos do Workfront, incluindo manipulação e transformação de dados. Esse exemplo orienta você pelo processo de criação de um cenário que pesquisa um projeto e retorna todas as tarefas associadas a esse projeto.
+description: A documentação do Adobe Workfront Fusion foi movida para um novo local. Este artigo foi descontinuado, mas contém um link para o novo artigo que aborda essa funcionalidade.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
 
 # Criar um cenário de automação de prática em [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>A documentação do Adobe Workfront Fusion foi movida para um novo local.
+>
+>As informações neste artigo agora podem ser encontradas no artigo:
+>
+>* [Fluxo de trabalho para criar um cenário](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Atualize todos os marcadores.
+>
+>Este artigo não está mais sendo atualizado e será removido em breve.
 
 Cenários de automação automatizam processos do Workfront, incluindo manipulação e transformação de dados. Este artigo orienta você pelo processo de criação de um cenário que pesquisa um projeto e retorna todas as tarefas associadas a esse projeto.
 
@@ -56,8 +68,8 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
     <tr>  
       <td>Produto</td>  
       <td> 
-        Novo: plano Select ou Prime do Workfront: sua organização deve comprar o Adobe Workfront Fusion.<br>
-        Plano Ultimate do Workfront: o Workfront Fusion está incluído.<br>
+        Novo: Selecione ou Prime Workfront Plan: sua organização deve comprar o Adobe Workfront Fusion.<br>
+        Plano do Ultimate Workfront: o Workfront Fusion está incluído.<br>
         Ou<br>
         Atual: sua organização deve comprar o Adobe Workfront Fusion.
       </td>  

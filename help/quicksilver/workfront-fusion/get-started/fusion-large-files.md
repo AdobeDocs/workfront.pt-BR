@@ -3,18 +3,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Trabalhar com arquivos grandes no Adobe Workfront Fusion
-description: Atualmente, há suporte para arquivos grandes nos conectores Workfront e HTTP.
+description: A documentação do Adobe Workfront Fusion foi movida para um novo local. Este artigo foi descontinuado, mas contém um link para o novo artigo que aborda essa funcionalidade.
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # Trabalhar com arquivos grandes no Adobe Workfront Fusion
+
+
+
+>[!IMPORTANT]
+>
+>A documentação do Adobe Workfront Fusion foi movida para um novo local.
+>
+>As informações neste artigo agora podem ser encontradas no artigo:
+>
+>* [Trabalhando com arquivos grandes](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>Atualize todos os marcadores.
+>
+>Este artigo não está mais sendo atualizado e será removido em breve.
 
 >[!IMPORTANT]
 >
@@ -53,7 +67,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Novo: [!DNL Workfront Fusion] está incluído no plano Ultimate Workfront.</p> <p>Ou</p>
+   <p>Novo: [!DNL Workfront Fusion] está incluído no plano do Ultimate Workfront.</p> <p>Ou</p>
    <p>Atual: não disponível</p>
    </td> 
   </tr>

@@ -4,25 +4,37 @@ product-area: workfront-integrations
 keywords: fusão
 navigation-topic: workfront-fusion-navigation-topic
 title: Adobe Workfront Fusion
-description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusion, além de uma licença do Adobe Workfront.
+description: A documentação do Adobe Workfront Fusion foi movida para um novo local. Este artigo foi descontinuado, mas contém um link para o novo artigo que aborda essa funcionalidade.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '152'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>A documentação do Adobe Workfront Fusion foi movida para um novo local.
+>
+>As informações neste artigo agora podem ser encontradas no artigo:
+>
+>* [Documentação do Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/home.html)
+>
+>Atualize todos os marcadores.
+>
+>Este artigo não está mais sendo atualizado e será removido em breve.
+
 >[!NOTE]
 >
 >[!DNL Adobe Workfront Fusion] requer uma licença [!DNL Adobe Workfront Fusion] além de uma licença [!DNL Adobe Workfront].
 
-Para obter materiais de treinamento relacionados a [!DNL Adobe Workfront Fusion], consulte [visão geral do treinamento do Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html?lang=pt-BR).
+Para obter materiais de treinamento relacionados a [!DNL Adobe Workfront Fusion], consulte [visão geral do treinamento do Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html).
 
 Para obter informações sobre os últimos aprimoramentos com o Workfront Fusion, consulte [[!DNL Adobe Workfront Fusion] atividade de lançamento](../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
