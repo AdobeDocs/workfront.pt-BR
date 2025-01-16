@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1425'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Gerenciar exibições de registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 {{planning-important-intro}}
@@ -204,7 +204,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Recurso | Exibição em tabela | Exibição da linha do tempo | Exibição de calendário |
+| Recurso | Exibição em tabela | Visualização da linha do tempo | Exibição de calendário |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | Exibir registros em uma lista ou tabela | ✓ µ |              | |
 | Exibir todos os campos como colunas na tabela, por padrão | ✓ µ |              |    |
@@ -225,7 +225,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Abrir a página do registro na exibição | ✓ µ | ✓ µ |    |
 | Exibir registros por ano e trimestre |           | ✓ µ |    |
 | Exibir registros por mês |           | ✓ µ | ✓ µ |
-| <span class="preview">Exibir registros por semana</span> |           |               | ✓ µ |
+| Exibir registros por semana |           |               | ✓ µ |
 
 
 ## Criar ou editar exibições {#create-or-edit-views}

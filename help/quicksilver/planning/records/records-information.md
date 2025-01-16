@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '122'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Registros: índice do artigo
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Os artigos a seguir descrevem como criar e gerenciar registros e suas informaç�
 * [Criar registros](/help/quicksilver/planning/records/create-records.md)
 * [Editar registros](/help/quicksilver/planning/records/edit-records.md)
 * [Excluir registros](/help/quicksilver/planning/records/delete-records.md)
-* <span class="preview">[Restaurar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md)</span>
+* [Restaurar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md)
 * [Compartilhar registros](/help/quicksilver/planning/records/share-records.md)
 * [Visão geral dos registros conectados](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)

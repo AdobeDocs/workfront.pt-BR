@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
 
 Você pode registrar o tempo para itens de trabalho no Adobe Workfront para indicar o número de horas que você gasta trabalhando neles. Você também pode registrar horas que não estejam relacionadas ao trabalho, como férias, licença médica ou tempo gasto em reuniões. O horário registrado é exibido em sua folha de horas.
 
@@ -497,11 +495,8 @@ Dependendo do tipo de entradas de hora editadas, os seguintes campos estão disp
    * Atribuição de funções de trabalho. Você pode alterar a atribuição da Função de trabalho somente se ela tiver sido habilitada na Configuração. Para obter informações, consulte [Configurar preferências de horas e folha de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
    * A Descrição da entrada de hora.
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * Ao editar o horário geral:
 
@@ -551,7 +546,7 @@ Para editar tipos de horas em um relatório ou lista de horas:
    >
    >   Nem todos os campos estão disponíveis, dependendo do tipo de hora associado às entradas de hora selecionadas.
 
-1. Clique em **Salvar <span class="preview">alterações</span>**.
+1. Clique em **Salvar alterações**.
 
    As informações de entrada de hora são atualizadas.
 Se você selecionou mais de uma entrada de hora e modificou o campo Horas, a mesma quantidade de horas é alocada para todas as entradas de hora selecionadas. As horas originais são substituídas pelo novo valor para todas as entradas de horas selecionadas.

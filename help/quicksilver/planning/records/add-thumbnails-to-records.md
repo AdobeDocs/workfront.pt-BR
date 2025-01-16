@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adicionar uma miniatura a um registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -184,11 +184,7 @@ Você pode adicionar uma miniatura das seguintes maneiras:
 
    A página de detalhes do registro é aberta.
 
-1. (Condicional) Na visualização de registro ou página, passe o mouse sobre a imagem ou o ícone da miniatura ![](assets/record-thumbnail-icon-on-details-page.png) e clique no menu **Mais** ![](assets/more-menu.png) > **Editar miniatura** no ambiente de Produção
-
-   Ou
-
-   <span class="preview">Passe o cursor sobre o espaço acima do nome do registro e clique em **Adicionar miniatura** ou **Editar miniatura** no ambiente de Visualização.</span>
+1. (Condicional) Na página de visualização ou detalhes do registro, passe o mouse sobre a imagem da miniatura ou o ícone ![](assets/record-thumbnail-icon-on-details-page.png), passe o mouse sobre o espaço acima do nome do registro e clique em **Adicionar miniatura** ou **Editar miniatura**.
 
    A guia **Carregar** é aberta por padrão na caixa **Miniatura do registro**.
 

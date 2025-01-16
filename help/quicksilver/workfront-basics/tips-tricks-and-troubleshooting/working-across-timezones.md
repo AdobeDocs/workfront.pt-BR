@@ -5,9 +5,9 @@ title: Trabalhar em fusos horários
 description: Pode ser útil entender como o  [!DNL Adobe Workfront] usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Pode ser útil entender como o [!DNL Adobe Workfront] usa fusos horários para calcular o seguinte:
 
@@ -100,14 +100,10 @@ Os administradores do [!DNL Workfront] criam cronogramas separados para cada fus
    * O fuso horário do agendamento do proprietário principal da tarefa
    * O fuso horário para o agendamento do projeto.
 
-  <div class="preview">
-
   Se um usuário for atribuído a uma tarefa, o sistema usará um dos seguintes, conforme configurado nas preferências do projeto do sistema ou do grupo:
 
    * O fuso horário do agendamento do destinatário da tarefa
    * O fuso horário para o agendamento do projeto.
-
-  </div>
 
   Isso pode fazer com que as datas das tarefas mudem.
 

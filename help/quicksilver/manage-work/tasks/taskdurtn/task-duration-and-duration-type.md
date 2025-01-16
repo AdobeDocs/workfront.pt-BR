@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1649'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 A Duração da tarefa é a diferença entre a Data de conclusão planejada e a Data inicial planejada da tarefa. A Duração indica o período disponível para a tarefa ser concluída.
 
@@ -41,17 +41,7 @@ Se você tiver uma programação que comece às 9h e termine às 12h e uma taref
 
 Veja a seguir dois cenários que existem ao calcular a duração no Adobe Workfront:
 
-* Se a tarefa for atribuída a um usuário, os seguintes cenários existem com base em qual ambiente você usa:
-
-   * No ambiente de Produção, o Workfront usa um dos seguintes agendamentos, nesta ordem exata, para calcular a Duração:
-
-   1. O Workfront considera a programação do usuário.
-   1. Se o usuário não estiver associado a um agendamento, a Workfront levará em conta o agendamento do projeto.
-   1. Se o projeto não estiver associado a um agendamento, a Workfront levará em conta o Agendamento padrão do seu sistema. Para obter informações sobre agendamentos, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-<div class="preview">
-
-* No ambiente de Pré-visualização:
+* Se a tarefa for atribuída a um usuário:
 
    1. O Workfront considera o agendamento do projeto ou o do usuário atribuído à tarefa.
 
@@ -60,8 +50,6 @@ Veja a seguir dois cenários que existem ao calcular a duração no Adobe Workfr
    1. Se o usuário ou o projeto não tiver um agendamento, o Workfront usará o Agendamento padrão do sistema.
 
       As etapas são semelhantes ao primeiro cenário depois de entender qual agendamento o Workfront usa para calcular a Duração.
-
-</div>
 
 * Se a tarefa for atribuída a vários usuários:
 

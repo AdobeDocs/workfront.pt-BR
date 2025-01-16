@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Criar tipos de registro
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -108,11 +108,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
         Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * <span class="preview">Ao importá-los usando um arquivo Excel ou CSV. </span>
+      * Ao importá-los usando um arquivo Excel ou CSV.
 
      >[!TIP]
      >
-     ><span class="preview">Ao importar um tipo de registro de um arquivo do Excel ou CSV, os registros e campos também podem ser importados.</span>
+     >Ao importar um tipo de registro de um arquivo Excel ou CSV, você também pode importar registros e campos.
 
    * Manualmente:
 
@@ -147,7 +147,7 @@ Para obter informações sobre quais tipos de registro são incluídos em cada m
 
    Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 1. (Opcional) Clique em **Adicionar seção** para adicionar uma nova seção ao espaço de trabalho.
-1. Clique em **Adicionar tipo de registro** e depois em <span class="preview">**Novo**</span>.
+1. Clique em **Adicionar tipo de registro** e depois em **Novo**.
 
    A caixa Adicionar tipo de registro é aberta.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -207,8 +207,6 @@ A Descrição do tipo de registro é exibida no cartão.
    * [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## Criar tipos de registro importando um arquivo Excel ou CSV
 
@@ -278,6 +276,3 @@ Para importar tipos de registro usando um arquivo Excel ou CSV:
    Você pode começar a gerenciar campos e registros nas páginas de tipos de registro.
 
    Todos os usuários com acesso ao Workfront Planning agora podem exibir e editar os tipos de registros importados e suas informações.
-
-</div>
-

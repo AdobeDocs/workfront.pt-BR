@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Visão geral das limitações de objetos do Adobe Workfront Planning
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,8 +45,8 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | A velocidade com a qual as solicitações de API podem ser feitas | 200 solicitações por minuto |
 | Número de visualizações que um usuário pode criar para um tipo de registro | 100 |
 | Tamanho do CSV do arquivo do Excel que você pode importar para criar tipos de registro | 5 MB |
-| <span class="preview">Número de linhas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro</span> | 10.000 |
-| <span class="preview">Número de colunas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro</span> | 500 |
+| Número de linhas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 10.000 |
+| Número de colunas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 500 |
 
 *Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.
 

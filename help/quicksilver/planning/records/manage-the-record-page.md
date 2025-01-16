@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Gerenciar o layout da página de registros
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -254,8 +254,6 @@ As seguintes situações ocorrem:
 
    Todas as alterações no layout da visualização do registro ou na página são salvas automaticamente.
 
-<span class="preview">
-
 ## Adicionar uma página de exibição de conexão à página de um registro
 
 Considere o seguinte ao adicionar uma exibição de Conexão à página de um registro:
@@ -292,7 +290,7 @@ A exibição de tabela é somente leitura.
 1. (Opcional) Use quaisquer elementos de exibição na barra de ferramentas para gerenciar a exibição de tabela. Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 1. (Opcional) Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![](assets/more-menu.png) e em **Excluir** para remover para a nova guia de exibição Conectada.
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

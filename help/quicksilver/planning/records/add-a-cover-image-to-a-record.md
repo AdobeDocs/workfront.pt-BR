@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Adicionar uma imagem da capa a um registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -148,7 +148,7 @@ Considere o seguinte:
 
    ![](assets/details-page.png)
 
-1. Na visualização ou página do registro, clique em **Adicionar capa** no ambiente de Produção, <span class="preview">ou passe o mouse sobre o espaço acima do nome do registro e clique em **Adicionar capa** no ambiente de Visualização</span>.
+1. Na página de visualização ou detalhes do registro, passe o mouse sobre o espaço acima do nome do registro e clique em **Adicionar capa**.
 
    Ou
 
@@ -167,7 +167,7 @@ A caixa **Capa de registro** é aberta na guia **Carregar**.
 
 1. Clique em **Usar imagem**.
 
-   A imagem é carregada na parte superior da visualização do registro ou da página e as alterações são salvas automaticamente.
+   A imagem é carregada na parte superior da página de visualização ou detalhes do registro e as alterações são salvas automaticamente.
 
    ![](assets/record-page-with-cover-image.png)
 
