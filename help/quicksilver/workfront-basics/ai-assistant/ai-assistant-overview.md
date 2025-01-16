@@ -5,18 +5,14 @@ description: Visão geral do Assistente de IA
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
 
 # Visão geral do Assistente de IA
-
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível no ambiente de Pré-visualização para todos os clientes e no ambiente Produção para clientes que ativaram versões mensais. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 O Assistente de IA da Workfront ajuda você a realizar seu trabalho oferecendo informações e sugestões no aplicativo em uma conversa em idioma natural. O Assistente de IA pode lhe oferecer uma experiência de trabalho mais estável
 
@@ -84,13 +80,9 @@ Atualmente, o Assistente de IA oferece as seguintes funcionalidades:
 
   Para obter mais informações, consulte [Obter ajuda do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
-<div class="preview">
-
 * Localizar itens específicos no Workfront.
 
   Para obter mais informações, consulte [Usar o Assistente de IA para trabalhar com projetos, tarefas e problemas](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
-
-</div>
 
 * Gerar ou refinar fórmulas para campos personalizados calculados.
 
@@ -100,12 +92,10 @@ Atualmente, o Assistente de IA oferece as seguintes funcionalidades:
 
   Para obter mais informações, consulte [Gerar ou revisar fórmulas de campo calculado com o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-<div class="preview">
-* Resumindo atualizações, documentos carregados e outras alterações importantes sobre seus projetos nos seguintes prazos: 24 horas, 3 dias e 7 dias em Prioridades.
+* Resumindo atualizações, documentos carregados e outras alterações importantes sobre seus projetos nos seguintes intervalos de tempo: 24 horas, 3 dias e 7 dias em Prioridades.
 
 Para obter mais informações, consulte [Acompanhar o trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>
 
 ## Tipos de objeto disponíveis para o Assistente de IA
 
