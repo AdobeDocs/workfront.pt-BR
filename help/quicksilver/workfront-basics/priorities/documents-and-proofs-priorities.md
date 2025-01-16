@@ -5,17 +5,15 @@ description: Documentos
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '498'
 ht-degree: 2%
 
 ---
 
-
 # Fazer upload de documentos e criar provas em Prioridades
-
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode fazer upload de documentos e criar provas em Prioridades.
 
@@ -182,6 +180,3 @@ Você pode classificar documentos por
 
 * Data de adição
 * Tipo do arquivo
-
-
-

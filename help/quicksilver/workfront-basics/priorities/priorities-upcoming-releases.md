@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
-source-git-commit: 220702225d4f7986b93a43ccc4c33160f7463619
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -17,47 +17,15 @@ ht-degree: 0%
 
 Estamos entusiasmados em mostrar a vocês o que buscamos por Prioridades. Use o botão Feedback na área Prioridades do Workfront para nos informar o que você gostaria de ver a seguir.
 
-
-
 <table>
   <tr>
     <td><strong>Próximos</strong>
-    <ul>
-
-<li><strong>Exibir documentos na guia Documentos</strong>: a guia documentos permitirá que você exiba documentos carregados em tarefas e problemas. Você poderá visualizar uma visualização e deixar comentários em um documento. </li>
-    </ul>
+   <p>Mais recursos futuros serão adicionados em breve</p>
     </td>
   </tr>
   <tr>
     <td><strong>Planejado</strong>
-    <ul>
-    <li><strong>Exibir trabalho em uma exibição de calendário</strong>: a exibição de Calendário fornecerá uma representação visual de suas tarefas e problemas em uma exibição de mês.</li>
-    <li><strong>Mantenha-se a par do trabalho com o recurso IA de prioridades: Acompanhe-me</strong>: Acompanhe-me resumirá as atualizações, os documentos carregados, as aprovações e outras alterações importantes sobre seus projetos ativos nos seguintes prazos: 24 horas, 3 dias, 7 dias.</li>
-    </ul>
+<p>Mais recursos planejados serão adicionados em breve</p>
     </td>
   </tr>
 </table>
-
-
-
->[!IMPORTANT]
->
->Os itens listados nesta tabela estão planejados, mas não são garantidos.
-
-
-
-
-<!--
-
-<table>
-  <tr>
-    <td><strong>Upcoming</strong>
-   <p>More upcoming features will be added soon</p>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Planned</strong>
-<p>More planned features will be added soon</p>
-    </td>
-  </tr>
-</table> -->

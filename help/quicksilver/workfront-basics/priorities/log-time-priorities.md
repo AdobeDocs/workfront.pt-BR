@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -60,8 +60,7 @@ Você pode registrar o tempo diretamente na lista de trabalho:
 {{step1-to-priorities}}
 
 1. Passe o cursor do mouse sobre o nome e clique em **Registrar tempo**.
-   ![](assets/log-time.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. No menu suspenso **Tipo de Hora**, selecione o tipo de hora apropriado. Os tipos de horas estão disponíveis dependendo do que foi definido nos níveis de sistema, projeto e usuário, conforme descrito em Definir tipos de horas e disponibilidade.
 
 1. (Condicional) Se o administrador do Workfront ou do grupo tiver ativado a configuração Atribuir funções de trabalho a entradas de hora manualmente, selecione uma função de trabalho no menu suspenso. A função especificada quando você está atribuído ao item de trabalho é exibida por padrão. Se uma função não for atribuída a você no objeto, sua função principal será exibida como padrão. Se você não tiver uma Função primária atribuída, Nenhuma Função de trabalho será exibida.

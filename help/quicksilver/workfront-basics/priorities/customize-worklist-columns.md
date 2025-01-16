@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Personalizar as colunas da lista de trabalho de prioridades
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode personalizar as colunas na lista de trabalho em Prioridades para respaldar a maneira como você trabalha.
 
@@ -87,9 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no ícone ![](assets/more-icon.png) de **Mais** e escolha **Redefinir larguras de coluna**.
    ![](assets/columns.png)
 
-<div class="preview">
-
-## Personalizar as colunas da lista de trabalho de prioridades na Pré-visualização
+## Personalizar as colunas da lista de trabalho de prioridades
 
 ### Ativar ou desativar colunas
 
@@ -110,6 +106,3 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 >[!NOTE]
 >
 >A coluna Name está fixa e não pode ser movida.
-
-
-</div>

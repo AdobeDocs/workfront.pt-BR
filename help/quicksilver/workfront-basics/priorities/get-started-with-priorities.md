@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 2%
+source-wordcount: '999'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Em Prioridades, você pode filtrar e agrupar seu trabalho para ajudá-lo a geren
 
 ### Encontre seu trabalho com filtros
 
-Encontre o seu trabalho mais importante com filtros. <span class="preview">Você pode usar um idioma natural para encontrar trabalho com o Filtro inteligente</span> ou
+Encontre o seu trabalho mais importante com filtros. Você pode usar um idioma natural para encontrar trabalho com o filtro Inteligente ou
 Você pode usar o filtro Padrão para localizar tarefas e problemas atribuídos a você:
 
 <table>
@@ -112,10 +112,9 @@ Depois de atribuir níveis de foco aos itens de trabalho, você pode classificar
 
 Para obter mais informações, consulte [Priorizar itens de trabalho importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### Usar o modo de exibição Calendário [!BADGE Disponível na visualização]{type=Informative}
+### Usar a exibição de Calendário
 
 A exibição de Calendário fornecerá uma representação visual de suas tarefas e problemas. Você poderá escolher entre uma visualização de dia, semana ou mês. Você também poderá filtrar itens de maneira semelhante à lista de trabalho.
 
@@ -141,8 +140,7 @@ A seção Atualizações mostra atualizações de sistema e até 200 das atualiz
 
 Para obter mais informações, consulte [Adicionar e exibir comentários em Prioridades](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Registrar de tempo
 
@@ -150,8 +148,7 @@ Você pode registrar o tempo dos itens de trabalho para indicar o número de hor
 
 Para obter mais informações, consulte [Registrar tempo em Prioridades](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Fazer upload de arquivos
 
@@ -164,8 +161,7 @@ Fazer upload de arquivos diretamente na área Documentos da tarefa ou problema s
 
 Para obter mais informações, consulte [Fazer upload de arquivos em Prioridades](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### Adicionar links rápidos
@@ -176,13 +172,13 @@ Você pode incorporar links usados com frequência na página de detalhes do ite
 
 Para obter mais informações, consulte [Adicionar e gerenciar links rápidos em Prioridades](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Exibir documentos [!BADGE Disponíveis na visualização]{type=Informative}
+### Visualizar documentos
 
 A guia Documentos permite exibir todos os arquivos relacionados a um item de trabalho. Você poderá filtrar documentos por nome, tipo de arquivo ou pessoa e classificar por nome e data de upload.
 
 Você também poderá abrir o documento ou a prova.
 
-### Revisar e aprovar ativos [!BADGE Disponíveis na visualização]{type=Informative}
+### Revisar e aprovar ativos
 
 Na guia Documentos de uma tarefa ou problema, é possível
 
@@ -190,7 +186,7 @@ Na guia Documentos de uma tarefa ou problema, é possível
 * Inicie o visualizador de revisões para deixar comentários e tomar decisões
 
 
-## Use [!DNL Catch me up] para ver o que você perdeu [!BADGE Disponível na visualização]{type=Informative}
+## Use [!DNL Catch me up] para ver o que você perdeu
 
 Use o recurso [!DNL Catch me up] para ver o que você perdeu. Pegar-me resumirá as atualizações, os documentos carregados, as aprovações e outras alterações importantes sobre seus projetos dentro dos seguintes prazos: 24 horas, 3 dias, 7 dias.
 
@@ -200,7 +196,7 @@ Para obter mais informações, consulte [Acompanhar o trabalho em Prioridades](/
 
 <!--need new screen for prod-->
 
-## Exibir atualizações em tempo real na página Detalhes [!BADGE Disponível na visualização]{type=Informative}
+## Exibir atualizações em tempo real na página Detalhes
 
 Você pode exibir atualizações em tempo real na página Detalhes de uma tarefa ou problema. Você também pode ver se outros estão visualizando a página ao mesmo tempo que você com indicadores de presença em tempo real.
 
