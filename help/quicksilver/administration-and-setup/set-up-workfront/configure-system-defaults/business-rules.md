@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -112,7 +112,7 @@ IF(
 1. Clique em **Nova regra de negócio**.
 1. Selecione o tipo de objeto ao qual atribuir a regra de negócios e clique em **Continuar**.
 
-   ![Selecione um objeto](assets/object-for-business-rule2.png)
+   ![Selecione um objeto](assets/object-for-business-rule3.png)
 
 1. Digite o **Nome** da regra de negócios.
 1. No campo **Está ativo**, selecione se a regra deve estar ativa ao salvá-lo.
