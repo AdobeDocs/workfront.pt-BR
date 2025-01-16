@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 5%
 
 ---
 
 # Criar um formulário personalizado
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Você pode criar um formulário personalizado com o designer de formulário no Adobe Workfront. Você pode anexar formulários personalizados a diferentes objetos do Workfront para capturar dados sobre esses objetos.
 
@@ -847,8 +843,8 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
       <td><p>(Obrigatório) Selecione um campo nativo do Workfront.<p><p>Somente campos nativos para os objetos do formulário estão disponíveis. Por exemplo, se a lista Tipos de objeto na parte superior do designer do formulário mostrar Projeto, você poderá selecionar campos nativos para projetos, mas não campos específicos para tarefas.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Adicionar Filtro</span></td>
-      <td><span class="preview"><p>Adicione um filtro para o campo de referência para limitar a lista de itens que os usuários podem escolher quando estiverem usando o campo. </p> <p>Por exemplo, é possível limitar um campo para que os nomes de usuários possam ser selecionados somente se atenderem aos seguintes critérios:</p> 
+      <td role="rowheader">Adicionar Filtro</td>
+      <td><p>Adicione um filtro para o campo de referência para limitar a lista de itens que os usuários podem escolher quando estiverem usando o campo. </p> <p>Por exemplo, é possível limitar um campo para que os nomes de usuários possam ser selecionados somente se atenderem aos seguintes critérios:</p> 
        <ul>
         <li>Eles pertencem a um ou mais grupos especificados por você</li> 
         <li>Eles estão associados a uma função ou a um cargo especificado por você</li> 
@@ -860,7 +856,7 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
         <li>A opção de filtro só está disponível quando você faz referência a um campo de digitação antecipada nativo, como Portfolio, Empresa ou Proprietário.</li>
         <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo nativo não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
         <li>Este filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo nativo, o campo aparecerá nos dispositivos móveis dos usuários não afetados pelo filtro.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ Para adicionar um arquivo Adobe XD:
    ou
 
    Clique em **Salvar e fechar**.
-
-<div class="preview">
 
 ### Adicionar campos de conexão do Planning
 
@@ -1031,8 +1025,6 @@ Para adicionar um campo de conexão do Planning:
    * Conectar ou desconectar registros do objeto Workfront.
 
    Para obter mais informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## Organizar e visualizar um formulário com o designer de formulário
 

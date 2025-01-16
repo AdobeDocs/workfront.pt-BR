@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
+source-git-commit: 38541313ae1c2b330bf4bad994bee43ee6e84227
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Criar e editar regras de negócios
-
-{{preview-fast-release-general}}
 
 Uma regra de negócios permite aplicar validação a objetos do Workfront e impede que os usuários criem, editem ou excluam um objeto quando determinadas condições forem atendidas. As regras de negócios ajudam a melhorar a qualidade dos dados e a eficiência operacional, evitando ações que podem comprometer a integridade dos dados.
 
@@ -137,9 +135,9 @@ IF(
    * Como o objeto e a ação já estão definidos, você não os inclui na fórmula.
    * A mensagem de erro personalizada é exibida ao usuário quando ele aciona a regra de negócios. Ele deve fornecer instruções claras sobre o que deu errado e como corrigir o problema.
 
-     <span class="preview">Você pode incluir uma URL estática na mensagem de erro, para vincular à documentação ou outras páginas úteis para orientar o usuário sobre como modificar sua ação dentro da restrição da regra.</span>
+     É possível incluir um URL estático na mensagem de erro, um link para a documentação ou outras páginas úteis para orientar o usuário sobre como modificar sua ação dentro da restrição da regra.
 
-     <span class="preview">Neste exemplo, &quot;Saiba mais&quot; será vinculado à URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` A URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir a URL completa e ela será um link clicável.</span>
+     Neste exemplo, &quot;Saiba mais&quot; vinculará ao URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` A URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir o URL completo e ele será um link clicável.
 
    ![Caixa de diálogo Adicionar regra de negócio](assets/add-business-rule-dialog-no-ai-button.png)
 

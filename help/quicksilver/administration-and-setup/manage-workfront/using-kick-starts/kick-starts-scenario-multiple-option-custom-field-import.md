@@ -3,22 +3,20 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Cenário de início: importar campos personalizados de várias opções para o Workfront"
+title: 'Cenário de início: importar campos personalizados de várias opções para o Workfront'
 description: Você pode importar campos personalizados com várias opções no Adobe Workfront usando a funcionalidade de Início.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
 
 # Cenário de inicializações: importar campos personalizados de várias opções para o Workfront
-
-{{highlighted-preview}}
 
 Você pode importar campos personalizados com várias opções no Adobe Workfront usando a funcionalidade de Início.
 
@@ -90,11 +88,7 @@ Para exportar dados existentes do Workfront:
 
 1. Selecione **Dados personalizados** na seção **O que incluir**.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Selecionar dados personalizados](assets/kickstarts-select-existing-data.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![Selecionar dados personalizados](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Escolha o arquivo **.xlsx** na seção **Formato de download**.
 
@@ -130,11 +124,7 @@ Depois de verificar as informações sobre os campos personalizados existentes n
 
 1. Na área **Baixar uma planilha em branco do Kickstart**, marque a caixa de seleção **Dados Personalizados** e clique em **Baixar**.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Selecionar dados personalizados](assets/kickstarts-select-existing-data.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![Selecionar dados personalizados](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Um arquivo em branco de início é baixado para o computador.
 

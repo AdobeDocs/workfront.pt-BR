@@ -7,16 +7,14 @@ description: O Adobe Workfront permite enviar mensagens rápidas e fáceis que n
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # Enviar mensagens diretas a outros usuários
-
-{{preview-fast-release-general}}
 
 O [!DNL Adobe Workfront] permite que você envie mensagens com rapidez e facilidade que não estejam relacionadas a nenhum item de trabalho diretamente para outros usuários do [!DNL Workfront]. As mensagens enviadas conforme descrito nesta seção aparecem na guia [!UICONTROL Atualizações] da página de perfil do usuário e estão visíveis para todos os usuários. Para obter informações adicionais sobre atualizações, consulte [Atualizar itens de trabalho e exibir atualizações: índice do artigo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -87,9 +85,7 @@ Essa opção só estará disponível se você tiver uma licença Standard, Plan 
 1. Selecione o(s) usuário(s) para o(s) qual(is) deseja enviar uma mensagem e clique em [!UICONTROL **Enviar Atualização ao Usuário**].
 1. Digite sua mensagem na janela [!UICONTROL Enviar atualização para o usuário].
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-
-   <span class="preview">![Usuário de mensagem na janela Enviar atualização para o usuário](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   ![Usuário de mensagem na janela Enviar atualização para o usuário](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. (Opcional) Procure usuários adicionais que deseja marcar na mensagem. Não é necessário marcar os usuários já selecionados na lista de usuários.
 1. (Opcional) Selecione **[!UICONTROL Particular para minha empresa]** para tornar esta mensagem visível somente para outros usuários em sua empresa.

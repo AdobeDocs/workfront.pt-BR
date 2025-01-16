@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # Organizar e visualizar um formulário
-
-{{preview-fast-release-general}}
 
 Você pode organizar um formulário personalizado com o designer do formulário e visualizá-lo para verificar se ele está configurado corretamente.
 
@@ -160,9 +158,8 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 
 1. (Opcional) Para posicionar um campo ou widget personalizado acima ou abaixo de outro, arraste-o para cima ou para baixo até que uma linha azul horizontal apareça entre os itens.
 
-1. Para mover um campo personalizado para outra seção no formulário, você pode arrastá-lo e soltá-lo no local, <span class="preview">ou clicar no ícone **Mover para** no campo e selecionar a seção para a qual movê-lo.</span>
+1. Para mover um campo personalizado para outra seção no formulário, você pode arrastá-lo e soltá-lo no local ou clicar no ícone **Mover para** no campo e selecionar a seção para onde movê-lo.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Mover campo para uma seção](assets/move-field-to-section.png)
 
 1. Para salvar as alterações, clique em **Aplicar**

@@ -6,16 +6,14 @@ description: A visibilidade dos objetos no Adobe Workfront depende do seu acesso
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Solicitar acesso a objetos
-
-{{preview-fast-release-general}}
 
 A visibilidade dos objetos no Adobe Workfront depende do seu acesso a esse tipo de objeto, bem como das suas permissões em um objeto individual.
 
@@ -102,11 +100,7 @@ Para solicitar acesso inicial a um objeto:
 1. Na lista suspensa, selecione o tipo de acesso que você está solicitando.
 1. (Opcional) No campo **P.S.**, especifique uma observação para o usuário sobre por que você precisa de acesso adicional.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Solicitar caixa de diálogo de acesso](assets/request-access-to-project.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -134,11 +128,8 @@ Para solicitar acesso adicional a um objeto ao qual você já tem acesso limitad
 1. (Opcional) No campo **PS.**, especifique uma observação sobre por que você precisa de acesso adicional.
 1. Clique em **Solicitar Acesso**.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   Imagem de exemplo no ambiente de Pré-visualização:
    ![Solicitar caixa de diálogo de acesso](assets/request-access-to-project.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarquia dos menus suspensos &quot;Solicitar acesso&quot; e &quot;Solicitar mais acesso&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

@@ -6,7 +6,7 @@ description: As pessoas devem ser adicionadas ao painel como membros antes de vi
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Adicionar ou remover membros de um quadro
 
-{{highlighted-preview}}
-
 Pessoas e equipes devem ser adicionadas ao painel como membros antes de visualizarem o painel.
 
-Por padrão, o criador de um quadro é o proprietário. O proprietário do painel é a única pessoa que pode excluir esse painel ou atualizar seus filtros no painel Configurar. <span class="preview">Somente um administrador do sistema ou o proprietário atual do painel pode alterar o proprietário do painel.</span>
+Por padrão, o criador de um quadro é o proprietário. O proprietário do painel é a única pessoa que pode excluir esse painel ou atualizar seus filtros no painel Configurar. Somente um administrador do sistema ou o proprietário atual do painel pode alterar o proprietário do painel.
 
 ## Requisitos de acesso
 
@@ -85,8 +83,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Você não pode remover o proprietário do painel.
 
-<div class="preview">
-
 ## Alterar o proprietário do quadro
 
 >[!NOTE]
@@ -104,5 +100,3 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    Somente um usuário pode ser o proprietário do quadro. Uma equipe não pode ser um proprietário.
 
 1. Clique em [!UICONTROL **Atualizar**].
-
-</div>

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1014'
 ht-degree: 7%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 7%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Como administrador do Adobe Workfront, você pode usar o exportador de dados Kick-Starts para exportar dados do Workfront. Você pode usá-lo em outros aplicativos depois de exportá-lo.
 
@@ -340,11 +338,7 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
 
    Você pode selecionar até 100 painéis e 100 relatórios em uma única exportação.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Exportação de kickstart](assets/kickstart-export-spreadsheet-options.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![Exportação de kickstart](assets/kickstart-export-350x381.png)
 
    É possível exportar vários objetos de uma só vez.
 
