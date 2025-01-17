@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão do quar
 
 >[!NOTE]
 >
->Versão de produção para todos os clientes: começando incrementalmente com a versão 24.10 (17 de outubro de 2024), disponibilidade total até 8 de novembro de 2024
+>Versão de produção para todos os clientes: incrementalmente, começando com a versão 24.10 (17 de outubro de 2024)
 
 Atualizamos a interface do relatório para corresponder ao design de outras áreas do Workfront. Essas atualizações incluem alterações adicionais nos recursos de relatórios do:
 

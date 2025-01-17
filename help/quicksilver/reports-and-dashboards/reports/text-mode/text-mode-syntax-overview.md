@@ -7,16 +7,16 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Visão geral da sintaxe do modo de texto
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 Você pode usar a interface do modo de texto para criar exibições, filtros, agrupamentos e prompts mais complexos em listas e relatórios. Ao usar o modo de texto, você pode acessar campos e seus atributos que não estão disponíveis na interface do modo padrão.
 
@@ -29,7 +29,7 @@ Para obter mais informações sobre como criar relatórios usando o modo de text
 ## Considerações sobre a sintaxe do modo de texto
 
 * Você deve entender a sintaxe do Adobe Workfront antes de começar a criar elementos de relatórios no modo de texto. A sintaxe do Workfront para o modo de texto é exclusiva desse aplicativo e tem características exclusivas que você deve conhecer.
-* Antes de começar a usar o modo de texto em seus relatórios, recomendamos que você faça nossas aulas sobre relatórios avançados para obter uma compreensão mais profunda da linguagem do modo de texto. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Antes de começar a usar o modo de texto em seus relatórios, recomendamos que você faça nossas aulas sobre relatórios avançados para obter uma compreensão mais profunda da linguagem do modo de texto.
 * É possível personalizar exibições, filtros e agrupamentos usando a interface do modo padrão. No entanto, é possível criar Solicitações personalizadas apenas usando o modo de texto.
 
 ## Diretrizes comuns para a criação de elementos de relatórios no modo de texto
@@ -44,13 +44,11 @@ As diretrizes a seguir são comuns ao criar qualquer elemento de relatório ou l
 
   **Exemplo:** Você pode exibir o nome ou GUID do Proprietário do Portfolio em uma exibição de tarefa:
 
-
   `valuefield=project:portfolio:ownerID`
 
   Não é possível agrupar, filtrar ou solicitar o Proprietário do Portfolio em uma exibição de tarefa:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   Nesses exemplos, a ID do proprietário do Portfolio está a três objetos de distância do objeto da lista.
 
@@ -90,7 +88,7 @@ Existem as seguintes semelhanças entre a sintaxe dos conjuntos de elementos de 
   Para obter informações sobre as linhas principais dos códigos para exibições e agrupamentos ao criá-los no modo de texto, consulte:
 
    * [Editar uma exibição usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Modo de edição de texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Editar um agrupamento usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * As linhas de código e sintaxe são semelhantes para filtros e prompts personalizados.
 

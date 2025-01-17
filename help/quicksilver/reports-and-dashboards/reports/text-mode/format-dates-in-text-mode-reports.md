@@ -6,14 +6,16 @@ description: As datas podem ser configuradas para serem exibidas em vários form
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Formatar datas em relatórios do modo texto
+
+<!-- Audited: 1/2025 -->
 
 As datas podem ser configuradas para serem exibidas em vários formatos em relatórios e listas no Adobe Workfront. Para estabelecer um formato de data, você deve modificar a linha `valueformat` do código do modo de texto na coluna.
 
@@ -33,13 +35,7 @@ valuefield=plannedCompletionDate
 
 Para obter mais informações sobre como aplicar formatação condicional nos relatórios e listas do Workfront usando o modo texto, consulte [Usar formatação condicional no Modo Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-É possível formatar datas usando o seguinte
-
-```
-valueformat
-```
-
- valores do modo texto:
+Você pode formatar datas usando os seguintes `valueformat` valores do modo de texto:
 
 | **Formato** | Exemplo  | ***valueformat=*** |
 |---|---|---|

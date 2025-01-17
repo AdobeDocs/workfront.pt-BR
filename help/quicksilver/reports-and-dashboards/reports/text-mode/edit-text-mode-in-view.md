@@ -2,24 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Editar uma visualização usando o modo de texto
-description: "OBSERVAÇÃO: adicione uma seção a este artigo: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Além disso, faça um rascunho desta área no artigo de visão geral do Modo de texto)"
+description: 'OBSERVAÇÃO: adicione uma seção a este artigo: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Além disso, faça um rascunho desta área no artigo de visão geral do Modo de texto)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Editar uma visualização usando o modo de texto
 
-<!--Audited: 01/2024-->
-
-<!--
-<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
--->
+<!-- Audited: 1/2025 -->
 
 É possível editar uma visualização em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar visualizações mais complexas.
 
@@ -27,23 +23,31 @@ ht-degree: 1%
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Padrão </p>
-   <p>Atual: Plano </p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a relatórios, painéis e calendários para editar elementos de relatórios em um relatório</p> </td> 
   </tr> 
   <tr> 
@@ -53,8 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
-Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +73,7 @@ Para obter mais informações, consulte:
 
 ## Modo de edição de texto em uma visualização
 
-A edição de uma visualização usando o modo de texto é idêntica para relatórios e listas. O acesso à visualização de um relatório ou de uma lista é diferente.
+A edição de uma visualização usando o modo de texto é idêntica para relatórios e listas. O acesso à visualização de um relatório ou de uma lista é diferente.
 
 >[!TIP]
 >

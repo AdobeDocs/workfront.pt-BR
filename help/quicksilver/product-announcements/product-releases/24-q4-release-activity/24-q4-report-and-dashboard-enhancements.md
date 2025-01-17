@@ -4,9 +4,10 @@ description: Melhorias no painel e no relatório do quarto trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
+source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >
 >Versão de produção para todos os clientes: com a versão 24.10 (17 de outubro de 2024)
 >
->_Disponível somente para organizações em um dos novos planos da Adobe Workfront. A Conexão de Dados está incluída no plano Ultimate ou pode ser adquirida como um complemento dos planos Prime e Select._
+>_Disponível somente para organizações em um dos novos planos da Adobe Workfront. A Conexão de Dados está incluída no plano do Ultimate e será disponibilizada para compra como um complemento dos planos Prime e Select no primeiro semestre de 2025._
 
 O Workfront Data Connect ficará disponível para clientes em um dos novos planos da Workfront. A Data Connect permite que as organizações acessem seus dados como um data lake seguro e escalável, que pode ser analisado e visualizado usando ferramentas de business intelligence ou armazenado externamente. Além disso, as organizações podem usar o Data Connect para exibir análises de dados que estavam indisponíveis anteriormente, como análise de tendências com base no tempo, mapeamento de variáveis e análise de dados de sistemas externos em combinação com dados do Workfront.
 

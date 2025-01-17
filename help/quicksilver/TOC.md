@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
 workflow-type: tm+mt
-source-wordcount: '14784'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -319,6 +319,8 @@ ht-degree: 2%
             * [Atividade de lançamento do Adobe Workfront Proof 23.3: Semana de 8 de maio de 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Atividade de lançamento do Workfront Proof: Semana de 17 de maio de 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Atividade de lançamento do Workfront Proof: Semana de 29 de novembro de 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+      * Modernização de interface {#interface-modernization}
+         * [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
       * Arquivo morto da versão trimestral {#quarterly-release}
          * [Arquivamento de versão trimestral](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * Versão 20.4 {#release-20-4}
@@ -1715,7 +1717,7 @@ ht-degree: 2%
          * [Visão geral da sintaxe do modo de texto](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
          * [Editar uma visualização usando o modo de texto](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
          * [Editar um filtro usando o modo de texto](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-         * [Modo de edição de texto em um agrupamento](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+         * [Editar um agrupamento usando o modo de texto](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
          * [Usar formatação condicional no Modo de texto](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
          * [Formatar datas em relatórios do modo texto](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
          * [Formatar números, valores de moeda e porcentagem em relatórios de modo de texto](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)

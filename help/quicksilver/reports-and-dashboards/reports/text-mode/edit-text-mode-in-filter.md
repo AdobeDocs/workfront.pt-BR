@@ -6,20 +6,16 @@ description: É possível editar um filtro em uma lista ou relatório usando o m
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Editar um filtro usando o modo de texto
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 É possível editar um filtro em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar filtros mais complexos.
 
@@ -29,7 +25,7 @@ Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-    <p>ou</p>
-    <p>Atual: Plano</p> </td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -56,7 +59,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,12 +87,20 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
 1. Siga um destes procedimentos:
 
-   1. Para acessar o filtro de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > guia **Filtros**.
-   1. Para acessar o filtro de uma lista, vá para a lista e, no menu **Filtro**, passe o mouse sobre o filtro que deseja modificar e clique no ícone ![](assets/edit-icon.png) de **Editar**.
+   Para acessar o filtro de uma lista, vá para a lista e clique no ícone **Filtro**, em seguida, passe o mouse sobre o filtro no painel lateral **Filtros** que você deseja modificar e clique no ícone ![](assets/edit-icon.png) **Editar**. O painel lateral **Filtros** exibe o filtro selecionado ou o construtor de filtros herdados abre.
 
-      O construtor de filtros é aberto.
+   OU
 
-1. Clique em **Adicionar uma Regra de Filtro** para começar a adicionar as condições do filtro e em **Modo de texto** ou **Alternar para Modo de texto** no lado direito do construtor.
+   Para acessar o filtro de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > guia **Filtros**.
+
+1. Siga um destes procedimentos:
+
+   Se você estiver usando o painel lateral **Filtros** em uma lista, clique em **Modo de texto**.
+
+   OU
+
+   Se você estiver usando o construtor de filtros herdados ou em um relatório, clique em **Adicionar uma Regra de Filtro** para começar a adicionar as condições de seu filtro. Em seguida, clique em **Alternar para o modo de texto** e depois em **Editar modo de texto** no lado direito do construtor.
+
 1. Adicione instruções de filtro usando o modo de texto. Cada declaração de filtro pode conter as seguintes linhas e informações adicionais:
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Clique em **Sair do modo de texto** ou **Concluído** para salvar suas alterações no modo de texto e continuar editando o relatório ou o filtro.
+1. Clique em **Aplicar** ou **Concluído** para salvar suas alterações no modo de texto e continuar editando o relatório ou filtro.
 1. Clique em **Salvar + Fechar** para salvar seu relatório ou em **Salvar Filtro** para salvar o filtro na lista.
 
 

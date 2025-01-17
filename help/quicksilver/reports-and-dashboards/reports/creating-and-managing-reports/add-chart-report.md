@@ -6,9 +6,9 @@ description: Você pode aprimorar seus relatórios adicionando um gráfico. É p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >[!TIP]
    >
    >* Você só pode adicionar um gráfico a um relatório quando os resultados do relatório são agrupados.
-   >* Os agrupamentos em modo de texto não são suportados em gráficos. Para obter mais informações sobre agrupamentos modo texto, consulte [Editar modo texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
+   >* Os agrupamentos em modo de texto não são suportados em gráficos. Para obter mais informações sobre agrupamentos modo texto, consulte [Editar um agrupamento usando o modo texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Se você adicionar um único agrupamento que representa uma métrica, todos os gráficos, exceto um gráfico de pizza, serão exibidos no agrupamento com a mesma cor.
 
    Para obter mais informações sobre como criar agrupamentos, consulte [Criar agrupamentos no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).

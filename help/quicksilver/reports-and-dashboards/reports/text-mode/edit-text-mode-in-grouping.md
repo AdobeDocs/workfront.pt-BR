@@ -1,23 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Modo de edição de texto em um agrupamento
-description: "NOTA: faça com que todos os artigos FVG sejam os mesmos para edição no modo texto)"
+title: Editar um agrupamento usando o modo de texto
+description: 'NOTA: faça com que todos os artigos FVG sejam os mesmos para edição no modo texto)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Modo de edição de texto em um agrupamento
+# Editar um agrupamento usando o modo de texto
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 É possível editar um agrupamento em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar agrupamentos mais complexos.
 
@@ -27,32 +25,45 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar agrupamentos em um relatório</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar agrupamentos em um relatório</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório para editar agrupamentos em um relatório</p> <p>Gerenciar permissões em um agrupamento para editá-lo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar agrupamentos em um relatório</p> <p>Gerenciar permissões em um agrupamento para editá-lo</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -64,7 +75,7 @@ Para obter mais informações, consulte:
 * [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Modo de edição de texto em um agrupamento
+## Editar um agrupamento usando o modo de texto
 
 A edição de um agrupamento usando o modo texto é idêntica para relatórios e listas. O acesso ao agrupamento a partir de um relatório ou de uma lista é diferente.
 
@@ -83,7 +94,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
       O construtor de agrupamento é aberto.
 
-1. Clique em **Adicionar agrupamento** para adicionar os agrupamentos e em **Alternar para modo de texto** no canto superior direito do construtor.
+1. Clique em **Adicionar agrupamento** para adicionar os agrupamentos, clique em **Alternar para modo de texto** no canto superior direito do construtor e em **Editar modo de texto**.
 
    >[!TIP]
    >
