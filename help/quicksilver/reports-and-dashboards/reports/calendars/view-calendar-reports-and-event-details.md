@@ -6,9 +6,9 @@ description: Você pode exibir relatórios de calendário e detalhes de eventos 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
+source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -56,21 +56,23 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Exibir um relatório de calendário
 
-{{step1-to-calendars}}
+<!--{{step1-to-calendars}}-->
 
-Dependendo do seu nível de acesso, você poderá ver os seguintes calendários listados:
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Calendários]**.
 
-* Seu calendário [!DNL Adobe Workfront] padrão
+   Dependendo do seu nível de acesso, você poderá ver os seguintes calendários listados:
 
-  O Workfront cria um calendário para você com base nos projetos, tarefas e problemas atribuídos a você ou atribuídos a equipes, grupos ou funções atribuídas a você.
+   * Seu calendário [!DNL Adobe Workfront] padrão
 
-* Calendários criados por você
+     O Workfront cria um calendário para você com base nos projetos, tarefas e problemas atribuídos a você ou atribuídos a equipes, grupos ou funções atribuídas a você.
 
-  Para saber mais sobre como criar calendários, consulte [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+   * Calendários criados por você
 
-* Calendários que outros usuários compartilharam com você
+     Para saber mais sobre como criar calendários, consulte [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-  Para saber mais sobre o compartilhamento de calendários, consulte [[!UICONTROL Compartilhar um calendário] relatório](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   * Calendários que outros usuários compartilharam com você
+
+     Para saber mais sobre o compartilhamento de calendários, consulte [[!UICONTROL Compartilhar um calendário] relatório](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Condicional) Clique no menu suspenso **[!UICONTROL Exibir]** e selecione a duração do calendário que deseja exibir.
    ![Duração do calendário](assets/view-menu-calendar-report-350x189.png)
