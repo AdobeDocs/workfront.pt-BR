@@ -101,7 +101,7 @@ O conector do Adobe Journey Optimizer usa o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">URL base</td> 
-   <td>{{connection.url}}</td> 
+   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
   </tr>
   <tr> 
    <td role="rowheader">Tag da API</td> 

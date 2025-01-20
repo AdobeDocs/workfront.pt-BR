@@ -99,7 +99,7 @@ O conector do Salesforce usa o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">URL base</td> 
-   <td> {{connection.instanceUrl}}</td>
+   <td> &lbrace;&lbrace;connection.instanceUrl&rbrace;&rbrace;</td>
   </tr> 
   <tr> 
    <td role="rowheader">Versão da API</td> 

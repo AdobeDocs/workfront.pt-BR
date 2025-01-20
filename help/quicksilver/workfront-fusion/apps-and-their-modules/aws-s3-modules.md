@@ -85,7 +85,7 @@ O conector AWS S3 usa o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">URL base</td> 
-   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.&lbrace;&lbrace;parameters.region&rbrace;&rbrace;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">Tag da API</td> 
