@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -44,15 +44,6 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ## Relatórios e painéis de controle
 
-### Modo de texto para filtros e agrupamentos
-
-**Versão de visualização: 9 de janeiro de 2025; Versão de produção: início em 9 de janeiro de 2025**
-
-Adicionamos um novo botão Editar modo de texto e um modal de edição às seguintes áreas:
-
-* Filtros legados
-* Agrupamento
-
 ### Relatórios de aprovação atualizados com novo estilo
 
 **Versão de visualização: 16 de janeiro de 2025; Versão de produção: a ser definida**
@@ -64,3 +55,12 @@ Atualizamos a interface dos seguintes relatórios de aprovação:
 * Relatório do processo de aprovação
 
 Essas atualizações incluem alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
+### Modo de texto para filtros e agrupamentos
+
+**Versão de visualização: 9 de janeiro de 2025; Versão de produção: início em 9 de janeiro de 2025**
+
+Adicionamos um novo botão Editar modo de texto e um modal de edição às seguintes áreas:
+
+* Filtros legados
+* Agrupamento

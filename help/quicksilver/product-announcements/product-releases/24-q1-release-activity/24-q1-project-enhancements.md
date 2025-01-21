@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >
 >Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento do versão 24.3 (março de 2024).
 >
->_Este recurso será removido da Visualização em 19 de dezembro de 2024 e da Produção de versão rápida com 25.1 (janeiro de 2025)._
+>_Este recurso foi removido da Pré-visualização e da Produção de versão rápida._
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 

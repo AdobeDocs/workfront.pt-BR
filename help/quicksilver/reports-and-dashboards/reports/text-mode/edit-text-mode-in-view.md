@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Editar uma visualização usando o modo de texto
-description: 'OBSERVAÇÃO: adicione uma seção a este artigo: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Além disso, faça um rascunho desta área no artigo de visão geral do Modo de texto)'
+description: É possível editar uma visualização em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar visualizações mais complexas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '459'
+ht-degree: 2%
 
 ---
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '2260'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -372,7 +372,7 @@ Você também pode [exibir um arquivo de PDF](https://acrobat.adobe.com/id/urn:a
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
                         </ul>
-                    <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
+                    <p><i>Esse recurso foi removido da Pré-visualização e da Produção de versão rápida.</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -390,7 +390,7 @@ Você também pode [exibir um arquivo de PDF](https://acrobat.adobe.com/id/urn:a
                                 <p>Produção para lançamento rápido: com o lançamento 24.5 (16 de maio de 2024)</p>
                             </li>
                         </ul>
-                    <p><i>Esse recurso será removido da Pré-visualização em 19 de dezembro de 2024 e da Produção de lançamento rápido com 25.1 (janeiro de 2025).</i></p>
+                    <p><i>Esse recurso foi removido da Pré-visualização e da Produção de versão rápida.</i></p>
                     </td>
                  </tr>
            </tbody>
