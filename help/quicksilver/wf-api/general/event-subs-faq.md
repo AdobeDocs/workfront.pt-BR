@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Entre em contato com o Suporte da Workfront. Para saber como entrar em contato c
 
 ## Que tipos diferentes de autenticação posso usar com as assinaturas de evento da Workfront?
 
-Você pode usar qualquer autenticação que use um token de portador. O campo **authToken** de uma assinatura é uma cadeia de caracteres que representa um token de portador OAuth2 usado para a autenticação com a URL especificada no campo **url**. Em teoria, esse valor de token pode ser qualquer coisa, desde que o endpoint de destino esteja ciente de como lidar com sua codificação, que é **utf-8**.
+Você pode usar qualquer autenticação que use um token de portador. O campo **authToken** de uma assinatura é uma cadeia de caracteres que representa um token de portador OAuth2 usado para a autenticação com a URL especificada no campo **url**. Em teoria, esse valor de token pode ter menos de 255 caracteres, desde que o ponto de extremidade de destino saiba como lidar com sua codificação, que é **utf-8**.
 
 ## Quanto tempo deve levar até que eu receba minha carga de evento das Assinaturas de Evento do Workfront?
 
