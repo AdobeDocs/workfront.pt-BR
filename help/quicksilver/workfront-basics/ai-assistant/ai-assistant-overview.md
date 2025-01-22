@@ -5,9 +5,9 @@ description: Visão geral do Assistente de IA
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,8 @@ Para habilitar o Assistente de IA para sua organização, **todos** dos itens a 
 * O Assistente do Workfront Planning AI tem recursos diferentes do Assistente do Workfront AI.
 
   Para obter mais informações sobre o Assistente de IA no Workfront Planning, consulte [Visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+* No momento, o Assistente de IA está disponível somente em inglês.
 
 
 ## Funcionalidade disponível no Assistente de IA
