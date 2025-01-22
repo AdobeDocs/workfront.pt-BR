@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 1%
+source-wordcount: '1550'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas ao Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
 >
->Para obter instruções sobre como conceder acesso completo de administrador na Adobe Admin Console, consulte [Gerenciar administradores do sistema na Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Para obter instruções sobre como conceder acesso completo de administrador na Adobe Admin Console, consulte [Gerenciar usuários na Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

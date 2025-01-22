@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,7 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
 
    Observe que o campo de registro vinculado **Campanha** exibe os nomes das campanhas vinculadas aos produtos na página Tipo de registro do produto. Atualizar as informações de Campanha atualiza automaticamente o campo de registro vinculado Campanha para o tipo de registro Produto.
 
-### Conectar registros do Adobe Workfront Planning a objetos do Workfront a partir da exibição de tabela ou da guia Detalhes da página de registro
+### Conectar registros do Adobe Workfront Planning a objetos do Workfront a partir da exibição de tabela ou da página de detalhes de um registro
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
 1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, clique em **+ Adicionar** para criar e adicionar um novo projeto ou portfólio.
 
-   Você só pode adicionar projetos sem um modelo ou portfólios ao conectá-los aos registros do Planning. Não é possível adicionar novos programas, grupos ou empresas.
+   Para obter informações, consulte [Criar objetos Workfront do Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. (Opcional) Clique em **Ver tudo** para exibir todos os objetos que você tem pelo menos permissões para exibir.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Criar registros
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Você pode criar registros seguindo um destes procedimentos:
 * [Duplicar registros de uma exibição de tabela](#create-records-by-duplicating-them)
 * [Criar registros ao conectá-los a partir de outros registros](#create-records-as-you-connect-them)
 * [Crie-os enviando um formulário de solicitação para um tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Criar registros ao importar tipos de registros de um arquivo CSV ou do Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+* [Criar registros ao importar tipos de registro de um arquivo CSV ou do Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 
 
 Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
@@ -233,34 +233,46 @@ Para obter informações sobre duplicação de registros, consulte [Duplicar reg
 
 ## Criar registros ao conectá-los
 
-É possível criar registros ou objetos Workfront ao conectá-los a partir de outros registros.
+Você pode criar os seguintes tipos de objeto ao conectá-los a partir de outros registros:
 
-Você deve ter as seguintes opções antes de adicionar novos registros ou objetos do Workfront, conectando-os a partir de registros existentes:
+* Registros do Workfront Planning
+* Objetos do Workfront
 
-* Tipos de registro conectados. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Registros conectados. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
-* O acesso e as permissões corretos no Workfront Planning e no Workfront, conforme descrito na seção [Requisitos de acesso](#access-requirements) deste artigo.
+Esta seção descreve como criar registros do Workfront Planning à medida que você os conecta a outros registros.
 
 >[!NOTE]
 >
 >A criação de projetos e portfólios do Workfront à medida que você os conecta aos registros do Workfront Planning é semelhante à criação de registros do Planning à medida que você os conecta a outros registros.
+>
+>Para obter informações sobre como criar objetos Workfront a partir do Workfront Planning, consulte [Criar objetos Workfront a partir do Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+Você deve ter as seguintes opções antes de adicionar novos registros, conectando-os a partir de registros existentes:
+
+* Tipos de registro conectados. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Registros.
+* O acesso e as permissões corretos no Workfront Planning e no Workfront, conforme descrito na seção [Requisitos de acesso](#access-requirements) deste artigo.
 
 Para criar registros ao conectá-los a partir de outros registros:
 
-1. Comece a conectar os registros do Workfront Planning, conforme descrito no artigo [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
-1. (Condicional) Se não conseguir localizar um registro ao tentar adicioná-lo do campo de registro conectado de outro registro, procure um registro e clique em **+ Adicionar**. O botão **+ Adicionar** é seguido pelo nome do tipo de registro do qual você está se conectando.
+1. Comece a conectar os registros do Workfront Planning, conforme descrito no artigo [Conectar registros](/help/quicksilver/planning/records/connect-records.md). Você pode conectar registros de um campo de conexão nas seguintes áreas do Workfront Planning:
+
+   * A exibição de tabela
+   * A página de detalhes ou a caixa de visualização de um registro
+
+1. (Condicional) Se não conseguir localizar um registro ao tentar adicioná-lo do campo de registro conectado de outro registro, procure um registro e clique em **+ Adicionar**. O botão **+ Adicionar** é seguido pelo nome do tipo de registro ao qual você está se conectando. Por exemplo, &quot;Adicionar marcas&quot; ao adicionar uma marca a uma campanha existente.
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    O registro é criado e adicionado ao campo de registro conectado.
 
-   >[!IMPORTANT]
-   >
-   >* Você pode criar somente projetos e portfólios no Workfront ao conectá-los a partir de um registro.
-   >
-   >* Não é possível criar programas, grupos ou empresas ao conectá-los a partir de um registro no Workfront Planning.
-   >
-   >* Não é possível criar um projeto a partir de um modelo ao criar projetos ao conectá-los a partir de um registro. Você deve adicionar manualmente tarefas e informações do projeto ou um modelo ao novo projeto depois de adicioná-lo ao registro.
+   <!--
+    >[!IMPORTANT]
+    >
+    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
+    >
+    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
+    >
+    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
 
 1. (Opcional) Vá para a exibição de tabela do tipo de registro cujo registro você criou. Um novo registro é exibido na última linha da exibição.
 1. (Opcional) Comece a adicionar informações para o novo registro na exibição de tabela
@@ -277,12 +289,9 @@ Tanto os usuários do Workfront quanto os usuários externos à sua organizaçã
 
 Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-<div class="preview">
-
 ## Criar registros ao importar tipos de registro de um arquivo CSV ou do Excel
 
 É possível importar registros ao importar tipos de registro usando um arquivo CSV ou do Excel.
 
 Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
-</div>

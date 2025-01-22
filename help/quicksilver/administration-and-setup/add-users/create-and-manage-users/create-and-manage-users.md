@@ -1,5 +1,5 @@
 ---
-title: "Criar e gerenciar usuários: índice de artigos"
+title: 'Criar e gerenciar usuários: índice de artigos'
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Esta seção contém os seguintes artigos:
 * [Logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [Exibir e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Exibir informações de logon do usuário](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [Gerenciar administradores de sistema no Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Gerenciar usuários na Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
