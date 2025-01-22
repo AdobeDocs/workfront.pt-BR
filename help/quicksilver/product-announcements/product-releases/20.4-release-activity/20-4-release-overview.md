@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3694'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -298,7 +298,7 @@ A maioria dos novos recursos chegando ao Workfront Goals versão 20.4. Para obte
 
 ## Aprimoramentos do Workfront Fusion
 
-Os novos recursos do Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 20.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+Os novos recursos do Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 20.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## Aprimoramentos na API
 

@@ -6,9 +6,9 @@ description: Se você estiver criando um projeto por meio do Workfront Fusion e 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Você deve ter o seguinte:
          <p>Selecione ou Prime Workfront Plan: sua organização deve comprar o Adobe Workfront Fusion.</p>
        </li>
        <li> 
-         <p>Plano Ultimate do Workfront: o Workfront Fusion está incluído.</p>
+         <p>Plano do Ultimate Workfront: o Workfront Fusion está incluído.</p>
        </li>
      </ul>
      <p>Ou</p>
@@ -93,7 +93,7 @@ No Workfront Fusion, se quiser criar um projeto que inclua fluxos de trabalho do
 1. Adicione o módulo **Workfront** > **Misc Action** ao seu cenário.
 1. No campo **Conexão**, selecione a conexão do Workfront que se conecta à conta que esse módulo usará.
 
-   Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
+   Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
 
    Para obter instruções sobre como criar a ID do cliente e o Segredo do cliente, será necessário criar uma conexão, consulte [Criar um aplicativo OAuth](#create-an-oauth-application) neste artigo.
 
@@ -175,4 +175,4 @@ Você deve configurar um aplicativo OAuth no Workfront para a conexão deste mó
 
 Você usará essa ID do cliente e o segredo do cliente ao configurar a conexão do módulo no Fusion.
 
-Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
+Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.

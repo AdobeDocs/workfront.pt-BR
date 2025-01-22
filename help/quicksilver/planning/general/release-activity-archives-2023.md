@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2985'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Produção: 21 de dezembro de 2023
 >
 >Sua organização deve comprar o Adobe Workfront Fusion para criar conexões com os recursos do Adobe Workfront Planning.
 >
->Para obter informações, consulte [visão geral do Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Para obter informações, consulte [visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Agora, você pode usar o Adobe Workfront Fusion para se conectar aos recursos de planejamento. Com a nova conexão do Fusion, é possível:
 
@@ -105,7 +105,7 @@ Agora, você pode usar o Adobe Workfront Fusion para se conectar aos recursos de
 
 * Acione um cenário quando uma alteração for feita nos recursos de planejamento
 
-Para obter mais informações, consulte [Módulos do Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+Para obter mais informações, consulte [Módulos do Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Semana de 11 de dezembro de 2023
 

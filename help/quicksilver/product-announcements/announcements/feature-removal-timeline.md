@@ -7,9 +7,9 @@ description: Vários recursos estão sendo removidos do produto Adobe Workfront.
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Vários recursos estão sendo removidos do produto Adobe Workfront. A seguir, um
    <td> <p>Não é mais compatível em 9 de novembro de 2020 (com a versão 20.4)</p> <p>—</p> <p>Removido da plataforma do Workfront após o primeiro semestre de 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront Fusion herdado</p> <p>O Workfront Fusion fornece uma experiência aprimorada do Workfront Fusion herdado.</p> <p>Para obter mais informações sobre o Workfront Fusion, consulte <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Workfront Fusion herdado</p> <p>O Workfront Fusion fornece uma experiência aprimorada do Workfront Fusion herdado.</p> <p>Para obter mais informações sobre o Workfront Fusion, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Removido da plataforma do Workfront em 31 de março de 2021</td> 
   </tr> 

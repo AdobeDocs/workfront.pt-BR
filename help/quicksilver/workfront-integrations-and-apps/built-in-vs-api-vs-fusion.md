@@ -7,9 +7,9 @@ title: Métodos de integração do Adobe Workfront
 description: Você pode integrar o [!DNL Adobe Workfront] com aplicativos de terceiros. Essas integrações podem estender a utilidade do  [!DNL Workfront]  e adaptá-lo às necessidades da sua organização. É possível usar qualquer uma ou todas essas integrações, dependendo do que for mais útil para uma determinada tarefa.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ As vantagens do [!DNL Workfront Fusion] podem incluir:
 >
 >![](assets/fusion-example-comment-350x416.png)
 
-Para obter mais informações sobre [!DNL Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion]](../workfront-fusion/workfront-fusion-2.md).
+Para obter mais informações sobre [!DNL Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).

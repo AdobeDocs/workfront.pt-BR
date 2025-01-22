@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2772'
+source-wordcount: '2773'
 ht-degree: 0%
 
 ---
@@ -741,7 +741,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos do Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Quarto Trimestre de 2023. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Novos recursos do Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Quarto Trimestre de 2023. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 

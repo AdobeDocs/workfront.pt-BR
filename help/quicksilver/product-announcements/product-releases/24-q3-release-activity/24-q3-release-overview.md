@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -499,7 +499,7 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos do Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do terceiro trimestre de 2024. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Novos recursos do Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do terceiro trimestre de 2024. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 

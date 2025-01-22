@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3271'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
@@ -666,18 +666,18 @@ As campanhas foram lançadas para Pré-visualização beta com a versão 22.3, e
     &lt;td>&lt;p>&lt;b>Disponível nestas datas:&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>Versão de visualização:&amp;#160;Durante o período de lançamento da versão 22.4&lt;br />&lt;/p>
+    &lt;p>Versão de visualização:&amp;#GenStudio for Performance Marketers&amp;-160;Durante todo o período de lançamento da versão 22.4&lt;br />&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>Versão de produção:&amp;#160;TBD&lt;/p>
+    &lt;p>Produção versão:&amp;#GenStudio for Performance Marketers&amp;-160;TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
-    &lt;/tr> 12}&lt;tr>
+    &lt;/tr>
+    &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Descrição ampliada da equipe&lt;/a>&lt;/p>
-    &lt;p>Na área Equipes, agora é possível visualizar a descrição completa da equipe clicando na descrição para exibi-la em uma janela pop-up. 
-     Qualquer URL na descrição pode ser clicado no pop-up, e você pode clicar no texto da descrição para editá-lo (se você tiver acesso para editar as configurações da equipe).&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Descrição expandida da equipe&lt;/a>&lt;/p>
+    &lt;p>Na área Equipes, você pode visualizar a descrição completa da equipe clicando em uma descrição para exibi-la. Qualquer URL na descrição pode ser clicado no pop-up, e você pode clicar no texto da descrição para editá-lo (se você tiver acesso para editar as configurações da equipe).&lt;/p>
     &lt;p>Anteriormente, rolar pela descrição em uma área estreita era a única maneira de ver todo o conteúdo.&lt;/p>
 <p>Esse aprimoramento na descrição se aplica a equipes ágeis e não ágeis.</p>
                     </td>
@@ -710,7 +710,7 @@ Com essa atualização, o Desktop Proofing Viewer suportará o Chrome versão 98
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 22.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 22.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Melhorias no Planejador de cenários do Workfront
 
