@@ -7,33 +7,20 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
 
 # Atividade da versão do primeiro trimestre de 2025 para o Adobe Workfront Planning
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->As informações neste artigo se referem ao Adobe Workfront Planning, uma nova oferta da Adobe Workfront.
->
->Você deve adquirir um plano do Workfront Planning, além de um plano do Workfront para poder acessar e usar os recursos do Workfront Planning.
->
->Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
->Para obter uma visão geral do Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Primeiro Trimestre de 2025.
 
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after First Quarter 2025 is released-->
 
-Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning após a versão de disponibilidade geral em 28 de agosto de 2024, consulte [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
+Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Agora os campos de conexão com ativos do Adobe Experience Manager são permitidos em formulários de solicitação
 

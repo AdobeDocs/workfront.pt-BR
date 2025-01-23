@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '2985'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,9 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
->[!IMPORTANT]
->
-><span class="preview">Este artigo lista os recursos que foram lançados durante a fase beta para o Workfront Planning, em 2023.</span>
->As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
->
->Você deve adquirir um plano do Workfront Planning, além de um plano do Workfront para poder acessar e usar os recursos do Workfront Planning.
->
->Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe](/help/quicksilver/planning/access/access-overview.md).
->Para obter uma visão geral do Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
+Este artigo lista os recursos que foram lançados durante a fase inicial do Workfront Planning, em 2023, antes do lançamento de disponibilidade geral em 28 de agosto de 2024.
 
-Para obter mais informações sobre a atividade de lançamento, consulte também os seguintes artigos:
-
-* [Atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) para obter informações sobre a atividade de versão atual do Workfront Planning.
-
-* [Atividade de versão do Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md) para obter informações sobre os recursos lançados durante 2024, antes da disponibilização geral em 28 de agosto de 2024.
+Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Cronograma da versão do Workfront Planning
 
