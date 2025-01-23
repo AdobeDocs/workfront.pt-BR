@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
-ht-degree: 3%
+source-wordcount: '2879'
+ht-degree: 2%
 
 ---
 
 # Gerenciar a exibição de tabela
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -397,13 +401,22 @@ Para adicionar um filtro a uma exibição de tabela:
 1. (Opcional) Clique em **Adicionar condição** para adicionar outra opção de filtragem e repita as etapas acima. O número de filtros aplicados é exibido à esquerda do ícone Filtros.
 1. Clique nos seguintes operadores para indicar como as condições de filtro são unidas e devem ser aplicadas:
 
-   * **And**: todas as condições especificadas devem ser atendidas.
-   * **Ou**: qualquer uma das condições especificadas deve ser atendida. Esta é a opção padrão.
+   * **AND**: todas as condições especificadas devem ser atendidas.
+   * **OU**: qualquer uma das condições especificadas deve ser atendida. Esta é a opção padrão.
+
+   <div class="preview">
+
+   1. (Opcional) Adicione operadores **AND** ou **OR** adicionais entre vários agrupamentos de condição.
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    A lista de registros é filtrada automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Opcional) Clique em **Filtros** e depois no ícone **x** para remover um filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
+1. (Opcional) Clique em **Filtros** para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Adicionar agrupamentos {#add-groupings}
 
