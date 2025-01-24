@@ -1,14 +1,14 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: "[!DNL Adobe Workfront] objetos visão geral"
-description: "As informações exibidas no  [!DNL Adobe Workfront]  são representadas por objetos armazenados no banco de dados do  [!DNL Workfront] . Os objetos são o que direciona as informações em  [!DNL Workfront]. Saiba mais sobre esses objetos neste artigo."
+title: Visão geral de [!DNL Adobe Workfront] objetos
+description: As informações exibidas em  [!DNL Adobe Workfront]  são representadas por objetos armazenados no banco de dados  [!DNL Workfront] . Os objetos são o que direciona as informações em  [!DNL Workfront]. Saiba mais sobre esses objetos neste artigo.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2424'
 ht-degree: 1%
 
 ---
@@ -283,7 +283,7 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o construtor de 
 * [!UICONTROL Iteração]
 * [!UICONTROL Função]
 * [!UICONTROL Entrada do diário]
-   * Você pode criar relatórios sobre atualizações de sistema rastreadas na área [!UICONTROL Atualizações] de objetos como tarefas, projetos, problemas, etc. Para obter mais informações, consulte [Relatório na área [!UICONTROL Atualizações]](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * Você pode criar relatórios sobre atualizações de sistema rastreadas na área [!UICONTROL Atualizações] de objetos como tarefas, projetos, problemas, etc. Para obter mais informações, consulte [Relatório na área Atualizações com um relatório de Entrada de Diário](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Modelo de layout]
 * [!UICONTROL Marco]

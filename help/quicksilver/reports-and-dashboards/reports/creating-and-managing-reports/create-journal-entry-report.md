@@ -1,18 +1,18 @@
 ---
-title: Relatório na área Atualizações
+title: Relatório sobre a Área Atualizações com um Relatório de Lançamento
 description: O relatório de Lançamento documentado revela atualizações de sistema da área Atualizações de projetos, tarefas, problemas e outros objetos que antes só estavam disponíveis por meio da API do Adobe Workfront. Embora este seja um relatório avançado destinado a casos de uso específicos, o formato mais simples facilita a criação de relatórios sobre atividades de projeto e atualizações de sistema no Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2767'
 ht-degree: 4%
 
 ---
 
-# Relatório na área Atualizações
+# Relatório na área Atualizações com um relatório de Lançamento
 
 <!-- Audited: 11/2024 -->
 

@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1095'
 ht-degree: 4%
 
 ---
@@ -345,4 +345,4 @@ O relatório permite visualizar:
 * Se a prioridade mudou durante um projeto
 * Se o proprietário de um projeto mudou
 
-Para obter mais informações, consulte [Relatório na área Atualizações](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Para obter mais informações, consulte [Relatório na área Atualizações com um relatório de Entrada de Diário](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

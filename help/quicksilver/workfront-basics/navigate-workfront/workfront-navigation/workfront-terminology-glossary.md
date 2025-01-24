@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '20931'
+source-wordcount: '20935'
 ht-degree: 0%
 
 ---
@@ -1168,7 +1168,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Entrada de Diário]</p> </td> 
-   <td> <p>Um objeto reportável que informa informações sobre atualizações do sistema para campos rastreados que aparecem na área [!UICONTROL Atualizações] de projetos, tarefas, problemas e outros objetos.</p> <p>Para saber mais, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Relatório na área [!UICONTROL Atualizações]</a>.</p> </td> 
+   <td> <p>Um objeto reportável que informa informações sobre atualizações do sistema para campos rastreados que aparecem na área [!UICONTROL Atualizações] de projetos, tarefas, problemas e outros objetos.</p> <p>Para saber mais, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Relatório na área Atualizações com um relatório de Entrada de Diário</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sinalizador Kanban]</td> 

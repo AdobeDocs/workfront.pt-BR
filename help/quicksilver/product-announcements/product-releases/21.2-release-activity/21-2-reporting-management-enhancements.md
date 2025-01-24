@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -80,5 +80,5 @@ Por exemplo, você pode configurar esse relatório para mostrar a atividade em t
 
 Anteriormente, só era possível relatar atualizações do sistema por meio da API do Workfront.
 
-Para saber mais sobre este relatório e como você pode usá-lo, consulte [Relatório na área Atualizações](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Para saber mais sobre este relatório e como você pode usá-lo, consulte [Relatório na área Atualizações com um relatório de Entrada de Diário](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

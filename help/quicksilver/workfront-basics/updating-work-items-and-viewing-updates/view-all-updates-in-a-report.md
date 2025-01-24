@@ -6,9 +6,9 @@ description: Exibir todas as atualizações em um relatório de Nota
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ A área Atualizações de um objeto exibe um número máximo de 200 atualizaçõ
 
 >[!NOTE]
 >
->Você pode criar um relatório para exibir atualizações em objetos na Pré-visualização com o relatório de Lançamento. Para obter mais informações, consulte [Relatório na área Atualizações](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>Você pode criar um relatório para exibir atualizações em objetos na Pré-visualização com o relatório de Lançamento. Para obter mais informações, consulte [Relatório na área Atualizações com um relatório de Entrada de Diário](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Requisitos de acesso
 
