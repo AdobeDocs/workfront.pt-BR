@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -246,13 +246,6 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL Casos de negócio] {#business-cases}
 
 Você pode criar um Business Case para projetos recém-criados em todo o sistema para enviar solicitações de projeto. Você pode definir preferências para determinar quais áreas estão visíveis no formulário **[!UICONTROL Business Case]**. Recomendamos que você ative essas opções para que outras ferramentas, como o [!UICONTROL Portfolio Otimizer], sejam atualizadas corretamente. Para obter mais informações sobre o que cada campo exibe, consulte [Definir um Business Case: índice de artigo](../../../manage-work/projects/define-a-business-case/define-business-case.md).
@@ -279,11 +272,12 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
    <td role="rowheader"> <p>[!UICONTROL Depois que um projeto é marcado como Concluído, Desativado ou com Aprovação pendente, as pessoas ainda podem]</p> </td> 
    <td> <p>Determine as regras da sua organização (ou grupo, se estiver configurando preferências de projeto para um grupo) em relação ao que acontece com tarefas, problemas, documentos e outros objetos em um projeto depois que o status do projeto é marcado como <strong>[!UICONTROL Concluído]</strong>, <strong>[!UICONTROL Desativado]</strong> ou está <strong>[!UICONTROL com Aprovação Pendente]</strong>.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Adicionar e editar tarefas]</strong> Permite aos usuários:
+     <li><strong>[!UICONTROL Adicionar e editar tarefas:]</strong> Permite aos usuários:
       <ul>
-       <li>Editar tarefas em um projeto depois que o projeto estiver marcado como [!UICONTROL Concluído], [!UICONTROL Desativado] ou estiver [!UICONTROL com Aprovação Pendente]. Isso inclui adicionar horas e alterar entradas de despesas em uma tarefa.</li>
+       <li><p>Editar tarefas em um projeto depois que o projeto estiver marcado como [!UICONTROL Concluído], [!UICONTROL Desativado] ou estiver [!UICONTROL com Aprovação Pendente].</p>
+           <p>Nota: Mesmo quando essa opção não está selecionada, os usuários podem adicionar e editar entradas de despesas. O registro de horas tem uma configuração separada. Para permitir ou impedir que os usuários registrem horas em projetos com status Concluído ou Inativo, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurar preferências de horas e folha de horas</a>.</p></li>
        <li>Adicionar tarefas a um projeto.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Adicionar e editar problemas]</strong>: Permite aos usuários:
       <ul>
        <li>Editar problemas em um projeto depois que ele for marcado como [!UICONTROL Concluído], [!UICONTROL Desativado] ou [!UICONTROL Com Aprovação Pendente].</li>
