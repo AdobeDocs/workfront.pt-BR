@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 1%
+source-wordcount: '807'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,65 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualização da interface para a página Funções de prova na configuração
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a aparência da página de funções de prova com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Em vez de selecionar botões de opção, agora você usa menus suspensos para escolher funções de prova para usuários novos e convidados.
+
+Para exibir essa alteração, acesse Configuração > Revisar e aprovar.
+
+### Atualização da interface para a página Lembretes automáticos em Configuração
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a página Lembretes automáticos com um design mais moderno e consistente com outras áreas do Workfront.
+Para visualizar esta página, acesse Configuração > Email > Lembretes automáticos.
+Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
+### Atualização da interface para a página Modelos de email em Configuração
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a página Modelos de email com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Em vez de clicar diretamente no nome do modelo para editá-lo, você deve marcar a caixa de seleção e clicar no ícone Editar na barra de ferramentas.
+
+Para visualizar esta página, acesse Configurar > Email > Notificações > Modelos de email.
+
+### Atualização da interface para a página de Convites por email na Configuração
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a página de Convites por email com um design mais moderno e consistente com outras áreas do Workfront.
+
+Para visualizar esta página, acesse Configuração > Email > Convites.
+
+Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
+### Atualizações de interface para a página Notificações de eventos em um Grupo
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a página Notificação de eventos em um Grupo com um design mais moderno e consistente com outras áreas do Workfront.
+
+Para visualizar esta página, vá para Configurar > Grupos > Selecionar um grupo > Notificações de eventos
+
+Esta atualização inclui pequenas alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
+
+### Atualizações de interface para a guia Notificações de lembrete em Configurar
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a guia Notificações de lembrete, bem como as caixas de diálogo Adicionar e Editar, com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Em vez de clicar diretamente no nome da notificação para editá-la, você deve marcar a caixa de seleção e clicar no ícone Editar na barra de ferramentas.
+
+Para visualizar esta página, acesse Configurar > Email > Notificações > Notificações de lembrete.
 
 ### Atualização de interface para a caixa de diálogo Adicionar Sharepoint
 
@@ -42,6 +101,17 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ## Relatórios e painéis de controle
 
+## Relatórios de email atualizados com um novo estilo
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a interface dos seguintes relatórios de email:
+
+* Relatório de modelo de email
+* Relatório de notificação de lembrete
+
+Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
 ### Relatório de iteração atualizado com novo estilo
 
 **Versão de visualização: 17 de janeiro de 2025; Versão de produção: a ser anunciada**
@@ -54,7 +124,7 @@ Para criar um relatório de Iteração, vá até Relatórios > Novo relatório >
 
 ### Relatórios de aprovação atualizados com novo estilo
 
-**Versão de visualização: 16 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 16 de janeiro de 2025; Versão de produção: iniciando a semana de 20 de janeiro de 2025**
 
 Atualizamos a interface dos seguintes relatórios de aprovação:
 
@@ -66,7 +136,7 @@ Essas atualizações incluem alterações visuais na área. Nenhuma funcionalida
 
 ### Modo de texto para filtros e agrupamentos
 
-**Versão de visualização: 9 de janeiro de 2025; Versão de produção: início em 9 de janeiro de 2025**
+**Versão de visualização: 9 de janeiro de 2025; Versão de produção: iniciando a semana de 6 de janeiro de 2025**
 
 Adicionamos um novo botão Editar modo de texto e um modal de edição às seguintes áreas:
 
