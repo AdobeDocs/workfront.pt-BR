@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ Para acessar sua sandbox de atualização personalizada usando um URL:
 
 1. Navegue até este URL se você tiver apenas uma Sandbox de Atualização Personalizada:
 
-   https://companyname.sb01.workfront.com (URL antiga:https://cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com` (URL antiga:`https://cr1.attasksandbox.com/`.)
 
    Ou Se você tiver duas Sandboxes de Atualização Personalizada, além das URLs acima, você também poderá acessar a seguinte URL para acessar sua segunda Sandbox de Atualização Personalizada:
 
-   https://companyname.sb02.workfront.com (URL antiga:https://cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com` (URL antiga:`https://cr2.attasksandbox.com/`)
 
 1. Na tela de logon, faça logon usando as credenciais da Sandbox de atualização personalizada.
 1. Suas credenciais de Sandbox de atualização personalizada são as mesmas de suas credenciais de produção, a menos que você tenha alterado suas credenciais de produção desde que sua Sandbox de atualização personalizada foi atualizada pela última vez. Os logons são sincronizados somente quando ocorre uma atualização. Eles não são sincronizados automaticamente.
@@ -137,15 +137,15 @@ Para acessar sua sandbox de atualização personalizada usando um URL:
 
 1. Navegue até este URL se você tiver apenas uma Sandbox de Atualização Personalizada:
 
-   https://companyname.sb01.workfront.com (URL antiga:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (URL antiga:`https://cr3.attasksandbox.com`)
 
    Ou
 
    Vá para um desses URLs se você tiver duas Sandboxes de Atualização Personalizada:
 
-   https://companyname.sb01.workfront.com (URL antiga:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (URL antiga:`https://cr3.attasksandbox.com`)
 
-   https://companyname.sb02.workfront.com (URL antiga:https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com` (URL antiga:`https://cr4.attasksandbox.com`)
 
 1. Na tela de logon, faça logon usando as credenciais da Sandbox de atualização personalizada.
 
