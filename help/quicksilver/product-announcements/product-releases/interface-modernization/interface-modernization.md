@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ Para visualizar esta página, vá para Configurar > Grupos > Selecionar um grupo
 
 Esta atualização inclui pequenas alterações visuais na área. Nenhuma funcionalidade foi alterada.
 
-
 ### Atualizações de interface para a guia Notificações de lembrete em Configurar
 
 **Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
@@ -99,9 +98,21 @@ Atualizamos as listas de Aprovação de projetos, tarefas e problemas em Configu
 
 Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
 
+## Ágil
+
+### Atualização de interface para a lista de iterações
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a lista Equipes > Iterações com um design mais moderno e consistente com outras áreas do Workfront.
+
+Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
+Para visualizar esta alteração, vá para Equipes > escolha uma equipe > Iterações.
+
 ## Relatórios e painéis de controle
 
-## Relatórios de email atualizados com um novo estilo
+### Relatórios de email atualizados com um novo estilo
 
 **Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
 
@@ -114,7 +125,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ### Relatório de iteração atualizado com novo estilo
 
-**Versão de visualização: 17 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 17 de janeiro de 2025; Versão de produção: iniciando a semana de 20 de janeiro de 2025**
 
 Atualizamos o relatório Iteração com um design mais moderno e consistente com outras áreas do Workfront.
 

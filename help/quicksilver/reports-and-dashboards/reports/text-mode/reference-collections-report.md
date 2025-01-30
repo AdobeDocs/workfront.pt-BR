@@ -6,14 +6,16 @@ description: Coleções de referência em um relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
 
 # Coleções de referência em um relatório
+
+<!-- Audited: 1/2025 -->
 
 Criar um relatório no Adobe Workfront permite exibir um conjunto de objetos, seus respectivos campos ou objetos vinculados em um formato de lista, grade ou gráfico.
 
@@ -23,32 +25,41 @@ Para obter mais informações sobre como criar um relatório no Workfront, consu
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a relatórios, painéis, calendários</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Gerenciar permissões para uma exibição, filtro ou agrupamento </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Gerenciar permissões para uma exibição, filtro ou agrupamento </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,8 +139,9 @@ Por exemplo, você pode mostrar informações de tarefas ou problemas em um rela
 
 Você pode exibir informações sobre as tarefas ou problemas, como nomes, datas, principais atribuídos, percentual concluído etc. na exibição de coleção.
 
-A exibição mostra informações de tarefas ou problemas em um formato de lista, com cada linha da lista representando informações sobre uma tarefa ou um problema. A lista de tarefas ou problemas e seus campos aparecem na mesma linha do projeto ao qual as tarefas ou problemas pertencem.\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+A exibição mostra informações de tarefas ou problemas em um formato de lista, com cada linha da lista representando informações sobre uma tarefa ou um problema. A lista de tarefas ou problemas e seus campos aparecem na mesma linha do projeto ao qual as tarefas ou problemas pertencem.
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Adicionar uma coluna de coleção em uma Exibição de relatório](#add-a-collection-column-in-a-report-view)
 * [Entender as linhas de uma Exibição de coleção no Modo de Texto](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
 1. Selecione o objeto do relatório.
 1. Saia do seu relatório e, usando o [API Explorer](../../../wf-api/general/api-explorer.md), determine quais coleções estão disponíveis para o objeto selecionado para o seu relatório.
 
-   Para obter mais informações sobre como selecionar o objeto de sua coleção, consulte a seção [Localizar objetos de coleção e seus campos no API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) neste artigo.\
+   Para obter mais informações sobre como selecionar o objeto de sua coleção, consulte a seção [Localizar objetos de coleção e seus campos no API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) neste artigo.
+
    Anote qual é o nome do objeto da coleção.
 
 1. Usando o [API Explorer](../../../wf-api/general/api-explorer.md), vá para a lista de campos do objeto que deseja exibir na coleção.
@@ -155,7 +168,7 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
 
 1. Volte para o relatório e, na guia **Colunas (Exibição)**, clique em **Adicionar Coluna**.
 1. Clique em **Alternar para Modo de Texto**.
-1. Passe o mouse sobre a caixa de diálogo e clique em **Clique para editar texto**.
+1. Clique em **Editar Modo de Texto**.
 1. Selecione todo o texto na caixa de diálogo **Modo de Texto** e remova-o e cole o seguinte código se estiver fazendo referência a um campo do objeto de coleção:
 
    ```
@@ -223,7 +236,7 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
 
 1. A coluna a seguir é exibida no relatório de projeto, listando todas as tarefas em cada projeto junto com seus atribuídos principais:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Clique em **Salvar**.
 1. (Opcional) Continue editando o relatório.
@@ -311,7 +324,7 @@ Para adicionar uma referência a uma coleção em um filtro de relatório:
 
    Anote o campo que deseja exibir na coleção.
 
-1. Volte para o seu relatório e, na guia **Filtros**, clique em **Alternar para o Modo de Texto**.
+1. Volte para o seu relatório e, na guia **Filtros**, clique em **Alternar para Modo de Texto** e depois em **Editar Modo de Texto**.
 
 1. Na área **Definir regras de filtro para seu Relatório**, cole o seguinte código:
 
@@ -337,7 +350,7 @@ Para adicionar uma referência a uma coleção em um filtro de relatório:
 
    Esse relatório só exibe projetos que tenham pelo menos uma tarefa com a palavra &quot;marketing&quot; no nome.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Para filtrar o nome de um problema, use o seguinte código:
 
@@ -391,7 +404,7 @@ Para adicionar uma referência a uma coleção no prompt personalizado de um rel
    ```
 
 1. (Opcional) Especifique se essa opção é exibida por padrão no prompt.
-1. Substitua o **nome do objeto de coleção** pelo nome do objeto de coleção como ele aparece no [API Explorer](../../../wf-api/general/api-explorer.md). Normalmente, esse valor é a forma plural do nome do objeto da coleção.
+1. Substitua o **nome do objeto de coleção** pelo nome do objeto de coleção como ele aparece no [API Explorer](../../../wf-api/general/api-explorer.md). Normalmente, esse valor é a forma plural do nome do objeto da coleção.
 1. Substitua o **campo do objeto de coleção** pelo nome do campo do seu objeto de coleção, como ele aparece no [API Explorer](../../../wf-api/general/api-explorer.md).
 1. Substitua o **valor do objeto de coleção** pelo valor do objeto de coleção como ele aparece no Workfront.
 
@@ -399,7 +412,7 @@ Para adicionar uma referência a uma coleção no prompt personalizado de um rel
 
 1. Substitua **o valor do modificador** por um modificador válido.
 
-   Para obter uma lista de modificadores, consulte  [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Para obter uma lista de modificadores, consulte [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Exemplo:** Por exemplo, para criar um relatório de projeto com um prompt personalizado no qual você deseja exibir somente projetos que tenham pelo menos uma tarefa atribuída a um usuário específico, use o código abaixo:
 
@@ -423,7 +436,7 @@ Para adicionar uma referência a uma coleção no prompt personalizado de um rel
 
    >[!NOTE]
    >
-   >Observe que você deve usar **problemas** para o nome do objeto da coleção. O API Explorer  O não oferece um nome de objeto de coleção para problemas no momento.
+   >Observe que você deve usar **problemas** para o nome do objeto da coleção. No momento, a API Explorer não oferece um nome de objeto de coleção para problemas.
 
 1. Clique em **Concluído**.
 1. (Opcional) Continue editando o relatório.

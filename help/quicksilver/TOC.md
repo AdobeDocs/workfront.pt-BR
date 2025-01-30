@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '13013'
+source-wordcount: '13017'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 2%
       * [Preparar-se para uma versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versão do segundo trimestre de 2025 {#release-25-q2}
          * [Visão geral da versão do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
-         * [Outras melhorias durante o período da versão do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+         * [Aprimoramentos do administrador do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+         * [Outras melhorias durante o período da versão do Segundo Trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+           <!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
       * Versão do primeiro trimestre de 2025 {#release-25-q1}
          * [Visão geral da versão do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [Aprimoramentos do administrador no primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
