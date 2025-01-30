@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 2%
+source-wordcount: '784'
+ht-degree: 1%
 
 ---
 
 # Compartilhar espaços de trabalho
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -173,9 +177,13 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. No campo **Conceder acesso ao espaço de trabalho**, comece digitando o nome de um usuário ou grupo e clique nele quando ele for exibido na lista.
+1. No campo **Conceder acesso ao espaço de trabalho**, comece digitando o nome de um usuário, grupo, <span class="preview">equipe, empresa ou função de trabalho</span> e clique nele quando ele for exibido na lista.
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. Selecione um dos seguintes níveis de permissão no menu suspenso:
    * Exibir
@@ -221,7 +229,7 @@ Na notificação por email, clique em **Exibir todas as notificações** e cliqu
 {{step1-to-planning}}
 
 1. Abra o espaço de trabalho para o qual você deseja remover permissões e clique em **Compartilhar** no canto superior direito da tela.
-1. Clique no menu suspenso à direita do nome de um usuário ou grupo e clique em **Remover**.
+1. Clique no menu suspenso à direita do nome de uma entidade com a qual você está compartilhando o espaço de trabalho e clique em **Remover**.
 1. Clique em **Salvar**.
 
-   O usuário ou os usuários que pertencem ao grupo removido não têm mais acesso ao espaço de trabalho ou a seus objetos.
+   Os usuários removidos não terão mais acesso ao espaço de trabalho ou a seus objetos.

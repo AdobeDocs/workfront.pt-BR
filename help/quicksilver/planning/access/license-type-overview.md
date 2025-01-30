@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
 
 
 # Visão geral do tipo de licença ao usar o Adobe Workfront Planning
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -68,7 +72,7 @@ Os administradores do sistema podem exibir todos os espaços de trabalho no sist
 >
 >Há uma indicação na caixa de compartilhamento de que os usuários não podem receber permissões para contribuir ou gerenciar um espaço de trabalho quando possuem uma licença de nível inferior, pois esses níveis de permissões estão esmaecidos.
 >
->![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
 
 
 ### Tipos de licença e permissões de exibição
@@ -83,4 +87,4 @@ Somente os usuários com uma licença Standard podem ter permissões de gerencia
 >
 >Há uma indicação na caixa de compartilhamento de que os usuários não podem receber permissões para gerenciar uma exibição quando têm uma licença de nível inferior, pois esses níveis de permissão estão esmaecidos.
 >
->![](assets/permissions-grayed-out-for-light-user.png)
+><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>

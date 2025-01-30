@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
@@ -140,13 +140,21 @@ Considere o seguinte:
 
    A visualização do registro é aberta na exibição.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A página de registro é aberta.
 
-   ![](assets/details-page.png)
+   <!--<div class="preview">
+
+    ![](assets/details-page.png)
+
+    </div>-->
 
 1. Na página de visualização ou detalhes do registro, passe o mouse sobre o espaço acima do nome do registro e clique em **Adicionar capa**.
 

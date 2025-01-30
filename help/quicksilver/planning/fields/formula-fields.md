@@ -6,16 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 7%
+source-wordcount: '664'
+ht-degree: 8%
 
 ---
 
 # Visão geral dos campos de fórmula
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -175,9 +179,26 @@ OLD:
 
 ## Fórmulas compatíveis
 
-Os campos de fórmula do Adobe Workfront Planning aceitam todas as expressões dos campos calculados do Workfront. Para obter uma lista de expressões Workfront, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Os campos de fórmula do Adobe Workfront Planning suportam a maioria das expressões dos campos calculados do Workfront.
 
-Além disso, oferecemos suporte às seguintes expressões para campos de fórmula do Workfront Planning:
+<!-- make the note available when WF releases the expressions listed in it: 
+
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+-->
+
+Para obter uma lista completa de expressões Workfront, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+Além disso, oferecemos suporte às seguintes expressões para os campos de fórmula do Workfront Planning. As seguintes expressões não são suportadas para expressões Workfront:
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,6 +211,21 @@ Além disso, oferecemos suporte às seguintes expressões para campos de fórmul
  </thead> 
  <tbody>
 
+<tr>
+   <td><strong>MATRIZ</strong> </td>
+   <td> <p>Converte uma string em uma matriz. O delimitador pode ser qualquer string.</p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>Retorna o elemento no número especificado na matriz. Se o índice estiver fora dos limites, ele retornará vazio.</p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
 <tr> 
    <td><strong>JUNÇÃO DE MATRIZ</strong> </td> 
    <td> <p>Retorna a string concatenada por delimitador.</p> <p>A expressão é formatada da seguinte maneira:
@@ -197,6 +233,12 @@ Além disso, oferecemos suporte às seguintes expressões para campos de fórmul
 <code>ARRAYJOIN(delimitador,matriz)</code>
 </p>
    </td></tr>
+  <tr>
+   <td><strong>COMPRIMENTOARRAY</strong> </td>
+   <td> <p>Retorna o número de elementos na matriz e é formatado da seguinte maneira:</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 

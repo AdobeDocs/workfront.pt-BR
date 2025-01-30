@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
 
 
 # Compartilhar exibições
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -31,7 +35,7 @@ Você pode compartilhar uma exibição com outras pessoas para garantir a colabo
 
 Você pode compartilhar uma exibição com as seguintes entidades:
 
-* Internamente, com usuários e grupos do Workfront
+* Internamente, com usuários, grupos, <span class="preview">equipes, empresas e funções de trabalho da Workfront</span>
 * Publicamente, com usuários fora do Workfront
 
 <!--
@@ -182,7 +186,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Compartilhar permissões para uma exibição internamente
 
-Você pode compartilhar com usuários ou grupos no Workfront os modos de exibição que criou ou os modos de exibição aos quais tem permissões de gerenciamento.
+Workfront Você pode compartilhar com usuários, grupos, <span class="preview">equipes, empresas e funções de trabalho</span> os modos de exibição que criou ou os modos de exibição aos quais tem permissões de gerenciamento.
 
 >[!NOTE]
 >
@@ -204,12 +208,16 @@ Você pode compartilhar com usuários ou grupos no Workfront os modos de exibiç
 
 1. (Opcional) Na área **Quem tem acesso**, selecione uma das seguintes opções:
 
-   * **Somente pessoas convidadas podem acessar**: você deve especificar os usuários ou grupos com os quais deseja compartilhar a exibição. Esta é a opção padrão.
+   * **Somente pessoas convidadas podem acessar**: você deve especificar usuários, grupos, <span class="preview">equipe, empresa ou função de trabalho</span> com os quais deseja compartilhar a exibição. Esta é a opção padrão.
    * **Todos no espaço de trabalho podem exibir**: todos os usuários que têm permissões de Exibição ou superiores para espaços de trabalho podem acessar a exibição.
 
-1. No campo **Conceder acesso de exibição a**, comece digitando o nome de um usuário ou grupo e clique nele quando ele for exibido na lista.
+1. No campo **Conceder acesso de exibição a**, comece digitando o nome de um usuário, grupo, <span class="preview">equipe, empresa ou função de trabalho</span> e clique nele quando ele for exibido na lista.
+
+   <div class="preview">
 
    ![](assets/sharing-a-view-ui-with-groups.png)
+
+   </div>
 
 1. Selecione um dos seguintes níveis de permissão no menu suspenso:
    * Exibir
@@ -308,7 +316,7 @@ Na notificação por email, clique em **Exibir todas as notificações** e cliqu
 1. Para remover o compartilhamento interno de uma exibição, faça o seguinte:
 
    1. Verifique se a guia **Compartilhamento interno** está selecionada.
-   1. Localize o usuário ou grupo o que deseja remover, expanda o menu suspenso de permissões à direita do nome do usuário ou grupo e clique em **Remover**.
+   1. Localize o usuário, grupo, <span class="preview">equipe, empresa ou função de trabalho</span> o que deseja remover, expanda o menu suspenso de permissões à direita do nome da entidade com a qual você está compartilhando o modo de exibição e clique em **Remover**.
 
 1. Para remover o compartilhamento público de uma exibição, faça o seguinte:
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Gerenciar o layout da página de registros
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -161,7 +161,11 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
    A visualização do registro é aberta na exibição.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png)  
+
+    </div>-->
 
 1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
@@ -240,13 +244,21 @@ As seguintes situações ocorrem:
 
    A visualização do registro é aberta na exibição.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A guia **Detalhes** do registro é aberta por padrão.
 
+   <!--<div class="preview">
+
    ![](assets/details-page.png)
+
+   </div>-->
 
 1. Na guia **Detalhes** do registro, clique no ícone ![](assets/grab-icon.png) de **captura** à esquerda de um nome de campo, em seguida, arraste e solte-o no local desejado. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
