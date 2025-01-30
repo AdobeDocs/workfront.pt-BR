@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,9 @@ Para criar registros ao conectá-los a partir de outros registros:
    * A exibição de tabela
    * A página de detalhes ou a caixa de visualização de um registro
 
-1. (Condicional) Se não conseguir localizar um registro ao tentar adicioná-lo do campo de registro conectado de outro registro, procure um registro e clique em **+ Adicionar**. O botão **+ Adicionar** é seguido pelo nome do tipo de registro ao qual você está se conectando. Por exemplo, &quot;Adicionar marcas&quot; ao adicionar uma marca a uma campanha existente.
+1. (Condicional) Se não conseguir localizar um registro ao tentar adicioná-lo do campo de registro conectado de outro registro, procure um registro e clique em **+ Adicionar**. O botão **+ Adicionar** é seguido pelo nome do tipo de registro ao qual você está se conectando. Por exemplo, &quot;Adicionar marcas&quot; ao adicionar uma marca a uma campanha existente. O nome digitado também segue o botão Adicionar.
+
+   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 

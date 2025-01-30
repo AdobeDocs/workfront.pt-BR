@@ -6,14 +6,16 @@ description: O Modo de rastreamento de uma tarefa determina como o Status de pro
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 2%
+source-wordcount: '215'
+ht-degree: 3%
 
 ---
 
 # Definir modo de rastreamento para tarefas
+
+<!--Audited: 01/2025-->
 
 O Modo de rastreamento de uma tarefa determina como o Status de progresso da tarefa é atualizado no Adobe Workfront.
 
@@ -21,28 +23,58 @@ Para obter informações sobre o Modo de Acompanhamento nas tarefas, consulte [V
 
 ## Requisitos de acesso
 
-<!--drafted for P&P - replace the table:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Novo: Padrão</p> 
+   Ou
+   <p>Atual: trabalho ou superior</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a tarefas </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Gerenciar permissões em uma tarefa</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--old: 
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan/td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks </p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
+   <td> <p>Edit access to Tasks </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -50,34 +82,10 @@ Para obter informações sobre o Modo de Acompanhamento nas tarefas, consulte [V
   </tr> 
  </tbody> 
 </table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
 -->
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a>*</td> 
-   <td> <p>Qualquer</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças do Adobe Workfront</a>*</td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a tarefas </p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças do Adobe Workfront</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões em uma tarefa</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 ## Definir modo de rastreamento para tarefas
 

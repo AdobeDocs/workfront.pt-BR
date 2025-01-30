@@ -6,14 +6,16 @@ description: Os riscos são eventos ou fatores possíveis que impedem a conclus�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
 # Criar e editar riscos em projetos
+
+<!--Audited: 01/2025-->
 
 Os riscos são eventos ou fatores possíveis que impedem a conclusão de um projeto no prazo ou dentro do orçamento. Os riscos podem ser registrados como parte da criação do Business Case de um projeto ou usando a guia Riscos. Os riscos são criados somente em um projeto. Não é possível associar riscos a tarefas ou problemas.
 
@@ -27,30 +29,35 @@ Os riscos podem ser associados ao custo, mas o Custo Efetivo do Risco não afeta
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Novo: Padrão </p>
+   <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos e Dados Financeiros</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a Projetos e Dados Financeiros</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p> Gerencie permissões que incluem Gerenciar finanças no projeto para o qual você deseja criar ou editar riscos </p> <p>Para obter mais informações sobre permissões de projeto, consulte o artigo <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> </td> 
+   <td> <p> Gerencie permissões que incluem Gerenciar finanças no projeto para o qual você deseja criar ou editar riscos </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Criar e editar riscos no Business Case
 

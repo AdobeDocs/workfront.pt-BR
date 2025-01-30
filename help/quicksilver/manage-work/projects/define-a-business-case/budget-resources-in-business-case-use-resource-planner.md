@@ -5,14 +5,16 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Estimativa de recursos no Business Case usando o Planejador de recursos
+
+<!--Audited: 01/2025-->
 
 Como parte do planejamento de recursos, você pode usar o Planejador de recursos no nível do projeto para fazer o orçamento das funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o business case.
 
@@ -26,37 +28,47 @@ Você também pode estimar recursos no business case usando o Planejador de cen�
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
+Você deve ter o seguinte para executar as etapas deste artigo:
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a>*</td> 
-   <td> <p>Pro ou superior</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Prime ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças do Adobe Workfront</a>*</td> 
-   <td> <p>Revisar ou superior</p> <p>Importante: é necessário ter uma licença de Plano para modificar as informações de orçamento de recursos. </p> </td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Novo: Claro ou superior</p>
+   <p>Atual: revisão ou superior</p>
+
+<p><b>IMPORTANTE:</b></p> 
+   <p>Novo: Você deve ter uma licença Padrão para modificar informações de orçamento de recursos. </p> 
+   <p>Atual: Você deve ter uma licença de Plano para modificar informações de orçamento de recursos. </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso ao seguinte: </p> 
     <ul> 
      <li> <p>Projetos</p> </li> 
      <li> <p>Gerenciamento de recursos</p> </li> 
      <li> <p>Dados financeiros</p> </li> 
-    </ul> <p>Para obter informações sobre o acesso necessário aos recursos de orçamento, consulte também <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Acesso necessário aos recursos de orçamento no Adobe Workfront</a>.</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Adobe Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões no projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões no projeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
