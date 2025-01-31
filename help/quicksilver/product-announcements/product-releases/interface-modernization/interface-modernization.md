@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,16 @@ Para todas as outras alterações no Adobe Workfront, consulte [Versões do prod
 
 ## Administração e configuração
 
+### Atualização de interface para a área Aprovações em Configurar > Grupos
+
+**Versão de visualização: 30 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos as listas de Aprovação de projetos, tarefas e problemas em Configurar > Grupos > Aprovações com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Para visualizar esta alteração, acesse Configuração > Grupos > Aprovações.
+
+Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
 ### Atualização da interface para a página Funções de prova na configuração
 
 **Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
@@ -36,7 +46,7 @@ Para exibir essa alteração, acesse Configuração > Revisar e aprovar.
 
 ### Atualização da interface para a página Lembretes automáticos em Configuração
 
-**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos a página Lembretes automáticos com um design mais moderno e consistente com outras áreas do Workfront.
 Para visualizar esta página, acesse Configuração > Email > Lembretes automáticos.
@@ -44,7 +54,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ### Atualização da interface para a página Modelos de email em Configuração
 
-**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos a página Modelos de email com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -74,7 +84,7 @@ Esta atualização inclui pequenas alterações visuais na área. Nenhuma funcio
 
 ### Atualizações de interface para a guia Notificações de lembrete em Configurar
 
-**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos a guia Notificações de lembrete, bem como as caixas de diálogo Adicionar e Editar, com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -92,7 +102,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ### Atualização de interface para a área Aprovações na Configuração
 
-**Versão de visualização: 16 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 16 de janeiro de 2025; Versão de produção: iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos as listas de Aprovação de projetos, tarefas e problemas em Configurar > Processos > Aprovações com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -110,7 +120,28 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 Para visualizar esta alteração, vá para Equipes > escolha uma equipe > Iterações.
 
+### Adicionar histórias e problemas do backlog
+
+**Versão de visualização: 30 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a caixa de diálogo Adicionar história e Adicionar problema com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
+Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de pendências e clique em **Nova história** ou **Novo problema**.
+
 ## Relatórios e painéis de controle
+
+### Relatório de equipe atualizado com novo estilo
+
+**Versão de visualização: 30 de janeiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos o Relatório de equipe com um design mais moderno e consistente com outras áreas do Workfront.
+
+Esta atualização inclui alterações visuais no relatório. Nenhuma funcionalidade foi alterada.
+
+Para criar um relatório de Equipe, vá até Relatórios > Novo relatório > Equipe.
+
 
 ### Relatórios de email atualizados com um novo estilo
 

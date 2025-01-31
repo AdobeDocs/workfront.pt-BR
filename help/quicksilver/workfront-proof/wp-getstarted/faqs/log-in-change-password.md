@@ -8,9 +8,9 @@ description: O administrador do Workfront Proof pode configurar uma marca person
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Efetuando Login
 
-1. Vá para [a página de logon](https://www.proofhq.com/login) (ou para nosso site em [www.proofhq.com](https://www.proofhq.com/)).
+1. Vá para [a página de logon](https://app.proofhq.com/login).
 
 1. Clique no botão [!UICONTROL logon] na parte superior direita.
 1. Digite seu endereço de e-mail e senha.\
@@ -46,7 +46,7 @@ Para os planos da [!UICONTROL Empresa] e do [!UICONTROL Ilimitado], oferecemos o
 
 Se você esquecer a senha, poderá receber por email do [!DNL Workfront Proof] uma mensagem de email de redefinição.
 
-1. Vá para [a página de logon](https://www.proofhq.com/login) (ou para nosso site em [www.proofhq.com](https://www.proofhq.com/)).
+1. Vá para [a página de logon](https://app.proofhq.com/login).
 
 1. Clique em **[!UICONTROL Esqueceu a senha?]**
 1. Na caixa exibida, digite seu endereço de email e clique em **[!UICONTROL Obter link]**.
