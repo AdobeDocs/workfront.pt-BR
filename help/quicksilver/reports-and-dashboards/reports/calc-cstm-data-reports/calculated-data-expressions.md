@@ -7,9 +7,9 @@ description: Você pode usar expressões de dados para definir campos de dados p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,13 @@ Você pode criar um campo personalizado calculado de data ou hora usando as segu
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>HORA_ADICIONAL</strong> </td> 
+   <td> <p>Adiciona o número de horas à data e é formatado da seguinte maneira:</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>Nota: Esta função não é suportada no Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>Limpa a parte de tempo de uma data e é formatada da seguinte maneira. Neste exemplo, a data é a Data de Entrada para um objeto de trabalho.</p>
@@ -378,6 +385,42 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong>MATRIZ</strong> </td> 
+   <td> <p>Converte uma string em uma matriz. O delimitador pode ser qualquer string.</p> 
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>COMPRIMENTOARRAY</strong> </td> 
+   <td> <p>Retorna o número de elementos na matriz e é formatado da seguinte maneira:</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>Retorna o elemento no número especificado na matriz. Se o índice estiver fora dos limites, ele retornará vazio.</p> 
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Ordena os elementos da matriz em ordem crescente e os converte no tipo do primeiro elemento.</p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Por exemplo, ["-12.6", -13.0] torna-se ["-12.6", "-13"].</p>
+   <p>Nota: Esta função não é suportada no Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Ordena os elementos da matriz em ordem decrescente e os converte no tipo do primeiro elemento.</p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Por exemplo, ["-12.6", -13.0] torna-se ["-13", "-12.6"].</p>
+   <p>Nota: Esta função não é suportada no Workfront Planning.</p></td> 
+  </tr>
+  <tr>   
    <td><strong>CASO</strong> </td> 
    <td> <p>É usado com outras expressões para escolher um valor em uma lista, com base em um número de índice. </p>
    <p>Um número de índice é um campo ou função que retorna um valor numérico (geralmente em um intervalo conhecido).</p> 
@@ -413,6 +456,13 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong>FORMATO</strong> </td> 
+   <td><p>Retorna o texto formatado. As opções de cor são $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE e as outras opções de formatação são $$BOLD, $$ITALIC, $$UNDERLINE. Somente uma opção de cor pode ser usada por função, juntamente com até três outras opções de formatação. Se nenhuma opção de cor for especificada, a cor padrão do sistema será aplicada.</p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>Nota: Esta função não é suportada no Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>SE</strong> </td> 
    <td> <p>Avalia uma condição especificada e retorna o valor da expressãoVerdadeira se for verdadeira, ou o valor da expressãoFalsa se for falsa.</p>
@@ -504,18 +554,16 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
    <td> <p>Converte um número em uma cadeia de caracteres e é formatado da seguinte maneira:</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>Classifica uma lista de strings em ordem crescente e é formatada da seguinte maneira:</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> Classifica uma lista de strings em ordem decrescente e é formatada da seguinte maneira:</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
@@ -523,6 +571,13 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>ALTERNAR</strong> </td> 
+   <td> <p>Avalia a expressão em relação a uma lista de valores e retorna o resultado correspondente ao primeiro valor correspondente.</p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>Esta função não é suportada no Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>CORTAR</strong> </td> 
    <td> <p>Remove os espaços em branco do início e do fim de uma string e é formatado da seguinte maneira:</p>
