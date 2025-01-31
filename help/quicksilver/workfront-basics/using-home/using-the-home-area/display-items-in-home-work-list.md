@@ -6,10 +6,10 @@ description: Cada widget contém sua própria lista de trabalho. As listas de tr
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 6%
+source-wordcount: '991'
+ht-degree: 4%
 
 ---
 
@@ -59,6 +59,40 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Requisitos para itens de trabalho serem exibidos na lista de trabalho
+
+Há requisitos internos para os quais os itens de trabalho são exibidos em determinadas listas de trabalho do widget. Os itens de trabalho devem atender a estes requisitos para serem exibidos nas listas de trabalho dos seguintes widgets.
+
+### Widget Minhas tarefas
+
+As tarefas devem atender aos seguintes requisitos para serem exibidas no widget Minhas tarefas:
+
+* O status da tarefa não é igual a Concluído.
+* O usuário logado deve ser atribuído à tarefa.
+* O status da tarefa não é igual a Concluído.
+* O projeto ao qual a tarefa pertence deve estar em um status que seja igual a Atual.
+
+
+### Widget Meus problemas
+
+Os problemas devem atender aos seguintes requisitos para serem exibidos no widget Meus problemas:
+
+* O usuário logado deve ser atribuído ao problema.
+* O status do problema não é igual a Concluído.
+* Não há um objeto não resolvido anexado ao problema.
+* O status do problema não é igual a Concluído.
+* O projeto ao qual o problema pertence deve estar em um status que seja igual a Atual.
+
+### Widget Minhas equipes
+
+As solicitações de equipe devem atender aos seguintes requisitos para serem exibidas no widget Minhas equipes:
+
+* O usuário logado pertence à equipe à qual o item de trabalho está atribuído.
+* O status do item de trabalho não é igual a Concluído.
+* O item de trabalho não tem um processo de aprovação não resolvido anexado.
+* O item de trabalho não é uma tarefa recorrente.
+* O projeto ao qual o item de trabalho pertence deve estar em um status igual a Atual.
 
 ## Filtrar seu trabalho
 

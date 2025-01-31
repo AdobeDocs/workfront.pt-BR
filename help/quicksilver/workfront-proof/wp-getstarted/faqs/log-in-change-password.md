@@ -8,7 +8,7 @@ description: O administrador do Workfront Proof pode configurar uma marca person
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -22,6 +22,7 @@ ht-degree: 0%
 >Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Efetuando Login
+
 
 1. Vá para [a página de logon](https://app.proofhq.com/login).
 
@@ -45,6 +46,7 @@ Para os planos da [!UICONTROL Empresa] e do [!UICONTROL Ilimitado], oferecemos o
 ## Quando você esquece sua senha {#when-you-forget-your-password}
 
 Se você esquecer a senha, poderá receber por email do [!DNL Workfront Proof] uma mensagem de email de redefinição.
+
 
 1. Vá para [a página de logon](https://app.proofhq.com/login).
 
