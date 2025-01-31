@@ -6,10 +6,10 @@ description: O progresso da meta é orientado por indicadores de progresso como 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ Sua organização deve ter as seguintes opções para usar a funcionalidade desc
 
 * Para o novo plano e estrutura de licença:
 
-   * Um plano Ultimate
+   * Um plano do Ultimate
 
      Ou
 
-     Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. Para obter informações, consulte [plano do Adobe Workfront](https://www.workfront.com/plans).
+     Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront.
 
 * Para o plano e a estrutura de licença atuais:
 

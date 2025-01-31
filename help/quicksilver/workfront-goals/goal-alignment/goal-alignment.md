@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 0%
 > 
 >* Para o novo plano e estrutura de licença:
 >    
->   * Um plano Ultimate
+>   * Um plano do Ultimate
 >        
 >     Ou
 >        
 >   * Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront.
->       Para obter mais informações, consulte [Preços e pacotes do Adobe Workfront](https://www.workfront.com/plans).
+>      
 >      
 >* Para o plano e a estrutura de licença atuais:
 >    

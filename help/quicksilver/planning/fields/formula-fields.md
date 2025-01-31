@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 8%
+source-wordcount: '621'
+ht-degree: 7%
 
 ---
 
@@ -181,18 +181,16 @@ OLD:
 
 Os campos de fórmula do Adobe Workfront Planning suportam a maioria das expressões dos campos calculados do Workfront.
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>As seguintes expressões Workfront não são suportadas para campos de fórmula do Workfront Planning:
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* SWITCH
->* FORMAT
--->
+>* ALTERNAR
+>* FORMATAR
+
 
 Para obter uma lista completa de expressões Workfront, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
@@ -211,21 +209,6 @@ Além disso, oferecemos suporte às seguintes expressões para os campos de fór
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>MATRIZ</strong> </td>
-   <td> <p>Converte uma string em uma matriz. O delimitador pode ser qualquer string.</p>
-   <p>A expressão é formatada da seguinte maneira:</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>Retorna o elemento no número especificado na matriz. Se o índice estiver fora dos limites, ele retornará vazio.</p>
-   <p>A expressão é formatada da seguinte maneira:</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>JUNÇÃO DE MATRIZ</strong> </td> 
    <td> <p>Retorna a string concatenada por delimitador.</p> <p>A expressão é formatada da seguinte maneira:
@@ -233,14 +216,7 @@ Além disso, oferecemos suporte às seguintes expressões para os campos de fór
 <code>ARRAYJOIN(delimitador,matriz)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>COMPRIMENTOARRAY</strong> </td>
-   <td> <p>Retorna o número de elementos na matriz e é formatado da seguinte maneira:</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Retorna a matriz com valores únicos.</p> <p>A expressão é formatada da seguinte maneira:
 
