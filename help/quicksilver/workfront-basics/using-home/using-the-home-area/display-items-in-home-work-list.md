@@ -6,7 +6,7 @@ description: Cada widget contém sua própria lista de trabalho. As listas de tr
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
+source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 4%
@@ -182,7 +182,5 @@ Você pode escolher quais colunas aparecerão na lista de trabalho do widget:
 * **Folhas de horas**: [!UICONTROL Data de envio]
 * **Aprovações**: [!UICONTROL Data de envio]
 * **Aprovações de provas**: [!UICONTROL Prazo da prova]
-
-
 
 
