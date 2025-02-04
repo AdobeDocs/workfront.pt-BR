@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ Atualizamos as listas de Aprovação de projetos, tarefas e problemas em Configu
 Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
 
 ## Ágil
+
+## Atualização da interface para a área Equipes > Backlog
+
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: iniciando a semana de 13 de fevereiro de 2025**
+
+Atualizamos a área Equipes > Backlog com um design mais moderno e consistente com outras áreas do Workfront.
+
+Esta atualização inclui as seguintes alterações:
+
+* Aprimoramentos visuais na guia Histórias e problemas, bem como na caixa de diálogo Analisar história
+* Uma nova caixa de diálogo para a ferramenta Planejar iteração
 
 ### Atualização de interface para a lista de iterações
 

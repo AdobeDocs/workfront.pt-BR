@@ -4,9 +4,10 @@ description: Atualizações de aparência durante o período do segundo trimestr
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
+exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
+source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ Esta página descreve pequenas atualizações na aparência de várias áreas do
 
 Para obter uma lista de todas as alterações disponíveis com a versão do Segundo trimestre de 2025, consulte [Visão geral da versão do Segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-## Nova aparência para a caixa de diálogo Compartilhar
+<!--## New look and feel for the Share dialog 
 
 >[!NOTE]
 >
->Versão de pré-visualização: 30 de janeiro de 2025; Produção para lançamento rápido: Com lançamento da versão 25.2 (fevereiro de 2025); Produção para lançamento trimestral: Com lançamento da versão 25.4 (abril de 2025)
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
-Atualizamos a aparência do design moderno do diálogo de compartilhamento que é consistente com outras áreas do Workfront. Há pequenas diferenças visuais, incluindo:
+We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
 
-* A opção &quot;Visível em todo o sistema&quot; agora exibe &quot;Todos no sistema podem visualizar&quot;. Essa opção ainda funciona como antes.
-* Há um novo ícone para acessar configurações de compartilhamento avançadas.
+* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
+* There is a new icon to access advanced share settings.-->
