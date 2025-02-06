@@ -6,9 +6,9 @@ description: É possível excluir uma iteração da sua equipe ágil se ela não
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -57,4 +57,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. No painel esquerdo, selecione **[!UICONTROL Iterações]**.
-1. Selecione a iteração que deseja excluir e clique em **[!UICONTROL Excluir]**.
+1. Selecione a iteração que deseja excluir e clique no ícone [!UICONTROL **Excluir**] ![Ícone Excluir](assets/delete-icon.png).
