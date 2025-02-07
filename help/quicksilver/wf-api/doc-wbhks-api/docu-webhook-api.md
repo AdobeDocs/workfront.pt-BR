@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3627'
 ht-degree: 2%
 
 ---
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (Data de lançamento - A ser definida) Esse endpoint permitirá que um usuário do Workfront (ou talvez um evento de fluxo de trabalho automatizado) execute uma ação no sistema externo. O ponto de extremidade /customAction aceita um parâmetro &quot;name&quot;, que permite que o provedor de webhook implemente várias operações personalizadas.
 
 O provedor de webhook registra ações personalizadas com o Workfront incluindo as ações na resposta /serviceInfo em customActions. O Workfront carrega essa lista ao configurar ou atualizar o provedor de webhook em Configurar > Documentos > Integrações personalizadas.\
-![](assets/mceclip0-350x262.png)
+![Executar uma ação personalizada](assets/mceclip0-350x262.png)
 
 Os usuários podem acionar a ação personalizada selecionando a seção em &quot;Ações do documento&quot;\
-![](assets/mceclip1-350x95.png)
+![Acionar ações personalizadas](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -925,7 +925,7 @@ Problemas podem surgir ao processar solicitações de API. Isso deve ser tratado
 ```
 
 
-## Testes
+## Testando
 
 Para verificar se a implementação do webhook do seu documento funciona corretamente, execute os testes a seguir. Esses são testes manuais que passam pela interface da Web do Workfront e atingem indiretamente os endpoints da implementação do webhook.
 

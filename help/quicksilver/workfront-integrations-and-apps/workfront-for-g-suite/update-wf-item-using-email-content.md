@@ -7,9 +7,9 @@ description: Você pode atualizar um projeto, tarefa ou problema existente com i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,8 @@ Antes de atualizar um item [!DNL Workfront] usando o conteúdo de email de [!DNL
 
 ## Atualizar um item [!DNL Workfront] usando o conteúdo de email de [!DNL Google Workspace]
 
-1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone do Workfront ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
-1. Com a mensagem de email aberta no [!DNL Google Workspace], clique em **[!UICONTROL Post como uma nova atualização]** no painel [!DNL Google Workspace].
+1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone do Workfront ![ícone do Workfront](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
+1. Com a mensagem de email aberta no [!DNL Google Workspace], clique em **[!UICONTROL Postar como uma nova atualização]** no painel [!DNL Google Workspace].
 1. Em **[!UICONTROL Tipo]**, clique na seta suspensa e, em seguida, clique no tipo de objeto ao qual deseja adicionar a atualização.
 1. Clique na opção **[!UICONTROL Pesquisar por]**, comece digitando o nome do objeto ao qual deseja adicionar a atualização e selecione o item quando ele aparecer na lista abaixo.
 
@@ -99,6 +99,6 @@ Antes de atualizar um item [!DNL Workfront] usando o conteúdo de email de [!DNL
 
    * Para responder a uma atualização na guia **[!UICONTROL Atualizações]**, clique em **[!UICONTROL Responder]** e digite sua resposta.
 
-     Para ambas as opções acima, você pode clicar em **[!UICONTROL Notificar]** para especificar destinatários para a resposta como na etapa 5. Quando estiver pronto, clique em **[!UICONTROL Post]** para adicionar a atualização ou a resposta.
+     Para ambas as opções acima, você pode clicar em **[!UICONTROL Notificar]** para especificar destinatários para a resposta como na etapa 5. Quando estiver pronto, clique em **[!UICONTROL Postar]** para adicionar a atualização ou a resposta.
 
    * Clique na guia **[!UICONTROL Detalhes]** para exibir os detalhes do novo projeto, tarefa ou problema.

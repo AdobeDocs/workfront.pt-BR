@@ -6,10 +6,10 @@ description: Você pode registrar horas para projetos, tarefas e problemas nos q
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -68,16 +68,16 @@ Para registrar tempo usando o plug-in do Workfront:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Na **[!UICONTROL Lista de Trabalho]**, selecione o item de trabalho para o qual você precisa registrar horas.
 1. Clique em **[!UICONTROL Tempo]** na barra de navegação.
 
-   ![](assets/log-time-350x337.png)
+   ![Registrar tempo](assets/log-time-350x337.png)
 
 1. (Opcional) Escolha o **[!UICONTROL Tipo de Hora]** no menu suspenso.
 1. Insira o tempo em horas do dia necessário.
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![Registrar horas](assets/copy-of-log-hours-350x236.png)
 
 1. Clique em **[!UICONTROL Enviar]**.

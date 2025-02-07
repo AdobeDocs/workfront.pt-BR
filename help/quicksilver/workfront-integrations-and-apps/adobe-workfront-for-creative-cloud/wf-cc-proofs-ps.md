@@ -6,9 +6,9 @@ description: Você pode fazer upload de seus quadros de arte como provas diretam
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Vá para o item de trabalho no qual deseja carregar uma prova.
-1. Clique no ícone ![](assets/documents.png) do **[!UICONTROL Documento]** na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação.
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do painel [!DNL Workfront].
 1. Habilitar a opção **[!UICONTROL Criar uma prova]**.
 1. (Opcional) Digite um nome para a prova na caixa de texto **[!UICONTROL Nome da Prova]**.
@@ -75,14 +75,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. (Opcional) Adicione aprovadores.
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
-   ![](assets/add-comment.png)
+   ![Adicionar um comentário](assets/add-comment.png)
 
 1. Escolha o **[!UICONTROL Tipo de ativo]** no menu suspenso.
 
 1. (Opcional) Selecione **[!UICONTROL Adicionar arquivo externo]** para adicionar um arquivo do seu computador.
 1. Clique em **[!UICONTROL Carregar]** e configure as opções de exportação desejadas com base no tipo de ativo escolhido acima.
 
-   ![](assets/plugin-files-350x307.png)\
+   ![Arquivos no plug-in](assets/plugin-files-350x307.png)\
    O documento aparece na área [!UICONTROL Documentos] no painel [!DNL Workfront] do [!DNL Photoshop] e no aplicativo de desktop [!DNL Workfront].
 
 
@@ -90,10 +90,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Vá para o item de trabalho no qual deseja carregar uma prova.
-1. Clique no ícone ![](assets/documents.png) do **[!UICONTROL Documento]** na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação.
 
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do painel [!DNL Workfront].
 1. Habilitar a opção **[!UICONTROL Criar uma prova]**.
@@ -110,7 +110,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
-   ![](assets/add-comment-automated-approval.png)
+   ![Adicionar aprovação automatizada de comentário](assets/add-comment-automated-approval.png)
 
 1. Escolha o **[!UICONTROL Tipo de ativo]** no menu suspenso.
 1. (Opcional) Selecione **[!UICONTROL Adicionar arquivo externo]** para adicionar um arquivo do seu computador.
@@ -123,10 +123,10 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Vá para o item de trabalho para o qual você precisa carregar um documento.
-1. Clique no ícone **[!UICONTROL Documento]** ![](assets/documents.png)na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png)na barra de navegação.
 
 1. Clique em **[!UICONTROL Nova versão]** próximo à parte inferior do painel [!DNL Workfront].
 1. Habilitar a opção **[!UICONTROL Criar uma prova]**.

@@ -6,9 +6,9 @@ description: Você pode fazer upload de pranchetas como provas diretamente no Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/menu-350x440.png)
+   ![Ícone de menu](assets/menu-350x440.png)
 
 1. Vá para o item de trabalho no qual deseja carregar uma prova estática.
-1. Clique no ícone ![](assets/documents.png) do **[!UICONTROL Documento]** na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação.
 
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do plug-in.
 1. Selecione as pranchetas que deseja fazer upload.
@@ -108,7 +108,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Aprovações de prova no XD](assets/proof-approvals-xd-350x396.png)
 
 1. Escolha o formato de exportação no menu suspenso **[!UICONTROL Tipo de ativo]**.
 
@@ -117,7 +117,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional) Nomeie o PDF.
 
-   ![](assets/pdf-options.png)
+   ![opções de PDF](assets/pdf-options.png)
 
 1. Clique em **[!UICONTROL Carregar]**.\
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
@@ -149,10 +149,10 @@ Você pode criar uma prova interativa para suas pranchetas com o plug-in [!DNL W
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/menu-350x440.png)
+   ![Ícone de menu](assets/menu-350x440.png)
 
 1. Vá para o item de trabalho no qual deseja carregar uma prova interativa.
-1. Clique no ícone ![](assets/documents.png) do **[!UICONTROL Documento]** na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação.
 
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do plug-in.
 1. Habilitar **[!UICONTROL Criar uma prova]**.
@@ -184,10 +184,10 @@ Você pode criar uma prova interativa para suas pranchetas com o plug-in [!DNL W
 
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Aprovações de prova no XD](assets/proof-approvals-xd-350x396.png)
 
 1. No menu suspenso **[!UICONTROL Tipo de ativo]**, escolha o link que acabou de criar na guia **Links compartilhados**. Para obter mais informações, consulte [Criar um link interativo para sua prancheta](#create-an-interactive-link-for-your-artboard).\
-   ![](assets/shared-links-xd-350x870.png)
+   ![Links compartilhados no XD](assets/shared-links-xd-350x870.png)
 
 1. Clique em **[!UICONTROL Carregar]**.
 
@@ -203,10 +203,10 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/menu-350x440.png)
+   ![Ícone de menu](assets/menu-350x440.png)
 
 1. Vá para o item de trabalho para o qual você precisa carregar um documento.
-1. Clique no ícone **[!UICONTROL Documento]** ![](assets/documents.png)na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png)na barra de navegação.
 
 1. Clique em **[!UICONTROL Nova versão]** próximo à parte inferior do plug-in.
 1. Habilitar **[!UICONTROL Criar uma prova]**.
@@ -243,17 +243,17 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 
 1. Escolha o formato de exportação no menu suspenso **[!UICONTROL Tipo de ativo]**.
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![Criar uma prova no XD](assets/create-a-proof-xd-350x202.png)
 
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Aprovações de prova no XD](assets/proof-approvals-xd-350x396.png)
 
 1. (Opcional) Se você selecionar PDF como tipo de ativo e tiver mais de uma prancheta selecionada, escolha se deseja exportar suas pranchetas como **[!UICONTROL Arquivo de PDF único]s** ou **M[!UICONTROL vários arquivos de PDF]**.
 
 1. (Opcional) Nomeie o PDF.
 
-   ![](assets/pdf-options.png)
+   opções de PDF
 
 1. Clique em **[!UICONTROL Carregar]**.\
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.

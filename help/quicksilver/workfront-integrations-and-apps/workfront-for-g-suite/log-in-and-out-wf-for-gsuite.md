@@ -7,9 +7,9 @@ description: Este artigo descreve como fazer logon ou logoff da  [!DNL Adobe Wor
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Antes de fazer logon ou logout do [!DNL Workfront for Google Workspace], você d
 
 ## Fazer logon em [!DNL Adobe Workfront for Google Workspace]
 
-1. Clique no ícone [!DNL Workfront] ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita do [!DNL Gmail], [!DNL Google Calendar] ou [!DNL Google Drive].
+1. Clique no ícone [!DNL Workfront] ![ícone do Workfront](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita do [!DNL Gmail], [!DNL Google Calendar] ou [!DNL Google Drive].
 
    Se você acabou de instalar o complemento [!DNL Workfront for Google Workspace] e não conseguir ver esse ícone, tente atualizar a página do navegador.
 
@@ -66,7 +66,7 @@ Antes de fazer logon ou logout do [!DNL Workfront for Google Workspace], você d
 
 ## Sair de [!DNL Workfront for Google Workspace]
 
-1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
+1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no [!DNL Workfront] ícone ![Workfront ícone](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
 1. Clique no ícone **[!UICONTROL Mais ações]** na parte superior do painel [!DNL Workfront for Google Workspace].
 
 1. Clique em **[!UICONTROL Logout]** no menu exibido.

@@ -6,10 +6,10 @@ description: Você pode fazer upload de pranchetas como documentos para uma revi
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 0%
+source-wordcount: '596'
+ht-degree: 1%
 
 ---
 
@@ -65,10 +65,10 @@ Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for XD]](/help
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/menu-350x440.png)
+   ![Ícone de menu](assets/menu-350x440.png)
 
 1. Vá para o item de trabalho no qual deseja carregar um documento.
-1. Clique no ícone ![](assets/documents.png) do **[!UICONTROL Documento]** na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação.
 
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do plug-in.
 1. Selecione a prancheta que deseja fazer upload.
@@ -113,10 +113,10 @@ Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for XD]](/help
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/menu-350x440.png)
+   ![Ícone de menu](assets/menu-350x440.png)
 
 1. Vá para o item de trabalho no qual deseja carregar um documento.
-1. Clique no ícone **[!UICONTROL Documento]** ![](assets/documents.png)na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png)na barra de navegação.
 
 1. Clique no documento ao qual deseja adicionar uma nova versão.
 1. Clique em **[!UICONTROL Nova versão]** próximo à parte inferior do plug-in.

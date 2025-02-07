@@ -7,9 +7,9 @@ description: Você pode exibir e gerenciar documentos associados a um objeto  [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Antes de exibir ou gerenciar [!DNL Workfront] documentos em [!DNL Google Workspa
 
 ## Exibir e gerenciar [!DNL Workfront] documentos em [!DNL Google Workspace]
 
-1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
+1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no [!DNL Workfront] ícone ![Workfront ícone](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
 1. Vá para a tarefa ou problema [!DNL Workfront] em [!DNL Google Workspace], conforme descrito em [Acesso [!DNL Adobe Workfront] [!UICONTROL Residência] conteúdo de [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 1. Clique em **[!UICONTROL Documentos]**.
 
@@ -68,11 +68,11 @@ Antes de exibir ou gerenciar [!DNL Workfront] documentos em [!DNL Google Workspa
 
    Se precisar de informações sobre postagem de atualizações ou respostas, consulte [Atualizar um [!DNL Adobe Workfront] objeto de [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. (Opcional) Clique no ícone ![](assets/download-icon.png) do **[!UICONTROL Download]** para baixar um documento na lista.
+1. (Opcional) Clique no ícone **[!UICONTROL Download]** ![Ícone de download](assets/download-icon.png) para baixar um documento na lista.
 
    Ou
 
-   Se o documento for salvo em uma unidade de nuvem, clique no ícone **[!UICONTROL Abrir]** ![](assets/open-icon.png).
+   Se o documento for salvo em uma unidade de nuvem, clique no **[!UICONTROL ícone Abrir]** ![ícone Abrir](assets/open-icon.png).
 
 1. Clique em **[!UICONTROL Exibir no Workfront]** para ir para a página Detalhes do Documento do documento em [!DNL Workfront].
 

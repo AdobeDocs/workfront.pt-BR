@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ O aplicativo de terceiros pode exigir configuração. A tabela a seguir contém 
 
 ## Configurar Fluxo de Código de Autorização
 
-![](assets/oauth-2-authorization-code-flow.png)
+![Fluxo de código OAuth](assets/oauth-2-authorization-code-flow.png)
 
 Para fazer logon dos usuários com o OAuth2, use o seguinte processo:
 
@@ -93,7 +93,7 @@ Para fazer logon dos usuários com o OAuth2, use o seguinte processo:
 
    Se o usuário já estiver conectado ao Workfront no mesmo navegador ou se fizer logon com êxito no Workfront, ele será redirecionado para a tela de consentimento:
 
-   ![](assets/consent-screen-350x227.png)
+   ![Tela de consentimento](assets/consent-screen-350x227.png)
 
 1. Se o usuário Conceder acesso, a página será redirecionada para o `redirect_url`. O redirecionamento deve incluir os seguintes parâmetros de consulta:
 
@@ -172,7 +172,7 @@ Para fazer logon dos usuários com o OAuth2, use o seguinte processo:
 
 ## Configurar o token de acesso para atualização
 
-![](assets/refresh-access-token-flow-350x142.png)
+![Atualizar fluxo de token de acesso](assets/refresh-access-token-flow-350x142.png)
 
 Para atualizar o access_token, precisamos fazer novamente uma chamada &quot;POST&quot; para o endpoint do token. Desta vez, enviamos dados de formulário diferentes da seguinte maneira:
 

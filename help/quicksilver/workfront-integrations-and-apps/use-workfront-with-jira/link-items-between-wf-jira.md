@@ -6,9 +6,9 @@ description: Você pode vincular [!DNL Jira] problemas a [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Para vincular automaticamente uma tarefa [!DNL Workfront] a um problema [!DNL Ji
 
    Para obter mais informações sobre o acesso a tarefas, consulte [Conceder acesso a tarefas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-1. Vá para um projeto e selecione **[!UICONTROL Tarefas]** ![](assets/tasks-icon-in-left-panel-14x14.png) no painel esquerdo.
+1. Vá para um projeto e selecione **[!UICONTROL Tarefas]** ![Ícone Tarefas](assets/tasks-icon-in-left-panel-14x14.png) no painel esquerdo.
 
 1. Clique em **[!UICONTROL Nova tarefa]**
 

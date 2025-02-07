@@ -7,9 +7,9 @@ description: Você pode converter um email externo (não gerado pelo Adobe [!DNL
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Antes de criar uma tarefa [!DNL Workfront] em [!DNL Google Workspace], você dev
 
 ## Criar uma tarefa [!DNL Adobe Workfront] em [!DNL Google Workspace] usando conteúdo de email
 
-1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
+1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no [!DNL Workfront] ícone ![Workfront ícone](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
 1. Com a mensagem de email aberta no [!DNL Google Workspace], clique em uma opção no [!DNL Workfront for Google Workspace] para converter o email em uma nova tarefa do [!DNL Workfront].
 
 1. Selecione uma opção **[!UICONTROL Criar novo]** para indicar se a tarefa fará parte de um projeto ou de uma tarefa pessoal que seja independente de um projeto.
@@ -116,7 +116,7 @@ Antes de criar uma tarefa [!DNL Workfront] em [!DNL Google Workspace], você dev
 
    * Para responder a uma atualização na guia **[!UICONTROL Atualizações]**, clique em **[!UICONTROL Responder]** e digite sua resposta.
 
-     Para ambas as ações acima, você pode notificar usuários específicos sobre seu comentário. Clique em **[!UICONTROL Notificar]**, comece a digitar o nome de um usuário e depois clique no nome quando ele aparecer na lista suspensa. Repita esse processo para outros usuários que deseja notificar e clique em **[!UICONTROL Post]**.
+     Para ambas as ações acima, você pode notificar usuários específicos sobre seu comentário. Clique em **[!UICONTROL Notificar]**, comece a digitar o nome de um usuário e depois clique no nome quando ele aparecer na lista suspensa. Repita esse processo para outros usuários que deseja notificar e clique em **[!UICONTROL Postar]**.
 
    * Clique na guia **[!UICONTROL Documentos]** para ver todos os documentos salvos com a tarefa.
 

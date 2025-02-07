@@ -6,9 +6,9 @@ description: Você pode ver informações sobre projetos, tarefas, problemas e d
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Selecione o item de trabalho que deseja exibir.
 
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Use o ícone **[!UICONTROL Menu]** para ir para os objetos pai do item de trabalho.
 
-1. Clique no ícone **[!UICONTROL Detalhes]** ![](assets/details.png) na barra de navegação para exibir:
+1. Clique no ícone **[!UICONTROL Detalhes]** ![Detalhes](assets/details.png) na barra de navegação para exibir:
 
    * [!UICONTROL Descrição]
    * [!UICONTROL Data de Término Planejada]
@@ -87,7 +87,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Selecione o item de trabalho que deseja exibir.
 
@@ -95,7 +95,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Use o ícone **[!UICONTROL Menu]** para ir para os objetos pai do item de trabalho.
 
-1. Clique no ícone **[!UICONTROL Documento]** ![](assets/documents.png) na barra de navegação e clique duas vezes em um documento para exibi-lo:
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação e clique duas vezes em um documento para exibi-lo:
 
    * [!UICONTROL Descrição]
    * [!UICONTROL Tipo de arquivo]
@@ -108,7 +108,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Selecione o item de trabalho que deseja exibir.
 
@@ -116,7 +116,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Use o ícone **[!UICONTROL Menu]** para ir para os objetos pai do item de trabalho.
 
-1. Clique no ícone **[!UICONTROL Documento]** ![](assets/documents.png) na barra de navegação e clique duas vezes em uma prova.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação e clique duas vezes em uma prova.
 
 1. Clique no ícone de seta no canto superior direito da miniatura para abrir os detalhes da prova no [!DNL Workfront].
 
@@ -126,7 +126,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Selecione o item de trabalho que deseja exibir.
 
@@ -134,17 +134,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Use o ícone **[!UICONTROL Menu]** para ir para os objetos pai do item de trabalho.
 
-1. Clique no ícone **[!UICONTROL Documento]** ![](assets/documents.png) na barra de navegação e clique duas vezes em uma prova.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação e clique duas vezes em uma prova.
 
 1. Role para baixo para visualizar o status atual da prova. Para obter mais informações sobre detalhes de Enviado, Aberto, Comentário, Decisão (SOCD), consulte [Visão geral de Detalhes do Documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
-![](assets/proof-status.png)
+![Status da prova](assets/proof-status.png)
 
 ## Exibir subtarefas e problemas
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Selecione o item de trabalho que deseja exibir.
 
@@ -152,9 +152,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Use o ícone **[!UICONTROL Menu]** para ir para os objetos pai do item de trabalho.
 
-1. Clique no ícone **[!UICONTROL Problema]** ![](assets/issues.png) ou **Subtarefa** ícone ![](assets/subtasks.png).
+1. Clique no ícone **[!UICONTROL Problema]** ícone ![Problemas ícone](assets/issues.png) ou **Subtarefa** ícone ![Subtarefa ícone](assets/subtasks.png).
 
-1. Selecione a tarefa ou problema e clique no ícone ![](assets/details.png) de **[!UICONTROL Detalhes]** na barra de navegação para exibir:
+1. Selecione a tarefa ou o problema e clique no ícone **[!UICONTROL Detalhes]** ![Detalhes](assets/details.png) na barra de navegação para exibir:
 
    * [!UICONTROL Data de Término Planejada]
    * [!UICONTROL Status]

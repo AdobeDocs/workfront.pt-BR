@@ -6,10 +6,10 @@ description: Você pode ficar nos aplicativos da Adobe Creative Cloud e concluir
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Para saber que plano, tipo de licença ou acesso você tem, contate o administra
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Na **[!UICONTROL Lista de Trabalho]**, selecione a tarefa ou o problema que deseja marcar como concluído.
 1. Clique em **[!UICONTROL Concluído]**.  Se você for o único usuário atribuído a esta tarefa ou problema, isso marca o item [!UICONTROL Concluído] ou [!UICONTROL Resolvido] em [!DNL Workfront].
@@ -75,6 +75,6 @@ Para saber que plano, tipo de licença ou acesso você tem, contate o administra
    >[!NOTE]
    >
    >Se o item de trabalho tiver predecessores, o botão Concluído ficará cinza até que esses predecessores sejam marcados como concluídos. Para exibir predecessores dentro de [!DNL Workfront], clique no nome da tarefa.
-   >![](assets/navigate-to-workfront.png)
+   >![Navegar até o Workfront](assets/navigate-to-workfront.png)
 
-<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
+<!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

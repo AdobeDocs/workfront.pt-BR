@@ -6,7 +6,7 @@ description: Estamos fazendo duas alterações no modo como o Adobe Workfront en
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Estamos fazendo duas alterações no modo como o Adobe Workfront envia e recebe 
 
 ## Email de saída do Workfront
 
-Em um esforço para aumentar o sucesso da entrega de emails, eliminaremos a falsificação de emails, que geralmente são marcados como spam (consulte Falsificação de email). Todos os emails do Workfront serão enviados de notifications@my.workfront.com, incluindo alertas automatizados e comunicação entre usuários. Um email de exemplo de Joan Harris terá esta aparência na área de do seu email:
+Em um esforço para aumentar o sucesso da entrega de emails, eliminaremos a falsificação de emails, que geralmente são marcados como spam (consulte Falsificação de email). Todos os emails do Workfront serão enviados de `notifications@my.workfront.com`, incluindo alertas automatizados e comunicação entre usuários. Um email de exemplo de Joan Harris terá esta aparência na área de do seu email:
 
-![](assets/noreply.png)
+![Exemplo de email](assets/noreply.png)
 
-*É altamente recomendável entrar em contato com a equipe de TI* para garantir que os emails de notifications@my.workfront.com não sejam bloqueados para emails de entrada em seu sistema. Você também pode fazer referência à [inclui na lista de permissões sobre o](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) do seu firewall para obter detalhes sobre os endereços IP dos quais nosso tráfego e email são provenientes.
+*É altamente recomendável entrar em contato com a equipe de TI* para garantir que os emails de `notifications@my.workfront.com` não sejam bloqueados para emails de entrada no sistema. Você também pode fazer referência à [inclui na lista de permissões sobre o](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) do seu firewall para obter detalhes sobre os endereços IP dos quais nosso tráfego e email são provenientes.
 
 ## Respostas de email de entrada para notificações (resposta POP)
 

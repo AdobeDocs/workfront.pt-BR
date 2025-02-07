@@ -7,9 +7,9 @@ description: No Google Workspace, ao abrir um email de notificação que o Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Antes de gerenciar os detalhes de notificação de [!DNL Google Workspace], voc�
 
 ## Gerenciar detalhes de notificação de [!DNL Adobe Workfront] de [!DNL Google Workspace]
 
-1. Se o painel [!DNL Workfront for Google Workspace] não for exibido, clique no ícone ![](assets/wf-lion-icon.png) do [!DNL Workfront] na barra lateral de complementos do [!DNL Google Workspace], na extremidade direita da página.
+1. Se o painel [!DNL Workfront for Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![ícone do Workfront](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
 1. Em [!DNL Google Workspace], abra um email de notificação [!DNL Workfront].
 1. Clique em **[!UICONTROL Exibir todas as atualizações]** se ele for exibido próximo à parte superior do painel.
 1. Clique em **[!UICONTROL Detalhes]**.
@@ -88,7 +88,7 @@ Antes de gerenciar os detalhes de notificação de [!DNL Google Workspace], voc�
      </tr> 
      <tr> 
       <td>Atualizar </td> 
-      <td> <p>Exiba qualquer parte da lista inteira de atualizações do item para que você tenha o contexto necessário para <strong>[!UICONTROL Post]</strong> uma nova atualização ou uma <strong>[!UICONTROL Reply]</strong>. Você pode clicar em <strong>[!UICONTROL Notify]</strong> para alertar usuários específicos sobre sua resposta. </p> <p>Para obter mais informações, consulte <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Responder a uma notificação de atualização de [!DNL Adobe Workfront] de [!DNL Google Workspace]</a>.</p> </td> 
+      <td> <p>Exiba qualquer parte da lista inteira de atualizações do item para que você tenha o contexto necessário para <strong>[!UICONTROL Postagem]</strong> uma nova atualização ou uma <strong>[!UICONTROL Resposta]</strong>. Você pode clicar em <strong>[!UICONTROL Notify]</strong> para alertar usuários específicos sobre sua resposta. </p> <p>Para obter mais informações, consulte <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Responder a uma notificação de atualização de [!DNL Adobe Workfront] de [!DNL Google Workspace]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Solicitação de aprovação</td> 

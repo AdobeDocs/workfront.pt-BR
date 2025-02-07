@@ -6,9 +6,9 @@ description: Você pode fazer upload de seus quadros de arte como documentos par
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -64,16 +64,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Vá para o item de trabalho no qual deseja carregar um documento.
-1. Clique no ícone ![](assets/documents.png) do **[!UICONTROL Documento]** na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação.
 
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do plug-in.
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 1. Escolha o **[!UICONTROL Tipo de ativo]** no menu suspenso.
 1. Abra a caixa de diálogo **[!UICONTROL Definir Configurações do Arquivo de Exportação]** e configure as opções de exportação desejadas com base no tipo de ativo escolhido acima.
 
-   ![](assets/file-export-settings.png)
+   ![Configurações de exportação de arquivo](assets/file-export-settings.png)
 1. Clique em **[!UICONTROL Carregar]**.
 O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.

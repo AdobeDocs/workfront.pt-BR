@@ -6,9 +6,9 @@ description: Encontre o trabalho atribuído a você no Adobe Workfront sem sair 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -122,4 +122,4 @@ Use a barra [!UICONTROL Pesquisa] para localizar projetos, tarefas, problemas e 
 
 Você pode usar o ícone [!UICONTROL Menu] para navegar até os itens principais de um projeto.
 
-![](assets/go-back-to-work-list-350x314.png)
+![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)

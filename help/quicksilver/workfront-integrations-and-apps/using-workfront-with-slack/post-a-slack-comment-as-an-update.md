@@ -1,19 +1,19 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Post um comentário de Slack como atualização
+title: Postar um comentário Slack como atualização
 description: Você pode adicionar um comentário Slack como uma atualização a um projeto, tarefa ou problema específico no Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Post um comentário [!DNL Slack] como atualização
+# Postar um comentário de [!DNL Slack] como atualização
 
 Você pode adicionar um comentário de [!DNL Slack] como uma atualização a um projeto, tarefa ou problema específico em [!DNL Adobe Workfront].
 
@@ -43,15 +43,15 @@ Antes de postar um comentário de [!DNL Slack] como atualização, é necessári
 * Configurar [!DNL Workfront for Slack]\
    Para obter instruções sobre como configurar o [!DNL Workfront for Slack], consulte [Configurar [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Post um comentário [!DNL Slack] como atualização em [!DNL Workfront]
+## Postar um comentário [!DNL Slack] como uma atualização em [!DNL Workfront]
 
 1. Passe o mouse sobre um comentário adicionado em um canal do [!DNL Slack] e clique no ícone **[!UICONTROL Mais ações]** (três pontos).
 
-1. Clique em **[!UICONTROL Post e atualização] ...`<the name of your Workfront app>`**.
+1. Clique em **[!UICONTROL Postar uma atualização] ...`<the name of your Workfront app>`**.
 
    >[!NOTE]
    >
-   >Talvez seja necessário clicar em **[!UICONTROL Mais atalhos de mensagem]** e rolar para baixo para localizar a opção **[!UICONTROL Post e atualização]**.
+   >Talvez seja necessário clicar em **[!UICONTROL Mais atalhos de mensagem]** e rolar para baixo para localizar a opção **[!UICONTROL Postar uma atualização]**.
    >
    >
 1. Na caixa **[!UICONTROL Projeto, tarefa ou problema]**, comece digitando o nome de um projeto, tarefa ou problema ao qual deseja adicionar a atualização e, em seguida, clique no nome do projeto, tarefa ou problema quando ele aparecer na lista. Você deve ter acesso para visualizar um objeto antes que ele apareça na lista.
@@ -64,4 +64,4 @@ Antes de postar um comentário de [!DNL Slack] como atualização, é necessári
 
    Quando um comentário é originado em [!DNL Slack], ele exibe a mensagem &quot;[!UICONTROL Postado de [!DNL Slack]]&quot; em [!DNL Workfront].
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![Atualização postada do Slack](assets/slack-update-posted-from-slack-350x112.png)

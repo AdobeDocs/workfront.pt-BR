@@ -7,9 +7,9 @@ description: Ao receber uma notificação sobre uma atualização no  [!DNL Adob
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,9 @@ Antes de criar uma tarefa [!DNL Workfront] em [!DNL Google Workspace], você dev
 
 ## Responder a uma notificação de atualização de [!DNL Google Workspace]
 
-1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
+1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no [!DNL Workfront] ícone ![Workfront ícone](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
 1. Abra a notificação por email [!DNL Workfront] que contém a atualização.
-1. Próximo à parte inferior do painel [!UICONTROL Workfront para Google Workspace], clique em **[!UICONTROL Post para fazer um comentário]** e digite sua resposta.
+1. Próximo à parte inferior do painel [!UICONTROL Workfront para Google Workspace], clique em **[!UICONTROL Postar um comentário]** e digite sua resposta.
 1. (Opcional) Para notificar usuários específicos sobre sua resposta, clique em **[!DNL Notify people and teams]**, comece a digitar um nome e, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
    Você pode repetir essa etapa para qualquer outro nome que desejar adicionar.

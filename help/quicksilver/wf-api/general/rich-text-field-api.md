@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Alguns objetos no Adobe Workfront permitem o armazenamento de texto com formata�
 
 Um campo personalizado com formatação rich text é chamado de **Campo com rich text** e pode ter os seguintes valores associados a ele:
 
-![](assets/rich-text-example-350x158.png)
+![Exemplo de rich text](assets/rich-text-example-350x158.png)
 
 **Exemplo:** uma solicitação básica do GET para recuperar o valor do campo de formulário personalizado **Campo com rich text**:
 
@@ -48,7 +48,7 @@ Um bloco é um objeto JSON que representa uma única linha de texto formatado. C
 
 **Exemplo:** Aqui, cada linha de texto de um campo personalizado mapeia para um elemento de bloco nos blocos de matriz
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![Mapeamento de rich text](assets/copy-of-rich-text-mapping-350x159.png)
 
 Como cada elemento de bloco também é um objeto JSON, cada bloco é composto pelos elementos: **key**, **text**, **type**, **depth**, **inlineStyleRanges**, **entityRanges** e **data**. Cada um desses elementos funciona da seguinte maneira:
 
@@ -61,7 +61,7 @@ Como cada elemento de bloco também é um objeto JSON, cada bloco é composto pe
 
 **Exemplo:** Aqui está uma matriz inlineStyleRanges que descreve cada estilo no nível de caractere. Neste caso: 9 caracteres (comprimento: 9) a partir do índice 0 (deslocamento: 0) tiveram o estilo **Negrito** aplicado:
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![Mapeamento de rich text](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 Caso vários tipos de formatação tenham sido aplicados a uma única linha, os estilos serão mapeados para elementos adicionais na matriz ** inlineStyleRanges**.
 

@@ -7,9 +7,9 @@ description: Você pode converter um email externo (não gerado por [!DNL Adobe 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ Antes de criar um problema com o [!DNL Google Workspace], você deve
 
 ## Criar um problema do [!DNL Adobe Workfront] no [!DNL Google Workspace] usando conteúdo de email
 
-1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
+1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no [!DNL Workfront] ícone ![Workfront ícone](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
 1. Com a mensagem de email aberta no [!DNL Google Workspace], clique em uma opção no [!DNL Workfront for Google Workspace] para converter o email em um novo problema do [!DNL Workfront].
 
-   ![](assets/convert-email-task-issue-update.png)
+   ![Converter email](assets/convert-email-task-issue-update.png)
 
 1. Se quiser anexar o problema a um projeto pai, clique em **[!UICONTROL Nome do projeto]**, comece digitando o nome do projeto no qual deseja o problema e clique no nome do projeto quando ele aparecer na lista abaixo.
 1. Faça qualquer uma destas alterações:
@@ -113,6 +113,6 @@ Antes de criar um problema com o [!DNL Google Workspace], você deve
 
    * Para responder a uma atualização na guia **[!UICONTROL Atualizações]**, clique em **[!UICONTROL Responder]** e digite sua resposta.
 
-     Para ambas as ações acima, você pode notificar usuários específicos sobre seu comentário. Clique em **[!UICONTROL Notificar]**, comece a digitar o nome de um usuário e depois clique no nome quando ele aparecer na lista suspensa. Repita esse processo para outros usuários que deseja notificar e clique em **[!UICONTROL Post]**.
+     Para ambas as ações acima, você pode notificar usuários específicos sobre seu comentário. Clique em **[!UICONTROL Notificar]**, comece a digitar o nome de um usuário e depois clique no nome quando ele aparecer na lista suspensa. Repita esse processo para outros usuários que deseja notificar e clique em **[!UICONTROL Postar]**.
 
    * Clique na guia **[!UICONTROL Documentos]** para ver todos os documentos salvos com o problema.

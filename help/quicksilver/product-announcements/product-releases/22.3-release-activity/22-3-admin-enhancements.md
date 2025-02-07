@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 1%
 
 ---
 
@@ -96,7 +96,7 @@ Para obter mais informações, consulte [Configurar preferências de projeto do 
 
 ## Desativar um grupo na página Grupos
 
-Recentemente, adicionamos a capacidade de desativar e reativar grupos. Para tornar essa ação mais rápida e fácil, a adicionamos à página de um grupo. Agora, depois de clicar no nome de um grupo para ir para sua página, você pode selecionar o menu Mais ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) ao lado do nome do grupo e selecionar Desativar ou Reativar.
+Recentemente, adicionamos a capacidade de desativar e reativar grupos. Para tornar essa ação mais rápida e fácil, a adicionamos à página de um grupo. Agora, depois de clicar no nome de um grupo para ir para sua página, você pode selecionar o ![ícone do menu principal](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) ao lado do nome do grupo e depois selecionar Desativar ou Reativar.
 
 Anteriormente, só era possível desativar ou reativar um grupo usando a caixa de seleção Está ativo na página Detalhes.
 

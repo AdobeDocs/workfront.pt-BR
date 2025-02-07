@@ -6,9 +6,9 @@ description: O suplemento  [!DNL Adobe Workfront] [!DNL Outlook] permite executa
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Você pode obter o suplemento Workfront para Outlook na [Microsoft store](https:
 
 ### [!DNL Workfront] para [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. Em [!DNL Outlook 365], clique no ícone ![](assets/outlook-add-in-26x26.png)Procurar Suplementos ]**na parte superior da interface do Office 365 e clique em**[!UICONTROL  Gerenciar suplementos ]**.**[!UICONTROL 
+1. Em [!DNL Outlook 365], clique no ícone **[!UICONTROL Procurar Suplementos]** ![Procurar Suplementos](assets/outlook-add-in-26x26.png)na parte superior da interface do Office 365 e clique em **[!UICONTROL Gerenciar suplementos]**.
 
 1. Na caixa **[!UICONTROL Pesquisar suplementos]**, procure **[!DNL Workfront]** e pressione [!UICONTROL Enter].
 
@@ -121,7 +121,7 @@ Você pode obter o suplemento Workfront para Outlook na [Microsoft store](https:
 ### [!DNL Workfront] para [!DNL Outlook] na Web {#workfront-for-outlook-on-the-web}
 
 1. Abra [!DNL Microsoft Outlook] em um navegador da Web.
-1. Clique no ícone **[!UICONTROL Procurar] suplementos** ![](assets/outlook-add-in-web-version-20x20.png).
+1. Clique no ícone **[!UICONTROL Procurar] suplementos** ![Procurar suplementos](assets/outlook-add-in-web-version-20x20.png).
 
    Para localizar o ícone, consulte [Uso de suplementos [!DNL Outlook] na Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) na documentação do Microsoft.
 

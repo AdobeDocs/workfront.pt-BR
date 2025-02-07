@@ -6,9 +6,9 @@ description: Após instalar [!DNL Adobe Workfront] por [!DNL Salesforce], you ca
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -107,9 +107,9 @@ Para enviar uma solicitação [!DNL Workfront] de uma Oportunidade ou Conta [!DN
 1. (Opcional) Clique em **[!UICONTROL Ir para[!DNL Salesforce]]** para acessar a Oportunidade ou Conta em que o problema se originou nas seguintes áreas do Workfront:
 
    * Na seção [!UICONTROL Detalhes] do problema
-   * No painel Resumo, ao selecionar o problema em uma lista, depois de clicar em [!UICONTROL Abrir Resumo] ![](assets/summary-panel-icon.png) na barra de ferramentas da lista.
+   * No painel Resumo, ao selecionar o problema em uma lista, depois de clicar em [!UICONTROL Abrir resumo] ![ícone do painel Resumo](assets/summary-panel-icon.png) na barra de ferramentas da lista.
    * No cabeçalho do problema, quando o campo [!UICONTROL Integrações] estiver disponível. O administrador do sistema ou do grupo deve adicionar o campo [!UICONTROL Integrações] ao Modelo de layout para exibir o link Ir para o Salesforce no cabeçalho do problema. Para obter mais informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]
    >
-   >O link [!UICONTROL Ir para o Salesforce] está visível para todos os usuários [!DNL Workfront] que podem ver o problema. Você deve ter uma conta [!DNL Salesforce] para poder acessar a Oportunidade [!DNL Salesforce] ou a Conta onde o problema foi registrado.
+   >O link [!UICONTROL Ir para o Salesforce] está visível para todos os usuários [!DNL Workfront] que podem exibir o problema. Você deve ter uma conta [!DNL Salesforce] para poder acessar a Oportunidade [!DNL Salesforce] ou a Conta onde o problema foi registrado.

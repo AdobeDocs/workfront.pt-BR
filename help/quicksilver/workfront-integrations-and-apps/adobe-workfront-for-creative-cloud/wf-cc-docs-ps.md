@@ -6,9 +6,9 @@ description: Você pode fazer upload de projetos como documentos para uma revis�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no ícone **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Retornar à Lista de Trabalho](assets/go-back-to-work-list-350x314.png)
 
 1. Vá para o item de trabalho no qual deseja carregar um documento.
-1. Clique no ícone ![](assets/documents.png) do **[!UICONTROL Documento]** na barra de navegação.
+1. Clique no ícone **[!UICONTROL Documento]** ![Ícone Documento](assets/documents.png) na barra de navegação.
 
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do plug-in.
 1. Escolha o **[!UICONTROL Tipo de ativo]** no menu suspenso.

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,12 @@ Ao usar a API principal do Adobe Workfront, o API Explorer é uma ferramenta de 
 ## Acesse o API Explorer:
 
 1. Use um navegador da Web para navegar até o [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
-   ![](assets/mceclip1-350x149.png)
+   ![Navegar até o API Explorer](assets/mceclip1-350x149.png)
 
 1. No canto superior direito do API Explorer, selecione a **Versão da API** desejada do Workfront. Por padrão, a versão mais atual é selecionada automaticamente
 1. O campo **Filtro** pode ser usado para filtrar os objetos listados por nome e truncará a lista de objetos exibidos de acordo:
 
-   ![](assets/mceclip2-350x147.png)
+   ![Campos do API Explorer](assets/mceclip2-350x147.png)
 
    * **Campos**: campos disponíveis dentro do objeto especificado.
    * **Referências**: variáveis de referência disponíveis para o objeto especificado. Uma referência é um alias para uma variável. Depois de inicializada, uma referência pode ser usada alternadamente com o nome da variável. Uma referência usa memória inicializada.
@@ -36,7 +36,7 @@ Ao usar a API principal do Adobe Workfront, o API Explorer é uma ferramenta de 
    * **Ações**: ações com suporte para o objeto. As ações podem ser procedimentos simples ou complexos executados em relação a um recurso ou conjunto de recursos. Uma determinada ação também pode afetar os recursos relacionados.
 
 1. Abra uma guia e, em seguida, clique no ID do Objeto para exibir as variáveis aplicáveis.\
-   ![](assets/approval-350x89.png)\
+   ![Exibir variáveis](assets/approval-350x89.png)\
    Dependendo do objeto selecionado, as seguintes variáveis podem ser aplicadas:
 
    | Variável | Definição |

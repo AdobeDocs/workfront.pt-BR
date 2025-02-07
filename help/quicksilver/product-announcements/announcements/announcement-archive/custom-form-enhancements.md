@@ -4,9 +4,9 @@ description: Os seguintes aprimoramentos significativos foram feitos no gerencia
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ Os seguintes aprimoramentos significativos foram feitos no gerenciamento de form
 
 Você pode incorporar imagens em seus formulários personalizados. Isso permite que você se comunique com os usuários do formulário personalizado de uma maneira mais interativa e visual. Tipos de widget adicionais serão disponibilizados em breve.
 
-![](assets/image-in-custom-form.png)
+![Imagem em formulário personalizado](assets/image-in-custom-form.png)
 
 Quando um formulário personalizado contendo um widget é anexado a um objeto, os usuários que trabalham com o objeto podem vê-lo nas seguintes áreas:
 
 * A área Detalhes do objeto (por exemplo, para um projeto, a área Detalhes do projeto)&#x200B;
 
-  ![](assets/see-image-details-page.png)
+  ![Detalhes da imagem](assets/see-image-details-page.png)
 
 * A caixa Editar do objeto, se ele tiver a nova aparência da experiência do Adobe Workfront (por exemplo, as caixas Editar projeto e Editar tarefa)&#x200B;
 
-  ![](assets/image-see-in-edit.png)
+  ![Edição de imagem](assets/image-see-in-edit.png)
 
 Atualmente, os usuários não podem ver o widget nas seguintes áreas:&#x200B;
 
@@ -42,11 +42,11 @@ Atualmente, os usuários não podem ver o widget nas seguintes áreas:&#x200B;
 
 Você pode associar vários tipos de objetos a qualquer novo formulário personalizado:
 
-![](assets/new-custom-form-object-types.png)
+![Tipos de objeto de formulário personalizado](assets/new-custom-form-object-types.png)
 
 Ou qualquer formulário personalizado existente:
 
-![](assets/add-object-type-existing-form.png)
+![Adicionar tipo de objeto ao formulário](assets/add-object-type-existing-form.png)
 
 Isso permite criar um único formulário personalizado para usar em projetos, tarefas, problemas e qualquer outro tipo de objeto que seja compatível com formulários personalizados.
 
@@ -76,11 +76,11 @@ Considere o seguinte ao criar ou editar um formulário personalizado de vários 
 
 O conjunto de opções de permissão de quebra de seção disponíveis para os tipos de objeto Problema, Tarefa, Projeto e Usuário tem uma opção de permissão a mais do que o conjunto de opções de permissão para todos os outros tipos de objeto: Edição limitada.
 
-![](assets/section-break-permissions-limited-edit.png)
+![Quebra de seção com edição limitada](assets/section-break-permissions-limited-edit.png)
 
 O conjunto de permissões de quebra de seção disponível para todos os outros tipos de objeto (Portfolio, Documento, Programa, Despesa, Empresa, Iteração, Registro de faturamento e Grupo) não inclui Edição limitada:
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![Quebra de seção sem edição limitada](assets/section-break-permissions-no-limited-edit.png)
 
 Em um formulário personalizado associado a tipos de objeto de ambos os grupos, o sistema usa um conjunto comum de permissões de quebra de seção que funcionam para todos os tipos de objeto. Especificamente, em vez de usar a opção de permissão Edição limitada, esse conjunto comum substitui a opção de permissão Editar pela opção de permissão Edição limitada. A opção Editar é compatível com todos os tipos de objeto.
 

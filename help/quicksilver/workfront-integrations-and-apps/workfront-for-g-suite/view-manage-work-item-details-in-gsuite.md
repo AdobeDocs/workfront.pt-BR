@@ -7,9 +7,9 @@ description: Você pode exibir e gerenciar os detalhes de um item de trabalho se
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Antes de exibir e gerenciar os detalhes do item de trabalho no [!DNL Google Work
 
 ## Exibir e gerenciar detalhes do item de trabalho em [!DNL Google Workspace]
 
-1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
+1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no [!DNL Workfront] ícone ![Workfront ícone](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
 1. Vá para a tarefa ou problema [!DNL Workfront] em [!DNL Google Workspace], conforme descrito em [Acesso [!DNL Adobe Workfront] [!UICONTROL Residência] conteúdo de [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
    Quando você seleciona uma tarefa ou problema, a guia **[!UICONTROL Detalhes]** está aberta. A área acima da guia **[!UICONTROL Detalhes]** exibe o nome do objeto pai, o nome da tarefa ou problema e a [!UICONTROL Data de vencimento] (se for uma tarefa) ou a [!UICONTROL Data de prioridade] (se for um problema).

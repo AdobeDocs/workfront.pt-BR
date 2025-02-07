@@ -2,14 +2,14 @@
 content-type: overview
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: Visão geral do Adobe Workfront for Salesforce
+title: Visão geral do Adobe Workfront para Salesforce
 description: Você pode instalar o [!DNL Adobe Workfront] for Salesforce para permitir que seus usuários do Salesforce enviem [!DNL Workfront] solicitações e criem projetos automaticamente sem sair do Salesforce.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ Considere o seguinte ao trabalhar com [!DNL Workfront] para [!DNL Salesforce]:
 
   Para obter uma lista de [!DNL Workfront] campos que você pode visualizar a partir de [!DNL Salesforce], consulte [Enviar [!DNL Adobe Workfront] solicitações de [!DNL Salesforce] objetos](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) e [Criar [!DNL Adobe Workfront] projetos de [!DNL Salesforce] objetos](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-* Você pode acessar diretamente os itens vinculados ao [!DNL Salesforce] clicando no link **[!UICONTROL Ir para o Salesforce]** no Workfront.
+* Você pode acessar diretamente os itens vinculados ao [!DNL Salesforce] clicando no link **[!UICONTROL Ir para o Salesforce]** do Workfront.
 
-  Você não pode exibir nenhuma informação sobre os [!DNL Salesforce] itens em [!DNL Workfront], mas você tem um link para o item [!UICONTROL Salesforce] de [!DNL Workfront] para analisá-lo em [!DNL Salesforce].
+  Você não pode exibir nenhuma informação sobre os [!DNL Salesforce] itens em [!DNL Workfront], mas tem um link para o item [!UICONTROL Salesforce] de [!DNL Workfront] para revisá-lo em [!DNL Salesforce].
 
   [!UICONTROL O link **Ir para o Salesforce**] é exibido nas seguintes áreas:
 
@@ -78,10 +78,10 @@ Considere o seguinte ao trabalhar com [!DNL Workfront] para [!DNL Salesforce]:
    * O cabeçalho de um projeto ou um problema.
 
      O administrador do sistema ou do grupo deve adicionar o campo [!UICONTROL Integrações] ao Modelo de Layout para exibir o link [!UICONTROL Ir para o Salesforce] no cabeçalho do projeto ou do problema.
-   * O painel [!DNL Summary] de um problema ao selecionar o problema em uma lista, depois de clicar em [!UICONTROL Abrir resumo] ![](assets/summary-panel-icon.png) na barra de ferramentas da lista.
+   * O painel [!DNL Summary] de um problema ao selecionar o problema em uma lista, depois de clicar em [!UICONTROL Abrir resumo] ![ícone do painel Resumo](assets/summary-panel-icon.png) na barra de ferramentas da lista.
 
      >[!NOTE]
      >
-     >O link [!UICONTROL Ir para o Salesforce] está visível para todos os usuários [!DNL Workfront] que podem ver o projeto ou o problema. Você deve ter uma conta [!DNL Salesforce] para poder acessar a Oportunidade [!DNL Salesforce] ou a Conta onde o problema foi registrado.
+     >O link [!UICONTROL Ir para o Salesforce] está visível para todos os usuários [!DNL Workfront] que podem exibir o projeto ou o problema. Você deve ter uma conta [!DNL Salesforce] para poder acessar a Oportunidade [!DNL Salesforce] ou a Conta onde o problema foi registrado.
 
 * A atualização de campos em um item em um aplicativo não atualiza nenhuma informação sobre itens vinculados em outro aplicativo.

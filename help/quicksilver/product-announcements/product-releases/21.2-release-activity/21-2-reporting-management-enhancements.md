@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Para corresponder à aparência moderna de outras áreas na nova experiência do
 
 Para obter mais informações sobre atribuições em listas, consulte [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md) ou [Atribuir problemas](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![Atualizações de atribuições](assets/assignments-updates-350x193.png)
 
 ## Nova aparência para campos de digitação antecipada em listas e relatórios atualizados
 
@@ -64,7 +64,7 @@ Para corresponder à aparência moderna de outras áreas na nova experiência do
 
 Para obter informações sobre listas atualizadas, consulte a seção [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![Campo de digitação antecipada](assets/typeahead-updates-350x336.png)
 
 ## Relatório sobre atualizações do sistema
 

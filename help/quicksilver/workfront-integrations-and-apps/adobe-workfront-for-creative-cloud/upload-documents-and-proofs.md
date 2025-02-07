@@ -9,9 +9,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Para alterar sua alternância de volta para um único arquivo em [!DNL InDesign]
 
 1. Abra a caixa de diálogo **Definir Configurações do Arquivo de Exportação**.
 
-   ![](assets/file-export-settings.png)
+   ![Configurações de exportação de arquivo](assets/file-export-settings.png)
 
 1. Encontre o tipo de ativo que deseja exportar e ajuste as configurações conforme descrito abaixo:
 
