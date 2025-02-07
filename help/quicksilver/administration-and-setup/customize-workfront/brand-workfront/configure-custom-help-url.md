@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Se você criar um site de ajuda interno personalizado contendo informações sobre como sua organização usa o Workfront, poderá configurar o ícone Menu principal Ajuda para acessar esse site.
 
-![](assets/custom-help-button.png)
+![Botão de ajuda personalizado](assets/custom-help-button.png)
 
 Isso não afeta os links de ajuda com reconhecimento de contexto no Workfront, que direciona os usuários para o site de Ajuda do Workfront.
 

@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Mensagem de erro: Há um pequeno problema. Esse campo é usado em uma configuração de vários formulários"
+title: 'Mensagem de erro: Há um pequeno problema. Esse campo é usado em uma configuração de vários formulários'
 description: Quando você altera um cálculo em um campo personalizado calculado em um formulário personalizado e uma mensagem de erro informa que o campo é usado em uma configuração de vários formulários, é necessário substituir o campo por um novo campo que contenha o cálculo que você deseja usar.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Este artigo explica como localizar o objeto e, em seguida, resolver o problema d
 
    **Exemplo:** Campo 1 no formulário 1 = Sim, Campo 2 no formulário 2 = Sim, Campo 3 no formulário 3 = Sim. Isso significa que &quot;O Campo personalizado calculado existe no Formulário 1&quot;, ou &quot;O Campo personalizado calculado existe no Formulário 2&quot; e assim por diante.
 
-1. No **[!UICONTROL ícone de Pesquisa]** ![](assets/search-icon.png), no canto superior direito da tela, clique em **[!UICONTROL Pesquisa Avançada]**.
+1. No **[!UICONTROL ícone de Pesquisa]** ![ícone de Pesquisa](assets/search-icon.png), no canto superior direito da tela, clique em **[!UICONTROL Pesquisa Avançada]**.
 1. Clique no objeto do formulário personalizado (como Problema), clique em **[!UICONTROL Filtrar resultados]** e em **[!UICONTROL Adicionar um filtro]**.
 1. Comece a digitar o nome de um campo Caixa de seleção no campo **[!UICONTROL Comece a digitar o nome do campo]** e selecione-o quando ele for exibido na lista, selecione **[!UICONTROL Igual]** e digite **[!UICONTROL Sim]** (sem aspas) na caixa a seguir.
 

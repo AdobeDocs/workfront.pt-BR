@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -125,15 +125,15 @@ Para configurar decisões de prova:
       >
       >Mantenha a lógica de uma decisão ao renomeá-la. Por exemplo, a decisão padrão Rejeitada pode ser alterada para *Nova versão necessária*, mas não deve ser alterada para *Enviar para Impressoras*.
 
-      ![](assets/rename-decision-350x109.png)
+      ![Renomear decisão](assets/rename-decision-350x109.png)
 
    1. **Reorganizar a ordem de decisão**: arraste as caixas de decisão na ordem em que você deseja que elas apareçam no visualizador de revisões.
 
-      ![](assets/move-decision-350x110.png)
+      ![Mover decisão](assets/move-decision-350x110.png)
 
    1. **Ocultar uma decisão**: passe o mouse sobre a caixa de decisão e clique no ícone Ocultar no canto superior direito.
 
-      ![](assets/hide-decision-350x109.png)
+      ![Ocultar decisão](assets/hide-decision-350x109.png)
 
 1. (Opcional) Para voltar aos padrões do Workfront, clique em **Restaurar padrões**.
 1. Clique em **Salvar**.

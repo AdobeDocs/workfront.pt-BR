@@ -6,10 +6,10 @@ navigation-topic: configure-proofing-functionality
 title: Configurar se as provas são geradas automaticamente
 description: É possível configurar se o sistema gera provas automaticamente quando os usuários especificados adicionam documentos ao Workfront. Essa configuração é desativada por padrão.
 author: Courtney
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '245'
+ht-degree: 2%
 
 ---
 
@@ -45,17 +45,17 @@ Você deve ter o seguinte:
 
 ## Configure se as provas são geradas automaticamente para um único usuário
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Usuários** ![Usuários](assets/users-icon-in-main-menu.png).
 1. Selecione um usuário com acesso à prova e clique em **Editar**.
 1. Na seção **Preferências**, ative ou desative a caixa de seleção **Gerar provas automaticamente ao carregar documentos**.
 
-   ![](assets/autogenerate-proofs-350x216.png)
+   ![Gerar provas automaticamente](assets/autogenerate-proofs-350x216.png)
 
 1. Clique em **Salvar alterações**.
 
 ## Configure se as provas são geradas automaticamente para vários usuários
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png).
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique no ícone **Usuários** ![Usuários](assets/users-icon-in-main-menu.png).
 1. Selecione os usuários com acesso à prova e clique em **Editar**.
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ Você deve ter o seguinte:
 
 1. Na seção **Preferências**, habilite a caixa de seleção **Gerar provas automaticamente ao carregar documentos** e selecione **Sim** ou **Não**.
 
-   ![](assets/autogenerate-proofs-bulk-350x285.png)
+   ![Geração automática de provas em massa](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. Clique em **Salvar alterações**.
 

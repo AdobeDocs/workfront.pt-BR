@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >* Se você for um administrador de grupo, poderá efetuar login somente como usuários nos grupos que gerencia. Além disso, a permissão Administrador de usuários (usuários de grupo) deve estar ativada em seu nível de acesso:
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![Usuário administrador de grupo](assets/group-admin-user.png)
    >   
    >  Essa configuração é desativada por padrão. Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
@@ -153,7 +153,7 @@ Por exemplo, se você comentar em um item enquanto estiver conectado como outro 
 ### Exibir informações de auditoria {#view-audit-information}
 
 1. Faça logon no Workfront como administrador do Workfront ou administrador de grupo.
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique no ícone **Configurar** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
 1. Clique em **Fazer logon como** e na guia **Log de acesso**.
 

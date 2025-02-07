@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 ## Brand Adobe Workfront usando um modelo de layout
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalizar o que os usuários veem** e clique em **Identidade Visual**.
+1. Clique na seta para baixo ![Seta para baixo](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e clique em **Identidade Visual**.
 1. Faça qualquer uma das alterações a seguir para personalizar o Workfront com imagens de marca para os atribuídos a esse modelo de layout.
 
    <table style="table-layout:auto"> 

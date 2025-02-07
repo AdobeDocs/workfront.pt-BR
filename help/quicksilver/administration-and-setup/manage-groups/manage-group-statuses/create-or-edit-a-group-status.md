@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Clique no nome do grupo no qual deseja criar ou personalizar os status.
 1. No painel esquerdo, clique em **Status**.
@@ -87,7 +87,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Condicional) Se o status for um problema, verifique se **Lista Mestra** está selecionada.
 
-   ![](assets/master-list.png)
+   ![Lista mestra](assets/master-list.png)
 
    Para obter informações sobre como personalizar outros tipos de problemas (Relatório de Erros, Pedido de Alteração, Problema, Solicitação), consulte [Personalizar tipos de problemas padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -97,7 +97,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Para editar um status existente, passe com o mouse sobre o status que deseja editar, em seguida, clique na opção **Editar** que é exibida na extremidade direita.
 
-   ![](assets/group-statuses-edit.jpg)
+   ![Status do grupo](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >Você pode editar um status para o seu grupo somente se:
@@ -173,11 +173,11 @@ Se você for um administrador de grupo (ou um administrador do Workfront), poder
 1. Na caixa no canto superior direito, exclua **Status do Sistema**, comece digitando o nome de um grupo no qual deseja ocultar o status e, em seguida, clique no nome quando ele for exibido.
 1. Passe o cursor do mouse sobre o status que deseja ocultar do grupo e clique em **Editar** quando ele aparecer.
 
-   ![](assets/hover-click-edit.jpg)
+   ![Editar status](assets/hover-click-edit.jpg)
 
 1. Habilite a opção **Ocultar Status** que aparece.
 
-   ![](assets/hide-group-status.png)
+   ![Ocultar status](assets/hide-group-status.png)
 
 1. Clique em **Salvar**.
 

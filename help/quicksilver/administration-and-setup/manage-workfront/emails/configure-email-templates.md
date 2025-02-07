@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '828'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. No painel esquerdo, clique em **Email** > **Notificações**> **Modelos de email**.
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![Guia Modelos de email](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Clique em **Novo Modelo de email**.
 
@@ -239,7 +239,7 @@ Um Projeto Que Você Gerencia Se Atrasou
 
 Isso produzirá um email semelhante ao seguinte:
 
-![](assets/project-became-late-email.png)
+![Email de atraso do projeto](assets/project-became-late-email.png)
 
 #### Lembrete de Tarefa ou Problema Prestes a Iniciar {#task-or-issue-about-to-start-reminder-example}
 

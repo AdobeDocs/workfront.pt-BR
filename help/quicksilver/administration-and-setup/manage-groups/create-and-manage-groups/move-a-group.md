@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
@@ -64,9 +64,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
-1. Selecione o grupo de destino para o qual deseja mover o grupo e clique no ícone Editar ![](assets/edit-icon.png).
+1. Selecione o grupo de destino para o qual deseja mover o grupo e clique no ícone Editar ![ícone Editar](assets/edit-icon.png).
 1. Na caixa **Editar Grupo** que aparece, em **Membros do Grupo e Administradores do Grupo**, comece digitando o nome do grupo que deseja mover e, em seguida, clique nele quando ele aparecer.
 1. Clique em **Salvar**.
 

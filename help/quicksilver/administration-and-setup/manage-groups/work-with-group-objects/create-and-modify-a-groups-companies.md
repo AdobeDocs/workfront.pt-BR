@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Clique no nome do grupo para o qual deseja criar ou modificar empresas.
 1. No painel esquerdo, clique em **Empresas** para listar as empresas associadas ao grupo e seus subgrupos.
@@ -86,8 +86,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    >
    >Se você tiver acesso administrativo a empresas em seu nível de acesso, também poderá clicar em Adicionar mais empresas na parte inferior da lista. Isso adiciona uma linha onde é possível configurar rapidamente a nova empresa.
 
-1. (Opcional) Para editar ou excluir empresas, selecione pelo menos uma empresa e, em seguida, use os botões da barra de ferramentas para editar ![](assets/edit-icon.png) ou excluí-la ![](assets/delete.png).
+1. (Opcional) Para editar ou excluir empresas, selecione pelo menos uma empresa e use os botões da barra de ferramentas para editar o ![ícone Editar](assets/edit-icon.png) ou excluir o ![ícone Excluir](assets/delete.png).
 
    Para obter informações sobre como editar uma empresa, consulte a seção [Criar ou editar uma empresa no Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) no artigo [Criar e editar empresas](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Opcional) Para exportar a lista de empresas, clique no ícone Exportar ![](assets/export.png) e selecione o formato de arquivo desejado para a lista exportada.
+1. (Opcional) Para exportar a lista de empresas, clique no ícone Exportar ![ícone Exportar](assets/export.png) e selecione o formato de arquivo desejado para a lista exportada.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique no nome do grupo para abrir sua página.
 
-1. Clique no menu Mais ![](assets/more-icon.png) ao lado do nome do grupo e em **Desativar** ou **Reativar**.
+1. Clique no ícone Mais ![Mais](assets/more-icon.png) do menu ao lado do nome do grupo e clique em **Desativar** ou **Reativar**.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Considere o seguinte sobre um grupo que você desativa ao desabilitar a opção 
 
   Para obter informações sobre como reativar um subgrupo nessa situação, consulte [Sobre a reativação de um subgrupo abaixo de um grupo pai inativo](#about-reactivating-a-subgroup-below-an-inactive-parent-group) neste artigo.
 
-* Ao ir para a área Grupos na Configuração, você pode ver apenas os grupos ativos na lista, pois Ativo é o filtro padrão ![](assets/filter-nwepng.png) para ele. Se quiser ver todos os grupos gerenciados, incluindo os inativos, use o filtro Todos. Ou use o filtro Inativo para listar apenas os inativos.
+* Ao ir para a área Grupos na Configuração, você pode ver apenas os grupos ativos na lista, pois Ativo é o filtro padrão ![Ícone de filtro](assets/filter-nwepng.png) para ele. Se quiser ver todos os grupos gerenciados, incluindo os inativos, use o filtro Todos. Ou use o filtro Inativo para listar apenas os inativos.
 
   Para obter mais informações sobre filtros em listas, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

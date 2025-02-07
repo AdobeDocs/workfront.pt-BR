@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
-1. Selecione o grupo que deseja excluir e clique no ícone Excluir ![](assets/delete.png).
+1. Selecione o grupo que deseja excluir e clique no ícone Excluir ![Excluir](assets/delete.png).
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Na caixa **Excluir Grupo** exibida, comece a digitar e selecione o nome do grupo para o qual deseja mover os membros, itens de trabalho e subgrupos do grupo que está sendo excluído.
 
-   Você pode verificar se está selecionando o grupo correto passando o cursor do mouse sobre ele e clicando no ícone de informações ![](assets/info-icon.png) que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.
+   Você pode verificar se está selecionando o grupo correto passando o cursor do mouse sobre ele e clicando no ícone de informações ![ícone de informações](assets/info-icon.png) que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.
 
 1. Clique em **Excluí-los**.

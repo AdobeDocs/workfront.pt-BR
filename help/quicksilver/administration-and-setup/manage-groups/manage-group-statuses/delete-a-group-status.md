@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. No painel esquerdo, clique em **Status**.
 1. Na lista de status exibida, passe o mouse sobre o status que deseja excluir e clique em **Excluir** quando ele aparecer à direita.
 
-   ![](assets/hover-click-delete.jpg)
+   ![Excluir](assets/hover-click-delete.jpg)
 
 1. Na caixa exibida, selecione um status para designar um status de substituição para objetos (projetos, tarefas, problemas e processos de aprovação) que estavam usando o status que você está excluindo.
 

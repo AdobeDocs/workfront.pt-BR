@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Como administrador do Adobe Workfront, você pode usar um modelo de layout para determinar quais informações aparecem quando um usuário clica no ícone Detalhes ![](assets/project-details-icon.png) no painel esquerdo enquanto visualiza uma tarefa, problema, documento, programa ou portfólio.
+Como administrador do Adobe Workfront, você pode usar um modelo de layout para determinar quais informações aparecem quando um usuário clica no ícone Detalhes ![ícone Detalhes](assets/project-details-icon.png) no painel esquerdo enquanto visualiza uma tarefa, problema, documento, programa ou portfólio.
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ As alterações feitas na view Detalhes de um objeto também determinam a dispon
 
 * Caixas &quot;Criar objeto&quot;, como Criar tarefa
 
-  ![](assets/new-task-dialog.png)
+  ![Caixa de diálogo Nova tarefa](assets/new-task-dialog.png)
 
 
 * Telas &quot;Editar objeto&quot; ao editar um objeto, como Editar tarefa, Editar problema e Editar projeto
 
-  ![](assets/edit-task-screen.png)
+  ![Editar tela de tarefa](assets/edit-task-screen.png)
 
 
 * As telas &quot;Editar objetos&quot; são exibidas ao editar objetos em massa. Atualmente, isso é compatível com a edição de projetos em massa.
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![Personalizar projetos de edição](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Painel de resumo ![](assets/summary-panel-icon.png) para listas de tarefas e problemas
+* Painel de resumo ![Painel de resumo](assets/summary-panel-icon.png) para listas de tarefas e problemas
 
-  ![](assets/summary-area.png)
+  ![Área de resumo](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 ## Personalize o que os usuários veem na visualização de Detalhes
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique na seta para baixo ![](assets/dropdown-arrow-12x12.png) em **Personalizar o que os usuários veem** e em **Projeto**, **Tarefa**, **Problema**, **Programa** ou **Portfolio.**
+1. Clique na seta para baixo ![Seta para baixo](assets/dropdown-arrow-12x12.png) em **Personalizar o que os usuários veem** e clique em **Projeto**, **Tarefa**, **Problema**, **Programa** ou **Portfolio.**
 <!--
 , or billing record
 -->
 
 1. Na seção **Detalhes**, siga um destes procedimentos para personalizar o que os usuários veem na exibição Detalhes:
 
-   * Arraste qualquer cabeçalho de seção ![](assets/move-icon---dots.png) para alterar sua ordem.
+   * Arraste qualquer cabeçalho de seção ![ícone Mover](assets/move-icon---dots.png) para alterar sua ordem.
    * Habilite ou desabilite opções nas várias áreas (como **Visão geral**, **Finanças** e **Forms Personalizado**) para exibi-las ou ocultá-las.
 
      Se você ocultar todos os campos em uma dessas seções, a seção inteira será ocultada.

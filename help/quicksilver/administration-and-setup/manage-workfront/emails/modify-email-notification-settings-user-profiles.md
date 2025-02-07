@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Para modificar as configurações de notificação por email para vários usuár
 
 1. Expanda uma categoria para exibir as configurações de notificação relacionadas a ela.
 
-   Se houver pelo menos um usuário selecionado no qual as notificações não correspondam às notificações dos outros usuários selecionados, a caixa de seleção de categoria para essa notificação conterá uma linha horizontal ![](assets/straight-line-instead-of-checkmark.jpg) em vez de uma marca de seleção.
+   Se houver pelo menos um usuário selecionado em que as notificações não correspondam às notificações dos outros usuários selecionados, a caixa de seleção de categoria dessa notificação conterá uma linha horizontal ![Linha em vez de uma marca de seleção](assets/straight-line-instead-of-checkmark.jpg).
 
 
 1. Clique em qualquer notificação que você deseja que os usuários recebam diariamente ou instantaneamente, ou desmarque qualquer uma que você deseja que eles parem de receber.
@@ -80,7 +80,7 @@ Para modificar as configurações de notificação por email para vários usuár
 
 1. Se você selecionou notificações para serem enviadas como um resumo diário, selecione a hora do dia em que deseja que o resumo seja entregue na parte superior da seção **Notificações** do menu **Resumo diário de emails após**.
 
-   ![](assets/daily-digest-time.png)
+   ![Hora de resumo diária](assets/daily-digest-time.png)
 
    O resumo diário inclui eventos que atendem aos critérios das notificações 24 horas antes da hora selecionada. Os usuários recebem um email de resumo diário para cada tipo de notificação.
 

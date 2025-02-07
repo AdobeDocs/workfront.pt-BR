@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Para obter mais informações sobre [!DNL Workfront] permissões, consulte [Cria
 
 1. Clique na guia **[!UICONTROL Grupos]**.
 
-   ![](assets/groupstab.png)
+   ![Guia Grupos](assets/groupstab.png)
 
 1. Certifique-se de que o usuário pertença a pelo menos um grupo [!DNL Workfront] que tenha Níveis de acesso que incluam as permissões [!UICONTROL Criar] e [!UICONTROL Excluir].
 

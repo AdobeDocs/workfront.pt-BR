@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para especificar quais controles de lista aparecem nos menus suspensos Filtro, Exibir e Agrupamento. Esses menus são exibidos acima em listas em todo o Workfront, como a lista de tarefas de um projeto:
 
-![](assets/filter-view-grouping-layout-templates.png)
+![Modelos de layout de agrupamento de modo de exibição de filtro](assets/filter-view-grouping-layout-templates.png)
 
 Para obter mais informações sobre modelos de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,25 +62,25 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 ## Personalizar controles de Filtro, Exibição e Lista de Agrupamento:
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique na seta para baixo ![](assets/down-arrow-blue.png) em **Personalize o que os usuários veem** e clique em **Listas** no menu suspenso exibido.
+1. Clique na seta para baixo ![Seta para baixo](assets/down-arrow-blue.png) em **Personalize o que os usuários veem** e clique em **Listas** no menu suspenso exibido.
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![Personalize o que os usuários veem](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. Clique na seta para baixo ![](assets/down-arrow-blue.png) em **Selecione uma lista para personalizar** e selecione o tipo de objeto do Workfront para o qual deseja personalizar os controles de Lista de Filtro, Exibição e Agrupamento.
+1. Clique na seta para baixo ![Seta para baixo](assets/down-arrow-blue.png) em **Selecione uma lista para personalizar** e selecione o tipo de objeto do Workfront para o qual deseja personalizar os controles de Filtro, Exibição e Lista de Agrupamento.
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![Selecione uma lista para personalizar](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >Se você selecionar Projetos como a lista a ser personalizada e desativar Projetos aos quais pertenço ou Projetos que possuo na seção Filtro, os usuários não verão mais esse filtro ou não poderão mais usá-lo:
    >
-   >* Na lista de filtros exibida ao clicar no ícone de filtro ![](assets/filter-nwepng.png) acima de uma lista:
+   >* Na lista de filtros exibida ao clicar no ícone de filtro ![Ícone de filtro](assets/filter-nwepng.png) acima de uma lista:
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![Desabilitar filtros](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* No cabeçalho do cabeçalho da área Projetos:
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![Botão Desabilitar filtros](assets/disable-filter-pills.png)
 
 1. (Opcional) Se quiser alterar o filtro, o modo de exibição ou o agrupamento padrão do modelo de layout, passe o mouse sobre o filtro, o modo de exibição ou o agrupamento e clique em **Definir como padrão**.
 

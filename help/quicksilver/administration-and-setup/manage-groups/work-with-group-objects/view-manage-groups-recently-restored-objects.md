@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Clique no nome do grupo.
 1. No painel esquerdo, clique em **Restaurados recentemente**.

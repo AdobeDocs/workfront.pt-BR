@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,9 @@ Para gerar convites por email manualmente para usuários não registrados existe
 
 1. Selecione o usuário que mostra o rótulo **Não registrado** depois de seu nome.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![Não registrado](assets/unreg-user-qs-350x221.png)
 
-1. Clique no ícone Mais ![](assets/more-icon.png) e em **Lembrar usuário de se registrar**.
+1. Clique no ícone Mais ![ícone Mais](assets/more-icon.png) e em **Lembrar usuário de se registrar**.
 
    Um convite é enviado por email para o novo usuário com um novo link que ele pode usar para criar sua senha do Workfront.
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1330'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ Você pode gerar e gerenciar chaves de API para usuários em funções diferente
    1. Expanda **Sistema** e clique em **Logon Único (SSO)**.
    1. No campo **Tipo**, selecione o tipo de SSO que sua organização usa.
    1. Com o tipo selecionado, role para baixo e desmarque a caixa de seleção **Habilitar**.
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![Habilitar SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Clique em **Salvar**.
 
 
@@ -187,7 +187,7 @@ Obtenha um certificado X.509 válido de uma Autoridade de certificação confiá
 
 Depois de obter o certificado X.509 da sua autoridade de certificação, é necessário carregá-lo no Workfront.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique no ícone **Configurar** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
 1. Expanda **Sistema** e clique em **Informações do cliente**.
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalizar o que os usuários veem** e em **Painel de resumo**.
+1. Clique na seta para baixo ![Seta para baixo](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e clique em **Painel de resumo**.
 
 1. Na lista exibida abaixo, clique no tipo de objeto para o qual você deseja personalizar o Painel de resumo.
 
@@ -132,15 +132,15 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
 1. (Condicional) Se você clicou em Tarefas ou Problemas na etapa anterior, selecione a categoria da tarefa ou problema que deseja personalizar.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![Escolher categoria para personalizar](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Condicional) Se o menu suspenso **Definir botão de ação principal** for exibido (se você selecionar **Tarefas** ou **Problemas** na lista à esquerda), clique na ação principal (**Concluído** ou **Status**) que você deseja disponibilizar para os usuários no Painel de resumo quando eles visualizarem uma tarefa ou um problema.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![Definir ação principal](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Adicionar ![](assets/add-item-plus-in-circle-blue.png) ou ocultar ![](assets/close-or-hide---x.png) campos para o tipo de objeto selecionado.
+1. Adicionar ![Adicionar item](assets/add-item-plus-in-circle-blue.png) ou ocultar campos ![Ocultar item](assets/close-or-hide---x.png) para o tipo de objeto selecionado.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![Adicionar e ocultar campos](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Repita as etapas 3 a 6 para personalizar o painel Resumo para qualquer outro tipo de objeto.
 1. Clique em **Configurações globais**, próximo ao canto inferior esquerdo, e habilite ou desabilite qualquer uma das seguintes opções relacionadas a objetos do Adobe Workfront no Resumo:

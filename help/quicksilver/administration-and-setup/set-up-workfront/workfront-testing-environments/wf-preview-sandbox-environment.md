@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ O ambiente de visualização é ideal para executar treinamentos, testar novos r
 >
 >O nome do ambiente que você está acessando (Pré-visualização) e a versão de lançamento do código são exibidos no banner. Clique em **[!UICONTROL Ver novidades]** para obter informações sobre essa versão.
 >
->![](assets/preview-banner-nwe-350x161.png)
+>![Banner de visualização](assets/preview-banner-nwe-350x161.png)
 
 ## Acesso à sandbox de visualização
 

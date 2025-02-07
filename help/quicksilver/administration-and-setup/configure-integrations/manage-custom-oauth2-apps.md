@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Wor
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Sistema]** e selecione **[!UICONTROL Aplicativos OAuth]**.
 1. Clique em **[!UICONTROL Criar integração de aplicativo]**.
-1. Passe o mouse sobre o aplicativo e clique em **[!UICONTROL Editar]** ![](assets/edit-icon.png) quando ele aparecer na extremidade direita.
+1. Passe o mouse sobre o aplicativo e clique em **[!UICONTROL Editar]** ![Editar ícone](assets/edit-icon.png) quando ele aparecer na extremidade direita.
 1. (Opcional) Edite todos os detalhes do aplicativo.
 
    Para campos relacionados a aplicativos OAuth2 e JWT, consulte [Criar aplicativos OAuth2 para [!DNL Workfront] integrações](../../administration-and-setup/configure-integrations/create-oauth-application.md).
@@ -87,7 +87,7 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Wor
 {{step-1-to-setup}}
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Sistema]** e selecione **[!UICONTROL Aplicativos OAuth]**.
-1. Passe o mouse sobre o aplicativo e clique em **[!UICONTROL Excluir]** ![](assets/delete.png) quando ele aparecer na extremidade direita.
+1. Passe o mouse sobre o aplicativo e clique em **[!UICONTROL Excluir]** ![Excluir](assets/delete.png) quando ele aparecer na extremidade direita.
 
 ## Gerenciar segredos do cliente em aplicativos OAuth2
 
@@ -143,4 +143,4 @@ Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Wor
 1. Clique em **[!UICONTROL Criar integração de aplicativo]**.
 1. Passe o mouse sobre o aplicativo e clique no ícone **[!UICONTROL Editar]** quando ele aparecer na extremidade direita.
 1. Localize o Segredo do cliente que deseja excluir.
-1. Clique no ícone **[!UICONTROL Excluir]** ![](assets/delete.png) ao lado do Segredo do Cliente.
+1. Clique no ícone **[!UICONTROL Excluir]** ![Excluir](assets/delete.png) ao lado do Segredo do Cliente.

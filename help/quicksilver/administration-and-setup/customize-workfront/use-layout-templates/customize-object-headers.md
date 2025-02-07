@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Como administrador do Adobe Workfront ou administrador de grupo, você pode usar
 >
 >A personalização de cabeçalhos de objetos está disponível atualmente para projetos, tarefas e problemas.
 
-![](assets/object-header-fields.png)
+![Campos do cabeçalho do objeto](assets/object-header-fields.png)
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -80,7 +80,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![Campos do cabeçalho do objeto ocultam e movem ícones](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. Você pode ter até cinco campos no cabeçalho de um objeto.
 Se você já tiver cinco campos selecionados, remova um campo antes de adicionar um novo.
@@ -95,7 +95,7 @@ Se você já tiver cinco campos selecionados, remova um campo antes de adicionar
    >* Ao adicionar o campo &quot;Resolvido por&quot; ao cabeçalho de um problema, o campo é alterado para &quot;Resolvendo problema, tarefa ou projeto&quot; quando há um objeto de resolução associado ao problema.
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![Adicionar campo ao cabeçalho](assets/add-field-to-header-in-lt-list.png)
 
 
 1. (Opcional) Arraste e solte os campos adicionados em uma ordem diferente.

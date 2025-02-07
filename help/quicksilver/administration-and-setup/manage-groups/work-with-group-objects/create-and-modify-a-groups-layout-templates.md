@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.
 
 1. Clique no nome do grupo para o qual deseja criar ou modificar modelos de layout.
-1. No painel esquerdo, clique em **Modelos de layout** ![](assets/layout-templates-icon.png).
+1. No painel esquerdo, clique em **Modelos de layout** ![Ícone de modelos de layout](assets/layout-templates-icon.png).
 
 1. Siga um destes procedimentos:
 

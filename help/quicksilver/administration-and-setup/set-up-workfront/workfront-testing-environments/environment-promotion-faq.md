@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Não. A Promoção de ambiente está disponível para instâncias do Workfront h
    1. Clique em **Sistema** no painel esquerdo
    1. Para exibir seu plano do Workfront, selecione **Licenças**.
 Seu plano é exibido próximo ao canto superior direito da página.
-      ![](assets/locate-plan.png)
+      ![Localizar plano](assets/locate-plan.png)
 
   Ou
 * Entre em contato com seu representante de conta da Workfront.

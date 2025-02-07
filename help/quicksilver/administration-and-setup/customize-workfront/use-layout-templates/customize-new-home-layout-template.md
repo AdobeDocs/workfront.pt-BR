@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Para personalizar a Página inicial usando um modelo de layout:
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e clique em **Workspace Residencial**.
+1. Clique na seta para baixo ![Seta para baixo](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e clique em **Workspace Residencial**.
 
 1. Nas guias à direita, clique em uma das opções a seguir:
 

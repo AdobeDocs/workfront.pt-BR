@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
    Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.
 
-1. Se quiser exportar todo o grupo de grupos que gerencia, clique no ícone Exportar ![](assets/export.png).
+1. Se quiser exportar todo o grupo de grupos que gerencia, clique no ícone Exportar ![ícone Exportar](assets/export.png).
 
    Ou
 
-   Para exportar alguns dos grupos gerenciados, selecione-os e clique no ícone Exportar ![](assets/export.png).
+   Para exportar alguns dos grupos gerenciados, selecione-os e clique no ícone Exportar ![ícone Exportar](assets/export.png).
 
 1. Selecione o formato de arquivo desejado para a lista exportada.

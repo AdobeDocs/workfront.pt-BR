@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Se o Tipo de Condição de um projeto for definido como Status de Progresso em vez de Manual, o Adobe Workfront exibirá automaticamente uma das três condições padrão internas no projeto (No Destino, Em Risco ou Com Problemas) conforme avança, conforme explicado em [Visão Geral da Condição do Projeto e do Tipo de Condição](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-![](assets/condition-in-project-header-nwe.png)
+![Condição no cabeçalho do projeto](assets/condition-in-project-header-nwe.png)
 
 Você pode definir suas condições personalizadas como condições padrão em vez de usar essas três condições padrão incorporadas. Por exemplo, você pode alterar a condição padrão No destino para exibir Como rastreamento em todos os projetos.
 

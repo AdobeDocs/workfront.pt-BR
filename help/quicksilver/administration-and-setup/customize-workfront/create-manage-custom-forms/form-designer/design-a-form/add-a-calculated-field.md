@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Você também pode ter um cálculo diferente para o mesmo campo, no novo formul�
 >
 >As alterações em expressões calculadas podem fazer com que o valor do campo em objetos fique desatualizado. Para garantir que o cálculo sempre esteja atualizado nesses campos, siga um destes procedimentos:
 >
->* Depois de salvar um objeto com os dados editados em um formulário personalizado anexado, clique no ícone Mais ![](assets/more-icon.png) na página principal do objeto e em Recalcular Expressões Personalizadas.
+>* Depois de salvar um objeto com os dados editados em um formulário personalizado anexado, clique no ícone Mais ![ícone Mais](assets/more-icon.png) na página principal do objeto e Recalcule as Expressões Personalizadas.
 >* Selecione a opção Recalcular expressões personalizadas ao editar objetos em massa.
 >* Selecione a opção Update previous calculations ao editar um Campo personalizado calculado em um formulário personalizado.
 
@@ -104,7 +104,7 @@ Para reutilizar um campo personalizado calculado existente:
 
 1. Na parte superior esquerda da tela, clique em **Biblioteca de campos**.
 
-   ![](assets/field-library.png)
+   ![Biblioteca de campos](assets/field-library.png)
 
 1. Use a caixa de pesquisa ou expanda a seção **Calculado** para localizar o campo calculado necessário e, em seguida, arraste o campo onde deseja que ele apareça no formulário personalizado.
 
@@ -142,7 +142,7 @@ Para reutilizar um campo personalizado calculado existente:
 
 1. No lado esquerdo da tela, localize **Calculado** e arraste-o para uma seção da tela.
 
-   ![](assets/drag-field-to-section.png)
+   ![Arraste o campo para a seção](assets/drag-field-to-section.png)
 
 1. No lado direito da tela, configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
 
@@ -296,14 +296,14 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
       >Você pode executar qualquer um dos seguintes procedimentos para obter ajuda com o cálculo:
       > 
       >* Passe o mouse sobre uma expressão no cálculo para ver uma descrição, um exemplo mostrando como ela pode ser usada e um link &quot;Saiba mais&quot; para obter mais informações no artigo [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![Texto de ajuda da expressão](assets/hover-expression-help-text.jpg)
       >* Use a codificação de cores para identificar os componentes adicionados. As expressões são exibidas em azul e os campos são exibidos em verde.
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  ![Cores para expressões de campo](assets/colors-fields-expressions.jpg)
       >* Encontre erros de cálculo, destacados em rosa, conforme você avança. Você pode passar o mouse sobre um erro destacado para exibir uma breve descrição da causa.
-      >  ![](assets/error-help.png)
+      >  ![Ajuda do erro](assets/error-help.png)
       >* Na área abaixo do cálculo, visualize os resultados em um objeto do Workfront existente.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![Visualizar cálculo](assets/preview-calc.jpg)
       >* Referencie expressões em um cálculo longo usando os números de linha exibidos à esquerda.
 
 +++

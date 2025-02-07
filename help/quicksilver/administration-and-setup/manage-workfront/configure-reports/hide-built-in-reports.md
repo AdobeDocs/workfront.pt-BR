@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Selecione o nível de acesso para o qual deseja ocultar relatórios internos e clique em **Editar**.
 1. Para o objeto **Relatórios**, clique no ícone **Configurações** ao lado do nível mais alto de acesso disponível e desmarque **Exibir Relatórios Internos**.
 
-   ![](assets/edit-access-level.png)
+   ![Editar nível de acesso](assets/edit-access-level.png)
 
 1. Clique em **Salvar**.

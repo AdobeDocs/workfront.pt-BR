@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Na página exibida, siga um destes procedimentos:
 
-   * Se quiser que os administradores de grupos abaixo do seu grupo possam configurar uma preferência para seus grupos, desbloqueie-a ![](assets/unlock-toggle-button.png).
-   * Se quiser que todos os grupos abaixo do seu usem sua configuração como preferência, verifique se ela está bloqueada ![](assets/lock-toggle-button.png) (esse é o padrão).
+   * Se quiser que os administradores de grupos abaixo do seu grupo possam configurar uma preferência para seus grupos, desbloqueie-a ![Desbloquear a opção](assets/unlock-toggle-button.png).
+   * Se quiser que todos os grupos abaixo do seu usem sua configuração como preferência, verifique se ela está bloqueada ![Bloquear alternância](assets/lock-toggle-button.png) (esse é o padrão).
 
      >[!IMPORTANT]
      >

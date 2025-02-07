@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '961'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,13 @@ Ao criar um status personalizado para toda a organização, você pode configur�
 
 1. (Condicional) Se você estiver criando ou editando um status para uso em todo o sistema, verifique se **Status do Sistema** está selecionado na caixa no canto superior direito.
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Status do sistema](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    Ou
 
    Se o status for para um grupo ou subgrupo, comece digitando o nome do grupo no canto superior direito e selecione-o quando ele for exibido.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Status do sistema para o grupo](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Selecione a guia do tipo de objeto (**Projeto**, **Tarefas** ou **Problemas**) que você deseja associar ao status.
 
@@ -88,7 +88,7 @@ Ao criar um status personalizado para toda a organização, você pode configur�
 
    Se você estiver editando um status existente, passe o mouse sobre ele e clique no ícone **Editar**, que é exibido na extremidade direita.
 
-   ![](assets/custom-status-edit.png)
+   ![Editar status personalizado](assets/custom-status-edit.png)
 
 1. Configure o status usando as seguintes opções:
 

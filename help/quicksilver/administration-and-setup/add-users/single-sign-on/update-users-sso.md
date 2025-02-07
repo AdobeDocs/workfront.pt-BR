@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Você pode começar a preparar seu arquivo de importação criando um relatório
    | ID | A ID é o GUID alfanumérico do Workfront. |
    | Nome de usuário do SSO | Adicionar o campo Nome de usuário SSO para garantir que não haja nomes de usuário que você esteja substituindo na sua importação. Este campo deve estar em branco para todos os usuários, se eles ainda não tiverem sido atualizados para SSO. |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Usuários com nome de usuário SSO mas sem acesso](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Salve o relatório.
 1. Clique em **Exportar** na parte superior do relatório e exporte o relatório para o Excel.
@@ -112,7 +112,7 @@ Você pode começar a preparar seu arquivo de importação criando um relatório
    * A segunda coluna deve conter o Nome de usuário do SSO, como exibido em seu sistema SSO.
    * As colunas não devem ter cabeçalhos e não deve haver linhas vazias na parte superior da lista de nomes.
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Atualizar CSV de usuários](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Salve o relatório como um arquivo CSV ou TSV no computador.
 
@@ -145,6 +145,6 @@ Para obter instruções sobre como criar um relatório de usuário contendo info
 1. Certifique-se de que os valores da coluna Nome do Usuário do SSO correspondam ao Nome do Usuário do SSO em seu servidor do SSO.
 1. Se a coluna Nome de Usuário SSO estiver em branco, atualize os Nomes de Usuário SSO de seus usuários.
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![Usuários com campo SSO](assets/users-with-sso-field-updated.png)
 
    Para obter instruções sobre como atualizar seus usuários para SSO, consulte [Atualizar seus usuários para SSO](#update-your-users-for-sso).

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >As opções no menu suspenso Tipo de ação variam de acordo com o log de auditoria selecionado.
 
-   ![](assets/audit-logs.jpg)
+   ![Logs de auditoria](assets/audit-logs.jpg)
 
 1. Clique em **Aplicar**.
 1. (Opcional) Clique em **Limpar Filtros** para redefinir as alterações feitas nos filtros.

@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '876'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ O administrador do Adobe Workfront determina o nível de acesso que cada usuári
 Os usuários também obtêm acesso a objetos individuais quando outros usuários compartilham e concedem determinadas permissões nesses objetos.
 
 
-![](assets/security-model-hierachy.png)
+![Hierarquia do modelo de segurança](assets/security-model-hierachy.png)
 
 Por exemplo, se o seu nível de acesso disser que você pode criar tarefas, mas as permissões que você receber em um projeto específico não permitirem adicionar tarefas a ele, você não poderá adicionar tarefas no projeto, mesmo que possa criar tarefas em outro lugar no Workfront.
 

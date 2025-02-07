@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Em um modelo de layout, você pode personalizar o que os usuários veem na área
 
 Por exemplo, você pode determinar qual dos seguintes itens os usuários veem no painel esquerdo ao visualizar uma tarefa:
 
-![](assets/left-panel-adobe-branding.png)
+![Painel esquerdo da identidade visual](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 ## Personalizar o painel esquerdo para uma área em [!DNL Workfront]:
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **[!UICONTROL Personalizar o que os usuários veem]** e clique no nome de um tipo de objeto ou de uma área [!DNL Workfront] cujo painel esquerdo você deseja personalizar.
+1. Clique na seta para baixo ![Seta para baixo](assets/dropdown-arrow.png) em **[!UICONTROL Personalize o que os usuários veem]** e clique no nome de um tipo de objeto ou de uma área [!DNL Workfront] cujo painel esquerdo você deseja personalizar.
 
    Os tipos de objetos e as áreas [!DNL Workfront] cujo painel esquerdo você pode personalizar estão listados na tabela a seguir:
 
@@ -89,7 +89,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
      <tr> 
       <td>[!UICONTROL Projeto]</td> 
       <td>O nome de um projeto</td> 
-      <td>[!UICONTROL Tarefas], [!UICONTROL Detalhes do Projeto], [!UICONTROL Business Case], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riscos], [!UICONTROL Aprovações], [!UICONTROL Linhas de Base], [!UICONTROL Taxas de Cobrança], [!UICONTROL Registros de Cobrança], [!UICONTROL Despesas], [!UICONTROL Horas CONTROL], [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Pessoas], [!UICONTROL Utilização], [!UICONTROL Detalhes da Fila], [!UICONTROL Regras de Roteamento], [!UICONTROL Tópico de Fila], [!UICONTROL Grupo de Tópicos], [!UICONTROL Métricas], [!UICONTROL Planejamento]*</td> 
+      <td>[!UICONTROL Tarefas], [!UICONTROL Detalhes do Projeto], [!UICONTROL Business Case], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riscos], [!UICONTROL Aprovações], [!UICONTROL Linhas de Base], [!UICONTROL Taxas de Cobrança], [!UICONTROL Registros de Cobrança], [!UICONTROL Despesas], [!UICONTROL Horas], [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Pessoas], [!UICONTROL Utilização], [!UICONTROL Detalhes da Fila], [!UICONTROL Regras de Roteamento], [!UICONTROL Tópico de Fila], [!UICONTROL Grupo de Tópicos], [!UICONTROL Métricas], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Tarefa]</td> 
@@ -114,7 +114,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
      <tr> 
       <td>[!UICONTROL Modelo]</td> 
       <td>O nome de um modelo de projeto</td> 
-      <td>[!UICONTROL Tarefas de Modelo], [!UICONTROL Detalhes de Modelo], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Riscos], [!UICONTROL Despesas], [!UICONTROL Pessoas], [!UICONTROL Aprovações], [!UICONTROL Taxas de Cobrança], [!UICONTROL Detalhes da Fila], [!UICONTROL Regras de Roteamento], [!UICONTROL Tópico de Fila], [!UICONTROL!UICONTROL Grupo de Tópicos]</td> 
+      <td>[!UICONTROL Tarefas de Modelo], [!UICONTROL Detalhes de Modelo], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Riscos], [!UICONTROL Despesas], [!UICONTROL Pessoas], [!UICONTROL Aprovações], [!UICONTROL Taxas de Cobrança], [!UICONTROL Detalhes da Fila], [!UICONTROL Regras de Roteamento], [!UICONTROL Tópico de Fila], [!UICONTROL Grupo de Tópicos]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Modelo de Tarefa]</td> 
@@ -204,9 +204,9 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
 1. Na lista **[!UICONTROL Painel esquerdo]**, siga um destes procedimentos para determinar o que os usuários verão no painel esquerdo para a área [!DNL Workfront] ou o tipo de objeto selecionado:
 
-   * Clique nos ícones **Mostrar** ![](assets/add-secondary-nav-item.png) ou **Ocultar** ![](assets/delete-secondary-nav-item.png) para exibir ou ocultar seções no painel esquerdo. Você não pode ocultar itens que não tenham um ícone **Mostrar** ou **Ocultar**.
+   * Clique nos ícones **Mostrar** ![Mostrar ícone](assets/add-secondary-nav-item.png) ou **Ocultar** ![Ocultar ícone](assets/delete-secondary-nav-item.png) para exibir ou ocultar seções no painel esquerdo. Você não pode ocultar itens que não tenham um ícone **Mostrar** ou **Ocultar**.
 
-   * Arraste os itens ![](assets/move-icon---dots.png) para alterar sua ordem no painel esquerdo.
+   * Arraste os itens ![ícone Mover](assets/move-icon---dots.png) para alterar sua ordem no painel esquerdo.
 
    >[!NOTE]
    >

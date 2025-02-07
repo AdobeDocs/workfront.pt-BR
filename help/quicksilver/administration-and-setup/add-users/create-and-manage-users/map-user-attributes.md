@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
 
 ### Mapear atributos do usuário na experiência clássica
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique no ícone **Configurar** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
 1. Clique em **Sistema** > **Logon Único (SSO)**.
 
@@ -85,7 +85,7 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
 
 1. Clique em **Mapear atributos de usuário**.
 
-   ![](assets/map-user-attributes.png)
+   ![Mapear atributos de usuário](assets/map-user-attributes.png)
 
 1. Na linha de opções exibida, mapeie os atributos necessários para os usuários do Workfront.
 
@@ -123,7 +123,7 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
    1. Na lista suspensa, escolha o modificador de atributo que deseja usar.
    1. Nos 2 campos à direita, digite o valor do atributo de diretório e o valor com o qual você deseja substituí-lo.
 
-      ![](assets/rule-fields.png)
+      ![Campos de regra](assets/rule-fields.png)
 
    Você pode clicar em **Adicionar regra** para adicionar mais regras ao atributo.
 
@@ -132,7 +132,7 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
 
 ### Mapear atributos do usuário na experiência unificada do Adobe
 
-1. Clique no ícone ![](assets/main-menu-left.png) do **Menu Principal** no canto superior esquerdo do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-left.png) no canto superior esquerdo do Adobe Workfront e clique no ícone **Configurar** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
 1. Clique em **Sistema** > **Logon Único (SSO)**.
 

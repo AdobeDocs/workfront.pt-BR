@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 1. Clique em **Definir terminologia** próximo ao canto superior direito da página.
 1. Siga um destes procedimentos:
 
-   * Para usar um termo alternativo fornecido pelo Workfront, clique na seta para baixo ![](assets/dropdown-arrow.png) ao lado do rótulo e, em seguida, clique no rótulo alternativo desejado na lista suspensa.
+   * Para usar um termo alternativo fornecido pelo Workfront, clique na seta para baixo ![ao lado do rótulo e clique no rótulo alternativo desejado na lista suspensa.](assets/dropdown-arrow.png)
 
      >[!NOTE]
      >

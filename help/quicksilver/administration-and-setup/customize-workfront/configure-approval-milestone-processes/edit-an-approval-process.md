@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1955'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Você deve ter o seguinte:
 
    Se você estiver editando um processo de aprovação em nível de grupo, faça o seguinte:
 
-   1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+   1. No painel esquerdo, clique em **Grupos** ![Ícone Grupos](assets/groups-icon.png).
    1. Clique no nome do grupo para o qual deseja listar ou gerenciar processos de aprovação de grupo.
    1. No painel esquerdo, clique em **Aprovações**. Talvez seja necessário clicar em **Mostrar mais** primeiro.
 
@@ -80,7 +80,7 @@ Você deve ter o seguinte:
 
 1. Selecione o processo de aprovação que deseja editar e clique em **Editar** na parte superior da lista. A caixa Edit approval process é exibida.
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![Editar processo de aprovação](assets/edit-approval-process-global-area-new.png)
 
 1. Especifique as seguintes informações na caixa que é exibida:
 

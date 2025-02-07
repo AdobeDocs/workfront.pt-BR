@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **[!UICONTROL Empresas]** ![](assets/companies-icon-left-panel.png).
+1. No painel esquerdo, clique no ícone **[!UICONTROL Empresas]** ![Empresas](assets/companies-icon-left-panel.png).
 
 1. Selecione uma ou mais empresas para desativar ou reativar.
 1. Clique em **[!UICONTROL Editar]**.

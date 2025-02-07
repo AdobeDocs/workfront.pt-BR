@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
+source-wordcount: '6492'
 ht-degree: 5%
 
 ---
@@ -60,10 +60,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Clique em **Novo formulário personalizado.**
 1. Selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Escolher tipo de objeto](assets/choose-object-type.jpg)
 
 1. Na área **Título obrigatório**, digite o título do formulário personalizado.
-1. (Opcional) Se quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique no ícone **Adicionar** ![](assets/add-objects-icon.png) depois de **Tipos de Objeto** e selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
+1. (Opcional) Se quiser adicionar mais tipos de objetos ao formulário para que ele possa ser anexado a mais objetos, clique no ícone **Adicionar** ![ícone Adicionar objetos](assets/add-objects-icon.png) após **Tipos de Objetos** e selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
 
    Você também pode clicar no X em um tipo de objeto para excluí-lo do formulário.
 
@@ -179,7 +179,7 @@ Para adicionar um campo de texto:
    * Texto com formatação
    * Texto descritivo
 
-   ![](assets/drag-field-to-section.png)
+   ![Arraste o campo para a seção](assets/drag-field-to-section.png)
 
 1. No lado direito da tela, configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
 
@@ -464,7 +464,7 @@ Para adicionar campos de digitação antecipada e data:
    * Typeahead
    * Data
 
-   ![](assets/drag-field-to-section.png)
+   ![Arraste o campo para a seção](assets/drag-field-to-section.png)
 
 1. No lado direito da tela, configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
 
@@ -698,7 +698,7 @@ Para adicionar imagens, PDF ou vídeos:
    * PDF
    * Vídeo
 
-   ![](assets/drag-field-to-section.png)
+   ![Arraste o campo para a seção](assets/drag-field-to-section.png)
 
 1. Digite ou edite qualquer uma das seguintes propriedades do widget:
 

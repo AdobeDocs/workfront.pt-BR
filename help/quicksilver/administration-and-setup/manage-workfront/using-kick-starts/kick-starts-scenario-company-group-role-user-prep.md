@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Cenário de início: preparação da empresa, do grupo, da função e do usuário"
+title: 'Cenário de início: preparação da empresa, do grupo, da função e do usuário'
 description: Ao implementar o Adobe Workfront, em vez de inserir dados manualmente, você pode importar a lista de clientes, os departamentos internos, as funções de trabalho e as informações do usuário.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -183,69 +183,69 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 
 1. Vá para a folha &#39;Empresa CMPY&#39;.
 
-   Deve ficar em branco, a menos que as empresas já estejam no sistema. ![](assets/cmpysheet-350x16.png)
+   Deve ficar em branco, a menos que as empresas já estejam no sistema. ![Planilha da empresa](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![ID da empresa](assets/companyid--1--350x78.png)
 
 1. Especifique VERDADEIRO na coluna **isNew**.
 1. Repita essa ação para cada empresa que está sendo adicionada. (Neste exemplo, conclua esta ação para as linhas 3-6, pois quatro empresas estão sendo adicionadas.)
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![A empresa é nova](assets/cmpyisnew-350x86.png)
 
 1. Especifique um identificador exclusivo.
 
    Isso deve ser feito para cada linha da coluna ID. Números inteiros iniciando em 1 funcionam bem ao criar novos registros.
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![A empresa é nova](assets/cmpyisnew-350x86.png)
 
 1. Defina um Nome.
 
    Especifique os nomes de cada cliente na coluna **setName**.
 
-   ![](assets/companyid-350x78.png)
+   ![ID da empresa](assets/companyid-350x78.png)
 
 1. Vá para a planilha Grupo.
 
    A menos que você já tenha criado grupos no Workfront, esta planilha deve exibir somente o Grupo padrão provisionado com cada conta do Workfront.
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ![Planilha do grupo](assets/groupsheet-350x15.png) ![Planilha do grupo vazia](assets/emptygroupsheet-350x85.png)
 
 1. Defina a coluna **isNew**. De acordo com o cenário, 4 grupos serão importados, portanto, especifique TRUE nas linhas 4 a 7 para a coluna &#39;isNew&#39;.
 1. Especifique um identificador exclusivo.
 
    Isso deve ser feito para cada linha da coluna ID. Números inteiros iniciando em 1 funcionam bem ao criar novos registros.
 
-   ![](assets/groupids-350x85.png)
+   ![IDs do grupo](assets/groupids-350x85.png)
 
 1. Defina um Nome.
 
    Especifique os nomes de cada departamento na coluna **setName**.
 
-   ![](assets/groupnames-350x85.png)
+   ![Nomes de grupos](assets/groupnames-350x85.png)
 
    Especifique as informações da função. Vá para a planilha Função.
 
 1. A menos que você já tenha criado ou excluído funções em sua conta, esta planilha deve exibir 8 funções provisionadas com cada conta do Workfront.
 
-   ![](assets/groupnames-350x85.png)
+   ![Nomes de grupos](assets/groupnames-350x85.png)
 
 1. Definir instrução True.
 
    Sete funções de trabalho estão importando, insira TRUE nas linhas 12 a 18 da coluna &quot;isNew&quot;.
 
-   ![](assets/roleisnew-350x104.png)
+   ![A função é nova](assets/roleisnew-350x104.png)
 
 1. Especifique um identificador exclusivo.
 
    Isso deve ser feito para cada linha da coluna ID. Números inteiros iniciando em 1 funcionam bem ao criar novos registros.
 
-   ![](assets/usersheet-350x16.png)
+   ![Planilha de usuário](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![A função é nova](assets/roleisnew--1--350x104.png)
 
 1. Forneça nomes para cada função digitando-a na coluna setName.
 
-   ![](assets/roleisnew-350x104.png)
+   ![A função é nova](assets/roleisnew-350x104.png)
 
 1. Forneça detalhes adicionais, conforme necessário.
 
@@ -255,23 +255,23 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 
    A menos que você já tenha criado usuários em sua conta, esta planilha deve exibir somente o Usuário administrador que é provisionado com cada conta do Workfront.
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ![Nomes das funções](assets/rolenames-350x104.png) ![Planilha de usuário vazia](assets/emptyusersheet-350x52.png)
 
 1. Defina o valor Verdadeiro especificando TRUE nas linhas 4 a 9 para a coluna &#39;isNew&#39;, já que 6 usuários estão sendo importados.
 
-   ![](assets/userisnew-350x52.png)
+   ![Usuário é novo](assets/userisnew-350x52.png)
 
 1. Defina um identificador exclusivo especificando um identificador exclusivo em cada linha para a coluna de ID. Normalmente, números inteiros começando em 1 funcionam bem para novos registros.
 
-   ![](assets/userisnew-350x52.png)
+   ![Usuário é novo](assets/userisnew-350x52.png)
 
 1. Insira os nomes de cada usuário nas colunas &#39;setFirstName&#39; e &#39;setLastName&#39;.
 
-   ![](assets/usernames-350x52.png)
+   ![Nomes de usuários](assets/usernames-350x52.png)
 
 1. Defina valores detalhados especificando valores nas colunas &#39;setEmail&#39;, &#39;setPassword&#39; e &#39;setUsername&#39;.
 
-   ![](assets/usercredentials-350x52.png)
+   ![Credenciais de usuário](assets/usercredentials-350x52.png)
 
 1. Especifique os valores de Nível de Acesso.
 
@@ -279,13 +279,13 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 
    Repita essa etapa para cada usuário e nível de acesso.
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![Copiar ID de nível de acesso](assets/copyalid-350x171.png) ![Colar ID de nível de acesso](assets/pastealid-350x59.png)
 
 1. Especificar detalhes do Grupo Padrão.
 
    De acordo com o cenário, Chris Manning pertence ao grupo Marketing. Na planilha Grupo, localize a ID do grupo de Marketing, copie-a para a área de transferência e, na planilha USUÁRIO, cole-a na coluna **setHomeGroupID** da linha de Chris. &#x200B;Repita essa etapa para cada atribuição de usuário e grupo.
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![Copiar ID do grupo](assets/copygroupid-1-350x133.png) ![Colar ID do grupo](assets/pastegroupid-350x59.png)
 
 1. Especifique Detalhes da empresa.
 
@@ -293,17 +293,17 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 
    Repita essa etapa para cada atribuição de usuário e grupo.
 
-   ![](assets/companyid--1--350x78.png)
+   ![ID da empresa](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![Colar ID da empresa](assets/pastecompanyid-350x84.png)
 
 1. Especifique os detalhes da Função.
 
    De acordo com o cenário, Chris Manning terá a função de Analista de negócios. Na planilha Função Função, localize a ID da função Analista de negócios, copie-a para a área de transferência e, na planilha Usuário, cole-a na coluna &quot;setRoleID&quot; na linha de Chris. &#x200B;Repita essa etapa para cada atribuição de usuário e grupo.
 
-   ![](assets/copyroleid-350x149.png)
+   ![Copiar ID de função](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![Colar ID de função](assets/pasteroleid-350x95.png)
 
 1. Preencha outros detalhes do usuário, conforme necessário, e salve o arquivo.
 1. Importe o arquivo do Excel.

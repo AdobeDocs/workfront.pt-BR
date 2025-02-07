@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1232'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ Para obter informações sobre como criar um modelo de email, consulte [Configur
 
 1. Clique em **Email** > **Notificações** > **Notificações de Lembrete**.
 
-   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![Guia de notificações de lembrete](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. Clique em **Nova Notificação de Lembrete**.
 
@@ -176,4 +176,4 @@ Para fazer com que uma notificação de lembrete seja acionada manualmente:
 
    Os usuários designados na notificação de lembrete recebem um email.
 
-![](assets/reminder-test.png)
+![Teste de notificação de lembrete](assets/reminder-test.png)

@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Mensagem de erro: SAML 2.0 error: Primary StatusCode"
+title: 'Mensagem de erro: SAML 2.0 error: Primary StatusCode'
 description: Você não pode estabelecer uma conexão bem-sucedida com o ADFS.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -70,8 +70,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Selecione **[!UICONTROL Relação de Confiança]** > **[!UICONTROL Relações de Confiança de Terceira Parte Confiável]** no painel esquerdo.
 
 1. Clique com o botão direito do mouse na confiança da terceira parte confiável relacionada a [!DNL Adobe Workfront] e selecione **[!UICONTROL Propriedades]**.
-1. Clique na guia **[!UICONTROL Avançado]** e selecione **[!UICONTROL SHA-1]** no menu suspenso **[!UICONTROL Algoritmo de hash seguro]**.\
-   ![](assets/1-350x287.png)
+1. Clique na guia **[!UICONTROL Avançado]** e selecione **[!UICONTROL SHA-1]** no menu suspenso **[!UICONTROL Algoritmo de hash seguro]**.
+   ![SHA-1](assets/1-350x287.png)
 
 ## Causa 2: o Certificado de Autenticação do ADFS está prestes a expirar e foi substituído por um novo Certificado com datas sobrepostas
 

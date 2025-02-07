@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ Para obter mais informações sobre como desativar usuários, consulte [Desativa
 
 {{step-1-to-users}}
 
-1. Selecione pelo menos um usuário que você deseja excluir, clique no menu Mais ![](assets/more-icon.png) e em **Excluir**.
+1. Selecione pelo menos um usuário que você deseja excluir, clique no menu Mais ![ícone Mais](assets/more-icon.png) e em **Excluir**.
 1. Na caixa exibida, clique em **Excluir** para confirmar a exclusão.
 
    O processo de exclusão de usuários é executado como um processo em segundo plano, para que você possa continuar usando o Workfront como o usuário ou usuários são excluídos.

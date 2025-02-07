@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Recomendamos que você faça o seguinte antes de desativar uma função de traba
 1. Clique no nome da função de trabalho que deseja desativar.
 1. No menu suspenso **[!UICONTROL Está ativo]**, selecione **[!UICONTROL Não]**.
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Desativar função de trabalho](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 

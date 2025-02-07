@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Se o status personalizado for um status de Problema, todos os quatro tipos de problemas deverão ser habilitados para ele (Relatório de erros, Pedido de alteração, Problema e Solicitação). Por exemplo, no status de ocorrência mostrado abaixo, o status Reaberto não pode ser usado como um status padrão porque o tipo de ocorrência de Pedido de alteração não está selecionado:
 
-![](assets/all-4-issue-types-enabled.png)
+![Todos os tipos de problemas habilitados](assets/all-4-issue-types-enabled.png)
 
 ## Definir um status personalizado como status padrão para um grupo
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png) e depois clique no nome do grupo no qual deseja criar ou personalizar os status.
-1. No painel esquerdo, clique em **Status** ![](assets/gear-icon-settings.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png) e depois clique no nome do grupo no qual deseja criar ou personalizar os status.
+1. No painel esquerdo, clique em **Status** ![Ícone de configurações de engrenagem](assets/gear-icon-settings.png).
 1. Abra a guia **Projeto**, **Tarefas** ou **Problemas**, dependendo do tipo de status que você deseja definir como um status padrão.
 1. Clique em **Definir status padrão** próximo ao canto superior direito.
 1. Na área suspensa que é exibida, ao lado do status em que você deseja definir o status padrão, selecione o status padrão que deseja definir.
@@ -90,7 +90,7 @@ Se o status personalizado for um status de Problema, todos os quatro tipos de pr
    >Se você atribuir o projeto a um grupo diferente, o status do projeto será recarregado e poderá ser alterado.
 
    1. Vá para o projeto em que deseja usar o status personalizado.
-   1. Clique no menu Mais ![](assets/more-icon.png) e em **Editar**.
+   1. Clique no ícone Mais ![Mais](assets/more-icon.png) do menu e em **Editar**.
    1. Na caixa **Editar Projeto** que é exibida, no campo **Grupo** em **Associação de projeto**, selecione o grupo ao qual o status personalizado está associado.
 
    1. Clique em **Salvar alterações**.
@@ -109,4 +109,4 @@ Se você ocultar um status padrão (ativando a opção Ocultar status para ele),
 
 Se não houver status disponível do tipo equivalente, o tipo de status será exibido como **Oculto** e não estará disponível para itens de trabalho.
 
-![](assets/when-hide-default-status-no-equivalent.png)
+![Nenhum status disponível](assets/when-hide-default-status-no-equivalent.png)

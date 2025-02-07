@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '900'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Processos** > **Aprovações**.
 
-1. Clique no ícone ![](assets/gear-icon-settings.png) de **Configurações** ao lado do nome da área **Aprovações**.
+1. Clique no ícone **Configurações** ![ícone de configurações de engrenagem](assets/gear-icon-settings.png) ao lado do nome da área **Aprovações**.
 
 1. Na caixa **Configurações de Aprovação** exibida, especifique as seguintes informações:
 

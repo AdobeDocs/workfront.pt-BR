@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,10 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Clique no nome do grupo para o qual deseja criar, exibir ou trabalhar com projetos.
-1. No painel esquerdo, clique em **Projetos** ![](assets/projects-in-main-menu.png) para exibir uma lista dos projetos associados ao grupo.
+1. No painel esquerdo, clique em **Projetos** ![Projetos no menu principal](assets/projects-in-main-menu.png) para exibir uma lista dos projetos associados ao grupo.
 
 1. Siga um destes procedimentos:
 

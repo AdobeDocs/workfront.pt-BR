@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Se você for um administrador de grupo, consulte [Definir um status como um stat
 
 Se o status personalizado for um status de Problema, todos os quatro tipos de problemas deverão ser habilitados para ele (Relatório de erros, Pedido de alteração, Problema e Solicitação). Por exemplo, no status de ocorrência mostrado abaixo, o status Reaberto não pode ser usado como um status padrão porque o tipo de ocorrência de Pedido de alteração não está selecionado:
 
-![](assets/all-4-issue-types-enabled.png)
+![Todos os tipos de problemas habilitados](assets/all-4-issue-types-enabled.png)
 
 ## Definir um status personalizado como status padrão
 
@@ -101,6 +101,6 @@ Se o status personalizado for um status de Problema, todos os quatro tipos de pr
    >Se você estiver definindo o status personalizado de um grupo e, posteriormente, atribuir o projeto a um grupo diferente, o status do projeto será recarregado e poderá ser alterado.
 
    1. Vá para o projeto em que deseja usar o status personalizado.
-   1. Clique no menu Mais ![](assets/more-icon.png) e em **Editar**.
+   1. Clique no ícone Mais ![Mais](assets/more-icon.png) do menu e em **Editar**.
    1. Na caixa **Editar Projeto** que é exibida, no campo **Grupo** em **Associação de projeto**, selecione o grupo onde o status reside.
    1. Clique em **Salvar alterações**.

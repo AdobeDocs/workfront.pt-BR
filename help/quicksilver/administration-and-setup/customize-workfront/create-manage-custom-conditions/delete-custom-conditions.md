@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Selecione a guia do tipo de objeto (**Projeto**, **Tarefa** ou **Problema**) onde está localizada a condição que você deseja excluir.
 
-1. Passe o mouse sobre a condição que deseja excluir e clique no ícone ![](assets/delete.png) de **Excluir**, que aparece na extremidade direita.
+1. Passe o cursor do mouse sobre a condição que deseja excluir e clique no ícone **Excluir** ![Excluir](assets/delete.png) que aparece na extremidade direita.
 1. Na mensagem de confirmação exibida, clique em **Excluir Condição**.
 
 1. Na caixa **Excluir Condição** exibida, selecione uma nova condição na lista suspensa para todos os projetos que estavam usando a condição que você está excluindo.

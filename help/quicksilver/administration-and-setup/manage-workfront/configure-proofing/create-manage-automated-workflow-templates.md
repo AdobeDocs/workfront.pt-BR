@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Como administrador do Workfront Proof, você pode modificar um modelo de Fluxo d
     </tbody> 
    </table>
 
-1. Na seção **Fluxo de Trabalho**, altere o nome de qualquer estágio e expanda suas configurações ![](assets/arrow-button.png) para fazer as alterações necessárias:
+1. Na seção **Fluxo de Trabalho**, altere o nome de qualquer estágio e expanda suas configurações ![Botão Expandir](assets/arrow-button.png) para fazer as alterações necessárias:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ Como administrador do Workfront Proof, você pode modificar um modelo de Fluxo d
 
    Se não precisar ver o diagrama, você pode clicar em **Ocultar Diagrama**.
 
-1. Na seção **Compartilhado com**, se quiser excluir um usuário, clique no botão Mais ![](assets/more-icon.png) à direita e clique em **Remover**.
+1. Na seção **Compartilhado com**, se quiser excluir um usuário, clique no botão Mais ![Mais](assets/more-icon.png) à direita e clique em **Remover**.
 
 ## Criar grupos de modelo de fluxo de trabalho automatizado {#create-automated-workflow-template-groups}
 

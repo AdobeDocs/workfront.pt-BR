@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Na página exibida, siga um destes procedimentos para obter uma preferência desbloqueada no nível do sistema ou para um grupo acima do seu grupo:
 
-   * Se quiser que os administradores de grupos abaixo do seu grupo possam configurar uma preferência para seus grupos, desbloqueie-a ![](assets/unlock-toggle-button.png).
-   * Se quiser que todos os grupos abaixo do seu usem sua configuração como preferência, verifique se ela está bloqueada ![](assets/lock-toggle-button.png).
+   * Se quiser que os administradores de grupos abaixo do seu grupo possam configurar uma preferência para seus grupos, desbloqueie-a ![Desbloquear a opção](assets/unlock-toggle-button.png).
+   * Se quiser que todos os grupos abaixo do seu usem sua configuração como preferência, verifique se ela está bloqueada ![Bloquear alternância](assets/lock-toggle-button.png).
 
      >[!IMPORTANT]
      >

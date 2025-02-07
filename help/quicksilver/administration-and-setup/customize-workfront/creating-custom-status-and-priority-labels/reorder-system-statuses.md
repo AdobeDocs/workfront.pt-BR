@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '520'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ Como administrador do Workfront, você pode alterar a ordem dos status de projet
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![Status](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Por padrão, os status são exibidos na seguinte ordem:
 1. No painel esquerdo, clique em **Preferências do projeto > Status**.
 1. (Condicional) Se estiver reorganizando os status de um grupo, comece digitando o nome do grupo na caixa no canto superior direito e, em seguida, clique no nome quando ele for exibido.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Status do sistema](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Acima da lista de status exibida, clique na guia **Projetos** ou **Tarefas**.
 
@@ -137,12 +137,12 @@ Por padrão, os status são exibidos na seguinte ordem:
 
 ## Reordenar status de ocorrências
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique no ícone **Configurar** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
 1. Clique em **Preferências do projeto > Status.**
 1. (Condicional) Se estiver reorganizando os status de um grupo, comece digitando o nome do grupo na caixa no canto superior direito e, em seguida, clique no nome quando ele for exibido.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![Status de problema do grupo](assets/issue-statuses-group-name.png)
 
 1. Clique na guia **Problemas**.
 1. (Opcional) Selecione um tipo de problema (**Relatório de Erros**, **Pedido de Alteração**, **Problema** ou **Solicitação**).

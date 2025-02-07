@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Cenário de início: preparação simples de importação de projetos e tarefas"
+title: 'Cenário de início: preparação simples de importação de projetos e tarefas'
 description: Descreve em detalhes as configurações e os controles disponíveis para uma Importação básica de projeto e tarefa usando o método Kick Start.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1493'
 ht-degree: 9%
 
 ---
@@ -277,10 +277,10 @@ Acesse a página Início. Selecione os objetos Empresa, Grupo, Projeto, Tarefa e
 
 Abra o arquivo Workfront.xlsx que acabou de baixar. Vá para a planilha Projeto PROJ.
 
-![](assets/im2.png)
+![Conjunto de projetos do PROJ](assets/im2.png)
 A menos que você já tenha criado projetos no Workfront, deve estar vazio.
 
-![](assets/im10.png)
+![Planilha de projeto vazia](assets/im10.png)
 
 Defina os valores dos seguintes campos de projeto:
 
@@ -305,7 +305,7 @@ Insira a Data inicial planejada para cada projeto na coluna setPlannedStartDate.
 * **Defina outros detalhes necessários.**
 Preencha outros detalhes, como uma descrição ou status atual, conforme necessário. Procure as IDs de grupo para cada projeto na planilha Grupo do Grupo e insira-as na coluna setGroupID dos respectivos projetos. Procure a ID da empresa para os projetos na planilha Empresa do CMPY e insira-a na coluna setCompanyID. Procure a ID de usuário de cada proprietário de projeto na planilha Usuário do USUÁRIO e insira-a na coluna setOwnerID. Procure a ID de usuário para cada patrocinador do projeto na planilha Usuário do USUÁRIO e insira-a na coluna setSponsorID.
 
-![](assets/im9.png)
+![Definir valores](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Abra o arquivo Workfront.xlsx que acabou de baixar. **Vá para a Planilha de Tar
 
 A menos que você já tenha criado tarefas no Workfront, esta planilha deve estar vazia.
 
-![](assets/im8.png)
+![Planilha de tarefas](assets/im8.png)
 
-![](assets/im7.png)
+![Planilha de tarefas vazia](assets/im7.png)
 
-![](assets/im6.png)
+![Colunas da planilha de tarefas](assets/im6.png)
 
 A maneira mais fácil de mapear tarefas é um projeto de cada vez (especialmente quando as tarefas são as mesmas em cada projeto). Em seguida, você pode copiar o plano de tarefas para o primeiro projeto e fazer pequenos ajustes no plano de tarefas para os projetos subsequentes. As etapas restantes presumirão que você está criando tarefas apenas para o projeto Implementar Workfront. De acordo com o cenário, você importará 9 tarefas por projeto, portanto, insira TRUE nas linhas 3 a 11 para a coluna isNew.
 
@@ -364,7 +364,7 @@ Defina a duração de cada tarefa inserindo o número de horas, dias, semanas ou
 * Insira a representação do número inteiro da porcentagem concluída no campo setPercentComplete para cada tarefa. Esse valor não deve incluir o símbolo de porcentagem (%).
 * Inclua uma descrição e outros detalhes para cada Tarefa que você está criando, conforme necessário.
 
-  ![](assets/im5.png)
+  ![Adicionar detalhes](assets/im5.png)
 
 * As colunas setPlannedStartDate e setTaskConstraint não são usadas para criar a linha do tempo deste projeto porque estamos confiando em relações predecessoras. Em vez disso, você pode inserir uma data para cada tarefa. Nesse caso, certifique-se de fornecer também uma restrição de tarefa válida na coluna setTaskConstraint. Revise a Restrição da Tarefa e os artigos relacionados para obter detalhes sobre valores válidos para esse campo.
 

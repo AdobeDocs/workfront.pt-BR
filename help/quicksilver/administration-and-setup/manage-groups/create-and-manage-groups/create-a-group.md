@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1656'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ Você precisa ser um administrador do Workfront para criar um grupo de nível su
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Acima da lista de grupos, clique em **Novo Grupo**.
 
@@ -141,11 +141,11 @@ Para criar um novo grupo de nível superior copiando um grupo ou subgrupo:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![grupos](assets/groups-icon.png).
 
    Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.
 
-1. Selecione o grupo que deseja copiar e clique no ícone Copiar ![](assets/copy-icon.png).
+1. Selecione o grupo que deseja copiar e clique no ícone Copiar ![ícone Copiar](assets/copy-icon.png).
 1. Na caixa **Copiar Grupo** exibida, digite um **Nome de Grupo** para o grupo copiado.
 
 1. Especifique as seguintes informações:

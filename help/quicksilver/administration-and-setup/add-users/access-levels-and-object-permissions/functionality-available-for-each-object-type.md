@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1956'
 ht-degree: 10%
 
 ---
@@ -546,7 +546,7 @@ Somente usuários com uma licença de Plano podem ter acesso total a [selecionar
 | Adicionar ou editar informações de função de trabalho em planos e iniciativas&#42; | ✓ µ | ✓ µ | ✓ µ |   |   |
 | Adicionar ou editar informações de custo em planos e iniciativas&#42; | ✓ µ | ✓ µ | ✓ µ |   |   |
 | Excluir planos e iniciativas | ✓ µ | ✓ µ | ✓ µ |   |   |
-| Exibir Cenários no Menu Principal ![](assets/esp-icon-in-main-menu.png) | ✓ µ | ✓ µ | ✓ µ | |   |
+| Exibir Cenários no Menu Principal ![Ícone do planejador de cenários](assets/esp-icon-in-main-menu.png) | ✓ µ | ✓ µ | ✓ µ | |   |
 | Exibir planos e iniciativas criados pelo usuário&#42; | ✓ µ | ✓ µ | ✓ µ |   |   |
 
 {style="table-layout:auto"}

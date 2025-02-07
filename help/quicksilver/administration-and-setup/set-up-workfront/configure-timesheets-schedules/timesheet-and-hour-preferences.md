@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Opcional) Na caixa de pesquisa **Preferências de horas e folhas de horas do sistema**, comece digitando o nome de um grupo e, em seguida, selecione-o quando ele for exibido na lista.
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![Procurar caixa de grupo](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    A página Preferências de Horas e Planilha de Horas é atualizada com as preferências do grupo selecionado. As preferências do nível do sistema devem ser desbloqueadas para modificar as preferências do nível do grupo. Para obter mais informações, consulte a seção [Desbloquear preferências de horas e folha de horas para grupos](#unlock-timesheet-and-hour-preferences-for-groups) neste artigo.
 
@@ -212,8 +212,8 @@ Para desbloquear uma preferência de projeto para que grupos possam configurá-l
 
 1. Siga um destes procedimentos:
 
-   * Se você quiser que os administradores de grupos possam configurar uma preferência para seus grupos, clique no botão **desbloquear** ![](assets/unlock-toggle-button.png) para desbloqueá-la.
-   * Se você quiser que todos os grupos usem sua configuração para uma preferência, verifique se o botão está bloqueado ![](assets/locked-preference-toggle.png) (este é o padrão).
+   * Se você quiser que os administradores de grupos possam configurar uma preferência para seus grupos, clique no botão de alternância **desbloquear** ![Desbloquear](assets/unlock-toggle-button.png) para desbloqueá-la.
+   * Se você quiser que todos os grupos usem sua configuração para uma preferência, verifique se essa é a opção bloqueada ![Alternância de preferência bloqueada](assets/locked-preference-toggle.png) (essa é a opção padrão).
 
      >[!IMPORTANT]
      >

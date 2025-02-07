@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -54,10 +54,10 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Clique no nome do grupo para o qual você deseja criar ou modificar equipes.
-1. No painel esquerdo, clique em **Equipes** ![](assets/teams.png) para listar as equipes associadas ao grupo e a quaisquer subgrupos que ele possa ter.
+1. No painel esquerdo, clique em **Equipes** ![Equipes](assets/teams.png) para listar as equipes associadas ao grupo e a quaisquer subgrupos que ele possa ter.
 
 1. Siga um destes procedimentos:
 
@@ -100,7 +100,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       </tbody> 
      </table>
 
-   * **Editar equipes**: selecione pelo menos uma equipe, clique em **o** ícone Editar ![](assets/edit-icon.png) e use as seguintes opções para configurá-la:
+   * **Editar equipes**: selecione pelo menos uma equipe, clique em **o** ícone Editar ![ícone Editar](assets/edit-icon.png) e use as seguintes opções para configurá-la:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       </tbody> 
      </table>
 
-   * **Excluir equipes**: selecione pelo menos uma equipe e clique no ícone Excluir ![](assets/delete.png).
-   * **Exportar a lista de equipes**: clique em **Exportar** ![](assets/export.png) e selecione o formato de arquivo desejado para a lista exportada.
+   * **Excluir equipes**: selecione pelo menos uma equipe e clique no ícone Excluir ![ícone Excluir](assets/delete.png).
+   * **Exportar a lista de equipes**: Clique em **Exportar** ![Ícone Exportar](assets/export.png) e selecione o formato de arquivo desejado para a lista exportada.

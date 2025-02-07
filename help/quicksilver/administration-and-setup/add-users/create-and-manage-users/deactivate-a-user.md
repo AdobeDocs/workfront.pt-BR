@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Para desativar um usuário:
 
 {{step-1-to-users}}
 
-1. Selecione um usuário, clique no ícone ![](assets/more-icon.png) de **Mais** e clique em **Desativar**.
+1. Selecione um usuário, clique no ícone **Mais** ícone ![Mais](assets/more-icon.png) e clique em **Desativar**.
 
 1. Clique em **Desativar** na caixa exibida.
 
@@ -118,7 +118,7 @@ Para programar um usuário para desativação:
 
    (Opcional) Selecione vários usuários para agendá-los para desativação em massa.
 
-1. Clique no ícone Editar ![](assets/edit-icon.png).
+1. Clique no ícone Editar ![ícone Editar](assets/edit-icon.png).
 1. Na caixa Editar Usuário exibida, clique em **Planejamento de Recursos** para acessar essa área.
 1. Habilite a opção **Desativação de Agendamento**.
 
@@ -139,7 +139,7 @@ Recomendamos criar um relatório para os usuários que você agendou para desati
 
 {{step-1-to-users}}
 
-1. Selecione um usuário, clique no ícone Mais ![](assets/more-icon.png) e clique em **Ativar**.
+1. Selecione um usuário, clique no ícone Mais ![ícone Mais](assets/more-icon.png) e clique em **Ativar**.
 
 1. Atribua um novo **Nível de acesso** no menu suspenso e clique em **Reativar**.
 <!--

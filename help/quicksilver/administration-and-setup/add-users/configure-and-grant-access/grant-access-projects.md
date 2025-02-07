@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Configurar o acesso do usuário aos projetos usando um nível de acesso personalizado
 
 1. Comece a criar ou editar o nível de acesso, conforme explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Exibir** ou **Editar** à direita de Projetos e selecione as capacidades que deseja conceder em **Ajustar suas configurações**.
+1. Clique no ícone de engrenagem ![ícone de configurações de engrenagem](assets/gear-icon-settings.png) no botão **Exibir** ou **Editar** à direita de Projetos e selecione as capacidades que deseja conceder em **Ajustar suas configurações**.
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![Ajustar configurações para copiar projetos](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

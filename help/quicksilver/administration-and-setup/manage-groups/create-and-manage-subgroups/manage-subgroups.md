@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
    Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.
 
@@ -153,9 +153,9 @@ Você pode tornar um subgrupo um grupo de nível superior removendo-o do grupo p
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Grupos** ![](assets/groups-icon.png).
+1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
-1. Selecione o grupo pai do grupo que você deseja tornar um grupo de nível superior e clique no ícone Editar ![](assets/edit-icon.png).
+1. Selecione o grupo pai do grupo que você deseja tornar um grupo de nível superior e clique no ícone Editar ![ícone Editar](assets/edit-icon.png).
 1. Na caixa **Editar Grupo** que aparece, em **Membros do Grupo e Administradores do Grupo**, comece digitando o nome do subgrupo que você deseja tornar um grupo de nível superior e, em seguida, clique no X à direita do seu nome quando ele aparecer.
 1. Clique em **Salvar**.
 

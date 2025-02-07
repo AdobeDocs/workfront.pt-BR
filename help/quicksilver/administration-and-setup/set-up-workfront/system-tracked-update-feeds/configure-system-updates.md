@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 7%
+source-wordcount: '899'
+ht-degree: 8%
 
 ---
 
@@ -89,7 +89,7 @@ Você pode adicionar campos que você deseja que [!DNL Workfront] rastreie para 
 >
 >É possível rastrear até 300 campos incorporados e personalizados nos feeds de atualização. Se você estiver rastreando o número máximo de campos e quiser rastrear campos adicionais que não são exibidos na subguia [!UICONTROL Todos os campos], remova primeiro alguns dos campos rastreados para rastrear novos campos. Para obter mais informações sobre como remover campos dos campos de atualização, consulte [Remover campos que você não deseja rastrear](#remove-fields-that-you-don-t-want-tracked).
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront] e clique no ícone **[!UICONTROL Configuração]** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
 1. No painel à esquerda, clique em **[!UICONTROL Interface]** > **[!UICONTROL Feeds de Atualização]**.
 
@@ -111,7 +111,7 @@ Você pode adicionar campos que você deseja que [!DNL Workfront] rastreie para 
 
 Você pode remover campos que não deseja que o sistema rastreie para um tipo específico de objeto em toda a interface [!DNL Workfront].
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront] e clique no ícone **[!UICONTROL Configuração]** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
 1. Clique em **[!UICONTROL Interface]** > **[!UICONTROL Feeds de Atualização]**.
 
@@ -146,7 +146,7 @@ Por exemplo, você pode fazer com que [!DNL Workfront] registre uma atualizaçã
   <tr> 
    <td>A atribuição foi alterada</td> 
    <td>Tarefas, Problemas</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
   <tr> 
    <td>A Linha de Base foi excluída</td> 
@@ -156,49 +156,49 @@ Por exemplo, você pode fazer com que [!DNL Workfront] registre uma atualizaçã
   <tr> 
    <td>Registro de cobrança criado ou excluído</td> 
    <td>Projetos</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
   <tr> 
    <td>Documento criado ou excluído</td> 
    <td>Projetos, tarefas, problemas, portfólios, programas</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
   <tr> 
    <td>Despesa criada ou excluída</td> 
    <td>Projetos, tarefas</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
   <tr> 
    <td>Hora registrada ou excluída</td> 
    <td>Projetos, tarefas, problemas</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
   <tr> 
    <td>Problema excluído</td> 
    <td>Projetos</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
   <tr> 
    <td>Tarefa excluída</td> 
    <td>Projetos</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
   <tr> 
    <td>O acesso de alguém foi alterado</td> 
    <td>Projetos, Tarefas, Problemas, Portfólios, Programas</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
   <tr> 
    <td>Assinar o objeto com comentário</td> 
    <td>Projetos, tarefas, problemas</td> 
-   <td> <p>Ativado</p> </td> 
+   <td> <p>Habilitado</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Para configurar quais ações você deseja que [!DNL Workfront] rastreie:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront] e em **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront] e clique no ícone **[!UICONTROL Configuração]** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
 1. Clique em **[!UICONTROL Interface]** > **[!UICONTROL Feeds de Atualização]**.
 

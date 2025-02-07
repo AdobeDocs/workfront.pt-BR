@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Você pode encaminhar com facilidade as mensagens recebidas do Workfront para os
 
 1. Vá para a página Avisos clicando no ícone **Notificação** no canto superior direito da interface do Workfront e clique em **Todos os Avisos**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Todos os comunicados](assets/announcement-access-350x212.png)
 
 1. Na página **Avisos**, selecione a mensagem que deseja encaminhar.
 1. Clique em **Avançar**.
@@ -79,7 +79,7 @@ Você pode encaminhar com facilidade as mensagens recebidas do Workfront para os
 
 1. Vá para a página Avisos clicando no ícone **Notificação** no canto superior direito da interface do Workfront e clique em **Todos os Avisos**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Todos os avisos](assets/announcement-access-350x212.png)
 
 1. Na página **Avisos**, clique em **Novo Aviso.**
 

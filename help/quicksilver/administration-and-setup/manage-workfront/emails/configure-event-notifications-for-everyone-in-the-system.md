@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ Você deve ativar notificações na área Configuração do Workfront antes que 
 
 1. Clique em **Email** > **Notificações**.
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![Área Notificações em emails de configuração](assets/notifications-area-under-setup-emails.png)
 
 
 1. Verifique se a guia **Notificações de Eventos** está aberta.
@@ -88,7 +88,7 @@ Você deve ativar notificações na área Configuração do Workfront antes que 
 
    Para obter mais informações sobre como personalizar as linhas de assunto das notificações por email, consulte [Personalizar assuntos de email para notificações de eventos](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Opcional) Se você deseja desbloquear a configuração de uma notificação por email para que os administradores de grupo possam configurá-la separadamente para seus grupos, clique no botão ![](assets/lock-toggle-button.png) à direita da notificação para alterá-la para a posição desbloqueada ![](assets/unlock-toggle-button.png).
+1. (Opcional) Se você deseja desbloquear a configuração de uma notificação por email para que os administradores de grupo possam configurá-la separadamente para seus grupos, clique no botão ![Bloquear](assets/lock-toggle-button.png) à direita da notificação para alterná-la para a posição desbloqueada ![Desbloquear alternar](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

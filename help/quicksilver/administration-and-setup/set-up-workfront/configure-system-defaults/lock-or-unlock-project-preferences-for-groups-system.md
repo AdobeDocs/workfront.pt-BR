@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Para obter instruções sobre como bloquear ou desbloquear uma preferência de p
 
 1. Siga um destes procedimentos:
 
-   * Se quiser que os administradores de grupos possam configurar uma preferência para seus grupos, desbloqueie-a ![](assets/unlock-toggle-button.png).
+   * Se você quiser que os administradores de grupos possam configurar uma preferência para seus grupos, desbloqueie-a ![Desbloquear a opção](assets/unlock-toggle-button.png).
    * Se desejar que todos os grupos usem sua configuração para uma preferência, certifique-se de que ela esteja bloqueada (esse é o padrão).
 
      >[!IMPORTANT]

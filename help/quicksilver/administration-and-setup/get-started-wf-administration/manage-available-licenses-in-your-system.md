@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 >2. Os administradores de sistema podem ver apenas o número total de licenças usadas em todos os Grupos Padrão.
 >3. Os administradores de grupo não podem acessar a página Licenças.
 >
->Para os planos Prime e Ultimate:
+>Para os planos da Prime e da Ultimate:
 >
 >1. Os administradores do sistema podem adicionar Grupos padrão à página Licenças para visualizar a utilização de licenças nesses grupos e também podem definir limites de licença.
 >2. Os administradores de grupo podem acessar a página Licenças e visualizar a utilização de licenças nos grupos que eles gerenciam que foram adicionados à página Licenças por administradores do sistema.
@@ -89,7 +89,7 @@ Para exibir informações de licença em seu sistema:
 
    >[!NOTE]
    >
-   >Para os novos planos, o plano Select não permite que os administradores visualizem licenças por Grupo padrão. Você só pode ver o número geral de licenças usadas. Os planos Prime e Ultimate permitem definir a contagem máxima de licenças por Grupo Padrão.
+   >Para os novos planos, o plano Select não permite que os administradores visualizem licenças por Grupo padrão. Você só pode ver o número geral de licenças usadas. Os planos da Prime e da Ultimate permitem definir a contagem máxima de licenças por grupo padrão.
 
 ## Exibir informações sobre licenças para complementos do Workfront
 
@@ -186,7 +186,7 @@ Para definir a contagem máxima de licenças para um Grupo padrão:
 1. Na coluna **Max** do grupo, clique no valor para o qual você deseja definir um máximo.
 1. Digite o número máximo e pressione Enter.
 
-   ![](assets/updated-max.png)
+   ![Máximo de licenças do grupo](assets/updated-max.png)
 
    >[!NOTE]
    >

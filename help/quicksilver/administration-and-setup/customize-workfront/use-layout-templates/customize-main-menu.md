@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      >[!NOTE]
      >
-     >Somente os usuários com uma licença de Plano (no modelo de licença atual) ou os usuários com uma licença Padrão (no novo modelo de licença) podem ver a área de Usuários ![](assets/users-icon-in-main-menu.png) no Menu Principal.
+     >Somente os usuários com uma licença de Plano (no modelo de licença atual) ou os usuários com uma licença Padrão (no novo modelo de licença) podem ver o ![ícone Usuários](assets/users-icon-in-main-menu.png) da área Usuários no Menu Principal.
 
    * Solicitações
    * Planilhas de horas
@@ -123,9 +123,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Siga um destes procedimentos:
 
-   * Ocultar ![](assets/remove-icon---x-in-circle.png) **itens ativos** que você não deseja exibir
-   * Mostrar ![](assets/add-icon-plus-in-circle.png) **Itens disponíveis** que você deseja exibir no Menu Principal.
-   * Arraste ![](assets/move-icon---dots.png) **Itens ativos** para alterar sua ordem de exibição no menu principal.
+   * Ocultar ![Ícone Ocultar](assets/remove-icon---x-in-circle.png) **Itens ativos** que você não deseja exibir
+   * Mostrar ![ícone Mostrar](assets/add-icon-plus-in-circle.png) **Itens disponíveis** que você deseja exibir no Menu Principal.
+   * Arraste ![ícone Arrastar](assets/move-icon---dots.png) **Itens ativos** para alterar sua ordem de exibição no Menu Principal.
 
 1. Clique em **Concluído**.
 

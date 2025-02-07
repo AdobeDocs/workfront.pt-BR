@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Para obter informações sobre como editar um status do sistema e criar status p
 
    Os status do projeto disponíveis no Workfront estão listados nesta guia.
 
-   ![](assets/project-status.png)
+   ![Status do projeto](assets/project-status.png)
 
    Para obter detalhes sobre cada status de projeto do sistema interno, consulte [Visão geral dos status de projeto do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 

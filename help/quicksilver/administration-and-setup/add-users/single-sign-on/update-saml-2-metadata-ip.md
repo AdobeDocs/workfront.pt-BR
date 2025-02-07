@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Por padrão, o ADFS é configurado para verificar automaticamente se há atualiz
 1. Selecione a confiança da terceira parte confiável configurada anteriormente para ser usada com o Workfront e, no painel direito, clique em **Atualizar a partir dos Metadados de Federação**.
 1. (Condicional) Se essa opção estiver esmaecida (o que significa que o objeto de confiança da terceira parte confiável foi configurado anteriormente usando um arquivo de metadados), conclua o seguinte.
 
-   1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+   1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique no ícone **Configurar** ![Configurações de engrenagem](assets/gear-icon-settings.png).
 
    1. Clique em **Sistema** > **Logon Único (SSO)**.
 

@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 9%
 
 ---
 
 # Sobre o layout padrão do Adobe Workfront
 
-O layout padrão é a organização do Menu Principal ![](assets/main-menu-icon.png) ou do Menu Principal ![](assets/lines-main-menu.png), se disponível, o painel esquerdo, os modos de exibição, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
+O layout padrão é a organização do ![ícone do menu principal](assets/main-menu-icon.png) ou do ![ícone do menu principal](assets/main-menu-icon.png) do menu principal, se disponível, o painel esquerdo, os modos de exibição, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
 
 Para obter informações sobre como um administrador do Workfront pode modificar o layout padrão de um usuário atribuindo um modelo de layout ao usuário, consulte [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ Para preencher a planilha do Excel com informações para os novos campos person
    >
    >Para obter informações sobre os nomes dos objetos no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![Planilhas incluídas na exportação de dados](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Verifique se as informações a seguir estão formatadas corretamente:
@@ -206,7 +206,7 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
    Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![Folha de parâmetros preenchida](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Selecione a planilha **`POPT Parameter Options`** e adicione informações sobre as opções de cada campo personalizado nas seguintes colunas necessárias:
 
@@ -228,7 +228,7 @@ Para preencher a planilha do Excel com informações para os novos campos person
    * As colunas **`setLabel`** e `**setValue`** geralmente contêm as mesmas informações e devem refletir os nomes desejados na interface do usuário do Workfront. O valor de uma opção é o nome exibido nos relatórios, por exemplo, enquanto o rótulo é exibido nos formulários personalizados quando anexados a um objeto. Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = digite `TRUE` se quiser que qualquer uma das opções fique oculta.
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![Folha de parâmetros preenchida](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (Opcional) Se você também quiser criar um formulário personalizado em que poderá adicionar os novos campos posteriormente, selecione a planilha **`CTGY Category`** e atualize as seguintes colunas necessárias para as informações de formulário personalizado:
@@ -239,7 +239,7 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
    Para descobrir o `ID` de um Grupo, você pode criar um relatório de Grupo e adicionar o campo `ID` no Modo de Exibição ou navegar para um grupo e localizar a URL do grupo. A ID do grupo estará no URL da página do grupo. Por exemplo, se a URL do grupo for `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, a ID do Grupo será `575b000800467a6f66e747932c807464`.
 
-   * **`setCatObjCode` **= este é o código de objeto para o tipo de objeto para o qual você deseja criar o formulário. Insira um código entre as seguintes opções:
+   * **`setCatObjCode`**= este é o código de objeto para o tipo de objeto para o qual você deseja criar o formulário. Insira um código entre as seguintes opções:
       * **`CMPY`** para a Empresa
       * **`TASK`** para Tarefa
       * **`PROJ`** para Projeto
@@ -259,7 +259,7 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
    * **`setName`** = este é o nome do formulário personalizado como você deseja que ele apareça na interface do Workfront.
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![Folha de categoria preenchida](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Salve a planilha como um arquivo .xls ou .xlsx no computador. Sua planilha do Excel está preenchida e agora está pronta para importação para o Workfront.
 
@@ -277,11 +277,11 @@ Depois de executar as etapas descritas nas seções anteriores, continue com o s
 1. Procure a planilha do Excel que você preparou no computador e selecione-a quando a encontrar. Quando a Workfront reconhece o arquivo, o botão Upload fica azul.
 1. Clique em **Carregar.**
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![Arquivo selecionado e botão Carregar](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. Uma notificação de que a importação foi bem-sucedida é exibida. Dependendo da quantidade de informações que você está importando, essa etapa pode levar de alguns segundos a um minuto.
 
-   ![](assets/kick-start-successful.png)
+   ![Início bem-sucedido](assets/kick-start-successful.png)
 
    Os novos campos e formulários personalizados agora estão em seu sistema do Workfront. Você pode encontrá-los na área Forms personalizado da Configuração.
 
@@ -294,7 +294,7 @@ Depois de executar as etapas descritas nas seções anteriores, continue com o s
 
 1. (Condicional) Se a importação não tiver sido bem-sucedida, você receberá uma mensagem de erro indicando qual é o problema. Tente identificar o campo, a planilha e o número da linha em que o problema foi encontrado, corrija as informações no arquivo do Excel e tente importar o arquivo mais uma vez.
 
-   ![](assets/kick-start-error.png)
+   ![Erro de início rápido](assets/kick-start-error.png)
 
 1. (Condicional) Dependendo do problema, conforme indicado na mensagem de erro, algumas informações podem já ter sido importadas. Você deve executar um dos seguintes procedimentos antes de importar a planilha novamente:
 

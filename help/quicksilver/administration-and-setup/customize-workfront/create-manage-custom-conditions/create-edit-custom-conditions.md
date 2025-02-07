@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Para editar uma condição existente, passe o mouse sobre a condição que deseja editar, em seguida, clique no ícone **Editar** que aparece à direita.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![Condição personalizada](assets/custom-condition-edit-nwe.jpg)
 
 1. Configure sua condição personalizada usando as seguintes opções:
 
@@ -110,21 +110,21 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Você pode padronizar a terminologia de condição e as cores em todos os três tipos de objeto. Para fazer isso, copie o Nome da condição e o código hexadecimal da Cor de uma guia (Projeto, Tarefa, Problema) para a condição correspondente nas outras duas guias.
 
-1. (Opcional) Arraste ![](assets/move-icon---dots.png) qualquer condição para uma nova posição para reordenar a lista.
+1. (Opcional) Arraste o ![ícone Mover](assets/move-icon---dots.png) qualquer condição para uma nova posição para reordenar a lista.
 
    Isso altera a ordem em que as condições são exibidas em projetos, tarefas e problemas:
 
    * Quando um usuário edita um projeto
 
-     ![](assets/change-condition-edit-project.png)
+     ![Alterar condição ao editar o projeto](assets/change-condition-edit-project.png)
 
    * Quando um usuário altera a condição de uma tarefa ou problema na guia Atualizações:
 
-     ![](assets/change-condition-update-comment.png)
+     ![Alterar condição ao atualizar o comentário](assets/change-condition-update-comment.png)
 
    * Quando um usuário altera a condição de uma tarefa ou problema em uma exibição de lista:
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![Alterar condição na lista](assets/change-conditions-list-dropdown-only.png)
 
 1. Clique em **Salvar**.
 

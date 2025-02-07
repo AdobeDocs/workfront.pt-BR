@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 
    Os nomes adicionados recentemente são exibidos com um plano de fundo azul. Isso é útil ao editar um modelo de layout existente, pois é possível distinguir os nomes que você acabou de adicionar daqueles que já estavam na lista.
 
-   Um ícone Informações ![](assets/info-icon.png) é exibido à direita do nome de qualquer usuário, função de trabalho, equipe ou grupo que já esteja atribuído a outro modelo de layout. Você pode passar o mouse sobre o ícone para ver o nome desse modelo de layout e decidir se deseja sobrepor a atribuição existente.
+   Um ícone Informações ![ícone Informações](assets/info-icon.png) é exibido à direita do nome de qualquer usuário, função de trabalho, equipe ou grupo que já esteja atribuído a outro modelo de layout. Você pode passar o mouse sobre o ícone para ver o nome desse modelo de layout e decidir se deseja sobrepor a atribuição existente.
 
 1. Repita as duas etapas anteriores para atribuir o modelo de layout a outros usuários, funções de trabalho, equipes ou grupos, conforme necessário.
 
