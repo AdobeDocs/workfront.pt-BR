@@ -7,9 +7,9 @@ description: Em  [!DNL Workfront Proof], as provas existem em diferentes estados
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -71,14 +71,14 @@ Para obter informações sobre como exibir uma lista de todas as provas em um es
 
 1. No **[!UICONTROL Painel]**, clique na seta **[!UICONTROL Expandir]** ao lado da prova que você deseja exibir ou alterar o estado de.
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![Expandir](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    A seção **[!UICONTROL Processo de fluxo de trabalho]** é exibida.
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![Processo de fluxo de trabalho](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. Exiba o **[!UICONTROL Estado]** no **[!UICONTROL processo de fluxo de trabalho]**.
 
 1. (Opcional) Para alterar o estado, passe o mouse sobre o **[!UICONTROL Estado]** atual, clique no menu suspenso e selecione um novo estado.
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![Novo estado](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

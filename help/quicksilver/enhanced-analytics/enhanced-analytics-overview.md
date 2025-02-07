@@ -7,9 +7,9 @@ description: A análise aprimorada é uma ferramenta eficiente no Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ A análise aprimorada pode ajudar a identificar:
 * Com que frequência os usuários concluem ações específicas durante um projeto
 * O progresso dos projetos, bem como as tarefas individuais dentro de um projeto
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![Análises](assets/nwe-full-screen-analytics-350x222.png)
 
 Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://one.workfront.com/s/enhanced-analytics-program).
 

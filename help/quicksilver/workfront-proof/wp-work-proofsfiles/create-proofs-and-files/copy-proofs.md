@@ -7,9 +7,9 @@ description: Os revisores com direitos de edição em uma prova podem criar uma 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Os revisores que estavam na prova original aparecem automaticamente na seção [
 1. Vá para qualquer uma das páginas **[!UICONTROL Exibições]**, conforme descrito em [Gerenciar Itens na Página Exibições [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Abra o menu **[!UICONTROL Mais]** para a prova.\
-   ![](assets/more-button-small.png)
+   ![Mais menu](assets/more-button-small.png)
 
 1. Escolha **[!UICONTROL Copiar]** no menu suspenso.
 1. Na página **[!UICONTROL Copiar prova]** exibida, especifique se deseja criar a cópia como uma nova versão da prova existente ou como uma nova prova.\
@@ -77,7 +77,7 @@ Para copiar configurações de prova existentes para uma nova prova:
 1. Vá para qualquer uma das páginas **[!UICONTROL Exibições]**, conforme descrito em [Gerenciar Itens na Página Exibições [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Abra o menu **[!UICONTROL Mais]** para a prova.\
-   ![](assets/more-button-small.png)
+   ![Mais menu](assets/more-button-small.png)
 
 1. Escolha **[!UICONTROL Exibir detalhes da prova]** no menu suspenso.
 1. Clique em **[!UICONTROL Mais]**.\

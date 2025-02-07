@@ -7,9 +7,9 @@ description: No  [!DNL Workfront] Proof, você pode usar pastas para agrupar pro
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ Como revisor, você pode trabalhar com várias provas em uma pasta sem sair do v
 
      Ao comparar provas, se quiser alternar para uma nova prova, no lado esquerdo ou direito do visualizador de provas, clique no botão [!UICONTROL Comparar] acima da prova.
 
-     ![](assets/mceclip0-350x126.png)
+     ![Comparar](assets/mceclip0-350x126.png)

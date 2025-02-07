@@ -7,9 +7,9 @@ description: Se você tiver direitos de edição em uma prova, poderá compartil
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Se você compartilhar uma prova adicionando revisores:
 ## Adicionar revisores a uma prova existente
 
 1. No Painel ou em qualquer exibição de lista, clique na lista suspensa do botão **[!UICONTROL Mais]** à direita da prova.\
-   ![](assets/more-button-small.png)
+   ![Mais menu](assets/more-button-small.png)
 
 1. Clique em **[!UICONTROL Compartilhar]** no menu suspenso.
 1. Na página **[!UICONTROL Compartilhar esta versão]** que aparece, adicione os revisores adicionando seus endereços de email.\

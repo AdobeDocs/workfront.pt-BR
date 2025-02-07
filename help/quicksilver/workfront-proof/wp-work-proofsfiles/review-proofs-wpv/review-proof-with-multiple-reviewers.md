@@ -7,9 +7,9 @@ description: Vários revisores podem revisar uma prova ao mesmo tempo. Ao revisa
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ Vários revisores podem revisar uma prova ao mesmo tempo. Ao revisar uma prova, 
 
 1. (Opcional) Passe o mouse sobre um indicador de presença para visualizar o nome do usuário.
 
-   ![](assets/proof-presence.png)
+   ![Presença da prova](assets/proof-presence.png)

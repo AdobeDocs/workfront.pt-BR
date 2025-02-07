@@ -7,9 +7,9 @@ description: A visualização do Plano de voo mostra quantos projetos (dentro do
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '885'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 A visualização do Plano de voo mostra quantos projetos (dentro dos critérios de filtro aplicados) estavam em andamento, quais alterações de condição ocorreram durante a vida desses projetos e o quão próximos esses projetos respeitaram os prazos de conclusão planejados.
 
-![](assets/flight-plan-350x132.png)
+![Plano de voo](assets/flight-plan-350x132.png)
 
 ## Requisitos de acesso
 
@@ -67,11 +67,11 @@ A visualização Plano de voo mostra os seguintes detalhes do projeto:
 
 * **Duração planejada**: a linha azul horizontal representa o comprimento planejado do projeto, com os triângulos em cada extremidade da linha indicando a data inicial e a data final.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![Duração planejada](assets/planned-duration-line-350x37.png)
 
 * **Duração real**: a linha espessa colorida abaixo da duração planejada representa a duração real do projeto. A cor da linha muda dependendo da condição do projeto naquele momento específico da vida útil do projeto.
 
-  ![](assets/actual-duration-line.png)
+  ![Duração real](assets/actual-duration-line.png)
 
 * **Condição real**: a linha espessa e colorida também mostra a condição de um projeto em momentos diferentes. A cor da linha muda dependendo da condição do projeto:
 
@@ -79,7 +79,7 @@ A visualização Plano de voo mostra os seguintes detalhes do projeto:
    * **Laranja**: Em Risco
    * **Vermelho**: Com Problemas
 
-  ![](assets/actual-condition-color.png)
+  ![Condição real](assets/actual-condition-color.png)
 
 Ao passar o mouse sobre uma linha do projeto na visualização Plano de voo, é possível ver informações sobre o período planejado do projeto, a condição atual do projeto e, se aplicável, a condição personalizada. Para obter uma visualização mais detalhada do que pode ter afetado a duração ou a condição, você pode consultar as outras visualizações na área Analítica aprimorada.
 
@@ -95,10 +95,10 @@ Para obter informações sobre como obter os melhores dados para esta visualiza�
 
 ## Exibir a visualização de Plano de voo
 
-1. Clique no ícone ![](assets/main-menu-icon-16x12.png) do **Menu principal** e selecione **Analytics**.
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon-16x12.png) e selecione **Analytics**.
 1. (Opcional) Para usar um intervalo de datas diferente, selecione novas datas de início e término no filtro de intervalo de datas.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Selecionar intervalo de datas](assets/filters-select-date-range-350x344.png)
 
    Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -112,7 +112,7 @@ Para obter informações sobre como obter os melhores dados para esta visualiza�
 
    Todas as outras visualizações são atualizadas para o mesmo intervalo de datas e um filtro de período é criado.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro de cronograma](assets/timeframe-filter-350x220.png)
 
 1. (Opcional) Para alterar a forma como os projetos são classificados, clique no menu **Classificar por** no canto superior direito da visualização Plano de voo e selecione uma nova opção de classificação:
 
@@ -127,7 +127,7 @@ Para obter informações sobre como obter os melhores dados para esta visualiza�
 
    Todas as outras visualizações na página são atualizadas para corresponder à seleção da página.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginação](assets/pagination-350x118.png)
 
 1. Passe o mouse sobre o gráfico de barras do projeto para ver a linha de data azul, bem como os seguintes detalhes:
 
@@ -135,9 +135,9 @@ Para obter informações sobre como obter os melhores dados para esta visualiza�
    * Condição atual
    * Condição personalizada (se aplicável)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![Gráfico de barras do projeto](assets/project-bar-graph-350x143.png)
 
-1. (Opcional) Para exportar os dados de visualização, clique no ícone ![](assets/export.png) de **Exportar** no canto superior direito da visualização e selecione o formato de exportação:
+1. (Opcional) Para exportar os dados de visualização, clique no ícone **Exportar** ![Ícone Exportar](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
 
    * **Gráfico (PNG)**
    * **Tabela de Dados (XSLX)**

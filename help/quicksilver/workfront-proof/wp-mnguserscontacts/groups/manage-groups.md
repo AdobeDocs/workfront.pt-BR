@@ -7,9 +7,9 @@ description: Como administrador do  [!DNL Workfront Proof] , você pode gerencia
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ Na página [!UICONTROL Grupos], você pode:
       * Grupos privados são visíveis apenas para seus criadores.
       * Excluir os grupos selecionados.
 
-        ![](assets/trash-button.png)
+        ![Ícone Excluir](assets/trash-button.png)
    * Você pode executar ações em Grupos também em cada Grupo separadamente do menu **[!UICONTROL Mais]** (três pontos):
 
-     ![](assets/more-button-small.png)
+     ![Mais menu](assets/more-button-small.png)
 
       * Exibir detalhes do Grupo.
 
@@ -102,7 +102,7 @@ Na página exibida, você pode exibir todas as pessoas que estão atualmente no 
 
 1. Marque as caixas de seleção ao lado do nome ou nomes dos contatos que deseja adicionar a um grupo.
 1. Clique no botão **[!UICONTROL Adicionar ao grupo]**.
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![Adicionar ao grupo](assets/screenshot-2018-04-06-15-27-17.png)
 A caixa de diálogo **[!UICONTROL Adicionar ao grupo]** é exibida.
 
 1. Na seção **[!UICONTROL Pessoas]**:

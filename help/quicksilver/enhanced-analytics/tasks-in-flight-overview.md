@@ -7,9 +7,9 @@ description: A visualização Tarefas em andamento mostra quantas tarefas (dentr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '749'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 A visualização Tarefas em andamento mostra quantas tarefas (dentro dos critérios de filtro aplicados) estão em andamento para um projeto, a porcentagem de trabalho concluído para cada tarefa e o cronograma das tarefas.
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+![Tarefas em andamento](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## Requisitos de acesso
 
@@ -59,15 +59,15 @@ A visualização do plano de execução de Tarefas mostra os seguintes detalhes 
 
 * **Duração da tarefa planejada**: o comprimento de uma barra de tarefas indica a duração planejada, que se baseia na data de início e na data de conclusão da tarefa.
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![Duração das tarefas em andamento](assets/tasks-in-flight-duration-350x80.png)
 
 * **Esforço de trabalho concluído**: a cor azul escuro em uma barra de tarefas indica a quantidade de trabalho concluído para uma tarefa. Essa porcentagem de conclusão é exibida à direita da barra de tarefas.
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![Tarefas em voo com azul escuro](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **Esforço de trabalho restante**: a cor azul-claro em uma barra de tarefas indica a quantidade de trabalho que precisa ser concluído para uma tarefa.
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![Tarefas em azul claro de voo](assets/tasks-in-flight-light-blue-350x35.png)
 
 Essas informações podem ajudar você a determinar:
 
@@ -80,10 +80,10 @@ Para saber como obter os melhores dados para esta visualização, consulte [Vis�
 
 ## Visualização Exibir as tarefas em andamento
 
-1. Clique no ícone Menu Principal ![](assets/main-menu-icon-16x12.png) e selecione **Analytics**.
+1. Clique no ícone Menu Principal ![ícone Menu principal](assets/main-menu-icon-16x12.png) e selecione **Analytics**.
 1. (Opcional) Para usar um intervalo de datas diferente, selecione novas datas de início e término no filtro de intervalo de datas.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Selecionar intervalo de datas](assets/filters-select-date-range-350x344.png)
 
    Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -113,7 +113,7 @@ Para saber como obter os melhores dados para esta visualização, consulte [Vis�
 
    Todas as outras visualizações são atualizadas para o mesmo intervalo de datas e um filtro de período é criado.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro de cronograma](assets/timeframe-filter-350x220.png)
 
 1. (Opcional) Para alterar a forma como as tarefas são classificadas, clique no menu **Classificar por** e selecione uma nova opção de classificação:
 
@@ -125,13 +125,13 @@ Para saber como obter os melhores dados para esta visualização, consulte [Vis�
 
 1. Revise o progresso das tarefas no projeto selecionado e passe o mouse sobre uma tarefa específica para ver o número de horas planejadas, a data de vencimento planejada e a porcentagem de conclusão.
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   ![Detalhes das tarefas em andamento](assets/tasks-in-flight-task-details-350x242.png)
 
 1. Clique em uma tarefa para abrir os Detalhes da tarefa no lado direito da tela, onde você pode ver mais informações sobre a tarefa, exibir ou inserir atualizações ou fazer alterações na tarefa.
 
-   ![](assets/task-details-qs-350x675.png)
+   ![Detalhes da tarefa](assets/task-details-qs-350x675.png)
 
-1. (Opcional) Para exportar os dados de visualização, clique no **ícone Exportar** ![](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
+1. (Opcional) Para exportar os dados de visualização, clique no **ícone Exportar** ![ícone Exportar](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
 
    * **Gráfico (PNG)**
    * **Tabela de Dados (XSLX)**

@@ -7,9 +7,9 @@ description: Os usuários que têm direitos de edição em uma prova podem exclu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para obter informações sobre a Lixeira, consulte [Restaurar e esvaziar a Lixei
 ## Exclusão de uma prova
 
 1. Em qualquer exibição de lista, clique no menu **[!UICONTROL Mais]** à direita da prova.\
-   ![](assets/more-button-small.png)
+   ![Mais menu](assets/more-button-small.png)
 
 1. Clique em **[!UICONTROL Exibir detalhes da prova]** no menu suspenso exibido.
 1. Clique no botão **[!UICONTROL Excluir]** próximo à parte superior direita da página.

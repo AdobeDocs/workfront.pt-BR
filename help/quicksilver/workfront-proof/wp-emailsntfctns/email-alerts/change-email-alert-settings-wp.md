@@ -7,9 +7,9 @@ description: Você também pode alterar os [!DNL Workfront Proof] alertas de ema
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Você também pode alterar os [!DNL Workfront Proof] alertas de email que recebe
 
 ## Alterar os alertas de email dos revisores em uma prova
 
-1. Em qualquer exibição de lista, clique no menu **[!UICONTROL Mais]** à direita da prova. ![](assets/more-button-small.png)
+1. Em qualquer exibição de lista, clique no menu **[!UICONTROL Mais]** à direita da prova. ![Mais menu](assets/more-button-small.png)
 
 1. Clique em **[!UICONTROL Exibir detalhes da prova]**.
 1. Na página **[!UICONTROL Detalhes da prova]**, abra o menu suspenso [!UICONTROL alerta por email] para um revisor e selecione a nova configuração.

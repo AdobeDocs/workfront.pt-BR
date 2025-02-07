@@ -7,9 +7,9 @@ description: O painel Fluxo de trabalho exibe o fluxo de trabalho da prova como 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Para acessar o painel [!UICONTROL Fluxo de trabalho]:
 
    O painel **[!UICONTROL Fluxo de trabalho]** é exibido.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![Painel de fluxo de trabalho](assets/workflow-panel-350x115.png)
 
    Cada seção no painel Fluxo de trabalho mostra o progresso e o status da prova, dos estágios e dos revisores.
 

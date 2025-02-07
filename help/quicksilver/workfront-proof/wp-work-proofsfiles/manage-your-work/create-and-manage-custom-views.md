@@ -7,9 +7,9 @@ description: É possível criar exibições personalizadas de seus arquivos e pr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Para criar uma exibição personalizada:
 
    * Para criar uma nova view personalizada com base em uma view padrão existente: no menu suspenso, selecione a view padrão existente que deseja usar como base para a nova view personalizada. Clique no ícone **[!UICONTROL Exibir configurações]** e em **[!UICONTROL Copiar]** para novo modo de exibição personalizado.
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![Ícone de modo de exibição personalizado](assets/proof-custom-view-icon.png)
 
    * Para criar um novo modo de exibição personalizado do zero: clique no ícone **[!UICONTROL Novo Modo de Exibição]**.
-   * ![](assets/proof-newview.png)
+   * ![Nova exibição](assets/proof-newview.png)
 
 1. Na seção **[!UICONTROL Detalhes]**, especifique as seguintes informações:
 
@@ -59,7 +59,7 @@ Para criar uma exibição personalizada:
 1. Na seção **[!UICONTROL Colunas]**, determine quais colunas você deseja incluir no modo de exibição personalizado.
 
    1. Clique no ícone de seta para a direita.
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![Seta para a direita](assets/proof-view-rightarrow.png)
 
    1. Clique duas vezes no nome da coluna selecionada.
    1. Você deve selecionar pelo menos uma coluna, e uma coluna pode ser adicionada apenas uma vez.
@@ -274,10 +274,10 @@ Para criar uma exibição personalizada:
 
 1. Clique no botão [!UICONTROL Exibições] (1)
 1. Selecione a exibição que deseja editar no menu suspenso.\
-   ![](assets/proof-view-edit.png)
+   ![Editar modo de exibição](assets/proof-view-edit.png)
 
 1. Clique no botão **[!UICONTROL Opções de Exibição]** e em **[!UICONTROL Editar exibição]**.\
-   ![](assets/proof-view-options.png)\
+   ![Exibir opções](assets/proof-view-options.png)\
    A página Editar Exibição Personalizada é exibida.
 
 1. Clique no menu [!UICONTROL Ações]. (3)\
@@ -312,7 +312,7 @@ Para copiar uma exibição personalizada:
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. Na página Copiar modo de exibição personalizado, todas as configurações originais são preenchidas. Modifique o modo de exibição Personalizado conforme sua escolha e clique no botão **[!UICONTROL Copiar modo de exibição]**. Você será direcionado imediatamente à sua nova visualização.\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![Copiar modo de exibição personalizado](assets/copy-custom-view-page-350x542.png)
 
 ## Compartilhamento de exibições personalizadas
 

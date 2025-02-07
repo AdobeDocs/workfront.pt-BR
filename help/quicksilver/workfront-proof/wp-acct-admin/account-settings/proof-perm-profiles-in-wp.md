@@ -8,9 +8,9 @@ description: Como administrador do Workfront ou administrador do Workfront Proof
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ A tabela a seguir exibe as permissões disponíveis com cada Perfil de permissõ
 | **Próprios itens** |  |  |  |  | **Itens de Outros Usuários** |  |  | **Administrador** | **Faturamento** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **Adicionar** | **Exibir** | **Editar** | **Excluir** | **Exibir** | **Editar** | **Excluir** | **Editar e Excluir** | **Editar** |
-| Administrador de Cobrança | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
-| Admin | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
-| Supervisor | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
-| Gerente | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |   |   |   |
-| Observador |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| Visitante |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Administrador de Cobrança | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |
+| Admin | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |   |
+| Supervisor | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |   |   |
+| Gerente | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) | ![Marca de seleção](assets/cleaner2.png) |   |   |   |   |   |
+| Observador |   | ![Marca de seleção](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Visitante |   | ![Marca de seleção](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -66,35 +66,35 @@ As seções a seguir descrevem cada perfil e as permissões associadas ao perfil
 
 Os Administradores de Cobrança têm acesso às [configurações da conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] Página de Cobrança](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e têm as seguintes permissões:
 
-![](assets/cleaner2.png)Pode gerar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Gerar Provas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Carregar Arquivos e Conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Criar Pastas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Marca de seleção](assets/cleaner2.png)Pode gerar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Gerar Provas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Carregar Arquivos e Conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Criar Pastas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Pode exibir, editar e excluir suas próprias provas e arquivos criados por eles.
+![Marca de seleção](assets/cleaner2.png)Pode exibir, editar e excluir as próprias provas e arquivos que criam.
 
-![](assets/cleaner2.png)Pode exibir, editar e excluir provas e arquivos criados por todos os usuários na organização.
+![Marca de seleção](assets/cleaner2.png)Pode exibir, editar e excluir provas e arquivos criados por todos os usuários na organização.
 
-![](assets/cleaner2.png)Pode excluir as pastas públicas de outros usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Marca de seleção](assets/cleaner2.png)Pode excluir as pastas públicas de outros usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Tem direitos de edição em todas as provas criadas na conta.
+![Marca de seleção](assets/cleaner2.png)Tem direitos de edição em todas as provas criadas na conta.
 
-![](assets/cleaner2.png)Pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Marca de seleção](assets/cleaner2.png)Pode ser definida como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Pode acessar a página de cobrança e editar os detalhes da cobrança. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Marca de seleção](assets/cleaner2.png)Pode acessar a página de cobrança e editar os detalhes da cobrança. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-![](assets/cleaner2.png)Pode acessar a página Configurações da Conta e editar os detalhes da conta. Para obter mais informações, consulte [Configurações da conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Marca de seleção](assets/cleaner2.png)Pode acessar a página Configurações da conta e editar os detalhes da conta. Para obter mais informações, consulte [Configurações da conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Pode esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Marca de seleção](assets/cleaner2.png)Pode esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)Pode adicionar, editar e excluir usuários.
+![Marca de seleção](assets/cleaner2.png)Pode adicionar, editar e excluir usuários.
 
-![](assets/cleaner2.png)Pode criar grupos e adicionar novos contatos.
+![Marca de seleção](assets/cleaner2.png)Pode criar grupos e adicionar novos contatos.
 
-![](assets/cleaner2.png)Pode excluir contatos.
+![Marca de seleção](assets/cleaner2.png)Pode excluir contatos.
 
-![](assets/cleaner2.png)Pode editar provas se não houver respostas sobre elas.
+![Marca de seleção](assets/cleaner2.png)Pode editar provas se não houver respostas sobre elas.
 
-![](assets/no2.png)Não é possível editar as respostas da prova.
+![X vermelho](assets/no2.png)Não é possível editar respostas de prova.
 
-![](assets/no2.png)Não é possível excluir as pastas particulares de outros Usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X Vermelho](assets/no2.png)Não é possível excluir as pastas particulares de outros Usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
 Para obter informações sobre configurações de conta, consulte [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
@@ -104,127 +104,127 @@ Para obter informações sobre cobrança, consulte [A [!DNL Workfront Proof] Pá
 
 Administradores têm acesso a [Configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)e têm as seguintes permissões:
 
-![](assets/cleaner2.png)Pode criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Gerar Provas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Carregar Arquivos e Conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Criar Pastas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Marca de seleção](assets/cleaner2.png)Pode criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Gerar Provas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Carregar Arquivos e Conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Criar Pastas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Pode exibir, editar e excluir provas e arquivos que criaram.
+![Marca de seleção](assets/cleaner2.png)Pode exibir, editar e excluir provas e arquivos que criaram.
 
-![](assets/cleaner2.png)Pode exibir, editar e excluir provas e arquivos criados por todos os usuários na organização.
+![Marca de seleção](assets/cleaner2.png)Pode exibir, editar e excluir provas e arquivos criados por todos os usuários na organização.
 
-![](assets/cleaner2.png)Pode excluir as pastas públicas de outros usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Marca de seleção](assets/cleaner2.png)Pode excluir as pastas públicas de outros usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Tem direitos de edição em todas as provas criadas na conta.
+![Marca de seleção](assets/cleaner2.png)Tem direitos de edição em todas as provas criadas na conta.
 
-![](assets/cleaner2.png)Pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Marca de seleção](assets/cleaner2.png)Pode ser definida como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Pode acessar a página Configurações da Conta e editar os detalhes da conta. Para obter mais informações, consulte [Configurações da conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Marca de seleção](assets/cleaner2.png)Pode acessar a página Configurações da conta e editar os detalhes da conta. Para obter mais informações, consulte [Configurações da conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Pode esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Marca de seleção](assets/cleaner2.png)Pode esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)Pode adicionar, editar e excluir usuários.
+![Marca de seleção](assets/cleaner2.png)Pode adicionar, editar e excluir usuários.
 
-![](assets/cleaner2.png)Pode criar grupos e adicionar novos contatos.
+![Marca de seleção](assets/cleaner2.png)Pode criar grupos e adicionar novos contatos.
 
-![](assets/cleaner2.png)Pode excluir contatos.
+![Marca de seleção](assets/cleaner2.png)Pode excluir contatos.
 
-![](assets/cleaner2.png)Pode editar provas se não houver respostas sobre elas.
+![Marca de seleção](assets/cleaner2.png)Pode editar provas se não houver respostas sobre elas.
 
-![](assets/no2.png)Não é possível editar as respostas da prova.
+![X vermelho](assets/no2.png)Não é possível editar respostas de prova.
 
-![](assets/no2.png)Não é possível excluir as pastas particulares de outros Usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X Vermelho](assets/no2.png)Não é possível excluir as pastas particulares de outros Usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Não é possível acessar a página Cobrança ou editar os detalhes da cobrança. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![X Vermelho](assets/no2.png)Não é possível acessar a página Cobrança ou editar os detalhes de cobrança. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Supervisor {#supervisor}
 
 Os supervisores têm as seguintes permissões:
 
-![](assets/cleaner2.png)Pode criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Gerar Provas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Carregar Arquivos e Conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Criar Pastas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Marca de seleção](assets/cleaner2.png)Pode criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Gerar Provas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Carregar Arquivos e Conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Criar Pastas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Pode exibir, editar e excluir suas próprias provas e arquivos criados.
+![Marca de seleção](assets/cleaner2.png)Pode exibir, editar e excluir as próprias provas e arquivos que criaram.
 
-![](assets/cleaner2.png)Pode exibir, editar e excluir provas e arquivos criados por todos os usuários na organização.
+![Marca de seleção](assets/cleaner2.png)Pode exibir, editar e excluir provas e arquivos criados por todos os usuários na organização.
 
-![](assets/cleaner2.png)Pode excluir as pastas públicas de outros usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Marca de seleção](assets/cleaner2.png)Pode excluir as pastas públicas de outros usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Tem direitos de edição em todas as provas criadas na conta.
+![Marca de seleção](assets/cleaner2.png)Tem direitos de edição em todas as provas criadas na conta.
 
-![](assets/cleaner2.png)Pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Marca de seleção](assets/cleaner2.png)Pode ser definida como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Pode criar grupos e adicionar novos contatos.
+![Marca de seleção](assets/cleaner2.png)Pode criar grupos e adicionar novos contatos.
 
-![](assets/cleaner2.png)Pode excluir contatos.
+![Marca de seleção](assets/cleaner2.png)Pode excluir contatos.
 
-![](assets/cleaner2.png)Pode editar provas se não houver respostas sobre elas.
+![Marca de seleção](assets/cleaner2.png)Pode editar provas se não houver respostas sobre elas.
 
-![](assets/no2.png)Não é possível editar as respostas da prova.
+![X vermelho](assets/no2.png)Não é possível editar respostas de prova.
 
-![](assets/no2.png)Não é possível excluir as pastas particulares de outros Usuários. Para obter mais informações, consulte [Pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+![X Vermelho](assets/no2.png)Não é possível excluir as pastas particulares de outros Usuários. Para obter mais informações, consulte [Pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![](assets/no2.png)Não é possível acessar a página de Faturamento ou as configurações da Conta. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![X Vermelho](assets/no2.png)Não é possível acessar a página de Faturamento ou as configurações de Conta. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Não é possível adicionar, editar ou excluir usuários.
+![X Vermelho](assets/no2.png)Não é possível adicionar, editar ou excluir usuários.
 
-![](assets/no2.png)Não é possível esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![X Vermelho](assets/no2.png)Não é possível esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 ### Gerente {#manager}
 
 Os gerentes têm as seguintes permissões:
 
-![](assets/cleaner2.png)Pode criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Gerar Provas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Carregar Arquivos e Conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Criar Pastas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Marca de seleção](assets/cleaner2.png)Pode criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Gerar Provas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Carregar Arquivos e Conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Criar Pastas [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Pode exibir, editar e excluir suas próprias provas e arquivos que elas criam ou possuem.
+![Marca de seleção](assets/cleaner2.png)Pode exibir, editar e excluir suas próprias provas e seus arquivos.
 
-![](assets/cleaner2.png)Pode ver, revisar e aprovar provas de outros usuários que estejam explicitamente compartilhados com eles (direitos somente leitura para tudo em uma pasta compartilhada). Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Marca de seleção](assets/cleaner2.png)Pode ver, revisar e aprovar provas de outros usuários que estejam compartilhados explicitamente com eles (direitos somente leitura para tudo em uma pasta compartilhada). Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Pode criar grupos e adicionar um novo contato.
+![Marca de seleção](assets/cleaner2.png)Pode criar grupos e adicionar um novo contato.
 
-![](assets/no2.png)Não é possível exibir, editar ou excluir provas e arquivos criados por outros usuários na organização.
+![X vermelho](assets/no2.png)Não é possível exibir, editar ou excluir provas e arquivos criados por outros usuários na organização.
 
-![](assets/no2.png)Não é possível editar provas ou respostas.
+![X vermelho](assets/no2.png)Não é possível editar provas ou respostas.
 
-![](assets/no2.png)Não é possível excluir as pastas particulares de outros Usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X Vermelho](assets/no2.png)Não é possível excluir as pastas particulares de outros Usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Não é possível excluir as pastas públicas de outros Usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X Vermelho](assets/no2.png)Não é possível excluir as pastas públicas de outros Usuários. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Não é possível acessar a página de Faturamento ou as configurações da Conta. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![X Vermelho](assets/no2.png)Não é possível acessar a página de Faturamento ou as configurações de Conta. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Não pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![X Vermelho](assets/no2.png)Não pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Não é possível esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![X Vermelho](assets/no2.png)Não é possível esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Não é possível adicionar, editar ou excluir usuários.
+![X Vermelho](assets/no2.png)Não é possível adicionar, editar ou excluir usuários.
 
-![](assets/no2.png)Não é possível excluir contatos.
+![X Vermelho](assets/no2.png)Não é possível excluir contatos.
 
 ### Observador {#observer}
 
 Os observadores têm as seguintes permissões:
 
-![](assets/cleaner2.png)Pode ver, revisar e aprovar provas de outros usuários que estejam explicitamente compartilhados com eles (direitos somente leitura para tudo em uma pasta compartilhada). Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Marca de seleção](assets/cleaner2.png)Pode ver, revisar e aprovar provas de outros usuários que estão explicitamente compartilhados com eles (direitos somente leitura para tudo em uma pasta compartilhada). Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Pode exibir arquivos compartilhados explicitamente com eles.
+![Marca de seleção](assets/cleaner2.png)Pode exibir arquivos compartilhados explicitamente com eles.
 
-![](assets/cleaner2.png) Pode exibir contatos e grupos
+![Marca de seleção](assets/cleaner2.png) Pode exibir contatos e grupos
 
-![](assets/no2.png)Não é possível criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Fazer upload de arquivos e conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![X vermelho](assets/no2.png)Não é possível criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Fazer upload de arquivos e conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Não é possível exibir, editar ou excluir provas e arquivos criados por outros usuários na organização.
+![X vermelho](assets/no2.png)Não é possível exibir, editar ou excluir provas e arquivos criados por outros usuários na organização.
 
-![](assets/no2.png)Não é possível editar provas ou respostas.
+![X vermelho](assets/no2.png)Não é possível editar provas ou respostas.
 
-![](assets/no2.png)Não é possível excluir nenhum item criado na organização.
+![X Vermelho](assets/no2.png)Não é possível excluir itens criados na organização.
 
-![](assets/no2.png)Não é possível acessar a página de Faturamento ou as configurações da Conta. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![X Vermelho](assets/no2.png)Não é possível acessar a página de Faturamento ou as configurações de Conta. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Não pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![X Vermelho](assets/no2.png)Não pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Não é possível esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![X Vermelho](assets/no2.png)Não é possível esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Não é possível adicionar, editar ou excluir usuários.
+![X Vermelho](assets/no2.png)Não é possível adicionar, editar ou excluir usuários.
 
-![](assets/no2.png)Não é possível criar grupos ou adicionar novos contatos.
+![X Vermelho](assets/no2.png)Não é possível criar grupos ou adicionar novos contatos.
 
-![](assets/no2.png)Não é possível excluir contatos.
+![X Vermelho](assets/no2.png)Não é possível excluir contatos.
 
 >[!NOTE]
 >
@@ -238,31 +238,31 @@ Os observadores têm as seguintes permissões:
 
 Os visitantes têm as seguintes permissões:
 
-![](assets/cleaner2.png)Pode ver, revisar e aprovar provas de outros usuários que estejam explicitamente compartilhados com eles (direitos somente leitura para tudo em uma pasta compartilhada). Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Marca de seleção](assets/cleaner2.png)Pode ver, revisar e aprovar provas de outros usuários que estejam compartilhados explicitamente com eles (direitos somente leitura para tudo em uma pasta compartilhada). Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Pode exibir arquivos compartilhados explicitamente com eles.
+![Marca de seleção](assets/cleaner2.png)Pode exibir arquivos compartilhados explicitamente com eles.
 
-![](assets/no2.png) Não é possível exibir contatos e grupos
+![X Vermelho](assets/no2.png) Não é possível exibir contatos e grupos
 
-![](assets/no2.png)Não é possível criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Fazer upload de arquivos e conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![X vermelho](assets/no2.png)Não é possível criar provas, carregar arquivos e criar pastas. Para obter mais informações, consulte [Fazer upload de arquivos e conteúdo da Web para [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Não é possível exibir, editar ou excluir provas e arquivos criados por outros usuários na organização.
+![X vermelho](assets/no2.png)Não é possível exibir, editar ou excluir provas e arquivos criados por outros usuários na organização.
 
-![](assets/no2.png)Não é possível editar provas ou respostas.
+![X vermelho](assets/no2.png)Não é possível editar provas ou respostas.
 
-![](assets/no2.png)Não é possível excluir nenhum item criado na organização.
+![X Vermelho](assets/no2.png)Não é possível excluir itens criados na organização.
 
-![](assets/no2.png)Não é possível acessar a página de Faturamento ou as configurações da Conta. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![X Vermelho](assets/no2.png)Não é possível acessar a página de Faturamento ou as configurações de Conta. Para obter mais informações, consulte [A [!DNL Workfront Proof] Página de Faturamento](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e [Configurações de conta em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Não pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![X Vermelho](assets/no2.png)Não pode ser definido como o proprietário da Dropzone. Para obter mais informações, consulte [Configurar a zona de destino em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Não é possível esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![X Vermelho](assets/no2.png)Não é possível esvaziar a lixeira. Para obter mais informações, consulte [Restaurar e esvaziar a Lixeira em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Não é possível adicionar, editar ou excluir usuários.
+![X Vermelho](assets/no2.png)Não é possível adicionar, editar ou excluir usuários.
 
-![](assets/no2.png)Não é possível criar grupos ou adicionar novos contatos.
+![X Vermelho](assets/no2.png)Não é possível criar grupos ou adicionar novos contatos.
 
-![](assets/no2.png)Não é possível excluir contatos.
+![X Vermelho](assets/no2.png)Não é possível excluir contatos.
 
 >[!NOTE]
 >
@@ -276,15 +276,15 @@ Os visitantes têm as seguintes permissões:
 
 O perfil Convidado é usado para conceder acesso a provas para revisores que não têm sua própria conta do Workfront Proof. Os visitantes podem acessar provas compartilhadas diretamente com eles por meio de suas notificações pessoais por email.
 
-![](assets/cleaner2.png)Pode exibir, revisar e aprovar provas que são compartilhadas explicitamente com eles.
+![Marca de seleção](assets/cleaner2.png)Pode exibir, revisar e aprovar provas que são compartilhadas explicitamente com elas.
 
-![](assets/cleaner2.png)Pode exibir arquivos compartilhados explicitamente com eles.
+![Marca de seleção](assets/cleaner2.png)Pode exibir arquivos compartilhados explicitamente com eles.
 
-![](assets/no2.png)Não é possível acessar o Painel.
+![X Vermelho](assets/no2.png)Não é possível acessar o Painel.
 
-![](assets/no2.png)Não é possível ter pastas compartilhadas com eles. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X Vermelho](assets/no2.png)Não é possível ter pastas compartilhadas com ele. Para obter mais informações, consulte [Gerenciar pastas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Não pode ser adicionado como Autores ou Moderadores às provas. Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![X vermelho](assets/no2.png)Não pode ser adicionado como autores ou moderadores nas provas. Para obter mais informações, consulte [Gerenciar funções de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
@@ -300,11 +300,11 @@ Os administradores e os administradores de cobrança podem editar os perfis de p
 
    * Vá para a página **[!UICONTROL Contatos]**.
 
-1. Clique no nome do usuário cujas permissões você deseja editar. ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. Clique no nome do usuário cujas permissões você deseja editar. ![Selecionar usuário](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
 1. Clique no menu suspenso **[!UICONTROL Perfil de permissões]** e selecione um novo perfil de permissão. :
 
-   ![Screenshot_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
+   ![Perfil de permissões](assets/screenshot-2018-03-30-14-18-03a.png)
 
    Os perfis de permissão são Administrador, Supervisor, Gerente e Observador.
 

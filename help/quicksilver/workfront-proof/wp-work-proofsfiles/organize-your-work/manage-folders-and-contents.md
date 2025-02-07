@@ -7,9 +7,9 @@ description: Um dos benefícios de organizar seus projetos e provas em pastas é
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Você pode gerenciar facilmente seus arquivos na página [!UICONTROL Detalhes da
    * Veja o nome do **Criador** da pasta.
 
 1. (Opcional) Para alterar as informações associadas a um item na pasta, clique no ícone **[!UICONTROL Mais]** à direita do item e use qualquer uma das opções exibidas.\
-   ![](assets/more-button-small.png)\
+   ![Mais menu](assets/more-button-small.png)\
    As opções exibidas dependem se o item é uma prova ou um arquivo.
 
    * **[!UICONTROL Exibir detalhes da prova]** ou **[!UICONTROL Exibir detalhes do arquivo]**: abre a página Detalhes da prova ou Detalhes do arquivo. Para obter mais informações, consulte [Gerenciar arquivos em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) ou [Gerenciar detalhes da prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
@@ -111,9 +111,9 @@ Você pode gerenciar facilmente seus arquivos na página [!UICONTROL Detalhes da
 1. (Opcional) Clique em **[!UICONTROL Atividade]** para exibir todas as ações executadas na pasta em ordem cronológica.
 1. (Opcional) Clique na seção **[!UICONTROL Mensagens]** para exibir as mensagens enviadas aos usuários na pasta.\
    Ao passar o mouse sobre uma mensagem, você pode clicar no ícone **i** à direita para exibir a mensagem completa.\
-   ![](assets/messages-1-350x74.png)\
+   ![Mensagens](assets/messages-1-350x74.png)\
    Um pop-up com o email completo é exibido:\
-   ![](assets/messages-2-350x252.png)
+   ![Pop-up de mensagem](assets/messages-2-350x252.png)
 
 ## Gerenciamento de subpastas
 

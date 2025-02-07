@@ -7,9 +7,9 @@ description: A página de detalhes da Prova permite gerenciar uma prova existent
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Para saber como gerenciar provas do Fluxo de Trabalho Automatizado, consulte [Ge
 ## Abrindo a página Detalhes da prova no visualizador de provas
 
 1. se a barra de ferramentas esquerda não for exibida, clique no ícone **[!UICONTROL Menu]**, localizado no canto superior esquerdo.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menu do visualizador de provas](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Passe o mouse sobre a barra de ferramentas à esquerda, em seguida clique em **[!UICONTROL Detalhes da prova]**.\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![Detalhes do visualizador de provas](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

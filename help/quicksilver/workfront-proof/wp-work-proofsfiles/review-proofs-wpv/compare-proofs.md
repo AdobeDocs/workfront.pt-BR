@@ -7,9 +7,9 @@ description: Você pode exibir comparações lado a lado de duas provas. Essas p
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Você pode exibir comparações lado a lado de duas provas. Essas podem ser duas
 1. Abra a prova que tenha várias versões que você deseja comparar.
 1. No canto superior esquerdo do visualizador de provas exibido, clique no nome da prova. Em seguida, na lista de versões exibida, clique no ícone **Comparar** ao lado da versão que você deseja abrir e comparar.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![Comparar provas e escolher versão](assets/compare-proofs-choose-version-350x115.jpg)
 
    As provas são exibidas lado a lado, com a versão mais recente no lado esquerdo.
 

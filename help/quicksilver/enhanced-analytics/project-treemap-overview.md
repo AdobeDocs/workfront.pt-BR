@@ -7,9 +7,9 @@ description: A visualização do mapa de árvore do projeto é uma exibição de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 A visualização do mapa de árvore do projeto é uma exibição de horas, ou dias, que foram trabalhadas em uma janela de tempo específica em comparação a outros esforços de trabalho em tamanho. Isso ajuda você a entender quanto tempo as pessoas dedicaram a um projeto.
 
-![](assets/project-treemap-350x126.png){width="700"}
+![Mapa de árvore do projeto](assets/project-treemap-350x126.png){width="700"}
 
 ## Requisitos de acesso
 
@@ -71,22 +71,22 @@ A visualização do mapa de árvore do projeto é composta de:
 
 * **Caixas menores e azuis claras**: os projetos que têm menos horas ou dias são exibidos como caixas menores com uma cor azul-claro.
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![Caixa menor](assets/project-treemap-smaller-box.png)
 
 * **Caixas azuis escuras e maiores**: os projetos que têm mais horas ou dias são exibidos como caixas maiores com uma cor azul escura.
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![Caixa maior](assets/project-treemap-larger-box-350x205.png)
 
 * **Caixas azuis de tamanho Medium**: os projetos que se encaixam entre as duas categorias são exibidos como caixas de tamanho médio com uma sombra de azul entre as cores azul escuro e azul claro. Há 3 tons possíveis de azul para as caixas de tamanho médio.
 
 A legenda no lado direito mostra um detalhamento de horas concluídas para cada sombra de azul. Essa legenda é dinâmica e é atualizada de acordo com os dados.
 
-![](assets/project-treemap-hours-completed.png)
+![Horas do mapa de árvore concluídas](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >Se você estiver observando a visualização do mapa de árvore do projeto por duração em vez de por horas planejadas, essa legenda mostra um detalhamento dos dias trabalhados para cada sombra de azul.\
->![](assets/project-treemap-days-worked.png)>
+>![Dias trabalhados do Treemap](assets/project-treemap-days-worked.png)>
 
 Essas informações ajudam a determinar:
 
@@ -99,10 +99,10 @@ Para saber como obter os melhores dados para esta visualização, consulte [Vis�
 
 ## Exibir a visualização do mapa de árvore do projeto
 
-1. Clique no ícone Menu Principal ![](assets/main-menu-icon-16x12.png) e selecione **Analytics**.
+1. Clique no ícone Menu Principal ![ícone Menu principal](assets/main-menu-icon-16x12.png) e selecione **Analytics**.
 1. (Opcional) Para usar um intervalo de datas diferente, selecione novas datas de início e término no filtro de intervalo de datas.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Selecionar intervalo de datas](assets/filters-select-date-range-350x344.png)
 
    Para obter informações sobre como usar o filtro de intervalo de datas, consulte [Aplicar filtros na análise aprimorada](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -125,7 +125,7 @@ Para saber como obter os melhores dados para esta visualização, consulte [Vis�
 
    Todas as outras visualizações na página são atualizadas para corresponder à seleção da página.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginação](assets/pagination-350x118.png)
 
 1. (Opcional) Altere a exibição de **horas planejadas** para **duração**.
 
@@ -133,7 +133,7 @@ Para saber como obter os melhores dados para esta visualização, consulte [Vis�
 
 1. Passe o mouse sobre um projeto para ver a condição do projeto, bem como o número total de horas planejadas, o número total de horas concluídas e o número médio de horas gastas no projeto por dia.
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![Detalhes do projeto do Treemap](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ Para saber como obter os melhores dados para esta visualização, consulte [Vis�
    >* **Período planejado**: o número de dias planejados para concluir o projeto.
    >* **Dias trabalhados**: a duração planejada para cada tarefa que foi concluída dentro do intervalo de datas selecionado na parte superior, dividida pelo número de horas em um dia.
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![Duração do Treemap](assets/duration-treemap-350x159.png)
    >
    >Para obter mais informações sobre duração, consulte a seção &quot;Exibição de duração&quot; na [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Opcional) Para exportar os dados de visualização, clique no **ícone Exportar** ![](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
+1. (Opcional) Para exportar os dados de visualização, clique no **ícone Exportar** ![ícone Exportar](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
 
    * **Gráfico (PNG)**
    * **Tabela de Dados (XSLX)**

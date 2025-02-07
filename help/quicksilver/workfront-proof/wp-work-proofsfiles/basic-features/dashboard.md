@@ -8,9 +8,9 @@ description: O Painel é a primeira página que você vê ao fazer logon em sua 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '996'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ O painel contém o seguinte:
 >
 >Os menus e links que você pode ver e usar no Painel dependerão do perfil do usuário e das permissões.
 
-![](assets/dashboard-350x495.png)
+![Painel](assets/dashboard-350x495.png)
 
 Você pode marcar sua conta para mostrar o logotipo, as cores, os links personalizados e muito mais da sua própria organização. Para obter mais informações, consulte [Marcar o [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
 
@@ -49,7 +49,7 @@ Se você não marcar sua conta, o logotipo do [!DNL Workfront Proof] e as cores 
 
 ## Menu de cabeçalho
 
-![](assets/header-menu-350x150.png)
+![Menu de cabeçalho](assets/header-menu-350x150.png)
 
 ### O nome de usuário
 
@@ -97,7 +97,7 @@ Para abrir o menu Novo,
    * Novo usuário (12)
    * Novo grupo (13)
 
-![](assets/new-proof-350x256.png)
+![Nova prova](assets/new-proof-350x256.png)
 
 ## O menu Painel
 
@@ -116,7 +116,7 @@ O menu (1) [!UICONTROL Editar tags] permite:
 * Criar novas tags
 * Gestão de tags (2)
 
-![](assets/edit-tags-350x204.png)
+![Editar marcas](assets/edit-tags-350x204.png)
 
 ## Mover para
 
@@ -126,7 +126,7 @@ Essa função permite mover provas e arquivos para uma de suas pastas. Para faze
 1. Clique em **[!UICONTROL Mover para]** (3) e escolha a pasta relevante (4).
 1. Clique em **[!UICONTROL Salvar]** (5).
 
-   ![](assets/move-to-350x297.png)
+   ![Mover para](assets/move-to-350x297.png)
 
 ### Mais ações
 
@@ -138,7 +138,7 @@ No menu [!UICONTROL Mais ações] (6), você pode executar as seguintes ações:
 * Desarquivar (somente provas)
 * Alterar proprietário
 
-![](assets/more-actions-350x303.png)
+![Mais ações](assets/more-actions-350x303.png)
 
 ### Excluir
 
@@ -146,11 +146,11 @@ Para excluir itens:
 
 1. Marque a caixa de seleção à esquerda do(s) item(ns) e clique em **[!UICONTROL Excluir]** (7).
 
-![](assets/delete-350x109.png)
+![Ícone Excluir](assets/delete-350x109.png)
 
 1. Na tela de confirmação exibida, verifique os detalhes e confirme clicando em **[!UICONTROL Sim]** (8).
 
-![](assets/deleteing-items-350x237.png)
+![Excluindo itens](assets/deleteing-items-350x237.png)
 
 ### A Barra Lateral
 
@@ -168,7 +168,7 @@ A barra lateral tem links para as seguintes páginas:
 * Pastas de outras organizações (10) (onde você pode encontrar itens que outras organizações compartilharam com você)
 * Tags (11)
 
-![](assets/sidebar-350x426.png)
+![Barra lateral](assets/sidebar-350x426.png)
 
 A Barra lateral é descrita com mais detalhes na página de ajuda Barra lateral.
 
@@ -181,7 +181,7 @@ A seção [!UICONTROL Boas-vindas] tem os seguintes links úteis:
 * Dados de contato do suporte (3)
 * Link &quot;Não mostrar a seção de boas-vindas novamente&quot; (4)
 
-![](assets/welcome-350x73.png)
+![Boas-vindas](assets/welcome-350x73.png)
 
 ### Visão geral
 
@@ -197,7 +197,7 @@ A seção de visão geral também exibe informações pré-filtradas. São eles:
 * Provas para gerenciar - número total de provas ativas de sua propriedade e delegadas a você
 * Provas aguardando decisão - número total de provas ativas que exigem suas decisões
 
-  ![](assets/dashboard-overview-350x169.png)
+  ![Visão geral do painel](assets/dashboard-overview-350x169.png)
 
 Aqui você pode ver imediatamente quantas provas exigem ação imediata de você ou de seus revisores:
 
@@ -237,7 +237,7 @@ Para acessar a página Detalhes da prova:
 1. Clique no menu **[!UICONTROL Ações]** (1) disponível à direita do nome da prova.
 1. Selecione **[!UICONTROL Exibir detalhes da prova]** (2) no menu.
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![Itens recentes](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Atividade recente
 
@@ -258,4 +258,4 @@ Para acessar a página Detalhes da prova dessa prova:
 1. Clique no menu **[!UICONTROL Ações]** (1).
 1. Selecione **[!UICONTROL Exibir detalhes da prova]** (2) no menu suspenso.
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![Atividade recente](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

@@ -7,9 +7,9 @@ description: As notificações por email geradas pelo Workfront Proof informam o
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Você pode alterar alertas de email para um determinado recipient em uma ação em lote.
 
 1. Clique em **[!UICONTROL Contatos]** no painel de navegação esquerdo.
-1. Clique no **[!UICONTROL Mais]** menu ![](assets/more-button-small.png) para o destinatário e, em seguida, clique em **[!UICONTROL Exibir detalhes do membro]** no menu suspenso.
+1. Clique no **[!UICONTROL Mais]** menu ![Mais menu](assets/more-button-small.png) para o destinatário e clique em **[!UICONTROL Exibir detalhes do membro]** no menu suspenso.
 
 1. Abra a seção **[!UICONTROL Itens compartilhados]**.
 1. Marque a caixa de seleção à esquerda de cada item para o qual deseja alterar o alerta de email.

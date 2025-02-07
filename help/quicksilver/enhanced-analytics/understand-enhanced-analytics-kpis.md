@@ -7,9 +7,9 @@ description: Na parte superior da tela na área Analítica aprimorada, quatro in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '524'
 ht-degree: 1%
 
 ---
@@ -29,22 +29,22 @@ Para saber como adicionar filtros, consulte [Aplicar filtros na análise aprimor
 
 O KPI de Projetos concluídos mostra quantos projetos no período filtrado foram concluídos, bem como a porcentagem de aumento ou diminuição desde o período anterior. Abaixo desses números, você pode ver o número de projetos concluídos no período anterior, bem como o número de dias no período anterior.
 
-![](assets/kpi-projects-completed-350x182.png)
+![Projetos KPI concluídos](assets/kpi-projects-completed-350x182.png)
 
 ## Projetos concluídos no prazo
 
 O KPI de Projetos concluídos no prazo mostra a porcentagem de projetos dentro do período filtrado que foram concluídos no prazo, bem como como a porcentagem de aumento ou diminuição em relação ao período anterior. Abaixo desses números, é possível ver a porcentagem de projetos concluídos no prazo no período anterior, bem como o número de dias no período anterior.
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![Projetos KPI concluídos no prazo](assets/kpi-projects-completed-on-time-350x180.png)
 
 ## Média duração do projeto
 
 A Média KPI de duração do projeto mostra a quantidade média de tempo de conclusão (em dias, semanas ou anos) para projetos com datas de término reais dentro do período filtrado, bem como a porcentagem de aumento ou diminuição desde o período anterior. Abaixo desses números, você pode ver o tempo médio de conclusão de projetos com datas de término reais no período anterior, bem como o número de dias no período anterior.
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![Duração média do projeto do KPI](assets/kpi-avg.-project-duration-350x168.png)
 
 ## Média de tarefas por projeto
 
 O KPI de Média de Tarefas por Projeto mostra o número médio de tarefas atribuídas a projetos dentro do período filtrado, bem como a porcentagem de aumento ou diminuição desde o período anterior. Abaixo desses números, você pode ver o número médio de tarefas atribuídas a projetos no período anterior, bem como o número de dias no período anterior.
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+![Média de tarefas de KPI por projeto](assets/kpi-average-tasks-per-project-350x179.png)

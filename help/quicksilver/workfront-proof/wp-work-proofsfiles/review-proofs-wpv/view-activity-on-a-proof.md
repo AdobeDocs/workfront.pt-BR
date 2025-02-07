@@ -7,9 +7,9 @@ description: Você pode visualizar a atividade recente de uma determinada prova.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Você pode visualizar a atividade recente de uma determinada prova. Isso inclui 
 
 1. Se a barra de ferramentas esquerda não for exibida, clique no ícone **[!UICONTROL Menu]** no canto superior esquerdo do visualizador de revisões.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menu do visualizador de provas](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Na barra de ferramentas à esquerda do revisor de provas, clique no botão **[!UICONTROL Detalhes da Prova]**.
 

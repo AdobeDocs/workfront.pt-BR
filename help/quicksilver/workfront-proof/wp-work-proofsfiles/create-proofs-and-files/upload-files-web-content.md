@@ -7,9 +7,9 @@ description: Você pode carregar arquivos no  [!DNL Workfront Proof] sem criar u
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Além disso, você pode usar [!DNL Workfront Proof] como armazenamento na nuvem 
 Para carregar um arquivo para [!DNL Workfront Proof]:
 
 1. No canto superior esquerdo de [!DNL Workfront Proof], clique na seta para baixo do botão **[!UICONTROL Nova prova]** e clique em **[!UICONTROL Carregar arquivo]** no menu exibido.\
-   ![](assets/new-proof-button-menu.png)
+   ![Novo botão de prova](assets/new-proof-button-menu.png)
 
 1. A página **[!DNL New File]** é exibida.
 1. Siga um destes procedimentos para carregar ou adicionar o conteúdo que precisa ser revisado:
