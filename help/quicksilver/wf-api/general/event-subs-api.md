@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2362'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 {{highlighted-preview}}
 -->
 
-Quando ocorre uma ação em um objeto do Adobe Workfront que é compatível com assinaturas de evento, você pode configurar o Workfront para enviar uma resposta para o endpoint desejado. Isso significa que aplicativos de terceiros podem receber atualizações das interações do Workfront por meio da API do Workfront logo após ocorrerem. Em geral, você pode esperar receber notificações de webhook em menos de 5 segundos a partir da alteração de dados que está sendo registrada. Em média, os clientes recebem notificações de webhook em menos de 1 segundo a partir da alteração de dados que está sendo registrada.  
+Quando ocorre uma ação em um objeto do Adobe Workfront que é compatível com assinaturas de evento, você pode configurar o Workfront para enviar uma resposta para o endpoint desejado. Isso significa que aplicativos de terceiros podem receber atualizações das interações do Workfront por meio da API do Workfront logo após ocorrerem. Em geral, você pode esperar receber notificações de webhook em menos de 5 segundos a partir da alteração de dados que está sendo registrada. Em média, os clientes recebem notificações de webhook em menos de 1 segundo a partir da alteração de dados que está sendo registrada.
 
 Para receber payloads de assinatura de evento por meio do firewall, você deve adicionar os seguintes endereços IP à inclui na lista de permissões do:
 
@@ -47,7 +47,7 @@ Para receber payloads de assinatura de evento por meio do firewall, você deve a
 
 Os seguintes tópicos oferecem suporte à API de assinatura de evento:
 
-## Objetos com Suporte por Assinaturas de Eventos
+## Objetos com suporte de assinaturas de evento
 
 Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 
@@ -110,7 +110,7 @@ O recurso de assinatura contém os seguintes campos.
         <td scope="col"><p>ATRIBUIR</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Empresa </td> 
+        <td scope="col">Empresa </td> 
         <td scope="col"><p>COMPY</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ O recurso de assinatura contém os seguintes campos.
        </tr> 
        <tr> 
         <td scope="col"><p>Documento</p></td> 
-        <td scope="col">DOCU </td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Despesa</p></td> 
@@ -193,7 +193,7 @@ O recurso de assinatura contém os seguintes campos.
    * **Cadeia de caracteres** - Um valor que representa o tipo de evento ao qual o objeto está inscrito. Os tipos de evento disponíveis incluem:
 
       * CRIAR
-      * DELETE 
+      * EXCLUIR
       * ATUALIZAR
 
 * url (obrigatório)
@@ -202,22 +202,22 @@ O recurso de assinatura contém os seguintes campos.
 
 * authToken (obrigatório)
 
-   * **Cadeia de caracteres** - O token do portador OAuth2 usado para a autenticação com a URL especificada no campo &quot;URL&quot;. 
+   * **Cadeia de caracteres** - O token do portador OAuth2 usado para a autenticação com a URL especificada no campo &quot;URL&quot;.
 
-## Criação de solicitações de API de assinatura de evento
+## Criação de solicitações de API de assinatura de eventos
 
 Depois de garantir que o usuário tenha acesso de administrador e formar o recurso de assinatura, você estará pronto para criar assinaturas de evento.
 
 Use a sintaxe a seguir para criar o URL.
 
-**Solicitar URL:**
+**Solicitar URL**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Solicitar Cabeçalhos:**
+**Solicitar cabeçalhos**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,6 +253,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**Exemplo de corpo de resposta**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | Código de resposta | Descrição |
 |---|---|
 | 201 (Criado) | A inscrição no evento foi criada com êxito. |
@@ -264,7 +273,7 @@ Transmitir um recurso de assinatura como o corpo de uma solicitação (com o tip
 
 >[!NOTE]
 >
-> O cabeçalho de resposta &quot;Local&quot; contém o URI da assinatura de evento recém-criada.
+> O cabeçalho de resposta &quot;Local&quot; contém o URI da assinatura de evento recém-criada.
 
 **Exemplo de Cabeçalhos de Resposta:**
 
@@ -288,7 +297,7 @@ Você pode consultar todas as assinaturas de eventos para um cliente ou usar o s
 
 A sintaxe de solicitação para listar todas as assinaturas de evento para um cliente específico é a seguinte:
 
-**Solicitar URL:**
+**Solicitar URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Códigos de resposta:**
+**Códigos de resposta**
 
 | Código de resposta | Descrição |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (Proibido) | O usuário, que corresponde à sessionID fornecida, não tem acesso de administrador. |
 
 
-**Exemplo de Cabeçalhos de Resposta:**
+**Exemplo de Cabeçalhos de Resposta**
 
 | Cabeçalho de resposta | Exemplo |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Transfer-Encoding | `→chunked` |
 
 
-**Exemplo de Corpo de Resposta:**
+**Exemplo de Corpo de Resposta**
 
 ```
 {
@@ -368,7 +377,7 @@ Onde
 
 Você pode consultar assinaturas de evento pela ID de assinatura de evento. A sintaxe de solicitação para listar assinaturas de evento é a seguinte:
 
-**Solicitar URL:**
+**Solicitar URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ Você pode consultar assinaturas de evento pela ID de assinatura de evento. A si
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Solicitar Cabeçalhos:**
+**Solicitar Cabeçalhos**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Códigos de resposta:**
+**Códigos de resposta**
 
 | Código de resposta | Descrição |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (Proibido) | O usuário, que corresponde à sessionID fornecida, não tem acesso de administrador. |
 
 
-**Exemplo de Corpo de Resposta:**
+**Exemplo de Corpo de Resposta**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## Versão de assinatura do evento
+
+O Workfront tem duas versões de assinaturas de evento.
+
+A capacidade de atualizar ou fazer downgrade de assinaturas de eventos garante que, quando alterações forem feitas na estrutura dos eventos, as assinaturas existentes não sejam interrompidas, permitindo testar e atualizar para a nova versão sem uma lacuna na assinatura do evento.
+
+Para obter mais informações sobre o controle de versão de assinaturas de eventos, incluindo diferenças específicas entre a versão e datas importantes, consulte [Controle de versão de assinaturas de eventos](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+### Alteração de versão de assinatura única
+
+A sintaxe de solicitação para alterar a versão de uma única assinatura é:
+
+**Solicitar URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**Exemplo de corpo de solicitação**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**Exemplo de corpo de resposta (200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**Códigos de resposta possíveis**
+
+* 200
+* 400
+* 404
+
+
+### Alteração de versão de assinatura múltipla
+
+Esse endpoint altera a versão de várias assinaturas, por lista de assinaturas ou pelo sinalizador de todas as assinaturas do cliente.
+
+A sintaxe de solicitação para alterar a versão de uma única assinatura é:
+
+**Solicitar URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**Exemplo de corpos de solicitação**
+
+* Corpo da solicitação para a lista de assinaturas
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* Corpo da solicitação para todas as assinaturas do cliente
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**Exemplo de corpo de resposta (200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**Códigos de resposta possíveis**
+
+* 200
+* 400
 
 ## Filtragem de assinatura de evento
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Código de resposta</p> </th> 
-   <th> Descrição</th> 
+   <th> Descrição</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Código de resposta</p> </th> 
-   <th> Descrição</th> 
+   <th> Descrição</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### Exemplo de Corpo de Resposta
 
