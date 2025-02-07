@@ -6,7 +6,7 @@ description: Visão geral da entrega de relatórios
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -43,11 +43,11 @@ Considere o seguinte ao agendar relatórios para entrega:
 
 Há vários limites de tamanho que afetam como os relatórios são exibidos no Workfront e como são exportados por meio de uma exportação manual, um relatório entregue ou pela API:
 
-* **Tamanho do arquivo de 5 MB:** Limite do tamanho do arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
+* **Tamanho do arquivo de 10 MB:** Limite do tamanho do arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
 
   >[!NOTE]
   >
-  >Arquivos .xlsx do Excel com mais de 5 MB não geram um email. É possível exportar manualmente o relatório para esse formato. Para obter informações sobre como exportar relatórios, consulte [Exportar dados](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Arquivos .xlsx do Excel maiores que 10 MB não geram um email. É possível exportar manualmente o relatório para esse formato. Para obter informações sobre como exportar relatórios, consulte [Exportar dados](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50.000 linhas:** o número de linhas de dados permitidas em uma exportação de relatório para arquivos .pdf e Delimitados por tabulação.
 
