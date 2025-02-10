@@ -6,7 +6,7 @@ description: Você pode compartilhar uma pasta e seu conteúdo na área Document
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -132,8 +132,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. (Opcional) Se quiser que todos no sistema possam ver a pasta e seu conteúdo, clique no ícone de engrenagem ![](assets/gear-icon-settings-with-dn-arrow.jpg) no canto superior direito da caixa de compartilhamento e clique em **Tornar isso visível em todo o sistema.**
 
    Se mudar de ideia, clique em **Remover acesso a todo o sistema** (a opção padrão).
-
-<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## Como os usuários acessam o conteúdo de uma pasta compartilhada com eles
 

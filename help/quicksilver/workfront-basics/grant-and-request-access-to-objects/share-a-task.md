@@ -6,17 +6,14 @@ description: O administrador do Adobe Workfront pode conceder acesso para exibir
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '643'
 ht-degree: 2%
 
 ---
 
 # Compartilhar uma tarefa
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
-
 
 O administrador do Adobe Workfront pode conceder acesso para exibir ou editar tarefas ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a tarefas, consulte [Conceder acesso a tarefas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
@@ -38,10 +35,6 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
    * Gerenciar
    * Contribuir\
      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
-     <span class="preview">Na visualização:
-     ![](assets/task-permissons.png)
-  </span>
 
 * Quando você compartilha uma tarefa, os usuários herdam as mesmas permissões em todos os objetos filhos associados à tarefa, por padrão. Por exemplo, elas herdam as mesmas permissões nas tarefas filhas, problemas e documentos anexados à tarefa.\
   Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte  [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

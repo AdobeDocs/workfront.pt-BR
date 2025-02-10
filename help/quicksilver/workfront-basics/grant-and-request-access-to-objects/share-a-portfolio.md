@@ -5,16 +5,14 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Compartilhar um portfólio
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar portfólios ao atribuir seu nível de acesso. Você deve ter uma licença de Plano para ter acesso para editar um portfólio. Para obter mais informações, consulte [Conceder acesso aos portfólios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -37,12 +35,9 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
-  <span class="preview">Na visualização:
-  ![](assets/share-portfolio.png)
-</span>
 * Quando você compartilha um portfólio, os usuários herdam as mesmas permissões para todos os objetos secundários associados ao portfólio, por padrão.
 
-Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Você pode remover permissões herdadas do Portfolio. Para obter mais informações sobre como remover permissões de objetos, consulte [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
