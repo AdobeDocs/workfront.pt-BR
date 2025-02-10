@@ -7,14 +7,16 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: e608cf5bdb0227ea5b8d3109db411e98145aaa38
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # Compartilhar um programa
+
+{{highlighted-preview}}
 
 O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar programas ao atribuir seu nível de acesso. Você deve ter uma licença de Plano para ter acesso para editar um programa. Para obter mais informações, consulte [Conceder acesso aos programas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -39,6 +41,9 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 * Você só pode conceder permissões de Exibir ou Gerenciar em programas.
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+
+  <span class="preview">Na visualização:
+  ![](assets/program-permissions.png)
 
 * Quando você compartilha um programa, os usuários herdam as mesmas permissões para todos os objetos secundários associados ao programa, por padrão.
 
