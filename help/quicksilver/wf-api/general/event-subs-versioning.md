@@ -6,21 +6,23 @@ description: API de assinatura de evento
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
-
 
 # Versão de assinatura do evento
 
 O Workfront tem duas versões de assinaturas de evento. Este artigo descreve as diferenças entre elas.
 
-Isso não é uma alteração na API do Workfront, mas uma alteração na funcionalidade de Assinatura de evento.
+A nova versão não é uma alteração na API do Workfront, mas uma alteração na funcionalidade de assinatura do evento.
 
-A capacidade de atualizar ou fazer downgrade de assinaturas de eventos garante que, quando alterações forem feitas na estrutura dos eventos, as assinaturas existentes não sejam interrompidas, permitindo testar e atualizar para a nova versão sem uma lacuna na Assinatura de eventos.
+A capacidade de atualizar ou fazer downgrade de assinaturas de eventos garante que, quando alterações forem feitas na estrutura dos eventos, as assinaturas existentes não sejam interrompidas, permitindo testar e atualizar para a nova versão sem uma lacuna na assinatura do evento.
+
+Para obter informações sobre os pontos de extremidade usados para atualizar ou rebaixar assinaturas de eventos, consulte [Versão de assinatura de eventos](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) no artigo API de assinatura de eventos.
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ As seguintes alterações foram feitas para assinaturas de evento Versão 2
 
 
 ### Alterações gerais
-
 
 
 <table style="table-layout:auto"> 
