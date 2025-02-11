@@ -6,9 +6,9 @@ description: Este artigo fornece definições para as datas mais comuns associad
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2357'
 ht-degree: 3%
 
 ---
@@ -47,9 +47,9 @@ Para obter mais informações, consulte [Visão Geral do projeto [!UICONTROL Dat
 >
 >A [!UICONTROL Data de Início] ou as restrições de Datas Fixas afetam a [!UICONTROL Data de Início Planejada] de uma tarefa, não a [!UICONTROL Data de Início Efetivo]. Isto atualizará a [!UICONTROL Data de Início Planejada] para uma data que você especificar. A [!UICONTROL Data de Início Efetivo] é atualizada independentemente da [!UICONTROL Data de Início Planejada], conforme descrito acima.
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![Data de início efetiva na tarefa de edição](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![Data de início efetiva na tarefa](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL Data de Término Efetivo]
 
@@ -68,7 +68,7 @@ A [!UICONTROL Data de Término Efetivo] de um projeto coincide com a data em que
 
 Para obter mais informações, consulte [Visão geral do projeto [!UICONTROL Data de Término Efetivo]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![Data de Término Efetivo em Detalhes](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## Data de conclusão do caminho de aprovação
 
@@ -152,7 +152,7 @@ A [!UICONTROL Data de Entrada] é a data em que um projeto, tarefa ou problema f
 
 A [!UICONTROL Data de Entrada] não influencia a linha do tempo de projetos, tarefas ou problemas, mas é importante para fins de rastreamento e relatórios. [!DNL Workfront] gera automaticamente a [!UICONTROL Data de Entrada] quando o objeto é criado e você não pode editá-lo manualmente.
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![Data de entrada nos detalhes da tarefa](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## Data de Vencimento Estimada
 
@@ -184,7 +184,7 @@ Trata-se de uma estimativa manual e não leva em conta o andamento real das tare
 
 A Data de término fixa de um projeto está visível na seção Business Case do projeto, bem como em listas e relatórios de projeto.
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![Data final fixa](assets/fixed-end-date-business-case-highlight.png)
 
 ## Data de Início Fixa
 
@@ -194,7 +194,7 @@ Trata-se de uma estimativa manual e não leva em conta o andamento real das tare
 
 A Data de início fixa de um projeto está visível na seção Business Case do projeto, bem como em listas e relatórios de projeto.
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![Data de início fixa](assets/fixed-start-date-business-case-highlight.png)
 
 ## Data de Transferência
 
@@ -252,9 +252,9 @@ Para obter mais informações, consulte os seguintes artigos:
 * [Definir a [!UICONTROL Data de Término Planejada] do projeto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Visão geral do problema [!UICONTROL Data de conclusão planejada]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![Data de conclusão planejada no cabeçalho](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![Data de conclusão planejada na lista de tarefas](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## Alinhamento de Data Planejada
@@ -277,9 +277,9 @@ Dependendo da [!UICONTROL Restrição de Tarefa], talvez você não consiga edit
 
 Para obter mais informações, consulte [Visão geral do projeto [!UICONTROL Data de Início Planejada]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![Data de início planejada na tarefa de edição](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![Data de início dos planos na lista de tarefas](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL Data de Término Projetada]
 
@@ -289,7 +289,7 @@ Se tudo correr bem e conforme planejado, a [!UICONTROL Data de conclusão projet
 
 Para obter mais informações, consulte [Visão geral da [!UICONTROL Data de conclusão projetada] para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![Data de término projetada](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL Data de Início Projetada]
 
@@ -305,7 +305,7 @@ Para uma tarefa, uma [!UICONTROL Data de Início Projetada] também pode diferir
 
 Para obter mais informações, consulte [Visão geral do projeto [!UICONTROL Data de Início Projetada]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![Data de início projetada](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
@@ -317,7 +317,7 @@ A Data do Slack exibe a data exata em que uma tarefa poderia definitivamente afe
 
 Para obter informações sobre a Data Slack de uma tarefa, consulte [Visão geral da Data Slack da Tarefa](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
 
-As datas do Slack da tarefa estão visíveis em listas de tarefas e relatórios.
+As Datas de Slack de tarefas estão visíveis em listas de tarefas e relatórios.
 
 ## Início em
 

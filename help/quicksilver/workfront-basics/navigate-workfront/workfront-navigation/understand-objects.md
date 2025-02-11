@@ -6,9 +6,9 @@ description: As informações exibidas em  [!DNL Adobe Workfront]  são represen
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2508'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ As informações exibidas em [!DNL Adobe Workfront] são representadas por objet
 
 Entender como os objetos são definidos em [!DNL Workfront] é importante para que você possa usar o objeto correto de acordo com as necessidades da sua organização.
 
-Por exemplo, quando você planeja uma grande quantidade de trabalho, precisa usar o objeto [!UICONTROL Projeto] para definir esse trabalho. Para dividir este trabalho em incrementos planejados menores, você pode usar o objeto [!UICONTROL Task]. Para uma quantidade menor de trabalho que não é planejado e pode ocorrer inesperadamente, você pode usar o objeto Problema. Para acompanhar o progresso e a adesão ao orçamento e à linha do tempo de um grupo de projetos, você pode organizá-los em [!UICONTROL Portfolio] e [!UICONTROL Programas]. Para definir outros elementos que ajudam a resolver seu trabalho, você deseja usar outros objetos armazenados em [!UICONTROL Projetos], [!UICONTROL Tarefas], [!UICONTROL Problemas] ou [!UICONTROL Portfolio], como [!UICONTROL Documentos], [!UICONTROL Atualizações], [!UICONTROL Horas], [!UICONTROL Usuários] ou [!UICONTROL Funções de Trabalho].
+Por exemplo, quando você planeja uma grande quantidade de trabalho, precisa usar o objeto [!UICONTROL Projeto] para definir esse trabalho. Para dividir este trabalho em incrementos planejados menores, você pode usar o objeto [!UICONTROL Task]. Para uma quantidade menor de trabalho que não é planejado e pode ocorrer inesperadamente, você pode usar o objeto Problema. Para acompanhar o progresso e a adesão ao orçamento e à linha do tempo de um grupo de projetos, você pode organizá-los em [!UICONTROL Portfólios] e [!UICONTROL Programas]. Para definir outros elementos que ajudam a resolver seu trabalho, você deseja usar outros objetos armazenados em [!UICONTROL Projetos], [!UICONTROL Tarefas], [!UICONTROL Problemas] ou [!UICONTROL Portfólios], como [!UICONTROL Documentos], [!UICONTROL Atualizações], [!UICONTROL Horas], [!UICONTROL Usuários] ou [!UICONTROL Funções de Trabalho].
 
 Os [!UICONTROL Relatórios] e os [!UICONTROL Painéis] são outro exemplo de objetos que podem ajudá-lo a organizar visualmente a quantidade de dados que você tem no [!DNL Workfront], tornando-o facilmente acessível para todos os usuários.
 
@@ -41,7 +41,7 @@ A seguir estão alguns dos objetos usados com mais frequência em [!DNL Workfron
 |---|---|---|
 | [!UICONTROL Portfólios] |  | [!UICONTROL Programas], [!UICONTROL Projetos], [!UICONTROL Documentos], [!DNL Notes], [!UICONTROL Usuários] |
 | [!UICONTROL Programas] | [!UICONTROL Portfólios] | [!UICONTROL Projetos], [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Usuários] |
-| [!UICONTROL Projetos] | [!UICONTROL Portfolio], [!UICONTROL Programas] | [!UICONTROL Tarefas], [!UICONTROL Problemas], [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários] |
+| [!UICONTROL Projetos] | [!UICONTROL Portfólios], [!UICONTROL Programas] | [!UICONTROL Tarefas], [!UICONTROL Problemas], [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários] |
 | [!UICONTROL Tarefas] | [!UICONTROL Projetos] | [!UICONTROL Problemas], [!UICONTROL Tarefas Filhas], [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários] |
 | [!UICONTROL Problemas] | [!UICONTROL Tarefas], [!UICONTROL Projetos] | [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários] |
 | [!UICONTROL Painéis] |  | [!UICONTROL Relatórios], Páginas Externas |
@@ -50,7 +50,7 @@ A seguir estão alguns dos objetos usados com mais frequência em [!DNL Workfron
 | [!UICONTROL Equipes] |  | [!UICONTROL Usuários] |
 | [!UICONTROL Usuários] | [!UICONTROL Grupos], [!UICONTROL Equipes], [!UICONTROL Empresas] | [!UICONTROL Funções de trabalho] |
 | [!UICONTROL Empresas] |  | [!UICONTROL Usuários] |
-| [!UICONTROL Documentos] | [!UICONTROL Tarefas], [!UICONTROL Problemas], [!UICONTROL Projetos], [!UICONTROL Portfolio], [!UICONTROL Programas], [!UICONTROL Usuários] |  |
+| [!UICONTROL Documentos] | [!UICONTROL Tarefas], [!UICONTROL Problemas], [!UICONTROL Projetos], [!UICONTROL Portfólios], [!UICONTROL Programas], [!UICONTROL Usuários] |  |
 | [!UICONTROL Planos]* |  | [!UICONTROL Iniciativas] |
 | [!DNL Goals]* |  | [!UICONTROL Resultados], [!UICONTROL Atividades] |
 
@@ -161,21 +161,21 @@ Veja a seguir uma lista de objetos e seus ícones correspondentes no Workfront.
 
 | **Objeto** | **Ícone** | **Nome de objeto personalizável** |
 |---|---|---|
-| [!UICONTROL Empresa] | ![](assets/company-icon-nwe.png) , ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL Painel] | ![](assets/dashboard-icon-nwe.png) , ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL Meta] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL Grupo] | ![](assets/groups-icon-nwe.png) , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Problema] | ![](assets/issue-icon-nwe.png) , ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Função] | ![ícone_da_função_do_trabalho.png](assets/job-role-icon-52x50.png), ![ícone_da_função_do_trabalho_1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL Plano] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png) , ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL Programa] | ![](assets/program-icon-nwe.png) , ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL Projeto] | ![](assets/project-icon-nwe.png) , ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL Relatório] | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL Tarefa] | ![](assets/task-icon-new.png) , ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL Equipe] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL Modelo] | ![](assets/template-icon-nwe.png) , ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL Usuário] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL Empresa] | ![Ícone de empresa](assets/company-icon-nwe.png) , ![Ícone de empresa azul](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL Painel] | ![Ícone do painel](assets/dashboard-icon-nwe.png) , ![Ícone de painéis azul](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL Meta] | ![Ícone de meta](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL Grupo] | ![Ícone Grupos](assets/groups-icon-nwe.png) , ![Ícone Grupo](assets/nwe-group-icon.png) |  |
+| [!UICONTROL Problema] | ![Ícone de problema](assets/issue-icon-nwe.png) , ![Ícone de problema rosa](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL Função] | ![ícone_da_função_do_trabalho.png](assets/job-role-icon-52x50.png), ![ícone_da_função_do_trabalho_1_.png](assets/job-role-icon--1--53x44.png), ![ícone da função de trabalho](assets/job-role-nwe-no-color.png), ![Cor do ícone da função de trabalho](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Plano] | ![Ícone do plano](assets/plan-icon.png), ![Ícone do plano azul](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) , ![Ícone de Portfolio azul](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL Programa] | ![Ícone de programa](assets/program-icon-nwe.png) , ![Ícone de programa laranja](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL Projeto] | ![Ícone de projeto](assets/project-icon-nwe.png) , ![Ícone de projeto roxo](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL Relatório] | ![Ícone do relatório](assets/report-icon-nwe.png) , ![Ícone do relatório verde](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL Tarefa] | ![Ícone de tarefa](assets/task-icon-new.png) , ![Ícone de tarefa verde](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL Equipe] | ![Ícone de equipe](assets/team-icon-nwe.png), ![Ícone de equipe round](assets/team-icon-nwe-color.png), ![Ícone de equipes](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL Modelo] | ![Ícone de modelo](assets/template-icon-nwe.png) , ![Ícone de modelo verde](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL Usuário] | ![Ícone de usuário cinza](assets/users-icon-gray.png) , ![Ícone de usuário azul](assets/user-icon-blue.png) , ![Ícone de usuário com iniciais](assets/user-icon-initials.png) , ![Avatar](assets/user-avatar.png) , ![Menu principal do ícone de usuário](assets/user-main-menu-area.png) |  |
 
 ## Números de referência de objetos
 
@@ -191,18 +191,18 @@ Nem todos os objetos são pesquisáveis em [!DNL Workfront]. Você pode executar
 
 | **Objeto** | **Pesquisa básica** | **Pesquisa avançada** |
 |---|---|---|
-| [!UICONTROL Projetos] | ✓ µ | ✓ µ |
-| [!UICONTROL Tarefas] | ✓ µ | ✓ µ |
-| [!UICONTROL Problemas] | ✓ µ | ✓ µ |
-| [!UICONTROL Relatórios] | ✓ µ | ✓ µ |
-| [!UICONTROL Usuários] | ✓ µ | ✓ µ |
-| [!UICONTROL Modelos] | ✓ µ | ✓ µ |
-| [!UICONTROL Documentos] | ✓ µ | ✓ µ |
-| [!UICONTROL Portfólios] | ✓ µ | ✓ µ |
-| [!UICONTROL Programas] | ✓ µ | ✓ µ |
-| [!UICONTROL Painéis] | ✓ µ | ✓ µ |
-| [!UICONTROL Empresas] | ✓ µ | ✓ µ |
-| [!UICONTROL Notas] (ou [!UICONTROL Atualizações]) | ✓ µ |  |
+| [!UICONTROL Projetos] | ✓ | ✓ |
+| [!UICONTROL Tarefas] | ✓ | ✓ |
+| [!UICONTROL Problemas] | ✓ | ✓ |
+| [!UICONTROL Relatórios] | ✓ | ✓ |
+| [!UICONTROL Usuários] | ✓ | ✓ |
+| [!UICONTROL Modelos] | ✓ | ✓ |
+| [!UICONTROL Documentos] | ✓ | ✓ |
+| [!UICONTROL Portfólios] | ✓ | ✓ |
+| [!UICONTROL Programas] | ✓ | ✓ |
+| [!UICONTROL Painéis] | ✓ | ✓ |
+| [!UICONTROL Empresas] | ✓ | ✓ |
+| [!UICONTROL Notas] (ou [!UICONTROL Atualizações]) | ✓ |  |
 
 Para obter mais informações sobre como executar pesquisas básicas e avançadas no [!DNL Workfront], consulte [Pesquisa [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 

@@ -7,9 +7,9 @@ description: Você pode revisar e adicionar atualizações a projetos que estão
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso no [!DNL Workfront] para executar as etapas des
 
 1. Digite uma atualização.
 1. (Opcional) Inclua outros na atualização tocando no ícone [!UICONTROL pessoas] e especificando o nome de outro usuário.\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![Atualizações no aplicativo móvel](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
-1. Toque em **[!UICONTROL Post]**.\
+1. Toque em **[!UICONTROL Publicar]**.\
    A atualização aparece no projeto, no widget **[!UICONTROL Atualizações]**.

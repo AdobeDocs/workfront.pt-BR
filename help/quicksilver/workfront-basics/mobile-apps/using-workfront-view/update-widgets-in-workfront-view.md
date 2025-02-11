@@ -6,9 +6,9 @@ description: Você pode exibir informações adicionais sobre o [!UICONTROL proj
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Você deve ter o seguinte acesso no [!DNL Workfront] para executar as etapas des
 1. Toque na guia na parte inferior do meio da tela.\
    A área [!UICONTROL widget] é exibida.\
    Percorra os widgets deslizando o dedo da esquerda para a direita.\
-   ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![Widgets](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Arraste e solte um widget para personalizar o layout da página do seu projeto.\
    Você pode ter até quatro widgets exibidos de uma só vez.\

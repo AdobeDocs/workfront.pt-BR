@@ -6,10 +6,10 @@ description: A seção [!UICONTROL Meu Trabalho] da área [!UICONTROL Página In
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ A seção [!UICONTROL Meu Trabalho] da área [!UICONTROL Página Inicial] exibe 
 >
 >[!UICONTROL Meu Trabalho] no aplicativo móvel é separado de [!UICONTROL Meu Trabalho] na versão para desktop do [!UICONTROL Adobe Workfront].
 
-![](assets/home-myworksection-338x379.png)
+![Meu trabalho](assets/home-myworksection-338x379.png)
 
 ## Personalizar a seção [!UICONTROL Meu Trabalho]
 
@@ -36,4 +36,4 @@ Você pode escolher quais itens de menu exibir em [!UICONTROL Meu Trabalho] e al
    >
    >O item de menu [!UICONTROL Tarefas e problemas] é sempre exibido e você não pode ocultá-lo.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![Configurações móveis](assets/mobile-settings-338x366.png)

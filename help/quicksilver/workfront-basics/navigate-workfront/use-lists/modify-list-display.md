@@ -5,9 +5,9 @@ description: No  [!DNL Adobe Workfront], você pode personalizar como uma lista 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional e condicional) Se quiser mostrar um número específico de itens na tela, clique no menu suspenso **[!UICONTROL Mostrando]** no canto inferior direito da tela e selecione para exibir **100**, **250**, **500**, **[!UICONTROL Todos]** ou **2000** itens.
 
-   ![](assets/list-number-page-350x119.png)
+   ![Listar número na página](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

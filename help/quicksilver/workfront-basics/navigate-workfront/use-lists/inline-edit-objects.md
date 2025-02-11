@@ -6,9 +6,9 @@ description: É possível editar objetos em linha quando eles são exibidos em u
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Se o campo puder ser editado, o campo e todos os outros campos exibidos na lista serão transformados em células editáveis.
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![Células editáveis](assets/nwe-editable-cells-350x131.png)
 
 1. Edite as informações dentro desta célula e pressione [!UICONTROL Enter].
 

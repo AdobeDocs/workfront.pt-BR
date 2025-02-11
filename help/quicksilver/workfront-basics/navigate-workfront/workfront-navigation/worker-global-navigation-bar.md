@@ -7,9 +7,9 @@ description: O menu principal muda com o nível de acesso que você foi atribuí
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ As seguintes áreas estão incluídas no layout padrão de um [!UICONTROL Trabal
 
 * **[!UICONTROL Blueprints]**: examine os blueprints existentes no sistema e solicite a instalação de um, caso o administrador do [!DNL Workfront] tenha configurado a fila de solicitações para blueprints. Para obter mais informações, consulte [Visão geral dos blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-![](assets/worker-main-menu-350x426.png)
+![Menu principal do trabalhador](assets/worker-main-menu-350x426.png)
 
 ## Personalizar o [!UICONTROL Menu Principal] padrão
 

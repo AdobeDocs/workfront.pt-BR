@@ -5,9 +5,9 @@ description: Visão geral do Assistente de IA
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -52,9 +52,9 @@ Para habilitar o Assistente de IA para sua organização, **todos** dos itens a 
 * Sua organização deve ter migrado para o Adobe IMS (Identity Management System)
 * A Experiência unificada do Adobe deve ser habilitada
 * Sua organização deve ter um plano Select, Prime ou Ultimate Workfront
-* O Adobe deve ter um contrato de Ger AI de Adobe assinado no arquivo
+* A Adobe deve ter um contrato de geração de IA da Adobe assinado no arquivo
 
-  Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) neste artigo.
+  Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato de IA de Geração da Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) neste artigo.
 
 ## Considerações sobre o Assistente de IA
 
@@ -78,7 +78,7 @@ Atualmente, o Assistente de IA oferece as seguintes funcionalidades:
 
   Para obter mais informações, consulte [Resumir usando o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
-* Fornecer instruções ou informações de referência extraídas da documentação do Workfront no Adobe Experience League.
+* Fornecer instruções ou informações de referência extraídas da documentação do Workfront na Adobe Experience League.
 
   Para obter mais informações, consulte [Obter ajuda do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -115,27 +115,27 @@ O assistente de IA pode consultar dados associados aos seguintes tipos de objeto
 
 ## Acessar o assistente do AI
 
-1. Na parte superior de qualquer página do Workfront, clique no ícone do Assistente de IA ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Na parte superior de qualquer página do Workfront, clique no ícone do Assistente de IA ![ícone do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Digite sua pergunta ou aviso no painel à direita da tela.
 
-   Se não for possível digitar nesse painel, a organização não terá um contrato de Adobe Gen AI assinado no arquivo.
+   Adobe Se não for possível digitar nesse painel, a organização não terá um contrato Gen AI assinado no arquivo.
 
 1. Se o assistente de IA não fornecer a resposta necessária, refine seu prompt e tente novamente.
 
-## Assinar o contrato Adobe Gen AI
+## Assinar o contrato de IA de geração da Adobe
 
-Se sua organização não tiver um contrato de Adobe Gen AI assinado no arquivo, o Assistente de IA não poderá ser ativado para sua organização.
+Adobe Se a sua organização não tiver um contrato Gen AI assinado no arquivo, o Assistente AI não poderá ser ativado para a sua organização.
 
-Se um usuário tentar usar o Assistente de IA quando o acordo da Adobe Gen AI não tiver sido assinado, verá uma mensagem:
+Se um usuário tentar usar o AI Assistant quando o contrato da Adobe Gen AI não tiver sido assinado, verá uma mensagem:
 
 * Usuários: os usuários são informados de que o Assistente de IA não foi ativado para sua organização e que eles podem entrar em contato com o administrador do Workfront para solicitá-lo para sua organização.
-* Administradores: os administradores são informados de que não há um contrato de Adobe Gen AI assinado e podem solicitar que uma cópia do contrato seja enviada para assinatura.
+* Administradores: os administradores são informados de que não há um contrato Adobe Gen AI assinado e podem solicitar que uma cópia do contrato seja enviada para assinatura.
 
-Para solicitar o contrato Adobe Gen AI:
+Para solicitar o contrato da Adobe Gen AI:
 
-1. Como Administrador do Workfront, clique no ícone do Assistente de IA ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Como um Administrador do Workfront, clique no ícone do Assistente do AI ![ícone do Assistente do AI](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Comece a digitar no painel Assistente de IA.
-1. Quando a mensagem do contrato Adobe Gen AI for exibida, clique em **Revisar contrato**.
-1. Insira o nome e o endereço de email da pessoa da sua organização que assinará o contrato Adobe Gen AI.
+1. Quando a mensagem do contrato da Adobe Gen AI for exibida, clique em **Revisar contrato**.
+1. Insira o nome e o endereço de email da pessoa da sua organização que assinará o contrato de IA de geração da Adobe.
 
    O contrato será enviado a este indivíduo para assinatura. Depois de assinado e retornado, o Assistente de IA é ativado para a sua organização.

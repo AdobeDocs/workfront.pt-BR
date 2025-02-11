@@ -5,9 +5,9 @@ description: Você pode usar o filtro rápido em uma lista de objetos para ajud�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Aplicar um filtro rápido a uma lista
 
-1. Vá para uma lista ou um relatório que tenha suporte para filtros rápidos e clique no ícone **[!UICONTROL Filtro Rápido]** ![](assets/qs-quick-filter-icon.png) na barra de ferramentas.
+1. Vá para uma lista ou um relatório que tenha suporte para filtros rápidos e clique no **[!UICONTROL ícone de Filtro Rápido]** ![ícone de Filtro rápido](assets/qs-quick-filter-icon.png) na barra de ferramentas.
 
    Ou
 
@@ -120,7 +120,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    1. Selecione todos ou vários itens na lista e clique em **[!UICONTROL Editar]** para editar os itens em massa.
    1. Após concluir as edições, clique em **[!UICONTROL Salvar alterações]**.
 
-1. (Opcional) Para exportar os itens encontrados pelo filtro rápido, selecione todos ou vários itens da lista e clique no ícone **[!UICONTROL Exportar]** ![](assets/export.png).
+1. (Opcional) Para exportar os itens encontrados pelo filtro rápido, selecione todos ou vários itens na lista e clique no ícone **[!UICONTROL Exportar]** ![Ícone Exportar](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

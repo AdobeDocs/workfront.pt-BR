@@ -6,9 +6,9 @@ description: Em  [!DNL Adobe Workfront], os itens são identificados como objeto
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Os números de referência são exibidos por padrão para tarefas e problemas. V
 
 Os números de referência são exibidos por padrão ao visualizar uma tarefa ou problema.  Para ver o número de referência, clique em **[!UICONTROL Detalhes da tarefa]** ou **[!UICONTROL Detalhes do problema]** no painel esquerdo e localize a seção **[!UICONTROL Informações básicas]** na Visão geral.
 
-![](assets/reference-number-nwe-350x184.png)
+![Número de referência](assets/reference-number-nwe-350x184.png)
 
 ### Exibir números de referência para outros objetos
 

@@ -6,9 +6,9 @@ description: Você pode revisar e resolver comentários existentes em uma prova 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Na lista [!UICONTROL comentário], você pode executar ações diferentes, como 
 
    Essa opção só estará disponível quando comentários não lidos estiverem selecionados.
 
-1. Para excluir os comentários selecionados, selecione o ícone ![](assets/delete-30x28.png) de **[!UICONTROL Excluir]** na barra de ferramentas inferior. Em seguida, selecione **[!UICONTROL Excluir]** na mensagem de confirmação para excluir permanentemente o comentário.
+1. Para excluir os comentários selecionados, selecione o ícone **[!UICONTROL Excluir]** ![Ícone Excluir](assets/delete-30x28.png) na barra de ferramentas inferior. Em seguida, selecione **[!UICONTROL Excluir]** na mensagem de confirmação para excluir permanentemente o comentário.
 
 ## Comentar em uma prova
 
@@ -82,7 +82,7 @@ Você pode associar seus comentários de prova a uma área específica do docume
 
    ![Configurações da ferramenta de desenho](assets/ios-drawingtoolsettings-350x359.png)
 
-1. Draw a forma no documento de prova. Selecione o ícone **[!UICONTROL Desfazer]** ![Desfazer](assets/android-undo-icon-30x31.png) para desfazer o desenho.
+1. Desenhe a forma no documento de prova. Selecione o ícone **[!UICONTROL Desfazer]** ![Desfazer](assets/android-undo-icon-30x31.png) para desfazer o desenho.
 1. (Condicional) Selecione a forma e escolha **[!UICONTROL Configurações]** para editar as configurações da forma, ou **[!UICONTROL Remover]** para excluir a forma.
 
    ![Menu Desenho](assets/ios-drawing-settingsremove-350x190.png)

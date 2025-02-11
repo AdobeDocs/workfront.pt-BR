@@ -5,9 +5,9 @@ description: Você pode exibir listas de objetos em  [!DNL Adobe Workfront]  par
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -123,14 +123,14 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td>Lista de portfólos</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolio]</p> </li> 
+     <li> <p>[!UICONTROL Portfólio]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista de programas</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL selecionar um portfólio] &gt;[!UICONTROL Programas]</p> </li> 
+     <li> <p>[!UICONTROL Portfólios] &gt;[!UICONTROL selecionar um portfólio] &gt;[!UICONTROL Programas]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programas]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -139,8 +139,8 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projetos]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL selecionar um portfólio] &gt;[!UICONTROL Projetos]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL selecionar um portfólio] &gt;[!UICONTROL Programas] &gt;[!UICONTROL selecionar um programa] &gt;[!UICONTROL Projetos]</p> </li> 
+     <li> <p>[!UICONTROL Portfólios] &gt;[!UICONTROL selecionar um portfólio] &gt;[!UICONTROL Projetos]</p> </li> 
+     <li> <p>[!UICONTROL Portfólios] &gt;[!UICONTROL selecionar um portfólio] &gt;[!UICONTROL Programas] &gt;[!UICONTROL selecionar um programa] &gt;[!UICONTROL Projetos]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -194,8 +194,8 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documentos]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL selecionar um portfólio] &gt; [!UICONTROL Documentos]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt; [!UICONTROL selecionar um portfólio] &gt;[!UICONTROL Programas] &gt;[!UICONTROL selecionar um programa] &gt;[!UICONTROL Documentos]</p> </li> 
+     <li> <p>[!UICONTROL Portfólios] &gt;[!UICONTROL selecionar um portfólio] &gt; [!UICONTROL Documentos]</p> </li> 
+     <li> <p>[!UICONTROL Portfólios] &gt; [!UICONTROL selecionar um portfólio] &gt;[!UICONTROL Programas] &gt;[!UICONTROL selecionar um programa] &gt;[!UICONTROL Documentos]</p> </li> 
      <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL selecionar um projeto] &gt;[!UICONTROL Documentos]</p> </li> 
      <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL selecionar um projeto] &gt;[!UICONTROL Tarefas] &gt;[!UICONTROL selecionar uma tarefa] &gt; [!UICONTROL Documentos]</p> </li> 
      <li> <p>[!UICONTROL Projetos] &gt; [!UICONTROL selecionar] um projeto &gt; [!UICONTROL Problemas] &gt; [!UICONTROL selecionar um problema] &gt; [!UICONTROL Documentos]</p> </li> 
@@ -331,7 +331,7 @@ A seguir estão os elementos de uma lista:
 
 Esses elementos são exibidos na parte superior de cada lista por padrão. Eles são fixos e não se movem à medida que você percorre a lista. Passe o mouse sobre o ícone de cada elemento para identificá-los.
 
-![](assets/nwe-list-elements.png)
+![Listar elementos](assets/nwe-list-elements.png)
 
 Você pode personalizar elementos de lista nas seguintes áreas e compartilhá-los com outros usuários:
 
@@ -455,7 +455,7 @@ A tabela a seguir lista muitos dos ícones disponíveis na barra de ferramentas 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
    <td>[!UICONTROL Exportar]</td> 
-   <td>Exporte a lista para arquivos delimitados por tabulação, PDF ou Excel.</td> 
+   <td>Exporte a lista para PDF, Excel ou arquivos delimitados por tabulação.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
@@ -525,83 +525,83 @@ A tabela a seguir descreve as semelhanças e diferenças entre listas e relatór
  <tbody> 
   <tr> 
    <td> <p>Qualquer pessoa pode criá-los</p> </td> 
-   <td>✓ <span>*</span> </td> 
+   <td><span>⌘*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Somente um administrador [!DNL Workfront] e usuários com uma licença de [!UICONTROL Plan] podem criá-los</p> </td> 
    <td> </td> 
-   <td>✓ ➡**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td> <p>Um conjunto padrão está disponível em [!DNL Workfront]</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Personalizável no modo padrão</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Personalizável no modo de texto</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Você pode compartilhá-los com outros usuários</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Você pode compartilhá-los em todo o sistema</p> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Você pode compartilhá-los fora do sistema</p> </td> 
    <td> </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>É possível exportar para formatos .pdf, [!DNL Excel] e Delimitado por tabulação</p> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Você pode agendá-los para entrega em um email</p> </td> 
    <td> </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Você pode adicionar a um modelo de layout</p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>É possível adicioná-los a seções personalizadas </p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Você pode adicioná-los a um painel</p> </td> 
-   <td> ✓ ➡*** </td> 
-   <td>✓ µ</td> 
+   <td> ✓*** </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Você pode usar prompts para personalizar o que eles exibem</p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>É possível exibi-los em um gráfico</p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>É possível editar objetos em linha neles</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -624,11 +624,11 @@ Há dois tipos de listas em [!DNL Workfront]:
 
 * Listas herdadas
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![Agrupamentos azuis](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Listas atualizadas
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![Agrupamentos cinza](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 A tabela a seguir mostra algumas das diferenças entre as listas herdadas e atualizadas em [!DNL Workfront]:
 

@@ -6,9 +6,9 @@ description: Você pode alterar o idioma em que exibe o Adobe Workfront e emails
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1075'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Para obter mais informações sobre como alterar a Localidade de Email do Usuár
 >   * Nomes de projeto
 >   * Nomes de tarefas
 >   * Nomes do problema
->   * nomes de Portfolio
+>   * Nomes do Portfolio
 >   * Nomes de programas
 >   * Nomes de aprovação
 >   * Descrições
@@ -98,7 +98,7 @@ Para obter mais informações sobre o Workfront Fusion, consulte [Visão geral d
 Você pode alterar o idioma em que exibe o Workfront e o idioma dos emails de saída modificando as seguintes configurações:
 
 * O idioma no navegador (para usuários que não estão no IMS)
-* O idioma principal e secundário do seu perfil AEM (para usuários no IMS)
+* O idioma principal e secundário do seu perfil do AEM (para usuários no IMS)
 * As configurações de Local de email do usuário e Informações do cliente em sua conta da Workfront.
 
 Para ver todas as traduções disponíveis para o idioma escolhido, a localidade do Workfront e a localidade do navegador devem ser definidas para o mesmo idioma.
@@ -138,7 +138,7 @@ Ao alterar a localidade de email padrão do Workfront, você modifica o idioma, 
 Para alterar a localidade de email padrão do Workfront:
 
 1. Faça logon no Workfront como administrador do Workfront.
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront, e clique em **Instalação** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Sistema** > **Informações do Cliente.**
 
@@ -152,7 +152,7 @@ Ao alterar a Localidade de email do usuário, você modifica o idioma, a data e 
 
 >[!NOTE]
 >
->Quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas no perfil de Adobe e a localidade do email não é usada. Consulte [Alterar o idioma do Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) neste artigo.
+>Quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas no perfil do Adobe e a localidade de email não é usada. Consulte [Alterar o idioma do Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) neste artigo.
 
 Para alterar a localidade de email do usuário:
 

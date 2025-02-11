@@ -6,9 +6,9 @@ description: Leia este artigo para se tornar um testador beta do Android para o 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Você precisa instalar o aplicativo [!DNL Workfront] antes de participar da vers
 
 1. Depois que o progresso for concluído, você receberá uma confirmação de que agora é um usuário beta.\
    A palavra &quot;[!UICONTROL Beta]&quot; aparece após o nome do seu aplicativo em [!DNL Play Store], indicando que você está usando a versão beta do aplicativo.\
-   ![](assets/android-beta-tester-adobe-350x468.png)
+   ![testador beta do Android](assets/android-beta-tester-adobe-350x468.png)
 
 ### código QR
 
 Você também pode digitalizar o código QR abaixo para se inscrever no beta e baixar o aplicativo:
 
-![](assets/android-qr-code-350x409.png)
+![Android QR code](assets/android-qr-code-350x409.png)
 
 ## Diga-nos como estamos nos saindo
 

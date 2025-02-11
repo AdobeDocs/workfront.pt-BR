@@ -6,9 +6,9 @@ description: O menu Favoritos permite acessar itens rapidamente. Os itens perman
 feature: Get Started with Workfront
 author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Para exibir um item adicionado anteriormente como favorito:
 
-1. Clique no ícone ![](assets/favorites-icon.png) de **[!UICONTROL Favoritos]** no canto superior direito de qualquer página [!DNL Adobe Workfront].
+1. Clique no ícone **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) no canto superior direito de qualquer página [!DNL Adobe Workfront].
 
 1. Na lista [!UICONTROL Favoritos], clique no item que deseja exibir.
 
@@ -69,7 +69,7 @@ Você pode adicionar itens recentes ou a página atual ao menu [!UICONTROL Favor
 ### Adicionar o item atual como favorito
 
 1. Vá para a página que deseja adicionar como favorita.
-1. Clique no ícone **[!DNL Favorites]** ![](assets/favorites-icon.png) no canto superior direito de qualquer página [!DNL Workfront] e em **[!UICONTROL Adicionar página atual]**.
+1. Clique no ícone **[!DNL Favorites]** ![Favoritos](assets/favorites-icon.png) no canto superior direito de qualquer página [!DNL Workfront] e em **[!UICONTROL Adicionar página atual]**.
 
    ![Adicionar página atual aos favoritos](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -77,19 +77,19 @@ Você pode adicionar itens recentes ou a página atual ao menu [!UICONTROL Favor
 
    Ou
 
-   Clique no ícone ![](assets/favorites-icon.png) de **[!UICONTROL Favoritos]** à direita do nome do objeto.
+   Clique no ícone **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) à direita do nome do objeto.
 
    >[!NOTE]
    >
    >Se você clicar no ícone **[!UICONTROL Favoritos]** em um objeto que você já adicionou como favorito, o objeto será removido do menu [!UICONTROL Favoritos].\
-   >![](assets/nwe-remove-from-favorites-350x52.png)
+   >![Remover dos favoritos](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Remover um item do menu [!UICONTROL Favoritos]
 
-1. Clique no ícone ![](assets/favorites-icon.png) de **[!UICONTROL Favoritos]** no canto superior direito de qualquer página [!DNL Workfront].
+1. Clique no ícone **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) no canto superior direito de qualquer página [!DNL Workfront].
 
 1. Passe o mouse sobre o item que você deseja remover como favorito e clique no **X** ao lado dele.
 
    Ou
 
-   Se você estiver na página que deseja remover como favorito, clique no ícone **[!UICONTROL Favoritos]** ![](assets/favorites-icon.png) ao lado do nome do objeto para removê-lo do menu Favoritos.
+   Se você estiver na página que deseja remover como favorito, clique no ícone **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) ao lado do nome do objeto para removê-lo do menu Favoritos.

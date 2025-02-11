@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Experiência unificada Adobe para  [!DNL Workfront]
+title: Experiência unificada da Adobe para  [!DNL Workfront]
 description: Acessar o  [!DNL Workfront] por meio do Adobe Experience Cloud proporciona uma experiência perfeita e unificada para gerenciar todos os seus aplicativos Adobe.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Acessar o [!DNL Workfront] até o [!DNL Adobe Experience Cloud] proporciona uma experiência perfeita e unificada para gerenciar todos os seus aplicativos do [!DNL Adobe]. O gerenciamento de identidade única fornece um local para fazer logon, sem vários URLs ou IDs de logon.
 
-Se sua organização estiver na Experiência unificada do Adobe, a URL usada para acessar o Workfront começará com `experience.adobe.com`.
+Se sua organização faz parte da Experiência unificada da Adobe, a URL usada para acessar o Workfront começa com `experience.adobe.com`.
 
 | URL | Experiência do Adobe |
 |------------|------------|
 | (NomeEmpresa).my.workfront.com | experiência com o Workfront |
-| experience.adobe.com | Experiência unificada do Adobe |
+| experience.adobe.com | Experiência unificada da Adobe |
 
 ## Requisitos de acesso
 
@@ -85,7 +85,7 @@ Depois de fazer logon no [!DNL Adobe Experience Cloud], você poderá exibir tod
 
 ## Navegar [!DNL Workfront]
 
-Use o ícone ![](assets/main-menu-icon-left-nav.png) do [!UICONTROL Menu Principal] à esquerda da barra de navegação [!DNL Workfront] para navegar até as páginas às quais você tem acesso. As opções disponíveis no [!UICONTROL Menu Principal] dependem do seguinte:
+Use o ícone [!UICONTROL Menu Principal] ![Ícone do Menu Principal](assets/main-menu-icon-left-nav.png) à esquerda da barra de navegação [!DNL Workfront] para navegar até as páginas às quais você tem acesso. As opções disponíveis no [!UICONTROL Menu Principal] dependem do seguinte:
 
 * **Configurações do modelo de layout**: para saber como um administrador [!DNL Workfront] pode modificar o [!UICONTROL Menu Principal] de um modelo de layout, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Tipo de licença**: para saber as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação de um [!UICONTROL Usuário de licença de revisão]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação de um [!UICONTROL Usuário de licença de trabalho]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
@@ -94,7 +94,7 @@ Use o ícone ![](assets/main-menu-icon-left-nav.png) do [!UICONTROL Menu Princip
 
 ## Acessar seu perfil e suas preferências
 
-Você pode acessar suas opções de perfil e preferência clicando no menu da conta de Adobe (sua foto de perfil) na área de navegação superior.
+É possível acessar as opções de perfil e de preferência clicando no menu da conta do Adobe (a imagem do perfil) na área de navegação superior.
 
 ![Menu Perfil](assets/aec-profile-picture-menu.png)
 
@@ -102,7 +102,7 @@ Esse menu permite:
 
 * Escolha a formatação do **[!UICONTROL Tema escuro]** para [!DNL Adobe Experience Cloud].
 * Definir **[!UICONTROL Preferências]** para [!DNL Adobe Experience Cloud], incluindo as preferências de idioma principal e secundário.
-* Acesse seu **[!UICONTROL [!DNL Workfront]Perfil]**. Quando você estiver no perfil, clique no menu ![](assets/more-icon.png) de **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**. Para obter mais informações sobre o perfil, consulte [Configurar minhas configurações](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* Acesse seu **[!UICONTROL [!DNL Workfront]Perfil]**. Quando você estiver no perfil, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon.png) e selecione **[!UICONTROL Editar]**. Para obter mais informações sobre o perfil, consulte [Configurar minhas configurações](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sair]** do Adobe Experience Cloud.
 
 ## Gerenciar sua senha
@@ -115,9 +115,9 @@ Sua senha não é gerenciada no [!DNL Workfront].
 
 Se sua organização usar um aplicativo separado para gerenciar senhas, você alterará sua senha por meio desse provedor.
 
-Se a sua senha for gerenciada por [!DNL Adobe], você poderá alterá-la na sua conta Adobe.
+Se a sua senha for gerenciada por [!DNL Adobe], você poderá alterá-la em sua conta da Adobe.
 
-[Consulte este artigo para alterar a senha do Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulte este artigo para alterar sua senha do Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Para obter mais informações sobre como alterar sua senha, entre em contato com o administrador.
 

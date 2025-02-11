@@ -6,9 +6,9 @@ description: Você pode redefinir sua  [!DNL Adobe Workfront] senha. Como medida
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '253'
 ht-degree: 1%
 
 ---
@@ -50,15 +50,15 @@ Para saber que tipo de plano ou licença você tem, contate o administrador do [
 
 ## Redefinir sua senha no [!DNL Adobe Workfront]
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito do [!DNL Adobe Workfront] e clique no seu nome de usuário ao lado da imagem do perfil.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito de [!DNL Adobe Workfront], e clique no seu nome de usuário, ao lado da imagem do perfil.
 
    ![Abra o menu principal e selecione seu nome de usuário.](assets/main-menu-options-350x481.png)
 
-1. Clique no **[!UICONTROL Mais menu]** ![](assets/more-icon.png) e em **[!UICONTROL Editar]**.
+1. Clique no **[!UICONTROL ícone Mais]** ![Ícone Mais](assets/more-icon.png) e em **[!UICONTROL Editar]**.
 
 1. Na caixa **[!UICONTROL Editar Pessoa]** que é exibida, em **[!UICONTROL Informações Pessoais]**, clique em **[!UICONTROL Redefinir Senha]**.
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![Editar pessoa](assets/edit-person-box-350x196.jpg)
 
    Se sua organização integrou o [!DNL Workfront] a uma solução SSO, você poderá ser redirecionado para redefinir suas senhas por meio do sistema SSO quando clicar em **[!UICONTROL Redefinir Senha]**. Isso redefine a senha do SSO, o que afeta o logon em todos os outros aplicativos dentro da organização.
 
