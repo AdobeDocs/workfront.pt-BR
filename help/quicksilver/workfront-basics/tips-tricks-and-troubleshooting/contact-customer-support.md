@@ -6,9 +6,9 @@ description: Como cliente do Adobe Workfront, você pode entrar em contato com a
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 854b537e3a480d14a35bf7d17d1ed8ed1507660c
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,17 @@ Como cliente do [!DNL Adobe Workfront], você pode entrar em contato com a equip
 
 Você pode contatar [!DNL Workfront Customer Support] 7 dias por semana, 24 horas por dia, através dos seguintes números:
 
-* EUA: 844-306-HELP(4357)
+* EUA: 866-329-5273
+* EMEA: +44 800 169 0454
+* Austrália: +61 180 035 8683
+
+<!--Old numbers - before 2/10/2025:
+
+* US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
-* Austrália: +61 1800 849259
+* Australia: +61 1800 849259
+
+-->
 
 ## Web
 
