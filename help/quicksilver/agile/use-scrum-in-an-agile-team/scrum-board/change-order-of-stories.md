@@ -6,16 +6,18 @@ description: A ordem em que as matérias aparecem no storyboard não indica prio
 author: Lisa
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
 
 # Altere a ordem das histórias no quadro [!UICONTROL Scrum]
 
-A ordem em que as matérias aparecem no storyboard não indica prioridade. No entanto, isso pode afetar a prioridade percebida, tornando as histórias mais visíveis. Por padrão, as matérias são exibidas em ordem alfabética dentro de cada coluna de status no storyboard. (Histórias com raias são exibidas no topo do storyboard, e histórias sem raias são exibidas separadamente abaixo de qualquer raia.)
+A ordem em que as matérias aparecem no storyboard não indica prioridade. No entanto, isso pode afetar a prioridade percebida, tornando as histórias mais visíveis. A prioridade é definida no backlog e, quando as matérias são trazidas para o storyboard, elas não têm uma prioridade definida porque serão trabalhadas durante o período de iteração. Se as histórias forem retornadas ao backlog, você poderá reordená-las lá para mostrar a prioridade.
+
+Por padrão, as matérias são exibidas em ordem alfabética dentro de cada coluna de status no storyboard. Histórias com raias são exibidas no topo do storyboard, e histórias sem raias são exibidas separadamente abaixo de qualquer raia.
 
 Quando você reordena colunas no storyboard, todas as alterações feitas são salvas na iteração ou no projeto, de modo que as alterações são mantidas na próxima vez que você ou outro usuário visualizar o storyboard. (As alterações feitas não são revertidas ao limpar o cache do navegador.)
 
