@@ -6,9 +6,9 @@ description: Tarefas e problemas podem ser atribuídos a uma equipe ágil e adic
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Você pode criar novas histórias no backlog, criando a história diretamente do
 
 ### Criar uma história no backlog {#create-a-story-from-the-backlog}
 
-Ao criar uma história no backlog, ela é criada como uma tarefa ou um problema em um projeto. Não é possível criar uma história no backlog como um problema.
+Ao criar uma história no backlog, ela é criada como uma tarefa ou um problema em um projeto.
 
 Para criar uma história no backlog:
 
@@ -189,11 +189,11 @@ A tarefa ou problema agora está disponível no backlog da equipe.
 
 ## Mover histórias para dentro ou para fora do backlog
 
-* [Mover histórias do backlog para uma iteração ou quadro +](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Mover histórias do backlog para uma iteração ou quadro](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Mover as histórias existentes para o backlog](#move-existing-stories-to-the-backlog)
 * [Exportar histórias do backlog](#export-stories-from-the-backlog)
 
-### Mover histórias do backlog para uma iteração ou quadro +
+### Mover histórias do backlog para uma iteração ou quadro
 
 1. Ir para o backlog da Equipe Ágil.
 1. Selecione as histórias que deseja mover para uma iteração ou quadro Kanban e clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**.

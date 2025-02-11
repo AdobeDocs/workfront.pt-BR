@@ -6,9 +6,9 @@ description: Você pode mover uma história ou problema do quadro Scrum para out
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Gerencie histórias e problemas no quadro [!UICONTROL Scrum]
 
 Você pode mover uma história ou problema do quadro [!UICONTROL Scrum] para outra iteração ou para o backlog, ou excluí-lo do quadro [!UICONTROL Scrum]. Ao excluir uma história ou problema, ele é movido para a Lixeira por 30 dias e pode ser recuperado somente pelo administrador do sistema.
+
+Para remover uma tarefa ou problema da iteração sem excluí-lo ou enviá-lo para o backlog, vá para o projeto e remova a Equipe Ágil da coluna de atribuição. Isso remove a tarefa ou o problema do quadro Scrum, mas ele permanece no projeto.
 
 ## Requisitos de acesso
 

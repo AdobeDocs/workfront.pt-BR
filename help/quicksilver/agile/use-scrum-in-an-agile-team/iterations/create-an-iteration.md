@@ -6,9 +6,9 @@ description: As iterações são um componente essencial para as equipes ágeis 
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,6 @@ Quando você adiciona uma tarefa como uma história a uma iteração, a restriç
 
 [!UICONTROL Data de Término da Iteração] menos (-) [!UICONTROL Duração da Tarefa] igual (=) [!UICONTROL Data de Início Planejada da Tarefa]
 
-A [!UICONTROL Data de Término do Projeto] é usada em vez da   se a data de início do projeto for posterior à data de início da iteração e a data de término do projeto for posterior à data de término da iteração.
+A [!UICONTROL Data Final do Projeto] será usada em vez da Data Final da Iteração se a data inicial do projeto for posterior à data inicial da iteração e a data final do projeto for posterior à data final da iteração.
 
 Você pode configurar equipes Scrum individuais para usar as datas do projeto por padrão, em vez das datas de iteração. Para obter informações, consulte a seção [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

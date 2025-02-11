@@ -6,9 +6,9 @@ description: É possível excluir uma iteração da sua equipe ágil se ela não
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # Excluir uma iteração
 
 É possível excluir uma iteração da sua equipe ágil se ela não for mais necessária.
+
+Ao excluir uma iteração, todas as histórias da iteração são movidas para o backlog. As tarefas e problemas também permanecem em seus projetos.
 
 >[!NOTE]
 >
