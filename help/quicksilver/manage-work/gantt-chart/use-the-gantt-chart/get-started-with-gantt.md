@@ -6,9 +6,9 @@ description: Os gráficos de Gantt no Adobe Workfront fornecem uma representaç�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,9 @@ Para acessar a lista de tarefas [!UICONTROL Gráfico de Gantt] de um projeto ou 
    * Uma tarefa ou tarefa de modelo, em seguida, clique em [!UICONTROL **Subtarefas**] no painel esquerdo.
    * Um relatório de tarefa
 
-1. Clique no ícone ![](assets/gantt-icon-nwe.png) do [!UICONTROL **Gantt**] na parte superior da lista de tarefas.
+1. Clique no ícone de [!UICONTROL **Gantt**] ![Gantt ícone](assets/gantt-icon-nwe.png) na parte superior da lista de tarefas.
 
-   ![](assets/task-list-gantt.png)
+   ![Gantt da lista de tarefas](assets/task-list-gantt.png)
 
    A lista de tarefas [!UICONTROL Gráfico de Gantt] é aberta à direita da lista de tarefas.
 
@@ -114,7 +114,7 @@ Para acessar a lista de projetos [!UICONTROL Gráfico de Gantt]:
 
 1. Clique no ícone do [!UICONTROL **Gantt**] na parte superior da lista de projetos.
 
-   ![](assets/project-list-gantt.png)
+   ![Gantt da lista de projetos](assets/project-list-gantt.png)
 
    A lista de projetos [!UICONTROL Gráfico de Gantt] é aberta.
 

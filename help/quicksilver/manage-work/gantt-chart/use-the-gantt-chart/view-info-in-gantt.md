@@ -5,9 +5,9 @@ description: A lista de tarefas Gráfico de Gantt e a lista de projetos Gráfico
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Você pode exibir as informações da tarefa de um projeto diretamente na Lista 
 Você pode exibir as informações da tarefa de um projeto diretamente de uma lista de projetos nas seguintes áreas:
 
 * Na área [!UICONTROL Projetos]
-* Dentro de um Portfolio
+* Em uma Portfolio
 * Em um programa
 
 Para exibir tarefas em um projeto a partir de uma lista de projetos:
@@ -79,7 +79,7 @@ Para exibir tarefas em um projeto a partir de uma lista de projetos:
 
    Uma lista de projetos é exibida.
 
-1. Clique no ícone ![](assets/gantt-icon-nwe.png) do **[!UICONTROL Gráfico de Gantt]**, no canto superior direito da tela.
+1. Clique no **[!UICONTROL ícone do Gráfico de Gantt]** ![ícone de Gantt](assets/gantt-icon-nwe.png), no canto superior direito da tela.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ Você pode ajustar o período mostrado no [!UICONTROL Gráfico de Gantt] para ex
 
 1. No [!UICONTROL Gráfico de Gantt], clique no menu suspenso intervalo de tempo.
 
-   ![](assets/timeline-options.png)
+   ![Opções de linha do tempo](assets/timeline-options.png)
 
 1. Selecione um intervalo de tempo entre as seguintes opções disponíveis:
 

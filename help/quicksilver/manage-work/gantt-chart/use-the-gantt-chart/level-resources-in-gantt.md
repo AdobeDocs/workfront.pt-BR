@@ -6,9 +6,9 @@ description: Informações sobre como nivelar recursos no Gráfico de Gantt.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Considere o seguinte ao nivelar recursos em um projeto:
 * As relações predecessoras terão prioridade sobre o nivelamento de recursos.
 * O **[!UICONTROL Nivelamento de Recursos]** precisa ser definido como **[!UICONTROL Manual]** para o projeto para ajustar o nivelamento no [!UICONTROL Gráfico de Gantt]. Se você tiver permissões Gerenciar para o projeto, poderá fazer com que o sistema nivele recursos automaticamente ajustando esta configuração no projeto e selecionando **[!UICONTROL Automático]** em vez de **[!UICONTROL Manual]** na caixa **[!UICONTROL Editar Projeto]**.
 
-  ![](assets/resource-leveling-mode-350x177.png)
+  ![Modo de nivelamento de recursos](assets/resource-leveling-mode-350x177.png)
 
 * Como proprietário do projeto ou destinatário da tarefa, você pode introduzir um atraso de nivelamento para uma tarefa para indicar que há uma grande chance de a tarefa precisar de tempo extra. Para obter informações sobre como adicionar um atraso de nivelamento a uma tarefa, consulte [Atualizar Atraso de Nivelamento da tarefa](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -83,7 +83,7 @@ Você pode usar o [!UICONTROL Gráfico de Gantt] da Lista de Tarefas para nivela
    >
    >Você não pode nivelar recursos no [!UICONTROL Gráfico de Gantt] quando a opção [!UICONTROL Salvamento automático] está habilitada.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Configuração manual habilitada](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Clique no menu suspenso **[!UICONTROL Recursos de Nível]**.
 

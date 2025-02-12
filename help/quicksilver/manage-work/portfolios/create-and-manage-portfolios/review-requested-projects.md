@@ -6,9 +6,9 @@ description: As solicitações de projeto são exibidas como projetos com status
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de [!UICONTROL View] ou superior a Portfolio</p> <p>[!UICONTROL Editar] acesso a Projetos</p>  </td> 
+   <td> <p>Acesso de [!UICONTROL View] ou superior a Portfólios</p> <p>[!UICONTROL Editar] acesso a Projetos</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -77,7 +77,7 @@ Para obter mais informações sobre como aprovar solicitações de projeto crian
 
    >[!TIP]
    >
-   > Além de ter o status **[!UICONTROL Solicitado]**, os projetos devem ser associados ao Portfolio selecionado para serem exibidos nesta lista.
+   > Além de ter o Status de **[!UICONTROL Solicitado]**, os projetos devem ser associados ao Portfolio selecionado para serem exibidos nesta lista.
 
 1. Clique no nome de um projeto na lista para abri-lo.
 1. Clique em **[!UICONTROL Detalhes do projeto]** no painel esquerdo.
@@ -99,7 +99,7 @@ Para obter mais informações sobre como aprovar solicitações de projeto crian
 
    * Altere o status do projeto para qualquer outro status no menu suspenso **[!UICONTROL Status]**.
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![Alterar status do projeto da lista suspensa](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

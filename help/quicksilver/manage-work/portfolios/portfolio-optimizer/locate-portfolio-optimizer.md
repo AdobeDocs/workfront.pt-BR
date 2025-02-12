@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Localize o Otimizador de Portfolio
-description: Você pode encontrar o [!UICONTROL Otimizador de Portfolio] ao acessar um portfólio.
+title: Localize o Portfolio Otimizer
+description: Você pode encontrar o [!UICONTROL Portfolio Otimizer] ao acessar um portfólio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-# Localize o [!UICONTROL Otimizador de Portfolio]
+# Localize o [!UICONTROL Portfolio Otimizer]
 
-Você pode encontrar o [!UICONTROL Otimizador de Portfolio] ao acessar um portfólio.
+Você pode encontrar o [!UICONTROL Portfolio Otimizer] ao acessar um portfólio.
 
 ## Requisitos de acesso
 
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Portfolio e Projetos</p>  </td>
+   <td> <p>Acesso de [!UICONTROL Editar] a Portfólios e Projetos</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,16 +51,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Localize o [!UICONTROL Otimizador de Portfolio]
+## Localize o [!UICONTROL Portfolio Otimizer]
 
-1. No **[!UICONTROL Menu principal]**, clique em **[!UICONTROL Portfolio]**.
+1. No **[!UICONTROL Menu principal]**, clique em **[!UICONTROL Portfólios]**.
 
    Os portfólios que você possui são exibidos por padrão.
 
 1. (Opcional) No menu suspenso **[!UICONTROL Filtro]**, selecione para exibir um conjunto diferente de portfólios.
 1. Clique no nome de um portfólio para acessá-lo.
-1. Clique em **[!UICONTROL Otimização de Portfolio]** no painel esquerdo.
+1. Clique em **[!UICONTROL Otimização do Portfolio]** no painel esquerdo.
 
-   O [!UICONTROL Otimizador de Portfolio] é exibido.
+   O [!UICONTROL Portfolio Otimizer] é exibido.
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Otimizador do Portfolio](assets/nwe-portfolio-optimizer-350x83.png)

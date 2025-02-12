@@ -6,9 +6,9 @@ description: Você pode delegar temporariamente o trabalho ao qual está atribu�
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Para delegar tarefas e problemas a outras pessoas:
 
 1. Clique em [!UICONTROL **Delegar**] no canto superior esquerdo dos widgets [!UICONTROL **Meu Trabalho**], [!UICONTROL **Minhas Tarefas**] ou [!UICONTROL **Meus Problemas**].
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![Botão Delegar](assets/delegate-button-on-my-work-widget.png)
 
 1. Atualize o seguinte:
 
@@ -133,7 +133,7 @@ Para delegar tarefas e problemas a outras pessoas:
      >
      >Se você deixar o campo Data final vazio e a opção Sem data final não estiver selecionada, a delegação será definida somente para o dia atual.
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![Caixa de delegação expandida](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Clique em [!UICONTROL **Salvar**].
@@ -158,7 +158,7 @@ Para delegar tarefas e problemas a outras pessoas:
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![Botão Editar delegação](assets/edit-delegation-button-on-my-work-widget.png)
 
    * Se as notificações de eventos e as notificações pessoais estiverem ativadas, você também receberá uma confirmação por email da sua delegação.
 
@@ -179,7 +179,7 @@ Você pode permitir que uma delegação expire se tiver selecionado uma Data fin
    >
    >    Você poderá editar somente a Data de término de uma delegação se ela já tiver sido iniciada.
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![Botão Parar delegação](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (Condicional) clique em [!UICONTROL **Salvar**] para salvar as novas datas de delegação
 
@@ -213,11 +213,11 @@ Você pode acessar a caixa [!UICONTROL Atribuições] nas seguintes áreas:
 
   O campo [!UICONTROL Atribuições] no cabeçalho da tarefa ou problema é alterado para [!UICONTROL Atribuições e delegações].
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![Painel de atribuições e delegados no cabeçalho da tarefa](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * O [!UICONTROL Balanceador de carga de trabalho] ao atribuir tarefas ou problemas manualmente
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![Painel Atribuições e delegações no Balanceador](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ Se uma tarefa ou um problema for delegado e a subguia [!UICONTROL Delegações] 
    * [!UICONTROL **Delegado a mim**]: para exibir tarefas e problemas delegados a você por outro usuário.
    * [!UICONTROL **Delegado por mim**]: para exibir tarefas e problemas delegados por você a outros usuários.
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![Filtro de tarefas e problemas delegados](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. (Opcional) Clique no menu suspenso [!UICONTROL **Classificar**] para classificar a lista pelos seguintes critérios:
    * [!UICONTROL Data de Conclusão]. Esta é a opção de classificação padrão.

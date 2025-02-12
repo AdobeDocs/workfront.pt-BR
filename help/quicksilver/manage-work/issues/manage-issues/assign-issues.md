@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ A atribuição de problemas e tarefas é semelhante no Adobe Workfront. Para obt
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do problema</p> <p> Exibir permissões ou superiores para o projeto ou tarefa em que o problema está localizado, ao atribuir um problema</p><p>Permissões do Contribute ou superiores ao projeto ou tarefa em que o problema está localizado, ao atribuir vários problemas.</p> </td> 
+   <td> <p>Gerenciar permissões do problema</p> <p> Exibir permissões ou superiores para o projeto ou tarefa em que o problema está localizado, ao atribuir um problema</p><p>Ao atribuir vários problemas, contribua com permissões ou mais altas para o projeto ou tarefa em que o problema está localizado.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ Para atribuir ocorrências em uma lista:
 
    * Clique dentro dos campos **Atribuído a** ou **Atribuído** e comece a digitar o nome de um usuário ativo que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![Atribuído ao campo](assets/assigned-to-field-task-list-nwe.png)
 
    * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho ou equipe ativa que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
 
@@ -181,7 +181,7 @@ Para atribuir ocorrências em uma lista:
    >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Condicional) Quando visível no campo Atribuições, clique no **ícone Pessoas** ![](assets/teams.png) no canto superior direito da caixa Atribuições para abrir a caixa Atribuições avançadas e criar atribuições avançadas. Para obter mais informações, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Condicional) Quando visível no campo Atribuições, clique no **ícone Pessoas** ![ícone Pessoas](assets/teams.png) no canto superior direito da caixa Atribuições para abrir a caixa Atribuições avançadas e criar atribuições avançadas. Para obter mais informações, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ Para atribuir ocorrências em uma lista:
 
 1. Vá para uma lista de problemas que você deseja atribuir em massa.
 1. Selecione vários problemas na lista.
-1. Clique no **ícone Editar** ![](assets/qs-edit-icon.png).
+1. Clique no **ícone Editar** ![ícone Editar](assets/qs-edit-icon.png).
 
    A caixa de diálogo **Editar Problemas** é aberta.
 

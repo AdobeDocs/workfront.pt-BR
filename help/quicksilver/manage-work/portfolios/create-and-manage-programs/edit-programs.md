@@ -6,9 +6,9 @@ description: É possível editar informações sobre programas criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Se quiser editar todas as informações sobre o programa, vá para a etapa 4.
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![Detalhes do programa com seção de formulário personalizada](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,10 +81,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Para editar informações na seção [!UICONTROL Detalhes], faça o seguinte:
 
    1. (Opcional) Clique no ícone **[!UICONTROL Recolher Tudo]** no canto superior direito para recolher todas as áreas.
-   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
+   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![seta apontando para a direita](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
    1. Para obter informações sobre os campos visíveis na seção [!UICONTROL Detalhes do Programa], continue editando o programa na caixa [!UICONTROL Editar Programa], conforme descrito abaixo.
    1. (Opcional) Se não houver formulários personalizados anexados ao programa, comece digitando o nome de um formulário no campo **[!UICONTROL Adicionar formulário personalizado]**, selecione-o quando ele for exibido na lista e clique em **[!UICONTROL Salvar alterações]**.
-   1. (Opcional) Clique no ícone **[!UICONTROL Exportar]** ![](assets/export.png) para exportar a [!UICONTROL Visão geral] e as informações de formulários personalizados para um arquivo PDF e, em seguida, clique em **[!UICONTROL Exportar]**. Selecione entre as seguintes opções:
+   1. (Opcional) Clique no ícone **[!UICONTROL Exportar]** ![Ícone Exportar](assets/export.png) para exportar a [!UICONTROL Visão geral] e as informações de formulários personalizados para um arquivo do PDF e clique em **[!UICONTROL Exportar]**. Selecione entre as seguintes opções:
 
       * Selecionar tudo (é exibido somente quando há pelo menos um formulário personalizado anexado)
       * [!UICONTROL Visão geral]
@@ -92,19 +92,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
       O arquivo PDF é baixado no computador.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Exportar detalhes do portfólio](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Para obter mais informações, consulte [Exportar detalhes de formulários e objetos personalizados](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Para editar todas as informações sobre um ou mais programas, siga um destes procedimentos:
 
-   * Clique no menu **[!UICONTROL Mais]** ![](assets/more-icon.png) ao lado do nome do programa e, em seguida&#x200B;**[!UICONTROL Editar].**
-   * Vá para uma lista de programas, selecione um ou mais programas que deseja editar e clique no ícone **[!UICONTROL Editar]** ![](assets/edit-icon.png) na parte superior da lista.
+   * Clique no menu **[!UICONTROL Mais]** ![Mais menus](assets/more-icon.png) ao lado do nome do programa e depois&#x200B;**[!UICONTROL Editar].**
+   * Vá para uma lista de programas, selecione um ou mais programas que deseja editar e clique no **[!UICONTROL ícone Editar]** ![ícone Editar](assets/edit-icon.png) na parte superior da lista.
 
    A caixa de diálogo **[!UICONTROL Editar Programa]** é exibida.
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![Editar caixa de programa](assets/edit-program-box-nwe-350x236.png)
 
    Todos os campos de programa estão disponíveis na caixa [!UICONTROL Editar Programa] e são agrupados pelas áreas listadas no painel esquerdo.
 
@@ -177,7 +177,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Comece a editar um programa conforme descrito acima.
 1. Clique em **[!UICONTROL Comentário]**.
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![Caixa Comentário na caixa Editar programa](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. Adicione um comentário no campo **[!UICONTROL Postar uma atualização para o programa]**.
 1. (Opcional) Clique no ícone **[!UICONTROL Pessoas]** para adicionar um usuário ou uma equipe ao comentário.

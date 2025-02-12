@@ -3,13 +3,13 @@ content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Visão geral da pontuação do Portfolio Otimizer
-description: Você pode encontrar a pontuação do Otimizador de Portfolio no Otimizador de Portfolio. Ele é exibido na coluna [!UICONTROL Pontuação] para cada projeto. Isso representa uma pontuação para cada projeto no portfólio.
+description: Você pode encontrar a pontuação do Portfolio Otimizer no Portfolio Otimizer. Ele é exibido na coluna [!UICONTROL Pontuação] para cada projeto. Isso representa uma pontuação para cada projeto no portfólio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -20,31 +20,31 @@ ht-degree: 0%
 
 Você pode encontrar a pontuação [!UICONTROL Portfolio Otimizer] no [!UICONTROL Portfolio Otimizer]. Ele é exibido na coluna **[!UICONTROL Pontuação]** para cada projeto. Isso representa uma pontuação para cada projeto no portfólio.
 
-Para obter informações sobre como localizar o [!UICONTROL Otimizador de Portfolio], consulte o artigo [[!UICONTROL visão geral do Otimizador de Portfolio]](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Para obter informações sobre como localizar o [!UICONTROL Portfolio Otimizer], consulte o artigo [[!UICONTROL visão geral do Portfolio Otimizer]](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-Para obter informações sobre como [!DNL Adobe Workfront] usa a Pontuação do projeto e outras informações do projeto para otimizar projetos no [!UICONTROL Otimizador de Portfolio], consulte [Otimizar projetos no Otimizador de Portfolio](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+Para obter informações sobre como [!DNL Adobe Workfront] usa a Pontuação do projeto e outras informações do projeto para otimizar projetos no [!UICONTROL Portfolio Otimizer], consulte [Otimizar projetos no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-## Diferença entre a [!UICONTROL Pontuação de Alinhamento] e a [!UICONTROL Pontuação do Otimizador Portfolio]
+## Diferença entre a [!UICONTROL Pontuação de Alinhamento] e a [!UICONTROL Pontuação do Portfolio Otimizer]
 
 Há uma diferença entre a pontuação de alinhamento e a pontuação do otimizador de portfólio de um projeto.
 
 A pontuação de alinhamento de um projeto é calculada com base nos pontos obtidos após concluir o cartão de pontuação. Essa pontuação é então usada para determinar a pontuação de alinhamento do portfólio. A pontuação de alinhamento é exibida como uma porcentagem.
 
-A pontuação de alinhamento de um projeto é exibida na coluna **[!UICONTROL Alinhamento]** do [!UICONTROL Otimizador de Portfolio] ou no campo [!UICONTROL Alinhamento] do [!UICONTROL Resumo de Business Case].
+A pontuação de alinhamento de um projeto é exibida na coluna **[!UICONTROL Alinhamento]** do [!UICONTROL Portfolio Otimizer] ou no campo [!UICONTROL Alinhamento] do [!UICONTROL Resumo do Business Case].
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![Resumo do business case](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![Pontuação de alinhamento do projeto](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 Para obter mais informações sobre como gerar a pontuação de alinhamento de um projeto, consulte o artigo [Aplicar um cartão de pontuação a um projeto e gerar uma Pontuação de Alinhamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-A pontuação do [!UICONTROL otimizador de portfólio] é uma classificação calculada automaticamente no [!UICONTROL Otimizador de Portfolio] pela qual os projetos podem ser priorizados. A pontuação do otimizador de portfólio é exibida como um ícone de indicador acompanhado por um número e exibida na coluna **[!UICONTROL Pontuação]** do [!UICONTROL Portfolio Otimizer].
+A pontuação do [!UICONTROL otimizador de portfólio] é uma classificação calculada automaticamente no [!UICONTROL Portfolio Otimizer] pela qual os projetos podem ser priorizados. A pontuação do otimizador de portfólio é exibida como um ícone de indicador acompanhado por um número e exibida na coluna **[!UICONTROL Pontuação]** do [!UICONTROL Portfolio Otimizer].
 
 >[!NOTE]
 >
 >Um projeto só poderá ser pontuado no [!UICONTROL Portfolio Otimizer] se o Business Case tiver sido concluído. Para obter mais informações sobre como concluir um Business Case, consulte o artigo [[!UICONTROL Criar um Business Case] para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![Pontuação do projeto](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 A pontuação para cada projeto é calculada com base na importância das seguintes categorias:
 
@@ -54,7 +54,7 @@ A pontuação para cada projeto é calculada com base na importância das seguin
 * [!UICONTROL Risco de Benefício]
 * [!UICONTROL ROI]
 
-## Calcular a pontuação do [!UICONTROL Otimizador de Portfolio]
+## Calcular a pontuação do [!UICONTROL Portfolio Otimizer]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This was edited based on this issue, per Anna: https://hub.workfront.com/issue/603d0c58000095ea0bc00ce5e2110693/overview)</p>
@@ -64,7 +64,7 @@ A pontuação para cada projeto é calculada com base na importância das seguin
 
 Para descobrir a classificação de um projeto, faça o seguinte:
 
-1. Vá para o [!UICONTROL Otimizador de Portfolio].
+1. Vá para o [!UICONTROL Portfolio Otimizer].
 1. Passe o mouse sobre o ícone de classificação para ver a pontuação do otimizador de portfólio de um projeto.
 
 ![ranking_icon_in_portfolio_otimizer_new.png](assets/ranking-icon-in-portfolio-optimizer-new-350x160.png)
@@ -87,7 +87,7 @@ A seguir estão os critérios pelos quais você pode pontuar um projeto:
 * [!UICONTROL Risco de Benefício]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![Opções de valor de deslizamento](assets/optimizer-sliding-value-options-350x77.png)
 
 Para obter informações sobre como otimizar projetos no portfólio, consulte [Otimizar projetos no [!UICONTROL Portfolio Otimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 

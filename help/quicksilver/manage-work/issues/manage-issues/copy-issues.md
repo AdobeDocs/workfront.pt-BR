@@ -6,9 +6,9 @@ description: Você pode copiar um problema ou uma solicitação e salvá-los no 
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1064'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do problema</p> <p>Permissões do Contribute para o item no qual você está copiando o problema com a capacidade de Adicionar problemas.</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do problema</p> <p>Contribua com permissões para o item no qual você está copiando o problema com a capacidade de Adicionar problemas.</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ Você pode copiar um ou vários problemas de uma lista ou de um relatório de pr
 1. Se você optou por ir para um projeto, clique em **Problemas** no painel esquerdo.
 1. Selecione o(s) problema(s) que deseja copiar e clique no **menu Mais** na parte superior da lista de problemas, depois clique em **Copiar para**.
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![Copiar problema na lista](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. Continue copiando o problema, conforme descrito na seção [Copiar um único problema](#copy-a-single-issue), começando com a Etapa 2.
 
@@ -109,13 +109,13 @@ Você pode copiar um ou vários problemas de uma lista ou de um relatório de pr
 
 Você pode copiar um problema ao visualizá-lo.
 
-1. Vá para um problema que você deseja copiar e clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do problema e em **Copiar** para.
+1. Vá para um problema que você deseja copiar e clique no menu **Mais** ![Mais menu](assets/more-icon.png) à direita do nome do problema e em **Copiar** para.
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![Copiar no nível do problema](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    A caixa **Copiar Problema** é exibida.
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![Copiar caixa de problemas](assets/copy-issue-box-nwe-350x285.png)
 
 1. Na seção **Selecionar projeto de destino**, especifique o nome do projeto para o qual deseja copiar os problemas. O nome do projeto atual é exibido por padrão.
 
@@ -126,7 +126,7 @@ Você pode copiar um problema ao visualizá-lo.
 1. (Condicional) Clique em **solicitar acesso** se você não tiver acesso para copiar problemas para o projeto.
 1. (Condicional) Continue a copiar o problema para o projeto de destino selecionado sem solicitar acesso se tiver acesso para adicionar problemas a uma das tarefas no projeto de destino.
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![Copiar problema e solicitar acesso](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

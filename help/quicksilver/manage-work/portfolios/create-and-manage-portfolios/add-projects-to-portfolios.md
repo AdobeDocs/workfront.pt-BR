@@ -6,9 +6,9 @@ description: Recomendamos que você adicione projetos aos portfólios ao iniciá
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Considere o seguinte ao adicionar projetos a portfólios:
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
-   <td> <p>[!UICONTROL Editar] acessar Portfolio</p> <p>[!UICONTROL Editar] acesso a Projetos</p> </td> 
+   <td> <p>Portfólios de acesso ao [!UICONTROL Editar]</p> <p>[!UICONTROL Editar] acesso a Projetos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -61,7 +61,7 @@ Considere o seguinte ao adicionar projetos a portfólios:
 
 1. Vá para um portfólio e clique em **[!UICONTROL Projetos]** no painel esquerdo.
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio com projetos](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Clique em **[!UICONTROL Novo projeto]** e selecione um método para adicionar um projeto.
 
@@ -98,11 +98,11 @@ Considere o seguinte ao adicionar projetos a portfólios:
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![Lista suspensa de novos projetos](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Condicional) Se você optou por adicionar um projeto existente, comece digitando o nome de um projeto na caixa **[!UICONTROL Adicionar projetos]**, em seguida, clique neles quando eles aparecerem na lista. É possível adicionar vários projetos de uma vez.
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![Adicionar projeto existente](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. Clique em **[!UICONTROL Adicionar projetos]**.
 

@@ -1,18 +1,18 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: Exporte o Gráfico de Gantt para o PDF
-description: Você pode exportar o Diagrama de Gantt para um PDF. Depois de exportar o Diagrama de Gantt para o PDF, você pode imprimi-lo ou anexá-lo a um email para compartilhá-lo com outros usuários.
+title: Exportar o Gráfico de Gantt para o PDF
+description: É possível exportar o Diagrama de Gantt para uma PDF. Depois de exportar o Diagrama de Gantt para o PDF, você pode imprimi-lo ou anexá-lo a um email para compartilhá-lo com outros usuários.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
 
-# Exportar o [!UICONTROL Gráfico de Gantt] para PDF
+# Exportar o [!UICONTROL Gráfico de Gantt] para o PDF
 
 <!--Audited: 09/2024-->
 
@@ -61,7 +61,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
    >[!NOTE]
    >
-   >Se você exportar o [!UICONTROL Gráfico de Gantt] de uma lista de projetos, o arquivo de PDF conterá apenas os projetos da lista, não as tarefas de cada projeto. Se você deseja exportar uma lista de tarefas, é possível fazer isso a partir do projeto ao qual estão associadas, criando um relatório de tarefas e exibindo os resultados do relatório na [!UICONTROL Exibição de Gantt].
+   >Se você exportar o [!UICONTROL Gráfico de Gantt] de uma lista de projetos, o arquivo PDF conterá apenas os projetos da lista, não as tarefas de cada projeto. Se você deseja exportar uma lista de tarefas, é possível fazer isso a partir do projeto ao qual estão associadas, criando um relatório de tarefas e exibindo os resultados do relatório na [!UICONTROL Exibição de Gantt].
 
    Configure qualquer uma das seguintes informações:
 
@@ -75,7 +75,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
    * Selecione a opção **Alternar para Datas Projetadas** para exibir Datas Projetadas em vez de Planejadas. Por padrão, Datas planejadas são exibidas.
 
-   * Clique no ícone ![](assets/settings-icon.png) de **Configurações** no canto superior direito do gráfico de Gantt e selecione as informações que deseja exibir no gráfico de Gantt. Uma vez selecionadas, essas informações serão incluídas no arquivo de PDF de Gantt exportado.
+   * Clique no ícone **Configurações** ![Ícone Configurações](assets/settings-icon.png) no canto superior direito do gráfico de Gantt e selecione quais informações você deseja exibir no gráfico de Gantt. Depois de selecionadas, essas informações são incluídas no arquivo PDF de Gantt exportado.
 
      Selecione entre as seguintes opções:
 
@@ -95,7 +95,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
      >[!NOTE]
      >
-     > As atribuições não são exibidas no [!UICONTROL Gráfico de Gantt] quando o [!UICONTROL Gráfico de Gantt] é exportado para PDF. Quando o [!UICONTROL Gráfico de Gantt] é exportado para o PDF, as atribuições são exibidas somente na exibição de lista.
+     > As atribuições não são exibidas no [!UICONTROL Gráfico de Gantt] quando o [!UICONTROL Gráfico de Gantt] é exportado para o PDF. Quando o [!UICONTROL Gráfico de Gantt] é exportado para o PDF, as atribuições são exibidas somente na exibição de lista.
 
    * O período exibido no [!UICONTROL Gráfico de Gantt].
 
@@ -109,8 +109,8 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
    Por exemplo, se você estiver exibindo o [!UICONTROL Gráfico de Gantt] de um projeto que contém 50 tarefas, mas quiser exibir apenas 10 tarefas no [!UICONTROL Gráfico de Gantt] exportado, selecione as 10 tarefas que deseja exibir.
 
-1. Clique no ícone da impressora ![](assets/printer-icon.png) no canto superior direito do Gráfico de Gantt.
-A caixa de diálogo **[!UICONTROL Exportar para PDF]** é exibida.
+1. Clique no ícone da impressora ![Ícone da impressora](assets/printer-icon.png) no canto superior direito do Diagrama de Gantt.
+A caixa de diálogo **[!UICONTROL Exportar para o PDF]** é exibida.
 
    ![export_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
 
@@ -118,7 +118,7 @@ A caixa de diálogo **[!UICONTROL Exportar para PDF]** é exibida.
 
    * **[!UICONTROL O que vejo]:** exporta todas as tarefas (incluindo todas as subtarefas) exibidas na tela antes de exportar até 500 itens. (Não é o que é exibido na seção **[!UICONTROL Visualização]**; a seção [!UICONTROL Visualização] contém apenas dados de exemplo.)
 
-     As subtarefas são incluídas no PDF exportado mesmo se a tarefa pai estiver recolhida e as subtarefas não estiverem visíveis. Para incluir somente tarefas pai, selecione as tarefas pai que deseja incluir e deixe qualquer subtarefa desmarcada.
+     As subtarefas são incluídas no PDF exportado mesmo se a tarefa pai for recolhida e as subtarefas não estiverem visíveis. Para incluir somente tarefas pai, selecione as tarefas pai que deseja incluir e deixe qualquer subtarefa desmarcada.
 
      >[!TIP]
      >
@@ -140,7 +140,7 @@ A caixa de diálogo **[!UICONTROL Exportar para PDF]** é exibida.
      >   * Quando contiver mais de 500 itens
 
 
-1. Se o PDF for impresso depois de exportado para PDF, no menu suspenso **[!UICONTROL Tamanho da página]**, selecione o tamanho do papel no qual deseja imprimir.
+1. Se a PDF for impressa depois de ser exportada para o PDF, no menu suspenso **[!UICONTROL Tamanho da Página]**, selecione o tamanho do papel no qual deseja imprimir.
 Você pode selecionar entre as seguintes opções:
 
    * **[!UICONTROL Carta]**
@@ -150,7 +150,7 @@ Você pode selecionar entre as seguintes opções:
    * **[!UICONTROL A2]**
    * **[!UICONTROL A3]** (disponível somente para alguns idiomas)
    * **[!UICONTROL A4]**
-1. Na seção **[!UICONTROL Orientação da página]**, selecione se deseja que o PDF seja exportado na orientação paisagem ou retrato.
+1. Na seção **[!UICONTROL Orientação da página]**, selecione se deseja que a PDF seja exportada na orientação paisagem ou retrato.
 1. Selecione **[!UICONTROL Mostrar legenda]** se desejar incluir a legenda no PDF exportado.
 1. Clique em **[!UICONTROL Exportar]**.
 

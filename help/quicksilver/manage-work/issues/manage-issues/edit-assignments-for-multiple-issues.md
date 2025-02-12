@@ -6,9 +6,9 @@ description: Modificar atribuições de usuário para vários problemas em uma l
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Para obter informações gerais sobre atribuição de problemas, consulte [Visã
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do problema</p> <p>Permissões do Contribute ou superiores ao projeto ou tarefa em que o problema está localizado, ao atribuir vários problemas.</p>  </td> 
+   <td> <p>Gerenciar permissões do problema</p> <p>Ao atribuir vários problemas, contribua com permissões ou mais altas para o projeto ou tarefa em que o problema está localizado.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ Para obter informações gerais sobre atribuição de problemas, consulte [Visã
    1. Comece digitando o nome do usuário ou função que deseja filtrar e clique no nome quando ele aparecer na lista suspensa.
    1. Clique em **Salvar filtro.**
 
-1. Selecione os problemas para os quais deseja modificar atribuições e clique no ícone **Editar** ![](assets/qs-edit-icon.png).
+1. Selecione os problemas para os quais deseja modificar atribuições e clique no **ícone Editar** ![ícone Editar](assets/qs-edit-icon.png).
 
    O **Editar problemas** é exibido. Os itens editados são exibidos no canto superior esquerdo da página.
 
 1. Vá para a seção **Atribuições** e selecione **Atribuído**.
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Área de atribuições](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. Siga um destes procedimentos:
 

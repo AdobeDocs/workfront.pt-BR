@@ -6,9 +6,9 @@ description: Navegar em um portfólio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Em [!DNL Adobe Workfront], um portfólio representa uma coleção de projetos que competem pelos mesmos recursos, orçamento, cronograma e prioridade. O objetivo principal do portfólio é ajudar executivos e gerentes de projeto a escolher trabalhar em projetos que oferecem os maiores benefícios a uma organização.
 
-Para obter mais informações sobre portfólios, consulte [visão geral de Portfolio em [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Para obter mais informações sobre portfólios, consulte [visão geral do Portfolio em [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Requisitos de acesso
 
@@ -45,7 +45,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Projetos e Portfolio</p>  </td> 
+   <td> <p>Acesso de [!UICONTROL Editar] a Projetos e Portfólios</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -60,21 +60,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Navegar em um portfólio
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
 
-1. Clique em [!UICONTROL Portfolio].
+1. Clique em [!UICONTROL Portfólios].
 1. No menu suspenso **[!UICONTROL Filtro]**, selecione:
 
-   * **[!UICONTROL Portfolio De Propriedade]**: inclui uma lista de portfólios para os quais você está designado como [!UICONTROL Gerente de Portfolio].
+   * **[!UICONTROL Meus Portfólios]**: inclui uma lista de portfólios para os quais você está designado como [!UICONTROL Gerente do Portfolio].
    * **[!UICONTROL Todos]**: inclui todos os portfólios aos quais você tem pelo menos acesso para Exibir.
 
-     Para obter mais informações sobre o acesso a Portfolio, consulte [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
-Para obter mais informações sobre permissões para Portfolio, consulte [Compartilhar um portfólio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+     Para obter mais informações sobre o acesso aos portfólios, consulte [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Para obter mais informações sobre permissões para Portfólios, consulte [Compartilhar um portfólio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Para adicionar novos portfólios, consulte [Criar um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 1. Clique no nome de um portfólio para acessá-lo.
-As seguintes métricas de desempenho do portfólio são exibidas na área [!UICONTROL Detalhes do Portfolio] dentro de um portfólio:
+As seguintes métricas de desempenho de portfólio são exibidas na área [!UICONTROL Detalhes do Portfolio] dentro de um portfólio:
 
    * Se o portfólio está [!UICONTROL No Prazo]
    * Se o portfólio é [!UICONTROL Dentro do Orçamento]
@@ -107,19 +107,19 @@ Para obter informações sobre programas, consulte a seção [Criar e gerenciar 
 
 1. (Opcional) Expanda a área **[!UICONTROL Detalhes do Portfolio]** no painel esquerdo e clique em **[!UICONTROL Visão geral]** ou **[!UICONTROL Forms personalizado]** para editar informações sobre o portfólio.
 
-1. (Opcional) Clique em **[!UICONTROL Otimização de Portfolio]** no painel esquerdo para otimizar o desempenho do portfólio.
+1. (Opcional) Clique em **[!UICONTROL Otimização do Portfolio]** no painel esquerdo para otimizar o desempenho do portfólio.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Otimizador do Portfolio com projetos](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
-   >Sua empresa deve ter um plano [!DNL Workfront] [!UICONTROL Business] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
+   >Sua empresa deve ter um plano [!DNL Workfront] de [!UICONTROL Negócios] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
 
-   Para obter informações sobre como usar o Otimizador de Portfolio, consulte a seção [Gerenciar projetos no Otimizador de Portfolio](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
+   Para obter informações sobre como usar o Portfolio Otimizer, consulte a seção [Gerenciar projetos no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Opcional) Clique em **Documentos** no painel esquerdo para anexar documentos ao portfólio.
 1. (Opcional) Clique em **[!UICONTROL Atualizações]** no painel esquerdo para adicionar comentários ao fluxo de atualização do portfólio. Para obter informações, consulte [Trabalho de atualização](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Clique no menu **[!UICONTROL Mais]** ![](assets/qs-more-icon-on-an-object.png) para executar um dos seguintes procedimentos:
+1. (Opcional) Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/qs-more-icon-on-an-object.png) para executar um dos seguintes procedimentos:
 
    * Desative o portfólio. Quando um portfólio é desativado, não é mais possível associá-lo a projetos no nível do projeto.
    * Exclua o portfólio.
@@ -130,4 +130,4 @@ Para obter informações sobre programas, consulte a seção [Criar e gerenciar 
 
    * Compartilhe o portfólio com outros usuários.
 
-1. (Opcional) Clique no ícone **Estrela** ![](assets/qs-star-icon-favorites-39x38.png) à direita do nome do portfólio para adicionar o portfólio à sua lista de favoritos.
+1. (Opcional) Clique no ícone **Estrela** ícone ![Estrela](assets/qs-star-icon-favorites-39x38.png) à direita do nome do portfólio para adicionar o portfólio à sua lista de favoritos.

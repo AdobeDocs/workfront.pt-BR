@@ -6,9 +6,9 @@ description: O Gráfico de Gantt da lista de tarefas mostra detalhes sobre taref
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 1. Vá para o projeto que deseja modificar.
 1. Clique em **[!UICONTROL Tarefas]** no painel esquerdo.
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![Área de tarefas](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. Clique no ícone do **[!UICONTROL Gráfico de Gantt]**.
 
@@ -73,7 +73,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
 1. (Opcional) Clique no ícone **[!UICONTROL Modo de plano]** e selecione **[!UICONTROL Salvar manualmente padrão]** ou **[!UICONTROL Planejamento de linha do tempo]** para salvar as alterações manualmente.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Configuração manual habilitada](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Passe o mouse sobre a linha do tempo de uma tarefa e arraste o indicador da linha do tempo para uma data diferente.
 1. Solte o indicador quando tiver atingido a nova Data de conclusão correta para a tarefa.
@@ -103,7 +103,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
 1. (Opcional) Clique no ícone **[!UICONTROL Modo de plano]** e selecione **[!UICONTROL Salvar manualmente padrão]** ou **[!UICONTROL Planejamento de linha do tempo]** para salvar as alterações manualmente.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Configuração manual habilitada](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Para criar uma relação de predecessora, clique no ponto inicial de uma tarefa e arraste-o para o ponto final da tarefa.
 1. Para excluir uma relação de predecessora, clique em uma linha de predecessora que conecte duas tarefas para selecioná-la e pressione **[!UICONTROL Excluir]** no teclado.\
@@ -135,7 +135,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
 1. (Opcional) Clique no ícone **[!UICONTROL Modo de plano]** e selecione **[!UICONTROL Salvar manualmente padrão]** ou **[!UICONTROL Planejamento de linha do tempo]** para salvar as alterações manualmente.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Configuração manual habilitada](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Passe o mouse sobre o centro da tarefa e localize a seta multidirecional.
 1. Clique em e arraste a tarefa para a data desejada.

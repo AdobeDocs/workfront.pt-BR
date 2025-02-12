@@ -1,27 +1,27 @@
 ---
-title: Visão geral do gerenciamento de Portfolio
+title: Visão geral do gerenciamento do Portfolio
 product-area: portfolios
 navigation-topic: portfolios-overview
-description: Portfolio ou Gerenciamento de Portfolio de Projeto (PPM) é o processo de priorizar e gerenciar uma lista de projetos para atingir objetivos de negócios específicos. Um portfólio é uma coleção de projetos com metas comerciais comuns.
+description: O Portfolio ou o Project Portfolio Management (PPM) é o processo de priorizar e gerenciar uma lista de projetos para atingir objetivos de negócios específicos. Um portfólio é uma coleção de projetos com metas comerciais comuns.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
 
-# Visão geral do gerenciamento de Portfolio
+# Visão geral do gerenciamento do Portfolio
 
 <!--Audited: 09/2024-->
 
-## Visão geral do Gerenciamento de Portfolio do Projeto (PPM)
+## Visão Geral do Gerenciamento do Project Portfolio (PPM)
 
-Portfolio ou Gerenciamento de Portfolio de Projeto (PPM) é o processo de priorizar e gerenciar uma lista de projetos para atingir objetivos de negócios específicos.
+O Portfolio ou o Project Portfolio Management (PPM) é o processo de priorizar e gerenciar uma lista de projetos para atingir objetivos de negócios específicos.
 
-Este artigo descreve os conceitos gerais para gerenciamento de portfólio. Para obter informações gerais sobre o gerenciamento de portfólios no Adobe Workfront, consulte [visão geral de Portfolio no Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Este artigo descreve os conceitos gerais para gerenciamento de portfólio. Para obter informações gerais sobre o gerenciamento de portfólios no Adobe Workfront, consulte [Visão geral do Portfolio no Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 Um portfólio é uma coleção de projetos com metas comerciais comuns. O resultado de uma metodologia PPM eficaz permite aos executivos:
 
@@ -40,11 +40,11 @@ Normalmente, os profissionais de PPM usam as seguintes etapas para realizar PPM:
 
 ## Visão geral do processo de PPM [!DNL Adobe Workfront]
 
-Você pode priorizar seus projetos e garantir que eles estejam alinhados às suas metas e requisitos comerciais usando as ferramentas de Gerenciamento de Portfolio no [!DNL Workfront].
+Você pode priorizar seus projetos e garantir que eles estejam alinhados às suas metas e requisitos comerciais usando as ferramentas de Gerenciamento do Portfolio no [!DNL Workfront].
 
 O diagrama a seguir ilustra a visão geral de alto nível do processo PPM em [!DNL Workfront]:
 
-![](assets/project-portfolio-management-process-diagram.png)
+![Processo de gerenciamento de portfólio do projeto](assets/project-portfolio-management-process-diagram.png)
 
 * [Solicitação de Projeto](#project-request)
 * [Revisão do projeto](#project-review)
@@ -55,19 +55,19 @@ O diagrama a seguir ilustra a visão geral de alto nível do processo PPM em [!D
 
 ### Solicitação de Projeto {#project-request}
 
-O Gerenciamento de Portfolio do projeto começa com uma solicitação de projeto. Nesta fase, um proprietário de projeto cria uma solicitação de projeto e a envia para revisão para um comitê executivo ou para o Gerente de Portfolio. É quando eles concluem o Business Case do projeto e, em seguida, o enviam para aprovação.
+O Project Portfolio Management é iniciado com uma solicitação de projeto. Nesta fase, um proprietário de projeto cria uma solicitação de projeto e a envia para análise a um comitê executivo ou ao Gerente da Portfolio. É quando eles concluem o Business Case do projeto e, em seguida, o enviam para aprovação.
 
 Para obter mais informações sobre como criar um business case e uma solicitação de projeto, consulte [Criar um business case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Revisão do projeto {#project-review}
 
-Depois de enviar a solicitação do projeto, o Gerente de Portfolio ou uma equipe executiva a revisa e decide se aprova o projeto. Se eles aprovarem o projeto, ele será selecionado para um Portfolio de projeto de empresa.
+Depois que você envia a solicitação do projeto, o Gerente do Portfolio ou uma equipe executiva a revisa e decide se aprova o projeto. Se eles aprovarem o projeto, ele será selecionado para uma empresa, a Project Portfolio.
 
-Para obter mais informações sobre portfólios, consulte [visão geral de Portfolio em [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Para obter mais informações sobre como aprovar um Business Case, consulte [Aprovar um Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Para obter mais informações sobre portfólios, consulte [visão geral do Portfolio em [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Para obter mais informações sobre como aprovar um Business Case, consulte [Aprovar um Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Otimização do Portfólio {#portfolio-optimization}
 
-Depois de adicionar todos os projetos ao portfólio, o gerente de Portfolio otimiza e prioriza de acordo com seu valor, alinhamento e benefício para a organização.
+Depois de adicionar todos os projetos ao portfólio, o gerente da Portfolio os otimiza e prioriza de acordo com seu valor, alinhamento e benefício para a organização.
 
 Para obter mais informações sobre otimização de portfólio, consulte [Otimizar projetos no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
@@ -75,13 +75,13 @@ Para obter mais informações sobre otimização de portfólio, consulte [Otimiz
 
 Além de otimizar o desempenho do portfólio e priorizar os projetos, o Gerenciador de Recursos garante que os recursos adequados sejam alocados para os projetos. Eles avaliam a disponibilidade e a alocação dos recursos usando as ferramentas de Gerenciamento de Recursos disponíveis em [!DNL Workfront].
 
-Dependendo da disponibilidade dos recursos, o Gerenciador de Portfolio pode precisar repriorizar os projetos.
+Dependendo da disponibilidade dos recursos, o Gerente do Portfolio pode precisar repriorizar os projetos.
 
 Para obter mais informações sobre o Gerenciamento de Recursos, consulte a seção [Gerenciar recursos](../../../resource-mgmt/manage-resources.md).
 
 ### Execução do projeto {#project-execution}
 
-Depois de receber a aprovação do projeto do Gerenciador de Portfolio e a validação dos recursos do Gerenciador de Recursos, como Proprietário do Projeto, você pode colocar o projeto no status [!UICONTROL Atual] e os usuários podem iniciar o trabalho para concluir o projeto. Recomendamos capturar uma linha de base do projeto nesta fase, para ter um ponto de referência para o projeto, em seu estado original.
+Depois de receber a aprovação do projeto do Gerenciador de Portfolio e a validação dos recursos do Gerenciador de Recursos, como Proprietário do Projeto, você pode colocar o projeto no status [!UICONTROL Atual] e os usuários poderão iniciar o trabalho para concluir o projeto. Recomendamos capturar uma linha de base do projeto nesta fase, para ter um ponto de referência para o projeto, em seu estado original.
 
 Para obter mais informações sobre como gerenciar projetos no [!DNL Workfront], consulte [Gerenciar projetos: índice do artigo](../../../manage-work/projects/manage-projects/manage-projects-overview.md).
 

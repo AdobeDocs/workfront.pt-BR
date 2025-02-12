@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Excluir e desativar portfólios
-description: Portfolio são coleções de projetos ou programas no Adobe Workfront. Você pode excluir ou desativar um portfólio se achar que ele é irrelevante para o seu sistema.
+description: Portfólios são coleções de projetos ou programas no Adobe Workfront. Você pode excluir ou desativar um portfólio se achar que ele é irrelevante para o seu sistema.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 2/2024-->
 
-Portfolio são coleções de projetos ou programas em [!DNL Adobe Workfront]. Você pode excluir ou desativar um portfólio se achar que ele é irrelevante para o seu sistema.
+Portfólios são coleções de projetos ou programas em [!DNL Adobe Workfront]. Você pode excluir ou desativar um portfólio se achar que ele é irrelevante para o seu sistema.
 
 Recomendamos desativar um portfólio que não precisa mais ser associado a projetos futuros em vez de excluí-lo para manter as informações de histórico dos projetos atualmente associados ao portfólio e seus programas.
 
@@ -42,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Projetos e Portfolio</p>  </td> 
+   <td> <p>Acesso de [!UICONTROL Editar] a Projetos e Portfólios</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -71,22 +71,22 @@ Considere o seguinte ao decidir se exclui ou desativa portfólios:
 
 ## Desativar um portfólio
 
-Ao desativar um portfólio, você ainda pode acessá-lo na área [!UICONTROL Portfolio], mas ele não é mais exibido na lista de portfólios quando os usuários tentam adicioná-lo a um projeto.
+Ao desativar um portfólio, você ainda pode acessá-lo na área [!UICONTROL Portfólios], mas ele não é mais exibido na lista de portfólios quando os usuários tentam adicioná-lo a um projeto.
 
 >[!NOTE]
 >
->Dependendo de como o administrador de grupo ou o [!DNL Workfront] configurar o modelo de layout, a área [!UICONTROL Portfolio] talvez não seja exibida no [!UICONTROL Menu Principal]. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Dependendo de como o administrador de grupo ou o [!DNL Workfront] configurar o modelo de layout, a área [!UICONTROL Portfólios] talvez não seja exibida no [!UICONTROL Menu Principal]. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 {{step1-click-main-menu}}
 
-1. Clique em **[!UICONTROL Portfolio]**.
+1. Clique em **[!UICONTROL Portfólios]**.
 1. Clique no nome do portfólio.
-1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do portfólio e clique em **[!UICONTROL Desativar Portfolio]**.
+1. Clique no menu **Mais** ![Mais menu](assets/more-icon.png) à direita do nome do portfólio e clique em **[!UICONTROL Desativar Portfolio]**.
 
 ## Excluir um portfólio
 
 {{step1-click-main-menu}}
 
-1. Clique em **[!UICONTROL Portfolio]**.
-1. Selecione o portfólio e clique em **[!UICONTROL Excluir]**&#x200B;no ícone [!UICONTROL Excluir] ![](assets/delete.png).
+1. Clique em **[!UICONTROL Portfólios]**.
+1. Selecione o portfólio e clique em **[!UICONTROL Excluir]**&#x200B;ícone [!UICONTROL Excluir] ![ícone Excluir](assets/delete.png).
 1. Clique em **[!UICONTROL Sim, exclua-o]** para confirmar.

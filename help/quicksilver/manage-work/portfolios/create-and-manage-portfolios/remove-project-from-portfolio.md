@@ -6,9 +6,9 @@ description: Você pode remover um projeto de um portfólio e associá-lo a um p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Você também pode excluir projetos de um portfólio que também os remove de [!
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Projetos</p> <p>[!UICONTROL Editar] acesso a Portfolio</p>  </td> 
+   <td> <p>[!UICONTROL Editar] acesso a Projetos</p> <p>Acesso de [!UICONTROL Editar] a Portfólios</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -56,10 +56,10 @@ Você também pode excluir projetos de um portfólio que também os remove de [!
 
 ## Remover um projeto de um portfólio
 
-1. Vá para um Portfolio e clique em **[!UICONTROL Projetos]** no painel esquerdo.
+1. Vá para uma Portfolio e clique em **[!UICONTROL Projetos]** no painel esquerdo.
 1. Selecione o projeto a ser removido. 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![Botão Remover projetos](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Clique em **[!UICONTROL Remover Projetos]**.
 1. Clique em **[!UICONTROL Excluir]** para excluir o projeto de [!DNL Workfront] ou **[!UICONTROL Remover]** **[!UICONTROL do Portfolio]** para removê-lo do Portfolio selecionado.

@@ -6,9 +6,9 @@ description: Se for necessário trabalhar mais para concluir um problema depois 
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para o problema</p> <p>Permissões do Contribute para o projeto</p> <p>Você obtém permissões Gerenciar para a tarefa depois que o problema é convertido</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para o problema</p> <p>Contribuir com permissões para o projeto</p> <p>Você obtém permissões Gerenciar para a tarefa depois que o problema é convertido</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no problema que deseja converter para ir para a página de aterrissagem do problema.
 1. Clique no menu [!UICONTROL **Mais**] sobre o problema e em [!UICONTROL **Converter em Tarefa**].
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menu Emitir Mais](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Atualize o nome da tarefa na seção [!UICONTROL Nome da Tarefa]. Por padrão, o nome da tarefa será igual ao do problema original.
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![Converter em caixa de tarefa](assets/convert-to-task-box-nwe.png)
 
 1. Clique em [!UICONTROL **Projeto de destino**] e comece a digitar o nome do projeto no qual você deseja colocar a nova tarefa no campo [!UICONTROL **Projeto de destino**] e selecione-o quando ele for exibido na lista. O projeto do problema é selecionado por padrão.
 

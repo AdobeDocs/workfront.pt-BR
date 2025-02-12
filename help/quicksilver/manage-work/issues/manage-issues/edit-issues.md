@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute para um problema a fim de editar os seguintes campos na área Detalhes: </p>
+   <td> <p>Contribua com permissões para um problema para editar os seguintes campos na área Detalhes: </p>
    <ul>
    <li>Descrição</li>
    <li>Status</li>
@@ -74,7 +74,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 1. (Opcional) Clique em **Tarefas** e no nome de uma tarefa para abri-la.
 1. Clique em **Problemas** no painel esquerdo.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Ícone de problemas](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Opcional) Para editar informações limitadas sobre um problema, clique em **Detalhes do Problema** no painel esquerdo.
 
@@ -85,9 +85,9 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    Para editar informações na seção Detalhes, faça o seguinte:
 
    1. (Opcional) Clique no ícone **Recolher Tudo** no canto superior direito para recolher todas as áreas.
-   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
+   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![seta apontando para a direita](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
    1. (Opcional) Para anexar um formulário personalizado, comece digitando o nome de um formulário no campo **Adicionar formulário personalizado**, selecione-o quando ele for exibido na lista e clique em **Salvar alterações**.
-   1. (Opcional) Clique no ícone **Exportar** ![](assets/export.png) para exportar as informações de Visão geral e formulários personalizados para um arquivo PDF e, em seguida, clique em **Exportar**. Selecione entre as seguintes opções:
+   1. (Opcional) Clique no ícone **Exportar** ![Ícone Exportar](assets/export.png) para exportar as informações de Visão geral e formulários personalizados para um arquivo do PDF e clique em **Exportar**. Selecione entre as seguintes opções:
 
       * Selecionar tudo (é exibido somente quando há pelo menos um formulário personalizado anexado)
       * Visão geral
@@ -95,7 +95,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 
       O arquivo PDF é baixado no computador.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Exportar detalhes do problema](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Para obter mais informações, consulte [Exportar detalhes de formulários e objetos personalizados](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -134,7 +134,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 1. Comece a editar um problema conforme descrito acima.
 1. Clique em **Nome do problema**.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![Seção de nome do problema](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Atualize o campo **Nome do Problema**.
 1. Clique em **Salvar** ou continue editando as seções a seguir.
@@ -144,7 +144,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 1. Comece a editar um problema conforme descrito acima.
 1. Clique em **Visão geral**.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![Seção de visão geral do problema](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Atualize ou revise qualquer um dos campos na tabela a seguir:
 
@@ -271,7 +271,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 1. Comece a editar o problema conforme descrito acima.
 1. Clique em **Atribuições** no painel esquerdo.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![Seção de atribuições de problemas](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Clique em **Pesquisar pessoas, funções e equipes** e comece a digitar o nome de um usuário, função ou equipe que deseja atribuir à tarefa, em seguida, clique nele ou pressione Enter quando ele for exibido na lista.
 
@@ -322,7 +322,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 1. Comece a editar um problema conforme descrito acima.
 1. Clique em **Forms Personalizado**.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![Seção de formulários personalizados de problema](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. No campo **Adicionar formulário personalizado**, selecione o(s) formulário(s) personalizado(s) que deseja associar ao problema. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode adicionar até dez formulários personalizados a um problema.
 
@@ -339,7 +339,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 1. Comece a editar um problema conforme descrito acima.
 1. Clique em **Configurações**.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![Ícone de configurações de problema](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Atualize as seguintes informações:
 
@@ -383,7 +383,7 @@ Você pode editar uma quantidade limitada de informações no cabeçalho da ocor
 
 O administrador do sistema ou do grupo pode personalizar os campos exibidos no cabeçalho do problema. Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![](assets/issue-header-350x19.png)
+![Cabeçalho do problema](assets/issue-header-350x19.png)
 
 Os seguintes campos são incluídos no cabeçalho da ocorrência, por padrão:
 

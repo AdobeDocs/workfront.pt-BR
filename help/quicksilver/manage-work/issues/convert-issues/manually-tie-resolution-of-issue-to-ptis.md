@@ -6,9 +6,9 @@ description: Você pode vincular manualmente a resolução de um problema à res
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Antes de começar, você deve:
 1. Navegue até uma ocorrência cuja resolução você deseja vincular à resolução de outra ocorrência ou à resolução de uma tarefa ou projeto.
 1. Clique em **Detalhes do problema** no painel esquerdo e expanda a área **Visão geral**.
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![Ícone de detalhes do problema](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Clique no campo **Resolvido por** e selecione um dos seguintes tipos de objetos de resolução:
 

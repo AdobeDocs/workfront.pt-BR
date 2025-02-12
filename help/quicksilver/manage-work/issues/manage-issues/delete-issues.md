@@ -6,9 +6,9 @@ description: Você pode excluir problemas ou solicitações no Adobe Workfront s
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões no problema</p> <p>Permissões do Contribute ou superiores no projeto ou na tarefa</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> </td> 
+   <td> <p>Gerenciar permissões no problema</p> <p>Permissões do Contribute ou superiores no projeto ou tarefa</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ Dependendo de como o administrador do Workfront ou do grupo configura as Prefer�
 1. Clique em **Projetos**.
 1. Clique no nome do projeto que contém os problemas que você deseja excluir.
 1. Clique em **Problemas** no painel esquerdo.
-1. Selecione um problema e clique no ícone ![](assets/delete.png) de **Excluir** na parte superior da lista.
+1. Selecione um problema e clique no ícone **Excluir** ![Excluir ícone](assets/delete.png) na parte superior da lista.
 
 1. Se a exclusão for permitida, clique em **Sim, Exclua-a**.\
    O administrador do Workfront pode não permitir a exclusão de problemas em que as horas são registradas.\
@@ -123,12 +123,12 @@ Dependendo de como o administrador do Workfront ou do grupo configura as Prefer�
 1. Clique no nome do projeto que contém o problema que você deseja excluir.
 1. Clique em **Problemas** no painel esquerdo.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Ícone de problemas](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Clique no nome do problema que deseja excluir.
 1. Clique no menu **Mais** à direita do nome do problema.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menu Emitir Mais](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Clique em **Excluir problema**.
 1. Se a exclusão for permitida, clique em **Sim, Exclua-a**.

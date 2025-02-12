@@ -6,9 +6,9 @@ description: Você pode visualizar os problemas associados a um projeto, tarefa 
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Para acessar uma ocorrência e exibir informações sobre ela:
 
    Selecione entre as seguintes opções:
 
-   * Aberto
+   * Abrir
    * Concluídos
    * Todos
 
@@ -142,7 +142,7 @@ Você pode adicionar ícones no modo de exibição de um relatório ou lista de 
 
 Para adicionar ícones que mostram se um projeto tem problemas em um relatório de projeto:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 1. Clique em **Relatórios** > **Novo Relatório** > **Relatório de Projeto**.
 1. No campo **Mostrar nesta coluna**, comece digitando **Ícones de Status** e selecione-os quando ele aparecer na lista.
 

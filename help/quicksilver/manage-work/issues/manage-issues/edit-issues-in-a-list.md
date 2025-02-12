@@ -6,9 +6,9 @@ description: Você pode editar um problema individual ou editar problemas em uma
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Você deve ter o seguinte acesso para executar as ações neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribute ou permissões superiores para o problema</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Contribuir com permissões ou mais altas para o problema</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ Para editar um problema em linha:
 1. Ir para uma lista de problemas em um projeto ou tarefa.
 1. Clique dentro de qualquer campo que você tenha permissões para atualizar manualmente. O campo se torna editável e você pode fazer suas alterações.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![Editar problemas em linha](assets/edit-issues-inline-350x34.png)
 
 1. Pressione Enter quando quiser aceitar as alterações. As alterações são salvas imediatamente.
 
@@ -76,9 +76,9 @@ Para editar um problema em linha:
 1. Ir para uma lista de problemas em um projeto ou tarefa.
 1. Siga um destes procedimentos
 
-   * Selecione o problema na lista e clique no ícone Editar ![](assets/qs-edit-icon.png) na barra de ferramentas.
-   * Clique no **Mais menu** ![](assets/more-icon-task-list.png) à direita do nome do problema e clique em **Abrir em uma nova guia**. Isso abre a página do problema em uma nova guia. Clique em **Mais** > **Editar** na página de problemas.
-   * Clique no **Mais menu** ![](assets/more-icon-task-list.png) à direita do nome do problema e clique em **Editar**.
+   * Selecione o problema na lista e clique no ícone Editar ![ícone Editar](assets/qs-edit-icon.png) na barra de ferramentas.
+   * Clique no **Mais menu** ![Mais menu](assets/more-icon-task-list.png) à direita do nome do problema e clique em **Abrir em uma nova guia**. Isso abre a página do problema em uma nova guia. Clique em **Mais** > **Editar** na página de problemas.
+   * Clique no **Mais menu** ![Mais menu](assets/more-icon-task-list.png) à direita do nome do problema e clique em **Editar**.
 
      Qualquer uma dessas ações abre a caixa Editar ocorrência.
 
@@ -93,7 +93,7 @@ Para editar um problema em linha:
 
    A lista de problemas do projeto é exibida.
 
-1. Selecione um problema que deseja editar e clique no ícone ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) do **Abrir resumo**, no canto superior direito da lista de problemas.
+1. Selecione um problema que deseja editar e clique no ícone **Abrir resumo** ![Abrir resumo](assets/qs-open-summary-icon-in-new-toolbar-small.png) no canto superior direito da lista de problemas.
 
    O **Resumo** é aberto.
 
@@ -119,7 +119,7 @@ Para editar problemas em massa:
 1. Clique em um nome de projeto para acessar o projeto.
 1. Clique em **Problemas** no painel esquerdo.
 1. Selecione vários problemas na lista.
-1. Clique no ícone **Editar** ![](assets/edit-icon.png).
+1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 
    A caixa de diálogo **Editar Problemas** é aberta.
 

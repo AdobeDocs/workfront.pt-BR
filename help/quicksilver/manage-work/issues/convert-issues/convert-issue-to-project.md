@@ -6,9 +6,9 @@ description: Converter um problema em um projeto no Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1975'
 ht-degree: 1%
 
 ---
@@ -69,12 +69,12 @@ Você pode converter um problema em um projeto em branco.
 1. Vá para um projeto e clique em **[!UICONTROL Problemas]** no painel esquerdo.
 1. Na lista de problemas que são exibidas, siga um destes procedimentos:
 
-   * Para converter um problema em um projeto em branco, clique no nome do problema, clique no menu **[!UICONTROL Mais]** ![](assets/more-icon.png) à direita do nome do problema e clique em **[!UICONTROL Converter em um projeto em branco]**.
+   * Para converter um problema em um projeto em branco, clique no nome do problema, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon.png) à direita do nome do problema e clique em **[!UICONTROL Converter em um projeto em branco]**.
 
 
      Ou
 
-     Selecione o problema na lista de problemas, clique no menu ![](assets/more-icon.png) de **[!UICONTROL Mais]** na parte superior da lista e clique em **[!UICONTROL Converter em um projeto em branco]**.
+     Selecione o problema na lista de problemas, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon.png) na parte superior da lista e clique em **[!UICONTROL Converter em um projeto em branco]**.
 
      >[!IMPORTANT]
      >
@@ -122,7 +122,7 @@ Você pode converter um problema em um projeto em branco.
    * Revise os formulários personalizados anexados ao problema. Eles serão transferidos para o novo projeto se também forem formulários personalizados de projeto.
    * Adicionar mais formulários personalizados
    * Verifique se todos os campos obrigatórios têm informações válidas.
-   * Reorganize os formulários personalizados arrastando-os ![](assets/drag-object-icon.png) para o local desejado.
+   * Reorganize os formulários personalizados arrastando-os ![ícone de Arrastar](assets/drag-object-icon.png) onde você desejar.
    * Clique no ícone **x** à direita de qualquer formulário que você não deseja transferir para o projeto. Isso remove o formulário do projeto.
    * Se necessário, transfira as informações de formulário personalizadas do problema para o projeto.
 
@@ -153,7 +153,7 @@ Você pode converter um problema em um projeto em branco.
 Você pode converter um problema em um projeto usando um modelo.
 
 1. Vá para um projeto e clique em **[!UICONTROL Problemas]** no painel esquerdo.
-1. Na lista de problemas exibida, clique no nome do problema, clique no menu **[!UICONTROL Mais]** ![](assets/more-icon.png) à direita do nome do problema, clique em **Converter em projeto de Modelo** e comece a digitar o nome de um modelo na caixa **Modelo de Pesquisa** e clique no nome do modelo quando ele for exibido na lista. Continue com a Etapa 3.
+1. Na lista de problemas exibida, clique no nome do problema, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon.png) à direita do nome do problema, clique em **Converter em projeto de Modelo** e comece a digitar o nome de um modelo na caixa **Modelo de Pesquisa** e clique no nome do modelo quando ele for exibido na lista. Continue com a Etapa 3.
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ Você pode converter um problema em um projeto usando um modelo.
 
    A caixa Novo projeto a partir do modelo é exibida.
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![Novo projeto do modelo](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ Você pode converter um problema em um projeto usando um modelo.
    * O número de todas as tarefas no modelo
    * Os nomes dos formulários personalizados do modelo
 
-1. (Opcional) Passe o mouse sobre o nome de um modelo e clique no ícone ![](assets/favorites-icon-small.png) de **Favoritos** para marcá-lo como favorito para uso futuro.
+1. (Opcional) Passe o mouse sobre o nome de um modelo e clique no ícone **Favoritos** ![Favoritos](assets/favorites-icon-small.png) para marcá-lo como favorito para uso futuro.
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ Você pode converter um problema em um projeto usando um modelo.
 
    A caixa [!UICONTROL Converter em Projeto] é aberta.
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![Converter para projeto](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. Se um campo já estiver preenchido no modelo, ele será preenchido na caixa [!UICONTROL Converter em projeto]. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -230,7 +230,7 @@ Você pode converter um problema em um projeto usando um modelo.
       * Revise os formulários personalizados anexados ao modelo. Eles serão transferidos para o novo projeto.
       * Revise os formulários personalizados anexados ao problema. Eles serão transferidos para o projeto se também forem formulários de projeto.
       * Verifique se todos os campos obrigatórios têm informações válidas.
-      * Reorganize os formulários personalizados arrastando-os ![](assets/drag-object-icon.png) para o local desejado.
+      * Reorganize os formulários personalizados arrastando-os ![ícone de Arrastar](assets/drag-object-icon.png) onde você desejar.
       * Clique no ícone **x** à direita de qualquer formulário que você não deseja transferir para o projeto.
       * Se necessário, transfira as informações de formulário personalizadas do problema para o projeto.
 

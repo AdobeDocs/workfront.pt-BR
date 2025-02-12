@@ -7,9 +7,9 @@ description: Um Objeto Resolvível é um problema cuja resolução está vincula
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -79,10 +79,10 @@ Dependendo de como o administrador do Workfront ou do grupo configurou as prefer
 Existem os seguintes cenários:
 
 * Se o administrador do Workfront ou do grupo tiver a opção **Manter o problema original e vincular sua resolução à tarefa** e a opção **Manter o problema original e vincular sua resolução ao projeto** selecionado e a opção **Permitir que essas configurações sejam alteradas durante a conversão** desmarcada, você não poderá alterar essas configurações porque está convertendo problemas em tarefas ou projetos.\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![Área de problemas de preferências do projeto](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Se o administrador do Workfront ou do grupo tiver o **Manter o problema original e vincular sua resolução à tarefa** e o **Manter o problema original e vincular sua resolução ao projeto** selecionado ou não e o **Permitir que essas configurações sejam alteradas durante a conversão** selecionada, você poderá alterar essas configurações à medida que estiver convertendo problemas em tarefas ou projetos.\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![Opção para manter o problema](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Para obter mais informações sobre a conversão de problemas em tarefas e projetos, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -202,7 +202,7 @@ A localização do objeto de resolução é idêntica para tarefas e projetos.
 
 Em uma lista de problemas, você pode identificar problemas que são rotulados como objetos de resolução através de ícones de status localizando este ícone nas colunas **Ícones de Status** ou **Sinalizadores**:
 
-![](assets/ro1.png)
+![Resolvendo objeto](assets/ro1.png)
 
 ## Exibir informações sobre Resolvíveis e Objeto de Resolução em um relatório
 
@@ -225,43 +225,43 @@ A tabela a seguir mostra quais campos você pode exibir e em quais exibições v
  <tbody> 
   <tr> 
    <td><strong>Possui Contas a Resolver</strong>: exibe um valor <strong>True</strong> se o projeto ou a tarefa tiver Problemas de Resolução associados a eles, e um valor <strong>False</strong> se eles não tiverem.</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td><strong>Nome Original do Problema, Data de Entrada Original do Problema, Nome da Origem</strong>: Exibe o nome e a data de entrada do problema original, bem como o nome do usuário que criou o problema em uma exibição personalizada em modo de texto.<br>Para obter mais informações sobre como criar um modo de exibição personalizado de texto para um projeto ou uma lista de relatórios de tarefas para exibir informações sobre o problema original, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Exibir: exibir informações de problema original em listas de tarefas ou de projetos</a>.<br></td> 
    <td> </td> 
-   <td> ✓ µ</td> 
-   <td> ✓ µ</td> 
+   <td> ✓</td> 
+   <td> ✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Contas a Resolver:</strong> Exibe uma lista de todos os Objetos Resolvíveis em um modo de exibição personalizado de modo de texto para um relatório ou lista de projetos ou tarefas.</p> <p>Para obter mais informações sobre como criar esta exibição, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Exibir: Objetos Resolvíveis em um relatório de tarefa ou de projeto</a></p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
   </tr> 
   <tr> 
    <td><strong>Originador de Problema Convertido</strong>: Exibe informações sobre o usuário que registrou originalmente o problema que foi convertido posteriormente na tarefa. </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>Resolver Projeto</strong>: exibe informações sobre o Projeto de Resolução que foi convertido a partir do problema original ou designado manualmente como o Objeto de Resolução de um problema.</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>Resolver Tarefa</strong>: Exibe informações sobre a Tarefa de Resolução que foi convertida a partir do problema original ou designada manualmente como o Objeto de Resolução de um problema.</td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>Resolver problema</strong>: exibe informações sobre a Resolução de problema que foi designada manualmente como o Objeto de Resolução de um problema.</td> 
-   <td> ✓ µ</td> 
+   <td> ✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 

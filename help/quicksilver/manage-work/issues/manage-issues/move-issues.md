@@ -6,9 +6,9 @@ description: Você pode mover problemas entre projetos e tarefas.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões do problema</p> <p>Permissões do Contribute para o item no qual você está movendo o problema com a capacidade de Adicionar problemas.</td> 
+   <td> <p>Gerenciar permissões do problema</p> <p>Contribua com permissões para o item em que você está movendo o problema com a capacidade de Adicionar problemas.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ Você pode mover um ou vários problemas de uma lista de problemas ou de um rela
 1. Se você optou por ir para um projeto, clique em **Problemas** no painel esquerdo.
 1. Selecione o(s) problema(s) que deseja mover e clique no **menu Mais** na parte superior da lista de problemas, em seguida, clique em **Mover para**.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![Copiar e Mover para links](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. Continue com a movimentação dos problemas, conforme descrito na seção [Mover um único problema](#move-a-single-issue) começando na Etapa 2.
 
@@ -101,13 +101,13 @@ Você pode mover um problema ao visualizá-lo.
 
 ### Mover um único problema
 
-1. Vá para um problema que você deseja mover, clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do problema e clique em **Mover para**.
+1. Vá para um problema que você deseja mover, clique no menu **Mais** ![Mais menu](assets/more-icon.png) à direita do nome do problema e clique em **Mover para**.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![Mover no nível do problema](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    A caixa **Mover Problema** é exibida.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![Mover caixa de problemas](assets/move-issue-box-nwe-350x280.png)
 
 1. Na seção **Selecionar projeto de destino**, especifique o nome do projeto para o qual deseja mover os problemas. O nome do projeto atual é exibido por padrão.
 
@@ -118,7 +118,7 @@ Você pode mover um problema ao visualizá-lo.
 1. (Condicional) Clique em **solicitar acesso** se você não tiver acesso para mover problemas para o projeto.
 1. (Condicional) Continue a mover o problema no projeto de destino selecionado sem solicitar acesso se tiver acesso para adicionar problemas a uma das tarefas no projeto de destino.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![Mover problema e solicitar acesso](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

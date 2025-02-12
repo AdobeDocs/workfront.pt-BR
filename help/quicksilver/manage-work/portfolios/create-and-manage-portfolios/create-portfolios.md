@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Criar um portfólio
-description: Um Portfolio é uma coleção de projetos que competem pelos mesmos recursos, orçamento e cronograma. Os projetos em um Portfolio são semelhantes o suficiente para usarem o mesmo Conjunto de recursos e serem medidos com base no mesmo cartão de pontuação.
+description: Uma Portfolio é uma coleção de projetos que competem pelos mesmos recursos, orçamento e agendamento. Os projetos em uma Portfolio são semelhantes o suficiente para usarem o mesmo Conjunto de recursos e serem medidos com base no mesmo cartão de pontuação.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 7/2024-->
 
-Um Portfolio é uma coleção de projetos que competem pelos mesmos recursos, orçamento e cronograma. Os projetos em um Portfolio são semelhantes o suficiente para usarem o mesmo Conjunto de recursos e serem medidos com base no mesmo cartão de pontuação.
+Uma Portfolio é uma coleção de projetos que competem pelos mesmos recursos, orçamento e agendamento. Os projetos em uma Portfolio são semelhantes o suficiente para usarem o mesmo Conjunto de recursos e serem medidos com base no mesmo cartão de pontuação.
 
-Você pode usar Portfolio para agrupar projetos que pertencem às mesmas linhas de produtos, divisões, departamentos, empresas ou outras unidades de negócios.
+Você pode usar Portfólios para agrupar projetos que pertencem às mesmas linhas de produtos, divisões, departamentos, empresas ou outras unidades de negócios.
 
 ## Requisitos de acesso
 
@@ -40,7 +40,7 @@ Você pode usar Portfolio para agrupar projetos que pertencem às mesmas linhas 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Portfolio</p>  </td> 
+   <td> <p>Acesso de [!UICONTROL Editar] a Portfólios</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -57,7 +57,7 @@ Você pode usar Portfolio para agrupar projetos que pertencem às mesmas linhas 
 
 Você pode criar portfólios no Workfront usando um dos seguintes métodos:
 
-* Crie um portfólio do zero, começando na área Portfolio do menu principal. Este artigo descreve como criar um portfólio do zero.
+* Crie um portfólio do zero, começando pela área Portfólios do menu principal. Este artigo descreve como criar um portfólio do zero.
 
 * Importe um portfólio usando o kick-starts.
 
@@ -78,15 +78,15 @@ Você pode criar portfólios no Workfront usando um dos seguintes métodos:
 
 {{step1-click-main-menu}}
 
-1. Clique em **[!UICONTROL Portfolio]**.
+1. Clique em **[!UICONTROL Portfólios]**.
 1. Clique em **[!UICONTROL Novo Portfolio]**.
-1. Substitua **[!UICONTROL Portfolio sem título]** pelo nome desejado para o portfólio.
+1. Substitua **[!UICONTROL Portfolio]** sem título pelo nome desejado para o portfólio.
 
    O nome pode conter até 255 caracteres.
 
-1. (Opcional) Clique no nome em **[!UICONTROL Gerenciador de Portfolio]** no cabeçalho na parte superior da página para atribuir um gerente diferente para o portfólio.
+1. (Opcional) Clique no nome em **[!UICONTROL Portfolio Manager]** no cabeçalho na parte superior da página para atribuir um gerente diferente para o portfólio.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Nome do gerente do Portfolio](assets/portfolio-manager-name-350x51.jpg)
 
    Como criador do portfólio, você é designado como gerente do portfólio por padrão.
 
@@ -102,8 +102,8 @@ Você pode criar portfólios no Workfront usando um dos seguintes métodos:
       <td> <p>Digite uma descrição para o Portfolio para indicar o que é exclusivo sobre ele. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Gerenciador de Portfolio]</td> 
-      <td> <p>Comece digitando o nome de um usuário que deseja indicar como gerente de portfólio e, em seguida, selecione-o quando ele aparecer na lista. É o mesmo que [!UICONTROL Portfolio Owner]. Essa é a pessoa que pode supervisionar o trabalho definido nos projetos do portfólio e aprovar o Business Case.</p> <p>Importante: quando você designa alguém como o [!UICONTROL Portfolio Manager], ele automaticamente obtém permissões do [!UICONTROL Manager] para o portfólio, os programas e os projetos no portfólio. </p> <p>Dica: você também pode atualizar o [!UICONTROL Portfolio Manager] no cabeçalho na parte superior da página.</p> </td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td> <p>Comece digitando o nome de um usuário que deseja indicar como gerente de portfólio e, em seguida, selecione-o quando ele aparecer na lista. É o mesmo que [!UICONTROL Proprietário do Portfolio]. Essa é a pessoa que pode supervisionar o trabalho definido nos projetos do portfólio e aprovar o Business Case.</p> <p>Importante: quando você designa alguém como o [!UICONTROL Portfolio Manager], ele automaticamente obtém permissões do [!UICONTROL Manager] para o portfólio, os programas e os projetos no portfólio. </p> <p>Dica: você também pode atualizar o [!UICONTROL Portfolio Manager] no cabeçalho na parte superior da página.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Grupo </td> 
@@ -125,7 +125,7 @@ Você pode criar portfólios no Workfront usando um dos seguintes métodos:
 
 1. (Opcional) Clique em **[!UICONTROL Projetos]** no painel esquerdo e em **[!UICONTROL Adicionar projetos]** para adicionar projetos ao portfólio.
 
-   Para obter mais informações sobre como adicionar projetos a um Portfolio, consulte [Adicionar projetos a um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+   Para obter mais informações sobre como adicionar projetos a uma Portfolio, consulte [Adicionar projetos a um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
