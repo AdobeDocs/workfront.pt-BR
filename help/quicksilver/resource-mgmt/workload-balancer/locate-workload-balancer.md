@@ -7,10 +7,10 @@ description: Você pode usar o Balanceador de carga de trabalho para agendar rec
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ As seções a seguir ilustram onde você pode acessar o Balanceador de carga de 
 
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
-   ![](assets/nwe-balancer-global.png)
+   ![Balanceador de carga de trabalho](assets/nwe-balancer-global.png)
 
    O Balanceador de carga de trabalho exibe as seguintes informações na área Recursos, por padrão:
 
@@ -104,7 +104,7 @@ A página da sua equipe inicial é exibida.
 
 1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![Balanceador de carga de trabalho para a equipe](assets/nwe-balancer-team-350x172.png)
 
    O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações, por padrão:
 
@@ -124,7 +124,7 @@ A página da sua equipe inicial é exibida.
 
    O Balanceador de carga de trabalho do projeto é exibido.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![Balanceador de carga de trabalho para o projeto](assets/nwe-balancer-project-350x152.png)
 
    O Balanceador de carga de trabalho de um projeto exibe as seguintes informações por padrão:
 

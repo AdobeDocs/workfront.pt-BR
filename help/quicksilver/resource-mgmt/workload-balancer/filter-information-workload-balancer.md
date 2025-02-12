@@ -6,9 +6,9 @@ description: Para encontrar itens de trabalho com eficiência e se concentrar no
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2526'
 ht-degree: 0%
 
 ---
@@ -160,11 +160,11 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 
    Para obter informações sobre como acessar o Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Clique no ícone **Filtro** ![](assets/filter-icon.png) no canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído**.
+1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) no canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído**.
 
    A caixa do construtor de filtros é exibida à direita. O nome da área para a qual você cria o filtro é exibido no cabeçalho da caixa.
 
-   ![](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
+   ![Lista de filtros](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
 
 1. (Opcional e condicional) Se você acessar o Balanceador de carga de trabalho na área Recursos, o filtro Padrão predefinido pode já ter sido aplicado à área Trabalho atribuído. É possível editar e salvar uma cópia do filtro Padrão.
 
@@ -189,7 +189,7 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 
    1. (Condicional) Se você clicou em **Procurar campos**, digite o nome de um campo no campo **Pesquisar** e selecione-o quando ele for exibido na lista.
 
-      ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
+      ![Pesquisar um campo](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
       >[!TIP]
       >
@@ -204,15 +204,15 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 
       >[!NOTE]
       >
-      > Quando quiser exibir objetos de trabalho de um portfólio específico, você pode aplicar o seguinte filtro: &quot;ID do Portfolio é igual a &lt; nome do portfólio >&quot;.
+      > Quando quiser exibir objetos de trabalho de um portfólio específico, você pode aplicar o seguinte filtro: &quot;Portfolio ID é igual a &lt; o nome do portfólio >&quot;.
       >
-      >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+      >![instrução de filtro de nome do Portfolio](assets/portfolio-name-filter-statement-wb-350x262.png)
       >
       >Para excluir projetos com status Em espera, você deve aplicar o seguinte filtro: &quot;Projeto: o status não é igual a Em espera&quot;. Isso impede que itens de trabalho de projetos Em espera sejam exibidos no Balanceador de carga de trabalho.
       >
-      >![](assets/project-status-filter-statement-wb.png)
+      >![Instrução de filtro de status do projeto](assets/project-status-filter-statement-wb.png)
 
-   1. (Opcional) Clique no ícone ![](assets/delete.png) de **Excluir** para remover um critério de filtro.
+   1. (Opcional) Clique no ícone **Excluir** ![Excluir ícone](assets/delete.png) para remover um critério de filtro.
 
 1. (Opcional) Clique em **Adicionar filtro** para adicionar outro critério de filtro e repita as ações da etapa 4.
 
@@ -232,7 +232,7 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 
 1. Clique em **Salvar como novo** para salvar o filtro para uso futuro.
 
-   ![](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
+   ![Filtro Salvar como](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 1. Clique dentro do campo **Filtro sem título** e digite o nome do novo filtro.
 1. (Opcional) Selecione um ícone para o novo filtro no menu suspenso **Ícone**.
 
-   ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
+   ![Selecionar ícone](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
 1. (Opcional) Adicione uma descrição para o filtro para indicar o que é exclusivo sobre ele. A descrição é exibida sob o nome do filtro na lista de filtros.
 1. Clique em **Salvar**.
@@ -250,9 +250,9 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 
    Para obter informações sobre como aplicar filtros salvos, consulte a seção [Excluir um filtro salvo no Balanceador de carga de trabalho](#delete-a-saved-filter-in-the-workload-balancer) neste artigo.
 
-1. (Condicional) Passe o mouse sobre o ícone **Filtro** ![](assets/filter-icon.png) no canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído** para exibir uma dica de ferramenta com o nome ou o número de filtros aplicados atualmente.
+1. (Condicional) Passe o mouse sobre o **ícone Filtro** ![ícone Filtro](assets/filter-icon.png) no canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído** para exibir uma dica de ferramenta com o nome ou o número de filtros aplicados atualmente.
 
-   ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
+   ![Ícone de filtro com o nome do filtro](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
 ## Duplicação de um filtro
 
@@ -262,13 +262,13 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 
    Para obter informações sobre como acessar o Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Clique no ícone **Filtro** ![](assets/filter-icon.png) no canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído**.
+1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) no canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído**.
 
    A caixa do construtor de filtros é exibida à direita. O nome da área para a qual você cria o filtro é exibido no cabeçalho da caixa.
 
-1. Passe o mouse sobre um filtro existente, clique no menu ![](assets/more-menu.png) de **Mais** e clique em **Duplicar**.
+1. Passe o mouse sobre um filtro existente, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Duplicar**.
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Filtrar mais opções de menu](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -301,18 +301,18 @@ Você pode editar um filtro salvo no Balanceador de carga de trabalho.
 
    Para obter informações sobre como acessar o Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Clique no ícone **Filtro** ![](assets/filter-icon.png) no canto superior direito das áreas **Não Atribuído** ou **Trabalho Atribuído**.\
+1. Clique no **Ícone de filtro** ![ícone de filtro](assets/filter-icon.png) no canto superior direito das áreas **Não atribuído** ou **Trabalho atribuído**.\
    O construtor de filtros é exibido à direita.
 
-1. Passe o mouse sobre o filtro que você deseja editar, em seguida, clique em **Editar** ![](assets/wb-edit-filter-icon.png).
+1. Passe o mouse sobre o filtro que deseja editar, em seguida, clique no **ícone Editar** ![Editar filtro](assets/wb-edit-filter-icon.png).
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Filtrar mais menu](assets/filter-more-menu-options-wb.png)
 
 1. Siga um destes procedimentos:
 
    * Modifique qualquer uma das instruções de filtro
    * Clique em **Adicionar filtro** para adicionar novas instruções de filtro
-   * Clique no ícone **Excluir** ![](assets/delete.png) para remover instruções de filtro existentes.
+   * Clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png) para remover instruções de filtro existentes.
 
 1. (Opcional) Clique em **Aplicar**.
 
@@ -337,11 +337,11 @@ Considere o seguinte antes de excluir um filtro:
 >Quando você exclui um filtro compartilhado com outras pessoas, ele também é excluído para elas.
 
 1. Ir para o Balanceador de carga de trabalho
-1. Clique no ícone **Filtro** ![](assets/filter-icon.png) no canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído**.\
+1. Clique no **Ícone de filtro** ![ícone de filtro](assets/filter-icon.png) no canto superior direito das áreas de **Trabalho não atribuído** ou **Trabalho atribuído**.\
    A caixa do construtor de filtros é exibida à direita.
 
-1. Passe o mouse sobre um filtro, em seguida, clique no menu ![](assets/more-menu.png) de **Mais** e em **Excluir**.
-   ![](assets/filter-more-menu-options-wb.png)
+1. Passe o mouse sobre um filtro, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Excluir**.
+   ![Filtrar mais menu](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -365,12 +365,12 @@ Considere o seguinte ao compartilhar filtros no Balanceador de carga de trabalho
 Para compartilhar um filtro:
 
 1. Ir para o Balanceador de carga de trabalho
-1. Clique no ícone **Filtro** ![](assets/filter-icon.png) no canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído**.\
+1. Clique no **Ícone de filtro** ![ícone de filtro](assets/filter-icon.png) no canto superior direito das áreas de **Trabalho não atribuído** ou **Trabalho atribuído**.\
    A caixa do construtor de filtros é exibida à direita.
 
-1. Passe o mouse sobre um filtro, em seguida, clique no menu ![](assets/more-menu.png) de **Mais** e, em seguida, clique em **Compartilhar.**
+1. Passe o mouse sobre um filtro, em seguida, clique no menu **Mais** ![Mais menus](assets/more-menu.png) e, em seguida, clique em **Compartilhar.**
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Filtrar mais menu](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -388,7 +388,7 @@ Para compartilhar um filtro:
 
 1. (Opcional) Clique na seta ao lado do nome de uma entidade para editar suas permissões para o filtro e habilitar a opção **Exibir** ou **Gerenciar**.
 
-   ![](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
+   ![Permissões de filtro](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
 
 1. (Opcional) Ative ou desative as permissões adicionais de uma entidade seguindo um destes procedimentos:
 
@@ -404,7 +404,7 @@ Para compartilhar um filtro:
 
    Os filtros que você compartilhou são exibidos na área **Compartilhado comigo** da caixa de filtro.
 
-   ![](assets/new-filters-shared-with-me-area-wb-350x236.png)
+   ![Compartilhado(s) comigo](assets/new-filters-shared-with-me-area-wb-350x236.png)
 
 <!--   
 
@@ -415,8 +415,8 @@ You can mark a filter as a favorite for quicker access to it.
 The filters that you mark as a favorite do not count towards your system Favorites list. There is no limit for how many filters you can favorite. 
 
 1. Go to the Workload Balancer
-1. Click the **Filter** icon ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
-1. Mouse over a filter, then click the **Favorite** ![](assets/favorites-icon-small.png). 
+1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
+1. Mouse over a filter, then click the **Favorite** ![Favorites icon](assets/favorites-icon-small.png). 
 (NOTE: insert screen shot here with Favorite as part of this menu - same as above ones but with Favorite)
 1. The filter is listed in the **Favorited** section inside the filter panel. 
 1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters

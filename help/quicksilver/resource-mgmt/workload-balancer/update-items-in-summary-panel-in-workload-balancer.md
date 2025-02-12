@@ -6,9 +6,9 @@ description: Você pode abrir o painel Resumo no Balanceador de carga de trabalh
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Permissões do Contribute ou superiores para projetos, tarefas e problemas</td> 
+   <td>Contribuir com permissões ou com permissões superiores para projetos, tarefas e problemas</td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,11 +78,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Ou
 
-   Clique em **Abrir resumo** ícone ![](assets/summary-panel-icon.png), em seguida, clique na barra de uma tarefa ou problema para abrir o painel Resumo.
+   Clique no ícone **Abrir resumo** ![Ícone Abrir resumo](assets/summary-panel-icon.png) e clique na barra de uma tarefa ou problema para abrir o painel Resumo.
 
    Ou
 
-   Clique no menu **Mais** ![](assets/more-icon.png) à direita de uma tarefa ou problema e clique em **Abrir Resumo**.
+   Clique no **Mais** ícone ![Mais](assets/more-icon.png) do menu à direita de uma tarefa ou problema e clique em **Abrir resumo**.
 
    O painel Resumo é aberto à direita.
 
@@ -97,4 +97,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    Para obter mais informações sobre como atualizar informações usando o Resumo, consulte [Visão geral do Resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Condicional) Se você abriu qualquer uma das seções do item de trabalho, clique no **botão Voltar** do navegador para retornar ao Balanceador de carga de trabalho.
-1. Clique no ícone **Fechar** ![](assets/close-icon.png) no canto superior direito do Resumo para fechá-lo.
+1. Clique no **ícone Fechar** ![ícone Fechar](assets/close-icon.png) no canto superior direito do Resumo para fechá-lo.

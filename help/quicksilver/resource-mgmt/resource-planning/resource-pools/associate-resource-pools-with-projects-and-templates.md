@@ -6,9 +6,9 @@ description: Conjuntos de recursos são coleções de usuários que ajudam você
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -80,14 +80,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 É possível associar conjuntos de recursos a um modelo da mesma maneira que você associa conjuntos de recursos a um projeto. Este artigo descreve como associar conjuntos de recursos a projetos.
 
-1. Vá para um projeto e clique no ícone **Mais** ![](assets/more-icon.png)ao lado do nome do projeto e clique em **Editar**.
+1. Vá para um projeto e clique no ícone **Mais** ícone ![Mais](assets/more-icon.png)ao lado do nome do projeto e clique em **Editar**.
 
 1. Clique em **Configurações do projeto**.
 
 1. Comece digitando o nome de um pool de recursos no campo **Pools de Recursos** e selecione-o na lista quando ele for exibido.\
    É possível associar vários conjuntos de recursos a um projeto ou modelo.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Configurações do projeto](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Clique em **Salvar**.
 
@@ -104,7 +104,7 @@ Para obter mais informações sobre como editar um modelo e associá-lo a conjun
 Para associar conjuntos de recursos a vários projetos em massa:
 
 1. Ir para uma lista de projetos.
-1. Selecione vários projetos e clique no ícone ![](assets/edit-icon.png) de **Editar** na parte superior da lista.
+1. Selecione vários projetos e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) na parte superior da lista.
 
 1. Clique em **Configurações**.
 1. Comece digitando o nome de um pool de recursos no campo **Pools de Recursos** e selecione-o na lista quando ele for exibido.\

@@ -6,9 +6,9 @@ description: É possível exportar informações de qualquer exibição do Plane
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ O **Planejador** é exibido por padrão.
 
    A caixa de diálogo Opções de exportação é exibida.
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![Opções de exportação](assets/rp-export-options-box-350x421.png)
 
 1. Especifique as seguintes informações:\
    **Data de Início**: a data de início da sua exportação. O arquivo exportado contém informações de alocação e disponibilidade começando com o primeiro dia da semana que contém o dia especificado aqui.\

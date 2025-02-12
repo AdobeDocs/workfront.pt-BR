@@ -6,9 +6,9 @@ description: Como um Gerenciador de recursos, você pode atribuir trabalho aos u
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superiores que incluem Fazer atribuições nas tarefas e problemas para os quais você deseja gerenciar alocações. </p> <p>Ou </p> <p>Gerencie permissões para as tarefas para as quais você deseja atualizar as Horas planejadas, além de atualizar alocações. Para obter informações sobre como atualizar as Horas planejadas no Balanceador de carga de trabalho, consulte a seção <a href="#update-task-planned-hours-when-managing-user-allocations">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> neste artigo.</p> </td> 
+   <td> <p>Contribua com permissões ou superiores que incluam Fazer atribuições às tarefas e problemas para os quais você deseja gerenciar alocações. </p> <p>Ou </p> <p>Gerencie permissões para as tarefas para as quais você deseja atualizar as Horas planejadas, além de atualizar alocações. Para obter informações sobre como atualizar as Horas planejadas no Balanceador de carga de trabalho, consulte a seção <a href="#update-task-planned-hours-when-managing-user-allocations">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> neste artigo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
    >
    >Você pode modificar alocações de usuários somente para tarefas e problemas. Não é possível modificar alocações de usuários para projetos.
 
-1. (Opcional) Clique no ícone ![](assets/show-allocations-icon-small.png) de **Mostrar alocações** para exibir alocações para todos os itens de trabalho.
+1. (Opcional) Clique no **ícone Mostrar alocações** ![ícone Mostrar alocações](assets/show-allocations-icon-small.png) para exibir alocações para todos os itens de trabalho.
 
    O nome das tarefas e dos projetos é substituído pela alocação do usuário para a tarefa ou o projeto.
 
-1. (Opcional) Clique no ícone ![](assets/gear-icon-settings.png) de **Configurações** e selecione uma das seguintes opções:
+1. (Opcional) Clique no ícone **Configurações** ![Ícone Configurações](assets/gear-icon-settings.png) e selecione uma das seguintes opções:
 
    1. **Incluir horas de problemas**. Isso permite gerenciar alocações de problemas, além de alocações de tarefas.
    1. **Mostrar o trabalho concluído**. Exibe itens que foram concluídos e que estão agendados durante a linha de tempo para a qual você gerencia alocações.
@@ -212,7 +212,7 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
       >
       >O administrador do Workfront decide qual programação usar em seu sistema para calcular a capacidade do usuário na área Gerenciamento de recursos da Configuração. Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Clique no menu **Mais** ![](assets/qs-more-menu.png) para um item de trabalho e clique em **Editar alocações**.
+1. Clique no menu **Mais** ![Mais menu](assets/qs-more-menu.png) para um item de trabalho e clique em **Editar alocações**.
 
    ![Mais menu para item de trabalho](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
 
    As caixas de alocação se tornam editáveis.
 
-1. Clique dentro da caixa de cada alocação diária, semanal ou mensal para atualizar manualmente a quantidade de horas ou o valor percentual para o qual você deseja que o usuário seja alocado a cada dia, semana ou mês, e clique no ícone **Salvar** ![](assets/checkmark-icon.png).
+1. Clique dentro da caixa de cada alocação diária, semanal ou mensal para atualizar manualmente a quantidade de horas ou o valor percentual para o qual você deseja que o usuário seja alocado a cada dia, semana ou mês, e clique no ícone **Salvar** ![Ícone Salvar](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Clique no ícone **Cancelar** ![](assets/cancel-allocations-wb.png) para remover as alocações ajustadas.
+   >Clique no ícone **Cancelar** ![Ícone Cancelar](assets/cancel-allocations-wb.png) para remover as alocações ajustadas.
 
    ![Salvar ou cancelar alocações ajustadas](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

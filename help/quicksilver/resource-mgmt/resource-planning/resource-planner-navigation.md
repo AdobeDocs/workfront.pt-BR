@@ -7,9 +7,9 @@ description: Ao usar o Planejador de recursos da Adobe Workfront, você pode ent
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ Ao usar o Planejador de recursos da Adobe Workfront, você pode entender facilme
 
 Você deve atender aos pré-requisitos necessários para usar totalmente o Planejador de recursos. Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![Planejador de recursos](assets/rp-project-view-all-functionality-350x117.png)
 
 As seções a seguir descrevem todas as áreas do Planejador de Recursos.
 
 ## Linha do tempo dos projetos
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![Calendário da linha do tempo](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ Para navegar na linha do tempo:
 
 ## Seleção da visualização do projeto/ função/ usuário
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![Exibir por projeto, função ou usuário](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 Você pode alterar a exibição no Planejador de recursos dependendo de como deseja que as informações sejam exibidas.
 
@@ -127,7 +127,7 @@ Considere o seguinte ao selecionar a Exibição do projeto no Planejador de recu
    * Disponível
    * Planejado
    * Estimado
-   * Variação
+   * Variância
    * Líquido
 
      Para obter mais informações, consulte [Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
@@ -150,7 +150,7 @@ Considere o seguinte ao selecionar a Exibição de função no Planejador de rec
    * Disponível
    * Planejado
    * Estimado
-   * Variação
+   * Variância
    * Líquido
 
      Para obter mais informações, consulte [Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
@@ -194,7 +194,7 @@ Considere o seguinte ao selecionar a Exibição de Usuário no Planejador de Rec
    * Quando você tem permissões para ver os projetos, mas não tem nenhuma tarefa ou problema nos projetos, o nome do projeto é exibido e as tarefas e problemas são listados na seção **Itens Inacessíveis**.\
      Para obter mais informações sobre permissões no Workfront, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![Itens inacessíveis](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Considere o seguinte ao selecionar a Exibição de Usuário no Planejador de Rec
 
 ## Nome do Projeto
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![Nome do projeto](assets/project-name-highlighted-resource-planner-350x445.png)
 
 Você pode ver os seguintes projetos no Planejador de recursos:
 
@@ -232,13 +232,13 @@ Você pode ver os seguintes projetos no Planejador de recursos:
 
 Os projetos são listados em ordem de prioridade no Planejador de recursos, com o projeto mais importante na parte superior. A prioridade é indicada por um número na frente do nome do projeto.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![Prioridade de Planejamento do Projeto](assets/rp-planner-priority-highlighted-350x186.png)
 
 Você também pode ativar uma configuração para exibir as prioridades do projeto de acordo com seus portfólios, quando elas estiverem associadas a um portfólio. Para obter informações sobre como priorizar projetos e exibir prioridades de portfólio no Planejador de recursos, consulte [Priorizar projetos no Planejador de recursos](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Nome Função
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![Nome da função de trabalho](assets/role-highlighted-resource-planner-350x243.png)
 
 As seguintes categorias de funções de trabalho estão listadas no Planejador de recursos:
 
@@ -254,7 +254,7 @@ As seguintes categorias de funções de trabalho estão listadas no Planejador d
 
 ## Nome do usuário
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![Nome de usuário](assets/user-highlighted-resource-planner-350x272.png)
 
 Os usuários listados nas visualizações Projeto e Função no Planejador de recursos pertencem aos conjuntos de recursos associados aos projetos.\
 Para obter mais informações sobre como preencher pools de recursos com usuários, consulte [Associar pools de recursos a usuários](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
@@ -310,11 +310,11 @@ Para ativar as configurações no Planejador de recursos:
 1. Abra o Planejador de recursos.
 1. Clique no ícone **Configurações**.
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![Ícone de configurações do Planejador de recursos](assets/rp-settings-icon-edit-1.png)
 
    A caixa Configurações do Planejador de Recursos é exibida.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![Configurações do Planejador de Recursos](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. Habilite a configuração **Incluir horas de Problemas** para exibir Horas Planejadas de problemas no Planejador de Recursos. Essa configuração é desativada por padrão.
 
@@ -327,7 +327,7 @@ Para ativar as configurações no Planejador de recursos:
      >
      >**Quando o problema das datas de início e de conclusão planejadas estiver fora da linha do tempo do projeto, as horas planejadas para o problema serão exibidas de acordo com as datas do problema. Por exemplo, se a linha do tempo do projeto estiver entre janeiro e março, mas a linha do tempo das ocorrências estiver em agosto, as horas planejadas para as ocorrências aparecerão no período de agosto.**
 
-1. (Condicional e opcional) Se você selecionou a visualização Projeto, ative a configuração Exibir prioridades de Portfolio para exibir as prioridades do projeto de acordo com o Portfolio ao qual estão atribuídas. A prioridade dos projetos de acordo com seus portfólios é exibida ao lado da prioridade Planejador de recursos. Essa configuração é desativada por padrão.
+1. (Condicional e opcional) Se você selecionou a visualização Projeto, ative a configuração Exibir prioridades do Portfolio para exibir as prioridades do projeto de acordo com a Portfolio à qual estão atribuídas. A prioridade dos projetos de acordo com seus portfólios é exibida ao lado da prioridade Planejador de recursos. Essa configuração é desativada por padrão.
 
    Para obter informações sobre a priorização de projetos no Planejador de recursos, consulte [Priorizar projetos no Planejador de recursos](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
@@ -348,7 +348,7 @@ Para exibir o Planejador de recursos em tela cheia:
 
 ## Opção Exportar
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![Botão Exportar](assets/export-button-highlighted-resource-planner-350x92.png)
 
 É possível exportar informações para um arquivo do Excel (.xlsx) de qualquer exibição do Planejador de recursos.\
 Para obter informações sobre como exportar informações do Planejador de recursos, consulte [Exportar informações do Planejador de recursos](../../resource-mgmt/resource-planning/export-resource-planner.md).

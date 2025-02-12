@@ -6,9 +6,9 @@ description: Você pode atribuir itens de trabalho usando o Balanceador de carga
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Permissões do Contribute ou superiores para projetos, tarefas e problemas que incluem Fazer atribuições</td> 
+   <td>Contribuir com permissões ou mais altas para projetos, tarefas e problemas que incluem Fazer atribuições</td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,13 +76,13 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
 
    Vá para a área **Trabalho atribuído** e expanda o nome de um usuário para ver os itens de trabalho atribuídos a ele, caso queira reatribuir seus itens.
 
-1. (Condicional) No Balanceador de carga de trabalho de um projeto, clique no ícone ![](assets/show-all-users-icon-project-workload-balancer.png) **Mostrar todos os usuários** para exibir todos os usuários do Workfront.
+1. (Condicional) No Balanceador de carga de trabalho de um projeto, clique no ícone **Mostrar todos os usuários** ![Mostrar todos os usuários](assets/show-all-users-icon-project-workload-balancer.png) para exibir todos os usuários do Workfront.
 
    Isso exibe todos os usuários que você tem acesso para visualizar.
 
    Os usuários que também fazem parte da equipe do projeto e já estão atribuídos a itens no projeto têm o ícone de projeto à direita de seu nome na área Trabalho atribuído.
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![Usuário no projeto](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
@@ -100,7 +100,7 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
    >
    >As Horas planejadas do usuário que você está passando são atualizadas em tempo real com o número de Horas planejadas diárias do item de trabalho, para indicar qual pode ser o impacto da adição de um novo item na alocação geral.
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![Descartar item para atribuído](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. Quando estiver pronto, solte o item de trabalho selecionado na mesma linha do nome do usuário na Área atribuída. O item é atribuído e as Horas Planejadas alocadas são atualizadas para o usuário com as novas horas do item de trabalho.
 
@@ -118,7 +118,7 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
 
 
 1. (Opcional) Clique na barra de um item de trabalho sob o nome de um usuário na área Trabalho atribuído, arraste-o e solte-o sobre a área Trabalho não atribuído para desatribuí-lo. O item não está atribuído ao usuário, mas ainda pode estar atribuído a uma função de trabalho. Nesse caso, ele é exibido na área Trabalho não atribuído. Se o item for atribuído a outro usuário, ele permanecerá na área Trabalho atribuído sob o nome do usuário que ainda está atribuído.
-1. (Opcional) Clique no **ícone Mostrar alocações** ![](assets/show-allocations-icon-small.png) e no **menu Mais** ![](assets/qs-more-menu.png) > **Editar alocações**.
+1. (Opcional) Clique no **ícone Mostrar alocações** ![ícone Mostrar alocações](assets/show-allocations-icon-small.png) e no **menu Mais** ![menu Mais](assets/qs-more-menu.png) > **Editar alocações**.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

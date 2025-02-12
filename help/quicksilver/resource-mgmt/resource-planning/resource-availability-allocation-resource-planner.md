@@ -6,9 +6,9 @@ description: Você pode visualizar a disponibilidade de seus recursos e a quanti
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1243'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ Considere o seguinte ao alterar sua exibição para o Planejador de recursos:
 
 1. (Condicional) Se você selecionou **Personalizar**, indique as opções na caixa **Personalizar métricas exibidas** para configurar seu modo de exibição personalizado.
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![Personalizar caixa de exibição](assets/planner-customize-view-box-350x114.png)
 
 1. Na coluna **Tipo de exibição** à esquerda, selecione uma das seguintes exibições:
 
@@ -163,7 +163,7 @@ Considere o seguinte ao alterar sua exibição para o Planejador de recursos:
    | Disponível | ✔ | ✔ | ✔ |
    | Planejado | ✔ | ✔ | ✔ |
    | Estimado |   | ✔ | ✔ |
-   | Variação |   | ✔ | ✔ |
+   | Variância |   | ✔ | ✔ |
    | Líquido |   | ✔ | ✔ |
    | Efetivo | ✔ |   |   |
    | Diferença | ✔ |   |   |
@@ -189,7 +189,7 @@ Considere o seguinte ao alterar sua exibição para o Planejador de recursos:
    >
    >Você pode ter apenas uma exibição personalizada.
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![Lista suspensa de horas do planejador](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## Exibir o gráfico de Alocação de Usuários
 

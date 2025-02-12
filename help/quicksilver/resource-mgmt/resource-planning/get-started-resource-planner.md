@@ -7,9 +7,9 @@ description: Você pode estimar e orçar a alocação dos recursos para os proje
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Para usar com êxito o Planejador de recursos para fazer o orçamento de seus re
 >Se qualquer um dos pré-requisitos a seguir estiver ausente, você poderá descobrir que algumas informações sobre a alocação ou a disponibilidade dos recursos estão ausentes ou têm um valor zero.\
 >Para saber mais sobre por que os campos estão sem dados ou têm valores zero, passe o mouse sobre os campos.
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![Nenhum usuário com esta função](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Certifique-se de que a seguinte configuração de tarefa e problema existe antes
 
 Você deve entender como sua instância do Workfront calcula a disponibilidade de usuários de acordo com as Preferências de gerenciamento de recursos em seu sistema. O Workfront pode calcular a disponibilidade do usuário usando a programação do usuário conforme definido na página Perfil do usuário, ou a Programação padrão do seu sistema.
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![Preferências de gerenciamento](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 O administrador do Workfront configura as Preferências de gerenciamento de recursos.
 

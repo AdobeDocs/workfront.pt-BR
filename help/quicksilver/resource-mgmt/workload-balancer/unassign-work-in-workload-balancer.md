@@ -6,9 +6,9 @@ description: Você pode desatribuir usuários de itens de trabalho na área Trab
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '405'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Permissões do Contribute ou superiores para projetos, tarefas e problemas que incluem Fazer atribuições</td> 
+   <td>Contribuir com permissões ou mais altas para projetos, tarefas e problemas que incluem Fazer atribuições</td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,9 +75,9 @@ Para desatribuir itens de trabalho dos usuários:
 1. Siga um destes procedimentos:
 
    * Localize o item que deseja cancelar a atribuição na área de um usuário, clique nele e arraste e solte-o na área Não atribuído ou na área de outro usuário.
-   * Clique no ícone **Mais** ![](assets/more-icon-task-list.png) à direita do nome de um item de trabalho, clique em **Atribuir a este item**, remova o nome das entidades atribuídas ao item de trabalho ou insira outro nome e clique em **Salvar**.
+   * Clique no ícone **Mais** ícone ![Mais ícone](assets/more-icon-task-list.png) à direita do nome de um item de trabalho, clique em **Atribuir a este item**, remova o nome das entidades atribuídas ao item de trabalho ou insira outro nome e clique em **Salvar**.
 
-     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![Atribuir esta a](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    O item é exibido na área Trabalho não atribuído se corresponder aos critérios de filtragem para essa área e não estiver atribuído a outros usuários, ou é exibido na área do usuário se estiver atribuído a outro usuário.
 

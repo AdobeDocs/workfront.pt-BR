@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Permissões do Contribute ou superiores para projetos, tarefas e problemas que incluem Fazer atribuições</td> 
+   <td>Contribuir com permissões ou mais altas para projetos, tarefas e problemas que incluem Fazer atribuições</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ Você pode atribuir itens de trabalho que ainda não foram atribuídos a um usu�
 
    Vá para a área **Trabalho atribuído** e expanda o nome de um usuário para ver os itens de trabalho atribuídos a ele, caso queira reatribuir seus itens.
 
-1. Clique no **Mais menu** ![](assets/qs-more-menu.png) à esquerda de um nome de item de trabalho e clique em **Atribuir a este item**.
+1. Clique no **Mais menu** ![Mais menu](assets/qs-more-menu.png) à esquerda de um nome de item de trabalho e clique em **Atribuir a este item**.
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![Atribuir esta a](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Você pode atribuir itens de trabalho que ainda não foram atribuídos a um usu�
    > Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![Atribuições avançadas](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ Você pode atribuir itens de trabalho que ainda não foram atribuídos a um usu�
 
      Para obter mais informações sobre como fazer atribuições avançadas, consulte [Criar atribuições avançadas](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Opcional) Clique no **ícone Mostrar alocações** ![](assets/show-allocations-icon-small.png) e no **menu Mais** ![](assets/qs-more-menu.png) > **Editar alocações**.
+1. (Opcional) Clique no **ícone Mostrar alocações** ![ícone Mostrar alocações](assets/show-allocations-icon-small.png) e no **menu Mais** ![menu Mais](assets/qs-more-menu.png) > **Editar alocações**.
 
    Ou
 

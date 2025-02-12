@@ -6,9 +6,9 @@ description: O Adobe Workfront pode gerar um URL exclusivo para a Visualização
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 O Adobe Workfront pode gerar um URL exclusivo para a Visualização de usuário do Planejador de recursos, que você pode incorporar em um painel como uma Página externa ou abri-lo separadamente em uma nova guia do navegador. Isso é útil ao compartilhar as informações do Planejador de recursos com usuários que podem não ter acesso direto à área Recursos.
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![Modo de exibição de usuário com link](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## Requisitos de acesso
 

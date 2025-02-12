@@ -6,9 +6,9 @@ description: Você pode usar o Planejador de recursos para gerenciar a alocaçã
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Para acessar a seção Planejador na área Recursos:
 
 O Planejador é exibido por padrão.  Para obter informações sobre recursos de orçamento no Planejador de recursos, consulte o artigo [Recursos de orçamento no Planejador de recursos usando as exibições de Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![Planejador de recursos como padrão](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Clique em **Conjuntos de Recursos** no painel esquerdo.
 Para obter informações sobre como criar pools de recursos, consulte [Criar pools de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
@@ -105,6 +105,6 @@ Ao usar o Planejador de recursos para um projeto, os números de alocação dos 
    >
    >Você só poderá adicionar um conjunto de recursos na área Orçamento de Recursos do Business Case quando o projeto não tiver nenhum conjunto de recursos associado a ele. Quando o projeto já tiver um Conjunto de Recursos, os usuários no conjunto e suas funções de trabalho serão exibidos na área Orçamento de Recursos por padrão.
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Estimativa de recursos](assets/resource-budgeting-area-on-project-350x70.png)
 
    Para obter informações sobre recursos de orçamento para um projeto, consulte o artigo [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

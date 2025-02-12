@@ -6,9 +6,9 @@ description: Os projetos são listados em ordem de prioridade no Planejador de r
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ Para editar a Prioridade de Planejamento do Projeto:
 1. Vá para o **Planejador de recursos**.
 
 1. Clique dentro do campo à esquerda do nome do projeto que contém um número, insira um número para alterar a Prioridade de Planejamento e pressione Enter.\
-   ![](assets/mceclip4.png)\
+   ![Alterar Prioridade de Planejamento](assets/mceclip4.png)\
    Ou\
    Passe o mouse sobre o nome do projeto, clique no indicador à esquerda do nome do projeto, arraste-o e solte-o no ponto correto para alterar a prioridade.
 
@@ -106,7 +106,7 @@ Para editar a Prioridade de Planejamento do Projeto:
 1. Clique em **Salvar**.\
    A ordem dos projetos muda de acordo com suas seleções e essa se torna a sua prioridade de projeto personalizada no Planejador de recursos. Outros usuários não podem ver sua ordem de prioridade para os projetos no Planejador de recursos, embora possam ver os mesmos projetos em seus Planejadores de recursos.
 
-## Encomendar projetos de acordo com sua prioridade de Portfolio no Planejador de recursos
+## Encomendar projetos de acordo com as prioridades da Portfolio no Planejador de recursos
 
 >[!IMPORTANT]
 >
@@ -114,17 +114,17 @@ Para editar a Prioridade de Planejamento do Projeto:
 >
 >Para obter mais informações sobre os planos da Workfront, consulte [Nossos planos](https://www.workfront.com/plans).
 >
->Para obter informações sobre a priorização de projetos no Otimizador de Portfolio, consulte [Priorizar projetos no Otimizador de Portfolio](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+>Para obter informações sobre a priorização de projetos no Portfolio Otimizer, consulte [Priorizar projetos no Portfolio Otimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Abra o **Planejador de Recursos** na **Exibição do Projeto**.
 1. Clique no ícone **Configurações**.
-1. Habilite a configuração **Exibir Prioridades de Portfolio** para exibir as prioridades do projeto de acordo com o Portfolio ao qual estão atribuídas. A prioridade dos projetos de acordo com seus portfólios é exibida ao lado da prioridade Planejador de recursos. Essa configuração é desativada por padrão.
+1. Habilite a configuração **Exibir Prioridades do Portfolio** para exibir as prioridades do projeto de acordo com a Portfolio à qual estão atribuídas. A prioridade dos projetos de acordo com seus portfólios é exibida ao lado da prioridade Planejador de recursos. Essa configuração é desativada por padrão.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Prioridade do Portfolio](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    As prioridades de portfólio dos projetos são exibidas somente na visualização Projeto do Planejador de recursos.
 
@@ -136,7 +136,7 @@ Para editar a Prioridade de Planejamento do Projeto:
    1. Data de início planejado
    1. Nome do Projeto
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![Prioridade do Portfolio solicitada](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Clique em **Salvar**.
 

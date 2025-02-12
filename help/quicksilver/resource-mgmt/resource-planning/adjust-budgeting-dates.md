@@ -6,9 +6,9 @@ description: Se você descobrir que há superalocações de seus recursos depois
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    A linha do tempo de alocação do projeto é exibida.\
    O período em que as horas são orçadas no momento é destacado em laranja se houver um conflito de orçamento e em azul se não houver conflitos.
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![Ajustar datas de orçamento](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. Arraste e solte o intervalo de tempo destacado para outro horário para entender onde não há conflitos de orçamento para o projeto selecionado. Quando você encontra um intervalo de tempo em que o valor Líquido é positivo, o intervalo de tempo destacado muda para azul.
 1. Clique no &quot;x&quot; no canto superior direito da linha do tempo de alocação do projeto para fechá-lo.

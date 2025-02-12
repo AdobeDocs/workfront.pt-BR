@@ -6,9 +6,9 @@ description: Você pode estimar recursos no Planejador de recursos do Adobe Work
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Para obter informações sobre o acesso necessário para recursos de orçamento,
 
 Para alocações de orçamento no Planejador de recursos na visualização de função ****:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 
 1. Clique em **Recursos**.
 1. O **Planejador** é exibido por padrão.
@@ -225,7 +225,7 @@ Para obter mais informações sobre como entender a área Orçamento de Recursos
 
 Você pode estimar alocações para seus recursos em massa ao usar links rápidos. Os links rápidos estão disponíveis somente para as Visualizações de projeto e função.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![Opções de orçamento automáticas](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >
