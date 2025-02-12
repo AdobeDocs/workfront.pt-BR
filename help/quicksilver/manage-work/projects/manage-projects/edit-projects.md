@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
+source-wordcount: '7694'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
 
 1. (Opcional) Clique em **Projetos dos quais sou proprietário** ou **Projetos dos quais sou proprietário** no canto superior direito para exibir projetos dos quais você é o proprietário ou projetos e dos quais você faz parte da equipe de criação.
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![Projetos em meus próprios botões](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
 
 1. (Opcional) Para editar informações limitadas sobre um projeto, clique em **Detalhes do projeto** no painel esquerdo. Se quiser editar todas as informações sobre o projeto, prossiga para a Etapa 5. <!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![Detalhes do projeto expandidos](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,15 +118,15 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
 
    Para editar informações na seção Detalhes, faça o seguinte:
 
-   1. (Opcional) Clique no ícone ![](assets/collapse-icon.png) de **Recolher Tudo** no canto superior direito para recolher todas as áreas.
-   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
+   1. (Opcional) Clique no ícone **Recolher Tudo** ![Recolher tudo](assets/collapse-icon.png) no canto superior direito para recolher todas as áreas.
+   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![seta apontando para a direita](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
    1. Para obter mais informações sobre como editar informações na guia Detalhes do projeto, consulte os seguintes artigos:
 
       * [Gerenciar informações na área de Visão Geral do projeto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Gerenciar informações na área de finanças do projeto](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Opcional) Para anexar um formulário personalizado, comece digitando o nome de um formulário no campo **Adicionar formulário personalizado**, selecione-o quando ele for exibido na lista e clique em **Salvar alterações**.
-   1. (Opcional) Clique no ícone **Exportar** ![](assets/export.png) para exportar as informações de Visão geral e formulários personalizados para um arquivo PDF e, em seguida, clique em **Exportar**. Selecione entre as seguintes opções:
+   1. (Opcional) Clique no ícone **Exportar** ![Ícone Exportar](assets/export.png) para exportar as informações de Visão geral e formulários personalizados para um arquivo do PDF e clique em **Exportar**. Selecione entre as seguintes opções:
 
       * Selecionar tudo (é exibido somente quando há pelo menos um formulário personalizado anexado)
       * Visão geral
@@ -132,16 +134,16 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
 
       O arquivo PDF é baixado no computador.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Exportar caixa de seleção de detalhes do problema com botão de exportação](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Para obter mais informações, consulte [Exportar detalhes de formulários e objetos personalizados](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Para obter informações sobre os campos visíveis na seção Detalhes do projeto, continue editando o projeto na caixa Editar projeto, conforme descrito abaixo.
-1. Para editar todas as informações sobre o projeto, clique no menu ![](assets/qs-more-menu.png) **Mais** ao lado do nome do projeto e clique em **Editar**.
+1. Para editar todas as informações sobre o projeto, clique no menu **Mais** ![Mais menu](assets/qs-more-menu.png) ao lado do nome do projeto e clique em **Editar**.
 
    Ou
 
-   Em uma lista de projetos, selecione um ou vários projetos e clique no ícone ![](assets/edit-icon.png) de **Editar** na parte superior da lista.
+   Em uma lista de projetos, selecione um ou vários projetos e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) na parte superior da lista.
 
    Para obter mais informações sobre como editar projetos em massa, consulte a seção [Editar projetos em massa](#edit-projects-in-bulk) neste artigo.
 
@@ -167,6 +169,9 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
    * [Configurações da tarefa](#task-settings)
    * [Configurações de Problema](#issue-settings)
    * [Acesso](#access)
+   * [Pastas vinculadas](#linked-folders-conditional-availability) (disponibilidade condicional)
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Nome do projeto** no painel esquerdo.
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![Área de nome do projeto na caixa editar projeto](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. Atualize o nome do projeto.
 
@@ -188,7 +193,7 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Visão geral** no painel esquerdo.
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![Área de visão geral na caixa de edição do projeto](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. Atualize as seguintes informações sobre o projeto:
 
@@ -242,14 +247,14 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfólio</strong></td> 
-         <td>Indique um Portfolio ao qual o projeto pertence. Você deve criar um Portfolio primeiro, antes que ele apareça na lista suspensa. Somente portfólios ativos podem ser associados a um projeto. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.
+         <td>Indique uma Portfolio à qual o projeto pertence. Você deve criar um Portfolio primeiro, antes que ele apareça na lista suspensa. Somente portfólios ativos podem ser associados a um projeto. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.
          <p><b>Nota</b></p>
          <p>Você deve ter permissões de gerenciamento no portfólio para poder adicioná-lo ou removê-lo do projeto.</p>
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programa</strong></td> 
-         <td> <p>Se você selecionou um Portfolio para o projeto, especifique um Programa para o projeto. Alguns Portfolio podem não ter programas. Você deve criar um Programa primeiro, antes que ele apareça nesta lista suspensa. Somente programas ativos podem ser associados a um projeto. </p> <p>Para obter mais informações sobre como criar programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Criar um programa</a>.</p> 
+         <td> <p>Se você selecionou um Portfolio para o projeto, especifique um Programa para o projeto. Alguns portfólios podem não ter programas. Você deve criar um Programa primeiro, antes que ele apareça nesta lista suspensa. Somente programas ativos podem ser associados a um projeto. </p> <p>Para obter mais informações sobre como criar programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Criar um programa</a>.</p> 
       <p><b>Nota</b></p>
          <p>Você deve ter permissões de gerenciamento no programa para poder adicioná-lo ou removê-lo no projeto.</p>   
       </td> 
@@ -334,7 +339,7 @@ Para editar informações sobre formulários personalizados ao editar um projeto
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Forms Personalizado** no painel esquerdo.
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Formulários personalizados na caixa editar projeto](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Clique na caixa **Adicionar formulário personalizado** e selecione um formulário na lista para anexá-lo ao projeto. Por padrão, os primeiros 40 formulários são exibidos em ordem alfabética. Se você não vir o formulário na lista, comece digitando o nome dele, em seguida, selecione-o quando ele aparecer na lista.
 
@@ -369,7 +374,7 @@ Para editar campos na área Finanças:
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Finanças** no painel esquerdo.
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![Área financeira na caixa de edição do projeto](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. Atualize as seguintes informações financeiras do projeto:
 
@@ -427,7 +432,7 @@ Para editar campos na área Finanças:
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Configurações do projeto** no painel esquerdo.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Área de configurações do projeto na caixa de edição do projeto](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Atualize as seguintes informações:
 
@@ -551,7 +556,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Configurações da tarefa** no painel esquerdo.
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![Configurações de tarefa na caixa editar projeto](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. Na caixa **Processo de Aprovação Padrão de Tarefa**, selecione o Processo de Aprovação de tarefa que deseja associar a todas as novas tarefas ao adicioná-las ao projeto.
 
@@ -565,7 +570,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
 1. Na caixa **Forms Personalizado Padrão de Tarefa**, selecione o(s) formulário(s) personalizado(s) que deseja associar a todas as novas tarefas ao adicioná-las ao projeto. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Você pode associar até dez formulários personalizados a uma tarefa.
 1. (Opcional) Selecione **Usar Esforço de trabalho para calcular automaticamente as Horas Planejadas da tarefa** se desejar habilitar o gerenciamento do esforço da tarefa usando o Esforço de trabalho em vez das Horas Planejadas.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Esforço de trabalho na caixa editar projeto](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Condicional e opcional) Se você selecionou Usar esforço do trabalho para calcular automaticamente as Horas planejadas da tarefa, clique no menu suspenso de cada nível de esforço e selecione uma porcentagem para cada nível. Os seguintes valores percentuais são padrões:
 
@@ -590,7 +595,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Configurações do problema** no painel esquerdo.
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![Configurações de problema na caixa editar projeto](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (Opcional) Desmarque a opção **Permitir que os usuários adicionem problemas em linha**. Ela é selecionada por padrão.
 
@@ -622,7 +627,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Acessar** no painel esquerdo.
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![Área de acesso na caixa editar projeto](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. Especifique as seguintes informações de **Acesso** para o projeto:
 
@@ -632,19 +637,19 @@ Para obter informações sobre como essas configurações afetam a criação de 
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Quando alguém é designado a uma tarefa</strong></td> 
-      <td><p>Selecione o acesso de <strong>Exibição</strong>, <strong>Contribute</strong> ou <strong>Gerenciar</strong> a uma tarefa. O usuário atribuído a uma tarefa recebe automaticamente esse acesso à tarefa.</p></td> 
+      <td><p>Selecione o acesso de <strong>Exibir</strong>, <strong>Contribute</strong> ou <strong>Gerenciar</strong> a uma tarefa. O usuário atribuído a uma tarefa recebe automaticamente esse acesso à tarefa.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Conceder acesso ao projeto também</strong></td> 
-      <td><p>Selecione o acesso de <strong>Visualização</strong>, <strong>Contribute</strong> ou <strong>Gerenciar</strong> ao projeto. O usuário atribuído a uma tarefa também recebe automaticamente esse acesso ao projeto.<br></p></td> 
+      <td><p>Selecione o acesso do <strong>View</strong>, <strong>Contribute</strong> ou <strong>Manage</strong> ao projeto. O usuário atribuído a uma tarefa também recebe automaticamente esse acesso ao projeto.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Quando alguém é designado a um problema</strong></td> 
-      <td><p>Selecione o acesso de <strong>Visualização</strong>, <strong>Contribute</strong> ou <strong>Gerenciar</strong> a um problema. O usuário atribuído a um problema recebe automaticamente esse acesso ao problema. Para obter mais informações, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a>.<br></p></td> 
+      <td><p>Selecione o acesso de <strong>Visualização</strong>, <strong>Contribute,</strong> ou <strong>Gerenciar</strong> a um problema. O usuário atribuído a um problema recebe automaticamente esse acesso ao problema. Para obter mais informações, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Conceder acesso ao projeto também</strong></td> 
-      <td><p>Selecione o acesso de <strong>Visualização</strong>, <strong>Contribute</strong> ou <strong>Gerenciar</strong> ao projeto. O usuário atribuído a um problema também recebe automaticamente esse acesso ao projeto.<br></p></td> 
+      <td><p>Selecione o acesso do <strong>View</strong>, <strong>Contribute</strong> ou <strong>Manage</strong> ao projeto. O usuário atribuído a um problema também recebe automaticamente esse acesso ao projeto.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Quando alguém enviar uma solicitação: conceda acesso a ela</strong></td> 
@@ -663,7 +668,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
 
 1. Clique em **Salvar**.
 
-### Pastas vinculadas
+### Pastas vinculadas (disponibilidade condicional) {#linked-folders}
 
 A funcionalidade Pasta vinculada cria automaticamente pastas no Adobe Experience Manager Assets e conecta essas pastas ao Workfront.
 
@@ -673,11 +678,28 @@ Esta seção será exibida somente se todos os itens a seguir se aplicarem:
 * Sua organização habilitou e configurou uma integração com o Adobe Experience Manager
 * O modelo usado para criar este projeto habilitou e configurou pastas vinculadas.
 
-Para obter instruções sobre como editar pastas vinculadas, consulte [Editar valores de fluxo de trabalho em um projeto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) no artigo Usar fluxos de trabalho na integração com o Experience Manager Assets.
+Para obter instruções sobre como editar pastas vinculadas, consulte [Editar valores de fluxo de trabalho em um projeto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) no artigo [Usar fluxos de trabalho na integração com o Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 >[!NOTE]
 >
 >Como as pastas vinculadas são criadas quando o projeto é criado, a edição do fluxo de trabalho da pasta vinculada em um projeto existente não é eficaz. A edição desses valores ao criar um projeto funciona conforme esperado.
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## Editar um projeto no cabeçalho do projeto (limitado)
 
@@ -685,7 +707,7 @@ Para obter instruções sobre como editar pastas vinculadas, consulte [Editar va
 
 O administrador do sistema ou do grupo pode personalizar os campos exibidos no cabeçalho do projeto.
 
-![](assets/project-header-350x18.png)
+![Cabeçalho do projeto](assets/project-header-350x18.png)
 
 Os campos a seguir são incluídos no cabeçalho do projeto, por padrão.
 
@@ -719,21 +741,21 @@ Leve em consideração o seguinte ao editar projetos em massa:
 
 * Quando você seleciona projetos com valores diferentes para o mesmo campo, o campo exibe um indicador &quot;Vários valores&quot; na caixa Editar projetos. Os campos que são caixas de seleção, botões de opção e alternadores têm um indicador de &quot;Vários valores&quot; ao lado deles.
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![Indicador de vários valores para datas na caixa de projetos de edição em massa](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Além do indicador &quot;Valores múltiplos&quot;, quando as opções escolhidas são diferentes em pelo menos um dos projetos selecionados, os campos com várias opções são exibidos de uma das seguintes maneiras:
 
    * Os campos de caixa de seleção têm uma linha em vez de uma caixa de seleção para a opção marcada para alguns, mas não para todos os projetos selecionados.
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![Caixas de seleção de indicador de vários valores na caixa de edição de projetos em massa](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Os campos do tipo alternância são exibidos esmaecidos, com a opção no meio ativada para alguns projetos selecionados, mas não para todos.
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![Vários valores destacados em projetos de edição em massa](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Os campos do tipo botão de opção que têm algumas opções selecionadas, mas não todas, exibem todos os botões de opção como vazios.
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![Caixa de edição em massa do projeto dos botões de opção do indicador de vários valores](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Ao atualizar uma opção em um campo de várias opções (como um campo exibido como um conjunto de alternâncias ou caixas de seleção), todas as outras opções devem corresponder entre os projetos selecionados.
 
@@ -748,10 +770,10 @@ Para editar projetos em massa:
 {{step1-to-projects}}
 
 1. Selecione vários projetos na lista.
-1. Clique no ícone ![](assets/edit-icon.png) de **Editar** na parte superior da lista.
+1. Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) na parte superior da lista.
 A caixa de diálogo **Editar Projetos** é aberta.
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![Editar projetos no modal em massa](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Dependendo de como o administrador do Workfront ou do Administrador de grupo modificou o Modelo de layout, as áreas no painel esquerdo da caixa Editar projeto ou quaisquer campos listados nessas áreas podem ser reorganizados ou não serão exibidos. Para obter informações, consulte [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
@@ -765,7 +787,7 @@ Dependendo de como o administrador do Workfront ou do Administrador de grupo mod
 
    Os formulários personalizados anexados a todos os projetos selecionados são exibidos na subseção **Formulários personalizados em comum** da área **Forms personalizado**.
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![Formulários personalizados em comum em projetos de edição em massa](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -774,7 +796,7 @@ Dependendo de como o administrador do Workfront ou do Administrador de grupo mod
 1. Comece digitando o nome de um formulário personalizado no campo **Adicionar formulário personalizado**.
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![O Forms já anexou o indicador em projetos de edição em massa](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    Os formulários personalizados já anexados aos projetos selecionados são exibidos na subseção **Formulários anexados** do campo **Adicionar formulário personalizado**.
 
@@ -802,9 +824,10 @@ Para obter mais informações sobre como editar a área Configurações da Taref
 Para obter mais informações sobre como editar a área Configurações de Problema, consulte a seção [Configurações de Problema](#issue-settings) neste artigo.
 1. Clique em **Acessar** para editar as configurações de acesso de todos os projetos selecionados.
 Para obter mais informações sobre como editar a área de Acesso, consulte a seção [Acesso](#access) neste artigo.
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. (Opcional) Para remover qualquer informação adicionada na caixa Editar projetos, passe o mouse sobre um campo editado e clique no ícone descartar **x**, no canto superior direito do campo.
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![Descartar ícone para projetos de edição de campo em massa](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Opcional) Clique em **Cancelar** na parte inferior da página **Editar projetos** para remover todas as alterações feitas em todos os projetos.
 1. Clique em **Salvar**.

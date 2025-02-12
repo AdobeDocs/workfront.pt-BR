@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ A resposta a um comentário na seção Atualizações de um objeto é semelhante
 1. (Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no menu **Mais** no canto superior direito do comentário que deseja responder e clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.
 1. Clique em **Responder**.
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![Caixa vazia Responder para atualizar](assets/reply-to-update-empty-box.png)
 
    Você pode ver os usuários que estão ativamente envolvidos na conversa na parte inferior da caixa **Adicionar resposta...** e pode adicionar mais ou remover os que não são mais relevantes. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem uma notificação sempre que uma atualização ou resposta é feita no objeto. Você também pode adicionar tags a mais usuários para incluí-los em sua resposta.  Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -115,7 +115,7 @@ A resposta a um comentário na seção Atualizações de um objeto é semelhante
 
 1. Clique em **Enviar** para salvar a resposta.
 
-1. (Opcional) Clique no menu ![](assets/more-menu.png) de **Mais**, no canto superior direito do comentário ao qual você deseja responder, para obter mais opções de gerenciamento de resposta. Para obter mais informações, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do comentário ao qual você deseja responder para obter mais opções para gerenciar a resposta. Para obter mais informações, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

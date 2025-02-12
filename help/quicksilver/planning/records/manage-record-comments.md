@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -116,7 +116,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
   >[!NOTE]
   >
-  >   Somente os usuários de clientes que integraram com a Experiência unificada do Adobe recebem uma notificação no aplicativo e uma notificação por email. Para determinar se sua empresa está usando a Experiência unificada do Adobe, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Somente usuários de clientes que integraram com a Experiência unificada da Adobe recebem uma notificação no aplicativo e uma notificação por email. Para determinar se sua empresa está usando a Experiência unificada da Adobe, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Você pode adicionar uma atualização aos registros e revisar o histórico de alterações das seguintes áreas do Workfront Planning:
 
@@ -143,7 +143,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 
 1. Comece a inserir um comentário na caixa **Novo comentário**.
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![Caixa de comentário vazia no registro](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -152,7 +152,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 1. (Opcional) Para desfazer ou refazer uma alteração, use as seguintes teclas de atalho:
    * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
    * CTRL + Y (⌘+y para Mac) para refazer uma alteração
-1. (Opcional e condicional) Se a sua instância do Workfront fizer parte da Experiência unificada do Adobe, adicione **@** seguido do nome de um usuário para marcar alguém na atualização. Para obter mais informações, consulte a seção [Considerações sobre comentários em um registro](#considerations-about-commenting-on-a-record) neste artigo.
+1. (Opcional e condicional) Se a sua instância do Workfront fizer parte da Experiência unificada da Adobe, adicione **@** seguido do nome de um usuário para marcar alguém na atualização. Para obter mais informações, consulte a seção [Considerações sobre comentários em um registro](#considerations-about-commenting-on-a-record) neste artigo.
 
 1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis ou links para a atualização a fim de aprimorar o conteúdo.
 
