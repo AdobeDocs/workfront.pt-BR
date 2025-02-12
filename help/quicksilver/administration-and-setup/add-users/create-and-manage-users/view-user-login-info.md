@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Você pode ver a frequência com que os usuários fazem logon no Adobe Workfront
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ Fazer logon no Workfront de qualquer uma das seguintes maneiras conta como um lo
 
   >[!NOTE]
   >
-  >Fazer logon no Workfront por meio da API do Workfront só está disponível para organizações que ainda não estão integradas à Plataforma comercial Adobe.
+  >Fazer logon no Workfront por meio da API do Workfront só está disponível para organizações que ainda não estão integradas à Adobe Business Platform.
 
 ## Exibir informações de uso em uma lista de usuários ou relatório
 

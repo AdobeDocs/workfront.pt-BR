@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '6492'
+source-wordcount: '6493'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ Você pode criar um formulário personalizado com o designer de formulário no A
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * [Adicionar botões de opção, grupos de caixas de seleção e menus suspensos](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Adicionar campos de digitação antecipada e data](#add-typeahead-and-date-fields)
    * [Adicionar campos de pesquisa externos](#add-external-lookup-fields)
-   * [Adicionar imagens, PDF e vídeos](#add-images-pdfs-and-videos)
+   * [Adicionar imagens, PDFs e vídeos](#add-images-pdfs-and-videos)
    * [Adicionar campos nativos do Workfront](#add-workfront-native-fields)
    * [Adicionar arquivos do Adobe XD](#add-adobe-xd-files)
    * [Adicionar campos de conexão do Planning](#add-planning-connection-fields)
@@ -513,7 +513,7 @@ Para adicionar campos de digitação antecipada e data:
       <td role="rowheader">Tipo de objeto referenciado</td> 
       <td> <p>Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em Aplicar ou Salvar+Fechar, não é possível alterar o tipo de objeto do campo.</p> <p><b>NOTA</b>:   
         <ul> 
-         <li>Se o administrador do Workfront personalizou o nome de Portfolio, Programas ou Projetos na interface do usuário do Workfront, o nome padrão do Workfront para o objeto será exibido nessa lista suspensa, não no nome personalizado. Consulte o administrador do Workfront se precisar de ajuda com isso.<br></li> 
+         <li>Se o administrador do Workfront personalizou o nome de Portfólios, Programas ou Projetos na interface do usuário do Workfront, o nome padrão do Workfront para o objeto será exibido nessa lista suspensa, não no nome personalizado. Consulte o administrador do Workfront se precisar de ajuda com isso.<br></li> 
          <li>Os seguintes tipos de objetos são suportados nos aplicativos móveis iOS e Android Workfront: usuário, empresa, grupo, função de trabalho, Portfolio, programa, projeto e modelo.</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -668,9 +668,9 @@ Para adicionar uma pesquisa externa:
 >* Duração da espera entre tentativas: 500 ms
 >* Status de resposta esperados: 2xx
 
-### Adicionar imagens, PDF e vídeos
+### Adicionar imagens, PDFs e vídeos
 
-Você pode adicionar imagens, PDF e vídeos a um formulário personalizado. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem ver a imagem, o PDF ou o vídeo somente nas seguintes áreas:
+É possível adicionar imagens, PDFs e vídeos a um formulário personalizado. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem ver a imagem, o PDF ou o vídeo somente nas seguintes áreas:
 
 * A área Detalhes do objeto (por exemplo, para um projeto, a área Detalhes do projeto)
 * A caixa Editar do objeto, se ele tiver a nova aparência da experiência do Adobe Workfront (por exemplo, as caixas Editar projeto e Editar tarefa )
@@ -685,12 +685,12 @@ The Workfront Mobile app -->
 +++ **Expanda para ver descrições dos campos disponíveis**
 
 * **Imagem**: permite que usuários adicionem arquivos de imagem.
-* **PDF**: permite que usuários adicionem PDF
+* **PDF**: permite que usuários adicionem PDFs
 * **Vídeos**: permite que os usuários adicionem arquivos de vídeo.
 
 +++
 
-Para adicionar imagens, PDF ou vídeos:
+Para adicionar imagens, PDFs ou vídeos:
 
 1. No lado esquerdo da tela, encontre um dos campos a seguir e arraste-o para uma seção da tela.
 
@@ -777,42 +777,42 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
 
 | Nome do campo | Projeto | Tarefa | Problema | Modelo | Modelo de Tarefa | Portfólio | Programa | Grupo |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Data de Término Efetivo | ✓ µ | ✓ µ | ✓ µ |   |   |   |   |   |
-| Duração Efetiva | ✓ µ |   |   |   |   |   |   |   |
-| Horas efetivas | ✓ µ |   | ✓ µ |   |   |   |   |   |
-| Data do Início Efetivo | ✓ µ | ✓ µ | ✓ µ |   |   |   |   |   |
-| Empresa | ✓ µ |   |   | ✓ µ |   |   |   |   |
-| Condição | ✓ µ | ✓ µ | ✓ µ |   |   |   |   |   |
-| Tipo de condição | ✓ µ |   |   | ✓ µ |   |   |   |   |
-| Descrição | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
-| Duração |   | ✓ µ |   |   | ✓ µ |   |   |   |
-| Tipo de Duração |   | ✓ µ |   |   | ✓ µ |   |   |   |
-| Unidade de Duração |   | ✓ µ |   |   | ✓ µ |   |   |   |
-| Cadastrado por | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   | ✓ µ |
-| Data de Entrada | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   | ✓ µ |
-| Grupo | ✓ µ |   |   | ✓ µ |   | ✓ µ | ✓ µ |   |
-| Última Atualização realizada por | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   |   |
-| Última data de atualização | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   |   |
-| Nome | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
-| Proprietário | ✓ µ |   |   | ✓ µ |   | ✓ µ | ✓ µ |   |
-| Data de conclusão planejada | ✓ µ | ✓ µ | ✓ µ |   |   |   |   |   |
-| Duração Planejada | ✓ µ |   |   | ✓ µ |   |   |   |   |
-| Horas planejadas | ✓ µ | ✓ µ | ✓ µ |   | ✓ µ |   |   |   |
-| Data de início planejado | ✓ µ |   |   |   |   |   |   |   |
-| Portfólio | ✓ µ |   |   | ✓ µ |   |   | ✓ µ |   |
-| Prioridade | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   |   |
-| Programa | ✓ µ |   |   | ✓ µ |   |   |   |   |
-| Data de Término Projetada | ✓ µ | ✓ µ |   |   |   |   |   |   |
-| Minutos de Duração do Projeto |   | ✓ µ |   |   |   |   |   |   |
-| Data de Início Projetada | ✓ µ | ✓ µ |   |   |   |   |   |   |
-| Número de Referência | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   |   |
-| Modo de cronograma | ✓ µ |   |   | ✓ µ |   |   |   |   |
-| Severidade |   |   | ✓ µ |   |   |   |   |   |
-| Patrocinador | ✓ µ |   |   | ✓ µ |   |   |   |   |
-| Status | ✓ µ | ✓ µ |   |   |   |   |   |   |
-| Pontos da história |   | ✓ µ |   |   |   |   |   |   |
-| Modelo | ✓ µ |   |   |   |   |   |   |   |
-| URL | ✓ µ | ✓ µ |   | ✓ µ | ✓ µ |   |   |   |
+| Data de Término Efetivo | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Duração Efetiva | ✓ |   |   |   |   |   |   |   |
+| Horas efetivas | ✓ |   | ✓ |   |   |   |   |   |
+| Data do Início Efetivo | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Empresa | ✓ |   |   | ✓ |   |   |   |   |
+| Condição | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Tipo de condição | ✓ |   |   | ✓ |   |   |   |   |
+| Descrição | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Duração |   | ✓ |   |   | ✓ |   |   |   |
+| Tipo de Duração |   | ✓ |   |   | ✓ |   |   |   |
+| Unidade de Duração |   | ✓ |   |   | ✓ |   |   |   |
+| Cadastrado por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Data de Entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Última Atualização realizada por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Última data de atualização | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Nome | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Proprietário | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Data de conclusão planejada | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Duração Planejada | ✓ |   |   | ✓ |   |   |   |   |
+| Horas planejadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
+| Data de início planejado | ✓ |   |   |   |   |   |   |   |
+| Portfólio | ✓ |   |   | ✓ |   |   | ✓ |   |
+| Prioridade | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Programa | ✓ |   |   | ✓ |   |   |   |   |
+| Data de Término Projetada | ✓ | ✓ |   |   |   |   |   |   |
+| Minutos de Duração do Projeto |   | ✓ |   |   |   |   |   |   |
+| Data de Início Projetada | ✓ | ✓ |   |   |   |   |   |   |
+| Número de Referência | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Modo de cronograma | ✓ |   |   | ✓ |   |   |   |   |
+| Severidade |   |   | ✓ |   |   |   |   |   |
+| Patrocinador | ✓ |   |   | ✓ |   |   |   |   |
+| Status | ✓ | ✓ |   |   |   |   |   |   |
+| Pontos da história |   | ✓ |   |   |   |   |   |   |
+| Modelo | ✓ |   |   |   |   |   |   |   |
+| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -903,7 +903,7 @@ Para adicionar um arquivo Adobe XD:
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>(Obrigatório) Digite ou cole um link de protótipo XD válido.</p> 
+      <td> <p>(Obrigatório) Digite ou cole um link de protótipo válido do XD.</p> 
       <p>Observação: a configuração Acesso ao link na guia Compartilhar no Adobe XD deve ser definida como Qualquer pessoa com o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
    </td> 
      </tr> 
@@ -987,7 +987,7 @@ Para adicionar um campo de conexão do Planning:
       Você pode selecionar entre os seguintes tipos de objeto:
       <ul><li> Projeto</li>
       <li> Portfólio</li><li> Programa</li><li> Empresa</li><li> Grupo</li></ul>
-       <p>Somente os tipos de objeto do Workfront para os tipos de objeto do formulário estão disponíveis.</p> <p> Por exemplo, se a lista Tipos de objeto na parte superior do designer de formulário mostrar Projeto, você só poderá selecionar Projeto nesse campo e não poderá selecionar Portfolio, embora os portfólios também possam ser conectados a tipos de registro.</p>
+       <p>Somente os tipos de objeto do Workfront para os tipos de objeto do formulário estão disponíveis.</p> <p> Por exemplo, se a lista Tipos de objeto na parte superior do designer de formulário mostrar Projeto, você só poderá selecionar Projeto nesse campo e não poderá selecionar Portfólios, embora os portfólios também possam ser conectados a tipos de registro.</p>
       </td>
      </tr>
      <tr> 

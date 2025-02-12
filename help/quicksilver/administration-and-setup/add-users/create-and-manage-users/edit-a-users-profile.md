@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Para obter informações sobre usuários atualizando seus próprios perfis, cons
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +100,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
         <p>Se você for um administrador de grupo e tiver a permissão Administrador de Usuário (Todos os Usuários) ativada em seu nível de acesso, poderá editar os campos &lt;Configuração do SSO&gt; para todos os usuários.</p> </li> 
         <li><b>Informações do Trabalho:</b> Informações sobre o trabalho, como o cargo (no campo <b>Título</b>), e a área de conhecimento pela qual o usuário é responsável (no campo <b>Fale Comigo Sobre</b>).</li> 
         <li><p><b>Informações de contato</b>: o número de telefone do usuário (no <b>Número de telefone, ramal).</b> e <b>Número de celular</b> campos) e endereço (nos campos <b>Endereço, Cidade, Estado, CEP, País</b> ).</p>
-        <p>Se o usuário estiver habilitado para o Unified User Management (UUM) ou para o Adobe Identity Management System (IMS), o campo <b>País</b> na seção Informações de Contato só aceitará valores de código de país (por exemplo, EUA, GB, IN).</p></li>
+        <p>Se o usuário estiver habilitado para o Gerenciamento Unificado de Usuários (UUM) ou o Adobe Identity Management System (IMS), o campo <b>País</b> na seção Informações de Contato só aceitará valores de código de país (por exemplo, EUA, GB, IN).</p></li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -110,7 +110,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <li> <p><b>Fuso Horário:</b> O fuso horário do usuário.</p> <p>Para obter informações sobre como ajudar usuários a colaborar na Workfront em fusos horários diferentes, consulte <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Trabalhando em fusos horários diferentes</a>.</p> </li>
 
    <li><p><b>Localidade de email</b>: a localidade de email preferencial do usuário. Isso afeta o formato de números e datas nos emails que vêm do Workfront para esse usuário.</p>
-      <p><b>OBSERVAÇÃO:</b> quando sua organização está no Adobe da Experiência unificada, as preferências de idioma do usuário são armazenadas no perfil de Adobe e a localidade de email não é usada. Para obter informações sobre como acessar essas preferências, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>.</p></li>
+      <p><b>OBSERVAÇÃO:</b> quando sua organização está na Experiência unificada da Adobe, as preferências de idioma do usuário são armazenadas em seu perfil do Adobe e a localidade de email não é usada. Para obter informações sobre como acessar essas preferências, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
 
    <li><b>Receber emails deste ambiente de teste</b>: marque esta opção se desejar receber notificações por email do ambiente em que você está conectado no momento.
       <p><b>Nota</b></p>
