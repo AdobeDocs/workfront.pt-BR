@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td><p>Novo: Padrão</p>
-  <p> Atual: Plano</p>
-   </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+      <p>Novo:</p>
+         <ul>
+         <li><p>Padrão</p></li>
+         </ul>
+      <p>Atual:</p>
+         <ul>
+         <li><p>Plano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -57,7 +64,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,23 +98,28 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
       * Blueprints
       * Em Planejamento
 
-   >[!IMPORTANT]
-   >
-   >Para exibir as áreas Cenários, Metas e Planejamento, são necessárias licenças adicionais.
-   >
-   >* Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
-   >
-   >* Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
-   >
-   >* Para obter informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+     >[!IMPORTANT]
+     >
+     >Para exibir as áreas Metas, Cenários e Planejamento, são necessárias licenças adicionais.
+     >
+     >* Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >
+     >* Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+     >
+     >* Para obter informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-   * Clique em **Adicionar um painel**, digite um **título de seção personalizada** descritivo e adicione o painel.
+   * Clique em **Adicionar um painel**
+      * Digite um nome descritivo no campo <!--**Quick link name**-->**Nome personalizado**
+      * Selecione um painel no **Adicionar um painel** campo <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
+      * Clique em **Adicionar**.
 
 1. Repita a etapa anterior para fixar quaisquer outras páginas.
 
-1. (Opcional) Para renomear um pino, passe o mouse sobre o pino, clique na seta ao lado do nome do pino e selecione **Renomear pino**. Digite o novo nome do pino e clique no ícone de marca de seleção ou pressione Enter.
+1. (Opcional) Para mover um pino, passe o mouse sobre o pino e clique no ícone do menu Mais ![ícone Mais](assets/more-icon.png) ao lado do nome do pino e clique em **Mover para a esquerda** ou **Mover para a direita** para deslocar o pino na direção escolhida ou clique em **Mover para a frente** para deslocar o pino para a posição mais à esquerda.
 
-   Uma pequena janela pop-up é exibida por vários segundos após você clicar na marca de seleção ou pressionar Enter, permitindo desfazer a alteração do nome do pino antes que ele seja salvo.
+1. (Opcional) Para renomear um pino, passe o mouse sobre o pino e clique no ícone do menu Mais ![ícone Mais](assets/more-icon.png) ao lado do nome do pino e clique em **Renomear pino**. Digite um novo nome e clique em **Salvar**.
+
+1. (Opcional) Para excluir um pino, passe o mouse sobre o pino e clique no ícone de menu Mais ![ícone Mais](assets/more-icon.png) ao lado do nome do pino e clique em **Remover pino**.
 
 1. Continue personalizando o modelo de layout.
 

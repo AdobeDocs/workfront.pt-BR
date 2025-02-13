@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Examinar e confirmar as ações tomadas pelo Assistente de IA
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 13 de fevereiro de 2025; Produção para lançamento rápido: Com o lançamento 25.3 (março de 2025); Produção para lançamento trimestral: Com o lançamento 25.4 (abril de 2025)
+
+Para facilitar para garantir que o Assistente do AI execute as ações desejadas, agora é possível examinar e confirmar essas ações antes de executá-las. Agora, quando você insere um prompt que executa uma ação como criar, atualizar ou excluir um registro, o AI Assistant exibe as ações que serão executadas e solicita a confirmação de que essas são as ações corretas.
+
+Anteriormente, essa etapa de confirmação não estava disponível.
 
 ## Funções adicionadas aos campos de fórmula
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->Versão de pré-visualização: 30 de janeiro de 2025; Produção para lançamento rápido: Com lançamento da versão 25.2 (fevereiro de 2025); Produção para lançamento trimestral: Com lançamento da versão 25.4 (abril de 2025)
+>Versão de pré-visualização: 30 de janeiro de 2025; Produção para lançamento rápido: Com o lançamento 25.2 (13 de fevereiro de 2025); Produção para lançamento trimestral: Com o lançamento 25.4 (abril de 2025)
 
 Agora você pode compartilhar exibições e espaços de trabalho com equipes, funções de trabalho e empresas no Workfront Planning. Antes desse aprimoramento, você poderia compartilhar visualizações e espaços de trabalho com usuários e grupos.
 
@@ -62,7 +72,7 @@ Para obter informações, consulte os seguintes artigos:
 
 >[!NOTE]
 >
->Versão de pré-visualização: 23 de janeiro de 2025; Produção para lançamento rápido: Com lançamento da versão 25.2 (fevereiro de 2025); Produção para lançamento trimestral: Com lançamento da versão 25.4 (abril de 2025)
+>Versão de pré-visualização: 23 de janeiro de 2025; Produção para lançamento rápido: Com o lançamento 25.2 (13 de fevereiro de 2025); Produção para lançamento trimestral: Com o lançamento 25.4 (abril de 2025)
 
 Agora é possível copiar o texto de uma origem externa para o Workfront e colá-lo em um campo conectado do Workfront Planning ou em um campo do tipo Pessoas. Esse aprimoramento está disponível ao editar registros na exibição de tabela.  O texto deve corresponder a um usuário existente (para campos do tipo Pessoas) ou a um registro ou objeto existente (para um registro conectado). Você pode copiar e colar vários valores para vários campos e atualizar registros em massa.
 
@@ -74,7 +84,7 @@ Para obter mais informações, consulte [Editar registros](/help/quicksilver/pla
 
 >[!NOTE]
 >
->Versão de pré-visualização: 23 de janeiro de 2025; Produção para lançamento rápido: Com lançamento da versão 25.2 (fevereiro de 2025); Produção para lançamento trimestral: Com lançamento da versão 25.4 (abril de 2025)
+>Versão de pré-visualização: 23 de janeiro de 2025; Produção para lançamento rápido: Com o lançamento 25.2 (13 de fevereiro de 2025); Produção para lançamento trimestral: Com o lançamento 25.4 (abril de 2025)
 
 Com esta versão, atualizamos o construtor de filtros no Workfront Planning para permitir filtros de várias camadas.
 
@@ -92,7 +102,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help
 
 >[!NOTE]
 >
->Versão de pré-visualização: 22 de janeiro de 2025; Produção para lançamento rápido: Com lançamento da versão 25.2 (fevereiro de 2025); Produção para lançamento trimestral: Com lançamento da versão 25.4 (abril de 2025)
+>Versão de pré-visualização: 22 de janeiro de 2025; Produção para lançamento rápido: Com o lançamento 25.2 (13 de fevereiro de 2025); Produção para lançamento trimestral: Com o lançamento 25.4 (abril de 2025)
 
 Agora é possível criar projetos usando um modelo ao conectar projetos a registros existentes.
 
@@ -106,7 +116,7 @@ Para obter informações, consulte [Criar objetos Workfront do Workfront Plannin
 
 >[!NOTE]
 >
->Versão de pré-visualização: 22 de janeiro de 2025; Produção para lançamento rápido: Com lançamento da versão 25.2 (fevereiro de 2025); Produção para lançamento trimestral: Com lançamento da versão 25.4 (abril de 2025)
+>Versão de pré-visualização: 22 de janeiro de 2025; Produção para lançamento rápido: Com o lançamento 25.2 (13 de fevereiro de 2025); Produção para lançamento trimestral: Com o lançamento 25.4 (abril de 2025)
 
 Para lhe dar mais visibilidade para gravar títulos no cabeçalho da página de exibição, fizemos uma melhoria para dar aos títulos mais espaço, evitar sobreposições e manipular o truncamento normalmente.
 

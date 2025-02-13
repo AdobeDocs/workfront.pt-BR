@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,23 @@ Esta página descreve pequenas atualizações na aparência de várias áreas do
 
 Para obter uma lista de todas as alterações disponíveis com a versão do Segundo trimestre de 2025, consulte [Visão geral da versão do Segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--## New look and feel for the Share dialog 
+## Alterações temporárias de aparência e comportamento em emails de documentos
 
 >[!NOTE]
 >
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Versão de pré-visualização: 13 de fevereiro de 2025; Versão de produção para todos os clientes: 13 de fevereiro de 2025
 
-We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
+Os emails relacionados à adição ou ao compartilhamento de documentos não terão mais uma imagem em miniatura no corpo do email. Alguns clientes também verão o email herdado de atribuição de tarefas e problemas, que mostra somente o avatar do destinatário.
 
-* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
-* There is a new icon to access advanced share settings.-->
+Essas alterações são temporárias à medida que investigamos atrasos de email.
+
+## Nova aparência para a caixa de diálogo Compartilhar
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 13 de fevereiro de 2025; Versão de produção para todos os clientes: com a versão 25.3 (março de 2025)
+
+Atualizamos a aparência da caixa de diálogo Compartilhar para um design moderno que é consistente com outras áreas do Workfront. Há pequenas diferenças visuais, incluindo:
+
+* A opção &quot;Visível em todo o sistema&quot; agora exibe &quot;Todos no sistema podem visualizar&quot;. Essa opção ainda funciona como antes.
+* Há um novo ícone para acessar configurações de compartilhamento avançadas.
