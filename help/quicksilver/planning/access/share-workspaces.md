@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -70,8 +70,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p>
-<p>Sua organização deve estar integrada à Experiência unificada do Adobe para que os usuários possam solicitar e conceder permissões para um espaço de trabalho a partir de uma solicitação de permissão. </p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Sua organização deve estar integrada à Adobe Unified Experience para que os usuários possam solicitar e conceder permissões para um espaço de trabalho a partir de uma solicitação de permissão. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -175,15 +175,11 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
 1. Abra o espaço de trabalho que deseja compartilhar e clique em **Compartilhar** no canto superior direito da tela.
 
-   ![](assets/share-button-on-workspace-top-right.png)
+   ![Botão Compartilhar no canto superior direito do espaço de trabalho](assets/share-button-on-workspace-top-right.png)
 
-1. No campo **Conceder acesso ao espaço de trabalho**, comece digitando o nome de um usuário, grupo, <span class="preview">equipe, empresa ou função de trabalho</span> e clique nele quando ele for exibido na lista.
+1. No campo **Conceder acesso a este espaço de trabalho**, comece digitando o nome de um usuário, grupo, <span class="preview">equipe, empresa ou função de trabalho</span> e clique nele quando ele for exibido na lista.
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![Compartilhando a interface com grupos](assets/sharing-ui-with-groups.png)
 
 1. Selecione um dos seguintes níveis de permissão no menu suspenso:
    * Exibir
@@ -202,16 +198,16 @@ Os usuários que acessam um link para um espaço de trabalho para o qual não t�
 1. (Condicional) Se você for o gerente de um espaço de trabalho, poderá receber uma solicitação de outro usuário para acessar a view nas seguintes áreas:
 
    * Uma notificação no aplicativo
-     ![](assets/in-app-notification-for-access-request.png)
+     ![Notificação no aplicativo para solicitação de acesso](assets/in-app-notification-for-access-request.png)
    * Uma notificação por email
-     ![](assets/email-notification-for-access-request.png)
+     ![Notificação por email para a solicitação de acesso](assets/email-notification-for-access-request.png)
 1. (Condicional) Na área de notificação do Workfront, clique no link de notificação no aplicativo
 Ou
 Na notificação por email, clique em **Exibir todas as notificações** e clique na notificação na lista.
 
    A caixa **Solicitações de acesso pendentes** é exibida.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![Caixa de aprovação da lista de notificações](assets/notifications-list-approval-box.png)
 
 1. (Opcional) Para o usuário cujas permissões você deseja aprovar, selecione uma das seguintes opções no menu suspenso à direita do nome do usuário:
    * **Exibir**

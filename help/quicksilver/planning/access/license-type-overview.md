@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Visão geral do tipo de licença ao usar o Adobe Workfront Planning
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissõe
 
 Para obter informações sobre permissões para objetos no Workfront Planning, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso ao Adobe](/help/quicksilver/planning/access/access-overview.md).
+Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso ao Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## O relacionamento entre os tipos de licença do Workfront e as permissões do Workfront Planning
 
@@ -60,7 +60,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 ### Tipos de licença e permissões de espaço de trabalho
 
-Somente os usuários com uma licença Standard podem ter permissões do Contribute ou Gerenciar para espaços de trabalho. Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho compartilhados com eles.
+Somente os usuários com uma licença Standard podem ter permissões de Contribute ou Gerenciar para espaços de trabalho. Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho compartilhados com eles.
 
 Os administradores do sistema podem exibir todos os espaços de trabalho no sistema, mesmo aqueles que não criaram.
 
@@ -72,7 +72,7 @@ Os administradores do sistema podem exibir todos os espaços de trabalho no sist
 >
 >Há uma indicação na caixa de compartilhamento de que os usuários não podem receber permissões para contribuir ou gerenciar um espaço de trabalho quando possuem uma licença de nível inferior, pois esses níveis de permissões estão esmaecidos.
 >
-><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
+>![Permissões esmaecidas para o usuário colaborador no espaço de trabalho](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### Tipos de licença e permissões de exibição
@@ -87,4 +87,4 @@ Somente os usuários com uma licença Standard podem ter permissões de gerencia
 >
 >Há uma indicação na caixa de compartilhamento de que os usuários não podem receber permissões para gerenciar uma exibição quando têm uma licença de nível inferior, pois esses níveis de permissão estão esmaecidos.
 >
-><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>
+>![Permissões esmaecidas para usuário light no compartilhamento de exibição](assets/permissions-grayed-out-for-light-user.png)
