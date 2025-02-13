@@ -6,16 +6,16 @@ description: Você pode instalar o [!DNL Adobe Workfront for design and video] d
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
 
 # Instalar e abrir o [!DNL Adobe Workfront for design and video]
 
-Você pode instalar o [!DNL Adobe Workfront for design and video] a partir do [!DNL Adobe Marketplace]. Este plug-in suporta os seguintes aplicativos Creative Cloud:
+Você pode instalar o [!DNL Adobe Workfront for design and video] a partir do [!DNL Adobe Marketplace]. Este plug-in é compatível com os seguintes aplicativos da Creative Cloud:
 
 {{cc-plugin-app-list}}
 
@@ -57,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> -->
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td><p>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</p><p>Para obter mais informações, consulte <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de Suporte do Creative Cloud</a>.</p></td> 
+   <td><p>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</p><p>Para obter mais informações, consulte <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de Suporte da Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ Você pode instalar o [!DNL Adobe Workfront for design and video] por conta pró
 
 ## Abrir [!DNL Adobe Workfront for design and video]
 
-1. Abra o plug-in Creative Cloud que deseja usar.
+1. Abra o plug-in do Creative Cloud que deseja usar.
 
 1. Crie um novo projeto ou abra um já existente.
 
@@ -100,7 +100,7 @@ Você pode instalar o [!DNL Adobe Workfront for design and video] por conta pró
 
    >[!NOTE]
    >
-   >Se estiver usando o Premiere Pro, você deve ter um projeto aberto para acessar este menu.
+   >Se você estiver usando o Premiere Pro, deve ter um projeto aberto para acessar este menu.
 
    ![Menu Workfront](assets/adobe-workfront-menu.png)
 
@@ -141,3 +141,25 @@ Você pode instalar o [!DNL Adobe Workfront for design and video] por conta pró
 1. Clique em **[!UICONTROL Permitir Acesso]** para concluir o logon.
 1. Volte para [!DNL Adobe Photoshop] para ver seu trabalho.
 
+### Solução de problemas de erros de logon
+
+**O erro &quot;Algo deu errado&quot; é exibido ao tentar fazer logon**
+
+
+Você não pode usar uma URL que comece com `experience.adobe.com` para fazer logon no plug-in.
+
+![erro de logon](assets/plugin-log-in-error.png) ![domínio](assets/incorrect-domain.png)
+
+
+Para corrigir esse problema,
+
+1. Exclua a pasta que armazena o domínio do plug-in.
+
+   >[!TIP]
+   >
+   >Em uma Mac, vá para Localizador, pressione **Command+Shift+.** para exibir pastas ocultas, navegue até **/Users//Library/Application Support** e exclua a pasta **Workfront**.
+
+
+1. Volte para o plug-in e insira o domínio do Workfront. O domínio deve ser `company-name.my.workfront.com` e não `experience.adobe.com`.
+
+   Para [encontrar seu domínio do Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), se você estiver na Experiência unificada da Adobe, vá para Configuração, Informações do cliente.

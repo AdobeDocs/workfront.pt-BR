@@ -2,20 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Instalar e abrir o Adobe Workfront para XD
-description: Você pode instalar o plug-in Adobe Workfront para XD no Adobe Marketplace.
+description: Você pode instalar o plug-in do Adobe Workfront para XD no Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
 
 # Instalar e abrir o [!DNL Adobe Workfront for XD]
 
-Você pode instalar o plug-in [!DNL Adobe Workfront for XD] no Adobe Marketplace. O plug-in é compatível com os seguintes idiomas:
+Você pode instalar o plug-in [!DNL Adobe Workfront for XD] do Adobe Marketplace. O plug-in é compatível com os seguintes idiomas:
 
 * Inglês
 * Francês
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> -->
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td><p>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</p><p>Para obter mais informações, consulte <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de Suporte do Creative Cloud</a>.</p></td> 
+   <td><p>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</p><p>Para obter mais informações, consulte <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de Suporte da Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ Os administradores do [!DNL Adobe Admin Console] também podem criar pacotes som
 
 Você pode instalar o plug-in [!DNL Adobe Workfront for XD] por conta própria a partir do [!DNL Adobe Exchange].
 
-1. Vá para a [página de instalação do Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) no Adobe Exchange.
+1. Vá para a [página de instalação do Adobe Workfront para XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) no Adobe Exchange.
 1. Na caixa de diálogo exibida, clique em **Abrir [!DNL Adobe Creative Cloud] aplicativo de desktop**.
 1. Depois que o gerenciador de plug-in [!DNL Adobe XD] for aberto, clique em **[!UICONTROL Instalar]**.
 1. Leia as informações na caixa de diálogo e clique em **[!UICONTROL OK]**.
@@ -122,4 +122,20 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for XD] por conta própria a
 
 1. Clique em **[!UICONTROL Permitir Acesso]** para concluir o logon e voltar para [!DNL Adobe XD] para ver seu trabalho.
 
- 
+### Solução de problemas de erros de logon
+
+**O erro &quot;Algo deu errado&quot; é exibido ao tentar fazer logon**
+
+
+Você não pode usar uma URL que comece com `experience.adobe.com` para fazer logon no plug-in.
+
+![erro de logon](assets/plugin-log-in-error.png) ![domínio](assets/incorrect-domain.png)
+
+
+Para corrigir esse problema,
+
+1. Desinstale e reinstale o plug-in do Adobe Workfront para XD para limpar o domínio e o erro.
+
+1. Insira seu domínio do Workfront. O domínio deve ser `company-name.my.workfront.com` e não `experience.adobe.com`.
+
+Para encontrar seu domínio do Workfront se você estiver na Experiência unificada da Adobe, acesse

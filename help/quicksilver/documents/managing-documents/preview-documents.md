@@ -6,9 +6,9 @@ description: Você pode visualizar um documento na área Documentos. Isso é esp
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,20 @@ Você deve ter o seguinte:
 
 ## Visualizar um documento
 
+Você pode visualizar um documento no Workfront.
+
 1. Em uma lista de documentos, passe o mouse sobre a linha que contém o documento e clique em **Detalhes do Documento**.
 1. Na página exibida, clique na imagem em miniatura do documento.
 
    * Se você não tiver preparado o documento para revisão, ele será exibido em uma nova guia do navegador.
    * Se você tiver preparado o documento para revisão, o visualizador de provas será aberto para exibi-lo.
+
+Os formatos de arquivo a seguir não podem ser exibidos na janela de pré-visualização:
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .simples
+* .pdf
