@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Visão geral do Assistente do Adobe Workfront Planning AI
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -45,6 +45,8 @@ Os comandos do usuário e a execução desses comandos pela IA trabalham juntos 
 
 * Você pode usar comandos para desfazer suas ações. Por exemplo, você pode digitar &quot;Desfazer a última alteração&quot; para reverter a alteração.
 
+* <span class="preview"> Ao criar, atualizar ou excluir um objeto por meio do Assistente de IA, o Assistente de IA exibe as ações desejadas e solicita confirmação. Você pode confirmar ou cancelar as ações. </span>
+
 ## Funcionalidade atualmente disponível para o Assistente de IA
 
 Atualmente, o Assistente de IA está disponível na área Planejamento do Workfront para as seguintes páginas:
@@ -59,7 +61,7 @@ Você pode usar o Assistente de IA para executar as seguintes ações neste mome
 * Criar registros. Uma ID com um link para o novo registro é exibida após a criação do registro. Você pode especificar os campos que deseja atualizar durante o processo de criação, como datas ou descrição.
 * Crie registros com base em um documento do qual você fez upload. O Workfront é compatível com os seguintes formatos de documento para o Assistente de IA:
 
-  .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt e a maioria dos formatos de imagem
+  PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT e a maioria dos formatos de imagem
 * Atualize os campos dos registros exibidos na tela
 * Excluir registros
 * Restaurar registros que você acabou de excluir
