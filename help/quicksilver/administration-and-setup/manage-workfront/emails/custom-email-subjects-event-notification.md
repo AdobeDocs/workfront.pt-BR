@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ Algumas notificações de eventos têm várias linhas de assunto, dependendo de 
 
 Por exemplo, &quot;Alguém inclui-me em uma atualização direcionada&quot; tem duas linhas de assunto diferentes: a primeira é para tarefas, problemas, tarefas de modelo e documentos (também conhecido como &quot;referenceObject&quot;) e a segunda é para objetos que permitem que os usuários façam comentários, como portfólio, programa e assim por diante (também conhecido como &quot;topReferenceObject&quot;).
 
-![Não há várias linhas de assunto no evento](assets/Ev-not-mult-subj-lines.png)
+![Não há várias linhas de assunto no evento](assets/ev-multiple-subject.png)
 
 Se um usuário for incluído em uma conversa na tarefa, problema, tarefa de modelo ou documento, um email será gerado com a primeira linha de assunto. A linha de assunto contém &quot;referenceObject:name&quot; e o sistema define o objeto e exibe o nome apropriado no campo assunto. A linha de assunto do email seria semelhante a esta: &quot;Comment on Task 123 on Project ABC&quot;.
 
@@ -96,6 +96,8 @@ Algumas notificações de eventos também têm vários assuntos de email para de
 
 Por exemplo, solicitar que um documento seja adicionado a um problema é um evento que pode acionar dois emails diferentes: um para quando o documento é adicionado e outro para quando o documento é editado.
 
-![Ações diferentes do evento](assets/ev-not-mult-subj-lines-diff-actions.png)
+
+
+![Não há várias linhas de assunto no evento](assets/Ev-not-mult-subj-lines.png)
 
 Para editar as linhas de assunto do email e adicionar campos adicionais às linhas de assunto, consulte [Personalizar linhas de assunto de email para notificações de eventos](#customize-email-subject-lines-for-event-notifications) neste artigo.
