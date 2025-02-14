@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -24,7 +24,9 @@ Para obter uma lista de todas as alterações disponíveis com a versão do Segu
 >
 >Versão de pré-visualização: 13 de fevereiro de 2025; Versão de produção para todos os clientes: 13 de fevereiro de 2025
 
-Os emails relacionados à adição ou ao compartilhamento de documentos não terão mais uma imagem em miniatura no corpo do email. Alguns clientes também verão o email herdado de atribuição de tarefas e problemas, que mostra somente o avatar do destinatário.
+Os emails relacionados à adição ou ao compartilhamento de documentos não terão mais uma imagem em miniatura no corpo do email.
+
+Alguns clientes também verão o email herdado de atribuição de tarefas e problemas, que mostra somente o avatar do destinatário.
 
 Essas alterações são temporárias à medida que investigamos atrasos de email.
 
