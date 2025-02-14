@@ -1,20 +1,20 @@
 ---
 title: Atualizações de interface
-description: Esta página lista as atualizações de interface que estamos fazendo no Adobe Workfront para melhorar a experiência do usuário e unificá-la com outros aplicativos Adobe.
+description: Esta página lista as atualizações de interface que estamos fazendo no Adobe Workfront para melhorar a experiência do usuário e unificá-la com outros aplicativos da Adobe.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
 
 # Modernização da interface
 
-Esta página lista as atualizações de interface que estamos fazendo no Adobe Workfront para melhorar a experiência do usuário e unificá-la com outros aplicativos Adobe. Essas alterações são principalmente visuais e não alterarão significativamente os workflows, a menos que observado de outra forma.
+Esta página lista as atualizações de interface que estamos fazendo no Adobe Workfront para melhorar a experiência do usuário e unificá-la com outros aplicativos da Adobe. Essas alterações são principalmente visuais e não alterarão significativamente os workflows, a menos que observado de outra forma.
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,22 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualização de interface para personalizar assuntos de Notificação de eventos
+
+**Versão de visualização: 13 de fevereiro de 2025; Iniciando a semana de 13 de fevereiro de 2025**
+
+Atualizamos a caixa de diálogo de assunto Notificação de evento com um design mais moderno e consistente com outras áreas do Workfront.
+
+Para visualizar essa alteração, acesse Configurar > Email > Notificações > Notificações de eventos > Clique em uma notificação de eventos.
+
+### Atualização de interface para a área Equipes
+
+**Versão de visualização: 13 de fevereiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a área Equipes com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Para exibir as configurações, acesse Configuração > Equipes.
 
 ### Atualização de interface para configurações do processo de aprovação em Configuração
 
@@ -34,7 +50,7 @@ Para exibir as configurações, acesse Configuração > Preferências > Aprovaç
 
 ### Atualização de interface para a área Aprovações em Configurar > Grupos
 
-**Versão de visualização: 30 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 30 de janeiro de 2025; Versão de produção: iniciando a semana de 6 de fevereiro de 2025**
 
 Atualizamos as listas de Aprovação de projetos, tarefas e problemas em Configurar > Grupos > Aprovações com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -44,7 +60,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ### Atualização da interface para a página Funções de prova na configuração
 
-**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos a aparência da página de funções de prova com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -72,7 +88,7 @@ Para visualizar esta página, acesse Configurar > Email > Notificações > Model
 
 ### Atualização da interface para a página de Convites por email na Configuração
 
-**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos a página de Convites por email com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -82,7 +98,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ### Atualizações de interface para a página Notificações de eventos em um Grupo
 
-**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 23 de janeiro de 2025; iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos a página Notificação de eventos em um Grupo com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -102,7 +118,7 @@ Para visualizar esta página, acesse Configurar > Email > Notificações > Notif
 
 ### Atualização de interface para a caixa de diálogo Adicionar Sharepoint
 
-**Versão de visualização: 16 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 16 de janeiro de 2025; iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos a caixa de diálogo Adicionar Sharepoint em Configurar > Documentos > Integração do Sharepoint com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -118,6 +134,14 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ## Ágil
 
+### Página de visão geral da atualização de interface para iterações
+
+**Versão de visualização: 13 de fevereiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a página de visão geral das Iterações com um design mais moderno e consistente com outras áreas do Workfront.
+
+Para visualizar esta alteração, acesse Equipes > Escolher uma equipe > Iterações > Escolher uma iteração > Visão geral.
+
 ### Adicionar histórias e problemas a uma iteração
 
 **Versão de visualização: 6 de fevereiro de 2025; Versão de produção: a ser anunciada**
@@ -126,7 +150,7 @@ Atualizamos a caixa de diálogo Adicionar história e Adicionar problema com um 
 
 Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
 
-Para exibir esta alteração, vá para Equipes > escolha uma equipe > Iterações > Escolha uma iteração e clique em **Nova história** ou **Novo problema**.
+Para exibir esta alteração, vá para Equipes > Escolha uma equipe > Iterações > Escolha uma iteração e clique em **Nova história** ou **Novo problema**.
 
 ### Atualização da interface para a área Equipes > Backlog
 
@@ -151,7 +175,7 @@ Para visualizar esta alteração, vá para Equipes > escolha uma equipe > Itera�
 
 ### Adicionar histórias e problemas do backlog
 
-**Versão de visualização: 30 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 30 de janeiro de 2025; iniciando a semana de 6 de fevereiro de 2025**
 
 Atualizamos a caixa de diálogo Adicionar história e Adicionar problema com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -159,11 +183,21 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de pendências e clique em **Nova história** ou **Novo problema**.
 
+## Documentos
+
+### Atualização de interface para a área Aprovações em um documento
+
+**Versão de visualização: 13 de fevereiro de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a área Aprovações em um documento com um design mais moderno e consistente com outras áreas do Workfront.
+
+Para exibir essa alteração, vá para um documento > Clique em Detalhes do documento > Aprovações.
+
 ## Relatórios e painéis de controle
 
 ### Relatório de equipe atualizado com novo estilo
 
-**Versão de visualização: 30 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 30 de janeiro de 2025; iniciando a semana de 6 de fevereiro de 2025**
 
 Atualizamos o Relatório de equipe com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -174,7 +208,7 @@ Para criar um relatório de Equipe, vá até Relatórios > Novo relatório > Equ
 
 ### Relatórios de email atualizados com um novo estilo
 
-**Versão de visualização: 23 de janeiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 23 de janeiro de 2025; Versão de produção: iniciando a semana de 6 de fevereiro de 2025**
 
 Atualizamos a interface dos seguintes relatórios de email:
 
