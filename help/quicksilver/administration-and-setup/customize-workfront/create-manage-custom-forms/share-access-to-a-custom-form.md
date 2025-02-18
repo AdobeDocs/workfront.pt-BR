@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 1%
+source-wordcount: '1530'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,11 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
     <tbody> 
      <tr> 
       <td role="rowheader">Visualizar o projeto</td> 
-      <td> <p>Capacidade de visualizar e preencher o formulário personalizado em objetos.</p> <p><b>OBSERVAÇÃO</b>: para usuários com licenças Light e de Colaborador (ou licenças de Trabalho, Revisão e Solicitação), esta é a opção mais alta disponível.</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
+      <td> <p>Essa opção fornece a capacidade de exibir e preencher o formulário personalizado em objetos. No nível do objeto, os usuários também devem ter pelo menos acesso ao Contribute com a configuração avançada <strong>Editar formulário personalizado</strong> ativada. Por exemplo, se o formulário estiver anexado a um projeto, os usuários devem ter acesso ao Contribute a esse projeto, ou não poderão preencher o formulário.</p>
+
+   <p><b>OBSERVAÇÃO</b>: para usuários com licenças Light e de Colaborador (ou licenças de Trabalho, Revisão e Solicitação), esta é a opção mais alta disponível.</p>
+
+   <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
        <ul> 
         <li><strong>Anexar a dados personalizados</strong>: capacidade de anexar o formulário personalizado a projetos, tarefas e problemas para os quais eles têm acesso de Gerenciamento</li> 
         <li> <p><strong>Compartilhar</strong>: capacidade de compartilhar o formulário personalizado com outras pessoas no sistema</p> <p>Os usuários com uma licença Light ou de Colaborador (ou licença de Trabalho, Revisão ou Solicitação) podem compartilhar um formulário personalizado somente por meio da API ou de um relatório de formulários personalizado.</p> </li>
@@ -85,7 +89,7 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
      </tr> 
      <tr> 
       <td role="rowheader">Gerenciar o projeto</td> 
-      <td> <p>Disponível somente para usuários com uma licença Padrão ou de Plano. </p> <p>Além de poder adicionar o formulário aos objetos que eles têm acesso para editar, os usuários também podem editar totalmente o formulário personalizado, incluindo adicionar, editar e excluir campos.</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
+      <td> <p>Essa opção está disponível somente para usuários com uma licença Padrão ou de Plano. </p> <p>Além de poder adicionar o formulário aos objetos que eles têm acesso para editar, os usuários também podem editar totalmente o formulário personalizado, incluindo adicionar, editar e excluir campos.</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
        <ul> 
         <li> <p><strong>Anexar a dados personalizados</strong>: capacidade de anexar o formulário personalizado a projetos, tarefas e problemas para os quais eles têm acesso de Gerenciamento</p> </li> 
         <li><strong>Excluir</strong>: excluir o formulário personalizado do sistema</li> 
@@ -127,7 +131,9 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
     <tbody> 
      <tr> 
       <td role="rowheader">Visualizar o projeto</td> 
-      <td> <p>Capacidade de visualizar e preencher o formulário personalizado em objetos.</p> <p><b>OBSERVAÇÃO</b>: para usuários com licenças Light e de Colaborador (ou licenças de Trabalho, Revisão e Solicitação), esta é a opção mais alta disponível.</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
+      <td> <p>Essa opção fornece a capacidade de exibir e preencher o formulário personalizado em objetos. No nível do objeto, os usuários também devem ter pelo menos acesso ao Contribute com a configuração avançada <strong>Editar formulário personalizado</strong> ativada. Por exemplo, se o formulário estiver anexado a um projeto, os usuários devem ter acesso ao Contribute a esse projeto, ou não poderão preencher o formulário.</p>
+
+   <p><b>OBSERVAÇÃO</b>: para usuários com licenças Light e de Colaborador (ou licenças de Trabalho, Revisão e Solicitação), esta é a opção mais alta disponível.</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
        <ul> 
         <li><strong>Anexar a dados personalizados</strong>: capacidade de anexar o formulário personalizado a projetos, tarefas e problemas para os quais eles têm acesso de Gerenciamento</li> 
         <li> <p><strong>Compartilhar</strong>: capacidade de compartilhar o formulário personalizado com outras pessoas no sistema</p> <p>Os usuários com uma licença Light ou de Colaborador (ou licença de Trabalho, Revisão ou Solicitação) podem compartilhar um formulário personalizado somente por meio da API ou de um relatório de formulários personalizado.</p> </li>
@@ -135,7 +141,7 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
      </tr> 
      <tr> 
       <td role="rowheader">Gerenciar o projeto</td> 
-      <td> <p>Disponível somente para usuários com uma licença Padrão ou de Plano. </p> <p>Além de poder adicionar o formulário aos objetos que eles têm acesso para editar, os usuários também podem editar totalmente o formulário personalizado, incluindo adicionar, editar e excluir campos.</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
+      <td> <p>Essa opção está disponível somente para usuários com uma licença Padrão ou de Plano. </p> <p>Além de poder adicionar o formulário aos objetos que eles têm acesso para editar, os usuários também podem editar totalmente o formulário personalizado, incluindo adicionar, editar e excluir campos.</p> <p>Clique em <strong>Configurações Avançadas</strong> para especificar se deseja permitir o seguinte:</p> 
        <ul> 
         <li> <p><strong>Anexar a dados personalizados</strong>: capacidade de anexar o formulário personalizado a projetos, tarefas e problemas para os quais eles têm acesso de Gerenciamento</p> </li> 
         <li><strong>Excluir</strong>: excluir o formulário personalizado do sistema</li> 
