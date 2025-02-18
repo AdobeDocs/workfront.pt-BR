@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ Você pode criar registros seguindo um destes procedimentos:
 * [Copiar e colar uma lista de registros de uma lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicar registros de uma exibição de tabela](#create-records-by-duplicating-them)
 * [Criar registros ao conectá-los a partir de outros registros](#create-records-as-you-connect-them)
-* [Crie-os enviando um formulário de solicitação para um tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Criar registros enviando um formulário de solicitação para um tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Criar registros ao importar tipos de registro de um arquivo CSV ou do Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+
+<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
 
 
 Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
@@ -79,7 +81,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -137,9 +139,9 @@ Todos os registros do tipo selecionado são exibidos na visualização.
       * Clique em **Novo registro** na última linha da tabela
 
       * Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia sob o registro do qual você começa.
-      * Passe o mouse sobre o campo principal de um registro, clique no menu **Mais** ![](assets/more-menu.png) à direita do campo e clique em **Inserir registro acima** ou **Inserir registro abaixo**.
+      * Passe o mouse sobre o campo principal de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do campo e clique em **Inserir registro acima** ou **Inserir registro abaixo**.
 
-     ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![Adicionando uma nova campanha na linha da tabela](assets/adding-a-new-campaign-in-table-row.png)
 
    * Em qualquer modo de exibição:
 
@@ -162,14 +164,14 @@ Todos os registros do tipo selecionado são exibidos na visualização.
 
    Ou
 
-   Clique no nome do novo registro ou no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** à esquerda do nome do registro. Uma visualização com as informações detalhadas do registro é aberta na tabela.
+   Clique no nome do novo registro ou no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome da tabela](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro. Uma visualização com as informações detalhadas do registro é aberta na tabela.
 
    >[!TIP]
    >
    >Você pode acessar o ícone **Abrir Detalhes** somente a partir do campo de nome do registro quando o campo Nome for um campo primário.
 
 1. Iniciar edição das informações do registro na visualização do registro. O Workfront salva suas alterações automaticamente.
-1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros ou suas informações ao adicioná-los na exibição de tabela:
 
@@ -263,7 +265,7 @@ Para criar registros ao conectá-los a partir de outros registros:
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-   ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![Botão Adicionar para criar registros no contexto realçado](assets/add-button-to-create-records-in-context-highlighted.png)
 
    O registro é criado e adicionado ao campo de registro conectado.
 
@@ -297,3 +299,17 @@ Para obter informações, consulte [Enviar solicitações do Adobe Workfront Pla
 
 Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
+<!--
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
+-->

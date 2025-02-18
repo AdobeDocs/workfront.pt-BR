@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -31,7 +31,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espaços de trabalho para uma instância do Workfront | ilimitado* |
 | Número de seções para um espaço de trabalho | 50 |
-| Número de tipos de registro para um espaço de trabalho | 1.000 (isso inclui tipos de registro de todas as seções e aqueles que são criados ao usar um modelo de espaço de trabalho) |
+| Número de tipos de registro para um espaço de trabalho | 100 (isso inclui tipos de registro de todas as seções e aqueles que são criados ao usar um modelo de espaço de trabalho) |
 | Número de registros de um tipo de registro | 25.000 |
 | Número de registros de um espaço de trabalho | 25.000 para clientes com o Planning <br> 500.000 para clientes com o Planning Plus |
 | Número do total de registros para uma instância do Workfront Planning | 500.000 para clientes com o Planning <br>2 milhões para clientes com o Planning Plus |
