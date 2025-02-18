@@ -7,10 +7,10 @@ description: Você pode usar expressões de dados para definir campos de dados p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
-ht-degree: 0%
+source-wordcount: '2433'
+ht-degree: 2%
 
 ---
 
@@ -458,7 +458,8 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
   </tr> 
   <tr> 
    <td><strong>FORMATO</strong> </td> 
-   <td><p>Retorna o texto formatado. As opções de cor são $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE e as outras opções de formatação são $$BOLD, $$ITALIC, $$UNDERLINE. Somente uma opção de cor pode ser usada por função, juntamente com até três outras opções de formatação. Se nenhuma opção de cor for especificada, a cor padrão do sistema será aplicada.</p>
+   <td><p>Retorna o texto formatado. Somente as opções de parâmetro listadas aqui são permitidas com FORMAT.</p>
+   <p>As opções de cor são $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE e as outras opções de formatação são $$BOLD, $$ITALIC, $$UNDERLINE. Somente uma opção de cor é permitida, juntamente com até três outras opções de formatação. Se nenhuma opção de cor for especificada, a cor padrão do sistema será aplicada.</p>
    <p>A expressão é formatada da seguinte maneira:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Nota: Essa expressão não é suportada no Workfront Planning.</p></td> 
@@ -573,7 +574,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
   </tr> 
   <tr> 
    <td><strong>ALTERNAR</strong> </td> 
-   <td> <p>Avalia a expressão em relação a uma lista de valores e retorna o resultado correspondente ao primeiro valor correspondente.</p>
+   <td> <p>Avalia a expressão em contraste com uma lista de valores e retorna o resultado equivalente ao primeiro valor correspondente.</p>
    <p>A expressão é formatada da seguinte maneira:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
    <p>Esta expressão não é suportada no Workfront Planning.</p></td> 
