@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Anexar uma notificação de lembrete a um objeto
-description: "Você pode associar notificações de lembrete a vários tipos de objeto diferentes: Projetos, Tarefas, Problemas, Folhas de Horas, Modelos, Tarefas de Modelo e Perfis de Folhas de Horas Recorrentes."
+description: 'Você pode associar notificações de lembrete a vários tipos de objeto diferentes: Projetos, Tarefas, Problemas, Folhas de horas, Modelos, Tarefas de modelo e Perfis de folha de horas recorrentes.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -56,14 +56,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Anexar notificações de lembrete a um objeto
 
 1. Vá para o objeto ao qual deseja anexar a notificação de lembrete.
-1. Clique no ícone Editar ![](assets/edit-icon.png).
+1. Clique no ícone Editar ![ícone Editar](assets/edit-icon.png).
 1. No painel esquerdo da caixa **[!UICONTROL Editar]** exibida, clique em **[!UICONTROL Configurações]**.
 
 1. Em **[!UICONTROL Notificação de Lembrete]**, selecione as notificações que deseja anexar ao objeto.
 
    Neste exemplo, o objeto que está sendo editado é uma tarefa:
 
-   ![](assets/reminder-notification-select-one-350x213.png)
+   ![Notificação de lembrete](assets/reminder-notification-select-one-350x213.png)
 
    Se o administrador do [!DNL Workfront] tiver criado várias notificações de lembrete, você poderá anexar várias notificações a um único objeto.
 

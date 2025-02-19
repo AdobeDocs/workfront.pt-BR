@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notificações: metas"
-description: "Notificações: metas"
+title: 'Notificações: Metas'
+description: 'Notificações: Metas'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 3%
+source-wordcount: '569'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ O usuário cujas [!DNL Goals] notificações são atualizadas deve ter o seguint
 
 As notificações listadas na tabela a seguir alertam você sobre eventos que ocorrem no [!DNL Workfront Goals], como alguém que atribui a você uma meta, resultado ou atividade, ou alguém que esteja atualizando uma meta, resultado ou atividade que você possui. Para obter informações sobre como configurar as notificações recebidas, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/goals-notifications-preferences-350x114.png)
+![Preferências de notificações](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >

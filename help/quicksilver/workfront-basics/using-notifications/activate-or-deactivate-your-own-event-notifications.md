@@ -7,9 +7,9 @@ description: Este artigo descreve como você pode gerenciar as notificações po
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-O administrador do Adobe [!DNL Workfront] configura quais notificações por email os usuários recebem quando os eventos ocorrem no Workfront (conforme descrito em [[!UICONTROL Configurar notificações de eventos] para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+O administrador do Adobe [!DNL Workfront] configura quais notificações por email os usuários recebem quando os eventos ocorrem no Workfront (conforme descrito em [[!UICONTROL Configurar notificações de evento] para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 O administrador do seu grupo também pode configurar quais notificações serão ativadas para você e os usuários do seu [!UICONTROL Grupo Padrão]. Se o [!UICONTROL Grupo Doméstico] for um subgrupo, você receberá as notificações ativadas para o grupo de nível superior acima do seu grupo.
 
@@ -67,13 +67,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step1-click-profile-pic}}
 
-1. Clique no ícone **[!UICONTROL Mais]** ![](assets/more-icon.png) ao lado do seu nome e em **[!UICONTROL Editar]**.
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais ícone](assets/more-icon.png) ao lado do seu nome e clique em **[!UICONTROL Editar]**.
 
 1. Na caixa **[!UICONTROL Editar Pessoa]** exibida, vá para a seção **[!UICONTROL Notificações]**.
 
 1. Clique em uma categoria para exibir as configurações de notificação relacionadas a essa categoria.
 
-   ![](assets/my-profile-notifications.png)
+   ![Minhas notificações de perfil](assets/my-profile-notifications.png)
 
 1. Marque ou desmarque as caixas de seleção à direita para especificar se deseja receber ou não notificações diariamente, instantaneamente ou ambas.
 
@@ -90,13 +90,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Se você selecionou alguma notificação para ser enviada como resumo diário, selecione a hora do dia que deseja recebê-la na parte superior da seção **[!UICONTROL Notificações]** no menu **[!UICONTROL Resumo diário por email após]**.
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![Hora de escolha do Resumo Diário](assets/digest-time-stamp-my-settings-350x78.png)
 
    O resumo diário inclui eventos que atendem aos critérios das notificações 24 horas antes da hora selecionada. Você recebe um email de resumo diário para cada tipo de notificação.\
    O resumo diário pode chegar depois do tempo selecionado, dependendo de quantos emails estão na fila para entrega no sistema. A hora listada é a hora local especificada nas configurações do navegador.
 
 1. (Condicional e opcional) Ao modificar as configurações de notificações por email no ambiente de Pré-visualização, habilite a configuração **[!UICONTROL Receber emails deste ambiente de teste]** para receber emails. Os emails não são gerados automaticamente do ambiente de Pré-visualização.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![Receber emails da sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Clique em **[!UICONTROL Salvar alterações]**.

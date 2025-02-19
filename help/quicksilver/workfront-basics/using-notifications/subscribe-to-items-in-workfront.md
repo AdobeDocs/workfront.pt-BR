@@ -5,9 +5,9 @@ description: O Adobe Workfront envia notificações sobre os itens aos quais voc
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -75,12 +75,12 @@ Por exemplo, para assinar um problema:
    >
    >Para se inscrever em projetos, siga um destes procedimentos:
    >
-   >* Vá para o projeto que você deseja assinar, clique no ícone **[!UICONTROL Mais]**, ![](assets/qs-more-menu.png) à direita do nome do projeto e **[!UICONTROL Assinar]**.
-   >* Vá para uma lista de projetos ou relatório e selecione um projeto, clique no ícone **[!UICONTROL Mais]** ![](assets/qs-more-menu.png) na parte superior da lista e clique em **[!UICONTROL Assinar]**. Isso está disponível somente em uma lista de projetos.
+   >* Vá para o projeto que você deseja assinar, clique no ícone **[!UICONTROL Mais]**, ![Mais menu](assets/qs-more-menu.png) à direita do nome do projeto e **[!UICONTROL Assinar]**.
+   >* Vá para uma lista de projetos ou relatório e selecione um projeto, clique no ícone **[!UICONTROL Mais]** ícone ![Mais menu](assets/qs-more-menu.png) na parte superior da lista e clique em **[!UICONTROL Assinar]**. Isso está disponível somente em uma lista de projetos.
 
-1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png) e em **[!UICONTROL Assinar]**.
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais](assets/more-icon.png) e em **[!UICONTROL Assinar]**.
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![Assinar um item de trabalho](assets/subscribe-to-a-work-item-350x258.png)
 
    Uma marca de seleção é exibida na campainha e o número ao lado dela é atualizado para adicioná-lo à contagem de usuários inscritos.
 
@@ -102,12 +102,12 @@ Por exemplo, para cancelar a inscrição de um problema:
    >
    >Para cancelar a assinatura de projetos, siga um destes procedimentos:
    >
-   >* Vá para o projeto do qual você deseja cancelar a assinatura, clique no ícone **[!UICONTROL Mais]**, ![](assets/qs-more-menu.png) à direita do nome do projeto e **[!UICONTROL Cancelar assinatura]**.
-   >* Vá para uma lista de projetos ou relatório e selecione um projeto, clique no ícone **[!UICONTROL Mais]** ![](assets/qs-more-menu.png) na parte superior da lista e clique em **[!UICONTROL Cancelar inscrição]**. Isso está disponível somente em uma lista de projetos.
+   >* Vá para o projeto do qual você deseja cancelar a assinatura, clique no ícone **[!UICONTROL Mais]** ícone ![Mais](assets/qs-more-menu.png) à direita do nome do projeto e **[!UICONTROL Cancelar assinatura]**.
+   >* Vá para uma lista de projetos ou relatório e selecione um projeto, clique no ícone **[!UICONTROL Mais]** ícone ![Mais](assets/qs-more-menu.png) na parte superior da lista e clique em **[!UICONTROL Cancelar inscrição]**. Isso está disponível somente em uma lista de projetos.
 
-1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png) e em **[!UICONTROL Cancelar inscrição]**.
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais](assets/more-icon.png) e em **[!UICONTROL Cancelar inscrição]**.
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![Cancelar assinatura de um item de trabalho](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. Também é possível cancelar a inscrição de um item no qual você está inscrito clicando no link [!UICONTROL Cancelar inscrição] no email de inscrição.
 
@@ -136,7 +136,7 @@ Todos os assinantes recebem a permissão [!UICONTROL Exibir] para o item assinad
    >   
    >* Vá para uma lista de projetos ou relatório e selecione um projeto.
 
-1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png).
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais](assets/more-icon.png).
 1. Clique na bolha numérica ao lado do link **[!UICONTROL Assinar]**.
 1. Na caixa exibida, comece digitando o nome do usuário na caixa **[!UICONTROL Assinar outros]** e selecione o usuário nas opções exibidas.
 
@@ -159,7 +159,7 @@ Quando alguém adiciona um comentário à guia [!UICONTROL Atualizações] do it
    >   
    >* Vá para uma lista de projetos ou relatório e selecione um projeto.
 
-1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png).
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais](assets/more-icon.png).
 1. Clique na bolha numérica ao lado do link **[!UICONTROL Assinar]** ou **[!UICONTROL Cancelar assinatura]**.
 1. Na página **[!UICONTROL Assinantes]** exibida, clique no &quot;X&quot; ao lado do nome do usuário que deseja cancelar a assinatura.
 
@@ -175,7 +175,7 @@ Quando alguém adiciona um comentário à guia [!UICONTROL Atualizações] do it
 
 Assim que alguém postar um comentário em um item que você assinou, você receberá uma notificação no aplicativo.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![Notificação no aplicativo](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 Para obter mais informações, consulte [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualização: URL externo usando campo de dados personalizado"
+title: 'Exibição: URL Externo Usando Campo de Dados Personalizado'
 description: Você pode exibir um link para um URL personalizado interno usando um Campo personalizado calculado chamado "URL personalizado" em uma Exibição de tarefa.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Se você tiver acesso para criar um formulário personalizado, poderá criar um 
 
 A tarefa **Exibir** no exemplo abaixo exibe o **Campo Personalizado Calculado** chamado de &quot;URL Personalizado&quot; como um link direto para a subguia **Visão Geral** na guia de tarefa **Detalhes**, bem como o campo **URL** da tarefa.
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 Para personalizar esta exibição:
 
