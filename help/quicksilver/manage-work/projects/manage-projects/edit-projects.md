@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 1%
 
 ---
@@ -169,7 +169,6 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
    * [Configurações da tarefa](#task-settings)
    * [Configurações de Problema](#issue-settings)
    * [Acesso](#access)
-   * [Pastas vinculadas](#linked-folders-conditional-availability) (disponibilidade condicional)
    * <span class="preview">[Comentário](#comment)</span>
 
 
@@ -667,22 +666,6 @@ Para obter informações sobre como essas configurações afetam a criação de 
    </table>
 
 1. Clique em **Salvar**.
-
-### Pastas vinculadas (disponibilidade condicional) {#linked-folders}
-
-A funcionalidade Pasta vinculada cria automaticamente pastas no Adobe Experience Manager Assets e conecta essas pastas ao Workfront.
-
-Esta seção será exibida somente se todos os itens a seguir se aplicarem:
-
-* Sua organização foi migrada para o Adobe Admin Console
-* Sua organização habilitou e configurou uma integração com o Adobe Experience Manager
-* O modelo usado para criar este projeto habilitou e configurou pastas vinculadas.
-
-Para obter instruções sobre como editar pastas vinculadas, consulte [Editar valores de fluxo de trabalho em um projeto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) no artigo [Usar fluxos de trabalho na integração com o Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
->[!NOTE]
->
->Como as pastas vinculadas são criadas quando o projeto é criado, a edição do fluxo de trabalho da pasta vinculada em um projeto existente não é eficaz. A edição desses valores ao criar um projeto funciona conforme esperado.
 
 <div class="preview">
 

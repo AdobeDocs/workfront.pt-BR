@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -256,10 +256,16 @@ Você deve ter as seguintes opções antes de adicionar novos registros, conecta
 
 Para criar registros ao conectá-los a partir de outros registros:
 
-1. Comece a conectar os registros do Workfront Planning, conforme descrito no artigo [Conectar registros](/help/quicksilver/planning/records/connect-records.md). Você pode conectar registros de um campo de conexão nas seguintes áreas do Workfront Planning:
+1. Comece a conectar os registros do Workfront Planning, conforme descrito no artigo [Conectar registros](/help/quicksilver/planning/records/connect-records.md). Você pode conectar registros das seguintes áreas:
 
-   * A exibição de tabela
-   * A página de detalhes ou a caixa de visualização de um registro
+   * Um campo de conexão nas seguintes áreas do Workfront Planning:
+
+      * A exibição de tabela
+      * A página de detalhes ou a caixa de visualização de um registro
+
+   * Um campo de conexão na seção Planejamento de um projeto, portfólio ou programa no Workfront.
+
+     Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 1. (Condicional) Se não conseguir localizar um registro ao tentar adicioná-lo do campo de registro conectado de outro registro, procure um registro e clique em **+ Adicionar**. O botão **+ Adicionar** é seguido pelo nome do tipo de registro ao qual você está se conectando. Por exemplo, &quot;Adicionar marcas&quot; ao adicionar uma marca a uma campanha existente. O nome digitado também segue o botão Adicionar.
 

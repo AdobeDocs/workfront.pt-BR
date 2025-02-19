@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '3826'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Visualize ou aumente o acesso ao tipo de item de trabalho para o qual você registra horas </p> <p>Por exemplo, você precisa ter acesso de Visualização a Problemas para registrar o tempo de problemas</p> </td> 
+   <td> <p>Editar o acesso ao tipo de item de trabalho para o qual você registra horas </p> <p>Por exemplo, você precisa ter acesso de Edição a Problemas para registrar o tempo de ocorrências</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -420,7 +420,7 @@ Ou
 Você deve ter todos os itens a seguir:
 
 * Uma licença de Plano com acesso administrativo a Planilhas de Horas e horas. Para obter mais informações sobre como conceder acesso administrativo a Planilhas de Horas e horas, consulte [Conceder acesso administrativo a determinadas áreas aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Contribute ou permissões mais altas para o projeto com acesso a Registrar horas. Para obter mais informações sobre como conceder permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Contribute ou tenha permissões mais altas para o projeto com acesso a Registrar horas. Para obter mais informações sobre como conceder permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * O administrador do Workfront deve habilitar a configuração Registrar horas diretamente nos projetos na seção **Folhas de horas e horas > Preferências** da área Configuração, se desejar registrar horas diretamente em um projeto. Para obter mais informações sobre como permitir que os usuários registrem horas diretamente nos projetos, consulte [Configurar preferências de horas e folha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Para registrar horas na seção Horas de um projeto, tarefa ou problema:

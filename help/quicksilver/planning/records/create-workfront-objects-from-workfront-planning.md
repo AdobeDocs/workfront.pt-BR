@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,8 @@ Você pode criar os seguintes tipos de objetos do Workfront a partir do Workfron
 Você pode conectar projetos e portfólios <!--<span class="preview"> and programs </span>--> a partir de um campo de conexão nas seguintes áreas do Workfront Planning:
 
 * A exibição de tabela de um tipo de registro
-* A página de detalhes ou a caixa de visualização de um registro
+* A página Detalhes ou a caixa de visualização de um registro
+* A guia Conexões de um registro
 
 Para obter informações sobre como conectar registros do Planning a objetos do Workfront, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 

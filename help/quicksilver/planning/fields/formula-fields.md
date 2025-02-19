@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -188,7 +188,7 @@ Os campos de fórmula do Adobe Workfront Planning suportam a maioria das express
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* ALTERNAR
+>* SWITCH
 >* FORMATAR
 
 
@@ -230,6 +230,14 @@ Além disso, oferecemos suporte às seguintes expressões para os campos de fór
 <code>{ID}</code>
 </p>
    </td></tr>
+  <!--
+   <tr> 
+   <td><strong>JSONELEMENT</strong> </td> 
+   <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
+      <code>JSONELEMENT(JSONString, JSONPathString) </code>
+   </p>
+   </td></tr>
+   -->
 
 <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 

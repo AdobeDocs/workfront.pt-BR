@@ -7,9 +7,9 @@ description: O Adobe Workfront determina o status do progresso de um projeto obs
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ A seguir estão os status de progresso dos projetos no Workfront:
   </tr> 
   <tr> 
    <td>Em Risco</td> 
-   <td> O Status de Progresso de um projeto é <strong>Em Risco</strong> se <strong>todos</strong> dos itens a seguir forem verdadeiros:<ul><li>As datas de conclusão estimada e projetada estão no futuro</li><li> As Datas de Conclusão Estimada e Projetada são posteriores à Data de Conclusão Planejada</li><li> A data de conclusão estimada é posterior à data de conclusão projetada</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> O Status de Progresso de um projeto é <strong>Em Risco</strong> se <strong>todos</strong> dos itens a seguir forem verdadeiros:<ul><li>As datas de conclusão estimada e projetada estão no futuro</li><li> A Data de conclusão estimada é posterior à Data de conclusão planejada e à Data de conclusão projetada </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>Fora do Cronograma</td> 

@@ -4,9 +4,9 @@ description: Você pode configurar automações no Adobe Workfront Planning que,
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 Você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou registros no Workfront Planning quando acionadas a partir de um registro do Planning. Os objetos ou registros criados são conectados automaticamente aos registros dos quais você está acionando a automação.
 
-Você pode configurar e ativar a automação na página do registro no Workfront Planning. O objeto conectado criado é colocado no campo conectado do tipo de registro a partir do qual a automação é executada.
+Você pode configurar e ativar a automação na página do tipo de registro no Workfront Planning. O objeto conectado criado é colocado no campo conectado do tipo de registro a partir do qual a automação é executada.
 
 Por exemplo, você pode criar uma automação que use uma campanha do Workfront Planning e crie um projeto no Workfront para rastrear o progresso dessa campanha. O projeto seria conectado à campanha do Workfront Planning no campo Connected Project da campanha.
 
@@ -116,8 +116,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Considerações sobre a criação de objetos e registros usando uma automação
 
-* Para novos objetos do Workfront, o novo nome do objeto é igual ao nome do registro do qual você o cria.
-* Para novos registros de Planejamento, você pode indicar qual campo de registro original deve ser usado para determinar o nome do novo registro.
+* O novo objeto ou nome de registro é igual ao nome do registro a partir do qual você o cria.
 * Novos objetos ou registros não substituem os existentes no mesmo campo. Acionar a mesma automação várias vezes para os mesmos registros adiciona os novos objetos ou registros no mesmo campo conectado do registro original, além dos criados antes.
 * A automação adiciona objetos adicionais somente nos campos de tipo de conexão Muitos para muitos ou Um para muitos. Em todos os outros casos, a automação cria o objeto, mas não o conecta ao registro original a partir do qual a automação é acionada.
 
@@ -227,7 +226,7 @@ A página de detalhes da automação é aberta.
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
+You can configure and activate the automation in the record type's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
 
 For example, you could create an automation that takes a Workfront Planning campaign and creates a project in Workfront to track that campaign's progress. The project would be connected to the Workfront Planning campaign in the Connected Project field on the campaign.
 
@@ -309,10 +308,10 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about creating objects and records using an automation
 
-* For new Workfront objects, the new object name is the same as the record name from which you create it. 
-* For new Planning records, you can indicate what original record field should be used to determine the new record's name. 
+* The new object or record name is the same as the record name from which you create it. 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
-* The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. 
+
+(************hide this for now: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. ***************)
 
 ## Configure an automation in Workfront Planning
 
@@ -437,7 +436,7 @@ You must configure an automation for a record type in Workfront Planning before 
 
 ## Use a Workfront Planning automation to create an object or a record
 
-1. In Workfront Planning, open the record type page that contains the automation you want to use to autoamtically create and connect records or objects. 
+1. In Workfront Planning, open the record type page that contains the automation you want to use to automatically create and connect records or objects. 
 1. Open the table view. 
 1. Select one or more records.
    
