@@ -6,9 +6,9 @@ description: Um projeto é uma grande unidade de trabalho no Adobe Workfront. Vo
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1388'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Você pode criar um projeto no Workfront usando um dos seguintes métodos:
 
   Para obter informações sobre como importar projetos usando o kick-starts, consulte [Cenário de Kick-Starts: preparação de importação de projetos e tarefas simples](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish uma iniciativa de um cenário no Planejador de cenários do Adobe Workfront.
+* Publicar uma iniciativa de um cenário no Planejador de cenários do Adobe Workfront.
 
   O Planejador de cenários exige um dos seguintes itens:
 
@@ -129,7 +129,7 @@ Você pode criar um projeto no Workfront usando um dos seguintes métodos:
 
   Para obter informações sobre o acesso ao Workfront Planning, consulte [Visão geral do acesso](/help/quicksilver/planning/access/access-overview.md).
 
-  Para obter informações sobre como criar projetos adicionando-os aos registros, consulte a seção &quot;Criar projetos ao conectá-los a registros do Workfront Planning&quot; no artigo [Criar objetos do Workfront do Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  Para obter informações sobre como criar projetos adicionando-os a registros, consulte a seção &quot;Criar projetos ao conectá-los a registros do Workfront Planning&quot; no artigo [Criar objetos do Workfront do Workfront Planning à medida que você os conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Pré-requisitos
 

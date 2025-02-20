@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '3082'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Conectar registros
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para objetos do Adobe Workfront Planning</p>   
+   <td> <p>Não há controles de nível de acesso para objetos do Adobe Workfront Planning</p> 
+   <p>Visualize ou aumente as permissões para os tipos de objeto que deseja vincular a partir do Workfront.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
 1. (Opcional) Adicione registros ao tipo de registro selecionado adicionando uma nova linha à tabela. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 1. (Condicional) Depois de conectar o tipo de registro selecionado a outro tipo de registro, vá para o campo conectado de um registro e clique dentro do campo ou clique em **Conectar** para adicionar o registro.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Conectar outros registros na exibição de tabela](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Siga um destes procedimentos:
 
@@ -182,7 +183,13 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
    >
 
 1. (Condicional) Se você selecionou Um para muitos ou Um para um para o tipo de conexão ao conectar os tipos de registro e tentar conectar um registro ou um objeto que já está conectado em outro lugar, você receberá um aviso de que a conexão novamente o removerá da conexão original. Clique em **Conectar** para permitir a remoção e conectar o registro, ou em **Cancelar** para voltar ao campo e selecionar outro registro.
-1. (Opcional) Se você não puder encontrar um registro ou um objeto para se conectar e quiser adicioná-lo, clique em **+ Adicionar** para adicionar um novo registro. Para obter mais informações, consulte a seção &quot;Criar registros ao conectá-los a partir de outros registros&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
+1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, <span class="preview">clique em **+ Adicionar**</span>
+
+   Ou
+
+   Comece digitando um nome para o objeto e clique em **+ Adicionar** para criá-lo e adicioná-lo.
+
+   Para obter mais informações, consulte a seção &quot;Criar registros ao conectá-los a partir de outros registros&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
 1. (Condicional) Depois de conectar o tipo de registro selecionado a um tipo de objeto do Workfront, vá para o campo conectado em um registro e clique no campo ou clique em **Conectar** para adicionar objetos do Workfront.
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![Conectar projetos na exibição de tabela](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. Siga um destes procedimentos:
 
@@ -262,7 +269,11 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
    >
    >Você pode abrir a página de um registro na exibição, clicar duas vezes no campo de registro vinculado ou clicar em **Conectar** no campo para adicionar objetos do tipo de objeto conectado.
 
-1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, clique em **+ Adicionar** para criar e adicionar um novo projeto ou portfólio.
+1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, <span class="preview">clique em **+ Adicionar**</span>
+
+   Ou
+
+   Comece digitando um nome para o objeto e clique em **+ Adicionar** para criar e adicionar um novo projeto, portfólio ou programa.
 
    Para obter informações, consulte [Criar objetos Workfront do Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
@@ -415,7 +426,7 @@ Para conectar registros com ativos do Experience Manager:
 1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** para abrir a página do registro.
 1. Clique na guia **Conexões** na visualização ou página do registro.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Guia Conexões em registro no Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
    Todos os tipos de registro ou objeto vinculados ao tipo de registro selecionado são exibidos como seções. Registros ou objetos conectados são exibidos em seus nomes de registro ou de tipo de objeto em cartões.
 
@@ -428,7 +439,13 @@ Para conectar registros com ativos do Experience Manager:
 1. (Opcional) Clique na seta para baixo à esquerda de uma seção para recolhê-la.
 
 1. (Condicional) Clique em **Conectar** para adicionar mais registros ou objetos do mesmo tipo.
-1. (Opcional) Se você não puder encontrar um registro ou um objeto para se conectar e quiser adicioná-lo, clique em **+ Adicionar** para adicionar um novo registro. Para obter mais informações, consulte a seção &quot;Criar registros ao conectá-los a partir de outros registros&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
+1. (Opcional) Se você não puder encontrar um registro ou um objeto para se conectar e quiser adicioná-lo, <span class="preview">clique em **+ Adicionar**</span>
+
+   Ou
+
+   Comece digitando um nome para o objeto e clique em **+ Adicionar** para criar e adicioná-lo ao registro.
+
+   Para obter mais informações, consulte a seção &quot;Criar registros ao conectá-los a partir de outros registros&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
 1. Siga as etapas descritas nas seções anteriores para conectar registros do Workfront Planning ou objetos do Workfront ou Experience Manager Assets.
 Os registros e objetos são adicionados imediatamente.
 1. (Opcional) Passe o mouse sobre o cartão conectado de um registro ou objeto e clique no ícone ![](assets/disconnect-icon-with-tooltip.png) de **Desconectar registro** para desconectá-lo do registro selecionado.

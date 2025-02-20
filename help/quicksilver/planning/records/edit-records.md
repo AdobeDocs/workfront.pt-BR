@@ -6,14 +6,13 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2156'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Editar registros
 
@@ -72,7 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -89,7 +88,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>  <p>Contribute ou permissões superiores para um espaço de trabalho</a> </p>  
+   <td>  <p>Contribuir com ou mais permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
   </tr> 
 <tr> 
@@ -296,11 +295,11 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    Na exibição de tabela, clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** na primeira coluna. A visualização do registro é aberta na exibição.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![](assets/details-box.png) 
+   ![](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Opcional) Clique no menu **Mais** à direita do título do registro e clique em **Renomear**. Isso atualiza o campo que é exibido como o título do registro.
 
@@ -321,17 +320,17 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    O Workfront salva suas alterações automaticamente.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Opcional) Clique no **indicador em tempo real** ![](assets/real-time-indicator-icon.png) no canto superior direito da caixa de visualização do registro e habilite a configuração **Mostrar colaboradores** para realçar os campos que estão sendo editados por outros em tempo real.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   Os nomes e avatares de todos os usuários que acessam o registro ao mesmo tempo são exibidos nessa área.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   Quando a configuração estiver desabilitada, os avatares e os nomes serão listados na área de indicador em tempo real, e os campos que estão sendo editados não serão realçados. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (Opcional) Clique no menu ![](assets/export-icon-in-record-details-page.png) **Exportar** para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -358,8 +357,6 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
      ![](assets/contextual-menu-for-record-row.png)
 
      A página de registro é aberta.
-
-     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -391,17 +388,17 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    O Workfront salva suas alterações automaticamente.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Opcional) Clique no **indicador em tempo real** ![](assets/real-time-indicator-icon.png) no canto superior direito da página do registro e habilite a configuração **Mostrar colaboradores** para realçar os campos que estão sendo editados por outros em tempo real.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   Os nomes e avatares de todos os usuários que acessam o registro ao mesmo tempo são exibidos nessa área.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   Quando a configuração estiver desabilitada, os avatares e os nomes serão listados na área de indicador em tempo real, e os campos que estão sendo editados não serão realçados. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (Opcional) Clique no menu ![](assets/export-icon-in-record-details-page.png) **Exportar** para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
