@@ -6,9 +6,9 @@ description: Você pode criar painéis para acessar informações rapidamente no
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Você pode adicionar páginas externas existentes a um painel ou criar uma a par
     <tbody>
      <tr>
       <td role="rowheader"><strong>Nome</strong></td>
-      <td><p>Este é o nome do seu painel.</p><p>Se você não especificar um nome, o nome do primeiro relatório no painel se tornará o nome do painel, por padrão.</p></td>
+      <td><p>Este é o nome do seu painel. Recomendamos usar somente caracteres UTF-8 para evitar problemas de compatibilidade.</p><p>Se você não especificar um nome, o nome do primeiro relatório no painel se tornará o nome do painel, por padrão.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Descrição (opcional)</strong></td>

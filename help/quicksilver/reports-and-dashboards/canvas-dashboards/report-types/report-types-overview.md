@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,10 @@ ht-degree: 0%
 Há vários relatórios diferentes que você pode adicionar a um Painel de controle do Canvas que visualizam seus dados do Workfront de maneiras diferentes. Os seguintes tipos de relatórios podem ser adicionados a um Painel de controle do Canvas:
 
 * Relatórios existentes (relatórios criados usando a ferramenta de relatórios)
-* Relatórios de gráfico (inclui gráficos de barras, colunas, linhas e pizza)
-* Relatórios de KPI
-* Relatórios de tabela
-* Relatórios de aprovações pendentes
+<!--* Chart reports (includes bar, column, line, and pie charts)
+* KPI reports 
+* Table reports
+* Pending approvals reports-->
 
 Para obter informações gerais sobre como adicionar e organizar relatórios em um Painel da Tela de Pintura, consulte [Adicionar, remover ou organizar relatórios em um Painel da Tela de Pintura](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Para obter informações mais detalhadas sobre a adição e a formatação de tipos de relatórios específicos, consulte o índice do artigo abaixo.
 
@@ -35,7 +35,7 @@ Para obter informações gerais sobre como adicionar e organizar relatórios em 
 Esta seção contém os seguintes artigos:
 
 * [Adicionar um relatório existente a um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-* [Criar um relatório de KPI em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-* [Criar um relatório de gráfico em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-* [Criar um relatório de tabela em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-* [Adicionar um relatório de aprovações pendentes a um Painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+<!--* [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+* [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+* [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+* [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->

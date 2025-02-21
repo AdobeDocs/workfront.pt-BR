@@ -6,9 +6,9 @@ description: Você pode adicionar um relatório a um painel novo ou existente di
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-Você pode adicionar um relatório a um painel novo ou existente diretamente de um relatório. Você também pode adicionar um relatório existente a um painel, conforme descrito em [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Você pode adicionar um relatório a um painel novo ou existente diretamente de um relatório. Você também pode adicionar um relatório existente a um painel, conforme descrito em [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). Observe que há um máximo de 25 relatórios, calendários ou páginas externas que podem ser adicionados a um único painel.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Você deve criar um relatório antes de adicioná-lo a um painel.
 
-Para obter informações sobre como criar um relatório, consulte [Criar um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Para obter informações sobre como criar um relatório, consulte [Criar um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Adicionar um relatório a um painel existente
 
