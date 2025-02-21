@@ -7,9 +7,9 @@ description: Você pode agrupar pelo valor em um campo personalizado de várias 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Para agrupar por um campo personalizado de várias seleções em um relatório:
 
    Os objetos no relatório são agrupados pelos valores do campo personalizado de seleção múltipla.
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![Agrupando meu campo de seleção múltipla](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    Os nomes dos agrupamentos do relatório são os nomes do campo personalizado de seleção múltipla seguido dos valores selecionados no campo.
 

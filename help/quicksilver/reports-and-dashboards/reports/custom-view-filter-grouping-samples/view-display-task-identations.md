@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: Exibir Recuos de Tarefas em uma Lista de Tarefas"
+title: 'View: Exibir Recuos de Tarefas em uma Lista de Tarefas'
 description: Nesta visualização de tarefa, você pode adicionar código à coluna Nome da tarefa para exibir as tarefas recuadas de acordo com a Estrutura de divisão de trabalho do projeto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Nesta visualização de tarefa, você pode adicionar código à coluna Nome da tarefa para exibir as tarefas recuadas de acordo com a Estrutura de divisão de trabalho do projeto.
 
-![](assets/view-text-mode-indentation-task-list-350x171.png)
+![Exibir recuo da tarefa](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## Requisitos de acesso
 

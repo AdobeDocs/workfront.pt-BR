@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Relatório: Exibição e Agrupamento Combinados de Tarefas e Problemas"
+title: 'Relatório: Exibição e Agrupamento Combinados de Tarefas e Problemas'
 description: Este relatório de Item de trabalho mostra tarefas e problemas em que os usuários aceitaram trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Para criar um relatório com esta exibição:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito ou no ícone ![](assets/lines-main-menu.png) do **Menu Principal** no canto superior esquerdo, se disponível, em seguida clique em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no ícone **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida em **Relatórios**.
 
 1. Clique em **Novo Relatório** > **Mais** > **Item de Trabalho** no menu suspenso.
 

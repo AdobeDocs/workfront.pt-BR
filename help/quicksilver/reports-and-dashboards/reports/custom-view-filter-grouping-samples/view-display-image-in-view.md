@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: exibir uma imagem em vez de uma cadeia de caracteres em uma coluna"
+title: 'Exibição: exibir uma imagem em vez de uma cadeia de caracteres em uma coluna'
 description: Você pode substituir o nome de um objeto em uma visualização por uma imagem usando o modo de texto. Você também pode adicionar um link para a imagem que pode abrir o objeto substituído.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Você pode substituir o nome de um objeto em uma visualização por uma imagem u
 >
 >As imagens aparecem em sua resolução real, portanto, tente usar imagens pequenas.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![Substituir nome do projeto por imagem e link](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Requisitos de acesso
 
@@ -86,7 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    1. Clique com o botão direito do mouse e selecione **Copiar local da imagem** ou **Obter link**, dependendo do seu navegador. Agora você tem o URL para essa imagem específica e pode colá-lo da área de transferência.
    1. Certifique-se de que todos os usuários com esse link têm permissões para visualizar a imagem apenas acessando o link e que não precisam de um logon para acessá-la.
 
-1. Vá para um projeto, clique no menu **Mais** ![](assets/more-icon-45x33.png) ao lado do nome do projeto e clique em **Editar**.
+1. Vá para um projeto, clique no **Mais** ícone ![Mais](assets/more-icon-45x33.png) ao lado do nome do projeto e clique em **Editar**.
 
 1. No campo **URL**, adicione o link à imagem.
 1. Ir para uma exibição de projeto em uma lista de projetos.

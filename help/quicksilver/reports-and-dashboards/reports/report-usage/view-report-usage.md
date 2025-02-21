@@ -6,9 +6,9 @@ description: Visualizar uso do relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Exibir informações de uso do relatório na Exibição de uma lista de relatórios
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Workfront e em **Relatórios**.
 
 1. Na lista de relatórios, clique no menu suspenso **Exibir**.
 1. (Opcional) Selecione a exibição **Uso de relatórios** para exibir as informações mais comuns sobre o uso de relatórios.\
@@ -97,7 +97,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Filtrar uma lista de relatórios por informações de uso {#filter-a-report-list-by-usage-information}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Workfront e em **Relatórios**.
 1. Na lista de relatórios, clique no menu suspenso **Filtro**.
 1. Clique em **Novo filtro** e em **Adicionar uma regra de filtro**.
 1. Comece a digitar qualquer um dos campos a seguir e selecione-os quando eles aparecerem na lista sob o objeto **Relatório** para adicioná-los como uma nova regra de filtro:
@@ -112,7 +112,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * **Última Data de Visualização**: Exibe a data em que o relatório foi visualizado pela última vez
 
 1. Selecione um modificador para o campo e especifique um valor quando solicitado.\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![Relatar estatísticas de filtro de uso](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Clique em **Salvar filtro**.\
    Exibe uma lista de relatórios que atendem às informações de uso definidas.\

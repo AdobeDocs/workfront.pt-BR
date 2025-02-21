@@ -6,10 +6,10 @@ description: É possível editar um filtro em uma lista ou relatório usando o m
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1044'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
 1. Siga um destes procedimentos:
 
-   Para acessar o filtro de uma lista, vá para a lista e clique no ícone **Filtro**, em seguida, passe o mouse sobre o filtro no painel lateral **Filtros** que você deseja modificar e clique no ícone ![](assets/edit-icon.png) **Editar**. O painel lateral **Filtros** exibe o filtro selecionado ou o construtor de filtros herdados abre.
+   Para acessar o filtro de uma lista, vá para a lista e clique no ícone **Filtro**, em seguida, passe o mouse sobre o filtro no painel lateral **Filtros** que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png). O painel lateral **Filtros** exibe o filtro selecionado ou o construtor de filtros herdados abre.
 
    OU
 

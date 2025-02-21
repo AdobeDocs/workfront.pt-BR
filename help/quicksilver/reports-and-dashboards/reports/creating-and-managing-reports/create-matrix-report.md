@@ -6,9 +6,9 @@ description: Relatórios de matriz apresentam informações resumidas em um form
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ Você pode criar um relatório de matriz para qualquer relatório que contenha 2
 
 Por exemplo, você deseja criar um relatório de Horas que exiba as horas registradas durante um período de 3 meses e deseja que o relatório seja organizado de acordo com quem inseriu as horas, bem como por mês e semana.
 
-![](assets/report-matrix-overview-350x123.png)
+![Visão geral da matriz de relatórios](assets/report-matrix-overview-350x123.png)
 
 ## Como os dados são exibidos em um relatório de matriz
 
 As informações no relatório de matriz são sempre exibidas como um valor numérico. Na maioria dos casos, as colunas que contêm um valor numérico são melhores para exibição em um relatório de matriz (como horas registradas e custo real).
 
 No entanto, outras colunas (como Status) ainda podem ser exibidas no relatório de matriz, conforme mostrado no gráfico a seguir:\
-![](assets/report-matrix-status-350x73.png)
+![Status da matriz](assets/report-matrix-status-350x73.png)
 
 ## Requisitos de acesso
 
@@ -91,7 +91,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       >
       >Se essa opção não estiver selecionada, as informações da coluna não serão exibidas corretamente no relatório de matriz.
 
-      ![](assets/qs-report-matrix-summarized-350x392.png)
+      ![Matriz resumida](assets/qs-report-matrix-summarized-350x392.png)
 
    1. Repita esse processo para cada coluna na guia Colunas (Exibição) e clique em **Concluído**.
 
@@ -105,10 +105,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    1. Na seção **Agrupamentos de Colunas**, identifique o agrupamento de colunas, que estabelece os agrupamentos verticais da tabela.
    1. (Opcional) Para adicionar um agrupamento de coluna adicional, clique em **Adicionar agrupamento de coluna secundário**.
    1. (Condicional) Se você adicionar um agrupamento por data, especifique também se os resultados serão agrupados por dia, semana, mês, trimestre ou ano.\
-      ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![Opções de agrupamento por data](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. (Condicional) Se você optou por agrupar por data e mostrar resultados por trimestre, por exemplo, especifique se deseja mostrar trimestres sem dados marcando a caixa de seleção **Mostrar trimestres sem resultados**.\
-      ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![Mostrar trimestres sem resultados](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >

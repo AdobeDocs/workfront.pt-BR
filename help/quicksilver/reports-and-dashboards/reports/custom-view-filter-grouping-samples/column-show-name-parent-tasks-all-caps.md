@@ -7,9 +7,9 @@ description: É possível adicionar essa coluna a uma visualização de tarefa p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 É possível adicionar essa coluna a uma visualização de tarefa para exibir o nome das tarefas pai em todas as letras maiúsculas.
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+![Coluna com tarefa pai em todas as maiúsculas](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Requisitos de acesso
 
@@ -67,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Para criar essa coluna em uma exibição de tarefa:
 
 1. Ir para uma lista de tarefas.
-1. No menu suspenso **Exibir**, selecione um modo de exibição e clique no ícone ![](assets/edit-icon.png) de **Editar**.
+1. No menu suspenso **Exibir**, selecione um modo de exibição e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 Ou\
    No menu suspenso **Exibir**, selecione **Nova Exibição**.
 

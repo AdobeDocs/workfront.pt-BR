@@ -7,9 +7,9 @@ description: Você pode ver se um relatório é adicionado a um painel no Adobe 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Para criar uma view com informações do painel para uma lista de relatórios:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Workfront e em **Relatórios**.
 1. Na lista de relatórios, clique no menu suspenso **Exibir**.
 1. Clique em **Nova Exibição**.
 1. Clique em **Adicionar coluna**.
@@ -77,13 +77,13 @@ Para criar uma view com informações do painel para uma lista de relatórios:
 
 1. Clique em **Salvar visualização**.\
    Os painéis nos quais um relatório é exibido são exibidos na coluna Dashboards da lista de relatórios.\
-   ![](assets/qs-dashboards-in-report-view.png)
+   ![Painéis no relatório](assets/qs-dashboards-in-report-view.png)
 
 ## Filtrar uma lista de relatórios por informações do painel
 
 Para filtrar uma lista de relatórios por informações do painel:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Workfront e em **Relatórios**.
 
 1. Na lista de relatórios, clique no menu suspenso **Filtro**.
 1. Clique em **Novo filtro** e em **Adicionar uma regra de filtro**.
@@ -93,7 +93,7 @@ Para filtrar uma lista de relatórios por informações do painel:
 1. No objeto **Painéis**, selecione **Nome**.
 
 1. Selecione **Igual** no menu suspenso do modificador e comece a digitar o nome do painel pelo qual você deseja filtrar. Você pode selecionar vários painéis para o filtro.\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![Painéis em filtros de relatório](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. Clique em **Salvar + Fechar**.\
    Isso exibe uma lista de relatórios que estão listados somente nos painéis especificados.\

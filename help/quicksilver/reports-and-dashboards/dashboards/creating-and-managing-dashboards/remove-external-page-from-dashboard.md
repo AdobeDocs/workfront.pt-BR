@@ -6,9 +6,9 @@ description: Você pode remover uma Página externa de um painel se ela não for
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Clique em **Ações do Painel** e em **Editar**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Editar painel](assets/unshimmed-edit-dashboard.png)
 
-1. No lado direito da tela, localize a página externa que deseja remover e clique no ícone **Excluir**: ![](assets/delete.png).
+1. No lado direito da tela, localize a página externa que deseja remover e clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png).
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![Excluir ícone de página externa dentro do painel](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Clique em **Salvar + Fechar** no canto inferior esquerdo.
 

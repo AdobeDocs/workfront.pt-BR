@@ -6,9 +6,9 @@ description: Você pode incorporar uma página externa da Web em um painel para 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Por exemplo, se sua organização tiver um repositório de documentos baseado na
 >[!IMPORTANT]
 >
 >* Por motivos de segurança, alguns sites não permitem que você incorpore páginas da Web como um iframe. Se a página da Web que você deseja incorporar em um painel não permitir, a página não será exibida no painel. No entanto, ainda é possível acessar a página externa clicando no nome do painel.\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![Relatório de página externa vazio](assets/qs-empty-external-page-report-350x165.png)\
 >Para permitir a incorporação de um site que você possui, peça ao administrador da Web que ajuste a configuração **X-Frame-Options**. Para obter mais informações, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -118,7 +118,7 @@ Ou\
 
 1. Clique em **Adicionar página externa** na área **Selecionar layout/Adicionar relatórios/Adicionar calendários**.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![Adicionar página externa](assets/qs-add-external-page-350x239.png)
 
    A caixa **Adicionar página externa** é exibida.
 
@@ -132,7 +132,7 @@ Ou\
 
       * Um URL https (criptografado) para uma página da Web.\
         Somente páginas https (criptografadas) são carregadas com o URL.\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![Caixa de diálogo Adicionar página externa](assets/add-external-page-dialog-qs-350x247.png)
 
       * Um URL de modelo que contém informações de sessão de um site específico.\
         Por exemplo: *https://localhost/?session={!$$SESSION}*
@@ -170,10 +170,10 @@ Para atualizar as informações de uma página externa usada em um painel:
    A caixa **Detalhes do Painel** é aberta.
 
 1. Na área **Selecionar layout/Adicionar relatórios** da caixa **Detalhes do painel**, localize a página externa que deseja atualizar, passe o mouse sobre ela e clique no ícone **Editar**.\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![Página externa de edição embutida](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Na caixa **Editar Página Externa**, atualize os campos que deseja alterar e clique em **Salvar**.
-1. (Opcional) Clique no ícone ![](assets/delete.png) de **Excluir** para remover a página externa do painel. Para obter mais informações, consulte [Remover uma Página Externa de um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Opcional) Clique no ícone **Excluir** ![Excluir ícone](assets/delete.png) para remover a página externa do painel. Para obter mais informações, consulte [Remover uma Página Externa de um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Clique em **Salvar + Fechar**.
 
 ## Visualizar páginas externas em um relatório
@@ -184,7 +184,7 @@ Você pode exibir todas as páginas externas no Workfront em um relatório de P�
 
 1. Clique em **Novo Relatório** > selecione **Seção Externa**.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![Seção externa](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Opcional) Atualize as guias Exibição, Filtros ou Agrupamentos do relatório.
 

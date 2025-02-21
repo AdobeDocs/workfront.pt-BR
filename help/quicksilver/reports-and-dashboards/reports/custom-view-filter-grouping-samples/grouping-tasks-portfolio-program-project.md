@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupamento: tarefas por Portfolio, programa e projeto"
+title: 'Agrupamento: tarefas por Portfolio, programa e projeto'
 description: Use este agrupamento de tarefas para agrupar tarefas por portfólio, por programa e pelo projeto ao qual estão associadas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Use este agrupamento de tarefas para agrupar tarefas por portfólio, por programa e pelo projeto ao qual estão associadas.
 
-![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Agrupamento de projetos do programa Portfolio](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Requisitos de acesso
 

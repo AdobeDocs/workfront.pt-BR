@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualização: Remover link para um objeto em uma coluna"
+title: 'Visualização: Remover Link para um Objeto em uma Coluna'
 description: Alguns objetos exibidos em uma view são vinculados à página Detalhes do objeto, por padrão. Por exemplo, a coluna que exibe o Nome de um projeto é um link para o projeto; a coluna que exibe o Nome de um usuário é um link para a página de perfil do usuário.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Ou
 
-   Clique no **ícone Editar** ![](assets/edit-icon.png)
+   Clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png)
 
    para editar uma exibição existente, selecione-a.
 

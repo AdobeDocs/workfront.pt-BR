@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: tempo de folga pessoal do usuário"
-description: "Exibição: folga pessoal do usuário"
+title: 'Exibir: tempo de folga pessoal do usuário'
+description: 'Exibição: Tempo de folga pessoal do usuário'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Exibir tempo de folga pessoal do usuário
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e em **Relatórios > Novo relatório**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **Relatórios > Novo Relatório**.
 1. No menu suspenso, selecione **Folga**.
 1. Clique em **Salvar + Fechar**.
 

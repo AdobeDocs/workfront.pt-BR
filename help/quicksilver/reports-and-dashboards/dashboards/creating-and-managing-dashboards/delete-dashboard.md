@@ -6,9 +6,9 @@ description: Se você não tiver mais uso para um painel, poderá removê-lo do 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Para excluir um painel:
 1. Vá para o painel que deseja editar.
 1. Clique em **Ações do Painel** e em **Excluir**.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![Excluir painel](assets/unshimmed-delete-dashboard.png)
 
 1. Para confirmar que deseja excluir o painel, clique em **Sim, Excluir.**
 O painel é removido do Workfront.
@@ -84,9 +84,9 @@ Se você estiver excluindo vários painéis, é possível excluir os painéis da
 Para excluir vários painéis:
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Painéis]**.
-1. Selecione cada painel na lista que você deseja excluir e clique em **Excluir** ![](assets/delete.png).
+1. Selecione cada painel na lista que você deseja excluir e clique em **Excluir** ![Ícone Excluir](assets/delete.png).
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![Excluir painel](assets/unshimmed-delete-dashboard-list.png)
 
 1. Para confirmar que deseja excluir o painel, clique em **Sim, Excluir.**
 O painel é removido do Workfront.

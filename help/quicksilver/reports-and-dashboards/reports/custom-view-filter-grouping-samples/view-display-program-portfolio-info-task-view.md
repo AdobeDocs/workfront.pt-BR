@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: Exibir Informações de Programa e Portfolio em uma Exibição de Tarefa"
+title: 'Exibir: Exibir Informações do Programa e do Portfolio em uma Exibição de Tarefa'
 description: Essa visualização de tarefa exibe o Programa e o Portfolio associados ao projeto da tarefa. Essas informações não estão disponíveis no Report Builder ao criar uma visualização de tarefa. Essas informações estão disponíveis somente no modo de texto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# Exibição: exibir informações de Programa e Portfolio em uma exibição de tarefa
+# Exibição: exibir informações do Programa e do Portfolio em uma exibição de tarefa
 
 Essa visualização de tarefa exibe o Programa e o Portfolio associados ao projeto da tarefa. Essas informações não estão disponíveis no Report Builder ao criar uma visualização de tarefa. Essas informações estão disponíveis somente no modo de texto.
 
-A visualização também fornece links para o Projeto, Programa e Portfolio de uma lista de tarefas.
+A visualização também fornece links para o Projeto, Programa e Portfolio a partir de uma lista de tarefas.
 
-![](assets/view--program-and-portfolio-350x116.png)
+![Exibir programa e portfólio](assets/view--program-and-portfolio-350x116.png)
 
 ## Requisitos de acesso
 
@@ -62,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Exibir informações de Programa e Portfolio em uma Exibição de tarefa
+## Exibir informações do Programa e do Portfolio em uma Exibição de tarefa
 
 1. Ir para uma lista de tarefas.
 1. No menu suspenso **Exibir**, selecione **Nova Exibição**.

@@ -4,9 +4,9 @@ description: Configurar uma visualização de KPI na Tela de relatório
 hidefromtoc: true
 hide: true
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 1. Comece adicionando um bloco de visualização com o tipo de visualização **KPI** a um relatório, conforme explicado em [Adicionar ou editar um bloco de visualização na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Clique no ícone Editar visualização ![](assets/edit-icon.png) no canto superior direito da visualização e siga um destes procedimentos.
+1. Clique no ícone Editar visualização ![Ícone Editar](assets/edit-icon.png) no canto superior direito da visualização e siga um destes procedimentos.
 
    1. Na guia **Configurações**:
 

@@ -6,10 +6,10 @@ description: Você pode usar a formatação condicional para comparar dois campo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 1%
 
 ---
 
@@ -76,7 +76,7 @@ Para comparar a Data Inicial Planejada e a Data Inicial Real da tarefa usando a 
 1. Informe os critérios de comparação usando os valores existentes encontrados no construtor e especifique sua formatação condicional.\
    Por exemplo, queremos destacar tarefas em que a Data de Início Efetivo seja posterior (ou posterior) à Data de Início Planejada. Selecione o modificador Maior que e selecione uma data real no campo de data.
 
-   ![](assets/cond-format-1-350x84.png)
+   ![Formatação condicional para a data de início real](assets/cond-format-1-350x84.png)
 
 1. (Opcional) Selecione **Aplicar à linha inteira** se desejar aplicar a formatação à linha inteira.
 1. Clique em **Salvar**.
@@ -104,7 +104,7 @@ Para comparar a Data Inicial Planejada e a Data Inicial Real da tarefa usando a 
 
 1. Verifique se a linha de código `righttext` corresponde à instrução na linha de código `rightmethod`.
 
-   ![](assets/cond-format-2-350x171.png)
+   ![Formatação condicional](assets/cond-format-2-350x171.png)
 
 1. Clique em **Salvar**.
 1. Clique em **Salvar + Fechar**.

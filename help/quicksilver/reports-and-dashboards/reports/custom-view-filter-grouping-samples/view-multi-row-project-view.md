@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: exibição de projeto de várias linhas"
+title: 'Exibição: Exibição de Projeto Multilinha'
 description: Saiba mais sobre a exibição de projeto de várias linhas nos relatórios.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Nesta visualização de projeto você pode:
 * Exibir informações do projeto em um formato de várias linhas.\
   O modo de exibição usa a marca `sharecol=true` para combinar vários campos sob o mesmo cabeçalho de coluna. Para saber mais sobre esta marca, consulte [Exibir: mesclar informações de várias colunas em uma coluna compartilhada](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-* Use uma coluna de espaço reservado que contenha uma marca de quebra de linha de HTML (`<br>`) para forçar a Descrição a ser exibida abaixo do nome do projeto, por exemplo.
+* Use uma coluna de espaço reservado que contenha uma marca de quebra de linha (`<br>`) da HTML para forçar a exibição da Descrição abaixo do nome do projeto, por exemplo.
 * Exiba o Proprietário do projeto entre parênteses após o Nome do projeto.
 * Exiba o Nome do projeto como um link para o projeto.
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![Linha de projeto com exibição empilhada](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Requisitos de acesso
 

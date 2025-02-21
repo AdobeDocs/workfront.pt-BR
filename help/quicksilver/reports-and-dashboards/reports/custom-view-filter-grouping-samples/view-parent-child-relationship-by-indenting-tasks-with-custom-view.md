@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Exibir o Relacionamento Pai-Filho em uma Tarefa Recuando as Tarefas"
+title: 'View: Exibir o Relacionamento Pai-Filho em uma Tarefa Recuando as Tarefas'
 description: Você pode manter a distinção de relacionamentos pai-filho em uma lista de tarefas exportada adicionando um modo de exibição personalizado à lista de tarefas e garantindo que esse modo de exibição seja selecionado antes de exportar a lista.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Você pode manter a distinção de relacionamentos pai-filho em uma lista de tarefas exportada adicionando um modo de exibição personalizado à lista de tarefas e garantindo que esse modo de exibição seja selecionado antes de exportar a lista.
 
-![](assets/parent-child-indented-custom-view-350x94.png)
+![Recuo pai/filho](assets/parent-child-indented-custom-view-350x94.png)
 
 ## Requisitos de acesso
 

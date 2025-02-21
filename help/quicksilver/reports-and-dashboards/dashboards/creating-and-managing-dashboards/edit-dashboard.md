@@ -6,10 +6,10 @@ description: O objetivo do painel é fornecer acesso rápido às informações. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 2%
 
 ---
 
@@ -86,7 +86,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 1. Vá para o painel que deseja editar.
 1. Clique em **Ações do Painel** e em **Editar**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Editar painel](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

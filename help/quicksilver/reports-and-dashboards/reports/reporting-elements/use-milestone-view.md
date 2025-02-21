@@ -6,9 +6,9 @@ description: Você pode aplicar a visualização Marco a uma lista de projeto ou
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -126,16 +126,16 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 * **Ícones de status de tarefas:** um ícone de status é exibido ao lado de cada projeto e tarefa no modo de exibição Marco.
 
    * No Prazo\
-     ![](assets/gantt-ontime.png)
+     ![Ícone On time](assets/gantt-ontime.png)
 
    * Fora do Cronograma\
-     ![](assets/gantt-behind.png)
+     ![Ícone Atrás](assets/gantt-behind.png)
 
    * Em Risco\
-     ![](assets/gantt-atrisk.png)
+     ![Ícone de risco](assets/gantt-atrisk.png)
 
    * Atrasado\
-     ![](assets/gantt-late.png)
+     ![Ícone de atraso](assets/gantt-late.png)
 
   Você pode desabilitar a exibição desses ícones de status, conforme descrito na seção [Configurar quais informações serão exibidas na exibição de Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.\
   Para obter informações mais detalhadas sobre cada tipo de status, consulte o artigo [Visão geral do status do progresso da tarefa](../../../manage-work/tasks/task-information/task-progress-status.md).
@@ -183,7 +183,7 @@ Para configurar se os ícones de status do projeto e a porcentagem de conclusão
 {{step1-to-projects}}
 
 1. Clique no menu suspenso **Exibir** e em **Marco**.\
-   Se você estiver visualizando uma lista de projetos dentro de um Portfolio ou Programa, selecione a subguia **Marco**.
+   Se você estiver visualizando uma lista de projetos dentro de uma Portfolio ou um Programa, selecione a subguia **Marco**.
 
 1. Clique em **Opções** no canto superior direito da exibição Marco.\
    ![marco_exibição_opções.png](assets/milestone-view-options-350x141.png)

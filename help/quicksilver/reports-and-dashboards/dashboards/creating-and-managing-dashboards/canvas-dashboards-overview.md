@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Uma nova opção Painéis de tela de desenho no painel esquerdo da página de at
 
 1. Clique no menu suspenso **Personalizar o que os usuários veem** e clique em **Painéis**.
 
-1. Na lista **Painel esquerdo** que aparece abaixo, clique no ícone ![](assets/delete-secondary-nav-item.png) ao lado de **Painéis da Tela**. O ícone mudará para ![](assets/add-secondary-nav-item.png) para mostrar que agora está visível no painel esquerdo de Painéis.
+1. Na lista **Painel esquerdo** que aparece abaixo, clique no ícone ![Excluir item de navegação secundário](assets/delete-secondary-nav-item.png) ao lado de **Painéis da Tela**. O ícone mudará para ![Adicionar item de navegação secundário](assets/add-secondary-nav-item.png) para mostrar que agora está visível no painel esquerdo de Painéis.
 
 1. Clique em **Salvar** na parte inferior da tela.
 
@@ -49,7 +49,7 @@ Uma nova opção Painéis de tela de desenho no painel esquerdo da página de at
 
 1. Certifique-se de ter ativado a opção Painéis da tela de desenho no Modelo de layout. Consulte **Adicionando Painéis da Tela de Pintura ao menu Painéis** acima para obter instruções.
 
-1. Clique no ícone Menu Principal ![](assets/main-menu-icon.png) e em **Painéis**.
+1. Clique no ícone Menu Principal ![ícone Menu Principal](assets/main-menu-icon.png) e clique em **Painéis**.
 
 1. No painel esquerdo, clique em **Painéis do Canvas**.
 

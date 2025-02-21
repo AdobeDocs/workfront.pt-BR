@@ -6,9 +6,9 @@ description: É possível editar uma visualização em uma lista ou relatório u
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 1. Siga um destes procedimentos:
 
    1. Para acessar o modo de exibição de um relatório, vá para o relatório e clique na guia **Ações de Relatório** > **Editar** > **Colunas (Modo de Exibição)**.
-   1. Para acessar a exibição de uma lista, vá para a lista e, no menu suspenso **Exibir**, passe o mouse sobre a exibição que você deseja modificar e clique no ícone ![](assets/edit-icon.png) de **Editar**.
+   1. Para acessar a exibição de uma lista, vá para a lista e, no menu suspenso **Exibir**, passe o mouse sobre a exibição que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 
       O construtor de exibições é aberto.
 

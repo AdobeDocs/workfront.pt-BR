@@ -6,10 +6,10 @@ description: Usar formatação condicional no Modo de texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1734'
+ht-degree: 1%
 
 ---
 
@@ -189,10 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Embora essa instrução possa ser aplicada a uma coluna de Nome da empresa, ela também pode ser aplicada a qualquer outra coluna no relatório. O texto em verde só seria exibido se o projeto tivesse uma Empresa associada a ele. Lembre-se da unidade `[field name]`, `[value]` e `[qualifier]` se a condição é exibida ou não na coluna.
 >* Ao trabalhar com qualificadores, recomendamos usar `cicontains` em vez de `equal`. Por padrão, `equal` procura números de ID. Usando o qualificador `cicontains`, você pode acessar itens pelo nome.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![Exemplo de modo de texto](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![Resultados de exemplo do modo texto](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Se Cor do texto, Alinhamento, Estilo da fonte ou Cor do plano de fundo forem aplicados a um modo de texto, a mesma instrução (mostrada acima) será usada.
 
@@ -297,9 +297,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >As linhas que começam com `case.0.` usam comparações de casos para identificar o uso de texto. As linhas que começam com `styledef.case.0.` são instruções de formatação condicional antecipada onde identificamos o uso de texto através da expressão `truetext`. Defina `truetext` com um valor, em vez de deixá-lo em branco.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![Aplicar exemplo de texto](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![Aplicar resultados de texto](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Aplicar formatos de linha {#apply-row-formats}
 
@@ -359,30 +359,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >Observe que a instrução usa a expressão `icon=true`. Esta instrução também é diferente de outras instruções de formatação condicional, pois não usa o formato `style.def`, mas sim um formato de imagem exclusivo.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![Modo de texto do ícone](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![Resultados do modo de texto do ícone](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 Para usar as imagens disponíveis, aplique os seguintes códigos e valores:
 
 | **Ícone** | **Linha: image.case.0.comparison.truetext=** |
 |---|---|
-| Rosto Triste ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Rosto Feliz ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Sinalizador Azul ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Sinalizador Verde ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Sinalizador vermelho ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Sinalizador Amarelo ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Círculo Preto ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Círculo azul ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| Círculo Cinza ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| Círculo verde ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| Círculo Laranja ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| Círculo Rosa ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Círculo Roxo ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Círculo Vermelho ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| Círculo Branco ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| Círculo Amarelo ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| Rosto Triste ![Rosto Triste](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Rosto feliz ![Rosto feliz](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Sinalizador Azul ![Sinalizador Azul](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Sinalizador Verde ![Sinalizador Verde](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Sinalizador vermelho ![Sinalizador vermelho](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Sinalizador Amarelo ![Sinalizador Amarelo](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Círculo Preto ![Círculo Preto](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Círculo azul ![Círculo azul](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| Círculo Cinza ![Círculo Cinza](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Círculo verde ![Círculo verde](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| Círculo Laranja ![Círculo Laranja](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| Círculo Rosa ![Círculo Rosa](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Círculo Roxo ![Círculo Roxo](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Círculo Vermelho ![Círculo Vermelho](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| Círculo Branco ![Círculo Branco](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| Círculo Amarelo ![Círculo amarelo](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 

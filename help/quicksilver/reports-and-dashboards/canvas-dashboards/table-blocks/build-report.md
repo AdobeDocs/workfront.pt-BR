@@ -4,9 +4,9 @@ description: Criar um relatório na tela de relatórios
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 >
 >Todas as alterações são salvas automaticamente à medida que você cria e edita os blocos no relatório.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
 1. Clique em **Novo relatório**.
 1. No canto superior esquerdo da tela de edição, digite um nome para o relatório.
 
-   Você pode alterar o nome do relatório a qualquer momento clicando no ícone **Editar** ![](assets/edit-icon.png) ao lado do seu nome.
+   Você pode alterar o nome do relatório a qualquer momento clicando no **ícone Editar** ![ícone Editar](assets/edit-icon.png) ao lado do seu nome.
 
 1. Do lado direito da tela, arraste os blocos que deseja adicionar para a tela.
 

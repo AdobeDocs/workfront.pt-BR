@@ -7,9 +7,9 @@ description: Você pode exibir usuários, funções de trabalho e equipes associ
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Você pode exibir ou filtrar por usuários, funções de trabalho ou equipes ass
 
 Você pode exibir todos os usuários associados ao no projeto na visualização de uma lista de projeto ou relatório. Isso inclui todos os usuários listados na seção Pessoas do projeto. Você também pode visualizar as funções às quais estão associados quando atribuídas a tarefas ou problemas no projeto em um relatório de projeto.
 
-![](assets/project-with-user-and-role-information-report-350x100.png)
+![Projeto com informações de usuário e função](assets/project-with-user-and-role-information-report-350x100.png)
 
 Para obter informações sobre como criar um relatório de projeto para exibir todos os usuários e suas funções no projeto, consulte [Exibir: lista de usuários do projeto com funções de trabalho](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
@@ -65,7 +65,7 @@ Não é possível filtrar usuários ou funções de trabalho associados a projet
 
 Você pode exibir todos os usuários, funções ou equipes atribuídos a uma tarefa na exibição de uma lista de tarefas ou relatório adicionando o campo Atribuições à exibição.
 
-![](assets/assignments-field-task-view-350x124.png)
+![Campo de atribuição](assets/assignments-field-task-view-350x124.png)
 
 É possível filtrar por usuários, funções de trabalho ou equipes atribuídas a tarefas, referenciando os seguintes campos em um filtro de tarefa:
 
@@ -73,7 +73,7 @@ Você pode exibir todos os usuários, funções ou equipes atribuídos a uma tar
 * Funções das atribuições
 * Equipe
 
-![](assets/assignment-users-roles-task-filter-350x334.png)
+![Atribuir usuários e funções no filtro de tarefa](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## Exibir todos os usuários, funções de trabalho ou equipes atribuídos a um problema
 

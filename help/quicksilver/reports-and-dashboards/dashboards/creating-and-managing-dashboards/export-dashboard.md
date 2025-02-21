@@ -6,9 +6,9 @@ description: É possível exportar um painel para um arquivo PDF usando as opç�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 1. Vá para o painel que deseja exportar.
 1. Clique em **Ações do painel** e selecione **Visualizar impressão**.
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![Visualização de impressão do painel](assets/dashboard-actions-print-350x254.png)
 
    A janela Visualizar impressão é aberta.
 
@@ -107,7 +107,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
       <td>Internet Explorer, Microsoft Edge e Mozilla Firefox</td> 
       <td> <p>Observação: se estiver usando o Internet Explorer versão 11, talvez você não consiga usar a funcionalidade Imprimir em PDF sem instalar um plug-in de terceiros.</p> 
        <ol> 
-        <li value="1">No campo <strong>Impressora</strong> ou <strong>Selecionar Impressora</strong>, selecione <strong>Imprimir Microsoft em PDF</strong> e modifique quaisquer outras opções de impressão que desejar alterar.</li> 
+        <li value="1">No campo <strong>Impressora</strong> ou <strong>Selecionar Impressora</strong>, selecione <strong>Microsoft Imprimir no PDF</strong> e modifique quaisquer outras opções de impressão que desejar alterar.</li> 
         <li value="2">Clique em <strong>Imprimir</strong>.</li> 
         <li value="3">Insira um <strong>Nome do arquivo</strong></li> 
         <li value="4">(Opcional) Selecione um novo destino de pasta para o arquivo.</li> 

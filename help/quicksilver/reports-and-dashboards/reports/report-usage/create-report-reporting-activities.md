@@ -7,9 +7,9 @@ description: Ao criar um relatório sobre relatórios, você pode identificar in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar o relatório sobre relatórios existentes {#create-the-report-about-existing-reports}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
 1. Clique em **Relatórios** e depois em **Novo Relatório**.
 1. No menu suspenso **Novo Relatório**, selecione **Relatório** para criar um relatório sobre relatórios existentes.
 

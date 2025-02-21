@@ -4,9 +4,9 @@ description: Criar um campo de fórmula na Tela de relatório
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '662'
 ht-degree: 7%
 
 ---
@@ -22,16 +22,16 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 ## Criar um campo de fórmula
 
 1. Crie ou navegue até um bloco de tabela, conforme descrito em [Adicionar ou editar um bloco de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. No cabeçalho da tabela do relatório, clique no ícone **Editar** ![](assets/edit-icon.png).
+1. No cabeçalho da tabela do relatório, clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Ícone Editar no cabeçalho da tabela](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >Se você acabou de criar a tabela e ainda não adicionou nenhum campo, clique no botão Editar no centro da tabela.
 
 1. Clique em **Novo +** na parte superior da lista **Campos** no painel direito.
-1. Na nova página que é aberta, clique no ícone ![](assets/edit-icon.png) de **Editar** ao lado do nome do campo no canto superior esquerdo para alterar o nome do campo da fórmula.
+1. Na nova página que é aberta, clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) ao lado do nome do campo no canto superior esquerdo para alterar o nome do campo da fórmula.
 1. Arraste **Funções** ou **Campos** do painel esquerdo para o construtor de campos no centro para adicioná-los ao campo de fórmula.
 
 
@@ -41,7 +41,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
    Cada função contém um número de retângulos pontilhados vazios que serão usados como argumentos no cálculo de um resultado. Esses podem ser preenchidos inserindo texto ou números estáticos, arrastando e soltando um campo do painel esquerdo (usando o valor do campo no cálculo) ou arrastando e soltando outra função (criando uma função aninhada). As possíveis funções incluem:
 
-   | Função | Descrição | Output |
+   | Função | Descrição | Saída |
    |---|---|---|
    | SE | Compare dois argumentos com base em um modificador selecionado e execute uma ação especificada com base no valor resultante True (Is True:) ou False (Is False:). Observação: no momento, o segundo argumento não pode ser um valor estático Verdadeiro ou Falso. Em vez disso, você pode usar uma função aninhada como ISBLANK(Nome do projeto) que sempre retorna Falso como solução alternativa. | Verdadeiro/Falso, Data, Número ou String |
    | CONCAT | Mescle duas ou mais cadeias de caracteres juntas de ponta a ponta para criar uma nova cadeia de caracteres. | String |

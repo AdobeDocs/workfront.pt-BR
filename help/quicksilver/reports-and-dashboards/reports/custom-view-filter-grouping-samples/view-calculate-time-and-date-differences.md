@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Calcular Diferenças de Data e Hora"
+title: 'View: Calcular Diferenças de Data e Hora'
 description: Saiba como calcular diferenças de data e hora.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Por exemplo, você pode calcular a diferença entre a Data de conclusão planejada e a Data de conclusão real de uma tarefa.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![Exibir diferença de data](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Ir para uma lista de tarefas.
 1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
@@ -100,7 +100,7 @@ Por exemplo, você pode calcular a diferença entre a Data de conclusão planeja
 Para obter uma lista de objetos e seus pais, consulte a seção &quot;Noções Básicas sobre a Interdependência e a Hierarquia de Objetos&quot; em [Noções Básicas sobre Objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Por exemplo, você pode calcular a diferença entre a Data de conclusão planejada de uma tarefa e a Data de conclusão planejada de sua tarefa pai ou do projeto em que a tarefa está.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![Exibir diferença de data de término planejada](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ir para uma lista de tarefas.
 1. No menu suspenso **Exibir**, clique em **Nova Exibição**.

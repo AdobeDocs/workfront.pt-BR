@@ -6,9 +6,9 @@ description: Coleções de referência em um relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ A exibição mostra informações de tarefas ou problemas em um formato de lista
 
 Para adicionar uma coluna de coleção em uma exibição de relatório:
 
-1. Clique no menu **Principal** ![](assets/main-menu-icon.png) e em **Relatórios**.
+1. Clique no **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) e em **Relatórios**.
 1. Clique em **Novo Relatório**.
 1. Selecione o objeto do relatório.
 1. Saia do seu relatório e, usando o [API Explorer](../../../wf-api/general/api-explorer.md), determine quais coleções estão disponíveis para o objeto selecionado para o seu relatório.
@@ -236,7 +236,7 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
 
 1. A coluna a seguir é exibida no relatório de projeto, listando todas as tarefas em cada projeto junto com seus atribuídos principais:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![Relatório de projeto com coleção de tarefas e responsáveis](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Clique em **Salvar**.
 1. (Opcional) Continue editando o relatório.
@@ -261,7 +261,7 @@ As linhas em uma exibição de modo de texto para uma coleção são descritas n
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>Você pode usar vários valores para esta linha, mas recomendamos que o <code style="font-weight: normal;">valueformat</code> para uma lista de coleção seja <strong>HTML.</strong></p>
+   <td> <p>Você pode usar vários valores para esta linha, mas recomendamos que o <code style="font-weight: normal;">valueformat</code> de uma lista de coleção seja <strong>HTML.</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Por exemplo, você pode filtrar por informações de tarefas ou problemas em um 
 
 Para adicionar uma referência a uma coleção em um filtro de relatório:
 
-1. Clique no menu **Principal** ![](assets/main-menu-icon.png) e em **Relatórios**.
+1. Clique no **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) e em **Relatórios**.
 1. Clique em **Novo Relatório**.
 1. Selecione o objeto do relatório.
 1. Saia do seu relatório e, usando o [API Explorer](../../../wf-api/general/api-explorer.md), determine quais coleções estão disponíveis para o objeto selecionado para o seu relatório.
@@ -350,7 +350,7 @@ Para adicionar uma referência a uma coleção em um filtro de relatório:
 
    Esse relatório só exibe projetos que tenham pelo menos uma tarefa com a palavra &quot;marketing&quot; no nome.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Marketing somente tarefas no projeto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Para filtrar o nome de um problema, use o seguinte código:
 
@@ -386,7 +386,7 @@ Para obter mais informações sobre como criar uma instrução de filtro com uma
 
 Para adicionar uma referência a uma coleção no prompt personalizado de um relatório:
 
-1. Clique no menu **Principal** ![](assets/main-menu-icon.png) e em **Relatórios**.
+1. Clique no **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) e em **Relatórios**.
 1. Clique em **Novo Relatório**.
 1. Selecione o objeto do relatório.
 1. Crie um filtro com uma referência de coleção conforme descrito na seção [Referencie uma coleção no Filtro de um relatório](#reference-a-collection-in-the-filter-of-a-report) deste artigo.

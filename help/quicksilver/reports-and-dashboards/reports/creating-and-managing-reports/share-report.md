@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ O compartilhamento de um ou vários relatórios de uma lista é idêntico.
 
    * **Todos no sistema podem exibir**. Selecione esta opção para que todos no Workfront com acesso a relatórios possam exibir o relatório.
 
-1. (Opcional) Clique no ícone ![](assets/gear-icon-settings-with-dn-arrow.jpg) da **engrenagem** no canto superior direito da caixa de compartilhamento e, opcionalmente, selecione a seguinte opção:
+1. (Opcional) Clique no ícone de **engrenagem** ![configurações do ícone de engrenagem](assets/gear-icon-settings-with-dn-arrow.jpg) no canto superior direito da caixa de compartilhamento e, opcionalmente, selecione a seguinte opção:
 
    * **Tornar público para usuários externos** Selecione esta opção para gerar uma URL que possa ser compartilhada com outras pessoas. Qualquer pessoa com o URL pode acessar o relatório, sem ter uma licença do Adobe Workfront.
 

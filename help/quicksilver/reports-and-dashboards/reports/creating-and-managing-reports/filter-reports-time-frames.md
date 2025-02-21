@@ -6,9 +6,9 @@ description: Você pode filtrar um relatório pelo intervalo de tempo de uma dat
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1024'
 ht-degree: 5%
 
 ---
@@ -70,14 +70,14 @@ Para obter mais informações sobre como criar relatórios, consulte [Criar um r
 
 ## Filtrar um relatório pelo período de uma data {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e em **Relatórios**.
 
 1. Clique em **Novo relatório** e selecione o tipo de relatório desejado.\
    Por exemplo, selecione **Relatório de Horas**.
 
 1. Selecione a guia **Filtros**.
 1. Clique em **Adicionar uma Regra de Filtro** e selecione **Data de Entrada da Hora**.\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![Filtrar relatório de horas por período](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. No menu suspenso a seguir, selecione uma das seguintes opções:
 
@@ -106,7 +106,7 @@ Para obter mais informações sobre como criar relatórios, consulte [Criar um r
       <td>Após selecionar esse modificador, especifique um intervalo de datas em que as horas foram inseridas. O relatório mostra as horas informadas entre as datas especificadas.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Menor Que</td> 
+      <td role="rowheader">Menor que</td> 
       <td>Após selecionar esse modificador, especifique uma data antes da qual as horas foram informadas. O relatório mostra as horas informadas antes da data especificada, sem incluir a data especificada.</td> 
      </tr> 
      <tr> 
@@ -114,7 +114,7 @@ Para obter mais informações sobre como criar relatórios, consulte [Criar um r
       <td>Após selecionar esse modificador, especifique uma data antes da qual as horas foram informadas. O relatório mostra as horas informadas antes da data especificada, incluindo a data especificada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Maior Que</td> 
+      <td role="rowheader">Maior que</td> 
       <td>Após selecionar esse modificador, especifique uma data após a qual as horas foram informadas. O relatório mostra as horas informadas após a data especificada, sem incluir a data especificada.</td> 
      </tr> 
      <tr> 

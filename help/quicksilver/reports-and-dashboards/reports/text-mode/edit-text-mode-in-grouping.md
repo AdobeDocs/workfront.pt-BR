@@ -6,9 +6,9 @@ description: É possível editar um agrupamento em uma lista ou relatório usand
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 1. Siga um destes procedimentos:
 
    1. Para acessar o agrupamento de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > guia **Agrupamentos**.
-   1. Para acessar o agrupamento de uma lista, vá para a lista e, no menu suspenso **Agrupamento**, passe o mouse sobre o agrupamento que deseja modificar e clique no ícone **Editar** ![](assets/edit-icon.png).
+   1. Para acessar o agrupamento de uma lista, vá para a lista e, no menu suspenso **Agrupamento**, passe o mouse sobre o agrupamento que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 
       O construtor de agrupamento é aberto.
 
@@ -194,7 +194,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
        <ol> 
         <li value="1"> <p> Se o nome do campo exibido for uma frase em vez de um único substantivo, você deverá usar a sintaxe de camel case para o <code>valuefield</code>. Por exemplo, para a Data de início planejada de uma tarefa, o código é:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Para exibir um campo personalizado, o valor <code>valuefield</code> é o nome real do campo, como você o vê na interface. Por exemplo, para um campo personalizado chamado "Mais informações", o código é:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Se você quiser agrupar por objetos relacionados a outros objetos usando a linha de código <code>valuefield</code>, os nomes e atributos dos objetos serão separados por dois-pontos.</p> <p>Por exemplo, um agrupamento por Nome de Portfolio para uma lista de tarefas tem o seguinte valor para a linha do campo de valor:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Isso indica que, a partir do objeto do relatório (tarefa), você pode acessar o próximo objeto relacionado (projeto); a partir daí, você pode acessar o seguinte objeto relacionado a partir do projeto (portfólio); em seguida, o nome do portfólio (nome).</p> </li> 
+        <li value="3"> <p>Se você quiser agrupar por objetos relacionados a outros objetos usando a linha de código <code>valuefield</code>, os nomes e atributos dos objetos serão separados por dois-pontos.</p> <p>Por exemplo, um agrupamento por Nome Portfolio para uma lista de tarefas tem o seguinte valor para a linha do campo de valor:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Isso indica que, a partir do objeto do relatório (tarefa), você pode acessar o próximo objeto relacionado (projeto); a partir daí, você pode acessar o seguinte objeto relacionado a partir do projeto (portfólio); em seguida, o nome do portfólio (nome).</p> </li> 
        </ol> <p>Para obter informações sobre como os objetos se conectam, consulte a seção <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependência e hierarquia de objetos</a> em <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Entender objetos no Adobe Workfront</a>.</p> <p>Nota: Se você escolher um campo no modo texto que não seja válido na interface padrão e alternar para a interface padrão, o agrupamento será deletado.</p> </td> 
      </tr> 
      <tr> 

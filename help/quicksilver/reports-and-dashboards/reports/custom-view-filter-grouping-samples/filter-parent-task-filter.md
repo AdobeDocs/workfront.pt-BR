@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: exibir tarefas pai"
+title: 'Filtro: exibir tarefas pai'
 description: Você pode aplicar os filtros de tarefa abaixo para exibir tarefas em execução. Tarefas de trabalho são tarefas que podem ser trabalhadas independentemente e não são tarefas pai de outras tarefas. Em um exemplo, um filtro identifica tarefas filhas que podem ser pais. Nesse caso, elas não são tarefas de trabalho.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tarefas sem filhos. Eles poderiam ter seus próprios pais e serem filhos de outras tarefas.
 
-1. No **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
+1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
 
 1. Clique em **Novo Relatório**.
 1. Selecione um **Relatório de Tarefa**.
@@ -79,7 +79,7 @@ Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tare
 1. Na linha **Comece a digitar o nome do campo ...**, comece a digitar **Número de Filhos** e clique em **Tarefa >> Número de Filhos** quando ele for exibido na lista.
 
 1. Selecione **Igual (Diferencia maiúsculas de minúsculas)** para o modificador e digite **0** para o número de filhos.\
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![Filtro de tarefa pai](assets/parent-task-filter-from-the-ui-350x76.png)
 
    Ou
 
@@ -99,7 +99,7 @@ Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tare
 
 Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tarefas com pais, o que significa que elas são tarefas filhas. No entanto, essas tarefas também podem ter filhos, pois o filtro não exclui os filhos. Tarefas secundárias que também são principais para outras tarefas não são consideradas tarefas de trabalho.
 
-1. No **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
+1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
 
 1. Clique em **Novo Relatório**.
 1. Selecione um **Relatório de Tarefa**.
@@ -108,7 +108,7 @@ Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tare
 1. Na linha **Comece a digitar o nome do campo ...**, comece a digitar a **ID do Pai** e selecione a **Tarefa >> ID do Pai** quando ela for exibida na lista.
 1. Selecione **Não está em branco** para o modificador.
 
-   ![](assets/filter-parent-id-not-blank-350x100.png)
+   ![A ID do pai não está em branco](assets/filter-parent-id-not-blank-350x100.png)
 
    Ou
 
@@ -124,7 +124,7 @@ Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tare
 
 Você pode aplicar o filtro a seguir a um relatório de tarefa para exibir tarefas de trabalho independentes. Estas tarefas não têm pais e eles não têm filhos.
 
-1. No **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
+1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
 
 1. Clique em **Novo Relatório**.
 1. Selecione um **Relatório de Tarefa**.
@@ -136,7 +136,7 @@ Você pode aplicar o filtro a seguir a um relatório de tarefa para exibir taref
 1. No campo **Comece a digitar o nome ...**, comece a digitar a **ID do Pai** e selecione **Tarefa >> ID do Pai** na lista.
 1. Selecione **Está em Branco** para o modificador.
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![A ID do pai está em branco e sem filhos](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Ou
 

@@ -4,9 +4,9 @@ description: Adicionar ou editar um bloco de tabela na Tela de relatório
 hidefromtoc: true
 hide: true
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 ## Adicionar ou editar um bloco de tabela
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
 1. Clique em **Novo relatório**.
 
    Ou
 
-   Vá para um relatório existente, clique no ícone **Mais** ![](assets/more-icon-27x15.png) no cabeçalho do relatório e clique em **Editar**.
+   Vá para um relatório existente, clique no ícone **Mais** ícone ![Mais](assets/more-icon-27x15.png) no cabeçalho do relatório e clique em **Editar**.
 
 1. No lado direito da tela em **Adicionar um bloco**:
 
-   Arraste o ícone ![](assets/table-icon.png) da **Tabela** para a tela diretamente para o local desejado.
+   Arraste o ícone **Tabela** ![Ícone Tabela](assets/table-icon.png) para a tela diretamente para o local desejado.
 
    Ou
 
-   Clique duas vezes no ícone ![](assets/table-icon.png) de **Tabela** para adicionar uma tabela à parte superior da tela.
+   Clique duas vezes no ícone **Tabela** ![Ícone Tabela](assets/table-icon.png) para adicionar uma tabela à parte superior da tela.
 
    >[!TIP]
    >
@@ -42,14 +42,14 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 1. Clique em **Tabela sem título** no cabeçalho da tabela e digite um título para a tabela.
 
-   ![](assets/table-name-350x142.png)
+   ![Nome da tabela](assets/table-name-350x142.png)
 
 1. Clique em **Editar** no centro do bloco de tabela para configurar a tabela.
 
    >[!NOTE]
    >
-   >Se a tabela já era parte da tela (como ao editar um relatório existente), o botão **Editar** não é exibido no centro do bloco. Para editar a tabela, clique no ícone ![](assets/edit-icon.png) de **Editar** no cabeçalho da tabela.
-   >![](assets/edit-icon-table-header-350x71.png)
+   >Se a tabela já era parte da tela (como ao editar um relatório existente), o botão **Editar** não é exibido no centro do bloco. Para editar a tabela, clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) no cabeçalho da tabela.
+   >![Ícone Editar no cabeçalho da tabela](assets/edit-icon-table-header-350x71.png)
 
 1. No painel **Campos** à direita, localize um campo que você deseja adicionar como coluna à tabela e, em seguida, arraste-o até a tabela onde você deseja adicioná-lo ou clique duas vezes nele para adicioná-lo como a última coluna na tabela.
 

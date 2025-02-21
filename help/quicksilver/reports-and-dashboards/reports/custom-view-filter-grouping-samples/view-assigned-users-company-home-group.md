@@ -7,9 +7,9 @@ description: Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Pro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Proprietário principal da tarefa. Esses são valores que não estão disponíveis na interface padrão, mas são acessíveis por meio do modo de texto.
 
-![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![Exibir empresa e grupo padrão do usuário atribuído](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Requisitos de acesso
 

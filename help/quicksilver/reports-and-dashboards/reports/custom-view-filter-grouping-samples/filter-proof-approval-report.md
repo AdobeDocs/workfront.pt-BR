@@ -2,14 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: "Filtro: relatório de aprovação de prova para omitir versões de prova anteriores"
+title: 'Filtro: relatório de aprovação de prova para omitir versões anteriores da prova'
 description: Em um relatório Aprovação de prova, você pode usar o filtro É a versão atual do documento para incluir apenas as versões atuais das provas que estão aguardando sua aprovação.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Para criar seu próprio relatório Aprovação de Prova, clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito ou no ícone ![](assets/lines-main-menu.png) do **Menu Principal** no canto superior esquerdo, se disponível, em seguida em **Relatórios** ![](assets/reports-in-main-menu.png).
+   Para criar seu próprio relatório Aprovação de Prova, clique no **ícone do Menu Principal** ![ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **ícone do Menu Principal** ![linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, e clique no **ícone Relatórios** ![Relatórios](assets/reports-in-main-menu.png).
 
 1. Clique em **Novo Relatório**. A lista de tipos de objetos é exibida.
 1. Clique em **Aprovação de prova** na lista.

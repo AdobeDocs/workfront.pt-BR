@@ -7,9 +7,9 @@ description: Perguntas frequentes sobre relatórios
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Para obter informações sobre modificação de filtros e agrupamentos, consulte
 ### Responder
 
 O relatório ou calendário pode ter uma variável de filtro curinga que aponta para o usuário que está conectado. Nesse caso, o relatório mostra informações com base no usuário que está conectado. Ajuste o filtro para remover o curinga que aponta para o usuário conectado.\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![Variável de filtro de ID de usuário](assets/qs--user.id-filter-variable-350x79.png)
 
 Para obter uma lista completa de visão geral das variáveis de filtro Curinga com base no usuário, consulte [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -122,7 +122,7 @@ Para ver todas as tarefas ou problemas atribuídos a você, seja você o Proprie
 1. Selecione o modificador **Equal**.
 1. Comece digitando *$$USER.ID* na caixa de texto e selecione-o na lista suspensa exibida.\
    Isso garante que você veja todas as tarefas e problemas atribuídos ao usuário conectado. É possível substituir o curinga por um nome de usuário específico.\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![Tarefas atribuídas a mim](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. Clique em **Salvar + Fechar**.
 
@@ -143,7 +143,7 @@ No entanto, há algumas coisas que podem impedir a exibição desses links:
 * Se você tiver uma **Exibição** aplicada a estas listas que tenha uma moeda selecionada diferente da moeda padrão para o projeto, os links não serão exibidos. Altere a **Exibição** para a **Moeda Original do Projeto** e os links deverão ser exibidos para que você possa adicionar problemas e tarefas aos seus projetos.\
   Para obter mais informações sobre como alterar a moeda na sua Exibição, consulte [Criar relatórios de dados financeiros com taxas de câmbio exclusivas](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![](assets/nwe-project-original-currency-350x229.png)
+![Moeda do projeto](assets/nwe-project-original-currency-350x229.png)
 
 ## As informações no meu relatório ou painel são atualizadas automaticamente?
 

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: Mesclar Informações de Várias Colunas em Uma Coluna Compartilhada"
+title: 'Exibição: Mesclar Informações de Várias Colunas em Uma Coluna Compartilhada'
 description: É possível mesclar as informações exibidas em várias colunas separadas e exibi-las em uma coluna compartilhada.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 Para mesclar dados de duas colunas sem uma quebra de linha:
 
 1. Ir para uma lista de objetos.
-1. No menu suspenso **Exibir**, selecione um modo de exibição e clique no ícone ![](assets/edit-icon.png) de **Editar** para editá-lo.
+1. No menu suspenso **Exibir**, selecione um modo de exibição e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) para editar o modo de exibição.
 1. Vá para a primeira coluna que deseja mesclar e clique em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
 1. Adicione o seguinte texto à primeira coluna que deseja mesclar:
 
@@ -121,7 +121,7 @@ Para mesclar dados de duas colunas sem uma quebra de linha:
    column.3.valueformat=HTML
    ```
 
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![Coluna compartilhada sem quebras de linha](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Clique em **Concluído** e depois em **Salvar exibição**.
@@ -131,7 +131,7 @@ Para mesclar dados de duas colunas sem uma quebra de linha:
 Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma coluna comum com uma quebra de linha entre os valores de cada coluna:
 
 1. Ir para uma lista de objetos.
-1. No menu suspenso **Exibir**, selecione um modo de exibição e clique no ícone ![](assets/edit-icon.png) de **Editar** para editá-lo.
+1. No menu suspenso **Exibir**, selecione um modo de exibição e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) para editar o modo de exibição.
 1. Adicione uma terceira coluna entre as duas colunas que deseja mesclar.
 
    >[!TIP]
@@ -182,6 +182,6 @@ Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma 
    column.5.valueformat=HTML 
    ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+   ![Coluna compartilhada com quebras de linha](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Clique em **Concluído** e depois em **Salvar exibição**.

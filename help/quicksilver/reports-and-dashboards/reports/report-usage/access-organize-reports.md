@@ -6,9 +6,9 @@ description: Você pode usar relatórios no Adobe Workfront para revisar ou edit
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Para acessar os relatórios criados por você ou compartilhados com você ou compartilhados publicamente:
 
-1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
+1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png), clique em **Relatórios**.
 
 1. Clique em uma das seguintes opções, dependendo do relatório que deseja exibir:
 
@@ -67,10 +67,10 @@ Você pode usar pastas para organizar os relatórios criados. Não é possível 
 
 ### Criar uma nova pasta para relatórios {#create-a-new-folder-for-reports}
 
-1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
+1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png), clique em **Relatórios**.
 
 1. Clique no ícone **Nova pasta**.\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![Ícone de nova pasta](assets/nwe-new-folder-350x346.png)
 
 1. Especifique um nome para a nova pasta e pressione Enter.
 1. Na pasta **Meus Relatórios**, adicione relatórios à nova pasta.\
@@ -82,7 +82,7 @@ Você pode usar pastas para organizar os relatórios criados. Não é possível 
 
 ### Adicionar relatórios a uma pasta {#add-reports-to-a-folder}
 
-1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
+1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png), clique em **Relatórios**.
 
 1. Clique em **Meus Relatórios**.\
    Ou\
@@ -94,4 +94,4 @@ Você pode usar pastas para organizar os relatórios criados. Não é possível 
    >
    >Você só pode mover relatórios da pasta **Meus Relatórios** para outras pastas aninhadas em **Meus Relatórios**. Você não pode mover relatórios de ou para a pasta **Compartilhado comigo** ou **Todos os relatórios** para ou de outras pastas.
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![Arraste o relatório para a pasta](assets/nwe-drag-report-to-folder-350x292.png)

@@ -6,9 +6,9 @@ description: O Adobe Workfront tem uma extensa lista de relatórios integrados p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2970'
 ht-degree: 10%
 
 ---
@@ -83,19 +83,19 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
  <tbody> 
   <tr> 
    <td>Custo Efetivo do Portfólio por Programa</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e o Custo Efetivo dos projetos. O relatório é agrupado por Nome do programa, solicitado por Nome do Portfolio, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Custo Planejado e o Custo Efetivo dos projetos. O relatório é agrupado por Nome do programa, solicitado por Nome da Portfolio, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Custo Efetivo do Portfólio por Projeto</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e o Custo Efetivo dos projetos. O relatório é agrupado por Nome do projeto, solicitado por Nome do Portfolio, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Custo Planejado e o Custo Efetivo dos projetos. O relatório é agrupado por Nome do projeto, solicitado por Nome da Portfolio, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita Efetiva do Portfólio por Programa</td> 
-   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado por Nome do programa, solicitado por Nome do Portfolio, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado por Nome do programa, solicitado por Nome da Portfolio, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita Efetiva do Portfólio por Projeto</td> 
-   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado por Nome do projeto, solicitado por Nome do Portfolio, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado por Nome do projeto, solicitado por Nome da Portfolio, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita atual por empresa</td> 
@@ -115,7 +115,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Projetos em Risco</td> 
-   <td>Um relatório de Projeto que mostra projetos Atuais e Planejados que têm uma Condição de Em Risco ou Com Problemas. O relatório exibe os seguintes campos: Descrição, Data de Conclusão Planejada, Data de Conclusão Projetada, Percentual de Conclusão, Status e Prioridade dos projetos. O relatório é agrupado por Nome do Portfolio.</td> 
+   <td>Um relatório de Projeto que mostra projetos Atuais e Planejados que têm uma Condição de Em Risco ou Com Problemas. O relatório exibe os seguintes campos: Descrição, Data de Conclusão Planejada, Data de Conclusão Projetada, Percentual de Conclusão, Status e Prioridade dos projetos. O relatório é agrupado por Portfolio Name.</td> 
   </tr> 
   <tr> 
    <td>Receita faturada por empresa</td> 
@@ -163,11 +163,11 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Mão de obra v. Custos operacionais por Portfólio</td> 
-   <td>Um relatórios de Projeto que mostra o Custo de Trabalho Planejado, o Custo de Trabalho Efetivo, o Custo de Despesas Planejadas e o Custo Efetivo das Despesas dos projetos. O relatório é agrupado por Nome do Portfolio e inclui um gráfico.</td> 
+   <td>Um relatórios de Projeto que mostra o Custo de Trabalho Planejado, o Custo de Trabalho Efetivo, o Custo de Despesas Planejadas e o Custo Efetivo das Despesas dos projetos. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Mão de obra v. Custos operacionais por programa</td> 
-   <td>Um relatórios de Projeto que mostra o Custo de Trabalho Planejado, o Custo de Trabalho Efetivo, o Custo de Despesas Planejadas e o Custo Efetivo das Despesas dos projetos. O relatório é agrupado por Nome do Portfolio e Nome do programa e inclui um gráfico.</td> 
+   <td>Um relatórios de Projeto que mostra o Custo de Trabalho Planejado, o Custo de Trabalho Efetivo, o Custo de Despesas Planejadas e o Custo Efetivo das Despesas dos projetos. O relatório é agrupado por Portfolio Name e Program Name e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Custos mensais planejados do portfolio versus custos atuais por projeto</td> 
@@ -199,7 +199,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Meus Portfólios</td> 
-   <td>Um relatório de Portfolio que mostra Portfolio ativos nos quais o usuário logado é o Gerenciador de Portfolio.</td> 
+   <td>Um relatório do Portfolio que mostra Portfólios ativos dos quais o usuário logado é o Portfolio Manager.</td> 
   </tr> 
   <tr> 
    <td>Meus Programas</td> 
@@ -243,11 +243,11 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Projetos acima do Orçamento por Portfólio</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos. O relatório é agrupado por Nome do Portfolio.</td> 
+   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos. O relatório é agrupado por Portfolio Name.</td> 
   </tr> 
   <tr> 
    <td>Custo Planejado do Portfólio por Programa</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos. O relatório é solicitado pelo Nome do Portfolio, agrupado pelo Nome do programa, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos. O relatório é solicitado pelo Nome do Portfolio, agrupado por Nome do programa, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Custo Planejado do Portfólio por Projeto</td> 
@@ -255,7 +255,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Receita Planejada do Portfólio por Programa</td> 
-   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é solicitado pelo Nome do Portfolio, agrupado pelo Nome do programa, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é solicitado pelo Nome do Portfolio, agrupado por Nome do programa, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita Planejada do Portfólio por Projeto</td> 
@@ -263,15 +263,15 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Custos planejados v. reais por Portfólio</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos por Portfolio. O relatório é agrupado por Nome do Portfolio e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos por Portfolio. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Custos planejados v. reais por programa</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos por Programa. O relatório é agrupado por Nome do Portfolio e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos por Programa. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita planejada v. receita real por Portfólio</td> 
-   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado por Nome do Portfolio e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita planejada v. receita real por programa</td> 
@@ -279,7 +279,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Custos agrupados do Portfolio por programa e por mês</td> 
-   <td>Um relatório de Projeto de matriz que mostra o Custo Planejado, o Custo Orçado e o Custo Efetivo dos projetos. O relatório é agrupado pelo Nome do Portfolio, Nome do programa e o mês da Data de início planejada dos projetos.</td> 
+   <td>Um relatório de Projeto de matriz que mostra o Custo Planejado, o Custo Orçado e o Custo Efetivo dos projetos. O relatório é agrupado pelo Nome da Portfolio, Nome do programa e o mês da Data de início planejada dos projetos.</td> 
   </tr> 
   <tr> 
    <td>Projetos do portfólio por status agrupados por programa</td> 
@@ -287,15 +287,15 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Projetos do portfólio agrupados por condição e portfólio</td> 
-   <td>Um relatório de Projeto que mostra o Nome do Portfolio e o Status dos projetos. O relatório é agrupado pelo Nome do Portfolio e o Status dos projetos e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Nome da Portfolio e o Status dos projetos. O relatório é agrupado pelo Nome da Portfolio e o Status dos projetos e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita do Portfólio por Programa</td> 
-   <td>Um relatório de Projeto que mostra o Nome do Portfolio, Nome do Programa, Receita Planejada e Receita Efetiva dos projetos. O relatório é agrupado pelo Nome do Portfolio e pelo Nome do programa e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Nome da Portfolio, o Nome do Programa, a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado pelo Nome do Portfolio e pelo Nome do programa e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita agrupada do Portfolio por programa e por mês</td> 
-   <td>Um relatório de Projeto de matriz que mostra a Receita Planejada, a Receita Efetiva, o Nome do Portfolio e o Nome do Programa. O relatório é agrupado pelo Nome do Portfolio, Nome do programa e o mês da Data de início planejada dos projetos.</td> 
+   <td>Um relatório de Projeto de matriz que mostra a Receita Planejada, a Receita Efetiva, o Nome da Portfolio e o Nome do Programa. O relatório é agrupado pelo Nome da Portfolio, Nome do programa e o mês da Data de início planejada dos projetos.</td> 
   </tr> 
   <tr> 
    <td>Custos e receitas do projeto por status de tarefa</td> 
@@ -303,7 +303,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Custos de projetos v. receitas por Portfólio</td> 
-   <td>Um relatório de Projeto que mostra o Nome do Portfolio, o Custo Efetivo e a Receita Efetiva dos projetos. O relatório é agrupado por Nome do Portfolio e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que mostra o Nome Portfolio, o Custo Efetivo e a Receita Efetiva dos projetos. O relatório é agrupado por Portfolio Name e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Despesas de projeto por mês e quartil</td> 
@@ -383,7 +383,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
 1. No objeto **Relatório**, selecione **ID Global**.
 
 1. No menu suspenso do modificador de filtro, selecione **Não está em branco**.\
-   ![](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![Filtro de ID global para relatórios do sistema](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Clique em **Salvar filtro**.\
    A lista de relatórios exibe apenas relatórios internos.\

@@ -6,9 +6,9 @@ description: Você pode fornecer acesso às informações de que sua organizaç�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -24,41 +24,40 @@ Para obter mais informações sobre relatórios internos, consulte [Usar relató
 
 Para obter informações sobre como criar um relatório copiando-o, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Para obter mais informações sobre como criar e gerenciar relatórios, incluindo aulas, vídeos e tutoriais, consulte a seção Saiba mais no site do Adobe Experience League.
+Para obter mais informações sobre como criar e gerenciar relatórios, incluindo aulas, vídeos e tutoriais, consulte a seção Saiba mais no site Adobe Experience League.
 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão </p>
    ou
    <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p><b>Nota</b></p>
-   <p> Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Você obtém permissões de Gerenciamento para os relatórios que criar.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Você obtém permissões de Gerenciamento para os relatórios que criar.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,11 +71,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Para obter informações específicas sobre relatórios de objetos disponíveis, consulte a seção [Relatório sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) no artigo [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![Selecionar novo relatório](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >Você também pode criar um relatório fazendo uma cópia de um relatório existente. Para obter mais informações, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+1. (Opcional) Para editar o título do novo relatório, insira o título do relatório desejado no campo de texto no canto superior esquerdo do Report Builder. Recomendamos usar somente caracteres UTF-8 para evitar problemas de compatibilidade.
 
 1. No Report Builder, adicione o seguinte código ao seu relatório:
 
@@ -126,11 +127,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Para alterar uma coluna existente, clique na coluna, clique no ícone ![](assets/remove-column-icon.png) de **Remover** à direita do campo atual na área **Mostrar neste campo de coluna** no canto superior esquerdo do Report Builder, comece a digitar um novo campo e, em seguida, clique nele quando ele for exibido na lista.
+   Para alterar uma coluna existente, clique na coluna, clique no ícone **Remover** ![Ícone Remover coluna](assets/remove-column-icon.png) à direita do campo atual na área **Mostrar neste campo de coluna** no canto superior esquerdo do Report Builder, e comece a digitar um novo campo, em seguida, clique nele quando ele for exibido na lista.
 
    Para obter mais informações sobre os campos exibidos nas colunas, consulte [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![Adicionar digitação antecipada de coluna](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Opcional) Na área **Configurações de Coluna**, selecione **Classificar por esta coluna** para classificar os valores da coluna em ordem alfabética crescente ou decrescente e indique se a lista deve usar esta coluna como sua primeira classificação.
 
@@ -202,7 +203,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Escolha **Aplicar um agrupamento existente** para selecionar um agrupamento existente quando ele for exibido na lista.
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![Adicionar agrupamento](assets/nwe-add-grouping-350x230.png)
 
 1. Comece digitando o campo que deseja adicionar como um agrupamento. Se o campo estiver disponível, ele será preenchido para cada objeto em que puder ser associado. Clique no nome do campo para adicioná-lo a esse agrupamento.
 1. (Opcional) Você pode optar por criar um agrupamento no modo de texto, clicando em **Alternar para Modo de Texto**. Para obter mais informações sobre como usar o modo de texto, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
@@ -234,7 +235,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Ou\
    Escolha **Aplicar um Filtro Existente** para usar um filtro existente.
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![Adicionar um filtro](assets/nwe-add-a-filter-350x93.png)
 
 1. Se você clicou em **Adicionar uma regra de filtro**, comece a digitar o campo que deseja adicionar como filtro. Se o campo estiver disponível, ele será preenchido para cada objeto em que puder ser associado. Clique no nome do campo para adicioná-lo a esse filtro.\
    Use modificadores de filtro para criar seu filtro. Para obter mais informações sobre modificadores de filtro, consulte [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -254,7 +255,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Comece a criar um relatório conforme descrito na seção [Criar um relatório](#create-a-report) deste artigo.
 1. No Report Builder, selecione a guia **Gráfico** e selecione o tipo de gráfico que deseja adicionar.
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![Adicionar um gráfico](assets/nwe-add-a-chart-350x247.png)
 
    Para obter mais informações sobre como criar um gráfico em um relatório, consulte [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 

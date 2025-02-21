@@ -4,9 +4,9 @@ description: Os blocos de conteúdo da Web permitem exibir informações de site
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 ## Adicionar ou editar um bloco de conteúdo da Web
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
 1. Clique em **Novo relatório**.
 
    Ou
 
-   Vá para um relatório existente, clique no ícone **Mais** ![](assets/more-icon-27x15.png) no cabeçalho do relatório e clique em **Editar**.
+   Vá para um relatório existente, clique no ícone **Mais** ícone ![Mais](assets/more-icon-27x15.png) no cabeçalho do relatório e clique em **Editar**.
 
 1. No lado direito da tela, em **Adicionar um Bloco**:
 
@@ -41,9 +41,9 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
    >Você pode alterar o tamanho do bloco depois que ele for colocado arrastando suas alças de canto.
 
 1. Clique em **Conteúdo da Web sem título** no cabeçalho do bloco e digite um título para o bloco.
-1. Clique no ícone ![](assets/edit-icon.png) de **Editar** no cabeçalho do bloco.
+1. Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) no cabeçalho do bloco.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![Ícone Editar no cabeçalho do bloco](assets/web-content-block-header-350x76.png)
 
 1. No painel **Configurações** que é aberto, digite a URL completa da página que você deseja exibir (incluindo &quot;https://&quot;) no campo **URL**.
 

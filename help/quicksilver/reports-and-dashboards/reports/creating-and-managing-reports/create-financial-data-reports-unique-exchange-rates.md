@@ -6,9 +6,9 @@ description: Se várias taxas de câmbio tiverem sido configuradas no Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ Para exibir dois projetos com moedas personalizadas em um relatório:
 
 1. Crie dois projetos com moedas diferentes aplicadas.
 
-   ![](assets/qs-currency-350x217.png)
+   ![Moeda](assets/qs-currency-350x217.png)
 
 1. Registre as horas em ambos os projetos.
 
    Para obter mais informações sobre o tempo de registro, consulte [Tempo de registro](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e em **Relatórios**.
 1. Clique em **Novo Relatório**, depois em **Relatório de Projeto**.
 1. Na guia **Colunas (Exibição)**, adicione uma coluna **Custo Real** e resuma-a por **Soma**.
 
@@ -182,6 +182,6 @@ Para editar em linha um campo financeiro em um relatório:
 1. Clique em **Configurações do relatório**.
 1. Clique no menu suspenso **Moeda padrão** e selecione **Moeda original do projeto**.
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![Moeda padrão](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Clique em **Concluído**.

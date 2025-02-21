@@ -6,7 +6,7 @@ description: Você pode exportar dados do Adobe Workfront de várias listas, rel
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -36,7 +36,7 @@ As informações deste artigo não se aplicam às seguintes exportações:
 
 * Exportando informações do gráfico de Gantt.
 
-  Para obter mais informações sobre como exportar o Gráfico de Gantt, consulte [Exportar o Gráfico de Gantt para PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+  Para obter mais informações sobre como exportar o Gráfico de Gantt, consulte [Exportar o Gráfico de Gantt para o PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 * Exportando informações do Planejador de recursos.
 
@@ -190,14 +190,14 @@ Se você tiver dúvidas ou problemas relacionados ao seu limite, entre em contat
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    Ou
 
    Clique no ícone **Exportar** ![Ícone Exportar](assets/export-icon-nwe.png) e selecione um formato.
 
-   As opções disponíveis para você exportar PDF dependem das configurações de local nas configurações de usuário do Workfront:
+   As opções disponíveis para você exportar o PDF dependem das configurações de local nas configurações de usuário do Workfront:
 
    * América do Norte - carta (padrão), legal, razão, A4
 
@@ -252,14 +252,14 @@ Quando você exporta uma lista de tarefas ou problemas, o **Nome do Arquivo** po
 Quando você exporta uma lista de quaisquer outros objetos de um projeto para um arquivo PDF, o nome do arquivo do documento exportado indica o tipo de objetos que você exportou.\
 Por exemplo, o nome do arquivo pode ser:
 
-* *Exported_Users*, ao exportar a guia Pessoas no projeto(*nos formatos de PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
-* *Exported_Risks*, ao exportar uma lista de Riscos no projeto(*nos formatos de PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+* *Usuários_Exportados*, ao exportar a guia Pessoas no projeto(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+* *Exported_Risks*, ao exportar uma lista de Riscos no projeto(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 
 #### Nomes de arquivos para relatórios exportados {#file-names-for-exported-reports}
 
 Quando você exporta um relatório, o nome do arquivo do relatório exportado é:
 
-*The_report_name*(*nos formatos de PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+*The_report_name*(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 
 ### Títulos {#titles}
 
@@ -277,7 +277,7 @@ Quando você exporta listas de tarefas e problemas em uma tarefa para um arquivo
 * *Nome do projeto - Nome da tarefa - Tarefas exportadas*
 * *Nome do projeto - Nome da tarefa - Problemas exportados*
 
-Quando você exporta uma lista de quaisquer outros objetos de um projeto para um arquivo PDF, o título do documento exportado indica o tipo de objetos que você exportou.\
+Quando você exporta uma lista de quaisquer outros objetos de um projeto para um arquivo do PDF, o título do documento exportado indica o tipo de objetos que você exportou.\
 Por exemplo, o título pode ser:
 
 * *Usuários Exportados*, ao exportar a guia Pessoas no projeto.

@@ -4,9 +4,9 @@ description: Adicionar ou editar um bloco de visualização na Tela de relatóri
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -32,12 +32,12 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 >
 >Todas as alterações são salvas automaticamente à medida que você cria e edita os blocos no relatório.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
 1. Clique em **Novo relatório** e crie um relatório com tabelas que contenham dados, conforme descrito em [Criar um relatório na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) e [Adicionar ou editar um bloco de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    Ou
 
-   Em um relatório existente com tabelas contendo dados, clique no ícone ![](assets/more-icon.png) do **Mais Menu** no cabeçalho do relatório e selecione **Editar**.
+   Em um relatório existente com tabelas contendo dados, clique no ícone **Mais Menu** ícone ![Mais ícone](assets/more-icon.png) no cabeçalho do relatório e selecione **Editar**.
 
 1. No lado direito da tela, em **Adicionar um Bloco**:
 
@@ -57,7 +57,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 1. (Condicional) Se o relatório contiver mais de uma tabela, na caixa **Criar sua visualização** que é exibida, selecione a tabela de origem para a visualização.
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![Selecionar tabela na visualização](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 1. Selecione o tipo de visualização que deseja adicionar.
 
-   ![](assets/select-vis-type-350x205.png)
+   ![Selecionar tipo de visualização](assets/select-vis-type-350x205.png)
 
    Sua visualização é exibida, representando os dados da tabela selecionada.
 

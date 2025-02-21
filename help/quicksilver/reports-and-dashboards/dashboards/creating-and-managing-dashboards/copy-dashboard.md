@@ -6,9 +6,9 @@ description: Você pode copiar um painel e todo o seu conteúdo (relatórios, ca
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Painéis]**.
 
-1. Selecione o painel que você deseja copiar e clique em **Copiar** ![](assets/copy-icon.png).\
+1. Selecione o painel que você deseja copiar e clique em **Copiar** ![Ícone Copiar](assets/copy-icon.png).\
    Ou\
    Abra o painel que deseja copiar e clique em **Ações do Painel** > **Copiar**.\
    A caixa de diálogo Cópia do painel é exibida. Todos os itens no painel original são exibidos.

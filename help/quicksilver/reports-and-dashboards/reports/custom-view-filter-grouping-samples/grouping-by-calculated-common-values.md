@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupamento: organize os resultados da lista por um valor calculado comum a todos os objetos no agrupamento"
+title: 'Agrupamento: Organizar os Resultados da Lista por um Valor Calculado Comum a Todos os Objetos no Agrupamento'
 description: Talvez você queira exibir suas tarefas agrupadas por Percentual concluído nas faixas de 0 a 25, 26 a 50, 51 a 75, 75 a 99 e 100. Para fazer isso, é possível criar um agrupamento usando o modo de texto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Talvez você queira exibir suas tarefas agrupadas por Percentual concluído nas faixas de 0 a 25, 26 a 50, 51 a 75, 75 a 99 e 100. Para fazer isso, é possível criar um agrupamento usando o modo de texto.
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![Agrupamento por valor calculado](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Requisitos de acesso
 

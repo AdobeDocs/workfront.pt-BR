@@ -6,9 +6,9 @@ description: Você pode incorporar uma nova fila de solicitações em um painel 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Os usuários podem alterar o tipo de solicitação ou escolher outro tópico, se
 
    Isso copia o link para a fila de solicitações ou para o tópico da fila conforme você o exibe na tela. Os usuários podem atualizar o Tipo de solicitação ou qualquer um dos grupos de tópicos e tópicos da fila disponíveis.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![Solicitar fila com caminho de compartilhamento](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Obter um link para uma fila de solicitações e capacidade de alterar o tipo de solicitação {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ Ao compartilhar um link para um tipo de solicitação, o tipo de solicitação �
 
    Os usuários podem selecionar qualquer grupo de tópicos ou tópico da fila de que precisam, ou podem escolher outro tipo de solicitação.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![URL da fila de solicitações](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Obter um link para uma fila de solicitações sem a capacidade de alterar o tipo de solicitação {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ Ao compartilhar um link para um tipo de solicitação pré-selecionado, o tipo d
 
    Os usuários podem selecionar qualquer grupo de tópicos ou tópico da fila de que precisam para o tipo de solicitação selecionado. Os usuários não podem selecionar outro tipo de solicitação.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![Solicitar código de fila](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Incorporar uma fila de solicitações em um painel
 
@@ -164,7 +164,7 @@ Você pode incorporar um link à fila de solicitações ou a um tópico da fila 
 
 1. Clique em **Adicionar Página Externa**.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![Página externa](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Na caixa **Adicionar Página Externa**, edite os seguintes campos:
 

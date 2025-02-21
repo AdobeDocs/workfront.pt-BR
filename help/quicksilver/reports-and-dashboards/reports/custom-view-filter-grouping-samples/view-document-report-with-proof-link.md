@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: relatório de documento com link para uma prova"
-description: "Exibir: relatório de documento com link para uma prova"
+title: 'Exibir: Relatório de documento com link para uma prova'
+description: 'Exibir: relatório de documento com link para uma prova'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Nesta visualização de documento, você pode inserir um link para uma prova da versão atual do documento.
 
-![](assets/view-document-with-proof-link-350x92.png)
+![Exibir documento com link de prova](assets/view-document-with-proof-link-350x92.png)
 
 ## Requisitos de acesso
 

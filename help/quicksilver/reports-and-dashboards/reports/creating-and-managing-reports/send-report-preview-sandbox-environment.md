@@ -6,9 +6,9 @@ description: As informações nesta página se referem à funcionalidade dispon�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Se um relatório entregue é produzido ou não no ambiente de Pré-visualizaçã
 
 Para obter informações sobre como habilitar emails do ambiente de sandbox, consulte [Habilitar a entrega de emails do ambiente de sandbox de visualização](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Receber emails da opção de sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 O agendamento de relatórios para entrega no ambiente de Pré-visualização é idêntico ao agendamento de relatórios no ambiente de Produção. Para obter informações sobre como agendar um relatório para entrega, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -100,7 +100,7 @@ Se um relatório entregue é produzido ou não na sandbox de atualização perso
 
 Para obter informações sobre como habilitar emails do ambiente de Visualização, consulte a seção [Exibir e modificar configurações de notificação por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) no artigo [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Receber emails da opção de sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 O agendamento de relatórios para entrega no ambiente Personalizado de atualização da sandbox é idêntico ao agendamento de relatórios no ambiente de Produção. Para obter informações sobre como agendar um relatório para entrega, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 

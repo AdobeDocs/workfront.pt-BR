@@ -6,9 +6,9 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1731'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ A caixa de diálogo **Personalizar exibição** é exibida.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Personalizar rótulo da coluna</strong></td> 
-           <td><p>Especifique um rótulo personalizado para a coluna. Esse rótulo substitui o rótulo padrão.</p></td> 
+           <td><p>Especifique um rótulo personalizado para a coluna. Esse rótulo substitui o rótulo padrão. Recomendamos usar somente caracteres UTF-8 para evitar problemas de compatibilidade.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Formato do campo</strong></td> 
@@ -179,7 +179,7 @@ Para criar ou personalizar uma visualização Agile:
       Não é possível personalizar a visualização Agile padrão.
 
    1. Clique novamente no menu suspenso **Exibir** e clique em **Personalizar exibição**.\
-      ![](assets/view-agile-customize.png)
+      ![Personalizar exibição](assets/view-agile-customize.png)
 
 1. (Condicional) Para criar um novo modo de exibição Agile, clique em **Novo modo de exibição**.\
    A caixa de diálogo **Personalizar Exibição Agile** é exibida.

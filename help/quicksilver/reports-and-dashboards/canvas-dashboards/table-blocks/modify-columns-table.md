@@ -4,9 +4,9 @@ description: Configurar uma coluna de tabela na Tela de relatório
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1052'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 ## Modificar colunas em uma tabela
 
-1. Vá para um relatório existente, clique no ícone ![](assets/more-icon.png) do **Mais Menu** no cabeçalho do relatório e selecione **Editar**.
-1. No cabeçalho da tabela do relatório, clique no ícone **Editar** ![](assets/edit-icon.png).
+1. Vá para um relatório existente, clique no ícone **Mais Menu** ícone ![Mais ícone](assets/more-icon.png) no cabeçalho do relatório e selecione **Editar**.
+1. No cabeçalho da tabela do relatório, clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Ícone Editar no cabeçalho da tabela](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

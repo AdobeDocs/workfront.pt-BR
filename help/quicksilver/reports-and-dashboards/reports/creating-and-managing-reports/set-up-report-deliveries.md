@@ -6,9 +6,9 @@ description: Visão geral da entrega de relatórios
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Para obter mais informações sobre a linha de assunto do email de relatório en
 
 O nome do relatório anexado é: *The_Name_Of_The_Report* seguido do formato de arquivo exportado.
 
-Se você agendar o relatório entregue para ser formatado como um arquivo PDF ou HTML, o título do relatório será:
+Se você tiver programado o relatório entregue para ser formatado como um arquivo PDF ou HTML, o título do relatório será:
 
 *O Nome do Relatório.*
 
@@ -174,7 +174,7 @@ Para obter mais informações sobre como selecionar a guia padrão de um relató
 
 ### Links {#links}
 
-Quando você envia um relatório do Workfront para o formato PDF ou Excel, todos os links de trabalho existentes no documento original permanecem ativos no arquivo enviado. Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a links.
+Ao enviar um relatório do Workfront para o formato do PDF ou Excel, os links de trabalho existentes no documento original permanecem ativos no arquivo enviado. Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a links.
 
 O nome do relatório na mensagem de email também é um link.
 
@@ -189,7 +189,7 @@ Você pode ver se um relatório foi configurado para ser entregue criando o segu
 
 * **Um Filtro** para o objeto de Relatório: Crie um filtro em uma lista de relatórios ou em um relatório sobre relatórios com a seguinte instrução: *A ID do Relatório Agendado não está em branco*.\
   Isso exibirá somente os relatórios que foram agendados na lista ou no relatório.\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![Filtro de relatório agendado](assets/qs-scheduled-report-filter-350x101.png)\
   Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obter informações sobre como criar um relatório sobre relatórios, consulte [Criar um relatório sobre atividades de relatórios](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

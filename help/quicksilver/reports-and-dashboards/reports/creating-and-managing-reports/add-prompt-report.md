@@ -6,9 +6,9 @@ description: Filtros e prompts são semelhantes, no sentido de que ambos restrin
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
 
 1. Clique no botão **Configurações do Relatório**.
 1. Clique na guia **Prompts do Relatório** e em **Adicionar um Prompt**.\
-   ![](assets/create-report-prompt-tab.png)
+   ![Guia de prompts do relatório](assets/create-report-prompt-tab.png)
 
 1. (Condicional) Selecione o campo no qual você deseja que o prompt se baseie. Comece digitando o nome do campo e clique em para selecioná-lo quando ele aparecer na lista.\
    As opções disponíveis para usuários que executam o relatório serão diferentes dependendo do campo selecionado.\
@@ -144,7 +144,7 @@ Para executar um relatório com um prompt:
 
 1. Acesse o relatório com o prompt.
 
-   ![](assets/run-report-prompts.png)
+   ![Executar prompts de relatório](assets/run-report-prompts.png)
 
 1. Escolha uma condição para uma ou todas as solicitações exibidas na guia **Solicitações**.\
    (Opcional) Você pode deixar os prompts em branco e não filtrar o relatório pelas condições do prompt.

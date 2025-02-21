@@ -6,9 +6,9 @@ description: É possível remover um filtro, uma exibição ou um agrupamento de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Os cenários a seguir existem ao remover um filtro, uma exibição ou um agrupam
 ### Remover um filtro, uma visualização ou um agrupamento usando o construtor herdado
 
 1. Ir para uma lista de objetos ou um relatório.
-1. (Condicional) Em uma lista, clique no ícone **Filtro**, **Exibição** ou **Agrupamento** e passe o mouse sobre o filtro, a exibição ou o agrupamento que deseja remover, clique no ícone ![](assets/more-icon.png) de **Mais** e **Remover**. O filtro, a visualização ou o agrupamento é removido.
+1. (Condicional) Em uma lista, clique no ícone **Filtro**, **Exibição** ou **Agrupamento** e passe o mouse sobre o filtro, a exibição ou o agrupamento que deseja remover, clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) e **Remover**. O filtro, a visualização ou o agrupamento é removido.
 1. (Condicional) Em um relatório, clique no menu suspenso **Agrupamento**, **Filtro** ou **Exibir** e selecione **Remover Agrupamento**, **Remover Filtro** ou **Remover Exibição**.
 
    A caixa de diálogo **Meus Agrupamentos**, **Meus Filtros** ou **Minhas Exibições** é exibida.

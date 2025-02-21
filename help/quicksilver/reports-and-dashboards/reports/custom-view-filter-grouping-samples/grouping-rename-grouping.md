@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupamento: editar o nome de exibição em um agrupamento"
+title: 'Agrupamento: editar o nome de exibição em um agrupamento'
 description: É possível renomear agrupamentos em listas e relatórios para algo mais familiar aos usuários.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 É possível renomear agrupamentos para algo mais familiar aos usuários.
 
-Por exemplo, ao aplicar o agrupamento padrão de Nome de Portfolio a uma lista de projetos, o nome do agrupamento aparece como *Portfolio: Nome:`<name of portfolio>`*.
+Por exemplo, ao aplicar o agrupamento padrão do Portfolio Name a uma lista de projetos, o nome do agrupamento aparece como *Portfolio: Name:`<name of portfolio>`*.
 
-![](assets/grouping-unedited-name-350x167.png)
+![Agrupamento por nome não editado](assets/grouping-unedited-name-350x167.png)
 
 Você pode modificar esse agrupamento usando o modo texto para exibir um nome mais fácil de ler.
 
-![](assets/grouping-edited-name-350x160.png)
+![Agrupamento por nome editado](assets/grouping-edited-name-350x160.png)
 
 ## Requisitos de acesso
 
@@ -103,7 +103,7 @@ Para alterar o nome de exibição em um agrupamento de projeto:
      >Você também pode deixar as linhas `group.0.name=` e `group.0.displayname=` em branco, nesse caso, o agrupamento mostra o valor pelo qual você está sendo agrupado.
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![Agrupamento por nome editado sem nome](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Clique em **Concluído** e em **Salvar agrupamento**.
 1. (Opcional) Atualize o nome do agrupamento e clique em **Salvar agrupamento**.

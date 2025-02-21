@@ -7,9 +7,9 @@ description: Você pode criar um relatório por meio de um campo personalizado d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Para criar o campo personalizado calculado que faz referência ao campo personal
 
 1. Substitua &quot;Campo personalizado de seleção múltipla&quot; pelo nome real do seu campo personalizado de seleção múltipla, como exibido no Workfront.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![Campo personalizado de várias seleções calculado](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. (Opcional) Se o campo personalizado de seleção múltipla já estiver neste formulário e se ele já estiver anexado a objetos, habilite a opção **Aplicar a cálculos existentes**.
 
@@ -140,11 +140,11 @@ Para criar o campo personalizado calculado que faz referência ao campo personal
 
 1. (Opcional) Para garantir que todos os campos calculados pelos quais você deseja criar gráficos sejam preenchidos com valores, na guia Detalhes do relatório, selecione todos os objetos que contêm o formulário personalizado com a seleção múltipla de campos personalizados e o campo personalizado calculado e clique em **Editar**.
 1. (Opcional e condicional) Selecione o campo **Recalcular Expressões Personalizadas** e clique em **Salvar Alterações**.\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![Recalcular expressões personalizadas](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Esta opção foi eliminada da edição de projetos em massa.  Você ainda pode recalcular expressões para projetos em massa clicando no ícone **Mais** ![](assets/more-icon-45x33.png) na parte superior de uma lista de projetos e **Recalcular Expressões**.
+   >Esta opção foi eliminada da edição de projetos em massa.  Você ainda pode recalcular expressões para projetos em massa clicando no ícone **Mais** ícone ![Mais](assets/more-icon-45x33.png) na parte superior de uma lista de projetos e **Recalcular Expressões**.
 
 1. Vá para o relatório em que deseja adicionar o gráfico do campo calculado que faz referência ao campo personalizado de multisseleção.
 1. Clique em **Ações de Relatório** e depois em **Editar**.
@@ -160,4 +160,4 @@ Para criar o campo personalizado calculado que faz referência ao campo personal
 
    O relatório exibe os resultados agrupados pelo Campo de seleção múltipla calculado em um gráfico.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![Campo de seleção múltipla no gráfico](assets/chart-multi-select-field-column-chart-example.png)

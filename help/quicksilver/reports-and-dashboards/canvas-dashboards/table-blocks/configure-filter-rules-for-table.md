@@ -4,9 +4,9 @@ description: Filtrar uma tabela na Tela de relatório
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -46,19 +46,19 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 ## Configurar regras de filtro para uma tabela
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
 
 1. Clique em **Novo relatório**.
 
    Ou
 
-   Vá para um relatório existente, clique no ícone ![](assets/more-icon.png) do **Mais Menu** no cabeçalho do relatório e selecione **Editar**.
+   Vá para um relatório existente, clique no ícone **Mais Menu** ícone ![Mais ícone](assets/more-icon.png) no cabeçalho do relatório e selecione **Editar**.
 
 1. Para agrupar linhas em uma nova tabela, arraste ou clique duas vezes em um bloco de tabela na tela.
 
    Ou
 
-   Para agrupar linhas em uma tabela existente, clique no ícone ![](assets/edit-icon.png) de **Editar** no cabeçalho da tabela.
+   Para agrupar linhas em uma tabela existente, clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) no cabeçalho da tabela.
 
 1. No painel direito, localize o campo pelo qual deseja filtrar a tabela e arraste-o para a seção Filtro.
 

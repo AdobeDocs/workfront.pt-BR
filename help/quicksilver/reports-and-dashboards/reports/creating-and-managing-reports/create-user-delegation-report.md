@@ -7,9 +7,9 @@ description: Criar um relatório de delegação de usuário
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -83,11 +83,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar um relatório de delegação de usuário
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Relatórios**.
 
 1. Clique em **Novo relatório** e selecione **Delegação de usuários**.
 
-   ![](assets/classic-new-report-user-delegation-350x644.png)
+   ![Nova delegação de usuário de relatório](assets/classic-new-report-user-delegation-350x644.png)
 
    Os seguintes campos são exibidos neste relatório por padrão:
 

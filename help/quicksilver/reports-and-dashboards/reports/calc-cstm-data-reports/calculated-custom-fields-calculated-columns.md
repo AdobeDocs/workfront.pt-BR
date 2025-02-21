@@ -7,9 +7,9 @@ description: Para agregar vários campos no Adobe Workfront e exibir esse valor 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Para obter mais informações sobre a sintaxe que deve ser usada em uma coluna p
 
 ## Ações que acionam a atualização de um campo personalizado calculado
 
-* Na página principal de um objeto, ao clicar no ícone Mais ![](assets/more-icon.png) e em **Recalcular Expressões**
+* Na página principal de um objeto, clicando no ícone Mais ![ícone Mais](assets/more-icon.png) e clicando em **Recalcular Expressões**
 
 * Edição de vários objetos em massa quando **Recalcular Expressões Personalizadas** está habilitado
 * Edição de um formulário personalizado quando **Atualizar cálculos anteriores** está habilitado para o campo personalizado calculado

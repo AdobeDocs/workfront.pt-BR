@@ -6,9 +6,9 @@ description: Você pode fazer referência aos formulários personalizados de um 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Ao criar o relatório, basta usar o tipo de objeto do formulário como a fonte d
 
 Por exemplo, você pode ter um formulário personalizado aplicado a todos os projetos que incluem o campo personalizado **Consultor**. Para criar um relatório que liste todos os projetos em que Olivia Kim é a consultora, use o tipo de objeto **Projeto** como a origem do campo e use **Consultor** como o nome do campo. Defina o qualificador de filtro como **Igual** e digite Olivia Kim.
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![Filtro de consultor](assets/qs-consultant-filter-example-350x126.png)
 
 Para obter mais informações sobre como criar um relatório, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -111,13 +111,13 @@ Para exibir todos os formulários personalizados associados a um objeto:
 1. Comece a criar um relatório conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Na guia **Colunas**, expanda o tipo de objeto ao qual o formulário personalizado que você deseja referenciar é aplicado e clique em **Nome da Categoria**.\
    Por exemplo, para exibir todos os formulários personalizados associados a uma tarefa, expanda a origem do campo **Tarefa** e clique no nome do campo **Nome da Categoria**.\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![Coluna de nome de categoria](assets/qs-category-name-column-350x267.png)
 
 Para exibir somente o formulário personalizado principal associado ao objeto:
 
 1. Comece a criar um relatório conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Na guia **Colunas**, expanda a origem do campo **Categoria** e clique no nome do campo **Nome**.\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![Nome da categoria](assets/qs-category-name-column-2-350x248.png)
 
 ### Fazer referência a formulários personalizados em um filtro de relatório {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ Para filtrar em todos os formulários personalizados associados ao tipo de objet
 
 1. Comece a criar um relatório conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Na guia **Filtros**, expanda **Categorias** e clique em **Nome**.\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![Filtro de nome de categoria](assets/qs-categories-name-filter-350x311.png)
 
 1. Selecione o qualificador de condição que deseja usar:
 
@@ -150,7 +150,7 @@ Para filtrar somente no formulário personalizado principal associado ao tipo de
 
 1. Comece a criar um relatório conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Na guia **Filtros**, expanda a fonte de campo **Categoria** e clique no nome de campo **Nome**.\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![Filtro de nome de categoria](assets/qs-category-name-filter-350x437.png)
 
 1. Selecione o qualificador de condição que deseja usar:
 
@@ -175,4 +175,4 @@ Para filtrar somente no formulário personalizado principal associado ao tipo de
 
 1. Comece a criar um relatório conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Na guia **Agrupamentos**, expanda **Categoria** e clique em **Nome**.\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![Agrupamento de nome de categoria](assets/qs-category-name-grouping-350x373.png)

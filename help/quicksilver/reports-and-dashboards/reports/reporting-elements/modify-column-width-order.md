@@ -6,9 +6,9 @@ description: Leia este artigo para saber mais sobre as diretrizes de largura da 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Para obter mais informações sobre como exportar dados de listas e relatórios,
 
 1. Vá para a lista que deseja modificar.
 1. Arraste a borda de um cabeçalho de coluna até que a coluna atinja o tamanho desejado.\
-   ![](assets/column-resize-350x124.png)
+   ![Redimensionar coluna](assets/column-resize-350x124.png)
 
 #### Reordenar colunas temporariamente {#reorder-columns-temporarily}
 

@@ -6,9 +6,9 @@ description: Você pode aprimorar seus relatórios adicionando um gráfico. É p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,11 @@ Para adicionar um gráfico de **Bolha** ao seu relatório:
 
    Por exemplo, se você selecionou **Nome do Projeto** em um relatório de tarefa, poderá adicionar **Status da Tarefa** como o campo **Cor da Bolha**.
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![Status da tarefa como cor de bolha](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    No entanto, se você selecionou **Status da Tarefa** para o campo **Bolhas**, não será possível selecionar um campo **Cor da Bolha**. Além disso, você não pode selecionar **Nome do Projeto** para o campo **Cor da Bolha**, mesmo ao selecionar **Nome do Projeto** para o campo **Bolhas**.
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![Não é possível selecionar a cor da bolha](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. Clique em **Salvar + Fechar** para salvar as alterações no construtor de interfaces.
 
@@ -304,7 +304,7 @@ Para personalizar as cores do gráfico:
 
 1. Clique em **Cores Personalizadas** quando este campo estiver disponível.\
    A caixa de diálogo Cores Personalizadas é exibida.\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![Cores personalizadas em gráficos](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

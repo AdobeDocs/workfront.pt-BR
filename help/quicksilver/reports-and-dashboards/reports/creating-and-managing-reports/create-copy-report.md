@@ -7,9 +7,9 @@ description: É possível criar uma cópia de qualquer relatório ao qual você 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Se quiser fazer uma cópia de um relatório personalizado, faça o seguinte:
 
 Se quiser criar uma cópia de um relatório padrão, faça o seguinte:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
 
 1. Clique em **Relatórios** e depois em **Todos os Relatórios**.
 1. Clique no nome de um relatório padrão para abri-lo.
@@ -124,6 +124,6 @@ Se quiser criar uma cópia de um relatório padrão, faça o seguinte:
 1. Clique em **Concluído**.
 1. Clique em **Salvar como Novo Relatório**.
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![Salvar como novo relatório](assets/unshimmed-save-as-new-report.png)
 
 1. (Opcional) Para compartilhar a nova versão do relatório com outros usuários, clique em **Ações de Relatório** e depois em **Compartilhamento**.

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Relatório: Hora orçada"
-description: "Relatório: Hora orçada"
+title: 'Relatório: Hora orçada'
+description: 'Relatório: Hora orçada'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Quando você deseja compartilhar informações de Hora orçada com outros usuár
 >
 >As horas orçadas são normalmente atualizadas a cada hora (raramente, pode levar no máximo três horas) no banco de dados do Adobe Workfront. Atualizar o relatório não atualiza necessariamente as informações de hora contidas. Você pode visualizar o tempo decorrido desde a última atualização no canto superior direito de cada relatório de Horas orçadas. Atualizar o relatório atualiza as informações nele apenas quando houver mais de uma hora desde a última atualização.
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![Aviso de sincronização de tempo do relatório de horas orçado](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Requisitos de acesso
 
@@ -72,7 +72,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar um relatório de horas orçadas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito ou no ícone ![](assets/lines-main-menu.png) do **Menu Principal** no canto superior esquerdo, se disponível, em seguida clique em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no ícone **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida em **Relatórios**.
 
 1. Clique em **Novo Relatório** > **Mais** > **Hora Orçada**.
 

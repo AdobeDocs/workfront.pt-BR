@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2798'
 ht-degree: 4%
 
 ---
@@ -181,7 +181,7 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Selecionar entrada do diário](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
@@ -256,7 +256,7 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
 
 1. Na guia **Filtros**, clique em **Adicionar uma Regra de Filtro** e adicione a regra de filtro **Nome do Campo** > **Igual** > **status**.
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![Filtro de status de entrada do diário](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -296,7 +296,7 @@ Para ver quando uma tarefa ou problema foi excluído:
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Selecionar entrada do diário](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
@@ -343,7 +343,7 @@ Para ver quando uma tarefa ou problema foi excluído:
    * **ID do Projeto** > **Igual** > **&lt; nome do projeto >**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -380,7 +380,7 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Selecionar entrada do diário](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
@@ -451,7 +451,7 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 
    * **ID do Projeto** > **Igual** > **&lt; projeto >**.
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![Filtro de alterações em formulários personalizados](assets/qs-custom-form-changes-filter-350x92.png)
 
    Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -482,7 +482,7 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Selecionar entrada do diário](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
@@ -553,7 +553,7 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
    * **Nome do Campo** > **Igual** > **Data**
    * **ID do Projeto** > **Igual** > **&lt; nome do projeto >**.
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Filtro de alteração da data de conclusão planejada](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -584,7 +584,7 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Selecionar entrada do diário](assets/nwe-select-journal-entry-350x273.png)
 
    O Report Builder é carregado.
 
@@ -643,7 +643,7 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
    * **Nome do Campo** > **Igual** > **IDdoProprietário**
    * **ID do Projeto** > **Igual** > **&lt; nome do projeto >**.
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![Filtro de alteração de proprietário](assets/qs-owner-changes-filter-350x94.png)
 
    Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

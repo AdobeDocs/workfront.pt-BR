@@ -6,9 +6,9 @@ description: Por padrão, os usuários só podem ver os objetos em um relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Para executar um relatório com os direitos de acesso de outro usuário:
 1. Clique em **Configurações do relatório**.
 
 1. No campo **Executar este relatório com os Direitos de Acesso de:**, comece digitando o nome do usuário com o qual deseja que o relatório seja exibido e, em seguida, selecione-o quando o vir na lista.\
-   ![](assets/unshimmed-access-rights-of.png)
+   ![Executar com direitos de acesso de](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Você pode configurar relatórios para serem entregues como anexo a um email. Vo
 
 Para fornecer um relatório com os direitos de acesso de outro usuário:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Relatórios**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Workfront e em **Relatórios**.
 
 1. Selecione o relatório que deseja entregar com os direitos de acesso de outro usuário.
 1. Clique no nome do relatório para selecioná-lo.
@@ -116,7 +116,7 @@ Para fornecer um relatório com os direitos de acesso de outro usuário:
 1. Clique em **Enviar Relatório**.
 
 1. No campo **Entregar este relatório com os Direitos de Acesso de:**, comece digitando o nome do usuário que você deseja que o relatório exiba como quando for entregue em um email, em seguida, selecione-o quando o vir na lista. O padrão é o nome do usuário que está criando o relatório.\
-   ![](assets/unshimmed-send-report-access-rights-of.png)
+   ![Relatório enviado com direitos de acesso de](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
