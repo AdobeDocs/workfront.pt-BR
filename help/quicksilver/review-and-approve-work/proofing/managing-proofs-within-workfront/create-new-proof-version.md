@@ -6,9 +6,9 @@ description: Gerenciar feedback em várias versões ou revisões de um trabalho 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Para criar uma nova versão de uma prova:
 
    Selecione a linha na qual a prova está listada, clique em **Adicionar nova** > **Versão** e clique na opção que deseja usar para adicionar a nova versão da prova.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Adicionar nova versão](assets/add-new-version-350x185.png)
 
 ## Criar uma nova versão de uma prova no visualizador de provas (somente Workfront Proof)
 
@@ -130,7 +130,7 @@ Para criar uma nova versão de uma prova no Workfront Proof:
 
    >[!NOTE]
    >
-   >Arrastar e soltar está disponível apenas em navegadores que suportam totalmente o HTML5. Isso exclui o Internet Explorer 7 a 9 e o Safari.
+   >Arrastar e soltar está disponível somente em navegadores com suporte total para HTML5. Isso exclui o Internet Explorer 7 a 9 e o Safari.
 
 1. Em **Fluxo de trabalho**, faça qualquer uma das alterações a seguir para especificar os revisores para esta versão da prova.
 

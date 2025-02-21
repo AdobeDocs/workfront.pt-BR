@@ -6,9 +6,9 @@ description: Você pode visualizar informações sobre como uma prova está avan
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Você pode visualizar informações sobre como uma prova está avançando pelo p
 
 O progresso da prova indica o trabalho feito em uma prova desde o momento em que você envia a prova para os recipients até o momento em que eles tomam uma decisão sobre a prova. Os ícones de progresso S, O, C e D são exibidos ao lado do nome da prova e fornecem informações sobre o progresso da prova.
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Editar andamento existente](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ Os ícones de progresso podem aparecer nas cores a seguir para indicar determina
 
 O status da prova exibe o status das decisões necessárias para a prova. O status da prova é determinado pelo participante com &quot;pior caso&quot;. Por exemplo, suponha que haja três decisões na prova: duas com o status **Aceitas** e uma com o status **Rejeitadas**. A decisão &quot;pior caso&quot; de **Rejected** ultrapassa as outras decisões e o status geral da prova é mostrado como **Rejected**. 
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Progresso existente de edição de prova](assets/proof-edit-existing-progress-350x62.png)
 
 As opções de status padrão são as seguintes:
 

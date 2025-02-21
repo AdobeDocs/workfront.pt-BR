@@ -6,9 +6,9 @@ description: Quando as iniciativas entram em conflito umas com as outras, elas e
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2220'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Isso pode acontecer em qualquer um dos seguintes casos:
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -103,7 +103,7 @@ Isso pode acontecer em qualquer um dos seguintes casos:
 
 1. Verifique se **[!UICONTROL Mostrar conflitos]** está habilitado. Ela é ativada por padrão.
 
-   ![](assets/show-scenarios-toggle-on.png)
+   ![Exibir alternância de cenários](assets/show-scenarios-toggle-on.png)
 
    A primeira iniciativa conflitante exibe os meses com conflitos em vermelho e um ícone de aviso é exibido ao lado do nome da iniciativa.
 
@@ -111,13 +111,13 @@ Isso pode acontecer em qualquer um dos seguintes casos:
 
    Quando uma iniciativa exibe um conflito, significa que o número de funções de trabalho para pelo menos uma função específica, os custos incorridos ou ambos excedem o número de funções de trabalho ou o orçamento definido para o plano para um mês específico.
 
-   ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   ![Iniciativas no plano com conflito](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
 1. Siga um destes procedimentos para entender mais sobre os conflitos que podem existir:
 
    * Passe o mouse sobre o ícone de aviso ao lado do nome da iniciativa para entender se você tem uma função de trabalho ou um conflito de orçamento.
 
-     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![Conflito de função de trabalho de orçamento](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
      Dependendo de você ter superalocado funções de trabalho ou superestimado custos para a sua iniciativa, você poderá ver uma das seguintes opções ao passar o mouse sobre o ícone de aviso:
 
@@ -127,7 +127,7 @@ Isso pode acontecer em qualquer um dos seguintes casos:
 
    * Ao exibir o plano por mês, passe o mouse sobre um mês na linha do tempo do plano para exibir os recursos necessários para esse mês e se os conflitos do mês são pessoas ou relacionados ao custo.
 
-     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![Detalhes de conflitos na linha do tempo mensal](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      Revise as seguintes informações mensais no nível do plano:
 
@@ -140,7 +140,7 @@ Isso pode acontecer em qualquer um dos seguintes casos:
 
    * Passe o mouse sobre a barra vermelha de uma iniciativa por um mês para exibir a caixa de informações adicionais sobre o conflito que ocorre nesse mês.
 
-     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![Detalhes de conflitos na linha do tempo da iniciativa](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      Revise os seguintes campos na caixa de informações adicionais no nível da iniciativa:
 
@@ -181,7 +181,7 @@ Isso pode acontecer em qualquer um dos seguintes casos:
 
    * Clique no ícone de aviso ao lado do nome da iniciativa.
    * Clique na barra de uma iniciativa.
-   * Clique no ícone **[!UICONTROL Mais]** ![](assets/more-icon.png) à direita do nome da iniciativa e clique em **[!UICONTROL Editar]**.
+   * Clique no ícone **[!UICONTROL Mais]** ![Mais ícone](assets/more-icon.png) à direita do nome da iniciativa e clique em **[!UICONTROL Editar]**.
 
      O painel de detalhes da iniciativa é exibido à direita.
 
@@ -192,11 +192,11 @@ Isso pode acontecer em qualquer um dos seguintes casos:
 
 1. (Condicional) Para iniciativas que tenham conflitos de função de trabalho, vá para a seção **[!UICONTROL Funções de Trabalho Necessárias]** para exibir todas as funções de trabalho necessárias para sua iniciativa. Identifique quais funções de trabalho podem estar superalocadas. Revise o número de FTE ou horas necessárias para cada função de trabalho para cada mês da iniciativa. A caixa com o FTE ou o número de horas para meses com superalocações é exibida em um outline vermelho.
 
-   ![](assets/details-panel-overallocated-roles-350x275.png)
+   ![Funções superalocadas](assets/details-panel-overallocated-roles-350x275.png)
 
 1. (Opcional) Clique na seta à direita ao lado dos meses na linha do tempo da iniciativa para visualizar quais meses adicionais exibem conflitos de função de trabalho.
 
-   ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![Erro à direita na caixa de detalhes](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
 1. (Opcional) Clique em **[!UICONTROL Mostrar detalhes]** na função de trabalho que exibe um conflito para ver onde os conflitos aparecem e para realçar os meses conflitantes na área do gráfico do plano. Informações adicionais são exibidas para cada função de trabalho.
 
@@ -225,12 +225,12 @@ Isso pode acontecer em qualquer um dos seguintes casos:
    >
    >No gráfico do plano, os meses em que as funções de trabalho são alocadas exibem o nome e o número de funções necessárias para cada iniciativa em que são necessárias. Você deve selecionar o modo de exibição [!UICONTROL Mês] para ver o nome das funções de trabalho
 
-   ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![Funções de trabalho em conflito](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
 1. Siga um destes procedimentos para resolver conflitos de funções de trabalho:
 
    * Ajuste manualmente o número de funções de trabalho para cada mês da iniciativa para um número menor.
-   * Passe o mouse sobre o nome da função de trabalho e clique no ícone **[!UICONTROL excluir]** ![](assets/delete.png) para remover a função de trabalho da iniciativa.
+   * Passe o mouse sobre o nome da função de trabalho e clique no ícone **[!UICONTROL excluir]** ![Ícone excluir](assets/delete.png) para remover a função de trabalho da iniciativa.
    * Selecione **[!UICONTROL Adicionar funções aos recursos disponíveis do cenário]** e clique em **[!UICONTROL Aplicar]**.
 
      Isso adiciona o número ausente de FTEs ou horas de funções de trabalho ao campo [!UICONTROL Disponível] do cenário.
@@ -239,7 +239,7 @@ Isso pode acontecer em qualquer um dos seguintes casos:
      >
      >As funções adicionadas para resolver conflitos modificam as funções de trabalho [!UICONTROL Disponíveis] para o cenário selecionado e não para todos os cenários no plano.
 
-     Uma seta verde para cima ![](assets/upward-green-arrow.png) é exibida para o mês na linha do tempo do plano para indicar que mais recursos foram adicionados ao plano naquele mês. Você deve selecionar o modo de exibição [!UICONTROL Mês] para ver este indicador.
+     Uma seta verde apontando para cima ![seta verde apontando para cima](assets/upward-green-arrow.png) é exibida para o mês na linha do tempo do plano para indicar que mais recursos foram adicionados ao plano naquele mês. Você deve selecionar o modo de exibição [!UICONTROL Mês] para ver este indicador.
 
    * (Condicional) Feche o painel de detalhes e dê à iniciativa uma prioridade mais alta para receber recursos do orçamento do plano primeiro, se possível. Para obter informações sobre como atualizar a prioridade da iniciativa, consulte [Atualizar prioridades de iniciativa no Planejador de Cenários](../scenario-planner/prioritize-initiatives.md).
 
@@ -248,7 +248,7 @@ Isso pode acontecer em qualquer um dos seguintes casos:
 1. (Condicional) Para iniciativas que tenham conflitos de custos, vá para a seção **[!UICONTROL Custos]** no painel de detalhes da iniciativa para analisar os custos de cada mês de duração da iniciativa. Identifique quais meses podem não ter dinheiro suficiente no orçamento do plano para cobrir os custos da iniciativa selecionada. A caixa com o orçamento disponível insuficiente é exibida em uma estrutura vermelha.
 1. (Opcional) Clique na seta à direita ao lado dos meses na linha do tempo da iniciativa para visualizar os meses adicionais que têm orçamento insuficiente para cobrir os custos.
 
-   ![](assets/details-panel-insufficient-costs-350x239.png)
+   ![Seta para custos insuficientes](assets/details-panel-insufficient-costs-350x239.png)
 
 1. (Opcional) Clique em **[!UICONTROL Mostrar detalhes]** nas informações de custo para ver onde o conflito aparece e para realçar os meses conflitantes no gráfico do plano. Os seguintes campos adicionais são exibidos para cada tipo de custo:
 
@@ -275,7 +275,7 @@ Isso pode acontecer em qualquer um dos seguintes casos:
    >
    >No gráfico do plano, os meses em que os custos são insuficientes exibem o nome e o número de funções ainda necessárias para a iniciativa. Você deve selecionar a exibição Mês para exibir os valores de custo.
 
-   ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![Custos conflitantes](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >

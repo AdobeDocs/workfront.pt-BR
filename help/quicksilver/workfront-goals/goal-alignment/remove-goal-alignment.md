@@ -6,9 +6,9 @@ description: Você pode remover o alinhamento entre duas metas se não fizer mai
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -101,9 +101,9 @@ Removing goal alignment differs depending on which environment you use.
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
+1. Click the **gear icon** ![Gear icon](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
-   ![](assets/edit-remove-alignment-350x88.png)
+   ![Reove alignment](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
@@ -117,9 +117,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Acesse a área **Metas** no Workfront e clique no nome de uma meta para abrir a página da meta.
 1. Na página da meta de uma meta principal, clique em **Indicadores de progresso** no painel esquerdo.
 
-   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![REmover alinhamento da meta](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. No agrupamento **Tipo: Meta**, selecione uma meta e clique no ícone ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) de **Desconectar** na parte superior da lista.
+1. No agrupamento **Tipo: Meta**, selecione uma meta e clique no ícone **Desconectar** ![Ícone Desconectar](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) na parte superior da lista.
 
    A caixa Desconectar é exibida.
 

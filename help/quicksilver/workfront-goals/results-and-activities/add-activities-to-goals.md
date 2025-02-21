@@ -7,9 +7,9 @@ description: As atividades medem o progresso de uma meta. Sem resultados associa
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Você deve ter o seguinte:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -51,7 +51,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Clique no **Menu principal** ![](assets/main-menu-icon.png) e depois em **Metas**.
+1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e depois em **Metas**.
 1. Na Lista de metas, clique no nome de uma meta para abrir a página da meta.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
 1. No menu suspenso Novo indicador de progresso, clique em **Criar atividade**.
 
    A caixa Nova atividade é aberta.
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![Caixa Nova atividade](assets/new-activity-box-unshimmed.png)
 
 1. Insira um nome para a atividade no campo Nome da atividade. Este campo é obrigatório.
 1. (Opcional) Remova seu nome do campo **Proprietário da atividade** se desejar atribuir a atividade a outro usuário. Por padrão, você é o proprietário de uma atividade criada.

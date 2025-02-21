@@ -6,9 +6,9 @@ description: Ao compartilhar uma meta, você dá permissões de gerenciamento a 
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '795'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Você deve ter o seguinte:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -50,7 +50,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -117,7 +117,7 @@ Você deve ter o seguinte:
 
 ## Compartilhar uma meta
 
-1. Clique no ícone ![](assets/main-menu-icon.png) > **Metas** do **Menu Principal** no canto superior direito.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -128,11 +128,11 @@ Você deve ter o seguinte:
 
 1. Clique no ícone **Mais** ao lado do nome da meta e clique em **Compartilhar**.
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![Mais menu](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    A caixa Acesso à meta é exibida.
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![Acesso à meta](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. Siga um destes procedimentos:
 
@@ -168,62 +168,62 @@ A tabela a seguir lista as permissões que você pode conceder ao compartilhar u
  <tbody> 
   <tr> 
    <td> <p>Exibir meta</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Exibir resultados ou atividades</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Copiar meta* </td> 
-   <td>✓ µ </td> 
-   <td>✓ µ</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Converter resultados ou atividades em outras metas*</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Exibir projetos adicionados como atividades** </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Editar meta</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Editar resultados ou atividades</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Adicionar resultados ou atividades para a meta</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Associar um projeto como uma atividade à meta**</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Excluir meta</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Excluir resultados ou atividades</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Desconectar projetos da meta</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 

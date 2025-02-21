@@ -6,9 +6,9 @@ description: Com um fluxo de trabalho básico, é possível incluir vários revi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Na seção Tipo de fluxo de trabalho, escolha **Básico**.
 1. Especifique os usuários que deseja adicionar e escolha uma função de Prova.
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![Novas funções de prova](assets/new-proof---roles-350x213.png)
 
 1. A tabela a seguir lista cada função e os direitos associados a ela.
 
@@ -111,99 +111,99 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <tbody> 
      <tr> 
       <td> <p><strong>Somente Leitura</strong> </p> </td> 
-      <td> <p>✓ µ</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
       <td> </td> 
       <td> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>Oliveira</strong> </p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
       <td> </td> 
       <td> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>Aprovador</strong> </p> </td> 
-      <td> <p>✓ µ</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
-      <td> <p>✓ µ</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td> <p>✓ µ</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>Revisor e Aprovador</strong> </p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td> <p>✓ µ</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>Autor</strong> </p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
-      <td>✓ µ</td> 
-      <td>✓ µ</td> 
-      <td> <p>✓ µ</p> </td> 
-      <td>✓ µ</td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td> <p>✓</p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td>✓ µ</td> 
+      <td>✓</td> 
      </tr> 
      <tr> 
       <td> <p><strong>Moderador</strong> </p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ <strong></strong> </p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> </td> 
-      <td> <p>✓ µ</p> <p> </p> </td> 
-      <td>✓ µ</td> 
-      <td>✓ µ</td> 
-      <td> <p>✓ µ</p> </td> 
-      <td>✓ µ</td> 
-      <td>✓ µ</td> 
-      <td>✓ µ</td> 
-      <td>✓ µ</td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p><strong> ✔</strong> </p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> <p> </p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td> <p>✓</p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td>✓</td> 
      </tr> 
     </tbody> 
    </table>
@@ -347,6 +347,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Depois que a prova for gerada, clique em **Abrir prova** para iniciar o visualizador de provas.
 
-   ![](assets/open-proof-350x132.png)
+   ![Abrir prova](assets/open-proof-350x132.png)
 
    Os usuários que não têm a prova ativada em suas contas ainda podem exibir o documento e fazer comentários na prova.

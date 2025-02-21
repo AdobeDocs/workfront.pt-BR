@@ -6,9 +6,9 @@ description: Você pode gerar uma prova para um documento no momento em que esti
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Vá para o projeto, tarefa ou problema em que deseja criar uma nova prova.
 1. Clique na guia **Documentos**.
-1. Clique em Documentos ![](assets/document-icon.png) no painel esquerdo.
+1. Clique no ícone Documentos ![Documentos](assets/document-icon.png) no painel esquerdo.
 1. Clique em **Adicionar novo** e em **Prova** no menu exibido.
 
    >[!TIP]

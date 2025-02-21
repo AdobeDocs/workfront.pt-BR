@@ -6,9 +6,9 @@ description: Você pode usar novas aprovações de documentos com revisões.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Você tem a opção de atribuir revisores, aprovadores ou uma combinação de am
 Para atribuir participantes:
 
 1. Selecione o documento que você carregou e abra o documento Resumo.
-   ![](assets/open-doc-summary.png)
+   ![Abrir resumo do documento](assets/open-doc-summary.png)
 
 1. Role para baixo até a seção Aprovações e clique em **Adicionar**.
 
@@ -62,7 +62,7 @@ Para atribuir participantes:
 
 1. Para adicionar um revisor, clique no botão Revisor e comece a digitar um nome de usuário ou de equipe.
 
-   ![](assets/add-approvers.png)
+   ![Adicionar aprovadores](assets/add-approvers.png)
 
 1. Depois de adicionar todos os revisores e aprovadores, clique em **Enviar solicitação**. Os participantes são notificados por email.
 
@@ -77,7 +77,7 @@ Para adicionar uma nova versão:
 1. Depois que o documento terminar de ser carregado, selecione-o e clique em **Criar prova** > **Prova simples**.
 
 1. Selecione o documento novamente e abra o Resumo do documento.
-   ![](assets/open-doc-summary.png)
+   ![Abrir resumo do documento](assets/open-doc-summary.png)
 
 1. Role para baixo até a seção Aprovações e clique em **Adicionar**.
 
@@ -89,7 +89,7 @@ Para adicionar uma nova versão:
 
 1. Para adicionar um revisor, clique no botão Revisor e comece a digitar um nome de usuário ou de equipe, <span class="preview">ou escolha um revisor da versão anterior. </span>
 
-   ![](assets/add-approvers.png)
+   ![Adicionar aprovadores](assets/add-approvers.png)
 
 1. Depois de adicionar todos os revisores e aprovadores, clique em **Enviar solicitação**. Os participantes são notificados por email.
 

@@ -6,9 +6,9 @@ description: Você pode baixar uma única versão ou todas as versões de uma pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 4%
 
 ---
@@ -53,9 +53,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Baixar uma única versão de prova
 
 1. Na lista de documentos, clique na prova.
-1. No Resumo, em **Versões**, clique no menu Mais ![](assets/more-icon.png) à direita da versão e clique em **Baixar** na lista suspensa exibida.
+1. No Resumo, em **Versões**, clique no ícone Mais ![Mais](assets/more-icon.png) do menu à direita da versão e clique em **Baixar** na lista suspensa exibida.
 
-   ![](assets/more-versions-350x143.png)
+   ![Baixar uma versão](assets/more-versions-350x143.png)
 
 ## Baixar todas as versões de uma prova
 

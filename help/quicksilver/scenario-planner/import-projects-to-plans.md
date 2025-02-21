@@ -6,9 +6,9 @@ description: Você pode importar projetos existentes para um plano. Os projetos 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Você pode importar projetos existentes para um plano. Os projetos importados s�
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -118,7 +118,7 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
      <ul> 
       <li> <p>Se um usuário atribuído a uma tarefa ou problema tiver alterado sua função depois de ter marcado sua atribuição como [!UICONTROL Concluído], o [!DNL Workfront] importará para a iniciativa a função que o usuário atendeu antes de marcar a atribuição como [!UICONTROL Concluído].</p> </li> 
       <li> <p>Se um usuário atribuído a uma tarefa ou problema tiver alterado a função durante a vida do projeto, mas sua atribuição na tarefa ou problema não estiver marcada como [!UICONTROL Concluído] quando você importar o projeto, o [!DNL Workfront] importará somente a função atual do usuário atribuído. </p> </li> 
-     </ul> <p>Para obter informações sobre o status de uma atribuição, consulte "Status da Atribuição" no <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossário da terminologia do Adobe [!DNL Workfront]</a>. </p> </p> </td> 
+     </ul> <p>Para obter informações sobre o status de uma atribuição, consulte "Status da Atribuição" no <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossário da terminologia [!DNL Workfront] do Adobe</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Projeto [!UICONTROL Trabalho] associado a funções de trabalho atribuídas a tarefas ou problemas</td> 
@@ -164,7 +164,7 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
 
    A caixa [!UICONTROL Importar projetos] é exibida. Os projetos com datas incluídas no período do seu plano são exibidos em uma lista.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![Importar projetos](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Opcional) Clique no **[!UICONTROL ícone de Filtro]** ![](assets/filter-nwepng.png)e selecione um filtro disponível na lista para reduzir a quantidade de projetos na sua lista. Por padrão, a lista de projetos é filtrada pelo filtro de projeto atualmente selecionado pelo usuário em uma lista de projetos.
+1. (Opcional) Clique no **[!UICONTROL ícone de Filtro]** ![ícone de Filtro](assets/filter-nwepng.png)e selecione um filtro disponível na lista para reduzir a quantidade de projetos na sua lista. Por padrão, a lista de projetos é filtrada pelo filtro de projeto atualmente selecionado pelo usuário em uma lista de projetos.
 
-1. (Opcional) Clique no **[!UICONTROL ícone de Pesquisa]** ![](assets/search-icon.png) e adicione uma palavra-chave exibida em qualquer campo da tela. Os itens que contêm a palavra de pesquisa são exibidos na lista automaticamente e todos os itens ficam ocultos.
+1. (Opcional) Clique no **[!UICONTROL ícone Pesquisar]** ![ícone Pesquisar](assets/search-icon.png) e adicione uma palavra-chave exibida em qualquer campo da tela. Os itens que contêm a palavra de pesquisa são exibidos na lista automaticamente e todos os itens ficam ocultos.
 
 1. (Condicional) Clique no **[!UICONTROL ícone X]** para remover a pesquisa e exibir todos os projetos.
 1. Selecione até 100 projetos e clique em **[!UICONTROL Importar]**.
@@ -185,10 +185,10 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
 
    Observe o seguinte:
 
-   * Um ícone de projeto ![](assets/project-icon-sp.png) é exibido à direita do nome da iniciativa.
+   * Um ícone de projeto ![Ícone de projeto](assets/project-icon-sp.png) é exibido à direita do nome da iniciativa.
    * Se a linha do tempo do projeto exceder a duração do plano, a barra da iniciativa terminará com uma margem apontada para a esquerda (quando a Data Inicial for anterior à data do plano) ou para a direita (quando a Data Final for posterior à data do plano).
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![Barra de projetos anterior à data inicial](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * O número de meses e funções de trabalho foram atualizados para corresponder ao do projeto.
 
@@ -198,7 +198,7 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
 
 1. Clique na barra que representa a nova iniciativa para abrir o painel de detalhes da iniciativa à direita.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![Duração da iniciativa](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    Na área **[!UICONTROL Duração da Iniciativa]**, analise as seguintes informações:
 
@@ -234,4 +234,4 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
 1. (Opcional) Para atualizar as alterações feitas na iniciativa de volta ao projeto do qual foi importada, publique o projeto do plano. Para obter informações sobre planos de publicação, consulte [Atualizar ou criar projetos publicando iniciativas em [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 1. (Opcional) Clique no ícone do projeto para acessar o projeto vinculado.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![Ícone de projeto na iniciativa](assets/project-icon-on-initiative-highlighted-350x49.png)

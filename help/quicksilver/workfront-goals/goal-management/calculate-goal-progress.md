@@ -6,9 +6,9 @@ description: O progresso da meta é orientado por indicadores de progresso como 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Depois de ativar uma meta, o Workfront Goals começa a calcular seu progresso e 
 | Porcentagem concluída esperada | Quanto da meta deve ser concluída até o momento para que seja concluída no prazo. O Workfront Goals calcula esse valor observando a Duração da meta e o momento atual no tempo. A meta deve exibir esse valor no horário atual, se for concluído a tempo. |
 | Progresso | Um rótulo que indica se a meta está no público alvo para ser concluída no prazo, ou se está em risco ou em problema de não ser concluída. |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![Com problemas](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Por exemplo, se o percentual de conclusão esperado for 53% no momento atual e o
 
 O gráfico a seguir ilustra a relação entre os rótulos de condição e a porcentagem de progresso:
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![Rótulos de status de progresso mapeados](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 A tabela abaixo lista os rótulos de condição de meta e as porcentagens de progresso da meta associadas a cada rótulo.
 

@@ -6,9 +6,9 @@ description: É possível marcar comentários como resolvidos depois de serem en
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Selecione o comentário.
 1. Clique no ícone de marca de seleção no canto inferior direito do comentário. Uma marca de seleção verde é exibida no canto superior esquerdo do comentário e um rótulo &quot;Segmento resolvido&quot; e a mensagem é exibida abaixo dele. O usuário que enviou o comentário recebe uma notificação por email informando que o comentário foi resolvido.
 
-   ![](assets/resolve-comment-350x247.png)
+   ![Resolver comentário](assets/resolve-comment-350x247.png)
 
 ## Reabrir um comentário resolvido
 
@@ -74,4 +74,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Selecione o comentário.
 1. Clique no ícone de marca de seleção verde no canto inferior direito do comentário (à direita do botão **Responder**). A marca de seleção no canto superior esquerdo do comentário desaparece e um rótulo e uma mensagem &quot;Thread reaberto&quot; aparecem abaixo dele. O usuário que enviou o comentário recebe uma notificação por email informando que o comentário foi reaberto.
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![Reabrir comentário resolvido](assets/reopen-resolved-comment-350x334.png)

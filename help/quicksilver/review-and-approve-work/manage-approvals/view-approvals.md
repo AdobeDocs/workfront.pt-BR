@@ -6,9 +6,9 @@ description: Os processos de aprovação oferecem flexibilidade para criar aprov
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Você pode exibir ou gerenciar aprovações das seguintes áreas:
 
 ## Revise o trabalho que você envia para aprovação na área Página inicial {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
 1. (Condicional) Clique no menu suspenso **Filtro** e selecione **Aprovações que enviei** para ver as aprovações que você enviou.
 
@@ -133,6 +133,6 @@ Para ver o estado atual de onde uma tarefa ou problema está no processo de apro
 
    A guia Approvals exibe as informações completas sobre todos os caminhos e estágios de aprovação anteriores. Você pode ver exatamente quem tomou uma decisão sobre a aprovação ou se a aprovação está definida para uma equipe, função de trabalho ou usuário.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![Guia Aprovações expandida](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    Para obter informações sobre como criar um Processo de Aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

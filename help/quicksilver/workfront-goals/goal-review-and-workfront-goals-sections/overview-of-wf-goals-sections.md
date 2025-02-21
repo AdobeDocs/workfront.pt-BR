@@ -7,9 +7,9 @@ description: Você pode acessar listas de metas ou metas individuais e gerenciá
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 >
 >* Para o novo plano e estrutura de licença:
 >
->   * O plano Ultimate Workfront
+>   * O plano do Ultimate Workfront
 >    
 >* Para o plano e a estrutura de licença atuais:
 >
@@ -56,7 +56,7 @@ Você pode usar a Lista de metas para analisar metas que pertencem a você, suas
 
 Para obter informações sobre como navegar na Lista de Metas e gerenciar metas, consulte [Gerenciar metas na Lista de Metas da Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/goal-list-unshimmed.png)
+![Lista de metas](assets/goal-list-unshimmed.png)
 
 Use a Lista de metas para fazer o seguinte:
 
@@ -78,7 +78,7 @@ Você pode usar a seção Gráficos para obter uma visualização integral da in
 
 Para obter informações sobre como usar a seção Gráficos, consulte [Revisar gráficos para entender as tendências de progresso das metas nas Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-![](assets/graphs-section-unshimmed.png)
+![Seção de gráficos](assets/graphs-section-unshimmed.png)
 
 Use a seção Gráficos para fazer o seguinte:
 
@@ -97,7 +97,7 @@ Para obter informações sobre como alinhar metas, consulte os seguintes artigos
 * [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![Seção de alinhamento da meta](assets/goal-alignment-section-unshimmed.png)
 
 Use a seção Alinhamento de metas para fazer o seguinte:
 
@@ -118,7 +118,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -149,7 +149,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

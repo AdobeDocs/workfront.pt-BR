@@ -6,9 +6,9 @@ description: Depois de conectar projetos e iniciativas, é possível gerenciar a
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Para obter informações gerais sobre como reconciliar recursos entre projetos e
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -87,12 +87,12 @@ Se sua empresa adquiriu uma licença [!DNL Workfront Scenario Planner], é poss�
 
 1. Siga um destes procedimentos:
 
-   * Clique em **[!UICONTROL Mês]** para exibir o Balanceador de Carga de Trabalho por mês, clique no menu suspenso ao lado de um mês na linha do tempo ![](assets/drop-down-next-to-month-month-view-wb.png) e clique em **[!UICONTROL Mais]**.
-   * Clique no ícone ![](assets/show-role-allocation-icon.png) da **[!UICONTROL Mostrar alocação de função]**, no canto superior direito da barra de ferramentas.
+   * Clique em **[!UICONTROL Mês]** para exibir o Balanceador de carga de trabalho por mês, clique no menu suspenso ao lado de um mês na linha do tempo ![Lista suspensa ao lado de mês](assets/drop-down-next-to-month-month-view-wb.png) e clique em **[!UICONTROL Mais]**.
+   * Clique no ícone **[!UICONTROL Mostrar alocação de função]** ![Mostrar alocação de função](assets/show-role-allocation-icon.png) no canto superior direito da barra de ferramentas.
 
    O painel [!UICONTROL Alocação de função] é exibido.
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![Painel de alocação de funções](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ Se sua empresa adquiriu uma licença [!DNL Workfront Scenario Planner], é poss�
 
 1. (Opcional) Clique no ícone suspenso para expandir um dos meses no painel [!UICONTROL Alocação de função] ou na linha do tempo do [!UICONTROL Balanceador de carga de trabalho].
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Expandir mês no painel de alocação de função](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    O mesmo tipo de informação exibida na área [!UICONTROL Totais do Projeto] também é exibido para cada mês.
 

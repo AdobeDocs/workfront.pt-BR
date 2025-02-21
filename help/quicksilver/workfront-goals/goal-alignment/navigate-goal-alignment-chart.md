@@ -6,9 +6,9 @@ description: Use a seção Alinhamento de metas para exibir uma visualização i
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Ou
 <td>
 <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
 <p>Ou</p>
 <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -137,11 +137,11 @@ Ou
 
    Metas alinhadas a outras metas exibem o número de metas alinhadas no cartão de metas.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Seta do gráfico de alinhamento](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. Clique no ícone de **seta para baixo** sob uma meta para expandir e exibir ainda mais as metas secundárias.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Seta do gráfico de alinhamento](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ Ou
 
 1. (Condicional) Se o filtro atual excluir algumas metas que participam de um alinhamento, uma mensagem de aviso será exibida para indicar que nem todas as metas são exibidas.
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![Meta principal excluída](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. Clique em **Mostrar** para exibir as metas eliminadas pelo filtro no momento.
 
@@ -158,14 +158,14 @@ Ou
    * As metas conectadas anteriormente eliminadas pelo filtro agora são exibidas no gráfico de alinhamento.
    * O filtro no canto superior direito é contornado em amarelo para indicar que não está aplicado no momento.
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![Realce do filtro amarelo](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      Um link Reapply filter é exibido à esquerda do nome do filtro.
 
 1. (Opcional) Clique em **Reaplicar filtro** para retornar aos resultados originais e exibir a hierarquia de metas.
 1. (Opcional) Passe o mouse sobre o indicador de progresso para entender onde o progresso da meta deve estar para o dia atual.
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![Gráfico de alinhamento ao passar o mouse](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    As seguintes informações são exibidas:
 

@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Os administradores do Workfront iniciam a integração do Workfront e do Frame.i
 
 >[!IMPORTANT]
 >
->Esse recurso será adicionado em breve. Por enquanto, contas Frame.io são adicionadas manualmente pela equipe do Workfront. Entre em contato com o representante de conta Adobe para obter ajuda.
+>Esse recurso será adicionado em breve. Por enquanto, contas Frame.io são adicionadas manualmente pela equipe do Workfront. Entre em contato com o representante de conta da Adobe para obter ajuda.
 
 <!--For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -54,7 +54,7 @@ Quando um usuário é marcado como um usuário do Frame.io no Workfront e adicio
 
 Para obter mais informações, consulte [Configurar a [!DNL Workfront] e [!DNL Frame.io] integração](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
-![](assets/Frame-enabled-user.png)
+![Usuário habilitado para quadro](assets/Frame-enabled-user.png)
 
 
 ### Criar um projeto conectado ao Frame.io
@@ -114,7 +114,7 @@ Revisores e aprovadores podem ser adicionados a um fluxo de trabalho de aprovaç
   Para obter mais informações, consulte [Criar um modelo de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 
-![](assets/assign-template.png)
+![Atribuir modelo](assets/assign-template.png)
 
 
 #### Acessar o visualizador Frame.io
@@ -123,7 +123,7 @@ Os usuários podem acessar o visualizador Frame.io das seguintes maneiras:
 
 * Notificações por email do Workfront
 * O widget Minha aprovação na nova área Página inicial do Workfront
-  ![](assets/awaiting-my-approval.png)
+  ![Aguardando minha aprovação](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Os revisores podem marcar sua revisão como concluída dentro do visualizador Fr
 
 Para obter mais informações sobre decisões no Workfront, consulte [Visão geral do status da decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-![](assets/frame-viewer-and-decision.png)
+![Visualizador e decisão de quadros](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 Os coordenadores de projetos podem monitorar o progresso em todas as aprovações em andamento na área da página inicial da Workfront com o seguinte widget:
 
 * **Todas as aprovações**: exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas.
-  ![](assets/all-approvals.png)
+  ![Todas as aprovações](assets/all-approvals.png)

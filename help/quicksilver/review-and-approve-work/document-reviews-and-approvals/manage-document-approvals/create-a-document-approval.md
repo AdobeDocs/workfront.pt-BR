@@ -6,9 +6,9 @@ description: Você pode solicitar aprovação de outros usuários para um docume
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior a projetos, tarefas, problemas, modelos, Portfolio, programas, relatórios, painéis e calendários, documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualize ou tenha acesso superior a projetos, tarefas, problemas, modelos, portfólios, programas, relatórios, painéis e calendários, documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -58,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Criar uma solicitação de revisão ou aprovação de documento a partir da página do documento
 
 1. Passe o mouse sobre o documento e clique em Detalhes do documento.
-   ![](assets/doc-details.png)
+   ![Detalhes do documento](assets/doc-details.png)
 
 
 1. Próximo ao nome do documento, selecione a versão do documento para a qual deseja criar uma aprovação na lista suspensa versão. A versão mais recente será selecionada por padrão.
@@ -71,7 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Adicionar aprovador e prazo final](assets/add-approver-and-deadline.png)
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
@@ -85,7 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Role para baixo até a seção **Aprovações** no painel Resumo do documento e clique em **Adicionar**.
 
-![](assets/doc-summary-add-approvers.png)
+![Adicionar aprovadores no resumo do documento](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
@@ -93,7 +93,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Adicionar aprovador e prazo final](assets/add-approver-and-deadline.png)
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
@@ -111,5 +111,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

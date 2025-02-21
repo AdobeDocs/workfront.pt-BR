@@ -7,9 +7,9 @@ description: Depois que o administrador do Adobe Workfront conceder a você o ac
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Você deve ter o seguinte:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -58,7 +58,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -121,9 +121,9 @@ Editing results differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
 1. Click **Results**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
-   ![](assets/results-gear-icon-options-350x85.png)
+   ![Results gear icon](assets/results-gear-icon-options-350x85.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -139,14 +139,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Clique no **Menu principal** ![](assets/main-menu-icon.png) e depois em **Metas**.
+1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e depois em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
-1. Selecione um resultado na lista Progress indicators e clique no ícone ![](assets/edit-icon.png) **Editar**.
+1. Selecione um resultado na lista Progress indicators e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
    A caixa Editar resultado é aberta.
 
-   ![](assets/edit-result-box-unshimmed.png)
+   ![Editar Caixa de Resultado](assets/edit-result-box-unshimmed.png)
 
 1. Edite as seguintes informações:
    * **Nome do resultado**: o nome do resultado. Use um nome descritivo que ilustre qual resultado você precisa obter para concluir a meta.
@@ -170,9 +170,9 @@ Editing activities differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
 1. Click **Activities**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
-   ![](assets/activities-gear-icon-options-350x84.png)
+   ![Activities gear icon](assets/activities-gear-icon-options-350x84.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -184,14 +184,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Clique no **Menu principal** ![](assets/main-menu-icon.png) e depois em **Metas**.
+1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e depois em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
-1. Selecione uma atividade na lista Progress indicators e clique no ícone ![](assets/edit-icon.png) **Editar**.
+1. Selecione uma atividade na lista Progress indicators e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
    A caixa Editar atividade é aberta.
 
-   ![](assets/edit-activity-box-unshimmed.png)
+   ![Caixa Editar atividade](assets/edit-activity-box-unshimmed.png)
 
 1. Edite as seguintes informações:
    * **Nome da atividade**: o nome da atividade. Use um nome descritivo que ilustre qual atividade você deve executar para indicar que a meta foi concluída.

@@ -6,14 +6,14 @@ description: Você pode medir uma área dentro de uma prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
 
-# Meça uma área em um prova
+# Medir uma área dentro de uma prova
 
 Você pode medir uma área dentro de uma prova.
 
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano atual: trabalho ou plano</p> <p>Plano herdado: qualquer um (você deve ter provas ativadas para o usuário)</p> </td> 
+   <td> <p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de Permissões de Prova </td> 
@@ -55,12 +55,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.
 
-1. Clique no **ícone Medir uma área** na parte superior do visualizador de prova.
+1. Clique no ícone **Medir uma área** na parte superior do visualizador de provas.
 
-   ![measurement_ferramenta_botão.png](assets/measurement-tool-button-350x128.png)
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
-1. (Opcional) Clique **na cor** Da marcação de medida para expandir as opções de cor, clique em uma cor e **Opacidade** que é fácil de ver em suas prova.\
-   ![](assets/selection-color-350x330.png)
+1. (Opcional) Clique em **Cor da marcação de medida** para expandir as opções de cores. Em seguida, clique em uma cor e em **Opacidade** que sejam fáceis de visualizar na prova.\
+   ![Cor da seleção](assets/selection-color-350x330.png)
 
    A cor padrão da ferramenta de medida é vermelho.
 
@@ -70,17 +70,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!NOTE]
    >
-   >As opções de Unidade de medida estão disponíveis somente para provas criadas a partir de um PDF.
+   >As opções de Unidade de medida estão disponíveis somente para provas criadas em uma PDF.
 
 1. Arraste a janela de medição para a área da prova que você precisa medir.
 
    ![Ferramenta_de_medição_quando_primeiro_aparece.png](assets/measurement-tool-when-first-appears-350x143.png)
 
 1. Arraste os cantos ou bordas da janela de medida para redimensioná-la.
-1. (Opcional) Se for necessário que a área de medição seja de tamanho exato, digite **os valores de tamanho** da seleção.
-1. (Opcional) Se for necessário medir uma determinada porcentagem dentro de uma área, marque a caixa de porcentagem calculate. Uma nova caixa é exibida permitindo ajustá-la\
-   ![](assets/calculate-percentage-350x230.png)
+1. (Opcional) Se você precisar que a área de medida tenha um tamanho exato, digite os valores de **Tamanho da seleção**.
+1. (Opcional) Se precisar medir uma determinada porcentagem em uma área, marque a caixa calcular porcentagem. Uma nova caixa é exibida, permitindo ajustá-la\
+   ![Calcular porcentagem](assets/calculate-percentage-350x230.png)
 
-1. Clique no **ícone De medida de uma área** na parte superior do visualizador de prova para dispensar as ferramenta quando terminar.
+1. Clique no ícone **Medir uma área** na parte superior do visualizador de provas para descartar a ferramenta quando terminar.
 
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)

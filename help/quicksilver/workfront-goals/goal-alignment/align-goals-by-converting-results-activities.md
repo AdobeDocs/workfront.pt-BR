@@ -6,10 +6,10 @@ description: Você pode alinhar duas metas manualmente ou converter os resultado
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -46,7 +46,7 @@ Para obter informações sobre como alinhar manualmente duas metas, consulte [Al
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -109,9 +109,9 @@ Considere o seguinte ao converter resultados e atividades em metas:
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ Considere o seguinte ao converter resultados e atividades em metas:
 
 1. Vá para uma meta que tenha um resultado ou uma atividade que você deseja converter em uma meta.
 1. Na página da meta, clique em **Indicadores de progresso** no painel esquerdo.
-1. Selecione um resultado ou uma atividade na lista de indicadores de progresso e clique no ícone ![](assets/convert-to-goal-icon-unshimmed.png) de **Converter em meta** na parte superior da lista de indicadores de progresso. A caixa Converter em meta é aberta.
+1. Selecione um resultado ou uma atividade na lista de indicadores de progresso e clique no ícone **Converter em meta** ![Converter em meta](assets/convert-to-goal-icon-unshimmed.png) na parte superior da lista de indicadores de progresso. A caixa Converter em meta é aberta.
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![Converter para caixa de meta](assets/convert-to-goal-box-unshimmed.png)
 1. Atualize as seguintes informações:
    * **Nome da meta**: por padrão, a nova meta tem o mesmo nome da atividade ou do resultado original.
    * **Período**: por padrão, o período da nova meta é o trimestre atual. Você pode selecionar a configuração **Habilitar datas personalizadas** para definir um período personalizado para a nova meta.

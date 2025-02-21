@@ -6,9 +6,9 @@ description: Você pode imprimir um resumo de prova, salvá-lo como um PDF ou ex
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Imprima um resumo de prova ou salve-o como um arquivo PDF
+## Imprima um resumo de prova ou salve-o como um arquivo do PDF
 
 É possível imprimir um resumo de prova diretamente na lista de documentos.
 
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Ao exibir a prova no visualizador de provas, clique no ícone **Imprimir**![](assets/print-icon-in-pv.png) na barra de ferramentas esquerda. (Se a barra de ferramentas esquerda não estiver visível, clique no ícone Menu ![](assets/menu-icon-in-pv.png) no canto superior esquerdo do visualizador de provas.)
+   Ao exibir a prova no visualizador de provas, clique no **ícone Imprimir**&#x200B;ícone Imprimir![ícone Imprimir](assets/print-icon-in-pv.png) na barra de ferramentas esquerda. (Se a barra de ferramentas esquerda não estiver visível, clique no ícone de Menu ![ícone de Menu](assets/menu-icon-in-pv.png) no canto superior esquerdo do visualizador de revisões.)
 
 1. Use qualquer uma das seguintes opções:
 
@@ -114,7 +114,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Para salvar o resumo como um arquivo de PDF, clique no menu **Destino**, clique em **Salvar como PDF** e em **Salvar**.
+   Para salvar o resumo como um arquivo do PDF, clique no menu **Destino**, clique em **Salvar como PDF** e em **Salvar**.
 
 ## Exportar um resumo de prova como XLS ou PDF
 
@@ -124,10 +124,10 @@ Você pode exportar um resumo de prova para conteúdo estático como um arquivo 
 
    ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 
-1. Clique no ícone XLS ou no ícone de PDF próximo ao canto superior direito da página.
+1. Clique no ícone XLS ou PDF próximo ao canto superior direito da página.
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![Ícone XLS do PDF](assets/xls-pdf-icons-350x136.png)
 
 Quando o arquivo exportado estiver pronto, você receberá um email do qual poderá baixar o arquivo.
 
-Se você tiver exportado o resumo como um arquivo PDF, os comentários na prova aparecerão no leitor de PDF. Se um comentário tiver várias marcações associadas a ele, ele será exibido várias vezes na lista de comentários (uma vez para cada marcação).
+Se você tiver exportado o resumo como um arquivo PDF, os comentários na prova serão exibidos no leitor do PDF. Se um comentário tiver várias marcações associadas a ele, ele será exibido várias vezes na lista de comentários (uma vez para cada marcação).

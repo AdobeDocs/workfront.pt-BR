@@ -6,9 +6,9 @@ description: As metas com um Progresso de Com Problemas correm o risco de não s
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Você deve ter o seguinte:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -54,7 +54,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -82,7 +82,7 @@ Você deve ter o seguinte:
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Recommendations para evitar que as metas alcancem um progresso de Com Problemas
+## Recomendações para evitar que as metas alcancem um progresso de Com problemas
 
 Antes das metas atingirem um progresso de Com Problemas, você pode monitorá-las com frequência e ajustar seu progresso quando atingirem um progresso de Em Risco. Metas que estão em risco estão em perigo de se tornarem em apuros. Para obter mais informações sobre o progresso da meta, consulte [Visão geral do progresso da meta e da condição nas Metas da Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
@@ -97,7 +97,7 @@ Você pode revisar metas em qualquer seção das Metas do Workfront. Para obter
 
 Este artigo descreve como analisar metas na Lista de metas.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) > **Metas** do **Menu Principal** no canto superior direito.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ Este artigo descreve como analisar metas na Lista de metas.
 
 1. Passe o mouse sobre o indicador da barra de progresso para ver qual é a porcentagem de progresso real e qual é o valor esperado para o dia atual.
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![Detalhes da focalização do progresso do GOal](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Opcional) Use os filtros para encontrar metas que pertencem a um proprietário específico.
 
@@ -134,7 +134,7 @@ Este artigo descreve como analisar metas na Lista de metas.
 
    Para obter informações sobre a atualização de resultados e atividades, consulte [Atualizar progresso da meta nas Metas da Adobe Workfront](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![Progresso real](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

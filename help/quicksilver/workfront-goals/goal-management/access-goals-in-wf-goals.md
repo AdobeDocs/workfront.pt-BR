@@ -6,9 +6,9 @@ description: Este artigo descreve como encontrar e gerenciar metas no Adobe Work
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Você deve ter o seguinte para executar as atividades descritas neste artigo:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -51,7 +51,7 @@ Você deve ter o seguinte para executar as atividades descritas neste artigo:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -85,7 +85,7 @@ Você deve ter o seguinte para executar as atividades descritas neste artigo:
 
 ## Acessar as metas do Workfront
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e clique em **Metas**.
+1. Clique no ícone **Menu Principal** ícone ![Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Accessing goals differs depending on what environment you use.
 
 To access an individual goal in the Production environment:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
      (!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,11 +155,11 @@ Para acessar uma meta individual:
 
 1. Clique no ícone **Menu principal** no canto superior direito do Workfront e em **Metas**.
 A Lista de metas é exibida por padrão.
-   ![](assets/goal-list-unshimmed.png)
+   ![Lista de metas](assets/goal-list-unshimmed.png)
 1. Clique no nome de uma meta na lista.
 A página da meta é exibida.
-   ![](assets/goal-page-unshimmed.png)
-1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome da meta para editar ou compartilhar ainda mais a meta.
+   ![Página de meta](assets/goal-page-unshimmed.png)
+1. Clique no menu **Mais** ![Ícone Mais](assets/more-icon.png) à direita do nome da meta para editar ou compartilhar ainda mais a meta.
 1. Clique em **Detalhes da meta** no painel esquerdo para editar informações sobre a meta. Para obter mais informações, consulte [Atualizar metas na seção Detalhes da meta no Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
 
 

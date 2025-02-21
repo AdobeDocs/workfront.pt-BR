@@ -6,9 +6,9 @@ description: Ao criar uma meta, o Adobe Workfront Goals a salva com o status Ras
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Você deve ter o seguinte:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -59,7 +59,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -116,8 +116,8 @@ Você pode ativar metas criadas ou uma meta para a qual tenha permissões de ger
 
 1. Vá para uma meta que você deseja ativar. A página de meta é aberta.
 
-1. Clique no menu **Mais** ![](../goal-management/assets/more-icon.png) à direita do nome da meta e clique em **Ativar**.
+1. Clique no **Mais** ícone ![Mais](../goal-management/assets/more-icon.png) à direita do nome da meta e clique em **Ativar**.
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![Mais menus expandidos](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    O status da meta é alterado para Ativo. Agora é possível rastrear o progresso da meta, e a meta é exibida na seção Check-in, e também é considerada nas seções Gráficos das Metas do Workfront

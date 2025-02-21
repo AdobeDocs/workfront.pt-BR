@@ -6,9 +6,9 @@ description: Pesquise, filtre e classifique comentários de prova para navegar f
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Ao classificar a lista de comentários, a opção de classificação escolhida s
 1. Se a área de comentários não estiver aberta, clique em **Exibir comentários** no canto superior direito.
 
 1. Clique no menu de classificação para abri-lo.
-1. ![](assets/mceclip3.png)
+1. ![Menu de classificação](assets/mceclip3.png)
 
 1. Selecione uma das seguintes opções de classificação:
 

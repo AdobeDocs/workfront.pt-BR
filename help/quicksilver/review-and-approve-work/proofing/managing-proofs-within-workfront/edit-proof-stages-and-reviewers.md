@@ -6,9 +6,9 @@ description: Saiba como editar estágios de prova e revisores.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Editar detalhes do revisor
 
 1. No Workfront, passe o mouse sobre a prova, em seguida, clique em **Detalhes da prova** para abrir a página Detalhes da Prova.
-1. Na seção **Fluxo de Trabalho**, clique no menu **Mais** ![](assets/more-button-small.png) à direita do nome do revisor e clique em **Editar** no menu suspenso exibido.
+1. Na seção **Fluxo de Trabalho**, clique no menu **Mais** ![Mais menu](assets/more-button-small.png) à direita do nome do revisor e clique em **Editar** no menu suspenso exibido.
 
 1. Na caixa **Editar revisor** exibida, edite qualquer um dos seguintes detalhes:
 

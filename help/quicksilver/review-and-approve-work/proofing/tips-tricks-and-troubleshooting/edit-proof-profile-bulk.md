@@ -7,9 +7,9 @@ description: Saiba como editar o perfil de permissão de prova em massa.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Dependendo do seu plano do Workfront, talvez seja necessário habilitar a caixa de seleção **O usuário pode gerar provas** para que o menu **Perfil de Permissão de Prova** seja exibido.
 
-   ![](assets/proof-permission-profile-350x203.png)
+   ![Perfil de permissões de prova](assets/proof-permission-profile-350x203.png)
 
 1. Clique em **Salvar alterações**.

@@ -7,10 +7,10 @@ description: Quando você está planejando a estratégia de longo prazo de sua e
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '964'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Quando você está planejando a estratégia de longo prazo de sua empresa, há m
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ Um cenário é uma cópia de um plano. Você pode criar quantos cenários forem 
 
 1. Clique na seta para baixo ao lado de um cenário existente e clique no ícone **[!UICONTROL Copiar]**.
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Copiar cenário](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Isso cria um novo cenário com as mesmas informações que o cenário copiado. Ele será automaticamente nomeado como &quot;[!UICONTROL Cenário 2]&quot; se for o segundo cenário do seu plano, &quot;[!UICONTROL Cenário 3]&quot; se for o terceiro e assim por diante. Não é possível renomear os cenários. Não há um limite para o número de cópias que você pode fazer.
 
@@ -116,7 +116,7 @@ Depois de criar seus cenários, você pode compará-los para encontrar o melhor 
 
    Todos os cenários existentes para o plano são exibidos lado a lado em formato de cartão. O cenário Inicial é sempre listado primeiro e é estático.
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![Cartões de cenário](assets/scenario-cards-overlapping-350x166.png)
 
 1. (Opcional) Role para a direita para exibir todos os cartões de cenário.
 
@@ -174,7 +174,7 @@ Depois de criar seus cenários, você pode compará-los para encontrar o melhor 
    >Quando as informações diferem entre o cenário inicial e os cenários adicionais, uma seta para cima ou para baixo é exibida ao lado do valor que foi alterado para indicar um aumento ou uma diminuição nesse valor em comparação ao cenário inicial.
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![Setas em cartões de cenário](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >Por exemplo, o orçamento, o número de funções de trabalho e o número de iniciativas podem mudar de um cenário para outro.
 
@@ -188,9 +188,9 @@ Depois de criar seus cenários, você pode compará-los para encontrar o melhor 
 
    Clique no campo de descrição para atualizá-lo e, em seguida, clique em qualquer lugar na tela para salvar suas alterações.
 
-1. (Opcional) Clique no menu **[!UICONTROL Mais]** ![](assets/more-icon.png) para **[!UICONTROL Copiar]** ou **[!UICONTROL Excluir]** o cenário.
+1. (Opcional) Clique no ícone ![Mais ]**do menu**[!UICONTROL  Mais](assets/more-icon.png) para **[!UICONTROL Copiar]** ou **[!UICONTROL Excluir]** o cenário.
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Copiar ou excluir cenário](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Ao copiar um cenário, ele aparece automaticamente na página do cartão e é renomeado de acordo com este padrão: &quot;[!UICONTROL Cenário] `<next number in order>`.&quot;
 

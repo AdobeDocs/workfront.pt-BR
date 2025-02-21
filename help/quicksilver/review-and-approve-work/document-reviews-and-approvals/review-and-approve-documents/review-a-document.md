@@ -6,9 +6,9 @@ description: Como revisor, você pode visualizar um documento que foi enviado a 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -94,5 +94,5 @@ Add once functionality is added
 
 1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante na seção **Atualizações** do documento. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Você também pode visualizar ou baixar uma versão específica do documento rolando até a seção **Versões** do painel Resumo do Documento e clicando no ícone Mais ![](../assets/more-icon.png) ao lado da versão que você deseja revisar e selecionando **Download** ou **Visualizar**.
+1. (Opcional) Você também pode visualizar ou baixar uma versão específica do documento rolando até a seção **Versões** do painel Resumo do Documento e clicando no ícone Mais ![ícone Mais](../assets/more-icon.png) ao lado da versão que você deseja revisar e selecionando **Download** ou **Visualizar**.
 1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.

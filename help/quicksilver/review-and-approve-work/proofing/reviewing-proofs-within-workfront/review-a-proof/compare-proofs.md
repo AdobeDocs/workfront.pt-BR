@@ -7,9 +7,9 @@ description: Você pode usar o visualizador de provas para comparar duas provas 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 2%
 
 ---
@@ -68,13 +68,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![Comparar provas](assets/compare-proofs-select-docs-350x138.jpg)
 
    Ambas as provas são exibidas no visualizador de provas em uma visualização lado a lado. Você pode revisar cada documento enquanto os compara.
 
    Navegações estruturais separadas acima de cada prova permitem exibir e ir para o item de trabalho associado à prova:
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![Comparar navegações estruturais de provas](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    Para obter informações sobre as ferramentas que podem ser usadas para comparar as duas provas, consulte  [Use as ferramentas de comparação](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) em [Comparar provas no visualizador de provas](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

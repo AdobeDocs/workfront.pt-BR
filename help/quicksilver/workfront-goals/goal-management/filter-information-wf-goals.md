@@ -6,9 +6,9 @@ description: Você pode visualizar metas que você ou qualquer outra pessoa adic
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li> </ul>
+  <ul><li>Um plano do Ultimate </li> </ul>
 
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -128,7 +128,7 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
 
 1. Clique em **Filtro** no canto superior direito da lista.
 
-   ![](assets/filter-icon-and-label.png)
+   ![Ícone de filtro](assets/filter-icon-and-label.png)
 
    Por padrão, o Workfront aplica o filtro **Todos**, que exibe todas as metas do sistema.
 
@@ -172,7 +172,7 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
       </tbody> 
      </table>
 
-   * Passe o cursor do mouse sobre o nome de um filtro, em seguida, clique no ícone **Editar** ![](assets/edit-icon.png) ao lado do nome do filtro para personalizá-lo e adicionar nomes específicos de usuários, equipes, grupos ou o nome de sua organização. Em seguida, selecione-o quando eles aparecerem na lista.
+   * Passe o mouse sobre o nome de um filtro, em seguida, clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) ao lado do respectivo nome para personalizá-lo e adicionar nomes específicos de usuários, equipes, grupos ou o nome de sua organização. Em seguida, selecione-o quando eles forem exibidos na lista.
 
    * Clique em **Novo filtro** para criar um novo filtro e, em seguida, selecione uma das seguintes opções para personalizar o novo filtro:
 
@@ -249,11 +249,11 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
 
 1. (Opcional e condicional) Ao exibir metas na seção Alinhamento de metas, clique em **Mostrar** se desejar exibir as metas filtradas.
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![Mostrar o link dos itens filtrados](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    O nome do filtro é contornado em amarelo para indicar que está sendo ignorado.
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![Filtrar contorno amarelo](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Opcional e condicional) Clique em **Reaplicar filtro** para aplicar o filtro e omitir os itens exibidos na etapa anterior.

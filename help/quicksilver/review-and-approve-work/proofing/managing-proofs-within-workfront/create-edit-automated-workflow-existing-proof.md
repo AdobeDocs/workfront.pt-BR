@@ -6,9 +6,9 @@ description: Os fluxos de trabalho automatizados facilitam o gerenciamento do pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Se você estiver revisando a prova no visualizador de provas, clique em **Fluxo de Trabalho** ![](assets/workflow-icon-proofing-viewer.png) no painel esquerdo e, em seguida, clique no ícone Editar ![](assets/edit-icon-proofing-viewer.png) para abrir as configurações de Fluxo de Trabalho Automatizado para a prova.
+   Se você estiver revisando a prova no visualizador de provas, clique em **Fluxo de trabalho** ![ícone Fluxo de trabalho](assets/workflow-icon-proofing-viewer.png) no painel esquerdo e, em seguida, clique no ícone Editar ![ícone Editar](assets/edit-icon-proofing-viewer.png) para abrir as configurações de Fluxo de Trabalho Automatizado para a prova.
 
 1. (Condicional) Se a prova estiver usando atualmente um fluxo de trabalho básico (sem estágios), clique em **Converter para Fluxo de Trabalho Automatizado** na tela exibida.
 
@@ -155,7 +155,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    À medida que você adiciona estágios ao Fluxo de Trabalho Automatizado, um diagrama se forma na tela para representá-los:
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![Diagrama de Fluxo de Trabalho](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. Quando terminar de adicionar etapas, clique em **Concluído**.
 

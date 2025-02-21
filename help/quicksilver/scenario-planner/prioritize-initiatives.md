@@ -6,9 +6,9 @@ description: Priorizar iniciativas é importante porque as iniciativas recebem f
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Para obter informações sobre como criar iniciativas, consulte [Criar e editar 
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -92,7 +92,7 @@ Uma lista de planos é exibida.
 
      O Workfront exibe o número de iniciativas selecionadas.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![Número da iniciativa de seleção múltipla](assets/multi-select-initiative-number.png)
 
    * Clique na caixa **[!UICONTROL Priorizar]** na parte inferior do plano e escolha uma das seguintes opções:
 
@@ -100,7 +100,7 @@ Uma lista de planos é exibida.
       * **[!UICONTROL Inferior]**: move as iniciativas selecionadas para a parte inferior da lista de iniciativas. As iniciativas selecionadas são listadas por último no plano.
       * **[!UICONTROL Selecionar um número]**: move as iniciativas selecionadas após a iniciativa que você indicar aqui.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![Priorizar iniciativas](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      O [!DNL Workfront] coloca imediatamente as iniciativas selecionadas onde você indica e os números de todas as iniciativas são atualizados de acordo.
 

@@ -6,9 +6,9 @@ description: É possível excluir iniciativas em um plano que você criou ou em 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ Uma lista de planos é exibida.
 1. Clique no nome de um plano para abri-lo e, em seguida, localize a iniciativa que deseja excluir.
 1. Siga um destes procedimentos:
 
-   * Clique no **[!UICONTROL Mais menu]** ![](assets/more-menu.png) à direita do nome da iniciativa e clique em **[!UICONTROL Excluir]** > **[!UICONTROL Sim, exclua-o]**.
+   * Clique no **[!UICONTROL Mais menu]** ![Mais menu](assets/more-menu.png) à direita do nome da iniciativa e clique em **[!UICONTROL Excluir]** > **[!UICONTROL Sim, excluir]**.
 
    * Selecione a caixa à esquerda da iniciativa e clique em **[!UICONTROL Excluir]** no menu flutuante exibido na parte inferior do plano e, em seguida, clique em **[!UICONTROL Sim, exclua-o]**.
 
@@ -107,7 +107,7 @@ Uma lista de planos é exibida.
 1. Clique no nome de um plano para abri-lo e, em seguida, localize a iniciativa que deseja excluir.
 1. Marque as caixas à esquerda das iniciativas que deseja excluir e clique em **[!UICONTROL Excluir]** no menu exibido na parte inferior do plano e em **[!UICONTROL Sim, exclua-as]**.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Gerenciar menu de iniciativa](assets/bottom-manage-initiative-menu-350x45.png)
 
    As iniciativas e suas funções de trabalho e informações de custo são excluídas do plano.
 

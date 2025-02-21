@@ -6,9 +6,9 @@ description: Você pode bloquear e desbloquear manualmente uma prova a qualquer 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -61,13 +61,13 @@ Para bloquear uma prova:
 
    Ou
 
-   Para abrir uma prova para uma versão anterior do documento, clique no ícone Mais ![](assets/more-icon.png) dessa versão no Resumo e clique em **Abrir prova**.
+   Se quiser abrir uma prova para uma versão anterior do documento, clique no ícone Mais ![Ícone Mais](assets/more-icon.png) para essa versão no Resumo e clique em **Abrir prova**.
 
    Para obter informações sobre o Resumo, consulte [Resumo de documentos](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. No painel esquerdo, clique no ícone ![](assets/unlock-proof-icon.png) **Bloquear**.
+1. No painel esquerdo, clique no **ícone Bloquear** ![ícone Bloquear](assets/unlock-proof-icon.png).
 
-   ![](assets/lock-proof-350x277.png)
+   ![Bloquear prova](assets/lock-proof-350x277.png)
 
 ## Desbloquear uma prova
 
@@ -79,10 +79,10 @@ Para desbloquear uma prova:
 
    Ou
 
-   Para abrir uma prova para uma versão anterior do documento, clique no ícone Mais ![](assets/more-icon.png) dessa versão no Resumo e clique em **Abrir prova**.
+   Se quiser abrir uma prova para uma versão anterior do documento, clique no ícone Mais ![Ícone Mais](assets/more-icon.png) para essa versão no Resumo e clique em **Abrir prova**.
 
    Para obter informações sobre o Resumo, consulte [Resumo de documentos](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. No painel esquerdo, clique no ícone ![](assets/unlock-proof-icon.png) de **Desbloquear** e em **Sim, desbloquear**.
+1. No painel esquerdo, clique no ícone **Desbloquear** ![Desbloquear ícone](assets/unlock-proof-icon.png) e clique em **Sim, desbloquear**.
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![Desbloquear prova](assets/copy-of-unlock-proof-350x279.png)

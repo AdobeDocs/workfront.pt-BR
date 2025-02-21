@@ -7,9 +7,9 @@ description: Você pode solicitar acesso a um plano no Planejador de cenários d
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Você pode solicitar acesso a um plano no [!DNL Adobe Workfront Scenario Planner
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -80,7 +80,7 @@ Para solicitar permissões:
 
 1. Clique em um link para um plano.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![Solicitar acesso ao plano](assets/request-access-to-plan-350x277.png)
 
 1. No menu suspenso **[!UICONTROL Solicitar acesso a]**, indique o nível de permissões que deseja receber. Selecione entre as seguintes opções:
 
@@ -98,11 +98,11 @@ Para solicitar permissões:
    Acontece o seguinte:
 
    * [!DNL Workfront] envia uma notificação por email ao proprietário do plano, onde pode conceder as permissões solicitadas.\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![Solicitar notificação por email de acesso](assets/request-access-to-plan-email-350x156.png)
 
    * Depois que o proprietário do plano conceder as permissões solicitadas, você receberá um email informando que as permissões foram concedidas se o administrador do [!DNL Workfront] tiver o recurso Compartilhamento de objetos para notificação de usuário habilitado no sistema e você habilitar a notificação de email [!UICONTROL Alguém compartilhar um objeto comigo] no seu perfil.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![Email de acesso concedido](assets/access-granted-to-plan-email-350x172.png)
 
    * Você também pode conceder permissões para planos da área [!UICONTROL Página inicial] e do aplicativo móvel [!DNL Workfront].
 

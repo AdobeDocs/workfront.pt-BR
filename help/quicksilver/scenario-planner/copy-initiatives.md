@@ -6,9 +6,9 @@ description: É possível criar iniciativas copiando as existentes. Você pode c
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ Uma lista de planos é exibida.
 1. Clique no nome de um plano para abri-lo e localize as iniciativas que deseja copiar.
 1. Selecione a caixa à esquerda da iniciativa ou iniciativas que deseja copiar e clique em **[!UICONTROL Copiar]** no menu exibido na parte inferior do plano.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Copiar iniciativa](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] copia as iniciativas imediatamente e as coloca abaixo da última iniciativa selecionada.
 

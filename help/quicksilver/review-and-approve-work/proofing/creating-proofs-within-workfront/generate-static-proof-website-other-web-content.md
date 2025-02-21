@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Criar uma prova estática para um site ou outro conteúdo da Web
-description: Você pode gerar uma nova prova estática ou uma nova versão de uma prova estática existente para conteúdo da Web. O conteúdo da Web pode incluir coisas como anúncios com streaming de vídeo, animações de HTML ou banners interativos, mas ele será cortado em várias capturas de tela para permitir provas estáticas.
+description: Você pode gerar uma nova prova estática ou uma nova versão de uma prova estática existente para conteúdo da Web. O conteúdo da Web pode incluir itens como anúncios com vídeo em streaming, animações do HTML ou banners interativos, mas ele será cortado em várias capturas de tela para permitir provas estáticas.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # Criar uma prova estática para um site ou outro conteúdo da Web
 
-Você pode gerar uma nova prova estática ou uma nova versão de uma prova estática existente para conteúdo da Web. O conteúdo da Web pode incluir coisas como anúncios com streaming de vídeo, animações de HTML ou banners interativos, mas ele será cortado em várias capturas de tela para permitir provas estáticas.
+Você pode gerar uma nova prova estática ou uma nova versão de uma prova estática existente para conteúdo da Web. O conteúdo da Web pode incluir itens como anúncios com vídeo em streaming, animações do HTML ou banners interativos, mas ele será cortado em várias capturas de tela para permitir provas estáticas.
 
 Considere o seguinte ao criar provas estáticas para um site ou outro conteúdo da Web:
 
@@ -81,7 +81,7 @@ Para criar uma prova estática, o site precisa estar acessível publicamente (n�
 
    As opções para configurar a prova do site são exibidas.
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![Prova interativa](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Opcional) Se você deseja alterar o nome da prova da URL do site para algo diferente, digite um **Nome da prova.**
 1. Verifique se a **Capturar captura de tela** está selecionada e use uma das seguintes opções:

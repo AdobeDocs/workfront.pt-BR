@@ -6,9 +6,9 @@ description: Saiba como controlar a reprodução em uma prova de vídeo.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Para obter uma visão mais detalhada da prova de vídeo, é possível revisar ma
 
 1. Na parte inferior do visualizador de revisões, clique nas setas **Avançar** e **Voltar** para analisar o vídeo quadro a quadro.
 
-   ![](assets/frame-.png)
+   ![Quadro](assets/frame-.png)
 
 ## Alterar volume de reprodução
 
@@ -82,7 +82,7 @@ Você pode controlar o volume na reprodução do vídeo.
 
 1. No canto inferior direito do visualizador de revisões, passe com o mouse sobre o ícone **Volume** e arraste o controle deslizante para selecionar um novo volume.
 
-   ![](assets/phq-viewer-volume.png)
+   ![Volume](assets/phq-viewer-volume.png)
 
    Ou
 

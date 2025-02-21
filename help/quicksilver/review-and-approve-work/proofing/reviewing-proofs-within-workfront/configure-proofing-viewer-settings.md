@@ -6,9 +6,9 @@ description: Você pode definir as configurações do Visualizador de provas da 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ Para definir as configurações do revisor de provas:
 1. Abra o Visualizador de provas da Web ou o Visualizador de provas da área de trabalho de uma das seguintes maneiras:
 
    * Se você revisar no Adobe Workfront, vá para uma lista de documentos que contém uma prova que deseja exibir, passe o mouse sobre o documento e clique em **Abrir prova**.
-   * Se você usa o Workfront Proof, clique no ícone **Ir para Prova** para a prova no Painel ou em uma lista de Exibições ![](assets/go-to-proof-blue-icon.png).
+   * Se você usa o Workfront Proof, clique no ícone **Ir para Prova** para a prova no Painel ou em uma lista de Exibições ![Ir para Prova](assets/go-to-proof-blue-icon.png).
 
 1. Se a barra de ferramentas esquerda não for exibida, clique no ícone **Menu**, localizado no canto superior esquerdo do Visualizador de Provas da Web.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![Ícone de menu](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Na barra de ferramentas esquerda, clique no ícone ![](assets/settings-icon-in-pv.png) de **Configurações**.
+1. Na barra de ferramentas esquerda, clique no ícone **Configurações** ícone ![Configurações](assets/settings-icon-in-pv.png).
 
 1. Defina qualquer uma das **Configurações** a seguir que forem exibidas.
 

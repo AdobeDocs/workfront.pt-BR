@@ -6,9 +6,9 @@ description: Você pode remover aprovadores ou revisores individuais de um docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior a projetos, tarefas, problemas, modelos, Portfolio, programas, relatórios, painéis e calendários, documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualize ou tenha acesso superior a projetos, tarefas, problemas, modelos, portfólios, programas, relatórios, painéis e calendários, documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -60,7 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecione **Aprovações** no painel esquerdo.
 
-1. Passe o mouse sobre o nome do aprovador ou revisor que você deseja remover, em seguida, clique no ícone **Excluir** ![](../assets/delete.png) que aparece depois do nome.
+1. Passe o mouse sobre o nome do aprovador ou revisor que você deseja remover, em seguida, clique no ícone **Excluir** ![Ícone Excluir](../assets/delete.png) que aparece após o nome.
 
    A solicitação de aprovação ou revisão é removida e o aprovador recebe uma notificação de que sua aprovação não é mais necessária. O acesso compartilhado relacionado à aprovação também é removido.
 
@@ -76,7 +76,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecione a versão do documento da qual você deseja remover um aprovador ou revisor na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Role para baixo até a seção **Aprovações** no painel Resumo do documento. Passe o mouse sobre o nome do aprovador ou revisor que você deseja remover, em seguida, clique no ícone **Excluir** ![](../assets/delete.png) que aparece depois do nome.
+1. Role para baixo até a seção **Aprovações** no painel Resumo do documento. Passe o mouse sobre o nome do aprovador ou revisor que você deseja remover, em seguida, clique no ícone **Excluir** ![Ícone Excluir](../assets/delete.png) que aparece após o nome.
 
    A solicitação de aprovação ou revisão é removida e o aprovador recebe uma notificação de que sua aprovação não é mais necessária. O acesso compartilhado relacionado à aprovação também é removido.
 

@@ -6,9 +6,9 @@ description: É possível ajustar a unidade de medida usada na linha do tempo do
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. No canto inferior esquerdo do revisor de provas, clique na unidade de medida atual.
 
-   ![](assets/phq-viewer-video-timeline.png)
+   ![Linha do tempo do vídeo](assets/phq-viewer-video-timeline.png)
 
 1. Selecione entre as seguintes opções:
 

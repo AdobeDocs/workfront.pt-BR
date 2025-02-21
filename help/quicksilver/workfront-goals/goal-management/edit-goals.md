@@ -6,9 +6,9 @@ description: É possível editar as metas existentes a partir de qualquer perío
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Você deve ter o seguinte:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -50,7 +50,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Metas**.\
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e em **Metas**.\
    Uma lista de metas é exibida.
 1. Clique em uma meta.\
    A página da meta é exibida.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Página de meta](assets/goal-page-unshimmed.png)
 
 1. Siga um destes procedimentos para editar informações da meta:
    * Clique nos campos exibidos no cabeçalho da meta para atualizá-los. Nem todos os campos no cabeçalho são editáveis.
-   * Clique no ícone **Mais** ![](assets/more-icon.png) à direita do nome da meta e clique em **Editar**.
-   * Clique em **Detalhes da meta** no painel esquerdo e clique no **ícone Editar** ![](assets/edit-icon.png) no canto superior direito e, em seguida, clique em **Editar tudo**. Comece a atualizar campos na seção Detalhes da meta.
+   * Clique no **ícone Mais** ![ícone Mais](assets/more-icon.png) à direita do nome da meta e clique em **Editar**.
+   * Clique em **Detalhes da meta** no painel esquerdo e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) no canto superior direito e, em seguida, clique em **Editar tudo**. Comece a atualizar campos na seção Detalhes da meta.
 
      >[!IMPORTANT]
      >

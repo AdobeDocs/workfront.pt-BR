@@ -6,9 +6,9 @@ description: Você pode fechar uma meta quando quiser indicar que a concluiu ou 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Você deve ter o seguinte:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -56,7 +56,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -111,7 +111,7 @@ Closing goals differs depending on what environment you use.
 
 ### Close goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -128,7 +128,7 @@ Closing goals differs depending on what environment you use.
 
 1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -137,13 +137,13 @@ Closing goals differs depending on what environment you use.
    >If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.
    >
    >
-   >![](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
+   >![Closing goals with active aligned goals](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
    >
 
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Clique no ícone ![](assets/main-menu-icon.png) > **Metas** do **Menu Principal** no canto superior direito.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
 
    A Lista de metas é aberta.
 
@@ -157,17 +157,17 @@ Closing goals differs depending on what environment you use.
 
    A página de meta é aberta.
 
-   ![](assets/goal-page-unshimmed.png)
-1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome da meta e clique em **Fechar**.
+   ![Página de meta](assets/goal-page-unshimmed.png)
+1. Clique no **Mais** ícone ![Mais](assets/more-icon.png) à direita do nome da meta e clique em **Fechar**.
 
    A meta é fechada e você recebe uma confirmação no canto superior direito da tela.
 
-   ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![Confirmação de fechamento da meta](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. (Opcional) Na caixa de confirmação, clique em **Adicionar notas de fechamento** para adicionar comentários sobre esta meta e por que você precisa fechá-la.
 1. Adicione notas de fechamento, depois clique em **Adicionar notas**.
 
-   ![](assets/add-closing-notes-box-unshimmed.png)
+   ![Adicionar caixa de notas finais](assets/add-closing-notes-box-unshimmed.png)
 
    Os comentários são exibidos na seção Detalhes da meta da página da meta, na área Notas finais.
 
@@ -185,7 +185,7 @@ Reopening goals differs depending on what environment you use.
 
 ### Reopen goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -201,7 +201,7 @@ Reopening goals differs depending on what environment you use.
 
    This opens the Goal Details panel on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
    This reopens the goal and places it in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
@@ -209,7 +209,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Clique no ícone ![](assets/main-menu-icon.png)> **Metas** do **Menu Principal** no canto superior direito.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png)> **Metas** no canto superior direito.
 
    A Lista de metas é aberta.
 
@@ -222,7 +222,7 @@ Reopening goals differs depending on what environment you use.
 1. Clique no nome de uma meta fechada.
 
    A página de meta é aberta.
-1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome da meta e **Reabrir** > **Reabrir**.
+1. Clique no menu **Mais** ![Mais ícone](assets/more-icon.png) à direita do nome da meta e em **Reabrir** > **Reabrir**.
 
    As seguintes situações ocorrem:
    * A meta agora está aberta e tem um status de Ativa.

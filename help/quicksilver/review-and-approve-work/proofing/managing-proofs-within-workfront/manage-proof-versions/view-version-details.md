@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Em uma lista de documentos, passe o mouse sobre a linha que contém a prova e clique em **Detalhes do Documento**.
 1. Próximo à parte superior da página Detalhes do documento, clique no menu suspenso próximo ao nome e, em seguida, clique no nome da versão que deseja exibir e gerenciar.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Lista suspensa de versões](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Além de visualizar os Detalhes da versão, você pode fazer alterações na versão, como nome, metadados e configurações de prova (se for uma prova de documento).
 

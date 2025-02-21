@@ -6,9 +6,9 @@ description: Ao usar o Planejador de cenários do Adobe Workfront, você pode cr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Ao usar o [!UICONTROL Planejador de cenários do Adobe Workfront], você pode cr
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ Para criar iniciativas do zero:
 1. (Opcional) Arraste o final da barra de iniciativas para estender sua duração para mais de um mês e solte-a onde deseja que o mês final da iniciativa seja.
 1. (Opcional e condicional) Se a duração da iniciativa for menor do que a do plano, arraste e solte a barra da iniciativa em uma posição diferente na linha do tempo do plano para movê-la para outro intervalo de tempo.
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![Mover iniciativa na linha do tempo](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ Para criar iniciativas do zero:
 1. (Opcional) Role da esquerda para a direita para ver toda a duração da iniciativa.
 1. (Opcional) Clique na linha de indicador **[!UICONTROL Hoje]** para voltar à data atual.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Indicador de hoje](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ Para criar iniciativas do zero:
 
 1. Clique na barra de uma iniciativa. O painel de detalhes da iniciativa é aberto à direita.
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![Painel de detalhes da iniciativa](assets/initiative-details-panel-multiple-months-350x626.png)
 
    Especifique ou revise as seguintes informações:
 
@@ -196,7 +196,7 @@ Para criar iniciativas do zero:
    >
    >Se você já tiver definido o número de funções de trabalho e o orçamento para o seu plano, bem como o número de funções de trabalho e os custos da iniciativa que você está editando e de todas as iniciativas acima dela, e todas excederem os valores especificados para o plano, [!DNL Workfront] poderá descobrir que você não tem recursos suficientes para concluir a iniciativa. [!DNL Workfront] marca isso como um conflito ao tentar alcançar essa iniciativa e a exibe como uma barra vermelha. Todas as iniciativas que seguem a iniciativa conflitante são exibidas em um fundo vermelho. Talvez seja necessário ajustar algumas das necessidades de suas iniciativas, começando pela primeira que tem recursos insuficientes. Para obter informações sobre como ajustar iniciativas conflitantes, consulte [Resolver conflitos de iniciativa no [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. (Opcional) Passe o mouse sobre o nome de uma função de trabalho, em seguida, clique no **[!UICONTROL ícone da lixeira]** ![](assets/delete.png) para removê-la da iniciativa.
+1. (Opcional) Passe o mouse sobre o nome de uma função de trabalho, em seguida, clique no **[!UICONTROL ícone da lixeira]** ![ícone Excluir](assets/delete.png) para removê-lo da iniciativa.
 
 1. (Condicional) Se você fez alterações na iniciativa, clique em **[!UICONTROL Aplicar]**.
 

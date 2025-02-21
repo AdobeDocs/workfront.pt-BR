@@ -7,9 +7,9 @@ description: Você pode compartilhar um plano criado no Planejador de cenários 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Você pode compartilhar um plano no [!DNL Adobe Workfront Scenario Planner] com 
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -108,57 +108,57 @@ A tabela a seguir lista as permissões que você pode conceder ao compartilhar u
  <tbody> 
   <tr> 
    <td> <p>Exibir plano </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Exibir iniciativas </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Exibir cenários</td> 
-   <td>✓ µ</td> 
-   <td>✓ <span style="font-weight: normal;"></span> </td> 
+   <td>✓</td> 
+   <td><span style="font-weight: normal;"> ✔</span> </td> 
   </tr> 
   <tr> 
    <td>Exibir funções de trabalho</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Exibir informações de custo e orçamento*</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ </td> 
+   <td>✓</td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>Gerenciar informações de custo e orçamento*</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Criar iniciativas</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Criar cenários</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Excluir iniciativas ou cenários</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Copiar cenários</td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Cenários do Publish**</td> 
-   <td>✓ µ</td> 
+   <td>Publicar cenários**</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -186,7 +186,7 @@ Para obter informações sobre permissões de projeto, consulte [Compartilhar um
    >
    >Você pode compartilhar um plano clicando nos avatares dos usuários com os quais o plano é compartilhado no canto superior direito do cabeçalho do plano.
 
-1. (Condicional) Se você abriu um plano, clique no ícone **[!UICONTROL Mais]** ![](assets/more-icon.png) à direita do nome do [!UICONTROL Plano] e clique em **[!UICONTROL Compartilhar]**
+1. (Condicional) Se você abriu um plano, clique no ícone **[!UICONTROL Mais]** ícone ![Mais](assets/more-icon.png) à direita do nome do [!UICONTROL Plano] e clique em **[!UICONTROL Compartilhar]**
 
    Ou
 

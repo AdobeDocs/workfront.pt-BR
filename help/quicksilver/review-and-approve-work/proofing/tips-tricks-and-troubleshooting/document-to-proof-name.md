@@ -6,9 +6,9 @@ title: O nome do documento alterado após o upload contém um caractere inválid
 description: Determinados documentos não podem ser convertidos em provas.
 author: Courtney
 exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
-source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Remova o caractere inválido do nome do documento:
 
    Caracteres inválidos: `! # % * \ | ' " / ? < > { } [ ]`
 
-   ![](assets/doc-name.png)
+   ![Nome do documento](assets/doc-name.png)
 
 1. Atualize a página e gere a prova.

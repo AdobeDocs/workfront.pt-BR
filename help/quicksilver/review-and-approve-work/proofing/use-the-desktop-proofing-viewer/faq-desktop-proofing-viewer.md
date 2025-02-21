@@ -7,9 +7,9 @@ description: Não. O Visualizador de provas de desktop é projetado especificame
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Para obter mais informações, consulte
 
 Abra uma prova interativa e baixe o aplicativo diretamente da tela do Launch.
 
-![](assets/mceclip0-350x114.png) 
+![Tela de inicialização](assets/mceclip0-350x114.png) 
 
 ## As novas versões do Desktop Viewer exigem uma reinstalação?
 
@@ -50,7 +50,7 @@ Somente se estiver enviando uma prova interativa ou um site em tempo real para a
 
 ## Qual é o status do visualizador de provas herdadas, que minha organização usou para provas interativas?
 
-Antes da versão 2018.3, o visualizador de provas herdadas era compatível. Com a versão 2018.3 (em novembro de 2018), o visualizador de provas herdadas e todos os outros aplicativos que dependem do Flash foram removidos e não estão mais disponíveis. 
+Antes da versão 2018.3, o visualizador de provas herdadas era compatível. Com a versão 2018.3 (em novembro de 2018), o visualizador de prova herdada e todos os outros aplicativos que dependem do Flash foram removidos e não estão mais disponíveis. 
 
 Para provas estáticas e de vídeo, o novo Visualizador de provas da Web é o visualizador padrão. Para provas interativas, o Visualizador de provas de desktop é o visualizador padrão.
 

@@ -7,9 +7,9 @@ description: É possível definir um único prazo final para uma prova básica d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **Fluxo de trabalho de revisão**.
 1. Na área **Fluxo de trabalho**, selecione **Sem prazo**.
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![Sem prazo final](assets/no-deadline-basic-proof-350x70.png)
 
 1. Escolha uma data, especifique uma hora e clique em qualquer lugar da tela.
 1. Escolha se deseja notificar os revisores sobre o novo prazo.

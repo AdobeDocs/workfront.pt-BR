@@ -6,9 +6,9 @@ description: Depois de conectar projetos e iniciativas, é possível gerenciar a
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para obter informações gerais sobre como reconciliar recursos entre projetos e
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ Se sua empresa adquiriu uma licença [!DNL Workfront Scenario Planner], é poss�
 
 1. Acesse o projeto em que deseja revisar a alocação de funções de trabalho para o projeto, bem como para a iniciativa associada.
 1. Clique em **[!UICONTROL Tarefas]** no painel esquerdo.
-1. Clique no ícone ![](assets/show-role-allocation-icon.png) da **[!UICONTROL Mostrar alocação de função]**, no canto superior direito da barra de ferramentas.
+1. Clique no ícone **[!UICONTROL Mostrar alocação de função]** ![Mostrar alocação de função](assets/show-role-allocation-icon.png) no canto superior direito da barra de ferramentas.
 
    O painel [!UICONTROL Alocação de função] é exibido.
 

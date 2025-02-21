@@ -6,9 +6,9 @@ description: A delegação de solicitações de aprovação permite que você at
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Considere o seguinte ao delegar aprovações:
 
 Para delegar aprovações a outro usuário:
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
 1. Vá para o widget Minhas aprovações e clique em **Delegar minhas aprovações**.
 
@@ -112,7 +112,7 @@ Para delegar aprovações a outro usuário:
    >
    >Os administradores do Workfront podem desativar delegações de aprovação na área de configuração. Se as delegações de aprovação estiverem desativadas, você não verá o botão Delegar aprovações.
 
-   ![](assets/delegate-approvals-home.png)
+   ![Delegar aprovações na página inicial](assets/delegate-approvals-home.png)
 
 1. Especifique as seguintes informações na seção Delegar minhas aprovações:
 
@@ -144,11 +144,11 @@ Para delegar aprovações a outro usuário:
 
 ## Atualizar ou interromper uma delegação de aprovações {#update-or-stop-an-approval-delegation}
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
 
 1. Vá para o widget Minhas aprovações e clique em **Editar delegação**.
-   ![](assets/edit-delegations.png)
+   ![Editar delegações](assets/edit-delegations.png)
 <!--
    Or
 
@@ -170,7 +170,7 @@ Você pode exibir somente os seguintes tipos de delegações de aprovação no w
 
 Para exibir aprovações delegadas:
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
 1. No widget **Minhas aprovações**, clique no menu suspenso **Filtro** e clique em **Aprovações delegadas**.\
    Todas as aprovações delegadas a você são exibidas na lista.

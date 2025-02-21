@@ -6,9 +6,9 @@ description: É possível exibir versões anteriores de uma prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '298'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Acesse a lista Documento e selecione a prova.
 1. No Resumo, role até a exibição da seção **Todas as versões**. Aqui é possível exibir todas as versões da prova.
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![Cópia das versões](assets/copy-of-versions-350x173.png)
 
 ## Visualizar uma versão de prova anterior
 
@@ -64,7 +64,7 @@ Os arquivos que não podem ser visualizados (como XLSX e DOC) são baixados.
 1. Vá para a lista de documentos e selecione uma prova.
 1. No Resumo, role até **Versões**, clique no menu **Mais** e selecione **Visualizar**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![Versões de prova no resumo](assets/proof-versions-in-summary-350x167.png)
 
 ## Exibir uma versão de prova anterior
 
@@ -74,4 +74,4 @@ Qualquer usuário no Workfront com acesso de Visualização ao documento pode vi
 1. Encontre a prova necessária.
 1. No Resumo, role até **Versões**, clique no menu **Mais** e selecione **Abrir prova**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![Versões de prova no resumo](assets/proof-versions-in-summary-350x167.png)

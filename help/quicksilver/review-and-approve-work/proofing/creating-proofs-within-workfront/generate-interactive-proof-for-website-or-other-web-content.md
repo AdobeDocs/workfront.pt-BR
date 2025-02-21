@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Criar uma prova interativa para um site ou outro conteúdo da Web
-description: Você pode gerar uma nova prova interativa ou uma nova versão de uma prova interativa existente para conteúdo da Web. Pode ser um site ou outros tipos de conteúdo interativo, como anúncios com streaming de vídeo ou áudio, animações HTML e banners interativos.
+description: Você pode gerar uma nova prova interativa ou uma nova versão de uma prova interativa existente para conteúdo da Web. Pode ser um site ou outros tipos de conteúdo interativo, como anúncios com vídeo ou áudio streaming, animações HTML e banners interativos.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Criar uma prova interativa para um site ou outro conteúdo da Web
 
-Você pode gerar uma nova prova interativa ou uma nova versão de uma prova interativa existente para conteúdo da Web. Pode ser um site ou outros tipos de conteúdo interativo, como anúncios com streaming de vídeo ou áudio, animações HTML e banners interativos.
+Você pode gerar uma nova prova interativa ou uma nova versão de uma prova interativa existente para conteúdo da Web. Pode ser um site ou outros tipos de conteúdo interativo, como anúncios com vídeo ou áudio streaming, animações HTML e banners interativos.
 
 Em uma prova interativa, os revisores podem navegar e interagir normalmente com o site ou outro conteúdo da Web.
 
@@ -82,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no URL adicionado.
 
-   ![](assets/click-url-350x137.png)
+   ![Clique na URL](assets/click-url-350x137.png)
 
 1. (Opcional) Se você deseja alterar o nome da prova da URL do site para algo diferente, digite um **Nome da prova**.
 1. Selecione **Interativo** e clique em **Concluído**.

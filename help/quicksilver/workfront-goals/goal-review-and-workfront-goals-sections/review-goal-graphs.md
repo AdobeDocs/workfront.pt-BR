@@ -6,9 +6,9 @@ description: Você pode visualizar a integridade geral de suas metas e a tendên
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -56,7 +56,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -113,7 +113,7 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
 ## Revisar o progresso da meta em gráficos
 
-1. Clique no ícone ![](assets/main-menu-icon.png) > **Metas** do **Menu Principal** no canto superior direito.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
 1. Clique em **Gráficos** no painel esquerdo.
 
-   ![](assets/graphs-in-left-panel.png)
+   ![Gráficos no painel esquerdo](assets/graphs-in-left-panel.png)
 
    A seção Gráficos é exibida.
 
@@ -141,7 +141,7 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
 1. Revise as informações na tabela abaixo ao revisar o Gráfico de integridade da meta.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![Gráfico de medição](assets/gauge-graph-wf-align-350x230.png)
 
    | Número total de metas | O número na parte inferior do gráfico indica o número de todas as metas no período selecionado, em todos os status selecionados. |
    |---|---|
@@ -151,7 +151,7 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
 1. Revise as informações na tabela abaixo ao revisar o Gráfico de Progresso da Meta.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![Gráfico de linhas](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

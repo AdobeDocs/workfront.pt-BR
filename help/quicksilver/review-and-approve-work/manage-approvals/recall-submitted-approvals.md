@@ -6,9 +6,9 @@ description: Você pode rechamar qualquer um dos seguintes objetos enviados para
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -69,14 +69,14 @@ Se você cancelar uma aprovação associada ao status inicial do projeto, o proc
 
 Para cancelar uma aprovação de projeto enviada:
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![Ícone da página inicial](assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
 1. Na área **Lista de Trabalho**, navegue até o agrupamento **Aprovações que enviei**.
 
@@ -84,7 +84,7 @@ Para cancelar uma aprovação de projeto enviada:
 
    Isso abre o projeto à direita da Lista de trabalho.
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![Aprovação pendente de projeto](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Clique em **Cancelar** no canto superior direito do painel direito.
 
@@ -100,14 +100,14 @@ Se você cancelar uma aprovação associada ao status inicial da tarefa, o proce
 
 Para cancelar uma aprovação de tarefa enviada:
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![Ícone da página inicial](assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
 1. Na área **Lista de Trabalho**, navegue até o agrupamento **Aprovações que enviei**.
 
@@ -115,7 +115,7 @@ Para cancelar uma aprovação de tarefa enviada:
 
    Isso abre a tarefa à direita da Lista de trabalho.
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![Aprovação pendente de tarefa](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Clique em **Cancelar** no canto superior direito do painel direito.
 
@@ -129,14 +129,14 @@ Se você cancelar uma aprovação associada ao status inicial da ocorrência, o 
 >
 >Você pode associar o primeiro status de um problema a um processo de aprovação usando um modelo. Para obter mais informações sobre como criar uma fila de solicitações, consulte [Criar uma fila de solicitações](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![Ícone da página inicial](assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
 1. Na área **Lista de Trabalho**, navegue até o agrupamento **Aprovações que enviei**.
 
@@ -144,7 +144,7 @@ Se você cancelar uma aprovação associada ao status inicial da ocorrência, o 
 
    Isso abre a ocorrência à direita da Lista de trabalho.
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![Problema pendente de aprovação](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Clique em **Cancelar** no canto superior direito do painel direito.
 
@@ -152,14 +152,14 @@ Se você cancelar uma aprovação associada ao status inicial da ocorrência, o 
 
 Quando você cancela a aprovação de uma folha de horas, ela retorna ao status em que estava antes de ser enviada para aprovação.
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![Ícone da página inicial](assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
 1. Na área **Lista de Trabalho**, navegue até o agrupamento **Aprovações que enviei**.
 
@@ -167,7 +167,7 @@ Quando você cancela a aprovação de uma folha de horas, ela retorna ao status 
 
    Isso abre a folha de horas à direita da Lista de trabalho.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![Planilha de horas com aprovação pendente](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Clique em **Cancelar** no canto superior direito do painel direito.
 
@@ -175,14 +175,14 @@ Quando você cancela a aprovação de uma folha de horas, ela retorna ao status 
 
 Para cancelar uma aprovação de documento, você deve remover manualmente um ou todos os usuários da aprovação.
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![Ícone da página inicial](assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
 1. Na área **Lista de Trabalho**, navegue até o agrupamento **Aprovações que enviei**.
 
@@ -199,14 +199,14 @@ Para cancelar uma aprovação de documento, você deve remover manualmente um ou
 
 ## Solicitações de Acesso
 
-1. Clique no ícone **Página inicial** ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![Ícone da página inicial](assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
    >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
 
 1. Na área **Lista de Trabalho**, navegue até o agrupamento **Aprovações que enviei**.
 
@@ -214,6 +214,6 @@ Para cancelar uma aprovação de documento, você deve remover manualmente um ou
 
    Isso abre a solicitação de acesso à direita da Lista de trabalho.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![Solicitação de acesso com aprovação pendente](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Clique em **Cancelar** no canto superior direito do painel direito.

@@ -6,9 +6,9 @@ description: Você pode usar o relatório de aprovação de prova para exibir in
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Você deve ter o seguinte:
 
 1. Clique em **Novo relatório** e role para selecionar **Aprovação de prova**.
 
-   ![](assets/proof-approval-report.png)
+   ![Relatório de aprovação de prova](assets/proof-approval-report.png)
 
 1. (Opcional) Adicione quaisquer campos adicionais.
 1. Clique em **Salvar + Fechar**.

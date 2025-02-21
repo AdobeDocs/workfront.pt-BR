@@ -6,9 +6,9 @@ description: Durante o processo de revisão e aprovação, é possível enviar u
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -61,15 +61,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Localize o documento para a prova que contém os usuários que deseja enviar mensagens.
 1. Passe o mouse sobre o documento e clique em **Fluxo de trabalho de revisão**.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![Fluxo de trabalho de revisão](assets/proof-workflow-doc-list-350x92.png)
 
 1. Para enviar uma mensagem a todos os usuários do estágio, clique no menu **Mais** no estágio e escolha **Mensagem para Todos**.
 
-   ![](assets/message-stage-350x122.png)
+   ![Mensagem no estágio](assets/message-stage-350x122.png)
 
 1. Para enviar uma mensagem a um usuário individual, clique no menu **Mais** ao lado do usuário e escolha **Mensagem**.
 
-   ![](assets/message-user-350x121.png)
+   ![Usuário da mensagem](assets/message-user-350x121.png)
 
 1. Na seção **Detalhes da mensagem**, especifique as seguintes informações:
 

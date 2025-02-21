@@ -6,9 +6,9 @@ description: Se você estiver atribuído como aprovador de um documento, há vá
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Aprovar um documento da Página inicial
 
-1. Clique no ícone **Página inicial** ![](../assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique no ícone **Página inicial** ![Ícone da página inicial](../assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
    >
-   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Menu Principal** ![](../assets/main-menu-icon.png) no canto superior direito da página e clique em **Página Inicial**.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no **Ícone do** ![Menu principal](../assets/main-menu-icon.png), no canto superior direito da página, e clique em **Página inicial**.
 
 1. Clique em **Filtros** na parte superior esquerda da página e verifique se **Aprovações** está marcado.
 
@@ -103,7 +103,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Se a versão selecionada atualmente do documento tiver uma aprovação pendente para você, os botões de decisão de aprovação serão exibidos no canto superior direito da página; se outras versões do documento tiverem aprovações pendentes para você, o menu suspenso da versão exibirá um ponto vermelho.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Clique em uma das duas seguintes opções de aprovação no canto superior direito da página:
@@ -127,7 +127,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Se a versão selecionada do documento tiver uma aprovação pendente para você, os botões de decisão de aprovação serão exibidos no canto superior direito do painel Resumo do documento; se outras versões do documento tiverem aprovações pendentes para você, o menu suspenso da versão exibirá um ponto vermelho.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Clique em uma das duas opções de aprovação a seguir no canto superior direito do painel Resumo do documento:

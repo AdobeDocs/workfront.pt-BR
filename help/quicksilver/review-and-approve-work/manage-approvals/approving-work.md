@@ -6,9 +6,9 @@ description: Aprovar trabalho
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '914'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Para obter mais informações sobre como exibir itens que estão aguardando apro
 
 ## Aprovar trabalho na área Página inicial
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Minhas aprovações**.
 1. (Condicional) Clique no menu suspenso **Filtro** e selecione **Todos** para ver as aprovações atribuídas e delegadas a você.
 
@@ -77,7 +77,7 @@ Para obter mais informações sobre como exibir itens que estão aguardando apro
 
 1. Selecione o item em que deseja tomar uma decisão de aprovação.
 
-   ![](assets/my-approvals-widget.png)
+   ![Widget Minhas aprovações](assets/my-approvals-widget.png)
 
 1. Clique em uma das opções disponíveis ao tomar uma decisão de aprovação no painel direito. As seguintes opções são exibidas no canto superior direito da página, dependendo do tipo de item que você está aprovando:
 
@@ -146,7 +146,7 @@ Para aprovar o trabalho diretamente de um projeto, tarefa ou problema:
 
    As informações de aprovação referentes ao processo de aprovação atual de um projeto, tarefa ou problema são exibidas no cabeçalho do item.
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![Processo de aprovação atual no cabeçalho do projeto](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    As seguintes informações de aprovação estão disponíveis:
 
@@ -172,8 +172,8 @@ Para aprovar o trabalho diretamente de um projeto, tarefa ou problema:
 
 1. Vá para a área de documentos que contém o documento que requer sua aprovação.
 1. Selecione o documento e clique em **Aprovar**, **Alterações** ou **Rejeitar**.\
-   ![](assets/approval-approve-document-350x215.png)\
-   ![](assets/document-approval-350x199.png)
+   ![Aprovar documento](assets/approval-approve-document-350x215.png)\
+   ![Aprovação de documento](assets/document-approval-350x199.png)
 
 1. (Opcional) Se uma prova tiver sido gerada para o documento, você poderá aprovar o documento na interface de prova, conforme descrito em [Aprovar um documento a partir de uma prova](#approve-a-document-from-a-proof).
 
@@ -185,7 +185,7 @@ Dependendo das configurações de notificação, você pode receber emails notif
 1. Siga um destes procedimentos para revisar o documento:
 
    * Visualize os metadados sobre o documento.
-   * Se uma prova tiver sido criada para revisar o documento com marcação e comentários, clique em **Abrir prova** ![](assets/open-proof-icon-qs.png) próximo ao canto superior direito e revise a prova.
+   * Se uma prova tiver sido criada para revisar o documento com marcação e comentários, clique em **Abrir prova** ![Abrir prova](assets/open-proof-icon-qs.png) próximo ao canto superior direito e revise a prova.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

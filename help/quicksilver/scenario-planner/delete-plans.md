@@ -6,9 +6,9 @@ description: Você pode excluir os planos que criou. Não é possível excluir p
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Você pode excluir os planos que criou. Não é possível excluir planos compart
    <td> <p>[!DNL Adobe Workfront] plano*</p> </td> 
    <td> <ul></li>
    <li><p>Novo: Ultimate </p></li>
-   <p>O Planejador de cenários não está disponível para os novos planos do Workfront Select ou do Workfront Prime. </p>
+   <p>O Planejador de cenários não está disponível para os novos planos Select ou Prime do Workfront Workfront. </p>
    <li><p>Atual: [!UICONTROL Business] ou superior</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ Para deletar um plano:
 Uma lista de planos é exibida.
 
 1. Clique no nome de um plano para abri-lo.
-1. Clique no **[!UICONTROL Mais menu]** ![](assets/more-menu.png) à direita do nome do plano e em **[!UICONTROL Excluir]** > **[!UICONTROL Sim, exclua-o]**.
+1. Clique no **[!UICONTROL Mais menu]** ![Mais menu](assets/more-menu.png) à direita do nome do plano e clique em **[!UICONTROL Excluir]** > **[!UICONTROL Sim, excluir]**.
 
    O plano é excluído e você retorna à lista de planos.
 
@@ -114,7 +114,7 @@ Para excluir um cenário:
    Por padrão, o cenário Inicial é exibido.
 
 1. Clique em **[!UICONTROL Comparar cenários]**.
-1. No canto superior direito do cartão de cenário, clique no menu **[!UICONTROL Mais]** ![](assets/more-menu.png) e em **[!UICONTROL Excluir]**.
+1. No canto superior direito do cartão de cenário, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-menu.png) e clique em **[!UICONTROL Excluir]**.
 
    O cenário é excluído.
 

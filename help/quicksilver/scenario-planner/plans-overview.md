@@ -7,9 +7,9 @@ description: Como gerente de negócios, você pode usar o Planejador de cenário
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Considere o seguinte ao criar planos:
 
 É possível revisar as informações gerais sobre a função de trabalho dos planos que indicam a quantidade de funções de trabalho disponíveis para o plano, bem como a quantidade de funções de trabalho necessárias para a conclusão das iniciativas. Você pode exibir essas informações na caixa [!UICONTROL Funções de trabalho] do cabeçalho do plano.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![Caixa de função de trabalho no plano](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 Você pode exibir o seguinte na caixa de funções de trabalho:
 
@@ -78,7 +78,7 @@ Para obter informações sobre como acessar um plano e exibir informações deta
 
 Você pode revisar informações financeiras sobre um plano, especificamente seu orçamento planejado, como esse orçamento é utilizado e qual é o Valor Líquido do plano. O Valor Líquido de um plano é baseado no Valor Líquido de suas iniciativas. Você pode exibir essas informações nas caixas [!UICONTROL Financeiro] e [!UICONTROL Resumo] do cabeçalho do plano.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![Caixas de orçamento e valor líquido](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 Você pode exibir o seguinte nas caixas [!UICONTROL Financeiro] e [!UICONTROL Resumo] do plano:
 

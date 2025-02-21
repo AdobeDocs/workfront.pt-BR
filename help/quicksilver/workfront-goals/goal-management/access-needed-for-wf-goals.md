@@ -7,9 +7,9 @@ description: O administrador do Adobe Workfront deve garantir que determinadas c
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Como administrador do Workfront, você pode revisar o número de licenças do Wo
 
 O administrador do Workfront ou do Grupo deve atribuir um Modelo de layout que inclua a área Metas no Menu principal para que você possa acessar as Metas do Workfront.
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![Modelo de layout](assets/layout-template-align-highlighted-350x220.png)
 
 O administrador do Workfront ou do Grupo também pode adicionar o seguinte ao modelo de layout para que você possa acessar facilmente o Workfront Goals:
 

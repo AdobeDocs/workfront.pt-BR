@@ -6,9 +6,9 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -96,7 +96,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 
 Você pode adicionar comentários às metas na seção Atualizações da página de uma meta.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito ou no ícone ![](assets/lines-main-menu.png) do **Menu Principal** no canto superior esquerdo, se disponível, em seguida clique em **Metas**.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no ícone **Menu Principal** ![Linhas do menu principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, e clique em **Metas**.
 Isso abre a lista de metas.
 1. Localize a meta à qual deseja adicionar comentários e clique no nome dela para abrir a página de metas.
 1. Clique em **Atualizações** no painel esquerdo.
@@ -106,7 +106,7 @@ Isso abre a lista de metas.
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
    
-   ![](assets/search-field-in-updates-tab-goals.png)
+   ![Search field](assets/search-field-in-updates-tab-goals.png)
 
    The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
@@ -121,7 +121,7 @@ Isso abre a lista de metas.
 1. Click the **Comments** tab in the upper-left corner of the Updates area.
 1. Start entering a comment in the **New comment** box.
          
-   ![](assets/comment-box-empty-unshimmed.png)
+   ![Comment box](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -145,13 +145,13 @@ Isso abre a lista de metas.
       >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
       >
       >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      >![Real time new red indicator](assets/real-time-new-red-indicator-unified-commenting-copy.png)
       
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. (Optional) To edit a comment, click the **More** menu ![More icon](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
 1. Edit the information in the comment or remove any of the tagged users. 
    You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![Edited tag on comment](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Isso abre a lista de metas.
    >
    > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
+1. (Optional) Click the **More** menu ![More icon](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
       * **Copy link** to copy the link of an update, without the replies.
       * **Copy body text** to copy the text of an update. 
@@ -167,14 +167,14 @@ Isso abre a lista de metas.
 
          For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click the **More** menu ![More icon](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
    
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![Blue comments banner](assets/blue-new-comments-banner-with-view-button.png)
    
    Additional comments display at the bottom of the screen.
-1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
+1. (Optional) Click the **Like** icon![Like icon](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 

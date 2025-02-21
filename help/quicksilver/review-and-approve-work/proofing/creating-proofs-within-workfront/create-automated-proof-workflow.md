@@ -6,9 +6,9 @@ description: Um fluxo de trabalho automatizado facilita o gerenciamento do proce
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
       Além das opções **Na criação da prova**, **Em uma data e hora específicas** ou **Manualmente**, você pode selecionar uma opção que dependa do que ocorreu na etapa anterior:
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![Ativar opções de estágio](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Se você selecionou uma opção Ativar estágio dependente do que ocorreu na etapa anterior, use as opções exibidas para definir a configuração de ativação.
 
@@ -149,7 +149,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    À medida que você adiciona estágios ao Fluxo de Trabalho Automatizado, um diagrama se forma na tela para representá-los:
 
-   ![](assets/stages-diagram-350x213.png)
+   ![Diagrama de estágios](assets/stages-diagram-350x213.png)
 
 1. Continue com [Defina as configurações de email para a prova](#configure-email-settings-for-the-proof) abaixo.
 
@@ -230,6 +230,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Depois que a prova for gerada, clique em **Abrir prova** para iniciar o visualizador de provas.
 
-   ![](assets/open-proof-350x132.png)
+   ![Abrir prova](assets/open-proof-350x132.png)
 
    Os usuários que não possuem comprovação habilitada em suas contas ainda poderão exibir o documento e fazer comentários na prova [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

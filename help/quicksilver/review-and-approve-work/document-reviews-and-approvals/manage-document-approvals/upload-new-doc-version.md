@@ -6,9 +6,9 @@ description: Você pode fazer upload de uma nova versão do documento e solicita
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 
 1. Role para baixo até a seção **Aprovações** no painel Resumo do documento e clique em **Adicionar**.
 
-![](assets/doc-summary-add-approvers.png)
+![Adicionar aprovadores no resumo do documento](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
@@ -89,4 +89,4 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 
 1. Para adicionar novos aprovadores e revisores, clique em **Revisor** ou **Aprovador** e comece a digitar o usuário ou a equipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Adicionar aprovador e prazo final](assets/add-approver-and-deadline.png)

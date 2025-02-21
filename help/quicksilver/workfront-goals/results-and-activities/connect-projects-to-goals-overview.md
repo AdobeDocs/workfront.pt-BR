@@ -8,9 +8,9 @@ description: Você pode conectar projetos a metas para indicar como a meta avan�
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ Você deve ter o seguinte:
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
-  <ul><li>Um plano Ultimate </li></ul>
+  <ul><li>Um plano do Ultimate </li></ul>
    </p>
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
@@ -63,7 +63,7 @@ Você deve ter o seguinte:
  <td>
  <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
-<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
  <p>Ou</p>
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
@@ -112,7 +112,7 @@ Você deve ter o seguinte:
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * Quando você exclui um projeto anexado a uma meta, o projeto também é excluído da meta.
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Adicionar projetos às metas
 
-1. Clique no **Menu Principal** ![](assets/main-menu-icon.png) (faça o rascunho deste para o Shell: ou clique no **Menu Principal** ![](assets/three-line-main-menu-icon.png) no canto superior esquerdo, se estiver disponível.) e depois em **Metas**.
+1. Clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) (faça o rascunho deste para o Shell: ou clique no **Menu Principal** ![Linhas do Menu Principal](assets/three-line-main-menu-icon.png) no canto superior esquerdo, se estiver disponível.) e em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
 1. No menu suspenso **Novo indicador de progresso**, clique em **Adicionar projeto existente**.
 
    A caixa Adicionar projetos à meta é exibida.
 1. (Opcional) Atualize o **Modo de Exibição**, **Filtro** ou **Agrupamento** clicando nos respectivos ícones no canto superior direito da lista para modificar o modo como a lista de projetos é exibida.
-1. (Opcional) Clique no ícone ![](assets/search-icon.png) da **Pesquisa** e comece a digitar o nome de um projeto para localizá-lo rapidamente na lista.
+1. (Opcional) Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar o nome de um projeto para localizá-lo rapidamente na lista.
 1. Selecione os projetos que deseja adicionar à meta e clique em **Adicionar**.
 
    Os projetos selecionados são adicionados à meta e são exibidos na seção Indicadores de progresso da página de meta, no agrupamento **Projeto**.

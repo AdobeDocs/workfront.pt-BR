@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 1. Role para baixo até a seção **Aprovações** e clique em **Adicionar**.
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![Adicionar aprovadores no resumo do documento](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Adicionar aprovador e prazo final](assets/add-approver-and-deadline.png)
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
 ## Criar uma solicitação de revisão ou aprovação a partir da página Detalhes do documento
 
 1. Passe o mouse sobre o documento e clique em **Detalhes do documento**.
-   ![](assets/doc-details.png)
+   ![Detalhes do documento](assets/doc-details.png)
 
 1. Próximo ao nome do documento, selecione a versão do documento para a qual deseja criar uma aprovação. A versão mais recente é selecionada por padrão.
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Adicionar aprovador e prazo final](assets/add-approver-and-deadline.png)
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
@@ -110,5 +110,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

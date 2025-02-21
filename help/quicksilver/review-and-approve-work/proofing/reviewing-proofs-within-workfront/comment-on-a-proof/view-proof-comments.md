@@ -6,9 +6,9 @@ description: É possível exibir e responder a comentários de prova feitos por 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Para exibir comentários no revisor de provas:
 No Workfront, é possível exibir comentários de prova sem iniciar o visualizador de provas.
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
-1. Clique na linha que contém o documento e no ícone ![](assets/summary-panel-icon.png) do **Resumo**, no lado direito da página.\
+1. Clique na linha que contém o documento e, em seguida, clique no ícone **Resumo** ícone ![Resumo](assets/summary-panel-icon.png) no lado direito da página.\
    Os comentários são exibidos na seção Atualizações do Resumo do documento.
 
 ## Marcar todos os comentários como lidos
@@ -96,7 +96,7 @@ Como revisor de uma prova, você pode marcar rapidamente todos os comentários c
 
 1. Acima da lista de comentários, clique no ícone **Mais** e em **Marcar tudo como lido**.
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![Marcar tudo como lido](assets/mceclip8-350x173.png)
 
 ## Responder a comentários de prova do visualizador de provas
 

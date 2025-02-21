@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,19 @@ Para associar um processo de aprovação global existente a um projeto, tarefa, 
 
    Talvez seja necessário clicar em **Mostrar mais** e em **Aprovações**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Seção de aprovações na tarefa](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![Usar aprovações existentes ou criar aprovações de uso único](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    O processo de aprovação selecionado é exibido.
 
 1. Expanda o menu suspenso **Usar existente** e selecione um processo de aprovação existente.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Menu de aprovações](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    O processo de aprovação selecionado é exibido.
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![Aprovação existente anexada à tarefa](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. Clique em **Salvar**.
 1. (Opcional) Clique em Editar processo de aprovação se quiser modificar a aprovação existente anexada ao item. Isso altera o processo de aprovação global para um processo de aprovação de uso único. Para obter mais informações, consulte a seção [Modificar um processo de aprovação global para uso em um objeto específico](#modify-a-global-approval-process-for-use-on-a-specific-object) neste artigo.
@@ -168,7 +168,7 @@ Para modificar um processo de aprovação já anexado a um item:
    >
    >Certifique-se de clicar em **Salvar** ao adicionar a aprovação.
 
-1. Após adicionar o processo de aprovação global, clique no ícone ![](assets/edit-icon.png) de **Editar**, no canto superior direito da página de aprovação. Essa ação transforma o processo de aprovação global ou de nível de grupo em um processo de aprovação de uso único.
+1. Após adicionar o processo de aprovação global, clique no **ícone Editar**&#x200B;ícone ![Editar](assets/edit-icon.png) no canto superior direito da página de aprovação. Essa ação transforma o processo de aprovação global ou de nível de grupo em um processo de aprovação de uso único.
 1. Faça quaisquer alterações no processo de aprovação existente. Para obter mais informações, consulte a seção [Associar um processo de aprovação de uso único a um projeto, tarefa, problema, modelo ou tarefa de modelo](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) neste artigo.
 1. Clique em **Salvar** e em **Salvar** novamente para confirmar que você deseja converter o processo de aprovação global em um processo de aprovação de uso único que esteja disponível apenas neste objeto.
 
@@ -193,11 +193,11 @@ Para criar um processo de aprovação de uso único:
 
    Talvez seja necessário clicar em **Mostrar mais** > **Aprovações**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Seção de aprovações na tarefa](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Clique em **Criar uso único**.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Menu de aprovações](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. Conclua as etapas que começam com a etapa 6 na seção &quot;Criar um processo de aprovação global de nível de sistema ou de grupo para itens de trabalho&quot; no artigo [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -232,12 +232,12 @@ Para remover ou deletar um processo de aprovação de um item de trabalho:
 
    Talvez seja necessário clicar em **Mostrar mais** > **Aprovações**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Seção de aprovações na tarefa](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Clique em um dos seguintes ícones no canto superior direito da seção Approvals, dependendo do tipo de aprovação associado ao item:
 
-   * **O ícone Remover**![](assets/remove-icon---x-in-circle.png) para aprovações globais ou em nível de grupo.
-   * **O ícone Excluir**![](assets/delete.png) para aprovações de uso único.
+   * **O ícone Remover**&#x200B;ícone Remover![ícone Remover](assets/remove-icon---x-in-circle.png) para aprovações globais ou em nível de grupo.
+   * **O ícone Excluir**&#x200B;Ícone Excluir![Ícone Excluir](assets/delete.png) para aprovações de uso único.
 
 1. Clique em **Remover** ou **Excluir** para confirmar.
 

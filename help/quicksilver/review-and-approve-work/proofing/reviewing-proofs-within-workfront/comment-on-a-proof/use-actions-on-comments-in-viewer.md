@@ -6,9 +6,9 @@ description: Você pode usar ações para rastrear o que precisa acontecer em ca
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ Para aplicar uma ação a um comentário existente no visualizador de provas:
 
    * Clique no ícone de sinalizador no canto inferior direito do comentário e clique na ação desejada no menu suspenso.
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![Ícone do sinalizador de ações](assets/actions-flag-icon-350x198.png)
 
    * Clique no ícone **Mais** (três pontos horizontais no comentário) e clique na ação desejada na seção inferior do menu suspenso exibido.
 

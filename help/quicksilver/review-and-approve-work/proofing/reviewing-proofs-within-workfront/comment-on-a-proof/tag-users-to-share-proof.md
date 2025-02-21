@@ -6,9 +6,9 @@ description: Ao comentar em uma prova no visualizador de provas, você pode marc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Para marcar alguém e compartilhar uma prova em um comentário:
 1. Termine o comentário e clique em **Postar**.
 1. (Condicional) Se você marcou qualquer pessoa que ainda não foi adicionada à prova, especifique uma configuração de **Função de prova** e **Alertas de email** para cada usuário listado na caixa exibida e clique em **Adicionar pessoas e postar comentário**.
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![Adicionar pessoas à prova](assets/add-people-to-proof-350x220.png)
 
    Para obter informações sobre funções de prova, consulte. Para obter informações sobre alertas de email de prova, consulte a seção no artigo [Definir configurações de notificação por email no Workfront Proof](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
