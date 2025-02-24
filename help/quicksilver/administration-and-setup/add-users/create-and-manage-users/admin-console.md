@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ Como administrador do Adobe, você pode criar administradores de sistema do Adob
 
 >[!NOTE]
 >
->Recomendamos adicionar usuários que não são administradores do sistema diretamente no Workfront. É possível adicionar usuários na Adobe Admin Console, mas adicioná-los no Workfront permite definir seus níveis de acesso ao criá-los, o que pode economizar seu tempo.
+>* **Os Administradores do Workfront devem ser configurados no Adobe Admin Console.** Para obter informações e instruções, consulte [Criar administradores do sistema no Workfront com o Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) neste artigo.
+>* **Se sua organização usa Logon Único (SSO)**, recomendamos criar usuários e atribuí-los ao Workfront na Adobe Admin Console. A criação desses usuários no Workfront é possível, mas pode haver problemas ao transferir essas informações para a Adobe Admin Console, com base em como o Admin Console da sua organização é configurado.
+>   Depois de criar o usuário no Adobe Admin Console, você pode configurar as informações do usuário no Workfront, como atribuir funções, grupos, equipes e níveis de acesso.
+>* **Se sua organização não usar o Logon Único (SSO)**, você poderá adicionar usuários não administradores do sistema diretamente no Workfront. É possível adicionar usuários na Adobe Admin Console, mas adicioná-los no Workfront permite definir seus níveis de acesso ao criá-los, o que pode economizar seu tempo.
 
 <span class="preview">Ao fazer alterações nos perfis dos usuários a partir do Admin Console, uma atualização é adicionada à guia de atividades do Sistema do usuário no Workfront. A atualização é exibida conforme estabelecido pelo &quot;Sistema&quot;. Refere-se ao administrador do Adobe Admin Console e não ao Administrador principal do Workfront.</span>
 

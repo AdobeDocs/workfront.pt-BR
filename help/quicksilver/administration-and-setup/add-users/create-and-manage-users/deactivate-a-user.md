@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,18 @@ Se um usuário sair da organização, talvez seja necessário removê-lo do Adob
 
 Os administradores podem ver usuários inativos na área Configuração.
 
-Você pode reativar uma usuário a qualquer momento.
+É possível reativar um usuário a qualquer momento.
 
 >[!IMPORTANT]
 >
->Recomendamos desativar os usuários que deixaram a organização em vez de excluí-los. Se um usuário for excluído, todo o histórico na Workfront associado a essa usuário será perdido. Isso inclui suas atribuições de trabalho, sua associação com notas, horas, documentos e todos os outros objetos que já criaram.
+>* Recomendamos que você desative os usuários que saíram da organização em vez de excluí-los. Se um usuário for excluído, todo o histórico no Workfront associado a esse usuário será perdido. Isso inclui suas atribuições de trabalho, sua associação com notas, horas, documentos e todos os outros objetos que eles já criaram.
 >
->A desativação de uma usuário no Workfront remove as licenças do usuário para a Workfront e as provas digitais. Além disso, a usuário não pode mais receber trabalho. Quando um usuário é desativado, a licença e a licença de prova do Workfront desse usuário ficam disponíveis para serem usadas por outro usuário. Todas as outras informações no perfil do usuário desativado permanecem inalteradas.
+>   A desativação de um usuário no Workfront remove as licenças do usuário para o Workfront e para a prova digital. Além disso, o usuário não pode mais receber trabalho. Quando um usuário é desativado, a licença e a licença de prova do Workfront desse usuário ficam disponíveis para serem usadas por outro usuário. Todas as outras informações no perfil do usuário desativado permanecem inalteradas.
 >
->Para obter mais informações sobre o impacto da exclusão e da desativação de usuários, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>   Para obter mais informações sobre o impacto da exclusão e da desativação de usuários, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* A desativação de um usuário no Workfront não o remove do Perfil de produto do Workfront no Adobe Admin Console.
+
 
 ## Requisitos de acesso
 
@@ -74,19 +77,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Os requisitos de acesso na documentação](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) da Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Pré-requisitos
 
-Antes de desativar um administrador da Workfront ou o Standard ou um usuário plano de licença plano, você deve associar seus objetos e atividades a outra usuário.
+Antes de desativar um administrador do Workfront ou usuário de licença Standard ou Plan, você deve associar seus objetos e atividades a outro usuário.
 
-Para obter mais informações, consulte [Sobre a desativação de administradores do Workfront e os usuários](#about-deactivating-workfront-administrators-and-plan-license-users) da licença de plano neste artigo.
+Para obter mais informações, consulte [Sobre a desativação de administradores do Workfront e usuários de licenças de Plano](#about-deactivating-workfront-administrators-and-plan-license-users) neste artigo.
 
 ## Desativar um usuário
 
-Esteja ciente do seguinte ao desativar uma usuário:
+Esteja ciente do seguinte ao desativar um usuário:
 
 * O usuário não poderá acessar o sistema.
 <!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
@@ -112,7 +115,7 @@ Para programar um usuário para desativação:
 
 {{step-1-to-users}}
 
-1. Selecione o nome da usuário.
+1. Selecione o nome do usuário.
 
    Ou
 
@@ -120,7 +123,7 @@ Para programar um usuário para desativação:
 
 1. Clique no ícone Editar ![ícone Editar](assets/edit-icon.png).
 1. Na caixa Editar Usuário exibida, clique em **Planejamento de Recursos** para acessar essa área.
-1. Ative a opção **Agendar de desativação** .
+1. Habilite a opção **Desativação de Agendamento**.
 
 1. No calendário exibido, especifique a data e a hora para a **Data de Desativação Programada**.
 
@@ -147,18 +150,18 @@ Recomendamos criar um relatório para os usuários que você agendou para desati
 
 Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
-### Impacto de prova ao reativar um usuário
+### Impacto da revisão quando você reativa um usuário
 
-Usuários desativados perdem seus função de prova padrão atribuídos e sua licença de prova (se você estiver em um plano herdado do Workfront Premium). Se você optar por reativar o usuário, será necessário:
+Os usuários desativados perdem a função de prova padrão atribuída e a licença de prova (se você estiver em um Plano herdado do Workfront Premium). Se você optar por reativar o usuário, será necessário:
 
 * Reatribua a licença (se você estiver em um Plano Workfront Premium Legacy). Para obter mais informações sobre planos de revisão de texto do Workfront, consulte [Acesso à funcionalidade de revisão de texto no Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Verifique se eles têm a função de prova correta. Os usuários de prova reativados recebem o que for especificado como a função de prova padrão para novos usuários. Consulte [Configurar funções](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) de prova padrão para obter mais informações.
+* Verifique se eles têm a função de prova correta. Os usuários de prova reativados recebem o que for especificado como a função de prova padrão para novos usuários. Consulte [Configurar funções de prova padrão](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) para obter mais informações.
 
-## Sobre a desativação de administradores do Workfront e o Standard ou os usuários da licença de plano
+## Sobre a desativação de administradores do Workfront e usuários de licenças Padrão ou Plano
 
-Antes de desativar um administrador da Workfront ou um usuário com uma licença plano, é importante verificar se há objetos e atividades da Workfront envolvendo essa pessoa, em seguida, associá-los a outro administrador da Workfront ou plano licença usuário, conforme necessário.
+Antes de desativar um administrador do Workfront ou um usuário com uma licença do Plano, é importante verificar se há objetos e atividades do Workfront envolvendo essa pessoa e associá-los a outro administrador do Workfront ou usuário de licença do Plano, conforme necessário.
 
-Esses objetos e atividades podem incluir:
+Esses objetos e atividades podem incluir o seguinte:
 
 * Tarefas ou problemas atribuídos ao usuário
 * Projetos de propriedade do usuário
@@ -175,6 +178,6 @@ Esses objetos e atividades podem incluir:
 
 Quando você agenda a desativação de um usuário, ele não aparece mais no Planejador de recursos como disponível para as horas de orçamento. Se permanecerem como parte dos Conjuntos de recursos, aparecerão no Planejador de recursos, mas sua disponibilidade será definida como zero horas a partir da data de desativação programada.
 
-O Planejador de recursos assume conta todas as funções de trabalho dos usuários e as Datas de conclusão Planejadas das tarefas e calcula os recursos adequadamente.
+O Planejador de recursos considera todas as funções de trabalho dos usuários e as Datas de conclusão planejadas das tarefas e calcula os recursos de acordo.
 
 Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

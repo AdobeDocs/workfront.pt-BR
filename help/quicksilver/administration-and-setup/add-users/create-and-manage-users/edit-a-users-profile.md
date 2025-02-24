@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td> 
        <ul> 
         <li><p><b>Nome</b></p></li>
-        <li><p><b>Sobrenome</b></p></li> 
-        <li> <p><b>Endereço de email:</b> O endereço de email de um usuário também é seu nome de usuário no Workfront. Esse campo diferencia maiúsculas e minúsculas e deve ser exclusivo. Se qualquer usuário tentar adicionar um endereço de email não exclusivo 3 vezes em uma janela de 10 minutos, uma resposta do reCAPTCHA será exibida.</p> <p> Selecione a configuração <b>Não sou um robô</b> antes de continuar.</p><p>Se você usar a inclui na lista de permissões por email e inserir um domínio de email que não esteja na lista, o usuário não receberá notificações por email. Para obter mais informações sobre a incluir na lista de permissões inclui na lista de permissões, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configurar a pesquisa por email</a>.</p> </li> 
+        <li><p><b>Sobrenome</b></p><p><b>NOTA:</b></p><p>Editar o nome de um usuário no Workfront não edita o nome do usuário no Adobe Admin Console.</p></li> 
+        <li> <p><b>Endereço de email:</b> O endereço de email de um usuário também é seu nome de usuário no Workfront. Esse campo diferencia maiúsculas e minúsculas e deve ser exclusivo. Se qualquer usuário tentar adicionar um endereço de email não exclusivo 3 vezes em uma janela de 10 minutos, uma resposta do reCAPTCHA será exibida.</p> <p> Selecione a configuração <b>Não sou um robô</b> antes de continuar.</p><p>Se você usar a inclui na lista de permissões por email e inserir um domínio de email que não esteja na lista, o usuário não receberá notificações por email. Para obter mais informações sobre a incluir na lista de permissões inclui na lista de permissões, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configurar a pesquisa por email</a>.</p><p>Se sua organização tiver migrado para a Adobe Admin Console, não será possível editar o endereço de email de um usuário no Workfront. O endereço de email do usuário é definido na Adobe Admin Console. </li> 
         <li> <p><b>Redefinir Senha</b>: clique neste link para redefinir a senha do usuário. Você deve digitar sua própria senha antes de redefinir a senha de outro usuário.</p> <p>Para redefinir a senha de outro usuário, você deve ser um administrador do Workfront ou um administrador de grupo.</p> <p><b>NOTA</b>:  
           <ul> 
            <li> <p>Se você for um administrador de grupo, poderá redefinir senhas somente para usuários nos grupos em que foi designado como administrador. Além disso, a permissão Administrador de usuários (usuários de grupo) deve estar ativada em seu nível de acesso:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Essa configuração é desativada por padrão. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </li> 
