@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -132,9 +132,9 @@ Você pode adicionar uma miniatura das seguintes maneiras:
 
    Isso abre a página do tipo de registro.
 1. Selecione uma exibição de tabela no menu suspenso **Exibir**. Todos os registros do tipo selecionado são exibidos em uma tabela.
-1. Passe o mouse sobre as informações do campo principal, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Miniatura**.
+1. Passe o mouse sobre as informações do campo principal, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Miniatura**.
 
-   ![](assets/record-more-menu-expanded.png)
+   ![Gravar mais menu expandido](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ Você pode adicionar uma miniatura das seguintes maneiras:
 1. Em qualquer exibição, clique em um registro para abri-lo.
 
    A caixa de visualização de detalhes é exibida.
-1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** no canto superior direito.
+1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito.
 
    A página de detalhes do registro é aberta.
 
-1. (Condicional) Na página de visualização ou detalhes do registro, passe o mouse sobre a imagem da miniatura ou o ícone ![](assets/record-thumbnail-icon-on-details-page.png), passe o mouse sobre o espaço acima do nome do registro e clique em **Adicionar miniatura** ou **Editar miniatura**.
+1. (Condicional) Na página de visualização ou detalhes do registro, passe o mouse sobre a imagem da miniatura ou o ícone ![Ícone da miniatura do registro na página de detalhes](assets/record-thumbnail-icon-on-details-page.png), passe o mouse sobre o espaço acima do nome do registro e clique em **Adicionar miniatura** ou **Editar miniatura**.
 
    A guia **Carregar** é aberta por padrão na caixa **Miniatura do registro**.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![Gravar caixa de miniatura para carregamento](assets/record-thumbnail-box-for-upload.png)
 
 1. Arraste e solte um arquivo para adicionar como miniatura
 
@@ -197,12 +197,12 @@ Você pode adicionar uma miniatura das seguintes maneiras:
    Clique em **Procurar imagens** e procure um arquivo de imagem a ser adicionado. O arquivo deve ser salvo no computador.
 
 1. (Opcional) Depois que a imagem for carregada na caixa **Gravar miniatura**, use a ferramenta de dimensionamento para recortar e redimensionar a imagem.
-1. (Opcional) Clique no ícone ![](assets/upload-new-image-icon.png) de **Carregar nova imagem** para carregar outra imagem.
+1. (Opcional) Clique no ícone **Carregar nova imagem** ![Carregar nova imagem ícone](assets/upload-new-image-icon.png) para carregar outra imagem.
 1. (Opcional) Clique na guia **Galeria** e clique em uma imagem. A galeria de imagens não pode ser modificada.
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![Gravar caixa de miniatura da galeria](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Opcional) Para remover a miniatura antes de salvá-la, clique no ícone ![](assets/remove-image-icon.png) de **Remover** à direita da imagem.
+1. (Opcional) Para remover a miniatura antes de salvá-la, clique no ícone **Remover** ![Ícone Remover imagem](assets/remove-image-icon.png) à direita da imagem.
 
 1. Clique em **Usar imagem** para adicionar a imagem como miniatura.
 Isso fecha a caixa **Miniatura do registro**.
@@ -212,7 +212,7 @@ A miniatura é exibida nas áreas do Workfront Planning onde o registro é exibi
    >
    >   Você deve ativar o campo Miniatura na exibição de tabela para exibir miniaturas nesta exibição. Ela está desativada por padrão.
 
-1. (Opcional) Para remover a miniatura depois que ela for salva, clique em um registro em qualquer modo de exibição para abrir a página de detalhes, passe o mouse sobre a imagem de miniatura e clique no ícone ![](assets/remove-image-icon.png) do menu **Mais**> **Remover**. ![](assets/more-menu.png) A imagem em miniatura é removida.
+1. (Opcional) Para remover a miniatura depois que ela for salva, clique em um registro em qualquer modo de exibição para abrir a página de detalhes, passe o mouse sobre a imagem de miniatura e clique no ícone de menu **Mais** ![Mais ícone de menu](assets/more-menu.png)> **Remover** ícone ![Remover ícone](assets/remove-image-icon.png). A imagem em miniatura é removida.
 
 
 

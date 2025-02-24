@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td>
    <td>
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p>
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p>
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p>
    </td>
 
 </tr>
@@ -105,7 +105,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal e a área Planejamento para projetos, portfólios e programas. </p> Para obter mais informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">visão geral sobre o acesso ao Adobe</a>. </p>  </p>  
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal e a área Planejamento para projetos, portfólios e programas. </p> Para obter mais informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral sobre acesso ao Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -157,29 +157,29 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
    Ou
 
-   Na exibição de tabela, clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** na primeira coluna.
+   Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
    A visualização do registro é aberta na exibição.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
     </div>-->
 
-1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
+1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A página de registro é aberta. A guia Detalhes é aberta por padrão.
 
-   ![](assets/details-page.png)
+   ![Página de detalhes](assets/details-page.png)
 
-1. Na guia **Detalhes** da visualização ou página do registro, passe o mouse sobre o espaço em branco à esquerda dos campos e clique no ícone ![](assets/add-section-icon.png) de **Adicionar seção** para adicionar uma seção.
+1. Na guia **Detalhes** da visualização ou página do registro, passe o mouse sobre o espaço em branco à esquerda dos campos e clique no ícone **Adicionar seção** ícone ![Adicionar seção](assets/add-section-icon.png) para adicionar uma seção.
 1. Clique dentro do nome da seção e substitua **Seção sem título** por um nome e clique em Enter. Os campos exibidos abaixo da seção fazem parte automaticamente da nova seção.
 1. Comece a arrastar e soltar campos na nova seção, conforme descrito na seção [Reorganizar campos na página de visualização de registro ou de detalhes](#rearrange-fields-in-the-record-preview-or-details-page) deste artigo.
 
-1. (Opcional) Passe o mouse sobre o nome de uma seção e clique no menu **Mais** ![](assets/more-menu.png).
+1. (Opcional) Passe o mouse sobre o nome de uma seção e clique no menu **Mais** ![Mais menu](assets/more-menu.png).
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   ![Mais opções de menu para a seção na página de registro](assets/more-menu-options-for-section-on-record-page.png)
 1. (Opcional) Siga um destes procedimentos para editar a seção:
 
    * Clique em **Renomear** para renomear a seção
@@ -200,19 +200,19 @@ Todos os campos na seção se movem com a seção.
 1. Clique na seta apontando para baixo à esquerda do nome de uma seção para recolhê-la ou na seta apontando para a direita para expandi-la.
 Todas as seções são expandidas por padrão.
 
-1. (Opcional) Clique no ícone ![](assets/grab-icon.png) de **captura** à esquerda de um nome de seção e arraste-o e solte-o em um local desejado.
+1. (Opcional) Clique no ícone de **captura** ![ícone de captura](assets/grab-icon.png) à esquerda do nome de uma seção e arraste-o e solte-o no local desejado.
 
    A nova posição da seção atualiza na pré-visualização e na página de todos os registros do mesmo tipo para todos os usuários que visualizam os registros.
 
    Todas as alterações nas seções e na ordem dos campos são salvas automaticamente.
 
-1. (Opcional) Clique no menu ![](assets/export-icon-in-record-details-page.png) **Exportar** para exportar a guia Detalhes para um arquivo do Word ou PDF. Para obter mais informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Opcional) Clique no menu **Exportar** ![ícone Exportar na página de detalhes do registro](assets/export-icon-in-record-details-page.png) para exportar a guia Detalhes para um arquivo do Word ou PDF. Para obter mais informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Opcional) Clique na guia **Conexões** ao lado da guia **Detalhes**. Talvez seja necessário clicar em **Mais** antes da guia **Conexões**.
 
    Todos os registros ou objetos conectados ao registro selecionado são exibidos sob os nomes do tipo de registro ou do aplicativo ao qual pertencem.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Guia Conexões em registro no Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. (Opcional) Selecione a configuração **Mostrar todos os registros** no canto superior direito da guia Conexões. Todos os tipos de registros conectados são exibidos, incluindo aqueles que ainda não têm nenhum registro conectado. Por padrão, a opção é desmarcada e os tipos de registro sem registros conectados são ocultos.
 
@@ -240,27 +240,27 @@ As seguintes situações ocorrem:
 
    Ou
 
-   Na exibição de tabela, clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** na primeira coluna.
+   Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
    A visualização do registro é aberta na exibição.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>-->
 
-1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
+1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir caixa de detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A guia **Detalhes** do registro é aberta por padrão.
 
    <!--<div class="preview">
 
-   ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
    </div>-->
 
-1. Na guia **Detalhes** do registro, clique no ícone ![](assets/grab-icon.png) de **captura** à esquerda de um nome de campo, em seguida, arraste e solte-o no local desejado. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Na guia **Detalhes** do registro, clique no ícone **Capturar** ![Ícone Capturar](assets/grab-icon.png) à esquerda de um nome de campo e arraste-o e solte-o no local desejado. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    A nova posição do campo é atualizada na pré-visualização e na página de todos os registros do mesmo tipo para todos os usuários que visualizam os registros.
 
@@ -268,40 +268,64 @@ As seguintes situações ocorrem:
 
 ## Adicionar uma página de exibição de conexão à página de um registro
 
+<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+
 Considere o seguinte ao adicionar uma exibição de Conexão à página de um registro:
 
 * Você pode adicionar uma página de exibição de conexão à página de um registro.
 
 * Não é possível adicionar uma página de exibição de conexão à área de visualização de um registro.
 
-* As páginas de exibição de conexão exibem uma página de registro conectada na exibição de tabela. A exibição de tabela é somente leitura.
+* As páginas de exibição de conexão exibem uma página de registro conectada na exibição de tabela. A exibição de tabela é somente leitura. <!--more views might be added in the future-->
 
 * É possível adicionar uma página de exibição de conexão para cada tipo de registro conectado.  <!--edit this when we can remove fields from this page-->
 
-* Depois de adicionar uma página de exibição de conexão à página de um registro, a página fica visível na área de visualização do registro.
+* Depois de adicionar uma página Exibição de conexão à página de um registro, a guia Página fica visível na área de visualização do registro. Você deve ir para a página inteira para ver a exibição de tabela do registro conectado. <!--this might have changed? check and take disclaimer out-->
 
 Para adicionar uma página de exibição de conexão:
 
-1. Em uma exibição de página de registro, clique no nome de um registro para abri-lo e no ícone ![](assets/open-details-in-a-new-tab-icon.png) da **guia Abrir em nova**, no canto superior direito da página de visualização.
+1. Em uma exibição de página de registro, clique no nome de um registro para abri-lo e no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da página de visualização.
 1. Clique em **Adicionar página** > **Exibição de conexão**.
 
-   ![](assets/add-connection-view-page-modal.png)
+   ![Adicionar modal da página de exibição de conexão](assets/add-connection-view-page-modal.png)
 1. Adicione o **Nome da página**, clique em **Modo de exibição de conexão** e em **Criar**.
 
    Uma nova guia é adicionada à página do registro.
 1. Pesquise ou clique no nome de um registro ou tipo de objeto conectado na lista.
 A exibição de tabela do tipo de registro selecionado é exibida e os registros conectados são exibidos na exibição de tabela.
-A exibição de tabela é somente leitura.
+Todos os campos do registro conectado são exibidos na exibição de tabela da guia do registro conectado.
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+
+   A exibição de tabela é somente leitura.
+
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   ![Exibição da tabela conectada ao público-alvo nos detalhes da campanha](assets/audience-connected-table-view-under-campaign-details-page.png)
 1. (Opcional) Clique duas vezes no nome da guia
 
    Ou
 
-   Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![](assets/more-menu.png) e em **Renomear** para renomear para a nova guia Modo de Exibição Conectado.
-1. (Opcional) Use quaisquer elementos de exibição na barra de ferramentas para gerenciar a exibição de tabela. Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
-1. (Opcional) Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![](assets/more-menu.png) e em **Excluir** para remover para a nova guia de exibição Conectada.
+   Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![Mais menu](assets/more-menu.png) e em **Renomear** para renomear para a nova guia Modo de Exibição Conectado.
+1. (Opcional) Use qualquer um dos seguintes elementos de exibição na barra de ferramentas para gerenciar a exibição de tabela
 
+   * Filtros
+   * Ordenar
+   * Agrupamento
+
+   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+
+   Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+   >[!NOTE]
+   >
+   >   Não é possível executar nenhuma das ações a seguir na exibição de tabela da guia de um registro conectado:
+   >
+   >   * Ocultar campos
+   >   * Criar, editar ou excluir campos
+   >   * Reorganizar campos
+   >
+1. (Opcional) Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![Mais menu](assets/more-menu.png) e clique em **Excluir** para remover para a nova guia de modo de exibição Conectado.
 
 
 <!--
