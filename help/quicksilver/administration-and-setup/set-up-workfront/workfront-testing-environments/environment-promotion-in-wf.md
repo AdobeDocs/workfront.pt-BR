@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 | Função (ROLE) | Função |
 | Equipe (TEAM) | Grupo<br>de Equipe |
 | Empresa (CMPY) | Empresa<br>Taxa de Substituição<br>Categoria<br>Parâmetro de Categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Parâmetro <br>Lógica de Exibição de Categoria<br>Grupo |
-| Portfolio (PORTA) | Portfolio<br>Programa<br>Grupo<br>Categoria<br>Parâmetro De Categoria<br>Parâmetro<br>Grupo De Parâmetros<br>Opção De Parâmetro<br>Lógica De Exibição De Categoria |
+| Portfolio (PORTA) | Portfolio<br>Program<br>Group<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
 | Programa (PRGM) | Programa<br>Portfolio<br>Grupo<br>Categoria<br>Parâmetro De Categoria<br>Parâmetro<br>Grupo De Parâmetros<br>Opção De Parâmetro<br>Lógica De Exibição De Categoria |
 
 ### Outros objetos de configuração
@@ -100,6 +100,7 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 | Nível de acesso (ACSLVL) | Nível de acesso |
 | Cartão de tarifa (RTCRD) | Cartão de tarifa |
 | Localização / Classificador (CLSF) | Localização / Classificador |
+| Regras comerciais (BSNRUL) | Regras de negócios |
 
 \* Não disponível no momento
 
