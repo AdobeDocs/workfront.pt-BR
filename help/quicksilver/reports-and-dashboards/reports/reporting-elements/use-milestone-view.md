@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Usar a visualização de Etapas
-description: Você pode aplicar a visualização Marco a uma lista de projeto ou relatório.
+description: Você pode aplicar a visualização Marco a uma lista de projeto ou relatório. Você pode usar o modo de exibição Marco para exibir todos os marcos associados às tarefas nos projetos que você está visualizando.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-Você pode aplicar a visualização Marco a uma lista de projeto ou relatório.
+Você pode aplicar a visualização Marco a uma lista de projeto ou relatório. Você pode usar o modo de exibição Marco para exibir todos os marcos associados às tarefas nos projetos que você está visualizando.
 
-Antes de usar a exibição de marcos, os Marcos precisam ser configurados, os Caminhos de Etapas precisam ser adicionados aos projetos e os Marcos precisam ser associados às tarefas, conforme descrito nos artigos [Criar um caminho de marcos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) e [Associar marcos a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Antes de usar a visualização de etapas, os seguintes elementos devem existir:
+
+* Os caminhos de etapas estão configurados. Para obter informações, consulte [Criar um caminho de etapas](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Os caminhos de etapas necessários são adicionados aos projetos. Para obter informações, consulte [Editar projetos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+* Etapas estão associadas a tarefas. Para obter informações, consulte [Associar marcos a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 A visualização Marco está disponível ao visualizar uma lista de projetos ou um relatório de projeto. As seções a seguir descrevem como visualizar e usar a visualização de etapas.
 

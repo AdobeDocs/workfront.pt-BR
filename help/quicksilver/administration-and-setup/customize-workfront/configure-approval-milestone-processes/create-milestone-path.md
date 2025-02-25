@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 3%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Como administrador do Adobe Workfront, você pode criar caminhos de etapas que podem ser aplicados a qualquer projeto no sistema. As alterações feitas nos caminhos de marcos nessa área afetam todo o sistema do Workfront.
 
@@ -116,3 +120,38 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
    Seu caminho de etapas está pronto para ser associado a um projeto.
 
    Para obter mais informações sobre como associar caminhos de etapas a projetos e etapas a tarefas, consulte [Associar etapas a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+
+
+## Exibir detalhes do caminho de etapas em um relatório
+
+Você pode visualizar os detalhes de um caminho de etapas em um relatório de projeto.
+
+Você deve associar um caminho de etapas a um projeto antes de ver seus detalhes em um relatório de projeto.
+
+Para obter informações sobre como associar caminhos de etapas a projetos, consulte [Editar projetos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+{{step1-to-reports}}
+
+1. Clique em **Novo Relatório** e em **Projeto**.
+1. Clique em **Adicionar coluna**.
+1. Na área **Mostrar nesta coluna**, comece digitando **Caminho de Etapas** e clique em **Nome do Caminho de Etapas** quando for exibido.
+1. (Opcional) Clique em **Filtros** e adicione o seguinte filtro ao relatório: **A ID do Caminho de Etapas do Projeto não está em branco**.
+
+   O filtro garante a exibição apenas de projetos associados a um caminho de etapas no relatório.
+
+1. Clique em **Salvar + Fechar**.
+1. Adicione um nome para o relatório e clique em **Aplicar**.
+
+   O relatório do projeto é exibido. Os caminhos de etapas associados a cada projeto são exibidos na última coluna do relatório.
+1. Clique no nome de um caminho de etapas na última coluna do relatório.
+
+   Os detalhes do caminho de etapas são exibidos. Detalhes sobre cada marco também são exibidos.
+
+   ![Detalhes do caminho de etapas do relatório de projeto](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. (Opcional) Clique em **Voltar** para voltar ao relatório do projeto.
+
+
+
