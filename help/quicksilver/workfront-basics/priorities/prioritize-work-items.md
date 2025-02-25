@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # Priorizar itens de trabalho importantes
 
 Você pode usar a coluna Meu foco para priorizar seu trabalho. A coluna Meu foco é um valor pessoal e não afeta a prioridade definida na tarefa ou no problema.
+
+Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ver os itens de trabalho atribuídos à sua equipe.
 
 ## Priorize seu trabalho com a coluna Meu foco
 

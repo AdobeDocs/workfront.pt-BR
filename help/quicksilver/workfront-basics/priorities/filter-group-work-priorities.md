@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '642'
 ht-degree: 4%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 4%
 # Filtre e agrupe seu trabalho com Prioridades
 
 Você pode usar filtros para encontrar o trabalho que está procurando e, em seguida, aplicar um agrupamento para mantê-lo organizado.
+
+Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ver os itens de trabalho atribuídos à sua equipe na lista de trabalho Prioridades.
 
 ## Requisitos de acesso
 
@@ -129,7 +131,7 @@ Você pode filtrar tarefas e problemas atribuídos a você.
 
 ## Filtre seu trabalho com filtros inteligentes
 
-Use a linguagem natural para filtrar rapidamente o trabalho. Sua instância do Workfront deve estar em um novo plano do Workfront e habilitada na Experiência unificada do Adobe. Para obter mais informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Use a linguagem natural para filtrar rapidamente o trabalho. Sua instância do Workfront deve estar em um novo plano do Workfront e habilitada na Adobe Unified Experience. Para obter mais informações, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-priorities}}
 

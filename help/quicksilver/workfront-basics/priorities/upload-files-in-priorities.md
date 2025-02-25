@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Fazer upload de arquivos em Prioridades
 
 Você pode fazer upload de arquivos da lista de trabalho Prioridades ou de itens de trabalho individuais. Os arquivos carregados de Prioridades são exibidos na guia Documentos do item de trabalho.
+
+Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ver os itens de trabalho atribuídos à sua equipe.
 
 ## Requisitos de acesso
 
@@ -57,7 +59,7 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 1. (Opcional) Selecione uma pasta.
 1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou
-Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor de Document Cloud.
+Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
    ![](assets/add-files.png)
 1. (Opcional) Adicione um comentário.
 1. (Opcional) Adicione mais arquivos.
@@ -78,7 +80,7 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
 1. (Opcional) Selecione uma pasta.
 1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou
-Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor de Document Cloud.
+Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
    ![](assets/add-files.png)
 1. (Opcional) Adicione um comentário.
 1. (Opcional) Adicione mais arquivos.
