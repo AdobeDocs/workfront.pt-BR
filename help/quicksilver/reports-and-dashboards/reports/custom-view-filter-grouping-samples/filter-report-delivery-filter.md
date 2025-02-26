@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: exibir relatórios agendados para entrega"
+title: 'Filtro: exibir relatórios agendados para entrega'
 description: Este filtro de relatório exibe todos os relatórios agendados para serem entregues automaticamente no Adobe Workfront. É melhor usado com a exibição padrão.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -65,8 +65,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Para aplicar esse filtro:
 
 1. Ir para uma lista de relatórios.
+
 1. No menu suspenso **Filtro**, selecione **Novo Filtro**.
 
 1. Clique em **Alternar para Modo de Texto**.
-1. Na área **Definir Regras de Filtro para seu Relatório**, copie e cole o seguinte código: `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+
+1. Na área **Definir regras de filtro para seu Relatório**, copie e cole o seguinte código:
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
 1. Clique em **Salvar filtro**.

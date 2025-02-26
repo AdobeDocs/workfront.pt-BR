@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: elimine itens em uma lista comparando dois campos"
+title: 'Filtro: elimine itens em uma lista comparando dois campos'
 description: É possível filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir somente tarefas em que a Data de Término Efetivo da tarefa seja maior que a Data de Término Planejada.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: 4532e08bddf993426e9d4eed6f7f8bd638663188
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -74,6 +74,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **Modo de texto**.
 1. Na área exibida, adicione o seguinte código:
 
-   `actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt`
+   ```
+   actualCompletionDate=FIELD:plannedCompletionDate
+   actualCompletionDate_Mod=gt
+   ```
 
 1. Clique em **Aplicar** > **Salvar como novo**.

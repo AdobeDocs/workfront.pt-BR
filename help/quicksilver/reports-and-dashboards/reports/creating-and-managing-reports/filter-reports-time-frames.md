@@ -6,9 +6,9 @@ description: Você pode filtrar um relatório pelo intervalo de tempo de uma dat
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 5%
 
 ---
@@ -129,11 +129,11 @@ Para obter mais informações sobre como criar relatórios, consulte [Criar um r
 
 ## Modificadores de intervalo de tempo incorporados {#built-in-time-frame-modifiers}
 
-O Adobe Workfront tem modificadores de intervalo de tempo incorporados que podem ser usados sem definir uma data específica. 
+O Adobe Workfront tem modificadores de intervalo de tempo incorporados que podem ser usados sem definir uma data específica.
 
-Esses modificadores estão disponíveis para qualquer campo de data em um filtro ou um prompt em qualquer relatório. 
+Esses modificadores estão disponíveis para qualquer campo de data em um filtro ou um prompt em qualquer relatório.
 
-Para obter mais informações sobre como filtrar um relatório por um período associado a uma data, consulte  [Filtrar um relatório pelo período de uma data](#filter-a-report-by-the-time-frame-of-a-date).
+Para obter mais informações sobre como filtrar um relatório por um período associado a uma data, consulte a seção [Filtrar um relatório por período](#filter-a-report-by-the-time-frame-of-a-date).
 
 Por exemplo, se você estiver criando um relatório de horas e quiser exibir as horas informadas em um intervalo de tempo específico, poderá escolher entre as seguintes opções de filtro de intervalo de tempo interno:
 
@@ -170,7 +170,7 @@ Por exemplo, se você estiver criando um relatório de horas e quiser exibir as 
    <td>Exibe horas em que a Data de Entrada é uma data no mês anterior ao mês atual</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Esta Quinzena</td> 
+   <td role="rowheader">Este trimestre</td> 
    <td> <p>Exibe horas em que a Data de Entrada é uma data no trimestre atual, onde os trimestres são definidos como:</p> 
     <ul> 
      <li>Primeiro trimestre: 1 de janeiro a 30 de março</li> 
@@ -180,11 +180,11 @@ Por exemplo, se você estiver criando um relatório de horas e quiser exibir as 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Próxima Quinzena</td> 
+   <td role="rowheader">Próximo trimestre</td> 
    <td>Exibe horas em que a Data de Entrada é uma data no trimestre seguinte ao trimestre atual, em que os trimestres estão definidos acima.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Última Quinzena</td> 
+   <td role="rowheader">Último trimestre</td> 
    <td> <p>Exibe horas em que a Data de Entrada é uma data no trimestre anterior ao trimestre atual, em que os trimestres estão definidos acima.</p> <p>Observação: se o administrador do Workfront tiver ativado e definido trimestres personalizados para seu sistema, os filtros integrados para trimestres serão substituídos pelas informações de trimestre personalizadas. Para obter mais informações sobre como habilitar trimestres personalizados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados para projetos</a>.</p> </td> 
   </tr> 
   <tr> 

@@ -6,9 +6,9 @@ description: Instruções básicas para usar Painéis do Canvas, incluindo como 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Os Painéis do Canvas permitem visualizar facilmente os dados do Adobe Workfront
 
 ## Pré-requisitos
 
-* Você deve ter uma licença de Plano (licenças atuais) ou uma licença Standard (novas licenças) para criar um Painel de controle do Canvas.\
-  Para obter informações sobre tipos de licenças da Workfront, consulte [Visão geral das licenças](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para licenças atuais e [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para novas licenças.
+* Sua organização deve fazer parte da versão beta fechada dos Painéis do Canvas. Para obter informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-* O administrador do Workfront deve fornecer acesso a Editar painéis no seu Nível de acesso para criar ou editar um Painel da tela.\
-  Para obter informações sobre como conceder acesso de Edição aos painéis, consulte [Conceder acesso a relatórios, painéis e calendários](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* Você deve ter uma licença de Plano (licenças atuais) ou uma licença Standard (novas licenças) para criar um Painel de controle do Canvas. Para obter informações sobre os tipos de licença da Workfront, consulte [Visão geral das licenças](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) ou [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+* O administrador do Workfront deve fornecer acesso de Edição aos painéis no Nível de acesso para criar ou editar um Painel da tela. Para obter informações sobre como conceder acesso a Editar, consulte [Conceder acesso a relatórios, painéis e calendários](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Navegar até um painel da tela de desenho
 

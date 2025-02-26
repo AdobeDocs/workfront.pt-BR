@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualização: ocultar o conteúdo de uma coluna"
+title: 'Exibição: Ocultar o Conteúdo de uma Coluna'
 description: Talvez você queira ocultar as informações na coluna de uma exibição. Você pode fazer isso modificando o modo de texto da coluna.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Talvez você queira ocultar as informações na coluna de uma exibição. Você 
 >* Você pode usar colunas ocultas para classificar por um determinado objeto que não deseja exibir na visualização.\
 >  Por exemplo, você pode classificar por Número da Tarefa em uma exibição de tarefa e ocultar as informações de Número da Tarefa da exibição. Nesse caso, o objeto referenciado na coluna ajuda a classificar a view, mas as informações desse objeto não são exibidas na view.
 >* Quando você oculta uma coluna, observe que as informações na coluna estão ocultas, mas a coluna ainda existe na exibição.
->
 
 ## Requisitos de acesso
 
@@ -43,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo:<ul><li>Colaborador para modificar uma visualização</li><li>Padrão para modificar um relatório</li></ul></p><p>Ou</p>Atual:<ul><li>Solicitação para modificar uma exibição</li><li>Planejar a modificação de um relatório</li></ul></p> </td> 
+   <td> <p>Novo:<ul><li>Colaborador para modificar uma visualização</li><li>Padrão para modificar um relatório</li></ul></p><p>Atual:<ul><li>Solicitação para modificar uma exibição</li><li>Planejar a modificação de um relatório</li></ul></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -67,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique em **Adicionar coluna** e comece a digitar &quot;Número da tarefa&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-o quando ele for exibido na lista.
 
-1. Clique em **Alternar para Modo de Texto** e depois em **Editar Texto**.
+1. Clique em **Alternar para Modo de Texto** e em **Editar Modo de Texto**.
 1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
@@ -85,7 +84,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    As alterações importantes nesse código que tornam a coluna oculta são:
 
    * `displayname=`: Esta linha deve estar em branco.
-   * `valuefield=`: Isto foi substituído por `value`, e deve estar em branco.
+   * `valuefield=`: Esta linha deve ser substituída por `value=`, que deve estar em branco.
    * `width=`: Dependendo do campo, deve ter um valor de **0** ou **1**.
 
 1. Clique em **Concluído** e depois em **Salvar exibição**.

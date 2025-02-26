@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1007'
 ht-degree: 2%
 
 ---
@@ -104,8 +104,8 @@ Você pode compartilhar um projeto das seguintes maneiras:
 
 ## Limitações para diferentes tipos de licença
 
-* Os usuários com uma licença de Trabalhador não têm permissões para gerenciar projetos. Para funcionários, a maior permissão de compartilhamento é o Contribute.
-* Os usuários com uma Solicitação de licença podem visualizar informações do projeto, mas têm acesso limitado ao projeto.
+* Os usuários com uma licença Light e inferior (ou licença de Trabalho e inferior para o modelo de licença antigo) não têm permissões para gerenciar projetos. Para esses usuários, a maior permissão de compartilhamento é o Contribute.
+* Os usuários com uma licença de Colaborador (ou uma licença de Solicitação para o modelo de licença antigo) podem exibir informações do projeto, mas têm acesso limitado ao projeto.
 * Uma exceção à alteração do status de um projeto ocorre quando um usuário com permissões de Exibição ou Contribute também é incluído em um processo de aprovação. Eles podem aprovar o projeto, o que altera o status do projeto, mas o status é o status predefinido para aprovação ou rejeição.
 * Para poder copiar um projeto, um usuário também deve ter acesso para criar projetos em seu Nível de acesso.
 
@@ -151,199 +151,199 @@ A tabela a seguir lista as permissões que os usuários podem conceder ao compar
  <tbody> 
   <tr> 
    <td> <p>Adicionar formulário personalizado</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Atualizar campos personalizados</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Adicionar Um Processo De Aprovação</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aprovar um projeto</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aprovar horas</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓ </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Criar Um Projeto</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Adicionar documento(s)</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Adicionar problema(s)</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Adicionar tarefa(s)</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Copiar Projeto</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Excluir Projeto</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modificar Datas Planejadas</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Compartilhar projeto</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Compartilhe com todo o sistema</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Exibir Projeto</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Atualizações/comentários</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Alterar status</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Registre as horas</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Editar Atribuições</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gerenciar Linha de Base</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gerenciar riscos*</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gerenciar finanças*</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Adicionar/ Editar Despesas*</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Exibir finanças*</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Vincular Modelo</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Salvar como modelo</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Adicionar/Editar Business Case</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Editar detalhes do projeto</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Editar Equipe</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Exportar para o MS Project</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Recalcular Finanças/Linha de Tempo*</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Definir Propriedades da Fila</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Editar projeto em massa em uma lista</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
