@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1538'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,49 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
+## Limitações de exibição de campo e valor em formulários de solicitação
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* Não é possível adicionar campos dos seguintes tipos a um formulário de solicitação:
+
+   * Criado por e Modificado pela última vez por
+   * Data de criação e data da última modificação
+   * Fórmula. Os campos de fórmula são permitidos no ambiente de Pré-visualização.
+   * Campos de pesquisa de objetos do Workfront
+   * Campos de pesquisa de registros conectados do Workfront Planning
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* Diferença entre como os formatos de campo são exibidos no construtor de formulários de solicitação e como os valores são formatados no registro ou na página de detalhes da solicitação:
+
+   * Os campos Moeda, Número e Porcentagem são exibidos como um tipo de campo de texto de linha única no construtor de formulários.
+
+     No entanto, o formato do campo é preservado e os valores dos números nesses campos serão exibidos como Moeda, Número e Valores percentuais no tipo de registro e na página de detalhes da solicitação.
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## Criar um formulário de solicitação para um tipo de registro
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    O formulário de solicitação contém as seguintes informações, por padrão:
 
    * Campos de registro disponíveis na exibição de tabela do tipo de registro selecionado. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >Os campos dos seguintes tipos não são exibidos no formulário de solicitação:
-   >
-   >* Criado por e Modificado pela última vez por
-   >* Data de criação e data da última modificação
-   >* Fórmula
-   >* Campos de pesquisa de objetos do Workfront
-   >* Campos de pesquisa de registros conectados do Workfront Planning
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. Todos os campos de registro são exibidos na área **Seção padrão**.
    * Campo **Assunto**: o campo que identificará a solicitação no Workfront. A configuração e o valor do campo Subject não são editáveis.
@@ -196,12 +211,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * **Criar um campo obrigatório**: quando selecionado, o campo deve ter um valor. Caso contrário, o formulário não poderá ser enviado.
    * **Adicionar lógica**: defina quais condições devem ser atendidas para que o campo seja exibido ou fique oculto.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   O tipo de campo de cada campo é exibido na parte superior do painel direito, depois que você seleciona o campo no formulário.
-   >   
-   >
-   >   Os campos Moeda, Número e Porcentagem são exibidos como um tipo de campo de texto de linha única. No entanto, o formato do campo é preservado e os valores dentro desses campos serão exibidos como valores de Moeda, Número e Porcentagem.
+   >     
 
 1. (Opcional) Clique na guia **Elementos de conteúdo** no lado esquerdo do formulário e adicione qualquer um dos seguintes elementos:
 

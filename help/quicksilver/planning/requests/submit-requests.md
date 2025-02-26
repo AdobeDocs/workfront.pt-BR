@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -125,10 +125,11 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 ## Considerações sobre o envio de solicitações ao Workfront Planning
 
 * É possível acessar um formulário de solicitação para solicitações do Workfront Planning somente a partir de um link específico para o formulário.
-* Não é possível editar uma solicitação depois de enviá-la para o Workfront Planning.
-* Cada solicitação submetida cria um registro para o tipo de registro associado ao form usado se o form não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.
+* Não é possível editar uma solicitação no Workfront depois de enviá-la para o Workfront Planning.
+* Cada solicitação enviada cria um registro para o tipo de registro associado ao formulário usado, se o formulário não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.
 * Os registros criados enviando formulários de solicitação não podem ser diferenciados dos registros adicionados por qualquer outro método. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 * As solicitações enviadas são exibidas na guia Planejamento da seção Enviado na área Solicitações do Workfront.
+* Há limitações na forma como determinados tipos de campo são exibidos em um formulário de solicitação ou na página de detalhes da solicitação após o envio de um formulário. Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -153,9 +154,14 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
    >[!TIP]
    >
-   >   This setting is available only when your company has purchased a Workfront Planning package. 
+   >This setting is available only when the following are in place:
+   >
+   >* Your company has purchased a Workfront Planning package. 
+   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
+   >* You have access to view at least one workspace. 
+   >
 
-1. Click **New request**. (********* update scree shot at release ********)
+1. Click **New request**. (********* update screen shot at release ********)
 
    ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
@@ -197,16 +203,25 @@ Submitting requests to Workfront Planning differs depending on what environment 
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request. 
+1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+
+   The request details page opens. 
+
+   ![Request details page](assets/request-details-page.png)
+
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
-   The record's page opens. 
+   The record's page opens in Workfront Planning. 
 
    >[!TIP]
    >
    >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+
+1. (Optional) Click the name of the **Record type**. 
+
+   The record type page opens in Workfront Planning. 
 
 </div>
 
@@ -247,16 +262,25 @@ Submitting requests to Workfront Planning differs depending on what environment 
      >
      >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Adobe Unified Experience.
 
-1. (Opcional) Clique na guia **Planning** na área Solicitações para exibir sua solicitação.
+1. (Opcional) Clique na guia **Planning** na área Solicitações para exibir sua solicitação e, em seguida, clique no nome da solicitação.
+
+   A página de detalhes da solicitação é aberta.
+
+   ![Solicitar página de detalhes](assets/request-details-page.png)
+
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e depois clique no nome do registro no campo **Registro**.
 
-   A página do registro é aberta.
+   A página do registro é aberta no Workfront Planning.
 
    >[!TIP]
    >
    >* Se o nome do registro não foi adicionado ao formulário de solicitação, o nome do registro no campo Registro da solicitação será exibido como **Sem título**.
    >
    >* Se o formulário de solicitação estiver associado a uma aprovação, a aprovação deverá ser concedida antes que você possa acessar o registro da página de solicitação.
+
+1. (Opcional) Clique no nome do **Tipo de registro**.
+
+   A página de tipo de registro é aberta no Workfront Planning.
 
 
 
