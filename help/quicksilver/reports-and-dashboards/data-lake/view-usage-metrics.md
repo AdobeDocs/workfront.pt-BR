@@ -6,10 +6,11 @@ title: Exibir métricas de uso do Workfront Data Connect
 description: Usando a guia Métricas da Workfront Data Connect, você pode visualizar as métricas de uso de sua organização de acordo com as horas de computação mensais usadas e o número de consultas executadas.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 0%
 
 ---
 
@@ -33,17 +34,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>Pode ser adquirido como um complemento para os seguintes planos:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Selecionar</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>O Workfront Data Connect não está disponível para planos Workfront herdados.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 

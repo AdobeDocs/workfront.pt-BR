@@ -7,9 +7,9 @@ description: O Workfront Data Connect permite usar os dados do Workfront de sua 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 O Workfront Data Connect permite usar os dados do Workfront de sua organização com ferramentas de business intelligence ou armazená-los em um data warehouse externo.
 
-Para conectar seu data lake do Data Connect a um produto externo, primeiro você deve criar uma conexão conforme descrito em [Criar uma conta de leitor ou conexão para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Em seguida, você deve adicionar os IPs necessários ao incluo na lista de permissões, conforme descrito em [Adicionar IPs ao incluo na lista de permissões](#add-ips-to-the-allowlist) abaixo.
+Para conectar seu data lake do Data Connect a um produto externo, primeiro você deve criar uma conexão conforme descrito em [Criar uma conta ou conexão de leitor para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Em seguida, você deve adicionar os IPs necessários ao incluo na lista de permissões, conforme descrito em [Adicionar IPs ao incluo na lista de permissões](#add-ips-to-the-allowlist) abaixo.
 
 A maioria dos produtos exigirá as seguintes informações sobre seu data lake para estabelecer uma conexão:
 
@@ -31,7 +31,7 @@ A maioria dos produtos exigirá as seguintes informações sobre seu data lake p
 | Esquema | `WF` |
 | Função | `READER_ROLE` |
 | Nome de usuário | O nome de usuário escolhido ao criar a conexão (encontrado na página **Conexão de dados** no Workfront*) |
-| Senha | A senha escolhida no primeiro logon de Snowflake* |
+| Senha | A senha escolhida no primeiro logon do Snowflake* |
 
 *Para obter informações sobre onde encontrar a página **Conexão de Dados** contendo suas conexões, consulte [Criar uma conta de leitor ou conexão para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
@@ -55,19 +55,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader">plano do Adobe Workfront</td> 
    <td><p>Incluído nos seguintes planos:</p>
     <ul>
-        <li>Ultimate</li> 
+        <li><p>Ultimate</p></li> 
     </ul>    
-   <p>Pode ser adquirido como um complemento para os seguintes planos:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Selecionar</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>O Workfront Data Connect não está disponível para planos Workfront herdados.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
