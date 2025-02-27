@@ -5,9 +5,9 @@ description: Visão geral do Assistente de IA
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---
@@ -139,3 +139,30 @@ Para solicitar o contrato da Adobe Gen AI:
 1. Insira o nome e o endereço de email da pessoa da sua organização que assinará o contrato de IA de geração da Adobe.
 
    O contrato será enviado a este indivíduo para assinatura. Depois de assinado e retornado, o Assistente de IA é ativado para a sua organização.
+
+## Dicas para criar prompts no Assistente de IA
+
+Use as seguintes palavras-chave em seus prompts para fornecer contexto e ajudar a localizar as informações corretas. As palavras-chave não diferenciam maiúsculas de minúsculas.
+
+Ao inserir seu prompt, inclua a frase `using (keyword)`.
+
+| Palavra-chave | Efeito |
+|---|---|
+| `workfront` | Interage com o Workfront. |
+| `planning ` | Interage com o Workfront Planning. |
+| `help` | Retorna informações da documentação do Experience League. |
+| `formula` | Verifica e retorna fórmulas para uso em formulários do Planning, de Configuração ou personalizados. |
+| `health` | Verifica a integridade do projeto com o Supervisor de Integridade do Projeto. |
+| `summarize` | Resume itens, como ao carregar um arquivo ou resumir um projeto. |
+
+>[!NOTE]
+>
+> Nem todas as palavras-chave estão disponíveis em todas as áreas.
+>
+>* A palavra-chave `formula` está disponível apenas no Planning, na Instalação e no Construtor de formulários Personalizados.
+>* A palavra-chave `planning` está disponível somente no Workfront Planning.
+
+
+
+
+
