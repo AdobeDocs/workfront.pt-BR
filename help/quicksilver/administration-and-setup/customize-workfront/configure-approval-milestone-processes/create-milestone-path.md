@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '779'
 ht-degree: 3%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 3%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Como administrador do Adobe Workfront, você pode criar caminhos de etapas que podem ser aplicados a qualquer projeto no sistema. As alterações feitas nos caminhos de marcos nessa área afetam todo o sistema do Workfront.
 
@@ -145,11 +145,19 @@ Para obter informações sobre como associar caminhos de etapas a projetos, cons
    O relatório do projeto é exibido. Os caminhos de etapas associados a cada projeto são exibidos na última coluna do relatório.
 1. Clique no nome de um caminho de etapas na última coluna do relatório.
 
-   Os detalhes do caminho de etapas são exibidos. Detalhes sobre cada marco também são exibidos.
+   Os detalhes do caminho de etapas são exibidos.
+
+   <div class="preview">
 
    ![Detalhes do caminho de etapas do relatório de projeto](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   A página de detalhes do caminho de etapas exibe as seguintes informações:
+
+   * Nome, ID e Descrição do caminho de etapas
+   * Grupos de caminhos de etapas
+   * Nomes de etapas, descrições, cores e ícones de cores
+
+   </div>
 
 1. (Opcional) Clique em **Voltar** para voltar ao relatório do projeto.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Gerenciar o layout da página de registros
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
    A visualização do registro é aberta na exibição.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![Caixa Detalhes](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
@@ -244,23 +244,29 @@ As seguintes situações ocorrem:
 
    A visualização do registro é aberta na exibição.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![Caixa Detalhes](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir caixa de detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A guia **Detalhes** do registro é aberta por padrão.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![Página de detalhes](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. Na guia **Detalhes** do registro, clique no ícone **Capturar** ![Ícone Capturar](assets/grab-icon.png) à esquerda de um nome de campo e arraste-o e solte-o no local desejado. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Na guia **Detalhes** do registro, clique no ícone **Capturar** ![Ícone Capturar](assets/grab-icon.png) à esquerda de um nome de campo e arraste-o e solte-o no local desejado.
+
+   >[!TIP]
+   >
+   >Você pode arrastar e soltar campos em outra seção.
+   >Você deve ter pelo menos um campo em uma seção.
+   >
 
    A nova posição do campo é atualizada na pré-visualização e na página de todos os registros do mesmo tipo para todos os usuários que visualizam os registros.
 
@@ -295,23 +301,29 @@ Para adicionar uma página de exibição de conexão:
 A exibição de tabela do tipo de registro selecionado é exibida e os registros conectados são exibidos na exibição de tabela.
 Todos os campos do registro conectado são exibidos na exibição de tabela da guia do registro conectado.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview">Ao acessar o Workfront Planning no ambiente de Visualização, os primeiros cinco campos da tabela de registro conectada são exibidos por padrão. Nenhum campo de pesquisa é exibido por padrão.</span>
 
    A exibição de tabela é somente leitura.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![Exibição da tabela conectada ao público-alvo nos detalhes da campanha](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. (Opcional) Clique duas vezes no nome da guia
 
    Ou
 
    Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![Mais menu](assets/more-menu.png) e em **Renomear** para renomear para a nova guia Modo de Exibição Conectado.
-1. (Opcional) Use qualquer um dos seguintes elementos de exibição na barra de ferramentas para gerenciar a exibição de tabela
+1. (Opcional) Use qualquer um dos seguintes elementos de exibição na barra de ferramentas para gerenciar a exibição de tabela:
 
    * Filtros
    * Ordenar
    * Agrupamento
+   * <span class="preview">Campos, para exibir, ocultar ou reorganizar campos</span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ Todos os campos do registro conectado são exibidos na exibição de tabela da g
    >
    >   Não é possível executar nenhuma das ações a seguir na exibição de tabela da guia de um registro conectado:
    >
-   >   * Ocultar campos
+   >   * Ocultar ou reorganizar campos. <span class="preview">Você pode ocultar e reorganizar campos no ambiente de Visualização.</span>
    >   * Criar, editar ou excluir campos
-   >   * Reorganizar campos
    >
-1. (Opcional) Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![Mais menu](assets/more-menu.png) e clique em **Excluir** para remover para a nova guia de modo de exibição Conectado.
+
+1. <span class="preview">Clique em **Conectar** para adicionar ou remover registros. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)</span>
+1. (Opcional) Passe o mouse sobre o nome da guia Exibição de conexão, clique em **Mais** ![Mais menu](assets/more-menu.png) e em **Excluir** para remover para a nova guia Exibição conectada.
+
+
 
 
 <!--

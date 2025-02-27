@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 2%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Limitações de exibição de campo e valor em formulários de solicitação
 
-<!--
+Há limitações na forma como determinados campos são exibidos no formulário de solicitação e em como seus valores serão exibidos posteriormente nos registros ou na página de detalhes da solicitação, após o envio de uma solicitação.
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+Para obter informações sobre como enviar solicitações do Workfront Planning, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* Veja a seguir as limitações de como determinados campos são exibidos em formulários de solicitação, registros criados por um formulário de solicitação ou na página de detalhes da solicitação:
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * Não é possível adicionar campos dos seguintes tipos a um formulário de solicitação:
 
-* Não é possível adicionar campos dos seguintes tipos a um formulário de solicitação:
+      * Criado por e Modificado pela última vez por
+      * Data de criação e data da última modificação
+      * Fórmula. <span class="preview">Campos de fórmula com suporte no ambiente de Visualização.</span>
+      * Campos de pesquisa de objetos do Workfront
+      * Campos de pesquisa de registros conectados do Workfront Planning
 
-   * Criado por e Modificado pela última vez por
-   * Data de criação e data da última modificação
-   * Fórmula. Os campos de fórmula são permitidos no ambiente de Pré-visualização.
-   * Campos de pesquisa de objetos do Workfront
-   * Campos de pesquisa de registros conectados do Workfront Planning
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* Diferença entre como os formatos de campo são exibidos no construtor de formulários de solicitação e como os valores são formatados no registro ou na página de detalhes da solicitação:
+* Veja a seguir as diferenças entre como os formatos de campo são exibidos no construtor de formulários de solicitação e como os valores dos campos são formatados no registro ou na página de detalhes da solicitação:
 
    * Os campos Moeda, Número e Porcentagem são exibidos como um tipo de campo de texto de linha única no construtor de formulários.
 
      No entanto, o formato do campo é preservado e os valores dos números nesses campos serão exibidos como Moeda, Número e Valores percentuais no tipo de registro e na página de detalhes da solicitação.
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* A seguir, descrevemos como alguns valores de campo são exibidos nos formulários de solicitação e nas páginas de detalhes da solicitação:
+
+   * A formatação especial dos campos Moeda, Número e Porcentagem não é preservada. Por exemplo, a precisão decimal não é preservada para os valores desses campos nessas áreas.
+   * Os valores do campo Pessoas são exibidos como IDs.
+   * Os campos de fórmula que não se referem a outros campos ou cálculos não exibem valores. Por exemplo, um campo com uma fórmula `STRING` exibe um valor &quot;N/A&quot;.
+   * Os campos de fórmula que se referem aos campos Moeda exibem os valores sem contabilizar taxas de câmbio.
+   * Os valores dos campos de parágrafo que contêm formatação especial exibem um valor &quot;N/A&quot; no formulário de solicitação e exibem tags html em vez do texto formatado na página de detalhes da solicitação.
+
+</div>
 
 ## Criar um formulário de solicitação para um tipo de registro
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
-1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação**.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação**.
 1. Atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Clique em **Criar**. O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![Modo de edição do formulário de solicitação de campanhas](assets/campaigns-request-form-edit-mode.png)
 
    O formulário de solicitação contém as seguintes informações, por padrão:
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Opcional) Passe o mouse sobre qualquer campo no formulário que deseja remover, em seguida, clique no ícone **x** para removê-los. Eles são adicionados à guia **Campos** à esquerda do formulário.
 
-   Por exemplo, remova o campo **Assunto**, pois ele não está visível no Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+   Por exemplo, remova o campo **Assunto**, pois ele não está visível no Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
+
 1. (Opcional) Para remover a **Seção padrão** do formulário, faça o seguinte:
 
    1. Remova todos os campos da Seção padrão.
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Opcional) Clique na guia **Configuração** e adicione pelo menos um usuário ao campo **Aprovadores** para aprovar novas solicitações para este formulário de registro.
 
-   ![](assets/configuration-tab.png)
+   ![Guia Configuração](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Opcional) Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do formulário no cabeçalho e clique em **Editar** para atualizar o nome do formulário.
+1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário no cabeçalho e clique em **Editar** para atualizar o nome do formulário.
 1. Clique em **Publicar** para publicar o formulário e obter um link exclusivo para ele.
 
    As seguintes situações ocorrem:
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Clique em **Compartilhar** para compartilhar o formulário com outras pessoas.
 
-   ![](assets/share-box-for-request-form.png)
+   ![Compartilhar caixa para o formulário de solicitação](assets/share-box-for-request-form.png)
 
 1. Selecione entre as seguintes opções para indicar quais tipos de usuários podem acessar este formulário:
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* Quando você seleciona **Qualquer pessoa com o link**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas fora da sua organização que não tenham uma conta do Workfront.
    >
-   > * Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:
+   >* Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:
    >
    >     * Conexões do Workfront ou AEM Assets
    >     * Pessoas
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    Você pode selecionar datas futuras dentro de 180 dias a partir da data atual.
 
-1. Clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
+   >[!TIP]
+   >
+   ><span class="preview">Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront.</span>
+
+
+1. <span class="preview">(Opcional)</span> Clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
 
    As opções de compartilhamento de formulário são salvas e o link é copiado para a área de transferência. Agora você pode compartilhá-lo com outras pessoas.
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. Clique na seta à esquerda do nome do formulário no cabeçalho para fechar o formulário.
 
    A página de tipo de registro é aberta.
-1. (Opcional) Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e siga um destes procedimentos:
+1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e siga um destes procedimentos:
    * Clique em **Atualizar formulário de solicitação** para fazer alterações no formulário de solicitação.
    * Clique em **Copiar link para solicitar o formulário** para compartilhar o link para o formulário com outras pessoas.
+   * <span class= "preview"> Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).</span>
 
    >[!TIP]
    >
    >Há uma indicação de que o link é compartilhado publicamente quando isso ocorre.
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![Link compartilhado publicamente para formulário no menu de tipo de registro](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

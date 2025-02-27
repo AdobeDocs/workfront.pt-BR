@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3249'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Você pode conectar registros do Workfront Planning nas seguintes áreas de um registro do Planning:
 
 * Os campos de registro conectados na exibição de tabela.
-* A visualização ou página do registro nos campos de registro conectados na guia Detalhes.
-* A visualização ou página do registro na guia Conexões.
+* A caixa ou página de visualização do registro nos campos de registro conectados na guia Detalhes.
+* A caixa de visualização do registro ou a página na guia Conexões.
+* <span class="preview">A página do registro na guia Exibição de conexão.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Conectar registros do Workfront Planning a partir da exibição de tabela ou da área Detalhes de um registro
 
@@ -462,3 +463,25 @@ Você deve ter as seguintes opções para conectar os registros do Workfront Pla
 * O administrador do Workfront ou do grupo deve adicionar a seção Planejamento aos projetos, portfólios e programas do Workfront no Modelo de layout.
 
 Para obter mais informações, consulte [Gerenciar registros na seção Planning de objetos do Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+<div class="preview">
+
+## Conectar registros da guia Exibição de conexão na página de detalhes de um registro
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. Ir para qualquer exibição de um tipo de registro que tenha sido conectado a outros tipos de registro ou tipos de objeto do Planning de outros aplicativos.
+1. Siga as etapas descritas nas subseções anteriores para localizar um registro na exibição que você deseja conectar a outros registros ou objetos.
+1. Clique no nome de um registro.
+
+   A página de visualização é aberta.
+1. Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) para abrir a página do registro.
+1. Clique em uma guia Exibição de conexão existente na visualização ou página do registro. Primeiro, você deve criar uma página de exibição de conexão. Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   Uma página conectada do tipo de registro é exibida na exibição de tabela.
+1. Clique em **Conectar** para adicionar ou remover registros.
+
+   ![Botão Conectar realçado na guia de detalhes do registro conectado](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (Opcional) Se não conseguir encontrar um registro conectado, clique em **+ Adicionar** para criá-lo e conectá-lo.
+
+</div>

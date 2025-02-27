@@ -6,20 +6,20 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1465'
 ht-degree: 1%
 
 ---
 
 # Copiar e enviar solicitações
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
-
 Ao submeter solicitações semelhantes com frequência, você pode copiar uma solicitação submetida existente. Nesse caso, você pode copiar uma solicitação existente, fazer alterações mínimas nela e reenviá-la como uma nova solicitação.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -48,7 +48,9 @@ Se você não tiver acesso, pergunte ao administrador do Workfront se ele defini
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos de acesso
 
