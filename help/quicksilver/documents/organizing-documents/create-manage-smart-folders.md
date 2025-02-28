@@ -6,9 +6,9 @@ description: As pastas inteligentes são usadas para gerenciar documentos fora d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Você pode exibir pastas em miniatura, padrão ou na exibição de lista. Para alterar a exibição, use as opções de exibição no canto superior direito.
 
-![](assets/screenshot-2016-07-07-12.46.54.png)
+![Editar pasta inteligente](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Criar uma pasta inteligente 
 
@@ -68,11 +68,11 @@ Você pode exibir pastas em miniatura, padrão ou na exibição de lista. Para a
 ## Editar uma pasta inteligente 
 
 1. Vá para a área **Documentos** que contém a pasta inteligente que você deseja editar.
-1. Na coluna **Pastas**, clique no ícone ![](assets/more-icon.png) de **Mais** ao lado da pasta inteligente que você deseja editar.
+1. Na coluna **Pastas**, clique no ícone **Mais** ![Mais menu](assets/more-icon.png) ao lado da pasta inteligente que você deseja editar.
 1. Clique em **Editar**.
 
    A caixa de diálogo **Editar Pasta Inteligente** é exibida.\
-   ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
+   ![Editar pasta inteligente](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. Faça as alterações e clique em **Salvar Pasta**.
 
