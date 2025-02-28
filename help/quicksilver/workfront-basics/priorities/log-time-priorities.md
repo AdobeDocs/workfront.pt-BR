@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -62,14 +62,14 @@ Você pode registrar o tempo diretamente na lista de trabalho:
 {{step1-to-priorities}}
 
 1. Passe o cursor do mouse sobre o nome e clique em **Registrar tempo**.
-   ![](assets/update-log-upload.png)
+   ![Atualizar, registrar horário e carregar](assets/update-log-upload.png)
 1. No menu suspenso **Tipo de Hora**, selecione o tipo de hora apropriado. Os tipos de horas estão disponíveis dependendo do que foi definido nos níveis de sistema, projeto e usuário, conforme descrito em Definir tipos de horas e disponibilidade.
 
 1. (Condicional) Se o administrador do Workfront ou do grupo tiver ativado a configuração Atribuir funções de trabalho a entradas de hora manualmente, selecione uma função de trabalho no menu suspenso. A função especificada quando você está atribuído ao item de trabalho é exibida por padrão. Se uma função não for atribuída a você no objeto, sua função principal será exibida como padrão. Se você não tiver uma Função primária atribuída, Nenhuma Função de trabalho será exibida.
 
 1. Insira a hora que deseja registrar e clique em **Registrar hora**.
 
-   ![](assets/log-time-dialog.png)
+   ![Registrar tempo](assets/log-time-dialog.png)
 
 ## Registrar horas em um item de trabalho
 
@@ -84,4 +84,4 @@ Você pode registrar horas em um item de trabalho individual:
 
 1. Insira a hora que deseja registrar e clique em **Registrar hora**.
 
-   ![](assets/log-time-dialog.png)
+   ![Registrar tempo](assets/log-time-dialog.png)
