@@ -7,9 +7,9 @@ description: Na área Documentos, é possível organizar, gerenciar e exibir met
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Na área Documentos, é possível organizar, gerenciar e exibir metadados de documentos carregados no Adobe Workfront. Você também pode ver a decisão da prova.
 
-![](assets/documents-area-v2-350x199.png)
+![Área de documentos](assets/documents-area-v2-350x199.png)
 
 Há dois tipos de áreas de Documentos. Os recursos e as funcionalidades são os mesmos para:
 
-* **Área de documentos em um programa, portfólio, projeto, tarefa ou problema:** Lista todos os documentos aos quais você tem acesso para um determinado projeto, tarefa ou problema. Para acessar esta área, clique em **Documentos** ![](assets/document-icon-12x14.png) no painel esquerdo ao exibir um projeto, tarefa ou problema.
+* **Área de documentos em um programa, portfólio, projeto, tarefa ou problema:** Lista todos os documentos aos quais você tem acesso para um determinado projeto, tarefa ou problema. Para acessar esta área, clique em **Documentos** ![Ícone de documentos](assets/document-icon-12x14.png) no painel esquerdo ao exibir um projeto, tarefa ou problema.
 
-* **Área de Documentos Globais:** Lista todos os documentos aos quais você tem acesso no Workfront. Para acessar esta área, clique em **Documentos** ![](assets/document-icon.png) no Menu Principal ![](assets/main-menu-icon.png).
+* **Área de Documentos Globais:** Lista todos os documentos aos quais você tem acesso no Workfront. Para acessar esta área, clique em **Documentos** ![Ícone Documentos](assets/document-icon.png) no ![Ícone Menu Principal](assets/main-menu-icon.png) do Menu Principal.
 
 Para obter informações sobre como carregar documentos para o Workfront, consulte [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -44,7 +44,7 @@ Se a prova estiver configurada para o documento, a seção Detalhes incluirá in
 
 Você pode clicar no cabeçalho Detalhes para ir para a área Detalhes do documento completa quando precisar de todas as informações sobre um documento.
 
-![](assets/documents-area-v2-350x199.png)
+![Área de documentos](assets/documents-area-v2-350x199.png)
 
 Para obter informações sobre o Resumo, consulte [Resumo de documentos](../../documents/managing-documents/summary-for-documents.md).
 
@@ -52,7 +52,7 @@ Para obter informações sobre o Resumo, consulte [Resumo de documentos](../../d
 
 Depois que uma decisão de prova é tomada, ela aparece na lista Documento.
 
-![](assets/proof-decision---doc-list-350x168.png)
+![Decisão de prova na lista de documentos](assets/proof-decision---doc-list-350x168.png)
 
 ## Pastas
 
