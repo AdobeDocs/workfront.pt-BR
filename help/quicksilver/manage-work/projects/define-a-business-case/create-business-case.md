@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Criar um Business Case para um projeto
-description: Você pode usar o Business Case para solicitar um projeto e definir a finalidade, o orçamento e o benefício potencial para o projeto. O gerente de Portfolio ou patrocinador do projeto usa as informações do Business Case para analisar e priorizar o projeto antes de aprová-lo.
+description: Você pode usar o Business Case para solicitar um projeto e definir a finalidade, o orçamento e o benefício potencial para o projeto. O gerente do Portfolio ou o patrocinador do projeto usa as informações do Business Case para analisar e priorizar o projeto antes de aprová-lo.
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
 # Criar um Business Case para um projeto
 
-Você pode usar o Business Case para solicitar um projeto e definir a finalidade, o orçamento e o benefício potencial para o projeto. O gerente de Portfolio ou patrocinador do projeto usa as informações do Business Case para analisar e priorizar o projeto antes de aprová-lo.
+Você pode usar o Business Case para solicitar um projeto e definir a finalidade, o orçamento e o benefício potencial para o projeto. O gerente do Portfolio ou o patrocinador do projeto usa as informações do Business Case para analisar e priorizar o projeto antes de aprová-lo.
 
 ## Requisitos de acesso
 
@@ -54,13 +54,13 @@ Considere o seguinte ao solicitar um projeto por meio de um Business Case:
 
   Para obter informações sobre as áreas do Business Case, consulte o artigo [Visão Geral das Áreas do Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-* Você deve preencher todas as áreas do Business Case, exceto a área Metas, se quiser que o projeto receba uma Pontuação no Otimizador de Portfolio. A conclusão da área Metas é opcional. O projeto recebe uma Pontuação no Otimizador de Portfolio, mesmo que essa área não esteja concluída.
+* Você deve preencher todas as áreas do Business Case, exceto a área Metas, se quiser que o projeto receba uma Pontuação no Portfolio Otimizer. A conclusão da área Metas é opcional. O projeto recebe uma Pontuação no Portfolio Otimizer, mesmo se essa área não estiver concluída.
 
-  Para obter informações sobre como trabalhar com Scorecards e com o Otimizador de Portfolio, consulte o artigo [Aplicar um scorecard a um projeto e gerar uma Pontuação de Alinhamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Para obter informações sobre como trabalhar com Scorecards e com o Portfolio Otimizer, consulte o artigo [Aplicar um scorecard a um projeto e gerar uma Pontuação de Alinhamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 ## Criar um Business Case
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** e em **Projetos**.
+1. Clique no ícone **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) e em **Projetos**.
 1. Clique em **Novo projeto** e selecione **Solicitar projeto**.\
    Por padrão, o projeto é colocado no status **Ideia**.
 
@@ -69,7 +69,7 @@ Considere o seguinte ao solicitar um projeto por meio de um Business Case:
    >Se o status Ideia tiver sido excluído na instância do Workfront, o projeto será colocado no status padrão para novos projetos, conforme definido na área Preferências do projeto. Para obter informações sobre como configurar preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. Especifique um nome para o projeto e pressione Enter.
-1. (Opcional) Clique no ícone **Mais** ![](assets/qs-more-icon-on-an-object.png), em seguida **Anexar modelo**, para criar a Estrutura de divisão de trabalho do seu projeto.
+1. (Opcional) Clique no ícone **Mais** ícone ![Mais](assets/qs-more-icon-on-an-object.png), em seguida **Anexar modelo**, para criar a Estrutura de Detalhamento de Trabalho do seu projeto.
 
    Ou
 
