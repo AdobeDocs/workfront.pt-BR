@@ -6,9 +6,9 @@ description: Ao criar um projeto no Adobe Workfront, você é automaticamente de
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Quando você adiciona um usuário como Proprietário de um projeto, o Workfront 
 
 1. Vá para o projeto que deseja atualizar.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no ícone **Editar** ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do Projeto e clique em **Visão Geral**.
+1. Clique no ícone **Editar** ![Ícone Editar](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do Projeto e clique em **Visão Geral**.
 
 1. Especifique o nome de um usuário para o campo **Proprietário do Projeto**.
 
@@ -121,7 +121,7 @@ Ao adicionar um usuário como Patrocinador do projeto, o Workfront automaticamen
 
 1. Vá para o Projeto que deseja atualizar.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no ícone **Editar** ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do Projeto e clique em **Visão Geral**.
+1. Clique no ícone **Editar** ![Ícone Editar](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do Projeto e clique em **Visão Geral**.
 
 1. Especifique o nome de um usuário para o campo **Patrocinador do Projeto**.
 
