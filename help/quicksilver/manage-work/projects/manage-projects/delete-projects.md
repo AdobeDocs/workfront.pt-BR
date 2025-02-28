@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 É possível excluir projetos de uma lista de projetos.
 
 1. Ir para uma lista de projetos ou um relatório de projeto.
-1. Selecione o(s) projeto(s) que deseja excluir e clique no ícone **Excluir** ![](assets/delete-icon.png) na parte superior da lista.
+1. Selecione o(s) projeto(s) que deseja excluir e clique no **ícone Excluir** ![ícone Excluir](assets/delete-icon.png) na parte superior da lista.
 
 1. Clique em **Sim, Excluir** para confirmar a exclusão.
 
@@ -144,9 +144,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Excluir um projeto no nível do projeto
 
 1. Vá para o projeto que deseja excluir.
-1. Clique no ícone **Mais** ![](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Excluir projeto**.
+1. Clique no ícone **Mais** ![Mais menu](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Excluir projeto**.
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![Mais menus expandidos](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. Clique em **Sim, exclua**.
 
