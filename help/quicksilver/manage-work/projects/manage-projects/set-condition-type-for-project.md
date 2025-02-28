@@ -6,9 +6,9 @@ description: Como um gerente de projeto, você pode determinar como a Condição
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader">Permissões de objeto</td> 
    <td> 
     <ul> 
-     <li> <p>Permissões do Contribute para um projeto para editar o Tipo de condição na área Detalhes do projeto </p> </li> 
+     <li> <p>Contribuir com permissões para um projeto para editar o Tipo de condição na área Detalhes do projeto </p> </li> 
      <li> <p>Gerenciar permissões para um projeto para editar o Tipo de condição na caixa Editar projeto</p> </li> 
     </ul> <p> Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Vá para o projeto para o qual deseja atualizar o Tipo de condição.
 1. Siga um destes procedimentos:
 
-   * Clique no menu **Mais** ![](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Editar**.
+   * Clique no menu **Mais** ![Mais menu](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Editar**.
    * Clique em **Detalhes do projeto** no painel esquerdo.
 
    ![](assets/update-condition-type-nwe-350x108.png)
