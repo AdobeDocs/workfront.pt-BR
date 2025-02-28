@@ -6,9 +6,9 @@ description: As finanças são calculadas em um projeto à medida que ocorrem al
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -149,15 +149,15 @@ Você pode recalcular as finanças dos projetos no Workfront a partir da página
 
 Você pode recalcular as finanças enquanto as edita em massa. Para obter informações, consulte a seção [Recalcular manualmente as finanças em massa](#manually-recalculate-finances-in-bulk) neste artigo.
 
-1. Vá para o projeto onde deseja recalcular as finanças e clique no ícone ![](assets/qs-more-icon-on-an-object.png) de **Mais** à direita do nome do projeto.
+1. Vá para o projeto onde deseja recalcular as finanças e clique no ícone **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Lista suspensa de mais níveis de projeto](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no ícone ![](assets/qs-more-icon-on-an-object.png) de **Mais** na parte superior da lista.
+   Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no ícone **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) na parte superior da lista.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular expressões](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ Você pode recalcular manualmente as finanças de vários projetos editando-os e
 Para recalcular manualmente as finanças de vários projetos:
 
 1. Ir para uma lista de projetos.
-1. Selecione vários projetos na lista e clique no ícone ![](assets/qs-more-icon-on-an-object.png) de **Mais** na parte superior da lista.
+1. Selecione vários projetos na lista e clique no ícone **Mais**, ![Mais menu](assets/qs-more-icon-on-an-object.png), na parte superior da lista.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular expressões](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ As seguintes ações acionam o recálculo financeiro de projetos no Workfront:
 >
 >Quando você altera o status do projeto, somente os valores planejados são recalculados.
 
-Você também pode recalcular as finanças manualmente no menu **Mais** no nível do projeto, clicando em **Recalcular as finanças**.![](assets/qs-more-menu.png)
+Você também pode recalcular as finanças manualmente no menu **Mais** ![Mais menu](assets/qs-more-menu.png) no nível do projeto, clicando em **Recalcular Finanças**.
