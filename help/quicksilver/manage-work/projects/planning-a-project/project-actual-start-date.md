@@ -7,9 +7,9 @@ description: Projetos, tarefas e problemas têm uma Data de início efetiva no A
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Você pode localizar a Data de Início Efetivo de um projeto nas seguintes área
 
 Para localizar a Data de Início Efetivo na seção Detalhes do projeto:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Workfront e em **Projetos**.
+1. Clique no ícone **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png), no canto superior direito do Workfront, e clique em **Projetos**.
 1. Clique no projeto para o qual você deseja exibir a Data de Início Efetivo.
 1. Clique em **Detalhes do projeto** no painel esquerdo e vá para a seção **Visão geral**.
 
