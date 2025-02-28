@@ -6,9 +6,9 @@ description: A ferramenta de revisão do Adobe Workfront é uma extensão de nav
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
+source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ A ferramenta de revisão do Adobe Workfront é uma extensão de navegador basead
 * Firefox
 * Chrome
 * Edge
+* Safari
 
 Recomendamos o uso do Visualizador de provas de desktop se o conteúdo que você precisa revisar estiver em um site que
 
