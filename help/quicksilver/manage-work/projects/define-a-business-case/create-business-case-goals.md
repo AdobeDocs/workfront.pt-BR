@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Criar metas do Business Case
-description: Como parte da criação de um Business Case, você pode criar um conjunto de metas para definir os objetivos de um projeto. As metas de Business Case são usadas para comunicar ao Gerente de Portfolio ou ao Patrocinador do Projeto a finalidade de concluir um projeto.
+description: Como parte da criação de um Business Case, você pode criar um conjunto de metas para definir os objetivos de um projeto. As metas de Business Case são usadas para comunicar ao Gerente do Portfolio ou ao Patrocinador do Projeto a finalidade de concluir um projeto.
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
 # Criar metas do Business Case
 
-Como parte da criação de um Business Case, você pode criar um conjunto de metas para definir os objetivos de um projeto. As metas de Business Case são usadas para comunicar ao Gerente de Portfolio ou ao Patrocinador do Projeto a finalidade de concluir um projeto.
+Como parte da criação de um Business Case, você pode criar um conjunto de metas para definir os objetivos de um projeto. As metas de Business Case são usadas para comunicar ao Gerente do Portfolio ou ao Patrocinador do Projeto a finalidade de concluir um projeto.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,9 +31,9 @@ Considere o seguinte ao criar metas do Business Case para seus projetos:
 
 * Metas não são uma seção obrigatória no Business Case de um projeto.
 
-  Um projeto pode receber uma pontuação para ser priorizado no Otimizador de Portfolio, mesmo se a seção Metas do Business Case não estiver definida.
+  Um projeto pode receber uma pontuação para ser priorizado no Portfolio Otimizer, mesmo se a seção Metas do Business Case não estiver definida.
 
-  Para obter mais informações sobre a pontuação do Otimizador de Portfolio, consulte [Aplicar um scorecard a um projeto e gerar uma Pontuação de Alinhamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Para obter mais informações sobre a pontuação do Portfolio Otimizer, consulte [Aplicar um cartão de pontuação a um projeto e gerar uma Pontuação de Alinhamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Você não pode relatar metas do Business Case.
 
@@ -75,7 +75,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    O Business Case é exibido.
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![Informações do business case](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. Na seção **Metas**, clique em **Editar Metas**.
 
@@ -88,7 +88,7 @@ No menu suspenso **Importância**, selecione o nível de importância:
    * Baixa
    * Muito baixa
 
-     ![](assets/g1-350x76.png)
+     Importância (assets/g1-350x76.png)
 
      Não é possível personalizar os níveis de importância das metas.
 
