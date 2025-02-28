@@ -6,9 +6,9 @@ description: O processo para criar e gerenciar despesas é o mesmo para despesas
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Contribute ou permissões superiores para o projeto com permissões para Exibir ou Gerenciar finanças</td> 
+   <td>Contribuir com permissões ou permissões superiores para o projeto com permissões para Exibir ou Gerenciar finanças</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ A caixa de diálogo **Adicionar uma Despesa** é exibida.
    * **Valor Efetivo:** o valor que define o custo real da despesa.\
      Isso afeta o Custo Efetivo do projeto.
 
-   * **Data Planejada:** A data esperada para a despesa ocorrer. Você pode digitar a data no campo usando o formato *mm/dd/aa* ou pode clicar no ícone de calendário  ![](assets/calendar-icon.png) e selecione a data dinamicamente.
+   * **Data Planejada:** A data esperada para a despesa ocorrer. Você pode digitar a data no campo usando o formato *mm/dd/aa* ou pode clicar no ícone de calendário  ![Ícone de calendário](assets/calendar-icon.png) e selecione a data dinamicamente.
 
    * **Data de Pagamento:** A data em que a despesa foi paga.
    * **Faturável:** selecione esta opção se desejar faturar esta despesa. Categorizar uma despesa como faturável é importante ao criar registros de faturamento.
