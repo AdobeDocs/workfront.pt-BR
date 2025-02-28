@@ -7,9 +7,9 @@ description: Há várias maneiras de usar as prioridades de projetos que não se
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ A seguir estão os tipos de prioridades que você pode usar para classificar pro
 
   Para obter mais informações, consulte a seção [Considerações sobre a Prioridade de Projeto](#considerations-about-project-priority) neste artigo.
 
-* **A prioridade de um projeto no Otimizador de Portfolio**, se o projeto estiver associado a um portfólio:
+* **A prioridade de um projeto no Portfolio Otimizer**, se o projeto estiver associado a um portfólio:
 
   Para obter mais informações sobre a prioridade de um projeto no Portfolio Otimizer, consulte o artigo [Priorizar projetos no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
@@ -104,7 +104,7 @@ Considere o seguinte ao selecionar uma Prioridade para seus projetos:
 
   Para obter mais informações sobre como criar prioridades no Workfront, consulte o artigo [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-* Quando você atualiza o campo Prioridade de um projeto, essa Prioridade não é transferida para o Otimizador de Portfolio ou para o Planejador de recursos. O campo Prioridade do projeto é simplesmente um sinalizador manual colocado no projeto para indicar sua importância para outros usuários.
+* Quando você atualiza o campo Prioridade de um projeto, essa Prioridade não é transferida para o Portfolio Otimizer ou para o Planejador de Recursos. O campo Prioridade do projeto é simplesmente um sinalizador manual colocado no projeto para indicar sua importância para outros usuários.
 * O valor de Prioridade de um projeto é usado principalmente para fins de relatório.
 
   Por exemplo, você pode pesquisar todos os projetos que têm o valor de prioridade Urgente ao usar esse campo em um filtro de projeto.
@@ -119,7 +119,7 @@ Considere o seguinte ao selecionar uma Prioridade para seus projetos:
 
 1. Vá para o projeto cuja Prioridade você deseja atualizar.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no ícone **Editar** ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do Projeto e clique em **Visão Geral**.
+1. Clique no ícone **Editar** ![Ícone Editar](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do Projeto e clique em **Visão Geral**.
 
 1. No campo **Prioridade**, selecione uma das seguintes opções:
 
