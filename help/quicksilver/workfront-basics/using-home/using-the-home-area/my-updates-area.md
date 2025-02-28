@@ -6,9 +6,9 @@ description: Você pode usar a área [!UICONTROL Minhas atualizações] para rev
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -76,13 +76,13 @@ Você deve ter o seguinte antes de começar:
 
 1. Clique em **[!UICONTROL Minhas atualizações]** no **[!UICONTROL Menu Principal]**.
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![Minhas atualizações no menu principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    A área [!UICONTROL Minhas atualizações] é aberta.
 
    As aprovações e solicitações de acesso atribuídas a você estão listadas na primeira metade da página, em **Minhas atualizações**.
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![Minhas menções de atualizações para revisores](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Opcional) Role até a parte inferior da área [!UICONTROL **Minhas atualizações**] e clique na seta para a direita para exibir mais aprovações exibidas em páginas adicionais.
 
@@ -90,9 +90,9 @@ Você deve ter o seguinte antes de começar:
    >
    >As primeiras cinco aprovações ou solicitações de acesso são exibidas por padrão. As aprovações restantes são exibidas em páginas adicionais. Você pode exibir um máximo de 2000 aprovações na área [!UICONTROL Minhas atualizações].
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![Paginação para Minhas Atualizações](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Opcional) Expanda o menu suspenso **[!UICONTROL Filtro]** ![](assets/filter-nwepng.png) no canto superior direito da seção **[!UICONTROL Minhas atualizações]** e selecione um dos seguintes:
+1. (Opcional) Expanda o menu suspenso **[!UICONTROL Filtro]** ![Ícone Filtro](assets/filter-nwepng.png) no canto superior direito da seção **[!UICONTROL Minhas Atualizações]** e selecione um dos seguintes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ Você deve ter o seguinte antes de começar:
 
 1. Para aprovar ou rejeitar um item ou sugerir alterações em um documento antes da aprovação, faça o seguinte:
 
-   1. (Opcional) Clique no ícone ![](assets/down-arrow-blue.png) da **lista suspensa** ao lado da sua decisão de aprovação (**[!UICONTROL Aprovar]**, **[!UICONTROL Alterações]**,**[!UICONTROL Rejeitar]**) e adicione um comentário, depois clique em **[!UICONTROL Adicionar]**.
+   1. (Opcional) Clique no ícone **suspenso** ![Ícone suspenso](assets/down-arrow-blue.png) ao lado da sua decisão de aprovação (**[!UICONTROL Aprovar]**, **[!UICONTROL Alterações]**,**[!UICONTROL Rejeitar]**) e adicione um comentário, depois clique em **[!UICONTROL Adicionar]**.
 
       Ou
 
       Clique em **[!UICONTROL Ignorar]** se não quiser inserir um comentário.
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![Botões de decisão de aprovação com caixa de comentário](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -136,7 +136,7 @@ Você deve ter o seguinte antes de começar:
       >Se não quiser adicionar um comentário à sua decisão, você pode clicar no botão **[!UICONTROL Aprovar]**, **[!UICONTROL Rejeitar]** ou **[!UICONTROL Alterações]** e a decisão de aprovação será concedida imediatamente.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![Botões de decisão de aprovação](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >Para obter mais informações sobre aprovação de trabalho, consulte [Aprovando trabalho](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
@@ -146,7 +146,7 @@ Você deve ter o seguinte antes de começar:
 
    Expanda o menu suspenso **[!UICONTROL Alterar acesso]** para modificar o acesso solicitado antes de concedê-lo.
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![Alterar botão de acesso](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Opcional) Clique em **[!UICONTROL Ignorar]** para limpar a solicitação de acesso da sua lista de aprovação sem concedê-la.
 1. Clique em **[!UICONTROL Delegar minhas aprovações]** para delegar as aprovações enviadas a você, caso não esteja disponível para tomar decisões de aprovação por algum tempo. Para obter mais informações sobre a delegação de aprovações, consulte [Delegar solicitação de aprovação](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
@@ -166,6 +166,6 @@ Você deve ter o seguinte antes de começar:
 
      Quando terminar de adicionar a resposta, clique em **[!UICONTROL Enviar]**.
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![Responder na área Minhas atualizações](assets/reply-in-the-my-updates-area.png)
 
 1. (Opcional) Clique em **[!UICONTROL Fixar página atual]** para fixar a área [!UICONTROL Minhas atualizações] na navegação superior.
