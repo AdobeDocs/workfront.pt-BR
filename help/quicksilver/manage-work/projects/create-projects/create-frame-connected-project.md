@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Se você optar por criar o projeto do zero, o Workfront adicionará automaticame
 
 Continue para a próxima seção.
 
-![](assets/template-group.png)
+![Grupo de modelos](assets/template-group.png)
 
 ### Adicionar tarefas e atribuir usuários habilitados para Frame.io
 
@@ -105,7 +105,7 @@ Continue para a próxima seção.
    Ou
 
    Clique em **Nova Tarefa de Modelo** para adicionar uma tarefa de cada vez e definir configurações adicionais.
-   ![](assets/add-tasks-to-template.png)
+   ![Adicionar tarefas ao modelo](assets/add-tasks-to-template.png)
 1. Adicione um nome de tarefa.
 1. Na área **Atribuições**, atribua usuários ou equipes. Se você atribuir um usuário habilitado para Frame.io, individualmente ou em uma equipe, ele receberá acesso de colaborador ao projeto Frame.io e será notificado sobre a tarefa no projeto Frame.io por email. A partir desse email, eles podem ingressar no projeto Frame.io e começar a trabalhar.
 1. Repita as etapas 1 e 2 conforme necessário.
@@ -133,7 +133,7 @@ Depois de criar um modelo, você pode usá-lo para criar projetos.
 1. Clique em **Novo projeto do modelo**.
 1. Usando a caixa de pesquisa, comece digitando o nome do template necessário.
 1. Selecione o nome do modelo e clique em **Usar modelo**.
-   ![](assets/find-your-template.png)
+   ![Localizar seu modelo](assets/find-your-template.png)
 1. Ajuste qualquer configuração de projeto conforme necessário, em seguida clique em **Criar projeto**.
 1. No painel esquerdo, clique em **Documentos**.
 1. Use a pasta de sincronização unidirecional para compartilhar automaticamente materiais criativos com o Frame.io. [!BADGE Em breve]{type=Informative}
@@ -176,7 +176,7 @@ Continue para a próxima seção.
    Ou
 
    Clique em **Nova tarefa** para adicionar uma tarefa de cada vez e definir configurações adicionais.
-   ![](assets/add-project-tasks.png)
+   ![Nova tarefa](assets/add-project-tasks.png)
 1. Adicione um nome de tarefa.
 1. Na área **Atribuições**, atribua usuários ou equipes. Se você atribuir um usuário habilitado para Frame.io, individualmente ou em uma equipe, ele receberá acesso de colaborador ao projeto Frame.io e será notificado sobre a tarefa no projeto Frame.io por email. A partir desse email, eles podem ingressar no projeto Frame.io e começar a trabalhar.
 1. Repita as etapas 1 e 2 conforme necessário.
