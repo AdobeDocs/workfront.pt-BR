@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Você deve definir manualmente a Data de conclusão planejada de um projeto ao p
 
 Para programar um projeto a partir da Data de Término:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e em **Projetos**.
+1. Clique no ícone **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) no canto superior direito e clique em **Projetos**.
 
 1. Clique em **Novo projeto** e depois em **Novo projeto**.
 
@@ -117,7 +117,7 @@ A Data de conclusão planejada de um projeto é calculada automaticamente pela W
 
 Para programar um projeto a partir da Data Inicial:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito e em **Projetos**.
+1. Clique no ícone **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) no canto superior direito e clique em **Projetos**.
 
 1. Clique em **Novo projeto** e depois em **Novo projeto**.
 
