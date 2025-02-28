@@ -6,9 +6,9 @@ description: Um usuário com direitos de gerenciamento em um documento pode move
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Você deve ter o seguinte:
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Clique no ícone **Mover** ![](assets/move-document--25x19.png).
+1. Clique no ícone **Mover** ![Ícone Mover](assets/move-document--25x19.png).
 1. No menu suspenso na caixa exibida, clique em **Problema**, **Projeto** ou **Tarefa** para indicar o tipo de objeto para o qual deseja mover o documento. 
 
 1. Digite o nome do **Problema**, **Projeto** ou **Tarefa** na caixa de texto.
