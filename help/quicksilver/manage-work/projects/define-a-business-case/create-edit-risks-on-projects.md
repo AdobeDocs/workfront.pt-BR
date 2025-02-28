@@ -6,9 +6,9 @@ description: Os riscos são eventos ou fatores possíveis que impedem a conclus�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Para criar ou editar um risco no Business Case:
 
    * **Custo de Mitigação**: indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
 
-   ![](assets/crp1-350x117.png)
+   ![Riscos](assets/crp1-350x117.png)
 
 1. (Opcional) Clique em **Adicionar outro risco** para adicionar outros riscos.
 1. Clique em **Salvar**.
