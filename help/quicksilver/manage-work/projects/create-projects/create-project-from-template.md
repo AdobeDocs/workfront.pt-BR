@@ -6,9 +6,9 @@ description: Você pode usar modelos como uma estrutura para criar projetos no A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -65,14 +65,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader">Nível de acesso</td> 
    <td> <p>Editar acesso a projetos e modelos</p>
 
-<p>editar o acesso a Portfolio e Programas, se o modelo usado contiver um Portfolio e um Programa</p>
+<p>editar o acesso a portfólios e programas, se o modelo usado contiver um Portfolio e um programa</p>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Exibir permissões para um modelo</p> 
-  <p>Se o modelo usado contiver um Portfolio e um programa, você deverá ter permissões de gerenciamento no portfólio e no programa para criar o projeto </p> 
+  <p>Se o modelo usado contiver um Portfolio e um Programa, você deverá ter permissões de Gerenciamento para o portfólio e o programa para criar o projeto </p> 
    <p>Ao criar um projeto, você recebe automaticamente permissões de gerenciamento para o projeto.</p></td> 
   </tr> 
  </tbody> 
@@ -103,7 +103,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
      >[!TIP]
      >
-     >Ao criar um projeto usando um modelo de um programa, o campo Programa dos novos projetos é atualizado para exibir o Programa escolhido para criar o projeto. O campo Portfolio das atualizações de modelo para exibir o portfólio do programa escolhido para criar o projeto. Isso substitui os campos Program e Portfolio no modelo, se forem especificados.
+     >Ao criar um projeto usando um modelo de um programa, o campo Programa dos novos projetos é atualizado para exibir o Programa escolhido para criar o projeto. O campo Portfolio das atualizações de modelo para exibir o portfólio do programa escolhido para criar o projeto. Isso substituirá os campos Program e Portfolio no modelo, se eles forem especificados.
 
    * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo gerenciado. Para obter mais informações, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
@@ -137,7 +137,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       * O número de todas as tarefas no modelo
       * Os nomes dos formulários personalizados do modelo
 
-   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no ícone **Favoritos** **3} ![](assets/favorites-icon-small.png) para marcá-lo como favorito para uso futuro.**
+   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **** ![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como favorito para uso futuro.
 
       Ou
 
@@ -175,7 +175,7 @@ Em vez de começar na área Projetos, você pode criar um projeto a partir de um
 {{step1-to-templates}}
 
 1. Clique no nome de um modelo que deseja usar.
-1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Criar projeto**.
+1. Clique no menu **Mais** ![Ícone Mais](assets/more-icon.png) e em **Criar Projeto**.
 
    ![Criar projeto a partir do modelo](assets/project-sharing-on-template.png)
 
