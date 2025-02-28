@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 {{step1-to-priorities}}
 
 1. Clique em **Colunas** no lado direito da tela.
-   ![](assets/columns.png)
+   ![Colunas](assets/columns.png)
 1. Use os botões para ativar ou desativar colunas na lista de trabalho.
 
 ### Reordenar as colunas
@@ -77,15 +77,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Colunas** no lado direito da tela.
 1. Clique no ícone **Arrastar** e mova a coluna para o local desejado. A movimentação de colunas atualiza a lista de trabalho automaticamente.
-   ![](assets/reorder-columns.png)
+   ![Reordenar colunas](assets/reorder-columns.png)
 
 ### Redefinir larguras de coluna
 
 {{step1-to-priorities}}
 
 1. Clique em **Colunas** no lado direito da tela.
-1. Clique no ícone ![](assets/more-icon.png) de **Mais** e escolha **Redefinir larguras de coluna**.
-   ![](assets/columns.png)
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) e escolha **Redefinir larguras de coluna**.
+   ![Colunas](assets/columns.png)
 
 ## Personalizar as colunas da lista de trabalho de prioridades
 
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 {{step1-to-priorities}}
 
 1. Clique em **Colunas** no lado esquerdo da tela.
-   ![](assets/columns-new.png)
+   ![Colunas](assets/columns-new.png)
 1. Use os botões para ativar ou desativar colunas na lista de trabalho.
 
 ### Reordenar as colunas
@@ -103,7 +103,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Colunas** no lado esquerdo da tela.
 1. Clique no ícone **Arrastar** e mova a coluna para o local desejado. A movimentação de colunas atualiza a lista de trabalho automaticamente.
-   ![](assets/reorder-columns-new.png)
+   ![Reordenar colunas](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
