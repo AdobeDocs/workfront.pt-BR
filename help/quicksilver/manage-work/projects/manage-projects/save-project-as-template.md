@@ -6,9 +6,9 @@ description: Salve um projeto como um modeloSalve como modelo" no nível do proj
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 ## Salvar um projeto como modelo
 
 1. Vá para o projeto que deseja salvar como modelo.
-1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) e depois em **Salvar como Modelo**.
+1. Clique no menu **Mais** ![Ícone Mais](assets/qs-more-icon-on-an-object.png) e **Salvar como Modelo**.
 1. Especifique as seguintes informações para o modelo:
 
    <table style="table-layout:auto"> 
