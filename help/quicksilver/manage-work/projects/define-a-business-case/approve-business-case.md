@@ -5,9 +5,9 @@ description: Depois de concluir e enviar o Business Case para uma solicitação 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Considere o seguinte ao aprovar um Business Case de um projeto:
 * Você deve ir manualmente para os projetos individuais que precisam de aprovação do Business Case para ver que eles estão pendentes de aprovação. Não há um mecanismo de notificação do Workfront que alerta alguém que deve aprovar o Business Case de um projeto.
 * Você pode encontrar os projetos que estão aguardando a aprovação do Business Case criando um relatório de projeto ou acessando o portfólio ao qual estão associados.
 
-  Para obter mais informações sobre Portfolio, consulte o artigo [Visão geral sobre Portfolio no Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Para obter mais informações sobre Portfólios, consulte o artigo [Visão geral do Portfolio no Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Aprove o Business Case criando um relatório de projeto
 
@@ -106,7 +106,7 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   para exibir onde você está designado como Gerenciador de Portfolio.
+   para exibir onde você está designado como o Portfolio Manager.
 
 1. Clique em **Salvar+Fechar**.
 
@@ -116,7 +116,7 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
 1. Clique em **Business Case** no painel esquerdo.
 1. Clique em **Aprovar** ou **Rejeitar** na área Resumo do Business Case para aprovar ou rejeitar o Business Case.
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![Caso de negócios](assets/business-case-summary-with-rp-information--1-.png)
 
    O status do projeto será alterado para **Aprovado** se o Business Case for aprovado.
 
