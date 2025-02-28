@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Criar modelo a partir do projeto
 
 1. Vá para o projeto que deseja salvar como modelo.
-1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) e depois em **Salvar como Modelo**.
+1. Clique no menu **Mais** ![Ícone Mais](assets/qs-more-icon-on-an-object.png) e **Salvar como Modelo**.
 1. Especifique as seguintes informações para o modelo:
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Gerenciar Forms** para remover ou reordenar os formulários. Para obter informações sobre como remover e reordenar formulários personalizados no modelo, consulte [Formulários personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Primeira etapa do modelo Salvar como](assets/save-as-template-first-step-350x159.png)
 
 1. Clique em **Próxima etapa.**
 1. Na seção **Opções**, marque a caixa de seleção ao lado de qualquer informação que você deseja apagar do modelo.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Salvar como opções de modelo](assets/save-as-template-options-step-350x109.png)
 
 1. Clique em **Próxima etapa.**
 1. Na seção **Excluir**, selecione as tarefas que deseja excluir do projeto.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Salvar como exclusão de modelo](assets/save-as-template-exclude-350x205.png)
 
 1. Clique em **Concluir e Salvar Modelo.**
 
