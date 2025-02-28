@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '776'
 ht-degree: 4%
 
 ---
@@ -112,15 +112,15 @@ Copiar um projeto também copia algumas informações do projeto original para o
 
 Para copiar um projeto:
 
-1. Vá para o projeto que você deseja copiar e clique no ícone **Mais** ![](assets/qs-more-menu.png) à direita do nome do projeto
+1. Vá para o projeto que você deseja copiar e clique no ícone **Mais** ![Mais menu](assets/qs-more-menu.png) à direita do nome do projeto
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Mais lista suspensa](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no ícone **Mais** ![](assets/qs-more-menu.png) na parte superior da lista.
+   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no ícone **Mais** ![Mais menu](assets/qs-more-menu.png) na parte superior da lista.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Mais menus expandidos](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Clique em **Copiar**.
 
@@ -128,7 +128,7 @@ Para copiar um projeto:
 
    Por padrão, o novo nome é **Cópia de `<Original project name>`.**
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![Copiar caixa de projeto](assets/copy-project-box-nwe-350x276.png)
 
 1. Selecione o **Status** do novo projeto.
 
