@@ -6,9 +6,9 @@ description: Recalcular as linhas do tempo permite que os gerentes vejam como di
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -174,13 +174,13 @@ Como proprietário de um projeto, você pode recalcular manualmente as linhas do
 
 Você pode recalcular a linha do tempo de um projeto no Workfront a partir da página do projeto ou de uma lista de projetos ou relatório.
 
-1. Vá para o projeto para o qual deseja recalcular a linha do tempo e clique no ícone ![](assets/qs-more-menu.png) de **Mais** à esquerda do nome do projeto
+1. Vá para o projeto para o qual deseja recalcular a linha do tempo e clique no ícone **Mais** ![Mais menu](assets/qs-more-menu.png) à esquerda do nome do projeto
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Mais lista suspensa](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no ícone ![](assets/qs-more-menu.png) de **Mais** na parte superior da lista.
+   Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no ícone **Mais** ![Mais menu](assets/qs-more-menu.png) na parte superior da lista.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
