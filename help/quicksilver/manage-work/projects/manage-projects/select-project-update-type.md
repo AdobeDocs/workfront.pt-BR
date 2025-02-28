@@ -6,9 +6,9 @@ description: Selecionando um Tipo de Atualização para um projeto, você pode c
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 Quando as tarefas são atualizadas, seus objetos principais (tarefas principais ou o projeto) são atualizados no momento indicado pelo Tipo de Atualização.  Para especificar um Tipo de Atualização para o seu projeto:
 
 1. Vá para o projeto cujo Tipo de Atualização você deseja especificar.
-1. Clique no menu Mais ![](assets/more-icon.png) ao lado do nome do projeto e em **Editar**.
+1. Clique no ícone Mais ![Mais](assets/more-icon.png) do menu ao lado do nome do projeto e clique em **Editar**.
 
 1. Clique em **Projeto** **Configurações**.
 
