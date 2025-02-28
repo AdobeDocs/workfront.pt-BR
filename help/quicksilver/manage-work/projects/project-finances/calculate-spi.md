@@ -7,9 +7,9 @@ description: O Índice de Desempenho de Cronograma (SPI) descreve a relação en
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Por exemplo, se você tiver um projeto com 1 tarefa e a tarefa tiver 10 horas pl
 
    1. Clique em **Detalhes da tarefa** no painel esquerdo e exiba a área **Finanças**.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![SPI no projeto](assets/spi-on-project-nwe.png)
 
 1. Localize o campo **CPI/ SPI/ CSI**.
