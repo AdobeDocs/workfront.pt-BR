@@ -7,9 +7,10 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Devido ao uso decrescente e à funcionalidade limitada, o Analytics aprimorado s
 
 **Quando?**
 
-* Com a versão 25.2 (fevereiro de 2025)
+* A semana de 26 de maio
 
 **Em vez disso, o que posso usar?**
 
@@ -40,7 +41,7 @@ Para minimizar a interrupção para você e sua organização, fornecemos recome
 
 Nossa primeira recomendação é garantir que sua organização tenha acesso ao Workfront Data Connect e se familiarizar com seu uso o mais rápido possível. Para saber mais sobre os recursos do Data Connect e como começar a usá-lo, consulte a [visão geral do Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-A Conexão de Dados está incluída no novo plano Ultimate e pode ser adquirida como um complemento dos novos planos Select e Prime. Observe que a Conexão de dados não está disponível para organizações em planos Workfront herdados. Entre em contato com seu representante de conta da Workfront para saber em que plano sua organização está atualmente e como adquirir o Data Connect.
+A Conexão de Dados está incluída no novo plano do Ultimate<!--, and can be purchased as an add-on to the new Select and Prime plans-->. Observe que a Conexão de dados não está disponível para organizações em planos Workfront herdados. Entre em contato com seu representante de conta da Workfront para saber em que plano sua organização está atualmente e como adquirir o Data Connect.
 
 ### Replicar visualizações aprimoradas do Analytics
 
@@ -59,6 +60,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->

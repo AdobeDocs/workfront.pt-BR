@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,18 @@ Atualizamos a aparência do Calendário do Workfront para um design moderno cons
 * E muito mais
 
 Para obter mais informações, consulte os artigos [Calendários](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
+
+## Exibição atualizada de um caminho de etapas de projeto em uma exibição de projeto
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 27 de fevereiro de 2025; Produção para lançamento rápido: Com lançamento da versão 25.3 (março de 2025); Produção para lançamento trimestral: Com lançamento da versão 25.4 (abril de 2025)
+
+Ao acessar o caminho de etapas a partir de uma lista de projeto ou de um relatório, a página de detalhes da etapa agora tem uma nova aparência. Você deve adicionar o campo Nome do caminho de marcos à exibição da lista ou do relatório para acessar a página de detalhes do caminho de marcos.
+
+Com esta atualização, também adicionamos informações sobre as cores e os códigos de cor de cada marco.
+
+Para obter informações, consulte [Criar um caminho de etapas](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Alterações temporárias de aparência e comportamento em emails de documentos
 
