@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -63,13 +63,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Clique no ícone **Editar** ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e em **Visão geral**. Essa ação abre a área Visão geral para edição.
+   Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Visão geral**. Essa ação abre a área Visão geral para edição.
 
    >[!NOTE]
    >
    >Dependendo de como o administrador do Workfront configurou o Modelo de layout, a seção Visão geral pode não estar listada primeiro e, nesse caso, ela será recolhida. Para obter informações, consulte [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Condicional) Se houver um campo específico que precise ser atualizado em um projeto, mas não seja exibido nesta seção, clique no **menu Mais** ![](assets/more-icon.png) ao lado do nome do projeto e em **Editar** para exibir mais campos do projeto.
+1. (Condicional) Se houver um campo específico que precise ser atualizado em um projeto, mas não seja exibido nesta seção, clique no ícone **Mais menu** ![Mais ícone](assets/more-icon.png) ao lado do nome do projeto e em **Editar** para exibir mais campos do projeto.
 
    Para obter mais informações sobre a edição de projetos, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
