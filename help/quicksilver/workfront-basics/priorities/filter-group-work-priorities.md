@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,11 @@ Você pode filtrar tarefas e problemas atribuídos a você.
 
 ## Filtre seu trabalho com filtros inteligentes
 
-Use a linguagem natural para filtrar rapidamente o trabalho. Sua instância do Workfront deve estar em um novo plano do Workfront e habilitada na Adobe Unified Experience. Para obter mais informações, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Use a linguagem natural para filtrar rapidamente o trabalho.
+
+>[!NOTE]
+>
+>Esse recurso só está disponível para clientes na Experiência unificada do Adobe que usam o Assistente de IA. Para obter mais informações sobre o Assistente de IA, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
