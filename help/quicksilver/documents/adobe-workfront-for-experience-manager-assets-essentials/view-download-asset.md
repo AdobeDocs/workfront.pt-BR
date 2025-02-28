@@ -2,20 +2,20 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Exibir ou baixar um ativo vinculado do Experience Manager Assets ou do Assets Essentials
-description: Você pode visualizar ou baixar um ativo no Adobe Workfront que está vinculado do Experience Manager Assets ou Assets Essentials.
+description: Você pode visualizar ou baixar no Adobe Workfront um ativo vinculado do Experience Manager Assets ou do Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
 # Exibir ou baixar um ativo vinculado do Experience Manager Assets ou do Assets Essentials
 
-Você pode visualizar ou baixar um ativo no Adobe Workfront que está vinculado do Experience Manager Assets ou Assets Essentials.
+Você pode visualizar ou baixar no Adobe Workfront um ativo vinculado do Experience Manager Assets ou do Assets Essentials.
 
 ## Requisitos de acesso
 
@@ -37,7 +37,7 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Você deve ter Assets Essentials Experience Manager as a Cloud Service e ser adicionado ao produto como usuário no Admin Console.</td> 
+   <td>Você deve ter o Experience Manager as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário na Admin Console.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -58,7 +58,7 @@ Você deve ter o seguinte:
 
 Antes de começar,
 
-* O administrador do Workfront deve configurar uma integração de Experience Manager. Para obter mais informações, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* O administrador do Workfront deve configurar uma integração do Experience Manager. Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Exibir ou baixar um ativo vinculado
 
@@ -66,4 +66,4 @@ Antes de começar,
 1. Na lista de documentos, selecione o documento.
 1. No Resumo do documento à direita, passe o mouse sobre a miniatura na parte superior e escolha **Visualizar** ou **Baixar**.
 
-   ![](assets/preview-or-download-350x107.png)
+   ![Visualizar ou baixar](assets/preview-or-download-350x107.png)
