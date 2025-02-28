@@ -7,9 +7,9 @@ description: Entender o custo do trabalho orçado e as horas orçadas dos projet
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Se os usuários estiverem associados às funções de trabalho no projeto e suas
 
 * [!UICONTROL **Custo do Trabalho Orçado**]: a área de orçamento de recursos do Business Case nas respectivas funções.
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![Custo do trabalho orçado no Business Case](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]: o Planejador de Recursos ao visualizar informações na exibição Projeto e Função por Custo.
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![Custo do trabalho orçado em Planos de Recursos](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 Os usuários são exibidos na área Orçamento de recursos do Business Case nas respectivas funções ou no Planejador de recursos se atenderem aos seguintes requisitos:
 
