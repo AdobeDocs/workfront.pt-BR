@@ -2,30 +2,30 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Enviar um documento para o Experience Manager Assets ou o Assets Essentials
-description: Você pode enviar documentos do Workfront para o Experience Manager Assets ou Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam com o armazenamento geral de documentos. O Assets vinculado ao Assets Essentials não é contabilizado no armazenamento geral.
+description: Você pode enviar documentos do Workfront para o Experience Manager Assets ou o Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam para o armazenamento geral de documentos. O Assets vinculado do Assets Essentials não conta para o armazenamento geral.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
 # Enviar um documento para o Experience Manager Assets ou o Assets Essentials
 
-Você pode enviar documentos do Workfront para o Experience Manager Assets ou Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam com o armazenamento geral de documentos. O Assets vinculado ao Assets Essentials não é contabilizado no armazenamento geral.
+Você pode enviar documentos do Workfront para o Experience Manager Assets ou o Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam para o armazenamento geral de documentos. O Assets vinculado do Assets Essentials não conta para o armazenamento geral.
 
-O Assets enviado para o Experience Manager por meio desta integração tem um limite de tamanho de **5 GB**.
+O Assets enviado para o Experience Manager por meio dessa integração tem um limite de tamanho de **5 GB**.
 
-No ambiente de Pré-visualização, o Assets enviado para o Experience Manager por meio dessa integração tem um limite de tamanho de **30 GB**.
+No ambiente de Pré-visualização, o Assets enviado ao Experience Manager por meio dessa integração tem um limite de tamanho de **30 GB**.
 
-Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets ou Assets Essentials. Todos os metadados configurados para mapear para objetos principais também são enviados. Para obter mais informações sobre como configurar o mapeamento de metadados, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets ou o Assets Essentials. Todos os metadados configurados para mapear para objetos principais também são enviados. Para obter mais informações sobre como configurar o mapeamento de metadados, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
->**Exemplo** Quando você envia pela primeira vez um ativo anexado a uma tarefa, os metadados da tarefa são mapeados para o Experience Manager Assets ou Assets Essentials, bem como quaisquer metadados mapeados de objetos pai, como um projeto, portfólio e programa.
+>**Exemplo** Quando você envia pela primeira vez um ativo anexado a uma tarefa, os metadados da tarefa são mapeados para o Experience Manager Assets ou para o Assets Essentials, bem como quaisquer metadados mapeados de objetos principais, como um projeto, portfólio e programa.
 
 ## Requisitos de acesso
 
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para concluir as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Você deve ter Assets Essentials Experience Manager as a Cloud Service e ser adicionado ao produto como usuário no Admin Console.
+   <td>Você deve ter o Experience Manager as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário na Admin Console.
 </td> 
   </tr> 
   <tr> 
@@ -69,30 +69,30 @@ Você deve ter o seguinte acesso para concluir as etapas deste artigo:
 
 Antes de começar,
 
-* O administrador do Workfront deve configurar uma integração de Experience Manager. Para obter mais informações, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* O administrador do Workfront deve configurar uma integração do Experience Manager. Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Enviar um documento do Workfront
 
-Quando um usuário envia um documento do Workfront para o Experience Manager Assets ou Assets Essentials, os metadados mapeados são transferidos ao longo do documento. Depois que o documento é enviado, as alterações feitas nos metadados do documento no Workfront não são refletidas no Assets ou no Assets Essentials. Se um campo mapeado no Workfront for alterado, você deverá enviar uma nova versão do documento com os metadados atualizados para o Assets ou Assets Essentials. Para configurar ou editar metadados, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Quando um usuário envia um documento do Workfront para o Experience Manager Assets ou o Assets Essentials, os metadados mapeados são transferidos ao longo do documento. Depois que o documento é enviado, as alterações feitas nos metadados do documento no Workfront não são refletidas no Assets ou no Assets Essentials. Se um campo mapeado no Workfront for alterado, você deverá enviar uma nova versão do documento com os metadados atualizados para o Assets ou o Assets Essentials. Para configurar ou editar metadados, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 Para enviar um documento:
 
 1. Vá para a área **Documentos** do Workfront e selecione o documento que deseja enviar.
-1. Clique em **Enviar para** e escolha a integração de Experience Manager configurada pelo administrador.
+1. Clique em **Enviar para** e escolha a integração do Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode escolher qualquer nome para essa integração, de modo que pode não mencionar especificamente Assets ou Assets Essentials.
+   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, talvez ele não mencione especificamente o Assets ou o Assets Essentials.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Enviar para](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Escolha para onde deseja que o ativo vá e clique em **Selecionar pasta**.
 1. Ao encontrar o destino desejado, clique em **Salvar**.
 
 ## Enviar uma nova versão
 
-É possível adicionar uma nova versão a um documento carregado anteriormente no Workfront. Para obter mais informações, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md). Depois que a versão mais recente for carregada, você poderá enviá-la para o Assets Essentials. Se um campo mapeado no Workfront tiver sido alterado, a nova versão atualizará os metadados no Assets Essentials quando ele enviar.
+É possível adicionar uma nova versão a um documento carregado anteriormente no Workfront. Para obter mais informações, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md). Depois que a versão mais recente for carregada, você poderá enviá-la para o Assets Essentials. Se um campo mapeado no Workfront tiver sido alterado, a nova versão atualizará os metadados no Assets Essentials quando enviada.
 
 >[!IMPORTANT]
 >
@@ -101,13 +101,13 @@ Para enviar um documento:
 Para enviar a versão mais recente:
 
 1. Vá para a área **Documentos** no Workfront e localize o documento.
-1. Selecione **Enviar para** e escolha a integração de Experience Manager configurada pelo administrador.
+1. Selecione **Enviar para** e escolha a integração do Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, pode ser que ele não mencione especificamente o Assets ou o Assets Essentials.
+   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, pode não mencionar especificamente o Assets ou o Assets Essentials.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Enviar para](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Clique em **Salvar**. A nova versão é salva no mesmo local da versão anterior.
 
