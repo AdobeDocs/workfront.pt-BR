@@ -6,9 +6,9 @@ description: Se um projeto estiver associado a um grupo, você poderá aplicar t
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 Quando você atualiza o Grupo de um projeto, as opções disponíveis para o Status de tarefas, problemas ou para o projeto são alteradas para corresponder ao grupo.
 
 1. Vá para um projeto ou crie um novo projeto, conforme descrito em [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
-1. Clique no ícone **Mais** ![](assets/more-icon.png) e em **Editar**.
+1. Clique no ícone **Mais** ícone ![Mais ícone](assets/more-icon.png) e em **Editar**.
 
 1. Na caixa **Editar Projeto** que é exibida, próxima à parte inferior da seção **Visão Geral**, selecione o grupo no menu suspenso **Grupo**.
 
