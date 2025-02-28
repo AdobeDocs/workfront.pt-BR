@@ -6,9 +6,9 @@ description: Você pode designar Gerentes de recursos para um projeto para indic
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -167,7 +167,7 @@ Os usuários adicionados como Gerentes de recursos a um projeto ou modelo obtêm
 
 ## Designar Gerentes de Recursos para um modelo
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
 
 1. Clique em **Modelos**.
 
