@@ -6,9 +6,9 @@ description: Você pode usar a extensão Workfront para exportar conteúdo digit
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3107'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Estamos substituindo a extensão do Workfront para Illustrator e InDesign por [plug-ins de Creative Cloud atualizados](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). A partir do final de 2022, essa extensão não será mais suportada e estará disponível como está.
+>Estamos substituindo a extensão do Workfront para Illustrator e InDesign por [plug-ins atualizados do Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). A partir do final de 2022, essa extensão não será mais suportada e estará disponível como está.
 
 Você pode usar a extensão Workfront para exportar conteúdo digital salvo e criado no Adobe Illustrator e Adobe InDesign para o Workfront. Isso acelera o processo de revisão e aprovação de documentos.
 
@@ -70,17 +70,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Faça logon na extensão Workfront a partir do Illustrator ou do InDesign {#log-in-to-workfront-extension-from-illustrator-or-indesign}
+## Faça logon na extensão Workfront a partir do Illustrator ou InDesign {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 
-Ao fazer login no Workfront a partir de um dos aplicativos Adobe suportados, você é conectado a todos os aplicativos Adobe suportados.
+Ao fazer logon no Workfront a partir de um dos aplicativos compatíveis da Adobe, você é conectado a todos os aplicativos compatíveis da Adobe.
 
-1. Vá para o aplicativo Adobe no qual deseja usar a extensão do Workfront.
+1. Vá para o aplicativo do Adobe onde deseja usar a extensão do Workfront.
 
    Para obter uma lista de formatos com suporte para cada aplicativo, consulte [Formatos de arquivo exportados com suporte](#supported-exported-file-formats) neste artigo.
 
 1. Clique em **Janela** > **Extensões** > Workfront.
 
-1. (Opcional) Arraste o painel Workfront até a posição em que deseja exibi-lo no aplicativo Adobe.
+1. (Opcional) Arraste o painel Workfront até a posição em que deseja exibi-lo no aplicativo do Adobe.
 1. Siga as instruções para fazer logon no Workfront.
 
    >[!NOTE]
@@ -101,7 +101,7 @@ Considere o seguinte ao fazer upload ou exportar um arquivo do Adobe Creative Cl
 * Seu nível de acesso deve permitir o upload de documentos para o Workfront. Para obter mais informações, consulte [Conceder acesso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 * Você deve ter permissões para carregar documentos no item em que deseja carregá-los. Para obter mais informações, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 * O arquivo é carregado na área Documentos para o objeto Workfront selecionado.
-* Não é possível exportar um documento para a área Documentos no Menu Principal ![](assets/main-menu-icon.png) de um aplicativo do Adobe Creative Cloud.
+* Não é possível exportar um documento para a área Documentos do ![ícone Menu Principal](assets/main-menu-icon.png) de um aplicativo do Adobe Creative Cloud.
 
 As seções a seguir explicam o seguinte:
 
@@ -135,7 +135,7 @@ Você pode fazer upload de arquivos para um projeto, tarefa ou problema sem sair
 
 1. (Opcional) Digite um novo nome para o arquivo.
 
-   ![](assets/rename-file-uploading.png)
+   ![Renomear arquivo](assets/rename-file-uploading.png)
 
 1. Clique em **Carregar**.
 
@@ -145,7 +145,7 @@ Você pode fazer upload de arquivos para um projeto, tarefa ou problema sem sair
 
    O Workfront é aberto em uma nova guia do navegador.
 
-### Exportar um arquivo atualmente aberto no Illustrator ou InDesign {#export-a-file-currently-open-in-illustrator-or-indesign}
+### Exportar um arquivo aberto no momento no Illustrator ou no InDesign {#export-a-file-currently-open-in-illustrator-or-indesign}
 
 1. Em um aplicativo Adobe Creative Cloud compatível, abra um arquivo que gostaria de exportar para o Workfront.
 1. Se a extensão do Workfront não for exibida, clique em **Janela** > **Extensões** > **Workfront**.
@@ -165,7 +165,7 @@ Você pode fazer upload de arquivos para um projeto, tarefa ou problema sem sair
 1. (Condicional) Se o item de trabalho no qual você deseja carregar o arquivo tiver pastas de documentos, selecione uma pasta de documentos no campo **Clique para selecionar uma pasta de documentos** e clique em **Selecionar**.
 1. (Opcional) Para renomear o documento, clique no nome do documento e digite um novo nome.
 
-   ![](assets/rename-doc-exporting.png)
+   ![Renomear documento ao exportar](assets/rename-doc-exporting.png)
 
 1. Clique em **Exportar**.
 
@@ -181,7 +181,7 @@ Você pode fazer upload de arquivos para um projeto, tarefa ou problema sem sair
 
 ### Fazer upload de uma nova versão de um arquivo do Illustrator ou InDesign {#upload-a-new-version-of-a-file-from-illustrator-or-indesign}
 
-1. Se você deseja exportar um arquivo em que está trabalhando em um aplicativo Adobe compatível como uma nova versão de um arquivo no Workfront, abra o arquivo no aplicativo Adobe.
+1. Se quiser exportar um arquivo em que está trabalhando em um aplicativo Adobe compatível como uma nova versão de um arquivo no Workfront, abra o arquivo no aplicativo Adobe.
 1. Se a extensão do Workfront não for exibida, clique em **Janela** > **Extensões** > **Workfront**.
 
    Uma lista de itens de trabalho atribuídos a você é exibida se o projeto tiver um status atual. Se uma lista não for exibida, faça logon no Workfront.
@@ -192,13 +192,13 @@ Você pode fazer upload de arquivos para um projeto, tarefa ou problema sem sair
 
    Você pode pesquisar digitando o nome na caixa **Pesquisar** e selecionando **Projeto**, **Tarefa** ou **Problema** no menu suspenso à direita da caixa **Pesquisar**. Se o nome do item de trabalho não aparecer na lista, pressione **Enter** para pesquisar todos os itens de Workfront aos quais você tem acesso para visualizar.
 
-   Todos os documentos carregados para projetos, tarefas ou problemas são exibidos em uma lista, independentemente de terem sido carregados do aplicativo Adobe.
+   Todos os documentos carregados para projetos, tarefas ou problemas são exibidos em uma lista, independentemente de terem sido carregados por meio do aplicativo do Adobe.
 
 1. No menu suspenso **Clique para selecionar o formato**, clique no formato no qual deseja salvar o arquivo no Workfront.
 
-   Isso é necessário se estiver exportando um arquivo que está aberto no aplicativo Adobe. Para obter uma lista de formatos com suporte para cada aplicativo, consulte [Formatos de arquivo exportados com suporte](#supported-exported-file-formats) neste artigo.
+   Isso é necessário se estiver exportando um arquivo aberto no aplicativo do Adobe. Para obter uma lista de formatos com suporte para cada aplicativo, consulte [Formatos de arquivo exportados com suporte](#supported-exported-file-formats) neste artigo.
 
-1. Se você estiver exportando um arquivo aberto no aplicativo Adobe como uma nova versão do documento Workfront selecionado, clique em **Exportar**.
+1. Se estiver exportando um arquivo aberto no aplicativo Adobe como uma nova versão do documento Workfront selecionado, clique em **Exportar**.
 
    Ou
 
@@ -211,13 +211,13 @@ Você pode fazer upload de arquivos para um projeto, tarefa ou problema sem sair
    >O nome do documento no Workfront é preenchido por padrão e não pode ser editado. Além disso, não altera o nome do arquivo que você carrega ou exporta como uma nova versão.
    >
    >
-   >![](assets/doc-name-cant-be-changed.png)
+   >![O nome do documento não pode ser alterado](assets/doc-name-cant-be-changed.png)
 
-## Comentar em um documento do Workfront no Illustrator ou no InDesign {#comment-on-a-workfront-document-from-illustrator-or-indesign}
+## Comentar em um documento do Workfront no Illustrator ou InDesign {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
-Você pode adicionar comentários diretamente a um documento do Workfront em um aplicativo Adobe. No Workfront, os comentários são exibidos na área Atualizações do documento e na área Atualizações para o item do Workfront em que o documento foi salvo.
+Você pode adicionar comentários diretamente a um documento do Workfront em um aplicativo do Adobe. No Workfront, os comentários são exibidos na área Atualizações do documento e na área Atualizações para o item do Workfront em que o documento foi salvo.
 
-1. Abra um dos aplicativos de Adobe compatíveis.
+1. Abra um dos aplicativos Adobe compatíveis.
 1. Se a extensão do Workfront não for exibida, clique em **Janela** > **Extensões** > **Workfront**.
 
    Uma lista de itens de trabalho atribuídos a você é exibida se o projeto tiver um status atual. Se uma lista não for exibida, faça logon no Workfront.
@@ -243,23 +243,23 @@ Você pode adicionar comentários diretamente a um documento do Workfront em um 
 
 ## Solicitar uma aprovação de documento do Illustrator ou do InDesign
 
-Você pode solicitar uma aprovação de documento do Workfront diretamente de um aplicativo Adobe.
+Você pode solicitar uma aprovação de documento do Workfront diretamente de um aplicativo do Adobe.
 
 Você pode solicitar uma aprovação de documento às seguintes entidades:
 
 * Um usuário do Workfront
 * Um usuário externo sem uma conta do Workfront
 
-Você pode solicitar uma aprovação em um documento de um aplicativo Adobe das seguintes maneiras:
+Você pode solicitar uma aprovação em um documento de um aplicativo do Adobe das seguintes maneiras:
 
 * Anexando um aprovador ao documento.
 * Ao comentar em um documento, notificar a pessoa quando você fizer um comentário e anexá-lo como um aprovador do documento.
 
   Para obter informações sobre como solicitar uma aprovação ao comentar em um documento, consulte a seção [Comentar em um documento do Workfront do Illustrator ou do InDesign](#comment-on-a-workfront-document-from-illustrator-or-indesign) neste artigo.
 
-Para solicitar uma aprovação em um documento de um aplicativo Adobe:
+Para solicitar uma aprovação em um documento de um aplicativo do Adobe:
 
-1. Abra um dos aplicativos de Adobe compatíveis.
+1. Abra um dos aplicativos Adobe compatíveis.
 1. Se a extensão do Workfront não for exibida, clique em **Janela** > **Extensões** > **Workfront**.
 
    Uma lista de itens de trabalho atribuídos a você é exibida se o projeto tiver um status atual. Se uma lista não for exibida, faça logon no Workfront.
@@ -276,7 +276,7 @@ Para solicitar uma aprovação em um documento de um aplicativo Adobe:
 
    * Digite o nome de um aprovador e selecione-o quando ele for exibido na lista.
 
-     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![Adicionar um aprovador de documento](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * Digite o endereço de email de um usuário externo.
 
@@ -289,9 +289,9 @@ Para solicitar uma aprovação em um documento de um aplicativo Adobe:
 
 ## Gerar uma prova pelo Illustrator ou InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
-Se sua organização usar modelos de fluxo de trabalho automatizado, você poderá gerar uma prova para um documento criado em um aplicativo Adobe sem sair do aplicativo. Para obter informações sobre como criar provas, consulte [Criar provas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Para obter informações sobre modelos de Fluxo de Trabalho Automatizado, consulte [modelos de Fluxo de Trabalho Automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) na [visão geral do Fluxo de Trabalho Automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Se sua organização usar modelos de fluxo de trabalho automatizado, você poderá gerar uma prova para um documento criado em um aplicativo do Adobe sem sair do aplicativo. Para obter informações sobre como criar provas, consulte [Criar provas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Para obter informações sobre modelos de Fluxo de Trabalho Automatizado, consulte [modelos de Fluxo de Trabalho Automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) na [visão geral do Fluxo de Trabalho Automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
-1. Abra um dos aplicativos de Adobe compatíveis.
+1. Abra um dos aplicativos Adobe compatíveis.
 1. Se a extensão do Workfront não for exibida, clique em **Janela** > **Extensões** > Workfront.
 
    Uma lista de itens de trabalho atribuídos a você é exibida se o projeto tiver um status atual. Se uma lista não for exibida, faça logon no Workfront.
@@ -302,7 +302,7 @@ Se sua organização usar modelos de fluxo de trabalho automatizado, você poder
 
    Ou
 
-   Carregue um documento Adobe para um objeto Workfront, conforme descrito na seção [Carregue um arquivo para um projeto, tarefa ou problema do Workfront](#upload-a-file-to-a-workfront-project-task-or-issue) neste artigo, em seguida, clique no nome do documento.
+   Carregue um documento do Adobe para um objeto do Workfront, conforme descrito na seção [Carregue um arquivo para um projeto, tarefa ou problema do Workfront](#upload-a-file-to-a-workfront-project-task-or-issue) neste artigo, em seguida, clique no nome do documento.
 
 1. No menu suspenso **Clique para selecionar o formato**, clique no formato no qual deseja salvar o arquivo no Workfront.
 
@@ -350,11 +350,11 @@ Se sua organização usar modelos de fluxo de trabalho automatizado, você poder
 
 1. No aplicativo Adobe, clique em **Janela** > **Extensões** > **Workfront**.
 
-1. Clique no menu ![](assets/more-menu.png) de **Mais**, no canto superior direito do painel.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do painel.
 
 1. (Opcional) Clique em **Feedback** para abrir uma breve pesquisa e enviar à Workfront seus comentários sobre o Workfront para Adobe Creative Cloud.
 1. Clique em **Logout**.\
-   A tela Login (Login) é exibida. Para obter informações sobre como fazer logon, consulte [Fazer logon na extensão do Workfront do Illustrator ou do InDesign](#log-in-to-workfront-extension-from-illustrator-or-indesign) neste artigo.
+   A tela Login (Login) é exibida. Para obter informações sobre como fazer logon, consulte [Fazer logon na extensão do Workfront da Illustrator ou do InDesign](#log-in-to-workfront-extension-from-illustrator-or-indesign) neste artigo.
 
 ## Formatos de arquivo exportados com suporte {#supported-exported-file-formats}
 
@@ -369,14 +369,14 @@ O Workfront é compatível com os seguintes formatos de arquivo para exportar ar
 * EPUB - Publicação eletrônica de layout fixo
 * EPUB - Publicação eletrônica refluível &#42;
 * HTML - Linguagem de marcação de hipertexto
-* IDML - Linguagem de Marcação de InDesign &#42;
+* IDML - Linguagem de marcação do InDesign &#42;
 * JPG, JPEG - Grupo conjunto de especialistas em fotografia
 * PDF - Arquivo de documento portátil Adobe
 * PNG - Portable Network Graphics
 * SWF - Flash Player &#42;
 * XML - Linguagem de Marcação Extensível &#42;
 
-&#42; Este formato de arquivo não está disponível quando **Carregar uma nova prova** está habilitado (para obter informações sobre esta opção, consulte [Gerar uma prova do Illustrator ou InDesign](#generate-a-proof-from-illustrator-or-indesign) neste artigo). Se este formato de arquivo já estiver selecionado antes de habilitar **Carregar uma nova prova**, o sistema alterará o formato de arquivo para PDF. Você pode selecionar um formato diferente na lista.
+&#42; Este formato de arquivo não está disponível quando **Carregar uma nova prova** está habilitado (para obter informações sobre esta opção, consulte [Gerar uma prova do Illustrator ou do InDesign](#generate-a-proof-from-illustrator-or-indesign) neste artigo). Se este formato de arquivo já estiver selecionado antes de habilitar **Carregar uma nova prova**, o sistema alterará o formato de arquivo para PDF. Você pode selecionar um formato diferente na lista.
 
 ### Formatos de arquivo exportados compatíveis com o Adobe Illustrator  {#supported-exported-file-formats-for-adobe-illustrator}
 
@@ -389,4 +389,4 @@ O Workfront é compatível com os seguintes formatos de arquivo para exportar ar
 * SWF - Flash Player &#42;
 * TIFF - Formato de arquivo de imagem marcado
 
-&#42; Este formato de arquivo não está disponível quando **Carregar uma nova prova** está habilitado (para obter informações sobre esta opção, consulte [Gerar uma prova do Illustrator ou InDesign](#generate-a-proof-from-illustrator-or-indesign) neste artigo). Se esse formato de arquivo já estiver selecionado antes de você habilitar **Carregar uma nova prova**, o sistema alterará o formato de arquivo para PNG. Você pode selecionar um formato diferente na lista.
+&#42; Este formato de arquivo não está disponível quando **Carregar uma nova prova** está habilitado (para obter informações sobre esta opção, consulte [Gerar uma prova do Illustrator ou do InDesign](#generate-a-proof-from-illustrator-or-indesign) neste artigo). Se esse formato de arquivo já estiver selecionado antes de você habilitar **Carregar uma nova prova**, o sistema alterará o formato de arquivo para PNG. Você pode selecionar um formato diferente na lista.
