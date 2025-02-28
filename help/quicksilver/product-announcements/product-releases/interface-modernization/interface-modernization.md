@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Para visualizar esta alteração, acesse Equipes > Escolher uma equipe > Iteraç
 
 ### Adicionar histórias e problemas a uma iteração
 
-**Versão de visualização: 6 de fevereiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 6 de fevereiro de 2025; Versão de produção: iniciando a semana de 13 de fevereiro de 2025**
 
 Atualizamos a caixa de diálogo Adicionar história e Adicionar problema com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -187,7 +187,7 @@ Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de p
 
 ### Atualização de interface para a área Aprovações em um documento
 
-**Versão de visualização: 13 de fevereiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 13 de fevereiro de 2025; Versão de produção: iniciando a semana de 27 de fevereiro de 2025**
 
 Atualizamos a área Aprovações em um documento com um design mais moderno e consistente com outras áreas do Workfront.
 
