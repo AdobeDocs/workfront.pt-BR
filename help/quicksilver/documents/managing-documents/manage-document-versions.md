@@ -6,9 +6,9 @@ description: É possível gerenciar várias versões de um documento no Workfron
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ Você deve ter o seguinte:
 
 1. Próximo à parte superior da página Detalhes do documento, clique no menu suspenso próximo ao nome e, em seguida, clique no nome da versão que deseja exibir e gerenciar.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Lista suspensa de versões nos detalhes do documento](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Além de visualizar os Detalhes da versão, você pode fazer alterações na versão, como nome, metadados e configurações de prova (se for uma prova de documento).
 
 ## Baixar uma única versão do documento
 
-1. No Resumo, em **Versões**, clique no menu Mais ![](assets/more-icon.png) à direita da versão e clique em **Baixar** na lista suspensa exibida.
+1. No Resumo, em **Versões**, clique no menu Mais ![Mais menu](assets/more-icon.png) à direita da versão e clique em **Baixar** na lista suspensa exibida.
 
-   ![](assets/more-versions-350x143.png)
+   ![Baixar um único documento](assets/more-versions-350x143.png)
 
 ## Baixar todas as versões de um documento
 
@@ -105,4 +105,4 @@ Para excluir uma versão do documento:
 
    Se o documento estiver vinculado a uma origem externa, esse link será excluído e o documento não estará mais acessível por meio do Workfront.
 
-   ![](assets/more-versions-350x143.png)
+   ![excluir versão do documento](assets/more-versions-350x143.png)
