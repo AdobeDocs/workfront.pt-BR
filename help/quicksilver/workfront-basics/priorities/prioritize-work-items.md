@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
    | **Normal** | O normal é para itens de trabalho de rotina nos quais você trabalhará depois que itens Urgentes e de Alta prioridade forem concluídos. Esse é o padrão para tarefas e problemas. |
    | **Baixo** | Baixa é para itens de trabalho que não precisam de atenção imediata e podem ser adiados até que todos os itens de trabalho de prioridade mais alta sejam concluídos. |
 
-   ![](assets/my-focus-new.png)
+   ![Meu foco](assets/my-focus-new.png)
 
    >[!TIP]
    >
