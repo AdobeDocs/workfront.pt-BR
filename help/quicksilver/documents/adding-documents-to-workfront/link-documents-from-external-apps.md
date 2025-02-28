@@ -6,9 +6,9 @@ description: Você pode vincular documentos e pastas ao Adobe Workfront a partir
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2620'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Você pode vincular documentos ao Workfront a partir de um aplicativo externo, c
 
    >[!NOTE]
    >
-   >Os clientes do Workfront DAM podem visualizar miniaturas ao vincular documentos do Workfront DAM. As miniaturas também podem ser exibidas para clientes do Workfront DAM para outros serviços, como Dropbox e Box. No entanto, visualizar miniaturas de serviços diferentes do Workfront DAM no Workfront não é suportado e as miniaturas nunca são exibidas ao vincular documentos do SharePoint ou do Google Drive.
+   >Os clientes do Workfront DAM podem visualizar miniaturas ao vincular documentos do Workfront DAM. Miniaturas também podem ser exibidas para clientes do Workfront DAM para outros serviços, como Dropbox e Box. No entanto, visualizar miniaturas de serviços diferentes do Workfront DAM no Workfront não é suportado e as miniaturas nunca são exibidas ao vincular documentos do SharePoint ou do Google Drive.
 
 1. Clique em **Link**.
 
@@ -163,7 +163,7 @@ Você pode vincular documentos ao Workfront a partir de um aplicativo externo, c
 
 1. Clique em **Adicionar novo** > **Versão** e clique no provedor de documento externo.
 
-   Por exemplo, para vincular uma nova versão de um documento do Dropbox, clique em **Do Dropbox**.
+   Por exemplo, para vincular uma nova versão de um documento do Dropbox, clique em **No Dropbox**.
 
    Os provedores externos que você já autorizou aparecem no topo da lista.
 
@@ -184,7 +184,7 @@ Você pode vincular documentos ao Workfront a partir de um aplicativo externo, c
 
    >[!NOTE]
    >
-   >Os clientes do Workfront DAM podem visualizar miniaturas ao vincular documentos do Workfront DAM. As miniaturas também podem ser exibidas para clientes do Workfront DAM para outros serviços, como Dropbox e Box. No entanto, visualizar miniaturas de serviços diferentes do Workfront DAM no Workfront não é suportado e as miniaturas nunca são exibidas ao vincular documentos do SharePoint ou do Google Drive.
+   >Os clientes do Workfront DAM podem visualizar miniaturas ao vincular documentos do Workfront DAM. Miniaturas também podem ser exibidas para clientes do Workfront DAM para outros serviços, como Dropbox e Box. No entanto, visualizar miniaturas de serviços diferentes do Workfront DAM no Workfront não é suportado e as miniaturas nunca são exibidas ao vincular documentos do SharePoint ou do Google Drive.
 
 1. Clique em **Link**.
 
@@ -248,7 +248,7 @@ Os usuários sem acesso ao Workfront podem ver o documento no aplicativo externo
 1. Selecione um documento que seja carregado no Workfront.
 1. Clique em **Mais** >**Enviar para** e selecione o provedor de nuvem no qual deseja armazenar o documento vinculado.
 
-   Para fazer isso, também é possível usar o menu Mais ![](assets/more-icon.png) na página Detalhes do Documento.
+   Você também pode usar o menu Mais ![Mais menu](assets/more-icon.png) na página Detalhes do Documento para fazer isso.
 
 1. Selecione a pasta no aplicativo do provedor em que você deseja armazenar o documento.
 
@@ -278,7 +278,7 @@ Ao sincronizar o conteúdo da pasta de um aplicativo de documento externo, o Wor
 
 ### Vincular uma ou mais pastas externas {#link-one-or-more-external-folders}
 
-1. Vá para a área no Workfront em que você deseja a pasta e clique em **Documentos** ![](assets/document-icon.png) no painel esquerdo.
+1. Vá para a área no Workfront em que você deseja a pasta e clique em **Documentos** ![ícone Documentos](assets/document-icon.png) no painel esquerdo.
 
 1. Clique em **Adicionar novo** e clique no provedor de documento externo do qual você deseja vincular uma pasta ao Workfront.
 1. (Condicional) Se você ainda não autorizou o serviço externo, especifique suas credenciais de logon para o provedor externo e clique em **Entrar**.
@@ -301,9 +301,9 @@ Ao sincronizar o conteúdo da pasta de um aplicativo de documento externo, o Wor
 
    No Workfront, o logotipo do provedor de nuvem é exibido ao lado da pasta, indicando que está vinculado ao provedor de nuvem externo.
 
-1. (Opcional) Para renomear a pasta de forma que o nome dela no Workfront seja diferente do nome da pasta no aplicativo de documento externo, selecione a pasta na seção **Pastas**, clique no menu Mais ![](assets/more-icon.png) que é exibido ao lado do nome da pasta e clique em **Renomear**.
+1. (Opcional) Para renomear a pasta de forma que o nome da pasta no Workfront seja diferente do nome da pasta no aplicativo de documento externo, selecione a pasta na seção **Pastas**, clique no menu Mais ![menu Mais](assets/more-icon.png) que é exibido ao lado do nome da pasta e clique em **Renomear**.
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![Renomear pasta](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Isso não renomeia a pasta no aplicativo externo.
 
@@ -317,7 +317,7 @@ Você pode criar uma nova pasta dentro de uma pasta vinculada existente. Você t
 
    Para arrastar uma pasta existente para uma pasta vinculada existente, vá para a área Documentos onde deseja a subpasta e arraste-a para a pasta vinculada.
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![Arrastar para a pasta vinculada](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >
