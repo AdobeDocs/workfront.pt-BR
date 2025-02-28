@@ -6,9 +6,9 @@ description: Você pode visualizar a alocação de funções para todas as funç
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Você deve ter o seguinte:
 
 ## Exibir horas planejadas do projeto no painel Alocação de função
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Projetos**.
+1. Clique no ícone **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront, e clique em **Projetos**.
 1. Clique no nome de um projeto para acessá-lo. Isso abre a página Projeto.
 1. Clique em uma das opções a seguir no painel esquerdo:
 
