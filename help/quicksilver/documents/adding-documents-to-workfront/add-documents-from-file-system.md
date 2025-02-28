@@ -6,9 +6,9 @@ description: Você pode adicionar documentos a projetos, tarefas ou problemas em
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Você pode adicionar documentos a projetos, tarefas ou problemas nas seguintes �
 * A área Documentos de um objeto do Workfront
 * Uma placa conectada em uma placa Workfront
 
-Você também pode carregar novas versões de documentos e adicionar links para documentos de fornecedores de nuvem de terceiros, como Google Drive, Dropbox e Microsoft OneDrive. Para obter informações sobre como adicionar novas versões de documentos, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md). Para obter informações sobre como adicionar documentos de fornecedores de nuvem de terceiros, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Você também pode carregar novas versões de documentos e adicionar links a documentos de fornecedores de nuvem de terceiros, como Google Drive, Dropbox e Microsoft OneDrive. Para obter informações sobre como adicionar novas versões de documentos, consulte [Carregar uma nova versão de um documento](../../documents/managing-documents/upload-new-document-version.md). Para obter informações sobre como adicionar documentos de fornecedores de nuvem de terceiros, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Não há restrições quanto aos tipos e tamanhos de arquivos que você pode carregar no Workfront. No entanto, para ser bem-sucedido, o upload deve ser concluído em cinco minutos e você deve ter espaço de armazenamento adequado disponível.
 
@@ -71,7 +71,7 @@ Para adicionar um documento:
 1. Vá para o projeto, tarefa ou problema em que deseja adicionar um novo documento.
 1. Clique na guia **Documentos** e no menu suspenso **Adicionar novo**.
 
-   ![](assets/add-new-doc.png)
+   ![Adicionar novo documento](assets/add-new-doc.png)
 
 1. Dependendo do tipo de documento que deseja adicionar, execute um dos procedimentos a seguir:
 
