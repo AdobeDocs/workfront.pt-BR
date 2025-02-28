@@ -6,9 +6,9 @@ description: É possível adicionar um formulário personalizado a um documento 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Para adicionar um formulário personalizado a um documento:
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Clique no ícone ![](assets/summary-panel-icon.png) do **Resumo** e localize a seção **Detalhes**.
+1. Clique no ícone **Resumo** ícone ![Resumo](assets/summary-panel-icon.png) e localize a seção **Detalhes**.
 1. Na caixa **Adicionar formulário personalizado**, comece a digitar e selecione um formulário personalizado. O formulário é salvo automaticamente no documento.
 
    >[!NOTE]
@@ -73,8 +73,8 @@ Para adicionar um formulário personalizado a um documento:
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Clique no ícone ![](assets/summary-panel-icon.png) do **Resumo** e localize a seção **Detalhes** próxima à parte superior.
+1. Clique no ícone **Resumo** ícone ![Resumo](assets/summary-panel-icon.png) e localize a seção **Detalhes** próxima à parte superior.
 1. Clique em **Editar** no canto superior direito e expanda o formulário desejado.
 1. Faça as alterações necessárias e clique em **Salvar**.
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![Editar formulário personalizado](assets/edit-custom-form-350x265.png)
