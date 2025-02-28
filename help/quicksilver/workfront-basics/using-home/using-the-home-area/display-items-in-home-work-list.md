@@ -6,9 +6,9 @@ description: Cada widget contém sua própria lista de trabalho. As listas de tr
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>permissões do Contribute ou superiores às tarefas e problemas nos quais você precisa trabalhar</p>  </td> 
+   <td> <p>Contribute permissões ou superior para as tarefas e problemas que você precisa trabalhar</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Você pode filtrar itens na [!UICONTROL Lista de Trabalho] de um widget para ver
 
 Para filtrar o trabalho:
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
 
    | Dispositivo | Descrição |
@@ -117,12 +117,12 @@ Para filtrar o trabalho:
    | Minhas solicitações | Exibe todas as solicitações que você enviou |
    | Minhas aprovações | Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas |
 
-1. Clique no ícone **Filtro** ![](assets/filter-nwepng.png) no canto superior direito da lista de trabalho do widget.
+1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png) no canto superior direito da lista de trabalho do widget.
 1. Escolha um filtro **Sugerido** ou um filtro que você tenha criado.
 Para obter informações detalhadas sobre os filtros sugeridos, consulte [Visão geral dos filtros de widget da página inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Opcional) Ative **Empilhar filtros** para selecionar várias opções de filtro.
 
-   ![](assets/my-task-filter-open.png)
+   ![Meu filtro de Tarefa aberto](assets/my-task-filter-open.png)
 
 
 ## Agrupar seu trabalho
@@ -131,7 +131,7 @@ Você pode agrupar o widget [!UICONTROL lista de trabalho] para manter seus iten
 
 Para agrupar a lista de trabalho:
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
 
    | Dispositivo | Descrição |
@@ -144,16 +144,16 @@ Para agrupar a lista de trabalho:
    | Minhas solicitações | Exibe todas as solicitações que você enviou |
    | Minhas aprovações | Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas |
 
-1. Clique no ícone ![](assets/group-icon.png) do **Grupo** no canto superior direito da lista de trabalho do widget.
+1. Clique no ícone do **Grupo** ![Ícone do grupo](assets/group-icon.png) no canto superior direito da lista de trabalho do widget.
 1. Escolha um agrupamento **Sugerido** ou um agrupamento que você tenha criado.
-   ![](assets/grouping-expanded.png)
+   ![Agrupamento expandido](assets/grouping-expanded.png)
 
 
 ## Personalizar colunas da lista de trabalho
 
 Você pode escolher quais colunas aparecerão na lista de trabalho do widget:
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar um dos seguintes widgets:
 
    | Dispositivo | Descrição |
@@ -166,10 +166,10 @@ Você pode escolher quais colunas aparecerão na lista de trabalho do widget:
    | Minhas solicitações | Exibe todas as solicitações que você enviou |
    | Minhas aprovações | Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas |
 
-1. Clique no ícone **Coluna** ![](assets/column-icon.png) no canto superior direito da lista de trabalho do widget.
+1. Clique no ícone **Coluna** ![Ícone Coluna](assets/column-icon.png) no canto superior direito da lista de trabalho de widgets.
 1. Ative ou desative as colunas de acordo com suas preferências.
-1. (Opcional) Clique no ícone ![](assets/drag-icon.png) de **Arrastar** para reordenar as colunas.
-   ![](assets/columns-expanded.png)
+1. (Opcional) Clique no ícone **Arrastar** ![Ícone Arrastar](assets/drag-icon.png) para reordenar as colunas.
+   ![Colunas expandidas](assets/columns-expanded.png)
 
 
 ## Exibir itens atrasados
