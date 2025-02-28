@@ -6,9 +6,9 @@ description: É possível adicionar uma nova versão de um documento que você t
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Você deve ter o seguinte:
 1. Vá para a área Documentos onde o documento é carregado.
 1. Na área de trabalho ou em uma guia separada do navegador, arraste a nova versão do documento para cima da versão existente no Workfront.
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
+   ![Arraste e solte a versão do documento](assets/drag-drop-doc-qs-350x145.png)
 
    Ao arrastar a nova versão, é possível passar o mouse sobre uma pasta de documentos do Workfront para abri-la. Você pode rolar para cima e para baixo arrastando os arquivos até a parte superior ou inferior da tela.
 
@@ -80,6 +80,6 @@ Você deve ter o seguinte:
 1. Selecione o documento no qual deseja adicionar uma nova versão.
 1. Clique em **Adicionar novo** > **Versão**.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Adicionar nova versão](assets/add-new-version-350x185.png)
 
 1. Selecione o tipo de documento que deseja fazer upload e siga as instruções.
