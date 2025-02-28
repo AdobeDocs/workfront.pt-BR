@@ -6,9 +6,9 @@ description: Você pode marcar uma tarefa ou problema como Concluído se for o d
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>permissões do Contribute ou superior para as tarefas e problemas que você precisa para trabalhar</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superior para as tarefas e problemas que você precisa trabalhar</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,21 +58,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Marcar um item de trabalho como Concluído no widget Meu trabalho
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Meu trabalho**.
 1. Localize o item de trabalho e clique em **[!UICONTROL Marcar como Concluído]** no item de trabalho.
 Consulte [Entender as opções do botão [!UICONTROL Concluído]](#understand-the-options-of-the-done-button) para obter informações mais detalhadas sobre como esse botão pode aparecer.
-   ![](assets/my-work-done.png)
+   ![Minha Marca de Trabalho como Concluída](assets/my-work-done.png)
 
 
 ## Marcar um item de trabalho como Concluído no painel Resumo
 
 Você pode marcar um item de trabalho como Concluído no widget Minhas tarefas e Meus problemas usando o painel Resumo.
 
-1. Clique no **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) no canto superior direito e em **[!UICONTROL Página inicial]**.
+1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar os widgets **Minhas Tarefas** ou **Meus Problemas**.
 1. Passe o mouse sobre o item de trabalho e clique no ícone **Resumo**.
-   ![](assets/open-summary-new-home.png)
+   ![Abrir resumo](assets/open-summary-new-home.png)
 1. Clique em **Marcar como concluído** na parte superior do painel Resumo.
 
 
@@ -113,5 +113,5 @@ Se o botão Concluído estiver associado a vários status, eles serão listados 
 >
 >Em uma tarefa ou problema com vários atribuídos, cada usuário é responsável por indicar que sua própria atribuição na tarefa ou problema foi realmente concluída. Por esse motivo, cada destinatário deve clicar em [!UICONTROL Concluído] para mostrar que concluiu o trabalho atribuído a ele no item.
 
-![](assets/done-with-my-part.png)
+![Concluído com minha parte](assets/done-with-my-part.png)
 
