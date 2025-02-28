@@ -6,9 +6,9 @@ description: Os documentos podem ser organizados em pastas. Você pode criar pas
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
 
 1. Clique nas opções de exibição acima do painel direito para alterar a forma como os documentos são exibidos.
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![Opções de exibição do documento](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Criar pastas e subpastas
 
