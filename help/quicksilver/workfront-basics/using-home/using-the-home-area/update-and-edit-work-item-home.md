@@ -6,10 +6,10 @@ description: Você pode exibir e adicionar atualizações a um item de trabalho 
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 7%
+source-wordcount: '869'
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>permissões do Contribute ou superiores às tarefas e problemas nos quais você precisa trabalhar</p> </td> 
+   <td> <p>Contribute permissões ou superior para as tarefas e problemas que você precisa trabalhar</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -104,13 +104,13 @@ Você pode editar itens de trabalho nos seguintes widgets na área Página inici
 
 Você pode fornecer atualizações em qualquer item de trabalho no widget [!UICONTROL Meu Trabalho]:
 
-1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
+1. Clique no **[!UICONTROL Ícone do]** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![ícone das linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget [!UICONTROL **Meu trabalho**].
 
 1. Localize o item de trabalho que você deseja atualizar no widget [!UICONTROL **Meu Trabalho**].
 1. Passe o cursor do mouse sobre o nome e clique no ícone **Adicionar nova atualização**.
 
-   ![](assets/add-update-on-widget.png)
+   ![Adicionar atualização no widget](assets/add-update-on-widget.png)
 
 1. Comece a digitar seu comentário.
 1. (Opcional) Na caixa **Marcar pessoas ou equipes**, comece digitando o nome ou o email de um usuário ou de uma equipe que você deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
@@ -132,7 +132,7 @@ Você pode fornecer atualizações em qualquer item de trabalho no widget [!UICO
 
 1. Clique em **Responder**.
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![Responder ao comentário](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Comece a digitar seu comentário.
 1. (Opcional) Na caixa **Marcar pessoas**, comece digitando o nome de um usuário ou equipe que você deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
@@ -149,11 +149,11 @@ Você pode fornecer atualizações em qualquer item de trabalho no widget [!UICO
 
 É possível editar qualquer campo em qualquer item de trabalho que você tenha acesso para editar.
 
-1. Clique no **[!UICONTROL Menu Principal]** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **[!UICONTROL Página Inicial]**.
+1. Clique no **[!UICONTROL Ícone do]** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![ícone das linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Clique em **Personalizar** para adicionar o widget **Meu trabalho**.
 
 1. Passe o mouse sobre o item de trabalho e clique no ícone **Resumo**.
-   ![](assets/open-summary-new-home.png)
+   ![Abrir resumo](assets/open-summary-new-home.png)
 
 1. No painel Resumo, passe o mouse sobre o campo que deseja editar.
 Se você tiver direitos para editar o campo, ele será realçado quando você passar o mouse sobre ele.
