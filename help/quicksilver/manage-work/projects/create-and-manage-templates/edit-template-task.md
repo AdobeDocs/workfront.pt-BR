@@ -7,9 +7,9 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2420'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto </td> 
-   <td> <p>Gerenciar permissões de um modelo. </p> <p>Contribute ou permissões mais altas para a tarefa de modelo.</p> </td> 
+   <td> <p>Gerenciar permissões de um modelo. </p> <p>Permissões do Contribute ou superior para a tarefa de modelo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ Antes de começar, você deve
 1. Clique no nome de uma tarefa de modelo na lista para abrir a tarefa de modelo.
 1. (Opcional) Para editar várias tarefas de modelo em massa, selecione várias tarefas de modelo e clique em **Editar** na parte superior da lista de modelos.
 1. (Condicional) Para editar informações limitadas sobre uma tarefa de modelo, clique em **Detalhes da Tarefa de Modelo** no painel esquerdo e vá para as áreas da seção Detalhes para editar as informações de cada área.
-1. (Opcional) Clique no ícone ![](assets/collapse-all-icon.png) de **Recolher tudo** para recolher todas as áreas.
-1. Para editar informações na seção Detalhes, clique no ícone ![](assets/edit-icon.png) de **Editar** e selecione qualquer uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
+1. (Opcional) Clique no ícone **Recolher tudo** ![Recolher tudo](assets/collapse-all-icon.png) para recolher todas as áreas.
+1. Para editar informações na seção Detalhes, clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) e selecione uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
 
    * Visão geral
    * Formulários personalizados
@@ -96,7 +96,7 @@ Antes de começar, você deve
    >
    >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar Tarefa de Modelo, conforme descrito abaixo.
 
-1. (Condicional) Para editar todas as informações sobre a tarefa de modelo, clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa de modelo e clique em **Editar**.
+1. (Condicional) Para editar todas as informações sobre a tarefa de modelo, clique no menu **Mais** ![ícone Mais](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa de modelo e clique em **Editar**.
 
    A caixa **Editar Tarefa de Modelo** é exibida.
 
@@ -104,7 +104,7 @@ Antes de começar, você deve
    >
    >Você também pode selecionar uma tarefa de modelo em uma lista e clicar em Editar para abrir a caixa Editar tarefa de modelo.
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![Editar tarefa de modelo](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. Considere especificar informações em qualquer uma das seguintes seções:
 
@@ -268,7 +268,7 @@ Antes de começar, você deve
 1. Comece a editar uma tarefa de modelo conforme descrito acima.
 1. Clique em **Configurações**.
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![Editar configurações da tarefa de modelo](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. Atualize qualquer um dos itens a seguir:
 
