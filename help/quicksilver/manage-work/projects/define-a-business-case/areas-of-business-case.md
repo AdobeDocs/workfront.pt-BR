@@ -6,9 +6,9 @@ description: Este artigo descreve as áreas do Business Case de um projeto.
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1607'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,11 @@ Considere editar os seguintes campos:
 
   Considere adicionar outra pessoa que não seja o Proprietário do projeto como Patrocinador do projeto. O patrocinador recebe a aprovação do Business Case. 
 
-* **Portfolio**: especifique um Portfolio para o projeto. Você deve criar o Portfolio e colocá-lo no status de **Ativo** antes que ele esteja disponível para seleção neste menu suspenso.
+* **Portfolio**: especifique uma Portfolio para o projeto. Você deve criar a Portfolio e colocá-la no status de **Ativa** antes que ela esteja disponível para seleção neste menu suspenso.
 
-  Para obter mais informações sobre portfólios, consulte [visão geral de Portfolio no Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Para obter mais informações sobre portfólios, consulte [visão geral do Portfolio no Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-  Para obter mais informações sobre como criar Portfolio, consulte [Criar um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  Para obter mais informações sobre como criar Portfólios, consulte [Criar um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 * **Benefício Planejado**: estima qual será o benefício monetário planejado para sua organização quando este projeto for concluído. Pode ser qualquer valor de moeda e deve ser um valor positivo. Por exemplo, $10.000.
 * **Status**: por padrão, o Status de uma solicitação de projeto é definido como **Ideia**.
@@ -81,7 +81,7 @@ Metas definem os objetivos do projeto. Essa área é ativada por padrão no Busi
 >
 >Você pode criar metas estratégicas para sua organização que não estejam conectadas ao Business Case individual de um projeto. Você deve ter acesso às Metas do Adobe Workfront para criar metas estratégicas. Você pode conectá-los a projetos fora do Business Case. Para obter informações sobre como criar metas usando as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-A definição das metas é opcional para que o projeto receba uma Pontuação no Otimizador de Portfolio. Esta seção é a única seção opcional no Business Case. Todas as outras seções do Business Case devem ser concluídas antes que o projeto seja pontuado no Otimizador de Portfolio. É possível indicar um nível de prioridade para uma meta ao criá-la.
+A definição das metas é opcional para que o projeto receba uma Pontuação no Portfolio Otimizer. Esta seção é a única seção opcional no Business Case. Todas as outras seções do Business Case devem ser concluídas antes que o projeto seja pontuado no Portfolio Otimizer. É possível indicar um nível de prioridade para uma meta ao criá-la.
 
 Para obter mais informações sobre metas, consulte  [Criar metas do Business Case](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
@@ -115,7 +115,7 @@ As horas orçadas para os recursos no projeto são exibidas na área Orçamento 
 
 Para obter mais informações sobre recursos de orçamento para o projeto no Business Case, consulte [Recursos de orçamento no Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![Orçamento de recursos do Business Case](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 Considere o seguinte ao exibir a seção Orçamento de Recursos do Business Case:
 
@@ -125,7 +125,7 @@ Considere o seguinte ao exibir a seção Orçamento de Recursos do Business Case
 
      Para obter informações, consulte [Recursos de orçamento no Business Case usando o Planejador de Recursos](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-   * O Planejador de cenários, se sua empresa adquiriu uma licença adicional para o Planejador de cenários Adobe
+   * O Planejador de cenários , se sua empresa adquiriu uma licença adicional para o Planejador de cenários do Adobe
 
      Para obter mais informações, consulte [Recursos de orçamento no Business Case usando o Planejador de Cenários](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
@@ -149,7 +149,7 @@ Considere o seguinte ao exibir a seção Orçamento de Recursos do Business Case
 
 ## Riscos
 
-Os riscos são fatores que podem impedir que um projeto seja concluído no prazo ou dentro do orçamento. A definição desses fatores é importante para que o gerente de Portfolio ou o patrocinador do projeto tome uma decisão bem fundamentada sobre a aprovação do projeto. Essa área é ativada por padrão no Business Case, mas o administrador do Workfront pode optar por não exibi-la.
+Os riscos são fatores que podem impedir que um projeto seja concluído no prazo ou dentro do orçamento. A definição desses fatores é importante para que o gerente do Portfolio ou o patrocinador do projeto tome uma decisão bem fundamentada sobre a aprovação do projeto. Essa área é ativada por padrão no Business Case, mas o administrador do Workfront pode optar por não exibi-la.
 
 Você pode associar um custo potencial aos riscos que está definindo, caso eles devam ocorrer. O custo dos riscos em um projeto afeta o valor líquido do projeto. 
 
