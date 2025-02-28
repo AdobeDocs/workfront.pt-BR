@@ -6,10 +6,10 @@ description: O widget Meu trabalho exibe todas as tarefas, problemas e solicita�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 5%
+source-wordcount: '744'
+ht-degree: 4%
 
 ---
 
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>permissões do Contribute ou superiores às tarefas e problemas nos quais você precisa trabalhar</p>  </td> 
+   <td> <p>Contribute permissões ou superior para as tarefas e problemas que você precisa trabalhar</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode ajustar os filtros Meu trabalho para se concentrar em itens específicos na lista de trabalho:
 
-![](assets/filter-my-work-widget.png)
+![Filtro do Meu Trabalho](assets/filter-my-work-widget.png)
 
 ### Detalhes do filtro
 
@@ -135,7 +135,7 @@ Os itens vencidos exibem um ícone de aviso ao lado da data. O Workfront usa a D
 >Para criar uma lista que exiba todos os itens em atraso na parte superior do widget Meu trabalho, classifique por Data de vencimento e não aplique um agrupamento.
 
 
-![](assets/sort-my-work-widget.png)
+![Classificar no widget Meu Trabalho](assets/sort-my-work-widget.png)
 
 ### Grupo
 
@@ -151,7 +151,7 @@ A Data de vencimento é determinada pela Data de conclusão planejada.
 >Quando você aplica um agrupamento, sua seleção no menu Classificar determina a ordem dentro do agrupamento.
 
 
-![](assets/group-my-work-widget.png)
+![Agrupamento no widget Meu Trabalho](assets/group-my-work-widget.png)
 
 ## Atualizar informações do item de trabalho no Resumo
 
@@ -167,7 +167,7 @@ Os administradores do Workfront podem personalizar quais campos aparecem no Resu
 * Registrar de tempo
 * Exibir processos de aprovação anexados
 
-Para abrir o Resumo, passe o mouse sobre o item de trabalho e clique no ícone ![](assets/open-summary-new-home.png) de **Resumo**.
+Para abrir o Resumo, passe o mouse sobre o item de trabalho e clique no ícone **Resumo** ícone ![Resumo](assets/open-summary-new-home.png).
 
 Para obter informações adicionais sobre como usar o painel Resumo, consulte [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -182,7 +182,7 @@ Você pode usar o menu de ações rápidas para
 
 Para localizar o menu de ações rápidas, passe o mouse sobre o item de trabalho. A lista de ações rápidas é exibida próximo ao botão **Trabalhar nisto** ou **Concluído**.
 
-![](assets/quick-actions-new-home.png)
+![Menu de ações rápidas](assets/quick-actions-new-home.png)
 
 
 ## Exibir aprovações e solicitações de equipe
