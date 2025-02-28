@@ -6,9 +6,9 @@ description: Você pode excluir documentos dos quais fez upload. Se você recebe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Para excluir um documento:
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Clique no ícone **Excluir** ![](assets/delete.png) acima da área Documentos.
+1. Clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png) acima da área Documentos.
 
 1. Na caixa exibida, clique em **Sim, exclua-o** para confirmar.
 
