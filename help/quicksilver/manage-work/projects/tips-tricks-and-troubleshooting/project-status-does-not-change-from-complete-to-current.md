@@ -7,9 +7,9 @@ description: (Embora isso possa ser adicionado como uma Pergunta frequente, deix
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Se o Modo de conclusão de um projeto for definido como Manual, o status do proj
 Para atualizar o modo de conclusão de um projeto para Manual:
 
 1. Vá para o projeto que deseja atualizar.
-1. Clique no ícone **Mais** ![](assets/more-icon.png) à direita do nome do projeto e em **Editar**.
+1. Clique no ícone **Mais** ícone ![Mais ícone](assets/more-icon.png) à direita do nome do projeto e clique em **Editar**.
 1. Clique em **Projeto** **Configurações**.
 
 1. Localize o menu suspenso **Modo de conclusão** e selecione **Manual**.
