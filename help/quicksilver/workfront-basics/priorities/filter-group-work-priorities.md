@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ Você pode filtrar tarefas e problemas atribuídos a você.
 1. Clique em **Filtros** na parte superior esquerda da lista de trabalho.
 1. clique em **Filtros padrão**.
 1. Selecione um ou vários filtros para restringir seus itens de trabalho.
-   ![](assets/filter-new.png)
+   ![Filtro](assets/filter-new.png)
 
 +++Expanda para ver informações detalhadas sobre os filtros disponíveis
 <table>
@@ -157,7 +157,7 @@ Use a linguagem natural para filtrar rapidamente o trabalho.
 
 1. Clique em **Grupos** na parte superior esquerda da lista de trabalho.
 1. Selecione um grupo para organizar sua lista de trabalho
-   ![](assets/groups-new.png)
+   ![Grupos](assets/groups-new.png)
 
 +++Expanda para ver informações detalhadas sobre grupos disponíveis
 
@@ -184,7 +184,7 @@ Você pode arrastar e soltar itens de trabalho individuais entre categorias ao a
 
 Para classificar seu trabalho em um grupo, abra o **Grupo** e clique em **Classificar em ordem crescente** ou **Classificar em ordem decrescente**.
 
-![](assets/sort-in-groups.png)
+![Classificar em grupos](assets/sort-in-groups.png)
 
 ### Classificar colunas
 
@@ -196,4 +196,4 @@ Para classificar colunas individuais, vá para a coluna e clique na seta para ba
 
 Para expandir ou recolher todas as seções de grupo, abra **Grupo** e clique em **Expandir tudo** ou **Recolher tudo**.
 
-![](assets/expand-collapse-groups.png)
+![Expandir ou recolher grupos](assets/expand-collapse-groups.png)
