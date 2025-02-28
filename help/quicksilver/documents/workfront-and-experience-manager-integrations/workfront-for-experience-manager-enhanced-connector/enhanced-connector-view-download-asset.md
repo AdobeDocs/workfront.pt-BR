@@ -6,9 +6,9 @@ description: Você pode visualizar ou baixar um ativo no Adobe Workfront que est
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Antes de começar, você deve
 1. Na lista de documentos, selecione o documento.
 1. No Resumo do documento à direita, passe o mouse sobre a miniatura na parte superior e escolha **Visualizar** ou **Baixar**.
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![Visualizar ou Baixar](assets/view-or-download-enhanced-connector-350x123.png)
