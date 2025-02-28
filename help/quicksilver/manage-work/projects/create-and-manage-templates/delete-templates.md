@@ -6,9 +6,9 @@ description: Recomendamos desativar os modelos que não estão mais sendo usados
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,6 @@ Isso abre uma lista de modelos
 
    Ou
 
-   Clique no nome de um modelo para acessá-lo e, em seguida, clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) e depois em **Excluir modelo > Sim, excluí-lo**.
+   Clique no nome de um modelo para acessá-lo e no menu **Mais**, ícone ![Mais](assets/qs-more-icon-on-an-object.png) e **Excluir modelo > Sim, excluí-lo**.
 
    O modelo não está mais disponível para ser associado a um projeto.
