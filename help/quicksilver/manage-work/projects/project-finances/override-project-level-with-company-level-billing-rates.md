@@ -6,9 +6,9 @@ description: Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobra
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Quando uma empresa está associada a um projeto e essa opção está habilitada,
 Quando um usuário recalcula manualmente as finanças do projeto, qualquer alteração nas taxas de cobrança no nível da empresa é aplicada. Os cálculos de receita histórica também são substituídos, a menos que estejam marcados como faturados.
 
 1. Ir para um projeto.
-1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Editar**.
+1. Clique no menu **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Editar**.
 1. Na seção **Finanças**, habilite **Permitir que taxas de cobrança no nível da empresa substituam taxas de cobrança no nível do projeto**.
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ Depois que você ativou a opção de substituição de taxas de cobrança no ní
    * Um único projeto:
 
       1. Vá para o projeto para o qual você ativou a substituição de taxas de cobrança no nível da empresa.
-      1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Recalcular Finanças**.
+      1. Clique no menu **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) ao lado do nome do projeto no cabeçalho e clique em **Recalcular Finanças**.
