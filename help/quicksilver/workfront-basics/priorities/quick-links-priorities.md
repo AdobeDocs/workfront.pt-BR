@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Na seção **Links rápidos**, clique em **Adicionar link**.
 1. Cole a URL na caixa **Adicionar link**.
 1. Clique em **Salvar**.
-   ![](assets/add-link.png)
+   ![Adicionar link](assets/add-link.png)
 
 ## Copiar um link rápido para a área de transferência
 
@@ -73,8 +73,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no nome de um item de trabalho para abrir a página Visão geral.
 1. Na seção **Links rápidos**, localize o link que deseja copiar.
-1. Clique no ícone Copiar ![](assets/copy-icon.png).
-   ![](assets/copy-link.png)
+1. Clique no ícone Copiar ![Ícone Copiar](assets/copy-icon.png).
+   ![Copiar link](assets/copy-link.png)
 
 ## Abrir um link rápido
 
@@ -83,7 +83,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no nome de um item de trabalho para abrir a página Visão geral.
 1. Na seção **Links rápidos**, localize o link que deseja abrir.
 1. Clique no link. O link é aberto em uma nova guia.
-   ![](assets/open-link.png)
+   ![Abrir link](assets/open-link.png)
 
 ## Excluir Links Rápidos
 
@@ -91,5 +91,5 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no nome de um item de trabalho para abrir a página Visão geral.
 1. Clique em **Editar detalhes** no canto superior direito da tela.
-   ![](assets/edit-details.png)
-1. Localize o link que deseja remover e clique no ícone Excluir ![](assets/delete-icon.png).
+   ![Editar detalhes](assets/edit-details.png)
+1. Localize o link que deseja remover e clique no ícone Excluir ![ícone Excluir](assets/delete-icon.png).
