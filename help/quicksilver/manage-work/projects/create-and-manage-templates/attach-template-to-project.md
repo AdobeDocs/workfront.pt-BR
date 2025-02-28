@@ -6,9 +6,9 @@ description: Você pode anexar um modelo a um projeto durante a fase de criaçã
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ Você deve ter o seguinte para executar as etapas descritas neste artigo:
 
 Você pode anexar um modelo a um projeto no Workfront a partir da página do projeto ou de uma lista de projetos ou relatório.
 
-1. Vá para o projeto ao qual deseja anexar um modelo e clique no ícone **Mais** ![](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto
+1. Vá para o projeto ao qual deseja anexar um modelo e clique no ícone **Mais** ícone ![Mais ícone](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Mais lista suspensa](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no ícone **Mais** ![](assets/qs-more-icon-on-an-object.png) na parte superior da lista.
+   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no ícone **Mais** ícone ![Mais](assets/qs-more-icon-on-an-object.png) na parte superior da lista.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Mais menus expandidos](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. Clique em **Anexar Modelo**.
@@ -106,16 +106,16 @@ Você pode anexar um modelo a um projeto no Workfront a partir da página do pro
    * Número total de tarefas
    * Nomes de formulários personalizados anexados
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![Anexar caixa de modelo](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Opcional) Clique no ícone ![](assets/favorites-icon-small.png) de **Favoritos** à esquerda do nome do modelo para marcá-lo como favorito. Isso move o modelo na lista Favoritos.
+1. (Opcional) Clique no ícone **Favoritos** ![Ícone Favoritos](assets/favorites-icon-small.png) à esquerda do nome do modelo para marcá-lo como favorito. Isso move o modelo na lista Favoritos.
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   ![Ícone de favoritos na lista de modelos](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (Opcional) Clique novamente no ícone **Favoritos** ![](assets/favorites-icon-selected.png) para removê-lo da lista Favoritos.
+1. (Opcional) Clique novamente no ícone **Favoritos** ![Ícone Favoritos](assets/favorites-icon-selected.png) para removê-lo da lista Favoritos.
 1. Clique em **Personalizar e anexar**.
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![Anexar modelo](assets/attach-template-large-box-nwe-350x262.png)
 
 1. Atualize as informações nas seguintes seções antes de anexar o modelo (ou clique em **Anexar modelo** a qualquer momento):
 
@@ -193,6 +193,6 @@ Para entender qual modelo é aplicado a um projeto:
 1. Clique em **Detalhes do projeto** no painel esquerdo.
 1. Encontre o nome do modelo anexado ao projeto no campo **Modelo** na parte inferior da seção **Visão geral** em **Relações do projeto**.
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![Informações do modelo no projeto](assets/nwe-template-info-on-project-350x356.png)
 
 
