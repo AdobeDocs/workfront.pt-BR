@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 0%
@@ -75,7 +75,10 @@ Para obter informações sobre curingas baseados em data, consulte [Usar curinga
 Um curinga de API também está disponível nas regras de negócios. Use `$$ISAPI` para acionar a regra somente na API. Use `!$$ISAPI` para impor a regra somente na interface do usuário e permitir que os usuários ignorem a regra por meio da API.
 
 * Por exemplo, essa regra proíbe que os usuários editem projetos concluídos por meio da API. Se o curinga não fosse usado, a regra bloquearia a ação na interface do usuário e na API.
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 Os curingas `$$BEFORE_STATE` e `$$AFTER_STATE` são usados em expressões para acessar os valores de campo do objeto antes e depois de qualquer edição.
 
@@ -85,8 +88,17 @@ Os curingas `$$BEFORE_STATE` e `$$AFTER_STATE` são usados em expressões para a
 
 Alguns cenários simples de regras de negócios são:
 
-* Os usuários não podem adicionar novas despesas durante a última semana de fevereiro. Esta fórmula pode ser declarada como: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Os usuários não podem editar o nome de um projeto com o status Concluído. Esta fórmula pode ser declarada como: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* Os usuários não podem adicionar novas despesas durante a última semana de fevereiro. Esta fórmula pode ser declarada como:
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* Os usuários não podem editar o nome de um projeto com o status Concluído. Esta fórmula pode ser declarada como:
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 Um cenário com instruções IF aninhadas é:
 
