@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -41,17 +41,17 @@ Você deve ter o seguinte:
 
 1. Na seção Usuários, clique em **Desenvolvedores** > **Adicionar desenvolvedores**.
 
-   ![](assets/manage-users-admin-console.png)
+   ![Gerenciar desenvolvedores no Admin Console](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
-   >Se não vir uma opção para gerenciar desenvolvedores, você não tem um produto que permita o acesso de desenvolvimento. A Workfront não fornece acesso de desenvolvedor, mas o AEM oferece. Se você não vir isso, precisaremos descobrir como incluir o Workfront na lista de aplicativos que permite desenvolvedores.
+   >Se não vir uma opção para gerenciar desenvolvedores, você não tem um produto que permita o acesso de desenvolvimento. A Workfront não fornece acesso de desenvolvedor, mas a AEM fornece. Se você não vir isso, precisaremos descobrir como incluir o Workfront na lista de aplicativos que permite desenvolvedores.
 
 1. Adicione o email do usuário. Ele deve pesquisar usuários existentes que já foram adicionados no Admin Console.
 
 1. Adicione os produtos necessários ao perfil de desenvolvedor e clique em **Salvar**.
 
-![](assets/add-developer.png)
+![Adicionar desenvolvedor](assets/add-developer.png)
 
 ## Obter acesso ao AppBuilder
 
@@ -72,7 +72,7 @@ Se o AppBuilder estiver configurado corretamente, você deverá ver &quot;Criar 
    >
    >Se não vir essa opção, você está configurado incorretamente no Admin Console e não tem acesso ao catálogo do App Builder. Essa opção é exibida somente quando você tem acesso ao AppBuilder.
 
-   ![](assets/create-from-template.png)
+   ![Criar projeto a partir do modelo](assets/create-from-template.png)
 
 1. Selecione **App Builder**.
 
@@ -89,7 +89,7 @@ Se o AppBuilder estiver configurado corretamente, você deverá ver &quot;Criar 
 
 ## CLI do Adobe IO (aio)
 
-O Adobe fornece uma CLI de código aberto que pode ser usada para ajudar a criar os aplicativos da App Builder. A documentação pode ser encontrada aqui: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) e nas Instruções do Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+O Adobe fornece uma CLI de código aberto que pode ser usada para ajudar a criar os aplicativos do App Builder. A documentação pode ser encontrada aqui: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) e as Instruções para App Builder do Adobe [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Instalação
    1. Para instalar a ferramenta (verifique se você está no nó v18 primeiro), execute: `npm install -g @adobe/aio-cli `.
@@ -102,20 +102,20 @@ O Adobe fornece uma CLI de código aberto que pode ser usada para ajudar a criar
 
 1. Seleção da configuração
    1. Continue para selecionar sua Organização e Projeto a partir das opções fornecidas.\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+      ![Selecionar organização](assets/select-org.png)
+      ![Selecionar projeto](assets/select-project.png)
 
 1. Seleção e configuração de modelo
    1. Procure todos os modelos disponíveis e escolha o modelo **@adobe/aem-cf-editor-ui-ext-tpl** para seu projeto.
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+      ![Modelo de pesquisa](assets/search-template.png)
+      ![Selecionar modelo](assets/select-template.png)
 
 1. Definir A Extensão
    1. Nomeie sua extensão.
    1. Forneça um resumo descritivo da funcionalidade da sua extensão.
    1. Selecione um número de versão inicial para começar.
    1. Confirme a conclusão selecionando **Concluído**.
-      ![](assets/define-extension.png)
+      ![Definir extensão](assets/define-extension.png)
 
 1. Navegue até a pasta do projeto
    1. Acessar a pasta src
@@ -308,7 +308,7 @@ O Adobe fornece uma CLI de código aberto que pode ser usada para ajudar a criar
           export default Review;
       ```
 
-## aplicativos Publish
+## Publicar aplicativos
 
 >[!IMPORTANT]
 >
@@ -326,12 +326,12 @@ Para ter um aplicativo convidado carregado no Workfront, o aplicativo precisa se
 1. Localize o projeto usado para criar o aplicativo AppBuilder.
 
 1. Selecione o Workspace de produção.
-   ![](assets/find-application.png)
+   ![Selecionar espaço de trabalho de produção](assets/find-application.png)
 
 1. Envie a solicitação para revisão privada (você receberá avisos de que não estamos publicando no aplicativo exchange marketplace, o que é normal).
 
 1. Preencha o formulário (título, descrição, ícone e nota ao revisor).
-   ![](assets/submission-details.png)
+   ![Preencha o formulário para revisão privada](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
@@ -344,11 +344,11 @@ Para ter um aplicativo convidado carregado no Workfront, o aplicativo precisa se
 1. Clique em **Gerenciar** > **Aplicativos Experience Cloud**. Você deve ver os aplicativos enviados com opções para aprovar/rejeitar.
 Depois de aprovadas, as extensões de aplicativos publicadas devem ser carregadas automaticamente em seu ambiente do Workfront.
 
-   ![](assets/approve-submission.png)
+   ![Envio aprovado](assets/approve-submission.png)
 
 ## Ajuda adicional
 
-O Adobe tem excelente documentação sobre como começar a criar aplicativos para o AppBuilder e implantá-los.
+O Adobe tem uma ótima documentação sobre como começar a criar aplicativos para o AppBuilder e implantá-los.
 
 Estes são alguns links úteis:
 
@@ -362,7 +362,7 @@ Estes são alguns links úteis:
 
 Ao desenvolver seu aplicativo do App Builder para o Workfront, talvez você precise testar seu aplicativo no Workfront sem publicá-lo. Felizmente, temos uma solução para isso.
 
-No aplicativo App Builder, você pode iniciar o `aio app run` para desenvolvimento local. Isso fornecerá uma URL, normalmente algo como `https://localhost:9080`. Como alternativa, você pode executar `aio app deploy` para obter um domínio de Adobe estático. Anote esses URLs para uso futuro.
+No aplicativo App Builder, você pode iniciar o `aio app run` para desenvolvimento local. Isso fornecerá uma URL, normalmente algo como `https://localhost:9080`. Como alternativa, você pode executar `aio app deploy` para obter um domínio estático do Adobe. Anote esses URLs para uso futuro.
 
 Em seguida, acesse a página de detalhes do documento específico que deseja desenvolver no navegador. Abra as ferramentas do desenvolvedor e acesse o Armazenamento local workfront.com ou workfront.adobe.com. Aqui, você precisa adicionar uma entrada. Use `appBuilderDocDetailsOverride` como chave e a URL do construtor de aplicativos anotada anteriormente como o valor.
 
