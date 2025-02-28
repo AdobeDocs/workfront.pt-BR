@@ -7,10 +7,10 @@ description: O Resumo permite interagir com informações importantes diretament
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 2%
 
 ---
 
@@ -56,11 +56,11 @@ Você deve ter o seguinte:
 ## Abrir a exibição Resumo
 
 1. Vá para a área **Documentos** e selecione um item na lista.
-1. Clique no ícone **Abrir Resumo** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Clique no **ícone Abrir Resumo** ![ícone Abrir Resumo](assets/qs-summary-in-new-toolbar-small.png).
 
    Após abrir o Resumo, ele permanece aberto quando você clica em outros documentos e permanece aberto até que você o feche manualmente.
 
-   ![](assets/summary-details-350x585.png)
+   ![Detalhes do resumo](assets/summary-details-350x585.png)
 
 ## Detalhes
 
@@ -69,19 +69,19 @@ Use a seção Detalhes para exibir informações de visão geral de alto nível 
 * [Visão geral](#overview)
 * [Formulários personalizados](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![Detalhes do resumo do documento](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Visão geral {#overview}
 
 Expanda a seção Visão geral para visualizar ou baixar uma miniatura de imagem, abrir uma prova, atualizar a descrição básica, verificar o documento e muito mais.
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Visão geral do resumo do documento](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Formulários personalizados {#custom-forms}
 
 Use a seção Forms personalizado para adicionar, editar ou exibir quaisquer formulários personalizados associados ao documento. Comece digitando o nome do formulário personalizado para adicioná-lo ao documento. Para obter mais informações, consulte [Adicionar ou editar um formulário personalizado a um documento](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![Adicionar um formulário personalizado no resumo do documento](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Atualizações
 
@@ -98,7 +98,7 @@ Aprovações de provas devem ser adicionadas no Fluxo de trabalho de provas. Par
 * [Aprovando trabalho](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Solicitar aprovações de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Aprovações de resumo de documentos](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versões
 
@@ -110,4 +110,4 @@ Use a seção Versões para exibir o número de versões criadas para um documen
 * Ir para Detalhes do documento
 * Excluir uma prova ou documento
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Versões de resumo do documento](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
