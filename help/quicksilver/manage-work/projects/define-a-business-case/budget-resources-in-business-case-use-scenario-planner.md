@@ -5,9 +5,9 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,11 @@ Antes de começar, você deve fazer o seguinte:
 
    * Se você acabou de publicar informações do Planejador de cenários, selecione o Planejador de cenários no **Escolha quais horas usar para calcular o Custo de mão de obra orçado do projeto** campo na área Orçamento de recursos, em seguida, clique em **Escolher**.
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     ![Plano de Negócio no Planejador de Recursos com o botão Escolher](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * Se o Planejador de Recursos foi selecionado anteriormente para recursos de orçamento para o projeto, clique em **Alterar** > **Planejador de Cenários** > **Escolher**.
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![Caso de negócios no Planejador de cenários com o botão Escolher](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      O Workfront usa as horas de função de trabalho necessárias da iniciativa vinculada para calcular o Custo de mão de obra orçado e as horas orçadas do projeto. Esta é a opção recomendada. O custo é exibido no Business Case na moeda do projeto.
 
