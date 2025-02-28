@@ -6,9 +6,9 @@ description: Você pode compartilhar um modelo com usuários ou definir como os 
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '787'
 ht-degree: 2%
 
 ---
@@ -62,10 +62,10 @@ Você pode compartilhar seus modelos com outros usuários usando o Compartilhame
 
 Para compartilhar um modelo:
 
-1. No ícone ![](assets/main-menu-icon.png) do **Menu principal**, clique em **Modelos**.
+1. No ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png), clique em **Modelos**.
 
 1. Siga um destes procedimentos:\
-   Clique no nome de um modelo para abri-lo e, em seguida, clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) e em **Compartilhamento de Modelos**.
+   Clique no nome de um modelo para abri-lo e no menu **Mais**, ícone ![Mais](assets/qs-more-icon-on-an-object.png) e **Compartilhamento de Modelos**.
 
    Ou
 
@@ -100,7 +100,7 @@ Com o Compartilhamento de projeto de modelo, você pode definir quem tem permiss
 Para compartilhar projetos futuros criados a partir de um modelo com os usuários:
 
 1. Siga um destes procedimentos:\
-   Clique no nome de um modelo para abri-lo e, em seguida, clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) e em **Compartilhamento de Modelos**.
+   Clique no nome de um modelo para abri-lo e no menu **Mais**, ícone ![Mais](assets/qs-more-icon-on-an-object.png) e **Compartilhamento de Modelos**.
 
    ![Compartilhar projeto a partir do modelo](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -119,7 +119,7 @@ Para compartilhar projetos futuros criados a partir de um modelo com os usuário
    * **Sem acesso**: você pode especificar quais usuários não terão acesso ao modelo.\
      Essa opção está disponível somente ao compartilhar projetos em massa a partir de modelos. 
    * **Exibir**: os usuários com essas permissões podem exibir projetos criados a partir do modelo.
-   * **Contribute**: usuários com essas permissões podem contribuir para projetos criados a partir do modelo 
+   * **Contribute**: os usuários com essas permissões podem contribuir para projetos criados a partir do modelo 
    * **Gerenciar**: os usuários com essas permissões podem gerenciar ou excluir projetos criados a partir desse modelo.
 
 1. (Opcional) Clique no ícone **Opções** para disponibilizar os projetos para todo o sistema.
