@@ -7,9 +7,9 @@ description: Também conhecido como Valor Planejado, o Custo Orçado do Trabalho
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '621'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Você pode configurar se o BCWS é calculado em horas ou em custos, configurando
 1. Vá para um projeto e clique em **Detalhes do projeto** no painel esquerdo.
 1. Na área **Finanças**, localize o campo **Método de Índice de Desempenho** e clique duas vezes nele para editá-lo.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![Opções de PIM](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Selecione entre as seguintes opções:
 
@@ -126,7 +126,7 @@ Você pode exibir o valor do Custo orçado do trabalho agendado em um relatório
 1. Clique em **Adicionar coluna**.
 1. No campo **Mostrar nesta coluna:**, comece digitando **BCWS** e clique para selecioná-lo quando ele for exibido na lista.
 
-   ![](assets/bcws-in-project-view.png)
+   ![BCWS na exibição de projeto](assets/bcws-in-project-view.png)
 
 1. Clique em **Salvar visualização**.
 1. O campo **BCWS** é exibido no modo de exibição.
