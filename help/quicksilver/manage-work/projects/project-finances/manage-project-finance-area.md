@@ -6,9 +6,9 @@ description: É possível exibir ou editar as informações financeiras de um pr
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 2%
 
 ---
@@ -69,9 +69,9 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
 
 1. Ir para um projeto.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no ícone **Editar** ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e em **Finanças**.
+1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças**.
 
-   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Área financeira na exibição de detalhes](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -156,14 +156,14 @@ Para editar informações na subguia Project Finance:
    >Você precisa de Permissões de gerenciamento para o projeto para executar as etapas a seguir. Também recomendamos que somente o Proprietário do projeto faça alterações na subguia Finanças do projeto.
 
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no ícone **Editar** ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e em **Finanças**. Isso abre a área Finanças para edição.
+1. Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças**. Isso abre a área Finanças para edição.
 1. Edite qualquer campo disponível para edição clicando uma vez no campo ou clicando em **+Adicionar** para adicionar informações a um campo vazio.
 
    >[!TIP]
    >
    >Os campos não estarão disponíveis para edição se forem calculados automaticamente pelo Workfront ou se você não tiver permissões de edição.
 
-   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![Editar área financeira](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. Atualize qualquer um dos campos abaixo.
 
