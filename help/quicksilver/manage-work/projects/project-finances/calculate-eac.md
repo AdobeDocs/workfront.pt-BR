@@ -7,9 +7,9 @@ description: Como métrica de desempenho, a EAC (Estimativa no término) represe
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ Total de Trabalho de Custo Orçado Executado = a soma do campo Total de Trabalho
 
    O valor EAC é exibido no campo **Estimativa na Conclusão**.
 
-   ![](assets/eac-highlighted-on-project-350x112.png)
+   ![EAC no projeto](assets/eac-highlighted-on-project-350x112.png)
