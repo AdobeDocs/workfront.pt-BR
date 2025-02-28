@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -55,12 +55,12 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 {{step1-to-priorities}}
 
 1. Passe o cursor do mouse sobre o nome e clique em **Carregar**.
-   ![](assets/update-log-upload.png)
+   ![Atualizar, registrar horário e carregar](assets/update-log-upload.png)
 1. (Opcional) Selecione uma pasta.
 1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou
 Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
-   ![](assets/add-files.png)
+   ![Adicionar arquivos](assets/add-files.png)
 1. (Opcional) Adicione um comentário.
 1. (Opcional) Adicione mais arquivos.
 
@@ -68,7 +68,7 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
    >
    >Arquivos adicionais são carregados como documentos separados.
 1. Clique em **Carregar**.
-   ![](assets/upload-file-module.png)
+   ![Carregar arquivo](assets/upload-file-module.png)
 
 
 ## Fazer upload de um arquivo em um item de trabalho
@@ -81,7 +81,7 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
 1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou
 Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
-   ![](assets/add-files.png)
+   ![Adicionar arquivos](assets/add-files.png)
 1. (Opcional) Adicione um comentário.
 1. (Opcional) Adicione mais arquivos.
 
@@ -89,4 +89,4 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
    >
    >Arquivos adicionais são carregados como documentos separados.
 1. Clique em **Carregar**.
-   ![](assets/upload-file-module.png)
+   ![Carregar arquivo](assets/upload-file-module.png)
