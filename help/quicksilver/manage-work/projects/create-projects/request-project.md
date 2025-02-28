@@ -6,9 +6,9 @@ description: Você pode solicitar a aprovação de um projeto antes de começar 
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -70,14 +70,14 @@ Você pode solicitar um projeto ao adicionar um novo projeto nas seguintes área
 
 1. Siga um destes procedimentos:
 
-   * Clique no **Menu Principal** ![](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
+   * Clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![Linhas do menu principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
    * Vá para um portfólio e expanda **Novo projeto**.
    * Vá para um programa e expanda **Novo Projeto**.
    * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo gerenciado. Para obter mais informações, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Clique em **Solicitar projeto**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Lista suspensa de novos projetos](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Siga um destes procedimentos:
 
@@ -89,4 +89,4 @@ Você pode solicitar um projeto ao adicionar um novo projeto nas seguintes área
 
      Para obter informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md) ou [Criar um projeto usando um modelo](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   O projeto solicitado tem o status **Solicitado** e é exibido na guia **Projetos Solicitados** de um Portfolio, caso você o tenha associado a um Portfolio. Um gerente de portfólio agora pode revisá-lo e aprová-lo ou rejeitá-lo. Nesse caso, o status do projeto será alterado para **Aprovado** ou **Rejeitado**.
+   O projeto solicitado tem o status de **Solicitado** e é exibido na guia **Projetos Solicitados** de uma Portfolio, caso você o tenha associado a uma Portfolio. Um gerente de portfólio agora pode revisá-lo e aprová-lo ou rejeitá-lo. Nesse caso, o status do projeto será alterado para **Aprovado** ou **Rejeitado**.
