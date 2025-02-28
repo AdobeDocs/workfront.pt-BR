@@ -6,9 +6,9 @@ description: Você pode enviar documentos do Workfront para o Experience Manager
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Para enviar um documento:
    >
    >Qualquer nome pode ser escolhido para essa integração, portanto, ele pode não mencionar especificamente o Experience Manager Assets.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Enviar para](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Escolha para onde deseja que o ativo vá e clique em **Selecionar pasta**.
 1. Ao encontrar o destino desejado, clique em **Salvar**.
@@ -87,6 +87,6 @@ Para enviar a versão mais recente:
    >
    >Qualquer nome pode ser escolhido para essa integração, portanto, ele pode não mencionar especificamente o Experience Manager Assets.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Enviar para](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Clique em **Salvar**. A nova versão é salva no mesmo local da versão anterior.
