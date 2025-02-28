@@ -6,9 +6,9 @@ description: É possível criar e excluir modelos na área Modelos. Ao criar um 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '574'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Não é possível editar tarefas diretamente neste Gráfico de Gantt.
 
-1. Para adicionar informações ao novo modelo, clique no menu ![](assets/more-icon.png) de **Mais** e em **Editar**.
+1. Para adicionar informações ao novo modelo, clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) e clique em **Editar**.
 
    Para obter informações sobre como editar um modelo, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
