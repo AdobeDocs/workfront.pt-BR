@@ -6,9 +6,9 @@ description: Você pode fazer check-out de um documento para impedir que outros 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ Se você tiver permissões de gerenciamento para um documento, poderá fazer che
 
    Para obter informações sobre como adicionar documentos, consulte [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-1. Clique no ícone ![](assets/check-out-25x23.png) do **Check-out**.
+1. Clique no ícone **Fazer Check-out** ![Ícone de check-out](assets/check-out-25x23.png).
 
-1. Um ícone de bloqueio ![](assets/lock-icon-locked-qs.png) é exibido à direita do nome do documento. O documento permanece com check-out após fazer logoff do Workfront.
+1. Um ícone de bloqueio ![Ícone de bloqueio](assets/lock-icon-locked-qs.png) é exibido à direita do nome do documento. O documento permanece com check-out após fazer logoff do Workfront.
 1. Somente o usuário que fez check-out do documento ou o administrador do Workfront pode fazer check-in do documento.
 
 ## Gerenciar documentos obtidos
@@ -103,6 +103,6 @@ Para fazer check-in de um documento:
 
 1. Vá para a área onde o documento está armazenado e selecione o documento. 
 
-   Um ícone de bloqueio ![](assets/lock-icon-locked-qs.png) é exibido à direita do nome do documento.
+   Um ícone de bloqueio ![Ícone de bloqueio](assets/lock-icon-locked-qs.png) é exibido à direita do nome do documento.
 
-1. Clique no ícone ![](assets/check-in-25x22.png) do **Check-in**.
+1. Clique no ícone **Check-in** ![Ícone de Check-in](assets/check-in-25x22.png).
