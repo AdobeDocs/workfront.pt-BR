@@ -6,9 +6,9 @@ description: Você pode copiar ou mover uma tarefa de modelo para o mesmo modelo
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2140'
 ht-degree: 3%
 
 ---
@@ -87,9 +87,9 @@ Você pode copiar uma única tarefa de modelo ou pode copiar várias tarefas de 
 1. Siga um destes procedimentos:
    * Clique no nome de uma tarefa de modelo para abri-la.
    * Selecione uma ou várias tarefas de modelo na lista.
-1. (Condicional) Clique no menu **Mais** ![](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa, e clique em **Copiar para** ou **Copiar**, dependendo de onde você está acessando a opção Copiar.
+1. (Condicional) Clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa. Em seguida, clique em **Copiar para** ou **Copiar**, dependendo de onde você está acessando a opção Copiar.
 A caixa Copiar Modelo de Tarefa é aberta.
-   ![](assets/copy-template-task-box-unshimmed.png)
+   ![Caixa de tarefa de modelo de CPU](assets/copy-template-task-box-unshimmed.png)
 1. (Opcional) Renomeie a tarefa de modelo no campo **Nome da Tarefa de Modelo**.
 
    >[!TIP]
@@ -210,9 +210,9 @@ Você pode mover uma tarefa de modelo para outra tarefa de modelo no mesmo model
 1. Siga um destes procedimentos:
    * Clique no nome de uma tarefa de modelo para abri-la.
    * Selecione uma ou várias tarefas de modelo na lista.
-1. (Condicional) Clique no menu **Mais** ![](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa, e clique em **Mover para** ou **Mover**, dependendo de onde você está acessando a opção Mover.
+1. (Condicional) Clique no menu **Mais** ![Ícone Mais](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa, e clique em **Mover para** ou **Mover**, dependendo de onde você está acessando a opção Mover.
 A caixa Mover Modelo de Tarefa é aberta.
-   ![](assets/move-template-task-box-unshimmed.png)
+   ![Mover caixa de tarefa de modelo](assets/move-template-task-box-unshimmed.png)
 
 1. (Opcional) Renomeie a tarefa de modelo no campo **Nome da Tarefa de Modelo**.
 
