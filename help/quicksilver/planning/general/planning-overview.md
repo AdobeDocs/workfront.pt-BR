@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 2%
 >
 >As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
 >
->Para acessar o Workfront Planning, é necessário ter o seguinte:
+>Para ter acesso total a todos os recursos no Workfront Planning, é necessário ter:
 >
 >* Um novo pacote e licença do Workfront. O Workfront Planning não está disponível para pacotes ou licenças herdadas do Workfront.
 >* Um pacote do Workfront Planning.
 >* A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience.
 >
-> Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe](/help/quicksilver/planning/access/access-overview.md).
+> Para obter uma lista completa dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 
 Este artigo contém informações gerais sobre o Workfront Planning.
@@ -170,7 +170,7 @@ Depois que sua organização comprar um pacote do Workfront Planning, como admin
 
 * Atribua aos usuários que precisam de acesso ao Planning um modelo de layout que inclua o Planning no Menu Principal. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Atribuir usuários a um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Atribua aos usuários uma licença do Workfront e permissões do Workfront Planning que permitiriam a eles visualizar ou criar objetos no Workfront Planning. Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem o Workfront Planning, consulte [visão geral sobre o acesso ao Adobe](/help/quicksilver/planning/access/access-overview.md).
+* Atribua aos usuários uma licença do Workfront e permissões do Workfront Planning que permitiriam a eles visualizar ou criar objetos no Workfront Planning. Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem o Workfront Planning, consulte [Visão geral sobre acesso ao Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologia do Workfront Planning
 
@@ -272,7 +272,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
    * Um tipo de registro e um tipo de objeto de projeto, programa, portfólio, empresa ou grupo do Workfront.
    * Um tipo de registro e um ativo ou pasta da Adobe Experience Manager.
 
-     Você deve ter uma licença da Adobe Experience Manager para vincular tipos de registro a objetos Experience Manager.
+     Você deve ter uma licença do Adobe Experience Manager para vincular tipos de registro a objetos do Experience Manager.
 
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
@@ -325,7 +325,7 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
 ## Localizar o Adobe Workfront Planning
 
-Para localizar o Adobe Planning, verifique se sua organização recebeu acesso ao Workfront Planning e se o administrador do sistema ou do grupo adicionou a área do Planning ao Menu Principal. Para obter informações, consulte [visão geral sobre acesso ao Adobe](/help/quicksilver/planning/access/access-overview.md).
+Para localizar o Adobe Planning, verifique se sua organização recebeu acesso ao Workfront Planning e se o administrador do sistema ou do grupo adicionou a área do Planning ao Menu Principal. Para obter informações, consulte [Visão geral sobre acesso ao Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 Para localizar o Workfront Planning:
 

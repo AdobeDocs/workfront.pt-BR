@@ -6,9 +6,9 @@ description: Você pode fazer comentários nas folhas de horas, nos itens de tra
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Você pode fazer comentários sobre os seguintes itens em uma folha de horas:
 * Na planilha de horas
 * Nas entradas de hora
 * Em um item individual, como uma tarefa ou um problema
+
+Você pode exibir atualizações de uma folha de horas ou de entradas de horas individuais em um relatório de Notas. Para obter informações, consulte [Exibir todas as atualizações em um relatório de Anotações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
 
 ## Requisitos de acesso
 
@@ -73,7 +75,7 @@ A área **Folhas de horas** é aberta.
 1. Clique em **Mostrar comentários** no canto superior direito da folha de horas.
 Os comentários são exibidos sob o item onde a entrada de hora e o comentário foram registrados.
 
-   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![Os comentários foram expandidos em uma folha de horas redesenhada de tarefas](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## Fazer comentários em uma folha de horas {#make-comments-on-a-timesheet}
@@ -86,7 +88,7 @@ Os comentários são exibidos sob o item onde a entrada de hora e o comentário 
 
 Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folha de horas geral é semelhante a comentar em outros objetos.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito ou no ícone ![](assets/lines-main-menu.png) do **Menu Principal** no canto superior esquerdo ou no Workfront, se disponível.
+1. Clique no ícone **Menu Principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito ou no ícone **Menu Principal** ![Menu principal Linhas](assets/lines-main-menu.png) no canto superior esquerdo ou Workfront, se disponível.
 
 1. Clique em **Folhas de horas**.
 1. Vá para a planilha de horas na qual deseja fazer um comentário.
@@ -113,7 +115,7 @@ Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folh
 
 ### Comentar em uma entrada de hora individual em uma folha de horas {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 
 1. Clique em **Folhas de horas**.
 1. Vá para a folha de horas em que você deseja fazer um comentário e clique em **Folha de horas** no painel esquerdo.
@@ -128,11 +130,11 @@ Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folh
 
    * Digite um novo comentário e clique em **Concluído**.
    * Edite um comentário existente e clique em **Concluído** ou em **Cancelar** para descartar as alterações.
-   * Clique no ícone **Excluir** ![](assets/delete.png) para excluir um comentário salvo.
+   * Clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png) para excluir um comentário salvo.
 
      Um marcador azul é exibido no canto superior direito da caixa de entrada de hora para indicar que há comentários registrados com a entrada de hora.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Botão Comentar na folha de horas reprojetada do log de horas](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,7 +154,7 @@ Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folh
 
 Você pode comentar somente em tarefas e problemas em uma folha de horas. Você não pode comentar em projetos nem em tempo geral.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do [!UICONTROL **Menu principal**], no canto superior direito do Adobe Workfront.
+1. Clique no ícone [!UICONTROL **Menu principal**] ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 1. Clique em [!UICONTROL **Folhas de horas**].
 1. Vá para a planilha de horas na qual deseja fazer um comentário e clique em [!UICONTROL **Planilha de horas**] no painel esquerdo.
 1. Clique na linha de uma tarefa ou em um problema e em [!UICONTROL **Abrir resumo**].

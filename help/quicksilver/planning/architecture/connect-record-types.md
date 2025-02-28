@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Planejamento do Adobe Workfront<p></li>
-   <li><p> Adobe Experience Manager Assets, se você quiser conectar ativos AEM com tipos de registro do Planning<p>
+   <li><p> Adobe Experience Manager Assets, se você quiser conectar o AEM Assets aos tipos de registro do Planning<p>
    <p>Você deve ter uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront.
     Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p>
    </li>
@@ -84,7 +84,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -201,20 +201,22 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      >Se você não tiver outros tipos de registro no espaço de trabalho selecionado, a seção espaço de trabalho não será exibida.
 
 
-   * Um tipo de registro de outro espaço de trabalho que foi configurado para se conectar a outros espaços de trabalho. Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * Um tipo de registro de outro espaço de trabalho que foi configurado para se conectar a outros espaços de trabalho.
 
      >[!TIP]
      >
-     >Se não houver tipos de registro configurados para se conectar a partir de outros espaços de trabalho, a seção espaço de trabalho não será exibida.
+     >A configuração **Conectar de outros espaços de trabalho** deve ser habilitada para um tipo de registro na guia **Configurações avançadas** da caixa **Editar tipo de registro**, para que um tipo de registro possa ser acessado de outros espaços de trabalho. Se não houver tipos de registro configurados para se conectar a partir de outros espaços de trabalho, a seção espaço de trabalho não será exibida.
+     > ![Guia de configurações avançadas da caixa Editar tipo de registro](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-   * Um **Projeto, Portfolio, Programa, Empresa** ou **Grupo** da seção **Tipos de Objetos do Workfront**.
+     ![](assets/new-connection-allow-multiple-records-box.png)
+
+   * Um **Projeto, Portfolio, Programa, Empresa** ou **Grupo** da seção **Tipos de Objeto do Workfront**.
 
      ![](assets/workfront-project-connection-selection.png)
 
-   * **Experience Manager Assets** da seção **Adobe Applications**.
+   * **Experience Manager Assets** da seção **Aplicativos Adobe**.
 
      ![](assets/aem-assets-connection-selection.png)
 
@@ -267,7 +269,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    > Você deve criar formulários personalizados no Workfront para os objetos selecionados antes que eles sejam exibidos nesta lista.
 
-1. (Condicional) Se você optou por se conectar ao Experience Manager Assets, selecione um repositório no menu suspenso **Experience Manager repository** na seção **Vincular ativos do repositório a seguir**. Este campo é obrigatório. Somente repositórios aos quais você tem acesso no Experience Manager Assets são exibidos nesse campo.
+1. (Condicional) Se você selecionou se conectar ao Experience Manager Assets, selecione um repositório no menu suspenso **Repositório do Experience Manager** na seção **Vincular ativos do seguinte repositório**. Este campo é obrigatório. Somente repositórios aos quais você tem acesso no Experience Manager Assets são exibidos nesse campo.
 
    >[!NOTE]
    >

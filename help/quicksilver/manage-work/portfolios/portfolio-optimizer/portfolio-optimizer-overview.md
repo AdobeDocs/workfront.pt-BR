@@ -7,9 +7,9 @@ description: O [!UICONTROL Portfolio Otimizer] é a ferramenta usada para avalia
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Os seguintes campos financeiros são exibidos no [!UICONTROL Portfolio Otimizer]
   </tr> 
   <tr> 
    <td>[!UICONTROL Restante]</td> 
-   <td> <p>O orçamento restante após todos os [!UICONTROL Budgeted Costs] em todos os projetos dentro do portfólio foi subtraído do orçamento do portfólio.</p> <p>A [!UICONTROL Orçamento Restante do Portfolio] é calculada usando a seguinte fórmula:</p> <p><em>[!UICONTROL Orçamento Restante do Portfolio] = [!UICONTROL Orçamento Total do Portfolio] - Total [!UICONTROL Custo Orçado] de Todos os Projetos Portfolio</em> </p> <p>O [!UICONTROL Custo Orçado] geral de todos os projetos no portfólio é representado na barra de indicadores no campo Orçamento. </p> <p>Para obter mais informações sobre como rastrear custos em um projeto, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>.</p> </td> 
+   <td> <p>O orçamento restante após o [!UICONTROL Total Cost] em todos os projetos dentro do portfólio foi subtraído do orçamento do portfólio.</p> <p>A [!UICONTROL Orçamento Restante do Portfolio] é calculada usando a seguinte fórmula:</p> <p><em>[!UICONTROL Orçamento Restante do Portfolio] = [!UICONTROL Orçamento Total do Portfolio] - Total [!UICONTROL Custo Orçado] de Todos os Projetos Portfolio</em> </p> <p>O portfólio Orçamento é uma entrada manual no campo Orçamento do Portfolio Otimizer. </p> <p>Para obter mais informações sobre como rastrear custos em um projeto, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custo Total]</td> 
