@@ -6,9 +6,9 @@ description: Exigir que o tempo seja aprovado para um projeto
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      <li>Você é o Proprietário do Projeto com o acesso e as permissões especificadas acima. Nesse caso, você poderá fazer o seguinte se uma das condições abaixo existir: 
       <ul>
        <li>Se você tiver Gerenciar permissões no projeto, poderá aprovar ou rejeitar horas registradas no projeto por qualquer outro usuário.</li>
-       <li> Se você tiver acesso de Contribute ou Visualização ao projeto, poderá aprovar ou rejeitar apenas as horas registradas por você ou por qualquer outro usuário que reportar você.<br></li>
+       <li> Se tiver acesso ao Contribute ou à Visualização para o projeto, você poderá aprovar ou rejeitar apenas as horas registradas por você ou por qualquer outro usuário que reportar você.<br></li>
       </ul></li> 
      <li>Você tem uma licença de Plano com acesso administrativo a Planilhas de Horas e Horas. Neste caso:
       <ul>
@@ -80,7 +80,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Para exigir a aprovação do gerente de projeto para horas no projeto:
 
 1. Vá para o projeto em que deseja solicitar aprovação para horas.
-1. Clique no ícone **Mais** ![](assets/more-icon.png) à direita do nome do projeto e em **Editar**.\
+1. Clique no ícone **Mais** ícone ![Mais ícone](assets/more-icon.png) à direita do nome do projeto e clique em **Editar**.\
    A caixa de diálogo Editar projeto será exibida.
 
 1. Na seção **Configurações do Projeto**, selecione **Solicitar aprovação para este projeto**.
