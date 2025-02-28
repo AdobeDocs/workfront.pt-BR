@@ -6,9 +6,9 @@ description: É possível baixar documentos do Adobe Workfront individualmente o
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Clique no ícone ![](assets/download-icon.png) do **Download Selecionado**.
+1. Clique no ícone **Baixar Selecionados** ![Ícone Baixar Selecionados](assets/download-icon.png).
 
 ## Baixar vários documentos simultaneamente
 
@@ -69,6 +69,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >Os documentos vinculados ao Workfront do Box, Dropbox, Google Drive e assim por diante não podem ser baixados em massa.
 
 1. (Opcional) Selecione as pastas que contêm os documentos que você deseja baixar na lista de pastas.
-1. Clique no ícone Baixar Selecionados ![](assets/download-icon.png).
+1. Clique no ícone Baixar Selecionados ![ícone Baixar Selecionados](assets/download-icon.png).
 
    As pastas são baixadas como arquivos .zip e estão limitadas a 4 GB.
