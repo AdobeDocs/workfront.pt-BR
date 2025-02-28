@@ -7,9 +7,9 @@ description: O Valor Líquido de um projeto é o valor total esperado do projeto
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,9 @@ Você pode encontrar o Valor líquido de um projeto nas seguintes áreas no Work
 * Na área Resumo de business case do business case \
   Para obter mais informações sobre a área Resumo de Business Case, consulte a seção &quot;Noções básicas sobre o Resumo de Business Case&quot; no artigo [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![Valor líquido no business case](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* No Otimizador de Portfolio, se o projeto estiver associado a um portfólio
+* No Portfolio Otimizer, se o projeto estiver associado a um portfólio
 
   >[!TIP]
   >
