@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2251'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Tipo de Receita]</td> 
-    <td> <p>Calcula as estimativas de receita planejadas e reais para uma tarefa. Quando o <strong>[!UICONTROL Tipo de Receita]</strong> está definido como <strong>[!UICONTROL Não Faturável]</strong>, as horas planejadas e as horas reais registradas não geram uma estimativa de receita para a tarefa e o trabalho na tarefa não contribui para a receita no nível do projeto.</p> </td> 
+    <td> <p>Calcula as estimativas de receita planejadas e reais para uma tarefa. Quando o <strong>[!UICONTROL Tipo de Receita]</strong> está definido como <strong>[!UICONTROL Não Faturável]</strong>, as horas planejadas e as horas reais registradas não geram uma estimativa de receita para a tarefa e o trabalho na tarefa não contribui para a receita no nível do projeto.</p>
+         <p>Para obter informações sobre os diferentes tipos de receita, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Visão geral de faturamento e receita</a>.</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Tipo de Custo]</td> 
