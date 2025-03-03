@@ -6,9 +6,9 @@ description: Um relatório de calendário é um relatório dinâmico que fornece
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c88c8dc7431f3bc711ae1942df12925fafa7eff0
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
@@ -205,7 +205,6 @@ Depois de configurar como deseja que os itens sejam exibidos, você precisa adic
    * **[!UICONTROL Tarefas]**
    * **[!UICONTROL Projetos]**
    * **[!UICONTROL Problemas]**
-   * **Folga**
 
 1. Clique em **[!UICONTROL Adicionar tarefas]**, **[!UICONTROL Adicionar projetos]**, **[!UICONTROL Adicionar problemas]** ou **Folga**, dependendo do tipo de objeto que você está adicionando ao calendário.
 
