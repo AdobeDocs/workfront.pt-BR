@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ A nova versão não é uma alteração na API do Workfront, mas uma alteração 
 
 A capacidade de atualizar ou fazer downgrade de assinaturas de eventos garante que, quando alterações forem feitas na estrutura dos eventos, as assinaturas existentes não sejam interrompidas, permitindo testar e atualizar para a nova versão sem uma lacuna na assinatura do evento.
 
+
+Ao atualizar ou fazer downgrade da assinatura de evento para outra versão, você recebe eventos duplicados para cada entrega de evento por uma janela de cinco minutos após a alteração da versão. As duplicatas incluem uma de cada versão de assinatura de evento 1 e versão 2. Isso garante que você não perca nenhum evento devido à alteração da versão de assinatura do evento.
+
 Para obter informações sobre os pontos de extremidade usados para atualizar ou rebaixar assinaturas de eventos, consulte [Versão de assinatura de eventos](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) no artigo API de assinatura de eventos.
 
 >[!IMPORTANT]
@@ -30,6 +33,7 @@ Para obter informações sobre os pontos de extremidade usados para atualizar ou
 >
 >* **25.2 Versão** (10 de abril de 2025): todas as novas assinaturas criadas após a versão 25.2 são criadas como Versão 2.
 >* **25.3 Versão** (17 de julho de 2025): não é mais possível fazer downgrade das assinaturas para a Versão 1 após a versão 25.3.
+>* **1º de setembro de 2025**: todas as assinaturas restantes da versão 1 são migradas para a versão 2.
 
 ## Alterações entre a versão 1 e a versão 2
 

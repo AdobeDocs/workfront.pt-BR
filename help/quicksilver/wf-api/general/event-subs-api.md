@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 193a1ecafb5dd919a2fa760ce5ab2a9903881900
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2407'
 ht-degree: 3%
 
 ---
@@ -33,16 +33,16 @@ Para receber payloads de assinatura de evento por meio do firewall, você deve a
 * 52.208.159.124
 * 54.220.93.204
 * 52.17.130.201
-* 34 254 76 122
-* 34 252 250 191
+* 34.254.76.122
+* 34.252.250.191
 
 **Para clientes em locais diferentes da Europa:**
 
-* 54 244 142 219
-* 44 241 82 96
+* 54.244.142.219
+* 44.241.82.96
 * 52.36.154.34
 * 34.211.224.9
-* 54 218 48 56
+* 54.218.48.56
 * 52.39.217.230
 
 Os seguintes tópicos oferecem suporte à API de assinatura de evento:
@@ -286,7 +286,7 @@ Transmitir um recurso de assinatura como o corpo de uma solicitação (com o tip
 
 ## Consultando Assinaturas de Evento
 
-Ao consultar o HTTP do Workfront, use o método GET. Há duas maneiras de consultar assinaturas de evento: Consultar por ID de assinatura (veja abaixo) ou consultar todas as assinaturas de evento.
+Ao consultar o HTTP do Workfront, use o método do GET. Há duas maneiras de consultar assinaturas de evento: Consultar por ID de assinatura (veja abaixo) ou consultar todas as assinaturas de evento.
 
 ### Consultar todas as assinaturas de eventos
 
@@ -350,6 +350,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -422,6 +424,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -449,6 +453,10 @@ A capacidade de atualizar ou fazer downgrade de assinaturas de eventos garante q
 Para obter mais informações sobre o controle de versão de assinaturas de eventos, incluindo diferenças específicas entre a versão e datas importantes, consulte [Controle de versão de assinaturas de eventos](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 ### Alteração de versão de assinatura única
+
+>[!NOTE]
+>
+>Ao atualizar ou fazer downgrade da assinatura de evento para outra versão, você recebe eventos duplicados para cada entrega de evento por uma janela de cinco minutos após a alteração da versão. As duplicatas incluem uma de cada versão de assinatura de evento 1 e versão 2. Isso garante que você não perca nenhum evento devido à alteração da versão de assinatura do evento.
 
 A sintaxe de solicitação para alterar a versão de uma única assinatura é:
 
@@ -822,7 +830,7 @@ O campo `filterConnector` na carga da assinatura permite escolher como os filtro
 
 ## Exclusão de Assinaturas de Eventos
 
-Ao excluir o HTTP do Workfront, use o método DELETE. A sintaxe de solicitação para excluir uma única assinatura de evento por ID de assinatura é a seguinte:
+Ao excluir o HTTP do Workfront, use o método do DELETE. A sintaxe de solicitação para excluir uma única assinatura de evento por ID de assinatura é a seguinte:
 
 **Solicitar URL:**
 
