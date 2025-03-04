@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -200,13 +200,13 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
    >Ou
    >Clique em **Conectar registros** (se o campo estiver vazio) para adicionar registros do tipo de objeto ou registro conectado.
    >
-   >![](assets/connect-records-from-record-page-field.png)
+   >![Conectar registros do campo de página de registro](assets/connect-records-from-record-page-field.png)
 
 1. (Opcional) Clique em **Ver tudo** para exibir todos os registros.
 
 1. (Condicional) Se você clicou em **Ver tudo** na etapa anterior, a caixa **Conectar objetos** será exibida.
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![Tabela de objetos conectados para registros](assets/connected-objects-table-for-records.png)
 
 1. Comece a digitar o nome de um registro na caixa de pesquisa e selecione-o quando ele for exibido na lista
 
@@ -282,7 +282,7 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
    Se você clicou em **Ver tudo** na etapa anterior, a caixa **Conectar objetos** será exibida.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+   ![Caixa Conectar objetos para selecionar projetos](assets/connect-objects-box-to-select-projects.png)
 
 1. Comece digitando o nome de um objeto Workfront na caixa de pesquisa e selecione-o quando ele for exibido na lista
 
@@ -359,7 +359,7 @@ Para conectar registros com ativos do Experience Manager:
 
    A caixa **Selecionar Assets** é exibida. <!--we might change this to Connect assets-->
 
-   ![](assets/select-assets-box-for-aem-record-connections.png)
+   ![Selecione a caixa de ativos para as conexões de registro do AEM](assets/select-assets-box-for-aem-record-connections.png)
 
 1. Clique em para selecionar alguns dos seguintes tipos de ativos:
 
@@ -389,7 +389,7 @@ Para conectar registros com ativos do Experience Manager:
 
 1. (Opcional) Vá para o tipo de registro vinculado ao Experience Manager Assets a partir de e clique no nome de um ativo no campo de registro vinculado. Os detalhes do Experience Manager do ativo são exibidos em uma janela pop-up.
 
-   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+   ![Janela pop-up de ativo com detalhes e miniatura do AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
    Os seguintes campos são exibidos para um arquivo de imagem:
 
@@ -403,7 +403,7 @@ Para conectar registros com ativos do Experience Manager:
    * Data de criação
    * Data de modificação
 
-1. (Opcional) Para abrir a página de registro de ativos da Experience Manager no Experience Manager, vá para a página de tipo de registro do registro que você está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e, em seguida, clique no ícone ![](assets/open-asset-icon.png) **Abrir no AEM** para abrir o ativo.
+1. (Opcional) Para abrir a página de registro de ativos da Experience Manager no Experience Manager, vá para a página de tipo de registro do registro que está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e clique no ícone **Abrir no AEM** ![Abrir ativo no ícone do AEM](assets/open-asset-icon.png) para abrir o ativo.
 
    Isso abre o ativo Experience Manager no Adobe Experience Manager Assets.
 
@@ -424,7 +424,7 @@ Para conectar registros com ativos do Experience Manager:
 1. Clique no nome de um registro.
 
    A página de visualização é aberta.
-1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** para abrir a página do registro.
+1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) para abrir a página do registro.
 1. Clique na guia **Conexões** na visualização ou página do registro.
 
    ![Guia Conexões em registro no Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -449,24 +449,15 @@ Para conectar registros com ativos do Experience Manager:
    Para obter mais informações, consulte a seção &quot;Criar registros ao conectá-los a partir de outros registros&quot; no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
 1. Siga as etapas descritas nas seções anteriores para conectar registros do Workfront Planning ou objetos do Workfront ou Experience Manager Assets.
 Os registros e objetos são adicionados imediatamente.
-1. (Opcional) Passe o mouse sobre o cartão conectado de um registro ou objeto e clique no ícone ![](assets/disconnect-icon-with-tooltip.png) de **Desconectar registro** para desconectá-lo do registro selecionado.
+1. (Opcional) Passe o mouse sobre o cartão conectado de um registro ou objeto, em seguida, clique no ícone **Desconectar registro** ![Desconectar registro](assets/disconnect-icon-with-tooltip.png) para desconectá-lo do registro selecionado.
 
-   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![Ícone Desconectar registro com dica de ferramenta na guia Conexões](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    O registro é imediatamente desconectado de todas as áreas do Workfront Planning ou de outros aplicativos onde pode ser exibido como conectado. Todos os valores de campo de pesquisa também são removidos.
 
-## Conectar registros de objetos do Workfront
-
-Você deve ter as seguintes opções para conectar os registros do Workfront Planning a partir de objetos do Workfront:
-
-* Conexões entre tipos de registro e tipos de objeto do Workfront estabelecidas no Workfront Planning.
-* O administrador do Workfront ou do grupo deve adicionar a seção Planejamento aos projetos, portfólios e programas do Workfront no Modelo de layout.
-
-Para obter mais informações, consulte [Gerenciar registros na seção Planning de objetos do Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-
 <div class="preview">
 
-## Conectar registros da guia Exibição de conexão na página de detalhes de um registro
+### Conectar registros da guia Exibição de conexão na página de detalhes de um registro
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -485,3 +476,22 @@ Para obter mais informações, consulte [Gerenciar registros na seção Planning
 1. (Opcional) Se não conseguir encontrar um registro conectado, clique em **+ Adicionar** para criá-lo e conectá-lo.
 
 </div>
+
+## Conectar registros de objetos do Workfront
+
+Você deve ter as seguintes opções para conectar os registros do Workfront Planning a partir de objetos do Workfront:
+
+* Conexões entre tipos de registro e tipos de objeto do Workfront estabelecidas no Workfront Planning.
+* O administrador do Workfront ou do grupo deve adicionar qualquer um dos seguintes itens a um tipo de objeto do Workfront:
+
+   * A seção Planejamento para os projetos, portfólios e programas do Workfront no Modelo de layout.
+
+   * O campo personalizado Conexões do Planning a um formulário personalizado para um dos seguintes objetos:
+
+      * Projeto
+      * Portfólio
+      * Programa
+      * Grupo
+      * Empresa
+
+  Para obter mais informações, consulte [Gerenciar registros na seção Planning de objetos do Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

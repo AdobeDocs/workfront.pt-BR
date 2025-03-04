@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
+source-wordcount: '13041'
 ht-degree: 2%
 
 ---
@@ -2017,6 +2017,7 @@ ht-degree: 2%
       * [Criar espaços de trabalho](planning/architecture/create-workspaces.md)
       * [Visão geral dos tipos de registro](planning/architecture/overview-of-record-types.md)
       * [Criar tipos de registro](planning/architecture/create-record-types.md)
+      * [Criar tipos de registro importando informações de um arquivo CSV ou do Excel](planning/architecture/import-file-to-create-record-types.md)
       * [Visão geral dos tipos de registro do Connect](planning/architecture/connect-record-types-overview.md)
       * [Conectar tipos de registro](planning/architecture/connect-record-types.md)
       * [Editar tipos de registro](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 2%
    * Registros do Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Registros: índice do artigo](planning/records/records-information.md)
       * [Criar registros](planning/records/create-records.md)
+      * [Criar registros importando informações de um arquivo CSV ou do Excel](planning/records/import-file-to-create-records.md)
       * [Visão geral dos registros conectados](planning/records/connected-records-overview.md)
       * [Conectar registros](planning/records/connect-records.md)
       * [Editar registros](planning/records/edit-records.md)

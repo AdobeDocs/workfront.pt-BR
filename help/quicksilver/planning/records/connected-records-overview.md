@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,11 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
    * Os campos de registro conectados na exibição de tabela de um tipo de registro no Planning.
    * A visualização ou página do registro nos campos de registro conectados na guia Detalhes.
    * A visualização ou página do registro na guia Conexões.
+   * <span class="preview">A página do registro em uma guia de exibição de Conexão de um registro conectado.</span>
 
-* Você pode conectar objetos do Workfront aos registros do Workfront Planning nas seguintes áreas:
+* Você pode conectar objetos do Workfront a registros do Workfront Planning nas seguintes áreas do Workfront:
 
-   * Na seção Planejamento de um objeto do Workfront.
-   * <span class="preview">De um campo de conexão do Planning no formulário personalizado de um objeto do Workfront. </span>
+   * A seção Planejamento de um objeto do Workfront.
+   * <span class="preview">Um campo de conexão do Planning em um formulário personalizado de objeto do Workfront. </span>
 
   Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

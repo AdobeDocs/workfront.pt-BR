@@ -1,14 +1,14 @@
 ---
-title: "Arquitetura: índice de artigos"
+title: 'Arquitetura: índice de artigos'
 description: Os artigos a seguir descrevem como configurar a arquitetura do Adobe Workfront Planning. Como parte dessa configuração, você aprenderá a criar espaços de trabalho, tipos de registro e campos personalizados para mapear os workflows que deseja gerenciar no Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Os artigos nas seções a seguir descrevem como configurar os espaços de trabal
 * [Lista de modelos do espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Criar tipos de registro importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Visão geral dos tipos de registro conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
