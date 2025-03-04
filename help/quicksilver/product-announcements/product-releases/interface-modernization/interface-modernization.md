@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,14 @@ Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de p
 Atualizamos a área Aprovações em um documento com um design mais moderno e consistente com outras áreas do Workfront.
 
 Para exibir essa alteração, vá para um documento > Clique em Detalhes do documento > Aprovações.
+
+### Atualização de interface para a caixa de diálogo de edição da Pasta inteligente
+
+**Versão de visualização: 27 de janeiro de 2025; Versão de produção: iniciando a semana de 3 de fevereiro de 2025**
+
+Atualizamos a caixa de diálogo de edição Pastas inteligentes com um design mais moderno e consistente com outras áreas do Workfront.
+
+Para visualizar esta alteração, vá para a guia Documents > Click the more menu next to the Smart Filter name > Click Edit.
 
 ## Relatórios e painéis de controle
 
