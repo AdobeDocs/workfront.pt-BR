@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 3%
@@ -452,11 +452,11 @@ A capacidade de atualizar ou fazer downgrade de assinaturas de eventos garante q
 
 Para obter mais informações sobre o controle de versão de assinaturas de eventos, incluindo diferenças específicas entre a versão e datas importantes, consulte [Controle de versão de assinaturas de eventos](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-### Alteração de versão de assinatura única
-
 >[!NOTE]
 >
 >Ao atualizar ou fazer downgrade da assinatura de evento para outra versão, você recebe eventos duplicados para cada entrega de evento por uma janela de cinco minutos após a alteração da versão. As duplicatas incluem uma de cada versão de assinatura de evento 1 e versão 2. Isso garante que você não perca nenhum evento devido à alteração da versão de assinatura do evento.
+
+### Alteração de versão de assinatura única
 
 A sintaxe de solicitação para alterar a versão de uma única assinatura é:
 
