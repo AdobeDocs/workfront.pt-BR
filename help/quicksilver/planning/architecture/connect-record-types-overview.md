@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1518'
 ht-degree: 1%
 
 ---
@@ -58,9 +58,9 @@ Considere o seguinte sobre a conexão de tipos de registro:
 
      >[!IMPORTANT]
      >
-     >Você deve ter uma licença do Adobe Experience Manager Assets e a instância da Workfront de sua organização deve ser integrada à Plataforma de negócios Adobe ou à Adobe Admin Console para conectar os registros do Workfront Planning à Adobe Experience Manager Assets.
+     >Você deve ter uma licença do Adobe Experience Manager Assets e a instância do Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console para conectar os registros do Workfront Planning à Adobe Experience Manager Assets.
      >
-     >Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte as [Perguntas frequentes sobre a Experiência unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte as [Perguntas frequentes sobre a Experiência Unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Depois de criar registros para os tipos de registro conectados, você pode vinculá-los uns aos outros por meio do campo de registro conectado.  Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -74,9 +74,9 @@ Considere o seguinte sobre a conexão de tipos de registro:
 
       * Um campo de registro vinculado é criado no tipo de registro ao qual você está se conectando. Nenhum campo de registro vinculado é criado automaticamente no tipo de objeto do outro aplicativo.
       * Os campos de registros de planejamento não podem ser acessados de objetos do Workfront.
-      * Os registros do Planning ficam visíveis na guia Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar registros na seção Planning de objetos Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+      * Os registros do Planning ficam visíveis na guia Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * <span class="preview">Você pode criar um campo personalizado de conexão do Planning e anexá-lo ao formulário personalizado de um objeto do Workfront. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). </span>
-      * Os campos de registro do Planning podem ser acessados de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
    * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando.
@@ -114,7 +114,7 @@ Dependendo de quantos registros você pode adicionar a um campo de registro cone
 >
 >* Dois registros de espaços de trabalho diferentes
 >
->* Um tipo de registro e ativos de Experience Manager
+>* Um tipo de registro e ativos do Experience Manager
 
 ### Tipo de conexão muitos para muitos
 

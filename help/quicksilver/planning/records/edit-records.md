@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2152'
 ht-degree: 0%
 
 ---
@@ -407,4 +407,4 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
 Depois de conectar registros a objetos do Workfront, você pode editar os registros do Workfront Planning no Workfront na seção Planejamento do objeto.
 
-Para obter mais informações, consulte [Gerenciar registros na seção Planning de objetos do Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Para obter mais informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
