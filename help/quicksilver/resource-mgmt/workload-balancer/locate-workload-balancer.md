@@ -7,9 +7,9 @@ description: Você pode usar o Balanceador de carga de trabalho para agendar rec
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,8 @@ As seções a seguir ilustram onde você pode acessar o Balanceador de carga de 
      Recomendamos o uso de filtros ao exibir usuários na área Trabalho atribuído. Para obter mais informações, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Acessar o Balanceador de carga de trabalho de uma equipe
+
+Para obter mais informações sobre equipes no Workfront, consulte [Visão geral das equipes](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 {{step1-to-team}}
 
