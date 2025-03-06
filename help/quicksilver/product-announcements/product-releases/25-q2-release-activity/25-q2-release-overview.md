@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
 </tbody>
 </table>
 
+### Aprimoramentos no gerenciamento de documentos
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Editar vários documentos de uma só vez em um Relatório de documentos </a></p>
+            <p>Agora é possível editar vários documentos de uma só vez em um Relatório de documentos. É possível editar as descrições e atualizar formulários personalizados.</p>
+        </td>
+        <td>
+            <p><b>Disponível nas seguintes datas:</b></p>
+            <ul>
+                <li>Versão de pré-visualização: 6 de fevereiro de 2025</li>
+                <li><span class="preview">Versão de produção para todos os clientes: 13 de março de 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Aprimoramentos do projeto
 
 <table>
@@ -94,6 +117,20 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Atualize para a nova versão de assinatura de evento com pontos de extremidade de atualização de versão</a></p>
+            [!BADGE Na produção ]{type=Informative}
+            <p>O Workfront agora tem versões de assinaturas de eventos. A nova versão não é uma alteração na API do Workfront, mas uma alteração na funcionalidade de assinatura do evento. É possível alternar as assinaturas do evento para a nova versão sem criar uma lacuna na assinatura do evento</p>
+        </td>
+        <td>
+            <p><b>Disponível nas seguintes datas:</b></p>
+            <ul>
+                <li><span class="preview">Versão de produção para todos os clientes: 6 de março de 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">

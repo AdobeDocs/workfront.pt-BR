@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: d603edee0099b6ce3e4f8d3414d1b31f94209196
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Esta página descreve as melhorias feitas com a versão do segundo trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2025, consulte [Visão geral da versão do Segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Atualize para a nova versão de assinatura de evento com pontos de extremidade de atualização de versão
+
+>[!NOTE]
+>
+>Produção para todos os clientes: 6 de março de 2025
+
+O Workfront agora tem versões de assinaturas de eventos. A nova versão não é uma alteração na API do Workfront, mas uma alteração na funcionalidade de assinatura do evento.
+
+A capacidade de atualizar ou fazer downgrade de assinaturas de eventos garante que, quando alterações forem feitas na estrutura dos eventos, as assinaturas existentes não sejam interrompidas, permitindo testar e atualizar para a nova versão sem uma lacuna na assinatura do evento.
+
+Para obter mais informações sobre as diferenças entre as duas versões, consulte o artigo [Versão de assinatura do evento](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+Para obter informações sobre os pontos de extremidade usados para atualizar ou baixar uma assinatura de evento entre versões, consulte a seção [Versão de assinatura de evento](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) no artigo API de assinatura de evento.
 
 ## Representar as alterações de usuário do Adobe Admin Console como &quot;Sistema&quot; no feed de atualização do Workfront
 
