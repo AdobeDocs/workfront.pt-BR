@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 07/2024-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Quarto Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
-
-Você pode gerenciar atribuições de tarefas ou problemas usando as Atribuições Avançadas.
+Você pode gerenciar atribuições de tarefas ou problemas usando Atribuições Avançadas.
 
 Você pode ajustar as seguintes informações de atribuição ao fazer atribuições avançadas:
 
@@ -72,7 +66,7 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superiores para uma tarefa ou problema</p>  </td> 
+   <td> <p>Contribuir com permissões ou mais altas para uma tarefa ou problema</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +96,7 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
 
    <span class="preview">![Clique em Avançado](assets/assignments-box-in-task-header.png)</span>
 
-1. No campo **Pesquisar pessoas, funções e equipes**, comece digitando o nome de um usuário, função ou equipe e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Pesquisar pessoas, funções e equipes**, comece digitando o nome de um usuário, função ou equipe, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
    >[!NOTE]
    >
@@ -140,10 +134,6 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
      >Dependendo de como o administrador do Workfront ou o administrador de grupo configuram as preferências do projeto, a Workfront pode usar o agendamento do proprietário da tarefa para calcular a linha do tempo da tarefa quando vários usuários estão atribuídos a ela. Para obter informações sobre vários atribuídos de tarefa, consulte a seção &quot;Atribuir vários usuários a uma tarefa&quot; no artigo [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Alocações**: quando o Tipo de Duração de uma tarefa for Simples, especifique o número de horas que cada usuário ou função de trabalho deve ser atribuída à tarefa. A soma de todas as horas atribuídas para cada usuário é igual ao número no campo **Horas planejadas**, na parte inferior da coluna Alocações. Em todos os outros casos, especifique a porcentagem de tempo (ou alocação) que você deseja que o destinatário passe resolvendo a tarefa ou problema.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
