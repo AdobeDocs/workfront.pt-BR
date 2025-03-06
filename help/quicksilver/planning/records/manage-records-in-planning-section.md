@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1800'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ Considere o seguinte ao exibir registros do Workfront Planning de um campo de co
 * Um campo de conexão do Planning é exibido das seguintes maneiras no formulário personalizado de um objeto do Workfront, depois que os registros do Planning são conectados ao objeto do Workfront:
 
    * Se apenas o campo principal do registro conectado for selecionado, o campo de conexão do Planning será exibido como um campo com vários valores, se a conexão permitir que vários registros sejam vinculados. Para obter informações, consulte [Visão geral sobre tipos de registros do Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">Se algum campo de pesquisa adicional do registro conectado for selecionado, o campo de conexão do Planning será exibido como uma tabela. Até 7 campos podem ser selecionados para o campo de conexão do Planning. A exibição de tabela é somente leitura.  </span>
+   * <span class="preview">Se o administrador do Workfront ou do grupo tiver adicionado outros campos de pesquisa do registro conectado no formulário personalizado, o campo de conexão do Planning será exibido como uma tabela. Até 7 campos podem ser selecionados para o campo de conexão do Planning. A exibição de tabela é somente leitura.  </span>
 
 * Você pode associar apenas um tipo de registro a um campo de conexão do Planning. Não há limite para quantos campos de conexão do Planning você tem em um formulário.
 * Você deve ter o acesso e as permissões corretas para o objeto, o registro e o Workfront Planning para anexar um formulário personalizado com um campo personalizado de conexão do Planning a um objeto do Workfront.

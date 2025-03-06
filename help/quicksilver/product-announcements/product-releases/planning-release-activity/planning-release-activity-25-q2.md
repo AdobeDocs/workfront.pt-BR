@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Adicionar campos de pesquisa de registros conectados a campos de conexão do Planning em formulários personalizados do Workfront
+## Adicionar campos de pesquisa de registros conectados nos campos de conexão do Planning de formulários personalizados do Workfront
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Para obter informações, consulte [Criar um formulário personalizado](/help/qu
 Agora é possível importar registros usando uma planilha CSV ou do Excel da página de um tipo de registro.
 Antes desse aprimoramento, você poderia importar registros somente ao criar tipos de registro. Com esta atualização, você pode importar registros para tipos de registros existentes.
 
-Para obter informações, consulte [Criar Registros importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
+Para obter informações, consulte [Criar registros importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
 ## Exibir o nome do registro de uma página de detalhes de uma solicitação do Workfront Planning no nome da guia do navegador
 

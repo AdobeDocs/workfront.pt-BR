@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '795'
 ht-degree: 1%
 
 ---
@@ -105,6 +105,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * 500 colunas
 * O arquivo não deve ter mais de 5 MB.
 * Planilhas vazias não são suportadas.
+* Os campos dos seguintes tipos não são suportados e não podem ser mapeados para campos na planilha de importação:
+   * Conexões e campos de pesquisa de registros conectados <!--or connected Workfront objects-->
+   * Campos de fórmula
+   * Data de criação, Criado por
+   * Última data de modificação, Última modificação por
+   * Pessoas
 
 Para importar tipos de registro usando um arquivo Excel ou CSV:
 
