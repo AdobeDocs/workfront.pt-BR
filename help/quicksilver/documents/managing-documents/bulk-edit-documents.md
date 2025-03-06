@@ -7,17 +7,17 @@ description: É possível editar vários documentos de uma só vez na área Docu
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c1f829eb29d8cd13524814d98ed353add15e881
+exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Editar documentos em massa
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode editar a descrição, adicionar formulários personalizados e editar formulários personalizados em vários documentos de uma só vez.
 
@@ -97,4 +97,33 @@ Para editar documentos em massa:
     </table>
 1. Clique em **Salvar**.
 
+<span class="preview">
 
+## Editar documentos em massa em um Relatório de documentos
+
+1. Navegue até um relatório de documento existente.
+ou
+Crie um relatório de documento conforme descrito em [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Selecione os documentos que deseja editar.
+1. Clique no ícone Editar ![ícone editar](assets/edit-icon.png).
+   ![editar local do ícone na página](assets/edit-multiple-documents.png)
+1. (Opcional) Adicione ou edite a **Descrição**. Se a descrição de cada documento for diferente, você verá _Vários valores_ na caixa de descrição. Você pode adicionar a mesma descrição para todos os documentos, mas não pode editar descrições de documentos individuais ao editar em massa.
+1. Faça as seguintes alterações com formulários personalizados:
+
+   <table>
+    <tr>
+    <td><strong>Adicionar formulários</strong></td>
+    <td>Na <strong>caixa Adicionar formulário personalizado</strong>, você pode escolher entre formulários anexados e formulários a serem adicionados. Os formulários anexados estão em alguns dos documentos selecionados, mas não em todos. Um formulário anexado a todos os documentos selecionados é exibido automaticamente na janela de edição.  </td>
+    </tr>
+    <tr>
+    <td><strong>Editar formulários</strong></td>
+    <td>Edite quaisquer formulários personalizados anexados. As informações alteradas substituem as informações existentes em documentos individuais. Campos com valores diferentes em documentos são exibidos como "Vários valores". </td>
+    </tr>
+    <tr>
+    <td><strong>Reorganizar formulários</strong></td>
+    <td>Clique e arraste o formulário personalizado para reorganizar.</td>
+    </tr>
+    </table>
+1. Clique em **Salvar**.
+
+</span>

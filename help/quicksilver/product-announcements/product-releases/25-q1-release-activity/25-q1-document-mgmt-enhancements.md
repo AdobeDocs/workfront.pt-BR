@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 Agora é possível editar vários documentos de uma só vez. É possível editar as descrições e atualizar formulários personalizados.
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->Os recursos listados abaixo fazem parte de uma versão em fases e só estão disponíveis para clientes específicos.
+Para obter mais informações, consulte [Editar documentos em massa](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
 
 ## Novo status Retirado disponível para aprovações de versão de documento
 
