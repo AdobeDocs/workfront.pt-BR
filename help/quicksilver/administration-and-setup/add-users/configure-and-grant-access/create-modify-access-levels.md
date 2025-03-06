@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 6%
 
 ---
@@ -184,7 +184,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Visualizar apenas empresas, grupos e equipes aos quais pertencem</td> 
-      <td>Permite que os usuários visualizem e compartilhem itens somente com empresas, grupos e equipes aos quais pertencem.<p><strong>OBSERVAÇÃO</strong>: os usuários com licenças de Solicitante não podem exibir empresas às quais não pertencem, mesmo que esta opção esteja selecionada.</td> 
+      <td>Permite que os usuários visualizem e compartilhem itens somente com empresas, grupos e equipes aos quais pertencem.<p><strong>OBSERVAÇÃO</strong>: os usuários com licenças de Solicitante ou Colaborador não podem exibir empresas às quais não pertencem, mesmo que essa opção esteja selecionada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir visibilidade das Horas planejadas ou Horas efetivas</td> 
@@ -212,7 +212,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Para obter informações sobre como um administrador de Adobe atribui um nível de acesso de Administrador do Sistema a um usuário, consulte [Conceder a um usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Para obter informações sobre como um administrador do Adobe atribui um nível de acesso de Administrador do Sistema a um usuário, consulte [Conceder a um usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Usuários padrão ou do Planejador com acesso administrativo às funções de trabalho {#planner-users}
 
