@@ -1,22 +1,18 @@
 ---
 title: Criar registros importando informações de um arquivo CSV ou do Excel
 description: Os registros são instâncias individuais de tipos de registro, que são os tipos de objeto do Adobe Workfront Planning. No Workfront Planning, é possível criar registros importando informações de um arquivo CSV ou do Excel.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-<!-- add the following in the metadata when live:
-
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog-->
 
 # Criar registros importando informações de um arquivo CSV ou do Excel
 
@@ -125,14 +121,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-1. Clique no espaço de trabalho onde deseja criar tipos de registro,
+1. Clique no espaço de trabalho onde deseja criar registros,
 
    Ou
 
    Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 1. Clique no cartão do tipo de registro para o qual deseja importar os registros.
 1. Clique em **Novo registro** no canto superior direito da tela.
-1. Clique em **Carregar do arquivo** e em **Continuar**.
+1. Clique em **Carregar do arquivo** e depois em **Continuar**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Arraste e solte um arquivo Excel ou CSV salvo anteriormente no computador ou clique em **Selecionar um arquivo CSV ou Excel** para procurar um.
 1. Clique em **Visualizar e editar**.
 1. (Condicional) Se o arquivo importado tiver mais de uma planilha, selecione o botão de opção da planilha que deseja importar na caixa **Selecione uma planilha a ser importada** e clique em **Avançar**. Caso contrário, continue para a próxima etapa.
@@ -146,14 +142,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional e condicional) Se você tiver permissões de Gerenciamento para o espaço de trabalho, selecione a opção **Criar opções ausentes** no canto inferior esquerdo da tela. Quando ativado, as opções ausentes de campos de seleção única e múltipla são adicionadas.
 
->[!NOTE]
->
->Por exemplo, se o tipo de registro selecionado tiver um campo Status de seleção única com as opções Novo, Em Andamento e Fechado e um campo Status importado de um arquivo também tiver uma opção Status de Suspensão, a opção Status de Suspensão também será adicionada.
->
->Se você não tiver permissões Gerenciar para o espaço de trabalho, poderá importar registros, mas as opções adicionais não serão criadas. Em vez disso, você receberá a seguinte mensagem no canto superior direito da caixa Mapear os campos do Planning para seus cabeçalhos de coluna: **As opções que não existem nos campos de conexão, de seleção única ou de seleção múltipla não serão adicionadas**.
+   >[!NOTE]
+   >
+   >Por exemplo, se o tipo de registro selecionado tiver um campo Status de seleção única com as opções Novo, Em Andamento e Fechado e um campo Status importado de um arquivo também tiver uma opção Status de Suspensão, a opção Status de Suspensão também será adicionada.
+   >
+   >Se você não tiver permissões Gerenciar para o espaço de trabalho, poderá importar registros, mas as opções adicionais não serão criadas. Em vez disso, você receberá a seguinte mensagem no canto superior direito da caixa Mapear os campos do Planning para seus cabeçalhos de coluna: **As opções que não existem nos campos de conexão, de seleção única ou de seleção múltipla não serão adicionadas**.
 
 
-    &lt;!—quando adicionamos registros conectados e o ícone de informações na ferramenta for alterado, adicione também esses itens a esta etapa—>
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
 
 1. Clique em **Importar**.
 
@@ -161,7 +157,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * Novos registros exibidos na parte inferior da exibição de tabela do tipo de registro selecionado.
    * Novos valores de campo para campos existentes associados a cada registro.
-   * Novas opções de um campo de seleção única ou múltipla que não existia no Planning.
+   * Novas opções de um campo de seleção única ou múltipla que não existia no Planning.  <!--when we add connected records - add those here too-->
 
    Você pode começar a gerenciar campos e registros na página de tipos de registro.
 

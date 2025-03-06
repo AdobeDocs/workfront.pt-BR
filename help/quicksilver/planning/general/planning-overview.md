@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 2%
 
 ---
@@ -277,9 +277,9 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  Depois de estabelecer uma conexão entre os tipos de registro, você pode conectar registros individuais desses tipos uns aos outros. A conexão entre os registros é exibida como um campo de registro vinculado.
+  Depois de estabelecer uma conexão entre os tipos de registro, você pode conectar registros individuais ou objetos desses tipos uns aos outros. A conexão entre os registros é exibida como um campo de registro conectado ou uma conexão.
 
-* **Campos vinculados** (ou campos de pesquisa): depois de estabelecer a conexão entre dois tipos de registro e vincular registros individuais, você pode fazer referência aos campos dos registros vinculados no registro do qual está se conectando.
+* **Campos de pesquisa** (ou campos vinculados): depois de estabelecer a conexão entre dois tipos de registro e conectar registros individuais, você poderá fazer referência aos campos a partir dos registros conectados a partir do registro do qual está se conectando.
 
   Por exemplo, se você conectar um tipo de registro de Campanha a um tipo de objeto Projeto do Workfront, será possível exibir o campo Orçamento dos projetos conectados nos registros da campanha.
 
