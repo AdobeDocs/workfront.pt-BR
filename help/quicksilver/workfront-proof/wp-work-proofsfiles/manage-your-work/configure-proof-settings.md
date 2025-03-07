@@ -7,7 +7,7 @@ description: É possível configurar uma prova que você está criando ou editan
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 1%
@@ -113,11 +113,12 @@ Ativar a assinatura na prova permite que as pessoas que não foram adicionadas e
 
 Se a Assinatura tiver sido habilitada em uma prova, os campos abaixo ficarão ativos:
 
-* **[!UICONTROL Validação de assinante necessária]** - O assinante deve clicar em um link em um email para acessar uma prova\
+* **[!UICONTROL Função do assinante]** - Essa é a função de prova padrão que será atribuída a todos os revisores que assinarem a prova.
+* **[!UICONTROL Configurações de alerta por email para assinantes]** - Este é o alerta de email padrão que será atribuído a todos os revisores que assinarem a prova.
+* **[!UICONTROL Acesso de prova via link de email necessário para]** - O assinante deve clicar em um link em um email para acessar uma prova\
    Selecionar essa opção significa que a pessoa que está assinando não terá acesso imediato à prova, mas receberá um link para a prova em um email. O objetivo da validação do assinante é garantir que a pessoa tenha inserido um endereço de email correto ao qual tem acesso.
 
-* **[!UICONTROL Função padrão para novos assinantes]** - Essa é a função de prova padrão que será atribuída a todos os revisores que assinarem a prova.
-* **[!UICONTROL Alerta de email padrão para novos assinantes]** - É o alerta de email padrão que será atribuído a todos os revisores que assinarem a prova.
+
 
 Consulte também [Assinar uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
 

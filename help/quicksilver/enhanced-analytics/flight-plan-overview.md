@@ -7,14 +7,19 @@ description: A visualização do Plano de voo mostra quantos projetos (dentro do
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '927'
 ht-degree: 4%
 
 ---
 
 # Exibir a visualização de Plano de voo na Análise aprimorada
+
+>[!IMPORTANT]
+>
+>O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
+
 
 A visualização do Plano de voo mostra quantos projetos (dentro dos critérios de filtro aplicados) estavam em andamento, quais alterações de condição ocorreram durante a vida desses projetos e o quão próximos esses projetos respeitaram os prazos de conclusão planejados.
 

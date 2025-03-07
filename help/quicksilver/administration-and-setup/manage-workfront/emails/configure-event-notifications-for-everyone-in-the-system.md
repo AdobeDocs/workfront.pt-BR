@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -90,8 +90,6 @@ Você deve ativar notificações na área Configuração do Workfront antes que 
 
 1. (Opcional) Se você deseja desbloquear a configuração de uma notificação por email para que os administradores de grupo possam configurá-la separadamente para seus grupos, clique no botão ![Bloquear](assets/lock-toggle-button.png) à direita da notificação para alterná-la para a posição desbloqueada ![Desbloquear alternar](assets/unlock-toggle-button.png).
 
-   >[!NOTE]
-   >
-   >Inicialmente, essa funcionalidade está disponível apenas para clientes no Cluster 4 como parte de uma implantação em fases. Logo depois disso, ela se tornará disponível para outros clusters. Este artigo será atualizado à medida que isso ocorrer.
-
    Para obter mais informações, consulte [Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+
+Os usuários podem personalizar a frequência dessas notificações em seus perfis de usuário.

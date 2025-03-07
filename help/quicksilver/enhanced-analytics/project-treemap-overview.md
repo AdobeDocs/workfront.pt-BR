@@ -7,14 +7,19 @@ description: A visualização do mapa de árvore do projeto é uma exibição de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
 
 # Visualização do mapa de árvore do projeto na Análise aprimorada
+
+>[!IMPORTANT]
+>
+>O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
+
 
 <!-- Audited: 12/2023 -->
 

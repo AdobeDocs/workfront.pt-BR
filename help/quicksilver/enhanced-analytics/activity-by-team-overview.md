@@ -7,14 +7,20 @@ description: A visualização Atividade por equipe mostra atividades que acontec
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 7%
+source-wordcount: '769'
+ht-degree: 6%
 
 ---
 
 # Visualização da Atividade por equipe na Análise aprimorada
+
+>[!IMPORTANT]
+>
+>O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
+
+
 
 <!-- Audited: 12/2023 -->
 

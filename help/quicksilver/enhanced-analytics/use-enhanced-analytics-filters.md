@@ -6,14 +6,19 @@ description: Os filtros na área Análise aprimorada do Adobe Workfront ajudam v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # Aplicar filtros na análise aprimorada
+
+>[!IMPORTANT]
+>
+>O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
+
 
 <!-- Audited: 12/2023 -->
 
@@ -52,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td> <p>Visualizar acesso aos projetos</p> <p>Você também deve ter acesso de Visualização a Tarefas, Portfolio e Usuários para ver opções específicas de filtro de campo do projeto.</p> <p>Observação: se as restrições forem selecionadas na seção <strong>Definir restrições adicionais</strong> da caixa de diálogo Editar Nível de Acesso, talvez você não veja todas as informações nos filtros ou na página Analítica aprimorada após a aplicação do filtro.</p> </td> 
+   <td> <p>Visualizar acesso aos projetos</p> <p>Você também deve ter acesso de Visualização a Tarefas, Portfólios e Usuários para ver opções específicas de filtro de campo do projeto.</p> <p>Observação: se as restrições forem selecionadas na seção <strong>Definir restrições adicionais</strong> da caixa de diálogo Editar Nível de Acesso, talvez você não veja todas as informações nos filtros ou na página Analítica aprimorada após a aplicação do filtro.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Permissões de objeto </p> </td> 

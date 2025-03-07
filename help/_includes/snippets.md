@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -127,7 +127,7 @@ Você pode verificar se está associando o grupo certo com a equipe, passando o 
 
 ## configurar pastas vinculadas {#setup-linked-folder}
 
-Você pode permitir que os usuários criem pastas vinculadas ao Experience Manager enquanto estiverem em um projeto Workfront. Quando uma pasta é vinculada, qualquer ativo adicionado à pasta é exibido automaticamente no Workfront e no Experience Manager. Quando um ativo é adicionado à pasta vinculada no Workfront pela primeira vez, os metadados do ativo são enviados para o Experience Manager Assets.
+Você pode permitir que os usuários criem pastas vinculadas ao Experience Manager enquanto estiverem em um projeto do Workfront. Quando uma pasta é vinculada, qualquer ativo adicionado à pasta é exibido automaticamente no Workfront e no Experience Manager. Quando um ativo é adicionado à pasta vinculada no Workfront pela primeira vez, os metadados do ativo são enviados para o Experience Manager Assets.
 
 Nas etapas abaixo, você indica onde deseja criar as pastas vinculadas. Cada integração pode ter apenas um local para todas as pastas vinculadas.
 
@@ -171,7 +171,7 @@ Para configurar pastas vinculadas:
 
 Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud que está utilizando:
 * Para o Photoshop, consulte [Instalar o Adobe Workfront para o Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* Para XD, consulte [Instalar Adobe Workfront para XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* Para o XD, consulte [Instalar o Adobe Workfront para o XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Para InDesign, Illustrator, Premiere Pro e After Effects, consulte [Instalar o Adobe Workfront para design e vídeo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## Lista de aplicativos da CC {#cc-app-list}
@@ -315,9 +315,9 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 
 <!-- Manage Work -->
 
-## Etapa 1 - Acessar o Portfolio - {#step1-to-portfolios}
+## Etapa 1 - Acessar Portfólios - {#step1-to-portfolios}
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Portfolio]**.
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Portfólios]**.
 
 ## Etapa 1 - Introdução aos programas - {#step1-to-programs}
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

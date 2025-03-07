@@ -7,14 +7,19 @@ description: A visualização Tarefas em andamento mostra quantas tarefas (dentr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '791'
 ht-degree: 4%
 
 ---
 
 # Visualização das Tarefas em andamento na Análise aprimorada
+
+>[!IMPORTANT]
+>
+>O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
+
 
 A visualização Tarefas em andamento mostra quantas tarefas (dentro dos critérios de filtro aplicados) estão em andamento para um projeto, a porcentagem de trabalho concluído para cada tarefa e o cronograma das tarefas.
 

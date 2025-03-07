@@ -7,14 +7,19 @@ description: A análise aprimorada é uma ferramenta eficiente no Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 3%
 
 ---
 
 # Visão geral da análise aprimorada
+
+>[!IMPORTANT]
+>
+>O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
+
 
 A análise aprimorada é uma ferramenta eficiente no Adobe Workfront com visualizações pré-criadas que permitem examinar os dados do projeto e identificar tendências com planejamento e conclusão. Esse insight sobre os projetos ajuda a gerenciar o trabalho atual e permite que você planeje com mais precisão trabalhos futuros.
 
