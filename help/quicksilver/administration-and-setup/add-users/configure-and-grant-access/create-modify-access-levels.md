@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 6%
@@ -221,3 +221,6 @@ Se você conceder a um usuário Padrão ou Planejador acesso administrativo a fu
 Posteriormente, se você desativar o acesso administrativo a funções de trabalho para o usuário, as funções de trabalho ainda estarão visíveis para o usuário, pois a configuração Editar taxas de custo e cobrança de função ainda está ativada.
 
 Se isso acontecer e você precisar remover o acesso do usuário para visualizar funções de trabalho, será necessário desativar a configuração de permissão Editar taxas de custo e cobrança de função. Para obter instruções, consulte [Conceder acesso a dados financeiros](grant-access-financial.md).
+
+
+
