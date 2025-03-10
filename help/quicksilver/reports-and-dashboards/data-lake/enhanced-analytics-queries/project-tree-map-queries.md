@@ -9,13 +9,13 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 77d93919a84b2c3b098d1b5e6796af6b37b51034
+exl-id: 3943703a-0d0b-46d3-a708-52987d330523
+source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
-
 
 # Consultas de mapa de árvore do projeto
 
@@ -34,4 +34,104 @@ Antes de começar, você deve
    1. [Criar uma conta ou conexão de leitor para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
    1. [Estabelecer uma conexão com o Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
-Depois de estabelecer uma conexão, você pode usar as consultas neste artigo para extrair e visualizar dados.
+Depois de estabelecer uma conexão, você poderá usar as consultas neste artigo para extrair e visualizar dados.
+
+## Horas planejadas de projetos retiradas
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        workrequired, 
+        percentcomplete, 
+        calendardate, 
+        (workrequired - (workrequired * percentcomplete)) as remainingMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.workrequired) as projectTotalWork, 
+    sum(tdw.remainingMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+### Horas planejadas de projetos desativadas: burndown
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        workrequired, 
+        percentcomplete, 
+        calendardate, 
+        (workrequired - (workrequired * percentcomplete)) as remainingMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.workrequired) as projectTotalWork, 
+    sum(tdw.remainingMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+## Duração planejada dos projetos removida 
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        planneddurationminutes, 
+        percentcomplete, 
+        calendardate, 
+        (planneddurationminutes - (planneddurationminutes * percentcomplete)) as remainingDurationMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.planneddurationminutes) as projectTotalWork, 
+    sum(tdw.remainingDurationMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+### Duração planejada dos projetos desativada: burndown
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        planneddurationminutes, 
+        percentcomplete, 
+        calendardate, 
+        (planneddurationminutes - (planneddurationminutes * percentcomplete)) as remainingDurationMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.planneddurationminutes) as projectTotalWork, 
+    sum(tdw.remainingDurationMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
