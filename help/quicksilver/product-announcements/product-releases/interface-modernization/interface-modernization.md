@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ Atualizamos as listas de Aprovação de projetos, tarefas e problemas em Configu
 Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
 
 ## Ágil
+
+### Atualizações de interface para solicitações de equipe
+
+**Versão de visualização: 6 de março de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a página Solicitações de equipe com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Para visualizar esta alteração, acesse Equipes > Escolher uma equipe > Solicitações da equipe.
 
 ### Página de visão geral da atualização de interface para iterações
 
