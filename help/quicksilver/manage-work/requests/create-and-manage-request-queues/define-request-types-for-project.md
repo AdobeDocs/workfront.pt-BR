@@ -6,9 +6,9 @@ description: Você pode organizar os tipos de problemas ou solicitações que es
 author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Essa organização é útil para relatar motivos e ajudar os usuários a entende
 
 ## Requisitos de acesso
 
-+++
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 

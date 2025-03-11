@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Você pode exibir registros do Workfront Planning no Workfront nas seguintes ár
 
 ## Requisitos de acesso
 
-+++ Expanda para exibir os requisitos de acesso do Workfront Planning.
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -92,7 +92,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
    <p>No Workfront, visualize ou aumente as permissões para um projeto, portfólio ou programa</a> </p> 
-   <p>No Workfront Planning, visualize permissões em um espaço de trabalho para visualizar registros conectados ou o Contribute ou permissões mais altas em um espaço de trabalho para conectar ou desconectar registros</a> </p>  
+   <p>No Workfront Planning:
+   <ul><li>
+   Exibir permissões para um espaço de trabalho <!--<span class="preview">and record type</span>--> para exibir todos os registros conectados </li>
+   ou
+   <li> Permissões do Contribute ou superior para um espaço de trabalho <!--<span class="preview">and record type</span>--> para conectar ou desconectar registros</a></li></ul> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho do Workfront Planning, incluindo aqueles que eles não criaram</p> 
   </td>
   </tr>

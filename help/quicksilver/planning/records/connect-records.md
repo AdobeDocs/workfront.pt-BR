@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3327'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Você pode conectar o seguinte:
 
 ## Requisitos de acesso
 
-+++ Expanda para exibir os requisitos de acesso do Workfront Planning.
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -118,8 +118,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Contribute ou tenha permissões mais altas em um espaço de trabalho para conectar registros </p>  
-   <p>Permissões de exibição ou mais altas em um espaço de trabalho para exibir todas as conexões com objetos e campos de outros aplicativos, independentemente do acesso no outro aplicativo. </p>
+   <td>   <p>Permissões do Contribute ou superior para um espaço de trabalho <!--<span class="preview">and record type</span>--> para conectar registros </p>  
+   <p>Permissões de exibição ou superiores para um espaço de trabalho <!--<span class="preview">and record type</span>--> para exibir todas as conexões a objetos e campos de outros aplicativos, independentemente do seu acesso no outro aplicativo. </p>
    <p>Visualize ou aumente as permissões para os objetos que deseja vincular a partir do Workfront ou do Experience Manager Assets. </p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram.</p> </td> 
   </tr> 

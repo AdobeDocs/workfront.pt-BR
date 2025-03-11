@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para obter informações, consulte os seguintes artigos:
 
 ## Requisitos de acesso
 
-+++ Expanda para exibir os requisitos de acesso do Workfront Planning.
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -99,7 +99,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr>
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
-   <p>Contribuir com ou mais permissões para um espaço de trabalho</a> </p>  
+   <p>Permissões do Contribute ou superior para um espaço de trabalho <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> 
   </td>
   </tr>

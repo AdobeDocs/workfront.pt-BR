@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -15,6 +15,10 @@ ht-degree: 1%
 
 
 # Visão geral do campo principal
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,4 +53,4 @@ Para obter informações sobre como designar um campo como campo primário, cons
 * Alterar o campo principal na exibição de tabela afeta a exibição de todos os outros usuários que a escolhem.
 * Alterar o campo principal em uma exibição de tabela afeta todas as exibições de tabela do tipo de registro.
 * O valor listado no campo principal sempre tem um hiperlink para a página do registro.
-* Se você tiver permissões do Contribute ou superiores para um espaço de trabalho, poderá editar o valor dos campos primários, exceto para campos de fórmula. Fórmulas são cálculos atualizados automaticamente.
+* Se você tiver permissões do Contribute ou superior para um espaço de trabalho <!--<span class="preview">and record type</span>-->, poderá editar o valor dos campos primários, exceto para campos de fórmula. Fórmulas são cálculos atualizados automaticamente.

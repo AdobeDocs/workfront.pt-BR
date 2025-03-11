@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Adobe Workfront Planning para conceder o seguinte acesso:
 
-* Exibir, contribuir ou gerenciar espaços de trabalho
+* Exibir, contribuir ou gerenciar espaços de trabalho <!--<span class="preview">or record types</span>-->
 * Exibir ou gerenciar exibições.
 
 Para obter informações sobre permissões para objetos no Workfront Planning, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -39,9 +39,20 @@ Conceder permissões de usuário a um espaço de trabalho também concede a eles
 
 Você deve conceder aos usuários permissões separadas para exibições, além daquelas que eles têm para espaços de trabalho, para acessar e gerenciar exibições.
 
+
+<div class="preview">
+
+Considere o seguinte ao trabalhar com permissões de tipo de registro:
+
+* Os usuários herdam automaticamente permissões de tipo de registro de espaços de trabalho.
+* Quando um usuário tem permissões de Gerenciamento para um espaço de trabalho, ele não pode ter um acesso menor ao tipo de registro.
+* Os usuários não podem ter mais permissões para um tipo de registro do que têm para o espaço de trabalho ao qual o tipo de registro pertence.
+
+</div>
+
 | Tipo de licença da Adobe Workfront* | Permissões mais altas permitidas no Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Padrão | <p>Os usuários podem gerenciar espaços de trabalho e visualizações. Eles podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros, campos e exibições.</p> <br> <p>Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram.</p> |
+| Padrão | <p>Os usuários podem gerenciar espaços de trabalho <span class="preview">, tipos de registro, </span> e modos de exibição. Eles podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros, campos e exibições.</p> <br> <p>Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram.</p> |
 | Leve ou Colaborador | <p>Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro, registros e campos desses espaços de trabalho.</p> <br> <p>Os usuários podem exibir as visualizações compartilhadas com eles, mas não podem criar as suas próprias visualizações. </p><br> <p>Os usuários não podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros ou campos.</p> |
 
 *O Workfront Planning não está disponível para licenças herdadas do Workfront.
@@ -60,9 +71,11 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 ### Tipos de licença e permissões de espaço de trabalho
 
-Somente os usuários com uma licença Standard podem ter permissões de Contribute ou Gerenciar para espaços de trabalho. Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho compartilhados com eles.
+Somente usuários com uma licença Standard podem ter permissões de Contribute ou Gerenciar para espaços de trabalho <span class="preview">e tipos de registro</span>. Usuários com todos os outros tipos de licença podem ter permissões de exibição para espaços de trabalho <span class="preview"> e tipos de registro </span> compartilhados com eles.
 
 Os administradores do sistema podem exibir todos os espaços de trabalho no sistema, mesmo aqueles que não criaram.
+
+<!--does the shot below need to be replaced for record types??-->
 
 >[!INFO]
 >

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1422'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Este artigo descreve as seguintes informações sobre visualizações de registr
 
 ## Requisitos de acesso
 
-+++ Expanda para exibir os requisitos de acesso do Workfront Planning.
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -85,7 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -206,26 +206,26 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
 | Recurso | Exibição em tabela | Visualização da linha do tempo | Exibição de calendário |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
-| Exibir registros em uma lista ou tabela | ✓ µ |              | |
-| Exibir todos os campos como colunas na tabela, por padrão | ✓ µ |              |    |
-| Ocultar ou mostrar campos (ou colunas) | ✓ µ |               |    |
-| Editar valores de campo para cada registro | ✓ µ |               |             |
-| Adicionar registros como novas linhas na exibição | ✓ µ |               |        |
-| Adicionar campos como novas colunas na exibição | ✓ µ |               |         |
-| Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ µ |               |          |
-| Exibir registros em uma linha do tempo |            | ✓ µ |             |
-| Filtrar registros | ✓ µ | ✓ µ | ✓ µ |
-| Exibir registros em um calendário |           |              | ✓ µ |
-| Registros de grupo | ✓ µ | ✓ µ |
-| Classificar registros | ✓ µ |              |
-| Registros de código de cores |           | ✓ µ | ✓ µ |
-| Agrupamentos de código de cores |           | ✓ µ |
-| Pesquisar registros específicos | ✓ µ | ✓ µ |
-| Compartilhar a exibição com outras pessoas | ✓ µ | ✓ µ | ✓ µ |
-| Abrir a página do registro na exibição | ✓ µ | ✓ µ |    |
-| Exibir registros por ano e trimestre |           | ✓ µ |    |
-| Exibir registros por mês |           | ✓ µ | ✓ µ |
-| Exibir registros por semana |           |               | ✓ µ |
+| Exibir registros em uma lista ou tabela | ✓ |              | |
+| Exibir todos os campos como colunas na tabela, por padrão | ✓ |              |    |
+| Ocultar ou mostrar campos (ou colunas) | ✓ |               |    |
+| Editar valores de campo para cada registro | ✓ |               |             |
+| Adicionar registros como novas linhas na exibição | ✓ |               |        |
+| Adicionar campos como novas colunas na exibição | ✓ |               |         |
+| Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ |               |          |
+| Exibir registros em uma linha do tempo |            | ✓ |             |
+| Filtrar registros | ✓ | ✓ | ✓ |
+| Exibir registros em um calendário |           |              | ✓ |
+| Registros de grupo | ✓ | ✓ |
+| Classificar registros | ✓ |              |
+| Registros de código de cores |           | ✓ | ✓ |
+| Agrupamentos de código de cores |           | ✓ |
+| Pesquisar registros específicos | ✓ | ✓ |
+| Compartilhar a exibição com outras pessoas | ✓ | ✓ | ✓ |
+| Abrir a página do registro na exibição | ✓ | ✓ |    |
+| Exibir registros por ano e trimestre |           | ✓ |    |
+| Exibir registros por mês |           | ✓ | ✓ |
+| Exibir registros por semana |           |               | ✓ |
 
 
 ## Criar ou editar exibições {#create-or-edit-views}

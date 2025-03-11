@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
@@ -17,16 +17,14 @@ ht-degree: 1%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 
 Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham uma conta do Workfront, é possível exportar os detalhes de um registro para um arquivo e compartilhá-lo com elas.
 
 ## Requisitos de acesso
 
-+++ Expanda para exibir os requisitos de acesso do Workfront Planning.
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -63,7 +61,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -80,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Exibir ou aumentar permissões para um espaço de trabalho</a> </p>  
+   <td>   <p>Permissões de exibição ou superiores para um espaço de trabalho <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
   </tr> 
 <tr> 
@@ -129,7 +127,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
    * **Microsoft Word**
    * **Adobe PDF**
 
-   Um arquivo Word (.docx) ou PDF é baixado e salvo no computador.
+   Um arquivo do Word (.docx) ou PDF é baixado e salvo no computador.
 
    O nome do arquivo exportado é o campo Primary do registro.
 
@@ -137,7 +135,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 
    >[!NOTE]
    >
-   >    Informações adicionais que não são exibidas na página e só são visíveis depois de clicar em Mostrar mais na área de detalhes do registro não são exibidas no arquivo PDF exportado. Somente as informações visíveis na página são exibidas no arquivo exportado.
+   >    As informações adicionais que não são exibidas na página e só são visíveis depois de clicar em Mostrar mais na área de detalhes do registro não são exibidas no arquivo PDF exportado. Somente as informações visíveis na página são exibidas no arquivo exportado.
 
 
 1. (Opcional) Vá para o arquivo baixado, abra-o e edite-o (se for um arquivo do Word) ou compartilhe-o com outras pessoas.

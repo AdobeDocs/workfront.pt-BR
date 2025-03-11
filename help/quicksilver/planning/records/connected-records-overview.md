@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
 
   Os valores dos campos de pesquisa preenchem o registro do Workfront Planning que você está vinculando automaticamente depois de serem atualizados no registro ou objeto original.
 
-* Todos os usuários com acesso ao Workfront Planning and View ou com permissões mais altas para o espaço de trabalho podem ver as conexões que você faz entre registros ou entre registros e objetos de outros aplicativos. Eles podem exibir registros e objetos conectados independentemente de suas permissões nos aplicativos aos quais você está se conectando.
-* Você poderá exibir e editar as conexões de todos os outros usuários se tiver permissões de Gerenciamento para o espaço de trabalho em que os registros conectados estão.
+* Todos os usuários com acesso ao Workfront Planning and View ou com permissões mais altas para o espaço de trabalho <!--<span class="preview">and record type</span>--> podem ver as conexões que você faz entre registros ou entre registros e objetos de outros aplicativos. Eles podem exibir registros e objetos conectados independentemente de suas permissões nos aplicativos aos quais você está se conectando.
+* Você poderá exibir e editar as conexões de todos os outros usuários, se tiver permissões de Gerenciamento para o espaço de trabalho <!--<span class="preview">and record type</span>--> em que os registros conectados estão.
 * É possível conectar um registro a um ou vários objetos de outro aplicativo., dependendo do tipo de conexão selecionado ao conectar os tipos de registro. Para obter mais informações, consulte a seção &quot;Tipos de conexões&quot; no artigo [Visão geral sobre tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Áreas em que é possível conectar registros

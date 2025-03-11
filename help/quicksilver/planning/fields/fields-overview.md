@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
@@ -87,7 +87,7 @@ Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o cic
 
 * Os campos do Workfront podem ser acessados no Workfront Planning somente quando você conecta tipos de registro a tipos de objeto do Workfront e adiciona campos vinculados ou de pesquisa a partir de objetos do Workfront. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-* É possível exibir e atualizar as configurações dos campos criados por você ou por qualquer outro usuário, se você tiver permissões de gerenciamento no espaço de trabalho ao qual o campo pertence.
+* Você poderá exibir e atualizar as configurações dos campos que você ou qualquer outro usuário criou se tiver permissões de gerenciamento para o espaço de trabalho <!--<span class="preview">and record type</span>--> ao qual o campo pertence.
 
 * É possível ter até 500 campos para um tipo de registro.
 

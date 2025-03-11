@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->A funcionalidade descrita neste artigo está disponível somente quando sua organização foi integrada à Experiência unificada do Adobe.
+>A funcionalidade descrita neste artigo só estará disponível quando sua organização tiver sido integrada à Adobe Unified Experience.
 >
->Para obter mais informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Para obter mais informações, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 
 Você pode solicitar permissões para uma view ou um espaço de trabalho quando alguém compartilhar um link com você para a view ou o espaço de trabalho ao qual você não tem acesso.
@@ -36,7 +36,7 @@ Para obter informações sobre a concessão de permissões para exibições e es
 
 ## Requisitos de acesso
 
-+++ Expanda para exibir os requisitos de acesso do Workfront Planning.
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -74,8 +74,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
 <p><b>IMPORTANTE</b></p>
-<p>Os usuários em sua organização podem solicitar permissões para exibições e espaços de trabalho somente quando sua organização é integrada à Experiência unificada do Adobe. </p>
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>. </p> 
+<p>Os usuários em sua organização podem solicitar permissões para exibições e espaços de trabalho somente quando sua organização é integrada à Adobe Unified Experience. </p>
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>  <p>Após receber sua solicitação de permissão, você pode obter as seguintes permissões:</p>
    <ul><li><p>Exibir ou Gerenciar para um modo de exibição</p></li>
-   <li><p>Exibir, Contribute ou Gerenciar para um espaço de trabalho</p></li></ul>  
+   <li><p>Exibir, contribuir ou gerenciar para um espaço de trabalho</p></li></ul>  
    <p>Somente usuários com permissões para Gerenciar um espaço de trabalho e uma visualização podem compartilhar uma visualização publicamente.</p></td> 
   </tr> 
 <tr> 

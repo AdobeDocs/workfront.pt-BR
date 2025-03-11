@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr>
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
-   <p>Exibir permissões ou mais altas para um espaço de trabalho, se você for um usuário do Workfront</p> 
+   <p>Exibir permissões ou mais altas para um espaço de trabalho <!--<span class="preview">and record type</span>-->, se você for um usuário do Workfront</p> 
   </td>
   </tr>
 <tr>
