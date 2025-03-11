@@ -6,10 +6,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: c8e47417fa52ef2bf5839d351f1376e733dbe1b2
+source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
@@ -49,19 +49,10 @@ Use as queries nos artigos abaixo para criar visualizações de dados semelhante
 
 
 * [Consultas de KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-
-Em breve:
-
-* Plano de voo
-* Atividades de projeto
-* Mapa de árvore do projeto
-* Atividades por equipe
-<!--
-* [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
-* [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-* [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
-* [Activity by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
--->
+* [Consultas de plano de voo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Consultas de atividades do projeto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+* [Consultas de mapa de árvore do projeto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+* [Consultas de atividade por equipe](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Solicitar ajuda
 
