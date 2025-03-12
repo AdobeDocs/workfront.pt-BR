@@ -2,12 +2,12 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Visão geral da modificação de atribuições de tarefas
+title: Visão Geral da Modificação de Atribuições de Tarefas
 description: É possível atribuir tarefas ou cancelar a atribuição de tarefas de usuários, equipes ou funções de trabalho. Você pode atribuir vários recursos ao mesmo tempo ou apenas um recurso. Você pode atribuir uma tarefa de cada vez ou várias tarefas em massa.
 author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%

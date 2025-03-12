@@ -1,15 +1,15 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Atribuir tarefas
+title: Tarefas Atribuídas
 description: É possível atribuir tarefas a usuários, funções ou equipes para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
 author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2012'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,8 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -69,7 +71,7 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão</p>
    <p>Atual: trabalho ou superior</p>
    </td> 
@@ -80,13 +82,13 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> </td> 
+   <td>Contribuir com ou mais permissões para a tarefa</td> 
   </tr> 
  </tbody> 
 </table>
 
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Considerações para várias atribuições para funções de trabalho, equipes e usuários

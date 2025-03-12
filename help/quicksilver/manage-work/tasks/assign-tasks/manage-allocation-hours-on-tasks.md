@@ -6,18 +6,26 @@ description: Ao atribuir usuários ou funções a uma tarefa, eles são alocados
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
 # Gerenciar horas de alocação de usuários e funções em tarefas
 
+As horas de alocação representam a quantidade total de tempo que um recurso atribuído é planejado para trabalhar em uma tarefa. As horas representam o tempo que um usuário é alocado em um determinado dia ou dia da semana, semana ou mês durante toda a duração da tarefa.
+
+>[!NOTE]
+>
+>Ao atribuir usuários para trabalhar, sua disponibilidade de acordo com seus agendamentos afeta as Datas Planejadas e Projetadas de tarefas e problemas. Para obter informações sobre agendamentos, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,22 +36,22 @@ ht-degree: 0%
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão </p>
    <p>Atual: trabalho ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a tarefas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribute ou permissões mais altas para a tarefa</p> <p>Editar permissões para atualizar horas de alocação na caixa Editar tarefa</p> </td> 
+   <td> <p>Contribuir com ou mais permissões para a tarefa</p> <p>Editar permissões para atualizar horas de alocação na caixa Editar tarefa</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: A porcentagem de alocação representa a quantidade de tempo que um
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,8 @@ A porcentagem de alocação representa a quantidade de tempo que um recurso atri
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -34,7 +36,7 @@ A porcentagem de alocação representa a quantidade de tempo que um recurso atri
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão</p> 
    <p>Atual: trabalho ou superior</p> </td> 
   </tr> 
@@ -44,12 +46,12 @@ A porcentagem de alocação representa a quantidade de tempo que um recurso atri
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribute ou permissões mais altas para a tarefa</p> <p>Editar permissões para atualizar a porcentagem de alocação na caixa Editar tarefa</p>  </td> 
+   <td> <p>Contribuir com ou mais permissões para a tarefa</p> <p>Editar permissões para atualizar a porcentagem de alocação na caixa Editar tarefa</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

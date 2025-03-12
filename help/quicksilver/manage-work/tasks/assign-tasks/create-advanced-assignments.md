@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,7 +58,7 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão</p>
     <p>Atual: trabalho ou superior</p> </td> 
   </tr> 
@@ -71,7 +73,7 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,18 +85,17 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
    >[!TIP]
    >
    >Você pode fazer atribuições avançadas diretamente na lista de tarefas ou problemas se houver duas ou mais pessoas atribuídas. Clique dentro do campo **Atribuições** na mesma linha da tarefa ou problema e clique no **ícone Pessoas** para abrir a janela Atribuições Avançadas. Vá para a etapa 5 para continuar criando atribuições avançadas.\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![Clique no ícone Pessoas](assets/nwe-advanced-assignments-350x55.png)
 
 1. Clique em **Atribuir a** no campo **Atribuições** no cabeçalho da tarefa ou problema
 
    Ou
 
-   Clique no nome das atribuições se a tarefa ou problema já estiver atribuído.
+   Clique em um dos nomes atribuídos se a tarefa ou problema já tiver sido atribuído.
 
 1. Clique em **Avançado**.
 
-   <span class="preview">![Clique em Avançado](assets/assignments-box-in-task-header.png)</span>
+   ![Clique em Avançado](assets/assignments-box-in-task-header.png)
 
 1. No campo **Pesquisar pessoas, funções e equipes**, comece digitando o nome de um usuário, função ou equipe, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
@@ -102,7 +103,7 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
    >
    >Se o nome do usuário contiver um caractere especial, você deverá incluí-lo no campo de pesquisa.
 
-1. (Opcional) Continue adicionando atribuídos na caixa **Pesquisar pessoas, funções ou equipes** para adicionar vários recursos à tarefa ou problema.
+1. (Opcional) Continue adicionando atribuídos na caixa **Pesquisar pessoas, funções e equipes** para adicionar vários recursos à tarefa ou problema.
 
    >[!TIP]
    >
@@ -118,7 +119,6 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
    >   
    >   * Reatribuir o item de trabalho aos recursos ativos.
    >   * Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -141,7 +141,7 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
      >   * Não é possível modificar manualmente as alocações de atribuição em ocorrências.
      >   * Não é possível modificar manualmente as alocações de equipes atribuídas a tarefas.
 
-   * **Função do destinatário:** selecione a função que o usuário deve usar ao realizar esta atribuição.  A Função principal do usuário é exibida por padrão. Clique na caixa Função do responsável para selecionar outra função.  Ao atribuir a tarefa ou o problema a uma função primeiro e, em seguida, adicionar um usuário que pode desempenhar essa função como uma segunda atribuição, a lista de usuários sugeridos é filtrada para os usuários que podem desempenhar as funções já atribuídas à tarefa e ao problema.
+   * **Função do destinatário:** selecione a função que o usuário deve usar ao realizar esta atribuição.  A Função principal do usuário é exibida por padrão. Clique na caixa **Função do destinatário** para selecionar outra função. Ao atribuir a tarefa ou o problema a uma função primeiro e, em seguida, adicionar um usuário que pode desempenhar essa função como uma segunda atribuição, a lista de usuários sugeridos é filtrada para os usuários que podem desempenhar as funções já atribuídas à tarefa e ao problema.
 
      ![Função do destinatário](assets/advanced-assignments-select-role.png)
 
@@ -160,6 +160,5 @@ Além disso, você pode fazer atribuições avançadas nas seguintes áreas do W
      Para obter mais informações, consulte [Visão geral da duração e do tipo de duração da tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Ao editar informações de atribuição em massa, uma caixa de diálogo semelhante é exibida para atribuir usuários, horas, alocação e proprietário da tarefa.
 
    * **Horas planejadas**: quando o tipo de duração for Atribuição calculada ou Simples, atualize o número de Horas planejadas. Como resultado, as porcentagens de alocação ou as horas de cada recurso são distribuídas uniformemente. O Workfront calcula as horas planejadas quando o tipo de duração é Trabalho calculado ou orientado pelo esforço. Para obter mais informações, consulte [Visão geral da duração e do tipo de duração da tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
 
 1. Clique em **Salvar**.

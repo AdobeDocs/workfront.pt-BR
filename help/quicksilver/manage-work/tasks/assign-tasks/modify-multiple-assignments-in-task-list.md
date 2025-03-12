@@ -1,15 +1,15 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Modificar atribuições de vários usuários em uma lista de tarefas
+title: Modificar Várias Atribuições de Usuário em uma Lista de Tarefas
 description: Ao gerenciar atribuições de tarefas, você pode modificá-las simultaneamente para várias tarefas de uma vez usando o recurso de edição em massa em uma lista de tarefas.
 author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Para obter informações sobre como atribuir uma tarefa a um recurso em uma list
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -43,7 +45,7 @@ Para obter informações sobre como atribuir uma tarefa a um recurso em uma list
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão</p>
    <p>Atual: trabalho ou superior</p> </td> 
   </tr> 
@@ -53,12 +55,12 @@ Para obter informações sobre como atribuir uma tarefa a um recurso em uma list
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribute ou permissões mais altas para tarefas</p>  </td> 
+   <td> <p>Contribuir com permissões ou mais altas para tarefas</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

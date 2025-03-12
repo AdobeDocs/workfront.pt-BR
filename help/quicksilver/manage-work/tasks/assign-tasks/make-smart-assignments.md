@@ -1,14 +1,14 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Fazer atribuições inteligentes
+title: Faça atribuições inteligentes
 description: Você pode usar atribuições inteligentes para identificar quem é o melhor usuário para concluir o trabalho. As atribuições inteligentes são sugestões para usuários, funções ou equipes que a Adobe Workfront apresenta ao atribuir itens de trabalho a recursos com base em um algoritmo que determina o recurso mais apropriado para o trabalho. Para obter informações sobre atribuições inteligentes, consulte Visão geral das atribuições inteligentes.
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Para obter mais informações sobre os critérios usados na determinação de at
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -46,7 +48,7 @@ Para obter mais informações sobre os critérios usados na determinação de at
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão</p>
       Ou
       <p>Atual: trabalho ou superior</p> </td> 
@@ -57,12 +59,12 @@ Para obter mais informações sobre os critérios usados na determinação de at
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superior com a capacidade de fazer atribuições em tarefas e problemas</p> </td> 
+   <td> <p>Contribuir com permissões ou superiores com a capacidade de fazer atribuições em tarefas e problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +92,7 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **Usuários e equipes**, **Funções de trabalho** ou <span class="preview">**Classificar funções de trabalho de cartão**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![](assets/smart-assignments-task-list.png)
+   ![Exemplo de atribuições inteligentes na lista de tarefas](assets/smart-assignments-task-list.png)
 
    Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

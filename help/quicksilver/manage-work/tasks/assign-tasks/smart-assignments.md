@@ -7,9 +7,9 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -51,23 +51,23 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
 * Uma lista de problemas ou um relatório na coluna Atribuições
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![Coluna Atribuições da lista de problemas](assets/smart-assignments-issue-list.png)
 
 * Uma lista de tarefas ou um relatório na coluna Atribuições
 
-  ![](assets/smart-assignments-task-list.png)
+  ![Coluna Atribuições da lista de tarefas](assets/smart-assignments-task-list.png)
 
 * Um cabeçalho de tarefa no campo Assignments
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![Campo de atribuições do cabeçalho da tarefa](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Um cabeçalho de problema no campo Atribuições
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![Campo de atribuições do cabeçalho do problema](assets/smart-assignments-issue-header.png)
 
 * O painel Resumo de tarefas ou problemas na área Atribuições
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![Área Atribuições do painel de Resumo](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
 * O Balanceador de carga de trabalho na área Atribuído a quando você atribui uma tarefa ou problema
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![Área de Atribuições do Balanceador de Carga de Trabalho](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Critérios de atribuições inteligentes
 
@@ -153,7 +152,7 @@ As atribuições identificadas estão listadas nas seções **Usuários e equipe
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![Exemplo de atribuição inteligente](assets/smart-assignments-issue-header.png)
 
 Os usuários são recomendados na lista suspensa atribuições inteligentes com base em uma combinação dos seguintes critérios (listados na ordem do mais importante para o menos importante):
 
