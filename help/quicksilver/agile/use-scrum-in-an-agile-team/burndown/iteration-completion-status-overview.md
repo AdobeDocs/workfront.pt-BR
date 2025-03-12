@@ -7,9 +7,9 @@ description: As informações de conclusão descritas neste artigo são exibidas
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ As informações de conclusão descritas neste artigo são exibidas acima do gr�
 
 Porcentagem de conclusão em uma iteração:
 
-![](assets/burndown-percentcomplete-350x47.png)
+![painel de detalhes da iteração](assets/burndown-percentcomplete-350x47.png)
 
 Essas informações indicam o status de conclusão da iteração para o dia atualmente selecionado no gráfico de burndown. Por padrão, o status de conclusão é exibido com base na data do dia atual.
 

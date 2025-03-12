@@ -6,9 +6,9 @@ description: Você pode criar itens de trabalho e projetos na área [!UICONTROL 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ Você pode criar itens de trabalho e projetos na área [!UICONTROL Página inici
 
 Em Casa, você pode
 
-* Criar tarefas pessoais para você
 * Enviar solicitações
 * Adicionar tarefas e problemas a projetos específicos
 * Crie projetos com base em um modelo, projeto em branco ou importe um projeto do MS.

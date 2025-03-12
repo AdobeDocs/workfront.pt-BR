@@ -6,9 +6,9 @@ description: Ao visualizar um bloco de matéria no quadro Kanban, determinadas i
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -33,38 +33,38 @@ Ao visualizar um bloco de história no quadro [!UICONTROL Kanban], as informaç�
  <tbody> 
   <tr> 
    <td>O nome da história com um link diretamente para a tarefa ou problema</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>O nome do projeto com um link direto para o projeto</p> </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>O número de pontos ou horas concluídos na matéria e o número de pontos ou horas atribuídos à matéria<br>Esses números são usados para calcular e exibir o Percentual concluído de cada matéria.</p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>A [!UICONTROL Porcentagem concluída] para cada história e problema.<br>[!UICONTROL Porcentagem Concluída] para a iteração é calculada com base na [!UICONTROL Porcentagem Concluída] para cada matéria.<br></p> <p>Ao atualizar a [!UICONTROL Porcentagem concluída] para uma história ou problema, você pode escolher qualquer número entre 0 e 100.</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>A quem a história é atribuída</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>A cor ou categoria do bloco</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Quaisquer campos adicionais (incluindo campos personalizados) que possam ter sido adicionados à exibição Agile modificando a exibição Agile, conforme descrito em "Criando e Personalizando uma Exibição Agile" na <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das Exibições em [!DNL Adobe Workfront]</a></p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +107,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Vá para o quadro [!UICONTROL Kanban].
 1. Expanda o bloco da matéria para exibir todos os campos associados à matéria.
 
-   ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![Cartão de história](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (Opcional) Para editar um campo, clique nele e, em seguida, faça as alterações.
 Você deve ter direitos de [!UICONTROL Editar] à tarefa ou problema para editar o bloco de história.

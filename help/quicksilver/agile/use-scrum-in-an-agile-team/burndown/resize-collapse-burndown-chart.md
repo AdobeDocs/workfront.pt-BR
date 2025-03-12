@@ -6,9 +6,9 @@ description: Você pode redimensionar ou recolher o gráfico de burndown para aj
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Vá para a iteração que contém o gráfico de burndown que deseja redimensionar.
 1. Passe o mouse sobre a linha inferior do gráfico de burndown e arraste o gráfico até o tamanho desejado.
-   ![](assets/burndown-resize.png)
+   ![Redimensionar o gráfico de burndown](assets/burndown-resize.png)
 
 ## Recolher o gráfico de burndown
 

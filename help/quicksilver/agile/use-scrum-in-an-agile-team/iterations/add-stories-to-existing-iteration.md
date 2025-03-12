@@ -6,9 +6,9 @@ description: É possível adicionar histórias a uma iteração de várias manei
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Você pode configurar equipes Scrum individuais para usar as datas do projeto po
 Ou
 Vá para o projeto, relatório ou painel que contém a tarefa ou problema que deseja adicionar a uma iteração. Em seguida, selecione uma ou mais tarefas ou problemas.
 
-1. Clique em **[!UICONTROL Mais]** ![](assets/more-icon.png) > **[!UICONTROL Adicionar à Iteração]**.
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais](assets/more-icon.png) > **[!UICONTROL Adicionar à Iteração]**.
 Não é possível atribuir tarefas ou problemas atribuídos a equipes não ágeis.
 
 1. Na caixa **[!UICONTROL Adicionar a]**, comece digitando o nome da iteração e selecione-o quando ele aparecer na lista.

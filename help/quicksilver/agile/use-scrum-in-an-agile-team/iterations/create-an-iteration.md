@@ -6,9 +6,9 @@ description: As iterações são um componente essencial para as equipes ágeis 
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,14 @@ Use o recurso [!UICONTROL Planejar Iteração] para criar uma iteração usando 
 
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Selecione **[!UICONTROL Lista de pendências]** no painel esquerdo. Em seguida, clique em **[!UICONTROL Planejar iteração]**.
+1. Selecione **[!UICONTROL Lista de pendências]** no painel esquerdo.
+
+1. Na guia **Histórias** ou **Problemas**, selecione pelo menos um item de trabalho e clique em **[!UICONTROL Iteração de Plano]**.
+
+>[!NOTE]
+>
+> Você não pode alternar entre a guia Histórias ou Problemas ao planejar uma iteração na guia Backlog. Você pode adicionar histórias ou problemas existentes depois que a iteração for criada. Para obter mais informações, consulte [Mover histórias do backlog para uma iteração ou quadro](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+
 
 1. Especifique as seguintes informações:
 

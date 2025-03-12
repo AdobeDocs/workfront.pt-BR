@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
++++Expandir para exibir atualizações de interface de Administração e Configuração
 
 ### Atualização de interface para o Centro de notificações
 
@@ -140,7 +142,11 @@ Atualizamos as listas de Aprovação de projetos, tarefas e problemas em Configu
 
 Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
 
++++
+
 ## Ágil
+
++++Expandir para exibir atualizações da interface do Agile
 
 ### Atualizações de interface para solicitações de equipe
 
@@ -177,7 +183,8 @@ Atualizamos a área Equipes > Backlog com um design mais moderno e consistente c
 Esta atualização inclui as seguintes alterações:
 
 * Aprimoramentos visuais na guia Histórias e problemas, bem como na caixa de diálogo Analisar história
-* Uma nova caixa de diálogo para a ferramenta Planejar iteração
+* Uma nova caixa de diálogo para a ferramenta Planejar iteração. Você deve selecionar uma história ou problema para que o botão Planejar iteração seja exibido.
+* Não é mais possível alternar entre a guia Histórias e problemas ao planejar uma iteração. Você pode adicionar histórias ou problemas na guia backlog após a criação da iteração.
 
 ### Atualização de interface para a lista de iterações
 
@@ -199,7 +206,11 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de pendências e clique em **Nova história** ou **Novo problema**.
 
++++
+
 ## Documentos
+
++++Expandir para exibir atualizações da interface de Documentos
 
 ### Atualização de interface para a área Aprovações em um documento
 
@@ -217,7 +228,11 @@ Atualizamos a caixa de diálogo de edição Pastas inteligentes com um design ma
 
 Para visualizar esta alteração, vá para a guia Documents > Click the more menu next to the Smart Filter name > Click Edit.
 
++++
+
 ## Relatórios e painéis de controle
+
++++Expandir para exibir atualizações da interface de Relatórios e Painéis
 
 ### Relatório de equipe atualizado com novo estilo
 
@@ -271,3 +286,5 @@ Adicionamos um novo botão Editar modo de texto e um modal de edição às segui
 
 * Filtros legados
 * Agrupamento
+
++++

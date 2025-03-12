@@ -6,7 +6,7 @@ description: Você pode criar uma história ágil em uma iteração de várias m
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica, ou selecione **[!UICONTROL Iteração atual]**.
    1. Clique no nome da iteração específica em que deseja criar uma história.
 
-   ![Adicionar nova história à iteração](assets/iteration-add-story.png)
+   ![Adicionar nova história à iteração](assets/iteration-stories-list.png)
 
 1. Clique em **[!UICONTROL Nova história].**
 1. Especifique as seguintes informações:

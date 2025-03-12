@@ -7,9 +7,9 @@ description: O gráfico de burndown fornece uma representação visual de como a
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ O gráfico de burndown contém os seguintes indicadores visuais:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Início da taxa de burndown ideal"> </td> 
    <td> <p>Taxa de burndown ideal com base em quando a iteração começou.</p> <p>Essa linha não será exibida se o escopo da iteração nunca for alterado (horas ou pontos nunca são adicionados ou removidos).</p> <p>Esta linha é exibida como simples quando o trabalho é concluído em um dia de folga. Para obter mais informações, consulte <a title="Uso do Gráfico de Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Como os dias de folga afetam o gráfico de burndown</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="Taxa de burndown ideal em histórias ou tarefas"> </td> 
    <td> <p>Taxa de burndown ideal com base em histórias ou tarefas atuais.</p> <p>A taxa de burndown ideal atual (linha azul sólida) difere da taxa de burndown ideal original (linha azul pontilhada) quando horas ou pontos são adicionados ou removidos da iteração após o início da iteração.</p> <p>Esta linha é exibida como simples quando o trabalho é concluído em um dia de folga.</p> <p>Para obter mais informações, consulte <a title="Uso do Gráfico de Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Como os dias de folga afetam o gráfico de burndown</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Taxa de burndown real em vermelho"> </td> 
    <td> <p>A taxa de burndown real é mostrada em vermelho quando a taxa de burndown é menor que a ideal (mais pontos ou horas restantes por dia do que o cálculo de burndown ideal).</p> <p>A fórmula a seguir é usada para calcular a taxa de burndown real:</p> <p>[SUM(Valor em Ponto ou Hora do Trabalho em Andamento * Percentual Concluído) + Valor em Ponto ou Hora do Trabalho Concluído]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Taxa de burndown real em verde"> </td> 
    <td> <p>A taxa de burndown real é mostrada em verde quando a taxa de burndown é igual ou melhor que o ideal (pontos iguais ou menos remanescentes por dia do que o cálculo de burndown ideal).</p> <p>A fórmula a seguir é usada para calcular a taxa de burndown real:</p> <p>[SUM(Valor em Ponto ou Hora do Trabalho em Andamento * Percentual Concluído) + Valor em Ponto ou Hora do Trabalho Concluído]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Alteração no escopo"> </td> 
    <td> <p>Alteração no escopo (horas ou pontos são adicionados ou removidos da iteração).</p> <p>As alterações de escopo são sempre mostradas como uma linha vertical no meio do dia. Além disso, um ponto azul é exibido no meio de qualquer dia em que ocorreu uma alteração de escopo.</p> <p>O eixo vertical do gráfico de burndown mostra os pontos da história ou as horas.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Alteração no intervalo de datas"> </td> 
    <td> <p>Alteração no intervalo de datas (a duração da iteração é aumentada ou diminuída).</p> <p>Um ponto azul é exibido no meio de qualquer dia em que a duração da iteração foi alterada.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Ponto verde para trabalho queimado"> </td> 
    <td> <p>Um ponto verde ou vermelho é exibido na taxa de burndown real sempre que o trabalho é reduzido. (Quando a taxa de burndown real naquele dia é vermelha, o ponto é vermelho; quando a taxa de burndown real naquele dia é verde, o ponto é verde.)</p> <p>O trabalho é queimado quando qualquer uma das seguintes situações ocorre:</p> 
     <ul> 
      <li> A [!UICONTROL Percentual concluído] é aumentada na matéria.<br>[!UICONTROL Percentual Concluído] aumenta quando: 

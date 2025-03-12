@@ -6,9 +6,9 @@ description: Ao visualizar um bloco de matéria no quadro Kanban, determinadas i
 author: Lisa
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -33,38 +33,38 @@ Ao exibir um bloco de matéria no storyboard, as informações na tabela a segui
  <tbody> 
   <tr> 
    <td>O nome da história com um link diretamente para a tarefa ou problema</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>O nome do projeto com um link diretamente para o projeto<br>Este link é exibido somente em histórias (tarefas pai, não subtarefas) ao usar a exibição ágil em uma iteração; ele não é exibido ao usar uma exibição ágil em um projeto.</p> </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>O número de pontos ou horas concluídas na matéria e o número de pontos ou horas atribuídas à matéria<br>Esses números são usados para calcular e exibir a [!UICONTROL Percentual concluído] para cada matéria.</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>A [!UICONTROL Porcentagem concluída] para cada história e problema.<br>A [!UICONTROL Porcentagem Concluída] para a iteração é calculada com base na [!UICONTROL Porcentagem Concluída] para cada matéria.</p> <p>Ao atualizar a [!UICONTROL Porcentagem concluída] para uma história ou problema, você pode escolher qualquer número entre 0 e 100.</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>A quem a história é atribuída</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>A cor ou categoria do bloco</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Quaisquer campos adicionais (incluindo campos personalizados) que possam ter sido adicionados à exibição ágil por meio da modificação da exibição ágil, conforme descrito em "Criação e Personalização de uma Exibição do [!UICONTROL Agile]" na <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das Exibições no [!UICONTROL Adobe Workfront]</a>.</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +89,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
    <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Acesso da [!UICONTROL Contribute] ou [!UICONTROL Manage] à tarefa ou ao problema</td> 
+   <td>Acesso do [!UICONTROL Contribute] ou do [!UICONTROL Manage] à tarefa ou problema</td> 
   </tr>
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Vá para o storyboard ágil [!UICONTROL Scrum].
 1. Expanda o bloco [!UICONTROL história] para exibir todos os campos associados à história.
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![cartão de história](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Opcional) Para editar um campo, clique nele e, em seguida, faça as alterações.
 

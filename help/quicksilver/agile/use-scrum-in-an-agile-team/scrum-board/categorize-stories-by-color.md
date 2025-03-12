@@ -6,9 +6,9 @@ description: A associação de cores padrão das matérias do quadro Scrum difer
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ Se as configurações agile team tiverem sido definidas de modo que a opção [!
 1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica, ou selecione **[!UICONTROL Iteração atual]**.
 1. Passe o mouse sobre o banner colorido na parte superior do bloco de história.
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![cartão de história](assets/agile-story-color1-nwe-350x140.png)
 
 1. Clique em **[!UICONTROL Alterar cor]** e selecione a cor desejada.
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![escolher cor](assets/agile-story-color2-nwe-350x138.png)

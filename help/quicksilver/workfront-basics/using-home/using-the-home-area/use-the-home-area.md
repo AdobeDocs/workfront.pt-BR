@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -28,5 +28,6 @@ Leia estes artigos para saber como usar a área Página inicial no Adobe Workfro
 * [Gerenciar solicitações de trabalho e de equipe na área [!UICONTROL Página inicial]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Atualizar ou editar um item de trabalho na área [!UICONTROL Página inicial]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Criar itens de trabalho e projetos da área [!UICONTROL Página inicial]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [Criar e gerenciar item pessoal para fazer](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
 * [Registrar horas em um item de trabalho da área [!UICONTROL Página inicial]](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Marcar um item como [!UICONTROL Concluído] na área [!UICONTROL Página inicial]](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
