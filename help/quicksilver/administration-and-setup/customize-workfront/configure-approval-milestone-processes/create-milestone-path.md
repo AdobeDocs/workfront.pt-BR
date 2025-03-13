@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '875'
 ht-degree: 3%
 
 ---
@@ -115,26 +115,28 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
    </table>
 
 1. Clique em **Adicionar Etapa** e continue adicionando etapas conforme necessário até que o caminho seja concluído.
+
 1. Clique em **Criar Caminho de Etapas** para salvar suas alterações.
 
    Seu caminho de etapas está pronto para ser associado a um projeto.
 
    Para obter mais informações sobre como associar caminhos de etapas a projetos e etapas a tarefas, consulte [Associar etapas a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">(Opcional) Clique no ícone **Exportar** ![Ícone Exportar](assets/export-icon.png) e selecione um dos seguintes formatos para exportar a lista de caminhos de etapas para um arquivo: </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Delimitado por tabulação
 
-   </div>
--->
+1. <span class="preview">(Opcional) Selecione uma etapa na lista de etapas e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) para editar as informações da etapa. </span>
+1. <span class="preview">(Opcional) Selecione uma etapa na lista de etapas e clique no ícone **Excluir** ![Excluir ícone](assets/delete-icon.png) para excluí-la. </span>
+1. <span class="preview">Clique em **Sim, exclua-o**. </span>
+   <span class="preview">A etapa foi excluída e não pode ser recuperada. Todas as informações do projeto associadas à etapa e todas as informações de tarefas associadas aos caminhos de etapas também são excluídas. </span>
+
+
+<div class="preview">
 
 ## Exibir detalhes do caminho de etapas em um relatório
 
@@ -171,9 +173,8 @@ Para obter informações sobre como associar caminhos de etapas a projetos, cons
    * Grupos de caminhos de etapas
    * Nomes de etapas, descrições, cores e ícones de cores
 
-   </div>
-
 1. (Opcional) Clique em **Voltar** para voltar ao relatório do projeto.
 
+</div>
 
 

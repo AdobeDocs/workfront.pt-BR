@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Depois que alguém compartilhar um link para um formulário de solicitação com você a partir de uma página de tipo de registro no Adobe Workfront Planning, você poderá adicionar uma solicitação para criar registros para o tipo de registro associado ao formulário de solicitação.
+Depois que um gerenciador de espaço de trabalho cria um formulário de solicitação para um tipo de registro no Adobe Workfront Planning, você pode usar o formulário para submeter solicitações que criarão registros para o tipo de registro associado ao formulário.
+
+Você pode submeter uma solicitação do Workfront Planning nas seguintes áreas:
+
+* Na área Solicitações do Workfront ou em um link direto para o formulário de solicitação. Este artigo descreve como enviar uma solicitação para adicionar novos registros a um tipo de registro da área Solicitações do Workfront ou de um link compartilhado.
+* <span class="preview">Na página de tipo de registro, ao adicionar ou solicitar um novo registro. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).</span>
 
 Usuários do Workfront e usuários externos podem enviar solicitações para tipos de registro do Planning e criar registros. <!--double check on the external users-->
-
-Este artigo descreve como você pode enviar uma solicitação para adicionar novos registros a um tipo de registro.
 
 Para obter informações sobre como um gerenciador de espaço de trabalho pode criar um formulário de solicitação e associá-lo a um tipo de registro, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -113,34 +116,41 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 * Deve existir o seguinte no Workfront Planning:
 
    * Um espaço de trabalho
-   * Um tipo de registro associado a um formulário de solicitação. Para obter informações, consulte [Criar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+   * Um tipo de registro.
+   * Um formulário de solicitação associado a um tipo de registro.
 
-* O formulário de solicitação deve ser compartilhado com um link para que você possa acessá-lo. Existem os seguintes cenários:
+     Para obter informações, consulte [Criar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-   * Se você tiver uma conta do Workfront, o link foi compartilhado somente com pessoas internas e você tem acesso de contribuir ou superior ao espaço de trabalho. Pessoas fora do Workfront não podem acessar um link compartilhado internamente.
-   * Se você não tiver uma conta do Workfront, o link foi compartilhado com pessoas externas. Os usuários do Workfront também podem acessar um link compartilhado com pessoas externas.
+* O formulário de solicitação deve ser compartilhado de uma maneira que você possa acessá-lo. Existem os seguintes cenários:
+
+   * Internamente, o formulário deve ser compartilhado com usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
+
+     Os usuários do Workfront podem acessar o formulário a partir de um link <span class="preview">ou localizar o formulário de solicitação na área Solicitações do Workfront.</span>
+
+   * Se você não tiver uma conta do Workfront, um link para o formulário foi compartilhado com pessoas externas.
+
+     Os usuários do Workfront também podem acessar um link compartilhado com pessoas externas.
 
 * O link para o formulário não deve estar expirado.
 
 ## Considerações sobre o envio de solicitações ao Workfront Planning
 
-* É possível acessar um formulário de solicitação para solicitações do Workfront Planning somente a partir de um link específico para o formulário.
-* Não é possível editar uma solicitação no Workfront depois de enviá-la para o Workfront Planning.
-* Cada solicitação enviada cria um registro para o tipo de registro associado ao formulário usado, se o formulário não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.
-* Os registros criados enviando formulários de solicitação não podem ser diferenciados dos registros adicionados por qualquer outro método. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+* Não é possível editar uma solicitação no Workfront depois de enviá-la.
+* Cada solicitação enviada cria um registro para o tipo de registro associado ao form usado, se o form não estiver associado a uma aprovação ou se a aprovação tiver sido concedida por todos os aprovadores.
+* Os registros criados ao enviar formulários de solicitação não podem ser diferenciados dos registros adicionados por meio de qualquer outro método no Workfront Planning.
+
+  Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 * As solicitações enviadas são exibidas na guia Planejamento da seção Enviado na área Solicitações do Workfront.
-* Há limitações na forma como determinados tipos de campo são exibidos em um formulário de solicitação ou na página de detalhes da solicitação após o envio de um formulário. Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Há limitações na forma como determinados tipos de campo são exibidos em um formulário de solicitação ou na página de detalhes da solicitação após o envio de um formulário.
+
+  Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Enviar uma solicitação ao Workfront Planning
-
-A submissão de solicitações ao Workfront Planning difere, dependendo do ambiente usado.
-
 <div class="preview">
 
-### Enviar uma solicitação ao Workfront Planning no Ambiente de Visualização
+## Enviar uma solicitação ao Workfront Planning na área Solicitações do Workfront
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
    >[!TIP]
    >
-   >* Se o nome do registro não foi adicionado ao formulário de solicitação, o nome do registro no campo Registro da solicitação será exibido como **Sem título**.
+   >* Se o campo principal do registro não foi atualizado no formulário de solicitação, o nome do registro no campo Registro da solicitação será exibido como **Sem título**.
    >
    >* Se o formulário de solicitação estiver associado a uma aprovação, a aprovação deverá ser concedida antes que você possa acessar o registro da página de solicitação.
 
@@ -224,7 +234,7 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
 </div>
 
-### Enviar uma solicitação ao Workfront Planning no ambiente de Produção
+## Enviar uma solicitação ao Workfront Planning a partir de um link compartilhado para um formulário de solicitação
 
 1. Acesse o link compartilhado com você a partir de um tipo de registro do Workfront Planning.
 

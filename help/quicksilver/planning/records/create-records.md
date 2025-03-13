@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ No Adobe Workfront Planning, um registro é uma instância de um tipo de registr
 
 Você pode criar registros seguindo um destes procedimentos:
 
-* [Adicionar registros da página de tipo de registro na exibição de tabela](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Criar registros adicionando-os em linha a partir da exibição de tabela do tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [Copiar e colar uma lista de registros de uma lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicar registros de uma exibição de tabela](#create-records-by-duplicating-them)
 * [Criar registros ao conectá-los a partir de outros registros](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td> <p>Permissões do Contribute ou superior para o espaço de trabalho <!--<span class="preview">and record type</span>--> onde você deseja adicionar registros. </p>  
+   <td> <p>Permissões do Contribute ou superior para o espaço de trabalho <!--<span class="preview">and record type</span>--> onde você deseja adicionar registros. </p>
+   <p><span class="preview">Exiba ou aumente as permissões do espaço de trabalho <!--<span class="preview">and record type</span>--> para criar registros usando o botão Solicitar registro na página de registro</span></p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
    <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (projetos).</p>
    </td> 
@@ -113,9 +115,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-## Criar registros adicionando-os a um tipo de registro em uma tabela de tipo de registro
+## Criar registros adicionando-os em linha a partir da exibição de tabela do tipo de registro
 
-Você pode criar registros na exibição de tabela de uma página do tipo de registro.
+É possível criar registros na exibição de tabela de uma página de tipo de registro, ao adicioná-los em linha.
 
 Para obter informações sobre como editar informações de registro, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
@@ -128,27 +130,28 @@ Para obter informações sobre como editar informações de registro, consulte [
 1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
-Todos os registros do tipo selecionado são exibidos na visualização.
+Os registros do tipo selecionado são exibidos na visualização.
 
-1. (Condicional) Dependendo da exibição exibida, siga um destes procedimentos:
+1. (Condicional) Na exibição de tabela, siga um destes procedimentos:
 
-   * Na exibição de tabela:
+   * Clique em **Novo registro** na última linha da tabela
 
-      * Clique em **Novo registro** na última linha da tabela
+   * Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia sob o registro do qual você começa.
+   * Passe o mouse sobre o campo principal de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do campo e clique em **Inserir registro acima** ou **Inserir registro abaixo**.
 
-      * Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia sob o registro do qual você começa.
-      * Passe o mouse sobre o campo principal de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do campo e clique em **Inserir registro acima** ou **Inserir registro abaixo**.
+   ![Adicionando uma nova campanha na linha da tabela](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![Adicionando uma nova campanha na linha da tabela](assets/adding-a-new-campaign-in-table-row.png)
+   O Workfront faz o upload de uma miniatura em cada novo registro automaticamente. Posteriormente, você poderá modificar essas imagens. Para obter informações, consulte [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-   * Em qualquer modo de exibição:
+   Um novo registro é adicionado à tabela.
 
-      * Clique em **Novo registro** no canto superior direito da página. A caixa de visualização do registro é aberta.
+1. Clique no campo principal do novo registro
 
-     O Workfront faz o upload de uma miniatura e de uma imagem de capa automaticamente para cada novo registro. Posteriormente, você poderá modificar essas imagens. Para obter informações, consulte os seguintes artigos:
+   Ou
 
-      * [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   Clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro.
+
+   A caixa de visualização é aberta na tabela.
 
 1. Comece digitando informações sobre o novo registro nos campos que você vê na caixa de visualização.
 
@@ -158,23 +161,94 @@ Todos os registros do tipo selecionado são exibidos na visualização.
    >
    >  * Os campos que se referem a outros tipos de registro ou campos calculados são campos somente leitura.
 
-1. (Condicional) Ao adicionar registros à tabela, continue adicionando informações em cada linha e clique em **Inserir** no teclado para salvar as alterações.
+1. (Condicional) Ao adicionar registros à tabela, antes de abrir a caixa de visualização do registro, continue adicionando informações em cada linha e clique em **Enter** no teclado para salvar as alterações.
 
    Ou
 
-   Clique no nome do novo registro ou no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome da tabela](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro. Uma visualização com as informações detalhadas do registro é aberta na tabela.
+   Clique no nome do novo registro ou no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome da tabela](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro para abrir a caixa de visualização e editar as informações do registro na área de detalhes.
 
    >[!TIP]
    >
-   >Você pode acessar o ícone **Abrir Detalhes** somente a partir do campo de nome do registro quando o campo Nome for um campo primário.
+   >Você pode acessar o ícone **Abrir detalhes** somente a partir do campo de nome do registro quando o campo Nome for um campo primário.
 
-1. Iniciar edição das informações do registro na visualização do registro. O Workfront salva suas alterações automaticamente.
-1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+1. (Opcional) Na caixa de visualização do registro, clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros ou suas informações ao adicioná-los na exibição de tabela:
+   O Workfront salva suas alterações automaticamente.
+
+1. (Opcional) Feche a caixa de visualização ou clique na seta para trás à esquerda do nome do registro, se você tiver aberto a página do registro.
+
+1. (Opcional) Na exibição de tabela, use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros ou suas informações ao adicioná-los na exibição de tabela:
 
    * CTRL + Z (⌘ + Z para Mac) para desfazer uma alteração
    * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer uma alteração
+
+<div class="preview">
+
+## Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro
+
+Usuários com permissões de Exibição para o espaço de trabalho <!--<span class="preview">and record type</span>--> podem criar registros somente usando o botão Solicitar registro na página de tipo de registro.
+
+Usuários com permissões para Contribute e Gerenciar no espaço de trabalho <!--<span class="preview">and record type</span>--> podem criar registros usando o botão Novo registro na página de tipo de registro.
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>Um gerenciador de espaço de trabalho deve criar um formulário de solicitação para o tipo de registro para que os usuários com permissões de Exibição adicionem registros usando um formulário de solicitação. Caso contrário, os usuários com permissão de exibição não poderão criar registros.
+
+{{step1-to-planning}}
+
+1. Clique no espaço de trabalho ao qual deseja adicionar registros.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
+
+1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
+Todos os registros do tipo selecionado são exibidos na visualização.
+
+1. Em qualquer modo de exibição, clique nos itens a seguir no canto superior direito da tela, dependendo das permissões do espaço de trabalho <!--<span class="preview">and record type</span>-->:
+
+   * Clique em **Novo registro**, se você tiver permissões do Contribute ou superiores no espaço de trabalho <!--<span class="preview">and record type</span>-->
+
+     Ou
+
+   * Clique em **Solicitar registro**, se você tiver permissões de Exibição no espaço de trabalho <!--<span class="preview">and record type</span>-->.
+
+1. (Condicional) Se você clicou em **Novo registro**, faça o seguinte:
+
+   1. Clique em uma das seguintes maneiras de criar um registro, em seguida, clique em **Continuar**:
+
+      * **Adicionar manualmente**. A caixa de visualização do registro é aberta.\
+        Adicione informações sobre o registro, conforme descrito na seção [Criar registros, adicionando-os embutidos da exibição de tabela do tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view) deste artigo, a partir da etapa 6. <!--insure this stays accurate-->
+      * **Carregar do arquivo**
+Adicione registros, conforme descrito no artigo [Crie registros importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), a partir da etapa 6. <!--ensure this stays accurate-->
+      * **Enviar uma solicitação**
+O formulário de solicitação do tipo de registro é aberto.
+
+        Um gerenciador de espaço de trabalho deve criar um formulário de solicitação para poder adicionar um registro usando um formulário de solicitação.
+
+        >[!TIP]
+        >
+        >Alguns tipos de registro podem ter vários formulários. Clique em um para abri-lo.
+
+        Adicione o registro conforme descrito no artigo [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md), a partir da etapa 6. <!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. (Condicional) Se você clicou em **Solicitar registro**, faça o seguinte:
+
+   1. (Condicional) Se o tipo de registro tiver mais de um formulário de solicitação, clique em um para escolhê-lo.
+   2. Continue adicionando informações no formulário para criar o registro, conforme descrito no artigo [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md), a partir da etapa 6. <!--ensure this stays accurate-->
+
+1. (Condicional) Revise os novos registros.
+
+   Dependendo de como você optou por adicionar o registro, algumas das situações a seguir podem ocorrer:
+
+   * Um novo registro é adicionado ao tipo de registro, a menos que você opte por adicioná-lo usando um formulário de solicitação com um processo de aprovação. A aprovação deve ser concedida por todos os aprovadores antes que o registro seja criado.
+   * Vários registros são adicionados ao tipo de registro se você tiver adicionado registros usando uma planilha CSV ou do Excel.
+   * Uma nova solicitação será adicionada na guia Planejamento da área Solicitações do Workfront, se você tiver adicionado a solicitação enviando um formulário de solicitação.
+
+</div>
 
 <!-- this is not possible anymore: 
 
