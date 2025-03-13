@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,15 @@ Os avatares não serão mais exibidos nas seguintes notificações por email:
 * Novas notificações de atribuição
 * Todas as notificações de conclusão de tarefas predecessoras
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## Atualizações de aparência para uma lista de Caminho de Etapas
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>Versão de pré-visualização: 6 de março de 2025; Versão de produção para todos os clientes: 10 de abril de 2025
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+Atualizamos a aparência da lista Caminho de etapas na área Configuração para corresponder ao design de outras áreas do Workfront.
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+Para obter informações, consulte [Criar um caminho de etapas](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Atualizações de aparência para o Calendário do Workfront
 
@@ -89,7 +85,7 @@ Essas alterações são temporárias à medida que investigamos atrasos de email
 
 >[!NOTE]
 >
->Versão de pré-visualização: 13 de fevereiro de 2025; Versão de produção para todos os clientes: com a versão 25.3 (13 de março de 2025)
+>Versão de pré-visualização: 13 de fevereiro de 2025; Versão de produção para todos os clientes: com a versão 25.4 (10 de abril de 2025)
 
 Atualizamos a aparência da caixa de diálogo Compartilhar para um design moderno que é consistente com outras áreas do Workfront. Há pequenas diferenças visuais, incluindo:
 
