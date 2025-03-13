@@ -7,9 +7,9 @@ description: É possível adicionar agrupamentos para gerenciar o layout das inf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,17 @@ Você pode gerenciar ainda mais as informações do relatório ao usar Agrupamen
 
 Você pode agregar os dados exibidos no relatório na linha de agrupamento resumindo os valores em cada coluna do relatório. Para obter mais informações sobre o resumo dos dados da coluna em um agrupamento, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
+
 >[!NOTE]
 >
->As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está agregando valores para os seguintes campos em agrupamentos:
+>As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está agregando valores para os seguintes campos em >agrupamentos:
 >
->* Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
->* As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
+>* Todos os campos de número, moeda e data, exceto Horas Reais, agregam valores somente para tarefas filhas e tarefas independentes. Eles não agregam valores para tarefas pai ou pais de pais. A agregação em campos de número, moeda e data em uma lista que inclui somente tarefas pai não exibirá um valor agregado na barra de agrupamento.
+>
+>* As Horas Reais agregam valores para as principais tarefas pai e independentes; elas não agregam os números para tarefas filho ou pais de tarefas pai. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
+
 
 ### Classificar por um agrupamento {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ A maneira como você remove um agrupamento depende se você o criou inicialmente
 * **Se o agrupamento foi compartilhado com você e você o remove**, o agrupamento é removido somente para você. O usuário que o criou originalmente e todos os outros usuários com os quais ele foi compartilhado ainda têm acesso ao agrupamento.
 
 Para obter informações sobre como remover um agrupamento, consulte o artigo [Remover filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->

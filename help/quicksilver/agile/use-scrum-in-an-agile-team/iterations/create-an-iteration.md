@@ -6,9 +6,9 @@ description: As iterações são um componente essencial para as equipes ágeis 
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -103,11 +103,11 @@ Use o recurso [!UICONTROL Planejar Iteração] para criar uma iteração usando 
 
 1. Selecione **[!UICONTROL Lista de pendências]** no painel esquerdo.
 
-1. Na guia **Histórias** ou **Problemas**, selecione pelo menos um item de trabalho e clique em **[!UICONTROL Iteração de Plano]**.
+1. Na guia **Histórias** ou **Problemas**, selecione os itens de trabalho que deseja adicionar à iteração e clique em **[!UICONTROL Planejar Iteração]**.
 
 >[!NOTE]
 >
-> Você não pode alternar entre a guia Histórias ou Problemas ao planejar uma iteração na guia Backlog. Você pode adicionar histórias ou problemas existentes depois que a iteração for criada. Para obter mais informações, consulte [Mover histórias do backlog para uma iteração ou quadro](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+> Não é possível alternar entre as guias Histórias ou Problemas ou adicionar outras tarefas ao planejar uma iteração na guia Backlog. Você pode adicionar histórias ou problemas existentes depois que a iteração for criada. Para obter mais informações, consulte [Adicionar tarefas ou problemas a uma iteração existente na guia Lista de Pendências](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) abaixo.
 
 
 1. Especifique as seguintes informações:
@@ -143,19 +143,20 @@ Use o recurso [!UICONTROL Planejar Iteração] para criar uma iteração usando 
     </tbody> 
    </table>
 
-1. (Opcional) Selecione matérias para adicioná-las à iteração agora, ou ignore esta etapa e adicione matérias a uma iteração posteriormente. As histórias no topo do backlog têm prioridade mais alta. As histórias são destacadas em verde quando se encaixam na capacidade; se não se encaixarem, elas são destacadas em vermelho.
-É possível adicionar tarefas e problemas a uma única iteração:
+1. Clique em **[!UICONTROL Salvar].** A iteração foi criada.
 
-   * **Para adicionar tarefas à iteração:** na guia **[!UICONTROL Lista de pendências]**, verifique se a guia **[!UICONTROL Histórias]** está selecionada (essa guia é selecionada por padrão ao exibir a lista de pendências). Selecione as matérias que deseja adicionar à iteração.
+## Adicionar tarefas ou problemas a uma iteração existente na guia Backlog
 
-     Ao adicionar tarefas a uma iteração, a data de início da tarefa é calculada conforme descrito em [[!UICONTROL Entender] como as datas de início da tarefa são calculadas quando adicionadas a uma iteração](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+1. Na guia **Backlog**, clique na guia **Histórias** ou **Problemas**.
 
-   * **Para adicionar problemas à iteração:** Na guia **[!UICONTROL Lista de Pendências]**, clique na guia **[!UICONTROL Problemas]**. Selecione os problemas que deseja adicionar à iteração.
+1. Selecione as histórias ou problemas que deseja adicionar à iteração. As histórias no topo do backlog têm prioridade mais alta.
 
-1. Clique em **[!UICONTROL Salvar].**
-A iteração é criada.
+   ![mover um item de trabalho](assets/move-to-iteration.png)
 
-1. (Opcional) Para adicionar histórias a uma iteração existente, consulte [Adicionar histórias a uma iteração existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   >[!NOTE]
+   >
+   >  Ao adicionar tarefas a uma iteração, a data de início da tarefa é calculada conforme descrito em [[!UICONTROL Entender] como as datas de início da tarefa são calculadas quando adicionadas a uma iteração](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+
 
 ## Entender como as datas de início da tarefa são calculadas quando adicionadas a uma iteração {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
