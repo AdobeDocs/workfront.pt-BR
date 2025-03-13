@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,31 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Configurar e gerenciar vários formulários de solicitação de um tipo de registro
+
+>[!NOTE]
+>
+>Pré-visualização: 13 de março de 2025; Produção para todos os clientes: 10 de abril de 2025
+
+Para ajudar você a personalizar os formulários de solicitação para várias partes interessadas de diferentes áreas da organização, agora estamos introduzindo a capacidade de criar e gerenciar mais de um formulário de solicitação para um tipo de registro. Antes desse aprimoramento, você poderia criar apenas um formulário para um tipo de registro.
+
+Todas as solicitações enviadas usando os diferentes formulários poderiam criar registros para o tipo de registro selecionado. Agora é possível ter vários formulários de solicitação configurados para o mesmo tipo de registro. Os formulários são listados em uma nova exibição de tabela Formulários de solicitação no tipo de registro. Ao gerenciar formulários de solicitação, agora é possível editar, publicar, compartilhar, copiar ou excluir um formulário de solicitação da lista de formulários de solicitação no tipo de registro.
+
+Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Acesso fácil a formulários de solicitação publicados na página de tipo de registro
+
+>[!NOTE]
+>
+>Pré-visualização: 13 de março de 2025; Produção para todos os clientes: 10 de abril de 2025
+
+Agora você pode acessar os formulários de solicitação por meio do botão Novo registro no canto superior direito da página do tipo de registro. Para usuários com permissões de Exibição no espaço de trabalho, o botão Novo registro é exibido como um Registro de solicitação.
+
+Além de poder criar registros manualmente e importando um arquivo CSV ou do Excel, agora também é possível criar registros de um formulário de solicitação na página de tipo de registro.
+Antes dessa melhoria, você poderia criar registros usando um formulário de solicitação somente a partir de um link direto para um formulário ou da área Solicitações do Workfront.
+
+Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
 ## Adicionar campos de pesquisa de registros conectados nos campos de conexão do Planning de formulários personalizados do Workfront
 
