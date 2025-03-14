@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,8 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** <span class="preview">ou **Gerenciar formulário de solicitação**, se você já tiver um formulário e quiser criar outros</span>.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** <span class="preview">ou **Gerenciar formulários de solicitação**, se você já tiver um formulário e quiser criar outros</span>.
+1. <span class="preview">(Condicional) Se quiser adicionar outro formulário, clique em **Novo formulário de solicitação**</span>.
 1. Atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
 
@@ -271,7 +272,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
    >[!TIP]
    >
-   ><span class="preview">Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront.</span>
+   ><span class="preview">Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront e os links compartilhados com outros usuários não estarão mais acessíveis.</span>
 
 
 1. <span class="preview">(Opcional)</span> Clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
@@ -300,12 +301,20 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 1. <span class= "preview">Clique na seta apontando para a esquerda de **Formulários de solicitação** no cabeçalho para fechar a tabela de formulários de solicitação.   </span>
 
    <span class= "preview">A página de tipo de registro é aberta. </span>
-1. (Opcional e condicional) No ambiente de Produção, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e siga um destes procedimentos:
-   * Clique em **Atualizar formulário de solicitação** para fazer alterações no formulário de solicitação.
-   * Clique em **Copiar link para solicitar o formulário** para compartilhar o link para o formulário com outras pessoas.
+1. (Opcional e condicional) Para editar um formulário existente, siga um destes procedimentos, dependendo do ambiente que você está usando:
 
-1. <span class="preview">(opcional e condicional) No ambiente de Visualização, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e clique em **Gerenciar formulários de solicitação**. </span>
+   * No ambiente de produção:
 
-   <span class="preview">Isso abre a exibição de tabela dos formulários de Solicitação. </span>
-1. <span class="preview">Clique em um formulário de solicitação para abri-lo e editá-lo.</span>
-1. <span class= "preview">(Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).</span>
+      1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e siga um destes procedimentos:
+
+      1. Clique em **Atualizar formulário de solicitação** para fazer alterações no formulário de solicitação.
+      1. Clique em **Copiar link para solicitar o formulário** para compartilhar o link para o formulário com outras pessoas.
+
+   * <span class="preview">No ambiente de Visualização:
+
+      1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e clique em **Gerenciar formulários de solicitação**. </span>
+
+         <span class="preview">Isso abre a exibição de tabela dos formulários de Solicitação. </span>
+
+      1. <span class="preview">Clique em um formulário de solicitação para abri-lo e editá-lo.</span>
+      1. <span class= "preview">(Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).</span>
