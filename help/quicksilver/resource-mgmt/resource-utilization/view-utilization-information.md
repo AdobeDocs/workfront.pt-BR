@@ -6,14 +6,19 @@ description: Você pode exibir a utilização de seus recursos no relatório de 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '7252'
+source-wordcount: '7283'
 ht-degree: 0%
 
 ---
 
-# Exibir informações de utilização de recursos
+# Exibir informações de utilização de recursos {#view-resource-utilization-information}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-utilization"
+>title="Relatório de utilização"
+>abstract="O relatório de Utilização permite visualizar o andamento, o custo ou a receita de um projeto, programa ou portfólio em um único relatório. Você também pode comparar a receita com o custo."
 
 <!-- Audited: 01/2024 -->
 
@@ -475,7 +480,7 @@ Você deve especificar um ou mais projetos no filtro antes de executar o relató
 
      {{step1-to-utilization-report}}
 
-      1. Clique em **Mostrar**>**Portfolio**.
+      1. Clique em **Exibir**>**Portfólios**.
       1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.\
          Você deve especificar um ou mais portfólios no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
          As informações de utilização são exibidas para projetos, programas e portfólios individuais (os projetos são agrupados em seus programas associados e os programas são agrupados em seus portfólios associados).
@@ -516,7 +521,7 @@ Consulte [Rastrear progresso, custo e receita com o relatório de Utilização](
 1. (Condicional) Para modificar um filtro existente, clique no menu suspenso **Filtro** e selecione o filtro que deseja modificar.
 1. Especifique as seguintes informações para criar ou modificar o filtro:
 
-   * **Portfolio:** comece a digitar o nome do portfólio que contém as informações que você deseja incluir no relatório de Utilização e, em seguida, clique no nome quando ele aparecer na lista suspensa\
+   * **Portfólios:** comece a digitar o nome do portfólio que contém as informações que você deseja incluir no relatório de Utilização, em seguida, clique no nome quando ele aparecer na lista suspensa\
      Repita esse processo para incluir informações de vários portfólios no relatório de Utilização.\
      Para incluir todos os portfólios do sistema no filtro, clique em **Adicionar tudo**. (Essa opção só estará disponível se você tiver menos de 10 portfólios em seu sistema.)
 
@@ -668,7 +673,7 @@ Consulte [Rastrear progresso, custo e receita com o relatório de Utilização](
 
    O relatório de Utilização é exibido em uma exibição de gráfico.
 
-1. (Opcional) Configure o gráfico para mostrar Projetos, Programas ou Portfolio selecionando a opção apropriada no menu suspenso **Mostrar**.
+1. (Opcional) Configure o gráfico para mostrar Projetos, Programas ou Portfólios selecionando a opção apropriada no menu suspenso **Mostrar**.
 1. (Opcional) Passe o mouse sobre um momento específico no relatório para visualizar os dados desse momento.
 
    ![Passe o mouse sobre um ponto de dados](assets/utilization-chart-hover.png)
