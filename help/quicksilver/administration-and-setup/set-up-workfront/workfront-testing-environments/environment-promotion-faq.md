@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Perguntas frequentes sobre a promoção do ambiente:
 
 Atualmente, a promoção de ambientes entre domínios não é suportada. Você deve promover entre ambientes no mesmo domínio.
 
-## A plataforma de negócios/IMS do Adobe é um pré-requisito para a promoção do ambiente?
+## A Adobe Business Platform/IMS é um pré-requisito para a promoção do ambiente?
 
 ### Responder
 
@@ -70,5 +70,4 @@ A reversão de pacote está disponível para o pacote mais recente, dentro de 24
 ### Responder
 
 * &quot;Usar existente&quot; é o mesmo que &quot;ignorar&quot; ou ignorar a implantação, pois ela mapeia para o objeto existente no ambiente de destino e não faz alterações.
-* Para ignorar objetos, recomendamos remover
-todos os objetos que você não deseja instalar diretamente do pacote promocional ou do ambiente de origem. Após remover os objetos, remonte o pacote.
+* Para ignorar objetos, recomendamos remover todos os objetos que você não deseja instalar diretamente do pacote promocional ou do ambiente de origem. Após remover os objetos, remonte o pacote.
