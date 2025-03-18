@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Planejar uma visão geral do projeto
-description: Planejar uma visão geral do projeto
+title: Visão geral do plano de projeto
+description: Descubra o que é um projeto, como estabelecer seu escopo e estrutura, bem como os principais conceitos, como cronogramas, linhas do tempo e datas de início e de conclusão.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-Um projeto é um item de trabalho grande no Adobe Workfront. Você pode dividir um projeto em tarefas que são itens de trabalho menores, como tarefas. As tarefas podem ser atribuídas a usuários ou equipes que podem ser responsáveis por sua conclusão. Quando todos os usuários concluem suas tarefas, o projeto também se torna concluído.
+Um projeto é um item de trabalho grande no Adobe Workfront. Você pode dividir um projeto em tarefas que são itens de trabalho menores. As tarefas podem ser atribuídas a usuários ou equipes que podem ser responsáveis por sua conclusão. Quando todos os usuários concluem suas tarefas, o projeto também se torna concluído.
 
 Além de planejar suas tarefas em um projeto, muitos outros detalhes são incluídos no planejamento de projetos. Desde a determinação dos impactos econômicos até a consideração da disponibilidade de recursos, há muitos elementos de projetos que precisam de atenção.
 

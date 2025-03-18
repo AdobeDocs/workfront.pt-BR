@@ -4,9 +4,9 @@ description: Você pode compartilhar um tipo de registro com outras pessoas para
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ Você pode compartilhar um tipo de registro com outras pessoas para garantir a c
 >[!IMPORTANT]
 >
 >* Por padrão, conceder permissões a um espaço de trabalho fornece aos usuários as mesmas permissões para os tipos de registros no espaço de trabalho.
->* É possível ajustar permissões em tipos de registro individuais.
->* Não é possível conceder às pessoas acesso superior a um tipo de registro em comparação ao acesso que elas têm ao espaço de trabalho.
+>* Além disso, você pode ajustar permissões em tipos de registros individuais.
+>* No entanto, você não pode conceder às pessoas permissões mais altas para um tipo de registro do que as permissões que elas têm para o espaço de trabalho.
+>* As pessoas com permissão para Gerenciar no espaço de trabalho sempre mantêm o acesso de Gerenciar a todos os tipos de registros no espaço de trabalho. Suas permissões não podem ser reduzidas em tipos de registros, mesmo quando as permissões herdadas estão desativadas.
+> 
 > Para obter mais informações, consulte a seção [Considerações ao compartilhar tipos de registro](#considerations-when-sharing-record-types) neste artigo.
 
 ## Requisitos de acesso
@@ -111,21 +113,28 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Considerações ao compartilhar tipos de registro
 
 * Para obter informações gerais sobre o compartilhamento de objetos no Workfront Planning, consulte também [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+* Atualmente, é possível fazer o seguinte ao compartilhar tipos de registro:
+   * Conceda permissões de Exibição a pessoas para um espaço de trabalho, quando você compartilhar um tipo de registro com elas pela primeira vez e elas não tiverem permissões para o espaço de trabalho.
+
+     Isso também dá a eles permissões de Exibição para todos os tipos de registros no espaço de trabalho.
+
+     À medida que você dá a eles permissões para o tipo de registro, há uma indicação na caixa de compartilhamento de que eles também são adicionados ao espaço de trabalho.
+   * Tornar o tipo de registro somente para visualização para todos no espaço de trabalho (exceto para gerenciadores de espaço de trabalho), ao desativar as Permissões herdadas.
+
+     As pessoas com permissões Gerenciar no espaço de trabalho sempre têm permissões Gerenciar nos tipos de registro, mesmo quando você desativa Permissões herdadas no tipo de registro.
+  <!-- checking with Lilit - this doesn't make much sense: * Add people with Contribute permission to the workspace, who will retain Contribute permission to the record type. This way, only the selected people can manage records in the record type, while others can only view them. -->
+   * Diminua a permissão das pessoas para um tipo de registro. Não é possível aumentar a permissão de alguém para um tipo de registro a partir do que ele tem no espaço de trabalho.
+
+     Por exemplo, se alguém tiver permissão do Contribute para o espaço de trabalho, você poderá alterar a permissão para um tipo de registro específico para Exibir. No entanto, se eles tiverem a permissão Exibir para o espaço de trabalho, você não poderá conceder a eles a permissão Contribute para qualquer tipo de registro.
+
+* Não é possível remover o acesso a um tipo de registro para pessoas no espaço de trabalho. Todos sempre têm pelo menos a permissão Exibir.
+
 * Você pode compartilhar um tipo de registro internamente com as seguintes entidades:
 
    * Usuários, grupos, equipes, empresas e funções do Workfront
 * Não é possível compartilhar tipos de registro externamente, com usuários fora do Workfront.
-* Automaticamente, os usuários herdam permissões de tipo de registro do espaço de trabalho.
-* Manualmente, você pode conceder permissões de exibição a um tipo de registro para usuários ou remover as permissões herdadas do espaço de trabalho.
-
-* Os usuários adicionados à caixa de compartilhamento de tipo de registro que não têm permissões de espaço de trabalho são automaticamente adicionados ao compartilhamento de espaço de trabalho com permissões de Exibição.
-
-  Para conceder a um usuário que não tem permissões de espaço de trabalho maiores que as permissões de Exibição para um tipo de registro, primeiro você deve compartilhar o espaço de trabalho com ele. Se você compartilhar somente o tipo de registro, eles só poderão receber permissões de Exibição para o tipo de registro e também serão adicionados ao espaço de trabalho com permissões de Exibição. À medida que você dá a eles permissões para o tipo de registro, há uma indicação na caixa de compartilhamento de que eles também são adicionados ao espaço de trabalho.
-
-* Você não pode conceder a alguém permissões mais altas para o tipo de registro do que em um espaço de trabalho.
-
-  Por exemplo, você não pode conceder a uma pessoa a permissão Exibir para um espaço de trabalho e Gerenciar permissão para um tipo de registro.
-
+* Para conceder a um usuário que não tem permissões de espaço de trabalho superiores às permissões de Exibição para um tipo de registro, primeiro você deve compartilhar o espaço de trabalho com ele com uma permissão superior à de Exibição.
 
 ## Compartilhar permissões para um tipo de registro
 
@@ -154,16 +163,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Não é possível remover entidades individuais da lista de permissões herdadas.
 
+
 1. (Opcional e condicional) Se quiser compartilhar o tipo de registro com entidades específicas e conceder a elas um acesso diferente ao tipo de registro do que já têm para o espaço de trabalho, faça o seguinte:
 
-   1. Desative Permissões herdadas.
+1. **Desative** permissões herdadas.
+
+   >[!TIP]
+   >
+   >Os gerentes do Workspace continuam a ter permissões de gerenciamento para o tipo de registro.
+
    1. No campo **Conceder acesso a este tipo de registro**, adicione os usuários, equipes, grupos, empresas ou funções de trabalho aos quais você deseja conceder um nível de permissão diferente.
    1. Escolha um nível de permissão.
+
 
    >[!IMPORTANT]
    >
    >* Você nunca pode conceder aos usuários permissões maiores em um tipo de registro do que em um espaço de trabalho.
-   >* Você não pode conceder aos usuários uma permissão menor de Gerenciar para um tipo de registro, se eles tiverem permissões de Gerenciar para o espaço de trabalho.
+   >* Você não pode conceder aos usuários uma permissão menor que Gerenciar para um tipo de registro, se eles tiverem permissões Gerenciar para o espaço de trabalho.
    >* É possível conceder aos usuários uma permissão menor para o tipo de registro se eles tiverem permissões do Contribute para o espaço de trabalho.
    > Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
