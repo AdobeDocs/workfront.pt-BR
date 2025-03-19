@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,12 @@ A seguinte funcionalidade será removida do Workfront em breve:
 A visualização Agile herdada em um projeto será removida do Workfront com a versão 25.3 em 13 de março de 2025. Você ainda poderá exibir suas tarefas em uma visualização Agile em um projeto clicando no ícone Quadros.
 
 Para obter mais informações sobre como usar o modo de exibição Agile, consulte [Gerenciar um projeto no Modo de Exibição Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+#### Substituição aprimorada do Analytics
+
+Devido ao uso baixo e decrescente, tomamos a decisão de descontinuar o produto Enhanced Analytics na semana de 25 de maio de 2025.
+Recomendamos considerar nosso produto Data Connect como uma substituição. A Conexão de dados permite criar visualizações personalizáveis semelhantes usando suas ferramentas de business intelligence preferidas.
+Para obter mais informações sobre esta descontinuação, consulte o [Guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Anúncios
 
