@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 1%
@@ -134,7 +134,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
    * Os campos Moeda, Número e Porcentagem são exibidos como um tipo de campo de texto de linha única no construtor de formulários.
 
-     No entanto, o formato do campo é preservado e os valores dos números nesses campos serão exibidos como Moeda, Número e Valores percentuais no tipo de registro e na página de detalhes da solicitação.
+     No entanto, o formato do campo é preservado e os valores do campo serão exibidos como moeda, números e percentuais após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
 
 <div class="preview">
 

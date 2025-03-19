@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
+source-wordcount: '4611'
 ht-degree: 1%
 
 ---
@@ -231,7 +231,8 @@ OLD:
    * [Criado por](#created-by)
    * [Data de criação](#created-date)
    * [Modificado pela última vez por](#last-modified-by)
-   * [Data da última modificação](#last-modified-date)
+   * [Última data de modificação](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ Os campos de texto de linha única capturam informações alfanuméricas limitad
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Texto de linha única**.
 
-   ![](assets/single-line-text-field-type.png)
+   ![Tipo de campo de texto de linha única](assets/single-line-text-field-type.png)
 
 1. Adicione as seguintes informações na guia **Novo campo**:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ Os campos de parágrafo capturam informações alfanuméricas adicionais sobre u
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Parágrafo**.
 
-   ![](assets/paragraph-field-type.png)
+   ![Tipo de campo de parágrafo](assets/paragraph-field-type.png)
 
 
 1. Adicione as seguintes informações na guia **Novo campo**:
@@ -290,7 +291,7 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Multisseleção**.
 
-   ![](assets/multi-select-field-type.png)
+   ![Tipo de campo de seleção múltipla](assets/multi-select-field-type.png)
 
 
 1. Adicione as seguintes informações na guia **Novo campo**:
@@ -319,7 +320,7 @@ Os campos de seleção única capturam informações adicionais em qualquer form
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Seleção única**.
 
-   ![](assets/single-select-field-type.png)
+   ![Tipo de campo de seleção única](assets/single-select-field-type.png)
 
 
 1. Adicione as seguintes informações na guia **Novo campo**:
@@ -348,7 +349,7 @@ Você pode usar um campo de data para capturar informações adicionais no forma
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Data**.
 
-   ![](assets/date-field-type.png)
+   ![Tipo de campo de data](assets/date-field-type.png)
 
 
 1. Adicione as seguintes informações na guia **Novo campo**:
@@ -377,9 +378,17 @@ Você pode usar um campo de data para capturar informações adicionais no forma
 
 Os tipos de campo de número capturam informações em um formato de número.
 
+>[!TIP]
+>
+>Campos numéricos são exibidos como um tipo de campo Texto de linha única em um construtor de formulários de solicitação.
+>
+>No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como números depois que a solicitação for enviada, no tipo de registro e na página de detalhes da solicitação.
+>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Número**.
 
-   ![](assets/number-field-type.png)
+   ![Tipo de campo de número](assets/number-field-type.png)
 1. Adicione as seguintes informações na guia **Novo campo**:
 
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
@@ -399,9 +408,17 @@ Os tipos de campo de número capturam informações em um formato de número.
 
 Os tipos de campo Porcentagem capturam informações em um formato de número seguido por um sinal de porcentagem.
 
+>[!TIP]
+>
+>Os campos de porcentagem são exibidos como um tipo de campo de texto de linha única em um construtor de formulários de solicitação.
+>
+>No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como porcentagens após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
+>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Porcentagem**.
 
-   ![](assets/percentage-field-type.png)
+   ![Tipo de campo de porcentagem](assets/percentage-field-type.png)
 
 1. Adicione as seguintes informações na guia **Novo campo**:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
@@ -431,9 +448,16 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
 
 Os tipos de campo Moeda capturam as informações em um formato de número precedido por um símbolo de moeda.
 
+>[!TIP]
+>
+>Os campos de moeda são exibidos como um tipo de campo de texto de linha única em um construtor de formulários de solicitação.
+>
+>No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como moeda após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
+>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Moeda**.
 
-   ![](assets/currency-field-type.png)
+   ![Tipo de campo de moeda](assets/currency-field-type.png)
 
 1. Adicione as seguintes informações na guia **Novo campo**:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -456,7 +480,7 @@ Você pode usar o tipo de campo Caixa de seleção para adicionar uma única op�
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Caixa de seleção**.
 
-   ![](assets/checkbox-field-type.png)
+   ![Tipo de campo de caixa de seleção](assets/checkbox-field-type.png)
 
 1. Adicione as seguintes informações na guia **Novo campo**:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -473,7 +497,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Fórmula**.
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![Novo campo de fórmula com lista de expressões](assets/new-formula-field-with-list-of-expressions.png)
 
 1. Adicione as seguintes informações na guia **Novo campo**:
 
@@ -483,7 +507,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
 
 1. Clique na expressão selecionada para revelar a definição e exibir sua formatação.
 
-   ![](assets/description-of-formula-expression.png)
+   ![Descrição de expressão de fórmula](assets/description-of-formula-expression.png)
 
    Para obter mais informações sobre quais expressões são suportadas, consulte [Visão geral dos campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
 
@@ -501,7 +525,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
    >
    >* Você pode fazer referência a um campo que esteja a até 4 campos (e objetos) de distância do tipo de registro atual. Por exemplo, se você estiver criando um campo de fórmula para um tipo de registro Atividade (1) e a Atividade estiver conectada ao tipo de registro Campanha (2) que está conectado a um Projeto Workfront (3), poderá fazer referência ao campo Orçamento do projeto (4) na fórmula que está sendo criada para o tipo de registro Atividade.
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemplo de fórmula do orçamento do projeto com quatro campos removidos ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. No campo **Formato**, selecione uma das opções a seguir para identificar o formato do resultado exibido no campo de tipo de fórmula:
@@ -516,7 +540,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
      >
      >Recomendamos tags para campos que mostram matrizes. Nesse caso, cada membro da matriz é exibido como uma tag separada.
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![lista de formatos de campo de fórmula com marca selecionada realçada](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **Data**: o resultado do campo de fórmula é exibido como uma data.
 
@@ -536,11 +560,15 @@ Você pode usar o tipo de campo Pessoas para adicionar um usuário <!--, job rol
 
 >[!TIP]
 >
->Ao adicionar o nome de um usuário em um campo Pessoas, o nome do usuário e sua função de trabalho principal são exibidos no campo.
+>* Ao adicionar o nome de um usuário em um campo Pessoas, o nome do usuário e sua função de trabalho principal são exibidos no campo.
+>
+>* Os campos de pessoas são exibidos como um tipo de campo de referência (ou conexão) em um construtor de formulários de solicitação.
+>
+>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Pessoas**.
 
-   ![](assets/people-field-type.png)
+   ![Tipo de campo de pessoas](assets/people-field-type.png)
 
 1. Adicione as seguintes informações na guia **Novo campo**:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
@@ -561,7 +589,7 @@ Você pode usar o tipo de campo Criado por para adicionar o usuário que criou o
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Criado por**.
 
-   ![](assets/created-by-field-type.png)
+   ![Criado por tipo de campo](assets/created-by-field-type.png)
 
 1. Adicione as seguintes informações na guia **Novo campo**:
 
@@ -579,7 +607,7 @@ Você pode usar o tipo de campo Data de criação para adicionar a data em que o
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Data de criação**.
 
-   ![](assets/created-date-field-type.png)
+   ![Tipo de campo de data criado](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -612,7 +640,7 @@ Você pode usar o tipo de campo Última modificação por para adicionar o usuá
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Última modificação por**.
 
-   ![](assets/last-modified-by-field-type.png)
+   ![Última modificação por tipo de campo](assets/last-modified-by-field-type.png)
 
 1. Adicione as seguintes informações na guia **Novo campo**:
 
@@ -630,7 +658,7 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Data de criação**.
 
-   ![](assets/last-modified-date-field-type.png)
+   ![Tipo de campo de data da última modificação](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -656,6 +684,52 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
 1. Clique em **Criar**.
 
    O novo campo de tipo de data Última modificação é adicionado como uma coluna ao tipo de registro e seus valores são pré-preenchidos com a data (ou data e hora) em que o registro foi modificado pela última vez.
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## Criar campos conectando tipos de registro
 

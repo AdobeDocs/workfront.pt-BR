@@ -4,9 +4,9 @@ description: Você pode compartilhar um tipo de registro com outras pessoas para
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # Compartilhar tipos de registro
 
@@ -196,6 +198,25 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 
+## Remover permissões para um tipo de registro
+
+{{step1-to-planning}}
+
+1. Abra o espaço de trabalho cujos tipos de registro você deseja interromper o compartilhamento e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
+
+1. Na guia de qualquer modo de exibição, clique em **Compartilhar** no canto superior direito do tipo de registro.
+
+   A caixa **Compartilhar** é aberta.
+1. Localize o usuário, grupo, equipe, empresa ou função de trabalho cujas permissões você deseja remover, expanda o menu suspenso de permissões à direita de seu nome e clique em **Remover**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![Remover opção no menu suspenso de compartilhamento de tipo de registro](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Clique em **Salvar**.
+
+   As pessoas não têm mais acesso ao tipo de registro. Eles ainda podem ter permissões para o espaço de trabalho, a menos que você também as remova das permissões do espaço de trabalho.
+
+   Não há notificação para os usuários que foram removidos do acesso à visualização de que eles não têm mais esse acesso.
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## Remover permissões para um tipo de registro
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. Abra o espaço de trabalho cujos tipos de registro você deseja interromper o compartilhamento e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
-
-1. Na guia de qualquer modo de exibição, clique em **Compartilhar** no canto superior direito do tipo de registro.
-
-   A caixa **Compartilhar** é aberta.
-1. Localize o usuário, grupo, equipe, empresa ou função de trabalho cujas permissões você deseja remover, expanda o menu suspenso de permissões à direita de seu nome e clique em **Remover**. <!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![Remover opção no menu suspenso de compartilhamento de tipo de registro](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. Clique em **Salvar**.
-
-   As pessoas não têm mais acesso ao tipo de registro. Eles ainda podem ter permissões para o espaço de trabalho, a menos que você também as remova das permissões do espaço de trabalho.
-
-   Não há notificação para os usuários que foram removidos do acesso à visualização de que eles não têm mais esse acesso.
 
