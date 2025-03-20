@@ -4,9 +4,10 @@ description: Aprimoramentos do projeto do segundo trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
+exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
+source-git-commit: 35aa30973b5f942d3b22ad9f9338a509827f4656
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,19 @@ Esta página descreve todas as melhorias de gerenciamento de documentos feitas c
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2025, consulte [Visão geral da versão do Segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Atualização do Visualizador de provas de desktop
+
+>[!NOTE]
+>
+>Lançamento de pré-visualização: 20 de março de 2025; Produção para todos os clientes: 20 de março de 2025
+
+O Desktop Proofing Viewer foi atualizado para a versão 2.1.45. Essa atualização permite que o visualizador use
+
+* Elétron versão 35
+* Crômio versão 134
+
+Essa atualização é para Mac e Windows.
+
 ## Editar vários documentos de uma só vez em um Relatório de documentos
 
 >[!NOTE]
@@ -26,4 +40,3 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 Agora é possível editar vários documentos de uma só vez em um Relatório de documentos. É possível editar as descrições e atualizar formulários personalizados.
 
 Para obter mais informações, consulte [Editar documentos em massa](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
-
