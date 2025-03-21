@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 92efd05bc97e2e957825cbe7a5ca6d43ca795d6b
+source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13099'
 ht-degree: 2%
 
 ---
@@ -1710,6 +1710,10 @@ ht-degree: 2%
          * [Consultas de atividades do projeto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [Consultas de mapa de árvore do projeto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Consultas de atividade por equipe](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+      * Dicas, truques e solução de problemas para a conexão de dados{#troubleshooting-data-connect}
+         * [Dicas, truques e solução de problemas para a conexão de dados](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
+         * [O Tableau Desktop não pode estabelecer uma conexão](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
+         * [A ferramenta Power BI não consegue se conectar com a senha fornecida](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Gerenciar recursos {#manage-resources}
    * [Gerenciar recursos](resource-mgmt/manage-resources.md)
    * Gerenciamento de recursos {#resource-management}
