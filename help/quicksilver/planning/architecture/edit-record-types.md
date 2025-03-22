@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 2%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -159,15 +159,15 @@ OLD:
    A página do espaço de trabalho é aberta e os tipos de registro são exibidos.
 1. Siga um destes procedimentos:
 
-   * Passe o mouse sobre o cartão de um tipo de registro e clique no menu **Mais** ![](assets/more-menu.png) no canto superior direito do cartão de tipo de registro e clique em **Editar**
+   * Passe o mouse sobre o cartão de um tipo de registro e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão de tipo de registro e clique em **Editar**
 Ou
-   * Clique em um cartão de tipo de registro para abrir a página de tipo de registro, clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Editar**.
+   * Clique em um cartão de tipo de registro para abrir a página de tipo de registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Editar**.
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![Mais opções de menu do cartão de tipo de registro](assets/more-menu-options-from-record-type-card.png)
 
 1. Na caixa **Editar tipo de registro**, a guia **Aparência** é aberta por padrão.
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![Guia de aparência da caixa Editar tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Atualize as seguintes informações na guia **Aparência**:
 
@@ -179,7 +179,7 @@ Ou
 
 1. (Condicional) Se você for um administrador do sistema, clique na guia **Configurações avançadas** na caixa **Editar tipo de registro**.
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Guia de configurações avançadas da caixa Editar tipo de registro](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. (Condicional) Como administrador do sistema, atualize as seguintes informações na guia **Configurações avançadas**:
 
@@ -189,10 +189,10 @@ Ou
 
 1. Clique em **Salvar**.
 
-   O cartão de tipo de registro no espaço de trabalho exibe um ícone de conectividade ![](assets/connect-from-other-workspaces-icon.png) no canto superior direito para indicar que o registro agora pode ser acessado de outros espaços de trabalho.
+   O cartão de tipo de registro no espaço de trabalho exibe um ícone de conectividade ![Conectar-se de outros espaços de trabalho](assets/connect-from-other-workspaces-icon.png) no canto superior direito para indicar que o registro agora pode ser acessado de outros espaços de trabalho.
 
 1. (Opcional) Clique no cartão de tipo de registro na área do espaço de trabalho para abrir a página do tipo de registro e, em seguida, renomeie o tipo de registro no cabeçalho.
 
 1. (Opcional) Para editar outro tipo de registro, na página Tipo de registro, expanda a seta apontando para baixo à direita do nome de um tipo de registro, procure um tipo de registro e selecione-o quando ele for exibido na lista.
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![Menu suspenso de tipo de registro na página de tipo de registro com caixa de pesquisa](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

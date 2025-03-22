@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -172,12 +172,12 @@ OLD:
 1. (Opcional) Clique em K **Mostrar menos** para limitar o número de espaços de trabalho exibidos na tela.
 1. Para deletar um espaço de trabalho, siga um destes procedimentos:
 
-   * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![](assets/more-menu.png), no canto superior direito do cartão
+   * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão
 Ou
-   * Clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e no menu **Mais** ![](assets/more-menu.png) à direita do nome do espaço de trabalho.
+   * Clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho.
 1. Clique em **Excluir**.
 
-   ![](assets/permanently-delete-workspace-confirmation.png)
+   ![Excluir permanentemente a confirmação do espaço de trabalho](assets/permanently-delete-workspace-confirmation.png)
 
 1. Digite &quot;**delete**&quot; no espaço fornecido e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 

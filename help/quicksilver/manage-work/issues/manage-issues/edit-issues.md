@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2522'
 ht-degree: 2%
 
 ---
 
 # Editar problemas
 
+<!--Audited: 03/2025-->
+
 É possível editar informações sobre problemas criados por você ou criados por outros usuários se eles compartilharem os problemas com você.
 
 É possível editar um único problema ou editar problemas em uma lista. Para obter informações sobre como editar problemas em uma lista, consulte [Editar problemas em uma lista](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -30,19 +34,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> <p>Licença de revisão ou superior para editar problemas na seção Problemas de uma tarefa ou projeto</p> </td> 
+   <td> <p>Nova licença:</p>
+   <ul><li>Colaborador ou superior</li>
+   <li>Leve ou superior para editar problemas na seção Problemas de uma tarefa ou projeto</li></ul>
+   <p>Licença atual:</p>
+  <ul><li>Solicitação ou superior</li> <li>Revisar ou editar problemas na seção Problemas de uma tarefa ou projeto</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre acesso a problemas em seu Nível de Acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Nível de acesso</td> 
+   <td> <p>Editar acesso a ocorrências</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Contribua com permissões para um problema para editar os seguintes campos na área Detalhes: </p>
@@ -56,7 +62,9 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Limitações ao editar problemas
 
@@ -254,14 +262,9 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
       <tr> 
       <td role="rowheader">Isso resolve</td> 
       <td>O nome vinculado do problema que é concluído quando o problema que você está acessando é resolvido.  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. Clique em **Salvar** ou continue editando as seções a seguir.

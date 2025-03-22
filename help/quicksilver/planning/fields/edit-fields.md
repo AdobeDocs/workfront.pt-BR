@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-É possível editar as configurações de campo para campos já criados no Adobe Workfront Planning.
+É possível editar as configurações de campos existentes no Adobe Workfront Planning.
 
 Para obter informações sobre como criar campos do Adobe Workfront Planning, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -99,72 +99,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 +++
 
 
-<!--
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Considerações sobre a edição de configurações de campo
 
 Você deve considerar o seguinte antes de fazer alterações na configuração de um campo:
 
-* É possível editar campos criados ou campos criados por outros usuários, se você tiver permissões de gerenciamento para o espaço de trabalho ao qual os campos pertencem.
-* É possível editar um campo na tabela de tipo de registro.
+* É possível editar configurações de campo somente a partir da tabela de tipo de registro.
 * Não é possível editar um campo na página de registro ou em qualquer outra exibição fora da exibição de tabela.
 * Não é possível editar o tipo de campo depois que o campo é salvo.
 * Não é possível desmarcar a configuração Permitir números negativos que foi selecionada anteriormente para um campo Número, Porcentagem ou Moeda se já houver valores negativos armazenados nos registros aos quais está anexado.
@@ -181,6 +120,12 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
   >Não há aviso ou indicação de que essa perda de dados possa ocorrer ao alterar a configuração dos campos.
   >
   >Não há notificação para outros usuários informando que a configuração do campo foi alterada.
+
+* Não é possível editar campos de pesquisa existentes a partir de registros conectados.
+
+<!--replace he last bullet with thsi: 
+
+* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -207,7 +152,7 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
 
    Clique duas vezes no cabeçalho da coluna do campo.
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![Menu de seta após o nome do campo no cabeçalho da tabela realçado](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. Atualize as informações sobre o campo e clique em **Salvar**. <!--insert screen shot when finalized-->
 

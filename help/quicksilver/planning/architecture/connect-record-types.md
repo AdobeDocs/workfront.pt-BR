@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2407'
 ht-degree: 1%
 
 ---
@@ -187,13 +187,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
 1. Clique no ícone **+** no canto superior direito do modo de exibição de tabela e clique na guia **Nova conexão**.
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Nova guia de conexão com opções do Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. No campo **Tipo de registro**, procure um tipo de registro ou selecione um dos seguintes:
 
    * Outro tipo de registro do espaço de trabalho atual
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Seletor de conexões de muitos para muitos](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Caixa Nova conexão para permitir vários registros](assets/new-connection-allow-multiple-records-box.png)
 
    * Um **Projeto, Portfolio, Programa, Empresa** ou **Grupo** da seção **Tipos de Objeto do Workfront**.
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Seleção de conexão do projeto Workfront](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets** da seção **Aplicativos Adobe**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![Seleção de conexão do AEM Assets](assets/aem-assets-connection-selection.png)
 
 1. Atualize as seguintes informações:
 
@@ -233,7 +233,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      Essa opção está disponível somente ao conectar registros de dois espaços de trabalho diferentes ou um registro e um objeto de ativo do Adobe Experience Manager.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Caixa Nova conexão para permitir vários registros](assets/new-connection-allow-multiple-records-box.png)
 
    * **Tipo de conexão**: selecione uma das seguintes opções para indicar a quantidade de registros aos quais eles podem se conectar e de onde:
 
@@ -244,7 +244,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      Essa opção está disponível somente ao conectar registros do mesmo espaço de trabalho ou de um registro e um tipo de objeto do Workfront.
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Seletor de conexões de muitos para muitos](assets/many-to-many-connection-picker.png)
 
      Para obter mais informações sobre tipos de conexão, consulte [Visão geral sobre tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -303,7 +303,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Clique no ícone **-** para remover campos da área **Campos selecionados**
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![Adicionar campos de pesquisa para outra caixa de tipo de registro](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    Os valores dos campos conectados são preenchidos automaticamente depois de vincular registros ou objetos.
 
@@ -328,7 +328,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >    Você deve selecionar um valor agregador ao adicionar campos de data de pesquisa, se quiser que os campos estejam disponíveis para serem adicionados como Datas inicial e final para as exibições de linha do tempo e calendário. Por exemplo, você pode selecionar o agregador MAX ou MIN para um campo de data de pesquisa.
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![Lista suspensa de agregadores para o campo de número vinculado](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >* **ÚNICO**: $100.000
    >
 
-1. (Opcional) Use o ícone ![](assets/search-icon.png) de **pesquisa** para procurar um campo.
+1. (Opcional) Use o **ícone de pesquisa** ![ícone de pesquisa](assets/search-icon.png) para procurar um campo.
 
 1. Clique em **Adicionar campos** para salvar as alterações.
 
@@ -385,7 +385,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * **Editar campo**: atualize as informações de **Nome** e **Descrição** do campo.
    * **Editar campos de pesquisa**: adicionar ou remover qualquer um dos campos de registro vinculados.
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![Menu suspenso Editar campo e campos de pesquisa na coluna da tabela](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    Para adicionar ou remover campos de pesquisa, siga as instruções nas etapas 16 a 17 acima. <!--ensure these step numbers stay accurate-->
 

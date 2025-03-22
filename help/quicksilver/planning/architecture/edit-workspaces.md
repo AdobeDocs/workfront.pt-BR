@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -166,14 +166,14 @@ For more information about access requirements, see [Access requirements in Work
 1. (Opcional) Clique em K **Mostrar menos** para limitar o número de espaços de trabalho exibidos na tela.
 1. Para editar um espaço de trabalho, siga um destes procedimentos:
 
-   * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![](assets/more-menu.png), no canto superior direito do cartão
+   * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão
 Ou
-   * Clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e no menu **Mais** ![](assets/more-menu.png) à direita do nome do espaço de trabalho.
+   * Clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho.
 1. Clique em **Editar**.
 
    A caixa **Editar espaço de trabalho** é exibida.
 
-   ![](assets/edit-workspace-box.png)
+   ![Editar caixa de espaço de trabalho](assets/edit-workspace-box.png)
 
 1. Atualize as seguintes informações na caixa **Editar espaço de trabalho**:
 
@@ -186,16 +186,16 @@ Ou
 1. (Opcional) Para adicionar uma nova seção do espaço de trabalho, siga um destes procedimentos:
 
    * Clique em **Adicionar seção** na parte inferior do espaço de trabalho.
-   * Passe o mouse sobre o nome de uma seção, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Adicionar seção acima** ou **Adicionar seção abaixo**.
+   * Passe o mouse sobre o nome de uma seção e clique no menu **Mais** ![Mais menus](assets/more-menu.png), em seguida clique em **Adicionar seção acima** ou **Adicionar seção abaixo**.
 
 1. (Opcional) Para alterar o local de uma seção, siga um destes procedimentos:
 
-   * Passe o mouse sobre o nome de uma seção, clique no ícone ![](assets/grab-icon.png) de **captura** e arraste-o e solte-o no ponto correto.
-   * Passe o mouse sobre o nome de uma seção, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Mover para cima** ou **Mover para baixo**. A seção se move para cima ou para baixo dentro do espaço de trabalho.
+   * Passe o mouse sobre o nome de uma seção, clique no ícone **agarrar** ![Capturar ícone](assets/grab-icon.png) e arraste-o e solte-o no lugar certo.
+   * Passe o mouse sobre o nome de uma seção e clique no menu **Mais** ![Mais menu](assets/more-menu.png), depois clique em **Mover para cima** ou **Mover para baixo**. A seção se move para cima ou para baixo dentro do espaço de trabalho.
 
 1. (Opcional) Para excluir uma seção do espaço de trabalho, faça o seguinte:
 
-   1. Passe o mouse sobre o nome de uma seção, em seguida, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Excluir**. <!--add screen shot when UI is final?-->
+   1. Passe o mouse sobre o nome de uma seção, em seguida, clique no menu **Mais** ![Mais menus](assets/more-menu.png) e clique em **Excluir**. <!--add screen shot when UI is final?-->
    1. Selecione uma nova seção para mover todos os tipos de registros para ela e clique em **Excluir**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Todos os tipos de registro são movidos para a seção de seleção, e a seção é excluída.
@@ -204,17 +204,17 @@ Ou
 
    Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no menu **Mais** ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para modificar a aparência de um tipo de registro.
+1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito e clique em **Editar** para modificar a aparência de um tipo de registro.
 
    Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no menu **Mais** ![](assets/more-menu.png) no canto superior direito e clique em **Excluir** para excluir um tipo de registro.
+1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito e clique em **Excluir** para excluir um tipo de registro.
 
    Para obter informações, consulte [Excluir tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Opcional) Pressione e clique em um cartão de tipo de registro para arrastá-lo e soltá-lo em um novo ponto. Você pode arrastar e soltar tipos de registro de uma seção do espaço de trabalho para outra.
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![Arraste e solte tipos de registros em um espaço de trabalho](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Opcional) Clique em **Compartilhar** no canto superior direito do espaço de trabalho para compartilhá-lo com outras pessoas.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Considere o seguinte sobre a conexão de tipos de registro:
      >
      >Todos os usuários com permissões de Exibição ou superiores para o espaço de trabalho podem exibir as informações nos campos de pesquisa, independentemente de suas permissões ou nível de acesso na aplicação dos tipos de objeto vinculados ou suas permissões em outros espaços de trabalho.
 
-     Os campos de registro vinculados são precedidos por um ícone de relação ![](assets/relationship-field-icon.png).
+     Os campos de registro vinculados são precedidos por um ícone de relação ![Ícone de campo de relação](assets/relationship-field-icon.png).
 
      Os campos vinculados são precedidos por um ícone que identifica o tipo de campo. Por exemplo, campos vinculados (ou de pesquisa) são precedidos por ícones que indicam que um campo é um número, um parágrafo ou uma data.
 
@@ -118,7 +118,7 @@ Dependendo de quantos registros você pode adicionar a um campo de registro cone
 
 ### Tipo de conexão muitos para muitos
 
-![](assets/many-to-many-connection-picker.png)
+![Seletor de conexões de muitos para muitos](assets/many-to-many-connection-picker.png)
 
 Ao criar uma conexão muitos para muitos entre os tipos de registro, você pode selecionar vários registros no campo de conexão de ambos os tipos de registro.
 
@@ -130,7 +130,7 @@ Ao selecionar esse tipo de conexão, você não pode alterar o tipo de conexão 
 
 ### Tipo de conexão um para muitos
 
-![](assets/one-to-many-connection-picker.png)
+![Seletor de conexões de um para muitos](assets/one-to-many-connection-picker.png)
 
 
 Ao criar uma conexão um para muitos entre os tipos de registro, você pode selecionar vários registros no campo conexão no tipo de registro atual, mas o campo conexão correspondente no tipo de registro ao qual você se conecta permitirá selecionar apenas um registro. O campo de registro conectado criado automaticamente no segundo tipo de registro é automaticamente definido como um tipo de relacionamento muitos para um.
@@ -143,7 +143,7 @@ Ao selecionar esse tipo de conexão, você poderá alterá-lo posteriormente som
 
 ### Tipo de conexão muitos para um
 
-![](assets/many-to-one-connection-picker.png)
+![Seletor de conexões de muitos para um](assets/many-to-one-connection-picker.png)
 
 
 Ao criar uma conexão muitos para um entre os tipos de registro, você pode conectar cada registro no tipo de registro atual com apenas um registro do tipo de registro conectado. O campo de registro conectado que é criado automaticamente no segundo tipo de registro é automaticamente definido como um tipo de relacionamento um para muitos.
@@ -156,7 +156,7 @@ Ao selecionar esse tipo de conexão, você poderá alterá-lo posteriormente som
 
 ### Tipo de conexão um para um
 
-![](assets/one-to-one-connection-picker.png)
+![Seletor de conexão um para um](assets/one-to-one-connection-picker.png)
 
 Ao criar uma conexão um para um entre os tipos de registro, em ambos os tipos de registro você pode conectar cada registro somente a um registro do outro tipo.
 

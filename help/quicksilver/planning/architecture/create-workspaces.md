@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '628'
 ht-degree: 1%
 
 ---
@@ -176,7 +176,7 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
 
    Há uma indicação de quais tipos de registro operacional, taxonomias e quantos campos estão associados a cada modelo.
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![Visualizando um modelo de espaço de trabalho](assets/previewing-a-workspace-template.png)
 
    Para obter informações sobre modelos de espaço de trabalho do Workfront Planning, consulte [Lista de modelos de espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md).
 
@@ -201,7 +201,7 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
 
    Ou
 
-   Passe o mouse sobre o nome de uma seção, em seguida, clique no menu **Mais** ![](assets/more-menu.png) e em **Renomear** para renomear a seção.
+   Passe o mouse sobre o nome de uma seção, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png), em seguida, clique em **Renomear** para renomear a seção.
 
    >[!TIP]
    >

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
 
 # Editar e criar tipos de risco
+
+<!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -46,7 +48,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
    <td><p>Novo: [!UICONTROL Padrão]</p>
    Ou
    <p>Atual: [!UICONTROL Plano]</p>
@@ -59,7 +61,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,10 +97,9 @@ Você pode fazer o seguinte para aprimorar o número de tipos de risco na instâ
 
    >[!TIP]
    >
-   >   É possível editar as informações de tipo de risco em linha, ao clicar duas vezes no Nome ou Descrição de um tipo de risco na lista.
+   >   É possível editar as informações de tipo de risco em linha, ao clicar duas vezes no Nome ou Descrição de um tipo de risco em uma lista de tipos de risco.
 
 1. (Opcional) Altere o nome e a descrição do tipo de risco.
-
 
    Há um limite de 50 caracteres para os campos **[!UICONTROL Nome]** e **[!UICONTROL Descrição]**.
 
@@ -130,7 +131,7 @@ Você pode criar tipos de risco, além dos tipos padrão.
    Ou
 
    Clique em [!UICONTROL **Adicionar mais tipos de risco**] no canto inferior esquerdo da lista de tipos de risco para adicionar tipos de risco em linha. <!--add screen shot-->
-1. Digite um **[!UICONTROL Nome]** (obrigatório) e uma **[!UICONTROL Descrição]** (opcional) para o tipo de risco.
+1. Adicione um **[!UICONTROL Nome]** (obrigatório) e uma **[!UICONTROL Descrição]** (opcional) para o tipo de risco.
 
    Há um limite de 50 caracteres para os campos **[!UICONTROL Nome]** e **[!UICONTROL Descrição]**.
 

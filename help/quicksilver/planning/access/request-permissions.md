@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Quando alguém compartilha com você um link para um espaço de trabalho ou uma 
 
    Uma página **Você não tem acesso** é exibida para informá-lo de que você não tem acesso à exibição ou ao espaço de trabalho.
 
-   ![](assets/request-access-to-view.png)
+   ![Solicitar acesso para exibição](assets/request-access-to-view.png)
 
 1. (Condicional) Se o link compartilhado for para uma exibição de um espaço de trabalho ao qual você tem acesso, clique em **Abrir com exibição existente**. Se você tiver permissões para acessar o espaço de trabalho, a página do tipo de registro será aberta na exibição padrão.
 
@@ -126,8 +126,8 @@ Quando alguém compartilha com você um link para um espaço de trabalho ou uma 
 
    Todos os usuários com permissões para Gerenciar a exibição ou o espaço de trabalho recebem as seguintes notificações para a solicitação de acesso:
    * Uma notificação no aplicativo
-     ![](assets/in-app-notification-for-access-request.png)
+     ![Notificação no aplicativo para solicitação de acesso](assets/in-app-notification-for-access-request.png)
    * Uma notificação por email
-     ![](assets/email-notification-for-access-request.png)
+     ![Notificação por email para a solicitação de acesso](assets/email-notification-for-access-request.png)
 
 1. (Condicional) Quando a exibição ou o gerenciador de espaço de trabalho concede permissões para a exibição ou o espaço de trabalho, você recebe uma notificação por email e uma notificação no aplicativo com uma confirmação de que a permissão foi concedida. <!--check this - I was not able to test this, but Isk confirmed.-->

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Para fazer isso:
       * **Imagem**: exibe somente a miniatura ou o ícone dos registros conectados.
    * **Selecionar campos de pesquisa**: se você deixar essa opção selecionada, a caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Produto posteriormente.
 
-     ![](assets/new-connection-with-product-record-type.png)
+     ![Nova conexão com o tipo de registro de produto](assets/new-connection-with-product-record-type.png)
 
 1. (Condicional) Se você selecionou a opção **Selecionar campos de pesquisa** na etapa anterior, na lista de campos associados ao tipo de registro **Produto**, clique no ícone **+** do campo **Orçamento** e clique em **Adicionar campos**. Isso cria um campo chamado **Orçamento (das informações do produto)**, que é o nome do campo vinculado. Todas as informações para o Orçamento do produto são exibidas nesse campo para os registros da Campanha.
 
-   ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
+   ![Adicionar campos para campo de orçamento para conexão com tipo de registro](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
    >[!TIP]
    >
@@ -84,17 +84,17 @@ Para fazer isso:
 
       * **Campanha**: isso indica que o tipo de registro do Produto está vinculado ao tipo de registro da Campanha.
 
-     ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+     ![Exemplo de campos de relacionamento de informações de campanha da tabela de registro de produto](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    Os campos de registro vinculados são precedidos pelo ícone de relação ![](assets/relationship-field-icon.png).
+   >    Os campos de registro vinculados são precedidos pelo ícone de relação ![Ícone de campo de relação](assets/relationship-field-icon.png).
 
 1. Na exibição da tabela do tipo de registro **Campanha**, crie uma campanha adicionando uma nova linha na tabela da página Tipo de registro da campanha.
 
 1. Clique duas vezes dentro da coluna **Informações do produto** da nova campanha.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Conectar outros registros a uma caixa menor na exibição de tabela](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Siga um destes procedimentos:
 
@@ -104,7 +104,7 @@ Para fazer isso:
 
 1. (Condicional) Se você clicou em **Ver tudo** na etapa anterior, a caixa **Conectar objetos** será exibida.
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![Tabela de objetos conectados para registros](assets/connected-objects-table-for-records.png)
 
 1. Comece a digitar o nome de um produto na caixa de pesquisa e selecione-o quando ele for exibido na lista
 
@@ -120,7 +120,7 @@ Para fazer isso:
    * O campo **Informações do produto** é preenchido para o registro de Campanha com os Produtos selecionados.
    * **O campo Orçamento (das informações do Produto)** é preenchido com o valor do Orçamento para cada Produto selecionado ou com um total de todos os orçamentos dos produtos selecionados (se você selecionou SUM para o agregador).
 
-   ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![Exemplo de informações sobre o produto e campos de relacionamento de orçamento para a tabela de registro de campanha](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Para fazer isso:
    * **Vincular somente objetos que correspondam a este critério**: selecione um formulário personalizado no menu suspenso **Formulário personalizado**. Somente os projetos associados aos formulários especificados estão disponíveis para serem conectados às campanhas. É possível selecionar vários formulários.
    * **Selecionar campos de pesquisa**: se você deixar essa opção selecionada, a caixa **Adicionar campos de pesquisa** será aberta em seguida, para permitir que você vincule campos do Project ao tipo de registro do Campaign. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos do Project mais tarde.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![Nova guia de conexão com a opção Workfront](assets/new-connection-tab-with-workfront-option.png)
 
 1. (Condicional) Se você selecionou a opção **Selecionar campos de pesquisa** na etapa anterior, na lista de campos associados ao tipo de objeto **Projeto**, clique no ícone **+** do campo **Receita planejada** e clique em **Adicionar campos**. Isso cria um campo chamado **Receita planejada (das informações do projeto)**, que é o nome do campo vinculado. Qualquer informação do campo Receita planejada do projeto será exibida automaticamente neste campo para os registros da campanha.
 
@@ -169,7 +169,7 @@ Para fazer isso:
    >
    > Se você selecionar **Nenhum**, em vez de **SOMA**, as Receitas Planejadas individuais serão exibidas separadas por vírgulas.
 
-   ![](assets/add-planned-revenue-project-field-to-new-connection.png)
+   ![Adicionar campo de projeto de Receita Planejada à nova conexão](assets/add-planned-revenue-project-field-to-new-connection.png)
 
    Isso gera os seguintes campos:
 
@@ -180,13 +180,13 @@ Para fazer isso:
 
    >[!TIP]
    >
-   >    Campos de objetos vinculados são precedidos pelo ícone de relação ![](assets/relationship-field-icon.png).
+   >    Campos de objetos vinculados são precedidos pelo ícone de relação ![Ícone de campo de relação](assets/relationship-field-icon.png).
 
 1. Na exibição de tabela do tipo de registro **Campanha**, crie uma campanha adicionando uma nova linha na tabela.
 
 1. Clique duas vezes dentro da coluna Project information** da nova campanha.
 
-   ![](assets/connect-projects-smaller-box-in-table.png)
+   ![Conectar projetos a uma caixa menor na tabela](assets/connect-projects-smaller-box-in-table.png)
 
 1. Siga um destes procedimentos:
 
@@ -196,7 +196,7 @@ Para fazer isso:
 
 1. (Condicional) Se você clicou em **Ver tudo** na etapa anterior, a caixa **Conectar objetos** será exibida.
 
-   ![](assets/connect-projects-larger-box.png)
+   ![Conectar projetos em caixa maior](assets/connect-projects-larger-box.png)
 
 1. Comece digitando o nome de um projeto na caixa de pesquisa e selecione-o quando ele for exibido na lista
 
@@ -214,7 +214,7 @@ Para fazer isso:
       * O campo **Informações do projeto** é preenchido para o registro de Campanha com os projetos selecionados.
       * O campo **Receita planejada (das informações do produto)** é preenchido com o valor de Orçamento de cada produto selecionado. Este campo é somente leitura.
 
-   ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![Campo vinculado ao projeto e Receita planejada na tabela de campanha destacados](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

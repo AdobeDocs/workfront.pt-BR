@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral dos espaços de trabalho
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 Um espaço de trabalho é uma coleção de tipos de registro usados por uma unidade organizacional e representa o ciclo de vida e os processos de trabalho da unidade. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning.
 
 
-![](assets/workspaces-landing-page-admin-account.png)
+![Conta de administrador da página de aterrissagem do Workspaces](assets/workspaces-landing-page-admin-account.png)
 
 ## Considerações sobre espaços de trabalho
 
@@ -56,6 +56,3 @@ Um espaço de trabalho é uma coleção de tipos de registro usados por uma unid
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Há limites para a quantidade de objetos do espaço de trabalho que você pode criar na instância do Workfront Planning. Para obter informações, consulte [visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
-
-
-

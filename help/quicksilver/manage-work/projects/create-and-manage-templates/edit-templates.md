@@ -6,9 +6,9 @@ description: Você pode editar modelos de projeto para refletir as alterações 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 2%
 
 ---
@@ -1098,7 +1098,7 @@ Adicionar os seguintes itens a um modelo é idêntico a adicioná-los a um proje
 
   Para obter informações sobre como associar processos de aprovação a trabalho, consulte [Associar um processo de aprovação novo ou existente a trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-* Preços
+* Taxas de cobrança
 
   Para obter mais informações sobre substituição de taxas de cobrança para um projeto, consulte [Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
@@ -1106,9 +1106,16 @@ Adicionar os seguintes itens a um modelo é idêntico a adicioná-los a um proje
 
   Para obter mais informações sobre como adicionar despesas, consulte [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
+* Detalhes da fila
+
+  Para obter informações sobre como adicionar Detalhes da Fila a um projeto ou modelo, consulte [Criar uma Fila de Solicitação](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 * Grupos de Tópicos e Tópicos de Fila
 
-  Para obter mais informações sobre como adicionar Grupos de Tópicos e Tópicos da Fila a um projeto ou modelo, consulte [Criar uma Fila de Solicitação](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Para obter informações sobre como adicionar Grupos de tópicos e Tópicos da fila a um projeto ou modelo, consulte os seguintes artigos:
+
+   * [Criar Grupos de Tópicos](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Criar Tópicos de Fila](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 É possível adicionar os seguintes itens às tarefas no modelo:
 

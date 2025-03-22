@@ -8,14 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
 
 # Criar problemas
+
+<!--Audited: 03/2025-->
 
 <!--
 
@@ -46,25 +48,29 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou superior para adicionar problemas a um projeto ou tarefa</p> <p>Solicitação ou mais recente para adicionar problemas como solicitações, usando uma Fila de solicitações.</p> </td> 
+   <td> <p>Nova licença:</p>
+   <ul><li>Colaborador ou superior</li>
+   <li>Leve ou superior para editar problemas na seção Problemas de uma tarefa ou projeto</li></ul>
+   <p>Licença atual:</p>
+  <ul><li>Solicitação ou superior</li> <li>Revisar ou editar problemas na seção Problemas de uma tarefa ou projeto</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre acesso a problemas em seu Nível de Acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superior com capacidade para adicionar problemas à tarefa ou projeto em que você cria o problema</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superior com capacidade para adicionar problemas à tarefa ou projeto em que você cria o problema</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,76 +87,30 @@ Quando você tem o acesso e as permissões corretas, é possível criar problema
 
 ## Preparar o formulário Novo problema
 
-Sua organização deve ter um processo bem definido para quando e como registrar um problema. Ao configurar esse processo, a primeira etapa é criar o formulário necessário para enviar um problema. Se você permitir que problemas sejam adicionados diretamente a tarefas e projetos, ou se tiver filas de solicitações em que problemas são enviados, será possível definir quais campos do Workfront, bem como quais campos personalizados estão disponíveis para os usuários quando eles enviam novos problemas e devem ser concluídos. O formulário Novo problema pode conter informações importantes que serão úteis para resolver o problema rapidamente.
+Sua organização deve ter um processo bem definido para quando e como registrar um problema. Ao configurar esse processo, a primeira etapa é criar o formulário necessário para enviar um problema.
 
-Os campos para os novos problemas em um projeto são definidos na seção Detalhes da fila do projeto onde os problemas serão registrados. Para obter informações sobre como configurar a seção Detalhes da Fila do projeto, consulte [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Os usuários podem adicionar problemas a um projeto das seguintes maneiras:
+
+* Adicioná-los diretamente a tarefas e projetos.
+* Submetê-las a uma fila de solicitações.
+
+O formulário Novo problema pode conter informações importantes que serão úteis para resolver o problema rapidamente.
+
+Você pode configurar o formulário Novo problema para incluir as seguintes informações quando os usuários adicionarem problemas ao projeto ou às suas tarefas:
+
+* Campos personalizados
+* Aprovações
+* Atribuições (Regras de Encaminhamento)
+
+Os campos para novos problemas ou solicitações são definidos na seção Detalhes da fila do projeto onde os problemas serão registrados.
+
+Para obter informações sobre como configurar a seção Detalhes da Fila do projeto, consulte [Criar uma Fila de Solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Para obter informações sobre como criar problemas enviando-os para uma fila de solicitações, consulte a seção [Criar problemas inserindo uma nova solicitação](#create-issues-by-entering-a-new-request) neste artigo.
 
 ## Criar problemas em uma tarefa ou projeto usando o botão Novo Problema
 
 Depois de definir os campos de um novo formulário de problema em seu projeto, você pode começar a criar problemas.
-
-<!-- OLD UI: redesigned on Oct 26, 2023:
-
-Creating issues differs depending on which environment you choose to create the issue. 
-
-### Create issues on a task or project using the New Issue button in the Production environment
-
-To create an issue on a task or a project:
-
-1. Go to a project where you want to create the issue. 
-1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
-1. Click the **Issues** section.
-
-   
-1. Click **New Issue**.
-
-  
-
-1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
-   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
-
-   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
-
-   * If there is only one Queue Topic set on the project, it is displayed automatically.
-   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
-
-1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
-
-   * Bug Report
-   * Change Order
-   * Issue
-   * Request  
-     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
-
-   >[!TIP]
-   >
-   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
-   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
-
-
-1. Add a name for the new issue in the **Issue Name** field. 
-1. Continue specifying the fields available in the **New Issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
-
-   >[!IMPORTANT]
-   >
-   >Not all the issue-related fields are available in the New Issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
-
-
-1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
-   Or  
-   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, after the default Workfront fields.
-
-   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-
-1. Click **Save New Issue.**
-
-Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
--->
 
 Para criar um problema em uma tarefa ou um projeto:
 
@@ -247,7 +207,7 @@ Para criar problemas em linha:
 
 ## Criar problemas inserindo uma nova solicitação {#create-issues-by-entering-a-new-request}
 
-Você pode designar projetos para serem recipientes de problemas de recebimento. Esses tipos de projetos são chamados de Filas de solicitações no Workfront. Você pode acessar Filas de solicitações por meio da área Solicitações no Menu principal.
+Você pode designar projetos para serem recipientes de problemas de recebimento. Esses tipos de projetos são chamados de Filas de solicitações no Workfront. Você pode acessar Filas de solicitações na área Solicitações do Menu principal.
 
 >[!TIP]
 >
