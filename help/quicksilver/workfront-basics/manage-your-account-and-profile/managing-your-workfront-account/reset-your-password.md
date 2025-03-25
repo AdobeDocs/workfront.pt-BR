@@ -6,9 +6,9 @@ description: Você pode redefinir sua  [!DNL Adobe Workfront] senha. Como medida
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: 00930d520a6421a33ebe7c4842b59b9df514080b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -77,10 +77,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Digite a senha antiga e a nova senha desejada duas vezes.
 
-   Sua senha deve ter pelo menos 8 caracteres e conter dois <!--of each-->dos seguintes tipos de caracteres:
+   Sua senha deve ter pelo menos 8 caracteres e conter dois dos seguintes tipos de caracteres:
 
-   <!--* Uppercase letters
-   * Lowercase letters-->
+   * Letras maiúsculas
+   * Letras minúsculas
    * Cartas
    * Números
    * Caracteres especiais (como ! @ # $ %)
